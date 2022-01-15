@@ -33,10 +33,6 @@ jobs:
       - name: Get changed XML files
         id: changed-xml-files
         uses: tj-actions/changed-files@v13.1
-        with:
-          files: |
-            .github/workflows/main.yml
-            data
 
       - name: Iterate over changed files
         run: |
