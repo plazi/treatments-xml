@@ -26,9 +26,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Install xalan
-        run: |
-          echo $USER
-          apt update && DEBIAN_FRONTEND=noninteractive apt install -y xalan
+        run: sudo apt update && DEBIAN_FRONTEND=noninteractive sudo apt install -y xalan
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
