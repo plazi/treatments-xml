@@ -39,7 +39,7 @@ jobs:
 
       - name: Iterate over changed files
         run: |
-          for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+          for file in ${{ steps.changed-xml-files.outputs.all_changed_files }}; do
             echo "$file was changed"
             # xalan -in $file -xsl stylesheet.xsl
           done
