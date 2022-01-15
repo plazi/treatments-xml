@@ -35,7 +35,7 @@ jobs:
         uses: tj-actions/changed-files@v13.1
         with:
           files: |
-            **/*.yml
+            .github/workflows/main.yml
             data
 
       - name: Iterate over changed files
