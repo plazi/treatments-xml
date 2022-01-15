@@ -27,7 +27,7 @@ jobs:
 
       - name: Install xalan
         run: |
-          whomai
+          echo $USER
           apt update && DEBIAN_FRONTEND=noninteractive apt install -y xalan
 
       # Runs a set of commands using the runners shell
