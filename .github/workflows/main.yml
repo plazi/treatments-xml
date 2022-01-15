@@ -28,13 +28,14 @@ jobs:
           fetch-depth: 0
 
       - name: Install xalan
-        run: sudo apt update && DEBIAN_FRONTEND=noninteractive sudo apt install -y xalan
+        run: echo skipping # sudo apt update && DEBIAN_FRONTEND=noninteractive sudo apt install -y xalan
         
       - name: Get changed XML files
         id: changed-xml-files
         uses: tj-actions/changed-files@v13.1
         with:
           files: |
+            *.yml
             *.xml
 
       - name: Iterate over changed files
