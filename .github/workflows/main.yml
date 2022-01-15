@@ -38,7 +38,7 @@ jobs:
         run: |
           cd $GITHUB_WORKSPACE
           for file in ${{ steps.changed-xml-files.outputs.all_changed_files }}; do
-            if [[ $file == *.xml ]]; do
+            if [[ $file == *.xml ]]; then
               echo "$file is xml, applying xalan"
               xalan -in $file -out ../treatments-rdf/${file:0:-4}.rdf -xsl gg2rdf.xsl
             fi
