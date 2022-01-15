@@ -37,6 +37,8 @@ jobs:
       - name: Iterate over changed files
         run: |
           for file in ${{ steps.changed-xml-files.outputs.all_changed_files }}; do
-            echo "$file was changed"
-            # xalan -in $file -xsl stylesheet.xsl
+            if [[ $file == *.xml ]]; do
+              echo "$file is xml, applying xalan"
+              echo "» xalan -in $file -xsl stylesheet.xsl"
+            fi
           done
