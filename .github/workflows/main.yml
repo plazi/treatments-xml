@@ -36,9 +36,11 @@ jobs:
 
       - name: Iterate over changed files
         run: |
+          cd $GITHUB_WORKSPACE
           for file in ${{ steps.changed-xml-files.outputs.all_changed_files }}; do
             if [[ $file == *.xml ]]; do
               echo "$file is xml, applying xalan"
-              echo "» xalan -in $file -xsl stylesheet.xsl"
+              echo "» xalan -in $file -out ../treatments-rdf/${file:0:-4}.rdf -xsl gg2rdf.xsl"
             fi
           done
+          ls -l ../treatments-rdf/
