@@ -27,10 +27,17 @@ jobs:
 
       - name: Install xalan
         run: sudo apt update && DEBIAN_FRONTEND=noninteractive sudo apt install -y xalan
+        
+      - name: Get changed XML files
+        id: changed-xml-files
+        uses: tj-actions/changed-files@v13.1
+        with:
+          files: |
+            *.xml
 
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
+      - name: Iterate over changed files
         run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
-          xalan -in modified-file.xml -xsl stylesheet.xsl
+          for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+            echo "$file was changed"
+            # xalan -in $file -xsl stylesheet.xsl
+          done
