@@ -28,7 +28,7 @@ jobs:
           fetch-depth: 0
 
       - name: Install xalan
-        run: echo skipping # sudo apt update && DEBIAN_FRONTEND=noninteractive sudo apt install -y xalan
+        run: sudo apt update && DEBIAN_FRONTEND=noninteractive sudo apt install -y xalan
         
       - name: Get changed XML files
         id: changed-xml-files
@@ -40,7 +40,7 @@ jobs:
           for file in ${{ steps.changed-xml-files.outputs.all_changed_files }}; do
             if [[ $file == *.xml ]]; do
               echo "$file is xml, applying xalan"
-              echo "» xalan -in $file -out ../treatments-rdf/${file:0:-4}.rdf -xsl gg2rdf.xsl"
+              xalan -in $file -out ../treatments-rdf/${file:0:-4}.rdf -xsl gg2rdf.xsl
             fi
           done
           ls -l ../treatments-rdf/
