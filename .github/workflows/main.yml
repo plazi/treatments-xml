@@ -35,8 +35,8 @@ jobs:
         uses: tj-actions/changed-files@v13.1
         with:
           files: |
-            *.yml
-            *.xml
+            **/*.yml
+            data
 
       - name: Iterate over changed files
         run: |
