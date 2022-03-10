@@ -91,7 +91,7 @@ jobs:
           for file in $(find . -type f); do
 
             cd $GITHUB_WORKSPACE/ttl-repo
-            if [ -f $file ]; do
+            if [ -f $file ]; then
               LAST_CHANGE_MSG=`git log --grep=${{ github.repository }}@ -F -n 1 --format="%s" -- $file`
               LAST_CHANGE_HASH=${LAST_CHANGE_MSG##*${{ github.repository }}@}
 
