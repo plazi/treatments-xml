@@ -39,10 +39,11 @@ jobs:
         run: |
           cd $GITHUB_WORKSPACE/xml
           mkdir $GITHUB_WORKSPACE/rdf
-          mkdir $GITHUB_WORKSPACE/rdf/data
           for file in ${{ steps.changed-xml-files.outputs.all_changed_files }}; do
             if [[ $file == *.xml ]]; then
-              # echo "$file is xml, applying xalan"
+              echo "$file is xml, applying xalan"
+              relative_file=`realpath -m --relative-to=$GITHUB_WORKSPACE/xml $file`
+              mkdir -p $GITHUB_WORKSPACE/rdf/${relative_file%/*}
               xalan -in $file -out $GITHUB_WORKSPACE/rdf/${file:0:-4}.rdf -xsl gg2rdf.xslt
             fi
           done
@@ -50,10 +51,12 @@ jobs:
       - name: Convert all generated RDF-XML files to TTL
         run: |
           cd $GITHUB_WORKSPACE/rdf
-          mkdir -p $GITHUB_WORKSPACE/ttl/data
+          mkdir -p $GITHUB_WORKSPACE/ttl
           for file in **/*; do
             if [ -f "$file" ]; then
-              # echo "$file in generated rdf-xml folder"
+              echo "$file in generated rdf-xml folder"
+              relative_file=`realpath -m --relative-to=$GITHUB_WORKSPACE/rdf $file`
+              mkdir -p $GITHUB_WORKSPACE/ttl/${relative_file%/*}
               # $file → $GITHUB_WORKSPACE/ttl/${file:0:-4}.ttl
               rapper -e -w -q $file --output turtle > $GITHUB_WORKSPACE/ttl/${file:0:-4}.ttl
             fi
@@ -99,6 +102,8 @@ jobs:
                 THIS_CHANGE_DATE=git log -n 1 --format="%ct" -- $file
                 if [ $THIS_CHANGE_DATE -ge $LAST_CHANGE_DATE ]; then
                   echo "$LAST_CHANGE_HASH is older than $THIS_CHANGE_HASH ($LAST_CHANGE_DATE < $THIS_CHANGE_DATE), updating $file"
+                  relative_file=`realpath -m --relative-to=$GITHUB_WORKSPACE/ttl $file`
+                  mkdir -p $GITHUB_WORKSPACE/ttl-repo/${relative_file%/*}
                   rm -f -- $GITHUB_WORKSPACE/ttl-repo/$file
                   mv $GITHUB_WORKSPACE/ttl/$file $GITHUB_WORKSPACE/ttl-repo/$file 
                 else
