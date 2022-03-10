@@ -50,6 +50,7 @@ jobs:
 
       - name: Convert all generated RDF-XML files to TTL
         run: |
+          ls -UR $GITHUB_WORKSPACE/rdf
           cd $GITHUB_WORKSPACE/rdf
           mkdir -p $GITHUB_WORKSPACE/ttl
           for file in **/*; do
