@@ -71,12 +71,12 @@ jobs:
         run: |
           for file in ${{ steps.changed-xml-files.outputs.deleted_files }}; do
             cd $GITHUB_WORKSPACE/ttl-repo
-              LAST_CHANGE_MSG=git log --grep=${{ github.repository }}@ -F -n 1 --format="%s" -- ${file:0:-4}.ttl
+              LAST_CHANGE_MSG=`git log --grep=${{ github.repository }}@ -F -n 1 --format="%s" -- ${file:0:-4}.ttl`
               LAST_CHANGE_HASH=${LAST_CHANGE_MSG##*${{ github.repository }}@}
             cd $GITHUB_WORKSPACE/xml
-              LAST_CHANGE_DATE=git log -n 1 --format="%ct" $LAST_CHANGE_HASH
-              THIS_CHANGE_HASH=git log -n 1 --format="%s" -- ${file:0:-4}.ttl
-              THIS_CHANGE_DATE=git log -n 1 --format="%ct" -- ${file:0:-4}.ttl
+              LAST_CHANGE_DATE=`git log -n 1 --format="%ct" $LAST_CHANGE_HASH`
+              THIS_CHANGE_HASH=`git log -n 1 --format="%s" -- ${file:0:-4}.ttl`
+              THIS_CHANGE_DATE=`git log -n 1 --format="%ct" -- ${file:0:-4}.ttl`
               if [ $THIS_CHANGE_DATE -ge $LAST_CHANGE_DATE ]; then
                 echo "$LAST_CHANGE_HASH is older than $THIS_CHANGE_HASH ($LAST_CHANGE_DATE < $THIS_CHANGE_DATE), removing ${file:0:-4}.ttl"
                 rm -f -- $GITHUB_WORKSPACE/ttl-repo/${file:0:-4}.ttl
@@ -90,12 +90,12 @@ jobs:
           cd $GITHUB_WORKSPACE/ttl
           for file in $(find . -type f); do
             cd $GITHUB_WORKSPACE/ttl-repo
-              LAST_CHANGE_MSG=git log --grep=${{ github.repository }}@ -F -n 1 --format="%s" -- $file
+              LAST_CHANGE_MSG=`git log --grep=${{ github.repository }}@ -F -n 1 --format="%s" -- $file`
               LAST_CHANGE_HASH=${LAST_CHANGE_MSG##*${{ github.repository }}@}
             cd $GITHUB_WORKSPACE/xml
-              LAST_CHANGE_DATE=git log -n 1 --format="%ct" $LAST_CHANGE_HASH
-              THIS_CHANGE_HASH=git log -n 1 --format="%s" -- $file
-              THIS_CHANGE_DATE=git log -n 1 --format="%ct" -- $file
+              LAST_CHANGE_DATE=`git log -n 1 --format="%ct" $LAST_CHANGE_HASH`
+              THIS_CHANGE_HASH=`git log -n 1 --format="%s" -- $file`
+              THIS_CHANGE_DATE=`git log -n 1 --format="%ct" -- $file`
               if [ $THIS_CHANGE_DATE -ge $LAST_CHANGE_DATE ]; then
                 echo "$LAST_CHANGE_HASH is older than $THIS_CHANGE_HASH ($LAST_CHANGE_DATE < $THIS_CHANGE_DATE), updating $file"
                 relative_file=`realpath -m --relative-to=$GITHUB_WORKSPACE/ttl $file`
