@@ -5,17 +5,25 @@ const rootDir = Deno.realPathSync(
   Deno.env.get("GITHUB_WORKSPACE") || Deno.cwd(),
 );
 const repoName = Deno.env.get("GITHUB_REPOSITORY") || "plazi/treatments-xml";
+const removedFiles = Deno.args
 const ttlDir = rootDir + "/ttl";
 const ttlRepoDir = rootDir + "/ttl-repo";
 const xmlRepoDir = rootDir + "/xml-repo";
 
 function replaceFile(name: string) {
   console.log("> REPLACING", name);
-  console.log("           ", ttlRepoDir + "/" + name.replace(/\/?[^\/]+$/, ""));
+  console.log("  ensuring ", ttlRepoDir + "/" + name.replace(/\/?[^\/]+$/, ""));
+  console.log("           ", ttlRepoDir + "/" + name);
   Deno.mkdirSync(ttlRepoDir + "/" + name.replace(/\/?[^\/]+$/, ""), {
     recursive: true,
   });
   Deno.renameSync(ttlDir + "/" + name, ttlRepoDir + "/" + name);
+}
+
+function removeFile(name: string) {
+  console.log("> REMOVING ", name);
+  console.log("           ", ttlRepoDir + "/" + name);
+  Deno.removeSync(ttlRepoDir + "/" + name);
 }
 
 function keepFile(name: string) {
@@ -38,12 +46,7 @@ const cloning = await exec([
 ]);
 console.log(cloning.status.success, cloning.stderr, "<-->", cloning.stdout)
 
-for await (
-  const file of walk(ttlDir, { includeDirs: false })
-) {
-  const filepath = file.path.substring(ttlDir.length + 1);
-  const filepathXML = filepath.replace(/.ttl$/, ".xml");
-  console.log("FOUND      ", filepath, `(${filepathXML})`);
+async function loop(filepath: string, filepathXML: string, remove = false) {
   const { stdout: destinationChangeMsg, stderr: stderrDCM, status: statusDCM } =
     await exec(
       [
@@ -63,8 +66,8 @@ for await (
   const destinationChangeHash =
     destinationChangeMsg.split(`${repoName}@`)[1]?.split("\n")[0];
   if (!destinationChangeHash || !statusDCM.success) {
-    replaceFile(filepath);
-    continue;
+    remove ? removeFile(filepath) : replaceFile(filepath);
+    return;
   }
   const {
     stdout: destinationChangeDate,
@@ -89,7 +92,7 @@ for await (
   );
   if (!destinationChangeDate || !statusDCD.success) {
     keepFile(filepath);
-    continue;
+    return;
   }
   const { stdout: thisChangeDate, stderr: stderrTCD } = await exec(
     [
@@ -109,7 +112,22 @@ for await (
   );
   if (parseInt(destinationChangeDate, 10) >= parseInt(thisChangeDate, 10)) {
     keepFile(filepath);
-    continue;
+    return;
   }
-  replaceFile(filepath);
+  remove ? removeFile(filepath) : replaceFile(filepath);
+}
+
+for (const filepathXML of removedFiles) {
+  const filepathTTL = filepathXML.replace(/.xml$/, ".ttl");
+  console.log("FOUND RM’D  ", filepathTTL, `(${filepathXML})`);
+  await loop(filepathTTL, filepathXML)
+}
+
+for await (
+  const file of walk(ttlDir, { includeDirs: false })
+) {
+  const filepath = file.path.substring(ttlDir.length + 1);
+  const filepathXML = filepath.replace(/.ttl$/, ".xml");
+  console.log("FOUND      ", filepath, `(${filepathXML})`);
+  await loop(filepath, filepathXML)
 }

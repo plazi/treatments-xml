@@ -70,26 +70,8 @@ jobs:
           ref: main
           ssh-key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
 
-      - name: Remove deleted
-        run: |
-          for file in ${{ steps.changed-xml-files.outputs.deleted_files }}; do
-            cd $GITHUB_WORKSPACE/ttl-repo
-              LAST_CHANGE_MSG=`git log --grep=${{ github.repository }}@ -F -n 1 --format="%s" -- ${file:0:-4}.ttl`
-              LAST_CHANGE_HASH=${LAST_CHANGE_MSG##*${{ github.repository }}@}
-            cd $GITHUB_WORKSPACE/xml
-              LAST_CHANGE_DATE=`git log -n 1 --format="%ct" $LAST_CHANGE_HASH`
-              THIS_CHANGE_HASH=`git log -n 1 --format="%s" -- $file`
-              THIS_CHANGE_DATE=`git log -n 1 --format="%ct" -- $file`
-              if (( ${THIS_CHANGE_DATE:-1} >= ${LAST_CHANGE_DATE:-2} )); then
-                echo "$LAST_CHANGE_HASH is older than $THIS_CHANGE_HASH (${LAST_CHANGE_DATE:-2} < ${THIS_CHANGE_DATE:-1}), removing ${file:0:-4}.ttl"
-                rm -f -- $GITHUB_WORKSPACE/ttl-repo/${file:0:-4}.ttl
-              else
-                echo "$LAST_CHANGE_HASH is newer than $THIS_CHANGE_HASH (${LAST_CHANGE_DATE:-2} > ${THIS_CHANGE_DATE:-1}), keeping ${file:0:-4}.ttl"
-              fi
-          done
-
       - name: Apply Changes
-        run: deno run -A $GITHUB_WORKSPACE/xml/.github/workflows/apply-changes.ts
+        run: deno run -A $GITHUB_WORKSPACE/xml/.github/workflows/apply-changes.ts ${{ steps.changed-xml-files.outputs.deleted_files }}
 
       - name: Deploy
         if: github.ref == 'refs/heads/main'
