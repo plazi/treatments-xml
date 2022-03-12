@@ -23,7 +23,7 @@ function keepFile(name: string) {
 }
 
 // Clone repository again, but without a working copy but with full history
-exec([
+const cloning = await exec([
   "git",
   "clone",
   "--filter=blob:none",
@@ -32,8 +32,9 @@ exec([
   "--branch",
   "main",
   `git@github.com:${repoName}.git`,
-  xmlRepoDir
+  xmlRepoDir,
 ]);
+console.log(cloning.status.success, cloning.stderr, "<-->", cloning.stdout)
 
 for await (
   const file of walk(ttlDir, { includeDirs: false })
@@ -41,28 +42,33 @@ for await (
   const filepath = file.path.substring(ttlDir.length + 1);
   const filepathXML = filepath.replace(/.ttl$/, ".xml");
   console.log("FOUND      ", filepath, `(${filepathXML})`);
-  const { stdout: destinationChangeMsg, stderr } = await exec(
-    [
-      "git",
-      "log",
-      `--grep=${repoName}@`,
-      "-F",
-      "-n",
-      "1",
-      `--format=%s`,
-      "--",
-      filepath,
-    ],
-    ttlRepoDir,
-  );
+  const { stdout: destinationChangeMsg, stderr: stderrDCM, status: statusDCM } =
+    await exec(
+      [
+        "git",
+        "log",
+        `--grep=${repoName}@`,
+        "-F",
+        "-n",
+        "1",
+        `--format=%s`,
+        "--",
+        filepath,
+      ],
+      ttlRepoDir,
+    );
+  if (stderrDCM) console.log("E-DCM:", stderrDCM);
   const destinationChangeHash =
     destinationChangeMsg.split(`${repoName}@`)[1]?.split("\n")[0];
-  if (stderr) console.log(stderr);
-  if (!destinationChangeHash) {
+  if (!destinationChangeHash || !statusDCM.success) {
     replaceFile(filepath);
     continue;
   }
-  const { stdout: destinationChangeDate } = await exec(
+  const {
+    stdout: destinationChangeDate,
+    stderr: stderrDCD,
+    status: statusDCD,
+  } = await exec(
     [
       "git",
       "log",
@@ -73,16 +79,17 @@ for await (
     ],
     xmlRepoDir,
   );
+  if (stderrDCD) console.log("E-DCD:", stderrDCD);
   console.log(
     `- Destination is based on ${destinationChangeHash} from ${
       destinationChangeDate || "<future>"
     }`,
   );
-  if (!destinationChangeDate) {
+  if (!destinationChangeDate || !statusDCD.success) {
     keepFile(filepath);
     continue;
   }
-  const { stdout: thisChangeDate } = await exec(
+  const { stdout: thisChangeDate, stderr: stderrTCD } = await exec(
     [
       "git",
       "log",
@@ -94,10 +101,11 @@ for await (
     ],
     xmlRepoDir,
   );
+  if (stderrTCD) console.log("E-TCD:", stderrTCD);
   console.log(
     `- Our changes are based on a commit from ${thisChangeDate}`,
   );
-  if (destinationChangeDate >= thisChangeDate) {
+  if (parseInt(destinationChangeDate, 10) >= parseInt(thisChangeDate, 10)) {
     keepFile(filepath);
     continue;
   }
