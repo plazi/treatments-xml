@@ -22,6 +22,8 @@ function keepFile(name: string) {
   console.log("> KEEPING  ", name);
 }
 
+Deno.mkdirSync(xmlRepoDir, { recursive: true });
+
 // Clone repository again, but without a working copy but with full history
 const cloning = await exec([
   "git",
@@ -31,7 +33,7 @@ const cloning = await exec([
   "--single-branch",
   "--branch",
   "main",
-  `git@github.com:${repoName}.git`,
+  `https://github.com/${repoName}.git`,
   xmlRepoDir,
 ]);
 console.log(cloning.status.success, cloning.stderr, "<-->", cloning.stdout)
