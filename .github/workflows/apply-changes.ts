@@ -51,8 +51,6 @@ for await (
     [
       "git",
       "log",
-      `--grep=${repoName}@`,
-      "-F",
       "-n",
       "1",
       `--format=%ct`,
@@ -73,8 +71,6 @@ for await (
     [
       "git",
       "log",
-      `--grep=${repoName}@`,
-      "-F",
       "-n",
       "1",
       `--format=%ct`,
