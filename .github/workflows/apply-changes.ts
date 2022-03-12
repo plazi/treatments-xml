@@ -5,7 +5,7 @@ const rootDir = Deno.realPathSync(
   Deno.env.get("GITHUB_WORKSPACE") || Deno.cwd(),
 );
 const repoName = Deno.env.get("GITHUB_REPOSITORY") || "plazi/treatments-xml";
-const removedFiles = Deno.args
+const removedFiles = Deno.args;
 const ttlDir = rootDir + "/ttl";
 const ttlRepoDir = rootDir + "/ttl-repo";
 const xmlRepoDir = rootDir + "/xml-repo";
@@ -44,7 +44,7 @@ const cloning = await exec([
   `https://github.com/${repoName}.git`,
   xmlRepoDir,
 ]);
-console.log(cloning.status.success, cloning.stderr, "<-->", cloning.stdout)
+console.log(cloning.status.success, cloning.stderr, "<-->", cloning.stdout);
 
 async function loop(filepath: string, filepathXML: string, remove = false) {
   const { stdout: destinationChangeMsg, stderr: stderrDCM, status: statusDCM } =
@@ -119,8 +119,8 @@ async function loop(filepath: string, filepathXML: string, remove = false) {
 
 for (const filepathXML of removedFiles) {
   const filepathTTL = filepathXML.replace(/.xml$/, ".ttl");
-  console.log("FOUND RM’D  ", filepathTTL, `(${filepathXML})`);
-  await loop(filepathTTL, filepathXML, true)
+  console.log("FOUND RM’D ", filepathTTL, `(${filepathXML})`);
+  await loop(filepathTTL, filepathXML, true);
 }
 
 for await (
@@ -129,5 +129,5 @@ for await (
   const filepath = file.path.substring(ttlDir.length + 1);
   const filepathXML = filepath.replace(/.ttl$/, ".xml");
   console.log("FOUND      ", filepath, `(${filepathXML})`);
-  await loop(filepath, filepathXML)
+  await loop(filepath, filepathXML);
 }
