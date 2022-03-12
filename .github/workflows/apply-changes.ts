@@ -7,18 +7,33 @@ const rootDir = Deno.realPathSync(
 const repoName = Deno.env.get("GITHUB_REPOSITORY") || "plazi/treatments-xml";
 const ttlDir = rootDir + "/ttl";
 const ttlRepoDir = rootDir + "/ttl-repo";
-const xmlRepoDir = rootDir + "/xml";
+const xmlRepoDir = rootDir + "/xml-repo";
 
 function replaceFile(name: string) {
   console.log("> REPLACING", name);
-  console.log("           ", ttlRepoDir + "/" + name.replace(/\/?[^\/]+$/, ""))
-  Deno.mkdirSync(ttlRepoDir + "/" + name.replace(/\/?[^\/]+$/, ""), { recursive: true });
-  Deno.renameSync(ttlDir + "/" + name, ttlRepoDir + "/" + name)
+  console.log("           ", ttlRepoDir + "/" + name.replace(/\/?[^\/]+$/, ""));
+  Deno.mkdirSync(ttlRepoDir + "/" + name.replace(/\/?[^\/]+$/, ""), {
+    recursive: true,
+  });
+  Deno.renameSync(ttlDir + "/" + name, ttlRepoDir + "/" + name);
 }
 
 function keepFile(name: string) {
   console.log("> KEEPING  ", name);
 }
+
+// Clone repository again, but without a working copy but with full history
+exec([
+  "git",
+  "clone",
+  "--filter=blob:none",
+  "--no-checkout",
+  "--single-branch",
+  "--branch",
+  "main",
+  `git@github.com:${repoName}.git`,
+  xmlRepoDir
+]);
 
 for await (
   const file of walk(ttlDir, { includeDirs: false })
