@@ -120,7 +120,7 @@ async function loop(filepath: string, filepathXML: string, remove = false) {
 for (const filepathXML of removedFiles) {
   const filepathTTL = filepathXML.replace(/.xml$/, ".ttl");
   console.log("FOUND RM’D  ", filepathTTL, `(${filepathXML})`);
-  await loop(filepathTTL, filepathXML)
+  await loop(filepathTTL, filepathXML, true)
 }
 
 for await (
