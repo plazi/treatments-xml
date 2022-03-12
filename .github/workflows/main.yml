@@ -27,8 +27,11 @@ jobs:
           fetch-depth: 2
 
       - name: Install xalan & rapper
-        run: sudo apt update && DEBIAN_FRONTEND=noninteractive sudo apt install -y xalan raptor2-utils
-        
+        run: |
+          sudo apt update
+          DEBIAN_FRONTEND=noninteractive sudo apt install -y xalan raptor2-utils
+          curl -fsSL https://deno.land/x/install/install.sh | sudo DENO_INSTALL=/usr/local sh
+
       - name: Get changed XML files
         id: changed-xml-files
         uses: tj-actions/changed-files@v13.1
@@ -86,35 +89,7 @@ jobs:
           done
 
       - name: Apply Changes
-        run: |
-          cd $GITHUB_WORKSPACE/ttl
-          for file in $(find . -type f); do
-
-            cd $GITHUB_WORKSPACE/ttl-repo
-            if [ -f $file ]; then
-              LAST_CHANGE_MSG=`git log --grep=${{ github.repository }}@ -F -n 1 --format="%s" -- $file`
-              LAST_CHANGE_HASH=${LAST_CHANGE_MSG##*${{ github.repository }}@}
-
-              cd $GITHUB_WORKSPACE/xml
-              LAST_CHANGE_DATE=`git log -n 1 --format="%ct" $LAST_CHANGE_HASH`
-              THIS_CHANGE_HASH=`git log -n 1 --format="%s" -- $file`
-              THIS_CHANGE_DATE=`git log -n 1 --format="%ct" -- $file`
-              if (( ${THIS_CHANGE_DATE:-1} >= ${LAST_CHANGE_DATE:-2} )); then
-                echo "$LAST_CHANGE_HASH is older than $THIS_CHANGE_HASH (${LAST_CHANGE_DATE:-2} < ${THIS_CHANGE_DATE:-1}), updating $file"
-                relative_file=`realpath -m --relative-to=$GITHUB_WORKSPACE/ttl $file`
-                mkdir -p $GITHUB_WORKSPACE/ttl-repo/${relative_file%/*}
-                rm -f -- $GITHUB_WORKSPACE/ttl-repo/$file
-                mv $GITHUB_WORKSPACE/ttl/$file $GITHUB_WORKSPACE/ttl-repo/$file
-              else
-                echo "$LAST_CHANGE_HASH is newer than $THIS_CHANGE_HASH (${LAST_CHANGE_DATE:-2} > ${THIS_CHANGE_DATE:-1}), keeping $file as is"
-              fi
-            else
-              relative_file=`realpath -m --relative-to=$GITHUB_WORKSPACE/ttl $file`
-              mkdir -p $GITHUB_WORKSPACE/ttl-repo/${relative_file%/*}
-              rm -f -- $GITHUB_WORKSPACE/ttl-repo/$file
-              mv $GITHUB_WORKSPACE/ttl/$file $GITHUB_WORKSPACE/ttl-repo/$file
-            fi
-          done
+        run: deno run -A $GITHUB_WORKSPACE/xml/.github/workflows/apply-changes.ts
 
       - name: Deploy
         if: github.ref == 'refs/heads/main'
