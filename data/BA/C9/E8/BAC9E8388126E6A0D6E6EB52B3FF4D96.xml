@@ -1,0 +1,818 @@
+<document ENCODING="UTF8" ID-DOI="http://doi.org/10.5281/zenodo.6200489" ID-GBIF-Dataset="affdf324-67b3-4e92-a1ed-73877ef18f6b" ID-GBIF-Taxon="100058059" ID-HNS-Pub="zt02593p127" ID-Zenodo-Dep="6200489" checkinTime="1401568349800" checkinUser="jeremy" docAuthor="Wang, XIN-PING, Griswold, CHARLES E. &amp; Miller, JEREMY A." docDate="2010" docId="BAC9E8388126E6A0D6E6EB52B3FF4D96" docLanguage="en" docName="zt02593p127.xml" docOrigin="Zootaxa 2593" docSource="http://www.mapress.com/zootaxa/2010/f/zt02593p127.pdf" docTitle="Draconarius pseudospiralis Wang, sp. nov." docType="treatment" docVersion="9" lastPageNumber="99" masterDocId="2E6CB152916434E54D5B49F003B1C52C" masterDocTitle="Revision of the genus Draconarius Ovtchinnikov 1999 (Agelenidae: Coelotinae) in Yunnan, China, with an analysis of the Coelotinae diversity in the Gaoligongshan Mountains" masterLastPageNumber="127" masterPageNumber="1" pageNumber="94" updateTime="1645439093422" updateUser="ExternalLinkService">
+<mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
+<mods:titleInfo>
+<mods:title>Revision of the genus Draconarius Ovtchinnikov 1999 (Agelenidae: Coelotinae) in Yunnan, China, with an analysis of the Coelotinae diversity in the Gaoligongshan Mountains</mods:title>
+</mods:titleInfo>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Wang, XIN-PING</mods:namePart>
+</mods:name>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Griswold, CHARLES E.</mods:namePart>
+</mods:name>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Miller, JEREMY A.</mods:namePart>
+</mods:name>
+<mods:typeOfResource>text</mods:typeOfResource>
+<mods:relatedItem type="host">
+<mods:titleInfo>
+<mods:title>Zootaxa</mods:title>
+</mods:titleInfo>
+<mods:part>
+<mods:date>2010</mods:date>
+<mods:detail type="volume">
+<mods:number>2593</mods:number>
+</mods:detail>
+<mods:extent unit="page">
+<mods:start>1</mods:start>
+<mods:end>127</mods:end>
+</mods:extent>
+</mods:part>
+</mods:relatedItem>
+<mods:location>
+<mods:url>http://www.mapress.com/zootaxa/2010/f/zt02593p127.pdf</mods:url>
+</mods:location>
+<mods:classification>journal article</mods:classification>
+<mods:identifier type="HNS-Pub">zt02593p127</mods:identifier>
+</mods:mods>
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6200489" ID-GBIF-Taxon="100058059" ID-Zenodo-Dep="6200489" LSID="urn:lsid:plazi:treatment:BAC9E8388126E6A0D6E6EB52B3FF4D96" httpUri="http://treatment.plazi.org/id/BAC9E8388126E6A0D6E6EB52B3FF4D96" lastPageNumber="99" pageNumber="94">
+<subSubSection type="nomenclature">
+<paragraph pageId="90" pageNumber="94" type="mainText">
+<taxonomicName authority="Wang" authorityName="Wang" class="Arachnida" family="Agelenidae" genus="Draconarius" higherTaxonomySource="CoL" kingdom="Animalia" order="Araneae" pageId="90" pageNumber="94" phylum="Arthropoda" rank="species" species="pseudospiralis">Draconarius pseudospiralis</taxonomicName>
+<taxonomicNameLabel rank="species">sp. nov.</taxonomicNameLabel>
+</paragraph>
+</subSubSection>
+<subSubSection type="description">
+<paragraph pageId="90" pageNumber="94" type="mainText">(Figs 428-448, 548)</paragraph>
+</subSubSection>
+<subSubSection type="materials_examined">
+<paragraph pageId="90" pageNumber="94" type="mainText">
+<materialsCitation ID-GBIF-Occurrence="923903134" collectingDate="1998-10-26" collectingDateMax="1998-10-31" collectingDateMin="1998-10-26" collectionCode="HNU" collectorName="C. Griswold, D. Kavanaugh, C. L. Long" country="China" county="Tengchong County" elevation="2300 m" latitude="24.95" location="Luoshuidong, 28 km directly E TengChong" longLatPrecision="1" longitude="98.75" specimenCount="1" specimenCount-male="1" stateProvince="Yunnan" typeStatus="holotype">
+Type material: 
+<typeStatus>Holotype</typeStatus>
+. 
+<specimenCount type="male">♂</specimenCount>
+, 
+<collectingCountry name="China" value="China">CHINA</collectingCountry>
+: 
+<collectingRegion>Yunnan</collectingRegion>
+: 
+<collectingRegion>Tengchong County</collectingRegion>
+: 
+<location LSID="urn:lsid:plazi:treatment:BAC9E8388126E6A0D6E6EB52B3FF4D96:62BBDA5DB39A722ED1C9636AEEB97B5F" country="China" latitude="24.95" longLatPrecision="1" longitude="98.75" name="Luoshuidong, 28 km directly E TengChong" stateProvince="Yunnan">
+Luoshuidong, 
+<quantity metricMagnitude="4" metricUnit="m" metricValue="2.8" unit="km" value="28.0">28 km</quantity>
+directly E TengChong
+</location>
+, 
+<geoCoordinate direction="north" orientation="latitude" precision="1" value="24.95">N24°57'</geoCoordinate>
+, 
+<geoCoordinate direction="east" orientation="longitude" precision="1" value="98.75">E98°45'</geoCoordinate>
+, native forest, 
+<quantity metricMagnitude="3" metricUnit="m" metricValue="2.3" unit="m" value="2300.0">
+<elevation metricMagnitude="3" metricUnit="m" metricValue="2.3" unit="m" value="2300.0">2300 m</elevation>
+</quantity>
+, 
+<date value="1998-10-26" valueMax="1998-10-31" valueMin="1998-10-26">
+<collectingDate value="1998-10-26" valueMax="1998-10-31" valueMin="1998-10-26">October 26-31, 1998</collectingDate>
+</date>
+, 
+<collectorName>C. Griswold</collectorName>
+, 
+<collectorName>D. Kavanaugh</collectorName>
+, 
+<collectorName>C.L. Long</collectorName>
+(
+<collectionCode collectionName="HNU">HNU</collectionCode>
+)
+</materialsCitation>
+.
+</paragraph>
+<paragraph pageId="90" pageNumber="94" type="mainText">
+<materialsCitation ID-GBIF-Occurrence="923903121" collectingDate="1998-10-26" collectingDateMax="1998-10-31" collectingDateMin="1998-10-26" collectionCode="HNU" collectorName="C. Griswold, D. Kavanaugh, C. L. Long" country="China" county="Tengchong County" elevation="2300 m" latitude="24.95" location="Luoshuidong, 28 km directly E TengChong" longitude="98.75" specimenCount="21" specimenCount-female="8" specimenCount-male="13" stateProvince="Yunnan" typeStatus="paratype">
+<typeStatus>Paratypes</typeStatus>
+. 
+<collectingCountry name="China" value="China">CHINA</collectingCountry>
+: 
+<collectingRegion>Yunnan</collectingRegion>
+: 
+<collectingRegion>Tengchong County</collectingRegion>
+: 
+<specimenCount type="generic">13♂</specimenCount>
+<specimenCount type="female">8♀</specimenCount>
+, same data as holotype (
+<collectionCode collectionName="HNU">HNU</collectionCode>
+)
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="923903119" collectingDate="2003-10-14" collectionCode="CAS" collectorName="G. Tang" country="China" county="Tengchong County" elevation="2380 m" location="Bawan village, 22 - 25 km of the road Bawan-Tengchong" specimenCode="CASENT 9020411" specimenCount="3" specimenCount-female="2" specimenCount-male="1" stateProvince="Yunnan" typeStatus="paratype">
+<specimenCount type="generic">1♂</specimenCount>
+<specimenCount type="female">2♀</specimenCount>
+, 
+<location LSID="urn:lsid:plazi:treatment:BAC9E8388126E6A0D6E6EB52B3FF4D96:BF50ACCCB5CB5EFA00770C41F976DF5C" country="China" name="Bawan village, 22 - 25 km of the road Bawan-Tengchong" stateProvince="Yunnan">
+Bawan village, 
+<quantity metricMagnitude="4" metricUnit="m" metricValue="2.35" metricValueMax="2.5" metricValueMin="2.2" unit="km" value="23.5" valueMax="25.0" valueMin="22.0">22-25 km</quantity>
+of the road Bawan-Tengchong
+</location>
+, 
+<geoCoordinate>N24° 56220'</geoCoordinate>
+, 
+<geoCoordinate>E98° 49335'</geoCoordinate>
+, 
+<quantity metricMagnitude="3" metricUnit="m" metricValue="2.38" unit="m" value="2380.0">
+<elevation metricMagnitude="3" metricUnit="m" metricValue="2.38" unit="m" value="2380.0">2380 m</elevation>
+</quantity>
+, 
+<date value="2003-10-14">
+<collectingDate value="2003-10-14">October 14, 2003</collectingDate>
+</date>
+, 
+<collectorName>G. Tang</collectorName>
+(
+<collectionCode collectionName="USA, California, San Francisco, California Academy of Sciences">CAS</collectionCode>
+, 
+<specimenCode>CASENT9020411</specimenCode>
+)
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="923903126" collectingDate="2003-10-12" collectionCode="HNU" collectorName="G. Tang" country="China" county="Tengchong County" elevation="2416 m" location="Bawan village, 39 - 41 km of the road Bawan-Tengchong" specimenCode="CASENT 9020375" specimenCount="2" specimenCount-female="1" specimenCount-male="1" stateProvince="Yunnan" typeStatus="paratype">
+<specimenCount type="generic">1♂</specimenCount>
+<specimenCount type="female">1♀</specimenCount>
+, 
+<location LSID="urn:lsid:plazi:treatment:BAC9E8388126E6A0D6E6EB52B3FF4D96:E6991F735D72D40CFA2B3A2EDA8B15D1" country="China" name="Bawan village, 39 - 41 km of the road Bawan-Tengchong" stateProvince="Yunnan">
+Bawan village, 
+<quantity metricMagnitude="4" metricUnit="m" metricValue="4.0" metricValueMax="4.1" metricValueMin="3.9" unit="km" value="40.0" valueMax="41.0" valueMin="39.0">39-41 km</quantity>
+of the road Bawan-Tengchong
+</location>
+, 
+<geoCoordinate>N24° 55625'</geoCoordinate>
+, 
+<geoCoordinate>E98° 45155'</geoCoordinate>
+, 
+<quantity metricMagnitude="3" metricUnit="m" metricValue="2.416" unit="m" value="2416.0">
+<elevation metricMagnitude="3" metricUnit="m" metricValue="2.416" unit="m" value="2416.0">2416 m</elevation>
+</quantity>
+, 
+<date value="2003-10-12">
+<collectingDate value="2003-10-12">October 12, 2003</collectingDate>
+</date>
+, 
+<collectorName>G. Tang</collectorName>
+(
+<collectionCode collectionName="HNU">HNU</collectionCode>
+, 
+<specimenCode>CASENT9020375</specimenCode>
+)
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="923903124" collectingDate="2003-10-14" collectionCode="CAS" collectorName="G. Tang" country="China" county="Tengchong County" elevation="2380 m" location="Bawan village, 25 km of the road Bawan-Tengchong" specimenCode="CASENT 9020412" specimenCount="2" specimenCount-female="1" specimenCount-male="1" stateProvince="Yunnan" typeStatus="paratype">
+<specimenCount type="generic">1♂</specimenCount>
+<specimenCount type="female">1♀</specimenCount>
+, 
+<location LSID="urn:lsid:plazi:treatment:BAC9E8388126E6A0D6E6EB52B3FF4D96:43DE6100367B1E1DCC7DB686A6ED4D46" country="China" name="Bawan village, 25 km of the road Bawan-Tengchong" stateProvince="Yunnan">
+Bawan village, 
+<quantity metricMagnitude="4" metricUnit="m" metricValue="2.5" unit="km" value="25.0">25 km</quantity>
+of the road Bawan-Tengchong
+</location>
+, 
+<geoCoordinate>N24° 56220'</geoCoordinate>
+, 
+<geoCoordinate>E98° 49335'</geoCoordinate>
+, 
+<quantity metricMagnitude="3" metricUnit="m" metricValue="2.38" unit="m" value="2380.0">
+<elevation metricMagnitude="3" metricUnit="m" metricValue="2.38" unit="m" value="2380.0">2380 m</elevation>
+</quantity>
+, 
+<date value="2003-10-14">
+<collectingDate value="2003-10-14">October 14, 2003</collectingDate>
+</date>
+, 
+<collectorName>G. Tang</collectorName>
+(
+<collectionCode collectionName="USA, California, San Francisco, California Academy of Sciences">CAS</collectionCode>
+, 
+<specimenCode>CASENT9020412</specimenCode>
+)
+</materialsCitation>
+. 
+<materialsCitation ID-GBIF-Occurrence="923903131" collectingDate="1998-11-04" collectingDateMax="1998-11-07" collectingDateMin="1998-11-04" collectionCode="CAS" collectorName="C. Griswold, D. Kavanaugh, C. L. Long" country="China" county="Longling County" latitude="24.833334" location="Pass over Gaoligongshan at 2100 m, Nankang, 36 km SE TengChong" longLatPrecision="1" longitude="98.78333" specimenCount="24" specimenCount-female="12" specimenCount-male="12" stateProvince="Yunnan" typeStatus="paratype">
+<collectingRegion>Longling County</collectingRegion>
+: 
+<specimenCount type="generic">12♂</specimenCount>
+<specimenCount type="female">12♀</specimenCount>
+, 
+<location LSID="urn:lsid:plazi:treatment:BAC9E8388126E6A0D6E6EB52B3FF4D96:5C5186EB5182D1BB829AD7B506B235BE" country="China" latitude="24.833334" longLatPrecision="1" longitude="98.78333" name="Pass over Gaoligongshan at 2100 m, Nankang, 36 km SE TengChong" stateProvince="Longling County">
+Pass over Gaoligongshan at 
+<quantity metricMagnitude="3" metricUnit="m" metricValue="2.1" unit="m" value="2100.0">2100 m</quantity>
+, Nankang, 
+<quantity metricMagnitude="4" metricUnit="m" metricValue="3.6" unit="km" value="36.0">36 km</quantity>
+SE TengChong
+</location>
+, 
+<geoCoordinate direction="north" orientation="latitude" precision="1" value="24.833334">N24°50'</geoCoordinate>
+, 
+<geoCoordinate direction="east" orientation="longitude" precision="1" value="98.78333">E98°47'</geoCoordinate>
+, native forest, 
+<date value="1998-11-04" valueMax="1998-11-07" valueMin="1998-11-04">
+<collectingDate value="1998-11-04" valueMax="1998-11-07" valueMin="1998-11-04">November 4-7, 1998</collectingDate>
+</date>
+, 
+<collectorName>C. Griswold</collectorName>
+, 
+<collectorName>D. Kavanaugh</collectorName>
+, 
+<collectorName>C-L. Long</collectorName>
+(
+<collectionCode collectionName="USA, California, San Francisco, California Academy of Sciences">CAS</collectionCode>
+)
+</materialsCitation>
+;
+</paragraph>
+<paragraph lastPageId="93" lastPageNumber="97" pageId="90" pageNumber="94" type="mainText">
+<materialsCitation ID-GBIF-Occurrence="923903117" collectingDate="2003-10-27" collectionCode="HNU" collectorName="G. Tang" country="China" county="Longling County" elevation="2186 m" latitude="24.43717" location="Nankang (National 320 Road), Yakou" longitude="98.46054" specimenCode="CASENT 9020407" specimenCount="1" specimenCount-female="1" stateProvince="Yunnan" typeStatus="Other material">
+Other material examined. 
+<collectingCountry name="China" value="China">CHINA</collectingCountry>
+: 
+<collectingRegion>Yunnan</collectingRegion>
+: 
+<collectingRegion>Longling County</collectingRegion>
+: 
+<specimenCount type="female">1♀</specimenCount>
+, 
+<location LSID="urn:lsid:plazi:treatment:BAC9E8388126E6A0D6E6EB52B3FF4D96:F29DF94B538E6F75FC9785A0EA472971" country="China" name="Nankang (National 320 Road), Yakou" stateProvince="Yunnan">Nankang (National 320 Road), Yakou</location>
+, 
+<geoCoordinate>N24° 43717'</geoCoordinate>
+, 
+<geoCoordinate>E98° 46054'</geoCoordinate>
+, 
+<quantity metricMagnitude="3" metricUnit="m" metricValue="2.186" unit="m" value="2186.0">
+<elevation metricMagnitude="3" metricUnit="m" metricValue="2.186" unit="m" value="2186.0">2186 m</elevation>
+</quantity>
+, 
+<date value="2003-10-27">
+<collectingDate value="2003-10-27">October 27, 2003</collectingDate>
+</date>
+, 
+<collectorName>G. Tang</collectorName>
+(
+<collectionCode collectionName="HNU">HNU</collectionCode>
+, 
+<specimenCode>CASENT9020407</specimenCode>
+)
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="923903136" collectingDate="2003-10-27" collectionCode="HNU" collectorName="G. Tang" country="China" county="Longling County" elevation="2186 m" latitude="24.43717" location="Nankang (National 320 Road), Yakou" longitude="98.46054" specimenCode="CASENT 9020408" specimenCount="1" specimenCount-female="1" stateProvince="Yunnan" typeStatus="Other material">
+<specimenCount type="female">1♀</specimenCount>
+, 
+<location LSID="urn:lsid:plazi:treatment:BAC9E8388126E6A0D6E6EB52B3FF4D96:EF0E0446864E1CEB5C83E6CADD4A1623" country="China" name="Nankang (National 320 Road), Yakou" stateProvince="Yunnan">Nankang (National 320 Road), Yakou</location>
+, 
+<geoCoordinate>N24° 43717'</geoCoordinate>
+, 
+<geoCoordinate>E98° 46054'</geoCoordinate>
+, 
+<quantity metricMagnitude="3" metricUnit="m" metricValue="2.186" unit="m" value="2186.0">
+<elevation metricMagnitude="3" metricUnit="m" metricValue="2.186" unit="m" value="2186.0">2186 m</elevation>
+</quantity>
+, 
+<date value="2003-10-27">
+<collectingDate value="2003-10-27">October 27, 2003</collectingDate>
+</date>
+, 
+<collectorName>G. Tang</collectorName>
+(
+<collectionCode collectionName="HNU">HNU</collectionCode>
+, 
+<specimenCode>CASENT9020408</specimenCode>
+)
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="923903135" collectingDate="2003-10-30" collectionCode="HNU" collectorName="G. Tang" country="China" county="Longling County" elevation="2186 m" latitude="24.43717" location="Nankang (National 320 Road), Yakou" longitude="98.46054" specimenCode="CASENT 9020424" specimenCount="1" specimenCount-female="1" stateProvince="Yunnan" typeStatus="Other material">
+<specimenCount type="female">1♀</specimenCount>
+, 
+<location LSID="urn:lsid:plazi:treatment:BAC9E8388126E6A0D6E6EB52B3FF4D96:3BEBE0B0B20FD616C840A451E03B6020" country="China" name="Nankang (National 320 Road), Yakou" stateProvince="Yunnan">Nankang (National 320 Road), Yakou</location>
+, 
+<geoCoordinate>N24° 43717'</geoCoordinate>
+, 
+<geoCoordinate>E98° 46054'</geoCoordinate>
+, 
+<quantity metricMagnitude="3" metricUnit="m" metricValue="2.186" unit="m" value="2186.0">
+<elevation metricMagnitude="3" metricUnit="m" metricValue="2.186" unit="m" value="2186.0">2186 m</elevation>
+</quantity>
+, 
+<date value="2003-10-30">
+<collectingDate value="2003-10-30">October 30, 2003</collectingDate>
+</date>
+, 
+<collectorName>G. Tang</collectorName>
+(
+<collectionCode collectionName="HNU">HNU</collectionCode>
+, 
+<specimenCode>CASENT9020424</specimenCode>
+)
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="923903146" collectingDate="2003-10-30" collectionCode="HNU" collectorName="G. Tang" country="China" county="Longling County" elevation="2186 m" latitude="24.43717" location="Nankang (National 320 Road), Yakou" longitude="98.46054" specimenCode="CASENT 9020422" specimenCount="1" specimenCount-male="1" stateProvince="Yunnan" typeStatus="Other material">
+<specimenCount type="generic">1♂</specimenCount>
+, 
+<location LSID="urn:lsid:plazi:treatment:BAC9E8388126E6A0D6E6EB52B3FF4D96:7E8FE57B31748F4533E8C4F56017F94B" country="China" name="Nankang (National 320 Road), Yakou" stateProvince="Yunnan">Nankang (National 320 Road), Yakou</location>
+, 
+<geoCoordinate>N24° 43717'</geoCoordinate>
+, 
+<geoCoordinate>E98° 46054'</geoCoordinate>
+, 
+<quantity metricMagnitude="3" metricUnit="m" metricValue="2.186" unit="m" value="2186.0">
+<elevation metricMagnitude="3" metricUnit="m" metricValue="2.186" unit="m" value="2186.0">2186 m</elevation>
+</quantity>
+, 
+<date value="2003-10-30">
+<collectingDate value="2003-10-30">October 30, 2003</collectingDate>
+</date>
+, 
+<collectorName>G. Tang</collectorName>
+(
+<collectionCode collectionName="HNU">HNU</collectionCode>
+, 
+<specimenCode>CASENT9020422</specimenCode>
+)
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="923903137" collectingDate="2003-10-30" collectionCode="CAS" collectorName="G. Tang" country="China" county="Longling County" elevation="2186 m" latitude="24.43717" location="Nankang (National 320 Road), Yakou" longitude="98.46054" specimenCode="CASENT 9020423" specimenCount="1" specimenCount-female="1" stateProvince="Yunnan" typeStatus="Other material">
+<specimenCount type="female">1♀</specimenCount>
+, 
+<location LSID="urn:lsid:plazi:treatment:BAC9E8388126E6A0D6E6EB52B3FF4D96:6CC0414884DD1BE64FE6B94A71FF3F4D" country="China" name="Nankang (National 320 Road), Yakou" stateProvince="Yunnan">Nankang (National 320 Road), Yakou</location>
+, 
+<geoCoordinate>N24° 43717'</geoCoordinate>
+, 
+<geoCoordinate>E98° 46054'</geoCoordinate>
+, 
+<quantity metricMagnitude="3" metricUnit="m" metricValue="2.186" unit="m" value="2186.0">
+<elevation metricMagnitude="3" metricUnit="m" metricValue="2.186" unit="m" value="2186.0">2186 m</elevation>
+</quantity>
+, 
+<date value="2003-10-30">
+<collectingDate value="2003-10-30">October 30, 2003</collectingDate>
+</date>
+, 
+<collectorName>G. Tang</collectorName>
+(
+<collectionCode collectionName="USA, California, San Francisco, California Academy of Sciences">CAS</collectionCode>
+, 
+<specimenCode>CASENT9020423</specimenCode>
+)
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="923903133" collectingDate="2003-10-31" collectionCode="CAS" collectorName="G. Tang" country="China" county="Longling County" elevation="2186 m" latitude="24.43717" location="Nankang (National 320 Road), Yakou" longitude="98.46054" specimenCode="CASENT 9020392" specimenCount="1" specimenCount-female="1" stateProvince="Yunnan" typeStatus="Other material">
+<specimenCount type="female">1♀</specimenCount>
+, 
+<location LSID="urn:lsid:plazi:treatment:BAC9E8388126E6A0D6E6EB52B3FF4D96:8E6DF2217028E247C2B68B74E8F86758" country="China" name="Nankang (National 320 Road), Yakou" stateProvince="Yunnan">Nankang (National 320 Road), Yakou</location>
+, 
+<geoCoordinate>N24° 43717'</geoCoordinate>
+, 
+<geoCoordinate>E98° 46054'</geoCoordinate>
+, 
+<quantity metricMagnitude="3" metricUnit="m" metricValue="2.186" unit="m" value="2186.0">
+<elevation metricMagnitude="3" metricUnit="m" metricValue="2.186" unit="m" value="2186.0">2186 m</elevation>
+</quantity>
+, 
+<date value="2003-10-31">
+<collectingDate value="2003-10-31">October 31, 2003</collectingDate>
+</date>
+, 
+<collectorName>G. Tang</collectorName>
+(
+<collectionCode collectionName="USA, California, San Francisco, California Academy of Sciences">CAS</collectionCode>
+, 
+<specimenCode>CASENT9020392</specimenCode>
+)
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="923903116" collectingDate="2005-05-28" collectingMethod="hand collecting" collectionCode="CAS" collectorName="H. M. Yan, K. J. Guo" country="China" county="Longling County" elevation="2067 m" latitude="24.83671" location="Longjiang Township, Xiaoheishan Nature Reserve" longLatPrecision="0" longitude="98.76185" specimenCode="CASENT 9025572" specimenCount="3" specimenCount-female="3" stateProvince="Yunnan" typeStatus="Other material">
+<specimenCount type="female">3♀</specimenCount>
+, 
+<location LSID="urn:lsid:plazi:treatment:BAC9E8388126E6A0D6E6EB52B3FF4D96:3F6FFD3C5870CF56A2A54EF0ABB029E4" country="China" latitude="24.83671" longLatPrecision="0" longitude="98.76185" name="Longjiang Township, Xiaoheishan Nature Reserve" stateProvince="Yunnan">Longjiang Township, Xiaoheishan Nature Reserve</location>
+, 
+<geoCoordinate direction="north" orientation="latitude" precision="0" value="24.83671">N24.83671°</geoCoordinate>
+, 
+<geoCoordinate direction="east" orientation="longitude" precision="0" value="98.76185">E098.76185°</geoCoordinate>
+, 
+<quantity metricMagnitude="3" metricUnit="m" metricValue="2.0669999999999997" unit="m" value="2067.0">
+<elevation metricMagnitude="3" metricUnit="m" metricValue="2.0669999999999997" unit="m" value="2067.0">2067 m</elevation>
+</quantity>
+, 
+<collectingMethod>hand collecting</collectingMethod>
+in a big log, 
+<date value="2005-05-28">
+<collectingDate value="2005-05-28">May 28, 2005</collectingDate>
+</date>
+, 
+<collectorName>H.M. Yan</collectorName>
+&amp; 
+<collectorName>K.J. Guo</collectorName>
+(
+<collectionCode collectionName="USA, California, San Francisco, California Academy of Sciences">CAS</collectionCode>
+, 
+<specimenCode>CASENT9025572</specimenCode>
+)
+</materialsCitation>
+. 
+<materialsCitation ID-GBIF-Occurrence="923903139" collectingDate="2003-10-16" collectionCode="HNU" collectorName="G. Tang" country="China" county="Longyang County" elevation="2320 m" location="40 km of the road Bawan-Tengchong, Bawan village, Baoshan City" specimenCode="CASENT 9020404" specimenCount="1" specimenCount-female="1" stateProvince="Yunnan" typeStatus="Other material">
+<collectingRegion>Longyang County</collectingRegion>
+: 
+<specimenCount type="female">1♀</specimenCount>
+, 
+<location LSID="urn:lsid:plazi:treatment:BAC9E8388126E6A0D6E6EB52B3FF4D96:5BCB1B8C0E31915EA8A69CBC8FCCF92A" country="China" name="40 km of the road Bawan-Tengchong, Bawan village, Baoshan City" stateProvince="Longyang County">
+<quantity metricMagnitude="4" metricUnit="m" metricValue="4.0" unit="km" value="40.0">40 km</quantity>
+of the road Bawan-Tengchong, Bawan village, Baoshan City
+</location>
+, 
+<geoCoordinate>N24° 55459'</geoCoordinate>
+, 
+<geoCoordinate>E98° 45309'</geoCoordinate>
+, 
+<quantity metricMagnitude="3" metricUnit="m" metricValue="2.32" unit="m" value="2320.0">
+<elevation metricMagnitude="3" metricUnit="m" metricValue="2.32" unit="m" value="2320.0">2320 m</elevation>
+</quantity>
+, 
+<date value="2003-10-16">
+<collectingDate value="2003-10-16">October 16, 2003</collectingDate>
+</date>
+, 
+<collectorName>G. Tang</collectorName>
+(
+<collectionCode collectionName="HNU">HNU</collectionCode>
+, 
+<specimenCode>CASENT9020404</specimenCode>
+)
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="923903129" collectingDate="2005-05-31" collectionCode="CAS" collectorName="H. M. Yan, K. J. Guo" country="China" county="Longyang County" elevation="830 m" latitude="24.95184" location="Bawan Township, Bawan Forest Station" longLatPrecision="0" longitude="98.83474" specimenCode="CASENT 9025616" specimenCount="1" specimenCount-female="1" stateProvince="Yunnan" typeStatus="Other material">
+<specimenCount type="female">1♀</specimenCount>
+, 
+<location LSID="urn:lsid:plazi:treatment:BAC9E8388126E6A0D6E6EB52B3FF4D96:545053DB6A56A9A13D3421DFB79E67D2" country="China" latitude="24.95184" longLatPrecision="0" longitude="98.83474" name="Bawan Township, Bawan Forest Station" stateProvince="Longyang County">Bawan Township, Bawan Forest Station</location>
+, 
+<geoCoordinate direction="north" orientation="latitude" precision="0" value="24.95184">N24.95184°</geoCoordinate>
+, 
+<geoCoordinate direction="east" orientation="longitude" precision="0" value="98.83474">E098.83474°</geoCoordinate>
+, 
+<quantity metricMagnitude="2" metricUnit="m" metricValue="8.3" unit="m" value="830.0">
+<elevation metricMagnitude="2" metricUnit="m" metricValue="8.3" unit="m" value="830.0">830 m</elevation>
+</quantity>
+, along road near Bawan Forestry Station, 
+<date value="2005-05-31">
+<collectingDate value="2005-05-31">May 31, 2005</collectingDate>
+</date>
+, 
+<collectorName>H.M. Yan</collectorName>
+&amp; 
+<collectorName>K.J. Guo</collectorName>
+(
+<collectionCode collectionName="USA, California, San Francisco, California Academy of Sciences">CAS</collectionCode>
+, 
+<specimenCode>CASENT9025616</specimenCode>
+)
+</materialsCitation>
+. 
+<materialsCitation ID-GBIF-Occurrence="923903138" collectingDate="2003-10-12" collectionCode="HNU" collectorName="G. Tang" country="China" county="Tengchong County" elevation="2416 m" latitude="24.55625" location="39 - 41 km of the road Bawan-Tengchong, Bawan village" longitude="98.45155" specimenCode="CASENT 9020360" specimenCount="1" specimenCount-female="1" stateProvince="Yunnan" typeStatus="Other material">
+<collectingRegion>Tengchong County</collectingRegion>
+: 
+<specimenCount type="female">1♀</specimenCount>
+, 
+<location LSID="urn:lsid:plazi:treatment:BAC9E8388126E6A0D6E6EB52B3FF4D96:E5D3AAA55B5B3EEDE4925D82EE74F84B" country="China" name="39 - 41 km of the road Bawan-Tengchong, Bawan village" stateProvince="Tengchong County">
+<quantity metricMagnitude="4" metricUnit="m" metricValue="4.0" metricValueMax="4.1" metricValueMin="3.9" unit="km" value="40.0" valueMax="41.0" valueMin="39.0">39-41 km</quantity>
+of the road Bawan-Tengchong, Bawan village
+</location>
+, 
+<geoCoordinate>N24° 55625'</geoCoordinate>
+, 
+<geoCoordinate>E98° 45155'</geoCoordinate>
+, 
+<quantity metricMagnitude="3" metricUnit="m" metricValue="2.416" unit="m" value="2416.0">
+<elevation metricMagnitude="3" metricUnit="m" metricValue="2.416" unit="m" value="2416.0">2416 m</elevation>
+</quantity>
+, 
+<date value="2003-10-12">
+<collectingDate value="2003-10-12">October 12, 2003</collectingDate>
+</date>
+, 
+<collectorName>G. Tang</collectorName>
+(
+<collectionCode collectionName="HNU">HNU</collectionCode>
+, 
+<specimenCode>CASENT9020360</specimenCode>
+)
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="923903143" collectingDate="2003-10-19" collectionCode="HNU" collectorName="G. Tang" country="China" county="Tengchong County" elevation="1594 m" latitude="25.00843" location="Henghe village, 39 - 41 km of the road Bawan-Tengchong" longitude="98.42072" specimenCode="CASENT 9025796" specimenCount="1" specimenCount-male="1" stateProvince="Yunnan" typeStatus="Other material">
+<specimenCount type="generic">1♂</specimenCount>
+, 
+<location LSID="urn:lsid:plazi:treatment:BAC9E8388126E6A0D6E6EB52B3FF4D96:0319BFC951865FE7348268F6F3B49687" country="China" name="Henghe village, 39 - 41 km of the road Bawan-Tengchong" stateProvince="Tengchong County">
+Henghe village, 
+<quantity metricMagnitude="4" metricUnit="m" metricValue="4.0" metricValueMax="4.1" metricValueMin="3.9" unit="km" value="40.0" valueMax="41.0" valueMin="39.0">39-41 km</quantity>
+of the road Bawan-Tengchong
+</location>
+, 
+<geoCoordinate>N25° 00843'</geoCoordinate>
+, 
+<geoCoordinate>E98° 42072'</geoCoordinate>
+, 
+<quantity metricMagnitude="3" metricUnit="m" metricValue="1.594" unit="m" value="1594.0">
+<elevation metricMagnitude="3" metricUnit="m" metricValue="1.594" unit="m" value="1594.0">1594 m</elevation>
+</quantity>
+, 
+<date value="2003-10-19">
+<collectingDate value="2003-10-19">October 19, 2003</collectingDate>
+</date>
+, 
+<collectorName>G. Tang</collectorName>
+(
+<collectionCode collectionName="HNU">HNU</collectionCode>
+, 
+<specimenCode>CASENT9025796</specimenCode>
+)
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="923903128" collectingDate="2003-10-12" collectionCode="CAS" collectorName="G. Tang" country="China" county="Tengchong County" elevation="2416 m" latitude="24.55625" location="Bawan village, 39 - 41 km of the road Bawan-Tengchong" longitude="98.45155" specimenCode="CASENT 9020374" specimenCount="1" specimenCount-female="1" stateProvince="Yunnan" typeStatus="Other material">
+<specimenCount type="female">1♀</specimenCount>
+, 
+<location LSID="urn:lsid:plazi:treatment:BAC9E8388126E6A0D6E6EB52B3FF4D96:B1B49313896A24976F7D35DD09696D7B" country="China" name="Bawan village, 39 - 41 km of the road Bawan-Tengchong" stateProvince="Tengchong County">
+Bawan village, 
+<quantity metricMagnitude="4" metricUnit="m" metricValue="4.0" metricValueMax="4.1" metricValueMin="3.9" unit="km" value="40.0" valueMax="41.0" valueMin="39.0">39-41 km</quantity>
+of the road Bawan-Tengchong
+</location>
+, 
+<geoCoordinate>N24° 55625'</geoCoordinate>
+, 
+<geoCoordinate>E98° 45155'</geoCoordinate>
+, 
+<quantity metricMagnitude="3" metricUnit="m" metricValue="2.416" unit="m" value="2416.0">
+<elevation metricMagnitude="3" metricUnit="m" metricValue="2.416" unit="m" value="2416.0">2416 m</elevation>
+</quantity>
+, 
+<date value="2003-10-12">
+<collectingDate value="2003-10-12">October 12, 2003</collectingDate>
+</date>
+, 
+<collectorName>G. Tang</collectorName>
+(
+<collectionCode collectionName="USA, California, San Francisco, California Academy of Sciences">CAS</collectionCode>
+, 
+<specimenCode>CASENT9020374</specimenCode>
+)
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="923903144" collectingDate="2003-10-13" collectionCode="CAS" collectorName="G. Tang" country="China" county="Tengchong County" elevation="2416 m" latitude="24.55625" location="Bawan village, 41 - 42 km of the road Bawan-Tengchong (Yakou)" longitude="98.45155" specimenCode="CASENT 9020391" specimenCount="1" specimenCount-female="1" stateProvince="Yunnan" typeStatus="Other material">
+<specimenCount type="female">1♀</specimenCount>
+, 
+<location LSID="urn:lsid:plazi:treatment:BAC9E8388126E6A0D6E6EB52B3FF4D96:2F31669ACD5929F2B1C5B3C5FC001F42" country="China" name="Bawan village, 41 - 42 km of the road Bawan-Tengchong (Yakou)" stateProvince="Tengchong County">
+Bawan village, 
+<quantity metricMagnitude="4" metricUnit="m" metricValue="4.15" metricValueMax="4.2" metricValueMin="4.1" unit="km" value="41.5" valueMax="42.0" valueMin="41.0">41-42 km</quantity>
+of the road Bawan-Tengchong (Yakou)
+</location>
+, 
+<geoCoordinate>N24° 55625'</geoCoordinate>
+, 
+<geoCoordinate>E98° 45155'</geoCoordinate>
+, 
+<quantity metricMagnitude="3" metricUnit="m" metricValue="2.416" unit="m" value="2416.0">
+<elevation metricMagnitude="3" metricUnit="m" metricValue="2.416" unit="m" value="2416.0">2416 m</elevation>
+</quantity>
+, 
+<date value="2003-10-13">
+<collectingDate value="2003-10-13">October 13, 2003</collectingDate>
+</date>
+, 
+<collectorName>G. Tang</collectorName>
+(
+<collectionCode collectionName="USA, California, San Francisco, California Academy of Sciences">CAS</collectionCode>
+, 
+<specimenCode>
+<pageBreakToken pageId="93" pageNumber="97" start="start">CASENT</pageBreakToken>
+9020391
+</specimenCode>
+)
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="923903125" collectingDate="2003-10-12" collectionCode="CAS" collectorName="G. Tang" country="China" county="Tengchong County" elevation="2416 m" latitude="24.55625" location="Bawan village, 39 - 41 km of the road Bawan-Tengchong" longitude="98.45155" specimenCode="CASENT 9020369" specimenCount="1" specimenCount-male="1" stateProvince="Yunnan" typeStatus="Other material">
+<specimenCount type="generic">1♂</specimenCount>
+, 
+<location LSID="urn:lsid:plazi:treatment:BAC9E8388126E6A0D6E6EB52B3FF4D96:A217347E0A635BE971EB65EAB7B47EA7" country="China" name="Bawan village, 39 - 41 km of the road Bawan-Tengchong" stateProvince="Tengchong County">
+Bawan village, 
+<quantity metricMagnitude="4" metricUnit="m" metricValue="4.0" metricValueMax="4.1" metricValueMin="3.9" unit="km" value="40.0" valueMax="41.0" valueMin="39.0">39-41 km</quantity>
+of the road Bawan-Tengchong
+</location>
+, 
+<geoCoordinate>N24° 55625'</geoCoordinate>
+, 
+<geoCoordinate>E98° 45155'</geoCoordinate>
+, 
+<quantity metricMagnitude="3" metricUnit="m" metricValue="2.416" unit="m" value="2416.0">
+<elevation metricMagnitude="3" metricUnit="m" metricValue="2.416" unit="m" value="2416.0">2416 m</elevation>
+</quantity>
+, 
+<date value="2003-10-12">
+<collectingDate value="2003-10-12">October 12, 2003</collectingDate>
+</date>
+, 
+<collectorName>G. Tang</collectorName>
+(
+<collectionCode collectionName="USA, California, San Francisco, California Academy of Sciences">CAS</collectionCode>
+, 
+<specimenCode>CASENT9020369</specimenCode>
+)
+</materialsCitation>
+. 
+<materialsCitation ID-GBIF-Occurrence="923903151" collectingDate="1998-10" collectionCode="CAS" collectorName="C. Griswold" country="China" county="Luxi County" elevation="2018 m" location="Dahaoping village, 51 km of the road Bawan-Tengchong" specimenCode="CASENT 9025639" specimenCount="1" specimenCount-male="1" stateProvince="Yunnan" typeStatus="Other material">
+<collectingRegion>Luxi County</collectingRegion>
+: 
+<specimenCount type="generic">1♂</specimenCount>
+, 
+<location LSID="urn:lsid:plazi:treatment:BAC9E8388126E6A0D6E6EB52B3FF4D96:949F7C29E36A96076E92D893D2483448" country="China" name="Dahaoping village, 51 km of the road Bawan-Tengchong" stateProvince="Luxi County">
+Dahaoping village, 
+<quantity metricMagnitude="4" metricUnit="m" metricValue="5.1" unit="km" value="51.0">51 km</quantity>
+of the road Bawan-Tengchong
+</location>
+, 
+<geoCoordinate>N24° 58527'</geoCoordinate>
+, 
+<geoCoordinate>E98° 43797'</geoCoordinate>
+, 
+<quantity metricMagnitude="3" metricUnit="m" metricValue="2.018" unit="m" value="2018.0">
+<elevation metricMagnitude="3" metricUnit="m" metricValue="2.018" unit="m" value="2018.0">2018 m</elevation>
+</quantity>
+, 
+<date value="1998-10">
+<collectingDate value="1998-10">October 1998</collectingDate>
+</date>
+, 
+<collectorName>C. Griswold</collectorName>
+(
+<collectionCode collectionName="USA, California, San Francisco, California Academy of Sciences">CAS</collectionCode>
+, 
+<specimenCode>CASENT9025639</specimenCode>
+)
+</materialsCitation>
+.
+</paragraph>
+</subSubSection>
+<subSubSection type="multiple">
+<caption pageId="91" pageNumber="95">
+<paragraph pageId="91" pageNumber="95" type="caption">
+<pageBreakToken pageId="91" pageNumber="95" start="start">FIGURES</pageBreakToken>
+411-417. 
+<taxonomicName authority="Wang" authorityName="Wang" class="Arachnida" family="Agelenidae" genus="Draconarius" higherTaxonomySource="CoL" kingdom="Animalia" order="Araneae" pageId="91" pageNumber="95" phylum="Arthropoda" rank="species" species="pseudocapitulatus">Draconarius pseudocapitulatus Wang</taxonomicName>
+2003, female 
+<typeStatus>paratype</typeStatus>
+(411-412) from Fugong County, Pihe, Yueliangtian (
+<collectionCode collectionName="USA, California, San Francisco, California Academy of Sciences">CAS</collectionCode>
+, CASENT9016352), female (413-414) and male (415-4416) from Fugong County, Shibali (
+<collectionCode collectionName="USA, California, San Francisco, California Academy of Sciences">CAS</collectionCode>
+, CASENT9020658). 411. Epigynum, ventral; 412. Habitus, dorsal; 413-414; Epigynum (ventral, dorsal); 415-417. Palp (prolateral, ventral, retrolateral).
+</paragraph>
+</caption>
+<caption pageId="92" pageNumber="96">
+<paragraph pageId="92" pageNumber="96" type="caption">
+<pageBreakToken pageId="92" pageNumber="96" start="start">FIGURES</pageBreakToken>
+418-427. 
+<taxonomicName authority="Wang" authorityName="Wang" class="Arachnida" family="Agelenidae" genus="Draconarius" higherTaxonomySource="CoL" kingdom="Animalia" order="Araneae" pageId="92" pageNumber="96" phylum="Arthropoda" rank="species" species="pseudocapitulatus">Draconarius pseudocapitulatus Wang</taxonomicName>
+2003, females (418-420) from Fugong County, Lishadi, Yakou of Shibali (
+<collectionCode collectionName="USA, California, San Francisco, California Academy of Sciences">CAS</collectionCode>
+, CASENT9025581), female (421-422) from Fugong County, Pihe, Yueliangtian (
+<collectionCode collectionName="HNU">HNU</collectionCode>
+, CASENT9025612), female (423-424) and male (425-427) from Fugong County, Shibali (
+<collectionCode collectionName="USA, California, San Francisco, California Academy of Sciences">CAS</collectionCode>
+, CASENT9020658). 418-421. Epigynum, ventral; 422. Epigynum, dorsal; 423, 426. Eyes, fronto-dorsal; 425. Habitus, dorsal; 424, 427. Labium, ventral (
+<collectionCode>L</collectionCode>
+/ 
+<collectionCode>W</collectionCode>
+=1.00).
+</paragraph>
+</caption>
+<caption pageId="92" pageNumber="96">
+<paragraph pageId="92" pageNumber="96" type="caption">
+FIGURES 428-431. 
+<taxonomicName class="Arachnida" family="Agelenidae" genus="Draconarius" higherTaxonomySource="CoL" kingdom="Animalia" order="Araneae" pageId="92" pageNumber="96" phylum="Arthropoda" rank="species" species="pseudospiralis">Draconarius pseudospiralis</taxonomicName>
+<taxonomicNameLabel rank="species">sp. nov.</taxonomicNameLabel>
+, male 
+<typeStatus>holotype</typeStatus>
+(430-431) and female 
+<typeStatus>paratype</typeStatus>
+(428-429) from Tengchong County, Luoshuidong (
+<collectionCode collectionName="HNU">HNU</collectionCode>
+). 428-429. Epigynum (ventral, dorsal); 430-431. Palp (ventral, retrolateral).
+</paragraph>
+</caption>
+</subSubSection>
+<subSubSection type="etymology">
+<paragraph pageId="92" pageNumber="96" type="mainText">
+Etymology: The specific name refers to its similarity to 
+<taxonomicName class="Arachnida" family="Agelenidae" genus="Draconarius" higherTaxonomySource="CoL" kingdom="Animalia" order="Araneae" pageId="92" pageNumber="96" phylum="Arthropoda" rank="species" species="spiralis">D. spiralis</taxonomicName>
+, name in apposition.
+</paragraph>
+</subSubSection>
+<subSubSection type="diagnosis">
+<paragraph pageId="92" pageNumber="96" type="mainText">
+Diagnosis: This 
+<taxonomicNameLabel rank="species">new species</taxonomicNameLabel>
+is similar to 
+<taxonomicName class="Arachnida" family="Agelenidae" genus="Draconarius" higherTaxonomySource="CoL" kingdom="Animalia" order="Araneae" pageId="92" pageNumber="96" phylum="Arthropoda" rank="species" species="spiralis">D. spiralis</taxonomicName>
+<taxonomicNameLabel rank="species">sp. nov.</taxonomicNameLabel>
+and 
+<taxonomicName class="Arachnida" family="Agelenidae" genus="Draconarius" higherTaxonomySource="CoL" kingdom="Animalia" order="Araneae" pageId="92" pageNumber="96" phylum="Arthropoda" rank="species" species="paraspiralis">D. paraspiralis</taxonomicName>
+<taxonomicNameLabel rank="species">sp. nov.</taxonomicNameLabel>
+in having coiled spermathecal tubes, a large atrium, the absence of epigynal teeth, a distally coiled conductor, and a simple median apophysis, but can be distinguished by the distally broad conductor and the proximally originating embolus in the male, and by the anterior atrial margin that extends posteriorly to at least half of the atrial length and the broad copulatory ducts in the female (Figs 428-431).
+</paragraph>
+</subSubSection>
+<subSubSection type="description">
+<paragraph pageId="92" pageNumber="96" type="mainText">
+Description: Male (
+<typeStatus>holotype</typeStatus>
+). Large sized 
+<taxonomicName pageId="92" pageNumber="96" rank="subFamily" subFamily="Coelotinae">Coelotinae</taxonomicName>
+(Fig. 444). Total length 10.2. Dorsal shield of prosoma 5.00 long, 3.14 wide; opisthosoma 5.20 long, 3.60 wide. 
+<collectionCode collectionName="USA, Florida, Gainesville, University of Florida, Florida Museum of Natural History, Allyn Museum">AME</collectionCode>
+smallest, 
+<sup pageId="92" pageNumber="96">2</sup>
+/3 size of ALE; ALE largest; PLE slightly smaller than ALE, PME slightly smaller than PLE (
+<collectionCode collectionName="USA, Florida, Gainesville, University of Florida, Florida Museum of Natural History, Allyn Museum">AME</collectionCode>
+0.20, 
+<collectionCode>ALE</collectionCode>
+0.28, 
+<collectionCode>PME</collectionCode>
+0.24, 
+<collectionCode>PLE</collectionCode>
+0.26); anterior eyes equally separated by half of 
+<collectionCode collectionName="USA, Florida, Gainesville, University of Florida, Florida Museum of Natural History, Allyn Museum">AME</collectionCode>
+diameter; PME separated from each other by slightly more than half of PME diameter, from PLE by 
+<sup pageId="92" pageNumber="96">4</sup>
+/ 
+<sub pageId="92" pageNumber="96">5</sub>
+of PME diameter (AME-AME 0.10, AME-ALE 0.09, PME-PME 0.13, PME-PLE 0.20, AME-PME 0.15) (Fig. 445). Labium slightly longer than wide (
+<collectionCode>L</collectionCode>
+/ 
+<collectionCode>W</collectionCode>
+=1.09) (Fig. 446). Promargin of chelicera with 3, retromargin with 2 teeth. Palpal patellar apophysis tiny, barely visible; RTA approximately half of tibial length or slightly longer; lateral tibial apophysis present; cymbial furrow less than half of cymbial length; conductor broad, with a distinctly coiled apex, a well developed basal lamella, and a slender dorsal apophysis; median apophysis simple, not spoon-shaped; embolus filiform, long, proximal in origin, arising at 6- 
+<normalizedToken originalValue="o‘clock-position">o'clock-position</normalizedToken>
+, running half an oval, extending posteriorly to distal part of tibia and anteriorly coiling beyond distal part of bulb (Figs 430-431, 434-436).
+</paragraph>
+<caption pageId="94" pageNumber="98">
+<paragraph pageId="94" pageNumber="98" type="caption">
+<pageBreakToken pageId="94" pageNumber="98" start="start">FIGURES</pageBreakToken>
+432-436. 
+<taxonomicName class="Arachnida" family="Agelenidae" genus="Draconarius" higherTaxonomySource="CoL" kingdom="Animalia" order="Araneae" pageId="94" pageNumber="98" phylum="Arthropoda" rank="species" species="pseudospiralis">Draconarius pseudospiralis</taxonomicName>
+<taxonomicNameLabel rank="species">sp. nov.</taxonomicNameLabel>
+, male (434-436) and female (432-433) 
+<typeStatus>paratypes</typeStatus>
+from Tengchong County, Bawan (
+<collectionCode collectionName="HNU">HNU</collectionCode>
+, CASENT9020375). 432-433. Epigynum (ventral, dorsal); 434-436. Palp (prolateral, ventral, retrolateral).
+</paragraph>
+</caption>
+<paragraph lastPageId="95" lastPageNumber="99" pageId="94" pageNumber="98" type="mainText">
+Female (
+<typeStatus>paratype</typeStatus>
+measured). Large sized 
+<taxonomicName pageId="94" pageNumber="98" rank="subFamily" subFamily="Coelotinae">Coelotinae</taxonomicName>
+, total length 10.8 (Fig. 441). Dorsal shield of prosoma 5.20 long, 3.80 wide; opisthosoma 5.60 long, 4.00 wide. 
+<collectionCode collectionName="USA, Florida, Gainesville, University of Florida, Florida Museum of Natural History, Allyn Museum">AME</collectionCode>
+smallest, 
+<sup pageId="94" pageNumber="98">4</sup>
+/ 
+<sub pageId="94" pageNumber="98">5</sub>
+size of ALE; ALE largest; posterior eyes subequal in size, slightly smaller than ALE (
+<collectionCode collectionName="USA, Florida, Gainesville, University of Florida, Florida Museum of Natural History, Allyn Museum">AME</collectionCode>
+0.19, 
+<collectionCode>ALE</collectionCode>
+0.25, 
+<collectionCode>PME</collectionCode>
+0.23, 
+<collectionCode>PLE</collectionCode>
+0.24); 
+<collectionCode collectionName="USA, Florida, Gainesville, University of Florida, Florida Museum of Natural History, Allyn Museum">AME</collectionCode>
+separated from each other by 3/4 of their diameter, from ALE by half of 
+<collectionCode collectionName="USA, Florida, Gainesville, University of Florida, Florida Museum of Natural History, Allyn Museum">AME</collectionCode>
+diameter; PME separated from each other by half of their diameter, widely separated from PLE by slightly more than PME diameter (AME-AME 0.15, AME-ALE 0.09, PME-PME 0.12, PME-PLE 0.28, AME-PME 0.20) (Fig. 442). Labium slightly longer than wide (
+<collectionCode>L</collectionCode>
+/ 
+<collectionCode>W</collectionCode>
+=1.06) (Fig. 443). Promargin of chelicera with 3, retromargin with 2 teeth. Epigynal teeth absent; atrium large, but shallow, with anterior margin extending posteriorly to a septum that extends half or more than half of atrial length; copulatory ducts large, originating anteriorly, extending posteriorly and then curving back anteriorly; spermathecae with bases widely separated by more than two times their width, 
+<pageBreakToken pageId="95" pageNumber="99" start="start">stalks</pageBreakToken>
+long, anteriorly extending and slightly converging; spermathecal heads arising distally (Figs 428-429, 432-433, 437-440).
+</paragraph>
+</subSubSection>
+<subSubSection type="distribution">
+<paragraph pageId="95" pageNumber="99" type="mainText">
+Distribution: China (Yunnan: Tengchong, Longling, Longyang, 
+<misspelling corrections="[Ljava.lang.String;@751e31" pageNumber="99" type="misspelled">Luxi</misspelling>
+) (Fig. 548).
+</paragraph>
+</subSubSection>
+</treatment>
+</document>
