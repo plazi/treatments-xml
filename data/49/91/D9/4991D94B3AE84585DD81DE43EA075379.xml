@@ -1,0 +1,266 @@
+<document ENCODING="UTF-8" ID-DOI="http://doi.org/10.5281/zenodo.6265619" ID-GBIF-Dataset="9eacacec-8876-4f44-8c35-943e1832d578" ID-GBIF-Taxon="100119244" ID-Zenodo-Dep="6265619" ModsDocID="z00924p001" checkinTime="1247067973337" checkinUser="thomas" docAuthor="Thomas H. Fraser" docDate="2005" docId="4991D94B3AE84585DD81DE43EA075379" docLanguage="en" docName="2005_Fraser_gg1.xml" docOrigin="Zootaxa 924" docSource="http://www.zoobank.org/urn:lsid:zoobank.org:pub:CB0C476E-97D7-4831-9C5D-2406489FDCE5" docTitle="Apogon septemstriatus Guenther 1880" docType="treatment" docVersion="13" lastPageNumber="23" masterDocId="A296B5B4BEC4743BF52FBEB2CD613F3F" masterDocTitle="A review of the species in the Apogon fasciatus group with a description of a new species of cardinalfish from the Indo-West Pacific (Perciformes: Apogonidae)." masterLastPageNumber="30" masterPageNumber="1" pageNumber="21" updateTime="1645740362601" updateUser="ExternalLinkService">
+<mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
+<mods:titleInfo>
+<mods:title>A review of the species in the Apogon fasciatus group with a description of a new species of cardinalfish from the Indo-West Pacific (Perciformes: Apogonidae).</mods:title>
+</mods:titleInfo>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Thomas H. Fraser</mods:namePart>
+</mods:name>
+<mods:typeOfResource>text</mods:typeOfResource>
+<mods:relatedItem type="host">
+<mods:titleInfo>
+<mods:title>Zootaxa</mods:title>
+</mods:titleInfo>
+<mods:part>
+<mods:date>2005</mods:date>
+<mods:detail type="volume">
+<mods:number>924</mods:number>
+</mods:detail>
+<mods:extent unit="page">
+<mods:start>1</mods:start>
+<mods:end>30</mods:end>
+</mods:extent>
+</mods:part>
+</mods:relatedItem>
+<mods:location>
+<mods:url>http://www.zoobank.org/urn:lsid:zoobank.org:pub:CB0C476E-97D7-4831-9C5D-2406489FDCE5</mods:url>
+</mods:location>
+<mods:classification>journal article</mods:classification>
+<mods:identifier type="ZooBank-PUB">z00924p001</mods:identifier>
+<mods:identifier type="ZooBank">CB0C476E-97D7-4831-9C5D-2406489FDCE5</mods:identifier>
+</mods:mods>
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6265619" ID-GBIF-Taxon="100119244" ID-Zenodo-Dep="6265619" LSID="urn:lsid:plazi:treatment:4991D94B3AE84585DD81DE43EA075379" httpUri="http://treatment.plazi.org/id/4991D94B3AE84585DD81DE43EA075379" lastPageNumber="23" pageNumber="21">
+<subSubSection type="nomenclature">
+<paragraph pageNumber="21">
+<taxonomicName class="Actinopterygii" family="Apogonidae" genus="Apogon" higherTaxonomySource="CoL" kingdom="Animalia" order="Perciformes" pageNumber="21" phylum="Chordata" rank="species" species="septemstriatus">
+Apogon septemstriatus 
+<normalizedToken originalValue="Günther">Guenther</normalizedToken>
+, 1880
+</taxonomicName>
+</paragraph>
+</subSubSection>
+<subSubSection type="synonymic_list">
+<paragraph pageNumber="21">Synonyms. None</paragraph>
+</subSubSection>
+<subSubSection type="nomenclature">
+<paragraph pageNumber="21">
+<materialsCitation ID-GBIF-Occurrence="923900867" collectionCode="BMNH" collectorName="Challenger Expedition" country="Indonesia" location="Arafura Sea" specimenCode="BMNH 1890.2.26.33" typeStatus="Holotype">
+Type Material: 
+<typeStatus>Holotype</typeStatus>
+<specimenCode>
+<collectionCode>BMNH</collectionCode>
+1890.2.26.33
+</specimenCode>
+; 63.7 mm SL; 
+<location LSID="urn:lsid:plazi:treatment:4991D94B3AE84585DD81DE43EA075379:6257E9736D677FBCDB1C4F5DFC9F4478" country="Indonesia" name="Arafura Sea">Arafura Sea</location>
+; 
+<collectorName>Challenger</collectorName>
+.
+</materialsCitation>
+</paragraph>
+</subSubSection>
+<subSubSection type="materials_examined">
+<paragraph pageNumber="21">
+Other material: 
+<materialsCitation ID-GBIF-Occurrence="923900885" collectingDate="1978-06-08" collectionCode="USNM" collectorName="R / V Sting Ray V" country="Philippines" latitude="11.527222" location="Visayan Sea; Sta. T-26; 38 m depth" longitude="123.51667" specimenCode="USNM 357486">
+<collectingCountry>Philippines</collectingCountry>
+: 
+<specimenCode>
+<collectionCode>USNM</collectionCode>
+357486
+</specimenCode>
+; (59.7); 
+<location LSID="urn:lsid:plazi:treatment:4991D94B3AE84585DD81DE43EA075379:7ABE290165CA467FB5C3D7A2C131FE7C" country="Philippines" latitude="11.527222" longitude="123.51667" name="Visayan Sea; Sta. T-26; 38 m depth">Visayan Sea</location>
+, 
+<geoCoordinate direction="north" orientation="latitude" value="11.527222">11°31'38&quot;N</geoCoordinate>
+<geoCoordinate>123°31'00&quot;E</geoCoordinate>
+; 
+<collectorName>R/V Sting Ray V</collectorName>
+, T-26;
+<date day="08" month="06" value="1978-06-08" year="1978">
+<collectingDate day="08" month="06" value="1978-06-08" year="1978">8 Jun 1978</collectingDate>
+</date>
+; 38 m
+</materialsCitation>
+. 
+<materialsCitation ID-GBIF-Occurrence="923900874" collectingDate="1978-06-08" collectionCode="USNM" collectorName="R / V Sting Ray V" country="Philippines" latitude="11.656111" location="Visayan Sea, Tanguingui I.; Sta. T-25" longitude="123.63778" specimenCode="USNM 262456">
+<specimenCode>
+<collectionCode>USNM</collectionCode>
+262456
+</specimenCode>
+; 4(60-65); 
+<location LSID="urn:lsid:plazi:treatment:4991D94B3AE84585DD81DE43EA075379:78F96771361E9A8070975298FF8FDB3C" country="Philippines" latitude="11.656111" longitude="123.63778" name="Visayan Sea, Tanguingui I.; Sta. T-25">Visayan Sea, Tanguingui I.</location>
+, 
+<geoCoordinate direction="north" orientation="latitude" value="11.656111">11°39'22&quot;N</geoCoordinate>
+<geoCoordinate direction="east" orientation="longitude" value="123.63778">123°38'16&quot;E</geoCoordinate>
+; Sta T-25; 
+<date day="08" month="06" value="1978-06-08" year="1978">
+<collectingDate day="08" month="06" value="1978-06-08" year="1978">8 Jun 1978</collectingDate>
+</date>
+</materialsCitation>
+. 
+<materialsCitation ID-GBIF-Occurrence="923900873" collectingDate="1908-02-02" collectionCode="USNM" collectorName="USS Albatross" country="Philippines" location="Tinaka I.; USS Albatross Station No. A 3947" specimenCode="USNM 171477">
+<specimenCode>
+<collectionCode>USNM</collectionCode>
+171477
+</specimenCode>
+(A 3947); (39); 
+<location LSID="urn:lsid:plazi:treatment:4991D94B3AE84585DD81DE43EA075379:0035BCAE6786AADD8C684AFAE0687E4E" country="Philippines" name="Tinaka I.; USS Albatross Station No. A 3947">Tinaka I.</location>
+; 
+<date day="02" month="02" value="1908-02-02" year="1908">
+<collectingDate day="02" month="02" value="1908-02-02" year="1908">2 Feb 1908</collectingDate>
+</date>
+</materialsCitation>
+. 
+<materialsCitation ID-GBIF-Occurrence="923900858" collectingDate="1908-02-06" collectingMethod="dredge" collectionCode="USNM" collectorName="USS Albatross" country="Philippines" location="Sulade I.; USS Albatross Station No. D 5146" specimenCode="USNM 171466">
+<specimenCode>
+<collectionCode>USNM</collectionCode>
+171466
+</specimenCode>
+(D5146); (29); 
+<location LSID="urn:lsid:plazi:treatment:4991D94B3AE84585DD81DE43EA075379:AF5B04BCAA35A96B0E9FD80DE134AFF2" country="Philippines" name="Sulade I.; USS Albatross Station No. D 5146">Sulade I.</location>
+; 
+<date day="06" month="02" value="1908-02-06" year="1908">
+<collectingDate day="06" month="02" value="1908-02-06" year="1908">6 Feb 1908</collectingDate>
+</date>
+</materialsCitation>
+. 
+<materialsCitation ID-GBIF-Occurrence="923900860" collectingDate="1910" collectionCode="AMS" country="Australia" location="near Bower" specimenCode="AMS E. 2665" stateProvince="Queensland">
+<collectingCountry>Australia</collectingCountry>
+: 
+<collectingRegion>Queensland</collectingRegion>
+: 
+<specimenCode>
+<collectionCode>AMS</collectionCode>
+E.2665
+</specimenCode>
+; (68); 
+<location LSID="urn:lsid:plazi:treatment:4991D94B3AE84585DD81DE43EA075379:4B049234FF64D71D1BC53BE237210B26" country="Australia" name="near Bower" stateProvince="Queensland">near Bower</location>
+; 
+<collectingDate>1910</collectingDate>
+</materialsCitation>
+. 
+<materialsCitation ID-GBIF-Occurrence="923900869" collectionCode="QM" country="Australia" location="Magnetic I." specimenCode="QM I. 11078" stateProvince="Queensland">
+<specimenCode>
+<collectionCode>QM</collectionCode>
+I.11078
+</specimenCode>
+; (51); 
+<location LSID="urn:lsid:plazi:treatment:4991D94B3AE84585DD81DE43EA075379:87552DEED8CDBF507ABB6E757BAB7804" country="Australia" name="Magnetic I." stateProvince="Queensland">Magnetic I.</location>
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="923900868" collectingDate="1962-10" collectionCode="WAM" country="Australia" location="Exmouth Gulf" specimenCode="WAM P. 11139 - 40" stateProvince="Western Australia">
+<collectingRegion>Western Australia</collectingRegion>
+: 
+<specimenCode>
+<collectionCode>WAM</collectionCode>
+P.11139-40
+</specimenCode>
+; (40-46);, 
+<location LSID="urn:lsid:plazi:treatment:4991D94B3AE84585DD81DE43EA075379:C11B05D165832360C2BD0DB0ACCA4008" country="Australia" name="Exmouth Gulf" stateProvince="Western Australia">Exmouth Gulf</location>
+; 
+<date month="10" value="1962-10" year="1962">
+<collectingDate month="10" value="1962-10" year="1962">Oct 1962</collectingDate>
+</date>
+</materialsCitation>
+. 
+<materialsCitation ID-GBIF-Occurrence="923900859" collectingDate="1973-01-04" collectionCode="CAS" country="Australia" location="Ashmore I.; Timor Sea; 18-37 m depth" specimenCode="CAS 56645" stateProvince="Western Australia">
+<specimenCode>
+<collectionCode>CAS</collectionCode>
+56645
+</specimenCode>
+; 3(40-47); 
+<location LSID="urn:lsid:plazi:treatment:4991D94B3AE84585DD81DE43EA075379:C14DD7770E15123A1569889A6C3065B5" country="Australia" name="Ashmore I.; Timor Sea; 18-37 m depth" stateProvince="Western Australia">Ashmore I,; Timor Sea</location>
+; 
+<date day="04" month="01" value="1973-01-04" year="1973">
+<collectingDate day="04" month="01" value="1973-01-04" year="1973">4 Jan 1973</collectingDate>
+</date>
+; 18-37 m
+</materialsCitation>
+. 
+<materialsCitation ID-GBIF-Occurrence="923900875" collectingDate="1979-02-15" collectionCode="AMS" country="Australia" latitude="-11.55" location="Cape York; 23 m depth" longitude="142.93333" specimenCode="AMS I. 20827004" stateProvince="Queensland">
+<specimenCode>
+<collectionCode>AMS</collectionCode>
+I.20827004
+</specimenCode>
+; 1(40); 
+<collectingRegion>Queensland</collectingRegion>
+, 
+<location LSID="urn:lsid:plazi:treatment:4991D94B3AE84585DD81DE43EA075379:D49AEC18AE2B2CBE44A0AE044C034985" country="Australia" latitude="-11.55" longitude="142.93333" name="Cape York; 23 m depth" stateProvince="Queensland">Cape York</location>
+, 
+<geoCoordinate>11°33'S</geoCoordinate>
+<geoCoordinate direction="east" orientation="longitude" value="142.93333">142°56'E</geoCoordinate>
+; 
+<date day="15" month="02" value="1979-02-15" year="1979">
+<collectingDate day="15" month="02" value="1979-02-15" year="1979">15 Feb 1979</collectingDate>
+</date>
+; 23 m
+</materialsCitation>
+. 
+<materialsCitation ID-GBIF-Occurrence="923900878" collectingDate="1982-03-26" collectionCode="AMS" country="Australia" latitude="-19.533333" location="N of Port Hedland; 50-52 m depth" longitude="118.15" specimenCode="AMS I. 22801020" stateProvince="Western Australia">
+<specimenCode>
+<collectionCode>AMS</collectionCode>
+I. 22801020
+</specimenCode>
+; 2(51- 52); 
+<collectingRegion>Western Australia</collectingRegion>
+, 
+<location LSID="urn:lsid:plazi:treatment:4991D94B3AE84585DD81DE43EA075379:B7246F19F9E0AB221F08A06248746171" country="Australia" latitude="-19.533333" longitude="118.15" name="N of Port Hedland; 50-52 m depth" stateProvince="Western Australia">N of Port Hedland</location>
+, 
+<geoCoordinate direction="south" orientation="latitude" value="-19.533333">19°32'S</geoCoordinate>
+<geoCoordinate direction="east" orientation="longitude" value="118.15">118°09'E</geoCoordinate>
+; 
+<date day="26" month="03" value="1982-03-26" year="1982">
+<collectingDate day="26" month="03" value="1982-03-26" year="1982">26 Mar 1982</collectingDate>
+</date>
+; 50-52 m
+</materialsCitation>
+.
+</paragraph>
+</subSubSection>
+<subSubSection type="diagnosis">
+<paragraph lastPageNumber="22" pageNumber="21">
+Diagnosis. A species of 
+<taxonomicName class="Actinopterygii" family="Apogonidae" genus="Apogon" higherTaxonomySource="CoL" kingdom="Animalia" order="Perciformes" pageNumber="21" phylum="Chordata" rank="subGenus" subGenus="Ostorhinchus">Apogon (Ostorhinchus)</taxonomicName>
+with three narrow dark stripes, the first from nape along base of first dorsal fin, the second from above eye to upper caudal peduncle, the third midlateral from front of snout to end of caudal fin; 13-14 pectoral rays; 
+<pageStartToken pageNumber="22">well</pageStartToken>
+developed gill rakers 14-16, total gill rakers and rudiments 17-21; VII first-dorsal spines.
+</paragraph>
+</subSubSection>
+<subSubSection type="description">
+<paragraph pageNumber="22">Description. See Figure 7 for general body shape and Table 1 for proportional percentages.</paragraph>
+<paragraph pageNumber="22">Dorsal fin VII-I,9 with third spine much thicker than second or fourth, last soft ray shorter than preceding ray; anal fin II,8 with last soft ray shorter than preceding ray; pectoral fin 14-14, rarely 13-14 (Table 2); pelvic fin I,5; principal caudal rays 9 + 8, caudal fin forked; pored lateral-line scales, 24, extending from posttemporal onto base of caudal fin; transverse scale rows above lateral line 2; transverse scale rows below lateral line 6; median predorsal scales 5-6; circumpeduncular scale rows 12 (5+2+5).</paragraph>
+<paragraph pageNumber="22">Villiform teeth in several rows on the premaxilla; several villiform rows becoming a single row on side dentary; 1-2 rows on the palatine; one row on vomer; none on ectopterygoid, entopterygoid or basihyal. Rudiments and gill rakers on first arch (Table 3), 2-3 rudiments and 3-4 gill rakers on upper arch, 0-3 rudiment and 11-13 gill rakers lower arch, total gill rakers and rudiments 17-21; second arch with 2 rudiment-like rakers on upper arch and 13 short rakers grading to rudiments on lower arch.</paragraph>
+<paragraph pageNumber="22">Vertebrae 10 + 14; 5 free hypurals, one pair of slender uroneurals, 3 epurals, a free parhypural; 3 supraneurals; 2 supernumerary spines on first dorsal pterygiophore; basisphenoid present; supramaxilla absent; posttemporal with 4-8 serrations on posterior margin; preopercle ridge smooth, edges serrate on posterior and ventral margins; infraorbital edge smooth.</paragraph>
+<paragraph pageNumber="22">Scales ctenoid on opercle, subopercle, cheek, breast, nape, pelvic and body; ctenoid pored lateral-line scales from posttemporal to base of hypural; central pore canal on lateral-line scale with 2-3 pores on dorsal side, simple below with 1 pore, rarely with multiple pores.</paragraph>
+<paragraph pageNumber="22">Ten pores around mouth 3 bilateral pores above premaxilla, 1 below anterior nasal area along ventral edge of crease, 2 on ventral edge of lachrymal separated by a septum; 2 bilateral pores on dentary near symphysis, 1 mid-anterior, 1 ventral.</paragraph>
+<caption>
+<paragraph pageNumber="22">
+FIGURE 7. Holotype of 
+<taxonomicName class="Actinopterygii" family="Apogonidae" genus="Apogon" higherTaxonomySource="CoL" kingdom="Animalia" order="Perciformes" pageNumber="22" phylum="Chordata" rank="species" species="septemstriatus">Apogon septemstriatus</taxonomicName>
+, BMNH 1890.2.26.33, Arafura Sea, Challenger Expedition, 63.7 mm SL.
+</paragraph>
+</caption>
+<paragraph pageNumber="23">
+<pageStartToken pageNumber="23">Color</pageStartToken>
+in alcohol. Dark stripe on snout continuing behind eye on mid-body to tip of mid-caudal fin smaller than width of pupil, dark stripe over eye from snout reaching to the caudal fin base on upper caudal peduncle, midline nape stripe beginning above eyes extending to near origin first dorsal fin then splitting on either side of base of first dorsal fin extending to second dorsal fin, may be faint posteriorly, not on caudal peduncle; small melanophores but no pattern on head below mid-line; stripe in basal part of second dorsal fin, membranes of first dorsal fin with tiny melanophores but no pattern, stripe in base of anal fin, pelvic pale caudal fin pale except for midline striped; stomach black, intestine black, peritoneum silvery with many melanophores.
+</paragraph>
+<paragraph pageNumber="23">Life colors. Unknown in sea. Kuiter and Kozawa (1999, p.16) have a color photograph shortly after collection.</paragraph>
+</subSubSection>
+<subSubSection type="distribution">
+<paragraph pageNumber="23">Distribution. West Pacific along continental margins from Australia and the Philippines (Fig 8). Expected elsewhere in Indonesia.</paragraph>
+</subSubSection>
+<subSubSection type="biology_ecology">
+<paragraph pageNumber="23">Habitat: Known from 18-52 meters.</paragraph>
+</subSubSection>
+<subSubSection type="discussion">
+<paragraph pageNumber="23">
+Remarks: This species has not been confused with other species in this group. Its color pattern and meristics suggest a close relationship with 
+<taxonomicName LSID-ZBK="urn:lsid:zoobank.org:act:7D42D1E8-CC9E-4078-9F17-67E4226FD86D" class="Actinopterygii" family="Apogonidae" genus="Apogon" higherTaxonomySource="CoL" kingdom="Animalia" lsidName-ZBK="Apogon quinquestriatus Regan 1908:226" order="Perciformes" pageNumber="23" phylum="Chordata" rank="species" species="quinquestriatus">Apogon quinquestriatus</taxonomicName>
+.
+</paragraph>
+</subSubSection>
+</treatment>
+</document>
