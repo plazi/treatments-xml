@@ -1,0 +1,101 @@
+<document ENCODING="UTF-8" ID-DOI="http://doi.org/10.5281/zenodo.6273753" ID-GBIF-Dataset="8e0f2c52-8a9a-4456-871d-9ea9fd7d4b34" ID-GBIF-Taxon="100126352" ID-Zenodo-Dep="6273753" ModsDocAuthor="al-Nabhan, M." ModsDocID="21239" checkinTime="1244210363331" checkinUser="thomas" docAuthor="Pintureau, B. &amp; al-Nabhan, M." docDate="2003" docId="8D6FE78D66E88FD290E83A6AED535468" docLanguage="en" docName="21239_gg2.xml" docOrigin="Zootaxa 238" docSource="http://128.146.250.117/pdfs/21239/21239.pdf" docTitle="Gryon fasciatus Priesner" docType="treatment" docVersion="11" lastPageNumber="6" masterDocId="3AFFDBA4A30AC493AEEC070D4D57E07A" masterDocTitle="New data on the European species of three genera Scelionidae (Hymenoptera)." masterLastPageNumber="12" masterPageNumber="1" pageNumber="5" updateTime="1645772648812" updateUser="ExternalLinkService">
+<mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
+<mods:titleInfo>
+<mods:title>New data on the European species of three genera Scelionidae (Hymenoptera).</mods:title>
+</mods:titleInfo>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Pintureau, B.</mods:namePart>
+</mods:name>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>al-Nabhan, M.</mods:namePart>
+</mods:name>
+<mods:typeOfResource>text</mods:typeOfResource>
+<mods:relatedItem type="host">
+<mods:titleInfo>
+<mods:title>Zootaxa</mods:title>
+</mods:titleInfo>
+<mods:part>
+<mods:date>2003</mods:date>
+<mods:detail type="volume">
+<mods:number>238</mods:number>
+</mods:detail>
+<mods:extent unit="page">
+<mods:start>1</mods:start>
+<mods:end>12</mods:end>
+</mods:extent>
+</mods:part>
+</mods:relatedItem>
+<mods:location>
+<mods:url>http://128.146.250.117/pdfs/21239/21239.pdf</mods:url>
+</mods:location>
+<mods:classification>journal article</mods:classification>
+<mods:identifier type="HNS-PUB">21239</mods:identifier>
+<mods:identifier type="ZooBank">700A6F55-8650-4631-B16A-1BE36A06974D</mods:identifier>
+</mods:mods>
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6273753" ID-GBIF-Taxon="100126352" ID-Zenodo-Dep="6273753" LSID="urn:lsid:plazi:treatment:8D6FE78D66E88FD290E83A6AED535468" httpUri="http://treatment.plazi.org/id/8D6FE78D66E88FD290E83A6AED535468" lastPageNumber="6" pageNumber="5">
+<subSubSection type="nomenclature">
+<paragraph pageNumber="5">
+<taxonomicName LSID-HNS="urn:lsid:biosci.ohio-state.edu:osuc_concepts:8663" class="Insecta" family="Scelionidae" genus="Gryon" higherTaxonomySource="CoL" kingdom="Animalia" lsidName-HNS="Gryon fasciatus (Priesner)" order="Hymenoptera" pageNumber="5" phylum="Arthropoda" rank="species" species="fasciatus">Gryon fasciatus Priesner</taxonomicName>
+</paragraph>
+</subSubSection>
+<subSubSection type="materials_examined">
+<paragraph pageNumber="5">
+Material examined. 
+<materialsCitation ID-GBIF-Occurrence="923899222" collectingDate="1991-07-25" collectingMethod="yellow pan trap" country="France" location="Venissieux" stateProvince="Rhone">
+One male collected in a 
+<collectingMethod>yellow pan trap</collectingMethod>
+at 
+<location LSID="urn:lsid:plazi:treatment:8D6FE78D66E88FD290E83A6AED535468:4C6BC97ADA971F9962234583A5EF7BBF" country="France" name="Venissieux" stateProvince="Rhone">Venissieux</location>
+, 
+<collectingRegion>Rhone</collectingRegion>
+, 
+<collectingCountry>France</collectingCountry>
+, on 
+<collectingDate day="25" month="07">
+25 
+<collectingDate month="07" value="1991-07" year="1991">July 1991</collectingDate>
+</collectingDate>
+.
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="923899223" collectingDate="1998-05" collectingMethod="reared from Eurygaster integriceps eggs (Het.: Pentatomidae) laid on wheat" collectorName="A. Babi" country="Syria" location="Hasake">
+One male collected at 
+<location LSID="urn:lsid:plazi:treatment:8D6FE78D66E88FD290E83A6AED535468:3B5B35D7700CA3F11D542085A93DCD38" country="Syria" name="Hasake">Hasake</location>
+, 
+<collectingCountry>Syria</collectingCountry>
+, on 
+<collectingDate month="05" value="1998-05" year="1998">May 1998</collectingDate>
+, 
+<collectingMethod>
+in 
+<taxonomicName LSID-HNS="urn:lsid:biosci.ohio-state.edu:osuc_concepts:181474" class="Insecta" family="Scutelleridae" genus="Eurygaster" higherTaxonomySource="CoL" kingdom="Animalia" lsidName-HNS="Eurygaster integriceps Puton" order="Hemiptera" pageNumber="5" phylum="Arthropoda" rank="species" species="integriceps">Eurygaster integriceps</taxonomicName>
+eggs (Het.: 
+<taxonomicName family="Pentatomidae" pageNumber="5" rank="family">Pentatomidae</taxonomicName>
+) laid on wheat
+</collectingMethod>
+(material sent by 
+<collectorName>A. Babi</collectorName>
+).
+</materialsCitation>
+</paragraph>
+</subSubSection>
+<subSubSection type="distribution">
+<paragraph pageNumber="6">The species has previously been recorded from some African and eastern European countries: Egypt, Moldavia, Russia, Somalia, Ukraine, Zaire, Zimbabwue (Kozlov 1971, 1988; Kozlov &amp; Kononova 1990; Mineo 1991; Kononova 1992, 1994). Therefore, it is new for France, and for Syria and the Middle East.</paragraph>
+</subSubSection>
+<subSubSection type="biology_ecology">
+<paragraph pageNumber="6">
+Eggs of 
+<taxonomicName LSID-HNS="urn:lsid:biosci.ohio-state.edu:osuc_concepts:181474" class="Insecta" family="Scutelleridae" genus="Eurygaster" higherTaxonomySource="CoL" kingdom="Animalia" lsidName-HNS="Eurygaster integriceps Puton" order="Hemiptera" pageNumber="6" phylum="Arthropoda" rank="species" species="integriceps">E. integriceps</taxonomicName>
+are the first known hosts.
+</paragraph>
+</subSubSection>
+<subSubSection type="description">
+<paragraph pageNumber="6">Morphology. Kozlov and Kononova (1990), Mineo (1991) and Kononova (1992) redescribed the species and illustrated male and female antennae and wings. The male genitalia appear in figure 3B.</paragraph>
+</subSubSection>
+</treatment>
+</document>
