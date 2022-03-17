@@ -1,0 +1,130 @@
+<document ENCODING="UTF-8" ID-DOI="http://doi.org/10.5281/zenodo.6248840" ID-GBIF-Dataset="b8f58d00-19e5-4cfa-a1f0-4c686286fc5e" ID-GBIF-Taxon="100117468" ID-Zenodo-Dep="6248840" ModsDocID="z01603p001" checkinTime="1247319475874" checkinUser="thomas" docAuthor="Juan J. Schmitter-Soto" docDate="2007" docId="11AB1E3FEE0523EF26CFBC2C84706BBC" docLanguage="en" docName="2007_Schmitter-Soto_gg1.xml" docOrigin="Zootaxa 1603" docSource="http://www.zoobank.org/urn:lsid:zoobank.org:pub:AFFCB590-1FC7-4CD0-950C-D1D1A6E59F6C" docTitle="Cryptoheros nanoluteus" docType="treatment" docVersion="11" lastPageNumber="74" masterDocId="9F5EADD85808D5BD56FDE2FB757992C0" masterDocTitle="A systematic revision of the genus Archocentrus (Perciformes: Cichlidae), with the description of two new genera and six new species." masterLastPageNumber="78" masterPageNumber="1" pageNumber="74" updateTime="1645644805739" updateUser="ExternalLinkService">
+<mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
+<mods:titleInfo>
+<mods:title>A systematic revision of the genus Archocentrus (Perciformes: Cichlidae), with the description of two new genera and six new species.</mods:title>
+</mods:titleInfo>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Juan J. Schmitter-Soto</mods:namePart>
+</mods:name>
+<mods:typeOfResource>text</mods:typeOfResource>
+<mods:relatedItem type="host">
+<mods:titleInfo>
+<mods:title>Zootaxa</mods:title>
+</mods:titleInfo>
+<mods:part>
+<mods:date>2007</mods:date>
+<mods:detail type="volume">
+<mods:number>1603</mods:number>
+</mods:detail>
+<mods:extent unit="page">
+<mods:start>1</mods:start>
+<mods:end>78</mods:end>
+</mods:extent>
+</mods:part>
+</mods:relatedItem>
+<mods:location>
+<mods:url>http://www.zoobank.org/urn:lsid:zoobank.org:pub:AFFCB590-1FC7-4CD0-950C-D1D1A6E59F6C</mods:url>
+</mods:location>
+<mods:classification>journal article</mods:classification>
+<mods:identifier type="ZooBank-PUB">z01603p001</mods:identifier>
+<mods:identifier type="ZooBank">AFFCB590-1FC7-4CD0-950C-D1D1A6E59F6C</mods:identifier>
+</mods:mods>
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6248840" ID-GBIF-Taxon="100117468" ID-Zenodo-Dep="6248840" LSID="urn:lsid:plazi:treatment:11AB1E3FEE0523EF26CFBC2C84706BBC" httpUri="http://treatment.plazi.org/id/11AB1E3FEE0523EF26CFBC2C84706BBC" lastPageNumber="74" pageNumber="74">
+<subSubSection type="nomenclature">
+<paragraph pageNumber="74">
+<taxonomicName class="Actinopterygii" family="Cichlidae" genus="Cryptoheros" higherTaxonomySource="CoL" kingdom="Animalia" order="Perciformes" pageNumber="74" phylum="Chordata" rank="species" species="nanoluteus">Cr. nanoluteus</taxonomicName>
+:
+</paragraph>
+</subSubSection>
+<subSubSection type="materials_examined">
+<paragraph pageNumber="74">
+<materialsCitation ID-GBIF-Occurrence="923904133" collectionCode="MNHN, ANSP" country="Panama" location="brooks of Rio Guarumo at Chiriquicito" specimenCode="MNHN 1993 - 260, MNHN 1993 - 261, MNHN 1993 - 263, ANSP 104377" stateProvince="Bocas del Toro" typeStatus="1 holotype and 2 paratypes">
+<specimenCode>
+<collectionCode>MNHN</collectionCode>
+1993-260
+</specimenCode>
+(
+<typeStatus>holotype</typeStatus>
+, dig.), 
+<specimenCode>
+<collectionCode>MNHN</collectionCode>
+1993-261
+</specimenCode>
+(1), 
+<specimenCode>
+<collectionCode>MNHN</collectionCode>
+1993-263
+</specimenCode>
+(1, XR) (
+<typeStatus>paratypes</typeStatus>
+), 
+<specimenCode>
+<collectionCode>ANSP</collectionCode>
+104377
+</specimenCode>
+(9), 
+<collectingCountry>Panama</collectingCountry>
+, 
+<collectingRegion>Bocas del Toro</collectingRegion>
+, 
+<location LSID="urn:lsid:plazi:treatment:11AB1E3FEE0523EF26CFBC2C84706BBC:AB396E3DD114B735864E2F3DB69191F6" country="Panama" name="brooks of Rio Guarumo at Chiriquicito" stateProvince="Bocas del Toro">
+brooks of 
+<normalizedToken originalValue="Río">Rio</normalizedToken>
+Guarumo at Chiriquicito
+</location>
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="923904141" collectionCode="MHNG" country="Panama" location="Rio Priki" specimenCode="uncat.">
+<collectionCode collectionName="Switzerland, Geneva, Museum d'Histoire Naturelle">MHNG</collectionCode>
+<specimenCode>uncat.</specimenCode>
+(2), 
+<collectingCountry>Panama</collectingCountry>
+, 
+<location LSID="urn:lsid:plazi:treatment:11AB1E3FEE0523EF26CFBC2C84706BBC:ADE3CFEE0B0D661CD74EBECEB9F48E2B" country="Panama" name="Rio Priki">
+<normalizedToken originalValue="Río">Rio</normalizedToken>
+Priki
+</location>
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="923904140" collectionCode="NRM" country="Panama" location="Rio Guarumo (Guabo)" specimenCode="NRM 25942" stateProvince="Chiriqui Grande">
+<specimenCode>
+<collectionCode>NRM</collectionCode>
+25942
+</specimenCode>
+(2), 
+<collectingCountry>Panama</collectingCountry>
+, 
+<collectingRegion>
+<normalizedToken originalValue="Chiriquí">Chiriqui</normalizedToken>
+Grande
+</collectingRegion>
+, 
+<location LSID="urn:lsid:plazi:treatment:11AB1E3FEE0523EF26CFBC2C84706BBC:2D3922729C0DE54D92EFECFD389F21F9" country="Panama" name="Rio Guarumo (Guabo)" stateProvince="Chiriqui Grande">
+<normalizedToken originalValue="Río">Rio</normalizedToken>
+Guarumo (Guabo)
+</location>
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="923904142" collectionCode="NRM" country="Panama" location="Rio Guaromo [Guarumo]" specimenCode="NRM 35880" stateProvince="Bocas del Toro">
+<specimenCode>
+<collectionCode>NRM</collectionCode>
+35880
+</specimenCode>
+(1), 
+<collectingCountry>Panama</collectingCountry>
+, 
+<collectingRegion>Bocas del Toro</collectingRegion>
+, 
+<location LSID="urn:lsid:plazi:treatment:11AB1E3FEE0523EF26CFBC2C84706BBC:2C7C8D55C578213FA86451149D5DF8B2" country="Panama" name="Rio Guaromo [Guarumo]" stateProvince="Bocas del Toro">
+<normalizedToken originalValue="Río">Rio</normalizedToken>
+Guaromo [Guarumo]
+</location>
+</materialsCitation>
+.
+</paragraph>
+</subSubSection>
+</treatment>
+</document>
