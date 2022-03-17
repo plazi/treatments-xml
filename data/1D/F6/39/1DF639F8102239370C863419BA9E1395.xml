@@ -1,0 +1,168 @@
+<document ENCODING="UTF8" ID-DOI="http://doi.org/10.5281/zenodo.6291013" ID-GBIF-Dataset="7e4a4607-12cc-4ef3-88ce-707fa7cd8815" ID-GBIF-Taxon="100108322" ID-GenericHash="3784-0748-2261" ID-Zenodo-Dep="6291013" checkinTime="1365680233852" checkinUser="quentin" docAuthor="Charles Joseph Pitard and Louis Proust" docDate="1908" docId="1DF639F8102239370C863419BA9E1395" docLanguage="fr" docName="iles canaries3.xml" docOrigin="Les îles Canaries. Flore de l'archipel, Paris: Paul Klincksieck" docSource="http://un.availab.le" docTitle="Chenopodium vulvaria L." docType="treatment" docVersion="12" lastPageNumber="327" masterDocId="B1FDB26E23DBC4BDD5CFC23C931767FB" masterDocTitle="Chenopodieae" masterLastPageNumber="327" masterPageNumber="326" pageNumber="326" updateTime="1645836132049" updateUser="ExternalLinkService">
+<mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
+<mods:titleInfo>
+<mods:title>Chenopodieae</mods:title>
+</mods:titleInfo>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Charles Joseph Pitard and Louis Proust</mods:namePart>
+</mods:name>
+<mods:typeOfResource>text</mods:typeOfResource>
+<mods:relatedItem type="host">
+<mods:originInfo>
+<mods:dateIssued>1908</mods:dateIssued>
+<mods:publisher>Paul Klincksieck</mods:publisher>
+<mods:place>
+<mods:placeTerm>Paris</mods:placeTerm>
+</mods:place>
+</mods:originInfo>
+<mods:titleInfo>
+<mods:title>Les îles Canaries. Flore de l'archipel</mods:title>
+</mods:titleInfo>
+<mods:part>
+<mods:extent unit="page">
+<mods:start>326</mods:start>
+<mods:end>327</mods:end>
+</mods:extent>
+</mods:part>
+</mods:relatedItem>
+<mods:location>
+<mods:url>http://un.availab.le</mods:url>
+</mods:location>
+<mods:classification>book chapter</mods:classification>
+<mods:identifier type="GenericHash">3784-0748-2261</mods:identifier>
+</mods:mods>
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6291013" ID-GBIF-Taxon="100108322" ID-Zenodo-Dep="6291013" LSID="urn:lsid:plazi:treatment:1DF639F8102239370C863419BA9E1395" httpUri="http://treatment.plazi.org/id/1DF639F8102239370C863419BA9E1395">
+<subSubSection type="nomenclature">
+<paragraph>
+<taxonomicName authority="L." authorityName="L." class="Magnoliopsida" family="Amaranthaceae" genus="Chenopodium" higherTaxonomySource="CoL" kingdom="Plantae" order="Caryophyllales" phylum="Tracheophyta" rank="species" species="vulvaria">
+C. vulvaria 
+<authority>
+<author>L.</author>
+</authority>
+</taxonomicName>
+, 
+<bibRef>
+<volumeTitle>Sp.</volumeTitle>
+, 
+<pagination type="pageRange">321</pagination>
+</bibRef>
+; 
+<bibRef author="Desf." pagination="215" part="I" type="book" volumeTitle="Atl." year="1723">
+<author>
+<tnCandidate>Desf</tnCandidate>
+.
+</author>
+, 
+<volumeTitle>Atl.</volumeTitle>
+, 
+<part type="series">I</part>
+, 
+<pagination type="pageRange">215</pagination>
+</bibRef>
+; 
+<bibRef author="Batt. et Trab." pagination="752" part="I" type="book" volumeTitle="Alg." year="1723">
+<author>
+<tnCandidate>Batt</tnCandidate>
+. et Trab.
+</author>
+, 
+<volumeTitle>Alg.</volumeTitle>
+, 
+<part type="series">I</part>
+, 
+<pagination type="pageRange">752</pagination>
+</bibRef>
+; 
+<bibRef author="Boiss." pagination="902" part="IV" type="book" volumeTitle="Or." year="1723">
+<author>
+<tnCandidate>Boiss</tnCandidate>
+.
+</author>
+, 
+<volumeTitle>Or.</volumeTitle>
+, 
+<part type="fascicle">IV</part>
+, 
+<pagination type="pageRange">902</pagination>
+</bibRef>
+; 
+<bibRef author="G. et G." pagination="18" part="III" type="book" volumeTitle="Fl. Fr." year="1723">
+<author>G. et G.</author>
+, 
+<volumeTitle>Fl. Fr.</volumeTitle>
+, 
+<part type="fascicle">III</part>
+, 
+<pagination type="pageRange">18</pagination>
+</bibRef>
+; 
+<bibRef author="Bon. et Bar." pagination="360" type="book" volumeTitle="Tun." year="1723">
+<author>Bon. et Bar.</author>
+, 
+<volumeTitle>Tun.</volumeTitle>
+, 
+<pagination type="pageRange">360</pagination>
+</bibRef>
+. Mars 
+<normalizedToken originalValue="à">a</normalizedToken>
+mai.
+</paragraph>
+</subSubSection>
+<subSubSection type="distribution">
+<paragraph>
+<materialsCitation ID-GBIF-Occurrence="923897945" country="Spain" elevation="400 m" location="Las Lapas" stateProvince="Hierro">
+<tnCandidate>
+<collectingRegion>Hierro</collectingRegion>
+</tnCandidate>
+: 
+<location LSID="urn:lsid:plazi:treatment:1DF639F8102239370C863419BA9E1395:FAEDFA6CC50A16E3CFF578C69B628FC8" Lapas="Lapas" country="Spain" name="Las" stateProvince="Hierro">
+Las 
+<tnCandidate>Lapas</tnCandidate>
+</location>
+(
+<quantity metricMagnitude="2" metricUnit="m" metricValue="4.0" unit="m" value="400.0">
+<elevation metricMagnitude="2" metricUnit="m" metricValue="4.0" unit="m" value="400.0">400 m</elevation>
+</quantity>
+)
+</materialsCitation>
+.
+</paragraph>
+</subSubSection>
+<subSubSection type="biology_ecology">
+<paragraph>
+Bords des chemins de la 
+<normalizedToken originalValue="région">region</normalizedToken>
+maritime.
+</paragraph>
+</subSubSection>
+<subSubSection type="description">
+<paragraph>
+Cette 
+<normalizedToken originalValue="espèce">espece</normalizedToken>
+semble ne pas avoir 
+<normalizedToken originalValue="été">ete</normalizedToken>
+<normalizedToken originalValue="signalée">signalee</normalizedToken>
+aux Canaries.
+</paragraph>
+</subSubSection>
+<subSubSection type="distribution">
+<paragraph>
+Maroc, 
+<normalizedToken originalValue="Algérie">Algerie</normalizedToken>
+, Tunisie, Europe, 
+<tnCandidate>Caucase</tnCandidate>
+, 
+<tnCandidate>
+<tnCandidate>Asie</tnCandidate>
+<tnCandidate>Mineure</tnCandidate>
+</tnCandidate>
+, Syrie, Tripolitaine, Egypte, 
+<tnCandidate>Perse</tnCandidate>
+, etc.
+</paragraph>
+</subSubSection>
+</treatment>
+</document>

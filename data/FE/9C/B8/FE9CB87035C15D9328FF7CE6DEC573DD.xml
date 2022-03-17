@@ -1,0 +1,270 @@
+<document ENCODING="UTF8" ID-DOI="http://doi.org/10.5281/zenodo.6291015" ID-GBIF-Dataset="7e4a4607-12cc-4ef3-88ce-707fa7cd8815" ID-GBIF-Taxon="100108316" ID-GenericHash="3784-0748-2261" ID-Zenodo-Dep="6291015" checkinTime="1365680233852" checkinUser="quentin" docAuthor="Charles Joseph Pitard and Louis Proust" docDate="1908" docId="FE9CB87035C15D9328FF7CE6DEC573DD" docLanguage="fr" docName="iles canaries3.xml" docOrigin="Les îles Canaries. Flore de l'archipel, Paris: Paul Klincksieck" docSource="http://un.availab.le" docTitle="Chenopodium ambrosioides L." docType="treatment" docVersion="12" lastPageNumber="327" masterDocId="B1FDB26E23DBC4BDD5CFC23C931767FB" masterDocTitle="Chenopodieae" masterLastPageNumber="327" masterPageNumber="326" pageNumber="326" updateTime="1645836132049" updateUser="ExternalLinkService">
+<mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
+<mods:titleInfo>
+<mods:title>Chenopodieae</mods:title>
+</mods:titleInfo>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Charles Joseph Pitard and Louis Proust</mods:namePart>
+</mods:name>
+<mods:typeOfResource>text</mods:typeOfResource>
+<mods:relatedItem type="host">
+<mods:originInfo>
+<mods:dateIssued>1908</mods:dateIssued>
+<mods:publisher>Paul Klincksieck</mods:publisher>
+<mods:place>
+<mods:placeTerm>Paris</mods:placeTerm>
+</mods:place>
+</mods:originInfo>
+<mods:titleInfo>
+<mods:title>Les îles Canaries. Flore de l'archipel</mods:title>
+</mods:titleInfo>
+<mods:part>
+<mods:extent unit="page">
+<mods:start>326</mods:start>
+<mods:end>327</mods:end>
+</mods:extent>
+</mods:part>
+</mods:relatedItem>
+<mods:location>
+<mods:url>http://un.availab.le</mods:url>
+</mods:location>
+<mods:classification>book chapter</mods:classification>
+<mods:identifier type="GenericHash">3784-0748-2261</mods:identifier>
+</mods:mods>
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6291015" ID-GBIF-Taxon="100108316" ID-Zenodo-Dep="6291015" LSID="urn:lsid:plazi:treatment:FE9CB87035C15D9328FF7CE6DEC573DD" httpUri="http://treatment.plazi.org/id/FE9CB87035C15D9328FF7CE6DEC573DD">
+<subSubSection type="nomenclature">
+<paragraph>
+<taxonomicName authority="L." authorityName="L." class="Magnoliopsida" family="Amaranthaceae" genus="Chenopodium" higherTaxonomySource="CoL" kingdom="Plantae" order="Caryophyllales" phylum="Tracheophyta" rank="species" species="ambrosioides">
+C. ambrosioides 
+<authority>
+<author>L.</author>
+</authority>
+</taxonomicName>
+, 
+<bibRef>
+<volumeTitle>Sp.</volumeTitle>
+, 
+<pagination type="pageRange">320</pagination>
+</bibRef>
+; 
+<bibRef author="Batt. et Trab." pagination="754" part="I" type="book" volumeTitle="Alg." year="1723">
+<author>
+<tnCandidate>Batt</tnCandidate>
+. et Trab.
+</author>
+, 
+<volumeTitle>Alg.</volumeTitle>
+, 
+<part type="series">I</part>
+, 
+<pagination type="pageRange">754</pagination>
+</bibRef>
+; 
+<bibRef author="Boiss." pagination="904" part="IV" type="book" volumeTitle="Or." year="1723">
+<author>
+<tnCandidate>Boiss</tnCandidate>
+.
+</author>
+, 
+<volumeTitle>Or.</volumeTitle>
+, 
+<part type="fascicle">IV</part>
+, 
+<pagination type="pageRange">904</pagination>
+</bibRef>
+; 
+<bibRef author="G. et G." pagination="17" part="III" type="book" volumeTitle="Fl. Fr." year="1723">
+<author>G. et G.</author>
+, 
+<volumeTitle>Fl. Fr.</volumeTitle>
+, 
+<part type="fascicle">III</part>
+, 
+<pagination type="pageRange">17</pagination>
+</bibRef>
+; 
+<bibRef author="Bon. et Bar." pagination="361" type="book" volumeTitle="Tun." year="1723">
+<author>Bon. et Bar.</author>
+, 
+<volumeTitle>Tun.</volumeTitle>
+, 
+<pagination type="pageRange">361</pagination>
+</bibRef>
+. 
+<tnCandidate>Pl. Canarienses</tnCandidate>
+, n° 667. Janvier à juin.
+</paragraph>
+</subSubSection>
+<subSubSection type="distribution">
+<paragraph>
+<materialsCitation ID-GBIF-Occurrence="923897942" collectorName="Bolle" country="Spain" location="Bufadero" stateProvince="Tenerife">
+<normalizedToken originalValue="Ténérife">
+<tnCandidate>
+<collectingRegion>Tenerife</collectingRegion>
+</tnCandidate>
+</normalizedToken>
+: 
+<tnCandidate>
+<tnCandidate>
+<location LSID="urn:lsid:plazi:treatment:FE9CB87035C15D9328FF7CE6DEC573DD:29046B03F749CB0B21C0855CDAC98651" country="Spain" name="Bufadero" stateProvince="Tenerife">Bufadero</location>
+</tnCandidate>
+(
+<tnCandidate>
+<collectorName>Bolle</collectorName>
+</tnCandidate>
+)
+</tnCandidate>
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="923897940" country="Spain" elevation="300 m" location="Guimar" stateProvince="Tenerife">
+<normalizedToken originalValue="Guïmar">
+<tnCandidate>
+<location LSID="urn:lsid:plazi:treatment:FE9CB87035C15D9328FF7CE6DEC573DD:7A5267E05147D90A6F34174344BFBC2A" country="Spain" name="Guimar" stateProvince="Tenerife">Guimar</location>
+</tnCandidate>
+</normalizedToken>
+(
+<quantity metricMagnitude="2" metricUnit="m" metricValue="3.0" unit="m" value="300.0">
+<elevation metricMagnitude="2" metricUnit="m" metricValue="3.0" unit="m" value="300.0">300 m</elevation>
+</quantity>
+)
+</materialsCitation>
+, 
+<materialsCitation ID-GBIF-Occurrence="923897944" country="Spain" elevation="500 m" location="Barranco d'Anavigo" stateProvince="Tenerife">
+<location LSID="urn:lsid:plazi:treatment:FE9CB87035C15D9328FF7CE6DEC573DD:BF6DFEEBC619286DF115D033A6EE27CC" country="Spain" dAnavigo="dAnavigo" name="Barranco" stateProvince="Tenerife">
+<tnCandidate>Barranco</tnCandidate>
+d'Anavigo
+</location>
+(
+<quantity metricMagnitude="2" metricUnit="m" metricValue="5.0" unit="m" value="500.0">
+<elevation metricMagnitude="2" metricUnit="m" metricValue="5.0" unit="m" value="500.0">500 m</elevation>
+</quantity>
+)
+</materialsCitation>
+, 
+<materialsCitation ID-GBIF-Occurrence="923897950" country="Spain" elevation="550 m" location="Laguna" stateProvince="Tenerife">
+<location LSID="urn:lsid:plazi:treatment:FE9CB87035C15D9328FF7CE6DEC573DD:11CEC0FD2CADB80AA1275D9B97AB26CE" country="Spain" name="Laguna" stateProvince="Tenerife">Laguna</location>
+(
+<quantity metricMagnitude="2" metricUnit="m" metricValue="5.5" unit="m" value="550.0">
+<elevation metricMagnitude="2" metricUnit="m" metricValue="5.5" unit="m" value="550.0">550 m</elevation>
+</quantity>
+)
+</materialsCitation>
+, 
+<materialsCitation ID-GBIF-Occurrence="923897941" country="Spain" elevation="300 m" location="Barranco de los Molinos pres La Questa" stateProvince="Tenerife">
+<location LSID="urn:lsid:plazi:treatment:FE9CB87035C15D9328FF7CE6DEC573DD:F6B1B0909E0519B12E375B90B604B3A9" La="La" Molinos="Molinos" Questa="Questa" country="Spain" de="de" los="los" name="Barranco" pres="pres" stateProvince="Tenerife">
+<tnCandidate>Barranco</tnCandidate>
+de los 
+<tnCandidate>Molinos</tnCandidate>
+<normalizedToken originalValue="près">pres</normalizedToken>
+La 
+<tnCandidate>Questa</tnCandidate>
+</location>
+(
+<quantity metricMagnitude="2" metricUnit="m" metricValue="3.0" unit="m" value="300.0">
+<elevation metricMagnitude="2" metricUnit="m" metricValue="3.0" unit="m" value="300.0">300 m</elevation>
+</quantity>
+)
+</materialsCitation>
+.
+</paragraph>
+<paragraph>
+<materialsCitation ID-GBIF-Occurrence="923897939" collectorName="Bourg" location="Isleta" municipality="Gran-Canaria">
+<normalizedToken originalValue="Gran-Canarià">
+<collectingMunicipality>Gran-Canaria</collectingMunicipality>
+</normalizedToken>
+: 
+<tnCandidate>
+<location LSID="urn:lsid:plazi:treatment:FE9CB87035C15D9328FF7CE6DEC573DD:A468AE42A5BAF0AB53F46A2117920C17" municipality="Gran-Canaria" name="Isleta">Isleta</location>
+</tnCandidate>
+(
+<tnCandidate>
+<collectorName>Bourg</collectorName>
+</tnCandidate>
+.)
+</materialsCitation>
+; 
+<tnCandidate>
+<materialsCitation ID-GBIF-Occurrence="923897948" location="Arucas">
+<location LSID="urn:lsid:plazi:treatment:FE9CB87035C15D9328FF7CE6DEC573DD:9458E5D37E91086E3D9FB9806730804E" name="Arucas">Arucas</location>
+</materialsCitation>
+</tnCandidate>
+, 
+<tnCandidate>
+<materialsCitation ID-GBIF-Occurrence="923897946" location="Lairaga">
+<location LSID="urn:lsid:plazi:treatment:FE9CB87035C15D9328FF7CE6DEC573DD:3FBF21BF4AE9408151C0DAD706BBD6A0" name="Lairaga">Lairaga</location>
+</materialsCitation>
+</tnCandidate>
+, 
+<materialsCitation ID-GBIF-Occurrence="923897943" location="Lomo Blanco">
+<location Blanco="Blanco" LSID="urn:lsid:plazi:treatment:FE9CB87035C15D9328FF7CE6DEC573DD:8E788A63DEB33B63DED09E227CEF85E9" name="Lomo">
+<tnCandidate>Lomo</tnCandidate>
+Blanco
+</location>
+</materialsCitation>
+. 
+<materialsCitation ID-GBIF-Occurrence="923897947" location="Puerto de Cabras" municipality="Fuerteventura">
+<normalizedToken originalValue="Fuerteventurâ">
+<tnCandidate>
+<collectingMunicipality>Fuerteventura</collectingMunicipality>
+</tnCandidate>
+</normalizedToken>
+: 
+<location Cabras="Cabras" LSID="urn:lsid:plazi:treatment:FE9CB87035C15D9328FF7CE6DEC573DD:7FEF4C73FAA5E0065D0FA8258518A4C1" de="de" municipality="Fuerteventura" name="Puerto">
+Puerto de 
+<tnCandidate>Cabras</tnCandidate>
+</location>
+.
+</materialsCitation>
+</paragraph>
+<paragraph>
+<materialsCitation ID-GBIF-Occurrence="923897949" collectorName="Bolle" location="Sine loc." municipality="Lanzarote">
+<tnCandidate>
+<collectingMunicipality>Lanzarote</collectingMunicipality>
+</tnCandidate>
+: 
+<location LSID="urn:lsid:plazi:treatment:FE9CB87035C15D9328FF7CE6DEC573DD:518EA3A983CF6FE0C1B62AF5844BFC06" loc.="loc." municipality="Lanzarote" name="Sine">Sine loc.</location>
+(
+<tnCandidate>
+<collectorName>Bolle</collectorName>
+</tnCandidate>
+)
+</materialsCitation>
+.
+</paragraph>
+</subSubSection>
+<subSubSection type="biology_ecology">
+<paragraph>
+<normalizedToken originalValue="Décombres">Decombres</normalizedToken>
+et lieux incultes dans la 
+<normalizedToken originalValue="région">region</normalizedToken>
+maritime, 
+<normalizedToken originalValue="où">ou</normalizedToken>
+il 
+<normalizedToken originalValue="paraît">parait</normalizedToken>
+bien plus abondant 
+<normalizedToken originalValue="qu'à">qu'a</normalizedToken>
+<normalizedToken originalValue="l'époque">l'epoque</normalizedToken>
+de la 
+<normalizedToken originalValue="rédaction">redaction</normalizedToken>
+de la 
+<tnCandidate>Flore</tnCandidate>
+de Webb et 
+<tnCandidate>Berthelot</tnCandidate>
+.
+</paragraph>
+</subSubSection>
+<subSubSection type="distribution">
+<paragraph>
+<tnCandidate>Originaire</tnCandidate>
+<normalizedToken originalValue="d'Amérique">d'Amerique</normalizedToken>
+septentrionale et tropicale, introduit dans la 
+<normalizedToken originalValue="région">region</normalizedToken>
+<normalizedToken originalValue="méditerranéenne">mediterraneenne</normalizedToken>
+.
+</paragraph>
+</subSubSection>
+</treatment>
+</document>
