@@ -1,0 +1,870 @@
+<document ENCODING="UTF-8" ID-DOI="http://doi.org/10.5281/zenodo.6269174" ID-GBIF-Dataset="75bc7fe5-2259-4997-a97c-4ad231e317ce" ID-GBIF-Taxon="100124272" ID-Zenodo-Dep="6269174" ModsDocID="z01092p021" checkinTime="1247052617466" checkinUser="thomas" docAuthor="Oscar Akio Shibatta &amp; Carla Simone Pavanelli" docDate="2005" docId="42A32352983600E527BBBF6ADFD6C5DD" docLanguage="en" docName="2005_Shibatta_Pavanelli_gg2.xml" docOrigin="Zootaxa 1092" docSource="http://www.zoobank.org/urn:lsid:zoobank.org:pub:1B8CC3B0-7430-4F31-A9D9-85AE688645D6" docTitle="Batrochoglanis villosus" docType="treatment" docVersion="10" lastPageNumber="29" masterDocId="A7809C460FFB2B63C0638F135E037D5C" masterDocTitle="Description of a new Batrochoglanis species (Siluriformes, Pseudopimelodidae) from the rio Paraguai basin, State of Mato Grosso, Brazil." masterLastPageNumber="30" masterPageNumber="21" pageNumber="29" updateTime="1645753680777" updateUser="ExternalLinkService">
+<mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
+<mods:titleInfo>
+<mods:title>Description of a new Batrochoglanis species (Siluriformes, Pseudopimelodidae) from the rio Paraguai basin, State of Mato Grosso, Brazil.</mods:title>
+</mods:titleInfo>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Oscar Akio Shibatta</mods:namePart>
+</mods:name>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Carla Simone Pavanelli</mods:namePart>
+</mods:name>
+<mods:typeOfResource>text</mods:typeOfResource>
+<mods:relatedItem type="host">
+<mods:titleInfo>
+<mods:title>Zootaxa</mods:title>
+</mods:titleInfo>
+<mods:part>
+<mods:date>2005</mods:date>
+<mods:detail type="volume">
+<mods:number>1092</mods:number>
+</mods:detail>
+<mods:extent unit="page">
+<mods:start>21</mods:start>
+<mods:end>30</mods:end>
+</mods:extent>
+</mods:part>
+</mods:relatedItem>
+<mods:location>
+<mods:url>http://www.zoobank.org/urn:lsid:zoobank.org:pub:1B8CC3B0-7430-4F31-A9D9-85AE688645D6</mods:url>
+</mods:location>
+<mods:classification>journal article</mods:classification>
+<mods:identifier type="ZooBank-PUB">z01092p021</mods:identifier>
+<mods:identifier type="ZooBank">1B8CC3B0-7430-4F31-A9D9-85AE688645D6</mods:identifier>
+</mods:mods>
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6269174" ID-GBIF-Taxon="100124272" ID-Zenodo-Dep="6269174" LSID="urn:lsid:plazi:treatment:42A32352983600E527BBBF6ADFD6C5DD" httpUri="http://treatment.plazi.org/id/42A32352983600E527BBBF6ADFD6C5DD" lastPageNumber="29" pageNumber="29">
+<subSubSection type="nomenclature">
+<paragraph pageNumber="29">
+<taxonomicName class="Actinopterygii" family="Pseudopimelodidae" genus="Batrochoglanis" higherTaxonomySource="CoL" kingdom="Animalia" order="Siluriformes" pageNumber="29" phylum="Chordata" rank="species" species="villosus">Batrochoglanis villosus</taxonomicName>
+.
+</paragraph>
+</subSubSection>
+<subSubSection type="materials_examined">
+<paragraph lastPageNumber="30" pageNumber="29">
+<materialsCitation ID-GBIF-Occurrence="923897578" collectingDate="1908" collectionCode="FMNH" country="GUYANA" location="Potaro Landing" specimenCode="FMNH 53219" typeStatus="Holotype">
+<collectingCountry>GUYANA</collectingCountry>
+. 
+<specimenCode>
+<collectionCode collectionName="USA, Illinois, Chicago, Field Museum of Natural History (also used by Finnish Museum of Natural History)">FMNH</collectionCode>
+53219
+</specimenCode>
+, 
+<typeStatus>Holotype</typeStatus>
+, 
+<location LSID="urn:lsid:plazi:treatment:42A32352983600E527BBBF6ADFD6C5DD:E50FAFEF760EF06DE60B9EB05928F8E8" country="GUYANA" name="Potaro Landing">Potaro Landing</location>
+, 
+<collectingDate>1908</collectingDate>
+(118.0)
+</materialsCitation>
+. 
+<materialsCitation ID-GBIF-Occurrence="923897581" collectingDate="1908" collectionCode="FMNH" country="Guyana" location="Kumaka" specimenCode="FMNH 53220" typeStatus="Paratype">
+<typeStatus>Paratypes</typeStatus>
+: 
+<specimenCode>
+<collectionCode collectionName="USA, Illinois, Chicago, Field Museum of Natural History (also used by Finnish Museum of Natural History)">FMNH</collectionCode>
+53220
+</specimenCode>
+, 
+<location LSID="urn:lsid:plazi:treatment:42A32352983600E527BBBF6ADFD6C5DD:9330FEDDB9F16EA24718E65FF4CCA840" country="Guyana" name="Kumaka">Kumaka</location>
+, 
+<collectingDate>1908</collectingDate>
+(61.9)
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="923897580" collectingDate="1908" collectionCode="FMNH" country="Guyana" location="Wismar" specimenCode="FMNH 53571" typeStatus="Paratype">
+<specimenCode>
+<collectionCode collectionName="USA, Illinois, Chicago, Field Museum of Natural History (also used by Finnish Museum of Natural History)">FMNH</collectionCode>
+53571
+</specimenCode>
+, 
+<location LSID="urn:lsid:plazi:treatment:42A32352983600E527BBBF6ADFD6C5DD:991B1671850C9F621646F0CE749E161C" country="Guyana" name="Wismar">Wismar</location>
+, 
+<collectingDate>1908</collectingDate>
+(38.0)
+</materialsCitation>
+. Non types: 
+<materialsCitation ID-GBIF-Occurrence="923897584" collectingDate="1912" collectionCode="AMNH" country="Guyana" location="Rio Potaro, Tumatumari" specimenCode="AMNH 04419" stateProvince="Essequibo">
+<collectingRegion>Essequibo</collectingRegion>
+: 
+<specimenCode>
+<collectionCode collectionName="USA, New York, New York, American Museum of Natural History">AMNH</collectionCode>
+04419
+</specimenCode>
+, 
+<location LSID="urn:lsid:plazi:treatment:42A32352983600E527BBBF6ADFD6C5DD:02A7E5393BF5C3DF06403F3D2BA1C142" country="Guyana" name="Rio Potaro, Tumatumari" stateProvince="Essequibo">
+<normalizedToken originalValue="Río">Rio</normalizedToken>
+Potaro, Tumatumari
+</location>
+, 
+<collectingDate>Summer of 1912</collectingDate>
+(88.6)
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="923897582" collectingDate="1936-10" collectionCode="AMNH" country="Guyana" location="Rio Essequibo, Rockstone" specimenCode="AMNH 13658">
+<specimenCode>
+<collectionCode collectionName="USA, New York, New York, American Museum of Natural History">AMNH</collectionCode>
+13658
+</specimenCode>
+, 
+<location LSID="urn:lsid:plazi:treatment:42A32352983600E527BBBF6ADFD6C5DD:2B198F6D67A290E564AC1F60DEB792B5" country="Guyana" name="Rio Essequibo, Rockstone">
+<normalizedToken originalValue="Río">Rio</normalizedToken>
+Essequibo, Rockstone
+</location>
+, 
+<collectingDate month="10" value="1936-10" year="1936">x.1936</collectingDate>
+(102.5)
+</materialsCitation>
+. 
+<materialsCitation ID-GBIF-Occurrence="923897583" collectingDate="1980-09-11" collectionCode="AMNH" country="SURINAME" location="stream opposite to camp, about 2 km downstream the Cow falls" specimenCode="AMNH 55370" stateProvince="Distrito Nickerie">
+<collectingCountry>SURINAME</collectingCountry>
+. 
+<collectingRegion>Distrito Nickerie</collectingRegion>
+: 
+<specimenCode>
+<collectionCode collectionName="USA, New York, New York, American Museum of Natural History">AMNH</collectionCode>
+55370
+</specimenCode>
+, 
+<location LSID="urn:lsid:plazi:treatment:42A32352983600E527BBBF6ADFD6C5DD:27A3F8EDDD039EB10E434BF3A3833B5F" country="SURINAME" name="stream opposite to camp, about 2 km downstream the Cow falls" stateProvince="Distrito Nickerie">stream opposite to camp, about 2 km downstream the Cow falls</location>
+, 
+<collectingDate day="11" month="09">
+11. 
+<collectingDate month="09" value="1980-09" year="1980">ix.1980</collectingDate>
+</collectingDate>
+(4 ex., 25.8-78.1)
+</materialsCitation>
+. 
+<materialsCitation ID-GBIF-Occurrence="923897586" collectingDate="1977-01-20" collectionCode="ANSP" country="VENEZUELA" latitude="7.3" location="Rio Urbana (Urbani) at Maripa Las Trincheras road" longitude="-65.0" specimenCode="ANSP 135756" stateProvince="Bolivar">
+<collectingCountry>VENEZUELA</collectingCountry>
+. 
+<collectingRegion>Bolivar</collectingRegion>
+: 
+<specimenCode>
+<collectionCode collectionName="USA, Pennsylvania, Philadelphia, Academy of Natural Sciences">ANSP</collectionCode>
+135756
+</specimenCode>
+, 
+<location LSID="urn:lsid:plazi:treatment:42A32352983600E527BBBF6ADFD6C5DD:FA6FBF6E8A7834F84702A419E72094DA" country="VENEZUELA" latitude="18.0" longitude="-0.0" name="Rio Urbana (Urbani) at Maripa Las Trincheras road" stateProvince="Bolivar">
+<normalizedToken originalValue="Río">Rio</normalizedToken>
+Urbana (Urbani) at Maripa Las Trincheras road
+</location>
+, 
+<geoCoordinate>7º18N</geoCoordinate>
+<geoCoordinate>65º 00W</geoCoordinate>
+, 
+<collectingDate day="20" month="01" value="1977-01-20" year="1977">20.i.1977</collectingDate>
+(50.6)
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="923897585" collectingDate="1977-01-28" collectionCode="ANSP" country="Venezuela" latitude="6.95" location="Rio Caura at Jabillal" longitude="-64.8333333" specimenCode="ANSP 135903" stateProvince="Bolivar">
+<specimenCode>
+<collectionCode collectionName="USA, Pennsylvania, Philadelphia, Academy of Natural Sciences">ANSP</collectionCode>
+135903
+</specimenCode>
+, 
+<location LSID="urn:lsid:plazi:treatment:42A32352983600E527BBBF6ADFD6C5DD:7594B08EA1A1A16B9C704DC8B38306B8" country="Venezuela" latitude="57.0" longitude="-50.0" name="Rio Caura at Jabillal" stateProvince="Bolivar">
+<normalizedToken originalValue="Río">Rio</normalizedToken>
+Caura at Jabillal
+</location>
+, 
+<geoCoordinate>6º 57N</geoCoordinate>
+<geoCoordinate>64º 50W</geoCoordinate>
+, 
+<collectingDate day="28" month="01" value="1977-01-28" year="1977">28.i.1977</collectingDate>
+(91.4)
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="923897588" collectingDate="1977-02-01" collectionCode="ANSP" country="Venezuela" latitude="7.1333333" location="small affluent of Rio Mato (left bank)" longitude="-65.1666667" specimenCode="ANSP 139883" stateProvince="Bolivar">
+<specimenCode>
+<collectionCode collectionName="USA, Pennsylvania, Philadelphia, Academy of Natural Sciences">ANSP</collectionCode>
+139883
+</specimenCode>
+, 
+<location LSID="urn:lsid:plazi:treatment:42A32352983600E527BBBF6ADFD6C5DD:360DB96C693F45805F7A7AFF284540CD" country="Venezuela" longitude="-10.0" name="small affluent of Rio Mato (left bank)" stateProvince="Bolivar">
+small affluent of 
+<normalizedToken originalValue="Río">Rio</normalizedToken>
+Mato (left bank)
+</location>
+, 
+<geoCoordinate>7º0865º10W</geoCoordinate>
+, 
+<collectingDate day="01" month="02" value="1977-02-01" year="1977">1.ii.1977</collectingDate>
+(74.3)
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="923897587" collectingDate="1985-11-22" collectionCode="ANSP" country="Venezuela" latitude="7.63" location="cano (probably cano Curino), affluent of Rio Caura, near to confluence of Caura and Orinoco rivers" longitude="-64.845" specimenCode="ANSP 160315" stateProvince="Bolivar">
+<specimenCode>
+<collectionCode collectionName="USA, Pennsylvania, Philadelphia, Academy of Natural Sciences">ANSP</collectionCode>
+160315
+</specimenCode>
+, 
+<location LSID="urn:lsid:plazi:treatment:42A32352983600E527BBBF6ADFD6C5DD:9B7AB548B12779BC486D2B4CC0D864DD" country="Venezuela" name="cano (probably cano Curino), affluent of Rio Caura, near to confluence of Caura and Orinoco rivers" stateProvince="Bolivar">
+<normalizedToken originalValue="caño">cano</normalizedToken>
+(probably 
+<normalizedToken originalValue="caño">cano</normalizedToken>
+Curino), affluent of 
+<normalizedToken originalValue="Río">Rio</normalizedToken>
+Caura, near to confluence of Caura and Orinoco rivers
+</location>
+, 
+<geoCoordinate>7º3748”N</geoCoordinate>
+<geoCoordinate>64º 5042”W</geoCoordinate>
+, 
+<collectingDate day="22" month="11" value="1985-11-22" year="1985">22.xi.1985</collectingDate>
+(61.3)
+</materialsCitation>
+. 
+<materialsCitation ID-GBIF-Occurrence="923897568" collectingDate="1985-09-06" collectionCode="INPA" country="Brazil" location="igarape Jatuarana, about 2 km upstream Samuel dam" specimenCode="INPA 9518" stateProvince="Rondonia">
+<collectingCountry>Brazil</collectingCountry>
+. 
+<normalizedToken originalValue="Rondônia">
+<collectingRegion>Rondonia</collectingRegion>
+</normalizedToken>
+: 
+<specimenCode>
+<collectionCode collectionName="Brazil, Amazonas, Manaus, Instituto Nacional de Pesquisas da Amazoonia, Colecao Sistematica da Entomologia">INPA</collectionCode>
+9518
+</specimenCode>
+, 
+<location LSID="urn:lsid:plazi:treatment:42A32352983600E527BBBF6ADFD6C5DD:1653429787CAA91F18A6F786DAC12911" country="Brazil" name="igarape Jatuarana, about 2 km upstream Samuel dam" stateProvince="Rondonia">
+<normalizedToken originalValue="igarapé">igarape</normalizedToken>
+Jatuarana, about 2 km upstream Samuel dam
+</location>
+, 
+<collectingDate day="06" month="09" value="1985-09-06" year="1985">6.ix.1985</collectingDate>
+(2 ex., 86.8-97.4)
+</materialsCitation>
+. 
+<materialsCitation ID-GBIF-Occurrence="923897571" collectingDate="1987-10-08" collectionCode="INPA" country="Brazil" location="rio Uatuma, Morena fall" specimenCode="INPA 3088" stateProvince="Amazonas">
+<collectingRegion>Amazonas</collectingRegion>
+: 
+<specimenCode>
+<collectionCode collectionName="Brazil, Amazonas, Manaus, Instituto Nacional de Pesquisas da Amazoonia, Colecao Sistematica da Entomologia">INPA</collectionCode>
+3088
+</specimenCode>
+, 
+<location LSID="urn:lsid:plazi:treatment:42A32352983600E527BBBF6ADFD6C5DD:39688CDC5F104D16BD111AAEAD8096C7" country="Brazil" name="rio Uatuma, Morena fall" stateProvince="Amazonas">
+rio 
+<normalizedToken originalValue="Uatumã">Uatuma</normalizedToken>
+, Morena fall
+</location>
+, 
+<collectingDate day="08" month="10" value="1987-10-08" year="1987">8.x.1987</collectingDate>
+(163.2)
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="923897566" collectingDate="1991-12-03" collectionCode="INPA" country="Brazil" location="rio Marauia, affluent of rio Negro" specimenCode="INPA 6589" stateProvince="Amazonas">
+<specimenCode>
+<collectionCode collectionName="Brazil, Amazonas, Manaus, Instituto Nacional de Pesquisas da Amazoonia, Colecao Sistematica da Entomologia">INPA</collectionCode>
+6589
+</specimenCode>
+, 
+<location LSID="urn:lsid:plazi:treatment:42A32352983600E527BBBF6ADFD6C5DD:1BA33E72DD269D6D90567D66FDAC2C1B" country="Brazil" name="rio Marauia, affluent of rio Negro" stateProvince="Amazonas">
+rio 
+<normalizedToken originalValue="Marauiá">Marauia</normalizedToken>
+, affluent of rio Negro
+</location>
+, 
+<collectingDate day="03" month="12" value="1991-12-03" year="1991">3.xii.1991</collectingDate>
+(119.2)
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="923897567" collectingDate="1967-11-13" collectionCode="MZUSP" country="Brazil" location="igarape of the lago Manacapuru" specimenCode="MZUSP 6645" stateProvince="Amazonas">
+<specimenCode>
+<collectionCode collectionName="MZUSP">MZUSP</collectionCode>
+6645
+</specimenCode>
+, 
+<location LSID="urn:lsid:plazi:treatment:42A32352983600E527BBBF6ADFD6C5DD:3675782E7BFAB6DA642EE0AB8E8E893C" country="Brazil" name="igarape of the lago Manacapuru" stateProvince="Amazonas">
+<normalizedToken originalValue="igarapé">igarape</normalizedToken>
+of the lago Manacapuru
+</location>
+, 
+<collectingDate day="13" month="11" value="1967-11-13" year="1967">13.xi.1967</collectingDate>
+(88.2)
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="923897565" collectingDate="1967-11-28" collectionCode="MZUSP" country="Brazil" location="igarape on the left side of the rio Canuma, Canuma" specimenCode="MZUSP 7109" stateProvince="Amazonas">
+<specimenCode>
+<collectionCode collectionName="MZUSP">MZUSP</collectionCode>
+7109
+</specimenCode>
+, 
+<location LSID="urn:lsid:plazi:treatment:42A32352983600E527BBBF6ADFD6C5DD:D8A0AD68D4AF4DB71EA3A19BD5DFDC10" country="Brazil" name="igarape on the left side of the rio Canuma, Canuma" stateProvince="Amazonas">
+<normalizedToken originalValue="igarapé">igarape</normalizedToken>
+on the left side of the rio 
+<normalizedToken originalValue="Canumã">Canuma</normalizedToken>
+, 
+<normalizedToken originalValue="Canumã">Canuma</normalizedToken>
+</location>
+, 
+<collectingDate day="28" month="11" value="1967-11-28" year="1967">28.xi.1967</collectingDate>
+(8 ex., 49.8-90.8)
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="923897569" collectingDate="1967-12-03" collectionCode="MZUSP" country="Brazil" location="igarape of the rio Marau, Maues" specimenCode="MZUSP 7296" stateProvince="Amazonas">
+<specimenCode>
+<collectionCode collectionName="MZUSP">MZUSP</collectionCode>
+7296
+</specimenCode>
+, 
+<location LSID="urn:lsid:plazi:treatment:42A32352983600E527BBBF6ADFD6C5DD:628688B05BCDBD7C38D307E28EAD5DE3" country="Brazil" name="igarape of the rio Marau, Maues" stateProvince="Amazonas">
+<normalizedToken originalValue="igarapé">igarape</normalizedToken>
+of the rio Marau, 
+<normalizedToken originalValue="Maués">Maues</normalizedToken>
+</location>
+, 
+<collectingDate day="03" month="12" value="1967-12-03" year="1967">03.xii.1967</collectingDate>
+(2 ex., 61.1-61.6)
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="923897572" collectingDate="1967-12-04" collectionCode="MZUSP" country="Brazil" location="igarape Limaozinho, Maues" specimenCode="MZUSP 7356" stateProvince="Amazonas">
+<specimenCode>
+<collectionCode collectionName="MZUSP">MZUSP</collectionCode>
+7356
+</specimenCode>
+, 
+<location LSID="urn:lsid:plazi:treatment:42A32352983600E527BBBF6ADFD6C5DD:28D4B5B1A9C073DA90BEB6566DD60962" country="Brazil" name="igarape Limaozinho, Maues" stateProvince="Amazonas">
+<normalizedToken originalValue="igarapé">igarape</normalizedToken>
+<normalizedToken originalValue="Limãozinho">Limaozinho</normalizedToken>
+, 
+<normalizedToken originalValue="Maués">Maues</normalizedToken>
+</location>
+, 
+<collectingDate day="04" month="12" value="1967-12-04" year="1967">04.xii.1967</collectingDate>
+(26 ex., 44.4-110.1)
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="923897564" collectingDate="1967-12-06" collectionCode="MZUSP" country="Brazil" location="igarape of lago Saraca, Silves" specimenCode="MZUSP 7416" stateProvince="Amazonas">
+<specimenCode>
+<collectionCode collectionName="MZUSP">MZUSP</collectionCode>
+7416
+</specimenCode>
+, 
+<location LSID="urn:lsid:plazi:treatment:42A32352983600E527BBBF6ADFD6C5DD:CBC77B9EE8E2EB8C302C236964C77167" country="Brazil" name="igarape of lago Saraca, Silves" stateProvince="Amazonas">
+<normalizedToken originalValue="igarapé">igarape</normalizedToken>
+of lago 
+<normalizedToken originalValue="Saracá">Saraca</normalizedToken>
+, Silves
+</location>
+, 
+<collectingDate day="06" month="12" value="1967-12-06" year="1967">6.xii.1967</collectingDate>
+(93.4)
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="923897573" collectingDate="1967-07-08" collectionCode="MZUSP" country="Brazil" location="rio Sanabani, Silves" specimenCode="MZUSP 7445" stateProvince="Amazonas">
+<specimenCode>
+<collectionCode collectionName="MZUSP">MZUSP</collectionCode>
+7445
+</specimenCode>
+, 
+<location LSID="urn:lsid:plazi:treatment:42A32352983600E527BBBF6ADFD6C5DD:1820284441DD939EC052A798D553EC03" country="Brazil" name="rio Sanabani, Silves" stateProvince="Amazonas">rio Sanabani, Silves</location>
+, 
+<collectingDate day="08" month="12" value="1967-12-08" year="1967">7-8.xii.1967</collectingDate>
+(2 ex., 52.80-85.10)
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="923897594" collectingDate="1967-12-07" collectionCode="MZUSP" country="Brazil" location="igarape affluent of Sanabani, Silves" specimenCode="MZUSP 7487" stateProvince="Amazonas">
+<specimenCode>
+<collectionCode collectionName="MZUSP">MZUSP</collectionCode>
+7487
+</specimenCode>
+, 
+<location LSID="urn:lsid:plazi:treatment:42A32352983600E527BBBF6ADFD6C5DD:C1F0099489C1A7955E6E15830CBC8B5E" country="Brazil" name="igarape affluent of Sanabani, Silves" stateProvince="Amazonas">
+<normalizedToken originalValue="igarapé">igarape</normalizedToken>
+affluent of Sanabani, Silves
+</location>
+, 
+<collectingDate day="07" month="12" value="1967-12-07" year="1967">7.xii.1967</collectingDate>
+(52.2)
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="923897612" collectingDate="1968-11-19" collectionCode="MZUSP" country="Brazil" location="rio Jauperi, beach 30 km upstream the mouth" specimenCode="MZUSP 23301" stateProvince="Amazonas">
+<specimenCode>
+<collectionCode collectionName="MZUSP">MZUSP</collectionCode>
+23301
+</specimenCode>
+, 
+<location LSID="urn:lsid:plazi:treatment:42A32352983600E527BBBF6ADFD6C5DD:5914A8AE3CF9AA7CCD7D8E33A7C271AF" country="Brazil" name="rio Jauperi, beach 30 km upstream the mouth" stateProvince="Amazonas">rio Jauperi, beach 30 km upstream the mouth</location>
+, 
+<collectingDate day="19" month="11" value="1968-11-19" year="1968">19.xi.1968</collectingDate>
+(35.6)
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="923897603" collectingDate="1968-10-20" collectionCode="MZUSP" country="Brazil" location="igarape Acu, 7 km downstream Santo Antonio do Ica, left side of rio Solimoes" specimenCode="MZUSP 23548" stateProvince="Amazonas">
+<specimenCode>
+<collectionCode collectionName="MZUSP">MZUSP</collectionCode>
+23548
+</specimenCode>
+, 
+<location LSID="urn:lsid:plazi:treatment:42A32352983600E527BBBF6ADFD6C5DD:EB4D933C22295DE2D1440A037D7802AE" country="Brazil" name="igarape Acu, 7 km downstream Santo Antonio do Ica, left side of rio Solimoes" stateProvince="Amazonas">
+<normalizedToken originalValue="igarapé">igarape</normalizedToken>
+<normalizedToken originalValue="Açu">Acu</normalizedToken>
+, 7 km downstream Santo 
+<normalizedToken originalValue="Antônio">Antonio</normalizedToken>
+do 
+<normalizedToken originalValue="Içá">Ica</normalizedToken>
+, left side of rio 
+<normalizedToken originalValue="Solimões">Solimoes</normalizedToken>
+</location>
+, 
+<collectingDate day="20" month="10" value="1968-10-20" year="1968">20.x.1968</collectingDate>
+(2 ex., 58.7-77.0)
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="923897604" collectingDate="1977-01" collectionCode="MZUSP" country="Brazil" location="lago Janauaca and surroundings, rio Solimoes" specimenCode="MZUSP 24903" stateProvince="Amazonas">
+<specimenCode>
+<collectionCode collectionName="MZUSP">MZUSP</collectionCode>
+24903
+</specimenCode>
+, 
+<location LSID="urn:lsid:plazi:treatment:42A32352983600E527BBBF6ADFD6C5DD:C428A6860F145291A152A3B684EEB6B6" country="Brazil" name="lago Janauaca and surroundings, rio Solimoes" stateProvince="Amazonas">
+lago 
+<normalizedToken originalValue="Janauacá">Janauaca</normalizedToken>
+and surroundings, rio 
+<normalizedToken originalValue="Solimões">Solimoes</normalizedToken>
+</location>
+, 
+<collectingDate month="09" value="1976-09" year="1976">ix.1976-i.1977</collectingDate>
+(178.1)
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="923897601" collectingDate="1979-08-07" collectionCode="MZUSP" country="Brazil" location="rio Tefe, Ipanema de baixa" specimenCode="MZUSP 30820" stateProvince="Amazonas">
+<specimenCode>
+<collectionCode collectionName="MZUSP">MZUSP</collectionCode>
+30820
+</specimenCode>
+, 
+<location LSID="urn:lsid:plazi:treatment:42A32352983600E527BBBF6ADFD6C5DD:6BF5F1A229108E9241DF73D21D2EFFFD" country="Brazil" name="rio Tefe, Ipanema de baixa" stateProvince="Amazonas">
+rio 
+<normalizedToken originalValue="Tefé">Tefe</normalizedToken>
+, Ipanema de baixa
+</location>
+, 
+<collectingDate day="07" month="08" value="1979-08-07" year="1979">7.viii.1979</collectingDate>
+(6 ex., 34.8-89.0)
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="923897597" collectingDate="1979-05-18" collectionCode="MZUSP" country="Brazil" location="Rio Negro, Sao Gabriel da Cachoeira" specimenCode="MZUSP 31092" stateProvince="Amazonas">
+<specimenCode>
+<collectionCode collectionName="MZUSP">MZUSP</collectionCode>
+31092
+</specimenCode>
+, 
+<location LSID="urn:lsid:plazi:treatment:42A32352983600E527BBBF6ADFD6C5DD:8FC84748C2F1548FBCD3149A952620F3" country="Brazil" name="Rio Negro, Sao Gabriel da Cachoeira" stateProvince="Amazonas">
+Rio Negro, 
+<normalizedToken originalValue="São">Sao</normalizedToken>
+Gabriel da Cachoeira
+</location>
+, 
+<collectingDate day="18" month="05" value="1979-05-18" year="1979">18.v.1979</collectingDate>
+(157.2)
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="923897607" collectingDate="1980-02-29" country="Brazil" location="rio Negro, Barcelos, island lake" stateProvince="Amazonas">
+<location LSID="urn:lsid:plazi:treatment:42A32352983600E527BBBF6ADFD6C5DD:64AD0E612353EAF775EBA41BF20F3867" country="Brazil" name="rio Negro, Barcelos, island lake" stateProvince="Amazonas">rio Negro, Barcelos, island lake</location>
+, 
+<collectingDate day="29" month="02" value="1980-02-29" year="1980">29.ii.1980</collectingDate>
+(45.2)
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="923897605" collectingDate="1980-05" collectionCode="MZUSP" country="Brazil" location="rio Negro, Sao Gabriel falls" specimenCode="MZUSP 31095" stateProvince="Amazonas">
+<specimenCode>
+<collectionCode collectionName="MZUSP">MZUSP</collectionCode>
+31095
+</specimenCode>
+, 
+<location LSID="urn:lsid:plazi:treatment:42A32352983600E527BBBF6ADFD6C5DD:9B553487601CE7A065A746EE6D891B86" country="Brazil" name="rio Negro, Sao Gabriel falls" stateProvince="Amazonas">
+rio Negro, 
+<normalizedToken originalValue="São">Sao</normalizedToken>
+Gabriel falls
+</location>
+, 
+<collectingDate month="05" value="1980-05" year="1980">iv-v.1980</collectingDate>
+(145.1)
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="923897606" collectingDate="1979-05-23" collectionCode="MZUSP" country="Brazil" location="upper rio Negro, Sao Pedro, junction of Igarape do Igara" specimenCode="MZUSP 31097" stateProvince="Amazonas">
+<specimenCode>
+<collectionCode collectionName="MZUSP">MZUSP</collectionCode>
+31097
+</specimenCode>
+, 
+<location LSID="urn:lsid:plazi:treatment:42A32352983600E527BBBF6ADFD6C5DD:97C4B97F0AE1FCD331FDF96B0FF9E064" country="Brazil" name="upper rio Negro, Sao Pedro, junction of Igarape do Igara" stateProvince="Amazonas">
+upper rio Negro, 
+<normalizedToken originalValue="São">Sao</normalizedToken>
+Pedro, junction of 
+<normalizedToken originalValue="Igarapé">Igarape</normalizedToken>
+do 
+<normalizedToken originalValue="Igará">Igara</normalizedToken>
+</location>
+, 
+<collectingDate day="23" month="05" value="1979-05-23" year="1979">23.v.1979</collectingDate>
+(194.2)
+</materialsCitation>
+. 
+<materialsCitation ID-GBIF-Occurrence="923897600" collectingDate="1990-10-05" collectionCode="INPA" country="Brazil" location="rio Xingu, Babaquara island" specimenCode="INPA 4188" stateProvince="Para">
+<normalizedToken originalValue="Pará">
+<collectingRegion>Para</collectingRegion>
+</normalizedToken>
+: 
+<specimenCode>
+<collectionCode collectionName="Brazil, Amazonas, Manaus, Instituto Nacional de Pesquisas da Amazoonia, Colecao Sistematica da Entomologia">INPA</collectionCode>
+4188
+</specimenCode>
+, 
+<location LSID="urn:lsid:plazi:treatment:42A32352983600E527BBBF6ADFD6C5DD:00D2CA997A666FABD7DECDF1967CBB48" country="Brazil" name="rio Xingu, Babaquara island" stateProvince="Para">rio Xingu, Babaquara island</location>
+, 
+<collectingDate day="05" month="10" value="1990-10-05" year="1990">5.x.1990</collectingDate>
+(77.5)
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="923897609" collectingDate="1985-04-20" collectionCode="INPA" country="Brazil" location="rio Trombetas, upstream Porteira fall" specimenCode="INPA 5719" stateProvince="Para">
+<specimenCode>
+<collectionCode collectionName="Brazil, Amazonas, Manaus, Instituto Nacional de Pesquisas da Amazoonia, Colecao Sistematica da Entomologia">INPA</collectionCode>
+5719
+</specimenCode>
+, 
+<location LSID="urn:lsid:plazi:treatment:42A32352983600E527BBBF6ADFD6C5DD:65F266C79B4580FFA1A976F169B505B6" country="Brazil" name="rio Trombetas, upstream Porteira fall" stateProvince="Para">rio Trombetas, upstream Porteira fall</location>
+, 
+<collectingDate day="20" month="04" value="1985-04-20" year="1985">20.iv.1985</collectingDate>
+(98.6)
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="923897610" collectingDate="1991-10-20" collectionCode="INPA" country="Brazil" location="rio Jamanxim, affluent of rio Tapajos, Terra Preta island" specimenCode="INPA 6800" stateProvince="Para">
+<specimenCode>
+<collectionCode collectionName="Brazil, Amazonas, Manaus, Instituto Nacional de Pesquisas da Amazoonia, Colecao Sistematica da Entomologia">INPA</collectionCode>
+6800
+</specimenCode>
+, 
+<location LSID="urn:lsid:plazi:treatment:42A32352983600E527BBBF6ADFD6C5DD:284CC21331EB3387FCE32EBE02DA0573" country="Brazil" name="rio Jamanxim, affluent of rio Tapajos, Terra Preta island" stateProvince="Para">
+rio Jamanxim, affluent of rio 
+<normalizedToken originalValue="Tapajós">Tapajos</normalizedToken>
+, Terra Preta island
+</location>
+, 
+<collectingDate day="20" month="10" value="1991-10-20" year="1991">20.x.1991</collectingDate>
+(2 ex., 41.0-42.6)
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="923897611" collectingDate="1991-10-23" collectionCode="INPA" country="Brazil" location="rio Tapajos, Pimental" specimenCode="INPA 6994" stateProvince="Para">
+<specimenCode>
+<collectionCode collectionName="Brazil, Amazonas, Manaus, Instituto Nacional de Pesquisas da Amazoonia, Colecao Sistematica da Entomologia">INPA</collectionCode>
+6994
+</specimenCode>
+, 
+<location LSID="urn:lsid:plazi:treatment:42A32352983600E527BBBF6ADFD6C5DD:677611DE6868094A83B1F36B31D352BD" country="Brazil" name="rio Tapajos, Pimental" stateProvince="Para">
+rio 
+<normalizedToken originalValue="Tapajós">Tapajos</normalizedToken>
+, Pimental
+</location>
+, 
+<collectingDate day="23" month="10" value="1991-10-23" year="1991">23.x.1991</collectingDate>
+(3 ex., 59.6-80.6)
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="923897613" collectingDate="1991-10-22" collectionCode="INPA" country="Brazil" location="rio Tapajos, Pimental" specimenCode="INPA 7085" stateProvince="Para">
+<specimenCode>
+<collectionCode collectionName="Brazil, Amazonas, Manaus, Instituto Nacional de Pesquisas da Amazoonia, Colecao Sistematica da Entomologia">INPA</collectionCode>
+7085
+</specimenCode>
+, 
+<location LSID="urn:lsid:plazi:treatment:42A32352983600E527BBBF6ADFD6C5DD:32591D4F28B834EF8125717C1EC0C1A3" country="Brazil" name="rio Tapajos, Pimental" stateProvince="Para">
+rio 
+<normalizedToken originalValue="Tapajós">Tapajos</normalizedToken>
+, Pimental
+</location>
+, 
+<collectingDate day="22" month="10" value="1991-10-22" year="1991">22.x.1991</collectingDate>
+(117.2)
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="923897602" collectingDate="1981-02-04" collectionCode="INPA" country="Brazil" location="rio Tocantins, Tucurui market" specimenCode="INPA 9520" stateProvince="Para">
+<specimenCode>
+<collectionCode collectionName="Brazil, Amazonas, Manaus, Instituto Nacional de Pesquisas da Amazoonia, Colecao Sistematica da Entomologia">INPA</collectionCode>
+9520
+</specimenCode>
+, 
+<location LSID="urn:lsid:plazi:treatment:42A32352983600E527BBBF6ADFD6C5DD:F8083715A3EDAD006B36E8D67163E0DD" country="Brazil" name="rio Tocantins, Tucurui market" stateProvince="Para">
+rio Tocantins, 
+<normalizedToken originalValue="Tucuruí">Tucurui</normalizedToken>
+market
+</location>
+, 
+<collectingDate day="04" month="02" value="1981-02-04" year="1981">4.ii.1981</collectingDate>
+(180.8)
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="923897608" collectingDate="1969-10-11" country="Brazil" location="lago Jacare, rio Trombetas" stateProvince="Para">
+<location LSID="urn:lsid:plazi:treatment:42A32352983600E527BBBF6ADFD6C5DD:FF331ED68E152765A024663BC9AFF34F" country="Brazil" name="lago Jacare, rio Trombetas" stateProvince="Para">
+lago 
+<normalizedToken originalValue="Jacaré">Jacare</normalizedToken>
+, rio Trombetas
+</location>
+, 
+<collectingDate day="11" month="10" value="1969-10-11" year="1969">7-11.x.1969</collectingDate>
+(49.8)
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="923897591" collectingDate="1967-12-25" collectionCode="MZUSP" country="Brazil" location="igarape affluent of the left side of rio Mapiri, Santarem" specimenCode="MZUSP 8497" stateProvince="Para">
+<specimenCode>
+<collectionCode collectionName="MZUSP">MZUSP</collectionCode>
+8497
+</specimenCode>
+, 
+<location LSID="urn:lsid:plazi:treatment:42A32352983600E527BBBF6ADFD6C5DD:BA6E3A708335E9D699573DB23AFAD14C" country="Brazil" name="igarape affluent of the left side of rio Mapiri, Santarem" stateProvince="Para">
+<normalizedToken originalValue="igarapé">igarape</normalizedToken>
+affluent of the left side of rio Mapiri, 
+<normalizedToken originalValue="Santarém">Santarem</normalizedToken>
+</location>
+, 
+<collectingDate day="25" month="12" value="1967-12-25" year="1967">25.xii.1967</collectingDate>
+(51.0)
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="923897595" collectingDate="1967-12-23" collectionCode="MZUSP" country="Brazil" location="igarape Jacunda, Alter do Chao, Santarem" specimenCode="MZUSP 8414" stateProvince="Para">
+<specimenCode>
+<collectionCode collectionName="MZUSP">MZUSP</collectionCode>
+8414
+</specimenCode>
+, 
+<location LSID="urn:lsid:plazi:treatment:42A32352983600E527BBBF6ADFD6C5DD:E9C554D8BA0B326A7477748DA5E49D57" country="Brazil" name="igarape Jacunda, Alter do Chao, Santarem" stateProvince="Para">
+<normalizedToken originalValue="igarapé">igarape</normalizedToken>
+<normalizedToken originalValue="Jacundá">Jacunda</normalizedToken>
+, Alter do 
+<normalizedToken originalValue="Chão">Chao</normalizedToken>
+, 
+<normalizedToken originalValue="Santarém">Santarem</normalizedToken>
+</location>
+, 
+<collectingDate day="23" month="12" value="1967-12-23" year="1967">23.xii.1967</collectingDate>
+(58.3)
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="923897593" collectingDate="1970-11-06" collectionCode="MZUSP" country="Brazil" location="rio Tapajos, Lombo de Anta fall, near to Sao Luiz" specimenCode="MZUSP 21840" stateProvince="Para">
+<specimenCode>
+<collectionCode collectionName="MZUSP">MZUSP</collectionCode>
+21840
+</specimenCode>
+, 
+<location LSID="urn:lsid:plazi:treatment:42A32352983600E527BBBF6ADFD6C5DD:99AB996BD0B6B83A82025E3F64A86896" country="Brazil" name="rio Tapajos, Lombo de Anta fall, near to Sao Luiz" stateProvince="Para">
+rio 
+<normalizedToken originalValue="Tapajós">Tapajos</normalizedToken>
+, Lombo de Anta fall, near to 
+<normalizedToken originalValue="São">Sao</normalizedToken>
+Luiz
+</location>
+, 
+<collectingDate day="06" month="11" value="1970-11-06" year="1970">6.xi.1970</collectingDate>
+(108.6)
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="923897598" collectingDate="1965-10-13" collectionCode="MZUSP" country="Brazil" location="lago Jacare, rio Trombetas" specimenCode="MZUSP 23042" stateProvince="Para">
+<specimenCode>
+<collectionCode collectionName="MZUSP">MZUSP</collectionCode>
+23042
+</specimenCode>
+, 
+<location LSID="urn:lsid:plazi:treatment:42A32352983600E527BBBF6ADFD6C5DD:02559214DB57ADB2BD12E01DC28E58D7" country="Brazil" name="lago Jacare, rio Trombetas" stateProvince="Para">
+lago 
+<normalizedToken originalValue="Jacaré">Jacare</normalizedToken>
+, rio Trombetas
+</location>
+, 
+<collectingDate day="13" month="10" value="1965-10-13" year="1965">29.ix-13.x.1965</collectingDate>
+(3 ex., 46.4-66.8)
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="923897590" collectingDate="1970-09-09" collectionCode="MZUSP" country="Brazil" location="rio Tocantins, igarape Limao, Baiao" specimenCode="MZUSP 24061" stateProvince="Para">
+<specimenCode>
+<collectionCode collectionName="MZUSP">MZUSP</collectionCode>
+24061
+</specimenCode>
+, 
+<location LSID="urn:lsid:plazi:treatment:42A32352983600E527BBBF6ADFD6C5DD:AE671386718148B1332781A83F915392" country="Brazil" name="rio Tocantins, igarape Limao, Baiao" stateProvince="Para">
+rio Tocantins, 
+<normalizedToken originalValue="igarapé">igarape</normalizedToken>
+<normalizedToken originalValue="Limão">Limao</normalizedToken>
+, 
+<normalizedToken originalValue="Baião">Baiao</normalizedToken>
+</location>
+, 
+<collectingDate day="09" month="09" value="1970-09-09" year="1970">9.ix.1970</collectingDate>
+(39.0)
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="923897592" collectingDate="1990-11-05" collectionCode="MZUSP" country="Brazil" location="rio Tapajos, Sao Luiz" specimenCode="MZUSP 24286" stateProvince="Para">
+<specimenCode>
+<collectionCode collectionName="MZUSP">MZUSP</collectionCode>
+24286
+</specimenCode>
+, 
+<location LSID="urn:lsid:plazi:treatment:42A32352983600E527BBBF6ADFD6C5DD:43A782378F5CC81CE74ED06B60530CC5" country="Brazil" name="rio Tapajos, Sao Luiz" stateProvince="Para">
+rio 
+<normalizedToken originalValue="Tapajós">Tapajos</normalizedToken>
+, 
+<normalizedToken originalValue="São">Sao</normalizedToken>
+Luiz
+</location>
+, 
+<collectingDate day="05" month="11" value="1990-11-05" year="1990">5.xi.1990</collectingDate>
+(63.8)
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="923897596" collectingDate="1983-10-24" collectionCode="MZUSP" country="Brazil" location="rio Tapajos, Pederneiras, downstream Itaituba" specimenCode="MZUSP 30823" stateProvince="Para">
+<specimenCode>
+<collectionCode collectionName="MZUSP">MZUSP</collectionCode>
+30823
+</specimenCode>
+, 
+<location LSID="urn:lsid:plazi:treatment:42A32352983600E527BBBF6ADFD6C5DD:4D02EC69C85EFE6144DE4AD2228BA52A" country="Brazil" name="rio Tapajos, Pederneiras, downstream Itaituba" stateProvince="Para">
+rio 
+<normalizedToken originalValue="Tapajós">Tapajos</normalizedToken>
+, Pederneiras, downstream Itaituba
+</location>
+, 
+<collectingDate day="24" month="10" value="1983-10-24" year="1983">24.x.1983</collectingDate>
+(9 ex., 31.2-48.6)
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="923897589" collectingDate="1983-10-22" collectionCode="MZUSP" country="Brazil" location="rio Tapajos, Sao Luiz upstream Itaituba" specimenCode="MZUSP 30826" stateProvince="Para">
+<specimenCode>
+<collectionCode collectionName="MZUSP">MZUSP</collectionCode>
+30826
+</specimenCode>
+, 
+<location LSID="urn:lsid:plazi:treatment:42A32352983600E527BBBF6ADFD6C5DD:F944CC55DD13A9B609BF357C3DB99257" country="Brazil" name="rio Tapajos, Sao Luiz upstream Itaituba" stateProvince="Para">
+rio 
+<normalizedToken originalValue="Tapajós">Tapajos</normalizedToken>
+, 
+<normalizedToken originalValue="São">Sao</normalizedToken>
+Luiz upstream Itaituba
+</location>
+, 
+<collectingDate day="22" month="10" value="1983-10-22" year="1983">22.x.1983</collectingDate>
+(37.4)
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="923897599" collectingDate="1983-11-25" collectionCode="MZUSP" country="Brazil" location="rio Tapajos, Alter do Chao, beach north" specimenCode="MZUSP 30836" stateProvince="Para">
+<specimenCode>
+<collectionCode collectionName="MZUSP">MZUSP</collectionCode>
+30836
+</specimenCode>
+, 
+<location LSID="urn:lsid:plazi:treatment:42A32352983600E527BBBF6ADFD6C5DD:A5E2C126FDCDFFC22131C3233A3FD2DF" country="Brazil" name="rio Tapajos, Alter do Chao, beach north" stateProvince="Para">
+rio 
+<normalizedToken originalValue="Tapajós">Tapajos</normalizedToken>
+, Alter do 
+<normalizedToken originalValue="Chão">Chao</normalizedToken>
+, beach north
+</location>
+, 
+<collectingDate day="25" month="11" value="1983-11-25" year="1983">25.xi.1983</collectingDate>
+(138.8)
+</materialsCitation>
+. 
+<materialsCitation ID-GBIF-Occurrence="923897619" collectingDate="1987-11-16" collectionCode="MZUSP" country="Brazil" location="igarape Taruma, 10 km upstream rio Canuma mouth, Aripuana" specimenCode="MZUSP 37770" stateProvince="Mato Grosso">
+<collectingRegion>Mato Grosso</collectingRegion>
+: 
+<specimenCode>
+<collectionCode collectionName="MZUSP">MZUSP</collectionCode>
+37770
+</specimenCode>
+, 
+<location LSID="urn:lsid:plazi:treatment:42A32352983600E527BBBF6ADFD6C5DD:3BBD064E9B870C599073FA302992A3D7" country="Brazil" name="igarape Taruma, 10 km upstream rio Canuma mouth, Aripuana" stateProvince="Mato Grosso">
+<normalizedToken originalValue="igarapé">igarape</normalizedToken>
+<normalizedToken originalValue="Tarumã">Taruma</normalizedToken>
+, 10 km upstream rio 
+<normalizedToken originalValue="Canumã">Canuma</normalizedToken>
+mouth, 
+<normalizedToken originalValue="Aripuanã">Aripuana</normalizedToken>
+</location>
+, 
+<collectingDate day="16" month="11" value="1987-11-16" year="1987">16.xi.1987</collectingDate>
+(8 ex., 30.9-108.7)
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="923897629" collectingDate="1976-11-09" collectionCode="MZUSP" country="Brazil" location="igarape do Poraque, downstream Dardanelos, Aripuana" specimenCode="MZUSP 37786" stateProvince="Mato Grosso">
+<specimenCode>
+<collectionCode collectionName="MZUSP">MZUSP</collectionCode>
+37786
+</specimenCode>
+, 
+<location LSID="urn:lsid:plazi:treatment:42A32352983600E527BBBF6ADFD6C5DD:29C9C412D50ED07A42ACC6C43D4E49E8" country="Brazil" name="igarape do Poraque, downstream Dardanelos, Aripuana" stateProvince="Mato Grosso">
+<normalizedToken originalValue="igarapé">igarape</normalizedToken>
+do 
+<normalizedToken originalValue="Poraquê">Poraque</normalizedToken>
+, downstream Dardanelos, 
+<normalizedToken originalValue="Aripuanã">Aripuana</normalizedToken>
+</location>
+, 
+<collectingDate day="09" month="11" value="1976-11-09" year="1976">9.xi.1976</collectingDate>
+(6 ex., 36.3-107.2)
+</materialsCitation>
+. 
+<materialsCitation ID-GBIF-Occurrence="923897635" collectingDate="1984-01" collectionCode="MZUSP" country="Brazil" location="rio Amapa, Cachoeira Grande" specimenCode="MZUSP 30822" stateProvince="Amapa">
+<normalizedToken originalValue="Amapá">
+<collectingRegion>Amapa</collectingRegion>
+</normalizedToken>
+: 
+<specimenCode>
+<collectionCode collectionName="MZUSP">MZUSP</collectionCode>
+30822
+</specimenCode>
+, 
+<location LSID="urn:lsid:plazi:treatment:42A32352983600E527BBBF6ADFD6C5DD:A1BF172C0C9A8DE9387DA57794723E9B" country="Brazil" name="rio Amapa, Cachoeira Grande" stateProvince="Amapa">
+rio 
+<normalizedToken originalValue="Amapá">Amapa</normalizedToken>
+, Cachoeira Grande
+</location>
+, 
+<collectingDate month="01" value="1984-01" year="1984">i.1984</collectingDate>
+(7 ex., 38.2-78.6)
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="923897625" collectingDate="1984-01" collectionCode="MZUSP" country="Brazil" location="rio Amapa, Cachoeira Grande" specimenCode="MZUSP 30825" stateProvince="Amapa">
+<specimenCode>
+<collectionCode collectionName="MZUSP">MZUSP</collectionCode>
+30825
+</specimenCode>
+, 
+<location LSID="urn:lsid:plazi:treatment:42A32352983600E527BBBF6ADFD6C5DD:74E0EFAFF9962491E41FF0225346FCE5" country="Brazil" name="rio Amapa, Cachoeira Grande" stateProvince="Amapa">
+rio 
+<normalizedToken originalValue="Amapá">Amapa</normalizedToken>
+, Cachoeira Grande
+</location>
+, 
+<collectingDate month="01" value="1984-01" year="1984">i.1984</collectingDate>
+(44.6)
+</materialsCitation>
+. 
+<materialsCitation ID-GBIF-Occurrence="923897631" collectingDate="1984-04-09" collectionCode="MZUSP" country="Brazil" location="lago dos Viana, Pindare-Mearim system" specimenCode="MZUSP 43596" stateProvince="Maranhao">
+<normalizedToken originalValue="Maranhão">
+<collectingRegion>Maranhao</collectingRegion>
+</normalizedToken>
+: 
+<specimenCode>
+<collectionCode collectionName="MZUSP">MZUSP</collectionCode>
+43596
+</specimenCode>
+, 
+<location LSID="urn:lsid:plazi:treatment:42A32352983600E527BBBF6ADFD6C5DD:47634C98F66304C8BCF1871508AF4C28" country="Brazil" name="lago dos Viana, Pindare-Mearim system" stateProvince="Maranhao">
+lago dos Viana, 
+<normalizedToken originalValue="Pindaré-">Pindare-Mearim</normalizedToken>
+system
+</location>
+, 
+<collectingDate day="09" month="04" value="1984-04-09" year="1984">9.iv.1984</collectingDate>
+(145.4)
+</materialsCitation>
+.
+</paragraph>
+</subSubSection>
+</treatment>
+</document>
