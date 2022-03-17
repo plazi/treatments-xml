@@ -1,0 +1,116 @@
+<document ENCODING="UTF-8" ID-DOI="http://doi.org/10.5281/zenodo.6237012" ID-GBIF-Dataset="db3b4f9d-87ca-4661-a002-c868b7417878" ID-GBIF-Taxon="100130307" ID-Zenodo-Dep="6237012" ModsDocID="z01416p001" checkinTime="1247405641513" checkinUser="thomas" docAuthor="Alexandre P. Marceniuk &amp; Naércio A. Menezes" docDate="2007" docId="79DF3CB5EC12B8838963D407706422D5" docLanguage="en" docName="2007_Marceniuk_Menezes_gg1.xml" docOrigin="Zootaxa 1416" docSource="http://www.zoobank.org/urn:lsid:zoobank.org:pub:FFC65592-D8DB-41BE-AEAC-A41EAB6C6185" docTitle="Notarius lentiginosus" docType="treatment" docVersion="12" lastPageNumber="84" masterDocId="E3B79C8FF6B0B87BE406EA4948E96A3B" masterDocTitle="Systematics of the family Ariidae (Ostariophysi, Siluriformes), with a redefinition of the genera." masterLastPageNumber="126" masterPageNumber="1" pageNumber="83" updateTime="1645593729769" updateUser="ExternalLinkService">
+<mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
+<mods:titleInfo>
+<mods:title>Systematics of the family Ariidae (Ostariophysi, Siluriformes), with a redefinition of the genera.</mods:title>
+</mods:titleInfo>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Alexandre P. Marceniuk</mods:namePart>
+</mods:name>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Naércio A. Menezes</mods:namePart>
+</mods:name>
+<mods:typeOfResource>text</mods:typeOfResource>
+<mods:relatedItem type="host">
+<mods:titleInfo>
+<mods:title>Zootaxa</mods:title>
+</mods:titleInfo>
+<mods:part>
+<mods:date>2007</mods:date>
+<mods:detail type="volume">
+<mods:number>1416</mods:number>
+</mods:detail>
+<mods:extent unit="page">
+<mods:start>1</mods:start>
+<mods:end>126</mods:end>
+</mods:extent>
+</mods:part>
+</mods:relatedItem>
+<mods:location>
+<mods:url>http://www.zoobank.org/urn:lsid:zoobank.org:pub:FFC65592-D8DB-41BE-AEAC-A41EAB6C6185</mods:url>
+</mods:location>
+<mods:classification>journal article</mods:classification>
+<mods:identifier type="ZooBank-PUB">z01416p001</mods:identifier>
+<mods:identifier type="ZooBank">FFC65592-D8DB-41BE-AEAC-A41EAB6C6185</mods:identifier>
+</mods:mods>
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6237012" ID-GBIF-Taxon="100130307" ID-Zenodo-Dep="6237012" LSID="urn:lsid:plazi:treatment:79DF3CB5EC12B8838963D407706422D5" httpUri="http://treatment.plazi.org/id/79DF3CB5EC12B8838963D407706422D5" lastPageNumber="84" pageNumber="83">
+<subSubSection type="nomenclature">
+<paragraph pageNumber="83">
+<taxonomicName class="Actinopterygii" family="Ariidae" genus="Notarius" kingdom="Animalia" order="Siluriformes" pageNumber="83" phylum="Chordata" rank="species" species="lentiginosus">Notarius lentiginosus</taxonomicName>
+(Eigenmann &amp; Eigenmann, 1888)
+</paragraph>
+</subSubSection>
+<subSubSection type="reference_group">
+<paragraph pageNumber="83">
+<taxonomicName LSID-ZBK="urn:lsid:zoobank.org:act:A72993C3-4CDA-477E-AF24-86620D87FE6C" authority="" authorityName="" class="Actinopterygii" family="Bagridae" genus="Tachisurus" higherTaxonomySource="GBIF" kingdom="Animalia" lsidName-ZBK="Tachisurus lentiginosus Eigenmann &amp; Eigenmann 1888:139" order="Siluriformes" pageNumber="83" phylum="Chordata" rank="species" species="lentiginosus">Tachisurus lentiginosus</taxonomicName>
+Eigenmann &amp; Eigenmann, 1888: 139. 
+<materialsCitation ID-GBIF-Occurrence="923907280" collectionCode="MCZ" country="Panama" location="Pacific" specimenCode="MCZ 4970" typeStatus="Syntypes">
+Type locality: 
+<collectingCountry>Panama</collectingCountry>
+(
+<location LSID="urn:lsid:plazi:treatment:79DF3CB5EC12B8838963D407706422D5:EDC3EF4F8371174A7F5CDB2D328C080A" country="Panama" name="Pacific">Pacific</location>
+). 
+<typeStatus>Syntypes</typeStatus>
+: 
+<specimenCode>
+<collectionCode>MCZ</collectionCode>
+4970
+</specimenCode>
+.
+</materialsCitation>
+</paragraph>
+<paragraph pageNumber="83">
+<taxonomicName LSID-ZBK="urn:lsid:zoobank.org:act:33D2EABA-62FC-4B60-BA3C-F73C39120F7D" class="Actinopterygii" family="Ariidae" genus="Galeichthys" kingdom="Animalia" lsidName-ZBK="Galeichthys xenauchen Gilbert 1898:2777" order="Siluriformes" pageNumber="83" phylum="Chordata" rank="species" species="xenauchen">Galeichthys xenauchen</taxonomicName>
+Gilbert in Jordan &amp; Evermann, 1898: 2777. 
+<materialsCitation ID-GBIF-Occurrence="923907311" collectionCode="SU" country="Panama" location="Panama" specimenCode="SU 5821" typeStatus="Holotype">
+Type locality: 
+<collectingCountry>Panama</collectingCountry>
+. 
+<typeStatus>Holotype</typeStatus>
+: 
+<specimenCode>
+<collectionCode>SU</collectionCode>
+5821
+</specimenCode>
+.
+</materialsCitation>
+</paragraph>
+</subSubSection>
+<subSubSection type="distribution">
+<paragraph pageNumber="83">Distribution: Western Central America.</paragraph>
+<paragraph pageNumber="84">
+<pageStartToken pageNumber="84">Countries</pageStartToken>
+: Panama.
+</paragraph>
+</subSubSection>
+<subSubSection type="biology_ecology">
+<paragraph pageNumber="84">Habitat: Brackish waters.</paragraph>
+</subSubSection>
+<subSubSection type="description">
+<paragraph pageNumber="84">Maximum size: 350 mm TL.</paragraph>
+</subSubSection>
+<subSubSection type="materials_examined">
+<paragraph pageNumber="84">
+Material examined: 
+<materialsCitation ID-GBIF-Occurrence="923907293" collectionCode="USNM" country="Panama" location="rio Chucunaque near confl. with rio Tuyra" specimenCode="USNM 293282" stateProvince="Darien prov.">
+<specimenCode>
+<collectionCode>USNM</collectionCode>
+293282
+</specimenCode>
+(7 al, 136-183 mm TL) (1 c&amp;s), 
+<collectingCountry>Panama</collectingCountry>
+, 
+<collectingRegion>Darien prov.</collectingRegion>
+, 
+<location LSID="urn:lsid:plazi:treatment:79DF3CB5EC12B8838963D407706422D5:2F507EF58A183029FE9A98E35C8BA7E9" country="Panama" name="rio Chucunaque near confl. with rio Tuyra" stateProvince="Darien prov.">rio Chucunaque near confl. with rio Tuyra</location>
+.
+</materialsCitation>
+</paragraph>
+</subSubSection>
+</treatment>
+</document>
