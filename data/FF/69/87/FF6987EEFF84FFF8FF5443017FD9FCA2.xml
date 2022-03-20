@@ -1,0 +1,919 @@
+<document ID-DOI="http://doi.org/10.5281/zenodo.4701450" ID-GBIF-Dataset="154fa04a-d90d-401d-8d8f-52467a275fce" ID-GBIF-Taxon="181198559" ID-ISSN="1175-5326" ID-Zenodo-Dep="4701450" ID-ZooBank="E800A72A-C56A-492C-9EE6-FA4F8277DE31" approvalRequired="213" approvalRequired_for_bibRefs="1" approvalRequired_for_taxonomicNames="12" approvalRequired_for_treatments="200" checkinTime="1618453699710" checkinUser="plazi" docAuthor="Cunha, Rosana, Martins, Luciana, Menegola, Carla &amp; Souto, Camilla" docDate="2021" docId="FF6987EEFF84FFF8FF5443017FD9FCA2" docLanguage="en" docName="zootaxa.4955.1.1.pdf" docOrigin="Zootaxa 4955 (1)" docStyle="DocumentStyle:5EBBA59367AD13919D70D935FA04F6A3.9:Zootaxa.2013-.monograph" docStyleId="5EBBA59367AD13919D70D935FA04F6A3" docStyleName="Zootaxa.2013-.monograph" docStyleVersion="9" docTitle="Linckia guildingi Gray 1840" docType="treatment" docVersion="6" lastPageId="44" lastPageNumber="45" masterDocId="0350FF96FFADFFD4FFC347147C72FFF5" masterDocTitle="Taxonomy of the sea stars (Echinodermata: Asteroidea) from Bahia State, including ontogenetic variation and an illustrated key to the Brazilian species" masterLastPageNumber="78" masterPageNumber="1" pageId="41" pageNumber="42" updateTime="1632023924420" updateUser="ExternalLinkService">
+<mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
+<mods:titleInfo>
+<mods:title>Taxonomy of the sea stars (Echinodermata: Asteroidea) from Bahia State, including ontogenetic variation and an illustrated key to the Brazilian species</mods:title>
+</mods:titleInfo>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Cunha, Rosana</mods:namePart>
+<mods:nameIdentifier type="ORCID">0000-0002-0858-0041</mods:nameIdentifier>
+<mods:nameIdentifier type="email">rosana.fcunha@alumni.usp.br</mods:nameIdentifier>
+</mods:name>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Martins, Luciana</mods:namePart>
+<mods:nameIdentifier type="ORCID">0000-0002-0858-0041</mods:nameIdentifier>
+<mods:nameIdentifier type="email">rosana.fcunha@alumni.usp.br</mods:nameIdentifier>
+</mods:name>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Menegola, Carla</mods:namePart>
+<mods:nameIdentifier type="ORCID">0000-0002-4913-366X</mods:nameIdentifier>
+<mods:nameIdentifier type="email">carla.menegola@gmail.com</mods:nameIdentifier>
+</mods:name>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Souto, Camilla</mods:namePart>
+<mods:nameIdentifier type="ORCID">0000-0002-0858-0041</mods:nameIdentifier>
+<mods:nameIdentifier type="email">rosana.fcunha@alumni.usp.br</mods:nameIdentifier>
+</mods:name>
+<mods:typeOfResource>text</mods:typeOfResource>
+<mods:relatedItem type="host">
+<mods:titleInfo>
+<mods:title>Zootaxa</mods:title>
+</mods:titleInfo>
+<mods:part>
+<mods:date>2021</mods:date>
+<mods:detail type="pubDate">
+<mods:number>2021-04-13</mods:number>
+</mods:detail>
+<mods:detail type="volume">
+<mods:number>4955</mods:number>
+</mods:detail>
+<mods:detail type="issue">
+<mods:number>1</mods:number>
+</mods:detail>
+<mods:extent unit="page">
+<mods:start>1</mods:start>
+<mods:end>78</mods:end>
+</mods:extent>
+</mods:part>
+</mods:relatedItem>
+<mods:classification>journal article</mods:classification>
+<mods:identifier type="DOI">https://doi.org/10.11646/zootaxa.4955.1.1</mods:identifier>
+<mods:identifier type="GBIF-Dataset">154fa04a-d90d-401d-8d8f-52467a275fce</mods:identifier>
+<mods:identifier type="ISSN">1175-5326</mods:identifier>
+<mods:identifier type="Zenodo-Dep">4691078</mods:identifier>
+<mods:identifier type="ZooBank">E800A72A-C56A-492C-9EE6-FA4F8277DE31</mods:identifier>
+</mods:mods>
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.4701450" ID-GBIF-Taxon="181198559" ID-Zenodo-Dep="4701450" LSID="urn:lsid:plazi:treatment:FF6987EEFF84FFF8FF5443017FD9FCA2" httpUri="http://treatment.plazi.org/id/FF6987EEFF84FFF8FF5443017FD9FCA2" lastPageId="44" lastPageNumber="45" pageId="41" pageNumber="42">
+<subSubSection box="[151,505,1045,1072]" pageId="41" pageNumber="42" type="nomenclature">
+<paragraph blockId="41.[151,505,1045,1107]" box="[151,505,1045,1072]" pageId="41" pageNumber="42">
+<heading bold="true" box="[151,505,1045,1072]" fontSize="11" level="2" pageId="41" pageNumber="42" reason="4">
+<taxonomicName authority="Gray, 1840" authorityName="Gray" authorityYear="1840" box="[151,505,1045,1072]" class="Asteroidea" family="Ophidiasteridae" genus="Linckia" kingdom="Animalia" order="Valvatida" pageId="41" pageNumber="42" phylum="Echinodermata" rank="species" species="guildingi">
+<emphasis bold="true" box="[151,505,1045,1072]" pageId="41" pageNumber="42">
+<emphasis bold="true" box="[151,360,1045,1072]" italics="true" pageId="41" pageNumber="42">Linckia guildingi</emphasis>
+<bibRefCitation author="Gray, J. E." box="[368,505,1045,1071]" pageId="41" pageNumber="42" pagination="175 - 184" refId="ref55826" refString="Gray, J. E. (1840) A synopsis of the genera and species of the class Hypostoma (Asterias Linnaeus). Annals of the Magazine of Natural History, Series 1, 6 (37), 175 - 184 + 275 - 290. https: // doi. org / 10.1080 / 03745484009443296" type="journal article" year="1840">Gray, 1840</bibRefCitation>
+</emphasis>
+</taxonomicName>
+</heading>
+</paragraph>
+</subSubSection>
+<subSubSection box="[151,312,1081,1107]" pageId="41" pageNumber="42" type="description">
+<paragraph blockId="41.[151,505,1045,1107]" box="[151,312,1081,1107]" pageId="41" pageNumber="42">
+<figureCitation box="[151,312,1081,1107]" captionStart-0="FIGURE 22" captionStart-1="FIGURE 23" captionStartId-0="42.[151,250,1862,1886]" captionStartId-1="43.[151,250,1882,1906]" captionTargetBox-0="[157,1431,489,1839]" captionTargetBox-1="[151,1436,1028,1858]" captionTargetId-0="figure-176@42.[157,1431,489,1839]" captionTargetId-1="figure-416@43.[151,1436,1028,1858]" captionTargetPageId-0="42" captionTargetPageId-1="43" captionText-0="FIGURE 22. Linckia guildingi Gray, 1840. (A–B) Specimen in situ (not collected; photo credit: Cláudio Sampaio). Specimen (R 114 mm) (UFBA 590): (C) abactinal plates of arm, interspersed by large papular areas; (D) actinal view of arm; (E) abactinal region of disc with two madreporites on the right; (F) oral region. Scale bars: C–F, 10 mm." captionText-1="FIGURE 23. Specimen (R 50 mm) of Linckia guildingi (UFBA 1360): (A) abactinal and (B) actinal view of body; (C) madreporite; (D) terminal region of the arm with ocular plate; (E) ambulacral furrow; (F) oral region; (G–H) perforated plates from tube feet. Scale bars: A–B, 20 mm; C, 1 mm; D, 10 mm; E–F, 2 mm; G–H, 100 μm." figureDoi-0="http://doi.org/10.5281/zenodo.4691132" figureDoi-1="http://doi.org/10.5281/zenodo.4691134" httpUri-0="https://zenodo.org/record/4691132/files/figure.png" httpUri-1="https://zenodo.org/record/4691134/files/figure.png" pageId="41" pageNumber="42">Figures 22–23</figureCitation>
+</paragraph>
+</subSubSection>
+<subSubSection pageId="41" pageNumber="42" type="reference_group">
+<paragraph blockId="41.[151,1437,1150,1450]" box="[151,509,1150,1174]" pageId="41" pageNumber="42">
+<treatmentCitationGroup box="[151,509,1150,1174]" pageId="41" pageNumber="42">
+<treatmentCitation author="Gray, J. E." box="[151,505,1150,1174]" page="285" pageId="41" pageNumber="42" year="1840">
+<taxonomicName authority="Gray, 1840: 285" authorityName="Gray" authorityPageNumber="285" authorityYear="1840" box="[151,505,1150,1174]" class="Asteroidea" family="Ophidiasteridae" genus="Linckia" kingdom="Animalia" order="Valvatida" pageId="41" pageNumber="42" phylum="Echinodermata" rank="species" species="guildingii">
+<emphasis box="[151,333,1150,1174]" italics="true" pageId="41" pageNumber="42">Linckia guildingii</emphasis>
+<bibRefCitation author="Gray, J. E." box="[338,505,1150,1174]" pageId="41" pageNumber="42" pagination="175 - 184" refId="ref55826" refString="Gray, J. E. (1840) A synopsis of the genera and species of the class Hypostoma (Asterias Linnaeus). Annals of the Magazine of Natural History, Series 1, 6 (37), 175 - 184 + 275 - 290. https: // doi. org / 10.1080 / 03745484009443296" type="journal article" year="1840">Gray, 1840: 285</bibRefCitation>
+</taxonomicName>
+</treatmentCitation>
+.
+</treatmentCitationGroup>
+</paragraph>
+<paragraph blockId="41.[151,1437,1150,1450]" pageId="41" pageNumber="42">
+<treatmentCitationGroup pageId="41" pageNumber="42">
+<taxonomicName authorityName="Gray" authorityYear="1840" box="[151,332,1180,1204]" class="Asteroidea" family="Ophidiasteridae" genus="Linckia" kingdom="Animalia" order="Valvatida" pageId="41" pageNumber="42" phylum="Echinodermata" rank="species" species="guildingii">
+<emphasis box="[151,332,1180,1204]" italics="true" pageId="41" pageNumber="42">Linckia guildingii</emphasis>
+</taxonomicName>
+— 
+<treatmentCitation author="Muller, J. &amp; Troschel, F. H." box="[357,641,1180,1205]" page="33" pageId="41" pageNumber="42" year="1842">
+<bibRefCitation author="Muller, J. &amp; Troschel, F. H." box="[357,641,1180,1205]" pageId="41" pageNumber="42" refId="ref59708" refString="Muller, J. &amp; Troschel, F. H. (1842) System der Asteriden. Friedrich Viewig und Sohn, Braunschweig, 134 pp." type="book" year="1842">Müller &amp; Troschel 1842: 33</bibRefCitation>
+</treatmentCitation>
+; 
+<treatmentCitation author="Rathbun, R." box="[651,846,1180,1205]" page="148" pageId="41" pageNumber="42" year="1879">
+<bibRefCitation author="Rathbun, R." box="[651,846,1180,1205]" pageId="41" pageNumber="42" pagination="139 - 158" refId="ref61517" refString="Rathbun, R. (1879) A list of the Brazilian echinoderms, with notes on their distribution. Transactions of the Connecticut Academy of Arts and Sciences, 5 (3), 139 - 158. https: // doi. org / 10.5962 / bhl. title. 16126" type="journal article" year="1879">Rathbun 1879: 148</bibRefCitation>
+</treatmentCitation>
+; 
+<treatmentCitation author="Clark, A. H." box="[856,1022,1180,1205]" page="133" pageId="41" pageNumber="42" year="1938">
+<bibRefCitation author="Clark, A. H." box="[856,1022,1180,1205]" pageId="41" pageNumber="42" pagination="1 - 7" refId="ref52262" refString="Clark, A. H. (1938) A new genus of starfishes from Puerto Rico. Smithsonian Miscellaneous Collections, 91 (29), 1 - 7, 1 pl." type="journal article" year="1938">Clark 1938: 133</bibRefCitation>
+</treatmentCitation>
+; 
+<treatmentCitation author="Tommasi, L. R." box="[1031,1222,1180,1205]" page="17" pageId="41" pageNumber="42" year="1958">
+<bibRefCitation author="Tommasi, L. R." box="[1031,1222,1180,1205]" pageId="41" pageNumber="42" pagination="1 - 27" refId="ref63273" refString="Tommasi, L. R. (1958) Os equinodermos do litoral de Sao Paulo. II. Diadematidae, Schizasteridae, Brissidae, Cidaroidea (Echinoidea) e Asteroidea do Bentos Costeiro. Contribuicoes avulsas do Instituto Oceanografico, 2, 1 - 27, 6 pls." type="journal article" year="1958">Tommasi 1958: 17</bibRefCitation>
+</treatmentCitation>
+; 
+<treatmentCitation author="Brito, I. M." box="[1232,1368,1180,1205]" page="3" pageId="41" pageNumber="42" year="1962">
+<bibRefCitation author="Brito, I. M." box="[1232,1368,1180,1205]" pageId="41" pageNumber="42" pagination="1 - 10" refId="ref51179" refString="Brito, I. M. (1962) Ensaio de catailogo dos equinodermas do Brasil. Universidade do Brasil, Faculdade Nacional de Filosofia, Centro de Estudos Zooloigicos, 13, 1 - 10." type="journal article" year="1962">Brito 1962: 3</bibRefCitation>
+</treatmentCitation>
+; 
+<treatmentCitation author="Brito, I. M." page="4" pageId="41" pageNumber="42" year="1968">
+<bibRefCitation author="Brito, I. M." pageId="41" pageNumber="42" pagination="1 - 51" refId="ref51216" refString="Brito, I. M. (1968) Asteroiides e equinoiides do Estado da Guanabara e adjace ˆ ncias. Boletim do Museu Nacional, 260, 1 - 51." type="journal article" year="1968">1968: 4–5</bibRefCitation>
+</treatmentCitation>
+, pl. 1, fig. 3; 1971: 262; 
+<treatmentCitation author="Lima-Verde, J. S." box="[490,708,1211,1235]" page="11" pageId="41" pageNumber="42" year="1969">
+<bibRefCitation author="Lima-Verde, J. S." box="[490,708,1211,1235]" pageId="41" pageNumber="42" pagination="9 - 13" refId="ref57515" refString="Lima-Verde, J. S. (1969) Primeira contribuicao ao inventario dos equinodermas do Nordeste brasileiro. Arquivos de Ciencias do Mar, 9 (1), 9 - 13." type="journal article" year="1969">Lima-Verde 1969: 11</bibRefCitation>
+</treatmentCitation>
+; 
+<treatmentCitation author="Tommasi, L. R." box="[718,897,1211,1235]" page="9" pageId="41" pageNumber="42" year="1970">
+<bibRefCitation author="Tommasi, L. R." box="[718,897,1211,1235]" pageId="41" pageNumber="42" pagination="1 - 61" refId="ref63359" refString="Tommasi, L. R. (1970) Lista dos asteroides recentes do Brasil. Contribuicoes Avulsas do Instituto Oceanografico, Universidade de Sao Paulo, 18, 1 - 61, 38 pls." type="journal article" year="1970">Tommasi 1970: 9</bibRefCitation>
+</treatmentCitation>
+, pl. 9, fig. 27; 
+<treatmentCitation author="Tommasi, L. R. &amp; Aron, M. A." box="[1045,1307,1211,1235]" page="3" pageId="41" pageNumber="42" year="1988">
+<bibRefCitation author="Tommasi, L. R. &amp; Aron, M. A." box="[1045,1307,1211,1235]" pageId="41" pageNumber="42" pagination="1 - 6" refId="ref63480" refString="Tommasi, L. R. &amp; Aron, M. A. (1988) Equinodermos da plataforma continental do sudeste do estado da Bahia. Relatos do Instituto Oceanografico da Universidade de Sao Paulo, 19, 1 - 6." type="journal article" year="1988">Tommasi &amp; Aron 1988: 3</bibRefCitation>
+</treatmentCitation>
+; Tommasi 
+<emphasis italics="true" pageId="41" pageNumber="42">et al.</emphasis>
+1988: 6; 
+<treatmentCitation author="Fernandes, M. L. B. &amp; Tommasi, L. R. &amp; Lima, E. J. B." box="[322,595,1242,1266]" page="422" pageId="41" pageNumber="42" year="2002">
+<bibRefCitation author="Fernandes, M. L. B. &amp; Tommasi, L. R. &amp; Lima, E. J. B." box="[322,595,1242,1266]" pageId="41" pageNumber="42" refId="ref54572" refString="Fernandes, M. L. B., Tommasi, L. R. &amp; Lima, E. J. B. (2002) Filo Echinodermata de Pernambuco. In: Tabarelli, M. &amp; Silva, J. M. C. (Eds.), Diagnostico da Biodiversidade de Pernambuco. Vol. 2. Massangana, Recife, pp. 405 - 427." type="book" year="2002">
+Fernandes 
+<emphasis box="[432,484,1242,1266]" italics="true" pageId="41" pageNumber="42">et al.</emphasis>
+2002: 422
+</bibRefCitation>
+</treatmentCitation>
+; 
+<treatmentCitation author="Gondim, A. &amp; Lacouth, P. &amp; Alonso, C. &amp; Manso, C." box="[605,857,1242,1266]" page="154" pageId="41" pageNumber="42" year="2008">
+<bibRefCitation author="Gondim, A. &amp; Lacouth, P. &amp; Alonso, C. &amp; Manso, C." box="[605,857,1242,1266]" pageId="41" pageNumber="42" pagination="151 - 159" refId="ref55518" refString="Gondim, A., Lacouth, P., Alonso, C. &amp; Manso, C. (2008) Echinodermata da praia do Cabo Branco, JoaTo Pessoa, Paraiiba, Brasil. Biota Neotropica, 8, 151 - 159. https: // doi. org / 10.1590 / S 1676 - 06032008000200016" type="journal article" year="2008">
+Gondim 
+<emphasis box="[694,746,1242,1266]" italics="true" pageId="41" pageNumber="42">et al.</emphasis>
+2008: 154
+</bibRefCitation>
+</treatmentCitation>
+; 
+<bibRefCitation author="Carmo, A. V. &amp; Okada, N. B. &amp; Freret-Meurer, N. V." box="[867,1053,1242,1266]" pageId="41" pageNumber="42" pagination="22" refId="ref51976" refString="Carmo, A. V., Okada, N. B. &amp; Freret-Meurer, N. V. (2015) Caracterizacao do microhabitat da estrela-do-mar Linckia guildingii Gray, 1840 que ocorre na Praia de Aracatiba, Ilha Grande, Angra dos Reis, Brasil. Revista Pensar Biologia, 1 (1), 22." type="journal article" year="2015">
+Carmo 
+<emphasis box="[942,994,1242,1266]" italics="true" pageId="41" pageNumber="42">et al.</emphasis>
+2015
+</bibRefCitation>
+; 
+<bibRefCitation author="Sandino, O. B. &amp; Solis-Marin, F. A. &amp; Caballero-Ochoa, A. A. &amp; Conejeros-Vargas, C. A. &amp; Marquez-Borras, F. &amp; Ayala-Aguilera, A. P. &amp; Laguarda-Figueras, A." box="[1064,1265,1242,1266]" pageId="41" pageNumber="42" pagination="288 - 298" refId="ref62033" refString="Sandino, O. B., Solis-Marin, F. A., Caballero-Ochoa, A. A., Conejeros-Vargas, C. A., Marquez-Borras, F., Ayala-Aguilera, A. P. &amp; Laguarda-Figueras, A. (2017) Equinodermos de Nicaragua: nuevos registros del Pacifico y Caribe Sur. Revista de Biologia Tropical, 65, 288 - 298. https: // doi. org / 10.15517 / rbt. v 65 i 1 - 1.31696" type="journal article" year="2017">
+Sandino 
+<emphasis box="[1153,1204,1242,1266]" italics="true" pageId="41" pageNumber="42">et al.</emphasis>
+2017
+</bibRefCitation>
+: S294; 
+<treatmentCitation author="Gurjao, L. M. &amp; Lotufo, T. M. C." page="11" pageId="41" pageNumber="42" year="2018">
+<bibRefCitation author="Gurjao, L. M. &amp; Lotufo, T. M. C." pageId="41" pageNumber="42" pagination="20170387" refId="ref56095" refString="Gurjao, L. M. &amp; Lotufo, T. M. C. (2018) Native species exploited by marine aquarium trade in Brazil. Biota Neotropica, 18 (3), e 20170387. https: // doi. org / 10.1590 / 1676 - 0611 - bn- 2017 - 0387" type="journal article" year="2018">Gurjão &amp; Lotufo 2018: 11</bibRefCitation>
+</treatmentCitation>
+; 
+<treatmentCitation author="Miranda, A. P. S." box="[376,560,1272,1297]" page="14" pageId="41" pageNumber="42" year="2018">
+<bibRefCitation author="Miranda, A. P. S." box="[376,560,1272,1297]" pageId="41" pageNumber="42" refId="ref59457" refString="Miranda, A. P. S. (2018) Diversidade e distribuicao de equinodermos da Plataforma Continental Amazonica. Unpublished Honors Thesis, Universidade Federal do Para, Belem, 62 pp." type="book" year="2018">
+<collectingRegion box="[376,462,1272,1296]" country="Venezuela" name="Miranda" pageId="41" pageNumber="42">Miranda</collectingRegion>
+2018: 14
+</bibRefCitation>
+</treatmentCitation>
+; 
+<treatmentCitation author="Patrizzi, N. &amp; Dobrovolski, R." box="[571,919,1272,1297]" page="182" pageId="41" pageNumber="42" year="2018">
+<bibRefCitation author="Patrizzi, N. &amp; Dobrovolski, R." box="[571,919,1272,1297]" pageId="41" pageNumber="42" pagination="177 - 188" refId="ref60302" refString="Patrizzi, N. &amp; Dobrovolski, R. (2018) Integrating climate change and human impacts into marine spatial planning: a case study of threatened starfish species in Brazil. Ocean &amp; Coastal Management, 161, 177 - 188. https: // doi. org / 10.1016 / j. ocecoaman. 2018.05.003" type="journal article" year="2018">Patrizzi &amp; Dobrovolski 2018: 182</bibRefCitation>
+</treatmentCitation>
+.
+</treatmentCitationGroup>
+</paragraph>
+<paragraph blockId="41.[151,1437,1150,1450]" pageId="41" pageNumber="42">
+<treatmentCitationGroup pageId="41" pageNumber="42">
+<taxonomicName authorityName="Gray" authorityYear="1840" box="[151,325,1303,1327]" class="Asteroidea" family="Ophidiasteridae" genus="Linckia" kingdom="Animalia" order="Valvatida" pageId="41" pageNumber="42" phylum="Echinodermata" rank="species" species="guildingi">
+<emphasis box="[151,325,1303,1327]" italics="true" pageId="41" pageNumber="42">Linckia guildingi</emphasis>
+</taxonomicName>
+— 
+<treatmentCitation author="Clark, A. M. &amp; Downey, M. E." box="[351,637,1303,1328]" page="275" pageId="41" pageNumber="42" year="1992">
+<bibRefCitation author="Clark, A. M. &amp; Downey, M. E." box="[351,637,1303,1328]" pageId="41" pageNumber="42" refId="ref52515" refString="Clark, A. M. &amp; Downey, M. E. (1992) Starfishes of the Atlantic. Chapman and Hall, London, 794 pp. https: // doi. org / 10.5860 / choice. 30 - 2659" type="book" year="1992">Clark &amp; Downey 1992: 275</bibRefCitation>
+</treatmentCitation>
+, pl. 67, fig. 42; 
+<treatmentCitation author="Hendler, G. &amp; Muller, J. E. &amp; Pawson, D. L. &amp; Kier, P. M." box="[800,1039,1303,1327]" page="76" pageId="41" pageNumber="42" year="1995">
+<bibRefCitation author="Hendler, G. &amp; Muller, J. E. &amp; Pawson, D. L. &amp; Kier, P. M." box="[800,1039,1303,1327]" pageId="41" pageNumber="42" refId="ref56324" refString="Hendler, G., Muller, J. E., Pawson, D. L. &amp; Kier, P. M. (1995) Sea Stars, Sea Urchins and Allies: Echinoderms of Florida and the Caribbean. Smithsonian Institution Press, Washington, 390 pp." type="book" year="1995">
+Hendler 
+<emphasis box="[888,940,1303,1327]" italics="true" pageId="41" pageNumber="42">et al.</emphasis>
+1995: 76
+</bibRefCitation>
+</treatmentCitation>
+, figs. 20–21; 
+<treatmentCitation author="Perez-Ruzafa, A. &amp; Entrambasaguas, L. &amp; Bacallado, J. J." page="47" pageId="41" pageNumber="42" year="1999">
+<bibRefCitation author="Perez-Ruzafa, A. &amp; Entrambasaguas, L. &amp; Bacallado, J. J." pageId="41" pageNumber="42" pagination="43 - 62" refId="ref60822" refString="Perez-Ruzafa, A., Entrambasaguas, L. &amp; Bacallado, J. J. (1999) Fauna de equinodermos (Echinodermata) de los fondos rocosos infralitorales del archipielago de Cabo Verde. Revista de la Academia Canaria de Ciencias, 11 (3 - 4), 43 - 62." type="journal article" year="1999">
+Pérez-Ruzafa 
+<emphasis box="[1321,1372,1303,1327]" italics="true" pageId="41" pageNumber="42">et al.</emphasis>
+1999: 47
+</bibRefCitation>
+</treatmentCitation>
+; 
+<bibRefCitation author="Williams, S. T." box="[239,393,1334,1358]" pageId="41" pageNumber="42" pagination="137 - 148" refId="ref65351" refString="Williams, S. T. (2000) Species boundaries in the starfish genus Linckia. Marine Biology, 136 (1), 137 - 148. https: // doi. org / 10.1007 / s 002270050016" type="journal article" year="2000">Williams 2000</bibRefCitation>
+; 
+<treatmentCitation author="Entrambasaguas, L." box="[404,736,1334,1358]" page="101" pageId="41" pageNumber="42" year="2003">
+<bibRefCitation author="Entrambasaguas, L." box="[404,736,1334,1358]" pageId="41" pageNumber="42" refId="ref54338" refString="Entrambasaguas, L. (2003) Estudio de la fauna de equinodermos del archipielago de Cabo Verde: escalas de variabilidad espacial y factores que explican su distribucion. Tesis de licenciatura no publicada. Universidad de Murcia, Murcia. [unknown pagination]" type="book" year="2003">Entrambasaguas 2003: 101–106</bibRefCitation>
+</treatmentCitation>
+; 
+<treatmentCitation author="Entrambasaguas, L." box="[747,1060,1334,1358]" page="63" pageId="41" pageNumber="42" year="2008">
+<bibRefCitation author="Entrambasaguas, L." box="[747,1060,1334,1358]" pageId="41" pageNumber="42" refId="ref54384" refString="Entrambasaguas, L. (2008) Estudio fauniistico y ecoloigico de los equinodermos del archipieilago de Cabo Verde. Tesis doctoral no publicada, Universidad de Murcia, Murcia, 315 pp." type="book" year="2008">Entrambasaguas, 2008: 63–64</bibRefCitation>
+</treatmentCitation>
+; 
+<treatmentCitation author="Benavides-Serrato, M. &amp; Borrero-Perez, G. &amp; Diaz-Sanchez, C." box="[1071,1432,1334,1358]" page="174" pageId="41" pageNumber="42" year="2011">
+<bibRefCitation author="Benavides-Serrato, M. &amp; Borrero-Perez, G. &amp; Diaz-Sanchez, C." box="[1071,1432,1334,1358]" pageId="41" pageNumber="42" refId="ref50205" refString="Benavides-Serrato, M., Borrero-Perez, G. &amp; Diaz-Sanchez, C. (2011) Equinodermos del caribe colombiano: Crinodea, Asteroidea y Ophiuroidea. Vol. 1. Marquillas, Santa Marta, 384 pp." type="book" year="2011">
+Benavides-Serrato 
+<emphasis box="[1266,1319,1334,1358]" italics="true" pageId="41" pageNumber="42">et al.</emphasis>
+2011: 174
+</bibRefCitation>
+</treatmentCitation>
+; 
+<treatmentCitation author="Miranda, A. L. S. &amp; Lima, M. L. F. &amp; Sovierzoski, H. H. &amp; Correia, M. D." box="[199,459,1364,1389]" page="144" pageId="41" pageNumber="42" year="2012">
+<bibRefCitation author="Miranda, A. L. S. &amp; Lima, M. L. F. &amp; Sovierzoski, H. H. &amp; Correia, M. D." box="[199,459,1364,1389]" pageId="41" pageNumber="42" pagination="135 - 146" refId="ref59386" refString="Miranda, A. L. S., Lima, M. L. F., Sovierzoski, H. H. &amp; Correia, M. D. (2012) Inventory of the Echinodermata collection from the Universidade Federal de Alagoas. Biota Neotropica, 12 (2), 135 - 146. https: // doi. org / 10.1590 / S 1676 - 06032012000200014" type="journal article" year="2012">
+Miranda 
+<emphasis box="[293,345,1364,1388]" italics="true" pageId="41" pageNumber="42">et al.</emphasis>
+2012: 144
+</bibRefCitation>
+</treatmentCitation>
+; 
+<treatmentCitation author="Gondim, A. &amp; Christoffersen, M. &amp; Dias, T." box="[471,714,1364,1389]" httpUri="http://treatment.plazi.org/id/599D8BE7337F4CF95064092F6DA401C2" page="32" pageId="41" pageNumber="42" year="2014">
+<bibRefCitation author="Gondim, A. &amp; Christoffersen, M. &amp; Dias, T." box="[471,714,1364,1389]" pageId="41" pageNumber="42" pagination="1 - 56" refId="ref55654" refString="Gondim, A., Christoffersen, M. &amp; Dias, T. (2014) Taxonomic guide and historical review of starfishes in northeastern Brazil (Echinodermata, Asteroidea). ZooKeys, 449, 1 - 56. https: // doi. org / 10.3897 / zookeys. 449.6813" type="journal article" year="2014">
+Gondim 
+<emphasis box="[561,614,1364,1388]" italics="true" pageId="41" pageNumber="42">et al.</emphasis>
+2014: 32
+</bibRefCitation>
+</treatmentCitation>
+, figs. 10a–e, 12d; 
+<bibRefCitation author="Alvarado, J. J. &amp; Chacon-Monge, J. L. &amp; Solis-Marin, F. A. &amp; Pineda-Enriquez, T. &amp; Caballero-Ochoa, A. A. &amp; Rivera, S. S. &amp; Chaves, R. R." box="[904,1120,1364,1389]" pageId="41" pageNumber="42" pagination="1" refId="ref49286" refString="Alvarado, J. J., Chacon-Monge, J. L., Solis-Marin, F. A., Pineda-Enriquez, T., Caballero-Ochoa, A. A., Rivera, S. S. &amp; Chaves, R. R. (2017) Equinodermos del Museo de Zoologia de la Universidad de Costa Rica. Revista de Biologia Tropical, Universidad de Costa Rica, 65 (1), S 272 - S 287. https: // doi. org / 10.15517 / rbt. v 65 i 1 - 1.31695" type="journal article" year="2017">
+Alvarado 
+<emphasis box="[1006,1058,1364,1388]" italics="true" pageId="41" pageNumber="42">et al.</emphasis>
+2017
+</bibRefCitation>
+: S276; 
+<treatmentCitation author="Souto, C. &amp; Martins, L." page="304" pageId="41" pageNumber="42" year="2017">
+<bibRefCitation author="Souto, C. &amp; Martins, L." pageId="41" pageNumber="42" refId="ref62639" refString="Souto, C. &amp; Martins, L. (2017) Os equinodermos. In: Nunes, J. M. C. &amp; Matos, M. R. B. (Eds.), Litoral Norte da Bahia: caracterizacao ambiental, biodiversidade e conservacao. Vol. 1. EDUFBA, Salvador, pp. 303 - 315." type="book" year="2017">Souto &amp; Martins 2017: 304–305</bibRefCitation>
+</treatmentCitation>
+, fig. 1D; 
+<treatmentCitation author="Rubio-Polania, J. C. &amp; Torruco-Gomez, D. &amp; Gonzalez-Solis, A. &amp; Ordaz, J. &amp; Caamal-Jimenez, Y." box="[388,705,1395,1419]" page="190" pageId="41" pageNumber="42" year="2018">
+<bibRefCitation author="Rubio-Polania, J. C. &amp; Torruco-Gomez, D. &amp; Gonzalez-Solis, A. &amp; Ordaz, J. &amp; Caamal-Jimenez, Y." box="[388,705,1395,1419]" pageId="41" pageNumber="42" pagination="184 - 195" refId="ref61909" refString="Rubio-Polania, J. C., Torruco-Gomez, D., Gonzalez-Solis, A., Ordaz, J. &amp; Caamal-Jimenez, Y. (2018) Benthic megafauna of outer margins of the continental shelf of Yucatan Peninsula. Regional Studies in Marine Science, 24, 184 - 195. https: // doi. org / 10.1016 / j. rsma. 2018.08.014" type="journal article" year="2018">
+Rubio-Polania 
+<emphasis box="[541,593,1395,1419]" italics="true" pageId="41" pageNumber="42">et al.</emphasis>
+2018: 190
+</bibRefCitation>
+</treatmentCitation>
+; Borrero-Peìrez 
+<emphasis box="[873,925,1395,1419]" italics="true" pageId="41" pageNumber="42">et al.</emphasis>
+2019: 5; 
+<treatmentCitation ID-DOI="http://doi.org/10.5281/zenodo.3681183" ID-Zenodo-Dep="3681183" author="Cunha, R. &amp; Tavares, M. &amp; Mendonca, J. B." box="[1023,1246,1395,1419]" httpUri="http://treatment.plazi.org/id/AA3E8794FFEBFA11A9B0FAF0FBD45407" page="38" pageId="41" pageNumber="42" year="2020">
+<bibRefCitation author="Cunha, R. &amp; Tavares, M. &amp; Mendonca, J. B." box="[1023,1246,1395,1419]" pageId="41" pageNumber="42" pagination="31 - 56" refId="ref53334" refString="Cunha, R., Tavares, M. &amp; Mendonca, J. B. (2020) Asteroidea (Echinodermata) from shallow-waters of the remote oceanic archipelago Trindade and Martin Vaz, southeastern Atlantic, with taxonomic and zoogeographical notes. Zootaxa, 4742 (1), 31 - 56. https: // doi. org / 10.11646 / zootaxa. 4742.1.2" type="journal article" year="2020">
+<collectingCountry box="[1023,1089,1395,1419]" name="Saint Helena, Ascension and Tristan da Cunha" pageId="41" pageNumber="42">Cunha</collectingCountry>
+<emphasis box="[1096,1148,1395,1419]" italics="true" pageId="41" pageNumber="42">et al.</emphasis>
+2020: 38
+</bibRefCitation>
+</treatmentCitation>
+, fig. 5; 
+<bibRefCitation author="Prata, J. &amp; Lucena, R. A. &amp; Lima, S. F. B. &amp; Weverton, J. &amp; Souza, S. &amp; Christoffersen, M. L." pageId="41" pageNumber="42" pagination="34943 - 34951" refId="ref61318" refString="Prata, J., Lucena, R. A., Lima, S. F. B., Weverton, J., Souza, S. &amp; Christoffersen, M. L. (2020) Species richness of Pycnogonida and Echinodermata associated with the reef ecosystems of Morro de Sao Paulo on Tinhare Island in Northeastern Brazil. International Journal of Development Research, 10 (04), 34943 - 34951." type="journal article" year="2020">
+Prata 
+<emphasis box="[1385,1430,1395,1419]" italics="true" pageId="41" pageNumber="42">et al</emphasis>
+. 2020
+</bibRefCitation>
+.
+</treatmentCitationGroup>
+</paragraph>
+</subSubSection>
+<subSubSection pageId="41" pageNumber="42" type="materials_examined">
+<paragraph blockId="41.[151,1437,1496,2027]" pageId="41" pageNumber="42">
+<emphasis bold="true" box="[151,380,1496,1522]" pageId="41" pageNumber="42">Material examined</emphasis>
+(34 specs, 
+<quantity box="[516,640,1496,1523]" metricMagnitude="-2" metricUnit="m" metricValue="6.3" metricValueMax="12.0" metricValueMin="0.6" pageId="41" pageNumber="42" unit="mm" value="63.0" valueMax="120.0" valueMin="6.0">6–120 mm</quantity>
+<collectionCode box="[650,672,1497,1523]" country="Chile" name="Departamento de Geologia, Universidad de Chile" pageId="41" pageNumber="42">R</collectionCode>
+). 
+<materialsCitation ID-GBIF-Occurrence="3080394358" collectingDate="2008-04-08" collectionCode="R" country="Brazil" latitude="-13.9" location="Amaralina" longLatPrecision="1289" longitude="-38.966667" municipality="Salvador" pageId="41" pageNumber="42" specimenCount="1" stateProvince="Bahia">
+<collectingCountry box="[695,800,1496,1522]" name="Brazil" pageId="41" pageNumber="42">BRAZIL</collectingCountry>
+. 
+<collectingRegion box="[813,878,1496,1522]" country="Brazil" name="Bahia" pageId="41" pageNumber="42">Bahia</collectingRegion>
+(12°45’– 
+<geoCoordinate box="[992,1084,1496,1523]" degrees="13" direction="south" minutes="54" orientation="latitude" pageId="41" pageNumber="42" precision="925" value="-13.9">13°54’S</geoCoordinate>
+; 38°37’– 
+<geoCoordinate box="[1185,1284,1496,1523]" degrees="38" direction="west" minutes="58" orientation="longitude" pageId="41" pageNumber="42" precision="925" value="-38.966667">38°58’W</geoCoordinate>
+)— 
+<collectingMunicipality box="[1324,1432,1496,1523]" pageId="41" pageNumber="42">Salvador</collectingMunicipality>
+: 
+<location LSID="urn:lsid:plazi:treatment:FF6987EEFF84FFF8FF5443017FD9FCA2:721F6023FF84FFFDFF5442E87D7FF9E3" box="[151,269,1532,1558]" country="Brazil" latitude="-13.9" longLatPrecision="1289" longitude="-38.966667" municipality="Salvador" name="Amaralina" pageId="41" pageNumber="42" stateProvince="Bahia">Amaralina</location>
+beach, intertidal, 
+<date box="[473,580,1532,1558]" pageId="41" pageNumber="42" value="2008-04-08">
+<collectingDate box="[473,580,1532,1558]" pageId="41" pageNumber="42" value="2008-04-08">8.iv.2008</collectingDate>
+</date>
+, 
+<specimenCount box="[592,666,1532,1559]" pageId="41" pageNumber="42" type="generic">1 spec</specimenCount>
+, 
+<collectionCode box="[678,697,1533,1559]" country="Chile" name="Departamento de Geologia, Universidad de Chile" pageId="41" pageNumber="42">R</collectionCode>
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3080394457" box="[705,1437,1532,1559]" collectingDate="2006-01-26" collectionCode="R" country="Brazil" location="Pituba" pageId="41" pageNumber="42" specimenCode="UFBA 627" specimenCount="1">
+<quantity box="[705,771,1532,1559]" metricMagnitude="-3" metricUnit="m" metricValue="6.0" pageId="41" pageNumber="42" unit="mm" value="6.0">6 mm</quantity>
+(
+<specimenCode box="[785,914,1532,1559]" collectionCode="UFBA" pageId="41" pageNumber="42">UFBA 627</specimenCode>
+); 
+<location LSID="urn:lsid:plazi:treatment:FF6987EEFF84FFF8FF5443017FD9FCA2:721F6023FF84FFFDFC6442E87F9DF9E3" box="[935,1007,1532,1558]" country="Brazil" name="Pituba" pageId="41" pageNumber="42">Pituba</location>
+beach, intertidal, 
+<date box="[1211,1319,1532,1558]" pageId="41" pageNumber="42" value="2006-01-26">
+<collectingDate box="[1211,1319,1532,1558]" pageId="41" pageNumber="42" value="2006-01-26">26.i.2006</collectingDate>
+</date>
+, 
+<specimenCount box="[1331,1405,1532,1559]" pageId="41" pageNumber="42" type="generic">1 spec</specimenCount>
+, 
+<collectionCode box="[1418,1437,1533,1559]" country="Chile" name="Departamento de Geologia, Universidad de Chile" pageId="41" pageNumber="42">R</collectionCode>
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3080394344" box="[151,721,1568,1595]" collectingDate="2010-11-04" collectionCode="R" country="Brazil" pageId="41" pageNumber="42" specimenCode="UFBA 169" specimenCount="1">
+<quantity box="[151,229,1568,1595]" metricMagnitude="-2" metricUnit="m" metricValue="4.5" pageId="41" pageNumber="42" unit="mm" value="45.0">45 mm</quantity>
+(
+<specimenCode box="[242,369,1568,1595]" collectionCode="UFBA" pageId="41" pageNumber="42">UFBA 169</specimenCode>
+); intertidal, 
+<date box="[501,610,1568,1594]" pageId="41" pageNumber="42" value="2010-11-04">
+<collectingDate box="[501,610,1568,1594]" pageId="41" pageNumber="42" value="2010-11-04">4.xi.2010</collectingDate>
+</date>
+, 
+<specimenCount box="[620,692,1568,1595]" pageId="41" pageNumber="42" type="generic">1 spec</specimenCount>
+, 
+<collectionCode box="[702,721,1569,1595]" country="Chile" name="Departamento de Geologia, Universidad de Chile" pageId="41" pageNumber="42">R</collectionCode>
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3080394422" box="[727,1311,1568,1595]" collectingDate="2011-05-02" collectionCode="R" country="Brazil" pageId="41" pageNumber="42" specimenCode="UFBA 1213" specimenCount="1">
+<quantity box="[727,805,1568,1595]" metricMagnitude="-2" metricUnit="m" metricValue="5.7" pageId="41" pageNumber="42" unit="mm" value="57.0">57 mm</quantity>
+(
+<specimenCode box="[817,958,1568,1594]" collectionCode="UFBA" pageId="41" pageNumber="42">UFBA 1213</specimenCode>
+); intertidal, 
+<date box="[1091,1189,1568,1594]" pageId="41" pageNumber="42" value="2011-05-02">
+<collectingDate box="[1091,1189,1568,1594]" pageId="41" pageNumber="42" value="2011-05-02">2.v.2011</collectingDate>
+</date>
+, 4 specs, 
+<collectionCode box="[1292,1311,1569,1595]" country="Chile" name="Departamento de Geologia, Universidad de Chile" pageId="41" pageNumber="42">R</collectionCode>
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3080394374" collectingDate="1991-11-23" collectionCode="R" country="Brazil" location="Itaparica Island" pageId="41" pageNumber="42" specimenCode="UFBA 1360" specimenCount="1">
+<quantity box="[1317,1436,1568,1595]" metricMagnitude="-2" metricUnit="m" metricValue="6.2" metricValueMax="7.4" metricValueMin="5.0" pageId="41" pageNumber="42" unit="mm" value="62.0" valueMax="74.0" valueMin="50.0">50–74 mm</quantity>
+(
+<specimenCode box="[159,300,1604,1631]" collectionCode="UFBA" pageId="41" pageNumber="42">UFBA 1360</specimenCode>
+); 
+<location LSID="urn:lsid:plazi:treatment:FF6987EEFF84FFF8FF5443017FD9FCA2:721F6023FF84FFFDFE8341507D82F9AB" box="[320,496,1604,1630]" country="Brazil" name="Itaparica Island" pageId="41" pageNumber="42">Itaparica Island</location>
+, intertidal, 
+<date box="[622,744,1604,1630]" pageId="41" pageNumber="42" value="1991-11-23">
+<collectingDate box="[622,744,1604,1630]" pageId="41" pageNumber="42" value="1991-11-23">23.xi.1991</collectingDate>
+</date>
+, 2 specs, 
+<collectionCode box="[850,869,1605,1631]" country="Chile" name="Departamento de Geologia, Universidad de Chile" pageId="41" pageNumber="42">R</collectionCode>
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3080394349" collectingDate="2011-02" collectionCode="R" country="Brazil" location="Ponta de Humaita" pageId="41" pageNumber="42" specimenCode="UFBA 194" specimenCount="1">
+<quantity box="[875,996,1604,1631]" metricMagnitude="-2" metricUnit="m" metricValue="4.5" metricValueMax="6.0" metricValueMin="3.0" pageId="41" pageNumber="42" unit="mm" value="45.0" valueMax="60.0" valueMin="30.0">30–60 mm</quantity>
+(
+<specimenCode box="[1010,1137,1604,1630]" collectionCode="UFBA" pageId="41" pageNumber="42">UFBA 194</specimenCode>
+); 
+<location LSID="urn:lsid:plazi:treatment:FF6987EEFF84FFF8FF5443017FD9FCA2:721F6023FF84FFFDFB464151793FF9AB" box="[1157,1357,1604,1631]" country="Brazil" name="Ponta de Humaita" pageId="41" pageNumber="42">Ponta de Humaitá</location>
+beach, intertidal, 
+<date box="[269,350,1640,1666]" pageId="41" pageNumber="42" value="2011-02">
+<collectingDate box="[269,350,1640,1666]" pageId="41" pageNumber="42" value="2011-02">ii.2011</collectingDate>
+</date>
+, 2 specs, 
+<collectionCode box="[466,485,1641,1667]" country="Chile" name="Departamento de Geologia, Universidad de Chile" pageId="41" pageNumber="42">R</collectionCode>
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3080394324" collectingDate="2007-10-02" collectionCode="R" country="Brazil" elevation="16" location="Vera Cruz" municipality="Barra Grande" pageId="41" pageNumber="42" specimenCode="UFBA 1269-1270" specimenCount="1">
+<quantity box="[495,619,1640,1667]" metricMagnitude="-2" metricUnit="m" metricValue="4.95" metricValueMax="5.4" metricValueMin="4.5" pageId="41" pageNumber="42" unit="mm" value="49.5" valueMax="54.0" valueMin="45.0">45–54 mm</quantity>
+(
+<specimenCode box="[636,853,1640,1667]" collectionCode="UFBA" pageId="41" pageNumber="42">UFBA 1269–1270</specimenCode>
+). 
+<collectingMunicipality box="[874,1028,1640,1667]" pageId="41" pageNumber="42">Barra Grande</collectingMunicipality>
+beach, 
+<location LSID="urn:lsid:plazi:treatment:FF6987EEFF84FFF8FF5443017FD9FCA2:721F6023FF84FFFDFBA2417D78A5F977" box="[1121,1239,1640,1667]" country="Brazil" municipality="Barra Grande" name="Vera Cruz" pageId="41" pageNumber="42">Vera Cruz</location>
+, 
+<quantity box="[1254,1316,1640,1667]" metricMagnitude="1" metricUnit="m" metricValue="1.6" pageId="41" pageNumber="42" unit="m" value="16.0">
+<elevation box="[1254,1316,1640,1667]" metricMagnitude="1" metricUnit="m" metricValue="1.6" pageId="41" pageNumber="42" unit="m" value="16.0">16 m</elevation>
+</quantity>
+, 
+<date box="[1331,1431,1640,1666]" pageId="41" pageNumber="42" value="2007-10-02">
+<collectingDate box="[1331,1431,1640,1666]" pageId="41" pageNumber="42" value="2007-10-02">2.x.2007</collectingDate>
+</date>
+, 
+<specimenCount box="[151,226,1676,1703]" pageId="41" pageNumber="42" type="generic">1 spec</specimenCount>
+, 
+<collectionCode box="[241,260,1677,1703]" country="Chile" name="Departamento de Geologia, Universidad de Chile" pageId="41" pageNumber="42">R</collectionCode>
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3080394426" box="[269,1290,1676,1703]" collectingDate="2008-10-17" collectionCode="R" country="Brazil" elevation="3" location="Ponta de Nossa Senhora" municipality="Frades Island" pageId="41" pageNumber="42" specimenCode="UFBA 529" specimenCount="1">
+<quantity box="[269,350,1676,1703]" metricMagnitude="-2" metricUnit="m" metricValue="1.0" pageId="41" pageNumber="42" unit="mm" value="10.0">10 mm</quantity>
+(
+<specimenCode box="[366,496,1676,1703]" collectionCode="UFBA" pageId="41" pageNumber="42">UFBA 529</specimenCode>
+). 
+<collectingMunicipality box="[518,673,1676,1702]" pageId="41" pageNumber="42">Frades Island</collectingMunicipality>
+, 
+<location LSID="urn:lsid:plazi:treatment:FF6987EEFF84FFF8FF5443017FD9FCA2:721F6023FF84FFFDFD6C41997FBAF953" box="[687,968,1676,1703]" country="Brazil" municipality="Frades Island" name="Ponta de Nossa Senhora" pageId="41" pageNumber="42">Ponta de Nossa Senhora</location>
+, 
+<quantity box="[981,1029,1676,1703]" metricMagnitude="0" metricUnit="m" metricValue="3.0" pageId="41" pageNumber="42" unit="m" value="3.0">
+<elevation box="[981,1029,1676,1703]" metricMagnitude="0" metricUnit="m" metricValue="3.0" pageId="41" pageNumber="42" unit="m" value="3.0">3 m</elevation>
+</quantity>
+, 
+<date box="[1043,1157,1676,1702]" pageId="41" pageNumber="42" value="2008-10-17">
+<collectingDate box="[1043,1157,1676,1702]" pageId="41" pageNumber="42" value="2008-10-17">17.x.2008</collectingDate>
+</date>
+, 8 specs, 
+<collectionCode box="[1271,1290,1677,1703]" country="Chile" name="Departamento de Geologia, Universidad de Chile" pageId="41" pageNumber="42">R</collectionCode>
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3080394446" collectingDate="2007-01-17" collectionCode="R" country="Brazil" location="Farol da Barra" municipality="Salvador" pageId="41" pageNumber="42" specimenCode="UFBA 674" specimenCount="1">
+<quantity box="[1299,1437,1676,1703]" metricMagnitude="-2" metricUnit="m" metricValue="9.0" metricValueMax="10.4" metricValueMin="7.6" pageId="41" pageNumber="42" unit="mm" value="90.0" valueMax="104.0" valueMin="76.0">76–104 mm</quantity>
+(
+<specimenCode box="[159,289,1712,1739]" collectionCode="UFBA" pageId="41" pageNumber="42">UFBA 674</specimenCode>
+). 
+<collectingMunicipality box="[310,414,1712,1738]" pageId="41" pageNumber="42">Salvador</collectingMunicipality>
+: 
+<location LSID="urn:lsid:plazi:treatment:FF6987EEFF84FFF8FF5443017FD9FCA2:721F6023FF84FFFDFE6941A47E3DF93E" box="[426,591,1712,1739]" country="Brazil" municipality="Salvador" name="Farol da Barra" pageId="41" pageNumber="42">Farol da Barra</location>
+beach, 
+<date box="[682,789,1712,1738]" pageId="41" pageNumber="42" value="2007-01-17">
+<collectingDate box="[682,789,1712,1738]" pageId="41" pageNumber="42" value="2007-01-17">17.i.2007</collectingDate>
+</date>
+, 
+<specimenCount box="[803,878,1712,1739]" pageId="41" pageNumber="42" type="generic">1 spec</specimenCount>
+, 
+<collectionCode box="[892,911,1713,1739]" country="Chile" name="Departamento de Geologia, Universidad de Chile" pageId="41" pageNumber="42">R</collectionCode>
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3080394429" collectingDate="2007-08-01" collectionCode="R" country="Brazil" location="Itapua" pageId="41" pageNumber="42" specimenCode="UFBA 470" specimenCount="1">
+<quantity box="[919,1000,1712,1739]" metricMagnitude="-2" metricUnit="m" metricValue="7.6" pageId="41" pageNumber="42" unit="mm" value="76.0">76 mm</quantity>
+(
+<specimenCode box="[1016,1147,1712,1738]" collectionCode="UFBA" pageId="41" pageNumber="42">UFBA 470</specimenCode>
+); 
+<location LSID="urn:lsid:plazi:treatment:FF6987EEFF84FFF8FF5443017FD9FCA2:721F6023FF84FFFDFB5341A578A4F93E" box="[1168,1238,1713,1739]" country="Brazil" name="Itapua" pageId="41" pageNumber="42">Itapuã</location>
+beach, intertidal, 
+<date box="[151,275,1748,1774]" pageId="41" pageNumber="42" value="2007-08-01">
+<collectingDate box="[151,275,1748,1774]" pageId="41" pageNumber="42" value="2007-08-01">1.viii.2007</collectingDate>
+</date>
+, 
+<specimenCount box="[288,363,1748,1775]" pageId="41" pageNumber="42" type="generic">1 spec</specimenCount>
+, 
+<collectionCode box="[377,396,1749,1775]" country="Chile" name="Departamento de Geologia, Universidad de Chile" pageId="41" pageNumber="42">R</collectionCode>
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3080394390" box="[405,1188,1748,1775]" collectingDate="1991-04-16" collectionCode="R" country="Brazil" location="Pituba" pageId="41" pageNumber="42" specimenCode="UFBA 590" specimenCount="1">
+<quantity box="[405,499,1748,1775]" metricMagnitude="-1" metricUnit="m" metricValue="1.14" pageId="41" pageNumber="42" unit="mm" value="114.0">114 mm</quantity>
+(
+<specimenCode box="[515,645,1748,1775]" collectionCode="UFBA" pageId="41" pageNumber="42">UFBA 590</specimenCode>
+); 
+<location LSID="urn:lsid:plazi:treatment:FF6987EEFF84FFF8FF5443017FD9FCA2:721F6023FF84FFFDFD5841C07E91F91B" box="[667,739,1748,1774]" country="Brazil" name="Pituba" pageId="41" pageNumber="42">Pituba</location>
+beach, intertidal, 
+<date box="[946,1066,1748,1774]" pageId="41" pageNumber="42" value="1991-04-16">
+<collectingDate box="[946,1066,1748,1774]" pageId="41" pageNumber="42" value="1991-04-16">16.iv.1991</collectingDate>
+</date>
+, 
+<specimenCount box="[1080,1155,1748,1775]" pageId="41" pageNumber="42" type="generic">1 spec</specimenCount>
+, 
+<collectionCode box="[1169,1188,1749,1775]" country="Chile" name="Departamento de Geologia, Universidad de Chile" pageId="41" pageNumber="42">R</collectionCode>
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3080394383" collectingDate="1997-07-05" collectionCode="R" country="Brazil" pageId="41" pageNumber="42" specimenCode="UFBA 591" specimenCount="1">
+<quantity box="[1196,1277,1748,1775]" metricMagnitude="-2" metricUnit="m" metricValue="9.5" pageId="41" pageNumber="42" unit="mm" value="95.0">95 mm</quantity>
+(
+<specimenCode box="[1293,1423,1748,1775]" collectionCode="UFBA" pageId="41" pageNumber="42">UFBA 591</specimenCode>
+); intertidal, 
+<date box="[267,383,1784,1811]" pageId="41" pageNumber="42" value="1997-07-05">
+<collectingDate box="[267,383,1784,1811]" pageId="41" pageNumber="42" value="1997-07-05">5.vii.1997</collectingDate>
+</date>
+, 2 specs, 
+<collectionCode box="[493,512,1785,1811]" country="Chile" name="Departamento de Geologia, Universidad de Chile" pageId="41" pageNumber="42">R</collectionCode>
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3080394461" box="[519,1111,1784,1811]" collectionCode="R" country="Brazil" pageId="41" pageNumber="42" specimenCode="UFBA 41" specimenCount="1">
+<quantity box="[519,669,1784,1811]" metricMagnitude="-1" metricUnit="m" metricValue="1.125" metricValueMax="1.2" metricValueMin="1.05" pageId="41" pageNumber="42" unit="mm" value="112.5" valueMax="120.0" valueMin="105.0">105–120 mm</quantity>
+(
+<specimenCode box="[684,797,1784,1810]" collectionCode="UFBA" pageId="41" pageNumber="42">UFBA 41</specimenCode>
+); intertidal, 2005, 
+<specimenCount box="[1006,1080,1784,1811]" pageId="41" pageNumber="42" type="generic">1 spec</specimenCount>
+, 
+<collectionCode box="[1092,1111,1785,1811]" country="Chile" name="Departamento de Geologia, Universidad de Chile" pageId="41" pageNumber="42">R</collectionCode>
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3080394394" collectingDate="2008-04-08" collectionCode="R" country="Brazil" pageId="41" pageNumber="42" specimenCode="UFBA 639" specimenCount="1">
+<quantity box="[1119,1212,1784,1811]" metricMagnitude="-1" metricUnit="m" metricValue="1.18" pageId="41" pageNumber="42" unit="mm" value="118.0">118 mm</quantity>
+(
+<specimenCode box="[1226,1355,1784,1811]" collectionCode="UFBA" pageId="41" pageNumber="42">UFBA 639</specimenCode>
+); intertidal, 
+<date box="[215,322,1820,1846]" pageId="41" pageNumber="42" value="2008-04-08">
+<collectingDate box="[215,322,1820,1846]" pageId="41" pageNumber="42" value="2008-04-08">8.iv.2008</collectingDate>
+</date>
+, 
+<specimenCount box="[333,406,1820,1847]" pageId="41" pageNumber="42" type="generic">1 spec</specimenCount>
+, 
+<collectionCode box="[417,436,1821,1847]" country="Chile" name="Departamento de Geologia, Universidad de Chile" pageId="41" pageNumber="42">R</collectionCode>
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3080394345" box="[443,1023,1820,1847]" collectingDate="2011-05-02" collectionCode="R" country="Brazil" pageId="41" pageNumber="42" specimenCode="UFBA 626" specimenCount="1">
+<quantity box="[443,522,1820,1847]" metricMagnitude="-2" metricUnit="m" metricValue="8.7" pageId="41" pageNumber="42" unit="mm" value="87.0">87 mm</quantity>
+(
+<specimenCode box="[536,664,1820,1847]" collectionCode="UFBA" pageId="41" pageNumber="42">UFBA 626</specimenCode>
+); intertidal, 
+<date box="[799,897,1820,1846]" pageId="41" pageNumber="42" value="2011-05-02">
+<collectingDate box="[799,897,1820,1846]" pageId="41" pageNumber="42" value="2011-05-02">2.v.2011</collectingDate>
+</date>
+, 5 specs, 
+<collectionCode box="[1004,1023,1821,1847]" country="Chile" name="Departamento de Geologia, Universidad de Chile" pageId="41" pageNumber="42">R</collectionCode>
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3080394380" collectingDate="2010-12" collectionCode="R" country="Brazil" location="Ponta de Humaita" pageId="41" pageNumber="42" specimenCode="UFBA 1360" specimenCount="1">
+<quantity box="[1029,1163,1820,1847]" metricMagnitude="-2" metricUnit="m" metricValue="9.75" metricValueMax="11.3" metricValueMin="8.2" pageId="41" pageNumber="42" unit="mm" value="97.5" valueMax="113.0" valueMin="82.0">82–113 mm</quantity>
+(
+<specimenCode box="[1177,1319,1820,1847]" collectionCode="UFBA" pageId="41" pageNumber="42">UFBA 1360</specimenCode>
+); 
+<location LSID="urn:lsid:plazi:treatment:FF6987EEFF84FFF8FF5443017FD9FCA2:721F6023FF84FFFDFAF840097C85F8AF" country="Brazil" name="Ponta de Humaita" pageId="41" pageNumber="42">Ponta de Humaitá</location>
+beach, intertidal, 
+<date box="[449,545,1856,1882]" pageId="41" pageNumber="42" value="2010-12">
+<collectingDate box="[449,545,1856,1882]" pageId="41" pageNumber="42" value="2010-12">xii.2010</collectingDate>
+</date>
+, 
+<specimenCount box="[556,629,1856,1883]" pageId="41" pageNumber="42" type="generic">1 spec</specimenCount>
+, 
+<collectionCode box="[640,659,1857,1883]" country="Chile" name="Departamento de Geologia, Universidad de Chile" pageId="41" pageNumber="42">R</collectionCode>
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3080394402" box="[666,922,1856,1883]" collectionCode="UFBA" country="Brazil" pageId="41" pageNumber="42" specimenCode="UFBA 1268" specimenCount="1">
+<quantity box="[666,758,1856,1883]" metricMagnitude="-1" metricUnit="m" metricValue="1.16" pageId="41" pageNumber="42" unit="mm" value="116.0">116 mm</quantity>
+(
+<specimenCode box="[772,914,1856,1883]" collectionCode="UFBA" pageId="41" pageNumber="42">UFBA 1268</specimenCode>
+)
+</materialsCitation>
+.
+</paragraph>
+<paragraph blockId="41.[151,1437,1496,2027]" pageId="41" pageNumber="42">
+<emphasis bold="true" box="[199,471,1892,1918]" pageId="41" pageNumber="42">Comparative material.</emphasis>
+<materialsCitation ID-GBIF-Occurrence="3080394418" box="[477,879,1892,1918]" country="Brazil" location="Alagoas" pageId="41" pageNumber="42" specimenCount="1" stateProvince="Alagoas">
+<collectingCountry box="[477,582,1892,1918]" name="Brazil" pageId="41" pageNumber="42">BRAZIL</collectingCountry>
+. 
+<collectingRegion box="[589,684,1892,1918]" country="Brazil" name="Alagoas" pageId="41" pageNumber="42">Alagoas</collectingRegion>
+, Ipioca coral reef
+</materialsCitation>
+, 
+<materialsCitation ID-GBIF-Occurrence="3080394302" box="[889,1351,1892,1919]" collectingDate="2007-07-01" collectionCode="R" country="Brazil" pageId="41" pageNumber="42" specimenCode="UFBA 533" specimenCount="1" stateProvince="Alagoas">
+<date box="[889,1005,1892,1918]" pageId="41" pageNumber="42" value="2007-07-01">
+<collectingDate box="[889,1005,1892,1918]" pageId="41" pageNumber="42" value="2007-07-01">1.vii.2007</collectingDate>
+</date>
+, 
+<specimenCount box="[1016,1088,1892,1919]" pageId="41" pageNumber="42" type="generic">1 spec</specimenCount>
+, 
+<collectionCode box="[1099,1118,1893,1919]" country="Chile" name="Departamento de Geologia, Universidad de Chile" pageId="41" pageNumber="42">R</collectionCode>
+<quantity box="[1124,1202,1892,1919]" metricMagnitude="-2" metricUnit="m" metricValue="3.5" pageId="41" pageNumber="42" unit="mm" value="35.0">35 mm</quantity>
+(
+<specimenCode box="[1215,1342,1892,1919]" collectionCode="UFBA" pageId="41" pageNumber="42">UFBA 533</specimenCode>
+)
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3080394430" collectionCode="WEST, INDIES, R" country="Brazil" pageId="41" pageNumber="42" specimenCode="NHM-UK 1953.4" specimenCount="1" stateProvince="Alagoas" typeStatus="lectotype">
+. 
+<collectionCode pageId="41" pageNumber="42">WEST INDIES</collectionCode>
+, 
+<specimenCount box="[258,332,1928,1955]" pageId="41" pageNumber="42" type="generic">1 spec</specimenCount>
+, 
+<collectionCode box="[345,364,1929,1955]" country="Chile" name="Departamento de Geologia, Universidad de Chile" pageId="41" pageNumber="42">R</collectionCode>
+<quantity box="[372,452,1928,1955]" metricMagnitude="-2" metricUnit="m" metricValue="2.4" pageId="41" pageNumber="42" unit="mm" value="24.0">24 mm</quantity>
+(
+<specimenCode box="[467,672,1928,1955]" collectionCode="NHM-UK" pageId="41" pageNumber="42">NHM-UK 1953.4</specimenCode>
+.27.68, 
+<typeStatus box="[754,862,1928,1955]" pageId="41" pageNumber="42">lectotype</typeStatus>
+)
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="3080394388" collectionCode="R" country="Brazil" pageId="41" pageNumber="42" specimenCode="NHM-UK 1953.4" specimenCount="1" stateProvince="Alagoas" typeStatus="paralectotype">
+<specimenCount box="[882,956,1928,1955]" pageId="41" pageNumber="42" type="generic">1 spec</specimenCount>
+, 
+<collectionCode box="[969,988,1929,1955]" country="Chile" name="Departamento de Geologia, Universidad de Chile" pageId="41" pageNumber="42">R</collectionCode>
+<quantity box="[996,1076,1928,1955]" metricMagnitude="-2" metricUnit="m" metricValue="1.5" pageId="41" pageNumber="42" unit="mm" value="15.0">15 mm</quantity>
+(
+<specimenCode box="[1091,1297,1928,1955]" collectionCode="NHM-UK" pageId="41" pageNumber="42">NHM-UK 1953.4</specimenCode>
+.27.68, 
+<typeStatus pageId="41" pageNumber="42">paralectotype</typeStatus>
+)
+</materialsCitation>
+.
+</paragraph>
+</subSubSection>
+<subSubSection lastPageId="43" lastPageNumber="44" pageId="41" pageNumber="42" type="description">
+<paragraph blockId="41.[151,1437,1496,2027]" lastBlockId="42.[151,1437,151,465]" lastPageId="42" lastPageNumber="43" pageId="41" pageNumber="42">
+<emphasis bold="true" box="[199,534,2000,2026]" pageId="41" pageNumber="42">
+Description (R 
+<quantity box="[381,521,2000,2026]" metricMagnitude="-2" metricUnit="m" metricValue="9.8" metricValueMax="12.0" metricValueMin="7.6" pageId="41" pageNumber="42" unit="mm" value="98.0" valueMax="120.0" valueMin="76.0">76–120 mm</quantity>
+).
+</emphasis>
+Small disc; average R/r 12.5. Five to six (rarely 1, 4 or 7) long, narrow, cylindri- cal arms (
+<figureCitation box="[263,402,151,177]" captionStart="FIGURE 22" captionStartId="42.[151,250,1862,1886]" captionTargetBox="[157,1431,489,1839]" captionTargetId="figure-176@42.[157,1431,489,1839]" captionTargetPageId="42" captionText="FIGURE 22. Linckia guildingi Gray, 1840. (A–B) Specimen in situ (not collected; photo credit: Cláudio Sampaio). Specimen (R 114 mm) (UFBA 590): (C) abactinal plates of arm, interspersed by large papular areas; (D) actinal view of arm; (E) abactinal region of disc with two madreporites on the right; (F) oral region. Scale bars: C–F, 10 mm." figureDoi="http://doi.org/10.5281/zenodo.4691132" httpUri="https://zenodo.org/record/4691132/files/figure.png" pageId="42" pageNumber="43">Fig. 22A–B</figureCitation>
+). Abactinal surface with small, irregularly arranged, tumid plates covered by granules (
+<figureCitation captionStart="FIGURE 22" captionStartId="42.[151,250,1862,1886]" captionTargetBox="[157,1431,489,1839]" captionTargetId="figure-176@42.[157,1431,489,1839]" captionTargetPageId="42" captionText="FIGURE 22. Linckia guildingi Gray, 1840. (A–B) Specimen in situ (not collected; photo credit: Cláudio Sampaio). Specimen (R 114 mm) (UFBA 590): (C) abactinal plates of arm, interspersed by large papular areas; (D) actinal view of arm; (E) abactinal region of disc with two madreporites on the right; (F) oral region. Scale bars: C–F, 10 mm." figureDoi="http://doi.org/10.5281/zenodo.4691132" httpUri="https://zenodo.org/record/4691132/files/figure.png" pageId="42" pageNumber="43">Fig. 22C</figureCitation>
+). Marginal plates larger than abactinal plates, tumid, covered by granules and arranged into two longitudinal rows. Papular areas large, only on abactinal surface, with 11–25 pores; number of pores lower near disc; actinal surface without papular areas. One to two madreporites (
+<figureCitation box="[777,875,259,285]" captionStart="FIGURE 22" captionStartId="42.[151,250,1862,1886]" captionTargetBox="[157,1431,489,1839]" captionTargetId="figure-176@42.[157,1431,489,1839]" captionTargetPageId="42" captionText="FIGURE 22. Linckia guildingi Gray, 1840. (A–B) Specimen in situ (not collected; photo credit: Cláudio Sampaio). Specimen (R 114 mm) (UFBA 590): (C) abactinal plates of arm, interspersed by large papular areas; (D) actinal view of arm; (E) abactinal region of disc with two madreporites on the right; (F) oral region. Scale bars: C–F, 10 mm." figureDoi="http://doi.org/10.5281/zenodo.4691132" httpUri="https://zenodo.org/record/4691132/files/figure.png" pageId="42" pageNumber="43">Fig. 22E</figureCitation>
+) with deep furrows; only one per interradius.Anus inconspicuous. Terminal plates small, oval, covered by granules. Actinal plates (
+<figureCitation box="[1048,1150,295,321]" captionStart="FIGURE 22" captionStartId="42.[151,250,1862,1886]" captionTargetBox="[157,1431,489,1839]" captionTargetId="figure-176@42.[157,1431,489,1839]" captionTargetPageId="42" captionText="FIGURE 22. Linckia guildingi Gray, 1840. (A–B) Specimen in situ (not collected; photo credit: Cláudio Sampaio). Specimen (R 114 mm) (UFBA 590): (C) abactinal plates of arm, interspersed by large papular areas; (D) actinal view of arm; (E) abactinal region of disc with two madreporites on the right; (F) oral region. Scale bars: C–F, 10 mm." figureDoi="http://doi.org/10.5281/zenodo.4691132" httpUri="https://zenodo.org/record/4691132/files/figure.png" pageId="42" pageNumber="43">Fig. 22D</figureCitation>
+) arranged into three rows extending almost or completely to tip of arm, covered by granules slightly larger than those on abactinal surface; plates near furrow larger than others. Two blunt adambulacral spines, proximal spine larger. Two rows of large, blunt subambulacral spines; outer spines granular-shaped. Innermost two spines on oral plates smaller than adjacent spines (
+<figureCitation box="[237,337,439,465]" captionStart="FIGURE 22" captionStartId="42.[151,250,1862,1886]" captionTargetBox="[157,1431,489,1839]" captionTargetId="figure-176@42.[157,1431,489,1839]" captionTargetPageId="42" captionText="FIGURE 22. Linckia guildingi Gray, 1840. (A–B) Specimen in situ (not collected; photo credit: Cláudio Sampaio). Specimen (R 114 mm) (UFBA 590): (C) abactinal plates of arm, interspersed by large papular areas; (D) actinal view of arm; (E) abactinal region of disc with two madreporites on the right; (F) oral region. Scale bars: C–F, 10 mm." figureDoi="http://doi.org/10.5281/zenodo.4691132" httpUri="https://zenodo.org/record/4691132/files/figure.png" pageId="42" pageNumber="43">Fig. 22F</figureCitation>
+). Tube feet in two rows; sucking disc with perforated plates (
+<figureCitation box="[1020,1160,439,465]" captionStart="FIGURE 23" captionStartId="43.[151,250,1882,1906]" captionTargetBox="[151,1436,1028,1858]" captionTargetId="figure-416@43.[151,1436,1028,1858]" captionTargetPageId="43" captionText="FIGURE 23. Specimen (R 50 mm) of Linckia guildingi (UFBA 1360): (A) abactinal and (B) actinal view of body; (C) madreporite; (D) terminal region of the arm with ocular plate; (E) ambulacral furrow; (F) oral region; (G–H) perforated plates from tube feet. Scale bars: A–B, 20 mm; C, 1 mm; D, 10 mm; E–F, 2 mm; G–H, 100 μm." figureDoi="http://doi.org/10.5281/zenodo.4691134" httpUri="https://zenodo.org/record/4691134/files/figure.png" pageId="42" pageNumber="43">Fig. 23G–H</figureCitation>
+). Pedicellariae absent.
+</paragraph>
+<caption ID-DOI="http://doi.org/10.5281/zenodo.4691132" ID-Zenodo-Dep="4691132" httpUri="https://zenodo.org/record/4691132/files/figure.png" pageId="42" pageNumber="43" startId="42.[151,250,1862,1886]" targetBox="[157,1431,489,1839]" targetPageId="42">
+<paragraph blockId="42.[151,1436,1862,1959]" pageId="42" pageNumber="43">
+<emphasis bold="true" box="[151,288,1862,1886]" pageId="42" pageNumber="43">FIGURE 22.</emphasis>
+<taxonomicName authority="Gray, 1840" authorityName="Gray" authorityYear="1840" box="[295,592,1863,1887]" class="Asteroidea" family="Ophidiasteridae" genus="Linckia" kingdom="Animalia" order="Valvatida" pageId="42" pageNumber="43" phylum="Echinodermata" rank="species" species="guildingi">
+<emphasis box="[295,470,1863,1887]" italics="true" pageId="42" pageNumber="43">Linckia guildingi</emphasis>
+<bibRefCitation author="Gray, J. E." box="[476,592,1863,1887]" pageId="42" pageNumber="43" pagination="175 - 184" refId="ref55826" refString="Gray, J. E. (1840) A synopsis of the genera and species of the class Hypostoma (Asterias Linnaeus). Annals of the Magazine of Natural History, Series 1, 6 (37), 175 - 184 + 275 - 290. https: // doi. org / 10.1080 / 03745484009443296" type="journal article" year="1840">Gray, 1840</bibRefCitation>
+</taxonomicName>
+. (A–B) Specimen 
+<emphasis box="[780,844,1863,1886]" italics="true" pageId="42" pageNumber="43">in situ</emphasis>
+(not collected; photo credit: Cláudio Sampaio). Specimen (R 114 mm) (UFBA 590): (C) abactinal plates of arm, interspersed by large papular areas; (D) actinal view of arm; (E) abactinal region of disc with two madreporites on the right; (F) oral region. Scale bars: C–F, 10 mm.
+</paragraph>
+</caption>
+<paragraph blockId="43.[151,1437,150,1005]" pageId="43" pageNumber="44">
+<emphasis bold="true" box="[199,629,150,176]" pageId="43" pageNumber="44">
+Ontogenetic variation (R 
+<quantity box="[504,617,150,176]" metricMagnitude="-2" metricUnit="m" metricValue="4.0" metricValueMax="7.4" metricValueMin="0.6" pageId="43" pageNumber="44" unit="mm" value="40.0" valueMax="74.0" valueMin="6.0">6–74 mm</quantity>
+).
+</emphasis>
+Average R/r 9.2. Terminal plates proportionally larger than that of large specimen; plate naked or only with a few granules (
+<figureCitation box="[747,853,186,212]" captionStart="FIGURE 23" captionStartId="43.[151,250,1882,1906]" captionTargetBox="[151,1436,1028,1858]" captionTargetId="figure-416@43.[151,1436,1028,1858]" captionTargetPageId="43" captionText="FIGURE 23. Specimen (R 50 mm) of Linckia guildingi (UFBA 1360): (A) abactinal and (B) actinal view of body; (C) madreporite; (D) terminal region of the arm with ocular plate; (E) ambulacral furrow; (F) oral region; (G–H) perforated plates from tube feet. Scale bars: A–B, 20 mm; C, 1 mm; D, 10 mm; E–F, 2 mm; G–H, 100 μm." figureDoi="http://doi.org/10.5281/zenodo.4691134" httpUri="https://zenodo.org/record/4691134/files/figure.png" pageId="43" pageNumber="44">Fig. 23D</figureCitation>
+). Papular areas small, with 1–5 pores. Madreporite proportionally smaller than that of large specimen, with few gyres (
+<figureCitation box="[912,1015,222,248]" captionStart="FIGURE 23" captionStartId="43.[151,250,1882,1906]" captionTargetBox="[151,1436,1028,1858]" captionTargetId="figure-416@43.[151,1436,1028,1858]" captionTargetPageId="43" captionText="FIGURE 23. Specimen (R 50 mm) of Linckia guildingi (UFBA 1360): (A) abactinal and (B) actinal view of body; (C) madreporite; (D) terminal region of the arm with ocular plate; (E) ambulacral furrow; (F) oral region; (G–H) perforated plates from tube feet. Scale bars: A–B, 20 mm; C, 1 mm; D, 10 mm; E–F, 2 mm; G–H, 100 μm." figureDoi="http://doi.org/10.5281/zenodo.4691134" httpUri="https://zenodo.org/record/4691134/files/figure.png" pageId="43" pageNumber="44">Fig. 23C</figureCitation>
+). Marginal plates prominent in specimens up to R 
+<quantity box="[302,382,258,285]" metricMagnitude="-2" metricUnit="m" metricValue="1.5" pageId="43" pageNumber="44" unit="mm" value="15.0">15 mm</quantity>
+. Second row of subambulacral spines in specimens up to R 
+<quantity box="[1038,1116,258,285]" metricMagnitude="-2" metricUnit="m" metricValue="5.5" pageId="43" pageNumber="44" unit="mm" value="55.0">55 mm</quantity>
+almost same size as adjacent granules (
+<figureCitation box="[261,362,294,320]" captionStart="FIGURE 23" captionStartId="43.[151,250,1882,1906]" captionTargetBox="[151,1436,1028,1858]" captionTargetId="figure-416@43.[151,1436,1028,1858]" captionTargetPageId="43" captionText="FIGURE 23. Specimen (R 50 mm) of Linckia guildingi (UFBA 1360): (A) abactinal and (B) actinal view of body; (C) madreporite; (D) terminal region of the arm with ocular plate; (E) ambulacral furrow; (F) oral region; (G–H) perforated plates from tube feet. Scale bars: A–B, 20 mm; C, 1 mm; D, 10 mm; E–F, 2 mm; G–H, 100 μm." figureDoi="http://doi.org/10.5281/zenodo.4691134" httpUri="https://zenodo.org/record/4691134/files/figure.png" pageId="43" pageNumber="44">Fig. 23E</figureCitation>
+), making it hard to differentiate them. Innermost spines on oral plate prominent (
+<figureCitation box="[1269,1370,294,320]" captionStart="FIGURE 23" captionStartId="43.[151,250,1882,1906]" captionTargetBox="[151,1436,1028,1858]" captionTargetId="figure-416@43.[151,1436,1028,1858]" captionTargetPageId="43" captionText="FIGURE 23. Specimen (R 50 mm) of Linckia guildingi (UFBA 1360): (A) abactinal and (B) actinal view of body; (C) madreporite; (D) terminal region of the arm with ocular plate; (E) ambulacral furrow; (F) oral region; (G–H) perforated plates from tube feet. Scale bars: A–B, 20 mm; C, 1 mm; D, 10 mm; E–F, 2 mm; G–H, 100 μm." figureDoi="http://doi.org/10.5281/zenodo.4691134" httpUri="https://zenodo.org/record/4691134/files/figure.png" pageId="43" pageNumber="44">Fig. 23F</figureCitation>
+).
+</paragraph>
+<paragraph blockId="43.[151,1437,150,1005]" pageId="43" pageNumber="44">
+<emphasis bold="true" box="[199,335,330,356]" pageId="43" pageNumber="44">Coloration.</emphasis>
+Specimens 
+<emphasis box="[470,545,331,356]" italics="true" pageId="43" pageNumber="44">in vivo</emphasis>
+are whitish, pink or light brown; papular areas darker. Specimens in ethanol are beige to brown or light pink.
+</paragraph>
+</subSubSection>
+<subSubSection lastPageId="44" lastPageNumber="45" pageId="43" pageNumber="44" type="distribution">
+<paragraph blockId="43.[151,1437,150,1005]" pageId="43" pageNumber="44">
+<emphasis bold="true" box="[199,353,402,428]" pageId="43" pageNumber="44">Distribution.</emphasis>
+Circumtropical (
+<bibRefCitation author="Clark, A. M. &amp; Downey, M. E." box="[550,821,402,429]" pageId="43" pageNumber="44" refId="ref52515" refString="Clark, A. M. &amp; Downey, M. E. (1992) Starfishes of the Atlantic. Chapman and Hall, London, 794 pp. https: // doi. org / 10.5860 / choice. 30 - 2659" type="book" year="1992">Clark &amp; Downey 1992</bibRefCitation>
+; 
+<bibRefCitation author="Alvarado, J. J. &amp; Solis-Marin, F. A." box="[835,1185,402,428]" pageId="43" pageNumber="44" refId="ref49233" refString="Alvarado, J. J. &amp; Solis-Marin, F. A. (2013) Echinoderm research and diversity in Latin America. Vol. 1. Springer, Berlin, 658 pp. https: // doi. org / 10.1007 / 978 - 3 - 642 - 20051 - 9" type="book" year="2013">Alvarado &amp; Solis-Marin 2013</bibRefCitation>
+; 
+<bibRefCitation author="Gondim, A. &amp; Christoffersen, M. &amp; Dias, T." box="[1200,1432,402,429]" pageId="43" pageNumber="44" pagination="1 - 56" refId="ref55654" refString="Gondim, A., Christoffersen, M. &amp; Dias, T. (2014) Taxonomic guide and historical review of starfishes in northeastern Brazil (Echinodermata, Asteroidea). ZooKeys, 449, 1 - 56. https: // doi. org / 10.3897 / zookeys. 449.6813" type="journal article" year="2014">
+Gondim 
+<emphasis box="[1303,1355,402,428]" italics="true" pageId="43" pageNumber="44">et al</emphasis>
+. 2014
+</bibRefCitation>
+; 
+<bibRefCitation author="Cunha, R. &amp; Tavares, M. &amp; Mendonca, J. B." box="[151,365,438,465]" pageId="43" pageNumber="44" pagination="31 - 56" refId="ref53334" refString="Cunha, R., Tavares, M. &amp; Mendonca, J. B. (2020) Asteroidea (Echinodermata) from shallow-waters of the remote oceanic archipelago Trindade and Martin Vaz, southeastern Atlantic, with taxonomic and zoogeographical notes. Zootaxa, 4742 (1), 31 - 56. https: // doi. org / 10.11646 / zootaxa. 4742.1.2" type="journal article" year="2020">
+Cunha 
+<emphasis box="[234,287,438,464]" italics="true" pageId="43" pageNumber="44">et al</emphasis>
+. 2020
+</bibRefCitation>
+). 
+<collectingCountry box="[386,492,438,464]" name="Brazil" pageId="43" pageNumber="44">BRAZIL</collectingCountry>
+: Pará, 
+<collectingRegion box="[572,659,438,464]" country="Brazil" name="Paraiba" pageId="43" pageNumber="44">Paraíba</collectingRegion>
+, 
+<collectingRegion box="[673,816,438,464]" country="Brazil" name="Pernambuco" pageId="43" pageNumber="44">Pernambuco</collectingRegion>
+, 
+<collectingRegion box="[829,924,438,464]" country="Brazil" name="Alagoas" pageId="43" pageNumber="44">Alagoas</collectingRegion>
+, 
+<collectingRegion box="[938,1006,438,464]" country="Brazil" name="Bahia" pageId="43" pageNumber="44">Bahia</collectingRegion>
+, 
+<collectingRegion box="[1021,1186,438,464]" country="Brazil" name="Espirito Santo" pageId="43" pageNumber="44">Espírito Santo</collectingRegion>
+, Trindade Island, 
+<collectingRegion country="Brazil" name="Rio de Janeiro" pageId="43" pageNumber="44">Rio de Janeiro</collectingRegion>
+and 
+<collectingRegion box="[325,440,474,500]" country="Brazil" name="Sao Paulo" pageId="43" pageNumber="44">São Paulo</collectingRegion>
+(
+<bibRefCitation author="Verrill, A. E." box="[455,596,474,500]" pageId="43" pageNumber="44" pagination="351 - 371" refId="ref64560" refString="Verrill, A. E. (1868) Notes of the radiate on the Museum of Yale College, with descriptions of genera and species. 4. Notice on the corals and echinoderms collected by Prof. C. F. Hartt at the Abrolhos Reefs, Province of Bahia, Brazil, 1867. Transactions of the Connecticut Academy of Arts and Sciences, 1 (2), 351 - 371." type="journal article" year="1868">Verrill 1868</bibRefCitation>
+; 
+<bibRefCitation author="Rathbun, R." box="[610,772,474,500]" pageId="43" pageNumber="44" pagination="139 - 158" refId="ref61517" refString="Rathbun, R. (1879) A list of the Brazilian echinoderms, with notes on their distribution. Transactions of the Connecticut Academy of Arts and Sciences, 5 (3), 139 - 158. https: // doi. org / 10.5962 / bhl. title. 16126" type="journal article" year="1879">Rathbun 1879</bibRefCitation>
+; 
+<bibRefCitation author="Verrill, A. E." box="[785,925,474,501]" pageId="43" pageNumber="44" pagination="1 - 232" refId="ref64807" refString="Verrill, A. E. (1915) Report on the Starfishes of the West Indies, Florida, and Brazil, Including Those Obtained by the Bahama Expedition from the University of Iowa in 1893. Bulletin of the State of University of Iowa, 7, 1 - 232, 29 pls. https: // doi. org / 10.5962 / bhl. title. 12035" type="journal article" year="1915">Verrill 1915</bibRefCitation>
+; 
+<bibRefCitation author="Brito, I. M." box="[938,1063,474,500]" pageId="43" pageNumber="44" pagination="1 - 13" refId="ref51138" refString="Brito, I. M. (1960) Asteroides dos estados do Rio de Janeiro e de Sao Paulo. Universidade do Brasil, Faculdade Nacional de Filosofia, Centro de Estudos Zoologicos, 5, 1 - 13." type="journal article" year="1960">Brito 1960</bibRefCitation>
+, 
+<bibRefCitation author="Brito, I. M." box="[1076,1135,474,500]" pageId="43" pageNumber="44" pagination="1 - 51" refId="ref51216" refString="Brito, I. M. (1968) Asteroiides e equinoiides do Estado da Guanabara e adjace ˆ ncias. Boletim do Museu Nacional, 260, 1 - 51." type="journal article" year="1968">1968</bibRefCitation>
+; 
+<bibRefCitation author="Tommasi, L. R." box="[1148,1319,474,500]" pageId="43" pageNumber="44" pagination="1 - 61" refId="ref63359" refString="Tommasi, L. R. (1970) Lista dos asteroides recentes do Brasil. Contribuicoes Avulsas do Instituto Oceanografico, Universidade de Sao Paulo, 18, 1 - 61, 38 pls." type="journal article" year="1970">Tommasi 1970</bibRefCitation>
+; 
+<bibRefCitation author="Tommasi, L. R. &amp; Aron, M. A." pageId="43" pageNumber="44" pagination="1 - 6" refId="ref63480" refString="Tommasi, L. R. &amp; Aron, M. A. (1988) Equinodermos da plataforma continental do sudeste do estado da Bahia. Relatos do Instituto Oceanografico da Universidade de Sao Paulo, 19, 1 - 6." type="journal article" year="1988">Tommasi &amp; Aron 1988</bibRefCitation>
+; 
+<bibRefCitation author="Gondim, A. &amp; Christoffersen, M. &amp; Dias, T." box="[317,541,510,537]" pageId="43" pageNumber="44" pagination="1 - 56" refId="ref55654" refString="Gondim, A., Christoffersen, M. &amp; Dias, T. (2014) Taxonomic guide and historical review of starfishes in northeastern Brazil (Echinodermata, Asteroidea). ZooKeys, 449, 1 - 56. https: // doi. org / 10.3897 / zookeys. 449.6813" type="journal article" year="2014">
+Gondim 
+<emphasis box="[416,466,510,536]" italics="true" pageId="43" pageNumber="44">et al</emphasis>
+. 2014
+</bibRefCitation>
+; 
+<bibRefCitation author="Carmo, A. V. &amp; Okada, N. B. &amp; Freret-Meurer, N. V." box="[553,761,510,537]" pageId="43" pageNumber="44" pagination="22" refId="ref51976" refString="Carmo, A. V., Okada, N. B. &amp; Freret-Meurer, N. V. (2015) Caracterizacao do microhabitat da estrela-do-mar Linckia guildingii Gray, 1840 que ocorre na Praia de Aracatiba, Ilha Grande, Angra dos Reis, Brasil. Revista Pensar Biologia, 1 (1), 22." type="journal article" year="2015">
+Carmo 
+<emphasis box="[637,687,510,536]" italics="true" pageId="43" pageNumber="44">et al</emphasis>
+. 2015
+</bibRefCitation>
+; 
+<bibRefCitation author="Souto, C. &amp; Martins, L." box="[774,1031,510,536]" pageId="43" pageNumber="44" refId="ref62639" refString="Souto, C. &amp; Martins, L. (2017) Os equinodermos. In: Nunes, J. M. C. &amp; Matos, M. R. B. (Eds.), Litoral Norte da Bahia: caracterizacao ambiental, biodiversidade e conservacao. Vol. 1. EDUFBA, Salvador, pp. 303 - 315." type="book" year="2017">Souto &amp; Martins 2017</bibRefCitation>
+; 
+<bibRefCitation author="Miranda, A. P. S." box="[1043,1205,510,536]" pageId="43" pageNumber="44" refId="ref59457" refString="Miranda, A. P. S. (2018) Diversidade e distribuicao de equinodermos da Plataforma Continental Amazonica. Unpublished Honors Thesis, Universidade Federal do Para, Belem, 62 pp." type="book" year="2018">Miranda 2018</bibRefCitation>
+; 
+<bibRefCitation author="Cunha, R. &amp; Tavares, M. &amp; Mendonca, J. B." box="[1218,1425,510,537]" pageId="43" pageNumber="44" pagination="31 - 56" refId="ref53334" refString="Cunha, R., Tavares, M. &amp; Mendonca, J. B. (2020) Asteroidea (Echinodermata) from shallow-waters of the remote oceanic archipelago Trindade and Martin Vaz, southeastern Atlantic, with taxonomic and zoogeographical notes. Zootaxa, 4742 (1), 31 - 56. https: // doi. org / 10.11646 / zootaxa. 4742.1.2" type="journal article" year="2020">
+Cunha 
+<emphasis box="[1299,1349,510,536]" italics="true" pageId="43" pageNumber="44">et al</emphasis>
+. 2020
+</bibRefCitation>
+).
+</paragraph>
+<paragraph blockId="43.[151,1437,150,1005]" box="[151,626,546,573]" pageId="43" pageNumber="44">
+<emphasis bold="true" box="[151,231,546,572]" pageId="43" pageNumber="44">Depth.</emphasis>
+<quantity box="[238,337,546,573]" metricMagnitude="2" metricUnit="m" metricValue="1.49" metricValueMax="2.98" metricValueMin="0.0" pageId="43" pageNumber="44" unit="m" value="149.0" valueMax="298.0" valueMin="0.0">0–298 m</quantity>
+(
+<bibRefCitation author="Clark, A. M. &amp; Downey, M. E." box="[352,613,546,573]" pageId="43" pageNumber="44" refId="ref52515" refString="Clark, A. M. &amp; Downey, M. E. (1992) Starfishes of the Atlantic. Chapman and Hall, London, 794 pp. https: // doi. org / 10.5860 / choice. 30 - 2659" type="book" year="1992">Clark &amp; Downey 1992</bibRefCitation>
+).
+</paragraph>
+<paragraph blockId="43.[151,1437,150,1005]" pageId="43" pageNumber="44">
+<emphasis bold="true" box="[199,395,582,608]" pageId="43" pageNumber="44">Biological notes.</emphasis>
+<taxonomicName authorityName="Gray" authorityYear="1840" box="[403,597,582,608]" class="Asteroidea" family="Ophidiasteridae" genus="Linckia" kingdom="Animalia" order="Valvatida" pageId="43" pageNumber="44" phylum="Echinodermata" rank="species" species="guildingi">
+<emphasis box="[403,597,582,608]" italics="true" pageId="43" pageNumber="44">Linckia guildingi</emphasis>
+</taxonomicName>
+is a nocturnal species, commonly found under rocks, in rock crevices, on coral reefs, rhodolith beds and in sandy bottoms from 
+<collectingRegion box="[763,828,618,644]" country="Brazil" name="Bahia" pageId="43" pageNumber="44">Bahia</collectingRegion>
+(
+<bibRefCitation author="Alves, O. F. S. &amp; Cerqueira, W. R. P." box="[844,1126,618,644]" pageId="43" pageNumber="44" pagination="543 - 553" refId="ref49385" refString="Alves, O. F. S. &amp; Cerqueira, W. R. P. (2000) Echinodermata das praias de Salvador (Bahia, Brasil). Revista Brasileira de Zoologia, 17 (2), 543 - 553. https: // doi. org / 10.1590 / S 0101 - 81752000000200024" type="journal article" year="2000">Alves &amp; Cerqueira 2000</bibRefCitation>
+; 
+<bibRefCitation author="Sampaio, F. L. M." box="[1137,1303,618,644]" pageId="43" pageNumber="44" refId="ref61977" refString="Sampaio, F. L. M. (2010) Distribuicao espaco-temporal de mega equinodermos e reproducao assexuada de Linckia guildingii (Echinodermata: Asteroidea) no plato do recife de coroa vermelha, Bahia, Brasil. Unpublished Master Thesis, Universidade Estadual de Santa Cruz, Ilheus, Bahia, 33 pp." type="book" year="2010">Sampaio 2010</bibRefCitation>
+; 
+<bibRefCitation author="Prata, J. &amp; Lucena, R. A. &amp; Lima, S. F. B. &amp; Weverton, J. &amp; Souza, S. &amp; Christoffersen, M. L." pageId="43" pageNumber="44" pagination="34943 - 34951" refId="ref61318" refString="Prata, J., Lucena, R. A., Lima, S. F. B., Weverton, J., Souza, S. &amp; Christoffersen, M. L. (2020) Species richness of Pycnogonida and Echinodermata associated with the reef ecosystems of Morro de Sao Paulo on Tinhare Island in Northeastern Brazil. International Journal of Development Research, 10 (04), 34943 - 34951." type="journal article" year="2020">
+Prata 
+<emphasis box="[1380,1429,618,644]" italics="true" pageId="43" pageNumber="44">et al</emphasis>
+. 2020
+</bibRefCitation>
+; present paper). Specimens in the Northern 
+<collectingCountry box="[711,779,654,680]" name="Brazil" pageId="43" pageNumber="44">Brazil</collectingCountry>
+have also been found in muddy bottoms (
+<bibRefCitation author="Miranda, A. P. S." box="[1259,1425,654,680]" pageId="43" pageNumber="44" refId="ref59457" refString="Miranda, A. P. S. (2018) Diversidade e distribuicao de equinodermos da Plataforma Continental Amazonica. Unpublished Honors Thesis, Universidade Federal do Para, Belem, 62 pp." type="book" year="2018">Miranda 2018</bibRefCitation>
+). Juveniles of this species reproduce asexually by fission (
+<bibRefCitation author="Clark, H. L." box="[774,901,690,716]" pageId="43" pageNumber="44" pagination="1 - 147" refId="ref52897" refString="Clark, H. L. (1933) A handbook of the littoral echinoderms of Porto Rico and the other West Indian Islands. Scientific Survey of Puerto Rico, 16, 1 - 147." type="journal article" year="1933">Clark 1933</bibRefCitation>
+) and are often found with arms of different sizes (note that our measurements were based on the largest arm).
+</paragraph>
+<paragraph blockId="43.[151,1437,150,1005]" pageId="43" pageNumber="44">
+<bibRefCitation author="Martins, L. &amp; Souto, C. &amp; Magalhaes, W. F. &amp; Alves, O. F. S. &amp; Rosa, I. L. &amp; Sampaio, C. L. S." box="[199,426,762,789]" pageId="43" pageNumber="44" pagination="53 - 59" refId="ref58862" refString="Martins, L., Souto, C., Magalhaes, W. F., Alves, O. F. S., Rosa, I. L. &amp; Sampaio, C. L. S. (2012) Echinoderm harvesting in Todosos-Santos Bay, Bahia State, Brazil: the aquarium trade. Sitientibus serie Ciencias Biologicas, 12 (1), 53 - 59. https: // doi. org / 10.13102 / scb 123" type="journal article" year="2012">
+Martins 
+<emphasis box="[292,339,762,788]" italics="true" pageId="43" pageNumber="44">et al</emphasis>
+. (2012)
+</bibRefCitation>
+reported the commercial exploitation of this species for the aquarium trade, but the harvesting of 
+<taxonomicName authorityName="Gray" authorityYear="1840" box="[226,358,798,824]" class="Asteroidea" family="Ophidiasteridae" genus="Linckia" kingdom="Animalia" order="Valvatida" pageId="43" pageNumber="44" phylum="Echinodermata" rank="species" species="guildingi">
+<emphasis box="[226,358,798,824]" italics="true" pageId="43" pageNumber="44">L. guildingi</emphasis>
+</taxonomicName>
+in 
+<collectingCountry box="[396,464,798,824]" name="Brazil" pageId="43" pageNumber="44">Brazil</collectingCountry>
+is currently prohibited (
+<bibRefCitation author="Gurjao, L. M. &amp; Lotufo, T. M. C." box="[739,1001,798,824]" pageId="43" pageNumber="44" pagination="20170387" refId="ref56095" refString="Gurjao, L. M. &amp; Lotufo, T. M. C. (2018) Native species exploited by marine aquarium trade in Brazil. Biota Neotropica, 18 (3), e 20170387. https: // doi. org / 10.1590 / 1676 - 0611 - bn- 2017 - 0387" type="journal article" year="2018">Gurjão &amp; Lotufo 2018</bibRefCitation>
+). This species is classified as “Vulnerable” (baseline data indicates that the population size is small [i.e., number of mature individuals per subpopulation is 1000 or less] and currently in decline) by the Ministry of the Environment (
+<bibRefCitation author="MMA &amp; Ministerio do Meio Ambiente" box="[1019,1157,870,896]" pageId="43" pageNumber="44" refId="ref59554" refString="MMA (Ministerio do Meio Ambiente) (2018) Livro Vermelho da Fauna Brasileira Ameacada de Extincao: Invertebrados. IC- MBio / MMA, Brasilia, 727 pp." type="book" year="2018">MMA 2018</bibRefCitation>
+). 
+<bibRefCitation author="Patrizzi, N. &amp; Dobrovolski, R." pageId="43" pageNumber="44" pagination="177 - 188" refId="ref60302" refString="Patrizzi, N. &amp; Dobrovolski, R. (2018) Integrating climate change and human impacts into marine spatial planning: a case study of threatened starfish species in Brazil. Ocean &amp; Coastal Management, 161, 177 - 188. https: // doi. org / 10.1016 / j. ocecoaman. 2018.05.003" type="journal article" year="2018">Patrizzi &amp; Dobrovolski (2018)</bibRefCitation>
+predicted that the habitable range of 
+<taxonomicName authorityName="Gray" authorityYear="1840" box="[636,765,906,932]" class="Asteroidea" family="Ophidiasteridae" genus="Linckia" kingdom="Animalia" order="Valvatida" pageId="43" pageNumber="44" phylum="Echinodermata" rank="species" species="guildingi">
+<emphasis box="[636,765,906,932]" italics="true" pageId="43" pageNumber="44">L. guildingi</emphasis>
+</taxonomicName>
+may have a 10–28-fold expansion under higher atmospheric CO 
+<subScript attach="left" box="[190,198,961,975]" fontSize="6" pageId="43" pageNumber="44">2</subScript>
+concentrations. The effect of this expansion on the local communities is unknown, but it is likely to cause negative trophic impact (
+<bibRefCitation author="Kordas, R. L. &amp; Harley, C. D. G. &amp; O'Connor, M. I." box="[377,590,978,1005]" pageId="43" pageNumber="44" pagination="218 - 226" refId="ref56904" refString="Kordas, R. L., Harley, C. D. G. &amp; O'Connor, M. I. (2011) Community ecology in warming world: the influence of temperature on interspecific interactions in marine systems. Journal of Experimental Biology and Ecology, 400, 218 - 226. https: // doi. org / 10.1016 / j. jembe. 2011.02.029" type="journal article" year="2011">
+Kordas 
+<emphasis box="[467,516,978,1004]" italics="true" pageId="43" pageNumber="44">et al</emphasis>
+. 2011
+</bibRefCitation>
+).
+</paragraph>
+<caption ID-DOI="http://doi.org/10.5281/zenodo.4691134" ID-Zenodo-Dep="4691134" httpUri="https://zenodo.org/record/4691134/files/figure.png" pageId="43" pageNumber="44" startId="43.[151,250,1882,1906]" targetBox="[151,1436,1028,1858]" targetPageId="43">
+<paragraph blockId="43.[151,1436,1882,1979]" pageId="43" pageNumber="44">
+<emphasis bold="true" box="[151,290,1882,1906]" pageId="43" pageNumber="44">FIGURE 23.</emphasis>
+Specimen (R 50 mm) of 
+<taxonomicName authority="(UFBA 1360)" baseAuthorityName="UFBA" baseAuthorityYear="1360" box="[557,887,1882,1906]" class="Asteroidea" family="Ophidiasteridae" genus="Linckia" kingdom="Animalia" order="Valvatida" pageId="43" pageNumber="44" phylum="Echinodermata" rank="species" species="guildingi">
+<emphasis box="[557,733,1882,1906]" italics="true" pageId="43" pageNumber="44">Linckia guildingi</emphasis>
+(UFBA 1360)
+</taxonomicName>
+: (A) abactinal and (B) actinal view of body; (C) madreporite; (D) terminal region of the arm with ocular plate; (E) ambulacral furrow; (F) oral region; (G–H) perforated plates from tube feet. Scale bars: A–B, 20 mm; C, 1 mm; D, 10 mm; E–F, 2 mm; G–H, 100 μm.
+</paragraph>
+</caption>
+<paragraph blockId="44.[151,1437,150,429]" box="[199,608,150,177]" pageId="44" pageNumber="45">
+<materialsCitation ID-GBIF-Occurrence="3080394437" box="[199,608,150,177]" pageId="44" pageNumber="45" specimenCode="NHM-UK 1953.4" specimenCount="1" typeStatus="lectotype">
+<emphasis bold="true" box="[199,324,150,176]" pageId="44" pageNumber="45">
+<typeStatus box="[199,319,150,176]" pageId="44" pageNumber="45">Lectotype</typeStatus>
+.
+</emphasis>
+<specimenCode box="[331,533,150,177]" collectionCode="NHM-UK" pageId="44" pageNumber="45">NHM-UK 1953.4</specimenCode>
+.27.68.
+</materialsCitation>
+</paragraph>
+</subSubSection>
+<subSubSection box="[199,503,186,213]" pageId="44" pageNumber="45" type="materials_examined">
+<paragraph blockId="44.[151,1437,150,429]" box="[199,503,186,213]" pageId="44" pageNumber="45">
+<emphasis bold="true" box="[199,358,186,212]" pageId="44" pageNumber="45">Type locality.</emphasis>
+West Indies.
+</paragraph>
+</subSubSection>
+<subSubSection pageId="44" pageNumber="45" type="discussion">
+<paragraph blockId="44.[151,1437,150,429]" pageId="44" pageNumber="45">
+<emphasis bold="true" box="[199,315,222,248]" pageId="44" pageNumber="45">Remarks.</emphasis>
+The data presented by 
+<bibRefCitation author="Clark, A. M. &amp; Downey, M. E." box="[573,846,222,249]" pageId="44" pageNumber="45" refId="ref52515" refString="Clark, A. M. &amp; Downey, M. E. (1992) Starfishes of the Atlantic. Chapman and Hall, London, 794 pp. https: // doi. org / 10.5860 / choice. 30 - 2659" type="book" year="1992">Clark &amp; Downey (1992)</bibRefCitation>
+and the morphology of the 
+<typeStatus box="[1154,1202,223,249]" pageId="44" pageNumber="45">type</typeStatus>
+specimens (R 
+<quantity metricMagnitude="-2" metricUnit="m" metricValue="1.95" metricValueMax="2.4" metricValueMin="1.5" pageId="44" pageNumber="45" unit="mm" value="19.5" valueMax="24.0" valueMin="15.0">15–24 mm</quantity>
+) support the ontogenetic variation described here. According to H.L. 
+<bibRefCitation author="Clark, H. L." box="[973,1119,258,284]" pageId="44" pageNumber="45" pagination="1 - 147" refId="ref52897" refString="Clark, H. L. (1933) A handbook of the littoral echinoderms of Porto Rico and the other West Indian Islands. Scientific Survey of Puerto Rico, 16, 1 - 147." type="journal article" year="1933">Clark (1933)</bibRefCitation>
+, adult individuals vary from R 
+<quantity box="[177,315,294,321]" metricMagnitude="-1" metricUnit="m" metricValue="1.45" metricValueMax="2.15" metricValueMin="0.75" pageId="44" pageNumber="45" unit="mm" value="145.0" valueMax="215.0" valueMin="75.0">75–215 mm</quantity>
+.
+</paragraph>
+<paragraph blockId="44.[151,1437,150,429]" pageId="44" pageNumber="45">
+<taxonomicName authorityName="Perrier" authorityYear="1875" box="[199,387,330,356]" class="Asteroidea" family="Ophidiasteridae" genus="Linckia" kingdom="Animalia" order="Valvatida" pageId="44" pageNumber="45" phylum="Echinodermata" rank="species" species="bouvieri">
+<emphasis box="[199,387,330,356]" italics="true" pageId="44" pageNumber="45">Linckia bouvieri</emphasis>
+</taxonomicName>
+and 
+<taxonomicName authorityName="Perrier" authorityYear="1875" box="[449,564,330,356]" class="Asteroidea" family="Ophidiasteridae" genus="Linckia" kingdom="Animalia" order="Valvatida" pageId="44" pageNumber="45" phylum="Echinodermata" rank="species" species="nodosa">
+<emphasis box="[449,564,330,356]" italics="true" pageId="44" pageNumber="45">L. nodosa</emphasis>
+</taxonomicName>
+differ from 
+<taxonomicName baseAuthorityName="UFBA" baseAuthorityYear="1360" box="[712,847,330,356]" class="Asteroidea" family="Ophidiasteridae" genus="Linckia" kingdom="Animalia" order="Valvatida" pageId="44" pageNumber="45" phylum="Echinodermata" rank="species" species="guildingi">
+<emphasis box="[712,847,330,356]" italics="true" pageId="44" pageNumber="45">L. guildingi</emphasis>
+</taxonomicName>
+by having smaller papular areas, secondary plates between the primary plates, and large abactinal plates (vs. large papular areas, secondary plates absent, and small abactinal plates). Also, the abactinal plates in 
+<taxonomicName authorityName="Perrier" authorityYear="1875" box="[664,786,402,428]" class="Asteroidea" family="Ophidiasteridae" genus="Linckia" kingdom="Animalia" order="Valvatida" pageId="44" pageNumber="45" phylum="Echinodermata" rank="species" species="bouvieri">
+<emphasis box="[664,786,402,428]" italics="true" pageId="44" pageNumber="45">L. bouvieri</emphasis>
+</taxonomicName>
+are flat (vs. tumid).
+</paragraph>
+<paragraph blockId="44.[151,497,510,536]" box="[151,497,510,536]" pageId="44" pageNumber="45">
+<emphasis bold="true" box="[151,497,510,536]" pageId="44" pageNumber="45">
+Genus 
+<taxonomicName authority="Gray, 1840" authorityName="Gray" authorityYear="1840" box="[238,497,510,536]" class="Asteroidea" family="Ophidiasteridae" genus="Narcissia" kingdom="Animalia" order="Valvatida" pageId="44" pageNumber="45" phylum="Echinodermata" rank="genus">
+<emphasis bold="true" box="[238,352,510,536]" italics="true" pageId="44" pageNumber="45">Narcissia</emphasis>
+<bibRefCitation author="Gray, J. E." box="[360,497,510,536]" pageId="44" pageNumber="45" pagination="175 - 184" refId="ref55826" refString="Gray, J. E. (1840) A synopsis of the genera and species of the class Hypostoma (Asterias Linnaeus). Annals of the Magazine of Natural History, Series 1, 6 (37), 175 - 184 + 275 - 290. https: // doi. org / 10.1080 / 03745484009443296" type="journal article" year="1840">Gray, 1840</bibRefCitation>
+</taxonomicName>
+</emphasis>
+</paragraph>
+</subSubSection>
+<subSubSection box="[151,922,578,603]" pageId="44" pageNumber="45" type="type_taxon">
+<paragraph blockId="44.[151,922,578,603]" box="[151,922,578,603]" pageId="44" pageNumber="45">
+<emphasis bold="true" box="[151,291,578,603]" pageId="44" pageNumber="45">Type species.</emphasis>
+<taxonomicName authority="(d'Orbigny, 1839)" baseAuthorityName="d'Orbigny" baseAuthorityYear="1839" box="[298,707,579,603]" class="Asteroidea" family="Ophidiasteridae" genus="Narcissia" kingdom="Animalia" order="Valvatida" pageId="44" pageNumber="45" phylum="Echinodermata" rank="species" species="canariensis">
+<emphasis box="[298,517,579,602]" italics="true" pageId="44" pageNumber="45">Narcissia canariensis</emphasis>
+(
+<bibRefCitation author="d'Orbigny, A. D." box="[530,700,579,603]" pageId="44" pageNumber="45" refId="ref54108" refString="d'Orbigny, A. D. (1839) Echinodermes et Polypiers. In: Webb, P. B. &amp; Berthelot, S. (Eds.), Histoire Naturelle des Iles Canaries, Zoologie. Vol. 2. Bethune, Paris, pp. 148 - 149." type="book" year="1839">d’Orbigny, 1839</bibRefCitation>
+)
+</taxonomicName>
+(
+<typeStatus box="[721,766,579,603]" pageId="44" pageNumber="45">type</typeStatus>
+by monotypy).
+</paragraph>
+</subSubSection>
+<subSubSection pageId="44" pageNumber="45" type="discussion">
+<paragraph blockId="44.[151,1437,649,855]" pageId="44" pageNumber="45">
+<emphasis bold="true" box="[151,267,649,675]" pageId="44" pageNumber="45">Remarks.</emphasis>
+The genus 
+<taxonomicName authorityName="Gray" authorityYear="1840" box="[393,499,650,675]" class="Asteroidea" family="Ophidiasteridae" genus="Narcissia" kingdom="Animalia" order="Valvatida" pageId="44" pageNumber="45" phylum="Echinodermata" rank="genus">
+<emphasis box="[393,499,650,675]" italics="true" pageId="44" pageNumber="45">Narcissia</emphasis>
+</taxonomicName>
+is composed of four species: 
+<taxonomicName authority="Pawson, 2007" authorityName="Pawson" authorityYear="2007" box="[825,1204,649,675]" class="Asteroidea" family="Ophidiasteridae" genus="Narcissia" kingdom="Animalia" order="Valvatida" pageId="44" pageNumber="45" phylum="Echinodermata" rank="species" species="ahearnae">
+<emphasis box="[825,1043,649,675]" italics="true" pageId="44" pageNumber="45">Narcissia ahearnae</emphasis>
+Pawson, 2007
+</taxonomicName>
+(from NW Atlantic), 
+<taxonomicName authority="(d'Orbigny, 1839)" baseAuthorityName="d'Orbigny" baseAuthorityYear="1839" box="[151,600,685,711]" class="Asteroidea" family="Ophidiasteridae" genus="Narcissia" kingdom="Animalia" order="Valvatida" pageId="44" pageNumber="45" phylum="Echinodermata" rank="species" species="canariensis">
+<emphasis box="[151,392,686,711]" italics="true" pageId="44" pageNumber="45">Narcissia canariensis</emphasis>
+(
+<bibRefCitation author="d'Orbigny, A. D." box="[406,592,685,711]" pageId="44" pageNumber="45" refId="ref54108" refString="d'Orbigny, A. D. (1839) Echinodermes et Polypiers. In: Webb, P. B. &amp; Berthelot, S. (Eds.), Histoire Naturelle des Iles Canaries, Zoologie. Vol. 2. Bethune, Paris, pp. 148 - 149." type="book" year="1839">d’Orbigny, 1839</bibRefCitation>
+)
+</taxonomicName>
+(from East Atlantic), 
+<taxonomicName authority="Clark, 1916" authorityName="Clark" authorityYear="1916" box="[840,1174,685,711]" class="Asteroidea" family="Ophidiasteridae" genus="Narcissia" kingdom="Animalia" order="Valvatida" pageId="44" pageNumber="45" phylum="Echinodermata" rank="species" species="gracilis">
+<emphasis box="[840,1038,685,711]" italics="true" pageId="44" pageNumber="45">Narcissia gracilis</emphasis>
+<bibRefCitation author="Clark, A. H." box="[1043,1174,685,711]" pageId="44" pageNumber="45" pagination="51 - 62" refId="ref52198" refString="Clark, A. H. (1916) Six new starfishes from the Gulf of California and adjacent waters. Proceedings of the Biological Society of Washington, 29, 51 - 62." type="journal article" year="1916">Clark, 1916</bibRefCitation>
+</taxonomicName>
+(from East Pacific) and 
+<taxonomicName authority="Sladen, 1889" authorityName="Sladen" authorityYear="1889" box="[151,533,721,747]" class="Asteroidea" family="Ophidiasteridae" genus="Narcissia" kingdom="Animalia" order="Valvatida" pageId="44" pageNumber="45" phylum="Echinodermata" rank="species" species="trigonaria">
+<emphasis box="[151,379,722,747]" italics="true" pageId="44" pageNumber="45">Narcissia trigonaria</emphasis>
+<bibRefCitation author="Sladen, W. P." box="[387,533,721,747]" pageId="44" pageNumber="45" pagination="1 - 893" refId="ref62589" refString="Sladen, W. P. (1889) Asteroidea. Report of the Scientific Results of H. M. S. Challenger, 30, 1 - 893. https: // doi. org / 10.1111 / j. 1096 - 3642.1882. tb 02281. x" type="journal article" year="1889">Sladen, 1889</bibRefCitation>
+</taxonomicName>
+(from West Atlantic).
+</paragraph>
+<paragraph blockId="44.[151,1437,649,855]" pageId="44" pageNumber="45">
+The classification of 
+<taxonomicName authorityName="Gray" authorityYear="1840" box="[437,543,758,783]" class="Asteroidea" family="Ophidiasteridae" genus="Narcissia" kingdom="Animalia" order="Valvatida" pageId="44" pageNumber="45" phylum="Echinodermata" rank="genus">
+<emphasis box="[437,543,758,783]" italics="true" pageId="44" pageNumber="45">Narcissia</emphasis>
+</taxonomicName>
+has been controversial since molecular data placed 
+<taxonomicName authorityName="Sladen" authorityYear="1889" box="[1130,1278,757,783]" class="Asteroidea" family="Ophidiasteridae" genus="Narcissia" kingdom="Animalia" order="Valvatida" pageId="44" pageNumber="45" phylum="Echinodermata" rank="species" species="trigonaria">
+<emphasis box="[1130,1149,758,783]" italics="true" pageId="44" pageNumber="45">N</emphasis>
+. 
+<emphasis box="[1163,1278,758,783]" italics="true" pageId="44" pageNumber="45">trigonaria</emphasis>
+</taxonomicName>
+in an unusual phylogenetic position, sister to a clade with goniasterid and ophidiasterid species (
+<bibRefCitation author="Mah, C. &amp; Foltz, D." box="[1094,1313,793,819]" pageId="44" pageNumber="45" pagination="769 - 788" refId="ref58321" refString="Mah, C. &amp; Foltz, D. (2011) Molecular phylogeny of the Valvatacea (Asteroidea: Echinodermata). Zoological Journal of the Linnean Society, 161 (4), 769 - 788. https: // doi. org / 10.1111 / j. 1096 - 3642.2010.00659. x" type="journal article" year="2011">Mah &amp; Foltz 2011</bibRefCitation>
+). Here, we follow 
+<bibRefCitation author="Mah, C. L." box="[231,377,829,855]" pageId="44" pageNumber="45" refId="ref58185" refString="Mah, C. L. (2020 a) World Asteroidea Database. Available from: http: // www. marinespecies. org / asteroidea / (accessed 30 April 2020)" type="url" year="2020">Mah (2020a)</bibRefCitation>
+and keep 
+<taxonomicName authorityName="Gray" authorityYear="1840" box="[491,597,830,855]" class="Asteroidea" family="Ophidiasteridae" genus="Narcissia" kingdom="Animalia" order="Valvatida" pageId="44" pageNumber="45" phylum="Echinodermata" rank="genus">
+<emphasis box="[491,597,830,855]" italics="true" pageId="44" pageNumber="45">Narcissia</emphasis>
+</taxonomicName>
+in the family 
+<taxonomicName authorityName="Verrill" authorityYear="1867" box="[754,935,829,855]" class="Asteroidea" family="Ophidiasteridae" kingdom="Animalia" order="Valvatida" pageId="44" pageNumber="45" phylum="Echinodermata" rank="family">Ophidiasteridae</taxonomicName>
+.
+</paragraph>
+</subSubSection>
+</treatment>
+</document>

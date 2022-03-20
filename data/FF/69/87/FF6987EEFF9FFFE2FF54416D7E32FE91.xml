@@ -1,0 +1,835 @@
+<document ID-DOI="http://doi.org/10.5281/zenodo.4701456" ID-GBIF-Dataset="154fa04a-d90d-401d-8d8f-52467a275fce" ID-GBIF-Taxon="181198546" ID-ISSN="1175-5326" ID-Zenodo-Dep="4701456" ID-ZooBank="E800A72A-C56A-492C-9EE6-FA4F8277DE31" approvalRequired="213" approvalRequired_for_bibRefs="1" approvalRequired_for_taxonomicNames="12" approvalRequired_for_treatments="200" checkinTime="1618453699710" checkinUser="plazi" docAuthor="Cunha, Rosana, Martins, Luciana, Menegola, Carla &amp; Souto, Camilla" docDate="2021" docId="FF6987EEFF9FFFE2FF54416D7E32FE91" docLanguage="en" docName="zootaxa.4955.1.1.pdf" docOrigin="Zootaxa 4955 (1)" docStyle="DocumentStyle:5EBBA59367AD13919D70D935FA04F6A3.9:Zootaxa.2013-.monograph" docStyleId="5EBBA59367AD13919D70D935FA04F6A3" docStyleName="Zootaxa.2013-.monograph" docStyleVersion="9" docTitle="Oreaster reticulatus" docType="treatment" docVersion="6" lastPageId="54" lastPageNumber="55" masterDocId="0350FF96FFADFFD4FFC347147C72FFF5" masterDocTitle="Taxonomy of the sea stars (Echinodermata: Asteroidea) from Bahia State, including ontogenetic variation and an illustrated key to the Brazilian species" masterLastPageNumber="78" masterPageNumber="1" pageId="50" pageNumber="51" updateTime="1632023924420" updateUser="ExternalLinkService">
+<mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
+<mods:titleInfo>
+<mods:title>Taxonomy of the sea stars (Echinodermata: Asteroidea) from Bahia State, including ontogenetic variation and an illustrated key to the Brazilian species</mods:title>
+</mods:titleInfo>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Cunha, Rosana</mods:namePart>
+<mods:nameIdentifier type="ORCID">0000-0002-0858-0041</mods:nameIdentifier>
+<mods:nameIdentifier type="email">rosana.fcunha@alumni.usp.br</mods:nameIdentifier>
+</mods:name>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Martins, Luciana</mods:namePart>
+<mods:nameIdentifier type="ORCID">0000-0002-0858-0041</mods:nameIdentifier>
+<mods:nameIdentifier type="email">rosana.fcunha@alumni.usp.br</mods:nameIdentifier>
+</mods:name>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Menegola, Carla</mods:namePart>
+<mods:nameIdentifier type="ORCID">0000-0002-4913-366X</mods:nameIdentifier>
+<mods:nameIdentifier type="email">carla.menegola@gmail.com</mods:nameIdentifier>
+</mods:name>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Souto, Camilla</mods:namePart>
+<mods:nameIdentifier type="ORCID">0000-0002-0858-0041</mods:nameIdentifier>
+<mods:nameIdentifier type="email">rosana.fcunha@alumni.usp.br</mods:nameIdentifier>
+</mods:name>
+<mods:typeOfResource>text</mods:typeOfResource>
+<mods:relatedItem type="host">
+<mods:titleInfo>
+<mods:title>Zootaxa</mods:title>
+</mods:titleInfo>
+<mods:part>
+<mods:date>2021</mods:date>
+<mods:detail type="pubDate">
+<mods:number>2021-04-13</mods:number>
+</mods:detail>
+<mods:detail type="volume">
+<mods:number>4955</mods:number>
+</mods:detail>
+<mods:detail type="issue">
+<mods:number>1</mods:number>
+</mods:detail>
+<mods:extent unit="page">
+<mods:start>1</mods:start>
+<mods:end>78</mods:end>
+</mods:extent>
+</mods:part>
+</mods:relatedItem>
+<mods:classification>journal article</mods:classification>
+<mods:identifier type="DOI">https://doi.org/10.11646/zootaxa.4955.1.1</mods:identifier>
+<mods:identifier type="GBIF-Dataset">154fa04a-d90d-401d-8d8f-52467a275fce</mods:identifier>
+<mods:identifier type="ISSN">1175-5326</mods:identifier>
+<mods:identifier type="Zenodo-Dep">4691078</mods:identifier>
+<mods:identifier type="ZooBank">E800A72A-C56A-492C-9EE6-FA4F8277DE31</mods:identifier>
+</mods:mods>
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.4701456" ID-GBIF-Taxon="181198546" ID-Zenodo-Dep="4701456" LSID="urn:lsid:plazi:treatment:FF6987EEFF9FFFE2FF54416D7E32FE91" httpUri="http://treatment.plazi.org/id/FF6987EEFF9FFFE2FF54416D7E32FE91" lastPageId="54" lastPageNumber="55" pageId="50" pageNumber="51">
+<subSubSection box="[151,607,1657,1684]" pageId="50" pageNumber="51" type="nomenclature">
+<paragraph blockId="50.[151,607,1657,1719]" box="[151,607,1657,1684]" pageId="50" pageNumber="51">
+<heading bold="true" box="[151,607,1657,1684]" fontSize="11" level="2" pageId="50" pageNumber="51" reason="3">
+<taxonomicName authority="(Linnaeus, 1758)" baseAuthorityName="Linnaeus" baseAuthorityYear="1758" box="[151,607,1657,1684]" class="Asteroidea" family="Oreasteridae" genus="Oreaster" kingdom="Animalia" order="Valvatida" pageId="50" pageNumber="51" phylum="Echinodermata" rank="species" species="reticulatus">
+<emphasis bold="true" box="[151,607,1657,1684]" pageId="50" pageNumber="51">
+<emphasis bold="true" box="[151,392,1657,1684]" italics="true" pageId="50" pageNumber="51">Oreaster reticulatus</emphasis>
+(
+<bibRefCitation author="Linnaeus, C." box="[407,599,1657,1683]" pageId="50" pageNumber="51" refId="ref57549" refString="Linnaeus, C. (1758) Systema Naturae. Impensis Direct, Laurentii Salvii, Holmiae, 824 pp." type="book" year="1758">Linnaeus, 1758</bibRefCitation>
+)
+</emphasis>
+</taxonomicName>
+</heading>
+</paragraph>
+</subSubSection>
+<subSubSection box="[151,312,1693,1719]" pageId="50" pageNumber="51" type="description">
+<paragraph blockId="50.[151,607,1657,1719]" box="[151,312,1693,1719]" pageId="50" pageNumber="51">
+<figureCitation box="[151,312,1693,1719]" captionStart-0="FIGURE 28" captionStart-1="FIGURE 29" captionStartId-0="52.[151,250,1908,1932]" captionStartId-1="53.[151,250,1269,1293]" captionTargetBox-0="[163,1425,181,1884]" captionTargetBox-1="[151,1436,453,1246]" captionTargetId-0="figure-25@52.[163,1425,181,1884]" captionTargetId-1="figure-158@53.[151,1436,453,1246]" captionTargetPageId-0="52" captionTargetPageId-1="53" captionText-0="FIGURE 28. Oreaster reticulatus (Linnaeus, 1758). (A, B) Specimen in situ (not collected: photo credit: Cláudio Sampaio). Specimen (R 49 mm) (UFBA 468): (C) abactinal and (D) actinal view of body. Adult specimen apprehended by the Brazilian Institute of the Environment and Renewable Natural Resources (IBAMA) (not deposited in a scientific collection because of lack of information): (E) abactinal and (F) actinal view of body. Scale bars: C–D, 20 mm; E–F, 30 mm." captionText-1="FIGURE 29. Oreaster reticulatus (Linnaeus, 1758). (A) Adult specimen being sold as a souvenir by fisherman in Salvador, Bahia in October 2020 (photo credit: Wagner Magalhães). Specimen (R 49 mm) (UFBA 468): (B–C) abactinal region with granules, papular pores and pedicellaria (black arrow); (D) madreporite; (E) bivalve pedicellaria; (F) superomarginal spine; (G) actinal plates with granules; (H) ambulacral spines; (I) oral region. Scale bars: B–D, F–H, 1 mm; E, 500 μm; I, 2 mm." figureDoi-0="http://doi.org/10.5281/zenodo.4691146" figureDoi-1="http://doi.org/10.5281/zenodo.4691148" httpUri-0="https://zenodo.org/record/4691146/files/figure.png" httpUri-1="https://zenodo.org/record/4691148/files/figure.png" pageId="50" pageNumber="51">Figures 28–29</figureCitation>
+</paragraph>
+</subSubSection>
+<subSubSection pageId="50" pageNumber="51" type="reference_group">
+<paragraph blockId="50.[151,1437,1762,2001]" box="[151,559,1762,1786]" pageId="50" pageNumber="51">
+<treatmentCitationGroup box="[151,559,1762,1786]" pageId="50" pageNumber="51">
+<treatmentCitation ID-DOI="http://doi.org/10.5281/zenodo.3913236" ID-Zenodo-Dep="3913236" LSID="urn:lsid:zoobank.org:act:86380686-B865-4E10-808B-053884D97F35" author="Linnaeus, C." box="[151,555,1762,1786]" httpUri="http://treatment.plazi.org/id/DB2D77145321957F44618EEB2152F84B" page="661" pageId="50" pageNumber="51" year="1758">
+<taxonomicName authority="Linnaeus, 1758: 661" authorityName="Linnaeus" authorityPageNumber="661" authorityYear="1758" box="[151,555,1762,1786]" class="Asteroidea" family="Asteriidae" genus="Asterias" kingdom="Animalia" order="Forcipulatida" pageId="50" pageNumber="51" phylum="Echinodermata" rank="species" species="reticulata">
+<emphasis box="[151,339,1762,1786]" italics="true" pageId="50" pageNumber="51">Asterias reticulata</emphasis>
+<bibRefCitation author="Linnaeus, C." box="[344,555,1762,1786]" pageId="50" pageNumber="51" refId="ref57549" refString="Linnaeus, C. (1758) Systema Naturae. Impensis Direct, Laurentii Salvii, Holmiae, 824 pp." type="book" year="1758">Linnaeus, 1758: 661</bibRefCitation>
+</taxonomicName>
+</treatmentCitation>
+.
+</treatmentCitationGroup>
+</paragraph>
+<paragraph blockId="50.[151,1437,1762,2001]" pageId="50" pageNumber="51">
+<treatmentCitationGroup pageId="50" pageNumber="51">
+<taxonomicName baseAuthorityName="Linnaeus" baseAuthorityYear="1758" box="[151,354,1792,1816]" class="Asteroidea" family="Oreasteridae" genus="Oreaster" kingdom="Animalia" order="Valvatida" pageId="50" pageNumber="51" phylum="Echinodermata" rank="species" species="reticulatus">
+<emphasis box="[151,354,1792,1816]" italics="true" pageId="50" pageNumber="51">Oreaster reticulatus</emphasis>
+</taxonomicName>
+— 
+<treatmentCitation author="Tommasi, L. R." box="[380,611,1792,1817]" page="10" pageId="50" pageNumber="51" year="1970">
+<bibRefCitation author="Tommasi, L. R." box="[380,611,1792,1817]" pageId="50" pageNumber="51" pagination="1 - 61" refId="ref63359" refString="Tommasi, L. R. (1970) Lista dos asteroides recentes do Brasil. Contribuicoes Avulsas do Instituto Oceanografico, Universidade de Sao Paulo, 18, 1 - 61, 38 pls." type="journal article" year="1970">Tommasi 1970: 10–11</bibRefCitation>
+</treatmentCitation>
+, 36, pl. 13, fig. 31; 
+<treatmentCitation author="Downey, M. E." box="[814,1000,1792,1817]" page="60" pageId="50" pageNumber="51" year="1973">
+<bibRefCitation author="Downey, M. E." box="[814,1000,1792,1817]" pageId="50" pageNumber="51" pagination="1 - 158" refId="ref54261" refString="Downey, M. E. (1973) Starfishes from the Caribbean and the Gulf of Mexico. Smithsonian Contributions Zoology, 126, 1 - 158. https: // doi. org / 10.5479 / si. 00810282.126" type="journal article" year="1973">Downey 1973: 60</bibRefCitation>
+</treatmentCitation>
+, pl. 24, figs. A–B; 
+<treatmentCitation author="Clark, A. M. &amp; Downey, M. E." page="293" pageId="50" pageNumber="51" year="1992">
+<bibRefCitation author="Clark, A. M. &amp; Downey, M. E." pageId="50" pageNumber="51" refId="ref52515" refString="Clark, A. M. &amp; Downey, M. E. (1992) Starfishes of the Atlantic. Chapman and Hall, London, 794 pp. https: // doi. org / 10.5860 / choice. 30 - 2659" type="book" year="1992">Clark &amp; Downey 1992: 293</bibRefCitation>
+</treatmentCitation>
+, pl. 72; 
+<treatmentCitation author="Hendler, G. &amp; Muller, J. E. &amp; Pawson, D. L. &amp; Kier, P. M." box="[319,555,1823,1847]" page="82" pageId="50" pageNumber="51" year="1995">
+<bibRefCitation author="Hendler, G. &amp; Muller, J. E. &amp; Pawson, D. L. &amp; Kier, P. M." box="[319,555,1823,1847]" pageId="50" pageNumber="51" refId="ref56324" refString="Hendler, G., Muller, J. E., Pawson, D. L. &amp; Kier, P. M. (1995) Sea Stars, Sea Urchins and Allies: Echinoderms of Florida and the Caribbean. Smithsonian Institution Press, Washington, 390 pp." type="book" year="1995">
+Hendler 
+<emphasis box="[407,458,1823,1847]" italics="true" pageId="50" pageNumber="51">et al.</emphasis>
+1995: 82
+</bibRefCitation>
+</treatmentCitation>
+, figs. 25–26; 
+<treatmentCitation author="Fernandes, M. L. B. &amp; Tommasi, L. R. &amp; Lima, E. J. B." box="[690,961,1823,1847]" page="422" pageId="50" pageNumber="51" year="2002">
+<bibRefCitation author="Fernandes, M. L. B. &amp; Tommasi, L. R. &amp; Lima, E. J. B." box="[690,961,1823,1847]" pageId="50" pageNumber="51" refId="ref54572" refString="Fernandes, M. L. B., Tommasi, L. R. &amp; Lima, E. J. B. (2002) Filo Echinodermata de Pernambuco. In: Tabarelli, M. &amp; Silva, J. M. C. (Eds.), Diagnostico da Biodiversidade de Pernambuco. Vol. 2. Massangana, Recife, pp. 405 - 427." type="book" year="2002">
+Fernandes 
+<emphasis box="[800,845,1823,1847]" italics="true" pageId="50" pageNumber="51">et al</emphasis>
+. 2002: 422
+</bibRefCitation>
+</treatmentCitation>
+; 
+<treatmentCitation author="Magalhaes, W. F. &amp; Martins, L. R. &amp; Alves, O. F. S." box="[971,1234,1823,1847]" page="63" pageId="50" pageNumber="51" year="2005">
+<bibRefCitation author="Magalhaes, W. F. &amp; Martins, L. R. &amp; Alves, O. F. S." box="[971,1234,1823,1847]" pageId="50" pageNumber="51" pagination="61 - 65" refId="ref57949" refString="Magalhaes, W. F., Martins, L. R. &amp; Alves, O. F. S. (2005) Inventario dos Echinodermata do estado da Bahia. Brazilian Journal of Aquatic Science and Technology, 9 (1), 61 - 65. https: // doi. org / 10.14210 / bjast. v 9 n 1. p 61 - 65" type="journal article" year="2005">
+Magalhães 
+<emphasis box="[1087,1131,1823,1847]" italics="true" pageId="50" pageNumber="51">et al</emphasis>
+. 2005: 63
+</bibRefCitation>
+</treatmentCitation>
+; 
+<treatmentCitation author="Martins, I. X. &amp; Queiroz, A. C. M." page="202" pageId="50" pageNumber="51" year="2006">
+<bibRefCitation author="Martins, I. X. &amp; Queiroz, A. C. M." pageId="50" pageNumber="51" pagination="200 - 219" refId="ref58792" refString="Martins, I. X. &amp; Queiroz, A. C. M. (2006) Equinodermos do litoral do estado do Ceara. In: Matthews-Cascon, H. &amp; Lotufo, T. M. C. (Eds.), Biota marinha da costa oeste do Ceara. Ministerio do Meio Ambiente, Serie Biodiversidade, Brasilia, pp. 200 - 219." type="book chapter" year="2006">Martins &amp; Queiroz 2006: 202–203</bibRefCitation>
+</treatmentCitation>
+; 
+<treatmentCitation author="Ventura, C. R. R. &amp; Verissimo, I. &amp; Nobre, C. C. &amp; Zama, P. C." box="[365,614,1854,1878]" page="238" pageId="50" pageNumber="51" year="2007">
+<bibRefCitation author="Ventura, C. R. R. &amp; Verissimo, I. &amp; Nobre, C. C. &amp; Zama, P. C." box="[365,614,1854,1878]" pageId="50" pageNumber="51" pagination="258" refId="ref63988" refString="Ventura, C. R. R., Verissimo, I., Nobre, C. C. &amp; Zama, P. C. (2007) Filo Echinodermata. In: Lavrado, H. P. &amp; Viana, M. S. (Eds.), Atlas de invertebrados marinhos da regiao central da Zona Economica Exclusiva brasileira. Parte 1. Museu Nacional do Rio de Janeiro, Serie Livros 25. Museu Nacional do Rio de Janeiro, Rio de Janeiro, pp. 258." type="book chapter" year="2007">
+Ventura 
+<emphasis box="[451,496,1854,1878]" italics="true" pageId="50" pageNumber="51">et al</emphasis>
+. 2007: 238
+</bibRefCitation>
+</treatmentCitation>
+; 
+<treatmentCitation author="Manso, C. L. C. &amp; Alves, O. F. S. &amp; Martins, L. R." box="[624,862,1854,1878]" page="185" pageId="50" pageNumber="51" year="2008">
+<bibRefCitation author="Manso, C. L. C. &amp; Alves, O. F. S. &amp; Martins, L. R." box="[624,862,1854,1878]" pageId="50" pageNumber="51" pagination="179 - 196" refId="ref58661" refString="Manso, C. L. C., Alves, O. F. S. &amp; Martins, L. R. (2008) Echinodermata da Baia de Todos os Santos e da Baia de Aratu (Bahia, Brasil). Biota Neotropica, 8 (3), 179 - 196. https: // doi. org / 10.1590 / S 1676 - 06032008000300017" type="journal article" year="2008">
+Manso 
+<emphasis box="[700,745,1854,1878]" italics="true" pageId="50" pageNumber="51">et al</emphasis>
+. 2008: 185
+</bibRefCitation>
+</treatmentCitation>
+, fig. 8c–e; Magris &amp; Deìstro 2010: 59, 61; 
+<treatmentCitation author="Xavier, L. A. R." page="75" pageId="50" pageNumber="51" year="2010">
+<bibRefCitation author="Xavier, L. A. R." pageId="50" pageNumber="51" pagination="73 - 78" refId="ref65413" refString="Xavier, L. A. R. (2010) Inventario dos equinodermos do Estado de Santa Catarina, Brasil. Brazilian Journal of Aquatic Science and Technology, 14, 73 - 78. https: // doi. org / 10.14210 / bjast. v 14 n 2. p 73 - 78" type="journal article" year="2010">Xavier 2010: 75</bibRefCitation>
+</treatmentCitation>
+; 
+<treatmentCitation author="Alves, R. N. &amp; Dias, T. L. P." box="[237,487,1884,1909]" page="157" pageId="50" pageNumber="51" year="2010">
+<bibRefCitation author="Alves, R. N. &amp; Dias, T. L. P." box="[237,487,1884,1909]" pageId="50" pageNumber="51" pagination="159 - 174" refId="ref49512" refString="Alves, R. N. &amp; Dias, T. L. P. (2010) Uso de invertebrados na medicina popular no Brasil e suas implicacoes para conservacao. Tropical Conservation Science, 3 (2), 159 - 174. https: // doi. org / 10.1177 / 194008291000300204" type="journal article" year="2010">Alves &amp; Dias 2010: 157</bibRefCitation>
+</treatmentCitation>
+; 
+<treatmentCitation author="Benavides-Serrato, M. &amp; Borrero-Perez, G. &amp; Diaz-Sanchez, C." box="[498,904,1884,1909]" page="179" pageId="50" pageNumber="51" year="2011">
+<bibRefCitation author="Benavides-Serrato, M. &amp; Borrero-Perez, G. &amp; Diaz-Sanchez, C." box="[498,904,1884,1909]" pageId="50" pageNumber="51" refId="ref50205" refString="Benavides-Serrato, M., Borrero-Perez, G. &amp; Diaz-Sanchez, C. (2011) Equinodermos del caribe colombiano: Crinodea, Asteroidea y Ophiuroidea. Vol. 1. Marquillas, Santa Marta, 384 pp." type="book" year="2011">
+Benavides-Serrato 
+<emphasis box="[692,736,1884,1908]" italics="true" pageId="50" pageNumber="51">et al</emphasis>
+. 2011: 179–180
+</bibRefCitation>
+</treatmentCitation>
+; 
+<treatmentCitation author="Miranda, A. L. S. &amp; Lima, M. L. F. &amp; Sovierzoski, H. H. &amp; Correia, M. D." box="[915,1221,1884,1909]" page="143" pageId="50" pageNumber="51" year="2012">
+<bibRefCitation author="Miranda, A. L. S. &amp; Lima, M. L. F. &amp; Sovierzoski, H. H. &amp; Correia, M. D." box="[915,1221,1884,1909]" pageId="50" pageNumber="51" pagination="135 - 146" refId="ref59386" refString="Miranda, A. L. S., Lima, M. L. F., Sovierzoski, H. H. &amp; Correia, M. D. (2012) Inventory of the Echinodermata collection from the Universidade Federal de Alagoas. Biota Neotropica, 12 (2), 135 - 146. https: // doi. org / 10.1590 / S 1676 - 06032012000200014" type="journal article" year="2012">
+Miranda 
+<emphasis box="[1007,1052,1884,1908]" italics="true" pageId="50" pageNumber="51">et al</emphasis>
+. 2012: 143–144
+</bibRefCitation>
+</treatmentCitation>
+; 
+<bibRefCitation author="Gondim, A. &amp; Christoffersen, M. &amp; Dias, T." box="[1231,1434,1884,1909]" pageId="50" pageNumber="51" pagination="1 - 56" refId="ref55654" refString="Gondim, A., Christoffersen, M. &amp; Dias, T. (2014) Taxonomic guide and historical review of starfishes in northeastern Brazil (Echinodermata, Asteroidea). ZooKeys, 449, 1 - 56. https: // doi. org / 10.3897 / zookeys. 449.6813" type="journal article" year="2014">
+Gondim 
+<emphasis box="[1321,1366,1884,1908]" italics="true" pageId="50" pageNumber="51">et al</emphasis>
+. 2014
+</bibRefCitation>
+: fig. 8a–g, 12c; 
+<bibRefCitation author="Alvarado, J. J. &amp; Chacon-Monge, J. L. &amp; Solis-Marin, F. A. &amp; Pineda-Enriquez, T. &amp; Caballero-Ochoa, A. A. &amp; Rivera, S. S. &amp; Chaves, R. R." box="[356,573,1915,1939]" pageId="50" pageNumber="51" pagination="1" refId="ref49286" refString="Alvarado, J. J., Chacon-Monge, J. L., Solis-Marin, F. A., Pineda-Enriquez, T., Caballero-Ochoa, A. A., Rivera, S. S. &amp; Chaves, R. R. (2017) Equinodermos del Museo de Zoologia de la Universidad de Costa Rica. Revista de Biologia Tropical, Universidad de Costa Rica, 65 (1), S 272 - S 287. https: // doi. org / 10.15517 / rbt. v 65 i 1 - 1.31695" type="journal article" year="2017">
+Alvarado 
+<emphasis box="[458,504,1915,1939]" italics="true" pageId="50" pageNumber="51">et al</emphasis>
+. 2017
+</bibRefCitation>
+: S277; 
+<bibRefCitation author="Sandino, O. B. &amp; Solis-Marin, F. A. &amp; Caballero-Ochoa, A. A. &amp; Conejeros-Vargas, C. A. &amp; Marquez-Borras, F. &amp; Ayala-Aguilera, A. P. &amp; Laguarda-Figueras, A." box="[651,858,1915,1939]" pageId="50" pageNumber="51" pagination="288 - 298" refId="ref62033" refString="Sandino, O. B., Solis-Marin, F. A., Caballero-Ochoa, A. A., Conejeros-Vargas, C. A., Marquez-Borras, F., Ayala-Aguilera, A. P. &amp; Laguarda-Figueras, A. (2017) Equinodermos de Nicaragua: nuevos registros del Pacifico y Caribe Sur. Revista de Biologia Tropical, 65, 288 - 298. https: // doi. org / 10.15517 / rbt. v 65 i 1 - 1.31696" type="journal article" year="2017">
+Sandino 
+<emphasis box="[742,789,1915,1939]" italics="true" pageId="50" pageNumber="51">et al</emphasis>
+. 2017
+</bibRefCitation>
+: S294; 
+<treatmentCitation author="Souto, C. &amp; Martins, L." box="[936,1223,1915,1939]" page="305" pageId="50" pageNumber="51" year="2017">
+<bibRefCitation author="Souto, C. &amp; Martins, L." box="[936,1223,1915,1939]" pageId="50" pageNumber="51" refId="ref62639" refString="Souto, C. &amp; Martins, L. (2017) Os equinodermos. In: Nunes, J. M. C. &amp; Matos, M. R. B. (Eds.), Litoral Norte da Bahia: caracterizacao ambiental, biodiversidade e conservacao. Vol. 1. EDUFBA, Salvador, pp. 303 - 315." type="book" year="2017">Souto &amp; Martins 2017: 305</bibRefCitation>
+</treatmentCitation>
+, fig. 1C; 
+<treatmentCitation author="Agostini, V. O. &amp; Ozorio, C. P." page="35" pageId="50" pageNumber="51" year="2018">
+<bibRefCitation author="Agostini, V. O. &amp; Ozorio, C. P." pageId="50" pageNumber="51" pagination="26 - 48" refId="ref48996" refString="Agostini, V. O. &amp; Ozorio, C. P. (2018) Caracterizacao da macrofauna de substratos consolidados do Litoral Norte do Rio Grande do Sul, Brasil. Arquivos de Ciencias do Mar, 51 (1), 26 - 48. https: // doi. org / 10.32360 / acmar. v 51 i 1.31293" type="journal article" year="2018">Agostini &amp; Ozorio 2018: 35</bibRefCitation>
+</treatmentCitation>
+; 
+<treatmentCitation author="Gurjao, L. M. &amp; Lotufo, T. M. C." box="[383,657,1946,1970]" page="11" pageId="50" pageNumber="51" year="2018">
+<bibRefCitation author="Gurjao, L. M. &amp; Lotufo, T. M. C." box="[383,657,1946,1970]" pageId="50" pageNumber="51" pagination="20170387" refId="ref56095" refString="Gurjao, L. M. &amp; Lotufo, T. M. C. (2018) Native species exploited by marine aquarium trade in Brazil. Biota Neotropica, 18 (3), e 20170387. https: // doi. org / 10.1590 / 1676 - 0611 - bn- 2017 - 0387" type="journal article" year="2018">Gurjão &amp; Lotufo 2018: 11</bibRefCitation>
+</treatmentCitation>
+; 
+<treatmentCitation author="Patrizzi, N. &amp; Dobrovolski, R." box="[669,1022,1946,1970]" page="182" pageId="50" pageNumber="51" year="2018">
+<bibRefCitation author="Patrizzi, N. &amp; Dobrovolski, R." box="[669,1022,1946,1970]" pageId="50" pageNumber="51" pagination="177 - 188" refId="ref60302" refString="Patrizzi, N. &amp; Dobrovolski, R. (2018) Integrating climate change and human impacts into marine spatial planning: a case study of threatened starfish species in Brazil. Ocean &amp; Coastal Management, 161, 177 - 188. https: // doi. org / 10.1016 / j. ocecoaman. 2018.05.003" type="journal article" year="2018">Patrizzi &amp; Dobrovolski 2018: 182</bibRefCitation>
+</treatmentCitation>
+; Borrero-Peìrez 
+<emphasis box="[1192,1238,1946,1970]" italics="true" pageId="50" pageNumber="51">et al</emphasis>
+. 2019: 5; 
+<treatmentCitation author="Torres, V. S. &amp; Torres, F. S. S." page="413" pageId="50" pageNumber="51" year="2019">
+<bibRefCitation author="Torres, V. S. &amp; Torres, F. S. S." pageId="50" pageNumber="51" pagination="408 - 422" refId="ref63583" refString="Torres, V. S. &amp; Torres, F. S. S. (2019) Inventario preliminar dos invertebrados marinhos observados na praia da Pinheira, Palhoca, SC, Brasil. UNISANTA Bioscience, 8 (4), 408 - 422." type="journal article" year="2019">Torres &amp; Torres 2019: 413</bibRefCitation>
+</treatmentCitation>
+; 
+<treatmentCitation ID-DOI="http://doi.org/10.5281/zenodo.3681171" ID-Zenodo-Dep="3681171" author="Cunha, R. &amp; Tavares, M. &amp; Mendonca, J. B." box="[385,607,1976,2001]" httpUri="http://treatment.plazi.org/id/AA3E8794FFE1FA17A9B0F9B8FC42551D" page="44" pageId="50" pageNumber="51" year="2020">
+<bibRefCitation author="Cunha, R. &amp; Tavares, M. &amp; Mendonca, J. B." box="[385,607,1976,2001]" pageId="50" pageNumber="51" pagination="31 - 56" refId="ref53334" refString="Cunha, R., Tavares, M. &amp; Mendonca, J. B. (2020) Asteroidea (Echinodermata) from shallow-waters of the remote oceanic archipelago Trindade and Martin Vaz, southeastern Atlantic, with taxonomic and zoogeographical notes. Zootaxa, 4742 (1), 31 - 56. https: // doi. org / 10.11646 / zootaxa. 4742.1.2" type="journal article" year="2020">
+<collectingCountry box="[385,451,1976,2000]" name="Saint Helena, Ascension and Tristan da Cunha" pageId="50" pageNumber="51">Cunha</collectingCountry>
+<emphasis box="[458,502,1976,2000]" italics="true" pageId="50" pageNumber="51">et al</emphasis>
+. 2020: 44
+</bibRefCitation>
+</treatmentCitation>
+, figs. 4E, 8; 
+<treatmentCitation author="Magris, R. &amp; Giarrizzo, T." box="[734,1019,1976,2001]" page="3" pageId="50" pageNumber="51" year="2020">
+<bibRefCitation author="Magris, R. &amp; Giarrizzo, T." box="[734,1019,1976,2001]" pageId="50" pageNumber="51" pagination="1 - 3" refId="ref58081" refString="Magris, R. A &amp; Giarrizzo, T. (2020) Mysterious oil spill in the Atlantic Ocean threatens marine biodiversity and local people in Brazil. Marine Pollution Bulletin, 153, 1 - 3. https: // doi. org / 10.1016 / j. marpolbul. 2020.110961" type="journal article" year="2020">Magris &amp; Giarrizzo 2020: 3</bibRefCitation>
+</treatmentCitation>
+.
+</treatmentCitationGroup>
+</paragraph>
+</subSubSection>
+<subSubSection pageId="51" pageNumber="52" type="materials_examined">
+<paragraph blockId="51.[151,1437,150,2042]" pageId="51" pageNumber="52">
+<emphasis bold="true" box="[151,379,150,176]" pageId="51" pageNumber="52">Material examined</emphasis>
+(2 specs, 
+<quantity box="[496,619,151,177]" metricMagnitude="-2" metricUnit="m" metricValue="7.35" metricValueMax="9.8" metricValueMin="4.9" pageId="51" pageNumber="52" unit="mm" value="73.5" valueMax="98.0" valueMin="49.0">49–98 mm</quantity>
+<collectionCode box="[627,649,151,177]" country="Chile" name="Departamento de Geologia, Universidad de Chile" pageId="51" pageNumber="52">R</collectionCode>
+). 
+<materialsCitation ID-GBIF-Occurrence="3080394343" collectingDate="1994-06-04" collectionCode="R" collectorName="de Areia" country="Brazil" latitude="-13.033334" location="Ponta de Areia" longLatPrecision="1291" longitude="-38.616665" municipality="Itaparica Island" pageId="51" pageNumber="52" specimenCount="1" stateProvince="Bahia">
+<collectingCountry box="[670,774,151,177]" name="Brazil" pageId="51" pageNumber="52">BRAZIL</collectingCountry>
+, 
+<collectingRegion box="[787,852,151,177]" country="Brazil" name="Bahia" pageId="51" pageNumber="52">Bahia</collectingRegion>
+(12°52’– 
+<geoCoordinate box="[964,1056,150,177]" degrees="13" direction="south" minutes="02" orientation="latitude" pageId="51" pageNumber="52" precision="925" value="-13.033334">13°02’S</geoCoordinate>
+; 38°40’– 
+<geoCoordinate box="[1155,1253,151,178]" degrees="38" direction="west" minutes="37" orientation="longitude" pageId="51" pageNumber="52" precision="925" value="-38.616665">38°37’W</geoCoordinate>
+)— 
+<collectingMunicipality pageId="51" pageNumber="52">Itaparica Island</collectingMunicipality>
+, 
+<location LSID="urn:lsid:plazi:treatment:FF6987EEFF9FFFE2FF54416D7E32FE91:721F6023FF9EFFE7FF1647AF7D08FF20" box="[213,378,187,213]" country="Brazil" latitude="-13.033334" longLatPrecision="1291" longitude="-38.616665" municipality="Itaparica Island" name="Ponta de Areia" pageId="51" pageNumber="52" stateProvince="Bahia">
+Ponta 
+<collectorName box="[284,378,187,213]" pageId="51" pageNumber="52">de Areia</collectorName>
+</location>
+beach, 
+<date box="[465,573,187,213]" pageId="51" pageNumber="52" value="1994-06-04">
+<collectingDate box="[465,573,187,213]" pageId="51" pageNumber="52" value="1994-06-04">4.vi.1994</collectingDate>
+</date>
+, 1 spm 
+<collectionCode box="[659,678,187,213]" country="Chile" name="Departamento de Geologia, Universidad de Chile" pageId="51" pageNumber="52">R</collectionCode>
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3080394312" collectingDate="1997-05-22" collectionCode="R" country="Brazil" elevation="16" location="Santos bay" municipality="Todos" pageId="51" pageNumber="52" specimenCode="UFBA 468" specimenCount="1">
+<quantity box="[685,764,187,213]" metricMagnitude="-2" metricUnit="m" metricValue="4.9" pageId="51" pageNumber="52" unit="mm" value="49.0">49 mm</quantity>
+(
+<specimenCode box="[778,906,187,214]" collectionCode="UFBA" pageId="51" pageNumber="52">UFBA 468</specimenCode>
+). 
+<collectingMunicipality box="[925,993,187,213]" pageId="51" pageNumber="52">Todos</collectingMunicipality>
+os 
+<location LSID="urn:lsid:plazi:treatment:FF6987EEFF9FFFE2FF54416D7E32FE91:721F6023FF9EFFE7FBCB47AF78F1FF20" box="[1032,1155,187,213]" country="Brazil" municipality="Todos" name="Santos bay" pageId="51" pageNumber="52">Santos bay</location>
+, 
+<quantity box="[1166,1225,187,213]" metricMagnitude="1" metricUnit="m" metricValue="1.6" pageId="51" pageNumber="52" unit="m" value="16.0">
+<elevation box="[1166,1225,187,213]" metricMagnitude="1" metricUnit="m" metricValue="1.6" pageId="51" pageNumber="52" unit="m" value="16.0">16 m</elevation>
+</quantity>
+, 
+<date box="[1237,1350,187,213]" pageId="51" pageNumber="52" value="1997-05-22">
+<collectingDate box="[1237,1350,187,213]" pageId="51" pageNumber="52" value="1997-05-22">22.v.1997</collectingDate>
+</date>
+, 1 spm, 
+<collectionCode box="[151,170,223,249]" country="Chile" name="Departamento de Geologia, Universidad de Chile" pageId="51" pageNumber="52">R</collectionCode>
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3080394375" box="[177,406,222,249]" collectionCode="UFBA" country="Brazil" pageId="51" pageNumber="52" specimenCode="UFBA 367" specimenCount="1">
+<quantity box="[177,256,222,249]" metricMagnitude="-2" metricUnit="m" metricValue="9.8" pageId="51" pageNumber="52" unit="mm" value="98.0">98 mm</quantity>
+(
+<specimenCode box="[270,398,222,249]" collectionCode="UFBA" pageId="51" pageNumber="52">UFBA 367</specimenCode>
+)
+</materialsCitation>
+.
+</paragraph>
+<paragraph blockId="51.[151,1437,150,2042]" pageId="51" pageNumber="52">
+<emphasis bold="true" box="[199,474,258,284]" pageId="51" pageNumber="52">Comparative material.</emphasis>
+<materialsCitation ID-GBIF-Occurrence="3080394360" collectingDate="2014-10-23" collectionCode="R" collectorName="Enseada dos Portugueses" country="Brazil" elevation="13" latitude="-20.497862" location="Trindade Island" longLatPrecision="1" longitude="-29.321001" pageId="51" pageNumber="52" specimenCount="1" stateProvince="Espirito Santo">
+<collectingCountry box="[482,587,258,284]" name="Brazil" pageId="51" pageNumber="52">BRAZIL</collectingCountry>
+. 
+<collectingRegion box="[600,765,258,284]" country="Brazil" name="Espirito Santo" pageId="51" pageNumber="52">Espírito Santo</collectingRegion>
+: 
+<location LSID="urn:lsid:plazi:treatment:FF6987EEFF9FFFE2FF54416D7E32FE91:721F6023FF9EFFE7FCCA46167FCCFEE9" box="[777,958,258,284]" country="Brazil" latitude="-20.497862" longLatPrecision="1" longitude="-29.321001" name="Trindade Island" pageId="51" pageNumber="52" stateProvince="Espirito Santo">Trindade Island</location>
+, 
+<collectorName box="[971,1256,258,285]" pageId="51" pageNumber="52">Enseada dos Portugueses</collectorName>
+(
+<geoCoordinate box="[1274,1432,258,285]" degrees="20" direction="south" minutes="29" orientation="latitude" pageId="51" pageNumber="52" precision="1" seconds="52.3" value="-20.497862">20°29’52.3”S</geoCoordinate>
+; 
+<geoCoordinate box="[151,319,294,321]" degrees="29" direction="west" minutes="19" orientation="longitude" pageId="51" pageNumber="52" precision="1" seconds="15.6" value="-29.321001">29°19’15.6”W</geoCoordinate>
+), 
+<quantity box="[342,426,294,321]" metricMagnitude="1" metricUnit="m" metricValue="1.25" pageId="51" pageNumber="52" unit="m" value="12.5">
+<elevation box="[342,426,294,321]" metricMagnitude="1" metricUnit="m" metricValue="1.25" pageId="51" pageNumber="52" unit="m" value="12.5">12.5 m</elevation>
+</quantity>
+, 
+<date box="[441,555,294,320]" pageId="51" pageNumber="52" value="2014-10-23">
+<collectingDate box="[441,555,294,320]" pageId="51" pageNumber="52" value="2014-10-23">23.x.2014</collectingDate>
+</date>
+, 
+<specimenCount box="[570,646,294,320]" pageId="51" pageNumber="52" type="generic">1 spec</specimenCount>
+, 
+<collectionCode box="[661,680,294,320]" country="Chile" name="Departamento de Geologia, Universidad de Chile" pageId="51" pageNumber="52">R</collectionCode>
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3080394435" box="[690,1330,294,321]" collectingDate="2015-07-06" collectionCode="R" country="Brazil" elevation="13" pageId="51" pageNumber="52" specimenCode="MZUSP 1611" specimenCount="1" stateProvince="Espirito Santo">
+<quantity box="[690,787,294,320]" metricMagnitude="-1" metricUnit="m" metricValue="1.0" pageId="51" pageNumber="52" unit="mm" value="100.0">100 mm</quantity>
+(
+<specimenCode box="[804,967,294,321]" collectionCode="MZUSP" country="Brazil" httpUri="http://grbio.org/cool/6yx0-3nm7" name="Museu de Zoologia da Universidade de Sao Paulo" pageId="51" pageNumber="52">MZUSP 1611</specimenCode>
+); 
+<quantity box="[991,1074,294,320]" metricMagnitude="1" metricUnit="m" metricValue="1.26" pageId="51" pageNumber="52" unit="m" value="12.6">
+<elevation box="[991,1074,294,320]" metricMagnitude="1" metricUnit="m" metricValue="1.26" pageId="51" pageNumber="52" unit="m" value="12.6">12.6 m</elevation>
+</quantity>
+, 
+<date box="[1089,1205,294,321]" pageId="51" pageNumber="52" value="2015-07-06">
+<collectingDate box="[1089,1205,294,321]" pageId="51" pageNumber="52" value="2015-07-06">6.vii.2015</collectingDate>
+</date>
+, 
+<specimenCount box="[1220,1296,294,320]" pageId="51" pageNumber="52" type="generic">1 spec</specimenCount>
+, 
+<collectionCode box="[1311,1330,294,320]" country="Chile" name="Departamento de Geologia, Universidad de Chile" pageId="51" pageNumber="52">R</collectionCode>
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3080394338" collectionCode="MZUSP" country="Brazil" pageId="51" pageNumber="52" specimenCode="MZUSP 1612" specimenCount="1" stateProvince="Espirito Santo">
+<quantity box="[1340,1437,294,321]" metricMagnitude="-1" metricUnit="m" metricValue="1.05" pageId="51" pageNumber="52" unit="mm" value="105.0">105 mm</quantity>
+(
+<specimenCode box="[159,319,329,356]" collectionCode="MZUSP" country="Brazil" httpUri="http://grbio.org/cool/6yx0-3nm7" name="Museu de Zoologia da Universidade de Sao Paulo" pageId="51" pageNumber="52">MZUSP 1612</specimenCode>
+)
+</materialsCitation>
+. 
+<materialsCitation ID-GBIF-Occurrence="3080394405" box="[337,1152,329,356]" collectionCode="R" country="Brazil" latitude="-23.95" location="Sao Paulo" longLatPrecision="1253" longitude="-46.333332" pageId="51" pageNumber="52" specimenCount="1" stateProvince="Sao Paulo">
+<collectingRegion box="[337,449,329,356]" country="Brazil" name="Sao Paulo" pageId="51" pageNumber="52">São Paulo</collectingRegion>
+(23º47’– 
+<geoCoordinate box="[556,645,329,356]" degrees="23" direction="south" minutes="57" orientation="latitude" pageId="51" pageNumber="52" precision="925" value="-23.95">23º57’S</geoCoordinate>
+; 45º23’– 
+<geoCoordinate box="[741,842,329,356]" degrees="46" direction="west" minutes="20" orientation="longitude" pageId="51" pageNumber="52" precision="925" value="-46.333332">46º20’W</geoCoordinate>
+)—São Sebastião, 
+<specimenCount box="[1050,1122,330,356]" pageId="51" pageNumber="52" type="generic">1 spec</specimenCount>
+, 
+<collectionCode box="[1133,1152,330,356]" country="Chile" name="Departamento de Geologia, Universidad de Chile" pageId="51" pageNumber="52">R</collectionCode>
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3080394336" collectingDate="1999-06-01" collectionCode="R" collectorName="Santos" country="Brazil" elevation="76" pageId="51" pageNumber="52" specimenCode="MZUSP 1956" specimenCount="1" stateProvince="Sao Paulo">
+<quantity box="[1158,1250,329,356]" metricMagnitude="-1" metricUnit="m" metricValue="1.25" pageId="51" pageNumber="52" unit="mm" value="125.0">125 mm</quantity>
+(
+<specimenCode box="[1263,1423,329,356]" collectionCode="MZUSP" country="Brazil" httpUri="http://grbio.org/cool/6yx0-3nm7" name="Museu de Zoologia da Universidade de Sao Paulo" pageId="51" pageNumber="52">MZUSP 1956</specimenCode>
+); 
+<collectorName box="[151,228,365,391]" pageId="51" pageNumber="52">Santos</collectorName>
+, 
+<quantity box="[240,299,365,392]" metricMagnitude="1" metricUnit="m" metricValue="7.6" pageId="51" pageNumber="52" unit="m" value="76.0">
+<elevation box="[240,299,365,392]" metricMagnitude="1" metricUnit="m" metricValue="7.6" pageId="51" pageNumber="52" unit="m" value="76.0">76 m</elevation>
+</quantity>
+, 
+<date box="[311,419,365,391]" pageId="51" pageNumber="52" value="1999-06-01">
+<collectingDate box="[311,419,365,391]" pageId="51" pageNumber="52" value="1999-06-01">1.vi.1999</collectingDate>
+</date>
+, 2 specs, 
+<collectionCode box="[526,545,366,392]" country="Chile" name="Departamento de Geologia, Universidad de Chile" pageId="51" pageNumber="52">R</collectionCode>
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3080394389" box="[552,884,365,392]" collectionCode="MZUSP" country="Brazil" pageId="51" pageNumber="52" specimenCode="MZUSP 1617" specimenCount="1" stateProvince="Sao Paulo">
+<quantity box="[552,701,365,392]" metricMagnitude="-1" metricUnit="m" metricValue="1.35" metricValueMax="1.4" metricValueMin="1.3" pageId="51" pageNumber="52" unit="mm" value="135.0" valueMax="140.0" valueMin="130.0">130–140 mm</quantity>
+(
+<specimenCode box="[715,876,365,392]" collectionCode="MZUSP" country="Brazil" httpUri="http://grbio.org/cool/6yx0-3nm7" name="Museu de Zoologia da Universidade de Sao Paulo" pageId="51" pageNumber="52">MZUSP 1617</specimenCode>
+)
+</materialsCitation>
+.
+</paragraph>
+</subSubSection>
+<subSubSection pageId="51" pageNumber="52" type="description">
+<paragraph blockId="51.[151,1437,150,2042]" pageId="51" pageNumber="52">
+<emphasis bold="true" box="[199,482,401,427]" pageId="51" pageNumber="52">
+Description (R 
+<quantity box="[383,469,401,427]" metricMagnitude="-2" metricUnit="m" metricValue="9.8" pageId="51" pageNumber="52" unit="mm" value="98.0">98 mm</quantity>
+).
+</emphasis>
+Body stellate, disc inflated; R/r 1.7 (
+<figureCitation box="[904,1042,401,427]" captionStart="FIGURE 28" captionStartId="52.[151,250,1908,1932]" captionTargetBox="[163,1425,181,1884]" captionTargetId="figure-25@52.[163,1425,181,1884]" captionTargetPageId="52" captionText="FIGURE 28. Oreaster reticulatus (Linnaeus, 1758). (A, B) Specimen in situ (not collected: photo credit: Cláudio Sampaio). Specimen (R 49 mm) (UFBA 468): (C) abactinal and (D) actinal view of body. Adult specimen apprehended by the Brazilian Institute of the Environment and Renewable Natural Resources (IBAMA) (not deposited in a scientific collection because of lack of information): (E) abactinal and (F) actinal view of body. Scale bars: C–D, 20 mm; E–F, 30 mm." figureDoi="http://doi.org/10.5281/zenodo.4691146" httpUri="https://zenodo.org/record/4691146/files/figure.png" pageId="51" pageNumber="52">Fig. 28A–B</figureCitation>
+). Five short arms, distally tapering (
+<figureCitation box="[160,294,437,463]" captionStart="FIGURE 28" captionStartId="52.[151,250,1908,1932]" captionTargetBox="[163,1425,181,1884]" captionTargetId="figure-25@52.[163,1425,181,1884]" captionTargetPageId="52" captionText="FIGURE 28. Oreaster reticulatus (Linnaeus, 1758). (A, B) Specimen in situ (not collected: photo credit: Cláudio Sampaio). Specimen (R 49 mm) (UFBA 468): (C) abactinal and (D) actinal view of body. Adult specimen apprehended by the Brazilian Institute of the Environment and Renewable Natural Resources (IBAMA) (not deposited in a scientific collection because of lack of information): (E) abactinal and (F) actinal view of body. Scale bars: C–D, 20 mm; E–F, 30 mm." figureDoi="http://doi.org/10.5281/zenodo.4691146" httpUri="https://zenodo.org/record/4691146/files/figure.png" pageId="51" pageNumber="52">Fig. 28E–F</figureCitation>
+). Abactinal plates reticulate, connected by elongated and narrow secondary plates. Abactinal region with granules, large papular pores, and robust tubercles and spines with blunt tips. Madreporite small, subcircular, covered with shallow gyres. Superomarginal plates large, covered by granules and with a tubercle or a short, robust spine. Inferomarginal plates large, confined to actinal surface, covered by granules and with a tubercle; distal plates with a short and robust spine. Actinal surface with tumid plates covered by granules. Interradial actinal area large. Adambulacral plate with 5–6 unequal spines, spines on extremities smallest. One robust subambulacral spine. Oral plates with five pairs of robust, prismatic spines; inner pair shorter and wider than others. Tube feet in two rows, sucking disc with many perforated plates. Bivalve pedicellariae on both surfaces, more numerous in actinal region, never in alveoli.
+</paragraph>
+<paragraph blockId="51.[151,1437,150,2042]" pageId="51" pageNumber="52">
+<emphasis bold="true" box="[199,609,758,784]" pageId="51" pageNumber="52">
+Ontogenetic variation (R 
+<quantity box="[510,597,758,784]" metricMagnitude="-2" metricUnit="m" metricValue="4.9" pageId="51" pageNumber="52" unit="mm" value="49.0">49 mm</quantity>
+).
+</emphasis>
+R/r 1.9 (
+<figureCitation box="[716,856,758,784]" captionStart="FIGURE 28" captionStartId="52.[151,250,1908,1932]" captionTargetBox="[163,1425,181,1884]" captionTargetId="figure-25@52.[163,1425,181,1884]" captionTargetPageId="52" captionText="FIGURE 28. Oreaster reticulatus (Linnaeus, 1758). (A, B) Specimen in situ (not collected: photo credit: Cláudio Sampaio). Specimen (R 49 mm) (UFBA 468): (C) abactinal and (D) actinal view of body. Adult specimen apprehended by the Brazilian Institute of the Environment and Renewable Natural Resources (IBAMA) (not deposited in a scientific collection because of lack of information): (E) abactinal and (F) actinal view of body. Scale bars: C–D, 20 mm; E–F, 30 mm." figureDoi="http://doi.org/10.5281/zenodo.4691146" httpUri="https://zenodo.org/record/4691146/files/figure.png" pageId="51" pageNumber="52">Fig. 28C–D</figureCitation>
+). Some of the abactinal primary plates form an elevated circle from which five rays radiate towards tip of arm (
+<figureCitation box="[845,948,794,820]" captionStart="FIGURE 28" captionStartId="52.[151,250,1908,1932]" captionTargetBox="[163,1425,181,1884]" captionTargetId="figure-25@52.[163,1425,181,1884]" captionTargetPageId="52" captionText="FIGURE 28. Oreaster reticulatus (Linnaeus, 1758). (A, B) Specimen in situ (not collected: photo credit: Cláudio Sampaio). Specimen (R 49 mm) (UFBA 468): (C) abactinal and (D) actinal view of body. Adult specimen apprehended by the Brazilian Institute of the Environment and Renewable Natural Resources (IBAMA) (not deposited in a scientific collection because of lack of information): (E) abactinal and (F) actinal view of body. Scale bars: C–D, 20 mm; E–F, 30 mm." figureDoi="http://doi.org/10.5281/zenodo.4691146" httpUri="https://zenodo.org/record/4691146/files/figure.png" pageId="51" pageNumber="52">Fig. 28C</figureCitation>
+); this pattern was not observed in the larger specimen. Also, the small specimen has five unequal adambulacral spines (
+<figureCitation box="[993,1097,830,856]" captionStart="FIGURE 29" captionStartId="53.[151,250,1269,1293]" captionTargetBox="[151,1436,453,1246]" captionTargetId="figure-158@53.[151,1436,453,1246]" captionTargetPageId="53" captionText="FIGURE 29. Oreaster reticulatus (Linnaeus, 1758). (A) Adult specimen being sold as a souvenir by fisherman in Salvador, Bahia in October 2020 (photo credit: Wagner Magalhães). Specimen (R 49 mm) (UFBA 468): (B–C) abactinal region with granules, papular pores and pedicellaria (black arrow); (D) madreporite; (E) bivalve pedicellaria; (F) superomarginal spine; (G) actinal plates with granules; (H) ambulacral spines; (I) oral region. Scale bars: B–D, F–H, 1 mm; E, 500 μm; I, 2 mm." figureDoi="http://doi.org/10.5281/zenodo.4691148" httpUri="https://zenodo.org/record/4691148/files/figure.png" pageId="51" pageNumber="52">Fig. 29H</figureCitation>
+), being the proximal spine the smallest, and the third and fourth spines the largest, and the inner pair of spines in the oral plate is longer than the adjacent spines (
+<figureCitation box="[338,432,901,927]" captionStart="FIGURE 29" captionStartId="53.[151,250,1269,1293]" captionTargetBox="[151,1436,453,1246]" captionTargetId="figure-158@53.[151,1436,453,1246]" captionTargetPageId="53" captionText="FIGURE 29. Oreaster reticulatus (Linnaeus, 1758). (A) Adult specimen being sold as a souvenir by fisherman in Salvador, Bahia in October 2020 (photo credit: Wagner Magalhães). Specimen (R 49 mm) (UFBA 468): (B–C) abactinal region with granules, papular pores and pedicellaria (black arrow); (D) madreporite; (E) bivalve pedicellaria; (F) superomarginal spine; (G) actinal plates with granules; (H) ambulacral spines; (I) oral region. Scale bars: B–D, F–H, 1 mm; E, 500 μm; I, 2 mm." figureDoi="http://doi.org/10.5281/zenodo.4691148" httpUri="https://zenodo.org/record/4691148/files/figure.png" pageId="51" pageNumber="52">Fig. 29I</figureCitation>
+). Finally, the small specimen has fewer abactinal spines than the largest specimen, which are mostly confined to arms and interradial region (vs. throughout abactinal region), and fewer pedicellariae in the actinal region (
+<figureCitation box="[320,421,973,999]" captionStart="FIGURE 29" captionStartId="53.[151,250,1269,1293]" captionTargetBox="[151,1436,453,1246]" captionTargetId="figure-158@53.[151,1436,453,1246]" captionTargetPageId="53" captionText="FIGURE 29. Oreaster reticulatus (Linnaeus, 1758). (A) Adult specimen being sold as a souvenir by fisherman in Salvador, Bahia in October 2020 (photo credit: Wagner Magalhães). Specimen (R 49 mm) (UFBA 468): (B–C) abactinal region with granules, papular pores and pedicellaria (black arrow); (D) madreporite; (E) bivalve pedicellaria; (F) superomarginal spine; (G) actinal plates with granules; (H) ambulacral spines; (I) oral region. Scale bars: B–D, F–H, 1 mm; E, 500 μm; I, 2 mm." figureDoi="http://doi.org/10.5281/zenodo.4691148" httpUri="https://zenodo.org/record/4691148/files/figure.png" pageId="51" pageNumber="52">Fig. 29E</figureCitation>
+).
+</paragraph>
+<paragraph blockId="51.[151,1437,150,2042]" pageId="51" pageNumber="52">
+<emphasis bold="true" box="[199,335,1008,1034]" pageId="51" pageNumber="52">Coloration.</emphasis>
+Specimens 
+<emphasis box="[474,552,1009,1034]" italics="true" pageId="51" pageNumber="52">in vivo</emphasis>
+have beige to orange abactinal surface, beige to yellowish actinal region and sometimes red spots in the margins. Specimens in ethanol are beige to light brown.
+</paragraph>
+</subSubSection>
+<subSubSection lastPageId="53" lastPageNumber="54" pageId="51" pageNumber="52" type="distribution">
+<paragraph blockId="51.[151,1437,150,2042]" pageId="51" pageNumber="52">
+<emphasis bold="true" box="[199,353,1080,1106]" pageId="51" pageNumber="52">Distribution.</emphasis>
+<collectingCountry box="[362,439,1080,1106]" name="United States of America" pageId="51" pageNumber="52">U.S.A.</collectingCountry>
+(NC, FL), Gulf of 
+<collectingCountry box="[668,756,1080,1106]" name="Mexico" pageId="51" pageNumber="52">Mexico</collectingCountry>
+, 
+<collectingCountry box="[771,859,1080,1106]" name="Mexico" pageId="51" pageNumber="52">Mexico</collectingCountry>
+, The 
+<collectingCountry box="[926,1084,1080,1106]" name="Bahamas" pageId="51" pageNumber="52">The Bahamas</collectingCountry>
+, Caribbean Sea, 
+<collectingCountry box="[1282,1344,1080,1106]" name="Cuba" pageId="51" pageNumber="52">Cuba</collectingCountry>
+, 
+<collectingCountry box="[1358,1432,1080,1106]" name="Belize" pageId="51" pageNumber="52">Belize</collectingCountry>
+, 
+<collectingCountry box="[151,210,1116,1142]" name="Haiti" pageId="51" pageNumber="52">Haiti</collectingCountry>
+, 
+<collectingCountry box="[223,460,1116,1142]" name="Dominican Republic" pageId="51" pageNumber="52">Dominican Republic</collectingCountry>
+, 
+<collectingCountry box="[472,610,1116,1142]" name="Puerto Rico" pageId="51" pageNumber="52">Puerto Rico</collectingCountry>
+, 
+<collectingCountry box="[623,747,1116,1142]" name="Guatemala" pageId="51" pageNumber="52">Guatemala</collectingCountry>
+, 
+<collectingCountry box="[759,871,1116,1142]" name="Honduras" pageId="51" pageNumber="52">Honduras</collectingCountry>
+, 
+<collectingCountry box="[884,1002,1116,1142]" name="Nicaragua" pageId="51" pageNumber="52">Nicaragua</collectingCountry>
+, 
+<collectingCountry box="[1014,1141,1116,1142]" name="Costa Rica" pageId="51" pageNumber="52">Costa Rica</collectingCountry>
+, 
+<collectingCountry box="[1154,1246,1116,1142]" name="Panama" pageId="51" pageNumber="52">Panama</collectingCountry>
+, 
+<collectingCountry box="[1258,1371,1116,1142]" name="Colombia" pageId="51" pageNumber="52">Colombia</collectingCountry>
+, 
+<collectingCountry name="Venezuela" pageId="51" pageNumber="52">Venezuela</collectingCountry>
+, 
+<collectingCountry box="[236,326,1152,1178]" name="Guyana" pageId="51" pageNumber="52">Guyana</collectingCountry>
+, 
+<collectingCountry box="[337,435,1151,1177]" name="Suriname" pageId="51" pageNumber="52">Surinam</collectingCountry>
+, Canary Islands, 
+<collectingCountry box="[627,755,1151,1178]" name="Cape Verde" pageId="51" pageNumber="52">Cape Verde</collectingCountry>
+(
+<bibRefCitation author="Verrill, A. E." box="[770,909,1151,1178]" pageId="51" pageNumber="52" pagination="1 - 232" refId="ref64807" refString="Verrill, A. E. (1915) Report on the Starfishes of the West Indies, Florida, and Brazil, Including Those Obtained by the Bahama Expedition from the University of Iowa in 1893. Bulletin of the State of University of Iowa, 7, 1 - 232, 29 pls. https: // doi. org / 10.5962 / bhl. title. 12035" type="journal article" year="1915">Verrill 1915</bibRefCitation>
+; 
+<bibRefCitation author="Caso, M. E." box="[921,1049,1152,1178]" pageId="51" pageNumber="52" pagination="237 - 257" refId="ref52122" refString="Caso, M. E. (1944) Estudio sobre asteridos de Mexico. Algunas especies interesantes de asteridos litorales. Anales del Instituto de Biologia Universidad Nacional Autonoma de Mexico, 15, 237 - 257." type="journal article" year="1944">Caso, 1944</bibRefCitation>
+; 
+<bibRefCitation author="Ummels, F." box="[1061,1222,1151,1177]" pageId="51" pageNumber="52" pagination="72 - 101" refId="ref63781" refString="Ummels, F. (1963) Asteroids from the Netherlands Antilles and other Carribbean localities (Oreasteridae, Ophidiasteridae, Asterinidae and Luidiidae). Studies on the Fauna of Curacao and Other Caribbean Islands, 15, 72 - 101, 3 figs., 9 pls." type="journal article" year="1963">Ummels 1963</bibRefCitation>
+; 
+<bibRefCitation author="Walenkamp" box="[1233,1431,1151,1177]" pageId="51" pageNumber="52" pagination="1 - 91" refId="ref65071" refString="Walenkamp. J. H. C. (1976) The asteroids of the coastal waters of Surinam. Zoologische Verhandelingen, 147, 1 - 91, 18 pls." type="journal article" year="1976">Walenkamp 1976</bibRefCitation>
+; 
+<bibRefCitation author="Clark, A. M. &amp; Downey, M. E." box="[151,417,1187,1214]" pageId="51" pageNumber="52" refId="ref52515" refString="Clark, A. M. &amp; Downey, M. E. (1992) Starfishes of the Atlantic. Chapman and Hall, London, 794 pp. https: // doi. org / 10.5860 / choice. 30 - 2659" type="book" year="1992">Clark &amp; Downey 1992</bibRefCitation>
+; 
+<bibRefCitation author="Hendler, G. &amp; Muller, J. E. &amp; Pawson, D. L. &amp; Kier, P. M." box="[430,656,1187,1214]" pageId="51" pageNumber="52" refId="ref56324" refString="Hendler, G., Muller, J. E., Pawson, D. L. &amp; Kier, P. M. (1995) Sea Stars, Sea Urchins and Allies: Echinoderms of Florida and the Caribbean. Smithsonian Institution Press, Washington, 390 pp." type="book" year="1995">
+Hendler 
+<emphasis box="[530,581,1187,1213]" italics="true" pageId="51" pageNumber="52">et al</emphasis>
+. 1995
+</bibRefCitation>
+; 
+<bibRefCitation author="Guzman, H. M. &amp; Guevara, C. A." box="[670,969,1188,1214]" pageId="51" pageNumber="52" pagination="1077 - 1084" refId="ref56151" refString="Guzman, H. M. &amp; Guevara, C. A. (2002) Annual reproductive cycle, spatial distribution, abundance, and size structure of Oreast- er reticulatus (Echinodermata: Asteroidea) in Bocas del Toro, Panama. Marine Biology, 141, 1077 - 1084. https: // doi. org / 10.1007 / s 00227 - 002 - 0898 - 2" type="journal article" year="2002">Guzman &amp; Guevara 2002</bibRefCitation>
+; 
+<bibRefCitation author="Entrambasaguas, L." box="[982,1234,1187,1214]" pageId="51" pageNumber="52" refId="ref54384" refString="Entrambasaguas, L. (2008) Estudio fauniistico y ecoloigico de los equinodermos del archipieilago de Cabo Verde. Tesis doctoral no publicada, Universidad de Murcia, Murcia, 315 pp." type="book" year="2008">Entrambasaguas 2008</bibRefCitation>
+; Hernandéz 
+<emphasis box="[1378,1429,1187,1213]" italics="true" pageId="51" pageNumber="52">et al</emphasis>
+. 2013; 
+<bibRefCitation author="Alvarado, J. J. &amp; Chacon-Monge, J. L. &amp; Solis-Marin, F. A. &amp; Pineda-Enriquez, T. &amp; Caballero-Ochoa, A. A. &amp; Rivera, S. S. &amp; Chaves, R. R." box="[222,460,1223,1250]" pageId="51" pageNumber="52" pagination="1" refId="ref49286" refString="Alvarado, J. J., Chacon-Monge, J. L., Solis-Marin, F. A., Pineda-Enriquez, T., Caballero-Ochoa, A. A., Rivera, S. S. &amp; Chaves, R. R. (2017) Equinodermos del Museo de Zoologia de la Universidad de Costa Rica. Revista de Biologia Tropical, Universidad de Costa Rica, 65 (1), S 272 - S 287. https: // doi. org / 10.15517 / rbt. v 65 i 1 - 1.31695" type="journal article" year="2017">
+Alvarado 
+<emphasis box="[335,385,1223,1249]" italics="true" pageId="51" pageNumber="52">et al</emphasis>
+. 2017
+</bibRefCitation>
+; 
+<bibRefCitation author="Sandino, O. B. &amp; Solis-Marin, F. A. &amp; Caballero-Ochoa, A. A. &amp; Conejeros-Vargas, C. A. &amp; Marquez-Borras, F. &amp; Ayala-Aguilera, A. P. &amp; Laguarda-Figueras, A." box="[473,698,1223,1250]" pageId="51" pageNumber="52" pagination="288 - 298" refId="ref62033" refString="Sandino, O. B., Solis-Marin, F. A., Caballero-Ochoa, A. A., Conejeros-Vargas, C. A., Marquez-Borras, F., Ayala-Aguilera, A. P. &amp; Laguarda-Figueras, A. (2017) Equinodermos de Nicaragua: nuevos registros del Pacifico y Caribe Sur. Revista de Biologia Tropical, 65, 288 - 298. https: // doi. org / 10.15517 / rbt. v 65 i 1 - 1.31696" type="journal article" year="2017">
+Sandino 
+<emphasis box="[573,624,1223,1249]" italics="true" pageId="51" pageNumber="52">et al</emphasis>
+. 2017
+</bibRefCitation>
+; Borrero-Peìrez 
+<emphasis box="[886,937,1223,1249]" italics="true" pageId="51" pageNumber="52">et al</emphasis>
+. 2019; 
+<bibRefCitation author="Mah, C. L." box="[1024,1158,1223,1250]" pageId="51" pageNumber="52" refId="ref58185" refString="Mah, C. L. (2020 a) World Asteroidea Database. Available from: http: // www. marinespecies. org / asteroidea / (accessed 30 April 2020)" type="url" year="2020">Mah 2020a</bibRefCitation>
+). 
+<collectingCountry box="[1177,1283,1224,1250]" name="Brazil" pageId="51" pageNumber="52">BRAZIL</collectingCountry>
+: 
+<collectingRegion box="[1293,1377,1224,1250]" country="Brazil" name="Amapa" pageId="51" pageNumber="52">Amapá</collectingRegion>
+, 
+<collectingRegion country="Brazil" name="Maranhao" pageId="51" pageNumber="52">Maranhão</collectingRegion>
+, 
+<collectingRegion box="[243,311,1260,1286]" country="Brazil" name="Ceara" pageId="51" pageNumber="52">Ceará</collectingRegion>
+, 
+<collectingRegion box="[323,410,1259,1285]" country="Brazil" name="Paraiba" pageId="51" pageNumber="52">Paraíba</collectingRegion>
+, 
+<collectingRegion box="[422,565,1259,1285]" country="Brazil" name="Pernambuco" pageId="51" pageNumber="52">Pernambuco</collectingRegion>
+, 
+<collectingRegion box="[576,671,1259,1285]" country="Brazil" name="Alagoas" pageId="51" pageNumber="52">Alagoas</collectingRegion>
+, 
+<collectingRegion box="[683,751,1259,1285]" country="Brazil" name="Bahia" pageId="51" pageNumber="52">Bahia</collectingRegion>
+, Trindade Island, 
+<collectingRegion box="[955,1123,1259,1285]" country="Brazil" name="Rio de Janeiro" pageId="51" pageNumber="52">Rio de Janeiro</collectingRegion>
+, 
+<collectingRegion box="[1135,1252,1259,1286]" country="Brazil" name="Sao Paulo" pageId="51" pageNumber="52">São Paulo</collectingRegion>
+, Santa Catarina, 
+<collectingRegion box="[151,361,1295,1321]" country="Brazil" name="Rio Grande do Sul" pageId="51" pageNumber="52">Rio Grande do Sul</collectingRegion>
+(
+<bibRefCitation author="Rathbun, R." box="[377,540,1295,1322]" pageId="51" pageNumber="52" pagination="139 - 158" refId="ref61517" refString="Rathbun, R. (1879) A list of the Brazilian echinoderms, with notes on their distribution. Transactions of the Connecticut Academy of Arts and Sciences, 5 (3), 139 - 158. https: // doi. org / 10.5962 / bhl. title. 16126" type="journal article" year="1879">Rathbun 1879</bibRefCitation>
+; 
+<bibRefCitation author="Verrill, A. E." box="[552,690,1295,1322]" pageId="51" pageNumber="52" pagination="1 - 232" refId="ref64807" refString="Verrill, A. E. (1915) Report on the Starfishes of the West Indies, Florida, and Brazil, Including Those Obtained by the Bahama Expedition from the University of Iowa in 1893. Bulletin of the State of University of Iowa, 7, 1 - 232, 29 pls. https: // doi. org / 10.5962 / bhl. title. 12035" type="journal article" year="1915">Verrill 1915</bibRefCitation>
+; 
+<bibRefCitation author="Tommasi, L. R." box="[701,872,1295,1322]" pageId="51" pageNumber="52" pagination="1 - 27" refId="ref63273" refString="Tommasi, L. R. (1958) Os equinodermos do litoral de Sao Paulo. II. Diadematidae, Schizasteridae, Brissidae, Cidaroidea (Echinoidea) e Asteroidea do Bentos Costeiro. Contribuicoes avulsas do Instituto Oceanografico, 2, 1 - 27, 6 pls." type="journal article" year="1958">Tommasi 1958</bibRefCitation>
+, 
+<bibRefCitation author="Tommasi, L. R." box="[883,942,1296,1322]" pageId="51" pageNumber="52" pagination="1 - 61" refId="ref63359" refString="Tommasi, L. R. (1970) Lista dos asteroides recentes do Brasil. Contribuicoes Avulsas do Instituto Oceanografico, Universidade de Sao Paulo, 18, 1 - 61, 38 pls." type="journal article" year="1970">1970</bibRefCitation>
+; 
+<bibRefCitation author="Brito, I. M." box="[954,1078,1295,1321]" pageId="51" pageNumber="52" pagination="1 - 13" refId="ref51138" refString="Brito, I. M. (1960) Asteroides dos estados do Rio de Janeiro e de Sao Paulo. Universidade do Brasil, Faculdade Nacional de Filosofia, Centro de Estudos Zoologicos, 5, 1 - 13." type="journal article" year="1960">Brito 1960</bibRefCitation>
+, 
+<bibRefCitation author="Brito, I. M." box="[1090,1149,1295,1321]" pageId="51" pageNumber="52" pagination="1 - 10" refId="ref51179" refString="Brito, I. M. (1962) Ensaio de catailogo dos equinodermas do Brasil. Universidade do Brasil, Faculdade Nacional de Filosofia, Centro de Estudos Zooloigicos, 13, 1 - 10." type="journal article" year="1962">1962</bibRefCitation>
+, 
+<bibRefCitation author="Brito, I. M." box="[1160,1219,1295,1321]" pageId="51" pageNumber="52" pagination="1 - 51" refId="ref51216" refString="Brito, I. M. (1968) Asteroiides e equinoiides do Estado da Guanabara e adjace ˆ ncias. Boletim do Museu Nacional, 260, 1 - 51." type="journal article" year="1968">1968</bibRefCitation>
+; 
+<bibRefCitation author="Lima-Verde, J. S." box="[1231,1431,1295,1321]" pageId="51" pageNumber="52" pagination="9 - 13" refId="ref57515" refString="Lima-Verde, J. S. (1969) Primeira contribuicao ao inventario dos equinodermas do Nordeste brasileiro. Arquivos de Ciencias do Mar, 9 (1), 9 - 13." type="journal article" year="1969">Lima-Verde 1969</bibRefCitation>
+; 
+<bibRefCitation author="Walenkamp" box="[151,349,1331,1357]" pageId="51" pageNumber="52" pagination="1 - 91" refId="ref65071" refString="Walenkamp. J. H. C. (1976) The asteroids of the coastal waters of Surinam. Zoologische Verhandelingen, 147, 1 - 91, 18 pls." type="journal article" year="1976">Walenkamp 1976</bibRefCitation>
+; 
+<bibRefCitation author="Fernandes, M. L. B. &amp; Tommasi, L. R. &amp; Lima, E. J. B." box="[360,601,1331,1358]" pageId="51" pageNumber="52" refId="ref54572" refString="Fernandes, M. L. B., Tommasi, L. R. &amp; Lima, E. J. B. (2002) Filo Echinodermata de Pernambuco. In: Tabarelli, M. &amp; Silva, J. M. C. (Eds.), Diagnostico da Biodiversidade de Pernambuco. Vol. 2. Massangana, Recife, pp. 405 - 427." type="book" year="2002">
+Fernandes 
+<emphasis box="[480,535,1331,1357]" italics="true" pageId="51" pageNumber="52">et al.</emphasis>
+2002
+</bibRefCitation>
+; 
+<bibRefCitation author="Magalhaes, W. F. &amp; Martins, L. R. &amp; Alves, O. F. S." box="[610,857,1331,1358]" pageId="51" pageNumber="52" pagination="61 - 65" refId="ref57949" refString="Magalhaes, W. F., Martins, L. R. &amp; Alves, O. F. S. (2005) Inventario dos Echinodermata do estado da Bahia. Brazilian Journal of Aquatic Science and Technology, 9 (1), 61 - 65. https: // doi. org / 10.14210 / bjast. v 9 n 1. p 61 - 65" type="journal article" year="2005">
+Magalhães 
+<emphasis box="[737,792,1331,1357]" italics="true" pageId="51" pageNumber="52">et al.</emphasis>
+2005
+</bibRefCitation>
+; 
+<bibRefCitation author="Ventura, C. R. R. &amp; Verissimo, I. &amp; Nobre, C. C. &amp; Zama, P. C." box="[867,1079,1331,1358]" pageId="51" pageNumber="52" pagination="258" refId="ref63988" refString="Ventura, C. R. R., Verissimo, I., Nobre, C. C. &amp; Zama, P. C. (2007) Filo Echinodermata. In: Lavrado, H. P. &amp; Viana, M. S. (Eds.), Atlas de invertebrados marinhos da regiao central da Zona Economica Exclusiva brasileira. Parte 1. Museu Nacional do Rio de Janeiro, Serie Livros 25. Museu Nacional do Rio de Janeiro, Rio de Janeiro, pp. 258." type="book chapter" year="2007">
+Ventura 
+<emphasis box="[960,1008,1331,1357]" italics="true" pageId="51" pageNumber="52">et al</emphasis>
+. 2007
+</bibRefCitation>
+; Magris &amp; Deìstro 2010; 
+<bibRefCitation author="Xavier, L. A. R." pageId="51" pageNumber="52" pagination="73 - 78" refId="ref65413" refString="Xavier, L. A. R. (2010) Inventario dos equinodermos do Estado de Santa Catarina, Brasil. Brazilian Journal of Aquatic Science and Technology, 14, 73 - 78. https: // doi. org / 10.14210 / bjast. v 14 n 2. p 73 - 78" type="journal article" year="2010">Xavier 2010</bibRefCitation>
+; 
+<bibRefCitation author="Miranda, A. L. S. &amp; Lima, M. L. F. &amp; Sovierzoski, H. H. &amp; Correia, M. D." box="[223,450,1367,1394]" pageId="51" pageNumber="52" pagination="135 - 146" refId="ref59386" refString="Miranda, A. L. S., Lima, M. L. F., Sovierzoski, H. H. &amp; Correia, M. D. (2012) Inventory of the Echinodermata collection from the Universidade Federal de Alagoas. Biota Neotropica, 12 (2), 135 - 146. https: // doi. org / 10.1590 / S 1676 - 06032012000200014" type="journal article" year="2012">
+Miranda 
+<emphasis box="[326,376,1367,1393]" italics="true" pageId="51" pageNumber="52">et al</emphasis>
+. 2012
+</bibRefCitation>
+; 
+<bibRefCitation author="Gondim, A. &amp; Christoffersen, M. &amp; Dias, T." box="[462,686,1367,1394]" pageId="51" pageNumber="52" pagination="1 - 56" refId="ref55654" refString="Gondim, A., Christoffersen, M. &amp; Dias, T. (2014) Taxonomic guide and historical review of starfishes in northeastern Brazil (Echinodermata, Asteroidea). ZooKeys, 449, 1 - 56. https: // doi. org / 10.3897 / zookeys. 449.6813" type="journal article" year="2014">
+Gondim 
+<emphasis box="[562,612,1367,1393]" italics="true" pageId="51" pageNumber="52">et al</emphasis>
+. 2014
+</bibRefCitation>
+; 
+<bibRefCitation author="Souto, C. &amp; Martins, L." box="[698,955,1367,1394]" pageId="51" pageNumber="52" refId="ref62639" refString="Souto, C. &amp; Martins, L. (2017) Os equinodermos. In: Nunes, J. M. C. &amp; Matos, M. R. B. (Eds.), Litoral Norte da Bahia: caracterizacao ambiental, biodiversidade e conservacao. Vol. 1. EDUFBA, Salvador, pp. 303 - 315." type="book" year="2017">Souto &amp; Martins 2017</bibRefCitation>
+; 
+<bibRefCitation author="Agostini, V. O. &amp; Ozorio, C. P." box="[966,1245,1367,1394]" pageId="51" pageNumber="52" pagination="26 - 48" refId="ref48996" refString="Agostini, V. O. &amp; Ozorio, C. P. (2018) Caracterizacao da macrofauna de substratos consolidados do Litoral Norte do Rio Grande do Sul, Brasil. Arquivos de Ciencias do Mar, 51 (1), 26 - 48. https: // doi. org / 10.32360 / acmar. v 51 i 1.31293" type="journal article" year="2018">Agostini &amp; Ozorio 2018</bibRefCitation>
+; 
+<bibRefCitation author="Torres, V. S. &amp; Torres, F. S. S." pageId="51" pageNumber="52" pagination="408 - 422" refId="ref63583" refString="Torres, V. S. &amp; Torres, F. S. S. (2019) Inventario preliminar dos invertebrados marinhos observados na praia da Pinheira, Palhoca, SC, Brasil. UNISANTA Bioscience, 8 (4), 408 - 422." type="journal article" year="2019">Torres &amp; Torres 2019</bibRefCitation>
+; 
+<bibRefCitation author="Cunha, R. &amp; Tavares, M. &amp; Mendonca, J. B." box="[222,426,1403,1430]" pageId="51" pageNumber="52" pagination="31 - 56" refId="ref53334" refString="Cunha, R., Tavares, M. &amp; Mendonca, J. B. (2020) Asteroidea (Echinodermata) from shallow-waters of the remote oceanic archipelago Trindade and Martin Vaz, southeastern Atlantic, with taxonomic and zoogeographical notes. Zootaxa, 4742 (1), 31 - 56. https: // doi. org / 10.11646 / zootaxa. 4742.1.2" type="journal article" year="2020">
+<collectingCountry box="[222,295,1403,1429]" name="Saint Helena, Ascension and Tristan da Cunha" pageId="51" pageNumber="52">Cunha</collectingCountry>
+<emphasis box="[302,358,1403,1429]" italics="true" pageId="51" pageNumber="52">et al.</emphasis>
+2020
+</bibRefCitation>
+). 
+<emphasis bold="true" box="[444,525,1404,1430]" pageId="51" pageNumber="52">Depth.</emphasis>
+<quantity box="[531,616,1403,1430]" metricMagnitude="1" metricUnit="m" metricValue="3.8" metricValueMax="7.6" metricValueMin="0.0" pageId="51" pageNumber="52" unit="m" value="38.0" valueMax="76.0" valueMin="0.0">0–76 m</quantity>
+(
+<bibRefCitation author="Clark, A. M. &amp; Downey, M. E." box="[631,891,1403,1430]" pageId="51" pageNumber="52" refId="ref52515" refString="Clark, A. M. &amp; Downey, M. E. (1992) Starfishes of the Atlantic. Chapman and Hall, London, 794 pp. https: // doi. org / 10.5860 / choice. 30 - 2659" type="book" year="1992">Clark &amp; Downey 1992</bibRefCitation>
+; 
+<bibRefCitation author="Cunha, R. &amp; Tavares, M. &amp; Mendonca, J. B." box="[903,1107,1403,1430]" pageId="51" pageNumber="52" pagination="31 - 56" refId="ref53334" refString="Cunha, R., Tavares, M. &amp; Mendonca, J. B. (2020) Asteroidea (Echinodermata) from shallow-waters of the remote oceanic archipelago Trindade and Martin Vaz, southeastern Atlantic, with taxonomic and zoogeographical notes. Zootaxa, 4742 (1), 31 - 56. https: // doi. org / 10.11646 / zootaxa. 4742.1.2" type="journal article" year="2020">
+<collectingCountry box="[903,976,1403,1429]" name="Saint Helena, Ascension and Tristan da Cunha" pageId="51" pageNumber="52">Cunha</collectingCountry>
+<emphasis box="[983,1040,1403,1429]" italics="true" pageId="51" pageNumber="52">et al.</emphasis>
+2020
+</bibRefCitation>
+).
+</paragraph>
+<paragraph blockId="51.[151,1437,150,2042]" pageId="51" pageNumber="52">
+<emphasis bold="true" box="[199,397,1439,1466]" pageId="51" pageNumber="52">Biological notes.</emphasis>
+In Bahia, this species is found in protected, shallow waters, often in sandy bottoms with coarse sediment (
+<bibRefCitation author="Manso, C. L. C. &amp; Alves, O. F. S. &amp; Martins, L. R." box="[346,555,1475,1502]" pageId="51" pageNumber="52" pagination="179 - 196" refId="ref58661" refString="Manso, C. L. C., Alves, O. F. S. &amp; Martins, L. R. (2008) Echinodermata da Baia de Todos os Santos e da Baia de Aratu (Bahia, Brasil). Biota Neotropica, 8 (3), 179 - 196. https: // doi. org / 10.1590 / S 1676 - 06032008000300017" type="journal article" year="2008">
+Manso 
+<emphasis box="[431,488,1475,1501]" italics="true" pageId="51" pageNumber="52">et al.</emphasis>
+2008
+</bibRefCitation>
+). 
+<taxonomicName baseAuthorityName="Linnaeus" baseAuthorityYear="1758" box="[574,799,1475,1502]" class="Asteroidea" family="Oreasteridae" genus="Oreaster" kingdom="Animalia" order="Valvatida" pageId="51" pageNumber="52" phylum="Echinodermata" rank="species" species="reticulatus">
+<emphasis box="[574,799,1475,1502]" italics="true" pageId="51" pageNumber="52">Oreaster reticulatus</emphasis>
+</taxonomicName>
+used to be abundant in shallow waters (intertidal up to 
+<quantity metricMagnitude="0" metricUnit="m" metricValue="5.0" pageId="51" pageNumber="52" unit="m" value="5.0">5 m</quantity>
+), but locals have reported population declines over the last 40 years; currently, this species is rare and found only in deeper regions. In addition to habitat degradation, especially because of urbanization, this population is affected by human exploitation, as 
+<taxonomicName baseAuthorityName="Linnaeus" baseAuthorityYear="1758" box="[449,603,1583,1610]" class="Asteroidea" family="Oreasteridae" genus="Oreaster" kingdom="Animalia" order="Valvatida" pageId="51" pageNumber="52" phylum="Echinodermata" rank="species" species="reticulatus">
+<emphasis box="[449,603,1583,1610]" italics="true" pageId="51" pageNumber="52">O. reticulatus</emphasis>
+</taxonomicName>
+is commonly sold as souvenirs in tourist shops throughout the country. In 
+<date box="[151,337,1619,1646]" pageId="51" pageNumber="52" value="2008-11">November 2008</date>
+, for example, the Brazilian Institute of the Environment and Renewable Natural Resources (IB- AMA) brought in 15– 
+<specimenCount box="[396,550,1655,1682]" pageId="51" pageNumber="52" type="generic">20 specimens</specimenCount>
+(
+<figureCitation box="[564,700,1655,1682]" captionStart="FIGURE 28" captionStartId="52.[151,250,1908,1932]" captionTargetBox="[163,1425,181,1884]" captionTargetId="figure-25@52.[163,1425,181,1884]" captionTargetPageId="52" captionText="FIGURE 28. Oreaster reticulatus (Linnaeus, 1758). (A, B) Specimen in situ (not collected: photo credit: Cláudio Sampaio). Specimen (R 49 mm) (UFBA 468): (C) abactinal and (D) actinal view of body. Adult specimen apprehended by the Brazilian Institute of the Environment and Renewable Natural Resources (IBAMA) (not deposited in a scientific collection because of lack of information): (E) abactinal and (F) actinal view of body. Scale bars: C–D, 20 mm; E–F, 30 mm." figureDoi="http://doi.org/10.5281/zenodo.4691146" httpUri="https://zenodo.org/record/4691146/files/figure.png" pageId="51" pageNumber="52">Fig. 28 E–F</figureCitation>
+) of 
+<taxonomicName baseAuthorityName="Linnaeus" baseAuthorityYear="1758" box="[745,898,1655,1682]" class="Asteroidea" family="Oreasteridae" genus="Oreaster" kingdom="Animalia" order="Valvatida" pageId="51" pageNumber="52" phylum="Echinodermata" rank="species" species="reticulatus">
+<emphasis box="[745,898,1655,1682]" italics="true" pageId="51" pageNumber="52">O. reticulatus</emphasis>
+</taxonomicName>
+that they apprehended, to be identified (unpubl. data). 
+<bibRefCitation author="Pinheiro, F. C. F. &amp; Pinheiro, H. C. &amp; Costa, T. J. &amp; Teixeira, J. B. &amp; Gasparini, J. L. &amp; Joyeux, J. C. &amp; Martins, A. S." box="[223,470,1691,1718]" pageId="51" pageNumber="52" pagination="78 - 81" refId="ref61157" refString="Pinheiro, F. C. F., Pinheiro, H. C., Costa, T. J. F, Teixeira, J. B., Gasparini, J. L., Joyeux, J. C. &amp; Martins, A. S. (2018) Harvest of endangered marine invertebrates in a priority area for conservation in Brazil. Nature Conservation Research, 3 (4), 78 - 81. https: // doi. org / 10.24189 / ncr. 2018.050" type="journal article" year="2018">
+Pinheiro 
+<emphasis box="[328,379,1691,1717]" italics="true" pageId="51" pageNumber="52">et al</emphasis>
+. (2018)
+</bibRefCitation>
+reported the intense harvesting of 
+<taxonomicName baseAuthorityName="Linnaeus" baseAuthorityYear="1758" box="[873,1028,1691,1718]" class="Asteroidea" family="Oreasteridae" genus="Oreaster" kingdom="Animalia" order="Valvatida" pageId="51" pageNumber="52" phylum="Echinodermata" rank="species" species="reticulatus">
+<emphasis box="[873,1028,1691,1718]" italics="true" pageId="51" pageNumber="52">O. reticulatus</emphasis>
+</taxonomicName>
+in Espírito Santo, Bahia’s southern neighboring state, with commercial purposes. According to them, specimens are sold by fishermen for 
+<collectingCountry box="[1322,1359,1729,1756]" name="United States of America" pageId="51" pageNumber="52">US</collectingCountry>
+$ 0.50. In Salvador, Bahia, illegally collected specimens have been sold at beaches for 
+<collectingCountry box="[1035,1072,1765,1792]" name="United States of America" pageId="51" pageNumber="52">US</collectingCountry>
+$ 21 (ca. R$120,00) (data from a fisherman interviewed in 
+<date box="[438,595,1799,1826]" pageId="51" pageNumber="52" value="2020-10">October 2020</date>
+; 
+<figureCitation box="[606,710,1799,1826]" captionStart="FIGURE 29" captionStartId="53.[151,250,1269,1293]" captionTargetBox="[151,1436,453,1246]" captionTargetId="figure-158@53.[151,1436,453,1246]" captionTargetPageId="53" captionText="FIGURE 29. Oreaster reticulatus (Linnaeus, 1758). (A) Adult specimen being sold as a souvenir by fisherman in Salvador, Bahia in October 2020 (photo credit: Wagner Magalhães). Specimen (R 49 mm) (UFBA 468): (B–C) abactinal region with granules, papular pores and pedicellaria (black arrow); (D) madreporite; (E) bivalve pedicellaria; (F) superomarginal spine; (G) actinal plates with granules; (H) ambulacral spines; (I) oral region. Scale bars: B–D, F–H, 1 mm; E, 500 μm; I, 2 mm." figureDoi="http://doi.org/10.5281/zenodo.4691148" httpUri="https://zenodo.org/record/4691148/files/figure.png" pageId="51" pageNumber="52">Fig. 29A</figureCitation>
+).
+</paragraph>
+<paragraph blockId="51.[151,1437,150,2042]" pageId="51" pageNumber="52">
+This species is also used in religious rituals (
+<bibRefCitation author="Alves, R. N. &amp; Dias, T. L. P." box="[693,912,1835,1862]" pageId="51" pageNumber="52" pagination="159 - 174" refId="ref49512" refString="Alves, R. N. &amp; Dias, T. L. P. (2010) Uso de invertebrados na medicina popular no Brasil e suas implicacoes para conservacao. Tropical Conservation Science, 3 (2), 159 - 174. https: // doi. org / 10.1177 / 194008291000300204" type="journal article" year="2010">Alves &amp; Dias 2010</bibRefCitation>
+; 
+<bibRefCitation author="Souto, C. &amp; Martins, L." box="[922,1175,1835,1862]" pageId="51" pageNumber="52" refId="ref62639" refString="Souto, C. &amp; Martins, L. (2017) Os equinodermos. In: Nunes, J. M. C. &amp; Matos, M. R. B. (Eds.), Litoral Norte da Bahia: caracterizacao ambiental, biodiversidade e conservacao. Vol. 1. EDUFBA, Salvador, pp. 303 - 315." type="book" year="2017">Souto &amp; Martins 2017</bibRefCitation>
+), in ornamental aquaria (
+<bibRefCitation author="Martins, L. &amp; Souto, C. &amp; Magalhaes, W. F. &amp; Alves, O. F. S. &amp; Rosa, I. L. &amp; Sampaio, C. L. S." box="[159,380,1871,1898]" pageId="51" pageNumber="52" pagination="53 - 59" refId="ref58862" refString="Martins, L., Souto, C., Magalhaes, W. F., Alves, O. F. S., Rosa, I. L. &amp; Sampaio, C. L. S. (2012) Echinoderm harvesting in Todosos-Santos Bay, Bahia State, Brazil: the aquarium trade. Sitientibus serie Ciencias Biologicas, 12 (1), 53 - 59. https: // doi. org / 10.13102 / scb 123" type="journal article" year="2012">
+Martins 
+<emphasis box="[256,307,1871,1897]" italics="true" pageId="51" pageNumber="52">et al</emphasis>
+. 2012
+</bibRefCitation>
+) and as medicine to treat asthma, cold and tiredness (
+<bibRefCitation author="Alves, R. R. N. &amp; Rosa, I. L." box="[992,1221,1871,1898]" pageId="51" pageNumber="52" pagination="1 - 9" refId="ref49623" refString="Alves, R. R. N. &amp; Rosa, I. L. (2007) Biodiversity, traditional medicine and public health: where do they meet? Journal of Ethnobiology and Ethnomedicine, 3, 1 - 9. https: // doi. org / 10.1186 / 1746 - 4269 - 3 - 14" type="journal article" year="2007">Alves &amp; Rosa 2007</bibRefCitation>
+; 
+<bibRefCitation author="Alves, R. N. &amp; Neto, N. L. &amp; Brooks, S. E. &amp; Albuquerque, U. P." box="[1233,1431,1871,1898]" pageId="51" pageNumber="52" pagination="600 - 608" refId="ref49443" refString="Alves, R. N., Neto, N. L., Brooks, S. E. &amp; Albuquerque, U. P. (2009) Commercialization of animal-derived remedies as complementary medicine in the semi-arid region of Northeastern Brazil. Journal of Ethnopharmacology, 124, 600 - 608. https: // doi. org / 10.1016 / j. jep. 2009.04.049" type="journal article" year="2009">
+Alves 
+<emphasis box="[1307,1357,1871,1897]" italics="true" pageId="51" pageNumber="52">et al</emphasis>
+. 2009
+</bibRefCitation>
+; 
+<bibRefCitation author="Alves, R. N. &amp; Dias, T. L. P." box="[151,377,1907,1934]" pageId="51" pageNumber="52" pagination="159 - 174" refId="ref49512" refString="Alves, R. N. &amp; Dias, T. L. P. (2010) Uso de invertebrados na medicina popular no Brasil e suas implicacoes para conservacao. Tropical Conservation Science, 3 (2), 159 - 174. https: // doi. org / 10.1177 / 194008291000300204" type="journal article" year="2010">Alves &amp; Dias 2010</bibRefCitation>
+; 
+<bibRefCitation author="Alves R. R. &amp; Alves H. N." box="[388,625,1907,1934]" pageId="51" pageNumber="52" pagination="1746 - 4269" refId="ref49567" refString="Alves R. R. &amp; Alves H. N. (2011) The faunal drugstore: animal-based remedies used in traditional medicines in Latin America. Journal of Ethnobiology and Ethnomedicine, 10, 1746 - 4269. https: // doi. org / 10.1186 / 1746 - 4269 - 7 - 9" type="journal article" year="2011">Alves &amp; Alves 2011</bibRefCitation>
+; 
+<bibRefCitation author="Lima, R. J. P." box="[639,768,1907,1934]" pageId="51" pageNumber="52" refId="ref57467" refString="Lima, R. J. P. (2018) Uso de Zooterapicos na Zona Rural do Municipio de Jacana, Semiarido Potiguar. Unpublished Honors Thesis, Instituto Federal de Educacao, Ciencia e Tecnologia da Paraiba, Joao Pessoa, Paraiba, 34 pp." type="book" year="2018">
+<collectingRegion box="[639,698,1907,1933]" country="Peru" name="Lima" pageId="51" pageNumber="52">Lima</collectingRegion>
+2018
+</bibRefCitation>
+). However, the impact of these activities on 
+<taxonomicName baseAuthorityName="Linnaeus" baseAuthorityYear="1758" box="[1281,1437,1907,1934]" class="Asteroidea" family="Oreasteridae" genus="Oreaster" kingdom="Animalia" order="Valvatida" pageId="51" pageNumber="52" phylum="Echinodermata" rank="species" species="reticulatus">
+<emphasis box="[1281,1437,1907,1934]" italics="true" pageId="51" pageNumber="52">O. reticulatus</emphasis>
+</taxonomicName>
+populations has not been studied and it is assumed to be low if compared to the commercial harvesting of this species. 
+<bibRefCitation author="Franco, O. P. &amp; Patino, G. S. &amp; Ortiz, A. A." box="[208,430,1979,2006]" pageId="51" pageNumber="52" pagination="329 - 337" refId="ref55282" refString="Franco, O. P., Patino, G. S. &amp; Ortiz, A. A. (2015) Actividad antibacteriana y antifungica de la estrella de mar Oreaster reticulatus (Valvatida: Oreasteridae) y de los erizos de mar Mellita quinquiesperforata (Clypeasteroida: Mellitidae) y Diadema antillarum (Diadematoida: Diadematidae) del Caribe Colombiano. Revista de Biologia Tropical, 63, 329 - 337." type="journal article" year="2015">
+Franco 
+<emphasis box="[293,342,1979,2005]" italics="true" pageId="51" pageNumber="52">et al</emphasis>
+. (2015)
+</bibRefCitation>
+reported that extracts of 
+<taxonomicName baseAuthorityName="Linnaeus" baseAuthorityYear="1758" box="[709,862,1979,2006]" class="Asteroidea" family="Oreasteridae" genus="Oreaster" kingdom="Animalia" order="Valvatida" pageId="51" pageNumber="52" phylum="Echinodermata" rank="species" species="reticulatus">
+<emphasis box="[709,862,1979,2006]" italics="true" pageId="51" pageNumber="52">O. reticulatus</emphasis>
+</taxonomicName>
+contain compounds capable of inhibiting the activity of the bacteria 
+<taxonomicName box="[355,611,2015,2041]" class="Bacilli" family="Staphylococcaceae" genus="Staphylococcus" kingdom="Bacteria" order="Bacillales" pageId="51" pageNumber="52" phylum="Firmicutes" rank="species" species="aureus">
+<emphasis box="[355,611,2015,2041]" italics="true" pageId="51" pageNumber="52">Staphylococcus aureus</emphasis>
+</taxonomicName>
+at low concentrations.
+</paragraph>
+<caption ID-DOI="http://doi.org/10.5281/zenodo.4691146" ID-Zenodo-Dep="4691146" httpUri="https://zenodo.org/record/4691146/files/figure.png" pageId="52" pageNumber="53" startId="52.[151,250,1908,1932]" targetBox="[163,1425,181,1884]" targetPageId="52">
+<paragraph blockId="52.[151,1437,1908,2041]" pageId="52" pageNumber="53">
+<emphasis bold="true" box="[151,289,1908,1933]" pageId="52" pageNumber="53">FIGURE 28.</emphasis>
+<taxonomicName authority="(Linnaeus, 1758)" baseAuthorityName="Linnaeus" baseAuthorityYear="1758" box="[297,687,1909,1933]" class="Asteroidea" family="Oreasteridae" genus="Oreaster" kingdom="Animalia" order="Valvatida" pageId="52" pageNumber="53" phylum="Echinodermata" rank="species" species="reticulatus">
+<emphasis box="[297,501,1909,1933]" italics="true" pageId="52" pageNumber="53">Oreaster reticulatus</emphasis>
+(
+<bibRefCitation author="Linnaeus, C." box="[516,680,1909,1933]" pageId="52" pageNumber="53" refId="ref57549" refString="Linnaeus, C. (1758) Systema Naturae. Impensis Direct, Laurentii Salvii, Holmiae, 824 pp." type="book" year="1758">Linnaeus, 1758</bibRefCitation>
+)
+</taxonomicName>
+. (A, B) Specimen 
+<emphasis box="[880,944,1909,1932]" italics="true" pageId="52" pageNumber="53">in situ</emphasis>
+(not collected: photo credit: Cláudio Sampaio). Specimen (R 49 mm) (UFBA 468): (C) abactinal and (D) actinal view of body. Adult specimen apprehended by the Brazilian Institute of the Environment and Renewable Natural Resources (IBAMA) (not deposited in a scientific collection because of lack of information): (E) abactinal and (F) actinal view of body. Scale bars: C–D, 20 mm; E–F, 30 mm.
+</paragraph>
+</caption>
+<paragraph blockId="53.[151,1437,151,429]" pageId="53" pageNumber="54">
+<taxonomicName baseAuthorityName="Linnaeus" baseAuthorityYear="1758" box="[199,427,151,177]" class="Asteroidea" family="Oreasteridae" genus="Oreaster" kingdom="Animalia" order="Valvatida" pageId="53" pageNumber="54" phylum="Echinodermata" rank="species" species="reticulatus">
+<emphasis box="[199,427,151,177]" italics="true" pageId="53" pageNumber="54">Oreaster reticulatus</emphasis>
+</taxonomicName>
+is classified as “Vulnerable” (baseline data indicates that the population size has been reduced by at least 30% as a result of habitat degradation, exploitation and/or introduction of invasive species) by the Ministry of the Environment (
+<bibRefCitation author="MMA &amp; Ministerio do Meio Ambiente" box="[542,692,223,249]" pageId="53" pageNumber="54" refId="ref59554" refString="MMA (Ministerio do Meio Ambiente) (2018) Livro Vermelho da Fauna Brasileira Ameacada de Extincao: Invertebrados. IC- MBio / MMA, Brasilia, 727 pp." type="book" year="2018">MMA, 2018</bibRefCitation>
+). This assessment was performed before the devastating oil spill recorded in the Brazilian coast in 2019, which may have a strong impact in the coastal populations of 
+<taxonomicName authority="(Magris &amp; Giarrizzo 2020)" baseAuthorityName="Magris &amp; Giarrizzo" baseAuthorityYear="2020" class="Asteroidea" family="Oreasteridae" genus="Oreaster" kingdom="Animalia" order="Valvatida" pageId="53" pageNumber="54" phylum="Echinodermata" rank="species" species="reticulatus">
+<emphasis box="[1284,1436,259,285]" italics="true" pageId="53" pageNumber="54">O. reticulatus</emphasis>
+(
+<bibRefCitation author="Magris, R. &amp; Giarrizzo, T." box="[159,453,295,321]" pageId="53" pageNumber="54" pagination="1 - 3" refId="ref58081" refString="Magris, R. A &amp; Giarrizzo, T. (2020) Mysterious oil spill in the Atlantic Ocean threatens marine biodiversity and local people in Brazil. Marine Pollution Bulletin, 153, 1 - 3. https: // doi. org / 10.1016 / j. marpolbul. 2020.110961" type="journal article" year="2020">Magris &amp; Giarrizzo 2020</bibRefCitation>
+)
+</taxonomicName>
+. According to 
+<bibRefCitation author="Gurjao, L. M. &amp; Lotufo, T. M. C." box="[630,908,295,321]" pageId="53" pageNumber="54" pagination="20170387" refId="ref56095" refString="Gurjao, L. M. &amp; Lotufo, T. M. C. (2018) Native species exploited by marine aquarium trade in Brazil. Biota Neotropica, 18 (3), e 20170387. https: // doi. org / 10.1590 / 1676 - 0611 - bn- 2017 - 0387" type="journal article" year="2018">Gurjão &amp; Lotufo (2018)</bibRefCitation>
+, the harvesting of this species in 
+<collectingCountry box="[1288,1356,295,321]" name="Brazil" pageId="53" pageNumber="54">Brazil</collectingCountry>
+is currently prohibited. Using models, 
+<bibRefCitation author="Patrizzi, N. &amp; Dobrovolski, R." box="[522,865,331,357]" pageId="53" pageNumber="54" pagination="177 - 188" refId="ref60302" refString="Patrizzi, N. &amp; Dobrovolski, R. (2018) Integrating climate change and human impacts into marine spatial planning: a case study of threatened starfish species in Brazil. Ocean &amp; Coastal Management, 161, 177 - 188. https: // doi. org / 10.1016 / j. ocecoaman. 2018.05.003" type="journal article" year="2018">Patrizzi &amp; Dobrovolski (2018)</bibRefCitation>
+predicted that the habitable range of 
+<taxonomicName baseAuthorityName="Magris &amp; Giarrizzo" baseAuthorityYear="2020" box="[1283,1437,331,357]" class="Asteroidea" family="Oreasteridae" genus="Oreaster" kingdom="Animalia" order="Valvatida" pageId="53" pageNumber="54" phylum="Echinodermata" rank="species" species="reticulatus">
+<emphasis box="[1283,1437,331,357]" italics="true" pageId="53" pageNumber="54">O. reticulatus</emphasis>
+</taxonomicName>
+may have a 7–16-fold expansion under higher atmospheric CO 
+<subScript attach="left" box="[856,864,385,399]" fontSize="6" pageId="53" pageNumber="54">2</subScript>
+concentrations. The effect of this expansion on the local communities is unknown, but it is likely to cause negative trophic impact (
+<bibRefCitation author="Kordas, R. L. &amp; Harley, C. D. G. &amp; O'Connor, M. I." box="[1047,1259,403,429]" pageId="53" pageNumber="54" pagination="218 - 226" refId="ref56904" refString="Kordas, R. L., Harley, C. D. G. &amp; O'Connor, M. I. (2011) Community ecology in warming world: the influence of temperature on interspecific interactions in marine systems. Journal of Experimental Biology and Ecology, 400, 218 - 226. https: // doi. org / 10.1016 / j. jembe. 2011.02.029" type="journal article" year="2011">
+Kordas 
+<emphasis box="[1136,1186,403,429]" italics="true" pageId="53" pageNumber="54">et al</emphasis>
+. 2011
+</bibRefCitation>
+).
+</paragraph>
+</subSubSection>
+<caption ID-DOI="http://doi.org/10.5281/zenodo.4691148" ID-Zenodo-Dep="4691148" httpUri="https://zenodo.org/record/4691148/files/figure.png" pageId="53" pageNumber="54" startId="53.[151,250,1269,1293]" targetBox="[151,1436,453,1246]" targetPageId="53">
+<paragraph blockId="53.[151,1437,1269,1402]" pageId="53" pageNumber="54">
+<emphasis bold="true" box="[151,290,1269,1293]" pageId="53" pageNumber="54">FIGURE 29.</emphasis>
+<taxonomicName authority="(Linnaeus, 1758)" baseAuthorityName="Linnaeus" baseAuthorityYear="1758" box="[298,689,1269,1294]" class="Asteroidea" family="Oreasteridae" genus="Oreaster" kingdom="Animalia" order="Valvatida" pageId="53" pageNumber="54" phylum="Echinodermata" rank="species" species="reticulatus">
+<emphasis box="[298,502,1270,1294]" italics="true" pageId="53" pageNumber="54">Oreaster reticulatus</emphasis>
+(
+<bibRefCitation author="Linnaeus, C." box="[517,681,1269,1294]" pageId="53" pageNumber="54" refId="ref57549" refString="Linnaeus, C. (1758) Systema Naturae. Impensis Direct, Laurentii Salvii, Holmiae, 824 pp." type="book" year="1758">Linnaeus, 1758</bibRefCitation>
+)
+</taxonomicName>
+. (A) Adult specimen being sold as a souvenir by fisherman in Salvador, Bahia in October 2020 (photo credit: Wagner Magalhães). Specimen (R 49 mm) (UFBA 468): (B–C) abactinal region with granules, papular pores and pedicellaria (black arrow); (D) madreporite; (E) bivalve pedicellaria; (F) superomarginal spine; (G) actinal plates with granules; (H) ambulacral spines; (I) oral region. Scale bars: B–D, F–H, 1 mm; E, 500 μm; I, 2 mm.
+</paragraph>
+</caption>
+<subSubSection pageId="53" pageNumber="54" type="materials_examined">
+<paragraph blockId="53.[151,1437,1447,2014]" box="[199,1169,1447,1474]" pageId="53" pageNumber="54">
+<materialsCitation ID-GBIF-Occurrence="3080394319" box="[199,1169,1447,1474]" collectionCode="ZMUC" pageId="53" pageNumber="54" specimenCode="NHMD 76271, AST 104" specimenCount="1" typeStatus="holotype">
+<emphasis bold="true" box="[199,315,1448,1474]" pageId="53" pageNumber="54">
+<typeStatus box="[199,310,1448,1474]" pageId="53" pageNumber="54">Holotype</typeStatus>
+.
+</emphasis>
+<specimenCode box="[322,485,1448,1474]" collectionCode="NHMD" pageId="53" pageNumber="54">NHMD 76271</specimenCode>
+[previously as 
+<collectionCode box="[656,737,1448,1474]" country="Denmark" httpUri="http://grbio.org/cool/mci8-ehqk" name="Zoological Museum, University of Copenhagen" pageId="53" pageNumber="54">ZMUC</collectionCode>
+<specimenCode box="[743,846,1447,1474]" collectionCode="ZMUC" country="Denmark" httpUri="http://grbio.org/cool/mci8-ehqk" name="Zoological Museum, University of Copenhagen" pageId="53" pageNumber="54">AST 104</specimenCode>
+] (Tom Schiøtte, per. comm).
+</materialsCitation>
+</paragraph>
+<paragraph blockId="53.[151,1437,1447,2014]" box="[199,1132,1484,1511]" pageId="53" pageNumber="54">
+<emphasis bold="true" box="[199,358,1484,1510]" pageId="53" pageNumber="54">Type locality.</emphasis>
+East Caribbean (as Spanish West Indies) (Tom Schiøtte, per. comm).
+</paragraph>
+</subSubSection>
+<subSubSection lastPageId="54" lastPageNumber="55" pageId="53" pageNumber="54" type="discussion">
+<paragraph blockId="53.[151,1437,1447,2014]" pageId="53" pageNumber="54">
+<emphasis bold="true" box="[199,315,1520,1546]" pageId="53" pageNumber="54">Remarks.</emphasis>
+The specimens examined here as comparative material (R 
+<quantity box="[1001,1154,1520,1546]" metricMagnitude="-1" metricUnit="m" metricValue="1.2" metricValueMax="1.4" metricValueMin="1.0" pageId="53" pageNumber="54" unit="mm" value="120.0" valueMax="140.0" valueMin="100.0">100–140 mm</quantity>
+) have 5–7 adambulacral spines (vs. five in the specimen from 
+<collectingRegion box="[576,644,1556,1582]" country="Brazil" name="Bahia" pageId="53" pageNumber="54">Bahia</collectingRegion>
+, R 
+<quantity box="[683,764,1556,1582]" metricMagnitude="-2" metricUnit="m" metricValue="4.9" pageId="53" pageNumber="54" unit="mm" value="49.0">49 mm</quantity>
+) and the largest specimens (R 
+<quantity box="[1111,1262,1556,1582]" metricMagnitude="-1" metricUnit="m" metricValue="1.35" metricValueMax="1.4" metricValueMin="1.3" pageId="53" pageNumber="54" unit="mm" value="135.0" valueMax="140.0" valueMin="130.0">130–140 mm</quantity>
+) have two subambulacral spines (vs. one in specimens R 
+<quantity box="[643,783,1592,1619]" metricMagnitude="-2" metricUnit="m" metricValue="7.7" metricValueMax="10.5" metricValueMin="4.9" pageId="53" pageNumber="54" unit="mm" value="77.0" valueMax="105.0" valueMin="49.0">49–105 mm</quantity>
+). 
+<bibRefCitation author="Gondim, A. &amp; Christoffersen, M. &amp; Dias, T." box="[804,1045,1592,1618]" pageId="53" pageNumber="54" pagination="1 - 56" refId="ref55654" refString="Gondim, A., Christoffersen, M. &amp; Dias, T. (2014) Taxonomic guide and historical review of starfishes in northeastern Brazil (Echinodermata, Asteroidea). ZooKeys, 449, 1 - 56. https: // doi. org / 10.3897 / zookeys. 449.6813" type="journal article" year="2014">
+Gondim 
+<emphasis box="[904,954,1592,1618]" italics="true" pageId="53" pageNumber="54">et al</emphasis>
+. (2014)
+</bibRefCitation>
+found 5–6 adambulacral spines in specimens ranging from R 
+<quantity box="[451,587,1628,1655]" metricMagnitude="-2" metricUnit="m" metricValue="9.35" metricValueMax="13.6" metricValueMin="5.1" pageId="53" pageNumber="54" unit="mm" value="93.5" valueMax="136.0" valueMin="51.0">51–136 mm</quantity>
+, but they did not report if the largest specimens had six spines or if there was no trend in this variation. Also, in specimens with R 
+<quantity box="[747,898,1664,1690]" metricMagnitude="-1" metricUnit="m" metricValue="1.2" metricValueMax="1.4" metricValueMin="1.0" pageId="53" pageNumber="54" unit="mm" value="120.0" valueMax="140.0" valueMin="100.0">100–140 mm</quantity>
+, the abactinal and actinal spines are equally developed; however, in the specimen described here, the actinal spines are less developed. Finally, the large specimens do not display the pattern (i.e. elevated circle with rays) observed in the abactinal surface of the small specimen.
+</paragraph>
+<paragraph blockId="53.[151,1437,1447,2014]" pageId="53" pageNumber="54">
+H.L. 
+<bibRefCitation author="Clark, H. L." box="[260,407,1772,1798]" pageId="53" pageNumber="54" pagination="1 - 147" refId="ref52897" refString="Clark, H. L. (1933) A handbook of the littoral echinoderms of Porto Rico and the other West Indian Islands. Scientific Survey of Puerto Rico, 16, 1 - 147." type="journal article" year="1933">Clark (1933)</bibRefCitation>
+noticed that small specimens have a deep olive to green abactinal region and as the size increases, the color changes from yellowish– to deep red. 
+<bibRefCitation author="Downey, M. E." box="[828,1007,1808,1834]" pageId="53" pageNumber="54" pagination="1 - 158" refId="ref54261" refString="Downey, M. E. (1973) Starfishes from the Caribbean and the Gulf of Mexico. Smithsonian Contributions Zoology, 126, 1 - 158. https: // doi. org / 10.5479 / si. 00810282.126" type="journal article" year="1973">Downey (1973)</bibRefCitation>
+described intraspecific variation (i.e. variation in shape, in degrees of inflation of the disc, and in coloration) in specimens ranging between R 
+<quantity box="[1310,1432,1844,1871]" metricMagnitude="-2" metricUnit="m" metricValue="5.3" metricValueMax="9.1" metricValueMin="1.5" pageId="53" pageNumber="54" unit="mm" value="53.0" valueMax="91.0" valueMin="15.0">15–91 mm</quantity>
+, however, she did not specify ontogenetic changes. We observed that the presence and abundance of abactinal pedicellariae vary between specimens, but this variation does not seem to be related to growth. Also, 
+<bibRefCitation author="Downey, M. E." box="[1258,1436,1916,1942]" pageId="53" pageNumber="54" pagination="1 - 158" refId="ref54261" refString="Downey, M. E. (1973) Starfishes from the Caribbean and the Gulf of Mexico. Smithsonian Contributions Zoology, 126, 1 - 158. https: // doi. org / 10.5479 / si. 00810282.126" type="journal article" year="1973">Downey (1973)</bibRefCitation>
+noted that 
+<taxonomicName baseAuthorityName="Linnaeus" baseAuthorityYear="1758" box="[269,422,1952,1978]" class="Asteroidea" family="Oreasteridae" genus="Oreaster" kingdom="Animalia" order="Valvatida" pageId="53" pageNumber="54" phylum="Echinodermata" rank="species" species="reticulatus">
+<emphasis box="[269,422,1952,1978]" italics="true" pageId="53" pageNumber="54">O. reticulatus</emphasis>
+</taxonomicName>
+may have 4–7 arms, but both specimens examined here and the comparative material have five arms.
+</paragraph>
+<paragraph blockId="54.[151,1437,151,250]" pageId="54" pageNumber="55">
+<taxonomicName baseAuthorityName="Linnaeus" baseAuthorityYear="1758" box="[199,425,151,177]" class="Asteroidea" family="Oreasteridae" genus="Oreaster" kingdom="Animalia" order="Valvatida" pageId="54" pageNumber="55" phylum="Echinodermata" rank="species" species="reticulatus">
+<emphasis box="[199,425,151,177]" italics="true" pageId="54" pageNumber="55">Oreaster reticulatus</emphasis>
+</taxonomicName>
+differs from 
+<taxonomicName authorityName="Muller &amp; Troschel" authorityYear="1842" box="[577,705,151,177]" class="Asteroidea" family="Oreasteridae" genus="Oreaster" kingdom="Animalia" order="Valvatida" pageId="54" pageNumber="55" phylum="Echinodermata" rank="species" species="clavatus">
+<emphasis box="[577,705,151,177]" italics="true" pageId="54" pageNumber="55">O. clavatus</emphasis>
+</taxonomicName>
+by having an inflated disc (vs. slightly flattened disc), abactinal plates with tubercles or spines (vs. abactinal plates with granules), and actinal pedicellariae not in alveoli (vs. actinal pedicellariae in alveoli) (
+<bibRefCitation author="Clark, A. M. &amp; Downey, M. E." box="[430,692,223,249]" pageId="54" pageNumber="55" refId="ref52515" refString="Clark, A. M. &amp; Downey, M. E. (1992) Starfishes of the Atlantic. Chapman and Hall, London, 794 pp. https: // doi. org / 10.5860 / choice. 30 - 2659" type="book" year="1992">Clark &amp; Downey 1992</bibRefCitation>
+).
+</paragraph>
+<paragraph blockId="54.[151,576,330,356]" box="[151,576,330,356]" pageId="54" pageNumber="55">
+<emphasis bold="true" box="[151,576,330,356]" pageId="54" pageNumber="55">
+Order 
+<taxonomicName authority="Perrier, 1884" authorityName="Perrier" authorityYear="1884" box="[236,576,330,356]" class="Asteroidea" higherTaxonomySource="GBIF" kingdom="Animalia" order="Forcipulatida" pageId="54" pageNumber="55" phylum="Echinodermata" rank="order">
+Forcipulatida 
+<bibRefCitation author="Perrier, E." box="[414,576,330,356]" pageId="54" pageNumber="55" pagination="127 - 276" refId="ref61004" refString="Perrier, E. (1884) Memoire sur les etoiles de mer recueillies dans la mer des Antilles et le golfe du Mexique: durant les expeditions de dragace faites sous la direction de M. Alexandre Agassiz. Archives Museum National d'histoire Naturelle Paris, 6 (2), 127 - 276. https: // doi. org / 10.5962 / bhl. title. 82184" type="journal article" year="1884">Perrier, 1884</bibRefCitation>
+</taxonomicName>
+</emphasis>
+</paragraph>
+</subSubSection>
+</treatment>
+</document>
