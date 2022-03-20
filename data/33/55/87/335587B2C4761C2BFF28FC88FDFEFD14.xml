@@ -1,0 +1,872 @@
+<document ID-DOI="http://doi.org/10.5281/zenodo.4474375" ID-GBIF-Dataset="1e6b9c6c-c1ae-43ed-8417-70324a727566" ID-GBIF-Taxon="177134029" ID-ISSN="1175-5326" ID-Zenodo-Dep="4474375" ID-ZooBank="3FEF9EA2-B755-4B22-8B6A-FAFC5C0FFCDF" approvalRequired="80" approvalRequired_for_bibRefs="2" approvalRequired_for_illustrations="40" approvalRequired_for_taxonomicNames="30" approvalRequired_for_treatments="8" checkinTime="1611651206508" checkinUser="plazi" docAuthor="Gill, Anthony C., Pogonoski, John J., Moore, Glenn I. &amp; Johnson, Jeffrey W." docDate="2021" docId="335587B2C4761C2BFF28FC88FDFEFD14" docLanguage="en" docName="zootaxa.4918.1.1.pdf" docOrigin="Zootaxa 4918 (1)" docStyle="DocumentStyle:5EBBA59367AD13919D70D935FA04F6A3.9:Zootaxa.2013-.monograph" docStyleId="5EBBA59367AD13919D70D935FA04F6A3" docStyleName="Zootaxa.2013-.monograph" docStyleVersion="9" docTitle="Plectranthias alleni Randall" docType="treatment" docVersion="11" lastPageId="37" lastPageNumber="38" masterDocId="CF6CFFCAC4571C0EFFBFFA70FFE5FFD9" masterDocTitle="Review of Australian species of Plectranthias Bleeker and Selenanthias Tanaka (Teleostei: Serranidae: Anthiadinae), with descriptions of four new species" masterLastPageNumber="116" masterPageNumber="1" pageId="33" pageNumber="34" updateTime="1643981173866" updateUser="ExternalLinkService">
+<mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
+<mods:titleInfo>
+<mods:title>Review of Australian species of Plectranthias Bleeker and Selenanthias Tanaka (Teleostei: Serranidae: Anthiadinae), with descriptions of four new species</mods:title>
+</mods:titleInfo>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Gill, Anthony C.</mods:namePart>
+<mods:nameIdentifier type="ORCID">0000-0002-8990-3657</mods:nameIdentifier>
+<mods:nameIdentifier type="email">anthony.c.gill@sydney.edu.au</mods:nameIdentifier>
+</mods:name>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Pogonoski, John J.</mods:namePart>
+<mods:nameIdentifier type="ORCID">0000-0002-4878-3919</mods:nameIdentifier>
+<mods:nameIdentifier type="email">john.pogonoski@csiro.au</mods:nameIdentifier>
+</mods:name>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Moore, Glenn I.</mods:namePart>
+<mods:nameIdentifier type="ORCID">0000-0003-2413-5260</mods:nameIdentifier>
+<mods:nameIdentifier type="email">moore@museum.wa.gov.au</mods:nameIdentifier>
+</mods:name>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Johnson, Jeffrey W.</mods:namePart>
+<mods:nameIdentifier type="ORCID">0000-0002-8990-3657</mods:nameIdentifier>
+<mods:nameIdentifier type="email">anthony.c.gill@sydney.edu.au</mods:nameIdentifier>
+</mods:name>
+<mods:typeOfResource>text</mods:typeOfResource>
+<mods:relatedItem type="host">
+<mods:titleInfo>
+<mods:title>Zootaxa</mods:title>
+</mods:titleInfo>
+<mods:part>
+<mods:date>2021</mods:date>
+<mods:detail type="pubDate">
+<mods:number>2021-01-26</mods:number>
+</mods:detail>
+<mods:detail type="volume">
+<mods:number>4918</mods:number>
+</mods:detail>
+<mods:detail type="issue">
+<mods:number>1</mods:number>
+</mods:detail>
+<mods:extent unit="page">
+<mods:start>1</mods:start>
+<mods:end>116</mods:end>
+</mods:extent>
+</mods:part>
+</mods:relatedItem>
+<mods:classification>journal article</mods:classification>
+<mods:identifier type="DOI">https://doi.org/10.11646/zootaxa.4918.1.1</mods:identifier>
+<mods:identifier type="GBIF-Dataset">1e6b9c6c-c1ae-43ed-8417-70324a727566</mods:identifier>
+<mods:identifier type="ISSN">1175-5326</mods:identifier>
+<mods:identifier type="Zenodo-Dep">4471922</mods:identifier>
+<mods:identifier type="ZooBank">3FEF9EA2-B755-4B22-8B6A-FAFC5C0FFCDF</mods:identifier>
+</mods:mods>
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.4474375" ID-GBIF-Taxon="177134029" ID-Zenodo-Dep="4474375" LSID="urn:lsid:plazi:treatment:335587B2C4761C2BFF28FC88FDFEFD14" httpUri="http://treatment.plazi.org/id/335587B2C4761C2BFF28FC88FDFEFD14" lastPageId="37" lastPageNumber="38" pageId="33" pageNumber="34">
+<subSubSection box="[151,495,1784,1811]" pageId="33" pageNumber="34" type="nomenclature">
+<paragraph blockId="33.[151,516,1784,1883]" box="[151,495,1784,1811]" pageId="33" pageNumber="34">
+<heading bold="true" box="[151,495,1784,1811]" fontSize="11" level="2" pageId="33" pageNumber="34" reason="4">
+<taxonomicName authority="Randall" authorityName="Randall" box="[151,495,1784,1811]" class="Actinopterygii" family="Serranidae" genus="Plectranthias" kingdom="Animalia" order="Perciformes" pageId="33" pageNumber="34" phylum="Chordata" rank="species" species="alleni">
+<emphasis bold="true" box="[151,495,1784,1811]" pageId="33" pageNumber="34">
+<emphasis bold="true" box="[151,388,1784,1811]" italics="true" pageId="33" pageNumber="34">Plectranthias alleni</emphasis>
+Randall
+</emphasis>
+</taxonomicName>
+</heading>
+</paragraph>
+</subSubSection>
+<subSubSection box="[151,503,1820,1846]" pageId="33" pageNumber="34" type="description">
+<paragraph blockId="33.[151,516,1784,1883]" box="[151,503,1820,1846]" pageId="33" pageNumber="34">
+<figureCitation box="[151,258,1820,1846]" captionStart="FIGURE 2" captionStartId="5.[151,250,1888,1912]" captionTargetBox="[151,1436,885,1865]" captionTargetId="figure-364@5.[151,1436,885,1865]" captionTargetPageId="5" captionText="FIGURE 2. Plectranthias alleni, WAM P.29069-001, 46.4 mm SL, view of right side of head (reversed) showing bone serrations. Specimen stained with Cyanine Blue 5R (Saruwatari et al. 1997). Abbreviations: IO1, infraorbital 1; IOP, interopercle; LLS1–3, anterior three lateral-line scales; PTT, posttemporal; POP, preopercle; SOP, subopercle. Arrows point to serrations on opercle. Scale bar = 5 mm. Photo by A.C. Gill." figureDoi="http://doi.org/10.5281/zenodo.4471926" httpUri="https://zenodo.org/record/4471926/files/figure.png" pageId="33" pageNumber="34">Figures 2</figureCitation>
+, 
+<figureCitation box="[270,314,1820,1846]" captionStart-0="FIGURE 8" captionStart-1="FIGURE 9" captionStartId-0="34.[151,250,1314,1338]" captionStartId-1="37.[151,250,1712,1736]" captionTargetBox-0="[158,1426,669,1252]" captionTargetBox-1="[157,1432,745,1686]" captionTargetId-0="figure-258@34.[151,1436,659,1261]" captionTargetId-1="figure-274@37.[151,1436,741,1689]" captionTargetPageId-0="34" captionTargetPageId-1="37" captionText-0="FIGURE 8. Plectranthias alleni, CSIRO H 6371-10, 71.0 mm SL, west of Geraldton, Western Australia. Specimen frozen for 8 years prior to photography. Photo by C. Devine, CSIRO." captionText-1="FIGURE 9. Distribution records for Plectranthias alleni (closed circles), P. grahami (open circle) and P. robertsi (triangles)." figureDoi-0="http://doi.org/10.5281/zenodo.4471939" figureDoi-1="http://doi.org/10.5281/zenodo.4471941" httpUri-0="https://zenodo.org/record/4471939/files/figure.png" httpUri-1="https://zenodo.org/record/4471941/files/figure.png" pageId="33" pageNumber="34">8–9</figureCitation>
+, 
+<tableCitation box="[326,463,1820,1846]" captionStart-0="TABLE 1" captionStart-1="TABLE 2" captionStart-10="TABLE 11" captionStart-11="TABLE 12" captionStart-12="TABLE 13" captionStart-13="TABLE 14" captionStart-14="TABLE 15" captionStart-15="TABLE 16" captionStart-16="TABLE 17" captionStart-2="TABLE 3" captionStart-3="TABLE 4" captionStart-4="TABLE 5" captionStart-5="TABLE 6" captionStart-6="TABLE 7" captionStart-7="TABLE 8" captionStart-8="TABLE 9" captionStart-9="TABLE 10" captionStartId-0="8.[151,239,520,546]" captionStartId-1="9.[151,239,566,592]" captionStartId-10="20.[151,239,540,566]" captionStartId-11="21.[151,239,542,568]" captionStartId-12="22.[151,239,484,510]" captionStartId-13="24.[151,239,462,488]" captionStartId-14="26.[151,239,559,585]" captionStartId-15="27.[151,239,486,512]" captionStartId-16="28.[151,239,151,175]" captionStartId-2="10.[151,239,538,564]" captionStartId-3="11.[151,239,558,584]" captionStartId-4="12.[151,239,538,564]" captionStartId-5="13.[151,239,487,513]" captionStartId-6="14.[151,239,151,175]" captionStartId-7="15.[151,239,522,548]" captionStartId-8="17.[151,239,519,545]" captionStartId-9="19.[151,239,872,896]" captionText-0="TABLE 1. Frequency distributions for counts of dorsal, anal and pectoral rays of Australian Plectranthias and Selenanthias species. Frequencies are based on examined specimens. Frequencies for pectoral rays include bilateral counts. “L” indicates additional variation noted in literature on each species. Data for S. analis based on Australian specimens only." captionText-1="TABLE 2. Frequency distributions for counts of caudal rays of Australian Plectranthias and Selenanthias species. Data for S. analis based on Australian specimens only." captionText-10="TABLE 11. Summary of fin characters of Australian Plectranthias and Selenanthias species. Data for S. analis based on Australian specimens only. Caudal ray counts are presented as upper procurrent + upper principal + lower principal + lower procurrent = total rays." captionText-11="TABLE 12. Summary of body squamation characters for Australian species of Plectranthias and Selenanthias. Data for S. analis based on Australian specimens only." captionText-12="TABLE 13. Summary of selected head squamation characters for Australian species of Plectranthias and Selenanthias. Data for S. analis based on Australian specimens only." captionText-13="TABLE 14. Summary of gill-raker counts and selected osteological characters for Australian species of Plectranthias and Selenanthias. Data for S. analis based on Australian specimens only." captionText-14="TABLE 15. Summary of head serration characters for Australian species of Plectranthias and Selenanthias. Data for S. analis based on Australian specimens only." captionText-15="TABLE 16. Distribution and known depth ranges for Australian species of Plectranthias and Selenanthias. Data for Plectranthias species are from Allen &amp; Walsh (2015: tab. 1), supplemented with new observations." captionText-16="TABLE 17. Barcode of Life Data System (BOLD) registration numbers for COI sequences of specimens of Plectranthias and Selenanthias referred to in this paper." captionText-2="TABLE 3. Frequency distributions for counts of upper and lower gill rakers of Australian Plectranthias and Selenanthias species. “L” indicates additional variation noted in literature on each species. Data for S. analis based on Australian specimens only." captionText-3="TABLE 4. Frequency distributions for counts of total gill rakers of Australian Plectranthias and Selenanthias species. “L” indicates additional variation noted in literature on each species. Data for S. analis based on Australian specimens only." captionText-4="TABLE 5. Vertebral counts for Australian Plectranthias and Selenanthias species. “L” indicates additional variation noted in literature on each species. Data for S. analis based on Australian specimens only." captionText-5="TABLE 6. Supraneural and dorsal pterygiophore insertion patterns for Australian Plectranthias and Selenanthias species." captionText-6="TABLE 7. Position of terminal dorsal and anal pterygiophores in interneural and interhaemal spaces for Australian Plectranthias and Selenanthias species." captionText-7="TABLE 8. Frequency distributions for counts of tubed lateral-line scales of Australian Plectranthias and Selenanthias species. Frequencies are based on examined specimens and include bilateral counts. Where series are interrupted in P. inermis, P. fourmanoiri and P. winniensis, counts are of the anterior series of tubed scales. “L” indicates additional variation noted in literature on each species. Data for S. analis based only on Australian specimens." captionText-8="TABLE 9. Frequency distributions for counts of scales above and below the lateral line for Australian Plectranthias and Selenanthias species. Frequencies include bilateral counts. Data for S. analis based only on Australian specimens." captionText-9="TABLE 10. Frequency distributions for counts of circumpeduncular scales for Australian Plectranthias and Selenanthias species. Data for S. analis based only on Australian specimens." pageId="33" pageNumber="34">Tables 1–17</tableCitation>
+, 
+<tableCitation box="[475,503,1820,1846]" captionStart="TABLE 19" captionStartId="35.[151,234,637,661]" captionText="TABLE 19. Morphometric values for Plectranthias alleni, P. japonicus, P. maculicauda and P. robertsi expressed as percentages of SL." pageId="33" pageNumber="34">19</tableCitation>
+</paragraph>
+</subSubSection>
+<subSubSection box="[151,516,1856,1883]" pageId="33" pageNumber="34" type="vernacular_names">
+<paragraph blockId="33.[151,516,1784,1883]" box="[151,516,1856,1883]" pageId="33" pageNumber="34">Common name: Allen’s Perchlet</paragraph>
+</subSubSection>
+<subSubSection pageId="33" pageNumber="34" type="reference_group">
+<paragraph blockId="33.[151,1436,1924,2010]" pageId="33" pageNumber="34">
+<treatmentCitationGroup pageId="33" pageNumber="34">
+<treatmentCitation author="Randall, J. E." box="[151,549,1924,1949]" page="113" pageId="33" pageNumber="34" year="1980">
+<taxonomicName authority="Randall 1980: 113" authorityName="Randall" authorityPageNumber="113" authorityYear="1980" box="[151,549,1924,1949]" class="Actinopterygii" family="Serranidae" genus="Plectranthias" kingdom="Animalia" order="Perciformes" pageId="33" pageNumber="34" phylum="Chordata" rank="species" species="alleni">
+<emphasis box="[151,353,1924,1948]" italics="true" pageId="33" pageNumber="34">Plectranthias alleni</emphasis>
+<bibRefCitation author="Randall, J. E." box="[360,549,1924,1949]" pageId="33" pageNumber="34" pagination="101 - 187" refId="ref74071" refString="Randall, J. E. (1980) Revision of the fish genus Plectranthias (Serranidae: Anthiinae) with descriptions of 13 new species. Micronesica, 16, 101 - 187." type="journal article" year="1980">Randall 1980: 113</bibRefCitation>
+</taxonomicName>
+</treatmentCitation>
+, fig.1, table 4 (
+<typeStatus box="[704,749,1925,1949]" pageId="33" pageNumber="34">type</typeStatus>
+locality, off SW 
+<collectingRegion box="[924,1109,1924,1948]" country="Australia" name="Western Australia" pageId="33" pageNumber="34">Western Australia</collectingRegion>
+).— 
+<treatmentCitation author="Allen, G. R." box="[1145,1325,1924,1948]" page="2508" pageId="33" pageNumber="34" year="1985">
+<bibRefCitation author="Allen, G. R." box="[1145,1325,1924,1948]" pageId="33" pageNumber="34" pagination="2207 - 2534" refId="ref69472" refString="Allen, G. R. (1985) Fishes of Western Australia. In: Burgess, W. E. &amp; Axelrod, H. R. (Eds.), Pacific Marine Fishes. Book 9. T. F. H. Publications, Neptune City, pp. 2207 - 2534." type="book chapter" year="1985">Allen 1985: 2508</bibRefCitation>
+</treatmentCitation>
+(checklist, 
+<collectingRegion box="[199,382,1955,1979]" country="Australia" name="Western Australia" pageId="33" pageNumber="34">Western Australia</collectingRegion>
+).— 
+<treatmentCitation author="Paxton, J. R. &amp; Hoese, D. F. &amp; Allen, G. R. &amp; Hanley, J. E." box="[418,655,1955,1979]" page="506" pageId="33" pageNumber="34" year="1989">
+<bibRefCitation author="Paxton, J. R. &amp; Hoese, D. F. &amp; Allen, G. R. &amp; Hanley, J. E." box="[418,655,1955,1979]" pageId="33" pageNumber="34" refId="ref73693" refString="Paxton, J. R., Hoese, D. F., Allen, G. R. &amp; Hanley, J. E. (1989) Zoological Catalogue of Australia. Volume 7. Pisces: Petromyzontidae to Carangidae. Australian Government Publishing Service, Canberra, 665 pp." type="book" year="1989">
+Paxton 
+<emphasis box="[496,547,1955,1979]" italics="true" pageId="33" pageNumber="34">et al.</emphasis>
+1989: 506
+</bibRefCitation>
+</treatmentCitation>
+(checklist).— 
+<treatmentCitation author="Hutchins, J. B." box="[798,987,1955,1979]" page="30" pageId="33" pageNumber="34" year="2001">
+<bibRefCitation author="Hutchins, J. B." box="[798,987,1955,1979]" pageId="33" pageNumber="34" pagination="9 - 50" refId="ref71998" refString="Hutchins, J. B. (2001) Checklist of the fishes of Western Australia. Records of the Western Australian Museum Supplement, 63, 9 - 50. https: // doi. org / 10.18195 / issn. 0313 - 122 x. 63.2001.009 - 050" type="journal article" year="2001">Hutchins 2001: 30</bibRefCitation>
+</treatmentCitation>
+(checklist).— 
+<treatmentCitation author="Allen, G. R. &amp; Hoese, D. F. &amp; Cross, N. J. &amp; Bray, D. J." box="[1131,1354,1955,1979]" page="989" pageId="33" pageNumber="34" year="2006">
+<bibRefCitation author="Allen, G. R. &amp; Hoese, D. F. &amp; Cross, N. J. &amp; Bray, D. J." box="[1131,1354,1955,1979]" pageId="33" pageNumber="34" pagination="982 - 997" refId="ref69597" refString="Allen, G. R., Hoese, D. F., Cross, N. J. &amp; Bray, D. J. (2006) Anthiinae. Basslets, seaperches. In: Beesley, P. L. &amp; Wells, A., Zoological Catalogue of Australia. Vol. 35. Fishes. Part 2. ABRS &amp; CSIRO Publishing, Collingwood, pp. 982 - 997." type="book chapter" year="2006">
+Allen 
+<emphasis box="[1195,1246,1955,1979]" italics="true" pageId="33" pageNumber="34">et al.</emphasis>
+2006: 989
+</bibRefCitation>
+</treatmentCitation>
+(checklist).— 
+<treatmentCitation ID-DOI="http://doi.org/10.5281/zenodo.5972341" ID-Zenodo-Dep="5972341" author="Anderson, W. D. Jr" box="[267,464,1986,2010]" httpUri="http://treatment.plazi.org/id/03FC347CFFD6FFCDFF5AFCDBBE12FBB6" page="25" pageId="33" pageNumber="34" year="2018">
+<bibRefCitation author="Anderson, W. D. Jr" box="[267,464,1986,2010]" pageId="33" pageNumber="34" pagination="1 - 62" refId="ref70044" refString="Anderson, W. D. Jr (2018) Annotated checklist of anthiadine fishes (Percoidei: Serranidae). Zootaxa, 4475 (1), 1 - 62. https: // doi. org / 10.11646 / zootaxa. 4475.1.1" type="journal article" year="2018">Anderson 2018: 25</bibRefCitation>
+</treatmentCitation>
+(checklist).— 
+<treatmentCitation author="Parenti, P. &amp; Randall, J. E." box="[607,888,1986,2010]" page="23" pageId="33" pageNumber="34" year="2020">
+<bibRefCitation author="Parenti, P. &amp; Randall, J. E." box="[607,888,1986,2010]" pageId="33" pageNumber="34" pagination="1 - 170" refId="ref73460" refString="Parenti, P. &amp; Randall, J. E. (2020) An annotated checklist of the fishes of the family Serranidae of the world with description of two new related families of fishes. FishTaxa, 15, 1 - 170." type="journal article" year="2020">Parenti &amp; Randall 2020: 23</bibRefCitation>
+</treatmentCitation>
+(checklist).
+</treatmentCitationGroup>
+</paragraph>
+</subSubSection>
+<subSubSection pageId="34" pageNumber="35" type="diagnosis">
+<paragraph blockId="34.[151,1437,150,610]" pageId="34" pageNumber="35">
+<emphasis bold="true" box="[151,274,150,176]" pageId="34" pageNumber="35">Diagnosis.</emphasis>
+The following combination of characters distinguishes 
+<taxonomicName box="[898,990,151,177]" class="Actinopterygii" family="Serranidae" genus="Plectranthias" kingdom="Animalia" order="Perciformes" pageId="34" pageNumber="35" phylum="Chordata" rank="species" species="alleni">
+<emphasis box="[898,990,151,177]" italics="true" pageId="34" pageNumber="35">P. alleni</emphasis>
+</taxonomicName>
+from congeners: segmented dorsal rays 14 (rarely 13); pectoral rays 16 (rarely 15 or 17), middle rays branched; lateral line complete, with 31–36 tubed scales; no antrorse spines on ventral margin of preopercle; no scales on maxilla. The species is also relatively distinctive in having a short dark stripe in front of the eye, a faint dusky stripe from behind eye across upper side of body, and a faint small dusky spot at midbase of caudal fin (stripes and spot better developed in small specimens).
+</paragraph>
+</subSubSection>
+<subSubSection pageId="34" pageNumber="35" type="discussion">
+<paragraph blockId="34.[151,1437,150,610]" pageId="34" pageNumber="35">
+<emphasis bold="true" box="[199,315,331,357]" pageId="34" pageNumber="35">Remarks.</emphasis>
+A moderate-sized 
+<taxonomicName box="[520,671,331,357]" class="Actinopterygii" family="Serranidae" genus="Plectranthias" kingdom="Animalia" order="Perciformes" pageId="34" pageNumber="35" phylum="Chordata" rank="genus">
+<emphasis box="[520,671,331,357]" italics="true" pageId="34" pageNumber="35">Plectranthias</emphasis>
+</taxonomicName>
+(largest examined specimen, 71.0 mm SL), 
+<bibRefCitation author="Randall, J. E." box="[1156,1323,331,357]" pageId="34" pageNumber="35" pagination="101 - 187" refId="ref74071" refString="Randall, J. E. (1980) Revision of the fish genus Plectranthias (Serranidae: Anthiinae) with descriptions of 13 new species. Micronesica, 16, 101 - 187." type="journal article" year="1980">Randall (1980)</bibRefCitation>
+described 
+<taxonomicName box="[151,244,367,393]" class="Actinopterygii" family="Serranidae" genus="Plectranthias" kingdom="Animalia" order="Perciformes" pageId="34" pageNumber="35" phylum="Chordata" rank="species" species="alleni">
+<emphasis box="[151,244,367,393]" italics="true" pageId="34" pageNumber="35">P. alleni</emphasis>
+</taxonomicName>
+on the basis of the 
+<typeStatus box="[470,568,367,393]" pageId="34" pageNumber="35">holotype</typeStatus>
+and 
+<specimenCount box="[625,768,366,393]" pageId="34" pageNumber="35" type="generic" typeStatus="paratypes">35 paratypes</specimenCount>
+trawled in 
+<quantity box="[899,1014,367,393]" metricMagnitude="2" metricUnit="m" metricValue="1.41" metricValueMax="1.92" metricValueMin="0.9" pageId="34" pageNumber="35" unit="m" value="141.0" valueMax="192.0" valueMin="90.0">90–192 m</quantity>
+off southwest 
+<collectingRegion box="[1182,1383,367,393]" country="Australia" name="Western Australia" pageId="34" pageNumber="35">Western Australia</collectingRegion>
+(between 29 and 
+<geoCoordinate box="[310,375,403,429]" degrees="33" direction="south" orientation="latitude" pageId="34" pageNumber="35" precision="55555" value="-33.0">33° S</geoCoordinate>
+). In spite of the large number of specimens, live coloration was not recorded. We located two photographs in CSIRO; the first specimen (
+<figureCitation box="[643,740,439,465]" captionStart="FIGURE 8" captionStartId="34.[151,250,1314,1338]" captionTargetBox="[158,1426,669,1252]" captionTargetId="figure-258@34.[151,1436,659,1261]" captionTargetPageId="34" captionText="FIGURE 8. Plectranthias alleni, CSIRO H 6371-10, 71.0 mm SL, west of Geraldton, Western Australia. Specimen frozen for 8 years prior to photography. Photo by C. Devine, CSIRO." figureDoi="http://doi.org/10.5281/zenodo.4471939" httpUri="https://zenodo.org/record/4471939/files/figure.png" pageId="34" pageNumber="35">Figure 8</figureCitation>
+) collected from west of Geraldton, WA, was taken in a beam trawl from 
+<quantity box="[276,398,475,501]" metricMagnitude="2" metricUnit="m" metricValue="3.9799999999999995" metricValueMax="4.07" metricValueMin="3.8899999999999997" pageId="34" pageNumber="35" unit="m" value="398.0" valueMax="407.0" valueMin="389.0">389-407 m</quantity>
+depth, while the second specimen was collected from northwest of Perth in a sled in 
+<quantity metricMagnitude="2" metricUnit="m" metricValue="2.075" metricValueMax="2.1" metricValueMin="2.05" pageId="34" pageNumber="35" unit="m" value="207.5" valueMax="210.0" valueMin="205.0">
+205- 
+<specimenCount pageId="34" pageNumber="35" type="generic">210 m</specimenCount>
+</quantity>
+. Both specimens agree well with the original description of 
+<taxonomicName box="[841,932,511,537]" class="Actinopterygii" family="Serranidae" genus="Plectranthias" kingdom="Animalia" order="Perciformes" pageId="34" pageNumber="35" phylum="Chordata" rank="species" species="alleni">
+<emphasis box="[841,932,511,537]" italics="true" pageId="34" pageNumber="35">P. alleni</emphasis>
+</taxonomicName>
+and with the diagnosis above. We also examined additional non-type material from west of Garden Island, west of Rottnest Island, west of Mandurah, southwest of Cape Naturaliste, and west of Cervantes (see below).
+</paragraph>
+<caption ID-DOI="http://doi.org/10.5281/zenodo.4471939" ID-Zenodo-Dep="4471939" httpUri="https://zenodo.org/record/4471939/files/figure.png" pageId="34" pageNumber="35" startId="34.[151,250,1314,1338]" targetBox="[158,1426,669,1252]" targetPageId="34">
+<paragraph blockId="34.[151,1437,1314,1375]" pageId="34" pageNumber="35">
+<emphasis bold="true" box="[151,275,1314,1338]" pageId="34" pageNumber="35">FIGURE 8.</emphasis>
+<taxonomicName authority=", CSIRO H" authorityName="CSIRO H" box="[282,596,1314,1339]" class="Actinopterygii" family="Serranidae" genus="Plectranthias" kingdom="Animalia" order="Perciformes" pageId="34" pageNumber="35" phylum="Chordata" rank="species" species="alleni">
+<emphasis box="[282,483,1314,1338]" italics="true" pageId="34" pageNumber="35">Plectranthias alleni</emphasis>
+, CSIRO H
+</taxonomicName>
+6371-10, 71.0 mm SL, west of Geraldton, Western Australia. Specimen frozen for 8 years prior to photography. Photo by C. Devine, CSIRO.
+</paragraph>
+</caption>
+<paragraph blockId="34.[151,1437,1420,2023]" pageId="34" pageNumber="35">
+<typeStatus box="[199,308,1421,1447]" pageId="34" pageNumber="35">Paratypes</typeStatus>
+in WAM P.23325-001 (as they are now accessioned) were originally 
+<specimenCount box="[1092,1244,1421,1447]" pageId="34" pageNumber="35" type="generic">10 specimens</specimenCount>
+with registration numbers between P.23325 and P.23330, but were lumped together by 
+<bibRefCitation author="Randall, J. E." box="[935,1104,1457,1483]" pageId="34" pageNumber="35" pagination="101 - 187" refId="ref74071" refString="Randall, J. E. (1980) Revision of the fish genus Plectranthias (Serranidae: Anthiinae) with descriptions of 13 new species. Micronesica, 16, 101 - 187." type="journal article" year="1980">Randall (1980)</bibRefCitation>
+and incorrectly referred to as WAM P.23325–30 (see 
+<bibRefCitation author="Moore, G. I. &amp; Hutchins, J. B. &amp; Smith, K. N. &amp; Morrison, S. M." box="[421,630,1493,1519]" pageId="34" pageNumber="35" pagination="1 - 69" refId="ref73114" refString="Moore, G. I., Hutchins, J. B., Smith, K. N. &amp; Morrison, S. M. (2008) Catalogue of type specimens of fishes in the Western Ausralian Museum (second edition). Records of the Western Australian Museum Supplement, 74, 1 - 69. https: // doi. org / 10.18195 / issn. 0313 - 122 x. 74.2008.001 - 069" type="journal article" year="2008">
+Moore 
+<emphasis box="[504,561,1493,1519]" italics="true" pageId="34" pageNumber="35">et al.</emphasis>
+2008
+</bibRefCitation>
+). Furthermore, we determined one of these 
+<typeStatus box="[1126,1233,1493,1519]" pageId="34" pageNumber="35">paratypes</typeStatus>
+is actually a misidentified 
+<quantity box="[265,364,1528,1555]" metricMagnitude="-2" metricUnit="m" metricValue="3.25" pageId="34" pageNumber="35" unit="mm" value="32.5">32.5 mm</quantity>
+SL specimen of 
+<taxonomicName authority="Whitley, 1951" authorityName="Whitley" authorityYear="1951" box="[551,1000,1528,1555]" class="Actinopterygii" family="Serranidae" genus="Lepidoperca" kingdom="Animalia" order="Perciformes" pageId="34" pageNumber="35" phylum="Chordata" rank="species" species="occidentalis">
+<emphasis box="[551,833,1529,1555]" italics="true" pageId="34" pageNumber="35">Lepidoperca occidentalis</emphasis>
+<bibRefCitation author="Whitley, G. P." box="[839,1000,1528,1555]" pageId="34" pageNumber="35" pagination="389 - 408" refId="ref76110" refString="Whitley, G. P. (1951) Studies in ichthyology. No. 15. Records of the Australian Museum, 22, 389 - 408. https: // doi. org / 10.3853 / j. 0067 - 1975.22.1951.616" type="journal article" year="1951">Whitley, 1951</bibRefCitation>
+</taxonomicName>
+. The 
+<taxonomicName authorityName="Whitley" authorityYear="1951" box="[1060,1224,1529,1555]" class="Actinopterygii" family="Serranidae" genus="Lepidoperca" kingdom="Animalia" order="Perciformes" pageId="34" pageNumber="35" phylum="Chordata" rank="species" species="occidentalis">
+<emphasis box="[1060,1224,1529,1555]" italics="true" pageId="34" pageNumber="35">L. occidentalis</emphasis>
+</taxonomicName>
+specimen does not appear to have contributed to Randall’s description of 
+<taxonomicName box="[753,843,1565,1591]" class="Actinopterygii" family="Serranidae" genus="Plectranthias" kingdom="Animalia" order="Perciformes" pageId="34" pageNumber="35" phylum="Chordata" rank="species" species="alleni">
+<emphasis box="[753,843,1565,1591]" italics="true" pageId="34" pageNumber="35">P. alleni</emphasis>
+</taxonomicName>
+. We have separated the specimen from the remaining 
+<typeStatus box="[151,258,1601,1627]" pageId="34" pageNumber="35">paratypes</typeStatus>
+and allocated it the number WAM P.23330-001; the remaining nine 
+<typeStatus box="[1031,1138,1601,1627]" pageId="34" pageNumber="35">paratypes</typeStatus>
+remain as WAM P.23325- 001.
+</paragraph>
+</subSubSection>
+<subSubSection pageId="34" pageNumber="35" type="description">
+<paragraph blockId="34.[151,1437,1420,2023]" pageId="34" pageNumber="35">
+The original description of 
+<taxonomicName box="[520,615,1673,1699]" class="Actinopterygii" family="Serranidae" genus="Plectranthias" kingdom="Animalia" order="Perciformes" pageId="34" pageNumber="35" phylum="Chordata" rank="species" species="alleni">
+<emphasis box="[520,615,1673,1699]" italics="true" pageId="34" pageNumber="35">P. alleni</emphasis>
+</taxonomicName>
+lacks information on several characters that may help clarify relationships of the species. We therefore provide the following new information: scales with basal cteni; vertebrae 10+16; supraneurals 3; predorsal formula 0/0+0/2/1+1; dorsal pterygiophores in interneural spaces 9–13 1/1/1/1+1/1 or 1/1/1/1+1/1+1; 0–2 trisegmental pterygiophores associated with dorsal fin; terminal dorsal pterygiophore in interneural space 17–18; 0–3 trisegmental pterygiophores in anal fin; terminal anal pterygiophore in interhaemal space 4–5; ribs present on vertebrae 3 through 10; epineurals present on vertebrae 1 through 12–14; parhypural and hypurals autogenous; well-developed hypurapophysis on parhypural; epurals 3; single uroneural (posterior uroneural absent); ventral tip of cleithrum with well-developed posteroventral process; proximal tip of first anal-fin pterygiophore near distal tips of parapophyses on vertebra 10.
+</paragraph>
+<paragraph blockId="34.[151,1437,1420,2023]" box="[199,737,1997,2023]" pageId="34" pageNumber="35">
+Morphometric data are summarised in 
+<tableCitation box="[633,733,1997,2023]" captionStart="TABLE 19" captionStartId="35.[151,234,637,661]" captionText="TABLE 19. Morphometric values for Plectranthias alleni, P. japonicus, P. maculicauda and P. robertsi expressed as percentages of SL." pageId="34" pageNumber="35">Table 19</tableCitation>
+.
+</paragraph>
+</subSubSection>
+<caption box="[151,1510,637,661]" pageId="35" pageNumber="36">
+<paragraph blockId="35.[151,1510,637,661]" box="[151,1510,637,661]" pageId="35" pageNumber="36">
+<emphasis bold="true" box="[151,272,637,661]" pageId="35" pageNumber="36">TABLE 19.</emphasis>
+Morphometric values for 
+<taxonomicName box="[534,732,637,661]" class="Actinopterygii" family="Serranidae" genus="Plectranthias" kingdom="Animalia" order="Perciformes" pageId="35" pageNumber="36" phylum="Chordata" rank="species" species="alleni">
+<emphasis box="[534,732,637,661]" italics="true" pageId="35" pageNumber="36">Plectranthias alleni</emphasis>
+</taxonomicName>
+, 
+<taxonomicName authorityName="Steindachner 1883 in Steindachner &amp; Doderlein" authorityYear="1883" box="[745,866,637,661]" class="Actinopterygii" family="Cirrhitidae" genus="Paracirrhites" kingdom="Animalia" order="Perciformes" pageId="35" pageNumber="36" phylum="Chordata" rank="species" species="japonicus">
+<emphasis box="[745,866,637,661]" italics="true" pageId="35" pageNumber="36">P. japonicus</emphasis>
+</taxonomicName>
+, 
+<taxonomicName authority="Regan, 1914" authorityName="Regan" authorityYear="1914" box="[879,1032,637,661]" class="Actinopterygii" family="Serranidae" genus="Serranops" higherTaxonomySource="GBIF" kingdom="Animalia" order="Perciformes" pageId="35" pageNumber="36" phylum="Chordata" rank="species" species="maculicauda">
+<emphasis box="[879,1032,637,661]" italics="true" pageId="35" pageNumber="36">P. maculicauda</emphasis>
+</taxonomicName>
+and 
+<taxonomicName box="[1081,1184,637,661]" class="Actinopterygii" family="Serranidae" genus="Plectranthias" kingdom="Animalia" order="Perciformes" pageId="35" pageNumber="36" phylum="Chordata" rank="species" species="robertsi">
+<emphasis box="[1081,1184,637,661]" italics="true" pageId="35" pageNumber="36">P. robertsi</emphasis>
+</taxonomicName>
+expressed as percentages of SL.
+</paragraph>
+</caption>
+<paragraph pageId="35" pageNumber="36">
+<table box="[165,1934,677,1518]" colsContinueIn="36.[151,1944,774,1526]" gridcols="5" gridrows="19" pageId="35" pageNumber="36">
+<tr box="[165,1934,677,702]" gridrow="0" pageId="35" pageNumber="36" rowspan-0="1">
+<th box="[714,842,677,702]" gridcol="1" gridrow="0" pageId="35" pageNumber="36">
+<taxonomicName box="[736,819,677,702]" class="Actinopterygii" family="Serranidae" genus="Plectranthias" kingdom="Animalia" order="Perciformes" pageId="35" pageNumber="36" phylum="Chordata" rank="species" species="alleni">
+<emphasis box="[736,819,677,702]" italics="true" pageId="35" pageNumber="36">P. alleni</emphasis>
+</taxonomicName>
+</th>
+<th box="[1068,1208,677,702]" gridcol="2" gridrow="0" pageId="35" pageNumber="36">
+<taxonomicName authorityName="Steindachner 1883 in Steindachner &amp; Doderlein" authorityYear="1883" box="[1076,1200,677,702]" class="Actinopterygii" family="Cirrhitidae" genus="Paracirrhites" kingdom="Animalia" order="Perciformes" pageId="35" pageNumber="36" phylum="Chordata" rank="species" species="japonicus">
+<emphasis box="[1076,1200,677,702]" italics="true" pageId="35" pageNumber="36">P. japonicus</emphasis>
+</taxonomicName>
+</th>
+<th box="[1420,1576,677,702]" gridcol="3" gridrow="0" pageId="35" pageNumber="36">
+<taxonomicName authority="Regan, 1914" authorityName="Regan" authorityYear="1914" box="[1420,1576,677,702]" class="Actinopterygii" family="Serranidae" genus="Serranops" higherTaxonomySource="GBIF" kingdom="Animalia" order="Perciformes" pageId="35" pageNumber="36" phylum="Chordata" rank="species" species="maculicauda">
+<emphasis box="[1420,1576,677,702]" italics="true" pageId="35" pageNumber="36">P. maculicauda</emphasis>
+</taxonomicName>
+</th>
+<th box="[1782,1934,677,702]" gridcol="4" gridrow="0" pageId="35" pageNumber="36">
+<taxonomicName box="[1806,1909,677,702]" class="Actinopterygii" family="Serranidae" genus="Plectranthias" kingdom="Animalia" order="Perciformes" pageId="35" pageNumber="36" phylum="Chordata" rank="species" species="robertsi">
+<emphasis box="[1806,1909,677,702]" italics="true" pageId="35" pageNumber="36">P. robertsi</emphasis>
+</taxonomicName>
+</th>
+</tr>
+<tr box="[165,1934,722,747]" gridrow="1" pageId="35" pageNumber="36">
+<th box="[165,459,722,747]" gridcol="0" gridrow="1" pageId="35" pageNumber="36">n: SL (mm)</th>
+<td box="[714,842,722,747]" gridcol="1" gridrow="1" pageId="35" pageNumber="36">8: 30.5–71.0</td>
+<td box="[1068,1208,722,747]" gridcol="2" gridrow="1" pageId="35" pageNumber="36">4: 71.4–129.2</td>
+<td box="[1420,1576,722,747]" gridcol="3" gridrow="1" pageId="35" pageNumber="36">15: 39.3–94.5</td>
+<td box="[1782,1934,722,747]" gridcol="4" gridrow="1" pageId="35" pageNumber="36">10: 62.7–112.6</td>
+</tr>
+<tr box="[165,1934,767,792]" gridrow="2" pageId="35" pageNumber="36">
+<th box="[165,459,767,792]" gridcol="0" gridrow="2" pageId="35" pageNumber="36">Greatest body depth</th>
+<td box="[714,842,767,792]" gridcol="1" gridrow="2" pageId="35" pageNumber="36">31.6–38.6</td>
+<td box="[1068,1208,767,792]" gridcol="2" gridrow="2" pageId="35" pageNumber="36">30.0–36.8</td>
+<td box="[1420,1576,767,792]" gridcol="3" gridrow="2" pageId="35" pageNumber="36">31.8–38.7</td>
+<td box="[1782,1934,767,792]" gridcol="4" gridrow="2" pageId="35" pageNumber="36">31.1–38.9</td>
+</tr>
+<tr box="[165,1934,813,838]" gridrow="3" pageId="35" pageNumber="36">
+<th box="[165,459,813,838]" gridcol="0" gridrow="3" pageId="35" pageNumber="36">Body depth at anal-fin origin</th>
+<td box="[714,842,813,838]" gridcol="1" gridrow="3" pageId="35" pageNumber="36">29.1–33.4</td>
+<td box="[1068,1208,813,838]" gridcol="2" gridrow="3" pageId="35" pageNumber="36">29.7–33.2</td>
+<td box="[1420,1576,813,838]" gridcol="3" gridrow="3" pageId="35" pageNumber="36">30.0–34.3</td>
+<td box="[1782,1934,813,838]" gridcol="4" gridrow="3" pageId="35" pageNumber="36">27.3–30.8</td>
+</tr>
+<tr box="[165,1934,858,883]" gridrow="4" pageId="35" pageNumber="36">
+<th box="[165,459,858,883]" gridcol="0" gridrow="4" pageId="35" pageNumber="36">Body width</th>
+<td box="[714,842,858,883]" gridcol="1" gridrow="4" pageId="35" pageNumber="36">16.4–20.8</td>
+<td box="[1068,1208,858,883]" gridcol="2" gridrow="4" pageId="35" pageNumber="36">18.0–21.2</td>
+<td box="[1420,1576,858,883]" gridcol="3" gridrow="4" pageId="35" pageNumber="36">15.5–20.4</td>
+<td box="[1782,1934,858,883]" gridcol="4" gridrow="4" pageId="35" pageNumber="36">16.3–20.7</td>
+</tr>
+<tr box="[165,1934,904,929]" gridrow="5" pageId="35" pageNumber="36">
+<th box="[165,459,904,929]" gridcol="0" gridrow="5" pageId="35" pageNumber="36">Head length</th>
+<td box="[714,842,904,929]" gridcol="1" gridrow="5" pageId="35" pageNumber="36">39.3–42.3</td>
+<td box="[1068,1208,904,929]" gridcol="2" gridrow="5" pageId="35" pageNumber="36">39.9–42.9</td>
+<td box="[1420,1576,904,929]" gridcol="3" gridrow="5" pageId="35" pageNumber="36">38.4–41.0</td>
+<td box="[1782,1934,904,929]" gridcol="4" gridrow="5" pageId="35" pageNumber="36">38.9–46.4</td>
+</tr>
+<tr box="[165,1934,949,974]" gridrow="6" pageId="35" pageNumber="36">
+<th box="[165,459,949,974]" gridcol="0" gridrow="6" pageId="35" pageNumber="36">Snout length</th>
+<td box="[714,842,949,974]" gridcol="1" gridrow="6" pageId="35" pageNumber="36">8.2–10.3</td>
+<td box="[1068,1208,949,974]" gridcol="2" gridrow="6" pageId="35" pageNumber="36">7.3–10.3</td>
+<td box="[1420,1576,949,974]" gridcol="3" gridrow="6" pageId="35" pageNumber="36">7.3–9.8</td>
+<td box="[1782,1934,949,974]" gridcol="4" gridrow="6" pageId="35" pageNumber="36">8.2–12.9</td>
+</tr>
+<tr box="[165,1934,994,1019]" gridrow="7" pageId="35" pageNumber="36">
+<th box="[165,459,994,1019]" gridcol="0" gridrow="7" pageId="35" pageNumber="36">Orbit diameter</th>
+<td box="[714,842,994,1019]" gridcol="1" gridrow="7" pageId="35" pageNumber="36">11.5–14.0</td>
+<td box="[1068,1208,994,1019]" gridcol="2" gridrow="7" pageId="35" pageNumber="36">9.8–11.9</td>
+<td box="[1420,1576,994,1019]" gridcol="3" gridrow="7" pageId="35" pageNumber="36">11.4–13.9</td>
+<td box="[1782,1934,994,1019]" gridcol="4" gridrow="7" pageId="35" pageNumber="36">12.1–13.5</td>
+</tr>
+<tr box="[165,1934,1040,1065]" gridrow="8" pageId="35" pageNumber="36">
+<th box="[165,459,1040,1065]" gridcol="0" gridrow="8" pageId="35" pageNumber="36">Bony interorbital width</th>
+<td box="[714,842,1040,1065]" gridcol="1" gridrow="8" pageId="35" pageNumber="36">5.1–6.3</td>
+<td box="[1068,1208,1040,1065]" gridcol="2" gridrow="8" pageId="35" pageNumber="36">3.5–4.2</td>
+<td box="[1420,1576,1040,1065]" gridcol="3" gridrow="8" pageId="35" pageNumber="36">4.3–6.5</td>
+<td box="[1782,1934,1040,1065]" gridcol="4" gridrow="8" pageId="35" pageNumber="36">4.6–7.1</td>
+</tr>
+<tr box="[165,1934,1085,1110]" gridrow="9" pageId="35" pageNumber="36">
+<th box="[165,459,1085,1110]" gridcol="0" gridrow="9" pageId="35" pageNumber="36">Upper jaw length</th>
+<td box="[714,842,1085,1110]" gridcol="1" gridrow="9" pageId="35" pageNumber="36">18.3–19.9</td>
+<td box="[1068,1208,1085,1110]" gridcol="2" gridrow="9" pageId="35" pageNumber="36">19.3–21.5</td>
+<td box="[1420,1576,1085,1110]" gridcol="3" gridrow="9" pageId="35" pageNumber="36">16.8–19.9</td>
+<td box="[1782,1934,1085,1110]" gridcol="4" gridrow="9" pageId="35" pageNumber="36">20.2–22.2</td>
+</tr>
+<tr box="[165,1934,1130,1155]" gridrow="10" pageId="35" pageNumber="36">
+<th box="[165,459,1130,1155]" gridcol="0" gridrow="10" pageId="35" pageNumber="36">Maxilla width</th>
+<td box="[714,842,1130,1155]" gridcol="1" gridrow="10" pageId="35" pageNumber="36">5.1–6.6</td>
+<td box="[1068,1208,1130,1155]" gridcol="2" gridrow="10" pageId="35" pageNumber="36">6.6–7.2</td>
+<td box="[1420,1576,1130,1155]" gridcol="3" gridrow="10" pageId="35" pageNumber="36">5.1–6.5</td>
+<td box="[1782,1934,1130,1155]" gridcol="4" gridrow="10" pageId="35" pageNumber="36">6.3–7.3</td>
+</tr>
+<tr box="[165,1934,1176,1201]" gridrow="11" pageId="35" pageNumber="36">
+<th box="[165,459,1176,1201]" gridcol="0" gridrow="11" pageId="35" pageNumber="36">Caudal peduncle length</th>
+<td box="[714,842,1176,1201]" gridcol="1" gridrow="11" pageId="35" pageNumber="36">16.6–19.0</td>
+<td box="[1068,1208,1176,1201]" gridcol="2" gridrow="11" pageId="35" pageNumber="36">18.0–21.3</td>
+<td box="[1420,1576,1176,1201]" gridcol="3" gridrow="11" pageId="35" pageNumber="36">16.1–21.7</td>
+<td box="[1782,1934,1176,1201]" gridcol="4" gridrow="11" pageId="35" pageNumber="36">18.9–22.1</td>
+</tr>
+<tr box="[165,1934,1221,1246]" gridrow="12" pageId="35" pageNumber="36">
+<th box="[165,459,1221,1246]" gridcol="0" gridrow="12" pageId="35" pageNumber="36">Caudal peduncle depth</th>
+<td box="[714,842,1221,1246]" gridcol="1" gridrow="12" pageId="35" pageNumber="36">11.7–14.7</td>
+<td box="[1068,1208,1221,1246]" gridcol="2" gridrow="12" pageId="35" pageNumber="36">12.5–14.6</td>
+<td box="[1420,1576,1221,1246]" gridcol="3" gridrow="12" pageId="35" pageNumber="36">11.2–13.4</td>
+<td box="[1782,1934,1221,1246]" gridcol="4" gridrow="12" pageId="35" pageNumber="36">12.1–13.8</td>
+</tr>
+<tr box="[165,1934,1266,1291]" gridrow="13" pageId="35" pageNumber="36">
+<th box="[165,459,1266,1291]" gridcol="0" gridrow="13" pageId="35" pageNumber="36">Predorsal length</th>
+<td box="[714,842,1266,1291]" gridcol="1" gridrow="13" pageId="35" pageNumber="36">40.5–44.6</td>
+<td box="[1068,1208,1266,1291]" gridcol="2" gridrow="13" pageId="35" pageNumber="36">37.6–40.6</td>
+<td box="[1420,1576,1266,1291]" gridcol="3" gridrow="13" pageId="35" pageNumber="36">36.3–42.0</td>
+<td box="[1782,1934,1266,1291]" gridcol="4" gridrow="13" pageId="35" pageNumber="36">39.1–42.1</td>
+</tr>
+<tr box="[165,1934,1312,1337]" gridrow="14" pageId="35" pageNumber="36">
+<th box="[165,459,1312,1337]" gridcol="0" gridrow="14" pageId="35" pageNumber="36">Preanal length</th>
+<td box="[714,842,1312,1337]" gridcol="1" gridrow="14" pageId="35" pageNumber="36">66.1–71.3</td>
+<td box="[1068,1208,1312,1337]" gridcol="2" gridrow="14" pageId="35" pageNumber="36">69.9–73.5</td>
+<td box="[1420,1576,1312,1337]" gridcol="3" gridrow="14" pageId="35" pageNumber="36">62.1–71.2</td>
+<td box="[1782,1934,1312,1337]" gridcol="4" gridrow="14" pageId="35" pageNumber="36">66.0–74.1</td>
+</tr>
+<tr box="[165,1934,1357,1382]" gridrow="15" pageId="35" pageNumber="36">
+<th box="[165,459,1357,1382]" gridcol="0" gridrow="15" pageId="35" pageNumber="36">Prepelvic length</th>
+<td box="[714,842,1357,1382]" gridcol="1" gridrow="15" pageId="35" pageNumber="36">36.3–39.2</td>
+<td box="[1068,1208,1357,1382]" gridcol="2" gridrow="15" pageId="35" pageNumber="36">38.5–39.9</td>
+<td box="[1420,1576,1357,1382]" gridcol="3" gridrow="15" pageId="35" pageNumber="36">35.2–42.1</td>
+<td box="[1782,1934,1357,1382]" gridcol="4" gridrow="15" pageId="35" pageNumber="36">34.1–44.5</td>
+</tr>
+<tr box="[165,1934,1402,1427]" gridrow="16" pageId="35" pageNumber="36">
+<th box="[165,459,1402,1427]" gridcol="0" gridrow="16" pageId="35" pageNumber="36">Dorsal fin base length</th>
+<td box="[714,842,1402,1427]" gridcol="1" gridrow="16" pageId="35" pageNumber="36">48.5–52.6</td>
+<td box="[1068,1208,1402,1427]" gridcol="2" gridrow="16" pageId="35" pageNumber="36">47.6–50.6</td>
+<td box="[1420,1576,1402,1427]" gridcol="3" gridrow="16" pageId="35" pageNumber="36">50.4–54.9</td>
+<td box="[1782,1934,1402,1427]" gridcol="4" gridrow="16" pageId="35" pageNumber="36">45.6–51.8</td>
+</tr>
+<tr box="[165,1934,1448,1473]" gridrow="17" pageId="35" pageNumber="36">
+<th box="[165,459,1448,1473]" gridcol="0" gridrow="17" pageId="35" pageNumber="36">First dorsal spine</th>
+<td box="[714,842,1448,1473]" gridcol="1" gridrow="17" pageId="35" pageNumber="36">5.2–8.2</td>
+<td box="[1068,1208,1448,1473]" gridcol="2" gridrow="17" pageId="35" pageNumber="36">5.6–6.2</td>
+<td box="[1420,1576,1448,1473]" gridcol="3" gridrow="17" pageId="35" pageNumber="36">4.8–10.5</td>
+<td box="[1782,1934,1448,1473]" gridcol="4" gridrow="17" pageId="35" pageNumber="36">4.4–6.3</td>
+</tr>
+<tr box="[165,1934,1493,1518]" gridrow="18" pageId="35" pageNumber="36">
+<th box="[165,459,1493,1518]" gridcol="0" gridrow="18" pageId="35" pageNumber="36">Third dorsal spine</th>
+<td box="[714,842,1493,1518]" gridcol="1" gridrow="18" pageId="35" pageNumber="36">14.2–17.2</td>
+<td box="[1068,1208,1493,1518]" gridcol="2" gridrow="18" pageId="35" pageNumber="36">11.1–13.8</td>
+<td box="[1420,1576,1493,1518]" gridcol="3" gridrow="18" pageId="35" pageNumber="36">14.2–18.2</td>
+<td box="[1782,1934,1493,1518]" gridcol="4" gridrow="18" pageId="35" pageNumber="36">10.2–12.9</td>
+</tr>
+</table>
+</paragraph>
+<paragraph blockId="35.[1713,2024,1539,1564]" box="[1713,2024,1539,1564]" pageId="35" pageNumber="36">
+<tableNote box="[1713,2024,1539,1564]" pageId="35" pageNumber="36" targetBox="[165,1934,677,1518]" targetPageId="35">......continued on the next page</tableNote>
+</paragraph>
+<caption box="[151,410,729,754]" isContinuationCaption="true" pageId="36" pageNumber="37">
+<paragraph blockId="36.[151,410,729,754]" box="[151,410,729,754]" pageId="36" pageNumber="37">TABLE 19. (Continued)</paragraph>
+</caption>
+<paragraph pageId="36" pageNumber="37">
+<table box="[151,1944,774,1526]" colsContinueFrom="35.[165,1934,677,1518]" gridcols="5" gridrows="17" pageId="36" pageNumber="37">
+<tr box="[151,1944,774,799]" gridrow="0" pageId="36" pageNumber="37" rowspan-0="1">
+<th box="[677,852,774,799]" gridcol="1" gridrow="0" pageId="36" pageNumber="37">
+<taxonomicName box="[723,806,774,799]" class="Actinopterygii" family="Serranidae" genus="Plectranthias" kingdom="Animalia" order="Perciformes" pageId="36" pageNumber="37" phylum="Chordata" rank="species" species="alleni">
+<emphasis box="[723,806,774,799]" italics="true" pageId="36" pageNumber="37">P. alleni</emphasis>
+</taxonomicName>
+</th>
+<th box="[1037,1212,774,799]" gridcol="2" gridrow="0" pageId="36" pageNumber="37">
+<taxonomicName authorityName="Steindachner 1883 in Steindachner &amp; Doderlein" authorityYear="1883" box="[1063,1186,774,799]" class="Actinopterygii" family="Cirrhitidae" genus="Paracirrhites" kingdom="Animalia" order="Perciformes" pageId="36" pageNumber="37" phylum="Chordata" rank="species" species="japonicus">
+<emphasis box="[1063,1186,774,799]" italics="true" pageId="36" pageNumber="37">P. japonicus</emphasis>
+</taxonomicName>
+</th>
+<th box="[1397,1572,774,799]" gridcol="3" gridrow="0" pageId="36" pageNumber="37">
+<taxonomicName authority="Regan, 1914" authorityName="Regan" authorityYear="1914" box="[1406,1562,774,799]" class="Actinopterygii" family="Serranidae" genus="Serranops" higherTaxonomySource="GBIF" kingdom="Animalia" order="Perciformes" pageId="36" pageNumber="37" phylum="Chordata" rank="species" species="maculicauda">
+<emphasis box="[1406,1562,774,799]" italics="true" pageId="36" pageNumber="37">P. maculicauda</emphasis>
+</taxonomicName>
+</th>
+<th box="[1744,1944,774,799]" gridcol="4" gridrow="0" pageId="36" pageNumber="37">
+<taxonomicName box="[1792,1896,774,799]" class="Actinopterygii" family="Serranidae" genus="Plectranthias" kingdom="Animalia" order="Perciformes" pageId="36" pageNumber="37" phylum="Chordata" rank="species" species="robertsi">
+<emphasis box="[1792,1896,774,799]" italics="true" pageId="36" pageNumber="37">P. robertsi</emphasis>
+</taxonomicName>
+</th>
+</tr>
+<tr box="[151,1944,820,845]" gridrow="1" pageId="36" pageNumber="37">
+<th box="[151,555,820,845]" gridcol="0" gridrow="1" pageId="36" pageNumber="37">Fourth dorsal spine</th>
+<td box="[677,852,820,845]" gridcol="1" gridrow="1" pageId="36" pageNumber="37">16.1–19.1</td>
+<td box="[1037,1212,820,845]" gridcol="2" gridrow="1" pageId="36" pageNumber="37">12.3–14.3</td>
+<td box="[1397,1572,820,845]" gridcol="3" gridrow="1" pageId="36" pageNumber="37">16.6–20.0</td>
+<td box="[1744,1944,820,845]" gridcol="4" gridrow="1" pageId="36" pageNumber="37">12.2–15.8</td>
+</tr>
+<tr box="[151,1944,866,891]" gridrow="2" pageId="36" pageNumber="37">
+<th box="[151,555,866,891]" gridcol="0" gridrow="2" pageId="36" pageNumber="37">Fifth dorsal spine</th>
+<td box="[677,852,866,891]" gridcol="1" gridrow="2" pageId="36" pageNumber="37">14.0–17.7</td>
+<td box="[1037,1212,866,891]" gridcol="2" gridrow="2" pageId="36" pageNumber="37">13.2–14.4</td>
+<td box="[1397,1572,866,891]" gridcol="3" gridrow="2" pageId="36" pageNumber="37">16.2–19.6</td>
+<td box="[1744,1944,866,891]" gridcol="4" gridrow="2" pageId="36" pageNumber="37">14.0–16.4</td>
+</tr>
+<tr box="[151,1944,909,936]" gridrow="3" pageId="36" pageNumber="37">
+<th box="[151,555,909,936]" gridcol="0" gridrow="3" pageId="36" pageNumber="37">10th dorsal spine</th>
+<td box="[677,852,909,936]" gridcol="1" gridrow="3" pageId="36" pageNumber="37">6.7–8.7</td>
+<td box="[1037,1212,909,936]" gridcol="2" gridrow="3" pageId="36" pageNumber="37">3.4–6.2</td>
+<td box="[1397,1572,909,936]" gridcol="3" gridrow="3" pageId="36" pageNumber="37">9.1–11.2</td>
+<td box="[1744,1944,909,936]" gridcol="4" gridrow="3" pageId="36" pageNumber="37">4.4–6.0</td>
+</tr>
+<tr box="[151,1944,956,981]" gridrow="4" pageId="36" pageNumber="37">
+<th box="[151,555,956,981]" gridcol="0" gridrow="4" pageId="36" pageNumber="37">First segmented dorsal ray</th>
+<td box="[677,852,956,981]" gridcol="1" gridrow="4" pageId="36" pageNumber="37">10.5–14.4</td>
+<td box="[1037,1212,956,981]" gridcol="2" gridrow="4" pageId="36" pageNumber="37">12.3–14.6</td>
+<td box="[1397,1572,956,981]" gridcol="3" gridrow="4" pageId="36" pageNumber="37">13.4–20.6</td>
+<td box="[1744,1944,956,981]" gridcol="4" gridrow="4" pageId="36" pageNumber="37">13.6–17.2</td>
+</tr>
+<tr box="[151,1944,1002,1027]" gridrow="5" pageId="36" pageNumber="37">
+<th box="[151,555,1002,1027]" gridcol="0" gridrow="5" pageId="36" pageNumber="37">Longest segmented dorsal ray (number)</th>
+<td box="[677,852,1002,1027]" gridcol="1" gridrow="5" pageId="36" pageNumber="37">10.5–17.7 (2–7)</td>
+<td box="[1037,1212,1002,1027]" gridcol="2" gridrow="5" pageId="36" pageNumber="37">18.1–19.4 (6–11)</td>
+<td box="[1397,1572,1002,1027]" gridcol="3" gridrow="5" pageId="36" pageNumber="37">21.6–32.4 (2)</td>
+<td box="[1744,1944,1002,1027]" gridcol="4" gridrow="5" pageId="36" pageNumber="37">16.6–30.7 (2, 9–10)</td>
+</tr>
+<tr box="[151,1944,1047,1072]" gridrow="6" pageId="36" pageNumber="37">
+<th box="[151,555,1047,1072]" gridcol="0" gridrow="6" pageId="36" pageNumber="37">Anal fin base length</th>
+<td box="[677,852,1047,1072]" gridcol="1" gridrow="6" pageId="36" pageNumber="37">15.3–16.2</td>
+<td box="[1037,1212,1047,1072]" gridcol="2" gridrow="6" pageId="36" pageNumber="37">14.3–16.1</td>
+<td box="[1397,1572,1047,1072]" gridcol="3" gridrow="6" pageId="36" pageNumber="37">14.4–19.1</td>
+<td box="[1744,1944,1047,1072]" gridcol="4" gridrow="6" pageId="36" pageNumber="37">12.9–15.2</td>
+</tr>
+<tr box="[151,1944,1093,1118]" gridrow="7" pageId="36" pageNumber="37">
+<th box="[151,555,1093,1118]" gridcol="0" gridrow="7" pageId="36" pageNumber="37">First anal spine</th>
+<td box="[677,852,1093,1118]" gridcol="1" gridrow="7" pageId="36" pageNumber="37">7.2–10.4</td>
+<td box="[1037,1212,1093,1118]" gridcol="2" gridrow="7" pageId="36" pageNumber="37">5.7–7.4</td>
+<td box="[1397,1572,1093,1118]" gridcol="3" gridrow="7" pageId="36" pageNumber="37">9.0–13.6</td>
+<td box="[1744,1944,1093,1118]" gridcol="4" gridrow="7" pageId="36" pageNumber="37">6.3–8.0</td>
+</tr>
+<tr box="[151,1944,1138,1163]" gridrow="8" pageId="36" pageNumber="37">
+<th box="[151,555,1138,1163]" gridcol="0" gridrow="8" pageId="36" pageNumber="37">Second anal spine</th>
+<td box="[677,852,1138,1163]" gridcol="1" gridrow="8" pageId="36" pageNumber="37">14.4–16.9</td>
+<td box="[1037,1212,1138,1163]" gridcol="2" gridrow="8" pageId="36" pageNumber="37">14.9–16.9</td>
+<td box="[1397,1572,1138,1163]" gridcol="3" gridrow="8" pageId="36" pageNumber="37">18.2–22.9</td>
+<td box="[1744,1944,1138,1163]" gridcol="4" gridrow="8" pageId="36" pageNumber="37">15.5–18.4</td>
+</tr>
+<tr box="[151,1944,1183,1208]" gridrow="9" pageId="36" pageNumber="37">
+<th box="[151,555,1183,1208]" gridcol="0" gridrow="9" pageId="36" pageNumber="37">Third anal spine</th>
+<td box="[677,852,1183,1208]" gridcol="1" gridrow="9" pageId="36" pageNumber="37">12.0–13.7</td>
+<td box="[1037,1212,1183,1208]" gridcol="2" gridrow="9" pageId="36" pageNumber="37">11.8–13.2</td>
+<td box="[1397,1572,1183,1208]" gridcol="3" gridrow="9" pageId="36" pageNumber="37">14.7–18.4</td>
+<td box="[1744,1944,1183,1208]" gridcol="4" gridrow="9" pageId="36" pageNumber="37">12.0–14.4</td>
+</tr>
+<tr box="[151,1944,1229,1254]" gridrow="10" pageId="36" pageNumber="37">
+<th box="[151,555,1229,1254]" gridcol="0" gridrow="10" pageId="36" pageNumber="37">First segmented anal ray</th>
+<td box="[677,852,1229,1254]" gridcol="1" gridrow="10" pageId="36" pageNumber="37">17.2–20.1</td>
+<td box="[1037,1212,1229,1254]" gridcol="2" gridrow="10" pageId="36" pageNumber="37">16.6–19.2</td>
+<td box="[1397,1572,1229,1254]" gridcol="3" gridrow="10" pageId="36" pageNumber="37">17.3–22.7</td>
+<td box="[1744,1944,1229,1254]" gridcol="4" gridrow="10" pageId="36" pageNumber="37">18.4–21.4</td>
+</tr>
+<tr box="[151,1944,1274,1299]" gridrow="11" pageId="36" pageNumber="37">
+<th box="[151,555,1274,1299]" gridcol="0" gridrow="11" pageId="36" pageNumber="37">Longest segmented anal ray (number)</th>
+<td box="[677,852,1274,1299]" gridcol="1" gridrow="11" pageId="36" pageNumber="37">20.1–22.5 (2–3)</td>
+<td box="[1037,1212,1274,1299]" gridcol="2" gridrow="11" pageId="36" pageNumber="37">20.0–21.5 (3–4)</td>
+<td box="[1397,1572,1274,1299]" gridcol="3" gridrow="11" pageId="36" pageNumber="37">19.7–24.0 (2–3)</td>
+<td box="[1744,1944,1274,1299]" gridcol="4" gridrow="11" pageId="36" pageNumber="37">21.6–25.4 (2–3)</td>
+</tr>
+<tr box="[151,1944,1319,1344]" gridrow="12" pageId="36" pageNumber="37">
+<th box="[151,555,1319,1344]" gridcol="0" gridrow="12" pageId="36" pageNumber="37">Caudal fin length</th>
+<td box="[677,852,1319,1344]" gridcol="1" gridrow="12" pageId="36" pageNumber="37">22.0–27.5</td>
+<td box="[1037,1212,1319,1344]" gridcol="2" gridrow="12" pageId="36" pageNumber="37">25.9–31.2</td>
+<td box="[1397,1572,1319,1344]" gridcol="3" gridrow="12" pageId="36" pageNumber="37">25.1–39.6</td>
+<td box="[1744,1944,1319,1344]" gridcol="4" gridrow="12" pageId="36" pageNumber="37">29.0–36.0</td>
+</tr>
+<tr box="[151,1944,1365,1390]" gridrow="13" pageId="36" pageNumber="37">
+<th box="[151,555,1365,1390]" gridcol="0" gridrow="13" pageId="36" pageNumber="37">Caudal concavity</th>
+<td box="[677,852,1365,1390]" gridcol="1" gridrow="13" pageId="36" pageNumber="37">1.3–4.0</td>
+<td box="[1037,1212,1365,1390]" gridcol="2" gridrow="13" pageId="36" pageNumber="37">0.6–7.0</td>
+<td box="[1397,1572,1365,1390]" gridcol="3" gridrow="13" pageId="36" pageNumber="37">1.3–17.1</td>
+<td box="[1744,1944,1365,1390]" gridcol="4" gridrow="13" pageId="36" pageNumber="37">6.0–19.3</td>
+</tr>
+<tr box="[151,1944,1410,1435]" gridrow="14" pageId="36" pageNumber="37">
+<th box="[151,555,1410,1435]" gridcol="0" gridrow="14" pageId="36" pageNumber="37">Longest pectoral-fin ray (number)</th>
+<td box="[677,852,1410,1435]" gridcol="1" gridrow="14" pageId="36" pageNumber="37">30.1–34.7 (9–10)</td>
+<td box="[1037,1212,1410,1435]" gridcol="2" gridrow="14" pageId="36" pageNumber="37">33.4–38.7 (9–10)</td>
+<td box="[1397,1572,1410,1435]" gridcol="3" gridrow="14" pageId="36" pageNumber="37">29.0–32.8 (9–10)</td>
+<td box="[1744,1944,1410,1435]" gridcol="4" gridrow="14" pageId="36" pageNumber="37">35.1–38.3 (10)</td>
+</tr>
+<tr box="[151,1944,1455,1480]" gridrow="15" pageId="36" pageNumber="37">
+<th box="[151,555,1455,1480]" gridcol="0" gridrow="15" pageId="36" pageNumber="37">Pelvic fin spine</th>
+<td box="[677,852,1455,1480]" gridcol="1" gridrow="15" pageId="36" pageNumber="37">14.3–16.3</td>
+<td box="[1037,1212,1455,1480]" gridcol="2" gridrow="15" pageId="36" pageNumber="37">11.7–15.0</td>
+<td box="[1397,1572,1455,1480]" gridcol="3" gridrow="15" pageId="36" pageNumber="37">14.1–17.3</td>
+<td box="[1744,1944,1455,1480]" gridcol="4" gridrow="15" pageId="36" pageNumber="37">14.3–16.1</td>
+</tr>
+<tr box="[151,1944,1501,1526]" gridrow="16" pageId="36" pageNumber="37">
+<th box="[151,555,1501,1526]" gridcol="0" gridrow="16" pageId="36" pageNumber="37">Pelvic fin length</th>
+<td box="[677,852,1501,1526]" gridcol="1" gridrow="16" pageId="36" pageNumber="37">25.2–28.9</td>
+<td box="[1037,1212,1501,1526]" gridcol="2" gridrow="16" pageId="36" pageNumber="37">23.3–26.8</td>
+<td box="[1397,1572,1501,1526]" gridcol="3" gridrow="16" pageId="36" pageNumber="37">23.3–27.9</td>
+<td box="[1744,1944,1501,1526]" gridcol="4" gridrow="16" pageId="36" pageNumber="37">29.9–58.3</td>
+</tr>
+</table>
+</paragraph>
+<subSubSection pageId="37" pageNumber="38" type="materials_examined">
+<paragraph blockId="37.[151,1437,150,717]" pageId="37" pageNumber="38">
+<materialsCitation ID-GBIF-Occurrence="3026471512" pageId="37" pageNumber="38">
+<emphasis bold="true" box="[199,434,150,176]" pageId="37" pageNumber="38">Material examined.</emphasis>
+<emphasis bold="true" box="[442,793,150,177]" pageId="37" pageNumber="38">
+<collectingRegion box="[442,662,150,177]" country="Australia" name="Western Australia" pageId="37" pageNumber="38">Western Australia</collectingRegion>
+, 
+<collectingCountry box="[674,788,150,176]" name="Australia" pageId="37" pageNumber="38">Australia</collectingCountry>
+.
+</emphasis>
+<collectionCode box="[801,862,151,177]" pageId="37" pageNumber="38">AMS</collectionCode>
+I.20125-001, 
+<quantity box="[1023,1124,151,177]" metricMagnitude="-2" metricUnit="m" metricValue="4.84" pageId="37" pageNumber="38" unit="mm" value="48.4">48.4 mm</quantity>
+<collectionCode box="[1132,1164,151,177]" country="Sierra Leone" lsid="urn:lsid:biocol.org:col:14608" name="University of Sierra Leone, Njala University College" pageId="37" pageNumber="38" type="Herbarium">SL</collectionCode>
+(
+<typeStatus box="[1180,1282,151,177]" pageId="37" pageNumber="38">paratype</typeStatus>
+), off 
+<location LSID="urn:lsid:plazi:treatment:335587B2C4761C2BFF28FC88FDFEFD14:BE23607FC4721C2BFA80FAE7FF3BFF0C" country="Australia" name="Rottnest Island" pageId="37" pageNumber="38" stateProvince="Western Australia">Rottnest Island</location>
+, 
+<quantity box="[233,361,186,213]" metricMagnitude="2" metricUnit="m" metricValue="1.655" metricValueMax="1.66" metricValueMin="1.65" pageId="37" pageNumber="38" unit="m" value="165.5" valueMax="166.0" valueMin="165.0">
+<elevation box="[233,361,186,213]" metricMagnitude="2" metricUnit="m" metricValue="1.655" metricValueMax="1.66" metricValueMin="1.65" pageId="37" pageNumber="38" unit="m" value="165.5" valueMax="166.0" valueMin="165.0">165–166 m</elevation>
+</quantity>
+, dredge, 
+<collectionCode box="[462,484,187,213]" country="Chile" name="Departamento de Geologia, Universidad de Chile" pageId="37" pageNumber="38">R</collectionCode>
+. 
+<location LSID="urn:lsid:plazi:treatment:335587B2C4761C2BFF28FC88FDFEFD14:BE23607FC4721C2BFE51FACBFDA6FF0C" box="[494,579,187,213]" country="Australia" name="George" pageId="37" pageNumber="38" stateProvince="Western Australia">George</location>
+, 
+<collectorName box="[589,712,187,213]" pageId="37" pageNumber="38">
+FV 
+<emphasis box="[631,712,187,213]" italics="true" pageId="37" pageNumber="38">Bluefin</emphasis>
+</collectorName>
+, 
+<date box="[725,871,186,213]" pageId="37" pageNumber="38" value="1962-08-15">
+<collectingDate box="[725,871,186,213]" pageId="37" pageNumber="38" value="1962-08-15">15 Aug 1962</collectingDate>
+</date>
+;
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3026471492" pageId="37" pageNumber="38">
+<collectionCode box="[882,964,187,213]" country="Australia" httpUri="http://grbio.org/cool/0k2v-y6wz" name="Australian National Fish Collection" pageId="37" pageNumber="38" type="Museum">CSIRO</collectionCode>
+<specimenCode box="[971,1093,186,213]" collectionCode="CSIRO" country="Australia" httpUri="http://grbio.org/cool/0k2v-y6wz" name="Australian National Fish Collection" pageId="37" pageNumber="38" type="Museum">H 6365-14</specimenCode>
+, 
+<quantity box="[1104,1204,186,213]" metricMagnitude="-2" metricUnit="m" metricValue="4.529999999999999" pageId="37" pageNumber="38" unit="mm" value="45.3">45.3 mm</quantity>
+<collectionCode box="[1210,1245,187,213]" country="Sierra Leone" lsid="urn:lsid:biocol.org:col:14608" name="University of Sierra Leone, Njala University College" pageId="37" pageNumber="38" type="Herbarium">SL</collectionCode>
+, west of 
+<location LSID="urn:lsid:plazi:treatment:335587B2C4761C2BFF28FC88FDFEFD14:BE23607FC4721C2BFA80FACBFF3BFF20" country="Australia" latitude="-32.002" longLatPrecision="12" longitude="115.178" name="Rottnest Island" pageId="37" pageNumber="38" stateProvince="Western Australia">Rottnest Island</location>
+, 
+<geoCoordinate box="[234,361,224,251]" degrees="31" direction="south" minutes="59.54" orientation="latitude" pageId="37" pageNumber="38" precision="9" value="-31.992332">31°59.54′S</geoCoordinate>
+, 
+<geoCoordinate box="[373,511,224,251]" degrees="115" direction="east" minutes="10.98" orientation="longitude" pageId="37" pageNumber="38" precision="9" value="115.183">115°10.98′E</geoCoordinate>
+to 32°00.12′S, 115°10.68′E, 
+<quantity box="[840,970,222,249]" metricMagnitude="2" metricUnit="m" metricValue="4.93" metricValueMax="5.08" metricValueMin="4.779999999999999" pageId="37" pageNumber="38" unit="m" value="493.0" valueMax="508.0" valueMin="478.0">
+<elevation box="[840,970,222,249]" metricMagnitude="2" metricUnit="m" metricValue="4.93" metricValueMax="5.08" metricValueMin="4.779999999999999" pageId="37" pageNumber="38" unit="m" value="493.0" valueMax="508.0" valueMin="478.0">478–508 m</elevation>
+</quantity>
+, beam trawl, 
+<collectionCode box="[1123,1208,223,249]" country="Australia" httpUri="http://grbio.org/cool/0k2v-y6wz" name="Australian National Fish Collection" pageId="37" pageNumber="38" type="Museum">CSIRO</collectionCode>
+, 
+<collectionCode box="[1220,1272,223,249]" pageId="37" pageNumber="38">FRV</collectionCode>
+<emphasis italics="true" pageId="37" pageNumber="38">
+<location LSID="urn:lsid:plazi:treatment:335587B2C4761C2BFF28FC88FDFEFD14:BE23607FC4721C2BFABFFAAFFF30FEC5" country="Australia" name="Southern Surveyor" pageId="37" pageNumber="38" stateProvince="Western Australia">Southern Surveyor</location>
+</emphasis>
+, 
+<date box="[228,374,258,285]" pageId="37" pageNumber="38" value="2005-11-29">
+<collectingDate box="[228,374,258,285]" pageId="37" pageNumber="38" value="2005-11-29">29 Nov 2005</collectingDate>
+</date>
+(
+<specimenCode box="[389,480,258,285]" collectionCode="SS" country="Italy" lsid="urn:lsid:biocol.org:col:14400" name="Università di Sassari" pageId="37" pageNumber="38" type="Herbarium">SS1005</specimenCode>
+/68);
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3026471435" pageId="37" pageNumber="38">
+<collectionCode box="[538,620,259,285]" country="Australia" httpUri="http://grbio.org/cool/0k2v-y6wz" name="Australian National Fish Collection" pageId="37" pageNumber="38" type="Museum">CSIRO</collectionCode>
+<specimenCode box="[627,751,259,285]" collectionCode="CSIRO" country="Australia" httpUri="http://grbio.org/cool/0k2v-y6wz" name="Australian National Fish Collection" pageId="37" pageNumber="38" type="Museum">H 6371-10</specimenCode>
+, 71.0 mm 
+<collectionCode box="[869,904,259,285]" country="Sierra Leone" lsid="urn:lsid:biocol.org:col:14608" name="University of Sierra Leone, Njala University College" pageId="37" pageNumber="38" type="Herbarium">SL</collectionCode>
+, west of 
+<location LSID="urn:lsid:plazi:treatment:335587B2C4761C2BFF28FC88FDFEFD14:BE23607FC4721C2BFC52FB73FB85FEC4" box="[1005,1120,259,285]" country="Australia" latitude="-28.996666" longLatPrecision="12" longitude="113.769" name="Geraldton" pageId="37" pageNumber="38" stateProvince="Western Australia">Geraldton</location>
+, 
+<geoCoordinate box="[1131,1257,260,287]" degrees="28" direction="south" minutes="59.40" orientation="latitude" pageId="37" pageNumber="38" precision="9" value="-28.99">28°59.40′S</geoCoordinate>
+, 
+<geoCoordinate box="[1269,1408,260,287]" degrees="113" direction="east" minutes="45.90" orientation="longitude" pageId="37" pageNumber="38" precision="9" value="113.765">113°45.90′E</geoCoordinate>
+to 28°59.80′S, 113°46.14′E, 
+<quantity box="[444,574,295,321]" metricMagnitude="2" metricUnit="m" metricValue="3.9799999999999995" metricValueMax="4.07" metricValueMin="3.8899999999999997" pageId="37" pageNumber="38" unit="m" value="398.0" valueMax="407.0" valueMin="389.0">
+<elevation box="[444,574,295,321]" metricMagnitude="2" metricUnit="m" metricValue="3.9799999999999995" metricValueMax="4.07" metricValueMin="3.8899999999999997" pageId="37" pageNumber="38" unit="m" value="398.0" valueMax="407.0" valueMin="389.0">389–407 m</elevation>
+</quantity>
+, beam trawl, 
+<collectionCode box="[729,781,295,321]" pageId="37" pageNumber="38">FRV</collectionCode>
+<emphasis box="[789,999,295,321]" italics="true" pageId="37" pageNumber="38">
+<location LSID="urn:lsid:plazi:treatment:335587B2C4761C2BFF28FC88FDFEFD14:BE23607FC4721C2BFCAAFB57FC02FE98" box="[789,999,295,321]" country="Australia" name="Southern Surveyor" pageId="37" pageNumber="38" stateProvince="Western Australia">Southern Surveyor</location>
+</emphasis>
+, 
+<date box="[1014,1160,294,321]" pageId="37" pageNumber="38" value="2005-12-03">
+<collectingDate box="[1014,1160,294,321]" pageId="37" pageNumber="38" value="2005-12-03">03 Dec 2005</collectingDate>
+</date>
+(
+<specimenCode box="[1176,1265,294,321]" collectionCode="SS" country="Italy" lsid="urn:lsid:biocol.org:col:14400" name="Università di Sassari" pageId="37" pageNumber="38" type="Herbarium">SS1005</specimenCode>
+/90);
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3026471347" pageId="37" pageNumber="38">
+<collectionCode box="[1325,1407,295,321]" country="Australia" httpUri="http://grbio.org/cool/0k2v-y6wz" name="Australian National Fish Collection" pageId="37" pageNumber="38" type="Museum">CSIRO</collectionCode>
+<specimenCode collectionCode="CSIRO" country="Australia" httpUri="http://grbio.org/cool/0k2v-y6wz" name="Australian National Fish Collection" pageId="37" pageNumber="38" type="Museum">H 6476-02</specimenCode>
+, 
+<quantity box="[261,342,331,357]" metricMagnitude="-2" metricUnit="m" metricValue="6.7" pageId="37" pageNumber="38" unit="mm" value="67.0">67 mm</quantity>
+<collectionCode box="[350,382,331,357]" country="Sierra Leone" lsid="urn:lsid:biocol.org:col:14608" name="University of Sierra Leone, Njala University College" pageId="37" pageNumber="38" type="Herbarium">SL</collectionCode>
+(radiograph only), northwest of 
+<location LSID="urn:lsid:plazi:treatment:335587B2C4761C2BFF28FC88FDFEFD14:BE23607FC4721C2BFD49FB3BFCD1FEBC" box="[758,820,331,357]" country="Australia" latitude="-31.6285" longLatPrecision="12" longitude="115.003" name="Perth" pageId="37" pageNumber="38" stateProvince="Western Australia">Perth</location>
+, 
+<geoCoordinate box="[833,959,332,359]" degrees="31" direction="south" minutes="37.45" orientation="latitude" pageId="37" pageNumber="38" precision="9" value="-31.624166">31°37.45′S</geoCoordinate>
+, 
+<geoCoordinate box="[973,1111,332,359]" degrees="115" direction="east" minutes="00.24" orientation="longitude" pageId="37" pageNumber="38" precision="9" value="115.004">115°00.24′E</geoCoordinate>
+to 31°37.71′S, 115°00.18′E, 
+<quantity box="[151,282,366,393]" metricMagnitude="2" metricUnit="m" metricValue="2.075" metricValueMax="2.1" metricValueMin="2.05" pageId="37" pageNumber="38" unit="m" value="207.5" valueMax="210.0" valueMin="205.0">
+<elevation box="[151,282,366,393]" metricMagnitude="2" metricUnit="m" metricValue="2.075" metricValueMax="2.1" metricValueMin="2.05" pageId="37" pageNumber="38" unit="m" value="207.5" valueMax="210.0" valueMin="205.0">205–210 m</elevation>
+</quantity>
+, 
+<collectorName box="[295,395,367,393]" pageId="37" pageNumber="38">Sherman</collectorName>
+sled, 
+<collectionCode box="[463,515,367,393]" pageId="37" pageNumber="38">FRV</collectionCode>
+<emphasis box="[523,734,367,393]" italics="true" pageId="37" pageNumber="38">
+<location LSID="urn:lsid:plazi:treatment:335587B2C4761C2BFF28FC88FDFEFD14:BE23607FC4721C2BFDB4FB1FFD3BFE50" box="[523,734,367,393]" country="Australia" name="Southern Surveyor" pageId="37" pageNumber="38" stateProvince="Western Australia">Southern Surveyor</location>
+</emphasis>
+, 
+<date box="[749,898,366,393]" pageId="37" pageNumber="38" value="2005-11-19">
+<collectingDate box="[749,898,366,393]" pageId="37" pageNumber="38" value="2005-11-19">19 Nov 2005</collectingDate>
+</date>
+(
+<specimenCode box="[915,1007,366,393]" collectionCode="SS" country="Italy" lsid="urn:lsid:biocol.org:col:14400" name="Università di Sassari" pageId="37" pageNumber="38" type="Herbarium">SS1005</specimenCode>
+/11);
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3026471397" pageId="37" pageNumber="38">
+<collectionCode box="[1062,1130,367,393]" country="Australia" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34981" lsid="urn:lsid:biocol.org:col:34981" name="Western Australian Museum" pageId="37" pageNumber="38" type="Museum">WAM</collectionCode>
+P.23309-001, 55.0 mm 
+<collectionCode box="[1405,1437,367,393]" country="Sierra Leone" lsid="urn:lsid:biocol.org:col:14608" name="University of Sierra Leone, Njala University College" pageId="37" pageNumber="38" type="Herbarium">SL</collectionCode>
+(
+<typeStatus box="[159,260,403,429]" pageId="37" pageNumber="38">paratype</typeStatus>
+, radiograph only), west of 
+<location LSID="urn:lsid:plazi:treatment:335587B2C4761C2BFF28FC88FDFEFD14:BE23607FC4721C2BFD83FBE3FD44FE74" box="[572,673,403,429]" country="Australia" name="Lancelin" pageId="37" pageNumber="38" stateProvince="Western Australia">Lancelin</location>
+, HMAS 
+<taxonomicName box="[776,918,403,428]" class="Sordariomycetes" family="Xylariaceae" genus="Diamantinia" higherTaxonomySource="CoL" kingdom="Fungi" order="Xylariales" pageId="37" pageNumber="38" phylum="Ascomycota" rank="genus">
+<emphasis box="[776,918,403,428]" italics="true" pageId="37" pageNumber="38">Diamantinia</emphasis>
+</taxonomicName>
+, 
+<date box="[934,1086,403,429]" pageId="37" pageNumber="38" value="1972-03-23">
+<collectingDate box="[934,1086,403,429]" pageId="37" pageNumber="38" value="1972-03-23">23 Mar 1972</collectingDate>
+</date>
+; 
+<collectionCode box="[1100,1168,403,429]" country="Australia" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34981" lsid="urn:lsid:biocol.org:col:34981" name="Western Australian Museum" pageId="37" pageNumber="38" type="Museum">WAM</collectionCode>
+P.23334-001, 
+<quantity box="[1334,1437,403,429]" metricMagnitude="-2" metricUnit="m" metricValue="6.17" pageId="37" pageNumber="38" unit="mm" value="61.7">61.7 mm</quantity>
+<collectionCode box="[151,183,439,465]" country="Sierra Leone" lsid="urn:lsid:biocol.org:col:14608" name="University of Sierra Leone, Njala University College" pageId="37" pageNumber="38" type="Herbarium">SL</collectionCode>
+(
+<typeStatus box="[199,300,439,465]" pageId="37" pageNumber="38">paratype</typeStatus>
+, radiograph only), west of 
+<location LSID="urn:lsid:plazi:treatment:335587B2C4761C2BFF28FC88FDFEFD14:BE23607FC4721C2BFDDEFBC7FCEBFE08" box="[609,782,439,465]" country="Australia" latitude="-32.0" longLatPrecision="1213" longitude="115.25" name="Rottnest Island" pageId="37" pageNumber="38" stateProvince="Western Australia">Rottnest Island</location>
+, 
+<geoCoordinate box="[794,886,440,467]" degrees="32" direction="south" minutes="00" orientation="latitude" pageId="37" pageNumber="38" precision="925" value="-32.0">32°00′S</geoCoordinate>
+, 
+<geoCoordinate box="[899,1005,440,467]" degrees="115" direction="east" minutes="15" orientation="longitude" pageId="37" pageNumber="38" precision="925" value="115.25">115°15′E</geoCoordinate>
+, 
+<quantity box="[1018,1148,438,465]" metricMagnitude="2" metricUnit="m" metricValue="1.48" metricValueMax="1.5" metricValueMin="1.46" pageId="37" pageNumber="38" unit="m" value="148.0" valueMax="150.0" valueMin="146.0">
+<elevation box="[1018,1148,438,465]" metricMagnitude="2" metricUnit="m" metricValue="1.48" metricValueMax="1.5" metricValueMin="1.46" pageId="37" pageNumber="38" unit="m" value="148.0" valueMax="150.0" valueMin="146.0">146–150 m</elevation>
+</quantity>
+, HMAS 
+<taxonomicName box="[1251,1393,439,464]" class="Sordariomycetes" family="Xylariaceae" genus="Diamantinia" higherTaxonomySource="CoL" kingdom="Fungi" order="Xylariales" pageId="37" pageNumber="38" phylum="Ascomycota" rank="genus">
+<emphasis box="[1251,1393,439,464]" italics="true" pageId="37" pageNumber="38">Diamantinia</emphasis>
+</taxonomicName>
+, 
+<date pageId="37" pageNumber="38" value="1972-03-23">
+<collectingDate pageId="37" pageNumber="38" value="1972-03-23">23 Mar 1972</collectingDate>
+</date>
+;
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3026471501" pageId="37" pageNumber="38">
+<collectionCode box="[277,345,475,501]" country="Australia" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34981" lsid="urn:lsid:biocol.org:col:34981" name="Western Australian Museum" pageId="37" pageNumber="38" type="Museum">WAM</collectionCode>
+P.23325-001, 9: 
+<quantity box="[540,704,474,501]" metricMagnitude="-2" metricUnit="m" metricValue="4.375" metricValueMax="5.82" metricValueMin="2.93" pageId="37" pageNumber="38" unit="mm" value="43.75" valueMax="58.2" valueMin="29.3">29.3–58.2 mm</quantity>
+<collectionCode box="[712,744,475,501]" country="Sierra Leone" lsid="urn:lsid:biocol.org:col:14608" name="University of Sierra Leone, Njala University College" pageId="37" pageNumber="38" type="Herbarium">SL</collectionCode>
+(
+<typeStatus box="[759,872,475,501]" pageId="37" pageNumber="38">paratypes</typeStatus>
+), west of 
+<location LSID="urn:lsid:plazi:treatment:335587B2C4761C2BFF28FC88FDFEFD14:BE23607FC4721C2BFC67FBABFB87FE2C" box="[984,1122,475,501]" country="Australia" latitude="-29.983334" longLatPrecision="1224" longitude="118.416664" name="Green Head" pageId="37" pageNumber="38" stateProvince="Western Australia">Green Head</location>
+, 
+<geoCoordinate box="[1135,1226,476,503]" degrees="29" direction="south" minutes="59" orientation="latitude" pageId="37" pageNumber="38" precision="925" value="-29.983334">29°59′S</geoCoordinate>
+, 
+<geoCoordinate box="[1239,1345,476,503]" degrees="118" direction="east" minutes="25" orientation="longitude" pageId="37" pageNumber="38" precision="925" value="118.416664">118°25′E</geoCoordinate>
+, 
+<quantity box="[1357,1431,475,501]" metricMagnitude="2" metricUnit="m" metricValue="1.46" pageId="37" pageNumber="38" unit="m" value="146.0">
+<elevation box="[1357,1431,475,501]" metricMagnitude="2" metricUnit="m" metricValue="1.46" pageId="37" pageNumber="38" unit="m" value="146.0">146 m</elevation>
+</quantity>
+, dredge, HMAS 
+<emphasis box="[327,468,511,536]" italics="true" pageId="37" pageNumber="38">
+<taxonomicName box="[327,464,511,536]" class="Magnoliopsida" family="Podostemaceae" genus="Diamantina" kingdom="Plantae" order="Malpighiales" pageId="37" pageNumber="38" phylum="Tracheophyta" rank="genus">Diamantina</taxonomicName>
+,
+</emphasis>
+<date box="[474,620,511,537]" pageId="37" pageNumber="38" value="1972-03-22">
+<collectingDate box="[474,620,511,537]" pageId="37" pageNumber="38" value="1972-03-22">22 Mar 1972</collectingDate>
+</date>
+;
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3026471542" pageId="37" pageNumber="38">
+<collectionCode box="[630,698,511,537]" country="Australia" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34981" lsid="urn:lsid:biocol.org:col:34981" name="Western Australian Museum" pageId="37" pageNumber="38" type="Museum">WAM</collectionCode>
+P.23331-001, 
+<quantity box="[858,957,511,537]" metricMagnitude="-2" metricUnit="m" metricValue="4.72" pageId="37" pageNumber="38" unit="mm" value="47.2">47.2 mm</quantity>
+<collectionCode box="[963,998,511,537]" country="Sierra Leone" lsid="urn:lsid:biocol.org:col:14608" name="University of Sierra Leone, Njala University College" pageId="37" pageNumber="38" type="Herbarium">SL</collectionCode>
+, southwest of 
+<location LSID="urn:lsid:plazi:treatment:335587B2C4761C2BFF28FC88FDFEFD14:BE23607FC4721C2BFB3BFB8FFAA4FDC0" box="[1156,1345,511,537]" country="Australia" name="Cape Naturaliste" pageId="37" pageNumber="38" stateProvince="Western Australia">Cape Naturaliste</location>
+, HMAS 
+<taxonomicName box="[151,285,547,572]" class="Magnoliopsida" family="Podostemaceae" genus="Diamantina" kingdom="Plantae" order="Malpighiales" pageId="37" pageNumber="38" phylum="Tracheophyta" rank="genus">
+<emphasis box="[151,285,547,572]" italics="true" pageId="37" pageNumber="38">Diamantina</emphasis>
+</taxonomicName>
+, 
+<date box="[301,453,547,573]" pageId="37" pageNumber="38" value="1972-03-16">
+<collectingDate box="[301,453,547,573]" pageId="37" pageNumber="38" value="1972-03-16">16 Mar 1972</collectingDate>
+</date>
+;
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3026471446" pageId="37" pageNumber="38">
+<collectionCode box="[467,535,547,573]" country="Australia" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34981" lsid="urn:lsid:biocol.org:col:34981" name="Western Australian Museum" pageId="37" pageNumber="38" type="Museum">WAM</collectionCode>
+P.25625-001, 52.0 mm 
+<collectionCode box="[813,845,547,573]" country="Sierra Leone" lsid="urn:lsid:biocol.org:col:14608" name="University of Sierra Leone, Njala University College" pageId="37" pageNumber="38" type="Herbarium">SL</collectionCode>
+(
+<typeStatus box="[861,963,547,573]" pageId="37" pageNumber="38">holotype</typeStatus>
+, radiograph only), off southwest 
+<collectingRegion inferredBySuffix="true" pageId="37" pageNumber="38">Western Australia</collectingRegion>
+, 
+<geoCoordinate box="[267,359,584,611]" degrees="29" direction="south" minutes="09" orientation="latitude" pageId="37" pageNumber="38" precision="925" value="-29.15">29°09′S</geoCoordinate>
+, 
+<geoCoordinate box="[370,476,584,611]" degrees="113" direction="east" minutes="55" orientation="longitude" pageId="37" pageNumber="38" precision="925" value="113.916664">113°55′E</geoCoordinate>
+, 
+<quantity box="[487,560,583,609]" metricMagnitude="2" metricUnit="m" metricValue="1.03" pageId="37" pageNumber="38" unit="m" value="103.0">
+<elevation box="[487,560,583,609]" metricMagnitude="2" metricUnit="m" metricValue="1.03" pageId="37" pageNumber="38" unit="m" value="103.0">103 m</elevation>
+</quantity>
+, dredge, 
+<collectionCode box="[661,697,583,609]" country="Italy" name="Collection of Leptospira Strains" pageId="37" pageNumber="38">RV</collectionCode>
+<emphasis box="[704,807,583,609]" italics="true" pageId="37" pageNumber="38">
+<location LSID="urn:lsid:plazi:treatment:335587B2C4761C2BFF28FC88FDFEFD14:BE23607FC4721C2BFD7FF837FCC2FDB8" box="[704,807,583,609]" country="Australia" name="Sprightly" pageId="37" pageNumber="38" stateProvince="Western Australia">Sprightly</location>
+</emphasis>
+, 
+<date box="[820,962,583,609]" pageId="37" pageNumber="38" value="1976-02-19">
+<collectingDate box="[820,962,583,609]" pageId="37" pageNumber="38" value="1976-02-19">19 Feb 1976</collectingDate>
+</date>
+;
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3026471336" pageId="37" pageNumber="38">
+<collectionCode box="[973,1041,583,609]" country="Australia" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34981" lsid="urn:lsid:biocol.org:col:34981" name="Western Australian Museum" pageId="37" pageNumber="38" type="Museum">WAM</collectionCode>
+P.29069-001, 
+<quantity box="[1203,1302,583,609]" metricMagnitude="-2" metricUnit="m" metricValue="4.64" pageId="37" pageNumber="38" unit="mm" value="46.4">46.4 mm</quantity>
+<collectionCode box="[1309,1344,583,609]" country="Sierra Leone" lsid="urn:lsid:biocol.org:col:14608" name="University of Sierra Leone, Njala University College" pageId="37" pageNumber="38" type="Herbarium">SL</collectionCode>
+, west of 
+<location LSID="urn:lsid:plazi:treatment:335587B2C4761C2BFF28FC88FDFEFD14:BE23607FC4721C2BFF28F81BFEE8FD5C" box="[151,269,619,645]" country="Australia" latitude="-32.5" longLatPrecision="1210" longitude="115.0" name="Mandurah" pageId="37" pageNumber="38" stateProvince="Western Australia">Mandurah</location>
+, 
+<geoCoordinate box="[279,371,620,647]" degrees="32" direction="south" minutes="30" orientation="latitude" pageId="37" pageNumber="38" precision="925" value="-32.5">32°30′S</geoCoordinate>
+, 
+<geoCoordinate box="[381,486,620,647]" degrees="115" direction="east" minutes="00" orientation="longitude" pageId="37" pageNumber="38" precision="925" value="115.0">115°00′E</geoCoordinate>
+, HMAS 
+<taxonomicName box="[584,718,619,644]" class="Magnoliopsida" family="Podostemaceae" genus="Diamantina" kingdom="Plantae" order="Malpighiales" pageId="37" pageNumber="38" phylum="Tracheophyta" rank="genus">
+<emphasis box="[584,718,619,644]" italics="true" pageId="37" pageNumber="38">Diamantina</emphasis>
+</taxonomicName>
+, 
+<date box="[731,844,619,645]" pageId="37" pageNumber="38" value="1970-11">
+<collectingDate box="[731,844,619,645]" pageId="37" pageNumber="38" value="1970-11">Nov 1970</collectingDate>
+</date>
+; 
+<collectionCode box="[854,922,619,645]" country="Australia" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34981" lsid="urn:lsid:biocol.org:col:34981" name="Western Australian Museum" pageId="37" pageNumber="38" type="Museum">WAM</collectionCode>
+P.29070-001, 
+<quantity box="[1082,1181,618,645]" metricMagnitude="-2" metricUnit="m" metricValue="5.82" pageId="37" pageNumber="38" unit="mm" value="58.2">58.2 mm</quantity>
+<collectionCode box="[1186,1221,619,645]" country="Sierra Leone" lsid="urn:lsid:biocol.org:col:14608" name="University of Sierra Leone, Njala University College" pageId="37" pageNumber="38" type="Herbarium">SL</collectionCode>
+, west of 
+<location LSID="urn:lsid:plazi:treatment:335587B2C4761C2BFF28FC88FDFEFD14:BE23607FC4721C2BFA99F81BFF2FFD70" country="Australia" name="Garden Island" pageId="37" pageNumber="38" stateProvince="Western Australia">Garden Island</location>
+, HMAS 
+<taxonomicName box="[300,434,655,680]" class="Magnoliopsida" family="Podostemaceae" genus="Diamantina" kingdom="Plantae" order="Malpighiales" pageId="37" pageNumber="38" phylum="Tracheophyta" rank="genus">
+<emphasis box="[300,434,655,680]" italics="true" pageId="37" pageNumber="38">Diamantina</emphasis>
+</taxonomicName>
+, 
+<date box="[447,593,655,681]" pageId="37" pageNumber="38" value="1972-03-18">
+<collectingDate box="[447,593,655,681]" pageId="37" pageNumber="38" value="1972-03-18">18 Mar 1972</collectingDate>
+</date>
+;
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3026471486" pageId="37" pageNumber="38">
+<collectionCode box="[603,671,655,681]" country="Australia" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34981" lsid="urn:lsid:biocol.org:col:34981" name="Western Australian Museum" pageId="37" pageNumber="38" type="Museum">WAM</collectionCode>
+P.29071-001, 1: 
+<quantity box="[860,959,655,681]" metricMagnitude="-2" metricUnit="m" metricValue="4.32" pageId="37" pageNumber="38" unit="mm" value="43.2">43.2 mm</quantity>
+<collectionCode box="[965,1000,655,681]" country="Sierra Leone" lsid="urn:lsid:biocol.org:col:14608" name="University of Sierra Leone, Njala University College" pageId="37" pageNumber="38" type="Herbarium">SL</collectionCode>
+, west of 
+<location LSID="urn:lsid:plazi:treatment:335587B2C4761C2BFF28FC88FDFEFD14:BE23607FC4721C2BFBF5F8FFFB58FD70" box="[1098,1213,655,681]" country="Australia" latitude="-30.55" longLatPrecision="1221" longitude="114.53333" name="Cervantes" pageId="37" pageNumber="38" stateProvince="Western Australia">Cervantes</location>
+, 
+<geoCoordinate box="[1224,1315,656,683]" degrees="30" direction="south" minutes="33" orientation="latitude" pageId="37" pageNumber="38" precision="925" value="-30.55">30°33′S</geoCoordinate>
+, 
+<geoCoordinate box="[1326,1431,656,683]" degrees="114" direction="east" minutes="32" orientation="longitude" pageId="37" pageNumber="38" precision="925" value="114.53333">114°32′E</geoCoordinate>
+, HMAS 
+<taxonomicName box="[239,373,691,716]" class="Magnoliopsida" family="Podostemaceae" genus="Diamantina" kingdom="Plantae" order="Malpighiales" pageId="37" pageNumber="38" phylum="Tracheophyta" rank="genus">
+<emphasis box="[239,373,691,716]" italics="true" pageId="37" pageNumber="38">Diamantina</emphasis>
+</taxonomicName>
+, 
+<date box="[387,535,691,717]" pageId="37" pageNumber="38" value="1972-03-18">
+<collectingDate box="[387,535,691,717]" pageId="37" pageNumber="38" value="1972-03-18">18 Mar 1972</collectingDate>
+</date>
+.
+</materialsCitation>
+</paragraph>
+</subSubSection>
+</treatment>
+</document>
