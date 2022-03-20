@@ -1,0 +1,942 @@
+<document ID-DOI="http://doi.org/10.5281/zenodo.5033082" ID-GBIF-Dataset="73c0dde0-1a03-4fe2-8d13-05cd614ff3b1" ID-GBIF-Taxon="183197048" ID-ISSN="2118-9773" ID-Zenodo-Dep="5033082" ID-ZooBank="4A60FB62-20D7-4DC9-A4EA-BCE633730111" LSID="urn:lsid:zoobank.org:act:388F73BC-CA08-4397-8570-B2B163B622AC" checkinTime="1624643685756" checkinUser="felipe" docAuthor="Ha, Tuyet Ngan &amp; Tran, Anh Duc" docDate="2021" docId="039F87AF2456FFB9FDA8FA2FFD4DFA8B" docLanguage="en" docName="ejt-756_1-82.pdf" docOrigin="European Journal of Taxonomy 756" docSource="http://dx.doi.org/10.5852/ejt.2021.756.1407" docStyle="DocumentStyle:EF2B578F1D15862ADE45B0C07C620911.12:EJT.2018-.journal_article" docStyleId="EF2B578F1D15862ADE45B0C07C620911" docStyleName="EJT.2018-.journal_article" docStyleVersion="12" docTitle="Micronecta (Micronecta) arcuata Tran 2021, sp. nov." docType="treatment" docUuid="388F73BC-CA08-4397-8570-B2B163B622AC" docUuidSource="ZooBank" docVersion="5" lastPageId="35" lastPageNumber="36" masterDocId="FFA6FFD72477FF9AFFB7FFB9FFE0FFFA" masterDocTitle="Taxonomy of Micronectidae (Heteroptera: Nepomorpha) from Vietnam, with descriptions of 11 new species" masterLastPageNumber="82" masterPageNumber="1" pageId="33" pageNumber="34" updateTime="1632099320280" updateUser="ExternalLinkService" zenodo-license-document="CC-BY-4.0" zenodo-license-figures="CC-BY-4.0" zenodo-license-treatments="UNSPECIFIED">
+<mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
+<mods:titleInfo>
+<mods:title>Taxonomy of Micronectidae (Heteroptera: Nepomorpha) from Vietnam, with descriptions of 11 new species</mods:title>
+</mods:titleInfo>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Ha, Tuyet Ngan</mods:namePart>
+<mods:nameIdentifier type="LSID">568A022B-D36D-4147-8B0D-FB35B2A4D197</mods:nameIdentifier>
+<mods:affiliation>Faculty of Biology, VNU University of Science, Vietnam National University, Hanoi, 334 Nguyen Trai, Thanh Xuan, Hanoi, Vietnam.</mods:affiliation>
+<mods:nameIdentifier type="email">hatuyetngan95@gmail.com</mods:nameIdentifier>
+</mods:name>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Tran, Anh Duc</mods:namePart>
+<mods:nameIdentifier type="LSID">3CB36F17-D917-4600-B888-C33B1C04259F</mods:nameIdentifier>
+<mods:affiliation>Faculty of Biology, VNU University of Science, Vietnam National University, Hanoi, 334 Nguyen Trai, Thanh Xuan, Hanoi, Vietnam.</mods:affiliation>
+<mods:nameIdentifier type="email">tran.anhduc@hus.edu.vn</mods:nameIdentifier>
+</mods:name>
+<mods:typeOfResource>text</mods:typeOfResource>
+<mods:relatedItem type="host">
+<mods:titleInfo>
+<mods:title>European Journal of Taxonomy</mods:title>
+</mods:titleInfo>
+<mods:part>
+<mods:date>2021</mods:date>
+<mods:detail type="pubDate">
+<mods:number>2021-06-24</mods:number>
+</mods:detail>
+<mods:detail type="volume">
+<mods:number>756</mods:number>
+</mods:detail>
+<mods:extent unit="page">
+<mods:start>1</mods:start>
+<mods:end>82</mods:end>
+</mods:extent>
+</mods:part>
+</mods:relatedItem>
+<mods:location>
+<mods:url>http://dx.doi.org/10.5852/ejt.2021.756.1407</mods:url>
+</mods:location>
+<mods:classification>journal article</mods:classification>
+<mods:identifier type="DOI">https://doi.org/10.5852/ejt.2021.756.1407</mods:identifier>
+<mods:identifier type="GBIF-Dataset">73c0dde0-1a03-4fe2-8d13-05cd614ff3b1</mods:identifier>
+<mods:identifier type="ISSN">2118-9773</mods:identifier>
+<mods:identifier type="Zenodo-Dep">5033010</mods:identifier>
+<mods:identifier type="ZooBank">4A60FB62-20D7-4DC9-A4EA-BCE633730111</mods:identifier>
+</mods:mods>
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.5033082" ID-GBIF-Taxon="183197048" ID-Zenodo-Dep="5033082" LSID="urn:lsid:zoobank.org:act:388F73BC-CA08-4397-8570-B2B163B622AC" httpUri="http://treatment.plazi.org/id/039F87AF2456FFB9FDA8FA2FFD4DFA8B" lastPageId="35" lastPageNumber="36" pageId="33" pageNumber="34">
+<subSubSection box="[543,1045,1430,1457]" pageId="33" pageNumber="34" type="nomenclature">
+<paragraph blockId="33.[368,1219,1430,1533]" box="[543,1045,1430,1457]" pageId="33" pageNumber="34">
+<heading box="[543,1045,1430,1457]" centered="true" fontSize="11" level="2" pageId="33" pageNumber="34" reason="2">
+<taxonomicName authority="Tran, 2021" authorityName="Tran" authorityYear="2021" box="[543,947,1430,1457]" class="Insecta" family="Corixidae" genus="Micronecta" higherTaxonomySource="GBIF" kingdom="Animalia" order="Hemiptera" pageId="33" pageNumber="34" phylum="Arthropoda" rank="species" species="arcuata" status="sp. nov." subGenus="Micronecta">
+<emphasis bold="true" box="[543,947,1430,1457]" pageId="33" pageNumber="34">
+<emphasis bold="true" box="[543,682,1430,1456]" italics="true" pageId="33" pageNumber="34">Micronecta</emphasis>
+(
+<emphasis bold="true" box="[698,837,1430,1456]" italics="true" pageId="33" pageNumber="34">Micronecta</emphasis>
+) 
+<emphasis bold="true" box="[854,947,1431,1457]" italics="true" pageId="33" pageNumber="34">arcuata</emphasis>
+</emphasis>
+</taxonomicName>
+<taxonomicNameLabel box="[954,1045,1431,1457]" pageId="33" pageNumber="34" rank="species">sp. nov.</taxonomicNameLabel>
+</heading>
+</paragraph>
+</subSubSection>
+<subSubSection pageId="33" pageNumber="34" type="description">
+<paragraph blockId="33.[368,1219,1430,1533]" box="[368,1219,1468,1495]" pageId="33" pageNumber="34">
+<uri box="[368,1219,1468,1495]" pageId="33" pageNumber="34">
+urn:lsid:zoobank.org:act: 
+<uuid box="[655,1219,1468,1495]" pageId="33" pageNumber="34">388F73BC-CA08-4397-8570-B2B163B622AC</uuid>
+</uri>
+</paragraph>
+<paragraph blockId="33.[368,1219,1430,1533]" box="[706,881,1506,1533]" pageId="33" pageNumber="34">
+<figureCitation box="[706,802,1506,1533]" captionStart="Fig" captionStartId="25.[189,232,1822,1848]" captionTargetBox="[194,1393,264,1802]" captionTargetId="figure-115@25.[194,1393,264,1802]" captionTargetPageId="25" captionText="Fig. 5. Habitus photos of species of Micronecta Kirkaldy, 1897, ♂♂. A. M. grisea (Fieber, 1844) (ZRC). B. M. guttatostriata Lundblad, 1933 (ZVNU). C. M. drepani Nieser, 2000 (ZVNU). D. M. erythra Nieser, Chen &amp; Yang, 2005, right hemelytron (ZVNU). E. M. cultellata sp. nov., holotype (ZVNU). F. M. anatolica Lindberg, 1922 (ZVNU). G. M. arcuata sp. nov., holotype (ZVNU). H. M. fulvopicta sp. nov., holotype (ZVNU). I. M. acuminata sp. nov., holotype (ZVNU), right hemelytron and genitalia dissected. J–L. M. vietnamica sp. nov., J = holotype (ZVNU). All to the same scale." figureDoi="http://doi.org/10.5281/zenodo.5033022" httpUri="https://zenodo.org/record/5033022/files/figure.png" pageId="33" pageNumber="34">Figs 5G</figureCitation>
+, 
+<figureCitation box="[814,881,1507,1533]" captionStart="Fig" captionStartId="32.[189,232,1882,1908]" captionTargetBox="[202,1390,307,1812]" captionTargetId="figure-71@32.[189,1398,302,1828]" captionTargetPageId="32" captionText="Fig. 9. Morphological features of species of Micronecta Kirkaldy, 1897, ♂♂. A–E. M. anatolica Lindberg, 1922 (ZVNU). F–K. M. arcuata sp. nov., paratype (ZVNU). A, G = prestrigilar flap; B, H = median lobe of sternite VII; C, I = free lobe; D, J = right paramere; E, K = left paramere; F = fore leg." figureDoi="http://doi.org/10.5281/zenodo.5033034" httpUri="https://zenodo.org/record/5033034/files/figure.png" pageId="33" pageNumber="34">9F–K</figureCitation>
+</paragraph>
+</subSubSection>
+<subSubSection pageId="33" pageNumber="34" type="diagnosis">
+<paragraph blockId="33.[189,310,1575,1601]" box="[189,310,1575,1601]" pageId="33" pageNumber="34">
+<heading bold="true" box="[189,310,1575,1601]" fontSize="11" level="3" pageId="33" pageNumber="34" reason="3">
+<emphasis bold="true" box="[189,310,1575,1601]" pageId="33" pageNumber="34">Diagnosis</emphasis>
+</heading>
+</paragraph>
+<paragraph blockId="33.[189,1398,1624,1689]" pageId="33" pageNumber="34">Body length 1.6–2.2. Pronotum longer than median head length. Hemelytron punctate, with brown markings at middle part.</paragraph>
+<paragraph blockId="33.[189,1400,1731,2025]" pageId="33" pageNumber="34">
+Males: fore femur with a pair of spines on middle third ventrally, two spines on distal third dorsally; fore tibia without spine; pala: lower row with ca 18 bristles, upper row with ca 12 bristles; palar claw sub-triangular, apical margin nearly straight (
+<figureCitation box="[720,810,1807,1834]" captionStart="Fig" captionStartId="32.[189,232,1882,1908]" captionTargetBox="[202,1390,307,1812]" captionTargetId="figure-71@32.[189,1398,302,1828]" captionTargetPageId="32" captionText="Fig. 9. Morphological features of species of Micronecta Kirkaldy, 1897, ♂♂. A–E. M. anatolica Lindberg, 1922 (ZVNU). F–K. M. arcuata sp. nov., paratype (ZVNU). A, G = prestrigilar flap; B, H = median lobe of sternite VII; C, I = free lobe; D, J = right paramere; E, K = left paramere; F = fore leg." figureDoi="http://doi.org/10.5281/zenodo.5033034" httpUri="https://zenodo.org/record/5033034/files/figure.png" pageId="33" pageNumber="34">Fig. 9F</figureCitation>
+). Median lobe of sternite VII short, with four long setae and an angular apex (
+<figureCitation box="[526,624,1846,1872]" captionStart="Fig" captionStartId="32.[189,232,1882,1908]" captionTargetBox="[202,1390,307,1812]" captionTargetId="figure-71@32.[189,1398,302,1828]" captionTargetPageId="32" captionText="Fig. 9. Morphological features of species of Micronecta Kirkaldy, 1897, ♂♂. A–E. M. anatolica Lindberg, 1922 (ZVNU). F–K. M. arcuata sp. nov., paratype (ZVNU). A, G = prestrigilar flap; B, H = median lobe of sternite VII; C, I = free lobe; D, J = right paramere; E, K = left paramere; F = fore leg." figureDoi="http://doi.org/10.5281/zenodo.5033034" httpUri="https://zenodo.org/record/5033034/files/figure.png" pageId="33" pageNumber="34">Fig. 9H</figureCitation>
+). Free lobe sub-rectangular, mesial angle rounded, lateral angle square with ca 17 long setae, posterior margin slightly sinuate (
+<figureCitation box="[961,1046,1884,1910]" captionStart="Fig" captionStartId="32.[189,232,1882,1908]" captionTargetBox="[202,1390,307,1812]" captionTargetId="figure-71@32.[189,1398,302,1828]" captionTargetPageId="32" captionText="Fig. 9. Morphological features of species of Micronecta Kirkaldy, 1897, ♂♂. A–E. M. anatolica Lindberg, 1922 (ZVNU). F–K. M. arcuata sp. nov., paratype (ZVNU). A, G = prestrigilar flap; B, H = median lobe of sternite VII; C, I = free lobe; D, J = right paramere; E, K = left paramere; F = fore leg." figureDoi="http://doi.org/10.5281/zenodo.5033034" httpUri="https://zenodo.org/record/5033034/files/figure.png" pageId="33" pageNumber="34">Fig. 9I</figureCitation>
+). Left paramere: shaft broad, flat, and evenly curved outwards; apex narrowly rounded; basal lobe large, sub-rectangular (
+<figureCitation box="[1289,1386,1922,1948]" captionStart="Fig" captionStartId="32.[189,232,1882,1908]" captionTargetBox="[202,1390,307,1812]" captionTargetId="figure-71@32.[189,1398,302,1828]" captionTargetPageId="32" captionText="Fig. 9. Morphological features of species of Micronecta Kirkaldy, 1897, ♂♂. A–E. M. anatolica Lindberg, 1922 (ZVNU). F–K. M. arcuata sp. nov., paratype (ZVNU). A, G = prestrigilar flap; B, H = median lobe of sternite VII; C, I = free lobe; D, J = right paramere; E, K = left paramere; F = fore leg." figureDoi="http://doi.org/10.5281/zenodo.5033034" httpUri="https://zenodo.org/record/5033034/files/figure.png" pageId="33" pageNumber="34">Fig. 9K</figureCitation>
+). Right paramere: shaft parallel sided, strongly bent at distal fourth (by ca 45°), slightly thickened before rounded apex; pars stridens processus with ca 15 ridges (
+<figureCitation box="[857,941,1998,2024]" captionStart="Fig" captionStartId="32.[189,232,1882,1908]" captionTargetBox="[202,1390,307,1812]" captionTargetId="figure-71@32.[189,1398,302,1828]" captionTargetPageId="32" captionText="Fig. 9. Morphological features of species of Micronecta Kirkaldy, 1897, ♂♂. A–E. M. anatolica Lindberg, 1922 (ZVNU). F–K. M. arcuata sp. nov., paratype (ZVNU). A, G = prestrigilar flap; B, H = median lobe of sternite VII; C, I = free lobe; D, J = right paramere; E, K = left paramere; F = fore leg." figureDoi="http://doi.org/10.5281/zenodo.5033034" httpUri="https://zenodo.org/record/5033034/files/figure.png" pageId="33" pageNumber="34">Fig. 9J</figureCitation>
+).
+</paragraph>
+</subSubSection>
+<subSubSection pageId="34" pageNumber="35" type="etymology">
+<paragraph blockId="34.[189,324,265,291]" box="[189,324,265,291]" pageId="34" pageNumber="35">
+<heading bold="true" box="[189,324,265,291]" fontSize="11" level="3" pageId="34" pageNumber="35" reason="3">
+<emphasis bold="true" box="[189,324,265,291]" pageId="34" pageNumber="35">Etymology</emphasis>
+</heading>
+</paragraph>
+<paragraph blockId="34.[189,1398,312,375]" pageId="34" pageNumber="35">
+The species epithet ‘ 
+<taxonomicName authorityName="Tran" authorityYear="2021" box="[432,522,313,338]" class="Insecta" family="Corixidae" genus="Micronecta" higherTaxonomySource="GBIF" kingdom="Animalia" order="Hemiptera" pageId="34" pageNumber="35" phylum="Arthropoda" rank="species" species="arcuata">
+<emphasis box="[432,522,313,338]" italics="true" pageId="34" pageNumber="35">arcuata</emphasis>
+</taxonomicName>
+’ refers to the shape of the right paramere, which is slender and bent like a bow.
+</paragraph>
+</subSubSection>
+<subSubSection lastPageId="35" lastPageNumber="36" pageId="34" pageNumber="35" type="materials_examined">
+<paragraph blockId="34.[189,426,416,442]" box="[189,426,416,442]" pageId="34" pageNumber="35">
+<heading bold="true" box="[189,426,416,442]" fontSize="11" level="3" pageId="34" pageNumber="35" reason="3">
+<emphasis bold="true" box="[189,426,416,442]" pageId="34" pageNumber="35">Material examined</emphasis>
+</heading>
+</paragraph>
+<paragraph blockId="34.[189,1398,464,564]" box="[234,348,464,490]" pageId="34" pageNumber="35">
+<emphasis bold="true" box="[234,348,464,490]" pageId="34" pageNumber="35">
+<typeStatus box="[234,348,464,490]" pageId="34" pageNumber="35">Holotype</typeStatus>
+</emphasis>
+</paragraph>
+<paragraph blockId="34.[189,1398,464,564]" pageId="34" pageNumber="35">
+<materialsCitation ID-GBIF-Occurrence="3311572453" collectingDate="2014-05-09" collectionCode="ZVNU" collectorName="A. D. Tran" country="Vietnam" county="Vi Xuyen" location="Phuong Do" municipality="Nat'" pageId="34" pageNumber="35" specimenCode="TAD1407" specimenCount="1" specimenCount-male="1" stateProvince="Ha Giang Prov." typeStatus="holotype">
+<collectingCountry box="[189,324,501,527]" name="Vietnam" pageId="34" pageNumber="35">VIETNAM</collectingCountry>
+• 
+<specimenCount box="[348,373,501,527]" pageId="34" pageNumber="35" type="male">♂</specimenCount>
+; 
+<collectingRegion box="[385,568,501,527]" country="Vietnam" name="Ha Giang" pageId="34" pageNumber="35">Ha Giang Prov.</collectingRegion>
+, 
+<collectingCounty box="[578,693,501,527]" pageId="34" pageNumber="35">Vi Xuyen</collectingCounty>
+, 
+<locationDeviation box="[705,837,501,527]" pageId="34" pageNumber="35">Nat’ road 2</locationDeviation>
+, 
+<location LSID="urn:lsid:plazi:treatment:039F87AF2456FFB9FDA8FA2FFD4DFA8B:8EE960622455FFB8FCE6FE4CFC35FDF5" box="[849,981,501,527]" country="Vietnam" county="Vi Xuyen" municipality="Nat'" name="Phuong Do" pageId="34" pageNumber="35" stateProvince="Ha Giang Prov.">Phuong Do</location>
+commune, 
+<location LSID="urn:lsid:plazi:treatment:039F87AF2456FFB9FDA8FA2FFD4DFA8B:8EE960622455FFB8FBEAFE4CFB01FDF5" box="[1117,1249,501,527]" country="Vietnam" county="Vi Xuyen" municipality="Nat'" name="Phuong Do" pageId="34" pageNumber="35" stateProvince="Ha Giang Prov.">Phuong Do</location>
+stream, 
+<locationDeviation pageId="34" pageNumber="35">near bridge</locationDeviation>
+; 
+<date box="[279,425,538,564]" pageId="34" pageNumber="35" value="2014-05-09">
+<collectingDate box="[279,425,538,564]" pageId="34" pageNumber="35" value="2014-05-09">9 May 2014</collectingDate>
+</date>
+; 
+<collectorName box="[435,553,538,564]" pageId="34" pageNumber="35">A.D. Tran</collectorName>
+<emphasis box="[561,619,537,563]" italics="true" pageId="34" pageNumber="35">et al.</emphasis>
+leg.; 
+<specimenCode box="[685,805,538,564]" pageId="34" pageNumber="35">TAD1407</specimenCode>
+; 
+<collectionCode box="[817,902,538,564]" pageId="34" pageNumber="35">ZVNU</collectionCode>
+.
+</materialsCitation>
+</paragraph>
+<paragraph blockId="34.[189,1400,605,2025]" box="[234,359,605,631]" pageId="34" pageNumber="35">
+<emphasis bold="true" box="[234,359,605,631]" pageId="34" pageNumber="35">
+<typeStatus box="[234,359,605,631]" pageId="34" pageNumber="35">Paratypes</typeStatus>
+</emphasis>
+</paragraph>
+<paragraph blockId="34.[189,1400,605,2025]" lastBlockId="35.[189,1398,265,328]" lastPageId="35" lastPageNumber="36" pageId="34" pageNumber="35">
+<materialsCitation ID-GBIF-Occurrence="3311572542" box="[189,1240,641,668]" collectionCode="ZVNU" country="Vietnam" location="Ha Giang Prov." pageId="34" pageNumber="35" specimenCount="5" specimenCount-female="1" specimenCount-male="4" stateProvince="Ha Giang Prov." typeStatus="paratype">
+<collectingCountry box="[189,324,641,667]" name="Vietnam" pageId="34" pageNumber="35">VIETNAM</collectingCountry>
+– 
+<emphasis bold="true" box="[357,556,641,667]" pageId="34" pageNumber="35">
+<collectingRegion box="[357,556,641,667]" country="Vietnam" name="Ha Giang" pageId="34" pageNumber="35">Ha Giang Prov.</collectingRegion>
+</emphasis>
+• 
+<specimenCount box="[584,654,641,668]" pageId="34" pageNumber="35" type="male">4 ♂♂</specimenCount>
+, 
+<specimenCount box="[669,716,641,668]" pageId="34" pageNumber="35" type="female">1 ♀</specimenCount>
+; same locality data as for holotype; 
+<collectionCode box="[1155,1240,642,668]" pageId="34" pageNumber="35">ZVNU</collectionCode>
+</materialsCitation>
+. – 
+<materialsCitation ID-GBIF-Occurrence="3311572415" collectingDate="2020-11-06" collectionCode="ZVNU" collectorName="A. D. Tran" country="Vietnam" county="Loc Binh" elevation="590" location="Khuoi Tang" municipality="Mau Son" pageId="34" pageNumber="35" specimenCode="TAD20-34" specimenCount="1" specimenCount-male="1" stateProvince="Lang Son Prov." typeStatus="paratype">
+<emphasis bold="true" pageId="34" pageNumber="35">
+<collectingRegion country="Vietnam" name="Lang Son" pageId="34" pageNumber="35">Lang Son Prov.</collectingRegion>
+</emphasis>
+• 
+<specimenCount box="[281,330,678,704]" pageId="34" pageNumber="35" type="male">1 ♂</specimenCount>
+; 
+<collectingCounty box="[343,457,678,704]" pageId="34" pageNumber="35">Loc Binh</collectingCounty>
+, 
+<collectingMunicipality box="[470,580,678,704]" pageId="34" pageNumber="35">Mau Son</collectingMunicipality>
+, 
+<location LSID="urn:lsid:plazi:treatment:039F87AF2456FFB9FDA8FA2FFD4DFA8B:8EE960622455FFB8FDE6FD1FFD3CFD3A" box="[593,732,678,704]" country="Vietnam" county="Loc Binh" municipality="Mau Son" name="Khuoi Tang" pageId="34" pageNumber="35" stateProvince="Lang Son Prov.">Khuoi Tang</location>
+stream; 
+<elevation box="[836,976,678,705]" metricMagnitude="2" metricUnit="m" metricValue="5.9" pageId="34" pageNumber="35" unit="m" value="590.0">
+<quantity box="[836,911,678,705]" metricMagnitude="2" metricUnit="m" metricValue="5.9" pageId="34" pageNumber="35" unit="m" value="590.0">590 m</quantity>
+a.s.l.
+</elevation>
+; 
+<date box="[990,1140,678,704]" pageId="34" pageNumber="35" value="2020-11-06">
+<collectingDate box="[990,1140,678,704]" pageId="34" pageNumber="35" value="2020-11-06">6 Nov. 2020</collectingDate>
+</date>
+; 
+<collectorName box="[1151,1270,678,704]" pageId="34" pageNumber="35">A.D. Tran</collectorName>
+<emphasis box="[1279,1339,678,704]" italics="true" pageId="34" pageNumber="35">et al.</emphasis>
+leg.; 
+<specimenCode box="[190,320,715,741]" pageId="34" pageNumber="35">TAD20-34</specimenCode>
+; 
+<collectionCode box="[333,418,715,741]" pageId="34" pageNumber="35">ZVNU</collectionCode>
+</materialsCitation>
+. – 
+<materialsCitation ID-GBIF-Occurrence="3311572508" collectingDate="2013-06-07" collectionCode="ZVNU" collectorName="A. D. Tran" country="Vietnam" county="Ban Cai" location="Xuan Son N. P." municipality="Cai" pageId="34" pageNumber="35" specimenCode="TAD1339" specimenCount="3" specimenCount-female="2" specimenCount-male="1" stateProvince="Phu Tho Prov." typeStatus="paratype">
+<emphasis bold="true" box="[451,633,715,741]" pageId="34" pageNumber="35">
+<collectingRegion box="[451,633,715,741]" country="Vietnam" name="Phu Tho" pageId="34" pageNumber="35">Phu Tho Prov.</collectingRegion>
+</emphasis>
+• 
+<specimenCount box="[660,706,715,741]" pageId="34" pageNumber="35" type="male">1 ♂</specimenCount>
+, 
+<specimenCount box="[720,788,715,741]" pageId="34" pageNumber="35" type="female">2 ♀♀</specimenCount>
+; 
+<location LSID="urn:lsid:plazi:treatment:039F87AF2456FFB9FDA8FA2FFD4DFA8B:8EE960622455FFB8FC94FD72FC33FD1F" box="[803,979,715,741]" country="Vietnam" county="Ban Cai" municipality="Cai" name="Xuan Son N. P." pageId="34" pageNumber="35" stateProvince="Phu Tho Prov.">Xuan Son N.P.</location>
+, 
+<collectingCounty box="[992,1091,714,741]" pageId="34" pageNumber="35">Ban Cai</collectingCounty>
+, 
+<collectingMunicipality box="[1104,1145,714,740]" pageId="34" pageNumber="35">Cai</collectingMunicipality>
+stream, site 3, 
+<locationDeviation pageId="34" pageNumber="35">by the road to Tan Son</locationDeviation>
+; 
+<date box="[396,539,751,778]" pageId="34" pageNumber="35" value="2013-06-07">
+<collectingDate box="[396,539,751,778]" pageId="34" pageNumber="35" value="2013-06-07">7 Jun. 2013</collectingDate>
+</date>
+; 
+<collectorName box="[551,670,751,778]" pageId="34" pageNumber="35">A.D. Tran</collectorName>
+<emphasis box="[680,740,751,777]" italics="true" pageId="34" pageNumber="35">et al.</emphasis>
+leg.; 
+<specimenCode box="[807,927,751,777]" pageId="34" pageNumber="35">TAD1339</specimenCode>
+; 
+<collectionCode box="[940,1021,752,778]" pageId="34" pageNumber="35">ZVNU</collectionCode>
+</materialsCitation>
+• 
+<materialsCitation ID-GBIF-Occurrence="3311572418" collectingDate="2013-08-28" collectionCode="ZVNU" collectorName="A. D. Tran" country="Vietnam" location="Xuan San N. P." municipality="Kim Thuong" pageId="34" pageNumber="35" specimenCode="TAD1344" specimenCount="4" specimenCount-female="2" specimenCount-male="2" stateProvince="Phu Tho" typeStatus="paratype">
+<specimenCount box="[1049,1119,751,778]" pageId="34" pageNumber="35" type="male">2 ♂♂</specimenCount>
+, 
+<specimenCount box="[1133,1201,751,778]" pageId="34" pageNumber="35" type="female">2 ♀♀</specimenCount>
+; 
+<location LSID="urn:lsid:plazi:treatment:039F87AF2456FFB9FDA8FA2FFD4DFA8B:8EE960622455FFB8FB76FD49FA92FCF0" box="[1217,1394,751,778]" country="Vietnam" municipality="Kim Thuong" name="Xuan San N. P." pageId="34" pageNumber="35" stateProvince="Phu Tho">Xuan San N.P.</location>
+, 
+<collectingMunicipality box="[189,345,788,814]" pageId="34" pageNumber="35">Kim Thuong</collectingMunicipality>
+, 
+<location LSID="urn:lsid:plazi:treatment:039F87AF2456FFB9FDA8FA2FFD4DFA8B:8EE960622455FFB8FEDFFCADFE33FCD4" box="[360,467,788,814]" country="Vietnam" municipality="Kim Thuong" name="Ha Bang" pageId="34" pageNumber="35" stateProvince="Phu Tho">Ha Bang</location>
+stream; 
+<date box="[574,742,788,814]" pageId="34" pageNumber="35" value="2013-08-28">
+<collectingDate box="[574,742,788,814]" pageId="34" pageNumber="35" value="2013-08-28">28 Aug. 2013</collectingDate>
+</date>
+; 
+<collectorName box="[756,877,788,814]" pageId="34" pageNumber="35">A.D. Tran</collectorName>
+<emphasis box="[888,950,788,814]" italics="true" pageId="34" pageNumber="35">et al.</emphasis>
+leg.; 
+<specimenCode box="[1021,1142,788,814]" pageId="34" pageNumber="35">TAD1344</specimenCode>
+; 
+<collectionCode box="[1156,1237,788,814]" pageId="34" pageNumber="35">ZVNU</collectionCode>
+</materialsCitation>
+• 
+<materialsCitation ID-GBIF-Occurrence="3311572562" collectingDate="2013-08-29" collectionCode="ZVNU" collectorName="A. D. Tran" country="Vietnam" location="Xuan Son N. P." municipality="Ban Coi" pageId="34" pageNumber="35" specimenCode="TAD1349" specimenCount="1" specimenCount-female="1" stateProvince="Phu Tho" typeStatus="paratype">
+<specimenCount box="[1269,1317,788,814]" pageId="34" pageNumber="35" type="female">1 ♀</specimenCount>
+; 
+<location LSID="urn:lsid:plazi:treatment:039F87AF2456FFB9FDA8FA2FFD4DFA8B:8EE960622455FFB8FA80FCADFEC8FCA9" country="Vietnam" municipality="Ban Coi" name="Xuan Son N. P." pageId="34" pageNumber="35" stateProvince="Phu Tho">Xuan Son N.P.</location>
+, 
+<collectingMunicipality box="[310,412,824,851]" pageId="34" pageNumber="35">Ban Coi</collectingMunicipality>
+, Coi stream, site 1, 
+<location LSID="urn:lsid:plazi:treatment:039F87AF2456FFB9FDA8FA2FFD4DFA8B:8EE960622455FFB8FD26FC80FC57FCA8" box="[657,951,824,851]" country="Vietnam" municipality="Ban Coi" name="water from underground" pageId="34" pageNumber="35" stateProvince="Phu Tho">water from underground</location>
+; 
+<date box="[966,1133,825,851]" pageId="34" pageNumber="35" value="2013-08-29">
+<collectingDate box="[966,1133,825,851]" pageId="34" pageNumber="35" value="2013-08-29">29 Aug. 2013</collectingDate>
+</date>
+; 
+<collectorName box="[1146,1266,825,851]" pageId="34" pageNumber="35">A.D. Tran</collectorName>
+<emphasis box="[1279,1340,824,850]" italics="true" pageId="34" pageNumber="35">et al.</emphasis>
+leg.; 
+<specimenCode box="[191,312,861,887]" pageId="34" pageNumber="35">TAD1349</specimenCode>
+; 
+<collectionCode box="[325,406,862,888]" pageId="34" pageNumber="35">ZVNU</collectionCode>
+</materialsCitation>
+• 
+<materialsCitation ID-GBIF-Occurrence="3311572624" collectingDate="2014-08-26" collectionCode="ZVNU" collectorName="T. S. Nguyen" country="Vietnam" latitude="21.071466" location="Xuan Son N. P." longLatPrecision="1" longitude="104.95451" municipality="Tan Ong" pageId="34" pageNumber="35" specimenCode="TS1405" specimenCount="3" specimenCount-female="2" specimenCount-male="1" stateProvince="Phu Tho" typeStatus="paratype">
+<specimenCount box="[439,489,861,888]" pageId="34" pageNumber="35" type="male">1 ♂</specimenCount>
+, 
+<specimenCount box="[505,576,861,888]" pageId="34" pageNumber="35" type="female">2 ♀♀</specimenCount>
+; 
+<location LSID="urn:lsid:plazi:treatment:039F87AF2456FFB9FDA8FA2FFD4DFA8B:8EE960622455FFB8FDE4FCE7FCEAFC82" box="[595,778,861,888]" country="Vietnam" latitude="21.071466" longLatPrecision="1" longitude="104.95451" municipality="Tan Ong" name="Xuan Son N. P." pageId="34" pageNumber="35" stateProvince="Phu Tho">Xuan Son N.P.</location>
+, 
+<collectingMunicipality box="[793,899,861,888]" pageId="34" pageNumber="35">Tan Ong</collectingMunicipality>
+stream, 
+<locationDeviation box="[1006,1394,861,888]" pageId="34" pageNumber="35">
+<quantity box="[1006,1069,861,887]" metricMagnitude="3" metricUnit="m" metricValue="4.0" pageId="34" pageNumber="35" unit="km" value="4.0">4 km</quantity>
+from Chin Tang waterfall
+</locationDeviation>
+; 
+<geoCoordinate box="[189,350,896,924]" degrees="21" direction="north" minutes="04.288" orientation="latitude" pageId="34" pageNumber="35" precision="1" value="21.071466">21°04.288′ N</geoCoordinate>
+, 
+<geoCoordinate box="[364,536,896,924]" degrees="104" direction="east" minutes="57.271" orientation="longitude" pageId="34" pageNumber="35" precision="1" value="104.95451">104°57.271′ E</geoCoordinate>
+; 
+<date box="[550,716,898,924]" pageId="34" pageNumber="35" value="2014-08-26">
+<collectingDate box="[550,716,898,924]" pageId="34" pageNumber="35" value="2014-08-26">26 Aug. 2014</collectingDate>
+</date>
+; 
+<collectorName box="[729,878,898,924]" pageId="34" pageNumber="35">T.S. Nguyen</collectorName>
+leg.; 
+<specimenCode box="[947,1043,898,925]" pageId="34" pageNumber="35">TS1405</specimenCode>
+; 
+<collectionCode box="[1057,1138,898,924]" pageId="34" pageNumber="35">ZVNU</collectionCode>
+</materialsCitation>
+• 
+<materialsCitation ID-GBIF-Occurrence="3311572649" collectingDate="2014-08-27" collectionCode="ZVNU" collectorName="T. S. Nguyen" country="Vietnam" latitude="21.088383" location="Xuan Son N. P." longLatPrecision="1" longitude="104.95932" municipality="Xoan" pageId="34" pageNumber="35" specimenCode="TS1407" specimenCount="9" specimenCount-female="7" specimenCount-male="2" stateProvince="Phu Tho" typeStatus="paratype">
+<specimenCount box="[1166,1236,898,924]" pageId="34" pageNumber="35" type="male">2 ♂♂</specimenCount>
+, 
+<specimenCount box="[1250,1319,898,924]" pageId="34" pageNumber="35" type="female">7 ♀♀</specimenCount>
+; 
+<location LSID="urn:lsid:plazi:treatment:039F87AF2456FFB9FDA8FA2FFD4DFA8B:8EE960622455FFB8FA80FC3BFEC6FC3B" country="Vietnam" latitude="21.088383" longLatPrecision="1" longitude="104.95932" municipality="Xoan" name="Xuan Son N. P." pageId="34" pageNumber="35" stateProvince="Phu Tho">Xuan Son N.P.</location>
+, 
+<collectingMunicipality box="[306,370,935,961]" pageId="34" pageNumber="35">Xoan</collectingMunicipality>
+stream, 
+<locationDeviation box="[470,952,934,961]" pageId="34" pageNumber="35">near its confluence with Ha Bang stream</locationDeviation>
+; 
+<geoCoordinate box="[964,1109,933,961]" degrees="21" direction="north" minutes="5.303" orientation="latitude" pageId="34" pageNumber="35" precision="1" value="21.088383">21°5.303′ N</geoCoordinate>
+, 
+<geoCoordinate box="[1121,1293,933,961]" degrees="104" direction="east" minutes="57.559" orientation="longitude" pageId="34" pageNumber="35" precision="1" value="104.95932">104°57.559′ E</geoCoordinate>
+; 
+<date pageId="34" pageNumber="35" value="2014-08-27">
+<collectingDate pageId="34" pageNumber="35" value="2014-08-27">27 Aug. 2014</collectingDate>
+</date>
+; 
+<collectorName box="[263,410,971,998]" pageId="34" pageNumber="35">T.S. Nguyen</collectorName>
+leg.; 
+<specimenCode box="[475,572,971,997]" pageId="34" pageNumber="35">TS1407</specimenCode>
+; 
+<collectionCode box="[584,665,972,998]" pageId="34" pageNumber="35">ZVNU</collectionCode>
+</materialsCitation>
+• 
+<materialsCitation ID-GBIF-Occurrence="3311572579" collectingDate="2015-08-27" collectionCode="ZVNU" collectorName="T. S. Nguyen" country="Vietnam" latitude="21.189884" location="Xuan Son N. P." longLatPrecision="1" longitude="104.87708" pageId="34" pageNumber="35" specimenCode="TS8516" specimenCount="2" specimenCount-female="1" specimenCount-male="1" stateProvince="Phu Tho" typeStatus="paratype">
+<specimenCount box="[690,737,971,998]" pageId="34" pageNumber="35" type="male">1 ♂</specimenCount>
+, 
+<specimenCount box="[749,794,971,998]" pageId="34" pageNumber="35" type="female">1 ♀</specimenCount>
+; 
+<location LSID="urn:lsid:plazi:treatment:039F87AF2456FFB9FDA8FA2FFD4DFA8B:8EE960622455FFB8FC9EFC75FC38FC1C" box="[809,984,971,998]" country="Vietnam" latitude="21.189884" longLatPrecision="1" longitude="104.87708" name="Xuan Son N. P." pageId="34" pageNumber="35" stateProvince="Phu Tho">Xuan Son N.P.</location>
+, 
+<location LSID="urn:lsid:plazi:treatment:039F87AF2456FFB9FDA8FA2FFD4DFA8B:8EE960622455FFB8FC53FC72FBC0FC1F" box="[996,1056,971,997]" country="Vietnam" latitude="21.189884" longLatPrecision="1" longitude="104.87708" name="Than" pageId="34" pageNumber="35" stateProvince="Phu Tho">Than</location>
+stream, site 3; 
+<geoCoordinate box="[1235,1394,970,998]" degrees="21" direction="north" minutes="11.393" orientation="latitude" pageId="34" pageNumber="35" precision="1" value="21.189884">21°11.393′ N</geoCoordinate>
+, 
+<geoCoordinate box="[189,360,1006,1034]" degrees="104" direction="east" minutes="52.625" orientation="longitude" pageId="34" pageNumber="35" precision="1" value="104.87708">104°52.625′ E</geoCoordinate>
+; 
+<date box="[373,535,1008,1035]" pageId="34" pageNumber="35" value="2015-08-27">
+<collectingDate box="[373,535,1008,1035]" pageId="34" pageNumber="35" value="2015-08-27">27 Aug. 2015</collectingDate>
+</date>
+; 
+<collectorName box="[547,694,1008,1034]" pageId="34" pageNumber="35">T.S. Nguyen</collectorName>
+leg.; 
+<specimenCode box="[759,856,1008,1035]" pageId="34" pageNumber="35">TS8516</specimenCode>
+; 
+<collectionCode box="[868,949,1008,1034]" pageId="34" pageNumber="35">ZVNU</collectionCode>
+</materialsCitation>
+• 
+<materialsCitation ID-GBIF-Occurrence="3311572390" collectingDate="2015-08-28" collectionCode="NHMW" collectorName="T. S. Nguyen" country="Vietnam" latitude="21.187616" location="Xuan Son N. P." longLatPrecision="1" longitude="104.87303" pageId="34" pageNumber="35" specimenCode="TS1415" specimenCount="22" specimenCount-female="9" specimenCount-male="13" stateProvince="Phu Tho" typeStatus="paratype">
+<specimenCount box="[974,1057,1008,1034]" pageId="34" pageNumber="35" type="male">13 ♂♂</specimenCount>
+, 
+<specimenCount box="[1070,1137,1008,1034]" pageId="34" pageNumber="35" type="female">9 ♀♀</specimenCount>
+; 
+<location LSID="urn:lsid:plazi:treatment:039F87AF2456FFB9FDA8FA2FFD4DFA8B:8EE960622455FFB8FBC8FC49FACEFBF0" box="[1151,1326,1008,1034]" country="Vietnam" latitude="21.187616" longLatPrecision="1" longitude="104.87303" name="Xuan Son N. P." pageId="34" pageNumber="35" stateProvince="Phu Tho">Xuan Son N.P.</location>
+, 
+<location LSID="urn:lsid:plazi:treatment:039F87AF2456FFB9FDA8FA2FFD4DFA8B:8EE960622455FFB8FA8DFC49FA96FBF0" box="[1338,1398,1008,1034]" country="Vietnam" latitude="21.187616" longLatPrecision="1" longitude="104.87303" name="Than" pageId="34" pageNumber="35" stateProvince="Phu Tho">Than</location>
+stream, site 2; 
+<geoCoordinate box="[357,514,1043,1071]" degrees="21" direction="north" minutes="11.257" orientation="latitude" pageId="34" pageNumber="35" precision="1" value="21.187616">21°11.257′ N</geoCoordinate>
+, 
+<geoCoordinate box="[525,695,1043,1071]" degrees="104" direction="east" minutes="52.382" orientation="longitude" pageId="34" pageNumber="35" precision="1" value="104.87303">104°52.382′ E</geoCoordinate>
+; 
+<date box="[706,866,1044,1071]" pageId="34" pageNumber="35" value="2015-08-28">
+<collectingDate box="[706,866,1044,1071]" pageId="34" pageNumber="35" value="2015-08-28">28 Aug. 2015</collectingDate>
+</date>
+; 
+<collectorName box="[877,1023,1045,1071]" pageId="34" pageNumber="35">T.S. Nguyen</collectorName>
+leg.; 
+<specimenCode box="[1086,1183,1044,1071]" pageId="34" pageNumber="35">TS1415</specimenCode>
+; 
+<collectionCode box="[1193,1289,1045,1071]" collectionName="Austria, Wien, Naturhistorisches Museum Wien" country="Austria" httpUri="http://grbio.org/cool/91g3-0mnw" name="Naturhistorisches Museum, Wien" pageId="34" pageNumber="35" type="Museum">NHMW</collectionCode>
+</materialsCitation>
+• 
+<materialsCitation ID-GBIF-Occurrence="3311572625" collectingDate="2015-05-25" collectionCode="ZRC" collectorName="T. S. Nguyen" country="Vietnam" latitude="21.072384" location="Xuan Son N. P." longLatPrecision="1" longitude="104.98637" municipality="Ha Bang" pageId="34" pageNumber="35" specimenCode="TS1510" specimenCount="24" specimenCount-female="14" specimenCount-male="10" stateProvince="Phu Tho" typeStatus="paratype">
+<specimenCount box="[1312,1393,1045,1071]" pageId="34" pageNumber="35" type="male">10 ♂♂</specimenCount>
+, 
+<specimenCount box="[189,272,1081,1108]" pageId="34" pageNumber="35" type="female">14 ♀♀</specimenCount>
+; 
+<location LSID="urn:lsid:plazi:treatment:039F87AF2456FFB9FDA8FA2FFD4DFA8B:8EE960622455FFB8FEA8FB83FE30FBAE" box="[287,464,1081,1108]" country="Vietnam" latitude="21.072384" longLatPrecision="1" longitude="104.98637" municipality="Ha Bang" name="Xuan Son N. P." pageId="34" pageNumber="35" stateProvince="Phu Tho">Xuan Son N.P.</location>
+, 
+<collectingMunicipality box="[477,581,1082,1108]" pageId="34" pageNumber="35">Ha Bang</collectingMunicipality>
+stream, 
+<location LSID="urn:lsid:plazi:treatment:039F87AF2456FFB9FDA8FA2FFD4DFA8B:8EE960622455FFB8FD1CFB83FC8CFBA9" box="[683,876,1081,1108]" country="Vietnam" latitude="21.072384" longLatPrecision="1" longitude="104.98637" municipality="Ha Bang" name="Ha Bang village" pageId="34" pageNumber="35" stateProvince="Phu Tho">Ha Bang village</location>
+area; 
+<geoCoordinate box="[949,1109,1080,1108]" degrees="21" direction="north" minutes="04.343" orientation="latitude" pageId="34" pageNumber="35" precision="1" value="21.072384">21°04.343′ N</geoCoordinate>
+, 
+<geoCoordinate box="[1122,1294,1080,1108]" degrees="104" direction="east" minutes="59.182" orientation="longitude" pageId="34" pageNumber="35" precision="1" value="104.98637">104°59.182′ E</geoCoordinate>
+; 
+<date pageId="34" pageNumber="35" value="2015-05-25">
+<collectingDate pageId="34" pageNumber="35" value="2015-05-25">25 May 2015</collectingDate>
+</date>
+; 
+<collectorName box="[262,408,1118,1144]" pageId="34" pageNumber="35">T.S. Nguyen</collectorName>
+leg.; 
+<specimenCode box="[471,567,1118,1145]" pageId="34" pageNumber="35">TS1510</specimenCode>
+; 
+<collectionCode box="[579,636,1118,1144]" collectionName="Singapore, National University of Singapore, Raffles Museum of Biodiversity Research, Zoological Reference Collection" country="Singapore" httpUri="http://grbio.org/cool/16z4-1tbx" name="Zoological Reference Collection, National University of Singapore" pageId="34" pageNumber="35">ZRC</collectionCode>
+</materialsCitation>
+• 
+<materialsCitation ID-GBIF-Occurrence="3311572613" collectingDate="2015-05-24" collectionCode="ZVNU" collectorName="T. S. Nguyen" country="Vietnam" latitude="21.187616" location="Xuan Son N. P." longLatPrecision="1" longitude="104.87303" pageId="34" pageNumber="35" specimenCode="TS1515" specimenCount="9" specimenCount-female="4" specimenCount-male="5" stateProvince="Phu Tho" typeStatus="paratype">
+<specimenCount box="[659,726,1118,1145]" pageId="34" pageNumber="35" type="male">5 ♂♂</specimenCount>
+, 
+<specimenCount box="[738,804,1118,1144]" pageId="34" pageNumber="35" type="female">4 ♀♀</specimenCount>
+; 
+<location LSID="urn:lsid:plazi:treatment:039F87AF2456FFB9FDA8FA2FFD4DFA8B:8EE960622455FFB8FC86FBE7FC3FFB82" box="[817,991,1118,1144]" country="Vietnam" latitude="21.187616" longLatPrecision="1" longitude="104.87303" name="Xuan Son N. P." pageId="34" pageNumber="35" stateProvince="Phu Tho">Xuan Son N.P.</location>
+, 
+<location LSID="urn:lsid:plazi:treatment:039F87AF2456FFB9FDA8FA2FFD4DFA8B:8EE960622455FFB8FC5EFBE7FBC5FB82" box="[1001,1061,1118,1144]" country="Vietnam" latitude="21.187616" longLatPrecision="1" longitude="104.87303" name="Than" pageId="34" pageNumber="35" stateProvince="Phu Tho">Than</location>
+stream, site 2; 
+<geoCoordinate box="[1236,1394,1116,1144]" degrees="21" direction="north" minutes="11.257" orientation="latitude" pageId="34" pageNumber="35" precision="1" value="21.187616">21°11.257′ N</geoCoordinate>
+, 
+<geoCoordinate box="[189,360,1153,1181]" degrees="104" direction="east" minutes="52.382" orientation="longitude" pageId="34" pageNumber="35" precision="1" value="104.87303">104°52.382′ E</geoCoordinate>
+; 
+<date box="[373,533,1154,1181]" pageId="34" pageNumber="35" value="2015-05-24">
+<collectingDate box="[373,533,1154,1181]" pageId="34" pageNumber="35" value="2015-05-24">24 May 2015</collectingDate>
+</date>
+; 
+<collectorName box="[545,692,1155,1181]" pageId="34" pageNumber="35">T.S. Nguyen</collectorName>
+leg.; 
+<specimenCode box="[757,854,1154,1181]" pageId="34" pageNumber="35">TS1515</specimenCode>
+; 
+<collectionCode box="[866,947,1155,1181]" pageId="34" pageNumber="35">ZVNU</collectionCode>
+</materialsCitation>
+• 
+<materialsCitation ID-GBIF-Occurrence="3311572345" collectingDate="2015-05-21" collectionCode="ZVNU" collectorName="T. S. Nguyen" country="Vietnam" latitude="21.090883" location="Xuan Son N. P." longLatPrecision="1" longitude="104.93536" municipality="Xoan" pageId="34" pageNumber="35" specimenCode="TS1501" specimenCount="3" specimenCount-male="3" stateProvince="Phu Tho" typeStatus="paratype">
+<specimenCount box="[972,1042,1155,1181]" pageId="34" pageNumber="35" type="male">3 ♂♂</specimenCount>
+; 
+<location LSID="urn:lsid:plazi:treatment:039F87AF2456FFB9FDA8FA2FFD4DFA8B:8EE960622455FFB8FBA9FB3AFB2EFB67" box="[1054,1230,1155,1181]" country="Vietnam" latitude="21.090883" longLatPrecision="1" longitude="104.93536" municipality="Xoan" name="Xuan Son N. P." pageId="34" pageNumber="35" stateProvince="Phu Tho">Xuan Son N.P.</location>
+, 
+<collectingMunicipality box="[1242,1306,1155,1181]" pageId="34" pageNumber="35">Xoan</collectingMunicipality>
+stream, 
+<locationDeviation box="[189,409,1191,1218]" pageId="34" pageNumber="35">near Lang Village</locationDeviation>
+; 
+<geoCoordinate box="[425,573,1190,1218]" degrees="21" direction="north" minutes="5.453" orientation="latitude" pageId="34" pageNumber="35" precision="1" value="21.090883">21°5.453′ N</geoCoordinate>
+, 
+<geoCoordinate box="[588,763,1190,1218]" degrees="104" direction="east" minutes="56.122" orientation="longitude" pageId="34" pageNumber="35" precision="1" value="104.93536">104°56.122′ E</geoCoordinate>
+; 
+<date box="[779,946,1191,1218]" pageId="34" pageNumber="35" value="2015-05-21">
+<collectingDate box="[779,946,1191,1218]" pageId="34" pageNumber="35" value="2015-05-21">21 May 2015</collectingDate>
+</date>
+; 
+<collectorName box="[961,1111,1191,1218]" pageId="34" pageNumber="35">T.S. Nguyen</collectorName>
+leg.; 
+<specimenCode box="[1184,1280,1191,1218]" pageId="34" pageNumber="35">TS1501</specimenCode>
+; 
+<collectionCode box="[1296,1377,1192,1218]" pageId="34" pageNumber="35">ZVNU</collectionCode>
+</materialsCitation>
+• 
+<materialsCitation ID-GBIF-Occurrence="3311572515" collectingDate="2016-05-05" collectionCode="ZVNU" collectorName="T. S. Nguyen" country="Vietnam" latitude="21.090883" location="Xuan Son N. P" longLatPrecision="1" longitude="104.93536" municipality="Xoan" pageId="34" pageNumber="35" specimenCode="TS1601" specimenCount="10" specimenCount-female="6" specimenCount-male="4" stateProvince="Phu Tho" typeStatus="paratype">
+<specimenCount box="[189,260,1228,1255]" pageId="34" pageNumber="35" type="male">4 ♂♂</specimenCount>
+, 
+<specimenCount box="[276,346,1228,1255]" pageId="34" pageNumber="35" type="female">6 ♀♀</specimenCount>
+; 
+<location LSID="urn:lsid:plazi:treatment:039F87AF2456FFB9FDA8FA2FFD4DFA8B:8EE960622455FFB8FEDBFB74FDFEFB1D" box="[364,542,1228,1255]" country="Vietnam" latitude="21.090883" longLatPrecision="1" longitude="104.93536" municipality="Xoan" name="Xuan Son N. P" pageId="34" pageNumber="35" stateProvince="Phu Tho">Xuan Son N.P</location>
+., 
+<collectingMunicipality box="[561,625,1229,1255]" pageId="34" pageNumber="35">Xoan</collectingMunicipality>
+stream, 
+<locationDeviation box="[731,951,1228,1255]" pageId="34" pageNumber="35">near Lang Village</locationDeviation>
+; 
+<geoCoordinate box="[966,1114,1226,1255]" degrees="21" direction="north" minutes="5.453" orientation="latitude" pageId="34" pageNumber="35" precision="1" value="21.090883">21°5.453′ N</geoCoordinate>
+, 
+<geoCoordinate box="[1129,1304,1226,1255]" degrees="104" direction="east" minutes="56.122" orientation="longitude" pageId="34" pageNumber="35" precision="1" value="104.93536">104°56.122′ E</geoCoordinate>
+; 
+<date pageId="34" pageNumber="35" value="2016-05-05">
+<collectingDate pageId="34" pageNumber="35" value="2016-05-05">5 May 2016</collectingDate>
+</date>
+; 
+<collectorName box="[265,414,1265,1291]" pageId="34" pageNumber="35">T.S. Nguyen</collectorName>
+leg.; 
+<specimenCode box="[484,580,1265,1291]" pageId="34" pageNumber="35">TS1601</specimenCode>
+; 
+<collectionCode box="[595,676,1265,1291]" pageId="34" pageNumber="35">ZVNU</collectionCode>
+</materialsCitation>
+• 
+<materialsCitation ID-GBIF-Occurrence="3311572700" collectingDate="2016-05-08" collectionCode="ZVNU" collectorName="T. S. Nguyen" country="Vietnam" latitude="21.187616" location="Xuan Son N. P." longLatPrecision="1" longitude="104.87303" pageId="34" pageNumber="35" specimenCode="TS1615" specimenCount="3" specimenCount-male="3" stateProvince="Phu Tho" typeStatus="paratype">
+<specimenCount box="[706,777,1265,1291]" pageId="34" pageNumber="35" type="male">3 ♂♂</specimenCount>
+; 
+<location LSID="urn:lsid:plazi:treatment:039F87AF2456FFB9FDA8FA2FFD4DFA8B:8EE960622455FFB8FCAFFB48FC2BFAF1" box="[792,971,1265,1291]" country="Vietnam" latitude="21.187616" longLatPrecision="1" longitude="104.87303" name="Xuan Son N. P." pageId="34" pageNumber="35" stateProvince="Phu Tho">Xuan Son N.P.</location>
+, 
+<location LSID="urn:lsid:plazi:treatment:039F87AF2456FFB9FDA8FA2FFD4DFA8B:8EE960622455FFB8FC6EFB48FBF5FAF1" box="[985,1045,1265,1291]" country="Vietnam" latitude="21.187616" longLatPrecision="1" longitude="104.87303" name="Than" pageId="34" pageNumber="35" stateProvince="Phu Tho">Than</location>
+stream, site 2; 
+<geoCoordinate box="[1233,1394,1263,1291]" degrees="21" direction="north" minutes="11.257" orientation="latitude" pageId="34" pageNumber="35" precision="1" value="21.187616">21°11.257′ N</geoCoordinate>
+, 
+<geoCoordinate box="[189,362,1300,1328]" degrees="104" direction="east" minutes="52.382" orientation="longitude" pageId="34" pageNumber="35" precision="1" value="104.87303">104°52.382′ E</geoCoordinate>
+; 
+<date box="[376,525,1301,1328]" pageId="34" pageNumber="35" value="2016-05-08">
+<collectingDate box="[376,525,1301,1328]" pageId="34" pageNumber="35" value="2016-05-08">8 May 2016</collectingDate>
+</date>
+; 
+<collectorName box="[538,687,1301,1328]" pageId="34" pageNumber="35">T.S. Nguyen</collectorName>
+leg.; 
+<specimenCode box="[756,853,1301,1328]" pageId="34" pageNumber="35">TS1615</specimenCode>
+; 
+<collectionCode box="[866,947,1302,1328]" pageId="34" pageNumber="35">ZVNU</collectionCode>
+</materialsCitation>
+• 
+<materialsCitation ID-GBIF-Occurrence="3311572538" collectingDate="2016-05-07" collectionCode="ZVNU" collectorName="T. S. Nguyen" country="Vietnam" latitude="21.189884" location="Xuan Son N. P." longLatPrecision="1" longitude="104.87708" pageId="34" pageNumber="35" specimenCode="TS1616" specimenCount="11" specimenCount-female="5" specimenCount-male="6" stateProvince="Phu Tho" typeStatus="paratype">
+<specimenCount box="[976,1046,1301,1328]" pageId="34" pageNumber="35" type="male">6 ♂♂</specimenCount>
+, 
+<specimenCount box="[1061,1130,1301,1328]" pageId="34" pageNumber="35" type="female">5 ♀♀</specimenCount>
+; 
+<location LSID="urn:lsid:plazi:treatment:039F87AF2456FFB9FDA8FA2FFD4DFA8B:8EE960622455FFB8FBCDFAAFFACDFACA" box="[1146,1325,1301,1328]" country="Vietnam" latitude="21.189884" longLatPrecision="1" longitude="104.87708" name="Xuan Son N. P." pageId="34" pageNumber="35" stateProvince="Phu Tho">Xuan Son N.P.</location>
+, 
+<location LSID="urn:lsid:plazi:treatment:039F87AF2456FFB9FDA8FA2FFD4DFA8B:8EE960622455FFB8FA8DFAACFA96FAD5" box="[1338,1398,1301,1327]" country="Vietnam" latitude="21.189884" longLatPrecision="1" longitude="104.87708" name="Than" pageId="34" pageNumber="35" stateProvince="Phu Tho">Than</location>
+stream, site 3; 
+<geoCoordinate box="[356,513,1336,1365]" degrees="21" direction="north" minutes="11.393" orientation="latitude" pageId="34" pageNumber="35" precision="1" value="21.189884">21°11.393′ N</geoCoordinate>
+, 
+<geoCoordinate box="[524,694,1336,1365]" degrees="104" direction="east" minutes="52.625" orientation="longitude" pageId="34" pageNumber="35" precision="1" value="104.87708">104°52.625′ E</geoCoordinate>
+; 
+<date box="[705,848,1338,1365]" pageId="34" pageNumber="35" value="2016-05-07">
+<collectingDate box="[705,848,1338,1365]" pageId="34" pageNumber="35" value="2016-05-07">7 May 2016</collectingDate>
+</date>
+; 
+<collectorName box="[858,1004,1338,1365]" pageId="34" pageNumber="35">T.S. Nguyen</collectorName>
+leg.; 
+<specimenCode box="[1067,1163,1338,1364]" pageId="34" pageNumber="35">TS1616</specimenCode>
+; 
+<collectionCode box="[1174,1255,1339,1365]" pageId="34" pageNumber="35">ZVNU</collectionCode>
+</materialsCitation>
+• 
+<materialsCitation ID-GBIF-Occurrence="3311572443" collectingDate="2015-05-22" collectionCode="ZVNU" collectorName="T. S. Nguyen" country="Vietnam" latitude="21.088383" location="Xuan Son N. P." longLatPrecision="1" longitude="104.95932" municipality="Xoan" pageId="34" pageNumber="35" specimenCode="TS1507" specimenCount="1" specimenCount-male="1" stateProvince="Phu Tho" typeStatus="paratype">
+<specimenCount box="[1278,1324,1338,1365]" pageId="34" pageNumber="35" type="male">1 ♂</specimenCount>
+; 
+<location LSID="urn:lsid:plazi:treatment:039F87AF2456FFB9FDA8FA2FFD4DFA8B:8EE960622455FFB8FA80FA82FEC6FA83" country="Vietnam" latitude="21.088383" longLatPrecision="1" longitude="104.95932" municipality="Xoan" name="Xuan Son N. P." pageId="34" pageNumber="35" stateProvince="Phu Tho">Xuan Son N.P.</location>
+, 
+<collectingMunicipality box="[306,370,1375,1401]" pageId="34" pageNumber="35">Xoan</collectingMunicipality>
+stream, 
+<locationDeviation box="[471,953,1375,1401]" pageId="34" pageNumber="35">near its confluence with Ha Bang stream</locationDeviation>
+; 
+<geoCoordinate box="[965,1111,1373,1401]" degrees="21" direction="north" minutes="5.303" orientation="latitude" pageId="34" pageNumber="35" precision="1" value="21.088383">21°5.303′ N</geoCoordinate>
+, 
+<geoCoordinate box="[1123,1295,1373,1401]" degrees="104" direction="east" minutes="57.559" orientation="longitude" pageId="34" pageNumber="35" precision="1" value="104.95932">104°57.559′ E</geoCoordinate>
+; 
+<date pageId="34" pageNumber="35" value="2015-05-22">
+<collectingDate pageId="34" pageNumber="35" value="2015-05-22">22 May 2015</collectingDate>
+</date>
+; 
+<collectorName box="[261,407,1412,1438]" pageId="34" pageNumber="35">T.S. Nguyen</collectorName>
+leg.; 
+<specimenCode box="[470,566,1411,1438]" pageId="34" pageNumber="35">TS1507</specimenCode>
+; 
+<collectionCode box="[577,658,1412,1438]" pageId="34" pageNumber="35">ZVNU</collectionCode>
+</materialsCitation>
+• 
+<materialsCitation ID-GBIF-Occurrence="3311572369" collectingDate="2015-05-05" collectionCode="ZVNU" collectorName="T. S. Nguyen" country="Vietnam" latitude="21.088383" location="Xuan Son N. P." longLatPrecision="1" longitude="104.95932" municipality="Xoan" pageId="34" pageNumber="35" specimenCode="TS1607" specimenCount="7" specimenCount-female="4" specimenCount-male="3" stateProvince="Phu Tho" typeStatus="paratype">
+<specimenCount box="[680,747,1412,1438]" pageId="34" pageNumber="35" type="male">3 ♂♂</specimenCount>
+, 
+<specimenCount box="[758,824,1412,1438]" pageId="34" pageNumber="35" type="female">4 ♀♀</specimenCount>
+; 
+<location LSID="urn:lsid:plazi:treatment:039F87AF2456FFB9FDA8FA2FFD4DFA8B:8EE960622455FFB8FCF2FA3DFC11FA64" box="[837,1009,1412,1438]" country="Vietnam" latitude="21.088383" longLatPrecision="1" longitude="104.95932" municipality="Xoan" name="Xuan Son N. P." pageId="34" pageNumber="35" stateProvince="Phu Tho">Xuan Son N.P.</location>
+, 
+<collectingMunicipality box="[1020,1084,1412,1438]" pageId="34" pageNumber="35">Xoan</collectingMunicipality>
+stream, 
+<locationDeviation pageId="34" pageNumber="35">near its confluence with Ha Bang stream</locationDeviation>
+; 
+<geoCoordinate box="[460,607,1446,1475]" degrees="21" direction="north" minutes="5.303" orientation="latitude" pageId="34" pageNumber="35" precision="1" value="21.088383">21°5.303′ N</geoCoordinate>
+, 
+<geoCoordinate box="[620,793,1446,1475]" degrees="104" direction="east" minutes="57.559" orientation="longitude" pageId="34" pageNumber="35" precision="1" value="104.95932">104°57.559′ E</geoCoordinate>
+; 
+<date box="[807,956,1448,1475]" pageId="34" pageNumber="35" value="2015-05-05">
+<collectingDate box="[807,956,1448,1475]" pageId="34" pageNumber="35" value="2015-05-05">5 May 2015</collectingDate>
+</date>
+; 
+<collectorName box="[970,1118,1448,1475]" pageId="34" pageNumber="35">T.S. Nguyen</collectorName>
+leg.; 
+<specimenCode box="[1187,1284,1448,1474]" pageId="34" pageNumber="35">TS1607</specimenCode>
+; 
+<collectionCode box="[1298,1379,1449,1475]" pageId="34" pageNumber="35">ZVNU</collectionCode>
+</materialsCitation>
+• 
+<materialsCitation ID-GBIF-Occurrence="3311572412" collectingDate="2015-05-23" collectionCode="ZVNU" collectorName="T. S. Nguyen" country="Vietnam" latitude="21.087833" location="Xuan Son N. P." longLatPrecision="1" longitude="104.95985" municipality="Xoan" pageId="34" pageNumber="35" specimenCode="TS1509" specimenCount="9" specimenCount-female="3" specimenCount-male="6" stateProvince="Phu Tho" typeStatus="paratype">
+<specimenCount box="[189,259,1485,1511]" pageId="34" pageNumber="35" type="male">6 ♂♂</specimenCount>
+, 
+<specimenCount box="[273,342,1485,1511]" pageId="34" pageNumber="35" type="female">3 ♀♀</specimenCount>
+; 
+<location LSID="urn:lsid:plazi:treatment:039F87AF2456FFB9FDA8FA2FFD4DFA8B:8EE960622455FFB8FED1FA74FDF8FA1D" box="[358,536,1485,1511]" country="Vietnam" latitude="21.087833" longLatPrecision="1" longitude="104.95985" municipality="Xoan" name="Xuan Son N. P." pageId="34" pageNumber="35" stateProvince="Phu Tho">Xuan Son N.P.</location>
+, 
+<collectingMunicipality box="[550,614,1485,1511]" pageId="34" pageNumber="35">Xoan</collectingMunicipality>
+stream, 
+<location LSID="urn:lsid:plazi:treatment:039F87AF2456FFB9FDA8FA2FFD4DFA8B:8EE960622455FFB8FD7AFA74FC86FA1D" box="[717,870,1485,1511]" country="Vietnam" latitude="21.087833" longLatPrecision="1" longitude="104.95985" municipality="Xoan" name="Xoan village" pageId="34" pageNumber="35" stateProvince="Phu Tho">Xoan village</location>
+area; 
+<geoCoordinate box="[945,1106,1483,1511]" degrees="21" direction="north" minutes="05.270" orientation="latitude" pageId="34" pageNumber="35" precision="1" value="21.087833">21°05.270′ N</geoCoordinate>
+, 
+<geoCoordinate box="[1119,1292,1483,1511]" degrees="104" direction="east" minutes="57.591" orientation="longitude" pageId="34" pageNumber="35" precision="1" value="104.95985">104°57.591′ E</geoCoordinate>
+; 
+<date pageId="34" pageNumber="35" value="2015-05-23">
+<collectingDate pageId="34" pageNumber="35" value="2015-05-23">23 May 2015</collectingDate>
+</date>
+; 
+<collectorName box="[266,417,1522,1548]" pageId="34" pageNumber="35">T.S. Nguyen</collectorName>
+leg.; 
+<specimenCode box="[490,587,1521,1548]" pageId="34" pageNumber="35">TS1509</specimenCode>
+; 
+<collectionCode box="[602,683,1522,1548]" pageId="34" pageNumber="35">ZVNU</collectionCode>
+</materialsCitation>
+• 
+<materialsCitation ID-GBIF-Occurrence="3311572697" collectingDate="2016-05-07" collectionCode="ZVNU" collectorName="T. S. Nguyen" country="Vietnam" latitude="21.087833" location="Xuan Son N. P." longLatPrecision="1" longitude="104.95985" municipality="Xoan" pageId="34" pageNumber="35" specimenCode="TS1609" specimenCount="4" specimenCount-male="4" stateProvince="Phu Tho" typeStatus="paratype">
+<specimenCount box="[716,789,1522,1548]" pageId="34" pageNumber="35" type="male">4 ♂♂</specimenCount>
+; 
+<location LSID="urn:lsid:plazi:treatment:039F87AF2456FFB9FDA8FA2FFD4DFA8B:8EE960622455FFB8FC91FA4BFC3CF9F6" box="[806,988,1522,1548]" country="Vietnam" latitude="21.087833" longLatPrecision="1" longitude="104.95985" municipality="Xoan" name="Xuan Son N. P." pageId="34" pageNumber="35" stateProvince="Phu Tho">Xuan Son N.P.</location>
+, 
+<collectingMunicipality box="[1004,1068,1522,1548]" pageId="34" pageNumber="35">Xoan</collectingMunicipality>
+stream, 
+<location LSID="urn:lsid:plazi:treatment:039F87AF2456FFB9FDA8FA2FFD4DFA8B:8EE960622455FFB8FB2FFA4BFAD2F9F1" box="[1176,1330,1521,1548]" country="Vietnam" latitude="21.087833" longLatPrecision="1" longitude="104.95985" municipality="Xoan" name="Xoan village" pageId="34" pageNumber="35" stateProvince="Phu Tho">Xoan village</location>
+area; 
+<geoCoordinate box="[189,347,1557,1585]" degrees="21" direction="north" minutes="05.270" orientation="latitude" pageId="34" pageNumber="35" precision="1" value="21.087833">21°05.270′ N</geoCoordinate>
+, 
+<geoCoordinate box="[358,528,1557,1585]" degrees="104" direction="east" minutes="57.591" orientation="longitude" pageId="34" pageNumber="35" precision="1" value="104.95985">104°57.591′ E</geoCoordinate>
+; 
+<date box="[540,683,1558,1585]" pageId="34" pageNumber="35" value="2016-05-07">
+<collectingDate box="[540,683,1558,1585]" pageId="34" pageNumber="35" value="2016-05-07">7 May 2016</collectingDate>
+</date>
+; 
+<collectorName box="[693,839,1558,1585]" pageId="34" pageNumber="35">T.S. Nguyen</collectorName>
+leg.; 
+<specimenCode box="[902,999,1558,1584]" pageId="34" pageNumber="35">TS1609</specimenCode>
+; 
+<collectionCode box="[1010,1091,1559,1585]" pageId="34" pageNumber="35">ZVNU</collectionCode>
+</materialsCitation>
+• 
+<materialsCitation ID-GBIF-Occurrence="3311572664" collectingDate="2015-05-22" collectionCode="ZVNU" collectorName="T. S. Nguyen" country="Vietnam" latitude="21.071466" location="Xuan Son N. P." longLatPrecision="1" longitude="104.95451" municipality="Tan Ong" pageId="34" pageNumber="35" specimenCode="TS1505" specimenCount="1" specimenCount-male="1" stateProvince="Phu Tho" typeStatus="paratype">
+<specimenCount box="[1114,1160,1558,1585]" pageId="34" pageNumber="35" type="male">1 ♂</specimenCount>
+; 
+<location LSID="urn:lsid:plazi:treatment:039F87AF2456FFB9FDA8FA2FFD4DFA8B:8EE960622455FFB8FB24F9AEFAA0F9CB" box="[1171,1344,1558,1585]" country="Vietnam" latitude="21.071466" longLatPrecision="1" longitude="104.95451" municipality="Tan Ong" name="Xuan Son N. P." pageId="34" pageNumber="35" stateProvince="Phu Tho">Xuan Son N.P.</location>
+, 
+<collectingMunicipality pageId="34" pageNumber="35">Tan Ong</collectingMunicipality>
+stream, 
+<locationDeviation box="[340,711,1595,1621]" pageId="34" pageNumber="35">
+<quantity box="[340,400,1595,1621]" metricMagnitude="3" metricUnit="m" metricValue="4.0" pageId="34" pageNumber="35" unit="km" value="4.0">4 km</quantity>
+from Chin Tang waterfall
+</locationDeviation>
+; 
+<geoCoordinate box="[723,882,1593,1621]" degrees="21" direction="north" minutes="04.288" orientation="latitude" pageId="34" pageNumber="35" precision="1" value="21.071466">21°04.288′ N</geoCoordinate>
+, 
+<geoCoordinate box="[895,1066,1593,1621]" degrees="104" direction="east" minutes="57.271" orientation="longitude" pageId="34" pageNumber="35" precision="1" value="104.95451">104°57.271′ E</geoCoordinate>
+; 
+<date box="[1079,1239,1595,1622]" pageId="34" pageNumber="35" value="2015-05-22">
+<collectingDate box="[1079,1239,1595,1622]" pageId="34" pageNumber="35" value="2015-05-22">22 May 2015</collectingDate>
+</date>
+; 
+<collectorName box="[1251,1399,1595,1621]" pageId="34" pageNumber="35">T.S. Nguyen</collectorName>
+leg.; 
+<specimenCode box="[246,343,1631,1658]" pageId="34" pageNumber="35">TS1505</specimenCode>
+; 
+<collectionCode box="[354,435,1632,1658]" pageId="34" pageNumber="35">ZVNU</collectionCode>
+</materialsCitation>
+• 
+<materialsCitation ID-GBIF-Occurrence="3311572699" collectingDate="2015-05-22" collectionCode="ZVNU" collectorName="Xuan Son N. P. &amp; T. S. Nguyen" country="Vietnam" latitude="21.088633" location="Ha Bang" longLatPrecision="8" longitude="104.98116" municipality="Ha Bang" pageId="34" pageNumber="35" specimenCode="TS1506" specimenCount="2" specimenCount-female="1" specimenCount-male="1" stateProvince="Phu Tho" typeStatus="paratype">
+<specimenCount box="[458,504,1632,1658]" pageId="34" pageNumber="35" type="male">1 ♂</specimenCount>
+, 
+<specimenCount box="[515,559,1632,1658]" pageId="34" pageNumber="35" type="female">1 ♀</specimenCount>
+; 
+<collectorName box="[573,746,1632,1658]" pageId="34" pageNumber="35">Xuan Son N.P.</collectorName>
+, 
+<collectingMunicipality box="[758,860,1632,1658]" pageId="34" pageNumber="35">Ha Bang</collectingMunicipality>
+stream, 
+<locationDeviation box="[959,1394,1631,1658]" pageId="34" pageNumber="35">near its confluence with Xoan stream</locationDeviation>
+; 
+<geoCoordinate box="[189,334,1667,1695]" degrees="21" direction="north" minutes="5.318" orientation="latitude" pageId="34" pageNumber="35" precision="1" value="21.088633">21°5.318′ N</geoCoordinate>
+, 
+<geoCoordinate box="[346,503,1667,1695]" degrees="104" direction="east" minutes="58.87" orientation="longitude" pageId="34" pageNumber="35" precision="9" value="104.98116">104°58.87′ E</geoCoordinate>
+; 
+<date box="[516,677,1668,1695]" pageId="34" pageNumber="35" value="2015-05-22">
+<collectingDate box="[516,677,1668,1695]" pageId="34" pageNumber="35" value="2015-05-22">22 May 2015</collectingDate>
+</date>
+; 
+<collectorName box="[689,836,1668,1695]" pageId="34" pageNumber="35">T.S. Nguyen</collectorName>
+leg.; 
+<specimenCode box="[902,998,1668,1695]" pageId="34" pageNumber="35">TS1506</specimenCode>
+; 
+<collectionCode box="[1011,1092,1669,1695]" pageId="34" pageNumber="35">ZVNU</collectionCode>
+</materialsCitation>
+• 
+<materialsCitation ID-GBIF-Occurrence="3311572677" collectingDate="2016-05-06" collectionCode="ZVNU" collectorName="T. S. Nguyen" country="Vietnam" latitude="21.088633" location="Xuan Son N. P." longLatPrecision="8" longitude="104.98116" municipality="Ha Bang" pageId="34" pageNumber="35" specimenCode="TS1606DT" specimenCount="5" specimenCount-female="3" specimenCount-male="2" stateProvince="Phu Tho" typeStatus="paratype">
+<specimenCount box="[1118,1186,1668,1695]" pageId="34" pageNumber="35" type="male">2 ♂♂</specimenCount>
+, 
+<specimenCount box="[1199,1267,1668,1695]" pageId="34" pageNumber="35" type="female">3 ♀♀</specimenCount>
+; 
+<location LSID="urn:lsid:plazi:treatment:039F87AF2456FFB9FDA8FA2FFD4DFA8B:8EE960622455FFB8FAB5F93CFF10F939" country="Vietnam" latitude="21.088633" longLatPrecision="8" longitude="104.98116" municipality="Ha Bang" name="Xuan Son N. P." pageId="34" pageNumber="35" stateProvince="Phu Tho">Xuan Son N.P.</location>
+, 
+<collectingMunicipality box="[254,358,1705,1731]" pageId="34" pageNumber="35">Ha Bang</collectingMunicipality>
+stream, 
+<locationDeviation box="[460,905,1705,1731]" pageId="34" pageNumber="35">near its confluence with Xoan stream</locationDeviation>
+; 
+<geoCoordinate box="[917,1063,1703,1731]" degrees="21" direction="north" minutes="5.318" orientation="latitude" pageId="34" pageNumber="35" precision="1" value="21.088633">21°5.318′ N</geoCoordinate>
+, 
+<geoCoordinate box="[1076,1233,1703,1731]" degrees="104" direction="east" minutes="58.87" orientation="longitude" pageId="34" pageNumber="35" precision="9" value="104.98116">104°58.87′ E</geoCoordinate>
+; 
+<date box="[1247,1394,1705,1731]" pageId="34" pageNumber="35" value="2016-05-06">
+<collectingDate box="[1247,1394,1705,1731]" pageId="34" pageNumber="35" value="2016-05-06">6 May 2016</collectingDate>
+</date>
+; 
+<collectorName box="[189,337,1742,1768]" pageId="34" pageNumber="35">T.S. Nguyen</collectorName>
+leg.; 
+<specimenCode box="[405,539,1741,1767]" pageId="34" pageNumber="35">TS1606ĐT</specimenCode>
+; 
+<collectionCode box="[552,633,1742,1768]" pageId="34" pageNumber="35">ZVNU</collectionCode>
+</materialsCitation>
+• 
+<materialsCitation ID-GBIF-Occurrence="3311572479" collectingDate="2016-05-07" collectionCode="ZVNU" collectorName="T. S. Nguyen" country="Vietnam" latitude="21.072384" location="Xuan Son N. P." longLatPrecision="1" longitude="104.98637" municipality="Ha Bang" pageId="34" pageNumber="35" specimenCode="TS1610" specimenCount="3" specimenCount-female="2" specimenCount-male="1" stateProvince="Phu Tho" typeStatus="paratype">
+<specimenCount box="[661,709,1742,1768]" pageId="34" pageNumber="35" type="male">1 ♂</specimenCount>
+, 
+<specimenCount box="[722,791,1742,1768]" pageId="34" pageNumber="35" type="female">2 ♀♀</specimenCount>
+; 
+<location LSID="urn:lsid:plazi:treatment:039F87AF2456FFB9FDA8FA2FFD4DFA8B:8EE960622455FFB8FC90F977FC38F912" box="[807,984,1742,1768]" country="Vietnam" latitude="21.072384" longLatPrecision="1" longitude="104.98637" municipality="Ha Bang" name="Xuan Son N. P." pageId="34" pageNumber="35" stateProvince="Phu Tho">Xuan Son N.P.</location>
+, 
+<collectingMunicipality box="[998,1103,1742,1768]" pageId="34" pageNumber="35">Ha Bang</collectingMunicipality>
+stream, 
+<location LSID="urn:lsid:plazi:treatment:039F87AF2456FFB9FDA8FA2FFD4DFA8B:8EE960622455FFB8FB02F977FA97F91D" box="[1205,1399,1741,1768]" country="Vietnam" latitude="21.072384" longLatPrecision="1" longitude="104.98637" municipality="Ha Bang" name="Ha Bang village" pageId="34" pageNumber="35" stateProvince="Phu Tho">Ha Bang village</location>
+area; 
+<geoCoordinate box="[256,419,1777,1805]" degrees="21" direction="north" minutes="04.343" orientation="latitude" pageId="34" pageNumber="35" precision="1" value="21.072384">21°04.343′ N</geoCoordinate>
+, 
+<geoCoordinate box="[434,608,1777,1805]" degrees="104" direction="east" minutes="59.182" orientation="longitude" pageId="34" pageNumber="35" precision="1" value="104.98637">104°59.182′ E</geoCoordinate>
+; 
+<date box="[623,774,1778,1805]" pageId="34" pageNumber="35" value="2016-05-07">
+<collectingDate box="[623,774,1778,1805]" pageId="34" pageNumber="35" value="2016-05-07">7 May 2016</collectingDate>
+</date>
+; 
+<collectorName box="[789,939,1778,1805]" pageId="34" pageNumber="35">T.S. Nguyen</collectorName>
+leg.; 
+<specimenCode box="[1011,1107,1778,1804]" pageId="34" pageNumber="35">TS1610</specimenCode>
+; 
+<collectionCode box="[1122,1203,1779,1805]" pageId="34" pageNumber="35">ZVNU</collectionCode>
+</materialsCitation>
+• 
+<materialsCitation ID-GBIF-Occurrence="3311572572" collectingDate="2016-05-08" collectionCode="ZVNU" collectorName="T. S. Nguyen" country="Vietnam" latitude="21.1534" location="Xuan Son N. P." longLatPrecision="1" longitude="104.948784" municipality="Coi" pageId="34" pageNumber="35" specimenCode="TS1617" specimenCount="5" specimenCount-female="3" specimenCount-male="2" stateProvince="Phu Tho" typeStatus="paratype">
+<specimenCount box="[1234,1306,1778,1805]" pageId="34" pageNumber="35" type="male">2 ♂♂</specimenCount>
+, 
+<specimenCount box="[1321,1391,1778,1805]" pageId="34" pageNumber="35" type="female">3 ♀♀</specimenCount>
+; 
+<location LSID="urn:lsid:plazi:treatment:039F87AF2456FFB9FDA8FA2FFD4DFA8B:8EE960622455FFB8FF0AF8AEFE8EF8CB" box="[189,366,1815,1841]" country="Vietnam" latitude="21.1534" longLatPrecision="1" longitude="104.948784" municipality="Coi" name="Xuan Son N. P." pageId="34" pageNumber="35" stateProvince="Phu Tho">Xuan Son N.P.</location>
+, 
+<collectingMunicipality box="[379,421,1815,1841]" pageId="34" pageNumber="35">Coi</collectingMunicipality>
+stream, site 1, 
+<locationDeviation box="[602,875,1815,1841]" pageId="34" pageNumber="35">by the road to Tan Son</locationDeviation>
+; 
+<geoCoordinate box="[888,1049,1813,1841]" degrees="21" direction="north" minutes="09.204" orientation="latitude" pageId="34" pageNumber="35" precision="1" value="21.1534">21°09.204′ N</geoCoordinate>
+, 
+<geoCoordinate box="[1061,1233,1813,1841]" degrees="104" direction="east" minutes="56.927" orientation="longitude" pageId="34" pageNumber="35" precision="1" value="104.948784">104°56.927′ E</geoCoordinate>
+; 
+<date box="[1247,1394,1815,1841]" pageId="34" pageNumber="35" value="2016-05-08">
+<collectingDate box="[1247,1394,1815,1841]" pageId="34" pageNumber="35" value="2016-05-08">8 May 2016</collectingDate>
+</date>
+; 
+<collectorName box="[189,335,1852,1878]" pageId="34" pageNumber="35">T.S. Nguyen</collectorName>
+leg.; 
+<specimenCode box="[399,496,1851,1877]" pageId="34" pageNumber="35">TS1617</specimenCode>
+; 
+<collectionCode box="[507,588,1852,1878]" pageId="34" pageNumber="35">ZVNU</collectionCode>
+</materialsCitation>
+• 
+<materialsCitation ID-GBIF-Occurrence="3311572627" collectingDate="2015-05-24" collectionCode="ZVNU" collectorName="T. S. Nguyen" country="Vietnam" latitude="21.152166" location="Xuan Son N. P." longLatPrecision="1" longitude="104.946014" pageId="34" pageNumber="35" specimenCode="TS1518" specimenCount="6" specimenCount-female="5" specimenCount-male="1" stateProvince="Phu Tho" typeStatus="paratype">
+<specimenCount box="[612,657,1852,1878]" pageId="34" pageNumber="35" type="male">1 ♂</specimenCount>
+, 
+<specimenCount box="[669,736,1851,1878]" pageId="34" pageNumber="35" type="female">5 ♀♀</specimenCount>
+; 
+<location LSID="urn:lsid:plazi:treatment:039F87AF2456FFB9FDA8FA2FFD4DFA8B:8EE960622455FFB8FD59F885FC7BF8AC" box="[750,923,1852,1878]" country="Vietnam" latitude="21.152166" longLatPrecision="1" longitude="104.946014" name="Xuan Son N. P." pageId="34" pageNumber="35" stateProvince="Phu Tho">Xuan Son N.P.</location>
+, 
+<location LSID="urn:lsid:plazi:treatment:039F87AF2456FFB9FDA8FA2FFD4DFA8B:8EE960622455FFB8FC10F882FC31F8AF" box="[935,977,1851,1877]" country="Vietnam" latitude="21.152166" longLatPrecision="1" longitude="104.946014" name="Coi" pageId="34" pageNumber="35" stateProvince="Phu Tho">Coi</location>
+stream, site 2, 
+<locationDeviation box="[1152,1394,1851,1878]" pageId="34" pageNumber="35">near concrete bridge</locationDeviation>
+; 
+<geoCoordinate box="[189,352,1887,1915]" degrees="21" direction="north" minutes="09.130" orientation="latitude" pageId="34" pageNumber="35" precision="1" value="21.152166">21°09.130′ N</geoCoordinate>
+, 
+<geoCoordinate box="[366,541,1887,1915]" degrees="104" direction="east" minutes="56.761" orientation="longitude" pageId="34" pageNumber="35" precision="1" value="104.946014">104°56.761′ E</geoCoordinate>
+; 
+<date box="[556,722,1888,1915]" pageId="34" pageNumber="35" value="2015-05-24">
+<collectingDate box="[556,722,1888,1915]" pageId="34" pageNumber="35" value="2015-05-24">24 May 2015</collectingDate>
+</date>
+; 
+<collectorName box="[737,887,1888,1915]" pageId="34" pageNumber="35">T.S. Nguyen</collectorName>
+leg.; 
+<specimenCode box="[958,1055,1888,1915]" pageId="34" pageNumber="35">TS1518</specimenCode>
+; 
+<collectionCode box="[1070,1151,1889,1915]" pageId="34" pageNumber="35">ZVNU</collectionCode>
+</materialsCitation>
+• 
+<materialsCitation ID-GBIF-Occurrence="3311572372" collectingDate="2014-08-28" collectionCode="ZVNU" collectorName="T. S. Nguyen" country="Vietnam" latitude="21.1387" location="Xuan Son N. P." longLatPrecision="1" longitude="104.9376" municipality="Lap" pageId="34" pageNumber="35" specimenCode="TS1413" specimenCount="3" specimenCount-female="2" specimenCount-male="1" stateProvince="Phu Tho" typeStatus="paratype">
+<specimenCount box="[1182,1232,1888,1915]" pageId="34" pageNumber="35" type="male">1 ♂</specimenCount>
+, 
+<specimenCount box="[1247,1317,1888,1915]" pageId="34" pageNumber="35" type="female">2 ♀♀</specimenCount>
+; 
+<location LSID="urn:lsid:plazi:treatment:039F87AF2456FFB9FDA8FA2FFD4DFA8B:8EE960622455FFB8FA80F8D8FEC7F865" country="Vietnam" latitude="21.1387" longLatPrecision="1" longitude="104.9376" municipality="Lap" name="Xuan Son N. P." pageId="34" pageNumber="35" stateProvince="Phu Tho">Xuan Son N.P.</location>
+, Lap stream, 
+<locationDeviation box="[458,1032,1925,1951]" pageId="34" pageNumber="35">the second concrete bridge from Ngoc waterfall</locationDeviation>
+; 
+<geoCoordinate box="[1046,1207,1923,1951]" degrees="21" direction="north" minutes="08.322" orientation="latitude" pageId="34" pageNumber="35" precision="1" value="21.1387">21°08.322′ N</geoCoordinate>
+, 
+<geoCoordinate box="[1220,1393,1923,1951]" degrees="104" direction="east" minutes="56.256" orientation="longitude" pageId="34" pageNumber="35" precision="1" value="104.9376">104°56.256′ E</geoCoordinate>
+; 
+<date box="[189,354,1962,1988]" pageId="34" pageNumber="35" value="2014-08-28">
+<collectingDate box="[189,354,1962,1988]" pageId="34" pageNumber="35" value="2014-08-28">28 Aug. 2014</collectingDate>
+</date>
+; 
+<collectorName box="[367,515,1962,1988]" pageId="34" pageNumber="35">T.S. Nguyen</collectorName>
+leg.; 
+<specimenCode box="[583,679,1962,1988]" pageId="34" pageNumber="35">TS1413</specimenCode>
+; 
+<collectionCode box="[692,777,1962,1988]" pageId="34" pageNumber="35">ZVNU</collectionCode>
+</materialsCitation>
+. – 
+<materialsCitation ID-GBIF-Occurrence="3311572586" collectingDate="2012-04-27" collectionCode="ZVNU" collectorName="Q. H. Ngo &amp; A. D. Tran" country="Vietnam" elevation="95" location="Ba Vi N. P." municipality="Khoang Xanh" pageId="34" pageNumber="35" specimenCode="TAD1208" specimenCount="8" specimenCount-female="6" specimenCount-male="2" stateProvince="Hanoi" typeStatus="paratype">
+<emphasis bold="true" box="[814,891,1961,1987]" pageId="34" pageNumber="35">
+<collectingRegion box="[814,891,1961,1987]" country="Vietnam" name="Ha Noi" pageId="34" pageNumber="35">Hanoi</collectingRegion>
+</emphasis>
+• 
+<specimenCount box="[917,986,1962,1988]" pageId="34" pageNumber="35" type="male">2 ♂♂</specimenCount>
+, 
+<specimenCount box="[1000,1069,1962,1988]" pageId="34" pageNumber="35" type="female">6 ♀♀</specimenCount>
+; 
+<location LSID="urn:lsid:plazi:treatment:039F87AF2456FFB9FDA8FA2FFD4DFA8B:8EE960622455FFB8FB8BF813FB5DF83E" box="[1084,1213,1962,1988]" country="Vietnam" municipality="Khoang Xanh" name="Ba Vi N. P." pageId="34" pageNumber="35" stateProvince="Hanoi">Ba Vi N.P.</location>
+, 
+<collectingMunicipality box="[1226,1394,1962,1988]" pageId="34" pageNumber="35">Khoang Xanh</collectingMunicipality>
+, 
+<location LSID="urn:lsid:plazi:treatment:039F87AF2456FFB9FDA8FA2FFD4DFA8B:8EE960622455FFB8FF09F877FF13F812" box="[190,243,1998,2024]" country="Vietnam" municipality="Khoang Xanh" name="Tien" pageId="34" pageNumber="35" stateProvince="Hanoi">Tien</location>
+stream; 
+<elevation box="[347,473,1998,2025]" metricMagnitude="1" metricUnit="m" metricValue="9.5" pageId="34" pageNumber="35" unit="m" value="95.0">
+<quantity box="[347,408,1998,2025]" metricMagnitude="1" metricUnit="m" metricValue="9.5" pageId="34" pageNumber="35" unit="m" value="95.0">95 m</quantity>
+a.s.l.
+</elevation>
+; 
+<date box="[488,647,1998,2025]" pageId="34" pageNumber="35" value="2012-04-27">
+<collectingDate box="[488,647,1998,2025]" pageId="34" pageNumber="35" value="2012-04-27">27 Apr. 2012</collectingDate>
+</date>
+; 
+<collectorName box="[661,778,1998,2025]" pageId="34" pageNumber="35">Q.H. Ngo</collectorName>
+and 
+<collectorName box="[835,955,1999,2025]" pageId="34" pageNumber="35">A.D. Tran</collectorName>
+leg.; 
+<specimenCode box="[1024,1144,1998,2024]" pageId="34" pageNumber="35">TAD1208</specimenCode>
+; 
+<collectionCode box="[1157,1242,1999,2025]" pageId="34" pageNumber="35">ZVNU</collectionCode>
+</materialsCitation>
+. – 
+<materialsCitation ID-GBIF-Occurrence="3311572603" collectingDate="2020-08-27" collectionCode="ZVNU" collectorName="A. D. Tran &amp; P. L. Le &amp; T. C. Nguyen" country="Vietnam" county="Lac Son" lastPageId="35" lastPageNumber="36" location="Mu waterfall and down stream" municipality="Tu Do" pageId="34" pageNumber="35" specimenCode="TAD20-02" specimenCount="42" specimenCount-female="30" specimenCount-male="12" stateProvince="Hoa Binh Prov." typeStatus="paratype">
+<emphasis bold="true" lastPageId="35" lastPageNumber="36" pageId="34" pageNumber="35">
+<collectingRegion country="Vietnam" lastPageId="35" lastPageNumber="36" name="Hoa Binh" pageId="34" pageNumber="35">Hoa Binh Prov.</collectingRegion>
+</emphasis>
+• 
+<specimenCount box="[279,362,265,291]" pageId="35" pageNumber="36" type="male">12 ♂♂</specimenCount>
+, 
+<specimenCount box="[374,456,265,291]" pageId="35" pageNumber="36" type="female">30 ♀♀</specimenCount>
+; 
+<collectingCounty box="[470,570,265,291]" pageId="35" pageNumber="36">Lac Son</collectingCounty>
+, 
+<collectingMunicipality box="[581,656,265,291]" pageId="35" pageNumber="36">Tu Do</collectingMunicipality>
+commune, 
+<location LSID="urn:lsid:plazi:treatment:039F87AF2456FFB9FDA8FA2FFD4DFA8B:8EE960622454FFB9FCADFEB0FB65FED9" box="[794,1157,265,291]" country="Vietnam" county="Lac Son" municipality="Tu Do" name="Mu waterfall and down stream" pageId="35" pageNumber="36" stateProvince="Hoa Binh Prov.">Mu waterfall and down stream</location>
+; 
+<date box="[1169,1331,265,291]" pageId="35" pageNumber="36" value="2020-08-27">
+<collectingDate box="[1169,1331,265,291]" pageId="35" pageNumber="36" value="2020-08-27">27 Aug. 2020</collectingDate>
+</date>
+; 
+<collectorName pageId="35" pageNumber="36">A.D. Tran</collectorName>
+, 
+<collectorName box="[258,342,302,328]" pageId="35" pageNumber="36">P.L. Le</collectorName>
+and 
+<collectorName box="[398,549,301,328]" pageId="35" pageNumber="36">T.C. Nguyen</collectorName>
+leg.; 
+<specimenCode box="[614,744,301,327]" pageId="35" pageNumber="36">TAD20-02</specimenCode>
+; 
+<collectionCode box="[756,841,302,328]" pageId="35" pageNumber="36">ZVNU</collectionCode>
+</materialsCitation>
+.
+</paragraph>
+</subSubSection>
+<subSubSection pageId="35" pageNumber="36" type="description">
+<paragraph blockId="35.[189,334,367,393]" box="[189,334,367,393]" pageId="35" pageNumber="36">
+<heading bold="true" box="[189,334,367,393]" fontSize="11" level="3" pageId="35" pageNumber="36" reason="3">
+<emphasis bold="true" box="[189,334,367,393]" pageId="35" pageNumber="36">Description</emphasis>
+</heading>
+</paragraph>
+<paragraph blockId="35.[188,1401,415,623]" pageId="35" pageNumber="36">
+COLOUR (
+<figureCitation box="[297,391,415,442]" captionStart="Fig" captionStartId="25.[189,232,1822,1848]" captionTargetBox="[194,1393,264,1802]" captionTargetId="figure-115@25.[194,1393,264,1802]" captionTargetPageId="25" captionText="Fig. 5. Habitus photos of species of Micronecta Kirkaldy, 1897, ♂♂. A. M. grisea (Fieber, 1844) (ZRC). B. M. guttatostriata Lundblad, 1933 (ZVNU). C. M. drepani Nieser, 2000 (ZVNU). D. M. erythra Nieser, Chen &amp; Yang, 2005, right hemelytron (ZVNU). E. M. cultellata sp. nov., holotype (ZVNU). F. M. anatolica Lindberg, 1922 (ZVNU). G. M. arcuata sp. nov., holotype (ZVNU). H. M. fulvopicta sp. nov., holotype (ZVNU). I. M. acuminata sp. nov., holotype (ZVNU), right hemelytron and genitalia dissected. J–L. M. vietnamica sp. nov., J = holotype (ZVNU). All to the same scale." figureDoi="http://doi.org/10.5281/zenodo.5033022" httpUri="https://zenodo.org/record/5033022/files/figure.png" pageId="35" pageNumber="36">Fig. 5G</figureCitation>
+). Dorsum generally orangish-brownish yellow. Frons and vertex pale yellowish, eyes reddish brown. Pronotum yellowish brown, with one longitudinal yellow stripe on anterior part and two transverse yellow stripes on posterior part. Hemelytron with minute red dots scattered especially on hyaline anterior band of clavus, on boundary between corium and embolium. Corium with three obscure light brown markings at middle part. Membrane translucent and brownish. Venter of thorax and abdomen, and legs pale or light yellow.
+</paragraph>
+<paragraph blockId="35.[189,509,662,688]" box="[189,509,662,688]" pageId="35" pageNumber="36">
+<heading bold="true" box="[189,509,662,688]" fontSize="11" level="3" pageId="35" pageNumber="36" reason="3">
+<emphasis bold="true" box="[189,509,662,688]" pageId="35" pageNumber="36">Structural characteristics</emphasis>
+</heading>
+</paragraph>
+<paragraph blockId="35.[187,1399,710,954]" pageId="35" pageNumber="36">
+MACROPTEROUS MALES. Body length 1.63–2.16 (
+<typeStatus box="[746,855,710,736]" pageId="35" pageNumber="36">holotype</typeStatus>
+: 1.73), width 1.0–1.13 (
+<typeStatus box="[1139,1248,710,736]" pageId="35" pageNumber="36">holotype</typeStatus>
+: 0.81). Head width 0.62–0.66 (
+<typeStatus box="[404,513,746,772]" pageId="35" pageNumber="36">holotype</typeStatus>
+: 0.63). Pronotum about 2.5 times as wide as long (0.70: 0.29). Pronotum slightly wider than head. Synthlipsis about 1.5 times as wide as posterior width of an eye (0.30: 0.23). Lengths of leg segments: fore leg: femur 0.28, tibia 0.13, pala 0.12; middle leg: femur 0.58, tibia 0.20, tarsus 0.25, claw 0.18; hind leg: femur 0.45, tibia 0.28, tarsus I 0.29, tarsus II 0.12, claw 0.03. Prestrigilar flap on segment V with short apex (
+<figureCitation box="[607,701,891,917]" captionStart="Fig" captionStartId="32.[189,232,1882,1908]" captionTargetBox="[202,1390,307,1812]" captionTargetId="figure-71@32.[189,1398,302,1828]" captionTargetPageId="32" captionText="Fig. 9. Morphological features of species of Micronecta Kirkaldy, 1897, ♂♂. A–E. M. anatolica Lindberg, 1922 (ZVNU). F–K. M. arcuata sp. nov., paratype (ZVNU). A, G = prestrigilar flap; B, H = median lobe of sternite VII; C, I = free lobe; D, J = right paramere; E, K = left paramere; F = fore leg." figureDoi="http://doi.org/10.5281/zenodo.5033034" httpUri="https://zenodo.org/record/5033034/files/figure.png" pageId="35" pageNumber="36">Fig. 9G</figureCitation>
+). Strigil present. Median lobe of sternite VII, free lobe, and parameres as in diagnosis.
+</paragraph>
+<paragraph blockId="35.[187,1399,994,1165]" pageId="35" pageNumber="36">MACROPTEROUS FEMALES. Body length 1.63–2.09, width 0.94–1.19. Head width 0.64–0.67. Pronotum about 2.5 times as wide as long (0.67: 0.22). Pronotum slightly wider than head. Synthlipsis about 1.5 times as wide as posterior width of an eye (0.32:0.20). Lengths of leg segments: fore leg: femur 0.23, tibiotarsus 0.2; middle leg: femur 0.55, tibia 0.2, tarsus 0.3, claw 0.18; hind leg: femur 0.41, tibia 0.29, tarsus I 0.28, tarsus II 0.12, claw 0.03.</paragraph>
+</subSubSection>
+<subSubSection box="[189,738,1205,1279]" pageId="35" pageNumber="36" type="distribution">
+<paragraph blockId="35.[189,342,1205,1231]" box="[189,342,1205,1231]" pageId="35" pageNumber="36">
+<heading bold="true" box="[189,342,1205,1231]" fontSize="11" level="3" pageId="35" pageNumber="36" reason="3">
+<emphasis bold="true" box="[189,342,1205,1231]" pageId="35" pageNumber="36">Distribution</emphasis>
+</heading>
+</paragraph>
+<paragraph blockId="35.[189,738,1253,1279]" box="[189,738,1253,1279]" pageId="35" pageNumber="36">
+Northern 
+<collectingCountry box="[302,406,1253,1279]" name="Vietnam" pageId="35" pageNumber="36">Vietnam</collectingCountry>
+: 
+<collectingRegion box="[416,533,1253,1279]" country="Vietnam" name="Ha Giang" pageId="35" pageNumber="36">Ha Giang</collectingRegion>
+, 
+<collectingRegion box="[544,647,1253,1279]" country="Vietnam" name="Phu Tho" pageId="35" pageNumber="36">Phu Tho</collectingRegion>
+, 
+<collectingRegion box="[659,734,1253,1279]" country="Vietnam" name="Ha Noi" pageId="35" pageNumber="36">Hanoi</collectingRegion>
+.
+</paragraph>
+</subSubSection>
+<subSubSection box="[189,685,1319,1393]" pageId="35" pageNumber="36" type="discussion">
+<paragraph blockId="35.[189,303,1319,1345]" box="[189,303,1319,1345]" pageId="35" pageNumber="36">
+<heading bold="true" box="[189,303,1319,1345]" fontSize="11" level="3" pageId="35" pageNumber="36" reason="3">
+<emphasis bold="true" box="[189,303,1319,1345]" pageId="35" pageNumber="36">Remarks</emphasis>
+</heading>
+</paragraph>
+<paragraph blockId="35.[189,685,1367,1393]" box="[189,685,1367,1393]" pageId="35" pageNumber="36">
+See Remarks under 
+<taxonomicName authority="Tran, 2021" authorityName="Tran" authorityYear="2021" box="[424,587,1367,1393]" class="Insecta" family="Corixidae" genus="Micronecta" higherTaxonomySource="GBIF" kingdom="Animalia" order="Hemiptera" pageId="35" pageNumber="36" phylum="Arthropoda" rank="species" species="acuminata" status="sp. nov.">
+<emphasis box="[424,448,1367,1392]" italics="true" pageId="35" pageNumber="36">M</emphasis>
+. 
+<emphasis box="[463,587,1367,1392]" italics="true" pageId="35" pageNumber="36">acuminata</emphasis>
+</taxonomicName>
+<taxonomicNameLabel box="[595,685,1367,1393]" pageId="35" pageNumber="36" rank="species">sp. nov.</taxonomicNameLabel>
+</paragraph>
+</subSubSection>
+</treatment>
+</document>
