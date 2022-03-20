@@ -1,0 +1,938 @@
+<document ID-DOI="http://doi.org/10.5281/zenodo.4914596" ID-GBIF-Dataset="cdd9688e-9a3f-4602-992e-1f8693caab9b" ID-GBIF-Taxon="182639269" ID-ISSN="1175-5326" ID-Zenodo-Dep="4914596" ID-ZooBank="E78473FE-5662-409A-90C2-7C4912DC57E8" approvalRequired="44" approvalRequired_for_bibRefs="2" approvalRequired_for_taxonomicNames="22" approvalRequired_for_treatments="20" checkinTime="1621408010350" checkinUser="plazi" docAuthor="Bartsch, Daniel, Pühringer, Franz, Milla, Liz, Lingenhöle, Arthur &amp; Kallies, Axel" docDate="2021" docId="EB498780E804FFEF5BA4FF09BCE3FF0A" docLanguage="en" docName="zootaxa.4972.1.1.pdf" docOrigin="Zootaxa 4972 (1)" docStyle="DocumentStyle:5EBBA59367AD13919D70D935FA04F6A3.9:Zootaxa.2013-.monograph" docStyleId="5EBBA59367AD13919D70D935FA04F6A3" docStyleName="Zootaxa.2013-.monograph" docStyleVersion="9" docTitle="Pyropteron affinis" docType="treatment" docVersion="5" lastPageId="54" lastPageNumber="54" masterDocId="1770FFF8E831FFD95B33FF9EBE70FFDF" masterDocTitle="A molecular phylogeny and revision of the genus Pyropteron Newman, 1832 (Lepidoptera, Sesiidae) reveals unexpected diversity and frequent hostplant switch as a driver of speciation" masterLastPageNumber="75" masterPageNumber="1" pageId="53" pageNumber="54" updateTime="1632098017424" updateUser="ExternalLinkService">
+<mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
+<mods:titleInfo>
+<mods:title>A molecular phylogeny and revision of the genus Pyropteron Newman, 1832 (Lepidoptera, Sesiidae) reveals unexpected diversity and frequent hostplant switch as a driver of speciation</mods:title>
+</mods:titleInfo>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Bartsch, Daniel</mods:namePart>
+<mods:nameIdentifier type="email">daniel.bartsch@smns-bw.de</mods:nameIdentifier>
+</mods:name>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Pühringer, Franz</mods:namePart>
+<mods:nameIdentifier type="email">f.puehringer@sesiidae.net</mods:nameIdentifier>
+</mods:name>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Milla, Liz</mods:namePart>
+<mods:nameIdentifier type="email">liz.milla@csiro.au</mods:nameIdentifier>
+</mods:name>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Lingenhöle, Arthur</mods:namePart>
+<mods:nameIdentifier type="email">arthur.lingenhöle@gmx.de</mods:nameIdentifier>
+</mods:name>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Kallies, Axel</mods:namePart>
+<mods:nameIdentifier type="ORCID">0000-0002-3778-2187</mods:nameIdentifier>
+<mods:nameIdentifier type="email">axel.kallies@unimelb.edu.au</mods:nameIdentifier>
+</mods:name>
+<mods:typeOfResource>text</mods:typeOfResource>
+<mods:relatedItem type="host">
+<mods:titleInfo>
+<mods:title>Zootaxa</mods:title>
+</mods:titleInfo>
+<mods:part>
+<mods:date>2021</mods:date>
+<mods:detail type="pubDate">
+<mods:number>2021-05-18</mods:number>
+</mods:detail>
+<mods:detail type="volume">
+<mods:number>4972</mods:number>
+</mods:detail>
+<mods:detail type="issue">
+<mods:number>1</mods:number>
+</mods:detail>
+<mods:extent unit="page">
+<mods:start>1</mods:start>
+<mods:end>75</mods:end>
+</mods:extent>
+</mods:part>
+</mods:relatedItem>
+<mods:classification>journal article</mods:classification>
+<mods:identifier type="DOI">https://doi.org/10.11646/zootaxa.4972.1.1</mods:identifier>
+<mods:identifier type="GBIF-Dataset">cdd9688e-9a3f-4602-992e-1f8693caab9b</mods:identifier>
+<mods:identifier type="ISSN">1175-5326</mods:identifier>
+<mods:identifier type="Zenodo-Dep">4771798</mods:identifier>
+<mods:identifier type="ZooBank">E78473FE-5662-409A-90C2-7C4912DC57E8</mods:identifier>
+</mods:mods>
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.4914596" ID-GBIF-Taxon="182639269" ID-Zenodo-Dep="4914596" LSID="urn:lsid:plazi:treatment:EB498780E804FFEF5BA4FF09BCE3FF0A" httpUri="http://treatment.plazi.org/id/EB498780E804FFEF5BA4FF09BCE3FF0A" lastPageId="54" lastPageNumber="54" pageId="53" pageNumber="54">
+<subSubSection box="[151,607,151,177]" pageId="53" pageNumber="54" type="nomenclature">
+<paragraph blockId="53.[151,607,151,214]" box="[151,607,151,177]" pageId="53" pageNumber="54">
+<heading bold="true" box="[151,607,151,177]" fontSize="11" level="2" pageId="53" pageNumber="54" reason="3">
+<taxonomicName authority="(Staudinger, 1856)" baseAuthorityName="Staudinger" baseAuthorityYear="1856" box="[151,607,151,177]" class="Insecta" family="Sesiidae" genus="Pyropteron" kingdom="Animalia" order="Lepidoptera" pageId="53" pageNumber="54" phylum="Arthropoda" rank="species" species="affinis">
+<emphasis bold="true" box="[151,607,151,177]" pageId="53" pageNumber="54">
+<emphasis bold="true" box="[151,372,151,177]" italics="true" pageId="53" pageNumber="54">Pyropteron affinis</emphasis>
+(
+<bibRefCitation author="Staudinger, O." box="[387,599,151,177]" pageId="53" pageNumber="54" pagination="145 - 176" refId="ref61460" refString="Staudinger, O. (1856) Beitrag zur Feststellung der bisher bekannten Sesien-Arten Europa's und des angrenzenden Asien's. Stettiner Entomologische Zeitung, 17 (3 - 12), 145 - 176 + 193 - 224 + 257 - 288 + 323 - 338." type="journal article" year="1856">Staudinger, 1856</bibRefCitation>
+)
+</emphasis>
+</taxonomicName>
+</heading>
+</paragraph>
+</subSubSection>
+<subSubSection box="[151,589,187,214]" pageId="53" pageNumber="54" type="description">
+<paragraph blockId="53.[151,607,151,214]" box="[151,589,187,214]" pageId="53" pageNumber="54">
+(
+<figureCitation box="[159,246,187,214]" captionStart="FIGURES 31–38" captionStartId="17.[151,264,1772,1796]" captionTargetBox="[151,1436,181,1748]" captionTargetId="figure-18@17.[151,1436,181,1748]" captionTargetPageId="17" captionText="FIGURES 31–38. Pyropteron Biology. 31–34. Pyropteron erodiiphaga, (31) male, reared, (32) larva in root of Erodium arborescens, (33) habitat with host plant Erodium arborescens, Tunisia, Djerba (images Friedhelm Mai), (34) male, Morocco, Middle Alas, Col du Zad. 35. Pyropteron affinis, male, Austria, Tirol, Zirl (images FP). 36–38. Pyropteron meriaeformis, (36) habitat with host plant Rumex acetosella, France, Corsica, Ghisonaccia (image DB), (37) male, reared, Portugal, Guarda, Pinzio (image Zdeněk Laštůvka), (38) female, old specimen, France, Corsica, Ghisonaccia (image DB)." figureDoi="http://doi.org/10.5281/zenodo.4771839" httpUri="https://zenodo.org/record/4771839/files/figure.png" pageId="53" pageNumber="54">Figs 35</figureCitation>
+, 
+<figureCitation box="[258,358,187,213]" captionStart="FIGURES 171–179" captionStartId="54.[151,264,1201,1225]" captionTargetBox="[166,1429,247,1171]" captionTargetId="figure-53@54.[151,1435,237,1178]" captionTargetPageId="54" captionText="FIGURES 171–179. Pyropteron species. 171–173. Pyropteron affinis, (171–172) ♂, (173) ♀, Germany, Baden. 174–176. Pyropteron erodiiphaga, (174–175) ♂, Tunisia, Djerba, (176) ♀, Tunisia, Kasserine. 177–179. Pyropteron atlantis, (177–178) ♂, Morocco, High Atlas, (179) ♂ lectotype, Morocco, High Atlas. Scale 10mm." figureDoi="http://doi.org/10.5281/zenodo.4771911" httpUri="https://zenodo.org/record/4771911/files/figure.png" pageId="53" pageNumber="54">171–173</figureCitation>
+, 
+<figureCitation box="[370,471,187,213]" captionStart="FIGURES 180–186" captionStartId="56.[151,264,1789,1813]" captionTargetBox="[162,1422,185,1752]" captionTargetId="figure-27@56.[151,1435,181,1766]" captionTargetPageId="56" captionText="FIGURES 180–186. Pyropteron species, male genitalia. 180–182. Pyropteron affinis, (180) ♂, Germany, Baden, genitalia slide DB 2020-09, (181) ♂, Spain, Baza, genitalia slide DB 2013-02, (182) ♂, Italia, Sicily, genitalia slide SMNS 3701. 183– 185. Pyropteron erodiiphaga, (183) ♂, Morocco, Rif, genitalia slide DB 2019-61, (184) ♂, Tunisia, Kasserine, genitalia slide DB 2013-03, (185) ♂, Tunisia, Kasserine genitalia slide Špatenka. 186. Pyropteron atlantis, ♂, Morocco, High Atlas genitalia slide DB 2004-13. Scale 1mm." figureDoi="http://doi.org/10.5281/zenodo.4771915" httpUri="https://zenodo.org/record/4771915/files/figure.png" pageId="53" pageNumber="54">180–182</figureCitation>
+, 
+<figureCitation box="[482,581,187,213]" captionStart="FIGURES 187–190" captionStartId="57.[151,264,1924,1948]" captionTargetBox="[163,1424,957,1891]" captionTargetId="figure-433@57.[151,1436,957,1900]" captionTargetPageId="57" captionText="FIGURES 187–190. Pyropteron species, female genitalia. 187–188. Pyropteron affinis, (187) ♀, Germany, Württemberg, geni- talia slide DB 2019-60, (188) ♀, Central Europe, without finding data, genitalia slide DB 2019-58. 189–190. Pyropteron erodiiphaga, (189) ♀, Morocco, Rif, genitalia slide DB 2019-59, (190) ♀, Tunisia, Kasserine, genitalia slide DB 2019-57. Scale 1mm." figureDoi="http://doi.org/10.5281/zenodo.4771917" httpUri="https://zenodo.org/record/4771917/files/figure.png" pageId="53" pageNumber="54">187, 188</figureCitation>
+)
+</paragraph>
+</subSubSection>
+<subSubSection pageId="53" pageNumber="54" type="reference_group">
+<paragraph blockId="53.[151,1437,255,280]" box="[151,1437,255,280]" pageId="53" pageNumber="54">
+<taxonomicName authority="Staudinger, 1856" authorityName="Staudinger" authorityYear="1856" box="[151,456,255,280]" class="Insecta" family="Sesiidae" genus="Sesia" kingdom="Animalia" order="Lepidoptera" pageId="53" pageNumber="54" phylum="Arthropoda" rank="species" species="affinis">
+<emphasis box="[151,274,256,280]" italics="true" pageId="53" pageNumber="54">Sesia affinis</emphasis>
+<bibRefCitation author="Staudinger, O." box="[281,456,255,280]" pageId="53" pageNumber="54" pagination="145 - 176" refId="ref61460" refString="Staudinger, O. (1856) Beitrag zur Feststellung der bisher bekannten Sesien-Arten Europa's und des angrenzenden Asien's. Stettiner Entomologische Zeitung, 17 (3 - 12), 145 - 176 + 193 - 224 + 257 - 288 + 323 - 338." type="journal article" year="1856">Staudinger, 1856</bibRefCitation>
+</taxonomicName>
+: Stettiner Entomologische Zeitung, 17 (3/12): 278. 
+<typeStatus box="[978,1079,256,280]" pageId="53" pageNumber="54">Lectotype</typeStatus>
+<specimenCount box="[1086,1107,256,279]" pageId="53" pageNumber="54" type="female">♀</specimenCount>
+: 
+<collectingCountry box="[1118,1165,256,280]" name="Italy" pageId="53" pageNumber="54">Italy</collectingCountry>
+, 
+<location LSID="urn:lsid:plazi:treatment:EB498780E804FFEF5BA4FF09BCE3FF0A:663F604DE804FFEC5FABFE9EBA9CFEC7" box="[1176,1260,256,280]" country="Italy" municipality="Bozen" name="Sudtirol" pageId="53" pageNumber="54">Südtirol</location>
+, 
+<collectingMunicipality box="[1270,1335,256,279]" pageId="53" pageNumber="54">Bozen</collectingMunicipality>
+(MFNB).
+</paragraph>
+<paragraph blockId="53.[151,1437,319,2038]" pageId="53" pageNumber="54">
+This small species is widespread but local in the southern part of Europe. It is similar to several other species of grey-colored 
+<taxonomicName authorityName="Newman" authorityYear="1832" box="[303,428,356,381]" class="Insecta" family="Sesiidae" genus="Pyropteron" kingdom="Animalia" order="Lepidoptera" pageId="53" pageNumber="54" phylum="Arthropoda" rank="genus">
+<emphasis box="[303,428,356,381]" italics="true" pageId="53" pageNumber="54">Pyropteron</emphasis>
+</taxonomicName>
+and can also be confused with some species of 
+<taxonomicName authorityName="Spuler" authorityYear="1910" box="[983,1162,355,381]" class="Insecta" family="Sesiidae" genus="Chamaesphecia" kingdom="Animalia" order="Lepidoptera" pageId="53" pageNumber="54" phylum="Arthropoda" rank="genus">
+<emphasis box="[983,1162,355,381]" italics="true" pageId="53" pageNumber="54">Chamaesphecia</emphasis>
+</taxonomicName>
+. In northern Africa it is replaced by the closely related and similar 
+<taxonomicName authorityName="Bartsch &amp; Pühringer &amp; Milla &amp; Lingenhöle &amp; Kallies" authorityYear="2021" baseAuthorityName="Dumont" baseAuthorityYear="1922" box="[631,794,391,417]" class="Insecta" family="Sesiidae" genus="Pyropteron" kingdom="Animalia" order="Lepidoptera" pageId="53" pageNumber="54" phylum="Arthropoda" rank="species" species="erodiiphaga">
+<emphasis box="[631,794,391,417]" italics="true" pageId="53" pageNumber="54">P. erodiiphaga</emphasis>
+</taxonomicName>
+and 
+<taxonomicName baseAuthorityName="Schwingenschuss" baseAuthorityYear="1935" box="[849,960,391,417]" class="Insecta" family="Sesiidae" genus="Pyropteron" kingdom="Animalia" order="Lepidoptera" pageId="53" pageNumber="54" phylum="Arthropoda" rank="species" species="atlantis">
+<emphasis box="[849,960,391,417]" italics="true" pageId="53" pageNumber="54">P. atlantis</emphasis>
+</taxonomicName>
+.
+</paragraph>
+</subSubSection>
+<subSubSection pageId="53" pageNumber="54" type="description">
+<paragraph blockId="53.[151,1437,319,2038]" pageId="53" pageNumber="54">
+<emphasis bold="true" box="[199,316,427,453]" pageId="53" pageNumber="54">Barcodes.</emphasis>
+<taxonomicName baseAuthorityName="Staudinger" baseAuthorityYear="1856" box="[322,523,427,453]" class="Insecta" family="Sesiidae" genus="Pyropteron" kingdom="Animalia" order="Lepidoptera" pageId="53" pageNumber="54" phylum="Arthropoda" rank="species" species="affinis">
+<emphasis box="[322,523,427,453]" italics="true" pageId="53" pageNumber="54">Pyropteron affinis</emphasis>
+</taxonomicName>
+shows substantial heterogeneity in barcode sequences with up to 2.6% differences across all specimens. There is, however, no clear geographical pattern. Thus, at present there is little support for hidden, taxonomically relevant diversity. It is sister to 
+<taxonomicName authorityName="Bartsch &amp; Pühringer &amp; Milla &amp; Lingenhöle &amp; Kallies" authorityYear="2021" baseAuthorityName="Dumont" baseAuthorityYear="1922" box="[725,888,499,525]" class="Insecta" family="Sesiidae" genus="Pyropteron" kingdom="Animalia" order="Lepidoptera" pageId="53" pageNumber="54" phylum="Arthropoda" rank="species" species="erodiiphaga">
+<emphasis box="[725,888,499,525]" italics="true" pageId="53" pageNumber="54">P. erodiiphaga</emphasis>
+</taxonomicName>
+, and both species, together with 
+<taxonomicName baseAuthorityName="Schwingenschuss" baseAuthorityYear="1935" box="[1256,1368,499,525]" class="Insecta" family="Sesiidae" genus="Pyropteron" kingdom="Animalia" order="Lepidoptera" pageId="53" pageNumber="54" phylum="Arthropoda" rank="species" species="atlantis">
+<emphasis box="[1256,1368,499,525]" italics="true" pageId="53" pageNumber="54">P. atlantis</emphasis>
+</taxonomicName>
+, form a well-supported clade that is sister to the most speciose clade in 
+<taxonomicName authorityName="Newman" authorityYear="1832" box="[881,1006,536,561]" class="Insecta" family="Sesiidae" genus="Pyropteron" kingdom="Animalia" order="Lepidoptera" pageId="53" pageNumber="54" phylum="Arthropoda" rank="genus">
+<emphasis box="[881,1006,536,561]" italics="true" pageId="53" pageNumber="54">Pyropteron</emphasis>
+</taxonomicName>
+, the 
+<taxonomicName baseAuthorityName="Esper" baseAuthorityYear="1783" box="[1061,1245,535,561]" class="Insecta" family="Sesiidae" genus="Pyropteron" kingdom="Animalia" order="Lepidoptera" pageId="53" pageNumber="54" phylum="Arthropoda" rank="species" species="muscaeformis">
+<emphasis box="[1061,1245,535,561]" italics="true" pageId="53" pageNumber="54">P. muscaeformis</emphasis>
+</taxonomicName>
+species group.
+</paragraph>
+</subSubSection>
+<subSubSection pageId="53" pageNumber="54" type="biology_ecology">
+<paragraph blockId="53.[151,1437,319,2038]" pageId="53" pageNumber="54">
+<emphasis bold="true" box="[199,443,571,597]" pageId="53" pageNumber="54">Biology and habitat.</emphasis>
+This species occurs in warm places on sandy, stony or rocky ground. The larvae live in the upper parts of the woody roots of 
+<taxonomicName box="[580,834,607,633]" class="Magnoliopsida" family="Cistaceae" genus="Helianthemum" kingdom="Plantae" order="Malvales" pageId="53" pageNumber="54" phylum="Tracheophyta" rank="species" species="undetermined">
+<emphasis box="[580,745,607,633]" italics="true" pageId="53" pageNumber="54">Helianthemum</emphasis>
+species
+</taxonomicName>
+(
+<taxonomicName box="[850,964,607,634]" class="Magnoliopsida" family="Cistaceae" kingdom="Plantae" order="Malvales" pageId="53" pageNumber="54" phylum="Tracheophyta" rank="family">Cistaceae</taxonomicName>
+). Their presence is indicated by yellow to brownish-red excrement extruded from the bore and often adhering to the root or lowest branches of the plant close to the ground. Pupation takes place without cocoon in the gallery of the larva. Development takes one year.
+</paragraph>
+</subSubSection>
+<subSubSection lastPageId="54" lastPageNumber="55" pageId="53" pageNumber="54" type="distribution">
+<paragraph blockId="53.[151,1437,319,2038]" pageId="53" pageNumber="54">
+<emphasis bold="true" box="[199,353,715,741]" pageId="53" pageNumber="54">Distribution.</emphasis>
+This species is known from the Iberian Peninsula through central and southern Europe, eastwards to 
+<collectingCountry box="[179,259,751,777]" name="Turkey" pageId="53" pageNumber="54">Turkey</collectingCountry>
+and the Caucasus region; it is missing from the Mediterranean islands except for Sicily (
+<bibRefCitation author="Bella, S. &amp; Bartsch, D. &amp; Lastuvka, Z." box="[1244,1432,751,777]" pageId="53" pageNumber="54" pagination="139 - 156" refId="ref55985" refString="Bella, S., Bartsch, D. &amp; Lastuvka, Z. (2017) Bibliographic summary and new records of the Brachodidae and Sesiidae of Sic- ily, with an updated list and some comments on the distribution of Italian species (Lepidoptera, Cossoidea). Spixiana, Zeitschrift fur Zoologie, 40 (1), 139 - 156." type="journal article" year="2017">
+Bella 
+<emphasis box="[1311,1367,751,777]" italics="true" pageId="53" pageNumber="54">et al.</emphasis>
+2017
+</bibRefCitation>
+, 
+<bibRefCitation author="Lastuvka, Z. &amp; Lastuvka, A." box="[151,462,787,814]" pageId="53" pageNumber="54" refId="ref58916" refString="Lastuvka, Z. &amp; Lastuvka, A. (1995) An Illustrated Key to European Sesiidae (Lepidoptera). Faculty of Agronomy, Mendel University of Agriculture and Forestry, Brno, 174 pp." type="book" year="1995">Laštůvka &amp; Laštůvka 1995</bibRefCitation>
+, 
+<bibRefCitation author="Lastuvka, Z. &amp; Lastuvka, A." box="[474,533,787,813]" pageId="53" pageNumber="54" refId="ref58954" refString="Lastuvka, Z. &amp; Lastuvka, A. (2001) The Sesiidae of Europe. Apollo Books, Stenstrup, 245 pp." type="book" year="2001">2001</bibRefCitation>
+, 
+<bibRefCitation author="Spatenka, K. &amp; Gorbunov, O. &amp; Lastuvka, Z. &amp; Tosevski, I. &amp; Arita, Y." box="[545,782,787,816]" pageId="53" pageNumber="54" refId="ref61296" refString="Spatenka, K., Gorbunov, O., Lastuvka, Z., Tosevski, I. &amp; Arita, Y. (1999) s. n. In: Naumann, C. (Ed.), Handbook of Palaearctic Macrolepidoptera. Vol. 1. Sesiidae - Clearwing Moths. Gem Publishing Company, Wallingford, pp. 1 - 569." type="book" year="1999">
+Špatenka 
+<emphasis box="[656,714,787,813]" italics="true" pageId="53" pageNumber="54">et al.</emphasis>
+1999
+</bibRefCitation>
+). Based on Gorbunov (pers. communication), this species is absent from Crimea.
+</paragraph>
+<paragraph blockId="53.[151,1437,319,2038]" lastBlockId="54.[151,1437,150,213]" lastPageId="54" lastPageNumber="55" pageId="53" pageNumber="54">
+<emphasis bold="true" box="[199,461,859,885]" pageId="53" pageNumber="54">Specimens examined.</emphasis>
+<materialsCitation ID-GBIF-Occurrence="3127750381" collectionCode="VII" country="Spain" elevation="2600" location="Pico del Veleta - Mojon del Trigo" municipality="Sierra Nevada" pageId="53" pageNumber="54" specimenCount="2" specimenCount-female="2">
+<specimenCount box="[474,510,859,885]" pageId="53" pageNumber="54" type="female">2♀</specimenCount>
+, 
+<collectingCountry box="[529,596,859,885]" name="Spain" pageId="53" pageNumber="54">Spain</collectingCountry>
+, Granada, 
+<collectingMunicipality box="[728,896,859,885]" pageId="53" pageNumber="54">Sierra Nevada</collectingMunicipality>
+, 
+<location LSID="urn:lsid:plazi:treatment:EB498780E804FFEF5BA4FF09BCE3FF0A:663F604DE804FFEC58A1FCC5BB59FCAA" box="[914,1321,859,885]" country="Spain" municipality="Sierra Nevada" name="Pico del Veleta - Mojon del Trigo" pageId="53" pageNumber="54">Pico del Veleta—Mojón del Trigo</location>
+, 
+<quantity box="[1338,1431,859,886]" metricMagnitude="3" metricUnit="m" metricValue="2.6" pageId="53" pageNumber="54" unit="m" value="2600.0">
+<elevation box="[1338,1431,859,886]" metricMagnitude="3" metricUnit="m" metricValue="2.6" pageId="53" pageNumber="54" unit="m" value="2600.0">2600 m</elevation>
+</quantity>
+, 
+<date box="[151,211,895,921]" pageId="53" pageNumber="54" value="2000-07-04">
+4. 
+<collectionCode box="[169,211,895,921]" pageId="53" pageNumber="54">VII</collectionCode>
+</date>
+</materialsCitation>
+.2000, leg. FP (BOX-2219 H04); 
+<materialsCitation ID-GBIF-Occurrence="3127750988" box="[577,746,895,921]" collectionCode="VII" country="Spain" elevation="2600" location="Pico del Veleta - Mojon del Trigo" municipality="Sierra Nevada" pageId="53" pageNumber="54" specimenCount="1" specimenCount-male="1">
+<specimenCount box="[577,614,895,921]" pageId="53" pageNumber="54" type="male">1♂</specimenCount>
+, ibid., 
+<date box="[687,746,895,921]" pageId="53" pageNumber="54" value="2000-07-08">
+8. 
+<collectionCode box="[703,746,895,921]" pageId="53" pageNumber="54">VII</collectionCode>
+</date>
+</materialsCitation>
+.2000, leg. FP (DNAtax 02591, gen. prep. FP 01/06); 
+<materialsCitation ID-GBIF-Occurrence="3127750947" collectionCode="VII" country="Spain" elevation="2600" location="Pico del Veleta - Mojon del Trigo" municipality="Sierra Nevada" pageId="53" pageNumber="54" specimenCount="1" specimenCount-male="1">
+<specimenCount box="[1331,1368,895,921]" pageId="53" pageNumber="54" type="male">1♂</specimenCount>
+, ibid., 
+<date box="[151,210,931,957]" pageId="53" pageNumber="54" value="2000-07-09">
+9. 
+<collectionCode box="[168,210,931,957]" pageId="53" pageNumber="54">VII</collectionCode>
+</date>
+</materialsCitation>
+.2000, leg. FP (DNAtax 02590, gen. prep. FP 01/15); 
+<materialsCitation ID-GBIF-Occurrence="3127750329" box="[824,1367,931,958]" collectionCode="V" country="Spain" elevation="900" location="Baza" pageId="53" pageNumber="54" specimenCount="2" specimenCount-male="2">
+<specimenCount box="[824,862,931,957]" pageId="53" pageNumber="54" type="male">2♂</specimenCount>
+, 
+<collectingCountry box="[875,942,931,957]" name="Spain" pageId="53" pageNumber="54">Spain</collectingCountry>
+, Granada, 
+<location LSID="urn:lsid:plazi:treatment:EB498780E804FFEF5BA4FF09BCE3FF0A:663F604DE804FFEC5F1BFC3ABA13FC61" box="[1064,1123,932,958]" country="Spain" name="Baza" pageId="53" pageNumber="54">Baza</location>
+, 
+<quantity box="[1135,1210,931,958]" metricMagnitude="2" metricUnit="m" metricValue="9.0" pageId="53" pageNumber="54" unit="m" value="900.0">
+<elevation box="[1135,1210,931,958]" metricMagnitude="2" metricUnit="m" metricValue="9.0" pageId="53" pageNumber="54" unit="m" value="900.0">900 m</elevation>
+</quantity>
+, e.l. 
+<date box="[1266,1367,931,957]" pageId="53" pageNumber="54" value="1999-05-16" valueMax="1999-05-17" valueMin="1999-05-16">
+16.–17. 
+<collectionCode box="[1345,1367,931,957]" country="Canada" lsid="urn:lsid:biocol.org:col:13946" name="Royal British Columbia Museum - Herbarium" pageId="53" pageNumber="54" type="Museum">V</collectionCode>
+</date>
+</materialsCitation>
+.1999, leg. RB (BOX-2219 H07, DNAtax 02611, gen. prep. FP 02/15); 
+<materialsCitation ID-GBIF-Occurrence="3127750500" collectingDate="1999-04-30" country="Spain" elevation="770" location="Cullar Baza" municipality="Benamaurel" pageId="53" pageNumber="54" specimenCount="2" specimenCount-male="2">
+<specimenCount box="[900,938,967,993]" pageId="53" pageNumber="54" type="male">2♂</specimenCount>
+, 
+<collectingCountry box="[952,1019,967,993]" name="Spain" pageId="53" pageNumber="54">Spain</collectingCountry>
+, Granada, zw. 
+<collectingMunicipality box="[1191,1326,967,993]" pageId="53" pageNumber="54">Benamaurel</collectingMunicipality>
+u. 
+<location LSID="urn:lsid:plazi:treatment:EB498780E804FFEF5BA4FF09BCE3FF0A:663F604DE804FFEC5E65FC59BEA2FBD9" country="Spain" municipality="Benamaurel" name="Cullar Baza" pageId="53" pageNumber="54">Cullar Baza</location>
+, 
+<quantity box="[221,295,1003,1030]" metricMagnitude="2" metricUnit="m" metricValue="7.7" pageId="53" pageNumber="54" unit="m" value="770.0">
+<elevation box="[221,295,1003,1030]" metricMagnitude="2" metricUnit="m" metricValue="7.7" pageId="53" pageNumber="54" unit="m" value="770.0">770 m</elevation>
+</quantity>
+, 
+<date box="[307,433,1003,1029]" pageId="53" pageNumber="54" value="1999-04-30">
+<collectingDate box="[307,433,1003,1029]" pageId="53" pageNumber="54" value="1999-04-30">30.IV.1999</collectingDate>
+</date>
+, leg. FP (DNAtax 03-04, photo 38/3/29-31)
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="3127750475" collectingDate="1999-04-26" country="Spain" elevation="790" location="Castillejar" pageId="53" pageNumber="54" specimenCount="4" specimenCount-male="4">
+<specimenCount box="[941,977,1003,1029]" pageId="53" pageNumber="54" type="male">4♂</specimenCount>
+, 
+<collectingCountry box="[990,1057,1003,1029]" name="Spain" pageId="53" pageNumber="54">Spain</collectingCountry>
+, Granada, W 
+<location LSID="urn:lsid:plazi:treatment:EB498780E804FFEF5BA4FF09BCE3FF0A:663F604DE804FFEC5F89FC75BB5FFBDA" box="[1210,1327,1003,1029]" country="Spain" name="Castillejar" pageId="53" pageNumber="54">Castillejar</location>
+, 
+<quantity metricMagnitude="2" metricUnit="m" metricValue="7.9" metricValueMax="8.1" metricValueMin="7.7" pageId="53" pageNumber="54" unit="m" value="790.0" valueMax="810.0" valueMin="770.0">
+<elevation metricMagnitude="2" metricUnit="m" metricValue="7.9" metricValueMax="8.1" metricValueMin="7.7" pageId="53" pageNumber="54" unit="m" value="790.0" valueMax="810.0" valueMin="770.0">770–810 m</elevation>
+</quantity>
+, 
+<date box="[187,313,1039,1065]" pageId="53" pageNumber="54" value="1999-04-26">
+<collectingDate box="[187,313,1039,1065]" pageId="53" pageNumber="54" value="1999-04-26">26.IV.1999</collectingDate>
+</date>
+, leg. FP (DNAtax 03-02, photo 37/6/3-27)
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="3127750301" box="[806,1215,1039,1066]" collectingDate="1999-04-30" collectionCode="CFP" country="Spain" elevation="790" location="Castillejar" pageId="53" pageNumber="54" specimenCount="4" specimenCount-male="4">
+<specimenCount box="[806,843,1039,1065]" pageId="53" pageNumber="54" type="male">4♂</specimenCount>
+, ibid., 
+<date box="[920,1046,1039,1065]" pageId="53" pageNumber="54" value="1999-04-30">
+<collectingDate box="[920,1046,1039,1065]" pageId="53" pageNumber="54" value="1999-04-30">30.IV.1999</collectingDate>
+</date>
+, leg. FP (
+<collectionCode box="[1152,1207,1039,1065]" pageId="53" pageNumber="54">CFP</collectionCode>
+)
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="3127750476" collectionCode="V" country="Spain" location="Baza" pageId="53" pageNumber="54" specimenCount="3" specimenCount-female="1" specimenCount-male="2">
+<specimenCount box="[1227,1265,1039,1065]" pageId="53" pageNumber="54" type="male">2♂</specimenCount>
+, 
+<specimenCount box="[1276,1311,1039,1065]" pageId="53" pageNumber="54" type="female">1♀</specimenCount>
+, 
+<collectingCountry box="[1326,1393,1039,1065]" name="Spain" pageId="53" pageNumber="54">Spain</collectingCountry>
+, Sierra 
+<location LSID="urn:lsid:plazi:treatment:EB498780E804FFEF5BA4FF09BCE3FF0A:663F604DE804FFEC5BFAFBAABF74FB91" box="[201,260,1076,1102]" country="Spain" name="Baza" pageId="53" pageNumber="54">Baza</location>
+, e.l. ex 
+<taxonomicName box="[344,549,1075,1102]" class="Magnoliopsida" family="Cistaceae" genus="Helianthemum" kingdom="Plantae" order="Malvales" pageId="53" pageNumber="54" phylum="Tracheophyta" rank="species" species="undetermined">
+<emphasis box="[344,509,1075,1101]" italics="true" pageId="53" pageNumber="54">Helianthemum</emphasis>
+sp.
+</taxonomicName>
+, adults 
+<date box="[634,777,1075,1101]" pageId="53" pageNumber="54" value="1999-05-19" valueMax="1999-05-30" valueMin="1999-05-19">
+19. and 30. 
+<collectionCode box="[755,777,1075,1101]" country="Canada" lsid="urn:lsid:biocol.org:col:13946" name="Royal British Columbia Museum - Herbarium" pageId="53" pageNumber="54" type="Museum">V</collectionCode>
+</date>
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3127750430" collectionCode="V" collectorName="Pyrenees &amp; Esterri d'Aneu" country="Spain" location="Bartsch" pageId="53" pageNumber="54" specimenCount="1" specimenCount-male="1">
+.1999, leg. RB (
+<specimenCount box="[951,988,1075,1101]" pageId="53" pageNumber="54" type="male">1♂</specimenCount>
+, 
+<location LSID="urn:lsid:plazi:treatment:EB498780E804FFEF5BA4FF09BCE3FF0A:663F604DE804FFEC58D4FBADBA4DFB92" box="[999,1085,1075,1101]" country="Spain" name="Bartsch" pageId="53" pageNumber="54">Bartsch</location>
+gen. prep. 2013-02) (
+<figureCitation box="[1325,1422,1075,1101]" captionStart="FIGURES 180–186" captionStartId="56.[151,264,1789,1813]" captionTargetBox="[162,1422,185,1752]" captionTargetId="figure-27@56.[151,1435,181,1766]" captionTargetPageId="56" captionText="FIGURES 180–186. Pyropteron species, male genitalia. 180–182. Pyropteron affinis, (180) ♂, Germany, Baden, genitalia slide DB 2020-09, (181) ♂, Spain, Baza, genitalia slide DB 2013-02, (182) ♂, Italia, Sicily, genitalia slide SMNS 3701. 183– 185. Pyropteron erodiiphaga, (183) ♂, Morocco, Rif, genitalia slide DB 2019-61, (184) ♂, Tunisia, Kasserine, genitalia slide DB 2013-03, (185) ♂, Tunisia, Kasserine genitalia slide Špatenka. 186. Pyropteron atlantis, ♂, Morocco, High Atlas genitalia slide DB 2004-13. Scale 1mm." figureDoi="http://doi.org/10.5281/zenodo.4771915" httpUri="https://zenodo.org/record/4771915/files/figure.png" pageId="53" pageNumber="54">Fig. 181</figureCitation>
+); 
+<collectingCountry box="[151,218,1111,1137]" name="Spain" pageId="53" pageNumber="54">Spain</collectingCountry>
+, 
+<collectorName box="[228,332,1112,1138]" pageId="53" pageNumber="54">Pyrenees</collectorName>
+, 
+<collectorName box="[343,511,1111,1137]" pageId="53" pageNumber="54">Esterri d’Aneu</collectorName>
+, e.l. ex 
+<taxonomicName box="[595,799,1111,1138]" class="Magnoliopsida" family="Cistaceae" genus="Helianthemum" kingdom="Plantae" order="Malvales" pageId="53" pageNumber="54" phylum="Tracheophyta" rank="species" species="undetermined">
+<emphasis box="[595,760,1111,1137]" italics="true" pageId="53" pageNumber="54">Helianthemum</emphasis>
+sp.
+</taxonomicName>
+, adults 
+<date box="[884,1014,1111,1137]" pageId="53" pageNumber="54" value="1992-05-01" valueMax="1992-05-30" valueMin="1992-05-01">
+1. and 30. 
+<collectionCode box="[992,1014,1111,1137]" country="Canada" lsid="urn:lsid:biocol.org:col:13946" name="Royal British Columbia Museum - Herbarium" pageId="53" pageNumber="54" type="Museum">V</collectionCode>
+</date>
+</materialsCitation>
+.1992, leg. DB; 
+<materialsCitation ID-GBIF-Occurrence="3127750384" collectionCode="VI" collectorName="Esterel &amp; Agay" country="France" location="Provence" pageId="53" pageNumber="54" specimenCount="3" specimenCount-male="3">
+<specimenCount box="[1187,1224,1111,1137]" pageId="53" pageNumber="54" type="male">3♂</specimenCount>
+, 
+<collectingCountry box="[1236,1315,1112,1138]" name="France" pageId="53" pageNumber="54">France</collectingCountry>
+, 
+<location LSID="urn:lsid:plazi:treatment:EB498780E804FFEF5BA4FF09BCE3FF0A:663F604DE804FFEC5E1EFBC6BBE8FBAD" box="[1325,1432,1112,1138]" country="France" name="Provence" pageId="53" pageNumber="54">Provence</location>
+, 
+<collectorName box="[151,232,1147,1173]" pageId="53" pageNumber="54">Esterel</collectorName>
+, 
+<collectorName box="[243,305,1147,1173]" pageId="53" pageNumber="54">Agay</collectorName>
+, 
+<date box="[318,385,1147,1173]" pageId="53" pageNumber="54" value="1991-06-26">
+26. 
+<collectionCode box="[352,385,1147,1173]" country="Norway" name="Mykotektet, National Veterinary Institute" pageId="53" pageNumber="54">VI</collectionCode>
+</date>
+</materialsCitation>
+.1991, leg. DB; 
+<materialsCitation ID-GBIF-Occurrence="3127750348" box="[566,1001,1147,1174]" collectionCode="VII" collectorName="Provence &amp; Noyers" country="France" location="France" pageId="53" pageNumber="54" specimenCount="1" specimenCount-male="1">
+<specimenCount box="[566,602,1147,1173]" pageId="53" pageNumber="54" type="male">1♂</specimenCount>
+, 
+<collectingCountry box="[617,696,1148,1174]" name="France" pageId="53" pageNumber="54">France</collectingCountry>
+, 
+<collectorName box="[709,816,1148,1174]" pageId="53" pageNumber="54">Provence</collectorName>
+, 
+<collectorName box="[828,912,1148,1174]" pageId="53" pageNumber="54">Noyers</collectorName>
+, 
+<date box="[925,1001,1147,1173]" pageId="53" pageNumber="54" value="1991-07-10">
+10. 
+<collectionCode box="[957,1001,1147,1173]" pageId="53" pageNumber="54">VII</collectionCode>
+</date>
+</materialsCitation>
+.1991, leg. DB; 
+<materialsCitation ID-GBIF-Occurrence="3127751031" collectionCode="VII" collectorName="Gampel" country="Switzerland" location="Switzerland" pageId="53" pageNumber="54" specimenCount="6" specimenCount-male="6">
+<specimenCount box="[1183,1220,1147,1173]" pageId="53" pageNumber="54" type="male">6♂</specimenCount>
+, 
+<collectingCountry box="[1233,1370,1147,1173]" name="Switzerland" pageId="53" pageNumber="54">Switzerland</collectingCountry>
+, Wallis, 
+<collectorName box="[195,287,1183,1209]" pageId="53" pageNumber="54">Gampel</collectorName>
+, 
+<date box="[301,361,1183,1209]" pageId="53" pageNumber="54" value="1992-07-07">
+7. 
+<collectionCode box="[318,361,1183,1209]" pageId="53" pageNumber="54">VII</collectionCode>
+</date>
+</materialsCitation>
+.1992, leg. DB; 
+<materialsCitation ID-GBIF-Occurrence="3127750722" box="[549,1367,1183,1210]" collectionCode="V" country="Switzerland" location="Bratsch" pageId="53" pageNumber="54" specimenCount="1" specimenCount-male="1">
+<specimenCount box="[549,586,1183,1209]" pageId="53" pageNumber="54" type="male">1♂</specimenCount>
+, 
+<collectingCountry box="[602,739,1183,1209]" name="Switzerland" pageId="53" pageNumber="54">Switzerland</collectingCountry>
+, Wallis, 
+<location LSID="urn:lsid:plazi:treatment:EB498780E804FFEF5BA4FF09BCE3FF0A:663F604DE804FFEC587BFB01BDD0FB66" box="[840,928,1183,1209]" country="Switzerland" name="Bratsch" pageId="53" pageNumber="54">Bratsch</location>
+, e.l. ex 
+<taxonomicName box="[1024,1233,1183,1210]" class="Magnoliopsida" family="Cistaceae" genus="Helianthemum" kingdom="Plantae" order="Malvales" pageId="53" pageNumber="54" phylum="Tracheophyta" rank="species" species="undetermined">
+<emphasis box="[1024,1189,1183,1209]" italics="true" pageId="53" pageNumber="54">Helianthemum</emphasis>
+sp.
+</taxonomicName>
+, adult 
+<date box="[1315,1367,1183,1210]" pageId="53" pageNumber="54" value="1996-05-22">
+22. 
+<collectionCode box="[1350,1367,1184,1210]" country="Canada" lsid="urn:lsid:biocol.org:col:13946" name="Royal British Columbia Museum - Herbarium" pageId="53" pageNumber="54" type="Museum">V</collectionCode>
+</date>
+</materialsCitation>
+.1996, leg. DB; 
+<materialsCitation ID-GBIF-Occurrence="3127750411" box="[254,1085,1219,1246]" collectionCode="V" country="Switzerland" location="Leukerfeld" pageId="53" pageNumber="54" specimenCount="1" specimenCount-male="1">
+<specimenCount box="[254,290,1219,1245]" pageId="53" pageNumber="54" type="male">1♂</specimenCount>
+, 
+<collectingCountry box="[303,440,1219,1245]" name="Switzerland" pageId="53" pageNumber="54">Switzerland</collectingCountry>
+, Wallis, 
+<location LSID="urn:lsid:plazi:treatment:EB498780E804FFEF5BA4FF09BCE3FF0A:663F604DE804FFEC592BFB5DBCE6FB02" box="[536,662,1219,1245]" country="Switzerland" name="Leukerfeld" pageId="53" pageNumber="54">Leukerfeld</location>
+, e.l. ex 
+<taxonomicName box="[749,954,1219,1246]" class="Magnoliopsida" family="Cistaceae" genus="Helianthemum" kingdom="Plantae" order="Malvales" pageId="53" pageNumber="54" phylum="Tracheophyta" rank="species" species="undetermined">
+<emphasis box="[749,914,1219,1245]" italics="true" pageId="53" pageNumber="54">Helianthemum</emphasis>
+sp.
+</taxonomicName>
+, adult 
+<date box="[1030,1085,1219,1245]" pageId="53" pageNumber="54" value="1996-05-27">
+27. 
+<collectionCode box="[1063,1085,1219,1245]" country="Canada" lsid="urn:lsid:biocol.org:col:13946" name="Royal British Columbia Museum - Herbarium" pageId="53" pageNumber="54" type="Museum">V</collectionCode>
+</date>
+</materialsCitation>
+.1996, leg. DB (CDB). 
+<materialsCitation ID-GBIF-Occurrence="3127750721" collectingDate="1991-04-28" collectionCode="VI" country="Germany" location="Grissheim" pageId="53" pageNumber="54" specimenCount="5" specimenCount-female="4" specimenCount-male="1" stateProvince="Baden-Wuerttemberg">
+<specimenCount box="[1345,1381,1219,1245]" pageId="53" pageNumber="54" type="male">1♂</specimenCount>
+, 
+<specimenCount box="[1394,1431,1219,1245]" pageId="53" pageNumber="54" type="female">4♀</specimenCount>
+, 
+<collectingCountry box="[151,256,1255,1281]" name="Germany" pageId="53" pageNumber="54">Germany</collectingCountry>
+, 
+<collectingRegion box="[269,502,1255,1281]" country="Germany" name="Baden-Wuerttemberg" pageId="53" pageNumber="54">Baden-Württemberg</collectingRegion>
+, 
+<location LSID="urn:lsid:plazi:treatment:EB498780E804FFEF5BA4FF09BCE3FF0A:663F604DE804FFEC5932FB79BC07FADE" box="[513,631,1255,1281]" country="Germany" name="Grissheim" pageId="53" pageNumber="54" stateProvince="Baden-Wuerttemberg">Grissheim</location>
+, e.l. ex 
+<taxonomicName box="[720,912,1255,1281]" class="Magnoliopsida" family="Cistaceae" genus="Helianthemum" kingdom="Plantae" order="Malvales" pageId="53" pageNumber="54" phylum="Tracheophyta" rank="species" species="nummularium">
+<emphasis box="[720,912,1255,1281]" italics="true" pageId="53" pageNumber="54">H. nummularium</emphasis>
+</taxonomicName>
+, larvae 
+<date box="[1003,1127,1255,1281]" pageId="53" pageNumber="54" value="1991-04-28">
+<collectingDate box="[1003,1127,1255,1281]" pageId="53" pageNumber="54" value="1991-04-28">28.IV.1991</collectingDate>
+</date>
+adults 
+<date box="[1210,1370,1255,1281]" pageId="53" pageNumber="54" value="1991-06-20" valueMax="1991-06-22" valueMin="1991-06-20">
+20. and 22. 
+<collectionCode box="[1337,1370,1255,1281]" country="Norway" name="Mykotektet, National Veterinary Institute" pageId="53" pageNumber="54">VI</collectionCode>
+</date>
+</materialsCitation>
+.1991, 
+<specimenCount box="[151,186,1291,1317]" pageId="53" pageNumber="54" type="male">4♂</specimenCount>
+(
+<figureCitation box="[205,364,1291,1317]" captionStart="FIGURES 171–179" captionStartId="54.[151,264,1201,1225]" captionTargetBox="[166,1429,247,1171]" captionTargetId="figure-53@54.[151,1435,237,1178]" captionTargetPageId="54" captionText="FIGURES 171–179. Pyropteron species. 171–173. Pyropteron affinis, (171–172) ♂, (173) ♀, Germany, Baden. 174–176. Pyropteron erodiiphaga, (174–175) ♂, Tunisia, Djerba, (176) ♀, Tunisia, Kasserine. 177–179. Pyropteron atlantis, (177–178) ♂, Morocco, High Atlas, (179) ♂ lectotype, Morocco, High Atlas. Scale 10mm." figureDoi="http://doi.org/10.5281/zenodo.4771911" httpUri="https://zenodo.org/record/4771911/files/figure.png" pageId="53" pageNumber="54">Figs 171–172</figureCitation>
+) (
+<specimenCount box="[393,427,1291,1317]" pageId="53" pageNumber="54" type="male">1♂</specimenCount>
+Bartsch gen. prep. 2020-09) (
+<figureCitation box="[781,882,1291,1317]" captionStart="FIGURES 180–186" captionStartId="56.[151,264,1789,1813]" captionTargetBox="[162,1422,185,1752]" captionTargetId="figure-27@56.[151,1435,181,1766]" captionTargetPageId="56" captionText="FIGURES 180–186. Pyropteron species, male genitalia. 180–182. Pyropteron affinis, (180) ♂, Germany, Baden, genitalia slide DB 2020-09, (181) ♂, Spain, Baza, genitalia slide DB 2013-02, (182) ♂, Italia, Sicily, genitalia slide SMNS 3701. 183– 185. Pyropteron erodiiphaga, (183) ♂, Morocco, Rif, genitalia slide DB 2019-61, (184) ♂, Tunisia, Kasserine, genitalia slide DB 2013-03, (185) ♂, Tunisia, Kasserine genitalia slide Špatenka. 186. Pyropteron atlantis, ♂, Morocco, High Atlas genitalia slide DB 2004-13. Scale 1mm." figureDoi="http://doi.org/10.5281/zenodo.4771915" httpUri="https://zenodo.org/record/4771915/files/figure.png" pageId="53" pageNumber="54">Fig. 180</figureCitation>
+), 
+<materialsCitation ID-GBIF-Occurrence="3127750505" collectingDate="1991-04-28" collectionCode="XII" country="Germany" location="Grissheim" pageId="53" pageNumber="54" specimenCount="2" specimenCount-female="2" stateProvince="Baden-Wuerttemberg">
+<specimenCount box="[906,940,1291,1317]" pageId="53" pageNumber="54" type="female">2♀</specimenCount>
+(
+<figureCitation box="[960,1060,1291,1317]" captionStart="FIGURES 171–179" captionStartId="54.[151,264,1201,1225]" captionTargetBox="[166,1429,247,1171]" captionTargetId="figure-53@54.[151,1435,237,1178]" captionTargetPageId="54" captionText="FIGURES 171–179. Pyropteron species. 171–173. Pyropteron affinis, (171–172) ♂, (173) ♀, Germany, Baden. 174–176. Pyropteron erodiiphaga, (174–175) ♂, Tunisia, Djerba, (176) ♀, Tunisia, Kasserine. 177–179. Pyropteron atlantis, (177–178) ♂, Morocco, High Atlas, (179) ♂ lectotype, Morocco, High Atlas. Scale 10mm." figureDoi="http://doi.org/10.5281/zenodo.4771911" httpUri="https://zenodo.org/record/4771911/files/figure.png" pageId="53" pageNumber="54">Fig. 173</figureCitation>
+), ibid., e.l. ex 
+<taxonomicName box="[1234,1429,1291,1317]" class="Magnoliopsida" family="Cistaceae" genus="Helianthemum" kingdom="Plantae" order="Malvales" pageId="53" pageNumber="54" phylum="Tracheophyta" rank="species" species="nummularium">
+<emphasis box="[1234,1429,1291,1317]" italics="true" pageId="53" pageNumber="54">H. nummularium</emphasis>
+</taxonomicName>
+, larvae 
+<date box="[230,307,1327,1353]" pageId="53" pageNumber="54" value="1991-12-28">
+28. 
+<collectionCode box="[263,307,1327,1353]" pageId="53" pageNumber="54">XII</collectionCode>
+</date>
+</materialsCitation>
+.1991, adults 
+<date box="[460,554,1327,1353]" pageId="53" pageNumber="54" value="1992-03">III.1992</date>
+, leg. DB; 
+<materialsCitation ID-GBIF-Occurrence="3127750400" collectionCode="V" country="Germany" location="Grissheim" pageId="53" pageNumber="54" specimenCount="1" specimenCount-female="1" stateProvince="Baden-Wuerttemberg">
+<specimenCount box="[676,711,1327,1353]" pageId="53" pageNumber="54" type="female">1♀</specimenCount>
+, 
+<collectingCountry box="[728,833,1327,1353]" name="Germany" pageId="53" pageNumber="54">Germany</collectingCountry>
+, 
+<collectingRegion box="[848,1081,1327,1353]" country="Germany" name="Baden-Wuerttemberg" pageId="53" pageNumber="54">Baden-Württemberg</collectingRegion>
+, 
+<location LSID="urn:lsid:plazi:treatment:EB498780E804FFEF5BA4FF09BCE3FF0A:663F604DE804FFEC5F75FAB1BACCFA96" box="[1094,1212,1327,1353]" country="Germany" name="Grissheim" pageId="53" pageNumber="54" stateProvince="Baden-Wuerttemberg">Grissheim</location>
+, e.l. ex 
+<taxonomicName class="Magnoliopsida" family="Cistaceae" genus="Helianthemum" kingdom="Plantae" order="Malvales" pageId="53" pageNumber="54" phylum="Tracheophyta" rank="species" species="nummularium">
+<emphasis italics="true" pageId="53" pageNumber="54">H. nummularium</emphasis>
+</taxonomicName>
+, larva 9. 
+<collectionCode box="[321,345,1363,1389]" country="Canada" lsid="urn:lsid:biocol.org:col:13946" name="Royal British Columbia Museum - Herbarium" pageId="53" pageNumber="54" type="Museum">V</collectionCode>
+</materialsCitation>
+., adult 
+<date box="[424,541,1363,1389]" pageId="53" pageNumber="54" value="1993-05-22">22.V.1993</date>
+, leg. DB; 
+<materialsCitation ID-GBIF-Occurrence="3127750371" collectionCode="V" country="Germany" location="Gutenstein" municipality="Donau" pageId="53" pageNumber="54" specimenCount="8" specimenCount-female="4" specimenCount-male="4" stateProvince="Baden-Wuerttemberg">
+<specimenCount box="[654,691,1363,1389]" pageId="53" pageNumber="54" type="male">4♂</specimenCount>
+, 
+<specimenCount box="[703,739,1363,1389]" pageId="53" pageNumber="54" type="female">4♀</specimenCount>
+, 
+<collectingCountry box="[751,856,1363,1389]" name="Germany" pageId="53" pageNumber="54">Germany</collectingCountry>
+, 
+<collectingRegion box="[868,1101,1363,1389]" country="Germany" name="Baden-Wuerttemberg" pageId="53" pageNumber="54">Baden-Württemberg</collectingRegion>
+, 
+<collectingMunicipality box="[1111,1188,1364,1390]" pageId="53" pageNumber="54">Donau</collectingMunicipality>
+, 
+<location LSID="urn:lsid:plazi:treatment:EB498780E804FFEF5BA4FF09BCE3FF0A:663F604DE804FFEC5F83FACDBB5CFAB2" box="[1200,1324,1363,1389]" country="Germany" municipality="Donau" name="Gutenstein" pageId="53" pageNumber="54" stateProvince="Baden-Wuerttemberg">Gutenstein</location>
+, e.l. ex 
+<taxonomicName class="Magnoliopsida" family="Cistaceae" genus="Helianthemum" kingdom="Plantae" order="Malvales" pageId="53" pageNumber="54" phylum="Tracheophyta" rank="species" species="nummularium">
+<emphasis italics="true" pageId="53" pageNumber="54">H. nummularium</emphasis>
+</taxonomicName>
+, adults 
+<date box="[399,536,1399,1425]" pageId="53" pageNumber="54" value="1992-04-13" valueMax="1992-05-30" valueMin="1992-04-13">
+13.IV.–30. 
+<collectionCode box="[514,536,1399,1425]" country="Canada" lsid="urn:lsid:biocol.org:col:13946" name="Royal British Columbia Museum - Herbarium" pageId="53" pageNumber="54" type="Museum">V</collectionCode>
+</date>
+</materialsCitation>
+.1992, leg. DB (
+<specimenCount box="[721,754,1399,1425]" pageId="53" pageNumber="54" type="female">1♀</specimenCount>
+, Bartsch gen. prep. 2019-60) (
+<figureCitation box="[1104,1204,1399,1425]" captionStart="FIGURES 187–190" captionStartId="57.[151,264,1924,1948]" captionTargetBox="[163,1424,957,1891]" captionTargetId="figure-433@57.[151,1436,957,1900]" captionTargetPageId="57" captionText="FIGURES 187–190. Pyropteron species, female genitalia. 187–188. Pyropteron affinis, (187) ♀, Germany, Württemberg, geni- talia slide DB 2019-60, (188) ♀, Central Europe, without finding data, genitalia slide DB 2019-58. 189–190. Pyropteron erodiiphaga, (189) ♀, Morocco, Rif, genitalia slide DB 2019-59, (190) ♀, Tunisia, Kasserine, genitalia slide DB 2019-57. Scale 1mm." figureDoi="http://doi.org/10.5281/zenodo.4771917" httpUri="https://zenodo.org/record/4771917/files/figure.png" pageId="53" pageNumber="54">Fig. 187</figureCitation>
+); 
+<materialsCitation ID-GBIF-Occurrence="3127750584" collectionCode="V" collectorName="Hartheim" country="Germany" location="Baden-Wurttemberg" pageId="53" pageNumber="54" specimenCount="3" specimenCount-female="2" specimenCount-male="1" stateProvince="Baden-Wuerttemberg">
+<specimenCount box="[1226,1262,1399,1425]" pageId="53" pageNumber="54" type="male">1♂</specimenCount>
+, 
+<specimenCount box="[1276,1313,1399,1425]" pageId="53" pageNumber="54" type="female">2♀</specimenCount>
+, 
+<collectingCountry box="[1327,1432,1399,1425]" name="Germany" pageId="53" pageNumber="54">Germany</collectingCountry>
+, 
+<collectingRegion box="[151,384,1435,1461]" country="Germany" name="Baden-Wuerttemberg" pageId="53" pageNumber="54">Baden-Württemberg</collectingRegion>
+, 
+<collectorName box="[394,503,1435,1461]" pageId="53" pageNumber="54">Hartheim</collectorName>
+, e.l. ex 
+<taxonomicName box="[586,776,1435,1461]" class="Magnoliopsida" family="Cistaceae" genus="Helianthemum" kingdom="Plantae" order="Malvales" pageId="53" pageNumber="54" phylum="Tracheophyta" rank="species" species="nummularium">
+<emphasis box="[586,776,1435,1461]" italics="true" pageId="53" pageNumber="54">H. nummularium</emphasis>
+</taxonomicName>
+, larva 12. 
+<collectionCode box="[885,908,1435,1461]" country="Canada" lsid="urn:lsid:biocol.org:col:13946" name="Royal British Columbia Museum - Herbarium" pageId="53" pageNumber="54" type="Museum">V</collectionCode>
+</materialsCitation>
+., adults 4., 
+<date box="[1031,1235,1435,1461]" pageId="53" pageNumber="54" value="1992-06-06" valueMax="1992-06-14" valueMin="1992-06-06">6. and 14.VI.1992</date>
+, leg. DB; 
+<materialsCitation ID-GBIF-Occurrence="3127750774" collectionCode="III" collectorName="Oberbergen" country="Germany" location="Kaiserstuhl" pageId="53" pageNumber="54" specimenCount="5" specimenCount-female="1" specimenCount-male="4" stateProvince="Baden-Wuerttemberg">
+<specimenCount box="[1346,1383,1435,1461]" pageId="53" pageNumber="54" type="male">4♂</specimenCount>
+, 
+<specimenCount box="[1394,1429,1435,1461]" pageId="53" pageNumber="54" type="female">1♀</specimenCount>
+, 
+<collectingCountry box="[151,256,1471,1497]" name="Germany" pageId="53" pageNumber="54">Germany</collectingCountry>
+, 
+<collectingRegion box="[270,503,1471,1497]" country="Germany" name="Baden-Wuerttemberg" pageId="53" pageNumber="54">Baden-Württemberg</collectingRegion>
+, 
+<location LSID="urn:lsid:plazi:treatment:EB498780E804FFEF5BA4FF09BCE3FF0A:663F604DE804FFEC5936FA21BCF7FA06" box="[517,647,1471,1497]" country="Germany" name="Kaiserstuhl" pageId="53" pageNumber="54" stateProvince="Baden-Wuerttemberg">Kaiserstuhl</location>
+, 
+<collectorName box="[661,796,1471,1497]" pageId="53" pageNumber="54">Oberbergen</collectorName>
+, e.l. ex 
+<taxonomicName box="[889,1083,1471,1497]" class="Magnoliopsida" family="Cistaceae" genus="Helianthemum" kingdom="Plantae" order="Malvales" pageId="53" pageNumber="54" phylum="Tracheophyta" rank="species" species="nummularium">
+<emphasis box="[889,1083,1471,1497]" italics="true" pageId="53" pageNumber="54">H. nummularium</emphasis>
+</taxonomicName>
+, larva 20. 
+<collectionCode box="[1201,1233,1471,1497]" pageId="53" pageNumber="54">III</collectionCode>
+</materialsCitation>
+., adults 29.– 
+<date pageId="53" pageNumber="54" value="1992-05-30" valueMax="1992-06-05" valueMin="1992-05-30">
+30.V
+<materialsCitation ID-GBIF-Occurrence="3127750643" collectionCode="VI" collectorName="Oberbergen" country="Germany" isTailEnumeration="true" location="Kaiserstuhl" pageId="53" pageNumber="54" specimenCount="1" stateProvince="Baden-Wuerttemberg">
+. and 5. 
+<collectionCode box="[216,249,1507,1534]" country="Norway" name="Mykotektet, National Veterinary Institute" pageId="53" pageNumber="54">VI</collectionCode>
+</materialsCitation>
+.1992
+</date>
+, leg. DB (CDB). 
+<materialsCitation ID-GBIF-Occurrence="3127750715" box="[509,1054,1507,1534]" collectionCode="VII" collectorName="Nax" country="Switzerland" elevation="700" location="Sion" pageId="53" pageNumber="54" specimenCount="1" specimenCount-male="1">
+<specimenCount box="[509,546,1507,1533]" pageId="53" pageNumber="54" type="male">1♂</specimenCount>
+, 
+<collectingCountry box="[558,695,1507,1533]" name="Switzerland" pageId="53" pageNumber="54">Switzerland</collectingCountry>
+, Wallis, 
+<location LSID="urn:lsid:plazi:treatment:EB498780E804FFEF5BA4FF09BCE3FF0A:663F604DE804FFEC5825FA7DBD3CFA22" box="[790,844,1507,1533]" country="Switzerland" name="Sion" pageId="53" pageNumber="54">Sion</location>
+, 
+<collectorName box="[855,904,1508,1534]" pageId="53" pageNumber="54">Nax</collectorName>
+, 
+<quantity box="[916,982,1507,1533]" metricMagnitude="2" metricUnit="m" metricValue="7.0" pageId="53" pageNumber="54" unit="m" value="700.0">
+<elevation box="[916,982,1507,1533]" metricMagnitude="2" metricUnit="m" metricValue="7.0" pageId="53" pageNumber="54" unit="m" value="700.0">700m</elevation>
+</quantity>
+, 
+<date box="[993,1054,1507,1534]" pageId="53" pageNumber="54" value="1992-07-05">
+5. 
+<collectionCode box="[1010,1054,1507,1534]" pageId="53" pageNumber="54">VII</collectionCode>
+</date>
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3127750489" collectionCode="SMNS" country="Switzerland" location="Bartsch" pageId="53" pageNumber="54" specimenCount="1">
+.1992, leg. DB (
+<location LSID="urn:lsid:plazi:treatment:EB498780E804FFEF5BA4FF09BCE3FF0A:663F604DE804FFEC5FFCFA7DBB56FA22" box="[1231,1318,1507,1533]" country="Switzerland" name="Bartsch" pageId="53" pageNumber="54">Bartsch</location>
+gen. prep. 2007-57) (
+<collectionCode box="[272,354,1543,1569]" country="Germany" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34840" lsid="urn:lsid:biocol.org:col:34840" name="Staatliches Museum fuer Naturkund Stuttgart" pageId="53" pageNumber="54">SMNS</collectionCode>
+)
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="3127751049" collectionCode="SMNS" collectorName="Etzel &amp; Bartsch" country="Switzerland" location="Central Europe" pageId="53" pageNumber="54" specimenCount="1" specimenCount-female="1">
+<specimenCount box="[376,411,1543,1569]" pageId="53" pageNumber="54" type="female">1♀</specimenCount>
+, “ 
+<location LSID="urn:lsid:plazi:treatment:EB498780E804FFEF5BA4FF09BCE3FF0A:663F604DE804FFEC5A86F999BC18F9FE" box="[437,616,1543,1569]" country="Switzerland" name="Central Europe" pageId="53" pageNumber="54">Central Europe</location>
+” without further data, ex coll. 
+<collectorName box="[975,1033,1543,1569]" pageId="53" pageNumber="54">Etzel</collectorName>
+(
+<collectorName box="[1049,1136,1543,1569]" pageId="53" pageNumber="54">Bartsch</collectorName>
+gen. prep. 2019-58) (
+<figureCitation captionStart="FIGURES 187–190" captionStartId="57.[151,264,1924,1948]" captionTargetBox="[163,1424,957,1891]" captionTargetId="figure-433@57.[151,1436,957,1900]" captionTargetPageId="57" captionText="FIGURES 187–190. Pyropteron species, female genitalia. 187–188. Pyropteron affinis, (187) ♀, Germany, Württemberg, geni- talia slide DB 2019-60, (188) ♀, Central Europe, without finding data, genitalia slide DB 2019-58. 189–190. Pyropteron erodiiphaga, (189) ♀, Morocco, Rif, genitalia slide DB 2019-59, (190) ♀, Tunisia, Kasserine, genitalia slide DB 2019-57. Scale 1mm." figureDoi="http://doi.org/10.5281/zenodo.4771917" httpUri="https://zenodo.org/record/4771917/files/figure.png" pageId="53" pageNumber="54">Fig. 188</figureCitation>
+) (
+<collectionCode box="[217,299,1579,1605]" country="Germany" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34840" lsid="urn:lsid:biocol.org:col:34840" name="Staatliches Museum fuer Naturkund Stuttgart" pageId="53" pageNumber="54">SMNS</collectionCode>
+)
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="3127751076" box="[318,1035,1579,1606]" collectionCode="VII" collectorName="Le Madonie" country="Italy" elevation="1600" location="Piano de Bataglia" pageId="53" pageNumber="54" specimenCount="1" specimenCount-male="1" stateProvince="Sicilia">
+<specimenCount box="[318,355,1579,1605]" pageId="53" pageNumber="54" type="male">1♂</specimenCount>
+, 
+<collectingCountry box="[367,419,1579,1605]" name="Italy" pageId="53" pageNumber="54">Italy</collectingCountry>
+, 
+<collectingRegion box="[430,496,1579,1605]" country="Italy" name="Sicilia" pageId="53" pageNumber="54">Sicily</collectingRegion>
+, 
+<collectorName box="[507,646,1579,1606]" pageId="53" pageNumber="54">Le Madonie</collectorName>
+, 
+<location LSID="urn:lsid:plazi:treatment:EB498780E804FFEF5BA4FF09BCE3FF0A:663F604DE804FFEC59A2F9B5BD28F99A" box="[657,856,1579,1605]" country="Italy" name="Piano de Bataglia" pageId="53" pageNumber="54" stateProvince="Sicilia">Piano de Bataglia</location>
+, 
+<quantity box="[867,947,1579,1605]" metricMagnitude="3" metricUnit="m" metricValue="1.6" pageId="53" pageNumber="54" unit="m" value="1600.0">
+<elevation box="[867,947,1579,1605]" metricMagnitude="3" metricUnit="m" metricValue="1.6" pageId="53" pageNumber="54" unit="m" value="1600.0">1600m</elevation>
+</quantity>
+, 
+<date box="[959,1035,1579,1605]" pageId="53" pageNumber="54" value="1996-07-20">
+20. 
+<collectionCode box="[992,1035,1579,1605]" pageId="53" pageNumber="54">VII</collectionCode>
+</date>
+</materialsCitation>
+.1996, leg. 
+<collectorName box="[1157,1221,1580,1606]" pageId="53" pageNumber="54">Bruer</collectorName>
+(SMNS Lep.-prep. 3701) (
+<figureCitation box="[232,331,1615,1641]" captionStart="FIGURES 180–186" captionStartId="56.[151,264,1789,1813]" captionTargetBox="[162,1422,185,1752]" captionTargetId="figure-27@56.[151,1435,181,1766]" captionTargetPageId="56" captionText="FIGURES 180–186. Pyropteron species, male genitalia. 180–182. Pyropteron affinis, (180) ♂, Germany, Baden, genitalia slide DB 2020-09, (181) ♂, Spain, Baza, genitalia slide DB 2013-02, (182) ♂, Italia, Sicily, genitalia slide SMNS 3701. 183– 185. Pyropteron erodiiphaga, (183) ♂, Morocco, Rif, genitalia slide DB 2019-61, (184) ♂, Tunisia, Kasserine, genitalia slide DB 2013-03, (185) ♂, Tunisia, Kasserine genitalia slide Špatenka. 186. Pyropteron atlantis, ♂, Morocco, High Atlas genitalia slide DB 2004-13. Scale 1mm." figureDoi="http://doi.org/10.5281/zenodo.4771915" httpUri="https://zenodo.org/record/4771915/files/figure.png" pageId="53" pageNumber="54">Fig. 182</figureCitation>
+); 
+<materialsCitation ID-GBIF-Occurrence="3127750928" box="[351,1085,1615,1642]" collectionCode="VI" collectorName="Sila NP" country="Italy" elevation="1100" location="10 km ESE Acri" pageId="53" pageNumber="54" specimenCount="4" specimenCount-male="4" stateProvince="Calabria">
+<specimenCount box="[351,388,1615,1641]" pageId="53" pageNumber="54" type="male">4♂</specimenCount>
+, 
+<collectingCountry box="[400,452,1615,1641]" name="Italy" pageId="53" pageNumber="54">Italy</collectingCountry>
+, 
+<collectingRegion box="[464,562,1615,1641]" country="Italy" name="Calabria" pageId="53" pageNumber="54">Calabria</collectingRegion>
+, 
+<collectorName box="[573,659,1615,1642]" pageId="53" pageNumber="54">Sila NP</collectorName>
+, 
+<location LSID="urn:lsid:plazi:treatment:EB498780E804FFEF5BA4FF09BCE3FF0A:663F604DE804FFEC59ADF9D1BD29F9B6" box="[670,857,1615,1641]" country="Italy" name="10 km ESE Acri" pageId="53" pageNumber="54" stateProvince="Calabria">
+<quantity box="[670,741,1615,1641]" metricMagnitude="4" metricUnit="m" metricValue="1.0" pageId="53" pageNumber="54" unit="km" value="10.0">10 km</quantity>
+ESE Acri
+</location>
+, 
+<quantity box="[868,1024,1615,1642]" metricMagnitude="3" metricUnit="m" metricValue="1.1" metricValueMax="1.1199999999999999" metricValueMin="1.08" pageId="53" pageNumber="54" unit="m" value="1100.0" valueMax="1120.0" valueMin="1080.0">
+<elevation box="[868,1024,1615,1642]" metricMagnitude="3" metricUnit="m" metricValue="1.1" metricValueMax="1.1199999999999999" metricValueMin="1.08" pageId="53" pageNumber="54" unit="m" value="1100.0" valueMax="1120.0" valueMin="1080.0">1080–1120 m</elevation>
+</quantity>
+, 
+<date box="[1036,1085,1615,1641]" pageId="53" pageNumber="54" value="2009-06-06">
+6. 
+<collectionCode box="[1053,1085,1615,1641]" country="Norway" name="Mykotektet, National Veterinary Institute" pageId="53" pageNumber="54">VI</collectionCode>
+</date>
+</materialsCitation>
+.2009, leg. FP; 
+<materialsCitation ID-GBIF-Occurrence="3127750460" collectionCode="VII" collectorName="Sonnenberg" country="Italy" elevation="900" location="Latsch" municipality="South Tyrol" pageId="53" pageNumber="54" specimenCount="3" specimenCount-male="3">
+<specimenCount box="[1258,1295,1615,1641]" pageId="53" pageNumber="54" type="male">3♂</specimenCount>
+, 
+<collectingCountry box="[1307,1359,1615,1641]" name="Italy" pageId="53" pageNumber="54">Italy</collectingCountry>
+, 
+<collectingMunicipality pageId="53" pageNumber="54">South Tyrol</collectingMunicipality>
+, 
+<location LSID="urn:lsid:plazi:treatment:EB498780E804FFEF5BA4FF09BCE3FF0A:663F604DE804FFEC5BD0F9EDBF5FF952" box="[227,303,1651,1677]" country="Italy" municipality="South Tyrol" name="Latsch" pageId="53" pageNumber="54">Latsch</location>
+— 
+<collectorName box="[332,466,1651,1677]" pageId="53" pageNumber="54">Sonnenberg</collectorName>
+, 
+<quantity box="[479,553,1651,1678]" metricMagnitude="2" metricUnit="m" metricValue="9.0" pageId="53" pageNumber="54" unit="m" value="900.0">
+<elevation box="[479,553,1651,1678]" metricMagnitude="2" metricUnit="m" metricValue="9.0" pageId="53" pageNumber="54" unit="m" value="900.0">900 m</elevation>
+</quantity>
+, 
+<date box="[567,628,1651,1677]" pageId="53" pageNumber="54" value="1999-07-07">
+7. 
+<collectionCode box="[584,628,1651,1677]" pageId="53" pageNumber="54">VII</collectionCode>
+</date>
+</materialsCitation>
+.1999, leg. FP (DNAtax 03-05, gen. prep. FP 02/11); 
+<materialsCitation ID-GBIF-Occurrence="3127750427" collectionCode="VI" collectorName="Monte &amp; Sant' Ambrogio" country="Italy" location="Veneto" pageId="53" pageNumber="54" specimenCount="2" specimenCount-male="2" stateProvince="Veneto">
+<specimenCount box="[1236,1274,1651,1677]" pageId="53" pageNumber="54" type="male">2♂</specimenCount>
+, 
+<collectingCountry box="[1287,1339,1651,1677]" name="Italy" pageId="53" pageNumber="54">Italy</collectingCountry>
+, 
+<collectingRegion box="[1351,1432,1652,1678]" country="Italy" name="Veneto" pageId="53" pageNumber="54">Veneto</collectingRegion>
+, VR, 
+<collectorName box="[204,277,1688,1714]" pageId="53" pageNumber="54">Monte</collectorName>
+nr. 
+<collectorName box="[319,499,1687,1713]" pageId="53" pageNumber="54">Sant’ Ambrogio</collectorName>
+, 
+<date box="[509,560,1687,1713]" pageId="53" pageNumber="54" value="1998-06-03">
+3. 
+<collectionCode box="[526,560,1687,1713]" country="Norway" name="Mykotektet, National Veterinary Institute" pageId="53" pageNumber="54">VI</collectionCode>
+</date>
+</materialsCitation>
+.1998, leg. FP (photo 33/6/25-34/1/8, 34/1/23-33); 
+<materialsCitation ID-GBIF-Occurrence="3127751034" box="[1127,1321,1687,1713]" collectionCode="VI" collectorName="Monte &amp; Sant' Ambrogio" country="Italy" location="Veneto" pageId="53" pageNumber="54" specimenCount="12" specimenCount-male="12" stateProvince="Veneto">
+<specimenCount box="[1127,1178,1687,1713]" pageId="53" pageNumber="54" type="male">12♂</specimenCount>
+, ibid., 
+<date box="[1254,1321,1687,1713]" pageId="53" pageNumber="54" value="1998-06-20">
+20. 
+<collectionCode box="[1288,1321,1687,1713]" country="Norway" name="Mykotektet, National Veterinary Institute" pageId="53" pageNumber="54">VI</collectionCode>
+</date>
+</materialsCitation>
+.1998, leg. FP (BOX-2219 H06); 
+<materialsCitation ID-GBIF-Occurrence="3127750394" box="[401,588,1723,1750]" collectionCode="VII" collectorName="Monte &amp; Sant' Ambrogio" country="Italy" location="Veneto" pageId="53" pageNumber="54" specimenCount="7" specimenCount-male="7" stateProvince="Veneto">
+<specimenCount box="[401,438,1724,1750]" pageId="53" pageNumber="54" type="male">7♂</specimenCount>
+, ibid., 
+<date box="[514,588,1723,1749]" pageId="53" pageNumber="54" value="1999-07-10">
+10. 
+<collectionCode box="[545,588,1723,1749]" pageId="53" pageNumber="54">VII</collectionCode>
+</date>
+</materialsCitation>
+.1999, leg. FP (gen. preps. FP 02/13, 02/14); 
+<materialsCitation ID-GBIF-Occurrence="3127750487" collectionCode="VII" collectorName="Zirl" country="Austria" elevation="710" location="Fragenstein" pageId="53" pageNumber="54" specimenCount="2" specimenCount-male="2" stateProvince="Tirol">
+<specimenCount box="[1089,1126,1723,1749]" pageId="53" pageNumber="54" type="male">2♂</specimenCount>
+, 
+<collectingCountry box="[1136,1221,1723,1749]" name="Austria" pageId="53" pageNumber="54">Austria</collectingCountry>
+, 
+<collectingRegion box="[1232,1295,1723,1749]" country="Austria" name="Tirol" pageId="53" pageNumber="54">Tyrol</collectingRegion>
+, 
+<location LSID="urn:lsid:plazi:treatment:EB498780E804FFEF5BA4FF09BCE3FF0A:663F604DE804FFEC5E2AF925BBECF90A" box="[1305,1436,1723,1749]" country="Austria" name="Fragenstein" pageId="53" pageNumber="54" stateProvince="Tirol">Fragenstein</location>
+nr. 
+<collectorName box="[189,234,1759,1785]" pageId="53" pageNumber="54">Zirl</collectorName>
+, 
+<quantity box="[248,379,1759,1786]" metricMagnitude="2" metricUnit="m" metricValue="7.1" metricValueMax="7.2" metricValueMin="7.0" pageId="53" pageNumber="54" unit="m" value="710.0" valueMax="720.0" valueMin="700.0">
+<elevation box="[248,379,1759,1786]" metricMagnitude="2" metricUnit="m" metricValue="7.1" metricValueMax="7.2" metricValueMin="7.0" pageId="53" pageNumber="54" unit="m" value="710.0" valueMax="720.0" valueMin="700.0">700–720 m</elevation>
+</quantity>
+, 
+<date box="[393,454,1759,1785]" pageId="53" pageNumber="54" value="1997-07-02">
+2. 
+<collectionCode box="[411,454,1759,1785]" pageId="53" pageNumber="54">VII</collectionCode>
+</date>
+</materialsCitation>
+.1997, leg. FP (photo 30/3/14-44); 
+<materialsCitation ID-GBIF-Occurrence="3127750439" collectionCode="VI" collectorName="Gumpoldskirchen N Baden" country="Austria" location="Niederosterreich" pageId="53" pageNumber="54" specimenCount="2" specimenCount-female="2" stateProvince="Niederoesterreich">
+<specimenCount box="[854,891,1759,1785]" pageId="53" pageNumber="54" type="female">2♀</specimenCount>
+, 
+<collectingCountry box="[904,989,1759,1785]" name="Austria" pageId="53" pageNumber="54">Austria</collectingCountry>
+, 
+<collectingRegion box="[1003,1193,1759,1785]" country="Austria" name="Niederoesterreich" pageId="53" pageNumber="54">Niederösterreich</collectingRegion>
+, 
+<collectorName pageId="53" pageNumber="54">Gumpoldskirchen N Baden</collectorName>
+, 
+<date box="[240,305,1795,1821]" pageId="53" pageNumber="54" value="1940-06-12">
+12. 
+<collectionCode box="[272,305,1795,1821]" country="Norway" name="Mykotektet, National Veterinary Institute" pageId="53" pageNumber="54">VI</collectionCode>
+</date>
+</materialsCitation>
+.1940, leg. R. 
+<materialsCitation ID-GBIF-Occurrence="3127750435" box="[470,547,1795,1821]" country="Austria" location="Pinker" pageId="53" pageNumber="54" specimenCount="1" stateProvince="Niederoesterreich">
+<location LSID="urn:lsid:plazi:treatment:EB498780E804FFEF5BA4FF09BCE3FF0A:663F604DE804FFEC5AE5F89DBC53F8C2" box="[470,547,1795,1821]" country="Austria" name="Pinker" pageId="53" pageNumber="54" stateProvince="Niederoesterreich">Pinker</location>
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="3127751062" box="[561,746,1795,1821]" collectionCode="VI" country="Austria" location="Pinker" pageId="53" pageNumber="54" specimenCount="2" specimenCount-female="2" stateProvince="Niederoesterreich">
+<specimenCount box="[561,598,1795,1821]" pageId="53" pageNumber="54" type="female">2♀</specimenCount>
+, ibid., 
+<date box="[680,746,1795,1821]" pageId="53" pageNumber="54" value="1940-06-20">
+20. 
+<collectionCode box="[714,746,1795,1821]" country="Norway" name="Mykotektet, National Veterinary Institute" pageId="53" pageNumber="54">VI</collectionCode>
+</date>
+</materialsCitation>
+.1940, leg. R. 
+<materialsCitation ID-GBIF-Occurrence="3127750905" box="[911,988,1795,1821]" country="Austria" location="Pinker" pageId="53" pageNumber="54" specimenCount="1" stateProvince="Niederoesterreich">
+<location LSID="urn:lsid:plazi:treatment:EB498780E804FFEF5BA4FF09BCE3FF0A:663F604DE804FFEC58BCF89DBDACF8C2" box="[911,988,1795,1821]" country="Austria" name="Pinker" pageId="53" pageNumber="54" stateProvince="Niederoesterreich">Pinker</location>
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="3127750748" box="[1002,1142,1795,1821]" collectionCode="V" country="Austria" location="Pinker" pageId="53" pageNumber="54" specimenCount="1" specimenCount-female="1" stateProvince="Niederoesterreich">
+<specimenCount box="[1002,1037,1795,1821]" pageId="53" pageNumber="54" type="female">1♀</specimenCount>
+, ibid., 
+<date box="[1121,1142,1795,1821]" pageId="53" pageNumber="54" value="1946-05">
+<collectionCode box="[1121,1142,1795,1821]" country="Canada" lsid="urn:lsid:biocol.org:col:13946" name="Royal British Columbia Museum - Herbarium" pageId="53" pageNumber="54" type="Museum">V</collectionCode>
+</date>
+</materialsCitation>
+.1946, leg. R. 
+<materialsCitation ID-GBIF-Occurrence="3127750761" box="[1304,1381,1795,1821]" country="Austria" location="Pinker" pageId="53" pageNumber="54" specimenCount="1" stateProvince="Niederoesterreich">
+<location LSID="urn:lsid:plazi:treatment:EB498780E804FFEF5BA4FF09BCE3FF0A:663F604DE804FFEC5E2BF89DBB15F8C2" box="[1304,1381,1795,1821]" country="Austria" name="Pinker" pageId="53" pageNumber="54" stateProvince="Niederoesterreich">Pinker</location>
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="3127751093" collectionCode="VI" collectorName="Hundsheimer Berg &amp; Hainburg" country="Austria" location="Niederosterreich" pageId="53" pageNumber="54" specimenCount="1" specimenCount-male="1" stateProvince="Niederoesterreich">
+<specimenCount box="[1394,1431,1795,1821]" pageId="53" pageNumber="54" type="male">1♂</specimenCount>
+, 
+<collectingCountry box="[151,236,1831,1857]" name="Austria" pageId="53" pageNumber="54">Austria</collectingCountry>
+, 
+<collectingRegion box="[248,438,1831,1857]" country="Austria" name="Niederoesterreich" pageId="53" pageNumber="54">Niederösterreich</collectingRegion>
+, 
+<collectorName box="[449,662,1831,1858]" pageId="53" pageNumber="54">Hundsheimer Berg</collectorName>
+nr. 
+<collectorName box="[706,814,1831,1857]" pageId="53" pageNumber="54">Hainburg</collectorName>
+, 
+<date box="[826,889,1831,1857]" pageId="53" pageNumber="54" value="1989-06-11">
+11. 
+<collectionCode box="[855,889,1831,1857]" country="Norway" name="Mykotektet, National Veterinary Institute" pageId="53" pageNumber="54">VI</collectionCode>
+</date>
+</materialsCitation>
+.1989, leg. K. Mazzucco; 
+<materialsCitation ID-GBIF-Occurrence="3127750323" collectionCode="VII" collectorName="Hundsheimer Kogel &amp; Hainburg" country="Austria" location="Austria" pageId="53" pageNumber="54" specimenCount="1" specimenCount-female="1">
+<specimenCount box="[1181,1216,1831,1857]" pageId="53" pageNumber="54" type="female">1♀</specimenCount>
+, 
+<collectingCountry box="[1229,1314,1831,1857]" name="Austria" pageId="53" pageNumber="54">Austria</collectingCountry>
+, Niederösterreich, 
+<collectorName box="[250,476,1867,1893]" pageId="53" pageNumber="54">Hundsheimer Kogel</collectorName>
+nr. 
+<collectorName box="[518,626,1867,1893]" pageId="53" pageNumber="54">Hainburg</collectorName>
+, 
+<date box="[637,712,1867,1894]" pageId="53" pageNumber="54" value="1987-07-15">
+15. 
+<collectionCode box="[668,712,1867,1894]" pageId="53" pageNumber="54">VII</collectionCode>
+</date>
+</materialsCitation>
+.1987, leg. K. Mazzucco; 
+<materialsCitation ID-GBIF-Occurrence="3127751074" collectionCode="V" collectorName="Spitalberg" country="Austria" location="Bruck a. d. Leitha" pageId="53" pageNumber="54" specimenCount="1" specimenCount-female="1" stateProvince="Niederoesterreich">
+<specimenCount box="[999,1033,1867,1893]" pageId="53" pageNumber="54" type="female">1♀</specimenCount>
+, 
+<collectingCountry box="[1046,1131,1867,1893]" name="Austria" pageId="53" pageNumber="54">Austria</collectingCountry>
+, 
+<collectingRegion box="[1142,1332,1867,1893]" country="Austria" name="Niederoesterreich" pageId="53" pageNumber="54">Niederösterreich</collectingRegion>
+, 
+<location LSID="urn:lsid:plazi:treatment:EB498780E804FFEF5BA4FF09BCE3FF0A:663F604DE804FFEC5E0DF8D5BE8CF856" country="Austria" name="Bruck a. d. Leitha" pageId="53" pageNumber="54" stateProvince="Niederoesterreich">Bruck a. d. Leitha</location>
+— 
+<collectorName box="[281,396,1903,1929]" pageId="53" pageNumber="54">Spitalberg</collectorName>
+, 
+<date box="[408,462,1903,1930]" pageId="53" pageNumber="54" value="1915-05-15">
+15. 
+<collectionCode box="[439,462,1903,1930]" country="Canada" lsid="urn:lsid:biocol.org:col:13946" name="Royal British Columbia Museum - Herbarium" pageId="53" pageNumber="54" type="Museum">V</collectionCode>
+</date>
+</materialsCitation>
+.1915; 
+<materialsCitation ID-GBIF-Occurrence="3127751017" box="[537,1189,1903,1929]" collectorName="Leithagebirge &amp; Predota" country="Austria" location="Niederosterreich" pageId="53" pageNumber="54" specimenCount="2" specimenCount-male="2" stateProvince="Niederoesterreich">
+<specimenCount box="[537,575,1903,1929]" pageId="53" pageNumber="54" type="male">2♂</specimenCount>
+, 
+<collectingCountry box="[585,670,1903,1929]" name="Austria" pageId="53" pageNumber="54">Austria</collectingCountry>
+, 
+<collectingRegion box="[682,872,1903,1929]" country="Austria" name="Niederoesterreich" pageId="53" pageNumber="54">Niederösterreich</collectingRegion>
+, 
+<collectorName box="[882,1040,1903,1929]" pageId="53" pageNumber="54">Leithagebirge</collectorName>
+, leg. 
+<collectorName box="[1100,1189,1903,1929]" pageId="53" pageNumber="54">Predota</collectorName>
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="3127750409" collectionCode="VII" country="Austria" location="Purbach am Neusiedlersee" pageId="53" pageNumber="54" specimenCount="1" specimenCount-male="1">
+<specimenCount box="[1201,1237,1903,1929]" pageId="53" pageNumber="54" type="male">1♂</specimenCount>
+, 
+<collectingCountry box="[1248,1333,1903,1929]" name="Austria" pageId="53" pageNumber="54">Austria</collectingCountry>
+, Burgenland, 
+<location LSID="urn:lsid:plazi:treatment:EB498780E804FFEF5BA4FF09BCE3FF0A:663F604DE804FFEC5BE5F80DBC73F872" box="[214,515,1939,1966]" country="Austria" name="Purbach am Neusiedlersee" pageId="53" pageNumber="54">Purbach am Neusiedlersee</location>
+, 
+<date box="[526,587,1939,1966]" pageId="53" pageNumber="54" value="1990-07-05">
+5. 
+<collectionCode box="[543,587,1939,1966]" pageId="53" pageNumber="54">VII</collectionCode>
+</date>
+</materialsCitation>
+.1990, leg. L. Ledwinka (gen. prep. FP 02/12); 
+<materialsCitation ID-GBIF-Occurrence="3127750776" collectionCode="VI" collectorName="Vradeto" country="Greece" elevation="1300" location="Timfi Mts" municipality="Ioannina" pageId="53" pageNumber="54" specimenCount="3" specimenCount-male="3">
+<specimenCount box="[1118,1155,1939,1965]" pageId="53" pageNumber="54" type="male">3♂</specimenCount>
+, 
+<collectingCountry box="[1168,1250,1939,1965]" name="Greece" pageId="53" pageNumber="54">Greece</collectingCountry>
+, 
+<collectingMunicipality box="[1261,1362,1939,1965]" pageId="53" pageNumber="54">Ioannina</collectingMunicipality>
+, 
+<location LSID="urn:lsid:plazi:treatment:EB498780E804FFEF5BA4FF09BCE3FF0A:663F604DE804FFEC5E6EF80DBEB5F80D" country="Greece" municipality="Ioannina" name="Timfi Mts" pageId="53" pageNumber="54">Timfi Mts</location>
+, 
+<collectorName box="[209,300,1975,2001]" pageId="53" pageNumber="54">Vradeto</collectorName>
+, 
+<quantity box="[312,400,1975,2002]" metricMagnitude="3" metricUnit="m" metricValue="1.3" pageId="53" pageNumber="54" unit="m" value="1300.0">
+<elevation box="[312,400,1975,2002]" metricMagnitude="3" metricUnit="m" metricValue="1.3" pageId="53" pageNumber="54" unit="m" value="1300.0">1300 m</elevation>
+</quantity>
+, 
+<date box="[413,478,1975,2001]" pageId="53" pageNumber="54" value="2002-06-26">
+26. 
+<collectionCode box="[446,478,1975,2001]" country="Norway" name="Mykotektet, National Veterinary Institute" pageId="53" pageNumber="54">VI</collectionCode>
+</date>
+</materialsCitation>
+.2002, leg. FP (gen. prep. FP 02/33); 
+<materialsCitation ID-GBIF-Occurrence="3127750447" collectionCode="VI" collectorName="Agios Vlasios NE Agrinio" country="Greece" elevation="780" location="Aitoloakarnania" pageId="53" pageNumber="54" specimenCount="3" specimenCount-male="3">
+<specimenCount box="[897,934,1975,2001]" pageId="53" pageNumber="54" type="male">3♂</specimenCount>
+, 
+<collectingCountry box="[947,1029,1975,2001]" name="Greece" pageId="53" pageNumber="54">Greece</collectingCountry>
+, 
+<location LSID="urn:lsid:plazi:treatment:EB498780E804FFEF5BA4FF09BCE3FF0A:663F604DE804FFEC5F3CF829BAB6F80E" box="[1039,1222,1975,2001]" country="Greece" name="Aitoloakarnania" pageId="53" pageNumber="54">Aitoloakarnania</location>
+, 
+<collectorName pageId="53" pageNumber="54">Agios Vlasios NE Agrinio</collectorName>
+, 
+<quantity box="[252,325,2011,2038]" metricMagnitude="2" metricUnit="m" metricValue="7.8" pageId="53" pageNumber="54" unit="m" value="780.0">
+<elevation box="[252,325,2011,2038]" metricMagnitude="2" metricUnit="m" metricValue="7.8" pageId="53" pageNumber="54" unit="m" value="780.0">780 m</elevation>
+</quantity>
+, 
+<date box="[337,401,2011,2037]" pageId="53" pageNumber="54" value="2002-06-17">
+17. 
+<collectionCode box="[368,401,2011,2037]" country="Norway" name="Mykotektet, National Veterinary Institute" pageId="53" pageNumber="54">VI</collectionCode>
+</date>
+</materialsCitation>
+.2002, leg. FP (DNAtax 03-06); 
+<materialsCitation ID-GBIF-Occurrence="3127750527" collectionCode="VI" collectorName="FP" country="Greece" elevation="115" lastPageId="54" lastPageNumber="55" location="Peloponnese" pageId="53" pageNumber="54" specimenCount="4" specimenCount-male="4" stateProvince="Peloponnisos">
+<specimenCount box="[764,801,2011,2037]" pageId="53" pageNumber="54" type="male">4♂</specimenCount>
+, 
+<collectingCountry box="[813,895,2011,2037]" name="Greece" pageId="53" pageNumber="54">Greece</collectingCountry>
+, 
+<collectingRegion box="[906,1050,2011,2037]" country="Greece" name="Peloponnisos" pageId="53" pageNumber="54">Peloponnese</collectingRegion>
+, 
+<collectorName box="[1060,1142,2011,2037]" pageId="53" pageNumber="54">Achaia</collectorName>
+, 
+<collectorName box="[1153,1251,2011,2037]" pageId="53" pageNumber="54">Kalogria</collectorName>
+W 
+<collectorName box="[1290,1432,2011,2038]" pageId="53" pageNumber="54">Kato Achaia</collectorName>
+, 
+<quantity box="[151,280,151,177]" metricMagnitude="2" metricUnit="m" metricValue="1.15" metricValueMax="1.3" metricValueMin="1.0" pageId="54" pageNumber="55" unit="m" value="115.0" valueMax="130.0" valueMin="100.0">
+<elevation box="[151,280,151,177]" metricMagnitude="2" metricUnit="m" metricValue="1.15" metricValueMax="1.3" metricValueMin="1.0" pageId="54" pageNumber="55" unit="m" value="115.0" valueMax="130.0" valueMin="100.0">100–130 m</elevation>
+</quantity>
+, 
+<date box="[292,357,151,177]" pageId="54" pageNumber="55" value="1997-06-10">
+10. 
+<collectionCode box="[324,357,151,177]" country="Norway" name="Mykotektet, National Veterinary Institute" pageId="54" pageNumber="55">VI</collectionCode>
+</date>
+.1997, leg. FP (photo 29/2/5-3/5);
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3127750882" box="[738,1324,151,178]" collectionCode="VI" elevation="115" pageId="54" pageNumber="55" specimenCount="1" specimenCount-male="3">
+<specimenCount box="[738,776,151,177]" pageId="54" pageNumber="55" type="male">3♂</specimenCount>
+, ibid., 
+<date box="[852,917,151,177]" pageId="54" pageNumber="55" value="1997-06-14">
+14. 
+<collectionCode box="[884,917,151,177]" country="Norway" name="Mykotektet, National Veterinary Institute" pageId="54" pageNumber="55">VI</collectionCode>
+</date>
+.1997, leg. FP (gen. prep. FP 98/63);
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3127750850" collectionCode="VI" elevation="115" pageId="54" pageNumber="55" specimenCount="1" specimenCount-male="3">
+<specimenCount box="[1330,1367,151,177]" pageId="54" pageNumber="55" type="male">8♂</specimenCount>
+, ibid., 
+<date box="[151,218,186,213]" pageId="54" pageNumber="55" value="1997-06-15">
+15. 
+<collectionCode box="[186,218,187,213]" country="Norway" name="Mykotektet, National Veterinary Institute" pageId="54" pageNumber="55">VI</collectionCode>
+</date>
+.1997, leg. FP (BOX-2219 H05) (CFP).
+</materialsCitation>
+</paragraph>
+</subSubSection>
+</treatment>
+</document>
