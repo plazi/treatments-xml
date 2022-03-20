@@ -1,0 +1,823 @@
+<document ID-DOI="http://doi.org/10.5281/zenodo.6107564" ID-GBIF-Dataset="84fa4be8-92b2-4f16-ba71-1c99dc7d892c" ID-GBIF-Taxon="119615059" ID-ISSN="1175-5326" ID-Zenodo-Dep="6107564" ID-ZooBank="439FD859-085F-4790-B9AA-D12944B6BEA4" checkinTime="1461066766104" checkinUser="plazi" docAuthor="Anker, Arthur" docDate="2015" docId="290FEA54DE26FFE3FF4CFA954167FE49" docLanguage="en" docName="zt03957p595.pdf" docOrigin="Zootaxa 3957 (5)" docStyle="DocumentStylede.uka.ipd.idaho.easyIO.settings.Settings@1deceb67" docStyleName="zootaxa.2013.journal_article" docTitle="Parabetaeus acanthus Anker, 2015, sp. nov." docType="treatment" docVersion="7" lastPageId="9" lastPageNumber="594" masterDocId="D536922CDE27FFEAFFDBFE0D4276FF86" masterDocTitle="Description of a new distinctive species of Parabetaeus Coutière, 1897 (Decapoda: Caridea: Alpheidae) from the Indo-West Pacific" masterLastPageNumber="595" masterPageNumber="585" pageId="1" pageNumber="586" updateTime="1645021634900" updateUser="ExternalLinkService">
+<mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
+<mods:titleInfo>
+<mods:title>Description of a new distinctive species of Parabetaeus Coutière, 1897 (Decapoda: Caridea: Alpheidae) from the Indo-West Pacific</mods:title>
+</mods:titleInfo>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Anker, Arthur</mods:namePart>
+</mods:name>
+<mods:typeOfResource>text</mods:typeOfResource>
+<mods:relatedItem type="host">
+<mods:titleInfo>
+<mods:title>Zootaxa</mods:title>
+</mods:titleInfo>
+<mods:part>
+<mods:date>2015</mods:date>
+<mods:detail type="volume">
+<mods:number>3957</mods:number>
+</mods:detail>
+<mods:detail type="issue">
+<mods:number>5</mods:number>
+</mods:detail>
+<mods:extent unit="page">
+<mods:start>585</mods:start>
+<mods:end>595</mods:end>
+</mods:extent>
+</mods:part>
+</mods:relatedItem>
+<mods:classification>journal article</mods:classification>
+<mods:identifier type="DOI">http://dx.doi.org/10.11646/zootaxa.3957.5.7</mods:identifier>
+<mods:identifier type="GBIF-Dataset">84fa4be8-92b2-4f16-ba71-1c99dc7d892c</mods:identifier>
+<mods:identifier type="ISSN">1175-5326</mods:identifier>
+<mods:identifier type="Zenodo-Dep">237338</mods:identifier>
+<mods:identifier type="ZooBank">439FD859-085F-4790-B9AA-D12944B6BEA4</mods:identifier>
+</mods:mods>
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6107564" ID-GBIF-Taxon="119615059" ID-Zenodo-Dep="6107564" LSID="urn:lsid:plazi:treatment:290FEA54DE26FFE3FF4CFA954167FE49" httpUri="http://treatment.plazi.org/id/290FEA54DE26FFE3FF4CFA954167FE49" lastPageId="9" lastPageNumber="594" pageId="1" pageNumber="586">
+<subSubSection pageId="1" pageNumber="586" type="nomenclature">
+<paragraph blockId="1.[151,519,1176,1237]" box="[151,519,1176,1203]" pageId="1" pageNumber="586">
+<heading bold="true" box="[151,519,1176,1203]" fontSize="11" level="1" pageId="1" pageNumber="586" reason="1">
+<emphasis bold="true" box="[151,519,1176,1203]" pageId="1" pageNumber="586">
+<taxonomicName box="[151,418,1176,1202]" class="Malacostraca" family="Alpheidae" genus="Parabetaeus" kingdom="Animalia" order="Decapoda" pageId="1" pageNumber="586" phylum="Arthropoda" rank="species" species="acanthus" status="sp. nov.">
+<emphasis bold="true" box="[151,418,1176,1202]" italics="true" pageId="1" pageNumber="586">Parabetaeus acanthus</emphasis>
+</taxonomicName>
+<taxonomicNameLabel box="[426,519,1177,1203]" pageId="1" pageNumber="586" rank="species">sp. nov.</taxonomicNameLabel>
+</emphasis>
+</heading>
+</paragraph>
+<paragraph blockId="1.[151,519,1176,1237]" box="[151,274,1212,1237]" pageId="1" pageNumber="586">
+(
+<figureCitation box="[159,265,1212,1237]" captionStart-0="FIGURE 1" captionStart-1="FIGURE 2" captionStart-2="FIGURE 3" captionStart-3="FIGURE 4" captionStart-4="FIGURE 5" captionStart-5="FIGURE 6" captionStartId-0="2.[151,250,1765,1787]" captionStartId-1="3.[151,250,1915,1937]" captionStartId-2="4.[151,250,1408,1430]" captionStartId-3="5.[151,250,1822,1844]" captionStartId-4="7.[151,250,1952,1974]" captionStartId-5="8.[151,250,1705,1727]" captionTargetBox-0="[176,1415,319,1718]" captionTargetBox-1="[214,1372,466,1880]" captionTargetBox-2="[162,1430,525,1382]" captionTargetBox-3="[164,1424,679,1772]" captionTargetBox-4="[159,1422,193,1930]" captionTargetBox-5="[150,1435,180,1682]" captionTargetId-0="figure@2.[151,1436,303,1741]" captionTargetId-1="figure@3.[206,1388,445,1891]" captionTargetId-2="figure@4.[151,1436,517,1387]" captionTargetId-3="figure@5.[151,1436,661,1784]" captionTargetId-4="figure@7.[159,1423,193,1932]" captionTargetId-5="figure@8.[150,1436,180,1683]" captionTargetPageId-0="2" captionTargetPageId-1="3" captionTargetPageId-2="4" captionTargetPageId-3="5" captionTargetPageId-4="7" captionTargetPageId-5="8" captionText-0="FIGURE 1. Parabetaeus acanthus sp. nov., holotype, male (cl 3.4 mm) from Shark Reef, Thuwal, Saudi Arabia (FLMNH UF 36028) [A – J]; paratype, female (cl 3.0 mm) from El Fahal, Thuwal, Saudi Arabia (FLMNH UF 36076) [K]; A—frontal region, dorsal; B—same, lateral; C—carapace, lateral; D—posterior abdominal somites, lateral; E—telson, dorsal; F—same, posterior margin, dorsal; G—tooth on ventromesial carina of first article of antennular peduncle, lateral; H—second pleopod, lateral; Isame, tip of appendix masculina; J—uropod, dorsal; K—anterior portion of carapace and eyestalks, lateral. Scale bars as indicated except for G and I (drawn without scale)." captionText-1="FIGURE 2. Parabetaeus acanthus sp. nov., holotype, male (cl 3.4 mm) from Shark Reef, Thuwal, Saudi Arabia (FLMNH UF 36028); A—mandible, mesial; B—maxillule, lateral; C—maxilla, lateral; D—first maxilliped, lateral; E—same, endopod, mesial; F—second maxilliped, lateral; G—third maxilliped, lateral; H—second pereiopod, lateral; I—third pereiopod, lateral; J—fourth pereiopod, lateral; K—fifth pereiopod, lateral. Scale bars as indicated." captionText-2="FIGURE 3. Parabetaeus acanthus sp. nov., holotype, male (cl 3.4 mm) from Shark Reef, Thuwal, Saudi Arabia (FLMNH UF 36028); A—right cheliped, lateral; B—same, chela with fingers closed, lateral; C—same, distal merus, propodus and chela with fingers open, lateral. Scale bars as indicated." captionText-3="FIGURE 4. Parabetaeus acanthus sp. nov., non-type specimen, male (cl 3.9 mm) from Madang, Papua New Guinea (MNHN- IU- 2014 - 6024); A—anterior portion of carapace and eyestalks, lateral; B—major (right) cheliped, lateral; C—same, chela with fingers open, lateral; D—minor (left) cheliped, chela with fingers open, lateral. Scale bars as indicated." captionText-4="FIGURE 5. Parabetaeus acanthus sp. nov., holotype, male (cl 3.4 mm) from Shark Reef, Thuwal, Saudi Arabia (FLMNH UF 36028), in life; A—dorsal view; B—lateral view. Photographs by the author." captionText-5="FIGURE 6. Parabetaeus acanthus sp. nov., non-type specimen, male (cl 3.9 mm) from Madang, Papua New Guinea (MNHN- IU- 2014 - 6024), in life; A—dorsal view; B—lateral view. Photographs by the author." httpUri-0="https://zenodo.org/record/237340/files/figure.png" httpUri-1="https://zenodo.org/record/237341/files/figure.png" httpUri-2="https://zenodo.org/record/237342/files/figure.png" httpUri-3="https://zenodo.org/record/237343/files/figure.png" httpUri-4="https://zenodo.org/record/237344/files/figure.png" httpUri-5="https://zenodo.org/record/237345/files/figure.png" pageId="1" pageNumber="586">
+Figs. 
+<number box="[222,265,1212,1237]" pageId="1" pageNumber="586" value="3.5" valueMax="6.0" valueMin="1.0">1–6</number>
+</figureCitation>
+)
+</paragraph>
+</subSubSection>
+<subSubSection pageId="1" pageNumber="586" type="materials_examined">
+<paragraph blockId="1.[151,1437,1284,2029]" pageId="1" pageNumber="586">
+<emphasis bold="true" box="[151,318,1284,1309]" pageId="1" pageNumber="586">
+<typeStatus box="[151,210,1284,1309]" pageId="1" pageNumber="586">Type</typeStatus>
+material
+</emphasis>
+. 
+<typeStatus box="[333,442,1284,1309]" pageId="1" pageNumber="586">Holotype</typeStatus>
+: male (cl 
+<quantity box="[552,642,1284,1308]" metricMagnitude="-3" metricUnit="m" metricValue="3.4" pageId="1" pageNumber="586" unit="mm" value="3.4">3.4 mm</quantity>
+), 
+<collectionCode box="[662,760,1285,1308]" httpUri="http://grbio.org/cool/24h4-51mc" name="Florida Museum of Natural History" pageId="1" pageNumber="586">FLMNH</collectionCode>
+UF 
+<number box="[811,884,1284,1309]" pageId="1" pageNumber="586" value="36028.0">36028</number>
+, 
+<collectingCountry box="[896,1046,1284,1309]" name="Saudi Arabia" pageId="1" pageNumber="586">Saudi Arabia</collectingCountry>
+, Red Sea coast, off Thuwal, Shark Reef, sheltered side of offshore reef, 
+<geoCoordinate box="[574,696,1319,1344]" direction="north" orientation="latitude" pageId="1" pageNumber="586" precision="5" value="22.4268">
+<number box="[574,667,1319,1344]" pageId="1" pageNumber="586" value="22.4268">22.4268</number>
+°N
+</geoCoordinate>
+<geoCoordinate box="[705,828,1319,1344]" direction="east" orientation="longitude" pageId="1" pageNumber="586" precision="5" value="38.9963">
+<number box="[705,801,1319,1344]" pageId="1" pageNumber="586" value="38.9963">38.9963</number>
+°E
+</geoCoordinate>
+, under coral rubble, depth: 
+<quantity box="[1143,1231,1319,1344]" metricMagnitude="1" metricUnit="m" metricValue="1.0" metricValueMax="1.5" metricValueMin="0.5" pageId="1" pageNumber="586" unit="m" value="10.0" valueMax="15.0" valueMin="5.0">5–15 m</quantity>
+, coll. A. Anker 
+<emphasis italics="true" pageId="1" pageNumber="586">et al.</emphasis>
+, 
+<date box="[193,314,1356,1381]" pageId="1" pageNumber="586" value="2013-03-18">
+<number box="[193,220,1356,1381]" pageId="1" pageNumber="586" value="18.0">18</number>
+.iii. 
+<number box="[253,314,1356,1381]" pageId="1" pageNumber="586" value="2013.0">2013</number>
+</date>
+[fcn BDJRS- 
+<number box="[469,528,1356,1380]" pageId="1" pageNumber="586" value="2940.0">2940</number>
+]; 
+<typeStatus box="[545,646,1357,1381]" pageId="1" pageNumber="586">paratype</typeStatus>
+: female (cl 3.0 mm), 
+<collectionCode box="[883,981,1357,1380]" httpUri="http://grbio.org/cool/24h4-51mc" name="Florida Museum of Natural History" pageId="1" pageNumber="586">FLMNH</collectionCode>
+UF 
+<number box="[1030,1103,1356,1381]" pageId="1" pageNumber="586" value="36076.0">36076</number>
+, 
+<collectingCountry box="[1113,1262,1356,1381]" name="Saudi Arabia" pageId="1" pageNumber="586">Saudi Arabia</collectingCountry>
+, Red Sea coast, off Thuwal, El Fahal, exposed side of offshore reef, 
+<geoCoordinate box="[733,854,1392,1416]" direction="north" orientation="latitude" pageId="1" pageNumber="586" precision="5" value="22.2227">
+<number box="[733,826,1392,1416]" pageId="1" pageNumber="586" value="22.2227">22.2227</number>
+°N
+</geoCoordinate>
+<geoCoordinate box="[862,984,1391,1416]" direction="east" orientation="longitude" pageId="1" pageNumber="586" precision="5" value="38.9677">
+<number box="[862,958,1391,1416]" pageId="1" pageNumber="586" value="38.9677">38.9677</number>
+°E
+</geoCoordinate>
+, under coral rubble, depth: 
+<quantity box="[1289,1376,1391,1416]" metricMagnitude="1" metricUnit="m" metricValue="1.0" metricValueMax="1.5" metricValueMin="0.5" pageId="1" pageNumber="586" unit="m" value="10.0" valueMax="15.0" valueMin="5.0">5–15 m</quantity>
+, coll. A. Anker 
+<emphasis box="[262,318,1428,1452]" italics="true" pageId="1" pageNumber="586">et al.</emphasis>
+, 
+<date box="[332,453,1428,1453]" pageId="1" pageNumber="586" value="2013-03-19">
+<number box="[332,359,1428,1453]" pageId="1" pageNumber="586" value="19.0">19</number>
+.iii. 
+<number box="[392,453,1428,1453]" pageId="1" pageNumber="586" value="2013.0">2013</number>
+</date>
+[fcn BDJRS- 
+<number box="[610,668,1428,1453]" pageId="1" pageNumber="586" value="2967.0">2967</number>
+].
+</paragraph>
+<paragraph blockId="1.[151,1437,1284,2029]" pageId="1" pageNumber="586">
+<emphasis bold="true" box="[199,437,1463,1488]" pageId="1" pageNumber="586">Additional material</emphasis>
+. 
+<specimenCount box="[453,531,1463,1488]" pageId="1" pageNumber="586" type="male">
+<number box="[453,467,1464,1488]" pageId="1" pageNumber="586" value="1.0">1</number>
+male
+</specimenCount>
+(cl 
+<quantity box="[580,673,1464,1488]" metricMagnitude="-3" metricUnit="m" metricValue="3.9" pageId="1" pageNumber="586" unit="mm" value="3.9">3.9 mm</quantity>
+), MNHN-IU- 
+<number box="[831,952,1463,1488]" pageId="1" pageNumber="586" value="4019.0" valueMax="6024.0" valueMin="2014.0">2014-6024</number>
+, 
+<collectingCountry box="[966,1190,1463,1488]" name="Papua New Guinea" pageId="1" pageNumber="586">Papua New Guinea</collectingCountry>
+, Madang lagoon, sta. PR 
+<number box="[188,230,1500,1524]" pageId="1" pageNumber="586" value="174.0">174</number>
+, Kranket Island, 
+<geoCoordinate box="[419,527,1500,1525]" direction="south" orientation="latitude" pageId="1" pageNumber="586" precision="92" value="-5.1883335">
+05° 
+<number box="[458,509,1500,1525]" pageId="1" pageNumber="586" value="11.3">11.3</number>
+'S
+</geoCoordinate>
+<geoCoordinate box="[534,661,1500,1525]" direction="east" orientation="longitude" pageId="1" pageNumber="586" precision="92" value="145.825">
+<number box="[534,576,1500,1525]" pageId="1" pageNumber="586" value="145.0">145</number>
+° 
+<number box="[585,639,1500,1525]" pageId="1" pageNumber="586" value="49.5">49.5</number>
+'E
+</geoCoordinate>
+, depth: 
+<quantity box="[748,834,1500,1525]" metricMagnitude="1" metricUnit="m" metricValue="2.05" metricValueMax="3.6" metricValueMin="0.5" pageId="1" pageNumber="586" unit="m" value="20.5" valueMax="36.0" valueMin="5.0">5–36 m</quantity>
+, coll. A. Anker and Z. Ďuriš, 
+<date box="[1165,1292,1500,1525]" pageId="1" pageNumber="586" value="2012-12-04">
+04.xii. 
+<number box="[1232,1292,1500,1525]" pageId="1" pageNumber="586" value="2012.0">2012</number>
+</date>
+[fcn PR 
+<number box="[1387,1428,1500,1524]" pageId="1" pageNumber="586" value="174.0">174</number>
+- PZD- 
+<number box="[217,261,1535,1560]" pageId="1" pageNumber="586" value="540.0">540</number>
+A].
+</paragraph>
+</subSubSection>
+<subSubSection lastPageId="6" lastPageNumber="591" pageId="1" pageNumber="586" type="description">
+<paragraph blockId="1.[151,1437,1284,2029]" pageId="1" pageNumber="586">
+<emphasis bold="true" box="[199,337,1572,1597]" pageId="1" pageNumber="586">Description</emphasis>
+. Relatively small species (cl 3.0– 
+<quantity box="[717,807,1572,1596]" metricMagnitude="-3" metricUnit="m" metricValue="3.9" pageId="1" pageNumber="586" unit="mm" value="3.9">3.9 mm</quantity>
+). Carapace with frontal margin slightly convex, without distinct rostrum or rostral projection; orbital teeth well-developed, longer than wide, acute distally; mid-dorsal line with more or less pronounced, anteriorly directed, spine-like, sharp tooth, situated well posterior to base of eyestalks, at about 
+<number box="[364,475,1679,1704]" pageId="1" pageNumber="586" value="0.225" valueMax="0.25" valueMin="0.2">0.20–0.25</number>
+of carapace length; pterygostomial angle rounded, not protruding; cardiac notch deep (
+<figureCitation box="[159,231,1716,1741]" captionStart="FIGURE 1" captionStartId="2.[151,250,1765,1787]" captionTargetBox="[176,1415,319,1718]" captionTargetId="figure@2.[151,1436,303,1741]" captionTargetPageId="2" captionText="FIGURE 1. Parabetaeus acanthus sp. nov., holotype, male (cl 3.4 mm) from Shark Reef, Thuwal, Saudi Arabia (FLMNH UF 36028) [A – J]; paratype, female (cl 3.0 mm) from El Fahal, Thuwal, Saudi Arabia (FLMNH UF 36076) [K]; A—frontal region, dorsal; B—same, lateral; C—carapace, lateral; D—posterior abdominal somites, lateral; E—telson, dorsal; F—same, posterior margin, dorsal; G—tooth on ventromesial carina of first article of antennular peduncle, lateral; H—second pleopod, lateral; Isame, tip of appendix masculina; J—uropod, dorsal; K—anterior portion of carapace and eyestalks, lateral. Scale bars as indicated except for G and I (drawn without scale)." httpUri="https://zenodo.org/record/237340/files/figure.png" pageId="1" pageNumber="586">
+Figs. 
+<number box="[222,231,1716,1740]" pageId="1" pageNumber="586" value="1.0">1</number>
+</figureCitation>
+A–C, K, 
+<number box="[337,352,1716,1740]" pageId="1" pageNumber="586" value="4.0">4</number>
+A).
+</paragraph>
+<paragraph blockId="1.[151,1437,1284,2029]" pageId="1" pageNumber="586">
+Pleura of first four abdominal somites rounded posteroventrally; fifth pleuron with acutely projecting posteroventral angle; sixth somite with subacute posterior lobe and well-delimited, triangular, distally pointed, articulated plate (
+<figureCitation box="[346,409,1823,1848]" captionStart="FIGURE 1" captionStartId="2.[151,250,1765,1787]" captionTargetBox="[176,1415,319,1718]" captionTargetId="figure@2.[151,1436,303,1741]" captionTargetPageId="2" captionText="FIGURE 1. Parabetaeus acanthus sp. nov., holotype, male (cl 3.4 mm) from Shark Reef, Thuwal, Saudi Arabia (FLMNH UF 36028) [A – J]; paratype, female (cl 3.0 mm) from El Fahal, Thuwal, Saudi Arabia (FLMNH UF 36076) [K]; A—frontal region, dorsal; B—same, lateral; C—carapace, lateral; D—posterior abdominal somites, lateral; E—telson, dorsal; F—same, posterior margin, dorsal; G—tooth on ventromesial carina of first article of antennular peduncle, lateral; H—second pleopod, lateral; Isame, tip of appendix masculina; J—uropod, dorsal; K—anterior portion of carapace and eyestalks, lateral. Scale bars as indicated except for G and I (drawn without scale)." httpUri="https://zenodo.org/record/237340/files/figure.png" pageId="1" pageNumber="586">
+Fig. 
+<number box="[398,409,1824,1848]" pageId="1" pageNumber="586" value="1.0">1</number>
+</figureCitation>
+D). Telson narrow, widest at anterior margin, distally tapering, about 
+<number box="[1189,1224,1823,1848]" pageId="1" pageNumber="586" value="2.5">2.5</number>
+as long as anterior width; dorsal surface with two pairs of slender spiniform setae inserted at some distance from lateral margin, at about 
+<number box="[220,269,1895,1920]" pageId="1" pageNumber="586" value="0.5">0.50</number>
+and 
+<number box="[322,371,1895,1920]" pageId="1" pageNumber="586" value="0.75">0.75</number>
+telson length, respectively; posterior margin less than half as long as anterior margin, produced into triangular, distally pointed end piece, latter flanked on each side by one pair of stout spiniform setae, mesial much longer and stouter than lateral, one pair of long plumose setae, and some shorter, less conspicuous dorsolateral setae (
+<figureCitation box="[361,424,2004,2029]" captionStart="FIGURE 1" captionStartId="2.[151,250,1765,1787]" captionTargetBox="[176,1415,319,1718]" captionTargetId="figure@2.[151,1436,303,1741]" captionTargetPageId="2" captionText="FIGURE 1. Parabetaeus acanthus sp. nov., holotype, male (cl 3.4 mm) from Shark Reef, Thuwal, Saudi Arabia (FLMNH UF 36028) [A – J]; paratype, female (cl 3.0 mm) from El Fahal, Thuwal, Saudi Arabia (FLMNH UF 36076) [K]; A—frontal region, dorsal; B—same, lateral; C—carapace, lateral; D—posterior abdominal somites, lateral; E—telson, dorsal; F—same, posterior margin, dorsal; G—tooth on ventromesial carina of first article of antennular peduncle, lateral; H—second pleopod, lateral; Isame, tip of appendix masculina; J—uropod, dorsal; K—anterior portion of carapace and eyestalks, lateral. Scale bars as indicated except for G and I (drawn without scale)." httpUri="https://zenodo.org/record/237340/files/figure.png" pageId="1" pageNumber="586">
+Fig. 
+<number box="[413,424,2004,2028]" pageId="1" pageNumber="586" value="1.0">1</number>
+</figureCitation>
+E, F).
+</paragraph>
+<paragraph blockId="2.[151,1436,151,248]" pageId="2" pageNumber="587">
+Eyes only partly concealed by orbital hoods, with large anterior portion visible in both dorsal and lateral views; eyestalks juxtaposed medially, with very large, globular, well-pigmented cornea (
+<figureCitation box="[1097,1174,188,213]" captionStart="FIGURE 1" captionStartId="2.[151,250,1765,1787]" captionTargetBox="[176,1415,319,1718]" captionTargetId="figure@2.[151,1436,303,1741]" captionTargetPageId="2" captionText="FIGURE 1. Parabetaeus acanthus sp. nov., holotype, male (cl 3.4 mm) from Shark Reef, Thuwal, Saudi Arabia (FLMNH UF 36028) [A – J]; paratype, female (cl 3.0 mm) from El Fahal, Thuwal, Saudi Arabia (FLMNH UF 36076) [K]; A—frontal region, dorsal; B—same, lateral; C—carapace, lateral; D—posterior abdominal somites, lateral; E—telson, dorsal; F—same, posterior margin, dorsal; G—tooth on ventromesial carina of first article of antennular peduncle, lateral; H—second pleopod, lateral; Isame, tip of appendix masculina; J—uropod, dorsal; K—anterior portion of carapace and eyestalks, lateral. Scale bars as indicated except for G and I (drawn without scale)." httpUri="https://zenodo.org/record/237340/files/figure.png" pageId="2" pageNumber="587">
+Figs. 
+<number box="[1164,1174,188,212]" pageId="2" pageNumber="587" value="1.0">1</number>
+</figureCitation>
+A, B, 
+<number box="[1253,1268,188,212]" pageId="2" pageNumber="587" value="4.0">4</number>
+A). Epistomial sclerites with small blunt processes.
+</paragraph>
+<caption httpUri="https://zenodo.org/record/237340/files/figure.png" pageId="2" pageNumber="587" targetBox="[176,1415,319,1718]" targetPageId="2">
+<paragraph blockId="2.[151,1436,1765,1941]" pageId="2" pageNumber="587">
+<emphasis bold="true" box="[151,269,1765,1787]" pageId="2" pageNumber="587">FIGURE 1</emphasis>
+. 
+<taxonomicName box="[281,507,1765,1787]" class="Malacostraca" family="Alpheidae" genus="Parabetaeus" kingdom="Animalia" order="Decapoda" pageId="2" pageNumber="587" phylum="Arthropoda" rank="species" species="acanthus" status="sp. nov.">
+<emphasis box="[281,507,1765,1787]" italics="true" pageId="2" pageNumber="587">Parabetaeus acanthus</emphasis>
+</taxonomicName>
+<taxonomicNameLabel box="[513,593,1766,1787]" pageId="2" pageNumber="587" rank="species">
+<emphasis bold="true" box="[513,593,1766,1787]" pageId="2" pageNumber="587">sp. nov.</emphasis>
+</taxonomicNameLabel>
+, holotype, male (cl 3.4 mm) from Shark Reef, Thuwal, Saudi Arabia (FLMNH UF 36028) [A–J]; paratype, female (cl 3.0 mm) from El Fahal, Thuwal, Saudi Arabia (FLMNH UF 36076) [K]; A—frontal region, dorsal; B—same, lateral; C—carapace, lateral; D—posterior abdominal somites, lateral; E—telson, dorsal; F—same, posterior margin, dorsal; G—tooth on ventromesial carina of first article of antennular peduncle, lateral; H—second pleopod, lateral; Isame, tip of appendix masculina; J—uropod, dorsal; K—anterior portion of carapace and eyestalks, lateral. Scale bars as indicated except for G and I (drawn without scale).
+</paragraph>
+</caption>
+<paragraph blockId="3.[151,1436,151,392]" pageId="3" pageNumber="588">
+Antennular peduncles moderately stout; stylocerite slender, with acute tip exceeding distal margin of first article but not reaching mid-length of second article; ventromesial carina with large, anteriorly directed, acute tooth; second article distinctly longer than wide; lateral flagellum biramous; fused portion short, with three joints; accessory ramus long, with four groups of long aesthetascs (
+<figureCitation box="[820,881,260,285]" captionStart="FIGURE 1" captionStartId="2.[151,250,1765,1787]" captionTargetBox="[176,1415,319,1718]" captionTargetId="figure@2.[151,1436,303,1741]" captionTargetPageId="2" captionText="FIGURE 1. Parabetaeus acanthus sp. nov., holotype, male (cl 3.4 mm) from Shark Reef, Thuwal, Saudi Arabia (FLMNH UF 36028) [A – J]; paratype, female (cl 3.0 mm) from El Fahal, Thuwal, Saudi Arabia (FLMNH UF 36076) [K]; A—frontal region, dorsal; B—same, lateral; C—carapace, lateral; D—posterior abdominal somites, lateral; E—telson, dorsal; F—same, posterior margin, dorsal; G—tooth on ventromesial carina of first article of antennular peduncle, lateral; H—second pleopod, lateral; Isame, tip of appendix masculina; J—uropod, dorsal; K—anterior portion of carapace and eyestalks, lateral. Scale bars as indicated except for G and I (drawn without scale)." httpUri="https://zenodo.org/record/237340/files/figure.png" pageId="3" pageNumber="588">
+Fig. 
+<number box="[871,881,260,284]" pageId="3" pageNumber="588" value="1.0">1</number>
+</figureCitation>
+A, B, G). Antenna with basicerite ending in sharp tooth distoventrally; scaphocerite ovate, somewhat elongate, with broad, anteriorly rounded blade and acute distolateral tooth, latter reaching slightly beyond anterior margin of blade; anterior margin of scaphocerite not exceeding distal margin of antennular peduncles; carpocerite reaching about 
+<number box="[1002,1037,368,392]" pageId="3" pageNumber="588" value="0.8">0.8</number>
+length of scaphocerite (
+<figureCitation box="[1303,1364,367,392]" captionStart="FIGURE 1" captionStartId="2.[151,250,1765,1787]" captionTargetBox="[176,1415,319,1718]" captionTargetId="figure@2.[151,1436,303,1741]" captionTargetPageId="2" captionText="FIGURE 1. Parabetaeus acanthus sp. nov., holotype, male (cl 3.4 mm) from Shark Reef, Thuwal, Saudi Arabia (FLMNH UF 36028) [A – J]; paratype, female (cl 3.0 mm) from El Fahal, Thuwal, Saudi Arabia (FLMNH UF 36076) [K]; A—frontal region, dorsal; B—same, lateral; C—carapace, lateral; D—posterior abdominal somites, lateral; E—telson, dorsal; F—same, posterior margin, dorsal; G—tooth on ventromesial carina of first article of antennular peduncle, lateral; H—second pleopod, lateral; Isame, tip of appendix masculina; J—uropod, dorsal; K—anterior portion of carapace and eyestalks, lateral. Scale bars as indicated except for G and I (drawn without scale)." httpUri="https://zenodo.org/record/237340/files/figure.png" pageId="3" pageNumber="588">
+Fig. 
+<number box="[1354,1364,368,392]" pageId="3" pageNumber="588" value="1.0">1</number>
+</figureCitation>
+A, B).
+</paragraph>
+<caption httpUri="https://zenodo.org/record/237341/files/figure.png" pageId="3" pageNumber="588" targetBox="[214,1372,466,1880]" targetPageId="3">
+<paragraph blockId="3.[151,1436,1915,2028]" pageId="3" pageNumber="588">
+<emphasis bold="true" box="[151,269,1915,1937]" pageId="3" pageNumber="588">FIGURE 2</emphasis>
+. 
+<taxonomicName box="[281,507,1915,1937]" class="Malacostraca" family="Alpheidae" genus="Parabetaeus" kingdom="Animalia" order="Decapoda" pageId="3" pageNumber="588" phylum="Arthropoda" rank="species" species="acanthus" status="sp. nov.">
+<emphasis box="[281,507,1915,1937]" italics="true" pageId="3" pageNumber="588">Parabetaeus acanthus</emphasis>
+</taxonomicName>
+<taxonomicNameLabel box="[513,593,1915,1936]" pageId="3" pageNumber="588" rank="species">
+<emphasis bold="true" box="[513,593,1915,1936]" pageId="3" pageNumber="588">sp. nov.</emphasis>
+</taxonomicNameLabel>
+, holotype, male (cl 3.4 mm) from Shark Reef, Thuwal, Saudi Arabia (FLMNH UF 36028); A—mandible, mesial; B—maxillule, lateral; C—maxilla, lateral; D—first maxilliped, lateral; E—same, endopod, mesial; F—second maxilliped, lateral; G—third maxilliped, lateral; H—second pereiopod, lateral; I—third pereiopod, lateral; J—fourth pereiopod, lateral; K—fifth pereiopod, lateral. Scale bars as indicated.
+</paragraph>
+</caption>
+<paragraph blockId="4.[151,1437,151,464]" pageId="4" pageNumber="589">
+Mouthparts typical for family. Mandible with broad incisor process distally bearing seven teeth; molar process stout, distally with fields of short setae and some rugosities, palp with two articles (
+<figureCitation box="[1147,1219,188,213]" captionStart="FIGURE 2" captionStartId="3.[151,250,1915,1937]" captionTargetBox="[214,1372,466,1880]" captionTargetId="figure@3.[206,1388,445,1891]" captionTargetPageId="3" captionText="FIGURE 2. Parabetaeus acanthus sp. nov., holotype, male (cl 3.4 mm) from Shark Reef, Thuwal, Saudi Arabia (FLMNH UF 36028); A—mandible, mesial; B—maxillule, lateral; C—maxilla, lateral; D—first maxilliped, lateral; E—same, endopod, mesial; F—second maxilliped, lateral; G—third maxilliped, lateral; H—second pereiopod, lateral; I—third pereiopod, lateral; J—fourth pereiopod, lateral; K—fifth pereiopod, lateral. Scale bars as indicated." httpUri="https://zenodo.org/record/237341/files/figure.png" pageId="4" pageNumber="589">
+Fig. 
+<number box="[1204,1219,188,212]" pageId="4" pageNumber="589" value="2.0">2</number>
+</figureCitation>
+A). Maxillule with bilobed palp, each lobe furnished with seta (
+<figureCitation box="[641,709,223,248]" captionStart="FIGURE 2" captionStartId="3.[151,250,1915,1937]" captionTargetBox="[214,1372,466,1880]" captionTargetId="figure@3.[206,1388,445,1891]" captionTargetPageId="3" captionText="FIGURE 2. Parabetaeus acanthus sp. nov., holotype, male (cl 3.4 mm) from Shark Reef, Thuwal, Saudi Arabia (FLMNH UF 36028); A—mandible, mesial; B—maxillule, lateral; C—maxilla, lateral; D—first maxilliped, lateral; E—same, endopod, mesial; F—second maxilliped, lateral; G—third maxilliped, lateral; H—second pereiopod, lateral; I—third pereiopod, lateral; J—fourth pereiopod, lateral; K—fifth pereiopod, lateral. Scale bars as indicated." httpUri="https://zenodo.org/record/237341/files/figure.png" pageId="4" pageNumber="589">
+Fig. 
+<number box="[693,709,224,248]" pageId="4" pageNumber="589" value="2.0">2</number>
+</figureCitation>
+B). Maxilla with rather narrow scaphognathite; dorsal endite with deep cleft; endopod entire (
+<figureCitation box="[484,557,260,285]" captionStart="FIGURE 2" captionStartId="3.[151,250,1915,1937]" captionTargetBox="[214,1372,466,1880]" captionTargetId="figure@3.[206,1388,445,1891]" captionTargetPageId="3" captionText="FIGURE 2. Parabetaeus acanthus sp. nov., holotype, male (cl 3.4 mm) from Shark Reef, Thuwal, Saudi Arabia (FLMNH UF 36028); A—mandible, mesial; B—maxillule, lateral; C—maxilla, lateral; D—first maxilliped, lateral; E—same, endopod, mesial; F—second maxilliped, lateral; G—third maxilliped, lateral; H—second pereiopod, lateral; I—third pereiopod, lateral; J—fourth pereiopod, lateral; K—fifth pereiopod, lateral. Scale bars as indicated." httpUri="https://zenodo.org/record/237341/files/figure.png" pageId="4" pageNumber="589">
+Fig. 
+<number box="[542,557,260,284]" pageId="4" pageNumber="589" value="2.0">2</number>
+</figureCitation>
+C). First maxilliped with moderately developed caridean lobe on exopod; endopod subdivided into one broad proximal article and one slender distal article (
+<figureCitation box="[1083,1151,295,320]" captionStart="FIGURE 2" captionStartId="3.[151,250,1915,1937]" captionTargetBox="[214,1372,466,1880]" captionTargetId="figure@3.[206,1388,445,1891]" captionTargetPageId="3" captionText="FIGURE 2. Parabetaeus acanthus sp. nov., holotype, male (cl 3.4 mm) from Shark Reef, Thuwal, Saudi Arabia (FLMNH UF 36028); A—mandible, mesial; B—maxillule, lateral; C—maxilla, lateral; D—first maxilliped, lateral; E—same, endopod, mesial; F—second maxilliped, lateral; G—third maxilliped, lateral; H—second pereiopod, lateral; I—third pereiopod, lateral; J—fourth pereiopod, lateral; K—fifth pereiopod, lateral. Scale bars as indicated." httpUri="https://zenodo.org/record/237341/files/figure.png" pageId="4" pageNumber="589">
+Fig. 
+<number box="[1136,1151,296,320]" pageId="4" pageNumber="589" value="2.0">2</number>
+</figureCitation>
+D, E). Second maxilliped without specific features, as illustrated (
+<figureCitation box="[608,677,332,357]" captionStart="FIGURE 2" captionStartId="3.[151,250,1915,1937]" captionTargetBox="[214,1372,466,1880]" captionTargetId="figure@3.[206,1388,445,1891]" captionTargetPageId="3" captionText="FIGURE 2. Parabetaeus acanthus sp. nov., holotype, male (cl 3.4 mm) from Shark Reef, Thuwal, Saudi Arabia (FLMNH UF 36028); A—mandible, mesial; B—maxillule, lateral; C—maxilla, lateral; D—first maxilliped, lateral; E—same, endopod, mesial; F—second maxilliped, lateral; G—third maxilliped, lateral; H—second pereiopod, lateral; I—third pereiopod, lateral; J—fourth pereiopod, lateral; K—fifth pereiopod, lateral. Scale bars as indicated." httpUri="https://zenodo.org/record/237341/files/figure.png" pageId="4" pageNumber="589">
+Fig. 
+<number box="[662,677,332,356]" pageId="4" pageNumber="589" value="2.0">2</number>
+</figureCitation>
+F). Third maxilliped slender, pediform; coxa with relatively small, distally subacute lateral plate above mastigobranch; antepenultimate article twisted, slender, penultimate article about 
+<number box="[220,255,404,429]" pageId="4" pageNumber="589" value="4.5">4.5</number>
+times as long as wide; ultimate article ending in corneous tip, without spiniform setae; arthrobranch small (
+<figureCitation box="[159,227,439,464]" captionStart="FIGURE 2" captionStartId="3.[151,250,1915,1937]" captionTargetBox="[214,1372,466,1880]" captionTargetId="figure@3.[206,1388,445,1891]" captionTargetPageId="3" captionText="FIGURE 2. Parabetaeus acanthus sp. nov., holotype, male (cl 3.4 mm) from Shark Reef, Thuwal, Saudi Arabia (FLMNH UF 36028); A—mandible, mesial; B—maxillule, lateral; C—maxilla, lateral; D—first maxilliped, lateral; E—same, endopod, mesial; F—second maxilliped, lateral; G—third maxilliped, lateral; H—second pereiopod, lateral; I—third pereiopod, lateral; J—fourth pereiopod, lateral; K—fifth pereiopod, lateral. Scale bars as indicated." httpUri="https://zenodo.org/record/237341/files/figure.png" pageId="4" pageNumber="589">
+Fig. 
+<number box="[212,227,440,464]" pageId="4" pageNumber="589" value="2.0">2</number>
+</figureCitation>
+G).
+</paragraph>
+<caption httpUri="https://zenodo.org/record/237342/files/figure.png" pageId="4" pageNumber="589" targetBox="[162,1430,525,1382]" targetPageId="4">
+<paragraph blockId="4.[151,1436,1408,1492]" pageId="4" pageNumber="589">
+<emphasis bold="true" box="[151,269,1408,1430]" pageId="4" pageNumber="589">FIGURE 3</emphasis>
+. 
+<taxonomicName box="[281,507,1408,1430]" class="Malacostraca" family="Alpheidae" genus="Parabetaeus" kingdom="Animalia" order="Decapoda" pageId="4" pageNumber="589" phylum="Arthropoda" rank="species" species="acanthus" status="sp. nov.">
+<emphasis box="[281,507,1408,1430]" italics="true" pageId="4" pageNumber="589">Parabetaeus acanthus</emphasis>
+</taxonomicName>
+<taxonomicNameLabel box="[513,593,1409,1430]" pageId="4" pageNumber="589" rank="species">
+<emphasis bold="true" box="[513,593,1409,1430]" pageId="4" pageNumber="589">sp. nov.</emphasis>
+</taxonomicNameLabel>
+, holotype, male (cl 3.4 mm) from Shark Reef, Thuwal, Saudi Arabia (FLMNH UF 36028); A—right cheliped, lateral; B—same, chela with fingers closed, lateral; C—same, distal merus, propodus and chela with fingers open, lateral. Scale bars as indicated.
+</paragraph>
+</caption>
+<paragraph blockId="4.[151,1437,1531,2024]" lastBlockId="5.[151,1437,151,608]" lastPageId="5" lastPageNumber="590" pageId="4" pageNumber="589">
+Chelipeds somewhat variable, either equal in size and symmetrical in shape, slender (male 
+<typeStatus box="[1286,1384,1531,1556]" pageId="4" pageNumber="589">holotype</typeStatus>
+and female 
+<typeStatus box="[236,335,1568,1592]" pageId="4" pageNumber="589">paratype</typeStatus>
+, 
+<figureCitation box="[348,428,1567,1592]" captionStart="FIGURE 3" captionStartId="4.[151,250,1408,1430]" captionTargetBox="[162,1430,525,1382]" captionTargetId="figure@4.[151,1436,517,1387]" captionTargetPageId="4" captionText="FIGURE 3. Parabetaeus acanthus sp. nov., holotype, male (cl 3.4 mm) from Shark Reef, Thuwal, Saudi Arabia (FLMNH UF 36028); A—right cheliped, lateral; B—same, chela with fingers closed, lateral; C—same, distal merus, propodus and chela with fingers open, lateral. Scale bars as indicated." httpUri="https://zenodo.org/record/237342/files/figure.png" pageId="4" pageNumber="589">Figs. 3</figureCitation>
+, 
+<figureCitation box="[442,457,1567,1592]" captionStart="FIGURE 5" captionStartId="7.[151,250,1952,1974]" captionTargetBox="[159,1422,193,1930]" captionTargetId="figure@7.[159,1423,193,1932]" captionTargetPageId="7" captionText="FIGURE 5. Parabetaeus acanthus sp. nov., holotype, male (cl 3.4 mm) from Shark Reef, Thuwal, Saudi Arabia (FLMNH UF 36028), in life; A—dorsal view; B—lateral view. Photographs by the author." httpUri="https://zenodo.org/record/237344/files/figure.png" pageId="4" pageNumber="589">5</figureCitation>
+), or slightly unequal in size and asymmetrical in shape, noticeably more robust (nontype male, 
+<figureCitation box="[274,350,1603,1628]" captionStart="FIGURE 4" captionStartId="5.[151,250,1822,1844]" captionTargetBox="[164,1424,679,1772]" captionTargetId="figure@5.[151,1436,661,1784]" captionTargetPageId="5" captionText="FIGURE 4. Parabetaeus acanthus sp. nov., non-type specimen, male (cl 3.9 mm) from Madang, Papua New Guinea (MNHN- IU- 2014 - 6024); A—anterior portion of carapace and eyestalks, lateral; B—major (right) cheliped, lateral; C—same, chela with fingers open, lateral; D—minor (left) cheliped, chela with fingers open, lateral. Scale bars as indicated." httpUri="https://zenodo.org/record/237343/files/figure.png" pageId="4" pageNumber="589">
+Figs. 
+<number box="[335,350,1604,1628]" pageId="4" pageNumber="589" value="4.0">4</number>
+</figureCitation>
+B–D, 
+<number box="[416,432,1603,1628]" pageId="4" pageNumber="589" value="6.0">6</number>
+); both chelipeds capable of folding but apparently carried extended when not in use (
+<figureCitation captionStart="FIGURE 5" captionStartId="7.[151,250,1952,1974]" captionTargetBox="[159,1422,193,1930]" captionTargetId="figure@7.[159,1423,193,1932]" captionTargetPageId="7" captionText="FIGURE 5. Parabetaeus acanthus sp. nov., holotype, male (cl 3.4 mm) from Shark Reef, Thuwal, Saudi Arabia (FLMNH UF 36028), in life; A—dorsal view; B—lateral view. Photographs by the author." httpUri="https://zenodo.org/record/237344/files/figure.png" pageId="4" pageNumber="589">Figs. 5</figureCitation>
+, 
+<figureCitation box="[183,199,1639,1664]" captionStart="FIGURE 6" captionStartId="8.[151,250,1705,1727]" captionTargetBox="[150,1435,180,1682]" captionTargetId="figure@8.[150,1436,180,1683]" captionTargetPageId="8" captionText="FIGURE 6. Parabetaeus acanthus sp. nov., non-type specimen, male (cl 3.9 mm) from Madang, Papua New Guinea (MNHN- IU- 2014 - 6024), in life; A—dorsal view; B—lateral view. Photographs by the author." httpUri="https://zenodo.org/record/237345/files/figure.png" pageId="4" pageNumber="589">6</figureCitation>
+). Right cheliped of male 
+<typeStatus box="[502,600,1639,1664]" pageId="4" pageNumber="589">holotype</typeStatus>
+elongate, slender; merus about seven times as long as wide, somewhat twisted, depressed ventrally, distally slightly broadening, armed with two strong sharp teeth distally, one distomesial and one distolateral; carpus relatively short, cup-shaped, with rounded distal lobes; chela slender, with fingers about 
+<number box="[306,341,1748,1772]" pageId="4" pageNumber="589" value="1.3">1.3</number>
+times as long as palm, not gaping, distally crossing when closed; palm about three times as long as high, subcylindrical in cross-section, smooth; cutting edge of pollex with 
+<number box="[1020,1048,1784,1808]" pageId="4" pageNumber="589" value="28.0">28</number>
+small subtriangular-rounded teeth extending almost along entire length, including one more isolated subdistal tooth; cutting edge of dactylus sharply delimited, unarmed except for two subtriangular teeth at about 
+<number box="[883,918,1856,1880]" pageId="4" pageNumber="589" value="0.8">0.8</number>
+of dactylus length and one smaller subdistal tooth; both fingers furnished with some very conspicuous, long, stiff setae (
+<figureCitation box="[1000,1068,1891,1916]" captionStart="FIGURE 3" captionStartId="4.[151,250,1408,1430]" captionTargetBox="[162,1430,525,1382]" captionTargetId="figure@4.[151,1436,517,1387]" captionTargetPageId="4" captionText="FIGURE 3. Parabetaeus acanthus sp. nov., holotype, male (cl 3.4 mm) from Shark Reef, Thuwal, Saudi Arabia (FLMNH UF 36028); A—right cheliped, lateral; B—same, chela with fingers closed, lateral; C—same, distal merus, propodus and chela with fingers open, lateral. Scale bars as indicated." httpUri="https://zenodo.org/record/237342/files/figure.png" pageId="4" pageNumber="589">
+Fig. 
+<number box="[1052,1068,1892,1916]" pageId="4" pageNumber="589" value="3.0">3</number>
+</figureCitation>
+). Left cheliped of male 
+<typeStatus box="[1338,1436,1891,1916]" pageId="4" pageNumber="589">holotype</typeStatus>
+and right cheliped of female 
+<typeStatus box="[496,592,1928,1952]" pageId="4" pageNumber="589">paratype</typeStatus>
+(left cheliped missing) generally very similar to right cheliped of male 
+<typeStatus box="[151,253,1963,1988]" pageId="4" pageNumber="589">holotype</typeStatus>
+. Right (major) cheliped of non-type male robust; merus about four times as long as wide, slightly twisted, depressed ventrally, noticeably broader distally, armed with two strong sharp teeth distally, one distomesial and one distolateral; carpus short, cup-shaped, with rounded distal lobes; chela moderately stout, with fingers 
+<number box="[1301,1336,152,176]" pageId="5" pageNumber="590" value="0.8">0.8</number>
+times as long as palm, somewhat gaping, distally crossing when closed; palm about twice as long as high, subcylindrical in cross-section, smooth; cutting edge of pollex with nine subtriangular-rounded teeth extending from base to about 
+<number box="[151,186,260,285]" pageId="5" pageNumber="590" value="0.6">0.6</number>
+of dactylus length, and one much larger tooth at about 
+<number box="[805,840,260,284]" pageId="5" pageNumber="590" value="0.8">0.8</number>
+of dactylus length; cutting edge of dactylus unarmed except for one large subtriangular-rounded tooth at about 
+<number box="[805,840,296,320]" pageId="5" pageNumber="590" value="0.7">0.7</number>
+of dactylus length, opposed to broad hiatus between teeth on cutting edge of pollex; both fingers also furnished with some long stiff setae (
+<figureCitation box="[1146,1227,332,357]" captionStart="FIGURE 4" captionStartId="5.[151,250,1822,1844]" captionTargetBox="[164,1424,679,1772]" captionTargetId="figure@5.[151,1436,661,1784]" captionTargetPageId="5" captionText="FIGURE 4. Parabetaeus acanthus sp. nov., non-type specimen, male (cl 3.9 mm) from Madang, Papua New Guinea (MNHN- IU- 2014 - 6024); A—anterior portion of carapace and eyestalks, lateral; B—major (right) cheliped, lateral; C—same, chela with fingers open, lateral; D—minor (left) cheliped, chela with fingers open, lateral. Scale bars as indicated." httpUri="https://zenodo.org/record/237343/files/figure.png" pageId="5" pageNumber="590">
+Figs. 
+<number box="[1211,1227,332,356]" pageId="5" pageNumber="590" value="4.0">4</number>
+</figureCitation>
+B,C). Left (minor) cheliped of non-type male noticeably smaller than right (major) cheliped; merus and carpus similar to those of major cheliped; chela moderately stout, with fingers about 
+<number box="[817,852,404,428]" pageId="5" pageNumber="590" value="1.2">1.2</number>
+times as long as palm, not gaping, distally crossing when closed; palm about twice as long as high, subcylindrical in cross-section, smooth; cutting edge of pollex with 
+<number box="[151,179,476,501]" pageId="5" pageNumber="590" value="25.0">25</number>
+subtriangular-rounded teeth extending along almost entire length, except for one small gap at 
+<number box="[1286,1321,476,500]" pageId="5" pageNumber="590" value="0.8">0.8</number>
+of pollex length; cutting edge of dactylus sharply delimited, unarmed except for two small subtriangular teeth at about 
+<number box="[1371,1406,512,536]" pageId="5" pageNumber="590" value="0.7">0.7</number>
+of dactylus length opposed to small gap between teeth on cutting edge of pollex, and minute subdistal tooth; both fingers also furnished with some long stiff setae (
+<figureCitation box="[703,782,583,608]" captionStart="FIGURE 4" captionStartId="5.[151,250,1822,1844]" captionTargetBox="[164,1424,679,1772]" captionTargetId="figure@5.[151,1436,661,1784]" captionTargetPageId="5" captionText="FIGURE 4. Parabetaeus acanthus sp. nov., non-type specimen, male (cl 3.9 mm) from Madang, Papua New Guinea (MNHN- IU- 2014 - 6024); A—anterior portion of carapace and eyestalks, lateral; B—major (right) cheliped, lateral; C—same, chela with fingers open, lateral; D—minor (left) cheliped, chela with fingers open, lateral. Scale bars as indicated." httpUri="https://zenodo.org/record/237343/files/figure.png" pageId="5" pageNumber="590">
+Figs. 
+<number box="[766,782,584,608]" pageId="5" pageNumber="590" value="4.0">4</number>
+</figureCitation>
+D).
+</paragraph>
+<caption httpUri="https://zenodo.org/record/237343/files/figure.png" pageId="5" pageNumber="590" targetBox="[164,1424,679,1772]" targetPageId="5">
+<paragraph blockId="5.[151,1435,1822,1905]" pageId="5" pageNumber="590">
+<emphasis bold="true" box="[151,268,1822,1844]" pageId="5" pageNumber="590">FIGURE 4</emphasis>
+. 
+<taxonomicName box="[280,506,1822,1844]" class="Malacostraca" family="Alpheidae" genus="Parabetaeus" kingdom="Animalia" order="Decapoda" pageId="5" pageNumber="590" phylum="Arthropoda" rank="species" species="acanthus" status="sp. nov.">
+<emphasis box="[280,506,1822,1844]" italics="true" pageId="5" pageNumber="590">Parabetaeus acanthus</emphasis>
+</taxonomicName>
+<taxonomicNameLabel box="[512,592,1823,1844]" pageId="5" pageNumber="590" rank="species">
+<emphasis bold="true" box="[512,592,1823,1844]" pageId="5" pageNumber="590">sp. nov.</emphasis>
+</taxonomicNameLabel>
+, non-type specimen, male (cl 3.9 mm) from Madang, Papua New Guinea (MNHN- IU-2014-6024); A—anterior portion of carapace and eyestalks, lateral; B—major (right) cheliped, lateral; C—same, chela with fingers open, lateral; D—minor (left) cheliped, chela with fingers open, lateral. Scale bars as indicated.
+</paragraph>
+</caption>
+<paragraph blockId="6.[151,1437,151,2035]" pageId="6" pageNumber="591">
+Second pereiopod slender; ischium subequal to merus in length; carpus five-articulated, with first article longer than sum of remaining four articles; ratio of carpal articles (from proximal to distal) approximately equal to: 
+<number box="[1366,1401,187,212]" pageId="6" pageNumber="591" value="5.4">5.4</number>
+: 
+<number box="[1422,1436,188,212]" pageId="6" pageNumber="591" value="1.0">1</number>
+: 
+<number box="[167,202,224,248]" pageId="6" pageNumber="591" value="0.9">0.9</number>
+: 
+<number box="[226,240,224,248]" pageId="6" pageNumber="591" value="1.0">1</number>
+: 
+<number box="[264,302,224,248]" pageId="6" pageNumber="591" value="1.4">1.4</number>
+; chela much longer than distal carpal article, with fingers longer than palm, simple (
+<figureCitation box="[1262,1330,223,248]" captionStart="FIGURE 2" captionStartId="3.[151,250,1915,1937]" captionTargetBox="[214,1372,466,1880]" captionTargetId="figure@3.[206,1388,445,1891]" captionTargetPageId="3" captionText="FIGURE 2. Parabetaeus acanthus sp. nov., holotype, male (cl 3.4 mm) from Shark Reef, Thuwal, Saudi Arabia (FLMNH UF 36028); A—mandible, mesial; B—maxillule, lateral; C—maxilla, lateral; D—first maxilliped, lateral; E—same, endopod, mesial; F—second maxilliped, lateral; G—third maxilliped, lateral; H—second pereiopod, lateral; I—third pereiopod, lateral; J—fourth pereiopod, lateral; K—fifth pereiopod, lateral. Scale bars as indicated." httpUri="https://zenodo.org/record/237341/files/figure.png" pageId="6" pageNumber="591">
+Fig. 
+<number box="[1315,1330,224,248]" pageId="6" pageNumber="591" value="2.0">2</number>
+</figureCitation>
+H). Third pereiopod very slender; ischium with two stout spiniform setae on ventrolateral surface; merus about 
+<number box="[1308,1335,259,283]" pageId="6" pageNumber="591" value="11.0">11</number>
+times as long as wide, armed with three stout spiniform setae on ventrolateral surface; carpus much more slender than merus, about 
+<number box="[304,339,331,355]" pageId="6" pageNumber="591" value="0.8">0.8</number>
+length of merus, with slender spiniform seta on distoventral margin; propodus with three slender spiniform setae along ventral margin and one much longer distal spiniform setae adjacent to dactylus; dactylus about 
+<number box="[225,260,402,426]" pageId="6" pageNumber="591" value="0.4">0.4</number>
+length of propodus, slender, simple, subconical, gradually curving distally, with some curved setae subdistally (
+<figureCitation box="[293,367,437,462]" captionStart="FIGURE 2" captionStartId="3.[151,250,1915,1937]" captionTargetBox="[214,1372,466,1880]" captionTargetId="figure@3.[206,1388,445,1891]" captionTargetPageId="3" captionText="FIGURE 2. Parabetaeus acanthus sp. nov., holotype, male (cl 3.4 mm) from Shark Reef, Thuwal, Saudi Arabia (FLMNH UF 36028); A—mandible, mesial; B—maxillule, lateral; C—maxilla, lateral; D—first maxilliped, lateral; E—same, endopod, mesial; F—second maxilliped, lateral; G—third maxilliped, lateral; H—second pereiopod, lateral; I—third pereiopod, lateral; J—fourth pereiopod, lateral; K—fifth pereiopod, lateral. Scale bars as indicated." httpUri="https://zenodo.org/record/237341/files/figure.png" pageId="6" pageNumber="591">
+Fig. 
+<number box="[351,367,438,462]" pageId="6" pageNumber="591" value="2.0">
+<date box="[351,367,438,462]" pageId="6" pageNumber="591">2</date>
+</number>
+</figureCitation>
+I). Fourth pereiopod very similar to third pereiopod in general proportions of articles and armature on ischium, merus and propodus (
+<figureCitation box="[640,709,473,498]" captionStart="FIGURE 2" captionStartId="3.[151,250,1915,1937]" captionTargetBox="[214,1372,466,1880]" captionTargetId="figure@3.[206,1388,445,1891]" captionTargetPageId="3" captionText="FIGURE 2. Parabetaeus acanthus sp. nov., holotype, male (cl 3.4 mm) from Shark Reef, Thuwal, Saudi Arabia (FLMNH UF 36028); A—mandible, mesial; B—maxillule, lateral; C—maxilla, lateral; D—first maxilliped, lateral; E—same, endopod, mesial; F—second maxilliped, lateral; G—third maxilliped, lateral; H—second pereiopod, lateral; I—third pereiopod, lateral; J—fourth pereiopod, lateral; K—fifth pereiopod, lateral. Scale bars as indicated." httpUri="https://zenodo.org/record/237341/files/figure.png" pageId="6" pageNumber="591">
+Fig. 
+<number box="[693,709,474,498]" pageId="6" pageNumber="591" value="2.0">2</number>
+</figureCitation>
+J). Fifth pereiopod longer and more slender than third and fourth pereiopods; ischium with one spiniform seta on ventrolateral surface; merus almost 
+<number box="[1135,1163,510,534]" pageId="6" pageNumber="591" value="13.0">13</number>
+times as long as wide, armed with two spiniform setae on ventrolateral surface; carpus about 
+<number box="[947,982,545,569]" pageId="6" pageNumber="591" value="0.8">0.8</number>
+length of merus, with slender spiniform seta on distoventral margin; propodus very slender, with five or so very small spiniform setae along ventral margin, one much longer spiniform seta adjacent to dactylus, and at least 
+<number box="[929,957,617,641]" pageId="6" pageNumber="591" value="10.0">10</number>
+rows of serrulate setae becoming longer distally; dactylus slightly more than 
+<number box="[559,594,653,677]" pageId="6" pageNumber="591" value="0.3">0.3</number>
+length of propodus, similar to that of third pereiopod (
+<figureCitation box="[1207,1274,652,677]" captionStart="FIGURE 2" captionStartId="3.[151,250,1915,1937]" captionTargetBox="[214,1372,466,1880]" captionTargetId="figure@3.[206,1388,445,1891]" captionTargetPageId="3" captionText="FIGURE 2. Parabetaeus acanthus sp. nov., holotype, male (cl 3.4 mm) from Shark Reef, Thuwal, Saudi Arabia (FLMNH UF 36028); A—mandible, mesial; B—maxillule, lateral; C—maxilla, lateral; D—first maxilliped, lateral; E—same, endopod, mesial; F—second maxilliped, lateral; G—third maxilliped, lateral; H—second pereiopod, lateral; I—third pereiopod, lateral; J—fourth pereiopod, lateral; K—fifth pereiopod, lateral. Scale bars as indicated." httpUri="https://zenodo.org/record/237341/files/figure.png" pageId="6" pageNumber="591">
+Fig. 
+<number box="[1259,1274,653,677]" pageId="6" pageNumber="591" value="2.0">2</number>
+</figureCitation>
+K).
+</paragraph>
+<paragraph blockId="6.[151,1437,151,2035]" pageId="6" pageNumber="591">
+Male second pleopod with appendix masculina not exceeding appendix interna; apex with single long stiff seta (
+<figureCitation box="[159,227,723,748]" captionStart="FIGURE 1" captionStartId="2.[151,250,1765,1787]" captionTargetBox="[176,1415,319,1718]" captionTargetId="figure@2.[151,1436,303,1741]" captionTargetPageId="2" captionText="FIGURE 1. Parabetaeus acanthus sp. nov., holotype, male (cl 3.4 mm) from Shark Reef, Thuwal, Saudi Arabia (FLMNH UF 36028) [A – J]; paratype, female (cl 3.0 mm) from El Fahal, Thuwal, Saudi Arabia (FLMNH UF 36076) [K]; A—frontal region, dorsal; B—same, lateral; C—carapace, lateral; D—posterior abdominal somites, lateral; E—telson, dorsal; F—same, posterior margin, dorsal; G—tooth on ventromesial carina of first article of antennular peduncle, lateral; H—second pleopod, lateral; Isame, tip of appendix masculina; J—uropod, dorsal; K—anterior portion of carapace and eyestalks, lateral. Scale bars as indicated except for G and I (drawn without scale)." httpUri="https://zenodo.org/record/237340/files/figure.png" pageId="6" pageNumber="591">
+Fig. 
+<number box="[217,227,724,748]" pageId="6" pageNumber="591" value="1.0">1</number>
+</figureCitation>
+H, I). Uropod with lateral lobe of protopod bearing sharp tooth; endopod and exopod broadly ovate; diaeresis sinuous, with blunt distolateral tooth adjacent to slender spiniform seta, mesial portion rather poorly defined (
+<figureCitation box="[250,314,795,820]" captionStart="FIGURE 1" captionStartId="2.[151,250,1765,1787]" captionTargetBox="[176,1415,319,1718]" captionTargetId="figure@2.[151,1436,303,1741]" captionTargetPageId="2" captionText="FIGURE 1. Parabetaeus acanthus sp. nov., holotype, male (cl 3.4 mm) from Shark Reef, Thuwal, Saudi Arabia (FLMNH UF 36028) [A – J]; paratype, female (cl 3.0 mm) from El Fahal, Thuwal, Saudi Arabia (FLMNH UF 36076) [K]; A—frontal region, dorsal; B—same, lateral; C—carapace, lateral; D—posterior abdominal somites, lateral; E—telson, dorsal; F—same, posterior margin, dorsal; G—tooth on ventromesial carina of first article of antennular peduncle, lateral; H—second pleopod, lateral; Isame, tip of appendix masculina; J—uropod, dorsal; K—anterior portion of carapace and eyestalks, lateral. Scale bars as indicated except for G and I (drawn without scale)." httpUri="https://zenodo.org/record/237340/files/figure.png" pageId="6" pageNumber="591">
+Fig. 
+<number box="[302,314,795,819]" pageId="6" pageNumber="591" value="1.0">1</number>
+</figureCitation>
+J).
+</paragraph>
+<paragraph blockId="6.[151,1437,151,2035]" box="[199,1016,830,856]" pageId="6" pageNumber="591">
+Gill-exopod formula as described for genus (cf. 
+<bibRefCitation author="Nomura" box="[738,1003,830,855]" pageId="6" pageNumber="591" refString="Nomura, K. &amp; Anker, A. (2001) Redescription of Parabetaeus culliereti Coutiere and status of the genus Neoalpheopsis Banner (Decapoda: Caridea: Alpheidae). Crustacean Research, 30, 43 - 54." type="journal article" year="2001">
+Nomura &amp; Anker 
+<number box="[943,1003,831,855]" pageId="6" pageNumber="591" value="2001.0">2001</number>
+</bibRefCitation>
+).
+</paragraph>
+<paragraph blockId="6.[151,1437,151,2035]" pageId="6" pageNumber="591">
+<emphasis bold="true" box="[199,379,866,891]" pageId="6" pageNumber="591">Colour pattern</emphasis>
+. Carapace semitransparent, mostly colourless except for few chromatophores in anterodorsal area; abdomen semitransparent with six transverse red bands, one across each somite; antennular peduncles with distinctive reddish-white pattern, stylocerites intense red, flagella reddish; antennae mostly whitish, with some scattered chromatophores on carpocerites; chelipeds reddish except for hyaline-whitish fingers; second to fifth pereopods mostly colourless, with some scattered red chromatophores; tail fan reddish due to abundance of reddish chromatophores (
+<figureCitation box="[347,426,1045,1070]" captionStart="FIGURE 5" captionStartId="7.[151,250,1952,1974]" captionTargetBox="[159,1422,193,1930]" captionTargetId="figure@7.[159,1423,193,1932]" captionTargetPageId="7" captionText="FIGURE 5. Parabetaeus acanthus sp. nov., holotype, male (cl 3.4 mm) from Shark Reef, Thuwal, Saudi Arabia (FLMNH UF 36028), in life; A—dorsal view; B—lateral view. Photographs by the author." httpUri="https://zenodo.org/record/237344/files/figure.png" pageId="6" pageNumber="591">Figs. 5</figureCitation>
+, 
+<figureCitation box="[438,454,1045,1070]" captionStart="FIGURE 6" captionStartId="8.[151,250,1705,1727]" captionTargetBox="[150,1435,180,1682]" captionTargetId="figure@8.[150,1436,180,1683]" captionTargetPageId="8" captionText="FIGURE 6. Parabetaeus acanthus sp. nov., non-type specimen, male (cl 3.9 mm) from Madang, Papua New Guinea (MNHN- IU- 2014 - 6024), in life; A—dorsal view; B—lateral view. Photographs by the author." httpUri="https://zenodo.org/record/237345/files/figure.png" pageId="6" pageNumber="591">6</figureCitation>
+).
+</paragraph>
+<paragraph blockId="6.[151,1437,151,2035]" pageId="6" pageNumber="591">
+<emphasis bold="true" box="[199,309,1081,1106]" pageId="6" pageNumber="591">Variation</emphasis>
+. As noted in the description, the non-type male has relatively stout, unequal, asymmetrical chelipeds (
+<figureCitation box="[159,228,1116,1141]" captionStart="FIGURE 6" captionStartId="8.[151,250,1705,1727]" captionTargetBox="[150,1435,180,1682]" captionTargetId="figure@8.[150,1436,180,1683]" captionTargetPageId="8" captionText="FIGURE 6. Parabetaeus acanthus sp. nov., non-type specimen, male (cl 3.9 mm) from Madang, Papua New Guinea (MNHN- IU- 2014 - 6024), in life; A—dorsal view; B—lateral view. Photographs by the author." httpUri="https://zenodo.org/record/237345/files/figure.png" pageId="6" pageNumber="591">
+Fig. 
+<number box="[212,228,1116,1141]" pageId="6" pageNumber="591" value="6.0">6</number>
+</figureCitation>
+), with a robust major chela armed with 
+<number box="[681,709,1117,1141]" pageId="6" pageNumber="591" value="10.0">10</number>
+large teeth (most distal strongest and separated by broad hiatus) on the cutting edge of the pollex and one large tooth on the cutting edge of the dactylus, and with the fingers distinctly shorter than the palm (
+<figureCitation box="[516,596,1188,1213]" captionStart="FIGURE 4" captionStartId="5.[151,250,1822,1844]" captionTargetBox="[164,1424,679,1772]" captionTargetId="figure@5.[151,1436,661,1784]" captionTargetPageId="5" captionText="FIGURE 4. Parabetaeus acanthus sp. nov., non-type specimen, male (cl 3.9 mm) from Madang, Papua New Guinea (MNHN- IU- 2014 - 6024); A—anterior portion of carapace and eyestalks, lateral; B—major (right) cheliped, lateral; C—same, chela with fingers open, lateral; D—minor (left) cheliped, chela with fingers open, lateral. Scale bars as indicated." httpUri="https://zenodo.org/record/237343/files/figure.png" pageId="6" pageNumber="591">
+Figs. 
+<number box="[580,596,1189,1213]" pageId="6" pageNumber="591" value="4.0">4</number>
+</figureCitation>
+B, C). In contrast, in the minor chela of the non-type male as well as in the chelae of the male 
+<typeStatus box="[368,466,1223,1248]" pageId="6" pageNumber="591">holotype</typeStatus>
+and female 
+<typeStatus box="[609,708,1225,1249]" pageId="6" pageNumber="591">paratype</typeStatus>
+, the cutting edge of the pollex is armed with numerous (
+<number box="[1356,1428,1223,1248]" pageId="6" pageNumber="591" value="26.5" valueMax="28.0" valueMin="25.0">25–28</number>
+) smaller teeth, whilst the fingers are noticeably longer than the palm (
+<figureCitation box="[930,1009,1259,1284]" captionStart="FIGURE 3" captionStartId="4.[151,250,1408,1430]" captionTargetBox="[162,1430,525,1382]" captionTargetId="figure@4.[151,1436,517,1387]" captionTargetPageId="4" captionText="FIGURE 3. Parabetaeus acanthus sp. nov., holotype, male (cl 3.4 mm) from Shark Reef, Thuwal, Saudi Arabia (FLMNH UF 36028); A—right cheliped, lateral; B—same, chela with fingers closed, lateral; C—same, distal merus, propodus and chela with fingers open, lateral. Scale bars as indicated." httpUri="https://zenodo.org/record/237342/files/figure.png" pageId="6" pageNumber="591">Figs. 3</figureCitation>
+, 
+<figureCitation box="[1023,1039,1260,1284]" captionStart="FIGURE 4" captionStartId="5.[151,250,1822,1844]" captionTargetBox="[164,1424,679,1772]" captionTargetId="figure@5.[151,1436,661,1784]" captionTargetPageId="5" captionText="FIGURE 4. Parabetaeus acanthus sp. nov., non-type specimen, male (cl 3.9 mm) from Madang, Papua New Guinea (MNHN- IU- 2014 - 6024); A—anterior portion of carapace and eyestalks, lateral; B—major (right) cheliped, lateral; C—same, chela with fingers open, lateral; D—minor (left) cheliped, chela with fingers open, lateral. Scale bars as indicated." httpUri="https://zenodo.org/record/237343/files/figure.png" pageId="6" pageNumber="591">4</figureCitation>
+D). Thus, the minor cheliped of the non-type male is similar in the general shape and dentition of the fingers to the chelipeds of the male 
+<typeStatus box="[1307,1405,1295,1320]" pageId="6" pageNumber="591">holotype</typeStatus>
+or female 
+<typeStatus box="[236,335,1332,1356]" pageId="6" pageNumber="591">paratype</typeStatus>
+, differing basically by the proportions of the merus, carpus and palm (compare 
+<figureCitation box="[1249,1327,1331,1356]" captionStart="FIGURE 3" captionStartId="4.[151,250,1408,1430]" captionTargetBox="[162,1430,525,1382]" captionTargetId="figure@4.[151,1436,517,1387]" captionTargetPageId="4" captionText="FIGURE 3. Parabetaeus acanthus sp. nov., holotype, male (cl 3.4 mm) from Shark Reef, Thuwal, Saudi Arabia (FLMNH UF 36028); A—right cheliped, lateral; B—same, chela with fingers closed, lateral; C—same, distal merus, propodus and chela with fingers open, lateral. Scale bars as indicated." httpUri="https://zenodo.org/record/237342/files/figure.png" pageId="6" pageNumber="591">
+Figs. 
+<number box="[1313,1327,1331,1355]" pageId="6" pageNumber="591" value="3.0">3</number>
+</figureCitation>
+and 
+<figureCitation box="[1385,1401,1331,1355]" captionStart="FIGURE 4" captionStartId="5.[151,250,1822,1844]" captionTargetBox="[164,1424,679,1772]" captionTargetId="figure@5.[151,1436,661,1784]" captionTargetPageId="5" captionText="FIGURE 4. Parabetaeus acanthus sp. nov., non-type specimen, male (cl 3.9 mm) from Madang, Papua New Guinea (MNHN- IU- 2014 - 6024); A—anterior portion of carapace and eyestalks, lateral; B—major (right) cheliped, lateral; C—same, chela with fingers open, lateral; D—minor (left) cheliped, chela with fingers open, lateral. Scale bars as indicated." httpUri="https://zenodo.org/record/237343/files/figure.png" pageId="6" pageNumber="591">
+<number box="[1385,1401,1331,1355]" pageId="6" pageNumber="591" value="4.0">4</number>
+</figureCitation>
+D). The development of the tooth on the mid-dorsal line of the carapace is also variable, with the female 
+<typeStatus box="[1340,1436,1368,1392]" pageId="6" pageNumber="591">paratype</typeStatus>
+having a much smaller tooth (
+<figureCitation box="[495,559,1402,1427]" captionStart="FIGURE 1" captionStartId="2.[151,250,1765,1787]" captionTargetBox="[176,1415,319,1718]" captionTargetId="figure@2.[151,1436,303,1741]" captionTargetPageId="2" captionText="FIGURE 1. Parabetaeus acanthus sp. nov., holotype, male (cl 3.4 mm) from Shark Reef, Thuwal, Saudi Arabia (FLMNH UF 36028) [A – J]; paratype, female (cl 3.0 mm) from El Fahal, Thuwal, Saudi Arabia (FLMNH UF 36076) [K]; A—frontal region, dorsal; B—same, lateral; C—carapace, lateral; D—posterior abdominal somites, lateral; E—telson, dorsal; F—same, posterior margin, dorsal; G—tooth on ventromesial carina of first article of antennular peduncle, lateral; H—second pleopod, lateral; Isame, tip of appendix masculina; J—uropod, dorsal; K—anterior portion of carapace and eyestalks, lateral. Scale bars as indicated except for G and I (drawn without scale)." httpUri="https://zenodo.org/record/237340/files/figure.png" pageId="6" pageNumber="591">
+Fig. 
+<number box="[549,559,1403,1427]" pageId="6" pageNumber="591" value="1.0">1</number>
+</figureCitation>
+K) compared to a very prominent tooth present in both the 
+<typeStatus box="[1245,1343,1402,1427]" pageId="6" pageNumber="591">holotype</typeStatus>
+and the non-type male (
+<figureCitation box="[327,401,1438,1463]" captionStart="FIGURE 1" captionStartId="2.[151,250,1765,1787]" captionTargetBox="[176,1415,319,1718]" captionTargetId="figure@2.[151,1436,303,1741]" captionTargetPageId="2" captionText="FIGURE 1. Parabetaeus acanthus sp. nov., holotype, male (cl 3.4 mm) from Shark Reef, Thuwal, Saudi Arabia (FLMNH UF 36028) [A – J]; paratype, female (cl 3.0 mm) from El Fahal, Thuwal, Saudi Arabia (FLMNH UF 36076) [K]; A—frontal region, dorsal; B—same, lateral; C—carapace, lateral; D—posterior abdominal somites, lateral; E—telson, dorsal; F—same, posterior margin, dorsal; G—tooth on ventromesial carina of first article of antennular peduncle, lateral; H—second pleopod, lateral; Isame, tip of appendix masculina; J—uropod, dorsal; K—anterior portion of carapace and eyestalks, lateral. Scale bars as indicated except for G and I (drawn without scale)." httpUri="https://zenodo.org/record/237340/files/figure.png" pageId="6" pageNumber="591">
+Figs. 
+<number box="[390,401,1439,1463]" pageId="6" pageNumber="591" value="1.0">1</number>
+</figureCitation>
+B, 
+<number box="[437,452,1439,1463]" pageId="6" pageNumber="591" value="4.0">4</number>
+A).
+</paragraph>
+</subSubSection>
+<subSubSection pageId="6" pageNumber="591" type="etymology">
+<paragraph blockId="6.[151,1437,151,2035]" pageId="6" pageNumber="591">
+<emphasis bold="true" box="[199,326,1474,1499]" pageId="6" pageNumber="591">Etymology</emphasis>
+. The new species name (new Latin derived from the ancient Greek word 
+<emphasis box="[1142,1243,1474,1498]" italics="true" pageId="6" pageNumber="591">akanthos</emphasis>
+= thorn or spine) refers to the presence of a conspicuous spine-like tooth on the mid-dorsal line of the carapace; used as a noun in apposition.
+</paragraph>
+</subSubSection>
+<subSubSection box="[199,867,1581,1606]" pageId="6" pageNumber="591" type="materials_examined">
+<paragraph blockId="6.[151,1437,151,2035]" box="[199,867,1581,1606]" pageId="6" pageNumber="591">
+<emphasis bold="true" box="[199,349,1581,1606]" pageId="6" pageNumber="591">
+<typeStatus box="[199,258,1581,1606]" pageId="6" pageNumber="591">Type</typeStatus>
+locality
+</emphasis>
+. Thuwal, Saudi Arabian coast of the Red Sea.
+</paragraph>
+</subSubSection>
+<subSubSection pageId="6" pageNumber="591" type="distribution">
+<paragraph blockId="6.[151,1437,151,2035]" pageId="6" pageNumber="591">
+<emphasis bold="true" box="[199,345,1617,1642]" pageId="6" pageNumber="591">Distribution</emphasis>
+. Indo-West Pacific: presently known only from two distant localities: Thuwal, 
+<collectingCountry box="[1234,1384,1617,1642]" name="Saudi Arabia" pageId="6" pageNumber="591">Saudi Arabia</collectingCountry>
+, and Madang, 
+<collectingCountry box="[257,477,1652,1677]" name="Papua New Guinea" pageId="6" pageNumber="591">Papua New Guinea</collectingCountry>
+.
+</paragraph>
+</subSubSection>
+<subSubSection lastPageId="9" lastPageNumber="594" pageId="6" pageNumber="591" type="discussion">
+<paragraph blockId="6.[151,1437,151,2035]" pageId="6" pageNumber="591">
+<emphasis bold="true" box="[199,308,1688,1713]" pageId="6" pageNumber="591">Remarks</emphasis>
+. 
+<taxonomicName box="[322,571,1688,1712]" class="Malacostraca" family="Alpheidae" genus="Parabetaeus" kingdom="Animalia" order="Decapoda" pageId="6" pageNumber="591" phylum="Arthropoda" rank="species" species="acanthus" status="sp. nov.">
+<emphasis box="[322,571,1688,1712]" italics="true" pageId="6" pageNumber="591">Parabetaeus acanthus</emphasis>
+</taxonomicName>
+<taxonomicNameLabel box="[578,668,1688,1713]" pageId="6" pageNumber="591" rank="species">
+<emphasis bold="true" box="[578,668,1688,1713]" pageId="6" pageNumber="591">sp. nov.</emphasis>
+</taxonomicNameLabel>
+can be easily separated from the other three species of 
+<taxonomicName box="[1287,1428,1688,1712]" class="Malacostraca" family="Alpheidae" genus="Parabetaeus" kingdom="Animalia" order="Decapoda" pageId="6" pageNumber="591" phylum="Arthropoda" rank="genus">
+<emphasis box="[1287,1428,1688,1712]" italics="true" pageId="6" pageNumber="591">Parabetaeus</emphasis>
+</taxonomicName>
+, viz. 
+<taxonomicName box="[200,328,1724,1748]" class="Malacostraca" family="Alpheidae" genus="Parabetaeus" kingdom="Animalia" order="Decapoda" pageId="6" pageNumber="591" phylum="Arthropoda" rank="species" species="culliereti">
+<emphasis box="[200,328,1724,1748]" italics="true" pageId="6" pageNumber="591">P. culliereti</emphasis>
+</taxonomicName>
+, 
+<taxonomicName box="[342,461,1725,1748]" class="Malacostraca" family="Alpheidae" genus="Parabetaeus" kingdom="Animalia" order="Decapoda" pageId="6" pageNumber="591" phylum="Arthropoda" rank="species" species="euryone">
+<emphasis box="[342,461,1725,1748]" italics="true" pageId="6" pageNumber="591">P. euryone</emphasis>
+</taxonomicName>
+and 
+<taxonomicName box="[516,687,1724,1748]" class="Malacostraca" family="Alpheidae" genus="Parabetaeus" kingdom="Animalia" order="Decapoda" pageId="6" pageNumber="591" phylum="Arthropoda" rank="species" species="hummelincki">
+<emphasis box="[516,687,1724,1748]" italics="true" pageId="6" pageNumber="591">P. hummelincki</emphasis>
+</taxonomicName>
+, by the presence of a sharp spine-like tooth on the mid-dorsal line of the carapace, posterior to the base of the eyes (absent in the other species), the distinctively shorter stylocerite, its tip not reaching the mid-length of the first article of the antennular peduncle (vs. overreaching the mid-length of this article in the other species), and the dorsally partly exposed eyes (vs. completely concealed by the carapace in the other species) (cf. 
+<figureCitation box="[402,475,1867,1892]" captionStart="FIGURE 1" captionStartId="2.[151,250,1765,1787]" captionTargetBox="[176,1415,319,1718]" captionTargetId="figure@2.[151,1436,303,1741]" captionTargetPageId="2" captionText="FIGURE 1. Parabetaeus acanthus sp. nov., holotype, male (cl 3.4 mm) from Shark Reef, Thuwal, Saudi Arabia (FLMNH UF 36028) [A – J]; paratype, female (cl 3.0 mm) from El Fahal, Thuwal, Saudi Arabia (FLMNH UF 36076) [K]; A—frontal region, dorsal; B—same, lateral; C—carapace, lateral; D—posterior abdominal somites, lateral; E—telson, dorsal; F—same, posterior margin, dorsal; G—tooth on ventromesial carina of first article of antennular peduncle, lateral; H—second pleopod, lateral; Isame, tip of appendix masculina; J—uropod, dorsal; K—anterior portion of carapace and eyestalks, lateral. Scale bars as indicated except for G and I (drawn without scale)." httpUri="https://zenodo.org/record/237340/files/figure.png" pageId="6" pageNumber="591">
+Figs. 
+<number box="[465,475,1867,1891]" pageId="6" pageNumber="591" value="1.0">1</number>
+</figureCitation>
+A, B and 
+<bibRefCitation author="De" box="[589,746,1867,1891]" pageId="6" pageNumber="591" refString="De Man, J. G. (1911) The Decapoda of the Siboga-Expedition, II: Family Alpheidae. Siboga-Expeditie, 39 a 1 (2), 133 - 465." type="journal article" year="1911">De Man 1911</bibRefCitation>
+, 
+<bibRefCitation author="Man" box="[758,817,1867,1892]" pageId="6" pageNumber="591" refString="De Man, J. G. (1915) Supplement-Explanations of plates of Alpheidae. E. J. Brill, Leiden, pls. 1 - 23." type="book chapter" year="1915">1915</bibRefCitation>
+; 
+<bibRefCitation author="Schmitt" box="[830,984,1867,1892]" pageId="6" pageNumber="591" refString="Schmitt, W. L. (1936) Zoologische Ergebnisse einer Reise nach Bonaire, Curacao und Aruba im Jahre 1930. No. 16. Macruran and anomuran Crustacea from Bonaire, Curacao und Aruba. Zoologische Jahrbucher, 67, 363 - 378, pls. 11 - 13." type="journal article" year="1936">
+Schmitt 
+<number box="[925,984,1867,1892]" pageId="6" pageNumber="591" value="1936.0">1936</number>
+</bibRefCitation>
+; 
+<bibRefCitation author="Banner" box="[997,1144,1867,1892]" pageId="6" pageNumber="591" refString="Banner, A. H. (1953) The Crangonidae, or snapping shrimp, of Hawaii. Pacific Science, 7, 3 - 147." type="journal article" year="1953">
+Banner 
+<number box="[1085,1144,1867,1892]" pageId="6" pageNumber="591" value="1953.0">1953</number>
+</bibRefCitation>
+; 
+<bibRefCitation author="Nomura" box="[1157,1424,1867,1892]" pageId="6" pageNumber="591" refString="Nomura, K. &amp; Anker, A. (2001) Redescription of Parabetaeus culliereti Coutiere and status of the genus Neoalpheopsis Banner (Decapoda: Caridea: Alpheidae). Crustacean Research, 30, 43 - 54." type="journal article" year="2001">
+Nomura &amp; Anker 
+<number box="[1364,1424,1867,1891]" pageId="6" pageNumber="591" value="2001.0">2001</number>
+</bibRefCitation>
+). The new species may also be distinctly smaller than 
+<taxonomicName box="[788,921,1903,1927]" class="Malacostraca" family="Alpheidae" genus="Parabetaeus" kingdom="Animalia" order="Decapoda" pageId="6" pageNumber="591" phylum="Arthropoda" rank="species" species="culliereti">
+<emphasis box="[788,921,1903,1927]" italics="true" pageId="6" pageNumber="591">P. culliereti</emphasis>
+</taxonomicName>
+, 
+<emphasis box="[940,1060,1904,1927]" italics="true" pageId="6" pageNumber="591">P. e u r y o ne</emphasis>
+and 
+<taxonomicName box="[1129,1305,1903,1927]" class="Malacostraca" family="Alpheidae" genus="Parabetaeus" kingdom="Animalia" order="Decapoda" pageId="6" pageNumber="591" phylum="Arthropoda" rank="species" species="hummelincki">
+<emphasis box="[1129,1305,1903,1927]" italics="true" pageId="6" pageNumber="591">P. hummelincki</emphasis>
+</taxonomicName>
+. The three available specimens of 
+<taxonomicName box="[424,556,1939,1963]" class="Malacostraca" family="Alpheidae" genus="Parabetaeus" kingdom="Animalia" order="Decapoda" pageId="6" pageNumber="591" phylum="Arthropoda" rank="species" species="acanthus" status="sp. nov.">
+<emphasis box="[424,556,1939,1963]" italics="true" pageId="6" pageNumber="591">P. acanthus</emphasis>
+</taxonomicName>
+<taxonomicNameLabel box="[566,657,1939,1962]" pageId="6" pageNumber="591" rank="species">sp. nov.</taxonomicNameLabel>
+are ranging between cl 3.0 and cl 
+<quantity box="[1070,1163,1939,1963]" metricMagnitude="-3" metricUnit="m" metricValue="3.9" pageId="6" pageNumber="591" unit="mm" value="3.9">3.9 mm</quantity>
+. In contrast, the largest individuals of 
+<emphasis box="[312,571,1974,1998]" italics="true" pageId="6" pageNumber="591">
+<taxonomicName box="[312,443,1974,1998]" class="Malacostraca" family="Alpheidae" genus="Parabetaeus" kingdom="Animalia" order="Decapoda" pageId="6" pageNumber="591" phylum="Arthropoda" rank="species" species="culliereti">P. culliereti</taxonomicName>
+, 
+<taxonomicName box="[454,571,1975,1998]" class="Malacostraca" family="Alpheidae" genus="Parabetaeus" kingdom="Animalia" order="Decapoda" pageId="6" pageNumber="591" phylum="Arthropoda" rank="species" species="euryone">P. euryone</taxonomicName>
+</emphasis>
+and 
+<taxonomicName box="[625,796,1974,1998]" class="Malacostraca" family="Alpheidae" genus="Parabetaeus" kingdom="Animalia" order="Decapoda" pageId="6" pageNumber="591" phylum="Arthropoda" rank="species" species="hummelincki">
+<emphasis box="[625,796,1974,1998]" italics="true" pageId="6" pageNumber="591">P. hummelincki</emphasis>
+</taxonomicName>
+, for instance, may reach cl 
+<quantity box="[1105,1192,1975,1999]" metricMagnitude="-3" metricUnit="m" metricValue="7.4" pageId="6" pageNumber="591" unit="mm" value="7.4">7.4 mm</quantity>
+, 
+<quantity box="[1204,1290,1975,1999]" metricMagnitude="-3" metricUnit="m" metricValue="7.3" pageId="6" pageNumber="591" unit="mm" value="7.3">7.3 mm</quantity>
+and 
+<quantity box="[1344,1431,1975,1999]" metricMagnitude="-3" metricUnit="m" metricValue="8.2" pageId="6" pageNumber="591" unit="mm" value="8.2">8.2 mm</quantity>
+, respectively (see Comparative material and 
+<bibRefCitation author="Anker" box="[643,780,2010,2035]" pageId="6" pageNumber="591" refString="Anker, A. (2011) First records of the alpheid shrimp genus Parabetaeus Coutiere, 1897 (Crustacea, Decapoda) in the eastern Atlantic and western Caribbean Sea. Marine Biodiversity Records, 4 (e 95), 1 - 4." type="journal article" year="2011">
+Anker 
+<number box="[720,780,2010,2034]" pageId="6" pageNumber="591" value="2011.0">2011</number>
+</bibRefCitation>
+).
+</paragraph>
+<caption httpUri="https://zenodo.org/record/237344/files/figure.png" pageId="7" pageNumber="592" targetBox="[159,1422,193,1930]" targetPageId="7">
+<paragraph blockId="7.[151,1436,1952,2005]" pageId="7" pageNumber="592">
+<emphasis bold="true" box="[151,269,1952,1974]" pageId="7" pageNumber="592">FIGURE 5</emphasis>
+. 
+<taxonomicName box="[281,507,1952,1974]" class="Malacostraca" family="Alpheidae" genus="Parabetaeus" kingdom="Animalia" order="Decapoda" pageId="7" pageNumber="592" phylum="Arthropoda" rank="species" species="acanthus" status="sp. nov.">
+<emphasis box="[281,507,1952,1974]" italics="true" pageId="7" pageNumber="592">Parabetaeus acanthus</emphasis>
+</taxonomicName>
+<taxonomicNameLabel box="[513,593,1953,1974]" pageId="7" pageNumber="592" rank="species">
+<emphasis bold="true" box="[513,593,1953,1974]" pageId="7" pageNumber="592">sp. nov.</emphasis>
+</taxonomicNameLabel>
+, holotype, male (cl 3.4 mm) from Shark Reef, Thuwal, Saudi Arabia (FLMNH UF 36028), in life; A—dorsal view; B—lateral view. Photographs by the author.
+</paragraph>
+</caption>
+<caption httpUri="https://zenodo.org/record/237345/files/figure.png" pageId="8" pageNumber="593" targetBox="[150,1435,180,1682]" targetPageId="8">
+<paragraph blockId="8.[151,1435,1705,1757]" pageId="8" pageNumber="593">
+<emphasis bold="true" box="[151,268,1705,1727]" pageId="8" pageNumber="593">FIGURE 6</emphasis>
+. 
+<taxonomicName box="[280,506,1705,1727]" class="Malacostraca" family="Alpheidae" genus="Parabetaeus" kingdom="Animalia" order="Decapoda" pageId="8" pageNumber="593" phylum="Arthropoda" rank="species" species="acanthus" status="sp. nov.">
+<emphasis box="[280,506,1705,1727]" italics="true" pageId="8" pageNumber="593">Parabetaeus acanthus</emphasis>
+</taxonomicName>
+<taxonomicNameLabel box="[512,592,1705,1726]" pageId="8" pageNumber="593" rank="species">
+<emphasis bold="true" box="[512,592,1705,1726]" pageId="8" pageNumber="593">sp. nov.</emphasis>
+</taxonomicNameLabel>
+, non-type specimen, male (cl 3.9 mm) from Madang, Papua New Guinea (MNHN- IU-2014-6024), in life; A—dorsal view; B—lateral view. Photographs by the author.
+</paragraph>
+</caption>
+<paragraph blockId="8.[151,1436,1795,2036]" pageId="8" pageNumber="593">
+In the shape of the frontal margin of the carapace, 
+<taxonomicName box="[781,911,1796,1820]" class="Malacostraca" family="Alpheidae" genus="Parabetaeus" kingdom="Animalia" order="Decapoda" pageId="8" pageNumber="593" phylum="Arthropoda" rank="species" species="acanthus" status="sp. nov.">
+<emphasis box="[781,911,1796,1820]" italics="true" pageId="8" pageNumber="593">P. acanthus</emphasis>
+</taxonomicName>
+<taxonomicNameLabel box="[920,1011,1795,1820]" pageId="8" pageNumber="593" rank="species">
+<emphasis bold="true" box="[920,1011,1795,1820]" pageId="8" pageNumber="593">sp. nov.</emphasis>
+</taxonomicNameLabel>
+(
+<figureCitation box="[1028,1093,1795,1820]" captionStart="FIGURE 1" captionStartId="2.[151,250,1765,1787]" captionTargetBox="[176,1415,319,1718]" captionTargetId="figure@2.[151,1436,303,1741]" captionTargetPageId="2" captionText="FIGURE 1. Parabetaeus acanthus sp. nov., holotype, male (cl 3.4 mm) from Shark Reef, Thuwal, Saudi Arabia (FLMNH UF 36028) [A – J]; paratype, female (cl 3.0 mm) from El Fahal, Thuwal, Saudi Arabia (FLMNH UF 36076) [K]; A—frontal region, dorsal; B—same, lateral; C—carapace, lateral; D—posterior abdominal somites, lateral; E—telson, dorsal; F—same, posterior margin, dorsal; G—tooth on ventromesial carina of first article of antennular peduncle, lateral; H—second pleopod, lateral; Isame, tip of appendix masculina; J—uropod, dorsal; K—anterior portion of carapace and eyestalks, lateral. Scale bars as indicated except for G and I (drawn without scale)." httpUri="https://zenodo.org/record/237340/files/figure.png" pageId="8" pageNumber="593">
+Fig. 
+<number box="[1083,1093,1796,1820]" pageId="8" pageNumber="593" value="1.0">1</number>
+</figureCitation>
+A, B) is most similar to some specimens of 
+<emphasis box="[305,439,1832,1856]" italics="true" pageId="8" pageNumber="593">
+<taxonomicName box="[305,435,1832,1856]" class="Malacostraca" family="Alpheidae" genus="Parabetaeus" kingdom="Animalia" order="Decapoda" pageId="8" pageNumber="593" phylum="Arthropoda" rank="species" species="culliereti">P. culliereti</taxonomicName>
+,
+</emphasis>
+especially those with the sharp orbital teeth and without a rostrum (cf. 
+<bibRefCitation author="Nomura" pageId="8" pageNumber="593" refString="Nomura, K. &amp; Anker, A. (2001) Redescription of Parabetaeus culliereti Coutiere and status of the genus Neoalpheopsis Banner (Decapoda: Caridea: Alpheidae). Crustacean Research, 30, 43 - 54." type="journal article" year="2001">
+Nomura &amp; Anker 
+<number box="[151,211,1868,1892]" pageId="8" pageNumber="593" value="2001.0">2001</number>
+</bibRefCitation>
+: figs. 
+<number box="[282,293,1868,1892]" pageId="8" pageNumber="593" value="1.0">1</number>
+B, 
+<number box="[331,344,1868,1892]" pageId="8" pageNumber="593" value="3.0">3</number>
+A, B). In contrast, 
+<taxonomicName box="[564,683,1868,1891]" class="Malacostraca" family="Alpheidae" genus="Parabetaeus" kingdom="Animalia" order="Decapoda" pageId="8" pageNumber="593" phylum="Arthropoda" rank="species" species="euryone">
+<emphasis box="[564,683,1868,1891]" italics="true" pageId="8" pageNumber="593">P. euryone</emphasis>
+</taxonomicName>
+and 
+<taxonomicName box="[742,915,1868,1892]" class="Malacostraca" family="Alpheidae" genus="Parabetaeus" kingdom="Animalia" order="Decapoda" pageId="8" pageNumber="593" phylum="Arthropoda" rank="species" species="hummelincki">
+<emphasis box="[742,915,1868,1892]" italics="true" pageId="8" pageNumber="593">P. hummelincki</emphasis>
+</taxonomicName>
+are characterised by the presence of blunt or angular orbital teeth and a triangular rostrum (cf. 
+<bibRefCitation author="Nomura" box="[702,965,1903,1928]" pageId="8" pageNumber="593" refString="Nomura, K. &amp; Anker, A. (2001) Redescription of Parabetaeus culliereti Coutiere and status of the genus Neoalpheopsis Banner (Decapoda: Caridea: Alpheidae). Crustacean Research, 30, 43 - 54." type="journal article" year="2001">
+Nomura &amp; Anker 
+<number box="[905,965,1904,1928]" pageId="8" pageNumber="593" value="2001.0">2001</number>
+</bibRefCitation>
+: fig. 
+<number box="[1020,1034,1904,1928]" pageId="8" pageNumber="593" value="3.0">3</number>
+F; Anker 
+<number box="[1141,1201,1904,1928]" pageId="8" pageNumber="593" value="2007.0">2007</number>
+: fig. 
+<number box="[1256,1271,1904,1927]" pageId="8" pageNumber="593" value="7.0">7</number>
+a; 
+<bibRefCitation author="Anker" box="[1297,1432,1903,1928]" pageId="8" pageNumber="593" refString="Anker, A. (2011) First records of the alpheid shrimp genus Parabetaeus Coutiere, 1897 (Crustacea, Decapoda) in the eastern Atlantic and western Caribbean Sea. Marine Biodiversity Records, 4 (e 95), 1 - 4." type="journal article" year="2011">
+Anker 
+<number box="[1373,1432,1904,1928]" pageId="8" pageNumber="593" value="2011.0">2011</number>
+</bibRefCitation>
+: fig. 
+<number box="[196,210,1940,1964]" pageId="8" pageNumber="593" value="3.0">3</number>
+B). The spination on the third to fifth pereopod, although consistent in the three specimens of 
+<taxonomicName box="[1266,1395,1940,1964]" class="Malacostraca" family="Alpheidae" genus="Parabetaeus" kingdom="Animalia" order="Decapoda" pageId="8" pageNumber="593" phylum="Arthropoda" rank="species" species="acanthus" status="sp. nov.">
+<emphasis box="[1266,1395,1940,1964]" italics="true" pageId="8" pageNumber="593">P. acanthus</emphasis>
+</taxonomicName>
+<taxonomicNameLabel pageId="8" pageNumber="593" rank="species">
+<emphasis bold="true" pageId="8" pageNumber="593">sp. nov.</emphasis>
+</taxonomicNameLabel>
+, is known to be variable in 
+<taxonomicName box="[520,649,1976,2000]" class="Malacostraca" family="Alpheidae" genus="Parabetaeus" kingdom="Animalia" order="Decapoda" pageId="8" pageNumber="593" phylum="Arthropoda" rank="species" species="culliereti">
+<emphasis box="[520,649,1976,2000]" italics="true" pageId="8" pageNumber="593">P. culliereti</emphasis>
+</taxonomicName>
+and 
+<taxonomicName authority="Nomura &amp; Anker 2001" authorityName="Nomura &amp; Anker" authorityYear="2001" box="[706,1116,1975,2000]" class="Malacostraca" family="Alpheidae" genus="Parabetaeus" kingdom="Animalia" order="Decapoda" pageId="8" pageNumber="593" phylum="Arthropoda" rank="species" species="euryone">
+<emphasis box="[706,825,1977,2000]" italics="true" pageId="8" pageNumber="593">P. euryone</emphasis>
+(
+<bibRefCitation author="Nomura" box="[840,1108,1975,2000]" pageId="8" pageNumber="593" refString="Nomura, K. &amp; Anker, A. (2001) Redescription of Parabetaeus culliereti Coutiere and status of the genus Neoalpheopsis Banner (Decapoda: Caridea: Alpheidae). Crustacean Research, 30, 43 - 54." type="journal article" year="2001">
+Nomura &amp; Anker 
+<number box="[1051,1108,1976,2000]" pageId="8" pageNumber="593" value="2001.0">2001</number>
+</bibRefCitation>
+)
+</taxonomicName>
+and therefore can hardly be used as taxonomic character.
+</paragraph>
+<paragraph blockId="9.[151,1436,151,464]" pageId="9" pageNumber="594">
+The shape (proportions), size, degree of asymmetry and armature of the chelipeds appear to be variable in 
+<taxonomicName class="Malacostraca" family="Alpheidae" genus="Parabetaeus" kingdom="Animalia" order="Decapoda" pageId="9" pageNumber="594" phylum="Arthropoda" rank="species" species="acanthus" status="sp. nov.">
+<emphasis italics="true" pageId="9" pageNumber="594">P. acanthus</emphasis>
+</taxonomicName>
+<taxonomicNameLabel box="[260,351,188,213]" pageId="9" pageNumber="594" rank="species">
+<emphasis bold="true" box="[260,351,188,213]" pageId="9" pageNumber="594">sp. nov.</emphasis>
+</taxonomicNameLabel>
+, as they are in the other species of the genus (
+<bibRefCitation author="Nomura" box="[880,1150,188,213]" pageId="9" pageNumber="594" refString="Nomura, K. &amp; Anker, A. (2001) Redescription of Parabetaeus culliereti Coutiere and status of the genus Neoalpheopsis Banner (Decapoda: Caridea: Alpheidae). Crustacean Research, 30, 43 - 54." type="journal article" year="2001">
+Nomura &amp; Anker 
+<number box="[1091,1150,188,212]" pageId="9" pageNumber="594" value="2001.0">2001</number>
+</bibRefCitation>
+; Anker 2007, 2011). The robust major chela, with more or less gaping fingers and armature of the cutting edges consisting of a few large teeth, seems to be present only in some adult males (
+<figureCitation box="[755,824,260,285]" captionStart="FIGURE 4" captionStartId="5.[151,250,1822,1844]" captionTargetBox="[164,1424,679,1772]" captionTargetId="figure@5.[151,1436,661,1784]" captionTargetPageId="5" captionText="FIGURE 4. Parabetaeus acanthus sp. nov., non-type specimen, male (cl 3.9 mm) from Madang, Papua New Guinea (MNHN- IU- 2014 - 6024); A—anterior portion of carapace and eyestalks, lateral; B—major (right) cheliped, lateral; C—same, chela with fingers open, lateral; D—minor (left) cheliped, chela with fingers open, lateral. Scale bars as indicated." httpUri="https://zenodo.org/record/237343/files/figure.png" pageId="9" pageNumber="594">
+Fig. 
+<number box="[808,824,260,284]" pageId="9" pageNumber="594" value="4.0">4</number>
+</figureCitation>
+B, C; see also 
+<bibRefCitation author="Banner" box="[990,1139,260,285]" pageId="9" pageNumber="594" refString="Banner, A. H. (1953) The Crangonidae, or snapping shrimp, of Hawaii. Pacific Science, 7, 3 - 147." type="journal article" year="1953">
+Banner 
+<number box="[1079,1139,260,285]" pageId="9" pageNumber="594" value="1953.0">1953</number>
+</bibRefCitation>
+: fig. 
+<date box="[1198,1222,260,285]" pageId="9" pageNumber="594">
+<number box="[1198,1214,260,285]" pageId="9" pageNumber="594" value="6.0">6</number>
+i
+</date>
+; 
+<bibRefCitation author="Nomura" pageId="9" pageNumber="594" refString="Nomura, K. &amp; Anker, A. (2001) Redescription of Parabetaeus culliereti Coutiere and status of the genus Neoalpheopsis Banner (Decapoda: Caridea: Alpheidae). Crustacean Research, 30, 43 - 54." type="journal article" year="2001">
+Nomura &amp; Anker 
+<number box="[151,211,296,320]" pageId="9" pageNumber="594" value="2001.0">2001</number>
+</bibRefCitation>
+: fig. 
+<number box="[269,284,296,320]" pageId="9" pageNumber="594" value="2.0">2</number>
+H). A more or less pronounced polymorphism of the chelipeds is also known in several other alpheid genera, especially in 
+<taxonomicName authority="Leach, 1814" authorityName="Leach" authorityYear="1814" box="[389,628,332,357]" class="Malacostraca" family="Alpheidae" genus="Athanas" kingdom="Animalia" order="Decapoda" pageId="9" pageNumber="594" phylum="Arthropoda" rank="genus">
+<emphasis box="[389,481,332,356]" italics="true" pageId="9" pageNumber="594">Athanas</emphasis>
+Leach, 
+<number box="[572,628,332,356]" pageId="9" pageNumber="594" value="1814.0">1814</number>
+</taxonomicName>
+(
+<bibRefCitation author="Anker" box="[643,795,332,357]" pageId="9" pageNumber="594" refString="Anker, A. (2003 a) Alpheid shrimps from the mangroves and mudflats of Singapore. Part I. Genera Salmoneus, Athanas and Potamalpheops, with the description of two new species (Crustacea: Decapoda: Caridea). The Raffles Bulletin of Zoology, 51, 283 - 314." type="journal article" year="2003" yearSuffix="a">
+Anker 
+<number box="[723,782,332,356]" pageId="9" pageNumber="594" value="2003.0">2003</number>
+a
+</bibRefCitation>
+; 
+<bibRefCitation author="Anker" box="[806,1033,332,357]" pageId="9" pageNumber="594" refString="Anker, A. &amp; Jeng, M. S. (2007) Establishment of a new genus for Arete borradailei Coutiere, 1903 and Athanas verrucosus Banner and Banner, 1960, with redefinition of Arete Stimpson, 1860 and Athanas Leach, 1814 (Crustacea: Decapoda: Alpheidae). Zoological Studies, 46, 454 - 472." type="journal article" year="2007">
+Anker &amp; Jeng 
+<number box="[973,1033,332,356]" pageId="9" pageNumber="594" value="2007.0">2007</number>
+</bibRefCitation>
+), 
+<taxonomicName authority="Holthuis, 1955" authorityName="Holthuis" authorityYear="1955" box="[1053,1349,332,357]" class="Malacostraca" family="Alpheidae" genus="Salmoneus" kingdom="Animalia" order="Decapoda" pageId="9" pageNumber="594" phylum="Arthropoda" rank="genus">
+<emphasis box="[1053,1174,332,356]" italics="true" pageId="9" pageNumber="594">Salmoneus</emphasis>
+<bibRefCitation author="Holthuis" box="[1182,1349,332,357]" pageId="9" pageNumber="594" refString="Holthuis, L. B. (1955) The recent genera of the caridean and stenopodidean shrimps (Class Crustacea, order Decapoda, supersection Natantia) with keys for their determination. Zoologische Verhandelingen, 26, 1 - 157." type="journal article" year="1955">
+Holthuis, 
+<number box="[1293,1349,332,357]" pageId="9" pageNumber="594" value="1955.0">1955</number>
+</bibRefCitation>
+</taxonomicName>
+(
+<bibRefCitation author="Anker" pageId="9" pageNumber="594" refString="Anker, A. (2003 b) New records of Salmoneus Holthuis, 1955 (Crustacea: Decapoda: Alpheidae) from northern Australia, with description of one new species and remarks on S. serratidigitus (Coutire, 1896). The Beagle, 19, 101 - 109." type="journal article" year="2003" yearSuffix="b">
+Anker 
+<number box="[151,210,367,392]" pageId="9" pageNumber="594" value="2003.0">2003</number>
+b
+</bibRefCitation>
+), and 
+<taxonomicName authority="Dana, 1852 (Anker &amp; Baeza 2012)" authorityName="Dana, 1852 (Anker &amp; Baeza" authorityYear="2012" box="[300,815,367,392]" class="Malacostraca" family="Alpheidae" genus="Betaeus" kingdom="Animalia" order="Decapoda" pageId="9" pageNumber="594" phylum="Arthropoda" rank="genus">
+<emphasis box="[300,389,369,392]" italics="true" pageId="9" pageNumber="594">Betaeus</emphasis>
+<bibRefCitation author="Dana" box="[399,533,367,392]" pageId="9" pageNumber="594" refString="Dana, J. D. (1852) Conspectus Crustaceorum &amp; c. Conspectus of the Crustacea of the Exploring Expedition under Capt. C. Wilkes, U. S. N. Macroura. Proceedings of the Academy of Natural Sciences of Philadelphia, 1852, 10 - 29." type="proceedings paper" year="1852">
+Dana, 
+<number box="[477,533,367,392]" pageId="9" pageNumber="594" value="1852.0">1852</number>
+</bibRefCitation>
+(
+<bibRefCitation author="Anker" box="[551,807,367,392]" pageId="9" pageNumber="594" refString="Anker, A. &amp; Baeza, J. A. (2012) Molecular and morphological phylogeny of hooded shrimps, genera Betaeus and Betaeopsis (Decapoda, Alpheidae): testing the center of origin biogeographic model and evolution of life history traits. Molecular Phylogenetics and Evolution, 64, 401 - 415. http: // dx. doi. org / 10.1016 / j. ympev. 2012.04.015" type="journal article" year="2012">
+Anker &amp; Baeza 
+<number box="[746,807,368,392]" pageId="9" pageNumber="594" value="2012.0">2012</number>
+</bibRefCitation>
+)
+</taxonomicName>
+. More studies of the reproductive biology and social behaviour of 
+<taxonomicName box="[299,440,404,428]" class="Malacostraca" family="Alpheidae" genus="Parabetaeus" kingdom="Animalia" order="Decapoda" pageId="9" pageNumber="594" phylum="Arthropoda" rank="genus">
+<emphasis box="[299,440,404,428]" italics="true" pageId="9" pageNumber="594">Parabetaeus</emphasis>
+</taxonomicName>
+and other alpheid shrimps are needed to determine whether their cheliped polymorphism is somehow linked to their life style and social structure.
+</paragraph>
+</subSubSection>
+</treatment>
+</document>
