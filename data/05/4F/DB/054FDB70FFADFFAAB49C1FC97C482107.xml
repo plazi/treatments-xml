@@ -1,0 +1,634 @@
+<document ID-DOI="http://doi.org/10.5281/zenodo.5102483" ID-GBIF-Dataset="e56413f9-7dc9-4ebc-9085-008cb38b4dc1" ID-GBIF-Taxon="183542582" ID-ISSN="2167-8359" ID-Zenodo-Dep="5102483" approvalRequired="1" approvalRequired_for_document="1" checkinTime="1626269878614" checkinUser="diego" docAuthor="Prebus, Matthew M." docDate="2021" docId="054FDB70FFADFFAAB49C1FC97C482107" docLanguage="en" docName="PeerJ.9.e11514.pdf.imf" docOrigin="PeerJ (e 11514) 9" docSource="http://dx.doi.org/10.7717/peerj.11514" docStyle="DocumentStyle:B6346867C9D49AB2DD3A1D607021D2E9:PeerJ.2021-.journal_article" docStyleId="B6346867C9D49AB2DD3A1D607021D2E9" docStyleName="PeerJ.2021-.journal_article" docTitle="Temnothorax obtusigaster Prebus 2021, sp. nov." docType="treatment" docVersion="3" lastPageId="112" lastPageNumber="113" masterDocId="F976A308FFC7FFDAB56E1A1D79322757" masterDocTitle="Taxonomic revision of the Temnothorax salvini clade (Hymenoptera: Formicidae), with a key to the clades of New World Temnothorax" masterLastPageNumber="462" masterPageNumber="1" pageId="106" pageNumber="107" updateTime="1643436325891" updateUser="ExternalLinkService" zenodo-license-document="CC-BY-4.0">
+<mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
+<mods:titleInfo>
+<mods:title>Taxonomic revision of the Temnothorax salvini clade (Hymenoptera: Formicidae), with a key to the clades of New World Temnothorax</mods:title>
+</mods:titleInfo>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Prebus, Matthew M.</mods:namePart>
+<mods:affiliation>School of Life Sciences, Arizona State University, Tempe, Arizona, United States &amp; Department of Entomology &amp; Nematology, University of California, Davis, Davis, California, United States</mods:affiliation>
+<mods:nameIdentifier type="email">mprebus@gmail.com</mods:nameIdentifier>
+</mods:name>
+<mods:typeOfResource>text</mods:typeOfResource>
+<mods:relatedItem type="host">
+<mods:titleInfo>
+<mods:title>PeerJ</mods:title>
+</mods:titleInfo>
+<mods:part>
+<mods:date>2021</mods:date>
+<mods:detail type="series">
+<mods:title>e 11514</mods:title>
+</mods:detail>
+<mods:detail type="pubDate">
+<mods:number>2021-06-30</mods:number>
+</mods:detail>
+<mods:detail type="volume">
+<mods:number>9</mods:number>
+</mods:detail>
+<mods:extent unit="page">
+<mods:start>1</mods:start>
+<mods:end>462</mods:end>
+</mods:extent>
+</mods:part>
+</mods:relatedItem>
+<mods:location>
+<mods:url>http://dx.doi.org/10.7717/peerj.11514</mods:url>
+</mods:location>
+<mods:classification>journal article</mods:classification>
+<mods:identifier type="DOI">10.7717/peerj.11514</mods:identifier>
+<mods:identifier type="GBIF-Dataset">e56413f9-7dc9-4ebc-9085-008cb38b4dc1</mods:identifier>
+<mods:identifier type="ISSN">2167-8359</mods:identifier>
+<mods:identifier type="Zenodo-Dep">5102026</mods:identifier>
+<mods:identifier type="ZooBank">F8C827C6-7475-4AF0-B67E-E50786131273</mods:identifier>
+</mods:mods>
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.5102483" ID-GBIF-Taxon="183542582" ID-Zenodo-Dep="5102483" LSID="urn:lsid:plazi:treatment:054FDB70FFADFFAAB49C1FC97C482107" httpUri="http://treatment.plazi.org/id/054FDB70FFADFFAAB49C1FC97C482107" lastPageId="112" lastPageNumber="113" pageId="106" pageNumber="107">
+<subSubSection box="[498,916,1492,1519]" pageId="106" pageNumber="107" type="nomenclature">
+<paragraph blockId="106.[498,1048,1492,1559]" box="[498,916,1492,1519]" pageId="106" pageNumber="107">
+<heading box="[498,916,1492,1519]" level="2" pageId="106" pageNumber="107">
+<emphasis bold="true" box="[498,916,1492,1519]" pageId="106" pageNumber="107">
+<taxonomicName authority="Prebus, 2021" authorityName="Prebus" authorityYear="2021" box="[498,812,1492,1519]" class="Insecta" family="Formicidae" genus="Temnothorax" higherTaxonomySource="GBIF" kingdom="Animalia" order="Hymenoptera" pageId="106" pageNumber="107" phylum="Arthropoda" rank="species" species="obtusigaster" status="sp. nov.">
+<emphasis bold="true" box="[498,812,1492,1519]" italics="true" pageId="106" pageNumber="107">Temnothorax obtusigaster</emphasis>
+</taxonomicName>
+<taxonomicNameLabel box="[821,916,1492,1518]" pageId="106" pageNumber="107" rank="species">sp. nov.</taxonomicNameLabel>
+</emphasis>
+</heading>
+</paragraph>
+</subSubSection>
+<subSubSection box="[498,1048,1532,1559]" pageId="106" pageNumber="107" type="distribution">
+<paragraph blockId="106.[498,1048,1492,1559]" box="[498,1048,1532,1559]" pageId="106" pageNumber="107">
+Distribution: 
+<figureCitation box="[657,757,1532,1559]" captionStart="Figure 95" captionStartId="92.[116,181,1124,1146]" captionTargetBox="[90,1541,234,1111]" captionTargetId="figure-210@92.[90,1524,234,1096]" captionTargetPageId="92" captionText="Figure 95 Geographical and elevational distribution of the annexus group. (A) Temnothorax annexus (B) T. arbustus sp. nov. (C) T. balnearius sp. nov. (D) T. obtusigaster sp. nov. (E) T. quercicola sp. nov. Colored scale to the left of each map represents elevation in meters. Points in black represent the species named in each subfigure, while points in red represent other members of the species group. Type localities are represented by triangles, non-type localities are represented by circles. Bounding box in inset map shows location of main map. Full-size DOI: 10.7717/peerj.11514/fig-95" figureDoi="http://doi.org/10.5281/zenodo.5102275" httpUri="https://zenodo.org/record/5102275/files/figure.png" pageId="106" pageNumber="107">Fig. 95D</figureCitation>
+; worker &amp; gyne: 
+<figureCitation box="[963,1042,1532,1558]" captionStart="Figure 99" captionStartId="107.[524,589,1377,1399]" captionTargetBox="[498,1541,234,1364]" captionTargetId="figure-95@107.[498,1534,234,1349]" captionTargetPageId="107" captionText="Figure 99 Temnothorax obtusigaster sp. nov. (A–C) Holotype worker (CASENT0758654). (A) Fullface view. (B) Profile view. (C) Dorsal view. (D–F) Paratype gyne (CASENT0869104). (D) Full-face view. (E) Profile view. (F) Dorsal view. Scale bars 0.2 mm. Full-size DOI: 10.7717/peerj.11514/fig-99" figureDoi="http://doi.org/10.5281/zenodo.5102285" httpUri="https://zenodo.org/record/5102285/files/figure.png" pageId="106" pageNumber="107">Fig. 99</figureCitation>
+.
+</paragraph>
+</subSubSection>
+<subSubSection box="[498,1294,1580,1607]" pageId="106" pageNumber="107" type="reference_group">
+<paragraph blockId="106.[498,1294,1580,1607]" box="[498,1294,1580,1607]" pageId="106" pageNumber="107">
+<treatmentCitationGroup box="[498,1294,1580,1607]" pageId="106" pageNumber="107">
+<taxonomicName baseAuthorityName="Santschi" baseAuthorityYear="1908" box="[498,823,1580,1607]" class="Insecta" family="Formicidae" genus="Leptothorax" higherTaxonomySource="GBIF" kingdom="Animalia" order="Hymenoptera" pageId="106" pageNumber="107" phylum="Arthropoda" rank="species" species="undetermined">
+<emphasis box="[498,638,1580,1606]" italics="true" pageId="106" pageNumber="107">Leptothorax</emphasis>
+sp. nr. 
+<emphasis box="[729,823,1580,1606]" italics="true" pageId="106" pageNumber="107">silvestrii</emphasis>
+</taxonomicName>
+(in part): 
+<treatmentCitation author="Johnson RA &amp; Ward PS" box="[947,1290,1580,1607]" page="1023" pageId="106" pageNumber="107" year="2002">
+<bibRefCitation author="Johnson RA &amp; Ward PS" box="[947,1290,1580,1607]" journalOrPublisher="Journal of Biogeography" pageId="106" pageNumber="107" pagination="1009 - 1026" part="29" refId="ref271590" refString="Johnson RA, Ward PS. 2002. Biogeography and endemism of ants (Hymenoptera: Formicidae) in Baja California, Mexico: a first overview. Journal of Biogeography 29 (8): 1009 - 1026 DOI 10.1046 / j. 1365 - 2699.2002.00746. x." title="Biogeography and endemism of ants (Hymenoptera: Formicidae) in Baja California, Mexico: a first overview" type="journal article" year="2002">
+<emphasis box="[947,1216,1580,1606]" italics="true" pageId="106" pageNumber="107">
+<author box="[947,1039,1580,1606]" fns="*" inm="true" npo="*" pageId="106" pageNumber="107">Johnson</author>
+&amp; Ward, 
+<year box="[1161,1216,1580,1606]" pageId="106" pageNumber="107">2002</year>
+</emphasis>
+: 1023
+</bibRefCitation>
+</treatmentCitation>
+.
+</treatmentCitationGroup>
+</paragraph>
+</subSubSection>
+<subSubSection lastPageId="107" lastPageNumber="108" pageId="106" pageNumber="107" type="materials_examined">
+<paragraph blockId="106.[498,1541,1642,1869]" pageId="106" pageNumber="107">
+<emphasis bold="true" box="[530,834,1642,1669]" pageId="106" pageNumber="107">Type material examined:</emphasis>
+<materialsCitation ID-GBIF-Occurrence="3321861855" collectingDate="1994-02-20" collectionCode="CASC" collectorName="R. A. Johnson" country="Mexico" elevation="1100" latitude="27.6" location="Sierra San Francisco" longLatPrecision="1" longitude="-113.01667" pageId="106" pageNumber="107" specimenCode="BCS 197, CASENT0758654" specimenCount="1" stateProvince="Baja California Sur" typeStatus="holotype">
+<emphasis box="[843,1041,1642,1668]" italics="true" pageId="106" pageNumber="107">
+<typeStatus box="[843,946,1642,1668]" pageId="106" pageNumber="107">Holotype</typeStatus>
+<specimenCount box="[954,1034,1642,1668]" pageId="106" pageNumber="107" type="worker">worker</specimenCount>
+:
+</emphasis>
+<collectingCountry box="[1050,1165,1643,1669]" name="Mexico" pageId="106" pageNumber="107">MEXICO</collectingCountry>
+: 
+<collectingRegion box="[1176,1402,1642,1669]" country="Mexico" name="Baja California Sur" pageId="106" pageNumber="107">Baja California Sur</collectingRegion>
+: 
+<locationDeviation box="[1415,1519,1642,1669]" pageId="106" pageNumber="107">
+<quantity box="[1415,1496,1642,1669]" metricMagnitude="2" metricUnit="m" metricValue="4.0" pageId="106" pageNumber="107" unit="km" value="0.4">0.4 km</quantity>
+S
+</locationDeviation>
+<location LSID="urn:lsid:plazi:treatment:054FDB70FFADFFAAB49C1FC97C482107:88393CBDFFADFFB0B49C1C8F7BD621FB" box="[498,740,1682,1708]" country="Mexico" latitude="27.6" longLatPrecision="1" longitude="-113.01667" name="Sierra San Francisco" pageId="106" pageNumber="107" stateProvince="Baja California Sur">Sierra San Francisco</location>
+, 
+<geoCoordinate box="[752,904,1678,1709]" degrees="27.600000" direction="north" orientation="latitude" pageId="106" pageNumber="107" precision="1" value="27.6">
+27.600000 
+<emphasis box="[871,881,1678,1696]" italics="true" pageId="106" pageNumber="107">
+<superScript attach="right" box="[871,881,1678,1696]" fontSize="8" pageId="106" pageNumber="107">°</superScript>
+</emphasis>
+N
+</geoCoordinate>
+<geoCoordinate box="[913,1086,1678,1709]" degrees="113.016667" direction="west" orientation="longitude" pageId="106" pageNumber="107" precision="1" value="-113.01667">
+113.016667 
+<emphasis box="[1045,1055,1678,1696]" italics="true" pageId="106" pageNumber="107">
+<superScript attach="right" box="[1045,1055,1678,1696]" fontSize="8" pageId="106" pageNumber="107">°</superScript>
+</emphasis>
+W
+</geoCoordinate>
+, 
+<quantity box="[1100,1196,1682,1709]" metricMagnitude="3" metricUnit="m" metricValue="1.1" pageId="106" pageNumber="107" unit="m" value="1100.0">
+<elevation box="[1100,1196,1682,1709]" metricMagnitude="3" metricUnit="m" metricValue="1.1" pageId="106" pageNumber="107" unit="m" value="1100.0">1,100 m</elevation>
+</quantity>
+, 
+<date box="[1210,1418,1682,1708]" pageId="106" pageNumber="107" value="1994-02-20">
+<collectingDate box="[1210,1418,1682,1708]" pageId="106" pageNumber="107" value="1994-02-20">20 February 1994</collectingDate>
+</date>
+, 
+<collectorName pageId="106" pageNumber="107">R.A. Johnson</collectorName>
+<specimenCode box="[604,720,1722,1748]" pageId="106" pageNumber="107">#BCS 197</specimenCode>
+, 6 m high 
+<quantity box="[849,908,1722,1749]" metricMagnitude="-2" metricUnit="m" metricValue="3.0" pageId="106" pageNumber="107" unit="cm" value="3.0">3 cm</quantity>
+dead branch 
+<taxonomicName box="[1071,1309,1722,1749]" class="Magnoliopsida" family="Fagaceae" genus="Quercus" kingdom="Plantae" order="Fagales" pageId="106" pageNumber="107" phylum="Tracheophyta" rank="species" species="oblongifolia">
+<emphasis box="[1071,1309,1722,1749]" italics="true" pageId="106" pageNumber="107">Quercus oblongifolia</emphasis>
+</taxonomicName>
+(
+<specimenCode box="[1325,1536,1722,1749]" pageId="106" pageNumber="107">CASENT0758654</specimenCode>
+, bottom specimen on pin) [
+<collectionCode box="[814,895,1761,1788]" pageId="106" pageNumber="107">CASC</collectionCode>
+].
+</materialsCitation>
+</paragraph>
+<paragraph blockId="106.[498,1541,1642,1869]" lastBlockId="107.[498,1542,1512,1857]" lastPageId="107" lastPageNumber="108" pageId="106" pageNumber="107">
+<materialsCitation ID-GBIF-Occurrence="3321861888" collectionCode="CASC" pageId="106" pageNumber="107" specimenCount="1" specimenCount-worker="1" typeStatus="paratype">
+<emphasis box="[530,852,1802,1828]" italics="true" pageId="106" pageNumber="107">
+<typeStatus box="[530,632,1803,1828]" pageId="106" pageNumber="107">Paratype</typeStatus>
+workers and gyne:
+</emphasis>
+same pin as 
+<typeStatus box="[1008,1112,1802,1828]" pageId="106" pageNumber="107">holotype</typeStatus>
+, 
+<specimenCount box="[1124,1229,1802,1828]" pageId="106" pageNumber="107" type="worker">1 worker</specimenCount>
+(CASENT0758654, top specimen on pin) [
+<collectionCode box="[720,801,1841,1868]" pageId="106" pageNumber="107">CASC</collectionCode>
+]
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="3321861700" collectingDate="1994-02-20" collectionCode="CASC, UCDC, MCZC" collectorName="R. A. Johnson" country="Mexico" elevation="1100" lastPageId="107" lastPageNumber="108" latitude="27.6" location="Sierra San Francisco" longLatPrecision="1" longitude="-113.01667" pageId="106" pageNumber="107" specimenCount="10" specimenCount-worker="10" stateProvince="Baja California Sur" typeStatus="paratype">
+same data as holotype, 1 dealate gyne, 
+<specimenCount box="[1278,1394,1842,1868]" pageId="106" pageNumber="107" type="worker">2 workers</specimenCount>
+(CASENT0869104) [
+<collectionCode box="[741,820,1512,1539]" pageId="107" pageNumber="108">CASC</collectionCode>
+] 
+<specimenCount box="[835,951,1512,1539]" pageId="107" pageNumber="108" type="worker">2 workers</specimenCount>
+(CASENT0104939) [
+<collectionCode box="[1201,1289,1512,1539]" country="USA" httpUri="http://grbio.org/cool/kd99-229r" name="R. M. Bohart Museum of Entomology" pageId="107" pageNumber="108" type="Museum">UCDC</collectionCode>
+] 
+<specimenCount box="[1304,1420,1512,1539]" pageId="107" pageNumber="108" type="worker">3 workers</specimenCount>
+(MCZENT00561743) [
+<collectionCode box="[764,852,1552,1579]" pageId="107" pageNumber="108">MCZC</collectionCode>
+] 
+<specimenCount box="[868,983,1552,1578]" pageId="107" pageNumber="108" type="worker">3 workers</specimenCount>
+(CASENT0758322) [
+<collectionCode box="[1234,1322,1552,1579]" pageId="107" pageNumber="108">MCZC</collectionCode>
+]
+</materialsCitation>
+</paragraph>
+<caption ID-DOI="http://doi.org/10.5281/zenodo.5102285" ID-Zenodo-Dep="5102285" httpUri="https://zenodo.org/record/5102285/files/figure.png" pageId="107" pageNumber="108" startId="107.[524,589,1377,1399]" targetBox="[498,1541,234,1364]" targetPageId="107">
+<paragraph blockId="107.[524,1516,1376,1458]" pageId="107" pageNumber="108">
+<emphasis bold="true" box="[524,978,1376,1399]" pageId="107" pageNumber="108">
+Figure 99 
+<taxonomicName authority="Prebus, 2021" authorityName="Prebus" authorityYear="2021" box="[633,891,1376,1398]" class="Insecta" family="Formicidae" genus="Temnothorax" higherTaxonomySource="GBIF" kingdom="Animalia" order="Hymenoptera" pageId="107" pageNumber="108" phylum="Arthropoda" rank="species" species="obtusigaster" status="sp. nov.">
+<emphasis bold="true" box="[633,891,1376,1398]" italics="true" pageId="107" pageNumber="108">Temnothorax obtusigaster</emphasis>
+</taxonomicName>
+<taxonomicNameLabel box="[900,978,1377,1398]" pageId="107" pageNumber="108" rank="species">sp. nov.</taxonomicNameLabel>
+</emphasis>
+(A–C) Holotype worker (CASENT0758654). (A) Fullface view. (B) Profile view. (C) Dorsal view. (D–F) Paratype gyne (CASENT0869104). (D) Full-face view. (E) Profile view. (F) Dorsal view. Scale bars 0.2 mm. Full-size DOI: 10.7717/peerj.11514/fig-99
+</paragraph>
+</caption>
+<paragraph blockId="107.[498,1542,1512,1857]" pageId="107" pageNumber="108">
+<materialsCitation ID-GBIF-Occurrence="3321861525" collectingDate="1969-11-09" collectionCode="RAJC, LACM" collectorName="E. M. Fisher &amp; E. L. Sleeper" country="Mexico" elevation="1100" latitude="27.6" location="Loreto" longLatPrecision="1" longitude="-113.01667" pageId="107" pageNumber="108" specimenCount="102" specimenCount-worker="102" stateProvince="Baja California Sur">
+<emphasis bold="true" box="[530,886,1592,1618]" pageId="107" pageNumber="108">
+<typeStatus box="[530,881,1592,1618]" isOtherTypeStatus="true" pageId="107" pageNumber="108">Non-type material examined</typeStatus>
+:
+</emphasis>
+same data as holotype, 
+<specimenCount box="[1165,1307,1592,1618]" pageId="107" pageNumber="108" type="worker">100 workers</specimenCount>
+(CASENT0869070- CASENT0869103) [
+<collectionCode box="[729,805,1631,1658]" pageId="107" pageNumber="108">RAJC</collectionCode>
+].
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3321861426" collectingDate="1969-11-09" collectionCode="RAJC, LACM" collectorName="E. M. Fisher &amp; E. L. Sleeper" country="Mexico" elevation="1100" latitude="27.6" location="Loreto" longLatPrecision="1" longitude="-113.01667" pageId="107" pageNumber="108" specimenCount="102" specimenCount-worker="102" stateProvince="Baja California Sur">
+<collectingCountry box="[822,937,1632,1658]" name="Mexico" pageId="107" pageNumber="108">MEXICO</collectingCountry>
+: 
+<collectingRegion box="[947,1169,1632,1658]" country="Mexico" name="Baja California Sur" pageId="107" pageNumber="108">Baja California Sur</collectingRegion>
+: 
+<quantity box="[1180,1253,1632,1658]" metricMagnitude="4" metricUnit="m" metricValue="2.7" pageId="107" pageNumber="108" unit="km" value="27.0">27 km</quantity>
+SW 
+<location LSID="urn:lsid:plazi:treatment:054FDB70FFADFFAAB49C1FC97C482107:88393CBDFFACFFB1B0721C7D7C59212D" box="[1308,1387,1632,1658]" country="Mexico" name="Loreto" pageId="107" pageNumber="108" stateProvince="Baja California Sur">Loreto</location>
+, 
+<date pageId="107" pageNumber="108" value="1969-11-09">
+<collectingDate pageId="107" pageNumber="108" value="1969-11-09">9 November 1969</collectingDate>
+</date>
+, 
+<collectorName box="[569,705,1672,1698]" pageId="107" pageNumber="108">E.M. Fisher</collectorName>
+&amp; 
+<collectorName box="[743,883,1672,1698]" pageId="107" pageNumber="108">E.L. Sleeper</collectorName>
+, 
+<specimenCount box="[895,1000,1672,1698]" pageId="107" pageNumber="108" type="worker">1 worker</specimenCount>
+(LACMENT323251) [
+<collectionCode box="[1264,1352,1671,1698]" country="USA" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34802" lsid="urn:lsid:biocol.org:col:34802" name="Natural History Museum of Los Angeles County" pageId="107" pageNumber="108" type="Museum">LACM</collectionCode>
+] 
+<specimenCount box="[1367,1472,1672,1698]" pageId="107" pageNumber="108" type="worker">1 worker</specimenCount>
+(LACMENT323250) [
+<collectionCode box="[754,844,1711,1738]" country="USA" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34802" lsid="urn:lsid:biocol.org:col:34802" name="Natural History Museum of Los Angeles County" pageId="107" pageNumber="108" type="Museum">LACM</collectionCode>
+]
+</materialsCitation>
+.
+</paragraph>
+</subSubSection>
+<subSubSection box="[530,1425,1751,1778]" pageId="107" pageNumber="108" type="distribution">
+<paragraph blockId="107.[498,1542,1512,1857]" box="[530,1425,1751,1778]" pageId="107" pageNumber="108">
+<emphasis bold="true" box="[530,755,1751,1778]" pageId="107" pageNumber="108">Geographic range:</emphasis>
+Low to mid elevations of 
+<collectingRegion box="[1065,1289,1751,1778]" country="Mexico" name="Baja California Sur" pageId="107" pageNumber="108">Baja California Sur</collectingRegion>
+(
+<figureCitation box="[1308,1408,1751,1778]" captionStart="Figure 95" captionStartId="92.[116,181,1124,1146]" captionTargetBox="[90,1541,234,1111]" captionTargetId="figure-210@92.[90,1524,234,1096]" captionTargetPageId="92" captionText="Figure 95 Geographical and elevational distribution of the annexus group. (A) Temnothorax annexus (B) T. arbustus sp. nov. (C) T. balnearius sp. nov. (D) T. obtusigaster sp. nov. (E) T. quercicola sp. nov. Colored scale to the left of each map represents elevation in meters. Points in black represent the species named in each subfigure, while points in red represent other members of the species group. Type localities are represented by triangles, non-type localities are represented by circles. Bounding box in inset map shows location of main map. Full-size DOI: 10.7717/peerj.11514/fig-95" figureDoi="http://doi.org/10.5281/zenodo.5102275" httpUri="https://zenodo.org/record/5102275/files/figure.png" pageId="107" pageNumber="108">Fig. 95D</figureCitation>
+).
+</paragraph>
+</subSubSection>
+<subSubSection lastPageId="108" lastPageNumber="109" pageId="107" pageNumber="108" type="diagnosis">
+<paragraph blockId="107.[498,1542,1512,1857]" lastBlockId="108.[498,1542,234,1935]" lastPageId="108" lastPageNumber="109" pageId="107" pageNumber="108">
+<emphasis bold="true" box="[530,754,1791,1817]" pageId="107" pageNumber="108">Worker diagnosis:</emphasis>
+<taxonomicName authority="Prebus, 2021" authorityName="Prebus" authorityYear="2021" box="[763,1066,1791,1817]" class="Insecta" family="Formicidae" genus="Temnothorax" higherTaxonomySource="GBIF" kingdom="Animalia" order="Hymenoptera" pageId="107" pageNumber="108" phylum="Arthropoda" rank="species" species="obtusigaster" status="sp. nov.">
+<emphasis box="[763,1066,1791,1817]" italics="true" pageId="107" pageNumber="108">Temnothorax obtusigaster</emphasis>
+</taxonomicName>
+<taxonomicNameLabel box="[1074,1166,1792,1818]" pageId="107" pageNumber="108" rank="species">sp. nov.</taxonomicNameLabel>
+can be separated from other species in the 
+<taxonomicName baseAuthorityName="Forel" baseAuthorityYear="1899" box="[665,740,1831,1857]" class="Insecta" family="Formicidae" genus="Temnothorax" higherTaxonomySource="GBIF" kingdom="Animalia" order="Hymenoptera" pageId="107" pageNumber="108" phylum="Arthropoda" rank="species" species="salvini">
+<emphasis box="[665,740,1831,1857]" italics="true" pageId="107" pageNumber="108">salvini</emphasis>
+</taxonomicName>
+clade by the following character combination: head relatively broad (CI 86–90); erect setae present on gula; metanotal groove absent; propodeum not depressed; propodeum bearing setae; propodeal spines short, slightly shorter than the propodeal declivity (PSI 28–29); hind femora strongly incrassate (FI 333–406); petiole with short peduncle: peduncle comprising about a third of the total length of the petiole; petiolar node erect and subquadrate, not overhanging the caudal cylinder in profile view; posterior margin of petiolar node indistinct in profile view, much shorter than the dorsal margin; postpetiole narrow (PWI 160–173); first gastral tergite areolate; integument yellow; dorsum of head, mesosoma, waist segments and gaster with erect, short, blunt-tipped setae; legs without erect setae.
+</paragraph>
+<paragraph blockId="108.[498,1542,234,1935]" pageId="108" pageNumber="109">
+<emphasis bold="true" box="[530,719,593,619]" pageId="108" pageNumber="109">Similar species:</emphasis>
+<emphasis italics="true" pageId="108" pageNumber="109">
+<taxonomicName box="[727,1054,593,619]" class="Insecta" family="Formicidae" genus="Temnothorax" higherTaxonomySource="GBIF" kingdom="Animalia" order="Hymenoptera" pageId="108" pageNumber="109" phylum="Arthropoda" rank="species" species="anaphalantus">Temnothorax anaphalantus</taxonomicName>
+, 
+<taxonomicName box="[1066,1176,593,619]" class="Insecta" family="Formicidae" genus="Temnothorax" higherTaxonomySource="GBIF" kingdom="Animalia" order="Hymenoptera" pageId="108" pageNumber="109" phylum="Arthropoda" rank="species" species="andrei">T. andrei</taxonomicName>
+, 
+<taxonomicName box="[1189,1330,594,619]" class="Insecta" family="Formicidae" genus="Temnothorax" higherTaxonomySource="GBIF" kingdom="Animalia" order="Hymenoptera" pageId="108" pageNumber="109" phylum="Arthropoda" rank="species" species="caguatan">T. caguatan</taxonomicName>
+, 
+<taxonomicName box="[1343,1486,594,619]" class="Insecta" family="Formicidae" genus="Temnothorax" higherTaxonomySource="GBIF" kingdom="Animalia" order="Hymenoptera" pageId="108" pageNumber="109" phylum="Arthropoda" rank="species" species="carinatus">T. carinatus</taxonomicName>
+, 
+<taxonomicName box="[498,691,633,659]" class="Insecta" family="Formicidae" genus="Temnothorax" higherTaxonomySource="GBIF" kingdom="Animalia" order="Hymenoptera" pageId="108" pageNumber="109" phylum="Arthropoda" rank="species" species="cokendolpheri">T. cokendolpheri</taxonomicName>
+, 
+<taxonomicName box="[702,804,633,658]" class="Insecta" family="Formicidae" genus="Temnothorax" higherTaxonomySource="GBIF" kingdom="Animalia" order="Hymenoptera" pageId="108" pageNumber="109" phylum="Arthropoda" rank="species" species="nitens">T. nitens</taxonomicName>
+, 
+<taxonomicName authority="Prebus, 2021" authorityName="Prebus" authorityYear="2021" box="[815,951,633,659]" class="Insecta" family="Formicidae" genus="Temnothorax" higherTaxonomySource="GBIF" kingdom="Animalia" order="Hymenoptera" pageId="108" pageNumber="109" phylum="Arthropoda" rank="species" species="pilicornis" status="sp. nov.">T. pilicornis</taxonomicName>
+</emphasis>
+<taxonomicNameLabel box="[958,1049,633,659]" pageId="108" pageNumber="109" rank="species">sp. nov.</taxonomicNameLabel>
+, 
+<emphasis italics="true" pageId="108" pageNumber="109">
+<taxonomicName box="[1060,1232,633,659]" class="Insecta" family="Formicidae" genus="Temnothorax" higherTaxonomySource="GBIF" kingdom="Animalia" order="Hymenoptera" pageId="108" pageNumber="109" phylum="Arthropoda" rank="species" species="pseudandrei">T. pseudandrei</taxonomicName>
+,, 
+<taxonomicName baseAuthorityName="Mackay" baseAuthorityYear="2000" box="[1257,1377,633,658]" class="Insecta" family="Formicidae" genus="Temnothorax" higherTaxonomySource="GBIF" kingdom="Animalia" order="Hymenoptera" pageId="108" pageNumber="109" phylum="Arthropoda" rank="species" species="rugosus">T. rugosus</taxonomicName>
+, 
+<taxonomicName baseAuthorityName="Wheeler" baseAuthorityYear="1903" box="[1388,1538,633,659]" class="Insecta" family="Formicidae" genus="Temnothorax" higherTaxonomySource="GBIF" kingdom="Animalia" order="Hymenoptera" pageId="108" pageNumber="109" phylum="Arthropoda" rank="species" species="subditivus">T. subditivus</taxonomicName>
+, 
+<taxonomicName baseAuthorityName="Baroni Urbani" baseAuthorityYear="1978" box="[498,682,673,699]" class="Insecta" family="Formicidae" genus="Temnothorax" higherTaxonomySource="GBIF" kingdom="Animalia" order="Hymenoptera" pageId="108" pageNumber="109" phylum="Arthropoda" rank="species" species="tenuisculptus">T. tenuisculptus</taxonomicName>
+<taxonomicName box="[690,790,673,699]" class="Insecta" family="Formicidae" genus="Temnothorax" higherTaxonomySource="GBIF" kingdom="Animalia" order="Hymenoptera" pageId="108" pageNumber="109" phylum="Arthropoda" rank="species" species="wardi">T. wardi</taxonomicName>
+</emphasis>
+, species of the 
+<taxonomicName baseAuthorityName="Santschi" baseAuthorityYear="1908" box="[972,1066,673,699]" class="Insecta" family="Formicidae" genus="Temnothorax" higherTaxonomySource="GBIF" kingdom="Animalia" order="Hymenoptera" pageId="108" pageNumber="109" phylum="Arthropoda" rank="species" species="silvestrii">
+<emphasis box="[972,1066,673,699]" italics="true" pageId="108" pageNumber="109">silvestrii</emphasis>
+</taxonomicName>
+group, other members of the 
+<taxonomicName baseAuthorityName="Baroni Urbani" baseAuthorityYear="1931" box="[1423,1519,673,698]" class="Insecta" family="Formicidae" genus="Temnothorax" higherTaxonomySource="GBIF" kingdom="Animalia" order="Hymenoptera" pageId="108" pageNumber="109" phylum="Arthropoda" rank="species" species="annexus">
+<emphasis box="[1423,1519,673,698]" italics="true" pageId="108" pageNumber="109">annexus</emphasis>
+</taxonomicName>
+group. 
+<taxonomicName authority="Prebus, 2021" authorityName="Prebus" authorityYear="2021" box="[582,885,712,738]" class="Insecta" family="Formicidae" genus="Temnothorax" higherTaxonomySource="GBIF" kingdom="Animalia" order="Hymenoptera" pageId="108" pageNumber="109" phylum="Arthropoda" rank="species" species="obtusigaster" status="sp. nov.">
+<emphasis box="[582,885,712,738]" italics="true" pageId="108" pageNumber="109">Temnothorax obtusigaster</emphasis>
+</taxonomicName>
+<taxonomicNameLabel box="[894,985,713,739]" pageId="108" pageNumber="109" rank="species">sp. nov.</taxonomicNameLabel>
+can be separated from all of the above species, except for 
+<emphasis box="[624,1065,752,778]" italics="true" pageId="108" pageNumber="109">
+<taxonomicName box="[624,818,752,778]" class="Insecta" family="Formicidae" genus="Temnothorax" higherTaxonomySource="GBIF" kingdom="Animalia" order="Hymenoptera" pageId="108" pageNumber="109" phylum="Arthropoda" rank="species" species="anaphalantus">T. anaphalantus</taxonomicName>
+, 
+<taxonomicName baseAuthorityName="Mackay" baseAuthorityYear="2000" box="[830,952,753,778]" class="Insecta" family="Formicidae" genus="Temnothorax" higherTaxonomySource="GBIF" kingdom="Animalia" order="Hymenoptera" pageId="108" pageNumber="109" phylum="Arthropoda" rank="species" species="rugosus">T. rugosus</taxonomicName>
+, 
+<taxonomicName box="[965,1065,752,778]" class="Insecta" family="Formicidae" genus="Temnothorax" higherTaxonomySource="GBIF" kingdom="Animalia" order="Hymenoptera" pageId="108" pageNumber="109" phylum="Arthropoda" rank="species" species="wardi">T. wardi</taxonomicName>
+</emphasis>
+and other members of the 
+<taxonomicName baseAuthorityName="Baroni Urbani" baseAuthorityYear="1931" box="[1390,1486,753,778]" class="Insecta" family="Formicidae" genus="Temnothorax" higherTaxonomySource="GBIF" kingdom="Animalia" order="Hymenoptera" pageId="108" pageNumber="109" phylum="Arthropoda" rank="species" species="annexus">
+<emphasis box="[1390,1486,753,778]" italics="true" pageId="108" pageNumber="109">annexus</emphasis>
+</taxonomicName>
+group, by the medially emarginate anterior clypeal margin. Furthermore, it can be distinguished from 
+<taxonomicName box="[724,860,833,858]" class="Insecta" family="Formicidae" genus="Temnothorax" higherTaxonomySource="GBIF" kingdom="Animalia" order="Hymenoptera" pageId="108" pageNumber="109" phylum="Arthropoda" rank="species" species="caguatan">
+<emphasis box="[724,860,833,858]" italics="true" pageId="108" pageNumber="109">T. caguatan</emphasis>
+</taxonomicName>
+by the 12-segmented antennae, which are 11-segmented in the latter. The erect, subquadrate petiolar node of 
+<taxonomicName authority="Prebus, 2021" authorityName="Prebus" authorityYear="2021" box="[1070,1237,872,898]" class="Insecta" family="Formicidae" genus="Temnothorax" higherTaxonomySource="GBIF" kingdom="Animalia" order="Hymenoptera" pageId="108" pageNumber="109" phylum="Arthropoda" rank="species" species="obtusigaster" status="sp. nov.">
+<emphasis box="[1070,1237,872,898]" italics="true" pageId="108" pageNumber="109">T. obtusigaster</emphasis>
+</taxonomicName>
+<taxonomicNameLabel box="[1243,1331,872,898]" pageId="108" pageNumber="109" rank="species">sp. nov.</taxonomicNameLabel>
+contrasts with the node of 
+<taxonomicName baseAuthorityName="Wheeler" baseAuthorityYear="1903" box="[597,746,912,938]" class="Insecta" family="Formicidae" genus="Temnothorax" higherTaxonomySource="GBIF" kingdom="Animalia" order="Hymenoptera" pageId="108" pageNumber="109" phylum="Arthropoda" rank="species" species="subditivus">
+<emphasis box="[597,746,912,938]" italics="true" pageId="108" pageNumber="109">T. subditivus</emphasis>
+</taxonomicName>
+, which is squamiform, and the nodes of 
+<taxonomicName baseAuthorityName="Mackay" baseAuthorityYear="2000" box="[1232,1351,912,937]" class="Insecta" family="Formicidae" genus="Temnothorax" higherTaxonomySource="GBIF" kingdom="Animalia" order="Hymenoptera" pageId="108" pageNumber="109" phylum="Arthropoda" rank="species" species="rugosus">
+<emphasis box="[1232,1351,912,937]" italics="true" pageId="108" pageNumber="109">T. rugosus</emphasis>
+</taxonomicName>
+and 
+<taxonomicName box="[1413,1513,912,938]" class="Insecta" family="Formicidae" genus="Temnothorax" higherTaxonomySource="GBIF" kingdom="Animalia" order="Hymenoptera" pageId="108" pageNumber="109" phylum="Arthropoda" rank="species" species="wardi">
+<emphasis box="[1413,1513,912,938]" italics="true" pageId="108" pageNumber="109">T. wardi</emphasis>
+</taxonomicName>
+, which are cuneiform to subcuneiform. The dorsal margin of the mesosoma is continuous in 
+<taxonomicName authority="Prebus, 2021" authorityName="Prebus" authorityYear="2021" box="[530,700,991,1017]" class="Insecta" family="Formicidae" genus="Temnothorax" higherTaxonomySource="GBIF" kingdom="Animalia" order="Hymenoptera" pageId="108" pageNumber="109" phylum="Arthropoda" rank="species" species="obtusigaster" status="sp. nov.">
+<emphasis box="[530,700,991,1017]" italics="true" pageId="108" pageNumber="109">T. obtusigaster</emphasis>
+</taxonomicName>
+<taxonomicNameLabel box="[709,800,992,1018]" pageId="108" pageNumber="109" rank="species">sp. nov.</taxonomicNameLabel>
+(as opposed to sinuate with a depressed propodeum in 
+<taxonomicName baseAuthorityName="Baroni Urbani" baseAuthorityYear="1978" box="[498,682,1031,1057]" class="Insecta" family="Formicidae" genus="Temnothorax" higherTaxonomySource="GBIF" kingdom="Animalia" order="Hymenoptera" pageId="108" pageNumber="109" phylum="Arthropoda" rank="species" species="tenuisculptus">
+<emphasis box="[498,682,1031,1057]" italics="true" pageId="108" pageNumber="109">T. tenuisculptus</emphasis>
+</taxonomicName>
+). The narrow postpetiole contrasts with the very broad postpetiole of 
+<taxonomicName authority="Prebus, 2021" authorityName="Prebus" authorityYear="2021" box="[498,634,1071,1097]" class="Insecta" family="Formicidae" genus="Temnothorax" higherTaxonomySource="GBIF" kingdom="Animalia" order="Hymenoptera" pageId="108" pageNumber="109" phylum="Arthropoda" rank="species" species="pilicornis" status="sp. nov.">
+<emphasis box="[498,634,1071,1097]" italics="true" pageId="108" pageNumber="109">T. pilicornis</emphasis>
+</taxonomicName>
+<taxonomicNameLabel box="[641,731,1072,1098]" pageId="108" pageNumber="109" rank="species">sp. nov.</taxonomicNameLabel>
+and 
+<taxonomicName box="[788,886,1071,1097]" class="Insecta" family="Formicidae" genus="Temnothorax" higherTaxonomySource="GBIF" kingdom="Animalia" order="Hymenoptera" pageId="108" pageNumber="109" phylum="Arthropoda" rank="species" species="wardi">
+<emphasis box="[788,886,1071,1097]" italics="true" pageId="108" pageNumber="109">T. wardi</emphasis>
+</taxonomicName>
+(PWI 160–173 vs.&gt; 180). The massively incrassate hind femora will separate 
+<taxonomicName authority="Prebus, 2021" authorityName="Prebus" authorityYear="2021" box="[744,914,1111,1137]" class="Insecta" family="Formicidae" genus="Temnothorax" higherTaxonomySource="GBIF" kingdom="Animalia" order="Hymenoptera" pageId="108" pageNumber="109" phylum="Arthropoda" rank="species" species="obtusigaster" status="sp. nov.">
+<emphasis box="[744,914,1111,1137]" italics="true" pageId="108" pageNumber="109">T. obtusigaster</emphasis>
+</taxonomicName>
+<taxonomicNameLabel box="[922,1014,1111,1137]" pageId="108" pageNumber="109" rank="species">sp. nov.</taxonomicNameLabel>
+from all species listed above (except for 
+<emphasis box="[498,982,1151,1177]" italics="true" pageId="108" pageNumber="109">
+<taxonomicName baseAuthorityName="Wheeler" baseAuthorityYear="1903" box="[498,650,1151,1177]" class="Insecta" family="Formicidae" genus="Temnothorax" higherTaxonomySource="GBIF" kingdom="Animalia" order="Hymenoptera" pageId="108" pageNumber="109" phylum="Arthropoda" rank="species" species="subditivus">T. subditivus</taxonomicName>
+, 
+<taxonomicName baseAuthorityName="Baroni Urbani" baseAuthorityYear="1978" box="[663,849,1151,1177]" class="Insecta" family="Formicidae" genus="Temnothorax" higherTaxonomySource="GBIF" kingdom="Animalia" order="Hymenoptera" pageId="108" pageNumber="109" phylum="Arthropoda" rank="species" species="tenuisculptus">T. tenuisculptus</taxonomicName>
+, 
+<taxonomicName baseAuthorityName="Mackay" baseAuthorityYear="2000" box="[862,982,1152,1177]" class="Insecta" family="Formicidae" genus="Temnothorax" higherTaxonomySource="GBIF" kingdom="Animalia" order="Hymenoptera" pageId="108" pageNumber="109" phylum="Arthropoda" rank="species" species="rugosus">T. rugosus</taxonomicName>
+</emphasis>
+, and the 
+<taxonomicName baseAuthorityName="Baroni Urbani" baseAuthorityYear="1931" box="[1094,1190,1152,1177]" class="Insecta" family="Formicidae" genus="Temnothorax" higherTaxonomySource="GBIF" kingdom="Animalia" order="Hymenoptera" pageId="108" pageNumber="109" phylum="Arthropoda" rank="species" species="annexus">
+<emphasis box="[1094,1190,1152,1177]" italics="true" pageId="108" pageNumber="109">annexus</emphasis>
+</taxonomicName>
+group), which have less incrassate hind femora (FI 
+<quantity box="[819,949,1191,1217]" metricMagnitude="0" metricUnit="m" metricValue="9.385299999999999" metricValueMax="10.3124" metricValueMin="8.4582" pageId="108" pageNumber="109" unit="in" value="369.5" valueMax="406.0" valueMin="333.0">333–406 in</quantity>
+<taxonomicName authority="Prebus, 2021" authorityName="Prebus" authorityYear="2021" box="[959,1128,1191,1217]" class="Insecta" family="Formicidae" genus="Temnothorax" higherTaxonomySource="GBIF" kingdom="Animalia" order="Hymenoptera" pageId="108" pageNumber="109" phylum="Arthropoda" rank="species" species="obtusigaster" status="sp. nov.">
+<emphasis box="[959,1128,1191,1217]" italics="true" pageId="108" pageNumber="109">T. obtusigaster</emphasis>
+</taxonomicName>
+<taxonomicNameLabel box="[1137,1229,1191,1217]" pageId="108" pageNumber="109" rank="species">sp. nov.</taxonomicNameLabel>
+vs. &lt;300). Within the 
+<taxonomicName baseAuthorityName="Baroni Urbani" baseAuthorityYear="1931" box="[498,594,1231,1256]" class="Insecta" family="Formicidae" genus="Temnothorax" higherTaxonomySource="GBIF" kingdom="Animalia" order="Hymenoptera" pageId="108" pageNumber="109" phylum="Arthropoda" rank="species" species="annexus">
+<emphasis box="[498,594,1231,1256]" italics="true" pageId="108" pageNumber="109">annexus</emphasis>
+</taxonomicName>
+group, the following characters distinguish 
+<taxonomicName authority="Prebus, 2021" authorityName="Prebus" authorityYear="2021" box="[1109,1278,1230,1256]" class="Insecta" family="Formicidae" genus="Temnothorax" higherTaxonomySource="GBIF" kingdom="Animalia" order="Hymenoptera" pageId="108" pageNumber="109" phylum="Arthropoda" rank="species" species="obtusigaster" status="sp. nov.">
+<emphasis box="[1109,1278,1230,1256]" italics="true" pageId="108" pageNumber="109">T. obtusigaster</emphasis>
+</taxonomicName>
+<taxonomicNameLabel box="[1286,1377,1231,1257]" pageId="108" pageNumber="109" rank="species">sp. nov.</taxonomicNameLabel>
+from its close relatives: gular region with erect setae, as opposed to absent (
+<taxonomicName authority="Prebus, 2021" authorityName="Prebus" authorityYear="2021" box="[1221,1370,1270,1296]" class="Insecta" family="Formicidae" genus="Temnothorax" higherTaxonomySource="GBIF" kingdom="Animalia" order="Hymenoptera" pageId="108" pageNumber="109" phylum="Arthropoda" rank="species" species="quercicola" status="sp. nov.">
+<emphasis box="[1221,1370,1270,1296]" italics="true" pageId="108" pageNumber="109">T. quercicola</emphasis>
+</taxonomicName>
+<taxonomicNameLabel box="[1379,1472,1271,1297]" pageId="108" pageNumber="109" rank="species">sp. nov.</taxonomicNameLabel>
+) or present but decumbent (
+<taxonomicName baseAuthorityName="Baroni Urbani" baseAuthorityYear="1931" box="[789,917,1311,1336]" class="Insecta" family="Formicidae" genus="Temnothorax" higherTaxonomySource="GBIF" kingdom="Animalia" order="Hymenoptera" pageId="108" pageNumber="109" phylum="Arthropoda" rank="species" species="annexus">
+<emphasis box="[789,917,1311,1336]" italics="true" pageId="108" pageNumber="109">T. annexus</emphasis>
+</taxonomicName>
+); head relatively broad (CI 86–90 vs. 
+<quantity box="[1364,1467,1310,1336]" metricMagnitude="0" metricUnit="m" metricValue="2.0827999999999998" metricValueMax="2.1336" metricValueMin="2.032" pageId="108" pageNumber="109" unit="in" value="82.0" valueMax="84.0" valueMin="80.0">80–84 in</quantity>
+<taxonomicName authority="Prebus, 2021" authorityName="Prebus" authorityYear="2021" box="[498,651,1350,1376]" class="Insecta" family="Formicidae" genus="Temnothorax" higherTaxonomySource="GBIF" kingdom="Animalia" order="Hymenoptera" pageId="108" pageNumber="109" phylum="Arthropoda" rank="species" species="balnearius" status="sp. nov.">
+<emphasis box="[498,651,1350,1376]" italics="true" pageId="108" pageNumber="109">T. balnearius</emphasis>
+</taxonomicName>
+<taxonomicNameLabel box="[660,755,1351,1377]" pageId="108" pageNumber="109" rank="species">sp. nov.</taxonomicNameLabel>
+); a petiole with an indistinct posterior face in lateral view (much shorter than the dorsal face) will separate 
+<taxonomicName authority="Prebus, 2021" authorityName="Prebus" authorityYear="2021" box="[979,1147,1390,1416]" class="Insecta" family="Formicidae" genus="Temnothorax" higherTaxonomySource="GBIF" kingdom="Animalia" order="Hymenoptera" pageId="108" pageNumber="109" phylum="Arthropoda" rank="species" species="obtusigaster" status="sp. nov.">
+<emphasis box="[979,1147,1390,1416]" italics="true" pageId="108" pageNumber="109">T. obtusigaster</emphasis>
+</taxonomicName>
+<taxonomicNameLabel box="[1153,1242,1390,1416]" pageId="108" pageNumber="109" rank="species">sp. nov.</taxonomicNameLabel>
+from 
+<taxonomicName authority="Prebus, 2021" authorityName="Prebus" authorityYear="2021" box="[1312,1440,1390,1416]" class="Insecta" family="Formicidae" genus="Temnothorax" higherTaxonomySource="GBIF" kingdom="Animalia" order="Hymenoptera" pageId="108" pageNumber="109" phylum="Arthropoda" rank="species" species="arbustus" status="sp. nov.">
+<emphasis box="[1312,1440,1390,1416]" italics="true" pageId="108" pageNumber="109">T. arbustus</emphasis>
+</taxonomicName>
+<taxonomicNameLabel box="[1446,1537,1390,1416]" pageId="108" pageNumber="109" rank="species">sp. nov.</taxonomicNameLabel>
+, which has a relatively long posterior face of the petiole; the first gastral tergite of 
+<taxonomicName authority="Prebus, 2021" authorityName="Prebus" authorityYear="2021" box="[498,668,1470,1496]" class="Insecta" family="Formicidae" genus="Temnothorax" higherTaxonomySource="GBIF" kingdom="Animalia" order="Hymenoptera" pageId="108" pageNumber="109" phylum="Arthropoda" rank="species" species="obtusigaster" status="sp. nov.">
+<emphasis box="[498,668,1470,1496]" italics="true" pageId="108" pageNumber="109">T. obtusigaster</emphasis>
+</taxonomicName>
+<taxonomicNameLabel box="[677,768,1470,1496]" pageId="108" pageNumber="109" rank="species">sp. nov.</taxonomicNameLabel>
+is areolate, as opposed to smooth in 
+<taxonomicName authority="Prebus, 2021" authorityName="Prebus" authorityYear="2021" box="[1210,1340,1470,1496]" class="Insecta" family="Formicidae" genus="Temnothorax" higherTaxonomySource="GBIF" kingdom="Animalia" order="Hymenoptera" pageId="108" pageNumber="109" phylum="Arthropoda" rank="species" species="arbustus" status="sp. nov.">
+<emphasis box="[1210,1340,1470,1496]" italics="true" pageId="108" pageNumber="109">T. arbustus</emphasis>
+</taxonomicName>
+<taxonomicNameLabel box="[1349,1441,1470,1496]" pageId="108" pageNumber="109" rank="species">sp. nov.</taxonomicNameLabel>
+</paragraph>
+</subSubSection>
+<subSubSection lastPageId="112" lastPageNumber="113" pageId="108" pageNumber="109" type="description">
+<paragraph blockId="108.[498,1542,234,1935]" lastBlockId="109.[498,1542,234,1934]" lastPageId="109" lastPageNumber="110" pageId="108" pageNumber="109">
+<emphasis bold="true" box="[530,1018,1509,1536]" pageId="108" pageNumber="109">
+Worker measurements &amp; indices (
+<emphasis bold="true" box="[941,957,1510,1536]" italics="true" pageId="108" pageNumber="109">n</emphasis>
+= 5):
+</emphasis>
+SL = 
+<geoCoordinate box="[1084,1146,1510,1536]" degrees="0.743" direction="north" orientation="latitude" pageId="108" pageNumber="109" precision="55" value="0.743">0.743</geoCoordinate>
+<geoCoordinate box="[1146,1223,1509,1535]" degrees="0.767" direction="west" orientation="longitude" pageId="108" pageNumber="109" precision="55" value="-0.767">–0.767</geoCoordinate>
+(0.753); FRS = 
+<geoCoordinate box="[1402,1464,1510,1536]" degrees="0.302" direction="north" orientation="latitude" pageId="108" pageNumber="109" precision="55" value="0.302">0.302</geoCoordinate>
+<geoCoordinate box="[1464,1541,1509,1536]" degrees="0.332" direction="west" orientation="longitude" pageId="108" pageNumber="109" precision="55" value="-0.332">–0.332</geoCoordinate>
+(0.322); CW = 
+<geoCoordinate box="[678,740,1549,1576]" degrees="0.950" direction="north" orientation="latitude" pageId="108" pageNumber="109" precision="55" value="0.95">0.950</geoCoordinate>
+<geoCoordinate box="[740,817,1549,1575]" degrees="1.026" direction="west" orientation="longitude" pageId="108" pageNumber="109" precision="55" value="-1.026">–1.026</geoCoordinate>
+(0.990); CWb = 
+<geoCoordinate box="[1020,1082,1549,1575]" degrees="0.863" direction="north" orientation="latitude" pageId="108" pageNumber="109" precision="55" value="0.863">0.863</geoCoordinate>
+<geoCoordinate box="[1082,1159,1549,1575]" degrees="0.923" direction="west" orientation="longitude" pageId="108" pageNumber="109" precision="55" value="-0.923">–0.923</geoCoordinate>
+(0.898); PoOC = 
+<geoCoordinate box="[1372,1434,1549,1576]" degrees="0.354" direction="north" orientation="latitude" pageId="108" pageNumber="109" precision="55" value="0.354">0.354</geoCoordinate>
+<geoCoordinate box="[1434,1511,1549,1576]" degrees="0.375" direction="west" orientation="longitude" pageId="108" pageNumber="109" precision="55" value="-0.375">–0.375</geoCoordinate>
+(0.364); CL = 
+<geoCoordinate box="[665,727,1589,1615]" degrees="0.991" direction="north" orientation="latitude" pageId="108" pageNumber="109" precision="55" value="0.991">0.991</geoCoordinate>
+<geoCoordinate box="[727,804,1589,1616]" degrees="1.051" direction="west" orientation="longitude" pageId="108" pageNumber="109" precision="55" value="-1.051">–1.051</geoCoordinate>
+(1.024); EL = 
+<geoCoordinate box="[977,1039,1589,1616]" degrees="0.258" direction="north" orientation="latitude" pageId="108" pageNumber="109" precision="55" value="0.258">0.258</geoCoordinate>
+<geoCoordinate box="[1039,1116,1589,1615]" degrees="0.300" direction="west" orientation="longitude" pageId="108" pageNumber="109" precision="55" value="-0.3">–0.300</geoCoordinate>
+(0.275); EW = 
+<geoCoordinate box="[1302,1364,1589,1615]" degrees="0.177" direction="north" orientation="latitude" pageId="108" pageNumber="109" precision="55" value="0.177">0.177</geoCoordinate>
+<geoCoordinate box="[1364,1441,1589,1615]" degrees="0.223" direction="west" orientation="longitude" pageId="108" pageNumber="109" precision="55" value="-0.223">–0.223</geoCoordinate>
+(0.199); MD = 
+<geoCoordinate box="[580,642,1629,1655]" degrees="0.233" direction="north" orientation="latitude" pageId="108" pageNumber="109" precision="55" value="0.233">0.233</geoCoordinate>
+<geoCoordinate box="[642,719,1629,1655]" degrees="0.278" direction="west" orientation="longitude" pageId="108" pageNumber="109" precision="55" value="-0.278">–0.278</geoCoordinate>
+(0.256); WL = 
+<geoCoordinate box="[904,966,1629,1655]" degrees="1.364" direction="north" orientation="latitude" pageId="108" pageNumber="109" precision="55" value="1.364">1.364</geoCoordinate>
+<geoCoordinate box="[966,1043,1629,1655]" degrees="1.433" direction="west" orientation="longitude" pageId="108" pageNumber="109" precision="55" value="-1.433">–1.433</geoCoordinate>
+(1.396); SPST = 
+<geoCoordinate box="[1245,1307,1629,1655]" degrees="0.389" direction="north" orientation="latitude" pageId="108" pageNumber="109" precision="55" value="0.389">0.389</geoCoordinate>
+<geoCoordinate box="[1308,1385,1629,1655]" degrees="0.410" direction="west" orientation="longitude" pageId="108" pageNumber="109" precision="55" value="-0.41">–0.410</geoCoordinate>
+(0.399); MPST = 
+<geoCoordinate box="[607,669,1669,1695]" degrees="0.412" direction="north" orientation="latitude" pageId="108" pageNumber="109" precision="55" value="0.412">0.412</geoCoordinate>
+<geoCoordinate box="[669,746,1669,1696]" degrees="0.457" direction="west" orientation="longitude" pageId="108" pageNumber="109" precision="55" value="-0.457">–0.457</geoCoordinate>
+(0.433); PEL = 
+<geoCoordinate box="[935,997,1669,1696]" degrees="0.511" direction="north" orientation="latitude" pageId="108" pageNumber="109" precision="55" value="0.511">0.511</geoCoordinate>
+<geoCoordinate box="[997,1074,1669,1696]" degrees="0.526" direction="west" orientation="longitude" pageId="108" pageNumber="109" precision="55" value="-0.526">–0.526</geoCoordinate>
+(0.516); NOL = 
+<geoCoordinate box="[1274,1336,1669,1695]" degrees="0.279" direction="north" orientation="latitude" pageId="108" pageNumber="109" precision="55" value="0.279">0.279</geoCoordinate>
+<geoCoordinate box="[1336,1413,1669,1695]" degrees="0.314" direction="west" orientation="longitude" pageId="108" pageNumber="109" precision="55" value="-0.314">–0.314</geoCoordinate>
+(0.300); NOH = 
+<geoCoordinate box="[598,660,1709,1735]" degrees="0.169" direction="north" orientation="latitude" pageId="108" pageNumber="109" precision="55" value="0.169">0.169</geoCoordinate>
+<geoCoordinate box="[660,737,1708,1735]" degrees="0.205" direction="west" orientation="longitude" pageId="108" pageNumber="109" precision="55" value="-0.205">–0.205</geoCoordinate>
+(0.191); PEH = 
+<geoCoordinate box="[933,995,1709,1735]" degrees="0.337" direction="north" orientation="latitude" pageId="108" pageNumber="109" precision="55" value="0.337">0.337</geoCoordinate>
+<geoCoordinate box="[995,1072,1709,1735]" degrees="0.390" direction="west" orientation="longitude" pageId="108" pageNumber="109" precision="55" value="-0.39">–0.390</geoCoordinate>
+(0.369); PPL = 
+<geoCoordinate box="[1262,1324,1709,1735]" degrees="0.264" direction="north" orientation="latitude" pageId="108" pageNumber="109" precision="55" value="0.264">0.264</geoCoordinate>
+<geoCoordinate box="[1324,1401,1709,1735]" degrees="0.313" direction="west" orientation="longitude" pageId="108" pageNumber="109" precision="55" value="-0.313">–0.313</geoCoordinate>
+(0.293); PW = 
+<geoCoordinate box="[577,639,1748,1775]" degrees="0.625" direction="north" orientation="latitude" pageId="108" pageNumber="109" precision="55" value="0.625">0.625</geoCoordinate>
+<geoCoordinate box="[640,716,1748,1775]" degrees="0.688" direction="west" orientation="longitude" pageId="108" pageNumber="109" precision="55" value="-0.688">–0.688</geoCoordinate>
+(0.658); SBPA = 
+<geoCoordinate box="[925,987,1748,1774]" degrees="0.260" direction="north" orientation="latitude" pageId="108" pageNumber="109" precision="55" value="0.26">0.260</geoCoordinate>
+<geoCoordinate box="[987,1064,1749,1775]" degrees="0.310" direction="west" orientation="longitude" pageId="108" pageNumber="109" precision="55" value="-0.31">–0.310</geoCoordinate>
+(0.284); SPTI = 
+<geoCoordinate box="[1263,1325,1749,1775]" degrees="0.322" direction="north" orientation="latitude" pageId="108" pageNumber="109" precision="55" value="0.322">0.322</geoCoordinate>
+<geoCoordinate box="[1325,1402,1749,1775]" degrees="0.417" direction="west" orientation="longitude" pageId="108" pageNumber="109" precision="55" value="-0.417">–0.417</geoCoordinate>
+(0.375); PEW = 
+<geoCoordinate box="[594,656,1788,1814]" degrees="0.237" direction="north" orientation="latitude" pageId="108" pageNumber="109" precision="55" value="0.237">0.237</geoCoordinate>
+<geoCoordinate box="[656,733,1788,1814]" degrees="0.264" direction="west" orientation="longitude" pageId="108" pageNumber="109" precision="55" value="-0.264">–0.264</geoCoordinate>
+(0.249); PNW = 
+<geoCoordinate box="[940,1002,1788,1815]" degrees="0.250" direction="north" orientation="latitude" pageId="108" pageNumber="109" precision="55" value="0.25">0.250</geoCoordinate>
+<geoCoordinate box="[1002,1079,1788,1814]" degrees="0.292" direction="west" orientation="longitude" pageId="108" pageNumber="109" precision="55" value="-0.292">–0.292</geoCoordinate>
+(0.276); PPW = 
+<geoCoordinate box="[1281,1343,1788,1814]" degrees="0.407" direction="north" orientation="latitude" pageId="108" pageNumber="109" precision="55" value="0.407">0.407</geoCoordinate>
+<geoCoordinate box="[1344,1421,1788,1814]" degrees="0.440" direction="west" orientation="longitude" pageId="108" pageNumber="109" precision="55" value="-0.44">–0.440</geoCoordinate>
+(0.417); HFL = 
+<geoCoordinate box="[586,648,1828,1854]" degrees="0.840" direction="north" orientation="latitude" pageId="108" pageNumber="109" precision="55" value="0.84">0.840</geoCoordinate>
+<geoCoordinate box="[648,725,1828,1854]" degrees="0.877" direction="west" orientation="longitude" pageId="108" pageNumber="109" precision="55" value="-0.877">–0.877</geoCoordinate>
+(0.858); HFWmax = 
+<geoCoordinate box="[981,1043,1828,1854]" degrees="0.266" direction="north" orientation="latitude" pageId="108" pageNumber="109" precision="55" value="0.266">0.266</geoCoordinate>
+<geoCoordinate box="[1044,1121,1828,1854]" degrees="0.293" direction="west" orientation="longitude" pageId="108" pageNumber="109" precision="55" value="-0.293">–0.293</geoCoordinate>
+(0.281); HFWmin = 
+<geoCoordinate box="[1374,1436,1828,1854]" degrees="0.070" direction="north" orientation="latitude" pageId="108" pageNumber="109" precision="55" value="0.07">0.070</geoCoordinate>
+<geoCoordinate box="[1437,1514,1828,1854]" degrees="0.081" direction="west" orientation="longitude" pageId="108" pageNumber="109" precision="55" value="-0.081">–0.081</geoCoordinate>
+(0.077); CS = 
+<geoCoordinate box="[663,725,1868,1895]" degrees="1.359" direction="north" orientation="latitude" pageId="108" pageNumber="109" precision="55" value="1.359">1.359</geoCoordinate>
+<geoCoordinate box="[725,802,1868,1894]" degrees="1.442" direction="west" orientation="longitude" pageId="108" pageNumber="109" precision="55" value="-1.442">–1.442</geoCoordinate>
+(1.41); ES = 
+<geoCoordinate box="[959,1021,1868,1894]" degrees="0.347" direction="north" orientation="latitude" pageId="108" pageNumber="109" precision="55" value="0.347">0.347</geoCoordinate>
+<geoCoordinate box="[1021,1098,1868,1895]" degrees="0.405" direction="west" orientation="longitude" pageId="108" pageNumber="109" precision="55" value="-0.405">–0.405</geoCoordinate>
+(0.375); SI = 81–87 (84); OI = 25–28 (27); CI = 86–90 (88); WLI = 150–158 (156); SBI = 30–34 (32); PSI = 28–29 (29); PWI = 160–173 (167); PLI = 164–195 (177); NI = 151–168 (157); PNWI = 105–117 (111); NLI = 54–61 (58); FI = 333–406 (367).
+</paragraph>
+<paragraph blockId="109.[498,1542,234,1934]" pageId="109" pageNumber="110">
+<emphasis bold="true" box="[530,775,314,340]" pageId="109" pageNumber="110">Worker description:</emphasis>
+In full-face view, head subquadrate, longer than broad (CI 86–90). Mandibles densely, finely striate but shining and armed with five teeth: the apical-most well developed and acute, followed by a less developed preapical tooth and three equally developed smaller teeth. Anterior clypeal margin emarginated medially. Antennal scapes moderately long: when fully retracted, just reaching the posterior margin of the head (SI 81–87). Antennae 12-segmented; antennal club of composed of three segments, with the apical-most segment about one and a half times as long as the preceding two in combination. Frontal carinae short, extending past the antennal toruli by about one and a half times the maximum width of the antennal scape. Compound eyes strongly protruding past the lateral margins of the head capsule. Lateral margin of head weakly convex, forming a continuous arc from the mandibular insertions to the posterior margin of the head. Posterior head margin weakly concave medially but rounding evenly into the lateral margins.
+</paragraph>
+<paragraph blockId="109.[498,1542,234,1934]" pageId="109" pageNumber="110">
+In profile view, compound eyes ovular and large (OI 25–28), with 13 ommatidia in longest row. Pronotal declivity distinct: dorsal margin of anterior face of pronotum marked by a carina; neck and anterior face of pronotum forming a ~110 
+<emphasis box="[1258,1268,907,925]" italics="true" pageId="109" pageNumber="110">
+<superScript attach="left" box="[1258,1268,907,925]" fontSize="8" pageId="109" pageNumber="110">°</superScript>
+</emphasis>
+angle. Mesosoma very weakly convex from where it joins the pronotal declivity to the base of the propodeal spines, nearly flat. Promesonotal suture extending from the posterior margin of the procoxal insertion to the mesothoracic spiracle, which is moderately well developed. Metanotal groove visible as a disruption of the sculpture laterally from where it arises between the mid- and hind coxae to where it ends in the poorly developed metathoracic spiracle, which is nearly indistinguishable against the ground sculpture. Propodeal spiracle moderately well developed, directed posterolaterally, and separated from the propodeal declivity by about four spiracle diameters. Propodeal spines moderately well developed, but short (PSI 28–29), slightly shorter than the propodeal declivity, slightly flared at the base, straight, and acute. Propodeal declivity straight, forming a rounded ~100 
+<emphasis box="[1404,1414,1306,1324]" italics="true" pageId="109" pageNumber="110">
+<superScript attach="left" box="[1404,1414,1306,1324]" fontSize="8" pageId="109" pageNumber="110">°</superScript>
+</emphasis>
+angle with the base of the propodeal spines. Propodeal lobes rounded and weakly developed, but dorsum slightly angulate. Metapleural gland bulla small, extending from the metacoxal insertion a third of the way to the propodeal spiracle. Petiole moderately long (PLI 164–195), with tubercles anterodorsally. Subpetiolar process in the form of a small, acute, triangular tooth which grades evenly into the ventral petiole margin posteriorly; ventral margin of petiole flat posterior to it. Petiolar peduncle short: comprising about a quarter of the total petiole length. Petiolar node robust, erect, and rounded-subquadrate: transition between peduncle and node marked by a rounded angle of ~120 
+<emphasis box="[1260,1270,1624,1642]" italics="true" pageId="109" pageNumber="110">
+<superScript attach="none" box="[1260,1270,1624,1642]" fontSize="8" pageId="109" pageNumber="110">°</superScript>
+</emphasis>
+; anterior face forming a ~100 
+<emphasis box="[682,692,1664,1682]" italics="true" pageId="109" pageNumber="110">
+<superScript attach="left" box="[682,692,1664,1682]" fontSize="8" pageId="109" pageNumber="110">°</superScript>
+</emphasis>
+angle with the dorsal face, which is strongly, evenly convex; dorsal face meeting the posterior face at a rounded ~100 
+<emphasis box="[1032,1042,1704,1722]" italics="true" pageId="109" pageNumber="110">
+<superScript attach="left" box="[1032,1042,1704,1722]" fontSize="8" pageId="109" pageNumber="110">°</superScript>
+</emphasis>
+angle; posterior face forms a ~100 
+<emphasis box="[1454,1464,1704,1722]" italics="true" pageId="109" pageNumber="110">
+<superScript attach="left" box="[1454,1464,1704,1722]" fontSize="8" pageId="109" pageNumber="110">°</superScript>
+</emphasis>
+angle with the caudal cylinder. Postpetiole convex anteriorly, bulging slightly anterodorsally before flattening posterodorsally; weakly lobed ventrally.
+</paragraph>
+<paragraph blockId="109.[498,1542,234,1934]" lastBlockId="110.[498,1542,234,1895]" lastPageId="110" lastPageNumber="111" pageId="109" pageNumber="110">
+In dorsal view, humeri weakly developed: evenly rounded and slightly wider than the rest of the mesosoma; mesothoracic spiracles weakly protruding past the lateral margins of the mesosoma, visible as slight angles where the pronotum meets the mesonotum. Promesonotal suture represented by a weak sulcus and disruption in the ground sculpture. Metanotal groove represented by a disruption in the ground sculpture. Propodeal spines broadly approximated basally and weakly diverging apically, their apices separated from each other by slightly more than their length, the negative space between them “U” shaped. Petiolar peduncle with spiracles weakly protruding past the lateral margins. Petiolar node subquadrate: anterior margin flat medially, but corners rounding into the lateral margins; lateral margins rounding into the flat posterior margin; node broader than the peduncle, and evenly grading into the caudal cylinder, which is slightly narrower than the node. Postpetiole narrow (PWI 160–173) and subquadrate. Anterior margin of the postpetiole weakly convex, nearly flat, and meets the lateral margins at a rounded ~90 
+<emphasis box="[1530,1540,588,606]" italics="true" pageId="110" pageNumber="111">
+<superScript attach="none" box="[1530,1540,588,606]" fontSize="8" pageId="110" pageNumber="111">°</superScript>
+</emphasis>
+angle; lateral margins parallel to each other; posterior corners rounded; posterior margin flat. Metafemur strongly incrassate (FI 333–406).
+</paragraph>
+<paragraph blockId="110.[498,1542,234,1895]" pageId="110" pageNumber="111">Sculpture: median clypeal carina present, extending posteriorly to the frontal triangle, and flanked on either side by three equally strong carinae. Lateral clypeal lobes with additional, weaker carinae; ground sculpture shining through weak areolae. Antennal scapes areolate. Cephalic dorsum areolate-rugulose, with rugae over the ground sculpture; concentric costulae surrounding the antennal insertions; overlying sculpture becoming costate between the frontal carinae. Lateral surfaces of head areolate, with rugae over the ground sculpture. Ventral surface of head smooth and shining anteromedially, but otherwise weakly areolate with weak costulae. Pronotal neck weakly areolate. Lateral surfaces mesosoma areolate, with costulae over the ground sculpture; region between the propodeal spiracle and propodeal spines areolate, without costulae. Propodeal declivity areolate, with strigulae overlying the ground sculpture. Dorsal surface of mesosoma predominantly areolate, with rugae overlying the ground sculpture. Femora finely, densely areolate. Petiole uniformly areolate; a weak carina present laterally, extending longitudinally from the petiolar spiracle to the caudal cylinder; weak rugae on all faces of the node, except for the anterior face. Postpetiole uniformly areolate, with weak rugae on the lateral faces. First gastral tergite finely areolate, with sculpture slightly weakening posteriorly; without spectral iridescence. First gastral sternite weakly areolate, without spectral iridescence.</paragraph>
+<paragraph blockId="110.[498,1542,234,1895]" pageId="110" pageNumber="111">Setae: antennal scapes and funiculi with short, adpressed pilosity. Dorsum of the head, pronotum, waist segments, and gaster with moderately abundant, erect, blunt-tipped setae, the longest of which are about half the width of the compound eye. The head bears ~40, mesosoma ~26, petiole 8, postpetiole ~16, and first gastral tergite ~80 setae. Short, sparse pubescence present over the entire body, but difficult to detect against the densely sculptured integument.</paragraph>
+<paragraph blockId="110.[498,1542,234,1895]" box="[530,1531,1669,1695]" pageId="110" pageNumber="111">Color: predominantly yellow, with masticatory margin of the mandibles dark brown.</paragraph>
+<paragraph blockId="110.[498,1542,234,1895]" lastBlockId="111.[498,1542,234,1934]" lastPageId="111" lastPageNumber="112" pageId="110" pageNumber="111">
+<emphasis bold="true" box="[530,1001,1708,1735]" pageId="110" pageNumber="111">
+Gyne measurements &amp; indices (
+<emphasis bold="true" box="[919,935,1709,1735]" italics="true" pageId="110" pageNumber="111">n</emphasis>
+= 1):
+</emphasis>
+SL = 0.812; FRS = 0.380; CW = 1.142; CWb = 1.032; PoOC = 0.388; CL = 1.091; EL = 0.336; EW = 0.275; MD = 0.251; WL = 2.047; SPST = 0.416; MPST = 0.496; PEL = 0.626; NOL = 0.291; NOH = 0.251; PEH = 0.505; PPL = 0.355; PW = 1.050; SBPA = 0.554; SPTI = 0.527; PEW = 0.298; PNW = 0.353; PPW = 0.558; HFL = 0.976; HFWmax = 0.245; HFWmin = 0.083; CS = 1.578; ES = 0.474; SI = 79; OI = 30; CI = 95; WLI = 198; SBI = 54; PSI = 20; PWI = 187; PLI = 176; NI = 116; PNWI = 118; NLI = 46; FI = 295.
+</paragraph>
+<paragraph blockId="111.[498,1542,234,1934]" pageId="111" pageNumber="112">
+<emphasis bold="true" box="[530,747,314,340]" pageId="111" pageNumber="112">Gyne description:</emphasis>
+In full-face view, head subquadrate, slightly longer than broad (CI 95). Mandibles densely striate but shining and armed with five teeth: the apical-most well developed, followed by a less developed preapical tooth and three equally developed smaller teeth. Anterior clypeal margin emarginated medially. Antennal scapes short: when fully retracted, failing to reach the posterior margin of the head capsule by about the maximum width of the scape (SI 79). Antennae 12-segmented; antennal club composed of three segments, with the apical-most segment about one and a half times as long as the e preceding two in combination. Frontal carinae moderately long, extending past the antennal toruli by about two times the maximum width of the antennal scape. Compound eyes strongly protruding past the lateral margins of the head capsule. Lateral margins of head convex behind the compound eyes, but parallel to each other between the mandibular insertions and the compound eyes. Posterior head margin concave medially, rounding evenly into the lateral margins.
+</paragraph>
+<paragraph blockId="111.[498,1542,234,1934]" pageId="111" pageNumber="112">
+In profile view, compound eyes ovular and large (OI 30), with 18 ommatidia in longest row. Mesoscutum rounded evenly anteriorly, covering the dorsal surface of the pronotum, and flat dorsally. Mesoscutellum on the same plane as the mesoscutum and flat dorsally. Posterior margin of metanotum extending slightly past the posterior margin of the mesoscutum. Propodeal spiracle well developed, directed posterolaterally, and separated from the propodeal declivity by about six spiracle diameters. Propodeal spines short and stout (PSI 20), about half as long as the propodeal declivity, tapering evenly from the base, directed posterodorsally, triangular, and blunt. Propodeal declivity straight and flat, forming a rounded ~100 
+<emphasis box="[888,898,1146,1164]" italics="true" pageId="111" pageNumber="112">
+<superScript attach="left" box="[888,898,1146,1164]" fontSize="8" pageId="111" pageNumber="112">°</superScript>
+</emphasis>
+angle with the base of the propodeal spines. Propodeal lobes rounded, but slightly angulate dorsally. Metapleural gland bulla small, extending from the metacoxal insertion halfway to the propodeal spiracle. Petiole moderately long (PLI 176), with weakly developed tubercles anterodorsally. Subpetiolar process in the form of a small, acute, triangular tooth, which grades evenly into the ventral margin of the petiole posteriorly. Petiolar peduncle short: comprising about a third of the total petiole length. Petiolar node robust and erect, subquadrate: transition between peduncle and node an evenly rounded ~120 
+<emphasis box="[785,795,1425,1443]" italics="true" pageId="111" pageNumber="112">
+<superScript attach="left" box="[785,795,1425,1443]" fontSize="8" pageId="111" pageNumber="112">°</superScript>
+</emphasis>
+angle; anterior face forming a rounded ~90 
+<emphasis box="[1315,1325,1425,1443]" italics="true" pageId="111" pageNumber="112">
+<superScript attach="left" box="[1315,1325,1425,1443]" fontSize="8" pageId="111" pageNumber="112">°</superScript>
+</emphasis>
+angle with the dorsal face, which evenly convex; dorsal face meeting the posterior face at a ~100 
+<emphasis box="[1454,1464,1465,1483]" italics="true" pageId="111" pageNumber="112">
+<superScript attach="left" box="[1454,1464,1465,1483]" fontSize="8" pageId="111" pageNumber="112">°</superScript>
+</emphasis>
+angle; posterior face forms a ~120 
+<emphasis box="[823,833,1505,1523]" italics="true" pageId="111" pageNumber="112">
+<superScript attach="left" box="[823,833,1505,1523]" fontSize="8" pageId="111" pageNumber="112">°</superScript>
+</emphasis>
+angle with the caudal cylinder. Postpetiole flat anteriorly, bulging slightly anterodorsally before it transitions into the short, flattened posterodorsal face; ventral surface weakly lobed.
+</paragraph>
+<paragraph blockId="111.[498,1542,234,1934]" lastBlockId="112.[498,1542,230,1616]" lastPageId="112" lastPageNumber="113" pageId="111" pageNumber="112">
+In dorsal view, mesoscutum covering pronotum anteriorly, but humeri visible laterally as rounded sclerites. Propodeal spines diverging basally, but parallel apically, their apices separated from each other by about three times their length. Petiolar peduncle with spiracles protruding past the lateral margins, and slightly narrowed anterior to them. Petiolar node transversely ovular, anterior margin slightly broader than posterior margin. Petiolar node tapering apically, slightly wider than the peduncle, and evenly grading into the caudal cylinder, which is about as wide as the node. Postpetiole narrow (PWI 187), anteroposteriorly compressed, and slightly trapezoidal, with anterior broader than posterior. Anterior margin of postpetiole flat, with corners marked by rounded ~80 
+<emphasis box="[1452,1462,230,248]" italics="true" pageId="112" pageNumber="113">
+<superScript attach="left" box="[1452,1462,230,248]" fontSize="8" pageId="112" pageNumber="113">°</superScript>
+</emphasis>
+angles as it transitions to the lateral margins; lateral margins slightly converging; posterior corners rounded; posterior margin flat. Metafemur moderately incrassate (FI 295).
+</paragraph>
+<paragraph blockId="112.[498,1542,230,1616]" pageId="112" pageNumber="113">Sculpture: median clypeal carina present but fragmented, extending from the anterior margin nearly to frontal triangle, and flanked by multiple equally strong, fragmented carinae. Lateral clypeal lobes with additional weaker carinae; ground sculpture smooth and shining. Antennal scapes finely areolate-costulate. Cephalic dorsum areolate, with coarsely rugose sculpture overlying the ground sculpture, with costae stronger than transverse rugae; concentric costulae surround the antennal insertions. Lateral surfaces of head areolate, with coarsely rugose sculpture overlying the ground sculpture. Ventral surface of head weakly sculptured medially, with weak rugose sculpture laterally. Pronotal neck and anterior face of pronotum weakly areolate. Lateral surface of the pronotum sculptured similarly to the dorsum of the head, with rugae becoming weaker posteriorly; katepisternum and anepisternum weakly areolate, with weak overlying costulae; lateral surface of propodeum rugose, with sculpture becoming smooth over the metapleural gland bulla. Propodeal declivity weakly areolate-strigulate. Mesoscutum with fine costulae over finely areolate ground sculpture. Mesoscutellum mostly smooth and shining, with faint costulae. Metanotum weakly areolate. Propodeum areolate, with overlying strigulae. Femora areolate. Petiole uniformly areolate; strong rugae on all faces of the node. Postpetiole uniformly areolate, with strong overlying rugae. First gastral tergite and sternite uniformly covered in weak areolate sculpture.</paragraph>
+<paragraph blockId="112.[498,1542,230,1616]" pageId="112" pageNumber="113">Setae: antennal scapes and funiculi with short, decumbent pilosity. Dorsum of the head, pronotum, waist segments, and gaster with moderately abundant, erect, blunt-tipped setae, the longest of which are about the maximum width of the antennal scape. Short, sparse pubescence present over the entire body, but difficult to detect against the densely sculptured integument.</paragraph>
+<paragraph blockId="112.[498,1542,230,1616]" pageId="112" pageNumber="113">Color: predominantly yellow, with masticatory margin of the mandibles and wing bases dark brown.</paragraph>
+<paragraph blockId="112.[498,1542,230,1616]" box="[530,730,1350,1376]" pageId="112" pageNumber="113">
+<emphasis bold="true" box="[530,597,1350,1376]" pageId="112" pageNumber="113">Male:</emphasis>
+Unknown.
+</paragraph>
+</subSubSection>
+<subSubSection pageId="112" pageNumber="113" type="etymology">
+<paragraph blockId="112.[498,1542,230,1616]" pageId="112" pageNumber="113">
+<emphasis bold="true" box="[530,668,1390,1416]" pageId="112" pageNumber="113">Etymology:</emphasis>
+Morphological, from the Latin ‘obtusus’ (= dull, blurred) + ‘gaster’ (= stomach), in reference to the areolate first gastral tergite and sternite.
+</paragraph>
+</subSubSection>
+<subSubSection pageId="112" pageNumber="113" type="discussion">
+<paragraph blockId="112.[498,1542,230,1616]" pageId="112" pageNumber="113">
+<emphasis bold="true" box="[530,670,1469,1495]" pageId="112" pageNumber="113">Comments:</emphasis>
+<taxonomicName authority="Prebus, 2021" authorityName="Prebus" authorityYear="2021" box="[677,978,1470,1496]" class="Insecta" family="Formicidae" genus="Temnothorax" higherTaxonomySource="GBIF" kingdom="Animalia" order="Hymenoptera" pageId="112" pageNumber="113" phylum="Arthropoda" rank="species" species="obtusigaster" status="sp. nov.">
+<emphasis box="[677,978,1470,1496]" italics="true" pageId="112" pageNumber="113">Temnothorax obtusigaster</emphasis>
+</taxonomicName>
+<taxonomicNameLabel box="[984,1074,1470,1496]" pageId="112" pageNumber="113" rank="species">sp. nov.</taxonomicNameLabel>
+is known from a couple of collections in 
+<collectingRegion box="[498,724,1509,1535]" country="Mexico" name="Baja California Sur" pageId="112" pageNumber="113">Baja California Sur</collectingRegion>
+, 
+<collectingCountry box="[737,825,1509,1535]" name="Mexico" pageId="112" pageNumber="113">Mexico</collectingCountry>
+, both of which were made at low-to-mid elevations in the mountainous interior of the peninsula. Like other species in the 
+<taxonomicName baseAuthorityName="Baroni Urbani" baseAuthorityYear="1931" box="[1230,1326,1550,1575]" class="Insecta" family="Formicidae" genus="Temnothorax" higherTaxonomySource="GBIF" kingdom="Animalia" order="Hymenoptera" pageId="112" pageNumber="113" phylum="Arthropoda" rank="species" species="annexus">
+<emphasis box="[1230,1326,1550,1575]" italics="true" pageId="112" pageNumber="113">annexus</emphasis>
+</taxonomicName>
+group, this species appears to nest in vegetation: a nest was collected from 
+<taxonomicName box="[1158,1396,1589,1615]" class="Magnoliopsida" family="Fagaceae" genus="Quercus" kingdom="Plantae" order="Fagales" pageId="112" pageNumber="113" phylum="Tracheophyta" rank="species" species="oblongifolia">
+<emphasis box="[1158,1396,1589,1615]" italics="true" pageId="112" pageNumber="113">Quercus oblongifolia</emphasis>
+</taxonomicName>
+.
+</paragraph>
+</subSubSection>
+</treatment>
+</document>
