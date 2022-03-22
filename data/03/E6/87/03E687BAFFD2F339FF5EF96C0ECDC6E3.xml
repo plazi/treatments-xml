@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6180440" ID-GBIF-Dataset="3fa772dc-c5b2-40c9-b28e-cd067ca9a3f6" ID-GBIF-Taxon="119509790" ID-ISSN="1175-5326" ID-Zenodo-Dep="6180440" checkinTime="1460447300036" checkinUser="plazi" docAuthor="Fikáček, Martin, Jia, Fenglong &amp; Prokin, Alexander" docDate="2012" docId="03E687BAFFD2F339FF5EF96C0ECDC6E3" docLanguage="en" docName="zt03219p053.pdf" docOrigin="Zootaxa 3219" docStyle="DocumentStyle:890A69B780ED73D6DB8551B71C8AC79E.3:Zootaxa.2009-2012.journal_article" docStyleId="890A69B780ED73D6DB8551B71C8AC79E" docStyleName="Zootaxa.2009-2012.journal_article" docStyleVersion="3" docTitle="Pachysternum kubani Fikáček, Jia &amp; Prokin, 2012, sp. nov." docType="treatment" docVersion="8" lastPageId="33" lastPageNumber="34" masterDocId="FFDFFFC2FFCCF318FFC9FFDB0C07C424" masterDocTitle="A review of the Asian species of the genus Pachysternum (Coleoptera: Hydrophilidae: Sphaeridiinae)" masterLastPageNumber="53" masterPageNumber="1" pageId="30" pageNumber="31" updateTime="1645819413458" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6180440" ID-GBIF-Dataset="3fa772dc-c5b2-40c9-b28e-cd067ca9a3f6" ID-GBIF-Taxon="119509790" ID-ISSN="1175-5326" ID-Zenodo-Dep="6180440" approvalRequired="1" approvalRequired_for_textStreams="1" checkinTime="1460447300036" checkinUser="plazi" docAuthor="Fikáček, Martin, Jia, Fenglong &amp; Prokin, Alexander" docDate="2012" docId="03E687BAFFD2F339FF5EF96C0ECDC6E3" docLanguage="en" docName="zt03219p053.pdf" docOrigin="Zootaxa 3219" docStyle="DocumentStyle:890A69B780ED73D6DB8551B71C8AC79E.3:Zootaxa.2009-2012.journal_article" docStyleId="890A69B780ED73D6DB8551B71C8AC79E" docStyleName="Zootaxa.2009-2012.journal_article" docStyleVersion="3" docTitle="Pachysternum kubani Fikáček, Jia &amp; Prokin, 2012, sp. nov." docType="treatment" docVersion="10" lastPageId="33" lastPageNumber="34" masterDocId="FFDFFFC2FFCCF318FFC9FFDB0C07C424" masterDocTitle="A review of the Asian species of the genus Pachysternum (Coleoptera: Hydrophilidae: Sphaeridiinae)" masterLastPageNumber="53" masterPageNumber="1" pageId="30" pageNumber="31" updateTime="1647880096881" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>A review of the Asian species of the genus Pachysternum (Coleoptera: Hydrophilidae: Sphaeridiinae)</mods:title>
@@ -51,7 +51,7 @@
 <paragraph blockId="30.[151,518,1719,1778]" box="[151,518,1719,1745]" pageId="30" pageNumber="31">
 <heading bold="true" box="[151,518,1719,1745]" fontSize="11" level="1" pageId="30" pageNumber="31" reason="1">
 <emphasis bold="true" box="[151,518,1719,1745]" pageId="30" pageNumber="31">
-<taxonomicName box="[151,417,1719,1745]" class="Insecta" family="Hydrophilidae" genus="Pachysternum" higherTaxonomySource="GBIF" kingdom="Animalia" order="Coleoptera" pageId="30" pageNumber="31" phylum="Arthropoda" rank="species" species="kubani" status="sp. nov.">
+<taxonomicName authorityName="Fikáček  &amp; Jia &amp; Prokin" box="[151,417,1719,1745]" class="Insecta" family="Hydrophilidae" genus="Pachysternum" higherTaxonomySource="GBIF" kingdom="Animalia" order="Coleoptera" pageId="30" pageNumber="31" phylum="Arthropoda" rank="species" species="kubani" status="sp. nov.">
 <emphasis bold="true" box="[151,417,1719,1745]" italics="true" pageId="30" pageNumber="31">Pachysternum kubani</emphasis>
 </taxonomicName>
 <taxonomicNameLabel box="[424,518,1719,1745]" pageId="30" pageNumber="31" rank="species">sp. nov.</taxonomicNameLabel>
@@ -102,10 +102,12 @@ locality.
 <typeStatus box="[199,255,1899,1923]" pageId="30" pageNumber="31">Type</typeStatus>
 material.
 </emphasis>
-<materialsCitation ID-GBIF-Occurrence="3499776473" pageId="30" pageNumber="31">
+<materialsCitation ID-GBIF-Occurrence="3499776473" collectionCode="NMPC, PHOU, PANE, NHMB" elevation="1495" pageId="30" pageNumber="31" specimenCount="1" specimenCount-male="1" typeStatus="holotype">
 <typeStatus box="[391,493,1898,1922]" pageId="30" pageNumber="31">Holotype</typeStatus>
-: male (
-<collectionCode box="[590,675,1898,1922]" httpUri="http://grbio.org/cool/hj12-2xm7" name="National Museum Prague" pageId="30" pageNumber="31">NMPC</collectionCode>
+: 
+<specimenCount box="[515,568,1898,1922]" pageId="30" pageNumber="31" type="male">male</specimenCount>
+(
+<collectionCode box="[590,675,1898,1922]" collectionName="Czech Republic, Prague, National Museum (Natural History)" httpUri="http://grbio.org/cool/hj12-2xm7" name="National Museum Prague" pageId="30" pageNumber="31">NMPC</collectionCode>
 ): “LAOS-NE, Houa Phan prov. / 
 <number box="[1087,1118,1898,1922]" pageId="30" pageNumber="31" value="20.0">20</number>
 ° 
@@ -123,7 +125,9 @@ material.
 °00ʹ0 
 <number box="[253,266,1934,1958]" pageId="30" pageNumber="31" value="3.0">3</number>
 ʺE, 
-<quantity box="[309,457,1934,1958]" metricMagnitude="3" metricUnit="m" metricValue="1.4949999999999999" metricValueMax="1.51" metricValueMin="1.48" pageId="30" pageNumber="31" unit="m" value="1495.0" valueMax="1510.0" valueMin="1480.0">1480–1510m</quantity>
+<quantity box="[309,457,1934,1958]" metricMagnitude="3" metricUnit="m" metricValue="1.4949999999999999" metricValueMax="1.51" metricValueMin="1.48" pageId="30" pageNumber="31" unit="m" value="1495.0" valueMax="1510.0" valueMin="1480.0">
+<elevation box="[309,457,1934,1958]" metricMagnitude="3" metricUnit="m" metricValue="1.4949999999999999" metricValueMax="1.51" metricValueMin="1.48" pageId="30" pageNumber="31" unit="m" value="1495.0" valueMax="1510.0" valueMin="1480.0">1480–1510m</elevation>
+</quantity>
 / 
 <collectionCode box="[480,556,1934,1958]" pageId="30" pageNumber="31">PHOU</collectionCode>
 <collectionCode box="[563,634,1935,1959]" pageId="30" pageNumber="31">PANE</collectionCode>
@@ -133,16 +137,13 @@ Mt.,
 .vi. / 
 <number box="[810,869,1934,1958]" pageId="30" pageNumber="31" value="2009.0">2009</number>
 </date>
-, Vít Kubáň leg. // Primary mountain forest / flight intercept trap / 
-<collectingCountry box="[319,373,1971,1994]" name="Laos" pageId="30" pageNumber="31">Laos</collectingCountry>
+, Vít Kubáň leg. // Primary mountain forest / flight intercept trap / Laos 
 <number box="[380,436,1970,1994]" pageId="30" pageNumber="31" value="2009.0">2009</number>
 Expedition / 
-<collectionCode box="[586,670,1971,1994]" httpUri="http://grbio.org/cool/1d5a-4efs" name="Naturhistorisches Museum, Basel" pageId="30" pageNumber="31">NHMB</collectionCode>
-Basel / 
-<collectionCode box="[760,839,1970,1994]" httpUri="http://grbio.org/cool/hj12-2xm7" name="National Museum Prague" pageId="30" pageNumber="31">NMPC</collectionCode>
-Prague”.
+<collectionCode box="[586,670,1971,1994]" collectionName="Switzerland, Basel, Naturhistorisches Museum" httpUri="http://grbio.org/cool/1d5a-4efs" name="Naturhistorisches Museum, Basel" pageId="30" pageNumber="31">NHMB</collectionCode>
+Basel / NMPC Prague”.
 </materialsCitation>
-<materialsCitation ID-GBIF-Occurrence="3499776328" pageId="30" pageNumber="31">
+<materialsCitation ID-GBIF-Occurrence="3499776328" collectionCode="NMPC" pageId="30" pageNumber="31" specimenCount="2" specimenCount-female="1" typeStatus="paratype">
 <typeStatus box="[949,1058,1971,1995]" pageId="30" pageNumber="31">Paratypes</typeStatus>
 : 
 <specimenCount box="[1072,1172,1970,1994]" pageId="30" pageNumber="31" type="female">
@@ -150,14 +151,15 @@ Prague”.
 female
 </specimenCount>
 , 
+<specimenCount box="[1182,1260,1970,1994]" pageId="30" pageNumber="31" type="generic">
 <number box="[1182,1196,1970,1994]" pageId="30" pageNumber="31" value="1.0">1</number>
-spec. (
-<collectionCode box="[1274,1360,1970,1994]" httpUri="http://grbio.org/cool/hj12-2xm7" name="National Museum Prague" pageId="30" pageNumber="31">NMPC</collectionCode>
-): same data as the 
-<typeStatus box="[286,387,2006,2030]" pageId="30" pageNumber="31">holotype</typeStatus>
-;
+spec.
+</specimenCount>
+(
+<collectionCode box="[1274,1360,1970,1994]" collectionName="Czech Republic, Prague, National Museum (Natural History)" httpUri="http://grbio.org/cool/hj12-2xm7" name="National Museum Prague" pageId="30" pageNumber="31">NMPC</collectionCode>
+): same data as the holotype;
 </materialsCitation>
-<materialsCitation ID-GBIF-Occurrence="3499776397" lastPageId="31" lastPageNumber="32" pageId="30" pageNumber="31">
+<materialsCitation ID-GBIF-Occurrence="3499776397" collectingDate="2009-05-10" collectingDateMax="2009-05-30" collectingDateMin="2009-05-10" collectionCode="NMPC, PHOU, SANE, NHMB" country="Laos" elevation="1420" lastPageId="31" lastPageNumber="32" latitude="19.636667" location="Basel" longLatPrecision="12" longitude="103.33667" municipality="Expedition" pageId="30" pageNumber="31" specimenCount="2" specimenCount-female="1" specimenCount-male="1" stateProvince="Xieng Khouang">
 <specimenCount box="[402,482,2006,2030]" pageId="30" pageNumber="31" type="male">
 <number box="[402,416,2006,2030]" pageId="30" pageNumber="31" value="1.0">1</number>
 male
@@ -168,40 +170,57 @@ male
 female
 </specimenCount>
 (
-<collectionCode box="[613,698,2006,2030]" httpUri="http://grbio.org/cool/hj12-2xm7" name="National Museum Prague" pageId="30" pageNumber="31">NMPC</collectionCode>
-): “LAOS-NE, Xieng Khouang / prov., 
+<collectionCode box="[613,698,2006,2030]" collectionName="Czech Republic, Prague, National Museum (Natural History)" httpUri="http://grbio.org/cool/hj12-2xm7" name="National Museum Prague" pageId="30" pageNumber="31">NMPC</collectionCode>
+): “LAOS-NE, 
+<collectingRegion box="[867,1045,2006,2030]" country="Laos" name="Xiangkhouang" pageId="30" pageNumber="31">Xieng Khouang</collectingRegion>
+/ prov., 
+<geoCoordinate box="[1145,1271,2005,2030]" degrees="19" direction="north" minutes="38.20" orientation="latitude" pageId="30" pageNumber="31" precision="9" value="19.636667">
 <number box="[1145,1171,2006,2030]" pageId="30" pageNumber="31" value="19.0">19</number>
 ° 
 <number box="[1179,1245,2006,2030]" pageId="30" pageNumber="31" value="38.2">38.20</number>
-ʹN 
+ʹN
+</geoCoordinate>
+<geoCoordinate box="[1281,1419,2005,2030]" degrees="103" direction="east" minutes="20.20" orientation="longitude" pageId="30" pageNumber="31" precision="9" value="103.33667">
 <number box="[1281,1321,2006,2030]" pageId="30" pageNumber="31" value="103.0">103</number>
 ° 
 <number box="[1330,1396,2006,2030]" pageId="30" pageNumber="31" value="20.2">20.20</number>
-ʹE / Phonsavan (
+ʹE
+</geoCoordinate>
+/ Phonsavan (
+<locationDeviation bearing="45.0" box="[287,411,151,175]" distance="30000.0" pageId="31" pageNumber="32">
 <quantity box="[287,361,151,175]" metricMagnitude="4" metricUnit="m" metricValue="3.0" pageId="31" pageNumber="32" unit="km" value="30.0">30 km</quantity>
-NE): / 
+NE
+</locationDeviation>
+): / 
 <collectionCode box="[448,523,151,175]" pageId="31" pageNumber="32">PHOU</collectionCode>
 <collectionCode box="[532,604,151,175]" pageId="31" pageNumber="32">SANE</collectionCode>
 Mt., 
-<quantity box="[668,745,151,175]" metricMagnitude="3" metricUnit="m" metricValue="1.42" pageId="31" pageNumber="32" unit="m" value="1420.0">1420m</quantity>
+<quantity box="[668,745,151,175]" metricMagnitude="3" metricUnit="m" metricValue="1.42" pageId="31" pageNumber="32" unit="m" value="1420.0">
+<elevation box="[668,745,151,175]" metricMagnitude="3" metricUnit="m" metricValue="1.42" pageId="31" pageNumber="32" unit="m" value="1420.0">1420m</elevation>
+</quantity>
 / 
 <date box="[770,927,151,175]" pageId="31" pageNumber="32" value="2009-05-10" valueMax="2009-05-30" valueMin="2009-05-10">
+<collectingDate box="[770,927,151,175]" pageId="31" pageNumber="32" value="2009-05-10" valueMax="2009-05-30" valueMin="2009-05-10">
 <number box="[770,800,151,175]" pageId="31" pageNumber="32" value="10.0">10</number>
 .– 
 <number box="[817,846,151,175]" pageId="31" pageNumber="32" value="30.0">30</number>
 .v. 
 <number box="[867,927,151,175]" pageId="31" pageNumber="32" value="2009.0">2009</number>
+</collectingDate>
 </date>
 , V. Kubáň lgt. // secondary mountain forest / flight intercept trap / 
 <collectingCountry box="[386,440,189,212]" name="Laos" pageId="31" pageNumber="32">Laos</collectingCountry>
 <number box="[448,503,188,212]" pageId="31" pageNumber="32" value="2009.0">2009</number>
-Expedition / 
-<collectionCode box="[654,737,189,212]" httpUri="http://grbio.org/cool/1d5a-4efs" name="Naturhistorisches Museum, Basel" pageId="31" pageNumber="32">NHMB</collectionCode>
-Basel / 
-<collectionCode box="[828,906,188,212]" httpUri="http://grbio.org/cool/hj12-2xm7" name="National Museum Prague" pageId="31" pageNumber="32">NMPC</collectionCode>
-Prague”;
+<collectingMunicipality box="[510,631,188,212]" pageId="31" pageNumber="32">Expedition</collectingMunicipality>
+/ 
+<collectionCode box="[654,737,189,212]" collectionName="Switzerland, Basel, Naturhistorisches Museum" httpUri="http://grbio.org/cool/1d5a-4efs" name="Naturhistorisches Museum, Basel" pageId="31" pageNumber="32">NHMB</collectionCode>
+<location LSID="urn:lsid:plazi:treatment:03E687BAFFD2F339FF5EF96C0ECDC6E3:8E906077FFD3F307FD20FF670F21C4F0" box="[745,806,188,212]" country="Laos" latitude="19.636667" longLatPrecision="12" longitude="103.33667" municipality="Expedition" name="Basel" pageId="31" pageNumber="32" stateProvince="Xieng Khouang">Basel</location>
+/ 
+<collectionCode box="[828,906,188,212]" collectionName="Czech Republic, Prague, National Museum (Natural History)" httpUri="http://grbio.org/cool/hj12-2xm7" name="National Museum Prague" pageId="31" pageNumber="32">NMPC</collectionCode>
+<location LSID="urn:lsid:plazi:treatment:03E687BAFFD2F339FF5EF96C0ECDC6E3:8E906077FFD3F307FC5BFF670FE3C4F0" box="[914,996,188,212]" country="Laos" latitude="19.636667" longLatPrecision="12" longitude="103.33667" municipality="Expedition" name="Prague" pageId="31" pageNumber="32" stateProvince="Xieng Khouang">Prague</location>
+”;
 </materialsCitation>
-<materialsCitation ID-GBIF-Occurrence="3499776324" pageId="31" pageNumber="32">
+<materialsCitation ID-GBIF-Occurrence="3499776324" collectingDate="2004-05-06" collectingDateMax="2004-05-17" collectingDateMin="2004-05-06" collectionCode="NHMB, BMNH, NHMW" collectorName="Vit Kuban" country="Laos" elevation="1500" latitude="21.683332" location="PHONGSALY env." longLatPrecision="1263" longitude="102.1" municipality="Phongsaly" pageId="31" pageNumber="32" specimenCount="5" specimenCount-female="2" specimenCount-male="3">
 <specimenCount box="[1018,1106,188,212]" pageId="31" pageNumber="32" type="male">
 <number box="[1018,1032,188,212]" pageId="31" pageNumber="32" value="3.0">3</number>
 males
@@ -212,34 +231,49 @@ males
 females
 </specimenCount>
 . (
-<collectionCode box="[1247,1334,188,212]" httpUri="http://grbio.org/cool/1d5a-4efs" name="Naturhistorisches Museum, Basel" pageId="31" pageNumber="32">NHMB</collectionCode>
+<collectionCode box="[1247,1334,188,212]" collectionName="Switzerland, Basel, Naturhistorisches Museum" httpUri="http://grbio.org/cool/1d5a-4efs" name="Naturhistorisches Museum, Basel" pageId="31" pageNumber="32">NHMB</collectionCode>
 , 
-<collectionCode box="[1346,1432,189,212]" pageId="31" pageNumber="32">BMNH</collectionCode>
+<collectionCode box="[1346,1432,189,212]" collectionName="United Kingdom, London, The Natural History Museum [formerly British Museum (Natural History)]" pageId="31" pageNumber="32">BMNH</collectionCode>
 , 
-<collectionCode box="[151,247,223,247]" httpUri="http://grbio.org/cool/91g3-0mnw" name="Naturhistorisches Museum, Wien" pageId="31" pageNumber="32">NHMW</collectionCode>
+<collectionCode box="[151,247,223,247]" collectionName="Austria, Wien, Naturhistorisches Museum Wien" httpUri="http://grbio.org/cool/91g3-0mnw" name="Naturhistorisches Museum, Wien" pageId="31" pageNumber="32">NHMW</collectionCode>
 ): “ 
 <collectingCountry box="[278,339,223,247]" name="Laos" pageId="31" pageNumber="32">LAO</collectingCountry>
-, Phongsaly prov. / 
+, 
+<collectingMunicipality box="[354,469,223,247]" pageId="31" pageNumber="32">Phongsaly</collectingMunicipality>
+prov. / 
+<geoCoordinate box="[562,654,222,247]" degrees="21" direction="north" minutes="41" orientation="latitude" pageId="31" pageNumber="32" precision="925" value="21.683332">
 <number box="[562,590,223,247]" pageId="31" pageNumber="32" value="21.0">21</number>
 ° 
 <number box="[599,628,223,247]" pageId="31" pageNumber="32" value="41.0">41</number>
-ʹN 
+ʹN
+</geoCoordinate>
+<geoCoordinate box="[664,753,222,247]" degrees="102" direction="east" minutes="6" orientation="longitude" pageId="31" pageNumber="32" precision="925" value="102.1">
 <number box="[664,707,223,247]" pageId="31" pageNumber="32" value="102.0">102</number>
 ° 
 <number box="[716,730,223,247]" pageId="31" pageNumber="32" value="6.0">6</number>
-ʹE / PHONGSALY env., / 
+ʹE
+</geoCoordinate>
+/ 
+<location LSID="urn:lsid:plazi:treatment:03E687BAFFD2F339FF5EF96C0ECDC6E3:8E906077FFD3F307FCC5FF040FEDC4D3" box="[780,1002,223,247]" country="Laos" latitude="21.683332" longLatPrecision="1263" longitude="102.1" municipality="Phongsaly" name="PHONGSALY env." pageId="31" pageNumber="32">PHONGSALY env.</location>
+, / 
 <date box="[1034,1177,223,247]" pageId="31" pageNumber="32" value="2004-05-06" valueMax="2004-05-17" valueMin="2004-05-06">
+<collectingDate box="[1034,1177,223,247]" pageId="31" pageNumber="32" value="2004-05-06" valueMax="2004-05-17" valueMin="2004-05-06">
 <number box="[1034,1050,223,247]" pageId="31" pageNumber="32" value="6.0">6</number>
 .– 
 <number box="[1066,1093,223,247]" pageId="31" pageNumber="32" value="17.0">17</number>
 .v. 
 <number box="[1115,1177,223,247]" pageId="31" pageNumber="32" value="2004.0">2004</number>
+</collectingDate>
 </date>
 , ~ 
-<quantity box="[1205,1285,223,247]" metricMagnitude="3" metricUnit="m" metricValue="1.5" pageId="31" pageNumber="32" unit="m" value="1500.0">1500m</quantity>
-, / Vít Kubáň leg.”;
+<quantity box="[1205,1285,223,247]" metricMagnitude="3" metricUnit="m" metricValue="1.5" pageId="31" pageNumber="32" unit="m" value="1500.0">
+<elevation box="[1205,1285,223,247]" metricMagnitude="3" metricUnit="m" metricValue="1.5" pageId="31" pageNumber="32" unit="m" value="1500.0">1500m</elevation>
+</quantity>
+, / 
+<collectorName box="[1317,1436,223,247]" pageId="31" pageNumber="32">Vít Kubáň</collectorName>
+leg.”;
 </materialsCitation>
-<materialsCitation ID-GBIF-Occurrence="3499776415" pageId="31" pageNumber="32">
+<materialsCitation ID-GBIF-Occurrence="3499776415" collectingDate="2001-05-01" collectingDateMax="2001-05-18" collectingDateMin="2001-05-01" collectionCode="NMHB, BMNH, NMPC" collectorName="Vit Kuban" country="Laos" elevation="600" latitude="18.35" location="Ban Nape" longLatPrecision="1275" longitude="105.13333" municipality="Bolikhamsai" pageId="31" pageNumber="32" specimenCount="8" specimenCount-male="8">
 <specimenCount box="[218,307,260,284]" pageId="31" pageNumber="32" type="male">
 <number box="[218,232,260,284]" pageId="31" pageNumber="32" value="8.0">8</number>
 males
@@ -256,13 +290,17 @@ spec. (
 <collectingCountry box="[735,812,260,284]" name="Laos" pageId="31" pageNumber="32">LAOS</collectingCountry>
 , 
 <date box="[824,965,260,284]" pageId="31" pageNumber="32" value="2001-05-01" valueMax="2001-05-18" valueMin="2001-05-01">
+<collectingDate box="[824,965,260,284]" pageId="31" pageNumber="32" value="2001-05-01" valueMax="2001-05-18" valueMin="2001-05-01">
 <number box="[824,839,260,284]" pageId="31" pageNumber="32" value="1.0">1</number>
 .– 
 <number box="[857,884,260,284]" pageId="31" pageNumber="32" value="18.0">18</number>
 .v. 
 <number box="[905,965,260,284]" pageId="31" pageNumber="32" value="2001.0">2001</number>
+</collectingDate>
 </date>
-/ Bolikhamsai prov. / 
+/ 
+<collectingMunicipality box="[988,1127,260,284]" pageId="31" pageNumber="32">Bolikhamsai</collectingMunicipality>
+prov. / 
 <geoCoordinate box="[1213,1306,260,284]" direction="north" orientation="latitude" pageId="31" pageNumber="32" precision="925" value="18.35">
 <number box="[1213,1241,260,284]" pageId="31" pageNumber="32" value="18.0">18</number>
 ° 
@@ -274,20 +312,32 @@ spec. (
 <number box="[1319,1361,260,284]" pageId="31" pageNumber="32" value="105.0">105</number>
 °08'E
 </geoCoordinate>
-/ Ban Nape (
+/ 
+<location LSID="urn:lsid:plazi:treatment:03E687BAFFD2F339FF5EF96C0ECDC6E3:8E906077FFD3F307FF5EFEF30D02C51B" box="[151,261,296,319]" country="Laos" latitude="18.35" longLatPrecision="1275" longitude="105.13333" municipality="Bolikhamsai" name="Ban Nape" pageId="31" pageNumber="32">Ban Nape</location>
+(
+<locationDeviation bearing="45.0" box="[278,381,295,319]" distance="8000.0" pageId="31" pageNumber="32">
 <quantity box="[278,335,295,319]" metricMagnitude="3" metricUnit="m" metricValue="8.0" pageId="31" pageNumber="32" unit="km" value="8.0">8 km</quantity>
-NE) / ~ 
-<quantity box="[435,507,295,319]" metricMagnitude="2" metricUnit="m" metricValue="6.0" pageId="31" pageNumber="32" unit="m" value="600.0">600 m</quantity>
-, Vít Kubáň lgt.”;
+NE
+</locationDeviation>
+) / ~ 
+<quantity box="[435,507,295,319]" metricMagnitude="2" metricUnit="m" metricValue="6.0" pageId="31" pageNumber="32" unit="m" value="600.0">
+<elevation box="[435,507,295,319]" metricMagnitude="2" metricUnit="m" metricValue="6.0" pageId="31" pageNumber="32" unit="m" value="600.0">600 m</elevation>
+</quantity>
+, 
+<collectorName box="[520,637,295,319]" pageId="31" pageNumber="32">Vít Kubáň</collectorName>
+lgt.”;
 </materialsCitation>
-<materialsCitation ID-GBIF-Occurrence="3499776346" pageId="31" pageNumber="32">
+<materialsCitation ID-GBIF-Occurrence="3499776346" collectionCode="NHMW, NMPC, SYSU, KSEM" collectorName="A. Putz" country="China" elevation="900" latitude="30.53" location="Qingcheng Shan" longLatPrecision="732" longitude="103.33" municipality="Sichuan" pageId="31" pageNumber="32" specimenCount="12" specimenCount-male="1">
 <specimenCount box="[707,784,295,319]" pageId="31" pageNumber="32" type="male">
 <number box="[707,721,295,319]" pageId="31" pageNumber="32" value="1.0">1</number>
 male
 </specimenCount>
 , 
+<specimenCount box="[797,883,295,319]" pageId="31" pageNumber="32">
 <number box="[797,824,295,319]" pageId="31" pageNumber="32" value="11.0">11</number>
-spec. (
+spec
+</specimenCount>
+. (
 <collectionCode box="[902,995,295,319]" httpUri="http://grbio.org/cool/91g3-0mnw" name="Naturhistorisches Museum, Wien" pageId="31" pageNumber="32">NHMW</collectionCode>
 , 
 <collectionCode box="[1006,1087,295,319]" httpUri="http://grbio.org/cool/hj12-2xm7" name="National Museum Prague" pageId="31" pageNumber="32">NMPC</collectionCode>
@@ -297,9 +347,16 @@ spec. (
 <collectionCode box="[1184,1266,295,319]" pageId="31" pageNumber="32">KSEM</collectionCode>
 ): “ 
 <collectingCountry box="[1296,1366,295,319]" name="China" pageId="31" pageNumber="32">China</collectingCountry>
-, Sichuan, Qingcheng Shan / 
+, 
+<collectingMunicipality pageId="31" pageNumber="32">Sichuan</collectingMunicipality>
+, 
+<location LSID="urn:lsid:plazi:treatment:03E687BAFFD2F339FF5EF96C0ECDC6E3:8E906077FFD3F307FF07FE970D81C540" box="[206,390,332,356]" country="China" latitude="30.53" longLatPrecision="732" longitude="103.33" municipality="Sichuan" name="Qingcheng Shan" pageId="31" pageNumber="32">Qingcheng Shan</location>
+/ 
+<locationDeviation box="[414,648,332,356]" pageId="31" pageNumber="32">
 <quantity box="[414,485,332,356]" metricMagnitude="4" metricUnit="m" metricValue="6.5" pageId="31" pageNumber="32" unit="km" value="65.0">65 km</quantity>
-NW Chengdu, 
+NW Chengdu
+</locationDeviation>
+, 
 <geoCoordinate box="[660,755,332,356]" direction="east" orientation="longitude" pageId="31" pageNumber="32" precision="555" value="103.33">
 <number box="[660,737,332,356]" pageId="31" pageNumber="32" value="103.33">103.33</number>
 E
@@ -317,11 +374,19 @@ N
 <number box="[962,977,332,356]" pageId="31" pageNumber="32" value="4.0">4</number>
 .vi.1997
 </date>
-, 8 km W Taiping / 
-<quantity box="[1289,1432,332,356]" metricMagnitude="2" metricUnit="m" metricValue="9.0" metricValueMax="10.0" metricValueMin="8.0" pageId="31" pageNumber="32" unit="m" value="900.0" valueMax="1000.0" valueMin="800.0">800–1000 m</quantity>
-, leg. A. Pütz”.
+, 
+<locationDeviation box="[1081,1265,332,356]" pageId="31" pageNumber="32">8 km W Taiping</locationDeviation>
+/ 
+<quantity box="[1289,1432,332,356]" metricMagnitude="2" metricUnit="m" metricValue="9.0" metricValueMax="10.0" metricValueMin="8.0" pageId="31" pageNumber="32" unit="m" value="900.0" valueMax="1000.0" valueMin="800.0">
+<elevation box="[1289,1432,332,356]" metricMagnitude="2" metricUnit="m" metricValue="9.0" metricValueMax="10.0" metricValueMin="8.0" pageId="31" pageNumber="32" unit="m" value="900.0" valueMax="1000.0" valueMin="800.0">800–1000 m</elevation>
+</quantity>
+, leg. 
+<collectorName box="[198,285,367,392]" pageId="31" pageNumber="32">A. Pütz</collectorName>
+”.
 </materialsCitation>
 </paragraph>
+</subSubSection>
+<subSubSection pageId="31" pageNumber="32" type="diagnosis">
 <paragraph blockId="31.[151,1437,151,1965]" pageId="31" pageNumber="32">
 <emphasis bold="true" box="[199,462,403,428]" pageId="31" pageNumber="32">Differential diagnosis.</emphasis>
 Pale specimens of 
@@ -400,7 +465,7 @@ by the characters given in the couplet
 of the identification key.
 </paragraph>
 </subSubSection>
-<subSubSection pageId="31" pageNumber="32" type="description">
+<subSubSection lastPageId="33" lastPageNumber="34" pageId="31" pageNumber="32" type="description">
 <paragraph blockId="31.[151,1437,151,1965]" pageId="31" pageNumber="32">
 <emphasis bold="true" box="[199,338,903,928]" pageId="31" pageNumber="32">Description</emphasis>
 (based on the 
@@ -463,9 +528,7 @@ entire, rather narrow.
 </paragraph>
 <paragraph blockId="31.[151,1437,151,1965]" lastBlockId="33.[151,1436,151,711]" lastPageId="33" lastPageNumber="34" pageId="31" pageNumber="32">
 <emphasis bold="true" box="[199,315,1833,1858]" pageId="31" pageNumber="32">Variation.</emphasis>
-The species varies considerably in the extent of the black coloration on the head, pronotum and elytra. Coloration of the frons may vary from entirely dark brown to wide pale spot situated medially. Pronotum may bear large black spot which is wide posteriorly, but trilobate anteriorly, or may be completely black on the disc, with widely pale lateral margins (the pale areas widest anteriorly and narrowest posteriorly in that case) and median 
-<subSubSection pageId="33" pageNumber="34" type="description">
-portion of anterior margin. Elytral coloration varies from largely reddish with irregular dark spots at anterior third of the elytral series (
+The species varies considerably in the extent of the black coloration on the head, pronotum and elytra. Coloration of the frons may vary from entirely dark brown to wide pale spot situated medially. Pronotum may bear large black spot which is wide posteriorly, but trilobate anteriorly, or may be completely black on the disc, with widely pale lateral margins (the pale areas widest anteriorly and narrowest posteriorly in that case) and median portion of anterior margin. Elytral coloration varies from largely reddish with irregular dark spots at anterior third of the elytral series (
 <figureCitation box="[348,441,187,211]" captionStart="FIGURE 60" captionStartId="32.[151,250,1042,1065]" captionTargetBox="[210,1357,184,1017]" captionTargetId="figure@32.[203,1390,163,1024]" captionText="FIGURE 60. Pachysternum kubani, general habitus (a, c–i: dorsal view, b: laterodorsal view). Localities of the specimens: a–b: Laos, Phou Pane Mt.; c: same locality (holotype, male); d: Laos, Phongsaly env. (female); e: same locality (male); f–h: Laos, Ban Nape; i: China, Sichuan, Qingcheng Shan." pageId="33" pageNumber="34">
 Fig. 
 <number box="[400,429,187,211]" pageId="33" pageNumber="34" value="60.0">60</number>
@@ -517,7 +580,6 @@ resembles that observed in
 <emphasis box="[1206,1323,439,462]" italics="true" pageId="33" pageNumber="34">P. stevensi</emphasis>
 </taxonomicName>
 , in which both rounded and emarginate forms are more frequent, however.
-</subSubSection>
 </paragraph>
 </subSubSection>
 <caption pageId="32" pageNumber="33" startId="32.[151,250,1042,1065]" targetBox="[210,1357,184,1017]" targetPageId="32">
@@ -543,7 +605,7 @@ FIGURE
 , Sichuan, Qingcheng Shan.
 </paragraph>
 </caption>
-<caption box="[151,751,2012,2035]" pageId="32" pageNumber="33">
+<caption box="[151,751,2012,2035]" pageId="32" pageNumber="33" startId="32.[151,250,2012,2035]" targetBox="[321,1278,1184,1997]" targetPageId="32">
 <paragraph blockId="32.[151,751,2012,2035]" box="[151,751,2012,2035]" pageId="32" pageNumber="33">
 <emphasis bold="true" box="[151,287,2012,2035]" pageId="32" pageNumber="33">FIGURE 61.</emphasis>
 Known distribution of 

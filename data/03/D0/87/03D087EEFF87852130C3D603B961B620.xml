@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.5063900" ID-GBIF-Dataset="6cd30d14-969b-4b2d-b47d-a671ce3ac555" ID-GBIF-Taxon="119522952" ID-ISSN="1175-5326" ID-Zenodo-Dep="5063900" checkinTime="1460509193570" checkinUser="plazi" docAuthor="Shattuck, Steven O. &amp; Slipinska, Ewa" docDate="2012" docId="03D087EEFF87852130C3D603B961B620" docLanguage="en" docName="zt03426p028.pdf" docOrigin="Zootaxa 3426" docStyle="DocumentStylede.uka.ipd.idaho.easyIO.settings.Settings@b4d83ac" docStyleName="zootaxa.2007.monograph" docTitle="Anochetus rufolatus Shattuck &amp; Slipinska, 2012, n. sp." docType="treatment" docVersion="11" lastPageId="20" lastPageNumber="21" masterDocId="FFE9FF96FF9485353054D76CBD01B41C" masterDocTitle="Revision of the Australian species of the ant genus Anochetus (Hymenoptera: Formicidae)" masterLastPageNumber="28" masterPageNumber="1" pageId="19" pageNumber="20" updateTime="1643543305478" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.5063900" ID-GBIF-Dataset="6cd30d14-969b-4b2d-b47d-a671ce3ac555" ID-GBIF-Taxon="119522952" ID-ISSN="1175-5326" ID-Zenodo-Dep="5063900" checkinTime="1460509193570" checkinUser="plazi" docAuthor="Shattuck, Steven O. &amp; Slipinska, Ewa" docDate="2012" docId="03D087EEFF87852130C3D603B961B620" docLanguage="en" docName="zt03426p028.pdf" docOrigin="Zootaxa 3426" docStyle="DocumentStyle:890A69B780ED73D6DB8551B71C8AC79E.3:Zootaxa.2009-2012.journal_article" docStyleId="890A69B780ED73D6DB8551B71C8AC79E" docStyleName="Zootaxa.2009-2012.journal_article" docStyleVersion="3" docTitle="Anochetus rufolatus, n. sp." docType="treatment" docVersion="15" lastPageId="20" lastPageNumber="21" masterDocId="FFE9FF96FF9485353054D76CBD01B41C" masterDocTitle="Revision of the Australian species of the ant genus Anochetus (Hymenoptera: Formicidae)" masterLastPageNumber="28" masterPageNumber="1" pageId="19" pageNumber="20" updateTime="1647959177451" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Revision of the Australian species of the ant genus Anochetus (Hymenoptera: Formicidae)</mods:title>
@@ -22,6 +22,9 @@
 </mods:titleInfo>
 <mods:part>
 <mods:date>2012</mods:date>
+<mods:detail type="pubDate">
+<mods:number>2012-08-16</mods:number>
+</mods:detail>
 <mods:detail type="volume">
 <mods:number>3426</mods:number>
 </mods:detail>
@@ -32,7 +35,7 @@
 </mods:part>
 </mods:relatedItem>
 <mods:classification>journal article</mods:classification>
-<mods:identifier type="DOI">10.5281/zenodo.282010</mods:identifier>
+<mods:identifier type="DOI">10.11646/zootaxa.3426.1.1</mods:identifier>
 <mods:identifier type="GBIF-Dataset">6cd30d14-969b-4b2d-b47d-a671ce3ac555</mods:identifier>
 <mods:identifier type="ISSN">1175-5326</mods:identifier>
 <mods:identifier type="Zenodo-Dep">282010</mods:identifier>
@@ -42,7 +45,7 @@
 <paragraph blockId="19.[151,471,367,426]" box="[151,471,367,393]" pageId="19" pageNumber="20">
 <heading bold="true" box="[151,471,367,393]" fontSize="11" level="1" pageId="19" pageNumber="20" reason="1">
 <emphasis bold="true" box="[151,471,367,393]" pageId="19" pageNumber="20">
-<taxonomicName box="[151,397,367,393]" class="Insecta" family="Formicidae" genus="Anochetus" kingdom="Animalia" order="Hymenoptera" pageId="19" pageNumber="20" phylum="Arthropoda" rank="species" species="rufolatus" status="n. sp.">
+<taxonomicName authority="SHATTUCK &amp; SLIPINSKA" box="[151,397,367,393]" class="Insecta" family="Formicidae" genus="Anochetus" kingdom="Animalia" order="Hymenoptera" pageId="19" pageNumber="20" phylum="Arthropoda" rank="species" species="rufolatus" status="n. sp.">
 <emphasis bold="true" box="[151,397,367,393]" italics="true" pageId="19" pageNumber="20">Anochetus rufolatus</emphasis>
 </taxonomicName>
 <taxonomicNameLabel box="[405,471,367,393]" pageId="19" pageNumber="20" rank="species">n. sp.</taxonomicNameLabel>
@@ -62,10 +65,14 @@ Fig.
 <typeStatus box="[151,218,475,499]" pageId="19" pageNumber="20">Types</typeStatus>
 .
 </emphasis>
+<materialsCitation ID-GBIF-Occurrence="3712152323" collectingDate="1992-02-26" collectionCode="ANIC" collectorName="H. Reichel" latitude="-14.666667" location="Lizard Island" longLatPrecision="1287" longitude="145.46666" pageId="19" pageNumber="20" specimenCode="ANIC32-044217" specimenCount="1" specimenCount-worker="1" typeStatus="holotype">
 <typeStatus box="[240,344,474,498]" pageId="19" pageNumber="20">Holotype</typeStatus>
-worker from Lizard 
-<collectingCountry box="[576,647,474,498]" name="Iceland" pageId="19" pageNumber="20">Island</collectingCountry>
-, Queensland, 
+<specimenCount box="[350,429,474,498]" pageId="19" pageNumber="20" type="worker">worker</specimenCount>
+from 
+<location LSID="urn:lsid:plazi:treatment:03D087EEFF87852130C3D603B961B620:8EA66023FF87852631A5D6B6BF86B5EE" box="[497,647,474,498]" latitude="-14.666667" longLatPrecision="1287" longitude="145.46666" name="Lizard Island" pageId="19" pageNumber="20">Lizard Island</location>
+, 
+<location LSID="urn:lsid:plazi:treatment:03D087EEFF87852130C3D603B961B620:8EA66023FF87852632C6D6B6BE18B5EE" box="[658,793,474,498]" latitude="-14.666667" longLatPrecision="1287" longitude="145.46666" name="Queensland" pageId="19" pageNumber="20">Queensland</location>
+, 
 <geoCoordinate box="[804,892,474,498]" direction="south" orientation="latitude" pageId="19" pageNumber="20" precision="925" value="-14.666667">
 <number box="[804,832,474,498]" pageId="19" pageNumber="20" value="14.0">14</number>
 ° 
@@ -80,36 +87,58 @@ worker from Lizard
 </geoCoordinate>
 , 
 <date box="[1014,1214,474,498]" pageId="19" pageNumber="20" value="1992-02-26">
+<collectingDate box="[1014,1214,474,498]" pageId="19" pageNumber="20" value="1992-02-26">
 <number box="[1014,1042,474,498]" pageId="19" pageNumber="20" value="26.0">26</number>
 February 
 <number box="[1156,1214,474,498]" pageId="19" pageNumber="20" value="1992.0">1992</number>
+</collectingDate>
 </date>
-, H. Reichel (
+, 
+<collectorName box="[1225,1344,474,498]" pageId="19" pageNumber="20">H. Reichel</collectorName>
+(
 <collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[1359,1432,474,498]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="19" pageNumber="20">ANIC</collectionCode>
 , 
-<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[151,223,510,534]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="19" pageNumber="20">ANIC</collectionCode>
+<specimenCode box="[151,346,510,534]" pageId="19" pageNumber="20">
+ANIC 
 <number box="[223,251,510,534]" pageId="19" pageNumber="20" value="32.0">32</number>
--044217); two 
+-044217
+</specimenCode>
+)
+</materialsCitation>
+; two 
 <typeStatus box="[415,511,511,535]" pageId="19" pageNumber="20">paratype</typeStatus>
 workers, same data as 
 <typeStatus box="[775,873,510,534]" pageId="19" pageNumber="20">holotype</typeStatus>
-except one worker 
-<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[1096,1166,510,534]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="19" pageNumber="20">ANIC</collectionCode>
+except 
+<materialsCitation ID-GBIF-Occurrence="3712152334" box="[961,1286,510,534]" collectionCode="ANIC" pageId="19" pageNumber="20" specimenCode="ANIC32" specimenCount="1" specimenCount-worker="1">
+<specimenCount box="[961,1088,510,534]" pageId="19" pageNumber="20" type="worker">one worker</specimenCount>
+<specimenCode box="[1096,1193,510,534]" pageId="19" pageNumber="20">
+ANIC 
 <number box="[1166,1193,510,534]" pageId="19" pageNumber="20" value="32.0">32</number>
--059572 (
-<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[1302,1376,510,534]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="19" pageNumber="20">ANIC</collectionCode>
+</specimenCode>
+-059572
+</materialsCitation>
+(
+<materialsCitation ID-GBIF-Occurrence="3712152357" collectingDate="1992-02-25" collectionCode="ANIC" pageId="19" pageNumber="20" specimenCode="ANIC32" specimenCount="1">
+<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[1302,1376,510,534]" collectionName="Australia, Australian Capital Territory, Canberra City, CSIRO, Australian National Insect Collection" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="19" pageNumber="20">ANIC</collectionCode>
 ), one collected 
 <date box="[259,458,546,570]" pageId="19" pageNumber="20" value="1992-02-25">
+<collectingDate box="[259,458,546,570]" pageId="19" pageNumber="20" value="1992-02-25">
 <number box="[259,287,546,570]" pageId="19" pageNumber="20" value="25.0">25</number>
 February 
 <number box="[402,458,546,570]" pageId="19" pageNumber="20" value="1992.0">1992</number>
+</collectingDate>
 </date>
 (
-<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[473,546,546,570]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="19" pageNumber="20">ANIC</collectionCode>
+<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[473,546,546,570]" collectionName="Australia, Australian Capital Territory, Canberra City, CSIRO, Australian National Insect Collection" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="19" pageNumber="20">ANIC</collectionCode>
 , 
-<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[557,629,546,570]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="19" pageNumber="20">ANIC</collectionCode>
+<specimenCode box="[557,657,546,570]" pageId="19" pageNumber="20">
+ANIC 
 <number box="[629,657,546,570]" pageId="19" pageNumber="20" value="32.0">32</number>
--044218).
+</specimenCode>
+-044218)
+</materialsCitation>
+.
 </paragraph>
 </subSubSection>
 <subSubSection pageId="19" pageNumber="20" type="diagnosis">

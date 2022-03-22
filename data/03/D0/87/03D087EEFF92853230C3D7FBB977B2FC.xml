@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.5063888" ID-GBIF-Dataset="6cd30d14-969b-4b2d-b47d-a671ce3ac555" ID-GBIF-Taxon="119522948" ID-ISSN="1175-5326" ID-Zenodo-Dep="5063888" checkinTime="1460509193570" checkinUser="plazi" docAuthor="Shattuck, Steven O. &amp; Slipinska, Ewa" docDate="2012" docId="03D087EEFF92853230C3D7FBB977B2FC" docLanguage="en" docName="zt03426p028.pdf" docOrigin="Zootaxa 3426" docStyle="DocumentStylede.uka.ipd.idaho.easyIO.settings.Settings@b4d83ac" docStyleName="zootaxa.2007.monograph" docTitle="Anochetus armstrongi McAreavey" docType="treatment" docVersion="11" lastPageId="7" lastPageNumber="8" masterDocId="FFE9FF96FF9485353054D76CBD01B41C" masterDocTitle="Revision of the Australian species of the ant genus Anochetus (Hymenoptera: Formicidae)" masterLastPageNumber="28" masterPageNumber="1" pageId="6" pageNumber="7" updateTime="1643543305478" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.5063888" ID-GBIF-Dataset="6cd30d14-969b-4b2d-b47d-a671ce3ac555" ID-GBIF-Taxon="119522948" ID-ISSN="1175-5326" ID-Zenodo-Dep="5063888" approvalRequired="12" approvalRequired_for_taxonomicNames="9" approvalRequired_for_textStreams="3" checkinTime="1460509193570" checkinUser="plazi" docAuthor="Shattuck, Steven O. &amp; Slipinska, Ewa" docDate="2012" docId="03D087EEFF92853230C3D7FBB977B2FC" docLanguage="en" docName="zt03426p028.pdf" docOrigin="Zootaxa 3426" docStyle="DocumentStyle:890A69B780ED73D6DB8551B71C8AC79E.3:Zootaxa.2009-2012.journal_article" docStyleId="890A69B780ED73D6DB8551B71C8AC79E" docStyleName="Zootaxa.2009-2012.journal_article" docStyleVersion="3" docTitle="Anochetus armstrongi McAreavey" docType="treatment" docVersion="15" lastPageId="7" lastPageNumber="8" masterDocId="FFE9FF96FF9485353054D76CBD01B41C" masterDocTitle="Revision of the Australian species of the ant genus Anochetus (Hymenoptera: Formicidae)" masterLastPageNumber="28" masterPageNumber="1" pageId="6" pageNumber="7" updateTime="1647958297921" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Revision of the Australian species of the ant genus Anochetus (Hymenoptera: Formicidae)</mods:title>
@@ -22,6 +22,9 @@
 </mods:titleInfo>
 <mods:part>
 <mods:date>2012</mods:date>
+<mods:detail type="pubDate">
+<mods:number>2012-08-16</mods:number>
+</mods:detail>
 <mods:detail type="volume">
 <mods:number>3426</mods:number>
 </mods:detail>
@@ -32,7 +35,7 @@
 </mods:part>
 </mods:relatedItem>
 <mods:classification>journal article</mods:classification>
-<mods:identifier type="DOI">10.5281/zenodo.282010</mods:identifier>
+<mods:identifier type="DOI">10.11646/zootaxa.3426.1.1</mods:identifier>
 <mods:identifier type="GBIF-Dataset">6cd30d14-969b-4b2d-b47d-a671ce3ac555</mods:identifier>
 <mods:identifier type="ISSN">1175-5326</mods:identifier>
 <mods:identifier type="Zenodo-Dep">282010</mods:identifier>
@@ -63,12 +66,12 @@ McAreavey
 <taxonomicName authority="McAreavey, 1949: 1" authorityName="McAreavey" authorityPageNumber="1" authorityYear="1949" box="[151,588,258,280]" class="Insecta" family="Formicidae" genus="Anochetus" kingdom="Animalia" order="Hymenoptera" pageId="6" pageNumber="7" phylum="Arthropoda" rank="species" species="armstrongi">
 <emphasis box="[151,374,258,280]" italics="true" pageId="6" pageNumber="7">Anochetus armstrongi</emphasis>
 <treatmentCitation author="McAreavey" box="[380,588,259,280]" page="1" pageId="6" pageNumber="7" year="1949">
-<bibRefCitation author="McAreavey" box="[380,565,259,280]" pageId="6" pageNumber="7" refString="McAreavey, J. J. (1949) Australian Formicidae. New genera and species. Proceedings of the Linnean Society of New South Wales, 74, 1 - 25." type="journal article" year="1949">
+<bibRefCitation author="McAreavey" box="[380,588,259,280]" firstAuthor="McAreavey" page="1" pageId="6" pageNumber="7" pagination="1 - 25" refId="ref16825" refString="McAreavey, J. J. (1949) Australian Formicidae. New genera and species. Proceedings of the Linnean Society of New South Wales, 74, 1 - 25." type="journal article" year="1949">
 McAreavey, 
 <number box="[511,565,259,280]" pageId="6" pageNumber="7" value="1949.0">1949</number>
-</bibRefCitation>
 : 
 <number box="[575,588,259,280]" pageId="6" pageNumber="7" value="1.0">1</number>
+</bibRefCitation>
 </treatmentCitation>
 </taxonomicName>
 .
@@ -79,26 +82,21 @@ McAreavey,
 <typeStatus box="[151,218,324,348]" pageId="6" pageNumber="7">Types</typeStatus>
 .
 </emphasis>
+<materialsCitation ID-GBIF-Occurrence="3712144308" country="Australia" location="New South Wales" pageId="6" pageNumber="7" specimenCount="36" specimenCount-worker="36" typeStatus="holotype">
 <typeStatus box="[244,348,324,348]" pageId="6" pageNumber="7">Holotype</typeStatus>
-worker and worker and queen 
-<typeStatus box="[704,811,325,349]" pageId="6" pageNumber="7">paratypes</typeStatus>
-from Nyngan, New South 
-<collectingCountry box="[1122,1190,324,348]" name="United Kingdom" pageId="6" pageNumber="7">Wales</collectingCountry>
-(
-<typeStatus box="[1206,1308,324,348]" pageId="6" pageNumber="7">holotype</typeStatus>
-, 
+worker and worker and queen paratypes from Nyngan, New South Wales (holotype, 
 <specimenCount box="[1320,1436,324,348]" pageId="6" pageNumber="7" type="worker">
 <number box="[1320,1348,324,348]" pageId="6" pageNumber="7" value="36.0">36</number>
 worker
 </specimenCount>
-and 
-<specimenCount box="[199,288,358,382]" pageId="6" pageNumber="7" type="queen">
+and
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3712144316" collectionCode="ANIC, MCZC, BMNH" country="New South Wales" location="New South Wales" pageId="6" pageNumber="7" specimenCount="36" specimenCount-worker="36" typeStatus="holotype">
 <number box="[199,213,358,382]" pageId="6" pageNumber="7" value="6.0">6</number>
-queen
-</specimenCount>
+queen 
 <typeStatus box="[296,404,359,383]" pageId="6" pageNumber="7">paratypes</typeStatus>
 in 
-<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[441,513,358,382]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="6" pageNumber="7">ANIC</collectionCode>
+<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[441,513,358,382]" collectionName="Australia, Australian Capital Territory, Canberra City, CSIRO, Australian National Insect Collection" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="6" pageNumber="7">ANIC</collectionCode>
 , examined; 
 <specimenCount box="[649,750,358,382]" pageId="6" pageNumber="7" type="worker">
 <number box="[649,663,358,382]" pageId="6" pageNumber="7" value="4.0">4</number>
@@ -106,12 +104,15 @@ worker
 </specimenCount>
 <typeStatus box="[758,865,359,383]" pageId="6" pageNumber="7">paratypes</typeStatus>
 in 
-<collectionCode box="[903,985,358,382]" pageId="6" pageNumber="7">MCZC</collectionCode>
-, examined; additional worker 
+<collectionCode box="[903,985,358,382]" collectionName="USA, Massachusetts, Cambridge, Harvard University, Museum of Comparative Zoology" pageId="6" pageNumber="7">MCZC</collectionCode>
+, examined; additional 
+<specimenCount box="[1241,1320,358,382]" pageId="6" pageNumber="7" type="worker">worker</specimenCount>
 <typeStatus box="[1329,1436,359,383]" pageId="6" pageNumber="7">paratypes</typeStatus>
 in 
-<collectionCode box="[180,269,393,417]" pageId="6" pageNumber="7">BMNH</collectionCode>
-).
+<collectionCode box="[180,269,393,417]" collectionName="United Kingdom, London, The Natural History Museum [formerly British Museum (Natural History)]" pageId="6" pageNumber="7">BMNH</collectionCode>
+)
+</materialsCitation>
+.
 </paragraph>
 </subSubSection>
 <subSubSection pageId="6" pageNumber="7" type="diagnosis">
@@ -227,154 +228,476 @@ Worker (n =
 <paragraph blockId="7.[151,1437,151,1761]" pageId="7" pageNumber="8">
 <emphasis bold="true" box="[199,558,475,500]" pageId="7" pageNumber="8">
 Material examined. 
+<materialsCitation ID-GBIF-Occurrence="3712144311" collectionCode="ANIC" collectorName="Greaves, T." country="Australia" location="Quambone" municipality="Nyngan" pageId="7" pageNumber="8" specimenCount="1" stateProvince="New South Wales">
 <collectingCountry box="[446,558,475,500]" name="Australia" pageId="7" pageNumber="8">Australia</collectingCountry>
-</emphasis>
 : 
 <emphasis box="[573,767,476,500]" italics="true" pageId="7" pageNumber="8">
-New South 
-<collectingCountry box="[701,767,476,500]" name="United Kingdom" pageId="7" pageNumber="8">Wales</collectingCountry>
+<collectingRegion box="[573,767,476,500]" country="Australia" name="New South Wales" pageId="7" pageNumber="8">New South Wales</collectingRegion>
 </emphasis>
 : 
 <number box="[781,809,476,500]" pageId="7" pageNumber="8" value="14.0">14</number>
-ml. NW of Nyngan (Greaves, T.) (
-<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[1202,1277,476,500]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
+ml. NW of 
+<collectingMunicipality box="[944,1033,477,501]" pageId="7" pageNumber="8">Nyngan</collectingMunicipality>
+(
+<collectorName box="[1048,1178,476,500]" pageId="7" pageNumber="8">Greaves, T.</collectorName>
+) (
+<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[1202,1277,476,500]" collectionName="Australia, Australian Capital Territory, Canberra City, CSIRO, Australian National Insect Collection" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
 ); 
 <number box="[1296,1324,476,500]" pageId="7" pageNumber="8" value="14.0">14</number>
-mls. N of Quambone (Greaves, T.) (
-<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[444,518,511,535]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
-); 
-<quantity box="[538,610,511,535]" metricMagnitude="4" metricUnit="m" metricValue="1.5" pageId="7" pageNumber="8" unit="km" value="15.0">15 km</quantity>
-Pilliga Scrub, Narrabri (Room, P.M.) (
-<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[1048,1123,511,535]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
-); 
-<quantity box="[1142,1206,511,535]" metricMagnitude="4" metricUnit="m" metricValue="2.7" pageId="7" pageNumber="8" unit="km" value="27.0">27km</quantity>
-S Hillston (Lowery, B.B.) (
-<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[227,302,548,572]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
-); 
-<quantity box="[322,380,548,572]" metricMagnitude="3" metricUnit="m" metricValue="5.0" pageId="7" pageNumber="8" unit="km" value="5.0">5 km</quantity>
-N of Condobolin (Lowery, B.B.) (
-<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[773,848,548,572]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
-); Bogan River (Armstrong, J.) (
-<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[1207,1282,548,572]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
-); Broken Hill (Shepherd, F.) (
-<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[328,403,583,607]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
-); Burke (collector unknown) (
-<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[746,821,583,607]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
-); Callubri Station (Greaves, T.) (
-<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[1194,1269,583,607]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
-); 
-<collectionCode box="[1289,1372,583,607]" httpUri="http://grbio.org/cool/0k2v-y6wz" name="Australian National Fish Collection" pageId="7" pageNumber="8">CSIRO</collectionCode>
-Lake Mere field stn, nr. Louth (Bryannah, M.) (
-<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[620,695,620,644]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
-); Euston (Froggatt, W.W.) (
-<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[1004,1079,620,644]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
-); Finley (White, W.B.) (
-<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[1349,1424,620,644]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
-); Griffith to Leeton (Greaves, T.) (
-<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[539,613,655,679]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
-); Hillston (Lowery, B.B.) (
-<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[931,1005,655,679]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
-); Hillston, Rail. Res. (Lowery, B.B.) (
-<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[159,234,692,716]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
-); Lake Mere, 
-<quantity box="[396,470,692,716]" metricMagnitude="4" metricUnit="m" metricValue="4.0" pageId="7" pageNumber="8" unit="km" value="40.0">40 km</quantity>
-NNE Louth (Greenslade, P.J.M.) (
-<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[871,946,692,716]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
-); Mairjimmy SF, 
-<quantity box="[1150,1214,692,716]" metricMagnitude="4" metricUnit="m" metricValue="1.2" pageId="7" pageNumber="8" unit="km" value="12.0">12km</quantity>
-N Finley (Lowery, B.B.) (
-<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[231,306,727,751]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
-); Nyngan (Armstrong, J.; Lowery, B.B.) (
-<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[804,877,727,751]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
-); Palmer SF, 
-<quantity box="[1041,1105,727,751]" metricMagnitude="4" metricUnit="m" metricValue="2.7" pageId="7" pageNumber="8" unit="km" value="27.0">27km</quantity>
-E Jerilderie (Lowery, B.B.) (
-<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[159,234,764,788]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
-); Pillia E, Narrabri (Room, P.M.) (
-<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[661,736,764,788]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
-); 
-<taxonomicName authority="Froggatt, W.W." authorityName="Froggatt, W.W." authorityYear="1872" box="[762,1069,764,788]" class="Chromadorea" family="Chromadoridae" genus="Riverina" higherTaxonomySource="GBIF" kingdom="Animalia" order="Chromadorida" pageId="7" pageNumber="8" phylum="Nematoda" rank="genus">Riverina (Froggatt, W.W.)</taxonomicName>
+mls. N of 
+<location LSID="urn:lsid:plazi:treatment:03D087EEFF92853230C3D7FBB977B2FC:8EA66023FF93853230C3D693BC13B60B" box="[151,274,511,535]" country="Australia" municipality="Nyngan" name="Quambone" pageId="7" pageNumber="8" stateProvince="New South Wales">Quambone</location>
 (
-<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[1090,1165,764,788]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
-); Talbita (Greaves, T.) (
-<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[159,234,799,823]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
-); 
-<emphasis box="[253,387,800,824]" italics="true" pageId="7" pageNumber="8">Queensland</emphasis>
-: 
-<quantity box="[402,473,799,823]" metricMagnitude="4" metricUnit="m" metricValue="1.6" pageId="7" pageNumber="8" unit="km" value="16.0">16 km</quantity>
-W Cunnamulla (Greenslade, P.J.M.) (
-<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[901,976,799,823]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
-); 
-<quantity box="[995,1066,799,823]" metricMagnitude="4" metricUnit="m" metricValue="2.0" pageId="7" pageNumber="8" unit="km" value="20.0">20 km</quantity>
-WSW of Eungella (Gillison, A.) (
-<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[159,234,836,860]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
-); 
-<quantity box="[253,314,836,860]" metricMagnitude="4" metricUnit="m" metricValue="4.828032" pageId="7" pageNumber="8" unit="mi" value="30.0">30mi</quantity>
-. N Tambo (Lowery, B.B.) (
-<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[618,693,836,860]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
-); 
-<quantity box="[712,766,836,860]" metricMagnitude="3" metricUnit="m" metricValue="6.437376" pageId="7" pageNumber="8" unit="mi" value="4.0">4 mi</quantity>
-. WNW of Yelarbon (Greaves, T.) (
-<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[1155,1230,836,860]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
-); Fletcher (Sutton, E.) (
-<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[201,276,871,895]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
-); Helenslee Station (Greaves, T.) (
-<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[670,745,871,895]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
-); Nindigully (Greaves, T.) (
-<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[1063,1138,871,895]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
-); St. George (Greaves, T.; Lowery, B.B.) (
-<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[332,407,908,932]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
-); Toobeal (Greaves, T.) (
-<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[697,772,908,932]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
-); 
-<emphasis box="[794,972,908,932]" italics="true" pageId="7" pageNumber="8">
-South 
-<collectingCountry box="[868,972,908,932]" name="Australia" pageId="7" pageNumber="8">Australia</collectingCountry>
+<collectorName box="[289,420,511,535]" pageId="7" pageNumber="8">Greaves, T.</collectorName>
+) (
+<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[444,518,511,535]" collectionName="Australia, Australian Capital Territory, Canberra City, CSIRO, Australian National Insect Collection" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
+);
+</materialsCitation>
+</emphasis>
+<materialsCitation ID-GBIF-Occurrence="3712144312" box="[538,1135,511,535]" collectionCode="ANIC" collectorName="Room, P. M." location="Narrabri" municipality="Pilliga Scrub" pageId="7" pageNumber="8" specimenCount="1">
+<quantity box="[538,610,511,535]" metricMagnitude="4" metricUnit="m" metricValue="1.5" pageId="7" pageNumber="8" unit="km" value="15.0">
+<locationDeviation box="[538,610,511,535]" metricMagnitude="4" metricUnit="m" metricValue="1.5" pageId="7" pageNumber="8" unit="km" value="15.0">15 km</locationDeviation>
+</quantity>
+<collectingMunicipality box="[617,765,511,535]" pageId="7" pageNumber="8">Pilliga Scrub</collectingMunicipality>
+, 
+<location LSID="urn:lsid:plazi:treatment:03D087EEFF92853230C3D7FBB977B2FC:8EA66023FF938532335DD693BE69B60B" box="[777,872,511,535]" municipality="Pilliga Scrub" name="Narrabri" pageId="7" pageNumber="8">Narrabri</location>
+(
+<collectorName box="[887,1024,511,535]" pageId="7" pageNumber="8">Room, P.M.</collectorName>
+) (
+<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[1048,1123,511,535]" collectionName="Australia, Australian Capital Territory, Canberra City, CSIRO, Australian National Insect Collection" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
+);
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3712144333" collectionCode="ANIC" collectorName="Lowery, B. B." location="Hillston" pageId="7" pageNumber="8" specimenCount="1">
+<locationDeviation bearing="180.0" box="[1142,1230,511,535]" distance="27000.0" pageId="7" pageNumber="8">
+<quantity box="[1142,1206,511,535]" metricMagnitude="4" metricUnit="m" metricValue="2.7" pageId="7" pageNumber="8" unit="km" value="27.0">27km</quantity>
+S
+</locationDeviation>
+<location LSID="urn:lsid:plazi:treatment:03D087EEFF92853230C3D7FBB977B2FC:8EA66023FF9385323481D693B82EB60B" box="[1237,1327,511,535]" name="Hillston" pageId="7" pageNumber="8">Hillston</location>
+(
+<collectorName pageId="7" pageNumber="8">Lowery, B.B.</collectorName>
+) (
+<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[227,302,548,572]" collectionName="Australia, Australian Capital Territory, Canberra City, CSIRO, Australian National Insect Collection" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
+);
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3712144329" box="[322,859,548,572]" collectionCode="ANIC" collectorName="Lowery, B. B." location="Condobolin" pageId="7" pageNumber="8" specimenCount="1">
+<locationDeviation bearing="0.0" box="[322,439,548,572]" distance="5000.0" pageId="7" pageNumber="8">
+<quantity box="[322,380,548,572]" metricMagnitude="3" metricUnit="m" metricValue="5.0" pageId="7" pageNumber="8" unit="km" value="5.0">5 km</quantity>
+N of
+</locationDeviation>
+<location LSID="urn:lsid:plazi:treatment:03D087EEFF92853230C3D7FBB977B2FC:8EA66023FF93853231EBD548BF42B620" box="[447,579,548,572]" name="Condobolin" pageId="7" pageNumber="8">Condobolin</location>
+(
+<collectorName box="[594,747,548,572]" pageId="7" pageNumber="8">Lowery, B.B.</collectorName>
+) (
+<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[773,848,548,572]" collectionName="Australia, Australian Capital Territory, Canberra City, CSIRO, Australian National Insect Collection" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
+);
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3712144325" box="[867,1294,548,573]" collectionCode="ANIC" collectorName="Armstrong, J." location="Bogan River" pageId="7" pageNumber="8" specimenCount="1">
+<location LSID="urn:lsid:plazi:treatment:03D087EEFF92853230C3D7FBB977B2FC:8EA66023FF9385323337D549BEF3B620" box="[867,1010,548,573]" name="Bogan River" pageId="7" pageNumber="8">Bogan River</location>
+(
+<collectorName box="[1026,1182,548,572]" pageId="7" pageNumber="8">Armstrong, J.</collectorName>
+) (
+<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[1207,1282,548,572]" collectionName="Australia, Australian Capital Territory, Canberra City, CSIRO, Australian National Insect Collection" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
+);
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3712144324" collectionCode="ANIC" collectorName="Shepherd, F." location="Broken Hill" pageId="7" pageNumber="8" specimenCount="1">
+<location LSID="urn:lsid:plazi:treatment:03D087EEFF92853230C3D7FBB977B2FC:8EA66023FF9385323542D548B89DB620" box="[1302,1436,548,572]" name="Broken Hill" pageId="7" pageNumber="8">Broken Hill</location>
+(
+<collectorName box="[158,303,583,607]" pageId="7" pageNumber="8">Shepherd, F.</collectorName>
+) (
+<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[328,403,583,607]" collectionName="Australia, Australian Capital Territory, Canberra City, CSIRO, Australian National Insect Collection" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
+);
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3712144327" box="[423,832,583,607]" collectionCode="ANIC" location="Burke" pageId="7" pageNumber="8" specimenCount="1">
+<location LSID="urn:lsid:plazi:treatment:03D087EEFF92853230C3D7FBB977B2FC:8EA66023FF93853231F3D52BBCEAB643" box="[423,491,583,607]" name="Burke" pageId="7" pageNumber="8">Burke</location>
+(collector unknown) (
+<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[746,821,583,607]" collectionName="Australia, Australian Capital Territory, Canberra City, CSIRO, Australian National Insect Collection" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
+);
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3712144345" box="[841,1280,583,607]" collectionCode="ANIC" collectorName="Greaves, T." location="Callubri Station" pageId="7" pageNumber="8" specimenCount="1">
+<location LSID="urn:lsid:plazi:treatment:03D087EEFF92853230C3D7FBB977B2FC:8EA66023FF938532331DD52BBEFCB643" box="[841,1021,583,607]" name="Callubri Station" pageId="7" pageNumber="8">Callubri Station</location>
+(
+<collectorName box="[1037,1169,583,607]" pageId="7" pageNumber="8">Greaves, T.</collectorName>
+) (
+<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[1194,1269,583,607]" collectionName="Australia, Australian Capital Territory, Canberra City, CSIRO, Australian National Insect Collection" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
+);
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3712144330" collectionCode="CSIRO, ANIC" collectorName="Bryannah, M." location="Louth" municipality="Lake Mere" pageId="7" pageNumber="8" specimenCount="1">
+<collectionCode box="[1289,1372,583,607]" collectionName="Australia, Commonwealth Scientific and Industrial Research Organisation" httpUri="http://grbio.org/cool/0k2v-y6wz" name="Australian National Fish Collection" pageId="7" pageNumber="8">CSIRO</collectionCode>
+<collectingMunicipality pageId="7" pageNumber="8">Lake Mere</collectingMunicipality>
+field stn, nr. 
+<location LSID="urn:lsid:plazi:treatment:03D087EEFF92853230C3D7FBB977B2FC:8EA66023FF9385323132D500BCA8B698" box="[358,425,620,644]" municipality="Lake Mere" name="Louth" pageId="7" pageNumber="8">Louth</location>
+(
+<collectorName box="[440,597,620,644]" pageId="7" pageNumber="8">Bryannah, M.</collectorName>
+) (
+<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[620,695,620,644]" collectionName="Australia, Australian Capital Territory, Canberra City, CSIRO, Australian National Insect Collection" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
+);
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3712144339" box="[715,1091,620,644]" collectionCode="ANIC" collectorName="Froggatt, W. W." location="Euston" pageId="7" pageNumber="8" specimenCount="1">
+<location LSID="urn:lsid:plazi:treatment:03D087EEFF92853230C3D7FBB977B2FC:8EA66023FF938532329FD501BE18B698" box="[715,793,621,644]" name="Euston" pageId="7" pageNumber="8">Euston</location>
+(
+<collectorName box="[807,982,620,644]" pageId="7" pageNumber="8">Froggatt, W.W.</collectorName>
+) (
+<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[1004,1079,620,644]" collectionName="Australia, Australian Capital Territory, Canberra City, CSIRO, Australian National Insect Collection" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
+);
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3712144320" box="[1098,1436,620,644]" collectionCode="ANIC" collectorName="White, W. B." location="Finley" pageId="7" pageNumber="8" specimenCount="1">
+<location LSID="urn:lsid:plazi:treatment:03D087EEFF92853230C3D7FBB977B2FC:8EA66023FF938532341ED500B993B698" box="[1098,1170,620,644]" name="Finley" pageId="7" pageNumber="8">Finley</location>
+(
+<collectorName box="[1184,1326,620,644]" pageId="7" pageNumber="8">White, W.B.</collectorName>
+) (
+<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[1349,1424,620,644]" collectionName="Australia, Australian Capital Territory, Canberra City, CSIRO, Australian National Insect Collection" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
+);
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3712144337" box="[151,625,655,679]" collectionCode="ANIC" collectorName="Greaves, T." location="Griffith to Leeton" pageId="7" pageNumber="8" specimenCount="1">
+<location LSID="urn:lsid:plazi:treatment:03D087EEFF92853230C3D7FBB977B2FC:8EA66023FF93853230C3D5E3BC67B6BB" box="[151,358,655,679]" name="Griffith to Leeton" pageId="7" pageNumber="8">Griffith to Leeton</location>
+(
+<collectorName box="[377,512,655,679]" pageId="7" pageNumber="8">Greaves, T.</collectorName>
+) (
+<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[539,613,655,679]" collectionName="Australia, Australian Capital Territory, Canberra City, CSIRO, Australian National Insect Collection" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
+);
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3712144346" box="[637,1017,655,679]" collectionCode="ANIC" collectorName="Lowery, B. B." location="Hillston" municipality="Hillston" pageId="7" pageNumber="8" specimenCount="1">
+<collectingMunicipality box="[637,727,655,679]" pageId="7" pageNumber="8">Hillston</collectingMunicipality>
+(
+<collectorName box="[746,902,655,679]" pageId="7" pageNumber="8">Lowery, B.B.</collectorName>
+) (
+<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[931,1005,655,679]" collectionName="Australia, Australian Capital Territory, Canberra City, CSIRO, Australian National Insect Collection" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
+);
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3712144309" collectionCode="ANIC" collectorName="Lowery, B. B." location="Hillston" pageId="7" pageNumber="8" specimenCount="1">
+<location LSID="urn:lsid:plazi:treatment:03D087EEFF92853230C3D7FBB977B2FC:8EA66023FF9385323451D5E3B963B6BB" box="[1029,1122,655,679]" name="Hillston" pageId="7" pageNumber="8">Hillston</location>
+, 
+<location LSID="urn:lsid:plazi:treatment:03D087EEFF92853230C3D7FBB977B2FC:8EA66023FF9385323425D5E3B9E2B6BB" box="[1137,1251,655,679]" name="Rail. Res." pageId="7" pageNumber="8">Rail. Res.</location>
+(
+<collectorName box="[1270,1426,655,679]" pageId="7" pageNumber="8">Lowery, B.B.</collectorName>
+) (
+<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[159,234,692,716]" collectionName="Australia, Australian Capital Territory, Canberra City, CSIRO, Australian National Insect Collection" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
+);
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3712144307" box="[255,957,692,716]" collectionCode="ANIC" collectorName="Greenslade, P. J. M." location="Louth" municipality="Lake Mere" pageId="7" pageNumber="8" specimenCount="1">
+<collectingMunicipality box="[255,383,692,716]" pageId="7" pageNumber="8">Lake Mere</collectingMunicipality>
+, 
+<locationDeviation bearing="22.5" box="[396,537,692,716]" distance="40000.0" pageId="7" pageNumber="8">
+<quantity box="[396,470,692,716]" metricMagnitude="4" metricUnit="m" metricValue="4.0" pageId="7" pageNumber="8" unit="km" value="40.0">40 km</quantity>
+NNE
+</locationDeviation>
+<location LSID="urn:lsid:plazi:treatment:03D087EEFF92853230C3D7FBB977B2FC:8EA66023FF9385323276D5D8BF64B6D0" box="[546,613,692,716]" municipality="Lake Mere" name="Louth" pageId="7" pageNumber="8">Louth</location>
+(
+<collectorName box="[630,845,692,716]" pageId="7" pageNumber="8">Greenslade, P.J.M.</collectorName>
+) (
+<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[871,946,692,716]" collectionName="Australia, Australian Capital Territory, Canberra City, CSIRO, Australian National Insect Collection" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
+);
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3712144304" collectionCode="ANIC" collectorName="Lowery, B. B." location="Finley" municipality="Mairjimmy" pageId="7" pageNumber="8" specimenCount="1">
+<collectingMunicipality box="[967,1095,692,716]" pageId="7" pageNumber="8">Mairjimmy</collectingMunicipality>
+SF, 
+<locationDeviation bearing="0.0" box="[1150,1243,692,716]" distance="12000.0" pageId="7" pageNumber="8">
+<quantity box="[1150,1214,692,716]" metricMagnitude="4" metricUnit="m" metricValue="1.2" pageId="7" pageNumber="8" unit="km" value="12.0">12km</quantity>
+N
+</locationDeviation>
+<location LSID="urn:lsid:plazi:treatment:03D087EEFF92853230C3D7FBB977B2FC:8EA66023FF93853234B1D5D8B82CB6D0" box="[1253,1325,692,716]" municipality="Mairjimmy" name="Finley" pageId="7" pageNumber="8">Finley</location>
+(
+<collectorName pageId="7" pageNumber="8">Lowery, B.B.</collectorName>
+) (
+<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[231,306,727,751]" collectionName="Australia, Australian Capital Territory, Canberra City, CSIRO, Australian National Insect Collection" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
+);
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3712144302" box="[330,889,727,752]" collectionCode="ANIC" collectorName="Armstrong, J. &amp; Lowery, B. B." location="Nyngan" municipality="Nyngan" pageId="7" pageNumber="8" specimenCount="1">
+<collectingMunicipality box="[330,419,728,752]" pageId="7" pageNumber="8">Nyngan</collectingMunicipality>
+(
+<collectorName box="[438,601,727,751]" pageId="7" pageNumber="8">Armstrong, J.</collectorName>
+; 
+<collectorName box="[618,773,727,752]" pageId="7" pageNumber="8">Lowery, B.B.</collectorName>
+) (
+<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[804,877,727,751]" collectionName="Australia, Australian Capital Territory, Canberra City, CSIRO, Australian National Insect Collection" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
+);
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3712144347" collectionCode="ANIC" collectorName="Lowery, B. B." location="Jerilderie" municipality="Palmer" pageId="7" pageNumber="8" specimenCount="1">
+<collectingMunicipality box="[902,981,727,751]" pageId="7" pageNumber="8">Palmer</collectingMunicipality>
+SF, 
+<locationDeviation bearing="90.0" box="[1041,1134,727,751]" distance="27000.0" pageId="7" pageNumber="8">
+<quantity box="[1041,1105,727,751]" metricMagnitude="4" metricUnit="m" metricValue="2.7" pageId="7" pageNumber="8" unit="km" value="27.0">27km</quantity>
+E
+</locationDeviation>
+<location LSID="urn:lsid:plazi:treatment:03D087EEFF92853230C3D7FBB977B2FC:8EA66023FF938532342ED5BBB9E3B6F3" box="[1146,1250,727,751]" municipality="Palmer" name="Jerilderie" pageId="7" pageNumber="8">Jerilderie</location>
+(
+<collectorName box="[1269,1426,727,751]" pageId="7" pageNumber="8">Lowery, B.B.</collectorName>
+) (
+<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[159,234,764,788]" collectionName="Australia, Australian Capital Territory, Canberra City, CSIRO, Australian National Insect Collection" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
+);
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3712144341" box="[259,747,764,788]" collectionCode="ANIC" collectorName="Room, P. M." location="Narrabri" municipality="Pillia" pageId="7" pageNumber="8" specimenCount="1">
+<collectingMunicipality box="[259,318,764,788]" pageId="7" pageNumber="8">Pillia</collectingMunicipality>
+E, 
+<location LSID="urn:lsid:plazi:treatment:03D087EEFF92853230C3D7FBB977B2FC:8EA66023FF9385323127D590BCD3B708" box="[371,466,764,788]" municipality="Pillia" name="Narrabri" pageId="7" pageNumber="8">Narrabri</location>
+(
+<collectorName box="[487,631,764,788]" pageId="7" pageNumber="8">Room, P.M.</collectorName>
+) (
+<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[661,736,764,788]" collectionName="Australia, Australian Capital Territory, Canberra City, CSIRO, Australian National Insect Collection" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
+);
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3712144336" box="[762,1177,764,788]" collectionCode="ANIC" collectorName="Froggatt, W. W." location="Riverina" pageId="7" pageNumber="8" specimenCount="1">
+<taxonomicName authority="Froggatt, W.W." authorityName="Froggatt, W.W." authorityYear="1872" box="[762,1069,764,788]" class="Chromadorea" family="Chromadoridae" genus="Riverina" higherTaxonomySource="GBIF" kingdom="Animalia" order="Chromadorida" pageId="7" pageNumber="8" phylum="Nematoda" rank="genus">
+<location LSID="urn:lsid:plazi:treatment:03D087EEFF92853230C3D7FBB977B2FC:8EA66023FF93853232AED590BE5BB708" box="[762,858,764,788]" name="Riverina" pageId="7" pageNumber="8">Riverina</location>
+(
+<collectorName box="[880,1061,764,788]" pageId="7" pageNumber="8">Froggatt, W.W.</collectorName>
+)
+</taxonomicName>
+(
+<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[1090,1165,764,788]" collectionName="Australia, Australian Capital Territory, Canberra City, CSIRO, Australian National Insect Collection" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
+);
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3712144313" collectionCode="ANIC" collectorName="Greaves, T." location="Talbita" pageId="7" pageNumber="8" specimenCount="1">
+<location LSID="urn:lsid:plazi:treatment:03D087EEFF92853230C3D7FBB977B2FC:8EA66023FF93853234F3D590B9F5B708" box="[1191,1268,764,788]" name="Talbita" pageId="7" pageNumber="8">Talbita</location>
+(
+<collectorName box="[1290,1428,764,788]" pageId="7" pageNumber="8">Greaves, T.</collectorName>
+) (
+<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[159,234,799,823]" collectionName="Australia, Australian Capital Territory, Canberra City, CSIRO, Australian National Insect Collection" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
+);
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3712144340" box="[253,987,799,824]" collectionCode="ANIC" collectorName="Greenslade, P. J. M." location="Cunnamulla" municipality="Queensland" pageId="7" pageNumber="8" specimenCount="1">
+<emphasis box="[253,387,800,824]" italics="true" pageId="7" pageNumber="8">
+<collectingMunicipality box="[253,387,800,824]" pageId="7" pageNumber="8">Queensland</collectingMunicipality>
 </emphasis>
 : 
-<quantity box="[990,1053,908,932]" metricMagnitude="4" metricUnit="m" metricValue="1.9" pageId="7" pageNumber="8" unit="km" value="19.0">19km</quantity>
-NbyE Renmark (Shattuck, S. 
-<collectingCountry box="[1397,1422,908,932]" name="Iceland" pageId="7" pageNumber="8">O</collectingCountry>
-.) (
-<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[159,234,943,967]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
-); 
+<locationDeviation bearing="270.0" box="[402,506,799,824]" distance="16000.0" pageId="7" pageNumber="8">
+<quantity box="[402,473,799,823]" metricMagnitude="4" metricUnit="m" metricValue="1.6" pageId="7" pageNumber="8" unit="km" value="16.0">16 km</quantity>
+W
+</locationDeviation>
+<location LSID="urn:lsid:plazi:treatment:03D087EEFF92853230C3D7FBB977B2FC:8EA66023FF9385323255D473BF8BB72B" box="[513,650,799,823]" municipality="Queensland" name="Cunnamulla" pageId="7" pageNumber="8">Cunnamulla</location>
+(
+<collectorName box="[665,877,799,823]" pageId="7" pageNumber="8">Greenslade, P.J.M.</collectorName>
+) (
+<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[901,976,799,823]" collectionName="Australia, Australian Capital Territory, Canberra City, CSIRO, Australian National Insect Collection" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
+);
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3712144319" collectionCode="ANIC" collectorName="Gillison, A." location="Eungella" pageId="7" pageNumber="8" specimenCount="1">
+<locationDeviation bearing="247.5" box="[995,1171,799,823]" distance="20000.0" pageId="7" pageNumber="8">
+<quantity box="[995,1066,799,823]" metricMagnitude="4" metricUnit="m" metricValue="2.0" pageId="7" pageNumber="8" unit="km" value="20.0">20 km</quantity>
+WSW of
+</locationDeviation>
+<location LSID="urn:lsid:plazi:treatment:03D087EEFF92853230C3D7FBB977B2FC:8EA66023FF93853234CFD473B9FEB72B" box="[1179,1279,799,823]" name="Eungella" pageId="7" pageNumber="8">Eungella</location>
+(
+<collectorName box="[1293,1427,799,823]" pageId="7" pageNumber="8">Gillison, A.</collectorName>
+) (
+<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[159,234,836,860]" collectionName="Australia, Australian Capital Territory, Canberra City, CSIRO, Australian National Insect Collection" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
+);
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3712144338" box="[253,705,836,860]" collectionCode="ANIC" collectorName="Lowery, B. B." location="Tambo" pageId="7" pageNumber="8" specimenCount="1">
+<locationDeviation bearing="0.0" box="[253,344,836,860]" distance="48280.32000000001" pageId="7" pageNumber="8">
+<quantity box="[253,317,836,860]" metricMagnitude="4" metricUnit="m" metricValue="4.828032" pageId="7" pageNumber="8" unit="mi" value="30.0">
+<quantity box="[253,314,836,860]" metricMagnitude="4" metricUnit="m" metricValue="4.828032" pageId="7" pageNumber="8" unit="mi" value="30.0">30mi</quantity>
+.
+</quantity>
+N
+</locationDeviation>
+<location LSID="urn:lsid:plazi:treatment:03D087EEFF92853230C3D7FBB977B2FC:8EA66023FF938532310AD428BCAAB740" box="[350,427,836,860]" name="Tambo" pageId="7" pageNumber="8">Tambo</location>
+(
+<collectorName box="[442,594,836,860]" pageId="7" pageNumber="8">Lowery, B.B.</collectorName>
+) (
+<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[618,693,836,860]" collectionName="Australia, Australian Capital Territory, Canberra City, CSIRO, Australian National Insect Collection" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
+);
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3712144326" box="[712,1241,836,860]" collectionCode="ANIC" collectorName="Greaves, T." location="Yelarbon" pageId="7" pageNumber="8" specimenCount="1">
+<locationDeviation bearing="292.5" box="[712,879,836,860]" distance="6437.376" pageId="7" pageNumber="8">
+<quantity box="[712,769,836,860]" metricMagnitude="3" metricUnit="m" metricValue="6.437376" pageId="7" pageNumber="8" unit="mi" value="4.0">
+<quantity box="[712,766,836,860]" metricMagnitude="3" metricUnit="m" metricValue="6.437376" pageId="7" pageNumber="8" unit="mi" value="4.0">4 mi</quantity>
+.
+</quantity>
+WNW of
+</locationDeviation>
+<location LSID="urn:lsid:plazi:treatment:03D087EEFF92853230C3D7FBB977B2FC:8EA66023FF9385323321D428BEDBB740" box="[885,986,836,860]" name="Yelarbon" pageId="7" pageNumber="8">Yelarbon</location>
+(
+<collectorName box="[1001,1132,836,860]" pageId="7" pageNumber="8">Greaves, T.</collectorName>
+) (
+<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[1155,1230,836,860]" collectionName="Australia, Australian Capital Territory, Canberra City, CSIRO, Australian National Insect Collection" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
+);
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3712144317" collectionCode="ANIC" collectorName="Sutton, E." location="Fletcher" pageId="7" pageNumber="8" specimenCount="1">
+<location LSID="urn:lsid:plazi:treatment:03D087EEFF92853230C3D7FBB977B2FC:8EA66023FF93853234B4D428B83DB740" box="[1248,1340,836,860]" name="Fletcher" pageId="7" pageNumber="8">Fletcher</location>
+(
+<collectorName pageId="7" pageNumber="8">Sutton, E.</collectorName>
+) (
+<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[201,276,871,895]" collectionName="Australia, Australian Capital Territory, Canberra City, CSIRO, Australian National Insect Collection" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
+);
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3712144348" box="[297,757,871,895]" collectionCode="ANIC" collectorName="Greaves, T." location="Helenslee Station" pageId="7" pageNumber="8" specimenCount="1">
+<location LSID="urn:lsid:plazi:treatment:03D087EEFF92853230C3D7FBB977B2FC:8EA66023FF938532317DD40BBCF1B763" box="[297,496,871,895]" name="Helenslee Station" pageId="7" pageNumber="8">Helenslee Station</location>
+(
+<collectorName box="[513,645,871,895]" pageId="7" pageNumber="8">Greaves, T.</collectorName>
+) (
+<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[670,745,871,895]" collectionName="Australia, Australian Capital Territory, Canberra City, CSIRO, Australian National Insect Collection" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
+);
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3712144321" box="[767,1150,871,895]" collectionCode="ANIC" collectorName="Greaves, T." location="Nindigully" pageId="7" pageNumber="8" specimenCount="1">
+<location LSID="urn:lsid:plazi:treatment:03D087EEFF92853230C3D7FBB977B2FC:8EA66023FF93853232ABD40BBE79B763" box="[767,888,871,895]" name="Nindigully" pageId="7" pageNumber="8">Nindigully</location>
+(
+<collectorName box="[905,1037,871,895]" pageId="7" pageNumber="8">Greaves, T.</collectorName>
+) (
+<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[1063,1138,871,895]" collectionName="Australia, Australian Capital Territory, Canberra City, CSIRO, Australian National Insect Collection" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
+);
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3712144328" collectionCode="ANIC" collectorName="Greaves, T. &amp; Lowery, B. B." location="St. George" pageId="7" pageNumber="8" specimenCount="1">
+<location LSID="urn:lsid:plazi:treatment:03D087EEFF92853230C3D7FBB977B2FC:8EA66023FF93853234D3D40BB801B763" box="[1159,1280,871,895]" name="St. George" pageId="7" pageNumber="8">St. George</location>
+(
+<collectorName box="[1297,1431,871,896]" pageId="7" pageNumber="8">Greaves, T.</collectorName>
+; 
+<collectorName box="[151,304,908,933]" pageId="7" pageNumber="8">Lowery, B.B.</collectorName>
+) (
+<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[332,407,908,932]" collectionName="Australia, Australian Capital Territory, Canberra City, CSIRO, Australian National Insect Collection" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
+);
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3712144334" box="[429,783,908,932]" collectionCode="ANIC" collectorName="Greaves, T." location="Toobeal" pageId="7" pageNumber="8" specimenCount="1">
+<location LSID="urn:lsid:plazi:treatment:03D087EEFF92853230C3D7FBB977B2FC:8EA66023FF93853231F9D4E0BF06B7B8" box="[429,519,908,932]" name="Toobeal" pageId="7" pageNumber="8">Toobeal</location>
+(
+<collectorName box="[537,670,908,932]" pageId="7" pageNumber="8">Greaves, T.</collectorName>
+) (
+<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[697,772,908,932]" collectionName="Australia, Australian Capital Territory, Canberra City, CSIRO, Australian National Insect Collection" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
+);
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3712144305" collectionCode="ANIC" collectorName="Shattuck, S. O." location="Renmark" pageId="7" pageNumber="8" specimenCount="1" stateProvince="South Australia">
+<emphasis box="[794,972,908,932]" italics="true" pageId="7" pageNumber="8">
+<collectingRegion box="[794,972,908,932]" country="Australia" name="South Australia" pageId="7" pageNumber="8">South Australia</collectingRegion>
+</emphasis>
+: 
+<quantity box="[990,1053,908,932]" metricMagnitude="4" metricUnit="m" metricValue="1.9" pageId="7" pageNumber="8" unit="km" value="19.0">
+<locationDeviation box="[990,1053,908,932]" metricMagnitude="4" metricUnit="m" metricValue="1.9" pageId="7" pageNumber="8" unit="km" value="19.0">19km</locationDeviation>
+</quantity>
+NbyE 
+<location LSID="urn:lsid:plazi:treatment:03D087EEFF92853230C3D7FBB977B2FC:8EA66023FF9385323427D4E0B9DBB7B8" box="[1139,1242,908,932]" name="Renmark" pageId="7" pageNumber="8" stateProvince="South Australia">Renmark</location>
+(
+<collectorName box="[1259,1426,908,932]" pageId="7" pageNumber="8">Shattuck, S.O.</collectorName>
+) (
+<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[159,234,943,967]" collectionName="Australia, Australian Capital Territory, Canberra City, CSIRO, Australian National Insect Collection" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
+);
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3712144322" box="[257,765,943,967]" collectionCode="ANIC" collectorName="Lowery, B. B." location="Hawker" pageId="7" pageNumber="8" specimenCount="1">
 <number box="[257,271,943,967]" pageId="7" pageNumber="8" value="5.0">5</number>
-ml. S of Hawker (Lowery, B.B.) (
-<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[679,754,943,967]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
-); 
+ml. S of 
+<location LSID="urn:lsid:plazi:treatment:03D087EEFF92853230C3D7FBB977B2FC:8EA66023FF93853231D0D4C3BCDDB7DB" box="[388,476,943,967]" name="Hawker" pageId="7" pageNumber="8">Hawker</location>
+(
+<collectorName box="[495,650,943,967]" pageId="7" pageNumber="8">Lowery, B.B.</collectorName>
+) (
+<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[679,754,943,967]" collectionName="Australia, Australian Capital Territory, Canberra City, CSIRO, Australian National Insect Collection" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
+);
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3712144344" box="[776,1330,943,969]" collectionCode="ANIC" collectorName="Greenslade, P. J. M." location="Morgan" pageId="7" pageNumber="8" specimenCount="1">
+<locationDeviation bearing="315.0" box="[776,884,943,968]" distance="8000.0" pageId="7" pageNumber="8">
 <quantity box="[776,826,943,967]" metricMagnitude="3" metricUnit="m" metricValue="8.0" pageId="7" pageNumber="8" unit="km" value="8.0">8km</quantity>
-NW Morgan (Greenslade, P.J.M.) (
-<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[1243,1318,943,967]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
-); 
-<specimenCount box="[1340,1384,943,967]" pageId="7" pageNumber="8" type="generic">
+NW
+</locationDeviation>
+<location LSID="urn:lsid:plazi:treatment:03D087EEFF92853230C3D7FBB977B2FC:8EA66023FF938532332AD4DDBED7B7D5" box="[894,982,945,969]" name="Morgan" pageId="7" pageNumber="8">Morgan</location>
+(
+<collectorName box="[1000,1216,943,967]" pageId="7" pageNumber="8">Greenslade, P.J.M.</collectorName>
+) (
+<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[1243,1318,943,967]" collectionName="Australia, Australian Capital Territory, Canberra City, CSIRO, Australian National Insect Collection" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
+);
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3712144303" collectionCode="ANIC" collectorName="Lowery, B. B." location="Morgan" municipality="Morgan" pageId="7" pageNumber="8" specimenCount="8" specimenCount-male="8">
+<specimenCount box="[1340,1384,943,967]" pageId="7" pageNumber="8" type="male">
 <quantity box="[1340,1380,943,967]" metricMagnitude="0" metricUnit="m" metricValue="8.0" pageId="7" pageNumber="8" unit="m" value="8.0">8m</quantity>
 .
 </specimenCount>
-SW Morgan (Lowery, B.B.) (
-<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[433,508,980,1004]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
-); Brookfield Cons. Park (Ward, P.S.) (
-<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[939,1014,980,1004]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
-); Gawler Ra., Yardea, 
+SW 
+<collectingMunicipality box="[151,239,981,1005]" pageId="7" pageNumber="8">Morgan</collectingMunicipality>
+(
+<collectorName box="[254,407,980,1004]" pageId="7" pageNumber="8">Lowery, B.B.</collectorName>
+) (
+<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[433,508,980,1004]" collectionName="Australia, Australian Capital Territory, Canberra City, CSIRO, Australian National Insect Collection" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
+);
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3712144331" box="[527,1026,980,1004]" collectionCode="ANIC" collectorName="Ward, P. S." location="Brookfield Cons. Park" pageId="7" pageNumber="8" specimenCount="1">
+<location LSID="urn:lsid:plazi:treatment:03D087EEFF92853230C3D7FBB977B2FC:8EA66023FF938532325BD4B8BE0DB7F0" box="[527,780,980,1004]" name="Brookfield Cons. Park" pageId="7" pageNumber="8">Brookfield Cons. Park</location>
+(
+<collectorName box="[795,914,980,1004]" pageId="7" pageNumber="8">Ward, P.S.</collectorName>
+) (
+<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[939,1014,980,1004]" collectionName="Australia, Australian Capital Territory, Canberra City, CSIRO, Australian National Insect Collection" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
+);
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3712144310" collectionCode="ANIC" collectorName="Greenslade, P. J. M." location="Yardea" municipality="Gawler Ra." pageId="7" pageNumber="8" specimenCount="1">
+<collectingMunicipality box="[1034,1165,980,1004]" pageId="7" pageNumber="8">Gawler Ra.</collectingMunicipality>
+, 
+<location LSID="urn:lsid:plazi:treatment:03D087EEFF92853230C3D7FBB977B2FC:8EA66023FF93853234CDD4B8B9EBB7F0" box="[1177,1258,980,1004]" municipality="Gawler Ra." name="Yardea" pageId="7" pageNumber="8">Yardea</location>
+, 
+<locationDeviation bearing="45.0" box="[1269,1372,980,1004]" distance="4000.0" pageId="7" pageNumber="8">
 <quantity box="[1269,1327,980,1004]" metricMagnitude="3" metricUnit="m" metricValue="4.0" pageId="7" pageNumber="8" unit="km" value="4.0">4 km</quantity>
-NE AHS (Greenslade, P.J.M.) (
-<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[414,489,1015,1039]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
-); Moorunle, nr. Blanchetowne [Moorundie nr. Blanchetown] (Taylor, G.S. &amp; Greenslade, P.J.M.) (
-<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[383,458,1052,1076]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
-); Mt. Lofty (Elston, A.H.) (
-<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[763,838,1052,1076]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
-); Mt. Woodroofe (foot), Musgrave Ra (Lowery, B.B.) (
-<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[159,234,1087,1111]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
-); Oraparinna, Flinders Ranges (Greenslade, P.J.M.) (
-<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[844,919,1087,1111]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
+NE
+</locationDeviation>
+AHS (
+<collectorName box="[158,380,1015,1039]" pageId="7" pageNumber="8">Greenslade, P.J.M.</collectorName>
+) (
+<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[414,489,1015,1039]" collectionName="Australia, Australian Capital Territory, Canberra City, CSIRO, Australian National Insect Collection" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
+);
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3712144314" collectionCode="ANIC" collectorName="Taylor, G. S. &amp; Greenslade, P. J. M." location="Blanchetowne" municipality="Moorunle" pageId="7" pageNumber="8" specimenCount="1">
+<collectingMunicipality box="[518,631,1015,1039]" pageId="7" pageNumber="8">Moorunle</collectingMunicipality>
+, nr. 
+<location LSID="urn:lsid:plazi:treatment:03D087EEFF92853230C3D7FBB977B2FC:8EA66023FF93853232EED49BBE5BB013" box="[698,858,1015,1039]" municipality="Moorunle" name="Blanchetowne" pageId="7" pageNumber="8">Blanchetowne</location>
+[
+<location LSID="urn:lsid:plazi:treatment:03D087EEFF92853230C3D7FBB977B2FC:8EA66023FF9385323325D49BB9C6B013" box="[881,1223,1015,1040]" municipality="Moorunle" name="Moorundie nr. Blanchetown" pageId="7" pageNumber="8">Moorundie nr. Blanchetown</location>
+] (
+<collectorName box="[1253,1397,1015,1039]" pageId="7" pageNumber="8">Taylor, G.S.</collectorName>
+&amp; 
+<collectorName box="[151,360,1052,1076]" pageId="7" pageNumber="8">Greenslade, P.J.M.</collectorName>
+) (
+<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[383,458,1052,1076]" collectionName="Australia, Australian Capital Territory, Canberra City, CSIRO, Australian National Insect Collection" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
+);
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3712144323" box="[476,850,1052,1076]" collectionCode="ANIC" collectorName="Elston, A. H." location="Mt. Lofty" pageId="7" pageNumber="8" specimenCount="1">
+<location LSID="urn:lsid:plazi:treatment:03D087EEFF92853230C3D7FBB977B2FC:8EA66023FF9385323188D371BF49B028" box="[476,584,1052,1076]" name="Mt. Lofty" pageId="7" pageNumber="8">Mt. Lofty</location>
+(
+<collectorName box="[599,740,1052,1076]" pageId="7" pageNumber="8">Elston, A.H.</collectorName>
+) (
+<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[763,838,1052,1076]" collectionName="Australia, Australian Capital Territory, Canberra City, CSIRO, Australian National Insect Collection" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
+);
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3712144318" collectionCode="ANIC" collectorName="Lowery, B. B." location="Musgrave Ra" municipality="Mt. Woodroofe" pageId="7" pageNumber="8" specimenCount="1">
+<collectingMunicipality box="[857,1028,1052,1076]" pageId="7" pageNumber="8">Mt. Woodroofe</collectingMunicipality>
+(foot), 
+<location LSID="urn:lsid:plazi:treatment:03D087EEFF92853230C3D7FBB977B2FC:8EA66023FF9385323403D371B9ECB028" box="[1111,1261,1053,1077]" municipality="Mt. Woodroofe" name="Musgrave Ra" pageId="7" pageNumber="8">Musgrave Ra</location>
+(
+<collectorName box="[1275,1426,1052,1076]" pageId="7" pageNumber="8">Lowery, B.B.</collectorName>
+) (
+<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[159,234,1087,1111]" collectionName="Australia, Australian Capital Territory, Canberra City, CSIRO, Australian National Insect Collection" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
+);
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3712144342" box="[256,931,1087,1113]" collectionCode="ANIC" collectorName="Greenslade, P. J. M." location="Flinders Ranges" municipality="Oraparinna" pageId="7" pageNumber="8" specimenCount="1">
+<collectingMunicipality box="[256,385,1087,1111]" pageId="7" pageNumber="8">Oraparinna</collectingMunicipality>
+, 
+<location LSID="urn:lsid:plazi:treatment:03D087EEFF92853230C3D7FBB977B2FC:8EA66023FF93853231DBD353BF48B045" box="[399,585,1087,1113]" municipality="Oraparinna" name="Flinders Ranges" pageId="7" pageNumber="8">Flinders Ranges</location>
+(
+<collectorName box="[602,817,1087,1111]" pageId="7" pageNumber="8">Greenslade, P.J.M.</collectorName>
+) (
+<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[844,919,1087,1111]" collectionName="Australia, Australian Capital Territory, Canberra City, CSIRO, Australian National Insect Collection" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
+);
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3712144343" collectionCode="ANIC" collectorName="Barrett, C. &amp; Clark, J." location="Marysville" municipality="Victoria" pageId="7" pageNumber="8" specimenCount="1">
+<emphasis box="[941,1029,1089,1112]" italics="true" pageId="7" pageNumber="8">
+<collectingMunicipality box="[941,1029,1089,1112]" pageId="7" pageNumber="8">Victoria</collectingMunicipality>
+</emphasis>
+: 
+<location LSID="urn:lsid:plazi:treatment:03D087EEFF92853230C3D7FBB977B2FC:8EA66023FF938532344DD353B993B04B" box="[1049,1170,1087,1111]" municipality="Victoria" name="Marysville" pageId="7" pageNumber="8">Marysville</location>
+(
+<collectorName box="[1189,1313,1087,1111]" pageId="7" pageNumber="8">Barrett, C.</collectorName>
+; 
+<collectorName box="[1329,1426,1087,1111]" pageId="7" pageNumber="8">Clark, J.</collectorName>
+) (
+<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[159,234,1124,1148]" collectionName="Australia, Australian Capital Territory, Canberra City, CSIRO, Australian National Insect Collection" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
+);
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3712144332" box="[253,930,1124,1148]" collectionCode="ANIC" collectorName="Potter, H. A. &amp; Goudie, J. C." location="Ultima" municipality="Patho" pageId="7" pageNumber="8" specimenCount="1">
+<collectingMunicipality box="[253,317,1124,1148]" pageId="7" pageNumber="8">Patho</collectingMunicipality>
+(
+<collectorName box="[331,468,1124,1148]" pageId="7" pageNumber="8">Potter, H.A.</collectorName>
+) (
+<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[491,566,1124,1148]" collectionName="Australia, Australian Capital Territory, Canberra City, CSIRO, Australian National Insect Collection" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
 ); 
-<emphasis box="[941,1029,1089,1112]" italics="true" pageId="7" pageNumber="8">Victoria</emphasis>
-: Marysville (Barrett, C.; Clark, J.) (
-<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[159,234,1124,1148]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
-); Patho (Potter, H.A.) (
-<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[491,566,1124,1148]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
-); Ultima (Goudie, J.C.) (
-<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[844,919,1124,1148]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
+<location LSID="urn:lsid:plazi:treatment:03D087EEFF92853230C3D7FBB977B2FC:8EA66023FF938532321DD308BF96B060" box="[585,663,1124,1148]" municipality="Patho" name="Ultima" pageId="7" pageNumber="8">Ultima</location>
+(
+<collectorName box="[678,819,1124,1148]" pageId="7" pageNumber="8">Goudie, J.C.</collectorName>
+) (
+<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[844,919,1124,1148]" collectionName="Australia, Australian Capital Territory, Canberra City, CSIRO, Australian National Insect Collection" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="7" pageNumber="8">ANIC</collectionCode>
 ).
+</materialsCitation>
 </paragraph>
 </subSubSection>
 <subSubSection pageId="7" pageNumber="8" type="discussion">
@@ -387,13 +710,13 @@ This is one of the more widely distributed Australian
 species, occurring from central Queensland south to southern South 
 <collectingCountry box="[562,669,1196,1220]" name="Australia" pageId="7" pageNumber="8">Australia</collectingCountry>
 . It is also the only species occurring in the cooler south-eastern part of the country. 
-<bibRefCitation author="Brown" box="[329,487,1232,1256]" pageId="7" pageNumber="8" refString="Brown, W. L., Jr. (1978) Contributions toward a reclassification of the Formicidae. Part 6. Ponerinae, tribe Ponerini, subtribe Odontomachiti. Section B. Genus Anochetus and bibliography. Studia Entomologica (N. S.), 20, 549 - 652." type="journal article" year="1978">
+<bibRefCitation author="Brown" box="[329,487,1232,1256]" firstAuthor="Brown" pageId="7" pageNumber="8" pagination="549" refId="ref16157" refString="Brown, W. L., Jr. (1978) Contributions toward a reclassification of the Formicidae. Part 6. Ponerinae, tribe Ponerini, subtribe Odontomachiti. Section B. Genus Anochetus and bibliography. Studia Entomologica (N. S.), 20, 549 - 652." type="journal article" year="1978">
 Brown (
 <number box="[421,479,1232,1256]" pageId="7" pageNumber="8" value="1978.0">1978</number>
 )
 </bibRefCitation>
 and 
-<bibRefCitation author="Heterick" box="[542,721,1232,1256]" pageId="7" pageNumber="8" refString="Heterick, B. E. (2009) A guide to the ants of south-western Australia. Records of the Western Australian Museum Supplement, 76, 1 - 206." type="journal article" year="2009">
+<bibRefCitation author="Heterick" box="[542,721,1232,1256]" firstAuthor="Heterick" pageId="7" pageNumber="8" pagination="1 - 206" refId="ref16651" refString="Heterick, B. E. (2009) A guide to the ants of south-western Australia. Records of the Western Australian Museum Supplement, 76, 1 - 206." type="journal article" year="2009">
 Heterick (
 <number box="[654,713,1232,1256]" pageId="7" pageNumber="8" value="2009.0">2009</number>
 )
@@ -415,7 +738,7 @@ to the newly described species
 .
 </paragraph>
 <paragraph blockId="7.[151,1437,151,1761]" pageId="7" pageNumber="8">
-<bibRefCitation author="Brown" box="[199,358,1556,1580]" pageId="7" pageNumber="8" refString="Brown, W. L., Jr. (1978) Contributions toward a reclassification of the Formicidae. Part 6. Ponerinae, tribe Ponerini, subtribe Odontomachiti. Section B. Genus Anochetus and bibliography. Studia Entomologica (N. S.), 20, 549 - 652." type="journal article" year="1978">
+<bibRefCitation author="Brown" box="[199,358,1556,1580]" firstAuthor="Brown" pageId="7" pageNumber="8" pagination="549" refId="ref16157" refString="Brown, W. L., Jr. (1978) Contributions toward a reclassification of the Formicidae. Part 6. Ponerinae, tribe Ponerini, subtribe Odontomachiti. Section B. Genus Anochetus and bibliography. Studia Entomologica (N. S.), 20, 549 - 652." type="journal article" year="1978">
 Brown (
 <number box="[291,349,1556,1580]" pageId="7" pageNumber="8" value="1978.0">1978</number>
 )

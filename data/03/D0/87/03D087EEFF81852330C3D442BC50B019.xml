@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.3512060" ID-GBIF-Dataset="6cd30d14-969b-4b2d-b47d-a671ce3ac555" ID-GBIF-Taxon="119522956" ID-ISSN="1175-5326" ID-Zenodo-Dep="3512060" checkinTime="1460509193570" checkinUser="plazi" docAuthor="Shattuck, Steven O. &amp; Slipinska, Ewa" docDate="2012" docId="03D087EEFF81852330C3D442BC50B019" docLanguage="en" docName="zt03426p028.pdf" docOrigin="Zootaxa 3426" docStyle="DocumentStylede.uka.ipd.idaho.easyIO.settings.Settings@b4d83ac" docStyleName="zootaxa.2007.monograph" docTitle="Anochetus turneri Forel" docType="treatment" docVersion="10" lastPageId="22" lastPageNumber="23" masterDocId="FFE9FF96FF9485353054D76CBD01B41C" masterDocTitle="Revision of the Australian species of the ant genus Anochetus (Hymenoptera: Formicidae)" masterLastPageNumber="28" masterPageNumber="1" pageId="21" pageNumber="22" updateTime="1643543305478" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.3512060" ID-GBIF-Dataset="6cd30d14-969b-4b2d-b47d-a671ce3ac555" ID-GBIF-Taxon="119522956" ID-ISSN="1175-5326" ID-Zenodo-Dep="3512060" checkinTime="1460509193570" checkinUser="plazi" docAuthor="Shattuck, Steven O. &amp; Slipinska, Ewa" docDate="2012" docId="03D087EEFF81852330C3D442BC50B019" docLanguage="en" docName="zt03426p028.pdf" docOrigin="Zootaxa 3426" docStyle="DocumentStyle:890A69B780ED73D6DB8551B71C8AC79E.3:Zootaxa.2009-2012.journal_article" docStyleId="890A69B780ED73D6DB8551B71C8AC79E" docStyleName="Zootaxa.2009-2012.journal_article" docStyleVersion="3" docTitle="Anochetus turneri Forel" docType="treatment" docVersion="15" lastPageId="22" lastPageNumber="23" masterDocId="FFE9FF96FF9485353054D76CBD01B41C" masterDocTitle="Revision of the Australian species of the ant genus Anochetus (Hymenoptera: Formicidae)" masterLastPageNumber="28" masterPageNumber="1" pageId="21" pageNumber="22" updateTime="1647959177451" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Revision of the Australian species of the ant genus Anochetus (Hymenoptera: Formicidae)</mods:title>
@@ -22,6 +22,9 @@
 </mods:titleInfo>
 <mods:part>
 <mods:date>2012</mods:date>
+<mods:detail type="pubDate">
+<mods:number>2012-08-16</mods:number>
+</mods:detail>
 <mods:detail type="volume">
 <mods:number>3426</mods:number>
 </mods:detail>
@@ -32,13 +35,13 @@
 </mods:part>
 </mods:relatedItem>
 <mods:classification>journal article</mods:classification>
-<mods:identifier type="DOI">10.5281/zenodo.282010</mods:identifier>
+<mods:identifier type="DOI">10.11646/zootaxa.3426.1.1</mods:identifier>
 <mods:identifier type="GBIF-Dataset">6cd30d14-969b-4b2d-b47d-a671ce3ac555</mods:identifier>
 <mods:identifier type="ISSN">1175-5326</mods:identifier>
 <mods:identifier type="Zenodo-Dep">282010</mods:identifier>
 </mods:mods>
 <treatment ID-DOI="http://doi.org/10.5281/zenodo.3512060" ID-GBIF-Taxon="119522956" ID-Zenodo-Dep="3512060" LSID="urn:lsid:plazi:treatment:03D087EEFF81852330C3D442BC50B019" httpUri="http://treatment.plazi.org/id/03D087EEFF81852330C3D442BC50B019" lastPageId="22" lastPageNumber="23" pageId="21" pageNumber="22">
-<subSubSection pageId="21" pageNumber="22" type="nomenclature">
+<subSubSection box="[151,445,814,840]" pageId="21" pageNumber="22" type="nomenclature">
 <paragraph blockId="21.[151,445,814,873]" box="[151,445,814,840]" pageId="21" pageNumber="22">
 <heading bold="true" box="[151,445,814,840]" fontSize="11" level="1" pageId="21" pageNumber="22" reason="1">
 <taxonomicName authority="Forel" authorityName="Forel" box="[151,445,814,840]" class="Insecta" family="Formicidae" genus="Anochetus" kingdom="Animalia" order="Hymenoptera" pageId="21" pageNumber="22" phylum="Arthropoda" rank="species" species="turneri">
@@ -49,6 +52,8 @@ Forel
 </taxonomicName>
 </heading>
 </paragraph>
+</subSubSection>
+<subSubSection box="[151,249,849,873]" pageId="21" pageNumber="22" type="description">
 <paragraph blockId="21.[151,445,814,873]" box="[151,249,849,873]" pageId="21" pageNumber="22">
 (
 <figureCitation box="[159,240,849,873]" captionStart="FIGURE 15" captionStartId="21.[151,250,1985,2008]" captionTargetBox="[151,1435,915,1984]" captionTargetId="figure@21.[151,1436,915,1984]" captionTargetPageId="21" captionText="FIGURE 15. Anochetus turneri (West Claudie River, Iron Range, Queensland, ANIC 32 - 015816): A. Front of head; B. Side of body; C. Top of body; D. Distribution of material examined." httpUri="https://zenodo.org/record/282025/files/figure.png" pageId="21" pageNumber="22">
@@ -70,82 +75,98 @@ Fig.
 <subSubSection pageId="22" pageNumber="23" type="reference_group">
 <paragraph blockId="22.[151,1130,152,205]" box="[151,513,152,174]" pageId="22" pageNumber="23">
 <treatmentCitationGroup box="[151,513,152,174]" pageId="22" pageNumber="23">
+<treatmentCitation ID-DOI="http://doi.org/10.5281/zenodo.3501437" ID-Zenodo-Dep="3501437" author="Forel" box="[151,509,152,174]" httpUri="http://treatment.plazi.org/id/587EFFCF6285989AC220B310647EC0CA" page="55" pageId="22" pageNumber="23" year="1900">
 <taxonomicName authority="Forel, 1900a: 55" authorityName="Forel" authorityPageNumber="55" authorityYear="1900" box="[151,509,152,174]" class="Insecta" family="Formicidae" genus="Anochetus" kingdom="Animalia" order="Hymenoptera" pageId="22" pageNumber="23" phylum="Arthropoda" rank="species" species="turneri">
 <emphasis box="[151,332,152,174]" italics="true" pageId="22" pageNumber="23">Anochetus turneri</emphasis>
-<treatmentCitation ID-DOI="http://doi.org/10.5281/zenodo.3501437" ID-Zenodo-Dep="3501437" author="Forel" box="[339,509,152,174]" httpUri="http://treatment.plazi.org/id/587EFFCF6285989AC220B310647EC0CA" page="55" pageId="22" pageNumber="23" year="1900">
-<bibRefCitation author="Forel" box="[339,471,152,174]" pageId="22" pageNumber="23" refString="Forel, A. (1900 a) Ponerinae et Dorylinae d'Australie. Recoltes par MM. Turner, Froggatt, Nugent, Chase, Rothney, J. - J. Walker, etc. Annales de la Societe Entomologique de Belgique, 44, 54 - 77." type="journal article" year="1900" yearSuffix="a">
+<bibRefCitation author="Forel" box="[339,509,152,174]" firstAuthor="Forel" page="55" pageId="22" pageNumber="23" pagination="54 - 77" refId="ref16483" refString="Forel, A. (1900 a) Ponerinae et Dorylinae d'Australie. Recoltes par MM. Turner, Froggatt, Nugent, Chase, Rothney, J. - J. Walker, etc. Annales de la Societe Entomologique de Belgique, 44, 54 - 77." type="journal article" year="1900" yearSuffix="a">
 Forel, 
 <number box="[405,459,152,173]" pageId="22" pageNumber="23" value="1900.0">1900</number>
-a
-</bibRefCitation>
-: 
+a: 
 <number box="[481,509,152,174]" pageId="22" pageNumber="23" value="55.0">55</number>
-</treatmentCitation>
+</bibRefCitation>
 </taxonomicName>
+</treatmentCitation>
 .
 </treatmentCitationGroup>
 </paragraph>
 <paragraph blockId="22.[151,1130,152,205]" box="[151,1130,182,205]" pageId="22" pageNumber="23">
 <treatmentCitationGroup box="[151,1130,182,205]" pageId="22" pageNumber="23">
-<taxonomicName box="[151,332,183,205]" class="Insecta" family="Formicidae" genus="Anochetus" kingdom="Animalia" order="Hymenoptera" pageId="22" pageNumber="23" phylum="Arthropoda" rank="species" species="turneri">
+<treatmentCitation author="Forel" box="[151,614,182,205]" page="35" pageId="22" pageNumber="23" year="1915">
+<taxonomicName authority="Forel, 1915: 35" authorityName="Forel" authorityPageNumber="35" authorityYear="1915" box="[151,614,182,205]" class="Insecta" family="Formicidae" genus="Anochetus" kingdom="Animalia" order="Hymenoptera" pageId="22" pageNumber="23" phylum="Arthropoda" rank="variety" species="turneri" variety="latunei">
 <emphasis box="[151,332,183,205]" italics="true" pageId="22" pageNumber="23">Anochetus turneri</emphasis>
-</taxonomicName>
-<taxonomicName authority="Forel, 1915: 35" authorityName="Forel" authorityPageNumber="35" authorityYear="1915" box="[339,614,182,205]" class="Insecta" family="Formicidae" genus="Anochetus" kingdom="Animalia" order="Hymenoptera" pageId="22" pageNumber="23" phylum="Arthropoda" rank="variety" species="turneri" variety="latunei">
 var. 
 <emphasis box="[383,453,183,205]" italics="true" pageId="22" pageNumber="23">latunei</emphasis>
-<treatmentCitation author="Forel" box="[460,614,182,204]" page="35" pageId="22" pageNumber="23" year="1915">
-<bibRefCitation author="Forel" box="[460,579,182,204]" pageId="22" pageNumber="23" refString="Forel, A. (1915) Results of Dr. E. Mjoberg's Swedish scientific expeditions to Australia, 1910 - 1913. 2. Ameisen. Arkiv for Zoologi, 9 (16), 1 - 119." type="journal article" year="1915">
+<bibRefCitation author="Forel" box="[460,614,182,204]" firstAuthor="Forel" page="35" pageId="22" pageNumber="23" pagination="1 - 119" refId="ref16574" refString="Forel, A. (1915) Results of Dr. E. Mjoberg's Swedish scientific expeditions to Australia, 1910 - 1913. 2. Ameisen. Arkiv for Zoologi, 9 (16), 1 - 119." type="journal article" year="1915">
 Forel, 
 <number box="[525,579,182,204]" pageId="22" pageNumber="23" value="1915.0">1915</number>
-</bibRefCitation>
 : 
 <number box="[589,614,182,204]" pageId="22" pageNumber="23" value="35.0">35</number>
-</treatmentCitation>
+</bibRefCitation>
 </taxonomicName>
+</treatmentCitation>
 (junior synonym of 
 <taxonomicName box="[823,893,184,205]" class="Insecta" family="Formicidae" genus="Anochetus" kingdom="Animalia" order="Hymenoptera" pageId="22" pageNumber="23" phylum="Arthropoda" rank="species" species="turneri">
 <emphasis box="[823,893,184,205]" italics="true" pageId="22" pageNumber="23">turneri</emphasis>
 </taxonomicName>
 by 
 <treatmentCitation author="Brown" box="[931,1119,182,204]" page="559" pageId="22" pageNumber="23" year="1978">
-<bibRefCitation author="Brown" box="[931,1067,183,204]" pageId="22" pageNumber="23" refString="Brown, W. L., Jr. (1978) Contributions toward a reclassification of the Formicidae. Part 6. Ponerinae, tribe Ponerini, subtribe Odontomachiti. Section B. Genus Anochetus and bibliography. Studia Entomologica (N. S.), 20, 549 - 652." type="journal article" year="1978">
+<bibRefCitation author="Brown" box="[931,1119,182,204]" firstAuthor="Brown" page="559" pageId="22" pageNumber="23" pagination="549" refId="ref16157" refString="Brown, W. L., Jr. (1978) Contributions toward a reclassification of the Formicidae. Part 6. Ponerinae, tribe Ponerini, subtribe Odontomachiti. Section B. Genus Anochetus and bibliography. Studia Entomologica (N. S.), 20, 549 - 652." type="journal article" year="1978">
 Brown, 
 <number box="[1013,1067,183,204]" pageId="22" pageNumber="23" value="1978.0">1978</number>
-</bibRefCitation>
 : 
 <number box="[1077,1119,182,204]" pageId="22" pageNumber="23" value="559.0">559</number>
+</bibRefCitation>
 </treatmentCitation>
 ).
 </treatmentCitationGroup>
 </paragraph>
+</subSubSection>
+<subSubSection pageId="22" pageNumber="23" type="materials_examined">
 <paragraph blockId="22.[151,1436,249,1029]" pageId="22" pageNumber="23">
 <emphasis bold="true" box="[151,225,249,273]" pageId="22" pageNumber="23">
 <typeStatus box="[151,218,249,273]" pageId="22" pageNumber="23">Types</typeStatus>
 .
 </emphasis>
+<materialsCitation ID-GBIF-Occurrence="3712152326" collectionCode="ANIC, MHNG" location="Queensland" municipality="Mackay" pageId="22" pageNumber="23" specimenCount="2" specimenCount-worker="2" typeStatus="syntype">
 <taxonomicName box="[243,353,249,273]" class="Insecta" family="Formicidae" genus="Anochetus" kingdom="Animalia" order="Hymenoptera" pageId="22" pageNumber="23" phylum="Arthropoda" rank="species" species="turneri">
 <emphasis box="[243,353,249,273]" italics="true" pageId="22" pageNumber="23">A. turneri</emphasis>
 </taxonomicName>
 : 
 <typeStatus box="[368,460,249,273]" pageId="22" pageNumber="23">Syntype</typeStatus>
-workers from Mackay, Queensland (
+<specimenCount box="[467,557,249,273]" pageId="22" pageNumber="23" type="worker">workers</specimenCount>
+from 
+<collectingMunicipality box="[627,718,249,273]" pageId="22" pageNumber="23">Mackay</collectingMunicipality>
+, 
+<location LSID="urn:lsid:plazi:treatment:03D087EEFF81852330C3D442BC50B019:8EA66023FF828523328FD795BE5EB50D" box="[731,863,249,273]" municipality="Mackay" name="Queensland" pageId="22" pageNumber="23">Queensland</location>
+(
 <specimenCount box="[882,981,249,273]" pageId="22" pageNumber="23" type="worker">
 <number box="[882,894,249,273]" pageId="22" pageNumber="23" value="1.0">1</number>
 worker
 </specimenCount>
 in 
-<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[1018,1090,249,273]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="22" pageNumber="23">ANIC</collectionCode>
+<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[1018,1090,249,273]" collectionName="Australia, Australian Capital Territory, Canberra City, CSIRO, Australian National Insect Collection" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="22" pageNumber="23">ANIC</collectionCode>
 , examined; additional workers in 
-<collectionCode box="[180,271,285,309]" httpUri="http://grbio.org/cool/2jyg-xmd2" name="Museum d'Histoire Naturelle" pageId="22" pageNumber="23">MHNG</collectionCode>
-). 
+<collectionCode box="[180,271,285,309]" collectionName="Switzerland, Geneva, Museum d'Histoire Naturelle" httpUri="http://grbio.org/cool/2jyg-xmd2" name="Museum d'Histoire Naturelle" pageId="22" pageNumber="23">MHNG</collectionCode>
+)
+</materialsCitation>
+. 
+<materialsCitation ID-GBIF-Occurrence="3712152308" box="[295,1237,285,309]" collectionCode="NHRS" location="Queensland" municipality="Yarrabah" pageId="22" pageNumber="23" specimenCount="1" specimenCount-worker="1">
 <taxonomicName box="[295,489,285,309]" class="Insecta" family="Formicidae" genus="Anochetus" kingdom="Animalia" order="Hymenoptera" pageId="22" pageNumber="23" phylum="Arthropoda" rank="subSpecies" species="turneri" subSpecies="latunei">
-<emphasis box="[295,489,285,309]" italics="true" pageId="22" pageNumber="23">A. turneri latunei</emphasis>
+<emphasis box="[295,489,285,309]" italics="true" pageId="22" pageNumber="23">
+<originalDetermination box="[295,489,285,309]" pageId="22" pageNumber="23">A. turneri latunei</originalDetermination>
+</emphasis>
 </taxonomicName>
-: 
-<typeStatus box="[504,608,285,309]" pageId="22" pageNumber="23">Holotype</typeStatus>
-worker from Yarrabah, Queensland (
-<collectionCode box="[1025,1104,285,309]" httpUri="http://grbio.org/cool/rsbi-vwmq" name="Swedish Museum of Natural History, Entomology Collections" pageId="22" pageNumber="23">NHRS</collectionCode>
-, examined).
+: Holotype 
+<specimenCount box="[615,694,285,309]" pageId="22" pageNumber="23" type="worker">worker</specimenCount>
+from 
+<collectingMunicipality box="[763,867,285,309]" pageId="22" pageNumber="23">Yarrabah</collectingMunicipality>
+, 
+<location LSID="urn:lsid:plazi:treatment:03D087EEFF81852330C3D442BC50B019:8EA66023FF828523333AD671BEF3B529" box="[878,1010,285,309]" municipality="Yarrabah" name="Queensland" pageId="22" pageNumber="23">Queensland</location>
+(
+<collectionCode box="[1025,1104,285,309]" collectionName="Sweden, Stockholm, Naturhistoriska riksmuseet" httpUri="http://grbio.org/cool/rsbi-vwmq" name="Swedish Museum of Natural History, Entomology Collections" pageId="22" pageNumber="23">NHRS</collectionCode>
+, examined)
+</materialsCitation>
+.
 </paragraph>
 </subSubSection>
 <subSubSection pageId="22" pageNumber="23" type="diagnosis">
@@ -198,28 +219,59 @@ Worker (n =
 <paragraph blockId="22.[151,1436,249,1029]" pageId="22" pageNumber="23">
 <emphasis bold="true" box="[199,565,825,850]" pageId="22" pageNumber="23">
 Material examined. 
+<materialsCitation ID-GBIF-Occurrence="3712152313" box="[446,1010,825,850]" collectionCode="ANIC" country="Australia" location="Turner" municipality="Mackay" pageId="22" pageNumber="23" specimenCount="1" stateProvince="Queensland">
 <collectingCountry box="[446,560,825,850]" name="Australia" pageId="22" pageNumber="23">Australia</collectingCountry>
-:
+: 
+<emphasis box="[573,704,825,849]" italics="true" pageId="22" pageNumber="23">
+<collectingRegion box="[573,704,825,849]" country="Australia" name="Queensland" pageId="22" pageNumber="23">Queensland</collectingRegion>
 </emphasis>
-<emphasis box="[573,704,825,849]" italics="true" pageId="22" pageNumber="23">Queensland</emphasis>
-: Mackay (Turner) (
-<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[925,998,825,849]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="22" pageNumber="23">ANIC</collectionCode>
-); Missionary Bay, Hinchinbrook 
-<collectingCountry box="[1369,1436,825,849]" name="Iceland" pageId="22" pageNumber="23">Island</collectingCountry>
-(Taylor, R.W.) (
-<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[329,402,861,885]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="22" pageNumber="23">ANIC</collectionCode>
-); Prince of 
-<collectingCountry box="[538,604,861,885]" name="United Kingdom" pageId="22" pageNumber="23">Wales</collectingCountry>
-<collectingCountry box="[615,684,861,885]" name="Iceland" pageId="22" pageNumber="23">Island</collectingCountry>
-, Torres Strait (Heatwole, H. &amp; 
-<collectingCountry box="[1046,1149,861,885]" name="Cameroon" pageId="22" pageNumber="23">Cameron</collectingCountry>
+: 
+<collectingMunicipality box="[720,809,825,849]" pageId="22" pageNumber="23">Mackay</collectingMunicipality>
+(
+<location LSID="urn:lsid:plazi:treatment:03D087EEFF81852330C3D442BC50B019:8EA66023FF828523336DD455BE87B74D" box="[825,902,825,849]" country="Australia" municipality="Mackay" name="Turner" pageId="22" pageNumber="23" stateProvince="Queensland">Turner</location>
+) (
+<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[925,998,825,849]" collectionName="Australia, Australian Capital Territory, Canberra City, CSIRO, Australian National Insect Collection" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="22" pageNumber="23">ANIC</collectionCode>
+);
+</materialsCitation>
+</emphasis>
+<materialsCitation ID-GBIF-Occurrence="3712152363" collectionCode="ANIC" country="Australia" location="Taylor" pageId="22" pageNumber="23" specimenCount="1">
+Missionary Bay, Hinchinbrook Island (
+<location LSID="urn:lsid:plazi:treatment:03D087EEFF81852330C3D442BC50B019:8EA66023FF82852330CAD431BDE9B769" box="[158,232,861,885]" country="Iceland" name="Taylor" pageId="22" pageNumber="23">Taylor</location>
+, R.W.) (
+<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[329,402,861,885]" collectionName="Australia, Australian Capital Territory, Canberra City, CSIRO, Australian National Insect Collection" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="22" pageNumber="23">ANIC</collectionCode>
+);
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3712152350" box="[425,1300,861,885]" collectionCode="ANIC" country="Australia" location="Torres Strait" pageId="22" pageNumber="23" specimenCount="1">
+Prince of Wales Island, 
+<location LSID="urn:lsid:plazi:treatment:03D087EEFF81852330C3D442BC50B019:8EA66023FF82852332EED432BE45B769" box="[698,836,861,885]" country="United Kingdom" name="Torres Strait" pageId="22" pageNumber="23">Torres Strait</location>
+(
+<location LSID="urn:lsid:plazi:treatment:03D087EEFF81852330C3D442BC50B019:8EA66023FF8285233303D431B97CB769" box="[855,1149,861,885]" country="United Kingdom" name="Heatwole, H. &amp; Cameron" pageId="22" pageNumber="23">Heatwole, H. &amp; Cameron</location>
 , E.) (
-<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[1215,1288,861,885]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="22" pageNumber="23">ANIC</collectionCode>
-); Water Park Creek, Byfield (Monteith, G.B.) (
-<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[513,586,897,921]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="22" pageNumber="23">ANIC</collectionCode>
-); West Claudie River, Iron Range (Monteith, G.B. &amp; Cook, D.) (
-<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[1289,1362,897,921]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="22" pageNumber="23">ANIC</collectionCode>
+<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[1215,1288,861,885]" collectionName="Australia, Australian Capital Territory, Canberra City, CSIRO, Australian National Insect Collection" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="22" pageNumber="23">ANIC</collectionCode>
+);
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3712152335" collectionCode="ANIC" collectorName="Monteith, G. B." location="Byfield" municipality="Water Park Creek" pageId="22" pageNumber="23" specimenCount="1">
+<collectingMunicipality pageId="22" pageNumber="23">Water Park Creek</collectingMunicipality>
+, 
+<location LSID="urn:lsid:plazi:treatment:03D087EEFF81852330C3D442BC50B019:8EA66023FF82852330B2D4EDBC39B785" box="[230,312,897,921]" municipality="Water Park Creek" name="Byfield" pageId="22" pageNumber="23">Byfield</location>
+(
+<collectorName box="[326,490,897,921]" pageId="22" pageNumber="23">Monteith, G.B.</collectorName>
+) (
+<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[513,586,897,921]" collectionName="Australia, Australian Capital Territory, Canberra City, CSIRO, Australian National Insect Collection" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="22" pageNumber="23">ANIC</collectionCode>
+);
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3712152346" box="[605,1374,897,922]" collectionCode="ANIC" collectorName="Monteith, G. B. &amp; Cook, D." location="Iron Range" municipality="West Claudie River" pageId="22" pageNumber="23" specimenCount="1">
+<collectingMunicipality box="[605,821,897,921]" pageId="22" pageNumber="23">West Claudie River</collectingMunicipality>
+, 
+<location LSID="urn:lsid:plazi:treatment:03D087EEFF81852330C3D442BC50B019:8EA66023FF828523336BD4EEBEB8B786" box="[831,953,898,922]" municipality="West Claudie River" name="Iron Range" pageId="22" pageNumber="23">Iron Range</location>
+(
+<collectorName box="[967,1131,897,921]" pageId="22" pageNumber="23">Monteith, G.B.</collectorName>
+&amp; 
+<collectorName box="[1166,1266,897,921]" pageId="22" pageNumber="23">Cook, D.</collectorName>
+) (
+<collectionCode LSID="urn:lsid:biocol.org:col:32981" box="[1289,1362,897,921]" collectionName="Australia, Australian Capital Territory, Canberra City, CSIRO, Australian National Insect Collection" httpUri="http://biocol.org/urn:lsid:biocol.org:col:32981" name="Australian National Insect Collection" pageId="22" pageNumber="23">ANIC</collectionCode>
 ).
+</materialsCitation>
 </paragraph>
 </subSubSection>
 <subSubSection pageId="22" pageNumber="23" type="discussion">
