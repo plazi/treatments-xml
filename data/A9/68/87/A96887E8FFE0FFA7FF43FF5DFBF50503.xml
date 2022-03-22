@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6135513" ID-GBIF-Dataset="d9f29df5-52ff-451f-a367-f9fdb29b180f" ID-GBIF-Taxon="127667899" ID-ISSN="1175-5326" ID-Zenodo-Dep="6135513" ID-ZooBank="56DD05E1-C61C-4D37-9454-396840EB67C0" checkinTime="1460422790352" checkinUser="plazi" docAuthor="Gibbs, David" docDate="2014" docId="A96887E8FFE0FFA7FF43FF5DFBF50503" docLanguage="en" docName="zt03799p085.pdf" docOrigin="Zootaxa 3799 (1)" docStyle="DocumentStylede.uka.ipd.idaho.easyIO.settings.Settings@77e6d936" docStyleName="zootaxa.2013.monograph" docTitle="Usia maghrebensis Gibbs, sp. nov." docType="treatment" docVersion="6" lastPageId="55" lastPageNumber="56" masterDocId="5551FF90FFD5FF90FFD4FFCAFFF60616" masterDocTitle="A world revision of the bee fly tribe Usiini (Diptera, Bombyliidae) Part 2: Usia sensu stricto" masterLastPageNumber="85" masterPageNumber="1" pageId="53" pageNumber="54" updateTime="1645173883940" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6135513" ID-GBIF-Dataset="d9f29df5-52ff-451f-a367-f9fdb29b180f" ID-GBIF-Taxon="127667899" ID-ISSN="1175-5326" ID-Zenodo-Dep="6135513" ID-ZooBank="56DD05E1-C61C-4D37-9454-396840EB67C0" approvalRequired="27" approvalRequired_for_matCits="27" checkinTime="1460422790352" checkinUser="plazi" docAuthor="Gibbs, David" docDate="2014" docId="A96887E8FFE0FFA7FF43FF5DFBF50503" docLanguage="en" docName="zt03799p085.pdf" docOrigin="Zootaxa 3799 (1)" docStyle="DocumentStyle:5EBBA59367AD13919D70D935FA04F6A3.10:Zootaxa.2013-.monograph" docStyleId="5EBBA59367AD13919D70D935FA04F6A3" docStyleName="Zootaxa.2013-.monograph" docStyleVersion="10" docTitle="Usia maghrebensis Gibbs, sp. nov." docType="treatment" docVersion="8" lastPageId="55" lastPageNumber="56" masterDocId="5551FF90FFD5FF90FFD4FFCAFFF60616" masterDocTitle="A world revision of the bee fly tribe Usiini (Diptera, Bombyliidae) Part 2: Usia sensu stricto" masterLastPageNumber="85" masterPageNumber="1" pageId="53" pageNumber="54" updateTime="1647966678856" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>A world revision of the bee fly tribe Usiini (Diptera, Bombyliidae) Part 2: Usia sensu stricto</mods:title>
@@ -16,6 +16,9 @@
 </mods:titleInfo>
 <mods:part>
 <mods:date>2014</mods:date>
+<mods:detail type="pubDate">
+<mods:number>2014-05-22</mods:number>
+</mods:detail>
 <mods:detail type="volume">
 <mods:number>3799</mods:number>
 </mods:detail>
@@ -36,7 +39,7 @@
 <mods:identifier type="ZooBank">56DD05E1-C61C-4D37-9454-396840EB67C0</mods:identifier>
 </mods:mods>
 <treatment ID-DOI="http://doi.org/10.5281/zenodo.6135513" ID-GBIF-Taxon="127667899" ID-Zenodo-Dep="6135513" LSID="urn:lsid:plazi:treatment:A96887E8FFE0FFA7FF43FF5DFBF50503" httpUri="http://treatment.plazi.org/id/A96887E8FFE0FFA7FF43FF5DFBF50503" lastPageId="55" lastPageNumber="56" pageId="53" pageNumber="54">
-<subSubSection pageId="53" pageNumber="54" type="nomenclature">
+<subSubSection box="[151,565,151,178]" pageId="53" pageNumber="54" type="nomenclature">
 <paragraph blockId="53.[151,565,151,211]" box="[151,565,151,178]" pageId="53" pageNumber="54">
 <heading bold="true" box="[151,565,151,178]" fontSize="11" level="1" pageId="53" pageNumber="54" reason="1">
 <emphasis bold="true" box="[151,565,151,178]" pageId="53" pageNumber="54">
@@ -48,14 +51,18 @@ Gibbs
 </emphasis>
 </heading>
 </paragraph>
+</subSubSection>
+<subSubSection box="[151,403,186,211]" pageId="53" pageNumber="54" type="description">
 <paragraph blockId="53.[151,565,151,211]" box="[151,403,186,211]" pageId="53" pageNumber="54">
 (
-<figureCitation box="[158,270,186,211]" captionStart="FIGURE 14" captionStartId="15.[151,250,869,891]" captionText="FIGURE 14. ♂ U. maghrebensis gonocoxite lateral view." pageId="53" pageNumber="54">
+<figureCitation box="[158,270,186,211]" captionStart="FIGURE 14" captionStartId="15.[151,250,869,891]" captionTargetId="figure@15.[358,1228,193,848]" captionTargetPageId="15" captionText="FIGURE 14. ♂ U. maghrebensis gonocoxite lateral view." pageId="53" pageNumber="54">
 Figure 
 <number box="[240,270,187,211]" pageId="53" pageNumber="54" value="14.0">14</number>
 </figureCitation>
 , Plate XIII)
 </paragraph>
+</subSubSection>
+<subSubSection box="[151,470,258,280]" pageId="53" pageNumber="54" type="reference_group">
 <paragraph blockId="53.[151,470,258,280]" box="[151,470,258,280]" pageId="53" pageNumber="54">
 <treatmentCitationGroup box="[151,470,258,280]" pageId="53" pageNumber="54">
 <taxonomicName box="[151,199,259,280]" class="Insecta" family="Bombyliidae" genus="Usia" kingdom="Animalia" order="Diptera" pageId="53" pageNumber="54" phylum="Arthropoda" rank="genus" status="n. sp.">
@@ -63,13 +70,12 @@ Figure
 </taxonomicName>
 <taxonomicNameLabel box="[205,260,259,280]" pageId="53" pageNumber="54" rank="species">n. sp.</taxonomicNameLabel>
 <treatmentCitation author="Becker" box="[265,466,258,280]" page="207" pageId="53" pageNumber="54" year="1906">
-<bibRefCitation author="Becker" box="[265,415,258,280]" pageId="53" pageNumber="54" refString="Becker, T. (1906 b) Usia Latr. Berliner Entomologische Zeitschrift, 50 (1905), 193 - 228." type="journal article" year="1906" yearSuffix="b">
+<bibRefCitation author="Becker, T." box="[265,466,258,280]" firstAuthor="Becker" journalOrPublisher="Berliner Entomologische Zeitschrift" page="207" pageId="53" pageNumber="54" pagination="193 - 228" part="50" refId="ref58401" refString="Becker, T. (1906 b) Usia Latr. Berliner Entomologische Zeitschrift, 50 (1905), 193 - 228." title="Usia Latr" type="journal article" year="1906" yearSuffix="b">
 Becker, 
 <number box="[349,402,258,280]" pageId="53" pageNumber="54" value="1906.0">1906</number>
-b
-</bibRefCitation>
-: 
+b: 
 <number box="[425,466,258,280]" pageId="53" pageNumber="54" value="207.0">207</number>
+</bibRefCitation>
 </treatmentCitation>
 .
 </treatmentCitationGroup>
@@ -81,20 +87,32 @@ b
 <typeStatus box="[151,210,325,350]" pageId="53" pageNumber="54">Type</typeStatus>
 material examined.
 </emphasis>
+<materialsCitation collectingDate="1910-05-11" collectionCode="MNHN" collectorName="Hesse" country="Algeria" location="Lalla Marnia" municipality="Lalla Marnia" pageId="53" pageNumber="54" specimenCount="1" specimenCount-male="1" typeStatus="holotype">
 <typeStatus box="[452,604,326,350]" pageId="53" pageNumber="54">HOLOTYPE</typeStatus>
 ; 
 <collectingCountry box="[614,702,325,350]" name="Algeria" pageId="53" pageNumber="54">
 <emphasis bold="true" box="[614,702,325,350]" pageId="53" pageNumber="54">Algeria</emphasis>
 </collectingCountry>
-, Lalla Marnia, 
+, 
+<collectingMunicipality box="[716,863,325,350]" pageId="53" pageNumber="54">Lalla Marnia</collectingMunicipality>
+, 
 <date box="[874,1020,326,350]" pageId="53" pageNumber="54" value="1910-05-11">
+<collectingDate box="[874,1020,326,350]" pageId="53" pageNumber="54" value="1910-05-11">
 <number box="[874,901,326,350]" pageId="53" pageNumber="54" value="11.0">11</number>
 May 
 <number box="[965,1020,326,350]" pageId="53" pageNumber="54" value="1910.0">1910</number>
+</collectingDate>
 </date>
-/ Museum Paris, ex coll., Hesse [♂ in 
+/ Museum Paris, ex coll., 
+<collectorName box="[1304,1371,326,349]" pageId="53" pageNumber="54">Hesse</collectorName>
+[
+<specimenCount box="[1385,1408,326,349]" pageId="53" pageNumber="54" type="male">♂</specimenCount>
+in 
 <collectionCode LSID="urn:lsid:biocol.org:col:34988" box="[151,243,362,385]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34988" name="Museum National d'Histoire Naturelle" pageId="53" pageNumber="54">MNHN</collectionCode>
-]. 
+]
+</materialsCitation>
+. 
+<materialsCitation box="[264,1146,361,386]" pageId="53" pageNumber="54">
 <typeStatus box="[264,422,361,385]" pageId="53" pageNumber="54">PARATYPES</typeStatus>
 ; 
 <collectingCountry box="[437,526,361,386]" name="Algeria" pageId="53" pageNumber="54">
@@ -114,7 +132,11 @@ coll. Bigot [
 <number box="[953,965,361,385]" pageId="53" pageNumber="54" value="1.0">1</number>
 ♀ in 
 <collectionCode box="[1028,1140,361,385]" pageId="53" pageNumber="54">OUMNH</collectionCode>
-]; Museum Paris, 
+]
+</materialsCitation>
+; 
+<materialsCitation pageId="53" pageNumber="54">
+Museum Paris, 
 <collectingCountry box="[1345,1432,361,386]" name="Algeria" pageId="53" pageNumber="54">Algérie</collectingCountry>
 , Lalla-Marnia, A. Finot 
 <date box="[427,594,398,422]" pageId="53" pageNumber="54" value="1897-05-29">
@@ -129,7 +151,11 @@ May
 <number box="[648,680,398,422]" pageId="53" pageNumber="54" value="80.0">80</number>
 [♀ in 
 <collectionCode LSID="urn:lsid:biocol.org:col:34988" box="[767,859,398,421]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34988" name="Museum National d'Histoire Naturelle" pageId="53" pageNumber="54">MNHN</collectionCode>
-]; Lalla Marnia, 
+]
+</materialsCitation>
+; 
+<materialsCitation pageId="53" pageNumber="54">
+Lalla Marnia, 
 <date box="[1050,1207,398,422]" pageId="53" pageNumber="54" value="1910-05-11">
 <number box="[1050,1077,398,422]" pageId="53" pageNumber="54" value="11.0">11</number>
 May 
@@ -148,13 +174,21 @@ Fabr.
 <number box="[538,554,433,457]" pageId="53" pageNumber="54" value="3.0">3</number>
 ♀ in 
 <collectionCode LSID="urn:lsid:biocol.org:col:34988" box="[607,699,434,457]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34988" name="Museum National d'Histoire Naturelle" pageId="53" pageNumber="54">MNHN</collectionCode>
-]; Aïn-Séfra, 
+]
+</materialsCitation>
+; 
+<materialsCitation pageId="53" pageNumber="54">
+Aïn-Séfra, 
 <collectingCountry box="[839,926,433,458]" name="Algeria" pageId="53" pageNumber="54">Algérie</collectingCountry>
 , Coll. Fagniez/ Museum Paris, ex coll., Hesse [
 <number box="[160,177,469,494]" pageId="53" pageNumber="54" value="5.0">5</number>
 ♀ in 
 <collectionCode LSID="urn:lsid:biocol.org:col:34988" box="[239,331,470,493]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34988" name="Museum National d'Histoire Naturelle" pageId="53" pageNumber="54">MNHN</collectionCode>
-]; Aïn-Séfra, (
+]
+</materialsCitation>
+; 
+<materialsCitation box="[353,1308,469,494]" pageId="53" pageNumber="54">
+Aïn-Séfra, (
 <collectingCountry box="[490,551,470,494]" name="Algeria" pageId="53" pageNumber="54">Oran</collectingCountry>
 ), L. Bleuse/ Pres. by, E. Brunetti, Brit. Mus., 
 <number box="[1098,1155,470,494]" pageId="53" pageNumber="54" value="1927.0">1927</number>
@@ -166,7 +200,10 @@ Fabr.
 ♂
 </specimenCount>
 <number box="[1270,1282,470,494]" pageId="53" pageNumber="54" value="1.0">1</number>
-♀]. 
+♀]
+</materialsCitation>
+. 
+<materialsCitation pageId="53" pageNumber="54">
 <collectingCountry box="[1324,1429,469,494]" name="Morocco" pageId="53" pageNumber="54">
 <emphasis bold="true" box="[1324,1429,469,494]" pageId="53" pageNumber="54">Morocco</emphasis>
 </collectingCountry>
@@ -182,26 +219,34 @@ k Au S. de Meknès, R. Benoist
 <number box="[1255,1272,505,529]" pageId="53" pageNumber="54" value="2.0">2</number>
 ♀ in 
 <collectionCode LSID="urn:lsid:biocol.org:col:34988" box="[1333,1425,506,529]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34988" name="Museum National d'Histoire Naturelle" pageId="53" pageNumber="54">MNHN</collectionCode>
-]; 
+]
+</materialsCitation>
+; 
+<materialsCitation box="[151,697,541,566]" pageId="53" pageNumber="54">
 <collectingCountry box="[151,255,541,566]" name="Morocco" pageId="53" pageNumber="54">Mogador</collectingCountry>
 , Coll. J. Surcouf 
 <number box="[449,505,542,566]" pageId="53" pageNumber="54" value="1919.0">1919</number>
 [♂♀ in 
 <collectionCode LSID="urn:lsid:biocol.org:col:34988" box="[599,691,542,565]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34988" name="Museum National d'Histoire Naturelle" pageId="53" pageNumber="54">MNHN</collectionCode>
-]; Sud Ozanais/ Museum Paris, Coll. J. Surcouf [
+]
+</materialsCitation>
+; 
+<materialsCitation box="[709,1394,541,566]" pageId="53" pageNumber="54">
+Sud Ozanais/ Museum Paris, Coll. J. Surcouf [
 <specimenCount box="[1230,1267,542,566]" pageId="53" pageNumber="54" type="generic">
 <number box="[1230,1245,542,566]" pageId="53" pageNumber="54" value="2.0">2</number>
 ♂
 </specimenCount>
 in 
 <collectionCode LSID="urn:lsid:biocol.org:col:34988" box="[1302,1394,542,565]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34988" name="Museum National d'Histoire Naturelle" pageId="53" pageNumber="54">MNHN</collectionCode>
+</materialsCitation>
 ].
 </paragraph>
 <paragraph blockId="53.[151,1437,325,2006]" pageId="53" pageNumber="54">
 <emphasis bold="true" box="[199,635,577,602]" pageId="53" pageNumber="54">
 Other material examined. 
+<materialsCitation pageId="53" pageNumber="54">
 <collectingCountry box="[530,635,577,602]" name="Morocco" pageId="53" pageNumber="54">Morocco</collectingCountry>
-</emphasis>
 , Tanger-Tetouane, El Biutz, 
 <geoCoordinate box="[979,1104,577,602]" direction="north" orientation="latitude" pageId="53" pageNumber="54" precision="1" value="35.89468">
 N 
@@ -238,6 +283,8 @@ May
 ] (
 <collectionCode box="[677,748,614,638]" pageId="53" pageNumber="54">PCJD</collectionCode>
 ).
+</materialsCitation>
+</emphasis>
 </paragraph>
 </subSubSection>
 <subSubSection pageId="53" pageNumber="54" type="etymology">
@@ -271,7 +318,7 @@ and
 <emphasis box="[831,965,1045,1070]" italics="true" pageId="53" pageNumber="54">Wing length</emphasis>
 . 5.0–7.0mm.
 </paragraph>
-<paragraph blockId="53.[151,1437,325,2006]" lastBlockId="54.[151,1436,1947,2031]" lastPageId="54" lastPageNumber="55" pageId="53" pageNumber="54">
+<paragraph blockId="53.[151,1437,325,2006]" lastBlockId="55.[151,1436,151,789]" lastPageId="55" lastPageNumber="56" pageId="53" pageNumber="54">
 <emphasis bold="true" box="[199,260,1081,1106]" pageId="53" pageNumber="54">Male</emphasis>
 . 
 <emphasis box="[276,336,1081,1106]" italics="true" pageId="53" pageNumber="54">Head</emphasis>
@@ -306,11 +353,16 @@ Macquart
 </taxonomicName>
 but the hairs conspicuously shorter and paler). Sternites also with similar long, pale whitish hairs. 
 <emphasis box="[219,325,1981,2006]" italics="true" pageId="53" pageNumber="54">Genitalia</emphasis>
-. Large and protuberant, almost as large as the remainder of the abdomen, shining black, variably 
-<emphasis bold="true" box="[151,297,1947,1969]" pageId="54" pageNumber="55">
-<collectionCode box="[151,234,1947,1969]" pageId="54" pageNumber="55">PLATE</collectionCode>
-XIII.
-</emphasis>
+. Large and protuberant, almost as large as the remainder of the abdomen, shining black, variably yellow on apicomedial and internal part of gonocoxite. Epandrium densely covered with short, apically curved pale yellow hairs, apical rim narrowly yellow. Gonocoxite with longer pale hairs similar to those on the lateral margins of the tergites, especially the apical corners which are furnished with a relatively dense brush of inwardly curved golden yellow hairs. Gonostylus similar to that of 
+<taxonomicName authority="Becker" authorityName="Becker" box="[712,907,260,285]" class="Insecta" family="Bombyliidae" genus="Usia" kingdom="Animalia" order="Diptera" pageId="55" pageNumber="56" phylum="Arthropoda" rank="species" species="accola">
+<emphasis box="[712,822,260,285]" italics="true" pageId="55" pageNumber="56">U. accola</emphasis>
+Becker
+</taxonomicName>
+(a short-haired species) but often not visible in pinned specimens.
+</paragraph>
+<caption pageId="54" pageNumber="55" startId="54.[151,234,1947,1969]" targetBox="[208,1368,206,1914]" targetPageId="54">
+<paragraph blockId="54.[151,1436,1947,2031]" pageId="54" pageNumber="55">
+<emphasis bold="true" box="[151,297,1947,1969]" pageId="54" pageNumber="55">PLATE XIII.</emphasis>
 <taxonomicName authority="Gibbs" authorityName="Gibbs" box="[305,566,1947,1969]" class="Insecta" family="Bombyliidae" genus="Usia" kingdom="Animalia" order="Diptera" pageId="54" pageNumber="55" phylum="Arthropoda" rank="species" species="maghrebensis" status="sp. nov.">
 <emphasis box="[305,499,1947,1969]" italics="true" pageId="54" pageNumber="55">Usia maghrebensis</emphasis>
 Gibbs
@@ -338,14 +390,7 @@ female sternite
 <number box="[675,687,2009,2031]" pageId="54" pageNumber="55" value="8.0">8</number>
 ventral.
 </paragraph>
-<paragraph blockId="55.[151,1436,151,789]" pageId="55" pageNumber="56">
-yellow on apicomedial and internal part of gonocoxite. Epandrium densely covered with short, apically curved pale yellow hairs, apical rim narrowly yellow. Gonocoxite with longer pale hairs similar to those on the lateral margins of the tergites, especially the apical corners which are furnished with a relatively dense brush of inwardly curved golden yellow hairs. Gonostylus similar to that of 
-<taxonomicName authority="Becker" authorityName="Becker" box="[712,907,260,285]" class="Insecta" family="Bombyliidae" genus="Usia" kingdom="Animalia" order="Diptera" pageId="55" pageNumber="56" phylum="Arthropoda" rank="species" species="accola">
-<emphasis box="[712,822,260,285]" italics="true" pageId="55" pageNumber="56">U. accola</emphasis>
-Becker
-</taxonomicName>
-(a short-haired species) but often not visible in pinned specimens.
-</paragraph>
+</caption>
 <paragraph blockId="55.[151,1436,151,789]" pageId="55" pageNumber="56">
 <emphasis bold="true" box="[199,286,332,357]" pageId="55" pageNumber="56">Female</emphasis>
 . As male except as follows: noticeably wider frons and the lateral ocellus separated from the eye margin by conspicuously more than the diameter of that ocellus. Abdominal hairing rather shorter, especially laterally. Abdomen conical tapering to a rounded point, apical sternite with basal raised boss and often apical ridge, longer than broad; furca with tip pointed but unpigmented, membranous, arms short and broad.
@@ -366,7 +411,7 @@ Becker
 that occurs further east in the Maghreb and does not overlap in range.
 </paragraph>
 <paragraph blockId="55.[151,1436,151,789]" pageId="55" pageNumber="56">
-<bibRefCitation author="Becker" box="[199,374,548,573]" pageId="55" pageNumber="56" refString="Becker, T. (1906 b) Usia Latr. Berliner Entomologische Zeitschrift, 50 (1905), 193 - 228." type="journal article" year="1906" yearSuffix="b">
+<bibRefCitation author="Becker, T." box="[199,374,548,573]" firstAuthor="Becker" journalOrPublisher="Berliner Entomologische Zeitschrift" pageId="55" pageNumber="56" pagination="193 - 228" part="50" refId="ref58401" refString="Becker, T. (1906 b) Usia Latr. Berliner Entomologische Zeitschrift, 50 (1905), 193 - 228." title="Usia Latr" type="journal article" year="1906" yearSuffix="b">
 Becker (
 <number box="[293,351,548,573]" pageId="55" pageNumber="56" value="1906.0">1906</number>
 b)

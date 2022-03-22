@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6135482" ID-GBIF-Dataset="d9f29df5-52ff-451f-a367-f9fdb29b180f" ID-GBIF-Taxon="127667906" ID-ISSN="1175-5326" ID-Zenodo-Dep="6135482" ID-ZooBank="56DD05E1-C61C-4D37-9454-396840EB67C0" checkinTime="1460422790352" checkinUser="plazi" docAuthor="Gibbs, David" docDate="2014" docId="A96887E8FFC2FF89FF43FE1BFBD302D2" docLanguage="en" docName="zt03799p085.pdf" docOrigin="Zootaxa 3799 (1)" docStyle="DocumentStylede.uka.ipd.idaho.easyIO.settings.Settings@77e6d936" docStyleName="zootaxa.2013.monograph" docTitle="Usia annetteae Gibbs, sp. nov." docType="treatment" docVersion="6" lastPageId="25" lastPageNumber="26" masterDocId="5551FF90FFD5FF90FFD4FFCAFFF60616" masterDocTitle="A world revision of the bee fly tribe Usiini (Diptera, Bombyliidae) Part 2: Usia sensu stricto" masterLastPageNumber="85" masterPageNumber="1" pageId="23" pageNumber="24" updateTime="1645173883940" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6135482" ID-GBIF-Dataset="d9f29df5-52ff-451f-a367-f9fdb29b180f" ID-GBIF-Taxon="127667906" ID-ISSN="1175-5326" ID-Zenodo-Dep="6135482" ID-ZooBank="56DD05E1-C61C-4D37-9454-396840EB67C0" approvalRequired="27" approvalRequired_for_matCits="27" checkinTime="1460422790352" checkinUser="plazi" docAuthor="Gibbs, David" docDate="2014" docId="A96887E8FFC2FF89FF43FE1BFBD302D2" docLanguage="en" docName="zt03799p085.pdf" docOrigin="Zootaxa 3799 (1)" docStyle="DocumentStyle:5EBBA59367AD13919D70D935FA04F6A3.10:Zootaxa.2013-.monograph" docStyleId="5EBBA59367AD13919D70D935FA04F6A3" docStyleName="Zootaxa.2013-.monograph" docStyleVersion="10" docTitle="Usia annetteae Gibbs, sp. nov." docType="treatment" docVersion="8" lastPageId="25" lastPageNumber="26" masterDocId="5551FF90FFD5FF90FFD4FFCAFFF60616" masterDocTitle="A world revision of the bee fly tribe Usiini (Diptera, Bombyliidae) Part 2: Usia sensu stricto" masterLastPageNumber="85" masterPageNumber="1" pageId="23" pageNumber="24" updateTime="1647966678856" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>A world revision of the bee fly tribe Usiini (Diptera, Bombyliidae) Part 2: Usia sensu stricto</mods:title>
@@ -16,6 +16,9 @@
 </mods:titleInfo>
 <mods:part>
 <mods:date>2014</mods:date>
+<mods:detail type="pubDate">
+<mods:number>2014-05-22</mods:number>
+</mods:detail>
 <mods:detail type="volume">
 <mods:number>3799</mods:number>
 </mods:detail>
@@ -56,26 +59,42 @@ Gibbs
 <typeStatus box="[151,210,572,597]" pageId="23" pageNumber="24">Type</typeStatus>
 material examined.
 </emphasis>
+<materialsCitation collectingDate="2001-05-29" collectingDateMax="2001-06-03" collectingDateMin="2001-05-29" collectionCode="NMWC" collectorName="J. C. Deeming" country="Lebanon" elevation="1450" location="Horsh Ehden Nature Reserve" municipality="Tripoli" pageId="23" pageNumber="24" specimenCount="1" specimenCount-male="1" typeStatus="holotype">
 <typeStatus box="[468,620,572,596]" pageId="23" pageNumber="24">HOLOTYPE</typeStatus>
 ; 
 <collectingCountry box="[636,742,572,597]" name="Lebanon" pageId="23" pageNumber="24">
 <emphasis bold="true" box="[636,742,572,597]" pageId="23" pageNumber="24">Lebanon</emphasis>
 </collectingCountry>
 , 
+<locationDeviation bearing="135.0" box="[761,904,572,597]" distance="25000.0" pageId="23" pageNumber="24">
 <quantity box="[761,824,572,597]" metricMagnitude="4" metricUnit="m" metricValue="2.5" pageId="23" pageNumber="24" unit="km" value="25.0">25km</quantity>
-SE of Tripoli, Horsh Ehden Nature Reserve/, Alt. 
-<quantity box="[151,312,607,632]" metricMagnitude="3" metricUnit="m" metricValue="1.45" metricValueMax="1.6" metricValueMin="1.3" pageId="23" pageNumber="24" unit="m" value="1450.0" valueMax="1600.0" valueMin="1300.0">1300–1600 m</quantity>
+SE of
+</locationDeviation>
+<collectingMunicipality box="[916,996,572,597]" pageId="23" pageNumber="24">Tripoli</collectingMunicipality>
+, 
+<location LSID="urn:lsid:plazi:treatment:A96887E8FFC2FF89FF43FE1BFBD302D2:241E6025FFC2FF87FC20FDF6FABC0442" box="[1012,1354,572,597]" country="Lebanon" municipality="Tripoli" name="Horsh Ehden Nature Reserve" pageId="23" pageNumber="24">Horsh Ehden Nature Reserve</location>
+/, Alt. 
+<quantity box="[151,312,607,632]" metricMagnitude="3" metricUnit="m" metricValue="1.45" metricValueMax="1.6" metricValueMin="1.3" pageId="23" pageNumber="24" unit="m" value="1450.0" valueMax="1600.0" valueMin="1300.0">
+<elevation box="[151,312,607,632]" metricMagnitude="3" metricUnit="m" metricValue="1.45" metricValueMax="1.6" metricValueMin="1.3" pageId="23" pageNumber="24" unit="m" value="1450.0" valueMax="1600.0" valueMin="1300.0">1300–1600 m</elevation>
+</quantity>
 , 
 <date box="[327,578,608,632]" pageId="23" pageNumber="24" value="2001-05-29" valueMax="2001-06-03" valueMin="2001-05-29">
+<collectingDate box="[327,578,608,632]" pageId="23" pageNumber="24" value="2001-05-29" valueMax="2001-06-03" valueMin="2001-05-29">
 <number box="[327,355,608,632]" pageId="23" pageNumber="24" value="29.0">29</number>
 May– 
 <number box="[434,446,608,632]" pageId="23" pageNumber="24" value="3.0">3</number>
 June 
 <number box="[519,578,608,632]" pageId="23" pageNumber="24" value="2001.0">2001</number>
+</collectingDate>
 </date>
-, J.C. Deeming [♂ 
+, 
+<collectorName box="[593,751,607,632]" pageId="23" pageNumber="24">J.C. Deeming</collectorName>
+[
+<specimenCount box="[769,792,608,631]" pageId="23" pageNumber="24" type="male">♂</specimenCount>
 <collectionCode box="[803,900,608,632]" httpUri="http://grbio.org/cool/e7dr-nxad" name="National Museum of Wales" pageId="23" pageNumber="24">NMWC</collectionCode>
-]. 
+].
+</materialsCitation>
+<materialsCitation pageId="23" pageNumber="24" typeStatus="paratype">
 <typeStatus box="[920,1078,608,632]" pageId="23" pageNumber="24">PARATYPES</typeStatus>
 ; 
 <collectingCountry box="[1093,1161,607,632]" name="Israel" pageId="23" pageNumber="24">
@@ -95,7 +114,9 @@ May
 <collectionCode box="[591,653,644,668]" httpUri="http://grbio.org/cool/ze71-842p" name="Tel-Aviv University" pageId="23" pageNumber="24">
 <collectingCountry box="[591,653,644,668]" name="China" pageId="23" pageNumber="24">TAU</collectingCountry>
 </collectionCode>
+</materialsCitation>
 ]; 
+<materialsCitation box="[674,1273,644,669]" pageId="23" pageNumber="24" typeStatus="paratype">
 <quantity box="[674,752,644,669]" metricMagnitude="2" metricUnit="m" metricValue="6.0" pageId="23" pageNumber="24" unit="m" value="600.0">600 m</quantity>
 , Hermon, 
 <date box="[878,1025,644,669]" pageId="23" pageNumber="24" value="1975-06-09">
@@ -107,40 +128,65 @@ June
 <collectionCode box="[1205,1267,644,668]" httpUri="http://grbio.org/cool/ze71-842p" name="Tel-Aviv University" pageId="23" pageNumber="24">
 <collectingCountry box="[1205,1267,644,668]" name="China" pageId="23" pageNumber="24">TAU</collectingCountry>
 </collectionCode>
-]; 
-<quantity box="[1289,1380,644,668]" metricMagnitude="3" metricUnit="m" metricValue="1.8" pageId="23" pageNumber="24" unit="m" value="1800.0">1800 m</quantity>
-, Mt. Hermon, 
-<date box="[256,342,680,704]" pageId="23" pageNumber="24" value="2012-06">
+]
+</materialsCitation>
+; 
+<materialsCitation collectingDate="1996-06-12" collectionCode="MHNG" collectorName="Merz &amp; Freidberg" elevation="1800" location="Mt. Hermon" municipality="Mt. Hermon" pageId="23" pageNumber="24" specimenCount="4" specimenCount-female="3" typeStatus="paratype">
+<quantity box="[1289,1380,644,668]" metricMagnitude="3" metricUnit="m" metricValue="1.8" pageId="23" pageNumber="24" unit="m" value="1800.0">
+<elevation box="[1289,1380,644,668]" metricMagnitude="3" metricUnit="m" metricValue="1.8" pageId="23" pageNumber="24" unit="m" value="1800.0">1800 m</elevation>
+</quantity>
+, 
+<location LSID="urn:lsid:plazi:treatment:A96887E8FFC2FF89FF43FE1BFBD302D2:241E6025FFC2FF87FAA0FD4FFF0004A9" municipality="Mt. Hermon" name="Mt. Hermon" pageId="23" pageNumber="24">Mt. Hermon</location>
+, 
 <number box="[256,284,680,704]" pageId="23" pageNumber="24" value="12.0">12</number>
-June
-</date>
-[
+June [
 <number box="[356,385,679,704]" pageId="23" pageNumber="24" value="19.0">19</number>
 ] 
 <number box="[392,425,679,704]" pageId="23" pageNumber="24" value="96.0">96</number>
-, Merz &amp; Freidberg leg. [
+, 
+<collectorName box="[436,495,680,703]" pageId="23" pageNumber="24">Merz</collectorName>
+&amp; 
+<collectorName box="[530,639,679,704]" pageId="23" pageNumber="24">Freidberg</collectorName>
+leg. [
 <specimenCount box="[701,739,680,704]" pageId="23" pageNumber="24" type="generic">
 <number box="[701,713,680,704]" pageId="23" pageNumber="24" value="1.0">1</number>
 ♂
 </specimenCount>
+<specimenCount box="[738,772,680,704]" pageId="23" pageNumber="24" type="female">
 <number box="[738,754,680,704]" pageId="23" pageNumber="24" value="3.0">3</number>
-♀ 
+♀
+</specimenCount>
 <collectionCode box="[778,870,680,704]" httpUri="http://grbio.org/cool/2jyg-xmd2" name="Museum d'Histoire Naturelle" pageId="23" pageNumber="24">MHNG</collectionCode>
-]; 
-<quantity box="[887,973,679,704]" metricMagnitude="3" metricUnit="m" metricValue="1.6" pageId="23" pageNumber="24" unit="m" value="1600.0">1600 m</quantity>
-, Mt. Hermon, 
+]
+</materialsCitation>
+; 
+<materialsCitation collectingDate="2000-05-29" collectionCode="MHNG" collectorName="B. Merz" elevation="1600" location="Mt. Hermon" pageId="23" pageNumber="24" specimenCount="2" typeStatus="paratype">
+<quantity box="[887,973,679,704]" metricMagnitude="3" metricUnit="m" metricValue="1.6" pageId="23" pageNumber="24" unit="m" value="1600.0">
+<elevation box="[887,973,679,704]" metricMagnitude="3" metricUnit="m" metricValue="1.6" pageId="23" pageNumber="24" unit="m" value="1600.0">1600 m</elevation>
+</quantity>
+, 
+<location LSID="urn:lsid:plazi:treatment:A96887E8FFC2FF89FF43FE1BFBD302D2:241E6025FFC2FF87FC0DFD62FB9004A9" box="[985,1126,680,703]" name="Mt. Hermon" pageId="23" pageNumber="24">Mt. Hermon</location>
+, 
 <date box="[1136,1287,680,704]" pageId="23" pageNumber="24" value="2000-05-29">
+<collectingDate box="[1136,1287,680,704]" pageId="23" pageNumber="24" value="2000-05-29">
 <number box="[1136,1164,680,704]" pageId="23" pageNumber="24" value="29.0">29</number>
 May 
 <number box="[1228,1287,680,704]" pageId="23" pageNumber="24" value="2000.0">2000</number>
+</collectingDate>
 </date>
-, leg. B. Merz [
+, leg. 
+<collectorName box="[1345,1436,680,703]" pageId="23" pageNumber="24">B. Merz</collectorName>
+[
 <specimenCount box="[158,196,716,740]" pageId="23" pageNumber="24" type="generic">
 <number box="[158,173,716,740]" pageId="23" pageNumber="24" value="2.0">2</number>
 ♂
 </specimenCount>
 <collectionCode box="[205,297,716,740]" httpUri="http://grbio.org/cool/2jyg-xmd2" name="Museum d'Histoire Naturelle" pageId="23" pageNumber="24">MHNG</collectionCode>
-]; Mt. Hermon, Astra, 
+]
+</materialsCitation>
+; 
+<materialsCitation box="[318,973,716,741]" pageId="23" pageNumber="24" typeStatus="paratype">
+Mt. Hermon, Astra, 
 <date box="[555,695,716,741]" pageId="23" pageNumber="24" value="1987-07-09">
 <number box="[555,569,716,740]" pageId="23" pageNumber="24" value="9.0">9</number>
 July 
@@ -150,7 +196,11 @@ July
 <collectionCode box="[905,967,716,740]" httpUri="http://grbio.org/cool/ze71-842p" name="Tel-Aviv University" pageId="23" pageNumber="24">
 <collectingCountry box="[905,967,716,740]" name="China" pageId="23" pageNumber="24">TAU</collectingCountry>
 </collectionCode>
-]; Mt. Shalhavit, 
+]
+</materialsCitation>
+; 
+<materialsCitation pageId="23" pageNumber="24" typeStatus="paratype">
+Mt. Shalhavit, 
 <quantity box="[1161,1251,716,740]" metricMagnitude="3" metricUnit="m" metricValue="1.9" pageId="23" pageNumber="24" unit="m" value="1900.0">1900 m</quantity>
 , 
 <date box="[1266,1405,716,741]" pageId="23" pageNumber="24" value="1987-07-09">
@@ -168,7 +218,11 @@ July
 <collectionCode box="[367,429,752,776]" httpUri="http://grbio.org/cool/ze71-842p" name="Tel-Aviv University" pageId="23" pageNumber="24">
 <collectingCountry box="[367,429,752,776]" name="China" pageId="23" pageNumber="24">TAU</collectingCountry>
 </collectionCode>
-]; Hermon Mt., 
+]
+</materialsCitation>
+; 
+<materialsCitation box="[448,1123,751,776]" pageId="23" pageNumber="24" typeStatus="paratype">
+Hermon Mt., 
 <quantity box="[605,685,751,776]" metricMagnitude="3" metricUnit="m" metricValue="1.75" pageId="23" pageNumber="24" unit="m" value="1750.0">1750m</quantity>
 , 
 <date box="[699,837,751,776]" pageId="23" pageNumber="24" value="1987-07-08">
@@ -180,7 +234,11 @@ July
 <collectionCode box="[1055,1117,752,776]" httpUri="http://grbio.org/cool/ze71-842p" name="Tel-Aviv University" pageId="23" pageNumber="24">
 <collectingCountry box="[1055,1117,752,776]" name="China" pageId="23" pageNumber="24">TAU</collectingCountry>
 </collectionCode>
-]; Hermon, 
+]
+</materialsCitation>
+; 
+<materialsCitation pageId="23" pageNumber="24" typeStatus="paratype">
+Hermon, 
 <quantity box="[1244,1334,751,776]" metricMagnitude="3" metricUnit="m" metricValue="1.6" pageId="23" pageNumber="24" unit="m" value="1600.0">1600 m</quantity>
 , 
 <date pageId="23" pageNumber="24" value="1994-05-23">
@@ -192,7 +250,10 @@ May
 <collectionCode box="[567,629,788,812]" httpUri="http://grbio.org/cool/ze71-842p" name="Tel-Aviv University" pageId="23" pageNumber="24">
 <collectingCountry box="[567,629,788,812]" name="China" pageId="23" pageNumber="24">TAU</collectingCountry>
 </collectionCode>
-]; 
+]
+</materialsCitation>
+; 
+<materialsCitation box="[648,1286,788,812]" pageId="23" pageNumber="24">
 <quantity box="[648,737,788,812]" metricMagnitude="3" metricUnit="m" metricValue="1.8" pageId="23" pageNumber="24" unit="m" value="1800.0">1800 m</quantity>
 , Har Hermon, 
 <date box="[910,1067,788,812]" pageId="23" pageNumber="24" value="2003-06-12">
@@ -204,7 +265,10 @@ June
 <collectionCode box="[1218,1280,788,812]" httpUri="http://grbio.org/cool/ze71-842p" name="Tel-Aviv University" pageId="23" pageNumber="24">
 <collectingCountry box="[1218,1280,788,812]" name="China" pageId="23" pageNumber="24">TAU</collectingCountry>
 </collectionCode>
-]; 
+]
+</materialsCitation>
+; 
+<materialsCitation pageId="23" pageNumber="24">
 <quantity box="[1300,1380,788,812]" metricMagnitude="3" metricUnit="m" metricValue="1.8" pageId="23" pageNumber="24" unit="m" value="1800.0">1800m</quantity>
 , Har Hermon, 
 <number box="[260,287,824,848]" pageId="23" pageNumber="24" value="11.0">11</number>
@@ -224,7 +288,9 @@ June
 <collectionCode box="[749,811,824,848]" httpUri="http://grbio.org/cool/ze71-842p" name="Tel-Aviv University" pageId="23" pageNumber="24">
 <collectingCountry box="[749,811,824,848]" name="China" pageId="23" pageNumber="24">TAU</collectingCountry>
 </collectionCode>
-]. 
+].
+</materialsCitation>
+<materialsCitation pageId="23" pageNumber="24">
 <collectingCountry box="[831,937,823,848]" name="Lebanon" pageId="23" pageNumber="24">
 <emphasis bold="true" box="[831,937,823,848]" pageId="23" pageNumber="24">Lebanon</emphasis>
 </collectingCountry>
@@ -242,7 +308,11 @@ June
 </date>
 , J.C. Deeming [♂♀, 
 <collectionCode box="[951,1048,860,884]" httpUri="http://grbio.org/cool/e7dr-nxad" name="National Museum of Wales" pageId="23" pageNumber="24">NMWC</collectionCode>
-]; Horsh Ehden NNR, Mixed forest 
+]
+</materialsCitation>
+; 
+<materialsCitation pageId="23" pageNumber="24">
+Horsh Ehden NNR, Mixed forest 
 <quantity box="[151,238,895,920]" metricMagnitude="3" metricUnit="m" metricValue="1.5" pageId="23" pageNumber="24" unit="m" value="1500.0">1500 m</quantity>
 , 
 <date box="[250,488,896,920]" pageId="23" pageNumber="24" value="2001-05-29" valueMax="2001-06-01" valueMin="2001-05-29">
@@ -259,6 +329,7 @@ June
 </specimenCount>
 <collectionCode box="[699,782,896,920]" pageId="23" pageNumber="24">PCME</collectionCode>
 ].
+</materialsCitation>
 </paragraph>
 </subSubSection>
 <subSubSection pageId="23" pageNumber="24" type="etymology">
@@ -298,11 +369,9 @@ and the Golan Heights on the Israli/Syrian border (disputed territory. Entirely 
 <number box="[151,192,1976,2001]" pageId="23" pageNumber="24" value="4.5" valueMax="5.0" valueMin="4.0">4–5</number>
 irregular lines, posterior ones proclinate, anterior ones reclinate, dorsocentrals indistinguishable from the general vestiture.
 </paragraph>
+<caption pageId="24" pageNumber="25" startId="24.[151,234,1950,1972]" targetBox="[206,1377,205,1918]" targetPageId="24">
 <paragraph blockId="24.[151,1436,1950,2033]" pageId="24" pageNumber="25">
-<emphasis bold="true" box="[151,265,1950,1972]" pageId="24" pageNumber="25">
-<collectionCode box="[151,234,1950,1972]" pageId="24" pageNumber="25">PLATE</collectionCode>
-II.
-</emphasis>
+<emphasis bold="true" box="[151,265,1950,1972]" pageId="24" pageNumber="25">PLATE II.</emphasis>
 <taxonomicName authority="Gibbs" authorityName="Gibbs" box="[271,490,1950,1972]" class="Insecta" family="Bombyliidae" genus="Usia" kingdom="Animalia" order="Diptera" pageId="24" pageNumber="25" phylum="Arthropoda" rank="species" species="annetteae" status="sp. nov.">
 <emphasis box="[271,422,1951,1972]" italics="true" pageId="24" pageNumber="25">Usia annetteae</emphasis>
 Gibbs
@@ -328,6 +397,7 @@ female sternite
 <number box="[151,164,2011,2033]" pageId="24" pageNumber="25" value="8.0">8</number>
 ventral.
 </paragraph>
+</caption>
 <paragraph blockId="25.[151,1437,151,1221]" pageId="25" pageNumber="26">
 Scutellum shining as adjacent parts of mesonotum, erect-hairs on disc as dense as on rear of mesonotum. Pleurae grey dusted except for ventral half of katepisternum and all but lower hind corner of anepisternum, which are polished black. Fairly long white hairs on pronotum and posterior half of anepisternum. 
 <emphasis box="[1186,1242,225,248]" italics="true" pageId="25" pageNumber="26">Wing</emphasis>

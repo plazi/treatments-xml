@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6135484" ID-GBIF-Dataset="d9f29df5-52ff-451f-a367-f9fdb29b180f" ID-GBIF-Taxon="127667901" ID-ISSN="1175-5326" ID-Zenodo-Dep="6135484" ID-ZooBank="56DD05E1-C61C-4D37-9454-396840EB67C0" checkinTime="1460422790352" checkinUser="plazi" docAuthor="Gibbs, David" docDate="2014" docId="A96887E8FFCCFF8CFF43FADDFAFE04DB" docLanguage="en" docName="zt03799p085.pdf" docOrigin="Zootaxa 3799 (1)" docStyle="DocumentStylede.uka.ipd.idaho.easyIO.settings.Settings@77e6d936" docStyleName="zootaxa.2013.monograph" docTitle="Usia bicolor Macquart 1855" docType="treatment" docVersion="6" lastPageId="28" lastPageNumber="29" masterDocId="5551FF90FFD5FF90FFD4FFCAFFF60616" masterDocTitle="A world revision of the bee fly tribe Usiini (Diptera, Bombyliidae) Part 2: Usia sensu stricto" masterLastPageNumber="85" masterPageNumber="1" pageId="25" pageNumber="26" updateTime="1645173883940" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6135484" ID-GBIF-Dataset="d9f29df5-52ff-451f-a367-f9fdb29b180f" ID-GBIF-Taxon="127667901" ID-ISSN="1175-5326" ID-Zenodo-Dep="6135484" ID-ZooBank="56DD05E1-C61C-4D37-9454-396840EB67C0" approvalRequired="27" approvalRequired_for_matCits="27" checkinTime="1460422790352" checkinUser="plazi" docAuthor="Gibbs, David" docDate="2014" docId="A96887E8FFCCFF8CFF43FADDFAFE04DB" docLanguage="en" docName="zt03799p085.pdf" docOrigin="Zootaxa 3799 (1)" docStyle="DocumentStyle:5EBBA59367AD13919D70D935FA04F6A3.10:Zootaxa.2013-.monograph" docStyleId="5EBBA59367AD13919D70D935FA04F6A3" docStyleName="Zootaxa.2013-.monograph" docStyleVersion="10" docTitle="Usia bicolor Macquart 1855" docType="treatment" docVersion="8" lastPageId="28" lastPageNumber="29" masterDocId="5551FF90FFD5FF90FFD4FFCAFFF60616" masterDocTitle="A world revision of the bee fly tribe Usiini (Diptera, Bombyliidae) Part 2: Usia sensu stricto" masterLastPageNumber="85" masterPageNumber="1" pageId="25" pageNumber="26" updateTime="1647966678856" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>A world revision of the bee fly tribe Usiini (Diptera, Bombyliidae) Part 2: Usia sensu stricto</mods:title>
@@ -16,6 +16,9 @@
 </mods:titleInfo>
 <mods:part>
 <mods:date>2014</mods:date>
+<mods:detail type="pubDate">
+<mods:number>2014-05-22</mods:number>
+</mods:detail>
 <mods:detail type="volume">
 <mods:number>3799</mods:number>
 </mods:detail>
@@ -50,7 +53,7 @@ Macquart,
 </paragraph>
 <paragraph blockId="25.[151,504,1303,1363]" box="[151,369,1338,1363]" pageId="25" pageNumber="26">
 (
-<figureCitation box="[158,254,1338,1363]" captionStart="FIGURE 1" captionStartId="7.[151,250,2010,2032]" captionText="FIGURE 1. ♂ U. bicolor frons." pageId="25" pageNumber="26">
+<figureCitation box="[158,254,1338,1363]" captionStart="FIGURE 1" captionStartId="7.[151,250,2010,2032]" captionTargetId="figure@7.[450,1129,1370,1980]" captionTargetPageId="7" captionText="FIGURE 1. ♂ U. bicolor frons." pageId="25" pageNumber="26">
 Figure 
 <number box="[240,254,1339,1363]" pageId="25" pageNumber="26" value="1.0">1</number>
 </figureCitation>
@@ -77,6 +80,7 @@ Macquart,
 <typeStatus box="[151,210,1477,1502]" pageId="25" pageNumber="26">Type</typeStatus>
 material examined.
 </emphasis>
+<materialsCitation collectionCode="OUMNH" collectorName="Bigot" country="Egypt" location="Egypt" pageId="25" pageNumber="26" specimenCount="1" specimenCount-male="1" typeStatus="holotype">
 <typeStatus box="[453,605,1478,1502]" pageId="25" pageNumber="26">HOLOTYPE</typeStatus>
 : [
 <emphasis bold="true" box="[625,697,1477,1502]" pageId="25" pageNumber="26">
@@ -93,15 +97,20 @@ material examined.
 <emphasis box="[1037,1153,1477,1502]" italics="true" pageId="25" pageNumber="26">U. bicolor</emphasis>
 Ex
 </taxonomicName>
-coll. Bigot. [seems to have been incorrectly sexed by Macquart. ♂ in 
+coll. 
+<collectorName box="[1253,1319,1477,1502]" pageId="25" pageNumber="26">Bigot</collectorName>
+. [seems to have been incorrectly sexed by Macquart. 
+<specimenCount box="[626,647,1514,1537]" pageId="25" pageNumber="26" type="male">♂</specimenCount>
+in 
 <collectionCode box="[683,796,1514,1538]" pageId="25" pageNumber="26">OUMNH</collectionCode>
 ].
+</materialsCitation>
 </paragraph>
 <paragraph blockId="25.[151,1436,1477,2006]" pageId="25" pageNumber="26">
 <emphasis bold="true" box="[199,602,1549,1574]" pageId="25" pageNumber="26">
 Other material examined. 
+<materialsCitation pageId="25" pageNumber="26">
 <collectingCountry box="[534,602,1549,1574]" name="Israel" pageId="25" pageNumber="26">Israel</collectingCountry>
-</emphasis>
 , Tel Mareshna, 
 <quantity box="[802,852,1549,1574]" metricMagnitude="3" metricUnit="m" metricValue="2.0" pageId="25" pageNumber="26" unit="km" value="2.0">2km</quantity>
 WNW Hebron, 
@@ -120,25 +129,41 @@ March
 <taxonomicName box="[679,782,1585,1610]" class="Liliopsida" family="Liliaceae" kingdom="Plantae" order="Liliales" pageId="25" pageNumber="26" phylum="Tracheophyta" rank="family">Liliaceae</taxonomicName>
 (
 <collectionCode box="[796,908,1586,1610]" pageId="25" pageNumber="26">OUMNH</collectionCode>
-); Tel Aviv Country Club beach, 
+)
+</materialsCitation>
+</emphasis>
+; 
+<materialsCitation pageId="25" pageNumber="26">
+Tel Aviv Country Club beach, 
 <date box="[1266,1436,1585,1610]" pageId="25" pageNumber="26" value="1995-03-14">
 <number box="[1266,1294,1586,1610]" pageId="25" pageNumber="26" value="14.0">14</number>
 March 
 <number box="[1380,1436,1585,1610]" pageId="25" pageNumber="26" value="1995.0">1995</number>
 </date>
-♂; Herzliyya, 
+♂
+</materialsCitation>
+; 
+<materialsCitation box="[187,510,1621,1646]" pageId="25" pageNumber="26">
+Herzliyya, 
 <date box="[311,481,1621,1646]" pageId="25" pageNumber="26" value="1995-03-11">
 <number box="[311,338,1622,1646]" pageId="25" pageNumber="26" value="11.0">11</number>
 March 
 <number box="[425,481,1621,1646]" pageId="25" pageNumber="26" value="1995.0">1995</number>
 </date>
-♀; 
+♀
+</materialsCitation>
+; 
+<materialsCitation box="[524,892,1621,1646]" pageId="25" pageNumber="26">
 <date box="[524,695,1621,1646]" pageId="25" pageNumber="26" value="1995-03-14">
 <number box="[524,552,1622,1646]" pageId="25" pageNumber="26" value="14.0">14</number>
 March 
 <number box="[639,695,1621,1646]" pageId="25" pageNumber="26" value="1995.0">1995</number>
 </date>
-♀ (leg. B. Merz); Shuneh Benjaminah, Coastal Plain, 
+♀ (leg. B. Merz)
+</materialsCitation>
+; 
+<materialsCitation pageId="25" pageNumber="26">
+Shuneh Benjaminah, Coastal Plain, 
 <collectingCountry box="[1307,1411,1621,1646]" name="Palestine" pageId="25" pageNumber="26">Palestine</collectingCountry>
 , 
 <date pageId="25" pageNumber="26" value="1953-04-06">
@@ -148,7 +173,11 @@ April
 </date>
 , O. Theodor [♂ 
 <number box="[469,485,1658,1682]" pageId="25" pageNumber="26" value="3.0">3</number>
-♀]; dunes, Hederah, Coastal Plain, 
+♀]
+</materialsCitation>
+; 
+<materialsCitation box="[527,1372,1657,1682]" pageId="25" pageNumber="26">
+dunes, Hederah, Coastal Plain, 
 <collectingCountry box="[890,994,1657,1682]" name="Palestine" pageId="25" pageNumber="26">Palestine</collectingCountry>
 , 
 <date box="[1008,1160,1657,1682]" pageId="25" pageNumber="26" value="1953-04-05">
@@ -158,7 +187,11 @@ April
 </date>
 , O. Theodor [
 <number box="[1325,1344,1658,1682]" pageId="25" pageNumber="26" value="2.0">2</number>
-♀]; Bet- Jibrin, Southern 
+♀]
+</materialsCitation>
+; 
+<materialsCitation pageId="25" pageNumber="26">
+Bet-Jibrin, Southern 
 <collectingCountry box="[341,445,1693,1718]" name="Palestine" pageId="25" pageNumber="26">Palestine</collectingCountry>
 , 
 <date box="[459,637,1693,1718]" pageId="25" pageNumber="26" value="1954-03-25">
@@ -170,7 +203,10 @@ March
 <collectionCode box="[848,907,1694,1718]" httpUri="http://grbio.org/cool/ze71-842p" name="Tel-Aviv University" pageId="25" pageNumber="26">
 <collectingCountry box="[848,907,1694,1718]" name="China" pageId="25" pageNumber="26">TAU</collectingCountry>
 </collectionCode>
-) Herzliyya, 
+)
+</materialsCitation>
+<materialsCitation latitude="32.183334" longitude="34.8" pageId="25" pageNumber="26">
+Herzliyya, 
 <geoCoordinate box="[1050,1140,1693,1718]" direction="north" orientation="latitude" pageId="25" pageNumber="26" precision="925" value="32.183334">
 N 
 <number box="[1072,1101,1693,1718]" pageId="25" pageNumber="26" value="32.0">32</number>
@@ -195,34 +231,46 @@ March 2008
 <number box="[190,205,1729,1754]" pageId="25" pageNumber="26" value="5.0">5</number>
 ♀ (leg. A. Nir) (
 <collectionCode box="[386,467,1730,1754]" pageId="25" pageNumber="26">PCDG</collectionCode>
-). 
+).
+</materialsCitation>
+<materialsCitation box="[486,1296,1729,1754]" latitude="32.533333" longitude="35.733334" pageId="25" pageNumber="26">
 <collectingCountry box="[486,571,1729,1754]" name="Jordan" pageId="25" pageNumber="26">
 <emphasis bold="true" box="[486,571,1729,1754]" pageId="25" pageNumber="26">Jordan</emphasis>
 </collectingCountry>
 , As Salt, 
+<geoCoordinate box="[685,795,1729,1754]" degrees="32" direction="north" minutes="032" orientation="latitude" pageId="25" pageNumber="26" precision="925" value="32.533333">
 <number box="[685,713,1730,1754]" pageId="25" pageNumber="26" value="32.0">32</number>
-032 
-<geoCoordinate box="[765,860,1729,1754]" direction="north" orientation="latitude" pageId="25" pageNumber="26" precision="925" value="35.733334">
-N- 
+032N -
+</geoCoordinate>
+<geoCoordinate box="[795,877,1729,1754]" degrees="35" direction="east" minutes="44" orientation="longitude" pageId="25" pageNumber="26" precision="925" value="35.733334">
 <number box="[795,822,1729,1754]" pageId="25" pageNumber="26" value="35.0">35</number>
 <number box="[830,860,1730,1754]" pageId="25" pageNumber="26" value="44.0">44</number>
+E
 </geoCoordinate>
-E, Al Balqa Gov., 
+, Al Balqa Gov., 
 <date box="[1068,1163,1729,1754]" pageId="25" pageNumber="26" value="2013-04">
 <number box="[1068,1096,1730,1754]" pageId="25" pageNumber="26" value="13.0">13</number>
 April
 </date>
 [
 <number box="[1179,1209,1730,1754]" pageId="25" pageNumber="26" value="20.0">20</number>
-]02 [♀]; Aqraba, 
+]02 [♀]
+</materialsCitation>
+; 
+<materialsCitation latitude="35.783333" pageId="25" pageNumber="26">
+Aqraba, 
+<geoCoordinate direction="north" orientation="latitude" pageId="25" pageNumber="26" precision="925" value="35.783333">
 <number box="[1408,1436,1730,1754]" pageId="25" pageNumber="26" value="32.0">32</number>
 <number box="[151,179,1765,1790]" pageId="25" pageNumber="26" value="43.0">43</number>
-<geoCoordinate box="[179,273,1765,1790]" direction="north" orientation="latitude" pageId="25" pageNumber="26" precision="925" value="35.783333">
-N- 
+N
+</geoCoordinate>
+- 
+<geoCoordinate box="[209,291,1765,1790]" direction="north" orientation="latitude" pageId="25" pageNumber="26" precision="925" value="35.783333">
 <number box="[209,236,1765,1790]" pageId="25" pageNumber="26" value="35.0">35</number>
 <number box="[244,273,1766,1790]" pageId="25" pageNumber="26" value="47.0">47</number>
+E
 </geoCoordinate>
-E, Irbid Gov., 
+, Irbid Gov., 
 <date box="[431,540,1765,1790]" pageId="25" pageNumber="26" value="1925-03">
 <number box="[431,459,1765,1790]" pageId="25" pageNumber="26" value="25.0">25</number>
 March
@@ -236,7 +284,9 @@ Banks
 </taxonomicName>
 [♀] (
 <collectionCode box="[1002,1088,1766,1790]" pageId="25" pageNumber="26">BMNH</collectionCode>
-ex Greathead coll.). 
+ex Greathead coll.).
+</materialsCitation>
+<materialsCitation pageId="25" pageNumber="26">
 <collectingCountry box="[1323,1429,1765,1790]" name="Lebanon" pageId="25" pageNumber="26">
 <emphasis bold="true" box="[1323,1429,1765,1790]" pageId="25" pageNumber="26">Lebanon</emphasis>
 </collectingCountry>
@@ -250,26 +300,27 @@ April
 <collectionCode box="[654,716,1802,1826]" httpUri="http://grbio.org/cool/ze71-842p" name="Tel-Aviv University" pageId="25" pageNumber="26">
 <collectingCountry box="[654,716,1802,1826]" name="China" pageId="25" pageNumber="26">TAU</collectingCountry>
 </collectionCode>
-). 
+).
+</materialsCitation>
+<materialsCitation latitude="36.75" longitude="34.116665" pageId="25" pageNumber="26">
+<geoCoordinate box="[734,1172,1801,1826]" direction="north" orientation="latitude" pageId="25" pageNumber="26" precision="925" value="36.75">
 <collectingCountry box="[734,818,1801,1826]" name="Turkey" pageId="25" pageNumber="26">
 <emphasis bold="true" box="[734,818,1801,1826]" pageId="25" pageNumber="26">Turkey</emphasis>
 </collectingCountry>
-, Içel, Gűzeloluk, 
-<geoCoordinate box="[1018,1110,1801,1826]" direction="north" orientation="latitude" pageId="25" pageNumber="26" precision="925" value="36.75">
-N 
+, Içel, Gűzeloluk, N 
 <number box="[1039,1067,1801,1826]" pageId="25" pageNumber="26" value="36.0">36</number>
 ° 
 <number box="[1076,1104,1801,1826]" pageId="25" pageNumber="26" value="45.0">45</number>
-′
+′01.3″
 </geoCoordinate>
-01.3″ 
-<geoCoordinate box="[1179,1269,1801,1826]" direction="east" orientation="longitude" pageId="25" pageNumber="26" precision="925" value="34.116665">
+<geoCoordinate box="[1179,1333,1801,1826]" direction="east" orientation="longitude" pageId="25" pageNumber="26" precision="925" value="34.116665">
 E 
 <number box="[1197,1226,1801,1826]" pageId="25" pageNumber="26" value="34.0">34</number>
-°07′
-</geoCoordinate>
+°07′ 
 <number box="[1269,1320,1801,1826]" pageId="25" pageNumber="26" value="47.3">47.3</number>
-″, 
+″
+</geoCoordinate>
+, 
 <quantity box="[1344,1431,1801,1826]" metricMagnitude="3" metricUnit="m" metricValue="1.335" pageId="25" pageNumber="26" unit="m" value="1335.0">1335 m</quantity>
 , 
 <date box="[151,305,1837,1862]" pageId="25" pageNumber="26" value="2005-05-26">
@@ -279,7 +330,10 @@ May 2005
 , 
 <specimenCount box="[318,355,1838,1862]" pageId="25" pageNumber="26" type="generic">3♂</specimenCount>
 <number box="[356,388,1838,1862]" pageId="25" pageNumber="26" value="12.0">12</number>
-♀; 
+♀
+</materialsCitation>
+; 
+<materialsCitation box="[418,1351,1837,1862]" pageId="25" pageNumber="26">
 <collectingCountry box="[418,486,1838,1862]" name="Turkey" pageId="25" pageNumber="26">Hatay</collectingCountry>
 , Yunushani, Yayla Dagi, 
 <quantity box="[773,848,1837,1862]" metricMagnitude="2" metricUnit="m" metricValue="6.0" pageId="25" pageNumber="26" unit="m" value="600.0">600 m</quantity>
@@ -291,7 +345,10 @@ May 2000
 , 
 <specimenCount box="[1013,1051,1838,1862]" pageId="25" pageNumber="26" type="generic">3♂</specimenCount>
 <number box="[1051,1068,1838,1862]" pageId="25" pageNumber="26" value="2.0">2</number>
-♀ (leg. J. Dils &amp; J. Faes); 
+♀ (leg. J. Dils &amp; J. Faes)
+</materialsCitation>
+; 
+<materialsCitation pageId="25" pageNumber="26">
 <collectingCountry box="[1364,1432,1838,1862]" name="Turkey" pageId="25" pageNumber="26">Hatay</collectingCountry>
 , Belenpas E-side, 
 <date box="[350,504,1873,1898]" pageId="25" pageNumber="26" value="1992-06-25">
@@ -303,7 +360,10 @@ June
 <number box="[513,524,1874,1898]" pageId="25" pageNumber="26" value="1.0">1</number>
 ♂
 </specimenCount>
-(leg. J.P. Borrie); 
+(leg. J.P. Borrie)
+</materialsCitation>
+; 
+<materialsCitation pageId="25" pageNumber="26">
 <collectingCountry box="[760,828,1874,1898]" name="Turkey" pageId="25" pageNumber="26">Hatay</collectingCountry>
 , 
 <quantity box="[842,915,1873,1898]" metricMagnitude="4" metricUnit="m" metricValue="2.0" pageId="25" pageNumber="26" unit="km" value="20.0">20 km</quantity>
@@ -315,6 +375,7 @@ April 2000
 , 1♀ (leg. J.A.W. Lucas) (
 <collectionCode box="[242,314,1910,1934]" pageId="25" pageNumber="26">PCJD</collectionCode>
 ).
+</materialsCitation>
 </paragraph>
 </subSubSection>
 <subSubSection pageId="25" pageNumber="26" type="etymology">
@@ -355,7 +416,7 @@ Measurements.
 . Oral margin narrow, becoming narrower rearwards and disappearing below, shining black to brownish. Frons black, shining, conspicuously grey-dusted anterolaterally often distinctly longitudinally striated medially in front of depressed area in front of anterior ocellus. Eyes separated at their narrowest by about one fifth to one sixth head width, about equal to width across lateral ocelli. Lateral ocellus separated from eye margin by about half to two thirds diameter of that ocellus. Ocellar tubercle shining, undusted, eye margins in front of anterior ocellus diverging relatively evenly to rear of oral opening. Translucent white hairs on ocellar tubercle averaging width of frons, a few decidedly longer than width across lateral ocelli, rear of frons in front of anterior ocellus with distinct uniserial rows of proclinate setulae close to eye margins, about as long as scape, anterior part of frons with scattering of short setulae across most of width in places. Occiput densely grey dusted, black ground colour obscured except on triangular area behind ocellar tubercle, which is shining black. A fairly dense covering of pale yellowish hairs across dusted area, shorter, more even above, significantly longer close to lower oral margin. Ommatidia uniform in size. Antennae black, third segment, a little less than twice length of scape and pedicel together, narrow swollen below basally, concave medio-ventrally, sensilla inconspicuous, translucent brownish. All antennal segments with very short yellowish hairs above, longest just before apical sulcus. Palps small, black, apically, clavate tip a little narrower than oral margin, pale brown apical setae about half as long as length of palps. Proboscis shorter than head-thorax length, black, dorsally hairless. 
 <emphasis box="[912,993,980,1005]" italics="true" pageId="26" pageNumber="27">Thorax</emphasis>
 . Mesonotum shining black, sometimes with bluish reflections, grey dusting on anterior slope of mesonotum laterally, post-pronotal lobe, notopleuron and above wing root. Disc densely puncto-rugose, hairs issuing from confluent welts producing rough-textured, but still shining cuticle. Paramedian vittae usually just discernable by their different surface sculpture, more transversely wrinkled, extending from anterior slope of thorax almost to wing insertions. Mesonotum fairly densely clothed with fine whitish vestiture, on disc and posteriorly short, neat, erect to slightly reclinate, tending to proclinate close to scutellum, even in length, no hairs longer than those on upper occiput. Laterally hairs are longer and erect or inclined inwards (
-<figureCitation box="[360,459,1231,1256]" captionStart="FIGURE 1" captionStartId="7.[151,250,2010,2032]" captionText="FIGURE 1. ♂ U. bicolor frons." pageId="26" pageNumber="27">
+<figureCitation box="[360,459,1231,1256]" captionStart="FIGURE 1" captionStartId="7.[151,250,2010,2032]" captionTargetId="figure@7.[450,1129,1370,1980]" captionTargetPageId="7" captionText="FIGURE 1. ♂ U. bicolor frons." pageId="26" pageNumber="27">
 Figure 
 <number box="[446,459,1232,1256]" pageId="26" pageNumber="27" value="1.0">1</number>
 </figureCitation>
@@ -373,11 +434,9 @@ Figure
 <emphasis box="[664,770,1807,1832]" italics="true" pageId="26" pageNumber="27">Genitalia</emphasis>
 . Relatively small and simple, globular. Epandrium flaskshaped with apicolateral blunt extensions but lacking any median ‘V’-notch, mostly shining black, cuticle punctate, evenly coated with pale yellow curved hairs. Gonocoxite about twice as broad as long, shining black basally, rufous brown apically, tips closely approximate or touching, haired as epandrium, gonostyli simple, curved with basal ‘thumb’.
 </paragraph>
+<caption pageId="27" pageNumber="28" startId="27.[151,234,1967,1989]" targetBox="[200,1379,202,1935]" targetPageId="27">
 <paragraph blockId="27.[151,1435,1967,2020]" pageId="27" pageNumber="28">
-<emphasis bold="true" box="[151,275,1967,1989]" pageId="27" pageNumber="28">
-<collectionCode box="[151,234,1967,1989]" pageId="27" pageNumber="28">PLATE</collectionCode>
-III.
-</emphasis>
+<emphasis bold="true" box="[151,275,1967,1989]" pageId="27" pageNumber="28">PLATE III.</emphasis>
 <taxonomicName authority="Macquart, 1855" authorityName="Macquart" authorityYear="1855" box="[281,577,1967,1990]" class="Insecta" family="Bombyliidae" genus="Usia" kingdom="Animalia" order="Diptera" pageId="27" pageNumber="28" phylum="Arthropoda" rank="species" species="bicolor">
 <emphasis box="[281,407,1967,1990]" italics="true" pageId="27" pageNumber="28">Usia bicolor</emphasis>
 Macquart, 
@@ -401,6 +460,7 @@ female sternite
 <number box="[1223,1236,1998,2020]" pageId="27" pageNumber="28" value="8.0">8</number>
 ventral.
 </paragraph>
+</caption>
 <paragraph blockId="28.[151,1437,151,717]" pageId="28" pageNumber="29">
 <emphasis bold="true" box="[199,286,151,176]" pageId="28" pageNumber="29">Female</emphasis>
 . As male except as follows: oral margin decidedly broader, in lateral view visible to rear of oral opening. Frons a little wider, about one-fifth head width, lateral ocelli separated from eye margin by about their diameter or a little more. Dusting of frons more conspicuous and extensive, extending down between eye and oral margin. Mesonotal vestiture often slightly shorter, the paramedian vittae often obscure so acrostichal rows difficult to distinguish. 

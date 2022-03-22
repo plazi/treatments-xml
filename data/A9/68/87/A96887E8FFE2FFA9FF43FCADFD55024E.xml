@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6135515" ID-GBIF-Dataset="d9f29df5-52ff-451f-a367-f9fdb29b180f" ID-GBIF-Taxon="127667900" ID-ISSN="1175-5326" ID-Zenodo-Dep="6135515" ID-ZooBank="56DD05E1-C61C-4D37-9454-396840EB67C0" checkinTime="1460422790352" checkinUser="plazi" docAuthor="Gibbs, David" docDate="2014" docId="A96887E8FFE2FFA9FF43FCADFD55024E" docLanguage="en" docName="zt03799p085.pdf" docOrigin="Zootaxa 3799 (1)" docStyle="DocumentStylede.uka.ipd.idaho.easyIO.settings.Settings@77e6d936" docStyleName="zootaxa.2013.monograph" docTitle="Usia cornigera Gibbs, sp. nov." docType="treatment" docVersion="6" lastPageId="57" lastPageNumber="58" masterDocId="5551FF90FFD5FF90FFD4FFCAFFF60616" masterDocTitle="A world revision of the bee fly tribe Usiini (Diptera, Bombyliidae) Part 2: Usia sensu stricto" masterLastPageNumber="85" masterPageNumber="1" pageId="55" pageNumber="56" updateTime="1645173883940" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6135515" ID-GBIF-Dataset="d9f29df5-52ff-451f-a367-f9fdb29b180f" ID-GBIF-Taxon="127667900" ID-ISSN="1175-5326" ID-Zenodo-Dep="6135515" ID-ZooBank="56DD05E1-C61C-4D37-9454-396840EB67C0" approvalRequired="27" approvalRequired_for_matCits="27" checkinTime="1460422790352" checkinUser="plazi" docAuthor="Gibbs, David" docDate="2014" docId="A96887E8FFE2FFA9FF43FCADFD55024E" docLanguage="en" docName="zt03799p085.pdf" docOrigin="Zootaxa 3799 (1)" docStyle="DocumentStyle:5EBBA59367AD13919D70D935FA04F6A3.10:Zootaxa.2013-.monograph" docStyleId="5EBBA59367AD13919D70D935FA04F6A3" docStyleName="Zootaxa.2013-.monograph" docStyleVersion="10" docTitle="Usia cornigera Gibbs, sp. nov." docType="treatment" docVersion="8" lastPageId="57" lastPageNumber="58" masterDocId="5551FF90FFD5FF90FFD4FFCAFFF60616" masterDocTitle="A world revision of the bee fly tribe Usiini (Diptera, Bombyliidae) Part 2: Usia sensu stricto" masterLastPageNumber="85" masterPageNumber="1" pageId="55" pageNumber="56" updateTime="1647966678856" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>A world revision of the bee fly tribe Usiini (Diptera, Bombyliidae) Part 2: Usia sensu stricto</mods:title>
@@ -16,6 +16,9 @@
 </mods:titleInfo>
 <mods:part>
 <mods:date>2014</mods:date>
+<mods:detail type="pubDate">
+<mods:number>2014-05-22</mods:number>
+</mods:detail>
 <mods:detail type="volume">
 <mods:number>3799</mods:number>
 </mods:detail>
@@ -50,7 +53,7 @@ Gibbs
 </paragraph>
 <paragraph blockId="55.[151,514,871,931]" box="[151,405,906,931]" pageId="55" pageNumber="56">
 (
-<figureCitation box="[158,270,906,931]" captionStart="FIGURE 13" captionStartId="14.[151,250,1162,1184]" captionText="FIGURE 13. ♂ U. cornigera gonocoxite lateral view." pageId="55" pageNumber="56">
+<figureCitation box="[158,270,906,931]" captionStart="FIGURE 13" captionStartId="14.[151,250,1162,1184]" captionTargetId="figure@14.[358,1228,486,1141]" captionTargetPageId="14" captionText="FIGURE 13. ♂ U. cornigera gonocoxite lateral view." pageId="55" pageNumber="56">
 Figure 
 <number box="[240,270,907,931]" pageId="55" pageNumber="56" value="13.0">13</number>
 </figureCitation>
@@ -63,6 +66,7 @@ Figure
 <typeStatus box="[151,210,978,1003]" pageId="55" pageNumber="56">Type</typeStatus>
 material examined.
 </emphasis>
+<materialsCitation collectingDate="1928 / May" collectionCode="MNHN" collectorName="R. Benoit" country="Morocco" location="Sidi Bettache" pageId="55" pageNumber="56" specimenCount="1" specimenCount-male="1" typeStatus="holotype">
 <typeStatus box="[463,615,979,1003]" pageId="55" pageNumber="56">HOLOTYPE</typeStatus>
 ; 
 <collectingCountry box="[628,733,978,1003]" name="Morocco" pageId="55" pageNumber="56">
@@ -70,11 +74,23 @@ material examined.
 </collectingCountry>
 , Museum Paris, 
 <collectingCountry box="[932,1008,979,1002]" name="Morocco" pageId="55" pageNumber="56">Maroc</collectingCountry>
-, Sidi Bettache, R. Benoit [sic] 
+, 
+<location LSID="urn:lsid:plazi:treatment:A96887E8FFE2FFA9FF43FCADFD55024E:241E6025FFE2FFA7FC2AFC18FB6C05FD" box="[1022,1178,978,1003]" country="Morocco" name="Sidi Bettache" pageId="55" pageNumber="56">Sidi Bettache</location>
+, 
+<collectorName box="[1192,1303,978,1003]" pageId="55" pageNumber="56">R. Benoit</collectorName>
+[sic] 
+<collectingDate pageId="55" pageNumber="56">
 <number box="[1372,1427,979,1003]" pageId="55" pageNumber="56" value="1928.0">1928</number>
-/ May [♂ in 
+/ May
+</collectingDate>
+[
+<specimenCount box="[221,244,1015,1038]" pageId="55" pageNumber="56" type="male">♂</specimenCount>
+in 
 <collectionCode LSID="urn:lsid:biocol.org:col:34988" box="[287,379,1015,1038]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34988" name="Museum National d'Histoire Naturelle" pageId="55" pageNumber="56">MNHN</collectionCode>
-]; 
+]
+</materialsCitation>
+; 
+<materialsCitation box="[401,1432,1014,1039]" pageId="55" pageNumber="56">
 <typeStatus box="[401,559,1015,1039]" pageId="55" pageNumber="56">PARATYPES</typeStatus>
 ; 
 <collectingCountry box="[574,679,1014,1039]" name="Morocco" pageId="55" pageNumber="56">
@@ -95,7 +111,11 @@ April
 <number box="[1260,1272,1015,1039]" pageId="55" pageNumber="56" value="1.0">1</number>
 ♀ in 
 <collectionCode box="[1335,1425,1015,1038]" pageId="55" pageNumber="56">BMNH</collectionCode>
-]; Museum Paris, 
+]
+</materialsCitation>
+; 
+<materialsCitation box="[151,1103,1050,1075]" pageId="55" pageNumber="56">
+Museum Paris, 
 <collectingCountry box="[328,404,1051,1074]" name="Morocco" pageId="55" pageNumber="56">Maroc</collectingCountry>
 , Sidi Bettache, R. Benoit [sic] 
 <number box="[757,812,1051,1075]" pageId="55" pageNumber="56" value="1928.0">1928</number>
@@ -107,7 +127,11 @@ April
 <number box="[935,952,1051,1075]" pageId="55" pageNumber="56" value="4.0">4</number>
 ♀ in 
 <collectionCode LSID="urn:lsid:biocol.org:col:34988" box="[1005,1097,1051,1074]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34988" name="Museum National d'Histoire Naturelle" pageId="55" pageNumber="56">MNHN</collectionCode>
-]; Meknès (
+]
+</materialsCitation>
+; 
+<materialsCitation pageId="55" pageNumber="56">
+Meknès (
 <specimenCount box="[1221,1296,1050,1075]" pageId="55" pageNumber="56" type="generic">
 <quantity box="[1221,1293,1050,1075]" metricMagnitude="2" metricUnit="m" metricValue="5.5" pageId="55" pageNumber="56" unit="m" value="550.0">550m</quantity>
 .
@@ -116,7 +140,11 @@ April
 <number box="[151,206,1087,1111]" pageId="55" pageNumber="56" value="1919.0">1919</number>
 / April [♂♀ in 
 <collectionCode LSID="urn:lsid:biocol.org:col:34988" box="[373,465,1087,1110]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34988" name="Museum National d'Histoire Naturelle" pageId="55" pageNumber="56">MNHN</collectionCode>
-]; Ain Leuh (
+]
+</materialsCitation>
+; 
+<materialsCitation box="[483,1383,1086,1111]" pageId="55" pageNumber="56">
+Ain Leuh (
 <quantity box="[604,690,1086,1111]" metricMagnitude="3" metricUnit="m" metricValue="1.35" pageId="55" pageNumber="56" unit="m" value="1350.0">1350m</quantity>
 .), 
 <number box="[712,739,1086,1111]" pageId="55" pageNumber="56" value="65.0">65</number>
@@ -124,11 +152,18 @@ k Au S. de Meknès, R. Benoist
 <number box="[1091,1146,1087,1111]" pageId="55" pageNumber="56" value="1919.0">1919</number>
 / June [♀ in 
 <collectionCode LSID="urn:lsid:biocol.org:col:34988" box="[1285,1377,1087,1110]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34988" name="Museum National d'Histoire Naturelle" pageId="55" pageNumber="56">MNHN</collectionCode>
-]; Dar Kaid M’tougui, P. Pallary 
+]
+</materialsCitation>
+; 
+<materialsCitation pageId="55" pageNumber="56">
+Dar Kaid M’tougui, P. Pallary 
 <number box="[444,500,1123,1147]" pageId="55" pageNumber="56" value="1914.0">1914</number>
 [♀ in 
 <collectionCode LSID="urn:lsid:biocol.org:col:34988" box="[574,666,1123,1146]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34988" name="Museum National d'Histoire Naturelle" pageId="55" pageNumber="56">MNHN</collectionCode>
-]; Rabat, 
+</materialsCitation>
+]; 
+<materialsCitation box="[683,1190,1122,1147]" pageId="55" pageNumber="56">
+Rabat, 
 <date box="[762,915,1123,1147]" pageId="55" pageNumber="56" value="1934-05-30">
 <number box="[762,790,1123,1147]" pageId="55" pageNumber="56" value="30.0">30</number>
 May 
@@ -137,6 +172,7 @@ May
 , Surcouf [♂ in 
 <collectionCode LSID="urn:lsid:biocol.org:col:34988" box="[1088,1180,1123,1146]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34988" name="Museum National d'Histoire Naturelle" pageId="55" pageNumber="56">MNHN</collectionCode>
 ].
+</materialsCitation>
 </paragraph>
 </subSubSection>
 <subSubSection pageId="55" pageNumber="56" type="etymology">
@@ -170,17 +206,29 @@ A fairly large black, short-haired species of northern
 <number box="[979,1015,1519,1543]" pageId="55" pageNumber="56" value="4.2">4.2</number>
 –7.0mm.
 </paragraph>
-<paragraph blockId="55.[151,1437,978,2011]" lastBlockId="56.[151,1436,1947,2031]" lastPageId="56" lastPageNumber="57" pageId="55" pageNumber="56">
+<paragraph blockId="55.[151,1437,978,2011]" lastBlockId="57.[151,1437,151,1112]" lastPageId="57" lastPageNumber="58" pageId="55" pageNumber="56">
 <emphasis bold="true" box="[199,260,1554,1579]" pageId="55" pageNumber="56">Male</emphasis>
 . 
 <emphasis box="[276,336,1554,1579]" italics="true" pageId="55" pageNumber="56">Head</emphasis>
 . Mouth-margin narrow, shining dark brown, obsolete below, almost as broad as palp at widest point. Frons shining brown-black, the frons longitudinally wrinkled posterolaterally, grey dusting laterally on anterior half. Frons narrowest at level of anterior ocellus, as wide as scape and pedicel together, about one fifth head width, lateral ocellus separated from eye margin by the longest diameter of that ocellus. Hairing relatively short, on ocellar area about as long as the distance across frons at vertex, yellowish brown, front half of frons glabrous or with minute setulae on dust spots. Occiput shining black above, thinly grey dusted centrally, becoming more densely grey-dusted on lower half. White hairs covering occiput similar to those on mesonotum, longer below. Ommatidia uniform in size across the eyes. Antennae black, third antennal segment longer than the scape and pedicel together, relatively narrow especially apically, all segments with very short setae above. Proboscis black, hairless, about as long as thorax and scutellum together; palps short, black with paler stem, clavate with pale hairs, the longest conspicuously shorter than the length of the palps. 
 <emphasis box="[945,1026,1914,1939]" italics="true" pageId="55" pageNumber="56">Thorax</emphasis>
-. Mesonotum and scutellum shining black except for a narrow area of light dusting on dorsal margin of post pronotal lobe, very narrowly along lower notopleural area and above the wings. Cuticle smoother between hair insertions slightly wrinkled posteriorly. Bare 
-<emphasis bold="true" box="[151,296,1947,1969]" pageId="56" pageNumber="57">
-<collectionCode box="[151,234,1947,1969]" pageId="56" pageNumber="57">PLATE</collectionCode>
-XIV.
-</emphasis>
+. Mesonotum and scutellum shining black except for a narrow area of light dusting on dorsal margin of post pronotal lobe, very narrowly along lower notopleural area and above the wings. Cuticle smoother between hair insertions slightly wrinkled posteriorly. Bare paramedian lines hardly apparent in some, quite evident in other specimens extending to mid-point of mesonotum, acrostichals in 
+<number box="[330,371,188,213]" pageId="57" pageNumber="58" value="4.5" valueMax="5.0" valueMin="4.0">4–5</number>
+irregular lines. Scutellum shining with shallow transverse wrinkles. Pleurae black with a covering of grey dust except anepisternum which is shining dark brown and undusted on at least anterior two thirds. Anterior of mesonotum covered with moderate length whitish hair, those on the disc of the mesonotum a little shorter than the width of the vertex, laterally longer. Rear of mesonotum and scutellum with conspicuously shorter hairs, barely overlapping. Posterior third of anepisternum and pronotum covered with rather longer whitish hairs. 
+<emphasis box="[219,275,369,392]" italics="true" pageId="57" pageNumber="58">Wing</emphasis>
+. Wing membrane faintly brownish yellow tinged anteriorly and basally, fading to a grey cast posteriorly and apically, the veins pale brown, base of costa blackish. Anal lobe as broad as anal cell, r-m before middle of discal cell. 
+<emphasis box="[277,361,439,464]" italics="true" pageId="57" pageNumber="58">Haltere</emphasis>
+. Yellowish white, becoming slightly brown at base of stem. 
+<emphasis box="[1040,1093,441,464]" italics="true" pageId="57" pageNumber="58">Legs</emphasis>
+. Entirely dark brown to black, the coxae grey dusted; femora with the longest pale ventral hairs barely longer than half the greatest depth of a femur, tibia and tarsi with a covering of minute setulae only. 
+<emphasis box="[882,988,511,536]" italics="true" pageId="57" pageNumber="58">Abdomen</emphasis>
+. Shining black, with faint bluish hue, roughened by tuberculate hair insertion most dense at the base of each tergite and tending to form pattern of transverse welts, the disc of the tergites covered with short, yellowish hairs only slightly overlapping each other. Laterally and on the down-curved margins the tergites are clothed with relatively longer, more whitish hairs. Sternites also with similar long, whitish hairs along their posterior halves. 
+<emphasis box="[996,1102,655,680]" italics="true" pageId="57" pageNumber="58">Genitalia</emphasis>
+. Prominent and conspicuous, fairly large, shining black the gonocoxite covered in long, whitish hairs similar to those on the lateral margins of the tergites, hairs on epandrium shorter. In dried specimens the elongated lateral corners of the epandrium are usually visible.
+</paragraph>
+<caption pageId="56" pageNumber="57" startId="56.[151,234,1947,1969]" targetBox="[205,1377,201,1916]" targetPageId="56">
+<paragraph blockId="56.[151,1436,1947,2031]" pageId="56" pageNumber="57">
+<emphasis bold="true" box="[151,296,1947,1969]" pageId="56" pageNumber="57">PLATE XIV.</emphasis>
 <taxonomicName authority="Gibbs" authorityName="Gibbs" box="[308,529,1947,1969]" class="Insecta" family="Bombyliidae" genus="Usia" kingdom="Animalia" order="Diptera" pageId="56" pageNumber="57" phylum="Arthropoda" rank="species" species="cornigera" status="sp. nov.">
 <emphasis box="[308,463,1948,1969]" italics="true" pageId="56" pageNumber="57">Usia cornigera</emphasis>
 Gibbs
@@ -208,21 +256,7 @@ female sternite
 <number box="[327,339,2009,2031]" pageId="56" pageNumber="57" value="8.0">8</number>
 ventral.
 </paragraph>
-<paragraph blockId="57.[151,1437,151,1112]" pageId="57" pageNumber="58">
-paramedian lines hardly apparent in some, quite evident in other specimens extending to mid-point of mesonotum, acrostichals in 
-<number box="[330,371,188,213]" pageId="57" pageNumber="58" value="4.5" valueMax="5.0" valueMin="4.0">4–5</number>
-irregular lines. Scutellum shining with shallow transverse wrinkles. Pleurae black with a covering of grey dust except anepisternum which is shining dark brown and undusted on at least anterior two thirds. Anterior of mesonotum covered with moderate length whitish hair, those on the disc of the mesonotum a little shorter than the width of the vertex, laterally longer. Rear of mesonotum and scutellum with conspicuously shorter hairs, barely overlapping. Posterior third of anepisternum and pronotum covered with rather longer whitish hairs. 
-<emphasis box="[219,275,369,392]" italics="true" pageId="57" pageNumber="58">Wing</emphasis>
-. Wing membrane faintly brownish yellow tinged anteriorly and basally, fading to a grey cast posteriorly and apically, the veins pale brown, base of costa blackish. Anal lobe as broad as anal cell, r-m before middle of discal cell. 
-<emphasis box="[277,361,439,464]" italics="true" pageId="57" pageNumber="58">Haltere</emphasis>
-. Yellowish white, becoming slightly brown at base of stem. 
-<emphasis box="[1040,1093,441,464]" italics="true" pageId="57" pageNumber="58">Legs</emphasis>
-. Entirely dark brown to black, the coxae grey dusted; femora with the longest pale ventral hairs barely longer than half the greatest depth of a femur, tibia and tarsi with a covering of minute setulae only. 
-<emphasis box="[882,988,511,536]" italics="true" pageId="57" pageNumber="58">Abdomen</emphasis>
-. Shining black, with faint bluish hue, roughened by tuberculate hair insertion most dense at the base of each tergite and tending to form pattern of transverse welts, the disc of the tergites covered with short, yellowish hairs only slightly overlapping each other. Laterally and on the down-curved margins the tergites are clothed with relatively longer, more whitish hairs. Sternites also with similar long, whitish hairs along their posterior halves. 
-<emphasis box="[996,1102,655,680]" italics="true" pageId="57" pageNumber="58">Genitalia</emphasis>
-. Prominent and conspicuous, fairly large, shining black the gonocoxite covered in long, whitish hairs similar to those on the lateral margins of the tergites, hairs on epandrium shorter. In dried specimens the elongated lateral corners of the epandrium are usually visible.
-</paragraph>
+</caption>
 <paragraph blockId="57.[151,1437,151,1112]" pageId="57" pageNumber="58">
 <emphasis bold="true" box="[199,286,799,824]" pageId="57" pageNumber="58">Female</emphasis>
 . As male except as follows: conspicuously broader oral margin, frons wider and grey dust spots more widely separated. Mesonotum and scutellar vestiture a little shorter. Abdominal hairs likewise shorter than in the male. Apical sternite rather square with small point in apical incision.

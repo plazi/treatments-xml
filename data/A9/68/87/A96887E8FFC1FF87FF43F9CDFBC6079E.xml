@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6135480" ID-GBIF-Dataset="d9f29df5-52ff-451f-a367-f9fdb29b180f" ID-GBIF-Taxon="127667907" ID-ISSN="1175-5326" ID-Zenodo-Dep="6135480" ID-ZooBank="56DD05E1-C61C-4D37-9454-396840EB67C0" checkinTime="1460422790352" checkinUser="plazi" docAuthor="Gibbs, David" docDate="2014" docId="A96887E8FFC1FF87FF43F9CDFBC6079E" docLanguage="en" docName="zt03799p085.pdf" docOrigin="Zootaxa 3799 (1)" docStyle="DocumentStylede.uka.ipd.idaho.easyIO.settings.Settings@77e6d936" docStyleName="zootaxa.2013.monograph" docTitle="Usia anatoliensis Gibbs, sp. nov." docType="treatment" docVersion="6" lastPageId="23" lastPageNumber="24" masterDocId="5551FF90FFD5FF90FFD4FFCAFFF60616" masterDocTitle="A world revision of the bee fly tribe Usiini (Diptera, Bombyliidae) Part 2: Usia sensu stricto" masterLastPageNumber="85" masterPageNumber="1" pageId="20" pageNumber="21" updateTime="1645173883940" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6135480" ID-GBIF-Dataset="d9f29df5-52ff-451f-a367-f9fdb29b180f" ID-GBIF-Taxon="127667907" ID-ISSN="1175-5326" ID-Zenodo-Dep="6135480" ID-ZooBank="56DD05E1-C61C-4D37-9454-396840EB67C0" approvalRequired="27" approvalRequired_for_matCits="27" checkinTime="1460422790352" checkinUser="plazi" docAuthor="Gibbs, David" docDate="2014" docId="A96887E8FFC1FF87FF43F9CDFBC6079E" docLanguage="en" docName="zt03799p085.pdf" docOrigin="Zootaxa 3799 (1)" docStyle="DocumentStyle:5EBBA59367AD13919D70D935FA04F6A3.10:Zootaxa.2013-.monograph" docStyleId="5EBBA59367AD13919D70D935FA04F6A3" docStyleName="Zootaxa.2013-.monograph" docStyleVersion="10" docTitle="Usia anatoliensis Gibbs, sp. nov." docType="treatment" docVersion="8" lastPageId="23" lastPageNumber="24" masterDocId="5551FF90FFD5FF90FFD4FFCAFFF60616" masterDocTitle="A world revision of the bee fly tribe Usiini (Diptera, Bombyliidae) Part 2: Usia sensu stricto" masterLastPageNumber="85" masterPageNumber="1" pageId="20" pageNumber="21" updateTime="1647966678856" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>A world revision of the bee fly tribe Usiini (Diptera, Bombyliidae) Part 2: Usia sensu stricto</mods:title>
@@ -16,6 +16,9 @@
 </mods:titleInfo>
 <mods:part>
 <mods:date>2014</mods:date>
+<mods:detail type="pubDate">
+<mods:number>2014-05-22</mods:number>
+</mods:detail>
 <mods:detail type="volume">
 <mods:number>3799</mods:number>
 </mods:detail>
@@ -50,11 +53,13 @@ Gibbs
 </paragraph>
 <paragraph blockId="20.[151,542,1543,1603]" box="[151,364,1578,1603]" pageId="20" pageNumber="21">
 (
-<figureCitation box="[158,270,1578,1603]" captionStart="FIGURE 10" captionStartId="12.[151,250,1940,1962]" captionText="FIGURE 10. ♂ U. anatoliensis head and mesonotum dorsal." pageId="20" pageNumber="21">
+<figureCitation box="[158,270,1578,1603]" captionStart="FIGURE 10" captionStartId="12.[151,250,1940,1962]" captionTargetId="figure@12.[358,1228,1263,1918]" captionTargetPageId="12" captionText="FIGURE 10. ♂ U. anatoliensis head and mesonotum dorsal." pageId="20" pageNumber="21">
 Figure 
 <number box="[240,270,1579,1603]" pageId="20" pageNumber="21" value="10.0">10</number>
 </figureCitation>
-, Plate I)
+, 
+<figureCitation box="[282,355,1578,1603]" captionStart="PLATE I" captionStartId="22.[151,234,1947,1969]" captionTargetBox="[203,1387,200,1923]" captionTargetId="figure@22.[201,1389,193,1936]" captionTargetPageId="22" captionText="PLATE I. Usia anatoliensis Gibbs sp. nov.; a epiphallic complex ventral, b epiphallic complex lateral, c gonocoxite &amp; gonostyli ventral, d gonocoxite &amp; gonostyli lateral, e epandrium dorsal, f epandrium lateral, g female genitalia ventral, h female sternite 8 ventral." pageId="20" pageNumber="21">Plate I</figureCitation>
+)
 </paragraph>
 </subSubSection>
 <subSubSection pageId="20" pageNumber="21" type="materials_examined">
@@ -63,61 +68,74 @@ Figure
 <typeStatus box="[151,210,1650,1675]" pageId="20" pageNumber="21">Type</typeStatus>
 material examined.
 </emphasis>
+<materialsCitation collectingDate="2004-06-20" collectionCode="NMWC" country="Turkey" elevation="1925" latitude="36.830414" location="Yellibeli Gecidi" longitude="32.942863" municipality="Karaman" pageId="20" pageNumber="21" specimenCount="1" specimenCount-male="1" typeStatus="holotype">
 <typeStatus box="[454,606,1651,1675]" pageId="20" pageNumber="21">HOLOTYPE</typeStatus>
 : 
 <collectingCountry box="[617,701,1650,1675]" name="Turkey" pageId="20" pageNumber="21">
 <emphasis bold="true" box="[617,701,1650,1675]" pageId="20" pageNumber="21">Turkey</emphasis>
 </collectingCountry>
-, Karaman, Yellibeli Geçidi, 
-<quantity box="[1024,1105,1650,1675]" metricMagnitude="3" metricUnit="m" metricValue="1.925" pageId="20" pageNumber="21" unit="m" value="1925.0">1925m</quantity>
 , 
-<geoCoordinate box="[1116,1208,1650,1675]" direction="north" orientation="latitude" pageId="20" pageNumber="21" precision="925" value="36.816666">
+<collectingMunicipality box="[716,822,1651,1674]" pageId="20" pageNumber="21">Karaman</collectingMunicipality>
+, 
+<location LSID="urn:lsid:plazi:treatment:A96887E8FFC1FF87FF43F9CDFBC6079E:241E6025FFC1FF84FC95F9B8FC03009D" box="[833,1013,1650,1675]" country="Turkey" municipality="Karaman" name="Yellibeli Gecidi" pageId="20" pageNumber="21">Yellibeli Geçidi</location>
+, 
+<quantity box="[1024,1105,1650,1675]" metricMagnitude="3" metricUnit="m" metricValue="1.925" pageId="20" pageNumber="21" unit="m" value="1925.0">
+<elevation box="[1024,1105,1650,1675]" metricMagnitude="3" metricUnit="m" metricValue="1.925" pageId="20" pageNumber="21" unit="m" value="1925.0">1925m</elevation>
+</quantity>
+, 
+<geoCoordinate box="[1116,1271,1650,1675]" degrees="36" direction="north" minutes="49" orientation="latitude" pageId="20" pageNumber="21" precision="1" seconds="49.5" value="36.830414">
 N 
 <number box="[1137,1165,1650,1675]" pageId="20" pageNumber="21" value="36.0">36</number>
 ° 
 <number box="[1174,1202,1650,1675]" pageId="20" pageNumber="21" value="49.0">49</number>
-′
-</geoCoordinate>
+′ 
 <number box="[1208,1258,1650,1675]" pageId="20" pageNumber="21" value="49.5">49.5</number>
-″ 
-<geoCoordinate box="[1278,1369,1650,1675]" direction="east" orientation="longitude" pageId="20" pageNumber="21" precision="925" value="32.933334">
+″
+</geoCoordinate>
+<geoCoordinate box="[1278,1431,1650,1675]" degrees="32" direction="east" minutes="56" orientation="longitude" pageId="20" pageNumber="21" precision="1" seconds="34.3" value="32.942863">
 E 
 <number box="[1296,1325,1650,1675]" pageId="20" pageNumber="21" value="32.0">32</number>
 ° 
 <number box="[1334,1363,1650,1675]" pageId="20" pageNumber="21" value="56.0">56</number>
-′
-</geoCoordinate>
+′ 
 <number box="[1369,1420,1650,1675]" pageId="20" pageNumber="21" value="34.3">34.3</number>
-″, 
+″
+</geoCoordinate>
+, 
 <date box="[151,304,1687,1711]" pageId="20" pageNumber="21" value="2004-06-20">
+<collectingDate box="[151,304,1687,1711]" pageId="20" pageNumber="21" value="2004-06-20">
 <number box="[151,179,1687,1711]" pageId="20" pageNumber="21" value="20.0">20</number>
 June 
 <number box="[248,304,1687,1711]" pageId="20" pageNumber="21" value="2004.0">2004</number>
+</collectingDate>
 </date>
-[♂ in 
+[
+<specimenCount box="[321,343,1687,1710]" pageId="20" pageNumber="21" type="male">♂</specimenCount>
+in 
 <collectionCode box="[383,480,1687,1711]" httpUri="http://grbio.org/cool/e7dr-nxad" name="National Museum of Wales" pageId="20" pageNumber="21">NMWC</collectionCode>
-]. 
+].
+</materialsCitation>
+<materialsCitation latitude="36.816666" longitude="32.933334" pageId="20" pageNumber="21" typeStatus="paratype">
+<geoCoordinate box="[499,1232,1686,1711]" direction="north" orientation="latitude" pageId="20" pageNumber="21" precision="925" value="36.816666">
 <typeStatus box="[499,658,1687,1711]" pageId="20" pageNumber="21">PARATYPES</typeStatus>
 : Karaman, Yellibeli Geçidi, 
 <quantity box="[984,1064,1687,1711]" metricMagnitude="3" metricUnit="m" metricValue="1.94" pageId="20" pageNumber="21" unit="m" value="1940.0">1940m</quantity>
-, 
-<geoCoordinate box="[1078,1169,1686,1711]" direction="north" orientation="latitude" pageId="20" pageNumber="21" precision="925" value="36.816666">
-N 
+, N 
 <number box="[1098,1126,1686,1711]" pageId="20" pageNumber="21" value="36.0">36</number>
 ° 
 <number box="[1135,1163,1686,1711]" pageId="20" pageNumber="21" value="49.0">49</number>
-′
-</geoCoordinate>
+′ 
 <number box="[1169,1220,1686,1711]" pageId="20" pageNumber="21" value="46.7">46.7</number>
-″ 
-<geoCoordinate box="[1241,1331,1686,1711]" direction="east" orientation="longitude" pageId="20" pageNumber="21" precision="925" value="32.933334">
+″
+</geoCoordinate>
+<geoCoordinate box="[1241,1394,1686,1711]" direction="east" orientation="longitude" pageId="20" pageNumber="21" precision="925" value="32.933334">
 E 
 <number box="[1259,1287,1686,1711]" pageId="20" pageNumber="21" value="32.0">32</number>
 ° 
 <number box="[1296,1325,1686,1711]" pageId="20" pageNumber="21" value="56.0">56</number>
-′
+′00.6″
 </geoCoordinate>
-00.6″, 
+, 
 <date pageId="20" pageNumber="21" value="2004-06-19">
 <number box="[1408,1436,1687,1711]" pageId="20" pageNumber="21" value="19.0">19</number>
 June 
@@ -131,27 +149,31 @@ June
 <number box="[318,336,1723,1747]" pageId="20" pageNumber="21" value="2.0">2</number>
 ♀ in 
 <collectionCode box="[390,462,1723,1747]" pageId="20" pageNumber="21">PCJD</collectionCode>
-]; Kahraman Maras [= Kahramanmaraş], Göksun, 
+]
+</materialsCitation>
+; 
+<materialsCitation latitude="38.166668" longitude="36.45" pageId="20" pageNumber="21" typeStatus="paratype">
+<geoCoordinate box="[480,1270,1722,1747]" direction="north" orientation="latitude" pageId="20" pageNumber="21" precision="925" value="38.166668">
+Kahraman Maras [= Kahramanmaraş], Göksun, 
 <quantity box="[1024,1104,1722,1747]" metricMagnitude="3" metricUnit="m" metricValue="1.6" pageId="20" pageNumber="21" unit="m" value="1600.0">1600m</quantity>
-, 
-<geoCoordinate box="[1116,1207,1722,1747]" direction="north" orientation="latitude" pageId="20" pageNumber="21" precision="925" value="38.166668">
-N 
+, N 
 <number box="[1137,1165,1722,1747]" pageId="20" pageNumber="21" value="38.0">38</number>
 ° 
 <number box="[1174,1201,1722,1747]" pageId="20" pageNumber="21" value="10.0">10</number>
-′
-</geoCoordinate>
+′ 
 <number box="[1207,1258,1722,1747]" pageId="20" pageNumber="21" value="58.7">58.7</number>
-″ 
-<geoCoordinate box="[1278,1369,1722,1747]" direction="east" orientation="longitude" pageId="20" pageNumber="21" precision="925" value="36.45">
+″
+</geoCoordinate>
+<geoCoordinate box="[1278,1432,1722,1747]" direction="east" orientation="longitude" pageId="20" pageNumber="21" precision="925" value="36.45">
 E 
 <number box="[1296,1325,1722,1747]" pageId="20" pageNumber="21" value="36.0">36</number>
 ° 
 <number box="[1334,1363,1722,1747]" pageId="20" pageNumber="21" value="27.0">27</number>
-′
-</geoCoordinate>
+′ 
 <number box="[1369,1419,1722,1747]" pageId="20" pageNumber="21" value="24.1">24.1</number>
-″, 
+″
+</geoCoordinate>
+, 
 <date box="[151,284,1758,1783]" pageId="20" pageNumber="21" value="2004-07-02">
 <number box="[151,165,1759,1783]" pageId="20" pageNumber="21" value="2.0">2</number>
 July 
@@ -161,27 +183,30 @@ July
 <number box="[301,319,1759,1783]" pageId="20" pageNumber="21" value="2.0">2</number>
 ♀ in 
 <collectionCode box="[375,447,1759,1783]" pageId="20" pageNumber="21">PCJD</collectionCode>
-]; 
+]
+</materialsCitation>
+; 
+<materialsCitation latitude="37.933334" longitude="36.483334" pageId="20" pageNumber="21" typeStatus="paratype">
+<geoCoordinate box="[466,713,1758,1783]" direction="north" orientation="latitude" pageId="20" pageNumber="21" precision="925" value="37.933334">
 <quantity box="[466,547,1758,1783]" metricMagnitude="3" metricUnit="m" metricValue="1.54" pageId="20" pageNumber="21" unit="m" value="1540.0">1540m</quantity>
-, 
-<geoCoordinate box="[559,652,1758,1783]" direction="north" orientation="latitude" pageId="20" pageNumber="21" precision="925" value="37.933334">
-N 
+, N 
 <number box="[581,609,1758,1783]" pageId="20" pageNumber="21" value="37.0">37</number>
 ° 
 <number box="[617,646,1758,1783]" pageId="20" pageNumber="21" value="56.0">56</number>
-′
-</geoCoordinate>
+′ 
 <number box="[653,702,1758,1783]" pageId="20" pageNumber="21" value="19.8">19.8</number>
-″ 
-<geoCoordinate box="[722,812,1758,1783]" direction="east" orientation="longitude" pageId="20" pageNumber="21" precision="925" value="36.483334">
+″
+</geoCoordinate>
+<geoCoordinate box="[722,876,1758,1783]" direction="east" orientation="longitude" pageId="20" pageNumber="21" precision="925" value="36.483334">
 E 
 <number box="[740,768,1758,1783]" pageId="20" pageNumber="21" value="36.0">36</number>
 ° 
 <number box="[777,806,1758,1783]" pageId="20" pageNumber="21" value="29.0">29</number>
-′
-</geoCoordinate>
+′ 
 <number box="[812,864,1758,1783]" pageId="20" pageNumber="21" value="44.7">44.7</number>
-″, 
+″
+</geoCoordinate>
+, 
 <date box="[888,1022,1758,1783]" pageId="20" pageNumber="21" value="2004-07-02">
 <number box="[888,902,1759,1783]" pageId="20" pageNumber="21" value="2.0">2</number>
 July 
@@ -192,6 +217,7 @@ July
 ♀ in 
 <collectionCode box="[1113,1206,1759,1783]" httpUri="http://grbio.org/cool/e7dr-nxad" name="National Museum of Wales" pageId="20" pageNumber="21">NMWC</collectionCode>
 ] all leg. J. Dils &amp; J. Faes.
+</materialsCitation>
 </paragraph>
 </subSubSection>
 <subSubSection pageId="20" pageNumber="21" type="etymology">
@@ -211,13 +237,12 @@ series was collected and the Latin “-
 <subSubSection lastPageId="21" lastPageNumber="22" pageId="20" pageNumber="21" type="diagnosis">
 <paragraph blockId="20.[151,1437,1650,2035]" lastBlockId="21.[151,1437,151,1941]" lastPageId="21" lastPageNumber="22" pageId="20" pageNumber="21">
 <emphasis bold="true" box="[199,321,1902,1927]" pageId="20" pageNumber="21">Diagnosis.</emphasis>
-<taxonomicName box="[328,447,1902,1927]" class="Insecta" family="Bombyliidae" genus="Apolysis" kingdom="Animalia" order="Diptera" pageId="20" pageNumber="21" phylum="Arthropoda" rank="species" species="medium">A medium</taxonomicName>
-sized species known only from two male and five female specimens from two locations in southern 
+A medium sized species known only from two male and five female specimens from two locations in southern 
 <collectingCountry box="[285,367,1938,1963]" name="Turkey" pageId="20" pageNumber="21">Turkey</collectingCountry>
 . All dark, aeneous black with a greenish shine and short, rather neat looking whitish vestiture. Occiput shining close to eyes, thinly dusted close to neck, eyes separated by a little more than distance across lateral ocelli, mesonotal vestiture orientated inwardly or forward, the hairs in the acrostichal lines nearly all proclinate. Wings yellowish with anal lobe as broad as anal cell. Genitalia typical of the group differing only subtly from close congeners.
 </paragraph>
 </subSubSection>
-<subSubSection lastPageId="22" lastPageNumber="23" pageId="21" pageNumber="22" type="description">
+<subSubSection pageId="21" pageNumber="22" type="description">
 <paragraph blockId="21.[151,1437,151,1941]" box="[199,1072,223,248]" pageId="21" pageNumber="22">
 <emphasis bold="true" box="[199,526,223,248]" pageId="21" pageNumber="22">Description. Measurements</emphasis>
 . 
@@ -237,7 +262,7 @@ sized species known only from two male and five female specimens from two locati
 . Oral margin very narrow, almost linear, disappearing below, yellowish with central area blackish. Frons black, shining, narrowly grey-dusted anterolaterally, often distinctly longitudinally striated anteriorly, depressed in front of anterior ocellus. Eyes separated at their narrowest by about one fifth to one sixth head width, wider than width across lateral ocelli inclusive. Lateral ocellus separated from eye margin by about diameter of that ocellus. Ocellar tubercle shining, undusted, eye margins in front of anterior ocellus diverging relatively evenly to rear of oral opening. Translucent white hairs on ocellar tubercle averaging width of frons, a few longer ones mixed in, rear of frons in front of anterior ocellus with short, pale, proclinate hairs laterally, anterior part of frons with denser hairing across most of width. Occiput shining black with any grey dusting confined to occipital callosities and area between them above neck (likely to be variable), and outstanding translucent white hairs, shorter and more even above, upper hairs distinctly curved forward. Ommatidia uniform in size across eyes. Antennae black, third segment, a little less than twice length of scape and pedicel together, narrow and parallel sided or slightly concave ventrally, sensilla inconspicuous, whitish. All antennal segments with very short whitish hairs above, longest just before apical sulcus. Palps small, black, apically about as broad as oral margin at widest, pale apical setae about two-thirds as long as length of palps. Proboscis shorter than head-thorax length, black, dorsally hairless. 
 <emphasis box="[1348,1429,727,752]" italics="true" pageId="21" pageNumber="22">Thorax</emphasis>
 . Mesonotum shining black, sometimes with coppery and bluish reflections, grey dusting on dorsum of post pronotal lobe and above wing root. Disc densely punctured, shining cuticle separating punctures often no wider than a puncture, except on anterior slope of thorax and anterior part of paramedian vittae, latter sparsely punctured but transversely wrinkled. Paramedian vittae extending from anterior slope of thorax to about half way to wing insertions. Mesonotum fairly densely clothed with translucent whitish vestiture, on disc and posteriorly these are short, neat and proclinate. Laterally hairs longer and inclined inwards (
-<figureCitation box="[953,1066,943,968]" captionStart="FIGURE 10" captionStartId="12.[151,250,1940,1962]" captionText="FIGURE 10. ♂ U. anatoliensis head and mesonotum dorsal." pageId="21" pageNumber="22">
+<figureCitation box="[953,1066,943,968]" captionStart="FIGURE 10" captionStartId="12.[151,250,1940,1962]" captionTargetId="figure@12.[358,1228,1263,1918]" captionTargetPageId="12" captionText="FIGURE 10. ♂ U. anatoliensis head and mesonotum dorsal." pageId="21" pageNumber="22">
 Figure 
 <number box="[1035,1066,944,968]" pageId="21" pageNumber="22" value="10.0">10</number>
 </figureCitation>
@@ -259,11 +284,10 @@ Figure
 <emphasis box="[1323,1429,1807,1832]" italics="true" pageId="21" pageNumber="22">Genitalia</emphasis>
 . Tip of abdomen coming to a rounded point; apical sternite rather rectangular, a little wider than long with an apical notch not usually visible in undissected specimens. Furca typical of the group, with pointed tip and with long arms, conspicuous dark-pigmented vaginal plate.
 </paragraph>
+</subSubSection>
+<caption pageId="22" pageNumber="23" startId="22.[151,234,1947,1969]" targetBox="[203,1387,200,1923]" targetPageId="22">
 <paragraph blockId="22.[151,1436,1947,2030]" pageId="22" pageNumber="23">
-<emphasis bold="true" box="[151,262,1947,1969]" pageId="22" pageNumber="23">
-<collectionCode box="[151,234,1947,1969]" pageId="22" pageNumber="23">PLATE</collectionCode>
-I.
-</emphasis>
+<emphasis bold="true" box="[151,262,1947,1969]" pageId="22" pageNumber="23">PLATE I.</emphasis>
 <taxonomicName authority="Gibbs" authorityName="Gibbs" box="[275,525,1947,1969]" class="Insecta" family="Bombyliidae" genus="Usia" kingdom="Animalia" order="Diptera" pageId="22" pageNumber="23" phylum="Arthropoda" rank="species" species="anatoliensis" status="sp. nov.">
 <emphasis box="[275,458,1947,1969]" italics="true" pageId="22" pageNumber="23">Usia anatoliensis</emphasis>
 Gibbs
@@ -291,7 +315,7 @@ female sternite
 <number box="[327,339,2008,2030]" pageId="22" pageNumber="23" value="8.0">8</number>
 ventral.
 </paragraph>
-</subSubSection>
+</caption>
 <subSubSection pageId="23" pageNumber="24" type="discussion">
 <paragraph blockId="23.[151,1437,151,392]" pageId="23" pageNumber="24">
 <emphasis bold="true" box="[199,332,151,176]" pageId="23" pageNumber="24">Discussion.</emphasis>

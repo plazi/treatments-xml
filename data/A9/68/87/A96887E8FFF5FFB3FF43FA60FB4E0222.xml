@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6135490" ID-GBIF-Dataset="d9f29df5-52ff-451f-a367-f9fdb29b180f" ID-GBIF-Taxon="127667894" ID-ISSN="1175-5326" ID-Zenodo-Dep="6135490" ID-ZooBank="56DD05E1-C61C-4D37-9454-396840EB67C0" checkinTime="1460422790352" checkinUser="plazi" docAuthor="Gibbs, David" docDate="2014" docId="A96887E8FFF5FFB3FF43FA60FB4E0222" docLanguage="en" docName="zt03799p085.pdf" docOrigin="Zootaxa 3799 (1)" docStyle="DocumentStylede.uka.ipd.idaho.easyIO.settings.Settings@77e6d936" docStyleName="zootaxa.2013.monograph" docTitle="Usia greatheadi Gibbs, sp. nov." docType="treatment" docVersion="6" lastPageId="35" lastPageNumber="36" masterDocId="5551FF90FFD5FF90FFD4FFCAFFF60616" masterDocTitle="A world revision of the bee fly tribe Usiini (Diptera, Bombyliidae) Part 2: Usia sensu stricto" masterLastPageNumber="85" masterPageNumber="1" pageId="32" pageNumber="33" updateTime="1645173883940" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6135490" ID-GBIF-Dataset="d9f29df5-52ff-451f-a367-f9fdb29b180f" ID-GBIF-Taxon="127667894" ID-ISSN="1175-5326" ID-Zenodo-Dep="6135490" ID-ZooBank="56DD05E1-C61C-4D37-9454-396840EB67C0" approvalRequired="27" approvalRequired_for_matCits="27" checkinTime="1460422790352" checkinUser="plazi" docAuthor="Gibbs, David" docDate="2014" docId="A96887E8FFF5FFB3FF43FA60FB4E0222" docLanguage="en" docName="zt03799p085.pdf" docOrigin="Zootaxa 3799 (1)" docStyle="DocumentStyle:5EBBA59367AD13919D70D935FA04F6A3.10:Zootaxa.2013-.monograph" docStyleId="5EBBA59367AD13919D70D935FA04F6A3" docStyleName="Zootaxa.2013-.monograph" docStyleVersion="10" docTitle="Usia greatheadi Gibbs, sp. nov." docType="treatment" docVersion="8" lastPageId="35" lastPageNumber="36" masterDocId="5551FF90FFD5FF90FFD4FFCAFFF60616" masterDocTitle="A world revision of the bee fly tribe Usiini (Diptera, Bombyliidae) Part 2: Usia sensu stricto" masterLastPageNumber="85" masterPageNumber="1" pageId="32" pageNumber="33" updateTime="1647966678856" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>A world revision of the bee fly tribe Usiini (Diptera, Bombyliidae) Part 2: Usia sensu stricto</mods:title>
@@ -16,6 +16,9 @@
 </mods:titleInfo>
 <mods:part>
 <mods:date>2014</mods:date>
+<mods:detail type="pubDate">
+<mods:number>2014-05-22</mods:number>
+</mods:detail>
 <mods:detail type="volume">
 <mods:number>3799</mods:number>
 </mods:detail>
@@ -50,7 +53,7 @@ Gibbs
 </paragraph>
 <paragraph blockId="32.[151,525,1450,1510]" box="[151,370,1485,1510]" pageId="32" pageNumber="33">
 (
-<figureCitation box="[158,256,1485,1510]" captionStart="FIGURE 6" captionStartId="10.[151,250,1764,1786]" captionText="FIGURE 6. ♂ U. greatheadi head and mesonotum dorsal." pageId="32" pageNumber="33">
+<figureCitation box="[158,256,1485,1510]" captionStart="FIGURE 6" captionStartId="10.[151,250,1764,1786]" captionTargetId="figure@10.[358,1228,1087,1742]" captionTargetPageId="10" captionText="FIGURE 6. ♂ U. greatheadi head and mesonotum dorsal." pageId="32" pageNumber="33">
 Figure 
 <number box="[240,256,1485,1510]" pageId="32" pageNumber="33" value="6.0">6</number>
 </figureCitation>
@@ -63,6 +66,7 @@ Figure
 <typeStatus box="[151,210,1557,1582]" pageId="32" pageNumber="33">Type</typeStatus>
 material examined.
 </emphasis>
+<materialsCitation collectingDate="2005-06-05" collectionCode="NMWC" collectorName="Dils J. &amp; Faes J." country="Turkey" elevation="663" latitude="37.192528" location="Camalan" longitude="34.809418" municipality="Icel" pageId="32" pageNumber="33" specimenCount="1" specimenCount-male="1" typeStatus="holotype">
 <typeStatus box="[455,607,1558,1582]" pageId="32" pageNumber="33">HOLOTYPE</typeStatus>
 ; 
 <collectingCountry box="[618,702,1557,1582]" name="Turkey" pageId="32" pageNumber="33">
@@ -70,33 +74,50 @@ material examined.
 </collectingCountry>
 , 
 <date box="[717,856,1557,1582]" pageId="32" pageNumber="33" value="2005-06-05">
+<collectingDate box="[717,856,1557,1582]" pageId="32" pageNumber="33" value="2005-06-05">
 <number box="[717,731,1557,1582]" pageId="32" pageNumber="33" value="5.0">5</number>
 June 
 <number box="[797,856,1557,1582]" pageId="32" pageNumber="33" value="2005.0">2005</number>
+</collectingDate>
 </date>
-, Içel, Camalan, 
-<quantity box="[1039,1105,1557,1582]" metricMagnitude="2" metricUnit="m" metricValue="6.63" pageId="32" pageNumber="33" unit="m" value="663.0">663m</quantity>
 , 
-<geoCoordinate box="[1117,1207,1557,1582]" direction="north" orientation="latitude" pageId="32" pageNumber="33" precision="925" value="37.183334">
+<collectingMunicipality box="[868,913,1557,1582]" pageId="32" pageNumber="33">Içel</collectingMunicipality>
+, 
+<location LSID="urn:lsid:plazi:treatment:A96887E8FFF5FFB3FF43FA60FB4E0222:241E6025FFF5FFB0FC48F9DFFBF40038" box="[924,1026,1557,1582]" country="Turkey" municipality="Icel" name="Camalan" pageId="32" pageNumber="33">Camalan</location>
+, 
+<quantity box="[1039,1105,1557,1582]" metricMagnitude="2" metricUnit="m" metricValue="6.63" pageId="32" pageNumber="33" unit="m" value="663.0">
+<elevation box="[1039,1105,1557,1582]" metricMagnitude="2" metricUnit="m" metricValue="6.63" pageId="32" pageNumber="33" unit="m" value="663.0">663m</elevation>
+</quantity>
+, 
+<geoCoordinate box="[1117,1270,1557,1582]" degrees="37" direction="north" minutes="11" orientation="latitude" pageId="32" pageNumber="33" precision="1" seconds="33.1" value="37.192528">
 N 
 <number box="[1139,1167,1557,1582]" pageId="32" pageNumber="33" value="37.0">37</number>
 ° 
 <number box="[1176,1201,1557,1582]" pageId="32" pageNumber="33" value="11.0">11</number>
-′
-</geoCoordinate>
+′ 
 <number box="[1207,1257,1557,1582]" pageId="32" pageNumber="33" value="33.1">33.1</number>
-″ 
-<geoCoordinate box="[1278,1368,1557,1582]" direction="east" orientation="longitude" pageId="32" pageNumber="33" precision="925" value="34.8">
+″
+</geoCoordinate>
+<geoCoordinate box="[1278,1431,1557,1582]" degrees="34" direction="east" minutes="48" orientation="longitude" pageId="32" pageNumber="33" precision="1" seconds="33.9" value="34.809418">
 E 
 <number box="[1296,1325,1557,1582]" pageId="32" pageNumber="33" value="34.0">34</number>
 ° 
 <number box="[1333,1362,1557,1582]" pageId="32" pageNumber="33" value="48.0">48</number>
-′
-</geoCoordinate>
+′ 
 <number box="[1368,1419,1557,1582]" pageId="32" pageNumber="33" value="33.9">33.9</number>
-″, Leg. Dils J. Faes J. [♂ in 
+″
+</geoCoordinate>
+, Leg. 
+<collectorName box="[211,284,1593,1618]" pageId="32" pageNumber="33">Dils J.</collectorName>
+<collectorName box="[293,371,1594,1617]" pageId="32" pageNumber="33">Faes J.</collectorName>
+[
+<specimenCount box="[388,411,1594,1617]" pageId="32" pageNumber="33" type="male">♂</specimenCount>
+in 
 <collectionCode box="[451,548,1594,1618]" httpUri="http://grbio.org/cool/e7dr-nxad" name="National Museum of Wales" pageId="32" pageNumber="33">NMWC</collectionCode>
-]. 
+]
+</materialsCitation>
+. 
+<materialsCitation pageId="32" pageNumber="33">
 <typeStatus box="[566,724,1594,1618]" pageId="32" pageNumber="33">PARATYPES</typeStatus>
 ; 
 <collectingCountry box="[738,821,1593,1618]" name="Greece" pageId="32" pageNumber="33">
@@ -116,7 +137,11 @@ April
 <number box="[441,456,1629,1654]" pageId="32" pageNumber="33" value="5.0">5</number>
 ♀ in 
 <collectionCode box="[510,600,1630,1653]" pageId="32" pageNumber="33">BMNH</collectionCode>
-]. 
+]
+</materialsCitation>
+. 
+<materialsCitation lastPageId="32" lastPageNumber="34" latitude="37.183334" longitude="34.8" pageId="32" pageNumber="33">
+<geoCoordinate box="[618,1271,1629,1654]" direction="north" orientation="latitude" pageId="32" pageNumber="33" precision="925" value="37.183334">
 <collectingCountry box="[618,702,1629,1654]" name="Turkey" pageId="32" pageNumber="33">
 <emphasis bold="true" box="[618,702,1629,1654]" pageId="32" pageNumber="33">Turkey</emphasis>
 </collectingCountry>
@@ -128,25 +153,24 @@ June
 </date>
 , Içel, Camalan, 
 <quantity box="[1039,1105,1629,1654]" metricMagnitude="2" metricUnit="m" metricValue="6.63" pageId="32" pageNumber="33" unit="m" value="663.0">663m</quantity>
-, 
-<geoCoordinate box="[1117,1207,1629,1654]" direction="north" orientation="latitude" pageId="32" pageNumber="33" precision="925" value="37.183334">
-N 
+, N 
 <number box="[1139,1167,1629,1654]" pageId="32" pageNumber="33" value="37.0">37</number>
 ° 
 <number box="[1177,1202,1629,1654]" pageId="32" pageNumber="33" value="11.0">11</number>
-′
-</geoCoordinate>
+′ 
 <number box="[1207,1257,1629,1654]" pageId="32" pageNumber="33" value="33.1">33.1</number>
-″ 
-<geoCoordinate box="[1278,1368,1629,1654]" direction="east" orientation="longitude" pageId="32" pageNumber="33" precision="925" value="34.8">
+″
+</geoCoordinate>
+<geoCoordinate box="[1278,1431,1629,1654]" direction="east" orientation="longitude" pageId="32" pageNumber="33" precision="925" value="34.8">
 E 
 <number box="[1296,1325,1629,1654]" pageId="32" pageNumber="33" value="34.0">34</number>
 ° 
 <number box="[1333,1362,1629,1654]" pageId="32" pageNumber="33" value="48.0">48</number>
-′
-</geoCoordinate>
+′ 
 <number box="[1368,1419,1629,1654]" pageId="32" pageNumber="33" value="33.9">33.9</number>
-″, Leg. Dils J. Faes J. [
+″
+</geoCoordinate>
+, Leg. Dils J. Faes J. [
 <specimenCount box="[376,416,1665,1690]" pageId="32" pageNumber="33" type="generic">
 <number box="[376,392,1665,1690]" pageId="32" pageNumber="33" value="2.0">2</number>
 ♂
@@ -158,7 +182,11 @@ E
 <number box="[562,576,1666,1690]" pageId="32" pageNumber="33" value="1.0">1</number>
 ♀ in 
 <collectionCode box="[632,729,1666,1690]" httpUri="http://grbio.org/cool/e7dr-nxad" name="National Museum of Wales" pageId="32" pageNumber="33">NMWC</collectionCode>
-]; 
+]
+</materialsCitation>
+; 
+<materialsCitation lastPageId="32" lastPageNumber="34" latitude="37.066666" longitude="27.666666" pageId="32" pageNumber="33">
+<geoCoordinate box="[746,1437,1665,1690]" direction="north" orientation="latitude" pageId="32" pageNumber="33" precision="925" value="37.066666">
 <date box="[746,906,1665,1690]" pageId="32" pageNumber="33" value="2001-04-29">
 <number box="[746,774,1666,1690]" pageId="32" pageNumber="33" value="29.0">29</number>
 April 
@@ -166,25 +194,24 @@ April
 </date>
 , Mulğa, Mumcular (Karaova), 
 <quantity box="[1253,1320,1666,1690]" metricMagnitude="2" metricUnit="m" metricValue="2.0" pageId="32" pageNumber="33" unit="m" value="200.0">200m</quantity>
-, 
-<geoCoordinate box="[1331,1410,1665,1690]" direction="north" orientation="latitude" pageId="32" pageNumber="33" precision="925" value="37.066666">
-N 
+, N 
 <number box="[1353,1381,1665,1690]" pageId="32" pageNumber="33" value="37.0">37</number>
 ° 
 <number box="[1390,1404,1665,1690]" pageId="32" pageNumber="33" value="4.0">4</number>
-′
-</geoCoordinate>
+′ 
 <number box="[1410,1423,1665,1690]" pageId="32" pageNumber="33" value="9.0">9</number>
-″ 
-<geoCoordinate box="[151,242,1701,1726]" direction="east" orientation="longitude" pageId="32" pageNumber="33" precision="925" value="27.666666">
+″
+</geoCoordinate>
+<geoCoordinate box="[151,283,1701,1726]" direction="east" orientation="longitude" pageId="32" pageNumber="33" precision="925" value="27.666666">
 E 
 <number box="[169,197,1701,1726]" pageId="32" pageNumber="33" value="27.0">27</number>
 ° 
 <number box="[206,236,1701,1726]" pageId="32" pageNumber="33" value="40.0">40</number>
-′
-</geoCoordinate>
+′ 
 <number box="[242,271,1701,1726]" pageId="32" pageNumber="33" value="54.0">54</number>
-″, Leg. J. Dils-J. Faes [
+″
+</geoCoordinate>
+, Leg. J. Dils-J. Faes [
 <specimenCount box="[530,568,1701,1726]" pageId="32" pageNumber="33" type="generic">
 <number box="[530,545,1701,1726]" pageId="32" pageNumber="33" value="8.0">8</number>
 ♂
@@ -203,31 +230,34 @@ E
 </specimenCount>
 in 
 <collectionCode box="[940,1052,1702,1726]" pageId="32" pageNumber="33">OUMNH</collectionCode>
-]; 
+]
+</materialsCitation>
+; 
+<materialsCitation lastPageId="32" lastPageNumber="34" latitude="36.75" longitude="27.75" pageId="32" pageNumber="33">
+<geoCoordinate direction="north" orientation="latitude" pageId="32" pageNumber="33" precision="925" value="36.75">
 <date box="[1071,1233,1701,1726]" pageId="32" pageNumber="33" value="2001-04-22">
 <number box="[1071,1099,1702,1726]" pageId="32" pageNumber="33" value="22.0">22</number>
 April 
 <number box="[1174,1233,1702,1726]" pageId="32" pageNumber="33" value="2001.0">2001</number>
 </date>
-, Mulğa, Reşadiye Yarimadasi, 
-<geoCoordinate box="[291,385,1737,1762]" direction="north" orientation="latitude" pageId="32" pageNumber="33" precision="925" value="36.75">
-N 
+, Mulğa, Reşadiye Yarimadasi, N 
 <number box="[313,342,1737,1762]" pageId="32" pageNumber="33" value="36.0">36</number>
 ° 
 <number box="[350,379,1737,1762]" pageId="32" pageNumber="33" value="45.0">45</number>
-′
-</geoCoordinate>
+′ 
 <number box="[385,412,1737,1762]" pageId="32" pageNumber="33" value="51.0">51</number>
-″ 
-<geoCoordinate box="[431,522,1737,1762]" direction="east" orientation="longitude" pageId="32" pageNumber="33" precision="925" value="27.75">
+″
+</geoCoordinate>
+<geoCoordinate box="[431,565,1737,1762]" direction="east" orientation="longitude" pageId="32" pageNumber="33" precision="925" value="27.75">
 E 
 <number box="[450,479,1737,1762]" pageId="32" pageNumber="33" value="27.0">27</number>
 ° 
 <number box="[487,516,1737,1762]" pageId="32" pageNumber="33" value="45.0">45</number>
-′
-</geoCoordinate>
+′ 
 <number box="[523,552,1737,1762]" pageId="32" pageNumber="33" value="59.0">59</number>
-″, Leg. J. Dils-J. Faes [
+″
+</geoCoordinate>
+, Leg. J. Dils-J. Faes [
 <specimenCount box="[805,860,1737,1762]" pageId="32" pageNumber="33" type="generic">
 <number box="[805,836,1737,1762]" pageId="32" pageNumber="33" value="12.0">12</number>
 ♂
@@ -239,7 +269,10 @@ E
 <number box="[1006,1020,1738,1762]" pageId="32" pageNumber="33" value="1.0">1</number>
 ♀ in 
 <collectionCode box="[1077,1174,1738,1762]" httpUri="http://grbio.org/cool/e7dr-nxad" name="National Museum of Wales" pageId="32" pageNumber="33">NMWC</collectionCode>
-]; 
+]
+</materialsCitation>
+; 
+<materialsCitation lastPageId="32" lastPageNumber="34" latitude="36.816666" longitude="28.183332" pageId="32" pageNumber="33">
 <date box="[1192,1352,1737,1762]" pageId="32" pageNumber="33" value="2001-04-24">
 <number box="[1192,1220,1738,1762]" pageId="32" pageNumber="33" value="24.0">24</number>
 April 
@@ -248,24 +281,25 @@ April
 , Mulğa 
 <quantity box="[151,203,1773,1798]" metricMagnitude="1" metricUnit="m" metricValue="5.0" pageId="32" pageNumber="33" unit="m" value="50.0">50m</quantity>
 , Yuvacik, 
-<geoCoordinate box="[320,414,1773,1798]" direction="north" orientation="latitude" pageId="32" pageNumber="33" precision="925" value="36.816666">
+<geoCoordinate box="[320,453,1773,1798]" direction="north" orientation="latitude" pageId="32" pageNumber="33" precision="925" value="36.816666">
 N 
 <number box="[341,369,1773,1798]" pageId="32" pageNumber="33" value="36.0">36</number>
 ° 
 <number box="[378,407,1773,1798]" pageId="32" pageNumber="33" value="49.0">49</number>
-′
-</geoCoordinate>
+′ 
 <number box="[414,441,1773,1798]" pageId="32" pageNumber="33" value="41.0">41</number>
-″ 
-<geoCoordinate box="[460,549,1773,1798]" direction="east" orientation="longitude" pageId="32" pageNumber="33" precision="925" value="28.183332">
+″
+</geoCoordinate>
+<geoCoordinate box="[460,592,1773,1798]" direction="east" orientation="longitude" pageId="32" pageNumber="33" precision="925" value="28.183332">
 E 
 <number box="[479,508,1773,1798]" pageId="32" pageNumber="33" value="28.0">28</number>
 ° 
 <number box="[517,542,1773,1798]" pageId="32" pageNumber="33" value="11.0">11</number>
-′
-</geoCoordinate>
+′ 
 <number box="[549,579,1773,1798]" pageId="32" pageNumber="33" value="27.0">27</number>
-″, Leg. J. Dils-J. Faes [
+″
+</geoCoordinate>
+, Leg. J. Dils-J. Faes [
 <specimenCount box="[831,871,1774,1798]" pageId="32" pageNumber="33" type="generic">
 <number box="[831,848,1774,1798]" pageId="32" pageNumber="33" value="4.0">4</number>
 ♂
@@ -277,7 +311,11 @@ E
 <number box="[1023,1037,1774,1798]" pageId="32" pageNumber="33" value="1.0">1</number>
 ♀ in 
 <collectionCode box="[1093,1190,1774,1798]" httpUri="http://grbio.org/cool/e7dr-nxad" name="National Museum of Wales" pageId="32" pageNumber="33">NMWC</collectionCode>
-]; 
+]
+</materialsCitation>
+; 
+<materialsCitation lastPageId="32" lastPageNumber="34" latitude="37.383335" longitude="34.85" pageId="32" pageNumber="33">
+<geoCoordinate direction="north" orientation="latitude" pageId="32" pageNumber="33" precision="925" value="37.383335">
 <date box="[1208,1345,1773,1798]" pageId="32" pageNumber="33" value="2005-06-06">
 <number box="[1208,1222,1773,1798]" pageId="32" pageNumber="33" value="6.0">6</number>
 June 
@@ -285,25 +323,24 @@ June
 </date>
 , Adana, Pozanti, 
 <quantity box="[253,319,1809,1834]" metricMagnitude="2" metricUnit="m" metricValue="6.56" pageId="32" pageNumber="33" unit="m" value="656.0">656m</quantity>
-, 
-<geoCoordinate box="[335,428,1809,1834]" direction="north" orientation="latitude" pageId="32" pageNumber="33" precision="925" value="37.383335">
-N 
+, N 
 <number box="[356,384,1809,1834]" pageId="32" pageNumber="33" value="37.0">37</number>
 ° 
 <number box="[394,422,1809,1834]" pageId="32" pageNumber="33" value="23.0">23</number>
-′
-</geoCoordinate>
+′ 
 <number box="[428,455,1809,1834]" pageId="32" pageNumber="33" value="51.0">51</number>
-″ 
-<geoCoordinate box="[479,568,1809,1834]" direction="east" orientation="longitude" pageId="32" pageNumber="33" precision="925" value="34.85">
+″
+</geoCoordinate>
+<geoCoordinate box="[479,633,1809,1834]" direction="east" orientation="longitude" pageId="32" pageNumber="33" precision="925" value="34.85">
 E 
 <number box="[497,526,1809,1834]" pageId="32" pageNumber="33" value="34.0">34</number>
 ° 
 <number box="[535,562,1809,1834]" pageId="32" pageNumber="33" value="51.0">51</number>
-′
-</geoCoordinate>
+′ 
 <number box="[569,621,1809,1834]" pageId="32" pageNumber="33" value="20.3">20.3</number>
-″, Leg. Dils J.·Faes J. [
+″
+</geoCoordinate>
+, Leg. Dils J.·Faes J. [
 <number box="[895,913,1809,1834]" pageId="32" pageNumber="33" value="6.0">6</number>
 ♀ in 
 <collectionCode box="[975,1043,1810,1834]" pageId="32" pageNumber="33">PCJD</collectionCode>
@@ -315,72 +352,144 @@ E
 <number box="[1234,1248,1810,1834]" pageId="32" pageNumber="33" value="1.0">1</number>
 ♀ in 
 <collectionCode box="[1313,1425,1810,1834]" pageId="32" pageNumber="33">OUMNH</collectionCode>
-]; Antalya Prov., Olympos, 
+]
+</materialsCitation>
+; 
+<materialsCitation box="[151,1307,1845,1870]" collectingDate="2000-04-26" collectionCode="MHNG" collectorName="Merz &amp; Senay" lastPageId="32" lastPageNumber="34" location="Olympos" municipality="Antalya Prov" pageId="32" pageNumber="33" specimenCount="1" specimenCount-male="1" typeStatus="paratype">
+<collectingMunicipality box="[151,309,1845,1870]" pageId="32" pageNumber="33">Antalya Prov</collectingMunicipality>
+., 
+<location LSID="urn:lsid:plazi:treatment:A96887E8FFF5FFB3FF43FA60FB4E0222:241E6025FFF5FFB0FE9DF8FFFE450158" box="[329,435,1845,1870]" municipality="Antalya Prov" name="Olympos" pageId="32" pageNumber="33">Olympos</location>
+, 
+<locationDeviation bearing="180.0" box="[451,543,1845,1870]" distance="25000.0" pageId="32" pageNumber="33">
 <quantity box="[451,515,1845,1870]" metricMagnitude="4" metricUnit="m" metricValue="2.5" pageId="32" pageNumber="33" unit="km" value="25.0">25km</quantity>
-S Kemer, 
+S
+</locationDeviation>
+<location LSID="urn:lsid:plazi:treatment:A96887E8FFF5FFB3FF43FA60FB4E0222:241E6025FFF5FFB0FDFFF8FCFD8F015B" box="[555,633,1846,1869]" municipality="Antalya Prov" name="Kemer" pageId="32" pageNumber="33">Kemer</location>
+, 
 <date box="[650,821,1845,1870]" pageId="32" pageNumber="33" value="2000-04-26">
+<collectingDate box="[650,821,1845,1870]" pageId="32" pageNumber="33" value="2000-04-26">
 <number box="[650,678,1845,1870]" pageId="32" pageNumber="33" value="26.0">26</number>
 April 
 <number box="[762,821,1846,1870]" pageId="32" pageNumber="33" value="2000.0">2000</number>
+</collectingDate>
 </date>
-, 0m, leg. Merz &amp; Senay [♂ in 
+, 0m, leg. 
+<collectorName box="[946,1005,1846,1869]" pageId="32" pageNumber="33">Merz</collectorName>
+&amp; 
+<collectorName box="[1051,1119,1846,1870]" pageId="32" pageNumber="33">Senay</collectorName>
+[
+<specimenCount box="[1140,1162,1846,1869]" pageId="32" pageNumber="33" type="male">♂</specimenCount>
+in 
 <collectionCode box="[1209,1301,1846,1870]" httpUri="http://grbio.org/cool/2jyg-xmd2" name="Museum d'Histoire Naturelle" pageId="32" pageNumber="33">MHNG</collectionCode>
-]; Cavusköy (Andrasan), 
+]
+</materialsCitation>
+; 
+<materialsCitation collectingDate="2000-04-28" collectionCode="MHNG" collectorName="Merz &amp; Senay" elevation="50" lastPageId="32" lastPageNumber="34" location="Andrasan" municipality="Cavuskoy" pageId="32" pageNumber="33" specimenCount="3" specimenCount-female="2" specimenCount-male="50" typeStatus="paratype">
+<collectingMunicipality box="[1324,1435,1845,1870]" pageId="32" pageNumber="33">Cavusköy</collectingMunicipality>
+(
+<location LSID="urn:lsid:plazi:treatment:A96887E8FFF5FFB3FF43FA60FB4E0222:241E6025FFF5FFB0FF4AF893FEF90164" box="[158,271,1881,1906]" municipality="Cavuskoy" name="Andrasan" pageId="32" pageNumber="33">Andrasan</location>
+), 
 <date box="[292,453,1881,1906]" pageId="32" pageNumber="33" value="2000-04-28">
+<collectingDate box="[292,453,1881,1906]" pageId="32" pageNumber="33" value="2000-04-28">
 <number box="[292,320,1882,1906]" pageId="32" pageNumber="33" value="28.0">28</number>
-April 2000
+April 
+<quantity box="[394,517,1881,1906]" metricMagnitude="3" metricUnit="m" metricValue="2.0005" pageId="32" pageNumber="33" unit="m" value="2000.5">2000, 50m</quantity>
+</collectingDate>
 </date>
-, 50m, leg. Merz &amp; Senay [
+, leg. 
+<collectorName box="[578,637,1882,1905]" pageId="32" pageNumber="33">Merz</collectorName>
+&amp; 
+<collectorName box="[675,743,1882,1906]" pageId="32" pageNumber="33">Senay</collectorName>
+[
 <specimenCount box="[760,796,1882,1906]" pageId="32" pageNumber="33" type="generic">
 <number box="[760,771,1882,1906]" pageId="32" pageNumber="33" value="1.0">1</number>
 ♂
 </specimenCount>
+<specimenCount box="[795,830,1882,1906]" pageId="32" pageNumber="33" type="female">
 <number box="[795,813,1882,1906]" pageId="32" pageNumber="33" value="2.0">2</number>
-♀ in 
+♀
+</specimenCount>
+in 
 <collectionCode box="[868,960,1882,1906]" httpUri="http://grbio.org/cool/2jyg-xmd2" name="Museum d'Histoire Naturelle" pageId="32" pageNumber="33">MHNG</collectionCode>
-]; Kursunlu Selalesi, 
+]
+</materialsCitation>
+; 
+<materialsCitation collectingDate="2000-04-29" collectionCode="MHNG" collectorName="Merz &amp; Senay" elevation="150" lastPageId="32" lastPageNumber="34" location="Kursunlu Selalesi" pageId="32" pageNumber="33" specimenCount="6" specimenCount-female="1" typeStatus="paratype">
+<location LSID="urn:lsid:plazi:treatment:A96887E8FFF5FFB3FF43FA60FB4E0222:241E6025FFF5FFB0FC06F893FB6A0164" box="[978,1180,1881,1906]" name="Kursunlu Selalesi" pageId="32" pageNumber="33">Kursunlu Selalesi</location>
+, 
 <date box="[1192,1354,1881,1906]" pageId="32" pageNumber="33" value="2000-04-29">
+<collectingDate box="[1192,1354,1881,1906]" pageId="32" pageNumber="33" value="2000-04-29">
 <number box="[1192,1220,1882,1906]" pageId="32" pageNumber="33" value="29.0">29</number>
 April 
 <quantity box="[1295,1354,1882,1906]" metricMagnitude="6" metricUnit="m" metricValue="2.00015" pageId="32" pageNumber="33" unit="m" value="2000150.0">2000</quantity>
+</collectingDate>
 </date>
-, 150m, leg. Merz &amp; Senay [
+, 150m, leg. 
+<collectorName box="[202,261,1918,1941]" pageId="32" pageNumber="33">Merz</collectorName>
+&amp; 
+<collectorName box="[302,370,1918,1942]" pageId="32" pageNumber="33">Senay</collectorName>
+[
 <specimenCount box="[389,430,1917,1942]" pageId="32" pageNumber="33" type="generic">
 <number box="[389,405,1917,1942]" pageId="32" pageNumber="33" value="5.0">5</number>
 ♂
 </specimenCount>
+<specimenCount box="[431,459,1917,1942]" pageId="32" pageNumber="33" type="female">
 <number box="[431,442,1917,1942]" pageId="32" pageNumber="33" value="1.0">1</number>
-♀ in 
+♀
+</specimenCount>
+in 
 <collectionCode box="[501,593,1918,1942]" httpUri="http://grbio.org/cool/2jyg-xmd2" name="Museum d'Histoire Naturelle" pageId="32" pageNumber="33">MHNG</collectionCode>
-]; Phaselis, 
+]
+</materialsCitation>
+; 
+<materialsCitation collectingDate="2000-04-27" collectionCode="MHNG" collectorName="Merz &amp; Senay" elevation="0" lastPageId="32" lastPageNumber="34" location="Kemer" municipality="Phaselis" pageId="32" pageNumber="33" specimenCount="1" specimenCount-male="1" typeStatus="paratype">
+<collectingMunicipality box="[614,708,1917,1942]" pageId="32" pageNumber="33">Phaselis</collectingMunicipality>
+, 
+<locationDeviation bearing="180.0" box="[722,811,1917,1942]" distance="10000.0" pageId="32" pageNumber="33">
 <quantity box="[722,786,1917,1942]" metricMagnitude="4" metricUnit="m" metricValue="1.0" pageId="32" pageNumber="33" unit="km" value="10.0">10km</quantity>
-S Kemer, 
+S
+</locationDeviation>
+<location LSID="urn:lsid:plazi:treatment:A96887E8FFF5FFB3FF43FA60FB4E0222:241E6025FFF5FFB0FCE1F8B4FC750183" box="[821,899,1918,1941]" municipality="Phaselis" name="Kemer" pageId="32" pageNumber="33">Kemer</location>
+, 
 <date box="[913,1078,1917,1942]" pageId="32" pageNumber="33" value="2000-04-27">
+<collectingDate box="[913,1078,1917,1942]" pageId="32" pageNumber="33" value="2000-04-27">
 <number box="[913,941,1918,1942]" pageId="32" pageNumber="33" value="27.0">27</number>
 April 
 <number box="[1019,1078,1918,1942]" pageId="32" pageNumber="33" value="2000.0">2000</number>
+</collectingDate>
 </date>
-, 0m, leg. Merz &amp; Senay [♂ in 
+, 0m, leg. 
+<collectorName box="[1196,1255,1918,1941]" pageId="32" pageNumber="33">Merz</collectorName>
+&amp; 
+<collectorName box="[1296,1364,1918,1942]" pageId="32" pageNumber="33">Senay</collectorName>
+[
+<specimenCount box="[1382,1405,1918,1941]" pageId="32" pageNumber="33" type="male">♂</specimenCount>
+in 
 <collectionCode box="[151,243,1954,1978]" httpUri="http://grbio.org/cool/2jyg-xmd2" name="Museum d'Histoire Naturelle" pageId="32" pageNumber="33">MHNG</collectionCode>
-]; Mulğa, Sazak-Otmanlar, 
+]
+</materialsCitation>
+; 
+<materialsCitation box="[261,1432,1953,1978]" lastPageId="32" lastPageNumber="34" latitude="37.0" longitude="28.916666" pageId="32" pageNumber="33">
+Mulğa, Sazak-Otmanlar, 
 <quantity box="[543,623,1953,1978]" metricMagnitude="3" metricUnit="m" metricValue="1.05" pageId="32" pageNumber="33" unit="m" value="1050.0">1050m</quantity>
 , 
-<geoCoordinate box="[635,715,1953,1978]" direction="north" orientation="latitude" pageId="32" pageNumber="33" precision="925" value="37.0">
+<geoCoordinate box="[635,754,1953,1978]" direction="north" orientation="latitude" pageId="32" pageNumber="33" precision="925" value="37.0">
 N 
 <number box="[657,686,1953,1978]" pageId="32" pageNumber="33" value="37.0">37</number>
-°0′
-</geoCoordinate>
+°0′ 
 <number box="[715,741,1953,1978]" pageId="32" pageNumber="33" value="13.0">13</number>
-″ 
-<geoCoordinate box="[761,853,1953,1978]" direction="east" orientation="longitude" pageId="32" pageNumber="33" precision="925" value="28.916666">
+″
+</geoCoordinate>
+<geoCoordinate box="[761,880,1953,1978]" direction="east" orientation="longitude" pageId="32" pageNumber="33" precision="925" value="28.916666">
 E 
 <number box="[780,809,1953,1978]" pageId="32" pageNumber="33" value="28.0">28</number>
 ° 
 <number box="[818,847,1953,1978]" pageId="32" pageNumber="33" value="55.0">55</number>
-′
-</geoCoordinate>
+′ 
 <number box="[853,867,1953,1978]" pageId="32" pageNumber="33" value="6.0">6</number>
-″, 
+″
+</geoCoordinate>
+, 
 <date box="[891,1043,1953,1978]" pageId="32" pageNumber="33" value="2005-06-11">
 <number box="[891,918,1954,1978]" pageId="32" pageNumber="33" value="11.0">11</number>
 June 
@@ -394,25 +503,30 @@ June
 <number box="[1278,1293,1954,1978]" pageId="32" pageNumber="33" value="3.0">3</number>
 ♀ in 
 <collectionCode box="[1344,1425,1954,1978]" pageId="32" pageNumber="33">PCDG</collectionCode>
-]; Road 
+]
+</materialsCitation>
+; 
+<materialsCitation lastPageId="33" lastPageNumber="34" latitude="36.516666" longitude="30.0" pageId="32" pageNumber="33">
+Road 
 <number box="[219,261,1989,2014]" pageId="32" pageNumber="33" value="635.0">635</number>
 between Göltarla and Calallar, 
-<geoCoordinate box="[624,716,1989,2014]" direction="north" orientation="latitude" pageId="32" pageNumber="33" precision="925" value="36.516666">
+<geoCoordinate box="[624,757,1989,2014]" direction="north" orientation="latitude" pageId="32" pageNumber="33" precision="925" value="36.516666">
 N 
 <number box="[646,675,1989,2014]" pageId="32" pageNumber="33" value="36.0">36</number>
 ° 
 <number box="[684,711,1989,2014]" pageId="32" pageNumber="33" value="31.0">31</number>
-′
-</geoCoordinate>
+′ 
 <number box="[716,744,1989,2014]" pageId="32" pageNumber="33" value="35.0">35</number>
-″ 
-<geoCoordinate box="[766,857,1989,2014]" direction="east" orientation="longitude" pageId="32" pageNumber="33" precision="925" value="30.0">
+″
+</geoCoordinate>
+<geoCoordinate box="[766,898,1989,2014]" direction="east" orientation="longitude" pageId="32" pageNumber="33" precision="925" value="30.0">
 E 
 <number box="[784,813,1989,2014]" pageId="32" pageNumber="33" value="30.0">30</number>
-°00′
-</geoCoordinate>
+°00′ 
 <number box="[857,885,1989,2014]" pageId="32" pageNumber="33" value="39.0">39</number>
-″, 
+″
+</geoCoordinate>
+, 
 <quantity box="[911,978,1989,2014]" metricMagnitude="2" metricUnit="m" metricValue="8.5" pageId="32" pageNumber="33" unit="m" value="850.0">850m</quantity>
 , 
 <date box="[991,1146,1990,2014]" pageId="32" pageNumber="33" value="2001-05-10">
@@ -429,7 +543,11 @@ May
 </specimenCount>
 in 
 <collectionCode box="[232,344,152,176]" pageId="33" pageNumber="34">OUMNH</collectionCode>
-]; Rt. 685, 30km N Antalya, 
+]
+</materialsCitation>
+; 
+<materialsCitation lastPageId="33" lastPageNumber="34" pageId="33" pageNumber="33">
+Rt. 685, 30km N Antalya, 
 <quantity box="[663,729,152,176]" metricMagnitude="2" metricUnit="m" metricValue="4.0" pageId="33" pageNumber="34" unit="m" value="400.0">400m</quantity>
 , 
 <date box="[741,881,151,176]" pageId="33" pageNumber="34" value="2000-05-05">
@@ -444,32 +562,34 @@ May
 <collectingCountry box="[151,213,188,212]" name="China" pageId="33" pageNumber="34">TAU</collectingCountry>
 </collectionCode>
 ].
+</materialsCitation>
 </paragraph>
 <paragraph blockId="33.[151,1437,151,2013]" pageId="33" pageNumber="34">
 <emphasis bold="true" box="[199,602,223,248]" pageId="33" pageNumber="34">
 Other material examined. 
+<materialsCitation latitude="39.0" longitude="26.583334" pageId="33" pageNumber="34">
 <collectingCountry box="[518,602,223,248]" name="Greece" pageId="33" pageNumber="34">Greece</collectingCountry>
-</emphasis>
 , Lesvos, 
 <quantity box="[712,784,223,248]" metricMagnitude="4" metricUnit="m" metricValue="1.0" pageId="33" pageNumber="34" unit="km" value="10.0">10 km</quantity>
 S Mytilene, 
 <quantity box="[933,997,224,248]" metricMagnitude="2" metricUnit="m" metricValue="1.0" pageId="33" pageNumber="34" unit="m" value="100.0">100m</quantity>
-<geoCoordinate box="[1005,1084,223,248]" direction="north" orientation="latitude" pageId="33" pageNumber="34" precision="925" value="39.0">
+<geoCoordinate box="[1005,1124,223,248]" direction="north" orientation="latitude" pageId="33" pageNumber="34" precision="925" value="39.0">
 N 
 <number box="[1026,1055,223,248]" pageId="33" pageNumber="34" value="39.0">39</number>
-°0′
-</geoCoordinate>
+°0′ 
 <number box="[1084,1111,223,248]" pageId="33" pageNumber="34" value="51.0">51</number>
-″ 
-<geoCoordinate box="[1132,1221,223,248]" direction="east" orientation="longitude" pageId="33" pageNumber="34" precision="925" value="26.583334">
+″
+</geoCoordinate>
+<geoCoordinate box="[1132,1262,223,248]" direction="east" orientation="longitude" pageId="33" pageNumber="34" precision="925" value="26.583334">
 E 
 <number box="[1150,1179,223,248]" pageId="33" pageNumber="34" value="26.0">26</number>
 ° 
 <number box="[1188,1215,223,248]" pageId="33" pageNumber="34" value="35.0">35</number>
-′
-</geoCoordinate>
+′ 
 <number box="[1221,1250,223,248]" pageId="33" pageNumber="34" value="26.0">26</number>
-″ Poor phrygana simple landscape/ blue pantrap#4, 
+″
+</geoCoordinate>
+Poor phrygana simple landscape/ blue pantrap#4, 
 <date box="[582,802,260,285]" pageId="33" pageNumber="34" value="2004-04-23" valueMax="2004-04-25" valueMin="2004-04-23">
 23– 
 <number box="[624,652,260,285]" pageId="33" pageNumber="34" value="25.0">25</number>
@@ -482,9 +602,15 @@ April
 <number box="[394,406,296,320]" pageId="33" pageNumber="34" value="1.0">1</number>
 ♂
 </specimenCount>
-; 0 0 0 6747, 
-<specimenCount box="[569,607,296,320]" pageId="33" pageNumber="34" type="generic">1♂</specimenCount>
+</materialsCitation>
+</emphasis>
 ; 
+<materialsCitation box="[451,607,295,320]" pageId="33" pageNumber="34">
+0 0 0 6747, 
+<specimenCount box="[569,607,296,320]" pageId="33" pageNumber="34" type="generic">1♂</specimenCount>
+</materialsCitation>
+; 
+<materialsCitation pageId="33" pageNumber="34">
 <date box="[625,796,295,320]" pageId="33" pageNumber="34" value="2004-04-23">
 <number box="[625,653,296,320]" pageId="33" pageNumber="34" value="23.0">23</number>
 April 
@@ -494,24 +620,28 @@ April
 (leg. M. Greenwell)/ Aegean University 0 0 
 <number box="[178,248,332,356]" pageId="33" pageNumber="34" value="14073.0">14073</number>
 <number box="[261,275,332,356]" pageId="33" pageNumber="34" value="1.0">1</number>
-♀; 
+♀
+</materialsCitation>
+; 
+<materialsCitation latitude="26.599445" pageId="33" pageNumber="34">
 <quantity box="[317,401,332,357]" metricMagnitude="3" metricUnit="m" metricValue="9.1" pageId="33" pageNumber="34" unit="km" value="9.1">9.1 km</quantity>
 S Mytilene, 
 <quantity box="[563,627,332,356]" metricMagnitude="2" metricUnit="m" metricValue="1.3" pageId="33" pageNumber="34" unit="m" value="130.0">130m</quantity>
+<geoCoordinate box="[639,771,332,356]" direction="north" orientation="latitude" pageId="33" pageNumber="34" precision="15" value="26.599445">
 <number box="[639,669,332,356]" pageId="33" pageNumber="34" value="39.0">39</number>
 °02' 
 <number box="[712,739,332,356]" pageId="33" pageNumber="34" value="19.0">19</number>
-&quot; 
-<geoCoordinate box="[749,895,332,357]" direction="north" orientation="latitude" pageId="33" pageNumber="34" precision="15" value="26.599445">
-N 
+&quot;N
+</geoCoordinate>
+<geoCoordinate box="[784,915,332,357]" direction="north" orientation="latitude" pageId="33" pageNumber="34" precision="15" value="26.599445">
 <number box="[784,815,332,357]" pageId="33" pageNumber="34" value="26.0">26</number>
 ° 
 <number box="[824,853,332,357]" pageId="33" pageNumber="34" value="35.0">35</number>
 ' 
 <number box="[856,886,332,357]" pageId="33" pageNumber="34" value="58.0">58</number>
-&quot;
+&quot;E
 </geoCoordinate>
-E, Phryganic habitat complex landscape/ blue pantrap#5, 
+, Phryganic habitat complex landscape/ blue pantrap#5, 
 <date box="[278,472,368,392]" pageId="33" pageNumber="34" value="2004-05-11" valueMax="2004-05-13" valueMin="2004-05-11">
 11– 
 <number box="[321,348,368,392]" pageId="33" pageNumber="34" value="13.0">13</number>
@@ -524,34 +654,41 @@ May
 <number box="[1323,1335,368,392]" pageId="33" pageNumber="34" value="1.0">1</number>
 ♂
 </specimenCount>
-; white pantrap#2, 
+</materialsCitation>
+; 
+<materialsCitation pageId="33" pageNumber="34">
+white pantrap#2, 
 <date box="[282,484,404,429]" pageId="33" pageNumber="34" value="2004-05-16" valueMax="2004-05-18" valueMin="2004-05-16">
 16– 
 <number box="[325,352,404,429]" pageId="33" pageNumber="34" value="18.0">18</number>
 May 
 <number box="[428,484,404,428]" pageId="33" pageNumber="34" value="2004.0">2004</number>
 </date>
-(leg. Dahm/Lamborn/Messinger)/ Aegean University 0 0 0 4534, 1♀; 
+(leg. Dahm/Lamborn/Messinger)/ Aegean University 0 0 0 4534, 1♀
+</materialsCitation>
+; 
+<materialsCitation latitude="39.033333" longitude="26.6" pageId="33" pageNumber="34">
 <quantity box="[1292,1376,404,429]" metricMagnitude="3" metricUnit="m" metricValue="8.9" pageId="33" pageNumber="34" unit="km" value="8.9">8.9 km</quantity>
 SSE Mytilene, 
 <quantity box="[266,319,439,464]" metricMagnitude="1" metricUnit="m" metricValue="6.0" pageId="33" pageNumber="34" unit="m" value="60.0">60m</quantity>
 , 
-<geoCoordinate box="[330,424,439,464]" direction="north" orientation="latitude" pageId="33" pageNumber="34" precision="925" value="39.033333">
+<geoCoordinate box="[330,463,439,464]" direction="north" orientation="latitude" pageId="33" pageNumber="34" precision="925" value="39.033333">
 N 
 <number box="[351,379,439,464]" pageId="33" pageNumber="34" value="39.0">39</number>
-°02′
-</geoCoordinate>
+°02′ 
 <number box="[424,451,439,464]" pageId="33" pageNumber="34" value="16.0">16</number>
-″ 
-<geoCoordinate box="[470,564,439,464]" direction="east" orientation="longitude" pageId="33" pageNumber="34" precision="925" value="26.6">
+″
+</geoCoordinate>
+<geoCoordinate box="[470,603,439,464]" direction="east" orientation="longitude" pageId="33" pageNumber="34" precision="925" value="26.6">
 E 
 <number box="[489,519,439,464]" pageId="33" pageNumber="34" value="26.0">26</number>
 ° 
 <number box="[528,558,439,464]" pageId="33" pageNumber="34" value="36.0">36</number>
-′
-</geoCoordinate>
+′ 
 <number box="[564,590,439,464]" pageId="33" pageNumber="34" value="13.0">13</number>
-″, Olive grove complex landscape/ white pantrap#2, 
+″
+</geoCoordinate>
+, Olive grove complex landscape/ white pantrap#2, 
 <date box="[1179,1379,439,464]" pageId="33" pageNumber="34" value="2004-04-16" valueMax="2004-04-18" valueMin="2004-04-16">
 16– 
 <number box="[1223,1250,439,464]" pageId="33" pageNumber="34" value="18.0">18</number>
@@ -565,6 +702,7 @@ April
 ♂
 </specimenCount>
 .
+</materialsCitation>
 </paragraph>
 </subSubSection>
 <subSubSection pageId="33" pageNumber="34" type="etymology">
@@ -594,12 +732,12 @@ Measurements.
 <quantity box="[967,1098,871,896]" metricMagnitude="-3" metricUnit="m" metricValue="3.7" metricValueMax="4.5" metricValueMin="2.9" pageId="33" pageNumber="34" unit="mm" value="3.7" valueMax="4.5" valueMin="2.9">2.9–4.5mm</quantity>
 .
 </paragraph>
-<paragraph blockId="33.[151,1437,151,2013]" lastBlockId="34.[151,1436,1947,2031]" lastPageId="34" lastPageNumber="35" pageId="33" pageNumber="34">
+<paragraph blockId="33.[151,1437,151,2013]" lastBlockId="35.[151,1437,151,1077]" lastPageId="35" lastPageNumber="36" pageId="33" pageNumber="34">
 <emphasis bold="true" box="[199,260,908,933]" pageId="33" pageNumber="34">Male</emphasis>
 . 
 <emphasis box="[274,335,908,933]" italics="true" pageId="33" pageNumber="34">Head</emphasis>
 . Oral margin exceedingly narrow, barely discernable even close to insertion of proboscis, shining black above, yellow below. Frons black, rather matt due to rough surface sculpture, conspicuously grey-dusted, the dusting extending almost to anterior ocellus, the area in front of anterior ocellus dusted across whole width of frons (
-<figureCitation box="[158,260,1015,1040]" captionStart="FIGURE 6" captionStartId="10.[151,250,1764,1786]" captionText="FIGURE 6. ♂ U. greatheadi head and mesonotum dorsal." pageId="33" pageNumber="34">
+<figureCitation box="[158,260,1015,1040]" captionStart="FIGURE 6" captionStartId="10.[151,250,1764,1786]" captionTargetId="figure@10.[358,1228,1087,1742]" captionTargetPageId="10" captionText="FIGURE 6. ♂ U. greatheadi head and mesonotum dorsal." pageId="33" pageNumber="34">
 Figure 
 <number box="[244,260,1015,1040]" pageId="33" pageNumber="34" value="6.0">6</number>
 </figureCitation>
@@ -607,11 +745,19 @@ Figure
 <emphasis box="[540,621,1519,1544]" italics="true" pageId="33" pageNumber="34">Thorax</emphasis>
 . Mesonotum shining black, often with bluish and coppery reflections, grey dusting on upper part of post-pronotal lobe, notopleuron narrowly and above wing root. Disc densely punctorugose, anterolaterally the individual punctures often discernable and separated by about their diameter. On disc surface sculpture shagreened and transversely wrinkled effacing the individual punctures. Paramedian vittae usually discernable by their different surface sculpture, more strongly transversely wrinkled, extending from anterior slope of thorax almost to wing insertions. Mesonotum fairly densely clothed with fine whitish vestiture, on the disc and posteriorly these are short, neat, erect to slightly proclinate, longer and orientated inwards laterally, most hairs little longer than those on upper occiput. Acrostichal hairs between the bare paramedian vittae multiserial, entirely erect to slightly proclinate, the front most more reclinate, widening posteriorly, dorsocentrals not distinguishable from the general vestiture. Scutellum shining as adjacent parts of mesonotum, hairing as mesonotum. Pleurae uniformly grey dusted largely obscuring ground colour, often thinner in upper front corner of anepisternum. White hairs, similar to those on mesonotum, on pronotum and upper and posterior corner of the anepisternum. 
 <emphasis box="[316,372,1953,1976]" italics="true" pageId="33" pageNumber="34">Wing</emphasis>
-. Membrane brown tinged, this infuscation more intense in first basal cell in most individuals, the veins brown, but sc yellower and all veins proximal to basal cells yellow, membrane here also yellow tinged, 
-<emphasis bold="true" box="[151,281,1947,1969]" pageId="34" pageNumber="35">
-<collectionCode box="[151,234,1947,1969]" pageId="34" pageNumber="35">PLATE</collectionCode>
-VI.
-</emphasis>
+. Membrane brown tinged, this infuscation more intense in first basal cell in most individuals, the veins brown, but sc yellower and all veins proximal to basal cells yellow, membrane here also yellow tinged, squama very pale yellow. Crossvein r-m at or a little before the middle of discal cell, conspicuously beyond dm-cu. Anal lobe relatively narrow, trailing edge only slightly curved, about half to two-thirds width of anal cell. 
+<emphasis box="[1344,1428,188,213]" italics="true" pageId="35" pageNumber="36">Haltere</emphasis>
+. Pale yellow, base of stem slightly brownish. 
+<emphasis box="[651,704,225,248]" italics="true" pageId="35" pageNumber="36">Legs</emphasis>
+. Coxae black with a coating of grey dust like that on the pleurae. Remainder of legs black, undusted, shining below the setulae. Coxae externally and femora ventrally covered with moderately long, white hairs, on the mid and hind femora a little more than the greatest depth of the tibia, slightly shorter on front femora. Femora dorsally and tibia rather densely covered with short, recumbent, white hairs. 
+<emphasis box="[151,257,367,392]" italics="true" pageId="35" pageNumber="36">Abdomen</emphasis>
+. All tergites shining aeneous black, often with bluish, greenish or coppery reflections, undusted. Each tergite densely puncto-rugose, the punctures seriate, shining apical margin with longitudinal groves. Disc uniformly and densely covered with very short, whitish, recumbent hairs, longer, and more erect laterally. Sternites grey dusted, faintly punctate, with fairly long, erect white to very pale yellow hairs. 
+<emphasis box="[1087,1193,476,501]" italics="true" pageId="35" pageNumber="36">Genitalia</emphasis>
+. Relatively small and simple, globular. Epandrium flask-shaped with apicolateral blunt extensions and a distinct median ‘V’-notch, in undissected specimens this can often be discerned as an apicomedian crease. Shining black, the cuticle punctate evenly coated with pale yellow hairs. Gonocoxite about twice as broad as long, shining black basally, rufous brown apically, the tips well separated, haired as epandrium, gonostylus simple, curved with basal ‘thumb’.
+</paragraph>
+<caption pageId="34" pageNumber="35" startId="34.[151,234,1947,1969]" targetBox="[208,1382,202,1916]" targetPageId="34">
+<paragraph blockId="34.[151,1436,1947,2031]" pageId="34" pageNumber="35">
+<emphasis bold="true" box="[151,281,1947,1969]" pageId="34" pageNumber="35">PLATE VI.</emphasis>
 <taxonomicName authority="Gibbs" authorityName="Gibbs" box="[292,530,1947,1969]" class="Insecta" family="Bombyliidae" genus="Usia" kingdom="Animalia" order="Diptera" pageId="34" pageNumber="35" phylum="Arthropoda" rank="species" species="greatheadi" status="sp. nov.">
 <emphasis box="[292,461,1947,1969]" italics="true" pageId="34" pageNumber="35">Usia greatheadi</emphasis>
 Gibbs
@@ -640,17 +786,7 @@ female furca tip ventral (Lesvos), i female sternite
 <number box="[857,869,2009,2031]" pageId="34" pageNumber="35" value="8.0">8</number>
 ventral.
 </paragraph>
-<paragraph blockId="35.[151,1437,151,1077]" pageId="35" pageNumber="36">
-squama very pale yellow. Crossvein r-m at or a little before the middle of discal cell, conspicuously beyond dm-cu. Anal lobe relatively narrow, trailing edge only slightly curved, about half to two-thirds width of anal cell. 
-<emphasis box="[1344,1428,188,213]" italics="true" pageId="35" pageNumber="36">Haltere</emphasis>
-. Pale yellow, base of stem slightly brownish. 
-<emphasis box="[651,704,225,248]" italics="true" pageId="35" pageNumber="36">Legs</emphasis>
-. Coxae black with a coating of grey dust like that on the pleurae. Remainder of legs black, undusted, shining below the setulae. Coxae externally and femora ventrally covered with moderately long, white hairs, on the mid and hind femora a little more than the greatest depth of the tibia, slightly shorter on front femora. Femora dorsally and tibia rather densely covered with short, recumbent, white hairs. 
-<emphasis box="[151,257,367,392]" italics="true" pageId="35" pageNumber="36">Abdomen</emphasis>
-. All tergites shining aeneous black, often with bluish, greenish or coppery reflections, undusted. Each tergite densely puncto-rugose, the punctures seriate, shining apical margin with longitudinal groves. Disc uniformly and densely covered with very short, whitish, recumbent hairs, longer, and more erect laterally. Sternites grey dusted, faintly punctate, with fairly long, erect white to very pale yellow hairs. 
-<emphasis box="[1087,1193,476,501]" italics="true" pageId="35" pageNumber="36">Genitalia</emphasis>
-. Relatively small and simple, globular. Epandrium flask-shaped with apicolateral blunt extensions and a distinct median ‘V’-notch, in undissected specimens this can often be discerned as an apicomedian crease. Shining black, the cuticle punctate evenly coated with pale yellow hairs. Gonocoxite about twice as broad as long, shining black basally, rufous brown apically, the tips well separated, haired as epandrium, gonostylus simple, curved with basal ‘thumb’.
-</paragraph>
+</caption>
 <paragraph blockId="35.[151,1437,151,1077]" pageId="35" pageNumber="36">
 <emphasis bold="true" box="[199,286,655,680]" pageId="35" pageNumber="36">Female</emphasis>
 . As male except as follows: oral margin broader, although still narrower than most species. Frons appreciably wider, about one-sixth head width, lateral ocelli separated from eye margin by about their diameter. Dusting of frons extending up to level of anterior ocellus but not coalescing, centre of frons shining black. Lateral setulae on frons in front of anterior ocellus more numerous and conspicuous but still short. Mesonotal and scutellar vestiture often slightly shorter. 

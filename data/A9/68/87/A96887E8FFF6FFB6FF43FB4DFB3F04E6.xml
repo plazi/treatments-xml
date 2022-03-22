@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6135492" ID-GBIF-Dataset="d9f29df5-52ff-451f-a367-f9fdb29b180f" ID-GBIF-Taxon="127667891" ID-ISSN="1175-5326" ID-Zenodo-Dep="6135492" ID-ZooBank="56DD05E1-C61C-4D37-9454-396840EB67C0" checkinTime="1460422790352" checkinUser="plazi" docAuthor="Gibbs, David" docDate="2014" docId="A96887E8FFF6FFB6FF43FB4DFB3F04E6" docLanguage="en" docName="zt03799p085.pdf" docOrigin="Zootaxa 3799 (1)" docStyle="DocumentStylede.uka.ipd.idaho.easyIO.settings.Settings@77e6d936" docStyleName="zootaxa.2013.monograph" docTitle="Usia lata Loew 1846" docType="treatment" docVersion="6" lastPageId="38" lastPageNumber="39" masterDocId="5551FF90FFD5FF90FFD4FFCAFFF60616" masterDocTitle="A world revision of the bee fly tribe Usiini (Diptera, Bombyliidae) Part 2: Usia sensu stricto" masterLastPageNumber="85" masterPageNumber="1" pageId="35" pageNumber="36" updateTime="1645173883940" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6135492" ID-GBIF-Dataset="d9f29df5-52ff-451f-a367-f9fdb29b180f" ID-GBIF-Taxon="127667891" ID-ISSN="1175-5326" ID-Zenodo-Dep="6135492" ID-ZooBank="56DD05E1-C61C-4D37-9454-396840EB67C0" approvalRequired="27" approvalRequired_for_matCits="27" checkinTime="1460422790352" checkinUser="plazi" docAuthor="Gibbs, David" docDate="2014" docId="A96887E8FFF6FFB6FF43FB4DFB3F04E6" docLanguage="en" docName="zt03799p085.pdf" docOrigin="Zootaxa 3799 (1)" docStyle="DocumentStyle:5EBBA59367AD13919D70D935FA04F6A3.10:Zootaxa.2013-.monograph" docStyleId="5EBBA59367AD13919D70D935FA04F6A3" docStyleName="Zootaxa.2013-.monograph" docStyleVersion="10" docTitle="Usia lata Loew 1846" docType="treatment" docVersion="8" lastPageId="38" lastPageNumber="39" masterDocId="5551FF90FFD5FF90FFD4FFCAFFF60616" masterDocTitle="A world revision of the bee fly tribe Usiini (Diptera, Bombyliidae) Part 2: Usia sensu stricto" masterLastPageNumber="85" masterPageNumber="1" pageId="35" pageNumber="36" updateTime="1647966678856" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>A world revision of the bee fly tribe Usiini (Diptera, Bombyliidae) Part 2: Usia sensu stricto</mods:title>
@@ -16,6 +16,9 @@
 </mods:titleInfo>
 <mods:part>
 <mods:date>2014</mods:date>
+<mods:detail type="pubDate">
+<mods:number>2014-05-22</mods:number>
+</mods:detail>
 <mods:detail type="volume">
 <mods:number>3799</mods:number>
 </mods:detail>
@@ -50,7 +53,7 @@ Loew,
 </paragraph>
 <paragraph blockId="35.[151,406,1159,1219]" box="[151,386,1194,1219]" pageId="35" pageNumber="36">
 (
-<figureCitation box="[158,255,1194,1219]" captionStart="FIGURE 8" captionStartId="11.[151,250,1736,1758]" captionText="FIGURE 8. ♂ U. lata head and mesonotum dorsal." pageId="35" pageNumber="36">
+<figureCitation box="[158,255,1194,1219]" captionStart="FIGURE 8" captionStartId="11.[151,250,1736,1758]" captionTargetId="figure@11.[358,1228,1060,1715]" captionTargetPageId="11" captionText="FIGURE 8. ♂ U. lata head and mesonotum dorsal." pageId="35" pageNumber="36">
 Figure 
 <number box="[240,255,1195,1219]" pageId="35" pageNumber="36" value="8.0">8</number>
 </figureCitation>
@@ -75,6 +78,7 @@ Loew,
 <typeStatus box="[151,210,1333,1358]" pageId="35" pageNumber="36">Type</typeStatus>
 material examined.
 </emphasis>
+<materialsCitation pageId="35" pageNumber="36">
 <typeStatus box="[466,626,1334,1358]" pageId="35" pageNumber="36">LECTOTYPE</typeStatus>
 <emphasis bold="true" box="[636,828,1333,1358]" pageId="35" pageNumber="36">here designated</emphasis>
 ; 
@@ -91,7 +95,9 @@ material examined.
 </typeStatus>
 / Zool. Mus. Berlin [♂ in 
 <collectionCode box="[430,517,1370,1393]" pageId="35" pageNumber="36">ZMHB</collectionCode>
+</materialsCitation>
 ]; 
+<materialsCitation pageId="35" pageNumber="36">
 <typeStatus box="[536,787,1370,1394]" pageId="35" pageNumber="36">PARALECTOTYPES</typeStatus>
 ; 
 <collectingCountry box="[799,883,1369,1394]" name="Greece" pageId="35" pageNumber="36">
@@ -113,7 +119,10 @@ material examined.
 <number box="[339,355,1405,1430]" pageId="35" pageNumber="36" value="5.0">5</number>
 ♀ in 
 <collectionCode box="[406,493,1406,1429]" pageId="35" pageNumber="36">ZMHB</collectionCode>
-]; Makri Mai [
+</materialsCitation>
+]; 
+<materialsCitation pageId="35" pageNumber="36">
+Makri Mai [
 <number box="[645,672,1406,1430]" pageId="35" pageNumber="36" value="18.0">18</number>
 ] 
 <number box="[679,710,1406,1430]" pageId="35" pageNumber="36" value="42.0">42</number>
@@ -129,13 +138,21 @@ m/
 </typeStatus>
 / Zool. Mus. Berlin [♂ in 
 <collectionCode box="[180,267,1442,1465]" pageId="35" pageNumber="36">ZMHB</collectionCode>
-]; [small blue square]/ Coll. H. Loew/ 
+]
+</materialsCitation>
+; [
+<materialsCitation box="[291,1299,1441,1466]" pageId="35" pageNumber="36">
+small blue square]/ Coll. H. Loew/ 
 <typeStatus box="[688,751,1442,1465]" pageId="35" pageNumber="36">
 <emphasis box="[688,751,1442,1465]" italics="true" pageId="35" pageNumber="36">Typus</emphasis>
 </typeStatus>
 / Zool. Mus. Berlin [♂♀on same pin, in 
 <collectionCode box="[1204,1291,1442,1465]" pageId="35" pageNumber="36">ZMHB</collectionCode>
-]; [small pink square]/ Coll. H. Loew/ 
+]
+</materialsCitation>
+; 
+<materialsCitation pageId="35" pageNumber="36">
+[small pink square]/ Coll. H. Loew/ 
 <typeStatus box="[435,498,1478,1501]" pageId="35" pageNumber="36">
 <emphasis box="[435,498,1478,1501]" italics="true" pageId="35" pageNumber="36">Typus</emphasis>
 </typeStatus>
@@ -143,7 +160,11 @@ m/
 <number box="[742,760,1478,1502]" pageId="35" pageNumber="36" value="2.0">2</number>
 ♀ in 
 <collectionCode box="[819,906,1478,1501]" pageId="35" pageNumber="36">ZMHB</collectionCode>
-]; Makri Mai [
+]
+</materialsCitation>
+; 
+<materialsCitation pageId="35" pageNumber="36">
+Makri Mai [
 <number box="[1067,1094,1478,1502]" pageId="35" pageNumber="36" value="18.0">18</number>
 ] 
 <number box="[1102,1133,1478,1502]" pageId="35" pageNumber="36" value="42.0">42</number>
@@ -157,7 +178,10 @@ m/
 <typeStatus box="[151,218,1514,1538]" pageId="35" pageNumber="36">Typus</typeStatus>
 / Zool. Mus. Berlin [♀ abdomen and wing glued to separate cards on pin in 
 <collectionCode box="[1058,1145,1514,1537]" pageId="35" pageNumber="36">ZMHB</collectionCode>
-]; Makri Mai [
+];
+</materialsCitation>
+<materialsCitation pageId="35" pageNumber="36">
+Makri Mai [
 <number box="[1295,1322,1514,1538]" pageId="35" pageNumber="36" value="18.0">18</number>
 ] 
 <number box="[1329,1361,1514,1538]" pageId="35" pageNumber="36" value="42.0">42</number>
@@ -178,7 +202,11 @@ det. Becker ♀ [
 <number box="[811,825,1550,1574]" pageId="35" pageNumber="36" value="1.0">1</number>
 ♀ in 
 <collectionCode box="[881,959,1550,1573]" httpUri="http://grbio.org/cool/c7yt-hh77" name="Naturhistorisches Museum, Wien" pageId="35" pageNumber="36">NMW</collectionCode>
-]; Makri, Mai [
+]
+</materialsCitation>
+; 
+<materialsCitation pageId="35" pageNumber="36">
+Makri, Mai [
 <number box="[1120,1147,1550,1574]" pageId="35" pageNumber="36" value="18.0">18</number>
 ] 
 <number box="[1154,1185,1550,1574]" pageId="35" pageNumber="36" value="42.0">42</number>
@@ -207,6 +235,7 @@ coll. Kow. [
 ♀ in 
 <collectionCode box="[1198,1311,1586,1610]" pageId="35" pageNumber="36">OUMNH</collectionCode>
 ].
+</materialsCitation>
 </paragraph>
 <paragraph blockId="35.[151,1436,1333,1970]" pageId="35" pageNumber="36">
 <emphasis bold="true" box="[199,510,1621,1646]" pageId="35" pageNumber="36">Other material examined.</emphasis>
@@ -232,11 +261,15 @@ so a male in good condition was selected from this series as the
 .
 </paragraph>
 <paragraph blockId="35.[151,1436,1333,1970]" pageId="35" pageNumber="36">
+<materialsCitation box="[151,1085,1729,1754]" collectingDate="1997-06-07" elevation="130.0" latitude="40.97139" longitude="25.9" pageId="35" pageNumber="36">
 <emphasis bold="true" box="[151,241,1729,1754]" pageId="35" pageNumber="36">
 <collectingCountry box="[151,236,1729,1754]" name="Greece" pageId="35" pageNumber="36">Greece</collectingCountry>
 ,
 </emphasis>
-Evros, Avas, 
+<collectingMunicipality box="[248,316,1730,1753]" pageId="35" pageNumber="36">Evros</collectingMunicipality>
+, 
+<location LSID="urn:lsid:plazi:treatment:A96887E8FFF6FFB6FF43FB4DFB3F04E6:241E6025FFF6FFB3FE92F908FE7600CC" box="[326,384,1730,1754]" pageId="35" pageNumber="36">Avas</location>
+, 
 <geoCoordinate box="[395,528,1729,1754]" direction="north" orientation="latitude" pageId="35" pageNumber="36" precision="15" value="40.97139">
 N 
 <number box="[417,448,1729,1754]" pageId="35" pageNumber="36" value="40.0">40</number>
@@ -255,196 +288,317 @@ E
 </geoCoordinate>
 <number box="[628,655,1729,1754]" pageId="35" pageNumber="36" value="31.0">31</number>
 ″, 
-<quantity box="[678,745,1730,1754]" metricMagnitude="2" metricUnit="m" metricValue="1.3" pageId="35" pageNumber="36" unit="m" value="130.0">130m</quantity>
+<quantity box="[678,745,1730,1754]" metricMagnitude="2" metricUnit="m" metricValue="1.3" pageId="35" pageNumber="36" unit="m" value="130.0">
+<elevation box="[678,745,1730,1754]" metricMagnitude="2" metricUnit="m" metricValue="1.3" pageId="35" pageNumber="36" unit="m" value="130.0">
+<specimenCount box="[678,745,1730,1754]" pageId="35" pageNumber="36" type="male">130m</specimenCount>
+</elevation>
+</quantity>
 , 
 <date box="[756,893,1730,1754]" pageId="35" pageNumber="36" value="1997-06-07">
+<collectingDate box="[756,893,1730,1754]" pageId="35" pageNumber="36" value="1997-06-07">
 <number box="[756,770,1730,1753]" pageId="35" pageNumber="36" value="7.0">7</number>
 June 1997
+</collectingDate>
 </date>
-, 1♀ (leg. J. Dils); Argolida, Skotini, 
-<geoCoordinate box="[1303,1395,1729,1754]" direction="north" orientation="latitude" pageId="35" pageNumber="36" precision="925" value="37.783333">
+, 
+<specimenCount box="[903,938,1730,1754]" pageId="35" pageNumber="36" type="female">1♀</specimenCount>
+(leg. 
+<collectorName box="[1001,1077,1729,1754]" pageId="35" pageNumber="36">J. Dils</collectorName>
+)
+</materialsCitation>
+; 
+<materialsCitation collectingDate="1997-06-15" elevation="1000.0" latitude="37.783333" longitude="22.433332" pageId="35" pageNumber="36">
+<location LSID="urn:lsid:plazi:treatment:A96887E8FFF6FFB6FF43FB4DFB3F04E6:241E6025FFF6FFB3FB9CF90BFB5800CC" box="[1096,1198,1729,1754]" pageId="35" pageNumber="36">Argolida</location>
+, 
+<location LSID="urn:lsid:plazi:treatment:A96887E8FFF6FFB6FF43FB4DFB3F04E6:241E6025FFF6FFB3FB6DF90BFAFB00CC" box="[1209,1293,1729,1754]" pageId="35" pageNumber="36">Skotini</location>
+, 
+<geoCoordinate box="[1303,1436,1729,1754]" direction="north" orientation="latitude" pageId="35" pageNumber="36" precision="925" value="37.783333">
 N 
 <number box="[1324,1352,1729,1754]" pageId="35" pageNumber="36" value="37.0">37</number>
 ° 
 <number box="[1360,1389,1729,1754]" pageId="35" pageNumber="36" value="47.0">47</number>
-′
-</geoCoordinate>
+′ 
 <number box="[1395,1424,1729,1754]" pageId="35" pageNumber="36" value="50.0">50</number>
-″ 
-<geoCoordinate box="[151,244,1765,1790]" direction="east" orientation="longitude" pageId="35" pageNumber="36" precision="925" value="22.433332">
+″
+</geoCoordinate>
+<geoCoordinate box="[151,284,1765,1790]" direction="east" orientation="longitude" pageId="35" pageNumber="36" precision="925" value="22.433332">
 E 
 <number box="[169,199,1765,1790]" pageId="35" pageNumber="36" value="22.0">22</number>
 ° 
 <number box="[208,238,1765,1790]" pageId="35" pageNumber="36" value="26.0">26</number>
-′
-</geoCoordinate>
+′ 
 <number box="[244,271,1765,1790]" pageId="35" pageNumber="36" value="16.0">16</number>
-″, 
-<quantity box="[296,377,1766,1790]" metricMagnitude="3" metricUnit="m" metricValue="1.0" pageId="35" pageNumber="36" unit="m" value="1000.0">1000m</quantity>
+″
+</geoCoordinate>
+, 
+<quantity box="[296,377,1766,1790]" metricMagnitude="3" metricUnit="m" metricValue="1.0" pageId="35" pageNumber="36" unit="m" value="1000.0">
+<elevation box="[296,377,1766,1790]" metricMagnitude="3" metricUnit="m" metricValue="1.0" pageId="35" pageNumber="36" unit="m" value="1000.0">
+<specimenCount box="[296,377,1766,1790]" pageId="35" pageNumber="36" type="male">1000m</specimenCount>
+</elevation>
+</quantity>
 , 
 <date box="[390,545,1765,1790]" pageId="35" pageNumber="36" value="1997-06-15">
+<collectingDate box="[390,545,1765,1790]" pageId="35" pageNumber="36" value="1997-06-15">
 <number box="[390,418,1765,1790]" pageId="35" pageNumber="36" value="15.0">15</number>
 June 1997
+</collectingDate>
 </date>
 , 
 <specimenCount box="[558,597,1766,1790]" pageId="35" pageNumber="36" type="generic">3♂</specimenCount>
+<specimenCount box="[597,631,1766,1790]" pageId="35" pageNumber="36" type="female">
 <number box="[597,614,1766,1790]" pageId="35" pageNumber="36" value="9.0">9</number>
-♀; Rodopi, Nea Sanda, 
-<geoCoordinate box="[880,972,1765,1790]" direction="north" orientation="latitude" pageId="35" pageNumber="36" precision="925" value="41.116665">
+♀
+</specimenCount>
+</materialsCitation>
+; 
+<materialsCitation collectingDate="1999-06-08" elevation="700.0" latitude="41.116665" longitude="25.883333" pageId="35" pageNumber="36">
+<location LSID="urn:lsid:plazi:treatment:A96887E8FFF6FFB6FF43FB4DFB3F04E6:241E6025FFF6FFB3FD50F92FFD2F00E8" box="[644,729,1765,1790]" pageId="35" pageNumber="36">Rodopi</location>
+, 
+<location LSID="urn:lsid:plazi:treatment:A96887E8FFF6FFB6FF43FB4DFB3F04E6:241E6025FFF6FFB3FD33F92CFC9500E8" box="[743,867,1765,1790]" pageId="35" pageNumber="36">Nea Sanda</location>
+, 
+<geoCoordinate box="[880,1013,1765,1790]" direction="north" orientation="latitude" pageId="35" pageNumber="36" precision="925" value="41.116665">
 N 
 <number box="[902,929,1765,1790]" pageId="35" pageNumber="36" value="41.0">41</number>
-°07′
-</geoCoordinate>
+°07′ 
 <number box="[972,1001,1765,1790]" pageId="35" pageNumber="36" value="26.0">26</number>
-″ 
-<geoCoordinate box="[1022,1112,1765,1790]" direction="east" orientation="longitude" pageId="35" pageNumber="36" precision="925" value="25.883333">
+″
+</geoCoordinate>
+<geoCoordinate box="[1022,1155,1765,1790]" direction="east" orientation="longitude" pageId="35" pageNumber="36" precision="925" value="25.883333">
 E 
 <number box="[1040,1068,1765,1790]" pageId="35" pageNumber="36" value="25.0">25</number>
 ° 
 <number box="[1078,1106,1765,1790]" pageId="35" pageNumber="36" value="53.0">53</number>
-′
-</geoCoordinate>
+′ 
 <number box="[1112,1142,1765,1790]" pageId="35" pageNumber="36" value="54.0">54</number>
-″, 
-<quantity box="[1168,1234,1766,1790]" metricMagnitude="2" metricUnit="m" metricValue="7.0" pageId="35" pageNumber="36" unit="m" value="700.0">700m</quantity>
+″
+</geoCoordinate>
+, 
+<quantity box="[1168,1234,1766,1790]" metricMagnitude="2" metricUnit="m" metricValue="7.0" pageId="35" pageNumber="36" unit="m" value="700.0">
+<elevation box="[1168,1234,1766,1790]" metricMagnitude="2" metricUnit="m" metricValue="7.0" pageId="35" pageNumber="36" unit="m" value="700.0">
+<specimenCount box="[1168,1234,1766,1790]" pageId="35" pageNumber="36" type="male">700m</specimenCount>
+</elevation>
+</quantity>
 , 
 <date box="[1247,1389,1766,1790]" pageId="35" pageNumber="36" value="1999-06-08">
+<collectingDate box="[1247,1389,1766,1790]" pageId="35" pageNumber="36" value="1999-06-08">
 <number box="[1247,1261,1766,1790]" pageId="35" pageNumber="36" value="8.0">8</number>
 June 1999
+</collectingDate>
 </date>
-, 1♀ (leg. J. Dils &amp; J. Faes); Epiro, 
-<quantity box="[552,633,1802,1826]" metricMagnitude="3" metricUnit="m" metricValue="2.0" pageId="35" pageNumber="36" unit="m" value="2000.0">2000m</quantity>
-, Mte Timfi, 
+, 
+<specimenCount box="[1401,1436,1766,1790]" pageId="35" pageNumber="36" type="female">1♀</specimenCount>
+(leg. 
+<collectorName box="[217,439,1801,1826]" pageId="35" pageNumber="36">J. Dils &amp; J. Faes</collectorName>
+)
+</materialsCitation>
+; 
+<materialsCitation collectingDate="1999-05-15" elevation="2000.0" latitude="36.833332" longitude="28.233334" pageId="35" pageNumber="36">
+<location LSID="urn:lsid:plazi:treatment:A96887E8FFF6FFB6FF43FB4DFB3F04E6:241E6025FFF6FFB3FE07F8C3FDE20134" box="[467,532,1801,1826]" pageId="35" pageNumber="36">Epiro</location>
+, 
+<quantity box="[552,633,1802,1826]" metricMagnitude="3" metricUnit="m" metricValue="2.0" pageId="35" pageNumber="36" unit="m" value="2000.0">
+<elevation box="[552,633,1802,1826]" metricMagnitude="3" metricUnit="m" metricValue="2.0" pageId="35" pageNumber="36" unit="m" value="2000.0">
+<specimenCount box="[552,633,1802,1826]" pageId="35" pageNumber="36" type="male">2000m</specimenCount>
+</elevation>
+</quantity>
+, 
+<location LSID="urn:lsid:plazi:treatment:A96887E8FFF6FFB6FF43FB4DFB3F04E6:241E6025FFF6FFB3FD58F8C0FCFD0134" box="[652,779,1801,1826]" pageId="35" pageNumber="36">Mte Timfi</location>
+, 
 <date box="[798,949,1801,1826]" pageId="35" pageNumber="36" value="1982-07-01">
+<collectingDate box="[798,949,1801,1826]" pageId="35" pageNumber="36" value="1982-07-01">
 <number box="[798,812,1802,1826]" pageId="35" pageNumber="36" value="1.0">1</number>
 July 
 <number box="[890,949,1802,1826]" pageId="35" pageNumber="36" value="1982.0">1982</number>
+</collectingDate>
 </date>
-, Osella [♀]. 
+, 
+<location LSID="urn:lsid:plazi:treatment:A96887E8FFF6FFB6FF43FB4DFB3F04E6:241E6025FFF6FFB3FC1CF8C3FBE60134" box="[968,1040,1801,1826]" pageId="35" pageNumber="36">Osella</location>
+[
+<specimenCount box="[1066,1087,1802,1825]" pageId="35" pageNumber="36" type="female">♀</specimenCount>
+]. 
 <collectingCountry box="[1117,1201,1801,1826]" name="Turkey" pageId="35" pageNumber="36">
 <emphasis bold="true" box="[1117,1201,1801,1826]" pageId="35" pageNumber="36">Turkey</emphasis>
 </collectingCountry>
-, Mulga, Marmaris, 
-<geoCoordinate box="[151,243,1837,1862]" direction="north" orientation="latitude" pageId="35" pageNumber="36" precision="925" value="36.833332">
+, 
+<location LSID="urn:lsid:plazi:treatment:A96887E8FFF6FFB6FF43FB4DFB3F04E6:241E6025FFF6FFB3FB1CF8C3FAE20134" box="[1224,1300,1801,1826]" pageId="35" pageNumber="36">Mulga</location>
+, 
+<location LSID="urn:lsid:plazi:treatment:A96887E8FFF6FFB6FF43FB4DFB3F04E6:241E6025FFF6FFB3FAFCF8C3FA6E0134" box="[1320,1432,1801,1826]" pageId="35" pageNumber="36">Marmaris</location>
+, 
+<geoCoordinate box="[151,305,1837,1862]" direction="north" orientation="latitude" pageId="35" pageNumber="36" precision="925" value="36.833332">
 N 
 <number box="[172,200,1837,1862]" pageId="35" pageNumber="36" value="36.0">36</number>
 ° 
 <number box="[208,237,1837,1862]" pageId="35" pageNumber="36" value="50.0">50</number>
-′
-</geoCoordinate>
+′ 
 <number box="[243,293,1837,1862]" pageId="35" pageNumber="36" value="51.3">51.3</number>
-″ 
-<geoCoordinate box="[314,403,1837,1862]" direction="east" orientation="longitude" pageId="35" pageNumber="36" precision="925" value="28.233334">
+″
+</geoCoordinate>
+<geoCoordinate box="[314,468,1837,1862]" direction="east" orientation="longitude" pageId="35" pageNumber="36" precision="925" value="28.233334">
 E 
 <number box="[332,361,1837,1862]" pageId="35" pageNumber="36" value="28.0">28</number>
 ° 
 <number box="[370,397,1837,1862]" pageId="35" pageNumber="36" value="14.0">14</number>
-′
-</geoCoordinate>
+′ 
 <number box="[403,455,1837,1862]" pageId="35" pageNumber="36" value="34.2">34.2</number>
-″, 
-<quantity box="[481,533,1837,1862]" metricMagnitude="1" metricUnit="m" metricValue="5.0" pageId="35" pageNumber="36" unit="m" value="50.0">50m</quantity>
+″
+</geoCoordinate>
+, 
+<quantity box="[481,533,1837,1862]" metricMagnitude="1" metricUnit="m" metricValue="5.0" pageId="35" pageNumber="36" unit="m" value="50.0">
+<elevation box="[481,533,1837,1862]" metricMagnitude="1" metricUnit="m" metricValue="5.0" pageId="35" pageNumber="36" unit="m" value="50.0">
+<specimenCount box="[481,533,1837,1862]" pageId="35" pageNumber="36" type="male">50m</specimenCount>
+</elevation>
+</quantity>
 , 
 <date box="[547,704,1837,1862]" pageId="35" pageNumber="36" value="1999-05-15">
+<collectingDate box="[547,704,1837,1862]" pageId="35" pageNumber="36" value="1999-05-15">
 <number box="[547,575,1837,1862]" pageId="35" pageNumber="36" value="15.0">15</number>
 May 1999
+</collectingDate>
 </date>
 , 
 <specimenCount box="[717,753,1838,1862]" pageId="35" pageNumber="36" type="generic">1♂</specimenCount>
+<specimenCount box="[754,789,1838,1862]" pageId="35" pageNumber="36" type="female">
 <number box="[754,771,1838,1862]" pageId="35" pageNumber="36" value="7.0">7</number>
-♀; Tokat, Sarigöl, 
-<geoCoordinate box="[980,1071,1837,1862]" direction="north" orientation="latitude" pageId="35" pageNumber="36" precision="925" value="38.183334">
+♀
+</specimenCount>
+</materialsCitation>
+; 
+<materialsCitation collectingDate="1999-06-10" elevation="650.0" latitude="38.183334" longitude="28.683332" pageId="35" pageNumber="36">
+<location LSID="urn:lsid:plazi:treatment:A96887E8FFF6FFB6FF43FB4DFB3F04E6:241E6025FFF6FFB3FCF0F8E7FC900150" box="[804,870,1837,1862]" pageId="35" pageNumber="36">Tokat</location>
+, 
+<location LSID="urn:lsid:plazi:treatment:A96887E8FFF6FFB6FF43FB4DFB3F04E6:241E6025FFF6FFB3FCA7F8E7FC300150" box="[883,966,1837,1862]" pageId="35" pageNumber="36">Sarigöl</location>
+, 
+<geoCoordinate box="[980,1113,1837,1862]" direction="north" orientation="latitude" pageId="35" pageNumber="36" precision="925" value="38.183334">
 N 
 <number box="[1002,1030,1837,1862]" pageId="35" pageNumber="36" value="38.0">38</number>
 ° 
 <number box="[1040,1065,1837,1862]" pageId="35" pageNumber="36" value="11.0">11</number>
-′
+′05″
 </geoCoordinate>
-05″ 
-<geoCoordinate box="[1121,1212,1837,1862]" direction="east" orientation="longitude" pageId="35" pageNumber="36" precision="925" value="28.683332">
+<geoCoordinate box="[1121,1255,1837,1862]" direction="east" orientation="longitude" pageId="35" pageNumber="36" precision="925" value="28.683332">
 E 
 <number box="[1140,1169,1837,1862]" pageId="35" pageNumber="36" value="28.0">28</number>
 ° 
 <number box="[1178,1206,1837,1862]" pageId="35" pageNumber="36" value="41.0">41</number>
-′
+′04″
 </geoCoordinate>
-04″, 
-<quantity box="[1268,1334,1837,1862]" metricMagnitude="2" metricUnit="m" metricValue="6.5" pageId="35" pageNumber="36" unit="m" value="650.0">650m</quantity>
+, 
+<quantity box="[1268,1334,1837,1862]" metricMagnitude="2" metricUnit="m" metricValue="6.5" pageId="35" pageNumber="36" unit="m" value="650.0">
+<elevation box="[1268,1334,1837,1862]" metricMagnitude="2" metricUnit="m" metricValue="6.5" pageId="35" pageNumber="36" unit="m" value="650.0">
+<specimenCount box="[1268,1334,1837,1862]" pageId="35" pageNumber="36" type="male">650m</specimenCount>
+</elevation>
+</quantity>
 , 
 <date pageId="35" pageNumber="36" value="1999-06-10">
+<collectingDate pageId="35" pageNumber="36" value="1999-06-10">
 <number box="[1348,1376,1838,1862]" pageId="35" pageNumber="36" value="10.0">10</number>
 June 1999
+</collectingDate>
 </date>
-, 1♀; Mulģa, Reşadiye Yarimadasi, 
-<geoCoordinate box="[608,699,1873,1898]" direction="north" orientation="latitude" pageId="35" pageNumber="36" precision="925" value="36.683334">
+, 
+<specimenCount box="[221,257,1874,1898]" pageId="35" pageNumber="36" type="female">1♀</specimenCount>
+</materialsCitation>
+; 
+<materialsCitation box="[271,1239,1873,1898]" collectingDate="2001-04-26" elevation="130.0" latitude="36.683334" longitude="27.433332" pageId="35" pageNumber="36">
+<location LSID="urn:lsid:plazi:treatment:A96887E8FFF6FFB6FF43FB4DFB3F04E6:241E6025FFF6FFB3FEDBF89BFEAD017C" box="[271,347,1873,1898]" pageId="35" pageNumber="36">Mulģa</location>
+, 
+<location LSID="urn:lsid:plazi:treatment:A96887E8FFF6FFB6FF43FB4DFB3F04E6:241E6025FFF6FFB3FEB2F89BFDA3017C" box="[358,597,1873,1898]" pageId="35" pageNumber="36">Reşadiye Yarimadasi</location>
+, 
+<geoCoordinate box="[608,739,1873,1898]" direction="north" orientation="latitude" pageId="35" pageNumber="36" precision="925" value="36.683334">
 N 
 <number box="[629,657,1873,1898]" pageId="35" pageNumber="36" value="36.0">36</number>
 º 
 <number box="[666,693,1873,1898]" pageId="35" pageNumber="36" value="41.0">41</number>
-′
+′09″
 </geoCoordinate>
-09″ 
-<geoCoordinate box="[746,836,1873,1898]" direction="east" orientation="longitude" pageId="35" pageNumber="36" precision="925" value="27.433332">
+<geoCoordinate box="[746,877,1873,1898]" direction="east" orientation="longitude" pageId="35" pageNumber="36" precision="925" value="27.433332">
 E 
 <number box="[764,792,1873,1898]" pageId="35" pageNumber="36" value="27.0">27</number>
 º 
 <number box="[801,830,1873,1898]" pageId="35" pageNumber="36" value="26.0">26</number>
-′
-</geoCoordinate>
+′ 
 <number box="[836,864,1873,1898]" pageId="35" pageNumber="36" value="36.0">36</number>
-″, 
-<quantity box="[888,955,1874,1898]" metricMagnitude="2" metricUnit="m" metricValue="1.3" pageId="35" pageNumber="36" unit="m" value="130.0">130m</quantity>
+″
+</geoCoordinate>
+, 
+<quantity box="[888,955,1874,1898]" metricMagnitude="2" metricUnit="m" metricValue="1.3" pageId="35" pageNumber="36" unit="m" value="130.0">
+<elevation box="[888,955,1874,1898]" metricMagnitude="2" metricUnit="m" metricValue="1.3" pageId="35" pageNumber="36" unit="m" value="130.0">
+<specimenCount box="[888,955,1874,1898]" pageId="35" pageNumber="36" type="male">130m</specimenCount>
+</elevation>
+</quantity>
 , 
 <date box="[966,1127,1873,1898]" pageId="35" pageNumber="36" value="2001-04-26">
+<collectingDate box="[966,1127,1873,1898]" pageId="35" pageNumber="36" value="2001-04-26">
 <number box="[966,994,1873,1898]" pageId="35" pageNumber="36" value="26.0">26</number>
 April 2001
+</collectingDate>
 </date>
 , 
 <specimenCount box="[1138,1192,1873,1898]" pageId="35" pageNumber="36" type="generic">19♂</specimenCount>
+<specimenCount box="[1192,1239,1873,1898]" pageId="35" pageNumber="36" type="female">
 <number box="[1192,1223,1873,1898]" pageId="35" pageNumber="36" value="16.0">16</number>
-♀; Kayseri, Erciyes Geçidi, 
-<geoCoordinate box="[239,330,1909,1934]" direction="north" orientation="latitude" pageId="35" pageNumber="36" precision="925" value="38.6">
+♀
+</specimenCount>
+</materialsCitation>
+; 
+<materialsCitation collectingDate="2004-07-04" elevation="1870.0" latitude="38.6" longitude="35.516666" pageId="35" pageNumber="36">
+<location LSID="urn:lsid:plazi:treatment:A96887E8FFF6FFB6FF43FB4DFB3F04E6:241E6025FFF6FFB3FB37F89BFACB017C" box="[1251,1341,1873,1898]" pageId="35" pageNumber="36">Kayseri</location>
+, 
+<location LSID="urn:lsid:plazi:treatment:A96887E8FFF6FFB6FF43FB4DFB3F04E6:241E6025FFF6FFB3FA9CF89BFF130198" pageId="35" pageNumber="36">Erciyes Geçidi</location>
+, 
+<geoCoordinate box="[239,394,1909,1934]" direction="north" orientation="latitude" pageId="35" pageNumber="36" precision="925" value="38.6">
 N 
 <number box="[260,287,1909,1934]" pageId="35" pageNumber="36" value="38.0">38</number>
 ° 
 <number box="[296,324,1909,1934]" pageId="35" pageNumber="36" value="36.0">36</number>
-′
-</geoCoordinate>
+′ 
 <number box="[331,382,1909,1934]" pageId="35" pageNumber="36" value="43.7">43.7</number>
-″ 
-<geoCoordinate box="[401,490,1909,1934]" direction="east" orientation="longitude" pageId="35" pageNumber="36" precision="925" value="35.516666">
+″
+</geoCoordinate>
+<geoCoordinate box="[401,541,1909,1934]" direction="east" orientation="longitude" pageId="35" pageNumber="36" precision="925" value="35.516666">
 E 
 <number box="[419,447,1909,1934]" pageId="35" pageNumber="36" value="35.0">35</number>
 ° 
 <number box="[457,484,1909,1934]" pageId="35" pageNumber="36" value="31.0">31</number>
-′
-</geoCoordinate>
+′ 
 <number box="[490,527,1909,1934]" pageId="35" pageNumber="36" value="7.8">7.8</number>
-″, 
-<quantity box="[552,632,1910,1934]" metricMagnitude="3" metricUnit="m" metricValue="1.8699999999999999" pageId="35" pageNumber="36" unit="m" value="1870.0">1870m</quantity>
+″
+</geoCoordinate>
+, 
+<quantity box="[552,632,1910,1934]" metricMagnitude="3" metricUnit="m" metricValue="1.8699999999999999" pageId="35" pageNumber="36" unit="m" value="1870.0">
+<elevation box="[552,632,1910,1934]" metricMagnitude="3" metricUnit="m" metricValue="1.8699999999999999" pageId="35" pageNumber="36" unit="m" value="1870.0">
+<specimenCount box="[552,632,1910,1934]" pageId="35" pageNumber="36" type="male">1870m</specimenCount>
+</elevation>
+</quantity>
 , 
 <date box="[644,777,1909,1934]" pageId="35" pageNumber="36" value="2004-07-04">
+<collectingDate box="[644,777,1909,1934]" pageId="35" pageNumber="36" value="2004-07-04">
 <number box="[644,658,1910,1934]" pageId="35" pageNumber="36" value="4.0">4</number>
 July 2004
+</collectingDate>
 </date>
 , 
 <specimenCount box="[788,843,1910,1934]" pageId="35" pageNumber="36" type="generic">12♂</specimenCount>
+<specimenCount box="[842,873,1910,1934]" pageId="35" pageNumber="36" type="female">
 <number box="[842,856,1910,1934]" pageId="35" pageNumber="36" value="8.0">8</number>
-♀ (leg. J. Dils &amp; J. Faes) (
+♀
+</specimenCount>
+(leg. 
+<collectorName box="[937,1122,1909,1934]" pageId="35" pageNumber="36">J. Dils &amp; J. Faes</collectorName>
+) (
 <collectionCode box="[1145,1216,1910,1934]" pageId="35" pageNumber="36">PCJD</collectionCode>
 ).
+</materialsCitation>
 </paragraph>
 </subSubSection>
-<subSubSection lastPageId="36" lastPageNumber="37" pageId="35" pageNumber="36" type="etymology">
+<subSubSection box="[199,1214,1945,1970]" pageId="35" pageNumber="36" type="etymology">
 <paragraph blockId="35.[151,1436,1333,1970]" box="[199,1214,1945,1970]" pageId="35" pageNumber="36">
 <emphasis bold="true" box="[199,334,1945,1970]" pageId="35" pageNumber="36">Etymology.</emphasis>
 From the latin for “wide”, probably referring to the relatively broad abdomen.
 </paragraph>
+</subSubSection>
+<caption pageId="36" pageNumber="37" startId="36.[151,234,1967,1989]" targetBox="[202,1387,201,1933]" targetPageId="36">
 <paragraph blockId="36.[151,1435,1967,2020]" pageId="36" pageNumber="37">
-<emphasis bold="true" box="[151,290,1967,1989]" pageId="36" pageNumber="37">
-<collectionCode box="[151,234,1967,1989]" pageId="36" pageNumber="37">PLATE</collectionCode>
-VII.
-</emphasis>
+<emphasis bold="true" box="[151,290,1967,1989]" pageId="36" pageNumber="37">PLATE VII.</emphasis>
 <taxonomicName authority="Loew, 1846" authorityName="Loew" authorityYear="1846" box="[301,523,1967,1990]" class="Insecta" family="Bombyliidae" genus="Usia" kingdom="Animalia" order="Diptera" pageId="36" pageNumber="37" phylum="Arthropoda" rank="species" species="lata">
 <emphasis box="[301,394,1967,1990]" italics="true" pageId="36" pageNumber="37">Usia lata</emphasis>
 Loew, 
@@ -468,7 +622,7 @@ female sternite
 <number box="[1223,1236,1998,2020]" pageId="36" pageNumber="37" value="8.0">8</number>
 ventral.
 </paragraph>
-</subSubSection>
+</caption>
 <subSubSection pageId="37" pageNumber="38" type="diagnosis">
 <paragraph blockId="37.[151,1437,151,2013]" pageId="37" pageNumber="38">
 <emphasis bold="true" box="[199,321,151,176]" pageId="37" pageNumber="38">Diagnosis.</emphasis>
@@ -509,7 +663,7 @@ Measurements.
 ) or very short, on disc shorter than distance between punctures, hairs only visible under high magnification (
 <collectingCountry box="[158,242,1268,1293]" name="Turkey" pageId="37" pageNumber="38">Turkey</collectingCountry>
 ) (
-<figureCitation box="[268,370,1268,1293]" captionStart="FIGURE 8" captionStartId="11.[151,250,1736,1758]" captionText="FIGURE 8. ♂ U. lata head and mesonotum dorsal." pageId="37" pageNumber="38">
+<figureCitation box="[268,370,1268,1293]" captionStart="FIGURE 8" captionStartId="11.[151,250,1736,1758]" captionTargetId="figure@11.[358,1228,1060,1715]" captionTargetPageId="11" captionText="FIGURE 8. ♂ U. lata head and mesonotum dorsal." pageId="37" pageNumber="38">
 Figure 
 <number box="[354,370,1268,1292]" pageId="37" pageNumber="38" value="8.0">8</number>
 </figureCitation>
