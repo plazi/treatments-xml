@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6135832" ID-GBIF-Dataset="86799ab1-401c-405c-9122-a1e96d72fc0e" ID-GBIF-Taxon="127613854" ID-ISSN="1175-5326" ID-Zenodo-Dep="6135832" ID-ZooBank="E5F8C489-37F4-4A76-8E25-EFC65CDCA1D7" checkinTime="1460424227695" checkinUser="plazi" docAuthor="Klopfstein, Seraina" docDate="2014" docId="C1225000FFC7FF83B5BDA2E8FC52FAC4" docLanguage="en" docName="zt03801p143.pdf" docOrigin="Zootaxa 3801 (1)" docStyle="DocumentStylede.uka.ipd.idaho.easyIO.settings.Settings@77e6d936" docStyleName="zootaxa.2013.monograph" docTitle="Syrphophilus tricinctorius" docType="treatment" docVersion="7" lastPageNumber="103" masterDocId="3D1B2878FFA1FFE5B52AA37CFFA8FFBF" masterDocTitle="Revision of the Western Palaearctic Diplazontinae (Hymenoptera, Ichneumonidae)" masterLastPageNumber="143" masterPageNumber="1" pageId="102" pageNumber="103" updateTime="1645174799413" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6135832" ID-GBIF-Dataset="86799ab1-401c-405c-9122-a1e96d72fc0e" ID-GBIF-Taxon="127613854" ID-ISSN="1175-5326" ID-Zenodo-Dep="6135832" ID-ZooBank="E5F8C489-37F4-4A76-8E25-EFC65CDCA1D7" approvalRequired="485" approvalRequired_for_taxonomicNames="141" approvalRequired_for_treatments="344" checkinTime="1460424227695" checkinUser="plazi" docAuthor="Klopfstein, Seraina" docDate="2014" docId="C1225000FFC7FF83B5BDA2E8FC52FAC4" docLanguage="en" docName="zt03801p143.pdf" docOrigin="Zootaxa 3801 (1)" docStyle="DocumentStyle:5EBBA59367AD13919D70D935FA04F6A3.10:Zootaxa.2013-.monograph" docStyleId="5EBBA59367AD13919D70D935FA04F6A3" docStyleName="Zootaxa.2013-.monograph" docStyleVersion="10" docTitle="Syrphophilus tricinctorius" docType="treatment" docVersion="10" lastPageNumber="103" masterDocId="3D1B2878FFA1FFE5B52AA37CFFA8FFBF" masterDocTitle="Revision of the Western Palaearctic Diplazontinae (Hymenoptera, Ichneumonidae)" masterLastPageNumber="143" masterPageNumber="1" pageId="102" pageNumber="103" updateTime="1648149078887" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Revision of the Western Palaearctic Diplazontinae (Hymenoptera, Ichneumonidae)</mods:title>
@@ -16,6 +16,9 @@
 </mods:titleInfo>
 <mods:part>
 <mods:date>2014</mods:date>
+<mods:detail type="pubDate">
+<mods:number>2014-05-22</mods:number>
+</mods:detail>
 <mods:detail type="volume">
 <mods:number>3801</mods:number>
 </mods:detail>
@@ -40,11 +43,10 @@
 <paragraph blockId="102.[151,840,404,430]" box="[151,840,404,430]" pageId="102" pageNumber="103">
 <heading bold="true" box="[151,840,404,430]" fontSize="11" level="1" pageId="102" pageNumber="103" reason="1">
 <emphasis bold="true" box="[151,840,404,430]" pageId="102" pageNumber="103">
-<taxonomicName box="[151,467,404,430]" class="Insecta" family="Ichneumonidae" genus="Syrphophilus" kingdom="Animalia" order="Hymenoptera" pageId="102" pageNumber="103" phylum="Arthropoda" rank="species" species="tricinctorius">
+<taxonomicName box="[151,677,404,430]" class="Insecta" family="Ichneumonidae" genus="Syrphophilus" kingdom="Animalia" order="Hymenoptera" pageId="102" pageNumber="103" phylum="Arthropoda" rank="species" species="tricinctorius">
 <emphasis bold="true" box="[151,467,404,430]" italics="true" pageId="102" pageNumber="103">Syrphophilus tricinctorius</emphasis>
-</taxonomicName>
 (
-<bibRefCitation author="Thunberg" box="[483,831,404,430]" pageId="102" pageNumber="103" refString="Thunberg, C. P. (1824) Ichneumonidea, Insecta Hymenoptera illustrata. Memoires de l'Academie Imperiale des Sciences de Saint Petersbourg, 9, 285 - 368." type="journal article" year="1824">
+<bibRefCitation author="Thunberg, C. P." box="[483,831,404,430]" journalOrPublisher="Memoires de l'Academie Imperiale des Sciences de Saint Petersbourg" pageId="102" pageNumber="103" pagination="285 - 368" part="9" refId="ref120518" refString="Thunberg, C. P. (1824) Ichneumonidea, Insecta Hymenoptera illustrata. Memoires de l'Academie Imperiale des Sciences de Saint Petersbourg, 9, 285 - 368." title="Ichneumonidea, Insecta Hymenoptera illustrata" type="journal article" year="1824">
 Thunberg 
 <number box="[617,677,404,430]" pageId="102" pageNumber="103" value="1824.0">1824</number>
 , 
@@ -52,6 +54,7 @@ Thunberg
 <emphasis bold="true" box="[691,831,404,430]" italics="true" pageId="102" pageNumber="103">Ichneumon</emphasis>
 </taxonomicName>
 </bibRefCitation>
+</taxonomicName>
 )
 </emphasis>
 </heading>
@@ -61,44 +64,52 @@ Thunberg
 <paragraph blockId="102.[151,523,474,650]" box="[151,487,474,496]" pageId="102" pageNumber="103">
 <taxonomicName authority="Gravenhorst 1829" authorityName="Gravenhorst" authorityYear="1829" box="[151,487,474,496]" class="Insecta" family="Braconidae" genus="Bassus" kingdom="Animalia" order="Hymenoptera" pageId="102" pageNumber="103" phylum="Arthropoda" rank="species" species="cinctus">
 <emphasis box="[151,300,475,496]" italics="true" pageId="102" pageNumber="103">Bassus cinctus</emphasis>
-<bibRefCitation author="Gravenhorst" box="[305,487,474,496]" pageId="102" pageNumber="103" refString="Gravenhorst, J. L. C. (1829) Ichneumonologia Europaea. Pars III. Sumtibus auctoris, Vratislaviae, 1097 pp." type="book" year="1829">
+<bibRefCitation author="Gravenhorst, J. L. C." bookContentInfo="1097 pp." box="[305,487,474,496]" firstAuthor="Gravenhorst" journalOrPublisher="Sumtibus auctoris, Vratislaviae" pageId="102" pageNumber="103" part="III" refId="ref116023" refString="Gravenhorst, J. L. C. (1829) Ichneumonologia Europaea. Pars III. Sumtibus auctoris, Vratislaviae, 1097 pp." title="Ichneumonologia Europaea" type="book" year="1829">
 Gravenhorst 
 <number box="[436,487,474,496]" pageId="102" pageNumber="103" value="1829.0">1829</number>
 </bibRefCitation>
 </taxonomicName>
 </paragraph>
-<paragraph blockId="102.[151,523,474,650]" pageId="102" pageNumber="103">
+<paragraph blockId="102.[151,523,474,650]" box="[151,501,505,527]" pageId="102" pageNumber="103">
 <taxonomicName authority="Gravenhorst 1829" authorityName="Gravenhorst" authorityYear="1829" box="[151,501,505,527]" class="Insecta" family="Braconidae" genus="Bassus" kingdom="Animalia" order="Hymenoptera" pageId="102" pageNumber="103" phylum="Arthropoda" rank="species" species="lateralis">
 <emphasis box="[151,312,505,527]" italics="true" pageId="102" pageNumber="103">Bassus lateralis</emphasis>
-<bibRefCitation author="Gravenhorst" box="[318,501,505,527]" pageId="102" pageNumber="103" refString="Gravenhorst, J. L. C. (1829) Ichneumonologia Europaea. Pars III. Sumtibus auctoris, Vratislaviae, 1097 pp." type="book" year="1829">
+<bibRefCitation author="Gravenhorst, J. L. C." bookContentInfo="1097 pp." box="[318,501,505,527]" firstAuthor="Gravenhorst" journalOrPublisher="Sumtibus auctoris, Vratislaviae" pageId="102" pageNumber="103" part="III" refId="ref116023" refString="Gravenhorst, J. L. C. (1829) Ichneumonologia Europaea. Pars III. Sumtibus auctoris, Vratislaviae, 1097 pp." title="Ichneumonologia Europaea" type="book" year="1829">
 Gravenhorst 
 <number box="[450,501,505,527]" pageId="102" pageNumber="103" value="1829.0">1829</number>
 </bibRefCitation>
 </taxonomicName>
+</paragraph>
+<paragraph blockId="102.[151,523,474,650]" box="[151,507,536,558]" pageId="102" pageNumber="103">
 <taxonomicName authority="Desvignes 1862" authorityName="Desvignes" authorityYear="1862" box="[151,507,536,558]" class="Insecta" family="Braconidae" genus="Bassus" kingdom="Animalia" order="Hymenoptera" pageId="102" pageNumber="103" phylum="Arthropoda" rank="species" species="albicinctus">
 <emphasis box="[151,339,536,558]" italics="true" pageId="102" pageNumber="103">Bassus albicinctus</emphasis>
-<bibRefCitation author="Desvignes" box="[345,507,536,558]" pageId="102" pageNumber="103" refString="Desvignes, T. (1862) Description of new species of the genus Bassus. Transactions of the Entomological Society of London, 3 (1), 215 - 222. http: // dx. doi. org / 10.1111 / j. 1365 - 2311.1862. tb 00598. x" type="journal article" year="1862">
+<bibRefCitation author="Desvignes, T." box="[345,507,536,558]" firstAuthor="Desvignes" journalOrPublisher="Transactions of the Entomological Society of London" pageId="102" pageNumber="103" pagination="215 - 222" part="3" refId="ref114694" refString="Desvignes, T. (1862) Description of new species of the genus Bassus. Transactions of the Entomological Society of London, 3 (1), 215 - 222." title="Description of new species of the genus Bassus" type="journal article" year="1862">
 Desvignes 
 <number box="[456,507,536,558]" pageId="102" pageNumber="103" value="1862.0">1862</number>
 </bibRefCitation>
 </taxonomicName>
+</paragraph>
+<paragraph blockId="102.[151,523,474,650]" box="[151,515,566,589]" pageId="102" pageNumber="103">
 <taxonomicName authority="Provancher 1883" authorityName="Provancher" authorityYear="1883" box="[151,515,566,589]" class="Insecta" family="Braconidae" genus="Bassus" kingdom="Animalia" order="Hymenoptera" pageId="102" pageNumber="103" phylum="Arthropoda" rank="species" species="scapulatus">
 <emphasis box="[151,336,566,589]" italics="true" pageId="102" pageNumber="103">Bassus scapulatus</emphasis>
-<bibRefCitation author="Provancher" box="[342,515,566,588]" pageId="102" pageNumber="103" refString="Provancher, L. (1883) Faune Canadienne. Hymenopteres. Additions et corrections. Naturaliste Canadien, 14, 3 - 20." type="journal article" year="1883">
+<bibRefCitation author="Provancher, L." box="[342,515,566,588]" firstAuthor="Provancher" journalOrPublisher="Naturaliste Canadien" pageId="102" pageNumber="103" pagination="3 - 20" part="14" refId="ref118646" refString="Provancher, L. (1883) Faune Canadienne. Hymenopteres. Additions et corrections. Naturaliste Canadien, 14, 3 - 20." title="Faune Canadienne. Hymenopteres. Additions et corrections" type="journal article" year="1883">
 Provancher 
 <number box="[464,515,566,588]" pageId="102" pageNumber="103" value="1883.0">1883</number>
 </bibRefCitation>
 </taxonomicName>
+</paragraph>
+<paragraph blockId="102.[151,523,474,650]" box="[151,523,597,619]" pageId="102" pageNumber="103">
 <taxonomicName authority="Uchida 1930" authorityName="Uchida" authorityYear="1930" box="[151,523,597,619]" class="Insecta" family="Ichneumonidae" genus="Homocidus" higherTaxonomySource="GBIF" kingdom="Animalia" order="Hymenoptera" pageId="102" pageNumber="103" phylum="Arthropoda" rank="species" species="takaozanus">
 <emphasis box="[151,386,597,619]" italics="true" pageId="102" pageNumber="103">Homocidus takaozanus</emphasis>
-<bibRefCitation author="Uchida" box="[393,523,597,619]" pageId="102" pageNumber="103" refString="Uchida, T. (1930) Vierter Beitrag zur Ichneumoniden-Fauna Japans. Journal of the Faculty of Agriculture, Hokkaido University, 25, 243 - 298." type="journal article" year="1930">
+<bibRefCitation author="Uchida, T." box="[393,523,597,619]" firstAuthor="Uchida" journalOrPublisher="Journal of the Faculty of Agriculture, Hokkaido University" pageId="102" pageNumber="103" pagination="243 - 298" part="25" refId="ref120746" refString="Uchida, T. (1930) Vierter Beitrag zur Ichneumoniden-Fauna Japans. Journal of the Faculty of Agriculture, Hokkaido University, 25, 243 - 298." title="Vierter Beitrag zur Ichneumoniden-Fauna Japans" type="journal article" year="1930">
 Uchida 
 <number box="[472,523,597,619]" pageId="102" pageNumber="103" value="1930.0">1930</number>
 </bibRefCitation>
 </taxonomicName>
+</paragraph>
+<paragraph blockId="102.[151,523,474,650]" box="[151,493,628,650]" pageId="102" pageNumber="103">
 <taxonomicName authority="Dasch 1964" authorityName="Dasch" authorityYear="1964" box="[151,493,628,650]" class="Insecta" family="Ichneumonidae" genus="Syrphophilus" kingdom="Animalia" order="Hymenoptera" pageId="102" pageNumber="103" phylum="Arthropoda" rank="species" species="niveus">
 <emphasis box="[151,356,628,650]" italics="true" pageId="102" pageNumber="103">Syrphophilus niveus</emphasis>
-<bibRefCitation author="Dasch" box="[362,493,628,650]" pageId="102" pageNumber="103" refString="Dasch, C. E. (1964 a) Ichneumon-flies of America north of Mexico 5: Subfamily Diplazontinae. Memoirs of the American Entomological Institute, 3, 1 - 304." type="journal article" year="1964" yearSuffix="a">
+<bibRefCitation author="Dasch, C. E." box="[362,493,628,650]" firstAuthor="Dasch" journalOrPublisher="Memoirs of the American Entomological Institute" pageId="102" pageNumber="103" pagination="1 - 304" part="3" refId="ref114528" refString="Dasch, C. E. (1964 a) Ichneumon-flies of America north of Mexico 5: Subfamily Diplazontinae. Memoirs of the American Entomological Institute, 3, 1 - 304." title="Ichneumon-flies of America north of Mexico 5: Subfamily Diplazontinae" type="journal article" year="1964" yearSuffix="a">
 Dasch 
 <number box="[431,482,628,650]" pageId="102" pageNumber="103" value="1964.0">1964</number>
 a
@@ -137,6 +148,7 @@ or
 <subSubSection pageId="102" pageNumber="103" type="materials_examined">
 <paragraph blockId="102.[151,1437,694,1403]" box="[199,1313,1234,1259]" pageId="102" pageNumber="103">
 <emphasis bold="true" box="[199,432,1234,1259]" pageId="102" pageNumber="103">Material examined.</emphasis>
+<materialsCitation box="[439,1313,1234,1259]" collectionCode="UU" country="Sweden" location="Uppsala" pageId="102" pageNumber="103" specimenCount="1" typeStatus="holotype">
 <typeStatus box="[439,543,1234,1259]" pageId="102" pageNumber="103">Holotype</typeStatus>
 of 
 <taxonomicName authority="Thunberg" authorityName="Thunberg" box="[580,970,1234,1259]" class="Insecta" family="Eulophidae" genus="Ichneumon" kingdom="Animalia" order="Hymenoptera" pageId="102" pageNumber="103" phylum="Arthropoda" rank="species" species="tricinctorius">
@@ -145,12 +157,17 @@ Thunberg
 </taxonomicName>
 : 
 <collectingCountry box="[980,1072,1234,1259]" name="Sweden" pageId="102" pageNumber="103">Sweden</collectingCountry>
-, Uppsala. 
+, 
+<location LSID="urn:lsid:plazi:treatment:C1225000FFC7FF83B5BDA2E8FC52FAC4:4C54B7CDFFC7FF83B111A7AEFB32FB54" box="[1083,1178,1234,1259]" country="Sweden" name="Uppsala" pageId="102" pageNumber="103">Uppsala</location>
+. 
 <specimenCount box="[1189,1225,1235,1259]" pageId="102" pageNumber="103" type="generic">
 <number box="[1189,1200,1235,1259]" pageId="102" pageNumber="103" value="1.0">1</number>
 ♂
 </specimenCount>
-, at UU.
+, at 
+<collectionCode box="[1265,1309,1235,1258]" pageId="102" pageNumber="103">UU</collectionCode>
+.
+</materialsCitation>
 </paragraph>
 <paragraph blockId="102.[151,1437,694,1403]" pageId="102" pageNumber="103">
 <collectingCountry box="[199,285,1270,1295]" name="Finland" pageId="102" pageNumber="103">Finland</collectingCountry>
@@ -200,9 +217,13 @@ Fig.
 <number box="[487,514,1379,1403]" pageId="102" pageNumber="103" value="14.0">14</number>
 A
 </figureCitation>
-), sternaulus (Fig. 
+), sternaulus (
+<figureCitation box="[687,789,1378,1403]" captionStart="FIGURE 25" captionStartId="99.[151,250,1425,1447]" captionTargetBox="[187,1387,190,1396]" captionTargetId="figure@99.[153,1438,171,1410]" captionTargetPageId="99" captionText="FIGURE 25. Sternaulus in Syrphophilus. A. Syrphophilus bizonarius with a very deeply impressed sternaulus. B. Syrphophilus tricinctorius with the sternaulus distinct but less deeply impressed. Scale bars represent 500 µm." pageId="102" pageNumber="103">
+Fig. 
 <number box="[740,770,1378,1403]" pageId="102" pageNumber="103" value="25.0">25</number>
-B), habitus (
+B
+</figureCitation>
+), habitus (
 <figureCitation box="[906,988,1378,1403]" captionStart="FIGURE 33" captionStartId="119.[151,250,1612,1634]" captionTargetBox="[188,1398,196,1590]" captionTargetId="figure@119.[188,1398,193,1590]" captionTargetPageId="119" captionText="FIGURE 33. Habitus of Diplazontinae species. A. Promethes bridgmani. B. Promethes melanaspis. C. Promethes sulcator. D. Sussaba aciculata. E. Sussaba cognata. F. Sussaba erigator." httpUri="https://zenodo.org/record/249975/files/figure.png" pageId="102" pageNumber="103">
 Fig. 
 <number box="[958,988,1379,1403]" pageId="102" pageNumber="103" value="33.0">33</number>

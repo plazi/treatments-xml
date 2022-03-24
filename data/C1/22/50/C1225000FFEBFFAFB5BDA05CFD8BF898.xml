@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6135744" ID-GBIF-Dataset="86799ab1-401c-405c-9122-a1e96d72fc0e" ID-GBIF-Taxon="127613789" ID-ISSN="1175-5326" ID-Zenodo-Dep="6135744" ID-ZooBank="E5F8C489-37F4-4A76-8E25-EFC65CDCA1D7" checkinTime="1460424227695" checkinUser="plazi" docAuthor="Klopfstein, Seraina" docDate="2014" docId="C1225000FFEBFFAFB5BDA05CFD8BF898" docLanguage="en" docName="zt03801p143.pdf" docOrigin="Zootaxa 3801 (1)" docStyle="DocumentStylede.uka.ipd.idaho.easyIO.settings.Settings@77e6d936" docStyleName="zootaxa.2013.monograph" docTitle="Homotropus venustus Dasch 1964" docType="treatment" docVersion="7" lastPageNumber="75" masterDocId="3D1B2878FFA1FFE5B52AA37CFFA8FFBF" masterDocTitle="Revision of the Western Palaearctic Diplazontinae (Hymenoptera, Ichneumonidae)" masterLastPageNumber="143" masterPageNumber="1" pageId="74" pageNumber="75" updateTime="1645174799413" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6135744" ID-GBIF-Dataset="86799ab1-401c-405c-9122-a1e96d72fc0e" ID-GBIF-Taxon="127613789" ID-ISSN="1175-5326" ID-Zenodo-Dep="6135744" ID-ZooBank="E5F8C489-37F4-4A76-8E25-EFC65CDCA1D7" approvalRequired="485" approvalRequired_for_taxonomicNames="141" approvalRequired_for_treatments="344" checkinTime="1460424227695" checkinUser="plazi" docAuthor="Klopfstein, Seraina" docDate="2014" docId="C1225000FFEBFFAFB5BDA05CFD8BF898" docLanguage="en" docName="zt03801p143.pdf" docOrigin="Zootaxa 3801 (1)" docStyle="DocumentStyle:5EBBA59367AD13919D70D935FA04F6A3.10:Zootaxa.2013-.monograph" docStyleId="5EBBA59367AD13919D70D935FA04F6A3" docStyleName="Zootaxa.2013-.monograph" docStyleVersion="10" docTitle="Homotropus venustus Dasch 1964" docType="treatment" docVersion="11" lastPageNumber="75" masterDocId="3D1B2878FFA1FFE5B52AA37CFFA8FFBF" masterDocTitle="Revision of the Western Palaearctic Diplazontinae (Hymenoptera, Ichneumonidae)" masterLastPageNumber="143" masterPageNumber="1" pageId="74" pageNumber="75" updateTime="1648149078887" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Revision of the Western Palaearctic Diplazontinae (Hymenoptera, Ichneumonidae)</mods:title>
@@ -16,6 +16,9 @@
 </mods:titleInfo>
 <mods:part>
 <mods:date>2014</mods:date>
+<mods:detail type="pubDate">
+<mods:number>2014-05-22</mods:number>
+</mods:detail>
 <mods:detail type="volume">
 <mods:number>3801</mods:number>
 </mods:detail>
@@ -42,7 +45,7 @@
 <taxonomicName authority="Dasch 1964" authorityName="Dasch" authorityYear="1964" box="[151,580,800,826]" class="Insecta" family="Hymenoptera" genus="Homotropus" higherTaxonomySource="GBIF" kingdom="Animalia" order="Hymenoptera" pageId="74" pageNumber="75" phylum="Arthropoda" rank="species" species="venustus">
 <emphasis bold="true" box="[151,580,800,826]" pageId="74" pageNumber="75">
 <emphasis bold="true" box="[151,416,800,826]" italics="true" pageId="74" pageNumber="75">Homotropus venustus</emphasis>
-<bibRefCitation author="Dasch" box="[423,580,800,826]" pageId="74" pageNumber="75" refString="Dasch, C. E. (1964 a) Ichneumon-flies of America north of Mexico 5: Subfamily Diplazontinae. Memoirs of the American Entomological Institute, 3, 1 - 304." type="journal article" year="1964" yearSuffix="a">
+<bibRefCitation author="Dasch, C. E." box="[423,580,800,826]" firstAuthor="Dasch" journalOrPublisher="Memoirs of the American Entomological Institute" pageId="74" pageNumber="75" pagination="1 - 304" part="3" refId="ref114528" refString="Dasch, C. E. (1964 a) Ichneumon-flies of America north of Mexico 5: Subfamily Diplazontinae. Memoirs of the American Entomological Institute, 3, 1 - 304." title="Ichneumon-flies of America north of Mexico 5: Subfamily Diplazontinae" type="journal article" year="1964" yearSuffix="a">
 Dasch 
 <number box="[507,566,800,826]" pageId="74" pageNumber="75" value="1964.0">1964</number>
 a
@@ -91,6 +94,7 @@ As in females but additionally with yellow along inner orbits and with large cen
 <subSubSection pageId="74" pageNumber="75" type="materials_examined">
 <paragraph blockId="74.[151,1437,870,1831]" pageId="74" pageNumber="75">
 <emphasis bold="true" box="[199,437,1590,1615]" pageId="74" pageNumber="75">Material examined.</emphasis>
+<materialsCitation ID-GBIF-Occurrence="3714223449" collectingDate="1930-10-23" collectionCode="USNM" country="United States of America" location="Hollister" municipality="Idaho" pageId="74" pageNumber="75" specimenCount="1" specimenCount-female="1" typeStatus="holotype">
 <typeStatus box="[449,553,1590,1615]" pageId="74" pageNumber="75">Holotype</typeStatus>
 of 
 <taxonomicName authority="Dasch" authorityName="Dasch" box="[601,934,1590,1615]" class="Insecta" family="Hymenoptera" genus="Homotropus" higherTaxonomySource="GBIF" kingdom="Animalia" order="Hymenoptera" pageId="74" pageNumber="75" phylum="Arthropoda" rank="species" species="venustus">
@@ -99,15 +103,25 @@ Dasch
 </taxonomicName>
 : 
 <collectingCountry box="[950,1009,1591,1615]" name="United States of America" pageId="74" pageNumber="75">USA</collectingCountry>
-, Idaho, Hollister, 
+, 
+<collectingMunicipality box="[1026,1093,1590,1615]" pageId="74" pageNumber="75">Idaho</collectingMunicipality>
+, 
+<location LSID="urn:lsid:plazi:treatment:C1225000FFEBFFAFB5BDA05CFD8BF898:4C54B7CDFFEBFFAFB17EA54AFB10F9F0" box="[1108,1208,1590,1615]" country="United States of America" municipality="Idaho" name="Hollister" pageId="74" pageNumber="75">Hollister</location>
+, 
 <date box="[1224,1346,1591,1615]" pageId="74" pageNumber="75" value="1930-10-23">
+<collectingDate box="[1224,1346,1591,1615]" pageId="74" pageNumber="75" value="1930-10-23">
 <number box="[1224,1254,1591,1615]" pageId="74" pageNumber="75" value="23.0">23</number>
 .X. 
 <number box="[1284,1346,1591,1615]" pageId="74" pageNumber="75" value="1930.1">1930</number>
+</collectingDate>
 </date>
-. 1♀, at 
-<collectionCode LSID="urn:lsid:biocol.org:col:34871" box="[151,236,1627,1651]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34871" name="Smithsonian Institution, National Museum of Natural History" pageId="74" pageNumber="75">USNM</collectionCode>
 . 
+<specimenCount box="[1362,1397,1591,1615]" pageId="74" pageNumber="75" type="female">1♀</specimenCount>
+, at 
+<collectionCode LSID="urn:lsid:biocol.org:col:34871" box="[151,236,1627,1651]" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34871" name="Smithsonian Institution, National Museum of Natural History" pageId="74" pageNumber="75">USNM</collectionCode>
+.
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3714223391" box="[246,1293,1626,1651]" pageId="74" pageNumber="75">
 <typeStatus box="[246,348,1627,1651]" pageId="74" pageNumber="75">Paratype</typeStatus>
 : 
 <collectingCountry box="[358,417,1627,1651]" name="United States of America" pageId="74" pageNumber="75">USA</collectingCountry>
@@ -122,9 +136,11 @@ Dasch
 , at 
 <collectionCode box="[1239,1289,1627,1651]" httpUri="http://grbio.org/cool/rn7d-z1r2" name="American Entomological Institute" pageId="74" pageNumber="75">AEI</collectionCode>
 .
+</materialsCitation>
 </paragraph>
 <paragraph blockId="74.[151,1437,870,1831]" box="[199,1309,1662,1687]" pageId="74" pageNumber="75">
 New for 
+<materialsCitation ID-GBIF-Occurrence="3714223398" box="[298,1309,1662,1687]" pageId="74" pageNumber="75">
 <collectingCountry box="[298,382,1662,1687]" name="Turkey" pageId="74" pageNumber="75">Turkey</collectingCountry>
 : Hakkari, 
 <quantity box="[497,568,1662,1687]" metricMagnitude="4" metricUnit="m" metricValue="1.0" pageId="74" pageNumber="75" unit="km" value="10.0">10 km</quantity>
@@ -139,9 +155,11 @@ NE Oramar,
 . 1♀, at 
 <collectionCode box="[1244,1305,1663,1687]" httpUri="http://grbio.org/cool/4b7r-7sec" name="Bavarian State Collection of Zoology" pageId="74" pageNumber="75">ZSM</collectionCode>
 .
+</materialsCitation>
 </paragraph>
 <paragraph blockId="74.[151,1437,870,1831]" pageId="74" pageNumber="75">
 <emphasis bold="true" box="[199,443,1698,1723]" pageId="74" pageNumber="75">Additional material.</emphasis>
+<materialsCitation ID-GBIF-Occurrence="3714223378" pageId="74" pageNumber="75">
 <collectingCountry box="[452,565,1698,1723]" name="Mongolia" pageId="74" pageNumber="75">Mongolia</collectingCountry>
 : Central aimak; South East of Somon Bajanzogt; 
 <quantity box="[1135,1224,1698,1723]" metricMagnitude="3" metricUnit="m" metricValue="1.6" pageId="74" pageNumber="75" unit="m" value="1600.0">1600 m</quantity>
@@ -153,7 +171,10 @@ NE Oramar,
 </date>
 . 
 <specimenCount box="[291,328,1734,1759]" pageId="74" pageNumber="75" type="generic">5♂</specimenCount>
-, at TMA. 
+, at TMA
+</materialsCitation>
+. 
+<materialsCitation ID-GBIF-Occurrence="3714223327" box="[444,1372,1734,1759]" pageId="74" pageNumber="75">
 <collectingCountry box="[444,523,1734,1759]" name="Russia" pageId="74" pageNumber="75">Russia</collectingCountry>
 : East Siberia, 
 <quantity box="[681,753,1734,1759]" metricMagnitude="4" metricUnit="m" metricValue="1.0" pageId="74" pageNumber="75" unit="km" value="10.0">10 km</quantity>
@@ -165,7 +186,9 @@ East of Irukutsk, leg. Berlov,
 </date>
 . 
 <specimenCount box="[1249,1285,1735,1759]" pageId="74" pageNumber="75" type="generic">1♂</specimenCount>
-, at MR.
+, at MR
+</materialsCitation>
+.
 </paragraph>
 </subSubSection>
 <subSubSection pageId="74" pageNumber="75" type="distribution">

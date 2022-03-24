@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6135742" ID-GBIF-Dataset="86799ab1-401c-405c-9122-a1e96d72fc0e" ID-GBIF-Taxon="127613786" ID-ISSN="1175-5326" ID-Zenodo-Dep="6135742" ID-ZooBank="E5F8C489-37F4-4A76-8E25-EFC65CDCA1D7" checkinTime="1460424227695" checkinUser="plazi" docAuthor="Klopfstein, Seraina" docDate="2014" docId="C1225000FFE8FFAFB5BDA5BDFDE4FD72" docLanguage="en" docName="zt03801p143.pdf" docOrigin="Zootaxa 3801 (1)" docStyle="DocumentStylede.uka.ipd.idaho.easyIO.settings.Settings@77e6d936" docStyleName="zootaxa.2013.monograph" docTitle="Homotropus tauriscorum Strobl 1903" docType="treatment" docVersion="7" lastPageId="74" lastPageNumber="75" masterDocId="3D1B2878FFA1FFE5B52AA37CFFA8FFBF" masterDocTitle="Revision of the Western Palaearctic Diplazontinae (Hymenoptera, Ichneumonidae)" masterLastPageNumber="143" masterPageNumber="1" pageId="73" pageNumber="74" updateTime="1645174799413" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6135742" ID-GBIF-Dataset="86799ab1-401c-405c-9122-a1e96d72fc0e" ID-GBIF-Taxon="127613786" ID-ISSN="1175-5326" ID-Zenodo-Dep="6135742" ID-ZooBank="E5F8C489-37F4-4A76-8E25-EFC65CDCA1D7" approvalRequired="485" approvalRequired_for_taxonomicNames="141" approvalRequired_for_treatments="344" checkinTime="1460424227695" checkinUser="plazi" docAuthor="Klopfstein, Seraina" docDate="2014" docId="C1225000FFE8FFAFB5BDA5BDFDE4FD72" docLanguage="en" docName="zt03801p143.pdf" docOrigin="Zootaxa 3801 (1)" docStyle="DocumentStyle:5EBBA59367AD13919D70D935FA04F6A3.10:Zootaxa.2013-.monograph" docStyleId="5EBBA59367AD13919D70D935FA04F6A3" docStyleName="Zootaxa.2013-.monograph" docStyleVersion="10" docTitle="Homotropus tauriscorum Strobl 1903" docType="treatment" docVersion="11" lastPageId="74" lastPageNumber="75" masterDocId="3D1B2878FFA1FFE5B52AA37CFFA8FFBF" masterDocTitle="Revision of the Western Palaearctic Diplazontinae (Hymenoptera, Ichneumonidae)" masterLastPageNumber="143" masterPageNumber="1" pageId="73" pageNumber="74" updateTime="1648149078887" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Revision of the Western Palaearctic Diplazontinae (Hymenoptera, Ichneumonidae)</mods:title>
@@ -16,6 +16,9 @@
 </mods:titleInfo>
 <mods:part>
 <mods:date>2014</mods:date>
+<mods:detail type="pubDate">
+<mods:number>2014-05-22</mods:number>
+</mods:detail>
 <mods:detail type="volume">
 <mods:number>3801</mods:number>
 </mods:detail>
@@ -42,7 +45,7 @@
 <taxonomicName authority="Strobl 1903" authorityName="Strobl" authorityYear="1903" box="[151,607,1729,1755]" class="Insecta" family="Hymenoptera" genus="Homotropus" higherTaxonomySource="GBIF" kingdom="Animalia" order="Hymenoptera" pageId="73" pageNumber="74" phylum="Arthropoda" rank="species" species="tauriscorum">
 <emphasis bold="true" box="[151,607,1729,1755]" pageId="73" pageNumber="74">
 <emphasis bold="true" box="[151,458,1729,1755]" italics="true" pageId="73" pageNumber="74">Homotropus tauriscorum</emphasis>
-<bibRefCitation author="Strobl" box="[465,607,1729,1755]" pageId="73" pageNumber="74" refString="Strobl, G. (1903) Ichneumoniden Steiermarks (und der Nachbarlander). Mitteilungen des Naturwissenschaftlichen Vereines fur Steiermark, Graz, 39 (3), 3 - 100." type="journal article" year="1903">
+<bibRefCitation author="Strobl, G." box="[465,607,1729,1755]" firstAuthor="Strobl" journalOrPublisher="Mitteilungen des Naturwissenschaftlichen Vereines fur Steiermark, Graz" pageId="73" pageNumber="74" pagination="3 - 100" part="39" refId="ref120176" refString="Strobl, G. (1903) Ichneumoniden Steiermarks (und der Nachbarlander). Mitteilungen des Naturwissenschaftlichen Vereines fur Steiermark, Graz, 39 (3), 3 - 100." title="Ichneumoniden Steiermarks (und der Nachbarlander)" type="journal article" year="1903">
 Strobl 
 <number box="[548,607,1729,1755]" pageId="73" pageNumber="74" value="1903.0">1903</number>
 </bibRefCitation>
@@ -95,6 +98,7 @@ As in females but additionally with yellow over entire face, scape and pedicel v
 <paragraph blockId="74.[151,1437,151,717]" pageId="74" pageNumber="75">
 <emphasis bold="true" box="[199,435,620,645]" pageId="74" pageNumber="75">Material examined.</emphasis>
 New for 
+<materialsCitation ID-GBIF-Occurrence="3714223437" box="[548,1437,620,645]" latitude="45.0225" longitude="6.2142" pageId="74" pageNumber="75">
 <collectingCountry box="[548,629,621,644]" name="France" pageId="74" pageNumber="75">France</collectingCountry>
 : Col du Lautaret, 
 <geoCoordinate box="[838,953,620,645]" direction="north" orientation="latitude" pageId="74" pageNumber="75" precision="5" value="45.0225">
@@ -115,7 +119,10 @@ N
 <number box="[1290,1304,620,644]" pageId="74" pageNumber="75" value="1.0">1</number>
 ♀, at 
 <collectionCode box="[1371,1432,620,644]" httpUri="http://grbio.org/cool/4b7r-7sec" name="Bavarian State Collection of Zoology" pageId="74" pageNumber="75">ZSM</collectionCode>
-. New for 
+.
+</materialsCitation>
+New for 
+<materialsCitation ID-GBIF-Occurrence="3714223304" box="[250,1227,655,680]" pageId="74" pageNumber="75">
 <collectingCountry box="[250,306,655,680]" name="Italy" pageId="74" pageNumber="75">Italy</collectingCountry>
 : Südtirol, Ahrntal, St. Peter, 
 <quantity box="[628,709,656,680]" metricMagnitude="3" metricUnit="m" metricValue="2.2" pageId="74" pageNumber="75" unit="m" value="2200.0">2200m</quantity>
@@ -130,6 +137,7 @@ N
 , at 
 <collectionCode box="[1162,1223,656,680]" httpUri="http://grbio.org/cool/4b7r-7sec" name="Bavarian State Collection of Zoology" pageId="74" pageNumber="75">ZSM</collectionCode>
 .
+</materialsCitation>
 </paragraph>
 </subSubSection>
 <subSubSection box="[199,588,692,717]" pageId="74" pageNumber="75" type="distribution">

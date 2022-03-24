@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6135680" ID-GBIF-Dataset="86799ab1-401c-405c-9122-a1e96d72fc0e" ID-GBIF-Taxon="119428139" ID-ISSN="1175-5326" ID-Zenodo-Dep="6135680" ID-ZooBank="E5F8C489-37F4-4A76-8E25-EFC65CDCA1D7" checkinTime="1460424227695" checkinUser="plazi" docAuthor="Klopfstein, Seraina" docDate="2014" docId="C1225000FF95FFD1B5BDA134FBE7F995" docLanguage="en" docName="zt03801p143.pdf" docOrigin="Zootaxa 3801 (1)" docStyle="DocumentStylede.uka.ipd.idaho.easyIO.settings.Settings@77e6d936" docStyleName="zootaxa.2013.monograph" docTitle="Enizemum tridentatum Dasch 1964" docType="treatment" docVersion="7" lastPageNumber="53" masterDocId="3D1B2878FFA1FFE5B52AA37CFFA8FFBF" masterDocTitle="Revision of the Western Palaearctic Diplazontinae (Hymenoptera, Ichneumonidae)" masterLastPageNumber="143" masterPageNumber="1" pageId="52" pageNumber="53" updateTime="1645174799413" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6135680" ID-GBIF-Dataset="86799ab1-401c-405c-9122-a1e96d72fc0e" ID-GBIF-Taxon="119428139" ID-ISSN="1175-5326" ID-Zenodo-Dep="6135680" ID-ZooBank="E5F8C489-37F4-4A76-8E25-EFC65CDCA1D7" approvalRequired="485" approvalRequired_for_taxonomicNames="141" approvalRequired_for_treatments="344" checkinTime="1460424227695" checkinUser="plazi" docAuthor="Klopfstein, Seraina" docDate="2014" docId="C1225000FF95FFD1B5BDA134FBE7F995" docLanguage="en" docName="zt03801p143.pdf" docOrigin="Zootaxa 3801 (1)" docStyle="DocumentStyle:5EBBA59367AD13919D70D935FA04F6A3.10:Zootaxa.2013-.monograph" docStyleId="5EBBA59367AD13919D70D935FA04F6A3" docStyleName="Zootaxa.2013-.monograph" docStyleVersion="10" docTitle="Enizemum tridentatum Dasch 1964" docType="treatment" docVersion="11" lastPageNumber="53" masterDocId="3D1B2878FFA1FFE5B52AA37CFFA8FFBF" masterDocTitle="Revision of the Western Palaearctic Diplazontinae (Hymenoptera, Ichneumonidae)" masterLastPageNumber="143" masterPageNumber="1" pageId="52" pageNumber="53" updateTime="1648149078887" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Revision of the Western Palaearctic Diplazontinae (Hymenoptera, Ichneumonidae)</mods:title>
@@ -16,6 +16,9 @@
 </mods:titleInfo>
 <mods:part>
 <mods:date>2014</mods:date>
+<mods:detail type="pubDate">
+<mods:number>2014-05-22</mods:number>
+</mods:detail>
 <mods:detail type="volume">
 <mods:number>3801</mods:number>
 </mods:detail>
@@ -42,7 +45,7 @@
 <taxonomicName authority="Dasch 1964" authorityName="Dasch" authorityYear="1964" box="[151,593,584,610]" class="Insecta" family="Ichneumonidae" genus="Enizemum" kingdom="Animalia" order="Hymenoptera" pageId="52" pageNumber="53" phylum="Arthropoda" rank="species" species="tridentatum">
 <emphasis bold="true" box="[151,593,584,610]" pageId="52" pageNumber="53">
 <emphasis bold="true" box="[151,430,584,610]" italics="true" pageId="52" pageNumber="53">Enizemum tridentatum</emphasis>
-<bibRefCitation author="Dasch" box="[436,593,584,610]" pageId="52" pageNumber="53" refString="Dasch, C. E. (1964 a) Ichneumon-flies of America north of Mexico 5: Subfamily Diplazontinae. Memoirs of the American Entomological Institute, 3, 1 - 304." type="journal article" year="1964" yearSuffix="a">
+<bibRefCitation author="Dasch, C. E." box="[436,593,584,610]" firstAuthor="Dasch" journalOrPublisher="Memoirs of the American Entomological Institute" pageId="52" pageNumber="53" pagination="1 - 304" part="3" refId="ref114528" refString="Dasch, C. E. (1964 a) Ichneumon-flies of America north of Mexico 5: Subfamily Diplazontinae. Memoirs of the American Entomological Institute, 3, 1 - 304." title="Ichneumon-flies of America north of Mexico 5: Subfamily Diplazontinae" type="journal article" year="1964" yearSuffix="a">
 Dasch 
 <number box="[520,579,584,610]" pageId="52" pageNumber="53" value="1964.0">1964</number>
 a
@@ -106,6 +109,7 @@ tibia often with basal white marking extended to more than half the length of th
 <paragraph blockId="52.[151,1437,654,1579]" pageId="52" pageNumber="53">
 <emphasis bold="true" box="[199,432,1302,1327]" pageId="52" pageNumber="53">Material examined.</emphasis>
 New for 
+<materialsCitation ID-GBIF-Occurrence="3714223344" pageId="52" pageNumber="53">
 <collectingCountry box="[539,686,1302,1327]" name="Tajikistan" pageId="52" pageNumber="53">Tadzhikistan</collectingCountry>
 : E. Peter I Mt region, 
 <quantity box="[934,991,1302,1327]" metricMagnitude="3" metricUnit="m" metricValue="7.0" pageId="52" pageNumber="53" unit="km" value="7.0">7 km</quantity>
@@ -122,10 +126,13 @@ m, leg. Osipov,
 </date>
 . 
 <specimenCount box="[395,431,1339,1363]" pageId="52" pageNumber="53" type="generic">1♂</specimenCount>
-, at MR.
+, at MR
+</materialsCitation>
+.
 </paragraph>
 <paragraph blockId="52.[151,1437,654,1579]" pageId="52" pageNumber="53">
 <emphasis bold="true" box="[199,449,1374,1399]" pageId="52" pageNumber="53">Additional material.</emphasis>
+<materialsCitation ID-GBIF-Occurrence="3714223358" box="[464,1354,1374,1399]" pageId="52" pageNumber="53">
 <collectingCountry box="[464,541,1374,1399]" name="Russia" pageId="52" pageNumber="53">Russia</collectingCountry>
 , Kwak, 
 <quantity box="[650,729,1374,1399]" metricMagnitude="4" metricUnit="m" metricValue="3.5" pageId="52" pageNumber="53" unit="km" value="35.0">35 km</quantity>
@@ -141,7 +148,9 @@ from Stalinabad,
 <specimenCount box="[1201,1238,1375,1399]" pageId="52" pageNumber="53" type="generic">1♂</specimenCount>
 , at 
 <collectionCode box="[1293,1354,1375,1399]" httpUri="http://grbio.org/cool/4b7r-7sec" name="Bavarian State Collection of Zoology" pageId="52" pageNumber="53">ZSM</collectionCode>
+</materialsCitation>
 . 
+<materialsCitation ID-GBIF-Occurrence="3714223411" pageId="52" pageNumber="53">
 <collectingCountry box="[1373,1432,1375,1399]" name="United States of America" pageId="52" pageNumber="53">USA</collectingCountry>
 , Wyoming, Yellowstone NP, 
 <number box="[467,478,1411,1435]" pageId="52" pageNumber="53" value="1.0">1</number>
@@ -153,7 +162,10 @@ N S. Entrance, Malaise trap in heavy burn,
 .VIII. 
 <number box="[1149,1209,1411,1435]" pageId="52" pageNumber="53" value="1990.1">1990</number>
 </date>
-. 1♀, at UWL. 
+. 1♀, at UWL
+</materialsCitation>
+. 
+<materialsCitation ID-GBIF-Occurrence="3714223347" pageId="52" pageNumber="53">
 <collectingCountry box="[1373,1432,1411,1435]" name="United States of America" pageId="52" pageNumber="53">USA</collectingCountry>
 , Maine, Mount Blue, 
 <date box="[401,594,1446,1471]" pageId="52" pageNumber="53" value="1969-09-20" valueMax="1969-10-06" valueMin="1969-09-20">
@@ -165,7 +177,9 @@ N S. Entrance, Malaise trap in heavy burn,
 </date>
 . 1♀, at 
 <collectionCode box="[696,757,1447,1471]" httpUri="http://grbio.org/cool/4b7r-7sec" name="Bavarian State Collection of Zoology" pageId="52" pageNumber="53">ZSM</collectionCode>
+</materialsCitation>
 . 
+<materialsCitation ID-GBIF-Occurrence="3714223373" pageId="52" pageNumber="53">
 <collectingCountry box="[773,832,1447,1471]" name="United States of America" pageId="52" pageNumber="53">USA</collectingCountry>
 , Alaska, Mt. McKinley, 
 <number box="[1128,1189,1447,1471]" pageId="52" pageNumber="53" value="2700.0">2700</number>
@@ -184,6 +198,7 @@ N S. Entrance, Malaise trap in heavy burn,
 , both at 
 <collectionCode box="[625,676,1483,1507]" httpUri="http://grbio.org/cool/rn7d-z1r2" name="American Entomological Institute" pageId="52" pageNumber="53">AEI</collectionCode>
 .
+</materialsCitation>
 </paragraph>
 </subSubSection>
 <subSubSection pageId="52" pageNumber="53" type="distribution">

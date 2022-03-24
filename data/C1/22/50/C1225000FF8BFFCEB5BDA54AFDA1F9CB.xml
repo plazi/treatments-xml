@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6135645" ID-GBIF-Dataset="86799ab1-401c-405c-9122-a1e96d72fc0e" ID-GBIF-Taxon="119428169" ID-ISSN="1175-5326" ID-Zenodo-Dep="6135645" ID-ZooBank="E5F8C489-37F4-4A76-8E25-EFC65CDCA1D7" checkinTime="1460424227695" checkinUser="plazi" docAuthor="Klopfstein, Seraina" docDate="2014" docId="C1225000FF8BFFCEB5BDA54AFDA1F9CB" docLanguage="en" docName="zt03801p143.pdf" docOrigin="Zootaxa 3801 (1)" docStyle="DocumentStylede.uka.ipd.idaho.easyIO.settings.Settings@77e6d936" docStyleName="zootaxa.2013.monograph" docTitle="Diplazon parvus Klopfstein, 2014, sp. nov." docType="treatment" docVersion="7" lastPageId="43" lastPageNumber="44" masterDocId="3D1B2878FFA1FFE5B52AA37CFFA8FFBF" masterDocTitle="Revision of the Western Palaearctic Diplazontinae (Hymenoptera, Ichneumonidae)" masterLastPageNumber="143" masterPageNumber="1" pageId="42" pageNumber="43" updateTime="1645174799413" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6135645" ID-GBIF-Dataset="86799ab1-401c-405c-9122-a1e96d72fc0e" ID-GBIF-Taxon="119428169" ID-ISSN="1175-5326" ID-Zenodo-Dep="6135645" ID-ZooBank="E5F8C489-37F4-4A76-8E25-EFC65CDCA1D7" approvalRequired="485" approvalRequired_for_taxonomicNames="141" approvalRequired_for_treatments="344" checkinTime="1460424227695" checkinUser="plazi" docAuthor="Klopfstein, Seraina" docDate="2014" docId="C1225000FF8BFFCEB5BDA54AFDA1F9CB" docLanguage="en" docName="zt03801p143.pdf" docOrigin="Zootaxa 3801 (1)" docStyle="DocumentStyle:5EBBA59367AD13919D70D935FA04F6A3.10:Zootaxa.2013-.monograph" docStyleId="5EBBA59367AD13919D70D935FA04F6A3" docStyleName="Zootaxa.2013-.monograph" docStyleVersion="10" docTitle="Diplazon parvus Klopfstein, 2014, sp. nov." docType="treatment" docVersion="11" lastPageId="43" lastPageNumber="44" masterDocId="3D1B2878FFA1FFE5B52AA37CFFA8FFBF" masterDocTitle="Revision of the Western Palaearctic Diplazontinae (Hymenoptera, Ichneumonidae)" masterLastPageNumber="143" masterPageNumber="1" pageId="42" pageNumber="43" updateTime="1648149078887" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Revision of the Western Palaearctic Diplazontinae (Hymenoptera, Ichneumonidae)</mods:title>
@@ -16,6 +16,9 @@
 </mods:titleInfo>
 <mods:part>
 <mods:date>2014</mods:date>
+<mods:detail type="pubDate">
+<mods:number>2014-05-22</mods:number>
+</mods:detail>
 <mods:detail type="volume">
 <mods:number>3801</mods:number>
 </mods:detail>
@@ -139,32 +142,50 @@ has a larger impunctate area around the mesopleural fovea and more strongly rugo
 <typeStatus box="[199,258,1159,1184]" pageId="43" pageNumber="44">Type</typeStatus>
 material.
 </emphasis>
+<materialsCitation ID-GBIF-Occurrence="3714223435" collectingDate="2008-06-11" collectingDateMax="2008-06-20" collectingDateMin="2008-06-11" collectingMethod="Malaise trap" collectionCode="NMBE" collectorName="S. Klopfstein" country="Switzerland" determinerName="S. Klopfstein" elevation="550" latitude="46.959667" location="Bremgartenwald" longitude="7.4156666" municipality="Bern" pageId="43" pageNumber="44" specimenCount="1" specimenCount-female="1" typeStatus="holotype">
 <typeStatus box="[388,492,1159,1184]" pageId="43" pageNumber="44">Holotype</typeStatus>
-♀, at 
+<specimenCount box="[503,524,1161,1184]" pageId="43" pageNumber="44" type="female">♀</specimenCount>
+, at 
 <collectionCode box="[573,658,1161,1184]" httpUri="http://grbio.org/cool/5hwi-0wgz" name="Naturhistorisches Museum der Burgergemeinde Bern" pageId="43" pageNumber="44">NMBE</collectionCode>
 : 
 <collectingCountry box="[672,809,1159,1184]" name="Switzerland" pageId="43" pageNumber="44">Switzerland</collectingCountry>
-, Bern, Bremgartenwald, 
-<quantity box="[1101,1168,1159,1184]" metricMagnitude="2" metricUnit="m" metricValue="5.5" pageId="43" pageNumber="44" unit="m" value="550.0">550m</quantity>
-, N 
+, 
+<collectingMunicipality box="[824,881,1161,1184]" pageId="43" pageNumber="44">Bern</collectingMunicipality>
+, 
+<location LSID="urn:lsid:plazi:treatment:C1225000FF8BFFCEB5BDA54AFDA1F9CB:4C54B7CDFF8AFFCEB6AAA7FBFB96FB1F" box="[896,1086,1159,1184]" country="Switzerland" municipality="Bern" name="Bremgartenwald" pageId="43" pageNumber="44">Bremgartenwald</location>
+, 
+<quantity box="[1101,1168,1159,1184]" metricMagnitude="2" metricUnit="m" metricValue="5.5" pageId="43" pageNumber="44" unit="m" value="550.0">
+<elevation box="[1101,1168,1159,1184]" metricMagnitude="2" metricUnit="m" metricValue="5.5" pageId="43" pageNumber="44" unit="m" value="550.0">550m</elevation>
+</quantity>
+, 
+<geoCoordinate box="[1183,1308,1159,1184]" degrees="46" direction="north" minutes="57.58" orientation="latitude" pageId="43" pageNumber="44" precision="9" value="46.959667">
+N 
 <number box="[1204,1233,1159,1184]" pageId="43" pageNumber="44" value="46.0">46</number>
 ° 
 <number box="[1242,1308,1159,1184]" pageId="43" pageNumber="44" value="57.58">57.58</number>
-, E 
+</geoCoordinate>
+, 
+<geoCoordinate box="[1323,1432,1160,1184]" degrees="7" direction="east" minutes="24.94" orientation="longitude" pageId="43" pageNumber="44" precision="9" value="7.4156666">
+E 
 <number box="[1342,1355,1160,1184]" pageId="43" pageNumber="44" value="7.0">7</number>
 ° 
 <number box="[1364,1432,1160,1184]" pageId="43" pageNumber="44" value="24.94">24.94</number>
-, Malaise trap, leg. S.Klopfstein, 
+</geoCoordinate>
+, 
+<collectingMethod box="[151,294,1196,1221]" pageId="43" pageNumber="44">Malaise trap</collectingMethod>
+, leg. 
+<collectorName box="[357,500,1196,1221]" pageId="43" pageNumber="44">S.Klopfstein</collectorName>
+, 
 <date box="[513,709,1196,1220]" pageId="43" pageNumber="44" value="2008-06-11" valueMax="2008-06-20" valueMin="2008-06-11">
+<collectingDate box="[513,709,1196,1220]" pageId="43" pageNumber="44" value="2008-06-11" valueMax="2008-06-20" valueMin="2008-06-11">
 <number box="[513,540,1196,1220]" pageId="43" pageNumber="44" value="11.0">11</number>
 .– 
 <number box="[561,593,1196,1220]" pageId="43" pageNumber="44" value="20.0">20</number>
 . VI. 
 <number box="[650,709,1196,1220]" pageId="43" pageNumber="44" value="2008.0">2008</number>
+</collectingDate>
 </date>
-. Labels: “ 
-<collectingCountry box="[823,863,1196,1220]" name="Switzerland" pageId="43" pageNumber="44">CH</collectingCountry>
-/BE Bern, Bremgarten-; wald, Lichtung, Malaisef A; 
+. Labels: “CH/BE Bern, Bremgarten-; wald, Lichtung, Malaisef A; 
 <number box="[199,290,1231,1256]" pageId="43" pageNumber="44" value="598.25">598.250</number>
 / 
 <number box="[298,389,1231,1256]" pageId="43" pageNumber="44" value="200.95">200.950</number>
@@ -180,66 +201,88 @@ VI.
 _ 
 <number box="[1170,1199,1232,1256]" pageId="43" pageNumber="44" value="44.0">44</number>
 ; label 
-<bibRefCitation author="Klopfstein" pageId="43" pageNumber="44" refString="Steiner, S., Kropf, C., Graber, W., Nentwig, W. &amp; Klopfstein, S. (2010) Antennal courtship and functional morphology of tyloids in the parasitoid wasp Syrphoctonus tarsatorius (Hymenoptera: Ichneumonidae: Diplazontinae). Arthropod Structure &amp; Development, 39 (1), 33 - 40. http: // dx. doi. org / 10.1016 / j. asd. 2009.10.001" type="journal article" year="2010">
+<bibRefCitation author="Klopfstein, S. &amp; Kropf, C. &amp; Quicke, D. L. J." journalOrPublisher="Systematic Biology" pageId="43" pageNumber="44" pagination="226 - 241" part="59" refId="ref117259" refString="Klopfstein, S., Kropf, C. &amp; Quicke, D. L. J. (2010 a) An evaluation of phylogenetic informativeness profiles and the molecular phylogeny of Diplazontinae (Hymenoptera, Ichneumonidae). Systematic Biology, 59 (2), 226 - 241. http: // dx. doi. org / 10.1093 / sysbio / syp 105" title="An evaluation of phylogenetic informativeness profiles and the molecular phylogeny of Diplazontinae (Hymenoptera, Ichneumonidae)" type="journal article" year="2010">
 S.Klopfstein 
 <number box="[151,212,1268,1292]" pageId="43" pageNumber="44" value="2010.0">2010</number>
 </bibRefCitation>
-”, “ 
-<typeStatus box="[252,362,1268,1293]" pageId="43" pageNumber="44">Holotype</typeStatus>
-; 
+”, “Holotype; 
 <taxonomicName box="[382,485,1268,1293]" class="Insecta" family="Ichneumonidae" genus="Diplazon" kingdom="Animalia" order="Hymenoptera" pageId="43" pageNumber="44" phylum="Arthropoda" rank="genus">Diplazon</taxonomicName>
 ♀; 
 <taxonomicName box="[545,620,1269,1292]" class="Insecta" family="Ichneumonidae" genus="Diplazon" kingdom="Animalia" order="Hymenoptera" pageId="43" pageNumber="44" phylum="Arthropoda" rank="species" species="parvus" status="n.sp.">parvus</taxonomicName>
 <taxonomicNameLabel box="[635,691,1269,1292]" pageId="43" pageNumber="44" rank="species">n.sp.</taxonomicNameLabel>
-; det. S.Klopfstein 
+; det. 
+<determinerName box="[769,909,1268,1293]" pageId="43" pageNumber="44">S.Klopfstein</determinerName>
 <number box="[925,986,1268,1292]" pageId="43" pageNumber="44" value="2012.0">2012</number>
-”. 
+”.
+</materialsCitation>
 <typeStatus box="[1016,1129,1269,1293]" pageId="43" pageNumber="44">Paratypes</typeStatus>
-: same as 
-<typeStatus box="[1261,1359,1268,1293]" pageId="43" pageNumber="44">holotype</typeStatus>
+: same as holotype 
+<materialsCitation collectingMethod="Malaise trap" collectionCode="NMBE" collectorName="S. Klopfstein" country="Switzerland" elevation="540" latitude="46.966" location="Bremgartenwald" longLatPrecision="11" longitude="7.4176664" municipality="Bern" pageId="43" pageNumber="44" specimenCount="2" specimenCount-female="2" typeStatus="paratype">
 (
+<specimenCount box="[1385,1420,1268,1292]" pageId="43" pageNumber="44" type="female">
 <number box="[1385,1403,1268,1292]" pageId="43" pageNumber="44" value="2.0">2</number>
-♀); 
+♀
+</specimenCount>
+); 
 <collectingCountry box="[151,288,1303,1328]" name="Switzerland" pageId="43" pageNumber="44">Switzerland</collectingCountry>
-, Bern, Bremgartenwald, Nägelisbode, 
-<quantity box="[731,798,1303,1328]" metricMagnitude="2" metricUnit="m" metricValue="5.4" pageId="43" pageNumber="44" unit="m" value="540.0">540m</quantity>
-, N 
+, 
+<collectingMunicipality box="[301,358,1305,1328]" pageId="43" pageNumber="44">Bern</collectingMunicipality>
+, 
+<location LSID="urn:lsid:plazi:treatment:C1225000FF8BFFCEB5BDA54AFDA1F9CB:4C54B7CDFF8AFFCEB45EA66BFD9AFA8F" box="[372,562,1303,1328]" country="Switzerland" latitude="46.966" longLatPrecision="11" longitude="7.4176664" municipality="Bern" name="Bremgartenwald" pageId="43" pageNumber="44">Bremgartenwald</location>
+, 
+<location LSID="urn:lsid:plazi:treatment:C1225000FF8BFFCEB5BDA54AFDA1F9CB:4C54B7CDFF8AFFCEB715A66BFD66FA8F" box="[575,718,1303,1328]" country="Switzerland" latitude="46.966" longLatPrecision="11" longitude="7.4176664" municipality="Bern" name="Nagelisbode" pageId="43" pageNumber="44">Nägelisbode</location>
+, 
+<quantity box="[731,798,1303,1328]" metricMagnitude="2" metricUnit="m" metricValue="5.4" pageId="43" pageNumber="44" unit="m" value="540.0">
+<elevation box="[731,798,1303,1328]" metricMagnitude="2" metricUnit="m" metricValue="5.4" pageId="43" pageNumber="44" unit="m" value="540.0">540m</elevation>
+</quantity>
+, 
+<geoCoordinate box="[811,936,1303,1328]" degrees="46" direction="north" minutes="57.96" orientation="latitude" pageId="43" pageNumber="44" precision="9" value="46.966">
+N 
 <number box="[832,861,1303,1328]" pageId="43" pageNumber="44" value="46.0">46</number>
 ° 
 <number box="[870,936,1303,1328]" pageId="43" pageNumber="44" value="57.96">57.96</number>
-, E 
+</geoCoordinate>
+, 
+<geoCoordinate box="[950,1059,1303,1328]" degrees="7" direction="east" minutes="25.06" orientation="longitude" pageId="43" pageNumber="44" precision="9" value="7.4176664">
+E 
 <number box="[968,981,1303,1328]" pageId="43" pageNumber="44" value="7.0">7</number>
 ° 
 <number box="[991,1059,1303,1328]" pageId="43" pageNumber="44" value="25.06">25.06</number>
-, Malaise trap, leg. S.Klopfstein: 
-<date box="[151,279,1340,1364]" pageId="43" pageNumber="44">
+</geoCoordinate>
+, 
+<collectingMethod box="[1072,1216,1303,1328]" pageId="43" pageNumber="44">Malaise trap</collectingMethod>
+, leg. 
+<collectorName box="[1281,1421,1303,1328]" pageId="43" pageNumber="44">S.Klopfstein</collectorName>
+</materialsCitation>
+: 
+<materialsCitation box="[151,279,1340,1364]" collectingDateMax="2008-06-20" collectingDateMin="2008-06-11" collectingMethod="Malaise trap" collectionCode="NMBE" collectorName="S. Klopfstein" country="Switzerland" elevation="540" latitude="46.966" location="Bremgartenwald" longLatPrecision="11" longitude="7.4176664" municipality="Bern" pageId="43" pageNumber="44" specimenCount="1" specimenCount-female="1" typeStatus="paratype">
 <number box="[151,177,1340,1364]" pageId="43" pageNumber="44" value="11.0">11</number>
 .– 
 <number box="[198,230,1340,1364]" pageId="43" pageNumber="44" value="20.0">20</number>
 . VI.
-</date>
+</materialsCitation>
 , 
-<date box="[291,420,1340,1364]" pageId="43" pageNumber="44">
+<materialsCitation box="[291,416,1340,1364]" collectingDateMax="2008-06-28" collectingDateMin="2008-06-20" collectingMethod="Malaise trap" collectionCode="NMBE" collectorName="S. Klopfstein" country="Switzerland" elevation="540" latitude="46.966" location="Bremgartenwald" longLatPrecision="11" longitude="7.4176664" municipality="Bern" pageId="43" pageNumber="44" specimenCount="1" specimenCount-female="1" typeStatus="paratype">
 <number box="[291,322,1340,1364]" pageId="43" pageNumber="44" value="20.0">20</number>
 .– 
 <number box="[341,371,1340,1364]" pageId="43" pageNumber="44" value="27.0">27</number>
-. VI.
-</date>
-, 
-<date box="[431,600,1340,1364]" pageId="43" pageNumber="44" value="2008-06" valueMax="2008-07-08" valueMin="2008-06-27">
+. VI
+</materialsCitation>
+., 
+<materialsCitation box="[431,595,1340,1364]" collectingDateMax="2008-07-08" collectingDateMin="2008-06-27" collectingMethod="Malaise trap" collectionCode="NMBE" collectorName="S. Klopfstein" country="Switzerland" elevation="540" latitude="46.966" location="Bremgartenwald" longLatPrecision="11" longitude="7.4176664" municipality="Bern" pageId="43" pageNumber="44" specimenCount="1" specimenCount-female="1" typeStatus="paratype">
 <number box="[431,462,1340,1364]" pageId="43" pageNumber="44" value="27.0">27</number>
 . VI.– 
 <number box="[528,541,1340,1364]" pageId="43" pageNumber="44" value="8.0">8</number>
-. VII.
-</date>
-, 
-<date box="[611,787,1340,1365]" pageId="43" pageNumber="44" value="2008-09-03" valueMax="2008-09-15" valueMin="2008-09-03">
+. VII
+</materialsCitation>
+., 
+<materialsCitation box="[611,787,1340,1365]" collectingDateMax="2008-09-15" collectingDateMin="2008-09-03" collectingMethod="Malaise trap" collectionCode="NMBE" collectorName="S. Klopfstein" country="Switzerland" elevation="540" latitude="46.966" location="Bremgartenwald" longLatPrecision="11" longitude="7.4176664" municipality="Bern" pageId="43" pageNumber="44" specimenCount="1" specimenCount-female="1" typeStatus="paratype">
 <number box="[611,625,1340,1365]" pageId="43" pageNumber="44" value="3.0">3</number>
 .– 
 <number box="[647,677,1340,1365]" pageId="43" pageNumber="44" value="15.0">15</number>
 . IX. 
 <number box="[731,787,1340,1364]" pageId="43" pageNumber="44" value="2008.0">2008</number>
-</date>
+</materialsCitation>
 (
 <number box="[805,818,1340,1364]" pageId="43" pageNumber="44" value="1.0">1</number>
 ♀ each), all at 
@@ -249,18 +292,32 @@ S.Klopfstein
 <paragraph blockId="43.[151,1437,151,1653]" pageId="43" pageNumber="44">
 <emphasis bold="true" box="[199,441,1412,1437]" pageId="43" pageNumber="44">Additional material.</emphasis>
 New for 
+<materialsCitation ID-GBIF-Occurrence="3714223349" collectingDate="2006-09-01" collectingDateMax="2006-09-19" collectingDateMin="2006-09-01" collectionCode="NMBE" collectorName="R. R. Askew" country="France" location="St. Marcel du Perigord" municipality="Dordogne" pageId="43" pageNumber="44" specimenCount="1" specimenCount-female="1">
 <collectingCountry box="[546,627,1413,1436]" name="France" pageId="43" pageNumber="44">France</collectingCountry>
-: Dordogne, St. Marcel du Perigord, leg. R.R.Askew, 
+: 
+<collectingMunicipality box="[637,752,1412,1437]" pageId="43" pageNumber="44">Dordogne</collectingMunicipality>
+, 
+<location LSID="urn:lsid:plazi:treatment:C1225000FF8BFFCEB5BDA54AFDA1F9CB:4C54B7CDFF8AFFCEB7D0A6F8FC53FA22" box="[762,1019,1412,1437]" country="France" municipality="Dordogne" name="St. Marcel du Perigord" pageId="43" pageNumber="44">St. Marcel du Perigord</location>
+, leg. 
+<collectorName box="[1077,1207,1412,1437]" pageId="43" pageNumber="44">R.R.Askew</collectorName>
+, 
 <date box="[1218,1383,1412,1437]" pageId="43" pageNumber="44" value="2006-09-01" valueMax="2006-09-19" valueMin="2006-09-01">
+<collectingDate box="[1218,1383,1412,1437]" pageId="43" pageNumber="44" value="2006-09-01" valueMax="2006-09-19" valueMin="2006-09-01">
 <number box="[1218,1228,1412,1437]" pageId="43" pageNumber="44" value="1.0">1</number>
 .– 
 <number box="[1248,1277,1412,1437]" pageId="43" pageNumber="44" value="19.0">19</number>
 .IX. 
 <number box="[1318,1383,1412,1437]" pageId="43" pageNumber="44" value="2006.1">2006</number>
+</collectingDate>
 </date>
-. 1♀, at 
+. 
+<specimenCount box="[1394,1429,1412,1436]" pageId="43" pageNumber="44" type="female">1♀</specimenCount>
+, at 
 <collectionCode box="[180,265,1449,1472]" httpUri="http://grbio.org/cool/5hwi-0wgz" name="Naturhistorisches Museum der Burgergemeinde Bern" pageId="43" pageNumber="44">NMBE</collectionCode>
-. New for 
+.
+</materialsCitation>
+New for 
+<materialsCitation ID-GBIF-Occurrence="3714223400" box="[382,1247,1447,1472]" pageId="43" pageNumber="44">
 <collectingCountry box="[382,461,1447,1472]" name="Russia" pageId="43" pageNumber="44">Russia</collectingCountry>
 : Eastern Siberia, Irkutsk env., leg. Berlov, 
 <date box="[956,1105,1448,1472]" pageId="43" pageNumber="44" value="2003-08-30">
@@ -268,7 +325,10 @@ New for
 .VIII. 
 <number box="[1045,1105,1448,1472]" pageId="43" pageNumber="44" value="2003.1">2003</number>
 </date>
-. 1♀, at MR. New for 
+. 1♀, at MR
+</materialsCitation>
+. New for 
+<materialsCitation ID-GBIF-Occurrence="3714223457" pageId="43" pageNumber="44">
 <collectingCountry box="[1364,1432,1447,1472]" name="Spain" pageId="43" pageNumber="44">Spain</collectingCountry>
 : Madrid, Casa de Campo, leg. Berlov, 
 <date box="[587,718,1484,1508]" pageId="43" pageNumber="44" value="1992-06-18">
@@ -276,7 +336,10 @@ New for
 .VI. 
 <number box="[656,718,1484,1508]" pageId="43" pageNumber="44" value="1992.1">1992</number>
 </date>
-. 1♀, at MR. New for 
+. 1♀, at MR
+</materialsCitation>
+. New for 
+<materialsCitation ID-GBIF-Occurrence="3714223332" latitude="60.46065" longitude="17.317816" pageId="43" pageNumber="44">
 <collectingCountry box="[976,1069,1484,1509]" name="Sweden" pageId="43" pageNumber="44">Sweden</collectingCountry>
 : Uppland, Älvkarleby kommun, Bätfors. Pine forest w. blueberry., 
 <geoCoordinate box="[533,679,1519,1544]" direction="north" orientation="latitude" pageId="43" pageNumber="44" precision="1" value="60.46065">
@@ -294,9 +357,7 @@ E
 <number box="[744,827,1519,1544]" pageId="43" pageNumber="44" value="19.069">19.069</number>
 '
 </geoCoordinate>
-, leg. 
-<collectionCode box="[890,963,1520,1544]" pageId="43" pageNumber="44">SMTP</collectionCode>
-, 
+, leg. SMTP, 
 <date box="[974,1209,1520,1544]" pageId="43" pageNumber="44" value="2003-07-03" valueMax="2003-07-29" valueMin="2003-07-03">
 03.VII.– 
 <number box="[1068,1098,1520,1544]" pageId="43" pageNumber="44" value="29.0">29</number>
@@ -305,6 +366,7 @@ E
 </date>
 . 1♀, at 
 <collectionCode box="[1296,1364,1521,1544]" httpUri="http://grbio.org/cool/4m0z-xq14" name="Swedish Museum of Natural History - Zoological Collections" pageId="43" pageNumber="44">NRM</collectionCode>
+</materialsCitation>
 .
 </paragraph>
 <paragraph blockId="43.[151,1437,151,1653]" box="[199,897,1556,1581]" pageId="43" pageNumber="44">

@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6135794" ID-GBIF-Dataset="86799ab1-401c-405c-9122-a1e96d72fc0e" ID-GBIF-Taxon="127613822" ID-ISSN="1175-5326" ID-Zenodo-Dep="6135794" ID-ZooBank="E5F8C489-37F4-4A76-8E25-EFC65CDCA1D7" checkinTime="1460424227695" checkinUser="plazi" docAuthor="Klopfstein, Seraina" docDate="2014" docId="C1225000FFF8FFBCB5BDA0CCFDA2F904" docLanguage="en" docName="zt03801p143.pdf" docOrigin="Zootaxa 3801 (1)" docStyle="DocumentStylede.uka.ipd.idaho.easyIO.settings.Settings@77e6d936" docStyleName="zootaxa.2013.monograph" docTitle="Sussaba montana Manukyan 1988" docType="treatment" docVersion="7" lastPageNumber="90" masterDocId="3D1B2878FFA1FFE5B52AA37CFFA8FFBF" masterDocTitle="Revision of the Western Palaearctic Diplazontinae (Hymenoptera, Ichneumonidae)" masterLastPageNumber="143" masterPageNumber="1" pageId="89" pageNumber="90" updateTime="1645174799413" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6135794" ID-GBIF-Dataset="86799ab1-401c-405c-9122-a1e96d72fc0e" ID-GBIF-Taxon="127613822" ID-ISSN="1175-5326" ID-Zenodo-Dep="6135794" ID-ZooBank="E5F8C489-37F4-4A76-8E25-EFC65CDCA1D7" approvalRequired="485" approvalRequired_for_taxonomicNames="141" approvalRequired_for_treatments="344" checkinTime="1460424227695" checkinUser="plazi" docAuthor="Klopfstein, Seraina" docDate="2014" docId="C1225000FFF8FFBCB5BDA0CCFDA2F904" docLanguage="en" docName="zt03801p143.pdf" docOrigin="Zootaxa 3801 (1)" docStyle="DocumentStyle:5EBBA59367AD13919D70D935FA04F6A3.10:Zootaxa.2013-.monograph" docStyleId="5EBBA59367AD13919D70D935FA04F6A3" docStyleName="Zootaxa.2013-.monograph" docStyleVersion="10" docTitle="Sussaba montana Manukyan 1988" docType="treatment" docVersion="10" lastPageNumber="90" masterDocId="3D1B2878FFA1FFE5B52AA37CFFA8FFBF" masterDocTitle="Revision of the Western Palaearctic Diplazontinae (Hymenoptera, Ichneumonidae)" masterLastPageNumber="143" masterPageNumber="1" pageId="89" pageNumber="90" updateTime="1648149078887" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Revision of the Western Palaearctic Diplazontinae (Hymenoptera, Ichneumonidae)</mods:title>
@@ -16,6 +16,9 @@
 </mods:titleInfo>
 <mods:part>
 <mods:date>2014</mods:date>
+<mods:detail type="pubDate">
+<mods:number>2014-05-22</mods:number>
+</mods:detail>
 <mods:detail type="volume">
 <mods:number>3801</mods:number>
 </mods:detail>
@@ -42,7 +45,7 @@
 <taxonomicName authority="Manukyan 1988" authorityName="Manukyan" authorityYear="1988" box="[151,575,944,970]" class="Insecta" family="Ichneumonidae" genus="Sussaba" kingdom="Animalia" order="Hymenoptera" pageId="89" pageNumber="90" phylum="Arthropoda" rank="species" species="montana">
 <emphasis bold="true" box="[151,575,944,970]" pageId="89" pageNumber="90">
 <emphasis bold="true" box="[151,364,944,970]" italics="true" pageId="89" pageNumber="90">Sussaba montana</emphasis>
-<bibRefCitation author="Manukyan" box="[372,575,944,970]" pageId="89" pageNumber="90" refString="Manukyan, A. R. (1988) Review of the genera Sussaba Cameron and Xestopelta Dasch (Hymenoptera, Ichneumonidae) of the USSR fauna. Proceedings of the Zoological Institute, Leningrad, 175, 44 - 54. [in Russian]" type="journal article" year="1988">
+<bibRefCitation author="Manukyan, A. R." box="[372,575,944,970]" firstAuthor="Manukyan" journalOrPublisher="Proceedings of the Zoological Institute, Leningrad" pageId="89" pageNumber="90" pagination="44 - 54" part="175" refId="ref117716" refString="Manukyan, A. R. (1988) Review of the genera Sussaba Cameron and Xestopelta Dasch (Hymenoptera, Ichneumonidae) of the USSR fauna. Proceedings of the Zoological Institute, Leningrad, 175, 44 - 54. [in Russian]" title="Review of the genera Sussaba Cameron and Xestopelta Dasch (Hymenoptera, Ichneumonidae) of the USSR fauna" type="journal article" year="1988">
 Manukyan 
 <number box="[516,575,944,970]" pageId="89" pageNumber="90" value="1988.0">1988</number>
 </bibRefCitation>
@@ -84,6 +87,7 @@ and
 <subSubSection pageId="89" pageNumber="90" type="materials_examined">
 <paragraph blockId="89.[151,1437,1014,1723]" box="[199,1437,1662,1687]" pageId="89" pageNumber="90">
 <emphasis bold="true" box="[199,432,1662,1687]" pageId="89" pageNumber="90">Material examined.</emphasis>
+<materialsCitation box="[438,1135,1662,1687]" collectionCode="ZIP" country="Tajikistan" location="Tajikistan" pageId="89" pageNumber="90" specimenCount="1" specimenCount-female="1" typeStatus="holotype">
 <typeStatus box="[438,542,1662,1687]" pageId="89" pageNumber="90">Holotype</typeStatus>
 of 
 <taxonomicName authority="Manukyan" authorityName="Manukyan" box="[579,906,1662,1687]" class="Insecta" family="Ichneumonidae" genus="Sussaba" kingdom="Animalia" order="Hymenoptera" pageId="89" pageNumber="90" phylum="Arthropoda" rank="species" species="montana">
@@ -93,8 +97,15 @@ Manukyan
 : 
 <collectingCountry box="[916,1029,1662,1687]" name="Tajikistan" pageId="89" pageNumber="90">Tajikistan</collectingCountry>
 , 
+<specimenCount box="[1039,1074,1663,1687]" pageId="89" pageNumber="90" type="female">
 <number box="[1039,1053,1663,1687]" pageId="89" pageNumber="90" value="1.0">1</number>
-♀, ZIP. 
+♀
+</specimenCount>
+, 
+<collectionCode box="[1088,1131,1663,1686]" pageId="89" pageNumber="90">ZIP</collectionCode>
+.
+</materialsCitation>
+<materialsCitation box="[1141,1437,1662,1687]" collectionCode="ZIP" country="Tajikistan" location="Tajikistan" pageId="89" pageNumber="90" specimenCount="1" specimenCount-male="1" typeStatus="paratype">
 <typeStatus box="[1141,1243,1663,1687]" pageId="89" pageNumber="90">Paratype</typeStatus>
 : 
 <collectingCountry box="[1253,1330,1662,1687]" name="Russia" pageId="89" pageNumber="90">Russia</collectingCountry>
@@ -103,7 +114,10 @@ Manukyan
 <number box="[1341,1352,1663,1687]" pageId="89" pageNumber="90" value="1.0">1</number>
 ♂
 </specimenCount>
-, ZIP.
+, 
+<collectionCode box="[1390,1433,1663,1686]" pageId="89" pageNumber="90">ZIP</collectionCode>
+.
+</materialsCitation>
 </paragraph>
 <paragraph blockId="89.[151,1437,1014,1723]" box="[199,522,1698,1723]" pageId="89" pageNumber="90">
 <emphasis bold="true" box="[199,296,1698,1723]" pageId="89" pageNumber="90">Figures.</emphasis>

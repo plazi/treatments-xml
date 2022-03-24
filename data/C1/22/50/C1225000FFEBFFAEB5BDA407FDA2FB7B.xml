@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6135748" ID-GBIF-Dataset="86799ab1-401c-405c-9122-a1e96d72fc0e" ID-GBIF-Taxon="127613790" ID-ISSN="1175-5326" ID-Zenodo-Dep="6135748" ID-ZooBank="E5F8C489-37F4-4A76-8E25-EFC65CDCA1D7" checkinTime="1460424227695" checkinUser="plazi" docAuthor="Klopfstein, Seraina" docDate="2014" docId="C1225000FFEBFFAEB5BDA407FDA2FB7B" docLanguage="en" docName="zt03801p143.pdf" docOrigin="Zootaxa 3801 (1)" docStyle="DocumentStylede.uka.ipd.idaho.easyIO.settings.Settings@77e6d936" docStyleName="zootaxa.2013.monograph" docTitle="Homotropus vitreus Dasch 1964" docType="treatment" docVersion="7" lastPageId="75" lastPageNumber="76" masterDocId="3D1B2878FFA1FFE5B52AA37CFFA8FFBF" masterDocTitle="Revision of the Western Palaearctic Diplazontinae (Hymenoptera, Ichneumonidae)" masterLastPageNumber="143" masterPageNumber="1" pageId="74" pageNumber="75" updateTime="1645174799413" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6135748" ID-GBIF-Dataset="86799ab1-401c-405c-9122-a1e96d72fc0e" ID-GBIF-Taxon="127613790" ID-ISSN="1175-5326" ID-Zenodo-Dep="6135748" ID-ZooBank="E5F8C489-37F4-4A76-8E25-EFC65CDCA1D7" approvalRequired="485" approvalRequired_for_taxonomicNames="141" approvalRequired_for_treatments="344" checkinTime="1460424227695" checkinUser="plazi" docAuthor="Klopfstein, Seraina" docDate="2014" docId="C1225000FFEBFFAEB5BDA407FDA2FB7B" docLanguage="en" docName="zt03801p143.pdf" docOrigin="Zootaxa 3801 (1)" docStyle="DocumentStyle:5EBBA59367AD13919D70D935FA04F6A3.10:Zootaxa.2013-.monograph" docStyleId="5EBBA59367AD13919D70D935FA04F6A3" docStyleName="Zootaxa.2013-.monograph" docStyleVersion="10" docTitle="Homotropus vitreus Dasch 1964" docType="treatment" docVersion="11" lastPageId="75" lastPageNumber="76" masterDocId="3D1B2878FFA1FFE5B52AA37CFFA8FFBF" masterDocTitle="Revision of the Western Palaearctic Diplazontinae (Hymenoptera, Ichneumonidae)" masterLastPageNumber="143" masterPageNumber="1" pageId="74" pageNumber="75" updateTime="1648149078887" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Revision of the Western Palaearctic Diplazontinae (Hymenoptera, Ichneumonidae)</mods:title>
@@ -16,6 +16,9 @@
 </mods:titleInfo>
 <mods:part>
 <mods:date>2014</mods:date>
+<mods:detail type="pubDate">
+<mods:number>2014-05-22</mods:number>
+</mods:detail>
 <mods:detail type="volume">
 <mods:number>3801</mods:number>
 </mods:detail>
@@ -42,7 +45,7 @@
 <taxonomicName authority="Dasch 1964" authorityName="Dasch" authorityYear="1964" box="[151,555,1915,1941]" class="Insecta" family="Hymenoptera" genus="Homotropus" higherTaxonomySource="GBIF" kingdom="Animalia" order="Hymenoptera" pageId="74" pageNumber="75" phylum="Arthropoda" rank="species" species="vitreus">
 <emphasis bold="true" box="[151,555,1915,1941]" pageId="74" pageNumber="75">
 <emphasis bold="true" box="[151,392,1915,1941]" italics="true" pageId="74" pageNumber="75">Homotropus vitreus</emphasis>
-<bibRefCitation author="Dasch" box="[398,555,1915,1941]" pageId="74" pageNumber="75" refString="Dasch, C. E. (1964 a) Ichneumon-flies of America north of Mexico 5: Subfamily Diplazontinae. Memoirs of the American Entomological Institute, 3, 1 - 304." type="journal article" year="1964" yearSuffix="a">
+<bibRefCitation author="Dasch, C. E." box="[398,555,1915,1941]" firstAuthor="Dasch" journalOrPublisher="Memoirs of the American Entomological Institute" pageId="74" pageNumber="75" pagination="1 - 304" part="3" refId="ref114528" refString="Dasch, C. E. (1964 a) Ichneumon-flies of America north of Mexico 5: Subfamily Diplazontinae. Memoirs of the American Entomological Institute, 3, 1 - 304." title="Ichneumon-flies of America north of Mexico 5: Subfamily Diplazontinae" type="journal article" year="1964" yearSuffix="a">
 Dasch 
 <number box="[482,541,1915,1941]" pageId="74" pageNumber="75" value="1964.0">1964</number>
 a
@@ -95,6 +98,7 @@ and
 <subSubSection pageId="75" pageNumber="76" type="materials_examined">
 <paragraph blockId="75.[151,1437,151,1221]" pageId="75" pageNumber="76">
 <emphasis bold="true" box="[199,436,871,896]" pageId="75" pageNumber="76">Material examined.</emphasis>
+<materialsCitation ID-GBIF-Occurrence="3714223454" collectingDate="1940-08-06" collectionCode="AEI" collectorName="H. &amp; M. Townes" country="United States of America" location="Cannon Beach" municipality="Oregon" pageId="75" pageNumber="76" specimenCount="1" specimenCount-female="1" typeStatus="holotype">
 <typeStatus box="[447,551,871,896]" pageId="75" pageNumber="76">Holotype</typeStatus>
 of 
 <taxonomicName authority="Dasch" authorityName="Dasch" box="[596,906,871,896]" class="Insecta" family="Hymenoptera" genus="Homotropus" higherTaxonomySource="GBIF" kingdom="Animalia" order="Hymenoptera" pageId="75" pageNumber="76" phylum="Arthropoda" rank="species" species="vitreus">
@@ -103,18 +107,32 @@ Dasch
 </taxonomicName>
 : 
 <collectingCountry box="[920,979,872,896]" name="United States of America" pageId="75" pageNumber="76">USA</collectingCountry>
-, Oregon, Cannon Beach, leg. H. &amp; M. Townes, 
+, 
+<collectingMunicipality box="[994,1081,872,896]" pageId="75" pageNumber="76">Oregon</collectingMunicipality>
+, 
+<location LSID="urn:lsid:plazi:treatment:C1225000FFEBFFAEB5BDA407FDA2FB7B:4C54B7CDFFEAFFAEB162A014FB5BFC3F" box="[1096,1267,871,896]" country="United States of America" municipality="Oregon" name="Cannon Beach" pageId="75" pageNumber="76">Cannon Beach</location>
+, leg. 
+<collectorName box="[1334,1361,872,895]" pageId="75" pageNumber="76">H.</collectorName>
+&amp; 
+<collectorName pageId="75" pageNumber="76">M. Townes</collectorName>
+, 
 <date box="[252,388,908,933]" pageId="75" pageNumber="76" value="1940-08-06">
+<collectingDate box="[252,388,908,933]" pageId="75" pageNumber="76" value="1940-08-06">
 <number box="[252,266,908,933]" pageId="75" pageNumber="76" value="6.0">6</number>
 .VIII. 
 <number box="[327,388,908,933]" pageId="75" pageNumber="76" value="1940.1">1940</number>
+</collectingDate>
 </date>
-. 1♀, at 
+. 
+<specimenCount box="[398,433,908,932]" pageId="75" pageNumber="76" type="female">1♀</specimenCount>
+, at 
 <collectionCode box="[474,524,908,932]" httpUri="http://grbio.org/cool/rn7d-z1r2" name="American Entomological Institute" pageId="75" pageNumber="76">AEI</collectionCode>
 .
+</materialsCitation>
 </paragraph>
 <paragraph blockId="75.[151,1437,151,1221]" box="[199,1104,943,968]" pageId="75" pageNumber="76">
 New for 
+<materialsCitation ID-GBIF-Occurrence="3714223325" box="[298,1100,943,968]" pageId="75" pageNumber="76">
 <collectingCountry box="[298,388,943,968]" name="Finland" pageId="75" pageNumber="76">Finland</collectingCountry>
 : Ks Kuusamo 
 <number box="[551,611,943,968]" pageId="75" pageNumber="76" value="7353.0">7353</number>
@@ -126,10 +144,13 @@ New for
 .VII. 
 <number box="[918,980,944,968]" pageId="75" pageNumber="76" value="1979.1">1979</number>
 </date>
-. 1♀, at RJ.
+. 1♀, at RJ
+</materialsCitation>
+.
 </paragraph>
 <paragraph blockId="75.[151,1437,151,1221]" pageId="75" pageNumber="76">
 <emphasis bold="true" box="[199,450,980,1005]" pageId="75" pageNumber="76">Additional material.</emphasis>
+<materialsCitation ID-GBIF-Occurrence="3714223346" latitude="64.190216" longitude="19.6057" pageId="75" pageNumber="76">
 <collectingCountry box="[465,558,980,1005]" name="Sweden" pageId="75" pageNumber="76">Sweden</collectingCountry>
 : Västerbotten, Vindelns kommun, Kubäckslidens försökspark, Kulbäcken meadow, birch wood on fine alluvial sediments, 
 <geoCoordinate box="[714,858,1015,1040]" direction="north" orientation="latitude" pageId="75" pageNumber="76" precision="1" value="64.190216">
@@ -160,28 +181,36 @@ E
 <specimenCount box="[1394,1431,1016,1040]" pageId="75" pageNumber="76" type="generic">1♂</specimenCount>
 , 
 <number box="[151,165,1052,1076]" pageId="75" pageNumber="76" value="1.0">1</number>
-♀; Västerbotten, Umea kommun, Holmön. Blueberry spruce forest next to pasture, 
-<geoCoordinate box="[1093,1239,1052,1077]" direction="north" orientation="latitude" pageId="75" pageNumber="76" precision="1" value="63.78965">
+♀
+</materialsCitation>
+; 
+<materialsCitation ID-GBIF-Occurrence="3714223305" latitude="63.78965" longitude="20.848682" pageId="75" pageNumber="76">
+Västerbotten, Umea kommun, Holmön. Blueberry spruce forest next to pasture, 
+<geoCoordinate box="[1093,1239,1052,1077]" degrees="63" direction="north" minutes="47.379" orientation="latitude" pageId="75" pageNumber="76" precision="1" value="63.78965">
 N 
 <number box="[1115,1143,1052,1077]" pageId="75" pageNumber="76" value="63.0">63</number>
 ° 
 <number box="[1151,1234,1052,1077]" pageId="75" pageNumber="76" value="47.379">47.379</number>
 '
 </geoCoordinate>
-, E 
+, 
+<geoCoordinate box="[1248,1384,1052,1077]" degrees="20" direction="east" minutes="50.921" orientation="longitude" pageId="75" pageNumber="76" precision="1" value="20.848682">
+E 
 <number box="[1266,1295,1052,1077]" pageId="75" pageNumber="76" value="20.0">20</number>
 ° 
 <number box="[1304,1384,1052,1077]" pageId="75" pageNumber="76" value="50.921">50.921</number>
-, leg. 
-<collectionCode box="[151,224,1088,1112]" pageId="75" pageNumber="76">SMTP</collectionCode>
-, 
+</geoCoordinate>
+, leg. SMTP, 
 <date box="[236,472,1088,1112]" pageId="75" pageNumber="76" value="2004-08-03" valueMax="2004-09-04" valueMin="2004-08-03">
 03.VIII.–04.IX. 
 <number box="[410,472,1088,1112]" pageId="75" pageNumber="76" value="2004.1">2004</number>
 </date>
 . 1♀; all at 
 <collectionCode box="[599,666,1088,1111]" httpUri="http://grbio.org/cool/4m0z-xq14" name="Swedish Museum of Natural History - Zoological Collections" pageId="75" pageNumber="76">NRM</collectionCode>
-. Kiruna, 
+</materialsCitation>
+. 
+<materialsCitation ID-GBIF-Occurrence="3714223422" pageId="75" pageNumber="76">
+Kiruna, 
 <date box="[771,912,1087,1112]" pageId="75" pageNumber="76" value="1969-07-16">
 <number box="[771,799,1087,1112]" pageId="75" pageNumber="76" value="16.0">16</number>
 .VII. 
@@ -209,6 +238,7 @@ N
 , all at 
 <collectionCode box="[151,212,1124,1148]" httpUri="http://grbio.org/cool/4b7r-7sec" name="Bavarian State Collection of Zoology" pageId="75" pageNumber="76">ZSM</collectionCode>
 .
+</materialsCitation>
 </paragraph>
 </subSubSection>
 <subSubSection pageId="75" pageNumber="76" type="distribution">
