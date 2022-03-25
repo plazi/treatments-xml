@@ -1,4 +1,4 @@
-<document ID-DOI="10.11646/zootaxa.3494.1.1" ID-ISSN="1175­5334" ID-Zenodo-Dep="6380783" ID-ZooBank="E31EF0DC-825E-4D60-8AED-3127019CF8F0" approvalRequired="45" approvalRequired_for_originalDoi="1" approvalRequired_for_textStreams="44" checkinTime="1629812306121" checkinUser="felipe" docAuthor="Agassiz, David J. L." docDate="2012" docId="03C387FBFFE2655AFF43431AFE93C7CB" docLanguage="en" docName="zt03494p073.pdf" docOrigin="Zootaxa 3494" docStyle="DocumentStyle:D239614CE4198176A422035174489AB1.2:Zootaxa.2009-2012.monograph" docStyleId="D239614CE4198176A422035174489AB1" docStyleName="Zootaxa.2009-2012.monograph" docStyleVersion="2" docTitle="Eoophyla nigerialis Published 2012, comb. n." docType="treatment" docVersion="1" lastPageNumber="39" masterDocId="FFFAFF83FFC4657CFFD44164FFA7C16A" masterDocTitle="The Acentropinae (Lepidoptera: Pyraloidea: Crambidae) of Africa" masterLastPageNumber="73" masterPageNumber="1" pageId="38" pageNumber="39" updateTime="1648217350391" updateUser="carolina" zenodo-license-document="CLOSED">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6384876" ID-ISSN="1175­5334" ID-Zenodo-Dep="6384876" ID-ZooBank="E31EF0DC-825E-4D60-8AED-3127019CF8F0" approvalRequired="1" approvalRequired_for_taxonomicNames="1" checkinTime="1629812306121" checkinUser="felipe" docAuthor="Agassiz, David J. L." docDate="2012" docId="03C387FBFFE2655AFF43431AFE93C7CB" docLanguage="en" docName="zt03494p073.pdf" docOrigin="Zootaxa 3494" docStyle="DocumentStyle:D239614CE4198176A422035174489AB1.2:Zootaxa.2009-2012.monograph" docStyleId="D239614CE4198176A422035174489AB1" docStyleName="Zootaxa.2009-2012.monograph" docStyleVersion="2" docTitle="Eoophyla nigerialis Published 2012, comb. n." docType="treatment" docVersion="3" lastPageNumber="39" masterDocId="FFFAFF83FFC4657CFFD44164FFA7C16A" masterDocTitle="The Acentropinae (Lepidoptera: Pyraloidea: Crambidae) of Africa" masterLastPageNumber="73" masterPageNumber="1" pageId="38" pageNumber="39" updateTime="1648231469876" updateUser="ExternalLinkService" zenodo-license-document="CLOSED">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>The Acentropinae (Lepidoptera: Pyraloidea: Crambidae) of Africa</mods:title>
@@ -36,7 +36,7 @@
 <mods:identifier type="Zenodo-Dep">6380783</mods:identifier>
 <mods:identifier type="ZooBank">E31EF0DC-825E-4D60-8AED-3127019CF8F0</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:03C387FBFFE2655AFF43431AFE93C7CB" httpUri="http://treatment.plazi.org/id/03C387FBFFE2655AFF43431AFE93C7CB" lastPageNumber="39" pageId="38" pageNumber="39">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6384876" ID-Zenodo-Dep="6384876" LSID="urn:lsid:plazi:treatment:03C387FBFFE2655AFF43431AFE93C7CB" httpUri="http://treatment.plazi.org/id/03C387FBFFE2655AFF43431AFE93C7CB" lastPageNumber="39" pageId="38" pageNumber="39">
 <subSubSection box="[151,714,638,664]" pageId="38" pageNumber="39" type="nomenclature">
 <paragraph blockId="38.[151,714,638,664]" box="[151,714,638,664]" pageId="38" pageNumber="39">
 <taxonomicName authority="(Hampson, 1906)" authorityName="Published" authorityYear="2012" baseAuthorityName="Hampson" baseAuthorityYear="1906" box="[151,600,638,664]" class="Insecta" family="Crambidae" genus="Eoophyla" kingdom="Animalia" order="Lepidoptera" pageId="38" pageNumber="39" phylum="Arthropoda" rank="species" species="nigerialis" status="comb. n.">
@@ -110,25 +110,34 @@ and
 <subSubSection pageId="38" pageNumber="39" type="materials_examined">
 <paragraph blockId="38.[150,1437,806,1697]" pageId="38" pageNumber="39">
 Material examined: 
-<materialsCitation box="[423,843,1569,1593]" pageId="38" pageNumber="39">
+<materialsCitation box="[423,843,1569,1593]" collectionCode="BMNH" country="Nigeria" location="Warri" pageId="38" pageNumber="39" specimenCount="1" specimenCount-male="1" typeStatus="holotype">
 <typeStatus box="[423,527,1569,1593]" pageId="38" pageNumber="39">Holotype</typeStatus>
 <specimenCount box="[533,554,1570,1593]" pageId="38" pageNumber="39" type="male">♂</specimenCount>
-: Nigeria: Warri (
-<collectionCode box="[745,835,1569,1593]" pageId="38" pageNumber="39">BMNH</collectionCode>
+: 
+<collectingCountry box="[569,657,1569,1593]" name="Nigeria" pageId="38" pageNumber="39">Nigeria</collectingCountry>
+: 
+<location LSID="urn:lsid:plazi:treatment:03C387FBFFE2655AFF43431AFE93C7CB:8EB56036FFE2655AFD4F4745FD7DC753" box="[667,730,1569,1593]" country="Nigeria" name="Warri" pageId="38" pageNumber="39">Warri</location>
+(
+<collectionCode box="[745,835,1569,1593]" collectionName="United Kingdom, London, The Natural History Museum [formerly British Museum (Natural History)]" pageId="38" pageNumber="39">BMNH</collectionCode>
 )
 </materialsCitation>
 ; 
-<materialsCitation box="[853,1426,1569,1593]" pageId="38" pageNumber="39">
+<materialsCitation box="[853,1426,1569,1593]" collectionCode="MNHB" location="Argyractis dualalis Gaede" pageId="38" pageNumber="39" specimenCount="1" specimenCount-male="1" typeStatus="holotype">
 <typeStatus box="[853,957,1569,1593]" pageId="38" pageNumber="39">Holotype</typeStatus>
 <specimenCount box="[963,984,1570,1593]" pageId="38" pageNumber="39" type="male">♂</specimenCount>
 of 
 <taxonomicName authority="Gaede (MNHB)" authorityName="Gaede (MNHB" authorityYear="1916" box="[1021,1426,1569,1593]" class="Insecta" family="Crambidae" genus="Argyractis" kingdom="Animalia" order="Lepidoptera" pageId="38" pageNumber="39" phylum="Arthropoda" rank="species" species="dualalis">
+<location LSID="urn:lsid:plazi:treatment:03C387FBFFE2655AFF43431AFE93C7CB:8EB56036FFE2655AFC294745FA86C753" box="[1021,1313,1569,1593]" name="Argyractis dualalis Gaede" pageId="38" pageNumber="39">
 <emphasis box="[1021,1235,1569,1593]" italics="true" pageId="38" pageNumber="39">Argyractis dualalis</emphasis>
-Gaede (MNHB)
+Gaede
+</location>
+(
+<collectionCode box="[1328,1418,1569,1593]" collectionName="MNHB" pageId="38" pageNumber="39">MNHB</collectionCode>
+)
 </taxonomicName>
 </materialsCitation>
 . 
-<materialsCitation collectionCode="MNHB" collectorName="Staudinger" country="Cameroon" location="Duala" pageId="38" pageNumber="39" specimenCount="2" specimenCount-female="2">
+<materialsCitation collectionCode="MNHB" collectorName="Staudinger" country="Cameroon" location="Duala" pageId="38" pageNumber="39" specimenCount="2" specimenCount-female="2" typeStatus="further specimens">
 <collectingCountry box="[150,314,1604,1628]" name="Cameroon" pageId="38" pageNumber="39">CAMEROON</collectingCountry>
 : 
 <location LSID="urn:lsid:plazi:treatment:03C387FBFFE2655AFF43431AFE93C7CB:8EB56036FFE2655AFE864720FE32C736" box="[338,405,1604,1628]" country="Cameroon" name="Duala" pageId="38" pageNumber="39">Duala</location>
@@ -140,7 +149,7 @@ without abdomens.
 — 
 <collectorName box="[214,334,1638,1662]" pageId="38" pageNumber="39">Staudinger</collectorName>
 coll.(
-<collectionCode box="[410,501,1638,1662]" pageId="38" pageNumber="39">MNHB</collectionCode>
+<collectionCode box="[410,501,1638,1662]" collectionName="MNHB" pageId="38" pageNumber="39">MNHB</collectionCode>
 )
 </materialsCitation>
 ; 

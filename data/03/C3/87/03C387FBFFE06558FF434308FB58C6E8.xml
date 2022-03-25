@@ -1,4 +1,4 @@
-<document ID-DOI="10.11646/zootaxa.3494.1.1" ID-ISSN="1175­5334" ID-Zenodo-Dep="6380783" ID-ZooBank="E31EF0DC-825E-4D60-8AED-3127019CF8F0" approvalRequired="45" approvalRequired_for_originalDoi="1" approvalRequired_for_textStreams="44" checkinTime="1629812306121" checkinUser="felipe" docAuthor="Agassiz, David J. L." docDate="2012" docId="03C387FBFFE06558FF434308FB58C6E8" docLanguage="en" docName="zt03494p073.pdf" docOrigin="Zootaxa 3494" docStyle="DocumentStyle:D239614CE4198176A422035174489AB1.2:Zootaxa.2009-2012.monograph" docStyleId="D239614CE4198176A422035174489AB1" docStyleName="Zootaxa.2009-2012.monograph" docStyleVersion="2" docTitle="Eoophyla mimicalis Published 2012, comb. n." docType="treatment" docVersion="1" lastPageNumber="37" masterDocId="FFFAFF83FFC4657CFFD44164FFA7C16A" masterDocTitle="The Acentropinae (Lepidoptera: Pyraloidea: Crambidae) of Africa" masterLastPageNumber="73" masterPageNumber="1" pageId="36" pageNumber="37" updateTime="1648217350391" updateUser="carolina" zenodo-license-document="CLOSED">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6384872" ID-ISSN="1175­5334" ID-Zenodo-Dep="6384872" ID-ZooBank="E31EF0DC-825E-4D60-8AED-3127019CF8F0" approvalRequired="1" approvalRequired_for_taxonomicNames="1" checkinTime="1629812306121" checkinUser="felipe" docAuthor="Agassiz, David J. L." docDate="2012" docId="03C387FBFFE06558FF434308FB58C6E8" docLanguage="en" docName="zt03494p073.pdf" docOrigin="Zootaxa 3494" docStyle="DocumentStyle:D239614CE4198176A422035174489AB1.2:Zootaxa.2009-2012.monograph" docStyleId="D239614CE4198176A422035174489AB1" docStyleName="Zootaxa.2009-2012.monograph" docStyleVersion="2" docTitle="Eoophyla mimicalis Published 2012, comb. n." docType="treatment" docVersion="6" lastPageNumber="37" masterDocId="FFFAFF83FFC4657CFFD44164FFA7C16A" masterDocTitle="The Acentropinae (Lepidoptera: Pyraloidea: Crambidae) of Africa" masterLastPageNumber="73" masterPageNumber="1" pageId="36" pageNumber="37" updateTime="1648231469876" updateUser="ExternalLinkService" zenodo-license-document="CLOSED">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>The Acentropinae (Lepidoptera: Pyraloidea: Crambidae) of Africa</mods:title>
@@ -36,7 +36,7 @@
 <mods:identifier type="Zenodo-Dep">6380783</mods:identifier>
 <mods:identifier type="ZooBank">E31EF0DC-825E-4D60-8AED-3127019CF8F0</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:03C387FBFFE06558FF434308FB58C6E8" httpUri="http://treatment.plazi.org/id/03C387FBFFE06558FF434308FB58C6E8" lastPageNumber="37" pageId="36" pageNumber="37">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6384872" ID-Zenodo-Dep="6384872" LSID="urn:lsid:plazi:treatment:03C387FBFFE06558FF434308FB58C6E8" httpUri="http://treatment.plazi.org/id/03C387FBFFE06558FF434308FB58C6E8" lastPageNumber="37" pageId="36" pageNumber="37">
 <subSubSection box="[151,725,619,646]" pageId="36" pageNumber="37" type="nomenclature">
 <paragraph blockId="36.[151,725,619,646]" box="[151,725,619,646]" pageId="36" pageNumber="37">
 <taxonomicName authority="(Hampson, 1917)" authorityName="Published" authorityYear="2012" baseAuthorityName="Hampson" baseAuthorityYear="1917" box="[151,610,620,646]" class="Insecta" family="Crambidae" genus="Eoophyla" kingdom="Animalia" order="Lepidoptera" pageId="36" pageNumber="37" phylum="Arthropoda" rank="species" species="mimicalis" status="comb. n.">
@@ -75,12 +75,16 @@
 </treatmentCitationGroup>
 </paragraph>
 <paragraph blockId="36.[151,697,690,774]" box="[151,697,752,774]" pageId="36" pageNumber="37">
+<treatmentCitationGroup box="[151,691,752,774]" pageId="36" pageNumber="37">
+<treatmentCitation author="Meyrick, E." box="[151,618,752,774]" page="102" pageId="36" pageNumber="37" year="1937">
 <taxonomicName authority="Meyrick, 1937: 102" authorityName="Meyrick" authorityPageNumber="102" authorityYear="1937" box="[151,618,752,774]" class="Insecta" family="Crambidae" genus="Argyractis" kingdom="Animalia" order="Lepidoptera" pageId="36" pageNumber="37" phylum="Arthropoda" rank="species" species="sphragidacma">
 <emphasis box="[151,408,752,774]" italics="true" pageId="36" pageNumber="37">Argyractis sphragidacma</emphasis>
-Meyrick, 1937: 102
+<bibRefCitation box="[414,618,752,774]" firstAuthor="Meyrick" pageId="36" pageNumber="37" year="1937">Meyrick, 1937: 102</bibRefCitation>
 </taxonomicName>
+</treatmentCitation>
 . 
 <emphasis bold="true" box="[627,697,752,773]" pageId="36" pageNumber="37">syn. n.</emphasis>
+</treatmentCitationGroup>
 </paragraph>
 </subSubSection>
 <subSubSection pageId="36" pageNumber="37" type="description">
@@ -134,15 +138,14 @@ Distribution:
 </subSubSection>
 <subSubSection pageId="36" pageNumber="37" type="materials_examined">
 <paragraph blockId="36.[151,1437,818,1922]" pageId="36" pageNumber="37">
-<materialsCitation box="[199,631,1754,1779]" collectionCode="BMNH" country="Nigeria" county="Zungeru" location="Material" municipality="Borgu" pageId="36" pageNumber="37" specimenCount="6" specimenCount-female="3" specimenCount-male="1" typeStatus="holotype">
-<location LSID="urn:lsid:plazi:treatment:03C387FBFFE06558FF434308FB58C6E8:8EB56036FFE06558FF1347BEFE81C798" box="[199,294,1754,1778]" country="Nigeria" county="Zungeru" municipality="Borgu" name="Material" pageId="36" pageNumber="37">Material</location>
-examined: 
+<materialsCitation box="[199,631,1754,1779]" collectionCode="BMNH" country="Nigeria" county="Zungeru" location="Borgu" municipality="Borgu" pageId="36" pageNumber="37" specimenCount="1" specimenCount-male="1" typeStatus="holotype">
+Material examined: 
 <typeStatus box="[423,527,1754,1778]" pageId="36" pageNumber="37">Holotype</typeStatus>
 <specimenCount box="[528,549,1755,1778]" pageId="36" pageNumber="37" type="female">♀</specimenCount>
 <collectingMunicipality box="[555,627,1755,1779]" pageId="36" pageNumber="37">Borgu</collectingMunicipality>
 ,
 </materialsCitation>
-<materialsCitation box="[638,1120,1754,1779]" collectionCode="BMNH" country="Nigeria" county="Zungeru" location="Material" municipality="Borgu" pageId="36" pageNumber="37" specimenCount="6" specimenCount-female="3" specimenCount-male="1" typeStatus="holotype">
+<materialsCitation box="[638,1120,1754,1779]" collectionCode="BMNH" country="Nigeria" county="Zungeru" location="Zungeru" municipality="Borgu" pageId="36" pageNumber="37" specimenCount="3" specimenCount-female="1" specimenCount-male="1">
 <collectingCountry box="[638,725,1754,1778]" name="Nigeria" pageId="36" pageNumber="37">Nigeria</collectingCountry>
 , 
 <specimenCount box="[736,868,1754,1779]" pageId="36" pageNumber="37" type="generic" typeStatus="paratypes">2 paratypes</specimenCount>
@@ -153,14 +156,14 @@ examined:
 <collectingCountry box="[1028,1116,1754,1778]" name="Nigeria" pageId="36" pageNumber="37">Nigeria</collectingCountry>
 ;
 </materialsCitation>
-<materialsCitation box="[1127,1436,1754,1778]" collectionCode="BMNH" country="Nigeria" county="Zungeru" location="Material" municipality="Borgu" pageId="36" pageNumber="37" specimenCount="6" specimenCount-female="3" specimenCount-male="1" typeStatus="holotype">
+<materialsCitation box="[1127,1436,1754,1778]" collectionCode="BMNH" country="Sierra Leone" county="Zungeru" location="Sierra Leone" municipality="Borgu" pageId="36" pageNumber="37" specimenCount="1" specimenCount-female="3" specimenCount-male="1">
 <specimenCount box="[1127,1162,1754,1778]" pageId="36" pageNumber="37" type="male">1♂</specimenCount>
 <collectingCountry box="[1168,1316,1754,1778]" name="Sierra Leone" pageId="36" pageNumber="37">Sierra Leone</collectingCountry>
 : (
-<collectionCode box="[1334,1423,1754,1778]" pageId="36" pageNumber="37">BMNH</collectionCode>
+<collectionCode box="[1334,1423,1754,1778]" collectionName="United Kingdom, London, The Natural History Museum [formerly British Museum (Natural History)]" pageId="36" pageNumber="37">BMNH</collectionCode>
 ),
 </materialsCitation>
-<materialsCitation box="[151,685,1790,1814]" collectionCode="BMNH" country="Nigeria" county="Zungeru" location="Material" municipality="Borgu" pageId="36" pageNumber="37" specimenCount="6" specimenCount-female="3" specimenCount-male="1" typeStatus="holotype">
+<materialsCitation box="[151,685,1790,1814]" collectionCode="BMNH" country="Nigeria" county="Zungeru" location="Material" municipality="Borgu" pageId="36" pageNumber="37" specimenCount="1" specimenCount-female="1" specimenCount-male="1">
 <typeStatus box="[151,254,1790,1814]" pageId="36" pageNumber="37">lectotype</typeStatus>
 <specimenCount box="[260,281,1791,1814]" pageId="36" pageNumber="37" type="female">♀</specimenCount>
 of 
@@ -170,7 +173,7 @@ of
 </taxonomicName>
 ,
 </materialsCitation>
-<materialsCitation box="[692,1145,1790,1814]" collectionCode="BMNH" country="Nigeria" county="Zungeru" location="Material" municipality="Borgu" pageId="36" pageNumber="37" specimenCount="6" specimenCount-female="3" specimenCount-male="1" typeStatus="holotype">
+<materialsCitation box="[692,1145,1790,1814]" collectionCode="BMNH" country="Nigeria" county="Zungeru" location="Material" municipality="Borgu" pageId="36" pageNumber="37" specimenCount="1" specimenCount-female="3" specimenCount-male="1" typeStatus="paralectotype">
 <typeStatus box="[692,858,1790,1814]" pageId="36" pageNumber="37">paralectotypes</typeStatus>
 : as cited by 
 <bibRefCitation author="Maes, K. V. N." box="[995,1140,1790,1814]" pageId="36" pageNumber="37" pagination="1405 - 1411" refId="ref42944" refString="Maes, K. V. N. (1996) The Meyrick types of Scopariinae, Nymphulinae, Schoenobiinae, Pyraustinae in the Royal Museum of Central Africa, Tervuren, Belgium (Lepidoptera: Pyraloidea; Crambidae). Journal of Natural History, 30, 1405 - 1411." type="journal article" year="1996">Maes (1996)</bibRefCitation>
@@ -185,10 +188,11 @@ of
 Ibadan
 </materialsCitation>
 , 
-<materialsCitation box="[460,674,1826,1850]" collectionCode="BMNH" country="Nigeria" pageId="36" pageNumber="37" specimenCount="1" specimenCount-female="1">
+<materialsCitation box="[460,674,1826,1850]" collectionCode="BMNH" country="Nigeria" location="Zaria" municipality="Zaria" pageId="36" pageNumber="37" specimenCount="1" specimenCount-female="1">
 <specimenCount box="[460,495,1826,1850]" pageId="36" pageNumber="37" type="female">1♀</specimenCount>
-Zaria (
-<collectionCode box="[575,665,1826,1850]" pageId="36" pageNumber="37">BMNH</collectionCode>
+<collectingMunicipality box="[501,560,1826,1850]" pageId="36" pageNumber="37">Zaria</collectingMunicipality>
+(
+<collectionCode box="[575,665,1826,1850]" collectionName="United Kingdom, London, The Natural History Museum [formerly British Museum (Natural History)]" pageId="36" pageNumber="37">BMNH</collectionCode>
 )
 </materialsCitation>
 ; 
@@ -199,10 +203,11 @@ Zaria (
 Navao
 </materialsCitation>
 , 
-<materialsCitation box="[928,1221,1826,1850]" collectionCode="BMNH" country="Ghana" pageId="36" pageNumber="37" specimenCount="1" specimenCount-female="1">
+<materialsCitation box="[928,1221,1826,1850]" collectionCode="BMNH" country="Ghana" location="Kete-Krachi" municipality="Kete-Krachi" pageId="36" pageNumber="37" specimenCount="1" specimenCount-female="1">
 <specimenCount box="[928,963,1826,1850]" pageId="36" pageNumber="37" type="female">1♀</specimenCount>
-Kete-Krachi (
-<collectionCode box="[1123,1213,1826,1850]" pageId="36" pageNumber="37">BMNH</collectionCode>
+<collectingMunicipality box="[970,1108,1826,1850]" pageId="36" pageNumber="37">Kete-Krachi</collectingMunicipality>
+(
+<collectionCode box="[1123,1213,1826,1850]" collectionName="United Kingdom, London, The Natural History Museum [formerly British Museum (Natural History)]" pageId="36" pageNumber="37">BMNH</collectionCode>
 )
 </materialsCitation>
 ; 
@@ -211,7 +216,7 @@ Kete-Krachi (
 : 
 <specimenCount box="[1341,1376,1826,1850]" pageId="36" pageNumber="37" type="female">1♀</specimenCount>
 Gazi (
-<collectionCode box="[159,249,1862,1886]" pageId="36" pageNumber="37">BMNH</collectionCode>
+<collectionCode box="[159,249,1862,1886]" collectionName="United Kingdom, London, The Natural History Museum [formerly British Museum (Natural History)]" pageId="36" pageNumber="37">BMNH</collectionCode>
 )
 </materialsCitation>
 ; 
@@ -220,7 +225,7 @@ Gazi (
 : 
 <specimenCount box="[444,479,1862,1886]" pageId="36" pageNumber="37" type="female">1♀</specimenCount>
 Dschang (
-<collectionCode box="[600,690,1862,1886]" pageId="36" pageNumber="37">BMNH</collectionCode>
+<collectionCode box="[600,690,1862,1886]" collectionName="United Kingdom, London, The Natural History Museum [formerly British Museum (Natural History)]" pageId="36" pageNumber="37">BMNH</collectionCode>
 )
 </materialsCitation>
 ; 
@@ -240,13 +245,15 @@ N.P. (
 : 
 <specimenCount box="[151,186,1898,1922]" pageId="36" pageNumber="37" type="female">4♀</specimenCount>
 <location LSID="urn:lsid:plazi:treatment:03C387FBFFE06558FF434308FB58C6E8:8EB56036FFE06558FF15460EFED0C6E8" box="[193,375,1898,1922]" country="Tanzania" name="Udzungwa Mts." pageId="36" pageNumber="37">Udzungwa Mts.</location>
-; CONGO
+; 
+<collectingCountry box="[386,490,1898,1922]" name="Democratic Republic of the Congo" pageId="36" pageNumber="37">CONGO</collectingCountry>
 </materialsCitation>
 : 
-<materialsCitation box="[501,828,1898,1922]" collectionCode="TMMA" country="Democratic Republic of the Congo" pageId="36" pageNumber="37" specimenCount="4" specimenCount-female="2" specimenCount-male="2">
+<materialsCitation box="[501,828,1898,1922]" collectionCode="TMMA" country="Democratic Republic of the Congo" location="Brazzaville" municipality="Brazzaville" pageId="36" pageNumber="37" specimenCount="4" specimenCount-female="2" specimenCount-male="2">
 <specimenCount box="[501,536,1898,1922]" pageId="36" pageNumber="37" type="male">2♂</specimenCount>
 <specimenCount box="[543,578,1898,1922]" pageId="36" pageNumber="37" type="female">2♀</specimenCount>
-Brazzaville (
+<collectingMunicipality box="[585,713,1898,1922]" pageId="36" pageNumber="37">Brazzaville</collectingMunicipality>
+(
 <collectionCode box="[727,821,1898,1922]" pageId="36" pageNumber="37">TMMA</collectionCode>
 )
 </materialsCitation>
@@ -257,7 +264,7 @@ Brazzaville (
 <specimenCount box="[970,1005,1898,1922]" pageId="36" pageNumber="37" type="male">2♂</specimenCount>
 <specimenCount box="[1012,1048,1898,1922]" pageId="36" pageNumber="37" type="female">6♀</specimenCount>
 Dzalanyama (
-<collectionCode box="[1209,1266,1898,1922]" pageId="36" pageNumber="37">AJK</collectionCode>
+<collectionCode box="[1209,1266,1898,1922]" collectionName="AJK" pageId="36" pageNumber="37">AJK</collectionCode>
 )
 </materialsCitation>
 .
