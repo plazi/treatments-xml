@@ -1,4 +1,4 @@
-<document ID-DOI="10.11646/zootaxa.3494.1.1" ID-ISSN="1175­5334" ID-ZooBank="E31EF0DC-825E-4D60-8AED-3127019CF8F0" approvalRequired="45" approvalRequired_for_originalDoi="1" approvalRequired_for_textStreams="44" checkinTime="1629812306121" checkinUser="felipe" docAuthor="Agassiz, David J. L." docDate="2012" docId="03C387FBFFED6556FF434438FC52C372" docLanguage="en" docName="zt03494p073.pdf" docOrigin="Zootaxa 3494" docStyle="DocumentStyle:D239614CE4198176A422035174489AB1.2:Zootaxa.2009-2012.monograph" docStyleId="D239614CE4198176A422035174489AB1" docStyleName="Zootaxa.2009-2012.monograph" docStyleVersion="2" docTitle="Eoophyla piscatorum Published 2012, sp. n." docType="treatment" docVersion="2" lastPageId="42" lastPageNumber="43" masterDocId="FFFAFF83FFC4657CFFD44164FFA7C16A" masterDocTitle="The Acentropinae (Lepidoptera: Pyraloidea: Crambidae) of Africa" masterLastPageNumber="73" masterPageNumber="1" pageId="41" pageNumber="42" updateTime="1648062048936" updateUser="carolina" zenodo-license-document="CLOSED">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6385405" ID-ISSN="1175­5334" ID-Zenodo-Dep="6385405" ID-ZooBank="E31EF0DC-825E-4D60-8AED-3127019CF8F0" approvalRequired="1" approvalRequired_for_taxonomicNames="1" checkinTime="1629812306121" checkinUser="felipe" docAuthor="Agassiz, David J. L." docDate="2012" docId="03C387FBFFED6556FF434438FC52C372" docLanguage="en" docName="zt03494p073.pdf" docOrigin="Zootaxa 3494" docStyle="DocumentStyle:D239614CE4198176A422035174489AB1.2:Zootaxa.2009-2012.monograph" docStyleId="D239614CE4198176A422035174489AB1" docStyleName="Zootaxa.2009-2012.monograph" docStyleVersion="2" docTitle="Eoophyla piscatorum Published 2012, sp. n." docType="treatment" docVersion="8" lastPageId="42" lastPageNumber="43" masterDocId="FFFAFF83FFC4657CFFD44164FFA7C16A" masterDocTitle="The Acentropinae (Lepidoptera: Pyraloidea: Crambidae) of Africa" masterLastPageNumber="73" masterPageNumber="1" pageId="41" pageNumber="42" updateTime="1648232045389" updateUser="ExternalLinkService" zenodo-license-document="CLOSED">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>The Acentropinae (Lepidoptera: Pyraloidea: Crambidae) of Africa</mods:title>
@@ -33,9 +33,10 @@
 <mods:classification>journal article</mods:classification>
 <mods:identifier type="DOI">10.11646/zootaxa.3494.1.1</mods:identifier>
 <mods:identifier type="ISSN">1175­5334</mods:identifier>
+<mods:identifier type="Zenodo-Dep">6380783</mods:identifier>
 <mods:identifier type="ZooBank">E31EF0DC-825E-4D60-8AED-3127019CF8F0</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:03C387FBFFED6556FF434438FC52C372" httpUri="http://treatment.plazi.org/id/03C387FBFFED6556FF434438FC52C372" lastPageId="42" lastPageNumber="43" pageId="41" pageNumber="42">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6385405" ID-Zenodo-Dep="6385405" LSID="urn:lsid:plazi:treatment:03C387FBFFED6556FF434438FC52C372" httpUri="http://treatment.plazi.org/id/03C387FBFFED6556FF434438FC52C372" lastPageId="42" lastPageNumber="43" pageId="41" pageNumber="42">
 <subSubSection box="[151,482,1371,1398]" pageId="41" pageNumber="42" type="nomenclature">
 <paragraph blockId="41.[151,482,1371,1398]" box="[151,482,1371,1398]" pageId="41" pageNumber="42">
 <heading bold="true" box="[151,482,1371,1398]" fontSize="11" level="1" pageId="41" pageNumber="42" reason="1">
@@ -48,17 +49,8 @@
 </heading>
 </paragraph>
 </subSubSection>
-<subSubSection lastPageId="42" lastPageNumber="43" pageId="41" pageNumber="42" type="materials_examined">
-<paragraph blockId="41.[151,1436,1442,1971]" box="[151,514,1442,1467]" pageId="41" pageNumber="42">
-<materialsCitation box="[151,510,1442,1467]" country="Kenya" location="Kangema" pageId="41" pageNumber="42" specimenCount="1" typeStatus="holotype">
-<typeStatus box="[151,207,1443,1467]" pageId="41" pageNumber="42">Type</typeStatus>
-locality: 
-<collectingCountry box="[312,388,1443,1467]" name="Kenya" pageId="41" pageNumber="42">Kenya</collectingCountry>
-, 
-<location LSID="urn:lsid:plazi:treatment:03C387FBFFED6556FF434438FC52C372:8EB56036FFED6555FE5B44C7FE59C4D1" box="[399,510,1443,1467]" country="Kenya" name="Kangema" pageId="41" pageNumber="42">Kangema</location>
-</materialsCitation>
-.
-</paragraph>
+<subSubSection pageId="41" pageNumber="42" type="description">
+<paragraph blockId="41.[151,1436,1442,1971]" box="[151,514,1442,1467]" pageId="41" pageNumber="42">Type locality: Kenya, Kangema.</paragraph>
 <paragraph blockId="41.[151,1436,1442,1971]" pageId="41" pageNumber="42">
 Imago (Fig. 58): Wingspan 
 <quantity box="[515,631,1478,1502]" metricMagnitude="-2" metricUnit="m" metricValue="2.0" metricValueMax="2.2" metricValueMin="1.8" pageId="41" pageNumber="42" unit="mm" value="20.0" valueMax="22.0" valueMin="18.0">18–22mm</quantity>
@@ -67,37 +59,41 @@ Imago (Fig. 58): Wingspan
 <paragraph blockId="41.[151,1436,1442,1971]" pageId="41" pageNumber="42">Male genitalia (Fig. 122): Uncus long and drawn out to a point; gnathos 0.6x uncus, slender but widened at tip which bears thorns; valva sides almost parallel, specialised seta arising near apex, which is elbowed and the tip has a flat plate inwardly curved at the extremity; juxta with serrated sides; aedeagus with a cluster of fine cornuti.</paragraph>
 <paragraph blockId="41.[151,1436,1442,1971]" pageId="41" pageNumber="42">Female genitalia (Fig. 176): Ostium fairly wide, antrum long with sclerotisation before colliculum; colliculum a broad sclerotised band; corpus bursae 1.5 x antrum in length, ovate with a weakly scobinate patch.</paragraph>
 <paragraph blockId="41.[151,1436,1442,1971]" box="[199,976,1946,1971]" pageId="41" pageNumber="42">Tympanal organs: Venulae widely separate, gently waisted in middle.</paragraph>
+</subSubSection>
+<subSubSection pageId="42" pageNumber="43" type="diagnosis">
 <paragraph blockId="42.[151,1436,151,536]" pageId="42" pageNumber="43">Diagnosis: Distinguished from other species in the genus by the comparatively evenly coloured forewings and somewhat plain hindwings inside the terminal eyespots. In the male genitalia by the specialised setae arising from the termen of the valva and the shape of the gnathos.</paragraph>
 <paragraph blockId="42.[151,1436,151,536]" pageId="42" pageNumber="43">
-<materialsCitation country="Kenya" location="Fly Fishers Club" pageId="42" pageNumber="43" specimenCount="1">
 Derivation: Named “of the fishermen” on account of the 
 <typeStatus box="[870,918,260,284]" pageId="42" pageNumber="43">type</typeStatus>
 locality which is a fishing camp run by the 
 <collectingCountry box="[151,224,296,320]" name="Kenya" pageId="42" pageNumber="43">Kenya</collectingCountry>
 <location LSID="urn:lsid:plazi:treatment:03C387FBFFED6556FF434438FC52C372:8EB56036FFEE6556FF334043FE03C055" box="[231,420,295,319]" country="Kenya" name="Fly Fishers Club" pageId="42" pageNumber="43">Fly Fishers Club</location>
-, who gave permission for the fieldwork which yielded this species
-</materialsCitation>
-.
+, who gave permission for the fieldwork which yielded this species.
 </paragraph>
+</subSubSection>
+<subSubSection box="[199,1119,332,356]" pageId="42" pageNumber="43" type="biology_ecology">
 <paragraph blockId="42.[151,1436,151,536]" box="[199,1119,332,356]" pageId="42" pageNumber="43">Biology: Unknown. All specimens have been taken within a few metres of a river.</paragraph>
+</subSubSection>
+<subSubSection pageId="42" pageNumber="43" type="distribution">
 <paragraph blockId="42.[151,1436,151,536]" pageId="42" pageNumber="43">
 Distribution: Recorded only from the North and South Mathioya rivers, on the southern slopes of the Aberdares, near Kangema in Central 
 <collectingCountry box="[567,644,404,428]" name="Kenya" pageId="42" pageNumber="43">Kenya</collectingCountry>
 .
 </paragraph>
+</subSubSection>
+<subSubSection pageId="42" pageNumber="43" type="materials_examined">
 <paragraph blockId="42.[151,1436,151,536]" pageId="42" pageNumber="43">
-<materialsCitation collectingDate="2000-08-25" country="Kenya" county="Kangema" elevation="2134" latitude="-0.6666667" location="Material" longLatPrecision="1308" longitude="36.833332" municipality="Tuthu" pageId="42" pageNumber="43" specimenCount="14" specimenCount-female="2" specimenCount-male="12" typeStatus="holotype">
-<location LSID="urn:lsid:plazi:treatment:03C387FBFFED6556FF434438FC52C372:8EB56036FFEE6556FF1340D3FE81C0A5" box="[199,294,439,463]" country="Kenya" county="Kangema" latitude="-0.6666667" longLatPrecision="1308" longitude="36.833332" municipality="Tuthu" name="Material" pageId="42" pageNumber="43">Material</location>
-examined: 
+<materialsCitation collectingDate="2000-08-25" country="Kenya" county="Kangema" elevation="2134" latitude="-0.6666667" location="Tuthu fishing camp" longLatPrecision="1308" longitude="36.833332" municipality="Tuthu" pageId="42" pageNumber="43" specimenCount="1" specimenCount-female="2" specimenCount-male="1" stateProvince="Central" typeStatus="holotype">
+Material examined: 
 <typeStatus box="[428,532,439,463]" pageId="42" pageNumber="43">Holotype</typeStatus>
 <specimenCount box="[543,564,440,463]" pageId="42" pageNumber="43" type="male">♂</specimenCount>
 <collectingCountry box="[571,669,439,463]" name="Kenya" pageId="42" pageNumber="43">KENYA</collectingCountry>
 , 
-<location LSID="urn:lsid:plazi:treatment:03C387FBFFED6556FF434438FC52C372:8EB56036FFEE6556FD7E40D3FD58C0A5" box="[682,767,439,463]" country="Kenya" county="Kangema" latitude="-0.6666667" longLatPrecision="1308" longitude="36.833332" municipality="Tuthu" name="Central" pageId="42" pageNumber="43">Central</location>
+<collectingRegion box="[682,767,439,463]" pageId="42" pageNumber="43">Central</collectingRegion>
 , 
-<collectingMunicipality box="[780,846,439,463]" pageId="42" pageNumber="43">Tuthu</collectingMunicipality>
-fishing camp, near 
-<collectingCounty box="[1075,1185,440,464]" pageId="42" pageNumber="43">Kangema</collectingCounty>
+<location LSID="urn:lsid:plazi:treatment:03C387FBFFED6556FF434438FC52C372:8EB56036FFEE6556FCD840D3FC4BC0A5" box="[780,1004,439,463]" country="Kenya" county="Kangema" latitude="-0.6666667" longLatPrecision="1308" longitude="36.833332" municipality="Tuthu" name="Tuthu fishing camp" pageId="42" pageNumber="43" stateProvince="Central">Tuthu fishing camp</location>
+, 
+<location LSID="urn:lsid:plazi:treatment:03C387FBFFED6556FF434438FC52C372:8EB56036FFEE6556FC2E40DCFB06C0BA" box="[1018,1185,440,464]" country="Kenya" county="Kangema" latitude="-0.6666667" longLatPrecision="1308" longitude="36.833332" municipality="Tuthu" name="near Kangema" pageId="42" pageNumber="43" stateProvince="Central">near Kangema</location>
 , 
 <quantity box="[1198,1271,439,463]" metricMagnitude="3" metricUnit="m" metricValue="2.1336" pageId="42" pageNumber="43" unit="ft" value="7000.0">
 <elevation box="[1198,1271,439,463]" metricMagnitude="3" metricUnit="m" metricValue="2.1336" pageId="42" pageNumber="43" unit="ft" value="7000.0">7000ft</elevation>
@@ -110,26 +106,28 @@ fishing camp, near
 <date box="[231,369,476,500]" pageId="42" pageNumber="43" value="2000-08-25">
 <collectingDate box="[231,369,476,500]" pageId="42" pageNumber="43" value="2000-08-25">25.viii.2000</collectingDate>
 </date>
-, 
+,
+</materialsCitation>
+<materialsCitation box="[380,738,476,500]" collectingDate="2000-08-25" country="Kenya" county="Kangema" elevation="2134" latitude="-0.6666667" location="Material" longLatPrecision="1308" longitude="36.833332" municipality="Tuthu" pageId="42" pageNumber="43" specimenCount="13" specimenCount-female="2" specimenCount-male="11">
 <specimenCount box="[380,564,476,500]" pageId="42" pageNumber="43" type="male" typeStatus="paratypes">11 paratypes 3♂</specimenCount>
 , 
 <specimenCount box="[578,613,476,500]" pageId="42" pageNumber="43" type="female">2♀</specimenCount>
 same data.
 </materialsCitation>
-</paragraph>
-<paragraph blockId="42.[151,1436,151,536]" box="[199,1013,511,536]" pageId="42" pageNumber="43">
-<materialsCitation box="[199,1009,511,536]" collectingDate="2006-11-30" collectorName="N. Mathioya &amp; Kangema" pageId="42" pageNumber="43" specimenCount="6" specimenCount-male="6">
+<materialsCitation box="[199,570,511,535]" collectingDate="2006-11-30" collectorName="N. Mathioya &amp; Kangema" pageId="42" pageNumber="43" specimenCount="2" specimenCount-male="2">
 and 
 <specimenCount box="[246,281,511,535]" pageId="42" pageNumber="43" type="male">2♂</specimenCount>
 same locality 
 <date box="[444,566,511,535]" pageId="42" pageNumber="43" value="2006-11-30">
 <collectingDate box="[444,566,511,535]" pageId="42" pageNumber="43" value="2006-11-30">30.xi.2006</collectingDate>
 </date>
-, 
+,
+</materialsCitation>
+<materialsCitation box="[578,1009,511,536]" collectingDate="2006-11-30" collectorName="N. Mathioya" location="near Kangema" pageId="42" pageNumber="43" specimenCount="4" specimenCount-male="4">
 <specimenCount box="[578,612,511,535]" pageId="42" pageNumber="43" type="male">4♂</specimenCount>
 <collectorName box="[620,761,511,535]" pageId="42" pageNumber="43">N. Mathioya</collectorName>
-camp, near 
-<collectorName box="[898,1009,512,536]" pageId="42" pageNumber="43">Kangema</collectorName>
+camp, 
+<location LSID="urn:lsid:plazi:treatment:03C387FBFFED6556FF434438FC52C372:8EB56036FFEE6556FC9E4364FC56C372" box="[842,1009,512,536]" name="near Kangema" pageId="42" pageNumber="43">near Kangema</location>
 </materialsCitation>
 .
 </paragraph>
