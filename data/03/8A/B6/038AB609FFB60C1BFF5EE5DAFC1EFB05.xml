@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6181916" ID-GBIF-Dataset="f033be9c-7235-4a96-8642-8185cf173666" ID-GBIF-Taxon="119528831" ID-ISSN="1175-5326" ID-Zenodo-Dep="6181916" checkinTime="1460544648603" checkinUser="plazi" docAuthor="Michel, Bruno &amp; Akoudjin, Massouroudini" docDate="2012" docId="038AB609FFB60C1BFF5EE5DAFC1EFB05" docLanguage="en" docName="zt03519p052.pdf" docOrigin="Zootaxa 3519" docStyle="DocumentStylede.uka.ipd.idaho.easyIO.settings.Settings@b4d83ac" docStyleName="zootaxa.2007.monograph" docTitle="Neuroleon rapax Michel &amp; Akoudjin" docType="treatment" docVersion="7" lastPageNumber="46" masterDocId="FFB3CE71FFB80C15FFC9E54DFF8BFFB1" masterDocTitle="Review of Neuroleon Navás of West Africa with descriptions of four new species (Neuroptera, Myrmeleontidae)" masterLastPageNumber="52" masterPageNumber="32" pageId="14" pageNumber="46" updateTime="1645347220660" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6181916" ID-GBIF-Dataset="f033be9c-7235-4a96-8642-8185cf173666" ID-GBIF-Taxon="119528831" ID-ISSN="1175-5326" ID-Zenodo-Dep="6181916" ID-ZooBank="E7E9CC12-4ECF-4A13-8E81-F56803F9B0B6" approvalRequired="16" approvalRequired_for_originalDoi="1" approvalRequired_for_textStreams="7" approvalRequired_for_treatments="8" checkinTime="1460544648603" checkinUser="plazi" docAuthor="Michel, Bruno &amp; Akoudjin, Massouroudini" docDate="2012" docId="038AB609FFB60C1BFF5EE5DAFC1EFB05" docLanguage="en" docName="zt03519p052.pdf" docOrigin="Zootaxa 3519" docStyle="DocumentStyle:890A69B780ED73D6DB8551B71C8AC79E.3:Zootaxa.2009-2012.journal_article" docStyleId="890A69B780ED73D6DB8551B71C8AC79E" docStyleName="Zootaxa.2009-2012.journal_article" docStyleVersion="3" docTitle="Neuroleon rapax Michel &amp; Akoudjin" docType="treatment" docVersion="9" lastPageNumber="46" masterDocId="FFB3CE71FFB80C15FFC9E54DFF8BFFB1" masterDocTitle="Review of Neuroleon Navás of West Africa with descriptions of four new species (Neuroptera, Myrmeleontidae)" masterLastPageNumber="52" masterPageNumber="32" pageId="14" pageNumber="46" updateTime="1648584051388" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Review of Neuroleon Navás of West Africa with descriptions of four new species (Neuroptera, Myrmeleontidae)</mods:title>
@@ -22,6 +22,9 @@
 </mods:titleInfo>
 <mods:part>
 <mods:date>2012</mods:date>
+<mods:detail type="pubDate">
+<mods:number>2012-10-17</mods:number>
+</mods:detail>
 <mods:detail type="volume">
 <mods:number>3519</mods:number>
 </mods:detail>
@@ -120,7 +123,7 @@ Narrow. Forewing
 wing 
 <number box="[1155,1176,665,689]" pageId="14" pageNumber="46" value="3.0">3</number>
 <quantity box="[1184,1266,665,689]" metricMagnitude="-2" metricUnit="m" metricValue="1.9" pageId="14" pageNumber="46" unit="mm" value="19.0">19 mm</quantity>
-, Ƥ 
+, ♀ 
 <quantity box="[1307,1432,665,689]" metricMagnitude="-2" metricUnit="m" metricValue="2.25" metricValueMax="2.4" metricValueMin="2.1" pageId="14" pageNumber="46" unit="mm" value="22.5" valueMax="24.0" valueMin="21.0">21–24 mm</quantity>
 . One to five crossveins in apical field. Membrane hyaline. Forewing with conspicuous cubital and rhegmal marks. 
 <collectingCountry box="[151,207,738,762]" name="India" pageId="14" pageNumber="46">Hind</collectingCountry>
@@ -163,54 +166,75 @@ Fig.
 <emphasis bold="true" box="[199,617,922,947]" pageId="14" pageNumber="46">
 <typeStatus box="[199,258,923,947]" pageId="14" pageNumber="46">Type</typeStatus>
 material examined. 
+<materialsCitation collectingDate="1996-10-30" collectionCode="CIRAD-CBGP" country="Serbia" location="CMDT factory" municipality="Sikasso" pageId="14" pageNumber="46" specimenCount="1" specimenCount-female="1" typeStatus="holotype">
 <typeStatus box="[508,617,923,947]" pageId="14" pageNumber="46">Holotype</typeStatus>
-</emphasis>
-Ƥ 
+<specimenCount box="[626,647,923,946]" pageId="14" pageNumber="46" type="female">♀</specimenCount>
 <emphasis bold="true" box="[656,830,922,947]" pageId="14" pageNumber="46">
 <collectingCountry box="[656,732,922,947]" name="Serbia" pageId="14" pageNumber="46">MALI</collectingCountry>
-Sikasso
+<collectingMunicipality box="[741,830,922,947]" pageId="14" pageNumber="46">Sikasso</collectingMunicipality>
 </emphasis>
 <date box="[839,959,922,946]" pageId="14" pageNumber="46" value="1996-10-30">
+<collectingDate box="[839,959,922,946]" pageId="14" pageNumber="46" value="1996-10-30">
 <number box="[839,869,922,946]" pageId="14" pageNumber="46" value="30.0">30</number>
 .X. 
 <number box="[899,959,922,946]" pageId="14" pageNumber="46" value="1996.0">1996</number>
+</collectingDate>
 </date>
 , 
-<collectionCode box="[973,1054,922,946]" pageId="14" pageNumber="46">CMDT</collectionCode>
-factory, collected in the morning under a lamp on a wall (attracted to light during the night) (Coll. CIRAD-CBGP). 
+<location LSID="urn:lsid:plazi:treatment:038AB609FFB60C1BFF5EE5DAFC1EFB05:8EFC51C4FFB60C1BFC04E6D7FBF3FC03" box="[973,1144,922,946]" country="Serbia" municipality="Sikasso" name="CMDT factory" pageId="14" pageNumber="46">CMDT factory</location>
+, collected in the morning under a lamp on a wall (attracted to light during the night) (Coll. 
+<collectionCode box="[890,1065,959,983]" pageId="14" pageNumber="46">CIRAD-CBGP</collectionCode>
+)
+</materialsCitation>
+</emphasis>
+. 
 <typeStatus box="[1084,1204,960,984]" pageId="14" pageNumber="46">
 <emphasis bold="true" box="[1084,1204,960,984]" pageId="14" pageNumber="46">Paratypes</emphasis>
 </typeStatus>
 (
 <number box="[1223,1235,959,983]" pageId="14" pageNumber="46" value="1.0">1</number>
 <number box="[1243,1293,959,984]" pageId="14" pageNumber="46" value="3.3">3, 3</number>
-ƤƤ) 
+♀♀) 
+<materialsCitation collectionCode="CIRAD-CBGP" country="Serbia" location="Sikasso" pageId="14" pageNumber="46" specimenCount="1" specimenCount-female="1" typeStatus="paratype">
 <emphasis bold="true" pageId="14" pageNumber="46">
 <collectingCountry box="[1359,1435,959,984]" name="Serbia" pageId="14" pageNumber="46">MALI</collectingCountry>
-Sikasso
+<location LSID="urn:lsid:plazi:treatment:038AB609FFB60C1BFF5EE5DAFC1EFB05:8EFC51C4FFB60C1BFF5EE6A9FF7BFC4C" box="[151,240,996,1021]" country="Serbia" name="Sikasso" pageId="14" pageNumber="46">Sikasso</location>
 </emphasis>
+<specimenCount box="[256,291,996,1020]" pageId="14" pageNumber="46" type="female">
 <number box="[256,270,996,1020]" pageId="14" pageNumber="46" value="1.0">1</number>
-Ƥ no date; 
+♀
+</specimenCount>
+no date
+</materialsCitation>
+; 
+<materialsCitation box="[422,1229,996,1020]" collectingDate="1997-10-28" collectionCode="CIRAD-CBGP" pageId="14" pageNumber="46" specimenCount="1" specimenCount-female="1" typeStatus="paratype">
+<specimenCount box="[422,457,996,1020]" pageId="14" pageNumber="46" type="female">
 <number box="[422,436,996,1020]" pageId="14" pageNumber="46" value="1.0">1</number>
-Ƥ 
+♀
+</specimenCount>
 <date box="[474,594,996,1020]" pageId="14" pageNumber="46" value="1997-10-28">
+<collectingDate box="[474,594,996,1020]" pageId="14" pageNumber="46" value="1997-10-28">
 <number box="[474,504,996,1020]" pageId="14" pageNumber="46" value="28.0">28</number>
 .X. 
 <number box="[534,594,996,1020]" pageId="14" pageNumber="46" value="1997.0">1997</number>
+</collectingDate>
 </date>
-, 
-<collectionCode box="[615,707,996,1020]" pageId="14" pageNumber="46">CRRAS</collectionCode>
-in the morning on a wall under a lamp; 
+, CRRAS in the morning on a wall under a lamp
+</materialsCitation>
+; 
+<materialsCitation box="[1250,1436,996,1020]" collectingDate="1994-11-07" collectionCode="CIRAD-CBGP" pageId="14" pageNumber="46" specimenCount="1" specimenCount-female="1" typeStatus="paratype">
 <number box="[1250,1264,996,1020]" pageId="14" pageNumber="46" value="1.0">1</number>
-Ƥ 
+♀ 
 <date box="[1301,1432,996,1020]" pageId="14" pageNumber="46" value="1994-11-07">
 07.XI. 
 <number box="[1372,1432,996,1020]" pageId="14" pageNumber="46" value="1994.0">1994</number>
 </date>
-. 
+.
+</materialsCitation>
+<materialsCitation collectingDate="1998-09-28" collectionCode="CIRAD-CBGP" collectorName="J. - C. Streito" country="Cameroon" latitude="10.6" location="Experimental Station of IRAD" longLatPrecision="7789" longitude="14.4" municipality="Guiring" pageId="14" pageNumber="46" specimenCount="1" typeStatus="paratype">
 <emphasis bold="true" box="[151,425,1032,1057]" pageId="14" pageNumber="46">
 <collectingCountry box="[151,321,1032,1057]" name="Cameroon" pageId="14" pageNumber="46">CAMEROON</collectingCountry>
-Guiring
+<collectingMunicipality box="[330,425,1032,1057]" pageId="14" pageNumber="46">Guiring</collectingMunicipality>
 </emphasis>
 [
 <geoCoordinate box="[442,535,1033,1057]" direction="north" orientation="latitude" pageId="14" pageNumber="46" precision="5555" value="10.6">
@@ -225,13 +249,22 @@ Guiring
 ] 
 <number box="[654,689,1033,1057]" pageId="14" pageNumber="46" value="13.0">13</number>
 <date box="[699,829,1033,1057]" pageId="14" pageNumber="46" value="1998-09-28">
+<collectingDate box="[699,829,1033,1057]" pageId="14" pageNumber="46" value="1998-09-28">
 <number box="[699,729,1033,1057]" pageId="14" pageNumber="46" value="28.0">28</number>
 .IX. 
 <number box="[769,829,1033,1057]" pageId="14" pageNumber="46" value="1998.0">1998</number>
+</collectingDate>
 </date>
-, Experimental Station of 
-<collectionCode box="[1126,1195,1033,1057]" pageId="14" pageNumber="46">IRAD</collectionCode>
-near Maroua, cotton field with small trees and grass, J.-C. Streito leg (All in coll. CIRAD-CBGP).
+, 
+<location LSID="urn:lsid:plazi:treatment:038AB609FFB60C1BFF5EE5DAFC1EFB05:8EFC51C4FFB60C1BFC85E144FB20FB90" box="[844,1195,1033,1057]" country="Cameroon" latitude="10.6" longLatPrecision="7789" longitude="14.4" municipality="Guiring" name="Experimental Station of IRAD" pageId="14" pageNumber="46">Experimental Station of IRAD</location>
+near 
+<location LSID="urn:lsid:plazi:treatment:038AB609FFB60C1BFF5EE5DAFC1EFB05:8EFC51C4FFB60C1BFB27E147FAC3FB90" box="[1262,1352,1034,1057]" country="Cameroon" latitude="10.6" longLatPrecision="7789" longitude="14.4" municipality="Guiring" name="Maroua" pageId="14" pageNumber="46">Maroua</location>
+, cotton field with small trees and grass, 
+<collectorName box="[512,646,1070,1094]" pageId="14" pageNumber="46">J.-C. Streito</collectorName>
+leg (All in coll. 
+<collectionCode box="[831,1006,1070,1094]" pageId="14" pageNumber="46">CIRAD-CBGP</collectionCode>
+).
+</materialsCitation>
 </paragraph>
 </subSubSection>
 <subSubSection pageId="14" pageNumber="46" type="etymology">
