@@ -1,0 +1,791 @@
+<document id="87FF4F1D3730B8CD7143F40CA694CCE4" ID-DOI="http://doi.org/10.5281/zenodo.5616627" ID-GBIF-Dataset="3041710b-7086-4d82-b50f-88a69663c8e4" ID-GBIF-Taxon="164500972" ID-ISSN="2118-9773" ID-Zenodo-Dep="5616627" ID-ZooBank="0EB6286C-D047-4846-9983-7917616B606E" LSID="urn:lsid:zoobank.org:act:00164E0B-2084-4DDD-9480-5C5D3D9F1819" checkinTime="1591816778565" checkinUser="valdenar" docAuthor="Leduc, Daniel, Zhao, Zeng Qi &amp; Sinniger, Frederic" docDate="2020" docId="03C3806AFFD98A0FFDD17514FDE114DA" docLanguage="en" docName="ejt-661_leduc_zhao_sinniger.pdf.imf" docOrigin="European Journal of Taxonomy 661" docStyle="DocumentStyle:EF2B578F1D15862ADE45B0C07C620911.12:EJT.2018-.journal_article" docStyleId="EF2B578F1D15862ADE45B0C07C620911" docStyleName="EJT.2018-.journal_article" docStyleVersion="12" docTitle="Halanonchus scintillatulus Leduc &amp; Zhao &amp; Sinniger 2020, sp. nov." docType="treatment" docUuid="00164E0B-2084-4DDD-9480-5C5D3D9F1819" docUuidSource="ZooBank" docVersion="5" lastPageId="31" lastPageNumber="32" masterDocId="FFFAF812FFC18A10FFCD7152FFEC150F" masterDocTitle="Halanonchus scintillatulus sp. nov. from New Zealand and a review of the suborder Trefusiina (Nematoda: Enoplida)" masterLastPageNumber="45" masterPageNumber="1" pageId="24" pageNumber="25" updateTime="1635511812986" updateUser="ExternalLinkService" zenodo-license-document="CC-BY-4.0" zenodo-license-figures="CC-BY-4.0" zenodo-license-treatments="UNSPECIFIED">
+<mods:mods id="9119C13423C25226999B8FEC97AD42F1" xmlns:mods="http://www.loc.gov/mods/v3">
+<mods:titleInfo id="2CB85B4D7BB063F5728EDF05B8D3E5CD">
+<mods:title id="10F6B2A181DBA53CACA5936801156269">Halanonchus scintillatulus sp. nov. from New Zealand and a review of the suborder Trefusiina (Nematoda: Enoplida)</mods:title>
+</mods:titleInfo>
+<mods:name id="96409A590540AD16AC99E9F20376B0A0" type="personal">
+<mods:role id="68E8FDEB8CE8F8E5C7EC514019B5C46C">
+<mods:roleTerm id="467BA7EBB67EAF00BDA5FEB989A7F0BB">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="E6A781214D27D83DB0D902D9A767CC47">Leduc, Daniel</mods:namePart>
+<mods:nameIdentifier id="9DCFEAB9D27EB339FF4443C4576F2C1D" type="LSID">9393949F-3426-4EE2-8BDE-DEFFACE3D9BC</mods:nameIdentifier>
+<mods:affiliation id="0AC02A60BDC0DB2F2AAEA493DF3C9CAB">National Institute of Water and Atmospheric Research, Wellington, 14 - 901, New Zealand. &amp; urn: lsid: zoobank. org: author: 9393949 F- 3426 - 4 EE 2 - 8 BDE-DEFFACE 3 D 9 BC &amp; Corresponding author: Daniel. Leduc @ niwa. co. nz</mods:affiliation>
+<mods:nameIdentifier id="3D2816BB10AF0454051A255338D34666" type="email">educ@niwa.co.nz</mods:nameIdentifier>
+</mods:name>
+<mods:name id="7E1819820EFAB0F678B4699E6904020D" type="personal">
+<mods:role id="92BC4DEE02B445DD0AF2101DC9C22F79">
+<mods:roleTerm id="A83F0E3FC71BDC93C62FDB4755FAA664">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="9C029464A3D37561EAF730EA3E8AED5B">Zhao, Zeng Qi</mods:namePart>
+<mods:nameIdentifier id="905338AE87F9344C22DC57E668AFA07A" type="LSID">F5BEE9FD-801A-49C6-9585-C765EE77A123</mods:nameIdentifier>
+<mods:affiliation id="58A6EEDA2C547D526FAEAC693EB62DA5">Landcare Research, Private Bag 92170, Auckland Mail Centre, Auckland 1142, New Zealand. &amp; Email: ZhaoZ @ landcareresearch. co. nz &amp; urn: lsid: zoobank. org: author: F 5 BEE 9 FD- 801 A- 49 C 6 - 9585 - C 765 EE 77 A 123</mods:affiliation>
+</mods:name>
+<mods:name id="99CC045AE53CF1B671B3DB341F27E2AC" type="personal">
+<mods:role id="B356BE660052D2EA2F690B5C4024C552">
+<mods:roleTerm id="4A0680359478C3EAE72F5F700DEB5791">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="024136C15AAA6309DED21C1990553ED4">Sinniger, Frederic</mods:namePart>
+<mods:nameIdentifier id="436D6B9AE87296B0171A1A25AB8B1BB7" type="LSID">28A9340C-0CC3-4365-8FB2-1313DCE04C73</mods:nameIdentifier>
+<mods:affiliation id="E40A0BBB08D1160A4CF0D079101EF434">Tropical Biosphere Research Centre, University of the Ryukyus, Motobu, Okinawa, Japan. &amp; Email: fredsinniger @ gmail. com &amp; urn: lsid: zoobank. org: author: 28 A 9340 C- 0 CC 3 - 4365 - 8 FB 2 - 1313 DCE 04 C 73</mods:affiliation>
+<mods:nameIdentifier id="C860164D56AE5AA1AC38C2064ED4FE91" type="email">fredsinniger@gmail.com</mods:nameIdentifier>
+</mods:name>
+<mods:typeOfResource id="5B6EA6EE5A105ADB3785D696A9B2225E">text</mods:typeOfResource>
+<mods:relatedItem id="E91D91E88180284EC95B6BC04D484E2A" type="host">
+<mods:titleInfo id="8AE181831385F76C7CB80FE7D0AE0108">
+<mods:title id="BF12F066031DC55F69BAF3A79F6F0CF1">European Journal of Taxonomy</mods:title>
+</mods:titleInfo>
+<mods:part id="2D6D85BD0D00C6DFD70B396A7307DC01">
+<mods:date id="8F928211F02E888DD9082B80B66FD991">2020</mods:date>
+<mods:detail id="F9DD78DFCCC27A8DA6291E074806BEC3" type="pubDate">
+<mods:number id="FCD05367D1FAE037CD9A53205DDDC84F">2020-06-08</mods:number>
+</mods:detail>
+<mods:detail id="6AD1E1F73E20AF2DA7EA40799E2570CF" type="issue">
+<mods:number id="22425546922611D9A147DF796131C493">661</mods:number>
+</mods:detail>
+<mods:extent id="4897F3D75DA0A675DA40BC388C6484F5" unit="page">
+<mods:start id="4F1C02BB8F0C2E77E77F3D78FF787F8C">1</mods:start>
+<mods:end id="9ACF5C68782E373865048D6EB113D1A1">45</mods:end>
+</mods:extent>
+</mods:part>
+</mods:relatedItem>
+<mods:classification id="270B60DED9DB620B332ECAE9EFFF9E6F">journal article</mods:classification>
+<mods:identifier id="75040A6E53E0239DDE9A5E3BA9167C16" type="DOI">https://doi.org/10.5852/ejt.2020.661</mods:identifier>
+<mods:identifier id="2B39A25F533125A9028928D86B1D5C86" type="GBIF-Dataset">3041710b-7086-4d82-b50f-88a69663c8e4</mods:identifier>
+<mods:identifier id="87884D5C615837D3B3E9616AB7CCDA3B" type="ISSN">2118-9773</mods:identifier>
+<mods:identifier id="9BB8E678258C02A6EEB8F3A1278A043A" type="Zenodo-Dep">3888846</mods:identifier>
+<mods:identifier id="D085DF30CF561DE5085C130FB54B9568" type="ZooBank">0EB6286C-D047-4846-9983-7917616B606E</mods:identifier>
+</mods:mods>
+<treatment id="03C3806AFFD98A0FFDD17514FDE114DA" ID-DOI="http://doi.org/10.5281/zenodo.5616627" ID-GBIF-Taxon="164500972" ID-Zenodo-Dep="5616627" LSID="urn:lsid:zoobank.org:act:00164E0B-2084-4DDD-9480-5C5D3D9F1819" httpUri="http://treatment.plazi.org/id/03C3806AFFD98A0FFDD17514FDE114DA" lastPageId="31" lastPageNumber="32" pageId="24" pageNumber="25">
+<subSubSection id="C37062F7FFD98A08FDD17514FBFB116E" box="[540,1047,1094,1121]" pageId="24" pageNumber="25" type="nomenclature">
+<paragraph id="8BD5317CFFD98A08FDD17514FBFB116E" blockId="24.[369,1218,1094,1192]" box="[540,1047,1094,1121]" pageId="24" pageNumber="25">
+<heading id="D09D8610FFD98A08FDD17514FBFB116E" box="[540,1047,1094,1121]" centered="true" fontSize="11" level="2" pageId="24" pageNumber="25" reason="2">
+<taxonomicName id="4C6A4AFFFFD98A08FDD17514FC59116E" authority="Leduc" authorityName="Leduc &amp; Zhao &amp; Sinniger" authorityYear="2020" box="[540,949,1094,1121]" class="Adenophorea" family="Trefusiidae" genus="Halanonchus" kingdom="Animalia" order="Enoplida" pageId="24" pageNumber="25" phylum="Nematoda" rank="species" species="scintillatulus" status="sp. nov.">
+<emphasis id="B91EED6EFFD98A08FDD17514FC89116E" bold="true" box="[540,869,1094,1121]" italics="true" pageId="24" pageNumber="25">Halanonchus scintillatulus</emphasis>
+Leduc
+</taxonomicName>
+<taxonomicNameLabel id="A22D5015FFD98A08FC707515FBFB116E" box="[957,1047,1095,1121]" pageId="24" pageNumber="25" rank="species">sp. nov.</taxonomicNameLabel>
+</heading>
+</paragraph>
+</subSubSection>
+<subSubSection id="C37062F7FFD98A08FEBC7538FC7811A7" pageId="24" pageNumber="25" type="description">
+<paragraph id="8BD5317CFFD98A08FEBC7538FB2E118A" blockId="24.[369,1218,1094,1192]" box="[369,1218,1130,1157]" pageId="24" pageNumber="25">
+<uri id="FFFB3D7EFFD98A08FEBC7538FB2E118A" box="[369,1218,1130,1157]" pageId="24" pageNumber="25">
+urn:lsid:zoobank.org:act: 
+<uuid id="FFCC0BA9FFD98A08FD5D7538FB2E118A" box="[656,1218,1130,1157]" pageId="24" pageNumber="25">00164E0B-2084-4DDD-9480-5C5D3D9F1819</uuid>
+</uri>
+</paragraph>
+<paragraph id="8BD5317CFFD98A08FD5275DFFC7811A7" blockId="24.[369,1218,1094,1192]" box="[671,916,1165,1192]" pageId="24" pageNumber="25">
+<tableCitation id="C6E804C7FFD98A08FD5275DFFCCE11A8" box="[671,802,1165,1191]" captionStart-0="Table 2" captionStart-1="Table 3" captionStartId-0="25.[189,258,268,294]" captionStartId-1="26.[189,258,268,294]" captionTargetPageId-0="25" captionTargetPageId-1="26" captionText-0="Table 2. Morphometrics (μm; mean (range)) of Halanonchus scintillatulus Leduc sp. nov. from Hauraki Gulf. Abbreviations see Material and methods." captionText-1="Table 3. Key morphological characters of all valid Halanonchus species. Abbreviations: N = no; ND = no data; Y = yes; otherwise, see Material and methods." httpUri-0="http://table.plazi.org/id/DF1561F4FFD88A09FF70705EFD0E1447" httpUri-1="http://table.plazi.org/id/DF1561F4FFDB8A0AFF70705EFCAC1447" pageId="24" pageNumber="25" tableUuid-0="DF1561F4FFD88A09FF70705EFD0E1447" tableUuid-1="DF1561F4FFDB8A0AFF70705EFCAC1447">Tables 2–3</tableCitation>
+; 
+<figureCitation id="13512DF9FFD98A08FCE375DFFC7811A7" box="[814,916,1165,1192]" captionStart-0="Fig" captionStart-1="Fig" captionStart-2="Fig" captionStart-3="Fig" captionStartId-0="27.[189,232,1895,1921]" captionStartId-1="28.[189,232,1895,1921]" captionStartId-2="29.[189,232,1954,1980]" captionStartId-3="30.[189,232,1827,1853]" captionTargetBox-0="[241,1348,740,1829]" captionTargetBox-1="[230,1360,341,1843]" captionTargetBox-2="[232,1327,347,1850]" captionTargetBox-3="[196,1392,1079,1786]" captionTargetId-0="figure@27.[233,1355,722,1855]" captionTargetId-1="figure@28.[199,1388,317,1856]" captionTargetId-2="figure@29.[210,1377,315,1887]" captionTargetId-3="figure@30.[189,1398,1074,1789]" captionTargetPageId-0="27" captionTargetPageId-1="28" captionTargetPageId-2="29" captionTargetPageId-3="30" captionText-0="Fig. 5. Schematic representation of buccal cavity wall cuticularization in Halanonchus based on observations of Halanonchus scintillatulus Leduc sp. nov. and illustrations of other Halanonchus species. Only the two ventrosublateral sectors are shown (dorsal sector omitted for clarity). Thin lines show contours of gymnostoma, and thick lines show contours of stegostoma." captionText-1="Fig. 6. Halanonchus scintillatulus Leduc sp. nov. A. ♀, cephalic region, paratype (NNCNZ3329). B. ♂, cephalic region, holotype (NIWA 139240). C. ♂, cephalic region, paratype (NIWA 139241). D. ♂, copulatory apparatus, holotype. E. ♂, posterior body region, holotype. Scale bars: A–C = 20 μm; D = 35 μm; E = 45 μm." captionText-2="Fig. 7. Halanonchus scintillatulus Leduc sp. nov. A. Entire ♂, holotype (NIWA 139240). B. Entire ♀, paratype (NNCNZ3328). Scale bar = 125 μm." captionText-3="Fig. 8. Halanonchus scintillatulus Leduc sp. nov., light micrographs, ♀, paratype (NNCNZ3329). A. Sublateral optical cross section of buccal cavity showing teeth-like structures at anterior edge of stegostoma wall. B. Subsurface view of same specimen showing discontinuity in cuticularisation of buccal cavity wall between gymnostoma and stegostoma, and at the junctions between the dorsal and ventrosublateral sectors, which may be interpreted as forming “oval structures”. Abbreviations see Material and methods. Scale bar = 10 μm." figureDoi-0="http://doi.org/10.5281/zenodo.3888858" figureDoi-1="http://doi.org/10.5281/zenodo.3888860" figureDoi-2="http://doi.org/10.5281/zenodo.3888862" figureDoi-3="http://doi.org/10.5281/zenodo.3888864" httpUri-0="https://zenodo.org/record/3888858/files/figure.png" httpUri-1="https://zenodo.org/record/3888860/files/figure.png" httpUri-2="https://zenodo.org/record/3888862/files/figure.png" httpUri-3="https://zenodo.org/record/3888864/files/figure.png" pageId="24" pageNumber="25">Figs 5–8</figureCitation>
+</paragraph>
+</subSubSection>
+<subSubSection id="C37062F7FFD98A09FF70759CFE821398" lastPageId="25" lastPageNumber="26" pageId="24" pageNumber="25" type="diagnosis">
+<paragraph id="8BD5317CFFD98A08FF70759CFEDA11E7" blockId="24.[189,310,1230,1256]" box="[189,310,1230,1256]" pageId="24" pageNumber="25">
+<heading id="D09D8610FFD98A08FF70759CFEDA11E7" bold="true" box="[189,310,1230,1256]" fontSize="11" level="3" pageId="24" pageNumber="25" reason="3">
+<emphasis id="B91EED6EFFD98A08FF70759CFEDA11E7" bold="true" box="[189,310,1230,1256]" pageId="24" pageNumber="25">Diagnosis</emphasis>
+</heading>
+</paragraph>
+<paragraph id="8BD5317CFFD98A08FF7075AFFC7E10C8" blockId="24.[189,1399,1277,1480]" pageId="24" pageNumber="25">
+<taxonomicName id="4C6A4AFFFFD98A08FF7075AFFE1B1018" authority="Leduc &amp; Zhao &amp; Sinniger, 2020" authorityName="Leduc &amp; Zhao &amp; Sinniger" authorityYear="2020" box="[189,503,1277,1303]" class="Adenophorea" family="Trefusiidae" genus="Halanonchus" kingdom="Animalia" order="Enoplida" pageId="24" pageNumber="25" phylum="Nematoda" rank="species" species="scintillatulus" status="sp. nov.">
+<emphasis id="B91EED6EFFD98A08FF7075AFFE1B1018" box="[189,503,1277,1303]" italics="true" pageId="24" pageNumber="25">Halanonchus scintillatulus</emphasis>
+</taxonomicName>
+<taxonomicNameLabel id="A22D5015FFD98A08FE3175ACFDB91017" box="[508,597,1278,1304]" pageId="24" pageNumber="25" rank="species">sp. nov.</taxonomicNameLabel>
+is characterized by body length 
+<date id="FFD417BCFFD98A08FC0A75AFFBA71017" box="[967,1099,1277,1304]" pageId="24" pageNumber="25" value="1385" valueMax="1815">1385–1815</date>
+μm, papillose inner labial sensilla very close to outer labial setae, cephalic setae 0.20–0.33 cbd long, amphids located posterior to buccal cavity, buccal cavity with discontinuity between gymnostoma and stegostoma walls, slight toothlike projection of anterior edge of stegostoma wall and tail 440–623 μm long. Males with row of 6–12 pharyngeal supplements, 11–21 precloacal supplements and arcuate spicules 1.1–1.3 cbd long; females with vulva at 31–34% of body length from anterior extremity.
+</paragraph>
+<paragraph id="8BD5317CFFD98A08FF7074BCFE251307" blockId="24.[189,457,1518,1544]" box="[189,457,1518,1544]" pageId="24" pageNumber="25">
+<heading id="D09D8610FFD98A08FF7074BCFE251307" bold="true" box="[189,457,1518,1544]" fontSize="11" level="3" pageId="24" pageNumber="25" reason="3">
+<emphasis id="B91EED6EFFD98A08FF7074BCFE251307" bold="true" box="[189,457,1518,1544]" pageId="24" pageNumber="25">Differential diagnosis</emphasis>
+</heading>
+</paragraph>
+<paragraph id="8BD5317CFFD98A09FF70774FFE821398" blockId="24.[189,1399,1565,2014]" lastBlockId="25.[189,1398,1625,1687]" lastPageId="25" lastPageNumber="26" pageId="24" pageNumber="25">
+<taxonomicName id="4C6A4AFFFFD98A08FF70774FFDA61338" authority="Leduc" authorityName="Leduc &amp; Zhao &amp; Sinniger" authorityYear="2020" box="[189,586,1565,1591]" class="Adenophorea" family="Trefusiidae" genus="Halanonchus" kingdom="Animalia" order="Enoplida" pageId="24" pageNumber="25" phylum="Nematoda" rank="species" species="scintillatulus" status="sp. nov.">
+<emphasis id="B91EED6EFFD98A08FF70774FFE161338" box="[189,506,1565,1591]" italics="true" pageId="24" pageNumber="25">Halanonchus scintillatulus</emphasis>
+Leduc
+</taxonomicName>
+<taxonomicNameLabel id="A22D5015FFD98A08FD9E774CFD431337" box="[595,687,1566,1592]" pageId="24" pageNumber="25" rank="species">sp. nov.</taxonomicNameLabel>
+is the smallest species of the genus, with a body length less than 2000 μm (
+<tableCitation id="C6E804C7FFD98A08FEBA7712FE381355" box="[375,468,1600,1626]" captionStart="Table 3" captionStartId="26.[189,258,268,294]" captionTargetPageId="26" captionText="Table 3. Key morphological characters of all valid Halanonchus species. Abbreviations: N = no; ND = no data; Y = yes; otherwise, see Material and methods." httpUri="http://table.plazi.org/id/DF1561F4FFDB8A0AFF70705EFCAC1447" pageId="24" pageNumber="25" tableUuid="DF1561F4FFDB8A0AFF70705EFCAC1447">Table 3</tableCitation>
+). The new species is similar to 
+<taxonomicName id="4C6A4AFFFFD98A08FC947713FC1C1355" authorityName="Pavlyuk" authorityYear="1984" box="[857,1008,1601,1626]" class="Adenophorea" family="Trefusiidae" genus="Halanonchus" kingdom="Animalia" order="Enoplida" pageId="24" pageNumber="25" phylum="Nematoda" rank="species" species="arenarius">
+<emphasis id="B91EED6EFFD98A08FC947713FC1C1355" box="[857,1008,1601,1626]" italics="true" pageId="24" pageNumber="25">H. arenarius</emphasis>
+</taxonomicName>
+and 
+<taxonomicName id="4C6A4AFFFFD98A08FBE27713FB171355" authorityName="Allgen" authorityYear="1935" box="[1071,1275,1600,1626]" class="Adenophorea" family="Linhomoeidae" genus="Eumorpholaimus" kingdom="Animalia" order="Monhysterida" pageId="24" pageNumber="25" phylum="Nematoda" rank="species" species="longicaudatus">
+<emphasis id="B91EED6EFFD98A08FBE27713FB171355" box="[1071,1275,1600,1626]" italics="true" pageId="24" pageNumber="25">H. longicaudatus</emphasis>
+</taxonomicName>
+in having papillose inner labial sensilla, but differs from both species in having relatively low values of a (38– 58 vs&gt; 
+<quantity id="4C929C99FFD98A08FED577D5FEBB13AF" box="[280,343,1670,1697]" metricMagnitude="0" metricUnit="m" metricValue="1.778" pageId="24" pageNumber="25" unit="in" value="70.0">70 in</quantity>
+<taxonomicName id="4C6A4AFFFFD98A08FEAC77D5FE1513AF" authorityName="Pavlyuk" authorityYear="1984" box="[353,505,1671,1696]" class="Adenophorea" family="Trefusiidae" genus="Halanonchus" kingdom="Animalia" order="Enoplida" pageId="24" pageNumber="25" phylum="Nematoda" rank="species" species="arenarius">
+<emphasis id="B91EED6EFFD98A08FEAC77D5FE1513AF" box="[353,505,1671,1696]" italics="true" pageId="24" pageNumber="25">H. arenarius</emphasis>
+</taxonomicName>
+and 
+<taxonomicName id="4C6A4AFFFFD98A08FDFA77D5FCE813AE" authorityName="Allgen" authorityYear="1935" box="[567,772,1671,1697]" class="Adenophorea" family="Linhomoeidae" genus="Eumorpholaimus" kingdom="Animalia" order="Monhysterida" pageId="24" pageNumber="25" phylum="Nematoda" rank="species" species="longicaudatus">
+<emphasis id="B91EED6EFFD98A08FDFA77D5FCE813AE" box="[567,772,1671,1697]" italics="true" pageId="24" pageNumber="25">H. longicaudatus</emphasis>
+</taxonomicName>
+) and arcuate spicules (vs straight or almost straight spicules in 
+<taxonomicName id="4C6A4AFFFFD98A08FE8B77F9FE3113CB" authorityName="Pavlyuk" authorityYear="1984" box="[326,477,1707,1732]" class="Adenophorea" family="Trefusiidae" genus="Halanonchus" kingdom="Animalia" order="Enoplida" pageId="24" pageNumber="25" phylum="Nematoda" rank="species" species="arenarius">
+<emphasis id="B91EED6EFFD98A08FE8B77F9FE3113CB" box="[326,477,1707,1732]" italics="true" pageId="24" pageNumber="25">H. arenarius</emphasis>
+</taxonomicName>
+and 
+<taxonomicName id="4C6A4AFFFFD98A08FDD777F9FD0B13CB" authorityName="Allgen" authorityYear="1935" box="[538,743,1706,1732]" class="Adenophorea" family="Linhomoeidae" genus="Eumorpholaimus" kingdom="Animalia" order="Monhysterida" pageId="24" pageNumber="25" phylum="Nematoda" rank="species" species="longicaudatus">
+<emphasis id="B91EED6EFFD98A08FDD777F9FD0B13CB" box="[538,743,1706,1732]" italics="true" pageId="24" pageNumber="25">H. longicaudatus</emphasis>
+</taxonomicName>
+). 
+<taxonomicName id="4C6A4AFFFFD98A08FCCC77F8FBAC13CB" authority="Leduc &amp; Zhao &amp; Sinniger, 2020" authorityName="Leduc &amp; Zhao &amp; Sinniger" authorityYear="2020" box="[769,1088,1706,1732]" class="Adenophorea" family="Trefusiidae" genus="Halanonchus" kingdom="Animalia" order="Enoplida" pageId="24" pageNumber="25" phylum="Nematoda" rank="species" species="scintillatulus" status="sp. nov.">
+<emphasis id="B91EED6EFFD98A08FCCC77F8FBAC13CB" box="[769,1088,1706,1732]" italics="true" pageId="24" pageNumber="25">Halanonchus scintillatulus</emphasis>
+</taxonomicName>
+<taxonomicNameLabel id="A22D5015FFD98A08FB8477F8FB4A13CB" box="[1097,1190,1706,1732]" pageId="24" pageNumber="25" rank="species">sp. nov.</taxonomicNameLabel>
+also differs from 
+<taxonomicName id="4C6A4AFFFFD98A08FF70779CFEBF13E8" authorityName="Pavlyuk" authorityYear="1984" box="[189,339,1742,1767]" class="Adenophorea" family="Trefusiidae" genus="Halanonchus" kingdom="Animalia" order="Enoplida" pageId="24" pageNumber="25" phylum="Nematoda" rank="species" species="arenarius">
+<emphasis id="B91EED6EFFD98A08FF70779CFEBF13E8" box="[189,339,1742,1767]" italics="true" pageId="24" pageNumber="25">H. arenarius</emphasis>
+</taxonomicName>
+in amphid size (22–33% vs 14% cbd in 
+<taxonomicName id="4C6A4AFFFFD98A08FCF5779CFC2213E8" authorityName="Pavlyuk" authorityYear="1984" box="[824,974,1742,1767]" class="Adenophorea" family="Trefusiidae" genus="Halanonchus" kingdom="Animalia" order="Enoplida" pageId="24" pageNumber="25" phylum="Nematoda" rank="species" species="arenarius">
+<emphasis id="B91EED6EFFD98A08FCF5779CFC2213E8" box="[824,974,1742,1767]" italics="true" pageId="24" pageNumber="25">H. arenarius</emphasis>
+</taxonomicName>
+), length of cephalic setae and outer labial setae (3–4 μm vs 5–7 μm in 
+<taxonomicName id="4C6A4AFFFFD98A08FD9A77A3FD011205" authorityName="Pavlyuk" authorityYear="1984" box="[599,749,1777,1802]" class="Adenophorea" family="Trefusiidae" genus="Halanonchus" kingdom="Animalia" order="Enoplida" pageId="24" pageNumber="25" phylum="Nematoda" rank="species" species="arenarius">
+<emphasis id="B91EED6EFFD98A08FD9A77A3FD011205" box="[599,749,1777,1802]" italics="true" pageId="24" pageNumber="25">H. arenarius</emphasis>
+</taxonomicName>
+) and number of precloacal supplements (11–21 vs 
+<quantity id="4C929C99FFD98A08FA8477A2FA9B1205" box="[1353,1399,1776,1802]" metricMagnitude="-1" metricUnit="m" metricValue="2.286" pageId="24" pageNumber="25" unit="in" value="9.0">9 in</quantity>
+<taxonomicName id="4C6A4AFFFFD98A08FF707646FEBE1222" authorityName="Pavlyuk" authorityYear="1984" box="[189,338,1812,1837]" class="Adenophorea" family="Trefusiidae" genus="Halanonchus" kingdom="Animalia" order="Enoplida" pageId="24" pageNumber="25" phylum="Nematoda" rank="species" species="arenarius">
+<emphasis id="B91EED6EFFD98A08FF707646FEBE1222" box="[189,338,1812,1837]" italics="true" pageId="24" pageNumber="25">H. arenarius</emphasis>
+</taxonomicName>
+); the new species also differs from 
+<taxonomicName id="4C6A4AFFFFD98A08FD3B7646FC2C1222" authorityName="Allgen" authorityYear="1935" box="[758,960,1811,1837]" class="Adenophorea" family="Linhomoeidae" genus="Eumorpholaimus" kingdom="Animalia" order="Monhysterida" pageId="24" pageNumber="25" phylum="Nematoda" rank="species" species="longicaudatus">
+<emphasis id="B91EED6EFFD98A08FD3B7646FC2C1222" box="[758,960,1811,1837]" italics="true" pageId="24" pageNumber="25">H. longicaudatus</emphasis>
+</taxonomicName>
+in amphid size (22–33% vs 50% cbd in 
+<taxonomicName id="4C6A4AFFFFD98A08FF167665FE49125E" authorityName="Allgen" authorityYear="1935" box="[219,421,1847,1873]" class="Adenophorea" family="Linhomoeidae" genus="Eumorpholaimus" kingdom="Animalia" order="Monhysterida" pageId="24" pageNumber="25" phylum="Nematoda" rank="species" species="longicaudatus">
+<emphasis id="B91EED6EFFD98A08FF167665FE49125E" box="[219,421,1847,1873]" italics="true" pageId="24" pageNumber="25">H. longicaudatus</emphasis>
+</taxonomicName>
+) and position (posterior to buccal cavity vs at level of anterior half of buccal cavity in 
+<taxonomicName id="4C6A4AFFFFD98A08FF107609FE45127B" authorityName="Allgen" authorityYear="1935" box="[221,425,1882,1908]" class="Adenophorea" family="Linhomoeidae" genus="Eumorpholaimus" kingdom="Animalia" order="Monhysterida" pageId="24" pageNumber="25" phylum="Nematoda" rank="species" species="longicaudatus">
+<emphasis id="B91EED6EFFD98A08FF107609FE45127B" box="[221,425,1882,1908]" italics="true" pageId="24" pageNumber="25">H. longicaudatus</emphasis>
+</taxonomicName>
+). 
+<taxonomicName id="4C6A4AFFFFD98A08FE097608FCEE127B" authority="Leduc &amp; Zhao &amp; Sinniger, 2020" authorityName="Leduc &amp; Zhao &amp; Sinniger" authorityYear="2020" box="[452,770,1882,1908]" class="Adenophorea" family="Trefusiidae" genus="Halanonchus" kingdom="Animalia" order="Enoplida" pageId="24" pageNumber="25" phylum="Nematoda" rank="species" species="scintillatulus" status="sp. nov.">
+<emphasis id="B91EED6EFFD98A08FE097608FCEE127B" box="[452,770,1882,1908]" italics="true" pageId="24" pageNumber="25">Halanonchus scintillatulus</emphasis>
+</taxonomicName>
+<taxonomicNameLabel id="A22D5015FFD98A08FCC67608FC8B127B" box="[779,871,1882,1908]" pageId="24" pageNumber="25" rank="species">sp. nov.</taxonomicNameLabel>
+is similar to 
+<taxonomicName id="4C6A4AFFFFD98A08FBC57609FB61127B" authorityName="Gerlach" authorityYear="1964" box="[1032,1165,1882,1908]" class="Adenophorea" family="Trefusiidae" genus="Halanonchus" kingdom="Animalia" order="Enoplida" pageId="24" pageNumber="25" phylum="Nematoda" rank="species" species="bullatus">
+<emphasis id="B91EED6EFFD98A08FBC57609FB61127B" box="[1032,1165,1882,1908]" italics="true" pageId="24" pageNumber="25">H. bullatus</emphasis>
+</taxonomicName>
+in the arrangement and size of the cephalic and inner labial setae, amphid size and position, and spicule size and shape, but can be distinguished from the latter by the lower values of a (38–58 vs 
+<quantity id="4C929C99FFD98A08FBCC76F2FBD012B5" box="[1025,1084,1952,1978]" metricMagnitude="0" metricUnit="m" metricValue="2.2098" pageId="24" pageNumber="25" unit="in" value="87.0">87 in</quantity>
+<taxonomicName id="4C6A4AFFFFD98A08FB8976F3FB2B12B5" authorityName="Gerlach" authorityYear="1964" box="[1092,1223,1952,1978]" class="Adenophorea" family="Trefusiidae" genus="Halanonchus" kingdom="Animalia" order="Enoplida" pageId="24" pageNumber="25" phylum="Nematoda" rank="species" species="bullatus">
+<emphasis id="B91EED6EFFD98A08FB8976F3FB2B12B5" box="[1092,1223,1952,1978]" italics="true" pageId="24" pageNumber="25">H. bullatus</emphasis>
+</taxonomicName>
+) and b (6–7 vs 
+<quantity id="4C929C99FFD98A08FF707696FF1412D2" box="[189,248,1987,2014]" metricMagnitude="-1" metricUnit="m" metricValue="2.54" pageId="24" pageNumber="25" unit="in" value="10.0">10 in</quantity>
+<taxonomicName id="4C6A4AFFFFD98A08FF327696FE6D12D2" authorityName="Gerlach" authorityYear="1964" box="[255,385,1987,2013]" class="Adenophorea" family="Trefusiidae" genus="Halanonchus" kingdom="Animalia" order="Enoplida" pageId="24" pageNumber="25" phylum="Nematoda" rank="species" species="bullatus">
+<emphasis id="B91EED6EFFD98A08FF327696FE6D12D2" box="[255,385,1987,2013]" italics="true" pageId="24" pageNumber="25">H. bullatus</emphasis>
+</taxonomicName>
+), shorter tail (440–623 μm vs 1270 μm in 
+<taxonomicName id="4C6A4AFFFFD98A08FCA37696FC1C12D2" authorityName="Gerlach" authorityYear="1964" box="[878,1008,1987,2013]" class="Adenophorea" family="Trefusiidae" genus="Halanonchus" kingdom="Animalia" order="Enoplida" pageId="24" pageNumber="25" phylum="Nematoda" rank="species" species="bullatus">
+<emphasis id="B91EED6EFFD98A08FCA37696FC1C12D2" box="[878,1008,1987,2013]" italics="true" pageId="24" pageNumber="25">H. bullatus</emphasis>
+</taxonomicName>
+; c’ = 21–26 vs 
+<quantity id="4C929C99FFD98A08FB6F7691FB3112D2" box="[1186,1245,1987,2014]" metricMagnitude="0" metricUnit="m" metricValue="1.3969999999999998" pageId="24" pageNumber="25" unit="in" value="55.0">55 in</quantity>
+<taxonomicName id="4C6A4AFFFFD98A08FB297696FA8A12D2" authorityName="Gerlach" authorityYear="1964" box="[1252,1382,1987,2013]" class="Adenophorea" family="Trefusiidae" genus="Halanonchus" kingdom="Animalia" order="Enoplida" pageId="24" pageNumber="25" phylum="Nematoda" rank="species" species="bullatus">
+<emphasis id="B91EED6EFFD98A08FB297696FA8A12D2" box="[1252,1382,1987,2013]" italics="true" pageId="24" pageNumber="25">H. bullatus</emphasis>
+</taxonomicName>
+), fewer pharyngeal supplements (6–12 vs 
+<quantity id="4C929C99FFD88A09FD52770BFCE4137C" box="[671,776,1625,1651]" metricMagnitude="-1" metricUnit="m" metricValue="3.683" metricValueMax="4.064" metricValueMin="3.302" pageId="25" pageNumber="26" unit="in" value="14.5" valueMax="16.0" valueMin="13.0">13–16 in</quantity>
+<taxonomicName id="4C6A4AFFFFD88A09FCDC7708FC79137C" authorityName="Gerlach" authorityYear="1964" box="[785,917,1625,1651]" class="Adenophorea" family="Trefusiidae" genus="Halanonchus" kingdom="Animalia" order="Enoplida" pageId="25" pageNumber="26" phylum="Nematoda" rank="species" species="bullatus">
+<emphasis id="B91EED6EFFD88A09FCDC7708FC79137C" box="[785,917,1625,1651]" italics="true" pageId="25" pageNumber="26">H. bullatus</emphasis>
+</taxonomicName>
+) and vulva position (%V = 31–34 vs 
+<quantity id="4C929C99FFD88A09FA94770BFF381399" metricMagnitude="-1" metricUnit="m" metricValue="4.064" pageId="25" pageNumber="26" unit="in" value="16.0">16 in</quantity>
+<taxonomicName id="4C6A4AFFFFD88A09FF16772FFEB21399" authorityName="Gerlach" authorityYear="1964" box="[219,350,1660,1686]" class="Adenophorea" family="Trefusiidae" genus="Halanonchus" kingdom="Animalia" order="Enoplida" pageId="25" pageNumber="26" phylum="Nematoda" rank="species" species="bullatus">
+<emphasis id="B91EED6EFFD88A09FF16772FFEB21399" box="[219,350,1660,1686]" italics="true" pageId="25" pageNumber="26">H. bullatus</emphasis>
+</taxonomicName>
+).
+</paragraph>
+</subSubSection>
+<caption id="DF1561F4FFD88A09FF70705EFD0E1447" ID-Table-UUID="DF1561F4FFD88A09FF70705EFD0E1447" httpUri="http://table.plazi.org/id/DF1561F4FFD88A09FF70705EFD0E1447" pageId="25" pageNumber="26" targetBox="[268,1335,370,1552]" targetIsTable="true" targetPageId="25">
+<paragraph id="8BD5317CFFD88A09FF70705EFD0E1447" blockId="25.[189,1398,267,329]" pageId="25" pageNumber="26">
+<emphasis id="B91EED6EFFD88A09FF70705EFEF3142A" bold="true" box="[189,287,267,294]" pageId="25" pageNumber="26">Table 2.</emphasis>
+Morphometrics (μm; mean (range)) of 
+<taxonomicName id="4C6A4AFFFFD88A09FD257059FB9E142A" authority="Leduc" authorityName="Leduc &amp; Zhao &amp; Sinniger" authorityYear="2020" box="[744,1138,267,293]" class="Adenophorea" family="Trefusiidae" genus="Halanonchus" kingdom="Animalia" order="Enoplida" pageId="25" pageNumber="26" phylum="Nematoda" rank="species" species="scintillatulus" status="sp. nov.">
+<emphasis id="B91EED6EFFD88A09FD257059FBCF142A" box="[744,1059,267,293]" italics="true" pageId="25" pageNumber="26">Halanonchus scintillatulus</emphasis>
+Leduc
+</taxonomicName>
+<taxonomicNameLabel id="A22D5015FFD88A09FBB4705EFB3F1429" box="[1145,1235,268,294]" pageId="25" pageNumber="26" rank="species">sp. nov.</taxonomicNameLabel>
+from Hauraki Gulf. Abbreviations see Material and methods.
+</paragraph>
+</caption>
+<paragraph id="8BD5317CFFD88A09FD2F7020FAE2131F" pageId="25" pageNumber="26">
+<table id="F96AC3DCFFD875EFFEC17020FADB131F" box="[268,1335,370,1552]" gridcols="4" gridrows="30" pageId="25" pageNumber="26">
+<tr id="355A333EFFD875EFFEC17020FADB1485" box="[268,1335,370,394]" gridrow="0" pageId="25" pageNumber="26" rowspan-0="1" rowspan-2="1">
+<th id="768B5A42FFD875EFFD1E7020FCDA1485" box="[723,822,370,394]" gridcol="1" gridrow="0" pageId="25" pageNumber="26">
+<emphasis id="B91EED6EFFD88A09FD2F7020FCCA1485" bold="true" box="[738,806,370,394]" pageId="25" pageNumber="26">Males</emphasis>
+</th>
+<th id="768B5A42FFD875EFFBBD7020FADB1485" box="[1136,1335,370,394]" gridcol="3" gridrow="0" pageId="25" pageNumber="26">
+<emphasis id="B91EED6EFFD88A09FB687020FAEE1485" bold="true" box="[1189,1282,370,394]" pageId="25" pageNumber="26">Females</emphasis>
+</th>
+</tr>
+<tr id="355A333EFFD875EFFEC170C9FADB14BB" box="[268,1335,411,436]" gridrow="1" pageId="25" pageNumber="26" rowspan-0="1">
+<td id="768B5A42FFD875EFFD1E70C9FCDA14BB" box="[723,822,411,436]" gridcol="1" gridrow="1" pageId="25" pageNumber="26">Holotype</td>
+<td id="768B5A42FFD875EFFC4370C9FBB814BB" box="[910,1108,411,436]" gridcol="2" gridrow="1" pageId="25" pageNumber="26">Paratypes</td>
+<td id="768B5A42FFD875EFFBBD70C9FADB14BB" box="[1136,1335,411,436]" gridcol="3" gridrow="1" pageId="25" pageNumber="26">Paratypes</td>
+</tr>
+<tr id="355A333EFFD875EFFEC17097FADB14D2" box="[268,1335,453,477]" gridrow="2" pageId="25" pageNumber="26">
+<th id="768B5A42FFD875EFFEC17097FDAC14D2" box="[268,576,453,477]" gridcol="0" gridrow="2" pageId="25" pageNumber="26">n</th>
+<td id="768B5A42FFD875EFFD1E7097FCDA14D2" box="[723,822,453,477]" gridcol="1" gridrow="2" pageId="25" pageNumber="26">1</td>
+<td id="768B5A42FFD875EFFC437097FBB814D2" box="[910,1108,453,477]" gridcol="2" gridrow="2" pageId="25" pageNumber="26">5</td>
+<td id="768B5A42FFD875EFFBBD7097FADB14D2" box="[1136,1335,453,477]" gridcol="3" gridrow="2" pageId="25" pageNumber="26">4</td>
+</tr>
+<tr id="355A333EFFD875EFFEC170BFFADB170A" box="[268,1335,493,517]" gridrow="3" pageId="25" pageNumber="26">
+<th id="768B5A42FFD875EFFEC170BFFDAC170A" box="[268,576,493,517]" gridcol="0" gridrow="3" pageId="25" pageNumber="26">L</th>
+<td id="768B5A42FFD875EFFD1E70BFFCDA170A" box="[723,822,493,517]" gridcol="1" gridrow="3" pageId="25" pageNumber="26">1589</td>
+<td id="768B5A42FFD875EFFC4370BFFBB8170A" box="[910,1108,493,517]" gridcol="2" gridrow="3" pageId="25" pageNumber="26">1595 (1385–1815)</td>
+<td id="768B5A42FFD875EFFBBD70BFFADB170A" box="[1136,1335,493,517]" gridcol="3" gridrow="3" pageId="25" pageNumber="26">1633 (1564–1708)</td>
+</tr>
+<tr id="355A333EFFD875EFFEC17346FADB1722" box="[268,1335,532,557]" gridrow="4" pageId="25" pageNumber="26">
+<th id="768B5A42FFD875EFFEC17346FDAC1722" box="[268,576,532,557]" gridcol="0" gridrow="4" pageId="25" pageNumber="26">a</th>
+<td id="768B5A42FFD875EFFD1E7346FCDA1722" box="[723,822,532,557]" gridcol="1" gridrow="4" pageId="25" pageNumber="26">59</td>
+<td id="768B5A42FFD875EFFC437346FBB81722" box="[910,1108,532,557]" gridcol="2" gridrow="4" pageId="25" pageNumber="26">54 (50–58)</td>
+<td id="768B5A42FFD875EFFBBD7346FADB1722" box="[1136,1335,532,557]" gridcol="3" gridrow="4" pageId="25" pageNumber="26">42 (38–45)</td>
+</tr>
+<tr id="355A333EFFD875EFFEC1736EFADB175B" box="[268,1335,572,596]" gridrow="5" pageId="25" pageNumber="26">
+<th id="768B5A42FFD875EFFEC1736EFDAC175B" box="[268,576,572,596]" gridcol="0" gridrow="5" pageId="25" pageNumber="26">b</th>
+<td id="768B5A42FFD875EFFD1E736EFCDA175B" box="[723,822,572,596]" gridcol="1" gridrow="5" pageId="25" pageNumber="26">6</td>
+<td id="768B5A42FFD875EFFC43736EFBB8175B" box="[910,1108,572,596]" gridcol="2" gridrow="5" pageId="25" pageNumber="26">6 (6–7)</td>
+<td id="768B5A42FFD875EFFBBD736EFADB175B" box="[1136,1335,572,596]" gridcol="3" gridrow="5" pageId="25" pageNumber="26">7 (6–7)</td>
+</tr>
+<tr id="355A333EFFD875EFFEC17336FADB1773" box="[268,1335,612,636]" gridrow="6" pageId="25" pageNumber="26">
+<th id="768B5A42FFD875EFFEC17336FDAC1773" box="[268,576,612,636]" gridcol="0" gridrow="6" pageId="25" pageNumber="26">c</th>
+<td id="768B5A42FFD875EFFD1E7336FCDA1773" box="[723,822,612,636]" gridcol="1" gridrow="6" pageId="25" pageNumber="26">3</td>
+<td id="768B5A42FFD875EFFC437336FBB81773" box="[910,1108,612,636]" gridcol="2" gridrow="6" pageId="25" pageNumber="26">3</td>
+<td id="768B5A42FFD875EFFBBD7336FADB1773" box="[1136,1335,612,636]" gridcol="3" gridrow="6" pageId="25" pageNumber="26">3</td>
+</tr>
+<tr id="355A333EFFD875EFFEC173D8FADB17AB" box="[268,1335,650,676]" gridrow="7" pageId="25" pageNumber="26">
+<th id="768B5A42FFD875EFFEC173D8FDAC17AB" box="[268,576,650,676]" gridcol="0" gridrow="7" pageId="25" pageNumber="26">cʹ</th>
+<td id="768B5A42FFD875EFFD1E73D8FCDA17AB" box="[723,822,650,676]" gridcol="1" gridrow="7" pageId="25" pageNumber="26">23.3</td>
+<td id="768B5A42FFD875EFFC4373D8FBB817AB" box="[910,1108,650,676]" gridcol="2" gridrow="7" pageId="25" pageNumber="26">23.1 (20.9–26.0)</td>
+<td id="768B5A42FFD875EFFBBD73D8FADB17AB" box="[1136,1335,650,676]" gridcol="3" gridrow="7" pageId="25" pageNumber="26">25.5 (22.9–29.5)</td>
+</tr>
+<tr id="355A333EFFD875EFFEC173E6FADB17C3" box="[268,1335,692,716]" gridrow="8" pageId="25" pageNumber="26">
+<th id="768B5A42FFD875EFFEC173E6FDAC17C3" box="[268,576,692,716]" gridcol="0" gridrow="8" pageId="25" pageNumber="26">Head diam. at cephalic setae</th>
+<td id="768B5A42FFD875EFFD1E73E6FCDA17C3" box="[723,822,692,716]" gridcol="1" gridrow="8" pageId="25" pageNumber="26">14</td>
+<td id="768B5A42FFD875EFFC4373E6FBB817C3" box="[910,1108,692,716]" gridcol="2" gridrow="8" pageId="25" pageNumber="26">13 (12–15)</td>
+<td id="768B5A42FFD875EFFBBD73E6FADB17C3" box="[1136,1335,692,716]" gridcol="3" gridrow="8" pageId="25" pageNumber="26">13 (12–14)</td>
+</tr>
+<tr id="355A333EFFD875EFFEC1738EFADB17FB" box="[268,1335,732,756]" gridrow="9" pageId="25" pageNumber="26">
+<th id="768B5A42FFD875EFFEC1738EFDAC17FB" box="[268,576,732,756]" gridcol="0" gridrow="9" pageId="25" pageNumber="26">Head diam. at amphids</th>
+<td id="768B5A42FFD875EFFD1E738EFCDA17FB" box="[723,822,732,756]" gridcol="1" gridrow="9" pageId="25" pageNumber="26">18</td>
+<td id="768B5A42FFD875EFFC43738EFBB817FB" box="[910,1108,732,756]" gridcol="2" gridrow="9" pageId="25" pageNumber="26">18 (16–19)</td>
+<td id="768B5A42FFD875EFFBBD738EFADB17FB" box="[1136,1335,732,756]" gridcol="3" gridrow="9" pageId="25" pageNumber="26">19 (18–20)</td>
+</tr>
+<tr id="355A333EFFD875EFFEC17251FADB1613" box="[268,1335,771,796]" gridrow="10" pageId="25" pageNumber="26">
+<th id="768B5A42FFD875EFFEC17251FDAC1613" box="[268,576,771,796]" gridcol="0" gridrow="10" pageId="25" pageNumber="26">Length of cephalic setae</th>
+<td id="768B5A42FFD875EFFD1E7251FCDA1613" box="[723,822,771,796]" gridcol="1" gridrow="10" pageId="25" pageNumber="26">3–4</td>
+<td id="768B5A42FFD875EFFC437251FBB81613" box="[910,1108,771,796]" gridcol="2" gridrow="10" pageId="25" pageNumber="26">4 (3–4)</td>
+<td id="768B5A42FFD875EFFBBD7251FADB1613" box="[1136,1335,771,796]" gridcol="3" gridrow="10" pageId="25" pageNumber="26">4 (3–4)</td>
+</tr>
+<tr id="355A333EFFD875EFFEC17279FADB164C" box="[268,1335,811,835]" gridrow="11" pageId="25" pageNumber="26">
+<th id="768B5A42FFD875EFFEC17279FDAC164C" box="[268,576,811,835]" gridcol="0" gridrow="11" pageId="25" pageNumber="26">Amphideal aperture height</th>
+<td id="768B5A42FFD875EFFD1E7279FCDA164C" box="[723,822,811,835]" gridcol="1" gridrow="11" pageId="25" pageNumber="26">4</td>
+<td id="768B5A42FFD875EFFC437279FBB8164C" box="[910,1108,811,835]" gridcol="2" gridrow="11" pageId="25" pageNumber="26">4 (4–5)</td>
+<td id="768B5A42FFD875EFFBBD7279FADB164C" box="[1136,1335,811,835]" gridcol="3" gridrow="11" pageId="25" pageNumber="26">4</td>
+</tr>
+<tr id="355A333EFFD875EFFEC17201FADB1664" box="[268,1335,851,875]" gridrow="12" pageId="25" pageNumber="26">
+<th id="768B5A42FFD875EFFEC17201FDAC1664" box="[268,576,851,875]" gridcol="0" gridrow="12" pageId="25" pageNumber="26">Amphideal fovea width</th>
+<td id="768B5A42FFD875EFFD1E7201FCDA1664" box="[723,822,851,875]" gridcol="1" gridrow="12" pageId="25" pageNumber="26">5</td>
+<td id="768B5A42FFD875EFFC437201FBB81664" box="[910,1108,851,875]" gridcol="2" gridrow="12" pageId="25" pageNumber="26">5 (4–6)</td>
+<td id="768B5A42FFD875EFFBBD7201FADB1664" box="[1136,1335,851,875]" gridcol="3" gridrow="12" pageId="25" pageNumber="26">4 (4–5)</td>
+</tr>
+<tr id="355A333EFFD875EFFEC17229FADB169C" box="[268,1335,891,915]" gridrow="13" pageId="25" pageNumber="26">
+<th id="768B5A42FFD875EFFEC17229FDAC169C" box="[268,576,891,915]" gridcol="0" gridrow="13" pageId="25" pageNumber="26">Amphid width/cbd (%)</th>
+<td id="768B5A42FFD875EFFD1E7229FCDA169C" box="[723,822,891,915]" gridcol="1" gridrow="13" pageId="25" pageNumber="26">28</td>
+<td id="768B5A42FFD875EFFC437229FBB8169C" box="[910,1108,891,915]" gridcol="2" gridrow="13" pageId="25" pageNumber="26">28 (22–33)</td>
+<td id="768B5A42FFD875EFFBBD7229FADB169C" box="[1136,1335,891,915]" gridcol="3" gridrow="13" pageId="25" pageNumber="26">25 (22–26)</td>
+</tr>
+<tr id="355A333EFFD875EFFEC172F1FADB16B4" box="[268,1335,931,955]" gridrow="14" pageId="25" pageNumber="26">
+<th id="768B5A42FFD875EFFEC172F1FDAC16B4" box="[268,576,931,955]" gridcol="0" gridrow="14" pageId="25" pageNumber="26">Amphid from anterior end</th>
+<td id="768B5A42FFD875EFFD1E72F1FCDA16B4" box="[723,822,931,955]" gridcol="1" gridrow="14" pageId="25" pageNumber="26">21</td>
+<td id="768B5A42FFD875EFFC4372F1FBB816B4" box="[910,1108,931,955]" gridcol="2" gridrow="14" pageId="25" pageNumber="26">21 (18–22)</td>
+<td id="768B5A42FFD875EFFBBD72F1FADB16B4" box="[1136,1335,931,955]" gridcol="3" gridrow="14" pageId="25" pageNumber="26">19 (18–20)</td>
+</tr>
+<tr id="355A333EFFD875EFFEC17298FADB16EC" box="[268,1335,970,995]" gridrow="15" pageId="25" pageNumber="26">
+<th id="768B5A42FFD875EFFEC17298FDAC16EC" box="[268,576,970,995]" gridcol="0" gridrow="15" pageId="25" pageNumber="26">Nerve ring from anterior end</th>
+<td id="768B5A42FFD875EFFD1E7298FCDA16EC" box="[723,822,970,995]" gridcol="1" gridrow="15" pageId="25" pageNumber="26">117</td>
+<td id="768B5A42FFD875EFFC437298FBB816EC" box="[910,1108,970,995]" gridcol="2" gridrow="15" pageId="25" pageNumber="26">110 (104–117)</td>
+<td id="768B5A42FFD875EFFBBD7298FADB16EC" box="[1136,1335,970,995]" gridcol="3" gridrow="15" pageId="25" pageNumber="26">112 (106–115)</td>
+</tr>
+<tr id="355A333EFFD875EFFEC172A0FADB1104" box="[268,1335,1010,1035]" gridrow="16" pageId="25" pageNumber="26">
+<th id="768B5A42FFD875EFFEC172A0FDAC1104" box="[268,576,1010,1035]" gridcol="0" gridrow="16" pageId="25" pageNumber="26">Nerve ring cbd</th>
+<td id="768B5A42FFD875EFFD1E72A0FCDA1104" box="[723,822,1010,1035]" gridcol="1" gridrow="16" pageId="25" pageNumber="26">27</td>
+<td id="768B5A42FFD875EFFC4372A0FBB81104" box="[910,1108,1010,1035]" gridcol="2" gridrow="16" pageId="25" pageNumber="26">27 (23–29)</td>
+<td id="768B5A42FFD875EFFBBD72A0FADB1104" box="[1136,1335,1010,1035]" gridcol="3" gridrow="16" pageId="25" pageNumber="26">30 (29–30)</td>
+</tr>
+<tr id="355A333EFFD875EFFEC17548FADB113D" box="[268,1335,1050,1074]" gridrow="17" pageId="25" pageNumber="26">
+<th id="768B5A42FFD875EFFEC17548FDAC113D" box="[268,576,1050,1074]" gridcol="0" gridrow="17" pageId="25" pageNumber="26">Pharynx length</th>
+<td id="768B5A42FFD875EFFD1E7548FCDA113D" box="[723,822,1050,1074]" gridcol="1" gridrow="17" pageId="25" pageNumber="26">259</td>
+<td id="768B5A42FFD875EFFC437548FBB8113D" box="[910,1108,1050,1074]" gridcol="2" gridrow="17" pageId="25" pageNumber="26">248 (234–256)</td>
+<td id="768B5A42FFD875EFFBBD7548FADB113D" box="[1136,1335,1050,1074]" gridcol="3" gridrow="17" pageId="25" pageNumber="26">244 (242–248)</td>
+</tr>
+<tr id="355A333EFFD875EFFEC17510FADB1155" box="[268,1335,1090,1114]" gridrow="18" pageId="25" pageNumber="26">
+<th id="768B5A42FFD875EFFEC17510FDAC1155" box="[268,576,1090,1114]" gridcol="0" gridrow="18" pageId="25" pageNumber="26">Pharynx diam. at base</th>
+<td id="768B5A42FFD875EFFD1E7510FCDA1155" box="[723,822,1090,1114]" gridcol="1" gridrow="18" pageId="25" pageNumber="26">18</td>
+<td id="768B5A42FFD875EFFC437510FBB81155" box="[910,1108,1090,1114]" gridcol="2" gridrow="18" pageId="25" pageNumber="26">19 (18–20)</td>
+<td id="768B5A42FFD875EFFBBD7510FADB1155" box="[1136,1335,1090,1114]" gridcol="3" gridrow="18" pageId="25" pageNumber="26">20 (18–21)</td>
+</tr>
+<tr id="355A333EFFD875EFFEC17538FADB118D" box="[268,1335,1130,1154]" gridrow="19" pageId="25" pageNumber="26">
+<th id="768B5A42FFD875EFFEC17538FDAC118D" box="[268,576,1130,1154]" gridcol="0" gridrow="19" pageId="25" pageNumber="26">Pharynx cbd at base</th>
+<td id="768B5A42FFD875EFFD1E7538FCDA118D" box="[723,822,1130,1154]" gridcol="1" gridrow="19" pageId="25" pageNumber="26">27</td>
+<td id="768B5A42FFD875EFFC437538FBB8118D" box="[910,1108,1130,1154]" gridcol="2" gridrow="19" pageId="25" pageNumber="26">28 (24–30)</td>
+<td id="768B5A42FFD875EFFBBD7538FADB118D" box="[1136,1335,1130,1154]" gridcol="3" gridrow="19" pageId="25" pageNumber="26">31 (30–32)</td>
+</tr>
+<tr id="355A333EFFD875EFFEC175C0FADB11A5" box="[268,1335,1170,1194]" gridrow="20" pageId="25" pageNumber="26">
+<th id="768B5A42FFD875EFFEC175C0FDAC11A5" box="[268,576,1170,1194]" gridcol="0" gridrow="20" pageId="25" pageNumber="26">Pharyngeal supplements #</th>
+<td id="768B5A42FFD875EFFD1E75C0FCDA11A5" box="[723,822,1170,1194]" gridcol="1" gridrow="20" pageId="25" pageNumber="26">12</td>
+<td id="768B5A42FFD875EFFC4375C0FBB811A5" box="[910,1108,1170,1194]" gridcol="2" gridrow="20" pageId="25" pageNumber="26">7 (0–11)</td>
+<td id="768B5A42FFD875EFFBBD75C0FADB11A5" box="[1136,1335,1170,1194]" gridcol="3" gridrow="20" pageId="25" pageNumber="26">–</td>
+</tr>
+<tr id="355A333EFFD875EFFEC175EBFADB11DD" box="[268,1335,1209,1234]" gridrow="21" pageId="25" pageNumber="26">
+<th id="768B5A42FFD875EFFEC175EBFDAC11DD" box="[268,576,1209,1234]" gridcol="0" gridrow="21" pageId="25" pageNumber="26">Max. body diam.</th>
+<td id="768B5A42FFD875EFFD1E75EBFCDA11DD" box="[723,822,1209,1234]" gridcol="1" gridrow="21" pageId="25" pageNumber="26">27</td>
+<td id="768B5A42FFD875EFFC4375EBFBB811DD" box="[910,1108,1209,1234]" gridcol="2" gridrow="21" pageId="25" pageNumber="26">30 (27–34)</td>
+<td id="768B5A42FFD875EFFBBD75EBFADB11DD" box="[1136,1335,1209,1234]" gridcol="3" gridrow="21" pageId="25" pageNumber="26">39 (38–42)</td>
+</tr>
+<tr id="355A333EFFD875EFFEC175B3FADB11F6" box="[268,1335,1249,1273]" gridrow="22" pageId="25" pageNumber="26">
+<th id="768B5A42FFD875EFFEC175B3FDAC11F6" box="[268,576,1249,1273]" gridcol="0" gridrow="22" pageId="25" pageNumber="26">Spicule length</th>
+<td id="768B5A42FFD875EFFD1E75B3FCDA11F6" box="[723,822,1249,1273]" gridcol="1" gridrow="22" pageId="25" pageNumber="26">30</td>
+<td id="768B5A42FFD875EFFC4375B3FBB811F6" box="[910,1108,1249,1273]" gridcol="2" gridrow="22" pageId="25" pageNumber="26">26 (23–28)</td>
+<td id="768B5A42FFD875EFFBBD75B3FADB11F6" box="[1136,1335,1249,1273]" gridcol="3" gridrow="22" pageId="25" pageNumber="26">–</td>
+</tr>
+<tr id="355A333EFFD875EFFEC1745BFADB102E" box="[268,1335,1289,1313]" gridrow="23" pageId="25" pageNumber="26">
+<th id="768B5A42FFD875EFFEC1745BFDAC102E" box="[268,576,1289,1313]" gridcol="0" gridrow="23" pageId="25" pageNumber="26">Gubernaculum length</th>
+<td id="768B5A42FFD875EFFD1E745BFCDA102E" box="[723,822,1289,1313]" gridcol="1" gridrow="23" pageId="25" pageNumber="26">9</td>
+<td id="768B5A42FFD875EFFC43745BFBB8102E" box="[910,1108,1289,1313]" gridcol="2" gridrow="23" pageId="25" pageNumber="26">8 (7–9)</td>
+<td id="768B5A42FFD875EFFBBD745BFADB102E" box="[1136,1335,1289,1313]" gridcol="3" gridrow="23" pageId="25" pageNumber="26">–</td>
+</tr>
+<tr id="355A333EFFD875EFFEC17463FADB1046" box="[268,1335,1329,1353]" gridrow="24" pageId="25" pageNumber="26">
+<th id="768B5A42FFD875EFFEC17463FDAC1046" box="[268,576,1329,1353]" gridcol="0" gridrow="24" pageId="25" pageNumber="26">Precloacal supplements #</th>
+<td id="768B5A42FFD875EFFD1E7463FCDA1046" box="[723,822,1329,1353]" gridcol="1" gridrow="24" pageId="25" pageNumber="26">21</td>
+<td id="768B5A42FFD875EFFC437463FBB81046" box="[910,1108,1329,1353]" gridcol="2" gridrow="24" pageId="25" pageNumber="26">12 (9–16)</td>
+<td id="768B5A42FFD875EFFBBD7463FADB1046" box="[1136,1335,1329,1353]" gridcol="3" gridrow="24" pageId="25" pageNumber="26">–</td>
+</tr>
+<tr id="355A333EFFD875EFFEC1740BFADB107E" box="[268,1335,1369,1393]" gridrow="25" pageId="25" pageNumber="26">
+<th id="768B5A42FFD875EFFEC1740BFDAC107E" box="[268,576,1369,1393]" gridcol="0" gridrow="25" pageId="25" pageNumber="26">Cloacal/anal body diam.</th>
+<td id="768B5A42FFD875EFFD1E740BFCDA107E" box="[723,822,1369,1393]" gridcol="1" gridrow="25" pageId="25" pageNumber="26">23</td>
+<td id="768B5A42FFD875EFFC43740BFBB8107E" box="[910,1108,1369,1393]" gridcol="2" gridrow="25" pageId="25" pageNumber="26">23 (21–24)</td>
+<td id="768B5A42FFD875EFFBBD740BFADB107E" box="[1136,1335,1369,1393]" gridcol="3" gridrow="25" pageId="25" pageNumber="26">21 (20–23)</td>
+</tr>
+<tr id="355A333EFFD875EFFEC174D2FADB1096" box="[268,1335,1408,1433]" gridrow="26" pageId="25" pageNumber="26">
+<th id="768B5A42FFD875EFFEC174D2FDAC1096" box="[268,576,1408,1433]" gridcol="0" gridrow="26" pageId="25" pageNumber="26">Tail length</th>
+<td id="768B5A42FFD875EFFD1E74D2FCDA1096" box="[723,822,1408,1433]" gridcol="1" gridrow="26" pageId="25" pageNumber="26">536</td>
+<td id="768B5A42FFD875EFFC4374D2FBB81096" box="[910,1108,1408,1433]" gridcol="2" gridrow="26" pageId="25" pageNumber="26">524 (440–623)</td>
+<td id="768B5A42FFD875EFFBBD74D2FADB1096" box="[1136,1335,1408,1433]" gridcol="3" gridrow="26" pageId="25" pageNumber="26">533 (480–589)</td>
+</tr>
+<tr id="355A333EFFD875EFFEC174FAFADB10CF" box="[268,1335,1448,1472]" gridrow="27" pageId="25" pageNumber="26">
+<th id="768B5A42FFD875EFFEC174FAFDAC10CF" box="[268,576,1448,1472]" gridcol="0" gridrow="27" pageId="25" pageNumber="26">V</th>
+<td id="768B5A42FFD875EFFD1E74FAFCDA10CF" box="[723,822,1448,1472]" gridcol="1" gridrow="27" pageId="25" pageNumber="26">–</td>
+<td id="768B5A42FFD875EFFC4374FAFBB810CF" box="[910,1108,1448,1472]" gridcol="2" gridrow="27" pageId="25" pageNumber="26">–</td>
+<td id="768B5A42FFD875EFFBBD74FAFADB10CF" box="[1136,1335,1448,1472]" gridcol="3" gridrow="27" pageId="25" pageNumber="26">356 (338–365)</td>
+</tr>
+<tr id="355A333EFFD875EFFEC17482FADB10E7" box="[268,1335,1488,1512]" gridrow="28" pageId="25" pageNumber="26">
+<th id="768B5A42FFD875EFFEC17482FDAC10E7" box="[268,576,1488,1512]" gridcol="0" gridrow="28" pageId="25" pageNumber="26">%V</th>
+<td id="768B5A42FFD875EFFD1E7482FCDA10E7" box="[723,822,1488,1512]" gridcol="1" gridrow="28" pageId="25" pageNumber="26">–</td>
+<td id="768B5A42FFD875EFFC437482FBB810E7" box="[910,1108,1488,1512]" gridcol="2" gridrow="28" pageId="25" pageNumber="26">–</td>
+<td id="768B5A42FFD875EFFBBD7482FADB10E7" box="[1136,1335,1488,1512]" gridcol="3" gridrow="28" pageId="25" pageNumber="26">33 (31–34)</td>
+</tr>
+<tr id="355A333EFFD875EFFEC174AAFADB131F" box="[268,1335,1528,1552]" gridrow="29" pageId="25" pageNumber="26">
+<th id="768B5A42FFD875EFFEC174AAFDAC131F" box="[268,576,1528,1552]" gridcol="0" gridrow="29" pageId="25" pageNumber="26">Vulval body diam.</th>
+<td id="768B5A42FFD875EFFD1E74AAFCDA131F" box="[723,822,1528,1552]" gridcol="1" gridrow="29" pageId="25" pageNumber="26">–</td>
+<td id="768B5A42FFD875EFFC4374AAFBB8131F" box="[910,1108,1528,1552]" gridcol="2" gridrow="29" pageId="25" pageNumber="26">–</td>
+<td id="768B5A42FFD875EFFBBD74AAFADB131F" box="[1136,1335,1528,1552]" gridcol="3" gridrow="29" pageId="25" pageNumber="26">33 (31–34)</td>
+</tr>
+</table>
+</paragraph>
+<subSubSection id="C37062F7FFD88A09FF7077ECFEA71243" pageId="25" pageNumber="26" type="etymology">
+<paragraph id="8BD5317CFFD88A09FF7077ECFEA813D7" blockId="25.[189,324,1726,1752]" box="[189,324,1726,1752]" pageId="25" pageNumber="26">
+<heading id="D09D8610FFD88A09FF7077ECFEA813D7" bold="true" box="[189,324,1726,1752]" fontSize="11" level="3" pageId="25" pageNumber="26" reason="3">
+<emphasis id="B91EED6EFFD88A09FF7077ECFEA813D7" bold="true" box="[189,324,1726,1752]" pageId="25" pageNumber="26">Etymology</emphasis>
+</heading>
+</paragraph>
+<paragraph id="8BD5317CFFD88A09FF7077BEFEA71243" blockId="25.[189,1398,1772,1868]" pageId="25" pageNumber="26">
+The species name is derived from the latin term ‘ 
+<emphasis id="B91EED6EFFD88A09FD3E77BEFC9E1209" box="[755,882,1772,1798]" italics="true" pageId="25" pageNumber="26">scintillula’</emphasis>
+, diminutive of ‘ 
+<emphasis id="B91EED6EFFD88A09FBE377BEFB7A1209" box="[1070,1174,1772,1798]" italics="true" pageId="25" pageNumber="26">scintillo’</emphasis>
+(= sparkle, glitter), and refers to the numerous small, light refractive granules present along the body of most specimens of this species.
+</paragraph>
+</subSubSection>
+<caption id="DF1561F4FFDB8A0AFF70705EFCAC1447" ID-Table-UUID="DF1561F4FFDB8A0AFF70705EFCAC1447" httpUri="http://table.plazi.org/id/DF1561F4FFDB8A0AFF70705EFCAC1447" pageId="26" pageNumber="27" targetBox="[200,1370,433,1670]" targetIsTable="true" targetPageId="26">
+<paragraph id="8BD5317CFFDB8A0AFF70705EFCAC1447" blockId="26.[189,1399,267,329]" pageId="26" pageNumber="27">
+<emphasis id="B91EED6EFFDB8A0AFF70705EFEF3142A" bold="true" box="[189,287,267,294]" pageId="26" pageNumber="27">Table 3.</emphasis>
+Key morphological characters of all valid 
+<taxonomicName id="4C6A4AFFFFDB8A0AFCDA7059FC5F142A" authorityName="Cobb" authorityYear="1920" box="[791,947,267,293]" class="Adenophorea" family="Trefusiidae" genus="Halanonchus" kingdom="Animalia" order="Enoplida" pageId="26" pageNumber="27" phylum="Nematoda" rank="genus">
+<emphasis id="B91EED6EFFDB8A0AFCDA7059FC5F142A" box="[791,947,267,293]" italics="true" pageId="26" pageNumber="27">Halanonchus</emphasis>
+</taxonomicName>
+species. Abbreviations: N = no; ND = no data; Y = yes; otherwise, see Material and methods.
+</paragraph>
+</caption>
+<paragraph id="8BD5317CFFDB8A0AFE987026FAC814AF" blockId="26.[341,1384,371,416]" pageId="26" pageNumber="27">
+<tableNote id="768C30F2FFDB8A0AFE987026FAC814AF" pageId="26" pageNumber="27" targetBox="[200,1370,433,1670]" targetPageId="26">
+<emphasis id="B91EED6EFFDB8A0AFE987026FB6C1489" bold="true" box="[341,1152,371,391]" italics="true" pageId="26" pageNumber="27">
+<taxonomicName id="4C6A4AFFFFDB8A0AFE987026FE291488" authorityName="Pavlyuk" authorityYear="1984" box="[341,453,372,391]" class="Adenophorea" family="Trefusiidae" genus="Halanonchus" kingdom="Animalia" order="Enoplida" pageId="26" pageNumber="27" phylum="Nematoda" rank="species" species="arenarius">H. arenarius</taxonomicName>
+<taxonomicName id="4C6A4AFFFFDB8A0AFE137026FDAD1489" authorityName="Gerlach" authorityYear="1964" box="[478,577,371,391]" class="Adenophorea" family="Trefusiidae" genus="Halanonchus" kingdom="Animalia" order="Enoplida" pageId="26" pageNumber="27" phylum="Nematoda" rank="species" species="bullatus">H. bullatus</taxonomicName>
+<taxonomicName id="4C6A4AFFFFDB8A0AFD967026FD281488" authorityName="Vitiello" authorityYear="1971" box="[603,708,372,391]" class="Adenophorea" family="Trefusiidae" genus="Halanonchus" kingdom="Animalia" order="Enoplida" pageId="26" pageNumber="27" phylum="Nematoda" rank="species" species="cornutus">H. cornutus</taxonomicName>
+<taxonomicName id="4C6A4AFFFFDB8A0AFD107026FC981489" authorityName="Allgen" authorityYear="1935" box="[733,884,371,391]" class="Adenophorea" family="Linhomoeidae" genus="Eumorpholaimus" kingdom="Animalia" order="Monhysterida" pageId="26" pageNumber="27" phylum="Nematoda" rank="species" species="longicaudatus">H. longicaudatus</taxonomicName>
+<taxonomicName id="4C6A4AFFFFDB8A0AFC417026FC101488" authorityName="Cobb" authorityYear="1920" box="[908,1020,372,391]" class="Adenophorea" family="Trefusiidae" genus="Halanonchus" kingdom="Animalia" order="Enoplida" pageId="26" pageNumber="27" phylum="Nematoda" rank="species" species="macrurus">H. macrurus</taxonomicName>
+<taxonomicName id="4C6A4AFFFFDB8A0AFBD97026FB6C1489" authorityName="Groza-Rojancovski" authorityYear="1972" box="[1044,1152,371,391]" class="Adenophorea" family="Trefusiidae" genus="Halanonchus" kingdom="Animalia" order="Enoplida" pageId="26" pageNumber="27" phylum="Nematoda" rank="species" species="papilatus">H. papilatus</taxonomicName>
+</emphasis>
+<taxonomicName id="4C6A4AFFFFDB8A0AFB517026FA841488" authority="Leduc" authorityName="Leduc &amp; Zhao &amp; Sinniger" authorityYear="2020" box="[1180,1384,371,391]" class="Adenophorea" family="Trefusiidae" genus="Halanonchus" kingdom="Animalia" order="Enoplida" pageId="26" pageNumber="27" phylum="Nematoda" rank="species" species="scintillatulus" status="sp. nov.">
+<emphasis id="B91EED6EFFDB8A0AFB517026FAC51489" bold="true" box="[1180,1321,371,391]" italics="true" pageId="26" pageNumber="27">H. scintillatulus</emphasis>
+Leduc
+</taxonomicName>
+<taxonomicNameLabel id="A22D5015FFDB8A0AFB2D70DFFAC814AF" box="[1248,1316,397,416]" pageId="26" pageNumber="27" rank="species">sp. nov.</taxonomicNameLabel>
+</tableNote>
+</paragraph>
+<paragraph id="8BD5317CFFDB8A0AFF0570E0FACB1335" pageId="26" pageNumber="27">
+<table id="F96AC3DCFFDB75EFFF0570E3FAB61389" box="[200,1370,433,1670]" gridcols="8" gridrows="18" pageId="26" pageNumber="27">
+<tr id="355A333EFFDB75EFFF0570E3FAB614D1" box="[200,1370,433,478]" gridrow="0" pageId="26" pageNumber="27">
+<th id="768B5A42FFDB75EFFF0570E3FED214D1" box="[200,318,433,478]" gridcol="0" gridrow="0" pageId="26" pageNumber="27">Type locality</th>
+<th id="768B5A42FFDB75EFFE9870E3FE2A14D1" box="[341,454,433,478]" gridcol="1" gridrow="0" pageId="26" pageNumber="27">Sea of Japan</th>
+<th id="768B5A42FFDB75EFFE2970E3FDD014D1" box="[484,572,433,478]" gridcol="2" gridrow="0" pageId="26" pageNumber="27">Red Sea</th>
+<th id="768B5A42FFDB75EFFD9470E3FD2914D1" box="[601,709,433,478]" gridcol="3" gridrow="0" pageId="26" pageNumber="27">Rhone River mouth</th>
+<th id="768B5A42FFDB75EFFD1170E3FC9A14D1" box="[732,886,433,478]" gridcol="4" gridrow="0" pageId="26" pageNumber="27">Baltic Sea</th>
+<th id="768B5A42FFDB75EFFC4270E3FC1514D1" box="[911,1017,433,478]" gridcol="5" gridrow="0" pageId="26" pageNumber="27">Biscayne Bay</th>
+<th id="768B5A42FFDB75EFFBDF70E3FB6E14D1" box="[1042,1154,433,478]" gridcol="6" gridrow="0" pageId="26" pageNumber="27">Black Sea</th>
+<th id="768B5A42FFDB75EFFB6770E3FAB614D1" box="[1194,1370,433,478]" gridcol="7" gridrow="0" pageId="26" pageNumber="27">Hauraki Gulf, NZ</th>
+</tr>
+<tr id="355A333EFFDB75EFFF0570BDFAB61713" box="[200,1370,495,540]" gridrow="1" pageId="26" pageNumber="27">
+<th id="768B5A42FFDB75EFFF0570BDFED21713" box="[200,318,495,540]" gridcol="0" gridrow="1" pageId="26" pageNumber="27">Body length (μm)</th>
+<td id="768B5A42FFDB75EFFE9870BDFE2A1713" box="[341,454,495,540]" gridcol="1" gridrow="1" pageId="26" pageNumber="27">4400–4600</td>
+<td id="768B5A42FFDB75EFFE2970BDFDD01713" box="[484,572,495,540]" gridcol="2" gridrow="1" pageId="26" pageNumber="27">2975</td>
+<td id="768B5A42FFDB75EFFD9470BDFD291713" box="[601,709,495,540]" gridcol="3" gridrow="1" pageId="26" pageNumber="27">1904–1920</td>
+<td id="768B5A42FFDB75EFFD1170BDFC9A1713" box="[732,886,495,540]" gridcol="4" gridrow="1" pageId="26" pageNumber="27">2425</td>
+<td id="768B5A42FFDB75EFFC4270BDFC151713" box="[911,1017,495,540]" gridcol="5" gridrow="1" pageId="26" pageNumber="27">2000–2140</td>
+<td id="768B5A42FFDB75EFFBDF70BDFB6E1713" box="[1042,1154,495,540]" gridcol="6" gridrow="1" pageId="26" pageNumber="27">2600–2800</td>
+<td id="768B5A42FFDB75EFFB6770BDFAB61713" box="[1194,1370,495,540]" gridcol="7" gridrow="1" pageId="26" pageNumber="27">1385–1815</td>
+</tr>
+<tr id="355A333EFFDB75EFFF05737FFAB6174F" box="[200,1370,557,576]" gridrow="2" pageId="26" pageNumber="27">
+<th id="768B5A42FFDB75EFFF05737FFED2174F" box="[200,318,557,576]" gridcol="0" gridrow="2" pageId="26" pageNumber="27">a</th>
+<td id="768B5A42FFDB75EFFE98737FFE2A174F" box="[341,454,557,576]" gridcol="1" gridrow="2" pageId="26" pageNumber="27">72–105</td>
+<td id="768B5A42FFDB75EFFE29737FFDD0174F" box="[484,572,557,576]" gridcol="2" gridrow="2" pageId="26" pageNumber="27">87</td>
+<td id="768B5A42FFDB75EFFD94737FFD29174F" box="[601,709,557,576]" gridcol="3" gridrow="2" pageId="26" pageNumber="27">60–64</td>
+<td id="768B5A42FFDB75EFFD11737FFC9A174F" box="[732,886,557,576]" gridcol="4" gridrow="2" pageId="26" pageNumber="27">73</td>
+<td id="768B5A42FFDB75EFFC42737FFC15174F" box="[911,1017,557,576]" gridcol="5" gridrow="2" pageId="26" pageNumber="27">50</td>
+<td id="768B5A42FFDB75EFFBDF737FFB6E174F" box="[1042,1154,557,576]" gridcol="6" gridrow="2" pageId="26" pageNumber="27">74–80</td>
+<td id="768B5A42FFDB75EFFB67737FFAB6174F" box="[1194,1370,557,576]" gridcol="7" gridrow="2" pageId="26" pageNumber="27">38–58</td>
+</tr>
+<tr id="355A333EFFDB75EFFF057301FAB61768" box="[200,1370,595,615]" gridrow="3" pageId="26" pageNumber="27">
+<th id="768B5A42FFDB75EFFF057301FED21768" box="[200,318,595,615]" gridcol="0" gridrow="3" pageId="26" pageNumber="27">b</th>
+<td id="768B5A42FFDB75EFFE987301FE2A1768" box="[341,454,595,615]" gridcol="1" gridrow="3" pageId="26" pageNumber="27">7–10</td>
+<td id="768B5A42FFDB75EFFE297301FDD01768" box="[484,572,595,615]" gridcol="2" gridrow="3" pageId="26" pageNumber="27">10</td>
+<td id="768B5A42FFDB75EFFD947301FD291768" box="[601,709,595,615]" gridcol="3" gridrow="3" pageId="26" pageNumber="27">9–10</td>
+<td id="768B5A42FFDB75EFFD117301FC9A1768" box="[732,886,595,615]" gridcol="4" gridrow="3" pageId="26" pageNumber="27">9</td>
+<td id="768B5A42FFDB75EFFC427301FC151768" box="[911,1017,595,615]" gridcol="5" gridrow="3" pageId="26" pageNumber="27">8</td>
+<td id="768B5A42FFDB75EFFBDF7301FB6E1768" box="[1042,1154,595,615]" gridcol="6" gridrow="3" pageId="26" pageNumber="27">8</td>
+<td id="768B5A42FFDB75EFFB677301FAB61768" box="[1194,1370,595,615]" gridcol="7" gridrow="3" pageId="26" pageNumber="27">6–7</td>
+</tr>
+<tr id="355A333EFFDB75EFFF057328FAB61782" box="[200,1370,634,653]" gridrow="4" pageId="26" pageNumber="27">
+<th id="768B5A42FFDB75EFFF057328FED21782" box="[200,318,634,653]" gridcol="0" gridrow="4" pageId="26" pageNumber="27">c</th>
+<td id="768B5A42FFDB75EFFE987328FE2A1782" box="[341,454,634,653]" gridcol="1" gridrow="4" pageId="26" pageNumber="27">3–5</td>
+<td id="768B5A42FFDB75EFFE297328FDD01782" box="[484,572,634,653]" gridcol="2" gridrow="4" pageId="26" pageNumber="27">&lt;3</td>
+<td id="768B5A42FFDB75EFFD947328FD291782" box="[601,709,634,653]" gridcol="3" gridrow="4" pageId="26" pageNumber="27">&lt;3</td>
+<td id="768B5A42FFDB75EFFD117328FC9A1782" box="[732,886,634,653]" gridcol="4" gridrow="4" pageId="26" pageNumber="27">4</td>
+<td id="768B5A42FFDB75EFFC427328FC151782" box="[911,1017,634,653]" gridcol="5" gridrow="4" pageId="26" pageNumber="27">3</td>
+<td id="768B5A42FFDB75EFFBDF7328FB6E1782" box="[1042,1154,634,653]" gridcol="6" gridrow="4" pageId="26" pageNumber="27">&lt;3</td>
+<td id="768B5A42FFDB75EFFB677328FAB61782" box="[1194,1370,634,653]" gridcol="7" gridrow="4" pageId="26" pageNumber="27">3</td>
+</tr>
+<tr id="355A333EFFDB75EFFF0573CDFAB617BB" box="[200,1370,671,692]" gridrow="5" pageId="26" pageNumber="27">
+<th id="768B5A42FFDB75EFFF0573CDFED217BB" box="[200,318,671,692]" gridcol="0" gridrow="5" pageId="26" pageNumber="27">cʹ</th>
+<td id="768B5A42FFDB75EFFE9873CDFE2A17BB" box="[341,454,671,692]" gridcol="1" gridrow="5" pageId="26" pageNumber="27">ND</td>
+<td id="768B5A42FFDB75EFFE2973CDFDD017BB" box="[484,572,671,692]" gridcol="2" gridrow="5" pageId="26" pageNumber="27">55</td>
+<td id="768B5A42FFDB75EFFD9473CDFD2917BB" box="[601,709,671,692]" gridcol="3" gridrow="5" pageId="26" pageNumber="27">39–45</td>
+<td id="768B5A42FFDB75EFFD1173CDFC9A17BB" box="[732,886,671,692]" gridcol="4" gridrow="5" pageId="26" pageNumber="27">ND</td>
+<td id="768B5A42FFDB75EFFC4273CDFC1517BB" box="[911,1017,671,692]" gridcol="5" gridrow="5" pageId="26" pageNumber="27">22</td>
+<td id="768B5A42FFDB75EFFBDF73CDFB6E17BB" box="[1042,1154,671,692]" gridcol="6" gridrow="5" pageId="26" pageNumber="27">ND</td>
+<td id="768B5A42FFDB75EFFB6773CDFAB617BB" box="[1194,1370,671,692]" gridcol="7" gridrow="5" pageId="26" pageNumber="27">21–26</td>
+</tr>
+<tr id="355A333EFFDB75EFFF057395FAB617FB" box="[200,1370,711,756]" gridrow="6" pageId="26" pageNumber="27">
+<th id="768B5A42FFDB75EFFF057395FED217FB" box="[200,318,711,756]" gridcol="0" gridrow="6" pageId="26" pageNumber="27">ils and ols in single circle?</th>
+<td id="768B5A42FFDB75EFFE987395FE2A17FB" box="[341,454,711,756]" gridcol="1" gridrow="6" pageId="26" pageNumber="27">N</td>
+<td id="768B5A42FFDB75EFFE297395FDD017FB" box="[484,572,711,756]" gridcol="2" gridrow="6" pageId="26" pageNumber="27">Y</td>
+<td id="768B5A42FFDB75EFFD947395FD2917FB" box="[601,709,711,756]" gridcol="3" gridrow="6" pageId="26" pageNumber="27">Y</td>
+<td id="768B5A42FFDB75EFFD117395FC9A17FB" box="[732,886,711,756]" gridcol="4" gridrow="6" pageId="26" pageNumber="27">ND</td>
+<td id="768B5A42FFDB75EFFC427395FC1517FB" box="[911,1017,711,756]" gridcol="5" gridrow="6" pageId="26" pageNumber="27">Y</td>
+<td id="768B5A42FFDB75EFFBDF7395FB6E17FB" box="[1042,1154,711,756]" gridcol="6" gridrow="6" pageId="26" pageNumber="27">N</td>
+<td id="768B5A42FFDB75EFFB677395FAB617FB" box="[1194,1370,711,756]" gridcol="7" gridrow="6" pageId="26" pageNumber="27">Y</td>
+</tr>
+<tr id="355A333EFFDB75EFFF057257FAB61617" box="[200,1370,773,792]" gridrow="7" pageId="26" pageNumber="27">
+<th id="768B5A42FFDB75EFFF057257FED21617" box="[200,318,773,792]" gridcol="0" gridrow="7" pageId="26" pageNumber="27">ils</th>
+<td id="768B5A42FFDB75EFFE987257FE2A1617" box="[341,454,773,792]" gridcol="1" gridrow="7" pageId="26" pageNumber="27">Papillose</td>
+<td id="768B5A42FFDB75EFFE297257FDD01617" box="[484,572,773,792]" gridcol="2" gridrow="7" pageId="26" pageNumber="27">Setose</td>
+<td id="768B5A42FFDB75EFFD947257FD291617" box="[601,709,773,792]" gridcol="3" gridrow="7" pageId="26" pageNumber="27">Setose</td>
+<td id="768B5A42FFDB75EFFD117257FC9A1617" box="[732,886,773,792]" gridcol="4" gridrow="7" pageId="26" pageNumber="27">Papillose</td>
+<td id="768B5A42FFDB75EFFC427257FC151617" box="[911,1017,773,792]" gridcol="5" gridrow="7" pageId="26" pageNumber="27">Setose</td>
+<td id="768B5A42FFDB75EFFBDF7257FB6E1617" box="[1042,1154,773,792]" gridcol="6" gridrow="7" pageId="26" pageNumber="27">Setose</td>
+<td id="768B5A42FFDB75EFFB677257FAB61617" box="[1194,1370,773,792]" gridcol="7" gridrow="7" pageId="26" pageNumber="27">Papillose</td>
+</tr>
+<tr id="355A333EFFDB75EFFF05727EFAB61656" box="[200,1370,812,857]" gridrow="8" pageId="26" pageNumber="27">
+<th id="768B5A42FFDB75EFFF05727EFED21656" box="[200,318,812,857]" gridcol="0" gridrow="8" pageId="26" pageNumber="27">ols length (μm)</th>
+<td id="768B5A42FFDB75EFFE98727EFE2A1656" box="[341,454,812,857]" gridcol="1" gridrow="8" pageId="26" pageNumber="27">5</td>
+<td id="768B5A42FFDB75EFFE29727EFDD01656" box="[484,572,812,857]" gridcol="2" gridrow="8" pageId="26" pageNumber="27">5</td>
+<td id="768B5A42FFDB75EFFD94727EFD291656" box="[601,709,812,857]" gridcol="3" gridrow="8" pageId="26" pageNumber="27">5</td>
+<td id="768B5A42FFDB75EFFD11727EFC9A1656" box="[732,886,812,857]" gridcol="4" gridrow="8" pageId="26" pageNumber="27">ND</td>
+<td id="768B5A42FFDB75EFFC42727EFC151656" box="[911,1017,812,857]" gridcol="5" gridrow="8" pageId="26" pageNumber="27">3–4</td>
+<td id="768B5A42FFDB75EFFBDF727EFB6E1656" box="[1042,1154,812,857]" gridcol="6" gridrow="8" pageId="26" pageNumber="27">6</td>
+<td id="768B5A42FFDB75EFFB67727EFAB61656" box="[1194,1370,812,857]" gridcol="7" gridrow="8" pageId="26" pageNumber="27">3</td>
+</tr>
+<tr id="355A333EFFDB75EFFF05723BFAB61698" box="[200,1370,873,919]" gridrow="9" pageId="26" pageNumber="27">
+<th id="768B5A42FFDB75EFFF05723BFED21698" box="[200,318,873,919]" gridcol="0" gridrow="9" pageId="26" pageNumber="27">Ceph. setae length (μm)</th>
+<td id="768B5A42FFDB75EFFE98723BFE2A1698" box="[341,454,873,919]" gridcol="1" gridrow="9" pageId="26" pageNumber="27">7</td>
+<td id="768B5A42FFDB75EFFE29723BFDD01698" box="[484,572,873,919]" gridcol="2" gridrow="9" pageId="26" pageNumber="27">5</td>
+<td id="768B5A42FFDB75EFFD94723BFD291698" box="[601,709,873,919]" gridcol="3" gridrow="9" pageId="26" pageNumber="27">3</td>
+<td id="768B5A42FFDB75EFFD11723BFC9A1698" box="[732,886,873,919]" gridcol="4" gridrow="9" pageId="26" pageNumber="27">ND</td>
+<td id="768B5A42FFDB75EFFC42723BFC151698" box="[911,1017,873,919]" gridcol="5" gridrow="9" pageId="26" pageNumber="27">5</td>
+<td id="768B5A42FFDB75EFFBDF723BFB6E1698" box="[1042,1154,873,919]" gridcol="6" gridrow="9" pageId="26" pageNumber="27">7</td>
+<td id="768B5A42FFDB75EFFB67723BFAB61698" box="[1194,1370,873,919]" gridcol="7" gridrow="9" pageId="26" pageNumber="27">3–4</td>
+</tr>
+<tr id="355A333EFFDB75EFFF0572F5FAB616E1" box="[200,1370,935,1006]" gridrow="10" pageId="26" pageNumber="27">
+<th id="768B5A42FFDB75EFFF0572F5FED216E1" box="[200,318,935,1006]" gridcol="0" gridrow="10" pageId="26" pageNumber="27">Amphid width (% cbd)</th>
+<td id="768B5A42FFDB75EFFE9872F5FE2A16E1" box="[341,454,935,1006]" gridcol="1" gridrow="10" pageId="26" pageNumber="27">14</td>
+<td id="768B5A42FFDB75EFFE2972F5FDD016E1" box="[484,572,935,1006]" gridcol="2" gridrow="10" pageId="26" pageNumber="27">25</td>
+<td id="768B5A42FFDB75EFFD9472F5FD2916E1" box="[601,709,935,1006]" gridcol="3" gridrow="10" pageId="26" pageNumber="27">29–45</td>
+<td id="768B5A42FFDB75EFFD1172F5FC9A16E1" box="[732,886,935,1006]" gridcol="4" gridrow="10" pageId="26" pageNumber="27">50</td>
+<td id="768B5A42FFDB75EFFC4272F5FC1516E1" box="[911,1017,935,1006]" gridcol="5" gridrow="10" pageId="26" pageNumber="27">14</td>
+<td id="768B5A42FFDB75EFFBDF72F5FB6E16E1" box="[1042,1154,935,1006]" gridcol="6" gridrow="10" pageId="26" pageNumber="27">40</td>
+<td id="768B5A42FFDB75EFFB6772F5FAB616E1" box="[1194,1370,935,1006]" gridcol="7" gridrow="10" pageId="26" pageNumber="27">22–33</td>
+</tr>
+<tr id="355A333EFFDB75EFFF0572ADFAB611CA" box="[200,1370,1023,1221]" gridrow="11" pageId="26" pageNumber="27">
+<th id="768B5A42FFDB75EFFF0572ADFED211CA" box="[200,318,1023,1221]" gridcol="0" gridrow="11" pageId="26" pageNumber="27">Amphid position</th>
+<td id="768B5A42FFDB75EFFE9872ADFE2A11CA" box="[341,454,1023,1221]" gridcol="1" gridrow="11" pageId="26" pageNumber="27">At posterior edge of buccal cavi- ty, or slightly posterior to buccal cavity</td>
+<td id="768B5A42FFDB75EFFE2972ADFDD011CA" box="[484,572,1023,1221]" gridcol="2" gridrow="11" pageId="26" pageNumber="27">At poste- rior edge of buccal cavity, or slightly posterior to buccal cavity</td>
+<td id="768B5A42FFDB75EFFD9472ADFD2911CA" box="[601,709,1023,1221]" gridcol="3" gridrow="11" pageId="26" pageNumber="27">Posterior to buccal cavity</td>
+<td id="768B5A42FFDB75EFFD1172ADFC9A11CA" box="[732,886,1023,1221]" gridcol="4" gridrow="11" pageId="26" pageNumber="27">At anterior half of buccal cavity</td>
+<td id="768B5A42FFDB75EFFC4272ADFC1511CA" box="[911,1017,1023,1221]" gridcol="5" gridrow="11" pageId="26" pageNumber="27">At posterior edge of buc- cal cavity</td>
+<td id="768B5A42FFDB75EFFBDF72ADFB6E11CA" box="[1042,1154,1023,1221]" gridcol="6" gridrow="11" pageId="26" pageNumber="27">Posterior to buccal cavity</td>
+<td id="768B5A42FFDB75EFFB6772ADFAB611CA" box="[1194,1370,1023,1221]" gridcol="7" gridrow="11" pageId="26" pageNumber="27">Posterior to buccal cavity</td>
+</tr>
+<tr id="355A333EFFDB75EFFF057584FAB6100D" box="[200,1370,1238,1282]" gridrow="12" pageId="26" pageNumber="27">
+<th id="768B5A42FFDB75EFFF057584FED2100D" box="[200,318,1238,1282]" gridcol="0" gridrow="12" pageId="26" pageNumber="27"># pharyngeal supplements</th>
+<td id="768B5A42FFDB75EFFE987584FE2A100D" box="[341,454,1238,1282]" gridcol="1" gridrow="12" pageId="26" pageNumber="27">15</td>
+<td id="768B5A42FFDB75EFFE297584FDD0100D" box="[484,572,1238,1282]" gridcol="2" gridrow="12" pageId="26" pageNumber="27">13–16</td>
+<td id="768B5A42FFDB75EFFD947584FD29100D" box="[601,709,1238,1282]" gridcol="3" gridrow="12" pageId="26" pageNumber="27">1</td>
+<td id="768B5A42FFDB75EFFD117584FC9A100D" box="[732,886,1238,1282]" gridcol="4" gridrow="12" pageId="26" pageNumber="27">Absent</td>
+<td id="768B5A42FFDB75EFFC427584FC15100D" box="[911,1017,1238,1282]" gridcol="5" gridrow="12" pageId="26" pageNumber="27">5–6</td>
+<td id="768B5A42FFDB75EFFBDF7584FB6E100D" box="[1042,1154,1238,1282]" gridcol="6" gridrow="12" pageId="26" pageNumber="27">21</td>
+<td id="768B5A42FFDB75EFFB677584FAB6100D" box="[1194,1370,1238,1282]" gridcol="7" gridrow="12" pageId="26" pageNumber="27">6–12 (when present)</td>
+</tr>
+<tr id="355A333EFFDB75EFFF057446FAB6104F" box="[200,1370,1300,1344]" gridrow="13" pageId="26" pageNumber="27">
+<th id="768B5A42FFDB75EFFF057446FED2104F" box="[200,318,1300,1344]" gridcol="0" gridrow="13" pageId="26" pageNumber="27"># precloacal supplements</th>
+<td id="768B5A42FFDB75EFFE987446FE2A104F" box="[341,454,1300,1344]" gridcol="1" gridrow="13" pageId="26" pageNumber="27">9</td>
+<td id="768B5A42FFDB75EFFE297446FDD0104F" box="[484,572,1300,1344]" gridcol="2" gridrow="13" pageId="26" pageNumber="27">11+4+7–8</td>
+<td id="768B5A42FFDB75EFFD947446FD29104F" box="[601,709,1300,1344]" gridcol="3" gridrow="13" pageId="26" pageNumber="27">7</td>
+<td id="768B5A42FFDB75EFFD117446FC9A104F" box="[732,886,1300,1344]" gridcol="4" gridrow="13" pageId="26" pageNumber="27">12</td>
+<td id="768B5A42FFDB75EFFC427446FC15104F" box="[911,1017,1300,1344]" gridcol="5" gridrow="13" pageId="26" pageNumber="27">12</td>
+<td id="768B5A42FFDB75EFFBDF7446FB6E104F" box="[1042,1154,1300,1344]" gridcol="6" gridrow="13" pageId="26" pageNumber="27">14</td>
+<td id="768B5A42FFDB75EFFB677446FAB6104F" box="[1194,1370,1300,1344]" gridcol="7" gridrow="13" pageId="26" pageNumber="27">11–21</td>
+</tr>
+<tr id="355A333EFFDB75EFFF057403FAB61071" box="[200,1370,1361,1406]" gridrow="14" pageId="26" pageNumber="27">
+<th id="768B5A42FFDB75EFFF057403FED21071" box="[200,318,1361,1406]" gridcol="0" gridrow="14" pageId="26" pageNumber="27">Spicule shape</th>
+<td id="768B5A42FFDB75EFFE987403FE2A1071" box="[341,454,1361,1406]" gridcol="1" gridrow="14" pageId="26" pageNumber="27">Almost straight</td>
+<td id="768B5A42FFDB75EFFE297403FDD01071" box="[484,572,1361,1406]" gridcol="2" gridrow="14" pageId="26" pageNumber="27">Arcuate</td>
+<td id="768B5A42FFDB75EFFD947403FD291071" box="[601,709,1361,1406]" gridcol="3" gridrow="14" pageId="26" pageNumber="27">Straight</td>
+<td id="768B5A42FFDB75EFFD117403FC9A1071" box="[732,886,1361,1406]" gridcol="4" gridrow="14" pageId="26" pageNumber="27">Straight</td>
+<td id="768B5A42FFDB75EFFC427403FC151071" box="[911,1017,1361,1406]" gridcol="5" gridrow="14" pageId="26" pageNumber="27">Arcuate</td>
+<td id="768B5A42FFDB75EFFBDF7403FB6E1071" box="[1042,1154,1361,1406]" gridcol="6" gridrow="14" pageId="26" pageNumber="27">Almost straight</td>
+<td id="768B5A42FFDB75EFFB677403FAB61071" box="[1194,1370,1361,1406]" gridcol="7" gridrow="14" pageId="26" pageNumber="27">Arcuate</td>
+</tr>
+<tr id="355A333EFFDB75EFFF0574DDFAB610E0" box="[200,1370,1423,1519]" gridrow="15" pageId="26" pageNumber="27">
+<th id="768B5A42FFDB75EFFF0574DDFED210E0" box="[200,318,1423,1519]" gridcol="0" gridrow="15" pageId="26" pageNumber="27">Spicule length/cloacal body diameter</th>
+<td id="768B5A42FFDB75EFFE9874DDFE2A10E0" box="[341,454,1423,1519]" gridcol="1" gridrow="15" pageId="26" pageNumber="27">0.8</td>
+<td id="768B5A42FFDB75EFFE2974DDFDD010E0" box="[484,572,1423,1519]" gridcol="2" gridrow="15" pageId="26" pageNumber="27">1.4</td>
+<td id="768B5A42FFDB75EFFD9474DDFD2910E0" box="[601,709,1423,1519]" gridcol="3" gridrow="15" pageId="26" pageNumber="27">0.8</td>
+<td id="768B5A42FFDB75EFFD1174DDFC9A10E0" box="[732,886,1423,1519]" gridcol="4" gridrow="15" pageId="26" pageNumber="27">1.1–1.4</td>
+<td id="768B5A42FFDB75EFFC4274DDFC1510E0" box="[911,1017,1423,1519]" gridcol="5" gridrow="15" pageId="26" pageNumber="27">1.3</td>
+<td id="768B5A42FFDB75EFFBDF74DDFB6E10E0" box="[1042,1154,1423,1519]" gridcol="6" gridrow="15" pageId="26" pageNumber="27">1.1</td>
+<td id="768B5A42FFDB75EFFB6774DDFAB610E0" box="[1194,1370,1423,1519]" gridcol="7" gridrow="15" pageId="26" pageNumber="27">1.1–1.3</td>
+</tr>
+<tr id="355A333EFFDB75EFFF057752FAB6131C" box="[200,1370,1536,1555]" gridrow="16" pageId="26" pageNumber="27">
+<th id="768B5A42FFDB75EFFF057752FED2131C" box="[200,318,1536,1555]" gridcol="0" gridrow="16" pageId="26" pageNumber="27">%V</th>
+<td id="768B5A42FFDB75EFFE987752FE2A131C" box="[341,454,1536,1555]" gridcol="1" gridrow="16" pageId="26" pageNumber="27">31–43</td>
+<td id="768B5A42FFDB75EFFE297752FDD0131C" box="[484,572,1536,1555]" gridcol="2" gridrow="16" pageId="26" pageNumber="27">16</td>
+<td id="768B5A42FFDB75EFFD947752FD29131C" box="[601,709,1536,1555]" gridcol="3" gridrow="16" pageId="26" pageNumber="27">20</td>
+<td id="768B5A42FFDB75EFFD117752FC9A131C" box="[732,886,1536,1555]" gridcol="4" gridrow="16" pageId="26" pageNumber="27">ND</td>
+<td id="768B5A42FFDB75EFFC427752FC15131C" box="[911,1017,1536,1555]" gridcol="5" gridrow="16" pageId="26" pageNumber="27">18–33</td>
+<td id="768B5A42FFDB75EFFBDF7752FB6E131C" box="[1042,1154,1536,1555]" gridcol="6" gridrow="16" pageId="26" pageNumber="27">ND</td>
+<td id="768B5A42FFDB75EFFB677752FAB6131C" box="[1194,1370,1536,1555]" gridcol="7" gridrow="16" pageId="26" pageNumber="27">31–34</td>
+</tr>
+<tr id="355A333EFFDB75EFFF057775FAB61389" box="[200,1370,1575,1670]" gridrow="17" pageId="26" pageNumber="27">
+<th id="768B5A42FFDB75EFFF057775FED21389" box="[200,318,1575,1670]" gridcol="0" gridrow="17" pageId="26" pageNumber="27">Tail length (μm)</th>
+<td id="768B5A42FFDB75EFFE987775FE2A1389" box="[341,454,1575,1670]" gridcol="1" gridrow="17" pageId="26" pageNumber="27">1200–1300 (males), 746–760 (females)</td>
+<td id="768B5A42FFDB75EFFE297775FDD01389" box="[484,572,1575,1670]" gridcol="2" gridrow="17" pageId="26" pageNumber="27">1270</td>
+<td id="768B5A42FFDB75EFFD947775FD291389" box="[601,709,1575,1670]" gridcol="3" gridrow="17" pageId="26" pageNumber="27">806–858</td>
+<td id="768B5A42FFDB75EFFD117775FC9A1389" box="[732,886,1575,1670]" gridcol="4" gridrow="17" pageId="26" pageNumber="27">657</td>
+<td id="768B5A42FFDB75EFFC427775FC151389" box="[911,1017,1575,1670]" gridcol="5" gridrow="17" pageId="26" pageNumber="27">610–942</td>
+<td id="768B5A42FFDB75EFFBDF7775FB6E1389" box="[1042,1154,1575,1670]" gridcol="6" gridrow="17" pageId="26" pageNumber="27">1100</td>
+<td id="768B5A42FFDB75EFFB677775FAB61389" box="[1194,1370,1575,1670]" gridcol="7" gridrow="17" pageId="26" pageNumber="27">440–623</td>
+</tr>
+</table>
+</paragraph>
+<subSubSection id="C37062F7FFDB8A0BFF707791FC631464" lastPageId="27" lastPageNumber="28" pageId="26" pageNumber="27" type="materials_examined">
+<paragraph id="8BD5317CFFDB8A0AFF707791FE4613D2" blockId="26.[189,426,1731,1757]" box="[189,426,1731,1757]" pageId="26" pageNumber="27">
+<heading id="D09D8610FFDB8A0AFF707791FE4613D2" bold="true" box="[189,426,1731,1757]" fontSize="11" level="3" pageId="26" pageNumber="27" reason="3">
+<emphasis id="B91EED6EFFDB8A0AFF707791FE4613D2" bold="true" box="[189,426,1731,1757]" pageId="26" pageNumber="27">Material examined</emphasis>
+</heading>
+</paragraph>
+<paragraph id="8BD5317CFFDB8A0AFF2777A0FEB01203" blockId="26.[189,1398,1778,1910]" box="[234,348,1778,1804]" pageId="26" pageNumber="27">
+<emphasis id="B91EED6EFFDB8A0AFF2777A0FEB01203" bold="true" box="[234,348,1778,1804]" pageId="26" pageNumber="27">
+<typeStatus id="54D18FDEFFDB8A0AFF2777A0FEB01203" box="[234,348,1778,1804]" pageId="26" pageNumber="27">Holotype</typeStatus>
+</emphasis>
+</paragraph>
+<paragraph id="8BD5317CFFDB8A0AFF707644FE461279" blockId="26.[189,1398,1778,1910]" pageId="26" pageNumber="27">
+<materialsCitation id="3B023B21FFDB8A0AFF707644FE461279" ID-GBIF-Occurrence="2632775301" collectingDate="2003-12-13" collectionCode="NIWA" collectorName="D. Leduc" country="New Zealand" county="Kaharoa" elevation="5" latitude="-36.9133" location="North Island" longLatPrecision="6" longitude="175.4983" municipality="Firth of Thames" pageId="26" pageNumber="27" specimenCode="NIWA 139240" specimenCount="1" typeStatus="holotype">
+<collectingCountry id="F37D71ECFFDB8A0AFF707644FE7F1220" box="[189,403,1813,1840]" name="New Zealand" pageId="26" pageNumber="27">NEW ZEALAND</collectingCountry>
+• 
+<specimenCount id="9D6CFAF5FFDB8A0AFE7E7644FE27123F" box="[435,459,1814,1840]" pageId="26" pageNumber="27" type="male">♂</specimenCount>
+; 
+<location id="8EB567A7FFDB8A0AFE167647FD991220" LSID="urn:lsid:plazi:treatment:03C3806AFFD98A0FFDD17514FDE114DA:8EB567A7FFDB8A0AFE167647FD991220" box="[475,629,1813,1839]" country="New Zealand" county="Kaharoa" latitude="-36.9133" longLatPrecision="6" longitude="175.4983" municipality="Firth of Thames" name="North Island" pageId="26" pageNumber="27">North Island</location>
+, 
+<collectingMunicipality id="6BB1AB06FFDB8A0AFD4E7647FCA51220" box="[643,841,1813,1839]" pageId="26" pageNumber="27">Firth of Thames</collectingMunicipality>
+, 
+<collectingCounty id="62B449F0FFDB8A0AFC9A7647FC561220" box="[855,954,1813,1839]" pageId="26" pageNumber="27">Kaharoa</collectingCounty>
+voyage KAH0310, site SD5, station 3400C, surface (
+<quantity id="4C929C99FFDB8A0AFEB6766AFE38125C" box="[379,468,1848,1875]" metricMagnitude="-2" metricUnit="m" metricValue="2.5" metricValueMax="5.0" metricValueMin="0.0" pageId="26" pageNumber="27" unit="cm" value="2.5" valueMax="5.0" valueMin="0.0">0–5 cm</quantity>
+) muddy sediments; 
+<geoCoordinate id="EE5E57BBFFDB8A0AFD71766AFCD0125C" box="[700,828,1848,1875]" degrees="36.9133" direction="south" orientation="latitude" pageId="26" pageNumber="27" precision="5" value="-36.9133">36.9133º S</geoCoordinate>
+, 
+<geoCoordinate id="EE5E57BBFFDB8A0AFC8A766AFC35125C" box="[839,985,1848,1875]" degrees="175.4983" direction="east" orientation="longitude" pageId="26" pageNumber="27" precision="5" value="175.4983">175.4983º E</geoCoordinate>
+; depth 
+<quantity id="4C929C99FFDB8A0AFBE7766AFBB5125C" box="[1066,1113,1848,1875]" metricMagnitude="0" metricUnit="m" metricValue="5.0" pageId="26" pageNumber="27" unit="m" value="5.0">
+<elevation id="0047D64FFFDB8A0AFBE7766AFBB5125C" box="[1066,1113,1848,1875]" metricMagnitude="0" metricUnit="m" metricValue="5.0" pageId="26" pageNumber="27" unit="m" value="5.0">5 m</elevation>
+</quantity>
+; 
+<date id="FFD417BCFFDB8A0AFBAE766BFAEC125C" box="[1123,1280,1849,1875]" pageId="26" pageNumber="27" value="2003-12-13">
+<collectingDate id="EF90EE54FFDB8A0AFBAE766BFAEC125C" box="[1123,1280,1849,1875]" pageId="26" pageNumber="27" value="2003-12-13">13 Dec. 2003</collectingDate>
+</date>
+; 
+<collectorName id="269F54AAFFDB8A0AFAC6766BFA9A125D" box="[1291,1398,1848,1875]" pageId="26" pageNumber="27">D. Leduc</collectorName>
+leg.; 
+<specimenCode id="DBCC9907FFDB8A0AFF35760EFE4A1279" box="[248,422,1884,1910]" collectionCode="NIWA" country="New Zealand" httpUri="http://grbio.org/cool/nyq3-3g6s" name="National Institute of Water and Atmospheric Research" pageId="26" pageNumber="27" type="Other institutional type">NIWA 139240</specimenCode>
+.
+</materialsCitation>
+</paragraph>
+<paragraph id="8BD5317CFFDA8A0BFF277059FE8B142A" blockId="27.[189,1399,267,364]" box="[234,359,267,293]" pageId="27" pageNumber="28">
+<emphasis id="B91EED6EFFDA8A0BFF277059FE8B142A" bold="true" box="[234,359,267,293]" pageId="27" pageNumber="28">
+<typeStatus id="54D18FDEFFDA8A0BFF277059FE8B142A" box="[234,359,267,293]" pageId="27" pageNumber="28">Paratypes</typeStatus>
+</emphasis>
+</paragraph>
+<paragraph id="8BD5317CFFDA8A0BFF70707DFC631464" blockId="27.[189,1399,267,364]" pageId="27" pageNumber="28">
+<materialsCitation id="3B023B21FFDA8A0BFF70707DFB571447" ID-GBIF-Occurrence="2632775302" box="[189,1211,302,329]" collectingDate="2003-12-13" collectionCode="NIWA" collectorName="D. Leduc" country="New Zealand" county="Kaharoa" elevation="5" latitude="-36.9133" location="NEW ZEALAND" longLatPrecision="6" longitude="175.4983" municipality="Firth of Thames" pageId="27" pageNumber="28" specimenCode="NIWA 139241" specimenCount="4" specimenCount-female="2" specimenCount-male="2" typeStatus="paratype">
+<collectingCountry id="F37D71ECFFDA8A0BFF70707DFE7D1447" box="[189,401,302,329]" name="New Zealand" pageId="27" pageNumber="28">NEW ZEALAND</collectingCountry>
+• 
+<specimenCount id="9D6CFAF5FFDA8A0BFE61707CFE1D1446" box="[428,497,302,329]" pageId="27" pageNumber="28" type="male">2 ♂♂</specimenCount>
+, 
+<specimenCount id="9D6CFAF5FFDA8A0BFE32707CFDAE1446" box="[511,578,302,329]" pageId="27" pageNumber="28" type="female">2 ♀♀</specimenCount>
+; same collection data as for holotype; 
+<specimenCode id="DBCC9907FFDA8A0BFBC1707CFB571447" box="[1036,1211,302,328]" collectionCode="NIWA" country="New Zealand" httpUri="http://grbio.org/cool/nyq3-3g6s" name="National Institute of Water and Atmospheric Research" pageId="27" pageNumber="28" type="Other institutional type">NIWA 139241</specimenCode>
+</materialsCitation>
+. • 
+<materialsCitation id="3B023B21FFDA8A0BFB14707CFC671464" ID-GBIF-Occurrence="2632775304" collectingDate="2003-12-13" collectionCode="NNCNZ" collectorName="D. Leduc" country="New Zealand" county="Kaharoa" elevation="5" latitude="-36.9133" location="North Island" longLatPrecision="6" longitude="175.4983" municipality="Firth of Thames" pageId="27" pageNumber="28" specimenCode="NNCNZ 3325, 3329" specimenCount="5" specimenCount-female="2" specimenCount-male="3" typeStatus="paratype">
+<specimenCount id="9D6CFAF5FFDA8A0BFB14707CFAF21446" box="[1241,1310,302,329]" pageId="27" pageNumber="28" type="male">3 ♂♂</specimenCount>
+, 
+<specimenCount id="9D6CFAF5FFDA8A0BFAE6707CFA831446" box="[1323,1391,302,329]" pageId="27" pageNumber="28" type="female">2 ♀♀</specimenCount>
+; same collection data as for preceding; 
+<specimenCode id="DBCC9907FFDA8A0BFD4D7003FCC41463" box="[640,808,337,364]" collectionCode="NNCNZ" pageId="27" pageNumber="28">NNCNZ 3325</specimenCode>
+to 
+<specimenCode id="DBCC9907FFDA8A0BFC807003FC671464" box="[845,907,337,363]" collectionCode="NNCNZ" pageId="27" pageNumber="28">3329</specimenCode>
+</materialsCitation>
+.
+</paragraph>
+</subSubSection>
+<subSubSection id="C37062F7FFDA8A0FFF7070C0FDE114DA" lastPageId="31" lastPageNumber="32" pageId="27" pageNumber="28" type="description">
+<paragraph id="8BD5317CFFDA8A0BFF7070C0FEA214A3" blockId="27.[189,334,402,428]" box="[189,334,402,428]" pageId="27" pageNumber="28">
+<heading id="D09D8610FFDA8A0BFF7070C0FEA214A3" bold="true" box="[189,334,402,428]" fontSize="11" level="3" pageId="27" pageNumber="28" reason="3">
+<emphasis id="B91EED6EFFDA8A0BFF7070C0FEA214A3" bold="true" box="[189,334,402,428]" pageId="27" pageNumber="28">Description</emphasis>
+</heading>
+</paragraph>
+<paragraph id="8BD5317CFFDA8A0BFF277093FEC614D4" blockId="27.[189,1398,449,652]" box="[234,298,449,475]" pageId="27" pageNumber="28">
+<emphasis id="B91EED6EFFDA8A0BFF277093FEC614D4" bold="true" box="[234,298,449,475]" pageId="27" pageNumber="28">
+<collectingRegion id="49AEFF9EFFDA8A0BFF277093FEC614D4" box="[234,298,449,475]" country="Maldives" name="Maale" pageId="27" pageNumber="28">Male</collectingRegion>
+</emphasis>
+</paragraph>
+<paragraph id="8BD5317CFFDA8A0EFF7070B6FE2D1106" blockId="27.[189,1398,449,652]" lastBlockId="30.[189,1399,267,1033]" lastPageId="30" lastPageNumber="31" pageId="27" pageNumber="28">Body cylindrical, slender, colourless except for presence in most specimens of numerous light refractive granules along lateral, ventral and dorsal chords, either along entire body or in pharyngeal and tail regions only. Metanemes not observed. Six minute inner labial papillae very close to the six outer labial setae; the latter each with single joint and narrow tip. Four cephalic setae, apparently without joints, slightly longer than the outer labial setae, 0.20–0.33 cbd long, situated near mid-level of stegostoma, ca 0.6 cbd from anterior extremity. Amphids located posteriorly to buccal cavity. Amphideal aperture oval; amphideal fovea larger, pocket-shaped or sometimes bean-shaped, amphideal duct with slightly cuticularized outline and duct pore visible near middle of amphideal aperture. One or two somatic setae present posterior to each amphid; sometimes one or two dorsal and/or ventral setae present at level of amphid. Somatic setae absent elsewhere. Midventral row of 6–12 pharyngeal supplements present in five out of six specimens, each consisting of a small papilla on a cuticular swelling with internal duct, located 22–69 μm apart, beginning 26–30 μm from anterior extremity to slightly posterior to pharynx. Buccal cavity barrel-shaped, with cuticularized walls, up to 5–6 μm wide and 13–16 μm deep. Discontinuity in cuticularization between gymnostoma and stegostoma walls, and at the junctions between dorsal and ventrosublateral sectors, may be interpreted as outline of “oval structures”; slight projection of stegostoma wall cuticularization into buccal cavity also gives appearance of small tooth-like structure in lateral cross-section. Pharynx cylindrical, muscular, widening slightly posteriorly but without forming true bulb; cardia short, not surrounded by pharyngeal tissue. Nerve ring situated at ca 40–45% of pharyngeal length from anterior end. Secretory-excretory system not observed. Reproductive system with two opposed outstretched testes, both located ventrally relative to intestine. Sperm cells relatively large, 13–17 μm long, 7–9 μm wide, ovoid or drop-shaped, with spindle-shaped nuclei. Spicules arcuate, 1.1–1.3 cbd long, lightly cuticularized; gubernaculum short, ca ¼ of spicule length, flat or slightly curved. Eleven to twenty-one precloacal supplements present along midventral line, similar in structure and size to pharyngeal supplements; posterior-most supplement 12–15 μm from cloaca, remaining supplements 12–35 μm apart with anterior-most supplements tending to be slightly further apart than posterior-most supplements. Precloacal seta not observed. Tail filiform, very long, without setae; three caudal glands present.</paragraph>
+<caption id="DF1561F4FFDA8A0BFF707635FBA812E4" ID-DOI="http://doi.org/10.5281/zenodo.3888858" ID-Zenodo-Dep="3888858" httpUri="https://zenodo.org/record/3888858/files/figure.png" pageId="27" pageNumber="28" startId="27.[189,232,1895,1921]" targetBox="[241,1348,740,1829]" targetPageId="27">
+<paragraph id="8BD5317CFFDA8A0BFF707635FBA812E4" blockId="27.[189,1398,1895,2027]" pageId="27" pageNumber="28">
+<emphasis id="B91EED6EFFDA8A0BFF707635FEFD128E" bold="true" box="[189,273,1895,1921]" pageId="27" pageNumber="28">Fig. 5.</emphasis>
+Schematic representation of buccal cavity wall cuticularization in 
+<taxonomicName id="4C6A4AFFFFDA8A0BFB937635FB16128E" authorityName="Cobb" authorityYear="1920" box="[1118,1274,1895,1921]" class="Adenophorea" family="Trefusiidae" genus="Halanonchus" kingdom="Animalia" order="Enoplida" pageId="27" pageNumber="28" phylum="Nematoda" rank="genus">
+<emphasis id="B91EED6EFFDA8A0BFB937635FB16128E" box="[1118,1274,1895,1921]" italics="true" pageId="27" pageNumber="28">Halanonchus</emphasis>
+</taxonomicName>
+based on observations of 
+<taxonomicName id="4C6A4AFFFFDA8A0BFE4876D8FCF112AB" authority="Leduc" authorityName="Leduc &amp; Zhao &amp; Sinniger" authorityYear="2020" box="[389,797,1930,1956]" class="Adenophorea" family="Trefusiidae" genus="Halanonchus" kingdom="Animalia" order="Enoplida" pageId="27" pageNumber="28" phylum="Nematoda" rank="species" species="scintillatulus" status="sp. nov.">
+<emphasis id="B91EED6EFFDA8A0BFE4876D8FD2B12AB" box="[389,711,1930,1956]" italics="true" pageId="27" pageNumber="28">Halanonchus scintillatulus</emphasis>
+Leduc
+</taxonomicName>
+<taxonomicNameLabel id="A22D5015FFDA8A0BFCE676D9FC6012AA" box="[811,908,1931,1957]" pageId="27" pageNumber="28" rank="species">sp. nov.</taxonomicNameLabel>
+and illustrations of other 
+<taxonomicName id="4C6A4AFFFFDA8A0BFB1776D8FA9A12AB" authorityName="Cobb" authorityYear="1920" box="[1242,1398,1930,1956]" class="Adenophorea" family="Trefusiidae" genus="Halanonchus" kingdom="Animalia" order="Enoplida" pageId="27" pageNumber="28" phylum="Nematoda" rank="genus">
+<emphasis id="B91EED6EFFDA8A0BFB1776D8FA9A12AB" box="[1242,1398,1930,1956]" italics="true" pageId="27" pageNumber="28">Halanonchus</emphasis>
+</taxonomicName>
+species. Only the two ventrosublateral sectors are shown (dorsal sector omitted for clarity). Thin lines show contours of gymnostoma, and thick lines show contours of stegostoma.
+</paragraph>
+</caption>
+<caption id="DF1561F4FFDD8A0CFF707635FE7712E4" ID-DOI="http://doi.org/10.5281/zenodo.3888860" ID-Zenodo-Dep="3888860" httpUri="https://zenodo.org/record/3888860/files/figure.png" pageId="28" pageNumber="29" startId="28.[189,232,1895,1921]" targetBox="[230,1360,341,1843]" targetPageId="28">
+<paragraph id="8BD5317CFFDD8A0CFF707635FE7712E4" blockId="28.[189,1399,1895,2027]" pageId="28" pageNumber="29">
+<emphasis id="B91EED6EFFDD8A0CFF707635FEE5128E" bold="true" box="[189,265,1895,1921]" pageId="28" pageNumber="29">Fig. 6.</emphasis>
+<taxonomicName id="4C6A4AFFFFDD8A0CFEDD7635FD75128E" authority="Leduc" authorityName="Leduc &amp; Zhao &amp; Sinniger" authorityYear="2020" box="[272,665,1895,1921]" class="Adenophorea" family="Trefusiidae" genus="Halanonchus" kingdom="Animalia" order="Enoplida" pageId="28" pageNumber="29" phylum="Nematoda" rank="species" species="scintillatulus" status="sp. nov.">
+<emphasis id="B91EED6EFFDD8A0CFEDD7635FDA6128E" box="[272,586,1895,1921]" italics="true" pageId="28" pageNumber="29">Halanonchus scintillatulus</emphasis>
+Leduc
+</taxonomicName>
+<taxonomicNameLabel id="A22D5015FFDD8A0CFD6D763AFD15128D" box="[672,761,1896,1922]" pageId="28" pageNumber="29" rank="species">sp. nov.</taxonomicNameLabel>
+<emphasis id="B91EED6EFFDD8A0CFD327635FCF8128E" bold="true" box="[767,788,1895,1921]" pageId="28" pageNumber="29">A</emphasis>
+. ♀, cephalic region, paratype (NNCNZ3329). 
+<emphasis id="B91EED6EFFDD8A0CFAFF7635FAA1128E" bold="true" box="[1330,1357,1895,1921]" pageId="28" pageNumber="29">B.</emphasis>
+♂, cephalic region, holotype (NIWA 139240). 
+<emphasis id="B91EED6EFFDD8A0CFD0276D8FD0812AB" bold="true" box="[719,740,1930,1956]" pageId="28" pageNumber="29">C</emphasis>
+. ♂, cephalic region, paratype (NIWA 139241). 
+<emphasis id="B91EED6EFFDD8A0CFAFC76D8FAAA12AB" bold="true" box="[1329,1350,1930,1956]" pageId="28" pageNumber="29">D</emphasis>
+. ♂, copulatory apparatus, holotype. 
+<emphasis id="B91EED6EFFDD8A0CFDF776FCFDA212C7" bold="true" box="[570,590,1966,1992]" pageId="28" pageNumber="29">E</emphasis>
+. ♂, posterior body region, holotype. Scale bars: A–C = 20 μm; D = 35 μm; E = 45 μm.
+</paragraph>
+</caption>
+<caption id="DF1561F4FFDC8A0DFF7076F0FD3412EF" ID-DOI="http://doi.org/10.5281/zenodo.3888862" ID-Zenodo-Dep="3888862" httpUri="https://zenodo.org/record/3888862/files/figure.png" pageId="29" pageNumber="30" startId="29.[189,232,1954,1980]" targetBox="[232,1327,347,1850]" targetPageId="29">
+<paragraph id="8BD5317CFFDC8A0DFF7076F0FD3412EF" blockId="29.[189,1398,1954,2017]" pageId="29" pageNumber="30">
+<emphasis id="B91EED6EFFDC8A0DFF7076F0FEE012B2" bold="true" box="[189,268,1954,1981]" pageId="29" pageNumber="30">Fig. 7.</emphasis>
+<taxonomicName id="4C6A4AFFFFDC8A0DFED976F1FD4D12B2" authority="Leduc" authorityName="Leduc &amp; Zhao &amp; Sinniger" authorityYear="2020" box="[276,673,1955,1981]" class="Adenophorea" family="Trefusiidae" genus="Halanonchus" kingdom="Animalia" order="Enoplida" pageId="29" pageNumber="30" phylum="Nematoda" rank="species" species="scintillatulus" status="sp. nov.">
+<emphasis id="B91EED6EFFDC8A0DFED976F1FDBD12B2" box="[276,593,1955,1981]" italics="true" pageId="29" pageNumber="30">Halanonchus scintillatulus</emphasis>
+Leduc
+</taxonomicName>
+<taxonomicNameLabel id="A22D5015FFDC8A0DFD6776F1FCEA12B2" box="[682,774,1955,1981]" pageId="29" pageNumber="30" rank="species">sp. nov.</taxonomicNameLabel>
+<emphasis id="B91EED6EFFDC8A0DFCC376F0FCCF12B3" bold="true" box="[782,803,1954,1980]" pageId="29" pageNumber="30">A</emphasis>
+. Entire ♂, holotype (NIWA 139240). 
+<emphasis id="B91EED6EFFDC8A0DFB2B76F1FB1612B2" bold="true" box="[1254,1274,1955,1981]" pageId="29" pageNumber="30">B</emphasis>
+. Entire ♀, paratype (NNCNZ3328). Scale bar = 125 μm.
+</paragraph>
+</caption>
+<caption id="DF1561F4FFDF8A0EFF707671FD4512E1" ID-DOI="http://doi.org/10.5281/zenodo.3888864" ID-Zenodo-Dep="3888864" httpUri="https://zenodo.org/record/3888864/files/figure.png" pageId="30" pageNumber="31" startId="30.[189,232,1827,1853]" targetBox="[196,1392,1079,1786]" targetPageId="30">
+<paragraph id="8BD5317CFFDF8A0EFF707671FD4512E1" blockId="30.[189,1399,1827,2030]" pageId="30" pageNumber="31">
+<emphasis id="B91EED6EFFDF8A0EFF707671FEFC1232" bold="true" box="[189,272,1827,1853]" pageId="30" pageNumber="31">Fig. 8.</emphasis>
+<taxonomicName id="4C6A4AFFFFDF8A0EFED07671FD581232" authority="Leduc" authorityName="Leduc &amp; Zhao &amp; Sinniger" authorityYear="2020" box="[285,692,1827,1853]" class="Adenophorea" family="Trefusiidae" genus="Halanonchus" kingdom="Animalia" order="Enoplida" pageId="30" pageNumber="31" phylum="Nematoda" rank="species" species="scintillatulus" status="sp. nov.">
+<emphasis id="B91EED6EFFDF8A0EFED07671FDB31232" box="[285,607,1827,1853]" italics="true" pageId="30" pageNumber="31">Halanonchus scintillatulus</emphasis>
+Leduc
+</taxonomicName>
+<taxonomicNameLabel id="A22D5015FFDF8A0EFD0C7676FCC81231" box="[705,804,1828,1854]" pageId="30" pageNumber="31" rank="species">sp. nov.</taxonomicNameLabel>
+, light micrographs, ♀, paratype (NNCNZ3329). 
+<emphasis id="B91EED6EFFDF8A0EFF707614FF3E126F" bold="true" box="[189,210,1862,1888]" pageId="30" pageNumber="31">A</emphasis>
+. Sublateral optical cross section of buccal cavity showing teeth-like structures at anterior edge of stegostoma wall. 
+<emphasis id="B91EED6EFFDF8A0EFE5D7638FE48128B" bold="true" box="[400,420,1898,1924]" pageId="30" pageNumber="31">B</emphasis>
+. Subsurface view of same specimen showing discontinuity in cuticularisation of buccal cavity wall between gymnostoma and stegostoma, and at the junctions between the dorsal and ventrosublateral sectors, which may be interpreted as forming “oval structures”. Abbreviations see Material and methods. Scale bar = 10 μm.
+</paragraph>
+</caption>
+<paragraph id="8BD5317CFFDE8A0FFF277059FEA9142A" blockId="31.[189,1399,267,469]" box="[234,325,267,293]" pageId="31" pageNumber="32">
+<emphasis id="B91EED6EFFDE8A0FFF277059FEA9142A" bold="true" box="[234,325,267,293]" pageId="31" pageNumber="32">Female</emphasis>
+</paragraph>
+<paragraph id="8BD5317CFFDE8A0FFF70707CFDE114DA" blockId="31.[189,1399,267,469]" pageId="31" pageNumber="32">Similar to males, but with slightly lower values of a. Reproductive system monodelphic, with single reflexed posterior ovary situated ventrally relative to intestine. Mature eggs 95–103 μm long and 28– 31 μm wide. Spermatheca not observed. Vulva at about one third of body length from anterior extremity. Cuticularized pars distalis vaginae, proximal portion of vagina uterina surrounded by constrictor muscle; vaginal glands not observed.</paragraph>
+</subSubSection>
+</treatment>
+</document>
