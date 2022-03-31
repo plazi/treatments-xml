@@ -1,0 +1,815 @@
+<document id="98591CF0BB86FBD2ECDBF85BE484B044" ID-DOI="http://doi.org/10.5281/zenodo.4428725" ID-GBIF-Dataset="cc1a9ad1-ceb2-4ce8-87eb-570b2b96ed03" ID-GBIF-Taxon="176442121" ID-ISSN="1175-5326" ID-Zenodo-Dep="4428725" ID-ZooBank="96899960-3414-4985-8883-EF4B07931798" LSID="urn:lsid:zoobank.org:act:452B9AAF-B740-4900-A902-4A36ED266217" _generate="added" checkinTime="1609804339800" checkinUser="plazi" docAuthor="Meregalli, Massimo, Boriani, Marco, Taddei, Andrea, Hsu, Chen-Fu, Tseng, Wei-Zhe &amp; Mouttet, Raphaëlle" docDate="2020" docId="039C87B70079FFB71BA17E93BCAE2789" docLanguage="en" docName="zootaxa.4868.1.1.pdf" docOrigin="Zootaxa 4868 (1)" docStyle="DocumentStyle:647186512141C8FC8976D5BCC54AEB7D.9:Zootaxa.2013-.journal_article" docStyleId="647186512141C8FC8976D5BCC54AEB7D" docStyleName="Zootaxa.2013-.journal_article" docStyleVersion="9" docTitle="Aclees aenigmaticus Meregalli &amp; Boriani &amp; Taddei &amp; Hsu &amp; Tseng &amp; Mouttet 2020, sp. n." docType="treatment" docUuid="452B9AAF-B740-4900-A902-4A36ED266217" docUuidSource="ZooBank" docVersion="10" lastPageId="20" lastPageNumber="21" masterDocId="FFA5FFCF006AFFA31B367E05BB4A213D" masterDocTitle="A new species of Aclees from Taiwan with notes on other species of the genus (Coleoptera: Curculionidae: Molytinae)" masterLastPageNumber="26" masterPageNumber="1" pageId="19" pageNumber="20" updateTime="1634701405090" updateUser="ExternalLinkService" zenodo-license-document="CLOSED">
+<mods:mods id="1BD6628C547A6C3D02DA9AD8282E9028" xmlns:mods="http://www.loc.gov/mods/v3">
+<mods:titleInfo id="B4E1CA88CC1055D21A96EDC75F502ECD">
+<mods:title id="70200591719A37E6415DC0E9DAFA983F">A new species of Aclees from Taiwan with notes on other species of the genus (Coleoptera: Curculionidae: Molytinae)</mods:title>
+</mods:titleInfo>
+<mods:name id="9DDA6AFF2E667CA5C85EF0FC9FFF057A" type="personal">
+<mods:role id="481BD83CAFB624689FB9515263DE98FE">
+<mods:roleTerm id="94BBE68AE99B101BA0F5C1A28DA9567F">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="AE544EB55C2DEA986985057582E5AFD4">Meregalli, Massimo</mods:namePart>
+<mods:affiliation id="1B8F7A9783370064B3CD49B1EEDEB7E5">Department of Life Sciences and Systems Biology, University of Turin, Via Accademia Albertina 13, I- 10123 Torino, Italy.</mods:affiliation>
+</mods:name>
+<mods:name id="CD930B69E6E38CB464A5D98D953C430E" type="personal">
+<mods:role id="CF41A67BC8EAB238E5C907B9D097E00B">
+<mods:roleTerm id="47DEA4A96159C6BF5711C3AFE8254F0C">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="F72640CFE625EAEF97AEF5EF5C375FC5">Boriani, Marco</mods:namePart>
+<mods:nameIdentifier id="02773C7C627CB34AA1CBEC02FAE436E2" type="ORCID">https://orcid.org/0000-0001-6414-110X</mods:nameIdentifier>
+<mods:affiliation id="53377F9D77BB652CAA69ED302A7DB2C6">Regione Lombardia, Servizio fitosanitario regionale, Piazza Città di Lombardia 1, I- 20124 Milano, Italy. marco _ boriani @ regione. lombardia. it;</mods:affiliation>
+<mods:nameIdentifier id="80985203CD909369C311D1FB1C6DEFAD" type="email">marco_boriani@regione.lombardia.it</mods:nameIdentifier>
+</mods:name>
+<mods:name id="C4417D4BBF2DFE7B331BB33E95A0C257" type="personal">
+<mods:role id="FCACB93C5A1978A2EB7729B438090483">
+<mods:roleTerm id="249DB6EF7641F7423B869115C92E2BA7">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="A3F11AD8D4834218EEFCA28553B5D94F">Taddei, Andrea</mods:namePart>
+<mods:nameIdentifier id="9C0860BFDE24B87CBE5C37FAB342A0B4" type="ORCID">https://orcid.org/0000-0002-5260-5920</mods:nameIdentifier>
+<mods:affiliation id="07AE6F657B982239F45DCE5992EFE0E5">ANSES, 755 Avenue du campus Agropolis, CS 30016, FR- 34988 Montferrier-sur-Lez Cedex, France. &amp; andrea. taddei @ anses. fr;</mods:affiliation>
+<mods:nameIdentifier id="EF80118104C71FFB94374A10ECDA0EE4" type="email">andrea.taddei@anses.fr</mods:nameIdentifier>
+</mods:name>
+<mods:name id="8F97EF7EF57CAD1D59FB96A2753CAD68" type="personal">
+<mods:role id="3DC6E7FF60C437604C13DE3F406C9B65">
+<mods:roleTerm id="4138A10CB09B1DE7D5226BD6C7BD8A0C">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="5FF33B113DEBE767BD3BACC1742CE96D">Hsu, Chen-Fu</mods:namePart>
+<mods:nameIdentifier id="59DA6CC4C5AE4BD547A4C5F0AAF87DA8" type="ORCID">https://orcid.org/0000-0002-8460-6987</mods:nameIdentifier>
+<mods:affiliation id="926919E99AB5FF706226DFEE9681FDEB">Department of Geography, National Taiwan University, No. 1, Sec. 4, Roosevelt Rd., Taipei 10617, Taiwan. chenfuhsu @ outlook. com;</mods:affiliation>
+<mods:nameIdentifier id="8A57AB16916C8B16D571BED7C6F8219B" type="email">chenfuhsu@outlook.com</mods:nameIdentifier>
+</mods:name>
+<mods:name id="59921606709EA8AA058CB469FD976B87" type="personal">
+<mods:role id="CE940D07AA616B4D1F1CEE0F578E854A">
+<mods:roleTerm id="E4FD1537868A1D8E6C245A3D76D73016">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="4E3F47BEF5BA0665757096C9CCF972E8">Tseng, Wei-Zhe</mods:namePart>
+<mods:nameIdentifier id="EC8B1B14462036865B68B89AE353FF9F" type="ORCID">https://orcid.org/0000-0002-0270-4533</mods:nameIdentifier>
+<mods:affiliation id="7AF5A50CE67866EAA08E1102A924EA54">Department of Life Science, National Chung Hsing University, No. 250, 145 Xingda Rd., Taichung 40227, Taiwan. jay 584371 @ gmail. com;</mods:affiliation>
+<mods:nameIdentifier id="5827B0AB39DA2BBF583F0B0D3D869437" type="email">jay584371@gmail.com</mods:nameIdentifier>
+</mods:name>
+<mods:name id="88979EC9337D29443F65E26C95F8B1A1" type="personal">
+<mods:role id="CE82FC8323129BE8ADD992739C8C5B65">
+<mods:roleTerm id="09C4A2909B6E5CDA263FF1AE64C3D533">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="09BBDFCEDA36B00E2393BC6C0D0EEF0F">Mouttet, Raphaëlle</mods:namePart>
+<mods:nameIdentifier id="0B77D8C37582543252A3B3017DF20ADE" type="ORCID">https://orcid.org/0000-0003-4676-3364</mods:nameIdentifier>
+<mods:affiliation id="CA0991135778FB8B0676716340ACD4DB">ANSES, 755 Avenue du campus Agropolis, CS 30016, FR- 34988 Montferrier-sur-Lez Cedex, France. &amp; raphaelle. mouttet @ anses. fr</mods:affiliation>
+</mods:name>
+<mods:typeOfResource id="23DA17F2289FE281618D5FF4E29444AB">text</mods:typeOfResource>
+<mods:relatedItem id="7522D1EBA1115F461C0166009E136977" type="host">
+<mods:titleInfo id="75FABD98C872329CB76B87CCDDB90961">
+<mods:title id="D4AB965489AF1520E984EA6E17B1C87F">Zootaxa</mods:title>
+</mods:titleInfo>
+<mods:part id="4E52B83772C33A977786798EDCFCEF3C">
+<mods:date id="B5EBD9125B2DBA5223691F7DCBC6F373">2020</mods:date>
+<mods:detail id="E660872B376F7BEA45AA760ED31A5438" type="pubDate">
+<mods:number id="FFEC771CF385DFD025EBD0CC499D46F2">2020-10-23</mods:number>
+</mods:detail>
+<mods:detail id="B2FC93738A2384967DF090AC3FCA74BE" type="volume">
+<mods:number id="D78E2743F0148F7CAB3D88AE4098443C">4868</mods:number>
+</mods:detail>
+<mods:detail id="2624798BA2CE75AB038CB0E2051927B3" type="issue">
+<mods:number id="C550F01CD728C808874025D6A6FD381D">1</mods:number>
+</mods:detail>
+<mods:extent id="A871FD693FB8715A518A2969546D506C" unit="page">
+<mods:start id="F2617CFB718FD5F9D3055390F6AE30D5">1</mods:start>
+<mods:end id="77C5D5B5AE0EB929FA7DCD62B0761B00">26</mods:end>
+</mods:extent>
+</mods:part>
+</mods:relatedItem>
+<mods:classification id="B8C64214BE8211081EE5CE64ECACAC86">journal article</mods:classification>
+<mods:identifier id="3711476A15A1F09B379C76DEC86FE64C" type="DOI">https://doi.org/10.11646/zootaxa.4868.1.1</mods:identifier>
+<mods:identifier id="AAD918042C6C6B48692F054D81D3C028" type="GBIF-Dataset">cc1a9ad1-ceb2-4ce8-87eb-570b2b96ed03</mods:identifier>
+<mods:identifier id="10E161845977AEB04C6E72B674735B70" type="ISSN">1175-5326</mods:identifier>
+<mods:identifier id="47812231039BCC30FE3493896FFFB961" type="Zenodo-Dep">4428561</mods:identifier>
+<mods:identifier id="4AB049C01C49661FFEC22019F6A21570" type="ZooBank">96899960-3414-4985-8883-EF4B07931798</mods:identifier>
+</mods:mods>
+<treatment id="039C87B70079FFB71BA17E93BCAE2789" ID-DOI="http://doi.org/10.5281/zenodo.4428725" ID-GBIF-Taxon="176442121" ID-Zenodo-Dep="4428725" LSID="urn:lsid:zoobank.org:act:452B9AAF-B740-4900-A902-4A36ED266217" httpUri="http://treatment.plazi.org/id/039C87B70079FFB71BA17E93BCAE2789" lastPageId="20" lastPageNumber="21" pageId="19" pageNumber="20">
+<subSubSection id="C32F652A0079FFB01BA17E93BAE62193" box="[151,428,150,174]" pageId="19" pageNumber="20" type="nomenclature">
+<paragraph id="8B8A36A10079FFB01BA17E93BAE62193" blockId="19.[151,1436,150,750]" box="[151,428,150,174]" pageId="19" pageNumber="20">
+<heading id="D0C281CD0079FFB01BA17E93BAE62193" bold="true" box="[151,428,150,174]" fontSize="10" level="2" pageId="19" pageNumber="20" reason="2">
+<emphasis id="B941EAB30079FFB01BA17E93BAE62193" bold="true" box="[151,428,150,174]" pageId="19" pageNumber="20">
+<taxonomicName id="4C354D220079FFB01BA17E93BA262193" authority="Meregalli &amp; Boriani &amp; Taddei &amp; Hsu &amp; Tseng &amp; Mouttet, 2020" authorityName="Meregalli &amp; Boriani &amp; Taddei &amp; Hsu &amp; Tseng &amp; Mouttet" authorityYear="2020" box="[151,364,150,174]" class="Insecta" family="Curculionidae" genus="Aclees" kingdom="Animalia" order="Coleoptera" pageId="19" pageNumber="20" phylum="Arthropoda" rank="species" species="aenigmaticus" status="sp. n.">Aclees aenigmaticus</taxonomicName>
+<taxonomicNameLabel id="A27257C80079FFB01A457E93BAE62193" box="[371,428,150,174]" pageId="19" pageNumber="20" rank="species">
+<emphasis id="B941EAB30079FFB01A457E93BADB2193" box="[371,401,150,174]" inLineHeading="true" pageId="19" pageNumber="20" reason="1">sp.</emphasis>
+n.
+</taxonomicNameLabel>
+</emphasis>
+</heading>
+</paragraph>
+</subSubSection>
+<subSubSection id="C32F652A0079FFB01BF07EBFBF7B2003" pageId="19" pageNumber="20" type="description">
+<paragraph id="8B8A36A10079FFB01BF07EBFBF0921EF" blockId="19.[151,1436,150,750]" box="[198,1091,186,210]" pageId="19" pageNumber="20">
+<emphasis id="B941EAB30079FFB01BF07EBFBA9321EF" bold="true" box="[198,473,186,210]" pageId="19" pageNumber="20">
+<emphasis id="B941EAB30079FFB01BF07EBFBA8A21EF" box="[198,448,186,210]" inLineHeading="true" pageId="19" pageNumber="20" reason="1">
+<taxonomicName id="4C354D220079FFB01BF07EBFBAD121EF" authorityName="Meregalli &amp; Boriani &amp; Taddei &amp; Hsu &amp; Tseng &amp; Mouttet" authorityYear="2020" box="[198,411,186,210]" class="Insecta" family="Curculionidae" genus="Aclees" kingdom="Animalia" order="Coleoptera" pageId="19" pageNumber="20" phylum="Arthropoda" rank="species" species="aenigmaticus">
+<emphasis id="B941EAB30079FFB01BF07EBFBAD121EF" bold="true" box="[198,411,186,210]" italics="true" pageId="19" pageNumber="20">Aclees aenigmaticus</emphasis>
+</taxonomicName>
+ex.
+</emphasis>
+1.
+</emphasis>
+<materialsCitation id="3B5D3CFC0079FFB01AE97EBFBF0921EF" ID-GBIF-Occurrence="3013420344" box="[479,1091,186,210]" collectingDate="2018-10-05" collectorName="Hsu" country="Taiwan" location="New Taipei City" pageId="19" pageNumber="20" specimenCount="1" specimenCount-male="1" stateProvince="New Taipei">
+<emphasis id="B941EAB30079FFB01AE97EBFB96421EF" bold="true" box="[479,558,186,210]" pageId="19" pageNumber="20">
+<collectingCountry id="F32276310079FFB01AE97EBFB96421EF" box="[479,558,186,210]" name="Taiwan" pageId="19" pageNumber="20">Taiwan</collectingCountry>
+</emphasis>
+: 
+<collectingRegion id="49F1F8430079FFB0190A7EBEB9AE21EF" box="[572,740,186,210]" country="Taiwan" name="New Taipei" pageId="19" pageNumber="20">New Taipei City</collectingRegion>
+, 
+<date id="FF8B10610079FFB019DB7EBFB80421EF" box="[749,846,186,210]" pageId="19" pageNumber="20" value="2018-10-05">
+<collectingDate id="EFCFE9890079FFB019DB7EBFB80421EF" box="[749,846,186,210]" pageId="19" pageNumber="20" value="2018-10-05">5.X.2018</collectingDate>
+</date>
+, 
+<specimenCount id="9D33FD280079FFB0186E7EBFB8CA21EF" box="[856,896,186,210]" pageId="19" pageNumber="20" type="male">1 ♂</specimenCount>
+, Chen–Fu 
+<collectorName id="26C053770079FFB018D87EBEBF5D21EF" box="[1006,1047,187,210]" pageId="19" pageNumber="20">Hsu</collectorName>
+leg.
+</materialsCitation>
+</paragraph>
+<paragraph id="8B8A36A10079FFB01BF07EDBBBA62027" blockId="19.[151,1436,150,750]" pageId="19" pageNumber="20">
+<emphasis id="B941EAB30079FFB01BF07EDBBA9521CB" bold="true" box="[198,479,222,246]" pageId="19" pageNumber="20">
+<emphasis id="B941EAB30079FFB01BF07EDBBA8E21CB" box="[198,452,222,246]" inLineHeading="true" pageId="19" pageNumber="20" reason="1">
+<taxonomicName id="4C354D220079FFB01BF07EDBBAD721CB" authorityName="Meregalli &amp; Boriani &amp; Taddei &amp; Hsu &amp; Tseng &amp; Mouttet" authorityYear="2020" box="[198,413,222,246]" class="Insecta" family="Curculionidae" genus="Aclees" kingdom="Animalia" order="Coleoptera" pageId="19" pageNumber="20" phylum="Arthropoda" rank="species" species="aenigmaticus">
+<emphasis id="B941EAB30079FFB01BF07EDBBAD721CB" bold="true" box="[198,413,222,246]" italics="true" pageId="19" pageNumber="20">Aclees aenigmaticus</emphasis>
+</taxonomicName>
+ex.
+</emphasis>
+2.
+</emphasis>
+<materialsCitation id="3B5D3CFC0079FFB01AD17EDBBBA62027" ID-GBIF-Occurrence="3013420324" collectingDate="2017-11-05" collectorName="Wei-Zhe Tseng" country="Taiwan" location="Tamkang Farm" municipality="Tamsui District" pageId="19" pageNumber="20" specimenCount="1" specimenCount-female="1" stateProvince="New Taipei">
+<emphasis id="B941EAB30079FFB01AD17EDBB97C21CB" bold="true" box="[487,566,222,246]" pageId="19" pageNumber="20">
+<collectingCountry id="F32276310079FFB01AD17EDBB97C21CB" box="[487,566,222,246]" name="Taiwan" pageId="19" pageNumber="20">Taiwan</collectingCountry>
+</emphasis>
+: 
+<collectingRegion id="49F1F8430079FFB019707EDAB9B821CB" box="[582,754,222,246]" country="Taiwan" name="New Taipei" pageId="19" pageNumber="20">New Taipei City</collectingRegion>
+, 
+<collectingMunicipality id="6BEEACDB0079FFB019CB7EDBB8D521CB" box="[765,927,222,246]" pageId="19" pageNumber="20">Tamsui District</collectingMunicipality>
+, 
+<location id="8EEA607A0079FFB0189C7EDBBF0221CB" LSID="urn:lsid:plazi:treatment:039C87B70079FFB71BA17E93BCAE2789:8EEA607A0079FFB0189C7EDBBF0221CB" box="[938,1096,222,246]" country="Taiwan" municipality="Tamsui District" name="Tamkang Farm" pageId="19" pageNumber="20" stateProvince="New Taipei">Tamkang Farm</location>
+, 
+<date id="FF8B10610079FFB01F627EDBBFF421CB" box="[1108,1214,222,246]" pageId="19" pageNumber="20" value="2017-11-05">
+<collectingDate id="EFCFE9890079FFB01F627EDBBFF421CB" box="[1108,1214,222,246]" pageId="19" pageNumber="20" value="2017-11-05">5.XI.2017</collectingDate>
+</date>
+, 
+<specimenCount id="9D33FD280079FFB01FFC7EDBBFB821CB" box="[1226,1266,222,246]" pageId="19" pageNumber="20" type="female">1 ♀</specimenCount>
+, 
+<collectorName id="26C053770079FFB01E367EDBBED621CA" box="[1280,1436,222,247]" pageId="19" pageNumber="20">Wei-Zhe Tseng</collectorName>
+leg.
+</materialsCitation>
+</paragraph>
+<paragraph id="8B8A36A10079FFB01BF07F23BF7B2003" blockId="19.[151,1436,150,750]" box="[198,1073,294,318]" pageId="19" pageNumber="20">
+<emphasis id="B941EAB30079FFB01BF07F23BA932003" bold="true" box="[198,473,294,318]" pageId="19" pageNumber="20">
+<emphasis id="B941EAB30079FFB01BF07F23BA8A2003" box="[198,448,294,318]" inLineHeading="true" pageId="19" pageNumber="20" reason="1">
+<taxonomicName id="4C354D220079FFB01BF07F23BAD12003" authorityName="Meregalli &amp; Boriani &amp; Taddei &amp; Hsu &amp; Tseng &amp; Mouttet" authorityYear="2020" box="[198,411,294,318]" class="Insecta" family="Curculionidae" genus="Aclees" kingdom="Animalia" order="Coleoptera" pageId="19" pageNumber="20" phylum="Arthropoda" rank="species" species="aenigmaticus">
+<emphasis id="B941EAB30079FFB01BF07F23BAD12003" bold="true" box="[198,411,294,318]" italics="true" pageId="19" pageNumber="20">Aclees aenigmaticus</emphasis>
+</taxonomicName>
+ex.
+</emphasis>
+3.
+</emphasis>
+<materialsCitation id="3B5D3CFC0079FFB01AE97F23BF7B2003" ID-GBIF-Occurrence="3013420336" box="[479,1073,294,318]" collectingDate="2016-09-11" collectorName="Kuang-Ping Yu" country="Taiwan" location="City" pageId="19" pageNumber="20" specimenCount="1" specimenCount-female="1" stateProvince="Taipei">
+<emphasis id="B941EAB30079FFB01AE97F23B9642003" bold="true" box="[479,558,294,318]" pageId="19" pageNumber="20">
+<collectingCountry id="F32276310079FFB01AE97F23B9642003" box="[479,558,294,318]" name="Taiwan" pageId="19" pageNumber="20">Taiwan</collectingCountry>
+</emphasis>
+: 
+<collectingRegion id="49F1F8430079FFB0190D7F23B9302003" box="[571,634,294,318]" country="Taiwan" name="Taipei" pageId="19" pageNumber="20">Taipei</collectingRegion>
+<location id="8EEA607A0079FFB019B67F23B9E72003" LSID="urn:lsid:plazi:treatment:039C87B70079FFB71BA17E93BCAE2789:8EEA607A0079FFB019B67F23B9E72003" box="[640,685,294,318]" country="Taiwan" name="City" pageId="19" pageNumber="20" stateProvince="Taipei">City</location>
+, 
+<date id="FF8B10610079FFB019817F23B8662003" box="[695,812,294,318]" pageId="19" pageNumber="20" value="2016-09-11">
+<collectingDate id="EFCFE9890079FFB019817F23B8662003" box="[695,812,294,318]" pageId="19" pageNumber="20" value="2016-09-11">11.IX.2016</collectingDate>
+</date>
+, 
+<specimenCount id="9D33FD280079FFB018007F23B8162003" box="[822,860,294,318]" pageId="19" pageNumber="20" type="female">1 ♀</specimenCount>
+, 
+<collectorName id="26C053770079FFB0185F7F23BF4F2003" box="[873,1029,294,318]" pageId="19" pageNumber="20">Kuang-Ping Yu</collectorName>
+leg.
+</materialsCitation>
+</paragraph>
+</subSubSection>
+<subSubSection id="C32F652A0079FFB01BF07F4FBA0C23D3" pageId="19" pageNumber="20" type="materials_examined">
+<paragraph id="8B8A36A10079FFB01BF07F4FBF54205F" blockId="19.[151,1436,150,750]" box="[198,1054,330,354]" pageId="19" pageNumber="20">
+<emphasis id="B941EAB30079FFB01BF07F4FBA93205F" bold="true" box="[198,473,330,354]" pageId="19" pageNumber="20">
+<emphasis id="B941EAB30079FFB01BF07F4FBA8A205F" box="[198,448,330,354]" inLineHeading="true" pageId="19" pageNumber="20" reason="1">
+<taxonomicName id="4C354D220079FFB01BF07F4FBAD1205F" authorityName="Meregalli &amp; Boriani &amp; Taddei &amp; Hsu &amp; Tseng &amp; Mouttet" authorityYear="2020" box="[198,411,330,354]" class="Insecta" family="Curculionidae" genus="Aclees" kingdom="Animalia" order="Coleoptera" pageId="19" pageNumber="20" phylum="Arthropoda" rank="species" species="aenigmaticus">
+<emphasis id="B941EAB30079FFB01BF07F4FBAD1205F" bold="true" box="[198,411,330,354]" italics="true" pageId="19" pageNumber="20">Aclees aenigmaticus</emphasis>
+</taxonomicName>
+ex.
+</emphasis>
+4.
+</emphasis>
+<materialsCitation id="3B5D3CFC0079FFB01AE97F4FBF54205F" ID-GBIF-Occurrence="3013420318" box="[479,1054,330,354]" collectingDate="2016-09-29" collectorName="Hsu" country="Taiwan" location="City" pageId="19" pageNumber="20" specimenCount="1" specimenCount-female="1" stateProvince="Taipei">
+<emphasis id="B941EAB30079FFB01AE97F4FB964205F" bold="true" box="[479,558,330,354]" pageId="19" pageNumber="20">
+<collectingCountry id="F32276310079FFB01AE97F4FB964205F" box="[479,558,330,354]" name="Taiwan" pageId="19" pageNumber="20">Taiwan</collectingCountry>
+</emphasis>
+: 
+<collectingRegion id="49F1F8430079FFB0190D7F4FB930205F" box="[571,634,330,354]" country="Taiwan" name="Taipei" pageId="19" pageNumber="20">Taipei</collectingRegion>
+<location id="8EEA607A0079FFB019B67F4FB9E7205F" LSID="urn:lsid:plazi:treatment:039C87B70079FFB71BA17E93BCAE2789:8EEA607A0079FFB019B67F4FB9E7205F" box="[640,685,330,354]" country="Taiwan" name="City" pageId="19" pageNumber="20" stateProvince="Taipei">City</location>
+, 
+<date id="FF8B10610079FFB019817F4FB867205F" box="[695,813,330,354]" pageId="19" pageNumber="20" value="2016-09-29">
+<collectingDate id="EFCFE9890079FFB019817F4FB867205F" box="[695,813,330,354]" pageId="19" pageNumber="20" value="2016-09-29">29.IX.2016</collectingDate>
+</date>
+, 
+<specimenCount id="9D33FD280079FFB018017F4FB817205F" box="[823,861,330,354]" pageId="19" pageNumber="20" type="female">1 ♀</specimenCount>
+, Chen-Fu 
+<collectorName id="26C053770079FFB018FF7F4EB8B8205F" box="[969,1010,331,354]" pageId="19" pageNumber="20">Hsu</collectorName>
+leg.
+</materialsCitation>
+</paragraph>
+<paragraph id="8B8A36A10079FFB01BF07F6BBE4E20BB" blockId="19.[151,1436,150,750]" box="[198,1284,366,390]" pageId="19" pageNumber="20">
+<emphasis id="B941EAB30079FFB01BF07F6BBA9320BB" bold="true" box="[198,473,366,390]" pageId="19" pageNumber="20">
+<emphasis id="B941EAB30079FFB01BF07F6BBA8A20BB" box="[198,448,366,390]" inLineHeading="true" pageId="19" pageNumber="20" reason="1">
+<taxonomicName id="4C354D220079FFB01BF07F6BBAD120BB" authorityName="Meregalli &amp; Boriani &amp; Taddei &amp; Hsu &amp; Tseng &amp; Mouttet" authorityYear="2020" box="[198,411,366,390]" class="Insecta" family="Curculionidae" genus="Aclees" kingdom="Animalia" order="Coleoptera" pageId="19" pageNumber="20" phylum="Arthropoda" rank="species" species="aenigmaticus">
+<emphasis id="B941EAB30079FFB01BF07F6BBAD120BB" bold="true" box="[198,411,366,390]" italics="true" pageId="19" pageNumber="20">Aclees aenigmaticus</emphasis>
+</taxonomicName>
+ex.
+</emphasis>
+5.
+</emphasis>
+<materialsCitation id="3B5D3CFC0079FFB01AE97F6BBE4A20BB" ID-GBIF-Occurrence="3013420337" box="[479,1280,366,390]" collectingDate="2018-08" country="Vietnam" elevation="2" location="Mu Cang Ch" pageId="19" pageNumber="20" specimenCount="1" specimenCount-male="1" stateProvince="Yen Bai">
+<emphasis id="B941EAB30079FFB01AE97F6BB97120BB" bold="true" box="[479,571,366,390]" pageId="19" pageNumber="20">
+<collectingCountry id="F32276310079FFB01AE97F6BB97120BB" box="[479,571,366,390]" name="Vietnam" pageId="19" pageNumber="20">Vietnam</collectingCountry>
+</emphasis>
+: 
+<collectingRegion id="49F1F8430079FFB0197E7F6BB9D520BB" box="[584,671,366,390]" country="Vietnam" name="Yen Bai" pageId="19" pageNumber="20">Yên Bái</collectingRegion>
+, 
+<location id="8EEA607A0079FFB0199F7F6BB86420BB" LSID="urn:lsid:plazi:treatment:039C87B70079FFB71BA17E93BCAE2789:8EEA607A0079FFB0199F7F6BB86420BB" box="[681,814,366,390]" country="Vietnam" name="Mu Cang Ch" pageId="19" pageNumber="20" stateProvince="Yen Bai">Mù Cang Ch</location>
+ải, 
+<quantity id="4CCD9B440079FFB0187C7F6BB8EA20BB" box="[842,928,366,390]" metricMagnitude="0" metricUnit="m" metricValue="1.7" pageId="19" pageNumber="20" unit="m" value="1.7">
+<elevation id="0018D1920079FFB0187C7F6BB8EA20BB" box="[842,928,366,390]" metricMagnitude="0" metricUnit="m" metricValue="1.7" pageId="19" pageNumber="20" unit="m" value="1.7">1.700 m</elevation>
+</quantity>
+, 
+<date id="FF8B10610079FFB0189C7F6BBF5B20BB" box="[938,1041,366,390]" pageId="19" pageNumber="20" value="2018-08">
+<collectingDate id="EFCFE9890079FFB0189C7F6BBF5B20BB" box="[938,1041,366,390]" pageId="19" pageNumber="20" value="2018-08">VIII.2018</collectingDate>
+</date>
+, 
+<specimenCount id="9D33FD280079FFB01F2D7F6BBF7620BB" box="[1051,1084,366,390]" pageId="19" pageNumber="20" type="male">1♂</specimenCount>
+, local collector leg
+</materialsCitation>
+.
+</paragraph>
+<paragraph id="8B8A36A10079FFB01BF07F97B9E620F3" blockId="19.[151,1436,150,750]" pageId="19" pageNumber="20">
+<emphasis id="B941EAB30079FFB01BF07F97B9F82097" bold="true" box="[198,690,402,426]" pageId="19" pageNumber="20">
+<emphasis id="B941EAB30079FFB01BF07F97BA842097" box="[198,462,402,426]" inLineHeading="true" pageId="19" pageNumber="20" reason="1">
+<taxonomicName id="4C354D220079FFB01BF07F97BAE82097" authorityName="Meregalli &amp; Boriani &amp; Taddei &amp; Hsu &amp; Tseng &amp; Mouttet" authorityYear="2020" box="[198,418,402,426]" class="Insecta" family="Curculionidae" genus="Aclees" kingdom="Animalia" order="Coleoptera" pageId="19" pageNumber="20" phylum="Arthropoda" rank="species" species="aenigmaticus">
+<emphasis id="B941EAB30079FFB01BF07F97BAE82097" bold="true" box="[198,418,402,426]" italics="true" pageId="19" pageNumber="20">Aclees aenigmaticus</emphasis>
+</taxonomicName>
+ex.
+</emphasis>
+6. China (
+<collectingRegion id="49F1F8430079FFB019677F97B9E12097" box="[593,683,402,426]" country="China" name="Sichuan" pageId="19" pageNumber="20">Sichuan</collectingRegion>
+)
+</emphasis>
+: 
+<materialsCitation id="3B5D3CFC0079FFB019F17F97B9E620F3" ID-GBIF-Occurrence="3013420345" collectingDate="2017-05-11" collectingDateMax="2017-05-16" collectingDateMin="2017-05-11" collectorName="Walter Grosser" country="China" elevation="725" latitude="30.896166" location="Sichuan prov." longLatPrecision="1" longitude="103.57816" municipality="Mount Qingcheng" pageId="19" pageNumber="20" specimenCount="1" stateProvince="Sichuan">
+<collectingCountry id="F32276310079FFB019F17F97B8502097" box="[711,794,402,426]" name="China" pageId="19" pageNumber="20">CHINA</collectingCountry>
+, 
+<location id="8EEA607A0079FFB0181C7F97B8F52097" LSID="urn:lsid:plazi:treatment:039C87B70079FFB71BA17E93BCAE2789:8EEA607A0079FFB0181C7F97B8F52097" box="[810,959,402,426]" country="China" latitude="30.896166" longLatPrecision="1" longitude="103.57816" municipality="Mount Qingcheng" name="Sichuan prov." pageId="19" pageNumber="20" stateProvince="Sichuan">Sichuan prov.</location>
+, 
+<collectingMunicipality id="6BEEACDB0079FFB018E67F96BFD82097" box="[976,1170,402,426]" pageId="19" pageNumber="20">Mount Qingcheng</collectingMunicipality>
+, 
+<quantity id="4CCD9B440079FFB01F957F97BF952097" box="[1187,1247,402,426]" metricMagnitude="2" metricUnit="m" metricValue="7.25" pageId="19" pageNumber="20" unit="m" value="725.0">
+<elevation id="0018D1920079FFB01F957F97BF952097" box="[1187,1247,402,426]" metricMagnitude="2" metricUnit="m" metricValue="7.25" pageId="19" pageNumber="20" unit="m" value="725.0">725m</elevation>
+</quantity>
+, 
+<geoCoordinate id="EE0150660079FFB01FC67F96BECA2097" box="[1264,1408,402,426]" degrees="30" direction="north" minutes="53.770" orientation="latitude" pageId="19" pageNumber="20" precision="1" value="30.896166">N 30°53.770’</geoCoordinate>
+<geoCoordinate id="EE0150660079FFB01EBB7F96BA0C20F3" degrees="103" direction="east" minutes="34.690" orientation="longitude" pageId="19" pageNumber="20" precision="1" value="103.57816">E 103°34.690’</geoCoordinate>
+, 
+<date id="FF8B10610079FFB01A677FB3BA9720F3" box="[337,477,438,462]" pageId="19" pageNumber="20" value="2017-05-11" valueMax="2017-05-16" valueMin="2017-05-11">
+<collectingDate id="EFCFE9890079FFB01A677FB3BA9720F3" box="[337,477,438,462]" pageId="19" pageNumber="20" value="2017-05-11" valueMax="2017-05-16" valueMin="2017-05-11">11-16-v-2017</collectingDate>
+</date>
+, 
+<collectorName id="26C053770079FFB01AD17FB3B9CA20F3" box="[487,640,438,462]" pageId="19" pageNumber="20">Walter Grosser</collectorName>
+leg.
+</materialsCitation>
+</paragraph>
+<paragraph id="8B8A36A10079FFB01BF07FDFBF0A20CF" blockId="19.[151,1436,150,750]" box="[198,1088,474,498]" pageId="19" pageNumber="20">
+<emphasis id="B941EAB30079FFB01BF07FDFBA9320CF" bold="true" box="[198,473,474,498]" pageId="19" pageNumber="20">
+<emphasis id="B941EAB30079FFB01BF07FDFBA8A20CF" box="[198,448,474,498]" inLineHeading="true" pageId="19" pageNumber="20" reason="1">
+<taxonomicName id="4C354D220079FFB01BF07FDFBAD120CF" authorityName="Meregalli &amp; Boriani &amp; Taddei &amp; Hsu &amp; Tseng &amp; Mouttet" authorityYear="2020" box="[198,411,474,498]" class="Insecta" family="Curculionidae" genus="Aclees" kingdom="Animalia" order="Coleoptera" pageId="19" pageNumber="20" phylum="Arthropoda" rank="species" species="aenigmaticus">
+<emphasis id="B941EAB30079FFB01BF07FDFBAD120CF" bold="true" box="[198,411,474,498]" italics="true" pageId="19" pageNumber="20">Aclees aenigmaticus</emphasis>
+</taxonomicName>
+ex.
+</emphasis>
+7.
+</emphasis>
+<materialsCitation id="3B5D3CFC0079FFB01AE97FDFBF7620CF" ID-GBIF-Occurrence="3013420341" box="[479,1084,474,498]" country="Taiwan" location="Nantou" pageId="19" pageNumber="20" specimenCount="1" specimenCount-female="1" stateProvince="Nantou">
+<emphasis id="B941EAB30079FFB01AE97FDFB96420CF" bold="true" box="[479,558,474,498]" pageId="19" pageNumber="20">
+<collectingCountry id="F32276310079FFB01AE97FDFB96420CF" box="[479,558,474,498]" name="Taiwan" pageId="19" pageNumber="20">Taiwan</collectingCountry>
+</emphasis>
+: 
+<collectingRegion id="49F1F8430079FFB0190A7FDEB9CD20CF" box="[572,647,475,498]" country="Taiwan" name="Nantou" pageId="19" pageNumber="20">Nantou</collectingRegion>
+County—IX.2016, 
+<specimenCount id="9D33FD280079FFB018677FDFB83D20CF" box="[849,887,474,498]" pageId="19" pageNumber="20" type="female">1 ♀</specimenCount>
+, local collector leg
+</materialsCitation>
+.
+</paragraph>
+<paragraph id="8B8A36A10079FFB01BF07FFBBBA62307" blockId="19.[151,1436,150,750]" pageId="19" pageNumber="20">
+<emphasis id="B941EAB30079FFB01BF07FFBBA97232B" bold="true" box="[198,477,510,534]" pageId="19" pageNumber="20">
+<emphasis id="B941EAB30079FFB01BF07FFBBA89232B" box="[198,451,510,534]" inLineHeading="true" pageId="19" pageNumber="20" reason="1">
+<taxonomicName id="4C354D220079FFB01BF07FFBBAD6232B" authorityName="Meregalli &amp; Boriani &amp; Taddei &amp; Hsu &amp; Tseng &amp; Mouttet" authorityYear="2020" box="[198,412,510,534]" class="Insecta" family="Curculionidae" genus="Aclees" kingdom="Animalia" order="Coleoptera" pageId="19" pageNumber="20" phylum="Arthropoda" rank="species" species="aenigmaticus">
+<emphasis id="B941EAB30079FFB01BF07FFBBAD6232B" bold="true" box="[198,412,510,534]" italics="true" pageId="19" pageNumber="20">Aclees aenigmaticus</emphasis>
+</taxonomicName>
+ex.
+</emphasis>
+8.
+</emphasis>
+<materialsCitation id="3B5D3CFC0079FFB01AD37FFBBBA62307" ID-GBIF-Occurrence="3013420320" collectingDate="2017-08-13" collectorName="Sheng-Hung Lin" country="Taiwan" location="Heping District" pageId="19" pageNumber="20" specimenCount="1" specimenCount-female="1" stateProvince="Taichung">
+<emphasis id="B941EAB30079FFB01AD37FFBB97E232B" bold="true" box="[485,564,510,534]" pageId="19" pageNumber="20">
+<collectingCountry id="F32276310079FFB01AD37FFBB97E232B" box="[485,564,510,534]" name="Taiwan" pageId="19" pageNumber="20">Taiwan</collectingCountry>
+</emphasis>
+: 
+<collectingRegion id="49F1F8430079FFB019757FFBB99F232B" box="[579,725,510,534]" country="Taiwan" name="Taichung" pageId="19" pageNumber="20">Taichung City</collectingRegion>
+, 
+<location id="8EEA607A0079FFB019D67FFBB8C8232B" LSID="urn:lsid:plazi:treatment:039C87B70079FFB71BA17E93BCAE2789:8EEA607A0079FFB019D67FFBB8C8232B" box="[736,898,510,534]" country="Taiwan" name="Heping District" pageId="19" pageNumber="20" stateProvince="Taichung">Heping District</location>
+, Wuling Farm., 
+<specimenCount id="9D33FD280079FFB01F1F7FFBBF1B232B" box="[1065,1105,510,534]" pageId="19" pageNumber="20" type="female">1 ♀</specimenCount>
+, 
+<date id="FF8B10610079FFB01F697FFBBFAF232B" box="[1119,1253,510,534]" pageId="19" pageNumber="20" value="2017-08-13">
+<collectingDate id="EFCFE9890079FFB01F697FFBBFAF232B" box="[1119,1253,510,534]" pageId="19" pageNumber="20" value="2017-08-13">13.VIII.2017</collectingDate>
+</date>
+, 
+<collectorName id="26C053770079FFB01FC77FFBBED6232B" box="[1265,1436,510,534]" pageId="19" pageNumber="20">Sheng-Hung Lin</collectorName>
+leg.
+</materialsCitation>
+</paragraph>
+<paragraph id="8B8A36A10079FFB01BF07C43BF152363" blockId="19.[151,1436,150,750]" box="[198,1119,582,606]" pageId="19" pageNumber="20">
+<emphasis id="B941EAB30079FFB01BF07C43BA932363" bold="true" box="[198,473,582,606]" pageId="19" pageNumber="20">
+<emphasis id="B941EAB30079FFB01BF07C43BA8A2363" box="[198,448,582,606]" inLineHeading="true" pageId="19" pageNumber="20" reason="1">
+<taxonomicName id="4C354D220079FFB01BF07C43BAD12363" authorityName="Meregalli &amp; Boriani &amp; Taddei &amp; Hsu &amp; Tseng &amp; Mouttet" authorityYear="2020" box="[198,411,582,606]" class="Insecta" family="Curculionidae" genus="Aclees" kingdom="Animalia" order="Coleoptera" pageId="19" pageNumber="20" phylum="Arthropoda" rank="species" species="aenigmaticus">
+<emphasis id="B941EAB30079FFB01BF07C43BAD12363" bold="true" box="[198,411,582,606]" italics="true" pageId="19" pageNumber="20">Aclees aenigmaticus</emphasis>
+</taxonomicName>
+ex.
+</emphasis>
+9.
+</emphasis>
+<materialsCitation id="3B5D3CFC0079FFB01AE97C43BF152363" ID-GBIF-Occurrence="3013420305" box="[479,1119,582,606]" collectingDate="2015-08-21" collectorName="Hsu" country="Taiwan" location="New Taipei City" pageId="19" pageNumber="20" specimenCount="1" specimenCount-male="1" stateProvince="New Taipei">
+<emphasis id="B941EAB30079FFB01AE97C43B9642363" bold="true" box="[479,558,582,606]" pageId="19" pageNumber="20">
+<collectingCountry id="F32276310079FFB01AE97C43B9642363" box="[479,558,582,606]" name="Taiwan" pageId="19" pageNumber="20">Taiwan</collectingCountry>
+</emphasis>
+: 
+<collectingRegion id="49F1F8430079FFB0190A7C42B9AE2363" box="[572,740,582,606]" country="Taiwan" name="New Taipei" pageId="19" pageNumber="20">New Taipei City</collectingRegion>
+, 
+<date id="FF8B10610079FFB019DB7C43B83E2363" box="[749,884,582,606]" pageId="19" pageNumber="20" value="2015-08-21">
+<collectingDate id="EFCFE9890079FFB019DB7C43B83E2363" box="[749,884,582,606]" pageId="19" pageNumber="20" value="2015-08-21">21.VIII.2015</collectingDate>
+</date>
+, 
+<specimenCount id="9D33FD280079FFB018487C43B8D52363" box="[894,927,582,606]" pageId="19" pageNumber="20" type="male">1♂</specimenCount>
+, Chen-Fu 
+<collectorName id="26C053770079FFB01F3F7C42BF782363" box="[1033,1074,583,606]" pageId="19" pageNumber="20">Hsu</collectorName>
+leg.
+</materialsCitation>
+</paragraph>
+<paragraph id="8B8A36A10079FFB01BF07C6FBA64239B" blockId="19.[151,1436,150,750]" pageId="19" pageNumber="20">
+<emphasis id="B941EAB30079FFB01BF07C6FBAA123BF" bold="true" box="[198,491,618,642]" pageId="19" pageNumber="20">
+<emphasis id="B941EAB30079FFB01BF07C6FBA8923BF" box="[198,451,618,642]" inLineHeading="true" pageId="19" pageNumber="20" reason="1">
+<taxonomicName id="4C354D220079FFB01BF07C6FBAD623BF" authorityName="Meregalli &amp; Boriani &amp; Taddei &amp; Hsu &amp; Tseng &amp; Mouttet" authorityYear="2020" box="[198,412,618,642]" class="Insecta" family="Curculionidae" genus="Aclees" kingdom="Animalia" order="Coleoptera" pageId="19" pageNumber="20" phylum="Arthropoda" rank="species" species="aenigmaticus">
+<emphasis id="B941EAB30079FFB01BF07C6FBAD623BF" bold="true" box="[198,412,618,642]" italics="true" pageId="19" pageNumber="20">Aclees aenigmaticus</emphasis>
+</taxonomicName>
+ex.
+</emphasis>
+10.
+</emphasis>
+<materialsCitation id="3B5D3CFC0079FFB01AC47C6FBA64239B" ID-GBIF-Occurrence="3013420328" collectingDate="2017-07-30" collectorName="Wei-Zhe Tseng" country="Taiwan" location="Hushan Hiking Trail" municipality="Xinyi District" pageId="19" pageNumber="20" specimenCount="1" specimenCount-female="1" stateProvince="New Taipei">
+<emphasis id="B941EAB30079FFB01AC47C6FB90B23BF" bold="true" box="[498,577,618,642]" pageId="19" pageNumber="20">
+<collectingCountry id="F32276310079FFB01AC47C6FB90B23BF" box="[498,577,618,642]" name="Taiwan" pageId="19" pageNumber="20">Taiwan</collectingCountry>
+</emphasis>
+: 
+<collectingRegion id="49F1F8430079FFB019667C6EB9B623BF" box="[592,764,618,642]" country="Taiwan" name="New Taipei" pageId="19" pageNumber="20">New Taipei City</collectingRegion>
+, 
+<collectingMunicipality id="6BEEACDB0079FFB018317C6FB8D223BF" box="[775,920,618,642]" pageId="19" pageNumber="20">Xinyi District</collectingMunicipality>
+, 
+<location id="8EEA607A0079FFB018957C6FBF3323BF" LSID="urn:lsid:plazi:treatment:039C87B70079FFB71BA17E93BCAE2789:8EEA607A0079FFB018957C6FBF3323BF" box="[931,1145,618,642]" country="Taiwan" municipality="Xinyi District" name="Hushan Hiking Trail" pageId="19" pageNumber="20" stateProvince="New Taipei">Hushan Hiking Trail</location>
+, 
+<date id="FF8B10610079FFB01FB37C6FBE4923BF" box="[1157,1283,618,642]" pageId="19" pageNumber="20" value="2017-07-30">
+<collectingDate id="EFCFE9890079FFB01FB37C6FBE4923BF" box="[1157,1283,618,642]" pageId="19" pageNumber="20" value="2017-07-30">30.VII.2017</collectingDate>
+</date>
+, 
+<specimenCount id="9D33FD280079FFB01E397C6FBE7C23BF" box="[1295,1334,618,642]" pageId="19" pageNumber="20" type="female">1 ♀</specimenCount>
+, 
+<collectorName id="26C053770079FFB01E727C6FBA48239A" pageId="19" pageNumber="20">Wei-Zhe Tseng</collectorName>
+leg.
+</materialsCitation>
+</paragraph>
+<paragraph id="8B8A36A10079FFB01BF07CB7BA0C23D3" blockId="19.[151,1436,150,750]" pageId="19" pageNumber="20">
+<emphasis id="B941EAB30079FFB01BF07CB7BAAB23F7" bold="true" box="[198,481,690,714]" pageId="19" pageNumber="20">
+<emphasis id="B941EAB30079FFB01BF07CB7BAF423F7" box="[198,446,690,714]" inLineHeading="true" pageId="19" pageNumber="20" reason="1">
+<taxonomicName id="4C354D220079FFB01BF07CB7BAD023F7" authorityName="Meregalli &amp; Boriani &amp; Taddei &amp; Hsu &amp; Tseng &amp; Mouttet" authorityYear="2020" box="[198,410,690,714]" class="Insecta" family="Curculionidae" genus="Aclees" kingdom="Animalia" order="Coleoptera" pageId="19" pageNumber="20" phylum="Arthropoda" rank="species" species="aenigmaticus">
+<emphasis id="B941EAB30079FFB01BF07CB7BAD023F7" bold="true" box="[198,410,690,714]" italics="true" pageId="19" pageNumber="20">Aclees aenigmaticus</emphasis>
+</taxonomicName>
+ex.
+</emphasis>
+11.
+</emphasis>
+<materialsCitation id="3B5D3CFC0079FFB01AD07CB7BA0823D3" ID-GBIF-Occurrence="3013420335" country="China" elevation="2100" location="Mt. Biluoxueshan" municipality="Nujiang valley" pageId="19" pageNumber="20" specimenCount="1" specimenCount-male="1" stateProvince="Yunnan">
+<emphasis id="B941EAB30079FFB01AD07CB7B9D923F7" bold="true" box="[486,659,690,714]" pageId="19" pageNumber="20">
+<collectingCountry id="F32276310079FFB01AD07CB7B96223F7" box="[486,552,690,714]" name="China" pageId="19" pageNumber="20">China</collectingCountry>
+(
+<collectingRegion id="49F1F8430079FFB019027CB7B9C623F7" box="[564,652,690,714]" country="China" name="Yunnan" pageId="19" pageNumber="20">Yunnan</collectingRegion>
+)
+</emphasis>
+: 
+<locationDeviation id="9A382F830079FFB019A97CB6B86F23F7" box="[671,805,690,714]" location="Yunnan" pageId="19" pageNumber="20">W of Yunnan</locationDeviation>
+, N of 
+<collectingMunicipality id="6BEEACDB0079FFB018567CB7B8BF23F7" box="[864,1013,690,714]" pageId="19" pageNumber="20">Nujiang valley</collectingMunicipality>
+, 
+<location id="8EEA607A0079FFB018C87CB6BFFF23F7" LSID="urn:lsid:plazi:treatment:039C87B70079FFB71BA17E93BCAE2789:8EEA607A0079FFB018C87CB6BFFF23F7" box="[1022,1205,690,714]" country="China" municipality="Nujiang valley" name="Mt. Biluoxueshan" pageId="19" pageNumber="20" stateProvince="Yunnan">Mt. Biluoxueshan</location>
+, 
+<quantity id="4CCD9B440079FFB01F887CB7BE4C23F7" box="[1214,1286,690,714]" metricMagnitude="3" metricUnit="m" metricValue="2.1" pageId="19" pageNumber="20" unit="m" value="2100.0">
+<elevation id="0018D1920079FFB01F887CB7BE4C23F7" box="[1214,1286,690,714]" metricMagnitude="3" metricUnit="m" metricValue="2.1" pageId="19" pageNumber="20" unit="m" value="2100.0">2100m</elevation>
+</quantity>
+, 2018.6-7, 
+<specimenCount id="9D33FD280079FFB01E407CB7BEDD23F7" box="[1398,1431,690,714]" pageId="19" pageNumber="20" type="male">1♂</specimenCount>
+, 
+<taxonomicName id="4C354D220079FFB01BF07CD3BA5023D3" authority="Xu" authorityName="Xu" box="[198,282,726,750]" class="Insecta" family="Chrysomelidae" genus="Lina" higherTaxonomySource="GBIF" kingdom="Animalia" order="Coleoptera" pageId="19" pageNumber="20" phylum="Arthropoda" rank="genus">Lina Xu</taxonomicName>
+leg
+</materialsCitation>
+.
+</paragraph>
+</subSubSection>
+<subSubSection id="C32F652A007EFFB71BA17FDDBD8D2307" pageId="20" pageNumber="21" type="description">
+<caption id="DF4A6629007EFFB71BA17FDDBD8D2307" ID-Table-UUID="DF4A6629007EFFB71BA17FDDBD8D2307" httpUri="http://table.plazi.org/id/DF4A6629007EFFB71BA17FDDBD8D2307" pageId="20" pageNumber="21" startId="20.[151,239,472,498]" targetBox="[165,1990,590,1666]" targetIsTable="true" targetPageId="20">
+<paragraph id="8B8A36A1007EFFB71BA17FDDBD8D2307" blockId="20.[151,2039,472,570]" pageId="20" pageNumber="21">
+<emphasis id="B941EAB3007EFFB71BA17FDDBA4020CF" bold="true" box="[151,266,472,498]" pageId="20" pageNumber="21">TABLE I.</emphasis>
+Estimates of Evolutionary Divergence between Sequences. The number of base differences per site from between sequences are shown. The rate variation among sites was modeled with a gamma distribution (shape parameter = 1). Codon positions included were 1st+2nd+3rd+Noncoding. All ambiguous positions were removed for each sequence pair (pairwise deletion option). There were a total of 657 positions in the final dataset. Evolutionary analyses were conducted in MEGA X.
+</paragraph>
+</caption>
+</subSubSection>
+<paragraph id="8B8A36A1007EFFB719297C4BBC8C27BF" pageId="20" pageNumber="21">
+<table id="F935C401007E005C1B937C4BBC8C27BF" box="[165,1990,590,1666]" gridcols="15" gridrows="23" pageId="20" pageNumber="21">
+<tr id="350534E3007E005C1B937C4BBC8C235A" box="[165,1990,590,615]" gridrow="0" pageId="20" pageNumber="21" rowspan-0="1" rowspan-1="1">
+<th id="76D45D9F007E005C19297C4BB912235A" box="[543,600,590,615]" gridcol="2" gridrow="0" pageId="20" pageNumber="21">1</th>
+<th id="76D45D9F007E005C19A57C4BB986235A" box="[659,716,590,615]" gridcol="3" gridrow="0" pageId="20" pageNumber="21">2</th>
+<th id="76D45D9F007E005C18317C4BB80A235A" box="[775,832,590,615]" gridcol="4" gridrow="0" pageId="20" pageNumber="21">3</th>
+<th id="76D45D9F007E005C184D7C4BB8FE235A" box="[891,948,590,615]" gridcol="5" gridrow="0" pageId="20" pageNumber="21">4</th>
+<th id="76D45D9F007E005C18D97C4BBF62235A" box="[1007,1064,590,615]" gridcol="6" gridrow="0" pageId="20" pageNumber="21">5</th>
+<th id="76D45D9F007E005C1F547C4BBFD1235A" box="[1122,1179,590,615]" gridcol="7" gridrow="0" pageId="20" pageNumber="21">6</th>
+<th id="76D45D9F007E005C1FE07C4BBE45235A" box="[1238,1295,590,615]" gridcol="8" gridrow="0" pageId="20" pageNumber="21">7</th>
+<th id="76D45D9F007E005C1E7C7C4BBEC9235A" box="[1354,1411,590,615]" gridcol="9" gridrow="0" pageId="20" pageNumber="21">8</th>
+<th id="76D45D9F007E005C1E887C4BBEBD235A" box="[1470,1527,590,615]" gridcol="10" gridrow="0" pageId="20" pageNumber="21">9</th>
+<th id="76D45D9F007E005C1D047C4BBD21235A" box="[1586,1643,590,615]" gridcol="11" gridrow="0" pageId="20" pageNumber="21">10</th>
+<th id="76D45D9F007E005C1D907C4BBD95235A" box="[1702,1759,590,615]" gridcol="12" gridrow="0" pageId="20" pageNumber="21">11</th>
+<th id="76D45D9F007E005C1C2F7C4BBC18235A" box="[1817,1874,590,615]" gridcol="13" gridrow="0" pageId="20" pageNumber="21">12</th>
+<th id="76D45D9F007E005C1CBB7C4BBC8C235A" box="[1933,1990,590,615]" gridcol="14" gridrow="0" pageId="20" pageNumber="21">13</th>
+</tr>
+<tr id="350534E3007E005C1B937C7BBC8C23AA" box="[165,1990,638,663]" gridrow="1" pageId="20" pageNumber="21" rowspan-10="1" rowspan-11="1" rowspan-12="1" rowspan-13="1" rowspan-14="1" rowspan-2="1" rowspan-3="1" rowspan-4="1" rowspan-5="1" rowspan-6="1" rowspan-7="1" rowspan-8="1" rowspan-9="1">
+<th id="76D45D9F007E005C1B937C7BBBF423AA" box="[165,190,638,663]" gridcol="0" gridrow="1" pageId="20" pageNumber="21">1</th>
+<td id="76D45D9F007E005C1BD47C7BBAA223AA" box="[226,488,638,663]" gridcol="1" gridrow="1" pageId="20" pageNumber="21">
+<taxonomicName id="4C354D22007EFFB71BD47C7BBA3323AA" authorityName="Meregalli &amp; Boriani &amp; Taddei &amp; Hsu &amp; Tseng &amp; Mouttet" authorityYear="2020" baseAuthorityName="Heller" baseAuthorityYear="1929" box="[226,377,638,663]" class="Insecta" family="Curculionidae" genus="Aclees" kingdom="Animalia" order="Coleoptera" pageId="20" pageNumber="21" phylum="Arthropoda" rank="species" species="visayus">Aclees visayus</taxonomicName>
+</td>
+</tr>
+<tr id="350534E3007E005C1B937CA8BC8C23FB" box="[165,1990,685,710]" gridrow="2" pageId="20" pageNumber="21" rowspan-10="1" rowspan-11="1" rowspan-12="1" rowspan-13="1" rowspan-14="1" rowspan-3="1" rowspan-4="1" rowspan-5="1" rowspan-6="1" rowspan-7="1" rowspan-8="1" rowspan-9="1">
+<th id="76D45D9F007E005C1B937CA8BBF423FB" box="[165,190,685,710]" gridcol="0" gridrow="2" pageId="20" pageNumber="21">2</th>
+<td id="76D45D9F007E005C1BD47CA8BAA223FB" box="[226,488,685,710]" gridcol="1" gridrow="2" pageId="20" pageNumber="21">
+<taxonomicName id="4C354D22007EFFB71BD47CA8BA6D23FB" authorityName="Schoenherr" authorityYear="1835" box="[226,295,685,710]" class="Insecta" family="Curculionidae" genus="Aclees" kingdom="Animalia" order="Coleoptera" pageId="20" pageNumber="21" phylum="Arthropoda" rank="genus">Aclees</taxonomicName>
+sp. 
+<collectingRegion id="49F1F843007EFFB71A677CA8BAC523FB" box="[337,399,685,710]" country="Indonesia" name="Papua Barat" pageId="20" pageNumber="21">Papua</collectingRegion>
+</td>
+<td id="76D45D9F007E005C19297CA8B91223FB" box="[543,600,685,710]" gridcol="2" gridrow="2" pageId="20" pageNumber="21">0.105</td>
+</tr>
+<tr id="350534E3007E005C1B937CD8BC8C23CB" box="[165,1990,733,758]" gridrow="3" pageId="20" pageNumber="21" rowspan-10="1" rowspan-11="1" rowspan-12="1" rowspan-13="1" rowspan-14="1" rowspan-4="1" rowspan-5="1" rowspan-6="1" rowspan-7="1" rowspan-8="1" rowspan-9="1">
+<th id="76D45D9F007E005C1B937CD8BBF423CB" box="[165,190,733,758]" gridcol="0" gridrow="3" pageId="20" pageNumber="21">3</th>
+<td id="76D45D9F007E005C1BD47CD8BAA223CB" box="[226,488,733,758]" gridcol="1" gridrow="3" pageId="20" pageNumber="21">
+<taxonomicName id="4C354D22007EFFB71BD47CD8BA6D23CB" authorityName="Schoenherr" authorityYear="1835" box="[226,295,733,758]" class="Insecta" family="Curculionidae" genus="Aclees" kingdom="Animalia" order="Coleoptera" pageId="20" pageNumber="21" phylum="Arthropoda" rank="genus">Aclees</taxonomicName>
+sp. Weigeo
+</td>
+<td id="76D45D9F007E005C19297CD8B91223CB" box="[543,600,733,758]" gridcol="2" gridrow="3" pageId="20" pageNumber="21">
+<geoCoordinate id="EE015066007EFFB719297CD8B91223CB" box="[543,600,733,758]" degrees="0.102" direction="north" orientation="latitude" pageId="20" pageNumber="21" precision="55" value="0.102">0.102</geoCoordinate>
+</td>
+<subSubSection id="C32F652A007EFFB719A57CD8B98623CB" box="[659,716,733,758]" pageId="20" pageNumber="21" type="materials_examined">
+<td id="76D45D9F007E005C19A57CD8B98623CB" box="[659,716,733,758]" gridcol="3" gridrow="3" pageId="20" pageNumber="21">
+<geoCoordinate id="EE015066007EFFB719A57CD8B98623CB" box="[659,716,733,758]" degrees="0.014" direction="east" orientation="longitude" pageId="20" pageNumber="21" precision="55" value="0.014">0.014</geoCoordinate>
+</td>
+</subSubSection>
+</tr>
+<tr id="350534E3007E005C1B937D08BC8C221B" box="[165,1990,781,806]" gridrow="4" pageId="20" pageNumber="21" rowspan-10="1" rowspan-11="1" rowspan-12="1" rowspan-13="1" rowspan-14="1" rowspan-5="1" rowspan-6="1" rowspan-7="1" rowspan-8="1" rowspan-9="1">
+<th id="76D45D9F007E005C1B937D08BBF4221B" box="[165,190,781,806]" gridcol="0" gridrow="4" pageId="20" pageNumber="21">4</th>
+<td id="76D45D9F007E005C1BD47D08BAA2221B" box="[226,488,781,806]" gridcol="1" gridrow="4" pageId="20" pageNumber="21">
+<taxonomicName id="4C354D22007EFFB71BD47D08BA36221B" authorityName="Pascoe" authorityYear="1871" box="[226,380,781,806]" class="Insecta" family="Curculionidae" genus="Aclees" kingdom="Animalia" order="Coleoptera" pageId="20" pageNumber="21" phylum="Arthropoda" rank="species" species="porosus">Aclees porosus</taxonomicName>
+</td>
+<td id="76D45D9F007E005C19297D08B912221B" box="[543,600,781,806]" gridcol="2" gridrow="4" pageId="20" pageNumber="21">0.120</td>
+<td id="76D45D9F007E005C19A57D08B986221B" box="[659,716,781,806]" gridcol="3" gridrow="4" pageId="20" pageNumber="21">0.078</td>
+<td id="76D45D9F007E005C18317D08B80A221B" box="[775,832,781,806]" gridcol="4" gridrow="4" pageId="20" pageNumber="21">0.082</td>
+</tr>
+<tr id="350534E3007E005C1B937D38BC8C226B" box="[165,1990,829,854]" gridrow="5" pageId="20" pageNumber="21" rowspan-10="1" rowspan-11="1" rowspan-12="1" rowspan-13="1" rowspan-14="1" rowspan-6="1" rowspan-7="1" rowspan-8="1" rowspan-9="1">
+<th id="76D45D9F007E005C1B937D38BBF4226B" box="[165,190,829,854]" gridcol="0" gridrow="5" pageId="20" pageNumber="21">5</th>
+<td id="76D45D9F007E005C1BD47D38BAA2226B" box="[226,488,829,854]" gridcol="1" gridrow="5" pageId="20" pageNumber="21">
+<taxonomicName id="4C354D22007EFFB71BD47D38BAD8226B" authorityName="Kono" authorityYear="1933" box="[226,402,829,854]" class="Insecta" family="Curculionidae" genus="Aclees" kingdom="Animalia" order="Coleoptera" pageId="20" pageNumber="21" phylum="Arthropoda" rank="species" species="hirayamai">Aclees hirayamai</taxonomicName>
+ex.1
+</td>
+<td id="76D45D9F007E005C19297D38B912226B" box="[543,600,829,854]" gridcol="2" gridrow="5" pageId="20" pageNumber="21">0.129</td>
+<td id="76D45D9F007E005C19A57D38B986226B" box="[659,716,829,854]" gridcol="3" gridrow="5" pageId="20" pageNumber="21">0.079</td>
+<td id="76D45D9F007E005C18317D38B80A226B" box="[775,832,829,854]" gridcol="4" gridrow="5" pageId="20" pageNumber="21">0.084</td>
+<td id="76D45D9F007E005C184D7D38B8FE226B" box="[891,948,829,854]" gridcol="5" gridrow="5" pageId="20" pageNumber="21">0.075</td>
+</tr>
+<tr id="350534E3007E005C1B937D68BC8C22BB" box="[165,1990,877,902]" gridrow="6" pageId="20" pageNumber="21" rowspan-10="1" rowspan-11="1" rowspan-12="1" rowspan-13="1" rowspan-14="1" rowspan-7="1" rowspan-8="1" rowspan-9="1">
+<th id="76D45D9F007E005C1B937D68BBF422BB" box="[165,190,877,902]" gridcol="0" gridrow="6" pageId="20" pageNumber="21">6</th>
+<td id="76D45D9F007E005C1BD47D68BAA222BB" box="[226,488,877,902]" gridcol="1" gridrow="6" pageId="20" pageNumber="21">
+<taxonomicName id="4C354D22007EFFB71BD47D68BAD822BB" authorityName="Kono" authorityYear="1933" box="[226,402,877,902]" class="Insecta" family="Curculionidae" genus="Aclees" kingdom="Animalia" order="Coleoptera" pageId="20" pageNumber="21" phylum="Arthropoda" rank="species" species="hirayamai">Aclees hirayamai</taxonomicName>
+ex.2
+</td>
+<td id="76D45D9F007E005C19297D68B91222BB" box="[543,600,877,902]" gridcol="2" gridrow="6" pageId="20" pageNumber="21">0.126</td>
+<td id="76D45D9F007E005C19A57D68B98622BB" box="[659,716,877,902]" gridcol="3" gridrow="6" pageId="20" pageNumber="21">0.075</td>
+<td id="76D45D9F007E005C18317D68B80A22BB" box="[775,832,877,902]" gridcol="4" gridrow="6" pageId="20" pageNumber="21">0.079</td>
+<td id="76D45D9F007E005C184D7D68B8FE22BB" box="[891,948,877,902]" gridcol="5" gridrow="6" pageId="20" pageNumber="21">0.070</td>
+<td id="76D45D9F007E005C18D97D68BF6222BB" box="[1007,1064,877,902]" gridcol="6" gridrow="6" pageId="20" pageNumber="21">0.008</td>
+</tr>
+<tr id="350534E3007E005C1B937D99BC8C2288" box="[165,1990,924,949]" gridrow="7" pageId="20" pageNumber="21" rowspan-10="1" rowspan-11="1" rowspan-12="1" rowspan-13="1" rowspan-14="1" rowspan-8="1" rowspan-9="1">
+<th id="76D45D9F007E005C1B937D99BBF42288" box="[165,190,924,949]" gridcol="0" gridrow="7" pageId="20" pageNumber="21">7</th>
+<td id="76D45D9F007E005C1BD47D99BAA22288" box="[226,488,924,949]" gridcol="1" gridrow="7" pageId="20" pageNumber="21">
+<taxonomicName id="4C354D22007EFFB71BD47D99BAD82288" authorityName="Kono" authorityYear="1933" box="[226,402,924,949]" class="Insecta" family="Curculionidae" genus="Aclees" kingdom="Animalia" order="Coleoptera" pageId="20" pageNumber="21" phylum="Arthropoda" rank="species" species="hirayamai">Aclees hirayamai</taxonomicName>
+ex.3
+</td>
+<td id="76D45D9F007E005C19297D99B9122288" box="[543,600,924,949]" gridcol="2" gridrow="7" pageId="20" pageNumber="21">0.123</td>
+<td id="76D45D9F007E005C19A57D99B9862288" box="[659,716,924,949]" gridcol="3" gridrow="7" pageId="20" pageNumber="21">0.075</td>
+<td id="76D45D9F007E005C18317D99B80A2288" box="[775,832,924,949]" gridcol="4" gridrow="7" pageId="20" pageNumber="21">0.082</td>
+<td id="76D45D9F007E005C184D7D99B8FE2288" box="[891,948,924,949]" gridcol="5" gridrow="7" pageId="20" pageNumber="21">0.072</td>
+<td id="76D45D9F007E005C18D97D99BF622288" box="[1007,1064,924,949]" gridcol="6" gridrow="7" pageId="20" pageNumber="21">0.009</td>
+<td id="76D45D9F007E005C1F547D99BFD12288" box="[1122,1179,924,949]" gridcol="7" gridrow="7" pageId="20" pageNumber="21">0.008</td>
+</tr>
+<tr id="350534E3007E005C1B937DC9BC8C22D8" box="[165,1990,972,997]" gridrow="8" pageId="20" pageNumber="21" rowspan-10="1" rowspan-11="1" rowspan-12="1" rowspan-13="1" rowspan-14="1" rowspan-9="1">
+<th id="76D45D9F007E005C1B937DC9BBF422D8" box="[165,190,972,997]" gridcol="0" gridrow="8" pageId="20" pageNumber="21">8</th>
+<td id="76D45D9F007E005C1BD47DC9BAA222D8" box="[226,488,972,997]" gridcol="1" gridrow="8" pageId="20" pageNumber="21">
+<taxonomicName id="4C354D22007EFFB71BD47DC9BAD822D8" authorityName="Kono" authorityYear="1933" box="[226,402,972,997]" class="Insecta" family="Curculionidae" genus="Aclees" kingdom="Animalia" order="Coleoptera" pageId="20" pageNumber="21" phylum="Arthropoda" rank="species" species="hirayamai">Aclees hirayamai</taxonomicName>
+ex.4
+</td>
+<td id="76D45D9F007E005C19297DC9B91222D8" box="[543,600,972,997]" gridcol="2" gridrow="8" pageId="20" pageNumber="21">0.123</td>
+<td id="76D45D9F007E005C19A57DC9B98622D8" box="[659,716,972,997]" gridcol="3" gridrow="8" pageId="20" pageNumber="21">0.075</td>
+<td id="76D45D9F007E005C18317DC9B80A22D8" box="[775,832,972,997]" gridcol="4" gridrow="8" pageId="20" pageNumber="21">0.082</td>
+<td id="76D45D9F007E005C184D7DC9B8FE22D8" box="[891,948,972,997]" gridcol="5" gridrow="8" pageId="20" pageNumber="21">0.072</td>
+<td id="76D45D9F007E005C18D97DC9BF6222D8" box="[1007,1064,972,997]" gridcol="6" gridrow="8" pageId="20" pageNumber="21">0.009</td>
+<td id="76D45D9F007E005C1F547DC9BFD122D8" box="[1122,1179,972,997]" gridcol="7" gridrow="8" pageId="20" pageNumber="21">0.008</td>
+<td id="76D45D9F007E005C1FE07DC9BE4522D8" box="[1238,1295,972,997]" gridcol="8" gridrow="8" pageId="20" pageNumber="21">0.000</td>
+</tr>
+<tr id="350534E3007E005C1B937DF9BC8C2528" box="[165,1990,1020,1045]" gridrow="9" pageId="20" pageNumber="21" rowspan-10="1" rowspan-11="1" rowspan-12="1" rowspan-13="1" rowspan-14="1">
+<th id="76D45D9F007E005C1B937DF9BBF42528" box="[165,190,1020,1045]" gridcol="0" gridrow="9" pageId="20" pageNumber="21">9</th>
+<td id="76D45D9F007E005C1BD47DF9BAA22528" box="[226,488,1020,1045]" gridcol="1" gridrow="9" pageId="20" pageNumber="21">
+<taxonomicName id="4C354D22007EFFB71BD47DF9BAD82528" authorityName="Kono" authorityYear="1933" box="[226,402,1020,1045]" class="Insecta" family="Curculionidae" genus="Aclees" kingdom="Animalia" order="Coleoptera" pageId="20" pageNumber="21" phylum="Arthropoda" rank="species" species="hirayamai">Aclees hirayamai</taxonomicName>
+ex.5
+</td>
+<td id="76D45D9F007E005C19297DF9B9122528" box="[543,600,1020,1045]" gridcol="2" gridrow="9" pageId="20" pageNumber="21">0.125</td>
+<td id="76D45D9F007E005C19A57DF9B9862528" box="[659,716,1020,1045]" gridcol="3" gridrow="9" pageId="20" pageNumber="21">0.075</td>
+<td id="76D45D9F007E005C18317DF9B80A2528" box="[775,832,1020,1045]" gridcol="4" gridrow="9" pageId="20" pageNumber="21">0.079</td>
+<td id="76D45D9F007E005C184D7DF9B8FE2528" box="[891,948,1020,1045]" gridcol="5" gridrow="9" pageId="20" pageNumber="21">0.068</td>
+<td id="76D45D9F007E005C18D97DF9BF622528" box="[1007,1064,1020,1045]" gridcol="6" gridrow="9" pageId="20" pageNumber="21">0.006</td>
+<td id="76D45D9F007E005C1F547DF9BFD12528" box="[1122,1179,1020,1045]" gridcol="7" gridrow="9" pageId="20" pageNumber="21">0.005</td>
+<td id="76D45D9F007E005C1FE07DF9BE452528" box="[1238,1295,1020,1045]" gridcol="8" gridrow="9" pageId="20" pageNumber="21">0.006</td>
+<td id="76D45D9F007E005C1E7C7DF9BEC92528" box="[1354,1411,1020,1045]" gridcol="9" gridrow="9" pageId="20" pageNumber="21">0.006</td>
+</tr>
+<tr id="350534E3007E005C1B937A29BC8C2578" box="[165,1990,1068,1093]" gridrow="10" pageId="20" pageNumber="21" rowspan-11="1" rowspan-12="1" rowspan-13="1" rowspan-14="1">
+<th id="76D45D9F007E005C1B937A29BBF42578" box="[165,190,1068,1093]" gridcol="0" gridrow="10" pageId="20" pageNumber="21">10</th>
+<td id="76D45D9F007E005C1BD47A29BAA22578" box="[226,488,1068,1093]" gridcol="1" gridrow="10" pageId="20" pageNumber="21">
+<taxonomicName id="4C354D22007EFFB71BD47A29BAD82578" authorityName="Kono" authorityYear="1933" box="[226,402,1068,1093]" class="Insecta" family="Curculionidae" genus="Aclees" kingdom="Animalia" order="Coleoptera" pageId="20" pageNumber="21" phylum="Arthropoda" rank="species" species="hirayamai">Aclees hirayamai</taxonomicName>
+ex.6
+</td>
+<td id="76D45D9F007E005C19297A29B9122578" box="[543,600,1068,1093]" gridcol="2" gridrow="10" pageId="20" pageNumber="21">0.123</td>
+<td id="76D45D9F007E005C19A57A29B9862578" box="[659,716,1068,1093]" gridcol="3" gridrow="10" pageId="20" pageNumber="21">0.075</td>
+<td id="76D45D9F007E005C18317A29B80A2578" box="[775,832,1068,1093]" gridcol="4" gridrow="10" pageId="20" pageNumber="21">0.079</td>
+<td id="76D45D9F007E005C184D7A29B8FE2578" box="[891,948,1068,1093]" gridcol="5" gridrow="10" pageId="20" pageNumber="21">0.070</td>
+<td id="76D45D9F007E005C18D97A29BF622578" box="[1007,1064,1068,1093]" gridcol="6" gridrow="10" pageId="20" pageNumber="21">0.008</td>
+<td id="76D45D9F007E005C1F547A29BFD12578" box="[1122,1179,1068,1093]" gridcol="7" gridrow="10" pageId="20" pageNumber="21">0.006</td>
+<td id="76D45D9F007E005C1FE07A29BE452578" box="[1238,1295,1068,1093]" gridcol="8" gridrow="10" pageId="20" pageNumber="21">0.008</td>
+<td id="76D45D9F007E005C1E7C7A29BEC92578" box="[1354,1411,1068,1093]" gridcol="9" gridrow="10" pageId="20" pageNumber="21">0.008</td>
+<td id="76D45D9F007E005C1E887A29BEBD2578" box="[1470,1527,1068,1093]" gridcol="10" gridrow="10" pageId="20" pageNumber="21">0.002</td>
+</tr>
+<tr id="350534E3007E005C1B937A59BC8C2548" box="[165,1990,1116,1141]" gridrow="11" pageId="20" pageNumber="21" rowspan-12="1" rowspan-13="1" rowspan-14="1">
+<th id="76D45D9F007E005C1B937A59BBF42548" box="[165,190,1116,1141]" gridcol="0" gridrow="11" pageId="20" pageNumber="21">11</th>
+<td id="76D45D9F007E005C1BD47A59BAA22548" box="[226,488,1116,1141]" gridcol="1" gridrow="11" pageId="20" pageNumber="21">
+<taxonomicName id="4C354D22007EFFB71BD47A59BA6D2548" authorityName="Schoenherr" authorityYear="1835" box="[226,295,1116,1141]" class="Insecta" family="Curculionidae" genus="Aclees" kingdom="Animalia" order="Coleoptera" pageId="20" pageNumber="21" phylum="Arthropoda" rank="genus">Aclees</taxonomicName>
+sp. 
+<collectingCountry id="F3227631007EFFB71A667A59BAEC2548" box="[336,422,1116,1141]" name="Vietnam" pageId="20" pageNumber="21">Vietnam</collectingCountry>
+</td>
+<td id="76D45D9F007E005C19297A59B9122548" box="[543,600,1116,1141]" gridcol="2" gridrow="11" pageId="20" pageNumber="21">0.143</td>
+<td id="76D45D9F007E005C19A57A59B9862548" box="[659,716,1116,1141]" gridcol="3" gridrow="11" pageId="20" pageNumber="21">0.110</td>
+<td id="76D45D9F007E005C18317A59B80A2548" box="[775,832,1116,1141]" gridcol="4" gridrow="11" pageId="20" pageNumber="21">0.114</td>
+<td id="76D45D9F007E005C184D7A59B8FE2548" box="[891,948,1116,1141]" gridcol="5" gridrow="11" pageId="20" pageNumber="21">0.116</td>
+<td id="76D45D9F007E005C18D97A59BF622548" box="[1007,1064,1116,1141]" gridcol="6" gridrow="11" pageId="20" pageNumber="21">0.122</td>
+<td id="76D45D9F007E005C1F547A59BFD12548" box="[1122,1179,1116,1141]" gridcol="7" gridrow="11" pageId="20" pageNumber="21">0.119</td>
+<td id="76D45D9F007E005C1FE07A59BE452548" box="[1238,1295,1116,1141]" gridcol="8" gridrow="11" pageId="20" pageNumber="21">0.114</td>
+<td id="76D45D9F007E005C1E7C7A59BEC92548" box="[1354,1411,1116,1141]" gridcol="9" gridrow="11" pageId="20" pageNumber="21">0.114</td>
+<td id="76D45D9F007E005C1E887A59BEBD2548" box="[1470,1527,1116,1141]" gridcol="10" gridrow="11" pageId="20" pageNumber="21">0.120</td>
+<td id="76D45D9F007E005C1D047A59BD212548" box="[1586,1643,1116,1141]" gridcol="11" gridrow="11" pageId="20" pageNumber="21">0.119</td>
+</tr>
+<tr id="350534E3007E005C1B937A8EBC8C2599" box="[165,1990,1163,1188]" gridrow="12" pageId="20" pageNumber="21" rowspan-13="1" rowspan-14="1">
+<th id="76D45D9F007E005C1B937A8EBBF42599" box="[165,190,1163,1188]" gridcol="0" gridrow="12" pageId="20" pageNumber="21">12</th>
+<td id="76D45D9F007E005C1BD47A8EBAA22599" box="[226,488,1163,1188]" gridcol="1" gridrow="12" pageId="20" pageNumber="21">
+<taxonomicName id="4C354D22007EFFB71BD47A8EBAE92599" authorityName="Kono" authorityYear="1933" box="[226,419,1163,1188]" class="Insecta" family="Curculionidae" genus="Aclees" kingdom="Animalia" order="Coleoptera" pageId="20" pageNumber="21" phylum="Arthropoda" rank="species" species="taiwanensis">Aclees taiwanensis</taxonomicName>
+ex. 1
+</td>
+<td id="76D45D9F007E005C19297A8EB9122599" box="[543,600,1163,1188]" gridcol="2" gridrow="12" pageId="20" pageNumber="21">0.122</td>
+<td id="76D45D9F007E005C19A57A8EB9862599" box="[659,716,1163,1188]" gridcol="3" gridrow="12" pageId="20" pageNumber="21">0.122</td>
+<td id="76D45D9F007E005C18317A8EB80A2599" box="[775,832,1163,1188]" gridcol="4" gridrow="12" pageId="20" pageNumber="21">0.123</td>
+<td id="76D45D9F007E005C184D7A8EB8FE2599" box="[891,948,1163,1188]" gridcol="5" gridrow="12" pageId="20" pageNumber="21">0.123</td>
+<td id="76D45D9F007E005C18D97A8EBF622599" box="[1007,1064,1163,1188]" gridcol="6" gridrow="12" pageId="20" pageNumber="21">0.140</td>
+<td id="76D45D9F007E005C1F547A8EBFD12599" box="[1122,1179,1163,1188]" gridcol="7" gridrow="12" pageId="20" pageNumber="21">0.137</td>
+<td id="76D45D9F007E005C1FE07A8EBE452599" box="[1238,1295,1163,1188]" gridcol="8" gridrow="12" pageId="20" pageNumber="21">0.139</td>
+<td id="76D45D9F007E005C1E7C7A8EBEC92599" box="[1354,1411,1163,1188]" gridcol="9" gridrow="12" pageId="20" pageNumber="21">0.139</td>
+<td id="76D45D9F007E005C1E887A8EBEBD2599" box="[1470,1527,1163,1188]" gridcol="10" gridrow="12" pageId="20" pageNumber="21">0.135</td>
+<td id="76D45D9F007E005C1D047A8EBD212599" box="[1586,1643,1163,1188]" gridcol="11" gridrow="12" pageId="20" pageNumber="21">0.134</td>
+<td id="76D45D9F007E005C1D907A8EBD952599" box="[1702,1759,1163,1188]" gridcol="12" gridrow="12" pageId="20" pageNumber="21">0.122</td>
+</tr>
+<tr id="350534E3007E005C1B937ABEBC8C25E9" box="[165,1990,1211,1236]" gridrow="13" pageId="20" pageNumber="21" rowspan-14="1">
+<th id="76D45D9F007E005C1B937ABEBBF425E9" box="[165,190,1211,1236]" gridcol="0" gridrow="13" pageId="20" pageNumber="21">13</th>
+<td id="76D45D9F007E005C1BD47ABEBAA225E9" box="[226,488,1211,1236]" gridcol="1" gridrow="13" pageId="20" pageNumber="21">
+<taxonomicName id="4C354D22007EFFB71BD47ABEBAE925E9" authorityName="Kono" authorityYear="1933" box="[226,419,1211,1236]" class="Insecta" family="Curculionidae" genus="Aclees" kingdom="Animalia" order="Coleoptera" pageId="20" pageNumber="21" phylum="Arthropoda" rank="species" species="taiwanensis">Aclees taiwanensis</taxonomicName>
+ex. 2
+</td>
+<td id="76D45D9F007E005C19297ABEB91225E9" box="[543,600,1211,1236]" gridcol="2" gridrow="13" pageId="20" pageNumber="21">0.122</td>
+<td id="76D45D9F007E005C19A57ABEB98625E9" box="[659,716,1211,1236]" gridcol="3" gridrow="13" pageId="20" pageNumber="21">0.122</td>
+<td id="76D45D9F007E005C18317ABEB80A25E9" box="[775,832,1211,1236]" gridcol="4" gridrow="13" pageId="20" pageNumber="21">0.123</td>
+<td id="76D45D9F007E005C184D7ABEB8FE25E9" box="[891,948,1211,1236]" gridcol="5" gridrow="13" pageId="20" pageNumber="21">0.123</td>
+<td id="76D45D9F007E005C18D97ABEBF6225E9" box="[1007,1064,1211,1236]" gridcol="6" gridrow="13" pageId="20" pageNumber="21">0.140</td>
+<td id="76D45D9F007E005C1F547ABEBFD125E9" box="[1122,1179,1211,1236]" gridcol="7" gridrow="13" pageId="20" pageNumber="21">0.137</td>
+<td id="76D45D9F007E005C1FE07ABEBE4525E9" box="[1238,1295,1211,1236]" gridcol="8" gridrow="13" pageId="20" pageNumber="21">0.139</td>
+<td id="76D45D9F007E005C1E7C7ABEBEC925E9" box="[1354,1411,1211,1236]" gridcol="9" gridrow="13" pageId="20" pageNumber="21">0.139</td>
+<td id="76D45D9F007E005C1E887ABEBEBD25E9" box="[1470,1527,1211,1236]" gridcol="10" gridrow="13" pageId="20" pageNumber="21">0.135</td>
+<td id="76D45D9F007E005C1D047ABEBD2125E9" box="[1586,1643,1211,1236]" gridcol="11" gridrow="13" pageId="20" pageNumber="21">0.134</td>
+<td id="76D45D9F007E005C1D907ABEBD9525E9" box="[1702,1759,1211,1236]" gridcol="12" gridrow="13" pageId="20" pageNumber="21">0.122</td>
+<td id="76D45D9F007E005C1C2F7ABEBC1825E9" box="[1817,1874,1211,1236]" gridcol="13" gridrow="13" pageId="20" pageNumber="21">0.000</td>
+</tr>
+<tr id="350534E3007E005C1B937AEEBC8C2439" box="[165,1990,1259,1284]" gridrow="14" pageId="20" pageNumber="21">
+<th id="76D45D9F007E005C1B937AEEBBF42439" box="[165,190,1259,1284]" gridcol="0" gridrow="14" pageId="20" pageNumber="21">14</th>
+<td id="76D45D9F007E005C1BD47AEEBAA22439" box="[226,488,1259,1284]" gridcol="1" gridrow="14" pageId="20" pageNumber="21">
+<taxonomicName id="4C354D22007EFFB71BD47AEEBAE92439" authorityName="Kono" authorityYear="1933" box="[226,419,1259,1284]" class="Insecta" family="Curculionidae" genus="Aclees" kingdom="Animalia" order="Coleoptera" pageId="20" pageNumber="21" phylum="Arthropoda" rank="species" species="taiwanensis">Aclees taiwanensis</taxonomicName>
+ex. 3
+</td>
+<td id="76D45D9F007E005C19297AEEB9122439" box="[543,600,1259,1284]" gridcol="2" gridrow="14" pageId="20" pageNumber="21">0.122</td>
+<td id="76D45D9F007E005C19A57AEEB9862439" box="[659,716,1259,1284]" gridcol="3" gridrow="14" pageId="20" pageNumber="21">0.122</td>
+<td id="76D45D9F007E005C18317AEEB80A2439" box="[775,832,1259,1284]" gridcol="4" gridrow="14" pageId="20" pageNumber="21">0.123</td>
+<td id="76D45D9F007E005C184D7AEEB8FE2439" box="[891,948,1259,1284]" gridcol="5" gridrow="14" pageId="20" pageNumber="21">0.123</td>
+<td id="76D45D9F007E005C18D97AEEBF622439" box="[1007,1064,1259,1284]" gridcol="6" gridrow="14" pageId="20" pageNumber="21">0.140</td>
+<td id="76D45D9F007E005C1F547AEEBFD12439" box="[1122,1179,1259,1284]" gridcol="7" gridrow="14" pageId="20" pageNumber="21">0.137</td>
+<td id="76D45D9F007E005C1FE07AEEBE452439" box="[1238,1295,1259,1284]" gridcol="8" gridrow="14" pageId="20" pageNumber="21">0.139</td>
+<td id="76D45D9F007E005C1E7C7AEEBEC92439" box="[1354,1411,1259,1284]" gridcol="9" gridrow="14" pageId="20" pageNumber="21">0.139</td>
+<td id="76D45D9F007E005C1E887AEEBEBD2439" box="[1470,1527,1259,1284]" gridcol="10" gridrow="14" pageId="20" pageNumber="21">0.135</td>
+<td id="76D45D9F007E005C1D047AEEBD212439" box="[1586,1643,1259,1284]" gridcol="11" gridrow="14" pageId="20" pageNumber="21">0.134</td>
+<td id="76D45D9F007E005C1D907AEEBD952439" box="[1702,1759,1259,1284]" gridcol="12" gridrow="14" pageId="20" pageNumber="21">0.122</td>
+<td id="76D45D9F007E005C1C2F7AEEBC182439" box="[1817,1874,1259,1284]" gridcol="13" gridrow="14" pageId="20" pageNumber="21">0.000</td>
+<td id="76D45D9F007E005C1CBB7AEEBC8C2439" box="[1933,1990,1259,1284]" gridcol="14" gridrow="14" pageId="20" pageNumber="21">0.000</td>
+</tr>
+<tr id="350534E3007E005C1B937B1EBC8C2409" box="[165,1990,1307,1332]" gridrow="15" pageId="20" pageNumber="21">
+<th id="76D45D9F007E005C1B937B1EBBF42409" box="[165,190,1307,1332]" gridcol="0" gridrow="15" pageId="20" pageNumber="21">15</th>
+<td id="76D45D9F007E005C1BD47B1EBAA22409" box="[226,488,1307,1332]" gridcol="1" gridrow="15" pageId="20" pageNumber="21">
+<taxonomicName id="4C354D22007EFFB71BD47B1EBAE92409" authorityName="Kono" authorityYear="1933" box="[226,419,1307,1332]" class="Insecta" family="Curculionidae" genus="Aclees" kingdom="Animalia" order="Coleoptera" pageId="20" pageNumber="21" phylum="Arthropoda" rank="species" species="taiwanensis">Aclees taiwanensis</taxonomicName>
+ex. 4
+</td>
+<td id="76D45D9F007E005C19297B1EB9122409" box="[543,600,1307,1332]" gridcol="2" gridrow="15" pageId="20" pageNumber="21">0.120</td>
+<td id="76D45D9F007E005C19A57B1EB9862409" box="[659,716,1307,1332]" gridcol="3" gridrow="15" pageId="20" pageNumber="21">0.122</td>
+<td id="76D45D9F007E005C18317B1EB80A2409" box="[775,832,1307,1332]" gridcol="4" gridrow="15" pageId="20" pageNumber="21">0.122</td>
+<td id="76D45D9F007E005C184D7B1EB8FE2409" box="[891,948,1307,1332]" gridcol="5" gridrow="15" pageId="20" pageNumber="21">0.123</td>
+<td id="76D45D9F007E005C18D97B1EBF622409" box="[1007,1064,1307,1332]" gridcol="6" gridrow="15" pageId="20" pageNumber="21">0.140</td>
+<td id="76D45D9F007E005C1F547B1EBFD12409" box="[1122,1179,1307,1332]" gridcol="7" gridrow="15" pageId="20" pageNumber="21">0.137</td>
+<td id="76D45D9F007E005C1FE07B1EBE452409" box="[1238,1295,1307,1332]" gridcol="8" gridrow="15" pageId="20" pageNumber="21">0.139</td>
+<td id="76D45D9F007E005C1E7C7B1EBEC92409" box="[1354,1411,1307,1332]" gridcol="9" gridrow="15" pageId="20" pageNumber="21">0.139</td>
+<td id="76D45D9F007E005C1E887B1EBEBD2409" box="[1470,1527,1307,1332]" gridcol="10" gridrow="15" pageId="20" pageNumber="21">0.136</td>
+<td id="76D45D9F007E005C1D047B1EBD212409" box="[1586,1643,1307,1332]" gridcol="11" gridrow="15" pageId="20" pageNumber="21">0.134</td>
+<td id="76D45D9F007E005C1D907B1EBD952409" box="[1702,1759,1307,1332]" gridcol="12" gridrow="15" pageId="20" pageNumber="21">0.122</td>
+<td id="76D45D9F007E005C1C2F7B1EBC182409" box="[1817,1874,1307,1332]" gridcol="13" gridrow="15" pageId="20" pageNumber="21">0.000</td>
+<td id="76D45D9F007E005C1CBB7B1EBC8C2409" box="[1933,1990,1307,1332]" gridcol="14" gridrow="15" pageId="20" pageNumber="21">0.000</td>
+</tr>
+<tr id="350534E3007E005C1B937B4EBC8C2459" box="[165,1990,1355,1380]" gridrow="16" pageId="20" pageNumber="21">
+<th id="76D45D9F007E005C1B937B4EBBF42459" box="[165,190,1355,1380]" gridcol="0" gridrow="16" pageId="20" pageNumber="21">16</th>
+<td id="76D45D9F007E005C1BD47B4EBAA22459" box="[226,488,1355,1380]" gridcol="1" gridrow="16" pageId="20" pageNumber="21">
+<taxonomicName id="4C354D22007EFFB71BD47B4EBAE92459" authorityName="Kono" authorityYear="1933" box="[226,419,1355,1380]" class="Insecta" family="Curculionidae" genus="Aclees" kingdom="Animalia" order="Coleoptera" pageId="20" pageNumber="21" phylum="Arthropoda" rank="species" species="taiwanensis">Aclees taiwanensis</taxonomicName>
+ex. 5
+</td>
+<td id="76D45D9F007E005C19297B4EB9122459" box="[543,600,1355,1380]" gridcol="2" gridrow="16" pageId="20" pageNumber="21">0.120</td>
+<td id="76D45D9F007E005C19A57B4EB9862459" box="[659,716,1355,1380]" gridcol="3" gridrow="16" pageId="20" pageNumber="21">0.122</td>
+<td id="76D45D9F007E005C18317B4EB80A2459" box="[775,832,1355,1380]" gridcol="4" gridrow="16" pageId="20" pageNumber="21">0.123</td>
+<td id="76D45D9F007E005C184D7B4EB8FE2459" box="[891,948,1355,1380]" gridcol="5" gridrow="16" pageId="20" pageNumber="21">0.123</td>
+<td id="76D45D9F007E005C18D97B4EBF622459" box="[1007,1064,1355,1380]" gridcol="6" gridrow="16" pageId="20" pageNumber="21">0.140</td>
+<td id="76D45D9F007E005C1F547B4EBFD12459" box="[1122,1179,1355,1380]" gridcol="7" gridrow="16" pageId="20" pageNumber="21">0.137</td>
+<td id="76D45D9F007E005C1FE07B4EBE452459" box="[1238,1295,1355,1380]" gridcol="8" gridrow="16" pageId="20" pageNumber="21">0.139</td>
+<td id="76D45D9F007E005C1E7C7B4EBEC92459" box="[1354,1411,1355,1380]" gridcol="9" gridrow="16" pageId="20" pageNumber="21">0.139</td>
+<td id="76D45D9F007E005C1E887B4EBEBD2459" box="[1470,1527,1355,1380]" gridcol="10" gridrow="16" pageId="20" pageNumber="21">0.135</td>
+<td id="76D45D9F007E005C1D047B4EBD212459" box="[1586,1643,1355,1380]" gridcol="11" gridrow="16" pageId="20" pageNumber="21">0.134</td>
+<td id="76D45D9F007E005C1D907B4EBD952459" box="[1702,1759,1355,1380]" gridcol="12" gridrow="16" pageId="20" pageNumber="21">0.122</td>
+<td id="76D45D9F007E005C1C2F7B4EBC182459" box="[1817,1874,1355,1380]" gridcol="13" gridrow="16" pageId="20" pageNumber="21">0.002</td>
+<td id="76D45D9F007E005C1CBB7B4EBC8C2459" box="[1933,1990,1355,1380]" gridcol="14" gridrow="16" pageId="20" pageNumber="21">0.002</td>
+</tr>
+<tr id="350534E3007E005C1B937B7FBC8C24AE" box="[165,1990,1402,1427]" gridrow="17" pageId="20" pageNumber="21">
+<th id="76D45D9F007E005C1B937B7FBBF424AE" box="[165,190,1402,1427]" gridcol="0" gridrow="17" pageId="20" pageNumber="21">17</th>
+<td id="76D45D9F007E005C1BD47B7FBAA224AE" box="[226,488,1402,1427]" gridcol="1" gridrow="17" pageId="20" pageNumber="21">
+<taxonomicName id="4C354D22007EFFB71BD47B7FBAE924AE" authorityName="Kono" authorityYear="1933" box="[226,419,1402,1427]" class="Insecta" family="Curculionidae" genus="Aclees" kingdom="Animalia" order="Coleoptera" pageId="20" pageNumber="21" phylum="Arthropoda" rank="species" species="taiwanensis">Aclees taiwanensis</taxonomicName>
+ex. 6
+</td>
+<td id="76D45D9F007E005C19297B7FB91224AE" box="[543,600,1402,1427]" gridcol="2" gridrow="17" pageId="20" pageNumber="21">0.120</td>
+<td id="76D45D9F007E005C19A57B7FB98624AE" box="[659,716,1402,1427]" gridcol="3" gridrow="17" pageId="20" pageNumber="21">0.125</td>
+<td id="76D45D9F007E005C18317B7FB80A24AE" box="[775,832,1402,1427]" gridcol="4" gridrow="17" pageId="20" pageNumber="21">0.123</td>
+<td id="76D45D9F007E005C184D7B7FB8FE24AE" box="[891,948,1402,1427]" gridcol="5" gridrow="17" pageId="20" pageNumber="21">0.125</td>
+<td id="76D45D9F007E005C18D97B7FBF6224AE" box="[1007,1064,1402,1427]" gridcol="6" gridrow="17" pageId="20" pageNumber="21">0.142</td>
+<td id="76D45D9F007E005C1F547B7FBFD124AE" box="[1122,1179,1402,1427]" gridcol="7" gridrow="17" pageId="20" pageNumber="21">0.139</td>
+<td id="76D45D9F007E005C1FE07B7FBE4524AE" box="[1238,1295,1402,1427]" gridcol="8" gridrow="17" pageId="20" pageNumber="21">0.140</td>
+<td id="76D45D9F007E005C1E7C7B7FBEC924AE" box="[1354,1411,1402,1427]" gridcol="9" gridrow="17" pageId="20" pageNumber="21">0.140</td>
+<td id="76D45D9F007E005C1E887B7FBEBD24AE" box="[1470,1527,1402,1427]" gridcol="10" gridrow="17" pageId="20" pageNumber="21">0.137</td>
+<td id="76D45D9F007E005C1D047B7FBD2124AE" box="[1586,1643,1402,1427]" gridcol="11" gridrow="17" pageId="20" pageNumber="21">0.139</td>
+<td id="76D45D9F007E005C1D907B7FBD9524AE" box="[1702,1759,1402,1427]" gridcol="12" gridrow="17" pageId="20" pageNumber="21">0.128</td>
+<td id="76D45D9F007E005C1C2F7B7FBC1824AE" box="[1817,1874,1402,1427]" gridcol="13" gridrow="17" pageId="20" pageNumber="21">0.008</td>
+<td id="76D45D9F007E005C1CBB7B7FBC8C24AE" box="[1933,1990,1402,1427]" gridcol="14" gridrow="17" pageId="20" pageNumber="21">0.008</td>
+</tr>
+<tr id="350534E3007E005C1B937BAFBC8C24FE" box="[165,1990,1450,1475]" gridrow="18" pageId="20" pageNumber="21">
+<th id="76D45D9F007E005C1B937BAFBBF424FE" box="[165,190,1450,1475]" gridcol="0" gridrow="18" pageId="20" pageNumber="21">18</th>
+<td id="76D45D9F007E005C1BD47BAFBAA224FE" box="[226,488,1450,1475]" gridcol="1" gridrow="18" pageId="20" pageNumber="21">
+<taxonomicName id="4C354D22007EFFB71BD47BAFBAE924FE" authorityName="Kono" authorityYear="1933" box="[226,419,1450,1475]" class="Insecta" family="Curculionidae" genus="Aclees" kingdom="Animalia" order="Coleoptera" pageId="20" pageNumber="21" phylum="Arthropoda" rank="species" species="taiwanensis">Aclees taiwanensis</taxonomicName>
+ex. 7
+</td>
+<td id="76D45D9F007E005C19297BAFB91224FE" box="[543,600,1450,1475]" gridcol="2" gridrow="18" pageId="20" pageNumber="21">0.120</td>
+<td id="76D45D9F007E005C19A57BAFB98624FE" box="[659,716,1450,1475]" gridcol="3" gridrow="18" pageId="20" pageNumber="21">0.125</td>
+<td id="76D45D9F007E005C18317BAFB80A24FE" box="[775,832,1450,1475]" gridcol="4" gridrow="18" pageId="20" pageNumber="21">0.123</td>
+<td id="76D45D9F007E005C184D7BAFB8FE24FE" box="[891,948,1450,1475]" gridcol="5" gridrow="18" pageId="20" pageNumber="21">0.126</td>
+<td id="76D45D9F007E005C18D97BAFBF6224FE" box="[1007,1064,1450,1475]" gridcol="6" gridrow="18" pageId="20" pageNumber="21">0.143</td>
+<td id="76D45D9F007E005C1F547BAFBFD124FE" box="[1122,1179,1450,1475]" gridcol="7" gridrow="18" pageId="20" pageNumber="21">0.140</td>
+<td id="76D45D9F007E005C1FE07BAFBE4524FE" box="[1238,1295,1450,1475]" gridcol="8" gridrow="18" pageId="20" pageNumber="21">0.142</td>
+<td id="76D45D9F007E005C1E7C7BAFBEC924FE" box="[1354,1411,1450,1475]" gridcol="9" gridrow="18" pageId="20" pageNumber="21">0.142</td>
+<td id="76D45D9F007E005C1E887BAFBEBD24FE" box="[1470,1527,1450,1475]" gridcol="10" gridrow="18" pageId="20" pageNumber="21">0.139</td>
+<td id="76D45D9F007E005C1D047BAFBD2124FE" box="[1586,1643,1450,1475]" gridcol="11" gridrow="18" pageId="20" pageNumber="21">0.137</td>
+<td id="76D45D9F007E005C1D907BAFBD9524FE" box="[1702,1759,1450,1475]" gridcol="12" gridrow="18" pageId="20" pageNumber="21">0.128</td>
+<td id="76D45D9F007E005C1C2F7BAFBC1824FE" box="[1817,1874,1450,1475]" gridcol="13" gridrow="18" pageId="20" pageNumber="21">0.008</td>
+<td id="76D45D9F007E005C1CBB7BAFBC8C24FE" box="[1933,1990,1450,1475]" gridcol="14" gridrow="18" pageId="20" pageNumber="21">0.008</td>
+</tr>
+<tr id="350534E3007E005C1B937BDFBC8C24CE" box="[165,1990,1498,1523]" gridrow="19" pageId="20" pageNumber="21">
+<th id="76D45D9F007E005C1B937BDFBBF424CE" box="[165,190,1498,1523]" gridcol="0" gridrow="19" pageId="20" pageNumber="21">19</th>
+<td id="76D45D9F007E005C1BD47BDFBAA224CE" box="[226,488,1498,1523]" gridcol="1" gridrow="19" pageId="20" pageNumber="21">
+<taxonomicName id="4C354D22007EFFB71BD47BDFBAE924CE" authorityName="Kono" authorityYear="1933" box="[226,419,1498,1523]" class="Insecta" family="Curculionidae" genus="Aclees" kingdom="Animalia" order="Coleoptera" pageId="20" pageNumber="21" phylum="Arthropoda" rank="species" species="taiwanensis">Aclees taiwanensis</taxonomicName>
+ex. 8
+</td>
+<td id="76D45D9F007E005C19297BDFB91224CE" box="[543,600,1498,1523]" gridcol="2" gridrow="19" pageId="20" pageNumber="21">0.119</td>
+<td id="76D45D9F007E005C19A57BDFB98624CE" box="[659,716,1498,1523]" gridcol="3" gridrow="19" pageId="20" pageNumber="21">0.125</td>
+<td id="76D45D9F007E005C18317BDFB80A24CE" box="[775,832,1498,1523]" gridcol="4" gridrow="19" pageId="20" pageNumber="21">0.123</td>
+<td id="76D45D9F007E005C184D7BDFB8FE24CE" box="[891,948,1498,1523]" gridcol="5" gridrow="19" pageId="20" pageNumber="21">0.126</td>
+<td id="76D45D9F007E005C18D97BDFBF6224CE" box="[1007,1064,1498,1523]" gridcol="6" gridrow="19" pageId="20" pageNumber="21">0.143</td>
+<td id="76D45D9F007E005C1F547BDFBFD124CE" box="[1122,1179,1498,1523]" gridcol="7" gridrow="19" pageId="20" pageNumber="21">0.140</td>
+<td id="76D45D9F007E005C1FE07BDFBE4524CE" box="[1238,1295,1498,1523]" gridcol="8" gridrow="19" pageId="20" pageNumber="21">0.142</td>
+<td id="76D45D9F007E005C1E7C7BDFBEC924CE" box="[1354,1411,1498,1523]" gridcol="9" gridrow="19" pageId="20" pageNumber="21">0.142</td>
+<td id="76D45D9F007E005C1E887BDFBEBD24CE" box="[1470,1527,1498,1523]" gridcol="10" gridrow="19" pageId="20" pageNumber="21">0.139</td>
+<td id="76D45D9F007E005C1D047BDFBD2124CE" box="[1586,1643,1498,1523]" gridcol="11" gridrow="19" pageId="20" pageNumber="21">0.137</td>
+<td id="76D45D9F007E005C1D907BDFBD9524CE" box="[1702,1759,1498,1523]" gridcol="12" gridrow="19" pageId="20" pageNumber="21">0.126</td>
+<td id="76D45D9F007E005C1C2F7BDFBC1824CE" box="[1817,1874,1498,1523]" gridcol="13" gridrow="19" pageId="20" pageNumber="21">0.006</td>
+<td id="76D45D9F007E005C1CBB7BDFBC8C24CE" box="[1933,1990,1498,1523]" gridcol="14" gridrow="19" pageId="20" pageNumber="21">0.006</td>
+</tr>
+<tr id="350534E3007E005C1B93780FBC8C271E" box="[165,1990,1546,1571]" gridrow="20" pageId="20" pageNumber="21">
+<th id="76D45D9F007E005C1B93780FBBF4271E" box="[165,190,1546,1571]" gridcol="0" gridrow="20" pageId="20" pageNumber="21">20</th>
+<td id="76D45D9F007E005C1BD4780FBAA2271E" box="[226,488,1546,1571]" gridcol="1" gridrow="20" pageId="20" pageNumber="21">
+<taxonomicName id="4C354D22007EFFB71BD4780FBAE9271E" authorityName="Kono" authorityYear="1933" box="[226,419,1546,1571]" class="Insecta" family="Curculionidae" genus="Aclees" kingdom="Animalia" order="Coleoptera" pageId="20" pageNumber="21" phylum="Arthropoda" rank="species" species="taiwanensis">Aclees taiwanensis</taxonomicName>
+ex. 9
+</td>
+<td id="76D45D9F007E005C1929780FB912271E" box="[543,600,1546,1571]" gridcol="2" gridrow="20" pageId="20" pageNumber="21">0.119</td>
+<td id="76D45D9F007E005C19A5780FB986271E" box="[659,716,1546,1571]" gridcol="3" gridrow="20" pageId="20" pageNumber="21">0.125</td>
+<td id="76D45D9F007E005C1831780FB80A271E" box="[775,832,1546,1571]" gridcol="4" gridrow="20" pageId="20" pageNumber="21">0.123</td>
+<td id="76D45D9F007E005C184D780FB8FE271E" box="[891,948,1546,1571]" gridcol="5" gridrow="20" pageId="20" pageNumber="21">0.126</td>
+<td id="76D45D9F007E005C18D9780FBF62271E" box="[1007,1064,1546,1571]" gridcol="6" gridrow="20" pageId="20" pageNumber="21">0.143</td>
+<td id="76D45D9F007E005C1F54780FBFD1271E" box="[1122,1179,1546,1571]" gridcol="7" gridrow="20" pageId="20" pageNumber="21">0.140</td>
+<td id="76D45D9F007E005C1FE0780FBE45271E" box="[1238,1295,1546,1571]" gridcol="8" gridrow="20" pageId="20" pageNumber="21">0.142</td>
+<td id="76D45D9F007E005C1E7C780FBEC9271E" box="[1354,1411,1546,1571]" gridcol="9" gridrow="20" pageId="20" pageNumber="21">0.142</td>
+<td id="76D45D9F007E005C1E88780FBEBD271E" box="[1470,1527,1546,1571]" gridcol="10" gridrow="20" pageId="20" pageNumber="21">0.139</td>
+<td id="76D45D9F007E005C1D04780FBD21271E" box="[1586,1643,1546,1571]" gridcol="11" gridrow="20" pageId="20" pageNumber="21">0.137</td>
+<td id="76D45D9F007E005C1D90780FBD95271E" box="[1702,1759,1546,1571]" gridcol="12" gridrow="20" pageId="20" pageNumber="21">0.126</td>
+<td id="76D45D9F007E005C1C2F780FBC18271E" box="[1817,1874,1546,1571]" gridcol="13" gridrow="20" pageId="20" pageNumber="21">0.006</td>
+<td id="76D45D9F007E005C1CBB780FBC8C271E" box="[1933,1990,1546,1571]" gridcol="14" gridrow="20" pageId="20" pageNumber="21">0.006</td>
+</tr>
+<tr id="350534E3007E005C1B93783FBC8C276E" box="[165,1990,1594,1619]" gridrow="21" pageId="20" pageNumber="21">
+<th id="76D45D9F007E005C1B93783FBBF4276E" box="[165,190,1594,1619]" gridcol="0" gridrow="21" pageId="20" pageNumber="21">21</th>
+<td id="76D45D9F007E005C1BD4783FBAA2276E" box="[226,488,1594,1619]" gridcol="1" gridrow="21" pageId="20" pageNumber="21">
+<taxonomicName id="4C354D22007EFFB71BD4783FBAE9276E" authorityName="Kono" authorityYear="1933" box="[226,419,1594,1619]" class="Insecta" family="Curculionidae" genus="Aclees" kingdom="Animalia" order="Coleoptera" pageId="20" pageNumber="21" phylum="Arthropoda" rank="species" species="taiwanensis">Aclees taiwanensis</taxonomicName>
+ex. 10
+</td>
+<td id="76D45D9F007E005C1929783FB912276E" box="[543,600,1594,1619]" gridcol="2" gridrow="21" pageId="20" pageNumber="21">0.119</td>
+<td id="76D45D9F007E005C19A5783FB986276E" box="[659,716,1594,1619]" gridcol="3" gridrow="21" pageId="20" pageNumber="21">0.125</td>
+<td id="76D45D9F007E005C1831783FB80A276E" box="[775,832,1594,1619]" gridcol="4" gridrow="21" pageId="20" pageNumber="21">0.123</td>
+<td id="76D45D9F007E005C184D783FB8FE276E" box="[891,948,1594,1619]" gridcol="5" gridrow="21" pageId="20" pageNumber="21">0.126</td>
+<td id="76D45D9F007E005C18D9783FBF62276E" box="[1007,1064,1594,1619]" gridcol="6" gridrow="21" pageId="20" pageNumber="21">0.143</td>
+<td id="76D45D9F007E005C1F54783FBFD1276E" box="[1122,1179,1594,1619]" gridcol="7" gridrow="21" pageId="20" pageNumber="21">0.140</td>
+<td id="76D45D9F007E005C1FE0783FBE45276E" box="[1238,1295,1594,1619]" gridcol="8" gridrow="21" pageId="20" pageNumber="21">0.142</td>
+<td id="76D45D9F007E005C1E7C783FBEC9276E" box="[1354,1411,1594,1619]" gridcol="9" gridrow="21" pageId="20" pageNumber="21">0.142</td>
+<td id="76D45D9F007E005C1E88783FBEBD276E" box="[1470,1527,1594,1619]" gridcol="10" gridrow="21" pageId="20" pageNumber="21">0.139</td>
+<td id="76D45D9F007E005C1D04783FBD21276E" box="[1586,1643,1594,1619]" gridcol="11" gridrow="21" pageId="20" pageNumber="21">0.137</td>
+<td id="76D45D9F007E005C1D90783FBD95276E" box="[1702,1759,1594,1619]" gridcol="12" gridrow="21" pageId="20" pageNumber="21">0.126</td>
+<td id="76D45D9F007E005C1C2F783FBC18276E" box="[1817,1874,1594,1619]" gridcol="13" gridrow="21" pageId="20" pageNumber="21">0.008</td>
+<td id="76D45D9F007E005C1CBB783FBC8C276E" box="[1933,1990,1594,1619]" gridcol="14" gridrow="21" pageId="20" pageNumber="21">0.008</td>
+</tr>
+<tr id="350534E3007E005C1B93786CBC8C27BF" box="[165,1990,1641,1666]" gridrow="22" pageId="20" pageNumber="21">
+<th id="76D45D9F007E005C1B93786CBBF427BF" box="[165,190,1641,1666]" gridcol="0" gridrow="22" pageId="20" pageNumber="21">22</th>
+<td id="76D45D9F007E005C1BD4786CBAA227BF" box="[226,488,1641,1666]" gridcol="1" gridrow="22" pageId="20" pageNumber="21">
+<taxonomicName id="4C354D22007EFFB71BD4786CBAE927BF" authorityName="Kono" authorityYear="1933" box="[226,419,1641,1666]" class="Insecta" family="Curculionidae" genus="Aclees" kingdom="Animalia" order="Coleoptera" pageId="20" pageNumber="21" phylum="Arthropoda" rank="species" species="taiwanensis">Aclees taiwanensis</taxonomicName>
+ex. 11
+</td>
+<td id="76D45D9F007E005C1929786CB91227BF" box="[543,600,1641,1666]" gridcol="2" gridrow="22" pageId="20" pageNumber="21">0.117</td>
+<td id="76D45D9F007E005C19A5786CB98627BF" box="[659,716,1641,1666]" gridcol="3" gridrow="22" pageId="20" pageNumber="21">0.128</td>
+<td id="76D45D9F007E005C1831786CB80A27BF" box="[775,832,1641,1666]" gridcol="4" gridrow="22" pageId="20" pageNumber="21">0.126</td>
+<td id="76D45D9F007E005C184D786CB8FE27BF" box="[891,948,1641,1666]" gridcol="5" gridrow="22" pageId="20" pageNumber="21">0.123</td>
+<td id="76D45D9F007E005C18D9786CBF6227BF" box="[1007,1064,1641,1666]" gridcol="6" gridrow="22" pageId="20" pageNumber="21">0.140</td>
+<td id="76D45D9F007E005C1F54786CBFD127BF" box="[1122,1179,1641,1666]" gridcol="7" gridrow="22" pageId="20" pageNumber="21">0.137</td>
+<td id="76D45D9F007E005C1FE0786CBE4527BF" box="[1238,1295,1641,1666]" gridcol="8" gridrow="22" pageId="20" pageNumber="21">0.139</td>
+<td id="76D45D9F007E005C1E7C786CBEC927BF" box="[1354,1411,1641,1666]" gridcol="9" gridrow="22" pageId="20" pageNumber="21">0.139</td>
+<td id="76D45D9F007E005C1E88786CBEBD27BF" box="[1470,1527,1641,1666]" gridcol="10" gridrow="22" pageId="20" pageNumber="21">0.135</td>
+<td id="76D45D9F007E005C1D04786CBD2127BF" box="[1586,1643,1641,1666]" gridcol="11" gridrow="22" pageId="20" pageNumber="21">0.134</td>
+<td id="76D45D9F007E005C1D90786CBD9527BF" box="[1702,1759,1641,1666]" gridcol="12" gridrow="22" pageId="20" pageNumber="21">0.128</td>
+<td id="76D45D9F007E005C1C2F786CBC1827BF" box="[1817,1874,1641,1666]" gridcol="13" gridrow="22" pageId="20" pageNumber="21">0.008</td>
+<td id="76D45D9F007E005C1CBB786CBC8C27BF" box="[1933,1990,1641,1666]" gridcol="14" gridrow="22" pageId="20" pageNumber="21">0.008</td>
+</tr>
+</table>
+</paragraph>
+<subSubSection id="C32F652A007EFFB71D9B789EBCAE2789" box="[1709,2020,1691,1716]" pageId="20" pageNumber="21" type="reference_group">
+<paragraph id="8B8A36A1007EFFB71D9B789EBCAE2789" blockId="20.[1709,2020,1691,1716]" box="[1709,2020,1691,1716]" pageId="20" pageNumber="21">......continued on the next page</paragraph>
+</subSubSection>
+</treatment>
+</document>
