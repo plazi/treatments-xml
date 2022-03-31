@@ -1,0 +1,831 @@
+<document id="9FD46546F3B0FEB748EBA80B532F9A3A" ID-DOI="http://doi.org/10.5281/zenodo.3809595" ID-GBIF-Dataset="e70e39cf-ffb6-4178-989c-6a42a3c0c3bf" ID-GBIF-Taxon="163540096" ID-ISSN="1466-5034" ID-Zenodo-Dep="3809595" _generate="added" checkinTime="1586370000602" checkinUser="felipe" docAuthor="Saygin, Hayrettin, Nouioui, Imen, Ay, Hilal, Guven, Kiymet, Cetin, Demet, Klenk, Hans-Peter, Goodfellow, Michael &amp; Sahin, Nevzat" docDate="2020" docId="03F784162220FFA43C16F99EFD32FB55" docLanguage="en" docName="IntJouSysEvoMicro.70.636-647.pdf.imf" docOrigin="International Journal of Systematic and Evolutionary Microbiology 70 (1)" docStyle="DocumentStylede.uka.ipd.idaho.easyIO.settings.Settings@73eaf68" docStyleName="intjousysevomicro.2020.journal_article" docTitle="Nonomuraea deserti Saygin, Nouioui, Ay, Guven, Cetin, Klenk, Goodfellow &amp; Sahin, 2020, SP. NOV." docType="treatment" docVersion="9" lastPageId="8" lastPageNumber="644" masterDocId="FFCEFC6E2225FFAC3F2AFFEDFF84FF86" masterDocTitle="Polyphasic classification of Nonomuraea strains isolated from the Karakum Desert and description of Nonomuraea deserti sp. nov., Nonomuraea diastatica sp. nov., Nonomuraea longispora sp. nov. and Nonomuraea mesophila sp. nov." masterLastPageNumber="647" masterPageNumber="636" pageId="5" pageNumber="641" updateTime="1634722226779" updateUser="ExternalLinkService" zenodo-license-document="CC-BY-4.0">
+<mods:mods id="45A3CF571EB7735CE868640A996812A8" xmlns:mods="http://www.loc.gov/mods/v3">
+<mods:titleInfo id="5D88C1C1726AD93F8ED357A7B132272E">
+<mods:title id="4E170EF9795AD6853E2D486C4CF623A0">Polyphasic classification of Nonomuraea strains isolated from the Karakum Desert and description of Nonomuraea deserti sp. nov., Nonomuraea diastatica sp. nov., Nonomuraea longispora sp. nov. and Nonomuraea mesophila sp. nov.</mods:title>
+</mods:titleInfo>
+<mods:name id="0A3354A690A5459DD656A23B39133936" type="personal">
+<mods:role id="A275D671602C876BC8326F4BC773D6C9">
+<mods:roleTerm id="76C277EC8E470FCABCAD18BF2D994880">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="50F5AFD2A4B1DBDA210FE63951A9C907">Saygin, Hayrettin</mods:namePart>
+</mods:name>
+<mods:name id="439DE7FD5587C50E259087F7B2BC0BED" type="personal">
+<mods:role id="29AC7452B711CE7B731E2E606D234AC0">
+<mods:roleTerm id="9008EE47B7EAFE1D4D31258202E5385D">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="A288C4E078D28BEA9EA75242BF91C4FD">Nouioui, Imen</mods:namePart>
+</mods:name>
+<mods:name id="8ACD09F1C030750E79BB1327E1AA2959" type="personal">
+<mods:role id="88D34AE2C1CABDCF1BDEAA3294EE8CCC">
+<mods:roleTerm id="08BE71A66B05DEFC01CD407D39FB0A24">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="5259D80C03BAFE71267E049DA63237FA">Ay, Hilal</mods:namePart>
+</mods:name>
+<mods:name id="BCF9155DD956C63D1034197CA825D61C" type="personal">
+<mods:role id="F8D219556CACA5ACA6CD10B5C2F32A6A">
+<mods:roleTerm id="BD70CB4A0D6687AB7663A8F5E59AE8A6">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="5CB2E31D8639E0C318A603F80164E88F">Guven, Kiymet</mods:namePart>
+</mods:name>
+<mods:name id="37326EF1E5502C0477FC542F08EA858D" type="personal">
+<mods:role id="3F564A0E7549B8F87E26909AE12608B8">
+<mods:roleTerm id="24839CAA51C0BF295D21832C06D1A075">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="1A21A7CA30838908050DE0ADB441F5EF">Cetin, Demet</mods:namePart>
+</mods:name>
+<mods:name id="F8F799F302E06990B0EC3E540BB5C868" type="personal">
+<mods:role id="1C227CFD7D76054491D3B30DEBB8DEED">
+<mods:roleTerm id="7DB29C18EB765FCAD8F7DD0C91A9810E">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="59B209D19533C044456C630AE7CF640B">Klenk, Hans-Peter</mods:namePart>
+</mods:name>
+<mods:name id="892E051621BC7233A083046B53A421E9" type="personal">
+<mods:role id="091ADF210D18ED010D556B0A5150F811">
+<mods:roleTerm id="851F3202FBA3D59ECB9B4208273CFCA7">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="FEB31F35D6D8BDBC25E3C3214B2AE9E3">Goodfellow, Michael</mods:namePart>
+</mods:name>
+<mods:name id="565708A7E6D764FF42B4CFEC0A1B2EA9" type="personal">
+<mods:role id="04F77EFB2CAD90B5BA81932688A2A5F0">
+<mods:roleTerm id="80CDB8DCC1A877CF2A90985468306D1E">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="213A64433482E3DAE235289ADD2280AD">Sahin, Nevzat</mods:namePart>
+</mods:name>
+<mods:typeOfResource id="BA66AE7594F01A45E811C6D3773200FD">text</mods:typeOfResource>
+<mods:relatedItem id="D1FE6DC9C4D5AF03F99A13A94BD6CC12" type="host">
+<mods:titleInfo id="C9BFD30124B02ECB97308E154018FEAB">
+<mods:title id="B16A17A84506A73F173E9979723493AF">International Journal of Systematic and Evolutionary Microbiology</mods:title>
+</mods:titleInfo>
+<mods:part id="D86600B39B55CF466A13D634E0534C58">
+<mods:date id="7614AE28D69E81670C7276FCAC0BB19C">2020</mods:date>
+<mods:detail id="8788D5689B80FB012CBF0CC3D6AB6BAF" type="pubDate">
+<mods:number id="A65CF6A33B4B3A3712DBE5B48AAA94CA">2020-02-03</mods:number>
+</mods:detail>
+<mods:detail id="E61E5C4D1BF3614C3A9923BE4033E490" type="volume">
+<mods:number id="E7B537E9A64C08C6696213AD70A845B0">70</mods:number>
+</mods:detail>
+<mods:detail id="0F191FC7D27ECFC1B304EF242711F5F2" type="issue">
+<mods:number id="975383665E1563CCA78C2C7B4ABBEF7B">1</mods:number>
+</mods:detail>
+<mods:extent id="280942E43E9BA471A9BE299C22C2711A" unit="page">
+<mods:start id="145B9F4E1F64587A39AB0E7CBB5D9F19">636</mods:start>
+<mods:end id="74888FF24EFC3F5AF6EE2C78BAF90A53">647</mods:end>
+</mods:extent>
+</mods:part>
+</mods:relatedItem>
+<mods:classification id="08904BEBD90E129B45F99F0DA04373E8">journal article</mods:classification>
+<mods:identifier id="B0FF2D9935104FCC47AF8C26464DEAED" type="DOI">10.1099/ijsem.0.003808</mods:identifier>
+<mods:identifier id="3A82DC3C5AF851109C9156EB1094E9D8" type="GBIF-Dataset">e70e39cf-ffb6-4178-989c-6a42a3c0c3bf</mods:identifier>
+<mods:identifier id="BFDCE52B9C7F871E167A4121A71F818D" type="ISSN">1466-5034</mods:identifier>
+<mods:identifier id="228C42264ECF2A3AB23778B7706D3ED9" type="Zenodo-Dep">3745026</mods:identifier>
+</mods:mods>
+<treatment id="03F784162220FFA43C16F99EFD32FB55" ID-DOI="http://doi.org/10.5281/zenodo.3809595" ID-GBIF-Taxon="163540096" ID-Zenodo-Dep="3809595" LSID="urn:lsid:plazi:treatment:03F784162220FFA43C16F99EFD32FB55" httpUri="http://treatment.plazi.org/id/03F784162220FFA43C16F99EFD32FB55" lastPageId="8" lastPageNumber="644" pageId="5" pageNumber="641">
+<subSubSection id="C344668B2220FFA93C16F99EFCFEF933" pageId="5" pageNumber="641" type="nomenclature">
+<paragraph id="8BE135002220FFA93C16F99EFCFEF933" blockId="5.[828,1457,1651,1717]" pageId="5" pageNumber="641">
+<heading id="D0A9826C2220FFA93C16F99EFCFEF933" allCaps="true" bold="true" centered="true" fontSize="12" level="2" pageId="5" pageNumber="641" reason="2">
+<emphasis id="B92AE9122220FFA93C16F99EFA35F916" bold="true" box="[828,1457,1651,1680]" pageId="5" pageNumber="641">
+DESCRIPTION OF 
+<taxonomicName id="4C5E4E832220FFA93B1FF99EFAFBF916" box="[1077,1407,1651,1680]" class="Actinobacteria" family="Streptosporangiaceae" genus="Nonomuraea" kingdom="Bacteria" order="Actinomycetales" pageId="5" pageNumber="641" phylum="Actinobacteria" rank="species" species="deserti" status="sp. nov.">
+<emphasis id="B92AE9122220FFA93B1FF99EFAFBF916" bold="true" box="[1077,1407,1651,1680]" italics="true" pageId="5" pageNumber="641">NONOMURAEA DESERTI</emphasis>
+</taxonomicName>
+<taxonomicNameLabel id="A21954692220FFA93AACF99EFCFEF933" pageId="5" pageNumber="641">
+SP. 
+<emphasis id="B92AE9122220FFA93C16F975FCFEF933" bold="true" box="[828,890,1688,1717]" pageId="5" pageNumber="641">NOV.</emphasis>
+</taxonomicNameLabel>
+</emphasis>
+</heading>
+</paragraph>
+</subSubSection>
+<subSubSection id="C344668B2220FFA43C16F92BFDBDFB8A" lastPageId="8" lastPageNumber="644" pageId="5" pageNumber="641" type="description">
+<paragraph id="8BE135002220FFA93C16F92BFAC4F97A" blockId="5.[828,1467,1731,1788]" pageId="5" pageNumber="641">
+<taxonomicName id="4C5E4E832220FFA93C16F92BFB95F95B" box="[828,1041,1733,1757]" class="Actinobacteria" family="Streptosporangiaceae" genus="Nonomuraea" kingdom="Bacteria" order="Actinomycetales" pageId="5" pageNumber="641" phylum="Actinobacteria" rank="species" species="deserti" status="sp. nov.">
+<emphasis id="B92AE9122220FFA93C16F92BFB95F95B" box="[828,1041,1733,1757]" italics="true" pageId="5" pageNumber="641">Nonomuraea deserti</emphasis>
+</taxonomicName>
+<taxonomicNameLabel id="A21954692220FFA93B32F928FBEEF95A" box="[1048,1130,1733,1756]" pageId="5" pageNumber="641" rank="species">sp. nov.</taxonomicNameLabel>
+(de.ser 
+<emphasis id="B92AE9122220FFA93B92F92EFB3AF95B" bold="true" box="[1208,1214,1731,1757]" italics="true" pageId="5" pageNumber="641">′</emphasis>
+ti. L. gen. n. 
+<taxonomicName id="4C5E4E832220FFA93A6CF928FA0FF95B" box="[1350,1419,1733,1757]" class="Actinobacteria" family="Streptosporangiaceae" genus="Nonomuraea" kingdom="Bacteria" order="Actinomycetales" pageId="5" pageNumber="641" phylum="Actinobacteria" rank="species" species="deserti">
+<emphasis id="B92AE9122220FFA93A6CF928FA0FF95B" box="[1350,1419,1733,1757]" italics="true" pageId="5" pageNumber="641">deserti</emphasis>
+</taxonomicName>
+of a desert, referring to the source of the 
+<typeStatus id="54E58BA22220FFA93B95F909FB69F97A" box="[1215,1261,1764,1788]" pageId="5" pageNumber="641">type</typeStatus>
+strain).
+</paragraph>
+<paragraph id="8BE135002220FFA93C16F8FFFA3EF820" blockId="5.[828,1467,1810,1958]" pageId="5" pageNumber="641">Aerobic, Gram-stain-positive, non-motile actinobacterium that forms extensively branched substrate and aerial mycelia. Aerial hyphae differentiated to hooked chains of spores with a smooth surfaces. Good growth occurs on ISP 2, 3, modified Bennett’s and nutrient agar and moderate growth on ISP</paragraph>
+<caption id="DF2165882223FFAA3F93F9C1FAACF9DF" ID-DOI="http://doi.org/10.5281/zenodo.3745032" ID-Zenodo-Dep="3745032" httpUri="https://zenodo.org/record/3745032/files/figure.png" pageId="6" pageNumber="642" startId="6.[185,216,1580,1599]" targetBox="[227,1361,181,1527]" targetPageId="6">
+<paragraph id="8BE135002223FFAA3F93F9C1FAFEF9B9" blockId="6.[185,1402,1579,1625]" box="[185,1402,1579,1599]" pageId="6" pageNumber="642">
+<emphasis id="B92AE9122223FFAA3F93F9C1FF74F9B9" bold="true" box="[185,240,1580,1599]" pageId="6" pageNumber="642">Fig. 3.</emphasis>
+Scanning electron microscopy images of isolates (a) KC201 
+<superScript id="7C2B98482223FFAA3C22F9C6FC8BF9B0" attach="left" box="[776,783,1579,1590]" fontSize="5" pageId="6" pageNumber="642">T</superScript>
+grown on ISP 2 medium at 28 °C for 21 days, (b) KC401 grown on ISP
+</paragraph>
+<paragraph id="8BE135002223FFAA3F93F9ABFAACF9DF" blockId="6.[185,1402,1579,1625]" box="[185,1320,1605,1625]" pageId="6" pageNumber="642">
+4 medium at 28 °C for 21 days, (c) KC310 
+<superScript id="7C2B98482223FFAA3D01F9A8FDB6F9D6" attach="right" box="[555,562,1605,1616]" fontSize="5" pageId="6" pageNumber="642">T</superScript>
+, (d) KC712 
+<superScript id="7C2B98482223FFAA3DBBF9A8FD1CF9D6" attach="left" box="[657,664,1605,1616]" fontSize="5" pageId="6" pageNumber="642">T</superScript>
+and (e) 6K102 
+<superScript id="7C2B98482223FFAA3C30F9A8FCA5F9D6" attach="left" box="[794,801,1605,1616]" fontSize="5" pageId="6" pageNumber="642">T</superScript>
+grown on ISP 2 medium at 28 °C for 14 days. Bars, 
+<quantity id="4CA698E52223FFAA3BDEF9ABFAA1F9DF" box="[1268,1317,1606,1625]" metricMagnitude="-3" metricUnit="m" metricValue="1.0" pageId="6" pageNumber="642" unit="mm" value="1.0">1 µm</quantity>
+.
+</paragraph>
+</caption>
+<paragraph id="8BE135002223FFAA3F53F955FA3FF820" blockId="6.[121,760,1720,1959]" lastBlockId="6.[828,1467,1720,1958]" pageId="6" pageNumber="642">
+4–7, Czapek’s and tryptic soy agar, substrate mycelia may be brown, cream or yellow. Does not produce diffusible or melanoid pigments. Grows from 28–37 °C (optimum, 28 °C), from pH 6.0–8.0 (optimum, pH 7.0) and in the presence of up to 3 % (w/v) NaCl. Hydrolyses aesculin and arbutin, reduces nitrate but does not form H 
+<subScript id="17DA37452223FFAA3E88F88DFE2DF8E8" attach="right" box="[418,425,1888,1902]" fontSize="6" pageId="6" pageNumber="642">2</subScript>
+S and does not hydrolyse allantoin or urea. Gelatin, hypoxanthine and xylan are degraded, but not adenine, casein, chitin, guanine, starch, Tweens 40 or 80 or xanthine. D-Arabinose, cellobiose, dextran, D-fructose, D-glucose, lactose, D-mannitol and raffinose are utilized as sole carbon and energy sources, but not adonitol, L-arabinose, dextrin, D-galactose, L-glutamine, maltose, myo-inositol, D-mannose, melezitose, melibiose, inulin, L-rhamnose, D-sorbitol, L-sorbose, sodium succinate, sucrose, xylitol or xylose. L-Arginine, L-asparagine, L-cysteine, glycine, L-hydroxyproline, L-methionine, L-phenylalanine, L-proline,
+</paragraph>
+<caption id="DF2165882222FFAB3F53FF5AFE34FEC2" ID-Table-UUID="DF2165882222FFAB3F53FF5AFE34FEC2" httpUri="http://table.plazi.org/id/DF2165882222FFAB3F53FF5AFE34FEC2" pageId="7" pageNumber="643" startId="7.[121,171,183,202]" targetBox="[137,1442,356,1912]" targetIsTable="true" targetPageId="7">
+<paragraph id="8BE135002222FFAB3F53FF5AFF40FF63" blockId="7.[121,1466,183,229]" pageId="7" pageNumber="643">
+<emphasis id="B92AE9122222FFAB3F53FF5AFF44FF4C" bold="true" box="[121,192,183,202]" pageId="7" pageNumber="643">Table 3.</emphasis>
+Differential properties that distinguish between the isolates and between them and reference strains closely related type strains of 
+<taxonomicName id="4C5E4E832222FFAB3A60FF5AFA3EFF4C" box="[1354,1466,183,202]" class="Actinobacteria" family="Streptosporangiaceae" genus="Nonomuraea" kingdom="Bacteria" order="Actinomycetales" pageId="7" pageNumber="643" phylum="Actinobacteria" rank="genus">
+<emphasis id="B92AE9122222FFAB3A60FF5AFA3EFF4C" box="[1354,1466,183,202]" italics="true" pageId="7" pageNumber="643">Nonomuraea</emphasis>
+</taxonomicName>
+species.
+</paragraph>
+<paragraph id="8BE135002222FFAB3F53FF11FE34FEC2" blockId="7.[121,1467,251,324]" pageId="7" pageNumber="643">
+Strains:1, KC201 
+<superScript id="7C2B98482222FFAB3E38FF16FE9DFE80" attach="none" box="[274,281,251,262]" fontSize="5" pageId="7" pageNumber="643">T</superScript>
+; 2, KC401; 3, KC310 
+<superScript id="7C2B98482222FFAB3EE2FF16FE4BFE80" attach="right" box="[456,463,251,262]" fontSize="5" pageId="7" pageNumber="643">T</superScript>
+; 4, KC712 
+<superScript id="7C2B98482222FFAB3D0CFF16FDA9FE80" attach="none" box="[550,557,251,262]" fontSize="5" pageId="7" pageNumber="643">T</superScript>
+; 5, 6K102 
+<superScript id="7C2B98482222FFAB3DAEFF16FD0FFE80" attach="none" box="[644,651,251,262]" fontSize="5" pageId="7" pageNumber="643">T</superScript>
+; 6, 
+<taxonomicName id="4C5E4E832222FFAB3D82FF11FCE5FE89" authorityName="le Roes &amp; Meyers" authorityYear="2009" box="[680,865,252,271]" class="Actinobacteria" family="Streptosporangiaceae" genus="Nonomuraea" kingdom="Bacteria" order="Actinomycetales" pageId="7" pageNumber="643" phylum="Actinobacteria" rank="species" species="candida">
+<emphasis id="B92AE9122222FFAB3D82FF11FCE5FE89" box="[680,865,252,271]" italics="true" pageId="7" pageNumber="643">Nonomuraea candida</emphasis>
+</taxonomicName>
+<accessionNumber id="940DA8E32222FFAB3C4FFF11FC49FE89" box="[869,973,252,271]" httpUri="http://www.ncbi.nlm.nih.gov/protein/DSM45086" pageId="7" pageNumber="643">DSM 45086</accessionNumber>
+<superScript id="7C2B98482222FFAB3CE7FF16FC50FE80" attach="none" box="[973,980,251,262]" fontSize="5" pageId="7" pageNumber="643">T</superScript>
+; 7, 
+<taxonomicName id="4C5E4E832222FFAB3CDAFF11FB3EFE89" box="[1008,1210,252,271]" class="Actinobacteria" family="Streptosporangiaceae" genus="Nonomuraea" kingdom="Bacteria" order="Actinomycetales" pageId="7" pageNumber="643" phylum="Actinobacteria" rank="species" species="salmonea">
+<emphasis id="B92AE9122222FFAB3CDAFF11FB3EFE89" box="[1008,1210,252,271]" italics="true" pageId="7" pageNumber="643">Nonomuraea salmonea</emphasis>
+</taxonomicName>
+<accessionNumber id="940DA8E32222FFAB3B95FF11FAA2FE89" box="[1215,1318,252,271]" httpUri="http://www.ncbi.nlm.nih.gov/protein/DSM43678" pageId="7" pageNumber="643">DSM 43678</accessionNumber>
+<superScript id="7C2B98482222FFAB3A0CFF16FAA9FE80" attach="none" box="[1318,1325,251,262]" fontSize="5" pageId="7" pageNumber="643">T</superScript>
+; 8, 
+<taxonomicName id="4C5E4E832222FFAB3A60FF11FF6BFEAF" class="Actinobacteria" family="Streptosporangiaceae" genus="Nonomuraea" kingdom="Bacteria" order="Actinomycetales" pageId="7" pageNumber="643" phylum="Actinobacteria" rank="species" species="antimicrobica">
+<emphasis id="B92AE9122222FFAB3A60FF11FF6BFEAF" italics="true" pageId="7" pageNumber="643">Nonomuraea antimicrobica</emphasis>
+</taxonomicName>
+<accessionNumber id="940DA8E32222FFAB3FDFFEFBFEDEFEAF" box="[245,346,278,297]" httpUri="http://www.ncbi.nlm.nih.gov/protein/JCM16904" pageId="7" pageNumber="643">JCM 16904</accessionNumber>
+<superScript id="7C2B98482222FFAB3E70FEF8FEE5FEA6" attach="none" box="[346,353,277,288]" fontSize="5" pageId="7" pageNumber="643">T</superScript>
+; 9, 
+<taxonomicName id="4C5E4E832222FFAB3EABFEFBFDD9FEAF" box="[385,605,278,297]" class="Actinobacteria" family="Streptosporangiaceae" genus="Nonomuraea" kingdom="Bacteria" order="Actinomycetales" pageId="7" pageNumber="643" phylum="Actinobacteria" rank="species" species="jiangxiensis">
+<emphasis id="B92AE9122222FFAB3EABFEFBFDD9FEAF" box="[385,605,278,297]" italics="true" pageId="7" pageNumber="643">Nonomuraea jiangxiensis</emphasis>
+</taxonomicName>
+<accessionNumber id="940DA8E32222FFAB3D49FEFBFD4CFEAF" box="[611,712,278,297]" httpUri="http://www.ncbi.nlm.nih.gov/protein/JCM18570" pageId="7" pageNumber="643">JCM 18570</accessionNumber>
+<superScript id="7C2B98482222FFAB3DE2FEF8FD4BFEA6" attach="none" box="[712,719,277,288]" fontSize="5" pageId="7" pageNumber="643">T</superScript>
+; 10, 
+<taxonomicName id="4C5E4E832222FFAB3DD0FEFBFC59FEAF" box="[762,989,278,297]" class="Actinobacteria" family="Streptosporangiaceae" genus="Nonomuraea" kingdom="Bacteria" order="Actinomycetales" pageId="7" pageNumber="643" phylum="Actinobacteria" rank="species" species="turkmeniaca">
+<emphasis id="B92AE9122222FFAB3DD0FEFBFC59FEAF" box="[762,989,278,297]" italics="true" pageId="7" pageNumber="643">Nonomuraea turkmeniaca</emphasis>
+</taxonomicName>
+<accessionNumber id="940DA8E32222FFAB3CC9FEFBFBC8FEAF" box="[995,1100,278,297]" httpUri="http://www.ncbi.nlm.nih.gov/protein/DSM43926" pageId="7" pageNumber="643">DSM 43926</accessionNumber>
+<superScript id="7C2B98482222FFAB3B66FEF8FBD7FEA6" attach="none" box="[1100,1107,277,288]" fontSize="5" pageId="7" pageNumber="643">T</superScript>
+. All data were obtained from this study unless indicated. NR, Not reported.
+</paragraph>
+</caption>
+<paragraph id="8BE135002222FFAB3D3FFE89FA0AF8FE" pageId="7" pageNumber="643">
+<table id="F95EC7A0222200533FA3FE89FA26F8FE" box="[137,1442,356,1912]" colsContinueIn="8.[158,1427,247,442]" gridcols="11" gridrows="36" pageId="7" pageNumber="643">
+<tr id="356E3742222200533FA3FE89FA26FEF1" box="[137,1442,356,375]" gridrow="0" pageId="7" pageNumber="643" rowspan-0="1">
+<th id="76BF5E3E222200533ED5FE89FDB0FEF1" box="[511,564,356,375]" gridcol="1" gridrow="0" pageId="7" pageNumber="643">
+<emphasis id="B92AE9122222FFAB3D3FFE89FD9BFEF1" bold="true" box="[533,543,356,375]" pageId="7" pageNumber="643">1</emphasis>
+</th>
+<th id="76BF5E3E222200533D48FE89FD13FEF1" box="[610,663,356,375]" gridcol="2" gridrow="0" pageId="7" pageNumber="643">
+<emphasis id="B92AE9122222FFAB3D5DFE89FD05FEF1" bold="true" box="[631,641,356,375]" pageId="7" pageNumber="643">2</emphasis>
+</th>
+<th id="76BF5E3E222200533DEEFE89FD7DFEF1" box="[708,761,356,375]" gridcol="3" gridrow="0" pageId="7" pageNumber="643">
+<emphasis id="B92AE9122222FFAB3DF0FE89FD60FEF1" bold="true" box="[730,740,356,375]" pageId="7" pageNumber="643">3</emphasis>
+</th>
+<th id="76BF5E3E222200533C0DFE89FCD8FEF1" box="[807,860,356,375]" gridcol="4" gridrow="0" pageId="7" pageNumber="643">
+<emphasis id="B92AE9122222FFAB3C17FE89FCC3FEF1" bold="true" box="[829,839,356,375]" pageId="7" pageNumber="643">4</emphasis>
+</th>
+<th id="76BF5E3E222200533CA0FE89FC3BFEF1" box="[906,959,356,375]" gridcol="5" gridrow="0" pageId="7" pageNumber="643">
+<emphasis id="B92AE9122222FFAB3CB5FE89FC2DFEF1" bold="true" box="[927,937,356,375]" pageId="7" pageNumber="643">5</emphasis>
+</th>
+<th id="76BF5E3E222200533CC3FE89FB9EFEF1" box="[1001,1050,356,375]" gridcol="6" gridrow="0" pageId="7" pageNumber="643">
+<emphasis id="B92AE9122222FFAB3CD7FE89FB83FEF1" bold="true" box="[1021,1031,356,375]" pageId="7" pageNumber="643">6</emphasis>
+</th>
+<th id="76BF5E3E222200533B68FE89FBF7FEF1" box="[1090,1139,356,375]" gridcol="7" gridrow="0" pageId="7" pageNumber="643">
+<emphasis id="B92AE9122222FFAB3B7CFE89FBE4FEF1" bold="true" box="[1110,1120,356,375]" pageId="7" pageNumber="643">7</emphasis>
+</th>
+<th id="76BF5E3E222200533B8BFE89FB56FEF1" box="[1185,1234,356,375]" gridcol="8" gridrow="0" pageId="7" pageNumber="643">
+<emphasis id="B92AE9122222FFAB3B9FFE89FB3BFEF1" bold="true" box="[1205,1215,356,375]" pageId="7" pageNumber="643">8</emphasis>
+</th>
+<th id="76BF5E3E222200533BDFFE89FACBFEF1" box="[1269,1359,356,375]" gridcol="9" gridrow="0" pageId="7" pageNumber="643">
+<emphasis id="B92AE9122222FFAB3A37FE89FAA3FEF1" bold="true" box="[1309,1319,356,375]" pageId="7" pageNumber="643">9</emphasis>
+</th>
+<th id="76BF5E3E222200533A5BFE89FA26FEF1" box="[1393,1442,356,375]" gridcol="10" gridrow="0" pageId="7" pageNumber="643">
+<emphasis id="B92AE9122222FFAB3A55FE89FA17FEF1" bold="true" box="[1407,1427,356,375]" pageId="7" pageNumber="643">10</emphasis>
+</th>
+</tr>
+<tr id="356E3742222200533FA3FE7DFA26FE22" box="[137,1442,400,420]" gridrow="1" pageId="7" pageNumber="643">
+<th id="76BF5E3E222200533FA3FE7DFE25FE22" box="[137,417,400,420]" gridcol="0" gridrow="1" pageId="7" pageNumber="643">Isolation source</th>
+<td id="76BF5E3E222200533ED5FE7DFDB0FE22" box="[511,564,400,420]" gridcol="1" gridrow="1" pageId="7" pageNumber="643">Desert</td>
+<td id="76BF5E3E222200533D48FE7DFD13FE22" box="[610,663,400,420]" gridcol="2" gridrow="1" pageId="7" pageNumber="643">Desert</td>
+<td id="76BF5E3E222200533DEEFE7DFD7DFE22" box="[708,761,400,420]" gridcol="3" gridrow="1" pageId="7" pageNumber="643">Desert</td>
+<td id="76BF5E3E222200533C0DFE7DFCD8FE22" box="[807,860,400,420]" gridcol="4" gridrow="1" pageId="7" pageNumber="643">Desert</td>
+<td id="76BF5E3E222200533CA0FE7DFC3BFE22" box="[906,959,400,420]" gridcol="5" gridrow="1" pageId="7" pageNumber="643">Desert</td>
+<td id="76BF5E3E222200533CC3FE7DFB9EFE22" box="[1001,1050,400,420]" gridcol="6" gridrow="1" pageId="7" pageNumber="643">Soil*</td>
+<td id="76BF5E3E222200533B68FE7DFBF7FE22" box="[1090,1139,400,420]" gridcol="7" gridrow="1" pageId="7" pageNumber="643">NR</td>
+<td id="76BF5E3E222200533B8BFE7DFB56FE22" box="[1185,1234,400,420]" gridcol="8" gridrow="1" pageId="7" pageNumber="643">Leaf†</td>
+<td id="76BF5E3E222200533BDFFE7DFACBFE22" box="[1269,1359,400,420]" gridcol="9" gridrow="1" pageId="7" pageNumber="643">Acidic soil‡</td>
+<td id="76BF5E3E222200533A5BFE7DFA26FE22" box="[1393,1442,400,420]" gridcol="10" gridrow="1" pageId="7" pageNumber="643">NR</td>
+</tr>
+<tr id="356E3742222200533FA3FE51FA26FE56" box="[137,1442,444,464]" gridrow="2" pageId="7" pageNumber="643">
+<th id="76BF5E3E222200533FA3FE51FE25FE56" box="[137,417,444,464]" gridcol="0" gridrow="2" pageId="7" pageNumber="643">NaCl range (%, w/v)</th>
+<td id="76BF5E3E222200533ED5FE51FDB0FE56" box="[511,564,444,464]" gridcol="1" gridrow="2" pageId="7" pageNumber="643">0–3</td>
+<td id="76BF5E3E222200533D48FE51FD13FE56" box="[610,663,444,464]" gridcol="2" gridrow="2" pageId="7" pageNumber="643">0–4</td>
+<td id="76BF5E3E222200533DEEFE51FD7DFE56" box="[708,761,444,464]" gridcol="3" gridrow="2" pageId="7" pageNumber="643">0–3</td>
+<td id="76BF5E3E222200533C0DFE51FCD8FE56" box="[807,860,444,464]" gridcol="4" gridrow="2" pageId="7" pageNumber="643">0–4</td>
+<td id="76BF5E3E222200533CA0FE51FC3BFE56" box="[906,959,444,464]" gridcol="5" gridrow="2" pageId="7" pageNumber="643">0–5</td>
+<td id="76BF5E3E222200533CC3FE51FB9EFE56" box="[1001,1050,444,464]" gridcol="6" gridrow="2" pageId="7" pageNumber="643">0–3</td>
+<td id="76BF5E3E222200533B68FE51FBF7FE56" box="[1090,1139,444,464]" gridcol="7" gridrow="2" pageId="7" pageNumber="643">0–3</td>
+<td id="76BF5E3E222200533B8BFE51FB56FE56" box="[1185,1234,444,464]" gridcol="8" gridrow="2" pageId="7" pageNumber="643">0–4</td>
+<td id="76BF5E3E222200533BDFFE51FACBFE56" box="[1269,1359,444,464]" gridcol="9" gridrow="2" pageId="7" pageNumber="643">0–5</td>
+<td id="76BF5E3E222200533A5BFE51FA26FE56" box="[1393,1442,444,464]" gridcol="10" gridrow="2" pageId="7" pageNumber="643">0–4</td>
+</tr>
+<tr id="356E3742222200533FA3FE05FA26FE7D" box="[137,1442,488,507]" gridrow="3" pageId="7" pageNumber="643">
+<th id="76BF5E3E222200533FA3FE05FE25FE7D" box="[137,417,488,507]" gridcol="0" gridrow="3" pageId="7" pageNumber="643">pH tolerance for growth</th>
+<td id="76BF5E3E222200533ED5FE05FDB0FE7D" box="[511,564,488,507]" gridcol="1" gridrow="3" pageId="7" pageNumber="643">6–9</td>
+<td id="76BF5E3E222200533D48FE05FD13FE7D" box="[610,663,488,507]" gridcol="2" gridrow="3" pageId="7" pageNumber="643">6–9</td>
+<td id="76BF5E3E222200533DEEFE05FD7DFE7D" box="[708,761,488,507]" gridcol="3" gridrow="3" pageId="7" pageNumber="643">6–8</td>
+<td id="76BF5E3E222200533C0DFE05FCD8FE7D" box="[807,860,488,507]" gridcol="4" gridrow="3" pageId="7" pageNumber="643">6–8</td>
+<td id="76BF5E3E222200533CA0FE05FC3BFE7D" box="[906,959,488,507]" gridcol="5" gridrow="3" pageId="7" pageNumber="643">6–8</td>
+<td id="76BF5E3E222200533CC3FE05FB9EFE7D" box="[1001,1050,488,507]" gridcol="6" gridrow="3" pageId="7" pageNumber="643">6–9</td>
+<td id="76BF5E3E222200533B68FE05FBF7FE7D" box="[1090,1139,488,507]" gridcol="7" gridrow="3" pageId="7" pageNumber="643">6–9</td>
+<td id="76BF5E3E222200533B8BFE05FB56FE7D" box="[1185,1234,488,507]" gridcol="8" gridrow="3" pageId="7" pageNumber="643">6–10</td>
+<td id="76BF5E3E222200533BDFFE05FACBFE7D" box="[1269,1359,488,507]" gridcol="9" gridrow="3" pageId="7" pageNumber="643">5–10</td>
+<td id="76BF5E3E222200533A5BFE05FA26FE7D" box="[1393,1442,488,507]" gridcol="10" gridrow="3" pageId="7" pageNumber="643">6–11</td>
+</tr>
+<tr id="356E3742222200533FA3FDF9FA26FDA1" box="[137,1442,532,551]" gridrow="4" pageId="7" pageNumber="643">
+<th id="76BF5E3E222200533FA3FDF9FE25FDA1" box="[137,417,532,551]" gridcol="0" gridrow="4" pageId="7" pageNumber="643">Temperature range for growth (°C)</th>
+<td id="76BF5E3E222200533ED5FDF9FDB0FDA1" box="[511,564,532,551]" gridcol="1" gridrow="4" pageId="7" pageNumber="643">20–37</td>
+<td id="76BF5E3E222200533D48FDF9FD13FDA1" box="[610,663,532,551]" gridcol="2" gridrow="4" pageId="7" pageNumber="643">20–37</td>
+<td id="76BF5E3E222200533DEEFDF9FD7DFDA1" box="[708,761,532,551]" gridcol="3" gridrow="4" pageId="7" pageNumber="643">28–37</td>
+<td id="76BF5E3E222200533C0DFDF9FCD8FDA1" box="[807,860,532,551]" gridcol="4" gridrow="4" pageId="7" pageNumber="643">28–37</td>
+<td id="76BF5E3E222200533CA0FDF9FC3BFDA1" box="[906,959,532,551]" gridcol="5" gridrow="4" pageId="7" pageNumber="643">20–37</td>
+<td id="76BF5E3E222200533CC3FDF9FB9EFDA1" box="[1001,1050,532,551]" gridcol="6" gridrow="4" pageId="7" pageNumber="643">28–45</td>
+<td id="76BF5E3E222200533B68FDF9FBF7FDA1" box="[1090,1139,532,551]" gridcol="7" gridrow="4" pageId="7" pageNumber="643">28–37</td>
+<td id="76BF5E3E222200533B8BFDF9FB56FDA1" box="[1185,1234,532,551]" gridcol="8" gridrow="4" pageId="7" pageNumber="643">20–37</td>
+<td id="76BF5E3E222200533BDFFDF9FACBFDA1" box="[1269,1359,532,551]" gridcol="9" gridrow="4" pageId="7" pageNumber="643">28–37</td>
+<td id="76BF5E3E222200533A5BFDF9FA26FDA1" box="[1393,1442,532,551]" gridcol="10" gridrow="4" pageId="7" pageNumber="643">20–45</td>
+</tr>
+<tr id="356E3742222200533FA3FDADFA26FDD5" box="[137,1442,576,595]" gridrow="5" pageId="7" pageNumber="643">
+<th id="76BF5E3E222200533FA3FDADFA26FDD5" box="[137,1442,576,595]" colspan="11" colspanRight="10" gridcol="0" gridrow="5" pageId="7" pageNumber="643">Degradation of (%, w/v):</th>
+</tr>
+<tr id="356E3742222200533FA3FD81FA26FDF9" box="[137,1442,620,639]" gridrow="6" pageId="7" pageNumber="643">
+<th id="76BF5E3E222200533FA3FD81FE25FDF9" box="[137,417,620,639]" gridcol="0" gridrow="6" pageId="7" pageNumber="643">Gelatin</th>
+<td id="76BF5E3E222200533ED5FD81FDB0FDF9" box="[511,564,620,639]" gridcol="1" gridrow="6" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533D48FD81FD13FDF9" box="[610,663,620,639]" gridcol="2" gridrow="6" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533DEEFD81FD7DFDF9" box="[708,761,620,639]" gridcol="3" gridrow="6" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533C0DFD81FCD8FDF9" box="[807,860,620,639]" gridcol="4" gridrow="6" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533CA0FD81FC3BFDF9" box="[906,959,620,639]" gridcol="5" gridrow="6" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533CC3FD81FB9EFDF9" box="[1001,1050,620,639]" gridcol="6" gridrow="6" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533B68FD81FBF7FDF9" box="[1090,1139,620,639]" gridcol="7" gridrow="6" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533B8BFD81FB56FDF9" box="[1185,1234,620,639]" gridcol="8" gridrow="6" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533BDFFD81FACBFDF9" box="[1269,1359,620,639]" gridcol="9" gridrow="6" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533A5BFD81FA26FDF9" box="[1393,1442,620,639]" gridcol="10" gridrow="6" pageId="7" pageNumber="643">+</td>
+</tr>
+<tr id="356E3742222200533FA3FD7AFA26FD2D" box="[137,1442,663,683]" gridrow="7" pageId="7" pageNumber="643">
+<th id="76BF5E3E222200533FA3FD7AFE25FD2D" box="[137,417,663,683]" gridcol="0" gridrow="7" pageId="7" pageNumber="643">Starch</th>
+<td id="76BF5E3E222200533ED5FD7AFDB0FD2D" box="[511,564,663,683]" gridcol="1" gridrow="7" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533D48FD7AFD13FD2D" box="[610,663,663,683]" gridcol="2" gridrow="7" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533DEEFD7AFD7DFD2D" box="[708,761,663,683]" gridcol="3" gridrow="7" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533C0DFD7AFCD8FD2D" box="[807,860,663,683]" gridcol="4" gridrow="7" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533CA0FD7AFC3BFD2D" box="[906,959,663,683]" gridcol="5" gridrow="7" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533CC3FD7AFB9EFD2D" box="[1001,1050,663,683]" gridcol="6" gridrow="7" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533B68FD7AFBF7FD2D" box="[1090,1139,663,683]" gridcol="7" gridrow="7" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533B8BFD7AFB56FD2D" box="[1185,1234,663,683]" gridcol="8" gridrow="7" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533BDFFD7AFACBFD2D" box="[1269,1359,663,683]" gridcol="9" gridrow="7" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533A5BFD7AFA26FD2D" box="[1393,1442,663,683]" gridcol="10" gridrow="7" pageId="7" pageNumber="643">−</td>
+</tr>
+<tr id="356E3742222200533FA3FD29FA26FD51" box="[137,1442,708,727]" gridrow="8" pageId="7" pageNumber="643">
+<th id="76BF5E3E222200533FA3FD29FE25FD51" box="[137,417,708,727]" gridcol="0" gridrow="8" pageId="7" pageNumber="643">Tween 40</th>
+<td id="76BF5E3E222200533ED5FD29FDB0FD51" box="[511,564,708,727]" gridcol="1" gridrow="8" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533D48FD29FD13FD51" box="[610,663,708,727]" gridcol="2" gridrow="8" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533DEEFD29FD7DFD51" box="[708,761,708,727]" gridcol="3" gridrow="8" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533C0DFD29FCD8FD51" box="[807,860,708,727]" gridcol="4" gridrow="8" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533CA0FD29FC3BFD51" box="[906,959,708,727]" gridcol="5" gridrow="8" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533CC3FD29FB9EFD51" box="[1001,1050,708,727]" gridcol="6" gridrow="8" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533B68FD29FBF7FD51" box="[1090,1139,708,727]" gridcol="7" gridrow="8" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533B8BFD29FB56FD51" box="[1185,1234,708,727]" gridcol="8" gridrow="8" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533BDFFD29FACBFD51" box="[1269,1359,708,727]" gridcol="9" gridrow="8" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533A5BFD29FA26FD51" box="[1393,1442,708,727]" gridcol="10" gridrow="8" pageId="7" pageNumber="643">+</td>
+</tr>
+<tr id="356E3742222200533FA3FD02FA26FC85" box="[137,1442,751,771]" gridrow="9" pageId="7" pageNumber="643">
+<th id="76BF5E3E222200533FA3FD02FE25FC85" box="[137,417,751,771]" gridcol="0" gridrow="9" pageId="7" pageNumber="643">Tween 80</th>
+<td id="76BF5E3E222200533ED5FD02FDB0FC85" box="[511,564,751,771]" gridcol="1" gridrow="9" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533D48FD02FD13FC85" box="[610,663,751,771]" gridcol="2" gridrow="9" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533DEEFD02FD7DFC85" box="[708,761,751,771]" gridcol="3" gridrow="9" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533C0DFD02FCD8FC85" box="[807,860,751,771]" gridcol="4" gridrow="9" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533CA0FD02FC3BFC85" box="[906,959,751,771]" gridcol="5" gridrow="9" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533CC3FD02FB9EFC85" box="[1001,1050,751,771]" gridcol="6" gridrow="9" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533B68FD02FBF7FC85" box="[1090,1139,751,771]" gridcol="7" gridrow="9" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533B8BFD02FB56FC85" box="[1185,1234,751,771]" gridcol="8" gridrow="9" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533BDFFD02FACBFC85" box="[1269,1359,751,771]" gridcol="9" gridrow="9" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533A5BFD02FA26FC85" box="[1393,1442,751,771]" gridcol="10" gridrow="9" pageId="7" pageNumber="643">+</td>
+</tr>
+<tr id="356E3742222200533FA3FCF6FA26FCA9" box="[137,1442,795,815]" gridrow="10" pageId="7" pageNumber="643">
+<th id="76BF5E3E222200533FA3FCF6FE25FCA9" box="[137,417,795,815]" gridcol="0" gridrow="10" pageId="7" pageNumber="643">Xylan</th>
+<td id="76BF5E3E222200533ED5FCF6FDB0FCA9" box="[511,564,795,815]" gridcol="1" gridrow="10" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533D48FCF6FD13FCA9" box="[610,663,795,815]" gridcol="2" gridrow="10" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533DEEFCF6FD7DFCA9" box="[708,761,795,815]" gridcol="3" gridrow="10" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533C0DFCF6FCD8FCA9" box="[807,860,795,815]" gridcol="4" gridrow="10" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533CA0FCF6FC3BFCA9" box="[906,959,795,815]" gridcol="5" gridrow="10" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533CC3FCF6FB9EFCA9" box="[1001,1050,795,815]" gridcol="6" gridrow="10" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533B68FCF6FBF7FCA9" box="[1090,1139,795,815]" gridcol="7" gridrow="10" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533B8BFCF6FB56FCA9" box="[1185,1234,795,815]" gridcol="8" gridrow="10" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533BDFFCF6FACBFCA9" box="[1269,1359,795,815]" gridcol="9" gridrow="10" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533A5BFCF6FA26FCA9" box="[1393,1442,795,815]" gridcol="10" gridrow="10" pageId="7" pageNumber="643">+</td>
+</tr>
+<tr id="356E3742222200533FA3FCAAFA26FCDC" box="[137,1442,839,858]" gridrow="11" pageId="7" pageNumber="643">
+<th id="76BF5E3E222200533FA3FCAAFA26FCDC" box="[137,1442,839,858]" colspan="11" colspanRight="10" gridcol="0" gridrow="11" pageId="7" pageNumber="643">Nitrogen source utilization (0.1 %, w/v):</th>
+</tr>
+<tr id="356E3742222200533FA3FC9EFA26FC00" box="[137,1442,883,902]" gridrow="12" pageId="7" pageNumber="643">
+<th id="76BF5E3E222200533FA3FC9EFE25FC00" box="[137,417,883,902]" gridcol="0" gridrow="12" pageId="7" pageNumber="643">α-Isoleucine</th>
+<td id="76BF5E3E222200533ED5FC9EFDB0FC00" box="[511,564,883,902]" gridcol="1" gridrow="12" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533D48FC9EFD13FC00" box="[610,663,883,902]" gridcol="2" gridrow="12" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533DEEFC9EFD7DFC00" box="[708,761,883,902]" gridcol="3" gridrow="12" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533C0DFC9EFCD8FC00" box="[807,860,883,902]" gridcol="4" gridrow="12" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533CA0FC9EFC3BFC00" box="[906,959,883,902]" gridcol="5" gridrow="12" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533CC3FC9EFB9EFC00" box="[1001,1050,883,902]" gridcol="6" gridrow="12" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533B68FC9EFBF7FC00" box="[1090,1139,883,902]" gridcol="7" gridrow="12" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533B8BFC9EFB56FC00" box="[1185,1234,883,902]" gridcol="8" gridrow="12" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533BDFFC9EFACBFC00" box="[1269,1359,883,902]" gridcol="9" gridrow="12" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533A5BFC9EFA26FC00" box="[1393,1442,883,902]" gridcol="10" gridrow="12" pageId="7" pageNumber="643">+</td>
+</tr>
+<tr id="356E3742222200533FA3FC72FA26FC34" box="[137,1442,927,946]" gridrow="13" pageId="7" pageNumber="643">
+<th id="76BF5E3E222200533FA3FC72FE25FC34" box="[137,417,927,946]" gridcol="0" gridrow="13" pageId="7" pageNumber="643">L-Alanine</th>
+<td id="76BF5E3E222200533ED5FC72FDB0FC34" box="[511,564,927,946]" gridcol="1" gridrow="13" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533D48FC72FD13FC34" box="[610,663,927,946]" gridcol="2" gridrow="13" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533DEEFC72FD7DFC34" box="[708,761,927,946]" gridcol="3" gridrow="13" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533C0DFC72FCD8FC34" box="[807,860,927,946]" gridcol="4" gridrow="13" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533CA0FC72FC3BFC34" box="[906,959,927,946]" gridcol="5" gridrow="13" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533CC3FC72FB9EFC34" box="[1001,1050,927,946]" gridcol="6" gridrow="13" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533B68FC72FBF7FC34" box="[1090,1139,927,946]" gridcol="7" gridrow="13" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533B8BFC72FB56FC34" box="[1185,1234,927,946]" gridcol="8" gridrow="13" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533BDFFC72FACBFC34" box="[1269,1359,927,946]" gridcol="9" gridrow="13" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533A5BFC72FA26FC34" box="[1393,1442,927,946]" gridcol="10" gridrow="13" pageId="7" pageNumber="643">+</td>
+</tr>
+<tr id="356E3742222200533FA3FC26FA26FC58" box="[137,1442,971,990]" gridrow="14" pageId="7" pageNumber="643">
+<th id="76BF5E3E222200533FA3FC26FE25FC58" box="[137,417,971,990]" gridcol="0" gridrow="14" pageId="7" pageNumber="643">L-Histidine</th>
+<td id="76BF5E3E222200533ED5FC26FDB0FC58" box="[511,564,971,990]" gridcol="1" gridrow="14" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533D48FC26FD13FC58" box="[610,663,971,990]" gridcol="2" gridrow="14" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533DEEFC26FD7DFC58" box="[708,761,971,990]" gridcol="3" gridrow="14" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533C0DFC26FCD8FC58" box="[807,860,971,990]" gridcol="4" gridrow="14" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533CA0FC26FC3BFC58" box="[906,959,971,990]" gridcol="5" gridrow="14" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533CC3FC26FB9EFC58" box="[1001,1050,971,990]" gridcol="6" gridrow="14" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533B68FC26FBF7FC58" box="[1090,1139,971,990]" gridcol="7" gridrow="14" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533B8BFC26FB56FC58" box="[1185,1234,971,990]" gridcol="8" gridrow="14" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533BDFFC26FACBFC58" box="[1269,1359,971,990]" gridcol="9" gridrow="14" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533A5BFC26FA26FC58" box="[1393,1442,971,990]" gridcol="10" gridrow="14" pageId="7" pageNumber="643">+</td>
+</tr>
+<tr id="356E3742222200533FA3FC1BFA26FB8C" box="[137,1442,1014,1034]" gridrow="15" pageId="7" pageNumber="643">
+<th id="76BF5E3E222200533FA3FC1BFA26FB8C" box="[137,1442,1014,1034]" colspan="11" colspanRight="10" gridcol="0" gridrow="15" pageId="7" pageNumber="643">Biochemical tests:</th>
+</tr>
+<tr id="356E3742222200533FA3FBCFFA26FBB0" box="[137,1442,1058,1078]" gridrow="16" pageId="7" pageNumber="643">
+<th id="76BF5E3E222200533FA3FBCFFE25FBB0" box="[137,417,1058,1078]" gridcol="0" gridrow="16" pageId="7" pageNumber="643">Arbutin hydrolysis</th>
+<td id="76BF5E3E222200533ED5FBCFFDB0FBB0" box="[511,564,1058,1078]" gridcol="1" gridrow="16" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533D48FBCFFD13FBB0" box="[610,663,1058,1078]" gridcol="2" gridrow="16" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533DEEFBCFFD7DFBB0" box="[708,761,1058,1078]" gridcol="3" gridrow="16" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533C0DFBCFFCD8FBB0" box="[807,860,1058,1078]" gridcol="4" gridrow="16" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533CA0FBCFFC3BFBB0" box="[906,959,1058,1078]" gridcol="5" gridrow="16" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533CC3FBCFFB9EFBB0" box="[1001,1050,1058,1078]" gridcol="6" gridrow="16" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533B68FBCFFBF7FBB0" box="[1090,1139,1058,1078]" gridcol="7" gridrow="16" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533B8BFBCFFB56FBB0" box="[1185,1234,1058,1078]" gridcol="8" gridrow="16" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533BDFFBCFFACBFBB0" box="[1269,1359,1058,1078]" gridcol="9" gridrow="16" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533A5BFBCFFA26FBB0" box="[1393,1442,1058,1078]" gridcol="10" gridrow="16" pageId="7" pageNumber="643">+</td>
+</tr>
+<tr id="356E3742222200533FA3FBA3FA26FBE4" box="[137,1442,1102,1122]" gridrow="17" pageId="7" pageNumber="643">
+<th id="76BF5E3E222200533FA3FBA3FE25FBE4" box="[137,417,1102,1122]" gridcol="0" gridrow="17" pageId="7" pageNumber="643">Aesculin hydrolysis</th>
+<td id="76BF5E3E222200533ED5FBA3FDB0FBE4" box="[511,564,1102,1122]" gridcol="1" gridrow="17" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533D48FBA3FD13FBE4" box="[610,663,1102,1122]" gridcol="2" gridrow="17" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533DEEFBA3FD7DFBE4" box="[708,761,1102,1122]" gridcol="3" gridrow="17" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533C0DFBA3FCD8FBE4" box="[807,860,1102,1122]" gridcol="4" gridrow="17" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533CA0FBA3FC3BFBE4" box="[906,959,1102,1122]" gridcol="5" gridrow="17" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533CC3FBA3FB9EFBE4" box="[1001,1050,1102,1122]" gridcol="6" gridrow="17" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533B68FBA3FBF7FBE4" box="[1090,1139,1102,1122]" gridcol="7" gridrow="17" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533B8BFBA3FB56FBE4" box="[1185,1234,1102,1122]" gridcol="8" gridrow="17" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533BDFFBA3FACBFBE4" box="[1269,1359,1102,1122]" gridcol="9" gridrow="17" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533A5BFBA3FA26FBE4" box="[1393,1442,1102,1122]" gridcol="10" gridrow="17" pageId="7" pageNumber="643">+</td>
+</tr>
+<tr id="356E3742222200533FA3FB97FA26FB08" box="[137,1442,1146,1166]" gridrow="18" pageId="7" pageNumber="643">
+<th id="76BF5E3E222200533FA3FB97FE25FB08" box="[137,417,1146,1166]" gridcol="0" gridrow="18" pageId="7" pageNumber="643">Nitrate reduction</th>
+<td id="76BF5E3E222200533ED5FB97FDB0FB08" box="[511,564,1146,1166]" gridcol="1" gridrow="18" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533D48FB97FD13FB08" box="[610,663,1146,1166]" gridcol="2" gridrow="18" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533DEEFB97FD7DFB08" box="[708,761,1146,1166]" gridcol="3" gridrow="18" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533C0DFB97FCD8FB08" box="[807,860,1146,1166]" gridcol="4" gridrow="18" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533CA0FB97FC3BFB08" box="[906,959,1146,1166]" gridcol="5" gridrow="18" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533CC3FB97FB9EFB08" box="[1001,1050,1146,1166]" gridcol="6" gridrow="18" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533B68FB97FBF7FB08" box="[1090,1139,1146,1166]" gridcol="7" gridrow="18" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533B8BFB97FB56FB08" box="[1185,1234,1146,1166]" gridcol="8" gridrow="18" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533BDFFB97FACBFB08" box="[1269,1359,1146,1166]" gridcol="9" gridrow="18" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533A5BFB97FA26FB08" box="[1393,1442,1146,1166]" gridcol="10" gridrow="18" pageId="7" pageNumber="643">+</td>
+</tr>
+<tr id="356E3742222200533FA3FB4BFA26FB3F" box="[137,1442,1190,1209]" gridrow="19" pageId="7" pageNumber="643">
+<th id="76BF5E3E222200533FA3FB4BFA26FB3F" box="[137,1442,1190,1209]" colspan="11" colspanRight="10" gridcol="0" gridrow="19" pageId="7" pageNumber="643">Carbon source utilization (1 %, w/v):</th>
+</tr>
+<tr id="356E3742222200533FA3FB3FFA26FB63" box="[137,1442,1234,1253]" gridrow="20" pageId="7" pageNumber="643">
+<th id="76BF5E3E222200533FA3FB3FFE25FB63" box="[137,417,1234,1253]" gridcol="0" gridrow="20" pageId="7" pageNumber="643">Adonitol</th>
+<td id="76BF5E3E222200533ED5FB3FFDB0FB63" box="[511,564,1234,1253]" gridcol="1" gridrow="20" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533D48FB3FFD13FB63" box="[610,663,1234,1253]" gridcol="2" gridrow="20" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533DEEFB3FFD7DFB63" box="[708,761,1234,1253]" gridcol="3" gridrow="20" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533C0DFB3FFCD8FB63" box="[807,860,1234,1253]" gridcol="4" gridrow="20" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533CA0FB3FFC3BFB63" box="[906,959,1234,1253]" gridcol="5" gridrow="20" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533CC3FB3FFB9EFB63" box="[1001,1050,1234,1253]" gridcol="6" gridrow="20" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533B68FB3FFBF7FB63" box="[1090,1139,1234,1253]" gridcol="7" gridrow="20" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533B8BFB3FFB56FB63" box="[1185,1234,1234,1253]" gridcol="8" gridrow="20" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533BDFFB3FFACBFB63" box="[1269,1359,1234,1253]" gridcol="9" gridrow="20" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533A5BFB3FFA26FB63" box="[1393,1442,1234,1253]" gridcol="10" gridrow="20" pageId="7" pageNumber="643">+</td>
+</tr>
+<tr id="356E3742222200533FA3FB13FA26FA97" box="[137,1442,1278,1297]" gridrow="21" pageId="7" pageNumber="643">
+<th id="76BF5E3E222200533FA3FB13FE25FA97" box="[137,417,1278,1297]" gridcol="0" gridrow="21" pageId="7" pageNumber="643">D-Arabinose</th>
+<td id="76BF5E3E222200533ED5FB13FDB0FA97" box="[511,564,1278,1297]" gridcol="1" gridrow="21" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533D48FB13FD13FA97" box="[610,663,1278,1297]" gridcol="2" gridrow="21" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533DEEFB13FD7DFA97" box="[708,761,1278,1297]" gridcol="3" gridrow="21" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533C0DFB13FCD8FA97" box="[807,860,1278,1297]" gridcol="4" gridrow="21" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533CA0FB13FC3BFA97" box="[906,959,1278,1297]" gridcol="5" gridrow="21" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533CC3FB13FB9EFA97" box="[1001,1050,1278,1297]" gridcol="6" gridrow="21" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533B68FB13FBF7FA97" box="[1090,1139,1278,1297]" gridcol="7" gridrow="21" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533B8BFB13FB56FA97" box="[1185,1234,1278,1297]" gridcol="8" gridrow="21" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533BDFFB13FACBFA97" box="[1269,1359,1278,1297]" gridcol="9" gridrow="21" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533A5BFB13FA26FA97" box="[1393,1442,1278,1297]" gridcol="10" gridrow="21" pageId="7" pageNumber="643">+</td>
+</tr>
+<tr id="356E3742222200533FA3FAC7FA26FABB" box="[137,1442,1322,1341]" gridrow="22" pageId="7" pageNumber="643">
+<th id="76BF5E3E222200533FA3FAC7FE25FABB" box="[137,417,1322,1341]" gridcol="0" gridrow="22" pageId="7" pageNumber="643">D-Fructose</th>
+<td id="76BF5E3E222200533ED5FAC7FDB0FABB" box="[511,564,1322,1341]" gridcol="1" gridrow="22" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533D48FAC7FD13FABB" box="[610,663,1322,1341]" gridcol="2" gridrow="22" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533DEEFAC7FD7DFABB" box="[708,761,1322,1341]" gridcol="3" gridrow="22" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533C0DFAC7FCD8FABB" box="[807,860,1322,1341]" gridcol="4" gridrow="22" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533CA0FAC7FC3BFABB" box="[906,959,1322,1341]" gridcol="5" gridrow="22" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533CC3FAC7FB9EFABB" box="[1001,1050,1322,1341]" gridcol="6" gridrow="22" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533B68FAC7FBF7FABB" box="[1090,1139,1322,1341]" gridcol="7" gridrow="22" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533B8BFAC7FB56FABB" box="[1185,1234,1322,1341]" gridcol="8" gridrow="22" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533BDFFAC7FACBFABB" box="[1269,1359,1322,1341]" gridcol="9" gridrow="22" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533A5BFAC7FA26FABB" box="[1393,1442,1322,1341]" gridcol="10" gridrow="22" pageId="7" pageNumber="643">+</td>
+</tr>
+<tr id="356E3742222200533FA3FABBFA26FAEF" box="[137,1442,1366,1385]" gridrow="23" pageId="7" pageNumber="643">
+<th id="76BF5E3E222200533FA3FABBFE25FAEF" box="[137,417,1366,1385]" gridcol="0" gridrow="23" pageId="7" pageNumber="643">D-Sorbitol</th>
+<td id="76BF5E3E222200533ED5FABBFDB0FAEF" box="[511,564,1366,1385]" gridcol="1" gridrow="23" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533D48FABBFD13FAEF" box="[610,663,1366,1385]" gridcol="2" gridrow="23" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533DEEFABBFD7DFAEF" box="[708,761,1366,1385]" gridcol="3" gridrow="23" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533C0DFABBFCD8FAEF" box="[807,860,1366,1385]" gridcol="4" gridrow="23" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533CA0FABBFC3BFAEF" box="[906,959,1366,1385]" gridcol="5" gridrow="23" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533CC3FABBFB9EFAEF" box="[1001,1050,1366,1385]" gridcol="6" gridrow="23" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533B68FABBFBF7FAEF" box="[1090,1139,1366,1385]" gridcol="7" gridrow="23" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533B8BFABBFB56FAEF" box="[1185,1234,1366,1385]" gridcol="8" gridrow="23" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533BDFFABBFACBFAEF" box="[1269,1359,1366,1385]" gridcol="9" gridrow="23" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533A5BFABBFA26FAEF" box="[1393,1442,1366,1385]" gridcol="10" gridrow="23" pageId="7" pageNumber="643">+</td>
+</tr>
+<tr id="356E3742222200533FA3FA6CFA26FA13" box="[137,1442,1409,1429]" gridrow="24" pageId="7" pageNumber="643">
+<th id="76BF5E3E222200533FA3FA6CFE25FA13" box="[137,417,1409,1429]" gridcol="0" gridrow="24" pageId="7" pageNumber="643">D-Galactose</th>
+<td id="76BF5E3E222200533ED5FA6CFDB0FA13" box="[511,564,1409,1429]" gridcol="1" gridrow="24" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533D48FA6CFD13FA13" box="[610,663,1409,1429]" gridcol="2" gridrow="24" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533DEEFA6CFD7DFA13" box="[708,761,1409,1429]" gridcol="3" gridrow="24" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533C0DFA6CFCD8FA13" box="[807,860,1409,1429]" gridcol="4" gridrow="24" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533CA0FA6CFC3BFA13" box="[906,959,1409,1429]" gridcol="5" gridrow="24" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533CC3FA6CFB9EFA13" box="[1001,1050,1409,1429]" gridcol="6" gridrow="24" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533B68FA6CFBF7FA13" box="[1090,1139,1409,1429]" gridcol="7" gridrow="24" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533B8BFA6CFB56FA13" box="[1185,1234,1409,1429]" gridcol="8" gridrow="24" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533BDFFA6CFACBFA13" box="[1269,1359,1409,1429]" gridcol="9" gridrow="24" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533A5BFA6CFA26FA13" box="[1393,1442,1409,1429]" gridcol="10" gridrow="24" pageId="7" pageNumber="643">+</td>
+</tr>
+<tr id="356E3742222200533FA3FA43FA26FA47" box="[137,1442,1454,1473]" gridrow="25" pageId="7" pageNumber="643">
+<th id="76BF5E3E222200533FA3FA43FE25FA47" box="[137,417,1454,1473]" gridcol="0" gridrow="25" pageId="7" pageNumber="643">D-Mannose</th>
+<td id="76BF5E3E222200533ED5FA43FDB0FA47" box="[511,564,1454,1473]" gridcol="1" gridrow="25" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533D48FA43FD13FA47" box="[610,663,1454,1473]" gridcol="2" gridrow="25" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533DEEFA43FD7DFA47" box="[708,761,1454,1473]" gridcol="3" gridrow="25" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533C0DFA43FCD8FA47" box="[807,860,1454,1473]" gridcol="4" gridrow="25" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533CA0FA43FC3BFA47" box="[906,959,1454,1473]" gridcol="5" gridrow="25" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533CC3FA43FB9EFA47" box="[1001,1050,1454,1473]" gridcol="6" gridrow="25" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533B68FA43FBF7FA47" box="[1090,1139,1454,1473]" gridcol="7" gridrow="25" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533B8BFA43FB56FA47" box="[1185,1234,1454,1473]" gridcol="8" gridrow="25" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533BDFFA43FACBFA47" box="[1269,1359,1454,1473]" gridcol="9" gridrow="25" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533A5BFA43FA26FA47" box="[1393,1442,1454,1473]" gridcol="10" gridrow="25" pageId="7" pageNumber="643">−</td>
+</tr>
+<tr id="356E3742222200533FA3FA34FA26FA6B" box="[137,1442,1497,1517]" gridrow="26" pageId="7" pageNumber="643">
+<th id="76BF5E3E222200533FA3FA34FE25FA6B" box="[137,417,1497,1517]" gridcol="0" gridrow="26" pageId="7" pageNumber="643">Melezitose</th>
+<td id="76BF5E3E222200533ED5FA34FDB0FA6B" box="[511,564,1497,1517]" gridcol="1" gridrow="26" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533D48FA34FD13FA6B" box="[610,663,1497,1517]" gridcol="2" gridrow="26" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533DEEFA34FD7DFA6B" box="[708,761,1497,1517]" gridcol="3" gridrow="26" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533C0DFA34FCD8FA6B" box="[807,860,1497,1517]" gridcol="4" gridrow="26" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533CA0FA34FC3BFA6B" box="[906,959,1497,1517]" gridcol="5" gridrow="26" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533CC3FA34FB9EFA6B" box="[1001,1050,1497,1517]" gridcol="6" gridrow="26" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533B68FA34FBF7FA6B" box="[1090,1139,1497,1517]" gridcol="7" gridrow="26" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533B8BFA34FB56FA6B" box="[1185,1234,1497,1517]" gridcol="8" gridrow="26" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533BDFFA34FACBFA6B" box="[1269,1359,1497,1517]" gridcol="9" gridrow="26" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533A5BFA34FA26FA6B" box="[1393,1442,1497,1517]" gridcol="10" gridrow="26" pageId="7" pageNumber="643">+</td>
+</tr>
+<tr id="356E3742222200533FA3F9E8FA26F99F" box="[137,1442,1541,1561]" gridrow="27" pageId="7" pageNumber="643">
+<th id="76BF5E3E222200533FA3F9E8FE25F99F" box="[137,417,1541,1561]" gridcol="0" gridrow="27" pageId="7" pageNumber="643">Melibiose</th>
+<td id="76BF5E3E222200533ED5F9E8FDB0F99F" box="[511,564,1541,1561]" gridcol="1" gridrow="27" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533D48F9E8FD13F99F" box="[610,663,1541,1561]" gridcol="2" gridrow="27" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533DEEF9E8FD7DF99F" box="[708,761,1541,1561]" gridcol="3" gridrow="27" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533C0DF9E8FCD8F99F" box="[807,860,1541,1561]" gridcol="4" gridrow="27" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533CA0F9E8FC3BF99F" box="[906,959,1541,1561]" gridcol="5" gridrow="27" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533CC3F9E8FB9EF99F" box="[1001,1050,1541,1561]" gridcol="6" gridrow="27" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533B68F9E8FBF7F99F" box="[1090,1139,1541,1561]" gridcol="7" gridrow="27" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533B8BF9E8FB56F99F" box="[1185,1234,1541,1561]" gridcol="8" gridrow="27" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533BDFF9E8FACBF99F" box="[1269,1359,1541,1561]" gridcol="9" gridrow="27" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533A5BF9E8FA26F99F" box="[1393,1442,1541,1561]" gridcol="10" gridrow="27" pageId="7" pageNumber="643">+</td>
+</tr>
+<tr id="356E3742222200533FA3F9DCFA26F9C2" box="[137,1442,1585,1604]" gridrow="28" pageId="7" pageNumber="643">
+<th id="76BF5E3E222200533FA3F9DCFE25F9C2" box="[137,417,1585,1604]" gridcol="0" gridrow="28" pageId="7" pageNumber="643">Dextrin</th>
+<td id="76BF5E3E222200533ED5F9DCFDB0F9C2" box="[511,564,1585,1604]" gridcol="1" gridrow="28" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533D48F9DCFD13F9C2" box="[610,663,1585,1604]" gridcol="2" gridrow="28" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533DEEF9DCFD7DF9C2" box="[708,761,1585,1604]" gridcol="3" gridrow="28" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533C0DF9DCFCD8F9C2" box="[807,860,1585,1604]" gridcol="4" gridrow="28" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533CA0F9DCFC3BF9C2" box="[906,959,1585,1604]" gridcol="5" gridrow="28" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533CC3F9DCFB9EF9C2" box="[1001,1050,1585,1604]" gridcol="6" gridrow="28" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533B68F9DCFBF7F9C2" box="[1090,1139,1585,1604]" gridcol="7" gridrow="28" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533B8BF9DCFB56F9C2" box="[1185,1234,1585,1604]" gridcol="8" gridrow="28" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533BDFF9DCFACBF9C2" box="[1269,1359,1585,1604]" gridcol="9" gridrow="28" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533A5BF9DCFA26F9C2" box="[1393,1442,1585,1604]" gridcol="10" gridrow="28" pageId="7" pageNumber="643">+</td>
+</tr>
+<tr id="356E3742222200533FA3F9B0FA26F9F6" box="[137,1442,1629,1648]" gridrow="29" pageId="7" pageNumber="643">
+<th id="76BF5E3E222200533FA3F9B0FE25F9F6" box="[137,417,1629,1648]" gridcol="0" gridrow="29" pageId="7" pageNumber="643">Inulin</th>
+<td id="76BF5E3E222200533ED5F9B0FDB0F9F6" box="[511,564,1629,1648]" gridcol="1" gridrow="29" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533D48F9B0FD13F9F6" box="[610,663,1629,1648]" gridcol="2" gridrow="29" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533DEEF9B0FD7DF9F6" box="[708,761,1629,1648]" gridcol="3" gridrow="29" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533C0DF9B0FCD8F9F6" box="[807,860,1629,1648]" gridcol="4" gridrow="29" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533CA0F9B0FC3BF9F6" box="[906,959,1629,1648]" gridcol="5" gridrow="29" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533CC3F9B0FB9EF9F6" box="[1001,1050,1629,1648]" gridcol="6" gridrow="29" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533B68F9B0FBF7F9F6" box="[1090,1139,1629,1648]" gridcol="7" gridrow="29" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533B8BF9B0FB56F9F6" box="[1185,1234,1629,1648]" gridcol="8" gridrow="29" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533BDFF9B0FACBF9F6" box="[1269,1359,1629,1648]" gridcol="9" gridrow="29" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533A5BF9B0FA26F9F6" box="[1393,1442,1629,1648]" gridcol="10" gridrow="29" pageId="7" pageNumber="643">+</td>
+</tr>
+<tr id="356E3742222200533FA3F964FA26F91A" box="[137,1442,1673,1692]" gridrow="30" pageId="7" pageNumber="643">
+<th id="76BF5E3E222200533FA3F964FE25F91A" box="[137,417,1673,1692]" gridcol="0" gridrow="30" pageId="7" pageNumber="643">L-Sorbose</th>
+<td id="76BF5E3E222200533ED5F964FDB0F91A" box="[511,564,1673,1692]" gridcol="1" gridrow="30" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533D48F964FD13F91A" box="[610,663,1673,1692]" gridcol="2" gridrow="30" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533DEEF964FD7DF91A" box="[708,761,1673,1692]" gridcol="3" gridrow="30" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533C0DF964FCD8F91A" box="[807,860,1673,1692]" gridcol="4" gridrow="30" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533CA0F964FC3BF91A" box="[906,959,1673,1692]" gridcol="5" gridrow="30" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533CC3F964FB9EF91A" box="[1001,1050,1673,1692]" gridcol="6" gridrow="30" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533B68F964FBF7F91A" box="[1090,1139,1673,1692]" gridcol="7" gridrow="30" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533B8BF964FB56F91A" box="[1185,1234,1673,1692]" gridcol="8" gridrow="30" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533BDFF964FACBF91A" box="[1269,1359,1673,1692]" gridcol="9" gridrow="30" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533A5BF964FA26F91A" box="[1393,1442,1673,1692]" gridcol="10" gridrow="30" pageId="7" pageNumber="643">+</td>
+</tr>
+<tr id="356E3742222200533FA3F958FA26F94E" box="[137,1442,1717,1736]" gridrow="31" pageId="7" pageNumber="643">
+<th id="76BF5E3E222200533FA3F958FE25F94E" box="[137,417,1717,1736]" gridcol="0" gridrow="31" pageId="7" pageNumber="643">L-Arabinose</th>
+<td id="76BF5E3E222200533ED5F958FDB0F94E" box="[511,564,1717,1736]" gridcol="1" gridrow="31" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533D48F958FD13F94E" box="[610,663,1717,1736]" gridcol="2" gridrow="31" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533DEEF958FD7DF94E" box="[708,761,1717,1736]" gridcol="3" gridrow="31" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533C0DF958FCD8F94E" box="[807,860,1717,1736]" gridcol="4" gridrow="31" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533CA0F958FC3BF94E" box="[906,959,1717,1736]" gridcol="5" gridrow="31" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533CC3F958FB9EF94E" box="[1001,1050,1717,1736]" gridcol="6" gridrow="31" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533B68F958FBF7F94E" box="[1090,1139,1717,1736]" gridcol="7" gridrow="31" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533B8BF958FB56F94E" box="[1185,1234,1717,1736]" gridcol="8" gridrow="31" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533BDFF958FACBF94E" box="[1269,1359,1717,1736]" gridcol="9" gridrow="31" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533A5BF958FA26F94E" box="[1393,1442,1717,1736]" gridcol="10" gridrow="31" pageId="7" pageNumber="643">+</td>
+</tr>
+<tr id="356E3742222200533FA3F90DFA26F972" box="[137,1442,1760,1780]" gridrow="32" pageId="7" pageNumber="643">
+<th id="76BF5E3E222200533FA3F90DFE25F972" box="[137,417,1760,1780]" gridcol="0" gridrow="32" pageId="7" pageNumber="643">L-Rhamnose</th>
+<td id="76BF5E3E222200533ED5F90DFDB0F972" box="[511,564,1760,1780]" gridcol="1" gridrow="32" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533D48F90DFD13F972" box="[610,663,1760,1780]" gridcol="2" gridrow="32" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533DEEF90DFD7DF972" box="[708,761,1760,1780]" gridcol="3" gridrow="32" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533C0DF90DFCD8F972" box="[807,860,1760,1780]" gridcol="4" gridrow="32" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533CA0F90DFC3BF972" box="[906,959,1760,1780]" gridcol="5" gridrow="32" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533CC3F90DFB9EF972" box="[1001,1050,1760,1780]" gridcol="6" gridrow="32" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533B68F90DFBF7F972" box="[1090,1139,1760,1780]" gridcol="7" gridrow="32" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533B8BF90DFB56F972" box="[1185,1234,1760,1780]" gridcol="8" gridrow="32" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533BDFF90DFACBF972" box="[1269,1359,1760,1780]" gridcol="9" gridrow="32" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533A5BF90DFA26F972" box="[1393,1442,1760,1780]" gridcol="10" gridrow="32" pageId="7" pageNumber="643">+</td>
+</tr>
+<tr id="356E3742222200533FA3F8E0FA26F8A6" box="[137,1442,1805,1824]" gridrow="33" pageId="7" pageNumber="643">
+<th id="76BF5E3E222200533FA3F8E0FE25F8A6" box="[137,417,1805,1824]" gridcol="0" gridrow="33" pageId="7" pageNumber="643">Lactose</th>
+<td id="76BF5E3E222200533ED5F8E0FDB0F8A6" box="[511,564,1805,1824]" gridcol="1" gridrow="33" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533D48F8E0FD13F8A6" box="[610,663,1805,1824]" gridcol="2" gridrow="33" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533DEEF8E0FD7DF8A6" box="[708,761,1805,1824]" gridcol="3" gridrow="33" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533C0DF8E0FCD8F8A6" box="[807,860,1805,1824]" gridcol="4" gridrow="33" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533CA0F8E0FC3BF8A6" box="[906,959,1805,1824]" gridcol="5" gridrow="33" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533CC3F8E0FB9EF8A6" box="[1001,1050,1805,1824]" gridcol="6" gridrow="33" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533B68F8E0FBF7F8A6" box="[1090,1139,1805,1824]" gridcol="7" gridrow="33" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533B8BF8E0FB56F8A6" box="[1185,1234,1805,1824]" gridcol="8" gridrow="33" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533BDFF8E0FACBF8A6" box="[1269,1359,1805,1824]" gridcol="9" gridrow="33" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533A5BF8E0FA26F8A6" box="[1393,1442,1805,1824]" gridcol="10" gridrow="33" pageId="7" pageNumber="643">−</td>
+</tr>
+<tr id="356E3742222200533FA3F8D5FA26F8CA" box="[137,1442,1848,1868]" gridrow="34" pageId="7" pageNumber="643">
+<th id="76BF5E3E222200533FA3F8D5FE25F8CA" box="[137,417,1848,1868]" gridcol="0" gridrow="34" pageId="7" pageNumber="643">Maltose</th>
+<td id="76BF5E3E222200533ED5F8D5FDB0F8CA" box="[511,564,1848,1868]" gridcol="1" gridrow="34" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533D48F8D5FD13F8CA" box="[610,663,1848,1868]" gridcol="2" gridrow="34" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533DEEF8D5FD7DF8CA" box="[708,761,1848,1868]" gridcol="3" gridrow="34" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533C0DF8D5FCD8F8CA" box="[807,860,1848,1868]" gridcol="4" gridrow="34" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533CA0F8D5FC3BF8CA" box="[906,959,1848,1868]" gridcol="5" gridrow="34" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533CC3F8D5FB9EF8CA" box="[1001,1050,1848,1868]" gridcol="6" gridrow="34" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533B68F8D5FBF7F8CA" box="[1090,1139,1848,1868]" gridcol="7" gridrow="34" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533B8BF8D5FB56F8CA" box="[1185,1234,1848,1868]" gridcol="8" gridrow="34" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533BDFF8D5FACBF8CA" box="[1269,1359,1848,1868]" gridcol="9" gridrow="34" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533A5BF8D5FA26F8CA" box="[1393,1442,1848,1868]" gridcol="10" gridrow="34" pageId="7" pageNumber="643">+</td>
+</tr>
+<tr id="356E3742222200533FA3F889FA26F8FE" box="[137,1442,1892,1912]" gridrow="35" pageId="7" pageNumber="643">
+<th id="76BF5E3E222200533FA3F889FE25F8FE" box="[137,417,1892,1912]" gridcol="0" gridrow="35" pageId="7" pageNumber="643">Mannitol</th>
+<td id="76BF5E3E222200533ED5F889FDB0F8FE" box="[511,564,1892,1912]" gridcol="1" gridrow="35" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533D48F889FD13F8FE" box="[610,663,1892,1912]" gridcol="2" gridrow="35" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533DEEF889FD7DF8FE" box="[708,761,1892,1912]" gridcol="3" gridrow="35" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533C0DF889FCD8F8FE" box="[807,860,1892,1912]" gridcol="4" gridrow="35" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533CA0F889FC3BF8FE" box="[906,959,1892,1912]" gridcol="5" gridrow="35" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533CC3F889FB9EF8FE" box="[1001,1050,1892,1912]" gridcol="6" gridrow="35" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533B68F889FBF7F8FE" box="[1090,1139,1892,1912]" gridcol="7" gridrow="35" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533B8BF889FB56F8FE" box="[1185,1234,1892,1912]" gridcol="8" gridrow="35" pageId="7" pageNumber="643">−</td>
+<td id="76BF5E3E222200533BDFF889FACBF8FE" box="[1269,1359,1892,1912]" gridcol="9" gridrow="35" pageId="7" pageNumber="643">+</td>
+<td id="76BF5E3E222200533A5BF889FA26F8FE" box="[1393,1442,1892,1912]" gridcol="10" gridrow="35" pageId="7" pageNumber="643">−</td>
+</tr>
+</table>
+</paragraph>
+<caption id="DF216588222DFFA43F53FF2AFEB5FF5C" box="[121,305,199,218]" pageId="8" pageNumber="644" targetBox="[158,1427,247,442]" targetIsTable="true" targetPageId="8">
+<paragraph id="8BE13500222DFFA43F53FF2AFEB5FF5C" box="[121,305,199,218]" pageId="8" pageNumber="644">
+<emphasis id="B92AE912222DFFA43F53FF2AFF45FF5C" bold="true" box="[121,193,199,218]" pageId="8" pageNumber="644">Table 3.</emphasis>
+Continued
+</paragraph>
+</caption>
+<paragraph id="8BE13500222DFFA43D3FFF1AFA0BFE3C" pageId="8" pageNumber="644">
+<table id="F95EC7A0222D00533FB4FF1AFA17FE3C" box="[158,1427,247,442]" colsContinueFrom="7.[137,1442,356,1912]" gridcols="11" gridrows="5" pageId="8" pageNumber="644">
+<tr id="356E3742222D00533FB4FF1AFA17FE8C" box="[158,1427,247,266]" gridrow="0" pageId="8" pageNumber="644" rowspan-0="1">
+<th id="76BF5E3E222D00533D3EFF1AFDA4FE8C" box="[532,544,247,266]" gridcol="1" gridrow="0" pageId="8" pageNumber="644">
+<emphasis id="B92AE912222DFFA43D3FFF1AFD9BFE8C" bold="true" box="[533,543,247,266]" pageId="8" pageNumber="644">1</emphasis>
+</th>
+<th id="76BF5E3E222D00533D5CFF1AFD06FE8C" box="[630,642,247,266]" gridcol="2" gridrow="0" pageId="8" pageNumber="644">
+<emphasis id="B92AE912222DFFA43D5DFF1AFD05FE8C" bold="true" box="[631,641,247,266]" pageId="8" pageNumber="644">2</emphasis>
+</th>
+<th id="76BF5E3E222D00533DF3FF1AFD61FE8C" box="[729,741,247,266]" gridcol="3" gridrow="0" pageId="8" pageNumber="644">
+<emphasis id="B92AE912222DFFA43DF0FF1AFD60FE8C" bold="true" box="[730,740,247,266]" pageId="8" pageNumber="644">3</emphasis>
+</th>
+<th id="76BF5E3E222D00533C16FF1AFCCCFE8C" box="[828,840,247,266]" gridcol="4" gridrow="0" pageId="8" pageNumber="644">
+<emphasis id="B92AE912222DFFA43C17FF1AFCC3FE8C" bold="true" box="[829,839,247,266]" pageId="8" pageNumber="644">4</emphasis>
+</th>
+<th id="76BF5E3E222D00533CB4FF1AFC2EFE8C" box="[926,938,247,266]" gridcol="5" gridrow="0" pageId="8" pageNumber="644">
+<emphasis id="B92AE912222DFFA43CB5FF1AFC2DFE8C" bold="true" box="[927,937,247,266]" pageId="8" pageNumber="644">5</emphasis>
+</th>
+<th id="76BF5E3E222D00533CD6FF1AFB8CFE8C" box="[1020,1032,247,266]" gridcol="6" gridrow="0" pageId="8" pageNumber="644">
+<emphasis id="B92AE912222DFFA43CD7FF1AFB83FE8C" bold="true" box="[1021,1031,247,266]" pageId="8" pageNumber="644">6</emphasis>
+</th>
+<th id="76BF5E3E222D00533B7FFF1AFBE5FE8C" box="[1109,1121,247,266]" gridcol="7" gridrow="0" pageId="8" pageNumber="644">
+<emphasis id="B92AE912222DFFA43B7CFF1AFBE4FE8C" bold="true" box="[1110,1120,247,266]" pageId="8" pageNumber="644">7</emphasis>
+</th>
+<th id="76BF5E3E222D00533B9EFF1AFB44FE8C" box="[1204,1216,247,266]" gridcol="8" gridrow="0" pageId="8" pageNumber="644">
+<emphasis id="B92AE912222DFFA43B9FFF1AFB3BFE8C" bold="true" box="[1205,1215,247,266]" pageId="8" pageNumber="644">8</emphasis>
+</th>
+<th id="76BF5E3E222D00533A36FF1AFAACFE8C" box="[1308,1320,247,266]" gridcol="9" gridrow="0" pageId="8" pageNumber="644">
+<emphasis id="B92AE912222DFFA43A37FF1AFAA3FE8C" bold="true" box="[1309,1319,247,266]" pageId="8" pageNumber="644">9</emphasis>
+</th>
+<th id="76BF5E3E222D00533A55FF1AFA17FE8C" box="[1407,1427,247,266]" gridcol="10" gridrow="0" pageId="8" pageNumber="644">
+<emphasis id="B92AE912222DFFA43A55FF1AFA17FE8C" bold="true" box="[1407,1427,247,266]" pageId="8" pageNumber="644">10</emphasis>
+</th>
+</tr>
+<tr id="356E3742222D00533FB4FECEFA17FEB1" box="[158,1427,291,311]" gridrow="1" pageId="8" pageNumber="644">
+<th id="76BF5E3E222D00533FB4FECEFE83FEB1" box="[158,263,291,311]" gridcol="0" gridrow="1" pageId="8" pageNumber="644">
+<emphasis id="B92AE912222DFFA43FB4FEC9FF3BFEB0" box="[158,191,292,310]" italics="true" pageId="8" pageNumber="644">myo</emphasis>
+-inositol
+</th>
+<td id="76BF5E3E222D00533D3EFECEFDA4FEB1" box="[532,544,291,311]" gridcol="1" gridrow="1" pageId="8" pageNumber="644">−</td>
+<td id="76BF5E3E222D00533D5CFECEFD06FEB1" box="[630,642,291,311]" gridcol="2" gridrow="1" pageId="8" pageNumber="644">−</td>
+<td id="76BF5E3E222D00533DF3FECEFD61FEB1" box="[729,741,291,311]" gridcol="3" gridrow="1" pageId="8" pageNumber="644">−</td>
+<td id="76BF5E3E222D00533C16FECEFCCCFEB1" box="[828,840,291,311]" gridcol="4" gridrow="1" pageId="8" pageNumber="644">−</td>
+<td id="76BF5E3E222D00533CB4FECEFC2EFEB1" box="[926,938,291,311]" gridcol="5" gridrow="1" pageId="8" pageNumber="644">−</td>
+<td id="76BF5E3E222D00533CD6FECEFB8CFEB1" box="[1020,1032,291,311]" gridcol="6" gridrow="1" pageId="8" pageNumber="644">+</td>
+<td id="76BF5E3E222D00533B7FFECEFBE5FEB1" box="[1109,1121,291,311]" gridcol="7" gridrow="1" pageId="8" pageNumber="644">+</td>
+<td id="76BF5E3E222D00533B9EFECEFB44FEB1" box="[1204,1216,291,311]" gridcol="8" gridrow="1" pageId="8" pageNumber="644">−</td>
+<td id="76BF5E3E222D00533A36FECEFAACFEB1" box="[1308,1320,291,311]" gridcol="9" gridrow="1" pageId="8" pageNumber="644">−</td>
+<td id="76BF5E3E222D00533A55FECEFA17FEB1" box="[1407,1427,291,311]" gridcol="10" gridrow="1" pageId="8" pageNumber="644">+</td>
+</tr>
+<tr id="356E3742222D00533FB4FEA2FA17FEE5" box="[158,1427,335,355]" gridrow="2" pageId="8" pageNumber="644">
+<th id="76BF5E3E222D00533FB4FEA2FE83FEE5" box="[158,263,335,355]" gridcol="0" gridrow="2" pageId="8" pageNumber="644">Succinic acid</th>
+<td id="76BF5E3E222D00533D3EFEA2FDA4FEE5" box="[532,544,335,355]" gridcol="1" gridrow="2" pageId="8" pageNumber="644">−</td>
+<td id="76BF5E3E222D00533D5CFEA2FD06FEE5" box="[630,642,335,355]" gridcol="2" gridrow="2" pageId="8" pageNumber="644">−</td>
+<td id="76BF5E3E222D00533DF3FEA2FD61FEE5" box="[729,741,335,355]" gridcol="3" gridrow="2" pageId="8" pageNumber="644">−</td>
+<td id="76BF5E3E222D00533C16FEA2FCCCFEE5" box="[828,840,335,355]" gridcol="4" gridrow="2" pageId="8" pageNumber="644">+</td>
+<td id="76BF5E3E222D00533CB4FEA2FC2EFEE5" box="[926,938,335,355]" gridcol="5" gridrow="2" pageId="8" pageNumber="644">−</td>
+<td id="76BF5E3E222D00533CD6FEA2FB8CFEE5" box="[1020,1032,335,355]" gridcol="6" gridrow="2" pageId="8" pageNumber="644">+</td>
+<td id="76BF5E3E222D00533B7FFEA2FBE5FEE5" box="[1109,1121,335,355]" gridcol="7" gridrow="2" pageId="8" pageNumber="644">−</td>
+<td id="76BF5E3E222D00533B9EFEA2FB44FEE5" box="[1204,1216,335,355]" gridcol="8" gridrow="2" pageId="8" pageNumber="644">−</td>
+<td id="76BF5E3E222D00533A36FEA2FAACFEE5" box="[1308,1320,335,355]" gridcol="9" gridrow="2" pageId="8" pageNumber="644">+</td>
+<td id="76BF5E3E222D00533A55FEA2FA17FEE5" box="[1407,1427,335,355]" gridcol="10" gridrow="2" pageId="8" pageNumber="644">+</td>
+</tr>
+<tr id="356E3742222D00533FB4FE96FA17FE08" box="[158,1427,379,398]" gridrow="3" pageId="8" pageNumber="644">
+<th id="76BF5E3E222D00533FB4FE96FE83FE08" box="[158,263,379,398]" gridcol="0" gridrow="3" pageId="8" pageNumber="644">Sucrose</th>
+<td id="76BF5E3E222D00533D3EFE96FDA4FE08" box="[532,544,379,398]" gridcol="1" gridrow="3" pageId="8" pageNumber="644">−</td>
+<td id="76BF5E3E222D00533D5CFE96FD06FE08" box="[630,642,379,398]" gridcol="2" gridrow="3" pageId="8" pageNumber="644">−</td>
+<td id="76BF5E3E222D00533DF3FE96FD61FE08" box="[729,741,379,398]" gridcol="3" gridrow="3" pageId="8" pageNumber="644">−</td>
+<td id="76BF5E3E222D00533C16FE96FCCCFE08" box="[828,840,379,398]" gridcol="4" gridrow="3" pageId="8" pageNumber="644">−</td>
+<td id="76BF5E3E222D00533CB4FE96FC2EFE08" box="[926,938,379,398]" gridcol="5" gridrow="3" pageId="8" pageNumber="644">+</td>
+<td id="76BF5E3E222D00533CD6FE96FB8CFE08" box="[1020,1032,379,398]" gridcol="6" gridrow="3" pageId="8" pageNumber="644">+</td>
+<td id="76BF5E3E222D00533B7FFE96FBE5FE08" box="[1109,1121,379,398]" gridcol="7" gridrow="3" pageId="8" pageNumber="644">+</td>
+<td id="76BF5E3E222D00533B9EFE96FB44FE08" box="[1204,1216,379,398]" gridcol="8" gridrow="3" pageId="8" pageNumber="644">−</td>
+<td id="76BF5E3E222D00533A36FE96FAACFE08" box="[1308,1320,379,398]" gridcol="9" gridrow="3" pageId="8" pageNumber="644">−</td>
+<td id="76BF5E3E222D00533A55FE96FA17FE08" box="[1407,1427,379,398]" gridcol="10" gridrow="3" pageId="8" pageNumber="644">+</td>
+</tr>
+<tr id="356E3742222D00533FB4FE4AFA17FE3C" box="[158,1427,423,442]" gridrow="4" pageId="8" pageNumber="644">
+<th id="76BF5E3E222D00533FB4FE4AFE83FE3C" box="[158,263,423,442]" gridcol="0" gridrow="4" pageId="8" pageNumber="644">Xylose</th>
+<td id="76BF5E3E222D00533D3EFE4AFDA4FE3C" box="[532,544,423,442]" gridcol="1" gridrow="4" pageId="8" pageNumber="644">−</td>
+<td id="76BF5E3E222D00533D5CFE4AFD06FE3C" box="[630,642,423,442]" gridcol="2" gridrow="4" pageId="8" pageNumber="644">+</td>
+<td id="76BF5E3E222D00533DF3FE4AFD61FE3C" box="[729,741,423,442]" gridcol="3" gridrow="4" pageId="8" pageNumber="644">−</td>
+<td id="76BF5E3E222D00533C16FE4AFCCCFE3C" box="[828,840,423,442]" gridcol="4" gridrow="4" pageId="8" pageNumber="644">−</td>
+<td id="76BF5E3E222D00533CB4FE4AFC2EFE3C" box="[926,938,423,442]" gridcol="5" gridrow="4" pageId="8" pageNumber="644">+</td>
+<td id="76BF5E3E222D00533CD6FE4AFB8CFE3C" box="[1020,1032,423,442]" gridcol="6" gridrow="4" pageId="8" pageNumber="644">−</td>
+<td id="76BF5E3E222D00533B7FFE4AFBE5FE3C" box="[1109,1121,423,442]" gridcol="7" gridrow="4" pageId="8" pageNumber="644">+</td>
+<td id="76BF5E3E222D00533B9EFE4AFB44FE3C" box="[1204,1216,423,442]" gridcol="8" gridrow="4" pageId="8" pageNumber="644">−</td>
+<td id="76BF5E3E222D00533A36FE4AFAACFE3C" box="[1308,1320,423,442]" gridcol="9" gridrow="4" pageId="8" pageNumber="644">−</td>
+<td id="76BF5E3E222D00533A55FE4AFA17FE3C" box="[1407,1427,423,442]" gridcol="10" gridrow="4" pageId="8" pageNumber="644">+</td>
+</tr>
+</table>
+</paragraph>
+<tableNote id="76B8348E222DFFA43FA0FE38FE1CFD9B" pageId="8" pageNumber="644" targetBox="[158,1427,247,442]" targetPageId="8">
+<paragraph id="8BE13500222DFFA43FA0FE38FD89FE6E" blockId="8.[138,525,469,541]" box="[138,525,469,488]" pageId="8" pageNumber="644">
+*Data taken from Le Roes and Meyers [
+<bibRefCitation id="EFCF48F1222DFFA43EC3FE38FD80FE6E" author="Nonomuraea" box="[489,516,469,488]" pageId="8" pageNumber="644" pagination="133 - 139" refId="ref10311" refString="77. Roes Mle, Meyers PR. Nonomuraea candida sp. nov., a new species from South African soil. Antonie van Leeuwenhoek 2008; 93: 133 - 139." type="journal article" year="2008">77</bibRefCitation>
+].
+</paragraph>
+<paragraph id="8BE13500222DFFA43FA0FE02FE21FD84" blockId="8.[138,525,469,541]" box="[138,421,495,514]" pageId="8" pageNumber="644">
+†Data taken from Qin 
+<emphasis id="B92AE912222DFFA43E67FE02FEF7FD84" box="[333,371,495,514]" italics="true" pageId="8" pageNumber="644">et al</emphasis>
+. [
+<bibRefCitation id="EFCF48F1222DFFA43EABFE02FE1FFD84" author="Int J" box="[385,411,495,514]" pageId="8" pageNumber="644" pagination="2747 - 2751" refId="ref8017" refString="18. Qin S, Zhao GZ, Klenk HP, Li J, Zhu WY et al. Nonomuraea antimicrobica sp. nov., an endophytic actinomycete isolated from a leaf of Maytenus austroyunnanensis. Int J Syst Evol Microbiol 2009; 59: 2747 - 2751." type="journal article" year="2009">18</bibRefCitation>
+].
+</paragraph>
+<paragraph id="8BE13500222DFFA43FA0FDE7FE1CFD9B" blockId="8.[138,525,469,541]" box="[138,408,522,541]" pageId="8" pageNumber="644">
+‡Data taken from Li 
+<emphasis id="B92AE912222DFFA43E6AFDE7FEE2FD9B" box="[320,358,522,541]" italics="true" pageId="8" pageNumber="644">et al</emphasis>
+. [
+<bibRefCitation id="EFCF48F1222DFFA43E5EFDE7FE0BFD9B" author="Li X &amp; Zhang L &amp; Ding Y &amp; Gao Y &amp; Ruan J" box="[372,399,522,541]" pageId="8" pageNumber="644" pagination="1409 - 1413" refId="ref8526" refString="29. Li X, Zhang L, Ding Y, Gao Y, Ruan J et al. Nonomuraea jiangxiensis sp. nov., isolated from acidic soil. Int J Syst Evol Microbiol 2012; 62: 1409 - 1413." type="journal article" year="2012">29</bibRefCitation>
+].
+</paragraph>
+</tableNote>
+<paragraph id="8BE13500222DFFA43F53FD88FDBDFB8A" blockId="8.[121,760,613,1037]" pageId="8" pageNumber="644">
+L-serine, L-tyrosine and L-valine are utilized as sole nitrogen sources, but not L-alanine, L-histidine or α-iso-leucine. The predominant menaquinones are MK-9(H 
+<subScript id="17DA3745222DFFA43D10FD5FFDC5FD46" attach="left" box="[570,577,690,704]" fontSize="6" pageId="8" pageNumber="644">4</subScript>
+) and MK-9(H 
+<subScript id="17DA3745222DFFA43DCBFD5FFD6CFD46" attach="left" box="[737,744,690,704]" fontSize="6" pageId="8" pageNumber="644">6</subScript>
+). The polar lipid profile includes diphosphatidylglycerol, phosphatidylmonomethylethanolamine, phosphatidylethanolamine, hydroxy-phosphatidylethanolamine, dihydroxy-phosphatidylethanolamine, phosphatidylglycerol, phosphatidylinositol, three unidentified glycophospholipids, an unidentified phospholipid, an unidentified glycolipid and four unidentified lipids. Whole-cell hydrolysates contain 
+<emphasis id="B92AE912222DFFA43F53FC74FF2AFC36" box="[121,174,921,944]" italics="true" pageId="8" pageNumber="644">meso</emphasis>
+-A 
+<subScript id="17DA3745222DFFA43FE0FC4AFF55FC33" attach="right" box="[202,209,935,949]" fontSize="6" pageId="8" pageNumber="644">2</subScript>
+pm, glucose, mannose, madurose, ribose and galactose. The major fatty acids are iso-C 
+<subScript id="17DA3745222DFFA43D3AFC2BFDAEFC52" attach="left" box="[528,554,966,980]" fontSize="6" pageId="8" pageNumber="644">16:0</subScript>
+, iso 
+<emphasis id="B92AE912222DFFA43D70FC55FDE7FC49" box="[602,611,952,975]" italics="true" pageId="8" pageNumber="644">-</emphasis>
+C 
+<subScript id="17DA3745222DFFA43D5FFC2BFD0BFC52" attach="left" box="[629,655,966,980]" fontSize="6" pageId="8" pageNumber="644">16:0</subScript>
+2OH and C 
+<subScript id="17DA3745222DFFA43FA1FC08FF21FC75" attach="left" box="[139,165,997,1011]" fontSize="6" pageId="8" pageNumber="644">17:0</subScript>
+10-methyl. The DNA G+C content of strain KC310 
+<superScript id="7C2B9848222DFFA43DFFFC3EFD5BFC67" attach="left" box="[725,735,979,993]" fontSize="6" pageId="8" pageNumber="644">T</superScript>
+is 70.9 mol% and the genome size 9.69 Mbp.
+</paragraph>
+</subSubSection>
+<subSubSection id="C344668B222DFFA43F53FBCFFD32FB55" pageId="8" pageNumber="644" type="materials_examined">
+<paragraph id="8BE13500222DFFA43F53FBCFFD32FB55" blockId="8.[121,761,1056,1236]" pageId="8" pageNumber="644">
+<materialsCitation id="3B363F5D222DFFA43F53FBCFFD37FB55" ID-GBIF-Occurrence="2597464798" collectingDate="19-10-29" collectionCode="T, DSM, EMBL, DDBJ, MG, SMKO" country="Turkmenistan" location="Karakum Desert" municipality="The GenBank" pageId="8" pageNumber="644" specimenCode="KC310T" specimenCount="1" typeStatus="type">
+The 
+<typeStatus id="54E58BA2222DFFA43F90FBCFFF6DFBBC" box="[186,233,1058,1082]" pageId="8" pageNumber="644">type</typeStatus>
+strain, 
+<specimenCode id="DBF89D7B222DFFA43E74FBCFFE36FBA8" box="[350,434,1056,1082]" pageId="8" pageNumber="644">
+<specimenCode id="DBF89D7B222DFFA43E74FBCFFE2DFBBC" box="[350,425,1058,1082]" collectionCode="KC" pageId="8" pageNumber="644">
+<botanicCollectionCode id="4D667DF7222DFFA43E74FBCFFE06FBBC" box="[350,386,1058,1082]" pageId="8" pageNumber="644">KC</botanicCollectionCode>
+310
+</specimenCode>
+<superScript id="7C2B9848222DFFA43E82FBCDFE36FBA8" attach="left" box="[424,434,1056,1070]" fontSize="6" pageId="8" pageNumber="644">
+<collectionCode id="ED4FADC5222DFFA43E82FBCDFE36FBA8" box="[424,434,1056,1070]" name="Tavera, Department of Geology and Geophysics" pageId="8" pageNumber="644">
+<botanicCollectionCode id="4D667DF7222DFFA43E82FBCDFE36FBA8" box="[424,434,1056,1070]" pageId="8" pageNumber="644">T</botanicCollectionCode>
+</collectionCode>
+</superScript>
+</specimenCode>
+<botanicCollectionCodeGroup id="1F7D6008222DFFA43EE0FBCFFE0FFBDF" pageId="8" pageNumber="644">
+(= 
+<specimenCode id="DBF89D7B222DFFA43ECAFBCFFD21FBBC" box="[480,677,1058,1082]" collectionCode="CGMCC" country="China" httpUri="http://grbio.org/cool/myms-whqv" name="China General Microbiological Culture Collection Center, Chinese Academy of Sciences" pageId="8" pageNumber="644">CGMCC 4.7331</specimenCode>
+<superScript id="7C2B9848222DFFA43D8FFBCDFD2BFBA8" attach="none" box="[677,687,1056,1070]" fontSize="6" pageId="8" pageNumber="644">
+<collectionCode id="ED4FADC5222DFFA43D8FFBCDFD2BFBA8" box="[677,687,1056,1070]" name="Tavera, Department of Geology and Geophysics" pageId="8" pageNumber="644">T</collectionCode>
+</superScript>
+= 
+<collectionCode id="ED4FADC5222DFFA43D97FBCFFD73FBBC" box="[701,759,1058,1082]" country="Germany" httpUri="http://grbio.org/cool/4644-42cg" name="Deutsche Sammlung von Mikroorganismen und Zellkulturen GmbH" pageId="8" pageNumber="644">DSM</collectionCode>
+<date id="FFE013C0222DFFA43F53FBACFF43FBDF" box="[121,199,1089,1113]" pageId="8" pageNumber="644" value="19-10-29">
+<collectingDate id="EFA4EA28222DFFA43F53FBACFF43FBDF" box="[121,199,1089,1113]" pageId="8" pageNumber="644" value="19-10-29">102919</collectingDate>
+</date>
+<superScript id="7C2B9848222DFFA43FEDFBD3FF55FBCA" attach="none" box="[199,209,1086,1100]" fontSize="6" pageId="8" pageNumber="644">
+<collectionCode id="ED4FADC5222DFFA43FEDFBD3FF55FBCA" box="[199,209,1086,1100]" name="Tavera, Department of Geology and Geophysics" pageId="8" pageNumber="644">T</collectionCode>
+</superScript>
+=KCTC 39774 
+<superScript id="7C2B9848222DFFA43E5DFBD3FE05FBCA" attach="none" box="[375,385,1086,1100]" fontSize="6" pageId="8" pageNumber="644">T</superScript>
+)
+</botanicCollectionCodeGroup>
+, was isolated from desert soil sample collected from the 
+<location id="8E8163DB222DFFA43EB0FBB2FDCBFBF1" LSID="urn:lsid:plazi:treatment:03F784162220FFA43C16F99EFD32FB55:8E8163DB222DFFA43EB0FBB2FDCBFBF1" box="[410,591,1119,1143]" country="Turkmenistan" municipality="The GenBank" name="Karakum Desert" pageId="8" pageNumber="644">Karakum Desert</location>
+, 
+<collectingCountry id="F3497590222DFFA43D71FBB2FD70FBF1" box="[603,756,1119,1143]" name="Turkmenistan" pageId="8" pageNumber="644">Turkmenistan</collectingCountry>
+. The GenBank/EMBL/DDBJ accession number for the 16S rRNA gene sequence of strain KC310 
+<superScript id="7C2B9848222DFFA43ED0FB77FD87FB2E" attach="left" box="[506,515,1178,1192]" fontSize="6" pageId="8" pageNumber="644">T</superScript>
+is 
+<accessionNumber id="940DA8E3222DFFA43D34FB70FD10FB33" box="[542,660,1181,1205]" httpUri="http://www.ncbi.nlm.nih.gov/nucleotide/MG770639" pageId="8" pageNumber="644">MG770639</accessionNumber>
+and draħ genome sequence accession number SMKO00000000
+</materialsCitation>
+.
+</paragraph>
+</subSubSection>
+</treatment>
+</document>
