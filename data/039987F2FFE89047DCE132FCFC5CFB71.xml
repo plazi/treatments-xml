@@ -1,0 +1,854 @@
+<document id="BE8E887781F365708BC56F4D11CA7826" ID-DOI="http://doi.org/10.5281/zenodo.4681621" ID-GBIF-Dataset="b58a6a37-ab8b-4edb-9391-e14ab1c36da5" ID-GBIF-Taxon="180999528" ID-ISSN="1175-5326" ID-Zenodo-Dep="4681621" ID-ZooBank="A603FBF3-FB8D-4BB0-A738-1BD18B0FADAD" LSID="urn:lsid:zoobank.org:act:2ECAEE4D-2089-48F7-83E0-86AA7F9591A5" _generate="added" approvalRequired="5" approvalRequired_for_bibRefs="1" approvalRequired_for_treatments="4" checkinTime="1615995459515" checkinUser="plazi" docAuthor="Kanzaki, Natsumi, Herrmann, Matthias, Weiler, Christian, Röseler, Waltraud, Theska, Tobias, Berger, Jürgen, Rödelsperger, Christian &amp; Sommer, Ralf J." docDate="2021" docId="039987F2FFE89047DCE132FCFC5CFB71" docLanguage="en" docName="zootaxa.4943.1.1.pdf" docOrigin="Zootaxa 4943 (1)" docStyle="DocumentStyle:5EBBA59367AD13919D70D935FA04F6A3.8:Zootaxa.2013-.monograph" docStyleId="5EBBA59367AD13919D70D935FA04F6A3" docStyleName="Zootaxa.2013-.monograph" docStyleVersion="8" docTitle="Pristionchus chinensis Kanzaki &amp; Herrmann &amp; Weiler &amp; Röseler &amp; Theska &amp; Berger &amp; Rödelsperger &amp; Sommer 2021, n. sp." docType="treatment" docUuid="2ECAEE4D-2089-48F7-83E0-86AA7F9591A5" docUuidSource="ZooBank" docVersion="6" lastPageId="28" lastPageNumber="29" masterDocId="FFA0FF8AFFFB905BDC76372EFFBEFFD0" masterDocTitle="Nine new Pristionchus (Nematoda: Diplogastridae) species from China" masterLastPageNumber="66" masterPageNumber="1" pageId="19" pageNumber="20" updateTime="1632012802103" updateUser="ExternalLinkService">
+<mods:mods id="6D9D22F2768910671AA79F1E5CA70D5F" xmlns:mods="http://www.loc.gov/mods/v3">
+<mods:titleInfo id="E1AA171FFF7C8A4B9EDC851DB647936D">
+<mods:title id="62343044D36D20134A10BB4BC2CA2002">Nine new Pristionchus (Nematoda: Diplogastridae) species from China</mods:title>
+</mods:titleInfo>
+<mods:name id="554036A4E51BB05EBBC3D11AB810DC98" type="personal">
+<mods:role id="656725A41521480E5A151DA1F17E3C73">
+<mods:roleTerm id="31D90066B7EF6C3B916643511DB761C7">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="EC86EB3A4FB50CF3425BBDCD769D1E40">Kanzaki, Natsumi</mods:namePart>
+<mods:nameIdentifier id="28C0C681AAF220624C1EDCAA3CC76310" type="ORCID">0000-0001-8752-1674</mods:nameIdentifier>
+</mods:name>
+<mods:name id="B1829EF750D3CC32B183CE7A8BA6881D" type="personal">
+<mods:role id="D65323A91D45865776F4D8905CAAA039">
+<mods:roleTerm id="22731C1A21FBC1D7B6DF00717159007E">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="C47B24DF434E410A2332108FFB6304A3">Herrmann, Matthias</mods:namePart>
+<mods:nameIdentifier id="EC0060BCB01485D73A4C992BAC4DC99E" type="ORCID">0000-0002-4801-2524</mods:nameIdentifier>
+<mods:nameIdentifier id="70A2DC1E202189416ED90A6465DAB64F" type="email">matthias.herrmann@tuebingen.mpg.de</mods:nameIdentifier>
+</mods:name>
+<mods:name id="7005857DE218DE21ADBD2B9BA9C067EC" type="personal">
+<mods:role id="A3649DB1FA875736C2645E90583D87E8">
+<mods:roleTerm id="09DBE9B524E918F2170A34A78FE0C929">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="C15BBC273197C0FB8299CF499341099D">Weiler, Christian</mods:namePart>
+</mods:name>
+<mods:name id="B6D7D78533B214D00F16C7D44DDC41C8" type="personal">
+<mods:role id="8A87949A195D16A09F8415AAB420D8D0">
+<mods:roleTerm id="9029A207A1E9E992DC68B195071B6C7D">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="734DA01346C8DFDE52D6EDBB88B0EB67">Röseler, Waltraud</mods:namePart>
+</mods:name>
+<mods:name id="03F371C4728988C8880153B81941DA10" type="personal">
+<mods:role id="3406EBE7711920A4B9AEFA599B0DE218">
+<mods:roleTerm id="6A16C194BD65DB2635511BA3F87B1421">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="6A29CB83CE6A49BE95B3362D111EE208">Theska, Tobias</mods:namePart>
+<mods:nameIdentifier id="33F4CF2A2EBE6FB6B152548D545D7505" type="ORCID">0000-0002-0920-4427</mods:nameIdentifier>
+</mods:name>
+<mods:name id="7B5D289E97409CA6D52AE255CB840363" type="personal">
+<mods:role id="20428239E4F1EAB0E24961A0017374E5">
+<mods:roleTerm id="0E7BC22911A31E53A625283115A7CA2B">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="663EFD89F5B06CF9275910181DD00EF5">Berger, Jürgen</mods:namePart>
+<mods:nameIdentifier id="85274FF94FD36F5630D1B2F8696FF917" type="email">matthias.herrmann@tuebingen.mpg.de</mods:nameIdentifier>
+</mods:name>
+<mods:name id="CFB16C619EFC2B4C6ED7E90B0FE2A7CD" type="personal">
+<mods:role id="CC587B4F86A458AD78A96859B1A6CA7A">
+<mods:roleTerm id="13656017ED03E5C2D92B25745AF68BEA">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="0837211BA552EBF80122E0DABCC25893">Rödelsperger, Christian</mods:namePart>
+<mods:nameIdentifier id="5E473F715C13B9CA281E1E039DAF781B" type="ORCID">0000-0002-7905-9675</mods:nameIdentifier>
+</mods:name>
+<mods:name id="BA6D30AF9123D868D618255293C8C408" type="personal">
+<mods:role id="0B32BCD3BA6F3AC0C7D4A8C60426A577">
+<mods:roleTerm id="4F3BD8DD325F67F982000E34F83F46B3">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="8C18E420568CB3DE4C0E86D101BC6739">Sommer, Ralf J.</mods:namePart>
+<mods:nameIdentifier id="5D6F67F232309968001863DD205F8FC0" type="ORCID">0000-0003-1503-7749</mods:nameIdentifier>
+<mods:nameIdentifier id="259264E53ACF57A51779DFFF3857D06E" type="email">ralf.sommer@tuebingen.mpg.de</mods:nameIdentifier>
+</mods:name>
+<mods:typeOfResource id="FE04B0E717FD4596ADF7869FCB97BA7A">text</mods:typeOfResource>
+<mods:relatedItem id="67742AB301F0A659C1740E19F5E54627" type="host">
+<mods:titleInfo id="B20887B7267774F80CECFBE44787F11E">
+<mods:title id="EFC9E7DA890DC4876B2A48B25F5AB76B">Zootaxa</mods:title>
+</mods:titleInfo>
+<mods:part id="3D0EAA4524374150FEA94752D84D6EE3">
+<mods:date id="090543C487C83BC291649C125954035A">2021</mods:date>
+<mods:detail id="45F1F68EF453F86665A01278A42762D6" type="pubDate">
+<mods:number id="BBD26235D397EF3F675A84D6213F1BB8">2021-03-17</mods:number>
+</mods:detail>
+<mods:detail id="42E2F200A6FC74358C3426EF360FB579" type="volume">
+<mods:number id="7A7E042AD631A624882180D662BD3E3B">4943</mods:number>
+</mods:detail>
+<mods:detail id="7DEAC5F46860FAB3416D4AD4BE201E7B" type="issue">
+<mods:number id="FAB556E1801B56856DB01680D0467D1C">1</mods:number>
+</mods:detail>
+<mods:extent id="1AA9E1CD7695BEB3F4577FD376DF5277" unit="page">
+<mods:start id="65D043D4B9EEA95BF4EE85ACB5532710">1</mods:start>
+<mods:end id="191C4858019872506793246B657A4BE9">66</mods:end>
+</mods:extent>
+</mods:part>
+</mods:relatedItem>
+<mods:classification id="F1D1F3801FE6EF9E90B336C240842D0B">journal article</mods:classification>
+<mods:identifier id="320CDA79A268C50F057F13BBD700A462" type="DOI">https://doi.org/10.11646/zootaxa.4943.1.1</mods:identifier>
+<mods:identifier id="F004C7E28B08BACAC98AD756301702EC" type="GBIF-Dataset">b58a6a37-ab8b-4edb-9391-e14ab1c36da5</mods:identifier>
+<mods:identifier id="B4551102CAAEFFDED143A1D40EBEDD55" type="ISSN">1175-5326</mods:identifier>
+<mods:identifier id="864C3FDAB21429EC53A02D4A0AF1E912" type="Zenodo-Dep">4613161</mods:identifier>
+<mods:identifier id="F31E9AE25605705DDAC3823F3F0DC6C1" type="ZooBank">A603FBF3-FB8D-4BB0-A738-1BD18B0FADAD</mods:identifier>
+</mods:mods>
+<treatment id="039987F2FFE89047DCE132FCFC5CFB71" ID-DOI="http://doi.org/10.5281/zenodo.4681621" ID-GBIF-Taxon="180999528" ID-Zenodo-Dep="4681621" LSID="urn:lsid:zoobank.org:act:2ECAEE4D-2089-48F7-83E0-86AA7F9591A5" httpUri="http://treatment.plazi.org/id/039987F2FFE89047DCE132FCFC5CFB71" lastPageId="28" lastPageNumber="29" pageId="19" pageNumber="20">
+<subSubSection id="C32A656FFFE89048DCE132FCFC76F9C2" pageId="19" pageNumber="20" type="nomenclature">
+<paragraph id="8B8F36E4FFE89048DCE132FCFE4AFA3D" blockId="19.[151,968,1490,1554]" box="[151,500,1490,1517]" pageId="19" pageNumber="20">
+<heading id="D0C78188FFE89048DCE132FCFE4AFA3D" bold="true" box="[151,500,1490,1517]" fontSize="11" level="2" pageId="19" pageNumber="20" reason="4">
+<emphasis id="B944EAF6FFE89048DCE132FCFE4AFA3D" bold="true" box="[151,500,1490,1517]" pageId="19" pageNumber="20">
+<taxonomicName id="4C304D67FFE89048DCE132FCFE14FA3D" authority="Kanzaki &amp; Herrmann &amp; Weiler &amp; Röseler &amp; Theska &amp; Berger &amp; Rödelsperger &amp; Sommer, 2021" authorityName="Kanzaki &amp; Herrmann &amp; Weiler &amp; Röseler &amp; Theska &amp; Berger &amp; Rödelsperger &amp; Sommer" authorityYear="2021" box="[151,426,1490,1517]" class="Chromadorea" family="Diplogastridae" genus="Pristionchus" higherTaxonomySource="GBIF" kingdom="Animalia" order="Rhabditida" pageId="19" pageNumber="20" phylum="Nematoda" rank="species" species="chinensis" status="n. sp.">
+<emphasis id="B944EAF6FFE89048DCE132FCFE14FA3D" bold="true" box="[151,426,1490,1517]" italics="true" pageId="19" pageNumber="20">Pristionchus chinensis</emphasis>
+</taxonomicName>
+<taxonomicNameLabel id="A277578DFFE89048DDC732FDFE4AFA3D" box="[433,500,1491,1517]" pageId="19" pageNumber="20" rank="species">n. sp.</taxonomicNameLabel>
+</emphasis>
+</heading>
+</paragraph>
+<paragraph id="8B8F36E4FFE89048DCE132D9FC76F9C2" blockId="19.[151,968,1490,1554]" box="[151,968,1527,1554]" pageId="19" pageNumber="20">
+<uri id="FFA13AE6FFE89048DCE132D9FC76F9C2" box="[151,968,1527,1554]" pageId="19" pageNumber="20">
+urn:lsid:zoobank.org:act: 
+<uuid id="FF960C31FFE89048DDDF32D9FC76F9C2" box="[425,968,1527,1554]" pageId="19" pageNumber="20">2ECAEE4D-2089-48F7-83E0-86AA7F9591A5</uuid>
+</uri>
+</paragraph>
+</subSubSection>
+<subSubSection id="C32A656FFFE89048DCE13111FC5AF989" box="[151,996,1599,1626]" pageId="19" pageNumber="20" type="etymology">
+<paragraph id="8B8F36E4FFE89048DCE13111FC5AF989" blockId="19.[151,1437,1599,2022]" box="[151,996,1599,1626]" pageId="19" pageNumber="20">
+<emphasis id="B944EAF6FFE89048DCE13111FEA0F989" bold="true" box="[151,286,1599,1625]" pageId="19" pageNumber="20">Etymology.</emphasis>
+The species name is derived from 
+<collectingCountry id="F3277674FFE89048DED23111FD54F989" box="[676,746,1599,1625]" name="China" pageId="19" pageNumber="20">China</collectingCountry>
+, the country of origin.
+</paragraph>
+</subSubSection>
+<subSubSection id="C32A656FFFE89043DCB1314DFA97FD79" lastPageId="24" lastPageNumber="25" pageId="19" pageNumber="20" type="description">
+<paragraph id="8B8F36E4FFE89048DCB1314DFDB8F9AD" blockId="19.[151,1437,1599,2022]" box="[199,518,1635,1661]" pageId="19" pageNumber="20">
+<emphasis id="B944EAF6FFE89048DCB1314DFEC0F9AD" bold="true" box="[199,382,1635,1661]" pageId="19" pageNumber="20">Measurements.</emphasis>
+See 
+<tableCitation id="C6B2035FFFE89048DDC5314DFDB8F9AD" box="[435,518,1635,1661]" captionStart="TABLE 2" captionStartId="23.[151,239,586,612]" captionTargetPageId="23" captionText="TABLE 2." pageId="19" pageNumber="20">Table 2</tableCitation>
+</paragraph>
+<paragraph id="8B8F36E4FFE8904EDCB131A9FE82FEB5" blockId="19.[151,1437,1599,2022]" lastBlockId="21.[151,1437,150,357]" lastPageId="21" lastPageNumber="22" pageId="19" pageNumber="20">
+Adult. Androdioecious species. Body cylindrical, stout, 
+<emphasis id="B944EAF6FFE89048DF4831A6FCDFF971" box="[830,865,1672,1697]" italics="true" pageId="19" pageNumber="20">i.e.</emphasis>
+, body length-maximum body diam. ratio (a value) is usually ranging from 11–17, depending on culture condition; cuticle thick, with fine annulations, conspicuous longitudinal striations. Lateral field consisting of two lines, weakly separated from body striations by presence of deirid. Head without apparent lips, six mound-like anteriorly directed expansions, one on each sector. Six labial sensilla, one on each lip sector (on the mound); four small papilliform cephalic papillae in males on right and left subventral and right and left dorsal sectors; amphidial apertures located on lateral sector, slightly dorsally shifted, at level of margin of cheilo- and gymnostom. Stomal dimorphism present, and details are described below. Dorsal pharyngeal gland clearly observed, penetrating dorsal tooth to gland opening. Anterior pharynx 1.5 times as long as posterior pharynx, muscular, composed of tube-shaped procorpus, well-developed oval-shaped metacorpus (median bulb); posterior pharynx glandular with nerve ring surrounding middle of isthmus. Pharyngo-intestinal junction (cardia) well-developed. Intestine simple tube, not forming pre-rectum, extended posteriorly from cardia to rectum; three (two subventral and one dorsal) rectal gland cells observed at distal end of intestine (margin between intestine and rectum). Secretory-excretory pore not conspicuous, ventrally located at level of isthmus to pharyngo-intestinal junction, excretory duct extending anteriad and reflexed back to position of pore; two large secretory-excretory cells around the excretory duct. Deirid observed laterally on lateral field, located at the level around the posterior end of basal bulb to pharyngo-intestinal junction to a half body diameter posterior to the junction, ca 0.5 body diam. posterior to secretory-excretory pore. Hemizonid not observed. Lateral glands (small pores connected to secretory cell) on lateral body surface, with positions inconsistent among individuals, numbering 5 to 8 for males and 9 to 13 for females. Postdeirid at anterior part of 
+<emphasis id="B944EAF6FFEE904EDE17362DFD55FECD" box="[609,747,259,285]" italics="true" pageId="21" pageNumber="22">vas deferens</emphasis>
+in male and the posterior end of posterior gonad in female, on the same striation with deirid (= lateral field) or on the adjacent striation or the second dorsally neighboring striation to lateral field.
+</paragraph>
+<caption id="DF4F666CFFEF904FDCE13122FC9CF8F0" ID-DOI="http://doi.org/10.5281/zenodo.4613191" ID-Zenodo-Dep="4613191" httpUri="https://zenodo.org/record/4613191/files/figure.png" pageId="20" pageNumber="21" startId="20.[151,250,1548,1572]" targetBox="[159,1432,185,1516]" targetPageId="20">
+<paragraph id="8B8F36E4FFEF904FDCE13122FC9CF8F0" blockId="20.[151,1437,1548,1824]" pageId="20" pageNumber="21">
+<emphasis id="B944EAF6FFEF904FDCE13122FEA1F9F4" bold="true" box="[151,287,1548,1572]" pageId="20" pageNumber="21">FIGURE 14.</emphasis>
+<taxonomicName id="4C304D67FFEF904FDD523122FDB6F9F4" authority="Kanzaki &amp; Herrmann &amp; Weiler &amp; Röseler &amp; Theska &amp; Berger &amp; Rödelsperger &amp; Sommer, 2021" authorityName="Kanzaki &amp; Herrmann &amp; Weiler &amp; Röseler &amp; Theska &amp; Berger &amp; Rödelsperger &amp; Sommer" authorityYear="2021" box="[292,520,1548,1572]" class="Chromadorea" family="Diplogastridae" genus="Pristionchus" higherTaxonomySource="GBIF" kingdom="Animalia" order="Rhabditida" pageId="20" pageNumber="21" phylum="Nematoda" rank="species" species="chinensis" status="n. sp.">
+<emphasis id="B944EAF6FFEF904FDD523122FDB6F9F4" box="[292,520,1548,1572]" italics="true" pageId="20" pageNumber="21">Pristionchus chinensis</emphasis>
+</taxonomicName>
+<emphasis id="B944EAF6FFEF904FDE7B3122FDF8F9F4" bold="true" box="[525,582,1548,1572]" pageId="20" pageNumber="21">
+<taxonomicNameLabel id="A277578DFFEF904FDE7B3122FDF8F9F4" box="[525,582,1548,1572]" pageId="20" pageNumber="21" rank="species">n. sp.</taxonomicNameLabel>
+</emphasis>
+A: Right lateral view of adult female. B: Right lateral view of adult male. C: Anterior part of adult female in left lateral view including the body surface structure and relative position of deirid and postdeirid. D, E: Stomal region of stenostomatous female in left (D) and right (E) lateral view. F, G: Stomal region of eurystomatous female in left (F) and right (G) lateral view. Morphological variations of teeth, ridges and denticle are separately drawn in each subfigure as left subventral ridge (left) and dorsal tooth (right) (D), dorsal tooth (left and middle) and right subventral ridge (right) (E), left subventral denticles (left) and dorsal tooth (middle and right) (F), dorsal (left) and right subventral (right) teeth (G). H, I: Male tail in left lateral (H) and ventral (I) view. J: Spicule and gubernaculum in left lateral view. K–M: Female tail of large (K) and small (L) individuals in right lateral view, and ventral view (M).
+</paragraph>
+</caption>
+<caption id="DF4F666CFFEE904EDCE1349AFB0CFBC4" ID-DOI="http://doi.org/10.5281/zenodo.4613195" ID-Zenodo-Dep="4613195" httpUri="https://zenodo.org/record/4613195/files/figure.png" pageId="21" pageNumber="22" startId="21.[151,250,948,972]" targetBox="[151,1436,381,925]" targetPageId="21">
+<paragraph id="8B8F36E4FFEE904EDCE1349AFB0CFBC4" blockId="21.[151,1437,948,1044]" pageId="21" pageNumber="22">
+<emphasis id="B944EAF6FFEE904EDCE1349AFE9EFC1C" bold="true" box="[151,288,948,972]" pageId="21" pageNumber="22">FIGURE 15.</emphasis>
+Stomal region of 
+<taxonomicName id="4C304D67FFEE904EDDA0349AFD05FC1C" authority="Kanzaki &amp; Herrmann &amp; Weiler &amp; Röseler &amp; Theska &amp; Berger &amp; Rödelsperger &amp; Sommer, 2021" authorityName="Kanzaki &amp; Herrmann &amp; Weiler &amp; Röseler &amp; Theska &amp; Berger &amp; Rödelsperger &amp; Sommer" authorityYear="2021" box="[470,699,948,972]" class="Chromadorea" family="Diplogastridae" genus="Pristionchus" higherTaxonomySource="GBIF" kingdom="Animalia" order="Rhabditida" pageId="21" pageNumber="22" phylum="Nematoda" rank="species" species="chinensis" status="n. sp.">
+<emphasis id="B944EAF6FFEE904EDDA0349AFD05FC1C" box="[470,699,948,972]" italics="true" pageId="21" pageNumber="22">Pristionchus chinensis</emphasis>
+</taxonomicName>
+<emphasis id="B944EAF6FFEE904EDEB7349AFD45FC1C" bold="true" box="[705,763,948,972]" pageId="21" pageNumber="22">
+<taxonomicNameLabel id="A277578DFFEE904EDEB7349AFD45FC1C" box="[705,763,948,972]" pageId="21" pageNumber="22" rank="species">n. sp.</taxonomicNameLabel>
+</emphasis>
+A: Left lateral view of stenostomatous form in four different focal planes. B: Right lateral view of stenostomatous form in three different focal planes. C: Left lateral view of eurystomatous form in four different focal planes. D: Right lateral view of eurystomatous form in two different focal planes.
+</paragraph>
+</caption>
+<paragraph id="8B8F36E4FFEE904EDCB1336CFD1AFA38" blockId="21.[151,1437,1090,2017]" pageId="21" pageNumber="22">Stenostomatous form. Cheilostom with six per- and interradial cuticular plates. Incision between plates not always distinguished. Anterior end of each plate rounded and elongated to project from stomal opening to form small flap. Gymnostom short, cuticular ring-like anterior end overlapping cheilostom internally; dorsal gymnostomal wall with mound-like expansion probably derived from metastegostom which gives an appearance of thickened dorsal gymnostomal wall compared to ventral side, and a metastegostomal mound consisting of weakly sclerotized tissue present on the dorsal side of the inner wall. Pro-meso stegostom forming a weakly cuticularized ring internally overlapping with gymnostoma to connect gymnostom and metastegostom. Metastegostom bearing dorsal mound and conspicuous and movable triangular or flint-shaped dorsal tooth with strongly sclerotized surface giving an appearance of an inverted V-shape in light microscopy in lateral view. Left subventral ridge with three minute, rounded adventitious denticles on a plate, and the most ventral denticle is masked by the other two in the lateral view. Right subventral ridge with three bluntly pointed distal adventitious denticles. Telostegostom forming weakly sclerotized cup-like cavity connecting stoma and pharynx.</paragraph>
+<paragraph id="8B8F36E4FFEE904EDCB132DDFF45F8D8" blockId="21.[151,1437,1090,2017]" pageId="21" pageNumber="22">Eurystomatous form. Cheilostom divided into six distinctive per- and interradial plates. Anterior end of each plate rounded and elongated to project from stomal opening, forming a small flap. Each cheilostomal plate inclined inwardly, giving an appearance that whole stoma is narrowing anteriorly. Gymnostom with thick cuticle, forming short, ring-like tube with more heavily sclerotized wall in the posterior. Pro-mesostegostom forming a weakly cuticularized ring connecting gymnostom and metastegostom. Metastegostom bearing large claw-like dorsal tooth; claw-like right subventral tooth; and three left subventral denticles, where the tip of each denticle sometimes splits into two or three small ridges. Telostegostom forming weakly sclerotized cup-like cavity connecting stoma and pharynx.</paragraph>
+<paragraph id="8B8F36E4FFEE904DDCB1303CFC65FD79" blockId="21.[151,1437,1090,2017]" lastBlockId="22.[151,1437,151,681]" lastPageId="22" lastPageNumber="23" pageId="21" pageNumber="22">
+Male. Whole body ventrally arcuate, strongly ventrally curved at tail region when killed by heat. Testis single, ventrally located, anterior part reflexed to right or left side; spermatogonia arranged in three to five rows in reflexed part, well-developed spermatocytes arranged as three to four rows in anterior two-thirds of main branch, mature amoeboid spermatids arranged in multiple rows in proximal part of gonad. 
+<emphasis id="B944EAF6FFEE904EDF953051FBD1F848" box="[995,1135,1918,1944]" italics="true" pageId="21" pageNumber="22">Vas deferens</emphasis>
+not clearly separated from other parts of gonad. Posterior end of 
+<emphasis id="B944EAF6FFEE904EDE32308DFD71F86C" box="[580,719,1954,1980]" italics="true" pageId="21" pageNumber="22">vas deferens</emphasis>
+and rectum fused to form a cloacal tube. Spicules paired, separate; spicules smoothly curved in ventral view, adjacent to each other for distal third of their length, each smoothly tapering to pointed distal end; spicule in lateral view smoothly ventrally arcuate, giving spicule about 100° curvature, oval manubrium at anterior end, lamina/calomus complex smoothly tapering to pointed distal end. Gubernaculum conspicuous, about one-third of spicule length, broad anteriorly such that dorsal wall is slightly recurved with dorsal and ventral walls separate at 50-60° angle at posterior end; dorsal side of gubernaculum possessing single, membranous, anteriorly directed process and lateral pair of more sclerotized, anteriorly and obliquely ventrally directed processes. In lateral view, anterior half of gubernaculum with two successive curves separated by anteriorly and obliquely ventrally directed process, with anterior terminal curvature highly concave and almost closed, with deep posterior curvature being one-third of gubernaculum length; posterior half forming tube-like process enveloping spicules. Cloacal opening (co) slit-like in ventral view; one small, ventral, single genital papilla (vs) on anterior cloacal lip. All nine paired genital papillae papilliform. Tail conoid with short spike. The paired papillae and the phasmid are arranged as &lt;v1, v2d, v3, co, v4, ad, ph, (v5, v6, v7, pd)&gt;, where v1 located about a little more than 1 CBD anterior to co; v2d midway between v1 and co; v3 1/4–1/5 CBD anterior to co; v4 at 1/4–1/5 CBD posterior to co; ad about 1 CBD posterior to co; ph at midway between ad and the root of tail spike; v5–v7 forming triplet, between ph and the root of tail spike; and pd at same level as v6 or v7. v1, v3, v4 and ph subventral, v2d and ad lateral, v5–7 ventral, pd subdorsal in male tail. Bursa or bursal flap absent.
+</paragraph>
+<caption id="DF4F666CFFED904DDCE13075FB58F86B" ID-DOI="http://doi.org/10.5281/zenodo.4613201" ID-Zenodo-Dep="4613201" httpUri="https://zenodo.org/record/4613201/files/figure.png" pageId="22" pageNumber="23" startId="22.[151,250,1883,1907]" targetBox="[151,1436,705,1860]" targetPageId="22">
+<paragraph id="8B8F36E4FFED904DDCE13075FB58F86B" blockId="22.[151,1437,1883,1979]" pageId="22" pageNumber="23">
+<emphasis id="B944EAF6FFED904DDCE13075FE9CF8A3" bold="true" box="[151,290,1883,1907]" pageId="22" pageNumber="23">FIGURE 16.</emphasis>
+Male tail characters of 
+<taxonomicName id="4C304D67FFED904DDE693075FCB8F8A3" authority="Kanzaki &amp; Herrmann &amp; Weiler &amp; Röseler &amp; Theska &amp; Berger &amp; Rödelsperger &amp; Sommer, 2021" authorityName="Kanzaki &amp; Herrmann &amp; Weiler &amp; Röseler &amp; Theska &amp; Berger &amp; Rödelsperger &amp; Sommer" authorityYear="2021" box="[543,774,1883,1907]" class="Chromadorea" family="Diplogastridae" genus="Pristionchus" higherTaxonomySource="GBIF" kingdom="Animalia" order="Rhabditida" pageId="22" pageNumber="23" phylum="Nematoda" rank="species" species="chinensis" status="n. sp.">
+<emphasis id="B944EAF6FFED904DDE693075FCB8F8A3" box="[543,774,1883,1907]" italics="true" pageId="22" pageNumber="23">Pristionchus chinensis</emphasis>
+</taxonomicName>
+<emphasis id="B944EAF6FFED904DDF793075FCF5F8A3" bold="true" box="[783,843,1883,1907]" pageId="22" pageNumber="23">
+<taxonomicNameLabel id="A277578DFFED904DDF793075FCF5F8A3" box="[783,843,1883,1907]" pageId="22" pageNumber="23" rank="species">n. sp.</taxonomicNameLabel>
+</emphasis>
+A: Left lateral view of male tail in seven different focal planes, where genital papillae are labelled according to the terminology by 
+<bibRefCitation id="EFA14B15FFED904DDFEB3051FAAFF847" author="Sudhaus, W. &amp; Furst von Lieven, A." box="[925,1297,1919,1943]" pageId="22" pageNumber="23" pagination="43 - 90" refId="ref33318" refString="Sudhaus, W. &amp; Furst von Lieven, A. (2003) A phylogenetic classification and catalogue of the Diplogastridae (Secernentea, Nematoda). Journal of Nematode Morphology and Systematics, 6, 43 - 90." type="journal article" year="2003">Sudhaus &amp; Fürst von Lieven (2003)</bibRefCitation>
+, and laterally located papillae are indicated with “d”, and rectal gland (rg) is labelled. B: Ventral view of the posterior part.
+</paragraph>
+</caption>
+<caption id="DF4F666CFFEC904CDCE13564FEB4FDB4" box="[151,266,586,612]" pageId="23" pageNumber="24" startId="23.[151,239,586,612]" targetBox="[165,1782,625,1866]" targetIsTable="true" targetPageId="23">
+<paragraph id="8B8F36E4FFEC904CDCE13564FEB4FDB4" blockId="23.[151,266,586,612]" box="[151,266,586,612]" pageId="23" pageNumber="24">TABLE 2.</paragraph>
+</caption>
+<paragraph id="8B8F36E4FFEC904CD949355FFA76F89A" pageId="23" pageNumber="24">
+<table id="F930C444FFEC6FA4DCD3355FF948F89A" box="[165,1782,625,1866]" gridcols="3" gridrows="33" pageId="23" pageNumber="24">
+<tr id="350034A6FFEC6FA4DCD3355FF948FD5A" box="[165,1782,625,650]" gridrow="0" pageId="23" pageNumber="24" rowspan-0="1" rowspan-1="1">
+<td id="76D15DDAFFEC6FA4D949355FF948FD5A" box="[1343,1782,625,650]" gridcol="2" gridrow="0" pageId="23" pageNumber="24">
+<emphasis id="B944EAF6FFEC904CD949355FF99AFD5A" bold="true" box="[1343,1572,625,650]" pageId="23" pageNumber="24">
+<taxonomicName id="4C304D67FFEC904CD949355FFA04FD5A" authorityName="Kanzaki &amp; Herrmann &amp; Weiler &amp; Röseler &amp; Theska &amp; Berger &amp; Rödelsperger &amp; Sommer" authorityYear="2021" box="[1343,1466,625,650]" class="Chromadorea" family="Diplogastridae" genus="Pristionchus" higherTaxonomySource="GBIF" kingdom="Animalia" order="Rhabditida" pageId="23" pageNumber="24" phylum="Nematoda" rank="species" species="chinensis">
+<emphasis id="B944EAF6FFEC904CD949355FFA04FD5A" bold="true" box="[1343,1466,625,650]" italics="true" pageId="23" pageNumber="24">P. chinensis</emphasis>
+</taxonomicName>
+(RS6023)
+</emphasis>
+</td>
+</tr>
+<tr id="350034A6FFEC6FA4DCD335B9F948FD60" box="[165,1782,663,688]" gridrow="1" pageId="23" pageNumber="24">
+<td id="76D15DDAFFEC6FA4DCD335B9FDE3FD60" box="[165,605,663,688]" gridcol="0" gridrow="1" pageId="23" pageNumber="24">character</td>
+<td id="76D15DDAFFEC6FA4DF0A35B9FBCCFD60" box="[892,1138,663,688]" gridcol="1" gridrow="1" pageId="23" pageNumber="24">stenostomatous male</td>
+<td id="76D15DDAFFEC6FA4D94935B9F948FD60" box="[1343,1782,663,688]" gridcol="2" gridrow="1" pageId="23" pageNumber="24">stenostomatous hermaphrodite</td>
+</tr>
+<tr id="350034A6FFEC6FA4DCD33593F948FD06" box="[165,1782,701,726]" gridrow="2" pageId="23" pageNumber="24">
+<td id="76D15DDAFFEC6FA4DCD33593FDE3FD06" box="[165,605,701,726]" gridcol="0" gridrow="2" pageId="23" pageNumber="24">n</td>
+<td id="76D15DDAFFEC6FA4DF0A3593FBCCFD06" box="[892,1138,701,726]" gridcol="1" gridrow="2" pageId="23" pageNumber="24">5</td>
+<td id="76D15DDAFFEC6FA4D9493593F948FD06" box="[1343,1782,701,726]" gridcol="2" gridrow="2" pageId="23" pageNumber="24">5</td>
+</tr>
+<tr id="350034A6FFEC6FA4DCD335CDF948FD2C" box="[165,1782,739,764]" gridrow="3" pageId="23" pageNumber="24">
+<td id="76D15DDAFFEC6FA4DCD335CDFDE3FD2C" box="[165,605,739,764]" gridcol="0" gridrow="3" pageId="23" pageNumber="24">L</td>
+<td id="76D15DDAFFEC6FA4DF0A35CDFBCCFD2C" box="[892,1138,739,764]" gridcol="1" gridrow="3" pageId="23" pageNumber="24">907 ± 175.8 (703–1123)</td>
+<td id="76D15DDAFFEC6FA4D94935CDF948FD2C" box="[1343,1782,739,764]" gridcol="2" gridrow="3" pageId="23" pageNumber="24">1090 ± 122.3 (986–1289)</td>
+</tr>
+<tr id="350034A6FFEC6FA4DCD33427F948FCF2" box="[165,1782,777,802]" gridrow="4" pageId="23" pageNumber="24">
+<td id="76D15DDAFFEC6FA4DCD33427FDE3FCF2" box="[165,605,777,802]" gridcol="0" gridrow="4" pageId="23" pageNumber="24">L’</td>
+<td id="76D15DDAFFEC6FA4DF0A3427FBCCFCF2" box="[892,1138,777,802]" gridcol="1" gridrow="4" pageId="23" pageNumber="24">799 ± 168.8 (604–1008)</td>
+<td id="76D15DDAFFEC6FA4D9493427F948FCF2" box="[1343,1782,777,802]" gridcol="2" gridrow="4" pageId="23" pageNumber="24">929 ± 120.6 (829–1129)</td>
+</tr>
+<tr id="350034A6FFEC6FA4DCD33401F948FC98" box="[165,1782,815,840]" gridrow="5" pageId="23" pageNumber="24">
+<td id="76D15DDAFFEC6FA4DCD33401FDE3FC98" box="[165,605,815,840]" gridcol="0" gridrow="5" pageId="23" pageNumber="24">a</td>
+<td id="76D15DDAFFEC6FA4DF0A3401FBCCFC98" box="[892,1138,815,840]" gridcol="1" gridrow="5" pageId="23" pageNumber="24">14 ± 2.7 (11–17)</td>
+<td id="76D15DDAFFEC6FA4D9493401F948FC98" box="[1343,1782,815,840]" gridcol="2" gridrow="5" pageId="23" pageNumber="24">13 ± 1.2 (11–14)</td>
+</tr>
+<tr id="350034A6FFEC6FA4DCD3347BF948FCBE" box="[165,1782,853,878]" gridrow="6" pageId="23" pageNumber="24">
+<td id="76D15DDAFFEC6FA4DCD3347BFDE3FCBE" box="[165,605,853,878]" gridcol="0" gridrow="6" pageId="23" pageNumber="24">b</td>
+<td id="76D15DDAFFEC6FA4DF0A347BFBCCFCBE" box="[892,1138,853,878]" gridcol="1" gridrow="6" pageId="23" pageNumber="24">5.8 ± 0.7 (5.0–6.4)</td>
+<td id="76D15DDAFFEC6FA4D949347BF948FCBE" box="[1343,1782,853,878]" gridcol="2" gridrow="6" pageId="23" pageNumber="24">6.5 ± 0.8 (5.9–7.9)</td>
+</tr>
+<tr id="350034A6FFEC6FA4DCD33455F948FC44" box="[165,1782,891,916]" gridrow="7" pageId="23" pageNumber="24">
+<td id="76D15DDAFFEC6FA4DCD33455FDE3FC44" box="[165,605,891,916]" gridcol="0" gridrow="7" pageId="23" pageNumber="24">c</td>
+<td id="76D15DDAFFEC6FA4DF0A3455FBCCFC44" box="[892,1138,891,916]" gridcol="1" gridrow="7" pageId="23" pageNumber="24">8.4 ± 1.1 (7.1–9.8)</td>
+<td id="76D15DDAFFEC6FA4D9493455F948FC44" box="[1343,1782,891,916]" gridcol="2" gridrow="7" pageId="23" pageNumber="24">6.8 ± 0.8 (6.2–8.0)</td>
+</tr>
+<tr id="350034A6FFEC6FA4DCD3348FF948FC6A" box="[165,1782,929,954]" gridrow="8" pageId="23" pageNumber="24">
+<td id="76D15DDAFFEC6FA4DCD3348FFDE3FC6A" box="[165,605,929,954]" gridcol="0" gridrow="8" pageId="23" pageNumber="24">c’</td>
+<td id="76D15DDAFFEC6FA4DF0A348FFBCCFC6A" box="[892,1138,929,954]" gridcol="1" gridrow="8" pageId="23" pageNumber="24">2.4 ± 0.4 (1.9–3.0)</td>
+<td id="76D15DDAFFEC6FA4D949348FF948FC6A" box="[1343,1782,929,954]" gridcol="2" gridrow="8" pageId="23" pageNumber="24">4.0 ± 0.5 (3.4–4.5)</td>
+</tr>
+<tr id="350034A6FFEC6FA4DCD334E9F948FC30" box="[165,1782,967,992]" gridrow="9" pageId="23" pageNumber="24">
+<td id="76D15DDAFFEC6FA4DCD334E9FDE3FC30" box="[165,605,967,992]" gridcol="0" gridrow="9" pageId="23" pageNumber="24">ant. stoma length (cheilo- + gymnostom)</td>
+<td id="76D15DDAFFEC6FA4DF0A34E9FBCCFC30" box="[892,1138,967,992]" gridcol="1" gridrow="9" pageId="23" pageNumber="24">6.7 ± 0.8 (5.8–7.4)</td>
+<td id="76D15DDAFFEC6FA4D94934E9F948FC30" box="[1343,1782,967,992]" gridcol="2" gridrow="9" pageId="23" pageNumber="24">7.9 ± 0.8 (6.9–8.9)</td>
+</tr>
+<tr id="350034A6FFEC6FA4DCD334C3F948FBD6" box="[165,1782,1005,1030]" gridrow="10" pageId="23" pageNumber="24">
+<td id="76D15DDAFFEC6FA4DCD334C3FDE3FBD6" box="[165,605,1005,1030]" gridcol="0" gridrow="10" pageId="23" pageNumber="24">total stoma length</td>
+<td id="76D15DDAFFEC6FA4DF0A34C3FBCCFBD6" box="[892,1138,1005,1030]" gridcol="1" gridrow="10" pageId="23" pageNumber="24">10.9 ± 1.7 (8.3–12.3)</td>
+<td id="76D15DDAFFEC6FA4D94934C3F948FBD6" box="[1343,1782,1005,1030]" gridcol="2" gridrow="10" pageId="23" pageNumber="24">13.5 ± 0.6 (12.6–14.2)</td>
+</tr>
+<tr id="350034A6FFEC6FA4DCD3333DF948FBFC" box="[165,1782,1043,1068]" gridrow="11" pageId="23" pageNumber="24">
+<td id="76D15DDAFFEC6FA4DCD3333DFDE3FBFC" box="[165,605,1043,1068]" gridcol="0" gridrow="11" pageId="23" pageNumber="24">stoma width</td>
+<td id="76D15DDAFFEC6FA4DF0A333DFBCCFBFC" box="[892,1138,1043,1068]" gridcol="1" gridrow="11" pageId="23" pageNumber="24">7.7 ± 0.8 (6.5–8.5)</td>
+<td id="76D15DDAFFEC6FA4D949333DF948FBFC" box="[1343,1782,1043,1068]" gridcol="2" gridrow="11" pageId="23" pageNumber="24">8.4 ± 0.4 (8.0–9.0)</td>
+</tr>
+<tr id="350034A6FFEC6FA4DCD33317F948FB82" box="[165,1782,1081,1106]" gridrow="12" pageId="23" pageNumber="24">
+<td id="76D15DDAFFEC6FA4DCD33317FDE3FB82" box="[165,605,1081,1106]" gridcol="0" gridrow="12" pageId="23" pageNumber="24">ant. pharynx length (pro- + metacorpus)</td>
+<td id="76D15DDAFFEC6FA4DF0A3317FBCCFB82" box="[892,1138,1081,1106]" gridcol="1" gridrow="12" pageId="23" pageNumber="24">78 ± 4.6 (75–86)</td>
+<td id="76D15DDAFFEC6FA4D9493317F948FB82" box="[1343,1782,1081,1106]" gridcol="2" gridrow="12" pageId="23" pageNumber="24">93 ± 2.4 (91–97)</td>
+</tr>
+<tr id="350034A6FFEC6FA4DCD33371F948FBA8" box="[165,1782,1119,1144]" gridrow="13" pageId="23" pageNumber="24">
+<td id="76D15DDAFFEC6FA4DCD33371FDE3FBA8" box="[165,605,1119,1144]" gridcol="0" gridrow="13" pageId="23" pageNumber="24">post. pharynx length (isthmus + basal bulb)</td>
+<td id="76D15DDAFFEC6FA4DF0A3371FBCCFBA8" box="[892,1138,1119,1144]" gridcol="1" gridrow="13" pageId="23" pageNumber="24">67 ± 9.1 (56–77)</td>
+<td id="76D15DDAFFEC6FA4D9493371F948FBA8" box="[1343,1782,1119,1144]" gridcol="2" gridrow="13" pageId="23" pageNumber="24">67 ± 3.0 (64–71)</td>
+</tr>
+<tr id="350034A6FFEC6FA4DCD333ABF948FB4E" box="[165,1782,1157,1182]" gridrow="14" pageId="23" pageNumber="24">
+<td id="76D15DDAFFEC6FA4DCD333ABFDE3FB4E" box="[165,605,1157,1182]" gridcol="0" gridrow="14" pageId="23" pageNumber="24">total length pharynx</td>
+<td id="76D15DDAFFEC6FA4DF0A33ABFBCCFB4E" box="[892,1138,1157,1182]" gridcol="1" gridrow="14" pageId="23" pageNumber="24">145 ± 12.1 (133–163)</td>
+<td id="76D15DDAFFEC6FA4D94933ABF948FB4E" box="[1343,1782,1157,1182]" gridcol="2" gridrow="14" pageId="23" pageNumber="24">160 ± 3.6 (155–163)</td>
+</tr>
+<tr id="350034A6FFEC6FA4DCD33385F948FB14" box="[165,1782,1195,1220]" gridrow="15" pageId="23" pageNumber="24">
+<td id="76D15DDAFFEC6FA4DCD33385FDE3FB14" box="[165,605,1195,1220]" gridcol="0" gridrow="15" pageId="23" pageNumber="24">ant./total pharynx %</td>
+<td id="76D15DDAFFEC6FA4DF0A3385FBCCFB14" box="[892,1138,1195,1220]" gridcol="1" gridrow="15" pageId="23" pageNumber="24">54 ± 3.0 (50–58)</td>
+<td id="76D15DDAFFEC6FA4D9493385F948FB14" box="[1343,1782,1195,1220]" gridcol="2" gridrow="15" pageId="23" pageNumber="24">58 ± 1.3 (56–60)</td>
+</tr>
+<tr id="350034A6FFEC6FA4DCD333FFF948FB3A" box="[165,1782,1233,1258]" gridrow="16" pageId="23" pageNumber="24">
+<td id="76D15DDAFFEC6FA4DCD333FFFDE3FB3A" box="[165,605,1233,1258]" gridcol="0" gridrow="16" pageId="23" pageNumber="24">median bulb diameter</td>
+<td id="76D15DDAFFEC6FA4DF0A33FFFBCCFB3A" box="[892,1138,1233,1258]" gridcol="1" gridrow="16" pageId="23" pageNumber="24">24 ± 1.6 (23–27)</td>
+<td id="76D15DDAFFEC6FA4D94933FFF948FB3A" box="[1343,1782,1233,1258]" gridcol="2" gridrow="16" pageId="23" pageNumber="24">29 ± 0.8 (29–30)</td>
+</tr>
+<tr id="350034A6FFEC6FA4DCD333D9F948FAC0" box="[165,1782,1271,1296]" gridrow="17" pageId="23" pageNumber="24">
+<td id="76D15DDAFFEC6FA4DCD333D9FDE3FAC0" box="[165,605,1271,1296]" gridcol="0" gridrow="17" pageId="23" pageNumber="24">terminal bulb diameter</td>
+<td id="76D15DDAFFEC6FA4DF0A33D9FBCCFAC0" box="[892,1138,1271,1296]" gridcol="1" gridrow="17" pageId="23" pageNumber="24">25 ± 2.3 (22–27)</td>
+<td id="76D15DDAFFEC6FA4D94933D9F948FAC0" box="[1343,1782,1271,1296]" gridcol="2" gridrow="17" pageId="23" pageNumber="24">28 ± 1.6 (26–30)</td>
+</tr>
+<tr id="350034A6FFEC6FA4DCD33233F948FAE6" box="[165,1782,1309,1334]" gridrow="18" pageId="23" pageNumber="24">
+<td id="76D15DDAFFEC6FA4DCD33233FDE3FAE6" box="[165,605,1309,1334]" gridcol="0" gridrow="18" pageId="23" pageNumber="24">neck length (incl. stoma)</td>
+<td id="76D15DDAFFEC6FA4DF0A3233FBCCFAE6" box="[892,1138,1309,1334]" gridcol="1" gridrow="18" pageId="23" pageNumber="24">156 ± 13.4 (141–175)</td>
+<td id="76D15DDAFFEC6FA4D9493233F948FAE6" box="[1343,1782,1309,1334]" gridcol="2" gridrow="18" pageId="23" pageNumber="24">168 ± 3.6 (164–171)</td>
+</tr>
+<tr id="350034A6FFEC6FA4DCD3326DF948FA8C" box="[165,1782,1347,1372]" gridrow="19" pageId="23" pageNumber="24">
+<td id="76D15DDAFFEC6FA4DCD3326DFDE3FA8C" box="[165,605,1347,1372]" gridcol="0" gridrow="19" pageId="23" pageNumber="24">excretion pore</td>
+<td id="76D15DDAFFEC6FA4DF0A326DFBCCFA8C" box="[892,1138,1347,1372]" gridcol="1" gridrow="19" pageId="23" pageNumber="24">137 ± 18.7 (113–156)</td>
+<td id="76D15DDAFFEC6FA4D949326DF948FA8C" box="[1343,1782,1347,1372]" gridcol="2" gridrow="19" pageId="23" pageNumber="24">157 ± 10.2 (148–173)</td>
+</tr>
+<tr id="350034A6FFEC6FA4DCD33247F948FA52" box="[165,1782,1385,1410]" gridrow="20" pageId="23" pageNumber="24">
+<td id="76D15DDAFFEC6FA4DCD33247FDE3FA52" box="[165,605,1385,1410]" gridcol="0" gridrow="20" pageId="23" pageNumber="24">nerve ring</td>
+<td id="76D15DDAFFEC6FA4DF0A3247FBCCFA52" box="[892,1138,1385,1410]" gridcol="1" gridrow="20" pageId="23" pageNumber="24">105 ± 10.2 (93–119)</td>
+<td id="76D15DDAFFEC6FA4D9493247F948FA52" box="[1343,1782,1385,1410]" gridcol="2" gridrow="20" pageId="23" pageNumber="24">120 ± 2.6 (118–124)</td>
+</tr>
+<tr id="350034A6FFEC6FA4DCD332A1F948FA78" box="[165,1782,1423,1448]" gridrow="21" pageId="23" pageNumber="24">
+<td id="76D15DDAFFEC6FA4DCD332A1FDE3FA78" box="[165,605,1423,1448]" gridcol="0" gridrow="21" pageId="23" pageNumber="24">testis length</td>
+<td id="76D15DDAFFEC6FA4DF0A32A1FBCCFA78" box="[892,1138,1423,1448]" gridcol="1" gridrow="21" pageId="23" pageNumber="24">551 ± 141.5 (404–765)</td>
+<td id="76D15DDAFFEC6FA4D94932A1F948FA78" box="[1343,1782,1423,1448]" gridcol="2" gridrow="21" pageId="23" pageNumber="24">-</td>
+</tr>
+<tr id="350034A6FFEC6FA4DCD3329BF948FA1E" box="[165,1782,1461,1486]" gridrow="22" pageId="23" pageNumber="24">
+<td id="76D15DDAFFEC6FA4DCD3329BFDE3FA1E" box="[165,605,1461,1486]" gridcol="0" gridrow="22" pageId="23" pageNumber="24">anterior gonad length</td>
+<td id="76D15DDAFFEC6FA4DF0A329BFBCCFA1E" box="[892,1138,1461,1486]" gridcol="1" gridrow="22" pageId="23" pageNumber="24">-</td>
+<td id="76D15DDAFFEC6FA4D949329BF948FA1E" box="[1343,1782,1461,1486]" gridcol="2" gridrow="22" pageId="23" pageNumber="24">245 ± 32.7 (212–291)</td>
+</tr>
+<tr id="350034A6FFEC6FA4DCD332F5F948FA24" box="[165,1782,1499,1524]" gridrow="23" pageId="23" pageNumber="24">
+<td id="76D15DDAFFEC6FA4DCD332F5FDE3FA24" box="[165,605,1499,1524]" gridcol="0" gridrow="23" pageId="23" pageNumber="24">posterior gonad length</td>
+<td id="76D15DDAFFEC6FA4DF0A32F5FBCCFA24" box="[892,1138,1499,1524]" gridcol="1" gridrow="23" pageId="23" pageNumber="24">-</td>
+<td id="76D15DDAFFEC6FA4D94932F5F948FA24" box="[1343,1782,1499,1524]" gridcol="2" gridrow="23" pageId="23" pageNumber="24">296 ± 32.1 (251–337)</td>
+</tr>
+<tr id="350034A6FFEC6FA4DCD3312FF948F9CA" box="[165,1782,1537,1562]" gridrow="24" pageId="23" pageNumber="24">
+<td id="76D15DDAFFEC6FA4DCD3312FFDE3F9CA" box="[165,605,1537,1562]" gridcol="0" gridrow="24" pageId="23" pageNumber="24">ant. end to vulva distance</td>
+<td id="76D15DDAFFEC6FA4DF0A312FFBCCF9CA" box="[892,1138,1537,1562]" gridcol="1" gridrow="24" pageId="23" pageNumber="24">-</td>
+<td id="76D15DDAFFEC6FA4D949312FF948F9CA" box="[1343,1782,1537,1562]" gridcol="2" gridrow="24" pageId="23" pageNumber="24">533 ± 36.1 (498–586)</td>
+</tr>
+<tr id="350034A6FFEC6FA4DCD33109F948F990" box="[165,1782,1575,1600]" gridrow="25" pageId="23" pageNumber="24">
+<td id="76D15DDAFFEC6FA4DCD33109FDE3F990" box="[165,605,1575,1600]" gridcol="0" gridrow="25" pageId="23" pageNumber="24">vulva to anus distance</td>
+<td id="76D15DDAFFEC6FA4DF0A3109FBCCF990" box="[892,1138,1575,1600]" gridcol="1" gridrow="25" pageId="23" pageNumber="24">-</td>
+<td id="76D15DDAFFEC6FA4D9493109F948F990" box="[1343,1782,1575,1600]" gridcol="2" gridrow="25" pageId="23" pageNumber="24">397 ± 89.5 (327–549)</td>
+</tr>
+<tr id="350034A6FFEC6FA4DCD33163F948F9B6" box="[165,1782,1613,1638]" gridrow="26" pageId="23" pageNumber="24">
+<td id="76D15DDAFFEC6FA4DCD33163FDE3F9B6" box="[165,605,1613,1638]" gridcol="0" gridrow="26" pageId="23" pageNumber="24">T or V</td>
+<td id="76D15DDAFFEC6FA4DF0A3163FBCCF9B6" box="[892,1138,1613,1638]" gridcol="1" gridrow="26" pageId="23" pageNumber="24">60 ± 4.5 (57–68)</td>
+<td id="76D15DDAFFEC6FA4D9493163F948F9B6" box="[1343,1782,1613,1638]" gridcol="2" gridrow="26" pageId="23" pageNumber="24">49 ± 2.1 (45–51)</td>
+</tr>
+<tr id="350034A6FFEC6FA4DCD3315DF948F95C" box="[165,1782,1651,1676]" gridrow="27" pageId="23" pageNumber="24">
+<td id="76D15DDAFFEC6FA4DCD3315DFDE3F95C" box="[165,605,1651,1676]" gridcol="0" gridrow="27" pageId="23" pageNumber="24">max. body diameter</td>
+<td id="76D15DDAFFEC6FA4DF0A315DFBCCF95C" box="[892,1138,1651,1676]" gridcol="1" gridrow="27" pageId="23" pageNumber="24">68 ± 9.7 (52–79)</td>
+<td id="76D15DDAFFEC6FA4D949315DF948F95C" box="[1343,1782,1651,1676]" gridcol="2" gridrow="27" pageId="23" pageNumber="24">88 ± 18.9 (74–121)</td>
+</tr>
+<tr id="350034A6FFEC6FA4DCD331B7F948F962" box="[165,1782,1689,1714]" gridrow="28" pageId="23" pageNumber="24">
+<td id="76D15DDAFFEC6FA4DCD331B7FDE3F962" box="[165,605,1689,1714]" gridcol="0" gridrow="28" pageId="23" pageNumber="24">cloacal or anal body diameter</td>
+<td id="76D15DDAFFEC6FA4DF0A31B7FBCCF962" box="[892,1138,1689,1714]" gridcol="1" gridrow="28" pageId="23" pageNumber="24">46 ± 5.9 (38–51)</td>
+<td id="76D15DDAFFEC6FA4D94931B7F948F962" box="[1343,1782,1689,1714]" gridcol="2" gridrow="28" pageId="23" pageNumber="24">41 ± 4.7 (35–47)</td>
+</tr>
+<tr id="350034A6FFEC6FA4DCD33191F948F908" box="[165,1782,1727,1752]" gridrow="29" pageId="23" pageNumber="24">
+<td id="76D15DDAFFEC6FA4DCD33191FDE3F908" box="[165,605,1727,1752]" gridcol="0" gridrow="29" pageId="23" pageNumber="24">tail length</td>
+<td id="76D15DDAFFEC6FA4DF0A3191FBCCF908" box="[892,1138,1727,1752]" gridcol="1" gridrow="29" pageId="23" pageNumber="24">107 ± 7.1 (99–115)</td>
+<td id="76D15DDAFFEC6FA4D9493191F948F908" box="[1343,1782,1727,1752]" gridcol="2" gridrow="29" pageId="23" pageNumber="24">161 ± 8.8 (155–176)</td>
+</tr>
+<tr id="350034A6FFEC6FA4DCD331CBF948F92E" box="[165,1782,1765,1790]" gridrow="30" pageId="23" pageNumber="24">
+<td id="76D15DDAFFEC6FA4DCD331CBFDE3F92E" box="[165,605,1765,1790]" gridcol="0" gridrow="30" pageId="23" pageNumber="24">spicule length (curve)</td>
+<td id="76D15DDAFFEC6FA4DF0A31CBFBCCF92E" box="[892,1138,1765,1790]" gridcol="1" gridrow="30" pageId="23" pageNumber="24">50 ± 5.2 (43–55)</td>
+<td id="76D15DDAFFEC6FA4D94931CBF948F92E" box="[1343,1782,1765,1790]" gridcol="2" gridrow="30" pageId="23" pageNumber="24">-</td>
+</tr>
+<tr id="350034A6FFEC6FA4DCD33025F948F8F4" box="[165,1782,1803,1828]" gridrow="31" pageId="23" pageNumber="24">
+<td id="76D15DDAFFEC6FA4DCD33025FDE3F8F4" box="[165,605,1803,1828]" gridcol="0" gridrow="31" pageId="23" pageNumber="24">spicule length (chord)</td>
+<td id="76D15DDAFFEC6FA4DF0A3025FBCCF8F4" box="[892,1138,1803,1828]" gridcol="1" gridrow="31" pageId="23" pageNumber="24">43 ± 4.1 (36–47)</td>
+<td id="76D15DDAFFEC6FA4D9493025F948F8F4" box="[1343,1782,1803,1828]" gridcol="2" gridrow="31" pageId="23" pageNumber="24">-</td>
+</tr>
+<tr id="350034A6FFEC6FA4DCD3301FF948F89A" box="[165,1782,1841,1866]" gridrow="32" pageId="23" pageNumber="24">
+<td id="76D15DDAFFEC6FA4DCD3301FFDE3F89A" box="[165,605,1841,1866]" gridcol="0" gridrow="32" pageId="23" pageNumber="24">gubernaculum length</td>
+<td id="76D15DDAFFEC6FA4DF0A301FFBCCF89A" box="[892,1138,1841,1866]" gridcol="1" gridrow="32" pageId="23" pageNumber="24">16 ± 1.9 (14–19)</td>
+<td id="76D15DDAFFEC6FA4D949301FF948F89A" box="[1343,1782,1841,1866]" gridcol="2" gridrow="32" pageId="23" pageNumber="24">-</td>
+</tr>
+</table>
+</paragraph>
+<paragraph id="8B8F36E4FFE39043DCB137B9FA97FD79" blockId="24.[151,1437,151,1545]" pageId="24" pageNumber="25">
+Hermaphrodites. Body relaxed or weakly ventrally arcuate when killed by heat. Gonad didelphic, amphidelphic; each gonadal system arranged from vulva/vagina as uterus, oviduct, and ovary; anterior gonad right of intestine, with uterus and oviduct extending ventrally and anteriorly on right of intestine and with totally reflexed (=antidromous reflexion) ovary extending dorsally on left of intestine; oocytes mostly arranged in three to four or more rows in distal two-thirds of ovary and in double or single row in rest of ovary, distal tips of each ovary reaching oviduct of opposite gonad branch; anterior end of oviduct (=junction tissue between ovary and oviduct) consists of rounded cells; anterior part of oviduct consists of rounded cells, forming a simple tube; middle part of oviduct serving as spermatheca, consists of roundish and relatively large cells. Eggs in single to multiple-cell stage or even further developed at posterior part of oviduct (=uterus), in young females being composed of squared or angular cells, long enough to contain one well-developed oocyte. 
+<emphasis id="B944EAF6FFE39043DF6936F5FBA6FE24" box="[799,1048,475,501]" italics="true" pageId="24" pageNumber="25">Receptaculum seminis</emphasis>
+not observed, 
+<emphasis id="B944EAF6FFE39043D8C836F5FB5FFE24" box="[1214,1249,475,500]" italics="true" pageId="24" pageNumber="25">i.e.</emphasis>
+, the organ is not independent, and a part of oviduct/uterus works as the organ; vaginal glands present but obscure; vagina perpendicular to body surface, surrounded by sclerotized tissue; vulva slightly protuberant in lateral view, pore-like in ventral view; rectum about one anal body diameter (ABD) long, intestine/rectum junction surrounded by well-developed sphincter muscle. Anus in form of dome-shaped slit, posterior anal lip slightly protuberant; phasmid about 1.5 ABDs posterior to anus. Tail conoid with or without elongated posterior half; and tail terminus sharply pointed.
+</paragraph>
+</subSubSection>
+<subSubSection id="C32A656FFFE39043DCB1359CFD56FADD" pageId="24" pageNumber="25" type="diagnosis">
+<paragraph id="8B8F36E4FFE39043DCB1359CFD78FC8D" blockId="24.[151,1437,151,1545]" pageId="24" pageNumber="25">
+<emphasis id="B944EAF6FFE39043DCB1359CFDA0FD1C" bold="true" box="[199,542,690,717]" pageId="24" pageNumber="25">Diagnosis and relationships.</emphasis>
+<taxonomicName id="4C304D67FFE39043DE5E359DFC96FD1D" authority="Kanzaki &amp; Herrmann &amp; Weiler &amp; Röseler &amp; Theska &amp; Berger &amp; Rödelsperger &amp; Sommer, 2021" authorityName="Kanzaki &amp; Herrmann &amp; Weiler &amp; Röseler &amp; Theska &amp; Berger &amp; Rödelsperger &amp; Sommer" authorityYear="2021" box="[552,808,691,717]" class="Chromadorea" family="Diplogastridae" genus="Pristionchus" higherTaxonomySource="GBIF" kingdom="Animalia" order="Rhabditida" pageId="24" pageNumber="25" phylum="Nematoda" rank="species" species="chinensis" status="n. sp.">
+<emphasis id="B944EAF6FFE39043DE5E359DFC96FD1D" box="[552,808,691,717]" italics="true" pageId="24" pageNumber="25">Pristionchus chinensis</emphasis>
+</taxonomicName>
+<emphasis id="B944EAF6FFE39043DF45359DFCCBFD1D" bold="true" box="[819,885,691,717]" pageId="24" pageNumber="25">
+<taxonomicNameLabel id="A277578DFFE39043DF45359DFCCBFD1D" box="[819,885,691,717]" pageId="24" pageNumber="25" rank="species">n. sp.</taxonomicNameLabel>
+</emphasis>
+is characterized by having the right subventral stegostomal ridge of stenostomatous form, with three bluntly pointed minute denticles, its relatively short tail in males and hermaphrodites, 
+<emphasis id="B944EAF6FFE39043DDBD35D5FE53FCC4" box="[459,493,763,788]" italics="true" pageId="24" pageNumber="25">i.e.</emphasis>
+conoid with short (less than 1 CBD) spike in male and conoid with elongated posterior half in hermaphrodite, arrangement of male genital papillae, &lt;v1, v2d, v3, co, v4, ad, ph, (v5, v6, v7, pd)&gt;, and its characteristic reproductive mode, androdioecy.
+</paragraph>
+<paragraph id="8B8F36E4FFE39043DCB13449FA2AFB71" blockId="24.[151,1437,151,1545]" pageId="24" pageNumber="25">
+<taxonomicName id="4C304D67FFE39043DCB13449FE76FC51" authority="Kanzaki &amp; Herrmann &amp; Weiler &amp; Röseler &amp; Theska &amp; Berger &amp; Rödelsperger &amp; Sommer, 2021" authorityName="Kanzaki &amp; Herrmann &amp; Weiler &amp; Röseler &amp; Theska &amp; Berger &amp; Rödelsperger &amp; Sommer" authorityYear="2021" box="[199,456,871,897]" class="Chromadorea" family="Diplogastridae" genus="Pristionchus" higherTaxonomySource="GBIF" kingdom="Animalia" order="Rhabditida" pageId="24" pageNumber="25" phylum="Nematoda" rank="species" species="chinensis" status="n. sp.">
+<emphasis id="B944EAF6FFE39043DCB13449FE76FC51" box="[199,456,871,897]" italics="true" pageId="24" pageNumber="25">Pristionchus chinensis</emphasis>
+</taxonomicName>
+<emphasis id="B944EAF6FFE39043DDA53449FDA8FC51" bold="true" box="[467,534,871,897]" pageId="24" pageNumber="25">
+<taxonomicNameLabel id="A277578DFFE39043DDA53449FDA8FC51" box="[467,534,871,897]" pageId="24" pageNumber="25" rank="species">n. sp.</taxonomicNameLabel>
+</emphasis>
+is typologically and phylogenetically close to 
+<taxonomicName id="4C304D67FFE39043D84A3449FB59FC51" authorityName="Kanzaki, Ragsdale, Herrmann &amp; Sommer" authorityYear="2012" box="[1084,1255,871,897]" class="Chromadorea" family="Diplogastridae" genus="Pristionchus" higherTaxonomySource="GBIF" kingdom="Animalia" order="Rhabditida" pageId="24" pageNumber="25" phylum="Nematoda" rank="species" species="fissidentatus">
+<emphasis id="B944EAF6FFE39043D84A3449FB59FC51" box="[1084,1255,871,897]" italics="true" pageId="24" pageNumber="25">P. fissidentatus</emphasis>
+</taxonomicName>
+, 
+<emphasis id="B944EAF6FFE39043D88F3449FAA2FC50" box="[1273,1308,871,896]" italics="true" pageId="24" pageNumber="25">i.e.</emphasis>
+, these two species share the stomatal characters of stenostomatous form, relatively short male tail and the androdioecy, and further, both species belong to the basal clade of the genus. However, the new species can be distinguished from 
+<taxonomicName id="4C304D67FFE39043D9FE3481FE9DFC3D" authorityName="Kanzaki, Ragsdale, Herrmann &amp; Sommer" authorityYear="2012" class="Chromadorea" family="Diplogastridae" genus="Pristionchus" higherTaxonomySource="GBIF" kingdom="Animalia" order="Rhabditida" pageId="24" pageNumber="25" phylum="Nematoda" rank="species" species="fissidentatus">
+<emphasis id="B944EAF6FFE39043D9FE3481FE9DFC3D" italics="true" pageId="24" pageNumber="25">P. fissidentatus</emphasis>
+</taxonomicName>
+by its stomal structure of eurystomatous form, although these two species share the claw-like dorsal tooth and left subventral denticles with many minute cusps, the right subventral sector possessing a large claw-like tooth 
+<emphasis id="B944EAF6FFE39043DCAE3335FF48FBE4" box="[216,246,1051,1076]" italics="true" pageId="24" pageNumber="25">vs.</emphasis>
+ridge with three tips. Further, 
+<taxonomicName id="4C304D67FFE39043DE3A3335FD6EFBE5" authority="Kanzaki &amp; Herrmann &amp; Weiler &amp; Röseler &amp; Theska &amp; Berger &amp; Rödelsperger &amp; Sommer, 2021" authorityName="Kanzaki &amp; Herrmann &amp; Weiler &amp; Röseler &amp; Theska &amp; Berger &amp; Rödelsperger &amp; Sommer" authorityYear="2021" box="[588,720,1051,1077]" class="Chromadorea" family="Diplogastridae" genus="Pristionchus" higherTaxonomySource="GBIF" kingdom="Animalia" order="Rhabditida" pageId="24" pageNumber="25" phylum="Nematoda" rank="species" species="chinensis" status="n. sp.">
+<emphasis id="B944EAF6FFE39043DE3A3335FD6EFBE5" box="[588,720,1051,1077]" italics="true" pageId="24" pageNumber="25">P. chinensis</emphasis>
+</taxonomicName>
+<emphasis id="B944EAF6FFE39043DEA13335FCA8FBE5" bold="true" box="[727,790,1051,1077]" pageId="24" pageNumber="25">
+<taxonomicNameLabel id="A277578DFFE39043DEA13335FCA8FBE5" box="[727,790,1051,1077]" pageId="24" pageNumber="25" rank="species">n. sp.</taxonomicNameLabel>
+</emphasis>
+can be distinguished from 
+<taxonomicName id="4C304D67FFE39043D8313335FB51FBE5" authorityName="Kanzaki, Ragsdale, Herrmann &amp; Sommer" authorityYear="2012" box="[1095,1263,1051,1077]" class="Chromadorea" family="Diplogastridae" genus="Pristionchus" higherTaxonomySource="GBIF" kingdom="Animalia" order="Rhabditida" pageId="24" pageNumber="25" phylum="Nematoda" rank="species" species="fissidentatus">
+<emphasis id="B944EAF6FFE39043D8313335FB51FBE5" box="[1095,1263,1051,1077]" italics="true" pageId="24" pageNumber="25">P. fissidentatus</emphasis>
+</taxonomicName>
+by its male tail characters. Although the characters of spontaneous males are sometimes inconsistent within species, the difference in the arrangement of genital papillae, &lt;v1, v2d, v3, co, v4, ad, ph, (v5, v6, v7, pd)&gt; 
+<emphasis id="B944EAF6FFE39043D824334DFBCFFBAC" box="[1106,1137,1123,1148]" italics="true" pageId="24" pageNumber="25">vs.</emphasis>
+&lt;v1, (co, v2), v3d, v4, ad, Ph, (v5, v6, v7), pd&gt; and the length of tail spike less than 
+<emphasis id="B944EAF6FFE39043DF6933A9FC80FB70" box="[799,830,1159,1184]" italics="true" pageId="24" pageNumber="25">vs.</emphasis>
+more than 1 CBD is consistent for these two species.
+</paragraph>
+<paragraph id="8B8F36E4FFE39043DCB13385FD56FADD" blockId="24.[151,1437,151,1545]" pageId="24" pageNumber="25">
+Further, the new species is distinguished from all other species by mating experiments and also characterized by a 
+<emphasis id="B944EAF6FFE39043DCDD33E1FF73FB38" box="[171,205,1231,1256]" italics="true" pageId="24" pageNumber="25">ca.</emphasis>
+1,600-bp fragment of the SSU rRNA gene (GenBank accession number 
+<accessionNumber id="9463AB07FFE39043D87433E1FB30FB39" box="[1026,1166,1231,1257]" httpUri="http://www.ncbi.nlm.nih.gov/nucleotide/MW017217" pageId="24" pageNumber="25">MW017217</accessionNumber>
+), the sequence of which is distinct from that of all other 
+<taxonomicName id="4C304D67FFE39043DD8D33DDFD37FADD" authorityName=", Kreis" authorityYear="1932" box="[507,649,1267,1293]" class="Chromadorea" family="Diplogastridae" genus="Pristionchus" higherTaxonomySource="GBIF" kingdom="Animalia" order="Rhabditida" pageId="24" pageNumber="25" phylum="Nematoda" rank="genus">
+<emphasis id="B944EAF6FFE39043DD8D33DDFD37FADD" box="[507,649,1267,1293]" italics="true" pageId="24" pageNumber="25">Pristionchus</emphasis>
+</taxonomicName>
+species.
+</paragraph>
+</subSubSection>
+<subSubSection id="C32A656FFFE39047DCB13239FC5CFB71" lastPageId="28" lastPageNumber="29" pageId="24" pageNumber="25" type="materials_examined">
+<paragraph id="8B8F36E4FFE39043DCB13239FDA8FA85" blockId="24.[151,1437,151,1545]" pageId="24" pageNumber="25">
+<emphasis id="B944EAF6FFE39043DCB13239FE6FFAE0" bold="true" box="[199,465,1302,1329]" pageId="24" pageNumber="25">
+<typeStatus id="548B8846FFE39043DCB13239FEBCFAE1" box="[199,258,1303,1329]" pageId="24" pageNumber="25">Type</typeStatus>
+host and locality.
+</emphasis>
+From 
+<taxonomicName id="4C304D67FFE39043DE6D3239FDCFFAE1" box="[539,625,1303,1329]" class="Insecta" family="Rutelidae" genus="Mimela" kingdom="Animalia" order="Coleoptera" pageId="24" pageNumber="25" phylum="Arthropoda" rank="genus">
+<emphasis id="B944EAF6FFE39043DE6D3239FDCFFAE1" box="[539,625,1303,1329]" italics="true" pageId="24" pageNumber="25">Mimela</emphasis>
+</taxonomicName>
+sp. (
+<taxonomicName id="4C304D67FFE39043DED03239FC99FAE1" authorityName="Linnaeus" authorityYear="1758" box="[678,807,1303,1329]" class="Insecta" kingdom="Animalia" order="Coleoptera" pageId="24" pageNumber="25" phylum="Arthropoda" rank="order">Coleoptera</taxonomicName>
+: 
+<taxonomicName id="4C304D67FFE39043DF473239FC20FAE2" baseAuthorityName="MacLeay" baseAuthorityYear="1819" box="[817,926,1303,1330]" class="Insecta" family="Rutelidae" kingdom="Animalia" order="Coleoptera" pageId="24" pageNumber="25" phylum="Arthropoda" rank="family">Rutelidae</taxonomicName>
+) collected at &quot;Skytree&quot; near Bubeng Fieldstation 
+<collectionCode id="ED21AE21FFE39043DCBC3215FEBDFA85" box="[202,259,1339,1365]" country="USA" httpUri="http://biocol.org/urn:lsid:biocol.org:col:15690" lsid="urn:lsid:biocol.org:col:34700" name="California Academy of Sciences" pageId="24" pageNumber="25" type="Museum">CAS</collectionCode>
+, 
+<collectingRegion id="49F4F806FFE39043DD7B3215FE71FA85" box="[269,463,1339,1365]" country="China" name="Yunnan" pageId="24" pageNumber="25">Yunnan province</collectingRegion>
+, 
+<collectingCountry id="F3277674FFE39043DDAC3215FDADFA85" box="[474,531,1339,1365]" name="China" pageId="24" pageNumber="25">PRC</collectingCountry>
+.
+</paragraph>
+<paragraph id="8B8F36E4FFE39043DCB13271FD3CF9D9" blockId="24.[151,1437,151,1545]" pageId="24" pageNumber="25">
+<emphasis id="B944EAF6FFE39043DCB13271FD89FAA8" bold="true" box="[199,567,1374,1401]" pageId="24" pageNumber="25">Type material and type strain.</emphasis>
+Type strain RS6023 frozen at the nematode collection of the MPI Tübingen and available as living culture upon request. Voucher specimens sent to the following museums: 
+<typeStatus id="548B8846FFE39043D89832ADFAE8FA4D" box="[1262,1366,1411,1437]" pageId="24" pageNumber="25">Holotype</typeStatus>
+male, 
+<materialsCitation id="3B583CB9FFE39043DCE13289FC04FA11" ID-GBIF-Occurrence="3071126318" box="[151,954,1447,1473]" country="Germany" location="Museum" municipality="Naturkunde Karlsruhe" pageId="24" pageNumber="25" specimenCount="1" typeStatus="paratype">
+<typeStatus id="548B8846FFE39043DCE13289FF47FA11" box="[151,249,1447,1473]" pageId="24" pageNumber="25">Paratype</typeStatus>
+hermaphrodite: 
+<location id="8EEF603FFFE39043DDC53289FDABFA11" LSID="urn:lsid:plazi:treatment:039987F2FFE89047DCE132FCFC5CFB71:8EEF603FFFE39043DDC53289FDABFA11" box="[435,533,1447,1473]" country="Germany" municipality="Naturkunde Karlsruhe" name="Museum" pageId="24" pageNumber="25">Museum</location>
+für 
+<collectingMunicipality id="6BEBAC9EFFE39043DE333289FCFCFA11" box="[581,834,1447,1473]" pageId="24" pageNumber="25">Naturkunde Karlsruhe</collectingMunicipality>
+, 
+<collectingCountry id="F3277674FFE39043DF383289FC04FA11" box="[846,954,1447,1473]" name="Germany" pageId="24" pageNumber="25">Germany</collectingCountry>
+</materialsCitation>
+; 
+<materialsCitation id="3B583CB9FFE39043DFB03289FDF3FA35" ID-GBIF-Occurrence="3071126323" country="Sweden" location="Swedish Natural History Museum" pageId="24" pageNumber="25" specimenCount="1" stateProvince="Stockholm" typeStatus="paratype">
+<typeStatus id="548B8846FFE39043DFB03289FB96FA11" box="[966,1064,1447,1473]" pageId="24" pageNumber="25">Paratype</typeStatus>
+hermaphrodite: 
+<location id="8EEF603FFFE39043D8943289FEE4FA35" LSID="urn:lsid:plazi:treatment:039987F2FFE89047DCE132FCFC5CFB71:8EEF603FFFE39043D8943289FEE4FA35" country="Sweden" name="Swedish Natural History Museum" pageId="24" pageNumber="25" stateProvince="Stockholm">Swedish Natural History Museum</location>
+, 
+<collectingRegion id="49F4F806FFE39043DD1132E5FE5DFA35" box="[359,483,1483,1509]" country="Sweden" name="Stockholm" pageId="24" pageNumber="25">Stockholm</collectingRegion>
+, 
+<collectingCountry id="F3277674FFE39043DD8732E5FDF3FA35" box="[497,589,1483,1509]" name="Sweden" pageId="24" pageNumber="25">Sweden</collectingCountry>
+</materialsCitation>
+; 
+<materialsCitation id="3B583CB9FFE39043DE2C32E5FDC0F9D9" ID-GBIF-Occurrence="3071126308" collectionCode="UCRNC, CA" country="United States of America" county="Riverside" location="University" municipality="Riverside Nematode Collection" pageId="24" pageNumber="25" specimenCount="1" stateProvince="California" typeStatus="paratype">
+<typeStatus id="548B8846FFE39043DE2C32E5FD02FA35" box="[602,700,1483,1509]" pageId="24" pageNumber="25">Paratype</typeStatus>
+hermaphrodite: 
+<location id="8EEF603FFFE39043DF0C32E5FC4EFA35" LSID="urn:lsid:plazi:treatment:039987F2FFE89047DCE132FCFC5CFB71:8EEF603FFFE39043DF0C32E5FC4EFA35" box="[890,1008,1483,1509]" country="United States of America" county="Riverside" municipality="Riverside Nematode Collection" name="University" pageId="24" pageNumber="25" stateProvince="California">University</location>
+of 
+<collectingRegion id="49F4F806FFE39043D86C32E5FB32FA35" box="[1050,1164,1483,1509]" country="United States of America" name="California" pageId="24" pageNumber="25">California</collectingRegion>
+in 
+<collectingMunicipality id="6BEBAC9EFFE39043D8C232E5FEB2F9D9" pageId="24" pageNumber="25">Riverside Nematode Collection</collectingMunicipality>
+(
+<collectionCode id="ED21AE21FFE39043DD6D32C1FE3CF9D9" box="[283,386,1519,1545]" pageId="24" pageNumber="25">UCRNC</collectionCode>
+), 
+<collectingCounty id="62EE4E68FFE39043DDE232C1FDBCF9D9" box="[404,514,1519,1545]" pageId="24" pageNumber="25">Riverside</collectingCounty>
+, 
+<collectionCode id="ED21AE21FFE39043DE7B32C1FD89F9D9" box="[525,567,1519,1545]" country="USA" name="Chicago Academy of Sciences" pageId="24" pageNumber="25" type="Museum">CA</collectionCode>
+, 
+<collectingCountry id="F3277674FFE39043DE3432C1FDC0F9D9" box="[578,638,1519,1545]" name="United States of America" pageId="24" pageNumber="25">USA</collectingCountry>
+</materialsCitation>
+.
+</paragraph>
+<paragraph id="8B8F36E4FFE39043DCE1317EFC3CF9BA" blockId="24.[151,898,1615,1642]" box="[151,898,1615,1642]" pageId="24" pageNumber="25">
+<emphasis id="B944EAF6FFE39043DCE1317EFC3CF9BA" bold="true" box="[151,898,1615,1642]" pageId="24" pageNumber="25">
+Species description of four 
+<taxonomicName id="4C304D67FFE39043DDAC3161FD66F9B9" authorityName="Ragsdale, Kanzaki, Roseler, Herrmann, Sommer" authorityYear="2013" box="[474,728,1615,1642]" class="Chromadorea" family="Diplogastridae" genus="Pristionchus" higherTaxonomySource="GBIF" kingdom="Animalia" order="Rhabditida" pageId="24" pageNumber="25" phylum="Nematoda" rank="species" species="triformis">
+<emphasis id="B944EAF6FFE39043DDAC3161FD66F9B9" bold="true" box="[474,728,1615,1642]" italics="true" pageId="24" pageNumber="25">Pristionchus triformis</emphasis>
+</taxonomicName>
+-group species
+</emphasis>
+</paragraph>
+<paragraph id="8B8F36E4FFE39043DCE131B6FD07F8B6" blockId="24.[151,1437,1688,2039]" pageId="24" pageNumber="25">
+Common characters. The basal species groups described above are highly variable in the basic typological characters, 
+<emphasis id="B944EAF6FFE39043DC9C3193FEADF906" box="[234,275,1725,1750]" italics="true" pageId="24" pageNumber="25">e.g.</emphasis>
+, the presence/absence of stomal dimorphism, cuticle structure, pharyngeal structure and position of the nerve ring. In comparison, species in the 
+<taxonomicName id="4C304D67FFE39043DED431CEFCBAF92A" authorityName="Ragsdale, Kanzaki, Roseler, Herrmann, Sommer" authorityYear="2013" box="[674,772,1760,1786]" class="Chromadorea" family="Diplogastridae" genus="Pristionchus" higherTaxonomySource="GBIF" kingdom="Animalia" order="Rhabditida" pageId="24" pageNumber="25" phylum="Nematoda" rank="species" species="triformis">
+<emphasis id="B944EAF6FFE39043DED431CEFCBAF92A" box="[674,772,1760,1786]" italics="true" pageId="24" pageNumber="25">triformis</emphasis>
+</taxonomicName>
+-group are uniform, and they share common characters as described below, based on re-observation of four previously described species (
+<taxonomicName id="4C304D67FFE39043D842302BFDA1F892" authority="Ragsdale, Kanzaki, Roseler, Herrmann, Sommer, 2013" authorityName="Ragsdale, Kanzaki, Roseler, Herrmann, Sommer" authorityYear="2013" class="Chromadorea" family="Diplogastridae" genus="Pristionchus" higherTaxonomySource="GBIF" kingdom="Animalia" order="Rhabditida" pageId="24" pageNumber="25" phylum="Nematoda" rank="species" species="triformis">
+<emphasis id="B944EAF6FFE39043D842302BFB0BF8CE" box="[1076,1205,1796,1822]" italics="true" pageId="24" pageNumber="25">P. triformis</emphasis>
+<bibRefCitation id="EFA14B15FFE39043D8B6302AFDA1F892" author="Kanzaki, N. &amp; Ragsdale, E. J. &amp; Herrmann, M. &amp; Roseler, W. &amp; Sommer, R. J." pageId="24" pageNumber="25" pagination="680 - 692" refId="ref32107" refString="Kanzaki, N., Ragsdale, E. J., Herrmann, M., Roseler, W. &amp; Sommer, R. J. (2013 a) Two new species of Pristionchus (Nematoda: Diplogastridae) support the biogeographic importance of Japan for the evolution of the genus Pristionchus and the model system P. pacificus. Zoological Science, 30, 680 - 692. https: // doi. org / 10.2108 / zsj. 30.680" type="journal article" year="2013">Ragsdale, Kanzaki, Röseler, Herrmann, Sommer, 2013</bibRefCitation>
+</taxonomicName>
+, 
+<taxonomicName id="4C304D67FFE39043DE5F3007FD6CF892" authorityName="Ragsdale, Kanzaki, Roseler, Herrmann, Sommer" authorityYear="2013" box="[553,722,1832,1858]" class="Chromadorea" family="Diplogastridae" genus="Pristionchus" higherTaxonomySource="GBIF" kingdom="Animalia" order="Rhabditida" pageId="24" pageNumber="25" phylum="Nematoda" rank="species" species="hoplostomus">
+<emphasis id="B944EAF6FFE39043DE5F3007FD6CF892" box="[553,722,1832,1858]" italics="true" pageId="24" pageNumber="25">P. hoplostomus</emphasis>
+</taxonomicName>
+, 
+<taxonomicName id="4C304D67FFE39043DEA93007FCD2F892" box="[735,876,1832,1858]" class="Chromadorea" family="Diplogastridae" genus="Pristionchus" higherTaxonomySource="GBIF" kingdom="Animalia" order="Rhabditida" pageId="24" pageNumber="25" phylum="Nematoda" rank="species" species="fukusimae">
+<emphasis id="B944EAF6FFE39043DEA93007FCD2F892" box="[735,876,1832,1858]" italics="true" pageId="24" pageNumber="25">P. fukusimae</emphasis>
+</taxonomicName>
+and 
+<taxonomicName id="4C304D67FFE39043DFD73007FB89F892" authorityName="Herrmann, Kanzaki, Weiler, Yoshida, Rodelsperger &amp; Sommer" authorityYear="2019" box="[929,1079,1833,1858]" class="Chromadorea" family="Diplogastridae" genus="Pristionchus" higherTaxonomySource="GBIF" kingdom="Animalia" order="Rhabditida" pageId="24" pageNumber="25" phylum="Nematoda" rank="species" species="yamagatae">
+<emphasis id="B944EAF6FFE39043DFD73007FB89F892" box="[929,1079,1833,1858]" italics="true" pageId="24" pageNumber="25">P. yamagatae</emphasis>
+</taxonomicName>
+) and three new species. Several diagnostic characters are summarized in 
+<tableCitation id="C6B2035FFFE39043DE293062FD0AF8B6" box="[607,692,1868,1894]" captionStart="TABLE 3" captionStartId="26.[151,244,552,579]" captionTargetBox="[165,2025,594,1655]" captionTargetPageId="26" captionText="TABLE 3. Summary of stomal and male tail characters of eight Pristionchus triformis group species." pageId="24" pageNumber="25">Table 3</tableCitation>
+.
+</paragraph>
+<paragraph id="8B8F36E4FFE39040DCB1305EFE82FD1D" blockId="24.[151,1437,1688,2039]" lastBlockId="27.[151,1437,151,2013]" lastPageId="27" lastPageNumber="28" pageId="24" pageNumber="25">
+Adult. Body cylindrical, stout, 
+<emphasis id="B944EAF6FFE39043DE5E305FFDF5F85A" box="[552,587,1905,1930]" italics="true" pageId="24" pageNumber="25">i.e.</emphasis>
+, body length-maximum body diam. ratio (a value) is usually ranging from 10–18, depending on culture condition; cuticle with fine annulation, clear longitudinal striations and indistinct lateral field consisting of two lines, weakly separated from the body striations by presence of deirid, and absence of clear annulations. Head without apparent lips, six mound-like anteriorly directed expansions, one on each sector. Six labial sensilla one on each lip sector, papilliform, and four male cephalic papillae papilliform, on each of right and left subventral and right and left dorsal lip sectors, smaller than labial sensilla. Stomal dimorphism (or polymorphism) present, and its details are described below. Anterior pharynx 1.5 times as long as posterior pharynx, muscular composed of tube-shaped procorpus and well-developed oval-shaped metacorpus (median bulb); posterior pharynx glandular with nerve ring at mid-isthmus length. Pharyngo-intestinal junction (cardia) clearly observed, well-developed. Intestine simple tube, not forming pre-rectum, extended posteriorly from cardia to rectum; three (two subventral and one dorsal) rectal gland cells observed at distal end of intestine (margin between intestine and rectum). Secretory-excretory pore not conspicuous, ventrally located at level of isthmus to pharyngo-intestinal junction, excretory duct extending anteriad and reflexed back to position of pore; two large secretory-excretory cells around the excretory duct. Deirid observed laterally on lateral field, located at the level around the posterior end of basal bulb to pharyngo-intestinal junction to a half body diameter posterior to the junction, ca 0.5–1 body diam. posterior to secretory-excretory pore. Hemizonid not observed. Lateral glands (small pores connected to secretory cell) on lateral body surface, with positions inconsistent among individuals, numbering 5 to 8 for males and 9 to 13 for females. Postdeirid at anterior part of 
+<emphasis id="B944EAF6FFE09040DE173545FD55FD55" box="[609,747,619,645]" italics="true" pageId="27" pageNumber="28">vas deferens</emphasis>
+in male and the posterior end of posterior gonad in female, on the same striation with deirid (= lateral field) or on the adjacent striation or the second dorsally neighboring striation to lateral field.
+</paragraph>
+<caption id="DF4F666CFFE29042DCE130B9FA96F803" ID-DOI="http://doi.org/10.5281/zenodo.4613204" ID-Zenodo-Dep="4613204" httpUri="https://zenodo.org/record/4613204/files/figure.png" pageId="25" pageNumber="26" startId="25.[151,250,1943,1967]" targetBox="[270,1320,181,1910]" targetPageId="25">
+<paragraph id="8B8F36E4FFE29042DCE130B9FA96F803" blockId="25.[151,1436,1943,2004]" pageId="25" pageNumber="26">
+<emphasis id="B944EAF6FFE29042DCE130B9FE9DF87F" bold="true" box="[151,291,1943,1967]" pageId="25" pageNumber="26">FIGURE 17.</emphasis>
+Stomal morphology of six 
+<taxonomicName id="4C304D67FFE29042DE3E30B6FD1FF860" authorityName="Ragsdale, Kanzaki, Roseler, Herrmann, Sommer" authorityYear="2013" box="[584,673,1944,1968]" class="Chromadorea" family="Diplogastridae" genus="Pristionchus" higherTaxonomySource="GBIF" kingdom="Animalia" order="Rhabditida" pageId="25" pageNumber="26" phylum="Nematoda" rank="species" species="triformis">
+<emphasis id="B944EAF6FFE29042DE3E30B6FD1FF860" box="[584,673,1944,1968]" italics="true" pageId="25" pageNumber="26">triformis</emphasis>
+</taxonomicName>
+-group species. The left and right lateral views of three morphotypes are shown. Instead of the six-plated eurystomatous form, the 12-plated (megastomatous) form is drawn for 
+<taxonomicName id="4C304D67FFE29042D8C73092FA9DF804" authorityName="Ragsdale, Kanzaki, Roseler, Herrmann, Sommer" authorityYear="2013" box="[1201,1315,1980,2004]" class="Chromadorea" family="Diplogastridae" genus="Pristionchus" higherTaxonomySource="GBIF" kingdom="Animalia" order="Rhabditida" pageId="25" pageNumber="26" phylum="Nematoda" rank="species" species="triformis">
+<emphasis id="B944EAF6FFE29042D8C73092FA9DF804" box="[1201,1315,1980,2004]" italics="true" pageId="25" pageNumber="26">P. triformis</emphasis>
+</taxonomicName>
+.
+</paragraph>
+</caption>
+<caption id="DF4F666CFFE19041DCE13506FAB9FD93" box="[151,1287,552,579]" pageId="26" pageNumber="27" startId="26.[151,244,552,579]" targetBox="[165,2025,594,1655]" targetIsTable="true" targetPageId="26">
+<paragraph id="8B8F36E4FFE19041DCE13506FAB9FD93" blockId="26.[151,1287,552,579]" box="[151,1287,552,579]" pageId="26" pageNumber="27">
+<emphasis id="B944EAF6FFE19041DCE13506FEAEFD93" bold="true" box="[151,272,552,579]" pageId="26" pageNumber="27">
+<collectionCode id="ED21AE21FFE19041DCE13506FF4AFD93" box="[151,244,552,579]" pageId="26" pageNumber="27">TABLE</collectionCode>
+3.
+</emphasis>
+Summary of stomal and male tail characters of eight 
+<taxonomicName id="4C304D67FFE19041DF1E3506FBE1FD93" authorityName="Ragsdale, Kanzaki, Roseler, Herrmann, Sommer" authorityYear="2013" box="[872,1119,552,579]" class="Chromadorea" family="Diplogastridae" genus="Pristionchus" higherTaxonomySource="GBIF" kingdom="Animalia" order="Rhabditida" pageId="26" pageNumber="27" phylum="Nematoda" rank="species" species="triformis">
+<emphasis id="B944EAF6FFE19041DF1E3506FBE1FD93" box="[872,1119,552,579]" italics="true" pageId="26" pageNumber="27">Pristionchus triformis</emphasis>
+</taxonomicName>
+group species.
+</paragraph>
+</caption>
+<paragraph id="8B8F36E4FFE19041DCD3357CF858F9A7" pageId="26" pageNumber="27">
+<table id="F930C444FFE16FA4DCD3357CF857F9A7" box="[165,2025,594,1655]" gridcols="8" gridrows="29" pageId="26" pageNumber="27">
+<tr id="350034A6FFE16FA4DCD3357CF857FDB9" box="[165,2025,594,617]" gridrow="0" pageId="26" pageNumber="27">
+<td id="76D15DDAFFE16FA4DCD3357CFEDCFDB9" box="[165,354,594,617]" gridcol="0" gridrow="0" pageId="26" pageNumber="27">Species</td>
+<td id="76D15DDAFFE16FA4DDD6357CFD9FFDB9" box="[416,545,594,617]" gridcol="1" gridrow="0" pageId="26" pageNumber="27">Reproductive</td>
+<td id="76D15DDAFFE16FA4DE3D357CFC0EFDB9" box="[587,944,594,617]" colspan="2" colspanRight="1" gridcol="2" gridrow="0" pageId="26" pageNumber="27">Stenostomatous form</td>
+<td id="76D15DDAFFE16FA4DFAD357CFAE5FDB9" box="[987,1371,594,617]" colspan="2" colspanRight="1" gridcol="4" gridrow="0" pageId="26" pageNumber="27">Eurystomatous form</td>
+<td id="76D15DDAFFE16FA4D90D357CF92AFDB9" box="[1403,1684,594,617]" gridcol="6" gridrow="0" pageId="26" pageNumber="27">Genital papillae</td>
+<td id="76D15DDAFFE16FA4DAC8357CF857FDB9" box="[1726,2025,594,617]" gridcol="7" gridrow="0" pageId="26" pageNumber="27">Other characteristic feature(s)</td>
+</tr>
+<tr id="350034A6FFE16FA4DCD33558F857FD41" box="[165,2025,630,657]" gridrow="1" pageId="26" pageNumber="27" rowspan-0="1" rowspan-6="1" rowspan-7="1">
+<td id="76D15DDAFFE16FA4DDD63558FD9FFD41" box="[416,545,630,657]" gridcol="1" gridrow="1" pageId="26" pageNumber="27">mode</td>
+<td id="76D15DDAFFE16FA4DE3D3558FD50FD41" box="[587,750,630,657]" gridcol="2" gridrow="1" pageId="26" pageNumber="27">Right subventral</td>
+<td id="76D15DDAFFE16FA4DF683558FC0EFD41" box="[798,944,630,657]" gridcol="3" gridrow="1" pageId="26" pageNumber="27">Left subventral</td>
+<td id="76D15DDAFFE16FA4DFAD3558FBC1FD41" box="[987,1151,630,657]" gridcol="4" gridrow="1" pageId="26" pageNumber="27">Right subventral</td>
+<td id="76D15DDAFFE16FA4D8DD3558FAE5FD41" box="[1195,1371,630,657]" gridcol="5" gridrow="1" pageId="26" pageNumber="27">Left subventral</td>
+</tr>
+<tr id="350034A6FFE16FA4DCD335B0F857FD65" box="[165,2025,670,693]" gridrow="2" pageId="26" pageNumber="27" rowspan-0="1" rowspan-1="1" rowspan-6="1" rowspan-7="1">
+<td id="76D15DDAFFE16FA4DE3D35B0FD50FD65" box="[587,750,670,693]" gridcol="2" gridrow="2" pageId="26" pageNumber="27">plate</td>
+<td id="76D15DDAFFE16FA4DF6835B0FC0EFD65" box="[798,944,670,693]" gridcol="3" gridrow="2" pageId="26" pageNumber="27">plate</td>
+<td id="76D15DDAFFE16FA4DFAD35B0FBC1FD65" box="[987,1151,670,693]" gridcol="4" gridrow="2" pageId="26" pageNumber="27">tooth</td>
+<td id="76D15DDAFFE16FA4D8DD35B0FAE5FD65" box="[1195,1371,670,693]" gridcol="5" gridrow="2" pageId="26" pageNumber="27">cusps</td>
+</tr>
+<tr id="350034A6FFE16FA4DCD335EBF857FD0C" box="[165,2025,709,732]" gridrow="3" pageId="26" pageNumber="27">
+<td id="76D15DDAFFE16FA4DCD335EBFEDCFD0C" box="[165,354,709,732]" gridcol="0" gridrow="3" pageId="26" pageNumber="27">
+<taxonomicName id="4C304D67FFE19041DCD335EBFF47FD0C" authorityName="Ragsdale, Kanzaki, Roseler, Herrmann, Sommer" authorityYear="2013" box="[165,249,709,732]" class="Chromadorea" family="Diplogastridae" genus="Pristionchus" higherTaxonomySource="GBIF" kingdom="Animalia" order="Rhabditida" pageId="26" pageNumber="27" phylum="Nematoda" rank="species" species="triformis">
+<emphasis id="B944EAF6FFE19041DCD335EBFF47FD0C" box="[165,249,709,732]" italics="true" pageId="26" pageNumber="27">triformis</emphasis>
+</taxonomicName>
+</td>
+<td id="76D15DDAFFE16FA4DDD635EBFD9FFD0C" box="[416,545,709,732]" gridcol="1" gridrow="3" pageId="26" pageNumber="27">H</td>
+<td id="76D15DDAFFE16FA4DE3D35EBFD50FD0C" box="[587,750,709,732]" gridcol="2" gridrow="3" pageId="26" pageNumber="27">Single peak,</td>
+<td id="76D15DDAFFE16FA4DF6835EBFC0EFD0C" box="[798,944,709,732]" gridcol="3" gridrow="3" pageId="26" pageNumber="27">Three or four</td>
+<td id="76D15DDAFFE16FA4DFAD35EBFBC1FD0C" box="[987,1151,709,732]" gridcol="4" gridrow="3" pageId="26" pageNumber="27">Claw-like, single</td>
+<td id="76D15DDAFFE16FA4D8DD35EBFAE5FD0C" box="[1195,1371,709,732]" gridcol="5" gridrow="3" pageId="26" pageNumber="27">Three plates with</td>
+<td id="76D15DDAFFE16FA4D90D35EBF92AFD0C" box="[1403,1684,709,732]" gridcol="6" gridrow="3" pageId="26" pageNumber="27">v1-v2d ± v2d-v4; v2d and</td>
+<td id="76D15DDAFFE16FA4DAC835EBF857FD0C" box="[1726,2025,709,732]" gridcol="7" gridrow="3" pageId="26" pageNumber="27">12-plated (megastomatous)</td>
+</tr>
+<tr id="350034A6FFE16FA4DCD335C7F857FCD0" box="[165,2025,745,768]" gridrow="4" pageId="26" pageNumber="27" rowspan-0="1" rowspan-1="1">
+<td id="76D15DDAFFE16FA4DE3D35C7FD50FCD0" box="[587,750,745,768]" gridcol="2" gridrow="4" pageId="26" pageNumber="27">sometimes very</td>
+<td id="76D15DDAFFE16FA4DF6835C7FC0EFCD0" box="[798,944,745,768]" gridcol="3" gridrow="4" pageId="26" pageNumber="27">bumps</td>
+<td id="76D15DDAFFE16FA4DFAD35C7FBC1FCD0" box="[987,1151,745,768]" gridcol="4" gridrow="4" pageId="26" pageNumber="27">peak</td>
+<td id="76D15DDAFFE16FA4D8DD35C7FAE5FCD0" box="[1195,1371,745,768]" gridcol="5" gridrow="4" pageId="26" pageNumber="27">various number of</td>
+<td id="76D15DDAFFE16FA4D90D35C7F92AFCD0" box="[1403,1684,745,768]" gridcol="6" gridrow="4" pageId="26" pageNumber="27">v3 clearly separated; v4-ad &lt;</td>
+<td id="76D15DDAFFE16FA4DAC835C7F857FCD0" box="[1726,2025,745,768]" gridcol="7" gridrow="4" pageId="26" pageNumber="27">form present</td>
+</tr>
+<tr id="350034A6FFE16FA4DCD33423F857FCF4" box="[165,2025,781,804]" gridrow="5" pageId="26" pageNumber="27" rowspan-0="1" rowspan-1="1" rowspan-3="1" rowspan-4="1" rowspan-7="1">
+<td id="76D15DDAFFE16FA4DE3D3423FD50FCF4" box="[587,750,781,804]" gridcol="2" gridrow="5" pageId="26" pageNumber="27">well-developed</td>
+<td id="76D15DDAFFE16FA4D8DD3423FAE5FCF4" box="[1195,1371,781,804]" gridcol="5" gridrow="5" pageId="26" pageNumber="27">cusps</td>
+<td id="76D15DDAFFE16FA4D90D3423F92AFCF4" box="[1403,1684,781,804]" gridcol="6" gridrow="5" pageId="26" pageNumber="27">ad-pd</td>
+</tr>
+<tr id="350034A6FFE16FA4DCD33401F857FC9B" box="[165,2025,815,843]" gridrow="6" pageId="26" pageNumber="27">
+<td id="76D15DDAFFE16FA4DCD33401FEDCFC9B" box="[165,354,815,843]" gridcol="0" gridrow="6" pageId="26" pageNumber="27">
+<taxonomicName id="4C304D67FFE19041DCD3341AFEA0FC9B" authorityName="Ragsdale, Kanzaki, Roseler, Herrmann, Sommer" authorityYear="2013" box="[165,286,820,843]" class="Chromadorea" family="Diplogastridae" genus="Pristionchus" higherTaxonomySource="GBIF" kingdom="Animalia" order="Rhabditida" pageId="26" pageNumber="27" phylum="Nematoda" rank="species" species="hoplostomus">
+<emphasis id="B944EAF6FFE19041DCD3341AFEA0FC9B" box="[165,286,820,843]" italics="true" pageId="26" pageNumber="27">hoplostomus</emphasis>
+</taxonomicName>
+</td>
+<td id="76D15DDAFFE16FA4DDD63401FD9FFC9B" box="[416,545,815,843]" gridcol="1" gridrow="6" pageId="26" pageNumber="27">G</td>
+<td id="76D15DDAFFE16FA4DE3D3401FD50FC9B" box="[587,750,815,843]" gridcol="2" gridrow="6" pageId="26" pageNumber="27">1-3 peak(s)</td>
+<td id="76D15DDAFFE16FA4DF683401FC0EFC9B" box="[798,944,815,843]" gridcol="3" gridrow="6" pageId="26" pageNumber="27">Three bumps</td>
+<td id="76D15DDAFFE16FA4DFAD3401FBC1FC9B" box="[987,1151,815,843]" gridcol="4" gridrow="6" pageId="26" pageNumber="27">Claw-like, 1-2</td>
+<td id="76D15DDAFFE16FA4D8DD3401FAE5FC9B" box="[1195,1371,815,843]" gridcol="5" gridrow="6" pageId="26" pageNumber="27">Three plates with</td>
+<td id="76D15DDAFFE16FA4D90D3401F92AFC9B" box="[1403,1684,815,843]" gridcol="6" gridrow="6" pageId="26" pageNumber="27">v1-v2d Ẑ v2d-v4; v2d and v3</td>
+<td id="76D15DDAFFE16FA4DAC83401F857FC9B" box="[1726,2025,815,843]" gridcol="7" gridrow="6" pageId="26" pageNumber="27">
+Dorsal tooth of 
+<tr id="350034A6FFE16FA4DCD33476F857FCBF" box="[165,2025,856,879]" gridrow="7" pageId="26" pageNumber="27" rowspan-0="1" rowspan-1="1" rowspan-2="1" rowspan-3="1">
+<td id="76D15DDAFFE16FA4DFAD3476FBC1FCBF" box="[987,1151,856,879]" gridcol="4" gridrow="7" pageId="26" pageNumber="27">stenostomapeak(s)</td>
+<td id="76D15DDAFFE16FA4D8DD3476FAE5FCBF" box="[1195,1371,856,879]" gridcol="5" gridrow="7" pageId="26" pageNumber="27">various number of</td>
+<td id="76D15DDAFFE16FA4D90D3476F92AFCBF" box="[1403,1684,856,879]" gridcol="6" gridrow="7" pageId="26" pageNumber="27">close to each other; v4-ad =</td>
+<td id="76D15DDAFFE16FA4DAC83476F857FCBF" box="[1726,2025,856,879]" gridcol="7" gridrow="7" pageId="26" pageNumber="27">tous form sometimes dorsally</td>
+</tr>
+</td>
+</tr>
+<tr id="350034A6FFE16FA4DCD33452F857FC43" box="[165,2025,892,915]" gridrow="8" pageId="26" pageNumber="27" rowspan-0="1" rowspan-1="1" rowspan-2="1" rowspan-3="1" rowspan-4="1">
+<td id="76D15DDAFFE16FA4D8DD3452FAE5FC43" box="[1195,1371,892,915]" gridcol="5" gridrow="8" pageId="26" pageNumber="27">cusps</td>
+<td id="76D15DDAFFE16FA4D90D3452F92AFC43" box="[1403,1684,892,915]" gridcol="6" gridrow="8" pageId="26" pageNumber="27">ad-pd</td>
+<td id="76D15DDAFFE16FA4DAC83452F857FC43" box="[1726,2025,892,915]" gridcol="7" gridrow="8" pageId="26" pageNumber="27">curved and anteriorly directed.</td>
+</tr>
+<tr id="350034A6FFE16FA4DCD3348EF857FC67" box="[165,2025,928,951]" gridrow="9" pageId="26" pageNumber="27" rowspan-0="1" rowspan-1="1" rowspan-2="1" rowspan-3="1" rowspan-4="1" rowspan-5="1" rowspan-6="1">
+<td id="76D15DDAFFE16FA4DAC8348EF857FC67" box="[1726,2025,928,951]" gridcol="7" gridrow="9" pageId="26" pageNumber="27">Twelve-plated stenostomatous</td>
+</tr>
+<tr id="350034A6FFE16FA4DCD334EAF857FC0B" box="[165,2025,964,987]" gridrow="10" pageId="26" pageNumber="27" rowspan-0="1" rowspan-1="1" rowspan-2="1" rowspan-3="1" rowspan-4="1" rowspan-5="1" rowspan-6="1">
+<td id="76D15DDAFFE16FA4DAC834EAF857FC0B" box="[1726,2025,964,987]" gridcol="7" gridrow="10" pageId="26" pageNumber="27">form present, but rare.</td>
+</tr>
+<tr id="350034A6FFE16FA4DCD334C9F857FBD2" box="[165,2025,999,1026]" gridrow="11" pageId="26" pageNumber="27" rowspan-7="1">
+<td id="76D15DDAFFE16FA4DCD334C9FEDCFBD2" box="[165,354,999,1026]" gridcol="0" gridrow="11" pageId="26" pageNumber="27">
+<taxonomicName id="4C304D67FFE19041DCD334C5FEACFBD2" authorityName="Ragsdale, Kanzaki, Roseler, Herrmann, Sommer" authorityYear="2013" box="[165,274,1003,1026]" class="Chromadorea" family="Diplogastridae" genus="Pristionchus" higherTaxonomySource="GBIF" kingdom="Animalia" order="Rhabditida" pageId="26" pageNumber="27" phylum="Nematoda" rank="species" species="fukushimae">
+<emphasis id="B944EAF6FFE19041DCD334C5FEACFBD2" box="[165,274,1003,1026]" italics="true" pageId="26" pageNumber="27">fukushimae</emphasis>
+</taxonomicName>
+</td>
+<td id="76D15DDAFFE16FA4DDD634C9FD9FFBD2" box="[416,545,999,1026]" gridcol="1" gridrow="11" pageId="26" pageNumber="27">G</td>
+<td id="76D15DDAFFE16FA4DE3D34C9FD50FBD2" box="[587,750,999,1026]" gridcol="2" gridrow="11" pageId="26" pageNumber="27">0-3 peak(s)</td>
+<td id="76D15DDAFFE16FA4DF6834C9FC0EFBD2" box="[798,944,999,1026]" gridcol="3" gridrow="11" pageId="26" pageNumber="27">Three bumps</td>
+<td id="76D15DDAFFE16FA4DFAD34C9FBC1FBD2" box="[987,1151,999,1026]" gridcol="4" gridrow="11" pageId="26" pageNumber="27">Claw-like, single</td>
+<td id="76D15DDAFFE16FA4D8DD34C9FAE5FBD2" box="[1195,1371,999,1026]" gridcol="5" gridrow="11" pageId="26" pageNumber="27">Three plates with</td>
+<td id="76D15DDAFFE16FA4D90D34C9F92AFBD2" box="[1403,1684,999,1026]" gridcol="6" gridrow="11" pageId="26" pageNumber="27">v1-v2d Ẑ v2d-v4; v2d and v3</td>
+</tr>
+<tr id="350034A6FFE16FA4DCD33321F857FBF6" box="[165,2025,1039,1062]" gridrow="12" pageId="26" pageNumber="27" rowspan-0="1" rowspan-1="1" rowspan-2="1" rowspan-3="1" rowspan-7="1">
+<td id="76D15DDAFFE16FA4DFAD3321FBC1FBF6" box="[987,1151,1039,1062]" gridcol="4" gridrow="12" pageId="26" pageNumber="27">peak</td>
+<td id="76D15DDAFFE16FA4D8DD3321FAE5FBF6" box="[1195,1371,1039,1062]" gridcol="5" gridrow="12" pageId="26" pageNumber="27">various number of</td>
+<td id="76D15DDAFFE16FA4D90D3321F92AFBF6" box="[1403,1684,1039,1062]" gridcol="6" gridrow="12" pageId="26" pageNumber="27">close to each other; v4-ad =</td>
+</tr>
+<tr id="350034A6FFE16FA4DCD3331DF857FB9A" box="[165,2025,1075,1098]" gridrow="13" pageId="26" pageNumber="27" rowspan-0="1" rowspan-1="1" rowspan-2="1" rowspan-3="1" rowspan-4="1" rowspan-7="1">
+<td id="76D15DDAFFE16FA4D8DD331DFAE5FB9A" box="[1195,1371,1075,1098]" gridcol="5" gridrow="13" pageId="26" pageNumber="27">cusps</td>
+<td id="76D15DDAFFE16FA4D90D331DF92AFB9A" box="[1403,1684,1075,1098]" gridcol="6" gridrow="13" pageId="26" pageNumber="27">ad-pd</td>
+</tr>
+<tr id="350034A6FFE16FA4DCD33378F857FBA2" box="[165,2025,1110,1138]" gridrow="14" pageId="26" pageNumber="27">
+<td id="76D15DDAFFE16FA4DCD33378FEDCFBA2" box="[165,354,1110,1138]" gridcol="0" gridrow="14" pageId="26" pageNumber="27">yamagatae</td>
+<td id="76D15DDAFFE16FA4DDD63378FD9FFBA2" box="[416,545,1110,1138]" gridcol="1" gridrow="14" pageId="26" pageNumber="27">G</td>
+<td id="76D15DDAFFE16FA4DE3D3378FD50FBA2" box="[587,750,1110,1138]" gridcol="2" gridrow="14" pageId="26" pageNumber="27">Single peak</td>
+<td id="76D15DDAFFE16FA4DF683378FC0EFBA2" box="[798,944,1110,1138]" gridcol="3" gridrow="14" pageId="26" pageNumber="27">Three bumps</td>
+<td id="76D15DDAFFE16FA4DFAD3378FBC1FBA2" box="[987,1151,1110,1138]" gridcol="4" gridrow="14" pageId="26" pageNumber="27">Claw-like, 1-2</td>
+<td id="76D15DDAFFE16FA4D8DD3378FAE5FBA2" box="[1195,1371,1110,1138]" gridcol="5" gridrow="14" pageId="26" pageNumber="27">Three plates with</td>
+<td id="76D15DDAFFE16FA4D90D3378F92AFBA2" box="[1403,1684,1110,1138]" gridcol="6" gridrow="14" pageId="26" pageNumber="27">v1-v2d Ẑ v2d-v4; v2d and v3</td>
+<td id="76D15DDAFFE16FA4DAC83378F857FBA2" box="[1726,2025,1110,1138]" gridcol="7" gridrow="14" pageId="26" pageNumber="27">Dorsal tooth of stenostomatous</td>
+</tr>
+<tr id="350034A6FFE16FA4DCD33351F857FB46" box="[165,2025,1151,1174]" gridrow="15" pageId="26" pageNumber="27" rowspan-0="1" rowspan-1="1" rowspan-2="1" rowspan-3="1">
+<td id="76D15DDAFFE16FA4DFAD3351FBC1FB46" box="[987,1151,1151,1174]" gridcol="4" gridrow="15" pageId="26" pageNumber="27">peak(s)</td>
+<td id="76D15DDAFFE16FA4D8DD3351FAE5FB46" box="[1195,1371,1151,1174]" gridcol="5" gridrow="15" pageId="26" pageNumber="27">various number of</td>
+<td id="76D15DDAFFE16FA4D90D3351F92AFB46" box="[1403,1684,1151,1174]" gridcol="6" gridrow="15" pageId="26" pageNumber="27">close to each other; v4-ad =</td>
+<td id="76D15DDAFFE16FA4DAC83351F857FB46" box="[1726,2025,1151,1174]" gridcol="7" gridrow="15" pageId="26" pageNumber="27">form somewhat blunt</td>
+</tr>
+<tr id="350034A6FFE16FA4DCD3338DF857FB6A" box="[165,2025,1187,1210]" gridrow="16" pageId="26" pageNumber="27" rowspan-0="1" rowspan-1="1" rowspan-2="1" rowspan-3="1" rowspan-4="1" rowspan-7="1">
+<td id="76D15DDAFFE16FA4D8DD338DFAE5FB6A" box="[1195,1371,1187,1210]" gridcol="5" gridrow="16" pageId="26" pageNumber="27">cusps</td>
+<td id="76D15DDAFFE16FA4D90D338DF92AFB6A" box="[1403,1684,1187,1210]" gridcol="6" gridrow="16" pageId="26" pageNumber="27">ad-pd</td>
+</tr>
+<tr id="350034A6FFE16FA4DCD333E4F857FB31" box="[165,2025,1226,1249]" gridrow="17" pageId="26" pageNumber="27">
+<td id="76D15DDAFFE16FA4DCD333E4FEDCFB31" box="[165,354,1226,1249]" gridcol="0" gridrow="17" pageId="26" pageNumber="27">
+<taxonomicName id="4C304D67FFE19041DCD333E4FEB4FB31" authority="Kanzaki &amp; Herrmann &amp; Weiler &amp; Röseler &amp; Theska &amp; Berger &amp; Rödelsperger &amp; Sommer, 2021" authorityName="Kanzaki &amp; Herrmann &amp; Weiler &amp; Röseler &amp; Theska &amp; Berger &amp; Rödelsperger &amp; Sommer" authorityYear="2021" box="[165,266,1226,1249]" class="Chromadorea" family="Diplogastridae" genus="Pristionchus" higherTaxonomySource="GBIF" kingdom="Animalia" order="Rhabditida" pageId="26" pageNumber="27" phylum="Nematoda" rank="species" species="magnoliae" status="n. sp.">
+<emphasis id="B944EAF6FFE19041DCD333E4FEB4FB31" box="[165,266,1226,1249]" italics="true" pageId="26" pageNumber="27">magnoliae</emphasis>
+</taxonomicName>
+<taxonomicNameLabel id="A277578DFFE19041DD6733E4FEFBFB31" box="[273,325,1226,1249]" pageId="26" pageNumber="27" rank="species">n. sp.</taxonomicNameLabel>
+</td>
+<td id="76D15DDAFFE16FA4DDD633E4FD9FFB31" box="[416,545,1226,1249]" gridcol="1" gridrow="17" pageId="26" pageNumber="27">G</td>
+<td id="76D15DDAFFE16FA4DE3D33E4FD50FB31" box="[587,750,1226,1249]" gridcol="2" gridrow="17" pageId="26" pageNumber="27">Two peaks</td>
+<td id="76D15DDAFFE16FA4DF6833E4FC0EFB31" box="[798,944,1226,1249]" gridcol="3" gridrow="17" pageId="26" pageNumber="27">Three bumps</td>
+<td id="76D15DDAFFE16FA4DFAD33E4FBC1FB31" box="[987,1151,1226,1249]" gridcol="4" gridrow="17" pageId="26" pageNumber="27">Claw-like, 1-2</td>
+<td id="76D15DDAFFE16FA4D8DD33E4FAE5FB31" box="[1195,1371,1226,1249]" gridcol="5" gridrow="17" pageId="26" pageNumber="27">Three plates with</td>
+<td id="76D15DDAFFE16FA4D90D33E4F92AFB31" box="[1403,1684,1226,1249]" gridcol="6" gridrow="17" pageId="26" pageNumber="27">v1-v2d&gt; v2d-v4; v2d and v3</td>
+<td id="76D15DDAFFE16FA4DAC833E4F857FB31" box="[1726,2025,1226,1249]" gridcol="7" gridrow="17" pageId="26" pageNumber="27">Dorsal tooth of stenostomatous</td>
+</tr>
+<tr id="350034A6FFE16FA4DCD333C0F857FAD5" box="[165,2025,1262,1285]" gridrow="18" pageId="26" pageNumber="27" rowspan-0="1" rowspan-1="1" rowspan-2="1" rowspan-3="1">
+<td id="76D15DDAFFE16FA4DFAD33C0FBC1FAD5" box="[987,1151,1262,1285]" gridcol="4" gridrow="18" pageId="26" pageNumber="27">peak(s)</td>
+<td id="76D15DDAFFE16FA4D8DD33C0FAE5FAD5" box="[1195,1371,1262,1285]" gridcol="5" gridrow="18" pageId="26" pageNumber="27">various number of</td>
+<td id="76D15DDAFFE16FA4D90D33C0F92AFAD5" box="[1403,1684,1262,1285]" gridcol="6" gridrow="18" pageId="26" pageNumber="27">close to each other; v4-ad =</td>
+<td id="76D15DDAFFE16FA4DAC833C0F857FAD5" box="[1726,2025,1262,1285]" gridcol="7" gridrow="18" pageId="26" pageNumber="27">form somewhat blunt.</td>
+</tr>
+<tr id="350034A6FFE16FA4DCD3323CF857FAF9" box="[165,2025,1298,1321]" gridrow="19" pageId="26" pageNumber="27" rowspan-0="1" rowspan-1="1" rowspan-2="1" rowspan-3="1" rowspan-4="1" rowspan-7="1">
+<td id="76D15DDAFFE16FA4D8DD323CFAE5FAF9" box="[1195,1371,1298,1321]" gridcol="5" gridrow="19" pageId="26" pageNumber="27">cusps</td>
+<td id="76D15DDAFFE16FA4D90D323CF92AFAF9" box="[1403,1684,1298,1321]" gridcol="6" gridrow="19" pageId="26" pageNumber="27">ad-pd</td>
+</tr>
+<tr id="350034A6FFE16FA4DCD33217F857FA80" box="[165,2025,1337,1360]" gridrow="20" pageId="26" pageNumber="27">
+<td id="76D15DDAFFE16FA4DCD33217FEDCFA80" box="[165,354,1337,1360]" gridcol="0" gridrow="20" pageId="26" pageNumber="27">
+<taxonomicName id="4C304D67FFE19041DCD33217FF5CFA80" authority="Kanzaki &amp; Herrmann &amp; Weiler &amp; Röseler &amp; Theska &amp; Berger &amp; Rödelsperger &amp; Sommer, 2021" authorityName="Kanzaki &amp; Herrmann &amp; Weiler &amp; Röseler &amp; Theska &amp; Berger &amp; Rödelsperger &amp; Sommer" authorityYear="2021" box="[165,226,1337,1360]" class="Chromadorea" family="Diplogastridae" genus="Pristionchus" higherTaxonomySource="GBIF" kingdom="Animalia" order="Rhabditida" pageId="26" pageNumber="27" phylum="Nematoda" rank="species" species="musae" status="n. sp.">
+<emphasis id="B944EAF6FFE19041DCD33217FF5CFA80" box="[165,226,1337,1360]" italics="true" pageId="26" pageNumber="27">musae</emphasis>
+</taxonomicName>
+<taxonomicNameLabel id="A277578DFFE19041DC9F3217FEA3FA80" box="[233,285,1337,1360]" pageId="26" pageNumber="27" rank="species">n. sp.</taxonomicNameLabel>
+</td>
+<td id="76D15DDAFFE16FA4DDD63217FD9FFA80" box="[416,545,1337,1360]" gridcol="1" gridrow="20" pageId="26" pageNumber="27">G</td>
+<td id="76D15DDAFFE16FA4DE3D3217FD50FA80" box="[587,750,1337,1360]" gridcol="2" gridrow="20" pageId="26" pageNumber="27">Two peaks</td>
+<td id="76D15DDAFFE16FA4DF683217FC0EFA80" box="[798,944,1337,1360]" gridcol="3" gridrow="20" pageId="26" pageNumber="27">Three bumps</td>
+<td id="76D15DDAFFE16FA4DFAD3217FBC1FA80" box="[987,1151,1337,1360]" gridcol="4" gridrow="20" pageId="26" pageNumber="27">Claw-like, 1-2</td>
+<td id="76D15DDAFFE16FA4D8DD3217FAE5FA80" box="[1195,1371,1337,1360]" gridcol="5" gridrow="20" pageId="26" pageNumber="27">Three plates with</td>
+<td id="76D15DDAFFE16FA4D90D3217F92AFA80" box="[1403,1684,1337,1360]" gridcol="6" gridrow="20" pageId="26" pageNumber="27">v1-v2d&gt; v2d-v4; v2d and v3</td>
+<td id="76D15DDAFFE16FA4DAC83217F857FA80" box="[1726,2025,1337,1360]" gridcol="7" gridrow="20" pageId="26" pageNumber="27">
+Dorsal tooth of 
+<tr id="350034A6FFE16FA4DCD33273F857FAA4" box="[165,2025,1373,1396]" gridrow="21" pageId="26" pageNumber="27" rowspan-0="1" rowspan-1="1" rowspan-2="1" rowspan-3="1">
+<td id="76D15DDAFFE16FA4DFAD3273FBC1FAA4" box="[987,1151,1373,1396]" gridcol="4" gridrow="21" pageId="26" pageNumber="27">stenostomapeak(s)</td>
+<td id="76D15DDAFFE16FA4D8DD3273FAE5FAA4" box="[1195,1371,1373,1396]" gridcol="5" gridrow="21" pageId="26" pageNumber="27">various number of</td>
+<td id="76D15DDAFFE16FA4D90D3273F92AFAA4" box="[1403,1684,1373,1396]" gridcol="6" gridrow="21" pageId="26" pageNumber="27">close to each other; v4-ad =</td>
+<td id="76D15DDAFFE16FA4DAC83273F857FAA4" box="[1726,2025,1373,1396]" gridcol="7" gridrow="21" pageId="26" pageNumber="27">tous form sometimes dorsally</td>
+</tr>
+</td>
+</tr>
+<tr id="350034A6FFE16FA4DCD332AFF857FA48" box="[165,2025,1409,1432]" gridrow="22" pageId="26" pageNumber="27" rowspan-0="1" rowspan-1="1" rowspan-2="1" rowspan-3="1" rowspan-4="1">
+<td id="76D15DDAFFE16FA4D8DD32AFFAE5FA48" box="[1195,1371,1409,1432]" gridcol="5" gridrow="22" pageId="26" pageNumber="27">cusps</td>
+<td id="76D15DDAFFE16FA4D90D32AFF92AFA48" box="[1403,1684,1409,1432]" gridcol="6" gridrow="22" pageId="26" pageNumber="27">ad-pd</td>
+<td id="76D15DDAFFE16FA4DAC832AFF857FA48" box="[1726,2025,1409,1432]" gridcol="7" gridrow="22" pageId="26" pageNumber="27">curved and anteriorly directed.</td>
+</tr>
+<tr id="350034A6FFE16FA4DCD33287F857FA10" box="[165,2025,1449,1472]" gridrow="23" pageId="26" pageNumber="27">
+<td id="76D15DDAFFE16FA4DCD33287FEDCFA10" box="[165,354,1449,1472]" gridcol="0" gridrow="23" pageId="26" pageNumber="27">
+<taxonomicName id="4C304D67FFE19041DCD33287FEAAFA10" authority="Kanzaki &amp; Herrmann &amp; Weiler &amp; Röseler &amp; Theska &amp; Berger &amp; Rödelsperger &amp; Sommer, 2021" authorityName="Kanzaki &amp; Herrmann &amp; Weiler &amp; Röseler &amp; Theska &amp; Berger &amp; Rödelsperger &amp; Sommer" authorityYear="2021" box="[165,276,1449,1472]" class="Chromadorea" family="Diplogastridae" genus="Pristionchus" higherTaxonomySource="GBIF" kingdom="Animalia" order="Rhabditida" pageId="26" pageNumber="27" phylum="Nematoda" rank="species" species="auriculatae" status="n. sp.">
+<emphasis id="B944EAF6FFE19041DCD33287FEAAFA10" box="[165,276,1449,1472]" italics="true" pageId="26" pageNumber="27">auriculatae</emphasis>
+</taxonomicName>
+<taxonomicNameLabel id="A277578DFFE19041DD6C3287FEF0FA10" box="[282,334,1449,1472]" pageId="26" pageNumber="27" rank="species">n. sp.</taxonomicNameLabel>
+</td>
+<td id="76D15DDAFFE16FA4DDD63287FD9FFA10" box="[416,545,1449,1472]" gridcol="1" gridrow="23" pageId="26" pageNumber="27">G</td>
+<td id="76D15DDAFFE16FA4DE3D3287FD50FA10" box="[587,750,1449,1472]" gridcol="2" gridrow="23" pageId="26" pageNumber="27">One or two blunt</td>
+<td id="76D15DDAFFE16FA4DF683287FC0EFA10" box="[798,944,1449,1472]" gridcol="3" gridrow="23" pageId="26" pageNumber="27">Three bumps</td>
+<td id="76D15DDAFFE16FA4DFAD3287FBC1FA10" box="[987,1151,1449,1472]" gridcol="4" gridrow="23" pageId="26" pageNumber="27">Claw-like, 1-2</td>
+<td id="76D15DDAFFE16FA4D8DD3287FAE5FA10" box="[1195,1371,1449,1472]" gridcol="5" gridrow="23" pageId="26" pageNumber="27">Three plates with</td>
+<td id="76D15DDAFFE16FA4D90D3287F92AFA10" box="[1403,1684,1449,1472]" gridcol="6" gridrow="23" pageId="26" pageNumber="27">v1-v2d = v2d-v4; v2d and v3</td>
+<td id="76D15DDAFFE16FA4DAC83287F857FA10" box="[1726,2025,1449,1472]" gridcol="7" gridrow="23" pageId="26" pageNumber="27">
+Dorsal tooth of 
+<tr id="350034A6FFE16FA4DCD332E3F857FA34" box="[165,2025,1485,1508]" gridrow="24" pageId="26" pageNumber="27" rowspan-0="1" rowspan-1="1" rowspan-3="1">
+<td id="76D15DDAFFE16FA4DE3D32E3FD50FA34" box="[587,750,1485,1508]" gridcol="2" gridrow="24" pageId="26" pageNumber="27">stenostomapeak(s)</td>
+<td id="76D15DDAFFE16FA4DFAD32E3FBC1FA34" box="[987,1151,1485,1508]" gridcol="4" gridrow="24" pageId="26" pageNumber="27">peak(s)</td>
+<td id="76D15DDAFFE16FA4D8DD32E3FAE5FA34" box="[1195,1371,1485,1508]" gridcol="5" gridrow="24" pageId="26" pageNumber="27">various number of</td>
+<td id="76D15DDAFFE16FA4D90D32E3F92AFA34" box="[1403,1684,1485,1508]" gridcol="6" gridrow="24" pageId="26" pageNumber="27">close to each other; v4-ad =</td>
+<td id="76D15DDAFFE16FA4DAC832E3F857FA34" box="[1726,2025,1485,1508]" gridcol="7" gridrow="24" pageId="26" pageNumber="27">tous form sometimes dorsally</td>
+</tr>
+</td>
+</tr>
+<tr id="350034A6FFE16FA4DCD332DFF857F9D8" box="[165,2025,1521,1544]" gridrow="25" pageId="26" pageNumber="27" rowspan-0="1" rowspan-1="1" rowspan-2="1" rowspan-3="1" rowspan-4="1">
+<td id="76D15DDAFFE16FA4D8DD32DFFAE5F9D8" box="[1195,1371,1521,1544]" gridcol="5" gridrow="25" pageId="26" pageNumber="27">cusps</td>
+<td id="76D15DDAFFE16FA4D90D32DFF92AF9D8" box="[1403,1684,1521,1544]" gridcol="6" gridrow="25" pageId="26" pageNumber="27">ad-pd</td>
+<td id="76D15DDAFFE16FA4DAC832DFF857F9D8" box="[1726,2025,1521,1544]" gridcol="7" gridrow="25" pageId="26" pageNumber="27">curved and anteriorly directed.</td>
+</tr>
+<tr id="350034A6FFE16FA4DCD33136F857F9FF" box="[165,2025,1560,1583]" gridrow="26" pageId="26" pageNumber="27">
+<td id="76D15DDAFFE16FA4DCD33136FEDCF9FF" box="[165,354,1560,1583]" gridcol="0" gridrow="26" pageId="26" pageNumber="27">
+<taxonomicName id="4C304D67FFE19041DCD33136FE96F9FF" authority="Kanzaki &amp; Herrmann &amp; Weiler &amp; Röseler &amp; Theska &amp; Berger &amp; Rödelsperger &amp; Sommer, 2021" authorityName="Kanzaki &amp; Herrmann &amp; Weiler &amp; Röseler &amp; Theska &amp; Berger &amp; Rödelsperger &amp; Sommer" authorityYear="2021" box="[165,296,1560,1583]" class="Chromadorea" family="Diplogastridae" genus="Pristionchus" higherTaxonomySource="GBIF" kingdom="Animalia" order="Rhabditida" pageId="26" pageNumber="27" phylum="Nematoda" rank="species" species="passalidorum" status="n. sp.">
+<emphasis id="B944EAF6FFE19041DCD33136FE96F9FF" box="[165,296,1560,1583]" italics="true" pageId="26" pageNumber="27">passalidorum</emphasis>
+</taxonomicName>
+<taxonomicNameLabel id="A277578DFFE19041DD583136FEDCF9FF" box="[302,354,1560,1583]" pageId="26" pageNumber="27" rank="species">n. sp.</taxonomicNameLabel>
+</td>
+<td id="76D15DDAFFE16FA4DDD63136FD9FF9FF" box="[416,545,1560,1583]" gridcol="1" gridrow="26" pageId="26" pageNumber="27">G</td>
+<td id="76D15DDAFFE16FA4DE3D3136FD50F9FF" box="[587,750,1560,1583]" gridcol="2" gridrow="26" pageId="26" pageNumber="27">Single peak</td>
+<td id="76D15DDAFFE16FA4DF683136FC0EF9FF" box="[798,944,1560,1583]" gridcol="3" gridrow="26" pageId="26" pageNumber="27">Three or more</td>
+<td id="76D15DDAFFE16FA4DFAD3136FBC1F9FF" box="[987,1151,1560,1583]" gridcol="4" gridrow="26" pageId="26" pageNumber="27">Claw-like, single</td>
+<td id="76D15DDAFFE16FA4D8DD3136FAE5F9FF" box="[1195,1371,1560,1583]" gridcol="5" gridrow="26" pageId="26" pageNumber="27">Three plates with</td>
+<td id="76D15DDAFFE16FA4D90D3136F92AF9FF" box="[1403,1684,1560,1583]" gridcol="6" gridrow="26" pageId="26" pageNumber="27">v1-v2d&gt; v2d-v4; v2d and v3</td>
+<td id="76D15DDAFFE16FA4DAC83136F857F9FF" box="[1726,2025,1560,1583]" gridcol="7" gridrow="26" pageId="26" pageNumber="27">
+Dorsal tooth of 
+<tr id="350034A6FFE16FA4DCD33112F857F983" box="[165,2025,1596,1619]" gridrow="27" pageId="26" pageNumber="27" rowspan-0="1" rowspan-1="1" rowspan-2="1">
+<td id="76D15DDAFFE16FA4DF683112FC0EF983" box="[798,944,1596,1619]" gridcol="3" gridrow="27" pageId="26" pageNumber="27">stenostomadenticles</td>
+<td id="76D15DDAFFE16FA4DFAD3112FBC1F983" box="[987,1151,1596,1619]" gridcol="4" gridrow="27" pageId="26" pageNumber="27">peak</td>
+<td id="76D15DDAFFE16FA4D8DD3112FAE5F983" box="[1195,1371,1596,1619]" gridcol="5" gridrow="27" pageId="26" pageNumber="27">various number of</td>
+<td id="76D15DDAFFE16FA4D90D3112F92AF983" box="[1403,1684,1596,1619]" gridcol="6" gridrow="27" pageId="26" pageNumber="27">close to each other; v4-ad =</td>
+<td id="76D15DDAFFE16FA4DAC83112F857F983" box="[1726,2025,1596,1619]" gridcol="7" gridrow="27" pageId="26" pageNumber="27">tous form sometimes dorsally</td>
+</tr>
+</td>
+</tr>
+<tr id="350034A6FFE16FA4DCD3314EF857F9A7" box="[165,2025,1632,1655]" gridrow="28" pageId="26" pageNumber="27" rowspan-0="1" rowspan-1="1" rowspan-2="1" rowspan-4="1">
+<td id="76D15DDAFFE16FA4DF68314EFC0EF9A7" box="[798,944,1632,1655]" gridcol="3" gridrow="28" pageId="26" pageNumber="27">(pointed)</td>
+<td id="76D15DDAFFE16FA4D8DD314EFAE5F9A7" box="[1195,1371,1632,1655]" gridcol="5" gridrow="28" pageId="26" pageNumber="27">cusps</td>
+<td id="76D15DDAFFE16FA4D90D314EF92AF9A7" box="[1403,1684,1632,1655]" gridcol="6" gridrow="28" pageId="26" pageNumber="27">ad-pd</td>
+<td id="76D15DDAFFE16FA4DAC8314EF857F9A7" box="[1726,2025,1632,1655]" gridcol="7" gridrow="28" pageId="26" pageNumber="27">curved and anteriorly directed.</td>
+</tr>
+</table>
+</paragraph>
+<paragraph id="8B8F36E4FFE09040DCB135F9FB66FB89" blockId="27.[151,1437,151,2013]" pageId="27" pageNumber="28">Stenostomatous form. Cheilostom consisting of six per- and interradial plates. Each plate is sometimes separated into two plates, forming a rare 12-plated morph. Incision between plates not always easily distinguished. Anterior end of each plate rounded and elongated to project from stomal opening forming small flap. Gymnostom short, cuticular ring-like anterior end overlapping cheilostom internally. Stegostom separated into three subsections: pro-meso, meta, and telostegostom. Pro-mesostegostom forming a weakly cuticularized ring internally overlapping with gymnostoma to connect gymnostom and metastegostom. Metastegostom bearing conspicuous and movable triangular or flint-shaped dorsal tooth with strongly sclerotized surface giving an appearance of an inverted V-shape in light microscopy in lateral view; pointed left subventral ridge with three minute adventitious denticles on a plate, most ventral denticle often masked by remaining two in lateral view; pointed right subventral ridge, often with distinct distal adventitious denticle(s). Shape of dorsal tooth, right and left subventral ridges are variable within and among species. Telostegostom weakly sclerotized cup-like cavity connecting stoma and pharynx.</paragraph>
+<paragraph id="8B8F36E4FFE09040DCB1334DFC4BF9D9" blockId="27.[151,1437,151,2013]" pageId="27" pageNumber="28">
+Eurystomatous form. Cheilostom divided into six well-distinguished per- and interradial plates. Anterior end of each plate rounded and elongated to protrude from stomal opening and form a small flap. Plates often partially or completely separated to form large plates with split tip or two narrow plates. 6–12 cheilostomatal flaps derived from 6–12 plates. 12-plated eurystomatous form of 
+<taxonomicName id="4C304D67FFE09040DEAB33E1FCE5FB39" authorityName="Ragsdale, Kanzaki, Roseler, Herrmann, Sommer" authorityYear="2013" box="[733,859,1231,1257]" class="Chromadorea" family="Diplogastridae" genus="Pristionchus" higherTaxonomySource="GBIF" kingdom="Animalia" order="Rhabditida" pageId="27" pageNumber="28" phylum="Nematoda" rank="species" species="triformis">
+<emphasis id="B944EAF6FFE09040DEAB33E1FCE5FB39" box="[733,859,1231,1257]" italics="true" pageId="27" pageNumber="28">P. triformis</emphasis>
+</taxonomicName>
+is regarded as ‘megastomatous form’. Gymnostom with thick cuticle, forming short, ring-like tube being thicker posteriorly; finely serrated anterior end of gymnostom internally overlapping posterior end of cheilostomatal plates. Structural variation within each species described below. Stegostom separated into three subsections: pro-meso, meta, and telostegostom. Pro-mesostegostom variable among individuals in all examined species, variation described below. Metastegostom bearing large claw-like dorsal tooth, and large, claw-like or pointed right subventral tooth. Left subventral sector of metastegostom bearing three triangular ridges; tip of each ridge sometimes split into two or more fine tips, shape varies within and among species. Dorsal tooth and right subventral tooth movable. Movement not observed in left subventral denticles. Telostegostom weakly sclerotized cup-like cavity connecting stoma and pharynx.
+</paragraph>
+<paragraph id="8B8F36E4FFE09040DCB1313DFC4BF9FD" blockId="27.[151,1437,151,2013]" box="[199,1013,1555,1581]" pageId="27" pageNumber="28">Variation in gymnostom and pro-mesostegostom of eurystomatous form.</paragraph>
+<paragraph id="8B8F36E4FFE09040DCB13119FD6EF89D" blockId="27.[151,1437,151,2013]" pageId="27" pageNumber="28">
+Pro-mesostegostom of 
+<taxonomicName id="4C304D67FFE09040DDBC3119FD92F981" authorityName="Ragsdale, Kanzaki, Roseler, Herrmann, Sommer" authorityYear="2013" box="[458,556,1591,1617]" class="Chromadorea" family="Diplogastridae" genus="Pristionchus" higherTaxonomySource="GBIF" kingdom="Animalia" order="Rhabditida" pageId="27" pageNumber="28" phylum="Nematoda" rank="species" species="triformis">
+<emphasis id="B944EAF6FFE09040DDBC3119FD92F981" box="[458,556,1591,1617]" italics="true" pageId="27" pageNumber="28">triformis</emphasis>
+</taxonomicName>
+-group well-developed compared to other species in genus, two different 
+<typeStatus id="548B8846FFE09040D9173119FA22F981" box="[1377,1436,1591,1617]" pageId="27" pageNumber="28">types</typeStatus>
+of stomal structure in eury- and megastomatous forms. Relatively well sclerotized pro-mesostegostom internally overlap with posterior end of gymnostom. In one 
+<typeStatus id="548B8846FFE09040DECB3151FD4EF949" box="[701,752,1663,1689]" pageId="27" pageNumber="28">type</typeStatus>
+, referred to as ‘ 
+<typeStatus id="548B8846FFE09040DFE03151FC75F949" box="[918,971,1663,1689]" pageId="27" pageNumber="28">type</typeStatus>
+1’, gymnostom relatively thick and short, pro-mesostegostom relatively short, bearing coarse and short serrates at anterior end (
+<figureCitation id="130B2A61FFE09040D821318DFB7EF96D" box="[1111,1216,1699,1725]" captionStart="FIGURE 21" captionStartId="32.[151,250,1693,1717]" captionTargetBox="[151,1436,181,1669]" captionTargetId="figure-26@32.[151,1436,181,1669]" captionTargetPageId="32" captionText="FIGURE 21. Male tail characters of Pristionchus magnoliae n. sp. Left lateral view of whole tail in five different focal planes and of spicule and gubernaculum in two different focal planes. Genital papillae are labelled using to the terminology of Sudhaus &amp; Fürst von Lieven (2003), and laterally located papillae are indicated with “d”." figureDoi="http://doi.org/10.5281/zenodo.4613216" httpUri="https://zenodo.org/record/4613216/files/figure.png" pageId="27" pageNumber="28">Fig. 21D</figureCitation>
+). ‘ 
+<typeStatus id="548B8846FFE09040D8AE318DFAABF96D" box="[1240,1301,1699,1725]" pageId="27" pageNumber="28">Type</typeStatus>
+2’ with thin and long gymnostom, pro-mesostegostom loses anterior serrates, but often bears sparse or 2–3 rows of fine serrates on inner wall of elongated pro-mesostegostom. These two 
+<typeStatus id="548B8846FFE09040DF5831C5FCD7F8D5" box="[814,873,1771,1797]" pageId="27" pageNumber="28">types</typeStatus>
+are not always easily distinguishable by light microscopy. Further, intermediate 
+<typeStatus id="548B8846FFE09040DD8E3021FD88F8F9" box="[504,566,1807,1833]" pageId="27" pageNumber="28">types</typeStatus>
+, 
+<emphasis id="B944EAF6FFE09040DE373021FDD7F8F8" box="[577,617,1807,1832]" italics="true" pageId="27" pageNumber="28">e.g.</emphasis>
+, lacking both anterior and posterior serrates, occur. Both 
+<typeStatus id="548B8846FFE09040D8903021FA9FF8F9" box="[1254,1313,1807,1833]" pageId="27" pageNumber="28">types</typeStatus>
+are treated as variation within the eury/megastomatous forms.
+</paragraph>
+<paragraph id="8B8F36E4FFE09047DCB13079FD30FD55" blockId="27.[151,1437,151,2013]" lastBlockId="28.[151,1437,151,1185]" lastPageId="28" lastPageNumber="29" pageId="27" pageNumber="28">
+Male. Whole body ventrally arcuate, strongly ventrally curved at tail region when killed by heat. Testis single, ventrally located, anterior part reflexed to right or left side; spermatogonia arranged in three to five rows in reflexed part, well-developed spermatocytes arranged as three to four rows in anterior two-thirds of main branch, mature amoeboid spermatids arranged in multiple rows in proximal part of gonad. 
+<emphasis id="B944EAF6FFE09040DF9530EDFBD1F80D" box="[995,1135,1987,2013]" italics="true" pageId="27" pageNumber="28">Vas deferens</emphasis>
+not clearly separated from other parts of gonad. Posterior end of 
+<emphasis id="B944EAF6FFE79047DE3237B9FD71FF61" box="[580,719,151,177]" italics="true" pageId="28" pageNumber="29">vas deferens</emphasis>
+and rectum fused to form a cloacal tube. Spicules paired, separate; spicules smoothly curved in ventral view, adjacent to each other for distal third of their length, each smoothly tapering to pointed distal end; spicule in lateral view smoothly ventrally arcuate, giving spicule about 100° curvature, oval manubrium at anterior end, lamina/calomus complex smoothly tapering to pointed distal end. Gubernaculum conspicuous, about one-third of spicule length, broad anteriorly such that dorsal wall is slightly recurved with dorsal and ventral walls separate at 50–60° angle at posterior end; dorsal side of gubernaculum possessing single, membranous, anteriorly directed process and lateral pair of more sclerotized, anteriorly and obliquely ventrally directed processes. In lateral view, anterior half of gubernaculum with two successive curves separated by anteriorly and obliquely ventrally directed process, with anterior terminal curvature highly concave and almost closed, with deep posterior curvature being one-third of gubernaculum length; posterior half forming tube-like process enveloping spicules. Cloacal opening (co) slit-like in ventral view; one small, ventral, single genital papilla (vs) on anterior cloacal lip. All nine paired genital papillae papilliform. Tail conoid with a long spike. Arrangement of paired papillae and phasmid is variable among species, but size and structure of papillae are consistent with what has been described above. Bursa or bursal flap absent.
+</paragraph>
+<paragraph id="8B8F36E4FFE79047DCB135A1FC5CFB71" blockId="28.[151,1437,151,1185]" pageId="28" pageNumber="29">
+Female/hermaphrodite. Body relaxed or weakly ventrally arcuate when killed by heat. Gonad didelphic, amphidelphic; each gonadal system arranged from vulva/vagina as uterus, oviduct, and ovary; anterior gonad right of intestine, with uterus and oviduct extending ventrally and anteriorly on right of intestine and with totally reflexed (=antidromous reflexion) ovary extending dorsally on left of intestine; oocytes mostly arranged in three to four or more rows in distal two-thirds of ovary and in double or single row in rest of ovary, distal tips of each ovary reaching oviduct of opposite gonad branch; anterior end of oviduct (=junction tissue between ovary and oviduct) consists of rounded cells; anterior part of oviduct consists of rounded cells, forming a simple tube; middle part of oviduct serving as spermatheca, consists of roundish and relatively large cells. Eggs in single to multiple-cell stage or even further developed at posterior part of oviduct (=uterus), in young females being composed of squared or angular cells, long enough to contain one well-developed oocyte. 
+<emphasis id="B944EAF6FFE79047DF6934FDFBA6FC3C" box="[799,1048,979,1005]" italics="true" pageId="28" pageNumber="29">Receptaculum seminis</emphasis>
+not observed, 
+<emphasis id="B944EAF6FFE79047D8C834FDFB5FFC3C" box="[1214,1249,979,1004]" italics="true" pageId="28" pageNumber="29">i.e.</emphasis>
+, the organ is not independent, and a part of oviduct/uterus works as the organ; vaginal glands present but obscure; vagina perpendicular to body surface, surrounded by sclerotized tissue; vulva slightly protuberant in lateral view, pore-like in ventral view; rectum about one anal body diameter (
+<collectionCode id="ED21AE21FFE79047DEE33311FD6DFB89" box="[661,723,1087,1113]" country="United Kingdom" lsid="urn:lsid:biocol.org:col:14464" name="University of Aberdeen" pageId="28" pageNumber="29" type="Herbarium">ABD</collectionCode>
+) long, intestine/rectum junction surrounded by well-developed sphincter muscle. Anus in form of dome-shaped slit, posterior anal lip slightly protuberant. Tail elongate conoid with filiform terminus. The position of phasmid described for each species.
+</paragraph>
+</subSubSection>
+</treatment>
+</document>
