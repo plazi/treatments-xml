@@ -1,0 +1,998 @@
+<document id="A09A61CA939C18FD23F6806D8102548C" ID-DOI="http://doi.org/10.5281/zenodo.4389345" ID-GBIF-Dataset="abaedfdb-02f1-463c-a99c-5821eaa1d6cb" ID-GBIF-Taxon="176240992" ID-ISSN="1175-5326" ID-Zenodo-Dep="4389345" ID-ZooBank="EE3E9D88-F406-475A-A9BC-6DD6C24AC79F" _generate="added" checkinTime="1608623789808" checkinUser="plazi" docAuthor="Rousou, Maria, Plaiti, Wanda, Lowry, Jim, Charalambous, Stephanos &amp; Chintiroglou, Chariton Charles" docDate="2020" docId="5C3887CEFFD2BB432FA52B290C7AFAE3" docLanguage="en" docName="zootaxa.4896.3.3.pdf" docOrigin="Zootaxa 4896 (3)" docStyle="DocumentStyle:647186512141C8FC8976D5BCC54AEB7D.3:Zootaxa.2013.journal_article" docStyleId="647186512141C8FC8976D5BCC54AEB7D" docStyleName="Zootaxa.2013.journal_article" docStyleVersion="3" docTitle="Amphipoda" docType="treatment" docVersion="8" lastPageId="5" lastPageNumber="378" masterDocId="A001FFB6FFD0BB462F322C7F090AFF8F" masterDocTitle="Amphipoda species (Suborders: Amphilochidea and Senticaudata) from Vasiliko Bay, Cyprus: New records, information on their biogeography and an annotated checklist from the coasts of Cyprus" masterLastPageNumber="408" masterPageNumber="373" pageId="2" pageNumber="375" updateTime="1643448436276" updateUser="ExternalLinkService" zenodo-license-document="CLOSED">
+<mods:mods id="C91E8FE6C2253C19190FBDB2C8C3F8FC" xmlns:mods="http://www.loc.gov/mods/v3">
+<mods:titleInfo id="3649D17DAEEDE411DBDC7A4CC1D2CDA5">
+<mods:title id="DBBF01069318FE146C0CB5DEC4628413">Amphipoda species (Suborders: Amphilochidea and Senticaudata) from Vasiliko Bay, Cyprus: New records, information on their biogeography and an annotated checklist from the coasts of Cyprus</mods:title>
+</mods:titleInfo>
+<mods:name id="2F494CE0CC1EE22CC767DACBDFF85A07" type="personal">
+<mods:role id="B5F7FC52AD46FC2B4ABFAD44AB347BA9">
+<mods:roleTerm id="29B630F9923A20D8A94E89D9D75151C0">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="38657549D9D0FCEE578521DA6AFC8FE2">Rousou, Maria</mods:namePart>
+<mods:nameIdentifier id="F5100458F12A4D2EE414DBCE47F4F7C8" type="ORCID">0000-0002-2101-5979</mods:nameIdentifier>
+<mods:affiliation id="4D3CA4E7D07450B04510B1A3C9118664">Department of Zoology, School of Biology, Aristotle University of Thessaloniki (AUTH), 54124, Thessaloniki, Greece. chintigl @ bio. auth. gr; https: // orcid. org / 0000 - 0002 - 2101 - 5979 &amp; Marine &amp; Environmental Research (MER) Lab Ltd, 4533, Limassol, Cyprus.</mods:affiliation>
+<mods:nameIdentifier id="3F6C01F110876EDEA4D1B761D0E18316" type="email">chintigl@bio.auth.gr</mods:nameIdentifier>
+</mods:name>
+<mods:name id="FF2A2092A67EA0E321B92300FBF54313" type="personal">
+<mods:role id="F0BF94FDB86D47649C56060DD57CBA47">
+<mods:roleTerm id="8BD91770B3EA4D118885A0CD8CC5E435">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="42654F28C8216AD29DF95D65820216DF">Plaiti, Wanda</mods:namePart>
+<mods:affiliation id="2135A1FD5456675176914C76162DBEC9">Institute of Marine Biology Biotechnology &amp; Aquaculture (IMBBC), Hellenic Centre for Marine Research (HCMR), Gournes Pediados, P. O. Box 2214,71003 Heraklion, Crete, Greece.</mods:affiliation>
+</mods:name>
+<mods:name id="A95186E28E566A19950FAA6B7D43795D" type="personal">
+<mods:role id="C512D5BFB3758370E6FCECACCA04F03F">
+<mods:roleTerm id="D81B086F840C56CBC2C1B0DBB433B14E">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="D8258B5B89CE449ABA4197577A26FC96">Lowry, Jim</mods:namePart>
+<mods:affiliation id="2FDBB153B9AD4E23B738AA037A88D30C">Australian Museum Research Institute, 1 William St., Sydney 2010, Australia.</mods:affiliation>
+</mods:name>
+<mods:name id="A03BC4637F3CAE5BAFB44BC3E4330864" type="personal">
+<mods:role id="DCCEFC6201BBEA753EFBFFF274B3F7FB">
+<mods:roleTerm id="DF959194907544804BCEA24FAE984EED">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="C2F8434DA4121F31CDF44630695E02F5">Charalambous, Stephanos</mods:namePart>
+<mods:affiliation id="CB88D8AAB039179A70ACBE653E5A5D4E">T. C. Geomatic Ltd, 1095, Nicosia, Cyprus.</mods:affiliation>
+</mods:name>
+<mods:name id="ECC3624C23749DE9636E0BCDE37669A7" type="personal">
+<mods:role id="DB3D679384149ED6970412E90720C72D">
+<mods:roleTerm id="1AC50D7C5DED7FAA76803E981AEE993E">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="A070148CF063D46B56CD74D0B13BDF53">Chintiroglou, Chariton Charles</mods:namePart>
+<mods:nameIdentifier id="5A1BA3851B27E75BDCCBEF90CCCAF034" type="ORCID">0000-0002-2101-5979</mods:nameIdentifier>
+<mods:affiliation id="D8456BE9D59EBF4C917444F85CB472A8">Department of Zoology, School of Biology, Aristotle University of Thessaloniki (AUTH), 54124, Thessaloniki, Greece. chintigl @ bio. auth. gr; https: // orcid. org / 0000 - 0002 - 2101 - 5979</mods:affiliation>
+<mods:nameIdentifier id="EC06B80CCB3626C7FECE1A252605D6FE" type="email">chintigl@bio.auth.gr</mods:nameIdentifier>
+</mods:name>
+<mods:typeOfResource id="FC4D9411351823571EB3B4890C67EEC1">text</mods:typeOfResource>
+<mods:relatedItem id="AF1EF19F045AD5D431482C4FF17B25D7" type="host">
+<mods:titleInfo id="7184E3659CDCACAD1A3D0962A4312014">
+<mods:title id="3275DDC70C436FE002248BE40A3030DF">Zootaxa</mods:title>
+</mods:titleInfo>
+<mods:part id="6811363E8D57AECB94B267819742B882">
+<mods:date id="C7448DA3742106A08BCD0BC2D15FB2BF">2020</mods:date>
+<mods:detail id="38C9A4204178AAA8931C2034BA3172A4" type="pubDate">
+<mods:number id="DBA9DE4A94F883CCC24A021DF853C672">2020-12-22</mods:number>
+</mods:detail>
+<mods:detail id="846537B50190EE8DF7436BA8EF6166DC" type="volume">
+<mods:number id="D4622DB1787D5261F0B7F2E2ED328B34">4896</mods:number>
+</mods:detail>
+<mods:detail id="8B32FE0CF382F280B75FCC606B64B431" type="issue">
+<mods:number id="00B0751F75716BF9F9DF3207D2B35324">3</mods:number>
+</mods:detail>
+<mods:extent id="E7FD1BC90864C451696926DBAB40ED42" unit="page">
+<mods:start id="3E9001128E7E0FE1E06E7089C6B8406F">373</mods:start>
+<mods:end id="66CBB4BF7B5D6172435A2C9A482C0997">408</mods:end>
+</mods:extent>
+</mods:part>
+</mods:relatedItem>
+<mods:classification id="887B1CD75ADB0CBC07E3484C2583A7DC">journal article</mods:classification>
+<mods:identifier id="C0A9251E0BE834A7709E4158B9A7E1C1" type="DOI">https://doi.org/10.11646/zootaxa.4896.3.3</mods:identifier>
+<mods:identifier id="6DC5250D090743DE3E1B9984FF3E7748" type="GBIF-Dataset">abaedfdb-02f1-463c-a99c-5821eaa1d6cb</mods:identifier>
+<mods:identifier id="E9F3E3BCD6CF5EBA488499DFCB556E8D" type="ISSN">1175-5326</mods:identifier>
+<mods:identifier id="11E672C4BF5584ABDF4D837E242C6693" type="Zenodo-Dep">4383886</mods:identifier>
+<mods:identifier id="F3196A3B84C753FB5C8E835991742757" type="ZooBank">EE3E9D88-F406-475A-A9BC-6DD6C24AC79F</mods:identifier>
+</mods:mods>
+<treatment id="5C3887CEFFD2BB432FA52B290C7AFAE3" ID-DOI="http://doi.org/10.5281/zenodo.4389345" ID-GBIF-Taxon="176240992" ID-Zenodo-Dep="4389345" LSID="urn:lsid:plazi:treatment:5C3887CEFFD2BB432FA52B290C7AFAE3" httpUri="http://treatment.plazi.org/id/5C3887CEFFD2BB432FA52B290C7AFAE3" lastPageId="5" lastPageNumber="378" pageId="2" pageNumber="375">
+<subSubSection id="9C8B6553FFD2BB442FA52B290B42F8FE" box="[151,584,1878,1905]" pageId="2" pageNumber="375" type="nomenclature">
+<paragraph id="D42E36D8FFD2BB442FA52B290B42F8FE" blockId="2.[151,1436,1878,2013]" box="[151,584,1878,1905]" pageId="2" pageNumber="375">
+<heading id="8F6681B4FFD2BB442FA52B290B42F8FE" bold="true" box="[151,584,1878,1905]" fontSize="11" level="1" pageId="2" pageNumber="375" reason="1">
+<emphasis id="E6E5EACAFFD2BB442FA52B290B42F8FE" bold="true" box="[151,584,1878,1905]" italics="true" pageId="2" pageNumber="375">
+<taxonomicName id="13914D5BFFD2BB442FA52B290817F8FE" box="[151,285,1878,1905]" class="Malacostraca" higherTaxonomySource="GBIF" kingdom="Animalia" order="Amphipoda" pageId="2" pageNumber="375" phylum="Arthropoda" rank="order">Amphipoda</taxonomicName>
+abundances and diversity
+</emphasis>
+</heading>
+</paragraph>
+</subSubSection>
+<subSubSection id="9C8B6553FFD2BB452FF52B050D74FF76" lastPageId="3" lastPageNumber="376" pageId="2" pageNumber="375" type="discussion">
+<paragraph id="D42E36D8FFD2BB452FF52B050D74FF76" blockId="2.[151,1436,1878,2013]" lastBlockId="3.[151,1437,151,249]" lastPageId="3" lastPageNumber="376" pageId="2" pageNumber="375">
+A total of 45,721 fauna individuals were counted (42 stations, 3 replicas, 126 samples), of which 2,122 individuals were amphipods (
+<taxonomicName id="13914D5BFFD2BB442E662BE108F3F837" authorityName="Boeck" authorityYear="1871" box="[340,505,1950,1976]" class="Malacostraca" higherTaxonomySource="GBIF" kingdom="Animalia" order="Amphipoda" pageId="2" pageNumber="382" phylum="Arthropoda" rank="subOrder" subOrder="Amphilochidea">Amphilochidea</taxonomicName>
+and 
+<taxonomicName id="13914D5BFFD2BB442D1C2BE10BBCF836" authority="Rousou &amp; Plaiti &amp; Lowry &amp; Charalambous &amp; Chintiroglou, 2020" authorityName="Rousou &amp; Plaiti &amp; Lowry &amp; Charalambous &amp; Chintiroglou" authorityYear="2020" box="[558,694,1950,1977]" class="Malacostraca" higherTaxonomySource="GBIF" kingdom="Animalia" order="Amphipoda" pageId="2" pageNumber="405" phylum="Arthropoda" rank="subOrder" status="subord. nov" subOrder="Senticaudata">Senticaudata</taxonomicName>
+) (4.64 % of total macrofauna abundance). The 
+<taxonomicName id="13914D5BFFD2BB442B992BE10C23F837" box="[1195,1321,1950,1976]" class="Malacostraca" higherTaxonomySource="GBIF" kingdom="Animalia" order="Amphipoda" pageId="2" pageNumber="375" phylum="Arthropoda" rank="order">Amphipoda</taxonomicName>
+were classified into 25 families and 52 species. The family 
+<taxonomicName id="13914D5BFFD2BB442D922BBD0BFFF853" authorityName="Stebbing" authorityYear="1899" box="[672,757,1986,2012]" class="Malacostraca" family="Aoridae" kingdom="Animalia" order="Amphipoda" pageId="2" pageNumber="375" phylum="Arthropoda" rank="family">Aoridae</taxonomicName>
+presented the highest densities (851 individuals), contributing to 42 % of overall amphipod abundance and in conjunction with four other families (
+<taxonomicName id="13914D5BFFD3BB452B322CE80D53FF3E" authorityName="Stebbing" authorityYear="1899" box="[1024,1113,151,177]" class="Malacostraca" family="Aoridae" kingdom="Animalia" order="Amphipoda" pageId="3" pageNumber="376" phylum="Arthropoda" rank="family">Aoridae</taxonomicName>
+, 
+<taxonomicName id="13914D5BFFD3BB452B562CE80DF0FF3E" authorityName="Lilljeborg" authorityYear="1865" box="[1124,1274,151,177]" class="Malacostraca" family="Oedicerotidae" kingdom="Animalia" order="Amphipoda" pageId="3" pageNumber="376" phylum="Arthropoda" rank="family">Oedicerotidae</taxonomicName>
+, 
+<taxonomicName id="13914D5BFFD3BB452A362CE80C93FF3E" authorityName="Kroyer" authorityYear="1842" box="[1284,1433,151,177]" class="Malacostraca" family="Ampeliscidae" kingdom="Animalia" order="Amphipoda" pageId="3" pageNumber="376" phylum="Arthropoda" rank="family">Ampeliscidae</taxonomicName>
+, 
+<taxonomicName id="13914D5BFFD3BB452FA52CC4082FFF5A" authorityName="Leach" authorityYear="1814" box="[151,293,187,213]" class="Malacostraca" family="Dexaminidae" kingdom="Animalia" order="Amphipoda" pageId="3" pageNumber="376" phylum="Arthropoda" rank="family">Dexaminidae</taxonomicName>
+and 
+<taxonomicName id="13914D5BFFD3BB452E6A2CC40B04FF59" authorityName="G. O. Sars" authorityYear="1891" box="[344,526,187,214]" class="Malacostraca" family="Phoxocephalidae" kingdom="Animalia" order="Amphipoda" pageId="3" pageNumber="376" phylum="Arthropoda" rank="family">Phoxocephalidae</taxonomicName>
+) counting to 77 % of overall amphipod abundance (
+<figureCitation id="4CAA2A5DFFD3BB452B012CC40D79FF5A" box="[1075,1139,187,213]" captionStart="FIGURE 2" captionStartId="6.[151,250,1975,1999]" captionTargetBox="[156,1429,1282,1944]" captionTargetId="figure-226@6.[151,1436,1277,1951]" captionTargetPageId="6" captionText="FIGURE 2. Number of individuals per family. (80 individuals that were classified to higher taxa (Amphilochidea) are not included in the figure)." figureDoi="http://doi.org/10.5281/zenodo.4383892" httpUri="https://zenodo.org/record/4383892/files/figure.png" pageId="3" pageNumber="376">Fig. 2</figureCitation>
+). The family 
+<taxonomicName id="13914D5BFFD3BB452A332CC40C97FF5A" authorityName="Stebbing" authorityYear="1899" box="[1281,1437,187,213]" class="Malacostraca" family="Ischyroceridae" kingdom="Animalia" order="Amphipoda" pageId="3" pageNumber="376" phylum="Arthropoda" rank="family">Ischyroceridae</taxonomicName>
+was present with six species, followed by 
+<taxonomicName id="13914D5BFFD3BB452D622CA00BAFFF76" authorityName="Stebbing" authorityYear="1899" box="[592,677,223,249]" class="Malacostraca" family="Aoridae" kingdom="Animalia" order="Amphipoda" pageId="3" pageNumber="376" phylum="Arthropoda" rank="family">Aoridae</taxonomicName>
+and 
+<taxonomicName id="13914D5BFFD3BB452DEA2CA00A66FF76" authorityName="Lilljeborg" authorityYear="1865" box="[728,876,223,249]" class="Malacostraca" family="Oedicerotidae" kingdom="Animalia" order="Amphipoda" pageId="3" pageNumber="376" phylum="Arthropoda" rank="family">Oedicerotidae</taxonomicName>
+with five species (
+<figureCitation id="4CAA2A5DFFD3BB452B022CA00D7AFF76" box="[1072,1136,223,249]" captionStart="FIGURE 3" captionStartId="7.[151,250,868,892]" captionTargetBox="[158,1428,188,836]" captionTargetId="figure-17@7.[151,1436,181,845]" captionTargetPageId="7" captionText="FIGURE 3. Number of species per family (individuals classified to higher taxa are not included in the figure)." figureDoi="http://doi.org/10.5281/zenodo.4383894" httpUri="https://zenodo.org/record/4383894/files/figure.png" pageId="3" pageNumber="376">Fig. 3</figureCitation>
+).
+</paragraph>
+</subSubSection>
+<caption id="80EE6650FFD3BB452FA52D330891FE23" pageId="3" pageNumber="376">
+<paragraph id="D42E36D8FFD3BB452FA52D330891FE23" blockId="3.[151,1437,332,429]" pageId="3" pageNumber="376">
+<emphasis id="E6E5EACAFFD3BB452FA52D330801FEEB" bold="true" box="[151,267,332,356]" pageId="3" pageNumber="376">TABLE 1.</emphasis>
+Sampling stations characteristics (O.M.: Organic Matter; Sediment type—S: Sand, MS: Muddy Sand; EQS: Ecological Quality Status, H: High, G: Good, M: Moderate, P: Poor; Human Stressor—O: Outfall, F: Fisfharm, P: Port, B: Buyo (Oil terminal)).
+</paragraph>
+</caption>
+<paragraph id="D42E36D8FFD3BB452F942DC30DAAF8F2" pageId="3" pageNumber="376">
+<table id="A691C478FFD344B92F942DC30C61F82E" box="[166,1387,444,1953]" gridcols="8" gridrows="20" pageId="3" pageNumber="376">
+<tr id="6AA1349AFFD344B92F942DC30C61FE77" box="[166,1387,444,504]" gridrow="0" pageId="3" pageNumber="376">
+<th id="29705DE6FFD344B92F942DC309F2FE77" box="[166,248,444,504]" gridcol="0" gridrow="0" pageId="3" pageNumber="376">
+<emphasis id="E6E5EACAFFD3BB452F942DC309F9FE5B" bold="true" box="[166,243,444,468]" pageId="3" pageNumber="376">Station</emphasis>
+</th>
+<th id="29705DE6FFD344B92E1F2DC308B2FE77" box="[301,440,444,504]" gridcol="1" gridrow="0" pageId="3" pageNumber="376">
+<emphasis id="E6E5EACAFFD3BB452E1F2DC308BBFE5B" bold="true" box="[301,433,444,468]" pageId="3" pageNumber="376">Coordinates</emphasis>
+</th>
+<th id="29705DE6FFD344B92D312DC30B78FE77" box="[515,626,444,504]" gridcol="2" gridrow="0" pageId="3" pageNumber="376">
+<emphasis id="E6E5EACAFFD3BB452D312DC30B78FE5B" bold="true" box="[515,626,444,468]" pageId="3" pageNumber="376">Depth (m)</emphasis>
+</th>
+<th id="29705DE6FFD344B92DA12DC30BFAFE77" box="[659,752,444,504]" gridcol="3" gridrow="0" pageId="3" pageNumber="376">
+<emphasis id="E6E5EACAFFD3BB452DA12DC30BFAFE5B" bold="true" box="[659,752,444,468]" pageId="3" pageNumber="376">OM (%)</emphasis>
+</th>
+<th id="29705DE6FFD344B92C152DC30A86FE77" box="[807,908,444,504]" gridcol="4" gridrow="0" pageId="3" pageNumber="376">
+<emphasis id="E6E5EACAFFD3BB452C152DC30A54FE77" bold="true" box="[807,908,444,504]" pageId="3" pageNumber="376">Sediment Type</emphasis>
+</th>
+<th id="29705DE6FFD344B92C892DC30D5BFE77" box="[955,1105,444,504]" gridcol="5" gridrow="0" pageId="3" pageNumber="376">
+<emphasis id="E6E5EACAFFD3BB452C892DC30AFCFE5B" bold="true" box="[955,1014,444,468]" pageId="3" pageNumber="376">Flora</emphasis>
+</th>
+<th id="29705DE6FFD344B92BBC2DC30DECFE77" box="[1166,1254,444,504]" gridcol="6" gridrow="0" pageId="3" pageNumber="376">
+<emphasis id="E6E5EACAFFD3BB452BBC2DC30DECFE77" bold="true" box="[1166,1254,444,504]" pageId="3" pageNumber="376">EQS (Bentix)</emphasis>
+</th>
+<th id="29705DE6FFD344B92A202DC30C61FE77" box="[1298,1387,444,504]" gridcol="7" gridrow="0" pageId="3" pageNumber="376">
+<emphasis id="E6E5EACAFFD3BB452A202DC30C61FE77" bold="true" box="[1298,1387,444,504]" pageId="3" pageNumber="376">Human Stressor</emphasis>
+</th>
+</tr>
+<tr id="6AA1349AFFD344B92F942E770C61FDCA" box="[166,1387,520,581]" gridrow="1" pageId="3" pageNumber="376" rowspan-5="1">
+<th id="29705DE6FFD344B92F942E7709F2FDCA" box="[166,248,520,581]" gridcol="0" gridrow="1" pageId="3" pageNumber="376">VAS.1</th>
+<td id="29705DE6FFD344B92E1F2E7708B2FDCA" box="[301,440,520,581]" gridcol="1" gridrow="1" pageId="3" pageNumber="376">34° 42.268’N 33° 12.859’E</td>
+<td id="29705DE6FFD344B92D312E770B78FDCA" box="[515,626,520,581]" gridcol="2" gridrow="1" pageId="3" pageNumber="376">6</td>
+<td id="29705DE6FFD344B92DA12E770BFAFDCA" box="[659,752,520,581]" gridcol="3" gridrow="1" pageId="3" pageNumber="376">1.933</td>
+<td id="29705DE6FFD344B92C152E770A86FDCA" box="[807,908,520,581]" gridcol="4" gridrow="1" pageId="3" pageNumber="376">S</td>
+<td id="29705DE6FFD344B92BBC2E770DECFDCA" box="[1166,1254,520,581]" gridcol="6" gridrow="1" pageId="3" pageNumber="376">H</td>
+<td id="29705DE6FFD344B92A202E770C61FDCA" box="[1298,1387,520,581]" gridcol="7" gridrow="1" pageId="3" pageNumber="376">O</td>
+</tr>
+<tr id="6AA1349AFFD344B92F942E2A0C61FD1E" box="[166,1387,597,657]" gridrow="2" pageId="3" pageNumber="376">
+<th id="29705DE6FFD344B92F942E2A09F2FD1E" box="[166,248,597,657]" gridcol="0" gridrow="2" pageId="3" pageNumber="376">VAS.2</th>
+<td id="29705DE6FFD344B92E1F2E2A08B2FD1E" box="[301,440,597,657]" gridcol="1" gridrow="2" pageId="3" pageNumber="376">34° 41.908’N 33°14.028’E</td>
+<td id="29705DE6FFD344B92D312E2A0B78FD1E" box="[515,626,597,657]" gridcol="2" gridrow="2" pageId="3" pageNumber="376">31</td>
+<td id="29705DE6FFD344B92DA12E2A0BFAFD1E" box="[659,752,597,657]" gridcol="3" gridrow="2" pageId="3" pageNumber="376">8.416</td>
+<td id="29705DE6FFD344B92C152E2A0A86FD1E" box="[807,908,597,657]" gridcol="4" gridrow="2" pageId="3" pageNumber="376">MS</td>
+<td id="29705DE6FFD344B92C892E2A0D5BFD1E" box="[955,1105,597,657]" gridcol="5" gridrow="2" pageId="3" pageNumber="376">
+<emphasis id="E6E5EACAFFD3BB452C892E2A0D5BFD1E" italics="true" pageId="3" pageNumber="376">
+<taxonomicName id="13914D5BFFD3BB452C892E2A0D39FDE2" authorityName="J. V. Lamouroux" authorityYear="1809" baseAuthorityName="Forsskal" box="[955,1075,597,621]" class="Ulvophyceae" family="Caulerpaceae" genus="Caulerpa" higherTaxonomySource="GBIF" kingdom="Plantae" order="Bryopsidales" pageId="3" pageNumber="376" phylum="Chlorophyta" rank="species" species="prolifera">C. prolifera</taxonomicName>
+<taxonomicName id="13914D5BFFD3BB452C892E060D5BFD1E" authorityName="Sonder" authorityYear="1845" box="[955,1105,633,657]" class="Ulvophyceae" family="Caulerpaceae" genus="Caulerpa" higherTaxonomySource="GBIF" kingdom="Plantae" order="Bryopsidales" pageId="3" pageNumber="376" phylum="Chlorophyta" rank="species" species="cylindracea">C. cylindracea</taxonomicName>
+</emphasis>
+</td>
+<td id="29705DE6FFD344B92BBC2E2A0DECFD1E" box="[1166,1254,597,657]" gridcol="6" gridrow="2" pageId="3" pageNumber="376">M</td>
+<td id="29705DE6FFD344B92A202E2A0C61FD1E" box="[1298,1387,597,657]" gridcol="7" gridrow="2" pageId="3" pageNumber="376">F</td>
+</tr>
+<tr id="6AA1349AFFD344B92F942EDE0C61FD52" box="[166,1387,673,733]" gridrow="3" pageId="3" pageNumber="376" rowspan-5="1" rowspan-7="1">
+<th id="29705DE6FFD344B92F942EDE09F2FD52" box="[166,248,673,733]" gridcol="0" gridrow="3" pageId="3" pageNumber="376">VAS.3</th>
+<td id="29705DE6FFD344B92E1F2EDE08B2FD52" box="[301,440,673,733]" gridcol="1" gridrow="3" pageId="3" pageNumber="376">34° 42.271’N 33° 14.259’E</td>
+<td id="29705DE6FFD344B92D312EDE0B78FD52" box="[515,626,673,733]" gridcol="2" gridrow="3" pageId="3" pageNumber="376">5</td>
+<td id="29705DE6FFD344B92DA12EDE0BFAFD52" box="[659,752,673,733]" gridcol="3" gridrow="3" pageId="3" pageNumber="376">1.859</td>
+<td id="29705DE6FFD344B92C152EDE0A86FD52" box="[807,908,673,733]" gridcol="4" gridrow="3" pageId="3" pageNumber="376">S</td>
+<td id="29705DE6FFD344B92BBC2EDE0DECFD52" box="[1166,1254,673,733]" gridcol="6" gridrow="3" pageId="3" pageNumber="376">G</td>
+</tr>
+<tr id="6AA1349AFFD344B92F942E920C61FCA6" box="[166,1387,749,809]" gridrow="4" pageId="3" pageNumber="376" rowspan-5="1" rowspan-7="1">
+<th id="29705DE6FFD344B92F942E9209F2FCA6" box="[166,248,749,809]" gridcol="0" gridrow="4" pageId="3" pageNumber="376">VAS.4</th>
+<td id="29705DE6FFD344B92E1F2E9208B2FCA6" box="[301,440,749,809]" gridcol="1" gridrow="4" pageId="3" pageNumber="376">34° 41.557’N 33° 14.273’E</td>
+<td id="29705DE6FFD344B92D312E920B78FCA6" box="[515,626,749,809]" gridcol="2" gridrow="4" pageId="3" pageNumber="376">55</td>
+<td id="29705DE6FFD344B92DA12E920BFAFCA6" box="[659,752,749,809]" gridcol="3" gridrow="4" pageId="3" pageNumber="376">6.933</td>
+<td id="29705DE6FFD344B92C152E920A86FCA6" box="[807,908,749,809]" gridcol="4" gridrow="4" pageId="3" pageNumber="376">MS</td>
+<td id="29705DE6FFD344B92BBC2E920DECFCA6" box="[1166,1254,749,809]" gridcol="6" gridrow="4" pageId="3" pageNumber="376">G</td>
+</tr>
+<tr id="6AA1349AFFD344B92F942F460C61FCF9" box="[166,1387,825,886]" gridrow="5" pageId="3" pageNumber="376">
+<th id="29705DE6FFD344B92F942F4609F2FCF9" box="[166,248,825,886]" gridcol="0" gridrow="5" pageId="3" pageNumber="376">VAS.5</th>
+<td id="29705DE6FFD344B92E1F2F4608B2FCF9" box="[301,440,825,886]" gridcol="1" gridrow="5" pageId="3" pageNumber="376">34° 41.912’N 33° 14.508’E</td>
+<td id="29705DE6FFD344B92D312F460B78FCF9" box="[515,626,825,886]" gridcol="2" gridrow="5" pageId="3" pageNumber="376">31</td>
+<td id="29705DE6FFD344B92DA12F460BFAFCF9" box="[659,752,825,886]" gridcol="3" gridrow="5" pageId="3" pageNumber="376">4.621</td>
+<td id="29705DE6FFD344B92C152F460A86FCF9" box="[807,908,825,886]" gridcol="4" gridrow="5" pageId="3" pageNumber="376">MS</td>
+<td id="29705DE6FFD344B92C892F460D5BFCF9" box="[955,1105,825,886]" gridcol="5" gridrow="5" pageId="3" pageNumber="376">
+<emphasis id="E6E5EACAFFD3BB452C892F450D5BFCFA" italics="true" pageId="3" pageNumber="376">
+<taxonomicName id="13914D5BFFD3BB452C892F450D39FCDE" authorityName="J. V. Lamouroux" authorityYear="1809" baseAuthorityName="Forsskal" box="[955,1075,825,849]" class="Ulvophyceae" family="Caulerpaceae" genus="Caulerpa" higherTaxonomySource="GBIF" kingdom="Plantae" order="Bryopsidales" pageId="3" pageNumber="376" phylum="Chlorophyta" rank="species" species="prolifera">C. prolifera</taxonomicName>
+<taxonomicName id="13914D5BFFD3BB452C892F210D5BFCFA" authorityName="Sonder" authorityYear="1845" box="[955,1105,861,885]" class="Ulvophyceae" family="Caulerpaceae" genus="Caulerpa" higherTaxonomySource="GBIF" kingdom="Plantae" order="Bryopsidales" pageId="3" pageNumber="376" phylum="Chlorophyta" rank="species" species="cylindracea">C. cylindracea</taxonomicName>
+</emphasis>
+</td>
+<td id="29705DE6FFD344B92BBC2F460DECFCF9" box="[1166,1254,825,886]" gridcol="6" gridrow="5" pageId="3" pageNumber="376">G</td>
+<td id="29705DE6FFD344B92A202F460C61FCF9" box="[1298,1387,825,886]" gridcol="7" gridrow="5" pageId="3" pageNumber="376">F</td>
+</tr>
+<tr id="6AA1349AFFD344B92F942FF90C61FC4D" box="[166,1387,902,962]" gridrow="6" pageId="3" pageNumber="376" rowspan-5="1" rowspan-7="1">
+<th id="29705DE6FFD344B92F942FF909F2FC4D" box="[166,248,902,962]" gridcol="0" gridrow="6" pageId="3" pageNumber="376">VAS.6</th>
+<td id="29705DE6FFD344B92E1F2FF908B2FC4D" box="[301,440,902,962]" gridcol="1" gridrow="6" pageId="3" pageNumber="376">34° 42.259’N 33° 15.246’E</td>
+<td id="29705DE6FFD344B92D312FF90B78FC4D" box="[515,626,902,962]" gridcol="2" gridrow="6" pageId="3" pageNumber="376">5</td>
+<td id="29705DE6FFD344B92DA12FF90BFAFC4D" box="[659,752,902,962]" gridcol="3" gridrow="6" pageId="3" pageNumber="376">2.264</td>
+<td id="29705DE6FFD344B92C152FF90A86FC4D" box="[807,908,902,962]" gridcol="4" gridrow="6" pageId="3" pageNumber="376">S</td>
+<td id="29705DE6FFD344B92BBC2FF90DECFC4D" box="[1166,1254,902,962]" gridcol="6" gridrow="6" pageId="3" pageNumber="376">H</td>
+</tr>
+<tr id="6AA1349AFFD344B92F942FAD0C61FB81" box="[166,1387,978,1038]" gridrow="7" pageId="3" pageNumber="376" rowspan-7="1">
+<th id="29705DE6FFD344B92F942FAD09F2FB81" box="[166,248,978,1038]" gridcol="0" gridrow="7" pageId="3" pageNumber="376">VAS.7</th>
+<td id="29705DE6FFD344B92E1F2FAD08B2FB81" box="[301,440,978,1038]" gridcol="1" gridrow="7" pageId="3" pageNumber="376">34° 41.549’N 33° 15.259’E</td>
+<td id="29705DE6FFD344B92D312FAD0B78FB81" box="[515,626,978,1038]" gridcol="2" gridrow="7" pageId="3" pageNumber="376">58</td>
+<td id="29705DE6FFD344B92DA12FAD0BFAFB81" box="[659,752,978,1038]" gridcol="3" gridrow="7" pageId="3" pageNumber="376">5.941</td>
+<td id="29705DE6FFD344B92C152FAD0A86FB81" box="[807,908,978,1038]" gridcol="4" gridrow="7" pageId="3" pageNumber="376">MS</td>
+<td id="29705DE6FFD344B92C892FAD0D5BFB81" box="[955,1105,978,1038]" gridcol="5" gridrow="7" pageId="3" pageNumber="376">
+<emphasis id="E6E5EACAFFD3BB452C892FAD0D5BFB81" italics="true" pageId="3" pageNumber="376">
+<taxonomicName id="13914D5BFFD3BB452C892FAD0D39FC65" authorityName="J. V. Lamouroux" authorityYear="1809" baseAuthorityName="Forsskal" box="[955,1075,978,1002]" class="Ulvophyceae" family="Caulerpaceae" genus="Caulerpa" higherTaxonomySource="GBIF" kingdom="Plantae" order="Bryopsidales" pageId="3" pageNumber="376" phylum="Chlorophyta" rank="species" species="prolifera">C. prolifera</taxonomicName>
+<taxonomicName id="13914D5BFFD3BB452C892F890D5BFB81" authorityName="Sonder" authorityYear="1845" box="[955,1105,1014,1038]" class="Ulvophyceae" family="Caulerpaceae" genus="Caulerpa" higherTaxonomySource="GBIF" kingdom="Plantae" order="Bryopsidales" pageId="3" pageNumber="376" phylum="Chlorophyta" rank="species" species="cylindracea">C. cylindracea</taxonomicName>
+</emphasis>
+</td>
+<td id="29705DE6FFD344B92BBC2FAD0DECFB81" box="[1166,1254,978,1038]" gridcol="6" gridrow="7" pageId="3" pageNumber="376">G</td>
+</tr>
+<tr id="6AA1349AFFD344B92F9428610C61FBD5" box="[166,1387,1054,1114]" gridrow="8" pageId="3" pageNumber="376" rowspan-5="1" rowspan-7="1">
+<th id="29705DE6FFD344B92F94286109F2FBD5" box="[166,248,1054,1114]" gridcol="0" gridrow="8" pageId="3" pageNumber="376">VAS.8</th>
+<td id="29705DE6FFD344B92E1F286108B2FBD5" box="[301,440,1054,1114]" gridcol="1" gridrow="8" pageId="3" pageNumber="376">34° 41.858’N 33° 16.039’E</td>
+<td id="29705DE6FFD344B92D3128610B78FBD5" box="[515,626,1054,1114]" gridcol="2" gridrow="8" pageId="3" pageNumber="376">44</td>
+<td id="29705DE6FFD344B92DA128610BFAFBD5" box="[659,752,1054,1114]" gridcol="3" gridrow="8" pageId="3" pageNumber="376">6.434</td>
+<td id="29705DE6FFD344B92C1528610A86FBD5" box="[807,908,1054,1114]" gridcol="4" gridrow="8" pageId="3" pageNumber="376">MS</td>
+<td id="29705DE6FFD344B92BBC28610DECFBD5" box="[1166,1254,1054,1114]" gridcol="6" gridrow="8" pageId="3" pageNumber="376">M</td>
+</tr>
+<tr id="6AA1349AFFD344B92F9428150C61FB28" box="[166,1387,1130,1191]" gridrow="9" pageId="3" pageNumber="376" rowspan-5="1" rowspan-7="1">
+<th id="29705DE6FFD344B92F94281509F2FB28" box="[166,248,1130,1191]" gridcol="0" gridrow="9" pageId="3" pageNumber="376">VAS.9</th>
+<td id="29705DE6FFD344B92E1F281508B2FB28" box="[301,440,1130,1191]" gridcol="1" gridrow="9" pageId="3" pageNumber="376">34° 42.268’N 33° 16.240’E</td>
+<td id="29705DE6FFD344B92D3128150B78FB28" box="[515,626,1130,1191]" gridcol="2" gridrow="9" pageId="3" pageNumber="376">10</td>
+<td id="29705DE6FFD344B92DA128150BFAFB28" box="[659,752,1130,1191]" gridcol="3" gridrow="9" pageId="3" pageNumber="376">2.757</td>
+<td id="29705DE6FFD344B92C1528150A86FB28" box="[807,908,1130,1191]" gridcol="4" gridrow="9" pageId="3" pageNumber="376">S</td>
+<td id="29705DE6FFD344B92BBC28150DECFB28" box="[1166,1254,1130,1191]" gridcol="6" gridrow="9" pageId="3" pageNumber="376">G</td>
+</tr>
+<tr id="6AA1349AFFD344B92F9428C80C61FB7C" box="[166,1387,1207,1267]" gridrow="10" pageId="3" pageNumber="376" rowspan-7="1">
+<th id="29705DE6FFD344B92F9428C809F2FB7C" box="[166,248,1207,1267]" gridcol="0" gridrow="10" pageId="3" pageNumber="376">VAS.10</th>
+<td id="29705DE6FFD344B92E1F28C808B2FB7C" box="[301,440,1207,1267]" gridcol="1" gridrow="10" pageId="3" pageNumber="376">34° 41.551’N 33° 16.246’E</td>
+<td id="29705DE6FFD344B92D3128C80B78FB7C" box="[515,626,1207,1267]" gridcol="2" gridrow="10" pageId="3" pageNumber="376">59</td>
+<td id="29705DE6FFD344B92DA128C80BFAFB7C" box="[659,752,1207,1267]" gridcol="3" gridrow="10" pageId="3" pageNumber="376">6.254</td>
+<td id="29705DE6FFD344B92C1528C80A86FB7C" box="[807,908,1207,1267]" gridcol="4" gridrow="10" pageId="3" pageNumber="376">MS</td>
+<td id="29705DE6FFD344B92C8928C80D5BFB7C" box="[955,1105,1207,1267]" gridcol="5" gridrow="10" pageId="3" pageNumber="376">
+<emphasis id="E6E5EACAFFD3BB452C8928C80D5BFB7C" italics="true" pageId="3" pageNumber="376">
+<taxonomicName id="13914D5BFFD3BB452C8928C80D39FB40" authorityName="J. V. Lamouroux" authorityYear="1809" baseAuthorityName="Forsskal" box="[955,1075,1207,1231]" class="Ulvophyceae" family="Caulerpaceae" genus="Caulerpa" higherTaxonomySource="GBIF" kingdom="Plantae" order="Bryopsidales" pageId="3" pageNumber="376" phylum="Chlorophyta" rank="species" species="prolifera">C. prolifera</taxonomicName>
+<taxonomicName id="13914D5BFFD3BB452C8928A40D5BFB7C" authorityName="Sonder" authorityYear="1845" box="[955,1105,1243,1267]" class="Ulvophyceae" family="Caulerpaceae" genus="Caulerpa" higherTaxonomySource="GBIF" kingdom="Plantae" order="Bryopsidales" pageId="3" pageNumber="376" phylum="Chlorophyta" rank="species" species="cylindracea">C. cylindracea</taxonomicName>
+</emphasis>
+</td>
+<td id="29705DE6FFD344B92BBC28C80DECFB7C" box="[1166,1254,1207,1267]" gridcol="6" gridrow="10" pageId="3" pageNumber="376">G</td>
+</tr>
+<tr id="6AA1349AFFD344B92F94297C0C61FAB0" box="[166,1387,1283,1343]" gridrow="11" pageId="3" pageNumber="376" rowspan-7="1">
+<th id="29705DE6FFD344B92F94297C09F2FAB0" box="[166,248,1283,1343]" gridcol="0" gridrow="11" pageId="3" pageNumber="376">VAS.11</th>
+<td id="29705DE6FFD344B92E1F297C08B2FAB0" box="[301,440,1283,1343]" gridcol="1" gridrow="11" pageId="3" pageNumber="376">34° 42.620’N 33° 16.496’E</td>
+<td id="29705DE6FFD344B92D31297C0B78FAB0" box="[515,626,1283,1343]" gridcol="2" gridrow="11" pageId="3" pageNumber="376">6</td>
+<td id="29705DE6FFD344B92DA1297C0BFAFAB0" box="[659,752,1283,1343]" gridcol="3" gridrow="11" pageId="3" pageNumber="376">2.886</td>
+<td id="29705DE6FFD344B92C15297C0A86FAB0" box="[807,908,1283,1343]" gridcol="4" gridrow="11" pageId="3" pageNumber="376">S</td>
+<td id="29705DE6FFD344B92C89297C0D5BFAB0" box="[955,1105,1283,1343]" gridcol="5" gridrow="11" pageId="3" pageNumber="376">
+<taxonomicName id="13914D5BFFD3BB452C89297C0D5BFA94" authorityName="Sonder" authorityYear="1845" box="[955,1105,1283,1307]" class="Ulvophyceae" family="Caulerpaceae" genus="Caulerpa" higherTaxonomySource="GBIF" kingdom="Plantae" order="Bryopsidales" pageId="3" pageNumber="376" phylum="Chlorophyta" rank="species" species="cylindracea">
+<emphasis id="E6E5EACAFFD3BB452C89297C0D5BFA94" box="[955,1105,1283,1307]" italics="true" pageId="3" pageNumber="376">C. cylindracea</emphasis>
+</taxonomicName>
+</td>
+<td id="29705DE6FFD344B92BBC297C0DECFAB0" box="[1166,1254,1283,1343]" gridcol="6" gridrow="11" pageId="3" pageNumber="376">H</td>
+</tr>
+<tr id="6AA1349AFFD344B92F9429300C61FA04" box="[166,1387,1359,1419]" gridrow="12" pageId="3" pageNumber="376" rowspan-7="1">
+<th id="29705DE6FFD344B92F94293009F2FA04" box="[166,248,1359,1419]" gridcol="0" gridrow="12" pageId="3" pageNumber="376">VAS.12</th>
+<td id="29705DE6FFD344B92E1F293008B2FA04" box="[301,440,1359,1419]" gridcol="1" gridrow="12" pageId="3" pageNumber="376">34° 41.908’N 33° 16.495’E</td>
+<td id="29705DE6FFD344B92D3129300B78FA04" box="[515,626,1359,1419]" gridcol="2" gridrow="12" pageId="3" pageNumber="376">45</td>
+<td id="29705DE6FFD344B92DA129300BFAFA04" box="[659,752,1359,1419]" gridcol="3" gridrow="12" pageId="3" pageNumber="376">4.654</td>
+<td id="29705DE6FFD344B92C1529300A86FA04" box="[807,908,1359,1419]" gridcol="4" gridrow="12" pageId="3" pageNumber="376">MS</td>
+<td id="29705DE6FFD344B92C8929300D5BFA04" box="[955,1105,1359,1419]" gridcol="5" gridrow="12" pageId="3" pageNumber="376">
+<taxonomicName id="13914D5BFFD3BB452C89292F0D5BFAE8" authorityName="Sonder" authorityYear="1845" box="[955,1105,1359,1383]" class="Ulvophyceae" family="Caulerpaceae" genus="Caulerpa" higherTaxonomySource="GBIF" kingdom="Plantae" order="Bryopsidales" pageId="3" pageNumber="376" phylum="Chlorophyta" rank="species" species="cylindracea">
+<emphasis id="E6E5EACAFFD3BB452C89292F0D5BFAE8" box="[955,1105,1359,1383]" italics="true" pageId="3" pageNumber="376">C. cylindracea</emphasis>
+</taxonomicName>
+</td>
+<td id="29705DE6FFD344B92BBC29300DECFA04" box="[1166,1254,1359,1419]" gridcol="6" gridrow="12" pageId="3" pageNumber="376">M</td>
+</tr>
+<tr id="6AA1349AFFD344B92F9429E40C61FA57" box="[166,1387,1435,1496]" gridrow="13" pageId="3" pageNumber="376" rowspan-5="1" rowspan-7="1">
+<th id="29705DE6FFD344B92F9429E409F2FA57" box="[166,248,1435,1496]" gridcol="0" gridrow="13" pageId="3" pageNumber="376">VAS.13</th>
+<td id="29705DE6FFD344B92E1F29E408B2FA57" box="[301,440,1435,1496]" gridcol="1" gridrow="13" pageId="3" pageNumber="376">34° 42.966’N 33° 16.755’E</td>
+<td id="29705DE6FFD344B92D3129E40B78FA57" box="[515,626,1435,1496]" gridcol="2" gridrow="13" pageId="3" pageNumber="376">7</td>
+<td id="29705DE6FFD344B92DA129E40BFAFA57" box="[659,752,1435,1496]" gridcol="3" gridrow="13" pageId="3" pageNumber="376">3.025</td>
+<td id="29705DE6FFD344B92C1529E40A86FA57" box="[807,908,1435,1496]" gridcol="4" gridrow="13" pageId="3" pageNumber="376">MS</td>
+<td id="29705DE6FFD344B92BBC29E40DECFA57" box="[1166,1254,1435,1496]" gridcol="6" gridrow="13" pageId="3" pageNumber="376">G</td>
+</tr>
+<tr id="6AA1349AFFD344B92F9429970C61F9AB" box="[166,1387,1512,1572]" gridrow="14" pageId="3" pageNumber="376" rowspan-7="1">
+<th id="29705DE6FFD344B92F94299709F2F9AB" box="[166,248,1512,1572]" gridcol="0" gridrow="14" pageId="3" pageNumber="376">VAS.14</th>
+<td id="29705DE6FFD344B92E1F299708B2F9AB" box="[301,440,1512,1572]" gridcol="1" gridrow="14" pageId="3" pageNumber="376">34° 42.260’N 33° 16.742’E</td>
+<td id="29705DE6FFD344B92D3129970B78F9AB" box="[515,626,1512,1572]" gridcol="2" gridrow="14" pageId="3" pageNumber="376">25</td>
+<td id="29705DE6FFD344B92DA129970BFAF9AB" box="[659,752,1512,1572]" gridcol="3" gridrow="14" pageId="3" pageNumber="376">8.183</td>
+<td id="29705DE6FFD344B92C1529970A86F9AB" box="[807,908,1512,1572]" gridcol="4" gridrow="14" pageId="3" pageNumber="376">MS</td>
+<td id="29705DE6FFD344B92C8929970D5BF9AB" box="[955,1105,1512,1572]" gridcol="5" gridrow="14" pageId="3" pageNumber="376">
+<taxonomicName id="13914D5BFFD3BB452C8929970D39F98F" authorityName="J. V. Lamouroux" authorityYear="1809" baseAuthorityName="Forsskal" box="[955,1075,1512,1536]" class="Ulvophyceae" family="Caulerpaceae" genus="Caulerpa" higherTaxonomySource="GBIF" kingdom="Plantae" order="Bryopsidales" pageId="3" pageNumber="376" phylum="Chlorophyta" rank="species" species="prolifera">
+<emphasis id="E6E5EACAFFD3BB452C8929970D39F98F" box="[955,1075,1512,1536]" italics="true" pageId="3" pageNumber="376">C. prolifera</emphasis>
+</taxonomicName>
+</td>
+<td id="29705DE6FFD344B92BBC29970DECF9AB" box="[1166,1254,1512,1572]" gridcol="6" gridrow="14" pageId="3" pageNumber="376">G</td>
+</tr>
+<tr id="6AA1349AFFD344B92F942A4B0C61F9FF" box="[166,1387,1588,1648]" gridrow="15" pageId="3" pageNumber="376" rowspan-5="1">
+<th id="29705DE6FFD344B92F942A4B09F2F9FF" box="[166,248,1588,1648]" gridcol="0" gridrow="15" pageId="3" pageNumber="376">VAS.15</th>
+<td id="29705DE6FFD344B92E1F2A4B08B2F9FF" box="[301,440,1588,1648]" gridcol="1" gridrow="15" pageId="3" pageNumber="376">34° 43.094’N 33° 19.049’E</td>
+<td id="29705DE6FFD344B92D312A4B0B78F9FF" box="[515,626,1588,1648]" gridcol="2" gridrow="15" pageId="3" pageNumber="376">11</td>
+<td id="29705DE6FFD344B92DA12A4B0BFAF9FF" box="[659,752,1588,1648]" gridcol="3" gridrow="15" pageId="3" pageNumber="376">10.314</td>
+<td id="29705DE6FFD344B92C152A4B0A86F9FF" box="[807,908,1588,1648]" gridcol="4" gridrow="15" pageId="3" pageNumber="376">MS</td>
+<td id="29705DE6FFD344B92BBC2A4B0DECF9FF" box="[1166,1254,1588,1648]" gridcol="6" gridrow="15" pageId="3" pageNumber="376">G</td>
+<td id="29705DE6FFD344B92A202A4B0C61F9FF" box="[1298,1387,1588,1648]" gridcol="7" gridrow="15" pageId="3" pageNumber="376">P</td>
+</tr>
+<tr id="6AA1349AFFD344B92F942AFF0C61F933" box="[166,1387,1664,1724]" gridrow="16" pageId="3" pageNumber="376">
+<th id="29705DE6FFD344B92F942AFF09F2F933" box="[166,248,1664,1724]" gridcol="0" gridrow="16" pageId="3" pageNumber="376">VAS.16</th>
+<td id="29705DE6FFD344B92E1F2AFF08B2F933" box="[301,440,1664,1724]" gridcol="1" gridrow="16" pageId="3" pageNumber="376">34° 43.236’N 33° 16.958’E</td>
+<td id="29705DE6FFD344B92D312AFF0B78F933" box="[515,626,1664,1724]" gridcol="2" gridrow="16" pageId="3" pageNumber="376">4</td>
+<td id="29705DE6FFD344B92DA12AFF0BFAF933" box="[659,752,1664,1724]" gridcol="3" gridrow="16" pageId="3" pageNumber="376">7.928</td>
+<td id="29705DE6FFD344B92C152AFF0A86F933" box="[807,908,1664,1724]" gridcol="4" gridrow="16" pageId="3" pageNumber="376">MS</td>
+<td id="29705DE6FFD344B92C892AFF0D5BF933" box="[955,1105,1664,1724]" gridcol="5" gridrow="16" pageId="3" pageNumber="376">
+<taxonomicName id="13914D5BFFD3BB452C892AFE0D26F917" authorityName="Delile" authorityYear="1813" baseAuthorityName="Linnaeus" box="[955,1068,1665,1688]" class="Liliopsida" family="Posidoniaceae" genus="Posidonia" kingdom="Plantae" order="Alismatales" pageId="3" pageNumber="376" phylum="Tracheophyta" rank="species" species="oceanica">
+<emphasis id="E6E5EACAFFD3BB452C892AFE0D26F917" box="[955,1068,1665,1688]" italics="true" pageId="3" pageNumber="376">P.oceanica</emphasis>
+</taxonomicName>
+dead matte
+</td>
+<td id="29705DE6FFD344B92BBC2AFF0DECF933" box="[1166,1254,1664,1724]" gridcol="6" gridrow="16" pageId="3" pageNumber="376">M</td>
+<td id="29705DE6FFD344B92A202AFF0C61F933" box="[1298,1387,1664,1724]" gridcol="7" gridrow="16" pageId="3" pageNumber="376">P</td>
+</tr>
+<tr id="6AA1349AFFD344B92F942AB30C61F886" box="[166,1387,1740,1801]" gridrow="17" pageId="3" pageNumber="376" rowspan-5="1" rowspan-7="1">
+<th id="29705DE6FFD344B92F942AB309F2F886" box="[166,248,1740,1801]" gridcol="0" gridrow="17" pageId="3" pageNumber="376">VAS.17</th>
+<td id="29705DE6FFD344B92E1F2AB308B2F886" box="[301,440,1740,1801]" gridcol="1" gridrow="17" pageId="3" pageNumber="376">34° 42.620’N 33° 16.983’E</td>
+<td id="29705DE6FFD344B92D312AB30B78F886" box="[515,626,1740,1801]" gridcol="2" gridrow="17" pageId="3" pageNumber="376">12</td>
+<td id="29705DE6FFD344B92DA12AB30BFAF886" box="[659,752,1740,1801]" gridcol="3" gridrow="17" pageId="3" pageNumber="376">2.200</td>
+<td id="29705DE6FFD344B92C152AB30A86F886" box="[807,908,1740,1801]" gridcol="4" gridrow="17" pageId="3" pageNumber="376">S</td>
+<td id="29705DE6FFD344B92BBC2AB30DECF886" box="[1166,1254,1740,1801]" gridcol="6" gridrow="17" pageId="3" pageNumber="376">G</td>
+</tr>
+<tr id="6AA1349AFFD344B92F942B660C61F8DA" box="[166,1387,1817,1877]" gridrow="18" pageId="3" pageNumber="376" rowspan-7="1">
+<th id="29705DE6FFD344B92F942B6609F2F8DA" box="[166,248,1817,1877]" gridcol="0" gridrow="18" pageId="3" pageNumber="376">VAS.18</th>
+<td id="29705DE6FFD344B92E1F2B6608B2F8DA" box="[301,440,1817,1877]" gridcol="1" gridrow="18" pageId="3" pageNumber="376">34° 41.906’N 33° 16.990’E</td>
+<td id="29705DE6FFD344B92D312B660B78F8DA" box="[515,626,1817,1877]" gridcol="2" gridrow="18" pageId="3" pageNumber="376">51</td>
+<td id="29705DE6FFD344B92DA12B660BFAF8DA" box="[659,752,1817,1877]" gridcol="3" gridrow="18" pageId="3" pageNumber="376">5.621</td>
+<td id="29705DE6FFD344B92C152B660A86F8DA" box="[807,908,1817,1877]" gridcol="4" gridrow="18" pageId="3" pageNumber="376">MS</td>
+<td id="29705DE6FFD344B92C892B660D5BF8DA" box="[955,1105,1817,1877]" gridcol="5" gridrow="18" pageId="3" pageNumber="376">
+<emphasis id="E6E5EACAFFD3BB452C892B660D5BF8DA" italics="true" pageId="3" pageNumber="376">
+<taxonomicName id="13914D5BFFD3BB452C892B660D39F8BE" authorityName="J. V. Lamouroux" authorityYear="1809" baseAuthorityName="Forsskal" box="[955,1075,1817,1841]" class="Ulvophyceae" family="Caulerpaceae" genus="Caulerpa" higherTaxonomySource="GBIF" kingdom="Plantae" order="Bryopsidales" pageId="3" pageNumber="376" phylum="Chlorophyta" rank="species" species="prolifera">C. prolifera</taxonomicName>
+<taxonomicName id="13914D5BFFD3BB452C892B420D5BF8DA" authorityName="Sonder" authorityYear="1845" box="[955,1105,1853,1877]" class="Ulvophyceae" family="Caulerpaceae" genus="Caulerpa" higherTaxonomySource="GBIF" kingdom="Plantae" order="Bryopsidales" pageId="3" pageNumber="376" phylum="Chlorophyta" rank="species" species="cylindracea">C. cylindracea</taxonomicName>
+</emphasis>
+</td>
+<td id="29705DE6FFD344B92BBC2B660DECF8DA" box="[1166,1254,1817,1877]" gridcol="6" gridrow="18" pageId="3" pageNumber="376">G</td>
+</tr>
+<tr id="6AA1349AFFD344B92F942B1A0C61F82E" box="[166,1387,1893,1953]" gridrow="19" pageId="3" pageNumber="376" rowspan-5="1" rowspan-7="1">
+<th id="29705DE6FFD344B92F942B1A09F2F82E" box="[166,248,1893,1953]" gridcol="0" gridrow="19" pageId="3" pageNumber="376">VAS.19</th>
+<td id="29705DE6FFD344B92E1F2B1A08B2F82E" box="[301,440,1893,1953]" gridcol="1" gridrow="19" pageId="3" pageNumber="376">34° 42.970’N 33° 17.241’E</td>
+<td id="29705DE6FFD344B92D312B1A0B78F82E" box="[515,626,1893,1953]" gridcol="2" gridrow="19" pageId="3" pageNumber="376">10</td>
+<td id="29705DE6FFD344B92DA12B1A0BFAF82E" box="[659,752,1893,1953]" gridcol="3" gridrow="19" pageId="3" pageNumber="376">2.401</td>
+<td id="29705DE6FFD344B92C152B1A0A86F82E" box="[807,908,1893,1953]" gridcol="4" gridrow="19" pageId="3" pageNumber="376">S</td>
+<td id="29705DE6FFD344B92BBC2B1A0DECF82E" box="[1166,1254,1893,1953]" gridcol="6" gridrow="19" pageId="3" pageNumber="376">G</td>
+</tr>
+</table>
+</paragraph>
+<paragraph id="D42E36D8FFD3BB452B662BCD0C81F845" blockId="3.[1108,1419,1970,1994]" box="[1108,1419,1970,1994]" pageId="3" pageNumber="376">
+<tableNote id="29773756FFD3BB452B662BCD0C81F845" box="[1108,1419,1970,1994]" pageId="3" pageNumber="376" targetBox="[166,1387,444,1953]" targetPageId="3">......continued on the next page</tableNote>
+</paragraph>
+<caption id="80EE6650FFD4BB422F942CDD089CFF35" box="[166,406,162,186]" pageId="4" pageNumber="377">
+<paragraph id="D42E36D8FFD4BB422F942CDD089CFF35" blockId="4.[166,406,162,186]" box="[166,406,162,186]" pageId="4" pageNumber="377">
+<emphasis id="E6E5EACAFFD4BB422F942CDD081FFF35" bold="true" box="[166,277,162,186]" pageId="4" pageNumber="377">TABLE 1.</emphasis>
+(Continued)
+</paragraph>
+</caption>
+<paragraph id="D42E36D8FFD4BB422F942CB608BEF81F" pageId="4" pageNumber="377">
+<table id="A691C478FFD444B92F942CB60C61F81F" box="[166,1387,201,1936]" gridcols="8" gridrows="46" pageId="4" pageNumber="377">
+<tr id="6AA1349AFFD444B92F942CB60C61FF6D" box="[166,1387,201,226]" gridrow="0" pageId="4" pageNumber="377">
+<th id="29705DE6FFD444B92F942CB609F2FF6D" box="[166,248,201,226]" gridcol="0" gridrow="0" pageId="4" pageNumber="377">
+<emphasis id="E6E5EACAFFD4BB422F942CB609F9FF6E" bold="true" box="[166,243,201,225]" pageId="4" pageNumber="377">Station</emphasis>
+</th>
+<th id="29705DE6FFD444B92E1F2CB608B2FF6D" box="[301,440,201,226]" gridcol="1" gridrow="0" pageId="4" pageNumber="377">
+<emphasis id="E6E5EACAFFD4BB422E1F2CB508BBFF6D" bold="true" box="[301,433,202,226]" pageId="4" pageNumber="377">Coordinates</emphasis>
+</th>
+<th id="29705DE6FFD444B92D312CB60B78FF6D" box="[515,626,201,226]" gridcol="2" gridrow="0" pageId="4" pageNumber="377">
+<emphasis id="E6E5EACAFFD4BB422D312CB50B78FF6E" bold="true" box="[515,626,201,226]" pageId="4" pageNumber="377">Depth (m)</emphasis>
+</th>
+<th id="29705DE6FFD444B92DA12CB60BFAFF6D" box="[659,752,201,226]" gridcol="3" gridrow="0" pageId="4" pageNumber="377">
+<emphasis id="E6E5EACAFFD4BB422DA12CB50BFAFF6E" bold="true" box="[659,752,201,226]" pageId="4" pageNumber="377">OM (%)</emphasis>
+</th>
+<th id="29705DE6FFD444B92C152CB60A86FF6D" box="[807,908,201,226]" gridcol="4" gridrow="0" pageId="4" pageNumber="377">
+<emphasis id="E6E5EACAFFD4BB422C152CB60A86FF6E" bold="true" box="[807,908,201,225]" pageId="4" pageNumber="377">Sediment</emphasis>
+</th>
+<th id="29705DE6FFD444B92C892CB60D5DFF6D" box="[955,1111,201,226]" gridcol="5" gridrow="0" pageId="4" pageNumber="377">
+<emphasis id="E6E5EACAFFD4BB422C892CB50AFCFF6D" bold="true" box="[955,1014,202,226]" pageId="4" pageNumber="377">Flora</emphasis>
+</th>
+<th id="29705DE6FFD444B92BBC2CB60DECFF6D" box="[1166,1254,201,226]" gridcol="6" gridrow="0" pageId="4" pageNumber="377">
+<emphasis id="E6E5EACAFFD4BB422BBC2CB60DCBFF6E" bold="true" box="[1166,1217,201,225]" pageId="4" pageNumber="377">EQS</emphasis>
+</th>
+<th id="29705DE6FFD444B92A202CB60C61FF6D" box="[1298,1387,201,226]" gridcol="7" gridrow="0" pageId="4" pageNumber="377">
+<emphasis id="E6E5EACAFFD4BB422A202CB50C6EFF6D" bold="true" box="[1298,1380,202,226]" pageId="4" pageNumber="377">Human</emphasis>
+</th>
+</tr>
+<tr id="6AA1349AFFD444B92F942C920C61FE89" box="[166,1387,237,262]" gridrow="1" pageId="4" pageNumber="377" rowspan-0="1" rowspan-1="1" rowspan-2="1" rowspan-3="1" rowspan-5="1">
+<td id="29705DE6FFD444B92C152C920A86FE89" box="[807,908,237,262]" gridcol="4" gridrow="1" pageId="4" pageNumber="377">
+<emphasis id="E6E5EACAFFD4BB422C152C910A54FE89" bold="true" box="[807,862,238,262]" pageId="4" pageNumber="377">Type</emphasis>
+</td>
+<td id="29705DE6FFD444B92BBC2C920DECFE89" box="[1166,1254,237,262]" gridcol="6" gridrow="1" pageId="4" pageNumber="377">
+<emphasis id="E6E5EACAFFD4BB422BBC2C920DECFE8A" bold="true" box="[1166,1254,237,261]" pageId="4" pageNumber="377">(Bentix)</emphasis>
+</td>
+<td id="29705DE6FFD444B92A202C920C61FE89" box="[1298,1387,237,262]" gridcol="7" gridrow="1" pageId="4" pageNumber="377">
+<emphasis id="E6E5EACAFFD4BB422A202C920C61FE8A" bold="true" box="[1298,1387,237,261]" pageId="4" pageNumber="377">Stressor</emphasis>
+</td>
+</tr>
+<tr id="6AA1349AFFD444B92F942D690C61FEA0" box="[166,1387,278,303]" gridrow="2" pageId="4" pageNumber="377" rowspan-7="1">
+<th id="29705DE6FFD444B92F942D6909F2FEA0" box="[166,248,278,303]" gridcol="0" gridrow="2" pageId="4" pageNumber="377">VAS.20</th>
+<td id="29705DE6FFD444B92E1F2D6908B2FEA0" box="[301,440,278,303]" gridcol="1" gridrow="2" pageId="4" pageNumber="377">34° 42.260’N</td>
+<td id="29705DE6FFD444B92D312D690B78FEA0" box="[515,626,278,303]" gridcol="2" gridrow="2" pageId="4" pageNumber="377">35</td>
+<td id="29705DE6FFD444B92DA12D690BFAFEA0" box="[659,752,278,303]" gridcol="3" gridrow="2" pageId="4" pageNumber="377">6.654</td>
+<td id="29705DE6FFD444B92C152D690A86FEA0" box="[807,908,278,303]" gridcol="4" gridrow="2" pageId="4" pageNumber="377">MS</td>
+<td id="29705DE6FFD444B92C892D690D5DFEA0" box="[955,1111,278,303]" gridcol="5" gridrow="2" pageId="4" pageNumber="377">
+<taxonomicName id="13914D5BFFD4BB422C892D680D5BFEA0" authorityName="Sonder" authorityYear="1845" box="[955,1105,279,303]" class="Ulvophyceae" family="Caulerpaceae" genus="Caulerpa" higherTaxonomySource="GBIF" kingdom="Plantae" order="Bryopsidales" pageId="4" pageNumber="377" phylum="Chlorophyta" rank="species" species="cylindracea">
+<emphasis id="E6E5EACAFFD4BB422C892D680D5BFEA0" box="[955,1105,279,303]" italics="true" pageId="4" pageNumber="377">C. cylindracea</emphasis>
+</taxonomicName>
+</td>
+<td id="29705DE6FFD444B92BBC2D690DECFEA0" box="[1166,1254,278,303]" gridcol="6" gridrow="2" pageId="4" pageNumber="377">M</td>
+</tr>
+<tr id="6AA1349AFFD444B92F942D440C61FEDC" box="[166,1387,315,339]" gridrow="3" pageId="4" pageNumber="377" rowspan-0="1" rowspan-2="1" rowspan-3="1" rowspan-4="1" rowspan-5="1" rowspan-6="1" rowspan-7="1">
+<td id="29705DE6FFD444B92E1F2D4408B2FEDC" box="[301,440,315,339]" gridcol="1" gridrow="3" pageId="4" pageNumber="377">33° 17.233’E</td>
+</tr>
+<tr id="6AA1349AFFD444B92F942D1C0C61FEF4" box="[166,1387,355,379]" gridrow="4" pageId="4" pageNumber="377" rowspan-5="1">
+<th id="29705DE6FFD444B92F942D1C09F2FEF4" box="[166,248,355,379]" gridcol="0" gridrow="4" pageId="4" pageNumber="377">VAS.21</th>
+<td id="29705DE6FFD444B92E1F2D1C08B2FEF4" box="[301,440,355,379]" gridcol="1" gridrow="4" pageId="4" pageNumber="377">34° 43.352’N</td>
+<td id="29705DE6FFD444B92D312D1C0B78FEF4" box="[515,626,355,379]" gridcol="2" gridrow="4" pageId="4" pageNumber="377">4</td>
+<td id="29705DE6FFD444B92DA12D1C0BFAFEF4" box="[659,752,355,379]" gridcol="3" gridrow="4" pageId="4" pageNumber="377">2.446</td>
+<td id="29705DE6FFD444B92C152D1C0A86FEF4" box="[807,908,355,379]" gridcol="4" gridrow="4" pageId="4" pageNumber="377">S</td>
+<td id="29705DE6FFD444B92BBC2D1C0DECFEF4" box="[1166,1254,355,379]" gridcol="6" gridrow="4" pageId="4" pageNumber="377">H</td>
+<td id="29705DE6FFD444B92A202D1C0C61FEF4" box="[1298,1387,355,379]" gridcol="7" gridrow="4" pageId="4" pageNumber="377">O</td>
+</tr>
+<tr id="6AA1349AFFD444B92F942DF80C61FE10" box="[166,1387,391,415]" gridrow="5" pageId="4" pageNumber="377" rowspan-0="1" rowspan-2="1" rowspan-3="1" rowspan-4="1" rowspan-5="1" rowspan-6="1" rowspan-7="1">
+<td id="29705DE6FFD444B92E1F2DF808B2FE10" box="[301,440,391,415]" gridcol="1" gridrow="5" pageId="4" pageNumber="377">33° 17.441’E</td>
+</tr>
+<tr id="6AA1349AFFD444B92F942DD00C61FE48" box="[166,1387,431,455]" gridrow="6" pageId="4" pageNumber="377" rowspan-5="1" rowspan-7="1">
+<th id="29705DE6FFD444B92F942DD009F2FE48" box="[166,248,431,455]" gridcol="0" gridrow="6" pageId="4" pageNumber="377">VAS.22</th>
+<td id="29705DE6FFD444B92E1F2DD008B2FE48" box="[301,440,431,455]" gridcol="1" gridrow="6" pageId="4" pageNumber="377">34° 43.222’N</td>
+<td id="29705DE6FFD444B92D312DD00B78FE48" box="[515,626,431,455]" gridcol="2" gridrow="6" pageId="4" pageNumber="377">6</td>
+<td id="29705DE6FFD444B92DA12DD00BFAFE48" box="[659,752,431,455]" gridcol="3" gridrow="6" pageId="4" pageNumber="377">2.356</td>
+<td id="29705DE6FFD444B92C152DD00A86FE48" box="[807,908,431,455]" gridcol="4" gridrow="6" pageId="4" pageNumber="377">S</td>
+<td id="29705DE6FFD444B92BBC2DD00DECFE48" box="[1166,1254,431,455]" gridcol="6" gridrow="6" pageId="4" pageNumber="377">H</td>
+</tr>
+<tr id="6AA1349AFFD444B92F942DAC0C61FE64" box="[166,1387,467,491]" gridrow="7" pageId="4" pageNumber="377" rowspan-0="1" rowspan-2="1" rowspan-3="1" rowspan-4="1" rowspan-5="1" rowspan-6="1" rowspan-7="1">
+<td id="29705DE6FFD444B92E1F2DAC08B2FE64" box="[301,440,467,491]" gridcol="1" gridrow="7" pageId="4" pageNumber="377">33° 17.481’E</td>
+</tr>
+<tr id="6AA1349AFFD444B92F942D840C61FD9B" box="[166,1387,507,532]" gridrow="8" pageId="4" pageNumber="377" rowspan-7="1">
+<th id="29705DE6FFD444B92F942D8409F2FD9B" box="[166,248,507,532]" gridcol="0" gridrow="8" pageId="4" pageNumber="377">VAS.23</th>
+<td id="29705DE6FFD444B92E1F2D8408B2FD9B" box="[301,440,507,532]" gridcol="1" gridrow="8" pageId="4" pageNumber="377">34° 42.618’N</td>
+<td id="29705DE6FFD444B92D312D840B78FD9B" box="[515,626,507,532]" gridcol="2" gridrow="8" pageId="4" pageNumber="377">19</td>
+<td id="29705DE6FFD444B92DA12D840BFAFD9B" box="[659,752,507,532]" gridcol="3" gridrow="8" pageId="4" pageNumber="377">5.191</td>
+<td id="29705DE6FFD444B92C152D840A86FD9B" box="[807,908,507,532]" gridcol="4" gridrow="8" pageId="4" pageNumber="377">MS</td>
+<td id="29705DE6FFD444B92C892D840D5DFD9B" box="[955,1111,507,532]" gridcol="5" gridrow="8" pageId="4" pageNumber="377">
+<taxonomicName id="13914D5BFFD4BB422C892D830D38FD9C" authorityName="J. V. Lamouroux" authorityYear="1809" baseAuthorityName="Forsskal" box="[955,1074,507,531]" class="Ulvophyceae" family="Caulerpaceae" genus="Caulerpa" higherTaxonomySource="GBIF" kingdom="Plantae" order="Bryopsidales" pageId="4" pageNumber="377" phylum="Chlorophyta" rank="species" species="prolifera">
+<emphasis id="E6E5EACAFFD4BB422C892D830D38FD9C" box="[955,1074,507,531]" italics="true" pageId="4" pageNumber="377">C. prolifera</emphasis>
+</taxonomicName>
+</td>
+<td id="29705DE6FFD444B92BBC2D840DECFD9B" box="[1166,1254,507,532]" gridcol="6" gridrow="8" pageId="4" pageNumber="377">G</td>
+</tr>
+<tr id="6AA1349AFFD444B92F942E600C61FDB7" box="[166,1387,543,568]" gridrow="9" pageId="4" pageNumber="377" rowspan-0="1" rowspan-2="1" rowspan-3="1" rowspan-4="1" rowspan-6="1" rowspan-7="1">
+<td id="29705DE6FFD444B92E1F2E6008B2FDB7" box="[301,440,543,568]" gridcol="1" gridrow="9" pageId="4" pageNumber="377">33° 17.475’E</td>
+<td id="29705DE6FFD444B92C892E600D5DFDB7" box="[955,1111,543,568]" gridcol="5" gridrow="9" pageId="4" pageNumber="377">
+<taxonomicName id="13914D5BFFD4BB422C892E5F0D5BFDB8" authorityName="Sonder" authorityYear="1845" box="[955,1105,543,567]" class="Ulvophyceae" family="Caulerpaceae" genus="Caulerpa" higherTaxonomySource="GBIF" kingdom="Plantae" order="Bryopsidales" pageId="4" pageNumber="377" phylum="Chlorophyta" rank="species" species="cylindracea">
+<emphasis id="E6E5EACAFFD4BB422C892E5F0D5BFDB8" box="[955,1105,543,567]" italics="true" pageId="4" pageNumber="377">C. cylindracea</emphasis>
+</taxonomicName>
+</td>
+</tr>
+<tr id="6AA1349AFFD444B92F942E3C0C61FDD4" box="[166,1387,579,603]" gridrow="10" pageId="4" pageNumber="377" rowspan-0="1" rowspan-1="1" rowspan-2="1" rowspan-3="1" rowspan-4="1" rowspan-6="1" rowspan-7="1">
+<td id="29705DE6FFD444B92C892E3C0D5DFDD4" box="[955,1111,579,603]" gridcol="5" gridrow="10" pageId="4" pageNumber="377">
+<taxonomicName id="13914D5BFFD4BB422C892E3B0D28FDD4" authorityName="Ascherson" authorityYear="1870" baseAuthorityName="Ucria" box="[955,1058,579,603]" class="Liliopsida" family="Cymodoceaceae" genus="Cymodocea" kingdom="Animalia" order="Alismatales" pageId="4" pageNumber="377" phylum="Tracheophyta" rank="species" species="nodosa">
+<emphasis id="E6E5EACAFFD4BB422C892E3B0D28FDD4" box="[955,1058,579,603]" italics="true" pageId="4" pageNumber="377">C. nodosa</emphasis>
+</taxonomicName>
+</td>
+</tr>
+<tr id="6AA1349AFFD444B92F942E130C61FD0B" box="[166,1387,620,644]" gridrow="11" pageId="4" pageNumber="377" rowspan-7="1">
+<th id="29705DE6FFD444B92F942E1309F2FD0B" box="[166,248,620,644]" gridcol="0" gridrow="11" pageId="4" pageNumber="377">VAS.24</th>
+<td id="29705DE6FFD444B92E1F2E1308B2FD0B" box="[301,440,620,644]" gridcol="1" gridrow="11" pageId="4" pageNumber="377">34° 42.986’N</td>
+<td id="29705DE6FFD444B92D312E130B78FD0B" box="[515,626,620,644]" gridcol="2" gridrow="11" pageId="4" pageNumber="377">13</td>
+<td id="29705DE6FFD444B92DA12E130BFAFD0B" box="[659,752,620,644]" gridcol="3" gridrow="11" pageId="4" pageNumber="377">3.179</td>
+<td id="29705DE6FFD444B92C152E130A86FD0B" box="[807,908,620,644]" gridcol="4" gridrow="11" pageId="4" pageNumber="377">S</td>
+<td id="29705DE6FFD444B92C892E130D5DFD0B" box="[955,1111,620,644]" gridcol="5" gridrow="11" pageId="4" pageNumber="377">
+<taxonomicName id="13914D5BFFD4BB422C892E130D28FD0B" authorityName="Ascherson" authorityYear="1870" baseAuthorityName="Ucria" box="[955,1058,620,644]" class="Liliopsida" family="Cymodoceaceae" genus="Cymodocea" kingdom="Animalia" order="Alismatales" pageId="4" pageNumber="377" phylum="Tracheophyta" rank="species" species="nodosa">
+<emphasis id="E6E5EACAFFD4BB422C892E130D28FD0B" box="[955,1058,620,644]" italics="true" pageId="4" pageNumber="377">C. nodosa</emphasis>
+</taxonomicName>
+</td>
+<td id="29705DE6FFD444B92BBC2E130DECFD0B" box="[1166,1254,620,644]" gridcol="6" gridrow="11" pageId="4" pageNumber="377">H</td>
+</tr>
+<tr id="6AA1349AFFD444B92F942EEF0C61FD27" box="[166,1387,656,680]" gridrow="12" pageId="4" pageNumber="377" rowspan-0="1" rowspan-2="1" rowspan-3="1" rowspan-4="1" rowspan-5="1" rowspan-6="1" rowspan-7="1">
+<td id="29705DE6FFD444B92E1F2EEF08B2FD27" box="[301,440,656,680]" gridcol="1" gridrow="12" pageId="4" pageNumber="377">33° 17.740’E</td>
+</tr>
+<tr id="6AA1349AFFD444B92F942EC70C61FD5F" box="[166,1387,696,720]" gridrow="13" pageId="4" pageNumber="377">
+<th id="29705DE6FFD444B92F942EC709F2FD5F" box="[166,248,696,720]" gridcol="0" gridrow="13" pageId="4" pageNumber="377">VAS.25</th>
+<td id="29705DE6FFD444B92E1F2EC708B2FD5F" box="[301,440,696,720]" gridcol="1" gridrow="13" pageId="4" pageNumber="377">34° 42.256’N</td>
+<td id="29705DE6FFD444B92D312EC70B78FD5F" box="[515,626,696,720]" gridcol="2" gridrow="13" pageId="4" pageNumber="377">37</td>
+<td id="29705DE6FFD444B92DA12EC70BFAFD5F" box="[659,752,696,720]" gridcol="3" gridrow="13" pageId="4" pageNumber="377">6.132</td>
+<td id="29705DE6FFD444B92C152EC70A86FD5F" box="[807,908,696,720]" gridcol="4" gridrow="13" pageId="4" pageNumber="377">MS</td>
+<td id="29705DE6FFD444B92C892EC70D5DFD5F" box="[955,1111,696,720]" gridcol="5" gridrow="13" pageId="4" pageNumber="377">
+<taxonomicName id="13914D5BFFD4BB422C892EC70D39FD5F" authorityName="J. V. Lamouroux" authorityYear="1809" baseAuthorityName="Forsskal" box="[955,1075,696,720]" class="Ulvophyceae" family="Caulerpaceae" genus="Caulerpa" higherTaxonomySource="GBIF" kingdom="Plantae" order="Bryopsidales" pageId="4" pageNumber="377" phylum="Chlorophyta" rank="species" species="prolifera">
+<emphasis id="E6E5EACAFFD4BB422C892EC70D39FD5F" box="[955,1075,696,720]" italics="true" pageId="4" pageNumber="377">C. prolifera</emphasis>
+</taxonomicName>
+</td>
+<td id="29705DE6FFD444B92BBC2EC70DECFD5F" box="[1166,1254,696,720]" gridcol="6" gridrow="13" pageId="4" pageNumber="377">M</td>
+<td id="29705DE6FFD444B92A202EC70C61FD5F" box="[1298,1387,696,720]" gridcol="7" gridrow="13" pageId="4" pageNumber="377">B</td>
+</tr>
+<tr id="6AA1349AFFD444B92F942EA30C61FD7B" box="[166,1387,732,756]" gridrow="14" pageId="4" pageNumber="377" rowspan-0="1" rowspan-2="1" rowspan-3="1" rowspan-4="1" rowspan-6="1" rowspan-7="1">
+<td id="29705DE6FFD444B92E1F2EA308B2FD7B" box="[301,440,732,756]" gridcol="1" gridrow="14" pageId="4" pageNumber="377">33° 17.735’E</td>
+<td id="29705DE6FFD444B92C892EA30D5DFD7B" box="[955,1111,732,756]" gridcol="5" gridrow="14" pageId="4" pageNumber="377">
+<taxonomicName id="13914D5BFFD4BB422C892EA30D5BFD7B" authorityName="Sonder" authorityYear="1845" box="[955,1105,732,756]" class="Ulvophyceae" family="Caulerpaceae" genus="Caulerpa" higherTaxonomySource="GBIF" kingdom="Plantae" order="Bryopsidales" pageId="4" pageNumber="377" phylum="Chlorophyta" rank="species" species="cylindracea">
+<emphasis id="E6E5EACAFFD4BB422C892EA30D5BFD7B" box="[955,1105,732,756]" italics="true" pageId="4" pageNumber="377">C. cylindracea</emphasis>
+</taxonomicName>
+</td>
+</tr>
+<tr id="6AA1349AFFD444B92F942F7B0C61FC93" box="[166,1387,772,796]" gridrow="15" pageId="4" pageNumber="377" rowspan-7="1">
+<th id="29705DE6FFD444B92F942F7B09F2FC93" box="[166,248,772,796]" gridcol="0" gridrow="15" pageId="4" pageNumber="377">VAS.26</th>
+<td id="29705DE6FFD444B92E1F2F7B08B2FC93" box="[301,440,772,796]" gridcol="1" gridrow="15" pageId="4" pageNumber="377">34° 42.620’N</td>
+<td id="29705DE6FFD444B92D312F7B0B78FC93" box="[515,626,772,796]" gridcol="2" gridrow="15" pageId="4" pageNumber="377">23</td>
+<td id="29705DE6FFD444B92DA12F7B0BFAFC93" box="[659,752,772,796]" gridcol="3" gridrow="15" pageId="4" pageNumber="377">6.790</td>
+<td id="29705DE6FFD444B92C152F7B0A86FC93" box="[807,908,772,796]" gridcol="4" gridrow="15" pageId="4" pageNumber="377">MS</td>
+<td id="29705DE6FFD444B92C892F7B0D5DFC93" box="[955,1111,772,796]" gridcol="5" gridrow="15" pageId="4" pageNumber="377">
+<taxonomicName id="13914D5BFFD4BB422C892F7A0D38FC93" authorityName="J. V. Lamouroux" authorityYear="1809" baseAuthorityName="Forsskal" box="[955,1074,772,796]" class="Ulvophyceae" family="Caulerpaceae" genus="Caulerpa" higherTaxonomySource="GBIF" kingdom="Plantae" order="Bryopsidales" pageId="4" pageNumber="377" phylum="Chlorophyta" rank="species" species="prolifera">
+<emphasis id="E6E5EACAFFD4BB422C892F7A0D38FC93" box="[955,1074,772,796]" italics="true" pageId="4" pageNumber="377">C. prolifera</emphasis>
+</taxonomicName>
+</td>
+<td id="29705DE6FFD444B92BBC2F7B0DECFC93" box="[1166,1254,772,796]" gridcol="6" gridrow="15" pageId="4" pageNumber="377">G</td>
+</tr>
+<tr id="6AA1349AFFD444B92F942F570C61FCCF" box="[166,1387,808,832]" gridrow="16" pageId="4" pageNumber="377" rowspan-0="1" rowspan-2="1" rowspan-3="1" rowspan-4="1" rowspan-6="1" rowspan-7="1">
+<td id="29705DE6FFD444B92E1F2F5708B2FCCF" box="[301,440,808,832]" gridcol="1" gridrow="16" pageId="4" pageNumber="377">33° 17.967’E</td>
+<td id="29705DE6FFD444B92C892F570D5DFCCF" box="[955,1111,808,832]" gridcol="5" gridrow="16" pageId="4" pageNumber="377">
+<emphasis id="E6E5EACAFFD4BB422C892F560D5DFCCF" box="[955,1111,808,832]" italics="true" pageId="4" pageNumber="377">
+<taxonomicName id="13914D5BFFD4BB422C892F560D59FCCF" authorityName="Sonder" authorityYear="1845" box="[955,1107,808,832]" class="Ulvophyceae" family="Caulerpaceae" genus="Caulerpa" higherTaxonomySource="GBIF" kingdom="Plantae" order="Bryopsidales" pageId="4" pageNumber="377" phylum="Chlorophyta" rank="species" species="cylindracea">C. cylindracea</taxonomicName>
+,
+</emphasis>
+</td>
+</tr>
+<tr id="6AA1349AFFD444B92F942F320C61FCEB" box="[166,1387,845,868]" gridrow="17" pageId="4" pageNumber="377" rowspan-0="1" rowspan-1="1" rowspan-2="1" rowspan-3="1" rowspan-4="1" rowspan-6="1" rowspan-7="1">
+<td id="29705DE6FFD444B92C892F320D5DFCEB" box="[955,1111,845,868]" gridcol="5" gridrow="17" pageId="4" pageNumber="377">
+<emphasis id="E6E5EACAFFD4BB422C892F320D49FCEB" box="[955,1091,845,868]" italics="true" pageId="4" pageNumber="377">
+<taxonomicName id="13914D5BFFD4BB422C892F320D35FCEB" box="[955,1087,845,868]" class="Phaeophyceae" family="Dictyotaceae" genus="Dictyota" higherTaxonomySource="CoL" kingdom="Animalia" order="Dictyotales" pageId="4" pageNumber="377" phylum="Ochrophyta" rank="species" species="spp">Dictyota spp</taxonomicName>
+.
+</emphasis>
+</td>
+</tr>
+<tr id="6AA1349AFFD444B92F942F0B0C61FC02" box="[166,1387,884,909]" gridrow="18" pageId="4" pageNumber="377" rowspan-5="1">
+<th id="29705DE6FFD444B92F942F0B09F2FC02" box="[166,248,884,909]" gridcol="0" gridrow="18" pageId="4" pageNumber="377">VAS.27</th>
+<td id="29705DE6FFD444B92E1F2F0B08B2FC02" box="[301,440,884,909]" gridcol="1" gridrow="18" pageId="4" pageNumber="377">34° 43.363’N</td>
+<td id="29705DE6FFD444B92D312F0B0B78FC02" box="[515,626,884,909]" gridcol="2" gridrow="18" pageId="4" pageNumber="377">6</td>
+<td id="29705DE6FFD444B92DA12F0B0BFAFC02" box="[659,752,884,909]" gridcol="3" gridrow="18" pageId="4" pageNumber="377">7.680</td>
+<td id="29705DE6FFD444B92C152F0B0A86FC02" box="[807,908,884,909]" gridcol="4" gridrow="18" pageId="4" pageNumber="377">MS</td>
+<td id="29705DE6FFD444B92BBC2F0B0DECFC02" box="[1166,1254,884,909]" gridcol="6" gridrow="18" pageId="4" pageNumber="377">P</td>
+<td id="29705DE6FFD444B92A202F0B0C61FC02" box="[1298,1387,884,909]" gridcol="7" gridrow="18" pageId="4" pageNumber="377">P</td>
+</tr>
+<tr id="6AA1349AFFD444B92F942FE60C61FC3E" box="[166,1387,921,945]" gridrow="19" pageId="4" pageNumber="377" rowspan-0="1" rowspan-2="1" rowspan-3="1" rowspan-4="1" rowspan-5="1" rowspan-6="1" rowspan-7="1">
+<td id="29705DE6FFD444B92E1F2FE608B2FC3E" box="[301,440,921,945]" gridcol="1" gridrow="19" pageId="4" pageNumber="377">33° 18.229’E</td>
+</tr>
+<tr id="6AA1349AFFD444B92F942FBE0C61FC56" box="[166,1387,961,985]" gridrow="20" pageId="4" pageNumber="377" rowspan-5="1">
+<th id="29705DE6FFD444B92F942FBE09F2FC56" box="[166,248,961,985]" gridcol="0" gridrow="20" pageId="4" pageNumber="377">VAS.28</th>
+<td id="29705DE6FFD444B92E1F2FBE08B2FC56" box="[301,440,961,985]" gridcol="1" gridrow="20" pageId="4" pageNumber="377">34° 43.266’N</td>
+<td id="29705DE6FFD444B92D312FBE0B78FC56" box="[515,626,961,985]" gridcol="2" gridrow="20" pageId="4" pageNumber="377">4</td>
+<td id="29705DE6FFD444B92DA12FBE0BFAFC56" box="[659,752,961,985]" gridcol="3" gridrow="20" pageId="4" pageNumber="377">3.568</td>
+<td id="29705DE6FFD444B92C152FBE0A86FC56" box="[807,908,961,985]" gridcol="4" gridrow="20" pageId="4" pageNumber="377">S</td>
+<td id="29705DE6FFD444B92BBC2FBE0DECFC56" box="[1166,1254,961,985]" gridcol="6" gridrow="20" pageId="4" pageNumber="377">G</td>
+<td id="29705DE6FFD444B92A202FBE0C61FC56" box="[1298,1387,961,985]" gridcol="7" gridrow="20" pageId="4" pageNumber="377">P</td>
+</tr>
+<tr id="6AA1349AFFD444B92F942F9A0C61FC72" box="[166,1387,997,1021]" gridrow="21" pageId="4" pageNumber="377" rowspan-0="1" rowspan-2="1" rowspan-3="1" rowspan-4="1" rowspan-5="1" rowspan-6="1" rowspan-7="1">
+<td id="29705DE6FFD444B92E1F2F9A08B2FC72" box="[301,440,997,1021]" gridcol="1" gridrow="21" pageId="4" pageNumber="377">33° 18.233’E</td>
+</tr>
+<tr id="6AA1349AFFD444B92F9428720C61FBAA" box="[166,1387,1037,1061]" gridrow="22" pageId="4" pageNumber="377" rowspan-5="1" rowspan-7="1">
+<th id="29705DE6FFD444B92F94287209F2FBAA" box="[166,248,1037,1061]" gridcol="0" gridrow="22" pageId="4" pageNumber="377">VAS.29</th>
+<td id="29705DE6FFD444B92E1F287208B2FBAA" box="[301,440,1037,1061]" gridcol="1" gridrow="22" pageId="4" pageNumber="377">34° 42.969’N</td>
+<td id="29705DE6FFD444B92D3128720B78FBAA" box="[515,626,1037,1061]" gridcol="2" gridrow="22" pageId="4" pageNumber="377">12</td>
+<td id="29705DE6FFD444B92DA128720BFAFBAA" box="[659,752,1037,1061]" gridcol="3" gridrow="22" pageId="4" pageNumber="377">2.783</td>
+<td id="29705DE6FFD444B92C1528720A86FBAA" box="[807,908,1037,1061]" gridcol="4" gridrow="22" pageId="4" pageNumber="377">S</td>
+<td id="29705DE6FFD444B92BBC28720DECFBAA" box="[1166,1254,1037,1061]" gridcol="6" gridrow="22" pageId="4" pageNumber="377">G</td>
+</tr>
+<tr id="6AA1349AFFD444B92F94284E0C61FBC6" box="[166,1387,1073,1097]" gridrow="23" pageId="4" pageNumber="377" rowspan-0="1" rowspan-2="1" rowspan-3="1" rowspan-4="1" rowspan-5="1" rowspan-6="1" rowspan-7="1">
+<td id="29705DE6FFD444B92E1F284E08B2FBC6" box="[301,440,1073,1097]" gridcol="1" gridrow="23" pageId="4" pageNumber="377">33° 18.216’E</td>
+</tr>
+<tr id="6AA1349AFFD444B92F9428260C61FBFE" box="[166,1387,1113,1137]" gridrow="24" pageId="4" pageNumber="377" rowspan-5="1" rowspan-7="1">
+<th id="29705DE6FFD444B92F94282609F2FBFE" box="[166,248,1113,1137]" gridcol="0" gridrow="24" pageId="4" pageNumber="377">VAS.30</th>
+<td id="29705DE6FFD444B92E1F282608B2FBFE" box="[301,440,1113,1137]" gridcol="1" gridrow="24" pageId="4" pageNumber="377">34° 42.250’N</td>
+<td id="29705DE6FFD444B92D3128260B78FBFE" box="[515,626,1113,1137]" gridcol="2" gridrow="24" pageId="4" pageNumber="377">35</td>
+<td id="29705DE6FFD444B92DA128260BFAFBFE" box="[659,752,1113,1137]" gridcol="3" gridrow="24" pageId="4" pageNumber="377">6.265</td>
+<td id="29705DE6FFD444B92C1528260A86FBFE" box="[807,908,1113,1137]" gridcol="4" gridrow="24" pageId="4" pageNumber="377">MS</td>
+<td id="29705DE6FFD444B92BBC28260DECFBFE" box="[1166,1254,1113,1137]" gridcol="6" gridrow="24" pageId="4" pageNumber="377">M</td>
+</tr>
+<tr id="6AA1349AFFD444B92F9428020C61FB1A" box="[166,1387,1149,1173]" gridrow="25" pageId="4" pageNumber="377" rowspan-0="1" rowspan-2="1" rowspan-3="1" rowspan-4="1" rowspan-5="1" rowspan-6="1" rowspan-7="1">
+<td id="29705DE6FFD444B92E1F280208B2FB1A" box="[301,440,1149,1173]" gridcol="1" gridrow="25" pageId="4" pageNumber="377">33° 18.223’E</td>
+</tr>
+<tr id="6AA1349AFFD444B92F9428DA0C61FB31" box="[166,1387,1189,1214]" gridrow="26" pageId="4" pageNumber="377" rowspan-7="1">
+<th id="29705DE6FFD444B92F9428DA09F2FB31" box="[166,248,1189,1214]" gridcol="0" gridrow="26" pageId="4" pageNumber="377">VAS.31</th>
+<td id="29705DE6FFD444B92E1F28DA08B2FB31" box="[301,440,1189,1214]" gridcol="1" gridrow="26" pageId="4" pageNumber="377">34° 42.616’N</td>
+<td id="29705DE6FFD444B92D3128DA0B78FB31" box="[515,626,1189,1214]" gridcol="2" gridrow="26" pageId="4" pageNumber="377">22</td>
+<td id="29705DE6FFD444B92DA128DA0BFAFB31" box="[659,752,1189,1214]" gridcol="3" gridrow="26" pageId="4" pageNumber="377">7.284</td>
+<td id="29705DE6FFD444B92C1528DA0A86FB31" box="[807,908,1189,1214]" gridcol="4" gridrow="26" pageId="4" pageNumber="377">MS</td>
+<td id="29705DE6FFD444B92C8928DA0D5DFB31" box="[955,1111,1189,1214]" gridcol="5" gridrow="26" pageId="4" pageNumber="377">
+<taxonomicName id="13914D5BFFD4BB422C8928D90D39FB32" authorityName="J. V. Lamouroux" authorityYear="1809" baseAuthorityName="Forsskal" box="[955,1075,1189,1213]" class="Ulvophyceae" family="Caulerpaceae" genus="Caulerpa" higherTaxonomySource="GBIF" kingdom="Plantae" order="Bryopsidales" pageId="4" pageNumber="377" phylum="Chlorophyta" rank="species" species="prolifera">
+<emphasis id="E6E5EACAFFD4BB422C8928D90D39FB32" box="[955,1075,1189,1213]" italics="true" pageId="4" pageNumber="377">C. prolifera</emphasis>
+</taxonomicName>
+</td>
+<td id="29705DE6FFD444B92BBC28DA0DECFB31" box="[1166,1254,1189,1214]" gridcol="6" gridrow="26" pageId="4" pageNumber="377">M</td>
+</tr>
+<tr id="6AA1349AFFD444B92F9428B60C61FB6D" box="[166,1387,1225,1250]" gridrow="27" pageId="4" pageNumber="377" rowspan-0="1" rowspan-2="1" rowspan-3="1" rowspan-4="1" rowspan-6="1" rowspan-7="1">
+<td id="29705DE6FFD444B92E1F28B608B2FB6D" box="[301,440,1225,1250]" gridcol="1" gridrow="27" pageId="4" pageNumber="377">33° 18.456’E</td>
+<td id="29705DE6FFD444B92C8928B60D5DFB6D" box="[955,1111,1225,1250]" gridcol="5" gridrow="27" pageId="4" pageNumber="377">
+<taxonomicName id="13914D5BFFD4BB422C8928B50D5BFB6E" authorityName="Sonder" authorityYear="1845" box="[955,1105,1225,1249]" class="Ulvophyceae" family="Caulerpaceae" genus="Caulerpa" higherTaxonomySource="GBIF" kingdom="Plantae" order="Bryopsidales" pageId="4" pageNumber="377" phylum="Chlorophyta" rank="species" species="cylindracea">
+<emphasis id="E6E5EACAFFD4BB422C8928B50D5BFB6E" box="[955,1105,1225,1249]" italics="true" pageId="4" pageNumber="377">C. cylindracea</emphasis>
+</taxonomicName>
+</td>
+</tr>
+<tr id="6AA1349AFFD444B92F94288D0C61FA85" box="[166,1387,1266,1290]" gridrow="28" pageId="4" pageNumber="377" rowspan-7="1">
+<th id="29705DE6FFD444B92F94288D09F2FA85" box="[166,248,1266,1290]" gridcol="0" gridrow="28" pageId="4" pageNumber="377">VAS.32</th>
+<td id="29705DE6FFD444B92E1F288D08B2FA85" box="[301,440,1266,1290]" gridcol="1" gridrow="28" pageId="4" pageNumber="377">34° 42.969’N</td>
+<td id="29705DE6FFD444B92D31288D0B78FA85" box="[515,626,1266,1290]" gridcol="2" gridrow="28" pageId="4" pageNumber="377">11</td>
+<td id="29705DE6FFD444B92DA1288D0BFAFA85" box="[659,752,1266,1290]" gridcol="3" gridrow="28" pageId="4" pageNumber="377">3.058</td>
+<td id="29705DE6FFD444B92C15288D0A86FA85" box="[807,908,1266,1290]" gridcol="4" gridrow="28" pageId="4" pageNumber="377">S</td>
+<td id="29705DE6FFD444B92C89288D0D5DFA85" box="[955,1111,1266,1290]" gridcol="5" gridrow="28" pageId="4" pageNumber="377">
+<taxonomicName id="13914D5BFFD4BB422C89288D0D28FA85" authorityName="Ascherson" authorityYear="1870" baseAuthorityName="Ucria" box="[955,1058,1266,1290]" class="Liliopsida" family="Cymodoceaceae" genus="Cymodocea" kingdom="Animalia" order="Alismatales" pageId="4" pageNumber="377" phylum="Tracheophyta" rank="species" species="nodosa">
+<emphasis id="E6E5EACAFFD4BB422C89288D0D28FA85" box="[955,1058,1266,1290]" italics="true" pageId="4" pageNumber="377">C. nodosa</emphasis>
+</taxonomicName>
+</td>
+<td id="29705DE6FFD444B92BBC288D0DECFA85" box="[1166,1254,1266,1290]" gridcol="6" gridrow="28" pageId="4" pageNumber="377">H</td>
+</tr>
+<tr id="6AA1349AFFD444B92F9429690C61FAA1" box="[166,1387,1302,1326]" gridrow="29" pageId="4" pageNumber="377" rowspan-0="1" rowspan-2="1" rowspan-3="1" rowspan-4="1" rowspan-5="1" rowspan-6="1" rowspan-7="1">
+<td id="29705DE6FFD444B92E1F296908B2FAA1" box="[301,440,1302,1326]" gridcol="1" gridrow="29" pageId="4" pageNumber="377">33° 18.703’E</td>
+</tr>
+<tr id="6AA1349AFFD444B92F9429410C61FAD9" box="[166,1387,1342,1366]" gridrow="30" pageId="4" pageNumber="377" rowspan-7="1">
+<th id="29705DE6FFD444B92F94294109F2FAD9" box="[166,248,1342,1366]" gridcol="0" gridrow="30" pageId="4" pageNumber="377">VAS.33</th>
+<td id="29705DE6FFD444B92E1F294108B2FAD9" box="[301,440,1342,1366]" gridcol="1" gridrow="30" pageId="4" pageNumber="377">34° 42.254’N</td>
+<td id="29705DE6FFD444B92D3129410B78FAD9" box="[515,626,1342,1366]" gridcol="2" gridrow="30" pageId="4" pageNumber="377">32</td>
+<td id="29705DE6FFD444B92DA129410BFAFAD9" box="[659,752,1342,1366]" gridcol="3" gridrow="30" pageId="4" pageNumber="377">8.848</td>
+<td id="29705DE6FFD444B92C1529410A86FAD9" box="[807,908,1342,1366]" gridcol="4" gridrow="30" pageId="4" pageNumber="377">MS</td>
+<td id="29705DE6FFD444B92C8929410D5DFAD9" box="[955,1111,1342,1366]" gridcol="5" gridrow="30" pageId="4" pageNumber="377">
+<taxonomicName id="13914D5BFFD4BB422C8929410D39FAD9" authorityName="J. V. Lamouroux" authorityYear="1809" baseAuthorityName="Forsskal" box="[955,1075,1342,1366]" class="Ulvophyceae" family="Caulerpaceae" genus="Caulerpa" higherTaxonomySource="GBIF" kingdom="Plantae" order="Bryopsidales" pageId="4" pageNumber="377" phylum="Chlorophyta" rank="species" species="prolifera">
+<emphasis id="E6E5EACAFFD4BB422C8929410D39FAD9" box="[955,1075,1342,1366]" italics="true" pageId="4" pageNumber="377">C. prolifera</emphasis>
+</taxonomicName>
+</td>
+<td id="29705DE6FFD444B92BBC29410DECFAD9" box="[1166,1254,1342,1366]" gridcol="6" gridrow="30" pageId="4" pageNumber="377">M</td>
+</tr>
+<tr id="6AA1349AFFD444B92F94291D0C61FAF5" box="[166,1387,1378,1402]" gridrow="31" pageId="4" pageNumber="377" rowspan-0="1" rowspan-2="1" rowspan-3="1" rowspan-4="1" rowspan-5="1" rowspan-6="1" rowspan-7="1">
+<td id="29705DE6FFD444B92E1F291D08B2FAF5" box="[301,440,1378,1402]" gridcol="1" gridrow="31" pageId="4" pageNumber="377">33° 18.704’E</td>
+</tr>
+<tr id="6AA1349AFFD444B92F9429F50C61FA2D" box="[166,1387,1418,1442]" gridrow="32" pageId="4" pageNumber="377" rowspan-5="1">
+<th id="29705DE6FFD444B92F9429F509F2FA2D" box="[166,248,1418,1442]" gridcol="0" gridrow="32" pageId="4" pageNumber="377">VAS.34</th>
+<td id="29705DE6FFD444B92E1F29F508B2FA2D" box="[301,440,1418,1442]" gridcol="1" gridrow="32" pageId="4" pageNumber="377">34° 43.083’N</td>
+<td id="29705DE6FFD444B92D3129F50B78FA2D" box="[515,626,1418,1442]" gridcol="2" gridrow="32" pageId="4" pageNumber="377">11</td>
+<td id="29705DE6FFD444B92DA129F50BFAFA2D" box="[659,752,1418,1442]" gridcol="3" gridrow="32" pageId="4" pageNumber="377">10.314</td>
+<td id="29705DE6FFD444B92C1529F50A86FA2D" box="[807,908,1418,1442]" gridcol="4" gridrow="32" pageId="4" pageNumber="377">MS</td>
+<td id="29705DE6FFD444B92BBC29F50DECFA2D" box="[1166,1254,1418,1442]" gridcol="6" gridrow="32" pageId="4" pageNumber="377">M</td>
+<td id="29705DE6FFD444B92A2029F50C61FA2D" box="[1298,1387,1418,1442]" gridcol="7" gridrow="32" pageId="4" pageNumber="377">P</td>
+</tr>
+<tr id="6AA1349AFFD444B92F9429D10C61FA49" box="[166,1387,1454,1478]" gridrow="33" pageId="4" pageNumber="377" rowspan-0="1" rowspan-2="1" rowspan-3="1" rowspan-4="1" rowspan-5="1" rowspan-6="1" rowspan-7="1">
+<td id="29705DE6FFD444B92E1F29D108B2FA49" box="[301,440,1454,1478]" gridcol="1" gridrow="33" pageId="4" pageNumber="377">33° 18.945’E</td>
+</tr>
+<tr id="6AA1349AFFD444B92F9429A90C61FA60" box="[166,1387,1494,1519]" gridrow="34" pageId="4" pageNumber="377" rowspan-7="1">
+<th id="29705DE6FFD444B92F9429A909F2FA60" box="[166,248,1494,1519]" gridcol="0" gridrow="34" pageId="4" pageNumber="377">VAS.35</th>
+<td id="29705DE6FFD444B92E1F29A908B2FA60" box="[301,440,1494,1519]" gridcol="1" gridrow="34" pageId="4" pageNumber="377">34° 42.639’N</td>
+<td id="29705DE6FFD444B92D3129A90B78FA60" box="[515,626,1494,1519]" gridcol="2" gridrow="34" pageId="4" pageNumber="377">20</td>
+<td id="29705DE6FFD444B92DA129A90BFAFA60" box="[659,752,1494,1519]" gridcol="3" gridrow="34" pageId="4" pageNumber="377">7.697</td>
+<td id="29705DE6FFD444B92C1529A90A86FA60" box="[807,908,1494,1519]" gridcol="4" gridrow="34" pageId="4" pageNumber="377">MS</td>
+<td id="29705DE6FFD444B92C8929A90D5DFA60" box="[955,1111,1494,1519]" gridcol="5" gridrow="34" pageId="4" pageNumber="377">
+<taxonomicName id="13914D5BFFD4BB422C8929A80D39FA61" authorityName="J. V. Lamouroux" authorityYear="1809" baseAuthorityName="Forsskal" box="[955,1075,1494,1518]" class="Ulvophyceae" family="Caulerpaceae" genus="Caulerpa" higherTaxonomySource="GBIF" kingdom="Plantae" order="Bryopsidales" pageId="4" pageNumber="377" phylum="Chlorophyta" rank="species" species="prolifera">
+<emphasis id="E6E5EACAFFD4BB422C8929A80D39FA61" box="[955,1075,1494,1518]" italics="true" pageId="4" pageNumber="377">C. prolifera</emphasis>
+</taxonomicName>
+</td>
+<td id="29705DE6FFD444B92BBC29A90DECFA60" box="[1166,1254,1494,1519]" gridcol="6" gridrow="34" pageId="4" pageNumber="377">M</td>
+</tr>
+<tr id="6AA1349AFFD444B92F9429840C61F99C" box="[166,1387,1531,1555]" gridrow="35" pageId="4" pageNumber="377" rowspan-0="1" rowspan-2="1" rowspan-3="1" rowspan-4="1" rowspan-6="1" rowspan-7="1">
+<td id="29705DE6FFD444B92E1F298408B2F99C" box="[301,440,1531,1555]" gridcol="1" gridrow="35" pageId="4" pageNumber="377">33° 18.830’E</td>
+<td id="29705DE6FFD444B92C8929840D5DF99C" box="[955,1111,1531,1555]" gridcol="5" gridrow="35" pageId="4" pageNumber="377">
+<taxonomicName id="13914D5BFFD4BB422C8929840D39F99D" authorityName="Delile" authorityYear="1813" baseAuthorityName="Linnaeus" box="[955,1075,1531,1554]" class="Liliopsida" family="Posidoniaceae" genus="Posidonia" kingdom="Plantae" order="Alismatales" pageId="4" pageNumber="377" phylum="Tracheophyta" rank="species" species="oceanica">
+<emphasis id="E6E5EACAFFD4BB422C8929840D39F99D" box="[955,1075,1531,1554]" italics="true" pageId="4" pageNumber="377">P. oceanica</emphasis>
+</taxonomicName>
+</td>
+</tr>
+<tr id="6AA1349AFFD444B92F942A5D0C61F9B4" box="[166,1387,1570,1595]" gridrow="36" pageId="4" pageNumber="377" rowspan-7="1">
+<th id="29705DE6FFD444B92F942A5D09F2F9B4" box="[166,248,1570,1595]" gridcol="0" gridrow="36" pageId="4" pageNumber="377">VAS.36</th>
+<td id="29705DE6FFD444B92E1F2A5D08B2F9B4" box="[301,440,1570,1595]" gridcol="1" gridrow="36" pageId="4" pageNumber="377">34° 41.905’N</td>
+<td id="29705DE6FFD444B92D312A5D0B78F9B4" box="[515,626,1570,1595]" gridcol="2" gridrow="36" pageId="4" pageNumber="377">40</td>
+<td id="29705DE6FFD444B92DA12A5D0BFAF9B4" box="[659,752,1570,1595]" gridcol="3" gridrow="36" pageId="4" pageNumber="377">9.414</td>
+<td id="29705DE6FFD444B92C152A5D0A86F9B4" box="[807,908,1570,1595]" gridcol="4" gridrow="36" pageId="4" pageNumber="377">S</td>
+<td id="29705DE6FFD444B92C892A5D0D5DF9B4" box="[955,1111,1570,1595]" gridcol="5" gridrow="36" pageId="4" pageNumber="377">
+<taxonomicName id="13914D5BFFD4BB422C892A5C0D39F9B4" authorityName="J. V. Lamouroux" authorityYear="1809" baseAuthorityName="Forsskal" box="[955,1075,1571,1595]" class="Ulvophyceae" family="Caulerpaceae" genus="Caulerpa" higherTaxonomySource="GBIF" kingdom="Plantae" order="Bryopsidales" pageId="4" pageNumber="377" phylum="Chlorophyta" rank="species" species="prolifera">
+<emphasis id="E6E5EACAFFD4BB422C892A5C0D39F9B4" box="[955,1075,1571,1595]" italics="true" pageId="4" pageNumber="377">C. prolifera</emphasis>
+</taxonomicName>
+</td>
+<td id="29705DE6FFD444B92BBC2A5D0DECF9B4" box="[1166,1254,1570,1595]" gridcol="6" gridrow="36" pageId="4" pageNumber="377">M</td>
+</tr>
+<tr id="6AA1349AFFD444B92F942A380C61F9D0" box="[166,1387,1607,1631]" gridrow="37" pageId="4" pageNumber="377" rowspan-0="1" rowspan-2="1" rowspan-3="1" rowspan-4="1" rowspan-5="1" rowspan-6="1" rowspan-7="1">
+<td id="29705DE6FFD444B92E1F2A3808B2F9D0" box="[301,440,1607,1631]" gridcol="1" gridrow="37" pageId="4" pageNumber="377">33° 18.947’E</td>
+</tr>
+<tr id="6AA1349AFFD444B92F942A100C61F908" box="[166,1387,1647,1671]" gridrow="38" pageId="4" pageNumber="377" rowspan-5="1">
+<th id="29705DE6FFD444B92F942A1009F2F908" box="[166,248,1647,1671]" gridcol="0" gridrow="38" pageId="4" pageNumber="377">VAS.37</th>
+<td id="29705DE6FFD444B92E1F2A1008B2F908" box="[301,440,1647,1671]" gridcol="1" gridrow="38" pageId="4" pageNumber="377">34° 42.966’N</td>
+<td id="29705DE6FFD444B92D312A100B78F908" box="[515,626,1647,1671]" gridcol="2" gridrow="38" pageId="4" pageNumber="377">10</td>
+<td id="29705DE6FFD444B92DA12A100BFAF908" box="[659,752,1647,1671]" gridcol="3" gridrow="38" pageId="4" pageNumber="377">4.204</td>
+<td id="29705DE6FFD444B92C152A100A86F908" box="[807,908,1647,1671]" gridcol="4" gridrow="38" pageId="4" pageNumber="377">MS</td>
+<td id="29705DE6FFD444B92BBC2A100DECF908" box="[1166,1254,1647,1671]" gridcol="6" gridrow="38" pageId="4" pageNumber="377">M</td>
+<td id="29705DE6FFD444B92A202A100C61F908" box="[1298,1387,1647,1671]" gridcol="7" gridrow="38" pageId="4" pageNumber="377">P</td>
+</tr>
+<tr id="6AA1349AFFD444B92F942AEC0C61F924" box="[166,1387,1683,1707]" gridrow="39" pageId="4" pageNumber="377" rowspan-0="1" rowspan-2="1" rowspan-3="1" rowspan-4="1" rowspan-5="1" rowspan-6="1" rowspan-7="1">
+<td id="29705DE6FFD444B92E1F2AEC08B2F924" box="[301,440,1683,1707]" gridcol="1" gridrow="39" pageId="4" pageNumber="377">33° 19.197’E</td>
+</tr>
+<tr id="6AA1349AFFD444B92F942AC40C61F95C" box="[166,1387,1723,1747]" gridrow="40" pageId="4" pageNumber="377" rowspan-7="1">
+<th id="29705DE6FFD444B92F942AC409F2F95C" box="[166,248,1723,1747]" gridcol="0" gridrow="40" pageId="4" pageNumber="377">VAS.38</th>
+<td id="29705DE6FFD444B92E1F2AC408B2F95C" box="[301,440,1723,1747]" gridcol="1" gridrow="40" pageId="4" pageNumber="377">34° 42.261’N</td>
+<td id="29705DE6FFD444B92D312AC40B78F95C" box="[515,626,1723,1747]" gridcol="2" gridrow="40" pageId="4" pageNumber="377">28</td>
+<td id="29705DE6FFD444B92DA12AC40BFAF95C" box="[659,752,1723,1747]" gridcol="3" gridrow="40" pageId="4" pageNumber="377">8.321</td>
+<td id="29705DE6FFD444B92C152AC40A86F95C" box="[807,908,1723,1747]" gridcol="4" gridrow="40" pageId="4" pageNumber="377">MS</td>
+<td id="29705DE6FFD444B92C892AC40D5DF95C" box="[955,1111,1723,1747]" gridcol="5" gridrow="40" pageId="4" pageNumber="377">
+<taxonomicName id="13914D5BFFD4BB422C892AC30D39F95C" authorityName="J. V. Lamouroux" authorityYear="1809" baseAuthorityName="Forsskal" box="[955,1075,1723,1747]" class="Ulvophyceae" family="Caulerpaceae" genus="Caulerpa" higherTaxonomySource="GBIF" kingdom="Plantae" order="Bryopsidales" pageId="4" pageNumber="377" phylum="Chlorophyta" rank="species" species="prolifera">
+<emphasis id="E6E5EACAFFD4BB422C892AC30D39F95C" box="[955,1075,1723,1747]" italics="true" pageId="4" pageNumber="377">C. prolifera</emphasis>
+</taxonomicName>
+</td>
+<td id="29705DE6FFD444B92BBC2AC40DECF95C" box="[1166,1254,1723,1747]" gridcol="6" gridrow="40" pageId="4" pageNumber="377">M</td>
+</tr>
+<tr id="6AA1349AFFD444B92F942AA00C61F978" box="[166,1387,1759,1783]" gridrow="41" pageId="4" pageNumber="377" rowspan-0="1" rowspan-2="1" rowspan-3="1" rowspan-4="1" rowspan-6="1" rowspan-7="1">
+<td id="29705DE6FFD444B92E1F2AA008B2F978" box="[301,440,1759,1783]" gridcol="1" gridrow="41" pageId="4" pageNumber="377">33° 19.197’E</td>
+<td id="29705DE6FFD444B92C892AA00D5DF978" box="[955,1111,1759,1783]" gridcol="5" gridrow="41" pageId="4" pageNumber="377">
+<taxonomicName id="13914D5BFFD4BB422C892A9F0D5BF978" authorityName="Sonder" authorityYear="1845" box="[955,1105,1759,1783]" class="Ulvophyceae" family="Caulerpaceae" genus="Caulerpa" higherTaxonomySource="GBIF" kingdom="Plantae" order="Bryopsidales" pageId="4" pageNumber="377" phylum="Chlorophyta" rank="species" species="cylindracea">
+<emphasis id="E6E5EACAFFD4BB422C892A9F0D5BF978" box="[955,1105,1759,1783]" italics="true" pageId="4" pageNumber="377">C. cylindracea</emphasis>
+</taxonomicName>
+</td>
+</tr>
+<tr id="6AA1349AFFD444B92F942B780C61F8AF" box="[166,1387,1799,1824]" gridrow="42" pageId="4" pageNumber="377" rowspan-5="1">
+<th id="29705DE6FFD444B92F942B7809F2F8AF" box="[166,248,1799,1824]" gridcol="0" gridrow="42" pageId="4" pageNumber="377">VAS.39</th>
+<td id="29705DE6FFD444B92E1F2B7808B2F8AF" box="[301,440,1799,1824]" gridcol="1" gridrow="42" pageId="4" pageNumber="377">34° 41.545’N</td>
+<td id="29705DE6FFD444B92D312B780B78F8AF" box="[515,626,1799,1824]" gridcol="2" gridrow="42" pageId="4" pageNumber="377">48</td>
+<td id="29705DE6FFD444B92DA12B780BFAF8AF" box="[659,752,1799,1824]" gridcol="3" gridrow="42" pageId="4" pageNumber="377">6.024</td>
+<td id="29705DE6FFD444B92C152B780A86F8AF" box="[807,908,1799,1824]" gridcol="4" gridrow="42" pageId="4" pageNumber="377">S</td>
+<td id="29705DE6FFD444B92BBC2B780DECF8AF" box="[1166,1254,1799,1824]" gridcol="6" gridrow="42" pageId="4" pageNumber="377">M</td>
+<td id="29705DE6FFD444B92A202B780C61F8AF" box="[1298,1387,1799,1824]" gridcol="7" gridrow="42" pageId="4" pageNumber="377">F</td>
+</tr>
+<tr id="6AA1349AFFD444B92F942B530C61F8CB" box="[166,1387,1836,1860]" gridrow="43" pageId="4" pageNumber="377" rowspan-0="1" rowspan-2="1" rowspan-3="1" rowspan-4="1" rowspan-5="1" rowspan-6="1" rowspan-7="1">
+<td id="29705DE6FFD444B92E1F2B5308B2F8CB" box="[301,440,1836,1860]" gridcol="1" gridrow="43" pageId="4" pageNumber="377">33° 19.202’E</td>
+</tr>
+<tr id="6AA1349AFFD444B92F942B2C0C61F8E3" box="[166,1387,1875,1900]" gridrow="44" pageId="4" pageNumber="377" rowspan-5="1" rowspan-7="1">
+<th id="29705DE6FFD444B92F942B2C09F2F8E3" box="[166,248,1875,1900]" gridcol="0" gridrow="44" pageId="4" pageNumber="377">VAS.40</th>
+<td id="29705DE6FFD444B92E1F2B2C08B2F8E3" box="[301,440,1875,1900]" gridcol="1" gridrow="44" pageId="4" pageNumber="377">34° 42.615’N</td>
+<td id="29705DE6FFD444B92D312B2C0B78F8E3" box="[515,626,1875,1900]" gridcol="2" gridrow="44" pageId="4" pageNumber="377">17</td>
+<td id="29705DE6FFD444B92DA12B2C0BFAF8E3" box="[659,752,1875,1900]" gridcol="3" gridrow="44" pageId="4" pageNumber="377">6.462</td>
+<td id="29705DE6FFD444B92C152B2C0A86F8E3" box="[807,908,1875,1900]" gridcol="4" gridrow="44" pageId="4" pageNumber="377">MS</td>
+<td id="29705DE6FFD444B92BBC2B2C0DECF8E3" box="[1166,1254,1875,1900]" gridcol="6" gridrow="44" pageId="4" pageNumber="377">H</td>
+</tr>
+<tr id="6AA1349AFFD444B92F942B070C61F81F" box="[166,1387,1912,1936]" gridrow="45" pageId="4" pageNumber="377" rowspan-0="1" rowspan-2="1" rowspan-3="1" rowspan-4="1" rowspan-5="1" rowspan-6="1" rowspan-7="1">
+<td id="29705DE6FFD444B92E1F2B0708B2F81F" box="[301,440,1912,1936]" gridcol="1" gridrow="45" pageId="4" pageNumber="377">33° 19.442’E</td>
+</tr>
+</table>
+</paragraph>
+<paragraph id="D42E36D8FFD4BB422B662BDE0C81F837" blockId="4.[1108,1419,1953,1977]" box="[1108,1419,1953,1977]" pageId="4" pageNumber="377">
+<tableNote id="29773756FFD4BB422B662BDE0C81F837" box="[1108,1419,1953,1977]" pageId="4" pageNumber="377" targetBox="[166,1387,201,1936]" targetPageId="4">......continued on the next page</tableNote>
+</paragraph>
+<caption id="80EE6650FFD5BB432F942CDD089CFF35" box="[166,406,162,186]" pageId="5" pageNumber="378">
+<paragraph id="D42E36D8FFD5BB432F942CDD089CFF35" blockId="5.[166,406,162,186]" box="[166,406,162,186]" pageId="5" pageNumber="378">
+<emphasis id="E6E5EACAFFD5BB432F942CDD081FFF35" bold="true" box="[166,277,162,186]" pageId="5" pageNumber="378">TABLE 1.</emphasis>
+(Continued)
+</paragraph>
+</caption>
+<paragraph id="D42E36D8FFD5BB432F942CB608BFFE4C" pageId="5" pageNumber="378">
+<table id="A691C478FFD544B92F942CB60C61FE4C" box="[166,1387,201,451]" gridcols="8" gridrows="7" pageId="5" pageNumber="378">
+<tr id="6AA1349AFFD544B92F942CB60C61FF6D" box="[166,1387,201,226]" gridrow="0" pageId="5" pageNumber="378">
+<th id="29705DE6FFD544B92F942CB609F2FF6D" box="[166,248,201,226]" gridcol="0" gridrow="0" pageId="5" pageNumber="378">
+<emphasis id="E6E5EACAFFD5BB432F942CB609F9FF6E" bold="true" box="[166,243,201,225]" pageId="5" pageNumber="378">Station</emphasis>
+</th>
+<th id="29705DE6FFD544B92E1F2CB608B2FF6D" box="[301,440,201,226]" gridcol="1" gridrow="0" pageId="5" pageNumber="378">
+<emphasis id="E6E5EACAFFD5BB432E1F2CB508BBFF6D" bold="true" box="[301,433,202,226]" pageId="5" pageNumber="378">Coordinates</emphasis>
+</th>
+<th id="29705DE6FFD544B92D312CB60B78FF6D" box="[515,626,201,226]" gridcol="2" gridrow="0" pageId="5" pageNumber="378">
+<emphasis id="E6E5EACAFFD5BB432D312CB50B78FF6E" bold="true" box="[515,626,201,226]" pageId="5" pageNumber="378">Depth (m)</emphasis>
+</th>
+<th id="29705DE6FFD544B92DA12CB60BFAFF6D" box="[659,752,201,226]" gridcol="3" gridrow="0" pageId="5" pageNumber="378">
+<emphasis id="E6E5EACAFFD5BB432DA12CB50BFAFF6E" bold="true" box="[659,752,201,226]" pageId="5" pageNumber="378">OM (%)</emphasis>
+</th>
+<th id="29705DE6FFD544B92C152CB60A86FF6D" box="[807,908,201,226]" gridcol="4" gridrow="0" pageId="5" pageNumber="378">
+<emphasis id="E6E5EACAFFD5BB432C152CB60A86FF6E" bold="true" box="[807,908,201,225]" pageId="5" pageNumber="378">Sediment</emphasis>
+</th>
+<th id="29705DE6FFD544B92C892CB60D5BFF6D" box="[955,1105,201,226]" gridcol="5" gridrow="0" pageId="5" pageNumber="378">
+<emphasis id="E6E5EACAFFD5BB432C892CB50AFCFF6D" bold="true" box="[955,1014,202,226]" pageId="5" pageNumber="378">Flora</emphasis>
+</th>
+<th id="29705DE6FFD544B92BBC2CB60DECFF6D" box="[1166,1254,201,226]" gridcol="6" gridrow="0" pageId="5" pageNumber="378">
+<emphasis id="E6E5EACAFFD5BB432BBC2CB60DCBFF6E" bold="true" box="[1166,1217,201,225]" pageId="5" pageNumber="378">EQS</emphasis>
+</th>
+<th id="29705DE6FFD544B92A202CB60C61FF6D" box="[1298,1387,201,226]" gridcol="7" gridrow="0" pageId="5" pageNumber="378">
+<emphasis id="E6E5EACAFFD5BB432A202CB50C6EFF6D" bold="true" box="[1298,1380,202,226]" pageId="5" pageNumber="378">Human</emphasis>
+</th>
+</tr>
+<tr id="6AA1349AFFD544B92F942C920C61FE89" box="[166,1387,237,262]" gridrow="1" pageId="5" pageNumber="378" rowspan-0="1" rowspan-1="1" rowspan-2="1" rowspan-3="1" rowspan-5="1">
+<td id="29705DE6FFD544B92C152C920A86FE89" box="[807,908,237,262]" gridcol="4" gridrow="1" pageId="5" pageNumber="378">
+<emphasis id="E6E5EACAFFD5BB432C152C910A54FE89" bold="true" box="[807,862,238,262]" pageId="5" pageNumber="378">Type</emphasis>
+</td>
+<td id="29705DE6FFD544B92BBC2C920DECFE89" box="[1166,1254,237,262]" gridcol="6" gridrow="1" pageId="5" pageNumber="378">
+<emphasis id="E6E5EACAFFD5BB432BBC2C920DECFE8A" bold="true" box="[1166,1254,237,261]" pageId="5" pageNumber="378">(Bentix)</emphasis>
+</td>
+<td id="29705DE6FFD544B92A202C920C61FE89" box="[1298,1387,237,262]" gridcol="7" gridrow="1" pageId="5" pageNumber="378">
+<emphasis id="E6E5EACAFFD5BB432A202C920C61FE8A" bold="true" box="[1298,1387,237,261]" pageId="5" pageNumber="378">Stressor</emphasis>
+</td>
+</tr>
+<tr id="6AA1349AFFD544B92F942D680C61FEA0" box="[166,1387,279,303]" gridrow="2" pageId="5" pageNumber="378" rowspan-7="1">
+<th id="29705DE6FFD544B92F942D6809F2FEA0" box="[166,248,279,303]" gridcol="0" gridrow="2" pageId="5" pageNumber="378">VAS.41</th>
+<td id="29705DE6FFD544B92E1F2D6808B2FEA0" box="[301,440,279,303]" gridcol="1" gridrow="2" pageId="5" pageNumber="378">34° 41.904’N</td>
+<td id="29705DE6FFD544B92D312D680B78FEA0" box="[515,626,279,303]" gridcol="2" gridrow="2" pageId="5" pageNumber="378">40</td>
+<td id="29705DE6FFD544B92DA12D680BFAFEA0" box="[659,752,279,303]" gridcol="3" gridrow="2" pageId="5" pageNumber="378">11.119</td>
+<td id="29705DE6FFD544B92C152D680A86FEA0" box="[807,908,279,303]" gridcol="4" gridrow="2" pageId="5" pageNumber="378">MS</td>
+<td id="29705DE6FFD544B92C892D680D5BFEA0" box="[955,1105,279,303]" gridcol="5" gridrow="2" pageId="5" pageNumber="378">
+<taxonomicName id="13914D5BFFD5BB432C892D680D38FEA0" authorityName="J. V. Lamouroux" authorityYear="1809" baseAuthorityName="Forsskal" box="[955,1074,279,303]" class="Ulvophyceae" family="Caulerpaceae" genus="Caulerpa" higherTaxonomySource="GBIF" kingdom="Plantae" order="Bryopsidales" pageId="5" pageNumber="378" phylum="Chlorophyta" rank="species" species="prolifera">
+<emphasis id="E6E5EACAFFD5BB432C892D680D38FEA0" box="[955,1074,279,303]" italics="true" pageId="5" pageNumber="378">C. prolifera</emphasis>
+</taxonomicName>
+</td>
+<td id="29705DE6FFD544B92BBC2D680DECFEA0" box="[1166,1254,279,303]" gridcol="6" gridrow="2" pageId="5" pageNumber="378">M</td>
+</tr>
+<tr id="6AA1349AFFD544B92F942D440C61FEDC" box="[166,1387,315,339]" gridrow="3" pageId="5" pageNumber="378" rowspan-0="1" rowspan-2="1" rowspan-3="1" rowspan-4="1" rowspan-6="1" rowspan-7="1">
+<td id="29705DE6FFD544B92E1F2D4408B2FEDC" box="[301,440,315,339]" gridcol="1" gridrow="3" pageId="5" pageNumber="378">33° 19.437’E</td>
+<td id="29705DE6FFD544B92C892D440D5BFEDC" box="[955,1105,315,339]" gridcol="5" gridrow="3" pageId="5" pageNumber="378">
+<taxonomicName id="13914D5BFFD5BB432C892D440D5BFEDC" authorityName="Sonder" authorityYear="1845" box="[955,1105,315,339]" class="Ulvophyceae" family="Caulerpaceae" genus="Caulerpa" higherTaxonomySource="GBIF" kingdom="Plantae" order="Bryopsidales" pageId="5" pageNumber="378" phylum="Chlorophyta" rank="species" species="cylindracea">
+<emphasis id="E6E5EACAFFD5BB432C892D440D5BFEDC" box="[955,1105,315,339]" italics="true" pageId="5" pageNumber="378">C. cylindracea</emphasis>
+</taxonomicName>
+</td>
+</tr>
+<tr id="6AA1349AFFD544B92F942D200C61FEF8" box="[166,1387,351,375]" gridrow="4" pageId="5" pageNumber="378" rowspan-0="1" rowspan-1="1" rowspan-2="1" rowspan-3="1" rowspan-4="1" rowspan-6="1" rowspan-7="1">
+<td id="29705DE6FFD544B92C892D200D5BFEF8" box="[955,1105,351,375]" gridcol="5" gridrow="4" pageId="5" pageNumber="378">
+<taxonomicName id="13914D5BFFD5BB432C892D200D48FEF8" authorityName="Ascherson" authorityYear="1867" baseAuthorityName="Forsskal" box="[955,1090,351,375]" class="Gymnolaemata" family="Bugulidae" genus="Halophila" kingdom="Animalia" order="Cheilostomatida" pageId="5" pageNumber="378" phylum="Bryozoa" rank="species" species="stipulacea">
+<emphasis id="E6E5EACAFFD5BB432C892D200D48FEF8" box="[955,1090,351,375]" italics="true" pageId="5" pageNumber="378">H. stipulacea</emphasis>
+</taxonomicName>
+</td>
+</tr>
+<tr id="6AA1349AFFD544B92F942DF80C61FE10" box="[166,1387,391,415]" gridrow="5" pageId="5" pageNumber="378" rowspan-5="1" rowspan-7="1">
+<th id="29705DE6FFD544B92F942DF809F2FE10" box="[166,248,391,415]" gridcol="0" gridrow="5" pageId="5" pageNumber="378">VAS.42</th>
+<td id="29705DE6FFD544B92E1F2DF808B2FE10" box="[301,440,391,415]" gridcol="1" gridrow="5" pageId="5" pageNumber="378">34° 42.962’N</td>
+<td id="29705DE6FFD544B92D312DF80B78FE10" box="[515,626,391,415]" gridcol="2" gridrow="5" pageId="5" pageNumber="378">10</td>
+<td id="29705DE6FFD544B92DA12DF80BFAFE10" box="[659,752,391,415]" gridcol="3" gridrow="5" pageId="5" pageNumber="378">2.875</td>
+<td id="29705DE6FFD544B92C152DF80A86FE10" box="[807,908,391,415]" gridcol="4" gridrow="5" pageId="5" pageNumber="378">S</td>
+<td id="29705DE6FFD544B92BBC2DF80DECFE10" box="[1166,1254,391,415]" gridcol="6" gridrow="5" pageId="5" pageNumber="378">H</td>
+</tr>
+<tr id="6AA1349AFFD544B92F942DD40C61FE4C" box="[166,1387,427,451]" gridrow="6" pageId="5" pageNumber="378" rowspan-0="1" rowspan-2="1" rowspan-3="1" rowspan-4="1" rowspan-5="1" rowspan-6="1" rowspan-7="1">
+<td id="29705DE6FFD544B92E1F2DD408B2FE4C" box="[301,440,427,451]" gridcol="1" gridrow="6" pageId="5" pageNumber="378">33° 19.691’E</td>
+</tr>
+</table>
+</paragraph>
+<subSubSection id="9C8B6553FFD5BB432FF52D8C0C7AFAE3" pageId="5" pageNumber="378" type="description">
+<paragraph id="D42E36D8FFD5BB432FF52D8C0C87FD4E" blockId="5.[151,1437,498,1389]" pageId="5" pageNumber="378">
+A total of 24 species is reported for the first time in 
+<collectingCountry id="AC867648FFD5BB432C102D8C0A7CFD82" box="[802,886,499,525]" name="Cyprus" pageId="5" pageNumber="378">Cyprus</collectingCountry>
+, increasing the number of 
+<taxonomicName id="13914D5BFFD5BB432B952D8D0C21FD83" box="[1191,1323,498,524]" class="Malacostraca" higherTaxonomySource="GBIF" kingdom="Animalia" order="Amphipoda" pageId="5" pageNumber="378" phylum="Arthropoda" rank="order">Amphipoda</taxonomicName>
+from 117 to 141 species. Two species were found to be constant in Vasiliko Bay (
+<emphasis id="E6E5EACAFFD5BB432CFE2E680C86FDBF" box="[972,1420,534,560]" italics="true" pageId="5" pageNumber="378">
+<taxonomicName id="13914D5BFFD5BB432CFE2E680D6AFDBF" authorityName="Myers, Plaiti &amp; Rousou" authorityYear="2018" box="[972,1120,535,560]" class="Malacostraca" family="Aoridae" genus="Microdeutopus" kingdom="Animalia" order="Amphipoda" pageId="5" pageNumber="378" phylum="Arthropoda" rank="species" species="periergos">M. periergos</taxonomicName>
+, 
+<taxonomicName id="13914D5BFFD5BB432B5F2E690C86FDBF" baseAuthorityName="Spence Bate &amp; Westwood" baseAuthorityYear="1868" box="[1133,1420,534,560]" class="Malacostraca" family="Oedicerotidae" genus="Perioculodes" kingdom="Animalia" order="Amphipoda" pageId="5" pageNumber="378" phylum="Arthropoda" rank="species" species="longimanus">Perioculodes longimanus</taxonomicName>
+</emphasis>
+), seven species were common (
+<emphasis id="E6E5EACAFFD5BB432EDA2E450A50FDF7" italics="true" pageId="5" pageNumber="378">
+<taxonomicName id="13914D5BFFD5BB432EDA2E450BEFFDDB" baseAuthorityName="Costa" baseAuthorityYear="1853" box="[488,741,570,596]" class="Malacostraca" family="Ampeliscidae" genus="Ampelisca" kingdom="Animalia" order="Amphipoda" pageId="5" pageNumber="378" phylum="Arthropoda" rank="species" species="brevicornis">Ampelisca brevicornis</taxonomicName>
+, 
+<taxonomicName id="13914D5BFFD5BB432DC22E450ABEFDDB" baseAuthorityName="Spence Bate" baseAuthorityYear="1856" box="[752,948,570,596]" class="Malacostraca" family="Ampeliscidae" genus="Ampelisca" kingdom="Animalia" order="Amphipoda" pageId="5" pageNumber="378" phylum="Arthropoda" rank="species" species="typica">Ampelisca typica</taxonomicName>
+, 
+<taxonomicName id="13914D5BFFD5BB432C8D2E450DB1FDDB" authorityName="Giordani-Soika" authorityYear="1950" box="[959,1211,570,596]" class="Malacostraca" family="Calliopiidae" genus="Apherusa" kingdom="Animalia" order="Amphipoda" pageId="5" pageNumber="378" phylum="Arthropoda" rank="species" species="chiereghinii">Apherusa chiereghinii</taxonomicName>
+, 
+<taxonomicName id="13914D5BFFD5BB432BF52E440C92FDDB" baseAuthorityName="Montagu" baseAuthorityYear="1813" box="[1223,1432,571,596]" class="Malacostraca" family="Dexaminidae" genus="Dexamine" kingdom="Animalia" order="Amphipoda" pageId="5" pageNumber="378" phylum="Arthropoda" rank="species" species="spinosa">Dexamine spinosa</taxonomicName>
+, 
+<taxonomicName id="13914D5BFFD5BB432FA52E200879FDF7" baseAuthorityName="Boeck" baseAuthorityYear="1871" box="[151,371,606,632]" class="Malacostraca" family="Phoxocephalidae" genus="Harpinia" kingdom="Animalia" order="Amphipoda" pageId="5" pageNumber="378" phylum="Arthropoda" rank="species" species="crenulata">Harpinia crenulata</taxonomicName>
+, 
+<taxonomicName id="13914D5BFFD5BB432E4D2E210B85FDF7" baseAuthorityName="Norman" baseAuthorityYear="1869" box="[383,655,606,632]" class="Malacostraca" family="Aoridae" genus="Leptocheirus" kingdom="Animalia" order="Amphipoda" pageId="5" pageNumber="378" phylum="Arthropoda" rank="species" species="pectinatus">Leptocheirus pectinatus</taxonomicName>
+, 
+<taxonomicName id="13914D5BFFD5BB432DA92E210A50FDF7" authorityName="Robertson" authorityYear="1892" box="[667,858,606,632]" class="Malacostraca" family="Leucothoidae" genus="Leucothoe" kingdom="Animalia" order="Amphipoda" pageId="5" pageNumber="378" phylum="Arthropoda" rank="species" species="incisa">Leucothoe incisa</taxonomicName>
+</emphasis>
+) and 43 species considered as rare. The species 
+<taxonomicName id="13914D5BFFD5BB432A4C2E20080BFD13" authorityName="Myers, Plaiti &amp; Rousou" authorityYear="2018" class="Malacostraca" family="Aoridae" genus="Microdeutopus" kingdom="Animalia" order="Amphipoda" pageId="5" pageNumber="378" phylum="Arthropoda" rank="species" species="periergos">
+<emphasis id="E6E5EACAFFD5BB432A4C2E20080BFD13" italics="true" pageId="5" pageNumber="378">M. periergos</emphasis>
+</taxonomicName>
+that was described for the first time from the same stations in Vasiliko Bay (
+<bibRefCitation id="B0004B29FFD5BB432B682EFC0C29FD12" author="Myers, A. &amp; Plaiti, W. &amp; Rousou, M." box="[1114,1315,642,669]" pageId="5" pageNumber="378" pagination="144 - 150" refId="ref22613" refString="Myers, A., Plaiti, W. &amp; Rousou, M. (2018) A new species of Microdeutopus, M. periergos sp. nov. (Crustacea, Amphipoda, Senticaudata, Aoridae) from Cyprus (East Mediterranean Sea). Zootaxa, 4378 (1), 144 - 150. https: // doi. org / 10.11646 / zootaxa. 4378.1.11" type="journal article" year="2018">
+Myers 
+<emphasis id="E6E5EACAFFD5BB432B982EFC0DE8FD13" box="[1194,1250,642,668]" italics="true" pageId="5" pageNumber="378">et al.</emphasis>
+2018
+</bibRefCitation>
+) presented the highest densities (676 individuals, ~32 %), followed by the species 
+<taxonomicName id="13914D5BFFD5BB432C872ED80D5EFD4F" baseAuthorityName="Spence Bate &amp; Westwood" baseAuthorityYear="1868" box="[949,1108,678,704]" class="Malacostraca" family="Oedicerotidae" genus="Perioculodes" kingdom="Animalia" order="Amphipoda" pageId="5" pageNumber="378" phylum="Arthropoda" rank="species" species="longimanus">
+<emphasis id="E6E5EACAFFD5BB432C872ED80D5EFD4F" box="[949,1108,678,704]" italics="true" pageId="5" pageNumber="378">P. longimanus</emphasis>
+</taxonomicName>
+(311 individuals, ~14.6 %).
+</paragraph>
+<paragraph id="D42E36D8FFD5BB432FF52EB50A19FCDE" blockId="5.[151,1437,498,1389]" pageId="5" pageNumber="378">
+The highest amphipod abundances (per 
+<quantity id="13699B3DFFD5BB432DA02EB40BDFFD6A" box="[658,725,715,741]" metricMagnitude="-1" metricUnit="m" metricValue="1.0" pageId="5" pageNumber="378" unit="m" value="0.1">0.1 m</quantity>
+<superScript id="23E49B90FFD5BB432DE62EB50BD6FD57" attach="left" box="[724,732,714,728]" fontSize="6" pageId="5" pageNumber="378">2</superScript>
+) were recorded in station 17 (located near dense 
+<taxonomicName id="13914D5BFFD5BB432A2B2EB40C96FD6B" authorityName="Delile" authorityYear="1813" baseAuthorityName="Linnaeus" box="[1305,1436,715,740]" class="Liliopsida" family="Posidoniaceae" genus="Posidonia" kingdom="Plantae" order="Alismatales" pageId="5" pageNumber="378" phylum="Tracheophyta" rank="species" species="oceanica">
+<emphasis id="E6E5EACAFFD5BB432A2B2EB40C96FD6B" box="[1305,1436,715,740]" italics="true" pageId="5" pageNumber="378">P. oceanica</emphasis>
+</taxonomicName>
+meadows), station14 (deepest limit of 
+<taxonomicName id="13914D5BFFD5BB432D702E900BC8FC87" authorityName="Delile" authorityYear="1813" baseAuthorityName="Linnaeus" box="[578,706,751,776]" class="Liliopsida" family="Posidoniaceae" genus="Posidonia" kingdom="Plantae" order="Alismatales" pageId="5" pageNumber="378" phylum="Tracheophyta" rank="species" species="oceanica">
+<emphasis id="E6E5EACAFFD5BB432D702E900BC8FC87" box="[578,706,751,776]" italics="true" pageId="5" pageNumber="378">P. oceanica</emphasis>
+</taxonomicName>
+meadow, near a fish farm), stations 2 and 5 (near a fish farm) and station 37 (Vasiliko port entrance) (
+<figureCitation id="4CAA2A5DFFD5BB432D182F6D0B7BFCA2" box="[554,625,786,813]" captionStart="FIGURE 4" captionStartId="7.[151,250,1724,1748]" captionTargetBox="[160,1426,965,1694]" captionTargetId="figure-38@7.[151,1437,953,1701]" captionTargetPageId="7" captionText="FIGURE 4. Average amphipod (Amphilochidea and Senticaudata) abundances (0.1 m2) reported in Vasiliko Bay." figureDoi="http://doi.org/10.5281/zenodo.4383896" httpUri="https://zenodo.org/record/4383896/files/figure.png" pageId="5" pageNumber="378">Fig. 4</figureCitation>
+). The high abundance values can be attributed to the dense populations formed by the 
+<taxonomicName id="13914D5BFFD5BB432E092F4808C1FCDF" authorityName="Myers, Plaiti &amp; Rousou" authorityYear="2018" box="[315,459,823,848]" class="Malacostraca" family="Aoridae" genus="Microdeutopus" kingdom="Animalia" order="Amphipoda" pageId="5" pageNumber="378" phylum="Arthropoda" rank="species" species="periergos">
+<emphasis id="E6E5EACAFFD5BB432E092F4808C1FCDF" box="[315,459,823,848]" italics="true" pageId="5" pageNumber="378">M. periergos</emphasis>
+</taxonomicName>
+(15–42 individuals / 
+<quantity id="13699B3DFFD5BB432D882F480BF0FCDE" box="[698,762,823,849]" metricMagnitude="-1" metricUnit="m" metricValue="1.0" pageId="5" pageNumber="378" unit="m" value="0.1">0.1 m</quantity>
+<superScript id="23E49B90FFD5BB432DC82F490A08FCCB" attach="left" box="[762,770,822,836]" fontSize="6" pageId="5" pageNumber="378">2</superScript>
+).
+</paragraph>
+<paragraph id="D42E36D8FFD5BB432FF52F250A52FBA6" blockId="5.[151,1437,498,1389]" pageId="5" pageNumber="378">
+The number of amphipod species per station ranged between 1 and 15, while no amphipods were recorded at station 42. The Species Richness index presented similar trends to the abundance distribution with the higher values being recorded in stations 2, 5, 14, 17, as well as in stations 9 and 30 (
+<figureCitation id="4CAA2A5DFFD5BB432CA02FDD0ADFFC32" box="[914,981,930,957]" captionStart="FIGURE 5" captionStartId="8.[151,250,954,978]" captionTargetBox="[161,1424,193,920]" captionTargetId="figure-37@8.[153,1433,181,931]" captionTargetPageId="8" captionText="FIGURE 5. Amphipod (Amphilochidea and Senticaudata) species richness reported in Vasiliko Bay." figureDoi="http://doi.org/10.5281/zenodo.4383900" httpUri="https://zenodo.org/record/4383900/files/figure.png" pageId="5" pageNumber="378">Fig. 5</figureCitation>
+). Low numbers of species were observed near ports and at stations 6 and 8 located west of the Cape Dolos. With regard to the Shannon-Wiener index, the highest diversity indices were recorded in the deepest sampling stations, far away from 
+<taxonomicName id="13914D5BFFD5BB432B432F940DF8FB8B" authorityName="Delile" authorityYear="1813" baseAuthorityName="Linnaeus" box="[1137,1266,1003,1028]" class="Liliopsida" family="Posidoniaceae" genus="Posidonia" kingdom="Plantae" order="Alismatales" pageId="5" pageNumber="378" phylum="Tracheophyta" rank="species" species="oceanica">
+<emphasis id="E6E5EACAFFD5BB432B432F940DF8FB8B" box="[1137,1266,1003,1028]" italics="true" pageId="5" pageNumber="378">P. oceanica</emphasis>
+</taxonomicName>
+meadows (stations 18, 30, 31, 36, 41) as well as in stations 9 and 14 (
+<figureCitation id="4CAA2A5DFFD5BB432C3428710A40FBA6" box="[774,842,1038,1065]" captionStart="FIGURE 6" captionStartId="8.[151,250,1805,1829]" captionTargetBox="[159,1425,1046,1775]" captionTargetId="figure-52@8.[152,1435,1039,1782]" captionTargetPageId="8" captionText="FIGURE 6. Amphipod (Amphilochidea and Senticaudata) Shannon-Wiener index reported in Vasiliko Bay." figureDoi="http://doi.org/10.5281/zenodo.4383902" httpUri="https://zenodo.org/record/4383902/files/figure.png" pageId="5" pageNumber="378">Fig. 6</figureCitation>
+).
+</paragraph>
+<paragraph id="D42E36D8FFD5BB432FF5284C09BEFB52" blockId="5.[151,1437,498,1389]" pageId="5" pageNumber="378">
+Spearman correlation coefficient indicated that the Shannon-Wiener index was positively correlated with depth (0.33, p&lt;0.05) (
+<tableCitation id="99130363FFD5BB432FC42829084CFBFE" box="[246,326,1110,1137]" captionStart="TABLE 2" captionStartId="5.[151,239,1436,1460]" captionText="TABLE 2. Spearman correlation coefficients between the depth, organic matter, the total abundances of the 52 amphipod species and species abundance and Shannon index. Bold numbers are statistically significant (OM: Organic Matter; D: Depth; *: p &lt;0.05; ** p &lt;0.01)." pageId="5" pageNumber="378">Table 2</tableCitation>
+). A negative correlation with depth was observed for species 
+<taxonomicName id="13914D5BFFD5BB432C8D28290DE5FBFF" baseAuthorityName="Spence Bate" baseAuthorityYear="1857" box="[959,1263,1110,1136]" class="Malacostraca" family="Pontoporeiidae" genus="Bathyporeia" kingdom="Animalia" order="Amphipoda" pageId="5" pageNumber="378" phylum="Arthropoda" rank="species" species="guilliamsoniana">
+<emphasis id="E6E5EACAFFD5BB432C8D28290DE5FBFF" box="[959,1263,1110,1136]" italics="true" pageId="5" pageNumber="378">Bathyporeia guilliamsoniana</emphasis>
+</taxonomicName>
+and 
+<taxonomicName id="13914D5BFFD5BB432A12282809BCFB1B" baseAuthorityName="Costa" baseAuthorityYear="1853" class="Malacostraca" family="Ampeliscidae" genus="Ampelisca" kingdom="Animalia" order="Amphipoda" pageId="5" pageNumber="378" phylum="Arthropoda" rank="species" species="brevicornis">
+<emphasis id="E6E5EACAFFD5BB432A12282809BCFB1B" italics="true" pageId="5" pageNumber="378">A. brevicornis</emphasis>
+</taxonomicName>
+(p&lt;0.01) and a positive for the species 
+<emphasis id="E6E5EACAFFD5BB432D7B280509E0FB36" italics="true" pageId="5" pageNumber="378">
+<taxonomicName id="13914D5BFFD5BB432D7B28050A29FB1B" authorityName="Boeck" authorityYear="1861" box="[585,803,1146,1172]" class="Malacostraca" family="Leucothoidae" genus="Leucothoe" kingdom="Animalia" order="Amphipoda" pageId="5" pageNumber="378" phylum="Arthropoda" rank="species" species="lilljeborgi">Leucothoe lilljeborgi</taxonomicName>
+, 
+<taxonomicName id="13914D5BFFD5BB432C1F28040A91FB1B" baseAuthorityName="Spence Bate" baseAuthorityYear="1862" box="[813,923,1147,1172]" class="Malacostraca" family="Ischyroceridae" genus="Jassa" kingdom="Animalia" order="Amphipoda" pageId="5" pageNumber="378" phylum="Arthropoda" rank="species" species="ocia">Jassa ocia</taxonomicName>
+, 
+<taxonomicName id="13914D5BFFD5BB432C9728040DA0FB1B" baseAuthorityName="Lucas" baseAuthorityYear="1846" box="[933,1194,1146,1172]" class="Malacostraca" family="Lysianassidae" genus="Lysianassina" higherTaxonomySource="GBIF" kingdom="Animalia" order="Amphipoda" pageId="5" pageNumber="378" phylum="Arthropoda" rank="species" species="longicornis">Lysianassina longicornis</taxonomicName>
+, 
+<taxonomicName id="13914D5BFFD5BB432B81280509E0FB36" authority=", D. Spinosa" authorityName="D. Spinosa" class="Malacostraca" family="Ampithoidae" genus="Ampithoe" kingdom="Animalia" order="Amphipoda" pageId="5" pageNumber="378" phylum="Arthropoda" rank="species" species="ramondi">Ampithoe ramondi, D. Spinosa</taxonomicName>
+</emphasis>
+(p&lt;0.05), 
+<emphasis id="E6E5EACAFFD5BB432E6428E00ACAFB37" box="[342,960,1182,1208]" italics="true" pageId="5" pageNumber="378">
+<taxonomicName id="13914D5BFFD5BB432E6428E00B19FB37" baseAuthorityName="Bruzelius" baseAuthorityYear="1859" box="[342,531,1182,1208]" class="Malacostraca" family="Melitidae" genus="Eriopisa" kingdom="Animalia" order="Amphipoda" pageId="5" pageNumber="378" phylum="Arthropoda" rank="species" species="elongata">Eriopisa elongata</taxonomicName>
+, 
+<taxonomicName id="13914D5BFFD5BB432D2F28E00BE2FB37" baseAuthorityName="Boeck" baseAuthorityYear="1871" box="[541,744,1182,1208]" class="Malacostraca" family="Phoxocephalidae" genus="Harpinia" kingdom="Animalia" order="Amphipoda" pageId="5" pageNumber="378" phylum="Arthropoda" rank="species" species="crenulata">Harpinia crenulata</taxonomicName>
+, 
+<taxonomicName id="13914D5BFFD5BB432DC028E00ACAFB37" baseAuthorityName="Montagu" baseAuthorityYear="1808" box="[754,960,1182,1208]" class="Malacostraca" family="Phliantidae" genus="Pereionotus" kingdom="Animalia" order="Amphipoda" pageId="5" pageNumber="378" phylum="Arthropoda" rank="species" species="testudo">Pereionotus testudo</taxonomicName>
+</emphasis>
+and 
+<taxonomicName id="13914D5BFFD5BB432CC328E10DFEFB37" baseAuthorityName="Della Valle" baseAuthorityYear="1893" box="[1009,1268,1182,1208]" class="Malacostraca" family="Oedicerotidae" genus="Westwoodilla" kingdom="Animalia" order="Amphipoda" pageId="5" pageNumber="378" phylum="Arthropoda" rank="species" species="rectirostris">
+<emphasis id="E6E5EACAFFD5BB432CC328E10DFEFB37" box="[1009,1268,1182,1208]" italics="true" pageId="5" pageNumber="378">Westwoodilla rectirostris</emphasis>
+</taxonomicName>
+(p&lt;0.01) (
+<tableCitation id="99130363FFD5BB432A5228E109ADFB52" captionStart="TABLE 2" captionStartId="5.[151,239,1436,1460]" captionText="TABLE 2. Spearman correlation coefficients between the depth, organic matter, the total abundances of the 52 amphipod species and species abundance and Shannon index. Bold numbers are statistically significant (OM: Organic Matter; D: Depth; *: p &lt;0.05; ** p &lt;0.01)." pageId="5" pageNumber="378">Table 2</tableCitation>
+).
+</paragraph>
+<paragraph id="D42E36D8FFD5BB432FF528990C84FAC6" blockId="5.[151,1437,498,1389]" pageId="5" pageNumber="378">
+The species 
+<emphasis id="E6E5EACAFFD5BB432E7528980A35FA8F" box="[327,831,1254,1281]" italics="true" pageId="5" pageNumber="378">
+<taxonomicName id="13914D5BFFD5BB432E75289808CFFA8F" authorityName="Boeck" authorityYear="1871" box="[327,453,1255,1280]" class="Malacostraca" family="Oedicerotidae" genus="Pontocrates" kingdom="Animalia" order="Amphipoda" pageId="5" pageNumber="378" phylum="Arthropoda" rank="genus">Pontocrates</taxonomicName>
+sp., 
+<taxonomicName id="13914D5BFFD5BB432EC128980BA8FA8F" authorityName="Afonso" authorityYear="1976" box="[499,674,1255,1281]" class="Malacostraca" family="Aoridae" genus="Aora" kingdom="Animalia" order="Amphipoda" pageId="5" pageNumber="378" phylum="Arthropoda" rank="species" species="spinicornis">Aora spinicornis</taxonomicName>
+, 
+<taxonomicName id="13914D5BFFD5BB432D9F28980A35FA8F" baseAuthorityName="Spence Bate &amp; Westwood" baseAuthorityYear="1868" box="[685,831,1254,1280]" class="Malacostraca" family="Oedicerotidae" genus="Perioculodes" kingdom="Animalia" order="Amphipoda" pageId="5" pageNumber="378" phylum="Arthropoda" rank="species" species="longimanus">P. longimanus</taxonomicName>
+</emphasis>
+(p&lt;0.05), 
+<emphasis id="E6E5EACAFFD5BB432C9E28980C05FA8F" box="[940,1295,1254,1281]" italics="true" pageId="5" pageNumber="378">
+<taxonomicName id="13914D5BFFD5BB432C9E28980D7EFA8F" baseAuthorityName="Spence Bate" baseAuthorityYear="1857" box="[940,1140,1254,1280]" class="Malacostraca" family="Pontoporeiidae" genus="Bathyporeia" kingdom="Animalia" order="Amphipoda" pageId="5" pageNumber="378" phylum="Arthropoda" rank="species" species="guilliamsoniana">B. guilliamsoniana</taxonomicName>
+, 
+<taxonomicName id="13914D5BFFD5BB432B4F28980C05FA8F" baseAuthorityName="Costa" baseAuthorityYear="1853" box="[1149,1295,1254,1281]" class="Malacostraca" family="Ampeliscidae" genus="Ampelisca" kingdom="Animalia" order="Amphipoda" pageId="5" pageNumber="378" phylum="Arthropoda" rank="species" species="brevicornis">A. brevicornis</taxonomicName>
+</emphasis>
+and 
+<taxonomicName id="13914D5BFFD5BB432A0D2898085EFAAB" baseAuthorityName="Norman" baseAuthorityYear="1868" class="Malacostraca" family="Dexaminidae" genus="Guernea" kingdom="Animalia" order="Amphipoda" pageId="5" pageNumber="378" phylum="Arthropoda" rank="species" species="coalita" subGenus="Guernea">
+<emphasis id="E6E5EACAFFD5BB432A0D2898085EFAAB" italics="true" pageId="5" pageNumber="378">Guernea (Guernea) coalita</emphasis>
+</taxonomicName>
+(p&lt;0.01) were negatively correlated with organic matter while the species 
+<emphasis id="E6E5EACAFFD5BB432B57297408CFFAC7" italics="true" pageId="5" pageNumber="378">
+<taxonomicName id="13914D5BFFD5BB432B5729740C5BFAAB" baseAuthorityName="Costa" baseAuthorityYear="1853" box="[1125,1361,1291,1316]" class="Malacostraca" family="Dexaminidae" genus="Dexamine" kingdom="Animalia" order="Amphipoda" pageId="5" pageNumber="378" phylum="Arthropoda" rank="species" species="spiniventris">Dexamine spiniventris</taxonomicName>
+, 
+<taxonomicName id="13914D5BFFD5BB432A6E2975082EFAC7" baseAuthorityName="Schiecke" baseAuthorityYear="1977" class="Malacostraca" family="Cyproideidae" genus="Peltocoxa" higherTaxonomySource="GBIF" kingdom="Animalia" order="Amphipoda" pageId="5" pageNumber="378" phylum="Arthropoda" rank="species" species="gibbosa">Peltocoxa gibbosa</taxonomicName>
+, 
+<taxonomicName id="13914D5BFFD5BB432E1C295008CBFAC7" baseAuthorityName="Della Valle" baseAuthorityYear="1893" box="[302,449,1327,1352]" class="Malacostraca" family="Oedicerotidae" genus="Westwoodilla" kingdom="Animalia" order="Amphipoda" pageId="5" pageNumber="378" phylum="Arthropoda" rank="species" species="rectirostris">W. rectirostris</taxonomicName>
+,
+</emphasis>
+(p&lt;0.05), 
+<taxonomicName id="13914D5BFFD5BB432D0029500BBCFAC7" baseAuthorityName="Boeck" baseAuthorityYear="1871" box="[562,694,1326,1352]" class="Malacostraca" family="Phoxocephalidae" genus="Harpinia" kingdom="Animalia" order="Amphipoda" pageId="5" pageNumber="378" phylum="Arthropoda" rank="species" species="crenulata">
+<emphasis id="E6E5EACAFFD5BB432D0029500BBCFAC7" box="[562,694,1326,1352]" italics="true" pageId="5" pageNumber="378">H. crenulata</emphasis>
+</taxonomicName>
+and 
+<taxonomicName id="13914D5BFFD5BB432DD429500A72FAC7" baseAuthorityName="Lucas" baseAuthorityYear="1846" box="[742,888,1326,1352]" class="Malacostraca" family="Lysianassidae" genus="Lysianassina" higherTaxonomySource="GBIF" kingdom="Animalia" order="Amphipoda" pageId="5" pageNumber="378" phylum="Arthropoda" rank="species" species="longicornis">
+<emphasis id="E6E5EACAFFD5BB432DD429500A72FAC7" box="[742,888,1326,1352]" italics="true" pageId="5" pageNumber="378">L. longicornis</emphasis>
+</taxonomicName>
+(p&lt;0.01) presented a positive correlation (
+<tableCitation id="99130363FFD5BB432A0229510C8BFAC6" box="[1328,1409,1326,1353]" captionStart="TABLE 2" captionStartId="5.[151,239,1436,1460]" captionText="TABLE 2. Spearman correlation coefficients between the depth, organic matter, the total abundances of the 52 amphipod species and species abundance and Shannon index. Bold numbers are statistically significant (OM: Organic Matter; D: Depth; *: p &lt;0.05; ** p &lt;0.01)." pageId="5" pageNumber="378">Table 2</tableCitation>
+).
+</paragraph>
+<paragraph id="D42E36D8FFD5BB432FF5292D0C7AFAE3" blockId="5.[151,1437,498,1389]" box="[199,1392,1362,1389]" pageId="5" pageNumber="378">Information on the distribution and ecology of the amphipod species recorded in Vasiliko Bay, is provided below.</paragraph>
+</subSubSection>
+</treatment>
+</document>

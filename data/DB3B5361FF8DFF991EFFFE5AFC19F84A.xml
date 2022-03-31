@@ -1,0 +1,906 @@
+<document id="AA6349D6DF076CF88053DAA2EE30C678" ID-DOI="http://doi.org/10.5281/zenodo.4389309" ID-GBIF-Dataset="b74e6677-e056-459b-8781-3f3ade783f8c" ID-GBIF-Taxon="176240672" ID-ISSN="1175-5326" ID-Zenodo-Dep="4389309" ID-ZooBank="8F11E9BD-CA99-4999-8D99-27554C95EAB2" _generate="added" checkinTime="1608711214305" checkinUser="plazi" docAuthor="Kwon, So-Yeon, Kim, Min-Seop, Heo, Jun-Haeng &amp; Kim, Young-Hyo" docDate="2020" docId="DB3B5361FF8DFF991EFFFE5AFC19F84A" docLanguage="en" docName="zootaxa.4896.4.5.pdf" docOrigin="Zootaxa 4896 (4)" docStyle="DocumentStyle:647186512141C8FC8976D5BCC54AEB7D.9:Zootaxa.2013-.journal_article" docStyleId="647186512141C8FC8976D5BCC54AEB7D" docStyleName="Zootaxa.2013-.journal_article" docStyleVersion="9" docTitle="Gammarus baengnyeongensis Kwon &amp; Kim &amp; Heo &amp; Kim 2020, sp. nov" docType="treatment" docVersion="6" lastPageId="8" lastPageNumber="543" masterDocId="27022B19FF8FFF911E68FFA5FFDBFFE2" masterDocTitle="A new Gammarus species (Crustacea, Amphipoda, Gammaridae) from Northwestern Islands, South Korea" masterLastPageNumber="546" masterPageNumber="535" pageId="2" pageNumber="537" updateTime="1635479860810" updateUser="ExternalLinkService" zenodo-license-document="CLOSED">
+<mods:mods id="DAEE7726A529A311D4408676309A43A1" xmlns:mods="http://www.loc.gov/mods/v3">
+<mods:titleInfo id="419BDC7CC887043506E252E1343980FE">
+<mods:title id="268EC9C00F697CB76572EF25F883CB30">A new Gammarus species (Crustacea, Amphipoda, Gammaridae) from Northwestern Islands, South Korea</mods:title>
+</mods:titleInfo>
+<mods:name id="1B6637AEFCB3476AFD4861E39F6485EE" type="personal">
+<mods:role id="5CF8D24673B71E1CCAEF5D1EC77B85F6">
+<mods:roleTerm id="DDDD6CB485FDA895A298A503F32273BB">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="E0A34FB822E0963FE8641244D4EBA161">Kwon, So-Yeon</mods:namePart>
+<mods:nameIdentifier id="3D2580A2700CAA855B4BEAF8BA05F0F3" type="ORCID">0000-0001-5807-1037</mods:nameIdentifier>
+<mods:affiliation id="8B7887A9B5B60E60001ADF6F28D71A9C">Department of Life Sciences, Dankook University, Cheonan, KOREA 31116 &amp; sy. kwon 18 @ gmail. com; https: // orcid. org / 0000 - 0001 - 5807 - 1037 &amp; National Marine Biodiversity Institute of Korea, Seocheon, KOREA 33662</mods:affiliation>
+<mods:nameIdentifier id="A137B330C5CB55EEC4E12002C9C3F4C0" type="email">sy.kwon18@gmail.com</mods:nameIdentifier>
+</mods:name>
+<mods:name id="706A0D2BAD01DA713BC71AE0E51A07EB" type="personal">
+<mods:role id="E1D0CDAC0E42F0FCA70E8C87B2EBAB84">
+<mods:roleTerm id="CE0DC28C1694A89B7AD5D322A7E93054">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="F624FFAA6B3CB14CC5CE75F951AB9A11">Kim, Min-Seop</mods:namePart>
+<mods:nameIdentifier id="50C4F1497B04F0E0D306960569D01044" type="ORCID">0000-0001-5807-1037</mods:nameIdentifier>
+<mods:affiliation id="FED41E42DBBA5E68D967D143ED77136C">sy. kwon 18 @ gmail. com; https: // orcid. org / 0000 - 0001 - 5807 - 1037 &amp; National Marine Biodiversity Institute of Korea, Seocheon, KOREA 33662</mods:affiliation>
+<mods:nameIdentifier id="2A5AFFBD118D78912094A3460AD2DAC6" type="email">sy.kwon18@gmail.com</mods:nameIdentifier>
+</mods:name>
+<mods:name id="D91B4B480804A90A2B586073AAE83557" type="personal">
+<mods:role id="4A28B3F1EDACA4A348AF60F13F3B939F">
+<mods:roleTerm id="306C2753B442BE39573334735704CE68">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="E7BCFD11A60AD38373706EA2C593B1F9">Heo, Jun-Haeng</mods:namePart>
+<mods:nameIdentifier id="D2663C32A9B041D1B263820116DC4561" type="ORCID">0000-0003-0942-7126</mods:nameIdentifier>
+<mods:affiliation id="23D0917AB22001DB7634B221658093DF">Department of Life Sciences, Dankook University, Cheonan, KOREA 31116 &amp; tyrant 1047 @ naver. com; https: // orcid. org / 0000 - 0003 - 0942 - 7126</mods:affiliation>
+<mods:nameIdentifier id="E7128011C296C4B3FDE069A918AB7CCC" type="email">tyrant1047@naver.com</mods:nameIdentifier>
+</mods:name>
+<mods:name id="A7BCEB4770DE7CCA6168168762D05374" type="personal">
+<mods:role id="60F0DEE2633369C188C8E1CF8EFF4D0A">
+<mods:roleTerm id="23509F109CC156515EB609C5F9351F6C">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="601B924F82FA36DCA8F1193C5C141CFC">Kim, Young-Hyo</mods:namePart>
+<mods:nameIdentifier id="304AAA57A54AEAA240ADC99D10C49F39" type="ORCID">0000-0002-7698-7919</mods:nameIdentifier>
+<mods:affiliation id="B15A72F520FD5A0AB859E2CEB23BCD76">Department of Life Sciences, Dankook University, Cheonan, KOREA 31116 &amp; yhkim @ dankook. ac. kr; https: // orcid. org / 0000 - 0002 - 7698 - 7919</mods:affiliation>
+<mods:nameIdentifier id="20AE6CBC2381A06606C835D6CD0246D4" type="email">yhkim@dankook.ac.kr</mods:nameIdentifier>
+</mods:name>
+<mods:typeOfResource id="2DBD3B0BBE095C5CFC88F531EF55BAB1">text</mods:typeOfResource>
+<mods:relatedItem id="C99A47FF6F25B8B05CE7874AF438AEFC" type="host">
+<mods:titleInfo id="B948573B3787FB41DEE532B2BDFED5A9">
+<mods:title id="E01276B8019BDE605F3441557CB4E405">Zootaxa</mods:title>
+</mods:titleInfo>
+<mods:part id="8C3604C11703382656E83A8FACD7A983">
+<mods:date id="21E6AB5A3243BA3F977638F84E250040">2020</mods:date>
+<mods:detail id="9C324C91400BCC225943E73EE4D385EE" type="pubDate">
+<mods:number id="FC0D43C47655C91440C684A148E4FF86">2020-12-23</mods:number>
+</mods:detail>
+<mods:detail id="5891B3FF8B7A073310F97309605842BD" type="volume">
+<mods:number id="AA51F7B72D4A3855E8BEAE724A6830D8">4896</mods:number>
+</mods:detail>
+<mods:detail id="C4003B6DAA81D9B861559BC8B20A0E1F" type="issue">
+<mods:number id="FD8458B9ABA075AC230B7F8543DC59A6">4</mods:number>
+</mods:detail>
+<mods:extent id="61559A377E29851B71D7BD3DF0B2E246" unit="page">
+<mods:start id="391234560308D437D06B2D19FEFB7C52">535</mods:start>
+<mods:end id="42B2302F9E58357C7B0BE27EBA5193B3">546</mods:end>
+</mods:extent>
+</mods:part>
+</mods:relatedItem>
+<mods:classification id="F7726E90C2045869FA1EE6E33F3F7183">journal article</mods:classification>
+<mods:identifier id="45589ECFCBEF7B72554D4908076CC732" type="DOI">https://doi.org/10.11646/zootaxa.4896.4.5</mods:identifier>
+<mods:identifier id="9D8B5156A58594287AB7EAE2D2C636C3" type="GBIF-Dataset">b74e6677-e056-459b-8781-3f3ade783f8c</mods:identifier>
+<mods:identifier id="DF0196F7959274E08671A23D68AEB4CB" type="ISSN">1175-5326</mods:identifier>
+<mods:identifier id="44BAE988F9AE34BE2D678EF84268128E" type="Zenodo-Dep">4387901</mods:identifier>
+<mods:identifier id="2164213052D910D6E163675C3C6BC497" type="ZooBank">8F11E9BD-CA99-4999-8D99-27554C95EAB2</mods:identifier>
+</mods:mods>
+<treatment id="DB3B5361FF8DFF991EFFFE5AFC19F84A" ID-DOI="http://doi.org/10.5281/zenodo.4389309" ID-GBIF-Taxon="176240672" ID-Zenodo-Dep="4389309" LSID="urn:lsid:plazi:treatment:DB3B5361FF8DFF991EFFFE5AFC19F84A" httpUri="http://treatment.plazi.org/id/DB3B5361FF8DFF991EFFFE5AFC19F84A" lastPageId="8" lastPageNumber="543" pageId="2" pageNumber="537">
+<subSubSection id="1B88B1FCFF8DFF931EFFFE5AFD17FDDC" pageId="2" pageNumber="537" type="nomenclature">
+<paragraph id="532DE277FF8DFF931EFFFE5AFDB8FDFB" blockId="2.[151,716,511,610]" box="[151,611,511,538]" pageId="2" pageNumber="537">
+<heading id="0865551BFF8DFF931EFFFE5AFDB8FDFB" bold="true" box="[151,611,511,538]" fontSize="11" level="1" pageId="2" pageNumber="537" reason="1">
+<emphasis id="61E63E65FF8DFF931EFFFE5AFDB8FDFB" bold="true" box="[151,611,511,538]" pageId="2" pageNumber="537">
+<taxonomicName id="949299F4FF8DFF931EFFFE5AFDDFFDF8" authority="Kwon &amp; Kim &amp; Heo &amp; Kim, 2020" authorityName="Kwon &amp; Kim &amp; Heo &amp; Kim" authorityYear="2020" box="[151,516,511,538]" class="Malacostraca" family="Gammaridae" genus="Gammarus" kingdom="Animalia" order="Amphipoda" pageId="2" pageNumber="537" phylum="Arthropoda" rank="species" species="baengnyeongensis" status="sp. nov">
+<emphasis id="61E63E65FF8DFF931EFFFE5AFDDFFDF8" bold="true" box="[151,516,511,538]" italics="true" pageId="2" pageNumber="537">Gammarus baengnyeongensis</emphasis>
+</taxonomicName>
+<taxonomicNameLabel id="7AD5831EFF8DFF931C63FE5AFDB8FDFB" box="[523,611,511,537]" pageId="2" pageNumber="537" rank="species">sp. nov</taxonomicNameLabel>
+</emphasis>
+</heading>
+</paragraph>
+<paragraph id="532DE277FF8DFF931EFFFD86FD17FDDC" blockId="2.[151,716,511,610]" box="[151,716,547,574]" pageId="2" pageNumber="537">(Korean Name: Baek-ryeong-do-yeop-sae-u, new)</paragraph>
+</subSubSection>
+<subSubSection id="1B88B1FCFF8DFF931EFFFDE2FEC9FD80" box="[151,274,583,610]" pageId="2" pageNumber="537" type="description">
+<paragraph id="532DE277FF8DFF931EFFFDE2FEC9FD80" blockId="2.[151,716,511,610]" box="[151,274,583,610]" pageId="2" pageNumber="537">
+(
+<figureCitation id="CBA9FEF2FF8DFF931EF7FDE2FED1FD80" box="[159,266,583,610]" captionStart-0="FIGURE 2" captionStart-1="FIGURE 3" captionStart-2="FIGURE 4" captionStart-3="FIGURE 5" captionStart-4="FIGURE 6" captionStartId-0="2.[151,250,1964,1988]" captionStartId-1="3.[151,250,1870,1894]" captionStartId-2="4.[151,250,1859,1883]" captionStartId-3="5.[151,250,1510,1534]" captionStartId-4="6.[151,250,1795,1819]" captionTargetBox-0="[151,1436,1461,1940]" captionTargetBox-1="[155,1428,190,1839]" captionTargetBox-2="[161,1426,189,1822]" captionTargetBox-3="[157,1425,187,1482]" captionTargetBox-4="[161,1429,357,1762]" captionTargetId-0="figure-335@2.[151,1436,1461,1940]" captionTargetId-1="figure-20@3.[151,1436,181,1846]" captionTargetId-2="figure-26@4.[151,1436,181,1835]" captionTargetId-3="figure-20@5.[151,1436,181,1486]" captionTargetId-4="figure-97@6.[151,1436,345,1771]" captionTargetPageId-1="3" captionTargetPageId-2="4" captionTargetPageId-3="5" captionTargetPageId-4="6" captionText-0="FIGURE 2. Gammarus baengnyeongensis sp. nov., A, paratype, adult male, 11.7 mm, cat no. NIBRIV0000877257, habitus; B, paratype, adult female, 9.2 mm, cat no. NIBRIV0000877259, habitus. Scale bars = 1.0 mm (A, B)" captionText-1="FIGURE 3. Gammarus baengnyeongensis sp. nov., holotype, adult male, 12.5 mm, cat no. NIBRIV0000877256: A, habitus; B, antenna 1; C, antenna 2; D, upper lip; E, lower lip; F, left mandible; G, right mandible; H, maxilla 1; I, maxilla 2; J, maxilliped. Scale bars = 3 mm (A), 1 mm (B–C), 0.3 mm (D–J)." captionText-2="FIGURE 4. Gammarus baengnyeongensis sp. nov., holotype, adult male, 12.5 mm, cat no. NIBRIV0000877256: A, gnathopod 1; B, gnathopod 2; C, pereopod 3; D, pereopod 4; E, pereopod 5. Scale bars = 1 mm (A–E)." captionText-3="FIGURE 5. Gammarus baengnyeongensis sp. nov., holotype, adult male, 12.5 mm, cat no. NIBRIV0000877256: A, pereopod 6; B, pereopod 7; C, urosome1–3; D, uropod 1; E, uropod 2; F, uropod 3; G, telson. Scale bars = 1mm (A–B), 0.4 mm (C–G)." captionText-4="FIGURE 6. Gammarus baengnyeongensis sp. nov., paratype, adult female, 12.3 mm, cat no. NIBRIV0000877258: A, habitus; B, gnathopod 1; C, gnathopod 2; D, uropod 3. Scale bars = 3 mm (A), 0.5 mm (B–C), 0.4mm (D)." figureDoi-0="http://doi.org/10.5281/zenodo.4389311" figureDoi-1="http://doi.org/10.5281/zenodo.4387907" figureDoi-2="http://doi.org/10.5281/zenodo.4387909" figureDoi-3="http://doi.org/10.5281/zenodo.4387911" figureDoi-4="http://doi.org/10.5281/zenodo.4387913" httpUri-0="https://zenodo.org/record/4389311/files/figure.png" httpUri-1="https://zenodo.org/record/4387907/files/figure.png" httpUri-2="https://zenodo.org/record/4387909/files/figure.png" httpUri-3="https://zenodo.org/record/4387911/files/figure.png" httpUri-4="https://zenodo.org/record/4387913/files/figure.png" pageId="2" pageNumber="537">Figs. 2–6</figureCitation>
+)
+</paragraph>
+</subSubSection>
+<subSubSection id="1B88B1FCFF8DFF931EFFFD2AFBD4FCBF" pageId="2" pageNumber="537" type="materials_examined">
+<paragraph id="532DE277FF8DFF931EFFFD2AFEF7FD13" blockId="2.[151,1437,655,1438]" pageId="2" pageNumber="537">
+<emphasis id="61E63E65FF8DFF931EFFFD2AFE9EFD4B" bold="true" box="[151,325,655,681]" pageId="2" pageNumber="537">Type material.</emphasis>
+<materialsCitation id="E3FAE82AFF8DFF931F24FD2AFEF7FD13" ID-GBIF-Occurrence="3004055302" collectingDate="2007-07-14" collectionCode="NIBRIV" collectorName="Y. H. Kim." country="South Korea" county="Ongjin-gun" latitude="37.927086" location="Yeonhwa-ri" longLatPrecision="1" longitude="128.64272" municipality="Baengnyeong-myeon" pageId="2" pageNumber="537" specimenCode="NIBRIV0000877256" specimenCount="1" stateProvince="Incheon" typeStatus="holotype">
+<emphasis id="61E63E65FF8DFF931F24FD2AFE62FD4B" bold="true" box="[332,441,655,681]" pageId="2" pageNumber="537">
+<typeStatus id="8C295CD5FF8DFF931F24FD2AFE62FD4B" box="[332,441,655,681]" pageId="2" pageNumber="537">Holotype</typeStatus>
+</emphasis>
+, adult male, 
+<quantity id="946A4F92FF8DFF931C24FD2AFD70FD48" box="[588,683,655,682]" metricMagnitude="-2" metricUnit="m" metricValue="1.25" pageId="2" pageNumber="537" unit="mm" value="12.5">12.5mm</quantity>
+, cat no. 
+<specimenCode id="03344A0CFF8DFF931D61FD2AFC2EFD48" box="[777,1013,655,682]" collectionCode="NIBRIV" pageId="2" pageNumber="537">NIBRIV0000877256</specimenCode>
+, 
+<location id="564DB4ACFF8DFF931A6AFD2AFB53FD4B" LSID="urn:lsid:plazi:treatment:DB3B5361FF8DFF991EFFFE5AFC19F84A:564DB4ACFF8DFF931A6AFD2AFB53FD4B" box="[1026,1160,655,681]" country="South Korea" county="Ongjin-gun" latitude="37.927086" longLatPrecision="1" longitude="128.64272" municipality="Baengnyeong-myeon" name="Yeonhwa-ri" pageId="2" pageNumber="537" stateProvince="Incheon">Yeonhwa-ri</location>
+, 
+<location id="564DB4ACFF8DFF931AFCFD2AFA43FD4B" LSID="urn:lsid:plazi:treatment:DB3B5361FF8DFF991EFFFE5AFC19F84A:564DB4ACFF8DFF931AFCFD2AFA43FD4B" box="[1172,1432,655,681]" country="South Korea" county="Ongjin-gun" latitude="37.927086" longLatPrecision="1" longitude="128.64272" municipality="Baengnyeong-myeon" name="Baengnyeongdo Island" pageId="2" pageNumber="537" stateProvince="Incheon">Baengnyeongdo Island</location>
+, 
+<collectingMunicipality id="B349780DFF8DFF931EFFFD11FE52FD2C" box="[151,393,692,718]" pageId="2" pageNumber="537">Baengnyeong-myeon</collectingMunicipality>
+, 
+<collectingCounty id="BA4C9AFBFF8DFF931FFFFD16FDC0FD2F" box="[407,539,691,717]" pageId="2" pageNumber="537">Ongjin-gun</collectingCounty>
+, 
+<collectingRegion id="91562C95FF8DFF931C40FD16FD5EFD2F" box="[552,645,691,717]" country="South Korea" name="Incheon" pageId="2" pageNumber="537">Incheon</collectingRegion>
+, 
+<collectingCountry id="2B85A2E7FF8DFF931CFBFD16FCFFFD2C" box="[659,804,691,718]" name="South Korea" pageId="2" pageNumber="537">South Korea</collectingCountry>
+, 
+<geoCoordinate id="36A684B0FF8DFF931D5AFD10FC14FD32" box="[818,975,693,720]" degrees="37" direction="north" minutes="55" orientation="latitude" pageId="2" pageNumber="537" precision="1" seconds="37.5" value="37.927086">37°55′37.5″N</geoCoordinate>
+, 
+<geoCoordinate id="36A684B0FF8DFF931DB4FD10FB5FFD32" box="[988,1156,693,720]" degrees="128" direction="east" minutes="38" orientation="longitude" pageId="2" pageNumber="537" precision="1" seconds="33.8" value="128.64272">128°38′33.8″E</geoCoordinate>
+, 
+<date id="272CC4B7FF8DFF931AFAFD16FAF1FD2F" box="[1170,1322,691,717]" pageId="2" pageNumber="537" value="2007-07-14">
+<collectingDate id="37683D5FFF8DFF931AFAFD16FAF1FD2F" box="[1170,1322,691,717]" pageId="2" pageNumber="537" value="2007-07-14">14 July 2007</collectingDate>
+</date>
+, collected by 
+<collectorName id="FE6787A1FF8DFF931ED1FD7DFEF7FD13" box="[185,300,727,754]" pageId="2" pageNumber="537">Y.H. Kim.</collectorName>
+</materialsCitation>
+</paragraph>
+<paragraph id="532DE277FF8DFF931EAFFD59FBD4FCBF" blockId="2.[151,1437,655,1438]" pageId="2" pageNumber="537">
+<materialsCitation id="E3FAE82AFF8DFF931EAFFD59FDA4FCF4" ID-GBIF-Occurrence="3004055304" box="[199,639,763,792]" collectionCode="NIBRIV" pageId="2" pageNumber="537" specimenCode="NIBRIV0000877257" specimenCount="1" typeStatus="paratype">
+<typeStatus id="8C295CD5FF8DFF931EAFFD59FEE3FCF4" box="[199,312,764,790]" pageId="2" pageNumber="537">Paratypes</typeStatus>
+: 30 ³ (
+<specimenCode id="03344A0CFF8DFF931FE0FD5EFDAFFCF4" box="[392,628,763,790]" collectionCode="NIBRIV" pageId="2" pageNumber="537">NIBRIV0000877257</specimenCode>
+)
+</materialsCitation>
+, 
+<materialsCitation id="E3FAE82AFF8DFF931CE2FD5EFEA5FCDE" ID-GBIF-Occurrence="3004055301" collectingDate="2007-07-14" collectionCode="NIBRIV" collectorName="Y. H. Kim." country="South Korea" county="Ongjin-gun" latitude="37.927086" location="Yeonhwa-ri" longLatPrecision="1" longitude="128.64272" municipality="Baengnyeong-myeon" pageId="2" pageNumber="537" specimenCode="NIBRIV0000877258, NIBRIV0000877259" specimenCount="20" specimenCount-female="20" stateProvince="Incheon" typeStatus="paratype">
+<specimenCount id="459429FEFF8DFF931CE2FD5EFD1AFCF4" box="[650,705,763,790]" pageId="2" pageNumber="537" type="female">20 ♀</specimenCount>
+(
+<specimenCode id="03344A0CFF8DFF931CA6FD5EFC64FCF4" box="[718,959,763,790]" collectionCode="NIBRIV" pageId="2" pageNumber="537">NIBRIV0000877258</specimenCode>
+, 
+<specimenCode id="03344A0CFF8DFF931DA2FD5EFB63FCF4" box="[970,1208,763,790]" collectionCode="NIBRIV" pageId="2" pageNumber="537">NIBRIV0000877259</specimenCode>
+); all other data same as the holotype. 5 ³
+</materialsCitation>
+, 
+<materialsCitation id="E3FAE82AFF8DFF931FF9FCBAFBD4FCBF" ID-GBIF-Occurrence="3004055303" collectingDate="2009-11-05" collectorName="D. H. Ahn." country="South Korea" county="Ongjin-gun" latitude="37.818275" location="Daecheong-ri" longLatPrecision="1" longitude="124.687004" municipality="Daecheong-myeon" pageId="2" pageNumber="537" specimenCount="15" specimenCount-female="15" stateProvince="Incheon" typeStatus="paratype">
+<specimenCount id="459429FEFF8DFF931FF9FCBAFE10FCD8" box="[401,459,799,826]" pageId="2" pageNumber="537" type="female">15 ♀</specimenCount>
+, 
+<location id="564DB4ACFF8DFF931FB4FCBAFDACFCDB" LSID="urn:lsid:plazi:treatment:DB3B5361FF8DFF991EFFFE5AFC19F84A:564DB4ACFF8DFF931FB4FCBAFDACFCDB" box="[476,631,799,825]" country="South Korea" county="Ongjin-gun" latitude="37.818275" longLatPrecision="1" longitude="124.687004" municipality="Daecheong-myeon" name="Daecheong-ri" pageId="2" pageNumber="537" stateProvince="Incheon">Daecheong-ri</location>
+, 
+<location id="564DB4ACFF8DFF931CECFCBAFCB5FCDB" LSID="urn:lsid:plazi:treatment:DB3B5361FF8DFF991EFFFE5AFC19F84A:564DB4ACFF8DFF931CECFCBAFCB5FCDB" box="[644,878,799,825]" country="South Korea" county="Ongjin-gun" latitude="37.818275" longLatPrecision="1" longitude="124.687004" municipality="Daecheong-myeon" name="Daecheongdo Island" pageId="2" pageNumber="537" stateProvince="Incheon">Daecheongdo Island</location>
+, 
+<collectingMunicipality id="B349780DFF8DFF931D14FCBAFB89FCDB" box="[892,1106,799,825]" pageId="2" pageNumber="537">Daecheong-myeon</collectingMunicipality>
+, 
+<collectingCounty id="BA4C9AFBFF8DFF931A37FCBAFB38FCDB" box="[1119,1251,799,825]" pageId="2" pageNumber="537">Ongjin-gun</collectingCounty>
+, 
+<collectingRegion id="91562C95FF8DFF931A99FCBAFA95FCDB" box="[1265,1358,799,825]" country="South Korea" name="Incheon" pageId="2" pageNumber="537">Incheon</collectingRegion>
+, 
+<collectingCountry id="2B85A2E7FF8DFF931B33FCBAFF05FCBC" name="South Korea" pageId="2" pageNumber="537">South Korea</collectingCountry>
+, 
+<geoCoordinate id="36A684B0FF8DFF931E82FCE6FEACFCBC" box="[234,375,835,862]" degrees="37" direction="north" minutes="49" orientation="latitude" pageId="2" pageNumber="537" precision="1" seconds="5.8" value="37.818275">37°49'5.8&quot;N</geoCoordinate>
+, 
+<geoCoordinate id="36A684B0FF8DFF931FEAFCE6FDF2FCBF" box="[386,553,835,861]" degrees="124" direction="east" minutes="41" orientation="longitude" pageId="2" pageNumber="537" precision="1" seconds="13.2" value="124.687004">124°41'13.2&quot;E</geoCoordinate>
+, 
+<date id="272CC4B7FF8DFF931C5CFCE6FCDAFCBF" box="[564,769,835,862]" pageId="2" pageNumber="537" value="2009-11-05">
+<collectingDate id="37683D5FFF8DFF931C5CFCE6FCDAFCBF" box="[564,769,835,862]" pageId="2" pageNumber="537" value="2009-11-05">5 November 2009</collectingDate>
+</date>
+, collected by 
+<collectorName id="FE6787A1FF8DFF931DF4FCE1FBD4FCBF" box="[924,1039,835,862]" pageId="2" pageNumber="537">D.H. Ahn.</collectorName>
+</materialsCitation>
+</paragraph>
+</subSubSection>
+<subSubSection id="1B88B1FCFF8DFF931EAFFCC2FEF7FC44" pageId="2" pageNumber="537" type="etymology">
+<paragraph id="532DE277FF8DFF931EAFFCC2FEF7FC44" blockId="2.[151,1437,655,1438]" pageId="2" pageNumber="537">
+<emphasis id="61E63E65FF8DFF931EAFFCC2FE95FC63" bold="true" box="[199,334,871,897]" pageId="2" pageNumber="537">Etymology.</emphasis>
+The species name is from the 
+<typeStatus id="8C295CD5FF8DFF931CDAFCCDFD39FC60" box="[690,738,872,898]" pageId="2" pageNumber="537">type</typeStatus>
+locality, Baengnyeongdo Island located on the west coast of 
+<collectingCountry id="2B85A2E7FF8DFF931EFFFC2EFEF3FC44" box="[151,296,907,934]" name="South Korea" pageId="2" pageNumber="537">South Korea</collectingCountry>
+.
+</paragraph>
+</subSubSection>
+<subSubSection id="1B88B1FCFF8DFF961EAFFC0AFDB4F9B3" lastPageId="7" lastPageNumber="542" pageId="2" pageNumber="537" type="description">
+<paragraph id="532DE277FF8DFF931EAFFC0AFBD2FC28" blockId="2.[151,1437,655,1438]" box="[199,1033,943,970]" pageId="2" pageNumber="537">
+<emphasis id="61E63E65FF8DFF931EAFFC0AFE82FC2B" bold="true" box="[199,345,943,969]" pageId="2" pageNumber="537">Description.</emphasis>
+<emphasis id="61E63E65FF8DFF931F08FC0AFD9FFC2B" box="[352,580,943,969]" italics="true" pageId="2" pageNumber="537">
+<typeStatus id="8C295CD5FF8DFF931F08FC0AFE1CFC2B" box="[352,455,943,969]" pageId="2" pageNumber="537">Holotype</typeStatus>
+adult male
+</emphasis>
+, 
+<quantity id="946A4F92FF8DFF931C3AFC0AFD63FC28" box="[594,696,943,970]" metricMagnitude="-2" metricUnit="m" metricValue="1.25" pageId="2" pageNumber="537" unit="mm" value="12.5">12.5 mm</quantity>
+, cat no. NIBRIV0000877256.
+</paragraph>
+<paragraph id="532DE277FF8DFF931EAFFC76FCE0FBF3" blockId="2.[151,1437,655,1438]" pageId="2" pageNumber="537">
+<emphasis id="61E63E65FF8DFF931EAFFC76FEDAFC0F" box="[199,257,979,1005]" italics="true" pageId="2" pageNumber="537">Body</emphasis>
+(
+<figureCitation id="CBA9FEF2FF8DFF931F78FC76FEB3FC0F" box="[272,360,979,1005]" captionStart="FIGURE 3" captionStartId="3.[151,250,1870,1894]" captionTargetBox="[155,1428,190,1839]" captionTargetId="figure-20@3.[151,1436,181,1846]" captionTargetPageId="3" captionText="FIGURE 3. Gammarus baengnyeongensis sp. nov., holotype, adult male, 12.5 mm, cat no. NIBRIV0000877256: A, habitus; B, antenna 1; C, antenna 2; D, upper lip; E, lower lip; F, left mandible; G, right mandible; H, maxilla 1; I, maxilla 2; J, maxilliped. Scale bars = 3 mm (A), 1 mm (B–C), 0.3 mm (D–J)." figureDoi="http://doi.org/10.5281/zenodo.4387907" httpUri="https://zenodo.org/record/4387907/files/figure.png" pageId="2" pageNumber="537">Fig. 3A</figureCitation>
+) about 
+<quantity id="946A4F92FF8DFF931FD3FC76FDC4FC0C" box="[443,543,979,1006]" metricMagnitude="-2" metricUnit="m" metricValue="1.25" pageId="2" pageNumber="537" unit="mm" value="12.5">12.5 mm</quantity>
+long; head as long as wide, subequal in length to pereonites 1–2 combined, rostrum rounded, flat; eye small, subreniform, black in alcohol.
+</paragraph>
+<paragraph id="532DE277FF8DFF931EAFFBBEFDFDFB43" blockId="2.[151,1437,655,1438]" pageId="2" pageNumber="537">
+<emphasis id="61E63E65FF8DFF931EAFFBBEFEE7FBD7" box="[199,316,1051,1077]" italics="true" pageId="2" pageNumber="537">Antenna 1</emphasis>
+(
+<figureCitation id="CBA9FEF2FF8DFF931F26FBBEFE7DFBD7" box="[334,422,1051,1077]" captionStart="FIGURE 3" captionStartId="3.[151,250,1870,1894]" captionTargetBox="[155,1428,190,1839]" captionTargetId="figure-20@3.[151,1436,181,1846]" captionTargetPageId="3" captionText="FIGURE 3. Gammarus baengnyeongensis sp. nov., holotype, adult male, 12.5 mm, cat no. NIBRIV0000877256: A, habitus; B, antenna 1; C, antenna 2; D, upper lip; E, lower lip; F, left mandible; G, right mandible; H, maxilla 1; I, maxilla 2; J, maxilliped. Scale bars = 3 mm (A), 1 mm (B–C), 0.3 mm (D–J)." figureDoi="http://doi.org/10.5281/zenodo.4387907" httpUri="https://zenodo.org/record/4387907/files/figure.png" pageId="2" pageNumber="537">Fig. 3B</figureCitation>
+) about 0.4 times as long as body length; peduncular articles with tufts of setae distally; length ratio of peduncular articles 1–3= 1.00: 0.75: 0.46; flagellum 18-articulate, each article with short distal setae; accessory flagellum 6-articulate, subequal to flagellum articles 1–3 combined, each article with short distal setae, article 6 comparatively short.
+</paragraph>
+<paragraph id="532DE277FF8DFF931EAFFB0EFC40FB0B" blockId="2.[151,1437,655,1438]" pageId="2" pageNumber="537">
+<emphasis id="61E63E65FF8DFF931EAFFB0EFEE2FB27" box="[199,313,1195,1221]" italics="true" pageId="2" pageNumber="537">Antenna 2</emphasis>
+(
+<figureCitation id="CBA9FEF2FF8DFF931F20FB0EFE46FB27" box="[328,413,1195,1221]" captionStart="FIGURE 3" captionStartId="3.[151,250,1870,1894]" captionTargetBox="[155,1428,190,1839]" captionTargetId="figure-20@3.[151,1436,181,1846]" captionTargetPageId="3" captionText="FIGURE 3. Gammarus baengnyeongensis sp. nov., holotype, adult male, 12.5 mm, cat no. NIBRIV0000877256: A, habitus; B, antenna 1; C, antenna 2; D, upper lip; E, lower lip; F, left mandible; G, right mandible; H, maxilla 1; I, maxilla 2; J, maxilliped. Scale bars = 3 mm (A), 1 mm (B–C), 0.3 mm (D–J)." figureDoi="http://doi.org/10.5281/zenodo.4387907" httpUri="https://zenodo.org/record/4387907/files/figure.png" pageId="2" pageNumber="537">Fig. 3C</figureCitation>
+) 0.75 times as long as antenna 1; length ratio of peduncular articles 3–5= 1.00: 2.91: 3.16; flagellum 10-articulate, articles 1–7 with a rounded calceoli dorsally.
+</paragraph>
+<paragraph id="532DE277FF8DFF931EAFFB51FC0DFAEF" blockId="2.[151,1437,655,1438]" box="[199,982,1267,1294]" pageId="2" pageNumber="537">
+<emphasis id="61E63E65FF8DFF931EAFFB51FEEFFAEF" box="[199,308,1267,1293]" italics="true" pageId="2" pageNumber="537">Upper lip</emphasis>
+(
+<figureCitation id="CBA9FEF2FF8DFF931F2BFB56FE41FAEF" box="[323,410,1267,1293]" captionStart="FIGURE 3" captionStartId="3.[151,250,1870,1894]" captionTargetBox="[155,1428,190,1839]" captionTargetId="figure-20@3.[151,1436,181,1846]" captionTargetPageId="3" captionText="FIGURE 3. Gammarus baengnyeongensis sp. nov., holotype, adult male, 12.5 mm, cat no. NIBRIV0000877256: A, habitus; B, antenna 1; C, antenna 2; D, upper lip; E, lower lip; F, left mandible; G, right mandible; H, maxilla 1; I, maxilla 2; J, maxilliped. Scale bars = 3 mm (A), 1 mm (B–C), 0.3 mm (D–J)." figureDoi="http://doi.org/10.5281/zenodo.4387907" httpUri="https://zenodo.org/record/4387907/files/figure.png" pageId="2" pageNumber="537">Fig. 3D</figureCitation>
+) subrounded, convex, densely pubescent ventrally.
+</paragraph>
+<paragraph id="532DE277FF8DFF931EAFFABDFED3FAB7" blockId="2.[151,1437,655,1438]" pageId="2" pageNumber="537">
+<emphasis id="61E63E65FF8DFF931EAFFABDFEEDFAD3" box="[199,310,1303,1329]" italics="true" pageId="2" pageNumber="537">Lower lip</emphasis>
+(
+<figureCitation id="CBA9FEF2FF8DFF931F2EFAB2FE45FAD3" box="[326,414,1303,1329]" captionStart="FIGURE 3" captionStartId="3.[151,250,1870,1894]" captionTargetBox="[155,1428,190,1839]" captionTargetId="figure-20@3.[151,1436,181,1846]" captionTargetPageId="3" captionText="FIGURE 3. Gammarus baengnyeongensis sp. nov., holotype, adult male, 12.5 mm, cat no. NIBRIV0000877256: A, habitus; B, antenna 1; C, antenna 2; D, upper lip; E, lower lip; F, left mandible; G, right mandible; H, maxilla 1; I, maxilla 2; J, maxilliped. Scale bars = 3 mm (A), 1 mm (B–C), 0.3 mm (D–J)." figureDoi="http://doi.org/10.5281/zenodo.4387907" httpUri="https://zenodo.org/record/4387907/files/figure.png" pageId="2" pageNumber="537">Fig. 3E</figureCitation>
+), inner lobe absent; outer lobe pubescent medially and apically, mandibular process short and blunt.
+</paragraph>
+<paragraph id="532DE277FF8DFF931EAFFAFAFB02FA7F" blockId="2.[151,1437,655,1438]" pageId="2" pageNumber="537">
+<emphasis id="61E63E65FF8DFF931EAFFAFAFEBAFA9B" box="[199,353,1375,1401]" italics="true" pageId="2" pageNumber="537">Left mandible</emphasis>
+(
+<figureCitation id="CBA9FEF2FF8DFF931F18FAFAFE1FFA9B" box="[368,452,1375,1401]" captionStart="FIGURE 3" captionStartId="3.[151,250,1870,1894]" captionTargetBox="[155,1428,190,1839]" captionTargetId="figure-20@3.[151,1436,181,1846]" captionTargetPageId="3" captionText="FIGURE 3. Gammarus baengnyeongensis sp. nov., holotype, adult male, 12.5 mm, cat no. NIBRIV0000877256: A, habitus; B, antenna 1; C, antenna 2; D, upper lip; E, lower lip; F, left mandible; G, right mandible; H, maxilla 1; I, maxilla 2; J, maxilliped. Scale bars = 3 mm (A), 1 mm (B–C), 0.3 mm (D–J)." figureDoi="http://doi.org/10.5281/zenodo.4387907" httpUri="https://zenodo.org/record/4387907/files/figure.png" pageId="2" pageNumber="537">Fig. 3F</figureCitation>
+), incisor 5 dentate; lacinia mobilis with 4 blunt teeth setal row with 11 setae; molar triturative, with 1 pappose seta; mandibular palp, article 2 with 13 simple setae, distal article missing.
+</paragraph>
+<paragraph id="532DE277FF8DFF931EFFF82CFF7FF842" blockId="2.[151,164,1929,1952]" box="[151,164,1929,1952]" pageId="2" pageNumber="537">n</paragraph>
+<caption id="07EDB2FFFF8DFF931EFFF809FBA2F80A" ID-DOI="http://doi.org/10.5281/zenodo.4389311" ID-Zenodo-Dep="4389311" httpUri="https://zenodo.org/record/4389311/files/figure.png" pageId="2" pageNumber="537" startId="2.[151,250,1964,1988]" targetBox="[151,1436,1461,1940]" targetPageId="2">
+<paragraph id="532DE277FF8DFF931EFFF809FBA2F80A" blockId="2.[151,1437,1964,2025]" pageId="2" pageNumber="537">
+<emphasis id="61E63E65FF8DFF931EFFF809FEC9F826" bold="true" box="[151,274,1964,1988]" pageId="2" pageNumber="537">FIGURE 2.</emphasis>
+<taxonomicName id="949299F4FF8DFF931F70F808FD93F826" authority="Kwon &amp; Kim &amp; Heo &amp; Kim, 2020" authorityName="Kwon &amp; Kim &amp; Heo &amp; Kim" authorityYear="2020" box="[280,584,1964,1988]" class="Malacostraca" family="Gammaridae" genus="Gammarus" kingdom="Animalia" order="Amphipoda" pageId="2" pageNumber="537" phylum="Arthropoda" rank="species" species="baengnyeongensis" status="sp. nov.">
+<emphasis id="61E63E65FF8DFF931F70F808FD93F826" box="[280,584,1964,1988]" italics="true" pageId="2" pageNumber="537">Gammarus baengnyeongensis</emphasis>
+</taxonomicName>
+<emphasis id="61E63E65FF8DFF931C26F809FD45F826" bold="true" box="[590,670,1964,1988]" pageId="2" pageNumber="537">
+<taxonomicNameLabel id="7AD5831EFF8DFF931C26F809FD45F826" box="[590,670,1964,1988]" pageId="2" pageNumber="537" rank="species">sp. nov.</taxonomicNameLabel>
+</emphasis>
+, A, 
+<typeStatus id="8C295CD5FF8DFF931CAFF808FCFAF827" box="[711,801,1965,1989]" pageId="2" pageNumber="537">paratype</typeStatus>
+, adult male, 
+<quantity id="946A4F92FF8DFF931DC8F809FC20F826" box="[928,1019,1964,1988]" metricMagnitude="-2" metricUnit="m" metricValue="1.17" pageId="2" pageNumber="537" unit="mm" value="11.7">11.7 mm</quantity>
+, cat no. NIBRIV0000877257, habitus; B, 
+<typeStatus id="8C295CD5FF8DFF931EFFF874FF2AF80B" box="[151,241,2001,2025]" pageId="2" pageNumber="537">paratype</typeStatus>
+, adult female, 
+<quantity id="946A4F92FF8DFF931FEEF875FE0DF80A" box="[390,470,2000,2024]" metricMagnitude="-3" metricUnit="m" metricValue="9.2" pageId="2" pageNumber="537" unit="mm" value="9.2">9.2 mm</quantity>
+, cat no. NIBRIV0000877259, habitus. Scale bars = 1.0 mm (A, B)
+</paragraph>
+</caption>
+<caption id="07EDB2FFFF8CFF921EFFF8EBFD70F84C" ID-DOI="http://doi.org/10.5281/zenodo.4387907" ID-Zenodo-Dep="4387907" httpUri="https://zenodo.org/record/4387907/files/figure.png" pageId="3" pageNumber="538" startId="3.[151,250,1870,1894]" targetBox="[155,1428,190,1839]" targetPageId="3">
+<paragraph id="532DE277FF8CFF921EFFF8EBFD70F84C" blockId="3.[151,1437,1870,1966]" pageId="3" pageNumber="538">
+<emphasis id="61E63E65FF8CFF921EFFF8EBFEC9F884" bold="true" box="[151,274,1870,1894]" pageId="3" pageNumber="538">FIGURE 3.</emphasis>
+<taxonomicName id="949299F4FF8CFF921F70F8EBFD93F884" authority="Kwon &amp; Kim &amp; Heo &amp; Kim, 2020" authorityName="Kwon &amp; Kim &amp; Heo &amp; Kim" authorityYear="2020" box="[280,584,1870,1894]" class="Malacostraca" family="Gammaridae" genus="Gammarus" kingdom="Animalia" order="Amphipoda" pageId="3" pageNumber="538" phylum="Arthropoda" rank="species" species="baengnyeongensis" status="sp. nov.">
+<emphasis id="61E63E65FF8CFF921F70F8EBFD93F884" box="[280,584,1870,1894]" italics="true" pageId="3" pageNumber="538">Gammarus baengnyeongensis</emphasis>
+</taxonomicName>
+<emphasis id="61E63E65FF8CFF921C25F8EBFD46F884" bold="true" box="[589,669,1870,1894]" pageId="3" pageNumber="538">
+<taxonomicNameLabel id="7AD5831EFF8CFF921C25F8EBFD46F884" box="[589,669,1870,1894]" pageId="3" pageNumber="538" rank="species">sp. nov.</taxonomicNameLabel>
+</emphasis>
+, holotype, adult male, 12.5 mm, cat no. NIBRIV0000877256: A, habitus; B, antenna 1; C, antenna 2; D, upper lip; E, lower lip; F, left mandible; G, right mandible; H, maxilla 1; I, maxilla 2; J, maxilliped. Scale bars = 3 mm (A), 1 mm (B–C), 0.3 mm (D–J).
+</paragraph>
+</caption>
+<caption id="07EDB2FFFF8BFF951EFFF8E6FBE3F89D" ID-DOI="http://doi.org/10.5281/zenodo.4387909" ID-Zenodo-Dep="4387909" httpUri="https://zenodo.org/record/4387909/files/figure.png" pageId="4" pageNumber="539" startId="4.[151,250,1859,1883]" targetBox="[161,1426,189,1822]" targetPageId="4">
+<paragraph id="532DE277FF8BFF951EFFF8E6FBE3F89D" blockId="4.[151,1436,1859,1919]" pageId="4" pageNumber="539">
+<emphasis id="61E63E65FF8BFF951EFFF8E6FEC9F8B9" bold="true" box="[151,274,1859,1883]" pageId="4" pageNumber="539">FIGURE 4.</emphasis>
+<taxonomicName id="949299F4FF8BFF951F70F8E6FD93F8B9" authority="Kwon &amp; Kim &amp; Heo &amp; Kim, 2020" authorityName="Kwon &amp; Kim &amp; Heo &amp; Kim" authorityYear="2020" box="[280,584,1859,1883]" class="Malacostraca" family="Gammaridae" genus="Gammarus" kingdom="Animalia" order="Amphipoda" pageId="4" pageNumber="539" phylum="Arthropoda" rank="species" species="baengnyeongensis" status="sp. nov.">
+<emphasis id="61E63E65FF8BFF951F70F8E6FD93F8B9" box="[280,584,1859,1883]" italics="true" pageId="4" pageNumber="539">Gammarus baengnyeongensis</emphasis>
+</taxonomicName>
+<emphasis id="61E63E65FF8BFF951C26F8E6FD46F8B9" bold="true" box="[590,669,1859,1883]" pageId="4" pageNumber="539">
+<taxonomicNameLabel id="7AD5831EFF8BFF951C26F8E6FD46F8B9" box="[590,669,1859,1883]" pageId="4" pageNumber="539" rank="species">sp. nov.</taxonomicNameLabel>
+</emphasis>
+, holotype, adult male, 12.5 mm, cat no. NIBRIV0000877256: A, gnathopod 1; B, gnathopod 2; C, pereopod 3; D, pereopod 4; E, pereopod 5. Scale bars = 1 mm (A–E).
+</paragraph>
+</caption>
+<caption id="07EDB2FFFF8AFF941EFFFA43FA4BF9C0" ID-DOI="http://doi.org/10.5281/zenodo.4387911" ID-Zenodo-Dep="4387911" httpUri="https://zenodo.org/record/4387911/files/figure.png" pageId="5" pageNumber="540" startId="5.[151,250,1510,1534]" targetBox="[157,1425,187,1482]" targetPageId="5">
+<paragraph id="532DE277FF8AFF941EFFFA43FA4BF9C0" blockId="5.[151,1436,1510,1570]" pageId="5" pageNumber="540">
+<emphasis id="61E63E65FF8AFF941EFFFA43FEC8FA1C" bold="true" box="[151,275,1510,1534]" pageId="5" pageNumber="540">FIGURE 5.</emphasis>
+<taxonomicName id="949299F4FF8AFF941F72FA43FD90FA1C" authority="Kwon &amp; Kim &amp; Heo &amp; Kim, 2020" authorityName="Kwon &amp; Kim &amp; Heo &amp; Kim" authorityYear="2020" box="[282,587,1510,1534]" class="Malacostraca" family="Gammaridae" genus="Gammarus" kingdom="Animalia" order="Amphipoda" pageId="5" pageNumber="540" phylum="Arthropoda" rank="species" species="baengnyeongensis" status="sp. nov.">
+<emphasis id="61E63E65FF8AFF941F72FA43FD90FA1C" box="[282,587,1510,1534]" italics="true" pageId="5" pageNumber="540">Gammarus baengnyeongensis</emphasis>
+</taxonomicName>
+<emphasis id="61E63E65FF8AFF941C39FA43FD79FA1C" bold="true" box="[593,674,1510,1534]" pageId="5" pageNumber="540">
+<taxonomicNameLabel id="7AD5831EFF8AFF941C39FA43FD79FA1C" box="[593,674,1510,1534]" pageId="5" pageNumber="540" rank="species">sp. nov.</taxonomicNameLabel>
+</emphasis>
+, holotype, adult male, 12.5 mm, cat no. NIBRIV0000877256: A, pereopod 6; B, pereopod 7; C, urosome1–3; D, uropod 1; E, uropod 2; F, uropod 3; G, telson. Scale bars = 1mm (A–B), 0.4 mm (C–G).
+</paragraph>
+</caption>
+<paragraph id="532DE277FF8AFF941EAFF9F5FD15F950" blockId="5.[151,1437,1616,2039]" pageId="5" pageNumber="540">
+<emphasis id="61E63E65FF8AFF941EAFF9F5FEA8F988" box="[199,371,1616,1642]" italics="true" pageId="5" pageNumber="540">Right mandible</emphasis>
+(
+<figureCitation id="CBA9FEF2FF8AFF941FEBF9F5FE07F988" box="[387,476,1616,1642]" captionStart="FIGURE 3" captionStartId="3.[151,250,1870,1894]" captionTargetBox="[155,1428,190,1839]" captionTargetId="figure-20@3.[151,1436,181,1846]" captionTargetPageId="3" captionText="FIGURE 3. Gammarus baengnyeongensis sp. nov., holotype, adult male, 12.5 mm, cat no. NIBRIV0000877256: A, habitus; B, antenna 1; C, antenna 2; D, upper lip; E, lower lip; F, left mandible; G, right mandible; H, maxilla 1; I, maxilla 2; J, maxilliped. Scale bars = 3 mm (A), 1 mm (B–C), 0.3 mm (D–J)." figureDoi="http://doi.org/10.5281/zenodo.4387907" httpUri="https://zenodo.org/record/4387907/files/figure.png" pageId="5" pageNumber="540">Fig. 3G</figureCitation>
+), incisor 4 dentate; lacinia mobilis trifurcate, with weak dentitions apically; setal row with 7 setae; mandibular palp well developed, article 2 with 2 A2-setae, 6 B2-setae, and 4 D2-setae; article 3 with 5 A3-setae, 3 B3-setae, 27 D3-setae, and 5 E3-setae.
+</paragraph>
+<paragraph id="532DE277FF8AFF941EAFF919FBACF919" blockId="5.[151,1437,1616,2039]" pageId="5" pageNumber="540">
+<emphasis id="61E63E65FF8AFF941EAFF919FEEFF934" box="[199,308,1724,1750]" italics="true" pageId="5" pageNumber="540">Maxilla 1</emphasis>
+(
+<figureCitation id="CBA9FEF2FF8AFF941F2CF919FE45F934" box="[324,414,1724,1750]" captionStart="FIGURE 3" captionStartId="3.[151,250,1870,1894]" captionTargetBox="[155,1428,190,1839]" captionTargetId="figure-20@3.[151,1436,181,1846]" captionTargetPageId="3" captionText="FIGURE 3. Gammarus baengnyeongensis sp. nov., holotype, adult male, 12.5 mm, cat no. NIBRIV0000877256: A, habitus; B, antenna 1; C, antenna 2; D, upper lip; E, lower lip; F, left mandible; G, right mandible; H, maxilla 1; I, maxilla 2; J, maxilliped. Scale bars = 3 mm (A), 1 mm (B–C), 0.3 mm (D–J)." figureDoi="http://doi.org/10.5281/zenodo.4387907" httpUri="https://zenodo.org/record/4387907/files/figure.png" pageId="5" pageNumber="540">Fig. 3H</figureCitation>
+), inner plate subrectangular, with 15 plumose setae; outer plate with 11 dentate-spines apically; palp biarticulate, distal article with 4 slender spines apically and 5 subapical setae.
+</paragraph>
+<paragraph id="532DE277FF8AFF941EAFF8A1FBA6F8A0" blockId="5.[151,1437,1616,2039]" pageId="5" pageNumber="540">
+<emphasis id="61E63E65FF8AFF941EAFF8A1FEEFF8FC" box="[199,308,1796,1822]" italics="true" pageId="5" pageNumber="540">Maxilla 2</emphasis>
+(
+<figureCitation id="CBA9FEF2FF8AFF941F2DF8A1FE49F8FC" box="[325,402,1796,1822]" captionStart="FIGURE 3" captionStartId="3.[151,250,1870,1894]" captionTargetBox="[155,1428,190,1839]" captionTargetId="figure-20@3.[151,1436,181,1846]" captionTargetPageId="3" captionText="FIGURE 3. Gammarus baengnyeongensis sp. nov., holotype, adult male, 12.5 mm, cat no. NIBRIV0000877256: A, habitus; B, antenna 1; C, antenna 2; D, upper lip; E, lower lip; F, left mandible; G, right mandible; H, maxilla 1; I, maxilla 2; J, maxilliped. Scale bars = 3 mm (A), 1 mm (B–C), 0.3 mm (D–J)." figureDoi="http://doi.org/10.5281/zenodo.4387907" httpUri="https://zenodo.org/record/4387907/files/figure.png" pageId="5" pageNumber="540">Fig. 3I</figureCitation>
+) setose, inner plate with serrulate and plumose setae on inner margin, several serrulate and simple setae apically; outer plate slightly longer than inner plate, with stiff setae apically.
+</paragraph>
+<paragraph id="532DE277FF8AFF941EAFF8E9FCB1F830" blockId="5.[151,1437,1616,2039]" pageId="5" pageNumber="540">
+<emphasis id="61E63E65FF8AFF941EAFF8E9FE9BF884" box="[199,320,1868,1894]" italics="true" pageId="5" pageNumber="540">Maxilliped</emphasis>
+(
+<figureCitation id="CBA9FEF2FF8AFF941F39F8E9FE79F884" box="[337,418,1868,1894]" captionStart="FIGURE 3" captionStartId="3.[151,250,1870,1894]" captionTargetBox="[155,1428,190,1839]" captionTargetId="figure-20@3.[151,1436,181,1846]" captionTargetPageId="3" captionText="FIGURE 3. Gammarus baengnyeongensis sp. nov., holotype, adult male, 12.5 mm, cat no. NIBRIV0000877256: A, habitus; B, antenna 1; C, antenna 2; D, upper lip; E, lower lip; F, left mandible; G, right mandible; H, maxilla 1; I, maxilla 2; J, maxilliped. Scale bars = 3 mm (A), 1 mm (B–C), 0.3 mm (D–J)." figureDoi="http://doi.org/10.5281/zenodo.4387907" httpUri="https://zenodo.org/record/4387907/files/figure.png" pageId="5" pageNumber="540">Fig. 3J</figureCitation>
+), inner plate subrectangular, with 4 apical and 1 subapical spines; outer plate broad, with 12 blade spines medially and 10 simple setae apically; palp 4-articulate, article 1 unarmed, article 2 with numerous simple setae on inner margin and 2 tufts of a few simple setae on outer margin, article 3 elongate, with several pectinate and simple setae subapically, 2 dentate-spines apically.
+</paragraph>
+<paragraph id="532DE277FF8AFF971EAFF879FEFEFEA3" blockId="5.[151,1437,1616,2039]" lastBlockId="6.[151,1436,151,321]" lastPageId="6" lastPageNumber="541" pageId="5" pageNumber="540">
+<emphasis id="61E63E65FF8AFF941EAFF879FE87F814" box="[199,348,2012,2038]" italics="true" pageId="5" pageNumber="540">Gnathopod 1</emphasis>
+(
+<figureCitation id="CBA9FEF2FF8AFF941F05F879FE1CF814" box="[365,455,2012,2038]" captionStart="FIGURE 4" captionStartId="4.[151,250,1859,1883]" captionTargetBox="[161,1426,189,1822]" captionTargetId="figure-26@4.[151,1436,181,1835]" captionTargetPageId="4" captionText="FIGURE 4. Gammarus baengnyeongensis sp. nov., holotype, adult male, 12.5 mm, cat no. NIBRIV0000877256: A, gnathopod 1; B, gnathopod 2; C, pereopod 3; D, pereopod 4; E, pereopod 5. Scale bars = 1 mm (A–E)." figureDoi="http://doi.org/10.5281/zenodo.4387909" httpUri="https://zenodo.org/record/4387909/files/figure.png" pageId="5" pageNumber="540">Fig. 4A</figureCitation>
+) subchelate; coxa subquadrate, with 3 short setae anterodistally, and 1 short seta pos-terodistally; basis with long curved or 3 long pinnate setae posteriorly, several unequal simple setae anteriorly, 3 stiff cuspidate setae ventrodistally; carpus with several clusters of simple setae posteriorly and 5 stiff cuspidate setae distomedially; propodus subovate, narrowing distally, 1.37 times as long as carpus, with a row of simple setae ventrally, palm gently oblique, with 3 medial spines and 11 spines posteriorly; dactylus falcate, 0.73 times as long as propodus.
+</paragraph>
+<caption id="07EDB2FFFF89FF971EFFF8A6FBA2F8DD" ID-DOI="http://doi.org/10.5281/zenodo.4387913" ID-Zenodo-Dep="4387913" httpUri="https://zenodo.org/record/4387913/files/figure.png" pageId="6" pageNumber="541" startId="6.[151,250,1795,1819]" targetBox="[161,1429,357,1762]" targetPageId="6">
+<paragraph id="532DE277FF89FF971EFFF8A6FBA2F8DD" blockId="6.[151,1436,1795,1855]" pageId="6" pageNumber="541">
+<emphasis id="61E63E65FF89FF971EFFF8A6FEC8F8F9" bold="true" box="[151,275,1795,1819]" pageId="6" pageNumber="541">FIGURE 6.</emphasis>
+<taxonomicName id="949299F4FF89FF971F71F8A6FD91F8F9" authority="Kwon &amp; Kim &amp; Heo &amp; Kim, 2020" authorityName="Kwon &amp; Kim &amp; Heo &amp; Kim" authorityYear="2020" box="[281,586,1795,1819]" class="Malacostraca" family="Gammaridae" genus="Gammarus" kingdom="Animalia" order="Amphipoda" pageId="6" pageNumber="541" phylum="Arthropoda" rank="species" species="baengnyeongensis" status="sp. nov.">
+<emphasis id="61E63E65FF89FF971F71F8A6FD91F8F9" box="[281,586,1795,1819]" italics="true" pageId="6" pageNumber="541">Gammarus baengnyeongensis</emphasis>
+</taxonomicName>
+<emphasis id="61E63E65FF89FF971C38F8A6FD7BF8F9" bold="true" box="[592,672,1795,1819]" pageId="6" pageNumber="541">
+<taxonomicNameLabel id="7AD5831EFF89FF971C38F8A6FD7BF8F9" box="[592,672,1795,1819]" pageId="6" pageNumber="541" rank="species">sp. nov.</taxonomicNameLabel>
+</emphasis>
+, paratype, adult female, 12.3 mm, cat no. NIBRIV0000877258: A, habitus; B, gnathopod 1; C, gnathopod 2; D, uropod 3. Scale bars = 3 mm (A), 0.5 mm (B–C), 0.4mm (D).
+</paragraph>
+</caption>
+<paragraph id="532DE277FF89FF961EAFF8C8FF39FF1B" blockId="6.[151,1437,1901,2036]" lastBlockId="7.[151,1437,151,2013]" lastPageId="7" lastPageNumber="542" pageId="6" pageNumber="541">
+<emphasis id="61E63E65FF89FF971EAFF8C8FE80F865" box="[199,347,1901,1927]" italics="true" pageId="6" pageNumber="541">Gnathopod 2</emphasis>
+(
+<figureCitation id="CBA9FEF2FF89FF971F03F8C8FE19F865" box="[363,450,1901,1927]" captionStart="FIGURE 4" captionStartId="4.[151,250,1859,1883]" captionTargetBox="[161,1426,189,1822]" captionTargetId="figure-26@4.[151,1436,181,1835]" captionTargetPageId="4" captionText="FIGURE 4. Gammarus baengnyeongensis sp. nov., holotype, adult male, 12.5 mm, cat no. NIBRIV0000877256: A, gnathopod 1; B, gnathopod 2; C, pereopod 3; D, pereopod 4; E, pereopod 5. Scale bars = 1 mm (A–E)." figureDoi="http://doi.org/10.5281/zenodo.4387909" httpUri="https://zenodo.org/record/4387909/files/figure.png" pageId="6" pageNumber="541">Fig. 4B</figureCitation>
+) similar to gnathopod 1; coxa subquadrate, width 0.46 times length, with 3 anterodistal setules, 1 posterodistal setule, and 3 unequal setae subposterodistally; basis subrectangular, narrowing proximally, with 8 long simple setae anteriorly and 4 cuspidate setae distally; carpus 0.63 times as long as basis, with 8 clusters of pinnate and simple setae posteriorly, and 3 clusters of simple setae anteriorly; propodus subchelate, 1.15 times as long as carpus, with 7 clusters of simple and pinnate setae posteriorly, 4 clusters of simple setae anteriorly, palm oblique, with 1 blunt medial spine and 4 small spines on palmar corner; dactylus falcate, 0.67 times as long as propodus.
+</paragraph>
+<paragraph id="532DE277FF88FF961EAFFEA6FAD2FE4F" blockId="7.[151,1437,151,2013]" pageId="7" pageNumber="542">
+<emphasis id="61E63E65FF88FF961EAFFEA6FE90FEFF" box="[199,331,259,285]" italics="true" pageId="7" pageNumber="542">Pereopod 3</emphasis>
+(
+<figureCitation id="CBA9FEF2FF88FF961F35FEA6FE6CFEFF" box="[349,439,259,285]" captionStart="FIGURE 4" captionStartId="4.[151,250,1859,1883]" captionTargetBox="[161,1426,189,1822]" captionTargetId="figure-26@4.[151,1436,181,1835]" captionTargetPageId="4" captionText="FIGURE 4. Gammarus baengnyeongensis sp. nov., holotype, adult male, 12.5 mm, cat no. NIBRIV0000877256: A, gnathopod 1; B, gnathopod 2; C, pereopod 3; D, pereopod 4; E, pereopod 5. Scale bars = 1 mm (A–E)." figureDoi="http://doi.org/10.5281/zenodo.4387909" httpUri="https://zenodo.org/record/4387909/files/figure.png" pageId="7" pageNumber="542">Fig. 4C</figureCitation>
+), coxa subrectangular, width 0.42 times length, with 3 anterodistal and 1 posterodistal setul; basis with 23 unequal simple setae posteriorly, 14 unequal simple setae anteriorly; merus elongate, with 9 clusters of simple setae posteriorly; carpus with unequal simple setae and 2 spines posteriorly, anterior margin unarmed; propodus more slender than and 1.20 times longer than carpus, with 6 spines and accompanied by setae along the posterior margin, and 5 setae anterodistally; dactylus with 1 short setae on hinge of the nail.
+</paragraph>
+<paragraph id="532DE277FF88FF961EAFFE12FB19FE17" blockId="7.[151,1437,151,2013]" pageId="7" pageNumber="542">
+<emphasis id="61E63E65FF88FF961EAFFE12FE9CFE33" box="[199,327,439,465]" italics="true" pageId="7" pageNumber="542">Pereopod 4</emphasis>
+(
+<figureCitation id="CBA9FEF2FF88FF961F3DFE12FE77FE33" box="[341,428,439,465]" captionStart="FIGURE 4" captionStartId="4.[151,250,1859,1883]" captionTargetBox="[161,1426,189,1822]" captionTargetId="figure-26@4.[151,1436,181,1835]" captionTargetPageId="4" captionText="FIGURE 4. Gammarus baengnyeongensis sp. nov., holotype, adult male, 12.5 mm, cat no. NIBRIV0000877256: A, gnathopod 1; B, gnathopod 2; C, pereopod 3; D, pereopod 4; E, pereopod 5. Scale bars = 1 mm (A–E)." figureDoi="http://doi.org/10.5281/zenodo.4387909" httpUri="https://zenodo.org/record/4387909/files/figure.png" pageId="7" pageNumber="542">Fig. 4D</figureCitation>
+) similar to pereopod 3, except coxa 4 with posteroproximal excavation and 6 posterodistal, 2 anterodistal setules; merus, carpus, and propodus with shorter setae than those of pereopod 3.
+</paragraph>
+<paragraph id="532DE277FF88FF961EAFFE5AFC36FD83" blockId="7.[151,1437,151,2013]" pageId="7" pageNumber="542">
+<emphasis id="61E63E65FF88FF961EAFFE5AFE93FDFB" box="[199,328,511,537]" italics="true" pageId="7" pageNumber="542">Pereopod 5</emphasis>
+(
+<figureCitation id="CBA9FEF2FF88FF961F30FE5AFE74FDFB" box="[344,431,511,537]" captionStart="FIGURE 4" captionStartId="4.[151,250,1859,1883]" captionTargetBox="[161,1426,189,1822]" captionTargetId="figure-26@4.[151,1436,181,1835]" captionTargetPageId="4" captionText="FIGURE 4. Gammarus baengnyeongensis sp. nov., holotype, adult male, 12.5 mm, cat no. NIBRIV0000877256: A, gnathopod 1; B, gnathopod 2; C, pereopod 3; D, pereopod 4; E, pereopod 5. Scale bars = 1 mm (A–E)." figureDoi="http://doi.org/10.5281/zenodo.4387909" httpUri="https://zenodo.org/record/4387909/files/figure.png" pageId="7" pageNumber="542">Fig. 4E</figureCitation>
+), basis subovate, width 0.68 times length, posterior margin rounded, weakly serrate, with a row of marginal setules, anterior margin straight with 4 proximal setae, 4 spines accompanied by setules; merus, carpus, propodus setose, with a row of duad or triad spines on both margins.
+</paragraph>
+<paragraph id="532DE277FF88FF961EAFFDCEFC2EFD67" blockId="7.[151,1437,151,2013]" box="[199,1013,618,645]" pageId="7" pageNumber="542">
+<emphasis id="61E63E65FF88FF961EAFFDCEFE93FD66" box="[199,328,618,645]" italics="true" pageId="7" pageNumber="542">Pereopod 6</emphasis>
+(
+<figureCitation id="CBA9FEF2FF88FF961F3FFDCEFE74FD67" box="[343,431,618,645]" captionStart="FIGURE 5" captionStartId="5.[151,250,1510,1534]" captionTargetBox="[157,1425,187,1482]" captionTargetId="figure-20@5.[151,1436,181,1486]" captionTargetPageId="5" captionText="FIGURE 5. Gammarus baengnyeongensis sp. nov., holotype, adult male, 12.5 mm, cat no. NIBRIV0000877256: A, pereopod 6; B, pereopod 7; C, urosome1–3; D, uropod 1; E, uropod 2; F, uropod 3; G, telson. Scale bars = 1mm (A–B), 0.4 mm (C–G)." figureDoi="http://doi.org/10.5281/zenodo.4387911" httpUri="https://zenodo.org/record/4387911/files/figure.png" pageId="7" pageNumber="542">Fig. 5A</figureCitation>
+) similar to pereopod 5, except basis subrectangular.
+</paragraph>
+<paragraph id="532DE277FF88FF961EAFFD2AFCE7FD2F" blockId="7.[151,1437,151,2013]" pageId="7" pageNumber="542">
+<emphasis id="61E63E65FF88FF961EAFFD2AFE9CFD4B" box="[199,327,655,681]" italics="true" pageId="7" pageNumber="542">Pereopod 7</emphasis>
+(
+<figureCitation id="CBA9FEF2FF88FF961F3EFD2AFE77FD4B" box="[342,428,654,681]" captionStart="FIGURE 5" captionStartId="5.[151,250,1510,1534]" captionTargetBox="[157,1425,187,1482]" captionTargetId="figure-20@5.[151,1436,181,1486]" captionTargetPageId="5" captionText="FIGURE 5. Gammarus baengnyeongensis sp. nov., holotype, adult male, 12.5 mm, cat no. NIBRIV0000877256: A, pereopod 6; B, pereopod 7; C, urosome1–3; D, uropod 1; E, uropod 2; F, uropod 3; G, telson. Scale bars = 1mm (A–B), 0.4 mm (C–G)." figureDoi="http://doi.org/10.5281/zenodo.4387911" httpUri="https://zenodo.org/record/4387911/files/figure.png" pageId="7" pageNumber="542">Fig. 5B</figureCitation>
+) similar to pereopod 6, except basis subquadrate, width 0.80 times length, slightly broader than that of pereopod 6 and slightly shorter than pereopod 6.
+</paragraph>
+<paragraph id="532DE277FF88FF961EAFFD72FC12FCF7" blockId="7.[151,1437,151,2013]" pageId="7" pageNumber="542">
+<emphasis id="61E63E65FF88FF961EAFFD72FEA3FD13" box="[199,376,727,753]" italics="true" pageId="7" pageNumber="542">Urosomites 1–3</emphasis>
+(
+<figureCitation id="CBA9FEF2FF88FF961FEFFD72FE06FD13" box="[391,477,726,753]" captionStart="FIGURE 5" captionStartId="5.[151,250,1510,1534]" captionTargetBox="[157,1425,187,1482]" captionTargetId="figure-20@5.[151,1436,181,1486]" captionTargetPageId="5" captionText="FIGURE 5. Gammarus baengnyeongensis sp. nov., holotype, adult male, 12.5 mm, cat no. NIBRIV0000877256: A, pereopod 6; B, pereopod 7; C, urosome1–3; D, uropod 1; E, uropod 2; F, uropod 3; G, telson. Scale bars = 1mm (A–B), 0.4 mm (C–G)." figureDoi="http://doi.org/10.5281/zenodo.4387911" httpUri="https://zenodo.org/record/4387911/files/figure.png" pageId="7" pageNumber="542">Fig. 5C</figureCitation>
+) dorsally flat; urosomite 1 with 1–2–1 spines on dorsal margin from left to right; urosomite 2 with 2–2–2 spines; urosomite 3 with 1–0–1 spines on each side.
+</paragraph>
+<paragraph id="532DE277FF88FF961EAFFCBAFC9DFCBF" blockId="7.[151,1437,151,2013]" pageId="7" pageNumber="542">
+<emphasis id="61E63E65FF88FF961EAFFCBAFEE8FCDB" box="[199,307,799,825]" italics="true" pageId="7" pageNumber="542">Uropod 1</emphasis>
+(
+<figureCitation id="CBA9FEF2FF88FF961F2AFCBAFE47FCDB" box="[322,412,798,825]" captionStart="FIGURE 5" captionStartId="5.[151,250,1510,1534]" captionTargetBox="[157,1425,187,1482]" captionTargetId="figure-20@5.[151,1436,181,1486]" captionTargetPageId="5" captionText="FIGURE 5. Gammarus baengnyeongensis sp. nov., holotype, adult male, 12.5 mm, cat no. NIBRIV0000877256: A, pereopod 6; B, pereopod 7; C, urosome1–3; D, uropod 1; E, uropod 2; F, uropod 3; G, telson. Scale bars = 1mm (A–B), 0.4 mm (C–G)." figureDoi="http://doi.org/10.5281/zenodo.4387911" httpUri="https://zenodo.org/record/4387911/files/figure.png" pageId="7" pageNumber="542">Fig. 5D</figureCitation>
+), peduncle subrectangular, 1.40 times longer than inner ramus, with a row of 6 dorsolateral and 3 dorsomedial spines; outer ramus subequal to inner one.
+</paragraph>
+<paragraph id="532DE277FF88FF961EAFFCC2FD4CFC2B" blockId="7.[151,1437,151,2013]" pageId="7" pageNumber="542">
+<emphasis id="61E63E65FF88FF961EAFFCC2FEE9FC63" box="[199,306,871,897]" italics="true" pageId="7" pageNumber="542">Uropod 2</emphasis>
+(
+<figureCitation id="CBA9FEF2FF88FF961F2AFCC2FE43FC63" box="[322,408,870,897]" captionStart="FIGURE 5" captionStartId="5.[151,250,1510,1534]" captionTargetBox="[157,1425,187,1482]" captionTargetId="figure-20@5.[151,1436,181,1486]" captionTargetPageId="5" captionText="FIGURE 5. Gammarus baengnyeongensis sp. nov., holotype, adult male, 12.5 mm, cat no. NIBRIV0000877256: A, pereopod 6; B, pereopod 7; C, urosome1–3; D, uropod 1; E, uropod 2; F, uropod 3; G, telson. Scale bars = 1mm (A–B), 0.4 mm (C–G)." figureDoi="http://doi.org/10.5281/zenodo.4387911" httpUri="https://zenodo.org/record/4387911/files/figure.png" pageId="7" pageNumber="542">Fig. 5E</figureCitation>
+), peduncle 1.62 times longer than inner ramus, with a row of 4 dorsolateral and 5 dorsomedial spines; inner ramus with 1 spine on each margin, 3 apical spines; outer ramus with 1 lateral spine, 5 unequal apical spines, 1.27 times as long as inner one.
+</paragraph>
+<paragraph id="532DE277FF88FF961EAFFC76FCCAFBBB" blockId="7.[151,1437,151,2013]" pageId="7" pageNumber="542">
+<emphasis id="61E63E65FF88FF961EAFFC76FEEAFC0F" box="[199,305,979,1005]" italics="true" pageId="7" pageNumber="542">Uropod 3</emphasis>
+(
+<figureCitation id="CBA9FEF2FF88FF961F28FC76FE48FC0F" box="[320,403,978,1005]" captionStart="FIGURE 5" captionStartId="5.[151,250,1510,1534]" captionTargetBox="[157,1425,187,1482]" captionTargetId="figure-20@5.[151,1436,181,1486]" captionTargetPageId="5" captionText="FIGURE 5. Gammarus baengnyeongensis sp. nov., holotype, adult male, 12.5 mm, cat no. NIBRIV0000877256: A, pereopod 6; B, pereopod 7; C, urosome1–3; D, uropod 1; E, uropod 2; F, uropod 3; G, telson. Scale bars = 1mm (A–B), 0.4 mm (C–G)." figureDoi="http://doi.org/10.5281/zenodo.4387911" httpUri="https://zenodo.org/record/4387911/files/figure.png" pageId="7" pageNumber="542">Fig. 5F</figureCitation>
+), peduncle short, 0.56 times as long as inner ramus, with 2 apical and 3 lateral spines on each margin; inner ramus with 2 spines and long simple setae apically; outer ramus biarticulate, 1.30 times longer than inner one, proximal article with 2 spines laterally, 4 spines and long simple setae distally, terminal article longer than adjacent spines; both rami surrounded by plumose setae.
+</paragraph>
+<paragraph id="532DE277FF88FF961EAFFBC6FB2FFB43" blockId="7.[151,1437,151,2013]" pageId="7" pageNumber="542">
+<emphasis id="61E63E65FF88FF961EAFFBC6FED4FB9F" box="[199,271,1123,1149]" italics="true" pageId="7" pageNumber="542">Telson</emphasis>
+(
+<figureCitation id="CBA9FEF2FF88FF961F76FBC6FEAFFB9F" box="[286,372,1122,1149]" captionStart="FIGURE 5" captionStartId="5.[151,250,1510,1534]" captionTargetBox="[157,1425,187,1482]" captionTargetId="figure-20@5.[151,1436,181,1486]" captionTargetPageId="5" captionText="FIGURE 5. Gammarus baengnyeongensis sp. nov., holotype, adult male, 12.5 mm, cat no. NIBRIV0000877256: A, pereopod 6; B, pereopod 7; C, urosome1–3; D, uropod 1; E, uropod 2; F, uropod 3; G, telson. Scale bars = 1mm (A–B), 0.4 mm (C–G)." figureDoi="http://doi.org/10.5281/zenodo.4387911" httpUri="https://zenodo.org/record/4387911/files/figure.png" pageId="7" pageNumber="542">Fig. 5G</figureCitation>
+) deeply cleft nearly to the base; each lobe with 2 spines accompanied by 8 simple setae apically, a tuft of four simple setae medially, two tufts of simple setae and a pair of penicillate setae laterally.
+</paragraph>
+<paragraph id="532DE277FF88FF961EAFFB0EFB9BFB27" blockId="7.[151,1437,151,2013]" box="[199,1088,1194,1222]" pageId="7" pageNumber="542">
+<emphasis id="61E63E65FF88FF961EAFFB0EFEEFFB27" bold="true" box="[199,308,1195,1221]" pageId="7" pageNumber="542">
+<typeStatus id="8C295CD5FF88FF961EAFFB0EFEEFFB27" box="[199,308,1195,1221]" pageId="7" pageNumber="542">Paratype</typeStatus>
+</emphasis>
+, adult female, body 
+<quantity id="946A4F92FF88FF961C72FB0EFDA5FB27" box="[538,638,1195,1221]" metricMagnitude="-2" metricUnit="m" metricValue="1.23" pageId="7" pageNumber="542" unit="mm" value="12.3">12.3 mm</quantity>
+(
+<figureCitation id="CBA9FEF2FF88FF961CE5FB0EFD3CFB24" box="[653,743,1195,1222]" captionStart="FIGURE 6" captionStartId="6.[151,250,1795,1819]" captionTargetBox="[161,1429,357,1762]" captionTargetId="figure-97@6.[151,1436,345,1771]" captionTargetPageId="6" captionText="FIGURE 6. Gammarus baengnyeongensis sp. nov., paratype, adult female, 12.3 mm, cat no. NIBRIV0000877258: A, habitus; B, gnathopod 1; C, gnathopod 2; D, uropod 3. Scale bars = 3 mm (A), 0.5 mm (B–C), 0.4mm (D)." figureDoi="http://doi.org/10.5281/zenodo.4387913" httpUri="https://zenodo.org/record/4387913/files/figure.png" pageId="7" pageNumber="542">Fig. 6A</figureCitation>
+), cat no. NIBRIV0000877258.
+</paragraph>
+<paragraph id="532DE277FF88FF961EAFFB6AFBE8FB0B" blockId="7.[151,1437,151,2013]" box="[199,1075,1231,1258]" pageId="7" pageNumber="542">
+<emphasis id="61E63E65FF88FF961EAFFB6AFEE1FB0B" box="[199,314,1231,1257]" italics="true" pageId="7" pageNumber="542">Antenna 2</emphasis>
+(
+<figureCitation id="CBA9FEF2FF88FF961F21FB6AFE7AFB08" box="[329,417,1231,1258]" captionStart="FIGURE 6" captionStartId="6.[151,250,1795,1819]" captionTargetBox="[161,1429,357,1762]" captionTargetId="figure-97@6.[151,1436,345,1771]" captionTargetPageId="6" captionText="FIGURE 6. Gammarus baengnyeongensis sp. nov., paratype, adult female, 12.3 mm, cat no. NIBRIV0000877258: A, habitus; B, gnathopod 1; C, gnathopod 2; D, uropod 3. Scale bars = 3 mm (A), 0.5 mm (B–C), 0.4mm (D)." figureDoi="http://doi.org/10.5281/zenodo.4387913" httpUri="https://zenodo.org/record/4387913/files/figure.png" pageId="7" pageNumber="542">Fig. 6A</figureCitation>
+) similar to that of male, except flagellum without calceoli.
+</paragraph>
+<paragraph id="532DE277FF88FF961EAFFB56FBB3FAEF" blockId="7.[151,1437,151,2013]" box="[199,1128,1267,1294]" pageId="7" pageNumber="542">
+<emphasis id="61E63E65FF88FF961EAFFB56FE81FAEF" box="[199,346,1267,1293]" italics="true" pageId="7" pageNumber="542">Gnathopod 1</emphasis>
+(
+<figureCitation id="CBA9FEF2FF88FF961F02FB56FE64FAEC" box="[362,447,1267,1294]" captionStart="FIGURE 6" captionStartId="6.[151,250,1795,1819]" captionTargetBox="[161,1429,357,1762]" captionTargetId="figure-97@6.[151,1436,345,1771]" captionTargetPageId="6" captionText="FIGURE 6. Gammarus baengnyeongensis sp. nov., paratype, adult female, 12.3 mm, cat no. NIBRIV0000877258: A, habitus; B, gnathopod 1; C, gnathopod 2; D, uropod 3. Scale bars = 3 mm (A), 0.5 mm (B–C), 0.4mm (D)." figureDoi="http://doi.org/10.5281/zenodo.4387913" httpUri="https://zenodo.org/record/4387913/files/figure.png" pageId="7" pageNumber="542">Fig. 6B</figureCitation>
+) similar to that of male, except medial palmar spine lacking.
+</paragraph>
+<paragraph id="532DE277FF88FF961EAFFAB2FBB3FAD3" blockId="7.[151,1437,151,2013]" box="[199,1128,1303,1330]" pageId="7" pageNumber="542">
+<emphasis id="61E63E65FF88FF961EAFFAB2FE81FAD3" box="[199,346,1303,1329]" italics="true" pageId="7" pageNumber="542">Gnathopod 2</emphasis>
+(
+<figureCitation id="CBA9FEF2FF88FF961F02FAB2FE1BFAD0" box="[362,448,1303,1330]" captionStart="FIGURE 6" captionStartId="6.[151,250,1795,1819]" captionTargetBox="[161,1429,357,1762]" captionTargetId="figure-97@6.[151,1436,345,1771]" captionTargetPageId="6" captionText="FIGURE 6. Gammarus baengnyeongensis sp. nov., paratype, adult female, 12.3 mm, cat no. NIBRIV0000877258: A, habitus; B, gnathopod 1; C, gnathopod 2; D, uropod 3. Scale bars = 3 mm (A), 0.5 mm (B–C), 0.4mm (D)." figureDoi="http://doi.org/10.5281/zenodo.4387913" httpUri="https://zenodo.org/record/4387913/files/figure.png" pageId="7" pageNumber="542">Fig. 6C</figureCitation>
+) similar to that of male, except medial palmar spine lacking.
+</paragraph>
+<paragraph id="532DE277FF88FF961EAFFA9EFC4CFA9B" blockId="7.[151,1437,151,2013]" pageId="7" pageNumber="542">
+<emphasis id="61E63E65FF88FF961EAFFA9EFEE8FAB7" box="[199,307,1339,1365]" italics="true" pageId="7" pageNumber="542">Uropod 3</emphasis>
+(
+<figureCitation id="CBA9FEF2FF88FF961F2BFA9EFE47FAB4" box="[323,412,1339,1366]" captionStart="FIGURE 6" captionStartId="6.[151,250,1795,1819]" captionTargetBox="[161,1429,357,1762]" captionTargetId="figure-97@6.[151,1436,345,1771]" captionTargetPageId="6" captionText="FIGURE 6. Gammarus baengnyeongensis sp. nov., paratype, adult female, 12.3 mm, cat no. NIBRIV0000877258: A, habitus; B, gnathopod 1; C, gnathopod 2; D, uropod 3. Scale bars = 3 mm (A), 0.5 mm (B–C), 0.4mm (D)." figureDoi="http://doi.org/10.5281/zenodo.4387913" httpUri="https://zenodo.org/record/4387913/files/figure.png" pageId="7" pageNumber="542">Fig. 6D</figureCitation>
+) similar to that of male, except both rami with plumose setae on both margins, setae more than sparse in male; outer ramus 1.48 times longer than inner ramus.
+</paragraph>
+<paragraph id="532DE277FF88FF961EAFFA26FDB4F9B3" blockId="7.[151,1437,151,2013]" pageId="7" pageNumber="542">
+<emphasis id="61E63E65FF88FF961EAFFA26FE5EFA7F" bold="true" box="[199,389,1411,1437]" pageId="7" pageNumber="542">Molecular data.</emphasis>
+CO1 gene sequences (GenBank accession numbers 
+<accessionNumber id="4CC17F94FF88FF961DBDFA26FB86FA7F" box="[981,1117,1411,1437]" httpUri="http://www.ncbi.nlm.nih.gov/nucleotide/MW291608" pageId="7" pageNumber="542">MW291608</accessionNumber>
+- 
+<accessionNumber id="4CC17F94FF88FF961A0DFA26FB36FA7F" box="[1125,1261,1411,1437]" httpUri="http://www.ncbi.nlm.nih.gov/nucleotide/MW291613" pageId="7" pageNumber="542">MW291613</accessionNumber>
+) were obtained from 
+<specimenCount id="459429FEFF88FF961EBEFA02FEB9FA23" box="[214,354,1447,1473]" pageId="7" pageNumber="542" type="generic">6 specimens</specimenCount>
+of the new species. Additionally, one sequences were determined from 
+<taxonomicName id="949299F4FF88FF961AFFFA02FA8BFA22" authorityName="Lee and Kim" authorityYear="1980" box="[1175,1360,1447,1473]" class="Malacostraca" family="Gammaridae" genus="Gammarus" kingdom="Animalia" order="Amphipoda" pageId="7" pageNumber="542" phylum="Arthropoda" rank="species" species="zeongogensis">
+<emphasis id="61E63E65FF88FF961AFFFA02FB70FA23" box="[1175,1195,1447,1473]" italics="true" pageId="7" pageNumber="542">G</emphasis>
+. 
+<emphasis id="61E63E65FF88FF961AD3FA02FA8BFA22" box="[1211,1360,1447,1472]" italics="true" pageId="7" pageNumber="542">zeongogensis</emphasis>
+</taxonomicName>
+specimen, and four sequences from four species retrieved from National Center for Biotechnology Information (NCBI). Intraspecific variation of the CO1 gene fragment of the new species ranged from 0.2% to 0.8%, while interspecific variation ranged from 29.1% (
+<taxonomicName id="949299F4FF88FF961F8EF9B6FD0FF9CF" authority="Kwon &amp; Kim &amp; Heo &amp; Kim, 2020" authorityName="Kwon &amp; Kim &amp; Heo &amp; Kim" authorityYear="2020" box="[486,724,1555,1581]" class="Malacostraca" family="Gammaridae" genus="Gammarus" kingdom="Animalia" order="Amphipoda" pageId="7" pageNumber="542" phylum="Arthropoda" rank="species" species="baengnyeongensis" status="sp. nov.">
+<emphasis id="61E63E65FF88FF961F8EF9B6FE21F9CF" box="[486,506,1555,1581]" italics="true" pageId="7" pageNumber="542">G</emphasis>
+. 
+<emphasis id="61E63E65FF88FF961C6FF9B6FD0FF9CF" box="[519,724,1555,1581]" italics="true" pageId="7" pageNumber="542">baengnyeongensis</emphasis>
+</taxonomicName>
+<emphasis id="61E63E65FF88FF961CB2F9B6FCE8F9CF" bold="true" box="[730,819,1555,1581]" pageId="7" pageNumber="542">
+<taxonomicNameLabel id="7AD5831EFF88FF961CB2F9B6FCE8F9CF" box="[730,819,1555,1581]" pageId="7" pageNumber="542" rank="species">sp. nov.</taxonomicNameLabel>
+</emphasis>
+and 
+<taxonomicName id="949299F4FF88FF961D0FF9B6FBDFF9CE" authorityName="Kim, Lee and Min" authorityYear="2010" box="[871,1028,1555,1581]" class="Malacostraca" family="Gammaridae" genus="Gammarus" kingdom="Animalia" order="Amphipoda" pageId="7" pageNumber="542" phylum="Arthropoda" rank="species" species="gageoensis">
+<emphasis id="61E63E65FF88FF961D0FF9B6FCA0F9CF" box="[871,891,1555,1581]" italics="true" pageId="7" pageNumber="542">G</emphasis>
+. 
+<emphasis id="61E63E65FF88FF961DE0F9B6FBDFF9CE" box="[904,1028,1555,1580]" italics="true" pageId="7" pageNumber="542">gageoensis</emphasis>
+</taxonomicName>
+) to 40.8% (
+<taxonomicName id="949299F4FF88FF961AEFF9B6FAAEF9CF" authority="Kwon &amp; Kim &amp; Heo &amp; Kim, 2020" authorityName="Kwon &amp; Kim &amp; Heo &amp; Kim" authorityYear="2020" box="[1159,1397,1555,1581]" class="Malacostraca" family="Gammaridae" genus="Gammarus" kingdom="Animalia" order="Amphipoda" pageId="7" pageNumber="542" phylum="Arthropoda" rank="species" species="baengnyeongensis" status="sp. nov.">
+<emphasis id="61E63E65FF88FF961AEFF9B6FB40F9CF" box="[1159,1179,1555,1581]" italics="true" pageId="7" pageNumber="542">G</emphasis>
+. 
+<emphasis id="61E63E65FF88FF961AC0F9B6FAAEF9CF" box="[1192,1397,1555,1581]" italics="true" pageId="7" pageNumber="542">baengnyeongensis</emphasis>
+</taxonomicName>
+<emphasis id="61E63E65FF88FF961B13F9B6FF13F9B3" bold="true" pageId="7" pageNumber="542">
+<taxonomicNameLabel id="7AD5831EFF88FF961B13F9B6FF13F9B3" pageId="7" pageNumber="542" rank="species">sp. nov.</taxonomicNameLabel>
+</emphasis>
+and 
+<taxonomicName id="949299F4FF88FF961E97F992FE5CF9B3" authorityName="Ueno" authorityYear="1940" box="[255,391,1591,1617]" class="Malacostraca" family="Gammaridae" genus="Gammarus" kingdom="Animalia" order="Amphipoda" pageId="7" pageNumber="542" phylum="Arthropoda" rank="species" species="koreanus">
+<emphasis id="61E63E65FF88FF961E97F992FEC8F9B3" box="[255,275,1591,1617]" italics="true" pageId="7" pageNumber="542">G</emphasis>
+. 
+<emphasis id="61E63E65FF88FF961F49F992FE5CF9B3" box="[289,391,1591,1617]" italics="true" pageId="7" pageNumber="542">koreanus</emphasis>
+</taxonomicName>
+) (
+<figureCitation id="CBA9FEF2FF88FF961FF6F992FE24F9B3" box="[414,511,1591,1617]" captionStart="FIGURE 8" captionStartId="10.[151,250,935,959]" captionTargetBox="[392,1198,184,905]" captionTargetId="figure-26@10.[382,1206,181,911]" captionTargetPageId="10" captionText="FIGURE 8. Neighbor-joining tree from the analysis of the CO1 data set. Bootstrap&gt; 50 % are shown, based on 500 pseudoreplicates." figureDoi="http://doi.org/10.5281/zenodo.4387917" httpUri="https://zenodo.org/record/4387917/files/figure.png" pageId="7" pageNumber="542">Figure 8</figureCitation>
+, 
+<tableCitation id="1E10D7CCFF88FF961C64F992FD85F9B3" box="[524,606,1591,1617]" captionStart="TABLE 1" captionStartId="8.[151,239,404,428]" captionTargetPageId="8" captionText="TABLE 1. A matrix of the pair-wise genetic distance of the CO1 sequence of this study. Sequence divergence using the K2P distance parameter." httpUri="http://table.plazi.org/id/07EDB2FFFF87FF991EFFFE31FE40FE32" pageId="7" pageNumber="542" tableUuid="07EDB2FFFF87FF991EFFFE31FE40FE32">Table 1</tableCitation>
+).
+</paragraph>
+</subSubSection>
+<subSubSection id="1B88B1FCFF88FF991EAFF9FEFE6FF861" lastPageId="8" lastPageNumber="543" pageId="7" pageNumber="542" type="discussion">
+<paragraph id="532DE277FF88FF991EAFF9FEFC90FE87" blockId="7.[151,1437,151,2013]" lastBlockId="8.[151,1437,151,357]" lastPageId="8" lastPageNumber="543" pageId="7" pageNumber="542">
+<emphasis id="61E63E65FF88FF961EAFF9FEFEE0F997" bold="true" box="[199,315,1627,1653]" pageId="7" pageNumber="542">Remarks.</emphasis>
+Up to now, 
+<taxonomicName id="949299F4FF88FF961FA3F9FEFD67F997" authority="Kwon &amp; Kim &amp; Heo &amp; Kim, 2020" authorityName="Kwon &amp; Kim &amp; Heo &amp; Kim" authorityYear="2020" box="[459,700,1627,1653]" class="Malacostraca" family="Gammaridae" genus="Gammarus" kingdom="Animalia" order="Amphipoda" pageId="7" pageNumber="542" phylum="Arthropoda" rank="species" species="baengnyeongensis" status="sp. nov.">
+<emphasis id="61E63E65FF88FF961FA3F9FEFE04F997" box="[459,479,1627,1653]" italics="true" pageId="7" pageNumber="542">G</emphasis>
+. 
+<emphasis id="61E63E65FF88FF961F87F9FEFD67F997" box="[495,700,1627,1653]" italics="true" pageId="7" pageNumber="542">baengnyeongensis</emphasis>
+</taxonomicName>
+<emphasis id="61E63E65FF88FF961CADF9FEFCFBF997" bold="true" box="[709,800,1627,1653]" pageId="7" pageNumber="542">
+<taxonomicNameLabel id="7AD5831EFF88FF961CADF9FEFCFBF997" box="[709,800,1627,1653]" pageId="7" pageNumber="542" rank="species">sp. nov.</taxonomicNameLabel>
+</emphasis>
+and 
+<taxonomicName id="949299F4FF88FF961D32F9FEFB22F997" authority="Lee and Kim, 1980" authorityName="Lee and Kim" authorityYear="1980" box="[858,1273,1627,1653]" class="Malacostraca" family="Gammaridae" genus="Gammarus" kingdom="Animalia" order="Amphipoda" pageId="7" pageNumber="542" phylum="Arthropoda" rank="species" species="zeongogensis">
+<emphasis id="61E63E65FF88FF961D32F9FEFCB5F997" box="[858,878,1627,1653]" italics="true" pageId="7" pageNumber="542">G</emphasis>
+. 
+<emphasis id="61E63E65FF88FF961D16F9FEFBC8F996" box="[894,1043,1627,1652]" italics="true" pageId="7" pageNumber="542">zeongogensis</emphasis>
+Lee and Kim, 1980
+</taxonomicName>
+have been regarded as the same species, because both species commonly bear calceoli on antenna 2. However, prominent evidence found in this study, showed that these are two different species. 
+<taxonomicName id="949299F4FF88FF961DC6F906FB24F95F" authorityName="Kwon &amp; Kim &amp; Heo &amp; Kim" authorityYear="2020" box="[942,1279,1699,1725]" class="Malacostraca" family="Gammaridae" genus="Gammarus" kingdom="Animalia" order="Amphipoda" pageId="7" pageNumber="542" phylum="Arthropoda" rank="species" species="baengnyeongensis">
+<emphasis id="61E63E65FF88FF961DC6F906FB24F95F" box="[942,1279,1699,1725]" italics="true" pageId="7" pageNumber="542">Gammarus baengnyeongensis</emphasis>
+</taxonomicName>
+has a broader palm and more gradual angle in gnathopod 2, and setose telson. Also, length ratio of the outer ramus to inner ramus of uropod 
+<quantity id="946A4F92FF88FF961F64F94EFEECF8E7" box="[268,311,1771,1797]" metricMagnitude="-2" metricUnit="m" metricValue="7.62" pageId="7" pageNumber="542" unit="in" value="3.0">3 in</quantity>
+<taxonomicName id="949299F4FF88FF961F56F94EFDF0F8E7" authorityName="Kwon &amp; Kim &amp; Heo &amp; Kim" authorityYear="2020" box="[318,555,1771,1797]" class="Malacostraca" family="Gammaridae" genus="Gammarus" kingdom="Animalia" order="Amphipoda" pageId="7" pageNumber="542" phylum="Arthropoda" rank="species" species="baengnyeongensis">
+<emphasis id="61E63E65FF88FF961F56F94EFE89F8E7" box="[318,338,1771,1797]" italics="true" pageId="7" pageNumber="542">G</emphasis>
+. 
+<emphasis id="61E63E65FF88FF961F08F94EFDF0F8E7" box="[352,555,1771,1797]" italics="true" pageId="7" pageNumber="542">baengnyeongensis</emphasis>
+</taxonomicName>
+is comparatively longer than that of 
+<taxonomicName id="949299F4FF88FF961DA0F94EFB57F8E6" box="[968,1164,1771,1797]" class="Malacostraca" family="Gammaridae" genus="Gammarus" kingdom="Animalia" order="Amphipoda" pageId="7" pageNumber="542" phylum="Arthropoda" rank="species" species="zeongogoensis">
+<emphasis id="61E63E65FF88FF961DA0F94EFC07F8E7" box="[968,988,1771,1797]" italics="true" pageId="7" pageNumber="542">G</emphasis>
+. 
+<emphasis id="61E63E65FF88FF961D82F94EFB57F8E6" box="[1002,1164,1771,1796]" italics="true" pageId="7" pageNumber="542">zeongogoensis</emphasis>
+</taxonomicName>
+. Length ratio was 1.00: 0.71 ± 0.01 (n = 25) in 
+<taxonomicName id="949299F4FF88FF961FC8F8AAFD54F8CB" authorityName="Kwon &amp; Kim &amp; Heo &amp; Kim" authorityYear="2020" box="[416,655,1807,1833]" class="Malacostraca" family="Gammaridae" genus="Gammarus" kingdom="Animalia" order="Amphipoda" pageId="7" pageNumber="542" phylum="Arthropoda" rank="species" species="baengnyeongensis">
+<emphasis id="61E63E65FF88FF961FC8F8AAFE6FF8CB" box="[416,436,1807,1833]" italics="true" pageId="7" pageNumber="542">G</emphasis>
+. 
+<emphasis id="61E63E65FF88FF961FAAF8AAFD54F8CB" box="[450,655,1807,1833]" italics="true" pageId="7" pageNumber="542">baengnyeongensis</emphasis>
+</taxonomicName>
+, and 1.00: 0.55 ± 0.01 (n = 25) in 
+<taxonomicName id="949299F4FF88FF961A76F8AAFB0DF8CA" authorityName="Lee and Kim" authorityYear="1980" box="[1054,1238,1807,1833]" class="Malacostraca" family="Gammaridae" genus="Gammarus" kingdom="Animalia" order="Amphipoda" pageId="7" pageNumber="542" phylum="Arthropoda" rank="species" species="zeongogensis">
+<emphasis id="61E63E65FF88FF961A76F8AAFBE9F8CB" box="[1054,1074,1807,1833]" italics="true" pageId="7" pageNumber="542">G</emphasis>
+. 
+<emphasis id="61E63E65FF88FF961A29F8AAFB0DF8CA" box="[1089,1238,1807,1832]" italics="true" pageId="7" pageNumber="542">zeongogensis</emphasis>
+</taxonomicName>
+(
+<figureCitation id="CBA9FEF2FF88FF961A8EF8AAFAF0F8CB" box="[1254,1323,1807,1833]" captionStart="FIGURE 7" captionStartId="8.[151,250,1538,1562]" captionTargetBox="[363,1226,1013,1509]" captionTargetId="figure-333@8.[358,1230,1009,1515]" captionTargetPageId="8" captionText="FIGURE 7. Difference of inner ramus length ratio in uropod 3. Gammarus baengnyeongensis sp. nov. had greater inner ramus length ratio to outer ramus compared to G. zeongogensis (P&lt;0.05)." figureDoi="http://doi.org/10.5281/zenodo.4387915" httpUri="https://zenodo.org/record/4387915/files/figure.png" pageId="7" pageNumber="542">Fig. 7</figureCitation>
+). The difference shown in uropod 3, length ratio of outer ramus to inner ramus, between the two species was statistically significant (P &lt;0.05, 
+<figureCitation id="CBA9FEF2FF88FF961FEFF8F2FE12F893" box="[391,457,1879,1905]" captionStart="FIGURE 7" captionStartId="8.[151,250,1538,1562]" captionTargetBox="[363,1226,1013,1509]" captionTargetId="figure-333@8.[358,1230,1009,1515]" captionTargetPageId="8" captionText="FIGURE 7. Difference of inner ramus length ratio in uropod 3. Gammarus baengnyeongensis sp. nov. had greater inner ramus length ratio to outer ramus compared to G. zeongogensis (P&lt;0.05)." figureDoi="http://doi.org/10.5281/zenodo.4387915" httpUri="https://zenodo.org/record/4387915/files/figure.png" pageId="7" pageNumber="542">Fig. 7</figureCitation>
+). 
+<taxonomicName id="949299F4FF88FF961FB6F8F2FCF5F893" authority="Kwon &amp; Kim &amp; Heo &amp; Kim, 2020" authorityName="Kwon &amp; Kim &amp; Heo &amp; Kim" authorityYear="2020" box="[478,814,1879,1905]" class="Malacostraca" family="Gammaridae" genus="Gammarus" kingdom="Animalia" order="Amphipoda" pageId="7" pageNumber="542" phylum="Arthropoda" rank="species" species="baengnyeongensis" status="sp. nov.">
+<emphasis id="61E63E65FF88FF961FB6F8F2FCF5F893" box="[478,814,1879,1905]" italics="true" pageId="7" pageNumber="542">Gammarus baengnyeongensis</emphasis>
+</taxonomicName>
+<emphasis id="61E63E65FF88FF961D5DF8F2FC55F893" bold="true" box="[821,910,1879,1905]" pageId="7" pageNumber="542">
+<taxonomicNameLabel id="7AD5831EFF88FF961D5DF8F2FC55F893" box="[821,910,1879,1905]" pageId="7" pageNumber="542" rank="species">sp. nov.</taxonomicNameLabel>
+</emphasis>
+is similar to 
+<taxonomicName id="949299F4FF88FF961A76F8F2FAF6F893" authority="Ueno, 1940" authorityName="Ueno" authorityYear="1940" box="[1054,1325,1879,1905]" class="Malacostraca" family="Gammaridae" genus="Gammarus" kingdom="Animalia" order="Amphipoda" pageId="7" pageNumber="542" phylum="Arthropoda" rank="species" species="koreanus">
+<emphasis id="61E63E65FF88FF961A76F8F2FBE9F893" box="[1054,1074,1879,1905]" italics="true" pageId="7" pageNumber="542">G</emphasis>
+. 
+<emphasis id="61E63E65FF88FF961A57F8F2FB7EF893" box="[1087,1189,1879,1905]" italics="true" pageId="7" pageNumber="542">koreanus</emphasis>
+Uéno, 
+<quantity id="946A4F92FF88FF961A9DF8F2FAF6F893" box="[1269,1325,1879,1905]" metricMagnitude="1" metricUnit="m" metricValue="4.9276" pageId="7" pageNumber="542" unit="in" value="1940.0">1940</quantity>
+</taxonomicName>
+in having a few tufts of short setae and calceoli on antenna 2. 
+<bibRefCitation id="37039F86FF88FF961CBFF8DEFC55F877" author="Karaman, G. S." box="[727,910,1915,1941]" pageId="7" pageNumber="542" pagination="139 - 162" refId="ref5334" refString="Karaman, G. S. (1984) Remarks to the freshwater Gammarus species (Fam. Gammaridae) from Korea, China, Japan and some adjacent regions (Contribution to the knowledge of the Amphipoda 134). The Montenegrin Academy of Sciences and Arts, Glasnik Section of Natural Sciences, 4, 139 - 162." type="journal article" year="1984">Karaman (1984)</bibRefCitation>
+elevated 
+<taxonomicName id="949299F4FF88FF961D91F8DEFA46F877" authorityName="Uéno" authorityYear="1940" box="[1017,1437,1915,1941]" class="Malacostraca" family="Gammaridae" genus="Gammarus" kingdom="Animalia" order="Amphipoda" pageId="7" pageNumber="542" phylum="Arthropoda" rank="subSpecies" species="pulex" subGenus="Rivulogammarus" subSpecies="koreanus">
+<emphasis id="61E63E65FF88FF961D91F8DEFBCFF877" box="[1017,1044,1915,1941]" italics="true" pageId="7" pageNumber="542">G.</emphasis>
+(
+<emphasis id="61E63E65FF88FF961A4CF8DEFB38F877" box="[1060,1251,1915,1941]" italics="true" pageId="7" pageNumber="542">Rivulogammarus</emphasis>
+) 
+<emphasis id="61E63E65FF88FF961A9BF8DEFA46F877" box="[1267,1437,1915,1941]" italics="true" pageId="7" pageNumber="542">pulex koreanus</emphasis>
+</taxonomicName>
+to species level, 
+<taxonomicName id="949299F4FF88FF961F38F83AFE03F85B" authorityName="Ueno" authorityYear="1940" box="[336,472,1951,1977]" class="Malacostraca" family="Gammaridae" genus="Gammarus" kingdom="Animalia" order="Amphipoda" pageId="7" pageNumber="542" phylum="Arthropoda" rank="species" species="koreanus">
+<emphasis id="61E63E65FF88FF961F38F83AFEBFF85B" box="[336,356,1951,1977]" italics="true" pageId="7" pageNumber="542">G</emphasis>
+. 
+<emphasis id="61E63E65FF88FF961F1AF83AFE03F85B" box="[370,472,1951,1977]" italics="true" pageId="7" pageNumber="542">koreanus</emphasis>
+</taxonomicName>
+which reported in 
+<collectingCountry id="2B85A2E7FF88FF961CC2F83AFCE2F85B" box="[682,825,1951,1977]" name="North Korea" pageId="7" pageNumber="542">North Korea</collectingCountry>
+, with description only. Since then, he illustrated for 
+<taxonomicName id="949299F4FF88FF961BE9F83AFF26F83F" authorityName="Ueno" authorityYear="1940" class="Malacostraca" family="Gammaridae" genus="Gammarus" kingdom="Animalia" order="Amphipoda" pageId="7" pageNumber="542" phylum="Arthropoda" rank="species" species="koreanus">
+<emphasis id="61E63E65FF88FF961BE9F83AFA4EF85B" box="[1409,1429,1951,1977]" italics="true" pageId="7" pageNumber="542">G</emphasis>
+. 
+<emphasis id="61E63E65FF88FF961EFFF866FF26F83F" box="[151,253,1987,2013]" italics="true" pageId="7" pageNumber="542">koreanus</emphasis>
+</taxonomicName>
+and compared to similar species 
+<taxonomicName id="949299F4FF88FF961C1AF866FC11F83F" authority="Martynov, 1925" authorityName="Martynov" authorityYear="1925" box="[626,970,1986,2013]" class="Malacostraca" family="Gammaridae" genus="Gammarus" kingdom="Animalia" order="Amphipoda" pageId="7" pageNumber="542" phylum="Arthropoda" rank="species" species="suifunensis">
+<emphasis id="61E63E65FF88FF961C1AF866FD5DF83F" box="[626,646,1987,2013]" italics="true" pageId="7" pageNumber="542">G</emphasis>
+. 
+<emphasis id="61E63E65FF88FF961CFCF866FCCBF83F" box="[660,784,1987,2013]" italics="true" pageId="7" pageNumber="542">suifunensis</emphasis>
+Martynov, 1925
+</taxonomicName>
+(
+<bibRefCitation id="37039F86FF88FF961DB1F866FB50F83F" author="Karaman, G. S." box="[985,1163,1987,2013]" pageId="7" pageNumber="542" pagination="37 - 73" refId="ref5395" refString="Karaman, G. S. (1991) The survey of described and cited freshwater Gammarus species (Fam. Gammaridae) from Soviet Union with redescription of two taxa (Contribution to the knowledge of the Amphipoda 205). Poljoprivreda i Sumarstvo, Titograd, 37 (3 - 4), 37 - 73." type="journal article" year="1991">Karaman, 1991</bibRefCitation>
+). As a result of referring to previous studies, the new species is distinguished from suitable straight setae on carpi-propodi in gnathopods 1-2 and posterior margins of pereopods 3-4. As 
+<bibRefCitation id="37039F86FF87FF991CD0FF1EFCBDFF37" author="Pinkster, S." box="[696,870,187,213]" pageId="8" pageNumber="543" pagination="15 - 28" refId="ref5609" refString="Pinkster, S. (1983) The value of morphological characters in the taxonomy of Gammarus. Beaufortia, 33 (2), 15 - 28." type="journal article" year="1983">Pinkster (1983)</bibRefCitation>
+and 
+<bibRefCitation id="37039F86FF87FF991DF7FF1EFBA4FF37" author="Goedmakers, A." box="[927,1151,187,213]" pageId="8" pageNumber="543" pagination="124 - 138" refId="ref4845" refString="Goedmakers, A. (1972) Gammarus fossarum Koch, 1835: Redescriptions based on neotype material and notes on its local variation (Crustacea, Amphipoda). Bijdragen tot de Dierkunde, 42 (2), 124 - 138. https: // doi. org / 10.1163 / 26660644 - 04202002" type="journal article" year="1972">Goedmakers (1972)</bibRefCitation>
+stated, differences in the shape of gnathopod 2 and length ratio of the outer and inner ramus of uropod 3 are “stable characteristics.” Previous molecular study also corresponded with this result, demonstrating that freshwater 
+<taxonomicName id="949299F4FF87FF991A43FEA6FB7CFEFF" authorityName="Fabricius" authorityYear="1775" box="[1067,1191,259,285]" class="Malacostraca" family="Gammaridae" genus="Gammarus" kingdom="Animalia" order="Amphipoda" pageId="8" pageNumber="543" phylum="Arthropoda" rank="genus">
+<emphasis id="61E63E65FF87FF991A43FEA6FB7CFEFF" box="[1067,1191,259,285]" italics="true" pageId="8" pageNumber="543">Gammarus</emphasis>
+</taxonomicName>
+in 
+<collectingCountry id="2B85A2E7FF87FF991AA3FEA6FA8CFEFF" box="[1227,1367,259,285]" name="South Korea" pageId="8" pageNumber="543">South Korea</collectingCountry>
+could be distinguished into 39 different species in total, based on mtDNA CO1 sequence (
+<bibRefCitation id="37039F86FF87FF991A29FE82FB64FEA3" author="Kim, M. S." box="[1089,1215,295,321]" pageId="8" pageNumber="543" refId="ref5454" refString="Kim, M. S. (2008) Molecular taxonomy of the freshwater Gammarus in Korea. MS Thesis, Inha University, Incheon, 39 pp." type="book" year="2008">Kim, 2008</bibRefCitation>
+). In consequence, it is difficult to consider these as a mere intra-specific variation.
+</paragraph>
+<caption id="07EDB2FFFF87FF991EFFFE31FE40FE32" ID-Table-UUID="07EDB2FFFF87FF991EFFFE31FE40FE32" httpUri="http://table.plazi.org/id/07EDB2FFFF87FF991EFFFE31FE40FE32" pageId="8" pageNumber="543" targetBox="[158,1349,497,901]" targetIsTable="true" targetPageId="8">
+<paragraph id="532DE277FF87FF991EFFFE31FA46FE4E" blockId="8.[151,1437,404,465]" box="[151,1437,404,429]" pageId="8" pageNumber="543">
+<emphasis id="61E63E65FF87FF991EFFFE31FED0FE4E" bold="true" box="[151,267,404,428]" pageId="8" pageNumber="543">TABLE 1.</emphasis>
+A matrix of the pair-wise genetic distance of the CO1 sequence of this study. Sequence divergence using the
+</paragraph>
+<paragraph id="532DE277FF87FF991EFFFE1CFE40FE32" blockId="8.[151,1437,404,465]" box="[151,411,440,465]" pageId="8" pageNumber="543">K2P distance parameter.</paragraph>
+</caption>
+<paragraph id="532DE277FF87FF991FB8FE54FAD4FC67" pageId="8" pageNumber="543">
+<table id="219210D7FF87006E1EF6FE54FA9EFC67" box="[158,1349,497,901]" gridcols="13" gridrows="12" pageId="8" pageNumber="543">
+<tr id="EDA2E035FF87006E1EF6FE54FA9EFDC7" box="[158,1349,497,549]" gridrow="0" pageId="8" pageNumber="543" rowspan-0="1">
+<th id="AE738949FF87006E1FC0FE54FD88FDC7" box="[424,595,497,549]" gridcol="1" gridrow="0" pageId="8" pageNumber="543">GenBank accession number</th>
+<th id="AE738949FF87006E1C1FFE54FD73FDC7" box="[631,680,497,549]" gridcol="2" gridrow="0" pageId="8" pageNumber="543">1</th>
+<th id="AE738949FF87006E1CD3FE54FD37FDC7" box="[699,748,497,549]" gridcol="3" gridrow="0" pageId="8" pageNumber="543">2</th>
+<th id="AE738949FF87006E1D68FE54FCEAFDC7" box="[768,817,497,549]" gridcol="4" gridrow="0" pageId="8" pageNumber="543">3</th>
+<th id="AE738949FF87006E1D2CFE54FCAEFDC7" box="[836,885,497,549]" gridcol="5" gridrow="0" pageId="8" pageNumber="543">4</th>
+<th id="AE738949FF87006E1DE0FE54FC62FDC7" box="[904,953,497,549]" gridcol="6" gridrow="0" pageId="8" pageNumber="543">5</th>
+<th id="AE738949FF87006E1DA5FE54FC25FDC7" box="[973,1022,497,549]" gridcol="7" gridrow="0" pageId="8" pageNumber="543">6</th>
+<th id="AE738949FF87006E1A79FE54FB99FDC7" box="[1041,1090,497,549]" gridcol="8" gridrow="0" pageId="8" pageNumber="543">7</th>
+<th id="AE738949FF87006E1A3EFE54FB5CFDC7" box="[1110,1159,497,549]" gridcol="9" gridrow="0" pageId="8" pageNumber="543">8</th>
+<th id="AE738949FF87006E1AF2FE54FB10FDC7" box="[1178,1227,497,549]" gridcol="10" gridrow="0" pageId="8" pageNumber="543">9</th>
+<th id="AE738949FF87006E1AB6FE54FAD4FDC7" box="[1246,1295,497,549]" gridcol="11" gridrow="0" pageId="8" pageNumber="543">10</th>
+<th id="AE738949FF87006E1B46FE54FA9EFDC7" box="[1326,1349,497,549]" gridcol="12" gridrow="0" pageId="8" pageNumber="543">11</th>
+</tr>
+<tr id="EDA2E035FF87006E1EF6FD8BFA9EFDA7" box="[158,1349,558,581]" gridrow="1" pageId="8" pageNumber="543" rowspan-10="1" rowspan-11="1" rowspan-12="1" rowspan-2="1" rowspan-3="1" rowspan-4="1" rowspan-5="1" rowspan-6="1" rowspan-7="1" rowspan-8="1" rowspan-9="1">
+<th id="AE738949FF87006E1EF6FD8BFE59FDA7" box="[158,386,558,581]" gridcol="0" gridrow="1" pageId="8" pageNumber="543">
+<emphasis id="61E63E65FF87FF991EF6FD8BFE59FDA1" bold="true" box="[158,386,558,580]" pageId="8" pageNumber="543">
+1. 
+<taxonomicName id="949299F4FF87FF991EDCFD8BFEAAFDA6" authorityName="Kwon &amp; Kim &amp; Heo &amp; Kim" authorityYear="2020" box="[180,369,558,580]" class="Malacostraca" family="Gammaridae" genus="Gammarus" kingdom="Animalia" order="Amphipoda" pageId="8" pageNumber="543" phylum="Arthropoda" rank="species" species="baengnyeongensis">
+<emphasis id="61E63E65FF87FF991EDCFD8BFEAAFDA6" bold="true" box="[180,369,558,580]" italics="true" pageId="8" pageNumber="543">G. baengnyeongensis</emphasis>
+</taxonomicName>
+1
+</emphasis>
+</th>
+<td id="AE738949FF87006E1FC0FD8BFD88FDA7" box="[424,595,558,581]" gridcol="1" gridrow="1" pageId="8" pageNumber="543">MW291608</td>
+</tr>
+<tr id="EDA2E035FF87006E1EF6FDEBFA9EFD87" box="[158,1349,590,613]" gridrow="2" pageId="8" pageNumber="543" rowspan-10="1" rowspan-11="1" rowspan-12="1" rowspan-3="1" rowspan-4="1" rowspan-5="1" rowspan-6="1" rowspan-7="1" rowspan-8="1" rowspan-9="1">
+<th id="AE738949FF87006E1EF6FDEBFE59FD87" box="[158,386,590,613]" gridcol="0" gridrow="2" pageId="8" pageNumber="543">
+<emphasis id="61E63E65FF87FF991EF6FDEBFE59FD81" bold="true" box="[158,386,590,612]" pageId="8" pageNumber="543">
+2. 
+<taxonomicName id="949299F4FF87FF991EDCFDEAFEAAFD86" authorityName="Kwon &amp; Kim &amp; Heo &amp; Kim" authorityYear="2020" box="[180,369,590,612]" class="Malacostraca" family="Gammaridae" genus="Gammarus" kingdom="Animalia" order="Amphipoda" pageId="8" pageNumber="543" phylum="Arthropoda" rank="species" species="baengnyeongensis">
+<emphasis id="61E63E65FF87FF991EDCFDEAFEAAFD86" bold="true" box="[180,369,590,612]" italics="true" pageId="8" pageNumber="543">G. baengnyeongensis</emphasis>
+</taxonomicName>
+2
+</emphasis>
+</th>
+<td id="AE738949FF87006E1FC0FDEBFD88FD87" box="[424,595,590,613]" gridcol="1" gridrow="2" pageId="8" pageNumber="543">MW291609</td>
+<td id="AE738949FF87006E1C1FFDEBFD73FD87" box="[631,680,590,613]" gridcol="2" gridrow="2" pageId="8" pageNumber="543">0.002</td>
+</tr>
+<tr id="EDA2E035FF87006E1EF6FDCBFA9EFD67" box="[158,1349,622,645]" gridrow="3" pageId="8" pageNumber="543" rowspan-10="1" rowspan-11="1" rowspan-12="1" rowspan-4="1" rowspan-5="1" rowspan-6="1" rowspan-7="1" rowspan-8="1" rowspan-9="1">
+<th id="AE738949FF87006E1EF6FDCBFE59FD67" box="[158,386,622,645]" gridcol="0" gridrow="3" pageId="8" pageNumber="543">
+<emphasis id="61E63E65FF87FF991EF6FDCAFE59FD66" bold="true" box="[158,386,622,644]" pageId="8" pageNumber="543">
+3. 
+<taxonomicName id="949299F4FF87FF991EDCFDCAFEAAFD66" authorityName="Kwon &amp; Kim &amp; Heo &amp; Kim" authorityYear="2020" box="[180,369,622,644]" class="Malacostraca" family="Gammaridae" genus="Gammarus" kingdom="Animalia" order="Amphipoda" pageId="8" pageNumber="543" phylum="Arthropoda" rank="species" species="baengnyeongensis">
+<emphasis id="61E63E65FF87FF991EDCFDCAFEAAFD66" bold="true" box="[180,369,622,644]" italics="true" pageId="8" pageNumber="543">G. baengnyeongensis</emphasis>
+</taxonomicName>
+3
+</emphasis>
+</th>
+<td id="AE738949FF87006E1FC0FDCBFD88FD67" box="[424,595,622,645]" gridcol="1" gridrow="3" pageId="8" pageNumber="543">MW291610</td>
+<td id="AE738949FF87006E1C1FFDCBFD73FD67" box="[631,680,622,645]" gridcol="2" gridrow="3" pageId="8" pageNumber="543">0.003</td>
+<td id="AE738949FF87006E1CD3FDCBFD37FD67" box="[699,748,622,645]" gridcol="3" gridrow="3" pageId="8" pageNumber="543">0.002</td>
+</tr>
+<tr id="EDA2E035FF87006E1EF6FD2BFA9EFD47" box="[158,1349,654,677]" gridrow="4" pageId="8" pageNumber="543" rowspan-10="1" rowspan-11="1" rowspan-12="1" rowspan-5="1" rowspan-6="1" rowspan-7="1" rowspan-8="1" rowspan-9="1">
+<th id="AE738949FF87006E1EF6FD2BFE59FD47" box="[158,386,654,677]" gridcol="0" gridrow="4" pageId="8" pageNumber="543">
+<emphasis id="61E63E65FF87FF991EF6FD2AFE59FD46" bold="true" box="[158,386,654,676]" pageId="8" pageNumber="543">
+4. 
+<taxonomicName id="949299F4FF87FF991EDCFD2AFEAAFD46" authorityName="Kwon &amp; Kim &amp; Heo &amp; Kim" authorityYear="2020" box="[180,369,654,676]" class="Malacostraca" family="Gammaridae" genus="Gammarus" kingdom="Animalia" order="Amphipoda" pageId="8" pageNumber="543" phylum="Arthropoda" rank="species" species="baengnyeongensis">
+<emphasis id="61E63E65FF87FF991EDCFD2AFEAAFD46" bold="true" box="[180,369,654,676]" italics="true" pageId="8" pageNumber="543">G. baengnyeongensis</emphasis>
+</taxonomicName>
+4
+</emphasis>
+</th>
+<td id="AE738949FF87006E1FC0FD2BFD88FD47" box="[424,595,654,677]" gridcol="1" gridrow="4" pageId="8" pageNumber="543">MW291611</td>
+<td id="AE738949FF87006E1C1FFD2BFD73FD47" box="[631,680,654,677]" gridcol="2" gridrow="4" pageId="8" pageNumber="543">0.007</td>
+<td id="AE738949FF87006E1CD3FD2BFD37FD47" box="[699,748,654,677]" gridcol="3" gridrow="4" pageId="8" pageNumber="543">0.005</td>
+<td id="AE738949FF87006E1D68FD2BFCEAFD47" box="[768,817,654,677]" gridcol="4" gridrow="4" pageId="8" pageNumber="543">0.007</td>
+</tr>
+<tr id="EDA2E035FF87006E1EF6FD0AFA9EFD27" box="[158,1349,687,709]" gridrow="5" pageId="8" pageNumber="543" rowspan-10="1" rowspan-11="1" rowspan-12="1" rowspan-6="1" rowspan-7="1" rowspan-8="1" rowspan-9="1">
+<th id="AE738949FF87006E1EF6FD0AFE59FD27" box="[158,386,687,709]" gridcol="0" gridrow="5" pageId="8" pageNumber="543">
+<emphasis id="61E63E65FF87FF991EF6FD0AFE59FD26" bold="true" box="[158,386,687,709]" pageId="8" pageNumber="543">
+5. 
+<taxonomicName id="949299F4FF87FF991EDCFD0AFEAAFD27" authorityName="Kwon &amp; Kim &amp; Heo &amp; Kim" authorityYear="2020" box="[180,369,687,709]" class="Malacostraca" family="Gammaridae" genus="Gammarus" kingdom="Animalia" order="Amphipoda" pageId="8" pageNumber="543" phylum="Arthropoda" rank="species" species="baengnyeongensis">
+<emphasis id="61E63E65FF87FF991EDCFD0AFEAAFD27" bold="true" box="[180,369,687,709]" italics="true" pageId="8" pageNumber="543">G. baengnyeongensis</emphasis>
+</taxonomicName>
+5
+</emphasis>
+</th>
+<td id="AE738949FF87006E1FC0FD0AFD88FD27" box="[424,595,687,709]" gridcol="1" gridrow="5" pageId="8" pageNumber="543">MW291612</td>
+<td id="AE738949FF87006E1C1FFD0AFD73FD27" box="[631,680,687,709]" gridcol="2" gridrow="5" pageId="8" pageNumber="543">0.008</td>
+<td id="AE738949FF87006E1CD3FD0AFD37FD27" box="[699,748,687,709]" gridcol="3" gridrow="5" pageId="8" pageNumber="543">0.007</td>
+<td id="AE738949FF87006E1D68FD0AFCEAFD27" box="[768,817,687,709]" gridcol="4" gridrow="5" pageId="8" pageNumber="543">0.005</td>
+<td id="AE738949FF87006E1D2CFD0AFCAEFD27" box="[836,885,687,709]" gridcol="5" gridrow="5" pageId="8" pageNumber="543">0.005</td>
+</tr>
+<tr id="EDA2E035FF87006E1EF6FD6AFA9EFD07" box="[158,1349,719,741]" gridrow="6" pageId="8" pageNumber="543" rowspan-10="1" rowspan-11="1" rowspan-12="1" rowspan-7="1" rowspan-8="1" rowspan-9="1">
+<th id="AE738949FF87006E1EF6FD6AFE59FD07" box="[158,386,719,741]" gridcol="0" gridrow="6" pageId="8" pageNumber="543">
+<emphasis id="61E63E65FF87FF991EF6FD6AFE59FD06" bold="true" box="[158,386,719,741]" pageId="8" pageNumber="543">
+6. 
+<taxonomicName id="949299F4FF87FF991EDCFD6AFEAAFD07" authorityName="Kwon &amp; Kim &amp; Heo &amp; Kim" authorityYear="2020" box="[180,369,719,741]" class="Malacostraca" family="Gammaridae" genus="Gammarus" kingdom="Animalia" order="Amphipoda" pageId="8" pageNumber="543" phylum="Arthropoda" rank="species" species="baengnyeongensis">
+<emphasis id="61E63E65FF87FF991EDCFD6AFEAAFD07" bold="true" box="[180,369,719,741]" italics="true" pageId="8" pageNumber="543">G. baengnyeongensis</emphasis>
+</taxonomicName>
+6
+</emphasis>
+</th>
+<td id="AE738949FF87006E1FC0FD6AFD88FD07" box="[424,595,719,741]" gridcol="1" gridrow="6" pageId="8" pageNumber="543">MW291613</td>
+<td id="AE738949FF87006E1C1FFD6AFD73FD07" box="[631,680,719,741]" gridcol="2" gridrow="6" pageId="8" pageNumber="543">0.007</td>
+<td id="AE738949FF87006E1CD3FD6AFD37FD07" box="[699,748,719,741]" gridcol="3" gridrow="6" pageId="8" pageNumber="543">0.005</td>
+<td id="AE738949FF87006E1D68FD6AFCEAFD07" box="[768,817,719,741]" gridcol="4" gridrow="6" pageId="8" pageNumber="543">0.003</td>
+<td id="AE738949FF87006E1D2CFD6AFCAEFD07" box="[836,885,719,741]" gridcol="5" gridrow="6" pageId="8" pageNumber="543">0.003</td>
+<td id="AE738949FF87006E1DE0FD6AFC62FD07" box="[904,953,719,741]" gridcol="6" gridrow="6" pageId="8" pageNumber="543">0.002</td>
+</tr>
+<tr id="EDA2E035FF87006E1EF6FD4AFA9EFCE7" box="[158,1349,751,773]" gridrow="7" pageId="8" pageNumber="543" rowspan-10="1" rowspan-11="1" rowspan-12="1" rowspan-8="1" rowspan-9="1">
+<th id="AE738949FF87006E1EF6FD4AFE59FCE7" box="[158,386,751,773]" gridcol="0" gridrow="7" pageId="8" pageNumber="543">
+<emphasis id="61E63E65FF87FF991EF6FD4AFE8DFCE6" bold="true" box="[158,342,751,772]" pageId="8" pageNumber="543">
+7. 
+<taxonomicName id="949299F4FF87FF991EDEFD4AFE8DFCE6" authorityName="Lee and Kim" authorityYear="1980" box="[182,342,751,772]" class="Malacostraca" family="Gammaridae" genus="Gammarus" kingdom="Animalia" order="Amphipoda" pageId="8" pageNumber="543" phylum="Arthropoda" rank="species" species="zeongogensis">
+<emphasis id="61E63E65FF87FF991EDEFD4AFE8DFCE6" bold="true" box="[182,342,751,772]" italics="true" pageId="8" pageNumber="543">G. zeongogensis</emphasis>
+</taxonomicName>
+</emphasis>
+</th>
+<td id="AE738949FF87006E1FC0FD4AFD88FCE7" box="[424,595,751,773]" gridcol="1" gridrow="7" pageId="8" pageNumber="543">MW353844</td>
+<td id="AE738949FF87006E1C1FFD4AFD73FCE7" box="[631,680,751,773]" gridcol="2" gridrow="7" pageId="8" pageNumber="543">0.331</td>
+<td id="AE738949FF87006E1CD3FD4AFD37FCE7" box="[699,748,751,773]" gridcol="3" gridrow="7" pageId="8" pageNumber="543">0.335</td>
+<td id="AE738949FF87006E1D68FD4AFCEAFCE7" box="[768,817,751,773]" gridcol="4" gridrow="7" pageId="8" pageNumber="543">0.338</td>
+<td id="AE738949FF87006E1D2CFD4AFCAEFCE7" box="[836,885,751,773]" gridcol="5" gridrow="7" pageId="8" pageNumber="543">0.342</td>
+<td id="AE738949FF87006E1DE0FD4AFC62FCE7" box="[904,953,751,773]" gridcol="6" gridrow="7" pageId="8" pageNumber="543">0.345</td>
+<td id="AE738949FF87006E1DA5FD4AFC25FCE7" box="[973,1022,751,773]" gridcol="7" gridrow="7" pageId="8" pageNumber="543">0.342</td>
+</tr>
+<tr id="EDA2E035FF87006E1EF6FCAAFA9EFCC7" box="[158,1349,783,805]" gridrow="8" pageId="8" pageNumber="543" rowspan-10="1" rowspan-11="1" rowspan-12="1" rowspan-9="1">
+<th id="AE738949FF87006E1EF6FCAAFE59FCC7" box="[158,386,783,805]" gridcol="0" gridrow="8" pageId="8" pageNumber="543">
+<emphasis id="61E63E65FF87FF991EF6FCAAFEE4FCC6" bold="true" box="[158,319,783,804]" pageId="8" pageNumber="543">
+8. 
+<taxonomicName id="949299F4FF87FF991EDEFCAAFEE4FCC6" authorityName="Kim, Lee and Min" authorityYear="2010" box="[182,319,783,804]" class="Malacostraca" family="Gammaridae" genus="Gammarus" kingdom="Animalia" order="Amphipoda" pageId="8" pageNumber="543" phylum="Arthropoda" rank="species" species="gageoensis">
+<emphasis id="61E63E65FF87FF991EDEFCAAFEE4FCC6" bold="true" box="[182,319,783,804]" italics="true" pageId="8" pageNumber="543">G. gageoensis</emphasis>
+</taxonomicName>
+</emphasis>
+</th>
+<td id="AE738949FF87006E1FC0FCAAFD88FCC7" box="[424,595,783,805]" gridcol="1" gridrow="8" pageId="8" pageNumber="543">GU270652</td>
+<td id="AE738949FF87006E1C1FFCAAFD73FCC7" box="[631,680,783,805]" gridcol="2" gridrow="8" pageId="8" pageNumber="543">0.295</td>
+<td id="AE738949FF87006E1CD3FCAAFD37FCC7" box="[699,748,783,805]" gridcol="3" gridrow="8" pageId="8" pageNumber="543">0.291</td>
+<td id="AE738949FF87006E1D68FCAAFCEAFCC7" box="[768,817,783,805]" gridcol="4" gridrow="8" pageId="8" pageNumber="543">0.295</td>
+<td id="AE738949FF87006E1D2CFCAAFCAEFCC7" box="[836,885,783,805]" gridcol="5" gridrow="8" pageId="8" pageNumber="543">0.295</td>
+<td id="AE738949FF87006E1DE0FCAAFC62FCC7" box="[904,953,783,805]" gridcol="6" gridrow="8" pageId="8" pageNumber="543">0.301</td>
+<td id="AE738949FF87006E1DA5FCAAFC25FCC7" box="[973,1022,783,805]" gridcol="7" gridrow="8" pageId="8" pageNumber="543">0.298</td>
+<td id="AE738949FF87006E1A79FCAAFB99FCC7" box="[1041,1090,783,805]" gridcol="8" gridrow="8" pageId="8" pageNumber="543">0.295</td>
+</tr>
+<tr id="EDA2E035FF87006E1EF6FC8AFA9EFCA7" box="[158,1349,815,837]" gridrow="9" pageId="8" pageNumber="543" rowspan-10="1" rowspan-11="1" rowspan-12="1">
+<th id="AE738949FF87006E1EF6FC8AFE59FCA7" box="[158,386,815,837]" gridcol="0" gridrow="9" pageId="8" pageNumber="543">
+<emphasis id="61E63E65FF87FF991EF6FC8AFEF4FCA7" bold="true" box="[158,303,815,837]" pageId="8" pageNumber="543">
+9. 
+<taxonomicName id="949299F4FF87FF991EDEFC8AFEF4FCA7" authorityName="Ueno" authorityYear="1940" box="[182,303,815,837]" class="Malacostraca" family="Gammaridae" genus="Gammarus" kingdom="Animalia" order="Amphipoda" pageId="8" pageNumber="543" phylum="Arthropoda" rank="species" species="koreanus">
+<emphasis id="61E63E65FF87FF991EDEFC8AFF1CFCA6" bold="true" box="[182,199,815,836]" italics="true" pageId="8" pageNumber="543">G</emphasis>
+. 
+<emphasis id="61E63E65FF87FF991EBBFC8AFEF4FCA7" bold="true" box="[211,303,815,837]" italics="true" pageId="8" pageNumber="543">koreanus</emphasis>
+</taxonomicName>
+</emphasis>
+</th>
+<td id="AE738949FF87006E1FC0FC8AFD88FCA7" box="[424,595,815,837]" gridcol="1" gridrow="9" pageId="8" pageNumber="543">EF570314</td>
+<td id="AE738949FF87006E1C1FFC8AFD73FCA7" box="[631,680,815,837]" gridcol="2" gridrow="9" pageId="8" pageNumber="543">0.400</td>
+<td id="AE738949FF87006E1CD3FC8AFD37FCA7" box="[699,748,815,837]" gridcol="3" gridrow="9" pageId="8" pageNumber="543">0.395</td>
+<td id="AE738949FF87006E1D68FC8AFCEAFCA7" box="[768,817,815,837]" gridcol="4" gridrow="9" pageId="8" pageNumber="543">0.400</td>
+<td id="AE738949FF87006E1D2CFC8AFCAEFCA7" box="[836,885,815,837]" gridcol="5" gridrow="9" pageId="8" pageNumber="543">0.400</td>
+<td id="AE738949FF87006E1DE0FC8AFC62FCA7" box="[904,953,815,837]" gridcol="6" gridrow="9" pageId="8" pageNumber="543">0.408</td>
+<td id="AE738949FF87006E1DA5FC8AFC25FCA7" box="[973,1022,815,837]" gridcol="7" gridrow="9" pageId="8" pageNumber="543">0.404</td>
+<td id="AE738949FF87006E1A79FC8AFB99FCA7" box="[1041,1090,815,837]" gridcol="8" gridrow="9" pageId="8" pageNumber="543">0.311</td>
+<td id="AE738949FF87006E1A3EFC8AFB5CFCA7" box="[1110,1159,815,837]" gridcol="9" gridrow="9" pageId="8" pageNumber="543">0.282</td>
+</tr>
+<tr id="EDA2E035FF87006E1EF6FCEAFA9EFC87" box="[158,1349,847,869]" gridrow="10" pageId="8" pageNumber="543" rowspan-11="1" rowspan-12="1">
+<th id="AE738949FF87006E1EF6FCEAFE59FC87" box="[158,386,847,869]" gridcol="0" gridrow="10" pageId="8" pageNumber="543">
+<emphasis id="61E63E65FF87FF991EF6FCEAFEFDFC87" bold="true" box="[158,294,847,869]" pageId="8" pageNumber="543">
+10. 
+<taxonomicName id="949299F4FF87FF991EAAFCEAFEFDFC87" authorityName="Hou and Li" authorityYear="2018" box="[194,294,847,869]" class="Malacostraca" family="Gammaridae" genus="Gammarus" kingdom="Animalia" order="Amphipoda" pageId="8" pageNumber="543" phylum="Arthropoda" rank="species" species="qinling">
+<emphasis id="61E63E65FF87FF991EAAFCEAFEFDFC87" bold="true" box="[194,294,847,869]" italics="true" pageId="8" pageNumber="543">G. qinling</emphasis>
+</taxonomicName>
+</emphasis>
+</th>
+<td id="AE738949FF87006E1FC0FCEAFD88FC87" box="[424,595,847,869]" gridcol="1" gridrow="10" pageId="8" pageNumber="543">MG550238</td>
+<td id="AE738949FF87006E1C1FFCEAFD73FC87" box="[631,680,847,869]" gridcol="2" gridrow="10" pageId="8" pageNumber="543">0.347</td>
+<td id="AE738949FF87006E1CD3FCEAFD37FC87" box="[699,748,847,869]" gridcol="3" gridrow="10" pageId="8" pageNumber="543">0.351</td>
+<td id="AE738949FF87006E1D68FCEAFCEAFC87" box="[768,817,847,869]" gridcol="4" gridrow="10" pageId="8" pageNumber="543">0.355</td>
+<td id="AE738949FF87006E1D2CFCEAFCAEFC87" box="[836,885,847,869]" gridcol="5" gridrow="10" pageId="8" pageNumber="543">0.355</td>
+<td id="AE738949FF87006E1DE0FCEAFC62FC87" box="[904,953,847,869]" gridcol="6" gridrow="10" pageId="8" pageNumber="543">0.362</td>
+<td id="AE738949FF87006E1DA5FCEAFC25FC87" box="[973,1022,847,869]" gridcol="7" gridrow="10" pageId="8" pageNumber="543">0.358</td>
+<td id="AE738949FF87006E1A79FCEAFB99FC87" box="[1041,1090,847,869]" gridcol="8" gridrow="10" pageId="8" pageNumber="543">0.424</td>
+<td id="AE738949FF87006E1A3EFCEAFB5CFC87" box="[1110,1159,847,869]" gridcol="9" gridrow="10" pageId="8" pageNumber="543">0.339</td>
+<td id="AE738949FF87006E1AF2FCEAFB10FC87" box="[1178,1227,847,869]" gridcol="10" gridrow="10" pageId="8" pageNumber="543">0.379</td>
+</tr>
+<tr id="EDA2E035FF87006E1EF6FCCAFA9EFC67" box="[158,1349,879,901]" gridrow="11" pageId="8" pageNumber="543" rowspan-12="1">
+<th id="AE738949FF87006E1EF6FCCAFE59FC67" box="[158,386,879,901]" gridcol="0" gridrow="11" pageId="8" pageNumber="543">
+<emphasis id="61E63E65FF87FF991EF6FCCAFEE8FC67" bold="true" box="[158,307,879,901]" pageId="8" pageNumber="543">
+11. 
+<taxonomicName id="949299F4FF87FF991EA9FCCAFEE8FC67" authorityName="Hou and Li" authorityYear="2018" box="[193,307,879,901]" class="Malacostraca" family="Gammaridae" genus="Gammarus" kingdom="Animalia" order="Amphipoda" pageId="8" pageNumber="543" phylum="Arthropoda" rank="species" species="zhigangi">
+<emphasis id="61E63E65FF87FF991EA9FCCAFEE8FC67" bold="true" box="[193,307,879,901]" italics="true" pageId="8" pageNumber="543">G. zhigangi</emphasis>
+</taxonomicName>
+</emphasis>
+</th>
+<td id="AE738949FF87006E1FC0FCCAFD88FC67" box="[424,595,879,901]" gridcol="1" gridrow="11" pageId="8" pageNumber="543">MG550239</td>
+<td id="AE738949FF87006E1C1FFCCAFD73FC67" box="[631,680,879,901]" gridcol="2" gridrow="11" pageId="8" pageNumber="543">0.330</td>
+<td id="AE738949FF87006E1CD3FCCAFD37FC67" box="[699,748,879,901]" gridcol="3" gridrow="11" pageId="8" pageNumber="543">0.333</td>
+<td id="AE738949FF87006E1D68FCCAFCEAFC67" box="[768,817,879,901]" gridcol="4" gridrow="11" pageId="8" pageNumber="543">0.330</td>
+<td id="AE738949FF87006E1D2CFCCAFCAEFC67" box="[836,885,879,901]" gridcol="5" gridrow="11" pageId="8" pageNumber="543">0.326</td>
+<td id="AE738949FF87006E1DE0FCCAFC62FC67" box="[904,953,879,901]" gridcol="6" gridrow="11" pageId="8" pageNumber="543">0.326</td>
+<td id="AE738949FF87006E1DA5FCCAFC25FC67" box="[973,1022,879,901]" gridcol="7" gridrow="11" pageId="8" pageNumber="543">0.322</td>
+<td id="AE738949FF87006E1A79FCCAFB99FC67" box="[1041,1090,879,901]" gridcol="8" gridrow="11" pageId="8" pageNumber="543">0.417</td>
+<td id="AE738949FF87006E1A3EFCCAFB5CFC67" box="[1110,1159,879,901]" gridcol="9" gridrow="11" pageId="8" pageNumber="543">0.375</td>
+<td id="AE738949FF87006E1AF2FCCAFB10FC67" box="[1178,1227,879,901]" gridcol="10" gridrow="11" pageId="8" pageNumber="543">0.408</td>
+<td id="AE738949FF87006E1AB6FCCAFAD4FC67" box="[1246,1295,879,901]" gridcol="11" gridrow="11" pageId="8" pageNumber="543">0.316</td>
+</tr>
+</table>
+</paragraph>
+<caption id="07EDB2FFFF87FF991EFFF9A7FC98F9DC" ID-DOI="http://doi.org/10.5281/zenodo.4387915" ID-Zenodo-Dep="4387915" httpUri="https://zenodo.org/record/4387915/files/figure.png" pageId="8" pageNumber="543" startId="8.[151,250,1538,1562]" targetBox="[363,1226,1013,1509]" targetPageId="8">
+<paragraph id="532DE277FF87FF991EFFF9A7FC98F9DC" blockId="8.[151,1436,1538,1599]" pageId="8" pageNumber="543">
+<emphasis id="61E63E65FF87FF991EFFF9A7FEC8F9F9" bold="true" box="[151,275,1538,1563]" pageId="8" pageNumber="543">FIGURE 7.</emphasis>
+Difference of inner ramus length ratio in uropod 3. 
+<taxonomicName id="949299F4FF87FF991D77F9A6FB8BF9F9" authority="Kwon &amp; Kim &amp; Heo &amp; Kim, 2020" authorityName="Kwon &amp; Kim &amp; Heo &amp; Kim" authorityYear="2020" box="[799,1104,1539,1563]" class="Malacostraca" family="Gammaridae" genus="Gammarus" kingdom="Animalia" order="Amphipoda" pageId="8" pageNumber="543" phylum="Arthropoda" rank="species" species="baengnyeongensis" status="sp. nov.">
+<emphasis id="61E63E65FF87FF991D77F9A6FB8BF9F9" box="[799,1104,1539,1563]" italics="true" pageId="8" pageNumber="543">Gammarus baengnyeongensis</emphasis>
+</taxonomicName>
+<emphasis id="61E63E65FF87FF991A3EF9A6FB7DF9F9" bold="true" box="[1110,1190,1539,1563]" pageId="8" pageNumber="543">
+<taxonomicNameLabel id="7AD5831EFF87FF991A3EF9A6FB7DF9F9" box="[1110,1190,1539,1563]" pageId="8" pageNumber="543" rank="species">sp. nov.</taxonomicNameLabel>
+</emphasis>
+had greater inner ramus length ratio to outer ramus compared to 
+<taxonomicName id="949299F4FF87FF991C47F982FD0FF9DC" authorityName="Lee and Kim" authorityYear="1980" box="[559,724,1575,1598]" class="Malacostraca" family="Gammaridae" genus="Gammarus" kingdom="Animalia" order="Amphipoda" pageId="8" pageNumber="543" phylum="Arthropoda" rank="species" species="zeongogensis">
+<emphasis id="61E63E65FF87FF991C47F982FD9AF9DC" box="[559,577,1575,1598]" italics="true" pageId="8" pageNumber="543">G</emphasis>
+. 
+<emphasis id="61E63E65FF87FF991C25F982FD0FF9DC" box="[589,724,1575,1598]" italics="true" pageId="8" pageNumber="543">zeongogensis</emphasis>
+</taxonomicName>
+(
+<emphasis id="61E63E65FF87FF991C8BF982FD29F9DC" box="[739,754,1575,1598]" italics="true" pageId="8" pageNumber="543">P</emphasis>
+&lt;0.05).
+</paragraph>
+</caption>
+<paragraph id="532DE277FF87FF991EAFF934FE6FF861" blockId="8.[151,1436,1681,1960]" pageId="8" pageNumber="543">
+<taxonomicName id="949299F4FF87FF991EAFF934FE6DF949" authorityName="Kwon &amp; Kim &amp; Heo &amp; Kim" authorityYear="2020" box="[199,438,1681,1707]" class="Malacostraca" family="Gammaridae" genus="Gammarus" kingdom="Animalia" order="Amphipoda" pageId="8" pageNumber="543" phylum="Arthropoda" rank="species" species="baengnyeongensis">
+<emphasis id="61E63E65FF87FF991EAFF934FF00F949" box="[199,219,1681,1707]" italics="true" pageId="8" pageNumber="543">G</emphasis>
+. 
+<emphasis id="61E63E65FF87FF991E81F934FE6DF949" box="[233,438,1681,1707]" italics="true" pageId="8" pageNumber="543">baengnyeongensis</emphasis>
+</taxonomicName>
+is also similar to 
+<taxonomicName id="949299F4FF87FF991C15F934FC48F94E" authority="Koch, 1835" authorityName="Koch" authorityYear="1835" box="[637,915,1681,1708]" class="Malacostraca" family="Gammaridae" genus="Gammarus" kingdom="Animalia" order="Amphipoda" pageId="8" pageNumber="543" phylum="Arthropoda" rank="species" species="fossarum">
+<emphasis id="61E63E65FF87FF991C15F934FD4AF949" box="[637,657,1681,1707]" italics="true" pageId="8" pageNumber="543">G</emphasis>
+. 
+<emphasis id="61E63E65FF87FF991CF7F934FCDDF949" box="[671,774,1681,1707]" italics="true" pageId="8" pageNumber="543">fossarum</emphasis>
+Koch, 1835
+</taxonomicName>
+, 
+<taxonomicName id="949299F4FF87FF991DF6F934FB04F949" authority="Hou and Li, 2018" authorityName="Hou and Li" authorityYear="2018" box="[926,1247,1681,1707]" class="Malacostraca" family="Gammaridae" genus="Gammarus" kingdom="Animalia" order="Amphipoda" pageId="8" pageNumber="543" phylum="Arthropoda" rank="species" species="qinling">
+<emphasis id="61E63E65FF87FF991DF6F934FC69F949" box="[926,946,1681,1707]" italics="true" pageId="8" pageNumber="543">G</emphasis>
+. 
+<emphasis id="61E63E65FF87FF991DA8F934FBD4F949" box="[960,1039,1681,1707]" italics="true" pageId="8" pageNumber="543">qinling</emphasis>
+<bibRefCitation id="37039F86FF87FF991A7EF934FB04F949" author="Hou, Z. &amp; Zhao, S. &amp; Li, S." box="[1046,1247,1681,1707]" pageId="8" pageNumber="543" pagination="1 - 79" refId="ref5212" refString="Hou, Z., Zhao, S. &amp; Li, S. (2018) Seven new freshwater species of Gammarus from southern China (Crustacea, Amphipoda, Gammaridae). ZooKeys, 749, 1 - 79. https: // doi. org / 10.3897 / zookeys. 749.23165" type="journal article" year="2018">Hou and Li, 2018</bibRefCitation>
+</taxonomicName>
+, and 
+<taxonomicName id="949299F4FF87FF991B72F934FEBAF92D" authority="Hou and Li, 2018" authorityName="Hou and Li" authorityYear="2018" class="Malacostraca" family="Gammaridae" genus="Gammarus" kingdom="Animalia" order="Amphipoda" pageId="8" pageNumber="543" phylum="Arthropoda" rank="species" species="zhigangi">
+<emphasis id="61E63E65FF87FF991B72F934FAF5F949" box="[1306,1326,1681,1707]" italics="true" pageId="8" pageNumber="543">G</emphasis>
+. 
+<emphasis id="61E63E65FF87FF991B54F934FA47F949" box="[1340,1436,1681,1707]" italics="true" pageId="8" pageNumber="543">zhigangi</emphasis>
+<bibRefCitation id="37039F86FF87FF991EFFF910FEBAF92D" author="Hou, Z. &amp; Zhao, S. &amp; Li, S." box="[151,353,1717,1743]" pageId="8" pageNumber="543" pagination="1 - 79" refId="ref5212" refString="Hou, Z., Zhao, S. &amp; Li, S. (2018) Seven new freshwater species of Gammarus from southern China (Crustacea, Amphipoda, Gammaridae). ZooKeys, 749, 1 - 79. https: // doi. org / 10.3897 / zookeys. 749.23165" type="journal article" year="2018">Hou and Li, 2018</bibRefCitation>
+</taxonomicName>
+. In males, antenna 2 bear calceoli, and gnathopods 1 and 2 bear medial palmar spines. However, in 
+<taxonomicName id="949299F4FF87FF991EDCF97CFE78F911" authorityName="Kwon &amp; Kim &amp; Heo &amp; Kim" authorityYear="2020" box="[180,419,1753,1779]" class="Malacostraca" family="Gammaridae" genus="Gammarus" kingdom="Animalia" order="Amphipoda" pageId="8" pageNumber="543" phylum="Arthropoda" rank="species" species="baengnyeongensis">
+<emphasis id="61E63E65FF87FF991EDCF97CFF13F911" box="[180,200,1753,1779]" italics="true" pageId="8" pageNumber="543">G</emphasis>
+. 
+<emphasis id="61E63E65FF87FF991EBEF97CFE78F911" box="[214,419,1753,1779]" italics="true" pageId="8" pageNumber="543">baengnyeongensis</emphasis>
+</taxonomicName>
+, the basis of pereopod 7 is broader than those of 
+<taxonomicName id="949299F4FF87FF991DA4F97CFB8EF911" authorityName="Koch" authorityYear="1835" box="[972,1109,1753,1779]" class="Malacostraca" family="Gammaridae" genus="Gammarus" kingdom="Animalia" order="Amphipoda" pageId="8" pageNumber="543" phylum="Arthropoda" rank="species" species="fossarum">
+<emphasis id="61E63E65FF87FF991DA4F97CFC3BF911" box="[972,992,1753,1779]" italics="true" pageId="8" pageNumber="543">G</emphasis>
+. 
+<emphasis id="61E63E65FF87FF991D86F97CFB8EF911" box="[1006,1109,1753,1779]" italics="true" pageId="8" pageNumber="543">fossarum</emphasis>
+</taxonomicName>
+, 
+<taxonomicName id="949299F4FF87FF991A0BF97CFB0FF911" authorityName="Hou and Li" authorityYear="2018" box="[1123,1236,1753,1779]" class="Malacostraca" family="Gammaridae" genus="Gammarus" kingdom="Animalia" order="Amphipoda" pageId="8" pageNumber="543" phylum="Arthropoda" rank="species" species="qinling">
+<emphasis id="61E63E65FF87FF991A0BF97CFBACF911" box="[1123,1143,1753,1779]" italics="true" pageId="8" pageNumber="543">G</emphasis>
+. 
+<emphasis id="61E63E65FF87FF991AEDF97CFB0FF911" box="[1157,1236,1753,1779]" italics="true" pageId="8" pageNumber="543">qinling</emphasis>
+</taxonomicName>
+, and 
+<taxonomicName id="949299F4FF87FF991B7AF97CFA4EF911" authorityName="Hou and Li" authorityYear="2018" box="[1298,1429,1753,1779]" class="Malacostraca" family="Gammaridae" genus="Gammarus" kingdom="Animalia" order="Amphipoda" pageId="8" pageNumber="543" phylum="Arthropoda" rank="species" species="zhigangi">
+<emphasis id="61E63E65FF87FF991B7AF97CFAFDF911" box="[1298,1318,1753,1779]" italics="true" pageId="8" pageNumber="543">G</emphasis>
+. 
+<emphasis id="61E63E65FF87FF991B5DF97CFA4EF911" box="[1333,1429,1753,1779]" italics="true" pageId="8" pageNumber="543">zhigangi</emphasis>
+</taxonomicName>
+. Also, in 
+<taxonomicName id="949299F4FF87FF991E94F958FE36F8F5" authorityName="Kwon &amp; Kim &amp; Heo &amp; Kim" authorityYear="2020" box="[252,493,1789,1815]" class="Malacostraca" family="Gammaridae" genus="Gammarus" kingdom="Animalia" order="Amphipoda" pageId="8" pageNumber="543" phylum="Arthropoda" rank="species" species="baengnyeongensis">
+<emphasis id="61E63E65FF87FF991E94F958FECBF8F5" box="[252,272,1789,1815]" italics="true" pageId="8" pageNumber="543">G</emphasis>
+. 
+<emphasis id="61E63E65FF87FF991F48F958FE36F8F5" box="[288,493,1789,1815]" italics="true" pageId="8" pageNumber="543">baengnyeongensis</emphasis>
+</taxonomicName>
+, the outer ramus of uropod 3 has plumose setae (simple setae in 
+<taxonomicName id="949299F4FF87FF991A8AF958FAB5F8F5" authorityName="Koch" authorityYear="1835" box="[1250,1390,1789,1815]" class="Malacostraca" family="Gammaridae" genus="Gammarus" kingdom="Animalia" order="Amphipoda" pageId="8" pageNumber="543" phylum="Arthropoda" rank="species" species="fossarum">
+<emphasis id="61E63E65FF87FF991A8AF958FB2DF8F5" box="[1250,1270,1789,1815]" italics="true" pageId="8" pageNumber="543">G</emphasis>
+. 
+<emphasis id="61E63E65FF87FF991B6FF958FAB5F8F5" box="[1287,1390,1789,1815]" italics="true" pageId="8" pageNumber="543">fossarum</emphasis>
+</taxonomicName>
+) on the outer margin, and ratio of the outer ramus to inner ramus in 
+<taxonomicName id="949299F4FF87FF991D0DF884FB8FF8D9" authorityName="Kwon &amp; Kim &amp; Heo &amp; Kim" authorityYear="2020" box="[869,1108,1825,1851]" class="Malacostraca" family="Gammaridae" genus="Gammarus" kingdom="Animalia" order="Amphipoda" pageId="8" pageNumber="543" phylum="Arthropoda" rank="species" species="baengnyeongensis">
+<emphasis id="61E63E65FF87FF991D0DF884FCA2F8D9" box="[869,889,1825,1851]" italics="true" pageId="8" pageNumber="543">G</emphasis>
+. 
+<emphasis id="61E63E65FF87FF991DEFF884FB8FF8D9" box="[903,1108,1825,1851]" italics="true" pageId="8" pageNumber="543">baengnyeongensis</emphasis>
+</taxonomicName>
+is comparatively longer than those of congeners. The differences stated above were stable and constant. We present morphologically different characteristics in 
+<tableCitation id="1E10D7CCFF87FF991F33F8CCFE6BF861" box="[347,432,1897,1923]" captionStart="TABLE 2" captionStartId="9.[151,239,637,663]" captionTargetPageId="9" captionText="TABLE 2. Comparison of morphological characteristics among G. baengnyeongensis n. sp. and related species." httpUri="http://table.plazi.org/id/07EDB2FFFF86FF981EFFFDD8FA98FD75" pageId="8" pageNumber="543" tableUuid="07EDB2FFFF86FF981EFFFDD8FA98FD75">Table 2</tableCitation>
+.
+</paragraph>
+</subSubSection>
+<subSubSection id="1B88B1FCFF87FF991EAFF829FC19F84A" box="[199,962,1932,1960]" pageId="8" pageNumber="543" type="distribution">
+<paragraph id="532DE277FF87FF991EAFF829FC19F84A" blockId="8.[151,1436,1681,1960]" box="[199,962,1932,1960]" pageId="8" pageNumber="543">
+<emphasis id="61E63E65FF87FF991EAFF829FEBAF844" bold="true" box="[199,353,1932,1958]" pageId="8" pageNumber="543">Distribution.</emphasis>
+<collectingCountry id="2B85A2E7FF87FF991F0FF828FE70F845" box="[359,427,1933,1959]" name="South Korea" pageId="8" pageNumber="543">Korea</collectingCountry>
+(Baengnyeongdo Island, Daecheongdo Island).
+</paragraph>
+</subSubSection>
+</treatment>
+</document>
