@@ -1,0 +1,473 @@
+<document id="52EABE9D3A438EBF3E727181CBF74782" ID-DOI="http://doi.org/10.5281/zenodo.4331362" ID-GBIF-Dataset="c6ceea2b-a36e-4bda-bc7b-32e66b22a899" ID-GBIF-Taxon="165940883" ID-Zenodo-Dep="4331362" ID-ZooBank="B88F38A8-C3C7-47BA-8F1B-46D9F127F10B" checkinTime="1595596762572" checkinUser="valdenar" docAuthor="Haran, Julien M., Beaudoin-Ollivier, Laurence, Benoit, Laure &amp; Kuschel, Guillermo" docDate="2020" docId="03ABCE59FFE0FF9EBEA7CD756BA8FABD" docLanguage="en" docName="ejt-684_haran_beaudin-olivier_benoit.pdf.imd" docOrigin="European Journal of Taxonomy 684" docStyle="DocumentStylede.uka.ipd.idaho.easyIO.settings.Settings@38150476" docStyleName="ejt.2018.journal_article" docTitle="Elaeidobius singularis Haran &amp; Beaudoin-Ollivier &amp; Benoit &amp; Kuschel 2020, comb. nov." docType="treatment" docVersion="8" lastPageId="23" lastPageNumber="24" masterDocId="FF92B621FFF6FF89BF5BCC7F6848FFCA" masterDocTitle="Revision of the palm-pollinating weevil genus Elaeidobius Kuschel, 1952 (Curculionidae, Curculioninae, Derelomini) with descriptions of two new species" masterLastPageNumber="32" masterPageNumber="1" pageId="22" pageNumber="23" updateTime="1632023621735" updateUser="ExternalLinkService" zenodo-license-document="CC-BY-4.0" zenodo-license-figures="CC-BY-4.0" zenodo-license-treatments="UNSPECIFIED">
+<mods:mods id="170F0EB2592B4942F009F82CAAA4E6C8" xmlns:mods="http://www.loc.gov/mods/v3">
+<mods:titleInfo id="30090FBD0B6FA5803B70886A5CB9070D">
+<mods:title id="A707502A4AA190DCF13A328C7CB06E38">Revision of the palm-pollinating weevil genus Elaeidobius Kuschel, 1952 (Curculionidae, Curculioninae, Derelomini) with descriptions of two new species</mods:title>
+</mods:titleInfo>
+<mods:name id="936280909978278BF49DB9A8A6092113" type="personal">
+<mods:role id="BE0747C8F35CE5F02A31A6971C7346FE">
+<mods:roleTerm id="70AE418CEA1474A8AA645A317B20C33F">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="C5261789C02FCEC7037C8501393A1ACD">Haran, Julien M.</mods:namePart>
+<mods:nameIdentifier id="35D9A4BE331C60BD8004AD0E609C2546" type="LSID">A04E1722-994A-44AD-8FD2-28DC0F220805</mods:nameIdentifier>
+<mods:affiliation id="F49AA962C58F71572D26C64B434F9A37">Univ Montpellier, CIRAD, INRA, IRD, Montpellier SupAgro, Montpellier, France.</mods:affiliation>
+<mods:nameIdentifier id="3CA36F25D673DABF5109B8F6E4D316AF" type="email">julien.haran@cirad.fr</mods:nameIdentifier>
+</mods:name>
+<mods:name id="252AF5A59B6FA456EC0BD8B5F6AB00B1" type="personal">
+<mods:role id="697FEA77471AC5A356CE82883D2E07B9">
+<mods:roleTerm id="7FBBEDA21B8ECC2EBD04F8020D3B5B31">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="C5E14EEC0A3CCA17A5C52DC71887B27C">Beaudoin-Ollivier, Laurence</mods:namePart>
+<mods:nameIdentifier id="11FF6D26AA7C4F7C0B15BA5FB816D078" type="LSID">6F568BAB-7515-4046-9095-C503954B6533</mods:nameIdentifier>
+<mods:affiliation id="2C0FDD36E26AD0192C79E491317C0D7B">Systèmes de Pérennes, CIRAD, Univ Montpellier, Montpellier, France.</mods:affiliation>
+<mods:nameIdentifier id="D5DED38176552CBC03436B03D0B0BA3F" type="email">laurence.ollivier@cirad.fr</mods:nameIdentifier>
+</mods:name>
+<mods:name id="D5FD2B3FEE908C29E179872B620A93E1" type="personal">
+<mods:role id="310EFB53D8290F0DEB35DFD2682897D2">
+<mods:roleTerm id="C0359186465852DB31D37F386CE4BB84">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="53B06524C061DDC78B19BCBB4D5ECC75">Benoit, Laure</mods:namePart>
+<mods:nameIdentifier id="DAB1F03561C82042DDC9B7AE3A93A53F" type="LSID">61963F74-724B-4174-9E9A-8817A3516B0E</mods:nameIdentifier>
+<mods:affiliation id="FE329EF7DB0EA27DB2E936553ECA734F">Univ Montpellier, CIRAD, INRA, IRD, Montpellier SupAgro, Montpellier, France.</mods:affiliation>
+<mods:nameIdentifier id="F12BA6DA55CD823CF5F1D4FF049CDE8A" type="email">laure.benoit@cirad.fr</mods:nameIdentifier>
+</mods:name>
+<mods:name id="842D0FB2D5F7545156B7DCE777FD074A" type="personal">
+<mods:role id="14CB55CBAEC2D4CEE463252E5CC46442">
+<mods:roleTerm id="0D35C652F4D1D2E3463CDAB1D3125358">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="E9AAC0FA785FFCED84A3F6C46CBF76E6">Kuschel, Guillermo</mods:namePart>
+<mods:nameIdentifier id="29929577DD721DA3805A8B531CD06BB3" type="LSID">239E6CA4-EC6A-4A75-829B-D2EEBA5436D8</mods:nameIdentifier>
+<mods:affiliation id="C3E7B625B82B964C70B3338B1FCCBB8B">Deceased 1 Aug. 2017.</mods:affiliation>
+</mods:name>
+<mods:typeOfResource id="E0B55BDB46B2A2B4B2E75114A1A51C89">text</mods:typeOfResource>
+<mods:relatedItem id="1064EF186D14406AAA4BDC5AD5581F58" type="host">
+<mods:titleInfo id="5058D050F6482301D4628A659FB75C32">
+<mods:title id="367F26FBD60674534D8C1497E8195BC3">European Journal of Taxonomy</mods:title>
+</mods:titleInfo>
+<mods:part id="7F909A3138138BC771CBDFD91D5DB77D">
+<mods:date id="772DA7DC936F1E104EA21D2C12E76C26">2020</mods:date>
+<mods:detail id="114108E8B899C4A8113A09B9F45F591F" type="pubDate">
+<mods:number id="1D9C6A63E779DE06A2282043525B283E">2020-07-10</mods:number>
+</mods:detail>
+<mods:detail id="662074607000520367B4B9E9B4A41FBF" type="volume">
+<mods:number id="0C01166924FBA4061DC2F28834227511">684</mods:number>
+</mods:detail>
+<mods:extent id="92AB1E2D07B34A19162BF6EAA1A83284" unit="page">
+<mods:start id="B9D6B877159718220335EC3A1CD69610">1</mods:start>
+<mods:end id="A3651E90E2BFF6AEC2E31AC09A7BE411">32</mods:end>
+</mods:extent>
+</mods:part>
+</mods:relatedItem>
+<mods:classification id="D3089A4BE293F887B746778DF9778232">journal article</mods:classification>
+<mods:identifier id="61A82E2FB9622EFD41E3DA178554EE92" type="DOI">https://doi.org/10.5852/ejt.2020.684</mods:identifier>
+<mods:identifier id="02464556CB6663B33DD713C013AFCFC3" type="GBIF-Dataset">c6ceea2b-a36e-4bda-bc7b-32e66b22a899</mods:identifier>
+<mods:identifier id="F5067F2A6F9437E9942EE42B220BB7F0" type="Zenodo-Dep">3959113</mods:identifier>
+<mods:identifier id="7B1F672EB5AFB3172A04A9B0D10E0855" type="ZooBank">B88F38A8-C3C7-47BA-8F1B-46D9F127F10B</mods:identifier>
+</mods:mods>
+<treatment id="03ABCE59FFE0FF9EBEA7CD756BA8FABD" ID-DOI="http://doi.org/10.5281/zenodo.4331362" ID-GBIF-Taxon="165940883" ID-Zenodo-Dep="4331362" LSID="urn:lsid:plazi:treatment:03ABCE59FFE0FF9EBEA7CD756BA8FABD" httpUri="http://treatment.plazi.org/id/03ABCE59FFE0FF9EBEA7CD756BA8FABD" lastPageId="23" lastPageNumber="24" pageId="22" pageNumber="23">
+<subSubSection id="C3182CC4FFE0FF9FBEA7CD756C70FEEF" box="[508,1080,266,293]" pageId="22" pageNumber="23" type="nomenclature">
+<paragraph id="8BBD7F4FFFE0FF9FBEA7CD756C70FEEF" blockId="22.[508,1080,266,329]" box="[508,1080,266,293]" pageId="22" pageNumber="23">
+<heading id="D0F5C823FFE0FF9FBEA7CD756C70FEEF" box="[508,1080,266,293]" centered="true" fontSize="11" level="2" pageId="22" pageNumber="23" reason="2">
+<taxonomicName id="4C0204CCFFE0FF9FBEA7CD756BE7FEEF" authority="(Faust, 1898)" authorityName="Haran &amp; Beaudoin-Ollivier &amp; Benoit &amp; Kuschel" authorityYear="2020" baseAuthorityName="Faust" baseAuthorityYear="1898" box="[508,943,266,293]" class="Insecta" family="Curculionidae" genus="Elaeidobius" higherTaxonomySource="GBIF" kingdom="Animalia" order="Coleoptera" pageId="22" pageNumber="23" phylum="Arthropoda" rank="species" species="singularis" status="comb. nov.">
+<emphasis id="B976A35DFFE0FF9FBEA7CD756B44FEEF" bold="true" box="[508,780,266,293]" italics="true" pageId="22" pageNumber="23">Elaeidobius singularis</emphasis>
+(
+<bibRefCitation id="EF9302BEFFE0FF9FBC40CD746BEFFEEF" author="Faust" box="[795,935,267,293]" firstAuthor="Faust" pageId="22" pageNumber="23" pagination="224 - 226" refId="ref15508" refString="Faust J. 1898. Drei neue Derelomus - Arten von West-Afrika. Stettiner Entomologische Zeitung 59: 224 - 226." type="journal article" year="1898">Faust, 1898</bibRefCitation>
+)
+</taxonomicName>
+<taxonomicNameLabel id="A2451E26FFE0FF9FBCEDCD746C70FEEF" box="[950,1080,267,293]" pageId="22" pageNumber="23" rank="species">comb. nov.</taxonomicNameLabel>
+</heading>
+</paragraph>
+</subSubSection>
+<subSubSection id="C3182CC4FFE0FF9FBDC0CD516BDFFE83" box="[667,919,302,329]" pageId="22" pageNumber="23" type="description">
+<paragraph id="8BBD7F4FFFE0FF9FBDC0CD516BDFFE83" blockId="22.[508,1080,266,329]" box="[667,919,302,329]" pageId="22" pageNumber="23">
+<figureCitation id="133963CAFFE0FF9FBDC0CD516B4BFE82" box="[667,771,302,328]" captionStart="Fig" captionStartId="8.[189,231,1805,1831]" captionTargetBox="[270,1357,796,1756]" captionTargetId="figure@8.[241,1390,776,1768]" captionTargetPageId="8" captionText="Fig. 1. Habitus of males and females of species of Elaeidobius Kuschel, 1952. A. E. bilineatus (Hustache, 1924) comb. nov., Dakar, Senegal. B. E. spatulifer (Marshall, 1950) comb. nov., holotype, Thysville, Democratic Republic of Congo (MRAC). C. E. subvittatus (Faust, 1898), Dakar, Senegal. D. E. kamerunicus (Faust, 1898) comb. nov. (JHAR00209). E. E. pilimargo Haran &amp; Kuschel sp. nov. (JHAR00409). F. E. piliventris Haran &amp; Kuschel sp. nov. (JHAR02182). G. E. plagiatus (Fåhraeus, 1844) comb. nov. (JHAR00272). H. E. singularis (Faust, 1898) comb. nov. (JHAR00283). Scale bars = 1 mm." figureDoi="http://doi.org/10.5281/zenodo.3959115" httpUri="https://zenodo.org/record/3959115/files/figure.png" pageId="22" pageNumber="23">Figs. 1H</figureCitation>
+, 
+<figureCitation id="133963CAFFE0FF9FBC54CD516B7DFE82" box="[783,821,302,328]" captionStart="Fig" captionStartId="14.[189,232,1890,1916]" captionTargetBox="[225,1361,296,1822]" captionTargetId="figure@14.[189,1399,262,1839]" captionTargetPageId="14" captionText="Fig. 3. Head and prothorax in lateral view of species of Elaeidobius Kuschel, 1952 (Part 2). A. E. pilimargo Haran &amp; Kuschel sp. nov. (JHAR00409). B. E. piliventris Haran &amp; Kuschel sp. nov. (JHAR02182). C. E. plagiatus (Fåhraeus, 1844) comb. nov. (JHAR00272). D. E. singularis (Faust, 1898) comb. nov. (JHAR00283). Not to scale." figureDoi="http://doi.org/10.5281/zenodo.3959119" httpUri="https://zenodo.org/record/3959119/files/figure.png" pageId="22" pageNumber="23">3D</figureCitation>
+, 
+<figureCitation id="133963CAFFE0FF9FBC19CD516B20FE82" box="[834,872,302,328]" captionStart="Fig" captionStartId="18.[189,232,1781,1807]" captionTargetBox="[203,1381,343,1664]" captionTargetId="figure@18.[189,1398,326,1679]" captionTargetPageId="18" captionText="Fig. 4. Penis of males of species of the genus Elaeidobius Kuschel, 1952 in dorsal (left) and lateral (right) view. A. E. bilineatus (Hustache, 1924) comb. nov., Dakar, Senegal. B. E. spatulifer (Marshall, 1950) comb. nov., holotype, Thysville, Democratic Republic of Congo (MRAC). C. E. subvittatus (Faust, 1898), Dakar, Senegal. D. E. kamerunicus (Faust, 1898) comb. nov. (JHAR00209). E. E. pilimargo Haran &amp; Kuschel sp. nov. (JHAR00409). F. E. piliventris Haran &amp; Kuschel sp. nov. (JHAR02182). G. E. plagiatus (Fåhraeus, 1844) comb. nov. (JHAR00272). H. E. singularis (Faust, 1898) comb. nov. (JHAR00283). Scale bars = 100 µm." figureDoi="http://doi.org/10.5281/zenodo.3959121" httpUri="https://zenodo.org/record/3959121/files/figure.png" pageId="22" pageNumber="23">4H</figureCitation>
+, 
+<figureCitation id="133963CAFFE0FF9FBC2FCD516BDFFE83" box="[884,919,302,329]" captionStart="Fig" captionStartId="21.[189,232,1570,1596]" captionTargetBox="[373,1227,340,1493]" captionTargetId="figure@21.[356,1227,317,1525]" captionTargetPageId="21" captionText="Fig. 5. Details of morphology of Elaeidobius spp. A. Pronotum of E. subvittatus (Faust, 1898) in dorsal view showing the flat pronotum and the lateral cuticular expansion near head. B. Pronotum of E. subvittatus (Faust, 1898) in ventral view, showing the trilobate cuticular expansion between the coxae. C. Pronotum of E. plagiatus (Fåhraeus, 1844) comb. nov. in dorsal view showing the fovea on either side of midline. D. Apex of rostrum of E. bilineatus (Hustache, 1924) comb. nov. in lateral view. E. Apex of rostrum of E. subvittatus (Faust, 1898) in lateral view showing the protruding tubercle on underside. F. Elytra of E. bilineatus (Hustache, 1924) comb. nov. in dorsal view. G. Elytra of E. subvittatus (Faust, 1898) in dorsal view. H. Elytra of E. singularis (Faust, 1898) comb. nov. in lateral view. I. Elytra of E. kamerunicus (Faust, 1898) comb. nov. in lateral view. J–K. Abdominal sternites of male of E. piliventris Haran &amp; Kuschel sp. nov. showing the median impression of the first two segments, flanked by a fringe of semi-erect hairs. L. Scutellum of E. plagiatus (Fåhraeus, 1844) comb. nov. in lateral view showing erect setae on tumescent base of interstria 4. M. Pronotum of dark specimens of E. subvittatus (Faust, 1898) in dorsal view. Not to scale." figureDoi="http://doi.org/10.5281/zenodo.3959123" httpUri="https://zenodo.org/record/3959123/files/figure.png" pageId="22" pageNumber="23">5H</figureCitation>
+</paragraph>
+</subSubSection>
+<subSubSection id="C3182CC4FFE0FF9FBFE6CD106B40FE67" pageId="22" pageNumber="23" type="reference_group">
+<paragraph id="8BBD7F4FFFE0FF9FBFE6CD106AC5FE40" blockId="22.[189,776,367,429]" box="[189,653,367,394]" pageId="22" pageNumber="23">
+<treatmentCitationGroup id="AB125861FFE0FF9FBFE6CD106AC5FE40" box="[189,653,367,394]" pageId="22" pageNumber="23">
+<treatmentCitation id="0AA3595EFFE0FF9FBFE6CD106AC1FE40" author="Faust J." box="[189,649,367,394]" page="224" pageId="22" pageNumber="23" year="1898">
+<taxonomicName id="4C0204CCFFE0FF9FBFE6CD106AC1FE40" authority="Faust, 1898: 224" authorityName="Faust" authorityPageNumber="224" authorityYear="1898" box="[189,649,367,394]" class="Insecta" family="Curculionidae" genus="Derelomus" kingdom="Animalia" order="Coleoptera" pageId="22" pageNumber="23" phylum="Arthropoda" rank="species" species="singularis">
+<emphasis id="B976A35DFFE0FF9FBFE6CD1069F1FE43" box="[189,441,367,393]" italics="true" pageId="22" pageNumber="23">Derelomus singularis</emphasis>
+<bibRefCitation id="EF9302BEFFE0FF9FBE9ACD0F6AC1FE40" author="Faust" box="[449,649,368,394]" firstAuthor="Faust" pageId="22" pageNumber="23" pagination="224 - 226" refId="ref15508" refString="Faust J. 1898. Drei neue Derelomus - Arten von West-Afrika. Stettiner Entomologische Zeitung 59: 224 - 226." type="journal article" year="1898">Faust, 1898: 224</bibRefCitation>
+</taxonomicName>
+</treatmentCitation>
+.
+</treatmentCitationGroup>
+</paragraph>
+<paragraph id="8BBD7F4FFFE0FF9FBFE6CDEC6B40FE67" blockId="22.[189,776,367,429]" box="[189,776,403,429]" pageId="22" pageNumber="23">
+<treatmentCitationGroup id="AB125861FFE0FF9FBFE6CDEC6B40FE67" box="[189,776,403,429]" pageId="22" pageNumber="23">
+<treatmentCitation id="0AA3595EFFE0FF9FBFE6CDEC6AD9FE67" author="Hustache A." box="[189,657,403,429]" page="68" pageId="22" pageNumber="23" year="1932">
+<taxonomicName id="4C0204CCFFE0FF9FBFE6CDEC6AD9FE67" authority="Hustache, 1932: 68" authorityName="Hustache" authorityPageNumber="68" authorityYear="1932" box="[189,657,403,429]" class="Insecta" family="Curculionidae" genus="Derelomus" kingdom="Animalia" order="Coleoptera" pageId="22" pageNumber="23" phylum="Arthropoda" rank="species" species="uelensis">
+<emphasis id="B976A35DFFE0FF9FBFE6CDEC69EBFE67" box="[189,419,403,429]" italics="true" pageId="22" pageNumber="23">Derelomus uelensis</emphasis>
+<bibRefCitation id="EF9302BEFFE0FF9FBEF1CDEC6AD9FE67" author="Hustache" box="[426,657,403,429]" firstAuthor="Hustache" pageId="22" pageNumber="23" pagination="28 - 109" refId="ref16140" refString="Hustache A. 1932. Curculionides nouveaux de l'Afrique equatoriale (II partie). Acta Entomologica Musei Nationalis Pragae 10: 28 - 109." type="journal article" year="1932">Hustache, 1932: 68</bibRefCitation>
+</taxonomicName>
+</treatmentCitation>
+. 
+<emphasis id="B976A35DFFE0FF9FBDC7CDEC6B40FE67" bold="true" box="[668,776,403,429]" pageId="22" pageNumber="23">syn. nov.</emphasis>
+</treatmentCitationGroup>
+</paragraph>
+</subSubSection>
+<subSubSection id="C3182CC4FFE0FF9FBFE6CDAB6CB4FB03" pageId="22" pageNumber="23" type="materials_examined">
+<paragraph id="8BBD7F4FFFE0FF9FBFE6CDAB69E2FE24" blockId="22.[189,426,468,494]" box="[189,426,468,494]" pageId="22" pageNumber="23">
+<heading id="D0F5C823FFE0FF9FBFE6CDAB69E2FE24" bold="true" box="[189,426,468,494]" fontSize="11" level="3" pageId="22" pageNumber="23" reason="3">
+<emphasis id="B976A35DFFE0FF9FBFE6CDAB69E2FE24" bold="true" box="[189,426,468,494]" pageId="22" pageNumber="23">Material examined</emphasis>
+</heading>
+</paragraph>
+<paragraph id="8BBD7F4FFFE0FF9FBFB1CE7C6A70FDD4" blockId="22.[189,1399,515,682]" box="[234,568,515,542]" pageId="22" pageNumber="23">
+<emphasis id="B976A35DFFE0FF9FBFB1CE7C692EFDD7" bold="true" box="[234,358,515,541]" pageId="22" pageNumber="23">
+<typeStatus id="54B9C1EDFFE0FF9FBFB1CE7C692EFDD7" box="[234,358,515,541]" pageId="22" pageNumber="23">Lectotype</typeStatus>
+</emphasis>
+(here designated)
+</paragraph>
+<paragraph id="8BBD7F4FFFE0FF9FBFE6CE59698CFD60" blockId="22.[189,1399,515,682]" pageId="22" pageNumber="23">
+<materialsCitation id="3B6A7512FFE0FF9FBFE6CE59698CFD60" ID-GBIF-Occurrence="2817897346" collectionCode="MTD" collectorName="J. Faust" country="Democratic Republic of the Congo" location="Landana" municipality="Landana" pageId="22" pageNumber="23" specimenCount="2" specimenCount-male="2" stateProvince="Congo" typeStatus="type">
+<collectingCountry id="F3153FDFFFE0FF9FBFE6CE596A8BFD8A" box="[189,707,550,576]" name="Democratic Republic of the Congo" pageId="22" pageNumber="23">DEMOCRATIC REPUBLIC OF CONGO</collectingCountry>
+• 
+<emphasis id="B976A35DFFE0FF9FBDB0CE596B49FD8A" bold="true" box="[747,769,550,576]" pageId="22" pageNumber="23">
+<specimenCount id="9D04B4C6FFE0FF9FBDB0CE596B49FD8A" box="[747,769,550,576]" pageId="22" pageNumber="23" type="male">♂</specimenCount>
+</emphasis>
+; “ 
+<collectingMunicipality id="6BD9E535FFE0FF9FBC79CE596BC6FD8A" box="[802,910,550,576]" pageId="22" pageNumber="23">Landana</collectingMunicipality>
+. 
+<collectingRegion id="49C6B1ADFFE0FF9FBCFBCE596BBAFD8A" box="[928,1010,550,576]" country="Democratic Republic of the Congo" name="Bas-Congo" pageId="22" pageNumber="23">Congo</collectingRegion>
+. Oberthur” “ 
+<taxonomicName id="4C0204CCFFE0FF9FBBCDCE586D23FD8A" authority="Fst." authorityName="Faust" authorityYear="1898" box="[1174,1387,550,576]" class="Insecta" family="Curculionidae" genus="Derelomus" kingdom="Animalia" order="Coleoptera" pageId="22" pageNumber="23" phylum="Arthropoda" rank="species" species="singularis">
+<emphasis id="B976A35DFFE0FF9FBBCDCE586D67FD8A" box="[1174,1327,550,576]" italics="true" pageId="22" pageNumber="23">D singularis</emphasis>
+Fst.
+</taxonomicName>
+” “Coll. 
+<collectorName id="26F71A99FFE0FF9FBE54CE356927FDAE" box="[271,367,586,612]" pageId="22" pageNumber="23">J. Faust</collectorName>
+. Ankauf 1900” “ 
+<typeStatus id="54B9C1EDFFE0FF9FBD66CE366A3CFDA9" box="[573,628,585,611]" pageId="22" pageNumber="23">type</typeStatus>
+” “Staatl. Museum für. Tierkunde Dresden” “ 
+<typeStatus id="54B9C1EDFFE0FF9FBBCDCE366D46FDA9" box="[1174,1294,585,611]" pageId="22" pageNumber="23">Lectotype</typeStatus>
+<emphasis id="B976A35DFFE0FF9FBA42CE366D67FDA9" bold="true" box="[1305,1327,585,611]" pageId="22" pageNumber="23">
+<specimenCount id="9D04B4C6FFE0FF9FBA42CE366D67FDA9" box="[1305,1327,585,611]" pageId="22" pageNumber="23" type="male">♂</specimenCount>
+</emphasis>
+[here designated]. 
+<taxonomicName id="4C0204CCFFE0FF9FBE0FCE136AA1FD4C" authority="Faust, 1898" authorityName="Faust" authorityYear="1898" box="[340,745,620,647]" class="Insecta" family="Curculionidae" genus="Derelomus" kingdom="Animalia" order="Coleoptera" pageId="22" pageNumber="23" phylum="Arthropoda" rank="species" species="singularis">
+<emphasis id="B976A35DFFE0FF9FBE0FCE136A1AFD4C" box="[340,594,620,646]" italics="true" pageId="22" pageNumber="23">Derelomus singularis</emphasis>
+<bibRefCitation id="EF9302BEFFE0FF9FBD07CE126AA1FD4C" author="Faust" box="[604,745,620,647]" firstAuthor="Faust" pageId="22" pageNumber="23" pagination="224 - 226" refId="ref15508" refString="Faust J. 1898. Drei neue Derelomus - Arten von West-Afrika. Stettiner Entomologische Zeitung 59: 224 - 226." type="journal article" year="1898">Faust, 1898</bibRefCitation>
+</taxonomicName>
+. Kuschel 2013” “ 
+<taxonomicName id="4C0204CCFFE0FF9FBCE6CE136D3BFD4C" authority="(Faust, 1898)" authorityName="Haran &amp; Beaudoin-Ollivier &amp; Benoit &amp; Kuschel" authorityYear="2020" baseAuthorityName="Faust" baseAuthorityYear="1898" box="[957,1395,620,646]" class="Insecta" family="Curculionidae" genus="Elaeidobius" higherTaxonomySource="GBIF" kingdom="Animalia" order="Coleoptera" pageId="22" pageNumber="23" phylum="Arthropoda" rank="species" species="singularis">
+<emphasis id="B976A35DFFE0FF9FBCE6CE136C80FD4C" box="[957,1224,620,646]" italics="true" pageId="22" pageNumber="23">Elaeidobius singularis</emphasis>
+(
+<bibRefCitation id="EF9302BEFFE0FF9FBB82CE136D22FD4C" author="Faust" box="[1241,1386,620,646]" firstAuthor="Faust" pageId="22" pageNumber="23" pagination="224 - 226" refId="ref15508" refString="Faust J. 1898. Drei neue Derelomus - Arten von West-Afrika. Stettiner Entomologische Zeitung 59: 224 - 226." type="journal article" year="1898">Faust, 1898</bibRefCitation>
+)
+</taxonomicName>
+. Kuschel 2013”; 
+<collectionCode id="ED13E78AFFE0FF9FBE27CEEF6989FD60" box="[380,449,656,682]" collectionName="Germany, Dresden, Museum fuer Tierkunde" country="Germany" httpUri="http://grbio.org/cool/4j3t-w40g" name="Museum of Zoology Senckenberg Dresden" pageId="22" pageNumber="23">MTD</collectionCode>
+.
+</materialsCitation>
+</paragraph>
+<paragraph id="8BBD7F4FFFE0FF9FBFB1CEAE6A21FD26" blockId="22.[189,1398,721,853]" box="[234,617,721,748]" pageId="22" pageNumber="23">
+<emphasis id="B976A35DFFE0FF9FBFB1CEAE69DFFD21" bold="true" box="[234,407,721,747]" pageId="22" pageNumber="23">
+<typeStatus id="54B9C1EDFFE0FF9FBFB1CEAE69DFFD21" box="[234,407,721,747]" pageId="22" pageNumber="23">Paralectotype</typeStatus>
+</emphasis>
+(here designated)
+</paragraph>
+<paragraph id="8BBD7F4FFFE0FF9FBFE6CE8B6915FC9F" blockId="22.[189,1398,721,853]" pageId="22" pageNumber="23">
+<materialsCitation id="3B6A7512FFE0FF9FBFE6CE8B6911FC9F" ID-GBIF-Occurrence="2817897306" collectionCode="MTD" collectorName="L. Burgeon" country="Democratic Republic of the Congo" location="DEMOCRATIC REPUBLIC OF CONGO" pageId="22" pageNumber="23" specimenCount="2" specimenCount-female="2" stateProvince="Haut-Uele" typeStatus="paralectotype">
+<collectingCountry id="F3153FDFFFE0FF9FBFE6CE8B6AF8FCC4" box="[189,688,756,782]" name="Democratic Republic of the Congo" pageId="22" pageNumber="23">DEMOCRATIC REPUBLIC OF CONGO</collectingCountry>
+• 
+<specimenCount id="9D04B4C6FFE0FF9FBD90CE8B6AB1FCC5" box="[715,761,756,783]" pageId="22" pageNumber="23" type="female">1 ♀</specimenCount>
+; same collection data as for lectotype; “ 
+<typeStatus id="54B9C1EDFFE0FF9FBB88CE8B6D3EFCC4" box="[1235,1398,756,782]" pageId="22" pageNumber="23">Paralectotype</typeStatus>
+<specimenCount id="9D04B4C6FFE0FF9FBFE6CF67689CFCF8" box="[189,212,792,818]" pageId="22" pageNumber="23" type="female">♀</specimenCount>
+. 
+<taxonomicName id="4C0204CCFFE0FF9FBFBFCF686A33FCFB" authority="Faust, 1898" authorityName="Faust" authorityYear="1898" box="[228,635,791,818]" class="Insecta" family="Curculionidae" genus="Derelomus" kingdom="Animalia" order="Coleoptera" pageId="22" pageNumber="23" phylum="Arthropoda" rank="species" species="singularis">
+<emphasis id="B976A35DFFE0FF9FBFBFCF6869AAFCFB" box="[228,482,791,817]" italics="true" pageId="22" pageNumber="23">Derelomus singularis</emphasis>
+<bibRefCitation id="EF9302BEFFE0FF9FBEB6CF676A33FCFB" author="Faust" box="[493,635,791,818]" firstAuthor="Faust" pageId="22" pageNumber="23" pagination="224 - 226" refId="ref15508" refString="Faust J. 1898. Drei neue Derelomus - Arten von West-Afrika. Stettiner Entomologische Zeitung 59: 224 - 226." type="journal article" year="1898">Faust, 1898</bibRefCitation>
+</taxonomicName>
+. Kuschel 2013” “ 
+<taxonomicName id="4C0204CCFFE0FF9FBC0ACF686D41FCFB" authority="(Faust, 1898)" authorityName="Haran &amp; Beaudoin-Ollivier &amp; Benoit &amp; Kuschel" authorityYear="2020" baseAuthorityName="Faust" baseAuthorityYear="1898" box="[849,1289,791,817]" class="Insecta" family="Curculionidae" genus="Elaeidobius" higherTaxonomySource="GBIF" kingdom="Animalia" order="Coleoptera" pageId="22" pageNumber="23" phylum="Arthropoda" rank="species" species="singularis">
+<emphasis id="B976A35DFFE0FF9FBC0ACF686C14FCFB" box="[849,1116,791,817]" italics="true" pageId="22" pageNumber="23">Elaeidobius singularis</emphasis>
+(
+<bibRefCitation id="EF9302BEFFE0FF9FBB34CF686D48FCFB" author="Faust" box="[1135,1280,791,817]" firstAuthor="Faust" pageId="22" pageNumber="23" pagination="224 - 226" refId="ref15508" refString="Faust J. 1898. Drei neue Derelomus - Arten von West-Afrika. Stettiner Entomologische Zeitung 59: 224 - 226." type="journal article" year="1898">Faust, 1898</bibRefCitation>
+)
+</taxonomicName>
+. Kuschel 2013”; 
+<collectionCode id="ED13E78AFFE0FF9FBE4FCF446911FC9F" box="[276,345,827,853]" collectionName="Germany, Dresden, Museum fuer Tierkunde" country="Germany" httpUri="http://grbio.org/cool/4j3t-w40g" name="Museum of Zoology Senckenberg Dresden" pageId="22" pageNumber="23">MTD</collectionCode>
+</materialsCitation>
+.
+</paragraph>
+<paragraph id="8BBD7F4FFFE0FF9FBFB1CF0369EEFC5C" blockId="22.[189,1399,892,1059]" box="[234,422,892,918]" pageId="22" pageNumber="23">
+<emphasis id="B976A35DFFE0FF9FBFB1CF0369EEFC5C" bold="true" box="[234,422,892,918]" pageId="22" pageNumber="23">Other material</emphasis>
+</paragraph>
+<paragraph id="8BBD7F4FFFE0FF9FBFE6CFE06CAAFBE9" blockId="22.[189,1399,892,1059]" pageId="22" pageNumber="23">
+<materialsCitation id="3B6A7512FFE0FF9FBFE6CFE069E2FBCA" ID-GBIF-Occurrence="2817897319" collectionCode="MRAC" collectorName="L. Burgeon" country="Democratic Republic of the Congo" location="Moto" pageId="22" pageNumber="23" specimenCount="1" specimenCount-male="1" stateProvince="Haut-Uele" typeStatus="lectotype">
+<collectingCountry id="F3153FDFFFE0FF9FBFE6CFE06AF9FC73" box="[189,689,927,953]" name="Democratic Republic of the Congo" pageId="22" pageNumber="23">DEMOCRATIC REPUBLIC OF CONGO</collectingCountry>
+• 
+<specimenCount id="9D04B4C6FFE0FF9FBD95CFDF6AADFC70" box="[718,741,928,954]" pageId="22" pageNumber="23" type="male">♂</specimenCount>
+, 
+<typeStatus id="54B9C1EDFFE0FF9FBDAFCFE06B28FC73" box="[756,864,927,953]" pageId="22" pageNumber="23">lectotype</typeStatus>
+of 
+<taxonomicName id="4C0204CCFFE0FF9FBCD2CFE06D7AFC73" authority="Hustache, 1932" authorityName="Hustache" authorityYear="1932" box="[905,1330,927,953]" class="Insecta" family="Curculionidae" genus="Derelomus" kingdom="Animalia" order="Coleoptera" pageId="22" pageNumber="23" phylum="Arthropoda" rank="species" species="uelensis">
+<emphasis id="B976A35DFFE0FF9FBCD2CFE06C39FC73" box="[905,1137,927,953]" italics="true" pageId="22" pageNumber="23">Derelomus uelensis</emphasis>
+<bibRefCitation id="EF9302BEFFE0FF9FBB22CFE06D7AFC73" author="Hustache" box="[1145,1330,927,953]" firstAuthor="Hustache" pageId="22" pageNumber="23" pagination="28 - 109" refId="ref16140" refString="Hustache A. 1932. Curculionides nouveaux de l'Afrique equatoriale (II partie). Acta Entomologica Musei Nationalis Pragae 10: 28 - 109." type="journal article" year="1932">Hustache, 1932</bibRefCitation>
+</taxonomicName>
+[here designated], labelled as “ 
+<taxonomicName id="4C0204CCFFE0FF9FBEBCCFBD6C09FC16" authority="(Faust 1898) Kuschel 2009" authorityName="Kuschel" authorityYear="2009" baseAuthorityName="Faust" baseAuthorityYear="1898" box="[487,1089,962,988]" class="Insecta" family="Curculionidae" genus="Elaeidobius" higherTaxonomySource="GBIF" kingdom="Animalia" order="Coleoptera" pageId="22" pageNumber="23" phylum="Arthropoda" rank="species" species="singularis">
+<emphasis id="B976A35DFFE0FF9FBEBCCFBD6AB9FC16" box="[487,753,962,988]" italics="true" pageId="22" pageNumber="23">Elaeidobius singularis</emphasis>
+(
+<bibRefCitation id="EF9302BEFFE0FF9FBC59CFBD6BC0FC16" author="Faust" box="[770,904,962,988]" firstAuthor="Faust" pageId="22" pageNumber="23" pagination="224 - 226" refId="ref15508" refString="Faust J. 1898. Drei neue Derelomus - Arten von West-Afrika. Stettiner Entomologische Zeitung 59: 224 - 226." type="journal article" year="1898">Faust 1898</bibRefCitation>
+) Kuschel 2009
+</taxonomicName>
+”; 
+<collectingRegion id="49C6B1ADFFE0FF9FBB02CFBD6C9EFC16" box="[1113,1238,962,988]" pageId="22" pageNumber="23">Haut-Uelé</collectingRegion>
+, 
+<location id="8EDD2994FFE0FF9FBBB8CFBC6D6EFC17" LSID="urn:lsid:plazi:treatment:03ABCE59FFE0FF9EBEA7CD756BA8FABD:8EDD2994FFE0FF9FBBB8CFBC6D6EFC17" box="[1251,1318,963,989]" country="Democratic Republic of the Congo" name="Moto" pageId="22" pageNumber="23" stateProvince="Haut-Uele">Moto</location>
+; 1922; 
+<collectorName id="26F71A99FFE0FF9FBFE6CF99690FFBCA" box="[189,327,998,1024]" pageId="22" pageNumber="23">L. Burgeon</collectorName>
+; 
+<collectionCode id="ED13E78AFFE0FF9FBE0FCF9969E2FBCA" box="[340,426,998,1024]" collectionName="Belgium, Tervuren, Musee Royal de l'Afrique Centrale" country="Belgium" httpUri="http://grbio.org/cool/z14b-bb31" name="Musée Royal de l’Afrique Centrale" pageId="22" pageNumber="23" type="Museum">MRAC</collectionCode>
+</materialsCitation>
+• 
+<materialsCitation id="3B6A7512FFE0FF9FBE9DCF996C3BFBCA" ID-GBIF-Occurrence="2817897349" box="[454,1139,997,1024]" collectingDate="1913-11" collectionCode="MRAC" collectorName="L. Burgeon" location="Kindu" municipality="Kindu" pageId="22" pageNumber="23" specimenCount="5" specimenCount-female="2" specimenCount-male="3">
+<specimenCount id="9D04B4C6FFE0FF9FBE9DCF996A43FBCA" box="[454,523,998,1024]" pageId="22" pageNumber="23" type="male">3 ♂♂</specimenCount>
+, 
+<specimenCount id="9D04B4C6FFE0FF9FBD42CF996A15FBCA" box="[537,605,998,1024]" pageId="22" pageNumber="23" type="female">2 ♀♀</specimenCount>
+; 
+<collectingMunicipality id="6BD9E535FFE0FF9FBD36CF9A6AF2FC35" box="[621,698,997,1023]" pageId="22" pageNumber="23">Kindu</collectingMunicipality>
+; 
+<date id="FFBC598FFFE0FF9FBD9CCF996B0DFBCA" box="[711,837,998,1024]" pageId="22" pageNumber="23" value="1913-11">
+<collectingDate id="EFF8A067FFE0FF9FBD9CCF996B0DFBCA" box="[711,837,998,1024]" pageId="22" pageNumber="23" value="1913-11">Nov. 1913</collectingDate>
+</date>
+; 
+<collectorName id="26F71A99FFE0FF9FBC08CF996B90FBCA" box="[851,984,998,1024]" pageId="22" pageNumber="23">L. Burgeon</collectorName>
+leg.; 
+<collectionCode id="ED13E78AFFE0FF9FBB46CF996C3BFBCA" box="[1053,1139,998,1024]" collectionName="Belgium, Tervuren, Musee Royal de l'Afrique Centrale" country="Belgium" httpUri="http://grbio.org/cool/z14b-bb31" name="Musée Royal de l’Afrique Centrale" pageId="22" pageNumber="23" type="Museum">MRAC</collectionCode>
+</materialsCitation>
+• 
+<materialsCitation id="3B6A7512FFE0FF9FBBD4CF996A77FBE9" ID-GBIF-Occurrence="2817897342" collectionCode="MRAC" collectorName="J. Ghesquiere" location="Haut-Loporiv" pageId="22" pageNumber="23" specimenCount="1" specimenCount-female="1">
+<specimenCount id="9D04B4C6FFE0FF9FBBD4CF996CF5FBCA" box="[1167,1213,998,1024]" pageId="22" pageNumber="23" type="female">1 ♀</specimenCount>
+; 
+<location id="8EDD2994FFE0FF9FBB96CF9A6D3AFC35" LSID="urn:lsid:plazi:treatment:03ABCE59FFE0FF9EBEA7CD756BA8FABD:8EDD2994FFE0FF9FBB96CF9A6D3AFC35" box="[1229,1394,997,1023]" name="Haut-Loporiv" pageId="22" pageNumber="23">Haut-Loporiv</location>
+; 1927; 
+<collectorName id="26F71A99FFE0FF9FBE5CC87669EFFBE9" box="[263,423,1033,1059]" pageId="22" pageNumber="23">J. Ghesquiere</collectorName>
+leg.; 
+<collectionCode id="ED13E78AFFE0FF9FBEB2C8766A77FBE9" box="[489,575,1033,1059]" collectionName="Belgium, Tervuren, Musee Royal de l'Afrique Centrale" country="Belgium" httpUri="http://grbio.org/cool/z14b-bb31" name="Musée Royal de l’Afrique Centrale" pageId="22" pageNumber="23" type="Museum">MRAC</collectionCode>
+</materialsCitation>
+• 
+<materialsCitation id="3B6A7512FFE0FF9FBD03C8766C96FBE9" ID-GBIF-Occurrence="2817897332" box="[600,1246,1033,1059]" collectionCode="MRAC" collectorName="L. Burgeon" location="Watsa" pageId="22" pageNumber="23" specimenCount="1" specimenCount-female="1" stateProvince="Haut-Uele">
+<specimenCount id="9D04B4C6FFE0FF9FBD03C8766ACDFBE9" box="[600,645,1033,1059]" pageId="22" pageNumber="23" type="female">1 ♀</specimenCount>
+; 
+<collectingRegion id="49C6B1ADFFE0FF9FBDCFC8766B59FBE9" box="[660,785,1033,1059]" pageId="22" pageNumber="23">Haut-Uelé</collectingRegion>
+, 
+<location id="8EDD2994FFE0FF9FBC47C8766B2FFBE9" LSID="urn:lsid:plazi:treatment:03ABCE59FFE0FF9EBEA7CD756BA8FABD:8EDD2994FFE0FF9FBC47C8766B2FFBE9" box="[796,871,1033,1059]" name="Watsa" pageId="22" pageNumber="23" stateProvince="Haut-Uele">Watsa</location>
+; 1922; 
+<collectorName id="26F71A99FFE0FF9FBCE7C8766C09FBE9" box="[956,1089,1033,1059]" pageId="22" pageNumber="23">L. Burgeon</collectorName>
+leg.; 
+<collectionCode id="ED13E78AFFE0FF9FBBDFC8766C96FBE9" box="[1156,1246,1033,1059]" collectionName="Belgium, Tervuren, Musee Royal de l'Afrique Centrale" country="Belgium" httpUri="http://grbio.org/cool/z14b-bb31" name="Musée Royal de l’Afrique Centrale" pageId="22" pageNumber="23" type="Museum">MRAC</collectionCode>
+</materialsCitation>
+.
+</paragraph>
+<paragraph id="8BBD7F4FFFE0FF9FBFE6C83568B6FB42" blockId="22.[189,1398,1098,1160]" pageId="22" pageNumber="23">
+<materialsCitation id="3B6A7512FFE0FF9FBFE6C83568B2FB42" ID-GBIF-Occurrence="2817897338" collectingDate="1973-05-14" collectionCode="TMP" collectorName="CE Salazar &amp; Carvalho" country="Angola" latitude="-9.16" location="ANGOLA" longLatPrecision="780" longitude="14.55" pageId="22" pageNumber="23" specimenCount="1">
+<collectingCountry id="F3153FDFFFE0FF9FBFE6C8356971FBAE" box="[189,313,1098,1124]" name="Angola" pageId="22" pageNumber="23">ANGOLA</collectingCountry>
+• 2 ♂♂; 
+<collectorName id="26F71A99FFE0FF9FBEF8C8356A62FBAE" box="[419,554,1098,1124]" pageId="22" pageNumber="23">CE Salazar</collectorName>
+; 
+<geoCoordinate id="EE361988FFE0FF9FBD6CC8356AC5FBAE" box="[567,653,1098,1124]" degrees="9.16" direction="south" orientation="latitude" pageId="22" pageNumber="23" precision="555" value="-9.16">9.16º S</geoCoordinate>
+, 
+<geoCoordinate id="EE361988FFE0FF9FBDC1C8356B4AFBAF" box="[666,770,1098,1125]" degrees="14.55" direction="east" orientation="longitude" pageId="22" pageNumber="23" precision="555" value="14.55">14.55º E</geoCoordinate>
+; 
+<date id="FFBC598FFFE0FF9FBC54C8356BE7FBAE" box="[783,943,1098,1125]" pageId="22" pageNumber="23" value="1973-05-14">
+<collectingDate id="EFF8A067FFE0FF9FBC54C8356BE7FBAE" box="[783,943,1098,1125]" pageId="22" pageNumber="23" value="1973-05-14">14 May 1973</collectingDate>
+</date>
+; 
+<collectorName id="26F71A99FFE0FF9FBCE7C8356C60FBAE" box="[956,1064,1098,1124]" pageId="22" pageNumber="23">Carvalho</collectorName>
+leg.; oil palm inflorescence; 
+<collectionCode id="ED13E78AFFE0FF9FBFE6C81168B2FB42" box="[189,250,1134,1160]" country="South Africa" httpUri="http://grbio.org/cool/4q52-xvg6" name="Transvaal Museum" pageId="22" pageNumber="23">TMP</collectionCode>
+</materialsCitation>
+.
+</paragraph>
+<paragraph id="8BBD7F4FFFE0FF9FBFE6C8D06CB4FB03" blockId="22.[189,1276,1199,1226]" box="[189,1276,1199,1226]" pageId="22" pageNumber="23">
+<materialsCitation id="3B6A7512FFE0FF9FBFE6C8D06CB0FB03" ID-GBIF-Occurrence="2817897330" box="[189,1272,1199,1226]" collectionCode="CBGP" country="Ghana" location="Godbe" municipality="Godbe" pageId="22" pageNumber="23" specimenCode="JHAR00283_0101" specimenCount="1" specimenCount-male="1">
+<collectingCountry id="F3153FDFFFE0FF9FBFE6C8D0696DFB03" box="[189,293,1199,1225]" name="Ghana" pageId="22" pageNumber="23">GHANA</collectingCountry>
+• 
+<specimenCount id="9D04B4C6FFE0FF9FBE65C8D06924FB03" box="[318,364,1199,1225]" pageId="22" pageNumber="23" type="male">1 ♂</specimenCount>
+; 
+<collectingMunicipality id="6BD9E535FFE0FF9FBE21C8D06984FB03" box="[378,460,1199,1225]" pageId="22" pageNumber="23">Godbe</collectingMunicipality>
+; 2015; on inflorescences of 
+<taxonomicName id="4C0204CCFFE0FF9FBC48C8CF6BF8FB03" box="[787,944,1200,1225]" class="Liliopsida" family="Arecaceae" genus="Elaeis" kingdom="Plantae" order="Arecales" pageId="22" pageNumber="23" phylum="Tracheophyta" rank="species" species="guineensis">
+<emphasis id="B976A35DFFE0FF9FBC48C8CF6BF8FB03" box="[787,944,1200,1225]" italics="true" pageId="22" pageNumber="23">E. guineensis</emphasis>
+</taxonomicName>
+; 
+<specimenCode id="DBA4D734FFE0FF9FBCE4C8D06CD7FB03" box="[959,1183,1199,1225]" pageId="22" pageNumber="23">JHAR00283_0101</specimenCode>
+; 
+<collectionCode id="ED13E78AFFE0FF9FBBF0C8D06CB0FB03" box="[1195,1272,1199,1225]" pageId="22" pageNumber="23">CBGP</collectionCode>
+</materialsCitation>
+.
+</paragraph>
+</subSubSection>
+<subSubSection id="C3182CC4FFE0FF9FBFE6C88F6934FAC0" box="[189,380,1264,1290]" pageId="22" pageNumber="23" type="diagnosis">
+<paragraph id="8BBD7F4FFFE0FF9FBFE6C88F6934FAC0" blockId="22.[189,380,1264,1290]" box="[189,380,1264,1290]" pageId="22" pageNumber="23">
+<emphasis id="B976A35DFFE0FF9FBFE6C88F697EFAC0" bold="true" box="[189,310,1264,1290]" pageId="22" pageNumber="23">Diagnosis</emphasis>
+(♂ 
+<specimenCount id="9D04B4C6FFE0FF9FBE04C88F693AFAC0" box="[351,370,1264,1290]" pageId="22" pageNumber="23" type="female">♀</specimenCount>
+)
+</paragraph>
+</subSubSection>
+<subSubSection id="C3182CC4FFE0FF9EBFE6C96069A5FEA6" lastPageId="23" lastPageNumber="24" pageId="22" pageNumber="23" type="description">
+<paragraph id="8BBD7F4FFFE0FF9FBFE6C96069B2FAF3" blockId="22.[189,506,1311,1337]" box="[189,506,1311,1337]" pageId="22" pageNumber="23">BODY LENGTH. 2.2–3.0 mm.</paragraph>
+<paragraph id="8BBD7F4FFFE0FF9FBFE6C91F6BFAFA0B" blockId="22.[189,1399,1376,1473]" pageId="22" pageNumber="23">COLOUR. Yellowish or reddish brown, shiny rostrum in part, meso and metasternum dark; prothorax with vague, dark stripe on sides of discal foveae, elytra usually dark near basal ¼ of interstria 6 and an oblique band from middle of interstria 3 or 4 to ¾ of interstria 8.</paragraph>
+<paragraph id="8BBD7F4FFFE0FF9FBFE6C9966BA0F9EF" blockId="22.[189,1398,1512,1574]" pageId="22" pageNumber="23">HEAD. Forehead in male impressed. Rostrum in male a fraction shorter than prothorax, without erect hairs or tubercle on underside, in female 1.5 × longer than prothorax.</paragraph>
+<paragraph id="8BBD7F4FFFE0FF9FBFE6CA326ABFF940" blockId="22.[189,1398,1613,1674]" pageId="22" pageNumber="23">PROTHORAX. Disc with a pair of large, deep foveae; apical collar at base usually with a transverse row of black dots; lateral carina fine, continued to apex.</paragraph>
+<paragraph id="8BBD7F4FFFE0FF9FBFE6CACD6CA7F925" blockId="22.[189,1398,1713,1775]" pageId="22" pageNumber="23">ELYTRA. Without long erect setae on margin and suture, in male often with a conspicuous swelling at base of interstria, in small males reduced or absent; prosternum without protruding process.</paragraph>
+<paragraph id="8BBD7F4FFFE0FF9FBFE6CB696D40F8BD" blockId="22.[189,1398,1814,1911]" pageId="22" pageNumber="23">
+ABDOMEN. Ventrite 1–2 flattened on middle, not impressed, with fine, appressed pubescence and no semi-erect hairs. Tergites 3–6 undivided on midline, tergite 7 strongly advancing forward against tergite 6; granules of stridulatory organ evenly distributed on entire line, up to 
+<quantity id="4CFAD2AAFFE0FF9FBB5FCB236C08F8BC" box="[1028,1088,1884,1910]" metricMagnitude="-1" metricUnit="m" metricValue="4.572" pageId="22" pageNumber="23" unit="in" value="18.0">18 in</quantity>
+number per row.
+</paragraph>
+<paragraph id="8BBD7F4FFFE1FF9EBFE6CD7469A5FEA6" blockId="23.[189,1399,267,364]" pageId="23" pageNumber="24">
+GENITALIA. Penis a little longer than the last three ventrites; body 2.3 × as long as apodemes, about 2 × as long as wide (ratio w/l: 0.48), symmetrical, tapering with slight curve to apex (
+<figureCitation id="133963CAFFE1FF9EBB27CD516C93FE83" box="[1148,1243,302,329]" captionStart="Fig" captionStartId="18.[189,232,1781,1807]" captionTargetBox="[203,1381,343,1664]" captionTargetId="figure@18.[189,1398,326,1679]" captionTargetPageId="18" captionText="Fig. 4. Penis of males of species of the genus Elaeidobius Kuschel, 1952 in dorsal (left) and lateral (right) view. A. E. bilineatus (Hustache, 1924) comb. nov., Dakar, Senegal. B. E. spatulifer (Marshall, 1950) comb. nov., holotype, Thysville, Democratic Republic of Congo (MRAC). C. E. subvittatus (Faust, 1898), Dakar, Senegal. D. E. kamerunicus (Faust, 1898) comb. nov. (JHAR00209). E. E. pilimargo Haran &amp; Kuschel sp. nov. (JHAR00409). F. E. piliventris Haran &amp; Kuschel sp. nov. (JHAR02182). G. E. plagiatus (Fåhraeus, 1844) comb. nov. (JHAR00272). H. E. singularis (Faust, 1898) comb. nov. (JHAR00283). Scale bars = 100 µm." figureDoi="http://doi.org/10.5281/zenodo.3959121" httpUri="https://zenodo.org/record/3959121/files/figure.png" pageId="23" pageNumber="24">Fig. 4H</figureCitation>
+); internal sac with a pair of small frena.
+</paragraph>
+</subSubSection>
+<subSubSection id="C3182CC4FFE1FF9EBFE6CDEC6C85FE16" pageId="23" pageNumber="24" type="biology_ecology">
+<paragraph id="8BBD7F4FFFE1FF9EBFE6CDEC6907FE67" blockId="23.[189,335,403,429]" box="[189,335,403,429]" pageId="23" pageNumber="24">
+<heading id="D0F5C823FFE1FF9EBFE6CDEC6907FE67" bold="true" box="[189,335,403,429]" fontSize="11" level="3" pageId="23" pageNumber="24" reason="3">
+<emphasis id="B976A35DFFE1FF9EBFE6CDEC6907FE67" bold="true" box="[189,335,403,429]" pageId="23" pageNumber="24">Life history</emphasis>
+</heading>
+</paragraph>
+<paragraph id="8BBD7F4FFFE1FF9EBFE6CDBD6C85FE16" blockId="23.[189,1229,450,476]" box="[189,1229,450,476]" pageId="23" pageNumber="24">
+In inflorescences of the oil palm, 
+<taxonomicName id="4C0204CCFFE1FF9EBD1ECDBD6B59FE16" box="[581,785,450,476]" class="Liliopsida" family="Arecaceae" genus="Elaeis" kingdom="Plantae" order="Arecales" pageId="23" pageNumber="24" phylum="Tracheophyta" rank="species" species="guineensis">
+<emphasis id="B976A35DFFE1FF9EBD1ECDBD6B59FE16" box="[581,785,450,476]" italics="true" pageId="23" pageNumber="24">Elaeis guineensis</emphasis>
+</taxonomicName>
+(
+<taxonomicName id="4C0204CCFFE1FF9EBC7BCDBD6BD6FE16" box="[800,926,450,476]" class="Liliopsida" family="Arecaceae" kingdom="Plantae" order="Arecales" pageId="23" pageNumber="24" phylum="Tracheophyta" rank="family">Arecaceae</taxonomicName>
+) (
+<bibRefCitation id="EF9302BEFFE1FF9EBCEECDBD6C88FE16" author="Mariau &amp; Genty" box="[949,1216,450,476]" firstAuthor="Mariau" pageId="23" pageNumber="24" pagination="233 - 240" refId="ref16576" refString="Mariau D. &amp; Genty P. 1988. IRHO contribution to the study of oil palm insect pollinators in Africa, South- America and Indonesia. Oleagineux 43: 233 - 240." type="journal article" year="1988">Mariau &amp; Genty 1988</bibRefCitation>
+).
+</paragraph>
+</subSubSection>
+<subSubSection id="C3182CC4FFE1FF9EBFE6CE7C69A1FD7C" pageId="23" pageNumber="24" type="distribution">
+<paragraph id="8BBD7F4FFFE1FF9EBFE6CE7C691EFDD7" blockId="23.[189,342,515,541]" box="[189,342,515,541]" pageId="23" pageNumber="24">
+<heading id="D0F5C823FFE1FF9EBFE6CE7C691EFDD7" bold="true" box="[189,342,515,541]" fontSize="11" level="3" pageId="23" pageNumber="24" reason="3">
+<emphasis id="B976A35DFFE1FF9EBFE6CE7C691EFDD7" bold="true" box="[189,342,515,541]" pageId="23" pageNumber="24">Distribution</emphasis>
+</heading>
+</paragraph>
+<paragraph id="8BBD7F4FFFE1FF9EBFE6CE4D69A1FD7C" blockId="23.[189,1399,561,694]" pageId="23" pageNumber="24">
+<emphasis id="B976A35DFFE1FF9EBFE6CE4D694EFD86" bold="true" box="[189,262,562,588]" pageId="23" pageNumber="24">
+<collectingCountry id="F3153FDFFFE1FF9EBFE6CE4D694EFD86" box="[189,262,562,588]" name="Benin" pageId="23" pageNumber="24">Benin</collectingCountry>
+</emphasis>
+(Cotonou, Dassa, Niaouli, Pob 
+<emphasis id="B976A35DFFE1FF9EBDD6CE4E6AD2FD86" bold="true" box="[653,666,561,588]" pageId="23" pageNumber="24">è</emphasis>
+); 
+<emphasis id="B976A35DFFE1FF9EBDE1CE4D6B75FD86" bold="true" box="[698,829,562,588]" pageId="23" pageNumber="24">
+<collectingCountry id="F3153FDFFFE1FF9EBDE1CE4D6B75FD86" box="[698,829,562,588]" name="Cameroon" pageId="23" pageNumber="24">Cameroon</collectingCountry>
+</emphasis>
+(Edu Ngat, Ekondo Titi, Kienke, Mbalmayo, Moliwe); 
+<emphasis id="B976A35DFFE1FF9EBE6ECE2A6AF7FDA5" bold="true" box="[309,703,597,623]" pageId="23" pageNumber="24">
+<collectingCountry id="F3153FDFFFE1FF9EBE6ECE2A6AF7FDA5" box="[309,703,597,623]" name="Democratic Republic of the Congo" pageId="23" pageNumber="24">Democratic Republic of Congo</collectingCountry>
+</emphasis>
+(Haut-Lopori, Haut Uelé: Moto, Watsa, Kindu, Landana, Luluabourg); 
+<emphasis id="B976A35DFFE1FF9EBE38CE0769F0FD58" bold="true" box="[355,440,632,658]" pageId="23" pageNumber="24">
+<collectingCountry id="F3153FDFFFE1FF9EBE38CE0769F0FD58" box="[355,440,632,658]" name="Gabon" pageId="23" pageNumber="24">Gabon</collectingCountry>
+</emphasis>
+(Kome Estate); 
+<emphasis id="B976A35DFFE1FF9EBDDCCE076A94FD58" bold="true" box="[647,732,632,658]" pageId="23" pageNumber="24">
+<collectingCountry id="F3153FDFFFE1FF9EBDDCCE076A94FD58" box="[647,732,632,658]" name="Ghana" pageId="23" pageNumber="24">Ghana</collectingCountry>
+</emphasis>
+(Gobbe); 
+<emphasis id="B976A35DFFE1FF9EBC05CE076BBFFD58" bold="true" box="[862,1015,632,658]" pageId="23" pageNumber="24">
+<collectingCountry id="F3153FDFFFE1FF9EBC05CE076BBFFD58" box="[862,1015,632,658]" name="Ivory Coast" pageId="23" pageNumber="24">Ivory Coast</collectingCountry>
+</emphasis>
+(Bonoua, Boudoukal); 
+<emphasis id="B976A35DFFE1FF9EBA41CE076D3FFD58" bold="true" box="[1306,1399,632,658]" pageId="23" pageNumber="24">
+<collectingCountry id="F3153FDFFFE1FF9EBA41CE076D3FFD58" box="[1306,1399,632,658]" name="Nigeria" pageId="23" pageNumber="24">Nigeria</collectingCountry>
+</emphasis>
+(Obaretin); 
+<emphasis id="B976A35DFFE1FF9EBE1CCEE369CCFD7C" bold="true" box="[327,388,668,694]" pageId="23" pageNumber="24">
+<collectingCountry id="F3153FDFFFE1FF9EBE1CCEE369CCFD7C" box="[327,388,668,694]" name="Togo" pageId="23" pageNumber="24">Togo</collectingCountry>
+</emphasis>
+(Kloto).
+</paragraph>
+</subSubSection>
+<subSubSection id="C3182CC4FFE1FF9EBFE6CEA26BA8FABD" pageId="23" pageNumber="24" type="discussion">
+<paragraph id="8BBD7F4FFFE1FF9EBFE6CEA26967FD3D" blockId="23.[189,303,733,759]" box="[189,303,733,759]" pageId="23" pageNumber="24">
+<heading id="D0F5C823FFE1FF9EBFE6CEA26967FD3D" bold="true" box="[189,303,733,759]" fontSize="11" level="3" pageId="23" pageNumber="24" reason="3">
+<emphasis id="B976A35DFFE1FF9EBFE6CEA26967FD3D" bold="true" box="[189,303,733,759]" pageId="23" pageNumber="24">Remarks</emphasis>
+</heading>
+</paragraph>
+<paragraph id="8BBD7F4FFFE1FF9EBFE6CF746A74FBF5" blockId="23.[189,1399,778,1087]" pageId="23" pageNumber="24">
+<taxonomicName id="4C0204CCFFE1FF9EBFE6CF746980FCEF" authorityName="Kuschel" authorityYear="2009" baseAuthorityName="Faust" baseAuthorityYear="1898" box="[189,456,779,805]" class="Insecta" family="Curculionidae" genus="Elaeidobius" higherTaxonomySource="GBIF" kingdom="Animalia" order="Coleoptera" pageId="23" pageNumber="24" phylum="Arthropoda" rank="species" species="singularis">
+<emphasis id="B976A35DFFE1FF9EBFE6CF746980FCEF" box="[189,456,779,805]" italics="true" pageId="23" pageNumber="24">Elaeidobius singularis</emphasis>
+</taxonomicName>
+is readily distinguished in the male by having a tumescent 4 
+<superScript id="7C77D207FFE1FF9EBBF1CF756CFFFCD2" attach="left" box="[1194,1207,778,792]" fontSize="6" pageId="23" pageNumber="24">th</superScript>
+interstria at the base (though reduced or even absent at times in some small individuals), and no semi-erect hairs on the abdomen, and by the elytra without long erect setae on the margin and on the suture. This taxon was described on a male and a female from Landana in the current 
+<collectingCountry id="F3153FDFFFE1FF9EBCF6CF0A6D6DFC45" box="[941,1317,885,911]" name="Democratic Republic of the Congo" pageId="23" pageNumber="24">Democratic Republic of Congo</collectingCountry>
+. In the collection of J. Faust housed at MTD, we found a male and a female pinned on the same pin with the identification “ 
+<taxonomicName id="4C0204CCFFE1FF9EBE36CFC36A1AFC1F" authority="Faust." authorityName="Faust." box="[365,594,955,981]" class="Insecta" family="Curculionidae" genus="Elaeidobius" higherTaxonomySource="GBIF" kingdom="Animalia" order="Coleoptera" pageId="23" pageNumber="24" phylum="Arthropoda" rank="species" species="singularis">
+<emphasis id="B976A35DFFE1FF9EBE36CFC36A1AFC1F" box="[365,594,955,981]" italics="true" pageId="23" pageNumber="24">D singularis Faust.</emphasis>
+</taxonomicName>
+” “Landana, 
+<collectingCountry id="F3153FDFFFE1FF9EBDB2CFC46B72FC1F" box="[745,826,955,981]" name="Democratic Republic of the Congo" pageId="23" pageNumber="24">Congo</collectingCountry>
+” and bearing a red “type” label. The description of this species does not refer to a 
+<typeStatus id="54B9C1EDFFE1FF9EBD10CFA16AFDFC32" box="[587,693,990,1016]" pageId="23" pageNumber="24">holotype</typeStatus>
+, therefore the male 
+<typeStatus id="54B9C1EDFFE1FF9EBCFBCFA06BB3FC33" box="[928,1019,991,1017]" pageId="23" pageNumber="24">syntype</typeStatus>
+was designated as the 
+<typeStatus id="54B9C1EDFFE1FF9EBA50CFA16D3FFC32" box="[1291,1399,990,1016]" pageId="23" pageNumber="24">lectotype</typeStatus>
+of 
+<taxonomicName id="4C0204CCFFE1FF9EBF86C87D6A23FBD6" authority="Faust, 1898" authorityName="Faust" authorityYear="1898" box="[221,619,1026,1052]" class="Insecta" family="Curculionidae" genus="Derelomus" kingdom="Animalia" order="Coleoptera" pageId="23" pageNumber="24" phylum="Arthropoda" rank="species" species="singularis">
+<emphasis id="B976A35DFFE1FF9EBF86C87D6991FBD6" box="[221,473,1026,1052]" italics="true" pageId="23" pageNumber="24">Derelomus singularis</emphasis>
+<bibRefCitation id="EF9302BEFFE1FF9EBEBAC87D6A23FBD6" author="Faust" box="[481,619,1026,1052]" firstAuthor="Faust" pageId="23" pageNumber="24" pagination="224 - 226" refId="ref15508" refString="Faust J. 1898. Drei neue Derelomus - Arten von West-Afrika. Stettiner Entomologische Zeitung 59: 224 - 226." type="journal article" year="1898">Faust, 1898</bibRefCitation>
+</taxonomicName>
+and was labelled accordingly. The female 
+<typeStatus id="54B9C1EDFFE1FF9EBB3AC87D6CF4FBD6" box="[1121,1212,1026,1052]" pageId="23" pageNumber="24">syntype</typeStatus>
+was labelled as the 
+<typeStatus id="54B9C1EDFFE1FF9EBFB3C85A69CEFBF5" box="[232,390,1061,1087]" pageId="23" pageNumber="24">paralectotype</typeStatus>
+of this species.
+</paragraph>
+<paragraph id="8BBD7F4FFFE1FF9EBFE6C8196BA8FABD" blockId="23.[189,1399,1126,1399]" pageId="23" pageNumber="24">
+Hustache described 
+<taxonomicName id="4C0204CCFFE1FF9EBEF1C8186A65FB4A" authorityName="Hustache" authorityYear="1932" box="[426,557,1126,1152]" class="Insecta" family="Curculionidae" genus="Derelomus" kingdom="Animalia" order="Coleoptera" pageId="23" pageNumber="24" phylum="Arthropoda" rank="species" species="uelensis">
+<emphasis id="B976A35DFFE1FF9EBEF1C8186A65FB4A" box="[426,557,1126,1152]" italics="true" pageId="23" pageNumber="24">D. uelensis</emphasis>
+</taxonomicName>
+based on five specimens collected by L. Burgeon in Moto (
+<collectingCountry id="F3153FDFFFE1FF9EBBB7C81969D6FB6E" name="Democratic Republic of the Congo" pageId="23" pageNumber="24">Democratic Republic of Congo</collectingCountry>
+). In the collections of the MRAC, only one specimen from Moto could be located and bore a red 
+<typeStatus id="54B9C1EDFFE1FF9EBE6CC8D269E1FB0D" box="[311,425,1197,1223]" pageId="23" pageNumber="24">paratypus</typeStatus>
+label. This specimen is here designated as the 
+<typeStatus id="54B9C1EDFFE1FF9EBC9DC8D26C7AFB0D" box="[966,1074,1197,1223]" pageId="23" pageNumber="24">lectotype</typeStatus>
+for 
+<taxonomicName id="4C0204CCFFE1FF9EBB3AC8D16CABFB0D" authorityName="Hustache" authorityYear="1932" box="[1121,1251,1197,1223]" class="Insecta" family="Curculionidae" genus="Derelomus" kingdom="Animalia" order="Coleoptera" pageId="23" pageNumber="24" phylum="Arthropoda" rank="species" species="uelensis">
+<emphasis id="B976A35DFFE1FF9EBB3AC8D16CABFB0D" box="[1121,1251,1197,1223]" italics="true" pageId="23" pageNumber="24">D. uelensis</emphasis>
+</taxonomicName>
+and labelled accordingly. The other four specimens of this series are from Kindu and not from Moto as reported by 
+<bibRefCitation id="EF9302BEFFE1FF9EBFE6C88C69CAFAC7" author="Hustache" box="[189,386,1267,1293]" firstAuthor="Hustache" pageId="23" pageNumber="24" pagination="28 - 109" refId="ref16140" refString="Hustache A. 1932. Curculionides nouveaux de l'Afrique equatoriale (II partie). Acta Entomologica Musei Nationalis Pragae 10: 28 - 109." type="journal article" year="1932">Hustache (1932)</bibRefCitation>
+. These specimens also bear 
+<typeStatus id="54B9C1EDFFE1FF9EBD93C88B6B72FAC4" box="[712,826,1268,1294]" pageId="23" pageNumber="24">paratypus</typeStatus>
+labels and were labelled as 
+<typeStatus id="54B9C1EDFFE1FF9EBB26C88C6D6EFAC7" box="[1149,1318,1267,1293]" pageId="23" pageNumber="24">paralectotypes</typeStatus>
+of this species. Observations made on the external and internal morphology of specimens of this series showed no difference from the 
+<typeStatus id="54B9C1EDFFE1FF9EBE90C9466A7AFA99" box="[459,562,1337,1363]" pageId="23" pageNumber="24">holotype</typeStatus>
+of 
+<taxonomicName id="4C0204CCFFE1FF9EBD02C9466B2AFA99" box="[601,866,1337,1363]" class="Insecta" family="Curculionidae" genus="Elaeidobius" higherTaxonomySource="GBIF" kingdom="Animalia" order="Coleoptera" pageId="23" pageNumber="24" phylum="Arthropoda" rank="species" species="singularis">
+<emphasis id="B976A35DFFE1FF9EBD02C9466B2AFA99" box="[601,866,1337,1363]" italics="true" pageId="23" pageNumber="24">Elaeidobius singularis</emphasis>
+</taxonomicName>
+. Consequently, the name 
+<taxonomicName id="4C0204CCFFE1FF9EBBCAC9466D3FFA99" authorityName="Hustache" authorityYear="1932" box="[1169,1399,1337,1363]" class="Insecta" family="Curculionidae" genus="Derelomus" kingdom="Animalia" order="Coleoptera" pageId="23" pageNumber="24" phylum="Arthropoda" rank="species" species="uelensis">
+<emphasis id="B976A35DFFE1FF9EBBCAC9466D3FFA99" box="[1169,1399,1337,1363]" italics="true" pageId="23" pageNumber="24">Derelomus uelensis</emphasis>
+</taxonomicName>
+should be considered as a junior synonym of 
+<taxonomicName id="4C0204CCFFE1FF9EBD8BC9226B91FABD" box="[720,985,1373,1399]" class="Insecta" family="Curculionidae" genus="Elaeidobius" higherTaxonomySource="GBIF" kingdom="Animalia" order="Coleoptera" pageId="23" pageNumber="24" phylum="Arthropoda" rank="species" species="singularis">
+<emphasis id="B976A35DFFE1FF9EBD8BC9226B91FABD" box="[720,985,1373,1399]" italics="true" pageId="23" pageNumber="24">Elaeidobius singularis</emphasis>
+</taxonomicName>
+.
+</paragraph>
+</subSubSection>
+</treatment>
+</document>
