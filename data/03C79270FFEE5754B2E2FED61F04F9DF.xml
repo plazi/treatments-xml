@@ -1,0 +1,866 @@
+<document id="CBEB68AF17AECE75506EE57223528F56" ID-DOI="http://doi.org/10.5281/zenodo.4419053" ID-GBIF-Dataset="d640faf0-b3db-4fad-baaf-9eeaef7350e4" ID-GBIF-Taxon="176434258" ID-Zenodo-Dep="4419053" ID-ZooBank="857A9432-9083-46B3-B0BF-B34D619EB350" LSID="urn:lsid:zoobank.org:act:F8BC0D7A-18AD-455C-9A82-542A062C9BC2" _generate="added" checkinTime="1609836157183" checkinUser="plazi" docAuthor="Sørensen, Martin V., Goetz, Freya E., Herranz, María, Chang, Cheon Young, Chatterjee, Tapas, Durucan, Furkan, Neves, Ricardo C., Yildiz, N. Özlem, Norenburg, Jon &amp; Yamasaki, Hiroshi" docDate="2020" docId="03C79270FFEE5754B2E2FED61F04F9DF" docLanguage="en" docName="ejt-730_1-101.pdf" docOrigin="European Journal of Taxonomy 730" docStyle="DocumentStyle:EF2B578F1D15862ADE45B0C07C620911.12:EJT.2018-.journal_article" docStyleId="EF2B578F1D15862ADE45B0C07C620911" docStyleName="EJT.2018-.journal_article" docStyleVersion="12" docTitle="Echinoderes chandrasekharai Sorensen &amp; Chatterjee 2020, sp. nov." docType="treatment" docUuid="F8BC0D7A-18AD-455C-9A82-542A062C9BC2" docUuidSource="ZooBank" docVersion="6" lastPageId="72" lastPageNumber="73" masterDocId="FFFEEA08FFAF571CB348FFDF1A73FF96" masterDocTitle="Description, redescription and revision of sixteen putatively closely related species of Echinoderes (Kinorhyncha: Cyclorhagida), with the proposition of a new species group - the Echinoderes dujardinii group" masterLastPageNumber="101" masterPageNumber="1" pageId="65" pageNumber="66" updateTime="1634697983767" updateUser="ExternalLinkService" zenodo-license-document="CC-BY-4.0" zenodo-license-figures="CC-BY-4.0" zenodo-license-treatments="UNSPECIFIED">
+<mods:mods id="D59FFA522DB1688B23BE7E8D447133F1" xmlns:mods="http://www.loc.gov/mods/v3">
+<mods:titleInfo id="1EA472D91C9545F7EA507DFE9B0C8D4B">
+<mods:title id="5392E6AF4AAA3EDB07C87248B8BF45CE">Description, redescription and revision of sixteen putatively closely related species of Echinoderes (Kinorhyncha: Cyclorhagida), with the proposition of a new species group - the Echinoderes dujardinii group</mods:title>
+</mods:titleInfo>
+<mods:name id="81CFA06B3713B5CB6470A6689F3B64D6" type="personal">
+<mods:role id="E7D46750DE11B6D2066C390E980811C5">
+<mods:roleTerm id="292067B3357324855F7572C82B71DA2E">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="BD9ACD132A4EF1F57ABFCB5397B7523C">Sørensen, Martin V.</mods:namePart>
+<mods:nameIdentifier id="95BE1ABD28B0913DBEC4881A5069A100" type="LSID">4143D650-12FC-4914-93F5-2C39339A7156</mods:nameIdentifier>
+<mods:affiliation id="F477C2F389798A371905AA7658B79B5C">Natural History Museum of Denmark, University of Copenhagen, DK- 2100 Copenhagen, Denmark. Department of Invertebrate Zoology, Smithsonian National Museum of Natural History, Washington, DC 20560, USA. Department of Biological Science, College of Natural and Life Sciences, Daegu University, Gyeongsan 38453, Korea. Crescent International School, Bario, Govindpur, Dhanbad 828109, Jharkhand, India. Isparta University of Applied Sciences, Department of Aquaculture, 32260 Isparta, Turkey. Department of Biology, University of Copenhagen, DK- 2100 Copenhagen, Denmark. Silifke Vocational School Aquaculture Program, Mersin University, 33940 Mersin, Turkey. Faculty of Arts and Science, Kyushu University, Fukuoka 819 - 0395, Japan.</mods:affiliation>
+<mods:nameIdentifier id="BF3B8E1A3D4BBEE69DCAB0CBE461B7AC" type="email">mvsorensen@snm.ku.dk</mods:nameIdentifier>
+</mods:name>
+<mods:name id="82476C148E4FE70BE81E8AE085844DE2" type="personal">
+<mods:role id="C5551B23F97E91F66E722D6B80D7AD8C">
+<mods:roleTerm id="25AD66F9DB2C307B2CCB72C0410278DC">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="BD0CD7DDFD30BA3B4C6E9407CBFBD9B8">Goetz, Freya E.</mods:namePart>
+<mods:nameIdentifier id="4198C9F8FAB30BB2E8C7147A460F6770" type="LSID">5849A537-F762-4B25-9493-E8B32690C49D</mods:nameIdentifier>
+<mods:affiliation id="896C4C23FA8978708692FC10B960F988">Department of Invertebrate Zoology, Smithsonian National Museum of Natural History, Washington, DC 20560, USA.</mods:affiliation>
+<mods:nameIdentifier id="1405DE1951BFE85D6591B62AEBE41DD6" type="email">GoetzF@si.edu</mods:nameIdentifier>
+</mods:name>
+<mods:name id="A5E406F456DE5B69DCB2766D9FF25589" type="personal">
+<mods:role id="E5B26290FCD36945C5DBEB17D76CC056">
+<mods:roleTerm id="6E309280A6E2161D5AB02E4075296DFA">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="2A22E3052A2A4F3338A8F6622D715138">Herranz, María</mods:namePart>
+<mods:nameIdentifier id="F8E24F42FD39ADDD6850D86143ED46BF" type="LSID">2A7DE5DC-FF82-49CC-9DD4-CC0AFA1B281B</mods:nameIdentifier>
+<mods:affiliation id="A13960F746197FB88D86B0249F765DB8">Natural History Museum of Denmark, University of Copenhagen, DK- 2100 Copenhagen, Denmark. Department of Invertebrate Zoology, Smithsonian National Museum of Natural History, Washington, DC 20560, USA. Department of Biological Science, College of Natural and Life Sciences, Daegu University, Gyeongsan 38453, Korea. Crescent International School, Bario, Govindpur, Dhanbad 828109, Jharkhand, India. Isparta University of Applied Sciences, Department of Aquaculture, 32260 Isparta, Turkey. Department of Biology, University of Copenhagen, DK- 2100 Copenhagen, Denmark. Silifke Vocational School Aquaculture Program, Mersin University, 33940 Mersin, Turkey. Faculty of Arts and Science, Kyushu University, Fukuoka 819 - 0395, Japan.</mods:affiliation>
+<mods:nameIdentifier id="D768C6D6B7D120C9C19A0583F62B63CE" type="email">maria.herranz@bio.ku.dk</mods:nameIdentifier>
+</mods:name>
+<mods:name id="10DCB34B0928B5566F401F53416F0735" type="personal">
+<mods:role id="FF2AEFD845CD7F7F5C08A6AD6CB7BF5A">
+<mods:roleTerm id="CF2183364067094A72C729CB9265B419">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="1CFA4E431464DDC65146ED7FAD3EB4BF">Chang, Cheon Young</mods:namePart>
+<mods:nameIdentifier id="83E8FED7DC4AB98475083F0C03F254BB" type="LSID">497A5735-AA95-498A-A1B8-58180C2ACA33</mods:nameIdentifier>
+<mods:affiliation id="E0FB9C9696C402CFA59612CA5ECB3D22">Department of Biological Science, College of Natural and Life Sciences, Daegu University, Gyeongsan 38453, Korea</mods:affiliation>
+<mods:nameIdentifier id="E676A4469EDF84378A3E949FBA6FD848" type="email">cychang@daegu.ac.kr</mods:nameIdentifier>
+</mods:name>
+<mods:name id="A9A395011D6FE165C33DF8636CCCB0CE" type="personal">
+<mods:role id="2C1132567825A8A485F6865421F6F319">
+<mods:roleTerm id="3EE4FD2CEE64FD4A53BE865BB1AFA256">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="66A4251167884AA9EBB322B22C5C9111">Chatterjee, Tapas</mods:namePart>
+<mods:nameIdentifier id="2FAC884FD217979EFAAA2FC8E0D0FE68" type="LSID">F35C0625-55F6-4307-A7BE-93416BE6F0D7</mods:nameIdentifier>
+<mods:affiliation id="08D876B970D078CBB740FB2CB9FF1D70">Crescent International School, Bario, Govindpur, Dhanbad 828109, Jharkhand, India.</mods:affiliation>
+<mods:nameIdentifier id="EF6B343F06F39DA974642BF5A401191F" type="email">drtchatterjee@gmail.com</mods:nameIdentifier>
+</mods:name>
+<mods:name id="C2AA1715FB3929753FA2C1D3A9192029" type="personal">
+<mods:role id="EC8D3E2F50AF15FD463825DC5BB24D96">
+<mods:roleTerm id="B9108815ACFDEA7E8E484871DC832126">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="3C44B247945824E0541484C17B4273B5">Durucan, Furkan</mods:namePart>
+<mods:nameIdentifier id="3353406694B1DC3A6603EEE7EA7FA31C" type="LSID">62189A90-E675-49B1-BE3C-F4657CA40EE4</mods:nameIdentifier>
+<mods:affiliation id="6409502A33B1F993BBDB83F5A5F83230">Isparta University of Applied Sciences, Department of Aquaculture, 32260 Isparta, Turkey.</mods:affiliation>
+<mods:nameIdentifier id="3A3FF8C33502EE8A900B78CC0107660A" type="email">f_durucan@hotmail.com</mods:nameIdentifier>
+</mods:name>
+<mods:name id="A76456551E3558709DC3B4D023DE5E15" type="personal">
+<mods:role id="A827226FC5EA550918910CC194940B7D">
+<mods:roleTerm id="AA006D2F46ABCB2FD59AD04AD742E903">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="E6C88709BC8141A82A21B58361EF3F0C">Neves, Ricardo C.</mods:namePart>
+<mods:nameIdentifier id="7D3AF052F3908693D9CCBAA0268D152B" type="LSID">C2B164FF-E8D8-468E-A07E-C39E1C71E65E</mods:nameIdentifier>
+<mods:affiliation id="AFB8B9D56F0365E7C627950C5C7E9791">Department of Biology, University of Copenhagen, DK- 2100 Copenhagen, Denmark.</mods:affiliation>
+<mods:nameIdentifier id="3AF4E25B19FD8579090A22FB8819B7C5" type="email">ricardon.6@gmail.com</mods:nameIdentifier>
+</mods:name>
+<mods:name id="856067D6662AC3FDF3B4D0DC39E6A522" type="personal">
+<mods:role id="96E468E2BA5983B475A45F832CD036C3">
+<mods:roleTerm id="2572C999AF8FD9A0B421CD9BD3E8CDBF">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="BBA3FC93EDA4C65C113F16CCFCCB9580">Yildiz, N. Özlem</mods:namePart>
+<mods:nameIdentifier id="E370AD0343E246B14A9C1A0B83D4F600" type="LSID">CE2E097A-4499-498C-980E-F21A4156F76E</mods:nameIdentifier>
+<mods:affiliation id="9E34CCE81990E5FA8E3D2BABBE4A8831">Silifke Vocational School Aquaculture Program, Mersin University, 33940 Mersin, Turkey.</mods:affiliation>
+<mods:nameIdentifier id="42047F9954578B80191C81605BCC333E" type="email">nozlemkoroglu@gmail.com</mods:nameIdentifier>
+</mods:name>
+<mods:name id="F0E98D8D7AE9F6F8B39CADE2214EAE03" type="personal">
+<mods:role id="30C165FB1132EA20A702C27F8FFFC07B">
+<mods:roleTerm id="69873B03FE8874CADFE2FEE3E0F05C06">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="4F153A733E8DD1FCF0D11B450DBF7400">Norenburg, Jon</mods:namePart>
+<mods:nameIdentifier id="C4CB9A6D15AEF68B4E65700C5FF7CECB" type="LSID">B8710D9A-1549-4E17-AF4F-6B598744C02E</mods:nameIdentifier>
+<mods:affiliation id="3D5F3158A858F08D4E1A96684A1899FF">Department of Invertebrate Zoology, Smithsonian National Museum of Natural History, Washington, DC 20560, USA.</mods:affiliation>
+<mods:nameIdentifier id="28BA8097FDB84B29D56DBF62688E8EBB" type="email">NORENBUR@si.edu</mods:nameIdentifier>
+</mods:name>
+<mods:name id="731BF4E7483BDA8E6D38C58C84D2EF27" type="personal">
+<mods:role id="6B95A88BAB13441482FE892C23868B75">
+<mods:roleTerm id="45DE2348B36A6110C8FE62F076865D3C">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="54A408E74CADBAFD6D7F847430F7365D">Yamasaki, Hiroshi</mods:namePart>
+<mods:affiliation id="9C5F83D72062C9083552F9E1552D2C2A">Faculty of Arts and Science, Kyushu University, Fukuoka 819 - 0395, Japan.</mods:affiliation>
+</mods:name>
+<mods:typeOfResource id="87883133197EFDAE376B05C1C7DFF7ED">text</mods:typeOfResource>
+<mods:relatedItem id="88848E0C17FDA1D6DE6C953380205F90" type="host">
+<mods:titleInfo id="AB649E1FDA02B417FE480A4DC38F5D00">
+<mods:title id="3CA6990CA5ED9443DBD90B01765DA38A">European Journal of Taxonomy</mods:title>
+</mods:titleInfo>
+<mods:part id="C3BE7105653E35268EFA1F9035ED2BD8">
+<mods:date id="CA8954DC9C6504A78F9D84EA51BBA878">2020</mods:date>
+<mods:detail id="BF404F8FFD7EB130CA168D79E387C7E6" type="pubDate">
+<mods:number id="17E40A373A406C089CBB24F74745343D">2020-12-30</mods:number>
+</mods:detail>
+<mods:detail id="155ADDBC46BB9FAA2F2DB8E2A07D3FC4" type="volume">
+<mods:number id="2F939EEA4B04FA2F16FC143A3BEADFFF">730</mods:number>
+</mods:detail>
+<mods:extent id="CE65F6924442C81F4E23CE314F3DFC75" unit="page">
+<mods:start id="E6842CB2911CA608672E4B289081D99D">1</mods:start>
+<mods:end id="8E38136B944041C253A3C9F204158417">101</mods:end>
+</mods:extent>
+</mods:part>
+</mods:relatedItem>
+<mods:classification id="460681210D931B25847FDEA01C4C9128">journal article</mods:classification>
+<mods:identifier id="08BD746ED95DCFC69447C3131C9694DD" type="DOI">https://doi.org/10.5852/ejt.2020.730.1197</mods:identifier>
+<mods:identifier id="634DB3A379CA46C0285FB2CFE2359A53" type="GBIF-Dataset">d640faf0-b3db-4fad-baaf-9eeaef7350e4</mods:identifier>
+<mods:identifier id="D24A92C3074E28D40ABB042E31CF4D7B" type="Zenodo-Dep">4418973</mods:identifier>
+<mods:identifier id="7E72DC4A04B3EBC1FAA0BC88697733A0" type="ZooBank">857A9432-9083-46B3-B0BF-B34D619EB350</mods:identifier>
+</mods:mods>
+<treatment id="03C79270FFEE5754B2E2FED61F04F9DF" ID-DOI="http://doi.org/10.5281/zenodo.4419053" ID-GBIF-Taxon="176434258" ID-Zenodo-Dep="4419053" LSID="urn:lsid:zoobank.org:act:F8BC0D7A-18AD-455C-9A82-542A062C9BC2" httpUri="http://treatment.plazi.org/id/03C79270FFEE5754B2E2FED61F04F9DF" lastPageId="72" lastPageNumber="73" pageId="65" pageNumber="66">
+<subSubSection id="C37470EDFFEE575DB2E2FED61EFAFEB2" box="[426,1161,265,292]" pageId="65" pageNumber="66" type="nomenclature">
+<paragraph id="8BD12366FFEE575DB2E2FED61EFAFEB2" blockId="65.[358,1229,265,362]" box="[426,1161,265,292]" pageId="65" pageNumber="66">
+<heading id="D099940AFFEE575DB2E2FED61EFAFEB2" box="[426,1161,265,292]" centered="true" fontSize="11" level="2" pageId="65" pageNumber="66" reason="2">
+<taxonomicName id="4C6E58E5FFEE575DB2E2FED61E5BFEB5" authority="Sorensen &amp; Chatterjee" authorityName="Sorensen &amp; Chatterjee" authorityYear="2020" box="[426,1064,265,292]" class="Kinorhyncha" family="Echinoderidae" genus="Echinoderes" kingdom="Animalia" order="Cyclorhagida" pageId="65" pageNumber="66" phylum="Cephalorhyncha" rank="species" species="chandrasekharai" status="sp. nov.">
+<emphasis id="B91AFF74FFEE575DB2E2FED61965FEB2" bold="true" box="[426,790,265,292]" italics="true" pageId="65" pageNumber="66">Echinoderes chandrasekharai</emphasis>
+Sørensen &amp; Chatterjee
+</taxonomicName>
+<taxonomicNameLabel id="A229420FFFEE575DB767FED51EFAFEB2" box="[1071,1161,266,292]" pageId="65" pageNumber="66" rank="species">sp. nov.</taxonomicNameLabel>
+</heading>
+</paragraph>
+</subSubSection>
+<subSubSection id="C37470EDFFEE575DB22EFEF319C2FEFC" pageId="65" pageNumber="66" type="description">
+<paragraph id="8BD12366FFEE575DB22EFEF31EBEFED1" blockId="65.[358,1229,265,362]" box="[358,1229,300,327]" pageId="65" pageNumber="66">
+<uri id="FFFF2F64FFEE575DB22EFEF31EBEFED1" box="[358,1229,300,327]" pageId="65" pageNumber="66">
+urn:lsid:zoobank.org:act: 
+<uuid id="FFC819B3FFEE575DB1CDFEF31EBEFED1" box="[645,1229,300,327]" pageId="65" pageNumber="66">F8BC0D7A-18AD-455C-9A82-542A062C9BC2</uuid>
+</uri>
+</paragraph>
+<paragraph id="8BD12366FFEE575DB1CAFE9019C2FEFC" blockId="65.[358,1229,265,362]" box="[642,945,335,362]" pageId="65" pageNumber="66">
+<figureCitation id="13553FE3FFEE575DB1CAFE90197AFEFC" box="[642,777,335,362]" captionStart-0="Fig" captionStart-1="Fig" captionStart-2="Fig" captionStartId-0="68.[189,232,1922,1948]" captionStartId-1="69.[189,232,1748,1774]" captionStartId-2="70.[189,232,1683,1709]" captionTargetBox-0="[264,1320,269,1884]" captionTargetBox-1="[304,1286,268,1709]" captionTargetBox-2="[226,1366,269,1649]" captionTargetId-0="figure-14@68.[263,1324,265,1884]" captionTargetId-1="figure-11@69.[299,1287,265,1713]" captionTargetId-2="figure-13@70.[224,1367,265,1651]" captionTargetPageId-0="68" captionTargetPageId-1="69" captionTargetPageId-2="70" captionText-0="Fig. 22. Line art illustrations of Echinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov.A. Female, dorsal view. B. Female, ventral view. C. Segments 10 to 11 in male, dorsal view. D. Segments 10 to 11 in male, ventral view." captionText-1="Fig. 23. Light micrographs showing overviews and details of Echinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov. A–E, G–J. Holotype, ♀ (USNM-55391). F. Paratype, ♀ (USNM-55394). K. Paratype, ♂ (USNM-55397). A. Ventral overview. B. Segments 1 to 4, dorsal view. C. Segments 1 to 4, ventral view. D. Segments 4 to 8, dorsal view. E. Segments 5 to 8, ventral view, showing female sexual dimorphism. F. Segments 8 to 9, dorsal view. G. Detail showing ventrolateral female papilla on segment 7. H. Detail showing ventromedial female papilla on segment 8. I. Detail showing ventral trichoscalids and trichoscalid plates. J. Segments 10 to 11, ventral view, showing female sexual dimorphism. K. Segments 10 to 11, ventral view, showing male sexual dimorphism." captionText-2="Fig. 24. Scanning electron micrographs showing overviews and details of Echinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov. A–C, H–I, K. ♀ (MVS, personal reference collection). D–G, J, L. ♂ (MVS, personal reference collection). A. Ventrolateral overview. B. Mouth cone, lateroventral view. C. Introvert sector 1 (ventral); inset shows detail of primary spinoscalid fringes, alternatingly attaching along a longitudinal line. D. Segments 1 to 2, dorsal view. E. Segments 1 to 2, ventral view. F. Segments 8 to 9, lateral view. G. Segments 6 to 8, dorsal view. H. Right sternal plate of segment 7, showing female sexual dimorphism. I. Right sternal plate of segment 8, showing female sexual dimorphism. J. Segments 10 to 11 dorsal view, showing male sexual dimorphism. K. Segments 10 to 11 ventral view, showing male sexual dimorphism. L. Segments 10 to 11 ventrolateral view, showing female sexual dimorphism." figureDoi-0="http://doi.org/10.5281/zenodo.4419039" figureDoi-1="http://doi.org/10.5281/zenodo.4419043" figureDoi-2="http://doi.org/10.5281/zenodo.4419045" httpUri-0="https://zenodo.org/record/4419039/files/figure.png" httpUri-1="https://zenodo.org/record/4419043/files/figure.png" httpUri-2="https://zenodo.org/record/4419045/files/figure.png" pageId="65" pageNumber="66">Figs 22–24</figureCitation>
+; 
+<tableCitation id="C6EC16DDFFEE575DB05CFE9019C2FEFC" box="[788,945,335,362]" captionStart-0="Table 17" captionStart-1="Table 18" captionStartId-0="66.[189,258,266,292]" captionStartId-1="71.[189,258,265,291]" captionTargetPageId-0="66" captionTargetPageId-1="71" captionText-0="Table 17. Measurements from light microscopy forEchinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov. (in µm), including number of measured specimens (n) and standard deviation (SD)." captionText-1="Table 18. Summary of nature and location of sensory spots, glandular cell outlets, tubes and spines arranged by series in Echinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov." pageId="65" pageNumber="66">Tables 17–18</tableCitation>
+</paragraph>
+</subSubSection>
+<subSubSection id="C37470EDFFEE575DB3F5FE4E1F2BFE59" pageId="65" pageNumber="66" type="reference_group">
+<paragraph id="8BD12366FFEE575DB3F5FE4E1F2BFE59" blockId="65.[189,1398,401,463]" pageId="65" pageNumber="66">
+<treatmentCitationGroup id="AB7E0448FFEE575DB3F5FE4E1F2BFE59" pageId="65" pageNumber="66">
+<taxonomicName id="4C6E58E5FFEE575DB3F5FE4E1BB8FE3D" authorityName="Zelinka" authorityYear="1913" box="[189,459,401,427]" class="Kinorhyncha" family="Echinoderidae" genus="Echinoderes" kingdom="Animalia" order="Cyclorhagida" pageId="65" pageNumber="66" phylum="Cephalorhyncha" rank="species" species="ehlersi">
+<emphasis id="B91AFF74FFEE575DB3F5FE4E1B3CFE3D" box="[189,335,401,427]" italics="true" pageId="65" pageNumber="66">Echinoderes</emphasis>
+cf. 
+<emphasis id="B91AFF74FFEE575DB233FE4E1BB8FE3D" box="[379,459,401,427]" italics="true" pageId="65" pageNumber="66">ehlersi</emphasis>
+</taxonomicName>
+– 
+<treatmentCitation id="0ACF0577FFEE575DB2A0FE4E1944FE3D" author="Higgins R. P. &amp; Rao G. C." box="[488,823,401,428]" page="79" pageId="65" pageNumber="66" year="1979">
+<bibRefCitation id="EFFF5E97FFEE575DB2A0FE4E1944FE3D" author="Higgins R. P. &amp; Rao G. C." box="[488,823,401,428]" pageId="65" pageNumber="66" pagination="75 - 85" refId="ref56325" refString="Higgins R. P. &amp; Rao G. C. 1979. Kinorhynchs from the Andaman Islands. Zoological Journal of the Linnean Society 67: 75 - 85. https: // doi. org / 10.1111 / j. 1096 - 3642.1979. tb 01106. x" type="journal article" year="1979">Higgins &amp; Rao 1979: 79–83</bibRefCitation>
+</treatmentCitation>
+, fig. 2 (specimens USNM-55391, USNM-55392, USNM-55394, USNM-55395, USNM-55397). — 
+<treatmentCitation id="0ACF0577FFEE575DB073FE6B1E90FE58" author="Adrianov A. V. &amp; Malakhov V. V." box="[827,1251,436,462]" page="18" pageId="65" pageNumber="66" year="1999">
+<bibRefCitation id="EFFF5E97FFEE575DB073FE6B1E90FE58" author="Adrianov A. V. &amp; Malakhov V. V." box="[827,1251,436,462]" pageId="65" pageNumber="66" refId="ref54623" refString="Adrianov A. V. &amp; Malakhov V. V. 1999. Cephalorhyncha of the world ocean. KMK Scientific Press, Moscow." type="book" year="1999">Adrianov &amp; Malakhov 1999: 18–19</bibRefCitation>
+</treatmentCitation>
+, fig. 5.29.
+</treatmentCitationGroup>
+</paragraph>
+</subSubSection>
+<subSubSection id="C37470EDFFEE575DB3F5FE2A1EBBFC84" pageId="65" pageNumber="66" type="diagnosis">
+<paragraph id="8BD12366FFEE575DB3F5FE2A1B45FD99" blockId="65.[189,310,501,527]" box="[189,310,501,527]" pageId="65" pageNumber="66">
+<heading id="D099940AFFEE575DB3F5FE2A1B45FD99" bold="true" box="[189,310,501,527]" fontSize="11" level="3" pageId="65" pageNumber="66" reason="3">
+<emphasis id="B91AFF74FFEE575DB3F5FE2A1B45FD99" bold="true" box="[189,310,501,527]" pageId="65" pageNumber="66">Diagnosis</emphasis>
+</heading>
+</paragraph>
+<paragraph id="8BD12366FFEE575DB3F5FDFB1EBBFC84" blockId="65.[189,1401,548,786]" pageId="65" pageNumber="66">
+<taxonomicName id="4C6E58E5FFEE575DB3F5FDFB1B3CFDA8" authorityName="Dujardinii Claparede" authorityYear="1863" box="[189,335,548,574]" class="Kinorhyncha" family="Echinoderidae" genus="Echinoderes" kingdom="Animalia" order="Cyclorhagida" pageId="65" pageNumber="66" phylum="Cephalorhyncha" rank="genus">
+<emphasis id="B91AFF74FFEE575DB3F5FDFB1B3CFDA8" box="[189,335,548,574]" italics="true" pageId="65" pageNumber="66">Echinoderes</emphasis>
+</taxonomicName>
+with short middorsal spines on segments 4 to 8, and lateroventral spines on segments 6 to 9; middorsal spines never reach the pectinate fringes of the posterior margins of their segments. Tubes present in lateroventral positions on segments 2 and 5, and in laterodorsal positions on 10. Minute glandular cell outlets 
+<typeStatus id="54D59DC4FFEE575DB168FD511820FD3E" box="[544,595,654,680]" pageId="65" pageNumber="66">type</typeStatus>
+<quantity id="4C968E83FFEE575DB114FD5118FFFD3E" box="[604,652,654,680]" metricMagnitude="-2" metricUnit="m" metricValue="5.08" pageId="65" pageNumber="66" unit="in" value="2.0">2 in</quantity>
+laterodorsal positions on segments 8 and 9. Tergal extensions of segment 11 short, pointed and well-spaced; sternal extensions short, with ventrolateral seta-like tuft of extended fringe tips. Females with female papillae with crescentic intracuticular substructure in ventrolateral positions on segments 6 and 7 and in ventromedial positions on segment 8.
+</paragraph>
+</subSubSection>
+<subSubSection id="C37470EDFFEE575DB3F5FCE61F6EFC33" pageId="65" pageNumber="66" type="etymology">
+<paragraph id="8BD12366FFEE575DB3F5FCE61B37FCC5" blockId="65.[189,324,825,851]" box="[189,324,825,851]" pageId="65" pageNumber="66">
+<heading id="D099940AFFEE575DB3F5FCE61B37FCC5" bold="true" box="[189,324,825,851]" fontSize="11" level="3" pageId="65" pageNumber="66" reason="3">
+<emphasis id="B91AFF74FFEE575DB3F5FCE61B37FCC5" bold="true" box="[189,324,825,851]" pageId="65" pageNumber="66">Etymology</emphasis>
+</heading>
+</paragraph>
+<paragraph id="8BD12366FFEE575DB3F5FCB81F6EFC33" blockId="65.[189,1398,871,933]" pageId="65" pageNumber="66">
+The species is dedicated to Dr G. Chandrasekhara Rao in recognition of his contributions to Indian kinorhynch studies, and for being the first to collect the new species (see 
+<bibRefCitation id="EFFF5E97FFEE575DB750FC551F63FC33" author="Higgins R. P. &amp; Rao G. C." box="[1048,1296,906,933]" pageId="65" pageNumber="66" pagination="75 - 85" refId="ref56325" refString="Higgins R. P. &amp; Rao G. C. 1979. Kinorhynchs from the Andaman Islands. Zoological Journal of the Linnean Society 67: 75 - 85. https: // doi. org / 10.1111 / j. 1096 - 3642.1979. tb 01106. x" type="journal article" year="1979">Higgins &amp; Rao 1979</bibRefCitation>
+).
+</paragraph>
+</subSubSection>
+<subSubSection id="C37470EDFFEE575DB3F5FC131F01F9AF" pageId="65" pageNumber="66" type="materials_examined">
+<paragraph id="8BD12366FFEE575DB3F5FC131BD9FC70" blockId="65.[189,426,972,998]" box="[189,426,972,998]" pageId="65" pageNumber="66">
+<heading id="D099940AFFEE575DB3F5FC131BD9FC70" bold="true" box="[189,426,972,998]" fontSize="11" level="3" pageId="65" pageNumber="66" reason="3">
+<emphasis id="B91AFF74FFEE575DB3F5FC131BD9FC70" bold="true" box="[189,426,972,998]" pageId="65" pageNumber="66">Material examined</emphasis>
+</heading>
+</paragraph>
+<paragraph id="8BD12366FFEE575DB3A2FC241B2FFB83" blockId="65.[189,1399,1019,1151]" box="[234,348,1019,1045]" pageId="65" pageNumber="66">
+<emphasis id="B91AFF74FFEE575DB3A2FC241B2FFB83" bold="true" box="[234,348,1019,1045]" pageId="65" pageNumber="66">
+<typeStatus id="54D59DC4FFEE575DB3A2FC241B2FFB83" box="[234,348,1019,1045]" pageId="65" pageNumber="66">Holotype</typeStatus>
+</emphasis>
+</paragraph>
+<paragraph id="8BD12366FFEE575DB3F5FBC11820FBE8" blockId="65.[189,1399,1019,1151]" pageId="65" pageNumber="66">
+<materialsCitation id="3B06293BFFEE575DB3F5FBC11820FBE8" ID-GBIF-Occurrence="3009108345" collectedFrom="intertidal black mud with macroalgae" collectingDate="1974-04-05" collectionCode="USNM" collectorName="G. C. Rao" country="India" county="East Point" elevation="1" latitude="11.9" location="Andaman Islands" longLatPrecision="1294" longitude="93.05" municipality="Havelock Island" pageId="65" pageNumber="66" specimenCode="USNM-55391" specimenCount="1" specimenCount-female="1" typeStatus="holotype">
+<collectingCountry id="F37963F6FFEE575DB3F5FBC11B7DFBAE" box="[189,270,1054,1080]" name="India" pageId="65" pageNumber="66">INDIA</collectingCountry>
+• 
+<specimenCount id="9D68E8EFFFEE575DB263FBC11B31FBAE" box="[299,322,1054,1080]" pageId="65" pageNumber="66" type="female">♀</specimenCount>
+; 
+<location id="8EB175BDFFEE575DB219FBC11850FBAE" LSID="urn:lsid:plazi:treatment:03C79270FFEE5754B2E2FED61F04F9DF:8EB175BDFFEE575DB219FBC11850FBAE" box="[337,547,1054,1080]" country="India" county="East Point" latitude="11.9" longLatPrecision="1294" longitude="93.05" municipality="Havelock Island" name="Andaman Islands" pageId="65" pageNumber="66">Andaman Islands</location>
+, 
+<location id="8EB175BDFFEE575DB178FBC11886FBAE" LSID="urn:lsid:plazi:treatment:03C79270FFEE5754B2E2FED61F04F9DF:8EB175BDFFEE575DB178FBC11886FBAE" box="[560,757,1054,1080]" country="India" county="East Point" latitude="11.9" longLatPrecision="1294" longitude="93.05" municipality="Havelock Island" name="Havelock Island" pageId="65" pageNumber="66">Havelock Island</location>
+, 
+<locationDeviation id="9A633A44FFEE575DB04BFBC119F3FBAE" box="[771,896,1054,1080]" pageId="65" pageNumber="66">East Point</locationDeviation>
+; 
+<geoCoordinate id="EE5A45A1FFEE575DB0C6FBC31988FBAE" box="[910,1019,1052,1080]" degrees="11" direction="north" minutes="54" orientation="latitude" pageId="65" pageNumber="66" precision="925" value="11.9">11°54′ N</geoCoordinate>
+, 
+<geoCoordinate id="EE5A45A1FFEE575DB741FBC31EF0FBAE" box="[1033,1155,1052,1080]" degrees="093" direction="east" minutes="03" orientation="longitude" pageId="65" pageNumber="66" precision="925" value="93.05">093°03′ E</geoCoordinate>
+; &lt;
+<elevation id="0043C455FFEE575DB7E3FBC11F6EFBAE" box="[1195,1309,1054,1080]" metricMagnitude="0" metricUnit="m" metricValue="1.0" pageId="65" pageNumber="66" unit="m" value="1.0">
+<quantity id="4C968E83FFEE575DB7E3FBC11EA9FBAE" box="[1195,1242,1054,1080]" metricMagnitude="0" metricUnit="m" metricValue="1.0" pageId="65" pageNumber="66" unit="m" value="1.0">1 m</quantity>
+b.s.l.
+</elevation>
+; 
+<date id="FFD005A6FFEE575DB665FBC11A88FBCD" pageId="65" pageNumber="66" value="1974-04-05">
+<collectingDate id="EF94FC4EFFEE575DB665FBC11A88FBCD" pageId="65" pageNumber="66" value="1974-04-05">5 Apr. 1974</collectingDate>
+</date>
+; 
+<collectorName id="269B46B0FFEE575DB24FFB9E1B05FBCD" box="[263,374,1089,1115]" pageId="65" pageNumber="66">G.C. Rao</collectorName>
+leg.; 
+<collectedFrom id="3872609BFFEE575DB2F1FB9E1907FBCD" box="[441,884,1089,1115]" pageId="65" pageNumber="66">intertidal black mud with macroalgae</collectedFrom>
+; 
+<specimenCode id="DBC88B1DFFEE575DB0C8FB9E1E5FFBCA" box="[896,1068,1089,1116]" collectionCode="USNM-" pageId="65" pageNumber="66">USNM-55391</specimenCode>
+. Specimen mounted for LM on Cobb slide in Hoyer’s medium.
+</materialsCitation>
+</paragraph>
+<paragraph id="8BD12366FFEE575DB3A2FB791B14FB56" blockId="65.[189,1399,1190,1287]" box="[234,359,1190,1216]" pageId="65" pageNumber="66">
+<emphasis id="B91AFF74FFEE575DB3A2FB791B14FB56" bold="true" box="[234,359,1190,1216]" pageId="65" pageNumber="66">
+<typeStatus id="54D59DC4FFEE575DB3A2FB791B14FB56" box="[234,359,1190,1216]" pageId="65" pageNumber="66">Paratypes</typeStatus>
+</emphasis>
+</paragraph>
+<paragraph id="8BD12366FFEE575DB3F5FB161BCEFA90" blockId="65.[189,1399,1190,1287]" pageId="65" pageNumber="66">
+<materialsCitation id="3B06293BFFEE575DB3F5FB161BCAFA90" ID-GBIF-Occurrence="3009108359" collectedFrom="muddy sand gravel, rich in organic matter" collectingDate="1974-04-05" collectionCode="USNM" collectorName="G. C. Rao &amp; Specimen &amp; Cobb &amp; Hoyer's" country="India" county="East Point" elevation="1" latitude="11.9" location="INDIA" longLatPrecision="1294" longitude="93.05" municipality="Havelock Island" pageId="65" pageNumber="66" specimenCode="USNM-55392, 55394, 55395, 55397" specimenCount="4" specimenCount-female="3" specimenCount-male="1" stateProvince="WASHINGTON STATE" typeStatus="paratype">
+<collectingCountry id="F37963F6FFEE575DB3F5FB161B7DFB75" box="[189,270,1225,1251]" name="India" pageId="65" pageNumber="66">INDIA</collectingCountry>
+• 
+<specimenCount id="9D68E8EFFFEE575DB265FB161B01FB75" box="[301,370,1225,1251]" pageId="65" pageNumber="66" type="female">3 ♀♀</specimenCount>
+, 
+<specimenCount id="9D68E8EFFFEE575DB2CBFB161BC3FB73" box="[387,432,1225,1253]" pageId="65" pageNumber="66" type="male">1 ♂</specimenCount>
+; same collection data as for holotype; 
+<specimenCode id="DBC88B1DFFEE575DB0C2FB161E46FB72" box="[906,1077,1225,1252]" collectionCode="USNM-" pageId="65" pageNumber="66">USNM-55392</specimenCode>
+, 
+<specimenCode id="DBC88B1DFFEE575DB70BFB161EFCFB72" box="[1091,1167,1225,1252]" collectionCode="USNM-" pageId="65" pageNumber="66">55394</specimenCode>
+, 
+<specimenCode id="DBC88B1DFFEE575DB7D6FB161E94FB72" box="[1182,1255,1225,1252]" collectionCode="USNM-" pageId="65" pageNumber="66">55395</specimenCode>
+and 
+<specimenCode id="DBC88B1DFFEE575DB66EFB161F00FB72" box="[1318,1395,1225,1252]" pageId="65" pageNumber="66">55397</specimenCode>
+. Mounted as holotype
+</materialsCitation>
+.
+</paragraph>
+<paragraph id="8BD12366FFEE575DB3F5FAF21EA9FADE" blockId="65.[189,1242,1325,1352]" box="[189,1242,1325,1352]" pageId="65" pageNumber="66">
+The specimens were originally reported as 
+<taxonomicName id="4C6E58E5FFEE575DB1FEFAF21EA5FADE" authority="(Higgins &amp; Rao 1979)" baseAuthorityName="Higgins &amp; Rao" baseAuthorityYear="1979" box="[694,1238,1325,1352]" class="Kinorhyncha" family="Echinoderidae" genus="Echinoderes" kingdom="Animalia" order="Cyclorhagida" pageId="65" pageNumber="66" phylum="Cephalorhyncha" rank="species" species="ehlersi">
+<emphasis id="B91AFF74FFEE575DB1FEFAF2193BFAD1" box="[694,840,1325,1351]" italics="true" pageId="65" pageNumber="66">Echinoderes</emphasis>
+cf. 
+<emphasis id="B91AFF74FFEE575DB03CFAF219B7FAD1" box="[884,964,1325,1351]" italics="true" pageId="65" pageNumber="66">ehlersi</emphasis>
+(
+<bibRefCitation id="EFFF5E97FFEE575DB09CFAF21EBEFADE" author="Higgins R. P. &amp; Rao G. C." box="[980,1229,1325,1352]" pageId="65" pageNumber="66" pagination="75 - 85" refId="ref56325" refString="Higgins R. P. &amp; Rao G. C. 1979. Kinorhynchs from the Andaman Islands. Zoological Journal of the Linnean Society 67: 75 - 85. https: // doi. org / 10.1111 / j. 1096 - 3642.1979. tb 01106. x" type="journal article" year="1979">Higgins &amp; Rao 1979</bibRefCitation>
+)
+</taxonomicName>
+.
+</paragraph>
+<paragraph id="8BD12366FFEE575DB3A2FAB01B92FA1F" blockId="65.[189,1399,1391,1593]" box="[234,481,1391,1417]" pageId="65" pageNumber="66">
+<emphasis id="B91AFF74FFEE575DB3A2FAB01B92FA1F" bold="true" box="[234,481,1391,1417]" pageId="65" pageNumber="66">Additional material</emphasis>
+</paragraph>
+<paragraph id="8BD12366FFEE575DB3F5FA4D1F01F9AF" blockId="65.[189,1399,1391,1593]" pageId="65" pageNumber="66">
+<materialsCitation id="3B06293BFFEE575DB3F5FA4D1861FA64" ID-GBIF-Occurrence="3009108343" collectedFrom="intertidal sand and mud mixed with macroalgae" collectingDate="2005-12" collectorName="T. Chatterjee" country="India" elevation="1" latitude="11.675834" location="South Andaman Islands" longLatPrecision="21" longitude="92.751945" municipality="Wandoor" pageId="65" pageNumber="66" specimenCount="2" specimenCount-female="1">
+<collectingCountry id="F37963F6FFEE575DB3F5FA4D1B7DFA3A" box="[189,270,1426,1452]" name="India" pageId="65" pageNumber="66">INDIA</collectingCountry>
+• 
+<specimenCount id="9D68E8EFFFEE575DB263FA4D1B2AFA3B" box="[299,345,1426,1453]" pageId="65" pageNumber="66" type="female">1 ♀</specimenCount>
+, 
+<specimenCount id="9D68E8EFFFEE575DB221FA4D1BE6FA39" box="[361,405,1426,1455]" pageId="65" pageNumber="66">1 ♂</specimenCount>
+; 
+<location id="8EB175BDFFEE575DB2E1FA4D18B5FA3A" LSID="urn:lsid:plazi:treatment:03C79270FFEE5754B2E2FED61F04F9DF:8EB175BDFFEE575DB2E1FA4D18B5FA3A" box="[425,710,1426,1452]" country="India" latitude="11.675834" longLatPrecision="21" longitude="92.751945" municipality="Wandoor" name="South Andaman Islands" pageId="65" pageNumber="66">South Andaman Islands</location>
+, 
+<collectingMunicipality id="6BB5B91CFFEE575DB19BFA4D1931FA3A" box="[723,834,1426,1452]" pageId="65" pageNumber="66">Wandoor</collectingMunicipality>
+; 
+<geoCoordinate id="EE5A45A1FFEE575DB007FA4F1995FA3B" box="[847,998,1424,1453]" degrees="11" direction="north" minutes="40" orientation="latitude" pageId="65" pageNumber="66" precision="15" seconds="33" value="11.675834">11°40′33″ N</geoCoordinate>
+, 
+<geoCoordinate id="EE5A45A1FFEE575DB0BBFA4F1EE5FA3B" box="[1011,1174,1424,1453]" degrees="092" direction="east" minutes="45" orientation="longitude" pageId="65" pageNumber="66" precision="15" seconds="07" value="92.751945">092°45′07″ E</geoCoordinate>
+; &lt;
+<elevation id="0043C455FFEE575DB7F6FA4D1F42FA3A" box="[1214,1329,1426,1453]" metricMagnitude="0" metricUnit="m" metricValue="1.0" pageId="65" pageNumber="66" unit="m" value="1.0">
+<quantity id="4C968E83FFEE575DB7F6FA4D1E9EFA3B" box="[1214,1261,1426,1453]" metricMagnitude="0" metricUnit="m" metricValue="1.0" pageId="65" pageNumber="66" unit="m" value="1.0">1 m</quantity>
+b.s.l.
+</elevation>
+; 
+<date id="FFD005A6FFEE575DB608FA4C1A88FA46" pageId="65" pageNumber="66" value="2005-12">
+<collectingDate id="EF94FC4EFFEE575DB608FA4C1A88FA46" pageId="65" pageNumber="66" value="2005-12">Dec. 2005</collectingDate>
+</date>
+; 
+<collectorName id="269B46B0FFEE575DB242FA691BD7FA59" box="[266,420,1461,1488]" pageId="65" pageNumber="66">T. Chatterjee</collectorName>
+leg.; 
+<collectedFrom id="3872609BFFEE575DB2A3FA6A1E5CFA59" box="[491,1071,1461,1487]" pageId="65" pageNumber="66">intertidal sand and mud mixed with macroalgae</collectedFrom>
+; stored in the first author’s personal reference collection
+</materialsCitation>
+• 
+<materialsCitation id="3B06293BFFEE575DB165FA061F1DF9AF" ID-GBIF-Occurrence="3009108317" collectedFrom="intertidal sand and mud mixed with macroalgae" collectingDate="2005-12" collectorName="T. Chatterjee" country="India" elevation="1" latitude="11.5575" location="South Andaman Islands" longLatPrecision="21" longitude="92.72945" municipality="Burmanalla" pageId="65" pageNumber="66" specimenCount="1" specimenCount-female="1">
+<specimenCount id="9D68E8EFFFEE575DB165FA061828FA65" box="[557,603,1497,1523]" pageId="65" pageNumber="66" type="female">1 ♀</specimenCount>
+; 
+<location id="8EB175BDFFEE575DB123FA0719F5FA64" LSID="urn:lsid:plazi:treatment:03C79270FFEE5754B2E2FED61F04F9DF:8EB175BDFFEE575DB123FA0719F5FA64" box="[619,902,1496,1522]" country="India" latitude="11.5575" longLatPrecision="21" longitude="92.72945" municipality="Burmanalla" name="South Andaman Islands" pageId="65" pageNumber="66">South Andaman Islands</location>
+, 
+<collectingMunicipality id="6BB5B91CFFEE575DB0DBFA071E53FA64" box="[915,1056,1496,1522]" pageId="65" pageNumber="66">Burmanalla</collectingMunicipality>
+; 
+<geoCoordinate id="EE5A45A1FFEE575DB764FA081EB1FA65" box="[1068,1218,1495,1523]" degrees="11" direction="north" minutes="33" orientation="latitude" pageId="65" pageNumber="66" precision="15" seconds="27" value="11.5575">11°33′27″ N</geoCoordinate>
+, 
+<geoCoordinate id="EE5A45A1FFEE575DB787FA081F02FA65" box="[1231,1393,1495,1523]" degrees="092" direction="east" minutes="43" orientation="longitude" pageId="65" pageNumber="66" precision="15" seconds="46" value="92.72945">092°43′46″ E</geoCoordinate>
+; &lt;
+<elevation id="0043C455FFEE575DB39CFA231B31F980" box="[212,322,1532,1558]" metricMagnitude="0" metricUnit="m" metricValue="1.0" pageId="65" pageNumber="66" unit="m" value="1.0">
+<quantity id="4C968E83FFEE575DB39CFA231B72F980" box="[212,257,1532,1558]" metricMagnitude="0" metricUnit="m" metricValue="1.0" pageId="65" pageNumber="66" unit="m" value="1.0">1 m</quantity>
+b.s.l.
+</elevation>
+; 
+<date id="FFD005A6FFEE575DB206FA231BB9F980" box="[334,458,1531,1558]" pageId="65" pageNumber="66" value="2005-12">
+<collectingDate id="EF94FC4EFFEE575DB206FA231BB9F980" box="[334,458,1531,1558]" pageId="65" pageNumber="66" value="2005-12">Dec. 2005</collectingDate>
+</date>
+; 
+<collectorName id="269B46B0FFEE575DB29DFA23181FF980" box="[469,620,1532,1558]" pageId="65" pageNumber="66">T. Chatterjee</collectorName>
+leg.; 
+<collectedFrom id="3872609BFFEE575DB1E4FA231EA8F980" box="[684,1243,1532,1558]" pageId="65" pageNumber="66">intertidal sand and mud mixed with macroalgae</collectedFrom>
+; stored in the first author’s personal reference collection. Specimens mounted for SEM. See 
+<tableCitation id="C6EC16DDFFEE575DB71CF9C01ED8F9AF" box="[1108,1195,1567,1593]" captionStart="Table 1" captionStartId="4.[189,258,265,291]" captionTargetPageId="4" captionText="Table 1 (continued on next page). Species of Echinoderes Claparède, 1863 examined or studied for the present study. Types have kindly been loaned from ICHUM, NHMD, SMBL, SMNH, and USNM." httpUri="http://table.plazi.org/id/DF1173EEFFAB5718B3F5FED61F33FED0" pageId="65" pageNumber="66" tableUuid="DF1173EEFFAB5718B3F5FED61F33FED0">Table 1</tableCitation>
+for an overview
+</materialsCitation>
+.
+</paragraph>
+</subSubSection>
+<subSubSection id="C37470EDFFEE5754B3F5F9BF1F04F9DF" lastPageId="72" lastPageNumber="73" pageId="65" pageNumber="66" type="description">
+<paragraph id="8BD12366FFEE575DB3F5F9BF1B3DF9EC" blockId="65.[189,334,1632,1658]" box="[189,334,1632,1658]" pageId="65" pageNumber="66">
+<heading id="D099940AFFEE575DB3F5F9BF1B3DF9EC" bold="true" box="[189,334,1632,1658]" fontSize="11" level="3" pageId="65" pageNumber="66" reason="3">
+<emphasis id="B91AFF74FFEE575DB3F5F9BF1B3DF9EC" bold="true" box="[189,334,1632,1658]" pageId="65" pageNumber="66">Description</emphasis>
+</heading>
+</paragraph>
+<paragraph id="8BD12366FFEE575DB3F5F95018BBF8CF" blockId="65.[189,1399,1679,1881]" pageId="65" pageNumber="66">
+Adults with head, neck and eleven trunk segments (
+<figureCitation id="13553FE3FFEE575DB053F9501906F93F" box="[795,885,1679,1705]" captionStart="Fig" captionStartId="68.[189,232,1922,1948]" captionTargetBox="[264,1320,269,1884]" captionTargetId="figure-14@68.[263,1324,265,1884]" captionTargetPageId="68" captionText="Fig. 22. Line art illustrations of Echinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov.A. Female, dorsal view. B. Female, ventral view. C. Segments 10 to 11 in male, dorsal view. D. Segments 10 to 11 in male, ventral view." figureDoi="http://doi.org/10.5281/zenodo.4419039" httpUri="https://zenodo.org/record/4419039/files/figure.png" pageId="65" pageNumber="66">Figs 22</figureCitation>
+A–B, 23A, 24A). Trunk with nearly equally broad sternal plates on segments 5 to 10 (
+<figureCitation id="13553FE3FFEE575DB1D7F96D197EF95A" box="[671,781,1714,1740]" captionStart="Fig" captionStartId="69.[189,232,1748,1774]" captionTargetBox="[304,1286,268,1709]" captionTargetId="figure-11@69.[299,1287,265,1713]" captionTargetPageId="69" captionText="Fig. 23. Light micrographs showing overviews and details of Echinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov. A–E, G–J. Holotype, ♀ (USNM-55391). F. Paratype, ♀ (USNM-55394). K. Paratype, ♂ (USNM-55397). A. Ventral overview. B. Segments 1 to 4, dorsal view. C. Segments 1 to 4, ventral view. D. Segments 4 to 8, dorsal view. E. Segments 5 to 8, ventral view, showing female sexual dimorphism. F. Segments 8 to 9, dorsal view. G. Detail showing ventrolateral female papilla on segment 7. H. Detail showing ventromedial female papilla on segment 8. I. Detail showing ventral trichoscalids and trichoscalid plates. J. Segments 10 to 11, ventral view, showing female sexual dimorphism. K. Segments 10 to 11, ventral view, showing male sexual dimorphism." figureDoi="http://doi.org/10.5281/zenodo.4419043" httpUri="https://zenodo.org/record/4419043/files/figure.png" pageId="65" pageNumber="66">Fig. 23A</figureCitation>
+). Lateral terminal spines long and slender, from 45% to 69% of trunk length. Secondary pectinate fringe present near anterior segment margin of segments 2 to 10, but it is usually covered by the preceding segment. For complete overview of measurements and dimensions, see 
+<tableCitation id="C6EC16DDFFEE575DB237F8C31B94F8A0" box="[383,487,1820,1846]" captionStart="Table 17" captionStartId="66.[189,258,266,292]" captionTargetPageId="66" captionText="Table 17. Measurements from light microscopy forEchinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov. (in µm), including number of measured specimens (n) and standard deviation (SD)." pageId="65" pageNumber="66">Table 17</tableCitation>
+. Distribution of cuticular structures, i.e., sensory spots, glandular cell outlets, spines and tubes, is summarized in 
+<tableCitation id="C6EC16DDFFEE575DB114F8E018B7F8CF" box="[604,708,1855,1881]" captionStart="Table 18" captionStartId="71.[189,258,265,291]" captionTargetPageId="71" captionText="Table 18. Summary of nature and location of sensory spots, glandular cell outlets, tubes and spines arranged by series in Echinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov." pageId="65" pageNumber="66">Table 18</tableCitation>
+.
+</paragraph>
+<paragraph id="8BD12366FFEE575FB3F5F85F191CFD5F" blockId="65.[189,1399,1920,2017]" lastBlockId="67.[188,1400,265,714]" lastPageId="67" lastPageNumber="68" pageId="65" pageNumber="66">
+The head consists of a retractable mouth cone and an introvert (
+<figureCitation id="13553FE3FFEE575DB0ECF85F198AF80C" box="[932,1017,1920,1946]" captionStart="Fig" captionStartId="70.[189,232,1683,1709]" captionTargetBox="[226,1366,269,1649]" captionTargetId="figure-13@70.[224,1367,265,1651]" captionTargetPageId="70" captionText="Fig. 24. Scanning electron micrographs showing overviews and details of Echinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov. A–C, H–I, K. ♀ (MVS, personal reference collection). D–G, J, L. ♂ (MVS, personal reference collection). A. Ventrolateral overview. B. Mouth cone, lateroventral view. C. Introvert sector 1 (ventral); inset shows detail of primary spinoscalid fringes, alternatingly attaching along a longitudinal line. D. Segments 1 to 2, dorsal view. E. Segments 1 to 2, ventral view. F. Segments 8 to 9, lateral view. G. Segments 6 to 8, dorsal view. H. Right sternal plate of segment 7, showing female sexual dimorphism. I. Right sternal plate of segment 8, showing female sexual dimorphism. J. Segments 10 to 11 dorsal view, showing male sexual dimorphism. K. Segments 10 to 11 ventral view, showing male sexual dimorphism. L. Segments 10 to 11 ventrolateral view, showing female sexual dimorphism." figureDoi="http://doi.org/10.5281/zenodo.4419045" httpUri="https://zenodo.org/record/4419045/files/figure.png" pageId="65" pageNumber="66">Fig. 24</figureCitation>
+B–C). Inner oral styles could not be examined. The external mouth cone armature consists of nine outer oral styles (
+<figureCitation id="13553FE3FFEE575DB7DBF87C1E8CF828" box="[1171,1279,1955,1982]" captionStart="Fig" captionStartId="70.[189,232,1683,1709]" captionTargetBox="[226,1366,269,1649]" captionTargetId="figure-13@70.[224,1367,265,1651]" captionTargetPageId="70" captionText="Fig. 24. Scanning electron micrographs showing overviews and details of Echinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov. A–C, H–I, K. ♀ (MVS, personal reference collection). D–G, J, L. ♂ (MVS, personal reference collection). A. Ventrolateral overview. B. Mouth cone, lateroventral view. C. Introvert sector 1 (ventral); inset shows detail of primary spinoscalid fringes, alternatingly attaching along a longitudinal line. D. Segments 1 to 2, dorsal view. E. Segments 1 to 2, ventral view. F. Segments 8 to 9, lateral view. G. Segments 6 to 8, dorsal view. H. Right sternal plate of segment 7, showing female sexual dimorphism. I. Right sternal plate of segment 8, showing female sexual dimorphism. J. Segments 10 to 11 dorsal view, showing male sexual dimorphism. K. Segments 10 to 11 ventral view, showing male sexual dimorphism. L. Segments 10 to 11 ventrolateral view, showing female sexual dimorphism." figureDoi="http://doi.org/10.5281/zenodo.4419045" httpUri="https://zenodo.org/record/4419045/files/figure.png" pageId="65" pageNumber="66">Fig. 24B</figureCitation>
+); bases of outer oral styles each with a V-shaped row of short fringe tips and a central bristle of much longer fringe tips. An additional fringe ring is present more posterior on mouth cone. The introvert sectors are defined by the ten primary spinoscalids in Ring 01. Each primary spinoscalid consists of a basal sheath and a distal end piece with a blunt tip (
+<figureCitation id="13553FE3FFEC575FB105FE9018C9FEFF" box="[589,698,335,361]" captionStart="Fig" captionStartId="70.[189,232,1683,1709]" captionTargetBox="[226,1366,269,1649]" captionTargetId="figure-13@70.[224,1367,265,1651]" captionTargetPageId="70" captionText="Fig. 24. Scanning electron micrographs showing overviews and details of Echinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov. A–C, H–I, K. ♀ (MVS, personal reference collection). D–G, J, L. ♂ (MVS, personal reference collection). A. Ventrolateral overview. B. Mouth cone, lateroventral view. C. Introvert sector 1 (ventral); inset shows detail of primary spinoscalid fringes, alternatingly attaching along a longitudinal line. D. Segments 1 to 2, dorsal view. E. Segments 1 to 2, ventral view. F. Segments 8 to 9, lateral view. G. Segments 6 to 8, dorsal view. H. Right sternal plate of segment 7, showing female sexual dimorphism. I. Right sternal plate of segment 8, showing female sexual dimorphism. J. Segments 10 to 11 dorsal view, showing male sexual dimorphism. K. Segments 10 to 11 ventral view, showing male sexual dimorphism. L. Segments 10 to 11 ventrolateral view, showing female sexual dimorphism." figureDoi="http://doi.org/10.5281/zenodo.4419045" httpUri="https://zenodo.org/record/4419045/files/figure.png" pageId="67" pageNumber="68">Fig. 24C</figureCitation>
+). The sheaths have two distinctively differentiated fringes: a most basal, transverse fringe, and a slightly more distal fringe where the fringe tips attach along a longitudinal line and alternatingly projects to the left and to the right (see inset 
+<figureCitation id="13553FE3FFEC575FB718FE491EC9FE26" box="[1104,1210,406,432]" captionStart="Fig" captionStartId="70.[189,232,1683,1709]" captionTargetBox="[226,1366,269,1649]" captionTargetId="figure-13@70.[224,1367,265,1651]" captionTargetPageId="70" captionText="Fig. 24. Scanning electron micrographs showing overviews and details of Echinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov. A–C, H–I, K. ♀ (MVS, personal reference collection). D–G, J, L. ♂ (MVS, personal reference collection). A. Ventrolateral overview. B. Mouth cone, lateroventral view. C. Introvert sector 1 (ventral); inset shows detail of primary spinoscalid fringes, alternatingly attaching along a longitudinal line. D. Segments 1 to 2, dorsal view. E. Segments 1 to 2, ventral view. F. Segments 8 to 9, lateral view. G. Segments 6 to 8, dorsal view. H. Right sternal plate of segment 7, showing female sexual dimorphism. I. Right sternal plate of segment 8, showing female sexual dimorphism. J. Segments 10 to 11 dorsal view, showing male sexual dimorphism. K. Segments 10 to 11 ventral view, showing male sexual dimorphism. L. Segments 10 to 11 ventrolateral view, showing female sexual dimorphism." figureDoi="http://doi.org/10.5281/zenodo.4419045" httpUri="https://zenodo.org/record/4419045/files/figure.png" pageId="67" pageNumber="68">Fig. 24C</figureCitation>
+). End pieces are smooth and flexible. The arrangement of scalids in Rings 01 to 07 is very similar to the arrangement in 
+<taxonomicName id="4C6E58E5FFEC575FB3F5FE021B21FE60" authorityName="Claparede" authorityYear="1863" box="[189,338,476,502]" class="Kinorhyncha" family="Echinoderidae" genus="Echinoderes" kingdom="Animalia" order="Cyclorhagida" pageId="67" pageNumber="68" phylum="Cephalorhyncha" rank="species" species="dujardinii">
+<emphasis id="B91AFF74FFEC575FB3F5FE021B21FE60" box="[189,338,476,502]" italics="true" pageId="67" pageNumber="68">E. dujardinii</emphasis>
+</taxonomicName>
+and a summary can be seen in 
+<figureCitation id="13553FE3FFEC575FB18CFE031978FE60" box="[708,779,476,502]" captionStart="Fig" captionStartId="14.[189,232,1852,1878]" captionTargetBox="[217,1368,269,1816]" captionTargetId="figure-13@14.[216,1369,265,1816]" captionTargetPageId="14" captionText="Fig. 3. Diagram of mouth cone (grey area), introvert and placids in Echinoderes dujardinii Claparède, 1863, showing distribution of inner oral styles (full circles), outer oral styles (diamonds), primary scalids (triangles), spinoscalids (thick open circles), and trichoscalids (stars), with positions of trichoscalid plates and placids indicated. Table shows the scalid arrangement by sector; single-lined boxes mark quincunxes, double-lined boxes mark ‘double diamonds’." figureDoi="http://doi.org/10.5281/zenodo.4418981" httpUri="https://zenodo.org/record/4418981/files/figure.png" pageId="67" pageNumber="68">Fig. 3</figureCitation>
+. Rings 02 and 04 have 10 spinoscalids and Rings 03 and 05 have 20. All spinoscalids in these rings are well-developed, and consist of a basal sheath and a pointed end piece. The basal sheaths terminate into fine, fringed margins in spinoscalids of Rings 02 to 05, and those of Rings 03 to 05 have in addition a basal median spike also. A ring of short fringes extend around the introvert in between spinoscalid Rings 04 and 05. Ring 06 has only six spinoscalids, located in sectors 1, 3, 5, 6, 7, and 9; ring 06 spinoscalids resemble those in preceding sectors, but without a distinct differentiation into sheath and end piece.
+</paragraph>
+<caption id="DF1173EEFFED575EB3F5FED51E81FED1" pageId="66" pageNumber="67" targetBox="[508,1066,391,1964]" targetIsTable="true" targetPageId="66">
+<paragraph id="8BD12366FFED575EB3F5FED51E81FED1" blockId="66.[189,1398,266,327]" pageId="66" pageNumber="67">
+<emphasis id="B91AFF74FFED575EB3F5FED51B5FFEB2" bold="true" box="[189,300,266,292]" pageId="66" pageNumber="67">Table 17.</emphasis>
+Measurements from light microscopy for 
+<taxonomicName id="4C6E58E5FFED575EB046FED51F05FEB2" authority="Sorensen &amp; Chatterjee" authorityName="Sorensen &amp; Chatterjee" authorityYear="2020" box="[782,1398,266,292]" class="Kinorhyncha" family="Echinoderidae" genus="Echinoderes" kingdom="Animalia" order="Cyclorhagida" pageId="66" pageNumber="67" phylum="Cephalorhyncha" rank="species" species="chandrasekharai" status="sp. nov.">
+<emphasis id="B91AFF74FFED575EB046FED51E1FFEB2" box="[782,1132,266,292]" italics="true" pageId="66" pageNumber="67">Echinoderes chandrasekharai</emphasis>
+Sørensen &amp; Chatterjee
+</taxonomicName>
+<taxonomicNameLabel id="A229420FFFED575EB3F5FEF21B6BFED1" box="[189,280,301,327]" pageId="66" pageNumber="67" rank="species">sp. nov.</taxonomicNameLabel>
+(in µm), including number of measured specimens (
+<emphasis id="B91AFF74FFED575EB0C8FEF119FCFED1" box="[896,911,302,327]" italics="true" pageId="66" pageNumber="67">n</emphasis>
+) and standard deviation (SD).
+</paragraph>
+</caption>
+<paragraph id="8BD12366FFED575EB2B4FE581E53F83D" pageId="66" pageNumber="67">
+<table id="F96ED1C6FFEDA8E3B2B4FE581E59F83A" box="[508,1066,391,1964]" colsContinueFrom="63.[516,1065,392,1988]" colsContinueIn="73.[503,1066,401,1999]" gridcols="5" gridrows="5" pageId="66" pageNumber="67">
+<tr id="355E2124FFEDA8E3B2B4FE581E59FE0B" box="[508,1066,391,413]" gridrow="0" pageId="66" pageNumber="67">
+<th id="768F4858FFEDA8E3B2B4FE58181FFE0B" box="[508,620,391,413]" gridcol="0" gridrow="0" pageId="66" pageNumber="67">
+<emphasis id="B91AFF74FFED575EB2B4FE581816FE0B" bold="true" box="[508,613,391,413]" pageId="66" pageNumber="67">Character</emphasis>
+</th>
+<th id="768F4858FFEDA8E3B1DCFE5818D2FE0B" box="[660,673,391,413]" gridcol="1" gridrow="0" pageId="66" pageNumber="67">
+<emphasis id="B91AFF74FFED575EB1DCFE5818D2FE0A" bold="true" box="[660,673,391,412]" italics="true" pageId="66" pageNumber="67">n</emphasis>
+</th>
+<th id="768F4858FFEDA8E3B19AFE581935FE0B" box="[722,838,391,413]" gridcol="2" gridrow="0" pageId="66" pageNumber="67">
+<emphasis id="B91AFF74FFED575EB1A3FE58195FFE0A" bold="true" box="[747,812,391,412]" pageId="66" pageNumber="67">Range</emphasis>
+</th>
+<th id="768F4858FFEDA8E3B033FE5819CAFE0B" box="[891,953,391,413]" gridcol="3" gridrow="0" pageId="66" pageNumber="67">
+<emphasis id="B91AFF74FFED575EB034FE5819C4FE0A" bold="true" box="[892,951,391,412]" pageId="66" pageNumber="67">Mean</emphasis>
+</th>
+<th id="768F4858FFEDA8E3B0A4FE581E59FE0B" box="[1004,1066,391,413]" gridcol="4" gridrow="0" pageId="66" pageNumber="67">
+<emphasis id="B91AFF74FFED575EB0B4FE581E68FE0B" bold="true" box="[1020,1051,391,413]" pageId="66" pageNumber="67">SD</emphasis>
+</th>
+</tr>
+<tr id="355E2124FFEDA8E3B2B4FE3D1E59FB06" box="[508,1066,482,1168]" gridrow="1" pageId="66" pageNumber="67">
+<th id="768F4858FFEDA8E3B2B4FE3D181FFB06" box="[508,620,482,1168]" gridcol="0" gridrow="1" pageId="66" pageNumber="67">TL MSW-8 MSW-8/TL SW-10 SW-10/TL S1 S2 S3 S4 S5 S6 S7 S8 S9 S10 S11</th>
+<td id="768F4858FFEDA8E3B1DCFE3D18D2FB06" box="[660,673,482,1168]" gridcol="1" gridrow="1" pageId="66" pageNumber="67">5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5</td>
+<td id="768F4858FFEDA8E3B19AFE3D1935FB06" box="[722,838,482,1168]" gridcol="2" gridrow="1" pageId="66" pageNumber="67">261–366 56–74 20.2–23.0% 54–74 20.0–21.9% 27–37 28–36 30–36 31–38 33–39 38–42 40–46 41–52 39–50 40–49 34–42</td>
+<td id="768F4858FFEDA8E3B033FE3D19CAFB06" box="[891,953,482,1168]" gridcol="3" gridrow="1" pageId="66" pageNumber="67">296 63 21.5% 62 20.9% 32 31 32 34 36 40 43 46 45 44 37</td>
+<td id="768F4858FFEDA8E3B0A4FE3D1E59FB06" box="[1004,1066,482,1168]" gridcol="4" gridrow="1" pageId="66" pageNumber="67">42.90 6.62 1.05% 7.50% 0.84% 3.58 3.13 2.55 2.59 2.77 1.79 2.24 4.06 3.96 3.51 3.11</td>
+</tr>
+<tr id="355E2124FFEDA8E3B2B4FB0D1E59FA0C" box="[508,1066,1234,1434]" gridrow="2" pageId="66" pageNumber="67">
+<th id="768F4858FFEDA8E3B2B4FB0D181FFA0C" box="[508,620,1234,1434]" gridcol="0" gridrow="2" pageId="66" pageNumber="67">MD4 (ac) MD5 (ac) MD6 (ac) MD7 (ac) MD8 (ac)</th>
+<td id="768F4858FFEDA8E3B1DCFB0D18D2FA0C" box="[660,673,1234,1434]" gridcol="1" gridrow="2" pageId="66" pageNumber="67">4 4 4 4 4</td>
+<td id="768F4858FFEDA8E3B19AFB0D1935FA0C" box="[722,838,1234,1434]" gridcol="2" gridrow="2" pageId="66" pageNumber="67">9–10 9–10 9–11 9–13 11–15</td>
+<td id="768F4858FFEDA8E3B033FB0D19CAFA0C" box="[891,953,1234,1434]" gridcol="3" gridrow="2" pageId="66" pageNumber="67">10 10 10 11 13</td>
+<td id="768F4858FFEDA8E3B0A4FB0D1E59FA0C" box="[1004,1066,1234,1434]" gridcol="4" gridrow="2" pageId="66" pageNumber="67">0.58 0.58 0.82 1.71 2.06</td>
+</tr>
+<tr id="355E2124FFEDA8E3B2B4FA031E59F96D" box="[508,1066,1500,1787]" gridrow="3" pageId="66" pageNumber="67">
+<th id="768F4858FFEDA8E3B2B4FA03181FF96D" box="[508,620,1500,1787]" gridcol="0" gridrow="3" pageId="66" pageNumber="67">LV2 (tu) LV5 (tu) LV6 (ac) LV7 (ac) LV8 (ac) LV9 (ac) LD10(tu)</th>
+<td id="768F4858FFEDA8E3B1DCFA0318D2F96D" box="[660,673,1500,1787]" gridcol="1" gridrow="3" pageId="66" pageNumber="67">1 2 5 5 5 5 5</td>
+<td id="768F4858FFEDA8E3B19AFA031935F96D" box="[722,838,1500,1787]" gridcol="2" gridrow="3" pageId="66" pageNumber="67">22 12–13 12–13 12–16 14–17 14–17 21–28</td>
+<td id="768F4858FFEDA8E3B033FA0319CAF96D" box="[891,953,1500,1787]" gridcol="3" gridrow="3" pageId="66" pageNumber="67">– 20 13 14 15 15 25</td>
+<td id="768F4858FFEDA8E3B0A4FA031E59F96D" box="[1004,1066,1500,1787]" gridcol="4" gridrow="3" pageId="66" pageNumber="67">– 0.71 0.55 1.41 1.30 1.30 2.77</td>
+</tr>
+<tr id="355E2124FFEDA8E3B2B4F8E11E59F83A" box="[508,1066,1854,1964]" gridrow="4" pageId="66" pageNumber="67">
+<th id="768F4858FFEDA8E3B2B4F8E1181FF83A" box="[508,620,1854,1964]" gridcol="0" gridrow="4" pageId="66" pageNumber="67">LTS LTS/TL LTAS</th>
+<td id="768F4858FFEDA8E3B1DCF8E118D2F83A" box="[660,673,1854,1964]" gridcol="1" gridrow="4" pageId="66" pageNumber="67">5 5 4</td>
+<td id="768F4858FFEDA8E3B19AF8E11935F83A" box="[722,838,1854,1964]" gridcol="2" gridrow="4" pageId="66" pageNumber="67">163–194 44.5–68.8% 45–55</td>
+<td id="768F4858FFEDA8E3B033F8E119CAF83A" box="[891,953,1854,1964]" gridcol="3" gridrow="4" pageId="66" pageNumber="67">177 61.1% 50</td>
+<td id="768F4858FFEDA8E3B0A4F8E11E59F83A" box="[1004,1066,1854,1964]" gridcol="4" gridrow="4" pageId="66" pageNumber="67">11.59 9.91% 4.27</td>
+</tr>
+</table>
+</paragraph>
+<paragraph id="8BD12366FFEC575FB3F5FD2E1832FCC7" blockId="67.[189,1399,753,850]" pageId="67" pageNumber="68">
+Ring 07 has 7 spinoscalids, located as pairs in sectors 3 and 9, unpaired but laterally displaced in sectors 5 and 7 (trichoscalids are taking up the space in the opposite side of each sector), and unpaired but centred in sector 1 (
+<figureCitation id="13553FE3FFEC575FB29AFCE81846FCC7" box="[466,565,823,849]" captionStart="Fig" captionStartId="69.[189,232,1748,1774]" captionTargetBox="[304,1286,268,1709]" captionTargetId="figure-11@69.[299,1287,265,1713]" captionTargetPageId="69" captionText="Fig. 23. Light micrographs showing overviews and details of Echinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov. A–E, G–J. Holotype, ♀ (USNM-55391). F. Paratype, ♀ (USNM-55394). K. Paratype, ♂ (USNM-55397). A. Ventral overview. B. Segments 1 to 4, dorsal view. C. Segments 1 to 4, ventral view. D. Segments 4 to 8, dorsal view. E. Segments 5 to 8, ventral view, showing female sexual dimorphism. F. Segments 8 to 9, dorsal view. G. Detail showing ventrolateral female papilla on segment 7. H. Detail showing ventromedial female papilla on segment 8. I. Detail showing ventral trichoscalids and trichoscalid plates. J. Segments 10 to 11, ventral view, showing female sexual dimorphism. K. Segments 10 to 11, ventral view, showing male sexual dimorphism." figureDoi="http://doi.org/10.5281/zenodo.4419043" httpUri="https://zenodo.org/record/4419043/files/figure.png" pageId="67" pageNumber="68">Fig. 23I</figureCitation>
+).
+</paragraph>
+<paragraph id="8BD12366FFEC575FB3F5FCA61907FBD5" blockId="67.[189,1400,889,1091]" pageId="67" pageNumber="68">
+Described sector-wise, sector 1 has spinoscalids arranged as two double diamonds anterior to a single spinoscalid in Ring 7. Sectors 2, 4, 8 and 10 all have spinoscalids arranged as a quincunx, located in between a medial anterior spinoscalid (Ring 02) and a trichoscalid plate. Sectors 3 and 9 have spinoscalids forming double diamonds anterior to a pair of spinoscalids in Ring 7. Sectors 5 and 7 also have spinoscalids forming double diamonds, but anterior to an unpaired, laterally spinoscalid. Sector 6 has spinoscalids arranged as two double diamonds (
+<figureCitation id="13553FE3FFEC575FB055FBF61917FBD5" box="[797,868,1065,1091]" captionStart="Fig" captionStartId="14.[189,232,1852,1878]" captionTargetBox="[217,1368,269,1816]" captionTargetId="figure-13@14.[216,1369,265,1816]" captionTargetPageId="14" captionText="Fig. 3. Diagram of mouth cone (grey area), introvert and placids in Echinoderes dujardinii Claparède, 1863, showing distribution of inner oral styles (full circles), outer oral styles (diamonds), primary scalids (triangles), spinoscalids (thick open circles), and trichoscalids (stars), with positions of trichoscalid plates and placids indicated. Table shows the scalid arrangement by sector; single-lined boxes mark quincunxes, double-lined boxes mark ‘double diamonds’." figureDoi="http://doi.org/10.5281/zenodo.4418981" httpUri="https://zenodo.org/record/4418981/files/figure.png" pageId="67" pageNumber="68">Fig. 3</figureCitation>
+).
+</paragraph>
+<paragraph id="8BD12366FFEC575FB3F5FBB51E2BFB12" blockId="67.[189,1112,1130,1157]" box="[189,1112,1130,1157]" pageId="67" pageNumber="68">Trichoscalids with trichoscalid plates are present in sectors 2, 4, 5, 7, 8 and 10.</paragraph>
+<paragraph id="8BD12366FFEC575FB3F5FB741F7FFAB9" blockId="67.[189,1399,1195,1328]" pageId="67" pageNumber="68">
+The neck has 16 placids, measuring 
+<quantity id="4C968E83FFEC575FB134FB7418BFFB50" box="[636,716,1195,1222]" metricMagnitude="-2" metricUnit="m" metricValue="1.6" pageId="67" pageNumber="68" unit="mm" value="16.0">16 µm</quantity>
+in length. The midventral placid is broadest, measuring 
+<quantity id="4C968E83FFEC575FB3F5FB101B79FB7F" box="[189,266,1231,1257]" metricMagnitude="-2" metricUnit="m" metricValue="1.3" pageId="67" pageNumber="68" unit="mm" value="13.0">13 µm</quantity>
+in width at its base, whereas all other are narrower, measuring 
+<quantity id="4C968E83FFEC575FB0BAFB101E42FB7F" box="[1010,1073,1231,1257]" metricMagnitude="-3" metricUnit="m" metricValue="8.0" pageId="67" pageNumber="68" unit="mm" value="8.0">8 µm</quantity>
+in width at their bases. The trichoscalid plates in the dorsal sectors are composed of a distal part and a slightly broader proximal part, whereas the proximal parts of the ventral trichoscalid plates are much broader (
+<figureCitation id="13553FE3FFEC575FB7D5FACA1E8CFAB9" box="[1181,1279,1301,1327]" captionStart="Fig" captionStartId="69.[189,232,1748,1774]" captionTargetBox="[304,1286,268,1709]" captionTargetId="figure-11@69.[299,1287,265,1713]" captionTargetPageId="69" captionText="Fig. 23. Light micrographs showing overviews and details of Echinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov. A–E, G–J. Holotype, ♀ (USNM-55391). F. Paratype, ♀ (USNM-55394). K. Paratype, ♂ (USNM-55397). A. Ventral overview. B. Segments 1 to 4, dorsal view. C. Segments 1 to 4, ventral view. D. Segments 4 to 8, dorsal view. E. Segments 5 to 8, ventral view, showing female sexual dimorphism. F. Segments 8 to 9, dorsal view. G. Detail showing ventrolateral female papilla on segment 7. H. Detail showing ventromedial female papilla on segment 8. I. Detail showing ventral trichoscalids and trichoscalid plates. J. Segments 10 to 11, ventral view, showing female sexual dimorphism. K. Segments 10 to 11, ventral view, showing male sexual dimorphism." figureDoi="http://doi.org/10.5281/zenodo.4419043" httpUri="https://zenodo.org/record/4419043/files/figure.png" pageId="67" pageNumber="68">Fig. 23I</figureCitation>
+).
+</paragraph>
+<paragraph id="8BD12366FFEC575FB3F5FA881889F9F1" blockId="67.[188,1400,1366,1639]" pageId="67" pageNumber="68">
+Segment 1 consists of a complete cuticular ring. Sensory spots are located near the anterior margin in subdorsal and laterodorsal positions, and slightly more posterior in sublateral and ventrolateral positions (
+<figureCitation id="13553FE3FFEC575FB38CFA421B51FA21" box="[196,290,1437,1463]" captionStart="Fig" captionStartId="68.[189,232,1922,1948]" captionTargetBox="[264,1320,269,1884]" captionTargetId="figure-14@68.[263,1324,265,1884]" captionTargetPageId="68" captionText="Fig. 22. Line art illustrations of Echinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov.A. Female, dorsal view. B. Female, ventral view. C. Segments 10 to 11 in male, dorsal view. D. Segments 10 to 11 in male, ventral view." figureDoi="http://doi.org/10.5281/zenodo.4419039" httpUri="https://zenodo.org/record/4419039/files/figure.png" pageId="67" pageNumber="68">Figs 22</figureCitation>
+A–B, 24D–E); sensory spots are large, and rounded to oval, with numerous micropapillae, two pores, and often a cilium emerging from one of the pores. Glandular cell outlets 
+<typeStatus id="54D59DC4FFEC575FB784FA1E1E8CFA4D" box="[1228,1279,1473,1499]" pageId="67" pageNumber="68">type</typeStatus>
+1 present in middorsal and sublateral positions (
+<figureCitation id="13553FE3FFEC575FB1C5FA3C1899FA6B" box="[653,746,1507,1533]" captionStart="Fig" captionStartId="68.[189,232,1922,1948]" captionTargetBox="[264,1320,269,1884]" captionTargetId="figure-14@68.[263,1324,265,1884]" captionTargetPageId="68" captionText="Fig. 22. Line art illustrations of Echinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov.A. Female, dorsal view. B. Female, ventral view. C. Segments 10 to 11 in male, dorsal view. D. Segments 10 to 11 in male, ventral view." figureDoi="http://doi.org/10.5281/zenodo.4419039" httpUri="https://zenodo.org/record/4419039/files/figure.png" pageId="67" pageNumber="68">Figs 22</figureCitation>
+A–B, 23B–C, 24D). Cuticular hairs emerging through rounded perforation sites are covering the segment, except in a W-shaped ventral area on anterior segment half (
+<figureCitation id="13553FE3FFEC575FB22CF9F51BBCF9D2" box="[356,463,1578,1604]" captionStart="Fig" captionStartId="70.[189,232,1683,1709]" captionTargetBox="[226,1366,269,1649]" captionTargetId="figure-13@70.[224,1367,265,1651]" captionTargetPageId="70" captionText="Fig. 24. Scanning electron micrographs showing overviews and details of Echinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov. A–C, H–I, K. ♀ (MVS, personal reference collection). D–G, J, L. ♂ (MVS, personal reference collection). A. Ventrolateral overview. B. Mouth cone, lateroventral view. C. Introvert sector 1 (ventral); inset shows detail of primary spinoscalid fringes, alternatingly attaching along a longitudinal line. D. Segments 1 to 2, dorsal view. E. Segments 1 to 2, ventral view. F. Segments 8 to 9, lateral view. G. Segments 6 to 8, dorsal view. H. Right sternal plate of segment 7, showing female sexual dimorphism. I. Right sternal plate of segment 8, showing female sexual dimorphism. J. Segments 10 to 11 dorsal view, showing male sexual dimorphism. K. Segments 10 to 11 ventral view, showing male sexual dimorphism. L. Segments 10 to 11 ventrolateral view, showing female sexual dimorphism." figureDoi="http://doi.org/10.5281/zenodo.4419045" httpUri="https://zenodo.org/record/4419045/files/figure.png" pageId="67" pageNumber="68">Fig. 24E</figureCitation>
+). The posterior segment margin is straight around the segment, terminating into a pectinate fringe with short, uniform fringe tips.
+</paragraph>
+<paragraph id="8BD12366FFEC575FB3F5F95119B0F873" blockId="67.[187,1400,1678,2022]" pageId="67" pageNumber="68">
+Segment 2 consists of a complete cuticular ring. Pachycyclus of the anterior segment margin is of medium thickness and not interrupted (
+<figureCitation id="13553FE3FFEC575FB1EAF96E188FF95A" box="[674,764,1713,1740]" captionStart="Fig" captionStartId="69.[189,232,1748,1774]" captionTargetBox="[304,1286,268,1709]" captionTargetId="figure-11@69.[299,1287,265,1713]" captionTargetPageId="69" captionText="Fig. 23. Light micrographs showing overviews and details of Echinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov. A–E, G–J. Holotype, ♀ (USNM-55391). F. Paratype, ♀ (USNM-55394). K. Paratype, ♂ (USNM-55397). A. Ventral overview. B. Segments 1 to 4, dorsal view. C. Segments 1 to 4, ventral view. D. Segments 4 to 8, dorsal view. E. Segments 5 to 8, ventral view, showing female sexual dimorphism. F. Segments 8 to 9, dorsal view. G. Detail showing ventrolateral female papilla on segment 7. H. Detail showing ventromedial female papilla on segment 8. I. Detail showing ventral trichoscalids and trichoscalid plates. J. Segments 10 to 11, ventral view, showing female sexual dimorphism. K. Segments 10 to 11, ventral view, showing male sexual dimorphism." figureDoi="http://doi.org/10.5281/zenodo.4419043" httpUri="https://zenodo.org/record/4419043/files/figure.png" pageId="67" pageNumber="68">Fig. 23</figureCitation>
+B–C). Well-developed tubes present in lateroventral positions (
+<figureCitation id="13553FE3FFEC575FB27EF90A1BD7F979" box="[310,420,1749,1775]" captionStart="Fig" captionStartId="68.[189,232,1922,1948]" captionTargetBox="[264,1320,269,1884]" captionTargetId="figure-14@68.[263,1324,265,1884]" captionTargetPageId="68" captionText="Fig. 22. Line art illustrations of Echinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov.A. Female, dorsal view. B. Female, ventral view. C. Segments 10 to 11 in male, dorsal view. D. Segments 10 to 11 in male, ventral view." figureDoi="http://doi.org/10.5281/zenodo.4419039" httpUri="https://zenodo.org/record/4419039/files/figure.png" pageId="67" pageNumber="68">Figs 22B</figureCitation>
+, 
+<figureCitation id="13553FE3FFEC575FB2E7F90A1B90F979" box="[431,483,1749,1775]" captionStart="Fig" captionStartId="69.[189,232,1748,1774]" captionTargetBox="[304,1286,268,1709]" captionTargetId="figure-11@69.[299,1287,265,1713]" captionTargetPageId="69" captionText="Fig. 23. Light micrographs showing overviews and details of Echinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov. A–E, G–J. Holotype, ♀ (USNM-55391). F. Paratype, ♀ (USNM-55394). K. Paratype, ♂ (USNM-55397). A. Ventral overview. B. Segments 1 to 4, dorsal view. C. Segments 1 to 4, ventral view. D. Segments 4 to 8, dorsal view. E. Segments 5 to 8, ventral view, showing female sexual dimorphism. F. Segments 8 to 9, dorsal view. G. Detail showing ventrolateral female papilla on segment 7. H. Detail showing ventromedial female papilla on segment 8. I. Detail showing ventral trichoscalids and trichoscalid plates. J. Segments 10 to 11, ventral view, showing female sexual dimorphism. K. Segments 10 to 11, ventral view, showing male sexual dimorphism." figureDoi="http://doi.org/10.5281/zenodo.4419043" httpUri="https://zenodo.org/record/4419043/files/figure.png" pageId="67" pageNumber="68">23C</figureCitation>
+, 
+<figureCitation id="13553FE3FFEC575FB2A6F90A1851F979" box="[494,546,1749,1775]" captionStart="Fig" captionStartId="70.[189,232,1683,1709]" captionTargetBox="[226,1366,269,1649]" captionTargetId="figure-13@70.[224,1367,265,1651]" captionTargetPageId="70" captionText="Fig. 24. Scanning electron micrographs showing overviews and details of Echinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov. A–C, H–I, K. ♀ (MVS, personal reference collection). D–G, J, L. ♂ (MVS, personal reference collection). A. Ventrolateral overview. B. Mouth cone, lateroventral view. C. Introvert sector 1 (ventral); inset shows detail of primary spinoscalid fringes, alternatingly attaching along a longitudinal line. D. Segments 1 to 2, dorsal view. E. Segments 1 to 2, ventral view. F. Segments 8 to 9, lateral view. G. Segments 6 to 8, dorsal view. H. Right sternal plate of segment 7, showing female sexual dimorphism. I. Right sternal plate of segment 8, showing female sexual dimorphism. J. Segments 10 to 11 dorsal view, showing male sexual dimorphism. K. Segments 10 to 11 ventral view, showing male sexual dimorphism. L. Segments 10 to 11 ventrolateral view, showing female sexual dimorphism." figureDoi="http://doi.org/10.5281/zenodo.4419045" httpUri="https://zenodo.org/record/4419045/files/figure.png" pageId="67" pageNumber="68">24E</figureCitation>
+). Sensory spots are located in middorsal (but slightly laterally displaced), laterodorsal (twin pair) and ventromedial positions (
+<figureCitation id="13553FE3FFEC575FB068F927190AF884" box="[800,889,1784,1810]" captionStart="Fig" captionStartId="68.[189,232,1922,1948]" captionTargetBox="[264,1320,269,1884]" captionTargetId="figure-14@68.[263,1324,265,1884]" captionTargetPageId="68" captionText="Fig. 22. Line art illustrations of Echinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov.A. Female, dorsal view. B. Female, ventral view. C. Segments 10 to 11 in male, dorsal view. D. Segments 10 to 11 in male, ventral view." figureDoi="http://doi.org/10.5281/zenodo.4419039" httpUri="https://zenodo.org/record/4419039/files/figure.png" pageId="67" pageNumber="68">Figs 22</figureCitation>
+A–B, 24D–E); sensory spots on this and all following segment oval, and same size or only slightly smaller than those on segment 1. Glandular cell outlets 
+<typeStatus id="54D59DC4FFEC575FB25CF8E01B34F8CF" box="[276,327,1855,1881]" pageId="67" pageNumber="68">type</typeStatus>
+1 present in middorsal and ventromedial positions (
+<figureCitation id="13553FE3FFEC575FB0FCF8E11E7CF8CE" box="[948,1039,1854,1880]" captionStart="Fig" captionStartId="68.[189,232,1922,1948]" captionTargetBox="[264,1320,269,1884]" captionTargetId="figure-14@68.[263,1324,265,1884]" captionTargetPageId="68" captionText="Fig. 22. Line art illustrations of Echinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov.A. Female, dorsal view. B. Female, ventral view. C. Segments 10 to 11 in male, dorsal view. D. Segments 10 to 11 in male, ventral view." figureDoi="http://doi.org/10.5281/zenodo.4419039" httpUri="https://zenodo.org/record/4419039/files/figure.png" pageId="67" pageNumber="68">Figs 22</figureCitation>
+A–B, 23B–C). The segment is densely covered with bracteate hairs; hair cover slightly thinner between ventromedial sensory spots. The posterior segment margin is nearly straight; pectinate fringe from middorsal to midlateral positions with short fringe tips, as on segment 1; fringe tips from midlateral to ventromedial positions conspicuously longer, and then very short again between ventromedial positions.
+</paragraph>
+<caption id="DF1173EEFFEB5758B3F5F85D1BC8F875" ID-DOI="http://doi.org/10.5281/zenodo.4419039" ID-Zenodo-Dep="4419039" httpUri="https://zenodo.org/record/4419039/files/figure.png" pageId="68" pageNumber="69" startId="68.[189,232,1922,1948]" targetBox="[264,1320,269,1884]" targetPageId="68">
+<paragraph id="8BD12366FFEB5758B3F5F85D1BC8F875" blockId="68.[187,1398,1922,2019]" pageId="68" pageNumber="69">
+<emphasis id="B91AFF74FFEB5758B3F5F85D1B64F80A" bold="true" box="[189,279,1922,1948]" pageId="68" pageNumber="69">Fig. 22.</emphasis>
+Line art illustrations of 
+<taxonomicName id="4C6E58E5FFEB5758B160F85D1EE1F80A" authority="Sorensen &amp; Chatterjee" authorityName="Sorensen &amp; Chatterjee" authorityYear="2020" box="[552,1170,1922,1948]" class="Kinorhyncha" family="Echinoderidae" genus="Echinoderes" kingdom="Animalia" order="Cyclorhagida" pageId="68" pageNumber="69" phylum="Cephalorhyncha" rank="species" species="chandrasekharai" status="sp. nov.">
+<emphasis id="B91AFF74FFEB5758B160F85D19F5F80A" box="[552,902,1922,1948]" italics="true" pageId="68" pageNumber="69">Echinoderes chandrasekharai</emphasis>
+Sørensen &amp; Chatterjee
+</taxonomicName>
+<taxonomicNameLabel id="A229420FFFEB5758B7D1F85C1E81F80B" box="[1177,1266,1923,1949]" pageId="68" pageNumber="69" rank="species">sp. nov.</taxonomicNameLabel>
+<emphasis id="B91AFF74FFEB5758B7BDF85D1F79F80A" bold="true" box="[1269,1290,1922,1948]" pageId="68" pageNumber="69">A</emphasis>
+. Female, dorsal view. 
+<emphasis id="B91AFF74FFEB5758B21AF8791B16F856" bold="true" box="[338,357,1958,1984]" pageId="68" pageNumber="69">B</emphasis>
+. Female, ventral view. 
+<emphasis id="B91AFF74FFEB5758B131F87A18FDF829" bold="true" box="[633,654,1957,1983]" pageId="68" pageNumber="69">C</emphasis>
+. Segments 10 to 11 in male, dorsal view. 
+<emphasis id="B91AFF74FFEB5758B731F8791EFDF856" bold="true" box="[1145,1166,1958,1984]" pageId="68" pageNumber="69">D</emphasis>
+. Segments 10 to 11 in male, ventral view.
+</paragraph>
+</caption>
+<caption id="DF1173EEFFEA5759B3F5F90B1EEBF873" ID-DOI="http://doi.org/10.5281/zenodo.4419043" ID-Zenodo-Dep="4419043" httpUri="https://zenodo.org/record/4419043/files/figure.png" pageId="69" pageNumber="70" startId="69.[189,232,1748,1774]" targetBox="[304,1286,268,1709]" targetPageId="69">
+<paragraph id="8BD12366FFEA5759B3F5F90B1EEBF873" blockId="69.[188,1399,1748,2021]" pageId="69" pageNumber="70">
+<emphasis id="B91AFF74FFEA5759B3F5F90B1B6AF978" bold="true" box="[189,281,1748,1774]" pageId="69" pageNumber="70">Fig. 23.</emphasis>
+Light micrographs showing overviews and details of 
+<taxonomicName id="4C6E58E5FFEA5759B0C0F90B1B46F884" authority="Sorensen &amp; Chatterjee" authorityName="Sorensen &amp; Chatterjee" authorityYear="2020" class="Kinorhyncha" family="Echinoderidae" genus="Echinoderes" kingdom="Animalia" order="Cyclorhagida" pageId="69" pageNumber="70" phylum="Cephalorhyncha" rank="species" species="chandrasekharai" status="sp. nov.">
+<emphasis id="B91AFF74FFEA5759B0C0F90B1E94F978" box="[904,1255,1748,1774]" italics="true" pageId="69" pageNumber="70">Echinoderes chandrasekharai</emphasis>
+Sørensen &amp; Chatterjee
+</taxonomicName>
+<taxonomicNameLabel id="A229420FFFEA5759B20FF9271BDFF884" box="[327,428,1784,1810]" pageId="69" pageNumber="70" rank="species">sp. nov.</taxonomicNameLabel>
+<emphasis id="B91AFF74FFEA5759B2F7F9281830F887" bold="true" box="[447,579,1783,1809]" pageId="69" pageNumber="70">A–E, G–J</emphasis>
+. Holotype, ♀ (USNM-55391). 
+<emphasis id="B91AFF74FFEA5759B0A8F9271981F884" bold="true" box="[992,1010,1784,1810]" pageId="69" pageNumber="70">F</emphasis>
+. Paratype, ♀ (USNM-55394). 
+<emphasis id="B91AFF74FFEA5759B3F5F8C41AA7F8A3" bold="true" box="[189,212,1819,1845]" pageId="69" pageNumber="70">K</emphasis>
+. Paratype, ♂ (USNM-55397). 
+<emphasis id="B91AFF74FFEA5759B101F8C4182DF8A3" bold="true" box="[585,606,1819,1845]" pageId="69" pageNumber="70">A</emphasis>
+. Ventral overview. 
+<emphasis id="B91AFF74FFEA5759B004F8C4192DF8A3" bold="true" box="[844,862,1819,1845]" pageId="69" pageNumber="70">B</emphasis>
+. Segments 1 to 4, dorsal view. 
+<emphasis id="B91AFF74FFEA5759B796F8C41E80F8A3" bold="true" box="[1246,1267,1819,1845]" pageId="69" pageNumber="70">C</emphasis>
+. Segments 1 to 4, ventral view. 
+<emphasis id="B91AFF74FFEA5759B28CF8E11BAAF8CE" bold="true" box="[452,473,1854,1880]" pageId="69" pageNumber="70">D</emphasis>
+. Segments 4 to 8, dorsal view. 
+<emphasis id="B91AFF74FFEA5759B02FF8E11908F8CE" bold="true" box="[871,891,1854,1880]" pageId="69" pageNumber="70">E</emphasis>
+. Segments 5 to 8, ventral view, showing female sexual dimorphism. 
+<emphasis id="B91AFF74FFEA5759B144F8BE186DF8ED" bold="true" box="[524,542,1889,1915]" pageId="69" pageNumber="70">F</emphasis>
+. Segments 8 to 9, dorsal view. 
+<emphasis id="B91AFF74FFEA5759B0E8F8BE19C4F8ED" bold="true" box="[928,951,1889,1915]" pageId="69" pageNumber="70">G</emphasis>
+. Detail showing ventrolateral female papilla on segment 7. 
+<emphasis id="B91AFF74FFEA5759B28DF85A1BA8F809" bold="true" box="[453,475,1925,1951]" pageId="69" pageNumber="70">H</emphasis>
+. Detail showing ventromedial female papilla on segment 8. 
+<emphasis id="B91AFF74FFEA5759B7E1F85A1EC0F809" bold="true" box="[1193,1203,1925,1951]" pageId="69" pageNumber="70">I</emphasis>
+. Detail showing ventral trichoscalids and trichoscalid plates. 
+<emphasis id="B91AFF74FFEA5759B18EF87718A6F854" bold="true" box="[710,725,1960,1986]" pageId="69" pageNumber="70">J</emphasis>
+. Segments 10 to 11, ventral view, showing female sexual dimorphism. 
+<emphasis id="B91AFF74FFEA5759B211F8141B03F873" bold="true" box="[345,368,1995,2021]" pageId="69" pageNumber="70">K</emphasis>
+. Segments 10 to 11, ventral view, showing male sexual dimorphism.
+</paragraph>
+</caption>
+<caption id="DF1173EEFFE9575AB3F5F94C1F04F851" ID-DOI="http://doi.org/10.5281/zenodo.4419045" ID-Zenodo-Dep="4419045" httpUri="https://zenodo.org/record/4419045/files/figure.png" pageId="70" pageNumber="71" startId="70.[189,232,1683,1709]" targetBox="[226,1366,269,1649]" targetPageId="70">
+<paragraph id="8BD12366FFE9575AB3F5F94C1F04F851" blockId="70.[188,1399,1683,1991]" pageId="70" pageNumber="71">
+<emphasis id="B91AFF74FFE9575AB3F5F94C1B6BF93B" bold="true" box="[189,280,1683,1709]" pageId="70" pageNumber="71">Fig. 24.</emphasis>
+Scanning electron micrographs showing overviews and details of 
+<taxonomicName id="4C6E58E5FFE9575AB75FF94C1BBEF946" authority="Sorensen &amp; Chatterjee" authorityName="Sorensen &amp; Chatterjee" authorityYear="2020" class="Kinorhyncha" family="Echinoderidae" genus="Echinoderes" kingdom="Animalia" order="Cyclorhagida" pageId="70" pageNumber="71" phylum="Cephalorhyncha" rank="species" species="chandrasekharai" status="sp. nov.">
+<emphasis id="B91AFF74FFE9575AB75FF94C1F06F93B" box="[1047,1397,1683,1709]" italics="true" pageId="70" pageNumber="71">Echinoderes chandrasekharai</emphasis>
+Sørensen &amp; Chatterjee
+</taxonomicName>
+<taxonomicNameLabel id="A229420FFFE9575AB291F9681844F947" box="[473,567,1719,1745]" pageId="70" pageNumber="71" rank="species">sp. nov.</taxonomicNameLabel>
+<emphasis id="B91AFF74FFE9575AB10AF969189BF947" bold="true" box="[578,744,1718,1745]" pageId="70" pageNumber="71">A–C, H–I, K</emphasis>
+. ♀ (MVS, personal reference collection). 
+<emphasis id="B91AFF74FFE9575AB7A5F9691F03F947" bold="true" box="[1261,1392,1718,1745]" pageId="70" pageNumber="71">D–G, J, L</emphasis>
+. ♂ (MVS, personal reference collection). 
+<emphasis id="B91AFF74FFE9575AB1E8F90618C6F965" bold="true" box="[672,693,1753,1779]" pageId="70" pageNumber="71">A</emphasis>
+. Ventrolateral overview. 
+<emphasis id="B91AFF74FFE9575AB095F9051982F962" bold="true" box="[989,1009,1754,1780]" pageId="70" pageNumber="71">B</emphasis>
+. Mouth cone, lateroventral view. 
+<emphasis id="B91AFF74FFE9575AB3F5F9221AA1F881" bold="true" box="[189,210,1789,1815]" pageId="70" pageNumber="71">C</emphasis>
+. Introvert sector 1 (ventral); inset shows detail of primary spinoscalid fringes, alternatingly attaching along a longitudinal line. 
+<emphasis id="B91AFF74FFE9575AB2ACF8FF1B8AF8AC" bold="true" box="[484,505,1824,1850]" pageId="70" pageNumber="71">D</emphasis>
+. Segments 1 to 2, dorsal view. 
+<emphasis id="B91AFF74FFE9575AB028F8FF1907F8AC" bold="true" box="[864,884,1824,1850]" pageId="70" pageNumber="71">E</emphasis>
+. Segments 1 to 2, ventral view. 
+<emphasis id="B91AFF74FFE9575AB7ACF8FF1E85F8AC" bold="true" box="[1252,1270,1824,1850]" pageId="70" pageNumber="71">F</emphasis>
+. Segments 8 to 9, lateral view. 
+<emphasis id="B91AFF74FFE9575AB2D6F89C1BC6F8CB" bold="true" box="[414,437,1859,1885]" pageId="70" pageNumber="71">G</emphasis>
+. Segments 6 to 8, dorsal view. 
+<emphasis id="B91AFF74FFE9575AB052F89C1942F8CB" bold="true" box="[794,817,1859,1885]" pageId="70" pageNumber="71">H</emphasis>
+. Right sternal plate of segment 7, showing female sexual dimorphism. 
+<emphasis id="B91AFF74FFE9575AB2EFF8B81BC1F817" bold="true" box="[423,434,1895,1921]" pageId="70" pageNumber="71">I</emphasis>
+. Right sternal plate of segment 8, showing female sexual dimorphism. 
+<emphasis id="B91AFF74FFE9575AB7AFF8B81E85F817" bold="true" box="[1255,1270,1895,1921]" pageId="70" pageNumber="71">J</emphasis>
+. Segments 10 to 11 dorsal view, showing male sexual dimorphism. 
+<emphasis id="B91AFF74FFE9575AB02CF855190AF832" bold="true" box="[868,889,1930,1956]" pageId="70" pageNumber="71">K</emphasis>
+. Segments 10 to 11 ventral view, showing male sexual dimorphism. 
+<emphasis id="B91AFF74FFE9575AB2A3F8721B8CF851" bold="true" box="[491,511,1965,1991]" pageId="70" pageNumber="71">L</emphasis>
+. Segments 10 to 11 ventrolateral view, showing female sexual dimorphism.
+</paragraph>
+</caption>
+<caption id="DF1173EEFFE8575BB3F5FED61EF9FED1" pageId="71" pageNumber="72" targetBox="[214,1374,402,910]" targetIsTable="true" targetPageId="71">
+<paragraph id="8BD12366FFE8575BB3F5FED61EF9FED1" blockId="71.[189,1398,265,327]" pageId="71" pageNumber="72">
+<emphasis id="B91AFF74FFE8575BB3F5FED61B42FEB5" bold="true" box="[189,305,265,291]" pageId="71" pageNumber="72">Table 18.</emphasis>
+Summary of nature and location of sensory spots, glandular cell outlets, tubes and spines arranged by series in 
+<taxonomicName id="4C6E58E5FFE8575BB2F0FEF31E5AFED0" authority="Sorensen &amp; Chatterjee" authorityName="Sorensen &amp; Chatterjee" authorityYear="2020" box="[440,1065,300,326]" class="Kinorhyncha" family="Echinoderidae" genus="Echinoderes" kingdom="Animalia" order="Cyclorhagida" pageId="71" pageNumber="72" phylum="Cephalorhyncha" rank="species" species="chandrasekharai" status="sp. nov.">
+<emphasis id="B91AFF74FFE8575BB2F0FEF3196BFED0" box="[440,792,300,326]" italics="true" pageId="71" pageNumber="72">Echinoderes chandrasekharai</emphasis>
+Sørensen &amp; Chatterjee
+</taxonomicName>
+<taxonomicNameLabel id="A229420FFFE8575BB778FEF21EF9FED1" box="[1072,1162,301,327]" pageId="71" pageNumber="72" rank="species">sp. nov.</taxonomicNameLabel>
+</paragraph>
+</caption>
+<paragraph id="8BD12366FFE8575BB390FE4D1EC3FC18" pageId="71" pageNumber="72">
+<table id="F96ED1C6FFE8A8E3B39EFE4D1F2DFC18" box="[214,1374,402,910]" colsContinueFrom="64.[226,1363,393,900]" gridcols="11" gridrows="12" pageId="71" pageNumber="72">
+<tr id="355E2124FFE8A8E3B39EFE4D1F2DFE2B" box="[214,1374,402,445]" gridrow="0" pageId="71" pageNumber="72">
+<th id="768F4858FFE8A8E3B39EFE4D1B57FE2B" box="[214,292,402,445]" gridcol="0" gridrow="0" pageId="71" pageNumber="72">
+<emphasis id="B91AFF74FFE8575BB390FE4D1B57FE2B" bold="true" pageId="71" pageNumber="72">Position Segment</emphasis>
+</th>
+<th id="768F4858FFE8A8E3B218FE4D1BDDFE2B" box="[336,430,402,445]" gridcol="1" gridrow="0" pageId="71" pageNumber="72">
+<emphasis id="B91AFF74FFE8575BB225FE411BE2FE27" bold="true" box="[365,401,414,433]" pageId="71" pageNumber="72">MD</emphasis>
+</th>
+<th id="768F4858FFE8A8E3B291FE4D1B86FE2B" box="[473,501,402,445]" gridcol="2" gridrow="0" pageId="71" pageNumber="72">
+<emphasis id="B91AFF74FFE8575BB291FE411B86FE27" bold="true" box="[473,501,414,433]" pageId="71" pageNumber="72">PD</emphasis>
+</th>
+<th id="768F4858FFE8A8E3B160FE4D181EFE2B" box="[552,621,402,445]" gridcol="3" gridrow="0" pageId="71" pageNumber="72">
+<emphasis id="B91AFF74FFE8575BB175FE41182BFE27" bold="true" box="[573,600,414,433]" pageId="71" pageNumber="72">SD</emphasis>
+</th>
+<th id="768F4858FFE8A8E3B1EAFE4D18BDFE2B" box="[674,718,402,445]" gridcol="4" gridrow="0" pageId="71" pageNumber="72">
+<emphasis id="B91AFF74FFE8575BB1E1FE4118B4FE27" bold="true" box="[681,711,414,433]" pageId="71" pageNumber="72">LD</emphasis>
+</th>
+<th id="768F4858FFE8A8E3B1B1FE4D1935FE2B" box="[761,838,402,445]" gridcol="5" gridrow="0" pageId="71" pageNumber="72">
+<emphasis id="B91AFF74FFE8575BB047FE411942FE27" bold="true" box="[783,817,414,433]" pageId="71" pageNumber="72">ML</emphasis>
+</th>
+<th id="768F4858FFE8A8E3B027FE4D19C7FE2B" box="[879,948,402,445]" gridcol="6" gridrow="0" pageId="71" pageNumber="72">
+<emphasis id="B91AFF74FFE8575BB0CDFE4119ECFE27" bold="true" box="[901,927,414,433]" pageId="71" pageNumber="72">SL</emphasis>
+</th>
+<th id="768F4858FFE8A8E3B091FE4D1E69FE2B" box="[985,1050,402,445]" gridcol="7" gridrow="0" pageId="71" pageNumber="72">
+<emphasis id="B91AFF74FFE8575BB0A3FE411E7AFE27" bold="true" box="[1003,1033,414,433]" pageId="71" pageNumber="72">LA</emphasis>
+</th>
+<th id="768F4858FFE8A8E3B70BFE4D1E2CFE2B" box="[1091,1119,402,445]" gridcol="8" gridrow="0" pageId="71" pageNumber="72">
+<emphasis id="B91AFF74FFE8575BB70BFE411E2CFE27" bold="true" box="[1091,1119,414,433]" pageId="71" pageNumber="72">LV</emphasis>
+</th>
+<th id="768F4858FFE8A8E3B7C0FE4D1EB5FE2B" box="[1160,1222,402,445]" gridcol="9" gridrow="0" pageId="71" pageNumber="72">
+<emphasis id="B91AFF74FFE8575BB7D1FE411EC4FE27" bold="true" box="[1177,1207,414,433]" pageId="71" pageNumber="72">VL</emphasis>
+</th>
+<th id="768F4858FFE8A8E3B7A4FE4D1F2DFE2B" box="[1260,1374,402,445]" gridcol="10" gridrow="0" pageId="71" pageNumber="72">
+<emphasis id="B91AFF74FFE8575BB65BFE411F44FE27" bold="true" box="[1299,1335,414,433]" pageId="71" pageNumber="72">VM</emphasis>
+</th>
+</tr>
+<tr id="355E2124FFE8A8E3B39EFE081F2DFE7B" box="[214,1374,471,493]" gridrow="1" pageId="71" pageNumber="72" rowspan-10="1" rowspan-2="1" rowspan-5="1" rowspan-7="1" rowspan-8="1">
+<th id="768F4858FFE8A8E3B39EFE081B57FE7B" box="[214,292,471,493]" gridcol="0" gridrow="1" pageId="71" pageNumber="72">1</th>
+<td id="768F4858FFE8A8E3B218FE081BDDFE7B" box="[336,430,471,493]" gridcol="1" gridrow="1" pageId="71" pageNumber="72">gco1</td>
+<td id="768F4858FFE8A8E3B160FE08181EFE7B" box="[552,621,471,493]" gridcol="3" gridrow="1" pageId="71" pageNumber="72">ss</td>
+<td id="768F4858FFE8A8E3B1EAFE0818BDFE7B" box="[674,718,471,493]" gridcol="4" gridrow="1" pageId="71" pageNumber="72">ss</td>
+<td id="768F4858FFE8A8E3B027FE0819C7FE7B" box="[879,948,471,493]" gridcol="6" gridrow="1" pageId="71" pageNumber="72">ss, gco1</td>
+<td id="768F4858FFE8A8E3B7C0FE081EB5FE7B" box="[1160,1222,471,493]" gridcol="9" gridrow="1" pageId="71" pageNumber="72">ss</td>
+</tr>
+<tr id="355E2124FFE8A8E3B39EFDDE1F2DFD81" box="[214,1374,513,535]" gridrow="2" pageId="71" pageNumber="72" rowspan-2="1" rowspan-3="1" rowspan-5="1" rowspan-6="1" rowspan-7="1" rowspan-9="1">
+<th id="768F4858FFE8A8E3B39EFDDE1B57FD81" box="[214,292,513,535]" gridcol="0" gridrow="2" pageId="71" pageNumber="72">2</th>
+<td id="768F4858FFE8A8E3B218FDDE1BDDFD81" box="[336,430,513,535]" gridcol="1" gridrow="2" pageId="71" pageNumber="72">gco1, ss</td>
+<td id="768F4858FFE8A8E3B1EAFDDE18BDFD81" box="[674,718,513,535]" gridcol="4" gridrow="2" pageId="71" pageNumber="72">ss, ss</td>
+<td id="768F4858FFE8A8E3B70BFDDE1E2CFD81" box="[1091,1119,513,535]" gridcol="8" gridrow="2" pageId="71" pageNumber="72">tu</td>
+<td id="768F4858FFE8A8E3B7A4FDDE1F2DFD81" box="[1260,1374,513,535]" gridcol="10" gridrow="2" pageId="71" pageNumber="72">ss, gco1</td>
+</tr>
+<tr id="355E2124FFE8A8E3B39EFDF41F2DFDD6" box="[214,1374,555,576]" gridrow="3" pageId="71" pageNumber="72" rowspan-2="1" rowspan-5="1" rowspan-7="1" rowspan-8="1" rowspan-9="1">
+<th id="768F4858FFE8A8E3B39EFDF41B57FDD6" box="[214,292,555,576]" gridcol="0" gridrow="3" pageId="71" pageNumber="72">3</th>
+<td id="768F4858FFE8A8E3B218FDF41BDDFDD6" box="[336,430,555,576]" gridcol="1" gridrow="3" pageId="71" pageNumber="72">gco1</td>
+<td id="768F4858FFE8A8E3B160FDF4181EFDD6" box="[552,621,555,576]" gridcol="3" gridrow="3" pageId="71" pageNumber="72">ss</td>
+<td id="768F4858FFE8A8E3B1EAFDF418BDFDD6" box="[674,718,555,576]" gridcol="4" gridrow="3" pageId="71" pageNumber="72">ss</td>
+<td id="768F4858FFE8A8E3B027FDF419C7FDD6" box="[879,948,555,576]" gridcol="6" gridrow="3" pageId="71" pageNumber="72">ss</td>
+<td id="768F4858FFE8A8E3B7A4FDF41F2DFDD6" box="[1260,1374,555,576]" gridcol="10" gridrow="3" pageId="71" pageNumber="72">gco1</td>
+</tr>
+<tr id="355E2124FFE8A8E3B39EFD881F2DFDFC" box="[214,1374,599,618]" gridrow="4" pageId="71" pageNumber="72" rowspan-2="1" rowspan-4="1" rowspan-6="1" rowspan-7="1" rowspan-8="1" rowspan-9="1">
+<th id="768F4858FFE8A8E3B39EFD881B57FDFC" box="[214,292,599,618]" gridcol="0" gridrow="4" pageId="71" pageNumber="72">4</th>
+<td id="768F4858FFE8A8E3B218FD881BDDFDFC" box="[336,430,599,618]" gridcol="1" gridrow="4" pageId="71" pageNumber="72">ac</td>
+<td id="768F4858FFE8A8E3B160FD88181EFDFC" box="[552,621,599,618]" gridcol="3" gridrow="4" pageId="71" pageNumber="72">gco1, ss</td>
+<td id="768F4858FFE8A8E3B1B1FD881935FDFC" box="[761,838,599,618]" gridcol="5" gridrow="4" pageId="71" pageNumber="72">ss*</td>
+<td id="768F4858FFE8A8E3B7A4FD881F2DFDFC" box="[1260,1374,599,618]" gridcol="10" gridrow="4" pageId="71" pageNumber="72">ss, gco1</td>
+</tr>
+<tr id="355E2124FFE8A8E3B39EFD5F1F2DFD02" box="[214,1374,640,660]" gridrow="5" pageId="71" pageNumber="72" rowspan-2="1" rowspan-4="1" rowspan-6="1" rowspan-7="1" rowspan-9="1">
+<th id="768F4858FFE8A8E3B39EFD5F1B57FD02" box="[214,292,640,660]" gridcol="0" gridrow="5" pageId="71" pageNumber="72">5</th>
+<td id="768F4858FFE8A8E3B218FD5F1BDDFD02" box="[336,430,640,660]" gridcol="1" gridrow="5" pageId="71" pageNumber="72">ac</td>
+<td id="768F4858FFE8A8E3B160FD5F181EFD02" box="[552,621,640,660]" gridcol="3" gridrow="5" pageId="71" pageNumber="72">gco1, ss</td>
+<td id="768F4858FFE8A8E3B1B1FD5F1935FD02" box="[761,838,640,660]" gridcol="5" gridrow="5" pageId="71" pageNumber="72">ss</td>
+<td id="768F4858FFE8A8E3B70BFD5F1E2CFD02" box="[1091,1119,640,660]" gridcol="8" gridrow="5" pageId="71" pageNumber="72">tu</td>
+<td id="768F4858FFE8A8E3B7A4FD5F1F2DFD02" box="[1260,1374,640,660]" gridcol="10" gridrow="5" pageId="71" pageNumber="72">ss, gco1</td>
+</tr>
+<tr id="355E2124FFE8A8E3B39EFD771F2DFD28" box="[214,1374,680,702]" gridrow="6" pageId="71" pageNumber="72" rowspan-4="1" rowspan-6="1" rowspan-7="1">
+<th id="768F4858FFE8A8E3B39EFD771B57FD28" box="[214,292,680,702]" gridcol="0" gridrow="6" pageId="71" pageNumber="72">6</th>
+<td id="768F4858FFE8A8E3B218FD771BDDFD28" box="[336,430,680,702]" gridcol="1" gridrow="6" pageId="71" pageNumber="72">ac</td>
+<td id="768F4858FFE8A8E3B291FD771B86FD28" box="[473,501,680,702]" gridcol="2" gridrow="6" pageId="71" pageNumber="72">ss</td>
+<td id="768F4858FFE8A8E3B160FD77181EFD28" box="[552,621,680,702]" gridcol="3" gridrow="6" pageId="71" pageNumber="72">gco1, ss</td>
+<td id="768F4858FFE8A8E3B1B1FD771935FD28" box="[761,838,680,702]" gridcol="5" gridrow="6" pageId="71" pageNumber="72">ss</td>
+<td id="768F4858FFE8A8E3B70BFD771E2CFD28" box="[1091,1119,680,702]" gridcol="8" gridrow="6" pageId="71" pageNumber="72">ac</td>
+<td id="768F4858FFE8A8E3B7C0FD771EB5FD28" box="[1160,1222,680,702]" gridcol="9" gridrow="6" pageId="71" pageNumber="72">fpa (♀)</td>
+<td id="768F4858FFE8A8E3B7A4FD771F2DFD28" box="[1260,1374,680,702]" gridcol="10" gridrow="6" pageId="71" pageNumber="72">ss, gco1</td>
+</tr>
+<tr id="355E2124FFE8A8E3B39EFD0E1F2DFD71" box="[214,1374,721,743]" gridrow="7" pageId="71" pageNumber="72" rowspan-4="1" rowspan-6="1" rowspan-7="1">
+<th id="768F4858FFE8A8E3B39EFD0E1B57FD71" box="[214,292,721,743]" gridcol="0" gridrow="7" pageId="71" pageNumber="72">7</th>
+<td id="768F4858FFE8A8E3B218FD0E1BDDFD71" box="[336,430,721,743]" gridcol="1" gridrow="7" pageId="71" pageNumber="72">ac</td>
+<td id="768F4858FFE8A8E3B291FD0E1B86FD71" box="[473,501,721,743]" gridcol="2" gridrow="7" pageId="71" pageNumber="72">ss</td>
+<td id="768F4858FFE8A8E3B160FD0E181EFD71" box="[552,621,721,743]" gridcol="3" gridrow="7" pageId="71" pageNumber="72">gco1, ss</td>
+<td id="768F4858FFE8A8E3B1B1FD0E1935FD71" box="[761,838,721,743]" gridcol="5" gridrow="7" pageId="71" pageNumber="72">ss</td>
+<td id="768F4858FFE8A8E3B70BFD0E1E2CFD71" box="[1091,1119,721,743]" gridcol="8" gridrow="7" pageId="71" pageNumber="72">ac</td>
+<td id="768F4858FFE8A8E3B7C0FD0E1EB5FD71" box="[1160,1222,721,743]" gridcol="9" gridrow="7" pageId="71" pageNumber="72">fpa (♀)</td>
+<td id="768F4858FFE8A8E3B7A4FD0E1F2DFD71" box="[1260,1374,721,743]" gridcol="10" gridrow="7" pageId="71" pageNumber="72">ss, gco1</td>
+</tr>
+<tr id="355E2124FFE8A8E3B39EFD241F2DFC87" box="[214,1374,763,785]" gridrow="8" pageId="71" pageNumber="72" rowspan-6="1" rowspan-7="1">
+<th id="768F4858FFE8A8E3B39EFD241B57FC87" box="[214,292,763,785]" gridcol="0" gridrow="8" pageId="71" pageNumber="72">8</th>
+<td id="768F4858FFE8A8E3B218FD241BDDFC87" box="[336,430,763,785]" gridcol="1" gridrow="8" pageId="71" pageNumber="72">ac</td>
+<td id="768F4858FFE8A8E3B291FD241B86FC87" box="[473,501,763,785]" gridcol="2" gridrow="8" pageId="71" pageNumber="72">ss</td>
+<td id="768F4858FFE8A8E3B160FD24181EFC87" box="[552,621,763,785]" gridcol="3" gridrow="8" pageId="71" pageNumber="72">gco1, ss</td>
+<td id="768F4858FFE8A8E3B1EAFD2418BDFC87" box="[674,718,763,785]" gridcol="4" gridrow="8" pageId="71" pageNumber="72">gco2</td>
+<td id="768F4858FFE8A8E3B1B1FD241935FC87" box="[761,838,763,785]" gridcol="5" gridrow="8" pageId="71" pageNumber="72">ss</td>
+<td id="768F4858FFE8A8E3B70BFD241E2CFC87" box="[1091,1119,763,785]" gridcol="8" gridrow="8" pageId="71" pageNumber="72">ac</td>
+<td id="768F4858FFE8A8E3B7C0FD241EB5FC87" box="[1160,1222,763,785]" gridcol="9" gridrow="8" pageId="71" pageNumber="72">ss</td>
+<td id="768F4858FFE8A8E3B7A4FD241F2DFC87" box="[1260,1374,763,785]" gridcol="10" gridrow="8" pageId="71" pageNumber="72">gco1, fpa (♀)</td>
+</tr>
+<tr id="355E2124FFE8A8E3B39EFCFB1F2DFCAC" box="[214,1374,804,826]" gridrow="9" pageId="71" pageNumber="72" rowspan-1="1" rowspan-6="1">
+<th id="768F4858FFE8A8E3B39EFCFB1B57FCAC" box="[214,292,804,826]" gridcol="0" gridrow="9" pageId="71" pageNumber="72">9</th>
+<td id="768F4858FFE8A8E3B291FCFB1B86FCAC" box="[473,501,804,826]" gridcol="2" gridrow="9" pageId="71" pageNumber="72">ss</td>
+<td id="768F4858FFE8A8E3B160FCFB181EFCAC" box="[552,621,804,826]" gridcol="3" gridrow="9" pageId="71" pageNumber="72">gco1, ss</td>
+<td id="768F4858FFE8A8E3B1EAFCFB18BDFCAC" box="[674,718,804,826]" gridcol="4" gridrow="9" pageId="71" pageNumber="72">gco2</td>
+<td id="768F4858FFE8A8E3B1B1FCFB1935FCAC" box="[761,838,804,826]" gridcol="5" gridrow="9" pageId="71" pageNumber="72">ss</td>
+<td id="768F4858FFE8A8E3B091FCFB1E69FCAC" box="[985,1050,804,826]" gridcol="7" gridrow="9" pageId="71" pageNumber="72">si</td>
+<td id="768F4858FFE8A8E3B70BFCFB1E2CFCAC" box="[1091,1119,804,826]" gridcol="8" gridrow="9" pageId="71" pageNumber="72">ac</td>
+<td id="768F4858FFE8A8E3B7C0FCFB1EB5FCAC" box="[1160,1222,804,826]" gridcol="9" gridrow="9" pageId="71" pageNumber="72">ss</td>
+<td id="768F4858FFE8A8E3B7A4FCFB1F2DFCAC" box="[1260,1374,804,826]" gridcol="10" gridrow="9" pageId="71" pageNumber="72">gco1</td>
+</tr>
+<tr id="355E2124FFE8A8E3B39EFC911F2DFCF2" box="[214,1374,846,868]" gridrow="10" pageId="71" pageNumber="72" rowspan-2="1" rowspan-5="1" rowspan-6="1" rowspan-7="1" rowspan-8="1">
+<th id="768F4858FFE8A8E3B39EFC911B57FCF2" box="[214,292,846,868]" gridcol="0" gridrow="10" pageId="71" pageNumber="72">10</th>
+<td id="768F4858FFE8A8E3B218FC911BDDFCF2" box="[336,430,846,868]" gridcol="1" gridrow="10" pageId="71" pageNumber="72">gco1, gco1</td>
+<td id="768F4858FFE8A8E3B160FC91181EFCF2" box="[552,621,846,868]" gridcol="3" gridrow="10" pageId="71" pageNumber="72">ss</td>
+<td id="768F4858FFE8A8E3B1EAFC9118BDFCF2" box="[674,718,846,868]" gridcol="4" gridrow="10" pageId="71" pageNumber="72">tu</td>
+<td id="768F4858FFE8A8E3B7C0FC911EB5FCF2" box="[1160,1222,846,868]" gridcol="9" gridrow="10" pageId="71" pageNumber="72">ss</td>
+<td id="768F4858FFE8A8E3B7A4FC911F2DFCF2" box="[1260,1374,846,868]" gridcol="10" gridrow="10" pageId="71" pageNumber="72">gco1</td>
+</tr>
+<tr id="355E2124FFE8A8E3B39EFCA71F2DFC18" box="[214,1374,888,910]" gridrow="11" pageId="71" pageNumber="72" rowspan-1="1" rowspan-10="1" rowspan-2="1" rowspan-4="1" rowspan-6="1">
+<th id="768F4858FFE8A8E3B39EFCA71B57FC18" box="[214,292,888,910]" gridcol="0" gridrow="11" pageId="71" pageNumber="72">11</th>
+<td id="768F4858FFE8A8E3B160FCA7181EFC18" box="[552,621,888,910]" gridcol="3" gridrow="11" pageId="71" pageNumber="72">ss</td>
+<td id="768F4858FFE8A8E3B1B1FCA71935FC18" box="[761,838,888,910]" gridcol="5" gridrow="11" pageId="71" pageNumber="72">3xpe (Ƌ)</td>
+<td id="768F4858FFE8A8E3B091FCA71E69FC18" box="[985,1050,888,910]" gridcol="7" gridrow="11" pageId="71" pageNumber="72">ltas (♀)</td>
+<td id="768F4858FFE8A8E3B70BFCA71E2CFC18" box="[1091,1119,888,910]" gridcol="8" gridrow="11" pageId="71" pageNumber="72">lts</td>
+<td id="768F4858FFE8A8E3B7C0FCA71EB5FC18" box="[1160,1222,888,910]" gridcol="9" gridrow="11" pageId="71" pageNumber="72">ss</td>
+</tr>
+</table>
+</paragraph>
+<paragraph id="8BD12366FFE8575BB3F5FC081883FB52" blockId="71.[189,1401,982,1220]" pageId="71" pageNumber="72">
+Segment 3, and remaining segments, consisting of one tergal and two sternal plates. Pachycyclus of the anterior segment margin of medium thickness, and interrupted only at tergosternal junctions (
+<figureCitation id="13553FE3FFE8575BB7B7FC251F22FB82" box="[1279,1361,1018,1044]" captionStart="Fig" captionStartId="69.[189,232,1748,1774]" captionTargetBox="[304,1286,268,1709]" captionTargetId="figure-11@69.[299,1287,265,1713]" captionTargetPageId="69" captionText="Fig. 23. Light micrographs showing overviews and details of Echinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov. A–E, G–J. Holotype, ♀ (USNM-55391). F. Paratype, ♀ (USNM-55394). K. Paratype, ♂ (USNM-55397). A. Ventral overview. B. Segments 1 to 4, dorsal view. C. Segments 1 to 4, ventral view. D. Segments 4 to 8, dorsal view. E. Segments 5 to 8, ventral view, showing female sexual dimorphism. F. Segments 8 to 9, dorsal view. G. Detail showing ventrolateral female papilla on segment 7. H. Detail showing ventromedial female papilla on segment 8. I. Detail showing ventral trichoscalids and trichoscalid plates. J. Segments 10 to 11, ventral view, showing female sexual dimorphism. K. Segments 10 to 11, ventral view, showing male sexual dimorphism." figureDoi="http://doi.org/10.5281/zenodo.4419043" httpUri="https://zenodo.org/record/4419043/files/figure.png" pageId="71" pageNumber="72">Fig. 23</figureCitation>
+A– B). Sensory spots present in subdorsal, laterodorsal and sublateral positions (
+<figureCitation id="13553FE3FFE8575BB71DFBC21EC2FBA1" box="[1109,1201,1053,1079]" captionStart="Fig" captionStartId="68.[189,232,1922,1948]" captionTargetBox="[264,1320,269,1884]" captionTargetId="figure-14@68.[263,1324,265,1884]" captionTargetPageId="68" captionText="Fig. 22. Line art illustrations of Echinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov.A. Female, dorsal view. B. Female, ventral view. C. Segments 10 to 11 in male, dorsal view. D. Segments 10 to 11 in male, ventral view." figureDoi="http://doi.org/10.5281/zenodo.4419039" httpUri="https://zenodo.org/record/4419039/files/figure.png" pageId="71" pageNumber="72">Figs 22</figureCitation>
+A–B). Glandular cell outlets 
+<typeStatus id="54D59DC4FFE8575BB204FB9E1B0CFBCD" box="[332,383,1089,1115]" pageId="71" pageNumber="72">type</typeStatus>
+1 present in middorsal and ventromedial positions (
+<figureCitation id="13553FE3FFE8575BB0BFFB9F1E20FBCC" box="[1015,1107,1088,1114]" captionStart="Fig" captionStartId="68.[189,232,1922,1948]" captionTargetBox="[264,1320,269,1884]" captionTargetId="figure-14@68.[263,1324,265,1884]" captionTargetPageId="68" captionText="Fig. 22. Line art illustrations of Echinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov.A. Female, dorsal view. B. Female, ventral view. C. Segments 10 to 11 in male, dorsal view. D. Segments 10 to 11 in male, ventral view." figureDoi="http://doi.org/10.5281/zenodo.4419039" httpUri="https://zenodo.org/record/4419039/files/figure.png" pageId="71" pageNumber="72">Figs 22</figureCitation>
+A–B, 23B–C). Bracteate cuticular hairs are densely covering the segment from middorsal to ventromedial positions; shieldshaped paraventral areas densely covered by non-bracteate, hair-like extensions. Pectinate fringe of posterior margin hairs as on preceding segment.
+</paragraph>
+<paragraph id="8BD12366FFE8575BB3F5FB341EA1FA4F" blockId="71.[188,1401,1259,1497]" pageId="71" pageNumber="72">
+Segment 4 with short acicular spine in middorsal position, not reaching the posterior margin of the segment (
+<figureCitation id="13553FE3FFE8575BB266FAD11BECFABE" box="[302,415,1294,1320]" captionStart="Fig" captionStartId="68.[189,232,1922,1948]" captionTargetBox="[264,1320,269,1884]" captionTargetId="figure-14@68.[263,1324,265,1884]" captionTargetPageId="68" captionText="Fig. 22. Line art illustrations of Echinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov.A. Female, dorsal view. B. Female, ventral view. C. Segments 10 to 11 in male, dorsal view. D. Segments 10 to 11 in male, ventral view." figureDoi="http://doi.org/10.5281/zenodo.4419039" httpUri="https://zenodo.org/record/4419039/files/figure.png" pageId="71" pageNumber="72">Figs 22A</figureCitation>
+, 
+<figureCitation id="13553FE3FFE8575BB2E3FAD11870FABF" box="[427,515,1294,1321]" captionStart="Fig" captionStartId="69.[189,232,1748,1774]" captionTargetBox="[304,1286,268,1709]" captionTargetId="figure-11@69.[299,1287,265,1713]" captionTargetPageId="69" captionText="Fig. 23. Light micrographs showing overviews and details of Echinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov. A–E, G–J. Holotype, ♀ (USNM-55391). F. Paratype, ♀ (USNM-55394). K. Paratype, ♂ (USNM-55397). A. Ventral overview. B. Segments 1 to 4, dorsal view. C. Segments 1 to 4, ventral view. D. Segments 4 to 8, dorsal view. E. Segments 5 to 8, ventral view, showing female sexual dimorphism. F. Segments 8 to 9, dorsal view. G. Detail showing ventrolateral female papilla on segment 7. H. Detail showing ventromedial female papilla on segment 8. I. Detail showing ventral trichoscalids and trichoscalid plates. J. Segments 10 to 11, ventral view, showing female sexual dimorphism. K. Segments 10 to 11, ventral view, showing male sexual dimorphism." figureDoi="http://doi.org/10.5281/zenodo.4419043" httpUri="https://zenodo.org/record/4419043/files/figure.png" pageId="71" pageNumber="72">23B, D</figureCitation>
+). Sensory spots present in subdorsal, midlateral and ventromedial positions (
+<figureCitation id="13553FE3FFE8575BB38EFAEE1B69FADA" box="[198,282,1329,1356]" captionStart="Fig" captionStartId="69.[189,232,1748,1774]" captionTargetBox="[304,1286,268,1709]" captionTargetId="figure-11@69.[299,1287,265,1713]" captionTargetPageId="69" captionText="Fig. 23. Light micrographs showing overviews and details of Echinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov. A–E, G–J. Holotype, ♀ (USNM-55391). F. Paratype, ♀ (USNM-55394). K. Paratype, ♂ (USNM-55397). A. Ventral overview. B. Segments 1 to 4, dorsal view. C. Segments 1 to 4, ventral view. D. Segments 4 to 8, dorsal view. E. Segments 5 to 8, ventral view, showing female sexual dimorphism. F. Segments 8 to 9, dorsal view. G. Detail showing ventrolateral female papilla on segment 7. H. Detail showing ventromedial female papilla on segment 8. I. Detail showing ventral trichoscalids and trichoscalid plates. J. Segments 10 to 11, ventral view, showing female sexual dimorphism. K. Segments 10 to 11, ventral view, showing male sexual dimorphism." figureDoi="http://doi.org/10.5281/zenodo.4419043" httpUri="https://zenodo.org/record/4419043/files/figure.png" pageId="71" pageNumber="72">Fig. 23</figureCitation>
+A–B); midlateral sensory spots considerably smaller than all other sensory spots on the animals, but they occur consistently in all examined specimens. Glandular cell outlets 
+<typeStatus id="54D59DC4FFE8575BB777FA8A1E01FAF9" box="[1087,1138,1365,1391]" pageId="71" pageNumber="72">type</typeStatus>
+1 present in subdorsal and ventromedial positions (
+<figureCitation id="13553FE3FFE8575BB147FAA71819FA04" box="[527,618,1400,1426]" captionStart="Fig" captionStartId="68.[189,232,1922,1948]" captionTargetBox="[264,1320,269,1884]" captionTargetId="figure-14@68.[263,1324,265,1884]" captionTargetPageId="68" captionText="Fig. 22. Line art illustrations of Echinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov.A. Female, dorsal view. B. Female, ventral view. C. Segments 10 to 11 in male, dorsal view. D. Segments 10 to 11 in male, ventral view." figureDoi="http://doi.org/10.5281/zenodo.4419039" httpUri="https://zenodo.org/record/4419039/files/figure.png" pageId="71" pageNumber="72">Figs 22</figureCitation>
+A–B, 23C, 24B–D). Pectinate fringe of posterior segment margin with long fringe tips from middorsal to ventromedial positions conspicuously long, but very short between ventromedial positions. Pachycycli and cuticular hairs as on preceding segment.
+</paragraph>
+<paragraph id="8BD12366FFE8575BB3F5F9DF1E88F912" blockId="71.[188,1399,1536,1668]" pageId="71" pageNumber="72">
+Segment 5 with short acicular spine in middorsal position, not reaching the posterior margin of the segment, and well-developed tubes in lateroventral positions (
+<figureCitation id="13553FE3FFE8575BB0C5F9FC1995F9AB" box="[909,998,1571,1597]" captionStart="Fig" captionStartId="68.[189,232,1922,1948]" captionTargetBox="[264,1320,269,1884]" captionTargetId="figure-14@68.[263,1324,265,1884]" captionTargetPageId="68" captionText="Fig. 22. Line art illustrations of Echinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov.A. Female, dorsal view. B. Female, ventral view. C. Segments 10 to 11 in male, dorsal view. D. Segments 10 to 11 in male, ventral view." figureDoi="http://doi.org/10.5281/zenodo.4419039" httpUri="https://zenodo.org/record/4419039/files/figure.png" pageId="71" pageNumber="72">Figs 22</figureCitation>
+A–B, 23D–E, 24G). Sensory spots present in subdorsal, midlateral and ventromedial positions (
+<figureCitation id="13553FE3FFE8575BB035F99919A4F9F6" box="[893,983,1606,1632]" captionStart="Fig" captionStartId="68.[189,232,1922,1948]" captionTargetBox="[264,1320,269,1884]" captionTargetId="figure-14@68.[263,1324,265,1884]" captionTargetPageId="68" captionText="Fig. 22. Line art illustrations of Echinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov.A. Female, dorsal view. B. Female, ventral view. C. Segments 10 to 11 in male, dorsal view. D. Segments 10 to 11 in male, ventral view." figureDoi="http://doi.org/10.5281/zenodo.4419039" httpUri="https://zenodo.org/record/4419039/files/figure.png" pageId="71" pageNumber="72">Figs 22</figureCitation>
+A–B). Glandular cell outlets 
+<typeStatus id="54D59DC4FFE8575BB66EF9981F2AF9F7" box="[1318,1369,1607,1633]" pageId="71" pageNumber="72">type</typeStatus>
+1, pachycycli, pectinate fringe of posterior margin and cuticular hairs as on preceding segment.
+</paragraph>
+<paragraph id="8BD12366FFE8575BB3F5F9741E8EF80F" blockId="71.[189,1400,1707,1945]" pageId="71" pageNumber="72">
+Segment 6 with short acicular spines in middorsal and lateroventral positions (
+<figureCitation id="13553FE3FFE8575BB73FF9741EA7F953" box="[1143,1236,1707,1733]" captionStart="Fig" captionStartId="68.[189,232,1922,1948]" captionTargetBox="[264,1320,269,1884]" captionTargetId="figure-14@68.[263,1324,265,1884]" captionTargetPageId="68" captionText="Fig. 22. Line art illustrations of Echinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov.A. Female, dorsal view. B. Female, ventral view. C. Segments 10 to 11 in male, dorsal view. D. Segments 10 to 11 in male, ventral view." figureDoi="http://doi.org/10.5281/zenodo.4419039" httpUri="https://zenodo.org/record/4419039/files/figure.png" pageId="71" pageNumber="72">Figs 22</figureCitation>
+A–B, 23D–E, 24G); middorsal spine not reaching the posterior margin of the segment, and lateroventral spine just reaching the primary pectinate fringe. Sensory spots present in paradorsal, subdorsal, midlateral and ventromedial positions (
+<figureCitation id="13553FE3FFE8575BB294F8CB184BF8B9" box="[476,568,1812,1839]" captionStart="Fig" captionStartId="68.[189,232,1922,1948]" captionTargetBox="[264,1320,269,1884]" captionTargetId="figure-14@68.[263,1324,265,1884]" captionTargetPageId="68" captionText="Fig. 22. Line art illustrations of Echinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov.A. Female, dorsal view. B. Female, ventral view. C. Segments 10 to 11 in male, dorsal view. D. Segments 10 to 11 in male, ventral view." figureDoi="http://doi.org/10.5281/zenodo.4419039" httpUri="https://zenodo.org/record/4419039/files/figure.png" pageId="71" pageNumber="72">Figs 22</figureCitation>
+A–B, 24G). Females with female papillae resembling small glandular cell outlets 
+<typeStatus id="54D59DC4FFE8575BB201F8E71B0FF8C4" box="[329,380,1848,1874]" pageId="71" pageNumber="72">type</typeStatus>
+<quantity id="4C968E83FFE8575BB2CDF8E71BC7F8C4" box="[389,436,1848,1874]" metricMagnitude="-2" metricUnit="m" metricValue="5.08" pageId="71" pageNumber="72" unit="in" value="2.0">2 in</quantity>
+ventrolateral positions; the intracuticular structures of the papillae are crescentic with a small protuberance in the curved part of the structure (
+<figureCitation id="13553FE3FFE8575BB0D4F8841E7AF8E3" box="[924,1033,1883,1909]" captionStart="Fig" captionStartId="68.[189,232,1922,1948]" captionTargetBox="[264,1320,269,1884]" captionTargetId="figure-14@68.[263,1324,265,1884]" captionTargetPageId="68" captionText="Fig. 22. Line art illustrations of Echinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov.A. Female, dorsal view. B. Female, ventral view. C. Segments 10 to 11 in male, dorsal view. D. Segments 10 to 11 in male, ventral view." figureDoi="http://doi.org/10.5281/zenodo.4419039" httpUri="https://zenodo.org/record/4419039/files/figure.png" pageId="71" pageNumber="72">Fig. 22B</figureCitation>
+). Glandular cell outlets 
+<typeStatus id="54D59DC4FFE8575BB66FF8841F29F8E3" box="[1319,1370,1883,1909]" pageId="71" pageNumber="72">type</typeStatus>
+1, pachycycli, pectinate fringe of posterior margin and cuticular hairs as on preceding segment.
+</paragraph>
+<paragraph id="8BD12366FFE75754B3F5FED61856FE61" blockId="72.[187,1401,265,503]" pageId="72" pageNumber="73">
+Segment 7 with short acicular spines in middorsal and lateroventral positions (
+<figureCitation id="13553FE3FFE75754B73FFED61EA7FEB5" box="[1143,1236,265,291]" captionStart="Fig" captionStartId="68.[189,232,1922,1948]" captionTargetBox="[264,1320,269,1884]" captionTargetId="figure-14@68.[263,1324,265,1884]" captionTargetPageId="68" captionText="Fig. 22. Line art illustrations of Echinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov.A. Female, dorsal view. B. Female, ventral view. C. Segments 10 to 11 in male, dorsal view. D. Segments 10 to 11 in male, ventral view." figureDoi="http://doi.org/10.5281/zenodo.4419039" httpUri="https://zenodo.org/record/4419039/files/figure.png" pageId="72" pageNumber="73">Figs 22</figureCitation>
+A–B, 23D–E, 24G–H); middorsal spine not reaching the posterior margin of the segment, and lateroventral spine just reaching the primary pectinate fringe. Females with female papillae resembling small glandular cell outlets 
+<typeStatus id="54D59DC4FFE75754B25CFEAC1B34FE1B" box="[276,327,371,397]" pageId="72" pageNumber="73">type</typeStatus>
+2 (
+<figureCitation id="13553FE3FFE75754B227FEAD1BAEFE1B" box="[367,477,370,397]" captionStart="Fig" captionStartId="70.[189,232,1683,1709]" captionTargetBox="[226,1366,269,1649]" captionTargetId="figure-13@70.[224,1367,265,1651]" captionTargetPageId="70" captionText="Fig. 24. Scanning electron micrographs showing overviews and details of Echinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov. A–C, H–I, K. ♀ (MVS, personal reference collection). D–G, J, L. ♂ (MVS, personal reference collection). A. Ventrolateral overview. B. Mouth cone, lateroventral view. C. Introvert sector 1 (ventral); inset shows detail of primary spinoscalid fringes, alternatingly attaching along a longitudinal line. D. Segments 1 to 2, dorsal view. E. Segments 1 to 2, ventral view. F. Segments 8 to 9, lateral view. G. Segments 6 to 8, dorsal view. H. Right sternal plate of segment 7, showing female sexual dimorphism. I. Right sternal plate of segment 8, showing female sexual dimorphism. J. Segments 10 to 11 dorsal view, showing male sexual dimorphism. K. Segments 10 to 11 ventral view, showing male sexual dimorphism. L. Segments 10 to 11 ventrolateral view, showing female sexual dimorphism." figureDoi="http://doi.org/10.5281/zenodo.4419045" httpUri="https://zenodo.org/record/4419045/files/figure.png" pageId="72" pageNumber="73">Fig. 24H</figureCitation>
+), in ventrolateral positions (
+<figureCitation id="13553FE3FFE75754B062FEAD19E9FE1B" box="[810,922,370,397]" captionStart="Fig" captionStartId="68.[189,232,1922,1948]" captionTargetBox="[264,1320,269,1884]" captionTargetId="figure-14@68.[263,1324,265,1884]" captionTargetPageId="68" captionText="Fig. 22. Line art illustrations of Echinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov.A. Female, dorsal view. B. Female, ventral view. C. Segments 10 to 11 in male, dorsal view. D. Segments 10 to 11 in male, ventral view." figureDoi="http://doi.org/10.5281/zenodo.4419039" httpUri="https://zenodo.org/record/4419039/files/figure.png" pageId="72" pageNumber="73">Figs 22B</figureCitation>
+, 
+<figureCitation id="13553FE3FFE75754B0EFFEAC19AAFE1B" box="[935,985,371,397]" captionStart="Fig" captionStartId="69.[189,232,1748,1774]" captionTargetBox="[304,1286,268,1709]" captionTargetId="figure-11@69.[299,1287,265,1713]" captionTargetPageId="69" captionText="Fig. 23. Light micrographs showing overviews and details of Echinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov. A–E, G–J. Holotype, ♀ (USNM-55391). F. Paratype, ♀ (USNM-55394). K. Paratype, ♂ (USNM-55397). A. Ventral overview. B. Segments 1 to 4, dorsal view. C. Segments 1 to 4, ventral view. D. Segments 4 to 8, dorsal view. E. Segments 5 to 8, ventral view, showing female sexual dimorphism. F. Segments 8 to 9, dorsal view. G. Detail showing ventrolateral female papilla on segment 7. H. Detail showing ventromedial female papilla on segment 8. I. Detail showing ventral trichoscalids and trichoscalid plates. J. Segments 10 to 11, ventral view, showing female sexual dimorphism. K. Segments 10 to 11, ventral view, showing male sexual dimorphism." figureDoi="http://doi.org/10.5281/zenodo.4419043" httpUri="https://zenodo.org/record/4419043/files/figure.png" pageId="72" pageNumber="73">23E</figureCitation>
+, 
+<figureCitation id="13553FE3FFE75754B0AEFEAC1E6EFE1B" box="[998,1053,371,397]" captionStart="Fig" captionStartId="70.[189,232,1683,1709]" captionTargetBox="[226,1366,269,1649]" captionTargetId="figure-13@70.[224,1367,265,1651]" captionTargetPageId="70" captionText="Fig. 24. Scanning electron micrographs showing overviews and details of Echinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov. A–C, H–I, K. ♀ (MVS, personal reference collection). D–G, J, L. ♂ (MVS, personal reference collection). A. Ventrolateral overview. B. Mouth cone, lateroventral view. C. Introvert sector 1 (ventral); inset shows detail of primary spinoscalid fringes, alternatingly attaching along a longitudinal line. D. Segments 1 to 2, dorsal view. E. Segments 1 to 2, ventral view. F. Segments 8 to 9, lateral view. G. Segments 6 to 8, dorsal view. H. Right sternal plate of segment 7, showing female sexual dimorphism. I. Right sternal plate of segment 8, showing female sexual dimorphism. J. Segments 10 to 11 dorsal view, showing male sexual dimorphism. K. Segments 10 to 11 ventral view, showing male sexual dimorphism. L. Segments 10 to 11 ventrolateral view, showing female sexual dimorphism." figureDoi="http://doi.org/10.5281/zenodo.4419045" httpUri="https://zenodo.org/record/4419045/files/figure.png" pageId="72" pageNumber="73">24H</figureCitation>
+); the intracuticular structures of the papillae are crescentic with a small protuberance in the curved part of the structure (
+<figureCitation id="13553FE3FFE75754B7B7FE491F18FE26" box="[1279,1387,406,432]" captionStart="Fig" captionStartId="69.[189,232,1748,1774]" captionTargetBox="[304,1286,268,1709]" captionTargetId="figure-11@69.[299,1287,265,1713]" captionTargetPageId="69" captionText="Fig. 23. Light micrographs showing overviews and details of Echinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov. A–E, G–J. Holotype, ♀ (USNM-55391). F. Paratype, ♀ (USNM-55394). K. Paratype, ♂ (USNM-55397). A. Ventral overview. B. Segments 1 to 4, dorsal view. C. Segments 1 to 4, ventral view. D. Segments 4 to 8, dorsal view. E. Segments 5 to 8, ventral view, showing female sexual dimorphism. F. Segments 8 to 9, dorsal view. G. Detail showing ventrolateral female papilla on segment 7. H. Detail showing ventromedial female papilla on segment 8. I. Detail showing ventral trichoscalids and trichoscalid plates. J. Segments 10 to 11, ventral view, showing female sexual dimorphism. K. Segments 10 to 11, ventral view, showing male sexual dimorphism." figureDoi="http://doi.org/10.5281/zenodo.4419043" httpUri="https://zenodo.org/record/4419043/files/figure.png" pageId="72" pageNumber="73">Fig. 23E</figureCitation>
+). Sensory spots, glandular cell outlets 
+<typeStatus id="54D59DC4FFE75754B12CFE6618E4FE45" box="[612,663,441,467]" pageId="72" pageNumber="73">type</typeStatus>
+1, pachycycli, pectinate fringe of posterior margin and cuticular hairs as on preceding segment.
+</paragraph>
+<paragraph id="8BD12366FFE75754B3F5FDC11E8FFCB9" blockId="72.[187,1400,542,815]" pageId="72" pageNumber="73">
+Segment 8 with short acicular spines in middorsal and lateroventral positions (
+<figureCitation id="13553FE3FFE75754B70CFDC11EEFFDAE" box="[1092,1180,542,568]" captionStart="Fig" captionStartId="68.[189,232,1922,1948]" captionTargetBox="[264,1320,269,1884]" captionTargetId="figure-14@68.[263,1324,265,1884]" captionTargetPageId="68" captionText="Fig. 22. Line art illustrations of Echinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov.A. Female, dorsal view. B. Female, ventral view. C. Segments 10 to 11 in male, dorsal view. D. Segments 10 to 11 in male, ventral view." figureDoi="http://doi.org/10.5281/zenodo.4419039" httpUri="https://zenodo.org/record/4419039/files/figure.png" pageId="72" pageNumber="73">Figs 22</figureCitation>
+A–B, 23D–F, 24G, I); middorsal spine not reaching the posterior margin of the segment, and lateroventral spine slightly overlapping the primary pectinate fringe. Minute glandular cell outlets 
+<typeStatus id="54D59DC4FFE75754B752FDBA1E3EFDE9" box="[1050,1101,613,639]" pageId="72" pageNumber="73">type</typeStatus>
+2 present in laterodorsal positions (
+<figureCitation id="13553FE3FFE75754B273FD581BC3FD37" box="[315,432,647,673]" captionStart="Fig" captionStartId="68.[189,232,1922,1948]" captionTargetBox="[264,1320,269,1884]" captionTargetId="figure-14@68.[263,1324,265,1884]" captionTargetPageId="68" captionText="Fig. 22. Line art illustrations of Echinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov.A. Female, dorsal view. B. Female, ventral view. C. Segments 10 to 11 in male, dorsal view. D. Segments 10 to 11 in male, ventral view." figureDoi="http://doi.org/10.5281/zenodo.4419039" httpUri="https://zenodo.org/record/4419039/files/figure.png" pageId="72" pageNumber="73">Figs 22A</figureCitation>
+, 
+<figureCitation id="13553FE3FFE75754B288FD581865FD34" box="[448,534,647,674]" captionStart="Fig" captionStartId="69.[189,232,1748,1774]" captionTargetBox="[304,1286,268,1709]" captionTargetId="figure-11@69.[299,1287,265,1713]" captionTargetPageId="69" captionText="Fig. 23. Light micrographs showing overviews and details of Echinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov. A–E, G–J. Holotype, ♀ (USNM-55391). F. Paratype, ♀ (USNM-55394). K. Paratype, ♂ (USNM-55397). A. Ventral overview. B. Segments 1 to 4, dorsal view. C. Segments 1 to 4, ventral view. D. Segments 4 to 8, dorsal view. E. Segments 5 to 8, ventral view, showing female sexual dimorphism. F. Segments 8 to 9, dorsal view. G. Detail showing ventrolateral female papilla on segment 7. H. Detail showing ventromedial female papilla on segment 8. I. Detail showing ventral trichoscalids and trichoscalid plates. J. Segments 10 to 11, ventral view, showing female sexual dimorphism. K. Segments 10 to 11, ventral view, showing male sexual dimorphism." figureDoi="http://doi.org/10.5281/zenodo.4419043" httpUri="https://zenodo.org/record/4419043/files/figure.png" pageId="72" pageNumber="73">23D, F</figureCitation>
+, 
+<figureCitation id="13553FE3FFE75754B16EFD58182BFD37" box="[550,600,647,673]" captionStart="Fig" captionStartId="70.[189,232,1683,1709]" captionTargetBox="[226,1366,269,1649]" captionTargetId="figure-13@70.[224,1367,265,1651]" captionTargetPageId="70" captionText="Fig. 24. Scanning electron micrographs showing overviews and details of Echinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov. A–C, H–I, K. ♀ (MVS, personal reference collection). D–G, J, L. ♂ (MVS, personal reference collection). A. Ventrolateral overview. B. Mouth cone, lateroventral view. C. Introvert sector 1 (ventral); inset shows detail of primary spinoscalid fringes, alternatingly attaching along a longitudinal line. D. Segments 1 to 2, dorsal view. E. Segments 1 to 2, ventral view. F. Segments 8 to 9, lateral view. G. Segments 6 to 8, dorsal view. H. Right sternal plate of segment 7, showing female sexual dimorphism. I. Right sternal plate of segment 8, showing female sexual dimorphism. J. Segments 10 to 11 dorsal view, showing male sexual dimorphism. K. Segments 10 to 11 ventral view, showing male sexual dimorphism. L. Segments 10 to 11 ventrolateral view, showing female sexual dimorphism." figureDoi="http://doi.org/10.5281/zenodo.4419045" httpUri="https://zenodo.org/record/4419045/files/figure.png" pageId="72" pageNumber="73">24F</figureCitation>
+), but very close to the midlateral areas. Sensory spots present in paradorsal, subdorsal, midlateral (posterior to glandular cell outlets), ventrolateral positions (
+<figureCitation id="13553FE3FFE75754B7B2FD751F21FD53" box="[1274,1362,682,709]" captionStart="Fig" captionStartId="68.[189,232,1922,1948]" captionTargetBox="[264,1320,269,1884]" captionTargetId="figure-14@68.[263,1324,265,1884]" captionTargetPageId="68" captionText="Fig. 22. Line art illustrations of Echinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov.A. Female, dorsal view. B. Female, ventral view. C. Segments 10 to 11 in male, dorsal view. D. Segments 10 to 11 in male, ventral view." figureDoi="http://doi.org/10.5281/zenodo.4419039" httpUri="https://zenodo.org/record/4419039/files/figure.png" pageId="72" pageNumber="73">Figs 22</figureCitation>
+A– B, 23D–E, 24F–G, I). Females with female papillae showing same substructure as those on segment 7, but with openings in ventromedial positions (
+<figureCitation id="13553FE3FFE75754B1AEFD2E192AFC9D" box="[742,857,753,779]" captionStart="Fig" captionStartId="68.[189,232,1922,1948]" captionTargetBox="[264,1320,269,1884]" captionTargetId="figure-14@68.[263,1324,265,1884]" captionTargetPageId="68" captionText="Fig. 22. Line art illustrations of Echinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov.A. Female, dorsal view. B. Female, ventral view. C. Segments 10 to 11 in male, dorsal view. D. Segments 10 to 11 in male, ventral view." figureDoi="http://doi.org/10.5281/zenodo.4419039" httpUri="https://zenodo.org/record/4419039/files/figure.png" pageId="72" pageNumber="73">Figs 22B</figureCitation>
+, 
+<figureCitation id="13553FE3FFE75754B020FD2E19B1FC9D" box="[872,962,753,779]" captionStart="Fig" captionStartId="69.[189,232,1748,1774]" captionTargetBox="[304,1286,268,1709]" captionTargetId="figure-11@69.[299,1287,265,1713]" captionTargetPageId="69" captionText="Fig. 23. Light micrographs showing overviews and details of Echinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov. A–E, G–J. Holotype, ♀ (USNM-55391). F. Paratype, ♀ (USNM-55394). K. Paratype, ♂ (USNM-55397). A. Ventral overview. B. Segments 1 to 4, dorsal view. C. Segments 1 to 4, ventral view. D. Segments 4 to 8, dorsal view. E. Segments 5 to 8, ventral view, showing female sexual dimorphism. F. Segments 8 to 9, dorsal view. G. Detail showing ventrolateral female papilla on segment 7. H. Detail showing ventromedial female papilla on segment 8. I. Detail showing ventral trichoscalids and trichoscalid plates. J. Segments 10 to 11, ventral view, showing female sexual dimorphism. K. Segments 10 to 11, ventral view, showing male sexual dimorphism." figureDoi="http://doi.org/10.5281/zenodo.4419043" httpUri="https://zenodo.org/record/4419043/files/figure.png" pageId="72" pageNumber="73">23E, H</figureCitation>
+, 
+<figureCitation id="13553FE3FFE75754B099FD2E198FFC9D" box="[977,1020,753,779]" captionStart="Fig" captionStartId="70.[189,232,1683,1709]" captionTargetBox="[226,1366,269,1649]" captionTargetId="figure-13@70.[224,1367,265,1651]" captionTargetPageId="70" captionText="Fig. 24. Scanning electron micrographs showing overviews and details of Echinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov. A–C, H–I, K. ♀ (MVS, personal reference collection). D–G, J, L. ♂ (MVS, personal reference collection). A. Ventrolateral overview. B. Mouth cone, lateroventral view. C. Introvert sector 1 (ventral); inset shows detail of primary spinoscalid fringes, alternatingly attaching along a longitudinal line. D. Segments 1 to 2, dorsal view. E. Segments 1 to 2, ventral view. F. Segments 8 to 9, lateral view. G. Segments 6 to 8, dorsal view. H. Right sternal plate of segment 7, showing female sexual dimorphism. I. Right sternal plate of segment 8, showing female sexual dimorphism. J. Segments 10 to 11 dorsal view, showing male sexual dimorphism. K. Segments 10 to 11 ventral view, showing male sexual dimorphism. L. Segments 10 to 11 ventrolateral view, showing female sexual dimorphism." figureDoi="http://doi.org/10.5281/zenodo.4419045" httpUri="https://zenodo.org/record/4419045/files/figure.png" pageId="72" pageNumber="73">24I</figureCitation>
+). Glandular cell outlets 
+<typeStatus id="54D59DC4FFE75754B66BFD2E1F25FC9D" box="[1315,1366,753,779]" pageId="72" pageNumber="73">type</typeStatus>
+1, pachycycli, pectinate fringe of posterior margin and cuticular hairs as on preceding segment.
+</paragraph>
+<paragraph id="8BD12366FFE75754B3F5FC8918B5FC6B" blockId="72.[189,1399,853,1021]" pageId="72" pageNumber="73">
+Segment 9 with acicular spines in lateroventral positions, protruding slightly beyond primary pectinate fringe of posterior segment margin (
+<figureCitation id="13553FE3FFE75754B120FCA618AAFC05" box="[616,729,889,915]" captionStart="Fig" captionStartId="68.[189,232,1922,1948]" captionTargetBox="[264,1320,269,1884]" captionTargetId="figure-14@68.[263,1324,265,1884]" captionTargetPageId="68" captionText="Fig. 22. Line art illustrations of Echinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov.A. Female, dorsal view. B. Female, ventral view. C. Segments 10 to 11 in male, dorsal view. D. Segments 10 to 11 in male, ventral view." figureDoi="http://doi.org/10.5281/zenodo.4419039" httpUri="https://zenodo.org/record/4419039/files/figure.png" pageId="72" pageNumber="73">Figs 22B</figureCitation>
+). Sensory spots, glandular cell outlets 
+<typeStatus id="54D59DC4FFE75754B7D7FCA61EA1FC05" box="[1183,1234,889,915]" pageId="72" pageNumber="73">type</typeStatus>
+1 and 2 as on preceding segment, but female papillae not present (
+<figureCitation id="13553FE3FFE75754B057FC43190BFC20" box="[799,888,924,950]" captionStart="Fig" captionStartId="68.[189,232,1922,1948]" captionTargetBox="[264,1320,269,1884]" captionTargetId="figure-14@68.[263,1324,265,1884]" captionTargetPageId="68" captionText="Fig. 22. Line art illustrations of Echinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov.A. Female, dorsal view. B. Female, ventral view. C. Segments 10 to 11 in male, dorsal view. D. Segments 10 to 11 in male, ventral view." figureDoi="http://doi.org/10.5281/zenodo.4419039" httpUri="https://zenodo.org/record/4419039/files/figure.png" pageId="72" pageNumber="73">Figs 22</figureCitation>
+A–B, 24F). Small, rounded nephridial sieve plates present in lateral accessory positions (
+<figureCitation id="13553FE3FFE75754B180FC601942FC4F" box="[712,817,959,985]" captionStart="Fig" captionStartId="70.[189,232,1683,1709]" captionTargetBox="[226,1366,269,1649]" captionTargetId="figure-13@70.[224,1367,265,1651]" captionTargetPageId="70" captionText="Fig. 24. Scanning electron micrographs showing overviews and details of Echinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov. A–C, H–I, K. ♀ (MVS, personal reference collection). D–G, J, L. ♂ (MVS, personal reference collection). A. Ventrolateral overview. B. Mouth cone, lateroventral view. C. Introvert sector 1 (ventral); inset shows detail of primary spinoscalid fringes, alternatingly attaching along a longitudinal line. D. Segments 1 to 2, dorsal view. E. Segments 1 to 2, ventral view. F. Segments 8 to 9, lateral view. G. Segments 6 to 8, dorsal view. H. Right sternal plate of segment 7, showing female sexual dimorphism. I. Right sternal plate of segment 8, showing female sexual dimorphism. J. Segments 10 to 11 dorsal view, showing male sexual dimorphism. K. Segments 10 to 11 ventral view, showing male sexual dimorphism. L. Segments 10 to 11 ventrolateral view, showing female sexual dimorphism." figureDoi="http://doi.org/10.5281/zenodo.4419045" httpUri="https://zenodo.org/record/4419045/files/figure.png" pageId="72" pageNumber="73">Fig. 24F</figureCitation>
+). Pachycycli, pectinate fringe of posterior margin and cuticular hairs as on preceding segment.
+</paragraph>
+<paragraph id="8BD12366FFE75754B3F5FBFB1BD1FAA3" blockId="72.[188,1400,1060,1333]" pageId="72" pageNumber="73">
+Segment 10 with well-developed laterodorsal tubes near posterior segment margin (
+<figureCitation id="13553FE3FFE75754B7FCFBFB1F60FBA8" box="[1204,1299,1060,1086]" captionStart="Fig" captionStartId="68.[189,232,1922,1948]" captionTargetBox="[264,1320,269,1884]" captionTargetId="figure-14@68.[263,1324,265,1884]" captionTargetPageId="68" captionText="Fig. 22. Line art illustrations of Echinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov.A. Female, dorsal view. B. Female, ventral view. C. Segments 10 to 11 in male, dorsal view. D. Segments 10 to 11 in male, ventral view." figureDoi="http://doi.org/10.5281/zenodo.4419039" httpUri="https://zenodo.org/record/4419039/files/figure.png" pageId="72" pageNumber="73">Figs 22</figureCitation>
+, 
+<figureCitation id="13553FE3FFE75754B66BFBFB1F33FBA8" box="[1315,1344,1060,1086]" captionStart="Fig" captionStartId="69.[189,232,1748,1774]" captionTargetBox="[304,1286,268,1709]" captionTargetId="figure-11@69.[299,1287,265,1713]" captionTargetPageId="69" captionText="Fig. 23. Light micrographs showing overviews and details of Echinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov. A–E, G–J. Holotype, ♀ (USNM-55391). F. Paratype, ♀ (USNM-55394). K. Paratype, ♂ (USNM-55397). A. Ventral overview. B. Segments 1 to 4, dorsal view. C. Segments 1 to 4, ventral view. D. Segments 4 to 8, dorsal view. E. Segments 5 to 8, ventral view, showing female sexual dimorphism. F. Segments 8 to 9, dorsal view. G. Detail showing ventrolateral female papilla on segment 7. H. Detail showing ventromedial female papilla on segment 8. I. Detail showing ventral trichoscalids and trichoscalid plates. J. Segments 10 to 11, ventral view, showing female sexual dimorphism. K. Segments 10 to 11, ventral view, showing male sexual dimorphism." figureDoi="http://doi.org/10.5281/zenodo.4419043" httpUri="https://zenodo.org/record/4419043/files/figure.png" pageId="72" pageNumber="73">23</figureCitation>
+J–K, 24J, L). Sensory spots present in subdorsal (but close to paradorsal) and ventrolateral positions (
+<figureCitation id="13553FE3FFE75754B65FFB981F01FBF7" box="[1303,1394,1095,1121]" captionStart="Fig" captionStartId="68.[189,232,1922,1948]" captionTargetBox="[264,1320,269,1884]" captionTargetId="figure-14@68.[263,1324,265,1884]" captionTargetPageId="68" captionText="Fig. 22. Line art illustrations of Echinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov.A. Female, dorsal view. B. Female, ventral view. C. Segments 10 to 11 in male, dorsal view. D. Segments 10 to 11 in male, ventral view." figureDoi="http://doi.org/10.5281/zenodo.4419039" httpUri="https://zenodo.org/record/4419039/files/figure.png" pageId="72" pageNumber="73">Figs 22</figureCitation>
+, 
+<figureCitation id="13553FE3FFE75754B3F4FBB51AA8FB12" box="[188,219,1130,1156]" captionStart="Fig" captionStartId="70.[189,232,1683,1709]" captionTargetBox="[226,1366,269,1649]" captionTargetId="figure-13@70.[224,1367,265,1651]" captionTargetPageId="70" captionText="Fig. 24. Scanning electron micrographs showing overviews and details of Echinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov. A–C, H–I, K. ♀ (MVS, personal reference collection). D–G, J, L. ♂ (MVS, personal reference collection). A. Ventrolateral overview. B. Mouth cone, lateroventral view. C. Introvert sector 1 (ventral); inset shows detail of primary spinoscalid fringes, alternatingly attaching along a longitudinal line. D. Segments 1 to 2, dorsal view. E. Segments 1 to 2, ventral view. F. Segments 8 to 9, lateral view. G. Segments 6 to 8, dorsal view. H. Right sternal plate of segment 7, showing female sexual dimorphism. I. Right sternal plate of segment 8, showing female sexual dimorphism. J. Segments 10 to 11 dorsal view, showing male sexual dimorphism. K. Segments 10 to 11 ventral view, showing male sexual dimorphism. L. Segments 10 to 11 ventrolateral view, showing female sexual dimorphism." figureDoi="http://doi.org/10.5281/zenodo.4419045" httpUri="https://zenodo.org/record/4419045/files/figure.png" pageId="72" pageNumber="73">24</figureCitation>
+J–L). Glandular cell outlets 
+<typeStatus id="54D59DC4FFE75754B17AFBB41816FB13" box="[562,613,1131,1157]" pageId="72" pageNumber="73">type</typeStatus>
+1 present as two longitudinally arranged middorsal ones and in ventromedial positions. The posterior segment margin of the tergal plate is straight, whereas margins of sternal plates are concave (most deeply concave in males) and extend midventrally into a point that almost reaches the posterior margin of the terminal segment (
+<figureCitation id="13553FE3FFE75754B08FFB0B1E6FFB78" box="[967,1052,1236,1262]" captionStart="Fig" captionStartId="70.[189,232,1683,1709]" captionTargetBox="[226,1366,269,1649]" captionTargetId="figure-13@70.[224,1367,265,1651]" captionTargetPageId="70" captionText="Fig. 24. Scanning electron micrographs showing overviews and details of Echinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov. A–C, H–I, K. ♀ (MVS, personal reference collection). D–G, J, L. ♂ (MVS, personal reference collection). A. Ventrolateral overview. B. Mouth cone, lateroventral view. C. Introvert sector 1 (ventral); inset shows detail of primary spinoscalid fringes, alternatingly attaching along a longitudinal line. D. Segments 1 to 2, dorsal view. E. Segments 1 to 2, ventral view. F. Segments 8 to 9, lateral view. G. Segments 6 to 8, dorsal view. H. Right sternal plate of segment 7, showing female sexual dimorphism. I. Right sternal plate of segment 8, showing female sexual dimorphism. J. Segments 10 to 11 dorsal view, showing male sexual dimorphism. K. Segments 10 to 11 ventral view, showing male sexual dimorphism. L. Segments 10 to 11 ventrolateral view, showing female sexual dimorphism." figureDoi="http://doi.org/10.5281/zenodo.4419045" httpUri="https://zenodo.org/record/4419045/files/figure.png" pageId="72" pageNumber="73">Fig. 24</figureCitation>
+K–L); fringe tips of pectinate fringe are considerably shorter than those on preceding segments. Pachycycli and cuticular hairs as on preceding segment.
+</paragraph>
+<paragraph id="8BD12366FFE75754B3F5FA831F04F9DF" blockId="72.[188,1399,1371,1609]" pageId="72" pageNumber="73">
+Segment 11 with lateral terminal spines (
+<figureCitation id="13553FE3FFE75754B1DEFA841882FAE0" box="[662,753,1371,1398]" captionStart="Fig" captionStartId="68.[189,232,1922,1948]" captionTargetBox="[264,1320,269,1884]" captionTargetId="figure-14@68.[263,1324,265,1884]" captionTargetPageId="68" captionText="Fig. 22. Line art illustrations of Echinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov.A. Female, dorsal view. B. Female, ventral view. C. Segments 10 to 11 in male, dorsal view. D. Segments 10 to 11 in male, ventral view." figureDoi="http://doi.org/10.5281/zenodo.4419039" httpUri="https://zenodo.org/record/4419039/files/figure.png" pageId="72" pageNumber="73">Figs 22</figureCitation>
+, 
+<figureCitation id="13553FE3FFE75754B1B4FA831942FAE0" box="[764,817,1372,1398]" captionStart="Fig" captionStartId="69.[189,232,1748,1774]" captionTargetBox="[304,1286,268,1709]" captionTargetId="figure-11@69.[299,1287,265,1713]" captionTargetPageId="69" captionText="Fig. 23. Light micrographs showing overviews and details of Echinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov. A–E, G–J. Holotype, ♀ (USNM-55391). F. Paratype, ♀ (USNM-55394). K. Paratype, ♂ (USNM-55397). A. Ventral overview. B. Segments 1 to 4, dorsal view. C. Segments 1 to 4, ventral view. D. Segments 4 to 8, dorsal view. E. Segments 5 to 8, ventral view, showing female sexual dimorphism. F. Segments 8 to 9, dorsal view. G. Detail showing ventrolateral female papilla on segment 7. H. Detail showing ventromedial female papilla on segment 8. I. Detail showing ventral trichoscalids and trichoscalid plates. J. Segments 10 to 11, ventral view, showing female sexual dimorphism. K. Segments 10 to 11, ventral view, showing male sexual dimorphism." figureDoi="http://doi.org/10.5281/zenodo.4419043" httpUri="https://zenodo.org/record/4419043/files/figure.png" pageId="72" pageNumber="73">23A</figureCitation>
+, J–K, 24A, J–L). Males with three pairs of tubular penile spines (
+<figureCitation id="13553FE3FFE75754B217FAA01BCBFA0F" box="[351,440,1407,1433]" captionStart="Fig" captionStartId="68.[189,232,1922,1948]" captionTargetBox="[264,1320,269,1884]" captionTargetId="figure-14@68.[263,1324,265,1884]" captionTargetPageId="68" captionText="Fig. 22. Line art illustrations of Echinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov.A. Female, dorsal view. B. Female, ventral view. C. Segments 10 to 11 in male, dorsal view. D. Segments 10 to 11 in male, ventral view." figureDoi="http://doi.org/10.5281/zenodo.4419039" httpUri="https://zenodo.org/record/4419039/files/figure.png" pageId="72" pageNumber="73">Figs 22</figureCitation>
+C–D, 23K, 24J–K); dorsal and ventral penile spines are thin, flexible tubes, whereas the median ones are slightly thicker; females with short, thin lateral terminal accessory spines. Sensory spots present in subdorsal and ventrolateral positions (
+<figureCitation id="13553FE3FFE75754B075FA1A19EAFA49" box="[829,921,1477,1503]" captionStart="Fig" captionStartId="68.[189,232,1922,1948]" captionTargetBox="[264,1320,269,1884]" captionTargetId="figure-14@68.[263,1324,265,1884]" captionTargetPageId="68" captionText="Fig. 22. Line art illustrations of Echinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov.A. Female, dorsal view. B. Female, ventral view. C. Segments 10 to 11 in male, dorsal view. D. Segments 10 to 11 in male, ventral view." figureDoi="http://doi.org/10.5281/zenodo.4419039" httpUri="https://zenodo.org/record/4419039/files/figure.png" pageId="72" pageNumber="73">Figs 22</figureCitation>
+, 
+<figureCitation id="13553FE3FFE75754B0EDFA1A19B1FA49" box="[933,962,1477,1503]" captionStart="Fig" captionStartId="69.[189,232,1748,1774]" captionTargetBox="[304,1286,268,1709]" captionTargetId="figure-11@69.[299,1287,265,1713]" captionTargetPageId="69" captionText="Fig. 23. Light micrographs showing overviews and details of Echinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov. A–E, G–J. Holotype, ♀ (USNM-55391). F. Paratype, ♀ (USNM-55394). K. Paratype, ♂ (USNM-55397). A. Ventral overview. B. Segments 1 to 4, dorsal view. C. Segments 1 to 4, ventral view. D. Segments 4 to 8, dorsal view. E. Segments 5 to 8, ventral view, showing female sexual dimorphism. F. Segments 8 to 9, dorsal view. G. Detail showing ventrolateral female papilla on segment 7. H. Detail showing ventromedial female papilla on segment 8. I. Detail showing ventral trichoscalids and trichoscalid plates. J. Segments 10 to 11, ventral view, showing female sexual dimorphism. K. Segments 10 to 11, ventral view, showing male sexual dimorphism." figureDoi="http://doi.org/10.5281/zenodo.4419043" httpUri="https://zenodo.org/record/4419043/files/figure.png" pageId="72" pageNumber="73">23</figureCitation>
+J–K, 24J–K). The dorsal and most of the ventral sides are densely covered with non-bracteate hair-like extensions, except in some areas near the anterior margin of the segment. Tergal extensions are well-spaced, short and pointed (
+<figureCitation id="13553FE3FFE75754B79DF9D41F42F9B0" box="[1237,1329,1547,1574]" captionStart="Fig" captionStartId="68.[189,232,1922,1948]" captionTargetBox="[264,1320,269,1884]" captionTargetId="figure-14@68.[263,1324,265,1884]" captionTargetPageId="68" captionText="Fig. 22. Line art illustrations of Echinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov.A. Female, dorsal view. B. Female, ventral view. C. Segments 10 to 11 in male, dorsal view. D. Segments 10 to 11 in male, ventral view." figureDoi="http://doi.org/10.5281/zenodo.4419039" httpUri="https://zenodo.org/record/4419039/files/figure.png" pageId="72" pageNumber="73">Figs 22</figureCitation>
+, 
+<figureCitation id="13553FE3FFE75754B675F9D31F01F9B0" box="[1341,1394,1548,1574]" captionStart="Fig" captionStartId="69.[189,232,1748,1774]" captionTargetBox="[304,1286,268,1709]" captionTargetId="figure-11@69.[299,1287,265,1713]" captionTargetPageId="69" captionText="Fig. 23. Light micrographs showing overviews and details of Echinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov. A–E, G–J. Holotype, ♀ (USNM-55391). F. Paratype, ♀ (USNM-55394). K. Paratype, ♂ (USNM-55397). A. Ventral overview. B. Segments 1 to 4, dorsal view. C. Segments 1 to 4, ventral view. D. Segments 4 to 8, dorsal view. E. Segments 5 to 8, ventral view, showing female sexual dimorphism. F. Segments 8 to 9, dorsal view. G. Detail showing ventrolateral female papilla on segment 7. H. Detail showing ventromedial female papilla on segment 8. I. Detail showing ventral trichoscalids and trichoscalid plates. J. Segments 10 to 11, ventral view, showing female sexual dimorphism. K. Segments 10 to 11, ventral view, showing male sexual dimorphism." figureDoi="http://doi.org/10.5281/zenodo.4419043" httpUri="https://zenodo.org/record/4419043/files/figure.png" pageId="72" pageNumber="73">23K</figureCitation>
+, 
+<figureCitation id="13553FE3FFE75754B3F5F9F01B7AF9DF" box="[189,265,1583,1609]" captionStart="Fig" captionStartId="70.[189,232,1683,1709]" captionTargetBox="[226,1366,269,1649]" captionTargetId="figure-13@70.[224,1367,265,1651]" captionTargetPageId="70" captionText="Fig. 24. Scanning electron micrographs showing overviews and details of Echinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov. A–C, H–I, K. ♀ (MVS, personal reference collection). D–G, J, L. ♂ (MVS, personal reference collection). A. Ventrolateral overview. B. Mouth cone, lateroventral view. C. Introvert sector 1 (ventral); inset shows detail of primary spinoscalid fringes, alternatingly attaching along a longitudinal line. D. Segments 1 to 2, dorsal view. E. Segments 1 to 2, ventral view. F. Segments 8 to 9, lateral view. G. Segments 6 to 8, dorsal view. H. Right sternal plate of segment 7, showing female sexual dimorphism. I. Right sternal plate of segment 8, showing female sexual dimorphism. J. Segments 10 to 11 dorsal view, showing male sexual dimorphism. K. Segments 10 to 11 ventral view, showing male sexual dimorphism. L. Segments 10 to 11 ventrolateral view, showing female sexual dimorphism." figureDoi="http://doi.org/10.5281/zenodo.4419045" httpUri="https://zenodo.org/record/4419045/files/figure.png" pageId="72" pageNumber="73">24J, L</figureCitation>
+); sternal extensions short, with ventrolateral seta-like tuft of extended fringe tips (
+<figureCitation id="13553FE3FFE75754B783F9F01F54F9DF" box="[1227,1319,1583,1609]" captionStart="Fig" captionStartId="68.[189,232,1922,1948]" captionTargetBox="[264,1320,269,1884]" captionTargetId="figure-14@68.[263,1324,265,1884]" captionTargetPageId="68" captionText="Fig. 22. Line art illustrations of Echinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov.A. Female, dorsal view. B. Female, ventral view. C. Segments 10 to 11 in male, dorsal view. D. Segments 10 to 11 in male, ventral view." figureDoi="http://doi.org/10.5281/zenodo.4419039" httpUri="https://zenodo.org/record/4419039/files/figure.png" pageId="72" pageNumber="73">Figs 22</figureCitation>
+, 
+<figureCitation id="13553FE3FFE75754B67BF9F01F19F9DF" box="[1331,1386,1583,1609]" captionStart="Fig" captionStartId="70.[189,232,1683,1709]" captionTargetBox="[226,1366,269,1649]" captionTargetId="figure-13@70.[224,1367,265,1651]" captionTargetPageId="70" captionText="Fig. 24. Scanning electron micrographs showing overviews and details of Echinoderes chandrasekharai Sørensen &amp; Chatterjee sp. nov. A–C, H–I, K. ♀ (MVS, personal reference collection). D–G, J, L. ♂ (MVS, personal reference collection). A. Ventrolateral overview. B. Mouth cone, lateroventral view. C. Introvert sector 1 (ventral); inset shows detail of primary spinoscalid fringes, alternatingly attaching along a longitudinal line. D. Segments 1 to 2, dorsal view. E. Segments 1 to 2, ventral view. F. Segments 8 to 9, lateral view. G. Segments 6 to 8, dorsal view. H. Right sternal plate of segment 7, showing female sexual dimorphism. I. Right sternal plate of segment 8, showing female sexual dimorphism. J. Segments 10 to 11 dorsal view, showing male sexual dimorphism. K. Segments 10 to 11 ventral view, showing male sexual dimorphism. L. Segments 10 to 11 ventrolateral view, showing female sexual dimorphism." figureDoi="http://doi.org/10.5281/zenodo.4419045" httpUri="https://zenodo.org/record/4419045/files/figure.png" pageId="72" pageNumber="73">24K</figureCitation>
+).
+</paragraph>
+</subSubSection>
+</treatment>
+</document>
