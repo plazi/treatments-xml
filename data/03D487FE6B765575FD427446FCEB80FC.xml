@@ -1,0 +1,949 @@
+<document id="E0EC3D73E72D590A2F00CFE4D57CBD9B" ID-DOI="http://doi.org/10.5281/zenodo.4336390" ID-GBIF-Dataset="5e1d0e63-c052-42fa-ba84-55f2166bfefd" ID-GBIF-Taxon="166095931" ID-Zenodo-Dep="4336390" ID-ZooBank="265EDD08-7AA8-4835-B7F6-353E7992633E" LSID="urn:lsid:zoobank.org:act:C2046392-256D-4485-8E85-8E94B9A37FF8" _generate="added" approvalRequired="17" approvalRequired_for_bibRefs="16" approvalRequired_for_illustrations="1" checkinTime="1596647298810" checkinUser="valdenar" docAuthor="Mazancourt, Valentin de, Boseto, David, Marquet, Gerard &amp; Keith, Philippe" docDate="2020" docId="03D487FE6B765575FD427446FCEB80FC" docLanguage="en" docName="ejt-696_mazancourt_bosteo_marquet.pdf" docOrigin="European Journal of Taxonomy 696" docStyle="DocumentStyle:EF2B578F1D15862ADE45B0C07C620911.12:EJT.2018-.journal_article" docStyleId="EF2B578F1D15862ADE45B0C07C620911" docStyleName="EJT.2018-.journal_article" docStyleVersion="12" docTitle="Caridina pisuku Mazancourt &amp; Boseto &amp; Marquet &amp; Keith 2020, sp. nov." docType="treatment" docUuid="C2046392-256D-4485-8E85-8E94B9A37FF8" docUuidSource="ZooBank" docVersion="8" lastPageId="32" lastPageNumber="33" masterDocId="FFEDFF866B6B5555FFC57643FFD1860E" masterDocTitle="Solomon’s Gold Mine: Description or redescription of 24 species of Caridina (Crustacea: Decapoda: Atyidae) freshwater shrimps from the Solomon Islands, including 11 new species" masterLastPageNumber="86" masterPageNumber="1" pageId="29" pageNumber="30" updateTime="1632096438229" updateUser="ExternalLinkService" zenodo-license-document="CC-BY-4.0" zenodo-license-figures="CC-BY-4.0" zenodo-license-treatments="UNSPECIFIED">
+<mods:mods id="3FA0C06FA8B68173EAEB0405CFB181CF" xmlns:mods="http://www.loc.gov/mods/v3">
+<mods:titleInfo id="2C9F0D92E91DC6406790AFAD582B8DD1">
+<mods:title id="2890AF255D11F2127C9541244508F85D">Solomon’s Gold Mine: Description or redescription of 24 species of Caridina (Crustacea: Decapoda: Atyidae) freshwater shrimps from the Solomon Islands, including 11 new species</mods:title>
+</mods:titleInfo>
+<mods:name id="84A526CC263EB83A28EE0C7D4C9C4361" type="personal">
+<mods:role id="E0770DCFDB422D0035F5D62CD55B3771">
+<mods:roleTerm id="CD2DB20509AFB9053403522237E80DC8">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="9D3F915083382BA4086A3354D2E97745">Mazancourt, Valentin de</mods:namePart>
+<mods:nameIdentifier id="80B2ED4322BF19810F38A8116BA57948" type="LSID">334E54F3-9FE1-4208-8861-1946579697A5</mods:nameIdentifier>
+<mods:affiliation id="271F157D1E4C4B5BC9B73A7CD635EAAE">Unité Biologie des organismes et écosystèmes aquatiques (BOREA), Muséum national d’Histoire naturelle, Sorbonne Université, Université de Caen Normandie, Université des Antilles, CNRS, IRD, CP 26, 57 rue Cuvier 75005 Paris, France. Museum f ̹ r Naturkunde, Leibniz Institute for Evolution and Biodiversity Science, Invalidenstrasse 43, 10115 Berlin, Germany. Ecological Solutions in Solomon Islands, Western province, Gizo, Solomon Islands.</mods:affiliation>
+<mods:nameIdentifier id="2308F446E734D56FF9DEFFB0E6CE791B" type="email">valentin.demazancourt@laposte.net</mods:nameIdentifier>
+</mods:name>
+<mods:name id="8823FD5DCD623283D09017C26A3BD67B" type="personal">
+<mods:role id="37CD9BB612427C20E2EE9124D7CD4A7B">
+<mods:roleTerm id="C048B012375DCAE59C2D1BE68BAECF0A">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="0A77DE5C65FA89CB4926E6C2C42C1D8F">Boseto, David</mods:namePart>
+<mods:nameIdentifier id="9D432D3AAD73DB5B16C6340D0C61A112" type="LSID">E2AA5328-9578-4380-9254-3FA0B65807E6</mods:nameIdentifier>
+<mods:affiliation id="D092D7726649DEFF83DED48F8C7DBEC7">Ecological Solutions in Solomon Islands, Western province, Gizo, Solomon Islands.</mods:affiliation>
+<mods:nameIdentifier id="5AB993D777B2E64CDFA40543E691CC7E" type="email">dboseto@ecologicalsolutions-si.com</mods:nameIdentifier>
+</mods:name>
+<mods:name id="5F1FF4F913301ED5C2057A4C606CAE07" type="personal">
+<mods:role id="D7DD26CEAF9DCB381BDC5D3C762AB08F">
+<mods:roleTerm id="AB2B1D17940E324AE3A4D9F0BA9E7A6E">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="FB9799FF18F8AAB35D46F2DDB927C617">Marquet, Gerard</mods:namePart>
+<mods:nameIdentifier id="0C26C18F7C31B4C01CCEAF640E2939D6" type="LSID">BB110358-4FA2-4F5B-BF3A-B51F69D81AA9</mods:nameIdentifier>
+<mods:affiliation id="05F712BE53936990BF9DB736FBB582ED">Unité Biologie des organismes et écosystèmes aquatiques (BOREA), Muséum national d’Histoire naturelle, Sorbonne Université, Université de Caen Normandie, Université des Antilles, CNRS, IRD, CP 26, 57 rue Cuvier 75005 Paris, France. Museum f ̹ r Naturkunde, Leibniz Institute for Evolution and Biodiversity Science, Invalidenstrasse 43, 10115 Berlin, Germany. Ecological Solutions in Solomon Islands, Western province, Gizo, Solomon Islands.</mods:affiliation>
+<mods:nameIdentifier id="B456DC32D51E8B47A819DA5E7FF184F7" type="email">gmarquet@neuf.fr</mods:nameIdentifier>
+</mods:name>
+<mods:name id="BD396712FA4AC1FD29C902E6EF28B391" type="personal">
+<mods:role id="7CF39F725925C0D459CED2D4EEB2552F">
+<mods:roleTerm id="A439F64AB624740DBE590DE4FE4395E1">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="BBD095E478C39DDC8EB770E926769308">Keith, Philippe</mods:namePart>
+<mods:nameIdentifier id="DDDB56428879123668CB3AF6C874D21B" type="LSID">FDDE84AB-E459-401C-A9BF-3F16CEEBFD7C</mods:nameIdentifier>
+<mods:affiliation id="41E9EBEDD0CC8FD80A5F35900A843E76">Unité Biologie des organismes et écosystèmes aquatiques (BOREA), Muséum national d’Histoire naturelle, Sorbonne Université, Université de Caen Normandie, Université des Antilles, CNRS, IRD, CP 26, 57 rue Cuvier 75005 Paris, France. Museum f ̹ r Naturkunde, Leibniz Institute for Evolution and Biodiversity Science, Invalidenstrasse 43, 10115 Berlin, Germany. Ecological Solutions in Solomon Islands, Western province, Gizo, Solomon Islands.</mods:affiliation>
+<mods:nameIdentifier id="30FA20225CDA03C240A56E2218D530EB" type="email">keith@mnhn.fr</mods:nameIdentifier>
+</mods:name>
+<mods:typeOfResource id="EB5F2E60A83557849F851452F2F78375">text</mods:typeOfResource>
+<mods:relatedItem id="8DE2C7B4DF4323966BCEF24DFF08A7CF" type="host">
+<mods:titleInfo id="10CA3949978B15B19A4870E1BEC632C7">
+<mods:title id="C52B583D3E074ACC2E116BF4A5CB2074">European Journal of Taxonomy</mods:title>
+</mods:titleInfo>
+<mods:part id="296DC195082EAAA564AEE6821F144CF3">
+<mods:date id="753AE1E34359E64F129278987A271C7D">2020</mods:date>
+<mods:detail id="46CE84F5D018CC1E063DCFCF316DAF3B" type="pubDate">
+<mods:number id="748B82A9498B574C9ED650B90A45EE21">2020-08-04</mods:number>
+</mods:detail>
+<mods:detail id="F0768AB186CA757C01C34C6D95DA1B17" type="volume">
+<mods:number id="051995EB65449CC35833BCD62F30674C">696</mods:number>
+</mods:detail>
+<mods:extent id="4EEBD08E3EA474C84DC0D714461F0561" unit="page">
+<mods:start id="CE16B568B00420BC3BFF7DB17A4007C2">1</mods:start>
+<mods:end id="8F4AEEC8E2AC1BB8E9CDD2ED07860040">86</mods:end>
+</mods:extent>
+</mods:part>
+</mods:relatedItem>
+<mods:classification id="3F5EF6E966F3E25452E1894F9FBD1954">journal article</mods:classification>
+<mods:identifier id="D876FE04307364146E1D85F56AD5B6AA" type="DOI">https://doi.org/10.5852/ejt.2020.696</mods:identifier>
+<mods:identifier id="F972714D7AEFED60B82F361780D05797" type="GBIF-Dataset">5e1d0e63-c052-42fa-ba84-55f2166bfefd</mods:identifier>
+<mods:identifier id="26CDCA666493364ECD40DAED6092A68B" type="Zenodo-Dep">3973435</mods:identifier>
+<mods:identifier id="62D8F44FC19FAB26FE9E56B9342FE74A" type="ZooBank">265EDD08-7AA8-4835-B7F6-353E7992633E</mods:identifier>
+</mods:mods>
+<treatment id="03D487FE6B765575FD427446FCEB80FC" ID-DOI="http://doi.org/10.5281/zenodo.4336390" ID-GBIF-Taxon="166095931" ID-Zenodo-Dep="4336390" LSID="urn:lsid:zoobank.org:act:C2046392-256D-4485-8E85-8E94B9A37FF8" httpUri="http://treatment.plazi.org/id/03D487FE6B765575FD427446FCEB80FC" lastPageId="32" lastPageNumber="33" pageId="29" pageNumber="30">
+<subSubSection id="C36765636B765548FD427446FB6A844B" pageId="29" pageNumber="30" type="nomenclature">
+<paragraph id="8BC236E86B765548FD427446FC7C842E" blockId="29.[376,1211,517,617]" box="[647,941,517,544]" pageId="29" pageNumber="30">
+<heading id="D08A81846B765548FD427446FC7C842E" box="[647,941,517,544]" centered="true" fontSize="11" level="2" pageId="29" pageNumber="30" reason="2">
+<taxonomicName id="4C7D4D6B6B765548FD427446FC9D842E" authority="Mazancourt &amp; Boseto &amp; Marquet &amp; Keith, 2020" authorityName="Mazancourt &amp; Boseto &amp; Marquet &amp; Keith" authorityYear="2020" box="[647,844,517,544]" class="Malacostraca" family="Atyidae" genus="Caridina" kingdom="Animalia" order="Decapoda" pageId="29" pageNumber="30" phylum="Arthropoda" rank="species" species="pisuku" status="sp. nov.">
+<emphasis id="B909EAFA6B765548FD427446FC9D842E" bold="true" box="[647,844,517,544]" italics="true" pageId="29" pageNumber="30">Caridina pisuku</emphasis>
+</taxonomicName>
+<taxonomicNameLabel id="A23A57816B765548FC967445FC7C842E" box="[851,941,518,544]" pageId="29" pageNumber="30" rank="species">sp. nov.</taxonomicNameLabel>
+</heading>
+</paragraph>
+<paragraph id="8BC236E86B765548FEBD7469FB6A844B" blockId="29.[376,1211,517,617]" box="[376,1211,554,581]" pageId="29" pageNumber="30">
+<uri id="FFEC3AEA6B765548FEBD7469FB6A844B" box="[376,1211,554,581]" pageId="29" pageNumber="30">
+urn:lsid:zoobank.org:act: 
+<uuid id="FFDB0C3D6B765548FD5C7469FB6A844B" box="[665,1211,554,581]" pageId="29" pageNumber="30">C2046392-256D-4485-8E85-8E94B9A37FF8</uuid>
+</uri>
+</paragraph>
+</subSubSection>
+<subSubSection id="C36765636B765548FD1F740CFC8B8467" box="[730,858,591,617]" pageId="29" pageNumber="30" type="description">
+<paragraph id="8BC236E86B765548FD1F740CFC8B8467" blockId="29.[376,1211,517,617]" box="[730,858,591,617]" pageId="29" pageNumber="30">
+<figureCitation id="13462A6D6B765548FD1F740CFCEE8467" box="[730,831,591,617]" captionStart="Fig" captionStartId="6.[189,232,1893,1919]" captionTargetBox="[190,1389,745,1848]" captionTargetId="figure@6.[189,1398,736,1852]" captionTargetPageId="6" captionText="Fig. 2. Bayesian inference phylogenetic tree of the species studied. Numbers above branches are Bayesian posterior probabilities, numbers under branches are Maximum Likelihood bootstrap values. Results of the three species delimitation methods are indicated by the black bars on the right of the tree. Each bar represents a species recognized by the analysis." figureDoi="http://doi.org/10.5281/zenodo.3973439" httpUri="https://zenodo.org/record/3973439/files/figure.png" pageId="29" pageNumber="30">Figs 2M</figureCitation>
+, 
+<figureCitation id="13462A6D6B765548FC8E740CFC8B8467" box="[843,858,591,617]" captionStart="Fig" captionStartId="31.[189,232,1861,1887]" captionTargetBox="[252,1333,268,1811]" captionTargetId="figure@31.[249,1337,265,1821]" captionTargetPageId="31" captionText="Fig. 9. Caridina pisuku sp. nov. a. First pereiopod. b. Second pereiopod. c. Third pereiopod. d. Fifth pereiopod. e. Dactylus of third pereiopod. f. Dactylus of fifth pereiopod. g. Pre-anal carina. h. Uropodal diaeresis. i. Telson. j. First male pleopod. k. Second male pleopod. l. Eggs. m. Cephalothorax. n–o. Rostrum variations. MNHN-IU-2014-20865 (a–f, l), MNHN-IU-2014-20873 (g–h, j–k), MNHN- IU-2014-20864 (m), MNHN-IU-2014-20868 (i, n) and MNHN-IU-2014-20862 (o)." figureDoi="http://doi.org/10.5281/zenodo.3973453" httpUri="https://zenodo.org/record/3973453/files/figure.png" pageId="29" pageNumber="30">9</figureCitation>
+</paragraph>
+</subSubSection>
+<subSubSection id="C36765636B765548FF7874D0FC3C84DF" pageId="29" pageNumber="30" type="reference_group">
+<paragraph id="8BC236E86B765548FF7874D0FBE084A3" blockId="29.[189,1073,658,722]" box="[189,1073,658,685]" pageId="29" pageNumber="30">
+<treatmentCitationGroup id="AB6D11C66B765548FF7874D0FBE084A3" box="[189,1073,658,685]" pageId="29" pageNumber="30">
+<taxonomicName id="4C7D4D6B6B765548FF7874D0FEB684A2" baseAuthorityName="H. Milne Edwards" baseAuthorityYear="1837" box="[189,359,658,685]" class="Malacostraca" family="Atyidae" genus="Caridina" kingdom="Animalia" order="Decapoda" pageId="29" pageNumber="30" phylum="Arthropoda" rank="species" species="longirostris">
+<emphasis id="B909EAFA6B765548FF7874D0FEB684A2" box="[189,359,658,685]" italics="true" pageId="29" pageNumber="30">C. longirostris</emphasis>
+</taxonomicName>
+– 
+<treatmentCitation id="0ADC10F96B765548FE4174D0FDAC84A2" author="Page T. J. &amp; von Rintelen K. &amp; Hughes J. M." box="[388,637,658,685]" page="647" pageId="29" pageNumber="30" year="2007">
+<bibRefCitation id="EFEC4B196B765548FE4174D0FDAC84A2" author="Page T. J. &amp; von Rintelen K. &amp; Hughes J. M." box="[388,637,658,685]" pageId="29" pageNumber="30" pagination="645 - 659" refId="ref47550" refString="Page T. J., von Rintelen K. &amp; Hughes J. M. 2007. An island in the stream: Australia's place in the cosmopolitan world of Indo-West Pacific freshwater shrimp (Decapoda: Atyidae: Caridina). Molecular Phylogenetics and Evolution 43 (2): 645 - 659. https: // doi. org / 10.1016 / j. ympev. 2006.08.007" type="journal article" year="2007">
+Page 
+<emphasis id="B909EAFA6B765548FE0074D0FDD184A2" box="[453,512,658,684]" italics="true" pageId="29" pageNumber="30">et al.</emphasis>
+2007: 647
+</bibRefCitation>
+</treatmentCitation>
+(GenBank: 
+<accessionNumber id="942EAB0B6B765548FCC974D1FC4084A3" box="[780,913,658,685]" httpUri="http://www.ncbi.nlm.nih.gov/nucleotide/DQ478506" pageId="29" pageNumber="30">DQ478506</accessionNumber>
+– 
+<accessionNumber id="942EAB0B6B765548FC6474D1FBF784A3" box="[929,1062,658,685]" httpUri="http://www.ncbi.nlm.nih.gov/nucleotide/DQ478507" pageId="29" pageNumber="30">DQ478507</accessionNumber>
+).
+</treatmentCitationGroup>
+</paragraph>
+<paragraph id="8BC236E86B765548FF7874F4FC3C84DF" blockId="29.[189,1073,658,722]" box="[189,1005,695,722]" pageId="29" pageNumber="30">
+<treatmentCitationGroup id="AB6D11C66B765548FF7874F4FC3C84DF" box="[189,1005,695,722]" pageId="29" pageNumber="30">
+<taxonomicName id="4C7D4D6B6B765548FF7874F4FEF684DF" authorityName="H. Milne Edwards" authorityYear="1837" box="[189,295,695,721]" class="Malacostraca" family="Atyidae" genus="Caridina" kingdom="Animalia" order="Decapoda" pageId="29" pageNumber="30" phylum="Arthropoda" rank="genus">
+<emphasis id="B909EAFA6B765548FF7874F4FEF684DF" box="[189,295,695,721]" italics="true" pageId="29" pageNumber="30">Caridina</emphasis>
+</taxonomicName>
+sp. 3 Solomon – 
+<treatmentCitation id="0ADC10F96B765548FE3174F4FCA284DF" author="de Mazancourt V. &amp; Klotz W. &amp; Marquet G. &amp; Mos B. &amp; Rogers D. C. &amp; Keith P." box="[500,883,695,722]" page="166" pageId="29" pageNumber="30" year="2019">
+<bibRefCitation id="EFEC4B196B765548FE3174F4FCA284DF" author="de Mazancourt V. &amp; Klotz W. &amp; Marquet G. &amp; Mos B. &amp; Rogers D. C. &amp; Keith P." box="[500,883,695,722]" pageId="29" pageNumber="30" pagination="164 - 180" refId="ref46934" refString="de Mazancourt V., Klotz W., Marquet G., Mos B., Rogers D. C. &amp; Keith P. 2019 a. The complex study of complexes: the first well-supported phylogeny of two species complexes within genus Caridina (Decapoda: Caridea: Atyidae) sheds light on evolution, biogeography, and habitat. Molecular Phylogenetics and Evolution 131: 164 - 180. https: // doi. org / 10.1016 / j. ympev. 2018.11.002" type="journal article" year="2019">
+de Mazancourt 
+<emphasis id="B909EAFA6B765548FD6E74FBFD3784DF" box="[683,742,695,721]" italics="true" pageId="29" pageNumber="30">et al.</emphasis>
+2019a: 166
+</bibRefCitation>
+</treatmentCitation>
+, 169–170.
+</treatmentCitationGroup>
+</paragraph>
+</subSubSection>
+<subSubSection id="C36765636B765548FF7874B9FDA38567" pageId="29" pageNumber="30" type="etymology">
+<paragraph id="8BC236E86B765548FF7874B9FE95851A" blockId="29.[189,324,762,788]" box="[189,324,762,788]" pageId="29" pageNumber="30">
+<heading id="D08A81846B765548FF7874B9FE95851A" bold="true" box="[189,324,762,788]" fontSize="11" level="3" pageId="29" pageNumber="30" reason="3">
+<emphasis id="B909EAFA6B765548FF7874B9FE95851A" bold="true" box="[189,324,762,788]" pageId="29" pageNumber="30">Etymology</emphasis>
+</heading>
+</paragraph>
+<paragraph id="8BC236E86B765548FF787569FDA38567" blockId="29.[189,1399,810,873]" pageId="29" pageNumber="30">
+Named after the river Pisuku, in 
+<collectingRegion id="49B9F80A6B765548FD817569FD7D854A" box="[580,684,810,836]" country="Solomon Islands" name="Choiseul" pageId="29" pageNumber="30">Choiseul</collectingRegion>
+Island, the 
+<typeStatus id="54C6884A6B765548FCFD7568FCBA854B" box="[824,875,811,837]" pageId="29" pageNumber="30">type</typeStatus>
+locality where this new species occurs. The name is used as a noun in apposition.
+</paragraph>
+</subSubSection>
+<subSubSection id="C36765636B76554BFF7875D2FE538361" lastPageId="30" lastPageNumber="31" pageId="29" pageNumber="30" type="materials_examined">
+<paragraph id="8BC236E86B765548FF7875D2FE7B85A5" blockId="29.[189,426,913,939]" box="[189,426,913,939]" pageId="29" pageNumber="30">
+<heading id="D08A81846B765548FF7875D2FE7B85A5" bold="true" box="[189,426,913,939]" fontSize="11" level="3" pageId="29" pageNumber="30" reason="3">
+<emphasis id="B909EAFA6B765548FF7875D2FE7B85A5" bold="true" box="[189,426,913,939]" pageId="29" pageNumber="30">Material examined</emphasis>
+</heading>
+</paragraph>
+<paragraph id="8BC236E86B765548FF2F7581FE8D85D2" blockId="29.[189,1399,962,1098]" box="[234,348,962,988]" pageId="29" pageNumber="30">
+<emphasis id="B909EAFA6B765548FF2F7581FE8D85D2" bold="true" box="[234,348,962,988]" pageId="29" pageNumber="30">
+<typeStatus id="54C6884A6B765548FF2F7581FE8D85D2" box="[234,348,962,988]" pageId="29" pageNumber="30">Holotype</typeStatus>
+</emphasis>
+</paragraph>
+<paragraph id="8BC236E86B765548FF7875A4FE0E8244" blockId="29.[189,1399,962,1098]" pageId="29" pageNumber="30">
+<materialsCitation id="3B153CB56B765548FF7875A4FE0E8244" ID-GBIF-Occurrence="2824256504" collectingDate="2014-10-10" collectorName="P. Gerbeaux &amp; P. Keith &amp; G. Marquet" country="Solomon Islands" county="Island" elevation="15" latitude="-6.982517" location="Pisuku River" longLatPrecision="1" longitude="156.77637" municipality="Choiseul Island" pageId="29" pageNumber="30" specimenCount="1" stateProvince="Choiseul" typeStatus="holotype">
+<collectingCountry id="F36A76786B765548FF7875A4FE04820F" box="[189,469,999,1025]" name="Solomon Islands" pageId="29" pageNumber="30">SOLOMON ISLANDS</collectingCountry>
+– 
+<emphasis id="B909EAFA6B765548FE3C75A5FD6F820F" bold="true" box="[505,702,998,1025]" pageId="29" pageNumber="30">
+<collectingRegion id="49B9F80A6B765548FE3C75A5FDB7820E" box="[505,614,998,1024]" country="Solomon Islands" name="Choiseul" pageId="29" pageNumber="30">Choiseul</collectingRegion>
+<collectingCounty id="62A34E646B765548FDB575A4FD6F820F" box="[624,702,999,1025]" pageId="29" pageNumber="30">Island</collectingCounty>
+</emphasis>
+• ♂, cl 
+<quantity id="4C859B0D6B765548FCE375A4FC57820F" box="[806,902,999,1025]" metricMagnitude="-3" metricUnit="m" metricValue="3.7" pageId="29" pageNumber="30" unit="mm" value="3.7">3.7 mm</quantity>
+; 
+<collectingMunicipality id="6BA6AC926B765548FC5375A5FB85820E" box="[918,1108,998,1024]" pageId="29" pageNumber="30">Choiseul Island</collectingMunicipality>
+, 
+<location id="8EA260336B765548FBA775A5FAD1820E" LSID="urn:lsid:plazi:treatment:03D487FE6B765575FD427446FCEB80FC:8EA260336B765548FBA775A5FAD1820E" box="[1122,1280,998,1024]" country="Solomon Islands" county="Island" latitude="-6.982517" longLatPrecision="1" longitude="156.77637" municipality="Choiseul Island" name="Pisuku River" pageId="29" pageNumber="30" stateProvince="Choiseul">Pisuku River</location>
+, sector 1; 
+<geoCoordinate id="EE49502F6B765548FF787248FE8C822B" box="[189,349,1035,1062]" degrees="06" direction="south" minutes="58.951" orientation="latitude" pageId="29" pageNumber="30" precision="1" value="-6.982517">06°58.951´S</geoCoordinate>
+, 
+<geoCoordinate id="EE49502F6B765548FEA97248FDCF8228" box="[364,542,1035,1062]" degrees="156" direction="east" minutes="46.582" orientation="longitude" pageId="29" pageNumber="30" precision="1" value="156.77637">156°46.582´E</geoCoordinate>
+; 
+<elevation id="0050D1DB6B765548FDE87248FD7F822B" box="[557,686,1035,1062]" metricMagnitude="1" metricUnit="m" metricValue="1.5" pageId="29" pageNumber="30" unit="m" value="15.0">
+<quantity id="4C859B0D6B765548FDE87248FDBA8228" box="[557,619,1035,1062]" metricMagnitude="1" metricUnit="m" metricValue="1.5" pageId="29" pageNumber="30" unit="m" value="15.0">15 m</quantity>
+a.s.l.
+</elevation>
+; 
+<date id="FFC310286B765548FD7B7248FCB1822B" box="[702,864,1035,1061]" pageId="29" pageNumber="30" value="2014-10-10">
+<collectingDate id="EF87E9C06B765548FD7B7248FCB1822B" box="[702,864,1035,1061]" pageId="29" pageNumber="30" value="2014-10-10">10 Oct. 2014</collectingDate>
+</date>
+; 
+<collectorName id="2688533E6B765548FCAA724FFBD3822B" box="[879,1026,1035,1062]" pageId="29" pageNumber="30">P. Gerbeaux</collectorName>
+, 
+<collectorName id="2688533E6B765548FBD4724FFBA1822B" box="[1041,1136,1035,1062]" pageId="29" pageNumber="30">P. Keith</collectorName>
+and 
+<collectorName id="2688533E6B765548FB6A7248FAE88228" box="[1199,1337,1035,1062]" pageId="29" pageNumber="30">G. Marquet</collectorName>
+leg.; MNHN-IU-2014-20862.
+</materialsCitation>
+</paragraph>
+<paragraph id="8BC236E86B765548FF2F7230FEB68283" blockId="29.[189,1399,1139,1533]" box="[234,359,1139,1165]" pageId="29" pageNumber="30">
+<emphasis id="B909EAFA6B765548FF2F7230FEB68283" bold="true" box="[234,359,1139,1165]" pageId="29" pageNumber="30">
+<typeStatus id="54C6884A6B765548FF2F7230FEB68283" box="[234,359,1139,1165]" pageId="29" pageNumber="30">Paratypes</typeStatus>
+</emphasis>
+</paragraph>
+<paragraph id="8BC236E86B765548FF7872DBFC0B83F2" blockId="29.[189,1399,1139,1533]" pageId="29" pageNumber="30">
+<materialsCitation id="3B153CB56B765548FF7872DBFAA782BF" ID-GBIF-Occurrence="2824256346" box="[189,1398,1175,1202]" collectingDate="2014-10-10" collectorName="P. Gerbeaux &amp; P. Keith &amp; G. Marquet" country="Solomon Islands" county="Island" elevation="15" latitude="-6.982517" location="Pisuku River" longLatPrecision="1" longitude="156.77637" municipality="Choiseul Island" pageId="29" pageNumber="30" specimenCount="1" stateProvince="Choiseul" typeStatus="paratype">
+<collectingCountry id="F36A76786B765548FF7872DBFE0082BC" box="[189,465,1176,1202]" name="Solomon Islands" pageId="29" pageNumber="30">SOLOMON ISLANDS</collectingCountry>
+• 1 ♂, cl 
+<quantity id="4C859B0D6B765548FD8572DBFD4D82BC" box="[576,668,1176,1202]" metricMagnitude="-3" metricUnit="m" metricValue="3.7" pageId="29" pageNumber="30" unit="mm" value="3.7">3.7 mm</quantity>
+; same collection data as for holotype; MNHN-IU-2014-20863
+</materialsCitation>
+• 
+<materialsCitation id="3B153CB56B765548FF1072FFFEA582F5" ID-GBIF-Occurrence="2824256549" collectingDate="2014-10-10" collectionCode="MNHN-" collectorName="P. Gerbeaux &amp; P. Keith &amp; G. Marquet" country="Solomon Islands" county="Island" elevation="15" latitude="-6.982517" location="Pisuku River" longLatPrecision="1" longitude="156.77637" municipality="Choiseul Island" pageId="29" pageNumber="30" specimenCount="1" specimenCount-female="1" stateProvince="Choiseul" typeStatus="paratype">
+<specimenCount id="9D7BFD616B765548FF1072FFFED682D9" box="[213,263,1212,1239]" pageId="29" pageNumber="30" type="female">1 ♀</specimenCount>
+ovig., cl 
+<quantity id="4C859B0D6B765548FE4D72FFFE3A82D9" box="[392,491,1212,1239]" metricMagnitude="-3" metricUnit="m" metricValue="5.6" pageId="29" pageNumber="30" unit="mm" value="5.6">5.6 mm</quantity>
+; same collection data as for holotype; DNA voucher: CA1282; 
+<collectionCode id="ED6CAE2D6B765548FAD672FEFAA782D9" box="[1299,1398,1213,1239]" pageId="29" pageNumber="30">MNHN-</collectionCode>
+IU-2014-20864
+</materialsCitation>
+• 
+<materialsCitation id="3B153CB56B765548FE4A72A2FE06832F" ID-GBIF-Occurrence="2824256633" collectingDate="2014-10-10" collectorName="P. Gerbeaux &amp; P. Keith &amp; G. Marquet" country="Solomon Islands" county="Island" elevation="15" latitude="-6.982517" location="Pisuku River" longLatPrecision="1" longitude="156.77637" municipality="Choiseul Island" pageId="29" pageNumber="30" specimenCount="1" specimenCount-female="1" stateProvince="Choiseul" typeStatus="paratype">
+<specimenCount id="9D7BFD616B765548FE4A72A2FE6D82F2" box="[399,444,1249,1276]" pageId="29" pageNumber="30" type="female">1 ♀</specimenCount>
+ovig., cl 
+<quantity id="4C859B0D6B765548FDE872A2FD5A82F2" box="[557,651,1249,1276]" metricMagnitude="-3" metricUnit="m" metricValue="5.8" pageId="29" pageNumber="30" unit="mm" value="5.8">5.8 mm</quantity>
+; same collection data as for holotype; DNA voucher: CA1347; MNHN-IU-2014-20865
+</materialsCitation>
+• 
+<materialsCitation id="3B153CB56B765548FE2B7345FAA6832E" ID-GBIF-Occurrence="2824256608" box="[494,1399,1286,1312]" collectingDate="2014-10-10" collectorName="P. Gerbeaux &amp; P. Keith &amp; G. Marquet" country="Solomon Islands" county="Island" elevation="15" latitude="-6.982517" location="Pisuku River" longLatPrecision="1" longitude="156.77637" municipality="Choiseul Island" pageId="29" pageNumber="30" specimenCount="1" specimenCount-female="1" stateProvince="Choiseul" typeStatus="paratype">
+<specimenCount id="9D7BFD616B765548FE2B7345FDCB832E" box="[494,538,1286,1312]" pageId="29" pageNumber="30" type="female">1 ♀</specimenCount>
+, cl 
+<quantity id="4C859B0D6B765548FD867345FD4E832E" box="[579,671,1286,1312]" metricMagnitude="-3" metricUnit="m" metricValue="4.8" pageId="29" pageNumber="30" unit="mm" value="4.8">4.8 mm</quantity>
+; same collection data as for holotype; MNHN-IU-2014-20866
+</materialsCitation>
+• 
+<materialsCitation id="3B153CB56B765548FF177368FB5C834A" ID-GBIF-Occurrence="2824256467" box="[210,1165,1322,1349]" collectingDate="2014-10-10" collectorName="P. Gerbeaux &amp; P. Keith &amp; G. Marquet" country="Solomon Islands" county="Island" elevation="15" latitude="-6.982517" location="Pisuku River" longLatPrecision="1" longitude="156.77637" municipality="Choiseul Island" pageId="29" pageNumber="30" specimenCount="1" specimenCount-female="1" stateProvince="Choiseul" typeStatus="paratype">
+<specimenCount id="9D7BFD616B765548FF177368FED3834B" box="[210,258,1323,1349]" pageId="29" pageNumber="30" type="female">1 ♀</specimenCount>
+, cl 5.0 mm; same collection data as for holotype; MNHN-IU-2014-20867
+</materialsCitation>
+• 
+<materialsCitation id="3B153CB56B765548FB6B7368FC4A8367" ID-GBIF-Occurrence="2824256629" collectingDate="2014-10-10" collectorName="P. Gerbeaux &amp; P. Keith &amp; G. Marquet" country="Solomon Islands" county="Island" elevation="15" latitude="-6.982517" location="Pisuku River" longLatPrecision="1" longitude="156.77637" municipality="Choiseul Island" pageId="29" pageNumber="30" specimenCount="1" specimenCount-female="1" stateProvince="Choiseul" typeStatus="paratype">
+<specimenCount id="9D7BFD616B765548FB6B7368FB0F834B" box="[1198,1246,1323,1349]" pageId="29" pageNumber="30" type="female">1 ♀</specimenCount>
+, cl 
+<quantity id="4C859B0D6B765548FAD47369FAA3834B" box="[1297,1394,1322,1349]" metricMagnitude="-3" metricUnit="m" metricValue="5.1" pageId="29" pageNumber="30" unit="mm" value="5.1">5.1 mm</quantity>
+; same collection data as for holotype; MNHN-IU-2014-20868
+</materialsCitation>
+• 
+<materialsCitation id="3B153CB56B765548FC7C730CFE0683BC" ID-GBIF-Occurrence="2824256567" collectingDate="2014-10-10" collectorName="P. Gerbeaux &amp; P. Keith &amp; G. Marquet" country="Solomon Islands" elevation="66" latitude="-6.9816666" location="Pisuku River" longLatPrecision="1" longitude="156.77808" pageId="29" pageNumber="30" specimenCount="1" specimenCount-female="1" typeStatus="paratype">
+<specimenCount id="9D7BFD616B765548FC7C730CFC398364" box="[953,1000,1359,1386]" pageId="29" pageNumber="30" type="female">1 ♀</specimenCount>
+, cl 5.0 mm; 
+<location id="8EA260336B765548FB43730CFAF38367" LSID="urn:lsid:plazi:treatment:03D487FE6B765575FD427446FCEB80FC:8EA260336B765548FB43730CFAF38367" box="[1158,1314,1359,1385]" country="Solomon Islands" latitude="-6.9816666" longLatPrecision="1" longitude="156.77808" name="Pisuku River" pageId="29" pageNumber="30">Pisuku River</location>
+, sector 2; 
+<geoCoordinate id="EE49502F6B765548FF197337FEAB8380" box="[220,378,1396,1423]" degrees="06" direction="south" minutes="58.900" orientation="latitude" pageId="29" pageNumber="30" precision="1" value="-6.9816666">06°58.900´S</geoCoordinate>
+, 
+<geoCoordinate id="EE49502F6B765548FE4D7337FDE68380" box="[392,567,1396,1423]" degrees="156" direction="east" minutes="46.685" orientation="longitude" pageId="29" pageNumber="30" precision="1" value="156.77808">156°46.685´E</geoCoordinate>
+; 
+<elevation id="0050D1DB6B765548FD807337FD138380" box="[581,706,1396,1422]" metricMagnitude="1" metricUnit="m" metricValue="6.6" pageId="29" pageNumber="30" unit="m" value="66.0">
+<quantity id="4C859B0D6B765548FD807337FD508380" box="[581,641,1396,1422]" metricMagnitude="1" metricUnit="m" metricValue="6.6" pageId="29" pageNumber="30" unit="m" value="66.0">66 m</quantity>
+a.s.l.
+</elevation>
+; 
+<date id="FFC310286B765548FD147337FCBF8380" box="[721,878,1396,1422]" pageId="29" pageNumber="30" value="2014-10-10">
+<collectingDate id="EF87E9C06B765548FD147337FCBF8380" box="[721,878,1396,1422]" pageId="29" pageNumber="30" value="2014-10-10">10 Oct. 2014</collectingDate>
+</date>
+; 
+<collectorName id="2688533E6B765548FCBE7337FBDC8380" box="[891,1037,1396,1422]" pageId="29" pageNumber="30">P. Gerbeaux</collectorName>
+, 
+<collectorName id="2688533E6B765548FBDF7337FBA68380" box="[1050,1143,1396,1422]" pageId="29" pageNumber="30">P. Keith</collectorName>
+and 
+<collectorName id="2688533E6B765548FB767337FAEB8380" box="[1203,1338,1396,1422]" pageId="29" pageNumber="30">G. Marquet</collectorName>
+leg.; MNHN-IU-2014-20869
+</materialsCitation>
+• 
+<materialsCitation id="3B153CB56B765548FE2973DAFAA783BD" ID-GBIF-Occurrence="2824256570" box="[492,1398,1432,1459]" collectingDate="2014-10-10" collectorName="P. Gerbeaux &amp; P. Keith &amp; G. Marquet" country="Solomon Islands" elevation="66" latitude="-6.9816666" location="Pisuku River" longLatPrecision="1" longitude="156.77808" pageId="29" pageNumber="30" specimenCount="1" specimenCount-female="1" typeStatus="paratype">
+<specimenCount id="9D7BFD616B765548FE2973DAFDC683BD" box="[492,535,1433,1459]" pageId="29" pageNumber="30" type="female">1 ♀</specimenCount>
+, cl 
+<quantity id="4C859B0D6B765548FDFB73DBFD4883BD" box="[574,665,1432,1459]" metricMagnitude="-3" metricUnit="m" metricValue="5.1" pageId="29" pageNumber="30" unit="mm" value="5.1">5.1 mm</quantity>
+; same collection data as for preceding; MNHN-IU-2014-20870
+</materialsCitation>
+• 
+<materialsCitation id="3B153CB56B765548FF1773FEFC0783F2" ID-GBIF-Occurrence="2824256600" collectingDate="2014-10-12" collectorName="P. Gerbeaux &amp; P. Keith &amp; G. Marquet" country="Solomon Islands" latitude="-6.9808" location="Pisuku River" longLatPrecision="1" longitude="156.77637" pageId="29" pageNumber="30" specimenCount="1" typeStatus="paratype">
+1 ♂, juvenile, cl 
+<quantity id="4C859B0D6B765548FE6773FEFDD383D6" box="[418,514,1469,1496]" metricMagnitude="-3" metricUnit="m" metricValue="2.2" pageId="29" pageNumber="30" unit="mm" value="2.2">2.2 mm</quantity>
+; 
+<location id="8EA260336B765548FDD473FEFD7F83D9" LSID="urn:lsid:plazi:treatment:03D487FE6B765575FD427446FCEB80FC:8EA260336B765548FDD473FEFD7F83D9" box="[529,686,1469,1495]" country="Solomon Islands" latitude="-6.9808" longLatPrecision="1" longitude="156.77637" name="Pisuku River" pageId="29" pageNumber="30">Pisuku River</location>
+, downstream; 
+<geoCoordinate id="EE49502F6B765548FC9A73FEFC2E83D9" box="[863,1023,1469,1496]" degrees="06" direction="south" minutes="58.848" orientation="latitude" pageId="29" pageNumber="30" precision="1" value="-6.9808">06°58.848´S</geoCoordinate>
+, 
+<geoCoordinate id="EE49502F6B765548FBCA73FEFB1183D6" box="[1039,1216,1469,1496]" degrees="156" direction="east" minutes="46.582" orientation="longitude" pageId="29" pageNumber="30" precision="1" value="156.77637">156°46.582´E</geoCoordinate>
+; 
+<date id="FFC310286B765548FB1573FEFAA383D9" box="[1232,1394,1469,1495]" pageId="29" pageNumber="30" value="2014-10-12">
+<collectingDate id="EF87E9C06B765548FB1573FEFAA383D9" box="[1232,1394,1469,1495]" pageId="29" pageNumber="30" value="2014-10-12">12 Oct. 2014</collectingDate>
+</date>
+; 
+<collectorName id="2688533E6B765548FF7873A0FE9F83F2" box="[189,334,1506,1533]" pageId="29" pageNumber="30">P. Gerbeaux</collectorName>
+, 
+<collectorName id="2688533E6B765548FE9C73A0FE6783F2" box="[345,438,1506,1533]" pageId="29" pageNumber="30">P. Keith</collectorName>
+and 
+<collectorName id="2688533E6B765548FE2A73A1FDA783F3" box="[495,630,1506,1533]" pageId="29" pageNumber="30">G. Marquet</collectorName>
+leg.; MNHN-IU-2014-20871
+</materialsCitation>
+.
+</paragraph>
+<paragraph id="8BC236E86B765548FF2F7066FE778031" blockId="29.[189,1399,1573,1783]" box="[234,422,1573,1599]" pageId="29" pageNumber="30">
+<emphasis id="B909EAFA6B765548FF2F7066FE778031" bold="true" box="[234,422,1573,1599]" pageId="29" pageNumber="30">Other material</emphasis>
+</paragraph>
+<paragraph id="8BC236E86B765548FF787009FEAA80F9" blockId="29.[189,1399,1573,1783]" pageId="29" pageNumber="30">
+<materialsCitation id="3B153CB56B765548FF787009FC888087" ID-GBIF-Occurrence="2824256623" collectingDate="2016-06-06" collectorName="B. Mos" country="Australia" elevation="34" latitude="-17.335" location="Christian Creek" longLatPrecision="1" longitude="145.92334" pageId="29" pageNumber="30" specimenCount="1" stateProvince="Queensland">
+<collectingCountry id="F36A76786B765548FF787009FEB3806A" box="[189,354,1610,1636]" name="Australia" pageId="29" pageNumber="30">AUSTRALIA</collectingCountry>
+– 
+<emphasis id="B909EAFA6B765548FE467009FDC6806A" bold="true" box="[387,535,1610,1636]" pageId="29" pageNumber="30">
+<collectingRegion id="49B9F80A6B765548FE467009FDC6806A" box="[387,535,1610,1636]" country="Australia" name="Queensland" pageId="29" pageNumber="30">Queensland</collectingRegion>
+</emphasis>
+• 1 ♂, cl 
+<quantity id="4C859B0D6B765548FD577009FD20806A" box="[658,753,1610,1636]" metricMagnitude="-3" metricUnit="m" metricValue="4.4" pageId="29" pageNumber="30" unit="mm" value="4.4">4.4 mm</quantity>
+; 
+<location id="8EA260336B765548FD3A7009FC6F806A" LSID="urn:lsid:plazi:treatment:03D487FE6B765575FD427446FCEB80FC:8EA260336B765548FD3A7009FC6F806A" box="[767,958,1610,1636]" country="Australia" latitude="-17.335" longLatPrecision="1" longitude="145.92334" name="Christian Creek" pageId="29" pageNumber="30" stateProvince="Queensland">Christian Creek</location>
+; 
+<geoCoordinate id="EE49502F6B765548FC097009FBBA806A" box="[972,1131,1610,1636]" degrees="17" direction="south" minutes="20.100" orientation="latitude" pageId="29" pageNumber="30" precision="1" value="-17.335">17°20.100´S</geoCoordinate>
+, 
+<geoCoordinate id="EE49502F6B765548FBBF7009FAFB806A" box="[1146,1322,1610,1637]" degrees="145" direction="east" minutes="55.400" orientation="longitude" pageId="29" pageNumber="30" precision="1" value="145.92334">145°55.400´E</geoCoordinate>
+; 
+<elevation id="0050D1DB6B765548FAFC7009FF278086" metricMagnitude="1" metricUnit="m" metricValue="3.4" pageId="29" pageNumber="30" unit="m" value="34.0">
+<quantity id="4C859B0D6B765548FAFC7009FAA6806A" box="[1337,1399,1610,1636]" metricMagnitude="1" metricUnit="m" metricValue="3.4" pageId="29" pageNumber="30" unit="m" value="34.0">34 m</quantity>
+a.s.l.
+</elevation>
+; 
+<date id="FFC310286B765548FEC0702DFE458086" box="[261,404,1646,1673]" pageId="29" pageNumber="30" value="2016-06-06">
+<collectingDate id="EF87E9C06B765548FEC0702DFE458086" box="[261,404,1646,1673]" pageId="29" pageNumber="30" value="2016-06-06">6 Jun. 2016</collectingDate>
+</date>
+; 
+<collectorName id="2688533E6B765548FE67702CFE2B8087" box="[418,506,1647,1673]" pageId="29" pageNumber="30">B. Mos</collectorName>
+leg.; MNHN-IU-2014-20873
+</materialsCitation>
+• 
+<materialsCitation id="3B153CB56B765548FCB3702CFC0580A3" ID-GBIF-Occurrence="2824256591" collectingDate="2016-06-06" collectorName="B. Mos" country="Australia" elevation="34" latitude="-17.335" location="Christian Creek" longLatPrecision="1" longitude="145.92334" pageId="29" pageNumber="30" specimenCount="1" specimenCount-female="1" stateProvince="Queensland">
+<specimenCount id="9D7BFD616B765548FCB3702CFC728087" box="[886,931,1647,1673]" pageId="29" pageNumber="30" type="female">1 ♀</specimenCount>
+ovig., cl 
+<quantity id="4C859B0D6B765548FBD2702DFBA78087" box="[1047,1142,1646,1673]" metricMagnitude="-3" metricUnit="m" metricValue="6.7" pageId="29" pageNumber="30" unit="mm" value="6.7">6.7 mm</quantity>
+; same collection data as for preceding; DNA voucher: CA1685; MNHN-IU-2014-20874
+</materialsCitation>
+• 
+<materialsCitation id="3B153CB56B765548FC3470D0FEA680F9" ID-GBIF-Occurrence="2824256568" collectingDate="2016-06-03" collectionCode="MNHN-" collectorName="B. Mos" country="Australia" elevation="39" latitude="-16.966116" location="Gordons Creek" longLatPrecision="1" longitude="145.73055" pageId="29" pageNumber="30" specimenCount="1" stateProvince="Queensland">
+1 ♂, cl 
+<quantity id="4C859B0D6B765548FB8870D0FB7D80A0" box="[1101,1196,1683,1710]" metricMagnitude="-3" metricUnit="m" metricValue="4.6" pageId="29" pageNumber="30" unit="mm" value="4.6">4.6 mm</quantity>
+; 
+<location id="8EA260336B765548FB7F70D0FAA380A3" LSID="urn:lsid:plazi:treatment:03D487FE6B765575FD427446FCEB80FC:8EA260336B765548FB7F70D0FAA380A3" box="[1210,1394,1683,1709]" country="Australia" latitude="-16.966116" longLatPrecision="1" longitude="145.73055" name="Gordons Creek" pageId="29" pageNumber="30" stateProvince="Queensland">Gordons Creek</location>
+; 
+<geoCoordinate id="EE49502F6B765548FF7870FBFE8B80DC" box="[189,346,1720,1747]" degrees="16" direction="south" minutes="57.967" orientation="latitude" pageId="29" pageNumber="30" precision="1" value="-16.966116">16°57.967´S</geoCoordinate>
+, 
+<geoCoordinate id="EE49502F6B765548FEAD70FBFDCE80DC" box="[360,543,1720,1747]" degrees="145" direction="east" minutes="43.833" orientation="longitude" pageId="29" pageNumber="30" precision="1" value="145.73055">145° 43.833´E</geoCoordinate>
+; 
+<elevation id="0050D1DB6B765548FDE970FBFD7880DC" box="[556,681,1720,1746]" metricMagnitude="1" metricUnit="m" metricValue="3.9" pageId="29" pageNumber="30" unit="m" value="39.0">
+<quantity id="4C859B0D6B765548FDE970FBFDB880DC" box="[556,617,1720,1746]" metricMagnitude="1" metricUnit="m" metricValue="3.9" pageId="29" pageNumber="30" unit="m" value="39.0">39 m</quantity>
+a.s.l.
+</elevation>
+; 
+<date id="FFC310286B765548FD7270FBFC9580DC" box="[695,836,1720,1746]" pageId="29" pageNumber="30" value="2016-06-03">
+<collectingDate id="EF87E9C06B765548FD7270FBFC9580DC" box="[695,836,1720,1746]" pageId="29" pageNumber="30" value="2016-06-03">3 Jun. 2016</collectingDate>
+</date>
+; 
+<collectorName id="2688533E6B765548FC9470FBFC7980DC" box="[849,936,1720,1746]" pageId="29" pageNumber="30">B. Mos</collectorName>
+leg.; DNA voucher: CA1699; 
+<collectionCode id="ED6CAE2D6B765548FAD670FBFAA780DC" box="[1299,1398,1720,1746]" pageId="29" pageNumber="30">MNHN-</collectionCode>
+IU-2014-20875
+</materialsCitation>
+.
+</paragraph>
+<paragraph id="8BC236E86B765548FF787163FDC88150" blockId="29.[189,1398,1823,1886]" pageId="29" pageNumber="30">
+<materialsCitation id="3B153CB56B765548FF787163FDC78150" ID-GBIF-Occurrence="2824256637" collectingDate="2010-10-22" collectorName="P. Keith" country="Indonesia" latitude="-3.8881" location="Kayumera" longLatPrecision="1" longitude="134.47763" pageId="29" pageNumber="30" specimenCount="1" stateProvince="Papua Barat">
+<collectingCountry id="F36A76786B765548FF787163FE8A8134" box="[189,347,1824,1850]" name="Indonesia" pageId="29" pageNumber="30">INDONESIA</collectingCountry>
+• tissue only; 
+<collectingRegion id="49B9F80A6B765548FE3E7163FD578134" box="[507,646,1824,1850]" country="Indonesia" name="Papua Barat" pageId="29" pageNumber="30">West Papua</collectingRegion>
+, 
+<location id="8EA260336B765548FD557163FCDF8134" LSID="urn:lsid:plazi:treatment:03D487FE6B765575FD427446FCEB80FC:8EA260336B765548FD557163FCDF8134" box="[656,782,1824,1850]" country="Indonesia" latitude="-3.8881" longLatPrecision="1" longitude="134.47763" name="Kayumera" pageId="29" pageNumber="30" stateProvince="Papua Barat">Kayumera</location>
+; 
+<geoCoordinate id="EE49502F6B765548FCDD715CFC658134" box="[792,948,1823,1850]" degrees="03" direction="south" minutes="53.286" orientation="latitude" pageId="29" pageNumber="30" precision="1" value="-3.8881">03°53.286´S</geoCoordinate>
+, 
+<geoCoordinate id="EE49502F6B765548FC7A715CFBBD8134" box="[959,1132,1823,1850]" degrees="134" direction="east" minutes="28.658" orientation="longitude" pageId="29" pageNumber="30" precision="1" value="134.47763">134°28.658´E</geoCoordinate>
+; 
+<date id="FFC310286B765548FBB27163FAC18134" box="[1143,1296,1824,1850]" pageId="29" pageNumber="30" value="2010-10-22">
+<collectingDate id="EF87E9C06B765548FBB27163FAC18134" box="[1143,1296,1824,1850]" pageId="29" pageNumber="30" value="2010-10-22">22 Oct. 2010</collectingDate>
+</date>
+; 
+<collectorName id="2688533E6B765548FADE7163FAA78137" box="[1307,1398,1823,1850]" pageId="29" pageNumber="30">P. Keith</collectorName>
+leg.; MNHN-IU-2014-20872
+</materialsCitation>
+.
+</paragraph>
+<paragraph id="8BC236E86B765548FF2F71C4FDD181AF" blockId="29.[189,971,1927,2027]" box="[234,512,1927,1953]" pageId="29" pageNumber="30">
+<emphasis id="B909EAFA6B765548FF2F71C4FDD181AF" bold="true" box="[234,512,1927,1953]" pageId="29" pageNumber="30">Comparative material</emphasis>
+</paragraph>
+<paragraph id="8BC236E86B765548FF7871EFFC1A81C8" blockId="29.[189,971,1927,2027]" box="[189,971,1964,1990]" pageId="29" pageNumber="30">
+<taxonomicName id="4C7D4D6B6B765548FF7871EFFC1A81C8" authority="(de Mazancourt, Marquet &amp; Keith, 2018)" baseAuthorityName="de Mazancourt, Marquet &amp; Keith" baseAuthorityYear="2018" box="[189,971,1964,1990]" class="Malacostraca" family="Atyidae" genus="Caridina" kingdom="Animalia" order="Decapoda" pageId="29" pageNumber="30" phylum="Arthropoda" rank="species" species="variabilirostris">
+<emphasis id="B909EAFA6B765548FF7871EFFE0E81C8" box="[189,479,1964,1990]" italics="true" pageId="29" pageNumber="30">Caridina variabilirostris</emphasis>
+(de 
+<bibRefCitation id="EFEC4B196B765548FDD671EFFC1381C8" author="de Mazancourt V. &amp; Marquet G. &amp; Keith P." box="[531,962,1964,1990]" pageId="29" pageNumber="30" pagination="1 - 16" refId="ref46875" refString="de Mazancourt V., Marquet G. &amp; Keith P. 2018 a. Caridina variabilirostris (Crustacea: Decapoda: Atyidae), a new species of freshwater shrimp from Pohnpei (Micronesia). European Journal of Taxonomy 453: 1 - 16. https: // doi. org / 10.5852 / ejt. 2018.453" type="journal article" year="2018">Mazancourt, Marquet &amp; Keith, 2018</bibRefCitation>
+)
+</taxonomicName>
+</paragraph>
+<paragraph id="8BC236E86B765548FF787192FD9B81E5" blockId="29.[189,971,1927,2027]" box="[189,586,2001,2027]" pageId="29" pageNumber="30">
+See 
+<bibRefCitation id="EFEC4B196B765548FF2A7192FD9781E5" author="de Mazancourt V. &amp; Marquet G. &amp; Keith P." box="[239,582,2001,2027]" pageId="29" pageNumber="30" pagination="1 - 16" refId="ref46875" refString="de Mazancourt V., Marquet G. &amp; Keith P. 2018 a. Caridina variabilirostris (Crustacea: Decapoda: Atyidae), a new species of freshwater shrimp from Pohnpei (Micronesia). European Journal of Taxonomy 453: 1 - 16. https: // doi. org / 10.5852 / ejt. 2018.453" type="journal article" year="2018">
+de Mazancourt 
+<emphasis id="B909EAFA6B765548FE607191FE3181E5" box="[421,480,2001,2027]" italics="true" pageId="29" pageNumber="30">et al.</emphasis>
+(2018a)
+</bibRefCitation>
+.
+</paragraph>
+<paragraph id="8BC236E86B75554BFF787748FD48872B" blockId="30.[189,1399,267,506]" box="[189,665,267,294]" pageId="30" pageNumber="31">
+<taxonomicName id="4C7D4D6B6B75554BFF787748FD48872B" authority="(De Man, 1908)" baseAuthorityName="De Man" baseAuthorityYear="1908" box="[189,665,267,294]" class="Malacostraca" family="Atyidae" genus="Caridina" kingdom="Animalia" order="Decapoda" pageId="30" pageNumber="31" phylum="Arthropoda" rank="species" species="brachydactyla">
+<emphasis id="B909EAFA6B75554BFF787748FE07872B" box="[189,470,267,293]" italics="true" pageId="30" pageNumber="31">Caridina brachydactyla</emphasis>
+(De Man, 1908)
+</taxonomicName>
+</paragraph>
+<paragraph id="8BC236E86B75554BFF78776CFDDB87F7" blockId="30.[189,1399,267,506]" pageId="30" pageNumber="31">
+<materialsCitation id="3B153CB56B75554BFF78776CFCB48762" ID-GBIF-Occurrence="2824256489" collectingDate="1888-11" collectionCode="RMNH" collectorName="M. Weber &amp; Crust D." country="Indonesia" location="Reo" municipality="Flores Island" pageId="30" pageNumber="31" specimenCount="1" specimenCount-female="1" typeStatus="lectotype">
+<collectingCountry id="F36A76786B75554BFF78776CFE8A8747" box="[189,347,303,329]" name="Indonesia" pageId="30" pageNumber="31">INDONESIA</collectingCountry>
+• 
+<typeStatus id="54C6884A6B75554BFEB7776DFE0F8746" box="[370,478,302,328]" pageId="30" pageNumber="31">lectotype</typeStatus>
+(designated by 
+<bibRefCitation id="EFEC4B196B75554BFD53776DFC4C8747" author="Richard J. &amp; Clark P. F." box="[662,925,302,329]" pageId="30" pageNumber="31" pagination="305 - 337" refId="ref48139" refString="Richard J. &amp; Clark P. F. 2010. Caridina H. Milne Edwards, 1837 (Crustacea: Decapoda: Caridea: Atyoidea: Atyidae) - Freshwater shrimps from eastern and Southern Africa. Zootaxa, 337 (2372): 305 - 337. https: // doi. org / 10.11646 / zootaxa. 2372.1.24" type="journal article" year="2010">Richard &amp; Clark 2010</bibRefCitation>
+), 
+<specimenCount id="9D7BFD616B75554BFC74776CFC168747" box="[945,967,303,329]" pageId="30" pageNumber="31" type="female">♀</specimenCount>
+ovig., cl 
+<quantity id="4C859B0D6B75554BFBF7776CFB5F8747" box="[1074,1166,303,329]" metricMagnitude="-3" metricUnit="m" metricValue="4.8" pageId="30" pageNumber="31" unit="mm" value="4.8">4.8 mm</quantity>
+; 
+<collectingMunicipality id="6BA6AC926B75554BFB5F776DFAE48746" box="[1178,1333,302,328]" pageId="30" pageNumber="31">Flores Island</collectingMunicipality>
+, river near 
+<location id="8EA260336B75554BFF337711FEF88762" LSID="urn:lsid:plazi:treatment:03D487FE6B765575FD427446FCEB80FC:8EA260336B75554BFF337711FEF88762" box="[246,297,338,364]" country="Indonesia" municipality="Flores Island" name="Reo" pageId="30" pageNumber="31">Reo</location>
+; 
+<date id="FFC310286B75554BFEF17711FE608762" box="[308,433,338,364]" pageId="30" pageNumber="31" value="1888-11">
+<collectingDate id="EF87E9C06B75554BFEF17711FE608762" box="[308,433,338,364]" pageId="30" pageNumber="31" value="1888-11">Nov. 1888</collectingDate>
+</date>
+; 
+<collectorName id="2688533E6B75554BFE787711FDE18762" box="[445,560,338,364]" pageId="30" pageNumber="31">M. Weber</collectorName>
+leg.; 
+<collectionCode id="ED6CAE2D6B75554BFDB47711FD188762" box="[625,713,338,364]" country="Netherlands" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34992" lsid="urn:lsid:biocol.org:col:34992" name="National Museum of Natural History, Naturalis" pageId="30" pageNumber="31" type="Museum">RMNH</collectionCode>
+<collectorName id="2688533E6B75554BFD157711FCE38762" box="[720,818,338,364]" pageId="30" pageNumber="31">Crust D.</collectorName>
+977
+</materialsCitation>
+• 
+<materialsCitation id="3B153CB56B75554BFCB87711FBD8879E" ID-GBIF-Occurrence="2824256555" collectingDate="1889-01" collectionCode="RMNH" collectorName="M. Weber" country="Indonesia" location="Mbawa" municipality="Flores Island" pageId="30" pageNumber="31" specimenCode="RMNH 2552" specimenCount="3" specimenCount-female="1" typeStatus="paralectotype">
+<specimenCount id="9D7BFD616B75554BFCB87711FBEE8762" box="[893,1087,338,364]" pageId="30" pageNumber="31" type="generic" typeStatus="paralectotypes">2 paralectotypes</specimenCount>
+, 
+<specimenCount id="9D7BFD616B75554BFB8F7711FBA78762" box="[1098,1142,338,364]" pageId="30" pageNumber="31" type="female">♀♀</specimenCount>
+ovig., cl 
+<quantity id="4C859B0D6B75554BFB277711FAA38762" box="[1250,1394,338,365]" metricMagnitude="-3" metricUnit="m" metricValue="5.35" metricValueMax="5.4" metricValueMin="5.3" pageId="30" pageNumber="31" unit="mm" value="5.35" valueMax="5.4" valueMin="5.3">5.3–5.4 mm</quantity>
+; 
+<collectingMunicipality id="6BA6AC926B75554BFF787736FE8B8781" box="[189,346,373,399]" pageId="30" pageNumber="31">Flores Island</collectingMunicipality>
+, river in 
+<location id="8EA260336B75554BFE027736FDF28781" LSID="urn:lsid:plazi:treatment:03D487FE6B765575FD427446FCEB80FC:8EA260336B75554BFE027736FDF28781" box="[455,547,373,399]" country="Indonesia" municipality="Flores Island" name="Mbawa" pageId="30" pageNumber="31">Mbawa</location>
+; 
+<date id="FFC310286B75554BFDF57735FD748781" box="[560,677,373,400]" pageId="30" pageNumber="31" value="1889-01">
+<collectingDate id="EF87E9C06B75554BFDF57735FD748781" box="[560,677,373,400]" pageId="30" pageNumber="31" value="1889-01">Jan. 1889</collectingDate>
+</date>
+; 
+<collectorName id="2688533E6B75554BFD767735FCF88781" box="[691,809,373,400]" pageId="30" pageNumber="31">M. Weber</collectorName>
+leg.; 
+<specimenCode id="DBDB9E936B75554BFCA87735FBD8879E" box="[877,1033,373,400]" collectionCode="RMNH" country="Netherlands" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34992" lsid="urn:lsid:biocol.org:col:34992" name="National Museum of Natural History, Naturalis" pageId="30" pageNumber="31" type="Museum">RMNH 2552</specimenCode>
+</materialsCitation>
+• 
+<materialsCitation id="3B153CB56B75554BFBE07736FE8187BD" ID-GBIF-Occurrence="2824256518" collectionCode="NMB" country="Indonesia" location="Island" pageId="30" pageNumber="31" specimenCode="NMB 1054" specimenCount="1" specimenCount-female="1" stateProvince="Bali" typeStatus="paralectotype">
+<specimenCount id="9D7BFD616B75554BFBE07736FB83879E" box="[1061,1106,373,400]" pageId="30" pageNumber="31" type="female">1 ♀</specimenCount>
+, cl 
+<quantity id="4C859B0D6B75554BFB447736FB0E879E" box="[1153,1247,373,400]" metricMagnitude="-3" metricUnit="m" metricValue="5.8" pageId="30" pageNumber="31" unit="mm" value="5.8">5.8 mm</quantity>
+; 
+<collectingRegion id="49B9F80A6B75554BFB287736FACF8781" box="[1261,1310,373,399]" country="Indonesia" name="Bali" pageId="30" pageNumber="31">Bali</collectingRegion>
+<location id="8EA260336B75554BFAE27736FAA38781" LSID="urn:lsid:plazi:treatment:03D487FE6B765575FD427446FCEB80FC:8EA260336B75554BFAE27736FAA38781" box="[1319,1394,373,399]" country="Indonesia" name="Island" pageId="30" pageNumber="31" stateProvince="Bali">Island</location>
+; 
+<specimenCode id="DBDB9E936B75554BFF7877DAFE9287BD" box="[189,323,408,435]" collectionCode="NMB" country="Switzerland" httpUri="http://grbio.org/cool/8wbz-jkc3" name="Naturhistorishes Museum" pageId="30" pageNumber="31">NMB 1054</specimenCode>
+a
+</materialsCitation>
+• 
+<materialsCitation id="3B153CB56B75554BFEAF77DBFD7A87D8" ID-GBIF-Occurrence="2824256338" collectorName="W. Klotz" country="Indonesia" location="Macaui" municipality="Palopo" pageId="30" pageNumber="31" specimenCount="2" specimenCount-female="2" stateProvince="Sulawesi Utara" typeStatus="paralectotype">
+2 ♂♂, cl 
+<quantity id="4C859B0D6B75554BFE1F77DBFDBA87BD" box="[474,619,408,435]" metricMagnitude="-3" metricUnit="m" metricValue="3.2" metricValueMax="3.7" metricValueMin="2.7" pageId="30" pageNumber="31" unit="mm" value="3.2" valueMax="3.7" valueMin="2.7">2.7–3.7 mm</quantity>
+, 
+<specimenCount id="9D7BFD616B75554BFDBD77DBFD7487BD" box="[632,677,408,435]" pageId="30" pageNumber="31" type="female">1 ♀</specimenCount>
+ovig., cl 
+<quantity id="4C859B0D6B75554BFCD077DBFCA287BD" box="[789,883,408,435]" metricMagnitude="-3" metricUnit="m" metricValue="4.3" pageId="30" pageNumber="31" unit="mm" value="4.3">4.3 mm</quantity>
+, 
+<specimenCount id="9D7BFD616B75554BFCBA77DBFC7D87BD" box="[895,940,408,435]" pageId="30" pageNumber="31" type="female">1 ♀</specimenCount>
+, cl 
+<quantity id="4C859B0D6B75554BFC1C77DBFBE687BD" box="[985,1079,408,435]" metricMagnitude="-3" metricUnit="m" metricValue="4.8" pageId="30" pageNumber="31" unit="mm" value="4.8">4.8 mm</quantity>
+; 
+<collectingRegion id="49B9F80A6B75554BFB8177DBFB6087BC" box="[1092,1201,408,434]" country="Indonesia" name="Sulawesi Utara" pageId="30" pageNumber="31">Sulawesi</collectingRegion>
+, 
+<collectingMunicipality id="6BA6AC926B75554BFB7877DBFAC087BC" box="[1213,1297,408,434]" pageId="30" pageNumber="31">Palopo</collectingMunicipality>
+, 
+<location id="8EA260336B75554BFADB77DBFAA787BC" LSID="urn:lsid:plazi:treatment:03D487FE6B765575FD427446FCEB80FC:8EA260336B75554BFADB77DBFAA787BC" box="[1310,1398,408,434]" country="Indonesia" municipality="Palopo" name="Macaui" pageId="30" pageNumber="31" stateProvince="Sulawesi Utara">Macaui</location>
+(locality code: 63.10); 
+<collectorName id="2688533E6B75554BFE0177FFFDFD87DB" box="[452,556,443,470]" pageId="30" pageNumber="31">W. Klotz</collectorName>
+leg.; ZMB
+</materialsCitation>
+• 
+<materialsCitation id="3B153CB56B75554BFD0777FFFDD787F7" ID-GBIF-Occurrence="2824256367" collectorName="W. Klotz" country="Indonesia" location="Tojo" municipality="Palopo" pageId="30" pageNumber="31" specimenCount="1" specimenCount-female="1" stateProvince="Sulawesi Utara" typeStatus="paralectotype">
+<specimenCount id="9D7BFD616B75554BFD0777FFFD3D87D8" box="[706,748,444,470]" pageId="30" pageNumber="31" type="female">1 ♀</specimenCount>
+ovig., cl 4.0 mm; 
+<collectingRegion id="49B9F80A6B75554BFC7B77F8FBFA87DB" box="[958,1067,443,469]" country="Indonesia" name="Sulawesi Utara" pageId="30" pageNumber="31">Sulawesi</collectingRegion>
+, 
+<collectingMunicipality id="6BA6AC926B75554BFBF077F8FB5887DB" box="[1077,1161,443,469]" pageId="30" pageNumber="31">Palopo</collectingMunicipality>
+, 
+<location id="8EA260336B75554BFB5177F8FB1887DB" LSID="urn:lsid:plazi:treatment:03D487FE6B765575FD427446FCEB80FC:8EA260336B75554BFB5177F8FB1887DB" box="[1172,1225,443,469]" country="Indonesia" municipality="Palopo" name="Tojo" pageId="30" pageNumber="31" stateProvince="Sulawesi Utara">Tojo</location>
+(locality code: 64.10); 
+<collectorName id="2688533E6B75554BFEDD779CFE5187F7" box="[280,384,479,505]" pageId="30" pageNumber="31">W. Klotz</collectorName>
+leg.; ZMB
+</materialsCitation>
+.
+</paragraph>
+<paragraph id="8BC236E86B75554BFF787463FD628434" blockId="30.[189,1399,544,641]" box="[189,691,544,571]" pageId="30" pageNumber="31">
+<taxonomicName id="4C7D4D6B6B75554BFF787463FD628434" authority="(Liang &amp; Yan, 1977)" baseAuthorityName="Liang &amp; Yan" baseAuthorityYear="1977" box="[189,691,544,571]" class="Malacostraca" family="Atyidae" genus="Caridina" kingdom="Animalia" order="Decapoda" pageId="30" pageNumber="31" phylum="Arthropoda" rank="species" species="elongapoda">
+<emphasis id="B909EAFA6B75554BFF787463FE688434" box="[189,441,544,570]" italics="true" pageId="30" pageNumber="31">Caridina elongapoda</emphasis>
+(
+<bibRefCitation id="EFEC4B196B75554BFE0D7463FD7A8434" author="Liang X. - Q. &amp; Yan S. - L." box="[456,683,544,571]" pageId="30" pageNumber="31" pagination="219 - 225" refId="ref46492" refString="Liang X. - Q. &amp; Yan S. - L. 1977. New species and subspecies of Caridina (Decapoda, Caridea) from Fukien, China. Acta Hydrobiologia Sinica 6: 219 - 225." type="journal article" year="1977">Liang &amp; Yan, 1977</bibRefCitation>
+)
+</taxonomicName>
+</paragraph>
+<paragraph id="8BC236E86B75554BFF787407FD1F848F" blockId="30.[189,1399,544,641]" pageId="30" pageNumber="31">
+<materialsCitation id="3B153CB56B75554BFF787407FD1F848F" ID-GBIF-Occurrence="2824256401" pageId="30" pageNumber="31">
+<collectingCountry id="F36A76786B75554BFF787407FEC98450" box="[189,280,580,606]" name="China" pageId="30" pageNumber="31">CHINA</collectingCountry>
+• 3 ♂♂, cl 
+<quantity id="4C859B0D6B75554BFE5C7400FDF98450" box="[409,552,579,606]" metricMagnitude="-3" metricUnit="m" metricValue="3.15" metricValueMax="3.5" metricValueMin="2.8" pageId="30" pageNumber="31" unit="mm" value="3.15" valueMax="3.5" valueMin="2.8">2.8–3.5 mm</quantity>
+, 
+<specimenCount id="9D7BFD616B75554BFDF77407FD8C8450" box="[562,605,580,606]" pageId="30" pageNumber="31" type="female">1 ♀</specimenCount>
+, cl 
+<quantity id="4C859B0D6B75554BFD437407FD338450" box="[646,738,580,606]" metricMagnitude="-3" metricUnit="m" metricValue="4.2" pageId="30" pageNumber="31" unit="mm" value="4.2">4.2 mm</quantity>
+; Hong Kong, Pak Tam Chung and Kai Sai Chau (locality codes 14.11 and 22.09); W. Klotz leg.; ZMB.
+</materialsCitation>
+</paragraph>
+<paragraph id="8BC236E86B75554BFF7874EBFD0184E8" blockId="30.[189,1398,680,742]" pageId="30" pageNumber="31">
+<materialsCitation id="3B153CB56B75554BFF7874EBFD1D84E8" ID-GBIF-Occurrence="2824256321" collectingDate="1997-06-24" collectionCode="ZRC" country="Malaysia" location="Pulau Tioman" municipality="Sungai Asah" pageId="30" pageNumber="31" specimenCode="ZRC 1998.0865" specimenCount="2" specimenCount-female="2">
+<collectingCountry id="F36A76786B75554BFF7874EBFE8584CC" box="[189,340,680,706]" name="Malaysia" pageId="30" pageNumber="31">MALAYSIA</collectingCountry>
+• 1 ♂, cl 
+<quantity id="4C859B0D6B75554BFE1474EBFDE084CD" box="[465,561,680,707]" metricMagnitude="-3" metricUnit="m" metricValue="4.2" pageId="30" pageNumber="31" unit="mm" value="4.2">4.2 mm</quantity>
+, 
+<specimenCount id="9D7BFD616B75554BFDFA74EBFDBF84CD" box="[575,622,680,707]" pageId="30" pageNumber="31" type="female">1 ♀</specimenCount>
+, cl 
+<quantity id="4C859B0D6B75554BFD5A74EBFD2F84CD" box="[671,766,680,707]" metricMagnitude="-3" metricUnit="m" metricValue="4.3" pageId="30" pageNumber="31" unit="mm" value="4.3">4.3 mm</quantity>
+, 
+<specimenCount id="9D7BFD616B75554BFCC974EBFCEA84CD" box="[780,827,680,707]" pageId="30" pageNumber="31" type="female">1 ♀</specimenCount>
+ovig., cl 
+<quantity id="4C859B0D6B75554BFC7474EBFBC084CD" box="[945,1041,680,707]" metricMagnitude="-3" metricUnit="m" metricValue="4.3" pageId="30" pageNumber="31" unit="mm" value="4.3">4.3 mm</quantity>
+; 
+<location id="8EA260336B75554BFBE574EBFB1884CC" LSID="urn:lsid:plazi:treatment:03D487FE6B765575FD427446FCEB80FC:8EA260336B75554BFBE574EBFB1884CC" box="[1056,1225,680,706]" country="Malaysia" municipality="Sungai Asah" name="Pulau Tioman" pageId="30" pageNumber="31">Pulau Tioman</location>
+, 
+<collectingMunicipality id="6BA6AC926B75554BFB1D74EBFAA384CC" box="[1240,1394,680,706]" pageId="30" pageNumber="31">Sungai Asah</collectingMunicipality>
+; 
+<date id="FFC310286B75554BFF78748FFE8684E8" box="[189,343,716,742]" pageId="30" pageNumber="31" value="1997-06-24">
+<collectingDate id="EF87E9C06B75554BFF78748FFE8684E8" box="[189,343,716,742]" pageId="30" pageNumber="31" value="1997-06-24">24 Jun. 1997</collectingDate>
+</date>
+; Ng 
+<emphasis id="B909EAFA6B75554BFE4B748FFE1884EB" box="[398,457,715,741]" italics="true" pageId="30" pageNumber="31">et al.</emphasis>
+leg.; 
+<specimenCode id="DBDB9E936B75554BFDCE748FFD1D84E8" box="[523,716,715,742]" collectionCode="ZRC" country="Singapore" httpUri="http://grbio.org/cool/16z4-1tbx" name="Zoological Reference Collection, National University of Singapore" pageId="30" pageNumber="31">ZRC 1998.0865</specimenCode>
+</materialsCitation>
+.
+</paragraph>
+<paragraph id="8BC236E86B75554BFF78754EFDBA8529" blockId="30.[189,1399,781,984]" box="[189,619,781,807]" pageId="30" pageNumber="31">
+<taxonomicName id="4C7D4D6B6B75554BFF78754EFDBA8529" authority="(Kemp, 1918)" baseAuthorityName="Kemp" baseAuthorityYear="1918" box="[189,619,781,807]" class="Malacostraca" family="Atyidae" genus="Caridina" kingdom="Animalia" order="Decapoda" pageId="30" pageNumber="31" phylum="Arthropoda" rank="species" species="peninsularis">
+<emphasis id="B909EAFA6B75554BFF78754EFE6E8529" box="[189,447,781,807]" italics="true" pageId="30" pageNumber="31">Caridina peninsularis</emphasis>
+(
+<bibRefCitation id="EFEC4B196B75554BFE0A754EFDB28529" author="Kemp S." box="[463,611,781,807]" pageId="30" pageNumber="31" pagination="274 - 293" refId="ref46314" refString="Kemp S. 1918. Zoological results of a tour in the Far East. Crustacea Decapoda and Stomatopoda. Memoirs of the Royal Asiatic Society of Bengal 6: 274 - 293." type="journal article" year="1918">Kemp, 1918</bibRefCitation>
+)
+</taxonomicName>
+</paragraph>
+<paragraph id="8BC236E86B75554BFF787573FEEF85D6" blockId="30.[189,1399,781,984]" pageId="30" pageNumber="31">
+<materialsCitation id="3B153CB56B75554BFF787573FCC28560" ID-GBIF-Occurrence="2824256501" collectingDate="1916-02" collectorName="N. Anandale" country="Malaysia" location="Botanical Garden" municipality="Island" pageId="30" pageNumber="31" specimenCount="1" stateProvince="Pulau Pinang" typeStatus="lectotype">
+<collectingCountry id="F36A76786B75554BFF787573FE858544" box="[189,340,816,842]" name="Malaysia" pageId="30" pageNumber="31">MALAYSIA</collectingCountry>
+• 
+<typeStatus id="54C6884A6B75554BFEAF7573FE078544" box="[362,470,816,842]" pageId="30" pageNumber="31">lectotype</typeStatus>
+(designated by Cai 
+<emphasis id="B909EAFA6B75554BFD7F7572FD3C8544" box="[698,749,816,842]" italics="true" pageId="30" pageNumber="31">et al</emphasis>
+. 2007), ♂, cl 
+<quantity id="4C859B0D6B75554BFC4F7573FC348545" box="[906,997,816,843]" metricMagnitude="-3" metricUnit="m" metricValue="3.2" pageId="30" pageNumber="31" unit="mm" value="3.2">3.2 mm</quantity>
+; 
+<collectingRegion id="49B9F80A6B75554BFC357572FB978545" box="[1008,1094,817,843]" country="Malaysia" name="Pulau Pinang" pageId="30" pageNumber="31">Penang</collectingRegion>
+<collectingMunicipality id="6BA6AC926B75554BFB887573FB498544" box="[1101,1176,816,842]" pageId="30" pageNumber="31">Island</collectingMunicipality>
+, 
+<location id="8EA260336B75554BFB677573FAA38544" LSID="urn:lsid:plazi:treatment:03D487FE6B765575FD427446FCEB80FC:8EA260336B75554BFB677573FAA38544" box="[1186,1394,816,842]" country="Malaysia" municipality="Island" name="Botanical Garden" pageId="30" pageNumber="31" stateProvince="Pulau Pinang">Botanical Garden</location>
+; 
+<date id="FFC310286B75554BFF787510FEE28563" box="[189,307,851,877]" pageId="30" pageNumber="31" value="1916-02">
+<collectingDate id="EF87E9C06B75554BFF787510FEE28563" box="[189,307,851,877]" pageId="30" pageNumber="31" value="1916-02">Feb. 1916</collectingDate>
+</date>
+; 
+<collectorName id="2688533E6B75554BFEF97517FE1A8563" box="[316,459,851,878]" pageId="30" pageNumber="31">N.Anandale</collectorName>
+leg.; MNHN-IU-2015-1749
+</materialsCitation>
+• 
+<materialsCitation id="3B153CB56B75554BFCE37517FD16859F" ID-GBIF-Occurrence="2824256409" collectingDate="1916-02" collectorName="N. Anandale" country="Malaysia" location="Botanical Garden" municipality="Island" pageId="30" pageNumber="31" specimenCount="2" specimenCount-female="1" stateProvince="Pulau Pinang" typeStatus="paralectotype">
+<specimenCount id="9D7BFD616B75554BFCE37517FC0A8563" box="[806,987,851,878]" pageId="30" pageNumber="31" type="generic" typeStatus="paralectotype">1 paralectotype</specimenCount>
+, 
+<specimenCount id="9D7BFD616B75554BFC267517FC288560" box="[995,1017,852,878]" pageId="30" pageNumber="31" type="female">♀</specimenCount>
+ovig., cl 
+<quantity id="4C859B0D6B75554BFB9A7510FB688560" box="[1119,1209,851,878]" metricMagnitude="-3" metricUnit="m" metricValue="5.4" pageId="30" pageNumber="31" unit="mm" value="5.4">5.4 mm</quantity>
+; same collection data as for lectotype; MNHN-IU-2015-1750
+</materialsCitation>
+• 
+<materialsCitation id="3B153CB56B75554BFD277534FEEB85D6" ID-GBIF-Occurrence="2824256358" collectingDate="1916-02" collectionCode="NHM" collectorName="N. Anandale" country="Malaysia" location="Botanical Garden" municipality="Island" pageId="30" pageNumber="31" specimenCount="5" specimenCount-female="2" stateProvince="Pulau Pinang" typeStatus="paralectotype">
+<specimenCount id="9D7BFD616B75554BFD277534FC48859F" box="[738,921,887,913]" pageId="30" pageNumber="31" type="generic" typeStatus="paralectotype">1 paralectotype</specimenCount>
+, 
+<specimenCount id="9D7BFD616B75554BFC637534FC6D859F" box="[934,956,887,913]" pageId="30" pageNumber="31" type="female">♀</specimenCount>
+, cl 
+<quantity id="4C859B0D6B75554BFC2D7534FB97859F" box="[1000,1094,887,913]" metricMagnitude="-3" metricUnit="m" metricValue="3.4" pageId="30" pageNumber="31" unit="mm" value="3.4">3.4 mm</quantity>
+, 
+<specimenCount id="9D7BFD616B75554BFB977534FAD8859F" box="[1106,1289,887,913]" pageId="30" pageNumber="31" type="generic" typeStatus="paralectotype">1 paralectotype</specimenCount>
+, 
+<specimenCount id="9D7BFD616B75554BFAD37534FAFD859F" box="[1302,1324,887,913]" pageId="30" pageNumber="31" type="female">♀</specimenCount>
+ovig., cl 
+<quantity id="4C859B0D6B75554BFF1F75D9FEE685BA" box="[218,311,922,949]" metricMagnitude="-3" metricUnit="m" metricValue="5.2" pageId="30" pageNumber="31" unit="mm" value="5.2">5.2 mm</quantity>
+, 
+<specimenCount id="9D7BFD616B75554BFE8775D9FE2885BA" box="[322,505,922,948]" pageId="30" pageNumber="31" type="generic" typeStatus="paralectotype">1 paralectotype</specimenCount>
+, ♂, cl 
+<quantity id="4C859B0D6B75554BFD8375D9FD7285BA" box="[582,675,922,948]" metricMagnitude="-3" metricUnit="m" metricValue="3.9" pageId="30" pageNumber="31" unit="mm" value="3.9">3.9 mm</quantity>
+; same collection data as for lectotype; 
+<collectionCode id="ED6CAE2D6B75554BFBAE75D9FB7E85BA" box="[1131,1199,922,948]" pageId="30" pageNumber="31">NHM</collectionCode>
+1919.11.1.12-21 (1761124)
+</materialsCitation>
+.
+</paragraph>
+<paragraph id="8BC236E86B75554BFF7875BCFEEE826E" blockId="30.[189,1399,1022,1120]" pageId="30" pageNumber="31">
+<materialsCitation id="3B153CB56B75554BFF7875BCFEEA826E" ID-GBIF-Occurrence="2824256471" collectionCode="NHM" collectorName="Tanglin &amp; Tangtum &amp; Richard &amp; Clark &amp; Bedford &amp; Lanchester" country="Singapore" location="SINGAPORE" pageId="30" pageNumber="31" specimenCount="1" specimenCount-female="1">
+<collectingCountry id="F36A76786B75554BFF7875BCFEB38217" box="[189,354,1023,1049]" name="Singapore" pageId="30" pageNumber="31">SINGAPORE</collectingCountry>
+• 
+<specimenCount id="9D7BFD616B75554BFEB275BCFE708217" box="[375,417,1023,1049]" pageId="30" pageNumber="31" type="female">1 ♀</specimenCount>
+ovig., cl 
+<quantity id="4C859B0D6B75554BFDCD75BDFDB28217" box="[520,611,1022,1049]" metricMagnitude="-3" metricUnit="m" metricValue="5.1" pageId="30" pageNumber="31" unit="mm" value="5.1">5.1 mm</quantity>
+, 1 ♂, cl 
+<quantity id="4C859B0D6B75554BFD7B75BCFCC88217" box="[702,793,1023,1049]" metricMagnitude="-3" metricUnit="m" metricValue="4.2" pageId="30" pageNumber="31" unit="mm" value="4.2">4.2 mm</quantity>
+; 
+<collectorName id="2688533E6B75554BFCE675BCFCAD8217" box="[803,892,1023,1049]" pageId="30" pageNumber="31">Tanglin</collectorName>
+[incorrectly spelt 
+<collectorName id="2688533E6B75554BFB8E75BCFB628217" box="[1099,1203,1023,1049]" pageId="30" pageNumber="31">Tangtum</collectorName>
+in 
+<collectionCode id="ED6CAE2D6B75554BFB1075BCFAC88217" box="[1237,1305,1023,1049]" pageId="30" pageNumber="31">NHM</collectionCode>
+register and on label, see 
+<collectorName id="2688533E6B75554BFE567261FE218232" box="[403,496,1058,1084]" pageId="30" pageNumber="31">Richard</collectorName>
+&amp; 
+<collectorName id="2688533E6B75554BFDDE7261FD8D8232" box="[539,604,1058,1084]" pageId="30" pageNumber="31">Clark</collectorName>
+2014]; 1958; 
+<collectorName id="2688533E6B75554BFCCF7261FCBB8232" box="[778,874,1058,1084]" pageId="30" pageNumber="31">Bedford</collectorName>
+and 
+<collectorName id="2688533E6B75554BFC6D7261FBF88232" box="[936,1065,1058,1084]" pageId="30" pageNumber="31">Lanchester</collectorName>
+leg.; 
+<collectionCode id="ED6CAE2D6B75554BFBB47261FB648232" box="[1137,1205,1058,1084]" pageId="30" pageNumber="31">NHM</collectionCode>
+1958.8.7.14–17 (1749569)
+</materialsCitation>
+.
+</paragraph>
+<paragraph id="8BC236E86B75554BFF7872C4FCAB82AF" blockId="30.[189,890,1158,1221]" box="[189,890,1158,1185]" pageId="30" pageNumber="31">
+<taxonomicName id="4C7D4D6B6B75554BFF7872C4FCAB82AF" authority="(de Mazancourt, Rogers &amp; Keith, 2018)" baseAuthorityName="de Mazancourt, Rogers &amp; Keith" baseAuthorityYear="2018" box="[189,890,1158,1185]" class="Malacostraca" family="Atyidae" genus="Caridina" kingdom="Animalia" order="Decapoda" pageId="30" pageNumber="31" phylum="Arthropoda" rank="species" species="variabilis">
+<emphasis id="B909EAFA6B75554BFF7872C4FE4F82AF" box="[189,414,1159,1185]" italics="true" pageId="30" pageNumber="31">Caridina variabilis</emphasis>
+(
+<bibRefCitation id="EFEC4B196B75554BFE6B72C5FCA382AF" author="de Mazancourt V. &amp; Marquet G. &amp; Rogers D. C. &amp; Keith P." box="[430,882,1158,1185]" pageId="30" pageNumber="31" pagination="39 - 50" refId="ref46741" refString="de Mazancourt V., Marquet G., Rogers D. C. &amp; Keith P. 2018 b. Description of a new species of Caridina (Crustacea: Decapoda: Atyidae) from two Micronesian islands (Guam and Babeldaob). Zootaxa 4377 (1): 39 - 50. https: // doi. org / 10.11646 / zootaxa. 4377.1.3" type="journal article" year="2018">de Mazancourt, Rogers &amp; Keith, 2018</bibRefCitation>
+)
+</taxonomicName>
+</paragraph>
+<paragraph id="8BC236E86B75554BFF7872E9FD9D82CB" blockId="30.[189,890,1158,1221]" box="[189,588,1194,1221]" pageId="30" pageNumber="31">
+See 
+<bibRefCitation id="EFEC4B196B75554BFF2A72E9FD9982CB" author="de Mazancourt V. &amp; Marquet G. &amp; Rogers D. C. &amp; Keith P." box="[239,584,1194,1221]" pageId="30" pageNumber="31" pagination="39 - 50" refId="ref46741" refString="de Mazancourt V., Marquet G., Rogers D. C. &amp; Keith P. 2018 b. Description of a new species of Caridina (Crustacea: Decapoda: Atyidae) from two Micronesian islands (Guam and Babeldaob). Zootaxa 4377 (1): 39 - 50. https: // doi. org / 10.11646 / zootaxa. 4377.1.3" type="journal article" year="2018">
+de Mazancourt 
+<emphasis id="B909EAFA6B75554BFE6072E8FE3182CA" box="[421,480,1194,1220]" italics="true" pageId="30" pageNumber="31">et al.</emphasis>
+(2018b)
+</bibRefCitation>
+.
+</paragraph>
+<paragraph id="8BC236E86B75554BFF7872A8FDA9830B" blockId="30.[189,1398,1259,1392]" box="[189,632,1259,1285]" pageId="30" pageNumber="31">
+<taxonomicName id="4C7D4D6B6B75554BFF7872A8FDA9830B" authority="(Holthuis, 1978)" baseAuthorityName="Holthuis" baseAuthorityYear="1978" box="[189,632,1259,1285]" class="Malacostraca" family="Atyidae" genus="Caridina" kingdom="Animalia" order="Decapoda" pageId="30" pageNumber="31" phylum="Arthropoda" rank="species" species="sundanella">
+<emphasis id="B909EAFA6B75554BFF7872A8FE7E830B" box="[189,431,1259,1285]" italics="true" pageId="30" pageNumber="31">Caridina sundanella</emphasis>
+(
+<bibRefCitation id="EFEC4B196B75554BFE7B72A8FDA1830B" author="Holthuis L. B." box="[446,624,1259,1285]" pageId="30" pageNumber="31" pagination="209 - 224" refId="ref45927" refString="Holthuis L. B. 1978. A collection of decapod Crustacea from Sumba, Lesser Sunda Islands, Indonesia. Zoologische Verhandelingen Uitgegeven door het Rijksmuseum van Natuurlijke Historie te Leiden 53 (19): 209 - 224." type="journal article" year="1978">Holthuis, 1978</bibRefCitation>
+)
+</taxonomicName>
+</paragraph>
+<paragraph id="8BC236E86B75554BFF78734CFE538361" blockId="30.[189,1398,1259,1392]" pageId="30" pageNumber="31">
+<materialsCitation id="3B153CB56B75554BFF78734CFEAF8361" ID-GBIF-Occurrence="2824256621" collectingDate="1949-08-19" collectionCode="NMB" collectorName="E. Sutter" country="Indonesia" county="Station" elevation="250" location="Sumba Island" municipality="Waikamburu Brook" pageId="30" pageNumber="31" specimenCode="NMB 989" specimenCount="3" specimenCount-female="1" typeStatus="syntype">
+<collectingCountry id="F36A76786B75554BFF78734CFE8A8327" box="[189,347,1295,1321]" name="Indonesia" pageId="30" pageNumber="31">INDONESIA</collectingCountry>
+• 
+<specimenCount id="9D7BFD616B75554BFEB0734CFE388327" box="[373,489,1295,1321]" pageId="30" pageNumber="31" type="generic" typeStatus="syntype">1 syntype</specimenCount>
+, ♂, cl 
+<quantity id="4C859B0D6B75554BFDF2734DFD458327" box="[567,660,1294,1321]" metricMagnitude="-3" metricUnit="m" metricValue="3.6" pageId="30" pageNumber="31" unit="mm" value="3.6">3.6 mm</quantity>
+, 
+<specimenCount id="9D7BFD616B75554BFD65734CFCC58327" box="[672,788,1295,1321]" pageId="30" pageNumber="31" type="generic" typeStatus="syntype">1 syntype</specimenCount>
+, 
+<specimenCount id="9D7BFD616B75554BFCE4734CFCE68327" box="[801,823,1295,1321]" pageId="30" pageNumber="31" type="female">♀</specimenCount>
+, cl 
+<quantity id="4C859B0D6B75554BFCA6734DFC118327" box="[867,960,1294,1321]" metricMagnitude="-3" metricUnit="m" metricValue="5.2" pageId="30" pageNumber="31" unit="mm" value="5.2">5.2 mm</quantity>
+; 
+<location id="8EA260336B75554BFC09734DFBA08326" LSID="urn:lsid:plazi:treatment:03D487FE6B765575FD427446FCEB80FC:8EA260336B75554BFC09734DFBA08326" box="[972,1137,1294,1320]" country="Indonesia" county="Station" municipality="Waikamburu Brook" name="Sumba Island" pageId="30" pageNumber="31">Sumba Island</location>
+, 
+<location id="8EA260336B75554BFBB9734CFAC08326" LSID="urn:lsid:plazi:treatment:03D487FE6B765575FD427446FCEB80FC:8EA260336B75554BFBB9734CFAC08326" box="[1148,1297,1294,1321]" country="Indonesia" county="Station" municipality="Waikamburu Brook" name="West Sumba" pageId="30" pageNumber="31">West Sumba</location>
+, 
+<locationDeviation id="9A702FCA6B75554BFADB734CFEA48342" location="Waimangura" pageId="30" pageNumber="31">
+<quantity id="4C859B0D6B75554BFADB734CFA888326" box="[1310,1369,1294,1321]" metricMagnitude="3" metricUnit="m" metricValue="4.0" pageId="30" pageNumber="31" unit="km" value="4.0">4 km</quantity>
+N of Waimangura
+</locationDeviation>
+, 
+<collectingMunicipality id="6BA6AC926B75554BFE477371FDBC8342" box="[386,621,1330,1356]" pageId="30" pageNumber="31">Waikamburu Brook</collectingMunicipality>
+, 
+<collectingCounty id="62A34E646B75554BFDBF7371FD1C8342" box="[634,717,1330,1356]" pageId="30" pageNumber="31">Station</collectingCounty>
+450; 
+<elevation id="0050D1DB6B75554BFCD67371FC4E8342" box="[787,927,1330,1357]" metricMagnitude="2" metricUnit="m" metricValue="2.5" pageId="30" pageNumber="31" unit="m" value="250.0">
+<quantity id="4C859B0D6B75554BFCD67371FC8F8342" box="[787,862,1330,1357]" metricMagnitude="2" metricUnit="m" metricValue="2.5" pageId="30" pageNumber="31" unit="m" value="250.0">250 m</quantity>
+a.s.l.
+</elevation>
+; 
+<date id="FFC310286B75554BFC6B7371FB828342" box="[942,1107,1330,1356]" pageId="30" pageNumber="31" value="1949-08-19">
+<collectingDate id="EF87E9C06B75554BFC6B7371FB828342" box="[942,1107,1330,1356]" pageId="30" pageNumber="31" value="1949-08-19">19 Aug. 1949</collectingDate>
+</date>
+; 
+<collectorName id="2688533E6B75554BFBA57371FB198342" box="[1120,1224,1330,1356]" pageId="30" pageNumber="31">E. Sutter</collectorName>
+and A. B̹hler leg.; 
+<specimenCode id="DBDB9E936B75554BFF3D7315FEA08361" box="[248,369,1365,1392]" collectionCode="NMB" country="Switzerland" httpUri="http://grbio.org/cool/8wbz-jkc3" name="Naturhistorishes Museum" pageId="30" pageNumber="31">NMB 989</specimenCode>
+a
+</materialsCitation>
+.
+</paragraph>
+</subSubSection>
+<subSubSection id="C36765636B755575FF7873D5FEE8820D" lastPageId="32" lastPageNumber="33" pageId="30" pageNumber="31" type="description">
+<paragraph id="8BC236E86B75554BFF7873D5FE9F83BE" blockId="30.[189,334,1430,1456]" box="[189,334,1430,1456]" pageId="30" pageNumber="31">
+<heading id="D08A81846B75554BFF7873D5FE9F83BE" bold="true" box="[189,334,1430,1456]" fontSize="11" level="3" pageId="30" pageNumber="31" reason="3">
+<emphasis id="B909EAFA6B75554BFF7873D5FE9F83BE" bold="true" box="[189,334,1430,1456]" pageId="30" pageNumber="31">Description</emphasis>
+</heading>
+</paragraph>
+<paragraph id="8BC236E86B75554BFF787386FDE48081" blockId="30.[189,1399,1477,1679]" pageId="30" pageNumber="31">
+CEPHALOTHORAX. Carapace (
+<figureCitation id="13462A6D6B75554BFDC47386FD8F83D1" box="[513,606,1477,1503]" captionStart="Fig" captionStartId="31.[189,232,1861,1887]" captionTargetBox="[252,1333,268,1811]" captionTargetId="figure@31.[249,1337,265,1821]" captionTargetPageId="31" captionText="Fig. 9. Caridina pisuku sp. nov. a. First pereiopod. b. Second pereiopod. c. Third pereiopod. d. Fifth pereiopod. e. Dactylus of third pereiopod. f. Dactylus of fifth pereiopod. g. Pre-anal carina. h. Uropodal diaeresis. i. Telson. j. First male pleopod. k. Second male pleopod. l. Eggs. m. Cephalothorax. n–o. Rostrum variations. MNHN-IU-2014-20865 (a–f, l), MNHN-IU-2014-20873 (g–h, j–k), MNHN- IU-2014-20864 (m), MNHN-IU-2014-20868 (i, n) and MNHN-IU-2014-20862 (o)." figureDoi="http://doi.org/10.5281/zenodo.3973453" httpUri="https://zenodo.org/record/3973453/files/figure.png" pageId="30" pageNumber="31">
+Fig. 
+<quantity id="4C859B0D6B75554BFDF27386FD8F83D1" box="[567,606,1477,1503]" metricMagnitude="0" metricUnit="m" metricValue="9.0" pageId="30" pageNumber="31" unit="m" value="9.0">9m</quantity>
+</figureCitation>
+) smooth, glabrous, with sharp antennal spine placed at lower orbital angle. Pterygostomial margin rounded. Antennular peduncle 0.64 (
+<specimenCount id="9D7BFD616B75554BFC3473ABFBD5800C" box="[1009,1028,1512,1538]" pageId="30" pageNumber="31" type="female">♀</specimenCount>
+) – 0.80 (♂) times as long as carapace. Long rostrum (
+<figureCitation id="13462A6D6B75554BFE267048FDF98028" box="[483,552,1547,1574]" captionStart="Fig" captionStartId="31.[189,232,1861,1887]" captionTargetBox="[252,1333,268,1811]" captionTargetId="figure@31.[249,1337,265,1821]" captionTargetPageId="31" captionText="Fig. 9. Caridina pisuku sp. nov. a. First pereiopod. b. Second pereiopod. c. Third pereiopod. d. Fifth pereiopod. e. Dactylus of third pereiopod. f. Dactylus of fifth pereiopod. g. Pre-anal carina. h. Uropodal diaeresis. i. Telson. j. First male pleopod. k. Second male pleopod. l. Eggs. m. Cephalothorax. n–o. Rostrum variations. MNHN-IU-2014-20865 (a–f, l), MNHN-IU-2014-20873 (g–h, j–k), MNHN- IU-2014-20864 (m), MNHN-IU-2014-20868 (i, n) and MNHN-IU-2014-20862 (o)." figureDoi="http://doi.org/10.5281/zenodo.3973453" httpUri="https://zenodo.org/record/3973453/files/figure.png" pageId="30" pageNumber="31">Fig. 9</figureCitation>
+m–o), 0.8–1.1 of cl, 17–28 dorsal teeth closely set, leaving 0.20–0.80 of length unarmed distally, 1–3 post-orbital teeth present. 6–18 teeth present of ventral margin extending from proximal end either to tip or with short distal part unarmed. Number of dorsal teeth on rostrum behind first ventral tooth 11–21.
+</paragraph>
+<paragraph id="8BC236E86B75554BFF7870F4FD9981E5" blockId="30.[189,1399,1719,2027]" pageId="30" pageNumber="31">
+PEREIOPODS. Slender P1 (
+<figureCitation id="13462A6D6B75554BFE2570F4FDE680DF" box="[480,567,1719,1745]" captionStart="Fig" captionStartId="31.[189,232,1861,1887]" captionTargetBox="[252,1333,268,1811]" captionTargetId="figure@31.[249,1337,265,1821]" captionTargetPageId="31" captionText="Fig. 9. Caridina pisuku sp. nov. a. First pereiopod. b. Second pereiopod. c. Third pereiopod. d. Fifth pereiopod. e. Dactylus of third pereiopod. f. Dactylus of fifth pereiopod. g. Pre-anal carina. h. Uropodal diaeresis. i. Telson. j. First male pleopod. k. Second male pleopod. l. Eggs. m. Cephalothorax. n–o. Rostrum variations. MNHN-IU-2014-20865 (a–f, l), MNHN-IU-2014-20873 (g–h, j–k), MNHN- IU-2014-20864 (m), MNHN-IU-2014-20868 (i, n) and MNHN-IU-2014-20862 (o)." figureDoi="http://doi.org/10.5281/zenodo.3973453" httpUri="https://zenodo.org/record/3973453/files/figure.png" pageId="30" pageNumber="31">Fig. 9a</figureCitation>
+): chela about 1.7–2.2 times as long as wide, dactylus 2.6–3.9 times as long as wide, 1.1–1.7 length of palm; carpus 1.4–2.6 times as long as wide with shallow excavation on anterior margin. P2 (
+<figureCitation id="13462A6D6B75554BFE7770BEFDD98116" box="[434,520,1789,1816]" captionStart="Fig" captionStartId="31.[189,232,1861,1887]" captionTargetBox="[252,1333,268,1811]" captionTargetId="figure@31.[249,1337,265,1821]" captionTargetPageId="31" captionText="Fig. 9. Caridina pisuku sp. nov. a. First pereiopod. b. Second pereiopod. c. Third pereiopod. d. Fifth pereiopod. e. Dactylus of third pereiopod. f. Dactylus of fifth pereiopod. g. Pre-anal carina. h. Uropodal diaeresis. i. Telson. j. First male pleopod. k. Second male pleopod. l. Eggs. m. Cephalothorax. n–o. Rostrum variations. MNHN-IU-2014-20865 (a–f, l), MNHN-IU-2014-20873 (g–h, j–k), MNHN- IU-2014-20864 (m), MNHN-IU-2014-20868 (i, n) and MNHN-IU-2014-20862 (o)." figureDoi="http://doi.org/10.5281/zenodo.3973453" httpUri="https://zenodo.org/record/3973453/files/figure.png" pageId="30" pageNumber="31">Fig. 9b</figureCitation>
+) more slender and longer than first pereiopod: chela 2.2–2.6 times as long as wide, dactylus 3.9–5.2 times as long as wide, 1.2–2.1 times length of palm; carpus 4.8–5.7 times as long as wide. P3 (
+<figureCitation id="13462A6D6B75554BFE537107FE3F8150" box="[406,494,1860,1886]" captionStart="Fig" captionStartId="31.[189,232,1861,1887]" captionTargetBox="[252,1333,268,1811]" captionTargetId="figure@31.[249,1337,265,1821]" captionTargetPageId="31" captionText="Fig. 9. Caridina pisuku sp. nov. a. First pereiopod. b. Second pereiopod. c. Third pereiopod. d. Fifth pereiopod. e. Dactylus of third pereiopod. f. Dactylus of fifth pereiopod. g. Pre-anal carina. h. Uropodal diaeresis. i. Telson. j. First male pleopod. k. Second male pleopod. l. Eggs. m. Cephalothorax. n–o. Rostrum variations. MNHN-IU-2014-20865 (a–f, l), MNHN-IU-2014-20873 (g–h, j–k), MNHN- IU-2014-20864 (m), MNHN-IU-2014-20868 (i, n) and MNHN-IU-2014-20862 (o)." figureDoi="http://doi.org/10.5281/zenodo.3973453" httpUri="https://zenodo.org/record/3973453/files/figure.png" pageId="30" pageNumber="31">Fig. 9c</figureCitation>
+): dactylus (
+<figureCitation id="13462A6D6B75554BFDBC7107FD1F8150" box="[633,718,1860,1886]" captionStart="Fig" captionStartId="31.[189,232,1861,1887]" captionTargetBox="[252,1333,268,1811]" captionTargetId="figure@31.[249,1337,265,1821]" captionTargetPageId="31" captionText="Fig. 9. Caridina pisuku sp. nov. a. First pereiopod. b. Second pereiopod. c. Third pereiopod. d. Fifth pereiopod. e. Dactylus of third pereiopod. f. Dactylus of fifth pereiopod. g. Pre-anal carina. h. Uropodal diaeresis. i. Telson. j. First male pleopod. k. Second male pleopod. l. Eggs. m. Cephalothorax. n–o. Rostrum variations. MNHN-IU-2014-20865 (a–f, l), MNHN-IU-2014-20873 (g–h, j–k), MNHN- IU-2014-20864 (m), MNHN-IU-2014-20868 (i, n) and MNHN-IU-2014-20862 (o)." figureDoi="http://doi.org/10.5281/zenodo.3973453" httpUri="https://zenodo.org/record/3973453/files/figure.png" pageId="30" pageNumber="31">Fig. 9e</figureCitation>
+) 3.0–3.4 times as long as wide (terminal spiniform setae included), with 5–7 spiniform setae on flexor margin in addition to terminal one; propodus 10.6–17.9 times as long as wide, 4.1–6.2 times as long as dactylus. P5 (
+<figureCitation id="13462A6D6B75554BFCBB71C9FC0481AB" box="[894,981,1930,1957]" captionStart="Fig" captionStartId="31.[189,232,1861,1887]" captionTargetBox="[252,1333,268,1811]" captionTargetId="figure@31.[249,1337,265,1821]" captionTargetPageId="31" captionText="Fig. 9. Caridina pisuku sp. nov. a. First pereiopod. b. Second pereiopod. c. Third pereiopod. d. Fifth pereiopod. e. Dactylus of third pereiopod. f. Dactylus of fifth pereiopod. g. Pre-anal carina. h. Uropodal diaeresis. i. Telson. j. First male pleopod. k. Second male pleopod. l. Eggs. m. Cephalothorax. n–o. Rostrum variations. MNHN-IU-2014-20865 (a–f, l), MNHN-IU-2014-20873 (g–h, j–k), MNHN- IU-2014-20864 (m), MNHN-IU-2014-20868 (i, n) and MNHN-IU-2014-20862 (o)." figureDoi="http://doi.org/10.5281/zenodo.3973453" httpUri="https://zenodo.org/record/3973453/files/figure.png" pageId="30" pageNumber="31">Fig. 9d</figureCitation>
+): dactylus (
+<figureCitation id="13462A6D6B75554BFB9E71C9FB7A81AB" box="[1115,1195,1930,1957]" captionStart="Fig" captionStartId="31.[189,232,1861,1887]" captionTargetBox="[252,1333,268,1811]" captionTargetId="figure@31.[249,1337,265,1821]" captionTargetPageId="31" captionText="Fig. 9. Caridina pisuku sp. nov. a. First pereiopod. b. Second pereiopod. c. Third pereiopod. d. Fifth pereiopod. e. Dactylus of third pereiopod. f. Dactylus of fifth pereiopod. g. Pre-anal carina. h. Uropodal diaeresis. i. Telson. j. First male pleopod. k. Second male pleopod. l. Eggs. m. Cephalothorax. n–o. Rostrum variations. MNHN-IU-2014-20865 (a–f, l), MNHN-IU-2014-20873 (g–h, j–k), MNHN- IU-2014-20864 (m), MNHN-IU-2014-20868 (i, n) and MNHN-IU-2014-20862 (o)." figureDoi="http://doi.org/10.5281/zenodo.3973453" httpUri="https://zenodo.org/record/3973453/files/figure.png" pageId="30" pageNumber="31">Fig. 9f</figureCitation>
+) 3.3–5.1 times as long as wide, with 22–46 spiniform setae on flexor margin; propodus 18.3–26.2 times as long as wide, 4.9–7.6 times as long as dactylus.
+</paragraph>
+<caption id="DF0266606B74554AFF787106FB4081E2" ID-DOI="http://doi.org/10.5281/zenodo.3973453" ID-Zenodo-Dep="3973453" httpUri="https://zenodo.org/record/3973453/files/figure.png" pageId="31" pageNumber="32" startId="31.[189,232,1861,1887]" targetBox="[252,1333,268,1811]" targetPageId="31">
+<paragraph id="8BC236E86B74554AFF787106FB4081E2" blockId="31.[189,1399,1861,2029]" pageId="31" pageNumber="32">
+<emphasis id="B909EAFA6B74554AFF787106FEDD8151" bold="true" box="[189,268,1861,1887]" pageId="31" pageNumber="32">Fig. 9.</emphasis>
+<taxonomicName id="4C7D4D6B6B74554AFED37106FE078151" authority="Mazancourt &amp; Boseto &amp; Marquet &amp; Keith, 2020" authorityName="Mazancourt &amp; Boseto &amp; Marquet &amp; Keith" authorityYear="2020" box="[278,470,1861,1887]" class="Malacostraca" family="Atyidae" genus="Caridina" kingdom="Animalia" order="Decapoda" pageId="31" pageNumber="32" phylum="Arthropoda" rank="species" species="pisuku" status="sp. nov.">
+<emphasis id="B909EAFA6B74554AFED37106FE078151" box="[278,470,1861,1887]" italics="true" pageId="31" pageNumber="32">Caridina pisuku</emphasis>
+</taxonomicName>
+<taxonomicNameLabel id="A23A57816B74554AFE1A7105FDEA816E" box="[479,571,1862,1888]" pageId="31" pageNumber="32" rank="species">sp. nov.</taxonomicNameLabel>
+<emphasis id="B909EAFA6B74554AFD817105FD82816E" bold="true" box="[580,595,1862,1888]" pageId="31" pageNumber="32">a</emphasis>
+. First pereiopod. 
+<emphasis id="B909EAFA6B74554AFCED7105FCE9816E" bold="true" box="[808,824,1862,1888]" pageId="31" pageNumber="32">b</emphasis>
+. Second pereiopod. 
+<emphasis id="B909EAFA6B74554AFBEA7105FBED816E" bold="true" box="[1071,1084,1862,1888]" pageId="31" pageNumber="32">c</emphasis>
+. Third pereiopod. 
+<emphasis id="B909EAFA6B74554AFAD97105FAFD816E" bold="true" box="[1308,1324,1862,1888]" pageId="31" pageNumber="32">d</emphasis>
+. Fifth pereiopod. 
+<emphasis id="B909EAFA6B74554AFE85712AFE9C818D" bold="true" box="[320,333,1897,1923]" pageId="31" pageNumber="32">e</emphasis>
+. Dactylus of third pereiopod. 
+<emphasis id="B909EAFA6B74554AFD69712BFD67818C" bold="true" box="[684,694,1896,1922]" pageId="31" pageNumber="32">f</emphasis>
+. Dactylus of fifth pereiopod. 
+<emphasis id="B909EAFA6B74554AFBCB712AFBCC818D" bold="true" box="[1038,1053,1897,1923]" pageId="31" pageNumber="32">g</emphasis>
+. Pre-anal carina. 
+<emphasis id="B909EAFA6B74554AFB2C712AFB28818D" bold="true" box="[1257,1273,1897,1923]" pageId="31" pageNumber="32">h</emphasis>
+. Uropodal diaeresis. 
+<emphasis id="B909EAFA6B74554AFEFF71CFFE9381A8" bold="true" box="[314,322,1932,1958]" pageId="31" pageNumber="32">i</emphasis>
+. Telson. 
+<emphasis id="B909EAFA6B74554AFE7E71CFFE1481A8" bold="true" box="[443,453,1932,1958]" pageId="31" pageNumber="32">j</emphasis>
+. First male pleopod. 
+<emphasis id="B909EAFA6B74554AFD1871CFFD3C81A8" bold="true" box="[733,749,1932,1958]" pageId="31" pageNumber="32">k</emphasis>
+. Second male pleopod. 
+<emphasis id="B909EAFA6B74554AFBE071CFFBFC81A8" bold="true" box="[1061,1069,1932,1958]" pageId="31" pageNumber="32">l</emphasis>
+. Eggs. 
+<emphasis id="B909EAFA6B74554AFB5171CFFB7D81A8" bold="true" box="[1172,1196,1932,1958]" pageId="31" pageNumber="32">m</emphasis>
+. Cephalothorax. 
+<emphasis id="B909EAFA6B74554AFF7871ECFF3A81C7" bold="true" box="[189,235,1967,1993]" pageId="31" pageNumber="32">n–o</emphasis>
+. Rostrum variations. MNHN-IU-2014-20865 (a–f, l), MNHN-IU-2014-20873 (g–h, j–k), MNHN- IU-2014-20864 (m), MNHN-IU-2014-20868 (i, n) and MNHN-IU-2014-20862 (o).
+</paragraph>
+</caption>
+<paragraph id="8BC236E86B4B5575FF78774FFC248747" blockId="32.[189,1398,267,330]" pageId="32" pageNumber="33">ABDOMEN. Typical dorsal hump over third abdominal somite. Sixth abdominal somite 0.64 as long as carapace, 1.6 times as long as fifth somite, slightly shorter than telson.</paragraph>
+<paragraph id="8BC236E86B4B5575FF787732FE3187DD" blockId="32.[189,1399,369,467]" pageId="32" pageNumber="33">
+TELSON (
+<figureCitation id="13462A6D6B4B5575FEE67732FEA78782" box="[291,374,369,396]" captionStart="Fig" captionStartId="31.[189,232,1861,1887]" captionTargetBox="[252,1333,268,1811]" captionTargetId="figure@31.[249,1337,265,1821]" captionTargetPageId="31" captionText="Fig. 9. Caridina pisuku sp. nov. a. First pereiopod. b. Second pereiopod. c. Third pereiopod. d. Fifth pereiopod. e. Dactylus of third pereiopod. f. Dactylus of fifth pereiopod. g. Pre-anal carina. h. Uropodal diaeresis. i. Telson. j. First male pleopod. k. Second male pleopod. l. Eggs. m. Cephalothorax. n–o. Rostrum variations. MNHN-IU-2014-20865 (a–f, l), MNHN-IU-2014-20873 (g–h, j–k), MNHN- IU-2014-20864 (m), MNHN-IU-2014-20868 (i, n) and MNHN-IU-2014-20862 (o)." figureDoi="http://doi.org/10.5281/zenodo.3973453" httpUri="https://zenodo.org/record/3973453/files/figure.png" pageId="32" pageNumber="33">Fig. 9i</figureCitation>
+). 3.5 times as long as wide, four pairs of dorsal spinules and one pair of dorsolateral spinules; posterior margin with median process, distal setae short, lateral pair slightly longer than intermediate setae (4–5).
+</paragraph>
+<paragraph id="8BC236E86B4B5575FF7877B8FBBC8455" blockId="32.[189,1398,506,603]" pageId="32" pageNumber="33">
+MALE PLEOPODS. Pl1 (
+<figureCitation id="13462A6D6B4B5575FE7C77B9FDDD841B" box="[441,524,506,533]" captionStart="Fig" captionStartId="31.[189,232,1861,1887]" captionTargetBox="[252,1333,268,1811]" captionTargetId="figure@31.[249,1337,265,1821]" captionTargetPageId="31" captionText="Fig. 9. Caridina pisuku sp. nov. a. First pereiopod. b. Second pereiopod. c. Third pereiopod. d. Fifth pereiopod. e. Dactylus of third pereiopod. f. Dactylus of fifth pereiopod. g. Pre-anal carina. h. Uropodal diaeresis. i. Telson. j. First male pleopod. k. Second male pleopod. l. Eggs. m. Cephalothorax. n–o. Rostrum variations. MNHN-IU-2014-20865 (a–f, l), MNHN-IU-2014-20873 (g–h, j–k), MNHN- IU-2014-20864 (m), MNHN-IU-2014-20868 (i, n) and MNHN-IU-2014-20862 (o)." figureDoi="http://doi.org/10.5281/zenodo.3973453" httpUri="https://zenodo.org/record/3973453/files/figure.png" pageId="32" pageNumber="33">Fig. 9j</figureCitation>
+): endopod subtriangular, 2.1 times as long as wide, 0.19 times as long as exopod, with appendix interna placed at distal end. Pl2 (
+<figureCitation id="13462A6D6B4B5575FCAF745DFC148437" box="[874,965,542,569]" captionStart="Fig" captionStartId="31.[189,232,1861,1887]" captionTargetBox="[252,1333,268,1811]" captionTargetId="figure@31.[249,1337,265,1821]" captionTargetPageId="31" captionText="Fig. 9. Caridina pisuku sp. nov. a. First pereiopod. b. Second pereiopod. c. Third pereiopod. d. Fifth pereiopod. e. Dactylus of third pereiopod. f. Dactylus of fifth pereiopod. g. Pre-anal carina. h. Uropodal diaeresis. i. Telson. j. First male pleopod. k. Second male pleopod. l. Eggs. m. Cephalothorax. n–o. Rostrum variations. MNHN-IU-2014-20865 (a–f, l), MNHN-IU-2014-20873 (g–h, j–k), MNHN- IU-2014-20864 (m), MNHN-IU-2014-20868 (i, n) and MNHN-IU-2014-20862 (o)." figureDoi="http://doi.org/10.5281/zenodo.3973453" httpUri="https://zenodo.org/record/3973453/files/figure.png" pageId="32" pageNumber="33">Fig. 9k</figureCitation>
+): appendix masculina reaching 0.60 times length of endopod; appendix interna reaching 0.66 of appendix masculina.
+</paragraph>
+<paragraph id="8BC236E86B4B5575FF7874C7FD528493" blockId="32.[189,643,643,670]" box="[189,643,643,670]" pageId="32" pageNumber="33">
+PRE- ANAL CARINA (
+<figureCitation id="13462A6D6B4B5575FE5574C0FE398493" box="[400,488,643,670]" captionStart="Fig" captionStartId="31.[189,232,1861,1887]" captionTargetBox="[252,1333,268,1811]" captionTargetId="figure@31.[249,1337,265,1821]" captionTargetPageId="31" captionText="Fig. 9. Caridina pisuku sp. nov. a. First pereiopod. b. Second pereiopod. c. Third pereiopod. d. Fifth pereiopod. e. Dactylus of third pereiopod. f. Dactylus of fifth pereiopod. g. Pre-anal carina. h. Uropodal diaeresis. i. Telson. j. First male pleopod. k. Second male pleopod. l. Eggs. m. Cephalothorax. n–o. Rostrum variations. MNHN-IU-2014-20865 (a–f, l), MNHN-IU-2014-20873 (g–h, j–k), MNHN- IU-2014-20864 (m), MNHN-IU-2014-20868 (i, n) and MNHN-IU-2014-20862 (o)." figureDoi="http://doi.org/10.5281/zenodo.3973453" httpUri="https://zenodo.org/record/3973453/files/figure.png" pageId="32" pageNumber="33">
+Fig. 
+<quantity id="4C859B0D6B4B5575FE0274C0FE398493" box="[455,488,643,669]" metricMagnitude="-3" metricUnit="kg" metricValue="9.0" pageId="32" pageNumber="33" unit="g" value="9.0">9g</quantity>
+</figureCitation>
+). With spine.
+</paragraph>
+<paragraph id="8BC236E86B4B5575FF787485FCC884D1" blockId="32.[189,793,709,736]" box="[189,793,709,736]" pageId="32" pageNumber="33">
+UROPODAL DIAERESIS (
+<figureCitation id="13462A6D6B4B5575FE767486FDDA84EE" box="[435,523,709,736]" captionStart="Fig" captionStartId="31.[189,232,1861,1887]" captionTargetBox="[252,1333,268,1811]" captionTargetId="figure@31.[249,1337,265,1821]" captionTargetPageId="31" captionText="Fig. 9. Caridina pisuku sp. nov. a. First pereiopod. b. Second pereiopod. c. Third pereiopod. d. Fifth pereiopod. e. Dactylus of third pereiopod. f. Dactylus of fifth pereiopod. g. Pre-anal carina. h. Uropodal diaeresis. i. Telson. j. First male pleopod. k. Second male pleopod. l. Eggs. m. Cephalothorax. n–o. Rostrum variations. MNHN-IU-2014-20865 (a–f, l), MNHN-IU-2014-20873 (g–h, j–k), MNHN- IU-2014-20864 (m), MNHN-IU-2014-20868 (i, n) and MNHN-IU-2014-20862 (o)." figureDoi="http://doi.org/10.5281/zenodo.3973453" httpUri="https://zenodo.org/record/3973453/files/figure.png" pageId="32" pageNumber="33">Fig. 9h</figureCitation>
+). With 10–16 spinules.
+</paragraph>
+<paragraph id="8BC236E86B4B5575FF78754BFD21852F" blockId="32.[189,752,775,802]" box="[189,752,775,802]" pageId="32" pageNumber="33">
+EGGS (
+<figureCitation id="13462A6D6B4B5575FECD7544FE89852C" box="[264,344,775,802]" captionStart="Fig" captionStartId="31.[189,232,1861,1887]" captionTargetBox="[252,1333,268,1811]" captionTargetId="figure@31.[249,1337,265,1821]" captionTargetPageId="31" captionText="Fig. 9. Caridina pisuku sp. nov. a. First pereiopod. b. Second pereiopod. c. Third pereiopod. d. Fifth pereiopod. e. Dactylus of third pereiopod. f. Dactylus of fifth pereiopod. g. Pre-anal carina. h. Uropodal diaeresis. i. Telson. j. First male pleopod. k. Second male pleopod. l. Eggs. m. Cephalothorax. n–o. Rostrum variations. MNHN-IU-2014-20865 (a–f, l), MNHN-IU-2014-20873 (g–h, j–k), MNHN- IU-2014-20864 (m), MNHN-IU-2014-20868 (i, n) and MNHN-IU-2014-20862 (o)." figureDoi="http://doi.org/10.5281/zenodo.3973453" httpUri="https://zenodo.org/record/3973453/files/figure.png" pageId="32" pageNumber="33">Fig. 9l</figureCitation>
+). Size: 0.36–0.47 × 
+<quantity id="4C859B0D6B4B5575FD807544FD3D852F" box="[581,748,775,801]" metricMagnitude="-4" metricUnit="m" metricValue="2.85" metricValueMax="2.9" metricValueMin="2.8" pageId="32" pageNumber="33" unit="mm" value="0.285" valueMax="0.29" valueMin="0.28">0.28–0.29mm</quantity>
+.
+</paragraph>
+<paragraph id="8BC236E86B4B5575FF78750AFECC856D" blockId="32.[189,285,841,867]" box="[189,285,841,867]" pageId="32" pageNumber="33">
+<heading id="D08A81846B4B5575FF78750AFECC856D" bold="true" box="[189,285,841,867]" fontSize="11" level="3" pageId="32" pageNumber="33" reason="3">
+<emphasis id="B909EAFA6B4B5575FF78750AFECC856D" bold="true" box="[189,285,841,867]" pageId="32" pageNumber="33">Habitat</emphasis>
+</heading>
+</paragraph>
+<paragraph id="8BC236E86B4B5575FF78753BFA85859C" blockId="32.[189,1364,888,914]" box="[189,1364,888,914]" pageId="32" pageNumber="33">This species prefers fresh and well-oxygenated waters. It is found only in the lower course of rivers.</paragraph>
+<paragraph id="8BC236E86B4B5575FF7875F9FEA885DA" blockId="32.[189,377,954,980]" box="[189,377,954,980]" pageId="32" pageNumber="33">
+<heading id="D08A81846B4B5575FF7875F9FEA885DA" bold="true" box="[189,377,954,980]" fontSize="11" level="3" pageId="32" pageNumber="33" reason="3">
+<emphasis id="B909EAFA6B4B5575FF7875F9FEA885DA" bold="true" box="[189,377,954,980]" pageId="32" pageNumber="33">Colour pattern</emphasis>
+</heading>
+</paragraph>
+<paragraph id="8BC236E86B4B5575FF7875AAFEE8820D" blockId="32.[189,313,1001,1027]" box="[189,313,1001,1027]" pageId="32" pageNumber="33">Unknown.</paragraph>
+</subSubSection>
+<subSubSection id="C36765636B4B5575FF787268FEB28296" pageId="32" pageNumber="33" type="distribution">
+<paragraph id="8BC236E86B4B5575FF787268FE87824B" blockId="32.[189,342,1067,1093]" box="[189,342,1067,1093]" pageId="32" pageNumber="33">
+<heading id="D08A81846B4B5575FF787268FE87824B" bold="true" box="[189,342,1067,1093]" fontSize="11" level="3" pageId="32" pageNumber="33" reason="3">
+<emphasis id="B909EAFA6B4B5575FF787268FE87824B" bold="true" box="[189,342,1067,1093]" pageId="32" pageNumber="33">Distribution</emphasis>
+</heading>
+</paragraph>
+<paragraph id="8BC236E86B4B5575FF787219FEB28296" blockId="32.[189,1399,1114,1176]" pageId="32" pageNumber="33">
+This species was found on 
+<collectingRegion id="49B9F80A6B4B5575FDC37219FDBF827A" box="[518,622,1114,1140]" country="Solomon Islands" name="Choiseul" pageId="32" pageNumber="33">Choiseul</collectingRegion>
+Island (
+<collectingCountry id="F36A76786B4B5575FD147219FC4C827B" box="[721,925,1114,1141]" name="Solomon Islands" pageId="32" pageNumber="33">Solomon Islands</collectingCountry>
+), 
+<collectingCountry id="F36A76786B4B5575FC717219FBF7827A" box="[948,1062,1114,1140]" name="Indonesia" pageId="32" pageNumber="33">Indonesia</collectingCountry>
+(
+<collectingRegion id="49B9F80A6B4B5575FBFD7219FB16827A" box="[1080,1223,1114,1140]" country="Indonesia" name="Papua Barat" pageId="32" pageNumber="33">West Papua</collectingRegion>
+) and 
+<collectingCountry id="F36A76786B4B5575FACE7219FAA6827A" box="[1291,1399,1114,1140]" name="Australia" pageId="32" pageNumber="33">Australia</collectingCountry>
+(
+<collectingRegion id="49B9F80A6B4B5575FF00723EFE868296" box="[197,343,1149,1176]" country="Australia" name="Queensland" pageId="32" pageNumber="33">Queensland</collectingRegion>
+).
+</paragraph>
+</subSubSection>
+<subSubSection id="C36765636B4B5575FF7872FCFCEB80FC" pageId="32" pageNumber="33" type="discussion">
+<paragraph id="8BC236E86B4B5575FF7872FCFEFE82D7" blockId="32.[189,303,1215,1241]" box="[189,303,1215,1241]" pageId="32" pageNumber="33">
+<heading id="D08A81846B4B5575FF7872FCFEFE82D7" bold="true" box="[189,303,1215,1241]" fontSize="11" level="3" pageId="32" pageNumber="33" reason="3">
+<emphasis id="B909EAFA6B4B5575FF7872FCFEFE82D7" bold="true" box="[189,303,1215,1241]" pageId="32" pageNumber="33">Remarks</emphasis>
+</heading>
+</paragraph>
+<paragraph id="8BC236E86B4B5575FF7872ADFC71837A" blockId="32.[189,1399,1262,1396]" pageId="32" pageNumber="33">
+<taxonomicName id="4C7D4D6B6B4B5575FF7872ADFEAA8306" authority="Mazancourt &amp; Boseto &amp; Marquet &amp; Keith, 2020" authorityName="Mazancourt &amp; Boseto &amp; Marquet &amp; Keith" authorityYear="2020" box="[189,379,1262,1288]" class="Malacostraca" family="Atyidae" genus="Caridina" kingdom="Animalia" order="Decapoda" pageId="32" pageNumber="33" phylum="Arthropoda" rank="species" species="pisuku" status="sp. nov.">
+<emphasis id="B909EAFA6B4B5575FF7872ADFEAA8306" box="[189,379,1262,1288]" italics="true" pageId="32" pageNumber="33">Caridina pisuku</emphasis>
+</taxonomicName>
+<taxonomicNameLabel id="A23A57816B4B5575FE4772ACFE0D8307" box="[386,476,1263,1289]" pageId="32" pageNumber="33" rank="species">sp. nov.</taxonomicNameLabel>
+looks like 
+<taxonomicName id="4C7D4D6B6B4B5575FD9872ACFD3E8306" baseAuthorityName="de Mazancourt, Rogers &amp; Keith" baseAuthorityYear="2018" box="[605,751,1262,1289]" class="Malacostraca" family="Atyidae" genus="Caridina" kingdom="Animalia" order="Decapoda" pageId="32" pageNumber="33" phylum="Arthropoda" rank="species" species="variabilis">
+<emphasis id="B909EAFA6B4B5575FD9872ACFD3E8306" box="[605,751,1262,1289]" italics="true" pageId="32" pageNumber="33">C. variabilis</emphasis>
+</taxonomicName>
+and 
+<taxonomicName id="4C7D4D6B6B4B5575FCED72ACFC2A8306" baseAuthorityName="de Mazancourt, Marquet &amp; Keith" baseAuthorityYear="2018" box="[808,1019,1262,1289]" class="Malacostraca" family="Atyidae" genus="Caridina" kingdom="Animalia" order="Decapoda" pageId="32" pageNumber="33" phylum="Arthropoda" rank="species" species="variabilirostris">
+<emphasis id="B909EAFA6B4B5575FCED72ACFC2A8306" box="[808,1019,1262,1289]" italics="true" pageId="32" pageNumber="33">C. variabilirostris</emphasis>
+</taxonomicName>
+from 
+<collectingCountry id="F36A76786B4B5575FB8772ADFB178306" box="[1090,1222,1262,1288]" name="Micronesia" pageId="32" pageNumber="33">Micronesia</collectingCountry>
+by the number of teeth and their placement on the rostrum, the proportions between the joints of pereiopods and egg size. However, it can be distinguished by the presence of a spine on the pre-anal carina (vs the pre-anal carina always unarmed in 
+<taxonomicName id="4C7D4D6B6B4B5575FE347319FD52837D" baseAuthorityName="de Mazancourt, Rogers &amp; Keith" baseAuthorityYear="2018" box="[497,643,1369,1396]" class="Malacostraca" family="Atyidae" genus="Caridina" kingdom="Animalia" order="Decapoda" pageId="32" pageNumber="33" phylum="Arthropoda" rank="species" species="variabilis">
+<emphasis id="B909EAFA6B4B5575FE347319FD52837D" box="[497,643,1369,1396]" italics="true" pageId="32" pageNumber="33">C. variabilis</emphasis>
+</taxonomicName>
+and 
+<taxonomicName id="4C7D4D6B6B4B5575FD787319FC41837D" baseAuthorityName="de Mazancourt, Marquet &amp; Keith" baseAuthorityYear="2018" box="[701,912,1369,1396]" class="Malacostraca" family="Atyidae" genus="Caridina" kingdom="Animalia" order="Decapoda" pageId="32" pageNumber="33" phylum="Arthropoda" rank="species" species="variabilirostris">
+<emphasis id="B909EAFA6B4B5575FD787319FC41837D" box="[701,912,1369,1396]" italics="true" pageId="32" pageNumber="33">C. variabilirostris</emphasis>
+</taxonomicName>
+).
+</paragraph>
+<paragraph id="8BC236E86B4B5575FF7873D8FD11804B" blockId="32.[189,1399,1435,1605]" pageId="32" pageNumber="33">
+<taxonomicName id="4C7D4D6B6B4B5575FF7873D8FEAC83BB" authority="Mazancourt &amp; Boseto &amp; Marquet &amp; Keith, 2020" authorityName="Mazancourt &amp; Boseto &amp; Marquet &amp; Keith" authorityYear="2020" box="[189,381,1435,1461]" class="Malacostraca" family="Atyidae" genus="Caridina" kingdom="Animalia" order="Decapoda" pageId="32" pageNumber="33" phylum="Arthropoda" rank="species" species="pisuku" status="sp. nov.">
+<emphasis id="B909EAFA6B4B5575FF7873D8FEAC83BB" box="[189,381,1435,1461]" italics="true" pageId="32" pageNumber="33">Caridina pisuku</emphasis>
+</taxonomicName>
+<taxonomicNameLabel id="A23A57816B4B5575FE4373DFFE3283B8" box="[390,483,1436,1462]" pageId="32" pageNumber="33" rank="species">sp. nov.</taxonomicNameLabel>
+is most similar to 
+<taxonomicName id="4C7D4D6B6B4B5575FD0273DFFB9A83BB" authority="De Man, 1908" authorityName="De Man" authorityYear="1908" box="[711,1099,1435,1462]" class="Malacostraca" family="Atyidae" genus="Caridina" kingdom="Animalia" order="Decapoda" pageId="32" pageNumber="33" phylum="Arthropoda" rank="species" species="brachydactyla">
+<emphasis id="B909EAFA6B4B5575FD0273DFFC4283BB" box="[711,915,1435,1462]" italics="true" pageId="32" pageNumber="33">C. brachydactyla</emphasis>
+De Man, 1908
+</taxonomicName>
+, 
+<taxonomicName id="4C7D4D6B6B4B5575FB9F73DFFEE983D7" authority="Liang &amp; Yan, 1977" authorityName="Liang &amp; Yan" authorityYear="1977" class="Malacostraca" family="Atyidae" genus="Caridina" kingdom="Animalia" order="Decapoda" pageId="32" pageNumber="33" phylum="Arthropoda" rank="species" species="elongapoda">
+<emphasis id="B909EAFA6B4B5575FB9F73DFFAD883BB" box="[1114,1289,1435,1462]" italics="true" pageId="32" pageNumber="33">C. elongapoda</emphasis>
+<bibRefCitation id="EFEC4B196B4B5575FAD773D8FEE983D7" author="Liang X. - Q. &amp; Yan S. - L." pageId="32" pageNumber="33" pagination="219 - 225" refId="ref46492" refString="Liang X. - Q. &amp; Yan S. - L. 1977. New species and subspecies of Caridina (Decapoda, Caridea) from Fukien, China. Acta Hydrobiologia Sinica 6: 219 - 225." type="journal article" year="1977">Liang &amp; Yan, 1977</bibRefCitation>
+</taxonomicName>
+, 
+<taxonomicName id="4C7D4D6B6B4B5575FE8373FCFD8883D7" authority="Roux, 1911" authorityName="Roux" authorityYear="1911" box="[326,601,1471,1497]" class="Malacostraca" family="Atyidae" genus="Caridina" kingdom="Animalia" order="Decapoda" pageId="32" pageNumber="33" phylum="Arthropoda" rank="species" species="mertoni">
+<emphasis id="B909EAFA6B4B5575FE8373FCFE1583D7" box="[326,452,1471,1497]" italics="true" pageId="32" pageNumber="33">C. mertoni</emphasis>
+<bibRefCitation id="EFEC4B196B4B5575FE0873FCFD8883D7" author="Roux J." box="[461,601,1471,1497]" pageId="32" pageNumber="33" pagination="81 - 106" refId="ref48472" refString="Roux J. 1911. Nouvelles especes de decapodes d'eau douce provenant de Papouasie. Notes from the Leyden Museum 33: 81 - 106." type="journal article" year="1911">Roux, 1911</bibRefCitation>
+</taxonomicName>
+, 
+<taxonomicName id="4C7D4D6B6B4B5575FDA373FCFC6783D7" authority="Kemp, 1918" authorityName="Kemp" authorityYear="1918" box="[614,950,1471,1497]" class="Malacostraca" family="Atyidae" genus="Caridina" kingdom="Animalia" order="Decapoda" pageId="32" pageNumber="33" phylum="Arthropoda" rank="species" species="peninsularis">
+<emphasis id="B909EAFA6B4B5575FDA373FCFCCA83D7" box="[614,795,1471,1497]" italics="true" pageId="32" pageNumber="33">C. peninsularis</emphasis>
+<bibRefCitation id="EFEC4B196B4B5575FCE673FCFC6783D7" author="Kemp S." box="[803,950,1471,1497]" pageId="32" pageNumber="33" pagination="274 - 293" refId="ref46314" refString="Kemp S. 1918. Zoological results of a tour in the Far East. Crustacea Decapoda and Stomatopoda. Memoirs of the Royal Asiatic Society of Bengal 6: 274 - 293." type="journal article" year="1918">Kemp, 1918</bibRefCitation>
+</taxonomicName>
+and 
+<taxonomicName id="4C7D4D6B6B4B5575FC3473FCFA8083D7" authority="Holthuis, 1978" authorityName="Holthuis" authorityYear="1978" box="[1009,1361,1471,1497]" class="Malacostraca" family="Atyidae" genus="Caridina" kingdom="Animalia" order="Decapoda" pageId="32" pageNumber="33" phylum="Arthropoda" rank="species" species="sundanella">
+<emphasis id="B909EAFA6B4B5575FC3473FCFB4783D7" box="[1009,1174,1471,1497]" italics="true" pageId="32" pageNumber="33">C. sundanella</emphasis>
+<bibRefCitation id="EFEC4B196B4B5575FB5B73FCFA8083D7" author="Holthuis L. B." box="[1182,1361,1471,1497]" pageId="32" pageNumber="33" pagination="209 - 224" refId="ref45927" refString="Holthuis L. B. 1978. A collection of decapod Crustacea from Sumba, Lesser Sunda Islands, Indonesia. Zoologische Verhandelingen Uitgegeven door het Rijksmuseum van Natuurlijke Historie te Leiden 53 (19): 209 - 224." type="journal article" year="1978">Holthuis, 1978</bibRefCitation>
+</taxonomicName>
+. In contrast to 
+<taxonomicName id="4C7D4D6B6B4B5575FE8773A0FE2083F2" authorityName="Liang &amp; Yan" authorityYear="1977" box="[322,497,1506,1533]" class="Malacostraca" family="Atyidae" genus="Caridina" kingdom="Animalia" order="Decapoda" pageId="32" pageNumber="33" phylum="Arthropoda" rank="species" species="elongapoda">
+<emphasis id="B909EAFA6B4B5575FE8773A0FE2083F2" box="[322,497,1506,1533]" italics="true" pageId="32" pageNumber="33">C. elongapoda</emphasis>
+</taxonomicName>
+, 
+<taxonomicName id="4C7D4D6B6B4B5575FDC473A0FDAE83F2" authorityName="Roux" authorityYear="1911" box="[513,639,1507,1533]" class="Malacostraca" family="Atyidae" genus="Caridina" kingdom="Animalia" order="Decapoda" pageId="32" pageNumber="33" phylum="Arthropoda" rank="species" species="mertoni">
+<emphasis id="B909EAFA6B4B5575FDC473A0FDAE83F2" box="[513,639,1507,1533]" italics="true" pageId="32" pageNumber="33">C. mertoni</emphasis>
+</taxonomicName>
+and 
+<taxonomicName id="4C7D4D6B6B4B5575FD7E73A0FCB183F2" authorityName="Holthuis" authorityYear="1978" box="[699,864,1506,1533]" class="Malacostraca" family="Atyidae" genus="Caridina" kingdom="Animalia" order="Decapoda" pageId="32" pageNumber="33" phylum="Arthropoda" rank="species" species="sundanella">
+<emphasis id="B909EAFA6B4B5575FD7E73A0FCB183F2" box="[699,864,1506,1533]" italics="true" pageId="32" pageNumber="33">C. sundanella</emphasis>
+</taxonomicName>
+, our new species has a spine on the pre-anal carina, like in 
+<taxonomicName id="4C7D4D6B6B4B5575FEA37044FDE1802E" authorityName="De Man" authorityYear="1908" box="[358,560,1542,1569]" class="Malacostraca" family="Atyidae" genus="Caridina" kingdom="Animalia" order="Decapoda" pageId="32" pageNumber="33" phylum="Arthropoda" rank="species" species="brachydactyla">
+<emphasis id="B909EAFA6B4B5575FEA37044FDE1802E" box="[358,560,1542,1569]" italics="true" pageId="32" pageNumber="33">C. brachydactyla</emphasis>
+</taxonomicName>
+and 
+<taxonomicName id="4C7D4D6B6B4B5575FDAF7044FCCC802E" authorityName="Kemp" authorityYear="1918" box="[618,797,1542,1569]" class="Malacostraca" family="Atyidae" genus="Caridina" kingdom="Animalia" order="Decapoda" pageId="32" pageNumber="33" phylum="Arthropoda" rank="species" species="peninsularis">
+<emphasis id="B909EAFA6B4B5575FDAF7044FCCC802E" box="[618,797,1542,1569]" italics="true" pageId="32" pageNumber="33">C. peninsularis</emphasis>
+</taxonomicName>
+, but its P2 chela is stouter 2.2–2.6 times as long as wide (vs 2.7–3.2 and 2.8–3.0, respectively).
+</paragraph>
+<paragraph id="8BC236E86B4B5575FF78702FFCEB80FC" blockId="32.[189,1399,1644,1778]" pageId="32" pageNumber="33">
+<taxonomicName id="4C7D4D6B6B4B5575FF78702FFEAD8088" authority="Mazancourt &amp; Boseto &amp; Marquet &amp; Keith, 2020" authorityName="Mazancourt &amp; Boseto &amp; Marquet &amp; Keith" authorityYear="2020" box="[189,380,1644,1670]" class="Malacostraca" family="Atyidae" genus="Caridina" kingdom="Animalia" order="Decapoda" pageId="32" pageNumber="33" phylum="Arthropoda" rank="species" species="pisuku" status="sp. nov.">
+<emphasis id="B909EAFA6B4B5575FF78702FFEAD8088" box="[189,380,1644,1670]" italics="true" pageId="32" pageNumber="33">Caridina pisuku</emphasis>
+</taxonomicName>
+<taxonomicNameLabel id="A23A57816B4B5575FE41702FFE0E8088" box="[388,479,1644,1670]" pageId="32" pageNumber="33" rank="species">sp. nov.</taxonomicNameLabel>
+looks like 
+<taxonomicName id="4C7D4D6B6B4B5575FDA6702FFD398088" authority="Mazancourt &amp; Boseto &amp; Marquet &amp; Keith, 2020" authorityName="Mazancourt &amp; Boseto &amp; Marquet &amp; Keith" authorityYear="2020" box="[611,744,1644,1670]" class="Malacostraca" family="Atyidae" genus="Caridina" kingdom="Animalia" order="Decapoda" pageId="32" pageNumber="33" phylum="Arthropoda" rank="species" species="choiseul" status="sp. nov.">
+<emphasis id="B909EAFA6B4B5575FDA6702FFD398088" box="[611,744,1644,1670]" italics="true" pageId="32" pageNumber="33">C. choiseul</emphasis>
+</taxonomicName>
+<taxonomicNameLabel id="A23A57816B4B5575FD35702FFC9A8088" box="[752,843,1644,1670]" pageId="32" pageNumber="33" rank="species">sp. nov.</taxonomicNameLabel>
+by the number of teeth and their placement on the rostrum, the proportions between the joints of pereiopods, and the size of the eggs. However, the pre-anal carina always has a spine (vs the pre-anal with a spine or not in 
+<taxonomicName id="4C7D4D6B6B4B5575FBE170F0FB7B80C3" authority="Mazancourt &amp; Boseto &amp; Marquet &amp; Keith, 2020" authorityName="Mazancourt &amp; Boseto &amp; Marquet &amp; Keith" authorityYear="2020" box="[1060,1194,1715,1741]" class="Malacostraca" family="Atyidae" genus="Caridina" kingdom="Animalia" order="Decapoda" pageId="32" pageNumber="33" phylum="Arthropoda" rank="species" species="choiseul" status="sp. nov.">
+<emphasis id="B909EAFA6B4B5575FBE170F0FB7B80C3" box="[1060,1194,1715,1741]" italics="true" pageId="32" pageNumber="33">C. choiseul</emphasis>
+</taxonomicName>
+<taxonomicNameLabel id="A23A57816B4B5575FB7770F0FADE80C3" box="[1202,1295,1715,1741]" pageId="32" pageNumber="33" rank="species">sp. nov.</taxonomicNameLabel>
+) and the pterygostomial margin is rounded (vs subrectangular).
+</paragraph>
+</subSubSection>
+</treatment>
+</document>
