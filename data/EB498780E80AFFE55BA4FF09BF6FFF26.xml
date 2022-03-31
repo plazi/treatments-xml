@@ -1,0 +1,653 @@
+<document id="ED417310C4BDD4D100A45E3C4E44BFC7" ID-DOI="http://doi.org/10.5281/zenodo.4914604" ID-GBIF-Dataset="cdd9688e-9a3f-4602-992e-1f8693caab9b" ID-GBIF-Taxon="182639266" ID-ISSN="1175-5326" ID-Zenodo-Dep="4914604" ID-ZooBank="E78473FE-5662-409A-90C2-7C4912DC57E8" _generate="added" approvalRequired="44" approvalRequired_for_bibRefs="2" approvalRequired_for_taxonomicNames="22" approvalRequired_for_treatments="20" checkinTime="1621408010350" checkinUser="plazi" docAuthor="Bartsch, Daniel, Pühringer, Franz, Milla, Liz, Lingenhöle, Arthur &amp; Kallies, Axel" docDate="2021" docId="EB498780E80AFFE55BA4FF09BF6FFF26" docLanguage="en" docName="zootaxa.4972.1.1.pdf" docOrigin="Zootaxa 4972 (1)" docStyle="DocumentStyle:5EBBA59367AD13919D70D935FA04F6A3.9:Zootaxa.2013-.monograph" docStyleId="5EBBA59367AD13919D70D935FA04F6A3" docStyleName="Zootaxa.2013-.monograph" docStyleVersion="9" docTitle="Pyropteron borreyi" docType="treatment" docVersion="5" lastPageId="60" lastPageNumber="60" masterDocId="1770FFF8E831FFD95B33FF9EBE70FFDF" masterDocTitle="A molecular phylogeny and revision of the genus Pyropteron Newman, 1832 (Lepidoptera, Sesiidae) reveals unexpected diversity and frequent hostplant switch as a driver of speciation" masterLastPageNumber="75" masterPageNumber="1" pageId="59" pageNumber="60" updateTime="1632098017424" updateUser="ExternalLinkService">
+<mods:mods id="7E3F3D0FFA716A0E02C352060169AA48" xmlns:mods="http://www.loc.gov/mods/v3">
+<mods:titleInfo id="35249D9D7F48A1096DCCBCCD1F94ECD3">
+<mods:title id="0EBBA2D2F2165A99941D221450EBE402">A molecular phylogeny and revision of the genus Pyropteron Newman, 1832 (Lepidoptera, Sesiidae) reveals unexpected diversity and frequent hostplant switch as a driver of speciation</mods:title>
+</mods:titleInfo>
+<mods:name id="9855AAB6712053908BD0B9E9C74E6137" type="personal">
+<mods:role id="A797F95DA8C3E86677A547964C679E84">
+<mods:roleTerm id="D300B013EC36508C15BA889A0610734D">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="E72C453D1FE84DB0D37F847027F52C15">Bartsch, Daniel</mods:namePart>
+<mods:nameIdentifier id="5A3F3054BC205A5EBA2C787109F76A10" type="email">daniel.bartsch@smns-bw.de</mods:nameIdentifier>
+</mods:name>
+<mods:name id="E2F1F5A9E290EB9192183E53D70AFBA6" type="personal">
+<mods:role id="5AA600D3089C7EF25E4DEF94FD9518D4">
+<mods:roleTerm id="AB05B3FDFDCEE62EA494893C15C222F9">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="C3C572745E3A97ED59C3E3FD1FCEB818">Pühringer, Franz</mods:namePart>
+<mods:nameIdentifier id="5F1C38233284B3E72123E6FA2B88D3C9" type="email">f.puehringer@sesiidae.net</mods:nameIdentifier>
+</mods:name>
+<mods:name id="64633FE9AB4EEF5C534C4C742D697EA5" type="personal">
+<mods:role id="D6CF6AED0513B50121B573479398E4AA">
+<mods:roleTerm id="9DB9AA6590AC7DDBA256BF28FDA45A4A">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="285EA56997F1A632CD782AE70CE47633">Milla, Liz</mods:namePart>
+<mods:nameIdentifier id="011D45CDA809F69B4D2D144F47667019" type="email">liz.milla@csiro.au</mods:nameIdentifier>
+</mods:name>
+<mods:name id="2945E925A5AB808F075C5CBB19CA7C21" type="personal">
+<mods:role id="76AEF655809F914372B6C907062154DF">
+<mods:roleTerm id="DD8A856A089F1C12EC9C96251250A6CB">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="C3AA3491833647D2B5998F5BDC5EF06B">Lingenhöle, Arthur</mods:namePart>
+<mods:nameIdentifier id="A98A776753A0A3B94CD8A05D4278F086" type="email">arthur.lingenhöle@gmx.de</mods:nameIdentifier>
+</mods:name>
+<mods:name id="5537CBFF4EF5F74D9D4922586BFEC649" type="personal">
+<mods:role id="CC98CE53CB06B25ADF262B79B4CCE4C4">
+<mods:roleTerm id="CA485D021EED9C70A78F63029817D695">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="9A038C866F3BA894AD937D27244E3B63">Kallies, Axel</mods:namePart>
+<mods:nameIdentifier id="2CD78D522A42986C45B2575099CC6423" type="ORCID">0000-0002-3778-2187</mods:nameIdentifier>
+<mods:nameIdentifier id="8FF6FE7B3ABB9039F22D21E6CBBF7B4D" type="email">axel.kallies@unimelb.edu.au</mods:nameIdentifier>
+</mods:name>
+<mods:typeOfResource id="9B5E55DB0060B6BE1D7A76BDCFC77809">text</mods:typeOfResource>
+<mods:relatedItem id="F99A52D4F4089E6E0F606047DE21BCBF" type="host">
+<mods:titleInfo id="7E51A51CC09F61FA111B7BB946A8B2D1">
+<mods:title id="4A2AF848941C2AA03EC923DA8F7AABB9">Zootaxa</mods:title>
+</mods:titleInfo>
+<mods:part id="692C64EA0F8B3F46465A9B3B6234E237">
+<mods:date id="4CA78D88E2D7A9D3EB0369E8604D8237">2021</mods:date>
+<mods:detail id="14F4B1B69B272075A24BD042109F8AC6" type="pubDate">
+<mods:number id="5C77471CAABA02D364B17DC78CD47FF1">2021-05-18</mods:number>
+</mods:detail>
+<mods:detail id="20D9C03BCE12FEEA525F9FD07D921130" type="volume">
+<mods:number id="8E16252BA39D4FFB46E29F35EA331029">4972</mods:number>
+</mods:detail>
+<mods:detail id="B525B2AAE2D776EEF2098AC7B42D7730" type="issue">
+<mods:number id="9D8561400771DDC80204B99284A7D265">1</mods:number>
+</mods:detail>
+<mods:extent id="5B7E4E43093EF0E22765183D25A2BF67" unit="page">
+<mods:start id="16A6F5FFD033FD6EC3725FECBE5602D1">1</mods:start>
+<mods:end id="136F9E614D536F64B1931BD460F55324">75</mods:end>
+</mods:extent>
+</mods:part>
+</mods:relatedItem>
+<mods:classification id="62916DCC1093FA3EB27C3384D6D200A5">journal article</mods:classification>
+<mods:identifier id="4BC8C70712D8B31698C89AD9A88C389F" type="DOI">https://doi.org/10.11646/zootaxa.4972.1.1</mods:identifier>
+<mods:identifier id="5676BA6C2923483899F56FA98FDE1F6B" type="GBIF-Dataset">cdd9688e-9a3f-4602-992e-1f8693caab9b</mods:identifier>
+<mods:identifier id="0C6943CBF39427BB7B909C681264AF5F" type="ISSN">1175-5326</mods:identifier>
+<mods:identifier id="0D825093E9F2BDCF17071D105230BA61" type="Zenodo-Dep">4771798</mods:identifier>
+<mods:identifier id="08FCEF4AC4CCCE96E35EAB0CD940B9BC" type="ZooBank">E78473FE-5662-409A-90C2-7C4912DC57E8</mods:identifier>
+</mods:mods>
+<treatment id="EB498780E80AFFE55BA4FF09BF6FFF26" ID-DOI="http://doi.org/10.5281/zenodo.4914604" ID-GBIF-Taxon="182639266" ID-Zenodo-Dep="4914604" LSID="urn:lsid:plazi:treatment:EB498780E80AFFE55BA4FF09BF6FFF26" httpUri="http://treatment.plazi.org/id/EB498780E80AFFE55BA4FF09BF6FFF26" lastPageId="60" lastPageNumber="60" pageId="59" pageNumber="60">
+<subSubSection id="2BFA651DE80AFFE25BA4FF09BC31FF6E" box="[151,577,151,178]" pageId="59" pageNumber="60" type="nomenclature">
+<paragraph id="635F3696E80AFFE25BA4FF09BC31FF6E" blockId="59.[151,577,151,213]" box="[151,577,151,178]" pageId="59" pageNumber="60">
+<heading id="381781FAE80AFFE25BA4FF09BC31FF6E" bold="true" box="[151,577,151,178]" fontSize="11" level="2" pageId="59" pageNumber="60" reason="4">
+<taxonomicName id="A4E04D15E80AFFE25BA4FF09BC31FF6E" authority="(Le Cerf, 1922)" baseAuthorityName="Le Cerf" baseAuthorityYear="1922" box="[151,577,151,178]" class="Insecta" family="Sesiidae" genus="Pyropteron" kingdom="Animalia" order="Lepidoptera" pageId="59" pageNumber="60" phylum="Arthropoda" rank="species" species="borreyi">
+<emphasis id="5194EA84E80AFFE25BA4FF09BC31FF6E" bold="true" box="[151,577,151,178]" pageId="59" pageNumber="60">
+<emphasis id="5194EA84E80AFFE25BA4FF09BF0CFF6D" bold="true" box="[151,380,151,178]" italics="true" pageId="59" pageNumber="60">Pyropteron borreyi</emphasis>
+(
+<bibRefCitation id="07714B67E80AFFE25ABFFF09BC49FF6E" author="Le Cerf, F." box="[396,569,151,177]" pageId="59" pageNumber="60" pagination="13 - 403" refId="ref59281" refString="Le Cerf, F. (1922) Les Lepidopteres du Maroc. Oberthur, Etudes de Lepidopterologie Comparee, 19 (1), 13 - 403." type="journal article" year="1922">Le Cerf, 1922</bibRefCitation>
+)
+</emphasis>
+</taxonomicName>
+</heading>
+</paragraph>
+</subSubSection>
+<subSubSection id="2BFA651DE80AFFE25BA4FF25BFE7FF0A" box="[151,407,187,213]" pageId="59" pageNumber="60" type="description">
+<paragraph id="635F3696E80AFFE25BA4FF25BFE7FF0A" blockId="59.[151,577,151,213]" box="[151,407,187,213]" pageId="59" pageNumber="60">
+(
+<figureCitation id="FBDB2A13E80AFFE25BACFF25BF50FF0A" box="[159,288,187,213]" captionStart="FIGURES 39–46" captionStartId="18.[151,264,1772,1796]" captionTargetBox="[151,1436,181,1748]" captionTargetId="figure-27@18.[151,1436,181,1748]" captionTargetPageId="18" captionText="FIGURES 39–46. Pyropteron Biology. 39. Armeria canescens, hostplant of Pyropteron hellenicum, Greece, Epirus, Timfi Mts, Gamila. 40–41. Pyropteron borreyi, (40) female, Morocco, High Atlas, Oukaimeden, (41) male, Morocco, Middle Alas, Col du Zad. 42–43. Pyropteron maroccana, males, Morocco, High Atlas, Oukaimeden (images FP). 44. Pyropteron hispanica, female, reared, Spain, Toledo, Buenasbodas. 45–46. Pyropteron koschwitzi, (45) male, reared, Spain, Aranjuez, (46) female, reared, Spain, Castile, Navacepedilla (images Zdeněk Laštůvka)." figureDoi="http://doi.org/10.5281/zenodo.4771841" httpUri="https://zenodo.org/record/4771841/files/figure.png" pageId="59" pageNumber="60">Figs 40, 41</figureCitation>
+, 
+<figureCitation id="FBDB2A13E80AFFE25A1FFF25BFFFFF0A" box="[300,399,187,213]" captionStart="FIGURES 191–205" captionStartId="62.[151,264,1771,1795]" captionTargetBox="[164,1429,184,1741]" captionTargetId="figure-27@62.[151,1435,181,1748]" captionTargetPageId="62" captionText="FIGURES 191–205. Pyropteron species. 191–193. Pyropteron maroccana, (191–192) ♂, (193) ♀, Morocco, High Atlas. 194–199. Pyropteron borreyi, (194) ♂, (195) ♀, Morocco, Middle Atlas (from Limonium), (196) ♂, Morocco, Middle Atlas, (197–198) ♂, (199) ♀, Morocco, High Atlas (from Armeria). 200–202. Pyropteron hellenicum sp. nov., (200–201) ♂ holotype, (202) ♂, paratype, Greece, Evrytania. 203–205. Pyropteron meriaeformis, (203–204) ♂, paratype, (205) ♀, France, Pyrenees. Scale 10mm." figureDoi="http://doi.org/10.5281/zenodo.4771921" httpUri="https://zenodo.org/record/4771921/files/figure.png" pageId="59" pageNumber="60">194–199</figureCitation>
+)
+</paragraph>
+</subSubSection>
+<subSubSection id="2BFA651DE80AFFE25BA4FE9EBC37FD8D" pageId="59" pageNumber="60" type="reference_group">
+<paragraph id="635F3696E80AFFE25BA4FE9EBFB5FEE9" blockId="59.[151,1436,256,341]" pageId="59" pageNumber="60">
+<taxonomicName id="A4E04D15E80AFFE25BA4FE9EBC52FEC7" authority="Le Cerf, 1922" authorityName="Le Cerf" authorityYear="1922" box="[151,546,256,280]" class="Insecta" family="Sesiidae" genus="Chamaesphecia" kingdom="Animalia" order="Lepidoptera" pageId="59" pageNumber="60" phylum="Arthropoda" rank="species" species="borreyi">
+<emphasis id="5194EA84E80AFFE25BA4FE9EBFFAFEC7" box="[151,394,256,280]" italics="true" pageId="59" pageNumber="60">Chamaesphecia borreyi</emphasis>
+<bibRefCitation id="07714B67E80AFFE25AA3FE9EBC52FEC7" author="Le Cerf, F." box="[400,546,256,280]" pageId="59" pageNumber="60" pagination="13 - 403" refId="ref59281" refString="Le Cerf, F. (1922) Les Lepidopteres du Maroc. Oberthur, Etudes de Lepidopterologie Comparee, 19 (1), 13 - 403." type="journal article" year="1922">Le Cerf, 1922</bibRefCitation>
+</taxonomicName>
+: 
+<location id="663F604DE80AFFE2591EFE9FBDC8FEC7" LSID="urn:lsid:plazi:treatment:EB498780E80AFFE55BA4FF09BF6FFF26:663F604DE80AFFE2591EFE9FBDC8FEC7" box="[557,952,256,282]" country="Morocco" name="Etudes de Lepidopterologie Comparee" pageId="59" pageNumber="60">Études de Lépidoptérologie Comparée</location>
+, 19 (1): 133. 
+<typeStatus id="BC5B8834E80AFFE25F72FE9EBADAFEC7" box="[1089,1194,256,280]" pageId="59" pageNumber="60">Lectotype</typeStatus>
+: 
+<specimenCount id="75E6FD1FE80AFFE25F87FE9EBAB9FEC8" box="[1204,1225,256,279]" pageId="59" pageNumber="60" type="male">♂</specimenCount>
+, 
+<collectingCountry id="1BF77606E80AFFE25FE7FE9EBB5FFEC8" box="[1236,1327,256,279]" name="Morocco" pageId="59" pageNumber="60">Morocco</collectingCountry>
+east, Chabat-el-Hamma (MNHN).
+</paragraph>
+<paragraph id="635F3696E80AFFE25BA4FEA0BA18FE8A" blockId="59.[151,1436,256,341]" box="[151,1128,317,341]" pageId="59" pageNumber="60">
+<taxonomicName id="A4E04D15E80AFFE25BA4FEA0BC57FE8A" authority="sensu Kallies, 1999" authorityName="sensu Kallies" authorityYear="1999" box="[151,551,317,341]" class="Insecta" family="Sesiidae" genus="Pyropteron" kingdom="Animalia" order="Lepidoptera" pageId="59" pageNumber="60" phylum="Arthropoda" rank="species" species="atlantis">
+<emphasis id="5194EA84E80AFFE25BA4FEA0BF2BFE8A" box="[151,347,317,341]" italics="true" pageId="59" pageNumber="60">Pyropteron atlantis</emphasis>
+sensu 
+<bibRefCitation id="07714B67E80AFFE25A93FEA3BC57FE8A" author="Kallies, A." box="[416,551,317,341]" pageId="59" pageNumber="60" pagination="82 - 114" refId="ref57993" refString="Kallies, A. (1999) Revision of the south-western Palaearctic species of Synansphecia (Sesiidae). Nota lepidopterologica, 22 (2), 82 - 114." type="journal article" year="1999">Kallies, 1999</bibRefCitation>
+</taxonomicName>
+(in part); nec 
+<bibRefCitation id="07714B67E80AFFE25984FEA3BDDBFE8A" author="Schwingenschuss, L." box="[695,939,317,341]" pageId="59" pageNumber="60" pagination="1 - 163" refId="ref60802" refString="Schwingenschuss, L. (1935) Aegeriidae. In Zerny, H.: Die Lepidopterenfauna des Grossen Atlas in Marokko und seiner Randgebiete. Memoires de la Societe des Sciences Naturelles du Maroc, 42, 1 - 163." type="journal article" year="1935">Schwingenschuss, 1935</bibRefCitation>
+, misidentification.
+</paragraph>
+<paragraph id="635F3696E80AFFE25BA4FE1DBC37FD8D" blockId="59.[151,1437,387,2034]" pageId="59" pageNumber="60">
+This species is an endemic of the Atlas Mts in 
+<collectingCountry id="1BF77606E80AFFE259AEFE1ABD76FE41" box="[669,774,388,414]" name="Morocco" pageId="59" pageNumber="60">Morocco</collectingCountry>
+. It was revised by 
+<bibRefCitation id="07714B67E80AFFE258E7FE1DBA04FE42" author="Kallies, A." box="[980,1140,387,413]" pageId="59" pageNumber="60" pagination="82 - 114" refId="ref57993" refString="Kallies, A. (1999) Revision of the south-western Palaearctic species of Synansphecia (Sesiidae). Nota lepidopterologica, 22 (2), 82 - 114." type="journal article" year="1999">Kallies (1999)</bibRefCitation>
+who also figured the male and female genitalia. It was thought to be confined to the Middle Atlas mountain range with larvae feeding in the roots of 
+<taxonomicName id="A4E04D15E80AFFE25BCAFE52BF1BFE3A" box="[249,363,460,485]" class="Magnoliopsida" family="Plumbaginaceae" genus="Limonium" kingdom="Plantae" order="Caryophyllales" pageId="59" pageNumber="60" phylum="Tracheophyta" rank="genus">
+<emphasis id="5194EA84E80AFFE25BCAFE52BF1BFE3A" box="[249,363,460,485]" italics="true" pageId="59" pageNumber="60">Limonium</emphasis>
+</taxonomicName>
+. Similar populations feeding in 
+<taxonomicName id="A4E04D15E80AFFE259EDFE55BD4BFE3A" baseAuthorityName="Lastuvka &amp; Lastuvka" baseAuthorityYear="2007" box="[734,827,459,485]" class="Magnoliopsida" family="Plumbaginaceae" genus="Armeria" kingdom="Plantae" order="Caryophyllales" pageId="59" pageNumber="60" phylum="Tracheophyta" rank="genus">
+<emphasis id="5194EA84E80AFFE259EDFE55BD4BFE3A" box="[734,827,459,485]" italics="true" pageId="59" pageNumber="60">Armeria</emphasis>
+</taxonomicName>
+and common at high altitudes of the High Atlas Mts were considered 
+<taxonomicName id="A4E04D15E80AFFE25A6AFE6EBFBAFDD6" authorityName="sensu Kallies" authorityYear="1999" box="[345,458,495,521]" class="Insecta" family="Sesiidae" genus="Pyropteron" kingdom="Animalia" order="Lepidoptera" pageId="59" pageNumber="60" phylum="Arthropoda" rank="species" species="atlantis">
+<emphasis id="5194EA84E80AFFE25A6AFE6EBFBAFDD6" box="[345,458,495,521]" italics="true" pageId="59" pageNumber="60">P. atlantis</emphasis>
+</taxonomicName>
+(compare 
+<bibRefCitation id="07714B67E80AFFE25976FE71BCAAFDD6" author="Kallies, A." box="[581,730,495,521]" pageId="59" pageNumber="60" pagination="82 - 114" refId="ref57993" refString="Kallies, A. (1999) Revision of the south-western Palaearctic species of Synansphecia (Sesiidae). Nota lepidopterologica, 22 (2), 82 - 114." type="journal article" year="1999">Kallies 1999</bibRefCitation>
+). Surprisingly, however, our barcode analysis and field observations have revealed that the populations associated with 
+<taxonomicName id="A4E04D15E80AFFE2580BFD8DBDE5FDF2" baseAuthorityName="Lastuvka &amp; Lastuvka" baseAuthorityYear="2007" box="[824,917,531,557]" class="Magnoliopsida" family="Plumbaginaceae" genus="Armeria" kingdom="Plantae" order="Caryophyllales" pageId="59" pageNumber="60" phylum="Tracheophyta" rank="genus">
+<emphasis id="5194EA84E80AFFE2580BFD8DBDE5FDF2" box="[824,917,531,557]" italics="true" pageId="59" pageNumber="60">Armeria</emphasis>
+</taxonomicName>
+also belong to 
+<taxonomicName id="A4E04D15E80AFFE25F7AFD8ABAC7FDF2" authorityName="Le Cerf" authorityYear="1922" box="[1097,1207,531,557]" class="Insecta" family="Sesiidae" genus="Chamaesphecia" kingdom="Animalia" order="Lepidoptera" pageId="59" pageNumber="60" phylum="Arthropoda" rank="species" species="borreyi">
+<emphasis id="5194EA84E80AFFE25F7AFD8ABAC7FDF2" box="[1097,1207,531,557]" italics="true" pageId="59" pageNumber="60">P. borreyi</emphasis>
+</taxonomicName>
+, while 
+<taxonomicName id="A4E04D15E80AFFE25E3CFD8ABBF0FDF2" authorityName="sensu Kallies" authorityYear="1999" box="[1295,1408,531,557]" class="Insecta" family="Sesiidae" genus="Pyropteron" kingdom="Animalia" order="Lepidoptera" pageId="59" pageNumber="60" phylum="Arthropoda" rank="species" species="atlantis">
+<emphasis id="5194EA84E80AFFE25E3CFD8ABBF0FDF2" box="[1295,1408,531,557]" italics="true" pageId="59" pageNumber="60">P. atlantis</emphasis>
+</taxonomicName>
+is confined to feeding on 
+<taxonomicName id="A4E04D15E80AFFE25AA8FDA9BC30FD8E" box="[411,576,567,593]" class="Magnoliopsida" family="Cistaceae" genus="Helianthemum" kingdom="Plantae" order="Malvales" pageId="59" pageNumber="60" phylum="Tracheophyta" rank="genus">
+<emphasis id="5194EA84E80AFFE25AA8FDA9BC30FD8E" box="[411,576,567,593]" italics="true" pageId="59" pageNumber="60">Helianthemum</emphasis>
+</taxonomicName>
+.
+</paragraph>
+</subSubSection>
+<subSubSection id="2BFA651DE80AFFE25BF4FDC5BC47FB6A" pageId="59" pageNumber="60" type="diagnosis">
+<paragraph id="635F3696E80AFFE25BF4FDC5BD35FCAD" blockId="59.[151,1437,387,2034]" pageId="59" pageNumber="60">
+<emphasis id="5194EA84E80AFFE25BF4FDC5BF32FDAA" bold="true" box="[199,322,603,629]" pageId="59" pageNumber="60">Diagnosis.</emphasis>
+<taxonomicName id="A4E04D15E80AFFE25A7AFDC2BFC7FDAA" authorityName="Le Cerf" authorityYear="1922" box="[329,439,603,629]" class="Insecta" family="Sesiidae" genus="Chamaesphecia" kingdom="Animalia" order="Lepidoptera" pageId="59" pageNumber="60" phylum="Arthropoda" rank="species" species="borreyi">
+<emphasis id="5194EA84E80AFFE25A7AFDC2BFC7FDAA" box="[329,439,603,629]" italics="true" pageId="59" pageNumber="60">P. borreyi</emphasis>
+</taxonomicName>
+is similar to several medium sized, dark brownish-grey to black coloured species of the genus, namely 
+<taxonomicName id="A4E04D15E80AFFE25A72FD1EBFC1FD46" authorityName="sensu Kallies" authorityYear="1999" box="[321,433,639,665]" class="Insecta" family="Sesiidae" genus="Pyropteron" kingdom="Animalia" order="Lepidoptera" pageId="59" pageNumber="60" phylum="Arthropoda" rank="species" species="atlantis">
+<emphasis id="5194EA84E80AFFE25A72FD1EBFC1FD46" box="[321,433,639,665]" italics="true" pageId="59" pageNumber="60">P. atlantis</emphasis>
+</taxonomicName>
+, 
+<taxonomicName id="A4E04D15E80AFFE25A8CFD1EBC28FD46" authorityName="Kallies" authorityYear="1999" box="[447,600,640,665]" class="Insecta" family="Sesiidae" genus="Synansphecia" higherTaxonomySource="GBIF" kingdom="Animalia" order="Lepidoptera" pageId="59" pageNumber="60" phylum="Arthropoda" rank="species" species="maroccana">
+<emphasis id="5194EA84E80AFFE25A8CFD1EBC28FD46" box="[447,600,640,665]" italics="true" pageId="59" pageNumber="60">P. maroccana</emphasis>
+</taxonomicName>
+and 
+<taxonomicName id="A4E04D15E80AFFE259BCFD1EBD43FD46" authorityName="Bartsch &amp; Pühringer &amp; Milla &amp; Lingenhöle &amp; Kallies" authorityYear="2021" baseAuthorityName="Dumont" baseAuthorityYear="1922" box="[655,819,639,665]" class="Insecta" family="Sesiidae" genus="Pyropteron" kingdom="Animalia" order="Lepidoptera" pageId="59" pageNumber="60" phylum="Arthropoda" rank="species" species="erodiiphaga">
+<emphasis id="5194EA84E80AFFE259BCFD1EBD43FD46" box="[655,819,639,665]" italics="true" pageId="59" pageNumber="60">P. erodiiphaga</emphasis>
+</taxonomicName>
+from North Africa, and 
+<taxonomicName id="A4E04D15E80AFFE25F76FD1EBABEFD46" baseAuthorityName="Kallies" baseAuthorityYear="1999" box="[1093,1230,639,665]" class="Insecta" family="Sesiidae" genus="Pyropteron" kingdom="Animalia" order="Lepidoptera" pageId="59" pageNumber="60" phylum="Arthropoda" rank="species" species="hispanica">
+<emphasis id="5194EA84E80AFFE25F76FD1EBABEFD46" box="[1093,1230,639,665]" italics="true" pageId="59" pageNumber="60">P. hispanica</emphasis>
+</taxonomicName>
+, 
+<taxonomicName id="A4E04D15E80AFFE25FEFFD1EBB1DFD46" baseAuthorityName="Spatenka" baseAuthorityYear="1992" box="[1244,1389,639,665]" class="Insecta" family="Sesiidae" genus="Pyropteron" kingdom="Animalia" order="Lepidoptera" pageId="59" pageNumber="60" phylum="Arthropoda" rank="species" species="koschwitzi">
+<emphasis id="5194EA84E80AFFE25FEFFD1EBB1DFD46" box="[1244,1389,639,665]" italics="true" pageId="59" pageNumber="60">P. koschwitzi</emphasis>
+</taxonomicName>
+and 
+<taxonomicName id="A4E04D15E80AFFE25BA4FD3ABE85FD62" baseAuthorityName="Reisser" baseAuthorityYear="1930" box="[151,245,675,701]" class="Insecta" family="Sesiidae" genus="Pyropteron" kingdom="Animalia" order="Lepidoptera" pageId="59" pageNumber="60" phylum="Arthropoda" rank="species" species="kautzi">
+<emphasis id="5194EA84E80AFFE25BA4FD3ABE85FD62" box="[151,245,675,701]" italics="true" pageId="59" pageNumber="60">P. kautzi</emphasis>
+</taxonomicName>
+from south-western Europe. 
+<taxonomicName id="A4E04D15E80AFFE2590AFD3ABCD8FD62" authorityName="sensu Kallies" authorityYear="1999" box="[569,680,675,701]" class="Insecta" family="Sesiidae" genus="Pyropteron" kingdom="Animalia" order="Lepidoptera" pageId="59" pageNumber="60" phylum="Arthropoda" rank="species" species="atlantis">
+<emphasis id="5194EA84E80AFFE2590AFD3ABCD8FD62" box="[569,680,675,701]" italics="true" pageId="59" pageNumber="60">P. atlantis</emphasis>
+</taxonomicName>
+differs clearly by the glossy black (not dark grey to black) body, the pure white (not partly yellowish) markings, the deep black (not whitish mottled) abdomen. The remaining species differ by the more brownish base colour, the presence of a white patch between antenna and ocellus in male (present in males of 
+<taxonomicName id="A4E04D15E80AFFE25A2DFC8EBFC8FCF6" authorityName="Kallies" authorityYear="1999" box="[286,440,784,809]" class="Insecta" family="Sesiidae" genus="Synansphecia" higherTaxonomySource="GBIF" kingdom="Animalia" order="Lepidoptera" pageId="59" pageNumber="60" phylum="Arthropoda" rank="species" species="maroccana">
+<emphasis id="5194EA84E80AFFE25A2DFC8EBFC8FCF6" box="[286,440,784,809]" italics="true" pageId="59" pageNumber="60">P. maroccana</emphasis>
+</taxonomicName>
+and 
+<taxonomicName id="A4E04D15E80AFFE25AC2FC8EBC0AFCF6" baseAuthorityName="Kallies" baseAuthorityYear="1999" box="[497,634,783,809]" class="Insecta" family="Sesiidae" genus="Pyropteron" kingdom="Animalia" order="Lepidoptera" pageId="59" pageNumber="60" phylum="Arthropoda" rank="species" species="hispanica">
+<emphasis id="5194EA84E80AFFE25AC2FC8EBC0AFCF6" box="[497,634,783,809]" italics="true" pageId="59" pageNumber="60">P. hispanica</emphasis>
+</taxonomicName>
+). One specimen (
+<figureCitation id="FBDB2A13E80AFFE25877FC91BDE6FCF6" box="[836,918,783,809]" captionStart="FIGURES 91–105" captionStartId="34.[151,264,1772,1796]" captionTargetBox="[163,1429,185,1740]" captionTargetId="figure-27@34.[151,1436,181,1748]" captionTargetPageId="34" captionText="FIGURES 91–105. Pyropteron species. 91–94. Pyropteron doryliformis, (91–92) ♂, (93–94) 2♀, Portugal, Algarve. 95–96. Pyropteron biedermanni, (95) ♂, (96) ♀, Morocco, Middle Atlas. 97–99. Pyropteron ceriaeformis, (97) ♂, (98) ♀, Morocco, High Atlas, (99) ♀ neotype, holotype f. auresiana, Algeria, Lambese. 100–102. Pyropteron icteropus, stat. rev. (100–101) 2♂, (102) ♀, Italy, Sicily. 103–105. Pyropteron euglossaeformis stat. rev., (103) ♂ neotype, (104) ♂, (105) ♀, Tunisia, Ain Draham. Scale 10mm." figureDoi="http://doi.org/10.5281/zenodo.4771883" httpUri="https://zenodo.org/record/4771883/files/figure.png" pageId="59" pageNumber="60">Fig. 99</figureCitation>
+) from Mischliffen, Middle Atlas Mts, has the inner margins of the tegulae and the dorsal stripe of the abdomen white, very similar to 
+<taxonomicName id="A4E04D15E80AFFE25F6AFCAABAB8FC92" authorityName="sensu Kallies" authorityYear="1999" box="[1113,1224,819,845]" class="Insecta" family="Sesiidae" genus="Pyropteron" kingdom="Animalia" order="Lepidoptera" pageId="59" pageNumber="60" phylum="Arthropoda" rank="species" species="atlantis">
+<emphasis id="5194EA84E80AFFE25F6AFCAABAB8FC92" box="[1113,1224,819,845]" italics="true" pageId="59" pageNumber="60">P. atlantis</emphasis>
+</taxonomicName>
+, but the abdominal sternites are densely mottled with white (black in 
+<taxonomicName id="A4E04D15E80AFFE259F6FCC6BD45FCAE" authorityName="sensu Kallies" authorityYear="1999" box="[709,821,855,881]" class="Insecta" family="Sesiidae" genus="Pyropteron" kingdom="Animalia" order="Lepidoptera" pageId="59" pageNumber="60" phylum="Arthropoda" rank="species" species="atlantis">
+<emphasis id="5194EA84E80AFFE259F6FCC6BD45FCAE" box="[709,821,855,881]" italics="true" pageId="59" pageNumber="60">P. atlantis</emphasis>
+</taxonomicName>
+).
+</paragraph>
+<paragraph id="635F3696E80AFFE25BF4FCE5BF4EFC02" blockId="59.[151,1437,387,2034]" pageId="59" pageNumber="60">
+Variability. This species shows a considerable degree of variability. Populations from higher altitude and feeding in 
+<taxonomicName id="A4E04D15E80AFFE25BEEFC01BF4AFC66" baseAuthorityName="Lastuvka &amp; Lastuvka" baseAuthorityYear="2007" box="[221,314,927,953]" class="Magnoliopsida" family="Plumbaginaceae" genus="Armeria" kingdom="Plantae" order="Caryophyllales" pageId="59" pageNumber="60" phylum="Tracheophyta" rank="genus">
+<emphasis id="5194EA84E80AFFE25BEEFC01BF4AFC66" box="[221,314,927,953]" italics="true" pageId="59" pageNumber="60">Armeria</emphasis>
+</taxonomicName>
+show somewhat smaller transparent areas of the forewings, wider discal spots and appear grey rather than brownish.
+</paragraph>
+<paragraph id="635F3696E80AFFE25BF4FC79BC47FB6A" blockId="59.[151,1437,387,2034]" pageId="59" pageNumber="60">
+<emphasis id="5194EA84E80AFFE25BF4FC79BF4CFBDE" bold="true" box="[199,316,999,1025]" pageId="59" pageNumber="60">Barcodes.</emphasis>
+Despite the small range inhabited by this species, sequence analysis shows some heterogeneity among 
+<taxonomicName id="A4E04D15E80AFFE25BD9FB92BF26FBFA" authorityName="Le Cerf" authorityYear="1922" box="[234,342,1035,1061]" class="Insecta" family="Sesiidae" genus="Chamaesphecia" kingdom="Animalia" order="Lepidoptera" pageId="59" pageNumber="60" phylum="Arthropoda" rank="species" species="borreyi">
+<emphasis id="5194EA84E80AFFE25BD9FB92BF26FBFA" box="[234,342,1035,1061]" italics="true" pageId="59" pageNumber="60">P. borreyi</emphasis>
+</taxonomicName>
+, also reflected in the morphology, including the size of the transparent areas of the forewing. This is perhaps due to the wide range of habitats and hostplants, ranging from open, stony and bushy terrain with 
+<taxonomicName id="A4E04D15E80AFFE25E0CFBB1BBECFB96" baseAuthorityName="Lastuvka &amp; Lastuvka" baseAuthorityYear="2007" box="[1343,1436,1071,1097]" class="Magnoliopsida" family="Plumbaginaceae" genus="Armeria" kingdom="Plantae" order="Caryophyllales" pageId="59" pageNumber="60" phylum="Tracheophyta" rank="genus">
+<emphasis id="5194EA84E80AFFE25E0CFBB1BBECFB96" box="[1343,1436,1071,1097]" italics="true" pageId="59" pageNumber="60">Armeria</emphasis>
+</taxonomicName>
+as well as forest openings with 
+<taxonomicName id="A4E04D15E80AFFE25AC7FBCABC16FBB2" box="[500,614,1108,1133]" class="Magnoliopsida" family="Plumbaginaceae" genus="Limonium" kingdom="Plantae" order="Caryophyllales" pageId="59" pageNumber="60" phylum="Tracheophyta" rank="genus">
+<emphasis id="5194EA84E80AFFE25AC7FBCABC16FBB2" box="[500,614,1108,1133]" italics="true" pageId="59" pageNumber="60">Limonium</emphasis>
+</taxonomicName>
+and 
+<taxonomicName id="A4E04D15E80AFFE259A8FBCDBC88FBB2" baseAuthorityName="Lastuvka &amp; Lastuvka" baseAuthorityYear="2007" box="[667,760,1107,1133]" class="Magnoliopsida" family="Plumbaginaceae" genus="Armeria" kingdom="Plantae" order="Caryophyllales" pageId="59" pageNumber="60" phylum="Tracheophyta" rank="genus">
+<emphasis id="5194EA84E80AFFE259A8FBCDBC88FBB2" box="[667,760,1107,1133]" italics="true" pageId="59" pageNumber="60">Armeria</emphasis>
+</taxonomicName>
+in the Middle Atlas Mts to alpine meadows with exclusively 
+<taxonomicName id="A4E04D15E80AFFE25BA4FBE9BE84FB4E" baseAuthorityName="Lastuvka &amp; Lastuvka" baseAuthorityYear="2007" box="[151,244,1143,1169]" class="Magnoliopsida" family="Plumbaginaceae" genus="Armeria" kingdom="Plantae" order="Caryophyllales" pageId="59" pageNumber="60" phylum="Tracheophyta" rank="genus">
+<emphasis id="5194EA84E80AFFE25BA4FBE9BE84FB4E" box="[151,244,1143,1169]" italics="true" pageId="59" pageNumber="60">Armeria</emphasis>
+</taxonomicName>
+in the High Atlas Mts. The maximal intraspecific sequence differences are at 1.5%, suggesting that all specimens examined are conspecific.
+</paragraph>
+</subSubSection>
+<subSubSection id="2BFA651DE80AFFE25BF4FB21BD48FAFE" pageId="59" pageNumber="60" type="biology_ecology">
+<paragraph id="635F3696E80AFFE25BF4FB21BD48FAFE" blockId="59.[151,1437,387,2034]" pageId="59" pageNumber="60">
+<emphasis id="5194EA84E80AFFE25BF4FB21BFCDFB06" bold="true" box="[199,445,1215,1241]" pageId="59" pageNumber="60">Biology and habitat.</emphasis>
+<taxonomicName id="A4E04D15E80AFFE25AF5FB5EBC45FB06" authorityName="Le Cerf" authorityYear="1922" box="[454,565,1215,1241]" class="Insecta" family="Sesiidae" genus="Chamaesphecia" kingdom="Animalia" order="Lepidoptera" pageId="59" pageNumber="60" phylum="Arthropoda" rank="species" species="borreyi">
+<emphasis id="5194EA84E80AFFE25AF5FB5EBC45FB06" box="[454,565,1215,1241]" italics="true" pageId="59" pageNumber="60">P. borreyi</emphasis>
+</taxonomicName>
+is an oligophagous species, whose larvae live in the root of various species of 
+<taxonomicName id="A4E04D15E80AFFE25B84FB7ABF59FB22" box="[183,297,1252,1277]" class="Magnoliopsida" family="Plumbaginaceae" genus="Limonium" kingdom="Plantae" order="Caryophyllales" pageId="59" pageNumber="60" phylum="Tracheophyta" rank="genus">
+<emphasis id="5194EA84E80AFFE25B84FB7ABF59FB22" box="[183,297,1252,1277]" italics="true" pageId="59" pageNumber="60">Limonium</emphasis>
+</taxonomicName>
+and 
+<taxonomicName id="A4E04D15E80AFFE25A52FB7DBFCEFB22" baseAuthorityName="Lastuvka &amp; Lastuvka" baseAuthorityYear="2007" box="[353,446,1251,1277]" class="Magnoliopsida" family="Plumbaginaceae" genus="Armeria" kingdom="Plantae" order="Caryophyllales" pageId="59" pageNumber="60" phylum="Tracheophyta" rank="genus">
+<emphasis id="5194EA84E80AFFE25A52FB7DBFCEFB22" box="[353,446,1251,1277]" italics="true" pageId="59" pageNumber="60">Armeria</emphasis>
+</taxonomicName>
+(
+<taxonomicName id="A4E04D15E80AFFE25AFCFB7DBCFEFB21" box="[463,654,1251,1278]" class="Magnoliopsida" family="Plumbaginaceae" kingdom="Plantae" order="Caryophyllales" pageId="59" pageNumber="60" phylum="Tracheophyta" rank="family">Plumbaginaceae</taxonomicName>
+). It inhabits humid subalpine and alpine meadows between 1600 and 
+<quantity id="A4189B73E80AFFE25BA4FA99BE98FAFE" box="[151,232,1287,1313]" metricMagnitude="3" metricUnit="m" metricValue="2.9" pageId="59" pageNumber="60" unit="m" value="2900.0">2900m</quantity>
+, and often occurs together with the previous species.
+</paragraph>
+</subSubSection>
+<subSubSection id="2BFA651DE80AFFE55BF4FAB5BF6FFF26" lastPageId="60" lastPageNumber="61" pageId="59" pageNumber="60" type="distribution">
+<paragraph id="635F3696E80AFFE25BF4FAB5BF1DFAB5" blockId="59.[151,1437,387,2034]" pageId="59" pageNumber="60">
+<emphasis id="5194EA84E80AFFE25BF4FAB5BF11FA9A" bold="true" box="[199,353,1323,1349]" pageId="59" pageNumber="60">Distribution.</emphasis>
+Only known from the High and Middle Atlas Mts and from Rabat, 
+<collectingCountry id="1BF77606E80AFFE25F51FAB2BAB7FA99" box="[1122,1223,1324,1350]" name="Morocco" pageId="59" pageNumber="60">Morocco</collectingCountry>
+(
+<bibRefCitation id="07714B67E80AFFE25FE4FAB5BB1BFA9A" author="Kallies, A." box="[1239,1387,1323,1349]" pageId="59" pageNumber="60" pagination="82 - 114" refId="ref57993" refString="Kallies, A. (1999) Revision of the south-western Palaearctic species of Synansphecia (Sesiidae). Nota lepidopterologica, 22 (2), 82 - 114." type="journal article" year="1999">Kallies 1999</bibRefCitation>
+, our own observations).
+</paragraph>
+<paragraph id="635F3696E80AFFE55BF4FAEDBF6FFF26" blockId="59.[151,1437,387,2034]" lastBlockId="60.[151,1436,150,249]" lastPageId="60" lastPageNumber="61" pageId="59" pageNumber="60">
+<emphasis id="5194EA84E80AFFE25BF4FAEDBFB9FA52" bold="true" box="[199,457,1395,1421]" pageId="59" pageNumber="60">Specimens examined.</emphasis>
+<materialsCitation id="D3883CCBE80AFFE25AE1FAEDBB36FA52" ID-GBIF-Occurrence="3127750568" box="[466,1350,1395,1422]" country="Morocco" location="Middle Atlas" municipality="Mrirt" pageId="59" pageNumber="60" specimenCount="1" specimenCount-male="1">
+<specimenCount id="75E6FD1FE80AFFE25AE1FAEDBF86FA52" box="[466,502,1395,1421]" pageId="59" pageNumber="60" type="male">1♂</specimenCount>
+, 
+<collectingCountry id="1BF77606E80AFFE25936FAEABC1DFA51" box="[517,621,1396,1422]" name="Morocco" pageId="59" pageNumber="60">Morocco</collectingCountry>
+, 
+<location id="663F604DE80AFFE25949FAEDBD60FA52" LSID="urn:lsid:plazi:treatment:EB498780E80AFFE55BA4FF09BF6FFF26:663F604DE80AFFE25949FAEDBD60FA52" box="[634,784,1395,1421]" country="Morocco" municipality="Mrirt" name="Middle Atlas" pageId="59" pageNumber="60">Middle Atlas</location>
+, 
+<locationDeviation id="72ED2FB4E80AFFE2582DFAEDBDA1FA52" box="[798,977,1395,1422]" location="Azrou" pageId="59" pageNumber="60">
+<quantity id="A4189B73E80AFFE2582DFAEDBD2EFA52" box="[798,862,1395,1421]" metricMagnitude="4" metricUnit="m" metricValue="3.0" pageId="59" pageNumber="60" unit="km" value="30.0">30km</quantity>
+W Azrou
+</locationDeviation>
+, 
+<collectingMunicipality id="833BACECE80AFFE258EDFAEDBA6CFA52" box="[990,1052,1395,1421]" pageId="59" pageNumber="60">Mrirt</collectingMunicipality>
+, e.l. ex 
+<taxonomicName id="A4E04D15E80AFFE25F4BFAEABB64FA51" box="[1144,1300,1396,1422]" class="Magnoliopsida" family="Plumbaginaceae" genus="Limonium" kingdom="Plantae" order="Caryophyllales" pageId="59" pageNumber="60" phylum="Tracheophyta" rank="species" species="undetermined">
+<emphasis id="5194EA84E80AFFE25F4BFAEABA9AFA52" box="[1144,1258,1396,1421]" italics="true" pageId="59" pageNumber="60">Limonium</emphasis>
+sp.
+</taxonomicName>
+, 
+<date id="175E1056E80AFFE25E10FAEDBB36FA52" box="[1315,1350,1395,1421]" pageId="59" pageNumber="60" value="1997-05-10">10.</date>
+</materialsCitation>
+V.1997, leg. AL (BOLD DB-Lep-00057 [contaminated]); 
+<materialsCitation id="D3883CCBE80AFFE259E2FA09BB73FA6E" ID-GBIF-Occurrence="3127750844" box="[721,1283,1431,1458]" collectorName="Middle Atlas &amp; Tanout-ou-Filiali" country="Morocco" location="Morocco" pageId="59" pageNumber="60" specimenCount="1" specimenCount-male="1">
+<specimenCount id="75E6FD1FE80AFFE259E2FA09BC85FA6E" box="[721,757,1431,1457]" pageId="59" pageNumber="60" type="male">1♂</specimenCount>
+, 
+<collectingCountry id="1BF77606E80AFFE25836FA06BD1DFA6D" box="[773,877,1432,1458]" name="Morocco" pageId="59" pageNumber="60">Morocco</collectingCountry>
+, 
+<collectorName id="CE155340E80AFFE25848FA09BA63FA6E" box="[891,1043,1431,1457]" pageId="59" pageNumber="60">Middle Atlas</collectorName>
+, 
+<collectorName id="CE155340E80AFFE25F13FA09BA92FA6E" box="[1056,1250,1431,1457]" pageId="59" pageNumber="60">Tanout-ou-Filiali</collectorName>
+, 
+<date id="175E1056E80AFFE25FC3FA09BB73FA6E" box="[1264,1283,1431,1457]" pageId="59" pageNumber="60" value="1999-06-06">6.</date>
+</materialsCitation>
+VI.1999, leg. DB; 
+<materialsCitation id="D3883CCBE80AFFE25BFDFA25BDD0FA0A" ID-GBIF-Occurrence="3127750456" box="[206,928,1467,1494]" collectorName="Middle Atlas, S &amp; Col du Zad" country="Morocco" elevation="2000" location="Morocco" pageId="59" pageNumber="60" specimenCount="1" specimenCount-male="1">
+<specimenCount id="75E6FD1FE80AFFE25BFDFA25BE83FA0A" box="[206,243,1467,1493]" pageId="59" pageNumber="60" type="male">1♂</specimenCount>
+, 
+<collectingCountry id="1BF77606E80AFFE25A32FA22BF19FA09" box="[257,361,1468,1494]" name="Morocco" pageId="59" pageNumber="60">Morocco</collectingCountry>
+, 
+<collectorName id="CE155340E80AFFE25A46FA25BC58FA0A" box="[373,552,1467,1493]" pageId="59" pageNumber="60">Middle Atlas, S</collectorName>
+slope of 
+<collectorName id="CE155340E80AFFE259A0FA25BD66FA0A" box="[659,790,1467,1493]" pageId="59" pageNumber="60">Col du Zad</collectorName>
+, 
+<quantity id="A4189B73E80AFFE25810FA25BD04FA0A" box="[803,884,1467,1493]" metricMagnitude="3" metricUnit="m" metricValue="2.0" pageId="59" pageNumber="60" unit="m" value="2000.0">
+<elevation id="E8CDD1A5E80AFFE25810FA25BD04FA0A" box="[803,884,1467,1493]" metricMagnitude="3" metricUnit="m" metricValue="2.0" pageId="59" pageNumber="60" unit="m" value="2000.0">2000m</elevation>
+</quantity>
+, 
+<date id="175E1056E80AFFE258B3FA25BDD0FA0A" box="[896,928,1467,1493]" pageId="59" pageNumber="60" value="2007-06-18">18.</date>
+</materialsCitation>
+VI.2007, leg. DB; 
+<materialsCitation id="D3883CCBE80AFFE25F4BFA25BCE6FA26" ID-GBIF-Occurrence="3127750493" collectorName="Tizi-n Tretten" country="Morocco" elevation="1950" location="Middle" municipality="Ifrane" pageId="59" pageNumber="60" specimenCount="3" specimenCount-male="3">
+<specimenCount id="75E6FD1FE80AFFE25F4BFA25BAEDFA0A" box="[1144,1181,1467,1493]" pageId="59" pageNumber="60" type="male">3♂</specimenCount>
+, 
+<collectingCountry id="1BF77606E80AFFE25F98FA22BB63FA09" box="[1195,1299,1468,1494]" name="Morocco" pageId="59" pageNumber="60">Morocco</collectingCountry>
+, 
+<location id="663F604DE80AFFE25E2CFA25BB00FA0A" LSID="urn:lsid:plazi:treatment:EB498780E80AFFE55BA4FF09BF6FFF26:663F604DE80AFFE25E2CFA25BB00FA0A" box="[1311,1392,1467,1493]" country="Morocco" municipality="Ifrane" name="Middle" pageId="59" pageNumber="60">Middle</location>
+Atlas, 
+<collectingMunicipality id="833BACECE80AFFE25BF6FA41BF7BFA26" box="[197,267,1503,1529]" pageId="59" pageNumber="60">Ifrane</collectingMunicipality>
+, 
+<collectorName id="CE155340E80AFFE25A25FA41BFC4FA25" box="[278,436,1503,1530]" pageId="59" pageNumber="60">Tizi-n Tretten</collectorName>
+, 
+<quantity id="A4189B73E80AFFE25A8CFA41BC7FFA25" box="[447,527,1503,1530]" metricMagnitude="3" metricUnit="m" metricValue="1.95" pageId="59" pageNumber="60" unit="m" value="1950.0">
+<elevation id="E8CDD1A5E80AFFE25A8CFA41BC7FFA25" box="[447,527,1503,1530]" metricMagnitude="3" metricUnit="m" metricValue="1.95" pageId="59" pageNumber="60" unit="m" value="1950.0">1950m</elevation>
+</quantity>
+, 
+<date id="175E1056E80AFFE25928FA41BCE6FA26" box="[539,662,1503,1529]" pageId="59" pageNumber="60" value="2007-06-19" valueMax="2007-06-21" valueMin="2007-06-19">19. and 21.</date>
+</materialsCitation>
+VI.2007, leg. DB; 
+<materialsCitation id="D3883CCBE80AFFE2585FFA41BEC9F9C1" ID-GBIF-Occurrence="3127750709" collectorName="Tizi-n Tretten" country="Morocco" elevation="1950" location="Middle" municipality="Ifrane" pageId="59" pageNumber="60" specimenCount="1" specimenCount-male="1">
+<specimenCount id="75E6FD1FE80AFFE2585FFA41BDE0FA26" box="[876,912,1503,1529]" pageId="59" pageNumber="60" type="male">1♂</specimenCount>
+, ibid., e.l. ex 
+<taxonomicName id="A4E04D15E80AFFE25F19FA7EBAB5FA25" box="[1066,1221,1504,1530]" class="Magnoliopsida" family="Plumbaginaceae" genus="Limonium" kingdom="Plantae" order="Caryophyllales" pageId="59" pageNumber="60" phylum="Tracheophyta" rank="species" species="undetermined">
+<emphasis id="5194EA84E80AFFE25F19FA7EBAECFA26" box="[1066,1180,1504,1529]" italics="true" pageId="59" pageNumber="60">Limonium</emphasis>
+sp.
+</taxonomicName>
+, larva 16.IV., adult 
+<date id="175E1056E80AFFE25BA4F99DBEC9F9C1" box="[151,185,1539,1566]" pageId="59" pageNumber="60" value="1997-05-25" valueMax="1997-06-15" valueMin="1997-05-25">25.</date>
+</materialsCitation>
+V.–15.VI.1997, leg. AK (CDB); 
+<materialsCitation id="D3883CCBE80AFFE25915F99DBAE2F9C2" ID-GBIF-Occurrence="3127750618" box="[550,1170,1539,1566]" collectorName="Middle Atlas &amp; Mischliffen" country="Morocco" location="Morocco" pageId="59" pageNumber="60" specimenCount="1" specimenCount-male="1">
+<specimenCount id="75E6FD1FE80AFFE25915F99DBC39F9C2" box="[550,585,1539,1565]" pageId="59" pageNumber="60" type="male">1♂</specimenCount>
+(
+<figureCitation id="FBDB2A13E80AFFE2596BF99DBCCAF9C1" box="[600,698,1539,1566]" captionStart="FIGURES 191–205" captionStartId="62.[151,264,1771,1795]" captionTargetBox="[164,1429,184,1741]" captionTargetId="figure-27@62.[151,1435,181,1748]" captionTargetPageId="62" captionText="FIGURES 191–205. Pyropteron species. 191–193. Pyropteron maroccana, (191–192) ♂, (193) ♀, Morocco, High Atlas. 194–199. Pyropteron borreyi, (194) ♂, (195) ♀, Morocco, Middle Atlas (from Limonium), (196) ♂, Morocco, Middle Atlas, (197–198) ♂, (199) ♀, Morocco, High Atlas (from Armeria). 200–202. Pyropteron hellenicum sp. nov., (200–201) ♂ holotype, (202) ♂, paratype, Greece, Evrytania. 203–205. Pyropteron meriaeformis, (203–204) ♂, paratype, (205) ♀, France, Pyrenees. Scale 10mm." figureDoi="http://doi.org/10.5281/zenodo.4771921" httpUri="https://zenodo.org/record/4771921/files/figure.png" pageId="59" pageNumber="60">Fig. 196</figureCitation>
+), 
+<collectingCountry id="1BF77606E80AFFE259FDF99ABD46F9C1" box="[718,822,1540,1566]" name="Morocco" pageId="59" pageNumber="60">Morocco</collectingCountry>
+, 
+<collectorName id="CE155340E80AFFE25872F99DBDA5F9C2" box="[833,981,1539,1565]" pageId="59" pageNumber="60">Middle Atlas</collectorName>
+, 
+<collectorName id="CE155340E80AFFE258D3F99DBA15F9C2" box="[992,1125,1539,1565]" pageId="59" pageNumber="60">Mischliffen</collectorName>
+, 
+<date id="175E1056E80AFFE25F43F99DBAE2F9C2" box="[1136,1170,1539,1565]" pageId="59" pageNumber="60" value="1998-06-23">23.</date>
+</materialsCitation>
+VI.1998. leg. 
+<collectorName id="CE155340E80AFFE25E1DF99BBBE8F9FF" box="[1326,1432,1541,1568]" pageId="59" pageNumber="60">Špatenka</collectorName>
+; 
+<materialsCitation id="D3883CCBE80AFFE25BA4F9B9BD40F99D" ID-GBIF-Occurrence="3127750980" box="[151,816,1575,1602]" collectionCode="VI" country="Morocco" elevation="2700" location="High Atlas" municipality="Oukaimeden" pageId="59" pageNumber="60" specimenCount="4" specimenCount-male="4">
+<specimenCount id="75E6FD1FE80AFFE25BA4F9B9BECCF99E" box="[151,188,1575,1601]" pageId="59" pageNumber="60" type="male">4♂</specimenCount>
+, 
+<collectingCountry id="1BF77606E80AFFE25BFBF9B6BF40F99D" box="[200,304,1576,1602]" name="Morocco" pageId="59" pageNumber="60">Morocco</collectingCountry>
+, 
+<location id="663F604DE80AFFE25A08F9B9BFC6F99E" LSID="urn:lsid:plazi:treatment:EB498780E80AFFE55BA4FF09BF6FFF26:663F604DE80AFFE25A08F9B9BFC6F99E" box="[315,438,1575,1601]" country="Morocco" municipality="Oukaimeden" name="High Atlas" pageId="59" pageNumber="60">High Atlas</location>
+, 
+<collectingMunicipality id="833BACECE80AFFE25AF3F9B9BC22F99E" box="[448,594,1575,1601]" pageId="59" pageNumber="60">Oukaimeden</collectingMunicipality>
+, 
+<quantity id="A4189B73E80AFFE2596EF9B9BCDEF99E" box="[605,686,1575,1601]" metricMagnitude="3" metricUnit="m" metricValue="2.7" pageId="59" pageNumber="60" unit="m" value="2700.0">
+<elevation id="E8CDD1A5E80AFFE2596EF9B9BCDEF99E" box="[605,686,1575,1601]" metricMagnitude="3" metricUnit="m" metricValue="2.7" pageId="59" pageNumber="60" unit="m" value="2700.0">2700m</elevation>
+</quantity>
+, 23. 
+<collectionCode id="05F1AE53E80AFFE259EFF9B9BC8FF99E" box="[732,767,1575,1601]" country="Norway" name="Mykotektet, National Veterinary Institute" pageId="59" pageNumber="60">VI</collectionCode>
+., 
+<date id="175E1056E80AFFE2583DF9B9BD40F99D" box="[782,816,1575,1602]" pageId="59" pageNumber="60" value="1998-06-25" valueMax="1998-07-08" valueMin="1998-06-25">25.</date>
+</materialsCitation>
+<materialsCitation id="D3883CCBE80AFFE25803F9B9BDECF99E" ID-GBIF-Occurrence="3127750390" box="[816,924,1575,1602]" collectionCode="VI" country="Morocco" elevation="2700" isTailEnumeration="true" location="High Atlas" municipality="Oukaimeden" pageId="59" pageNumber="60" specimenCount="1">
+<collectionCode id="05F1AE53E80AFFE25803F9B9BD22F99D" box="[816,850,1575,1602]" country="Norway" name="Mykotektet, National Veterinary Institute" pageId="59" pageNumber="60">VI</collectionCode>
+. and 8.
+</materialsCitation>
+VII.1998, leg. AL; 
+<materialsCitation id="D3883CCBE80AFFE25F45F9B9BB75F99E" ID-GBIF-Occurrence="3127750342" box="[1142,1285,1575,1601]" collectionCode="VI" country="Morocco" elevation="2700" isTailEnumeration="true" location="High Atlas" municipality="Oukaimeden" pageId="59" pageNumber="60" specimenCount="1" specimenCount-male="1">
+<specimenCount id="75E6FD1FE80AFFE25F45F9B9BAEAF99E" box="[1142,1178,1575,1601]" pageId="59" pageNumber="60" type="male">1♂</specimenCount>
+, ibid., 
+<date id="175E1056E80AFFE25FD4F9B9BB75F99E" box="[1255,1285,1575,1601]" pageId="59" pageNumber="60" value="1999-06-11">11.</date>
+</materialsCitation>
+VI.1999, leg. DB; 
+<specimenCount id="75E6FD1FE80AFFE25BE3F9D5BF71F9BA" box="[208,257,1611,1637]" pageId="59" pageNumber="60" type="male">31♂</specimenCount>
+(
+<figureCitation id="FBDB2A13E80AFFE25A21F9D5BFC4F9BA" box="[274,436,1611,1637]" captionStart="FIGURES 191–205" captionStartId="62.[151,264,1771,1795]" captionTargetBox="[164,1429,184,1741]" captionTargetId="figure-27@62.[151,1435,181,1748]" captionTargetPageId="62" captionText="FIGURES 191–205. Pyropteron species. 191–193. Pyropteron maroccana, (191–192) ♂, (193) ♀, Morocco, High Atlas. 194–199. Pyropteron borreyi, (194) ♂, (195) ♀, Morocco, Middle Atlas (from Limonium), (196) ♂, Morocco, Middle Atlas, (197–198) ♂, (199) ♀, Morocco, High Atlas (from Armeria). 200–202. Pyropteron hellenicum sp. nov., (200–201) ♂ holotype, (202) ♂, paratype, Greece, Evrytania. 203–205. Pyropteron meriaeformis, (203–204) ♂, paratype, (205) ♀, France, Pyrenees. Scale 10mm." figureDoi="http://doi.org/10.5281/zenodo.4771921" httpUri="https://zenodo.org/record/4771921/files/figure.png" pageId="59" pageNumber="60">Figs 197–198</figureCitation>
+), 
+<materialsCitation id="D3883CCBE80AFFE25AF9F9D5BD61F9BA" ID-GBIF-Occurrence="3127750399" box="[458,785,1611,1637]" collectionCode="VI" country="Morocco" elevation="2700" isTailEnumeration="true" location="High Atlas" municipality="Oukaimeden" pageId="59" pageNumber="60" specimenCount="3" specimenCount-female="3">
+<specimenCount id="75E6FD1FE80AFFE25AF9F9D5BF9CF9BA" box="[458,492,1611,1637]" pageId="59" pageNumber="60" type="female">3♀</specimenCount>
+(
+<figureCitation id="FBDB2A13E80AFFE25ACCF9D5BC13F9BA" box="[511,611,1611,1637]" captionStart="FIGURES 191–205" captionStartId="62.[151,264,1771,1795]" captionTargetBox="[164,1429,184,1741]" captionTargetId="figure-27@62.[151,1435,181,1748]" captionTargetPageId="62" captionText="FIGURES 191–205. Pyropteron species. 191–193. Pyropteron maroccana, (191–192) ♂, (193) ♀, Morocco, High Atlas. 194–199. Pyropteron borreyi, (194) ♂, (195) ♀, Morocco, Middle Atlas (from Limonium), (196) ♂, Morocco, Middle Atlas, (197–198) ♂, (199) ♀, Morocco, High Atlas (from Armeria). 200–202. Pyropteron hellenicum sp. nov., (200–201) ♂ holotype, (202) ♂, paratype, Greece, Evrytania. 203–205. Pyropteron meriaeformis, (203–204) ♂, paratype, (205) ♀, France, Pyrenees. Scale 10mm." figureDoi="http://doi.org/10.5281/zenodo.4771921" httpUri="https://zenodo.org/record/4771921/files/figure.png" pageId="59" pageNumber="60">Fig. 199</figureCitation>
+), ibid., 
+<date id="175E1056E80AFFE2598EF9D5BD61F9BA" box="[701,785,1611,1637]" pageId="59" pageNumber="60" value="2007-06-22" valueMax="2007-06-24" valueMin="2007-06-22">22.–24.</date>
+</materialsCitation>
+VI.2007, 
+<materialsCitation id="D3883CCBE80AFFE2584CF9D5BFC3F956" ID-GBIF-Occurrence="3127750504" collectionCode="CDB, SMNS" country="Morocco" elevation="2700" isTailEnumeration="true" location="Bartsch" municipality="Oukaimeden" pageId="59" pageNumber="60" specimenCount="1">
+leg. DB (
+<location id="663F604DE80AFFE258D9F9D5BA31F9BA" LSID="urn:lsid:plazi:treatment:EB498780E80AFFE55BA4FF09BF6FFF26:663F604DE80AFFE258D9F9D5BA31F9BA" box="[1002,1089,1611,1637]" name="Bartsch" pageId="59" pageNumber="60">Bartsch</location>
+gen. prep. 2007-50; 2007-51) (
+<collectionCode id="05F1AE53E80AFFE25BACF9F1BEACF956" box="[159,220,1647,1673]" pageId="59" pageNumber="60">CDB</collectionCode>
+, 
+<collectionCode id="05F1AE53E80AFFE25BD9F9F1BF4BF956" box="[234,315,1647,1673]" country="Germany" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34840" lsid="urn:lsid:biocol.org:col:34840" name="Staatliches Museum fuer Naturkund Stuttgart" pageId="59" pageNumber="60">SMNS</collectionCode>
+); ibid., 
+<date id="175E1056E80AFFE25AA1F9F1BFC3F956" box="[402,435,1647,1673]" pageId="59" pageNumber="60" value="1998-06-23">23.</date>
+</materialsCitation>
+VI.1998, 
+<materialsCitation id="D3883CCBE80AFFE25912F9F1BDB9F955" ID-GBIF-Occurrence="3127750419" box="[545,969,1647,1674]" country="Morocco" location="Bartsch" pageId="59" pageNumber="60" specimenCount="1">
+leg. AL (
+<location id="663F604DE80AFFE259B5F9F1BCADF956" LSID="urn:lsid:plazi:treatment:EB498780E80AFFE55BA4FF09BF6FFF26:663F604DE80AFFE259B5F9F1BCADF956" box="[646,733,1647,1673]" country="Morocco" name="Bartsch" pageId="59" pageNumber="60">Bartsch</location>
+gen. prep. 2007-56)
+</materialsCitation>
+; 
+<materialsCitation id="D3883CCBE80AFFE258E5F9F1BFB8F971" ID-GBIF-Occurrence="3127750603" collectorName="Ifrane &amp; Tizi-n Tretten" country="Morocco" elevation="2200" location="Middle Atlas" pageId="59" pageNumber="60" specimenCount="5" specimenCount-female="1" specimenCount-male="4">
+<specimenCount id="75E6FD1FE80AFFE258E5F9F1BD8BF956" box="[982,1019,1647,1673]" pageId="59" pageNumber="60" type="male">4♂</specimenCount>
+, 
+<specimenCount id="75E6FD1FE80AFFE25F3AF9F1BA5BF956" box="[1033,1067,1647,1673]" pageId="59" pageNumber="60" type="female">1♀</specimenCount>
+, 
+<collectingCountry id="1BF77606E80AFFE25F08F9EEBAD3F955" box="[1083,1187,1648,1674]" name="Morocco" pageId="59" pageNumber="60">Morocco</collectingCountry>
+, 
+<location id="663F604DE80AFFE25F83F9F1BB36F956" LSID="urn:lsid:plazi:treatment:EB498780E80AFFE55BA4FF09BF6FFF26:663F604DE80AFFE25F83F9F1BB36F956" box="[1200,1350,1647,1673]" country="Morocco" name="Middle Atlas" pageId="59" pageNumber="60">Middle Atlas</location>
+, 
+<collectorName id="CE155340E80AFFE25E61F9F1BBE8F956" box="[1362,1432,1647,1673]" pageId="59" pageNumber="60">Ifrane</collectorName>
+, 
+<collectorName id="CE155340E80AFFE25BA4F90DBF48F971" box="[151,312,1683,1710]" pageId="59" pageNumber="60">Tizi-n Tretten</collectorName>
+, 
+<quantity id="A4189B73E80AFFE25A75F90DBFE7F972" box="[326,407,1683,1709]" metricMagnitude="3" metricUnit="m" metricValue="2.2" pageId="59" pageNumber="60" unit="m" value="2200.0">
+<elevation id="E8CDD1A5E80AFFE25A75F90DBFE7F972" box="[326,407,1683,1709]" metricMagnitude="3" metricUnit="m" metricValue="2.2" pageId="59" pageNumber="60" unit="m" value="2200.0">2200m</elevation>
+</quantity>
+, 
+<date id="175E1056E80AFFE25A95F90DBFB8F971" box="[422,456,1683,1710]" pageId="59" pageNumber="60" value="1994-06-30" valueMax="1994-07-05" valueMin="1994-06-30">30.</date>
+</materialsCitation>
+VI.–5.VII.1994, leg. 
+<collectorName id="CE155340E80AFFE2598FF90DBD4FF972" box="[700,831,1683,1709]" pageId="59" pageNumber="60">Riefenstahl</collectorName>
+; 
+<specimenCount id="75E6FD1FE80AFFE2587EF90DBD01F972" box="[845,881,1683,1709]" pageId="59" pageNumber="60" type="male">8♂</specimenCount>
+(
+<figureCitation id="FBDB2A13E80AFFE258B0F90DBD98F972" box="[899,1000,1683,1709]" captionStart="FIGURES 191–205" captionStartId="62.[151,264,1771,1795]" captionTargetBox="[164,1429,184,1741]" captionTargetId="figure-27@62.[151,1435,181,1748]" captionTargetPageId="62" captionText="FIGURES 191–205. Pyropteron species. 191–193. Pyropteron maroccana, (191–192) ♂, (193) ♀, Morocco, High Atlas. 194–199. Pyropteron borreyi, (194) ♂, (195) ♀, Morocco, Middle Atlas (from Limonium), (196) ♂, Morocco, Middle Atlas, (197–198) ♂, (199) ♀, Morocco, High Atlas (from Armeria). 200–202. Pyropteron hellenicum sp. nov., (200–201) ♂ holotype, (202) ♂, paratype, Greece, Evrytania. 203–205. Pyropteron meriaeformis, (203–204) ♂, paratype, (205) ♀, France, Pyrenees. Scale 10mm." figureDoi="http://doi.org/10.5281/zenodo.4771921" httpUri="https://zenodo.org/record/4771921/files/figure.png" pageId="59" pageNumber="60">Fig. 194</figureCitation>
+), 
+<materialsCitation id="D3883CCBE80AFFE25F33F90DBFB3F90E" ID-GBIF-Occurrence="3127750641" collectorName="Ifrane &amp; Tizi-n Tretten" country="Morocco" elevation="1700" location="Middle Atlas" pageId="59" pageNumber="60" specimenCount="3" specimenCount-female="3">
+<specimenCount id="75E6FD1FE80AFFE25F33F90DBA54F972" box="[1024,1060,1683,1709]" pageId="59" pageNumber="60" type="female">3♀</specimenCount>
+, 
+<collectingCountry id="1BF77606E80AFFE25F06F90ABAEDF971" box="[1077,1181,1684,1710]" name="Morocco" pageId="59" pageNumber="60">Morocco</collectingCountry>
+, 
+<location id="663F604DE80AFFE25F9FF90DBB34F972" LSID="urn:lsid:plazi:treatment:EB498780E80AFFE55BA4FF09BF6FFF26:663F604DE80AFFE25F9FF90DBB34F972" box="[1196,1348,1683,1709]" country="Morocco" name="Middle Atlas" pageId="59" pageNumber="60">Middle Atlas</location>
+, 
+<collectorName id="CE155340E80AFFE25E61F90DBBE8F972" box="[1362,1432,1683,1709]" pageId="59" pageNumber="60">Ifrane</collectorName>
+, 
+<collectorName id="CE155340E80AFFE25BA4F929BF46F90D" box="[151,310,1719,1746]" pageId="59" pageNumber="60">Tizi-n Tretten</collectorName>
+, 
+<quantity id="A4189B73E80AFFE25A70F929BFE3F90E" box="[323,403,1719,1745]" metricMagnitude="3" metricUnit="m" metricValue="1.7" pageId="59" pageNumber="60" unit="m" value="1700.0">
+<elevation id="E8CDD1A5E80AFFE25A70F929BFE3F90E" box="[323,403,1719,1745]" metricMagnitude="3" metricUnit="m" metricValue="1.7" pageId="59" pageNumber="60" unit="m" value="1700.0">1700m</elevation>
+</quantity>
+, 
+<date id="175E1056E80AFFE25A92F929BFB3F90E" box="[417,451,1719,1745]" pageId="59" pageNumber="60" value="1994-06-27" valueMax="1994-07-06" valueMin="1994-06-27">27.</date>
+</materialsCitation>
+VI.–6.VII.1994, leg. 
+<collectorName id="CE155340E80AFFE25980F929BD46F90E" box="[691,822,1719,1745]" pageId="59" pageNumber="60">Riefenstahl</collectorName>
+; 
+<materialsCitation id="D3883CCBE80AFFE25877F929BE88F92A" ID-GBIF-Occurrence="3127750739" collectorName="Ifrane &amp; Tizi-n Tretten" country="Morocco" elevation="1900" location="Middle Atlas" pageId="59" pageNumber="60" specimenCount="1" specimenCount-female="1">
+<specimenCount id="75E6FD1FE80AFFE25877F929BD17F90E" box="[836,871,1719,1745]" pageId="59" pageNumber="60" type="female">1♀</specimenCount>
+, ibid., 
+<quantity id="A4189B73E80AFFE2588AF929BA7AF90E" box="[953,1034,1719,1745]" metricMagnitude="3" metricUnit="m" metricValue="1.9" pageId="59" pageNumber="60" unit="m" value="1900.0">
+<elevation id="E8CDD1A5E80AFFE2588AF929BA7AF90E" box="[953,1034,1719,1745]" metricMagnitude="3" metricUnit="m" metricValue="1.9" pageId="59" pageNumber="60" unit="m" value="1900.0">1900m</elevation>
+</quantity>
+, e.l. ex 
+<taxonomicName id="A4E04D15E80AFFE25F55F926BB72F90D" box="[1126,1282,1720,1746]" class="Magnoliopsida" family="Plumbaginaceae" genus="Limonium" kingdom="Plantae" order="Caryophyllales" pageId="59" pageNumber="60" phylum="Tracheophyta" rank="species" species="undetermined">
+<emphasis id="5194EA84E80AFFE25F55F926BAA8F90E" box="[1126,1240,1720,1745]" italics="true" pageId="59" pageNumber="60">Limonium</emphasis>
+sp.
+</taxonomicName>
+, larva 16.IV., adult 
+<date id="175E1056E80AFFE25BEBF945BE88F92A" box="[216,248,1755,1781]" pageId="59" pageNumber="60" value="1997-07-10">10.</date>
+</materialsCitation>
+VII.1997, leg. AK (CCDB-04613-C07) 
+<materialsCitation id="D3883CCBE80AFFE2598CF945BB77F929" ID-GBIF-Occurrence="3127750392" box="[703,1287,1755,1782]" collectorName="Col du Zad" country="Morocco" elevation="2000" location="Middle Atlas" pageId="59" pageNumber="60" specimenCount="1" specimenCount-male="1">
+<specimenCount id="75E6FD1FE80AFFE2598CF945BC94F92A" box="[703,740,1755,1781]" pageId="59" pageNumber="60" type="male">1♂</specimenCount>
+, 
+<collectingCountry id="1BF77606E80AFFE259C1F942BD2AF929" box="[754,858,1756,1782]" name="Morocco" pageId="59" pageNumber="60">Morocco</collectingCountry>
+, 
+<location id="663F604DE80AFFE25855F945BD8CF92A" LSID="urn:lsid:plazi:treatment:EB498780E80AFFE55BA4FF09BF6FFF26:663F604DE80AFFE25855F945BD8CF92A" box="[870,1020,1755,1781]" country="Morocco" name="Middle Atlas" pageId="59" pageNumber="60">Middle Atlas</location>
+, 
+<collectorName id="CE155340E80AFFE25F3AF945BAFCF92A" box="[1033,1164,1755,1781]" pageId="59" pageNumber="60">Col du Zad</collectorName>
+, 
+<quantity id="A4189B73E80AFFE25FAAF945BA9AF92A" box="[1177,1258,1755,1781]" metricMagnitude="3" metricUnit="m" metricValue="2.0" pageId="59" pageNumber="60" unit="m" value="2000.0">
+<elevation id="E8CDD1A5E80AFFE25FAAF945BA9AF92A" box="[1177,1258,1755,1781]" metricMagnitude="3" metricUnit="m" metricValue="2.0" pageId="59" pageNumber="60" unit="m" value="2000.0">2000m</elevation>
+</quantity>
+, 
+<date id="175E1056E80AFFE25FC5F945BB77F929" box="[1270,1287,1755,1782]" pageId="59" pageNumber="60" value="1998-07-05">5.</date>
+</materialsCitation>
+VII.1998, on 
+<taxonomicName id="A4E04D15E80AFFE25BA4F89EBF45F8C5" box="[151,309,1792,1818]" class="Magnoliopsida" family="Plumbaginaceae" genus="Limonium" kingdom="Plantae" order="Caryophyllales" pageId="59" pageNumber="60" phylum="Tracheophyta" rank="species" species="undetermined">
+<emphasis id="5194EA84E80AFFE25BA4F89EBF79F8C6" box="[151,265,1792,1817]" italics="true" pageId="59" pageNumber="60">Limonium</emphasis>
+sp.
+</taxonomicName>
+, leg. AL (Bartsch gen. prep. 2007-57); 
+<materialsCitation id="D3883CCBE80AFFE2583BF961BD74F8E1" ID-GBIF-Occurrence="3127750594" country="Morocco" elevation="1200" location="Middle Atlas" pageId="59" pageNumber="60" specimenCount="1" specimenCount-female="1">
+<specimenCount id="75E6FD1FE80AFFE2583BF961BD5BF8C6" box="[776,811,1791,1817]" pageId="59" pageNumber="60" type="female">1♀</specimenCount>
+(
+<figureCitation id="FBDB2A13E80AFFE2580DF961BDD3F8C5" box="[830,931,1791,1818]" captionStart="FIGURES 191–205" captionStartId="62.[151,264,1771,1795]" captionTargetBox="[164,1429,184,1741]" captionTargetId="figure-27@62.[151,1435,181,1748]" captionTargetPageId="62" captionText="FIGURES 191–205. Pyropteron species. 191–193. Pyropteron maroccana, (191–192) ♂, (193) ♀, Morocco, High Atlas. 194–199. Pyropteron borreyi, (194) ♂, (195) ♀, Morocco, Middle Atlas (from Limonium), (196) ♂, Morocco, Middle Atlas, (197–198) ♂, (199) ♀, Morocco, High Atlas (from Armeria). 200–202. Pyropteron hellenicum sp. nov., (200–201) ♂ holotype, (202) ♂, paratype, Greece, Evrytania. 203–205. Pyropteron meriaeformis, (203–204) ♂, paratype, (205) ♀, France, Pyrenees. Scale 10mm." figureDoi="http://doi.org/10.5281/zenodo.4771921" httpUri="https://zenodo.org/record/4771921/files/figure.png" pageId="59" pageNumber="60">Fig. 195</figureCitation>
+), 
+<collectingCountry id="1BF77606E80AFFE25888F89EBA53F8C5" box="[955,1059,1792,1818]" name="Morocco" pageId="59" pageNumber="60">Morocco</collectingCountry>
+, 
+<location id="663F604DE80AFFE25F01F961BABAF8C6" LSID="urn:lsid:plazi:treatment:EB498780E80AFFE55BA4FF09BF6FFF26:663F604DE80AFFE25F01F961BABAF8C6" box="[1074,1226,1791,1817]" country="Morocco" name="Middle Atlas" pageId="59" pageNumber="60">Middle Atlas</location>
+, 
+<locationDeviation id="72ED2FB4E80AFFE25FEAF961BBE8F8C6" box="[1241,1432,1791,1818]" location="Mrirt" pageId="59" pageNumber="60">
+<quantity id="A4189B73E80AFFE25FEAF961BB7BF8C5" box="[1241,1291,1791,1818]" metricMagnitude="3" metricUnit="m" metricValue="5.0" pageId="59" pageNumber="60" unit="km" value="5.0">5km</quantity>
+NNE Mrirt
+</locationDeviation>
+, 
+<quantity id="A4189B73E80AFFE25BA4F8BDBE97F8E2" box="[151,231,1827,1853]" metricMagnitude="3" metricUnit="m" metricValue="1.2" pageId="59" pageNumber="60" unit="m" value="1200.0">
+<elevation id="E8CDD1A5E80AFFE25BA4F8BDBE97F8E2" box="[151,231,1827,1853]" metricMagnitude="3" metricUnit="m" metricValue="1.2" pageId="59" pageNumber="60" unit="m" value="1200.0">1200m</elevation>
+</quantity>
+, e.l. ex 
+<taxonomicName id="A4E04D15E80AFFE25A73F8BABFABF8E1" box="[320,475,1828,1854]" class="Magnoliopsida" family="Plumbaginaceae" genus="Limonium" kingdom="Plantae" order="Caryophyllales" pageId="59" pageNumber="60" phylum="Tracheophyta" rank="species" species="undetermined">
+<emphasis id="5194EA84E80AFFE25A73F8BABFC2F8E2" box="[320,434,1828,1853]" italics="true" pageId="59" pageNumber="60">Limonium</emphasis>
+sp.
+</taxonomicName>
+, larva 14.IV., adult 
+<date id="175E1056E80AFFE25988F8BDBD74F8E1" box="[699,772,1827,1854]" pageId="59" pageNumber="60" value="1997-05-15" valueMax="1997-05-31" valueMin="1997-05-15">15.-31.</date>
+</materialsCitation>
+V.1997, leg. AK (CCDB-04613-C09); 
+<materialsCitation id="D3883CCBE80AFFE25F8DF8BDBF8AF8BE" ID-GBIF-Occurrence="3127750480" collectorName="Oukaimeden" country="Morocco" elevation="2630" location="High Atlas" pageId="59" pageNumber="60" specimenCount="5" specimenCount-male="5">
+<specimenCount id="75E6FD1FE80AFFE25F8DF8BDBA93F8E1" box="[1214,1251,1827,1854]" pageId="59" pageNumber="60" type="male">5♂</specimenCount>
+, 
+<collectingCountry id="1BF77606E80AFFE25FC3F8BABB28F8E1" box="[1264,1368,1828,1854]" name="Morocco" pageId="59" pageNumber="60">Morocco</collectingCountry>
+, 
+<location id="663F604DE80AFFE25E57F8BDBEA5F8BE" LSID="urn:lsid:plazi:treatment:EB498780E80AFFE55BA4FF09BF6FFF26:663F604DE80AFFE25E57F8BDBEA5F8BE" country="Morocco" name="High Atlas" pageId="59" pageNumber="60">High Atlas</location>
+, 
+<collectorName id="CE155340E80AFFE25BD3F8D9BF02F8BE" box="[224,370,1863,1889]" pageId="59" pageNumber="60">Oukaimeden</collectorName>
+, 
+<quantity id="A4189B73E80AFFE25A4EF8D9BFBEF8BE" box="[381,462,1863,1889]" metricMagnitude="3" metricUnit="m" metricValue="2.63" pageId="59" pageNumber="60" unit="m" value="2630.0">
+<elevation id="E8CDD1A5E80AFFE25A4EF8D9BFBEF8BE" box="[381,462,1863,1889]" metricMagnitude="3" metricUnit="m" metricValue="2.63" pageId="59" pageNumber="60" unit="m" value="2630.0">2630m</elevation>
+</quantity>
+, 
+<date id="175E1056E80AFFE25AEBF8D9BF8AF8BE" box="[472,506,1863,1889]" pageId="59" pageNumber="60" value="2009-06-29">29.</date>
+</materialsCitation>
+VI.2009, leg. FP (SMNS); 
+<materialsCitation id="D3883CCBE80AFFE2581BF8D9BED5F859" ID-GBIF-Occurrence="3127751071" collectorName="Oukaimeden" country="Morocco" elevation="2675" location="Haut Atlas" pageId="59" pageNumber="60" specimenCount="16" specimenCount-male="16">
+<specimenCount id="75E6FD1FE80AFFE2581BF8D9BD2CF8BE" box="[808,860,1863,1889]" pageId="59" pageNumber="60" type="male">16♂</specimenCount>
+, 
+<collectingCountry id="1BF77606E80AFFE25854F8D6BDBFF8BD" box="[871,975,1864,1890]" name="Morocco" pageId="59" pageNumber="60">Morocco</collectingCountry>
+, 
+<location id="663F604DE80AFFE258EAF8D6BA23F8BE" LSID="urn:lsid:plazi:treatment:EB498780E80AFFE55BA4FF09BF6FFF26:663F604DE80AFFE258EAF8D6BA23F8BE" box="[985,1107,1863,1890]" country="Morocco" name="Haut Atlas" pageId="59" pageNumber="60">Haut Atlas</location>
+, 
+<collectorName id="CE155340E80AFFE25F6DF8D9BA80F8BE" box="[1118,1264,1863,1889]" pageId="59" pageNumber="60">Oukaimeden</collectorName>
+, 
+<quantity id="A4189B73E80AFFE25FC8F8D9BBE7F8BD" box="[1275,1431,1863,1890]" metricMagnitude="3" metricUnit="m" metricValue="2.675" metricValueMax="2.7199999999999998" metricValueMin="2.63" pageId="59" pageNumber="60" unit="m" value="2675.0" valueMax="2720.0" valueMin="2630.0">
+<elevation id="E8CDD1A5E80AFFE25FC8F8D9BBE7F8BD" box="[1275,1431,1863,1890]" metricMagnitude="3" metricUnit="m" metricValue="2.675" metricValueMax="2.7199999999999998" metricValueMin="2.63" pageId="59" pageNumber="60" unit="m" value="2675.0" valueMax="2720.0" valueMin="2630.0">2630–2720 m</elevation>
+</quantity>
+, 
+<date id="175E1056E80AFFE25BA4F8F5BED5F859" box="[151,165,1899,1926]" pageId="59" pageNumber="60" value="2005-07-01">1.</date>
+</materialsCitation>
+VII.2005, leg. FP (BOX-2220 F07, photo 2005/1199-1227); 
+<materialsCitation id="D3883CCBE80AFFE25857F8F5BD8AF859" ID-GBIF-Occurrence="3127750626" box="[868,1018,1899,1926]" collectorName="Oukaimeden" country="Morocco" elevation="2675" location="Haut Atlas" pageId="59" pageNumber="60" specimenCount="16" specimenCount-male="16">
+<specimenCount id="75E6FD1FE80AFFE25857F8F5BDE7F85A" box="[868,919,1899,1925]" pageId="59" pageNumber="60" type="male">16♂</specimenCount>
+, ibid., 
+<date id="175E1056E80AFFE258DBF8F5BD8AF859" box="[1000,1018,1899,1926]" pageId="59" pageNumber="60" value="2005-07-02">2.</date>
+</materialsCitation>
+VII.2005, leg. FP (BOX-2221 C07); 
+<materialsCitation id="D3883CCBE80AFFE25BA4F811BF31F876" ID-GBIF-Occurrence="3127750602" box="[151,321,1935,1961]" collectorName="Oukaimeden" country="Morocco" elevation="2675" location="Haut Atlas" pageId="59" pageNumber="60" specimenCount="17" specimenCount-male="17">
+<specimenCount id="75E6FD1FE80AFFE25BA4F811BEBBF876" box="[151,203,1935,1961]" pageId="59" pageNumber="60" type="male">17♂</specimenCount>
+, ibid., 
+<date id="175E1056E80AFFE25A2CF811BF31F876" box="[287,321,1935,1961]" pageId="59" pageNumber="60" value="2008-06-20">20.</date>
+</materialsCitation>
+VI.2008, leg. FP (photo 2008/864-869); 
+<materialsCitation id="D3883CCBE80AFFE25828F811BDB4F876" ID-GBIF-Occurrence="3127750538" box="[795,964,1935,1961]" collectorName="Oukaimeden" country="Morocco" elevation="2675" location="Haut Atlas" pageId="59" pageNumber="60" specimenCount="34" specimenCount-male="34">
+<specimenCount id="75E6FD1FE80AFFE25828F811BD3FF876" box="[795,847,1935,1961]" pageId="59" pageNumber="60" type="male">34♂</specimenCount>
+, ibid., 
+<date id="175E1056E80AFFE25891F811BDB4F876" box="[930,964,1935,1961]" pageId="59" pageNumber="60" value="2009-06-29">29.</date>
+</materialsCitation>
+VI.2009, leg. FP (CCDB-02113-F11 and F12, photo 2009/435-445); 
+<materialsCitation id="D3883CCBE80AFFE25AE3F82DBC26F812" ID-GBIF-Occurrence="3127751007" box="[464,598,1971,1997]" collectorName="Oukaimeden" country="Morocco" elevation="2675" location="Haut Atlas" pageId="59" pageNumber="60" specimenCount="1" specimenCount-female="1">
+<specimenCount id="75E6FD1FE80AFFE25AE3F82DBF83F812" box="[464,499,1971,1997]" pageId="59" pageNumber="60" type="female">1♀</specimenCount>
+, ibid., 
+<date id="175E1056E80AFFE25977F82DBC26F812" box="[580,598,1971,1997]" pageId="59" pageNumber="60" value="2009-07-06">6.</date>
+</materialsCitation>
+VII.2009, leg. FP (photo 2009/557-565); 
+<materialsCitation id="D3883CCBE80AFFE25F1EF82DBFB3F82E" ID-GBIF-Occurrence="3127751051" collectorName="Col du Zad" country="Morocco" elevation="2133" location="Moyen Atlas" pageId="59" pageNumber="60" specimenCount="4" specimenCount-male="4">
+<specimenCount id="75E6FD1FE80AFFE25F1EF82DBA22F812" box="[1069,1106,1971,1997]" pageId="59" pageNumber="60" type="male">4♂</specimenCount>
+, 
+<collectingCountry id="1BF77606E80AFFE25F6CF82ABAB7F811" box="[1119,1223,1972,1998]" name="Morocco" pageId="59" pageNumber="60">Morocco</collectingCountry>
+, 
+<location id="663F604DE80AFFE25FE7F82ABB18F812" LSID="urn:lsid:plazi:treatment:EB498780E80AFFE55BA4FF09BF6FFF26:663F604DE80AFFE25FE7F82ABB18F812" box="[1236,1384,1971,1998]" country="Morocco" name="Moyen Atlas" pageId="59" pageNumber="60">Moyen Atlas</location>
+, 
+<collectorName id="CE155340E80AFFE25E47F82DBE99F82E" pageId="59" pageNumber="60">Col du Zad</collectorName>
+, 
+<quantity id="A4189B73E80AFFE25BC5F849BFE4F82D" box="[246,404,2007,2034]" metricMagnitude="3" metricUnit="m" metricValue="2.1325" metricValueMax="2.165" metricValueMin="2.1" pageId="59" pageNumber="60" unit="m" value="2132.5" valueMax="2165.0" valueMin="2100.0">
+<elevation id="E8CDD1A5E80AFFE25BC5F849BFE4F82D" box="[246,404,2007,2034]" metricMagnitude="3" metricUnit="m" metricValue="2.1325" metricValueMax="2.165" metricValueMin="2.1" pageId="59" pageNumber="60" unit="m" value="2132.5" valueMax="2165.0" valueMin="2100.0">2100–2165 m</elevation>
+</quantity>
+, 
+<date id="175E1056E80AFFE25A92F849BFB3F82E" box="[417,451,2007,2033]" pageId="59" pageNumber="60" value="2009-06-22">22.</date>
+</materialsCitation>
+VI.2009, leg. FP (photo 2009/258-277); 
+<materialsCitation id="D3883CCBE80AFFE258A3F849BA43F82D" ID-GBIF-Occurrence="3127751002" box="[912,1075,2007,2034]" collectorName="Col du Zad" country="Morocco" elevation="2133" location="Moyen Atlas" pageId="59" pageNumber="60" specimenCount="29" specimenCount-male="29">
+<specimenCount id="75E6FD1FE80AFFE258A3F849BDB4F82E" box="[912,964,2007,2033]" pageId="59" pageNumber="60" type="male">29♂</specimenCount>
+, ibid., 
+<date id="175E1056E80AFFE25F21F849BA43F82D" box="[1042,1075,2007,2034]" pageId="59" pageNumber="60" value="2009-06-25">25.</date>
+</materialsCitation>
+VI.2009, leg. FP (CCDB-02112 A11); 
+<materialsCitation id="D3883CCBE80DFFE55BECFF08BC5EFF6E" ID-GBIF-Occurrence="3127750647" box="[223,558,150,177]" collectingDate="2009-07-03" pageId="60" pageNumber="61" specimenCount="5" specimenCount-male="5">
+<specimenCount id="75E6FD1FE80DFFE55BECFF08BF73FF6E" box="[223,259,150,177]" pageId="60" pageNumber="61" type="male">5♂</specimenCount>
+, ibid., 
+<date id="175E1056E80DFFE55A62FF09BFBEFF6E" box="[337,462,151,177]" pageId="60" pageNumber="61" value="2009-07-03">
+<collectingDate id="071AE9BEE80DFFE55A62FF09BFBEFF6E" box="[337,462,151,177]" pageId="60" pageNumber="61" value="2009-07-03">3.VII.2009</collectingDate>
+</date>
+, leg. FP
+</materialsCitation>
+; 
+<materialsCitation id="D3883CCBE80DFFE5590AFF09BF32FF09" ID-GBIF-Occurrence="3127750552" collectingDate="2009-07-04" pageId="60" pageNumber="61" specimenCount="36" specimenCount-male="36">
+<specimenCount id="75E6FD1FE80DFFE5590AFF09BC1DFF6E" box="[569,621,151,177]" pageId="60" pageNumber="61" type="male">36♂</specimenCount>
+, ibid., 
+<date id="175E1056E80DFFE5598AFF09BD46FF6E" box="[697,822,151,177]" pageId="60" pageNumber="61" value="2009-07-04">
+<collectingDate id="071AE9BEE80DFFE5598AFF09BD46FF6E" box="[697,822,151,177]" pageId="60" pageNumber="61" value="2009-07-04">4.VII.2009</collectingDate>
+</date>
+, leg. FP (CCDB-02113 F09, CCDB-02112 A10, photo 2009/464-474)
+</materialsCitation>
+; 
+<materialsCitation id="D3883CCBE80DFFE55A7EFF25BA26FF0A" ID-GBIF-Occurrence="3127750984" box="[333,1110,187,213]" collectionCode="VI" collectorName="Ait Mhammed SE Azilal" country="Morocco" elevation="1690" location="Morocco" pageId="60" pageNumber="61" specimenCount="1" specimenCount-male="1">
+<specimenCount id="75E6FD1FE80DFFE55A7EFF25BF01FF0A" box="[333,369,187,213]" pageId="60" pageNumber="61" type="male">1♂</specimenCount>
+, 
+<collectingCountry id="1BF77606E80DFFE55A4DFF25BF96FF0A" box="[382,486,187,213]" name="Morocco" pageId="60" pageNumber="61">Morocco</collectingCountry>
+, Moyen Atlas, 
+<collectorName id="CE155340E80DFFE559BDFF25BDD6FF0A" box="[654,934,187,213]" pageId="60" pageNumber="61">Ait Mhammed SE Azilal</collectorName>
+, 
+<quantity id="A4189B73E80DFFE55881FF25BA79FF0A" box="[946,1033,187,213]" metricMagnitude="3" metricUnit="m" metricValue="1.69" pageId="60" pageNumber="61" unit="m" value="1690.0">
+<elevation id="E8CDD1A5E80DFFE55881FF25BA79FF0A" box="[946,1033,187,213]" metricMagnitude="3" metricUnit="m" metricValue="1.69" pageId="60" pageNumber="61" unit="m" value="1690.0">1690 m</elevation>
+</quantity>
+, 
+<date id="175E1056E80DFFE55F26FF25BA26FF0A" box="[1045,1110,187,213]" pageId="60" pageNumber="61" value="2009-06-27">
+27. 
+<collectionCode id="05F1AE53E80DFFE55F05FF25BA26FF0A" box="[1078,1110,187,213]" country="Norway" name="Mykotektet, National Veterinary Institute" pageId="60" pageNumber="61">VI</collectionCode>
+</date>
+</materialsCitation>
+.2009, leg. FP (CCDB-02113 F10) (CFP).
+</paragraph>
+</subSubSection>
+</treatment>
+</document>
