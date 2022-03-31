@@ -1,0 +1,804 @@
+<document id="81AD3737F137FA9EA0D5EF8BB3200AA7" ID-DOI="http://doi.org/10.5281/zenodo.4538350" ID-GBIF-Dataset="3b930803-e9e7-4a9e-ab6c-73cf871469ee" ID-GBIF-Taxon="177324371" ID-ISSN="1175-5326" ID-Zenodo-Dep="4538350" ID-ZooBank="F2724BF2-0871-4645-9761-2605F06C8407" LSID="urn:lsid:zoobank.org:act:62924636-62F8-43AA-B686-9A47B8DC2FA2" _generate="added" checkinTime="1609708597103" checkinUser="plazi" docAuthor="Ceríaco, Luis M. P., Agarwal, Ishan, Marques, Mariana P. &amp; Bauer, Aaron M." docDate="2020" docId="03AE1365FFE6FF13FF2EFDBCBF43F90C" docLanguage="en" docName="zootaxa.4861.1.6.pdf" docOrigin="Zootaxa 4861 (1)" docStyle="DocumentStyle:647186512141C8FC8976D5BCC54AEB7D.9:Zootaxa.2013-.journal_article" docStyleId="647186512141C8FC8976D5BCC54AEB7D" docStyleName="Zootaxa.2013-.journal_article" docStyleVersion="9" docTitle="Hemidactylus hannahsabinae Ceríaco &amp; Agarwal &amp; Marques &amp; Bauer 2020, sp. nov." docType="treatment" docUuid="62924636-62F8-43AA-B686-9A47B8DC2FA2" docUuidSource="ZooBank" docVersion="8" lastPageId="7" lastPageNumber="99" masterDocId="FF976B1DFFE5FF14FFB9FF90BD2AFFC7" masterDocTitle="A correction to a recent review of the genus Hemidactylus Goldfuss, 1820 (Squamata: Gekkonidae) from Angola, with the description of two additional species" masterLastPageNumber="106" masterPageNumber="92" pageId="3" pageNumber="95" updateTime="1635477733697" updateUser="ExternalLinkService" zenodo-license-document="CLOSED">
+<mods:mods id="BFA721A4FDD534FF32AFBFDA6A66A99D" xmlns:mods="http://www.loc.gov/mods/v3">
+<mods:titleInfo id="C629D04AD07A56BA34C7A8CDB50DF01F">
+<mods:title id="6E230DBD4E11D8B620706A3B252AD9F9">A correction to a recent review of the genus Hemidactylus Goldfuss, 1820 (Squamata: Gekkonidae) from Angola, with the description of two additional species</mods:title>
+</mods:titleInfo>
+<mods:name id="7E9927EA5A478720F9B6574CD31A7D66" type="personal">
+<mods:role id="146B83C905F679441A2F7412E8303271">
+<mods:roleTerm id="23B69F06815E8C042B2107FE8A467964">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="A387B8F3C23C221ADF563ADBDFF3DA17">Ceríaco, Luis M. P.</mods:namePart>
+<mods:nameIdentifier id="1C2B6A489705829D28DC47BD84B67062" type="ORCID">0000-0002-0591-9978</mods:nameIdentifier>
+<mods:affiliation id="9C977134DAB00E4856A6B519771910D4">Museu de História Natural e da Ciência da Universidade do Porto, Praça de Gomes Teixeira, 4099 - 002 Porto, Portugal &amp; Departamento de Zoologia e Antropologia (Museu Bocage), Museu Nacional de História Natural e da Ciência, Universidade de Lisboa, Rua da Escola Politécnica, 58, 1269 - 102 Lisboa, Portugal &amp; https: // orcid. org / 0000 - 0002 - 1712 - 2632 &amp; Department of Biology and Center for Biodiversity and Ecosystem Stewardship, Villanova University, 800 Lancaster Avenue, Villanova, Pennsylvania 19085 - 1699, USA &amp; https: // orcid. org / 0000 - 0001 - 9734 - 5379 &amp; https: // orcid. org / 0000 - 0001 - 6839 - 8025</mods:affiliation>
+<mods:nameIdentifier id="A1191A6843B12B3A209ED1C82C5AED86" type="email">lmceriaco@mhnc.up.pt</mods:nameIdentifier>
+</mods:name>
+<mods:name id="45355458F5AD4EA9978A728C4302E443" type="personal">
+<mods:role id="E4CBB1A070DD4F83C980AF69E5E807AD">
+<mods:roleTerm id="402A5716D430BBE60059FAB8220275CC">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="56EA887195B45224795B80A76E229CB1">Agarwal, Ishan</mods:namePart>
+<mods:nameIdentifier id="592AA7F3D2908D2CD327727DDA3390DF" type="ORCID">0000-0002-0591-9978</mods:nameIdentifier>
+<mods:affiliation id="A2E2EC273C7856F08F2E62FAAA965476">Department of Biology and Center for Biodiversity and Ecosystem Stewardship, Villanova University, 800 Lancaster Avenue, Villanova, Pennsylvania 19085 - 1699, USA &amp; https: // orcid. org / 0000 - 0001 - 9734 - 5379 &amp; https: // orcid. org / 0000 - 0001 - 6839 - 8025 &amp; Thackeray Wildlife Foundation, Mumbai, 400051, India &amp; https: // orcid. org / 0000 - 0001 - 9734 - 5379</mods:affiliation>
+<mods:nameIdentifier id="BA3A86025967BD9D8C4385A58EBE3DF0" type="email">lmceriaco@mhnc.up.pt</mods:nameIdentifier>
+</mods:name>
+<mods:name id="9E4E7E9B5C13CD34B437288FF15F4697" type="personal">
+<mods:role id="3E28DE4138FC034DDE2589F93A85DF74">
+<mods:roleTerm id="97120413E36D59A247E5404D95D920C9">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="246FA8C7A87625CD1853A5C5A6DD4C0F">Marques, Mariana P.</mods:namePart>
+<mods:nameIdentifier id="446D2ED88E8A559C0AC96A2A47BD8059" type="ORCID">0000-0002-0591-9978</mods:nameIdentifier>
+<mods:affiliation id="02F8835068D1DE6850D05DD9F00F6210">Museu de História Natural e da Ciência da Universidade do Porto, Praça de Gomes Teixeira, 4099 - 002 Porto, Portugal &amp; Departamento de Zoologia e Antropologia (Museu Bocage), Museu Nacional de História Natural e da Ciência, Universidade de Lisboa, Rua da Escola Politécnica, 58, 1269 - 102 Lisboa, Portugal &amp; https: // orcid. org / 0000 - 0002 - 1712 - 2632 &amp; Centro de Investigação em Biodiversidade e Recursos Genéticos (CIBIO), InBIO, Universidade do Porto, Rua Padre Armando Quintas 7, Vairão, 4485 - 661 Porto, Portugal &amp; https: // orcid. org / 0000 - 0002 - 1712 - 2632</mods:affiliation>
+<mods:nameIdentifier id="F634DD09E2176A55E5B0B919033FCF64" type="email">lmceriaco@mhnc.up.pt</mods:nameIdentifier>
+</mods:name>
+<mods:name id="ABC80E35405593C19A40F10D237462F2" type="personal">
+<mods:role id="FCB6FDEDE7C015C94B015E54BF7B67FA">
+<mods:roleTerm id="C7733193CE509D1138C622C3FF92F03C">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="092082D307FBE5A29A851E67E79C9A2E">Bauer, Aaron M.</mods:namePart>
+<mods:nameIdentifier id="22D15B876FD0E27A6ADC7D455EEA70C9" type="ORCID">0000-0002-0591-9978</mods:nameIdentifier>
+<mods:affiliation id="C27766C017A5F97783E8473375C19AAD">Department of Biology and Center for Biodiversity and Ecosystem Stewardship, Villanova University, 800 Lancaster Avenue, Villanova, Pennsylvania 19085 - 1699, USA &amp; https: // orcid. org / 0000 - 0001 - 9734 - 5379 &amp; https: // orcid. org / 0000 - 0001 - 6839 - 8025</mods:affiliation>
+<mods:nameIdentifier id="A5E052E4B0F4FEAC6718696F68799D3A" type="email">lmceriaco@mhnc.up.pt</mods:nameIdentifier>
+</mods:name>
+<mods:typeOfResource id="8BF809A37C78EE7B58E8569C38D78A41">text</mods:typeOfResource>
+<mods:relatedItem id="F293DDC785C8378BA3F1345AF628C2EB" type="host">
+<mods:titleInfo id="C60C8027F8E745B0C6553C1C016A25D4">
+<mods:title id="C9EFB39145E20A5A50561104D4878A45">Zootaxa</mods:title>
+</mods:titleInfo>
+<mods:part id="A186525F85D0FFF557769332D72004A8">
+<mods:date id="EC0858262545F43DE542FBA0D0155AA5">2020</mods:date>
+<mods:detail id="513DCE2649F9EC57CABD9768EA577FB1" type="pubDate">
+<mods:number id="F462D11BA5CAD74D0036737640142295">2020-10-15</mods:number>
+</mods:detail>
+<mods:detail id="4CAD4D4A9326F140164F308062D6CDF1" type="volume">
+<mods:number id="4687301D3C5F1AA0EE47FD43E2336C0B">4861</mods:number>
+</mods:detail>
+<mods:detail id="108B887667AA385CAE6D47C54293E843" type="issue">
+<mods:number id="4A0CA413245B625BBB37AC9DCD846AFC">1</mods:number>
+</mods:detail>
+<mods:extent id="47BFD3F009FF19335247A5107C3D7318" unit="page">
+<mods:start id="9593631A1D3E87588D56EBDBD5F1E7B6">92</mods:start>
+<mods:end id="5AA9E11E8D763054850712DBF6DA0FB8">106</mods:end>
+</mods:extent>
+</mods:part>
+</mods:relatedItem>
+<mods:classification id="778A450F8BC71A2CABE3913D1365B83F">journal article</mods:classification>
+<mods:identifier id="2055A1E454E8E1BE7DAAA0FE0A45AF44" type="DOI">https://doi.org/10.11646/zootaxa.4861.1.6</mods:identifier>
+<mods:identifier id="00578EDC3C3AA88A73672AF3F994F23F" type="GBIF-Dataset">3b930803-e9e7-4a9e-ab6c-73cf871469ee</mods:identifier>
+<mods:identifier id="D55BF61415504B4117E7B657582BA378" type="ISSN">1175-5326</mods:identifier>
+<mods:identifier id="232D7255BC4A8EDB2CBE4C30964902E8" type="Zenodo-Dep">4414620</mods:identifier>
+<mods:identifier id="60E99C18B8A76CFA2D6D360A6276F650" type="ZooBank">F2724BF2-0871-4645-9761-2605F06C8407</mods:identifier>
+</mods:mods>
+<treatment id="03AE1365FFE6FF13FF2EFDBCBF43F90C" ID-DOI="http://doi.org/10.5281/zenodo.4538350" ID-GBIF-Taxon="177324371" ID-Zenodo-Dep="4538350" LSID="urn:lsid:zoobank.org:act:62924636-62F8-43AA-B686-9A47B8DC2FA2" httpUri="http://treatment.plazi.org/id/03AE1365FFE6FF13FF2EFDBCBF43F90C" lastPageId="7" lastPageNumber="99" pageId="3" pageNumber="95">
+<subSubSection id="C31DF1F8FFE6FF17FF2EFDBCBF4FFD80" box="[151,613,556,583]" pageId="3" pageNumber="95" type="nomenclature">
+<paragraph id="8BB8A273FFE6FF17FF2EFDBCBF4FFD80" blockId="3.[151,613,556,618]" box="[151,613,556,583]" pageId="3" pageNumber="95">
+<heading id="D0F0151FFFE6FF17FF2EFDBCBF4FFD80" bold="true" box="[151,613,556,583]" fontSize="11" level="1" pageId="3" pageNumber="95" reason="1">
+<emphasis id="B9737E61FFE6FF17FF2EFDBCBF4FFD80" bold="true" box="[151,613,556,583]" pageId="3" pageNumber="95">
+<taxonomicName id="4C07D9F0FFE6FF17FF2EFDBCBF2AFD80" authority="Ceríaco &amp; Agarwal &amp; Marques &amp; Bauer, 2020" authorityName="Ceríaco &amp; Agarwal &amp; Marques &amp; Bauer" authorityYear="2020" box="[151,512,556,583]" class="Reptilia" family="Gekkonidae" genus="Hemidactylus" kingdom="Animalia" order="Squamata" pageId="3" pageNumber="95" phylum="Chordata" rank="species" species="hannahsabinae" status="sp. nov.">
+<emphasis id="B9737E61FFE6FF17FF2EFDBCBF2AFD80" bold="true" box="[151,512,556,583]" italics="true" pageId="3" pageNumber="95">Hemidactylus hannahsabinae</emphasis>
+</taxonomicName>
+<taxonomicNameLabel id="A240C31AFFE6FF17FDB1FDBDBF4FFD80" box="[520,613,557,583]" pageId="3" pageNumber="95" rank="species">sp. nov.</taxonomicNameLabel>
+</emphasis>
+</heading>
+</paragraph>
+</subSubSection>
+<subSubSection id="C31DF1F8FFE6FF17FF2EFDC0B9A4FB25" pageId="3" pageNumber="95" type="description">
+<paragraph id="8BB8A273FFE6FF17FF2EFDC0BC39FDAD" blockId="3.[151,613,556,618]" box="[151,275,592,618]" pageId="3" pageNumber="95">
+<heading id="D0F0151FFFE6FF17FF2EFDC0BC39FDAD" bold="true" box="[151,275,592,618]" fontSize="11" level="1" pageId="3" pageNumber="95" reason="1">
+<emphasis id="B9737E61FFE6FF17FF2EFDC0BC39FDAD" bold="true" box="[151,275,592,618]" pageId="3" pageNumber="95">
+(
+<figureCitation id="133CBEF6FFE6FF17FF26FDC0BC26FDAD" box="[159,268,592,618]" captionStart-0="FIGURE 1" captionStart-1="FIGURE 2" captionStart-2="FIGURE 3" captionStartId-0="4.[151,250,2003,2027]" captionStartId-1="5.[151,250,1047,1071]" captionStartId-2="6.[151,250,1352,1376]" captionTargetBox-0="[177,1410,990,1977]" captionTargetBox-1="[177,1411,181,1023]" captionTargetBox-2="[202,1386,381,1329]" captionTargetId-0="figure-407@4.[177,1410,990,1977]" captionTargetId-1="figure-24@5.[177,1411,181,1023]" captionTargetId-2="figure-112@6.[202,1386,381,1329]" captionTargetPageId-0="4" captionTargetPageId-1="5" captionTargetPageId-2="6" captionText-0="FIGURE 1. Holotype of Hemidactylus hannahsabinae sp. nov. (ANSP 32189). Photos Luis M. P. Ceríaco." captionText-1="FIGURE 2. Comparison between the dorsal scalation of H. nzingae (paratype, AMNH 47782) and H. hannahsabinae sp. nov. (paratype, AMNH 51960) from Dande. Photos Luis M. P. Ceríaco." captionText-2="FIGURE 3. Comparison between H. nzingae (paratype, AMNH 47782) and H. hannahsabinae sp. nov. (paratype, AMNH 51960) from Dande, both specimens collected in 1925. Scale 10 mm. Photos Luis M. P. Ceríaco." figureDoi-0="http://doi.org/10.5281/zenodo.4414622" figureDoi-1="http://doi.org/10.5281/zenodo.4414626" figureDoi-2="http://doi.org/10.5281/zenodo.4414628" httpUri-0="https://zenodo.org/record/4414622/files/figure.png" httpUri-1="https://zenodo.org/record/4414626/files/figure.png" httpUri-2="https://zenodo.org/record/4414628/files/figure.png" pageId="3" pageNumber="95">Figs. 1–3</figureCitation>
+)
+</emphasis>
+</heading>
+</paragraph>
+<paragraph id="8BB8A273FFE6FF17FF2EFD1EBEA5FD61" blockId="3.[151,911,654,709]" box="[151,911,654,678]" pageId="3" pageNumber="95">
+lsid: http://zoobank.org:act: 
+<uuid id="FFA198A6FFE6FF17FE12FD1EBEA5FD61" box="[427,911,654,678]" pageId="3" pageNumber="95">62924636-62F8-43AA-B686-9A47B8DC2FA2</uuid>
+</paragraph>
+<paragraph id="8BB8A273FFE6FF17FF2EFD3DBF96FD02" blockId="3.[151,911,654,709]" box="[151,700,685,709]" pageId="3" pageNumber="95">
+<taxonomicName id="4C07D9F0FFE6FF17FF2EFD3DBC52FD02" authorityName="Ceriaco, Agarwal, Marques &amp; Bauer" authorityYear="2020" box="[151,376,685,709]" class="Reptilia" family="Gekkonidae" genus="Hemidactylus" kingdom="Animalia" order="Squamata" pageId="3" pageNumber="95" phylum="Chordata" rank="species" species="nzingae">
+<emphasis id="B9737E61FFE6FF17FF2EFD3DBC52FD02" box="[151,376,685,709]" italics="true" pageId="3" pageNumber="95">Hemidactylus nzingae</emphasis>
+</taxonomicName>
+[part]: Ceríaco 
+<emphasis id="B9737E61FFE6FF17FDA0FD3EBF66FD02" box="[537,588,685,709]" italics="true" pageId="3" pageNumber="95">et al.</emphasis>
+(2020: 48)
+</paragraph>
+<paragraph id="8BB8A273FFE6FF17FF2EFD63B9A4FB25" blockId="3.[151,1437,755,2042]" pageId="3" pageNumber="95">
+When describing 
+<taxonomicName id="4C07D9F0FFE6FF17FEE7FD64BFFEFCCA" authority=", Ceriaco et al. (2020)" authorityName="Ceriaco" authorityYear="2020" box="[350,724,755,782]" class="Reptilia" family="Gekkonidae" genus="Hemidactylus" kingdom="Animalia" order="Squamata" pageId="3" pageNumber="95" phylum="Chordata" rank="species" species="nzingae">
+<emphasis id="B9737E61FFE6FF17FEE7FD64BCF2FCCA" box="[350,472,756,781]" italics="true" pageId="3" pageNumber="95">H. nzingae</emphasis>
+, 
+<emphasis id="B9737E61FFE6FF17FE5EFD64BF51FCCA" box="[487,635,755,782]" italics="true" pageId="3" pageNumber="95">Ceríaco et al</emphasis>
+. (2020)
+</taxonomicName>
+considered specimens from Dande, 
+<collectingRegion id="49C36C91FFE6FF17FBD6FD63B81CFCCA" box="[1135,1334,755,781]" country="Angola" name="Malanje" pageId="3" pageNumber="95">Malanje Province</collectingRegion>
+(AMNH 47783, 51960, 51961) and Pavalange, 
+<collectingRegion id="49C36C91FFE6FF17FDE1FC87BFC7FCF6" box="[600,749,791,817]" country="Angola" name="Bie" pageId="3" pageNumber="95">Bié Province</collectingRegion>
+(ANSP 32189; 
+<figureCitation id="133CBEF6FFE6FF17FC13FC87BEC7FCF6" box="[938,1005,791,817]" captionStart="FIGURE 1" captionStartId="4.[151,250,2003,2027]" captionTargetBox="[177,1410,990,1977]" captionTargetId="figure-407@4.[177,1410,990,1977]" captionTargetPageId="4" captionText="FIGURE 1. Holotype of Hemidactylus hannahsabinae sp. nov. (ANSP 32189). Photos Luis M. P. Ceríaco." figureDoi="http://doi.org/10.5281/zenodo.4414622" httpUri="https://zenodo.org/record/4414622/files/figure.png" pageId="3" pageNumber="95">Fig. 1</figureCitation>
+) deposited in the AMNH and ANSP collections, as part of their newly described species. The specimen from Pavalange (ANSP 32189) was even included in the 
+<typeStatus id="54BC1CD1FFE6FF17FF59FCF0BC6AFCBD" box="[224,320,864,890]" pageId="3" pageNumber="95">paratype</typeStatus>
+series. These misidentifications were partly explained by the considerable overlap of scale counts and distribution range (
+<tableCitation id="C68597C8FFE6FF17FE26FC13BCDEFC5A" box="[415,500,899,925]" captionStart="TABLE 1" captionStartId="2.[151,239,606,632]" captionTargetPageId="2" captionText="TABLE 1. Variation in measurements (in mm) and scale counts of Hemidactylus species occurring in Angola." httpUri="http://table.plazi.org/id/DF78F2FBFFE7FF16FF2EFDCEB807FDBF" pageId="3" pageNumber="95" tableUuid="DF78F2FBFFE7FF16FF2EFDCEB807FDBF">Table 1</tableCitation>
+). However, a careful reevaluation of these specimens established that they are not conspecific with the type series of 
+<taxonomicName id="4C07D9F0FFE6FF17FD9CFC38BFB5FC06" box="[549,671,936,961]" class="Reptilia" family="Gekkonidae" genus="Hemidactylus" kingdom="Animalia" order="Squamata" pageId="3" pageNumber="95" phylum="Chordata" rank="species" species="nzingae">
+<emphasis id="B9737E61FFE6FF17FD9CFC38BFB5FC06" box="[549,671,936,961]" italics="true" pageId="3" pageNumber="95">H. nzingae</emphasis>
+</taxonomicName>
+. All male specimens of 
+<taxonomicName id="4C07D9F0FFE6FF17FC0CFC38B91AFC06" box="[949,1072,936,961]" class="Reptilia" family="Gekkonidae" genus="Hemidactylus" kingdom="Animalia" order="Squamata" pageId="3" pageNumber="95" phylum="Chordata" rank="species" species="nzingae">
+<emphasis id="B9737E61FFE6FF17FC0CFC38B91AFC06" box="[949,1072,936,961]" italics="true" pageId="3" pageNumber="95">H. nzingae</emphasis>
+</taxonomicName>
+present a well-marked series of dark-brown “W-shaped” transverse markings from occiput to sacrum, bordered by a cream-colored stripe extending from behind the eyes to the insertion of the legs. This is true even for very old formalin-fixed and ethanol preserved specimens. However, both specimens ANSP 32189 from Pavalange and AMNH 47783, 51960-61 from Dande (all mature males) completely lack the transverse markings and present a much lighter coloration. The dorsolateral stripe is also much less evident than those of typical 
+<taxonomicName id="4C07D9F0FFE6FF17FD22FBCCBE3EFBB2" box="[667,788,1116,1141]" class="Reptilia" family="Gekkonidae" genus="Hemidactylus" kingdom="Animalia" order="Squamata" pageId="3" pageNumber="95" phylum="Chordata" rank="species" species="nzingae">
+<emphasis id="B9737E61FFE6FF17FD22FBCCBE3EFBB2" box="[667,788,1116,1141]" italics="true" pageId="3" pageNumber="95">H. nzingae</emphasis>
+</taxonomicName>
+. Another marked difference between these specimens and those of typical 
+<taxonomicName id="4C07D9F0FFE6FF17FEEDFB10BCFAFB5E" box="[340,464,1152,1177]" class="Reptilia" family="Gekkonidae" genus="Hemidactylus" kingdom="Animalia" order="Squamata" pageId="3" pageNumber="95" phylum="Chordata" rank="species" species="nzingae">
+<emphasis id="B9737E61FFE6FF17FEEDFB10BCFAFB5E" box="[340,464,1152,1177]" italics="true" pageId="3" pageNumber="95">H. nzingae</emphasis>
+</taxonomicName>
+is the much less acuminate enlarged dorsal tubercles, which in 
+<taxonomicName id="4C07D9F0FFE6FF17FB00FB10B81CFB5E" box="[1209,1334,1152,1177]" class="Reptilia" family="Gekkonidae" genus="Hemidactylus" kingdom="Animalia" order="Squamata" pageId="3" pageNumber="95" phylum="Chordata" rank="species" species="nzingae">
+<emphasis id="B9737E61FFE6FF17FB00FB10B81CFB5E" box="[1209,1334,1152,1177]" italics="true" pageId="3" pageNumber="95">H. nzingae</emphasis>
+</taxonomicName>
+give the animal a very “spiny” appearance, contrary to the much smoother appearance of the above cited specimens (
+<figureCitation id="133CBEF6FFE6FF17FAF3FB33B8A5FB7A" box="[1354,1423,1187,1213]" captionStart="FIGURE 2" captionStartId="5.[151,250,1047,1071]" captionTargetBox="[177,1411,181,1023]" captionTargetId="figure-24@5.[177,1411,181,1023]" captionTargetPageId="5" captionText="FIGURE 2. Comparison between the dorsal scalation of H. nzingae (paratype, AMNH 47782) and H. hannahsabinae sp. nov. (paratype, AMNH 51960) from Dande. Photos Luis M. P. Ceríaco." figureDoi="http://doi.org/10.5281/zenodo.4414626" httpUri="https://zenodo.org/record/4414626/files/figure.png" pageId="3" pageNumber="95">Fig. 2</figureCitation>
+). Finally, the habitus of these specimens is somewhat less depressed than that of 
+<taxonomicName id="4C07D9F0FFE6FF17FBB4FB58B9ADFB26" box="[1037,1159,1224,1249]" class="Reptilia" family="Gekkonidae" genus="Hemidactylus" kingdom="Animalia" order="Squamata" pageId="3" pageNumber="95" phylum="Chordata" rank="species" species="nzingae">
+<emphasis id="B9737E61FFE6FF17FBB4FB58B9ADFB26" box="[1037,1159,1224,1249]" italics="true" pageId="3" pageNumber="95">H. nzingae</emphasis>
+</taxonomicName>
+.
+</paragraph>
+</subSubSection>
+<subSubSection id="C31DF1F8FFE6FF17FF7EFB7BBC68FA51" pageId="3" pageNumber="95" type="materials_examined">
+<paragraph id="8BB8A273FFE6FF17FF7EFB7BB911FAEE" blockId="3.[151,1437,755,2042]" pageId="3" pageNumber="95">
+<materialsCitation id="3B6FA82EFFE6FF17FF7EFB7BB911FAEE" ID-GBIF-Occurrence="3034620306" collectingDate="1930-10" collectionCode="T" collectorName="Harold &amp; Green" elevation="1127" location="Natural Reserve" municipality="Pavalange" pageId="3" pageNumber="95" specimenCode="ANSP 32189" specimenCount="1" stateProvince="Luanda" typeStatus="holotype">
+<emphasis id="B9737E61FFE6FF17FF7EFB7BBC11FAC2" bold="true" box="[199,315,1259,1285]" pageId="3" pageNumber="95">
+<typeStatus id="54BC1CD1FFE6FF17FF7EFB7BBC1CFAC2" box="[199,310,1259,1285]" pageId="3" pageNumber="95">Holotype</typeStatus>
+.
+</emphasis>
+<specimenCode id="DBA10A08FFE6FF17FEFEFB7BBCCAFAC2" box="[327,480,1259,1285]" collectionCode="ANSP" country="USA" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34784" lsid="urn:lsid:biocol.org:col:34784" name="Academy of Natural Sciences of Philadelphia" pageId="3" pageNumber="95">ANSP 32189</specimenCode>
+(
+<figureCitation id="133CBEF6FFE6FF17FE4CFB7BBF17FAC2" box="[501,573,1259,1285]" captionStart="FIGURE 1" captionStartId="4.[151,250,2003,2027]" captionTargetBox="[177,1410,990,1977]" captionTargetId="figure-407@4.[177,1410,990,1977]" captionTargetPageId="4" captionText="FIGURE 1. Holotype of Hemidactylus hannahsabinae sp. nov. (ANSP 32189). Photos Luis M. P. Ceríaco." figureDoi="http://doi.org/10.5281/zenodo.4414622" httpUri="https://zenodo.org/record/4414622/files/figure.png" pageId="3" pageNumber="95">Fig. 1</figureCitation>
+; 
+<tableCitation id="C68597C8FFE6FF17FDE9FB7BBF80FAC2" box="[592,682,1259,1285]" captionStart="TABLE 2" captionStartId="7.[151,239,151,175]" captionTargetPageId="7" captionText="TABLE 2. Measurements (in mm) and scale counts of the holotype and paratypes of Hemidactylus hannahsabinae sp. nov. Abbreviations are the same as those described in Materials and Methods." httpUri="http://table.plazi.org/id/DF78F2FBFFE2FF13FF2EFF07BEF2FF14" pageId="3" pageNumber="95" tableUuid="DF78F2FBFFE2FF13FF2EFF07BEF2FF14">Table 2</tableCitation>
+), adult male, 
+<collectingMunicipality id="6BDC3809FFE6FF17FCEBFB7BBEE2FAC2" box="[850,968,1259,1285]" pageId="3" pageNumber="95">Pavalange</collectingMunicipality>
+, 
+<collectingRegion id="49C36C91FFE6FF17FC61FB7BB904FAC2" box="[984,1070,1259,1285]" country="Angola" name="Luanda" pageId="3" pageNumber="95">Luando</collectingRegion>
+<location id="8ED8F4A8FFE6FF17FB83FB7BB9DEFAC1" LSID="urn:lsid:plazi:treatment:03AE1365FFE6FF13FF2EFDBCBF43F90C:8ED8F4A8FFE6FF17FB83FB7BB9DEFAC1" box="[1082,1268,1259,1286]" municipality="Pavalange" name="Natural Reserve" pageId="3" pageNumber="95" stateProvince="Luanda">Natural Reserve</location>
+(-10.969765°, 17.612431°, 
+<quantity id="4CFF0F96FFE6FF17FE9EFA9FBC54FAED" box="[295,382,1295,1322]" metricMagnitude="3" metricUnit="m" metricValue="1.127" pageId="3" pageNumber="95" unit="m" value="1127.0">
+<elevation id="002A4540FFE6FF17FE9EFA9FBC54FAED" box="[295,382,1295,1322]" metricMagnitude="3" metricUnit="m" metricValue="1.127" pageId="3" pageNumber="95" unit="m" value="1127.0">1127 m</elevation>
+</quantity>
+), 
+<collectingRegion id="49C36C91FFE6FF17FE2BFA9FBF0CFAEE" box="[402,550,1295,1321]" country="Angola" name="Bie" pageId="3" pageNumber="95">Bié Province</collectingRegion>
+, collected by 
+<collectorName id="26F2C7A5FFE6FF17FD78FA9FBE25FAEE" box="[705,783,1295,1321]" pageId="3" pageNumber="95">Harold</collectorName>
+<collectionCode id="ED163AB6FFE6FF17FCACFA80BE0DFAED" box="[789,807,1296,1322]" name="Tavera, Department of Geology and Geophysics" pageId="3" pageNumber="95">T</collectionCode>
+. 
+<collectorName id="26F2C7A5FFE6FF17FC8BFA9FBE5CFAEE" box="[818,886,1295,1321]" pageId="3" pageNumber="95">Green</collectorName>
+in 
+<date id="FFB984B3FFE6FF17FC23FA9FB91DFAEE" box="[922,1079,1295,1321]" pageId="3" pageNumber="95" value="1930-10">
+<collectingDate id="EFFD7D5BFFE6FF17FC23FA9FB91DFAEE" box="[922,1079,1295,1321]" pageId="3" pageNumber="95" value="1930-10">October 1930</collectingDate>
+</date>
+.
+</materialsCitation>
+</paragraph>
+<paragraph id="8BB8A273FFE6FF17FF7EFAA3BC68FA51" blockId="3.[151,1437,755,2042]" pageId="3" pageNumber="95">
+<emphasis id="B9737E61FFE6FF17FF7EFAA3BCE7FA8A" bold="true" box="[199,461,1331,1357]" pageId="3" pageNumber="95">Additional specimens.</emphasis>
+<materialsCitation id="3B6FA82EFFE6FF17FE6BFAA3B937FA8A" ID-GBIF-Occurrence="3034620305" box="[466,1053,1331,1358]" collectionCode="AMNH" pageId="3" pageNumber="95" specimenCode="AMNH 47783, 51960" specimenCount="1">
+<specimenCode id="DBA10A08FFE6FF17FE6BFAA3BF5DFA8A" box="[466,631,1331,1357]" collectionCode="AMNH" country="USA" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34925" lsid="urn:lsid:biocol.org:col:34925" name="American Museum of Natural History" pageId="3" pageNumber="95">AMNH 47783</specimenCode>
+, 
+<specimenCode id="DBA10A08FFE6FF17FD39FAA3BFECFA89" box="[640,710,1331,1358]" collectionCode="AMNH" country="USA" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34925" lsid="urn:lsid:biocol.org:col:34925" name="American Museum of Natural History" pageId="3" pageNumber="95">51960</specimenCode>
+(
+<figureCitation id="133CBEF6FFE6FF17FD6DFAA3BE18FA8A" box="[724,818,1331,1357]" captionStart-0="FIGURE 1" captionStart-1="FIGURE 2" captionStart-2="FIGURE 3" captionStartId-0="4.[151,250,2003,2027]" captionStartId-1="5.[151,250,1047,1071]" captionStartId-2="6.[151,250,1352,1376]" captionTargetBox-0="[177,1410,990,1977]" captionTargetBox-1="[177,1411,181,1023]" captionTargetBox-2="[202,1386,381,1329]" captionTargetId-0="figure-407@4.[177,1410,990,1977]" captionTargetId-1="figure-24@5.[177,1411,181,1023]" captionTargetId-2="figure-112@6.[202,1386,381,1329]" captionTargetPageId-0="4" captionTargetPageId-1="5" captionTargetPageId-2="6" captionText-0="FIGURE 1. Holotype of Hemidactylus hannahsabinae sp. nov. (ANSP 32189). Photos Luis M. P. Ceríaco." captionText-1="FIGURE 2. Comparison between the dorsal scalation of H. nzingae (paratype, AMNH 47782) and H. hannahsabinae sp. nov. (paratype, AMNH 51960) from Dande. Photos Luis M. P. Ceríaco." captionText-2="FIGURE 3. Comparison between H. nzingae (paratype, AMNH 47782) and H. hannahsabinae sp. nov. (paratype, AMNH 51960) from Dande, both specimens collected in 1925. Scale 10 mm. Photos Luis M. P. Ceríaco." figureDoi-0="http://doi.org/10.5281/zenodo.4414622" figureDoi-1="http://doi.org/10.5281/zenodo.4414626" figureDoi-2="http://doi.org/10.5281/zenodo.4414628" httpUri-0="https://zenodo.org/record/4414622/files/figure.png" httpUri-1="https://zenodo.org/record/4414626/files/figure.png" httpUri-2="https://zenodo.org/record/4414628/files/figure.png" pageId="3" pageNumber="95">Fig. 1–3</figureCitation>
+) two adult males and
+</materialsCitation>
+<materialsCitation id="3B6FA82EFFE6FF17FB98FAA3BC14FA51" ID-GBIF-Occurrence="3034620301" collectingDate="1925-08-04" collectionCode="AMNH" collectorName="Herbert Lang &amp; W. Rudyerd Boulton" elevation="1126" location="Malanje Province" pageId="3" pageNumber="95" specimenCode="AMNH 51961" specimenCount="1" stateProvince="Malanje">
+<specimenCode id="DBA10A08FFE6FF17FB98FAA3B9ECFA89" box="[1057,1222,1331,1358]" collectionCode="AMNH" country="USA" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34925" lsid="urn:lsid:biocol.org:col:34925" name="American Museum of Natural History" pageId="3" pageNumber="95">AMNH 51961</specimenCode>
+, adult female, from Dande (-11.166667°, 17.166667°, 
+<quantity id="4CFF0F96FFE6FF17FDA3FAC7BF5BFAB5" box="[538,625,1367,1394]" metricMagnitude="3" metricUnit="m" metricValue="1.126" pageId="3" pageNumber="95" unit="m" value="1126.0">
+<elevation id="002A4540FFE6FF17FDA3FAC7BF5BFAB5" box="[538,625,1367,1394]" metricMagnitude="3" metricUnit="m" metricValue="1.126" pageId="3" pageNumber="95" unit="m" value="1126.0">1126 m</elevation>
+</quantity>
+), 
+<collectingRegion id="49C36C91FFE6FF17FD3CFAC7BE64FAB6" box="[645,846,1367,1393]" country="Angola" name="Malanje" pageId="3" pageNumber="95">Malanje Province</collectingRegion>
+, collected by 
+<collectorName id="26F2C7A5FFE6FF17FC51FAC7B955FAB5" box="[1000,1151,1367,1394]" pageId="3" pageNumber="95">Herbert Lang</collectorName>
+and 
+<collectorName id="26F2C7A5FFE6FF17FB0CFAC8B8B6FAB6" box="[1205,1436,1367,1394]" pageId="3" pageNumber="95">W. Rudyerd Boulton</collectorName>
+<date id="FFB984B3FFE6FF17FF2EFAEBBC14FA51" box="[151,318,1403,1430]" pageId="3" pageNumber="95" value="1925-08-04">
+<collectingDate id="EFFD7D5BFFE6FF17FF2EFAEBBC14FA51" box="[151,318,1403,1430]" pageId="3" pageNumber="95" value="1925-08-04">4 August 1925</collectingDate>
+</date>
+</materialsCitation>
+.
+</paragraph>
+</subSubSection>
+<subSubSection id="C31DF1F8FFE6FF17FF7EFA0FBEE0F972" pageId="3" pageNumber="95" type="diagnosis">
+<paragraph id="8BB8A273FFE6FF17FF7EFA0FBEE0F972" blockId="3.[151,1437,755,2042]" pageId="3" pageNumber="95">
+<emphasis id="B9737E61FFE6FF17FF7EFA0FBC68FA7E" bold="true" box="[199,322,1439,1465]" pageId="3" pageNumber="95">Diagnosis.</emphasis>
+A medium sized 
+<taxonomicName id="4C07D9F0FFE6FF17FDBAFA0FBFB7FA7E" authorityName="Goldfuss" authorityYear="1820" box="[515,669,1439,1465]" class="Reptilia" family="Gekkonidae" genus="Hemidactylus" kingdom="Animalia" order="Squamata" pageId="3" pageNumber="95" phylum="Chordata" rank="genus">
+<emphasis id="B9737E61FFE6FF17FDBAFA0FBFB7FA7E" box="[515,669,1439,1465]" italics="true" pageId="3" pageNumber="95">Hemidactylus</emphasis>
+</taxonomicName>
+, maximum snout-vent length 
+<quantity id="4CFF0F96FFE6FF17FC55FA0FB97BFA7D" box="[1004,1105,1439,1466]" metricMagnitude="-2" metricUnit="m" metricValue="4.74" pageId="3" pageNumber="95" unit="mm" value="47.4">47.4 mm</quantity>
+, and a short, blunt snout (
+<figureCitation id="133CBEF6FFE6FF17FAD6FA0FBD8EFA1A" captionStart="FIGURE 1" captionStartId="4.[151,250,2003,2027]" captionTargetBox="[177,1410,990,1977]" captionTargetId="figure-407@4.[177,1410,990,1977]" captionTargetPageId="4" captionText="FIGURE 1. Holotype of Hemidactylus hannahsabinae sp. nov. (ANSP 32189). Photos Luis M. P. Ceríaco." figureDoi="http://doi.org/10.5281/zenodo.4414622" httpUri="https://zenodo.org/record/4414622/files/figure.png" pageId="3" pageNumber="95">Fig. 1</figureCitation>
+). Dorsal pholidosis heterogeneous, with 18 irregularly arranged longitudinal rows of subquadrangular, striated, feebly keeled tubercles at midbody. Two well developed pairs of postmentals, the inner pair longer than the outer pair, but about half the size of the mental, and in contact behind the mental. Ventrolateral folds distinct, about 26 scale rows across venter. Five divided scansors beneath first digit of both manus and pes, seven to eight beneath fourth digit of manus, nine beneath the fourth digit of pes. Males with a continuous series of 6–8 precloacal pores. Body dorsum brown with scattered dark markings (not forming transverse series), bordered by a thin faint creamcolored stripe extending from behind the eyes to the insertion of the legs.
+</paragraph>
+</subSubSection>
+<subSubSection id="C31DF1F8FFE6FF13FF7EF92FB959FA08" lastPageId="7" lastPageNumber="99" pageId="3" pageNumber="95" type="description">
+<paragraph id="8BB8A273FFE6FF10FF7EF92FB94FFC0E" blockId="3.[151,1437,755,2042]" lastBlockId="4.[151,1437,151,969]" lastPageId="4" lastPageNumber="96" pageId="3" pageNumber="95">
+<emphasis id="B9737E61FFE6FF17FF7EF92FBCDCF91E" bold="true" box="[199,502,1727,1753]" pageId="3" pageNumber="95">
+Description of 
+<typeStatus id="54BC1CD1FFE6FF17FE3BF92FBCDBF91E" box="[386,497,1727,1753]" pageId="3" pageNumber="95">Holotype</typeStatus>
+.
+</emphasis>
+The 
+<typeStatus id="54BC1CD1FFE6FF17FD83F92FBFB6F91E" box="[570,668,1727,1753]" pageId="3" pageNumber="95">holotype</typeStatus>
+is an adult male in good condition, but with partially detached, regenerated tail (
+<figureCitation id="133CBEF6FFE6FF17FEF6F973BCA4F93A" box="[335,398,1763,1789]" captionStart="FIGURE 1" captionStartId="4.[151,250,2003,2027]" captionTargetBox="[177,1410,990,1977]" captionTargetId="figure-407@4.[177,1410,990,1977]" captionTargetPageId="4" captionText="FIGURE 1. Holotype of Hemidactylus hannahsabinae sp. nov. (ANSP 32189). Photos Luis M. P. Ceríaco." figureDoi="http://doi.org/10.5281/zenodo.4414622" httpUri="https://zenodo.org/record/4414622/files/figure.png" pageId="3" pageNumber="95">Fig. 1</figureCitation>
+). The body shape is somewhat dorsoventrally flattened. Measurements and meristic characters of the 
+<typeStatus id="54BC1CD1FFE6FF17FF66F897BC6BF8E6" box="[223,321,1799,1825]" pageId="3" pageNumber="95">holotype</typeStatus>
+are presented in 
+<tableCitation id="C68597C8FFE6FF17FE46F897BF7FF8E6" box="[511,597,1799,1825]" captionStart="TABLE 2" captionStartId="7.[151,239,151,175]" captionTargetPageId="7" captionText="TABLE 2. Measurements (in mm) and scale counts of the holotype and paratypes of Hemidactylus hannahsabinae sp. nov. Abbreviations are the same as those described in Materials and Methods." httpUri="http://table.plazi.org/id/DF78F2FBFFE2FF13FF2EFF07BEF2FF14" pageId="3" pageNumber="95" tableUuid="DF78F2FBFFE2FF13FF2EFF07BEF2FF14">Table 2</tableCitation>
+. Head medium (HL/SVL 0.30), wide (HW/HL 0.59), bulky (HH/HL 0.43), distinct from neck. Canthus rostralis moderately distinct. Snout short (SE/HL 0.37); longer than eye diameter; scales on snout, canthus rostralis, forehead and between eyes heterogeneous, juxtaposed, and weakly pointed; scales on snout, canthus rostralis and forehead twice the size of those on the occipital and interorbital regions, canthus rostralis with slightly enlarged patch of scales. Eye small (ED/HL 0.23) supraciliaries large, pointed, those at the anterior end of orbit slightly larger. Ear opening oval (greatest diameter 1.0 mm); eye to ear distance greater than diameter of eye. Rostral wider than deep; three internasals, the two outer ones enlarged, and separated from each other by the smaller one in the middle; one supranasal on each side which is smaller than internasal, one pair of still smaller postnasals; rostral in contact with nostril, supralabial I, supranasal and internasal; nostrils small (&gt; 
+<quantity id="4CFF0F96FFE1FF10FA37FF2BBDEDFF3E" metricMagnitude="-3" metricUnit="m" metricValue="1.0" pageId="4" pageNumber="96" unit="mm" value="1.0">1 mm</quantity>
+), circular, each surrounded by supranasal, rostral, supralabial I and postnasal; 1–2 rows of scales separate orbit from supralabials. Mental triangular; two postmentals, smaller than the mental and in extensive contact with each other behind mental; outer pair about on third the size of the inner pair, separated from each other by inner pair and four gular scales. Inner postmental bordered by mental, infralabial I, outer postmental and two gular scales; outer postmental bordered by infralabial I and II, inner postmental, four to five small gular scales of which the outer one is enlarged and continue as a single row of enlarged scales below infralabials. Infralabials bordered by a double row of enlarged scales, about 2–8 rows of scales below infralabials II to VI are enlarged and weakly imbricate. Supralabials (to angle of jaw) 10 (right)/10 (left); infralabials (to angle of jaw) 9 (right)/8 (left). Body relatively stout, moderately elongate (TRL/SVL 0.35), ventrolateral folds without denticulate scales. Dorsal pholidosis heterogeneous, comprising conical, granular, striated scales intermixed with enlarged, fairly regularly arranged, longitudinal rows of 18 subquadrangulal, smoothly keeled, striated tubercles at midbody, extending from occipital region to tail, each enlarged tubercle roughly six to seven times longer than adjacent granules, surrounded by rosette of 11–14 small granules, two or three granules between two adjacent enlarged tubercles; enlarged tubercles on nape, shoulder small and pointed, those on occipital region heterogeneous. Ventral scales larger than dorsal, smooth, imbricate; midbody scale rows across belly 26; gular region with still smaller, subimbricate scales, those on lateral aspect of neck granular, anterior gular scales slightly larger than the rest. Eight precloacal pores in a continuous, mostly straight, series. Scales on the palm and sole smooth, imbricate, rounded; scales on dorsal aspect of upper arm larger than granules on dorsum, subimbricate and striated, dorsal aspect of forearm with smaller, striated, conical and granular scales, intermixed with a few enlarged conical tubercles; those on dorsal part of thigh and shank conical, granular, striated, intermixed with enlarged, striated, sub trihedral tubercles, which are numerous on shank compared to anterior aspect of thigh, posterior aspect of thigh lacks enlarged tubercles.
+</paragraph>
+<caption id="DF78F2FBFFE1FF10FF2EF843B9FCF82B" ID-DOI="http://doi.org/10.5281/zenodo.4414622" ID-Zenodo-Dep="4414622" box="[151,1238,2003,2028]" httpUri="https://zenodo.org/record/4414622/files/figure.png" pageId="4" pageNumber="96" startId="4.[151,250,2003,2027]" targetBox="[177,1410,990,1977]" targetPageId="4">
+<paragraph id="8BB8A273FFE1FF10FF2EF843B9FCF82B" blockId="4.[151,1238,2003,2028]" box="[151,1238,2003,2028]" pageId="4" pageNumber="96">
+<emphasis id="B9737E61FFE1FF10FF2EF843BC39F82C" bold="true" box="[151,275,2003,2027]" pageId="4" pageNumber="96">FIGURE 1.</emphasis>
+Holotype of 
+<taxonomicName id="4C07D9F0FFE1FF10FE20F843BFECF82C" authority="Ceríaco &amp; Agarwal &amp; Marques &amp; Bauer, 2020" authorityName="Ceríaco &amp; Agarwal &amp; Marques &amp; Bauer" authorityYear="2020" box="[409,710,2003,2027]" class="Reptilia" family="Gekkonidae" genus="Hemidactylus" kingdom="Animalia" order="Squamata" pageId="4" pageNumber="96" phylum="Chordata" rank="species" species="hannahsabinae" status="sp. nov.">
+<emphasis id="B9737E61FFE1FF10FE20F843BFECF82C" box="[409,710,2003,2027]" italics="true" pageId="4" pageNumber="96">Hemidactylus hannahsabinae</emphasis>
+</taxonomicName>
+<emphasis id="B9737E61FFE1FF10FD75F844BE37F82B" bold="true" box="[716,797,2004,2028]" pageId="4" pageNumber="96">
+<taxonomicNameLabel id="A240C31AFFE1FF10FD75F844BE37F82B" box="[716,797,2004,2028]" pageId="4" pageNumber="96" rank="species">sp. nov.</taxonomicNameLabel>
+</emphasis>
+(ANSP 32189). Photos Luis M. P. Ceríaco.
+</paragraph>
+</caption>
+<caption id="DF78F2FBFFE0FF11FF2EFB87BE10FB94" ID-DOI="http://doi.org/10.5281/zenodo.4414626" ID-Zenodo-Dep="4414626" httpUri="https://zenodo.org/record/4414626/files/figure.png" pageId="5" pageNumber="97" startId="5.[151,250,1047,1071]" targetBox="[177,1411,181,1023]" targetPageId="5">
+<paragraph id="8BB8A273FFE0FF11FF2EFB87BE10FB94" blockId="5.[151,1436,1047,1107]" pageId="5" pageNumber="97">
+<emphasis id="B9737E61FFE0FF11FF2EFB87BC39FBE8" bold="true" box="[151,275,1047,1071]" pageId="5" pageNumber="97">FIGURE 2.</emphasis>
+Comparison between the dorsal scalation of 
+<taxonomicName id="4C07D9F0FFE0FF11FD64FB88BE66FBE8" box="[733,844,1048,1071]" class="Reptilia" family="Gekkonidae" genus="Hemidactylus" kingdom="Animalia" order="Squamata" pageId="5" pageNumber="97" phylum="Chordata" rank="species" species="nzingae">
+<emphasis id="B9737E61FFE0FF11FD64FB88BE66FBE8" box="[733,844,1048,1071]" italics="true" pageId="5" pageNumber="97">H. nzingae</emphasis>
+</taxonomicName>
+(paratype, AMNH 47782) and 
+<taxonomicName id="4C07D9F0FFE0FF11FB33FB88B86FFBE8" authority="Ceríaco &amp; Agarwal &amp; Marques &amp; Bauer, 2020" authorityName="Ceríaco &amp; Agarwal &amp; Marques &amp; Bauer" authorityYear="2020" box="[1162,1349,1047,1071]" class="Reptilia" family="Gekkonidae" genus="Hemidactylus" kingdom="Animalia" order="Squamata" pageId="5" pageNumber="97" phylum="Chordata" rank="species" species="hannahsabinae" status="sp. nov.">
+<emphasis id="B9737E61FFE0FF11FB33FB88B86FFBE8" box="[1162,1349,1047,1071]" italics="true" pageId="5" pageNumber="97">H. hannahsabinae</emphasis>
+</taxonomicName>
+<emphasis id="B9737E61FFE0FF11FAF2FB87B8B6FBE8" bold="true" box="[1355,1436,1047,1071]" pageId="5" pageNumber="97">
+<taxonomicNameLabel id="A240C31AFFE0FF11FAF2FB87B8B6FBE8" box="[1355,1436,1047,1071]" pageId="5" pageNumber="97" rank="species">sp. nov.</taxonomicNameLabel>
+</emphasis>
+(paratype, AMNH 51960) from Dande. Photos Luis M. P. Ceríaco.
+</paragraph>
+</caption>
+<paragraph id="8BB8A273FFE0FF11FF7EFB12B829FAB4" blockId="5.[151,1437,1153,2044]" pageId="5" pageNumber="97">Fore- and hindlimbs relatively short, stout; forearm short (FL/SVL 0.15); tibia short (CL/SVL 0.16); digits moderately short, strongly clawed; all digits of manus and digits I–IV of pes indistinctly webbed; terminal phalanx of all digits curved, arising angularly from distal portion of expanded lamellar pad, half or more than half the length of the associated toepad; scansors beneath each toe in straight transverse series, divided except for distal and two to two basal scansors on digit I and one or two in all digits that are single; scansors from proximalmost at least twice diameter of palmar scales to distalmost single scansor: 5-7-8-7-7 (right manus), 7-8-9-9-8 (right pes). Relative length of digits: III = IV&gt; II&gt; V&gt; I (right manus); IV&gt; III = V&gt; II&gt; I (right pes). Regenerated tail.</paragraph>
+<paragraph id="8BB8A273FFE0FF11FF7EFAEDBE61FA18" blockId="5.[151,1437,1153,2044]" pageId="5" pageNumber="97">
+<emphasis id="B9737E61FFE0FF11FF7EFAEDBF0AFA50" bold="true" box="[199,544,1405,1431]" pageId="5" pageNumber="97">Coloration (in preservative).</emphasis>
+Ground color of head, dorsum and limbs homogeneous light brown. Dorsum with one longitudinal middorsal light stripe and eight or nine rows of incomplete transverse dark bands. Tail very light brown. Venter immaculate white; palms and soles white.
+</paragraph>
+<paragraph id="8BB8A273FFE0FF11FF7EFA79B83AF9E0" blockId="5.[151,1437,1153,2044]" pageId="5" pageNumber="97">
+<emphasis id="B9737E61FFE0FF11FF7EFA79BC15F9C4" bold="true" box="[199,319,1513,1539]" pageId="5" pageNumber="97">Variation.</emphasis>
+Variation in scalation and body measurements of the specimens of 
+<taxonomicName id="4C07D9F0FFE0FF11FBF2FA7AB831F9C4" authority="Ceríaco &amp; Agarwal &amp; Marques &amp; Bauer, 2020" authorityName="Ceríaco &amp; Agarwal &amp; Marques &amp; Bauer" authorityYear="2020" box="[1099,1307,1513,1539]" class="Reptilia" family="Gekkonidae" genus="Hemidactylus" kingdom="Animalia" order="Squamata" pageId="5" pageNumber="97" phylum="Chordata" rank="species" species="hannahsabinae" status="sp. nov.">
+<emphasis id="B9737E61FFE0FF11FBF2FA7AB831F9C4" box="[1099,1307,1513,1539]" italics="true" pageId="5" pageNumber="97">H. hannahsabinae</emphasis>
+</taxonomicName>
+<emphasis id="B9737E61FFE0FF11FA9DFA79B8AAF9C4" bold="true" box="[1316,1408,1513,1539]" pageId="5" pageNumber="97">
+<taxonomicNameLabel id="A240C31AFFE0FF11FA9DFA79B8AAF9C4" box="[1316,1408,1513,1539]" pageId="5" pageNumber="97" rank="species">sp. nov.</taxonomicNameLabel>
+</emphasis>
+is reported in 
+<tableCitation id="C68597C8FFE0FF11FEA1F99DBC44F9E0" box="[280,366,1549,1575]" captionStart="TABLE 2" captionStartId="7.[151,239,151,175]" captionTargetPageId="7" captionText="TABLE 2. Measurements (in mm) and scale counts of the holotype and paratypes of Hemidactylus hannahsabinae sp. nov. Abbreviations are the same as those described in Materials and Methods." httpUri="http://table.plazi.org/id/DF78F2FBFFE2FF13FF2EFF07BEF2FF14" pageId="5" pageNumber="97" tableUuid="DF78F2FBFFE2FF13FF2EFF07BEF2FF14">Table 2</tableCitation>
+. The 
+<typeStatus id="54BC1CD1FFE0FF11FE12F99DBFBDF9E0" box="[427,663,1549,1575]" isOtherTypeStatus="true" pageId="5" pageNumber="97">additional specimens</typeStatus>
+do not differ in any important details from the 
+<typeStatus id="54BC1CD1FFE0FF11FB1FF99DB826F9E0" box="[1190,1292,1549,1575]" pageId="5" pageNumber="97">holotype</typeStatus>
+.
+</paragraph>
+<paragraph id="8BB8A273FFE0FF12FF7EF9A1BC08FEA2" blockId="5.[151,1437,1153,2044]" lastBlockId="6.[151,1437,151,357]" lastPageId="6" lastPageNumber="98" pageId="5" pageNumber="97">
+<emphasis id="B9737E61FFE0FF11FF7EF9A1BE42F98C" bold="true" box="[199,872,1585,1611]" pageId="5" pageNumber="97">Comparison with West and Central African congeners.</emphasis>
+<taxonomicName id="4C07D9F0FFE0FF11FCCBF9A1B9EBF98C" authority="Ceríaco &amp; Agarwal &amp; Marques &amp; Bauer, 2020" authorityName="Ceríaco &amp; Agarwal &amp; Marques &amp; Bauer" authorityYear="2020" box="[882,1217,1585,1611]" class="Reptilia" family="Gekkonidae" genus="Hemidactylus" kingdom="Animalia" order="Squamata" pageId="5" pageNumber="97" phylum="Chordata" rank="species" species="hannahsabinae" status="sp. nov.">
+<emphasis id="B9737E61FFE0FF11FCCBF9A1B9EBF98C" box="[882,1217,1585,1611]" italics="true" pageId="5" pageNumber="97">Hemidactylus hannahsabinae</emphasis>
+</taxonomicName>
+<emphasis id="B9737E61FFE0FF11FB72F9A1B802F98C" bold="true" box="[1227,1320,1585,1611]" pageId="5" pageNumber="97">
+<taxonomicNameLabel id="A240C31AFFE0FF11FB72F9A1B802F98C" box="[1227,1320,1585,1611]" pageId="5" pageNumber="97" rank="species">sp. nov.</taxonomicNameLabel>
+</emphasis>
+is readily distinguished from 
+<taxonomicName id="4C07D9F0FFE0FF11FECEF9C6BE4CF9A8" authority="Bauer &amp; Pauwels, 2002" authorityName="Bauer &amp; Pauwels" authorityYear="2002" box="[375,870,1621,1648]" class="Reptilia" family="Gekkonidae" genus="Hemidactylus" kingdom="Animalia" order="Squamata" pageId="5" pageNumber="97" phylum="Chordata" rank="species" species="kamdemtohami">
+<emphasis id="B9737E61FFE0FF11FECEF9C6BF6DF9A8" box="[375,583,1621,1647]" italics="true" pageId="5" pageNumber="97">H. kamdemtohami</emphasis>
+<bibRefCitation id="EF96DF82FFE0FF11FDE8F9C6BE4CF9A8" author="Bauer, A. M. &amp; Pauwels, O. S. G." box="[593,870,1621,1648]" pageId="5" pageNumber="97" pagination="1 - 8" refId="ref7800" refString="Bauer, A. M. &amp; Pauwels, O. S. G. (2002) A new forest-dwelling Hemidactylus (Squamata: Gekkonidae) from Gabon, West Africa. African Journal of Herpetology, 51 (1), 1 - 8. https: // doi. org / 10.1080 / 21564574.2002.9635458" type="journal article" year="2002">Bauer &amp; Pauwels, 2002</bibRefCitation>
+</taxonomicName>
+, and 
+<taxonomicName id="4C07D9F0FFE0FF11FC1FF9C6B9DBF9B7" authority="(Gray, 1845)" baseAuthorityName="Gray" baseAuthorityYear="1845" box="[934,1265,1621,1648]" class="Reptilia" family="Gekkonidae" genus="Hemidactylus" kingdom="Animalia" order="Squamata" pageId="5" pageNumber="97" phylum="Chordata" rank="species" species="richardsonii">
+<emphasis id="B9737E61FFE0FF11FC1FF9C6B97FF9A8" box="[934,1109,1621,1647]" italics="true" pageId="5" pageNumber="97">H. richardsonii</emphasis>
+(
+<bibRefCitation id="EF96DF82FFE0FF11FBDEF9C5B9C2F9B7" author="Gray, J. E." box="[1127,1256,1621,1648]" pageId="5" pageNumber="97" refId="ref8186" refString="Gray, J. E. (1845) Catalogue of the specimens of lizards in the collection of the British Museum. British Museum (Natural History), London, 289 pp." type="book" year="1845">Gray, 1845</bibRefCitation>
+)
+</taxonomicName>
+by the lack of basal digital webbing and from 
+<taxonomicName id="4C07D9F0FFE0FF11FDBCF9EABE63F954" authority="(Tornier, 1902)" baseAuthorityName="Tornier" baseAuthorityYear="1902" box="[517,841,1657,1683]" class="Reptilia" family="Gekkonidae" genus="Hemidactylus" kingdom="Animalia" order="Squamata" pageId="5" pageNumber="97" phylum="Chordata" rank="species" species="matschiei">
+<emphasis id="B9737E61FFE0FF11FDBCF9EABFBEF954" box="[517,660,1657,1683]" italics="true" pageId="5" pageNumber="97">H. matschiei</emphasis>
+(
+<bibRefCitation id="EF96DF82FFE0FF11FD1CF9E9BE6BF954" author="Tornier, G." box="[677,833,1657,1683]" pageId="5" pageNumber="97" pagination="663 - 667" refId="ref8747" refString="Tornier, G. (1902) Die Crocodile, Schildkroten und Eidechsen in Kamerun. Zoologische Jahrbucher, 15, 663 - 667, pl. 35. https: // doi. org / 10.5962 / bhl. part. 19041" type="journal article" year="1902">Tornier, 1902</bibRefCitation>
+)
+</taxonomicName>
+by having spiny tubercles on the dorsum and small subcaudal scales. It may be distinguished from 
+<taxonomicName id="4C07D9F0FFE0FF11FD16F90EBE40F970" authorityName="Tornier" authorityYear="1902" box="[687,874,1693,1719]" class="Reptilia" family="Gekkonidae" genus="Hemidactylus" kingdom="Animalia" order="Squamata" pageId="5" pageNumber="97" phylum="Chordata" rank="species" species="steindachneri">
+<emphasis id="B9737E61FFE0FF11FD16F90EBE40F970" box="[687,874,1693,1719]" italics="true" pageId="5" pageNumber="97">H. steindachneri</emphasis>
+</taxonomicName>
+by lacking a longitudinal row of keeled tubercles on the ventrolateral border of flanks, from 
+<taxonomicName id="4C07D9F0FFE0FF11FDC2F952BFC3F91C" authorityName="Boulenger" authorityYear="1901" box="[635,745,1729,1755]" class="Reptilia" family="Gekkonidae" genus="Hemidactylus" kingdom="Animalia" order="Squamata" pageId="5" pageNumber="97" phylum="Chordata" rank="species" species="hecqui">
+<emphasis id="B9737E61FFE0FF11FDC2F952BFC3F91C" box="[635,745,1729,1755]" italics="true" pageId="5" pageNumber="97">H. hecqui</emphasis>
+</taxonomicName>
+by not having the nostril in contact with the first supralabial. 
+<taxonomicName id="4C07D9F0FFE0FF11FF2EF975BCCCF938" authority="Ceríaco &amp; Agarwal &amp; Marques &amp; Bauer, 2020" authorityName="Ceríaco &amp; Agarwal &amp; Marques &amp; Bauer" authorityYear="2020" box="[151,486,1765,1791]" class="Reptilia" family="Gekkonidae" genus="Hemidactylus" kingdom="Animalia" order="Squamata" pageId="5" pageNumber="97" phylum="Chordata" rank="species" species="hannahsabinae" status="sp. nov.">
+<emphasis id="B9737E61FFE0FF11FF2EF975BCCCF938" box="[151,486,1765,1791]" italics="true" pageId="5" pageNumber="97">Hemidactylus hannahsabinae</emphasis>
+</taxonomicName>
+<emphasis id="B9737E61FFE0FF11FE49F975BF66F938" bold="true" box="[496,588,1765,1791]" pageId="5" pageNumber="97">
+<taxonomicNameLabel id="A240C31AFFE0FF11FE49F975BF66F938" box="[496,588,1765,1791]" pageId="5" pageNumber="97" rank="species">sp. nov.</taxonomicNameLabel>
+</emphasis>
+can be distinguished from 
+<emphasis id="B9737E61FFE0FF11FC33F976B99AF938" box="[906,1200,1766,1791]" italics="true" pageId="5" pageNumber="97">
+<taxonomicName id="4C07D9F0FFE0FF11FC33F976B93CF938" authorityName="W.Peters" authorityYear="1870" box="[906,1046,1766,1791]" class="Reptilia" family="Gekkonidae" genus="Hemidactylus" kingdom="Animalia" order="Squamata" pageId="5" pageNumber="97" phylum="Chordata" rank="species" species="muriceus">H. muriceus</taxonomicName>
+<taxonomicNameLabel id="A240C31AFFE0FF11FB99F976B99AF938" box="[1056,1200,1766,1791]" pageId="5" pageNumber="97" sensu="stricto">sensu stricto</taxonomicNameLabel>
+</emphasis>
+by a higher number of tubercle rows on the dorsum (16–18 
+<emphasis id="B9737E61FFE0FF11FDD4F89ABF9FF8E4" box="[621,693,1802,1827]" italics="true" pageId="5" pageNumber="97">versus</emphasis>
+7–12), fewer granular scales between the dorsal tubercles (1–3 
+<emphasis id="B9737E61FFE0FF11FF2EF8BEBDF5F880" box="[151,223,1838,1863]" italics="true" pageId="5" pageNumber="97">versus</emphasis>
+5–10); and fewer nasals surrounding the nostril (2 
+<emphasis id="B9737E61FFE0FF11FC99F8BEBE42F880" box="[800,872,1838,1863]" italics="true" pageId="5" pageNumber="97">versus</emphasis>
+3). The new species can be distinguished from 
+<taxonomicName id="4C07D9F0FFE0FF11FA38F8BEBC67F8AC" authorityName="Henle &amp; Bohme" authorityYear="2003" class="Reptilia" family="Gekkonidae" genus="Hemidactylus" kingdom="Animalia" order="Squamata" pageId="5" pageNumber="97" phylum="Chordata" rank="species" species="pseudomuriceus">
+<emphasis id="B9737E61FFE0FF11FA38F8BEBC67F8AC" italics="true" pageId="5" pageNumber="97">H. pseudomuriceus</emphasis>
+</taxonomicName>
+by having fewer precloacal-femoral pores in males (6–9 
+<emphasis id="B9737E61FFE0FF11FC7BF8C2B920F8AC" box="[962,1034,1874,1899]" italics="true" pageId="5" pageNumber="97">versus</emphasis>
+14–17), a higher number of tubercle rows on the dorsum (16–18 
+<emphasis id="B9737E61FFE0FF11FE77F8E6BF3CF848" box="[462,534,1910,1935]" italics="true" pageId="5" pageNumber="97">versus</emphasis>
+6–14), fewer granular scales between the dorsal tubercles (1–3 
+<emphasis id="B9737E61FFE0FF11FB6EF8E6B835F848" box="[1239,1311,1910,1935]" italics="true" pageId="5" pageNumber="97">versus</emphasis>
+5–10); and fewer nasals surrounding the nostril (2 
+<emphasis id="B9737E61FFE0FF11FDF0F80ABFBBF874" box="[585,657,1946,1971]" italics="true" pageId="5" pageNumber="97">versus</emphasis>
+3). The newly described species can be distinguished from 
+<taxonomicName id="4C07D9F0FFE0FF11FA9CF80AB8B7F874" authorityName="O'Shaughnessy" authorityYear="1875" box="[1317,1437,1945,1971]" class="Reptilia" family="Gekkonidae" genus="Hemidactylus" kingdom="Animalia" order="Squamata" pageId="5" pageNumber="97" phylum="Chordata" rank="species" species="echinus">
+<emphasis id="B9737E61FFE0FF11FA9CF80AB8B7F874" box="[1317,1437,1945,1971]" italics="true" pageId="5" pageNumber="97">H. echinus</emphasis>
+</taxonomicName>
+by having a higher number of tubercle rows on the dorsum (16–18 
+<emphasis id="B9737E61FFE0FF11FC30F82EBEFBF810" box="[905,977,1982,2007]" italics="true" pageId="5" pageNumber="97">versus</emphasis>
+13–15), and by being smaller (max SVL 
+<quantity id="4CFF0F96FFE0FF11FF2EF871BDD6F83B" box="[151,252,2017,2044]" metricMagnitude="-2" metricUnit="m" metricValue="4.74" pageId="5" pageNumber="97" unit="mm" value="47.4">47.4 mm</quantity>
+<emphasis id="B9737E61FFE0FF11FEBDF872BC66F83C" box="[260,332,2018,2043]" italics="true" pageId="5" pageNumber="97">versus</emphasis>
+68.0 mm). 
+<taxonomicName id="4C07D9F0FFE0FF11FE68F871BE34F83C" authority="Ceríaco &amp; Agarwal &amp; Marques &amp; Bauer, 2020" authorityName="Ceríaco &amp; Agarwal &amp; Marques &amp; Bauer" authorityYear="2020" box="[465,798,2017,2043]" class="Reptilia" family="Gekkonidae" genus="Hemidactylus" kingdom="Animalia" order="Squamata" pageId="5" pageNumber="97" phylum="Chordata" rank="species" species="hannahsabinae" status="sp. nov.">
+<emphasis id="B9737E61FFE0FF11FE68F871BE34F83C" box="[465,798,2017,2043]" italics="true" pageId="5" pageNumber="97">Hemidactylus hannahsabinae</emphasis>
+</taxonomicName>
+<emphasis id="B9737E61FFE0FF11FC9FF871BEAAF83C" bold="true" box="[806,896,2017,2043]" pageId="5" pageNumber="97">
+<taxonomicNameLabel id="A240C31AFFE0FF11FC9FF871BEAAF83C" box="[806,896,2017,2043]" pageId="5" pageNumber="97" rank="species">sp. nov.</taxonomicNameLabel>
+</emphasis>
+differs from 
+<taxonomicName id="4C07D9F0FFE0FF11FBAEF872B9BDF83C" box="[1047,1175,2018,2043]" class="Reptilia" family="Gekkonidae" genus="Hemidactylus" kingdom="Animalia" order="Squamata" pageId="5" pageNumber="97" phylum="Chordata" rank="species" species="ansorgii">
+<emphasis id="B9737E61FFE0FF11FBAEF872B9BDF83C" box="[1047,1175,2018,2043]" italics="true" pageId="5" pageNumber="97">H. ansorgii</emphasis>
+</taxonomicName>
+by a higher number of tubercle rows on the dorsum (16–18 
+<emphasis id="B9737E61FFE3FF12FD88FF07BF53FF77" box="[561,633,151,176]" italics="true" pageId="6" pageNumber="98">versus</emphasis>
+6–12), a lower number of precloacal-femoral pores (6–9 
+<emphasis id="B9737E61FFE3FF12FB40FF07B86BFF77" box="[1273,1345,151,176]" italics="true" pageId="6" pageNumber="98">versus</emphasis>
+10–11), fewer nasals surrounding the nostril (2 
+<emphasis id="B9737E61FFE3FF12FDE9FF2BBFB2FF13" box="[592,664,187,212]" italics="true" pageId="6" pageNumber="98">versus</emphasis>
+3), a stockier body (
+<taxonomicName id="4C07D9F0FFE3FF12FC3BFF2BB92BFF13" box="[898,1025,187,212]" class="Reptilia" family="Gekkonidae" genus="Hemidactylus" kingdom="Animalia" order="Squamata" pageId="6" pageNumber="98" phylum="Chordata" rank="species" species="ansorgii">
+<emphasis id="B9737E61FFE3FF12FC3BFF2BB92BFF13" box="[898,1025,187,212]" italics="true" pageId="6" pageNumber="98">H. ansorgii</emphasis>
+</taxonomicName>
+has a slender body and narrow head with a short interorbital distance). 
+<taxonomicName id="4C07D9F0FFE3FF12FDA5FF4FBE30FF3F" box="[540,794,223,249]" class="Reptilia" family="Gekkonidae" genus="Hemidactylus" kingdom="Animalia" order="Squamata" pageId="6" pageNumber="98" phylum="Chordata" rank="species" species="ansorgii">
+<emphasis id="B9737E61FFE3FF12FDA5FF4FBE30FF3F" box="[540,794,223,249]" italics="true" pageId="6" pageNumber="98">Hemidactylus ansorgii</emphasis>
+</taxonomicName>
+also has a row of pointed tubercles separating the venter and the flanks, which are completely devoid of any tubercles, (see figure in 
+<bibRefCitation id="EF96DF82FFE3FF12FC5BFE93B959FEDA" author="Tornier, G." box="[994,1139,259,285]" pageId="6" pageNumber="98" pagination="663 - 667" refId="ref8747" refString="Tornier, G. (1902) Die Crocodile, Schildkroten und Eidechsen in Kamerun. Zoologische Jahrbucher, 15, 663 - 667, pl. 35. https: // doi. org / 10.5962 / bhl. part. 19041" type="journal article" year="1902">Tornier 1902</bibRefCitation>
+and 
+<bibRefCitation id="EF96DF82FFE3FF12FB11FE93B807FEDA" author="Perret, J. - L." box="[1192,1325,258,285]" pageId="6" pageNumber="98" pagination="185 - 192" refId="ref8530" refString="Perret, J. - L. (1975) Revision critique de quelques types de reptiles et batraciens africains. Revue Suisse de Zoologie, 82 (1), 185 - 192. https: // doi. org / 10.5962 / bhl. part. 85603" type="journal article" year="1975">Perret 1975</bibRefCitation>
+), whereas in 
+<taxonomicName id="4C07D9F0FFE3FF12FF0CFEB7BCA9FE86" authority="Ceríaco &amp; Agarwal &amp; Marques &amp; Bauer, 2020" authorityName="Ceríaco &amp; Agarwal &amp; Marques &amp; Bauer" authorityYear="2020" box="[181,387,295,321]" class="Reptilia" family="Gekkonidae" genus="Hemidactylus" kingdom="Animalia" order="Squamata" pageId="6" pageNumber="98" phylum="Chordata" rank="species" species="hannahsabinae" status="sp. nov.">
+<emphasis id="B9737E61FFE3FF12FF0CFEB7BCA9FE86" box="[181,387,295,321]" italics="true" pageId="6" pageNumber="98">H. hannahsabinae</emphasis>
+</taxonomicName>
+<emphasis id="B9737E61FFE3FF12FE32FEB7BCCCFE86" bold="true" box="[395,486,295,321]" pageId="6" pageNumber="98">
+<taxonomicNameLabel id="A240C31AFFE3FF12FE32FEB7BCCCFE86" box="[395,486,295,321]" pageId="6" pageNumber="98" rank="species">sp. nov.</taxonomicNameLabel>
+</emphasis>
+this ventrolateral row of tubercles is lacking, and tubercles extend across the flanks and dorsum.
+</paragraph>
+<caption id="DF78F2FBFFE3FF12FF2EFAD8B941FA43" ID-DOI="http://doi.org/10.5281/zenodo.4414628" ID-Zenodo-Dep="4414628" httpUri="https://zenodo.org/record/4414628/files/figure.png" pageId="6" pageNumber="98" startId="6.[151,250,1352,1376]" targetBox="[202,1386,381,1329]" targetPageId="6">
+<paragraph id="8BB8A273FFE3FF12FF2EFAD8B941FA43" blockId="6.[151,1436,1352,1412]" pageId="6" pageNumber="98">
+<emphasis id="B9737E61FFE3FF12FF2EFAD8BC3CFAA7" bold="true" box="[151,278,1352,1376]" pageId="6" pageNumber="98">FIGURE 3.</emphasis>
+Comparison between 
+<taxonomicName id="4C07D9F0FFE3FF12FDBBFAD9BF58FAA7" box="[514,626,1353,1376]" class="Reptilia" family="Gekkonidae" genus="Hemidactylus" kingdom="Animalia" order="Squamata" pageId="6" pageNumber="98" phylum="Chordata" rank="species" species="nzingae">
+<emphasis id="B9737E61FFE3FF12FDBBFAD9BF58FAA7" box="[514,626,1353,1376]" italics="true" pageId="6" pageNumber="98">H. nzingae</emphasis>
+</taxonomicName>
+(paratype, AMNH 47782) and 
+<taxonomicName id="4C07D9F0FFE3FF12FC07FAD9B951FAA7" authority="Ceríaco &amp; Agarwal &amp; Marques &amp; Bauer, 2020" authorityName="Ceríaco &amp; Agarwal &amp; Marques &amp; Bauer" authorityYear="2020" box="[958,1147,1352,1376]" class="Reptilia" family="Gekkonidae" genus="Hemidactylus" kingdom="Animalia" order="Squamata" pageId="6" pageNumber="98" phylum="Chordata" rank="species" species="hannahsabinae" status="sp. nov.">
+<emphasis id="B9737E61FFE3FF12FC07FAD9B951FAA7" box="[958,1147,1352,1376]" italics="true" pageId="6" pageNumber="98">H. hannahsabinae</emphasis>
+</taxonomicName>
+<emphasis id="B9737E61FFE3FF12FB3DFAD8B9FDFAA7" bold="true" box="[1156,1239,1352,1376]" pageId="6" pageNumber="98">
+<taxonomicNameLabel id="A240C31AFFE3FF12FB3DFAD8B9FDFAA7" box="[1156,1239,1352,1376]" pageId="6" pageNumber="98" rank="species">sp. nov.</taxonomicNameLabel>
+</emphasis>
+(paratype, AMNH 51960) from Dande, both specimens collected in 1925. Scale 10 mm. Photos Luis M. P. Ceríaco.
+</paragraph>
+</caption>
+<paragraph id="8BB8A273FFE3FF12FF7EFA22BC17F867" blockId="6.[151,1437,1458,1952]" pageId="6" pageNumber="98">
+Comparing the new species with the other Angolan congeners, 
+<taxonomicName id="4C07D9F0FFE3FF12FC34FA22B9F3FA0B" authority="Ceríaco &amp; Agarwal &amp; Marques &amp; Bauer, 2020" authorityName="Ceríaco &amp; Agarwal &amp; Marques &amp; Bauer" authorityYear="2020" box="[909,1241,1458,1484]" class="Reptilia" family="Gekkonidae" genus="Hemidactylus" kingdom="Animalia" order="Squamata" pageId="6" pageNumber="98" phylum="Chordata" rank="species" species="hannahsabinae" status="sp. nov.">
+<emphasis id="B9737E61FFE3FF12FC34FA22B9F3FA0B" box="[909,1241,1458,1484]" italics="true" pageId="6" pageNumber="98">Hemidactylus hannahsabinae</emphasis>
+</taxonomicName>
+<emphasis id="B9737E61FFE3FF12FB59FA22B810FA0B" bold="true" box="[1248,1338,1458,1484]" pageId="6" pageNumber="98">
+<taxonomicNameLabel id="A240C31AFFE3FF12FB59FA22B810FA0B" box="[1248,1338,1458,1484]" pageId="6" pageNumber="98" rank="species">sp. nov.</taxonomicNameLabel>
+</emphasis>
+is easily distinguishable from 
+<taxonomicName id="4C07D9F0FFE3FF12FE3EFA47BF26FA37" baseAuthorityName="Moreau de Jonnes" baseAuthorityYear="1818" box="[391,524,1494,1520]" class="Reptilia" family="Gekkonidae" genus="Hemidactylus" kingdom="Animalia" order="Squamata" pageId="6" pageNumber="98" phylum="Chordata" rank="species" species="mabouia">
+<emphasis id="B9737E61FFE3FF12FE3EFA47BF26FA37" box="[391,524,1494,1520]" italics="true" pageId="6" pageNumber="98">H. mabouia</emphasis>
+</taxonomicName>
+by its smaller size (maximum SVL 
+<quantity id="4CFF0F96FFE3FF12FC1EFA46B926FA36" box="[935,1036,1494,1521]" metricMagnitude="-2" metricUnit="m" metricValue="4.74" pageId="6" pageNumber="98" unit="mm" value="47.4">47.4 mm</quantity>
+<emphasis id="B9737E61FFE3FF12FBAAFA47B971FA37" box="[1043,1115,1495,1520]" italics="true" pageId="6" pageNumber="98">versus</emphasis>
+<quantity id="4CFF0F96FFE3FF12FBDAFA46B9E6FA36" box="[1123,1228,1494,1521]" metricMagnitude="-2" metricUnit="m" metricValue="6.74" pageId="6" pageNumber="98" unit="mm" value="67.4">67.4 mm</quantity>
+), lower number of precloacal-femoral pores in males (6–9 
+<emphasis id="B9737E61FFE3FF12FDDCFA6BBF87F9D3" box="[613,685,1531,1556]" italics="true" pageId="6" pageNumber="98">versus</emphasis>
+28–39), fewer granular scales between the dorsal tubercles (1–3 
+<emphasis id="B9737E61FFE3FF12FF2EF98FBDF5F9FF" box="[151,223,1567,1592]" italics="true" pageId="6" pageNumber="98">versus</emphasis>
+5–10), and lower number of rows of ventral scales (26 
+<emphasis id="B9737E61FFE3FF12FCFEF98FBEA5F9FF" box="[839,911,1567,1592]" italics="true" pageId="6" pageNumber="98">versus</emphasis>
+34–37). The new species may be distinguished from 
+<taxonomicName id="4C07D9F0FFE3FF12FF61F9D3BCBCF99B" authorityName="Bocage" authorityYear="1893" box="[216,406,1602,1628]" class="Reptilia" family="Gekkonidae" genus="Hemidactylus" kingdom="Animalia" order="Squamata" pageId="6" pageNumber="98" phylum="Chordata" rank="species" species="benguellensis">
+<emphasis id="B9737E61FFE3FF12FF61F9D3BCBCF99B" box="[216,406,1602,1628]" italics="true" pageId="6" pageNumber="98">H. benguellensis</emphasis>
+</taxonomicName>
+by a much lower number of precloacal-femoral pores in males (6–9 
+<emphasis id="B9737E61FFE3FF12FB78F9D3B823F99B" box="[1217,1289,1603,1628]" italics="true" pageId="6" pageNumber="98">versus</emphasis>
+23–33), and fewer granular scales between the dorsal tubercles (1–3 
+<emphasis id="B9737E61FFE3FF12FCA2F9F7BE49F947" box="[795,867,1639,1664]" italics="true" pageId="6" pageNumber="98">versus</emphasis>
+4–9). The new species can be distinguished from 
+<taxonomicName id="4C07D9F0FFE3FF12FF2EF91BBC27F963" authorityName="Bocage" authorityYear="1893" box="[151,269,1674,1700]" class="Reptilia" family="Gekkonidae" genus="Hemidactylus" kingdom="Animalia" order="Squamata" pageId="6" pageNumber="98" phylum="Chordata" rank="species" species="bayonii">
+<emphasis id="B9737E61FFE3FF12FF2EF91BBC27F963" box="[151,269,1674,1700]" italics="true" pageId="6" pageNumber="98">H. bayonii</emphasis>
+</taxonomicName>
+by its larger size (maximum SVL 
+<quantity id="4CFF0F96FFE3FF12FD29F91ABFDEF962" box="[656,756,1674,1701]" metricMagnitude="-2" metricUnit="m" metricValue="4.74" pageId="6" pageNumber="98" unit="mm" value="47.4">47.4 mm</quantity>
+<emphasis id="B9737E61FFE3FF12FD42F91BBE69F963" box="[763,835,1675,1700]" italics="true" pageId="6" pageNumber="98">versus</emphasis>
+<quantity id="4CFF0F96FFE3FF12FCF3F91ABE98F962" box="[842,946,1674,1701]" metricMagnitude="-2" metricUnit="m" metricValue="3.62" pageId="6" pageNumber="98" unit="mm" value="36.2">36.2 mm</quantity>
+), by having higher number of tubercle rows on the dorsum (16–18 
+<emphasis id="B9737E61FFE3FF12FE18F93FBCC3F90F" box="[417,489,1711,1736]" italics="true" pageId="6" pageNumber="98">versus</emphasis>
+14–16), fewer granular scales between the dorsal tubercles (1–3 
+<emphasis id="B9737E61FFE3FF12FB67F93FB80CF90F" box="[1246,1318,1711,1736]" italics="true" pageId="6" pageNumber="98">versus</emphasis>
+4–7), and fewer rows of ventral scales (26 
+<emphasis id="B9737E61FFE3FF12FDB4F943BF7FF92B" box="[525,597,1747,1772]" italics="true" pageId="6" pageNumber="98">versus</emphasis>
+28–33). 
+<taxonomicName id="4C07D9F0FFE3FF12FD05F942B920F92B" authority="Ceríaco &amp; Agarwal &amp; Marques &amp; Bauer, 2020" authorityName="Ceríaco &amp; Agarwal &amp; Marques &amp; Bauer" authorityYear="2020" box="[700,1034,1746,1772]" class="Reptilia" family="Gekkonidae" genus="Hemidactylus" kingdom="Animalia" order="Squamata" pageId="6" pageNumber="98" phylum="Chordata" rank="species" species="hannahsabinae" status="sp. nov.">
+<emphasis id="B9737E61FFE3FF12FD05F942B920F92B" box="[700,1034,1746,1772]" italics="true" pageId="6" pageNumber="98">Hemidactylus hannahsabinae</emphasis>
+</taxonomicName>
+<emphasis id="B9737E61FFE3FF12FBABF942B947F92B" bold="true" box="[1042,1133,1746,1772]" pageId="6" pageNumber="98">
+<taxonomicNameLabel id="A240C31AFFE3FF12FBABF942B947F92B" box="[1042,1133,1746,1772]" pageId="6" pageNumber="98" rank="species">sp. nov.</taxonomicNameLabel>
+</emphasis>
+can be distinguished from 
+<taxonomicName id="4C07D9F0FFE3FF12FF2EF967BC72F8D7" authorityName="Bocage" authorityYear="1873" box="[151,344,1782,1808]" class="Reptilia" family="Gekkonidae" genus="Hemidactylus" kingdom="Animalia" order="Squamata" pageId="6" pageNumber="98" phylum="Chordata" rank="species" species="longicephalus">
+<emphasis id="B9737E61FFE3FF12FF2EF967BC72F8D7" box="[151,344,1782,1808]" italics="true" pageId="6" pageNumber="98">H. longicephalus</emphasis>
+</taxonomicName>
+by having fewer granular scales between the dorsal tubercles (1–3 
+<emphasis id="B9737E61FFE3FF12FBE3F967B988F8D7" box="[1114,1186,1783,1808]" italics="true" pageId="6" pageNumber="98">versus</emphasis>
+3–6), and fewer rows of ventral scales (26 
+<emphasis id="B9737E61FFE3FF12FE3AF88BBCE1F8F3" box="[387,459,1819,1844]" italics="true" pageId="6" pageNumber="98">versus</emphasis>
+30–33). It can be distinguished from 
+<taxonomicName id="4C07D9F0FFE3FF12FCCDF88BBEC8F8F3" authorityName="Ceriaco, Agarwal, Marques &amp; Bauer" authorityYear="2020" box="[884,994,1819,1844]" class="Reptilia" family="Gekkonidae" genus="Hemidactylus" kingdom="Animalia" order="Squamata" pageId="6" pageNumber="98" phylum="Chordata" rank="species" species="paivae">
+<emphasis id="B9737E61FFE3FF12FCCDF88BBEC8F8F3" box="[884,994,1819,1844]" italics="true" pageId="6" pageNumber="98">H. paivae</emphasis>
+</taxonomicName>
+by its smaller size (max SVL 
+<quantity id="4CFF0F96FFE3FF12FA81F88AB8B7F8F2" box="[1336,1437,1818,1845]" metricMagnitude="-2" metricUnit="m" metricValue="4.74" pageId="6" pageNumber="98" unit="mm" value="47.4">47.4 mm</quantity>
+<emphasis id="B9737E61FFE3FF12FF2EF8AFBDF5F89F" box="[151,223,1855,1880]" italics="true" pageId="6" pageNumber="98">versus</emphasis>
+<quantity id="4CFF0F96FFE3FF12FF5EF8AEBC7AF89E" box="[231,336,1854,1881]" metricMagnitude="-2" metricUnit="m" metricValue="6.84" pageId="6" pageNumber="98" unit="mm" value="68.4">68.4 mm</quantity>
+), having a higher number of tubercle rows on the dorsum (16–18 
+<emphasis id="B9737E61FFE3FF12FB85F8AFB9AEF89F" box="[1084,1156,1855,1880]" italics="true" pageId="6" pageNumber="98">versus</emphasis>
+14–16), a lower number of granular scales between the dorsal tubercles (1–3 
+<emphasis id="B9737E61FFE3FF12FD5CF8F3BE07F8BB" box="[741,813,1891,1916]" italics="true" pageId="6" pageNumber="98">versus</emphasis>
+4–9), and a lower number of rows of ventral scales (26 
+<emphasis id="B9737E61FFE3FF12FF2EF817BDF5F867" box="[151,223,1927,1952]" italics="true" pageId="6" pageNumber="98">versus</emphasis>
+28–34).
+</paragraph>
+<caption id="DF78F2FBFFE2FF13FF2EFF07BEF2FF14" ID-Table-UUID="DF78F2FBFFE2FF13FF2EFF07BEF2FF14" httpUri="http://table.plazi.org/id/DF78F2FBFFE2FF13FF2EFF07BEF2FF14" pageId="7" pageNumber="99" targetBox="[163,1372,227,1125]" targetIsTable="true" targetPageId="7">
+<paragraph id="8BB8A273FFE2FF13FF2EFF07BEF2FF14" blockId="7.[151,1436,151,212]" pageId="7" pageNumber="99">
+<emphasis id="B9737E61FFE2FF13FF2EFF07BC21FF68" bold="true" box="[151,267,151,175]" pageId="7" pageNumber="99">TABLE 2.</emphasis>
+Measurements (in mm) and scale counts of the holotype and paratypes of 
+<taxonomicName id="4C07D9F0FFE2FF13FB8EFF07B85EFF68" authority="Ceríaco &amp; Agarwal &amp; Marques &amp; Bauer, 2020" authorityName="Ceríaco &amp; Agarwal &amp; Marques &amp; Bauer" authorityYear="2020" box="[1079,1396,151,175]" class="Reptilia" family="Gekkonidae" genus="Hemidactylus" kingdom="Animalia" order="Squamata" pageId="7" pageNumber="99" phylum="Chordata" rank="species" species="hannahsabinae" status="sp. nov.">
+<emphasis id="B9737E61FFE2FF13FB8EFF07B85EFF68" box="[1079,1396,151,175]" italics="true" pageId="7" pageNumber="99">Hemidactylus hannahsabinae</emphasis>
+</taxonomicName>
+<emphasis id="B9737E61FFE2FF13FAC5FF08BDECFF13" bold="true" pageId="7" pageNumber="99">
+<taxonomicNameLabel id="A240C31AFFE2FF13FAC5FF08BDECFF13" pageId="7" pageNumber="99" rank="species">sp. nov.</taxonomicNameLabel>
+</emphasis>
+Abbreviations are the same as those described in Materials and Methods.
+</paragraph>
+</caption>
+<paragraph id="8BB8A273FFE2FF13FF1AFF73B9C0FB8E" pageId="7" pageNumber="99">
+<table id="F90750D3FFE200EBFF1AFF73B876FBA2" box="[163,1372,227,1125]" gridcols="5" gridrows="22" pageId="7" pageNumber="99">
+<tr id="3537A031FFE200EBFF1AFF73B876FF3B" box="[163,1372,227,252]" gridrow="0" pageId="7" pageNumber="99">
+<th id="76E6C94DFFE200EBFF1AFF73BC88FF3B" box="[163,418,227,252]" gridcol="0" gridrow="0" pageId="7" pageNumber="99">
+<emphasis id="B9737E61FFE2FF13FF1AFF73BC37FF3C" bold="true" box="[163,285,227,251]" pageId="7" pageNumber="99">Type status</emphasis>
+</th>
+<th id="76E6C94DFFE200EBFDB8FF73BFB7FF3B" box="[513,669,227,252]" gridcol="1" gridrow="0" pageId="7" pageNumber="99">Holotype</th>
+<th id="76E6C94DFFE200EBFC9DFF73BE9DFF3B" box="[804,951,227,252]" gridcol="2" gridrow="0" pageId="7" pageNumber="99">none</th>
+<th id="76E6C94DFFE200EBFC43FF73B9A7FF3B" box="[1018,1165,227,252]" gridcol="3" gridrow="0" pageId="7" pageNumber="99">none</th>
+<th id="76E6C94DFFE200EBFB70FF73B876FF3B" box="[1225,1372,227,252]" gridcol="4" gridrow="0" pageId="7" pageNumber="99">none</th>
+</tr>
+<tr id="3537A031FFE200EBFF1AFE9BB876FEE3" box="[163,1372,267,292]" gridrow="1" pageId="7" pageNumber="99">
+<th id="76E6C94DFFE200EBFF1AFE9BBC88FEE3" box="[163,418,267,292]" gridcol="0" gridrow="1" pageId="7" pageNumber="99">
+<emphasis id="B9737E61FFE2FF13FF1AFE9BBC79FEE3" bold="true" box="[163,339,267,292]" pageId="7" pageNumber="99">Catalog number</emphasis>
+</th>
+<td id="76E6C94DFFE200EBFDB8FE9BBFB7FEE3" box="[513,669,267,292]" gridcol="1" gridrow="1" pageId="7" pageNumber="99">ANSP 32189</td>
+<td id="76E6C94DFFE200EBFC9DFE9BBE9DFEE3" box="[804,951,267,292]" gridcol="2" gridrow="1" pageId="7" pageNumber="99">AMNH 51960</td>
+<td id="76E6C94DFFE200EBFC43FE9BB9A7FEE3" box="[1018,1165,267,292]" gridcol="3" gridrow="1" pageId="7" pageNumber="99">AMNH 51961</td>
+<td id="76E6C94DFFE200EBFB70FE9BB876FEE3" box="[1225,1372,267,292]" gridcol="4" gridrow="1" pageId="7" pageNumber="99">AMNH 47783</td>
+</tr>
+<tr id="3537A031FFE200EBFF1AFEA4B876FE8B" box="[163,1372,308,332]" gridrow="2" pageId="7" pageNumber="99">
+<th id="76E6C94DFFE200EBFF1AFEA4BC88FE8B" box="[163,418,308,332]" gridcol="0" gridrow="2" pageId="7" pageNumber="99">
+<emphasis id="B9737E61FFE2FF13FF1AFEA4BDFEFE8B" bold="true" box="[163,212,308,332]" pageId="7" pageNumber="99">SEX</emphasis>
+</th>
+<td id="76E6C94DFFE200EBFDB8FEA4BFB7FE8B" box="[513,669,308,332]" gridcol="1" gridrow="2" pageId="7" pageNumber="99">male</td>
+<td id="76E6C94DFFE200EBFC9DFEA4BE9DFE8B" box="[804,951,308,332]" gridcol="2" gridrow="2" pageId="7" pageNumber="99">male</td>
+<td id="76E6C94DFFE200EBFC43FEA4B9A7FE8B" box="[1018,1165,308,332]" gridcol="3" gridrow="2" pageId="7" pageNumber="99">female</td>
+<td id="76E6C94DFFE200EBFB70FEA4B876FE8B" box="[1225,1372,308,332]" gridcol="4" gridrow="2" pageId="7" pageNumber="99">male</td>
+</tr>
+<tr id="3537A031FFE200EBFF1AFECCB876FEB2" box="[163,1372,348,373]" gridrow="3" pageId="7" pageNumber="99">
+<th id="76E6C94DFFE200EBFF1AFECCBC88FEB2" box="[163,418,348,373]" gridcol="0" gridrow="3" pageId="7" pageNumber="99">
+<emphasis id="B9737E61FFE2FF13FF1AFECCBDFEFEB3" bold="true" box="[163,212,348,372]" pageId="7" pageNumber="99">SVL</emphasis>
+</th>
+<td id="76E6C94DFFE200EBFDB8FECCBFB7FEB2" box="[513,669,348,373]" gridcol="1" gridrow="3" pageId="7" pageNumber="99">39.3</td>
+<td id="76E6C94DFFE200EBFC9DFECCBE9DFEB2" box="[804,951,348,373]" gridcol="2" gridrow="3" pageId="7" pageNumber="99">47.4</td>
+<td id="76E6C94DFFE200EBFC43FECCB9A7FEB2" box="[1018,1165,348,373]" gridcol="3" gridrow="3" pageId="7" pageNumber="99">42.7</td>
+<td id="76E6C94DFFE200EBFB70FECCB876FEB2" box="[1225,1372,348,373]" gridcol="4" gridrow="3" pageId="7" pageNumber="99">39.4</td>
+</tr>
+<tr id="3537A031FFE200EBFF1AFE14B876FE5A" box="[163,1372,388,413]" gridrow="4" pageId="7" pageNumber="99">
+<th id="76E6C94DFFE200EBFF1AFE14BC88FE5A" box="[163,418,388,413]" gridcol="0" gridrow="4" pageId="7" pageNumber="99">
+<emphasis id="B9737E61FFE2FF13FF1AFE14BDEFFE5B" bold="true" box="[163,197,388,412]" pageId="7" pageNumber="99">TL</emphasis>
+</th>
+<td id="76E6C94DFFE200EBFDB8FE14BFB7FE5A" box="[513,669,388,413]" gridcol="1" gridrow="4" pageId="7" pageNumber="99">regenerated tail</td>
+<td id="76E6C94DFFE200EBFC9DFE14BE9DFE5A" box="[804,951,388,413]" gridcol="2" gridrow="4" pageId="7" pageNumber="99">broken</td>
+<td id="76E6C94DFFE200EBFC43FE14B9A7FE5A" box="[1018,1165,388,413]" gridcol="3" gridrow="4" pageId="7" pageNumber="99">broken</td>
+<td id="76E6C94DFFE200EBFB70FE14B876FE5A" box="[1225,1372,388,413]" gridcol="4" gridrow="4" pageId="7" pageNumber="99">broken</td>
+</tr>
+<tr id="3537A031FFE200EBFF1AFE3DB876FE02" box="[163,1372,429,453]" gridrow="5" pageId="7" pageNumber="99">
+<th id="76E6C94DFFE200EBFF1AFE3DBC88FE02" box="[163,418,429,453]" gridcol="0" gridrow="5" pageId="7" pageNumber="99">
+<emphasis id="B9737E61FFE2FF13FF1AFE3DBDFDFE02" bold="true" box="[163,215,429,453]" pageId="7" pageNumber="99">TRL</emphasis>
+</th>
+<td id="76E6C94DFFE200EBFDB8FE3DBFB7FE02" box="[513,669,429,453]" gridcol="1" gridrow="5" pageId="7" pageNumber="99">13.9</td>
+<td id="76E6C94DFFE200EBFC9DFE3DBE9DFE02" box="[804,951,429,453]" gridcol="2" gridrow="5" pageId="7" pageNumber="99">21.1</td>
+<td id="76E6C94DFFE200EBFC43FE3DB9A7FE02" box="[1018,1165,429,453]" gridcol="3" gridrow="5" pageId="7" pageNumber="99">21.4</td>
+<td id="76E6C94DFFE200EBFB70FE3DB876FE02" box="[1225,1372,429,453]" gridcol="4" gridrow="5" pageId="7" pageNumber="99">15.0</td>
+</tr>
+<tr id="3537A031FFE200EBFF1AFE45B876FE2A" box="[163,1372,469,493]" gridrow="6" pageId="7" pageNumber="99">
+<th id="76E6C94DFFE200EBFF1AFE45BC88FE2A" box="[163,418,469,493]" gridcol="0" gridrow="6" pageId="7" pageNumber="99">
+<emphasis id="B9737E61FFE2FF13FF1AFE45BDE7FE2A" bold="true" box="[163,205,469,493]" pageId="7" pageNumber="99">BW</emphasis>
+</th>
+<td id="76E6C94DFFE200EBFDB8FE45BFB7FE2A" box="[513,669,469,493]" gridcol="1" gridrow="6" pageId="7" pageNumber="99">5.4</td>
+<td id="76E6C94DFFE200EBFC9DFE45BE9DFE2A" box="[804,951,469,493]" gridcol="2" gridrow="6" pageId="7" pageNumber="99">6.0</td>
+<td id="76E6C94DFFE200EBFC43FE45B9A7FE2A" box="[1018,1165,469,493]" gridcol="3" gridrow="6" pageId="7" pageNumber="99">7.0</td>
+<td id="76E6C94DFFE200EBFB70FE45B876FE2A" box="[1225,1372,469,493]" gridcol="4" gridrow="6" pageId="7" pageNumber="99">5.0</td>
+</tr>
+<tr id="3537A031FFE200EBFF1AFE6DB876FDD2" box="[163,1372,509,533]" gridrow="7" pageId="7" pageNumber="99">
+<th id="76E6C94DFFE200EBFF1AFE6DBC88FDD2" box="[163,418,509,533]" gridcol="0" gridrow="7" pageId="7" pageNumber="99">
+<emphasis id="B9737E61FFE2FF13FF1AFE6DBDE9FDD2" bold="true" box="[163,195,509,533]" pageId="7" pageNumber="99">FL</emphasis>
+</th>
+<td id="76E6C94DFFE200EBFDB8FE6DBFB7FDD2" box="[513,669,509,533]" gridcol="1" gridrow="7" pageId="7" pageNumber="99">5.8</td>
+<td id="76E6C94DFFE200EBFC9DFE6DBE9DFDD2" box="[804,951,509,533]" gridcol="2" gridrow="7" pageId="7" pageNumber="99">4.6</td>
+<td id="76E6C94DFFE200EBFC43FE6DB9A7FDD2" box="[1018,1165,509,533]" gridcol="3" gridrow="7" pageId="7" pageNumber="99">6.2</td>
+<td id="76E6C94DFFE200EBFB70FE6DB876FDD2" box="[1225,1372,509,533]" gridcol="4" gridrow="7" pageId="7" pageNumber="99">5.0</td>
+</tr>
+<tr id="3537A031FFE200EBFF1AFDB5B876FDF9" box="[163,1372,549,574]" gridrow="8" pageId="7" pageNumber="99">
+<th id="76E6C94DFFE200EBFF1AFDB5BC88FDF9" box="[163,418,549,574]" gridcol="0" gridrow="8" pageId="7" pageNumber="99">
+<emphasis id="B9737E61FFE2FF13FF1AFDB5BDECFDFA" bold="true" box="[163,198,549,573]" pageId="7" pageNumber="99">CL</emphasis>
+</th>
+<td id="76E6C94DFFE200EBFDB8FDB5BFB7FDF9" box="[513,669,549,574]" gridcol="1" gridrow="8" pageId="7" pageNumber="99">6.3</td>
+<td id="76E6C94DFFE200EBFC9DFDB5BE9DFDF9" box="[804,951,549,574]" gridcol="2" gridrow="8" pageId="7" pageNumber="99">7.3</td>
+<td id="76E6C94DFFE200EBFC43FDB5B9A7FDF9" box="[1018,1165,549,574]" gridcol="3" gridrow="8" pageId="7" pageNumber="99">7.5</td>
+<td id="76E6C94DFFE200EBFB70FDB5B876FDF9" box="[1225,1372,549,574]" gridcol="4" gridrow="8" pageId="7" pageNumber="99">6.0</td>
+</tr>
+<tr id="3537A031FFE200EBFF1AFDDEB876FDA1" box="[163,1372,590,614]" gridrow="9" pageId="7" pageNumber="99">
+<th id="76E6C94DFFE200EBFF1AFDDEBC88FDA1" box="[163,418,590,614]" gridcol="0" gridrow="9" pageId="7" pageNumber="99">
+<emphasis id="B9737E61FFE2FF13FF1AFDDEBDE2FDA1" bold="true" box="[163,200,590,614]" pageId="7" pageNumber="99">HL</emphasis>
+</th>
+<td id="76E6C94DFFE200EBFDB8FDDEBFB7FDA1" box="[513,669,590,614]" gridcol="1" gridrow="9" pageId="7" pageNumber="99">12.1</td>
+<td id="76E6C94DFFE200EBFC9DFDDEBE9DFDA1" box="[804,951,590,614]" gridcol="2" gridrow="9" pageId="7" pageNumber="99">12.5</td>
+<td id="76E6C94DFFE200EBFC43FDDEB9A7FDA1" box="[1018,1165,590,614]" gridcol="3" gridrow="9" pageId="7" pageNumber="99">12.2</td>
+<td id="76E6C94DFFE200EBFB70FDDEB876FDA1" box="[1225,1372,590,614]" gridcol="4" gridrow="9" pageId="7" pageNumber="99">10.5</td>
+</tr>
+<tr id="3537A031FFE200EBFF1AFDE6B876FD49" box="[163,1372,630,654]" gridrow="10" pageId="7" pageNumber="99">
+<th id="76E6C94DFFE200EBFF1AFDE6BC88FD49" box="[163,418,630,654]" gridcol="0" gridrow="10" pageId="7" pageNumber="99">
+<emphasis id="B9737E61FFE2FF13FF1AFDE6BDFAFD49" bold="true" box="[163,208,630,654]" pageId="7" pageNumber="99">HW</emphasis>
+</th>
+<td id="76E6C94DFFE200EBFDB8FDE6BFB7FD49" box="[513,669,630,654]" gridcol="1" gridrow="10" pageId="7" pageNumber="99">7.1</td>
+<td id="76E6C94DFFE200EBFC9DFDE6BE9DFD49" box="[804,951,630,654]" gridcol="2" gridrow="10" pageId="7" pageNumber="99">8.6</td>
+<td id="76E6C94DFFE200EBFC43FDE6B9A7FD49" box="[1018,1165,630,654]" gridcol="3" gridrow="10" pageId="7" pageNumber="99">8.5</td>
+<td id="76E6C94DFFE200EBFB70FDE6B876FD49" box="[1225,1372,630,654]" gridcol="4" gridrow="10" pageId="7" pageNumber="99">6.8</td>
+</tr>
+<tr id="3537A031FFE200EBFF1AFD0EB876FD71" box="[163,1372,670,694]" gridrow="11" pageId="7" pageNumber="99">
+<th id="76E6C94DFFE200EBFF1AFD0EBC88FD71" box="[163,418,670,694]" gridcol="0" gridrow="11" pageId="7" pageNumber="99">
+<emphasis id="B9737E61FFE2FF13FF1AFD0EBDE0FD71" bold="true" box="[163,202,670,694]" pageId="7" pageNumber="99">HH</emphasis>
+</th>
+<td id="76E6C94DFFE200EBFDB8FD0EBFB7FD71" box="[513,669,670,694]" gridcol="1" gridrow="11" pageId="7" pageNumber="99">5.2</td>
+<td id="76E6C94DFFE200EBFC9DFD0EBE9DFD71" box="[804,951,670,694]" gridcol="2" gridrow="11" pageId="7" pageNumber="99">5.7</td>
+<td id="76E6C94DFFE200EBFC43FD0EB9A7FD71" box="[1018,1165,670,694]" gridcol="3" gridrow="11" pageId="7" pageNumber="99">5.5</td>
+<td id="76E6C94DFFE200EBFB70FD0EB876FD71" box="[1225,1372,670,694]" gridcol="4" gridrow="11" pageId="7" pageNumber="99">4.5</td>
+</tr>
+<tr id="3537A031FFE200EBFF1AFD56B876FD18" box="[163,1372,710,735]" gridrow="12" pageId="7" pageNumber="99">
+<th id="76E6C94DFFE200EBFF1AFD56BC88FD18" box="[163,418,710,735]" gridcol="0" gridrow="12" pageId="7" pageNumber="99">
+<emphasis id="B9737E61FFE2FF13FF1AFD56BDECFD19" bold="true" box="[163,198,710,734]" pageId="7" pageNumber="99">ED</emphasis>
+</th>
+<td id="76E6C94DFFE200EBFDB8FD56BFB7FD18" box="[513,669,710,735]" gridcol="1" gridrow="12" pageId="7" pageNumber="99">2.8</td>
+<td id="76E6C94DFFE200EBFC9DFD56BE9DFD18" box="[804,951,710,735]" gridcol="2" gridrow="12" pageId="7" pageNumber="99">3.0</td>
+<td id="76E6C94DFFE200EBFC43FD56B9A7FD18" box="[1018,1165,710,735]" gridcol="3" gridrow="12" pageId="7" pageNumber="99">3.0</td>
+<td id="76E6C94DFFE200EBFB70FD56B876FD18" box="[1225,1372,710,735]" gridcol="4" gridrow="12" pageId="7" pageNumber="99">2.2</td>
+</tr>
+<tr id="3537A031FFE200EBFF1AFD7FB876FCC0" box="[163,1372,751,775]" gridrow="13" pageId="7" pageNumber="99">
+<th id="76E6C94DFFE200EBFF1AFD7FBC88FCC0" box="[163,418,751,775]" gridcol="0" gridrow="13" pageId="7" pageNumber="99">
+<emphasis id="B9737E61FFE2FF13FF1AFD7FBDECFCC0" bold="true" box="[163,198,751,775]" pageId="7" pageNumber="99">NE</emphasis>
+</th>
+<td id="76E6C94DFFE200EBFDB8FD7FBFB7FCC0" box="[513,669,751,775]" gridcol="1" gridrow="13" pageId="7" pageNumber="99">3.3</td>
+<td id="76E6C94DFFE200EBFC9DFD7FBE9DFCC0" box="[804,951,751,775]" gridcol="2" gridrow="13" pageId="7" pageNumber="99">4.2</td>
+<td id="76E6C94DFFE200EBFC43FD7FB9A7FCC0" box="[1018,1165,751,775]" gridcol="3" gridrow="13" pageId="7" pageNumber="99">3.9</td>
+<td id="76E6C94DFFE200EBFB70FD7FB876FCC0" box="[1225,1372,751,775]" gridcol="4" gridrow="13" pageId="7" pageNumber="99">3.1</td>
+</tr>
+<tr id="3537A031FFE200EBFF1AFC86B876FCE8" box="[163,1372,790,815]" gridrow="14" pageId="7" pageNumber="99">
+<th id="76E6C94DFFE200EBFF1AFC86BC88FCE8" box="[163,418,790,815]" gridcol="0" gridrow="14" pageId="7" pageNumber="99">
+<emphasis id="B9737E61FFE2FF13FF1AFC86BDE8FCE9" bold="true" box="[163,194,790,814]" pageId="7" pageNumber="99">SE</emphasis>
+</th>
+<td id="76E6C94DFFE200EBFDB8FC86BFB7FCE8" box="[513,669,790,815]" gridcol="1" gridrow="14" pageId="7" pageNumber="99">4.5</td>
+<td id="76E6C94DFFE200EBFC9DFC86BE9DFCE8" box="[804,951,790,815]" gridcol="2" gridrow="14" pageId="7" pageNumber="99">5.7</td>
+<td id="76E6C94DFFE200EBFC43FC86B9A7FCE8" box="[1018,1165,790,815]" gridcol="3" gridrow="14" pageId="7" pageNumber="99">5.4</td>
+<td id="76E6C94DFFE200EBFB70FC86B876FCE8" box="[1225,1372,790,815]" gridcol="4" gridrow="14" pageId="7" pageNumber="99">4.5</td>
+</tr>
+<tr id="3537A031FFE200EBFF1AFCAFB876FC9F" box="[163,1372,831,856]" gridrow="15" pageId="7" pageNumber="99">
+<th id="76E6C94DFFE200EBFF1AFCAFBC88FC9F" box="[163,418,831,856]" gridcol="0" gridrow="15" pageId="7" pageNumber="99">
+<emphasis id="B9737E61FFE2FF13FF1AFCAFBDEFFC90" bold="true" box="[163,197,831,855]" pageId="7" pageNumber="99">EE</emphasis>
+</th>
+<td id="76E6C94DFFE200EBFDB8FCAFBFB7FC9F" box="[513,669,831,856]" gridcol="1" gridrow="15" pageId="7" pageNumber="99">3.6</td>
+<td id="76E6C94DFFE200EBFC9DFCAFBE9DFC9F" box="[804,951,831,856]" gridcol="2" gridrow="15" pageId="7" pageNumber="99">3.8</td>
+<td id="76E6C94DFFE200EBFC43FCAFB9A7FC9F" box="[1018,1165,831,856]" gridcol="3" gridrow="15" pageId="7" pageNumber="99">4.0</td>
+<td id="76E6C94DFFE200EBFB70FCAFB876FC9F" box="[1225,1372,831,856]" gridcol="4" gridrow="15" pageId="7" pageNumber="99">2.7</td>
+</tr>
+<tr id="3537A031FFE200EBFF1AFCF7B876FC47" box="[163,1372,871,896]" gridrow="16" pageId="7" pageNumber="99">
+<th id="76E6C94DFFE200EBFF1AFCF7BC88FC47" box="[163,418,871,896]" gridcol="0" gridrow="16" pageId="7" pageNumber="99">
+<emphasis id="B9737E61FFE2FF13FF1AFCF7BC30FCB8" bold="true" box="[163,282,871,895]" pageId="7" pageNumber="99">Ear Height</emphasis>
+</th>
+<td id="76E6C94DFFE200EBFDB8FCF7BFB7FC47" box="[513,669,871,896]" gridcol="1" gridrow="16" pageId="7" pageNumber="99">1.0</td>
+<td id="76E6C94DFFE200EBFC9DFCF7BE9DFC47" box="[804,951,871,896]" gridcol="2" gridrow="16" pageId="7" pageNumber="99">0.9</td>
+<td id="76E6C94DFFE200EBFC43FCF7B9A7FC47" box="[1018,1165,871,896]" gridcol="3" gridrow="16" pageId="7" pageNumber="99">1.0</td>
+<td id="76E6C94DFFE200EBFB70FCF7B876FC47" box="[1225,1372,871,896]" gridcol="4" gridrow="16" pageId="7" pageNumber="99">0.9</td>
+</tr>
+<tr id="3537A031FFE200EBFF1AFC00B876FC6F" box="[163,1372,912,936]" gridrow="17" pageId="7" pageNumber="99" rowspan-3="1">
+<th id="76E6C94DFFE200EBFF1AFC00BC88FC6F" box="[163,418,912,936]" gridcol="0" gridrow="17" pageId="7" pageNumber="99">
+<emphasis id="B9737E61FFE2FF13FF1AFC00BC7EFC6F" bold="true" box="[163,340,912,936]" pageId="7" pageNumber="99">Precloacal pores</emphasis>
+</th>
+<td id="76E6C94DFFE200EBFDB8FC00BFB7FC6F" box="[513,669,912,936]" gridcol="1" gridrow="17" pageId="7" pageNumber="99">8</td>
+<td id="76E6C94DFFE200EBFC9DFC00BE9DFC6F" box="[804,951,912,936]" gridcol="2" gridrow="17" pageId="7" pageNumber="99">6</td>
+<td id="76E6C94DFFE200EBFB70FC00B876FC6F" box="[1225,1372,912,936]" gridcol="4" gridrow="17" pageId="7" pageNumber="99">9</td>
+</tr>
+<tr id="3537A031FFE200EBFF1AFC27B876FC17" box="[163,1372,951,976]" gridrow="18" pageId="7" pageNumber="99">
+<th id="76E6C94DFFE200EBFF1AFC27BC88FC17" box="[163,418,951,976]" gridcol="0" gridrow="18" pageId="7" pageNumber="99">
+<emphasis id="B9737E61FFE2FF13FF1AFC27BC42FC17" bold="true" box="[163,360,951,976]" pageId="7" pageNumber="99">Scales across belly</emphasis>
+</th>
+<td id="76E6C94DFFE200EBFDB8FC27BFB7FC17" box="[513,669,951,976]" gridcol="1" gridrow="18" pageId="7" pageNumber="99">26</td>
+<td id="76E6C94DFFE200EBFC9DFC27BE9DFC17" box="[804,951,951,976]" gridcol="2" gridrow="18" pageId="7" pageNumber="99">26</td>
+<td id="76E6C94DFFE200EBFC43FC27B9A7FC17" box="[1018,1165,951,976]" gridcol="3" gridrow="18" pageId="7" pageNumber="99">26</td>
+<td id="76E6C94DFFE200EBFB70FC27B876FC17" box="[1225,1372,951,976]" gridcol="4" gridrow="18" pageId="7" pageNumber="99">26</td>
+</tr>
+<tr id="3537A031FFE200EBFF1AFC70B876FC3F" box="[163,1372,992,1016]" gridrow="19" pageId="7" pageNumber="99">
+<th id="76E6C94DFFE200EBFF1AFC70BC88FC3F" box="[163,418,992,1016]" gridcol="0" gridrow="19" pageId="7" pageNumber="99">
+<emphasis id="B9737E61FFE2FF13FF1AFC70BCA9FC3F" bold="true" box="[163,387,992,1016]" pageId="7" pageNumber="99">Dorsal tubercle rows</emphasis>
+</th>
+<td id="76E6C94DFFE200EBFDB8FC70BFB7FC3F" box="[513,669,992,1016]" gridcol="1" gridrow="19" pageId="7" pageNumber="99">18</td>
+<td id="76E6C94DFFE200EBFC9DFC70BE9DFC3F" box="[804,951,992,1016]" gridcol="2" gridrow="19" pageId="7" pageNumber="99">18</td>
+<td id="76E6C94DFFE200EBFC43FC70B9A7FC3F" box="[1018,1165,992,1016]" gridcol="3" gridrow="19" pageId="7" pageNumber="99">18</td>
+<td id="76E6C94DFFE200EBFB70FC70B876FC3F" box="[1225,1372,992,1016]" gridcol="4" gridrow="19" pageId="7" pageNumber="99">16</td>
+</tr>
+<tr id="3537A031FFE200EBFF1AFB98B876FBE6" box="[163,1372,1032,1057]" gridrow="20" pageId="7" pageNumber="99">
+<th id="76E6C94DFFE200EBFF1AFB98BC88FBE6" box="[163,418,1032,1057]" gridcol="0" gridrow="20" pageId="7" pageNumber="99">
+<emphasis id="B9737E61FFE2FF13FF1AFB98BC88FBE7" bold="true" box="[163,418,1032,1056]" pageId="7" pageNumber="99">Supralabials (right/left)</emphasis>
+</th>
+<td id="76E6C94DFFE200EBFDB8FB98BFB7FBE6" box="[513,669,1032,1057]" gridcol="1" gridrow="20" pageId="7" pageNumber="99">10/10</td>
+<td id="76E6C94DFFE200EBFC9DFB98BE9DFBE6" box="[804,951,1032,1057]" gridcol="2" gridrow="20" pageId="7" pageNumber="99">10/10</td>
+<td id="76E6C94DFFE200EBFC43FB98B9A7FBE6" box="[1018,1165,1032,1057]" gridcol="3" gridrow="20" pageId="7" pageNumber="99">10/10</td>
+<td id="76E6C94DFFE200EBFB70FB98B876FBE6" box="[1225,1372,1032,1057]" gridcol="4" gridrow="20" pageId="7" pageNumber="99">11/10</td>
+</tr>
+<tr id="3537A031FFE200EBFF1AFBA0B876FBA2" box="[163,1372,1072,1125]" gridrow="21" pageId="7" pageNumber="99">
+<th id="76E6C94DFFE200EBFF1AFBA0BC88FBA2" box="[163,418,1072,1125]" gridcol="0" gridrow="21" pageId="7" pageNumber="99">
+<emphasis id="B9737E61FFE2FF13FF1AFBA0BC39FBA2" bold="true" box="[163,290,1072,1125]" pageId="7" pageNumber="99">Infralabials (right/left)</emphasis>
+</th>
+<td id="76E6C94DFFE200EBFDB8FBA0BFB7FBA2" box="[513,669,1072,1125]" gridcol="1" gridrow="21" pageId="7" pageNumber="99">9/8</td>
+<td id="76E6C94DFFE200EBFC9DFBA0BE9DFBA2" box="[804,951,1072,1125]" gridcol="2" gridrow="21" pageId="7" pageNumber="99">9/9</td>
+<td id="76E6C94DFFE200EBFC43FBA0B9A7FBA2" box="[1018,1165,1072,1125]" gridcol="3" gridrow="21" pageId="7" pageNumber="99">9/9</td>
+<td id="76E6C94DFFE200EBFB70FBA0B876FBA2" box="[1225,1372,1072,1125]" gridcol="4" gridrow="21" pageId="7" pageNumber="99">9/8</td>
+</tr>
+</table>
+</paragraph>
+<paragraph id="8BB8A273FFE2FF13FF7EFB29B959FA08" blockId="7.[151,1437,1209,1740]" pageId="7" pageNumber="99">
+<taxonomicName id="4C07D9F0FFE2FF13FF7EFB29BF3CFB14" authority="Ceríaco &amp; Agarwal &amp; Marques &amp; Bauer, 2020" authorityName="Ceríaco &amp; Agarwal &amp; Marques &amp; Bauer" authorityYear="2020" box="[199,534,1209,1235]" class="Reptilia" family="Gekkonidae" genus="Hemidactylus" kingdom="Animalia" order="Squamata" pageId="7" pageNumber="99" phylum="Chordata" rank="species" species="hannahsabinae" status="sp. nov.">
+<emphasis id="B9737E61FFE2FF13FF7EFB29BF3CFB14" box="[199,534,1209,1235]" italics="true" pageId="7" pageNumber="99">Hemidactylus hannahsabinae</emphasis>
+</taxonomicName>
+<emphasis id="B9737E61FFE2FF13FD98FB29BF54FB14" bold="true" box="[545,638,1209,1235]" pageId="7" pageNumber="99">
+<taxonomicNameLabel id="A240C31AFFE2FF13FD98FB29BF54FB14" box="[545,638,1209,1235]" pageId="7" pageNumber="99" rank="species">sp. nov.</taxonomicNameLabel>
+</emphasis>
+can be distinguished from 
+<taxonomicName id="4C07D9F0FFE2FF13FC07FB2AB910FB14" box="[958,1082,1210,1235]" class="Reptilia" family="Gekkonidae" genus="Hemidactylus" kingdom="Animalia" order="Squamata" pageId="7" pageNumber="99" phylum="Chordata" rank="species" species="nzingae">
+<emphasis id="B9737E61FFE2FF13FC07FB2AB910FB14" box="[958,1082,1210,1235]" italics="true" pageId="7" pageNumber="99">H. nzingae</emphasis>
+</taxonomicName>
+, with which it was previously confused by Ceríaco 
+<emphasis id="B9737E61FFE2FF13FE36FB4EBCE1FB30" box="[399,459,1245,1271]" italics="true" pageId="7" pageNumber="99">et al.</emphasis>
+(2020), by subquadrangulal, smoothly keeled, striated tubercles at midbody (
+<emphasis id="B9737E61FFE2FF13FAECFB4EB8B7FB30" box="[1365,1437,1246,1271]" italics="true" pageId="7" pageNumber="99">versus</emphasis>
+subtrihedral, strongly keeled tubercles at midbody in 
+<taxonomicName id="4C07D9F0FFE2FF13FCB9FA92BE51FADC" box="[768,891,1282,1307]" class="Reptilia" family="Gekkonidae" genus="Hemidactylus" kingdom="Animalia" order="Squamata" pageId="7" pageNumber="99" phylum="Chordata" rank="species" species="nzingae">
+<emphasis id="B9737E61FFE2FF13FCB9FA92BE51FADC" box="[768,891,1282,1307]" italics="true" pageId="7" pageNumber="99">H. nzingae</emphasis>
+</taxonomicName>
+), by having the enlarged tubercles of the same size and with similar keel across the dorsum (
+<emphasis id="B9737E61FFE2FF13FD10FAB6BFDBFAF8" box="[681,753,1318,1343]" italics="true" pageId="7" pageNumber="99">versus</emphasis>
+enlarged tubercles more strongly keeled and slightly larger on flanks and close to the tail than on the dorsum in 
+<taxonomicName id="4C07D9F0FFE2FF13FD44FADABE52FAA4" box="[765,888,1354,1379]" class="Reptilia" family="Gekkonidae" genus="Hemidactylus" kingdom="Animalia" order="Squamata" pageId="7" pageNumber="99" phylum="Chordata" rank="species" species="nzingae">
+<emphasis id="B9737E61FFE2FF13FD44FADABE52FAA4" box="[765,888,1354,1379]" italics="true" pageId="7" pageNumber="99">H. nzingae</emphasis>
+</taxonomicName>
+) (
+<figureCitation id="133CBEF6FFE2FF13FC2AFAD9BEF0FAA4" box="[915,986,1353,1379]" captionStart="FIGURE 2" captionStartId="5.[151,250,1047,1071]" captionTargetBox="[177,1411,181,1023]" captionTargetId="figure-24@5.[177,1411,181,1023]" captionTargetPageId="5" captionText="FIGURE 2. Comparison between the dorsal scalation of H. nzingae (paratype, AMNH 47782) and H. hannahsabinae sp. nov. (paratype, AMNH 51960) from Dande. Photos Luis M. P. Ceríaco." figureDoi="http://doi.org/10.5281/zenodo.4414626" httpUri="https://zenodo.org/record/4414626/files/figure.png" pageId="7" pageNumber="99">Fig. 2</figureCitation>
+); by having barely distinct dorsolateral bands, one longitudinal middorsal light stripe evident, eight to nine rows of incomplete transverse dark bands, on a homogeneous light brown background (
+<emphasis id="B9737E61FFE2FF13FDEEFA02BFB5FA6C" box="[599,671,1426,1451]" italics="true" pageId="7" pageNumber="99">versus</emphasis>
+the two well-marked longitudinal cream dorsolateral stripes and the prominent dark W-shaped markings and brown dorsal coloration in 
+<taxonomicName id="4C07D9F0FFE2FF13FC37FA26B922FA08" box="[910,1032,1462,1487]" class="Reptilia" family="Gekkonidae" genus="Hemidactylus" kingdom="Animalia" order="Squamata" pageId="7" pageNumber="99" phylum="Chordata" rank="species" species="nzingae">
+<emphasis id="B9737E61FFE2FF13FC37FA26B922FA08" box="[910,1032,1462,1487]" italics="true" pageId="7" pageNumber="99">H. nzingae</emphasis>
+</taxonomicName>
+(
+<figureCitation id="133CBEF6FFE2FF13FBAEFA25B973FA08" box="[1047,1113,1461,1487]" captionStart="FIGURE 3" captionStartId="6.[151,250,1352,1376]" captionTargetBox="[202,1386,381,1329]" captionTargetId="figure-112@6.[202,1386,381,1329]" captionTargetPageId="6" captionText="FIGURE 3. Comparison between H. nzingae (paratype, AMNH 47782) and H. hannahsabinae sp. nov. (paratype, AMNH 51960) from Dande, both specimens collected in 1925. Scale 10 mm. Photos Luis M. P. Ceríaco." figureDoi="http://doi.org/10.5281/zenodo.4414628" httpUri="https://zenodo.org/record/4414628/files/figure.png" pageId="7" pageNumber="99">Fig. 3</figureCitation>
+)).
+</paragraph>
+</subSubSection>
+<subSubSection id="C31DF1F8FFE2FF13FF7EFA49BC28F944" pageId="7" pageNumber="99" type="distribution">
+<paragraph id="8BB8A273FFE2FF13FF7EFA49B8AFFA34" blockId="7.[151,1437,1209,1740]" box="[199,1413,1497,1523]" pageId="7" pageNumber="99">
+<emphasis id="B9737E61FFE2FF13FF7EFA49BC4BFA34" bold="true" box="[199,353,1497,1523]" pageId="7" pageNumber="99">Distribution.</emphasis>
+The species in known from the central Angolan plateau in 
+<collectingRegion id="49C36C91FFE2FF13FC4FFA49B978FA34" box="[1014,1106,1497,1523]" country="Angola" name="Malanje" pageId="7" pageNumber="99">Malanje</collectingRegion>
+and 
+<collectingRegion id="49C36C91FFE2FF13FB31FA49B985FA34" box="[1160,1199,1497,1523]" country="Angola" name="Bie" pageId="7" pageNumber="99">Bié</collectingRegion>
+provinces (
+<figureCitation id="133CBEF6FFE2FF13FA8BFA49B852FA34" box="[1330,1400,1497,1523]" captionStart="FIGURE 4" captionStartId="8.[151,250,1404,1428]" captionTargetBox="[211,1379,189,1374]" captionTargetId="figure-18@8.[202,1386,181,1380]" captionTargetPageId="8" captionText="FIGURE 4. Distribution map for Hemidactylus hannahsabinae sp. nov. in Angola (red triangles) and Hemidactylus nzingae (blue dots)." figureDoi="http://doi.org/10.5281/zenodo.4414630" httpUri="https://zenodo.org/record/4414630/files/figure.png" pageId="7" pageNumber="99">Fig. 4</figureCitation>
+).
+</paragraph>
+<paragraph id="8BB8A273FFE2FF13FF7EFA6DBC28F944" blockId="7.[151,1437,1209,1740]" pageId="7" pageNumber="99">
+<emphasis id="B9737E61FFE2FF13FF7EFA6DBF5BF9D0" bold="true" box="[199,625,1533,1559]" pageId="7" pageNumber="99">Habitat and Natural History notes.</emphasis>
+<materialsCitation id="3B6FA82EFFE2FF13FDC3FA6DBDD4F944" ID-GBIF-Occurrence="3034620307" county="The" location="The" municipality="Angolan Miombo" pageId="7" pageNumber="99" specimenCount="1" stateProvince="Malanje" typeStatus="holotype">
+Almost nothing is known about the natural history of the species. The 
+<typeStatus id="54BC1CD1FFE2FF13FF2EF9B1BDD3F9FC" box="[151,249,1569,1595]" pageId="7" pageNumber="99">holotype</typeStatus>
+has an unidentified insect in the mouth. 
+<collectingCounty id="62D9DAFFFFE2FF13FD76F9B1BFD1F9FC" box="[719,763,1569,1595]" pageId="7" pageNumber="99">The</collectingCounty>
+habitat where the species occurs is dominated by 
+<collectingMunicipality id="6BDC3809FFE2FF13FA85F9B1BDDDF998" pageId="7" pageNumber="99">Angolan Miombo</collectingMunicipality>
+woodlands (
+<bibRefCitation id="EF96DF82FFE2FF13FE36F9D5BF90F998" author="Grandvaux-Barbosa, L. A." box="[399,698,1605,1631]" pageId="7" pageNumber="99" refId="ref8160" refString="Grandvaux-Barbosa, L. A. (1970) Carta Fitogeografica de Angola. Instituto de Investigacao Cientifica de Angola, Luanda, 323 pp." type="book" year="1970">Grandvaux-Barbosa 1970</bibRefCitation>
+). 
+<location id="8ED8F4A8FFE2FF13FD6BF9D5BFD4F998" LSID="urn:lsid:plazi:treatment:03AE1365FFE6FF13FF2EFDBCBF43F90C:8ED8F4A8FFE2FF13FD6BF9D5BFD4F998" box="[722,766,1605,1631]" county="The" municipality="Angolan Miombo" name="The" pageId="7" pageNumber="99" stateProvince="Malanje">The</location>
+species is sympatric with 
+<taxonomicName id="4C07D9F0FFE2FF13FB83F9D6B81BF998" authority="in Dande" authorityName="in Dande" box="[1082,1329,1605,1631]" class="Reptilia" family="Gekkonidae" genus="Hemidactylus" kingdom="Animalia" order="Squamata" pageId="7" pageNumber="99" phylum="Chordata" rank="species" species="nzingae">
+<emphasis id="B9737E61FFE2FF13FB83F9D6B992F998" box="[1082,1208,1606,1631]" italics="true" pageId="7" pageNumber="99">H. nzingae</emphasis>
+in Dande
+</taxonomicName>
+, 
+<collectingRegion id="49C36C91FFE2FF13FAF9F9D5BDD4F944" country="Angola" name="Malanje" pageId="7" pageNumber="99">Malanje Province</collectingRegion>
+</materialsCitation>
+.
+</paragraph>
+</subSubSection>
+<subSubSection id="C31DF1F8FFE2FF13FF7EF91DBF43F90C" pageId="7" pageNumber="99" type="etymology">
+<paragraph id="8BB8A273FFE2FF13FF7EF91DBF43F90C" blockId="7.[151,1437,1209,1740]" pageId="7" pageNumber="99">
+<emphasis id="B9737E61FFE2FF13FF7EF91DBC64F960" bold="true" box="[199,334,1677,1703]" pageId="7" pageNumber="99">Etymology.</emphasis>
+The specific epithet 
+<taxonomicName id="4C07D9F0FFE2FF13FDF7F91DBFD3F960" authorityName="Ceríaco &amp; Agarwal &amp; Marques &amp; Bauer" authorityYear="2020" box="[590,761,1677,1703]" class="Reptilia" family="Gekkonidae" genus="Hemidactylus" kingdom="Animalia" order="Squamata" pageId="7" pageNumber="99" phylum="Chordata" rank="species" species="hannahsabinae">
+<emphasis id="B9737E61FFE2FF13FDF7F91DBFD3F960" box="[590,761,1677,1703]" italics="true" pageId="7" pageNumber="99">hannahsabinae</emphasis>
+</taxonomicName>
+honors Hannah Sabin of the Sabin family, philanthropic supporters of herpetofaunal conservation.
+</paragraph>
+</subSubSection>
+</treatment>
+</document>
