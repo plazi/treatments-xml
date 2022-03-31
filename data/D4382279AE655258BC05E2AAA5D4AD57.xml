@@ -1,0 +1,753 @@
+<document ID-DOI="http://dx.doi.org/10.3897/zookeys.938.49349" ID-GBIF-Dataset="1070bebf-afc9-40dd-a16e-24bd6821469d" ID-GBIF-Taxon="164479465" ID-Pensoft-Pub="1313-2970-938-1" ID-Pensoft-UUID="A7E05382096E5182BD65560002045C47" ID-ZooBank="76B7FF03FEB14884AD2955BE864F0EBF" LSID="urn:lsid:zoobank.org:act:4FE5FE0D-7909-40C1-A8AE-F641192A6048" ModsDocID="1313-2970-938-1" checkinTime="1591212709532" checkinUser="pensoft" docAuthor="Neal, Lenka, Paterson, Gordon L. J., Blockley, David, Scott, Ben, Sherlock, Emma, Huque, Cate &amp; Glover, Adrian G." docDate="2020" docId="D4382279AE655258BC05E2AAA5D4AD57" docLanguage="en" docName="ZooKeys 938: 1-86" docOrigin="ZooKeys 938" docSource="http://dx.doi.org/10.3897/zookeys.938.49349" docTitle="Prosphaerosyllis modinouae Neal &amp; Paterson 2020, sp. nov." docType="treatment" docUuid="4FE5FE0D-7909-40C1-A8AE-F641192A6048" docUuidSource="ZooBank" docVersion="4" id="A7E05382096E5182BD65560002045C47" lastPageNumber="1" masterDocId="A7E05382096E5182BD65560002045C47" masterDocTitle="Biodiversity data and new species descriptions of polychaetes from offshore waters of the Falkland Islands, an area undergoing hydrocarbon exploration" masterLastPageNumber="86" masterPageNumber="1" pageId="0" pageNumber="1" updateTime="1634716868768" updateUser="ExternalLinkService">
+<mods:mods id="7BA02035AAA3275672065048DABBFC3B" xmlns:mods="http://www.loc.gov/mods/v3">
+<mods:titleInfo id="6BD03BE2A4F2673AE5737E4E02C5C3FA">
+<mods:title id="D15AF32D50128F36046F214B3AD47478">Biodiversity data and new species descriptions of polychaetes from offshore waters of the Falkland Islands, an area undergoing hydrocarbon exploration</mods:title>
+</mods:titleInfo>
+<mods:name id="B423C3FB364D1058309B9EFF63873281" type="personal">
+<mods:role id="74A3626992E797931AD2AC3CB8B25092">
+<mods:roleTerm id="D3DBAC0B99830AB5F0ACA54154A4B833">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="9DF23C02D782FD4B491906E889BF4E0E">Neal, Lenka</mods:namePart>
+<mods:affiliation id="5B2CB518A32C99DFAB4E14194EC55789">Natural History Museum, London, UK</mods:affiliation>
+<mods:nameIdentifier id="BE2B925BB0E7BACB9363045360600A47" type="email">l.nealova@nhm.ac.uk</mods:nameIdentifier>
+</mods:name>
+<mods:name id="59FC0AD60C0F7C4E339CB0088992B24B" type="personal">
+<mods:role id="889E05E23BA6F36A57C24236F5053839">
+<mods:roleTerm id="C58D4447F3DC67366C21BCF8FAFFA16C">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="8F66030FA6FABF98E011AF3D8E69A94C">Paterson, Gordon L. J.</mods:namePart>
+<mods:affiliation id="6974BBF1A303D86517D80055B35CE62D">Natural History Museum, London, UK</mods:affiliation>
+</mods:name>
+<mods:name id="276525C301D40724E91176CC3F08DD4F" type="personal">
+<mods:role id="091D76C3F31D10AA86D75D7A42B538AF">
+<mods:roleTerm id="FAF5A4A69CF7E7F5740AC07340B56C1C">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="950DF1ACE3C2A70FF3C631F4ECAF5E0E">Blockley, David</mods:namePart>
+<mods:affiliation id="34905F2A6705DF3E57A488B506F97925">Greenland Institute of Natural Resources, Nuuk, Greenland</mods:affiliation>
+<mods:nameIdentifier id="32B906A855B0C29C0F867AD44602AA1B" type="orcid">https://orcid.org/0000-0002-6368-1101</mods:nameIdentifier>
+</mods:name>
+<mods:name id="6BA52C05BBE4502D2CE8503C24F201D6" type="personal">
+<mods:role id="6A55FDBAF63523AFFF342DFC8FCEA3A2">
+<mods:roleTerm id="E93FE03C48EA623DDE1AE2F1A52F4109">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="F4AE5A7336DC33CDF24D2904CA2EE26A">Scott, Ben</mods:namePart>
+<mods:affiliation id="90CAF855CEE1C0E1BB46630F5CB7D4A9">Natural History Museum, London, UK</mods:affiliation>
+<mods:nameIdentifier id="60764D06D0C13C126D7EA32172525851" type="orcid">https://orcid.org/0000-0002-5590-7174</mods:nameIdentifier>
+</mods:name>
+<mods:name id="807866B79676C96DD26B9D737E13C6A7" type="personal">
+<mods:role id="0AA3D6D0689481C8D76B4BA11AA20516">
+<mods:roleTerm id="45EAFB7B545097060844EEDAA1BD0F15">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="D5E3968BF8AA0C439438702933BEFFB0">Sherlock, Emma</mods:namePart>
+<mods:affiliation id="03EFE30B3D8EEA4ED5B0003E3C280698">Natural History Museum, London, UK</mods:affiliation>
+</mods:name>
+<mods:name id="CFD5C99D551FACBA3CD2614D9DC1718A" type="personal">
+<mods:role id="0E2563CD2150140C884FD42D647975A7">
+<mods:roleTerm id="5BC0DA137FCA2F8F9731DADB9CBC70E4">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="02BE1F8D145A324BB97E8979897731C5">Huque, Cate</mods:namePart>
+<mods:affiliation id="FCFC236807AF2F602450B9276D7E281B">Natural History Museum, London, UK</mods:affiliation>
+</mods:name>
+<mods:name id="A8BE0C6983DC160ADA950985E62731F9" type="personal">
+<mods:role id="749B522853C76CD4811BFAA6A351913D">
+<mods:roleTerm id="2C8247314915D71B29C77396DDD1BE71">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="EFCC73A3E3738819BF06F63C58D01349">Glover, Adrian G.</mods:namePart>
+<mods:affiliation id="85AAF510C074FDC3CDA88C5FDDA1CD5F">Natural History Museum, London, UK</mods:affiliation>
+</mods:name>
+<mods:typeOfResource id="970AFBA6582E88B6C18F54C93C590641">text</mods:typeOfResource>
+<mods:relatedItem id="5634E6F99D46F45FCC243640FC8E4367" type="host">
+<mods:titleInfo id="BD99BD1670C63F6E7D9A219DEB1F7A8D">
+<mods:title id="2BB4D6760652539AA13800E84EC66603">ZooKeys</mods:title>
+</mods:titleInfo>
+<mods:part id="B9BF70B12F07C70E47B9590DE6517BB2">
+<mods:date id="43834ABC92225B0A63E5F2D36CA53939">2020</mods:date>
+<mods:detail id="AAC4DACE976E490A9DE2643D96A2D2F5" type="volume">
+<mods:number id="07BD97C718365C3FBC73964042A73AC7">938</mods:number>
+</mods:detail>
+<mods:extent id="EE77D18D76104C9EE284A5ADC2DADE04" unit="page">
+<mods:start id="981D7C3A0C4711BC930B53B3398CE14F">1</mods:start>
+<mods:end id="96C547FC46ECD104ACEB97B7C2F94D84">86</mods:end>
+</mods:extent>
+</mods:part>
+</mods:relatedItem>
+<mods:location id="4B70CB766A2F0EA7B9CD286BD2ED2F1F">
+<mods:url id="18048F53B1D8F4B13D0F71D3F405A511">http://dx.doi.org/10.3897/zookeys.938.49349</mods:url>
+</mods:location>
+<mods:classification id="3B7AB265643FD4CCF898860FFBD84613">journal article</mods:classification>
+<mods:identifier id="482330BC4627407F1E7FFB6C516292F0" type="DOI">http://dx.doi.org/10.3897/zookeys.938.49349</mods:identifier>
+<mods:identifier id="C86097940220D9C97F74F38018F77723" type="Pensoft-Pub">1313-2970-938-1</mods:identifier>
+<mods:identifier id="8201C3B3A7BA474238C28F39B738D461" type="ZooBank">76B7FF03FEB14884AD2955BE864F0EBF</mods:identifier>
+<mods:identifier id="F026AB26DD9867D3EB7B550569CFCC10" type="Pensoft-UUID">A7E05382096E5182BD65560002045C47</mods:identifier>
+</mods:mods>
+<treatment id="D4382279AE655258BC05E2AAA5D4AD57" ID-GBIF-Taxon="164479465" LSID="urn:lsid:zoobank.org:act:4FE5FE0D-7909-40C1-A8AE-F641192A6048" httpUri="http://treatment.plazi.org/id/D4382279AE655258BC05E2AAA5D4AD57" lastPageNumber="1" pageId="0" pageNumber="1">
+<subSubSection id="221C1F6D9A9505D56C8DCC7A8D6CC806" pageId="0" pageNumber="1" type="nomenclature">
+<paragraph id="00734B88106645D6E01764271634CAEE" pageId="0" pageNumber="1">
+<taxonomicName id="56970A1E24592F8DA210A6E29AC91199" LSID="D4382279-AE65-5258-BC05-E2AAA5D4AD57" authority="Neal &amp; Paterson" authorityName="Neal &amp; Paterson" authorityYear="2020" class="Polychaeta" family="Polynoidae" genus="Prosphaerosyllis" higherTaxonomySource="CoL" kingdom="Animalia" lsidName="Prosphaerosyllis modinouae" order="Phyllodocida" pageId="0" pageNumber="1" phylum="Annelida" rank="species" species="modinouae" status="sp. nov.">Prosphaerosyllis modinouae Neal &amp; Paterson</taxonomicName>
+<taxonomicNameLabel id="CEB45A4EF228504A7C7023022B61AF6D" pageId="0" pageNumber="1">sp. nov.</taxonomicNameLabel>
+<figureCitation id="2C08D4390578DE05ED50F8D5A57B06E4" captionStart="Figure 5" captionStartId="F5" captionText="Figure 5. Prosphaerosyllis modinouae sp. nov. (paratype, NHM. 2018.24386) a complete specimen in dorsal view b detail of anterior end in dorsal view c detail of prostomium and palps in dorsal view d detail of eyes e anterior dorsal cirrus f posterior dorsal cirrus g posterior parapodium (arrow marking acicula) h detail of acicula. Scale bars: 1000 µm (a); 100 µm (b, c); 25 µm (e, f); 50 µm (g)." figureDoi="10.3897/zookeys.938.49349.figure5" httpUri="https://binary.pensoft.net/fig/417683" pageId="0" pageNumber="1">Figures 5</figureCitation>
+<figureCitation id="46628B34F4352FB6159E4471D0310979" captionStart="Figure 6" captionStartId="F6" captionText="Figure 6. Prosphaerosyllis modinouae sp. nov. (holotype, NHM. 2018.25100; specimen Shirla-stained) a complete specimen in dorsal view b pattern of dorsal body papillae (= darkly stained dots) in anterior end c pattern of dorsal body papillae (= darkly stained dots) in mid-body segments d pattern of ventral papillae (= darkly stained dots). Scale bars: 500 µm (a); 200 µm (b, d)." figureDoi="10.3897/zookeys.938.49349.figure6" httpUri="https://binary.pensoft.net/fig/417684" pageId="0" pageNumber="1">, 6</figureCitation>
+<figureCitation id="70C0EBDEE7B355B919FB27713B2CEBE3" captionStart="Figure 7" captionStartId="F7" captionText="Figure 7. Prosphaerosyllis modinouae sp. nov. (SEM micrograph) a specimen (paratype, NHM. 2018.24386) in dorsal view b anterior end in dorsal view c paratype (NHM. 2018.24236) in dorso-lateral view d detail of prostomium of paratype (NHM. 2018.24236) with palps (P), median antenna (Ma), lateral antennae (La), tentacular cirrus (Tc) and dorsal cirrus (Dc) e detail of dorsal cirri with those on chaetigers 2 - 4 (paratype, NHM. 2018.24386) f pattern of dorsal body papillae (marked by white circles) (paratype, NHM. 2018.24386). Scale bars: 500 µm (a); 100 µm (b, e); 200 µm (c); 50 µm (d)." figureDoi="10.3897/zookeys.938.49349.figure7" httpUri="https://binary.pensoft.net/fig/417685" pageId="0" pageNumber="1">, 7</figureCitation>
+<figureCitation id="551A34008A7220892089A171EEFA57E6" captionStart="Figure 8" captionStartId="F8" captionText="Figure 8. Drawing of anterior end of Prosphaerosyllis modinouae sp. nov. in dorsal view (a) and detail of palps (b)." figureDoi="10.3897/zookeys.938.49349.figure8" httpUri="https://binary.pensoft.net/fig/417686" pageId="0" pageNumber="1">, 8</figureCitation>
+<figureCitation id="F5D4D4F74CB009B3BDE09F4EFD7D8479" captionStart="Figure 9" captionStartId="F9" captionText="Figure 9. Prosphaerosyllis modinouae sp. nov. (holotype, NHM. 2018.25100) a specimen in partial ventral view b, c examples of ventral cirri (Vc) and elongated lateral body papillae (Lp) d example of parapodium e detail of aciculae. Scale bars: 250 µm (a); 50 µm (c, d); 20 µm (e)." figureDoi="10.3897/zookeys.938.49349.figure9" httpUri="https://binary.pensoft.net/fig/417687" pageId="0" pageNumber="1">, 9</figureCitation>
+<figureCitation id="FC89AFA299759E6DE7F473103399F7B6" captionStart="Figure 10" captionStartId="F10" captionText="Figure 10. Prosphaerosyllis modinouae sp. nov. (paratype NHM. 2018.24386) a simple dorsal chaeta from anterior chaetiger b simple dorsal chaeta from posterior chaetiger c simple ventral chaeta from posterior chaetgier d dorsalmost falciger from anterior chaetiger e ventralmost falciger from anterior chaetiger f dorsalmost chaeta from mid body chaetiger g falcigers from posterior chaetiger. Scale bar: 50 µm." figureDoi="10.3897/zookeys.938.49349.figure10" httpUri="https://binary.pensoft.net/fig/417688" pageId="0" pageNumber="1">, 10</figureCitation>
+<figureCitation id="17DDF57408ADF1F44AC55FB6EFD57163" captionStart="Figure 11" captionStartId="F11" captionText="Figure 11. Comparative figure of Sphaerosyllis palpopapillata (holotype, ZMH P- 20751) (a) and Prosphaerosyllis modinouae sp. nov. (b, c). Scale bars: 1 mm." figureDoi="10.3897/zookeys.938.49349.figure11" httpUri="https://binary.pensoft.net/fig/417689" pageId="0" pageNumber="1">, 11</figureCitation>
+</paragraph>
+</subSubSection>
+<subSubSection id="E0779384DB29791DB500516B25D4CC17" pageId="0" pageNumber="1" type="materials_examined">
+<paragraph id="FB400DAD158BB3C934EFAFD0E2F39A4E" pageId="0" pageNumber="1">Materials.</paragraph>
+<paragraph id="F58E99205F7F34186864755A3C5CE3F5" pageId="0" pageNumber="1">
+Sample 63MFA, 448 m, 
+<geoCoordinate id="76620E5DED7CE0F35B1F8162DEAED0FA" degrees="49.2457310" direction="south" orientation="latitude" precision="1" value="-49.24573">-49.2457310</geoCoordinate>
+, 
+<geoCoordinate id="CD8C586A6ABF74EB7D689AAFC6388C28" degrees="59.1254934" direction="west" orientation="longitude" precision="1" value="-59.125492">-59.1254934</geoCoordinate>
+, coll. 17/03/2012, ind. 1, 
+<emphasis id="B24548D9D5E0F9CA140CFCAE00DCF64C" bold="true" italics="true" pageId="0" pageNumber="1">holotype</emphasis>
+(NHM.2018.25100). Sample 21MFC, 445 m 
+<geoCoordinate id="F2E4119ADF57BE38D8071F9BF4CEA8BA" degrees="49.2866453" direction="south" orientation="latitude" precision="1" value="-49.286644">-49.2866453</geoCoordinate>
+, 
+<geoCoordinate id="AE9FDFE6440C1993AD5C891189727D78" degrees="59.1130539" direction="west" orientation="longitude" precision="1" value="-59.113052">-59.1130539</geoCoordinate>
+, coll. 16/04/2012, ind. 1, 
+<emphasis id="4DE97ABE77911AC38D8738C44EF96801" bold="true" italics="true" pageId="0" pageNumber="1">paratype</emphasis>
+(NHM.2018.24236). Sample 28MFB, 451 m, 
+<geoCoordinate id="AC4C0C36F772040DE09AB34F64D94EFB" degrees="49.3044189" direction="south" orientation="latitude" precision="1" value="-49.30442">-49.3044189</geoCoordinate>
+, 
+<geoCoordinate id="A76ED4F586EE74B86A91272525996873" degrees="59.0852225" direction="west" orientation="longitude" precision="1" value="-59.085224">-59.0852225</geoCoordinate>
+, coll. 23/04/2012, ind. 1, 
+<emphasis id="F534C6795740020B06C3714C34DFECBF" bold="true" italics="true" pageId="0" pageNumber="1">paratype</emphasis>
+(NHM.2018.24386). 
+<emphasis id="D15248A78ED3C8F0092CBD0827E209B2" bold="true" pageId="0" pageNumber="1">Other materials</emphasis>
+: Sample 15MFB, 454 m, 
+<geoCoordinate id="45007720E703631924688F4CE8D913EB" degrees="49.2686572" direction="south" orientation="latitude" precision="1" value="-49.268658">-49.2686572</geoCoordinate>
+, 
+<geoCoordinate id="C4846E5638773D88BD340A10F43DFDC3" degrees="59.1133764" direction="west" orientation="longitude" precision="1" value="-59.113377">-59.1133764</geoCoordinate>
+, coll. 16/04/2012, ind. 1, NHM.2018.24080. Sample 25MFA, 447 m, 
+<geoCoordinate id="89C025D198228DEEA98014B691FC7E7F" degrees="49.3050428" direction="south" orientation="latitude" precision="1" value="-49.305042">-49.3050428</geoCoordinate>
+, 
+<geoCoordinate id="DE55F5559F72AE88DE354375D44BDD18" degrees="59.1677492" direction="west" orientation="longitude" precision="1" value="-59.167747">-59.1677492</geoCoordinate>
+, coll. 16/04/2012, ind. 1, NHM.2018.24302. Sample 25MFC, 438 m, -49.3050428, Longitude: -59.1677492, coll. 16/04/2012, ind. 1, NHM.2018.24324. Sample 35MFC, 450 m, 
+<geoCoordinate id="30B7CE822C043B9C3275D5DAA9A5DB7A" degrees="49.3221858" direction="south" orientation="latitude" precision="1" value="-49.322186">-49.3221858</geoCoordinate>
+, 
+<geoCoordinate id="844A7009BCD7E247565C7CF2A77EC5DE" degrees="59.0573711" direction="west" orientation="longitude" precision="1" value="-59.05737">-59.0573711</geoCoordinate>
+, coll. 15/04/2012, ind. 1, NHM.2018.24498. Sample 40MFA, 450 m, 
+<geoCoordinate id="BCAB4DBA33F247CA66BE55973580CD1B" degrees="49.3403947" direction="south" orientation="latitude" precision="1" value="-49.340393">-49.3403947</geoCoordinate>
+, 
+<geoCoordinate id="EC5D9D6B138B080C48402EB24F55AB2D" degrees="59.0845558" direction="west" orientation="longitude" precision="1" value="-59.084557">-59.0845558</geoCoordinate>
+, coll. 23/04/2012, ind. 1, NHM.2018.24605.Sample 41MFA, 439 m, 
+<geoCoordinate id="D55C22285E0835311E83B05AE7997087" degrees="49.3401736" direction="south" orientation="latitude" precision="1" value="-49.34017">-49.3401736</geoCoordinate>
+, 
+<geoCoordinate id="5869603B185F55716621DE14128BDFED" degrees="59.0570275" direction="west" orientation="longitude" precision="1" value="-59.057026">-59.0570275</geoCoordinate>
+, coll. 14/04/2012, ind. 1, NHM.2018.24637. Sample 44MFB, 429 m, 
+<geoCoordinate id="A5F9DDDC0EBA979B72C8BBAD8379EDE9" degrees="49.3585975" direction="south" orientation="latitude" precision="1" value="-49.358597">-49.3585975</geoCoordinate>
+, 
+<geoCoordinate id="A218F5C2E357D9F254A891639418D029" degrees="59.1117606" direction="west" orientation="longitude" precision="1" value="-59.11176">-59.1117606</geoCoordinate>
+, coll. 14/04/2012, ind. 1, NHM.2018.24719. Sample 60MFC, 450 m, 
+<geoCoordinate id="12C489C7A0182A467300695C0140883D" degrees="49.2545270" direction="south" orientation="latitude" precision="1" value="-49.254528">-49.2545270</geoCoordinate>
+, 
+<geoCoordinate id="DE72955FFB2E99767B8AE5A4C4AFFC9B" degrees="59.0494527" direction="west" orientation="longitude" precision="1" value="-59.049454">-59.0494527</geoCoordinate>
+, coll. 19/03/2012, ind. 1, NHM.2018.25062. Sample 64MFC, 447 m, 
+<geoCoordinate id="D6D5389C3FD997CBA1007B2AF7D281D7" degrees="49.2455380" direction="south" orientation="latitude" precision="1" value="-49.245537">-49.2455380</geoCoordinate>
+, 
+<geoCoordinate id="4A1455EF542892C8850D737977C52D6D" degrees="59.1060962" direction="west" orientation="longitude" precision="1" value="-59.106094">-59.1060962</geoCoordinate>
+, coll. 18/03/2012, ind. 1, NHM.2018.25127. Sample 69MFC, 442 m, 
+<geoCoordinate id="DB0245F9A52C386D9458D42216F66A9B" degrees="49.2887900" direction="south" orientation="latitude" precision="1" value="-49.28879">-49.2887900</geoCoordinate>
+, 
+<geoCoordinate id="EF0D7601DB1C97020D797017851C1124" degrees="59.1005700" direction="west" orientation="longitude" precision="1" value="-59.10057">-59.1005700</geoCoordinate>
+, coll. 19/03/2012, ind. 1, NHM.2018.2521. 
+<emphasis id="05E1ABC35046B35DCF71510D74A9999E" bold="true" pageId="0" pageNumber="1">Comparative materials</emphasis>
+: 
+<taxonomicName id="8D3966BCCA9CF4C7155459F2998AB662" baseAuthorityName="McIntosh" baseAuthorityYear="1885" class="Polychaeta" family="Syllidae" genus="Prosphaerosyllis" higherTaxonomySource="CoL" kingdom="Animalia" lsidName="Prosphaerosyllis kerguelensis" order="Phyllodocida" pageId="0" pageNumber="1" phylum="Annelida" rank="species" species="kerguelensis">
+<emphasis id="2F409DE7A343DAD5F5923885B2DEDBB6" italics="true" pageId="0" pageNumber="1">Prosphaerosyllis kerguelensis</emphasis>
+</taxonomicName>
+: Kerguelen Islands (off Cumberland Bay), 232 m, 
+<geoCoordinate id="56EEFEF017464BE26613F471BA84ACEA" degrees="48.750000" direction="south" orientation="latitude" precision="1" value="-48.75">-48.750000</geoCoordinate>
+, 
+<geoCoordinate id="B55963E825D116EE435EB74E9FCEBCCF" degrees="69.233333" direction="west" orientation="longitude" precision="1" value="-69.23333">-69.233333</geoCoordinate>
+, holotype, BMNH.85.12.1.155. 
+<taxonomicName id="8C37D05A8814DF791791833C45299376" class="Polychaeta" family="Syllidae" genus="Sphaerosyllis" higherTaxonomySource="CoL" kingdom="Animalia" lsidName="Sphaerosyllis palpopapillata" order="Phyllodocida" pageId="0" pageNumber="1" phylum="Annelida" rank="species" species="palpopapillata">
+<emphasis id="36102B201C9C27CF57D2A0CE1265D67D" italics="true" pageId="0" pageNumber="1">Sphaerosyllis palpopapillata</emphasis>
+</taxonomicName>
+: Antarctic Peninsula, 300 m, 
+<geoCoordinate id="8D32B0D87DBD738BC5D46CDCDF9A6E41" degrees="63.27777778" direction="south" orientation="latitude" precision="1" value="-63.27778">-63.27777778</geoCoordinate>
+, 
+<geoCoordinate id="CF022299218F4B5F79D0ABA94BDFC25C" degrees="63.72166667" direction="west" orientation="longitude" precision="1" value="-63.72167">-63.72166667</geoCoordinate>
+, holotype, ZMH P-20751.
+</paragraph>
+</subSubSection>
+<subSubSection id="FB42FF60A61E1F8D7B3A1EAB84168A38" pageId="0" pageNumber="1" type="description">
+<paragraph id="0669FE5D948FE4658C7C672E874F9A9B" pageId="0" pageNumber="1">Description.</paragraph>
+<paragraph id="68406B1DBE90485F563CFBF14D01F87B" pageId="0" pageNumber="1">
+Holotype (NHM.2018.25100) a complete, very small, slender specimen, 4.5 mm long and 0.5 mm wide (at mid-body) for 31 chaetigers. Paratype (NHM.2018.24236), complete specimen 2.8 mm long and 0.4 mm wide (at mid-body) for 31 chaetigers. Paratype (SEM specimen, NHM.2018.24386) complete specimen 3.5 mm long and 0.4 mm wide (at mid-body) for 30 chaetigers. Paratype (SEM specimen, NHM.2018.24236) incomplete specimen 1.2 mm long and 0.25 mm wide for 12 chaetigers. Integument of body appearing smooth under light microscopy (Fig. 
+<figureCitation id="BEF93708CB09667A8770EAE3C27F76C4" captionStart="Figure 5" captionStartId="F5" captionText="Figure 5. Prosphaerosyllis modinouae sp. nov. (paratype, NHM. 2018.24386) a complete specimen in dorsal view b detail of anterior end in dorsal view c detail of prostomium and palps in dorsal view d detail of eyes e anterior dorsal cirrus f posterior dorsal cirrus g posterior parapodium (arrow marking acicula) h detail of acicula. Scale bars: 1000 µm (a); 100 µm (b, c); 25 µm (e, f); 50 µm (g)." figureDoi="10.3897/zookeys.938.49349.figure5" httpUri="https://binary.pensoft.net/fig/417683" pageId="0" pageNumber="1">5a</figureCitation>
+), upon staining (Fig. 
+<figureCitation id="5360411C32B5F1619B1687663846521A" captionStart="Figure 6" captionStartId="F6" captionText="Figure 6. Prosphaerosyllis modinouae sp. nov. (holotype, NHM. 2018.25100; specimen Shirla-stained) a complete specimen in dorsal view b pattern of dorsal body papillae (= darkly stained dots) in anterior end c pattern of dorsal body papillae (= darkly stained dots) in mid-body segments d pattern of ventral papillae (= darkly stained dots). Scale bars: 500 µm (a); 200 µm (b, d)." figureDoi="10.3897/zookeys.938.49349.figure6" httpUri="https://binary.pensoft.net/fig/417684" pageId="0" pageNumber="1">6a-d</figureCitation>
+) and under SEM (Fig. 
+<figureCitation id="CEF4154BE565C282C8C8DFF544870ED5" captionStart="Figure 7" captionStartId="F7" captionText="Figure 7. Prosphaerosyllis modinouae sp. nov. (SEM micrograph) a specimen (paratype, NHM. 2018.24386) in dorsal view b anterior end in dorsal view c paratype (NHM. 2018.24236) in dorso-lateral view d detail of prostomium of paratype (NHM. 2018.24236) with palps (P), median antenna (Ma), lateral antennae (La), tentacular cirrus (Tc) and dorsal cirrus (Dc) e detail of dorsal cirri with those on chaetigers 2 - 4 (paratype, NHM. 2018.24386) f pattern of dorsal body papillae (marked by white circles) (paratype, NHM. 2018.24386). Scale bars: 500 µm (a); 100 µm (b, e); 200 µm (c); 50 µm (d)." figureDoi="10.3897/zookeys.938.49349.figure7" httpUri="https://binary.pensoft.net/fig/417685" pageId="0" pageNumber="1">7a, c, f</figureCitation>
+) sparse papillation detected dorsally with two alternating longitudinal rows of digitiform papillae on each side of the body (= 4 rows in total); palps with some diffused small papillae (Fig. 
+<figureCitation id="2C5CA208D019507CE77599B61B70C822" captionStart="Figure 8" captionStartId="F8" captionText="Figure 8. Drawing of anterior end of Prosphaerosyllis modinouae sp. nov. in dorsal view (a) and detail of palps (b)." figureDoi="10.3897/zookeys.938.49349.figure8" httpUri="https://binary.pensoft.net/fig/417686" pageId="0" pageNumber="1">8b</figureCitation>
+); papillation on body venter diffused (Fig. 
+<figureCitation id="7449DAE03AD5D052B25A7C7DAF25404D" captionStart="Figure 6" captionStartId="F6" captionText="Figure 6. Prosphaerosyllis modinouae sp. nov. (holotype, NHM. 2018.25100; specimen Shirla-stained) a complete specimen in dorsal view b pattern of dorsal body papillae (= darkly stained dots) in anterior end c pattern of dorsal body papillae (= darkly stained dots) in mid-body segments d pattern of ventral papillae (= darkly stained dots). Scale bars: 500 µm (a); 200 µm (b, d)." figureDoi="10.3897/zookeys.938.49349.figure6" httpUri="https://binary.pensoft.net/fig/417684" pageId="0" pageNumber="1">6d</figureCitation>
+);parapodial with few tiny papillae (Fig. 
+<figureCitation id="56FA803B3D2E080902980EFF75A03996" captionStart="Figure 9" captionStartId="F9" captionText="Figure 9. Prosphaerosyllis modinouae sp. nov. (holotype, NHM. 2018.25100) a specimen in partial ventral view b, c examples of ventral cirri (Vc) and elongated lateral body papillae (Lp) d example of parapodium e detail of aciculae. Scale bars: 250 µm (a); 50 µm (c, d); 20 µm (e)." figureDoi="10.3897/zookeys.938.49349.figure9" httpUri="https://binary.pensoft.net/fig/417687" pageId="0" pageNumber="1">9d</figureCitation>
+); slender and elongated lateral body papillae observed in-between parapodia (Fig. 
+<figureCitation id="B8F16D9A98F944A8BA11202186E47DF8" captionStart="Figure 9" captionStartId="F9" captionText="Figure 9. Prosphaerosyllis modinouae sp. nov. (holotype, NHM. 2018.25100) a specimen in partial ventral view b, c examples of ventral cirri (Vc) and elongated lateral body papillae (Lp) d example of parapodium e detail of aciculae. Scale bars: 250 µm (a); 50 µm (c, d); 20 µm (e)." figureDoi="10.3897/zookeys.938.49349.figure9" httpUri="https://binary.pensoft.net/fig/417687" pageId="0" pageNumber="1">9b, c</figureCitation>
+). Colour in alcohol pale yellow, no pigmentation observed (Fig. 
+<figureCitation id="D792E0EC229278AC4E6CFFB1E23D83CF" captionStart="Figure 5" captionStartId="F5" captionText="Figure 5. Prosphaerosyllis modinouae sp. nov. (paratype, NHM. 2018.24386) a complete specimen in dorsal view b detail of anterior end in dorsal view c detail of prostomium and palps in dorsal view d detail of eyes e anterior dorsal cirrus f posterior dorsal cirrus g posterior parapodium (arrow marking acicula) h detail of acicula. Scale bars: 1000 µm (a); 100 µm (b, c); 25 µm (e, f); 50 µm (g)." figureDoi="10.3897/zookeys.938.49349.figure5" httpUri="https://binary.pensoft.net/fig/417683" pageId="0" pageNumber="1">5a</figureCitation>
+).
+</paragraph>
+<caption id="7640F927658F8525F58C3E8AED37F016" doi="10.3897/zookeys.938.49349.figure5" httpUri="https://binary.pensoft.net/fig/417683" pageId="0" pageNumber="1" start="Figure 5" startId="F5">
+<paragraph id="C0AD26DB7EA8436E1D5A75E70D74CC4E" pageId="0" pageNumber="1">
+<emphasis id="3DE5A55DCC702E5B89F3E995AA13CD84" bold="true" pageId="0" pageNumber="1">Figure 5.</emphasis>
+<taxonomicName id="1EABDE47E3E5B518DD237DAD68E53251" authorityName="Neal &amp; Paterson" authorityYear="2020" class="Polychaeta" family="Syllidae" genus="Prosphaerosyllis" higherTaxonomySource="CoL" kingdom="Animalia" lsidName="Prosphaerosyllis modinouae" order="Phyllodocida" pageId="0" pageNumber="1" phylum="Annelida" rank="species" species="modinouae">
+<emphasis id="49B6C3A24CE72D18D72688A6B1CA736A" italics="true" pageId="0" pageNumber="1">Prosphaerosyllis modinouae</emphasis>
+</taxonomicName>
+sp. nov. (paratype, NHM.2018.24386) 
+<emphasis id="51082F2A578FC7B54DD66DB36B3313FA" bold="true" pageId="0" pageNumber="1">a</emphasis>
+complete specimen in dorsal view 
+<emphasis id="4C9C4E1446536D45FA08529DDBCC7F8E" bold="true" pageId="0" pageNumber="1">b</emphasis>
+detail of anterior end in dorsal view 
+<emphasis id="5B8885DBBE79205AA98CC837FEF316C2" bold="true" pageId="0" pageNumber="1">c</emphasis>
+detail of prostomium and palps in dorsal view 
+<emphasis id="DB61B40135E1CD2CB2471BE81180EEAC" bold="true" pageId="0" pageNumber="1">d</emphasis>
+detail of eyes 
+<emphasis id="C335C381125FC6A965FE3BC9613C0AB0" bold="true" pageId="0" pageNumber="1">e</emphasis>
+anterior dorsal cirrus 
+<emphasis id="C3ED5FEE8E35E03DD959B67E1C8B4130" bold="true" pageId="0" pageNumber="1">f</emphasis>
+posterior dorsal cirrus 
+<emphasis id="DB6279558660DD9C77A490D9AD1CB752" bold="true" pageId="0" pageNumber="1">g</emphasis>
+posterior parapodium (arrow marking acicula) 
+<emphasis id="14D4CE43C6239E8803F3E244D40F8E70" bold="true" pageId="0" pageNumber="1">h</emphasis>
+detail of acicula. Scale bars: 1000 
+<normalizedToken id="49134C85638F5A32575C49686E09FE06" originalValue="µm">µm</normalizedToken>
+(
+<emphasis id="3F57427EBB597FB75A8F8E285A4664F0" bold="true" pageId="0" pageNumber="1">a</emphasis>
+); 100 
+<normalizedToken id="98DE0951CC92A9667A0E351E5E9DEBA2" originalValue="µm">µm</normalizedToken>
+(
+<emphasis id="F962425B9F59A54AFFC73DCC0BC5FBA0" bold="true" pageId="0" pageNumber="1">b, c</emphasis>
+); 25 
+<normalizedToken id="5B706CD069DF8633B8DC76235C339BC8" originalValue="µm">µm</normalizedToken>
+(
+<emphasis id="8E9FD3B4088C46734B89F365E171A7C4" bold="true" pageId="0" pageNumber="1">e, f</emphasis>
+); 50 
+<normalizedToken id="8544C2E6112C4312C6A36C95E742527F" originalValue="µm">µm</normalizedToken>
+(
+<emphasis id="CB993EF088FF9D40CB6F2C57B0793983" bold="true" pageId="0" pageNumber="1">g</emphasis>
+).
+</paragraph>
+</caption>
+<paragraph id="18F96BAA7682D0A947108DD7733CA55E" pageId="0" pageNumber="1">
+Prostomium short, wider than long (Figs 
+<figureCitation id="E65925D0392A0A5EACC78471438E0ECF" captionStart="Figure 5" captionStartId="F5" captionText="Figure 5. Prosphaerosyllis modinouae sp. nov. (paratype, NHM. 2018.24386) a complete specimen in dorsal view b detail of anterior end in dorsal view c detail of prostomium and palps in dorsal view d detail of eyes e anterior dorsal cirrus f posterior dorsal cirrus g posterior parapodium (arrow marking acicula) h detail of acicula. Scale bars: 1000 µm (a); 100 µm (b, c); 25 µm (e, f); 50 µm (g)." figureDoi="10.3897/zookeys.938.49349.figure5" httpUri="https://binary.pensoft.net/fig/417683" pageId="0" pageNumber="1">5b, c</figureCitation>
+; 
+<figureCitation id="AAF2815A8540ECE50F4714246A90C94C" captionStart="Figure 8" captionStartId="F8" captionText="Figure 8. Drawing of anterior end of Prosphaerosyllis modinouae sp. nov. in dorsal view (a) and detail of palps (b)." figureDoi="10.3897/zookeys.938.49349.figure8" httpUri="https://binary.pensoft.net/fig/417686" pageId="0" pageNumber="1">8a</figureCitation>
+). Three antennae present (Figs 
+<figureCitation id="88A37BF0B604CA0AC6A554187E8B8447" captionStart="Figure 7" captionStartId="F7" captionText="Figure 7. Prosphaerosyllis modinouae sp. nov. (SEM micrograph) a specimen (paratype, NHM. 2018.24386) in dorsal view b anterior end in dorsal view c paratype (NHM. 2018.24236) in dorso-lateral view d detail of prostomium of paratype (NHM. 2018.24236) with palps (P), median antenna (Ma), lateral antennae (La), tentacular cirrus (Tc) and dorsal cirrus (Dc) e detail of dorsal cirri with those on chaetigers 2 - 4 (paratype, NHM. 2018.24386) f pattern of dorsal body papillae (marked by white circles) (paratype, NHM. 2018.24386). Scale bars: 500 µm (a); 100 µm (b, e); 200 µm (c); 50 µm (d)." figureDoi="10.3897/zookeys.938.49349.figure7" httpUri="https://binary.pensoft.net/fig/417685" pageId="0" pageNumber="1">7d</figureCitation>
+; 
+<figureCitation id="EC19CD1916B24CBAB9B9B61F638C1DE4" captionStart="Figure 8" captionStartId="F8" captionText="Figure 8. Drawing of anterior end of Prosphaerosyllis modinouae sp. nov. in dorsal view (a) and detail of palps (b)." figureDoi="10.3897/zookeys.938.49349.figure8" httpUri="https://binary.pensoft.net/fig/417686" pageId="0" pageNumber="1">8a</figureCitation>
+), all pyriform and very small (difficult to observe under stereo microscope); median antenna positioned near posterior margin of prostomium, ca. 30 
+<normalizedToken id="E350CDFD265270BB9A3E066F0C48BA3F" originalValue="µm">µm</normalizedToken>
+long; lateral antennae positioned lateromedially on prostomium, smaller than median antenna, ca. 25 
+<normalizedToken id="5094161D55620A046383656B17F80993" originalValue="µm">µm</normalizedToken>
+long (Figs 
+<figureCitation id="5B0A8ECD47C3C4BECEF4477F279E8783" captionStart="Figure 7" captionStartId="F7" captionText="Figure 7. Prosphaerosyllis modinouae sp. nov. (SEM micrograph) a specimen (paratype, NHM. 2018.24386) in dorsal view b anterior end in dorsal view c paratype (NHM. 2018.24236) in dorso-lateral view d detail of prostomium of paratype (NHM. 2018.24236) with palps (P), median antenna (Ma), lateral antennae (La), tentacular cirrus (Tc) and dorsal cirrus (Dc) e detail of dorsal cirri with those on chaetigers 2 - 4 (paratype, NHM. 2018.24386) f pattern of dorsal body papillae (marked by white circles) (paratype, NHM. 2018.24386). Scale bars: 500 µm (a); 100 µm (b, e); 200 µm (c); 50 µm (d)." figureDoi="10.3897/zookeys.938.49349.figure7" httpUri="https://binary.pensoft.net/fig/417685" pageId="0" pageNumber="1">7d</figureCitation>
+; 
+<figureCitation id="FFE20985165EE5FD860E8DBC1FF0BE4F" captionStart="Figure 8" captionStartId="F8" captionText="Figure 8. Drawing of anterior end of Prosphaerosyllis modinouae sp. nov. in dorsal view (a) and detail of palps (b)." figureDoi="10.3897/zookeys.938.49349.figure8" httpUri="https://binary.pensoft.net/fig/417686" pageId="0" pageNumber="1">8a</figureCitation>
+).
+</paragraph>
+<caption id="5A270948B76366FEFE9A5E05A21216C0" doi="10.3897/zookeys.938.49349.figure6" httpUri="https://binary.pensoft.net/fig/417684" pageId="0" pageNumber="1" start="Figure 6" startId="F6">
+<paragraph id="684078230C5C9826C6377F6360331976" pageId="0" pageNumber="1">
+<emphasis id="99CABCF826003EADD16EE3EDF6835D9C" bold="true" pageId="0" pageNumber="1">Figure 6.</emphasis>
+<taxonomicName id="09DC04FBBD5AF983975E4133832D1EEA" authorityName="Neal &amp; Paterson" authorityYear="2020" class="Polychaeta" family="Syllidae" genus="Prosphaerosyllis" higherTaxonomySource="CoL" kingdom="Animalia" lsidName="Prosphaerosyllis modinouae" order="Phyllodocida" pageId="0" pageNumber="1" phylum="Annelida" rank="species" species="modinouae">
+<emphasis id="F84CFEA761B262B3A3D74D302751E7E5" italics="true" pageId="0" pageNumber="1">Prosphaerosyllis modinouae</emphasis>
+</taxonomicName>
+sp. nov. (holotype, NHM.2018.25100; specimen Shirla-stained) 
+<emphasis id="84E4A3BEDC4905DE5E03F2D1DB30F069" bold="true" pageId="0" pageNumber="1">a</emphasis>
+complete specimen in dorsal view 
+<emphasis id="88C309160810C7F086CE5FDFA3B3C769" bold="true" pageId="0" pageNumber="1">b</emphasis>
+pattern of dorsal body papillae (= darkly stained dots) in anterior end 
+<emphasis id="3528D7F125658B39B6446F44A71AFF3E" bold="true" pageId="0" pageNumber="1">c</emphasis>
+pattern of dorsal body papillae (= darkly stained dots) in mid-body segments 
+<emphasis id="5BE90CC50A0DC02E51BEF77D035809CB" bold="true" pageId="0" pageNumber="1">d</emphasis>
+pattern of ventral papillae (= darkly stained dots). Scale bars: 500 
+<normalizedToken id="12A37B0127F52E93907F4B0B090340D3" originalValue="µm">µm</normalizedToken>
+(
+<emphasis id="6FB846AF1EC4771375013841D23A6300" bold="true" pageId="0" pageNumber="1">a</emphasis>
+); 200 
+<normalizedToken id="EA30DEDC5F83A6C8FDFD64513462B70C" originalValue="µm">µm</normalizedToken>
+(
+<emphasis id="FDE30BD805DC0B3EFC96404ED0349170" bold="true" pageId="0" pageNumber="1">b, d</emphasis>
+).
+</paragraph>
+</caption>
+<paragraph id="E357F00E6B492E5A38906C9DB30FE44F" pageId="0" pageNumber="1">
+Palps very short, almost entirely obscured by prostomium in dorsal view (Figs 
+<figureCitation id="11D41B556FFF76312AEC4280AD538DCB" captionStart="Figure 5" captionStartId="F5" captionText="Figure 5. Prosphaerosyllis modinouae sp. nov. (paratype, NHM. 2018.24386) a complete specimen in dorsal view b detail of anterior end in dorsal view c detail of prostomium and palps in dorsal view d detail of eyes e anterior dorsal cirrus f posterior dorsal cirrus g posterior parapodium (arrow marking acicula) h detail of acicula. Scale bars: 1000 µm (a); 100 µm (b, c); 25 µm (e, f); 50 µm (g)." figureDoi="10.3897/zookeys.938.49349.figure5" httpUri="https://binary.pensoft.net/fig/417683" pageId="0" pageNumber="1">5b, c</figureCitation>
+; 
+<figureCitation id="98AFCFA3CAA6B29AB6EADB6687B9D024" captionStart="Figure 7" captionStartId="F7" captionText="Figure 7. Prosphaerosyllis modinouae sp. nov. (SEM micrograph) a specimen (paratype, NHM. 2018.24386) in dorsal view b anterior end in dorsal view c paratype (NHM. 2018.24236) in dorso-lateral view d detail of prostomium of paratype (NHM. 2018.24236) with palps (P), median antenna (Ma), lateral antennae (La), tentacular cirrus (Tc) and dorsal cirrus (Dc) e detail of dorsal cirri with those on chaetigers 2 - 4 (paratype, NHM. 2018.24386) f pattern of dorsal body papillae (marked by white circles) (paratype, NHM. 2018.24386). Scale bars: 500 µm (a); 100 µm (b, e); 200 µm (c); 50 µm (d)." figureDoi="10.3897/zookeys.938.49349.figure7" httpUri="https://binary.pensoft.net/fig/417685" pageId="0" pageNumber="1">7a-d</figureCitation>
+; 
+<figureCitation id="0A8F960627FD9C72B1047636EE05B2FA" captionStart="Figure 8" captionStartId="F8" captionText="Figure 8. Drawing of anterior end of Prosphaerosyllis modinouae sp. nov. in dorsal view (a) and detail of palps (b)." figureDoi="10.3897/zookeys.938.49349.figure8" httpUri="https://binary.pensoft.net/fig/417686" pageId="0" pageNumber="1">8a</figureCitation>
+) with only their lateral margins visible in dorsal view; fully fused along their length; provided with some small papillae (Fig. 
+<figureCitation id="47EFACE48D7AE1D6515F878409051DA4" captionStart="Figure 8" captionStartId="F8" captionText="Figure 8. Drawing of anterior end of Prosphaerosyllis modinouae sp. nov. in dorsal view (a) and detail of palps (b)." figureDoi="10.3897/zookeys.938.49349.figure8" httpUri="https://binary.pensoft.net/fig/417686" pageId="0" pageNumber="1">8b</figureCitation>
+). Two pairsof large red eyes present (Figs 
+<figureCitation id="2C6C2A2580FE2EF924DBCF14439A4298" captionStart="Figure 5" captionStartId="F5" captionText="Figure 5. Prosphaerosyllis modinouae sp. nov. (paratype, NHM. 2018.24386) a complete specimen in dorsal view b detail of anterior end in dorsal view c detail of prostomium and palps in dorsal view d detail of eyes e anterior dorsal cirrus f posterior dorsal cirrus g posterior parapodium (arrow marking acicula) h detail of acicula. Scale bars: 1000 µm (a); 100 µm (b, c); 25 µm (e, f); 50 µm (g)." figureDoi="10.3897/zookeys.938.49349.figure5" httpUri="https://binary.pensoft.net/fig/417683" pageId="0" pageNumber="1">5b-d</figureCitation>
+; 
+<figureCitation id="9B12055D80A8964E3B2A8E68250BFF2F" captionStart="Figure 8" captionStartId="F8" captionText="Figure 8. Drawing of anterior end of Prosphaerosyllis modinouae sp. nov. in dorsal view (a) and detail of palps (b)." figureDoi="10.3897/zookeys.938.49349.figure8" httpUri="https://binary.pensoft.net/fig/417686" pageId="0" pageNumber="1">8a</figureCitation>
+), in trapezoid arrangement, with anterior and posterior pair close together (almost appearing as a single eye), anterior pair cup-shaped, posterior pair circular; presence of additional eyespots not confirmed.
+</paragraph>
+<caption id="CDC72DB6A8FD8B3FB3F15ED1CA3F13A8" doi="10.3897/zookeys.938.49349.figure7" httpUri="https://binary.pensoft.net/fig/417685" pageId="0" pageNumber="1" start="Figure 7" startId="F7">
+<paragraph id="EC3EE75CE626A5EAFA87F9557F10324A" pageId="0" pageNumber="1">
+<emphasis id="3C730A1993BBE1AFCD0E55806FD644F7" bold="true" pageId="0" pageNumber="1">Figure 7.</emphasis>
+<taxonomicName id="9950812F1E0C8086B48F7FA828872BBA" authorityName="Neal &amp; Paterson" authorityYear="2020" class="Polychaeta" family="Syllidae" genus="Prosphaerosyllis" higherTaxonomySource="CoL" kingdom="Animalia" lsidName="Prosphaerosyllis modinouae" order="Phyllodocida" pageId="0" pageNumber="1" phylum="Annelida" rank="species" species="modinouae">
+<emphasis id="5C040695680D2B8F171E6CA9EC13ACE4" italics="true" pageId="0" pageNumber="1">Prosphaerosyllis modinouae</emphasis>
+</taxonomicName>
+sp. nov. (SEM micrograph) 
+<emphasis id="020D7855C6F02E280BB474C2C2A956F7" bold="true" pageId="0" pageNumber="1">a</emphasis>
+specimen (paratype, NHM.2018.24386) in dorsal view 
+<emphasis id="66CF05FDA3FE6DD73F6F7CA97A98C47E" bold="true" pageId="0" pageNumber="1">b</emphasis>
+anterior end in dorsal view 
+<emphasis id="D70E03C0BBAB8834E1A9DE64BA051144" bold="true" pageId="0" pageNumber="1">c</emphasis>
+paratype (NHM.2018.24236) in dorso-lateral view 
+<emphasis id="776FD4E1B332B21C9BCDD8E9FC087804" bold="true" pageId="0" pageNumber="1">d</emphasis>
+detail of prostomium of paratype (NHM.2018.24236) with palps (P), median antenna (Ma), lateral antennae (La), tentacular cirrus (Tc) and dorsal cirrus (Dc) 
+<emphasis id="D598E94D2B985038AC1487785F0D949A" bold="true" pageId="0" pageNumber="1">e</emphasis>
+detail of dorsal cirri with those on chaetigers 2-4 (paratype, NHM.2018.24386) 
+<emphasis id="B72FEE108470AF4619424588791E4A74" bold="true" pageId="0" pageNumber="1">f</emphasis>
+pattern of dorsal body papillae (marked by white circles) (paratype, NHM.2018.24386). Scale bars: 500 
+<normalizedToken id="42D8E106A6DA8E90F0D083D47D67445A" originalValue="µm">µm</normalizedToken>
+(
+<emphasis id="DBB382732BFA163B99036F35967036A3" bold="true" pageId="0" pageNumber="1">a</emphasis>
+); 100 
+<normalizedToken id="53ADA8E09CFAD00BFF793632B6F2173B" originalValue="µm">µm</normalizedToken>
+(
+<emphasis id="D33EB8AD8379C5AC29061894C420CD9E" bold="true" pageId="0" pageNumber="1">b, e</emphasis>
+); 200 
+<normalizedToken id="F048B28573F68A25A605E2203F8EA9B2" originalValue="µm">µm</normalizedToken>
+(
+<emphasis id="8A74EA34A6CCBB1F7D396BBA955C7C07" bold="true" pageId="0" pageNumber="1">c</emphasis>
+); 50 
+<normalizedToken id="4061682B5EA71A95D849D27BAE5B5A2D" originalValue="µm">µm</normalizedToken>
+(
+<emphasis id="3216911276927A3C8FCADA63655300EA" bold="true" pageId="0" pageNumber="1">d</emphasis>
+).
+</paragraph>
+</caption>
+<paragraph id="B706E8CA1C86B0FAD1CB3575F4BDBF53" pageId="0" pageNumber="1">
+Proventricle starts between chaetigers 3-4 and ends between chaetigers 6-7, with ca. 20 muscle rows (Figs 
+<figureCitation id="15B912C0E1C34735B5A209E3A5D5F437" captionStart="Figure 5" captionStartId="F5" captionText="Figure 5. Prosphaerosyllis modinouae sp. nov. (paratype, NHM. 2018.24386) a complete specimen in dorsal view b detail of anterior end in dorsal view c detail of prostomium and palps in dorsal view d detail of eyes e anterior dorsal cirrus f posterior dorsal cirrus g posterior parapodium (arrow marking acicula) h detail of acicula. Scale bars: 1000 µm (a); 100 µm (b, c); 25 µm (e, f); 50 µm (g)." figureDoi="10.3897/zookeys.938.49349.figure5" httpUri="https://binary.pensoft.net/fig/417683" pageId="0" pageNumber="1">5b</figureCitation>
+; 
+<figureCitation id="72585B1E97204D688E9C579B45FB9508" captionStart="Figure 6" captionStartId="F6" captionText="Figure 6. Prosphaerosyllis modinouae sp. nov. (holotype, NHM. 2018.25100; specimen Shirla-stained) a complete specimen in dorsal view b pattern of dorsal body papillae (= darkly stained dots) in anterior end c pattern of dorsal body papillae (= darkly stained dots) in mid-body segments d pattern of ventral papillae (= darkly stained dots). Scale bars: 500 µm (a); 200 µm (b, d)." figureDoi="10.3897/zookeys.938.49349.figure6" httpUri="https://binary.pensoft.net/fig/417684" pageId="0" pageNumber="1">6b</figureCitation>
+). First segment achaetous; with small pair of tentacular cirri, ca. 20 
+<normalizedToken id="92321443D03C45EE88ED1E3372FEE393" originalValue="µm">µm</normalizedToken>
+long, pyriform (similar to antennae) (Figs 
+<figureCitation id="051504A9FFE149510B55D481487F1A6A" captionStart="Figure 7" captionStartId="F7" captionText="Figure 7. Prosphaerosyllis modinouae sp. nov. (SEM micrograph) a specimen (paratype, NHM. 2018.24386) in dorsal view b anterior end in dorsal view c paratype (NHM. 2018.24236) in dorso-lateral view d detail of prostomium of paratype (NHM. 2018.24236) with palps (P), median antenna (Ma), lateral antennae (La), tentacular cirrus (Tc) and dorsal cirrus (Dc) e detail of dorsal cirri with those on chaetigers 2 - 4 (paratype, NHM. 2018.24386) f pattern of dorsal body papillae (marked by white circles) (paratype, NHM. 2018.24386). Scale bars: 500 µm (a); 100 µm (b, e); 200 µm (c); 50 µm (d)." figureDoi="10.3897/zookeys.938.49349.figure7" httpUri="https://binary.pensoft.net/fig/417685" pageId="0" pageNumber="1">7d</figureCitation>
+; 
+<figureCitation id="9872B31BA75B92D4E2C372B69236A1EB" captionStart="Figure 8" captionStartId="F8" captionText="Figure 8. Drawing of anterior end of Prosphaerosyllis modinouae sp. nov. in dorsal view (a) and detail of palps (b)." figureDoi="10.3897/zookeys.938.49349.figure8" httpUri="https://binary.pensoft.net/fig/417686" pageId="0" pageNumber="1">8a</figureCitation>
+). Pharynx everted in paratype (NHM.2018.24236) (Fig. 
+<figureCitation id="8D8324C94A58CE64A617CE9A79CAA0B3" captionStart="Figure 7" captionStartId="F7" captionText="Figure 7. Prosphaerosyllis modinouae sp. nov. (SEM micrograph) a specimen (paratype, NHM. 2018.24386) in dorsal view b anterior end in dorsal view c paratype (NHM. 2018.24236) in dorso-lateral view d detail of prostomium of paratype (NHM. 2018.24236) with palps (P), median antenna (Ma), lateral antennae (La), tentacular cirrus (Tc) and dorsal cirrus (Dc) e detail of dorsal cirri with those on chaetigers 2 - 4 (paratype, NHM. 2018.24386) f pattern of dorsal body papillae (marked by white circles) (paratype, NHM. 2018.24386). Scale bars: 500 µm (a); 100 µm (b, e); 200 µm (c); 50 µm (d)." figureDoi="10.3897/zookeys.938.49349.figure7" httpUri="https://binary.pensoft.net/fig/417685" pageId="0" pageNumber="1">7c, d</figureCitation>
+), without terminal papillae, pharyngeal tooth far from anterior margin.
+</paragraph>
+<caption id="AD725014C8B80A71729BF98EBFB15F83" doi="10.3897/zookeys.938.49349.figure8" httpUri="https://binary.pensoft.net/fig/417686" pageId="0" pageNumber="1" start="Figure 8" startId="F8">
+<paragraph id="18656DD4854D15AF0BCF7E496D10D881" pageId="0" pageNumber="1">
+<emphasis id="65ED9C7CAD32E29BCCF6F68283F852C2" bold="true" pageId="0" pageNumber="1">Figure 8.</emphasis>
+Drawing of anterior end of 
+<taxonomicName id="C5A7DD32917F8A9047222309D2F23CFE" authorityName="Neal &amp; Paterson" authorityYear="2020" class="Polychaeta" family="Syllidae" genus="Prosphaerosyllis" higherTaxonomySource="CoL" kingdom="Animalia" lsidName="Prosphaerosyllis modinouae" order="Phyllodocida" pageId="0" pageNumber="1" phylum="Annelida" rank="species" species="modinouae">
+<emphasis id="7932C3B9A10A7830A098A45AF2A23A3E" italics="true" pageId="0" pageNumber="1">Prosphaerosyllis modinouae</emphasis>
+</taxonomicName>
+sp. nov. in dorsal view (
+<emphasis id="0E94BADFBF42908686791F60BA2B349C" bold="true" pageId="0" pageNumber="1">a</emphasis>
+) and detail of palps (
+<emphasis id="6E97D982F1A7FF8DBD44B133DD985035" bold="true" pageId="0" pageNumber="1">b</emphasis>
+).
+</paragraph>
+</caption>
+<paragraph id="7B60CBDCBB2F7B321DA5AF6B4E522096" pageId="0" pageNumber="1">
+Parapodia uniramous, short but distinct, conical (Fig. 
+<figureCitation id="8CA872C54202A8AF8891BBA7F6B94480" captionStart="Figure 9" captionStartId="F9" captionText="Figure 9. Prosphaerosyllis modinouae sp. nov. (holotype, NHM. 2018.25100) a specimen in partial ventral view b, c examples of ventral cirri (Vc) and elongated lateral body papillae (Lp) d example of parapodium e detail of aciculae. Scale bars: 250 µm (a); 50 µm (c, d); 20 µm (e)." figureDoi="10.3897/zookeys.938.49349.figure9" httpUri="https://binary.pensoft.net/fig/417687" pageId="0" pageNumber="1">9a-c</figureCitation>
+). Dorsal cirri in all chaetigers, including chaetiger 2 (Figs 
+<figureCitation id="4AEAC400731858F3C68D4A3E0F94576D" captionStart="Figure 7" captionStartId="F7" captionText="Figure 7. Prosphaerosyllis modinouae sp. nov. (SEM micrograph) a specimen (paratype, NHM. 2018.24386) in dorsal view b anterior end in dorsal view c paratype (NHM. 2018.24236) in dorso-lateral view d detail of prostomium of paratype (NHM. 2018.24236) with palps (P), median antenna (Ma), lateral antennae (La), tentacular cirrus (Tc) and dorsal cirrus (Dc) e detail of dorsal cirri with those on chaetigers 2 - 4 (paratype, NHM. 2018.24386) f pattern of dorsal body papillae (marked by white circles) (paratype, NHM. 2018.24386). Scale bars: 500 µm (a); 100 µm (b, e); 200 µm (c); 50 µm (d)." figureDoi="10.3897/zookeys.938.49349.figure7" httpUri="https://binary.pensoft.net/fig/417685" pageId="0" pageNumber="1">7e</figureCitation>
+; 
+<figureCitation id="899D29D000CED6FB91E85928030E5D9B" captionStart="Figure 8" captionStartId="F8" captionText="Figure 8. Drawing of anterior end of Prosphaerosyllis modinouae sp. nov. in dorsal view (a) and detail of palps (b)." figureDoi="10.3897/zookeys.938.49349.figure8" httpUri="https://binary.pensoft.net/fig/417686" pageId="0" pageNumber="1">8a</figureCitation>
+) (missing in some parapodia due to damage); dorsal cirri in anterior chaetigers small (but easy to observe, ca. 40 
+<normalizedToken id="021E61C12102E3A3C5C95EF39F0A4EF0" originalValue="µm">µm</normalizedToken>
+in length, Fig. 
+<figureCitation id="BFC7390D8AFFFCD587E8DC8D39EA6EE4" captionStart="Figure 5" captionStartId="F5" captionText="Figure 5. Prosphaerosyllis modinouae sp. nov. (paratype, NHM. 2018.24386) a complete specimen in dorsal view b detail of anterior end in dorsal view c detail of prostomium and palps in dorsal view d detail of eyes e anterior dorsal cirrus f posterior dorsal cirrus g posterior parapodium (arrow marking acicula) h detail of acicula. Scale bars: 1000 µm (a); 100 µm (b, c); 25 µm (e, f); 50 µm (g)." figureDoi="10.3897/zookeys.938.49349.figure5" httpUri="https://binary.pensoft.net/fig/417683" pageId="0" pageNumber="1">5e</figureCitation>
+), similar in form to tentacular cirri and antennae, becoming more elongated in posterior chaetigers (ca. 55 
+<normalizedToken id="C06D311583FA872EBC928CC4AB87008E" originalValue="µm">µm</normalizedToken>
+long, Fig. 
+<figureCitation id="009B295F1D253560FCC42C3FF6ACBF2E" captionStart="Figure 5" captionStartId="F5" captionText="Figure 5. Prosphaerosyllis modinouae sp. nov. (paratype, NHM. 2018.24386) a complete specimen in dorsal view b detail of anterior end in dorsal view c detail of prostomium and palps in dorsal view d detail of eyes e anterior dorsal cirrus f posterior dorsal cirrus g posterior parapodium (arrow marking acicula) h detail of acicula. Scale bars: 1000 µm (a); 100 µm (b, c); 25 µm (e, f); 50 µm (g)." figureDoi="10.3897/zookeys.938.49349.figure5" httpUri="https://binary.pensoft.net/fig/417683" pageId="0" pageNumber="1">5f</figureCitation>
+). Ventral cirri as extremely slender cirriform structures, inserted near the base of neuropodia (Fig. 
+<figureCitation id="0C2F94746F5F6C4A888C2A92669C727A" captionStart="Figure 9" captionStartId="F9" captionText="Figure 9. Prosphaerosyllis modinouae sp. nov. (holotype, NHM. 2018.25100) a specimen in partial ventral view b, c examples of ventral cirri (Vc) and elongated lateral body papillae (Lp) d example of parapodium e detail of aciculae. Scale bars: 250 µm (a); 50 µm (c, d); 20 µm (e)." figureDoi="10.3897/zookeys.938.49349.figure9" httpUri="https://binary.pensoft.net/fig/417687" pageId="0" pageNumber="1">9a-c</figureCitation>
+), becoming progressively longer posteriorly.
+</paragraph>
+<caption id="69BCB1E7E6DD7BDDA1AC16B3C03F9606" doi="10.3897/zookeys.938.49349.figure9" httpUri="https://binary.pensoft.net/fig/417687" pageId="0" pageNumber="1" start="Figure 9" startId="F9">
+<paragraph id="4E94024A5F6AF0EA0563B24C5CE7A1E3" pageId="0" pageNumber="1">
+<emphasis id="3504DF206C3CDA979B0F25DA8FB882BA" bold="true" pageId="0" pageNumber="1">Figure 9.</emphasis>
+<taxonomicName id="DF4A0F95A4A9D710634FE207DCAE0B8F" authorityName="Neal &amp; Paterson" authorityYear="2020" class="Polychaeta" family="Syllidae" genus="Prosphaerosyllis" higherTaxonomySource="CoL" kingdom="Animalia" lsidName="Prosphaerosyllis modinouae" order="Phyllodocida" pageId="0" pageNumber="1" phylum="Annelida" rank="species" species="modinouae">
+<emphasis id="F35C7F3BACB93F5631722AC587C8FEFF" italics="true" pageId="0" pageNumber="1">Prosphaerosyllis modinouae</emphasis>
+</taxonomicName>
+sp. nov. (holotype, NHM.2018.25100) 
+<emphasis id="8FA22C1DBBAC3E7BC0E2E8C0B1922DF4" bold="true" pageId="0" pageNumber="1">a</emphasis>
+specimen in partial ventral view 
+<emphasis id="D901372D20C925B3EA2FC7B4A1570878" bold="true" pageId="0" pageNumber="1">b, c</emphasis>
+examples of ventral cirri (Vc) and elongated lateral body papillae (Lp) 
+<emphasis id="9A0077915F1083B456B926D0952FAC8F" bold="true" pageId="0" pageNumber="1">d</emphasis>
+example of parapodium 
+<emphasis id="B9F33FD0845378C0302B1C31B3A2E21C" bold="true" pageId="0" pageNumber="1">e</emphasis>
+detail of aciculae. Scale bars: 250 
+<normalizedToken id="540F01BB58FADAC5B4EF2231F1A13190" originalValue="µm">µm</normalizedToken>
+(
+<emphasis id="52B4E3C087B008678788E9AB3A9CE358" bold="true" pageId="0" pageNumber="1">a</emphasis>
+); 50 
+<normalizedToken id="57B3917DCF85C341CF51E195B99A7E43" originalValue="µm">µm</normalizedToken>
+(
+<emphasis id="CEF48CB83069B1912C0FADA5EDB5E057" bold="true" pageId="0" pageNumber="1">c, d</emphasis>
+); 20 
+<normalizedToken id="D4B49BAF7E9BF027223D319C377830C9" originalValue="µm">µm</normalizedToken>
+(
+<emphasis id="B10373F28D5B75C8F534334327DA5404" bold="true" pageId="0" pageNumber="1">e</emphasis>
+).
+</paragraph>
+</caption>
+<paragraph id="07CD42A5EDA3E9EBDF7EC10DB7FFFD48" pageId="0" pageNumber="1">
+Chaetae often missing (broken off). One simple dorsal chaeta commonly observed (Fig. 
+<figureCitation id="CE05F0C30B4245B8B67CB2A134E01E79" captionStart="Figure 10" captionStartId="F10" captionText="Figure 10. Prosphaerosyllis modinouae sp. nov. (paratype NHM. 2018.24386) a simple dorsal chaeta from anterior chaetiger b simple dorsal chaeta from posterior chaetiger c simple ventral chaeta from posterior chaetgier d dorsalmost falciger from anterior chaetiger e ventralmost falciger from anterior chaetiger f dorsalmost chaeta from mid body chaetiger g falcigers from posterior chaetiger. Scale bar: 50 µm." figureDoi="10.3897/zookeys.938.49349.figure10" httpUri="https://binary.pensoft.net/fig/417688" pageId="0" pageNumber="1">10a</figureCitation>
+), present from chaetiger 1; straight and smooth; increasing in size throughout body measuring 30 
+<normalizedToken id="8D92D41D0E192DFDA1E00C23892F96CE" originalValue="µm">µm</normalizedToken>
+in anterior parapodia, 85 
+<normalizedToken id="400B52684E7BAC4F1816E802CE1E006A" originalValue="µm">µm</normalizedToken>
+in mid-body parapodia and 110 
+<normalizedToken id="2504A3FB240D6C125539DB67BC2BFD63" originalValue="µm">µm</normalizedToken>
+in some posterior parapodia (Fig. 
+<figureCitation id="2DD5FC68A0D8EACE6826FF183FE71C52" captionStart="Figure 10" captionStartId="F10" captionText="Figure 10. Prosphaerosyllis modinouae sp. nov. (paratype NHM. 2018.24386) a simple dorsal chaeta from anterior chaetiger b simple dorsal chaeta from posterior chaetiger c simple ventral chaeta from posterior chaetgier d dorsalmost falciger from anterior chaetiger e ventralmost falciger from anterior chaetiger f dorsalmost chaeta from mid body chaetiger g falcigers from posterior chaetiger. Scale bar: 50 µm." figureDoi="10.3897/zookeys.938.49349.figure10" httpUri="https://binary.pensoft.net/fig/417688" pageId="0" pageNumber="1">10b</figureCitation>
+). Simple ventral chaeta observed only in posteriormost parapodia, slightly sigmoid and smooth (Fig. 
+<figureCitation id="E9833D56F3C1871D88558B2543C4B502" captionStart="Figure 10" captionStartId="F10" captionText="Figure 10. Prosphaerosyllis modinouae sp. nov. (paratype NHM. 2018.24386) a simple dorsal chaeta from anterior chaetiger b simple dorsal chaeta from posterior chaetiger c simple ventral chaeta from posterior chaetgier d dorsalmost falciger from anterior chaetiger e ventralmost falciger from anterior chaetiger f dorsalmost chaeta from mid body chaetiger g falcigers from posterior chaetiger. Scale bar: 50 µm." figureDoi="10.3897/zookeys.938.49349.figure10" httpUri="https://binary.pensoft.net/fig/417688" pageId="0" pageNumber="1">10c</figureCitation>
+). Other chaetae compound falcigers (Fig. 
+<figureCitation id="F7CCE921F42CC9E3FD2D4B1F9757CF12" captionStart="Figure 10" captionStartId="F10" captionText="Figure 10. Prosphaerosyllis modinouae sp. nov. (paratype NHM. 2018.24386) a simple dorsal chaeta from anterior chaetiger b simple dorsal chaeta from posterior chaetiger c simple ventral chaeta from posterior chaetgier d dorsalmost falciger from anterior chaetiger e ventralmost falciger from anterior chaetiger f dorsalmost chaeta from mid body chaetiger g falcigers from posterior chaetiger. Scale bar: 50 µm." figureDoi="10.3897/zookeys.938.49349.figure10" httpUri="https://binary.pensoft.net/fig/417688" pageId="0" pageNumber="1">10d-g</figureCitation>
+); ca. six per fascicle; all blades unidentate and serrated to greater (Fig. 
+<figureCitation id="B90B95D774F79DA747A3C67091E64F40" captionStart="Figure 10" captionStartId="F10" captionText="Figure 10. Prosphaerosyllis modinouae sp. nov. (paratype NHM. 2018.24386) a simple dorsal chaeta from anterior chaetiger b simple dorsal chaeta from posterior chaetiger c simple ventral chaeta from posterior chaetgier d dorsalmost falciger from anterior chaetiger e ventralmost falciger from anterior chaetiger f dorsalmost chaeta from mid body chaetiger g falcigers from posterior chaetiger. Scale bar: 50 µm." figureDoi="10.3897/zookeys.938.49349.figure10" httpUri="https://binary.pensoft.net/fig/417688" pageId="0" pageNumber="1">10d, g</figureCitation>
+) or lesser degree (Fig. 
+<figureCitation id="08552A4BA569FCDB5D7B833009CD7B82" captionStart="Figure 10" captionStartId="F10" captionText="Figure 10. Prosphaerosyllis modinouae sp. nov. (paratype NHM. 2018.24386) a simple dorsal chaeta from anterior chaetiger b simple dorsal chaeta from posterior chaetiger c simple ventral chaeta from posterior chaetgier d dorsalmost falciger from anterior chaetiger e ventralmost falciger from anterior chaetiger f dorsalmost chaeta from mid body chaetiger g falcigers from posterior chaetiger. Scale bar: 50 µm." figureDoi="10.3897/zookeys.938.49349.figure10" httpUri="https://binary.pensoft.net/fig/417688" pageId="0" pageNumber="1">10e, f</figureCitation>
+). Blades of falcigers of varying lengths with greatest length difference between dorsalmost (Fig. 
+<figureCitation id="D21EB4536719C20B945E3DD1EB1E30CA" captionStart="Figure 10" captionStartId="F10" captionText="Figure 10. Prosphaerosyllis modinouae sp. nov. (paratype NHM. 2018.24386) a simple dorsal chaeta from anterior chaetiger b simple dorsal chaeta from posterior chaetiger c simple ventral chaeta from posterior chaetgier d dorsalmost falciger from anterior chaetiger e ventralmost falciger from anterior chaetiger f dorsalmost chaeta from mid body chaetiger g falcigers from posterior chaetiger. Scale bar: 50 µm." figureDoi="10.3897/zookeys.938.49349.figure10" httpUri="https://binary.pensoft.net/fig/417688" pageId="0" pageNumber="1">10d</figureCitation>
+) and ventral most (Fig. 
+<figureCitation id="C81E0E99529347C7AFF2962A0FE59854" captionStart="Figure 10" captionStartId="F10" captionText="Figure 10. Prosphaerosyllis modinouae sp. nov. (paratype NHM. 2018.24386) a simple dorsal chaeta from anterior chaetiger b simple dorsal chaeta from posterior chaetiger c simple ventral chaeta from posterior chaetgier d dorsalmost falciger from anterior chaetiger e ventralmost falciger from anterior chaetiger f dorsalmost chaeta from mid body chaetiger g falcigers from posterior chaetiger. Scale bar: 50 µm." figureDoi="10.3897/zookeys.938.49349.figure10" httpUri="https://binary.pensoft.net/fig/417688" pageId="0" pageNumber="1">10e</figureCitation>
+) chaetae in anterior parapodia, this difference becomes particularly pronounced in mid-body parapodia, where long dorsalmost chaeta (Fig. 
+<figureCitation id="408118DD3D8F47B2BF11084F47F3187D" captionStart="Figure 10" captionStartId="F10" captionText="Figure 10. Prosphaerosyllis modinouae sp. nov. (paratype NHM. 2018.24386) a simple dorsal chaeta from anterior chaetiger b simple dorsal chaeta from posterior chaetiger c simple ventral chaeta from posterior chaetgier d dorsalmost falciger from anterior chaetiger e ventralmost falciger from anterior chaetiger f dorsalmost chaeta from mid body chaetiger g falcigers from posterior chaetiger. Scale bar: 50 µm." figureDoi="10.3897/zookeys.938.49349.figure10" httpUri="https://binary.pensoft.net/fig/417688" pageId="0" pageNumber="1">10f</figureCitation>
+) bears particularly short blade (as ratio to length of its shaft); length of blades 5-13 
+<normalizedToken id="BAD5A3F67AE73653AC7571C8AAE20D6C" originalValue="µm">µm</normalizedToken>
+(total chaetal length 35-60 
+<normalizedToken id="34A80998113ECE51C05D55AAE9473F21" originalValue="µm">µm</normalizedToken>
+) in anterior chaetigers; 5-13.5 
+<normalizedToken id="C002571445D88D7C9F0CFBA5575D28C3" originalValue="µm">µm</normalizedToken>
+(total chaetal length 75-100 
+<normalizedToken id="2FA173DF40C73AF12F0BF174A87E3D18" originalValue="µm">µm</normalizedToken>
+) in mid-body chaetigers and 12-20 
+<normalizedToken id="8143C6DABCA6BB68F8C550F96806BDD8" originalValue="µm">µm</normalizedToken>
+(total chaetal length ca.100 
+<normalizedToken id="221515E56EF929C26A4D1C82D6007486" originalValue="µm">µm</normalizedToken>
+) in posterior chaetigers (Fig. 
+<figureCitation id="4CA006B0DDC82B5F16829CF28A78F47F" captionStart="Figure 10" captionStartId="F10" captionText="Figure 10. Prosphaerosyllis modinouae sp. nov. (paratype NHM. 2018.24386) a simple dorsal chaeta from anterior chaetiger b simple dorsal chaeta from posterior chaetiger c simple ventral chaeta from posterior chaetgier d dorsalmost falciger from anterior chaetiger e ventralmost falciger from anterior chaetiger f dorsalmost chaeta from mid body chaetiger g falcigers from posterior chaetiger. Scale bar: 50 µm." figureDoi="10.3897/zookeys.938.49349.figure10" httpUri="https://binary.pensoft.net/fig/417688" pageId="0" pageNumber="1">10g</figureCitation>
+). Acicula in anterior and posterior chaetigers mostly solitary, acuminate (Figs 
+<figureCitation id="99BBF217B3CEECE161CDBA489FCE6D89" captionStart="Figure 5" captionStartId="F5" captionText="Figure 5. Prosphaerosyllis modinouae sp. nov. (paratype, NHM. 2018.24386) a complete specimen in dorsal view b detail of anterior end in dorsal view c detail of prostomium and palps in dorsal view d detail of eyes e anterior dorsal cirrus f posterior dorsal cirrus g posterior parapodium (arrow marking acicula) h detail of acicula. Scale bars: 1000 µm (a); 100 µm (b, c); 25 µm (e, f); 50 µm (g)." figureDoi="10.3897/zookeys.938.49349.figure5" httpUri="https://binary.pensoft.net/fig/417683" pageId="0" pageNumber="1">5g, h</figureCitation>
+; 
+<figureCitation id="BC8E70A9C15CB8437525E3B32E2E3F07" captionStart="Figure 9" captionStartId="F9" captionText="Figure 9. Prosphaerosyllis modinouae sp. nov. (holotype, NHM. 2018.25100) a specimen in partial ventral view b, c examples of ventral cirri (Vc) and elongated lateral body papillae (Lp) d example of parapodium e detail of aciculae. Scale bars: 250 µm (a); 50 µm (c, d); 20 µm (e)." figureDoi="10.3897/zookeys.938.49349.figure9" httpUri="https://binary.pensoft.net/fig/417687" pageId="0" pageNumber="1">9e</figureCitation>
+).
+</paragraph>
+<caption id="E2E19777ED45EC262DC1103E48A043EC" doi="10.3897/zookeys.938.49349.figure10" httpUri="https://binary.pensoft.net/fig/417688" pageId="0" pageNumber="1" start="Figure 10" startId="F10">
+<paragraph id="1EAA62FAAF02BA48456B039BF83BFF2B" pageId="0" pageNumber="1">
+<emphasis id="BC4823060D6F37157446796FFA246C1D" bold="true" pageId="0" pageNumber="1">Figure 10.</emphasis>
+<taxonomicName id="FC8FB5B65C9AF66F9B49988C961586BE" authorityName="Neal &amp; Paterson" authorityYear="2020" class="Polychaeta" family="Syllidae" genus="Prosphaerosyllis" higherTaxonomySource="CoL" kingdom="Animalia" lsidName="Prosphaerosyllis modinouae" order="Phyllodocida" pageId="0" pageNumber="1" phylum="Annelida" rank="species" species="modinouae">
+<emphasis id="E189830F06BBFDF9D1E4D27447F69357" italics="true" pageId="0" pageNumber="1">Prosphaerosyllis modinouae</emphasis>
+</taxonomicName>
+sp. nov. (paratype NHM.2018.24386) 
+<emphasis id="781E388757686EEE3D2F9ADB582FE1A5" bold="true" pageId="0" pageNumber="1">a</emphasis>
+simple dorsal chaeta from anterior chaetiger 
+<emphasis id="9C46F5130BFDF07265998DF68F2B3A6F" bold="true" pageId="0" pageNumber="1">b</emphasis>
+simple dorsal chaeta from posterior chaetiger 
+<emphasis id="9DFF84BFB416BCC59C283818441F6900" bold="true" pageId="0" pageNumber="1">c</emphasis>
+simple ventral chaeta from posterior chaetgier 
+<emphasis id="CE9E62962DCF8F1E96D5D51E40333582" bold="true" pageId="0" pageNumber="1">d</emphasis>
+dorsalmost falciger from anterior chaetiger 
+<emphasis id="8AFF40A2886FB6EFC30E10803BED5194" bold="true" pageId="0" pageNumber="1">e</emphasis>
+ventralmost falciger from anterior chaetiger 
+<emphasis id="4C3106A98F45958752FE87FEF4AD2380" bold="true" pageId="0" pageNumber="1">f</emphasis>
+dorsalmost chaeta from mid body chaetiger 
+<emphasis id="45C2531A0439F21500688B75111A4EF2" bold="true" pageId="0" pageNumber="1">g</emphasis>
+falcigers from posterior chaetiger. Scale bar: 50 
+<normalizedToken id="CBBDC9CA8E830392CDA7F6B3F5C0E9C1" originalValue="µm">µm</normalizedToken>
+.
+</paragraph>
+</caption>
+<paragraph id="C83B7F6CF985360B61CC96DDA6D901AD" pageId="0" pageNumber="1">
+Pygidium broad, rounded, pygidial cirri not observed in any specimens examined (Fig. 
+<figureCitation id="2C863AA2920536FFE0B0E8A150579215" captionStart="Figure 5" captionStartId="F5" captionText="Figure 5. Prosphaerosyllis modinouae sp. nov. (paratype, NHM. 2018.24386) a complete specimen in dorsal view b detail of anterior end in dorsal view c detail of prostomium and palps in dorsal view d detail of eyes e anterior dorsal cirrus f posterior dorsal cirrus g posterior parapodium (arrow marking acicula) h detail of acicula. Scale bars: 1000 µm (a); 100 µm (b, c); 25 µm (e, f); 50 µm (g)." figureDoi="10.3897/zookeys.938.49349.figure5" httpUri="https://binary.pensoft.net/fig/417683" pageId="0" pageNumber="1">5a</figureCitation>
+).
+</paragraph>
+</subSubSection>
+<subSubSection id="2343C5BE100CEE7E9A37E3D325832C8D" pageId="0" pageNumber="1" type="remarks">
+<paragraph id="E14EBF4082BA6368B553A2F096BE23FA" pageId="0" pageNumber="1">Remarks.</paragraph>
+<paragraph id="C8F8340C923613DC04533D301D62F8F5" pageId="0" pageNumber="1">
+Falkland Island specimens were assigned to genus 
+<taxonomicName id="863C0C624B86DF66517CF86E797EF1CF" authorityName="San Martin" authorityYear="1984" class="Polychaeta" family="Syllidae" genus="Prosphaerosyllis" higherTaxonomySource="CoL" kingdom="Animalia" lsidName="Prosphaerosyllis" order="Phyllodocida" pageId="0" pageNumber="1" phylum="Annelida" rank="genus">
+<emphasis id="DDB55D55E35661C01991C59DF19A526C" italics="true" pageId="0" pageNumber="1">Prosphaerosyllis</emphasis>
+</taxonomicName>
+San 
+<normalizedToken id="5259767E3E96585A4BF3BDE0B4A70A41" originalValue="Martín">Martin</normalizedToken>
+, 1984 based on morphological characters only as no reproductive specimens were observed. 
+<bibRefCitation id="2847FAE4EBB642320BF67AC6E3964F91" DOI="https://doi.org/10.3853/j.0067-1975.57.2005.1438" author="San Martin, G" journalOrPublisher="Records of the Australian Museum" pageId="0" pageNumber="1" pagination="39 - 152" refId="B53" refString="San Martin, G, 2005. Exogoninae (Polychaeta: Syllidae) from Australia with the description of a new genus and twenty-two new species. Records of the Australian Museum 57 (1): 39 - 152, DOI: https://doi.org/10.3853/j.0067-1975.57.2005.1438" title="Exogoninae (Polychaeta: Syllidae) from Australia with the description of a new genus and twenty-two new species." url="https://doi.org/10.3853/j.0067-1975.57.2005.1438" volume="57" year="2005">
+San 
+<normalizedToken id="C1E0B130B6BE555C821C0FCEE375082A" originalValue="Martín">Martin</normalizedToken>
+(2005)
+</bibRefCitation>
+emended the generic diagnosis and further distinguished 
+<taxonomicName id="75F451883F8B04391EE43C476D8B7E6B" authorityName="San Martin" authorityYear="1984" class="Polychaeta" family="Syllidae" genus="Prosphaerosyllis" higherTaxonomySource="CoL" kingdom="Animalia" lsidName="Prosphaerosyllis" order="Phyllodocida" pageId="0" pageNumber="1" phylum="Annelida" rank="genus">
+<emphasis id="9E3813EC075A94DCC598876C5AD8083F" italics="true" pageId="0" pageNumber="1">Prosphaerosyllis</emphasis>
+</taxonomicName>
+from the similar genus 
+<taxonomicName id="25680FD81AA5EF6F983B611B6720829F" class="Polychaeta" family="Syllidae" genus="Sphaerosyllis" higherTaxonomySource="CoL" kingdom="Animalia" lsidName="Sphaerosyllis" order="Phyllodocida" pageId="0" pageNumber="1" phylum="Annelida" rank="genus">
+<emphasis id="5430FA328368F3CD97AD128EACD3C827" italics="true" pageId="0" pageNumber="1">Sphaerosyllis</emphasis>
+</taxonomicName>
+, however here we provide a comparison for species in both genera with the type locality inthe southern waters because not all species have been revised. 
+<taxonomicName id="BD10B19FA6D3ACB7FDC384EC7DBD0497" authorityName="Gravier" authorityYear="1906" class="Polychaeta" family="Syllidae" genus="Sphaerosyllis" higherTaxonomySource="CoL" kingdom="Animalia" lsidName="Sphaerosyllis antarctica" order="Phyllodocida" pageId="0" pageNumber="1" phylum="Annelida" rank="species" species="antarctica">
+<emphasis id="421D970FE9B9E70B99B2429A43A36569" italics="true" pageId="0" pageNumber="1">Sphaerosyllis antarctica</emphasis>
+</taxonomicName>
+, 
+<taxonomicName id="CA5B7CD76B32D76F0AB2E1F74AF303C4" genus="S." lsidName="S. hirsuta" pageId="0" pageNumber="1" rank="species" species="hirsuta">
+<emphasis id="698742DB082569BDB6BFD68C6347B91A" italics="true" pageId="0" pageNumber="1">S. hirsuta</emphasis>
+</taxonomicName>
+, 
+<taxonomicName id="58626B24D6063712590A40B1D8BC4C5E" genus="S." lsidName="S. sublaevis" pageId="0" pageNumber="1" rank="species" species="sublaevis">
+<emphasis id="AF20654BC6F4198AA7454D81CF2C566C" italics="true" pageId="0" pageNumber="1">S. sublaevis</emphasis>
+</taxonomicName>
+, 
+<taxonomicName id="3F0EEC07B6A9B68642515B3F5BBE44AD" genus="S." lsidName="S. capensis" pageId="0" pageNumber="1" rank="species" species="capensis">
+<emphasis id="08FD2A6D8CA6DED4E148519A04EF0201" italics="true" pageId="0" pageNumber="1">S. capensis</emphasis>
+</taxonomicName>
+, 
+<taxonomicName id="61A9D0D7B0DF14A0E8E4D0295AAB3759" genus="S." lsidName="S. dubiosa" pageId="0" pageNumber="1" rank="species" species="dubiosa">
+<emphasis id="C8C724C5A5E7AB2C8FD4AE938EBBC071" italics="true" pageId="0" pageNumber="1">S. dubiosa</emphasis>
+</taxonomicName>
+, 
+<taxonomicName id="C79C2352F869ED56DADD888E50F98539" genus="S." lsidName="S. lateropapillata subsp. uteae" pageId="0" pageNumber="1" rank="subSpecies" species="lateropapillata" subSpecies="uteae">
+<emphasis id="A63D92A5A8E86F3B83A252B909B400D4" italics="true" pageId="0" pageNumber="1">S. lateropapillata uteae</emphasis>
+</taxonomicName>
+and 
+<taxonomicName id="44B4E40B9E1CBF702CDCA5A6F065EC89" baseAuthorityName="McIntosh" baseAuthorityYear="1885" class="Polychaeta" family="Syllidae" genus="Prosphaerosyllis" higherTaxonomySource="CoL" kingdom="Animalia" lsidName="Prosphaerosyllis kerguelensis" order="Phyllodocida" pageId="0" pageNumber="1" phylum="Annelida" rank="species" species="kerguelensis">
+<emphasis id="3E3051413D969FE0CDEFC361928E8416" italics="true" pageId="0" pageNumber="1">Prosphaerosyllis kerguelensis</emphasis>
+</taxonomicName>
+(holotype BMNH.85.12.1.155 examined as part of this study) can be easily distinguished from the Falkland Island species due to absence of dorsal cirrus on chaetiger 2. Of species with a dorsal cirrus on chaetiger 2 present (
+<taxonomicName id="3723E6B6EADB803AE5AB848DA8115600" genus="S." lsidName="S. semiveruccosa" pageId="0" pageNumber="1" rank="species" species="semiveruccosa">
+<emphasis id="03552D084AD791E9F44C45A2F0788A7A" italics="true" pageId="0" pageNumber="1">S. semiveruccosa</emphasis>
+</taxonomicName>
+, 
+<taxonomicName id="30F40128501166FD7C3823DDBD362BA0" genus="P." lsidName="P. joinvillensis" pageId="0" pageNumber="1" rank="species" species="joinvillensis">
+<emphasis id="F95F434AD34E4FB56A872F999E98A877" italics="true" pageId="0" pageNumber="1">P. joinvillensis</emphasis>
+</taxonomicName>
+, 
+<taxonomicName id="11A9851A06911E14BBDC5E9F99F9FDC2" genus="P." lsidName="P. capensis subsp. chilensis" pageId="0" pageNumber="1" rank="subSpecies" species="capensis" subSpecies="chilensis">
+<emphasis id="E3CA057BF262094B3E75F70EDA598D76" italics="true" pageId="0" pageNumber="1">P. capensis chilensis</emphasis>
+</taxonomicName>
+, 
+<taxonomicName id="5226965E73890E9FDB85A6318F4C4ACF" genus="S." lsidName="S. brandhorsti" pageId="0" pageNumber="1" rank="species" species="brandhorsti">
+<emphasis id="7587F8DFCAD481E04BF0192D94D3E197" italics="true" pageId="0" pageNumber="1">S. brandhorsti</emphasis>
+</taxonomicName>
+and 
+<taxonomicName id="020A84D3C493F046C933FC21607185FE" genus="P." lsidName="P. brachycephala" pageId="0" pageNumber="1" rank="species" species="brachycephala">
+<emphasis id="DA98A5431EC7532AE2F892AD3D7CA031" italics="true" pageId="0" pageNumber="1">P. brachycephala</emphasis>
+</taxonomicName>
+) the new species can be easily distinguished by having small antennae and short palps (often with only their lateral margins observable in dorsal view, otherwise mostly obscured by prostomium).
+</paragraph>
+<paragraph id="6EAB1861DC9D6690B2BCFB8B0ADE3290" pageId="0" pageNumber="1">
+Falkland Islands species is most similar to 
+<taxonomicName id="D0D9C01BFE09BC98CA72458013766708" genus="P." lsidName="P. isabellae" pageId="0" pageNumber="1" rank="species" species="isabellae">
+<emphasis id="2A73611458204CE9264A6A5DD8641099" italics="true" pageId="0" pageNumber="1">P. isabellae</emphasis>
+</taxonomicName>
+De Nogueira, San 
+<normalizedToken id="B7B44EA5D6521B2F5DECA009D8EFCE5C" originalValue="Martín">Martin</normalizedToken>
+&amp; Amaral, 2001 described from intertidal depths in Brazil in having short antennae and a sparse distribution of body papillae. However, other than length of the palps, 
+<taxonomicName id="03ADF98280E71A20BC259CF642AF0151" genus="P." lsidName="P. modinouae" pageId="0" pageNumber="1" rank="species" species="modinouae">
+<emphasis id="8841B7913E4AFEFE1CC537110025B830" italics="true" pageId="0" pageNumber="1">P. modinouae</emphasis>
+</taxonomicName>
+sp. nov. can be further differentiated by having all falcigerousblades serrated (these are smooth from mid-body chaetigers in 
+<taxonomicName id="3B729F1EEB4AD8A86FE34607CFB8B3D3" genus="P." lsidName="P. isabellae" pageId="0" pageNumber="1" rank="species" species="isabellae">
+<emphasis id="2088BB3EA0F2CB82B49BCB8A50EC75E0" italics="true" pageId="0" pageNumber="1">P. isabellae</emphasis>
+</taxonomicName>
+), in lacking iridescent inclusions in the dorsal cirri and in the dorsal cirri becoming elongated throughout the body in 
+<taxonomicName id="166EE8491503EB478C6E01C52FF27EC6" genus="P." lsidName="P. modinouae" pageId="0" pageNumber="1" rank="species" species="modinouae">
+<emphasis id="67D048AC71D3ABA8ED248EF0F161689B" italics="true" pageId="0" pageNumber="1">P. modinouae</emphasis>
+</taxonomicName>
+sp. nov. There also appear to be greater differences in length of falcigerous blades in 
+<taxonomicName id="15151E63F53D612A83CE458A4713C15A" genus="P." lsidName="P. modinouae" pageId="0" pageNumber="1" rank="species" species="modinouae">
+<emphasis id="32597E24899533822F78A5FE73CBBC6E" italics="true" pageId="0" pageNumber="1">P. modinouae</emphasis>
+</taxonomicName>
+sp. nov. (Fig. 
+<figureCitation id="ED5A68BEB7DA95AE99D317BE9542FED3" captionStart="Figure 10" captionStartId="F10" captionText="Figure 10. Prosphaerosyllis modinouae sp. nov. (paratype NHM. 2018.24386) a simple dorsal chaeta from anterior chaetiger b simple dorsal chaeta from posterior chaetiger c simple ventral chaeta from posterior chaetgier d dorsalmost falciger from anterior chaetiger e ventralmost falciger from anterior chaetiger f dorsalmost chaeta from mid body chaetiger g falcigers from posterior chaetiger. Scale bar: 50 µm." figureDoi="10.3897/zookeys.938.49349.figure10" httpUri="https://binary.pensoft.net/fig/417688" pageId="0" pageNumber="1">10d-g</figureCitation>
+) compared to 
+<taxonomicName id="F81CEBC4EB7D1D2E704EA99863474E78" genus="P." lsidName="P. isabellae" pageId="0" pageNumber="1" rank="species" species="isabellae">
+<emphasis id="F98E132BE2CC747728EC7CF71A940D43" italics="true" pageId="0" pageNumber="1">P. isabellae</emphasis>
+</taxonomicName>
+(see 
+<bibRefCitation id="1034CC1B6580563ABE38D0ED26298741" DOI="https://doi.org/10.1080/00222930152667096" author="De Nogueira, JM" journalOrPublisher="Journal of Natural History" pageId="0" pageNumber="1" pagination="1773 - 1794" refId="B19" refString="De Nogueira, JM, San Martin, G, Amaral, AC, 2001. Description of five new species of Exogoninae Rioja, 1925 (Polychaeta: Syllidae) associated with the stony coral Mussismilia hispida (Verrill, 1868) in Sao Paulo State, Brazil. Journal of Natural History 35 (12): 1773 - 1794, DOI: https://doi.org/10.1080/00222930152667096" title="Description of five new species of Exogoninae Rioja, 1925 (Polychaeta: Syllidae) associated with the stony coral Mussismilia hispida (Verrill, 1868) in Sao Paulo State, Brazil." url="https://doi.org/10.1080/00222930152667096" volume="35" year="2001">DeNogueira et al. 2001</bibRefCitation>
+; 
+<bibRefCitation id="8020A1C16978196875F09B4CF026C96A" DOI="https://doi.org/10.1017/S0025315409000095" author="Fukuda, MV" journalOrPublisher="Journal of the Marine Biological Association of the United Kingdom" pageId="0" pageNumber="1" pagination="1443 - 1454" refId="B24" refString="Fukuda, MV, Yunda-Guarin, G, Nogueira, JM, 2009. The genus Prosphaerosyllis (Polychaeta: Syllidae: Exogoninae) in Brazil, with description of a new species. Journal of the Marine Biological Association of the United Kingdom 89 (7): 1443 - 1454, DOI: https://doi.org/10.1017/S0025315409000095" title="The genus Prosphaerosyllis (Polychaeta: Syllidae: Exogoninae) in Brazil, with description of a new species." url="https://doi.org/10.1017/S0025315409000095" volume="89" year="2009">Fukuda et al. 2009</bibRefCitation>
+). We also suggest that Brazilian specimens from bathyal depths assigned to 
+<taxonomicName id="3D0DDD7160E02D119C883260020260F3" genus="P." lsidName="P. isabellae" pageId="0" pageNumber="1" rank="species" species="isabellae">
+<emphasis id="9BF5E92DF8A7EF00EF2672A860E025DA" italics="true" pageId="0" pageNumber="1">P. isabellae</emphasis>
+</taxonomicName>
+by 
+<bibRefCitation id="E4E3B0CAF0E71BD50B2AAF9ABF24EDB1" DOI="https://doi.org/10.1017/S0025315409000095" author="Fukuda, MV" journalOrPublisher="Journal of the Marine Biological Association of the United Kingdom" pageId="0" pageNumber="1" pagination="1443 - 1454" refId="B24" refString="Fukuda, MV, Yunda-Guarin, G, Nogueira, JM, 2009. The genus Prosphaerosyllis (Polychaeta: Syllidae: Exogoninae) in Brazil, with description of a new species. Journal of the Marine Biological Association of the United Kingdom 89 (7): 1443 - 1454, DOI: https://doi.org/10.1017/S0025315409000095" title="The genus Prosphaerosyllis (Polychaeta: Syllidae: Exogoninae) in Brazil, with description of a new species." url="https://doi.org/10.1017/S0025315409000095" volume="89" year="2009">Fukuda et al. (2009)</bibRefCitation>
+may in fact represent a different species, even more closely aligned to 
+<taxonomicName id="CA791A131D730E4D977D7103852295F9" genus="P." lsidName="P. modinouae" pageId="0" pageNumber="1" rank="species" species="modinouae">
+<emphasis id="AA5E67BB0C7F97277F7A256764576F42" italics="true" pageId="0" pageNumber="1">P. modinouae</emphasis>
+</taxonomicName>
+sp. nov. This suggestion is based mainly on much deeper distribution (down to 650 m) reported by 
+<bibRefCitation id="2AE894C0E78297A2A56913E01936ECDE" DOI="https://doi.org/10.1017/S0025315409000095" author="Fukuda, MV" journalOrPublisher="Journal of the Marine Biological Association of the United Kingdom" pageId="0" pageNumber="1" pagination="1443 - 1454" refId="B24" refString="Fukuda, MV, Yunda-Guarin, G, Nogueira, JM, 2009. The genus Prosphaerosyllis (Polychaeta: Syllidae: Exogoninae) in Brazil, with description of a new species. Journal of the Marine Biological Association of the United Kingdom 89 (7): 1443 - 1454, DOI: https://doi.org/10.1017/S0025315409000095" title="The genus Prosphaerosyllis (Polychaeta: Syllidae: Exogoninae) in Brazil, with description of a new species." url="https://doi.org/10.1017/S0025315409000095" volume="89" year="2009">Fukuda et al. (2009)</bibRefCitation>
+compared to 4-7 m depth at the type locality of 
+<taxonomicName id="187510B6EC58040959F4958808D702D8" genus="P." lsidName="P. isabellae" pageId="0" pageNumber="1" rank="species" species="isabellae">
+<emphasis id="045FA8D6A11F9A6DAFA305E7E5096E4F" italics="true" pageId="0" pageNumber="1">P. isabellae</emphasis>
+</taxonomicName>
+, which was also reported to be associated with coral colonies (
+<bibRefCitation id="8D04B8EEF0722375CC9479CDA5EB9805" DOI="https://doi.org/10.1080/00222930152667096" author="De Nogueira, JM" journalOrPublisher="Journal of Natural History" pageId="0" pageNumber="1" pagination="1773 - 1794" refId="B19" refString="De Nogueira, JM, San Martin, G, Amaral, AC, 2001. Description of five new species of Exogoninae Rioja, 1925 (Polychaeta: Syllidae) associated with the stony coral Mussismilia hispida (Verrill, 1868) in Sao Paulo State, Brazil. Journal of Natural History 35 (12): 1773 - 1794, DOI: https://doi.org/10.1080/00222930152667096" title="Description of five new species of Exogoninae Rioja, 1925 (Polychaeta: Syllidae) associated with the stony coral Mussismilia hispida (Verrill, 1868) in Sao Paulo State, Brazil." url="https://doi.org/10.1080/00222930152667096" volume="35" year="2001">De Nogueira et al. 2001</bibRefCitation>
+). However, specimens of 
+<taxonomicName id="8058ECE7529EB2C36AEA46C3F61F54E4" genus="P." lsidName="P. isabellae" pageId="0" pageNumber="1" rank="species" species="isabellae">
+<emphasis id="28FE3A859473ADD06FA17F714696AB73" italics="true" pageId="0" pageNumber="1">P. isabellae</emphasis>
+</taxonomicName>
+were not available for examination as part of this study.
+</paragraph>
+<paragraph id="24332694DE220367E5C7304EE03055C1" pageId="0" pageNumber="1">
+Another similar species is 
+<taxonomicName id="7B3407750C78162DAC4CE6A9B977C3E8" class="Polychaeta" family="Syllidae" genus="Sphaerosyllis" higherTaxonomySource="CoL" kingdom="Animalia" lsidName="Sphaerosyllis palpopapillata" order="Phyllodocida" pageId="0" pageNumber="1" phylum="Annelida" rank="species" species="palpopapillata">
+<emphasis id="2C909021F1A87A3F7BCA60A6002A06EE" italics="true" pageId="0" pageNumber="1">Sphaerosyllis palpopapillata</emphasis>
+</taxonomicName>
+<normalizedToken id="FB641DD273BF858034A49860F8B08AEE" originalValue="Hartmann-Schröder">Hartmann-Schroeder</normalizedToken>
+&amp; Rosenfeldt, 1992 described from the Antarctic Peninsula, 300 m depth. Unfortunately, the description and drawings provided by 
+<bibRefCitation id="786B32973FB44DDF8BEEA2082D391C54" author="Hartmann-Schroeder, G" journalOrPublisher="Mitteilungen aus den Hamburgischen Zoologischen Museum und Institut" pageId="0" pageNumber="1" pagination="85 - 124" refId="B31" refString="Hartmann-Schroeder, G, Rosenfeldt, P, 1992. Die Polychaeten der &quot;Polarstern&quot; -Reise ANT V/1 in die Antarktis 1986. Teil 1: Euphrosinidae bis Iphitimidae. Mitteilungen aus den Hamburgischen Zoologischen Museum und Institut 89: 85 - 124" title="Die Polychaeten der &quot; Polarstern &quot; - Reise ANT V / 1 in die Antarktis 1986. Teil 1: Euphrosinidae bis Iphitimidae." volume="89" year="1992">
+<normalizedToken id="F7D413BA1F9A70A74686F0240576ACFD" originalValue="Hartmann-Schröder">Hartmann-Schroeder</normalizedToken>
+and Rosenfeldt (1992)
+</bibRefCitation>
+are of limited value. Therefore, the holotype (ZMH P-20751) was loaned from Zoologisches Museum Hamburg and photographed here for the first time (Figs 
+<figureCitation id="7198803637FA2A3C040B0FDA0BA1E801" captionStart="Figure 11" captionStartId="F11" captionText="Figure 11. Comparative figure of Sphaerosyllis palpopapillata (holotype, ZMH P- 20751) (a) and Prosphaerosyllis modinouae sp. nov. (b, c). Scale bars: 1 mm." figureDoi="10.3897/zookeys.938.49349.figure11" httpUri="https://binary.pensoft.net/fig/417689" pageId="0" pageNumber="1">11a</figureCitation>
+; 
+<figureCitation id="6DDF11682597E44A84C30585AC2DBC40" captionStart="Figure 12" captionStartId="F12" captionText="Figure 12. Sphaerosyllis palpopapillata (holotype ZMH P- 20751) a anterior end in dorsal view b, c examples of ventral cirri (marked by arrows) d example of lateral body papillae (marked by arrow) e acicula and simple ventral chaeta f falcigers. Scale bars: 1000 µm (a); 20 µm (c, f), 25 µm (d)." figureDoi="10.3897/zookeys.938.49349.figure12" httpUri="https://binary.pensoft.net/fig/417690" pageId="0" pageNumber="1">12a-f</figureCitation>
+). The holotype, which is the only known specimen of this species, was found to be a small anterior fragment, with structures such as the antennae now missing andsome chaetae broken off. As a result, 
+<taxonomicName id="5D62C83752FCFA5D950C153121477D15" genus="S." lsidName="S. palpopapillata" pageId="0" pageNumber="1" rank="species" species="palpopapillata">
+<emphasis id="D9D30D9BD52C250232DD29F66D6F95E4" italics="true" pageId="0" pageNumber="1">S. palpopapillata</emphasis>
+</taxonomicName>
+remains a poorly known species, until new material from the type locality becomes available. The holotype (ZMH P-20751) (Fig. 
+<figureCitation id="EE33E0629C7B47134C8891691FE6DF97" captionStart="Figure 11" captionStartId="F11" captionText="Figure 11. Comparative figure of Sphaerosyllis palpopapillata (holotype, ZMH P- 20751) (a) and Prosphaerosyllis modinouae sp. nov. (b, c). Scale bars: 1 mm." figureDoi="10.3897/zookeys.938.49349.figure11" httpUri="https://binary.pensoft.net/fig/417689" pageId="0" pageNumber="1">11a</figureCitation>
+) is similar to 
+<taxonomicName id="FBB0072A0DC1BA494896FA64EB0FAD23" genus="P." lsidName="P. modinouae" pageId="0" pageNumber="1" rank="species" species="modinouae">
+<emphasis id="CED70D052C4DBF7F1A20DED410B19DB4" italics="true" pageId="0" pageNumber="1">P. modinouae</emphasis>
+</taxonomicName>
+sp. nov. (Fig. 
+<figureCitation id="180E57F659DB4F7D238E24897E26CB3E" captionStart="Figure 11" captionStartId="F11" captionText="Figure 11. Comparative figure of Sphaerosyllis palpopapillata (holotype, ZMH P- 20751) (a) and Prosphaerosyllis modinouae sp. nov. (b, c). Scale bars: 1 mm." figureDoi="10.3897/zookeys.938.49349.figure11" httpUri="https://binary.pensoft.net/fig/417689" pageId="0" pageNumber="1">11b, c</figureCitation>
+) in the form of the palps and also possesses the elongated lateral body papillae (Fig. 
+<figureCitation id="50711A008C9CAA1BD90C5827CE5CAFA6" captionStart="Figure 12" captionStartId="F12" captionText="Figure 12. Sphaerosyllis palpopapillata (holotype ZMH P- 20751) a anterior end in dorsal view b, c examples of ventral cirri (marked by arrows) d example of lateral body papillae (marked by arrow) e acicula and simple ventral chaeta f falcigers. Scale bars: 1000 µm (a); 20 µm (c, f), 25 µm (d)." figureDoi="10.3897/zookeys.938.49349.figure12" httpUri="https://binary.pensoft.net/fig/417690" pageId="0" pageNumber="1">12d</figureCitation>
+), which were not reported by 
+<bibRefCitation id="B2B38C3EE2BA026AD2B9384234171C4B" author="Hartmann-Schroeder, G" journalOrPublisher="Mitteilungen aus den Hamburgischen Zoologischen Museum und Institut" pageId="0" pageNumber="1" pagination="85 - 124" refId="B31" refString="Hartmann-Schroeder, G, Rosenfeldt, P, 1992. Die Polychaeten der &quot;Polarstern&quot; -Reise ANT V/1 in die Antarktis 1986. Teil 1: Euphrosinidae bis Iphitimidae. Mitteilungen aus den Hamburgischen Zoologischen Museum und Institut 89: 85 - 124" title="Die Polychaeten der &quot; Polarstern &quot; - Reise ANT V / 1 in die Antarktis 1986. Teil 1: Euphrosinidae bis Iphitimidae." volume="89" year="1992">
+<normalizedToken id="DC6AA6FA43D414002CE1C43F1A3F316D" originalValue="Hartmann-Schröder">Hartmann-Schroeder</normalizedToken>
+and Rosenfeldt (1992)
+</bibRefCitation>
+, although the rows of dorsal papillae were not confirmed by us. The main differences observed were the form and length of ventral cirri, which are distinctly longer and slender in 
+<taxonomicName id="6336E2C96B12CB6FF446B84AD99C4458" genus="S." lsidName="S. modinouae" pageId="0" pageNumber="1" rank="species" species="modinouae">
+<emphasis id="9BFCCE8B127DF0B9A26350F0669BEAA3" italics="true" pageId="0" pageNumber="1">S. modinouae</emphasis>
+</taxonomicName>
+sp. nov. (Figs 
+<figureCitation id="5CF231172C780325D0245F36D439EB1F" captionStart="Figure 9" captionStartId="F9" captionText="Figure 9. Prosphaerosyllis modinouae sp. nov. (holotype, NHM. 2018.25100) a specimen in partial ventral view b, c examples of ventral cirri (Vc) and elongated lateral body papillae (Lp) d example of parapodium e detail of aciculae. Scale bars: 250 µm (a); 50 µm (c, d); 20 µm (e)." figureDoi="10.3897/zookeys.938.49349.figure9" httpUri="https://binary.pensoft.net/fig/417687" pageId="0" pageNumber="1">9b, c</figureCitation>
+; 
+<figureCitation id="E96706E3B56C3CB6F7E408E9803D9F46" captionStart="Figure 12" captionStartId="F12" captionText="Figure 12. Sphaerosyllis palpopapillata (holotype ZMH P- 20751) a anterior end in dorsal view b, c examples of ventral cirri (marked by arrows) d example of lateral body papillae (marked by arrow) e acicula and simple ventral chaeta f falcigers. Scale bars: 1000 µm (a); 20 µm (c, f), 25 µm (d)." figureDoi="10.3897/zookeys.938.49349.figure12" httpUri="https://binary.pensoft.net/fig/417690" pageId="0" pageNumber="1">12b, c</figureCitation>
+). While both species have unidentate falcigers, their blades in 
+<taxonomicName id="1F90B7CFA268486F498F6120356849A2" genus="S." lsidName="S. palpopapillata" pageId="0" pageNumber="1" rank="species" species="palpopapillata">
+<emphasis id="3A99D89AC85CBC2CC56F574B6528BE68" italics="true" pageId="0" pageNumber="1">S. palpopapillata</emphasis>
+</taxonomicName>
+are shorter (6-7 
+<normalizedToken id="DBDBCA927F993B2402913F4F61FD4165" originalValue="µm">µm</normalizedToken>
+) and similar in size where observed (Fig. 
+<figureCitation id="12379986061045448E8F766B703FDF42" captionStart="Figure 12" captionStartId="F12" captionText="Figure 12. Sphaerosyllis palpopapillata (holotype ZMH P- 20751) a anterior end in dorsal view b, c examples of ventral cirri (marked by arrows) d example of lateral body papillae (marked by arrow) e acicula and simple ventral chaeta f falcigers. Scale bars: 1000 µm (a); 20 µm (c, f), 25 µm (d)." figureDoi="10.3897/zookeys.938.49349.figure12" httpUri="https://binary.pensoft.net/fig/417690" pageId="0" pageNumber="1">12e, f</figureCitation>
+), but in the new species their lengths are more variable (Fig. 
+<figureCitation id="100197801DF11775B8F87F69373B1828" captionStart="Figure 10" captionStartId="F10" captionText="Figure 10. Prosphaerosyllis modinouae sp. nov. (paratype NHM. 2018.24386) a simple dorsal chaeta from anterior chaetiger b simple dorsal chaeta from posterior chaetiger c simple ventral chaeta from posterior chaetgier d dorsalmost falciger from anterior chaetiger e ventralmost falciger from anterior chaetiger f dorsalmost chaeta from mid body chaetiger g falcigers from posterior chaetiger. Scale bar: 50 µm." figureDoi="10.3897/zookeys.938.49349.figure10" httpUri="https://binary.pensoft.net/fig/417688" pageId="0" pageNumber="1">10d-g</figureCitation>
+) as already discussed in comparison with 
+<taxonomicName id="94EB3ECEFD8CF1AD356C32296C778908" genus="P." lsidName="P. isabellae" pageId="0" pageNumber="1" rank="species" species="isabellae">
+<emphasis id="51FA501C43DAAE5C31865118CB2018D4" italics="true" pageId="0" pageNumber="1">P. isabellae</emphasis>
+</taxonomicName>
+. Furthermore, the image provided in the original description (
+<bibRefCitation id="5BD5C0ED89236ABDCC740984C3DB3FAE" author="Hartmann-Schroeder, G" journalOrPublisher="Mitteilungen aus den Hamburgischen Zoologischen Museum und Institut" pageId="0" pageNumber="1" pagination="85 - 124" refId="B31" refString="Hartmann-Schroeder, G, Rosenfeldt, P, 1992. Die Polychaeten der &quot;Polarstern&quot; -Reise ANT V/1 in die Antarktis 1986. Teil 1: Euphrosinidae bis Iphitimidae. Mitteilungen aus den Hamburgischen Zoologischen Museum und Institut 89: 85 - 124" title="Die Polychaeten der &quot; Polarstern &quot; - Reise ANT V / 1 in die Antarktis 1986. Teil 1: Euphrosinidae bis Iphitimidae." volume="89" year="1992">
+<normalizedToken id="34BF90CEE0B68383710E8E3929D1F487" originalValue="Hartmann-Schröder">Hartmann-Schroeder</normalizedToken>
+and Rosenfeldt 1992
+</bibRefCitation>
+: fig. 34) suggests that antennae in 
+<taxonomicName id="FD7FB162BDD958EA003654977724FA95" genus="S." lsidName="S. palpopapillata" pageId="0" pageNumber="1" rank="species" species="palpopapillata">
+<emphasis id="65152D47DDDAEC448F1F32FB5BFDC6DE" italics="true" pageId="0" pageNumber="1">S. palpopapillata</emphasis>
+</taxonomicName>
+are large, not small as in the new species or in 
+<taxonomicName id="C82F42D3BB36104AE95C80C9C29F4AFE" genus="P." lsidName="P. isabellae" pageId="0" pageNumber="1" rank="species" species="isabellae">
+<emphasis id="C4FB970D7D02A7D2C68E050191712B9F" italics="true" pageId="0" pageNumber="1">P. isabellae</emphasis>
+</taxonomicName>
+. Unfortunately, as already mentioned, the antennae have since been lost in the holotype of 
+<taxonomicName id="0272C79D4521E49C029B81FA5EAB33AE" genus="S." lsidName="S. palpopapillata" pageId="0" pageNumber="1" rank="species" species="palpopapillata">
+<emphasis id="23688381AA01EB59D1B1AD734E408546" italics="true" pageId="0" pageNumber="1">S. palpopapillata</emphasis>
+</taxonomicName>
+and this character cannot be verified.
+</paragraph>
+<caption id="B4F319AAFF69AED9B085A710CF11D5CC" doi="10.3897/zookeys.938.49349.figure11" httpUri="https://binary.pensoft.net/fig/417689" pageId="0" pageNumber="1" start="Figure 11" startId="F11">
+<paragraph id="FB1D9FC33BCB7FA010FC1A43B5BDAEA7" pageId="0" pageNumber="1">
+<emphasis id="5F5F1B8F69B5123B3E606B7AF9F3D7E2" bold="true" pageId="0" pageNumber="1">Figure 11.</emphasis>
+Comparative figure of 
+<taxonomicName id="A1D52E900D1D139DCC79F58E740F107E" class="Polychaeta" family="Syllidae" genus="Sphaerosyllis" higherTaxonomySource="CoL" kingdom="Animalia" lsidName="Sphaerosyllis palpopapillata" order="Phyllodocida" pageId="0" pageNumber="1" phylum="Annelida" rank="species" species="palpopapillata">
+<emphasis id="DCF6431CC6BCDA9D993D29F016313D1B" italics="true" pageId="0" pageNumber="1">Sphaerosyllis palpopapillata</emphasis>
+</taxonomicName>
+(holotype, ZMH P-20751) (
+<emphasis id="78D958D68D02961BDCF50221B6E4A971" bold="true" pageId="0" pageNumber="1">a</emphasis>
+) and 
+<taxonomicName id="204CDD8A7D6466A9FB028C6E2FD0761A" authorityName="Neal &amp; Paterson" authorityYear="2020" class="Polychaeta" family="Syllidae" genus="Prosphaerosyllis" higherTaxonomySource="CoL" kingdom="Animalia" lsidName="Prosphaerosyllis modinouae" order="Phyllodocida" pageId="0" pageNumber="1" phylum="Annelida" rank="species" species="modinouae">
+<emphasis id="C042ED1949509DDDE9F3BE1FC6246F78" italics="true" pageId="0" pageNumber="1">Prosphaerosyllis modinouae</emphasis>
+</taxonomicName>
+sp. nov. (
+<emphasis id="F3156CDD8A29BAF35C10A4E362A38739" bold="true" pageId="0" pageNumber="1">b, c</emphasis>
+). Scale bars: 1 mm.
+</paragraph>
+</caption>
+<paragraph id="D12A1AD661FCAEE9A13C0C9B19201EAD" pageId="0" pageNumber="1">The lack of detailed descriptions and reliable drawings/images of the known species from the southern waters, complicate the efforts in describing new species. While we believe that observations provided in this study justify the establishment of a new species from the Falkland Islands material, the known species are clearly in need of revision. However, such an undertaking is beyond the scope of this study.</paragraph>
+</subSubSection>
+<subSubSection id="4782C40B57E0433FDEDB74D94A0D1A47" pageId="0" pageNumber="1" type="etymology">
+<paragraph id="173FFB94F1C670FAC89CE76D8D5D5C0F" pageId="0" pageNumber="1">Etymology.</paragraph>
+<paragraph id="14FD628346AD88DCCA7AAF64C3DFF26C" pageId="0" pageNumber="1">This species is dedicated to Yvett Modinou, a passionate science communicator, who inspired the fourth author (BS) to join the NHM London.</paragraph>
+</subSubSection>
+<subSubSection id="B1D8478BB5E0C2BD2B30BAE8F4172706" pageId="0" pageNumber="1" type="distribution">
+<paragraph id="C5096599BF1BC164DDBADB8751A341A9" pageId="0" pageNumber="1">Distribution.</paragraph>
+<paragraph id="418D93B367EED5B3A37D42EF0EA34EAE" pageId="0" pageNumber="1">This species is only known from its type locality, North Falklands Basin, ca. 450 m depth.</paragraph>
+<caption id="083BF6D3ED9184D6F140A7B1B8100D21" doi="10.3897/zookeys.938.49349.figure12" httpUri="https://binary.pensoft.net/fig/417690" pageId="0" pageNumber="1" start="Figure 12" startId="F12">
+<paragraph id="B1A869B612F07F6BF2FB9F4652C8DFC7" pageId="0" pageNumber="1">
+<emphasis id="9631A7DC219EFE1AAE54BEA4F94BF435" bold="true" pageId="0" pageNumber="1">Figure 12.</emphasis>
+<taxonomicName id="21C8BDFE30ECC5B843A21EBDF2DE141A" class="Polychaeta" family="Syllidae" genus="Sphaerosyllis" higherTaxonomySource="CoL" kingdom="Animalia" lsidName="Sphaerosyllis palpopapillata" order="Phyllodocida" pageId="0" pageNumber="1" phylum="Annelida" rank="species" species="palpopapillata">
+<emphasis id="B88C64C9C7D0DC0BBF6B8D1812EF90D1" italics="true" pageId="0" pageNumber="1">Sphaerosyllis palpopapillata</emphasis>
+</taxonomicName>
+(holotype ZMH P-20751) 
+<emphasis id="E1EC7C65AA42B0B6F84A9FACEF8DA373" bold="true" pageId="0" pageNumber="1">a</emphasis>
+anterior end in dorsal view 
+<emphasis id="D0146896F24E84802DE7B20A6F21B957" bold="true" pageId="0" pageNumber="1">b, c</emphasis>
+examples of ventral cirri (marked by arrows) 
+<emphasis id="240E75ABD92B0BF6B2165C2E3C2CC4F8" bold="true" pageId="0" pageNumber="1">d</emphasis>
+example of lateral body papillae (marked by arrow) 
+<emphasis id="A55A98625D9F582ED248EDC17D72DB12" bold="true" pageId="0" pageNumber="1">e</emphasis>
+acicula and simple ventral chaeta 
+<emphasis id="7908CDF517561EEC9227EDE0C3A8CF7F" bold="true" pageId="0" pageNumber="1">f</emphasis>
+falcigers. Scale bars: 1000 
+<normalizedToken id="6E15005E238846F42E66B303B5EC8033" originalValue="µm">µm</normalizedToken>
+(
+<emphasis id="2746634F6B4AB599B2C7EDF248057A9A" bold="true" pageId="0" pageNumber="1">a</emphasis>
+); 20 
+<normalizedToken id="78440F0172DB872AE2D7C4DB55A53C60" originalValue="µm">µm</normalizedToken>
+(
+<emphasis id="9E6739C1041B81B555ADBBD8DB508CFE" bold="true" pageId="0" pageNumber="1">c, f</emphasis>
+), 25 
+<normalizedToken id="3157065D393A0146DED2518A8F5CADD3" originalValue="µm">µm</normalizedToken>
+(
+<emphasis id="5C94E6380E7A925076E9482CB495F5DF" bold="true" pageId="0" pageNumber="1">d</emphasis>
+).
+</paragraph>
+</caption>
+</subSubSection>
+</treatment>
+</document>
