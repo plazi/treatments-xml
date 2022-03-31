@@ -1,0 +1,879 @@
+<document ID-DOI="http://dx.doi.org/10.3897/BDJ.8.e47157" ID-Pensoft-Pub="1314-2828-8-e47157" ID-Pensoft-UUID="0E84784338D1531C908DFC75AF1E9FC3" ID-ZooBank="1EB383EF49254AC6821DE622BD60C371" LSID="urn:lsid:zoobank.org:act:" ModsDocID="1314-2828-8-e47157" checkinTime="1588165227485" checkinUser="pensoft" docAuthor="Fleming, AJ, Wood, D. Monty, Smith, M. Alex, Dapkey, Tanya, Hallwachs, Winnie &amp; Janzen, Daniel" docDate="2020" docId="09E24D068AB857398B05E319AB805717" docLanguage="en" docName="BiodivDatJour 8: e47157" docOrigin="Biodiversity Data Journal 8" docSource="http://dx.doi.org/10.3897/BDJ.8.e47157" docTitle="Telothyria erythropyga Fleming &amp; Wood 2020, sp. n." docType="treatment" docUuid="FB7BF6A0-003A-4387-AA67-999D78DB99B4" docUuidSource="ZooBank" docVersion="1" id="0E84784338D1531C908DFC75AF1E9FC3" lastPageNumber="47157" masterDocId="0E84784338D1531C908DFC75AF1E9FC3" masterDocTitle="Revision of Telothyria van der Wulp (Diptera: Tachinidae) and twenty-five new species from Area de Conservacion Guanacaste in northwestern Costa Rica with a key to Mesoamerican species" masterLastPageNumber="47157" masterPageNumber="47157" pageId="0" pageNumber="47157" updateTime="1588165227485" updateUser="pensoft">
+<mods:mods id="22295B8FA8D449EA09D8E8628F6D2625" xmlns:mods="http://www.loc.gov/mods/v3">
+<mods:titleInfo id="861E9614A8E96CEA7BB9030927DEEA38">
+<mods:title id="ED4E24547CA5963AF5C3D3D88C9FAC23">Revision of Telothyria van der Wulp (Diptera: Tachinidae) and twenty-five new species from Area de Conservacion Guanacaste in northwestern Costa Rica with a key to Mesoamerican species</mods:title>
+</mods:titleInfo>
+<mods:name id="11F39BCAA8ACF460A0DB3248841E5637" type="personal">
+<mods:role id="9D532E219131AD96AECBBB678D5A4C49">
+<mods:roleTerm id="53112C0222CA5DFC3F3A1FB8CABE0394">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="D03E2AB0D13C27604B155AA85440F5FE">Fleming, AJ</mods:namePart>
+<mods:affiliation id="43390C23D2C3AE325C050E9DE1AEB2D0">Agriculture and Agri-Food Canada, Ottawa, Canada</mods:affiliation>
+<mods:nameIdentifier id="272039561A3AAB1042F47B7BCC24C975" type="orcid">https://orcid.org/0000-0002-0943-8047</mods:nameIdentifier>
+<mods:nameIdentifier id="65B66F2C784E569D414DBA53E9102A5E" type="email">ajfleming604@gmail.com</mods:nameIdentifier>
+</mods:name>
+<mods:name id="72E66ACB285D7482B227ED66564179AB" type="personal">
+<mods:role id="FF2A533E94B4881DBA775F2D6BEC1BAD">
+<mods:roleTerm id="FDC99013ECFAA381BF321F9A6CA4575D">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="640DD64120CBC039CF5E27FE33A3F1EB">Wood, D. Monty</mods:namePart>
+<mods:affiliation id="260CE82A2A0E0A34A6EA5DE55AEF93AB">Agriculture and Agri-Food Canada, Ottawa, Canada</mods:affiliation>
+</mods:name>
+<mods:name id="BCFDA8D835A60CBE21D228232C30F267" type="personal">
+<mods:role id="813360DB4F8004D81E1366C65F4E0216">
+<mods:roleTerm id="D4687BE11ECF7628D64F2C4AEE20A8AD">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="3FD2ACF3A3563F7A011489B5C5BE373C">Smith, M. Alex</mods:namePart>
+<mods:affiliation id="39B35C9222AE4C5A90645D052757CDEF">University of Guelph, Guelph, Canada</mods:affiliation>
+<mods:nameIdentifier id="B1529D114934DD47C00E416BE08A9B2B" type="orcid">https://orcid.org/0000-0002-8650-2575</mods:nameIdentifier>
+</mods:name>
+<mods:name id="3C656B5C1B46CF7BC2F31B1F759AC279" type="personal">
+<mods:role id="75EB6811240A7216CCCC8B82B51A7AFB">
+<mods:roleTerm id="B0F56AFD6ED9BB06C214B4305BD384B5">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="C6A00BFD9AE88C3185189C8B10FEAB73">Dapkey, Tanya</mods:namePart>
+<mods:affiliation id="076672AD345A318F1816D2B7A32504E1">University of Pennsylvania, Philadelphia, United States of America</mods:affiliation>
+</mods:name>
+<mods:name id="9DA790879CB529710B018722C33C32FF" type="personal">
+<mods:role id="1D78404E74DBD6C6BEFBF68D18BD9ABF">
+<mods:roleTerm id="4E3F1847950941DF8F5A725BE7E7BD69">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="B0182D98B8F593EFFCEDD9D13E663744">Hallwachs, Winnie</mods:namePart>
+<mods:affiliation id="4AF9E767D0225B4D285F8C224FF7766B">University of Pennsylvania, Philadelphia, United States of America</mods:affiliation>
+</mods:name>
+<mods:name id="0A6D55CC4AD05ECD3C950B94FEE70FCC" type="personal">
+<mods:role id="5EF7CADDD2929F89B46A2D8C0D67180E">
+<mods:roleTerm id="DC069BA06A9375E25116A8246D2107C6">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="2DF7455AE2F830EBD717EB7C8991F9F5">Janzen, Daniel</mods:namePart>
+<mods:affiliation id="0BBC225EDC215DD95DCC94424FF17A5D">University of Pennsylvania, Philadelphia, United States of America</mods:affiliation>
+</mods:name>
+<mods:typeOfResource id="C4C0E8A94A0E1C46A9F8C01B9DD8CF23">text</mods:typeOfResource>
+<mods:relatedItem id="50BF06E49125486EB94D75E3E8D3953A" type="host">
+<mods:titleInfo id="E1126EC13064F2BC1226746DE98DB68D">
+<mods:title id="CBDD6FD0DB53453CF2869D6F505549F9">Biodiversity Data Journal</mods:title>
+</mods:titleInfo>
+<mods:part id="D8D9C9543AB8180ABF4C77A4F31D7F3B">
+<mods:date id="93A7F413B0D1DD858513C691EF3C9ED3">2020</mods:date>
+<mods:detail id="B89902E0B74DD544C93D3EF6758388C1" type="volume">
+<mods:number id="D283DBA086ABFA155FB722B89E7F3946">8</mods:number>
+</mods:detail>
+<mods:extent id="FFE28CC776231E8659A34301B4F806B7" unit="page">
+<mods:start id="C20391A753D7A0D51DAC9DB0C6F793AB">47157</mods:start>
+<mods:end id="F598EE1867C9EC7A9FAA3E1C69F0BBF7">47157</mods:end>
+</mods:extent>
+</mods:part>
+</mods:relatedItem>
+<mods:location id="31E5E42F66CF6688ACADF01D25DDE128">
+<mods:url id="2F35AE1AA493024BD3FAA4CF8956C774">http://dx.doi.org/10.3897/BDJ.8.e47157</mods:url>
+</mods:location>
+<mods:classification id="7F9FFB87C8AF0E862B8C48EA7F07533B">journal article</mods:classification>
+<mods:identifier id="B86F75313DFC47F9A299537C5209E79D" type="DOI">http://dx.doi.org/10.3897/BDJ.8.e47157</mods:identifier>
+<mods:identifier id="B1536F34849887B2CB500C5F9FEEA172" type="Pensoft-Pub">1314-2828-8-e47157</mods:identifier>
+<mods:identifier id="E7AF155BA527AB7AA356B99E4FA52849" type="ZooBank">1EB383EF49254AC6821DE622BD60C371</mods:identifier>
+<mods:identifier id="61F3C445FA707AB64F5AEC7C6B6E8150" type="Pensoft-UUID">0E84784338D1531C908DFC75AF1E9FC3</mods:identifier>
+</mods:mods>
+<treatment id="09E24D068AB857398B05E319AB805717" LSID="urn:lsid:zoobank.org:act:" httpUri="http://treatment.plazi.org/id/09E24D068AB857398B05E319AB805717" pageId="0" pageNumber="47157">
+<subSubSection id="90874AA1F1214DAAAF820CE8C8ABC5FF" pageId="0" pageNumber="47157" type="nomenclature">
+<paragraph id="27C433529F1BBCAD1C9677C1B7D7090D" pageId="0" pageNumber="47157">
+<taxonomicName id="A7B2A8769866754ADE3234FCB0E9C76C" LSID="09E24D06-8AB8-5739-8B05-E319AB805717" authority="Fleming &amp; Wood" authorityName="Fleming &amp; Wood" authorityYear="2020" class="Insecta" family="Tachinidae" genus="Telothyria" higherTaxonomySource="CoL" kingdom="Animalia" lsidName="Telothyria erythropyga" order="Diptera" pageId="0" pageNumber="47157" phylum="Arthropoda" rank="species" species="erythropyga" status="sp. n.">Telothyria erythropyga Fleming &amp; Wood</taxonomicName>
+<taxonomicNameLabel id="3FF34031B24F8DC14AF5095E62086338" pageId="0" pageNumber="47157">sp. n.</taxonomicNameLabel>
+</paragraph>
+</subSubSection>
+<subSubSection id="72893E886C28E1E810E84B9F4CC25F76" pageId="0" pageNumber="47157" type="materials_examined">
+<paragraph id="ABC5278F2B942B5E37C907BBD56464BB" pageId="0" pageNumber="47157">Materials</paragraph>
+<paragraph id="028D23F78ADD8AD64FE2C90EE1234FDC" pageId="0" pageNumber="47157">
+<materialsCitation id="0073E2B6B67FBDCE70F6912555EE6543" collectingDate="2006-03-21" collectingMethod="Reared from the larva of the Crambidae, Phostria Janzen 03" collectionCode="CNC, Insects" collectorName="D. H. Janzen, W. Hallwachs &amp; Anabelle Cordoba" country="Costa Rica" latitude="10.9163" location="Area de Conservacion Guanacaste" longitude="-85.3787" pageId="0" pageNumber="47157" specimenCode="DHJPAR 0007125" specimenCount="1" typeStatus="Holotype">
+<emphasis id="FFDB0406AF4A8F7A46A4C1862B83385F" bold="true" pageId="0" pageNumber="47157">Type status:</emphasis>
+<typeStatus id="714F557A450C8D2D3C71980418A36833" pageId="0" pageNumber="47157">Holotype</typeStatus>
+. 
+<emphasis id="E788D5708A178D56DF1EFF9B0FF0849B" bold="true" pageId="0" pageNumber="47157">Occurrence:</emphasis>
+occurrenceDetails: http://janzen.sas.upenn.edu; catalogNumber: 
+<specimenCode id="77EA25917839CB16DB2BFD1CFC1496FF" pageId="0" pageNumber="47157">DHJPAR0007125</specimenCode>
+; recordedBy: 
+<collectorName id="337CAD1D3FF8B3F85AAEEC13AF2E988A" pageId="0" pageNumber="47157">D.H. Janzen, W. Hallwachs &amp; Anabelle Cordoba</collectorName>
+; individualID: DHJPAR0007125; individualCount: 
+<specimenCount id="3A8D2D3B4314085BE6D715A8C5AE972F" pageId="0" pageNumber="47157">1</specimenCount>
+; sex: 
+<specimenType id="33A2F28F0BC29A8D5BC4E878511F69FB" pageId="0" pageNumber="47157">M</specimenType>
+; lifeStage: 
+<specimenType id="BC5220BCAA0ACBB3EF983D947B829C90" pageId="0" pageNumber="47157">adult</specimenType>
+; preparations: pinned; otherCatalogNumbers: ASTAV367-06, 06-SRNP-1595; 
+<emphasis id="C12DCDA8C13DE0EDC7D8A435F834A8BF" bold="true" pageId="0" pageNumber="47157">Taxon:</emphasis>
+scientificName: Telothyriaerythropyga; phylum: Arthropoda; class: Insecta; order: Diptera; family: Tachinidae; genus: Telothyria; specificEpithet: erythropyga; scientificNameAuthorship: Fleming &amp; Wood, 2018; 
+<emphasis id="87DFC3A3377D6E5E1A90A2C40394AC9A" bold="true" pageId="0" pageNumber="47157">Location:</emphasis>
+continent: Central America; country: 
+<collectingCountry id="9D0FCABCE9B8610E62CC394BE6D38A85" pageId="0" pageNumber="47157">Costa Rica</collectingCountry>
+; countryCode: CR; stateProvince: Alajuela; county: Sector San Cristobal; locality: 
+<location id="C5CF4AF0FE9CA3B5C251B67471AAC809" LSID="urn:lsid:plazi:treatment:09E24D068AB857398B05E319AB805717:C5CF4AF0FE9CA3B5C251B67471AAC809" country="Costa Rica" latitude="10.9163" longitude="-85.3787" name="Area de Conservacion Guanacaste" pageId="0" pageNumber="47157">Area de Conservacion Guanacaste</location>
+; verbatimLocality: Puente Palma; verbatimElevation: 
+<elevation id="8A86F2007364F5FA44B41D999FD58F77" pageId="0" pageNumber="47157">460</elevation>
+; verbatimLatitude: 10.9163; verbatimLongitude: -85.3787; verbatimCoordinateSystem: Decimal; decimalLatitude: 
+<geoCoordinate id="EFB0C90A457F50B65A35F1A5ACA5EFAD" orientation="latitude" pageId="0" pageNumber="47157" value="10.9163">10.9163</geoCoordinate>
+; decimalLongitude: 
+<geoCoordinate id="76DACF472C731D328AFC35B42AF5D479" orientation="longitude" pageId="0" pageNumber="47157" value="-85.3787">-85.3787</geoCoordinate>
+; 
+<emphasis id="90B5C0802F879884159AD9AC5458396C" bold="true" pageId="0" pageNumber="47157">Identification:</emphasis>
+identifiedBy: 
+<determinerName id="3F35271582FEF781E5F6965CA652C82B" pageId="0" pageNumber="47157">AJ Fleming</determinerName>
+; dateIdentified: 2018; 
+<emphasis id="C4FE3AB0010742D413FE71C210E76A7A" bold="true" pageId="0" pageNumber="47157">Event:</emphasis>
+samplingProtocol: 
+<collectingMethod id="E5A5560642A46E4AE3CBC1806DE8579A" pageId="0" pageNumber="47157">Reared from the larva of the Crambidae, Phostria Janzen03</collectingMethod>
+; verbatimEventDate: 
+<collectingDate id="688AFF30D525E154130886B8B4A8CBBE" pageId="0" pageNumber="47157" value="2006-03-21">21-Mar-2006</collectingDate>
+; 
+<emphasis id="4640978848FD824919D26BCE621BE79E" bold="true" pageId="0" pageNumber="47157">Record Level:</emphasis>
+language: en; institutionCode: 
+<collectionCode id="26D4C915DF0F5904E76881B7D9872D76" pageId="0" pageNumber="47157">CNC</collectionCode>
+; collectionCode: 
+<collectionCode id="9D6CB0EB69C108C48D4717EA1639AFFA" pageId="0" pageNumber="47157">Insects</collectionCode>
+; basisOfRecord: Pinned Specimen
+</materialsCitation>
+<materialsCitation id="DC04970F8F63B4853DA7AF15E2F34F07" collectingDate="2005-07-21" collectingMethod="Reared from the larva of the Crambidae, Phostria Janzen 05" collectionCode="CNC, Insects" collectorName="D. H. Janzen, W. Hallwachs &amp; Jose Perez" country="Costa Rica" latitude="10.9042" location="Area de Conservacion Guanacaste" longitude="-85.2712" pageId="0" pageNumber="47157" specimenCode="DHJPAR 0011560" specimenCount="1" typeStatus="Paratype">
+<emphasis id="7049BDC5FBC15C31FC661424F0074D22" bold="true" pageId="0" pageNumber="47157">Type status:</emphasis>
+<typeStatus id="F8D4735236EC645863D426408D482003" pageId="0" pageNumber="47157">Paratype</typeStatus>
+. 
+<emphasis id="A8461AA3C799C556E8F2A7D381519DC1" bold="true" pageId="0" pageNumber="47157">Occurrence:</emphasis>
+occurrenceDetails: http://janzen.sas.upenn.edu; catalogNumber: 
+<specimenCode id="DA0E5057FF9352151D18BFBB73C48F65" pageId="0" pageNumber="47157">DHJPAR0011560</specimenCode>
+; recordedBy: 
+<collectorName id="F2CFAB1C512CA1D385147D36A47F40E9" pageId="0" pageNumber="47157">D.H. Janzen, W. Hallwachs &amp; Jose Perez</collectorName>
+; individualID: DHJPAR0011560; individualCount: 
+<specimenCount id="44B4D77354A26B92C02CC63035F9DDFB" pageId="0" pageNumber="47157">1</specimenCount>
+; sex: 
+<specimenType id="B62AF82BB4E48D28E3A794F9252A49FB" pageId="0" pageNumber="47157">M</specimenType>
+; lifeStage: 
+<specimenType id="77CA463E133E8B0521B64F9825C9A90F" pageId="0" pageNumber="47157">adult</specimenType>
+; preparations: pinned; otherCatalogNumbers: ASTAQ947-06, 05-SRNP-41630; 
+<emphasis id="2C70E3E091B3112E0CE7503AFDB8FF49" bold="true" pageId="0" pageNumber="47157">Taxon:</emphasis>
+scientificName: Telothyriaerythropyga; phylum: Arthropoda; class: Insecta; order: Diptera; family: Tachinidae; genus: Telothyria; specificEpithet: erythropyga; scientificNameAuthorship: Fleming &amp; Wood, 2018; 
+<emphasis id="84C2B7D21C32E10E0B846B6FA6E32237" bold="true" pageId="0" pageNumber="47157">Location:</emphasis>
+continent: Central America; country: 
+<collectingCountry id="75ADEF6BB8DAA2FFD87C5E3572FDB85D" pageId="0" pageNumber="47157">Costa Rica</collectingCountry>
+; countryCode: CR; stateProvince: Alajuela; county: Sector Rincon Rain Forest; locality: 
+<location id="DF9176D81FF545C441B59309A8C52964" LSID="urn:lsid:plazi:treatment:09E24D068AB857398B05E319AB805717:DF9176D81FF545C441B59309A8C52964" country="Costa Rica" latitude="10.9042" longitude="-85.2712" name="Area de Conservacion Guanacaste" pageId="0" pageNumber="47157">Area de Conservacion Guanacaste</location>
+; verbatimLocality: Sendero Tucan; verbatimElevation: 
+<elevation id="B22850779C72F156ADF69A7996DD3108" pageId="0" pageNumber="47157">410</elevation>
+; verbatimLatitude: 10.9042; verbatimLongitude: -85.2712; verbatimCoordinateSystem: Decimal; decimalLatitude: 
+<geoCoordinate id="57643570BDF315AA56BB08F0E4413E1C" orientation="latitude" pageId="0" pageNumber="47157" value="10.9042">10.9042</geoCoordinate>
+; decimalLongitude: 
+<geoCoordinate id="75C752D5B5BEC9658CA128B4FAF5E612" orientation="longitude" pageId="0" pageNumber="47157" value="-85.2712">-85.2712</geoCoordinate>
+; 
+<emphasis id="E8F947EB50257F9DCF481458C5857CF1" bold="true" pageId="0" pageNumber="47157">Identification:</emphasis>
+identifiedBy: 
+<determinerName id="259BC3805C3A1719FBC65B109C4750AA" pageId="0" pageNumber="47157">AJ Fleming</determinerName>
+; dateIdentified: 2018; 
+<emphasis id="1B9D3F52FBDD68B5571D45AD2BAB1E24" bold="true" pageId="0" pageNumber="47157">Event:</emphasis>
+samplingProtocol: 
+<collectingMethod id="109361F6C675C5D6C446302E50E61585" pageId="0" pageNumber="47157">Reared from the larva of the Crambidae, Phostria Janzen05</collectingMethod>
+; verbatimEventDate: 
+<collectingDate id="D9D180CDE0E84B1A07BD312F66CA2A7F" pageId="0" pageNumber="47157" value="2005-07-21">21-Jul-2005</collectingDate>
+; 
+<emphasis id="544E94E32DA886A894A975A440AC7CB3" bold="true" pageId="0" pageNumber="47157">Record Level:</emphasis>
+language: en; institutionCode: 
+<collectionCode id="F68CB6D57FE0B4D102064CA21D8C5B68" pageId="0" pageNumber="47157">CNC</collectionCode>
+; collectionCode: 
+<collectionCode id="DF12DF1A4D17C0E6F07BDC2331F5C729" pageId="0" pageNumber="47157">Insects</collectionCode>
+; basisOfRecord: Pinned Specimen
+</materialsCitation>
+<materialsCitation id="D029393DB0D74B74DBA7DD1703455B1B" collectingDate="2005-07-18" collectingMethod="Reared from the larva of the Crambidae, Phostria Janzen 05" collectionCode="CNC, Insects" collectorName="D. H. Janzen, W. Hallwachs &amp; Jose Perez" country="Costa Rica" latitude="10.9042" location="Area de Conservacion Guanacaste" longitude="-85.2712" pageId="0" pageNumber="47157" specimenCode="DHJPAR 0011561" specimenCount="1" typeStatus="Paratype">
+<emphasis id="1FEDD1F1B63332470C238A1FB35336FA" bold="true" pageId="0" pageNumber="47157">Type status:</emphasis>
+<typeStatus id="C1F1C90FC33379E6A18521C58795DA29" pageId="0" pageNumber="47157">Paratype</typeStatus>
+. 
+<emphasis id="35EF79DEB280036F7610FA176B53DF47" bold="true" pageId="0" pageNumber="47157">Occurrence:</emphasis>
+occurrenceDetails: http://janzen.sas.upenn.edu; catalogNumber: 
+<specimenCode id="55513D3B9FDC2CFA6FF828F3E8832F1D" pageId="0" pageNumber="47157">DHJPAR0011561</specimenCode>
+; recordedBy: 
+<collectorName id="AF90827BAC4055F0AE4D316A174290E9" pageId="0" pageNumber="47157">D.H. Janzen, W. Hallwachs &amp; Jose Perez</collectorName>
+; individualID: DHJPAR0011561; individualCount: 
+<specimenCount id="63ACFD2206A64406E1FAFC00502A755C" pageId="0" pageNumber="47157">1</specimenCount>
+; sex: 
+<specimenType id="2B3B8ECE56E290B90D7C9CC501ED78C4" pageId="0" pageNumber="47157">F</specimenType>
+; lifeStage: 
+<specimenType id="99DA65E640049A7AD8290F75E6DE6038" pageId="0" pageNumber="47157">adult</specimenType>
+; preparations: pinned; otherCatalogNumbers: ASTAQ948-06, 05-SRNP-41628; 
+<emphasis id="69F682EE1033F0019C331F24FB7544D2" bold="true" pageId="0" pageNumber="47157">Taxon:</emphasis>
+scientificName: Telothyriaerythropyga; phylum: Arthropoda; class: Insecta; order: Diptera; family: Tachinidae; genus: Telothyria; specificEpithet: erythropyga; scientificNameAuthorship: Fleming &amp; Wood, 2018; 
+<emphasis id="0E41779DDBF8CF5958BE242F02DB3734" bold="true" pageId="0" pageNumber="47157">Location:</emphasis>
+continent: Central America; country: 
+<collectingCountry id="A536BBFD33581DA3BBBB20621B19E4EB" pageId="0" pageNumber="47157">Costa Rica</collectingCountry>
+; countryCode: CR; stateProvince: Alajuela; county: Sector Rincon Rain Forest; locality: 
+<location id="DA9A675057502FB18959069CDE75B080" LSID="urn:lsid:plazi:treatment:09E24D068AB857398B05E319AB805717:DA9A675057502FB18959069CDE75B080" country="Costa Rica" latitude="10.9042" longitude="-85.2712" name="Area de Conservacion Guanacaste" pageId="0" pageNumber="47157">Area de Conservacion Guanacaste</location>
+; verbatimLocality: Sendero Tucan; verbatimElevation: 
+<elevation id="38CF736D5683D6E7C138A862D40D3C30" pageId="0" pageNumber="47157">410</elevation>
+; verbatimLatitude: 10.9042; verbatimLongitude: -85.2712; verbatimCoordinateSystem: Decimal; decimalLatitude: 
+<geoCoordinate id="EA58F2D0C022690603BED9127DD09EA8" orientation="latitude" pageId="0" pageNumber="47157" value="10.9042">10.9042</geoCoordinate>
+; decimalLongitude: 
+<geoCoordinate id="F20DCAA2AC77E4CEE430D3CD264F583B" orientation="longitude" pageId="0" pageNumber="47157" value="-85.2712">-85.2712</geoCoordinate>
+; 
+<emphasis id="6EAF935FB28BE8AC066ED62EAD17A674" bold="true" pageId="0" pageNumber="47157">Identification:</emphasis>
+identifiedBy: 
+<determinerName id="94F53BE702C9EBC421792F61F48402F6" pageId="0" pageNumber="47157">AJ Fleming</determinerName>
+; dateIdentified: 2018; 
+<emphasis id="A944EC2B46B20D1D4224B850403D7202" bold="true" pageId="0" pageNumber="47157">Event:</emphasis>
+samplingProtocol: 
+<collectingMethod id="689D6DB015E3D7CAF38AC6D3C7D7C42D" pageId="0" pageNumber="47157">Reared from the larva of the Crambidae, Phostria Janzen05</collectingMethod>
+; verbatimEventDate: 
+<collectingDate id="FE7E11A1C9158E3A453B332EFD3B160B" pageId="0" pageNumber="47157" value="2005-07-18">18-Jul-2005</collectingDate>
+; 
+<emphasis id="DBB7A53733D4EA1C012FF4498ADCA7D6" bold="true" pageId="0" pageNumber="47157">Record Level:</emphasis>
+language: en; institutionCode: 
+<collectionCode id="807D86935612C185C5F32C6CD9D69E67" pageId="0" pageNumber="47157">CNC</collectionCode>
+; collectionCode: 
+<collectionCode id="9234556D66DBAD3B23A43D63047A5E01" pageId="0" pageNumber="47157">Insects</collectionCode>
+; basisOfRecord: Pinned Specimen
+</materialsCitation>
+<materialsCitation id="63B50C2CB1BB9F514C9EA05B75ECF6BA" collectingDate="2005-08-30" collectingMethod="Reared from the larva of the Crambidae, Phostria Solis 01" collectionCode="CNC, Insects" collectorName="D. H. Janzen, W. Hallwachs &amp; Jose Perez" country="Costa Rica" latitude="10.8962" location="Area de Conservacion Guanacaste" longitude="-85.2777" pageId="0" pageNumber="47157" specimenCode="DHJPAR 0011563" specimenCount="1" typeStatus="Paratype">
+<emphasis id="6D15873AA0BA547E650FCADE1BD3898D" bold="true" pageId="0" pageNumber="47157">Type status:</emphasis>
+<typeStatus id="0E2AA1C0F4E6ADDFFEAE5FBDFB3EA45F" pageId="0" pageNumber="47157">Paratype</typeStatus>
+. 
+<emphasis id="5D5518139FD04C05D86447C82E385283" bold="true" pageId="0" pageNumber="47157">Occurrence:</emphasis>
+occurrenceDetails: http://janzen.sas.upenn.edu; catalogNumber: 
+<specimenCode id="B2515170E88937798BA613A7CBC10681" pageId="0" pageNumber="47157">DHJPAR0011563</specimenCode>
+; recordedBy: 
+<collectorName id="13040BE986EDFE2E6BAC35420016912E" pageId="0" pageNumber="47157">D.H. Janzen, W. Hallwachs &amp; Jose Perez</collectorName>
+; individualID: DHJPAR0011563; individualCount: 
+<specimenCount id="A69CA697285470767CF5346EA7791165" pageId="0" pageNumber="47157">1</specimenCount>
+; sex: 
+<specimenType id="D9796F6460F6137715A6FFE411F626DD" pageId="0" pageNumber="47157">F</specimenType>
+; lifeStage: 
+<specimenType id="EA9DEB196595723A69AFE0B332CCB9F3" pageId="0" pageNumber="47157">adult</specimenType>
+; preparations: pinned; otherCatalogNumbers: ASTAQ950-06, 05-SRNP-41977; 
+<emphasis id="31B187760946B1D1FFDC63A862715968" bold="true" pageId="0" pageNumber="47157">Taxon:</emphasis>
+scientificName: Telothyriaerythropyga; phylum: Arthropoda; class: Insecta; order: Diptera; family: Tachinidae; genus: Telothyria; specificEpithet: erythropyga; scientificNameAuthorship: Fleming &amp; Wood, 2018; 
+<emphasis id="8AD7887E635B3026CF2CC17506638668" bold="true" pageId="0" pageNumber="47157">Location:</emphasis>
+continent: Central America; country: 
+<collectingCountry id="FBCF4B4631D580738E12EB6EE6344659" pageId="0" pageNumber="47157">Costa Rica</collectingCountry>
+; countryCode: CR; stateProvince: Alajuela; county: Sector Rincon Rain Forest; locality: 
+<location id="D43229E484DCCB808F8A6846B18BF942" LSID="urn:lsid:plazi:treatment:09E24D068AB857398B05E319AB805717:D43229E484DCCB808F8A6846B18BF942" country="Costa Rica" latitude="10.8962" longitude="-85.2777" name="Area de Conservacion Guanacaste" pageId="0" pageNumber="47157">Area de Conservacion Guanacaste</location>
+; verbatimLocality: Sendero Rincon; verbatimElevation: 
+<elevation id="40C0656480207513641899153F02C2D5" pageId="0" pageNumber="47157">430</elevation>
+; verbatimLatitude: 10.8962; verbatimLongitude: -85.2777; verbatimCoordinateSystem: Decimal; decimalLatitude: 
+<geoCoordinate id="880E7BC10725EB475718D489581BCB5E" orientation="latitude" pageId="0" pageNumber="47157" value="10.8962">10.8962</geoCoordinate>
+; decimalLongitude: 
+<geoCoordinate id="ED03395DF9DBAF9CCB0803257ABB3D30" orientation="longitude" pageId="0" pageNumber="47157" value="-85.2777">-85.2777</geoCoordinate>
+; 
+<emphasis id="81FEA67C3F09FD07699D0CCAD4DC2A49" bold="true" pageId="0" pageNumber="47157">Identification:</emphasis>
+identifiedBy: 
+<determinerName id="0D92AA9E3A63E95416DE7512E36A753F" pageId="0" pageNumber="47157">AJ Fleming</determinerName>
+; dateIdentified: 2018; 
+<emphasis id="8027E0DF745783959888F92489796FC7" bold="true" pageId="0" pageNumber="47157">Event:</emphasis>
+samplingProtocol: 
+<collectingMethod id="5FF9A1A729F03C7AED7DDF0D29512052" pageId="0" pageNumber="47157">Reared from the larva of the Crambidae, Phostria Solis01</collectingMethod>
+; verbatimEventDate: 
+<collectingDate id="FF42B751334FD8C86304EBC444EF0791" pageId="0" pageNumber="47157" value="2005-08-30">30-Aug-2005</collectingDate>
+; 
+<emphasis id="46848C992F9849529012A26D7000CDEE" bold="true" pageId="0" pageNumber="47157">Record Level:</emphasis>
+language: en; institutionCode: 
+<collectionCode id="5B40E4F02D64071E80EE8477E981783C" pageId="0" pageNumber="47157">CNC</collectionCode>
+; collectionCode: 
+<collectionCode id="719758121706FDA987DE87AB076BA230" pageId="0" pageNumber="47157">Insects</collectionCode>
+; basisOfRecord: Pinned Specimen
+</materialsCitation>
+<materialsCitation id="A596DB750237A05F59B2DC51BB35C463" collectingDate="2005-09-21" collectingMethod="Reared from the larva of the Crambidae, Desmia Janzen 576" collectionCode="CNC, Insects" collectorName="D. H. Janzen, W. Hallwachs &amp; Minor Carmona" country="Costa Rica" latitude="10.8962" location="Area de Conservacion Guanacaste" longitude="-85.2777" pageId="0" pageNumber="47157" specimenCode="DHJPAR 0011564" specimenCount="1" typeStatus="Paratype">
+<emphasis id="CF309D6522FF83D057626AF1DA04BAF0" bold="true" pageId="0" pageNumber="47157">Type status:</emphasis>
+<typeStatus id="E22C56F689E0B62A280826677FD098F7" pageId="0" pageNumber="47157">Paratype</typeStatus>
+. 
+<emphasis id="9181031905AA1E0110F26C3ED8DF5488" bold="true" pageId="0" pageNumber="47157">Occurrence:</emphasis>
+occurrenceDetails: http://janzen.sas.upenn.edu; catalogNumber: 
+<specimenCode id="9BEB9A7379735979CB98329BD957FDCC" pageId="0" pageNumber="47157">DHJPAR0011564</specimenCode>
+; recordedBy: 
+<collectorName id="5DB50CCDB799F344F3A8B01EEECF0363" pageId="0" pageNumber="47157">D.H. Janzen, W. Hallwachs &amp; Minor Carmona</collectorName>
+; individualID: DHJPAR0011564; individualCount: 
+<specimenCount id="01F8323C7AD0462189807F8384147D5A" pageId="0" pageNumber="47157">1</specimenCount>
+; sex: 
+<specimenType id="F3DBD75D669912BF6FBDFDF64395972C" pageId="0" pageNumber="47157">F</specimenType>
+; lifeStage: 
+<specimenType id="FE8A592C10B09F383CC0C8586123F8AA" pageId="0" pageNumber="47157">adult</specimenType>
+; preparations: pinned; otherCatalogNumbers: ASTAQ951-06, 05-SRNP-42282; 
+<emphasis id="E0F07E6EF54232803349C8E4D8057CC1" bold="true" pageId="0" pageNumber="47157">Taxon:</emphasis>
+scientificName: Telothyriaerythropyga; phylum: Arthropoda; class: Insecta; order: Diptera; family: Tachinidae; genus: Telothyria; specificEpithet: erythropyga; scientificNameAuthorship: Fleming &amp; Wood, 2018; 
+<emphasis id="F86C5DB0DFFDE17CB78B3C04767B9C80" bold="true" pageId="0" pageNumber="47157">Location:</emphasis>
+continent: Central America; country: 
+<collectingCountry id="0C10283EC450EEB320617032C43AB3CE" pageId="0" pageNumber="47157">Costa Rica</collectingCountry>
+; countryCode: CR; stateProvince: Alajuela; county: Sector Rincon Rain Forest; locality: 
+<location id="301CA3AE376870A55676CA3F4D82ACB3" LSID="urn:lsid:plazi:treatment:09E24D068AB857398B05E319AB805717:301CA3AE376870A55676CA3F4D82ACB3" country="Costa Rica" latitude="10.8962" longitude="-85.2777" name="Area de Conservacion Guanacaste" pageId="0" pageNumber="47157">Area de Conservacion Guanacaste</location>
+; verbatimLocality: Sendero Rincon; verbatimElevation: 
+<elevation id="2FC7F4D3BEBE8E584D9CC45FA0C8AD27" pageId="0" pageNumber="47157">430</elevation>
+; verbatimLatitude: 10.8962; verbatimLongitude: -85.2777; verbatimCoordinateSystem: Decimal; decimalLatitude: 
+<geoCoordinate id="E9902037EE4764AD069233C259231AC0" orientation="latitude" pageId="0" pageNumber="47157" value="10.8962">10.8962</geoCoordinate>
+; decimalLongitude: 
+<geoCoordinate id="908F4D77E1A0926471FE1DB8E3F3A6CA" orientation="longitude" pageId="0" pageNumber="47157" value="-85.2777">-85.2777</geoCoordinate>
+; 
+<emphasis id="D3A46C11F3B57C113F65CA894C671C84" bold="true" pageId="0" pageNumber="47157">Identification:</emphasis>
+identifiedBy: 
+<determinerName id="8165518EB8CC94545D46918D3BEB5AA0" pageId="0" pageNumber="47157">AJ Fleming</determinerName>
+; dateIdentified: 2018; 
+<emphasis id="5E27CA1226F55802B1CB0F318A92383B" bold="true" pageId="0" pageNumber="47157">Event:</emphasis>
+samplingProtocol: 
+<collectingMethod id="87905DB8893B393E5D9A12EE2F0C14ED" pageId="0" pageNumber="47157">Reared from the larva of the Crambidae, Desmia Janzen576</collectingMethod>
+; verbatimEventDate: 
+<collectingDate id="EF8ABE50521F6788ACB9986319C47AA5" pageId="0" pageNumber="47157" value="2005-09-21">21-Sep-2005</collectingDate>
+; 
+<emphasis id="2E7FEA5222393E50B3A28C0B8B218771" bold="true" pageId="0" pageNumber="47157">Record Level:</emphasis>
+language: en; institutionCode: 
+<collectionCode id="2B39132B6009269C78E3F158C120CC66" pageId="0" pageNumber="47157">CNC</collectionCode>
+; collectionCode: 
+<collectionCode id="DCD43E3E8E4EE3BE75FC3D186CADEE44" pageId="0" pageNumber="47157">Insects</collectionCode>
+; basisOfRecord: Pinned Specimen
+</materialsCitation>
+<materialsCitation id="B9946921267696352C465C6E3B779B98" collectingDate="2005-01-10" collectingMethod="Reared from the larva of the Crambidae, Phostria Janzen 05" collectionCode="CNC, Insects" collectorName="D. H. Janzen, W. Hallwachs &amp; Jose Perez" country="Costa Rica" latitude="10.8962" location="Area de Conservacion Guanacaste" longitude="-85.2777" pageId="0" pageNumber="47157" specimenCode="DHJPAR 0011568" specimenCount="1" typeStatus="Paratype">
+<emphasis id="3B92B30C1CF33B2E851DEDD1E7335B61" bold="true" pageId="0" pageNumber="47157">Type status:</emphasis>
+<typeStatus id="4290AE7C5D8F124BB69BA6D0A7714E91" pageId="0" pageNumber="47157">Paratype</typeStatus>
+. 
+<emphasis id="0069876E7E0B1E947092BE8D978A3DE4" bold="true" pageId="0" pageNumber="47157">Occurrence:</emphasis>
+occurrenceDetails: http://janzen.sas.upenn.edu; catalogNumber: 
+<specimenCode id="8BF11BD29D9AEACC27A57A369E4334DF" pageId="0" pageNumber="47157">DHJPAR0011568</specimenCode>
+; recordedBy: 
+<collectorName id="2C2C7D00E818D47E6E9FA5E6A92D7A03" pageId="0" pageNumber="47157">D.H. Janzen, W. Hallwachs &amp; Jose Perez</collectorName>
+; individualID: DHJPAR0011568; individualCount: 
+<specimenCount id="EC3B925C7BF46483706CD9B799E2EB74" pageId="0" pageNumber="47157">1</specimenCount>
+; sex: 
+<specimenType id="0E6ABE6F823FA6D8C752E7F41796A6B1" pageId="0" pageNumber="47157">F</specimenType>
+; lifeStage: 
+<specimenType id="8332791F205506F92057B6AD93BC690A" pageId="0" pageNumber="47157">adult</specimenType>
+; preparations: pinned; otherCatalogNumbers: ASTAQ955-06, 04-SRNP-42880; 
+<emphasis id="9F27CAE08B09F12653E7141F34964600" bold="true" pageId="0" pageNumber="47157">Taxon:</emphasis>
+scientificName: Telothyriaerythropyga; phylum: Arthropoda; class: Insecta; order: Diptera; family: Tachinidae; genus: Telothyria; specificEpithet: erythropyga; scientificNameAuthorship: Fleming &amp; Wood, 2018; 
+<emphasis id="E91175E6EB535C41DF29CAB104FA27B9" bold="true" pageId="0" pageNumber="47157">Location:</emphasis>
+continent: Central America; country: 
+<collectingCountry id="FFC163C4F4E66B2AF39D567EBCB60D2C" pageId="0" pageNumber="47157">Costa Rica</collectingCountry>
+; countryCode: CR; stateProvince: Alajuela; county: Sector Rincon Rain Forest; locality: 
+<location id="45549F13072A87C4A4E823A5B13C20BE" LSID="urn:lsid:plazi:treatment:09E24D068AB857398B05E319AB805717:45549F13072A87C4A4E823A5B13C20BE" country="Costa Rica" latitude="10.8962" longitude="-85.2777" name="Area de Conservacion Guanacaste" pageId="0" pageNumber="47157">Area de Conservacion Guanacaste</location>
+; verbatimLocality: Sendero Rincon; verbatimElevation: 
+<elevation id="33EFB9E7717DB50C16ED29D6029B9163" pageId="0" pageNumber="47157">430</elevation>
+; verbatimLatitude: 10.8962; verbatimLongitude: -85.2777; verbatimCoordinateSystem: Decimal; decimalLatitude: 
+<geoCoordinate id="FE330347FBC958F4F0A00EDCE4E28F82" orientation="latitude" pageId="0" pageNumber="47157" value="10.8962">10.8962</geoCoordinate>
+; decimalLongitude: 
+<geoCoordinate id="63EC56E724B869E2C220B71FFA6FEE3B" orientation="longitude" pageId="0" pageNumber="47157" value="-85.2777">-85.2777</geoCoordinate>
+; 
+<emphasis id="71BBA3D99F25BEFF7F11504A0FD4B0C0" bold="true" pageId="0" pageNumber="47157">Identification:</emphasis>
+identifiedBy: 
+<determinerName id="38C27FF378953DC3A84B6FA72E483AE0" pageId="0" pageNumber="47157">AJ Fleming</determinerName>
+; dateIdentified: 2018; 
+<emphasis id="698C3F21FAC8C26B423ED2D0E5D1F2F8" bold="true" pageId="0" pageNumber="47157">Event:</emphasis>
+samplingProtocol: 
+<collectingMethod id="23BB0EE3CABEEC383FB5AEC7E49DE2F3" pageId="0" pageNumber="47157">Reared from the larva of the Crambidae, Phostria Janzen05</collectingMethod>
+; verbatimEventDate: 
+<collectingDate id="3A3A879DFFB069AE9ADB3E9B6D3F4CFF" pageId="0" pageNumber="47157" value="2005-01-10">10-Jan-2005</collectingDate>
+; 
+<emphasis id="A1F4FEA0ECE6FC33F097702701B63820" bold="true" pageId="0" pageNumber="47157">Record Level:</emphasis>
+language: en; institutionCode: 
+<collectionCode id="BF55A4E221682DBA14AD2293A581AFD4" pageId="0" pageNumber="47157">CNC</collectionCode>
+; collectionCode: 
+<collectionCode id="CD1627E9B0E49E6DBF47679F6D23D164" pageId="0" pageNumber="47157">Insects</collectionCode>
+; basisOfRecord: Pinned Specimen
+</materialsCitation>
+<materialsCitation id="A5121B653166E37326BD9DE5ADD1C89E" collectingDate="2006-11-25" collectingMethod="Reared from the larva of the Crambidae, Desmia Solis 19" collectionCode="CNC, Insects" collectorName="D. H. Janzen, W. Hallwachs &amp; Jose Perez" country="Costa Rica" latitude="10.9159" location="Area de Conservacion Guanacaste" longitude="-85.2663" pageId="0" pageNumber="47157" specimenCode="DHJPAR 0016623" specimenCount="1" typeStatus="Paratype">
+<emphasis id="CA30EB5FF9972B4212C707A0043B8D0A" bold="true" pageId="0" pageNumber="47157">Type status:</emphasis>
+<typeStatus id="B097781A13B73F29B87BB698959F87E5" pageId="0" pageNumber="47157">Paratype</typeStatus>
+. 
+<emphasis id="E7BAC5F2098B04F878B34340629A4A5F" bold="true" pageId="0" pageNumber="47157">Occurrence:</emphasis>
+occurrenceDetails: http://janzen.sas.upenn.edu; catalogNumber: 
+<specimenCode id="F7F35CE525E056F66CC1CA3E3F6F22FD" pageId="0" pageNumber="47157">DHJPAR0016623</specimenCode>
+; recordedBy: 
+<collectorName id="7BB80C950867E382879718CB09A4B010" pageId="0" pageNumber="47157">D.H. Janzen, W. Hallwachs &amp; Jose Perez</collectorName>
+; individualID: DHJPAR0016623; individualCount: 
+<specimenCount id="3AACCADC710FC91BF3B9C5B5FF4084A0" pageId="0" pageNumber="47157">1</specimenCount>
+; sex: 
+<specimenType id="D3014C54F819CEAE40AA31F1B00A9446" pageId="0" pageNumber="47157">F</specimenType>
+; lifeStage: 
+<specimenType id="CC00C762008B6B4EE4A910FDDD7961C5" pageId="0" pageNumber="47157">adult</specimenType>
+; preparations: pinned; otherCatalogNumbers: ASTAP827-07, 06-SRNP-44079; 
+<emphasis id="C2AB0BB092C84BD491E82688C25CDB72" bold="true" pageId="0" pageNumber="47157">Taxon:</emphasis>
+scientificName: Telothyriaerythropyga; phylum: Arthropoda; class: Insecta; order: Diptera; family: Tachinidae; genus: Telothyria; specificEpithet: erythropyga; scientificNameAuthorship: Fleming &amp; Wood, 2018; 
+<emphasis id="BFC0B914F567A7F9E09E5C20A75267A5" bold="true" pageId="0" pageNumber="47157">Location:</emphasis>
+continent: Central America; country: 
+<collectingCountry id="AC9EEA5CCA8E83EAD9942EDB5D94E2CE" pageId="0" pageNumber="47157">Costa Rica</collectingCountry>
+; countryCode: CR; stateProvince: Alajuela; county: Sector Rincon Rain Forest; locality: 
+<location id="4AD21986307AEE70FF08BA3435C537F2" LSID="urn:lsid:plazi:treatment:09E24D068AB857398B05E319AB805717:4AD21986307AEE70FF08BA3435C537F2" country="Costa Rica" latitude="10.9159" longitude="-85.2663" name="Area de Conservacion Guanacaste" pageId="0" pageNumber="47157">Area de Conservacion Guanacaste</location>
+; verbatimLocality: Conguera; verbatimElevation: 
+<elevation id="08455C43E3ED67198C1F52994CA9CB90" pageId="0" pageNumber="47157">420</elevation>
+; verbatimLatitude: 10.9159; verbatimLongitude: -85.2663; verbatimCoordinateSystem: Decimal; decimalLatitude: 
+<geoCoordinate id="885758DFABA0DB1BC528B7689409284B" orientation="latitude" pageId="0" pageNumber="47157" value="10.9159">10.9159</geoCoordinate>
+; decimalLongitude: 
+<geoCoordinate id="C0657CEA641312BD5D6F6149D2293BD2" orientation="longitude" pageId="0" pageNumber="47157" value="-85.2663">-85.2663</geoCoordinate>
+; 
+<emphasis id="1476103BDB36FC92296F572CEE87F9DA" bold="true" pageId="0" pageNumber="47157">Identification:</emphasis>
+identifiedBy: 
+<determinerName id="F71EB8224BDAFEDA8E8E415E46D56A2F" pageId="0" pageNumber="47157">AJ Fleming</determinerName>
+; dateIdentified: 2018; 
+<emphasis id="2DCADFEBB0E05AB263BE276D735AFE2B" bold="true" pageId="0" pageNumber="47157">Event:</emphasis>
+samplingProtocol: 
+<collectingMethod id="0107450B588FB80F40B662DCD63C8915" pageId="0" pageNumber="47157">Reared from the larva of the Crambidae, Desmia Solis19</collectingMethod>
+; verbatimEventDate: 
+<collectingDate id="4E7396861892249D8B87D5DE8D4E5E39" pageId="0" pageNumber="47157" value="2006-11-25">25-Nov-2006</collectingDate>
+; 
+<emphasis id="A872B077437C2AEFEECF628DE265E6C5" bold="true" pageId="0" pageNumber="47157">Record Level:</emphasis>
+language: en; institutionCode: 
+<collectionCode id="6DCE7DCC08DC2AB644D5F45E226678A9" pageId="0" pageNumber="47157">CNC</collectionCode>
+; collectionCode: 
+<collectionCode id="09D8F3913937C5D46E3E2ACDD7715710" pageId="0" pageNumber="47157">Insects</collectionCode>
+; basisOfRecord: Pinned Specimen
+</materialsCitation>
+<materialsCitation id="5BCAEA617F7B098EFD36D96CBEEA8C3D" collectingDate="2002-01-05" collectingMethod="Reared from the larva of the Crambidae, Phostria Janzen 05" collectionCode="CNC, Insects" collectorName="D. H. Janzen, W. Hallwachs &amp; Jose Perez" country="Costa Rica" latitude="10.8962" location="Area de Conservacion Guanacaste" longitude="-85.2777" pageId="0" pageNumber="47157" specimenCode="DHJPAR 0018614" specimenCount="1" typeStatus="Paratype">
+<emphasis id="9A5FD3E301B5F62C182B1EEB784ABBC2" bold="true" pageId="0" pageNumber="47157">Type status:</emphasis>
+<typeStatus id="E6EF6B58032D2AC8798CC9B0D5EF237C" pageId="0" pageNumber="47157">Paratype</typeStatus>
+. 
+<emphasis id="299089AD9221C62DFC1B1E1DED52C0BE" bold="true" pageId="0" pageNumber="47157">Occurrence:</emphasis>
+occurrenceDetails: http://janzen.sas.upenn.edu; catalogNumber: 
+<specimenCode id="BDF8369483CB00E9B5C0D79C806AF68B" pageId="0" pageNumber="47157">DHJPAR0018614</specimenCode>
+; recordedBy: 
+<collectorName id="EF28E9900172A00A3CFA6B081E1420DA" pageId="0" pageNumber="47157">D.H. Janzen, W. Hallwachs &amp; Jose Perez</collectorName>
+; individualID: DHJPAR0018614; individualCount: 
+<specimenCount id="3E1CAEFFB1A323255756261963C8383C" pageId="0" pageNumber="47157">1</specimenCount>
+; sex: 
+<specimenType id="F60E8E8C18D37B94F981C4D91EFF0861" pageId="0" pageNumber="47157">M</specimenType>
+; lifeStage: 
+<specimenType id="9EF92190251B2E1B33EB7B52A904834F" pageId="0" pageNumber="47157">adult</specimenType>
+; preparations: pinned; otherCatalogNumbers: ASTAI1261-07, 01-SRNP-23343; 
+<emphasis id="7575C152F8BBFB5261053EF9BC206A51" bold="true" pageId="0" pageNumber="47157">Taxon:</emphasis>
+scientificName: Telothyriaerythropyga; phylum: Arthropoda; class: Insecta; order: Diptera; family: Tachinidae; genus: Telothyria; specificEpithet: erythropyga; scientificNameAuthorship: Fleming &amp; Wood, 2018; 
+<emphasis id="2D1F1629EF958E88AC9450892D49DCE9" bold="true" pageId="0" pageNumber="47157">Location:</emphasis>
+continent: Central America; country: 
+<collectingCountry id="E91619EE8BDB3E0AD5A7A44D69E15D4E" pageId="0" pageNumber="47157">Costa Rica</collectingCountry>
+; countryCode: CR; stateProvince: Alajuela; county: Sector Rincon Rain Forest; locality: 
+<location id="8448D1496E969AEBDF1FCC0A550F8140" LSID="urn:lsid:plazi:treatment:09E24D068AB857398B05E319AB805717:8448D1496E969AEBDF1FCC0A550F8140" country="Costa Rica" latitude="10.8962" longitude="-85.2777" name="Area de Conservacion Guanacaste" pageId="0" pageNumber="47157">Area de Conservacion Guanacaste</location>
+; verbatimLocality: Sendero Rincon; verbatimElevation: 
+<elevation id="F99918BEC0C569C53CE8731124CED542" pageId="0" pageNumber="47157">430</elevation>
+; verbatimLatitude: 10.8962; verbatimLongitude: -85.2777; verbatimCoordinateSystem: Decimal; decimalLatitude: 
+<geoCoordinate id="FA26E38D7A36A11CEE3C52262AC26F77" orientation="latitude" pageId="0" pageNumber="47157" value="10.8962">10.8962</geoCoordinate>
+; decimalLongitude: 
+<geoCoordinate id="861933C2C35C353EDFA5BE40095B4EB9" orientation="longitude" pageId="0" pageNumber="47157" value="-85.2777">-85.2777</geoCoordinate>
+; 
+<emphasis id="AAE4E40D47CACCDEE1889A51B1EEE9B0" bold="true" pageId="0" pageNumber="47157">Identification:</emphasis>
+identifiedBy: 
+<determinerName id="5FD21541AF06F4C97A73819AACB240EC" pageId="0" pageNumber="47157">AJ Fleming</determinerName>
+; dateIdentified: 2018; 
+<emphasis id="D840B28999E20C5DDE7B754497E85E55" bold="true" pageId="0" pageNumber="47157">Event:</emphasis>
+samplingProtocol: 
+<collectingMethod id="88F208BE72A1EFB45F5D35317F806B7E" pageId="0" pageNumber="47157">Reared from the larva of the Crambidae, Phostria Janzen05</collectingMethod>
+; verbatimEventDate: 
+<collectingDate id="8C50DE65167957A5BB3AB141AB066F91" pageId="0" pageNumber="47157" value="2002-01-05">05-Jan-2002</collectingDate>
+; 
+<emphasis id="078AD341DF430310CA0FAD93C3C754F8" bold="true" pageId="0" pageNumber="47157">Record Level:</emphasis>
+language: en; institutionCode: 
+<collectionCode id="B0E40F82DC76000B2C52C961C14D0DFC" pageId="0" pageNumber="47157">CNC</collectionCode>
+; collectionCode: 
+<collectionCode id="9DAB73FA1AB1D6F6C758958ADEBD8EE9" pageId="0" pageNumber="47157">Insects</collectionCode>
+; basisOfRecord: Pinned Specimen
+</materialsCitation>
+<materialsCitation id="0C958DE6B16CEC870E514CFAF7B1DB81" collectingDate="2009-09-06" collectingMethod="Reared from the larva of the Crambidae, Phostria Janzen 05" collectionCode="CNC, Insects" collectorName="D. H. Janzen, W. Hallwachs &amp; Anabelle Cordoba" country="Costa Rica" latitude="10.9185" location="Area de Conservacion Guanacaste" longitude="-85.3034" pageId="0" pageNumber="47157" specimenCode="DHJPAR 0034439" specimenCount="1" typeStatus="Paratype">
+<emphasis id="F79B8A30EEA72B42511D0E650F9E94C7" bold="true" pageId="0" pageNumber="47157">Type status:</emphasis>
+<typeStatus id="D66F4539609DE80B8C412C1B72CE4B72" pageId="0" pageNumber="47157">Paratype</typeStatus>
+. 
+<emphasis id="213C5D8BADDD00B87FA743E2D4925A81" bold="true" pageId="0" pageNumber="47157">Occurrence:</emphasis>
+occurrenceDetails: http://janzen.sas.upenn.edu; catalogNumber: 
+<specimenCode id="D145E113244666C6241256190A2D34D3" pageId="0" pageNumber="47157">DHJPAR0034439</specimenCode>
+; recordedBy: 
+<collectorName id="538DC5ACA7D1A3AAF15A00A08691DFBC" pageId="0" pageNumber="47157">D.H. Janzen, W. Hallwachs &amp; Anabelle Cordoba</collectorName>
+; individualID: DHJPAR0034439; individualCount: 
+<specimenCount id="1FA7DF263225675BC9DE57308707CBDB" pageId="0" pageNumber="47157">1</specimenCount>
+; sex: 
+<specimenType id="6B516E1D6456DD06C9CA9031F5445CD3" pageId="0" pageNumber="47157">F</specimenType>
+; lifeStage: 
+<specimenType id="417CB432C4545511AB12E2395F8F379E" pageId="0" pageNumber="47157">adult</specimenType>
+; preparations: pinned; otherCatalogNumbers: ASHYC1091-09, 09-SRNP-41069; 
+<emphasis id="99DD33941FE8CEDFE93F7BB50BF8DE81" bold="true" pageId="0" pageNumber="47157">Taxon:</emphasis>
+scientificName: Telothyriaerythropyga; phylum: Arthropoda; class: Insecta; order: Diptera; family: Tachinidae; genus: Telothyria; specificEpithet: erythropyga; scientificNameAuthorship: Fleming &amp; Wood, 2018; 
+<emphasis id="EC3E60D537500FF35280737417C238FE" bold="true" pageId="0" pageNumber="47157">Location:</emphasis>
+continent: Central America; country: 
+<collectingCountry id="2109978941BF41693D8EEE0FC889653E" pageId="0" pageNumber="47157">Costa Rica</collectingCountry>
+; countryCode: CR; stateProvince: Alajuela; county: Sector Rincon Rain Forest; locality: 
+<location id="AEE1132816607FE62E527966B0B697BF" LSID="urn:lsid:plazi:treatment:09E24D068AB857398B05E319AB805717:AEE1132816607FE62E527966B0B697BF" country="Costa Rica" latitude="10.9185" longitude="-85.3034" name="Area de Conservacion Guanacaste" pageId="0" pageNumber="47157">Area de Conservacion Guanacaste</location>
+; verbatimLocality: San Lucas; verbatimElevation: 
+<elevation id="2B3F8723C4AD656A4D65CCAE0D57DD57" pageId="0" pageNumber="47157">320</elevation>
+; verbatimLatitude: 10.9185; verbatimLongitude: -85.3034; verbatimCoordinateSystem: Decimal; decimalLatitude: 
+<geoCoordinate id="9254B23A2F2657B3B8DEB0CBCF6F4AD4" orientation="latitude" pageId="0" pageNumber="47157" value="10.9185">10.9185</geoCoordinate>
+; decimalLongitude: 
+<geoCoordinate id="10B9F275CBBC51185EF0D1E8173F84B6" orientation="longitude" pageId="0" pageNumber="47157" value="-85.3034">-85.3034</geoCoordinate>
+; 
+<emphasis id="27AC70520585ED03C564A09A843C90E7" bold="true" pageId="0" pageNumber="47157">Identification:</emphasis>
+identifiedBy: 
+<determinerName id="9ADAF10FDB8DBC76DAE735EBA094935D" pageId="0" pageNumber="47157">AJ Fleming</determinerName>
+; dateIdentified: 2018; 
+<emphasis id="B4F6C11240C64A4FB1AE6323DB8F6E0B" bold="true" pageId="0" pageNumber="47157">Event:</emphasis>
+samplingProtocol: 
+<collectingMethod id="16AE70E97184C21CCCFFB33DFA1F3B96" pageId="0" pageNumber="47157">Reared from the larva of the Crambidae, Phostria Janzen05</collectingMethod>
+; verbatimEventDate: 
+<collectingDate id="71A55061EAFDDFC97D8E2939A16743A7" pageId="0" pageNumber="47157" value="2009-09-06">06-Sep-2009</collectingDate>
+; 
+<emphasis id="4790AC9BF1AFA977A2C1F3D9A32456DA" bold="true" pageId="0" pageNumber="47157">Record Level:</emphasis>
+language: en; institutionCode: 
+<collectionCode id="03A7D7379BBA7834094B2473002C7797" pageId="0" pageNumber="47157">CNC</collectionCode>
+; collectionCode: 
+<collectionCode id="8AEFE5EC2477FF7D89BFB3D7296A5465" pageId="0" pageNumber="47157">Insects</collectionCode>
+; basisOfRecord: Pinned Specimen
+</materialsCitation>
+<materialsCitation id="AE23EB30E6F556AEFBE9C585E41E5F78" collectingDate="2009-08-14" collectingMethod="Reared from the larva of the Crambidae, Phostria Janzen 05" collectionCode="CNC, Insects" collectorName="D. H. Janzen, W. Hallwachs &amp; Anabelle Cordoba" country="Costa Rica" latitude="10.9042" location="Area de Conservacion Guanacaste" longitude="-85.2712" pageId="0" pageNumber="47157" specimenCode="DHJPAR 0035742" specimenCount="1" typeStatus="Paratype">
+<emphasis id="BE3D21B7BD0F82D30E3526AD5A423E87" bold="true" pageId="0" pageNumber="47157">Type status:</emphasis>
+<typeStatus id="E2D725FEA947A27612587BAB4C45E537" pageId="0" pageNumber="47157">Paratype</typeStatus>
+. 
+<emphasis id="B7FEE21FA1ADA86ADB086C050D9EEBA1" bold="true" pageId="0" pageNumber="47157">Occurrence:</emphasis>
+occurrenceDetails: http://janzen.sas.upenn.edu; catalogNumber: 
+<specimenCode id="271641A40A60859FD8866220F1DA99C3" pageId="0" pageNumber="47157">DHJPAR0035742</specimenCode>
+; recordedBy: 
+<collectorName id="64FB1C19EE86BD8DBC2C2121141DAFDB" pageId="0" pageNumber="47157">D.H. Janzen, W. Hallwachs &amp; Anabelle Cordoba</collectorName>
+; individualID: DHJPAR0035742; individualCount: 
+<specimenCount id="7D72068F4EC3A3B90D5B88B8EF462B02" pageId="0" pageNumber="47157">1</specimenCount>
+; sex: 
+<specimenType id="DA9BE551EC88EC65446D5BD81129248A" pageId="0" pageNumber="47157">F</specimenType>
+; lifeStage: 
+<specimenType id="C502287FD1C7CD70328EC4804F9471EE" pageId="0" pageNumber="47157">adult</specimenType>
+; preparations: pinned; otherCatalogNumbers: ASHYD1123-09, 09-SRNP-41748; 
+<emphasis id="EF61975474E2A7F0B79A9C274A0DDA51" bold="true" pageId="0" pageNumber="47157">Taxon:</emphasis>
+scientificName: Telothyriaerythropyga; phylum: Arthropoda; class: Insecta; order: Diptera; family: Tachinidae; genus: Telothyria; specificEpithet: erythropyga; scientificNameAuthorship: Fleming &amp; Wood, 2018; 
+<emphasis id="BF566F40C0DF161B09683579AF768DEF" bold="true" pageId="0" pageNumber="47157">Location:</emphasis>
+continent: Central America; country: 
+<collectingCountry id="2A8865207A46446D1A1A8156B3190AED" pageId="0" pageNumber="47157">Costa Rica</collectingCountry>
+; countryCode: CR; stateProvince: Alajuela; county: Sector Rincon Rain Forest; locality: 
+<location id="AE04C840711EB043FD64EE6958BEC265" LSID="urn:lsid:plazi:treatment:09E24D068AB857398B05E319AB805717:AE04C840711EB043FD64EE6958BEC265" country="Costa Rica" latitude="10.9042" longitude="-85.2712" name="Area de Conservacion Guanacaste" pageId="0" pageNumber="47157">Area de Conservacion Guanacaste</location>
+; verbatimLocality: Sendero Tucan; verbatimElevation: 
+<elevation id="1BCA9FF6B0F7C13A86DC4FACC3C39FB8" pageId="0" pageNumber="47157">410</elevation>
+; verbatimLatitude: 10.9042; verbatimLongitude: -85.2712; verbatimCoordinateSystem: Decimal; decimalLatitude: 
+<geoCoordinate id="B8DE1DEF6803361BBDBB6BB8816B0B63" orientation="latitude" pageId="0" pageNumber="47157" value="10.9042">10.9042</geoCoordinate>
+; decimalLongitude: 
+<geoCoordinate id="6C47288F8E9509272CB693BDDAD021E9" orientation="longitude" pageId="0" pageNumber="47157" value="-85.2712">-85.2712</geoCoordinate>
+; 
+<emphasis id="8DD211FA709142F186C9C66B972E9EA4" bold="true" pageId="0" pageNumber="47157">Identification:</emphasis>
+identifiedBy: 
+<determinerName id="3991C99E1AB02E40941D704A3B7D6977" pageId="0" pageNumber="47157">AJ Fleming</determinerName>
+; dateIdentified: 2018; 
+<emphasis id="EB5FF75A55998289DC61D029C07BCDB3" bold="true" pageId="0" pageNumber="47157">Event:</emphasis>
+samplingProtocol: 
+<collectingMethod id="8BDD78A2492266060E4863B5ECB21FBF" pageId="0" pageNumber="47157">Reared from the larva of the Crambidae, Phostria Janzen05</collectingMethod>
+; verbatimEventDate: 
+<collectingDate id="06C0A92F1A5B9B79B5FC855BFC16FE41" pageId="0" pageNumber="47157" value="2009-08-14">14-Aug-2009</collectingDate>
+; 
+<emphasis id="F857BA19D723CB1F6EB5920603356AD8" bold="true" pageId="0" pageNumber="47157">Record Level:</emphasis>
+language: en; institutionCode: 
+<collectionCode id="FEAB1B7CCA5F996C5DD3825E882EADB7" pageId="0" pageNumber="47157">CNC</collectionCode>
+; collectionCode: 
+<collectionCode id="C098A5F7E42D297A7015E08D1FDD5699" pageId="0" pageNumber="47157">Insects</collectionCode>
+; basisOfRecord: Pinned Specimen
+</materialsCitation>
+<materialsCitation id="CBC0C2A93996BC6483DB68C979F1B4F5" collectingDate="2009-11-10" collectingMethod="Reared from the larva of the Crambidae, Desmia Janzen 07" collectionCode="CNC, Insects" collectorName="D. H. Janzen, W. Hallwachs &amp; Pablo Umana Calderon" country="Costa Rica" latitude="10.8962" location="Area de Conservacion Guanacaste" longitude="-85.2777" pageId="0" pageNumber="47157" specimenCode="DHJPAR 0037318" specimenCount="1" typeStatus="Paratype">
+<emphasis id="0044497CBF9E59E46592700B2AD5D058" bold="true" pageId="0" pageNumber="47157">Type status:</emphasis>
+<typeStatus id="5F932EE54DBFD1EB45A061C5AEB0414D" pageId="0" pageNumber="47157">Paratype</typeStatus>
+. 
+<emphasis id="B9CA635EA41CF2161986427994D64A55" bold="true" pageId="0" pageNumber="47157">Occurrence:</emphasis>
+occurrenceDetails: http://janzen.sas.upenn.edu; catalogNumber: 
+<specimenCode id="E3647853AA0D7D342C0A2A7E7F7937A9" pageId="0" pageNumber="47157">DHJPAR0037318</specimenCode>
+; recordedBy: 
+<collectorName id="D348B73D59C14E33FA901960A76C5BE7" pageId="0" pageNumber="47157">D.H. Janzen, W. Hallwachs &amp; Pablo Umana Calderon</collectorName>
+; individualID: DHJPAR0037318; individualCount: 
+<specimenCount id="476C5914D619133A600757A1E044F6EA" pageId="0" pageNumber="47157">1</specimenCount>
+; sex: 
+<specimenType id="54927578F80938BCF809D9C5AD3DF34D" pageId="0" pageNumber="47157">F</specimenType>
+; lifeStage: 
+<specimenType id="93E11219390DEFC99710BCF5D396AE7C" pageId="0" pageNumber="47157">adult</specimenType>
+; preparations: pinned; otherCatalogNumbers: ASHYC4063-10, 09-SRNP-42882; 
+<emphasis id="775F744B4087B5F5AEE302A6FB57EE3D" bold="true" pageId="0" pageNumber="47157">Taxon:</emphasis>
+scientificName: Telothyriaerythropyga; phylum: Arthropoda; class: Insecta; order: Diptera; family: Tachinidae; genus: Telothyria; specificEpithet: erythropyga; scientificNameAuthorship: Fleming &amp; Wood, 2018; 
+<emphasis id="AC8C77D3821C6882789E26035BB5BE1B" bold="true" pageId="0" pageNumber="47157">Location:</emphasis>
+continent: Central America; country: 
+<collectingCountry id="5A9A374B4B58B7C4C7EE0312247E2E24" pageId="0" pageNumber="47157">Costa Rica</collectingCountry>
+; countryCode: CR; stateProvince: Alajuela; county: Sector Rincon Rain Forest; locality: 
+<location id="7810C3B85739C2D07D79CCD45253D3CF" LSID="urn:lsid:plazi:treatment:09E24D068AB857398B05E319AB805717:7810C3B85739C2D07D79CCD45253D3CF" country="Costa Rica" latitude="10.8962" longitude="-85.2777" name="Area de Conservacion Guanacaste" pageId="0" pageNumber="47157">Area de Conservacion Guanacaste</location>
+; verbatimLocality: Sendero Rincon; verbatimElevation: 
+<elevation id="69D2022C7E60BEFDA8767CCFDF7F7D1A" pageId="0" pageNumber="47157">430</elevation>
+; verbatimLatitude: 10.8962; verbatimLongitude: -85.2777; verbatimCoordinateSystem: Decimal; decimalLatitude: 
+<geoCoordinate id="9BCE07906314D1CE89F23BC5CFC8BD18" orientation="latitude" pageId="0" pageNumber="47157" value="10.8962">10.8962</geoCoordinate>
+; decimalLongitude: 
+<geoCoordinate id="C9D873E30848AF2AD652C0946986D88C" orientation="longitude" pageId="0" pageNumber="47157" value="-85.2777">-85.2777</geoCoordinate>
+; 
+<emphasis id="3D705FA21B5A2129C3FC87690ACB2051" bold="true" pageId="0" pageNumber="47157">Identification:</emphasis>
+identifiedBy: 
+<determinerName id="5B786716583F59BBB04C10DB6D7FF697" pageId="0" pageNumber="47157">AJ Fleming</determinerName>
+; dateIdentified: 2018; 
+<emphasis id="7B1740B3D83CD1EF662C0D86D9AF9348" bold="true" pageId="0" pageNumber="47157">Event:</emphasis>
+samplingProtocol: 
+<collectingMethod id="255614E44B8385B75BF87844B9711B16" pageId="0" pageNumber="47157">Reared from the larva of the Crambidae, Desmia Janzen07</collectingMethod>
+; verbatimEventDate: 
+<collectingDate id="8B2A7ED216348E54909A26203E22C405" pageId="0" pageNumber="47157" value="2009-11-10">10-Nov-2009</collectingDate>
+; 
+<emphasis id="35F9B70409AA78DA09E4408E4AE1916C" bold="true" pageId="0" pageNumber="47157">Record Level:</emphasis>
+language: en; institutionCode: 
+<collectionCode id="B4D2E9FFFB13396C58AD739EA479A8CC" pageId="0" pageNumber="47157">CNC</collectionCode>
+; collectionCode: 
+<collectionCode id="4EEC262CC8B24728F13357217B3D5FF6" pageId="0" pageNumber="47157">Insects</collectionCode>
+; basisOfRecord: Pinned Specimen
+</materialsCitation>
+<materialsCitation id="92109DA777543FD998C0BEFEBF72EC4E" collectingDate="2010-06-10" collectingMethod="Reared from the larva of the Crambidae, Desmia Solis 19" collectionCode="CNC, Insects" collectorName="D. H. Janzen, W. Hallwachs &amp; Elda Araya" country="Costa Rica" latitude="10.8647" location="Area de Conservacion Guanacaste" longitude="-85.4153" pageId="0" pageNumber="47157" specimenCode="DHJPAR 0039300" specimenCount="1" typeStatus="Paratype">
+<emphasis id="EA1031D9F1D26DF4A39A2C2F55460A3C" bold="true" pageId="0" pageNumber="47157">Type status:</emphasis>
+<typeStatus id="4C795FE99CABAE6A40B68D1F29860B0D" pageId="0" pageNumber="47157">Paratype</typeStatus>
+. 
+<emphasis id="6A07AE6560107F5B9AC1D9675C7F76CF" bold="true" pageId="0" pageNumber="47157">Occurrence:</emphasis>
+occurrenceDetails: http://janzen.sas.upenn.edu; catalogNumber: 
+<specimenCode id="C59FADBF02E473B3286ADA1E34BCD6F9" pageId="0" pageNumber="47157">DHJPAR0039300</specimenCode>
+; recordedBy: 
+<collectorName id="86CD7671B19EE33720099D3E4FA04DDF" pageId="0" pageNumber="47157">D.H. Janzen, W. Hallwachs &amp; Elda Araya</collectorName>
+; individualID: DHJPAR0039300; individualCount: 
+<specimenCount id="DC1050EE53FC7195A508A7CB91F95640" pageId="0" pageNumber="47157">1</specimenCount>
+; sex: 
+<specimenType id="476BDCA6E4F8F27AEFB2F7C9AF116580" pageId="0" pageNumber="47157">M</specimenType>
+; lifeStage: 
+<specimenType id="3E059CD1588043BA62454C28B8E03249" pageId="0" pageNumber="47157">adult</specimenType>
+; preparations: pinned; otherCatalogNumbers: ASTAV863-10, 10-SRNP-2485; 
+<emphasis id="19D84AC3BAC4F210386CF62E106010AA" bold="true" pageId="0" pageNumber="47157">Taxon:</emphasis>
+scientificName: Telothyriaerythropyga; phylum: Arthropoda; class: Insecta; order: Diptera; family: Tachinidae; genus: Telothyria; specificEpithet: erythropyga; scientificNameAuthorship: Fleming &amp; Wood, 2018; 
+<emphasis id="7AADAEF41D35E00A4083AD0D39292BF4" bold="true" pageId="0" pageNumber="47157">Location:</emphasis>
+continent: Central America; country: 
+<collectingCountry id="D9F40B09957BB221D84779AA87C765E9" pageId="0" pageNumber="47157">Costa Rica</collectingCountry>
+; countryCode: CR; stateProvince: Alajuela; county: Sector San Cristobal; locality: 
+<location id="432050860B00760D38D0D5CC5E8849FD" LSID="urn:lsid:plazi:treatment:09E24D068AB857398B05E319AB805717:432050860B00760D38D0D5CC5E8849FD" country="Costa Rica" latitude="10.8647" longitude="-85.4153" name="Area de Conservacion Guanacaste" pageId="0" pageNumber="47157">Area de Conservacion Guanacaste</location>
+; verbatimLocality: Tajo Angeles; verbatimElevation: 
+<elevation id="D8B078F3CFD5D6D6F8048724B0A9D2BD" pageId="0" pageNumber="47157">540</elevation>
+; verbatimLatitude: 10.8647; verbatimLongitude: -85.4153; verbatimCoordinateSystem: Decimal; decimalLatitude: 
+<geoCoordinate id="0BF6559E0A11324387CF93F8D011B69C" orientation="latitude" pageId="0" pageNumber="47157" value="10.8647">10.8647</geoCoordinate>
+; decimalLongitude: 
+<geoCoordinate id="34551647C2F20F8B65D5EC5B1E1E90B8" orientation="longitude" pageId="0" pageNumber="47157" value="-85.4153">-85.4153</geoCoordinate>
+; 
+<emphasis id="808097540954CA79A080083A1420815B" bold="true" pageId="0" pageNumber="47157">Identification:</emphasis>
+identifiedBy: 
+<determinerName id="12EF4174F552C1735075C7A93C80D148" pageId="0" pageNumber="47157">AJ Fleming</determinerName>
+; dateIdentified: 2018; 
+<emphasis id="78A5E5AC8326F7FFA7F5583B21C7BA17" bold="true" pageId="0" pageNumber="47157">Event:</emphasis>
+samplingProtocol: 
+<collectingMethod id="8FDF8A4F2B8BEABA43AABF50ECF3B534" pageId="0" pageNumber="47157">Reared from the larva of the Crambidae, Desmia Solis19</collectingMethod>
+; verbatimEventDate: 
+<collectingDate id="62688E58D84D44E97ADEEEA068C39A3E" pageId="0" pageNumber="47157" value="2010-06-10">10-Jun-2010</collectingDate>
+; 
+<emphasis id="6D8EE21A53BF430E872AF56B640164D8" bold="true" pageId="0" pageNumber="47157">Record Level:</emphasis>
+language: en; institutionCode: 
+<collectionCode id="5009554E9A37D12D7E08F61FF8EBB13A" pageId="0" pageNumber="47157">CNC</collectionCode>
+; collectionCode: 
+<collectionCode id="DC4323E484E1DEA540E8055E142EDE04" pageId="0" pageNumber="47157">Insects</collectionCode>
+; basisOfRecord: Pinned Specimen
+</materialsCitation>
+<materialsCitation id="1BD3FC2E1D76F4CBBAAFFCA1B230491A" collectingDate="2011-08-28" collectingMethod="Reared from the larva of the Crambidae, Phostria Janzen 05" collectionCode="CNC, Insects" collectorName="D. H. Janzen, W. Hallwachs &amp; Anabelle Cordoba" country="Costa Rica" latitude="10.8967" location="Area de Conservacion Guanacaste" longitude="-85.29" pageId="0" pageNumber="47157" specimenCode="DHJPAR 0045686" specimenCount="1" typeStatus="Paratype">
+<emphasis id="E723B23C8AB2D8B5FBB997F3AD924CA1" bold="true" pageId="0" pageNumber="47157">Type status:</emphasis>
+<typeStatus id="5288B583ED8AE3D507C4EB80A618785E" pageId="0" pageNumber="47157">Paratype</typeStatus>
+. 
+<emphasis id="584E2735B78BCA5D736D5AF37B7A02FB" bold="true" pageId="0" pageNumber="47157">Occurrence:</emphasis>
+occurrenceDetails: http://janzen.sas.upenn.edu; catalogNumber: 
+<specimenCode id="D57420CFFAE2B97C410FC1D113BD960A" pageId="0" pageNumber="47157">DHJPAR0045686</specimenCode>
+; recordedBy: 
+<collectorName id="252553C7F4E61307C7406962A90E66C7" pageId="0" pageNumber="47157">D.H. Janzen, W. Hallwachs &amp; Anabelle Cordoba</collectorName>
+; individualID: DHJPAR0045686; individualCount: 
+<specimenCount id="6522AC729C338F04CD33BDC8A75704E2" pageId="0" pageNumber="47157">1</specimenCount>
+; sex: 
+<specimenType id="B3B00B764BAE373973B4714E35F467E0" pageId="0" pageNumber="47157">M</specimenType>
+; lifeStage: 
+<specimenType id="85B87A65BBFF83B3F39AE22CE6448ADA" pageId="0" pageNumber="47157">adult</specimenType>
+; preparations: pinned; otherCatalogNumbers: ACGAZ875-11, 11-SRNP-43494; 
+<emphasis id="8A2E795D5D50DADEB4CD2429A40055AA" bold="true" pageId="0" pageNumber="47157">Taxon:</emphasis>
+scientificName: Telothyriaerythropyga; phylum: Arthropoda; class: Insecta; order: Diptera; family: Tachinidae; genus: Telothyria; specificEpithet: erythropyga; scientificNameAuthorship: Fleming &amp; Wood, 2018; 
+<emphasis id="6DF324C4CB6EDAB4C34804E5F094A9BF" bold="true" pageId="0" pageNumber="47157">Location:</emphasis>
+continent: Central America; country: 
+<collectingCountry id="39BFFB7C86911C0131B5BEBFA6DF283B" pageId="0" pageNumber="47157">Costa Rica</collectingCountry>
+; countryCode: CR; stateProvince: Alajuela; county: Sector Rincon Rain Forest; locality: 
+<location id="F1CAFF2D536693E88B89D393011BAE0F" LSID="urn:lsid:plazi:treatment:09E24D068AB857398B05E319AB805717:F1CAFF2D536693E88B89D393011BAE0F" country="Costa Rica" latitude="10.8967" longitude="-85.29" name="Area de Conservacion Guanacaste" pageId="0" pageNumber="47157">Area de Conservacion Guanacaste</location>
+; verbatimLocality: Rio Francia Arriba; verbatimElevation: 
+<elevation id="953EC16CA52B52FC12BDB5C15ECF922C" pageId="0" pageNumber="47157">400</elevation>
+; verbatimLatitude: 10.8967; verbatimLongitude: -85.29; verbatimCoordinateSystem: Decimal; decimalLatitude: 
+<geoCoordinate id="99B4B1FB3CE924B5278A7B475509690A" orientation="latitude" pageId="0" pageNumber="47157" value="10.8967">10.8967</geoCoordinate>
+; decimalLongitude: 
+<geoCoordinate id="8535AB56B92B7D18E2C9D3DBE753701E" orientation="longitude" pageId="0" pageNumber="47157" value="-85.29">-85.29</geoCoordinate>
+; 
+<emphasis id="57914C4929B335BF9DD6E0446402CAF2" bold="true" pageId="0" pageNumber="47157">Identification:</emphasis>
+identifiedBy: 
+<determinerName id="09FB264ADB11D6ADDD1C566A42F16AFE" pageId="0" pageNumber="47157">AJ Fleming</determinerName>
+; dateIdentified: 2018; 
+<emphasis id="8A3B29D1761F8A9CD4B092DA91B9D282" bold="true" pageId="0" pageNumber="47157">Event:</emphasis>
+samplingProtocol: 
+<collectingMethod id="3CF402E63FBA69A5888AD5B9ECF1E1ED" pageId="0" pageNumber="47157">Reared from the larva of the Crambidae, Phostria Janzen05</collectingMethod>
+; verbatimEventDate: 
+<collectingDate id="40B6499FBD5078765C5CEE55C217869A" pageId="0" pageNumber="47157" value="2011-08-28">28-Aug-2011</collectingDate>
+; 
+<emphasis id="61F3834E4308957CC10B05E09A1F70EB" bold="true" pageId="0" pageNumber="47157">Record Level:</emphasis>
+language: en; institutionCode: 
+<collectionCode id="EE04F290F89F90A790430EFE78DAEF19" pageId="0" pageNumber="47157">CNC</collectionCode>
+; collectionCode: 
+<collectionCode id="59C71D7EB251D5BA90B79D2BF196A92B" pageId="0" pageNumber="47157">Insects</collectionCode>
+; basisOfRecord: Pinned Specimen
+</materialsCitation>
+<materialsCitation id="FEA3C2B1934B64488FFE8C2F6DC641F5" collectingDate="2013-04-14" collectingMethod="Reared from the larva of the Crambidae, Phostria Janzen 05" collectionCode="CNC, Insects" collectorName="D. H. Janzen, W. Hallwachs &amp; Ricardo Calero" country="Costa Rica" latitude="10.9839" location="Area de Conservacion Guanacaste" longitude="-85.3885" pageId="0" pageNumber="47157" specimenCode="DHJPAR 0051982" specimenCount="1" typeStatus="Paratype">
+<emphasis id="06E1AEE9CF944BD37920ED1A4687D020" bold="true" pageId="0" pageNumber="47157">Type status:</emphasis>
+<typeStatus id="00AA86690B6A85ACD1442381BE4BB97D" pageId="0" pageNumber="47157">Paratype</typeStatus>
+. 
+<emphasis id="75281E75C66CD1860E15FAF99C0BBA40" bold="true" pageId="0" pageNumber="47157">Occurrence:</emphasis>
+occurrenceDetails: http://janzen.sas.upenn.edu; catalogNumber: 
+<specimenCode id="4F89747AF9272CDD4BC2C20625BDC8D5" pageId="0" pageNumber="47157">DHJPAR0051982</specimenCode>
+; recordedBy: 
+<collectorName id="D5EBA9C28BCD98AB02C725007BF91674" pageId="0" pageNumber="47157">D.H. Janzen, W. Hallwachs &amp; Ricardo Calero</collectorName>
+; individualID: DHJPAR0051982; individualCount: 
+<specimenCount id="7471ABD4953A23FF7FCC989CE505A3A4" pageId="0" pageNumber="47157">1</specimenCount>
+; sex: 
+<specimenType id="A0FC5AC861829D770A51A11969B8BF47" pageId="0" pageNumber="47157">M</specimenType>
+; lifeStage: 
+<specimenType id="AC5C104117ADE0B1D8FA285342DE4DF7" pageId="0" pageNumber="47157">adult</specimenType>
+; preparations: pinned; otherCatalogNumbers: ASHYH1094-13, 13-SRNP-70434; 
+<emphasis id="6BE762CE766E70332CA66226FA20E6B9" bold="true" pageId="0" pageNumber="47157">Taxon:</emphasis>
+scientificName: Telothyriaerythropyga; phylum: Arthropoda; class: Insecta; order: Diptera; family: Tachinidae; genus: Telothyria; specificEpithet: erythropyga; scientificNameAuthorship: Fleming &amp; Wood, 2018; 
+<emphasis id="44C1E2E287DDEF5D2DAA73E8CD8FA955" bold="true" pageId="0" pageNumber="47157">Location:</emphasis>
+continent: Central America; country: 
+<collectingCountry id="485857AE5C951B6870E130ECD95531D7" pageId="0" pageNumber="47157">Costa Rica</collectingCountry>
+; countryCode: CR; stateProvince: Guanacaste; county: Sector Pitilla; locality: 
+<location id="BFDCB37DD6C2157F5C60C350C730340C" LSID="urn:lsid:plazi:treatment:09E24D068AB857398B05E319AB805717:BFDCB37DD6C2157F5C60C350C730340C" country="Costa Rica" latitude="10.9839" longitude="-85.3885" name="Area de Conservacion Guanacaste" pageId="0" pageNumber="47157">Area de Conservacion Guanacaste</location>
+; verbatimLocality: Sendero Suspiro; verbatimElevation: 
+<elevation id="BA9B906E4DE62B7DFDFE058647B018FD" pageId="0" pageNumber="47157">439</elevation>
+; verbatimLatitude: 10.9839; verbatimLongitude: -85.3885; verbatimCoordinateSystem: Decimal; decimalLatitude: 
+<geoCoordinate id="F1AD87A15C80CFDA480DA65D656C6FB0" orientation="latitude" pageId="0" pageNumber="47157" value="10.9839">10.9839</geoCoordinate>
+; decimalLongitude: 
+<geoCoordinate id="99461E3378C81CCA12EBEE75D69E21CC" orientation="longitude" pageId="0" pageNumber="47157" value="-85.3885">-85.3885</geoCoordinate>
+; 
+<emphasis id="868F54A4123211AAB43C2370CDD023C9" bold="true" pageId="0" pageNumber="47157">Identification:</emphasis>
+identifiedBy: 
+<determinerName id="67011E82CD6EB524770D123C6E97C7DA" pageId="0" pageNumber="47157">AJ Fleming</determinerName>
+; dateIdentified: 2018; 
+<emphasis id="A475296C210569C4C2203F48F791F1BE" bold="true" pageId="0" pageNumber="47157">Event:</emphasis>
+samplingProtocol: 
+<collectingMethod id="F77F63D504EC0DD0441E9896E7032911" pageId="0" pageNumber="47157">Reared from the larva of the Crambidae, Phostria Janzen05</collectingMethod>
+; verbatimEventDate: 
+<collectingDate id="97CCA50F9F8AF2A80F854ADBDBE5EEEA" pageId="0" pageNumber="47157" value="2013-04-14">14-Apr-2013</collectingDate>
+; 
+<emphasis id="7087B189DB1552FB2A71883CB934CAC0" bold="true" pageId="0" pageNumber="47157">Record Level:</emphasis>
+language: en; institutionCode: 
+<collectionCode id="BD04974C9655B292B8ACA44A9DD439F2" pageId="0" pageNumber="47157">CNC</collectionCode>
+; collectionCode: 
+<collectionCode id="F836081BB4167D95909DE646975B0C6A" pageId="0" pageNumber="47157">Insects</collectionCode>
+; basisOfRecord: Pinned Specimen
+</materialsCitation>
+</paragraph>
+</subSubSection>
+<subSubSection id="17B5E7CEA4E2506DBE01D7E69292C03F" pageId="0" pageNumber="47157" type="description">
+<paragraph id="A152BEBB26D98CB12F88A411F0841D3C" pageId="0" pageNumber="47157">Description</paragraph>
+<paragraph id="4874214FDFB142CE8EBD4E4B5360A8BB" pageId="0" pageNumber="47157">
+<emphasis id="66D36731252F03490BDA28CEAA968941" bold="true" pageId="0" pageNumber="47157">Male.</emphasis>
+Length: 5-9 mm (Fig. 
+<figureCitation id="D23F3D83C0B6DDD2B969F48D41E718B7" captionStartId="F3875247" pageId="0" pageNumber="47157">22</figureCitation>
+). 
+<emphasis id="4780B91DBAB4AF81EDD383929B55B344" bold="true" pageId="0" pageNumber="47157">Head</emphasis>
+(Fig. 
+<figureCitation id="E0948EE24302E4FC03448B7B2825480B" captionStartId="F3875247" pageId="0" pageNumber="47157">22</figureCitation>
+<figureCitation id="D2BB01809B86005AB87F9305896DD06A" captionStartId="F3875253" pageId="0" pageNumber="47157">b</figureCitation>
+): frons narrow, 1/8 of head width; gena 1/9 of head height; four reclinate orbital setae; anteriormost reclinate orbital almost equal to uppermost frontal seta; ocellar setae present but so small as to appear absent; outer vertical seta absent; fronto-orbital plate brassy-gold on uppermost 30%; ocellar triangle with pale gold tomentum on posterior half, with anterior margin concolorous with frontal vitta; fronto-orbital plate with short blonde hairs interspersed among frontal setae; parafacial brilliant silver; facial ridge bare; palpus apically slightly inflated to appear slightly oar-shaped, sparsely haired along outer margin; arista brown, almost bare, distinctly-thickened on basal 1/10, microtrichia at most equally as long as width of arista; postpedicel orange over at most 60% of surface; postocular region behind margin of eye upper half gold, with lower half including gena silver tomentose; upper half of occiput gold tomentose. 
+<emphasis id="FF2EE53D82B48601678D8AF0DCD21969" bold="true" pageId="0" pageNumber="47157">Thorax</emphasis>
+(Fig. 
+<figureCitation id="B76BD3A3FBAF6ED8415AAFA0BE793A7F" captionStartId="F3875247" pageId="0" pageNumber="47157">22</figureCitation>
+<figureCitation id="74624A2D7A2EE187BFB5C646154EABE1" captionStartId="F3875252" pageId="0" pageNumber="47157">a</figureCitation>
+, 
+<figureCitation id="260DF84B6864BF9F894AA58473182DF3" captionStartId="F3875254" pageId="0" pageNumber="47157">c</figureCitation>
+): golden tomentose, with four distinct dorsal stripes; thorax entirely covered in dense plumose blonde hairs; chaetotaxy: 5-6 postpronotal setae, basal setae arranged in a straight line; supra-alar setae 2:3; intra-alar setae 1-2:2; dorsocentral setae 3:3; acrostichal setae 3:3; katepisternum with three setae. Scutellum golden tomentose; two pairs of strong marginal setae (basal and subapical) and a small pair of crossed apical scutellar setae 1/3rd as long as subapical scutellars; basal scutellar setae subequal in length to subapical setae; subapical setae straight; underside of scutellum bearing plumose blonde hairs below basal scutellar setae. 
+<emphasis id="2F1FF252B58F86DF15713EC9CE149A9D" bold="true" pageId="0" pageNumber="47157">Legs</emphasis>
+: foreleg with yellow ground color throughout, tibia and tarsal segments appearing darker due to hair covering; midleg, coxa and proximal half of femur yellow, remainder of femur, tibia and tarsal segments brown; hindleg dark brown extending from distal half of femur to tarsal segments; anterior leg tibia with regular fringe of equally spaced setae along anteroventral surface, and two strong posterodorsal seta. 
+<emphasis id="16E7D8449BF6220078090ADD9DFA4892" bold="true" pageId="0" pageNumber="47157">Wings</emphasis>
+: basicosta ivory white; all veins bare, with only 1-2 setulae at base of R4+5.; calypters pale white translucent with a narrow yellowish fringe. 
+<emphasis id="7995406B156B87A9DFAED153F2AEDFD0" bold="true" pageId="0" pageNumber="47157">Abdomen</emphasis>
+(Fig. 
+<figureCitation id="C564DF43859B717F7AEF3FE4EEFD5DEA" captionStartId="F3875247" pageId="0" pageNumber="47157">22</figureCitation>
+<figureCitation id="E180F739F9D10875AB72ABE82E308FD8" captionStartId="F3875252" pageId="0" pageNumber="47157">a</figureCitation>
+, 
+<figureCitation id="F18A9416FDE71EC9A819A568FF477668" captionStartId="F3875254" pageId="0" pageNumber="47157">c</figureCitation>
+): ground color yellow-orange; ST1+2 brown over medial 30%, with yellow ventrolaterally, extending into a longitudinal middorsal brown stripe up to posterior edge of T3 and T4; T3-T5 with dense gold tomentum along anterior marginal 10%, thinning and extending over remainder of tergite; T5 entirely orange with gold tomentum; median marginal setae present only on T4 and T5; median discal setae absent. 
+<emphasis id="0718F7436E8C7355F195B87A0D34E190" bold="true" pageId="0" pageNumber="47157">Male terminalia</emphasis>
+(Fig. 
+<figureCitation id="B89F632AE11A85204700D6F8FF640E29" captionStartId="F3875247" pageId="0" pageNumber="47157">22</figureCitation>
+<figureCitation id="439D256131ADB15D1A6969AEDA5E38E3" captionStartId="F3875255" pageId="0" pageNumber="47157">d</figureCitation>
+, 
+<figureCitation id="15EA58698826B138DF6BF5966C6AE87D" captionStartId="F3875256" pageId="0" pageNumber="47157">e</figureCitation>
+, 
+<figureCitation id="58925725AD571023F03C96C3DE5F2882" captionStartId="F3875257" pageId="0" pageNumber="47157">f</figureCitation>
+): Sternite 5 with a wide deeply separated median cleft, widely V-shaped, margins tomentose; lateral lobes of sternite subtriangular apically, outer margins covered in strong setae; basal section of sternite 5 subequal in length to apical lobes. Cerci in posterior view sharply pointed rectangular, fused along entire length; medial shoulder weak to undeveloped, entire structure vaguely sword shaped. In lateral view cerci, with a mild downward curve, and several strong widely spaced setae along basal 2/3rds. Surstylus in lateral view rounded at tip, not downwardly curved, overall digitiform in appearance; fused with epandrium; when viewed dorsally surstyli appear straight with a very slight club or swelling apically. Distiphallus 2X as long as basiphallus and tubular, slightly pointed at apex.
+</paragraph>
+<paragraph id="5C9C4565D980DE8D2FC9500795240D20" pageId="0" pageNumber="47157">
+<emphasis id="989762113DD1B82701CA5385EC809FDA" bold="true" pageId="0" pageNumber="47157">Female.</emphasis>
+Length: 5-7 mm (Fig. 
+<figureCitation id="3BDF10DF6AB03029ABEFF5AEF839C426" captionStartId="F3875262" pageId="0" pageNumber="47157">23</figureCitation>
+). 
+<emphasis id="3AE5AAA45CD8D939B584F15964ADBA3B" bold="true" pageId="0" pageNumber="47157">Head</emphasis>
+(Fig. 
+<figureCitation id="1DFF2C9A6BAA69E165350103C45DA59D" captionStartId="F3875262" pageId="0" pageNumber="47157">23</figureCitation>
+<figureCitation id="CA70D03C8B39F1C80EC9965A140DE431" captionStartId="F3875268" pageId="0" pageNumber="47157">b</figureCitation>
+): as in male with the following exceptions: fronto-orbital plate 30% gold; ocellar triangle concolorous with remainder of vertex; parafacial brilliant silver; frons 1/4 of head width; four inner reclinate orbital setae; two proclinate orbital setae; outer vertical seta present; palpus significantly inflated and oar-shaped apically. 
+<emphasis id="F3C56E8854E8AF017D02A69E038611DF" bold="true" pageId="0" pageNumber="47157">Thorax</emphasis>
+(Fig. 
+<figureCitation id="E1AF52CB11AED63265FB178A9D104C11" captionStartId="F3875262" pageId="0" pageNumber="47157">23</figureCitation>
+<figureCitation id="BCEECA4991488B7182AE55C93A23A79A" captionStartId="F3875267" pageId="0" pageNumber="47157">a</figureCitation>
+, 
+<figureCitation id="A4064F5FF1FE5CFF947A031A500BD2C0" captionStartId="F3875269" pageId="0" pageNumber="47157">c</figureCitation>
+): katepisternum with three setae; meron with a brush of plumose setae and 2-3 typical meral setae. Legs: colored as in male. 
+<emphasis id="5EC3A7FB9CB0CC505DD577BB83568C8F" bold="true" pageId="0" pageNumber="47157">Abdomen</emphasis>
+(Fig. 
+<figureCitation id="A5D0B07EA161D50E558307BF9D5AF1A2" captionStartId="F3875262" pageId="0" pageNumber="47157">23</figureCitation>
+<figureCitation id="99DCD5665071ECF7A6029A5373359E01" captionStartId="F3875267" pageId="0" pageNumber="47157">a</figureCitation>
+, 
+<figureCitation id="34176F59652CAAC3DCF4262789FC4ACD" captionStartId="F3875269" pageId="0" pageNumber="47157">c</figureCitation>
+): ground color brown dorsally on ST1+2 and T3 with orange laterally; T4 entirely brown ground color; T5 as in male; marginal setae present on T4, T5 and sometimes on T3.
+</paragraph>
+</subSubSection>
+<subSubSection id="30044E7056761D8288CA1377480DDDD8" pageId="0" pageNumber="47157" type="diagnosis">
+<paragraph id="2CE5C2CF6AB5E118E4F15975CFB9D85F" pageId="0" pageNumber="47157">Diagnosis</paragraph>
+<paragraph id="8B4159F3FC3027BB9F4169FA33ABB17C" pageId="0" pageNumber="47157">
+<taxonomicName id="7701B7DADE49B78753D9111FC5A4C75E" authorityName="Fleming &amp; Wood" authorityYear="2020" class="Insecta" family="Tachinidae" genus="Telothyria" higherTaxonomySource="CoL" kingdom="Animalia" lsidName="Telothyria erythropyga" order="Diptera" pageId="0" pageNumber="47157" phylum="Arthropoda" rank="species" species="erythropyga">
+<emphasis id="D9445946F39043AEB372A3D891D0F016" italics="true" pageId="0" pageNumber="47157">Telothyria erythropyga</emphasis>
+</taxonomicName>
+<emphasis id="77142D58998F4A60A77659EDFADAA9DD" bold="true" pageId="0" pageNumber="47157">sp. n.</emphasis>
+can be distinguished from all other 
+<taxonomicName id="6644C19DFC56F4D1A85F1B9A64BA607A" authorityName="van der Wulp" authorityYear="1890" class="Insecta" family="Tachinidae" genus="Telothyria" higherTaxonomySource="CoL" kingdom="Animalia" lsidName="Telothyria" order="Diptera" pageId="0" pageNumber="47157" phylum="Arthropoda" rank="genus">
+<emphasis id="B2BF7E0051E65479F5F00B8EDCDAB911" italics="true" pageId="0" pageNumber="47157">Telothyria</emphasis>
+</taxonomicName>
+by the following combination of traits: ocellar setae present but so small as to appear absent, parafacial brilliant silver, postpedicel orange over at most 60% of surface, arista plumose microtrichia at most equally as long as width of arista, facial ridge bare, thorax entirely covered in dense plumose blonde hairs, and T5 orange with gold tomentum.
+</paragraph>
+</subSubSection>
+<subSubSection id="53F255B263F21AF288EBC60D59BF6EEC" pageId="0" pageNumber="47157" type="etymology">
+<paragraph id="AE11929A7BD1964DA5599CEE25645478" pageId="0" pageNumber="47157">Etymology</paragraph>
+<paragraph id="05253A56A92BC9CA477D383726652BB4" pageId="0" pageNumber="47157">
+<taxonomicName id="20324E4263BCC75A9D453140636ADEA5" authorityName="Fleming &amp; Wood" authorityYear="2020" class="Insecta" family="Tachinidae" genus="Telothyria" higherTaxonomySource="CoL" kingdom="Animalia" lsidName="Telothyria erythropyga" order="Diptera" pageId="0" pageNumber="47157" phylum="Arthropoda" rank="species" species="erythropyga">
+<emphasis id="AA8B07C6F3D1170ECAB3FF206645F5AE" italics="true" pageId="0" pageNumber="47157">Telothyria erythropyga</emphasis>
+</taxonomicName>
+<emphasis id="B8E609501F9506712D828CB415AD4081" bold="true" pageId="0" pageNumber="47157">sp. n.</emphasis>
+From the Greek adjective &quot; 
+<emphasis id="A6136199F2FC10D60DA820656CFE270C" italics="true" pageId="0" pageNumber="47157">erythros</emphasis>
+&quot; meaning red and the Greek noun &quot; 
+<emphasis id="325BB14C15D972932748130280509527" italics="true" pageId="0" pageNumber="47157">pygo</emphasis>
+&quot; meaning rump or tail, in reference to the apically orange T5.
+</paragraph>
+</subSubSection>
+<subSubSection id="726A3E6DBE8BC1F12FFE7D66A25769AC" pageId="0" pageNumber="47157" type="distribution">
+<paragraph id="A638DC379391888B4A75A761729C016E" pageId="0" pageNumber="47157">Distribution</paragraph>
+<paragraph id="A2C1DAC8CA9C5E580E0289B3CCC6B7CB" pageId="0" pageNumber="47157">Costa Rica, ACG, Alajuela and Guanacaste Provinces, 320-540 m elevation.</paragraph>
+</subSubSection>
+<subSubSection id="88563169EC6FC619528F8811FEB90907" pageId="0" pageNumber="47157" type="ecology">
+<paragraph id="B9A62FA2009F05DC774A16FFE7B351C5" pageId="0" pageNumber="47157">Ecology</paragraph>
+<paragraph id="8E20AA737492216C84C1FE66F6E38621" pageId="0" pageNumber="47157">
+<taxonomicName id="6F712734336980FDE86AEF3AA1E4455E" authorityName="Fleming &amp; Wood" authorityYear="2020" class="Insecta" family="Tachinidae" genus="Telothyria" higherTaxonomySource="CoL" kingdom="Animalia" lsidName="Telothyria erythropyga" order="Diptera" pageId="0" pageNumber="47157" phylum="Arthropoda" rank="species" species="erythropyga">
+<emphasis id="48552C3969382FEE3D374F2A9C284243" italics="true" pageId="0" pageNumber="47157">Telothyria erythropyga</emphasis>
+</taxonomicName>
+<emphasis id="E8D88B874AEB8F2CBE397E155A988692" bold="true" pageId="0" pageNumber="47157">sp. n.</emphasis>
+has been reared 33 times from four species of 
+<taxonomicName id="906BC8974E2AAB5B0E9DEE0C904EFBF9" authorityName="van der Wulp" authorityYear="1890" class="Insecta" family="Tachinidae" genus="Telothyria" higherTaxonomySource="CoL" kingdom="Animalia" lsidName="" order="Lepidoptera" pageId="0" pageNumber="47157" phylum="Arthropoda" rank="order">Lepidoptera</taxonomicName>
+in the family 
+<taxonomicName id="4DABDFB8FA30076E894DB35B2A990EA5" family="Crambidae" lsidName="" pageId="0" pageNumber="47157" rank="family">Crambidae</taxonomicName>
+: 
+<taxonomicName id="2D473990898D4C001BDA6E43584D742E" authorityName="Hubner" authorityYear="1819" class="Insecta" family="Crambidae" genus="Phostria" higherTaxonomySource="CoL" kingdom="Animalia" lsidName="Phostria" order="Lepidoptera" pageId="0" pageNumber="47157" phylum="Arthropoda" rank="genus">
+<emphasis id="8659550414432624ED93D8BBF99494F7" italics="true" pageId="0" pageNumber="47157">Phostria</emphasis>
+</taxonomicName>
+Janzen05, 
+<taxonomicName id="39EF3C95D387B8C43DBAF0DFE7AC2D14" authorityName="Hubner" authorityYear="1819" class="Insecta" family="Crambidae" genus="Phostria" higherTaxonomySource="CoL" kingdom="Animalia" lsidName="Phostria" order="Lepidoptera" pageId="0" pageNumber="47157" phylum="Arthropoda" rank="genus">
+<emphasis id="2393F441C1715A147B9E05B39961F01B" italics="true" pageId="0" pageNumber="47157">Phostria</emphasis>
+</taxonomicName>
+Janzen03, 
+<taxonomicName id="42A3198CA6625242927852AB1F674AA2" class="Insecta" family="Crambidae" genus="Desmia" higherTaxonomySource="CoL" kingdom="Animalia" lsidName="Desmia" order="Lepidoptera" pageId="0" pageNumber="47157" phylum="Arthropoda" rank="genus">
+<emphasis id="7A08D20CCB3260F53E94416E795C0DE6" italics="true" pageId="0" pageNumber="47157">Desmia</emphasis>
+</taxonomicName>
+Solis19, 
+<taxonomicName id="5DC604DD4BB1E3FAB32430ACD2DA3D63" class="Insecta" family="Crambidae" genus="Desmia" higherTaxonomySource="CoL" kingdom="Animalia" lsidName="Desmia" order="Lepidoptera" pageId="0" pageNumber="47157" phylum="Arthropoda" rank="genus">
+<emphasis id="60BE0D0D7F92280CFD9ADF5DDEC0E1A2" italics="true" pageId="0" pageNumber="47157">Desmia</emphasis>
+</taxonomicName>
+Janzen576, 
+<taxonomicName id="DD26DFD6A75C482A47D976E0B4B82D9C" class="Insecta" family="Crambidae" genus="Desmia" higherTaxonomySource="CoL" kingdom="Animalia" lsidName="Desmia" order="Lepidoptera" pageId="0" pageNumber="47157" phylum="Arthropoda" rank="genus">
+<emphasis id="23834E5A679460B122CE8E2EABFC4563" italics="true" pageId="0" pageNumber="47157">Desmia</emphasis>
+</taxonomicName>
+Janzen07 in rain forest and dry-rain lowland intergrade.
+</paragraph>
+</subSubSection>
+</treatment>
+</document>
