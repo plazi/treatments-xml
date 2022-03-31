@@ -1,0 +1,895 @@
+<document id="6FF7FCF0740A539B6DF8E2BCEA82D181" ID-DOI="http://doi.org/10.5281/zenodo.5191142" ID-GBIF-Dataset="b739dd1a-47f7-4e15-a8c6-caf0a89947cb" ID-GBIF-Taxon="184096742" ID-ISSN="2118-9773" ID-Zenodo-Dep="5191142" ID-ZooBank="D1093CEB-7EBB-44A0-8078-8DC616B857F5" _generate="added" checkinTime="1628612905243" checkinUser="felipe" docAuthor="Zallot, Enrico, Mattia, Willy De, Fehér, Zoltán &amp; Gittenberger, Edmund" docDate="2021" docId="038B8791315FFFC17BAB1477F36A252B" docLanguage="en" docName="ejt-762_49-95.pdf" docOrigin="European Journal of Taxonomy 762 (1)" docSource="http://dx.doi.org/10.5852/ejt.2021.762.1453" docStyle="DocumentStyle:EF2B578F1D15862ADE45B0C07C620911.12:EJT.2018-.journal_article" docStyleId="EF2B578F1D15862ADE45B0C07C620911" docStyleName="EJT.2018-.journal_article" docStyleVersion="12" docTitle="Cochlostoma (Clessiniella) villae" docType="treatment" docVersion="7" lastPageId="26" lastPageNumber="73" masterDocId="FFB2FFE9314DFFDB7A4F1063F1502441" masterDocTitle="Cochlostoma revised: the subgenus Clessiniella Zallot et al., 2015 (Caenogastropoda, Cochlostomatidae)" masterLastPageNumber="95" masterPageNumber="49" pageId="18" pageNumber="67" updateTime="1634702464039" updateUser="ExternalLinkService" zenodo-license-document="CC-BY-4.0" zenodo-license-figures="CC-BY-4.0" zenodo-license-treatments="UNSPECIFIED">
+<mods:mods id="793B29DF0B81407B6FA4782242A390AB" xmlns:mods="http://www.loc.gov/mods/v3">
+<mods:titleInfo id="EE2D27D8D529B8AF09243E83FBBDFD7A">
+<mods:title id="6EDEA9BD6ABD21191047D1EF75A2D8D8">Cochlostoma revised: the subgenus Clessiniella Zallot et al., 2015 (Caenogastropoda, Cochlostomatidae)</mods:title>
+</mods:titleInfo>
+<mods:name id="88E1E599204408F07465219C2EEB794F" type="personal">
+<mods:role id="140601D32BEA301A4B576E6CF785BE4E">
+<mods:roleTerm id="D7A362CA283AAE4E0E6DBCA7A4D2D61F">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="71FFDCCF20101EDAB7FAB8BD2E1443BF">Zallot, Enrico</mods:namePart>
+<mods:nameIdentifier id="293C9BEC0056A4F7C7997796F33E8B84" type="LSID">365E17AD-6938-4364-A526-F1BDA2663E10</mods:nameIdentifier>
+<mods:affiliation id="3B56A140F2C698D18D92C71EB72ECA9E">Haagweg 29, 2681 PA Monster, the Netherlands.</mods:affiliation>
+<mods:nameIdentifier id="A34568CA06BB6E5069C2B63E2B9BB005" type="email">ezallot@gmail.com</mods:nameIdentifier>
+</mods:name>
+<mods:name id="E2B57B300C1FD046D8C11B5CF5ABE05B" type="personal">
+<mods:role id="A54DCC09436A26DADDAF33DA7971969E">
+<mods:roleTerm id="27060A3936C9929DA1CF0F191BF39D8C">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="71580E90362F0F7BBF96302F5E23A454">Mattia, Willy De</mods:namePart>
+<mods:nameIdentifier id="3498A10395CEBA749DA1B7EEB13CF0D3" type="LSID">C74A049D-9D7B-4A1F-878B-5BDFD104219F</mods:nameIdentifier>
+<mods:affiliation id="E72684C425C44CE33154D5793CC54896">Central Research Laboratories of Natural History Museum Vienna, Burgring 7, 1010 Vienna, Austria.</mods:affiliation>
+<mods:nameIdentifier id="1BA62B2FCA899806E1C70551ECE02B21" type="email">wdemattia@gmail.com</mods:nameIdentifier>
+</mods:name>
+<mods:name id="E93A8D136E1350F7C50297F7F98B9580" type="personal">
+<mods:role id="9D835D9B5785A7DBDB6836B4AA5DE0B0">
+<mods:roleTerm id="AEFC0DAAC76B1FB1E22CE81CA3279DF7">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="21DABFE67843A793840EC9D49AFCE378">Fehér, Zoltán</mods:namePart>
+<mods:nameIdentifier id="055A8E607D626F8FD254642737E0E8E7" type="LSID">E801EC76-8B1E-450B-993E-BBBE57C00EA9</mods:nameIdentifier>
+<mods:affiliation id="F75B192E5035EBBD2FC1BD9B05446C71">Hungarian Natural History Museum, Baross 13, 1088 Budapest, Hungary.</mods:affiliation>
+<mods:nameIdentifier id="0ADA61AFAA63567EEFC57FAD3418E5EA" type="email">feher.zoltan@nhmus.hu</mods:nameIdentifier>
+</mods:name>
+<mods:name id="FA88A952701D81250962BF3CBE50319A" type="personal">
+<mods:role id="9EA5630EAA1FF858B6686094754BE1F4">
+<mods:roleTerm id="102F9176A61E7CA52408B2D9A004C17E">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="743A0535EA3B78D1D86B5D69C0D9E2A6">Gittenberger, Edmund</mods:namePart>
+<mods:nameIdentifier id="4EA210D608F38482A7AC126B6C6CBD35" type="LSID">D786C279-FC92-4D08-AF16-F79A9705E0AE</mods:nameIdentifier>
+<mods:affiliation id="F18F26EC781818EE5C514F13B683C732">Naturalis Biodiversity Center, P. O. Box 9517, NL- 2300 RA Leiden, the Netherlands.</mods:affiliation>
+<mods:nameIdentifier id="CDBA8C4B2F57754F8EC1DFCE4E5AFA4E" type="email">egittenberger@yahoo.com</mods:nameIdentifier>
+</mods:name>
+<mods:typeOfResource id="8708E9778552419D692194DEA1FC988B">text</mods:typeOfResource>
+<mods:relatedItem id="19657BE79B96B03E2BA5909D2DAB7E5A" type="host">
+<mods:titleInfo id="E8FC2B1066ABF1198ADBE9F8998E2710">
+<mods:title id="31F6F425214F6F9C5B0A9AEE9A20548E">European Journal of Taxonomy</mods:title>
+</mods:titleInfo>
+<mods:part id="39C5311C8EDBBC86420171D5E2050F44">
+<mods:date id="74BB9A2DA5D839AB71B92FD0DA126358">2021</mods:date>
+<mods:detail id="61B46C94B61063FE74AFE942DB4576C9" type="pubDate">
+<mods:number id="875E686732193F8D2F3FBA02D0A1BF25">2021-08-06</mods:number>
+</mods:detail>
+<mods:detail id="F2EED58CE061A812AC3F9A948053C379" type="volume">
+<mods:number id="5A6CDD08968C4C44497162D7B3CB5AC0">762</mods:number>
+</mods:detail>
+<mods:detail id="0CDA2EBA45DCE3E9945AF1CE7E320CFD" type="issue">
+<mods:number id="7B3CC2B9B46D8FA0712C57A5A3F90CD5">1</mods:number>
+</mods:detail>
+<mods:extent id="FF81B77E065291CF6EB7488B98050072" unit="page">
+<mods:start id="E604D157845262348F602AB6D5476593">49</mods:start>
+<mods:end id="950267AFACC6C35D22B122EE38D77B49">95</mods:end>
+</mods:extent>
+</mods:part>
+</mods:relatedItem>
+<mods:location id="2531CCEC2AB2D85D9794CD243285A5F9">
+<mods:url id="AC155B862E04350BCCEFBD40DE8D7637">http://dx.doi.org/10.5852/ejt.2021.762.1453</mods:url>
+</mods:location>
+<mods:classification id="A819D0C9EED8BB34274732AE3EC0B2F2">journal article</mods:classification>
+<mods:identifier id="2DDFD185FB717FDFE6FBC29CC388E288" type="DOI">https://doi.org/10.5852/ejt.2021.762.1453</mods:identifier>
+<mods:identifier id="3CFD5FE37D413AAF702719F7175A5D5C" type="GBIF-Dataset">b739dd1a-47f7-4e15-a8c6-caf0a89947cb</mods:identifier>
+<mods:identifier id="494EB5D49537968B85A909E180C01ABA" type="ISSN">2118-9773</mods:identifier>
+<mods:identifier id="6E3D5F4C24A47786F353F5A0913CBAA2" type="Zenodo-Dep">5176909</mods:identifier>
+<mods:identifier id="67D792FE686E8E1FB93465A8A6A419FC" type="ZooBank">D1093CEB-7EBB-44A0-8078-8DC616B857F5</mods:identifier>
+</mods:mods>
+<treatment id="038B8791315FFFC17BAB1477F36A252B" ID-DOI="http://doi.org/10.5281/zenodo.5191142" ID-GBIF-Taxon="184096742" ID-Zenodo-Dep="5191142" LSID="urn:lsid:plazi:treatment:038B8791315FFFC17BAB1477F36A252B" httpUri="http://treatment.plazi.org/id/038B8791315FFFC17BAB1477F36A252B" lastPageId="26" lastPageNumber="73" pageId="18" pageNumber="67">
+<subSubSection id="C338650C315FFFC97BAB1477F51F2070" box="[484,1103,1044,1073]" pageId="18" pageNumber="67" type="nomenclature">
+<paragraph id="8B9D3687315FFFC97BAB1477F51F2070" blockId="18.[484,1103,1044,1108]" box="[484,1103,1044,1073]" pageId="18" pageNumber="67">
+<taxonomicName id="4C224D04315FFFC97BAB1477F51F2070" authority="(Strobel, 1851)" baseAuthorityName="Strobel" baseAuthorityYear="1851" box="[484,1103,1044,1073]" class="Gastropoda" family="Cochlostomatidae" genus="Cochlostoma" kingdom="Animalia" order="Architaenioglossa" pageId="18" pageNumber="67" phylum="Mollusca" rank="species" species="villae" subGenus="Clessiniella">
+<emphasis id="B956EA95315FFFC97BAB1477F2C62070" bold="true" box="[484,918,1044,1073]" italics="true" pageId="18" pageNumber="67">Cochlostoma (Clessiniella) villae</emphasis>
+(
+<bibRefCitation id="EFB34B76315FFFC979E91475F5172070" author="Strobel P." box="[934,1095,1046,1073]" pageId="18" pageNumber="67" refId="ref16289" refString="Strobel P. 1851. Notizie Malacostatiche sul Trentino. Fusi, Pavia. Available from https: // www. biodiversitylibrary. org / page / 46194631 [accessed 12 Jul. 2021]." type="url" year="1851">Strobel, 1851</bibRefCitation>
+)
+</taxonomicName>
+</paragraph>
+</subSubSection>
+<subSubSection id="C338650C315FFFC97800145AF2B42012" box="[591,996,1081,1108]" pageId="18" pageNumber="67" type="description">
+<paragraph id="8B9D3687315FFFC97800145AF2B42012" blockId="18.[484,1103,1044,1108]" box="[591,996,1081,1108]" pageId="18" pageNumber="67">
+<figureCitation id="13192A02315FFFC97800145AF3C82012" box="[591,664,1081,1107]" captionStart="Fig" captionStartId="1.[189,232,1913,1939]" captionTargetBox="[189,1398,1172,1873]" captionTargetId="figure-331@1.[189,1398,1172,1873]" captionTargetPageId="1" captionText="Fig. 1. Map of the sampling localities. Blue dots = Cochlostoma (Clessiniella) villae (Strobel, 1851); red dots = Co. (Cl.) stelucarum sp. nov.; green dots = Co. (Cl.) tergestinum (Westerlund, 1878); yellow dots = Co. (Cl.) waldemari (A.J. Wagner, 1897); orange dots = Co. (Cl.) anomphale Boeckel, 1939." figureDoi="http://doi.org/10.5281/zenodo.5176913" httpUri="https://zenodo.org/record/5176913/files/figure.png" pageId="18" pageNumber="67">Figs 1</figureCitation>
+, 
+<figureCitation id="13192A02315FFFC978E9145AF39B2012" box="[678,715,1081,1107]" captionStart="Fig" captionStartId="4.[189,232,1854,1880]" captionTargetBox="[199,1389,1004,1815]" captionTargetId="figure-265@4.[199,1389,1004,1815]" captionTargetPageId="4" captionText="Fig. 3. Examples of protoconchs: the red dots mark the end of the protoconchs. A. Cochlostoma (Clessiniella) anomphale Boeckel, 1939 (EZ0034). A1. Co. (Cl.) anomphale (EZ0034): 1 = end of the first smooth part of the protoconch; 2 = end of the protoconch. B. Co. (Cl.) tergestinum (Westerlund, 1878) (EZ0799). C. Co. (Cl.) villae (Strobel, 1851) (EZ0885). D. Co. (Cl.) waldemari (A.J. Wagner, 1897) (WdM6697). E. Co. (Cl.) stelucarum sp. nov. (EZ0104)." figureDoi="http://doi.org/10.5281/zenodo.5176917" httpUri="https://zenodo.org/record/5176917/files/figure.png" pageId="18" pageNumber="67">3C</figureCitation>
+, 
+<figureCitation id="13192A02315FFFC97898145AF25C2012" box="[727,780,1081,1107]" captionStart="Fig" captionStartId="19.[189,232,1814,1840]" captionTargetBox="[189,1398,743,1775]" captionTargetId="figure-148@19.[189,1399,743,1775]" captionTargetPageId="19" captionText="Fig. 14. The five species of Clessiniella Zallot et al., 2015. A–D. Picture of a female (top) and male (bottom) specimen from the type localities. A. Cochlostoma (Clessiniella) anomphale Boeckel, 1939. Vellach, Austria (EZ0991). B. Co. (Cl.) stelucarum sp. nov., Cornino, Italy (EZ0104). C. Co. (Cl.) tergestinum (Westerlund, 1878), Val Rosandra, Italy (EZ0840). D. Co. (Cl.) villae (Strobel, 1851), Mizzole, Italy (EZ0878). E. Specimens from a locality close to the type one: Co. (Cl.) waldemari (A.J.Wagner, 1897), Mt Klek, Croatia (EZ0905)." figureDoi="http://doi.org/10.5281/zenodo.5176939" httpUri="https://zenodo.org/record/5176939/files/figure.png" pageId="18" pageNumber="67">14D</figureCitation>
+, 
+<figureCitation id="13192A02315FFFC97957145AF21E2015" box="[792,846,1081,1108]" captionStart="Fig" captionStartId="20.[189,231,960,986]" captionTargetBox="[406,1228,270,878]" captionTargetId="figure-14@20.[406,1232,265,882]" captionTargetPageId="20" captionText="Fig. 15.Comparison of femalegenitalia.A. Cochlostoma (Clessiniella) anomphaleBoeckel, 1939.Vellach, Austria (EZ0991). B. Co. (Cl.) stelucarum sp. nov., Cornino, Italy (EZ0104). C. Co. (Cl.) tergestinum (Westerlund, 1878), Val Rosandra, Italy (EZ0840). D. Co. (Cl.) villae (Strobel, 1851), Mizzole, Italy (EZ0878). E. Co. (Cl.) waldemari (A.J.Wagner, 1897), Mt Klek, Croatia (EZ0905)." figureDoi="http://doi.org/10.5281/zenodo.5176941" httpUri="https://zenodo.org/record/5176941/files/figure.png" pageId="18" pageNumber="67">15D</figureCitation>
+, 
+<figureCitation id="13192A02315FFFC97915145AF2DE2012" box="[858,910,1081,1107]" captionStart="Fig" captionStartId="20.[189,232,1879,1905]" captionTargetBox="[401,1174,1156,1820]" captionTargetId="figure-84@20.[401,1187,1137,1828]" captionTargetPageId="20" captionText="Fig. 16.Comparisonof male genitalia.A. Cochlostoma (Clessiniella)anomphaleBoeckel, 1939.Vellach, Austria (EZ0991). B. Co. (Cl.) stelucarum sp. nov., Cornino, Italy (EZ0104). C. Co. (Cl.) tergestinum (Westerlund, 1878), Val Rosandra, Italy (EZ0840). D. Co. (Cl.) villae (Strobel, 1851), Mizzole, Italy (EZ0878). E. Co. (Cl.) waldemari (A.J.Wagner, 1897), Tisovec, Croatia (WdM6750)." figureDoi="http://doi.org/10.5281/zenodo.5176943" httpUri="https://zenodo.org/record/5176943/files/figure.png" pageId="18" pageNumber="67">16D</figureCitation>
+, 
+<figureCitation id="13192A02315FFFC979D4145AF2B42012" box="[923,996,1081,1107]" captionStart-0="Fig" captionStart-1="Fig" captionStart-2="Fig" captionStart-3="Fig" captionStart-4="Fig" captionStartId-0="21.[189,232,1911,1937]" captionStartId-1="22.[190,233,1911,1937]" captionStartId-2="23.[189,232,1953,1979]" captionStartId-3="24.[189,232,1953,1979]" captionStartId-4="25.[189,232,1958,1984]" captionTargetBox-0="[189,1398,980,1873]" captionTargetBox-1="[196,1362,1131,1762]" captionTargetBox-2="[275,1312,265,1914]" captionTargetBox-3="[189,1398,694,1914]" captionTargetBox-4="[293,1295,265,1920]" captionTargetId-0="figure-168@21.[189,1398,980,1873]" captionTargetId-1="figure-221@22.[189,1398,1092,1762]" captionTargetId-2="figure-11@23.[275,1312,265,1914]" captionTargetId-3="figure-152@24.[189,1398,694,1914]" captionTargetId-4="figure-11@25.[293,1295,265,1920]" captionTargetPageId-0="21" captionTargetPageId-1="22" captionTargetPageId-2="23" captionTargetPageId-3="24" captionTargetPageId-4="25" captionText-0="Fig. 17. Shell variability in Cochlostoma (Clessiniella) villae (Strobel, 1851). A. Mizzole, Italy (EZ0878). B. Covoli di Velo, Italy (EZ0879). C. Ferrazza, Italy (EZ0881). D. Mt delle Piume, Italy (EZ0889). E. Perarolo, Italy (EZ0891). F. Lumignano, Italy (EZ0893). G. Ca’ Gottolo, Italy (EZ1015)." captionText-1="Fig. 18. Variation of the female genitalia in Cochlostoma (Clessiniella) villae (Strobel, 1851). A. Mizzole, Italy (EZ0878). B. Ferrazza, Italy (EZ0881). C. Mt delle Piume, Italy (EZ0889). D1– D3. Perarolo, Italy (EZ0891). E. Mt Rusta, Italy (EZ0894). F. Ca’ Gottolo, Italy (EZ1015)." captionText-2="Fig. 19. Cochlostoma (Clessiniella) villae (Strobel, 1851), syntype, ♀, at the Museo di Storia Naturale of Parma University, Italy (PU1610-C1)." captionText-3="Fig. 20. Cochlostoma (Clessiniella) villae (Strobel, 1851), syntypes, ♂♂, at the Museo di Storia Naturale of Parma University, Italy (1610-C2, left; 1610-C3, right)." captionText-4="Fig. 21. Shell of Cochlostoma (Clessiniella) villae (Strobel, 1851). Collezione De Betta, Museo di Storia Naturale di Verona (photo Folco Giusti)." figureDoi-0="http://doi.org/10.5281/zenodo.5176945" figureDoi-1="http://doi.org/10.5281/zenodo.5176947" figureDoi-2="http://doi.org/10.5281/zenodo.5176949" figureDoi-3="http://doi.org/10.5281/zenodo.5176951" figureDoi-4="http://doi.org/10.5281/zenodo.5176953" httpUri-0="https://zenodo.org/record/5176945/files/figure.png" httpUri-1="https://zenodo.org/record/5176947/files/figure.png" httpUri-2="https://zenodo.org/record/5176949/files/figure.png" httpUri-3="https://zenodo.org/record/5176951/files/figure.png" httpUri-4="https://zenodo.org/record/5176953/files/figure.png" pageId="18" pageNumber="67">17–21</figureCitation>
+</paragraph>
+</subSubSection>
+<subSubSection id="C338650C315FFFC97AF21418F3AE215C" pageId="18" pageNumber="67" type="reference_group">
+<paragraph id="8B9D3687315FFFC97AF21418F51C20D4" blockId="18.[189,1258,1146,1209]" box="[189,1100,1146,1173]" pageId="18" pageNumber="67">
+<treatmentCitationGroup id="AB3211A9315FFFC97AF21418F51C20D4" box="[189,1100,1146,1173]" pageId="18" pageNumber="67">
+<treatmentCitation id="0A831096315FFFC97AF21418F25220D4" author="Strobel P." box="[189,770,1146,1173]" page="17" pageId="18" pageNumber="67" year="1851">
+<taxonomicName id="4C224D04315FFFC97AF21418F25220D4" authority="Strobel, 1851: 17" authorityName="Strobel" authorityPageNumber="17" authorityYear="1851" box="[189,770,1146,1173]" class="Gastropoda" family="Pomatiidae" genus="Pomatias" kingdom="Animalia" order="Littorinimorpha" pageId="18" pageNumber="67" phylum="Mollusca" rank="variety" species="maculatum" variety="villae">
+<emphasis id="B956EA95315FFFC97AF21418F0E520D4" box="[189,437,1147,1173]" italics="true" pageId="18" pageNumber="67">Pomatias maculatum</emphasis>
+var. 
+<emphasis id="B956EA95315FFFC97BA01418F36020D4" box="[495,560,1147,1173]" italics="true" pageId="18" pageNumber="67">villae</emphasis>
+<bibRefCitation id="EFB34B76315FFFC978771418F25220D4" author="Strobel P." box="[568,770,1146,1173]" pageId="18" pageNumber="67" refId="ref16289" refString="Strobel P. 1851. Notizie Malacostatiche sul Trentino. Fusi, Pavia. Available from https: // www. biodiversitylibrary. org / page / 46194631 [accessed 12 Jul. 2021]." type="url" year="1851">Strobel, 1851: 17</bibRefCitation>
+</taxonomicName>
+</treatmentCitation>
+(“Mizzole presso Verona”).
+</treatmentCitationGroup>
+</paragraph>
+<paragraph id="8B9D3687315FFFC97AF214FCF5BA20F8" blockId="18.[189,1258,1146,1209]" box="[189,1258,1182,1209]" pageId="18" pageNumber="67">
+<treatmentCitationGroup id="AB3211A9315FFFC97AF214FCF5BA20F8" box="[189,1258,1182,1209]" pageId="18" pageNumber="67">
+<treatmentCitation id="0A831096315FFFC97AF214FCF2F820F9" author="De Betta E. &amp; Martinati P." box="[189,936,1182,1209]" page="74" pageId="18" pageNumber="67" year="1855">
+<taxonomicName id="4C224D04315FFFC97AF214FCF2F820F9" authority="De Betta &amp; Martinati, 1855: 74" authorityName="De Betta &amp; Martinati" authorityPageNumber="74" authorityYear="1855" box="[189,936,1182,1209]" class="Gastropoda" family="Pomatiidae" genus="Pomatias" kingdom="Animalia" order="Littorinimorpha" pageId="18" pageNumber="67" phylum="Mollusca" rank="variety" species="maculatum" variety="villae">
+<emphasis id="B956EA95315FFFC97AF214FCF0E520F9" box="[189,437,1182,1208]" italics="true" pageId="18" pageNumber="67">Pomatias maculatum</emphasis>
+var. 
+<emphasis id="B956EA95315FFFC97BA014FDF36020F9" box="[495,560,1182,1208]" italics="true" pageId="18" pageNumber="67">villae</emphasis>
+<bibRefCitation id="EFB34B76315FFFC9787714FDF2F820F9" author="De Betta E. &amp; Martinati P." box="[568,936,1182,1209]" pageId="18" pageNumber="67" refId="ref15858" refString="De Betta E. &amp; Martinati P. 1855. Catalogo dei Molluschi Terrestri e Fluviatili Viventi nelle Provincie Venete di Edoardo de Betta e Pietropaolo Martinati. G. Antonelli, Verona. https: // doi. org / 10.5962 / bhl. title. 13113" type="book" year="1855">De Betta &amp; Martinati, 1855: 74</bibRefCitation>
+</taxonomicName>
+</treatmentCitation>
+(“Prov. Verona, Mizzole”).
+</treatmentCitationGroup>
+</paragraph>
+<paragraph id="8B9D3687315FFFC97AF214BCF3A820B8" blockId="18.[189,766,1247,1309]" box="[189,760,1247,1274]" pageId="18" pageNumber="67">
+<treatmentCitationGroup id="AB3211A9315FFFC97AF214BCF3A820B8" box="[189,760,1247,1274]" pageId="18" pageNumber="67">
+<taxonomicName id="4C224D04315FFFC97AF214BCF34120B8" baseAuthorityName="Strobel" baseAuthorityYear="1851" box="[189,529,1247,1274]" class="Gastropoda" family="Cochlostomatidae" genus="Cochlostoma" kingdom="Animalia" order="Architaenioglossa" pageId="18" pageNumber="67" phylum="Mollusca" rank="species" species="villae" subGenus="Auritus">
+<emphasis id="B956EA95315FFFC97AF214BCF00820B8" box="[189,344,1247,1273]" italics="true" pageId="18" pageNumber="67">Cochlostoma</emphasis>
+(
+<emphasis id="B956EA95315FFFC97B261483F0EF20BB" box="[361,447,1248,1274]" italics="true" pageId="18" pageNumber="67">Auritus</emphasis>
+) 
+<emphasis id="B956EA95315FFFC97B9F14BCF34120B8" box="[464,529,1247,1273]" italics="true" pageId="18" pageNumber="67">villae</emphasis>
+</taxonomicName>
+– 
+<treatmentCitation id="0A831096315FFFC9786214BCF3A420B8" author="Alzona C." box="[557,756,1247,1273]" page="22" pageId="18" pageNumber="67" year="1971">
+<bibRefCitation id="EFB34B76315FFFC9786214BCF3A420B8" author="Alzona C." box="[557,756,1247,1273]" pageId="18" pageNumber="67" pagination="1 - 433" refId="ref15590" refString="Alzona C. 1971. Malacofauna Italica. Catalogo e bibliografia dei molluschi viventi, terrestri e d'acqua dolce. Atti della Societa Italiana di Scienze Naturali e del Museo Civico di Storia Naturale di Milano 111: 1 - 433." type="journal article" year="1971">Alzona 1971: 22</bibRefCitation>
+</treatmentCitation>
+.
+</treatmentCitationGroup>
+</paragraph>
+<paragraph id="8B9D3687315FFFC97AF21561F3AE215C" blockId="18.[189,766,1247,1309]" box="[189,766,1282,1309]" pageId="18" pageNumber="67">
+<treatmentCitationGroup id="AB3211A9315FFFC97AF21561F3AE215C" box="[189,766,1282,1309]" pageId="18" pageNumber="67">
+<taxonomicName id="4C224D04315FFFC97AF21561F0F0215D" baseAuthorityName="Strobel" baseAuthorityYear="1851" box="[189,416,1282,1308]" class="Gastropoda" family="Cochlostomatidae" genus="Cochlostoma" kingdom="Animalia" order="Architaenioglossa" pageId="18" pageNumber="67" phylum="Mollusca" rank="species" species="villae">
+<emphasis id="B956EA95315FFFC97AF21561F0F0215D" box="[189,416,1282,1308]" italics="true" pageId="18" pageNumber="67">Cochlostoma villae</emphasis>
+</taxonomicName>
+− 
+<treatmentCitation id="0A831096315FFFC97BF01561F3A9215C" author="Welter-Schultes F. W." box="[447,761,1282,1309]" page="102" pageId="18" pageNumber="67" year="2012">
+<bibRefCitation id="EFB34B76315FFFC97BF01561F3A9215C" author="Welter-Schultes F. W." box="[447,761,1282,1309]" pageId="18" pageNumber="67" refId="ref16417" refString="Welter-Schultes F. W. 2012. European non-marine Molluscs, a Guide for Species Identification. Planet Poster Editions, Gottingen." type="book" year="2012">Welter-Schultes 2012: 102</bibRefCitation>
+</treatmentCitation>
+.
+</treatmentCitationGroup>
+</paragraph>
+</subSubSection>
+<subSubSection id="C338650C315FFFC97AF21527F20A21B7" pageId="18" pageNumber="67" type="diagnosis">
+<paragraph id="8B9D3687315FFFC97AF21527F066211F" blockId="18.[189,310,1348,1374]" box="[189,310,1348,1374]" pageId="18" pageNumber="67">
+<heading id="D0D581EB315FFFC97AF21527F066211F" bold="true" box="[189,310,1348,1374]" fontSize="11" level="3" pageId="18" pageNumber="67" reason="3">
+<emphasis id="B956EA95315FFFC97AF21527F066211F" bold="true" box="[189,310,1348,1374]" pageId="18" pageNumber="67">Diagnosis</emphasis>
+</heading>
+</paragraph>
+<paragraph id="8B9D3687315FFFC97AF21511F20A21B7" blockId="18.[189,1399,1394,1526]" pageId="18" pageNumber="67">
+The last whorl, approaching the aperture, hardly enlarges (
+<figureCitation id="13192A02315FFFC979CD1511F2B421CC" box="[898,996,1394,1421]" captionStart="Fig" captionStartId="5.[189,232,1854,1880]" captionTargetBox="[200,1387,265,1815]" captionTargetId="figure-11@5.[200,1387,265,1815]" captionTargetPageId="5" captionText="Fig. 4. Features of the shell of Clessiniella Zallot et al., 2015. A. Shape of the body whorl approaching the aperture. B. Strength of the spots on the shell (0 = spotless shell to 2 = really evident spots). C. Strength of the ribs (1 = weak ribs to 3 = really prominent ribs). D. Strength of the ribs on the external side of the body whorl approaching the aperture (W= smooth shell; I = intermediate; S = prominent ribs)." figureDoi="http://doi.org/10.5281/zenodo.5176919" httpUri="https://zenodo.org/record/5176919/files/figure.png" pageId="18" pageNumber="67">Fig. 4A</figureCitation>
+: FF). Very prominent and widely spaced teleoconch ribs, barely inclined in respect to the vertical axis. Spots almost always visible. The protoconch is relatively small. The apertural lip poorly developed. Visceral oviduct with convoluted loops; thin seminal receptacle. Straight body spermiduct.
+</paragraph>
+</subSubSection>
+<subSubSection id="C338650C315FFFC87AF2167DF561267C" lastPageId="19" lastPageNumber="68" pageId="18" pageNumber="67" type="materials_examined">
+<paragraph id="8B9D3687315FFFC97AF2167DF03C2276" blockId="18.[189,364,1565,1592]" box="[189,364,1565,1592]" pageId="18" pageNumber="67">
+<heading id="D0D581EB315FFFC97AF2167DF03C2276" bold="true" box="[189,364,1565,1592]" fontSize="11" level="3" pageId="18" pageNumber="67" reason="3">
+<emphasis id="B956EA95315FFFC97AF2167DF03C2276" bold="true" box="[189,364,1565,1592]" pageId="18" pageNumber="67">Type material</emphasis>
+</heading>
+</paragraph>
+<paragraph id="8B9D3687315FFFC97AA5162FF00A2227" blockId="18.[187,1398,1612,1744]" box="[234,346,1612,1638]" pageId="18" pageNumber="67">
+<emphasis id="B956EA95315FFFC97AA5162FF00A2227" bold="true" box="[234,346,1612,1638]" pageId="18" pageNumber="67">
+<typeStatus id="54998825315FFFC97AA5162FF00A2227" box="[234,346,1612,1638]" pageId="18" pageNumber="67">Syntypes</typeStatus>
+</emphasis>
+</paragraph>
+<paragraph id="8B9D3687315FFFC97AF2160CF2CE2291" blockId="18.[187,1398,1612,1744]" pageId="18" pageNumber="67">
+<materialsCitation id="3B4A3CDA315FFFC97AF2160CF58322EC" ID-GBIF-Occurrence="3333861373" collectionCode="PU" country="Italy" county="Verona" location="Mizzole" municipality="Mizzole" pageId="18" pageNumber="67" specimenCode="PU1610-C1" specimenCount="1" specimenCount-female="1" stateProvince="Veneto" typeStatus="syntype">
+<collectingCountry id="F3357617315FFFC97AF2160CF05F22C8" box="[189,271,1647,1673]" name="Italy" pageId="18" pageNumber="67">ITALY</collectingCountry>
+• 
+<specimenCount id="9D24FD0E315FFFC97B6B160CF01F22CB" box="[292,335,1647,1674]" pageId="18" pageNumber="67" type="female">1 ♀</specimenCount>
+; “ 
+<taxonomicName id="4C224D04315FFFC97B271613F24E22C8" authority="Spinel. Mizzole. Villa" box="[360,798,1647,1673]" class="Gastropoda" family="Pomatiidae" genus="Pomatias" kingdom="Animalia" order="Littorinimorpha" pageId="18" pageNumber="67" phylum="Mollusca" rank="species" species="villae">
+<emphasis id="B956EA95315FFFC97B271613F34E22C8" box="[360,542,1647,1673]" italics="true" pageId="18" pageNumber="67">Pomatias villae</emphasis>
+Spinel. Mizzole. Villa
+</taxonomicName>
+49” [label of the original material] [
+<collectingRegion id="49E6F865315FFFC97EF41613F44322CB" box="[1211,1299,1648,1674]" country="Italy" name="Veneto" pageId="18" pageNumber="67">Veneto</collectingRegion>
+, 
+<collectingCounty id="62FC4E0B315FFFC97F531613F42222CB" box="[1308,1394,1648,1674]" pageId="18" pageNumber="67">Verona</collectingCounty>
+, 
+<collectingMunicipality id="6BF9ACFD315FFFC97AF416F1F04E22EC" box="[187,286,1682,1709]" pageId="18" pageNumber="67">Mizzole</collectingMunicipality>
+] [thus, it could be interpreted as collected in 1849 by Villa]; 
+<specimenCode id="DB849EFC315FFFC9799516F1F53522ED" box="[986,1125,1682,1708]" pageId="18" pageNumber="67">PU1610-C1</specimenCode>
+(
+<figureCitation id="13192A02315FFFC97E3A16F1F59A22EC" box="[1141,1226,1682,1709]" captionStart="Fig" captionStartId="23.[189,232,1953,1979]" captionTargetBox="[275,1312,265,1914]" captionTargetId="figure-11@23.[275,1312,265,1914]" captionTargetPageId="23" captionText="Fig. 19. Cochlostoma (Clessiniella) villae (Strobel, 1851), syntype, ♀, at the Museo di Storia Naturale of Parma University, Italy (PU1610-C1)." figureDoi="http://doi.org/10.5281/zenodo.5176949" httpUri="https://zenodo.org/record/5176949/files/figure.png" pageId="18" pageNumber="67">Fig. 19</figureCitation>
+)
+</materialsCitation>
+• 
+<materialsCitation id="3B4A3CDA315FFFC97EA416F0F2CE2291" ID-GBIF-Occurrence="3333861402" collectionCode="PU" pageId="18" pageNumber="67" specimenCode="PU1610-C2, PU1610-C3" specimenCount="2" specimenCount-male="2">
+<specimenCount id="9D24FD0E315FFFC97EA416F0F47F22EC" box="[1259,1327,1683,1709]" pageId="18" pageNumber="67" type="male">2 ♂♂</specimenCount>
+; same label data as for preceding; 
+<specimenCode id="DB849EFC315FFFC9784D16D6F3C1228E" box="[514,657,1717,1743]" pageId="18" pageNumber="67">PU1610-C2</specimenCode>
+, 
+<specimenCode id="DB849EFC315FFFC978D216D6F278228E" box="[669,808,1717,1743]" pageId="18" pageNumber="67">PU1610-C3</specimenCode>
+(
+<figureCitation id="13192A02315FFFC9797616D5F2C12291" box="[825,913,1718,1744]" captionStart="Fig" captionStartId="24.[189,232,1953,1979]" captionTargetBox="[189,1398,694,1914]" captionTargetId="figure-152@24.[189,1398,694,1914]" captionTargetPageId="24" captionText="Fig. 20. Cochlostoma (Clessiniella) villae (Strobel, 1851), syntypes, ♂♂, at the Museo di Storia Naturale of Parma University, Italy (1610-C2, left; 1610-C3, right)." figureDoi="http://doi.org/10.5281/zenodo.5176951" httpUri="https://zenodo.org/record/5176951/files/figure.png" pageId="18" pageNumber="67">Fig. 20</figureCitation>
+).
+</materialsCitation>
+</paragraph>
+<paragraph id="8B9D3687315FFFC97AF21694F5282353" blockId="18.[189,1144,1783,1810]" box="[189,1144,1783,1810]" pageId="18" pageNumber="67">
+<emphasis id="B956EA95315FFFC97AF21694F0292350" bold="true" box="[189,377,1783,1809]" pageId="18" pageNumber="67">Other material</emphasis>
+(fresh specimens from the 
+<typeStatus id="54998825315FFFC978F6169BF3BC2353" box="[697,748,1784,1810]" pageId="18" pageNumber="67">type</typeStatus>
+locality have also been analyzed)
+</paragraph>
+<paragraph id="8B9D3687315FFFC87AF21745F561267C" blockId="18.[189,1399,1829,1997]" lastBlockId="19.[189,1399,265,573]" lastPageId="19" lastPageNumber="68" pageId="18" pageNumber="67">
+<materialsCitation id="3B4A3CDA315FFFC97AF21745F5522301" ID-GBIF-Occurrence="3333861383" box="[189,1026,1829,1856]" collectionCode="EZ" collectorName="Zallot" country="Italy" latitude="45.61511" location="Altissimo" longLatPrecision="1" longitude="11.25225" pageId="18" pageNumber="67" specimenCode="EZ0883" specimenCount="1">
+<collectingCountry id="F3357617315FFFC97AF21745F05F2301" box="[189,271,1830,1856]" name="Italy" pageId="18" pageNumber="67">ITALY</collectingCountry>
+• 
+<location id="8EFD605C315FFFC97B6F1745F0C62301" LSID="urn:lsid:plazi:treatment:038B8791315FFFC17BAB1477F36A252B:8EFD605C315FFFC97B6F1745F0C62301" box="[288,406,1830,1856]" country="Italy" latitude="45.61511" longLatPrecision="1" longitude="11.25225" name="Altissimo" pageId="18" pageNumber="67">Altissimo</location>
+; 
+<geoCoordinate id="EE165040315FFFC97BD01746F3642301" box="[415,564,1829,1856]" degrees="45.61511" direction="north" orientation="latitude" pageId="18" pageNumber="67" precision="1" value="45.61511">45.61511° N</geoCoordinate>
+, 
+<geoCoordinate id="EE165040315FFFC978711746F3802301" box="[574,720,1829,1856]" degrees="11.25225" direction="east" orientation="longitude" pageId="18" pageNumber="67" precision="1" value="11.25225">11.25225° E</geoCoordinate>
+; 2009; 
+<collectorName id="26D75351315FFFC9796E1745F2372301" box="[801,871,1830,1856]" pageId="18" pageNumber="67">Zallot</collectorName>
+leg.; 
+<specimenCode id="DB849EFC315FFFC979EC1745F5522301" box="[931,1026,1830,1856]" collectionCode="EZ" pageId="18" pageNumber="67">EZ0883</specimenCode>
+</materialsCitation>
+• 
+<materialsCitation id="3B4A3CDA315FFFC97E5B1745F2632325" ID-GBIF-Occurrence="3333861360" collectionCode="EZ" collectorName="Zallot" country="Italy" latitude="45.26194" location="Arqua' Petrarca" longLatPrecision="1" longitude="11.69623" pageId="18" pageNumber="67" specimenCode="EZ0895" specimenCount="1">
+<location id="8EFD605C315FFFC97E5B1745F59C2301" LSID="urn:lsid:plazi:treatment:038B8791315FFFC17BAB1477F36A252B:8EFD605C315FFFC97E5B1745F59C2301" box="[1044,1228,1830,1856]" country="Italy" latitude="45.26194" longLatPrecision="1" longitude="11.69623" name="Arqua' Petrarca" pageId="18" pageNumber="67">Arqua’ Petrarca</location>
+, surroundings; 
+<geoCoordinate id="EE165040315FFFC97AF2172AF0062322" box="[189,342,1865,1892]" degrees="45.26194" direction="north" orientation="latitude" pageId="18" pageNumber="67" precision="1" value="45.26194">45.26194° N</geoCoordinate>
+, 
+<geoCoordinate id="EE165040315FFFC97B2D172AF0A72322" box="[354,503,1865,1891]" degrees="11.69623" direction="east" orientation="longitude" pageId="18" pageNumber="67" precision="1" value="11.69623">11.69623° E</geoCoordinate>
+; 1999; 
+<collectorName id="26D75351315FFFC97802172AF3C32322" box="[589,659,1865,1891]" pageId="18" pageNumber="67">Zallot</collectorName>
+leg.; 
+<specimenCode id="DB849EFC315FFFC9789A172AF2632325" box="[725,819,1865,1892]" collectionCode="EZ" pageId="18" pageNumber="67">EZ0895</specimenCode>
+</materialsCitation>
+• 
+<materialsCitation id="3B4A3CDA315FFFC97903172AF00723C7" ID-GBIF-Occurrence="3333861311" collectionCode="EZ" collectorName="Zallot" country="Italy" latitude="45.59389" location="Bolca" longLatPrecision="1" longitude="11.20972" pageId="18" pageNumber="67" specimenCode="EZ0882" specimenCount="1">
+<location id="8EFD605C315FFFC97903172AF2C42322" LSID="urn:lsid:plazi:treatment:038B8791315FFFC17BAB1477F36A252B:8EFD605C315FFFC97903172AF2C42322" box="[844,916,1865,1891]" country="Italy" latitude="45.59389" longLatPrecision="1" longitude="11.20972" name="Bolca" pageId="18" pageNumber="67">Bolca</location>
+; 
+<geoCoordinate id="EE165040315FFFC979EF172AF5692322" box="[928,1081,1865,1892]" degrees="45.59389" direction="north" orientation="latitude" pageId="18" pageNumber="67" precision="1" value="45.59389">45.59389° N</geoCoordinate>
+, 
+<geoCoordinate id="EE165040315FFFC97E0A172AF58A2322" box="[1093,1242,1865,1891]" degrees="11.20972" direction="east" orientation="longitude" pageId="18" pageNumber="67" precision="1" value="11.20972">11.20972° E</geoCoordinate>
+; 2010; 
+<collectorName id="26D75351315FFFC97F7F172AF4262322" box="[1328,1398,1865,1891]" pageId="18" pageNumber="67">Zallot</collectorName>
+leg.; 
+<specimenCode id="DB849EFC315FFFC97AB7170FF00723C7" box="[248,343,1900,1926]" collectionCode="EZ" pageId="18" pageNumber="67">EZ0882</specimenCode>
+</materialsCitation>
+• 
+<materialsCitation id="3B4A3CDA315FFFC97B3E170FF5A723C6" ID-GBIF-Occurrence="3333861301" box="[369,1271,1900,1927]" collectingDate="2010-06" collectionCode="EZ" collectorName="Scarlassara" country="Italy" latitude="45.58921" location="Ca'Gottolo" longLatPrecision="1" longitude="10.90787" pageId="18" pageNumber="67" specimenCode="EZ1015" specimenCount="1">
+<location id="8EFD605C315FFFC97B3E170FF0A923C7" LSID="urn:lsid:plazi:treatment:038B8791315FFFC17BAB1477F36A252B:8EFD605C315FFFC97B3E170FF0A923C7" box="[369,505,1900,1926]" country="Italy" latitude="45.58921" longLatPrecision="1" longitude="10.90787" name="Ca'Gottolo" pageId="18" pageNumber="67">Ca’Gottolo</location>
+; 
+<geoCoordinate id="EE165040315FFFC9784A170FF3CF23C6" box="[517,671,1900,1927]" degrees="45.58921" direction="north" orientation="latitude" pageId="18" pageNumber="67" precision="1" value="45.58921">45.58921° N</geoCoordinate>
+, 
+<geoCoordinate id="EE165040315FFFC978E4170FF21223C6" box="[683,834,1900,1927]" degrees="10.90787" direction="east" orientation="longitude" pageId="18" pageNumber="67" precision="1" value="10.90787">10.90787° E</geoCoordinate>
+; 
+<date id="FF9C1047315FFFC97900170EF29523C7" box="[847,965,1900,1927]" pageId="18" pageNumber="67" value="2010-06">
+<collectingDate id="EFD8E9AF315FFFC97900170EF29523C7" box="[847,965,1900,1927]" pageId="18" pageNumber="67" value="2010-06">Jun. 2010</collectingDate>
+</date>
+; 
+<collectorName id="26D75351315FFFC9799D170FF50623C7" box="[978,1110,1900,1926]" pageId="18" pageNumber="67">Scarlassara</collectorName>
+leg.; 
+<specimenCode id="DB849EFC315FFFC97ED6170FF5A723C6" box="[1177,1271,1900,1927]" collectionCode="EZ" pageId="18" pageNumber="67">EZ1015</specimenCode>
+</materialsCitation>
+• 
+<materialsCitation id="3B4A3CDA315FFFC97F5E170FF55B23E8" ID-GBIF-Occurrence="3333861346" collectionCode="EZ" collectorName="Zallot" country="Italy" latitude="45.60667" location="Cornedo Vicentino-Cereda" longLatPrecision="1" longitude="11.36833" pageId="18" pageNumber="67" specimenCode="EZ0887" specimenCount="1">
+<location id="8EFD605C315FFFC97F5E170FF0C023E8" LSID="urn:lsid:plazi:treatment:038B8791315FFFC17BAB1477F36A252B:8EFD605C315FFFC97F5E170FF0C023E8" country="Italy" latitude="45.60667" longLatPrecision="1" longitude="11.36833" name="Cornedo Vicentino-Cereda" pageId="18" pageNumber="67">Cornedo Vicentino-Cereda</location>
+; 
+<geoCoordinate id="EE165040315FFFC97BD517ECF36223EB" box="[410,562,1935,1962]" degrees="45.60667" direction="north" orientation="latitude" pageId="18" pageNumber="67" precision="1" value="45.60667">45.60667° N</geoCoordinate>
+, 
+<geoCoordinate id="EE165040315FFFC9787217ECF38223EB" box="[573,722,1935,1962]" degrees="11.36833" direction="east" orientation="longitude" pageId="18" pageNumber="67" precision="1" value="11.36833">11.36833° E</geoCoordinate>
+; 1999; 
+<collectorName id="26D75351315FFFC9796917ECF23C23E8" box="[806,876,1935,1961]" pageId="18" pageNumber="67">Zallot</collectorName>
+leg.; 
+<specimenCode id="DB849EFC315FFFC979E217ECF55B23E8" box="[941,1035,1935,1961]" collectionCode="EZ" pageId="18" pageNumber="67">EZ0887</specimenCode>
+</materialsCitation>
+• 
+<materialsCitation id="3B4A3CDA315FFFC97E6D17ECF3C4238C" ID-GBIF-Occurrence="3333861340" collectionCode="EZ" collectorName="Zallot" country="Italy" latitude="45.60889" location="Covoli di Velo" longLatPrecision="1" longitude="11.12083" pageId="18" pageNumber="67" specimenCode="EZ0879" specimenCount="1">
+<location id="8EFD605C315FFFC97E6D17ECF59F23E8" LSID="urn:lsid:plazi:treatment:038B8791315FFFC17BAB1477F36A252B:8EFD605C315FFFC97E6D17ECF59F23E8" box="[1058,1231,1935,1961]" country="Italy" latitude="45.60889" longLatPrecision="1" longitude="11.12083" name="Covoli di Velo" pageId="18" pageNumber="67">Covoli di Velo</location>
+; 
+<geoCoordinate id="EE165040315FFFC97E9517ECF42223EB" box="[1242,1394,1935,1962]" degrees="45.60889" direction="north" orientation="latitude" pageId="18" pageNumber="67" precision="1" value="45.60889">45.60889° N</geoCoordinate>
+, 
+<geoCoordinate id="EE165040315FFFC97AF217D0F003238C" box="[189,339,1971,1997]" degrees="11.12083" direction="east" orientation="longitude" pageId="18" pageNumber="67" precision="1" value="11.12083">11.12083° E</geoCoordinate>
+; 2010; 
+<collectorName id="26D75351315FFFC97BE317D1F0A2238D" box="[428,498,1970,1996]" pageId="18" pageNumber="67">Zallot</collectorName>
+leg.; 
+<specimenCode id="DB849EFC315FFFC9787917D0F3C4238C" box="[566,660,1971,1997]" collectionCode="EZ" pageId="18" pageNumber="67">EZ0879</specimenCode>
+</materialsCitation>
+• 
+<materialsCitation id="3B4A3CDA315FFFC878E017D0F04C2562" ID-GBIF-Occurrence="3333861447" collectingDate="2010-04" collectionCode="EZ" collectorName="Zallot" country="Italy" lastPageId="19" lastPageNumber="68" latitude="45.62137" location="Ferrazza" longLatPrecision="1" longitude="11.19538" pageId="18" pageNumber="67" specimenCode="EZ0881" specimenCount="1">
+<location id="8EFD605C315FFFC978E017D0F248238C" LSID="urn:lsid:plazi:treatment:038B8791315FFFC17BAB1477F36A252B:8EFD605C315FFFC978E017D0F248238C" box="[687,792,1971,1997]" country="Italy" latitude="45.62137" longLatPrecision="1" longitude="11.19538" name="Ferrazza" pageId="18" pageNumber="67">Ferrazza</location>
+; 
+<geoCoordinate id="EE165040315FFFC9796A17D1F2EF238C" box="[805,959,1970,1997]" degrees="45.62137" direction="north" orientation="latitude" pageId="18" pageNumber="67" precision="1" value="45.62137">45.62137° N</geoCoordinate>
+, 
+<geoCoordinate id="EE165040315FFFC9798317D1F532238C" box="[972,1122,1970,1997]" degrees="11.19538" direction="east" orientation="longitude" pageId="18" pageNumber="67" precision="1" value="11.19538">11.19538° E</geoCoordinate>
+; 
+<date id="FF9C1047315FFFC97E2117D0F5B7238C" box="[1134,1255,1971,1997]" pageId="18" pageNumber="67" value="2010-04">
+<collectingDate id="EFD8E9AF315FFFC97E2117D0F5B7238C" box="[1134,1255,1971,1997]" pageId="18" pageNumber="67" value="2010-04">Apr. 2010</collectingDate>
+</date>
+; 
+<collectorName id="26D75351315FFFC97EBA17D1F46B238D" box="[1269,1339,1970,1996]" pageId="18" pageNumber="67">Zallot</collectorName>
+leg.; 
+<specimenCode id="DB849EFC315EFFC87AF2116AF04C2562" box="[189,284,265,291]" collectionCode="EZ" pageId="19" pageNumber="68">EZ0881</specimenCode>
+</materialsCitation>
+• 
+<materialsCitation id="3B4A3CDA315EFFC87B78116AF5AF2562" ID-GBIF-Occurrence="3333861438" box="[311,1279,265,292]" collectingDate="2010-06" collectionCode="EZ" collectorName="Scarlassara" country="Italy" latitude="45.56942" location="Fumane-Molina" longLatPrecision="1" longitude="10.89856" pageId="19" pageNumber="68" specimenCode="EZ0936" specimenCount="1">
+<location id="8EFD605C315EFFC87B78116AF0A82562" LSID="urn:lsid:plazi:treatment:038B8791315FFFC17BAB1477F36A252B:8EFD605C315EFFC87B78116AF0A82562" box="[311,504,265,291]" country="Italy" latitude="45.56942" longLatPrecision="1" longitude="10.89856" name="Fumane-Molina" pageId="19" pageNumber="68">Fumane-Molina</location>
+; 
+<geoCoordinate id="EE165040315EFFC8784A116AF3F02562" box="[517,672,265,292]" degrees="45.56942" direction="north" orientation="latitude" pageId="19" pageNumber="68" precision="1" value="45.56942">45.56942° N</geoCoordinate>
+, 
+<geoCoordinate id="EE165040315EFFC878E2116AF2152562" box="[685,837,265,292]" degrees="10.89856" direction="east" orientation="longitude" pageId="19" pageNumber="68" precision="1" value="10.89856">10.89856° E</geoCoordinate>
+; 
+<date id="FF9C1047315EFFC8791C116AF29A2562" box="[851,970,265,291]" pageId="19" pageNumber="68" value="2010-06">
+<collectingDate id="EFD8E9AF315EFFC8791C116AF29A2562" box="[851,970,265,291]" pageId="19" pageNumber="68" value="2010-06">Jun. 2010</collectingDate>
+</date>
+; 
+<collectorName id="26D75351315EFFC87998116AF50B2562" box="[983,1115,265,291]" pageId="19" pageNumber="68">Scarlassara</collectorName>
+leg.; 
+<specimenCode id="DB849EFC315EFFC87EEF116AF5AF2562" box="[1184,1279,265,291]" collectionCode="EZ" pageId="19" pageNumber="68">EZ0936</specimenCode>
+</materialsCitation>
+• 
+<materialsCitation id="3B4A3CDA315EFFC87F54116AF2292507" ID-GBIF-Occurrence="3333861371" collectionCode="EZ" collectorName="Zallot" country="Italy" latitude="45.46972" location="Lago di Fimon" longLatPrecision="389" longitude="11.54" pageId="19" pageNumber="68" specimenCode="EZ0892" specimenCount="1">
+<location id="8EFD605C315EFFC87F54116AF05D2507" LSID="urn:lsid:plazi:treatment:038B8791315FFFC17BAB1477F36A252B:8EFD605C315EFFC87F54116AF05D2507" country="Italy" latitude="45.46972" longLatPrecision="389" longitude="11.54" name="Lago di Fimon" pageId="19" pageNumber="68">Lago di Fimon</location>
+; 
+<geoCoordinate id="EE165040315EFFC87B53114FF0E72506" box="[284,439,300,327]" degrees="45.46972" direction="north" orientation="latitude" pageId="19" pageNumber="68" precision="1" value="45.46972">45.46972° N</geoCoordinate>
+, 
+<geoCoordinate id="EE165040315EFFC87B89114FF3612506" box="[454,561,300,327]" degrees="11.54" direction="east" orientation="longitude" pageId="19" pageNumber="68" precision="555" value="11.54">11.54° E</geoCoordinate>
+; 2009; 
+<collectorName id="26D75351315EFFC878C2114FF3832507" box="[653,723,300,326]" pageId="19" pageNumber="68">Zallot</collectorName>
+leg.; 
+<specimenCode id="DB849EFC315EFFC87955114FF2292507" box="[794,889,300,326]" collectionCode="EZ" pageId="19" pageNumber="68">EZ0892</specimenCode>
+</materialsCitation>
+• 
+<materialsCitation id="3B4A3CDA315EFFC879D8114FF0BA2528" ID-GBIF-Occurrence="3333861384" collectionCode="EZ" collectorName="Zallot" country="Italy" latitude="45.45607" location="Lumignano" longLatPrecision="1" longitude="11.57914" pageId="19" pageNumber="68" specimenCode="EZ0893" specimenCount="1">
+<location id="8EFD605C315EFFC879D8114FF5722507" LSID="urn:lsid:plazi:treatment:038B8791315FFFC17BAB1477F36A252B:8EFD605C315EFFC879D8114FF5722507" box="[919,1058,300,326]" country="Italy" latitude="45.45607" longLatPrecision="1" longitude="11.57914" name="Lumignano" pageId="19" pageNumber="68">Lumignano</location>
+; 
+<geoCoordinate id="EE165040315EFFC87E7F114FF59B2506" box="[1072,1227,300,327]" degrees="45.45607" direction="north" orientation="latitude" pageId="19" pageNumber="68" precision="1" value="45.45607">45.45607° N</geoCoordinate>
+, 
+<geoCoordinate id="EE165040315EFFC87E95114FF4212506" box="[1242,1393,300,327]" degrees="11.57914" direction="east" orientation="longitude" pageId="19" pageNumber="68" precision="1" value="11.57914">11.57914° E</geoCoordinate>
+; 2010; 
+<collectorName id="26D75351315EFFC87B49112CF01C2528" box="[262,332,335,361]" pageId="19" pageNumber="68">Zallot</collectorName>
+leg.; 
+<specimenCode id="DB849EFC315EFFC87BC4112CF0BA2528" box="[395,490,335,361]" collectionCode="EZ" pageId="19" pageNumber="68">EZ0893</specimenCode>
+</materialsCitation>
+• 
+<materialsCitation id="3B4A3CDA315EFFC8784F112CF4432528" ID-GBIF-Occurrence="3333861404" box="[512,1299,335,362]" collectingDate="2010-04" collectionCode="EZ" collectorName="Zallot" country="Italy" latitude="45.48662" location="Mizzole" longLatPrecision="1" longitude="11.05524" pageId="19" pageNumber="68" specimenCode="EZ0878" specimenCount="1">
+<location id="8EFD605C315EFFC8784F112CF3342528" LSID="urn:lsid:plazi:treatment:038B8791315FFFC17BAB1477F36A252B:8EFD605C315EFFC8784F112CF3342528" box="[512,612,335,361]" country="Italy" latitude="45.48662" longLatPrecision="1" longitude="11.05524" name="Mizzole" pageId="19" pageNumber="68">Mizzole</location>
+; 
+<geoCoordinate id="EE165040315EFFC87821112CF256252B" box="[622,774,335,362]" degrees="45.48662" direction="north" orientation="latitude" pageId="19" pageNumber="68" precision="1" value="45.48662">45.48662° N</geoCoordinate>
+, 
+<geoCoordinate id="EE165040315EFFC8795F112CF2F4252B" box="[784,932,335,362]" degrees="11.05524" direction="east" orientation="longitude" pageId="19" pageNumber="68" precision="1" value="11.05524">11.05524° E</geoCoordinate>
+; 
+<date id="FF9C1047315EFFC879E11133F5752528" box="[942,1061,335,362]" pageId="19" pageNumber="68" value="2010-04">
+<collectingDate id="EFD8E9AF315EFFC879E11133F5752528" box="[942,1061,335,362]" pageId="19" pageNumber="68" value="2010-04">Apr. 2010</collectingDate>
+</date>
+; 
+<collectorName id="26D75351315EFFC87E7F112CF5262528" box="[1072,1142,335,361]" pageId="19" pageNumber="68">Zallot</collectorName>
+leg.; 
+<specimenCode id="DB849EFC315EFFC87EFA112CF4432528" box="[1205,1299,335,361]" collectionCode="EZ" pageId="19" pageNumber="68">EZ0878</specimenCode>
+</materialsCitation>
+• 
+<materialsCitation id="3B4A3CDA315EFFC87F651133F56D25CC" ID-GBIF-Occurrence="3333861390" collectingDate="2010-05" collectionCode="EZ" collectorName="G. Zallot" country="Italy" latitude="45.35477" location="Monte delle Piume" longLatPrecision="1" longitude="11.45641" pageId="19" pageNumber="68" specimenCode="EZ0889" specimenCount="1">
+<location id="8EFD605C315EFFC87F651133F01E25CD" LSID="urn:lsid:plazi:treatment:038B8791315FFFC17BAB1477F36A252B:8EFD605C315EFFC87F651133F01E25CD" country="Italy" latitude="45.35477" longLatPrecision="1" longitude="11.45641" name="Monte delle Piume" pageId="19" pageNumber="68">Monte delle Piume</location>
+; 
+<geoCoordinate id="EE165040315EFFC87B151111F0A525CC" box="[346,501,370,397]" degrees="45.35477" direction="north" orientation="latitude" pageId="19" pageNumber="68" precision="1" value="45.35477">45.35477° N</geoCoordinate>
+, 
+<geoCoordinate id="EE165040315EFFC8784D1111F3C825CC" box="[514,664,370,397]" degrees="11.45641" direction="east" orientation="longitude" pageId="19" pageNumber="68" precision="1" value="11.45641">11.45641° E</geoCoordinate>
+; 
+<date id="FF9C1047315EFFC878E91110F27225CC" box="[678,802,371,397]" pageId="19" pageNumber="68" value="2010-05">
+<collectingDate id="EFD8E9AF315EFFC878E91110F27225CC" box="[678,802,371,397]" pageId="19" pageNumber="68" value="2010-05">May 2010</collectingDate>
+</date>
+; 
+<collectorName id="26D75351315EFFC879601110F2CB25CD" box="[815,923,370,397]" pageId="19" pageNumber="68">G. Zallot</collectorName>
+leg.; 
+<specimenCode id="DB849EFC315EFFC879901110F56D25CC" box="[991,1085,371,397]" collectionCode="EZ" pageId="19" pageNumber="68">EZ0889</specimenCode>
+</materialsCitation>
+• 
+<materialsCitation id="3B4A3CDA315EFFC87E161110F3D425F1" ID-GBIF-Occurrence="3333861394" collectionCode="EZ" collectorName="Zallot" country="Italy" latitude="45.28735" location="Mt Rusta" longLatPrecision="1" longitude="11.68563" pageId="19" pageNumber="68" specimenCode="EZ0894" specimenCount="1">
+<location id="8EFD605C315EFFC87E161110F59B25CC" LSID="urn:lsid:plazi:treatment:038B8791315FFFC17BAB1477F36A252B:8EFD605C315EFFC87E161110F59B25CC" box="[1113,1227,371,397]" country="Italy" latitude="45.28735" longLatPrecision="1" longitude="11.68563" name="Mt Rusta" pageId="19" pageNumber="68">Mt Rusta</location>
+; 
+<geoCoordinate id="EE165040315EFFC87E971111F42225CC" box="[1240,1394,370,397]" degrees="45.28735" direction="north" orientation="latitude" pageId="19" pageNumber="68" precision="1" value="45.28735">45.28735° N</geoCoordinate>
+, 
+<geoCoordinate id="EE165040315EFFC87AF211F5F00025F1" box="[189,336,406,433]" degrees="11.68563" direction="east" orientation="longitude" pageId="19" pageNumber="68" precision="1" value="11.68563">11.68563° E</geoCoordinate>
+; 2002; 
+<collectorName id="26D75351315EFFC87BED11F5F0B825F1" box="[418,488,406,432]" pageId="19" pageNumber="68">Zallot</collectorName>
+leg.; 
+<specimenCode id="DB849EFC315EFFC8786A11F5F3D425F1" box="[549,644,406,432]" collectionCode="EZ" pageId="19" pageNumber="68">EZ0894</specimenCode>
+</materialsCitation>
+• 
+<materialsCitation id="3B4A3CDA315EFFC878D711F5F04C2592" ID-GBIF-Occurrence="3333861391" collectionCode="EZ" collectorName="Zallot" country="Italy" latitude="45.66528" location="Novale-Valdagno" longLatPrecision="1" longitude="11.29528" pageId="19" pageNumber="68" specimenCode="EZ0884" specimenCount="1">
+<location id="8EFD605C315EFFC878D711F5F23925F1" LSID="urn:lsid:plazi:treatment:038B8791315FFFC17BAB1477F36A252B:8EFD605C315EFFC878D711F5F23925F1" box="[664,873,406,432]" country="Italy" latitude="45.66528" longLatPrecision="1" longitude="11.29528" name="Novale-Valdagno" pageId="19" pageNumber="68">Novale-Valdagno</location>
+; 
+<geoCoordinate id="EE165040315EFFC8793C11F5F55A25F1" box="[883,1034,406,433]" degrees="45.66528" direction="north" orientation="latitude" pageId="19" pageNumber="68" precision="1" value="45.66528">45.66528° N</geoCoordinate>
+, 
+<geoCoordinate id="EE165040315EFFC87E5C11F5F5F625F1" box="[1043,1190,406,433]" degrees="11.29528" direction="east" orientation="longitude" pageId="19" pageNumber="68" precision="1" value="11.29528">11.29528° E</geoCoordinate>
+; 2000; 
+<collectorName id="26D75351315EFFC87EB711F5F46E25F1" box="[1272,1342,406,432]" pageId="19" pageNumber="68">Zallot</collectorName>
+leg.; 
+<specimenCode id="DB849EFC315EFFC87AF211DAF04C2592" box="[189,284,441,467]" collectionCode="EZ" pageId="19" pageNumber="68">EZ0884</specimenCode>
+</materialsCitation>
+• 
+<materialsCitation id="3B4A3CDA315EFFC87B7A11DAF5BC2592" ID-GBIF-Occurrence="3333861418" box="[309,1260,441,468]" collectionCode="EZ" collectorName="Zallot" country="Italy" latitude="45.47694" location="Perarolo" longLatPrecision="1" longitude="11.50056" municipality="Monti Berici" pageId="19" pageNumber="68" specimenCode="EZ0891" specimenCount="1">
+<locationDeviation id="9A2F2FA5315EFFC87B7A11DAF3372592" box="[309,615,441,467]" pageId="19" pageNumber="68">Perarolo dei Monti Berici</locationDeviation>
+, 
+<geoCoordinate id="EE165040315EFFC8783C11DAF25C2592" box="[627,780,441,468]" degrees="45.47694" direction="north" orientation="latitude" pageId="19" pageNumber="68" precision="1" value="45.47694">45.47694° N</geoCoordinate>
+, 
+<geoCoordinate id="EE165040315EFFC8795711DAF2FE2592" box="[792,942,441,468]" degrees="11.50056" direction="east" orientation="longitude" pageId="19" pageNumber="68" precision="1" value="11.50056">11.50056° E</geoCoordinate>
+; 1999, 
+<collectorName id="26D75351315EFFC87E4A11DAF51B2592" box="[1029,1099,441,467]" pageId="19" pageNumber="68">Zallot</collectorName>
+leg.; 
+<specimenCode id="DB849EFC315EFFC87EC111DAF5BC2592" box="[1166,1260,441,467]" collectionCode="EZ" pageId="19" pageNumber="68">EZ0891</specimenCode>
+</materialsCitation>
+• 
+<materialsCitation id="3B4A3CDA315EFFC87F4911DAF21E25B7" ID-GBIF-Occurrence="3333861303" collectionCode="EZ" collectorName="Zallot" country="Italy" latitude="45.63389" location="Priabona" longLatPrecision="1" longitude="11.37417" pageId="19" pageNumber="68" specimenCode="EZ0888" specimenCount="1">
+<location id="8EFD605C315EFFC87F4911DAF4222592" LSID="urn:lsid:plazi:treatment:038B8791315FFFC17BAB1477F36A252B:8EFD605C315EFFC87F4911DAF4222592" box="[1286,1394,441,467]" country="Italy" latitude="45.63389" longLatPrecision="1" longitude="11.37417" name="Priabona" pageId="19" pageNumber="68">Priabona</location>
+; 
+<geoCoordinate id="EE165040315EFFC87AF211BFF00A25B6" box="[189,346,476,503]" degrees="45.63389" direction="north" orientation="latitude" pageId="19" pageNumber="68" precision="1" value="45.63389">45.63389° N</geoCoordinate>
+, 
+<geoCoordinate id="EE165040315EFFC87B2611BFF35225B6" box="[361,514,476,503]" degrees="11.37417" direction="east" orientation="longitude" pageId="19" pageNumber="68" precision="1" value="11.37417">11.37417° E</geoCoordinate>
+; 2000; 
+<collectorName id="26D75351315EFFC8782F11BFF3F625B7" box="[608,678,476,502]" pageId="19" pageNumber="68">Zallot</collectorName>
+leg.; 
+<specimenCode id="DB849EFC315EFFC878BF11BFF21E25B7" box="[752,846,476,502]" collectionCode="EZ" pageId="19" pageNumber="68">EZ0888</specimenCode>
+</materialsCitation>
+• 
+<materialsCitation id="3B4A3CDA315EFFC8792111BFF3DC2658" ID-GBIF-Occurrence="3333861376" collectionCode="EZ" collectorName="Zallot" country="Italy" latitude="45.42833" location="San Giovanni di Zovencedo" longLatPrecision="1" longitude="11.49417" pageId="19" pageNumber="68" specimenCode="EZ0890" specimenCount="1">
+<location id="8EFD605C315EFFC8792111BFF59625B7" LSID="urn:lsid:plazi:treatment:038B8791315FFFC17BAB1477F36A252B:8EFD605C315EFFC8792111BFF59625B7" box="[878,1222,476,502]" country="Italy" latitude="45.42833" longLatPrecision="1" longitude="11.49417" name="San Giovanni di Zovencedo" pageId="19" pageNumber="68">San Giovanni di Zovencedo</location>
+; 
+<geoCoordinate id="EE165040315EFFC87E9A11BFF42225B6" box="[1237,1394,476,503]" degrees="45.42833" direction="north" orientation="latitude" pageId="19" pageNumber="68" precision="1" value="45.42833">45.42833° N</geoCoordinate>
+, 
+<geoCoordinate id="EE165040315EFFC87AF2119CF001265B" box="[189,337,511,538]" degrees="11.49417" direction="east" orientation="longitude" pageId="19" pageNumber="68" precision="1" value="11.49417">11.49417° E</geoCoordinate>
+; 1999; 
+<collectorName id="26D75351315EFFC87BE8119CF0BD2658" box="[423,493,511,537]" pageId="19" pageNumber="68">Zallot</collectorName>
+leg.; 
+<specimenCode id="DB849EFC315EFFC87862119CF3DC2658" box="[557,652,511,537]" collectionCode="EZ" pageId="19" pageNumber="68">EZ0890</specimenCode>
+</materialsCitation>
+• 
+<materialsCitation id="3B4A3CDA315EFFC878EC119CF04C267C" ID-GBIF-Occurrence="3333861435" collectionCode="EZ" collectorName="Zallot" country="Italy" latitude="45.52866" location="Tregnago-Finetti" longLatPrecision="4" longitude="11.1806" pageId="19" pageNumber="68" specimenCode="EZ0880" specimenCount="1">
+<location id="8EFD605C315EFFC878EC119CF23D2658" LSID="urn:lsid:plazi:treatment:038B8791315FFFC17BAB1477F36A252B:8EFD605C315EFFC878EC119CF23D2658" box="[675,877,511,537]" country="Italy" latitude="45.52866" longLatPrecision="4" longitude="11.1806" name="Tregnago-Finetti" pageId="19" pageNumber="68">Tregnago-Finetti</location>
+; 
+<geoCoordinate id="EE165040315EFFC87937119CF540265B" box="[888,1040,511,538]" degrees="45.52866" direction="north" orientation="latitude" pageId="19" pageNumber="68" precision="1" value="45.52866">45.52866° N</geoCoordinate>
+, 
+<geoCoordinate id="EE165040315EFFC87E54119CF5F1265B" box="[1051,1185,511,538]" degrees="11.1806" direction="east" orientation="longitude" pageId="19" pageNumber="68" precision="5" value="11.1806">11.1806° E</geoCoordinate>
+; 2005; 
+<collectorName id="26D75351315EFFC87EB9119CF46C2658" box="[1270,1340,511,537]" pageId="19" pageNumber="68">Zallot</collectorName>
+leg.; 
+<specimenCode id="DB849EFC315EFFC87AF21240F04C267C" box="[189,284,547,573]" collectionCode="EZ" pageId="19" pageNumber="68">EZ0880</specimenCode>
+</materialsCitation>
+• 
+<materialsCitation id="3B4A3CDA315EFFC87B7B1241F57D267C" ID-GBIF-Occurrence="3333861333" box="[308,1069,546,573]" collectionCode="EZ" collectorName="Zallot" country="Italy" latitude="45.64991" location="Valdagno" longLatPrecision="1" longitude="11.30079" pageId="19" pageNumber="68" specimenCode="EZ0885" specimenCount="1">
+<location id="8EFD605C315EFFC87B7B1241F0F7267D" LSID="urn:lsid:plazi:treatment:038B8791315FFFC17BAB1477F36A252B:8EFD605C315EFFC87B7B1241F0F7267D" box="[308,423,546,572]" country="Italy" latitude="45.64991" longLatPrecision="1" longitude="11.30079" name="Valdagno" pageId="19" pageNumber="68">Valdagno</location>
+; 
+<geoCoordinate id="EE165040315EFFC87BFD1241F31B267C" box="[434,587,546,573]" degrees="45.64991" direction="north" orientation="latitude" pageId="19" pageNumber="68" precision="1" value="45.64991">45.64991° N</geoCoordinate>
+, 
+<geoCoordinate id="EE165040315EFFC878181240F3BC267C" box="[599,748,547,573]" degrees="11.30079" direction="east" orientation="longitude" pageId="19" pageNumber="68" precision="1" value="11.30079">11.30079° E</geoCoordinate>
+; 2000; 
+<collectorName id="26D75351315EFFC8790C1241F2D9267D" box="[835,905,546,572]" pageId="19" pageNumber="68">Zallot</collectorName>
+leg.; 
+<specimenCode id="DB849EFC315EFFC879841241F57D267C" box="[971,1069,546,573]" collectionCode="EZ" pageId="19" pageNumber="68">EZ0885</specimenCode>
+</materialsCitation>
+.
+</paragraph>
+</subSubSection>
+<caption id="DF5D660F315EFFC87AF21775F3AF23A0" ID-DOI="http://doi.org/10.5281/zenodo.5176939" ID-Zenodo-Dep="5176939" httpUri="https://zenodo.org/record/5176939/files/figure.png" pageId="19" pageNumber="68" startId="19.[189,232,1814,1840]" targetBox="[189,1398,743,1775]" targetPageId="19">
+<paragraph id="8B9D3687315EFFC87AF21775F3AF23A0" blockId="19.[187,1399,1814,2017]" pageId="19" pageNumber="68">
+<emphasis id="B956EA95315EFFC87AF21775F04C2371" bold="true" box="[189,284,1814,1840]" pageId="19" pageNumber="68">Fig. 14.</emphasis>
+The five species of 
+<taxonomicName id="4C224D04315EFFC8785E1775F2D22370" authority="Zallot et al., 2015" authorityName="Zallot" authorityYear="2015" box="[529,898,1814,1841]" class="Gastropoda" family="Cochlostomatidae" genus="Cochlostoma" kingdom="Animalia" order="Architaenioglossa" pageId="19" pageNumber="61" phylum="Mollusca" rank="subGenus" subGenus="Clessiniella">
+<emphasis id="B956EA95315EFFC8785E1775F3CD2371" box="[529,669,1814,1840]" italics="true" pageId="19" pageNumber="68">Clessiniella</emphasis>
+<bibRefCitation id="EFB34B76315EFFC878E91775F2D22370" author="Zallot E. &amp; Groenenberg D. S. J. &amp; De Mattia W. &amp; Feher Z. &amp; Gittenberger E." box="[678,898,1814,1841]" pageId="19" pageNumber="68" pagination="63 - 88" refId="ref16559" refString="Zallot E., Groenenberg D. S. J., De Mattia W., Feher Z. &amp; Gittenberger E. 2015. Genera, subgenera and species of the Cochlostomatidae (Gastropoda, Caenogastropoda, Cochlostomatidae). Basteria 78 (4 - 6): 63 - 88." type="journal article" year="2015">
+Zallot 
+<emphasis id="B956EA95315EFFC878B81774F27C2371" box="[759,812,1814,1840]" italics="true" pageId="19" pageNumber="68">et al</emphasis>
+., 2015
+</bibRefCitation>
+</taxonomicName>
+. 
+<emphasis id="B956EA95315EFFC879DF1775F2982371" bold="true" box="[912,968,1814,1840]" pageId="19" pageNumber="68">A–D</emphasis>
+. Picture of a female (top) and male (bottom) specimen from the type localities. 
+<emphasis id="B956EA95315EFFC878BB175AF2592312" bold="true" box="[756,777,1849,1875]" pageId="19" pageNumber="68">A</emphasis>
+. 
+<taxonomicName id="4C224D04315EFFC8796F1759F1AC2336" authority="Boeckel, 1939" authorityName="Boeckel" authorityYear="1939" class="Gastropoda" family="Cochlostomatidae" genus="Cochlostoma" kingdom="Animalia" order="Architaenioglossa" pageId="19" pageNumber="68" phylum="Mollusca" rank="species" species="anomphale" subGenus="Clessiniella">
+<emphasis id="B956EA95315EFFC8796F1759F2EC2315" box="[800,956,1850,1876]" italics="true" pageId="19" pageNumber="68">Cochlostoma</emphasis>
+(
+<emphasis id="B956EA95315EFFC879991759F5322315" box="[982,1122,1850,1876]" italics="true" pageId="19" pageNumber="68">Clessiniella</emphasis>
+) 
+<emphasis id="B956EA95315EFFC87E341759F5AF2315" box="[1147,1279,1850,1876]" italics="true" pageId="19" pageNumber="68">anomphale</emphasis>
+<bibRefCitation id="EFB34B76315EFFC87F411759F1AC2336" author="Boeckel W." pageId="19" pageNumber="68" pagination="41 - 50" refId="ref15670" refString="Boeckel W. 1939. Cochlostoma - Arten aus den Karawanken. Archiv fur Molluskenkunde 71: 41 - 50." type="journal article" year="1939">Boeckel, 1939</bibRefCitation>
+</taxonomicName>
+. Vellach, Austria (EZ0991). 
+<emphasis id="B956EA95315EFFC87839173EF3DA2336" bold="true" box="[630,650,1885,1911]" pageId="19" pageNumber="68">B</emphasis>
+. 
+<taxonomicName id="4C224D04315EFFC878ED173EF2FB2336" authority="Zallot &amp; Mattia &amp; Fehér &amp; Gittenberger, 2021" authorityName="Zallot &amp; Mattia &amp; Fehér &amp; Gittenberger" authorityYear="2021" box="[674,939,1885,1912]" class="Gastropoda" family="Cochlostomatidae" genus="Cochlostoma" kingdom="Animalia" order="Architaenioglossa" pageId="19" pageNumber="68" phylum="Mollusca" rank="species" species="stelucarum" status="sp. nov." subGenus="Clessiniella">
+<emphasis id="B956EA95315EFFC878ED173EF39C2336" box="[674,716,1885,1911]" italics="true" pageId="19" pageNumber="68">Co.</emphasis>
+(
+<emphasis id="B956EA95315EFFC878A7173EF25B2336" box="[744,779,1885,1911]" italics="true" pageId="19" pageNumber="68">Cl.</emphasis>
+) 
+<emphasis id="B956EA95315EFFC87968173EF2FB2336" box="[807,939,1885,1911]" italics="true" pageId="19" pageNumber="68">stelucarum</emphasis>
+</taxonomicName>
+<taxonomicNameLabel id="A26557EE315EFFC879F3173DF5742339" box="[956,1060,1886,1912]" pageId="19" pageNumber="68" rank="species">sp. nov.</taxonomicNameLabel>
+, Cornino, Italy (EZ0104). 
+<emphasis id="B956EA95315EFFC87AF217E3F18223DB" bold="true" box="[189,210,1920,1946]" pageId="19" pageNumber="68">C</emphasis>
+. 
+<taxonomicName id="4C224D04315EFFC87AAF17E2F39323DB" authority="(Westerlund, 1878)" baseAuthorityName="Westerlund" baseAuthorityYear="1878" box="[224,707,1920,1947]" class="Gastropoda" family="Cochlostomatidae" genus="Cochlostoma" kingdom="Animalia" order="Architaenioglossa" pageId="19" pageNumber="68" phylum="Mollusca" rank="species" species="tergestinum" subGenus="Clessiniella">
+<emphasis id="B956EA95315EFFC87AAF17E2F05A23DA" box="[224,266,1921,1947]" italics="true" pageId="19" pageNumber="68">Co.</emphasis>
+(
+<emphasis id="B956EA95315EFFC87B5517E3F06D23DB" box="[282,317,1920,1946]" italics="true" pageId="19" pageNumber="68">Cl.</emphasis>
+) 
+<emphasis id="B956EA95315EFFC87B0217E2F08823DB" box="[333,472,1921,1946]" italics="true" pageId="19" pageNumber="68">tergestinum</emphasis>
+(
+<bibRefCitation id="EFB34B76315EFFC87BAA17E3F3EA23DB" author="Westerlund C. A." box="[485,698,1920,1946]" pageId="19" pageNumber="68" pagination="108 - 109" refId="ref16440" refString="Westerlund C. A. 1878. Diagnosen neuer Mollusken. Nachrichtsblatt der Deutschen Malakozoologischen Gesellschaft 10: 108 - 109." type="journal article" year="1878">Westerlund, 1878</bibRefCitation>
+)
+</taxonomicName>
+, Val Rosandra, Italy (EZ0840). 
+<emphasis id="B956EA95315EFFC87E7917E3F51B23DB" bold="true" box="[1078,1099,1920,1946]" pageId="19" pageNumber="68">D</emphasis>
+. 
+<taxonomicName id="4C224D04315EFFC87E1517E2F05323FF" authority="(Strobel, 1851)" baseAuthorityName="Strobel" baseAuthorityYear="1851" class="Gastropoda" family="Pomatiidae" genus="Pomatias" kingdom="Animalia" order="Littorinimorpha" pageId="19" pageNumber="68" phylum="Mollusca" rank="species" species="villae" subGenus="Clessiniella">
+<emphasis id="B956EA95315EFFC87E1517E2F5D423DA" box="[1114,1156,1921,1947]" italics="true" pageId="19" pageNumber="68">Co.</emphasis>
+(
+<emphasis id="B956EA95315EFFC87EDB17E3F5E723DB" box="[1172,1207,1920,1946]" italics="true" pageId="19" pageNumber="68">Cl.</emphasis>
+) 
+<emphasis id="B956EA95315EFFC87E8817E3F45923DB" box="[1223,1289,1920,1946]" italics="true" pageId="19" pageNumber="68">villae</emphasis>
+(
+<bibRefCitation id="EFB34B76315EFFC87F5717E3F1AB23FF" author="Strobel P." pageId="19" pageNumber="68" refId="ref16289" refString="Strobel P. 1851. Notizie Malacostatiche sul Trentino. Fusi, Pavia. Available from https: // www. biodiversitylibrary. org / page / 46194631 [accessed 12 Jul. 2021]." type="url" year="1851">Strobel, 1851</bibRefCitation>
+)
+</taxonomicName>
+, Mizzole, Italy (EZ0878). 
+<emphasis id="B956EA95315EFFC8787717C7F31C23FF" bold="true" box="[568,588,1956,1982]" pageId="19" pageNumber="68">E</emphasis>
+. Specimens from a locality close to the type one: 
+<taxonomicName id="4C224D04315EFFC87EC517C7F0F623A0" authority="(A. J. Wagner, 1897)" baseAuthorityName="A. J. Wagner" baseAuthorityYear="1897" class="Gastropoda" family="Cochlostomatidae" genus="Cochlostoma" kingdom="Animalia" order="Architaenioglossa" pageId="19" pageNumber="68" phylum="Mollusca" rank="species" species="waldemari" subGenus="Clessiniella">
+<emphasis id="B956EA95315EFFC87EC517C7F5E323FF" box="[1162,1203,1956,1982]" italics="true" pageId="19" pageNumber="68">Co.</emphasis>
+(
+<emphasis id="B956EA95315EFFC87E8A17C0F5B823FC" box="[1221,1256,1955,1981]" italics="true" pageId="19" pageNumber="68">Cl.</emphasis>
+) 
+<emphasis id="B956EA95315EFFC87EB717C0F42723FC" box="[1272,1399,1955,1981]" italics="true" pageId="19" pageNumber="68">waldemari</emphasis>
+(A.J. 
+<bibRefCitation id="EFB34B76315EFFC87AA217A4F0CD23A0" author="Wagner A. J." box="[237,413,1991,2017]" pageId="19" pageNumber="68" pagination="565 - 632" refId="ref16375" refString="Wagner A. J. 1897. Monographie der Gattung Pomatias Studer. Denkschriften der kaiserlichen Akademie der Wissenschaften, Mathematisch-Naturwissenschaftliche Classe 64: 565 - 632. https: // doi. org / 10.5962 / bhl. title. 10792" type="journal article" year="1897">Wagner, 1897</bibRefCitation>
+)
+</taxonomicName>
+, Mt Klek, Croatia (EZ0905).
+</paragraph>
+</caption>
+<caption id="DF5D660F3159FFCF7AF213A3F5D52004" ID-DOI="http://doi.org/10.5281/zenodo.5176941" ID-Zenodo-Dep="5176941" httpUri="https://zenodo.org/record/5176941/files/figure.png" pageId="20" pageNumber="69" startId="20.[189,231,960,986]" targetBox="[406,1228,270,878]" targetPageId="20">
+<paragraph id="8B9D36873159FFCF7AF213A3F5D52004" blockId="20.[185,1398,960,1093]" pageId="20" pageNumber="69">
+<emphasis id="B956EA953159FFCF7AF213A3F045279B" bold="true" box="[189,277,960,986]" pageId="20" pageNumber="69">Fig. 15.</emphasis>
+Comparison of female genitalia. 
+<emphasis id="B956EA953159FFCF78CB13A3F3C9279B" bold="true" box="[644,665,960,986]" pageId="20" pageNumber="69">A</emphasis>
+. 
+<taxonomicName id="4C224D043159FFCF78E713A3F442279A" authority="Boeckel, 1939" authorityName="Boeckel" authorityYear="1939" box="[680,1298,960,987]" class="Gastropoda" family="Cochlostomatidae" genus="Cochlostoma" kingdom="Animalia" order="Architaenioglossa" pageId="20" pageNumber="69" phylum="Mollusca" rank="species" species="anomphale" subGenus="Clessiniella">
+<emphasis id="B956EA953159FFCF78E713A3F211279B" box="[680,833,960,986]" italics="true" pageId="20" pageNumber="69">Cochlostoma</emphasis>
+(
+<emphasis id="B956EA953159FFCF790113A3F287279B" box="[846,983,960,986]" italics="true" pageId="20" pageNumber="69">Clessiniella</emphasis>
+) 
+<emphasis id="B956EA953159FFCF79AA13A3F536279B" box="[997,1126,960,986]" italics="true" pageId="20" pageNumber="69">anomphale</emphasis>
+<bibRefCitation id="EFB34B763159FFCF7E2613A3F442279A" author="Boeckel W." box="[1129,1298,960,987]" pageId="20" pageNumber="69" pagination="41 - 50" refId="ref15670" refString="Boeckel W. 1939. Cochlostoma - Arten aus den Karawanken. Archiv fur Molluskenkunde 71: 41 - 50." type="journal article" year="1939">Boeckel, 1939</bibRefCitation>
+</taxonomicName>
+.Vellach, Austria (EZ0991). 
+<emphasis id="B956EA953159FFCF7BD01387F0E027BF" bold="true" box="[415,432,996,1022]" pageId="20" pageNumber="69">B</emphasis>
+. 
+<taxonomicName id="4C224D043159FFCF7B8E1387F3E327BF" authority="Zallot &amp; Mattia &amp; Fehér &amp; Gittenberger, 2021" authorityName="Zallot &amp; Mattia &amp; Fehér &amp; Gittenberger" authorityYear="2021" box="[449,691,996,1022]" class="Gastropoda" family="Cochlostomatidae" genus="Cochlostoma" kingdom="Animalia" order="Architaenioglossa" pageId="20" pageNumber="69" phylum="Mollusca" rank="species" species="stelucarum" status="sp. nov." subGenus="Clessiniella">
+<emphasis id="B956EA953159FFCF7B8E1387F0BA27BF" box="[449,490,996,1022]" italics="true" pageId="20" pageNumber="69">Co.</emphasis>
+(
+<emphasis id="B956EA953159FFCF7BB21387F34F27BF" box="[509,543,996,1022]" italics="true" pageId="20" pageNumber="69">Cl.</emphasis>
+) 
+<emphasis id="B956EA953159FFCF787D1387F3E327BF" box="[562,691,996,1022]" italics="true" pageId="20" pageNumber="69">stelucarum</emphasis>
+</taxonomicName>
+<taxonomicNameLabel id="A26557EE3159FFCF78F21387F24B27BF" box="[701,795,996,1022]" pageId="20" pageNumber="69" rank="species">sp. nov.</taxonomicNameLabel>
+, Cornino, Italy (EZ0104). 
+<emphasis id="B956EA953159FFCF7E161380F53C27BC" bold="true" box="[1113,1132,995,1021]" pageId="20" pageNumber="69">C</emphasis>
+. 
+<taxonomicName id="4C224D043159FFCF7E321387F0F32060" authority="(Westerlund, 1878)" baseAuthorityName="Westerlund" baseAuthorityYear="1878" class="Gastropoda" family="Cochlostomatidae" genus="Cochlostoma" kingdom="Animalia" order="Architaenioglossa" pageId="20" pageNumber="69" phylum="Mollusca" rank="species" species="tergestinum" subGenus="Clessiniella">
+<emphasis id="B956EA953159FFCF7E321387F5F627BF" box="[1149,1190,996,1022]" italics="true" pageId="20" pageNumber="69">Co.</emphasis>
+(
+<emphasis id="B956EA953159FFCF7EF61387F58C27BF" box="[1209,1244,996,1022]" italics="true" pageId="20" pageNumber="69">Cl.</emphasis>
+) 
+<emphasis id="B956EA953159FFCF7EA11387F42627BC" box="[1262,1398,996,1021]" italics="true" pageId="20" pageNumber="69">tergestinum</emphasis>
+(
+<bibRefCitation id="EFB34B763159FFCF7A8A1464F0CA2060" author="Westerlund C. A." box="[197,410,1031,1057]" pageId="20" pageNumber="69" pagination="108 - 109" refId="ref16440" refString="Westerlund C. A. 1878. Diagnosen neuer Mollusken. Nachrichtsblatt der Deutschen Malakozoologischen Gesellschaft 10: 108 - 109." type="journal article" year="1878">Westerlund, 1878</bibRefCitation>
+)
+</taxonomicName>
+, Val Rosandra, Italy (EZ0840). 
+<emphasis id="B956EA953159FFCF796A1464F26A2060" bold="true" box="[805,826,1031,1057]" pageId="20" pageNumber="69">D</emphasis>
+. 
+<taxonomicName id="4C224D043159FFCF79031464F5912063" authority="(Strobel, 1851)" baseAuthorityName="Strobel" baseAuthorityYear="1851" box="[844,1217,1031,1058]" class="Gastropoda" family="Pomatiidae" genus="Pomatias" kingdom="Animalia" order="Littorinimorpha" pageId="20" pageNumber="69" phylum="Mollusca" rank="species" species="villae" subGenus="Clessiniella">
+<emphasis id="B956EA953159FFCF79031464F2252060" box="[844,885,1031,1057]" italics="true" pageId="20" pageNumber="69">Co.</emphasis>
+(
+<emphasis id="B956EA953159FFCF79C61464F2FC2060" box="[905,940,1031,1057]" italics="true" pageId="20" pageNumber="69">Cl.</emphasis>
+) 
+<emphasis id="B956EA953159FFCF798F1464F5502060" box="[960,1024,1031,1057]" italics="true" pageId="20" pageNumber="69">villae</emphasis>
+(
+<bibRefCitation id="EFB34B763159FFCF7E5C1464F5E82063" author="Strobel P." box="[1043,1208,1031,1058]" pageId="20" pageNumber="69" refId="ref16289" refString="Strobel P. 1851. Notizie Malacostatiche sul Trentino. Fusi, Pavia. Available from https: // www. biodiversitylibrary. org / page / 46194631 [accessed 12 Jul. 2021]." type="url" year="1851">Strobel, 1851</bibRefCitation>
+)
+</taxonomicName>
+, Mizzole, Italy (EZ0878). 
+<emphasis id="B956EA953159FFCF7B731449F01F2005" bold="true" box="[316,335,1066,1092]" pageId="20" pageNumber="69">E</emphasis>
+. 
+<taxonomicName id="4C224D043159FFCF7B111449F2652005" authority="(A. J. Wagner, 1897)" baseAuthorityName="A. J. Wagner" baseAuthorityYear="1897" box="[350,821,1066,1093]" class="Gastropoda" family="Cochlostomatidae" genus="Cochlostoma" kingdom="Animalia" order="Architaenioglossa" pageId="20" pageNumber="69" phylum="Mollusca" rank="species" species="waldemari" subGenus="Clessiniella">
+<emphasis id="B956EA953159FFCF7B111449F0D72005" box="[350,391,1066,1092]" italics="true" pageId="20" pageNumber="69">Co.</emphasis>
+(
+<emphasis id="B956EA953159FFCF7BD71449F0EB2005" box="[408,443,1066,1092]" italics="true" pageId="20" pageNumber="69">Cl.</emphasis>
+) 
+<emphasis id="B956EA953159FFCF7B841449F3172005" box="[459,583,1066,1092]" italics="true" pageId="20" pageNumber="69">waldemari</emphasis>
+(A.J. 
+<bibRefCitation id="EFB34B763159FFCF78301449F27C2005" author="Wagner A. J." box="[639,812,1066,1092]" pageId="20" pageNumber="69" pagination="565 - 632" refId="ref16375" refString="Wagner A. J. 1897. Monographie der Gattung Pomatias Studer. Denkschriften der kaiserlichen Akademie der Wissenschaften, Mathematisch-Naturwissenschaftliche Classe 64: 565 - 632. https: // doi. org / 10.5962 / bhl. title. 10792" type="journal article" year="1897">Wagner, 1897</bibRefCitation>
+)
+</taxonomicName>
+, Mt Klek, Croatia (EZ0905).
+</paragraph>
+</caption>
+<caption id="DF5D660F3159FFCF7AF21734F5E5239A" ID-DOI="http://doi.org/10.5281/zenodo.5176943" ID-Zenodo-Dep="5176943" httpUri="https://zenodo.org/record/5176943/files/figure.png" pageId="20" pageNumber="69" startId="20.[189,232,1879,1905]" targetBox="[401,1174,1156,1820]" targetPageId="20">
+<paragraph id="8B9D36873159FFCF7AF21734F5E5239A" blockId="20.[185,1399,1879,2011]" pageId="20" pageNumber="69">
+<emphasis id="B956EA953159FFCF7AF21734F0462330" bold="true" box="[189,278,1879,1905]" pageId="20" pageNumber="69">Fig. 16.</emphasis>
+Comparison of male genitalia. 
+<emphasis id="B956EA953159FFCF783A1734F3DA2330" bold="true" box="[629,650,1879,1905]" pageId="20" pageNumber="69">A</emphasis>
+. 
+<taxonomicName id="4C224D043159FFCF78D61734F45F2330" authority="Boeckel, 1939" authorityName="Boeckel" authorityYear="1939" box="[665,1295,1879,1905]" class="Gastropoda" family="Cochlostomatidae" genus="Cochlostoma" kingdom="Animalia" order="Architaenioglossa" pageId="20" pageNumber="69" phylum="Mollusca" rank="species" species="anomphale" subGenus="Clessiniella">
+<emphasis id="B956EA953159FFCF78D61734F2652330" box="[665,821,1879,1905]" italics="true" pageId="20" pageNumber="69">Cochlostoma</emphasis>
+(
+<emphasis id="B956EA953159FFCF790C1734F29F2330" box="[835,975,1879,1905]" italics="true" pageId="20" pageNumber="69">Clessiniella</emphasis>
+) 
+<emphasis id="B956EA953159FFCF79921734F5312330" box="[989,1121,1879,1905]" italics="true" pageId="20" pageNumber="69">anomphale</emphasis>
+<bibRefCitation id="EFB34B763159FFCF7E2B1734F45F2330" author="Boeckel W." box="[1124,1295,1879,1905]" pageId="20" pageNumber="69" pagination="41 - 50" refId="ref15670" refString="Boeckel W. 1939. Cochlostoma - Arten aus den Karawanken. Archiv fur Molluskenkunde 71: 41 - 50." type="journal article" year="1939">Boeckel, 1939</bibRefCitation>
+</taxonomicName>
+.Vellach, Austria (EZ0991). 
+<emphasis id="B956EA953159FFCF7BD11719F0E223D5" bold="true" box="[414,434,1914,1940]" pageId="20" pageNumber="69">B</emphasis>
+. 
+<taxonomicName id="4C224D043159FFCF7B8E1719F3E523D5" authority="Zallot &amp; Mattia &amp; Fehér &amp; Gittenberger, 2021" authorityName="Zallot &amp; Mattia &amp; Fehér &amp; Gittenberger" authorityYear="2021" box="[449,693,1914,1941]" class="Gastropoda" family="Cochlostomatidae" genus="Cochlostoma" kingdom="Animalia" order="Architaenioglossa" pageId="20" pageNumber="69" phylum="Mollusca" rank="species" species="stelucarum" status="sp. nov." subGenus="Clessiniella">
+<emphasis id="B956EA953159FFCF7B8E1719F0BB23D5" box="[449,491,1914,1940]" italics="true" pageId="20" pageNumber="69">Co.</emphasis>
+(
+<emphasis id="B956EA953159FFCF7BB31719F34F23D5" box="[508,543,1914,1940]" italics="true" pageId="20" pageNumber="69">Cl.</emphasis>
+) 
+<emphasis id="B956EA953159FFCF787E1719F3E523D5" box="[561,693,1914,1940]" italics="true" pageId="20" pageNumber="69">stelucarum</emphasis>
+</taxonomicName>
+<taxonomicNameLabel id="A26557EE3159FFCF78F31718F24A23D4" box="[700,794,1915,1941]" pageId="20" pageNumber="69" rank="species">sp. nov.</taxonomicNameLabel>
+, Cornino, Italy (EZ0104). 
+<emphasis id="B956EA953159FFCF7E181719F53C23D5" bold="true" box="[1111,1132,1914,1940]" pageId="20" pageNumber="69">C</emphasis>
+. 
+<taxonomicName id="4C224D043159FFCF7E341719F0F523F6" authority="(Westerlund, 1878)" baseAuthorityName="Westerlund" baseAuthorityYear="1878" class="Gastropoda" family="Cochlostomatidae" genus="Cochlostoma" kingdom="Animalia" order="Architaenioglossa" pageId="20" pageNumber="69" phylum="Mollusca" rank="species" species="tergestinum" subGenus="Clessiniella">
+<emphasis id="B956EA953159FFCF7E341719F5F523D5" box="[1147,1189,1914,1940]" italics="true" pageId="20" pageNumber="69">Co.</emphasis>
+(
+<emphasis id="B956EA953159FFCF7EF81719F58A23D5" box="[1207,1242,1914,1940]" italics="true" pageId="20" pageNumber="69">Cl.</emphasis>
+) 
+<emphasis id="B956EA953159FFCF7EA31718F42723D5" box="[1260,1399,1915,1940]" italics="true" pageId="20" pageNumber="69">tergestinum</emphasis>
+(
+<bibRefCitation id="EFB34B763159FFCF7A8A17FEF0CD23F6" author="Westerlund C. A." box="[197,413,1949,1975]" pageId="20" pageNumber="69" pagination="108 - 109" refId="ref16440" refString="Westerlund C. A. 1878. Diagnosen neuer Mollusken. Nachrichtsblatt der Deutschen Malakozoologischen Gesellschaft 10: 108 - 109." type="journal article" year="1878">Westerlund, 1878</bibRefCitation>
+)
+</taxonomicName>
+, Val Rosandra, Italy (EZ0840). 
+<emphasis id="B956EA953159FFCF796817FEF26B23F6" bold="true" box="[807,827,1949,1975]" pageId="20" pageNumber="69">D</emphasis>
+. 
+<taxonomicName id="4C224D043159FFCF790417FDF59123F9" authority="(Strobel, 1851)" baseAuthorityName="Strobel" baseAuthorityYear="1851" box="[843,1217,1949,1976]" class="Gastropoda" family="Pomatiidae" genus="Pomatias" kingdom="Animalia" order="Littorinimorpha" pageId="20" pageNumber="69" phylum="Mollusca" rank="species" species="villae" subGenus="Clessiniella">
+<emphasis id="B956EA953159FFCF790417FDF22523F9" box="[843,885,1950,1976]" italics="true" pageId="20" pageNumber="69">Co.</emphasis>
+(
+<emphasis id="B956EA953159FFCF79C717FEF2FB23F6" box="[904,939,1949,1975]" italics="true" pageId="20" pageNumber="69">Cl.</emphasis>
+) 
+<emphasis id="B956EA953159FFCF79F117FEF55023F6" box="[958,1024,1949,1975]" italics="true" pageId="20" pageNumber="69">villae</emphasis>
+(
+<bibRefCitation id="EFB34B763159FFCF7E5E17FEF5E823F9" author="Strobel P." box="[1041,1208,1949,1976]" pageId="20" pageNumber="69" refId="ref16289" refString="Strobel P. 1851. Notizie Malacostatiche sul Trentino. Fusi, Pavia. Available from https: // www. biodiversitylibrary. org / page / 46194631 [accessed 12 Jul. 2021]." type="url" year="1851">Strobel, 1851</bibRefCitation>
+)
+</taxonomicName>
+, Mizzole, Italy (EZ0878). 
+<emphasis id="B956EA953159FFCF7B7017A2F003239A" bold="true" box="[319,339,1985,2011]" pageId="20" pageNumber="69">E</emphasis>
+. 
+<taxonomicName id="4C224D043159FFCF7B2D17A2F213239A" authority="(A. J. Wagner, 1897)" baseAuthorityName="A. J. Wagner" baseAuthorityYear="1897" box="[354,835,1984,2011]" class="Gastropoda" family="Cochlostomatidae" genus="Cochlostoma" kingdom="Animalia" order="Architaenioglossa" pageId="20" pageNumber="69" phylum="Mollusca" rank="species" species="waldemari" subGenus="Clessiniella">
+<emphasis id="B956EA953159FFCF7B2D17A2F0DC239A" box="[354,396,1985,2011]" italics="true" pageId="20" pageNumber="69">Co.</emphasis>
+(
+<emphasis id="B956EA953159FFCF7BD217A3F090239B" box="[413,448,1984,2010]" italics="true" pageId="20" pageNumber="69">Cl.</emphasis>
+) 
+<emphasis id="B956EA953159FFCF7B9D17A3F301239B" box="[466,593,1984,2010]" italics="true" pageId="20" pageNumber="69">waldemari</emphasis>
+(A.J. 
+<bibRefCitation id="EFB34B763159FFCF78C517A2F26A239A" author="Wagner A. J." box="[650,826,1985,2011]" pageId="20" pageNumber="69" pagination="565 - 632" refId="ref16375" refString="Wagner A. J. 1897. Monographie der Gattung Pomatias Studer. Denkschriften der kaiserlichen Akademie der Wissenschaften, Mathematisch-Naturwissenschaftliche Classe 64: 565 - 632. https: // doi. org / 10.5962 / bhl. title. 10792" type="journal article" year="1897">Wagner, 1897</bibRefCitation>
+)
+</taxonomicName>
+, Tisovec, Croatia (WdM6750).
+</paragraph>
+</caption>
+<subSubSection id="C338650C3158FFCE7AF2116BF5A4274D" pageId="21" pageNumber="70" type="description">
+<paragraph id="8B9D36873158FFCE7AF2116BF01E2563" blockId="21.[189,334,264,290]" box="[189,334,264,290]" pageId="21" pageNumber="70">
+<heading id="D0D581EB3158FFCE7AF2116BF01E2563" bold="true" box="[189,334,264,290]" fontSize="11" level="3" pageId="21" pageNumber="70" reason="3">
+<emphasis id="B956EA953158FFCE7AF2116BF01E2563" bold="true" box="[189,334,264,290]" pageId="21" pageNumber="70">Description</emphasis>
+</heading>
+</paragraph>
+<paragraph id="8B9D36873158FFCE7AF21154F57C25D9" blockId="21.[189,1399,311,408]" pageId="21" pageNumber="70">
+SHELL. The teleoconch whorls have whitish, very prominent, rather straight and widely spaced ribs on the upper whorls (see 
+<figureCitation id="13192A023158FFCE782F1139F3902535" box="[608,704,346,372]" captionStart="Fig" captionStartId="16.[189,232,1848,1874]" captionTargetBox="[291,1294,297,1793]" captionTargetId="figure-14@16.[249,1338,265,1810]" captionTargetPageId="16" captionText="Fig. 11. Ribs per mm on the 1st whorl vs ribs on the 4th whorls of the species in Clessiniella Zallot et al., 2015. Violet dots = Cochlostoma (Clessiniella) anomphale Boeckel, 1939; red squares = Co. (Cl.) stelucarumsp. nov.; green triangles = Co. (Cl.) tergestinum (Westerlund, 1878); blue diamonds = Co. (Cl.) villae (Strobel, 1851); black triangles = Co. (Cl.) waldemari (A.J. Wagner, 1897). Analysis performed with the software ‘Past’ (https://palaeo-electronica.org)." figureDoi="http://doi.org/10.5281/zenodo.5176933" httpUri="https://zenodo.org/record/5176933/files/figure.png" pageId="21" pageNumber="70">Fig. 11</figureCitation>
+), but smooth specimens are found occasionally (see https://www.naturamediterraneo.com/forum/topic.asp?TOPIC_ID=43816).
+</paragraph>
+<paragraph id="8B9D36873158FFCE7AF211DCF0962602" blockId="21.[189,1399,447,579]" pageId="21" pageNumber="70">
+LIP. Moderately developed, and more or less flattened by the internal callus of the aperture. It gently curves backwards at the columellar side, starting rather far from the upper part of the body whorl. On lateral view, the body whorl, approaching the aperture, in most of the specimens barely enlarging (
+<figureCitation id="13192A023158FFCE7A87124BF0762602" box="[200,294,552,579]" captionStart="Fig" captionStartId="5.[189,232,1854,1880]" captionTargetBox="[200,1387,265,1815]" captionTargetId="figure-11@5.[200,1387,265,1815]" captionTargetPageId="5" captionText="Fig. 4. Features of the shell of Clessiniella Zallot et al., 2015. A. Shape of the body whorl approaching the aperture. B. Strength of the spots on the shell (0 = spotless shell to 2 = really evident spots). C. Strength of the ribs (1 = weak ribs to 3 = really prominent ribs). D. Strength of the ribs on the external side of the body whorl approaching the aperture (W= smooth shell; I = intermediate; S = prominent ribs)." figureDoi="http://doi.org/10.5281/zenodo.5176919" httpUri="https://zenodo.org/record/5176919/files/figure.png" pageId="21" pageNumber="70">Fig. 4A</figureCitation>
+: FF, 
+<tableCitation id="C6A0033C3158FFCE7B11124BF0E62602" box="[350,438,552,579]" captionStart="Table 3" captionStartId="10.[189,259,265,291]" captionTargetBox="[332,1249,475,1315]" captionTargetId="graphics-127@10.[198,1381,427,1442]" captionText="Table 3. Percentage of the analyzed female specimens presenting the shell feature as explained in Fig. 3 within each species of Clessiniella Zallot et al., 2015. In bold the feature status as presented by the types. Abbreviation: N = number of analyzed specimens." httpUri="http://table.plazi.org/id/DF5D660F3147FFD17AF2116AF2092528" pageId="21" pageNumber="70" tableUuid="DF5D660F3147FFD17AF2116AF2092528">Table 3</tableCitation>
+).
+</paragraph>
+<paragraph id="8B9D36873158FFCE7AF21209F24826E9" blockId="21.[189,1398,618,680]" pageId="21" pageNumber="70">
+FEMALE GENITALIA. There is a long and relatively thin (as compared to the other species of 
+<taxonomicName id="4C224D043158FFCE7EAB1209F43E26C5" box="[1252,1390,618,644]" class="Gastropoda" family="Cochlostomatidae" genus="Cochlostoma" kingdom="Animalia" order="Architaenioglossa" pageId="21" pageNumber="64" phylum="Mollusca" rank="subGenus" subGenus="Clessiniella">
+<emphasis id="B956EA953158FFCE7EAB1209F43E26C5" box="[1252,1390,618,644]" italics="true" pageId="21" pageNumber="70">Clessiniella</emphasis>
+</taxonomicName>
+; see 
+<tableCitation id="C6A0033C3158FFCE7AA612EEF01026E9" box="[233,320,653,680]" captionStart="Table 5" captionStartId="12.[189,259,265,291]" captionTargetId="graphics-155@12.[199,1393,389,936]" captionTargetPageId="12" captionText="Table 5. GenBank voucher (H3)." httpUri="http://table.plazi.org/id/DF5D660F3141FFD77AF2116AF3122562" pageId="21" pageNumber="70" tableUuid="DF5D660F3141FFD77AF2116AF3122562">Table 5</tableCitation>
+) seminal receptacle with a curved apex.
+</paragraph>
+<paragraph id="8B9D36873158FFCE7AF212ACF5A4274D" blockId="21.[189,1399,718,780]" pageId="21" pageNumber="70">MALE GENITALIA. The penis is long and inflated. The penial spermiduct is slightly twisted and occupies only the central part of the penis. There is a clearly protruding but straight body spermiduct.</paragraph>
+</subSubSection>
+<caption id="DF5D660F3158FFCE7AF21714F4272398" ID-DOI="http://doi.org/10.5281/zenodo.5176945" ID-Zenodo-Dep="5176945" httpUri="https://zenodo.org/record/5176945/files/figure.png" pageId="21" pageNumber="70" startId="21.[189,232,1911,1937]" targetBox="[189,1398,980,1873]" targetPageId="21">
+<paragraph id="8B9D36873158FFCE7AF21714F4272398" blockId="21.[189,1399,1911,2009]" pageId="21" pageNumber="70">
+<emphasis id="B956EA953158FFCE7AF21714F07123D0" bold="true" box="[189,289,1911,1937]" pageId="21" pageNumber="70">Fig. 17.</emphasis>
+Shell variability in 
+<taxonomicName id="4C224D043158FFCE78681714F5DD23D3" authority="(Strobel, 1851)" baseAuthorityName="Strobel" baseAuthorityYear="1851" box="[551,1165,1911,1938]" class="Gastropoda" family="Cochlostomatidae" genus="Cochlostoma" kingdom="Animalia" order="Architaenioglossa" pageId="21" pageNumber="70" phylum="Mollusca" rank="species" species="villae" subGenus="Clessiniella">
+<emphasis id="B956EA953158FFCE78681714F39323D0" box="[551,707,1911,1937]" italics="true" pageId="21" pageNumber="70">Cochlostoma</emphasis>
+(
+<emphasis id="B956EA953158FFCE78941714F23723D0" box="[731,871,1911,1937]" italics="true" pageId="21" pageNumber="70">Clessiniella</emphasis>
+) 
+<emphasis id="B956EA953158FFCE79301714F29123D0" box="[895,961,1911,1937]" italics="true" pageId="21" pageNumber="70">villae</emphasis>
+(
+<bibRefCitation id="EFB34B763158FFCE79981714F5D323D3" author="Strobel P." box="[983,1155,1911,1938]" pageId="21" pageNumber="70" refId="ref16289" refString="Strobel P. 1851. Notizie Malacostatiche sul Trentino. Fusi, Pavia. Available from https: // www. biodiversitylibrary. org / page / 46194631 [accessed 12 Jul. 2021]." type="url" year="1851">Strobel, 1851</bibRefCitation>
+)
+</taxonomicName>
+. 
+<emphasis id="B956EA953158FFCE7ED01714F5E423D0" bold="true" box="[1183,1204,1911,1937]" pageId="21" pageNumber="70">A</emphasis>
+. Mizzole, Italy (EZ0878). 
+<emphasis id="B956EA953158FFCE7B0E17F8F00523F4" bold="true" box="[321,341,1947,1973]" pageId="21" pageNumber="70">B</emphasis>
+. Covoli di Velo, Italy (EZ0879). 
+<emphasis id="B956EA953158FFCE78A117F9F25123F5" bold="true" box="[750,769,1946,1972]" pageId="21" pageNumber="70">C</emphasis>
+. Ferrazza, Italy (EZ0881). 
+<emphasis id="B956EA953158FFCE7E1F17F8F53323F4" bold="true" box="[1104,1123,1947,1973]" pageId="21" pageNumber="70">D</emphasis>
+. Mt delle Piume, Italy (EZ0889). 
+<emphasis id="B956EA953158FFCE7B7117DDF0022399" bold="true" box="[318,338,1982,2008]" pageId="21" pageNumber="70">E</emphasis>
+. Perarolo, Italy (EZ0891). 
+<emphasis id="B956EA953158FFCE78C117DDF3F02399" bold="true" box="[654,672,1982,2008]" pageId="21" pageNumber="70">F</emphasis>
+. Lumignano, Italy (EZ0893). 
+<emphasis id="B956EA953158FFCE7E4D17DEF5492396" bold="true" box="[1026,1049,1981,2007]" pageId="21" pageNumber="70">G</emphasis>
+. Ca’ Gottolo, Italy (EZ1015).
+</paragraph>
+</caption>
+<subSubSection id="C338650C315BFFCD7AF2116BF0D4259E" pageId="22" pageNumber="71" type="distribution">
+<paragraph id="8B9D3687315BFFCD7AF2116BF0062563" blockId="22.[189,342,264,290]" box="[189,342,264,290]" pageId="22" pageNumber="71">
+<heading id="D0D581EB315BFFCD7AF2116BF0062563" bold="true" box="[189,342,264,290]" fontSize="11" level="3" pageId="22" pageNumber="71" reason="3">
+<emphasis id="B956EA95315BFFCD7AF2116BF0062563" bold="true" box="[189,342,264,290]" pageId="22" pageNumber="71">Distribution</emphasis>
+</heading>
+</paragraph>
+<paragraph id="8B9D3687315BFFCD7AF21154F0D4259E" blockId="22.[188,1400,311,479]" pageId="22" pageNumber="71">
+The species inhabits a relatively small area at the foothills of the eastern Alps. It can also be found on the hills stretching down the Venetian flatland of the “pianura Veneta” (Colli Berici and Colli Euganei). It has been found sympatric with 
+<taxonomicName id="4C224D04315BFFCD78CE111EF5DF25D6" baseAuthorityName="Razoumowsky" baseAuthorityYear="1789" box="[641,1167,381,408]" class="Gastropoda" family="Cochlostomatidae" genus="Cochlostoma" kingdom="Animalia" order="Architaenioglossa" pageId="22" pageNumber="71" phylum="Mollusca" rank="species" species="septemspirale" subGenus="Cochlostoma">
+<emphasis id="B956EA95315BFFCD78CE111EF24C25D6" box="[641,796,381,407]" italics="true" pageId="22" pageNumber="71">Cochlostoma</emphasis>
+(
+<emphasis id="B956EA95315BFFCD7979111EF28125D6" box="[822,977,381,407]" italics="true" pageId="22" pageNumber="71">Cochlostoma</emphasis>
+) 
+<emphasis id="B956EA95315BFFCD79A3111EF5DF25D6" box="[1004,1167,381,407]" italics="true" pageId="22" pageNumber="71">septemspirale</emphasis>
+</taxonomicName>
+and 
+<taxonomicName id="4C224D04315BFFCD7E93111EF0AF25FA" baseAuthorityName="Gredler" baseAuthorityYear="1853" class="Gastropoda" family="Cochlostomatidae" genus="Cochlostoma" kingdom="Animalia" order="Architaenioglossa" pageId="22" pageNumber="71" phylum="Mollusca" rank="species" species="philippianum" subGenus="Eupomatias">
+<emphasis id="B956EA95315BFFCD7E93111EF42725D6" box="[1244,1399,381,407]" italics="true" pageId="22" pageNumber="71">Cochlostoma</emphasis>
+(
+<emphasis id="B956EA95315BFFCD7A8811C2F00325FB" box="[199,339,417,442]" italics="true" pageId="22" pageNumber="71">Eupomatias</emphasis>
+) 
+<emphasis id="B956EA95315BFFCD7B2C11C2F0AF25FA" box="[355,511,417,443]" italics="true" pageId="22" pageNumber="71">philippianum</emphasis>
+</taxonomicName>
+in some localities of the province of Verona (Fernando Scarlassara, personal communication).
+</paragraph>
+</subSubSection>
+<subSubSection id="C338650C315BFFCD7AF21266F427260F" pageId="22" pageNumber="71" type="description">
+<paragraph id="8B9D3687315BFFCD7AF21266F0F8265E" blockId="22.[189,424,517,543]" box="[189,424,517,543]" pageId="22" pageNumber="71">
+<heading id="D0D581EB315BFFCD7AF21266F0F8265E" bold="true" box="[189,424,517,543]" fontSize="11" level="3" pageId="22" pageNumber="71" reason="3">
+<emphasis id="B956EA95315BFFCD7AF21266F0F8265E" bold="true" box="[189,424,517,543]" pageId="22" pageNumber="71">Habitat preference</emphasis>
+</heading>
+</paragraph>
+<paragraph id="8B9D3687315BFFCD7AF21257F427260F" blockId="22.[189,1399,564,590]" box="[189,1399,564,590]" pageId="22" pageNumber="71">The snails are found on rocky cliffs as well as on smaller boulders and dry stone walls in woody places.</paragraph>
+</subSubSection>
+<subSubSection id="C338650C315BFFC17AF21216F36A252B" lastPageId="26" lastPageNumber="75" pageId="22" pageNumber="71" type="discussion">
+<paragraph id="8B9D3687315BFFCD7AF21216F07F26CE" blockId="22.[189,303,629,655]" box="[189,303,629,655]" pageId="22" pageNumber="71">
+<heading id="D0D581EB315BFFCD7AF21216F07F26CE" bold="true" box="[189,303,629,655]" fontSize="11" level="3" pageId="22" pageNumber="71" reason="3">
+<emphasis id="B956EA95315BFFCD7AF21216F07F26CE" bold="true" box="[189,303,629,655]" pageId="22" pageNumber="71">Remarks</emphasis>
+</heading>
+</paragraph>
+<paragraph id="8B9D3687315BFFC37AF212C7F0302507" blockId="22.[188,1400,676,914]" lastBlockId="24.[189,1398,265,327]" lastPageId="24" lastPageNumber="73" pageId="22" pageNumber="71">
+The range of this species is far from the almost continuous area in the east where the other 
+<taxonomicName id="4C224D04315BFFCD7EA312C7F42726FF" box="[1260,1399,676,702]" class="Gastropoda" family="Cochlostomatidae" genus="Cochlostoma" kingdom="Animalia" order="Architaenioglossa" pageId="22" pageNumber="64" phylum="Mollusca" rank="subGenus" subGenus="Clessiniella">
+<emphasis id="B956EA95315BFFCD7EA312C7F42726FF" box="[1260,1399,676,702]" italics="true" pageId="22" pageNumber="71">Clessiniella</emphasis>
+</taxonomicName>
+species are known from. The species has been reported (and still is in the checklist of the Italian fauna – www.faunaitalia.it) as 
+<taxonomicName id="4C224D04315BFFCD7BAE1289F5792744" authority="(De Betta &amp; Martinati, 1855)" baseAuthorityName="De Betta &amp; Martinati" baseAuthorityYear="1855" box="[481,1065,746,773]" class="Gastropoda" family="Cochlostomatidae" genus="Cochlostoma" kingdom="Animalia" order="Architaenioglossa" pageId="22" pageNumber="71" phylum="Mollusca" rank="species" species="villae">
+<emphasis id="B956EA95315BFFCD7BAE1289F3962745" box="[481,710,746,772]" italics="true" pageId="22" pageNumber="71">Cochlostoma villae</emphasis>
+(
+<bibRefCitation id="EFB34B76315BFFCD789A1289F5712744" author="De Betta E. &amp; Martinati P." box="[725,1057,746,773]" pageId="22" pageNumber="71" refId="ref15858" refString="De Betta E. &amp; Martinati P. 1855. Catalogo dei Molluschi Terrestri e Fluviatili Viventi nelle Provincie Venete di Edoardo de Betta e Pietropaolo Martinati. G. Antonelli, Verona. https: // doi. org / 10.5962 / bhl. title. 13113" type="book" year="1855">De Betta &amp; Martinati, 1855</bibRefCitation>
+)
+</taxonomicName>
+but 
+<bibRefCitation id="EFB34B76315BFFCD7E2F1289F5A52745" author="Bank R. A." box="[1120,1269,746,772]" pageId="22" pageNumber="71" pagination="151 - 170" refId="ref15632" refString="Bank R. A. 1988. Revision der nordostitalienischen Arten und Unterarten der Gattung Cochlostoma Jan, 1830 (Gastropoda Prosobranchia: Cyclophoridae). Basteria 52 (4 / 6): 151 - 170." type="journal article" year="1988">Bank (1988)</bibRefCitation>
+found that 
+<bibRefCitation id="EFB34B76315BFFCD7AF1136EF03B2769" author="Strobel P." box="[190,363,781,808]" pageId="22" pageNumber="71" refId="ref16289" refString="Strobel P. 1851. Notizie Malacostatiche sul Trentino. Fusi, Pavia. Available from https: // www. biodiversitylibrary. org / page / 46194631 [accessed 12 Jul. 2021]." type="url" year="1851">Strobel (1851)</bibRefCitation>
+described it as 
+<taxonomicName id="4C224D04315BFFCD7865136DF5592766" authority="Spinelli" authorityName="Spinelli" box="[554,1033,781,808]" class="Gastropoda" family="Pomatiidae" genus="Pomatias" kingdom="Animalia" order="Littorinimorpha" pageId="22" pageNumber="71" phylum="Mollusca" rank="variety" species="maculatum" variety="villae">
+<emphasis id="B956EA95315BFFCD7865136DF2742766" box="[554,804,781,807]" italics="true" pageId="22" pageNumber="71">Pomatias maculatum</emphasis>
+var. 
+<emphasis id="B956EA95315BFFCD792D136EF2F32766" box="[866,931,781,807]" italics="true" pageId="22" pageNumber="71">villae</emphasis>
+Spinelli
+</taxonomicName>
+, four years before 
+<bibRefCitation id="EFB34B76315BFFCD7EA2136DF0D5270A" author="De Betta E. &amp; Martinati P." pageId="22" pageNumber="71" refId="ref15858" refString="De Betta E. &amp; Martinati P. 1855. Catalogo dei Molluschi Terrestri e Fluviatili Viventi nelle Provincie Venete di Edoardo de Betta e Pietropaolo Martinati. G. Antonelli, Verona. https: // doi. org / 10.5962 / bhl. title. 13113" type="book" year="1855">De Betta &amp; Martinati (1855)</bibRefCitation>
+. The description provided by 
+<bibRefCitation id="EFB34B76315BFFCD78AF1353F2DA270A" author="Strobel P." box="[736,906,816,843]" pageId="22" pageNumber="71" refId="ref16289" refString="Strobel P. 1851. Notizie Malacostatiche sul Trentino. Fusi, Pavia. Available from https: // www. biodiversitylibrary. org / page / 46194631 [accessed 12 Jul. 2021]." type="url" year="1851">Strobel (1851)</bibRefCitation>
+is poor: “Varieta’ generalmente maggiore, coi giri della spira piu’ gonfi e colle coste trasversali piu’ regolari, e saglienti” = “ 
+<taxonomicName id="4C224D04315BFFCD7EE61337F426272F" box="[1193,1398,852,878]" pageId="22" pageNumber="71" rank="variety" variety="generally">variety generally</taxonomicName>
+bigger, with more rounded whorls and more regular and strong ribs” and follows “ 
+<taxonomicName id="4C224D04315BFFCD7EDD131BF40727D0" authority="Spinelli" authorityName="Spinelli" box="[1170,1367,887,913]" class="Gastropoda" family="Cochlostomatidae" genus="Cochlostoma" kingdom="Animalia" order="Architaenioglossa" pageId="22" pageNumber="73" phylum="Mollusca" rank="species" species="villae">
+<emphasis id="B956EA95315BFFCD7EDD131BF5A427D0" box="[1170,1268,887,913]" italics="true" pageId="22" pageNumber="71">P. Villae</emphasis>
+Spinelli
+</taxonomicName>
+in esemplari raccolti a Mizzole presso Verona.” = “ 
+<taxonomicName id="4C224D043155FFC379471169F29D2562" authority="Spinelli" authorityName="Spinelli" box="[776,973,265,291]" class="Gastropoda" family="Cochlostomatidae" genus="Cochlostoma" kingdom="Animalia" order="Architaenioglossa" pageId="24" pageNumber="73" phylum="Mollusca" rank="species" species="villae">
+<emphasis id="B956EA953155FFC379471169F2382562" box="[776,872,265,291]" italics="true" pageId="24" pageNumber="73">P. villae</emphasis>
+Spinelli
+</taxonomicName>
+on specimens collected in Mizzole near Verona.”
+</paragraph>
+<caption id="DF5D660F315BFFCD7AF11714F5A72398" ID-DOI="http://doi.org/10.5281/zenodo.5176947" ID-Zenodo-Dep="5176947" httpUri="https://zenodo.org/record/5176947/files/figure.png" pageId="22" pageNumber="71" startId="22.[190,233,1911,1937]" targetBox="[196,1362,1131,1762]" targetPageId="22">
+<paragraph id="8B9D3687315BFFCD7AF11714F5A72398" blockId="22.[189,1398,1911,2009]" pageId="22" pageNumber="71">
+<emphasis id="B956EA95315BFFCD7AF11714F07323D0" bold="true" box="[190,291,1911,1937]" pageId="22" pageNumber="71">Fig. 18.</emphasis>
+Variation of the female genitalia in 
+<taxonomicName id="4C224D04315BFFCD79491714F42223D3" authority="(Strobel, 1851)" baseAuthorityName="Strobel" baseAuthorityYear="1851" box="[774,1394,1911,1938]" class="Gastropoda" family="Cochlostomatidae" genus="Cochlostoma" kingdom="Animalia" order="Architaenioglossa" pageId="22" pageNumber="71" phylum="Mollusca" rank="species" species="villae" subGenus="Clessiniella">
+<emphasis id="B956EA95315BFFCD79491714F2F223D0" box="[774,930,1911,1937]" italics="true" pageId="22" pageNumber="71">Cochlostoma</emphasis>
+(
+<emphasis id="B956EA95315BFFCD79F31714F51823D0" box="[956,1096,1911,1937]" italics="true" pageId="22" pageNumber="71">Clessiniella</emphasis>
+) 
+<emphasis id="B956EA95315BFFCD7E2D1714F5F423D0" box="[1122,1188,1911,1937]" italics="true" pageId="22" pageNumber="71">villae</emphasis>
+(
+<bibRefCitation id="EFB34B76315BFFCD7EF31714F43923D3" author="Strobel P." box="[1212,1385,1911,1938]" pageId="22" pageNumber="71" refId="ref16289" refString="Strobel P. 1851. Notizie Malacostatiche sul Trentino. Fusi, Pavia. Available from https: // www. biodiversitylibrary. org / page / 46194631 [accessed 12 Jul. 2021]." type="url" year="1851">Strobel, 1851</bibRefCitation>
+)
+</taxonomicName>
+. 
+<emphasis id="B956EA95315BFFCD7AF217F9F18223F5" bold="true" box="[189,210,1946,1972]" pageId="22" pageNumber="71">A</emphasis>
+. Mizzole, Italy (EZ0878). 
+<emphasis id="B956EA95315BFFCD785017F8F36323F4" bold="true" box="[543,563,1947,1973]" pageId="22" pageNumber="71">B</emphasis>
+. Ferrazza, Italy (EZ0881). 
+<emphasis id="B956EA95315BFFCD79CA17F9F2CA23F5" bold="true" box="[901,922,1946,1972]" pageId="22" pageNumber="71">C</emphasis>
+. Mt delle Piume, Italy (EZ0889). 
+<emphasis id="B956EA95315BFFCD7F0B17F9F1B12399" bold="true" pageId="22" pageNumber="71">D1– D3</emphasis>
+. Perarolo, Italy (EZ0891). 
+<emphasis id="B956EA95315BFFCD786B17DDF3682399" bold="true" box="[548,568,1982,2008]" pageId="22" pageNumber="71">E</emphasis>
+. Mt Rusta, Italy (EZ0894). 
+<emphasis id="B956EA95315BFFCD79CC17DDF2C52399" bold="true" box="[899,917,1982,2008]" pageId="22" pageNumber="71">F</emphasis>
+. Ca’ Gottolo, Italy (EZ1015).
+</paragraph>
+</caption>
+<caption id="DF5D660F315AFFCC7AF217C2F3F2239E" ID-DOI="http://doi.org/10.5281/zenodo.5176949" ID-Zenodo-Dep="5176949" httpUri="https://zenodo.org/record/5176949/files/figure.png" pageId="23" pageNumber="72" startId="23.[189,232,1953,1979]" targetBox="[275,1312,265,1914]" targetPageId="23">
+<paragraph id="8B9D3687315AFFCC7AF217C2F3F2239E" blockId="23.[189,1398,1953,2015]" pageId="23" pageNumber="72">
+<emphasis id="B956EA95315AFFCC7AF217C2F04A23FA" bold="true" box="[189,282,1953,1979]" pageId="23" pageNumber="72">Fig. 19.</emphasis>
+<taxonomicName id="4C224D04315AFFCC7B6F17C2F23A23FD" authority="(Strobel, 1851)" baseAuthorityName="Strobel" baseAuthorityYear="1851" box="[288,874,1953,1980]" class="Gastropoda" family="Cochlostomatidae" genus="Cochlostoma" kingdom="Animalia" order="Architaenioglossa" pageId="23" pageNumber="72" phylum="Mollusca" rank="species" species="villae" subGenus="Clessiniella">
+<emphasis id="B956EA95315AFFCC7B6F17C2F0EC23FA" box="[288,444,1953,1979]" italics="true" pageId="23" pageNumber="72">Cochlostoma</emphasis>
+(
+<emphasis id="B956EA95315AFFCC7B8117C2F30A23FA" box="[462,602,1953,1979]" italics="true" pageId="23" pageNumber="72">Clessiniella</emphasis>
+) 
+<emphasis id="B956EA95315AFFCC782417C2F3FD23FA" box="[619,685,1953,1979]" italics="true" pageId="23" pageNumber="72">villae</emphasis>
+(
+<bibRefCitation id="EFB34B76315AFFCC78F317C2F23123FD" author="Strobel P." box="[700,865,1953,1980]" pageId="23" pageNumber="72" refId="ref16289" refString="Strobel P. 1851. Notizie Malacostatiche sul Trentino. Fusi, Pavia. Available from https: // www. biodiversitylibrary. org / page / 46194631 [accessed 12 Jul. 2021]." type="url" year="1851">Strobel, 1851</bibRefCitation>
+)
+</taxonomicName>
+, syntype, ♀, at the Museo di Storia Naturale of Parma University, Italy (PU1610-C1).
+</paragraph>
+</caption>
+<paragraph id="8B9D36873155FFC37AF2110DF427258F" blockId="24.[189,1400,365,463]" pageId="24" pageNumber="73">
+A few years later, 
+<bibRefCitation id="EFB34B763155FFC37BD8110DF3BD25C9" author="De Betta E. &amp; Martinati P." box="[407,749,365,392]" pageId="24" pageNumber="73" refId="ref15858" refString="De Betta E. &amp; Martinati P. 1855. Catalogo dei Molluschi Terrestri e Fluviatili Viventi nelle Provincie Venete di Edoardo de Betta e Pietropaolo Martinati. G. Antonelli, Verona. https: // doi. org / 10.5962 / bhl. title. 13113" type="book" year="1855">De Betta &amp; Martinati (1855)</bibRefCitation>
+gave almost the same poor description: “c. elongatior, costulis anfract. super. distinctioribus” = “taller shell, ribs in the upper whorls spaced” and follows 
+<emphasis id="B956EA953155FFC37AF211D7F19D258F" box="[189,205,436,462]" italics="true" pageId="24" pageNumber="73">“</emphasis>
+Prov. Verona, Mizzole. Spin. ex spec. 
+<emphasis id="B956EA953155FFC3783111D7F3DE258F" box="[638,654,436,462]" italics="true" pageId="24" pageNumber="73">”</emphasis>
+= “Verona Province, Mizzole, specimens provided by Spinelli.”
+</paragraph>
+<paragraph id="8B9D36873155FFC17AF21195F36A252B" blockId="24.[189,1399,501,634]" lastBlockId="26.[189,1399,265,362]" lastPageId="26" lastPageNumber="75" pageId="24" pageNumber="73">
+It could be, as was common at the time, that the specimens used to describe the species by both 
+<bibRefCitation id="EFB34B763155FFC37F6D1196F05B2672" author="Strobel P." pageId="24" pageNumber="73" refId="ref16289" refString="Strobel P. 1851. Notizie Malacostatiche sul Trentino. Fusi, Pavia. Available from https: // www. biodiversitylibrary. org / page / 46194631 [accessed 12 Jul. 2021]." type="url" year="1851">Strobel (1851)</bibRefCitation>
+and 
+<bibRefCitation id="EFB34B763155FFC37B04127AF3F92672" author="De Betta E. &amp; Martinati P." box="[331,681,536,563]" pageId="24" pageNumber="73" refId="ref15858" refString="De Betta E. &amp; Martinati P. 1855. Catalogo dei Molluschi Terrestri e Fluviatili Viventi nelle Provincie Venete di Edoardo de Betta e Pietropaolo Martinati. G. Antonelli, Verona. https: // doi. org / 10.5962 / bhl. title. 13113" type="book" year="1855">De Betta &amp; Martinati (1855)</bibRefCitation>
+have had a tortuous path, after being collected by Villa in 1849 (as it appears from Strobel’s label), given to Spinelli later on, who gave the collector’s name to the species (as far as is known, however, Giovanni Battista Spinelli never published the specific epithet 
+<emphasis id="B956EA953157FFC17AF2116AF0562562" box="[189,262,265,291]" italics="true" pageId="26" pageNumber="75">
+<taxonomicName id="4C224D043157FFC17AF2116AF0512562" baseAuthorityName="Strobel" baseAuthorityYear="1851" box="[189,257,265,291]" class="Gastropoda" family="Cochlostomatidae" genus="Cochlostoma" kingdom="Animalia" order="Architaenioglossa" pageId="26" pageNumber="75" phylum="Mollusca" rank="species" species="villae">villae</taxonomicName>
+,
+</emphasis>
+probably using the name only in private correspondence). Spinelli eventually gave part of the material to Strobel and part to De Betta (the De Betta material is currently kept at the Museo di Storia Naturale di Verona, see 
+<figureCitation id="13192A023157FFC17B99112CF37D252B" box="[470,557,335,362]" captionStart="Fig" captionStartId="25.[189,232,1958,1984]" captionTargetBox="[293,1295,265,1920]" captionTargetId="figure-11@25.[293,1295,265,1920]" captionTargetPageId="25" captionText="Fig. 21. Shell of Cochlostoma (Clessiniella) villae (Strobel, 1851). Collezione De Betta, Museo di Storia Naturale di Verona (photo Folco Giusti)." figureDoi="http://doi.org/10.5281/zenodo.5176953" httpUri="https://zenodo.org/record/5176953/files/figure.png" pageId="26" pageNumber="75">Fig. 21</figureCitation>
+).
+</paragraph>
+</subSubSection>
+</treatment>
+</document>
