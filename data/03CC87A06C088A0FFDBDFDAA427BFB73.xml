@@ -1,0 +1,883 @@
+<document id="0F403822F3B59EDAFCFF1576E613915D" ID-DOI="http://doi.org/10.5281/zenodo.3818824" ID-GBIF-Dataset="44a2fcf6-cc1b-4c07-9554-dd6dd279a76d" ID-GBIF-Taxon="163993817" ID-Zenodo-Dep="3818824" ID-ZooBank="C445E95B-446A-4601-AAA3-C1CCBAB627F9" _generate="added" approvalRequired="45" approvalRequired_for_bibRefs="4" approvalRequired_for_document="1" approvalRequired_for_illustrations="6" approvalRequired_for_taxonomicNames="34" checkinTime="1588963536872" checkinUser="valdenar" docAuthor="Páll-Gergely, Barna" docDate="2018" docId="03CC87A06C088A0FFDBDFDAA427BFB73" docLanguage="en" docName="ejt-455_pall-gergely.pdf.imf" docOrigin="European Journal of Taxonomy 455" docStyle="DocumentStyle:EF2B578F1D15862ADE45B0C07C620911.12:EJT.2018-.journal_article" docStyleId="EF2B578F1D15862ADE45B0C07C620911" docStyleName="EJT.2018-.journal_article" docStyleVersion="12" docTitle="Chersaecia leiophis" docType="treatment" docVersion="4" lastPageId="40" lastPageNumber="41" masterDocId="FFF5FFD86C2C8A27FFF8FFC04709FFA9" masterDocTitle="Systematic revision of the Plectopylinae (Gastropoda, Pulmonata, Plectopylidae)" masterLastPageNumber="114" masterPageNumber="1" pageId="36" pageNumber="37" updateTime="1643467947558" updateUser="ExternalLinkService" zenodo-license-document="CC-BY-4.0" zenodo-license-figures="CC-BY-4.0" zenodo-license-treatments="UNSPECIFIED">
+<mods:mods id="601E50932738DEECD75CF15E0C3BA964" xmlns:mods="http://www.loc.gov/mods/v3">
+<mods:titleInfo id="BCC09A36F8D62AAC4A78F7A2CE94DF5C">
+<mods:title id="2DC535D4276BF3D87A034DA04EFBC6DF">Systematic revision of the Plectopylinae (Gastropoda, Pulmonata, Plectopylidae)</mods:title>
+</mods:titleInfo>
+<mods:name id="7545E02C5F69AEAFA40A5138A08803BE" type="personal">
+<mods:role id="3459F5253227F8EA776FEC4B14A20007">
+<mods:roleTerm id="415A1798BE79C6A637DE91DAF5C513A0">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="54A01729B98ECC0DABD8163EB26CB83A">Páll-Gergely, Barna</mods:namePart>
+<mods:nameIdentifier id="CEC224E53C2389AFDDB11CF91C6CD88C" type="LSID">31E196E9-5A51-4295-9A36-D5DA689502B7</mods:nameIdentifier>
+<mods:affiliation id="9DA928286CDB281F37E95FD1BF5D2E79">Centre for Agricultural Research, Hungarian Academy of Sciences (MTA), Herman Ottó Street 15, Budapest, H- 1022, Hungary.</mods:affiliation>
+<mods:nameIdentifier id="CAB85F344292652BF316003EEF95916C" type="email">pall-gergely.barna@agrar.mta.hu</mods:nameIdentifier>
+</mods:name>
+<mods:typeOfResource id="EEC893893BDC822A4B9BE9F6355ED056">text</mods:typeOfResource>
+<mods:relatedItem id="94ADD81C8B9C50B3026C9D6CAFEFF851" type="host">
+<mods:titleInfo id="C512349239B493C902B5EE1FCC7BD612">
+<mods:title id="B0E4CF7C5957F867CB473558F58EF2BE">European Journal of Taxonomy</mods:title>
+</mods:titleInfo>
+<mods:part id="1760B44FF190BB1087133CB966E9A3BE">
+<mods:date id="C65C0060651E9BBF1E8092FA6AA7E542">2018</mods:date>
+<mods:detail id="C63704FB2CF1222F7DAED3D78D44EA82" type="pubDate">
+<mods:number id="6070C9FF4BDC262EC2DDA00C9A542FBD">2018-08-16</mods:number>
+</mods:detail>
+<mods:detail id="804D52872DD4F993929C0454BC64ED57" type="volume">
+<mods:number id="D3FDBC09CBAA9E4CDCECF49A2F468C1B">455</mods:number>
+</mods:detail>
+<mods:extent id="E0D7A837C4D67D594D81319B79DCBA5B" unit="page">
+<mods:start id="4DC99C09A922AFF067BF3D89917317EB">1</mods:start>
+<mods:end id="CDA85887A4B9BDF211091A59EAAEE09A">114</mods:end>
+</mods:extent>
+</mods:part>
+</mods:relatedItem>
+<mods:classification id="D4E5B25DA73813777B124B1714E9207B">journal article</mods:classification>
+<mods:identifier id="0F33E8B2EBDB5A247CAEC5B65D9A1209" type="DOI">https://doi.org/10.5852/ejt.2018.455</mods:identifier>
+<mods:identifier id="4529E03D68CF0951C9C13D5A7A4FA61F" type="GBIF-Dataset">44a2fcf6-cc1b-4c07-9554-dd6dd279a76d</mods:identifier>
+<mods:identifier id="20B58405A582C74C97E575FBE40EDC31" type="Zenodo-Dep">3817707</mods:identifier>
+<mods:identifier id="4AA5035F9F5D4DBF8A39F8363A8F2756" type="ZooBank">C445E95B-446A-4601-AAA3-C1CCBAB627F9</mods:identifier>
+</mods:mods>
+<treatment id="03CC87A06C088A0FFDBDFDAA427BFB73" ID-DOI="http://doi.org/10.5281/zenodo.3818824" ID-GBIF-Taxon="163993817" ID-Zenodo-Dep="3818824" LSID="urn:lsid:plazi:treatment:03CC87A06C088A0FFDBDFDAA427BFB73" httpUri="http://treatment.plazi.org/id/03CC87A06C088A0FFDBDFDAA427BFB73" lastPageId="40" lastPageNumber="41" pageId="36" pageNumber="37">
+<subSubSection id="C37F653D6C088A03FDBDFDAA44ADFD00" pageId="36" pageNumber="37" type="nomenclature">
+<paragraph id="8BDA36B66C088A03FDBDFDAA44E7FD2C" blockId="36.[581,1006,618,682]" box="[581,1006,618,645]" pageId="36" pageNumber="37">
+<heading id="D09281DA6C088A03FDBDFDAA44E7FD2C" box="[581,1006,618,645]" centered="true" fontSize="11" level="2" pageId="36" pageNumber="37" reason="2">
+<taxonomicName id="4C654D356C088A03FDBDFDAA44E7FD2C" authority="(Benson, 1860)" baseAuthorityName="Benson" baseAuthorityYear="1860" box="[581,1006,618,645]" class="Gastropoda" family="Plectopylidae" genus="Chersaecia" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Stylommatophora" pageId="36" pageNumber="37" phylum="Mollusca" rank="species" species="leiophis">
+<emphasis id="B911EAA46C088A03FDBDFDAA443AFD2C" bold="true" box="[581,819,618,645]" italics="true" pageId="36" pageNumber="37">Chersaecia leiophis</emphasis>
+(
+<bibRefCitation id="EFF44B476C088A03FCBAFDAA44EFFD2C" author="Benson W. H." box="[834,998,618,645]" pageId="36" pageNumber="37" pagination="243 - 247" refId="ref51737" refString="Benson W. H. 1860. Notes on Plectopylis, a group a Helicidae distinguished by several internal plicate Ephiphragms; with the Characters of a new Species. The Annals and Magazine of Natural History 3 (5): 243 - 247. Available from https: // biodiversitylibrary. org / page / 18658580 [accessed 30 Jul. 2018]." type="journal article" year="1860">Benson, 1860</bibRefCitation>
+)
+</taxonomicName>
+</heading>
+</paragraph>
+<paragraph id="8BDA36B66C088A03FD68FD4F44ADFD00" blockId="36.[581,1006,618,682]" box="[656,932,655,682]" pageId="36" pageNumber="37">
+<figureCitation id="135E2A336C088A03FD68FD4F45EDFD03" box="[656,740,655,682]" captionStart="Fig" captionStartId="30.[189,232,1754,1780]" captionTargetBox="[196,1384,383,1633]" captionTargetId="figure@30.[189,1398,369,1650]" captionTargetPageId="30" captionText="Fig. 15. Parietal (A, C, E, G, I, K, L, N, P, R) and palatal (B, D, F, H, J, M, O, Q, S) plication of species of Chersaecia Gude, 1899. A–B. C. auffenbergi sp. nov. (UF 448572). C–D. C. feddeni (Blanford, 1865) comb. nov. (after Gude 1914b). E–F. C. feddeni (“Plectopylis ponsonbyi”, after Gude 1896b). G–H. C. goniobathmos (Ehrmann, 1922) comb. nov. (SMF 150100c). I–J. C. leiophis (Benson, 1860) (NHMUK 1902.02.02.145). K. C. leiophis (“pseudophis”, after Gude 1914b). L–M. C. leiophis (“kengtungensis”, after Gude 1914b). N–O. C. leiophis (UF 446988). P–Q. C. leiophis, holotype of Plectopylis degerbolae Solem, 1966 (ZMUC-GAS-485). R–S. C. leucochila (Gude, 1897) comb. nov. (NHMUK 1922.8.29.39). Arrows below the letters indicate the direction of the aperture. Not to scale." figureDoi="http://doi.org/10.5281/zenodo.3817737" httpUri="https://zenodo.org/record/3817737/files/figure.png" pageId="36" pageNumber="37">Figs 15</figureCitation>
+I–Q, 18, 19A–B
+</paragraph>
+</subSubSection>
+<subSubSection id="C37F653D6C088A03FF45FD12444FFA4E" pageId="36" pageNumber="37" type="reference_group">
+<paragraph id="8BDA36B66C088A03FF45FD1243CAFD45" blockId="36.[189,1399,721,931]" box="[189,1219,721,748]" pageId="36" pageNumber="37">
+<treatmentCitationGroup id="AB7511986C088A03FF45FD1243CAFD45" box="[189,1219,721,748]" pageId="36" pageNumber="37">
+<treatmentCitation id="0AC410A76C088A03FF45FD1245ECFD45" author="Benson W. H." box="[189,741,722,748]" page="244" pageId="36" pageNumber="37" year="1860">
+<taxonomicName id="4C654D356C088A03FF45FD1245ECFD45" authority="Benson, 1860: 244" authorityName="Benson" authorityPageNumber="244" authorityYear="1860" box="[189,741,722,748]" class="Gastropoda" family="Helicidae" genus="Helix" higherTaxonomySource="CoL" kingdom="Animalia" order="Stylommatophora" pageId="36" pageNumber="37" phylum="Mollusca" rank="species" species="leiophis" subGenus="Plectopylis">
+<emphasis id="B911EAA46C088A03FF45FD1247F4FD45" box="[189,253,722,748]" italics="true" pageId="36" pageNumber="37">Helix</emphasis>
+(
+<emphasis id="B911EAA46C088A03FEF6FD124699FD45" box="[270,400,722,748]" italics="true" pageId="36" pageNumber="37">Plectopylis</emphasis>
+) 
+<emphasis id="B911EAA46C088A03FE59FD1246F7FD45" box="[417,510,722,748]" italics="true" pageId="36" pageNumber="37">leiophis</emphasis>
+<bibRefCitation id="EFF44B476C088A03FDFDFD1245ECFD45" author="Benson W. H." box="[517,741,722,748]" pageId="36" pageNumber="37" pagination="243 - 247" refId="ref51737" refString="Benson W. H. 1860. Notes on Plectopylis, a group a Helicidae distinguished by several internal plicate Ephiphragms; with the Characters of a new Species. The Annals and Magazine of Natural History 3 (5): 243 - 247. Available from https: // biodiversitylibrary. org / page / 18658580 [accessed 30 Jul. 2018]." type="journal article" year="1860">Benson, 1860: 244</bibRefCitation>
+</taxonomicName>
+</treatmentCitation>
+, 246 [“ad Kwadouk, prope Thyet Mio”].
+</treatmentCitationGroup>
+</paragraph>
+<paragraph id="8BDA36B66C088A03FF45FD364353FCB9" blockId="36.[189,1399,721,931]" box="[189,1114,758,785]" pageId="36" pageNumber="37">
+<treatmentCitationGroup id="AB7511986C088A03FF45FD364353FCB9" box="[189,1114,758,785]" pageId="36" pageNumber="37">
+<treatmentCitation id="0AC410A76C088A03FF45FD3644B0FCB9" author="Godwin-Austen H. H." box="[189,953,758,785]" page="613" pageId="36" pageNumber="37" year="1875">
+<taxonomicName id="4C654D356C088A03FF45FD3644B0FCB9" authority="Godwin-Austen, 1875 b: 610 - 613" authorityName="Godwin-Austen" authorityPageNumber="610 - 613" authorityYear="1875" box="[189,953,758,785]" class="Gastropoda" family="Helicidae" genus="Helix" higherTaxonomySource="CoL" kingdom="Animalia" order="Stylommatophora" pageId="36" pageNumber="37" phylum="Mollusca" rank="species" species="pseudophis" subGenus="Plectopylis">
+<emphasis id="B911EAA46C088A03FF45FD3647F4FCB9" box="[189,253,758,784]" italics="true" pageId="36" pageNumber="37">Helix</emphasis>
+(
+<emphasis id="B911EAA46C088A03FEF6FD364699FCB9" box="[270,400,758,784]" italics="true" pageId="36" pageNumber="37">Plectopylis</emphasis>
+) 
+<emphasis id="B911EAA46C088A03FE59FD36452CFCB9" box="[417,549,758,784]" italics="true" pageId="36" pageNumber="37">pseudophis</emphasis>
+<bibRefCitation id="EFF44B476C088A03FDD4FD3644B0FCB9" author="Godwin-Austen H. H." box="[556,953,758,785]" pageId="36" pageNumber="37" pagination="608 - 613" refId="ref52483" refString="Godwin-Austen H. H. 1875 b. Descriptions of five new Species of Helicidae of the Subgenus Plectopylis, with remarks on all the other known forms. Proceedings of the Zoological Society of London 1874: 608 - 613. Available from https: // biodiversitylibrary. org / page / 28502797 [accessed 30 Jul. 2018]." type="journal article" year="1875">Godwin-Austen, 1875b: 610–613</bibRefCitation>
+</taxonomicName>
+</treatmentCitation>
+, pl. 74, fig. 3.
+</treatmentCitationGroup>
+</paragraph>
+<paragraph id="8BDA36B66C088A03FF45FCDB46FCFCF3" blockId="36.[189,1399,721,931]" pageId="36" pageNumber="37">
+<treatmentCitationGroup id="AB7511986C088A03FF45FCDB46FCFCF3" pageId="36" pageNumber="37">
+<treatmentCitation id="0AC410A76C088A03FF45FCDB4452FC9F" author="Gude G. K." box="[189,859,795,822]" page="53" pageId="36" pageNumber="37" year="1914">
+<taxonomicName id="4C654D356C088A03FF45FCDB4452FC9F" authority="Gude, 1914 a: 53" authorityName="Gude" authorityPageNumber="53" authorityYear="1914" box="[189,859,795,822]" class="Gastropoda" family="Plectopylidae" genus="Plectopylis" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Stylommatophora" pageId="36" pageNumber="37" phylum="Mollusca" rank="species" species="kengtungensis" subGenus="Chersaecia">
+<emphasis id="B911EAA46C088A03FF45FCDB4636FC9C" box="[189,319,795,821]" italics="true" pageId="36" pageNumber="37">Plectopylis</emphasis>
+(
+<emphasis id="B911EAA46C088A03FEA9FCDB46DEFC9C" box="[337,471,795,821]" italics="true" pageId="36" pageNumber="37">Chersaecia</emphasis>
+) 
+<emphasis id="B911EAA46C088A03FE10FCDB4587FC9C" box="[488,654,795,821]" italics="true" pageId="36" pageNumber="37">kengtungensis</emphasis>
+<bibRefCitation id="EFF44B476C088A03FD6DFCDB4452FC9F" author="Gude G. K." box="[661,859,795,822]" pageId="36" pageNumber="37" pagination="52 - 57" refId="ref54362" refString="Gude G. K. 1914 a. Descriptions of new species of helicoids from the Indian Region. Proceedings of the Malacological Society of London 11 (1): 52 - 57. Available from https: // biodiversitylibrary. org / page / 15715573 [accessed 30 Jul. 2018]." type="journal article" year="1914">Gude, 1914a: 53</bibRefCitation>
+</taxonomicName>
+</treatmentCitation>
+, figs a–c (+ unnumbered figures) [“E. 
+<collectingCountry id="F37276266C088A03FAE6FCDB427BFC9C" box="[1310,1394,795,821]" name="Myanmar" pageId="36" pageNumber="37">Burma</collectingCountry>
+: Kengtung”]. 
+<emphasis id="B911EAA46C088A03FE7BFCFF46FCFCF3" bold="true" box="[387,501,831,858]" pageId="36" pageNumber="37">Syn. nov.</emphasis>
+</treatmentCitationGroup>
+</paragraph>
+<paragraph id="8BDA36B66C088A03FF45FCA444C4FC0A" blockId="36.[189,1399,721,931]" pageId="36" pageNumber="37">
+<treatmentCitationGroup id="AB7511986C088A03FF45FCA444C4FC0A" pageId="36" pageNumber="37">
+<treatmentCitation id="0AC410A76C088A03FF45FCA44457FCD6" author="Solem A." box="[189,862,868,895]" page="97" pageId="36" pageNumber="37" year="1966">
+<taxonomicName id="4C654D356C088A03FF45FCA44457FCD6" authority="Solem, 1966: 95 - 97" authorityName="Solem" authorityPageNumber="95 - 97" authorityYear="1966" box="[189,862,868,895]" class="Gastropoda" family="Plectopylidae" genus="Plectopylis" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Stylommatophora" pageId="36" pageNumber="37" phylum="Mollusca" rank="species" species="degerbolae" subGenus="Chersaecia">
+<emphasis id="B911EAA46C088A03FF45FCA44636FCD7" box="[189,319,868,894]" italics="true" pageId="36" pageNumber="37">Plectopylis</emphasis>
+(
+<emphasis id="B911EAA46C088A03FEA8FCA446DFFCD7" box="[336,470,868,894]" italics="true" pageId="36" pageNumber="37">Chersaecia</emphasis>
+) 
+<emphasis id="B911EAA46C088A03FE1DFCA44560FCD7" box="[485,617,868,894]" italics="true" pageId="36" pageNumber="37">degerbolae</emphasis>
+<bibRefCitation id="EFF44B476C088A03FD88FCA44457FCD6" author="Solem A." box="[624,862,868,895]" pageId="36" pageNumber="37" pagination="1 - 110" refId="ref56118" refString="Solem A. 1966. Some non-marine mollusks from Thailand, with notes on classification of the Helicarionidae. Spolia Zoologica Musei Hauniensis 24: 1 - 110." type="journal article" year="1966">Solem, 1966: 95–97</bibRefCitation>
+</taxonomicName>
+</treatmentCitation>
+, fig. 23a–b., pl. 2 figs F–H [“Doi Sutep, North 
+<collectingCountry id="F37276266C088A03FF12FC49465BFC0A" box="[234,338,905,931]" name="Thailand" pageId="36" pageNumber="37">Thailand</collectingCountry>
+at 1,000 meters elevation (number 1173)”]. 
+<emphasis id="B911EAA46C088A03FCA4FC4944C4FC0A" bold="true" box="[860,973,905,931]" pageId="36" pageNumber="37">Syn. nov.</emphasis>
+</treatmentCitationGroup>
+</paragraph>
+<paragraph id="8BDA36B66C088A03FF45FC0C4409FB86" blockId="36.[189,1399,971,1511]" pageId="36" pageNumber="37">
+<treatmentCitationGroup id="AB7511986C088A03FF45FC0C4409FB86" pageId="36" pageNumber="37">
+<taxonomicName id="4C654D356C088A03FF45FC0C46F6FC4F" authorityName="Benson" authorityYear="1860" box="[189,511,972,998]" class="Gastropoda" family="Helicidae" genus="Helix" higherTaxonomySource="CoL" kingdom="Animalia" order="Stylommatophora" pageId="36" pageNumber="37" phylum="Mollusca" rank="species" species="leiophis" subGenus="Plectopylis">
+<emphasis id="B911EAA46C088A03FF45FC0C47F4FC4F" box="[189,253,972,998]" italics="true" pageId="36" pageNumber="37">Helix</emphasis>
+(
+<emphasis id="B911EAA46C088A03FEF6FC0C4699FC4F" box="[270,400,972,998]" italics="true" pageId="36" pageNumber="37">Plectopylis</emphasis>
+) 
+<emphasis id="B911EAA46C088A03FE5AFC0C46F6FC4F" box="[418,511,972,998]" italics="true" pageId="36" pageNumber="37">leiophis</emphasis>
+</taxonomicName>
+– 
+<treatmentCitation id="0AC410A76C088A03FDE4FC0C45FDFC4F" author="Blanford W. T." box="[540,756,971,998]" page="94" pageId="36" pageNumber="37" year="1865">
+<bibRefCitation id="EFF44B476C088A03FDE4FC0C45FDFC4F" author="Blanford W. T." box="[540,756,971,998]" pageId="36" pageNumber="37" pagination="66 - 105" refId="ref51919" refString="Blanford W. T. 1865. Contributions to Indian Malacology, No. V. Descriptions of new land shells from Arakan, Pegu, and Ava; with notes on the distribution of described species. Journal of the Asiatic Society of Bengal 34 (2): 66 - 105. Available from https: // biodiversitylibrary. org / page / 37191013 [accessed 30 Jul. 2018]." type="journal article" year="1865">Blanford 1865: 94</bibRefCitation>
+</treatmentCitation>
+[“Thyet Myo”, “Akoutoung”]. — 
+<treatmentCitation id="0AC410A76C088A03FB75FC0C464FFBA2" author="Hanley S. C. T. &amp; Theobald W." page="7" pageId="36" pageNumber="37" year="1870">
+<bibRefCitation id="EFF44B476C088A03FB75FC0C464FFBA2" author="Hanley S. C. T. &amp; Theobald W." pageId="36" pageNumber="37" refId="ref54526" refString="Hanley S. C. T. &amp; Theobald W. 1870 - 1876. Conchologia Indica; Being Illustrations of the Land and Freshwater Shells of British India. L. Reeve &amp; Co., London. Available from https: // biodiversitylibrary. org / page / 14402372 [accessed 30 Jul. 2018]." type="url" year="1870">Hanley &amp; Theobald 1870: 7</bibRefCitation>
+</treatmentCitation>
+, pl. 13, fig. 8. — 
+<treatmentCitation id="0AC410A76C088A03FDE2FC30445AFBA3" author="Godwin-Austen H. H." box="[538,851,1008,1035]" page="44" pageId="36" pageNumber="37" year="1875">
+<bibRefCitation id="EFF44B476C088A03FDE2FC30445AFBA3" author="Godwin-Austen H. H." box="[538,851,1008,1035]" pageId="36" pageNumber="37" pagination="43 - 44" refId="ref52430" refString="Godwin-Austen H. H. 1875 a. Supplementary Notes on the Species of Helicidae of the subgenus Plectopylis. Proceedings of the Zoological Society of London 1875: 43 - 44. Available from https: // biodiversitylibrary. org / page / 28501196 [accessed 30 Jul. 2018]." type="journal article" year="1875">Godwin-Austen 1875a: 44</bibRefCitation>
+</treatmentCitation>
+(as a synonym of 
+<taxonomicName id="4C654D356C088A03FBC8FC304372FBA3" baseAuthorityName="Gould" baseAuthorityYear="1846" box="[1072,1147,1008,1034]" class="Gastropoda" family="Helicidae" genus="Helix" higherTaxonomySource="CoL" kingdom="Animalia" order="Stylommatophora" pageId="36" pageNumber="37" phylum="Mollusca" rank="species" species="refuga">
+<emphasis id="B911EAA46C088A03FBC8FC304372FBA3" box="[1072,1147,1008,1034]" italics="true" pageId="36" pageNumber="37">refuga</emphasis>
+</taxonomicName>
+); 1875b: 613, pl. 74, fig. 2. — 
+<treatmentCitation id="0AC410A76C088A03FEA1FBD54529FB86" author="Tryon G. W." box="[345,544,1045,1071]" page="163" pageId="36" pageNumber="37" year="1887">
+<bibRefCitation id="EFF44B476C088A03FEA1FBD54529FB86" author="Tryon G. W." box="[345,544,1045,1071]" pageId="36" pageNumber="37" refId="ref56474" refString="Tryon G. W. 1887. Manual of Conchology; Structural and Systematic. With Illustrations of the Species. Ser. 2, vol. 3. Helicidae, Volume I. Published by the Author, Philadelphia. Available from https: // biodiversitylibrary. org / page / 1287540 [accessed 30 Jul. 2018]." type="url" year="1887">Tryon 1887: 163</bibRefCitation>
+</treatmentCitation>
+, pl. 35, figs 88–89.
+</treatmentCitationGroup>
+</paragraph>
+<paragraph id="8BDA36B66C088A03FF45FBFA4555FBFA" blockId="36.[189,1399,971,1511]" box="[189,604,1081,1108]" pageId="36" pageNumber="37">
+<treatmentCitationGroup id="AB7511986C088A03FF45FBFA4555FBFA" box="[189,604,1081,1108]" pageId="36" pageNumber="37">
+<taxonomicName id="4C654D356C088A03FF45FBFA4668FBFD" authorityName="Benson" authorityYear="1860" box="[189,353,1082,1108]" class="Gastropoda" family="Helicidae" genus="Helix" higherTaxonomySource="CoL" kingdom="Animalia" order="Stylommatophora" pageId="36" pageNumber="37" phylum="Mollusca" rank="species" species="leiophis">
+<emphasis id="B911EAA46C088A03FF45FBFA4668FBFD" box="[189,353,1082,1108]" italics="true" pageId="36" pageNumber="37">Helix leiophis</emphasis>
+</taxonomicName>
+– 
+<treatmentCitation id="0AC410A76C088A03FE86FBF94550FBFA" author="Pfeiffer L." box="[382,601,1081,1108]" page="396" pageId="36" pageNumber="37" year="1868">
+<bibRefCitation id="EFF44B476C088A03FE86FBF94550FBFA" author="Pfeiffer L." box="[382,601,1081,1108]" pageId="36" pageNumber="37" refId="ref55601" refString="Pfeiffer L. 1868. Monographia Heliceorum Viventium: Sistens Descriptiones Systematicas et Criticas Omnium Huius Familiae Generum et Specierum Hodie Cognitarum. Brockhaus, Leipzig. Available from https: // biodiversitylibrary. org / page / 12932069 [accessed 30 Jul. 2018]." type="url" year="1868">Pfeiffer 1868: 396</bibRefCitation>
+</treatmentCitation>
+.
+</treatmentCitationGroup>
+</paragraph>
+<paragraph id="8BDA36B66C088A03FF45FB9E4315FB34" blockId="36.[189,1399,971,1511]" pageId="36" pageNumber="37">
+<treatmentCitationGroup id="AB7511986C088A03FF45FB9E4315FB34" pageId="36" pageNumber="37">
+<taxonomicName id="4C654D356C088A03FF45FB9E46C6FBD1" box="[189,463,1118,1144]" class="Gastropoda" family="Plectopylidae" genus="Plectopylis" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Stylommatophora" pageId="36" pageNumber="37" phylum="Mollusca" rank="species" species="pseudophis">
+<emphasis id="B911EAA46C088A03FF45FB9E46C6FBD1" box="[189,463,1118,1144]" italics="true" pageId="36" pageNumber="37">Plectopylis pseudophis</emphasis>
+</taxonomicName>
+– 
+<treatmentCitation id="0AC410A76C088A03FE0DFB9E443CFBD1" author="Godwin-Austen H. H." box="[501,821,1118,1145]" page="44" pageId="36" pageNumber="37" year="1875">
+<bibRefCitation id="EFF44B476C088A03FE0DFB9E443CFBD1" author="Godwin-Austen H. H." box="[501,821,1118,1145]" pageId="36" pageNumber="37" pagination="43 - 44" refId="ref52430" refString="Godwin-Austen H. H. 1875 a. Supplementary Notes on the Species of Helicidae of the subgenus Plectopylis. Proceedings of the Zoological Society of London 1875: 43 - 44. Available from https: // biodiversitylibrary. org / page / 28501196 [accessed 30 Jul. 2018]." type="journal article" year="1875">Godwin-Austen 1875a: 44</bibRefCitation>
+</treatmentCitation>
+[“Thayatmyo, in 
+<collectingRegion id="49A1F8546C088A03FBEBFB9E435FFBD0" box="[1043,1110,1118,1145]" country="Myanmar" name="Bago" pageId="36" pageNumber="37">Pegu</collectingRegion>
+”]. — 
+<treatmentCitation id="0AC410A76C088A03FB59FB9E427BFBD1" author="Gude G. K." box="[1185,1394,1118,1145]" page="170" pageId="36" pageNumber="37" year="1897">
+<bibRefCitation id="EFF44B476C088A03FB59FB9E427BFBD1" author="Gude G. K." box="[1185,1394,1118,1145]" pageId="36" pageNumber="37" pagination="170 - 171" refId="ref53439" refString="Gude G. K. 1897 i. Armature of Helicoid landshells, with new species of Plectopylis. Science Gossip 4 (42): 170 - 171. Available from https: // biodiversitylibrary. org / page / 33861525 [accessed 30 Jul. 2018]." type="journal article" year="1897">
+Gude 
+<date id="FFDB10766C088A03FB14FB9E4239FBD1" box="[1260,1328,1118,1144]" pageId="36" pageNumber="37" value="1897-01">1897i</date>
+: 170
+</bibRefCitation>
+</treatmentCitation>
+, fig. 62a–c; 1899b: 17, fig. 77a–g; 1908: 88–89 (synonym of 
+<taxonomicName id="4C654D356C088A03FC56FB434302FB34" authorityName="Benson" authorityYear="1860" box="[942,1035,1155,1181]" class="Gastropoda" family="Helicidae" genus="Helix" higherTaxonomySource="CoL" kingdom="Animalia" order="Stylommatophora" pageId="36" pageNumber="37" phylum="Mollusca" rank="species" species="leiophis">
+<emphasis id="B911EAA46C088A03FC56FB434302FB34" box="[942,1035,1155,1181]" italics="true" pageId="36" pageNumber="37">leiophis</emphasis>
+</taxonomicName>
+).
+</treatmentCitationGroup>
+</paragraph>
+<paragraph id="8BDA36B66C088A03FF45FB6744E0FB6B" blockId="36.[189,1399,971,1511]" box="[189,1001,1191,1218]" pageId="36" pageNumber="37">
+<treatmentCitationGroup id="AB7511986C088A03FF45FB6744E0FB6B" box="[189,1001,1191,1218]" pageId="36" pageNumber="37">
+<taxonomicName id="4C654D356C088A03FF45FB67452CFB68" authorityName="Godwin-Austen" authorityYear="1875" box="[189,549,1191,1218]" class="Gastropoda" family="Helicidae" genus="Helix" higherTaxonomySource="CoL" kingdom="Animalia" order="Stylommatophora" pageId="36" pageNumber="37" phylum="Mollusca" rank="species" species="pseudophis" subGenus="Plectopylis">
+<emphasis id="B911EAA46C088A03FF45FB6747F4FB68" box="[189,253,1191,1217]" italics="true" pageId="36" pageNumber="37">Helix</emphasis>
+(
+<emphasis id="B911EAA46C088A03FEF6FB674699FB68" box="[270,400,1191,1217]" italics="true" pageId="36" pageNumber="37">Plectopylis</emphasis>
+) 
+<emphasis id="B911EAA46C088A03FE59FB67452CFB68" box="[417,549,1191,1217]" italics="true" pageId="36" pageNumber="37">pseudophis</emphasis>
+</taxonomicName>
+– 
+<treatmentCitation id="0AC410A76C088A03FDBAFB684400FB68" author="Tryon G. W." box="[578,777,1191,1218]" page="162" pageId="36" pageNumber="37" year="1887">
+<bibRefCitation id="EFF44B476C088A03FDBAFB684400FB68" author="Tryon G. W." box="[578,777,1191,1218]" pageId="36" pageNumber="37" refId="ref56474" refString="Tryon G. W. 1887. Manual of Conchology; Structural and Systematic. With Illustrations of the Species. Ser. 2, vol. 3. Helicidae, Volume I. Published by the Author, Philadelphia. Available from https: // biodiversitylibrary. org / page / 1287540 [accessed 30 Jul. 2018]." type="url" year="1887">Tryon 1887: 162</bibRefCitation>
+</treatmentCitation>
+, pl. 35, figs 80–81.
+</treatmentCitationGroup>
+</paragraph>
+<paragraph id="8BDA36B66C088A03FF45FB0C44A0FB4F" blockId="36.[189,1399,971,1511]" box="[189,937,1228,1255]" pageId="36" pageNumber="37">
+<treatmentCitationGroup id="AB7511986C088A03FF45FB0C44A0FB4F" box="[189,937,1228,1255]" pageId="36" pageNumber="37">
+<taxonomicName id="4C654D356C088A03FF45FB0C46ADFB4F" box="[189,420,1228,1254]" class="Gastropoda" family="Plectopylidae" genus="Plectopylis" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Stylommatophora" pageId="36" pageNumber="37" phylum="Mollusca" rank="species" species="leiophis">
+<emphasis id="B911EAA46C088A03FF45FB0C46ADFB4F" box="[189,420,1228,1254]" italics="true" pageId="36" pageNumber="37">Plectopylis leiophis</emphasis>
+</taxonomicName>
+– 
+<treatmentCitation id="0AC410A76C088A03FE39FB0C4576FB4F" author="Gude G. K." box="[449,639,1228,1255]" page="16" pageId="36" pageNumber="37" year="1898">
+<bibRefCitation id="EFF44B476C088A03FE39FB0C4576FB4F" author="Gude G. K." box="[449,639,1228,1255]" pageId="36" pageNumber="37" pagination="15 - 17" refId="ref53638" refString="Gude G. K. 1898 c. Armature of Helicoid landshells. Science Gossip 5 (49): 15 - 17. Available from https: // biodiversitylibrary. org / page / 34016951 [accessed 30 Jul. 2018]." type="journal article" year="1898">Gude 1898c: 16</bibRefCitation>
+</treatmentCitation>
+, fig. 76a–c; 1908: 88–89.
+</treatmentCitationGroup>
+</paragraph>
+<paragraph id="8BDA36B66C088A03FF45FB3144E7FAA2" blockId="36.[189,1399,971,1511]" box="[189,1006,1264,1291]" pageId="36" pageNumber="37">
+<treatmentCitationGroup id="AB7511986C088A03FF45FB3144E7FAA2" box="[189,1006,1264,1291]" pageId="36" pageNumber="37">
+<taxonomicName id="4C654D356C088A03FF45FB314562FAA2" box="[189,619,1265,1291]" class="Gastropoda" family="Plectopylidae" genus="Plectopylis" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Stylommatophora" pageId="36" pageNumber="37" phylum="Mollusca" rank="species" species="pseudophis" subGenus="Chersaecia">
+<emphasis id="B911EAA46C088A03FF45FB314636FAA2" box="[189,319,1265,1291]" italics="true" pageId="36" pageNumber="37">Plectopylis</emphasis>
+(
+<emphasis id="B911EAA46C088A03FEA8FB3146DFFAA2" box="[336,470,1265,1291]" italics="true" pageId="36" pageNumber="37">Chersaecia</emphasis>
+) 
+<emphasis id="B911EAA46C088A03FE1FFB314562FAA2" box="[487,619,1265,1291]" italics="true" pageId="36" pageNumber="37">pseudophis</emphasis>
+</taxonomicName>
+– 
+<treatmentCitation id="0AC410A76C088A03FD70FB31445EFAA2" author="Gude G. K." box="[648,855,1265,1291]" page="148" pageId="36" pageNumber="37" year="1899">
+<bibRefCitation id="EFF44B476C088A03FD70FB31445EFAA2" author="Gude G. K." box="[648,855,1265,1291]" pageId="36" pageNumber="37" pagination="147 - 149" refId="ref54070" refString="Gude G. K. 1899 d. Armature of Helicoid landshells and new sections of Plectopylis. Science Gossip 6 (65): 147 - 149. Available from https: // biodiversitylibrary. org / page / 34012981 [accessed 30 Jul. 2018]." type="journal article" year="1899">Gude 1899d: 148</bibRefCitation>
+</treatmentCitation>
+; 
+<treatmentCitation id="0AC410A76C088A03FC9CFB3144E3FAA2" author="Gude G. K." box="[868,1002,1264,1291]" page="175" pageId="36" pageNumber="37" year="1899">
+<bibRefCitation id="EFF44B476C088A03FC9CFB3144E3FAA2" author="Gude G. K." box="[868,1002,1264,1291]" pageId="36" pageNumber="37" pagination="174 - 177" refId="ref54119" refString="Gude G. K. 1899 e. Armature of Helicoid landshells. Science Gossip 6 (66): 174 - 177. Available from https: // biodiversitylibrary. org / page / 34123273 [accessed 30 Jul. 2018]." type="journal article" year="1899">1899e: 175</bibRefCitation>
+</treatmentCitation>
+.
+</treatmentCitationGroup>
+</paragraph>
+<paragraph id="8BDA36B66C088A03FF45FAD546D6FAFD" blockId="36.[189,1399,971,1511]" pageId="36" pageNumber="37">
+<treatmentCitationGroup id="AB7511986C088A03FF45FAD546D6FAFD" pageId="36" pageNumber="37">
+<taxonomicName id="4C654D356C088A03FF45FAD5454AFA86" box="[189,579,1301,1328]" class="Gastropoda" family="Plectopylidae" genus="Plectopylis" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Stylommatophora" pageId="36" pageNumber="37" phylum="Mollusca" rank="species" species="leiophis" subGenus="Chersaecia">
+<emphasis id="B911EAA46C088A03FF45FAD54636FA86" box="[189,319,1301,1327]" italics="true" pageId="36" pageNumber="37">Plectopylis</emphasis>
+(
+<emphasis id="B911EAA46C088A03FEA8FAD546DFFA86" box="[336,470,1301,1327]" italics="true" pageId="36" pageNumber="37">Chersaecia</emphasis>
+) 
+<emphasis id="B911EAA46C088A03FE1EFAD5454AFA86" box="[486,579,1301,1327]" italics="true" pageId="36" pageNumber="37">leiophis</emphasis>
+</taxonomicName>
+– 
+<treatmentCitation id="0AC410A76C088A03FD98FAD54427FA86" author="Gude G. K." box="[608,814,1301,1328]" page="148" pageId="36" pageNumber="37" year="1899">
+<bibRefCitation id="EFF44B476C088A03FD98FAD54427FA86" author="Gude G. K." box="[608,814,1301,1328]" pageId="36" pageNumber="37" pagination="147 - 149" refId="ref54070" refString="Gude G. K. 1899 d. Armature of Helicoid landshells and new sections of Plectopylis. Science Gossip 6 (65): 147 - 149. Available from https: // biodiversitylibrary. org / page / 34012981 [accessed 30 Jul. 2018]." type="journal article" year="1899">Gude 1899d: 148</bibRefCitation>
+</treatmentCitation>
+; 
+<treatmentCitation id="0AC410A76C088A03FCC2FAD544C9FA99" author="Gude G. K." box="[826,960,1301,1328]" page="175" pageId="36" pageNumber="37" year="1899">
+<bibRefCitation id="EFF44B476C088A03FCC2FAD544C9FA99" author="Gude G. K." box="[826,960,1301,1328]" pageId="36" pageNumber="37" pagination="174 - 177" refId="ref54119" refString="Gude G. K. 1899 e. Armature of Helicoid landshells. Science Gossip 6 (66): 174 - 177. Available from https: // biodiversitylibrary. org / page / 34123273 [accessed 30 Jul. 2018]." type="journal article" year="1899">1899e: 175</bibRefCitation>
+</treatmentCitation>
+; 
+<treatmentCitation id="0AC410A76C088A03FC34FAD54376FA86" author="Gude G. K." box="[972,1151,1301,1328]" page="99" pageId="36" pageNumber="37" year="1914">
+<bibRefCitation id="EFF44B476C088A03FC34FAD54376FA86" author="Gude G. K." box="[972,1151,1301,1328]" pageId="36" pageNumber="37" refId="ref54417" refString="Gude G. K. 1914 b. The Fauna of British India including Ceylon and Burma. Mollusca. ‾ II. (Trochomorphidae- - Janellidae). Taylor &amp; Francis, London. Available from https: // biodiversitylibrary. org / page / 12910698 [accessed 30 Jul. 2018]." type="url" year="1914">1914b: 99–102</bibRefCitation>
+</treatmentCitation>
+, figs 44–46. — Zilch 1960: 595, fig. 2093.
+</treatmentCitationGroup>
+</paragraph>
+<paragraph id="8BDA36B66C088A03FF45FA9F4208FAD1" blockId="36.[189,1399,971,1511]" box="[189,1281,1374,1401]" pageId="36" pageNumber="37">
+<treatmentCitationGroup id="AB7511986C088A03FF45FA9F4208FAD1" box="[189,1281,1374,1401]" pageId="36" pageNumber="37">
+<taxonomicName id="4C654D356C088A03FF45FA9F4584FAD0" authorityName="Gude" authorityYear="1914" box="[189,653,1375,1401]" class="Gastropoda" family="Plectopylidae" genus="Plectopylis" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Stylommatophora" pageId="36" pageNumber="37" phylum="Mollusca" rank="species" species="kengtungensis" subGenus="Chersaecia">
+<emphasis id="B911EAA46C088A03FF45FA9F4636FAD0" box="[189,319,1375,1401]" italics="true" pageId="36" pageNumber="37">Plectopylis</emphasis>
+(
+<emphasis id="B911EAA46C088A03FEA8FA9F46DFFAD0" box="[336,470,1375,1401]" italics="true" pageId="36" pageNumber="37">Chersaecia</emphasis>
+) 
+<emphasis id="B911EAA46C088A03FE1FFA9F4584FAD0" box="[487,653,1375,1401]" italics="true" pageId="36" pageNumber="37">kengtungensis</emphasis>
+</taxonomicName>
+– 
+<treatmentCitation id="0AC410A76C088A03FD53FA9E449EFAD0" author="Gude G. K." box="[683,919,1374,1401]" page="97" pageId="36" pageNumber="37" year="1914">
+<bibRefCitation id="EFF44B476C088A03FD53FA9E449EFAD0" author="Gude G. K." box="[683,919,1374,1401]" pageId="36" pageNumber="37" refId="ref54417" refString="Gude G. K. 1914 b. The Fauna of British India including Ceylon and Burma. Mollusca. ‾ II. (Trochomorphidae- - Janellidae). Taylor &amp; Francis, London. Available from https: // biodiversitylibrary. org / page / 12910698 [accessed 30 Jul. 2018]." type="url" year="1914">Gude 1914b: 97–98</bibRefCitation>
+</treatmentCitation>
+, fig. 43a–c + unnumbered figs.
+</treatmentCitationGroup>
+</paragraph>
+<paragraph id="8BDA36B66C088A03FF45FA434417FA34" blockId="36.[189,1399,971,1511]" box="[189,798,1411,1438]" pageId="36" pageNumber="37">
+<treatmentCitationGroup id="AB7511986C088A03FF45FA434417FA34" box="[189,798,1411,1438]" pageId="36" pageNumber="37">
+<taxonomicName id="4C654D356C088A03FF45FA4346AEFA34" baseAuthorityName="Benson" baseAuthorityYear="1860" box="[189,423,1411,1437]" class="Gastropoda" family="Plectopylidae" genus="Chersaecia" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Stylommatophora" pageId="36" pageNumber="37" phylum="Mollusca" rank="species" species="leiophis">
+<emphasis id="B911EAA46C088A03FF45FA4346AEFA34" box="[189,423,1411,1437]" italics="true" pageId="36" pageNumber="37">Chersaecia leiophis</emphasis>
+</taxonomicName>
+– 
+<treatmentCitation id="0AC410A76C088A03FE3CFA434412FA34" author="Pall-Gergely B. &amp; Budha P. B. &amp; Naggs F. &amp; Backeljau T. &amp; Asami T." box="[452,795,1411,1438]" page="10" pageId="36" pageNumber="37" year="2015">
+<bibRefCitation id="EFF44B476C088A03FE3CFA434412FA34" author="Pall-Gergely B. &amp; Budha P. B. &amp; Naggs F. &amp; Backeljau T. &amp; Asami T." box="[452,795,1411,1438]" pageId="36" pageNumber="37" pagination="1 - 70" refId="ref55194" refString="Pall-Gergely B., Budha P. B., Naggs F., Backeljau T. &amp; Asami T. 2015 c. Review of the genus Endothyrella Zilch, 1960 with description of five new species (Gastropoda, Pulmonata, Plectopylidae). ZooKeys 529: 1 - 70. https: // doi. org / 10.3897 / zookeys. 529.6139" type="journal article" year="2015">
+Páll-Gergely 
+<emphasis id="B911EAA46C088A03FD99FA444595FA34" box="[609,668,1411,1437]" italics="true" pageId="36" pageNumber="37">et al.</emphasis>
+2015c: 10
+</bibRefCitation>
+</treatmentCitation>
+.
+</treatmentCitationGroup>
+</paragraph>
+<paragraph id="8BDA36B66C088A03FF45FA684461FA6B" blockId="36.[189,1399,971,1511]" box="[189,872,1448,1475]" pageId="36" pageNumber="37">
+<treatmentCitationGroup id="AB7511986C088A03FF45FA684461FA6B" box="[189,872,1448,1475]" pageId="36" pageNumber="37">
+<taxonomicName id="4C654D356C088A03FF45FA6846F9FA6B" authorityName="Gude" authorityYear="1914" box="[189,496,1448,1474]" class="Gastropoda" family="Plectopylidae" genus="Chersaecia" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Stylommatophora" pageId="36" pageNumber="37" phylum="Mollusca" rank="species" species="kengtungensis">
+<emphasis id="B911EAA46C088A03FF45FA6846F9FA6B" box="[189,496,1448,1474]" italics="true" pageId="36" pageNumber="37">Chersaecia kengtungensis</emphasis>
+</taxonomicName>
+– 
+<treatmentCitation id="0AC410A76C088A03FDF5FA68446DFA6B" author="Pall-Gergely B. &amp; Budha P. B. &amp; Naggs F. &amp; Backeljau T. &amp; Asami T." box="[525,868,1448,1475]" page="10" pageId="36" pageNumber="37" year="2015">
+<bibRefCitation id="EFF44B476C088A03FDF5FA68446DFA6B" author="Pall-Gergely B. &amp; Budha P. B. &amp; Naggs F. &amp; Backeljau T. &amp; Asami T." box="[525,868,1448,1475]" pageId="36" pageNumber="37" pagination="1 - 70" refId="ref55194" refString="Pall-Gergely B., Budha P. B., Naggs F., Backeljau T. &amp; Asami T. 2015 c. Review of the genus Endothyrella Zilch, 1960 with description of five new species (Gastropoda, Pulmonata, Plectopylidae). ZooKeys 529: 1 - 70. https: // doi. org / 10.3897 / zookeys. 529.6139" type="journal article" year="2015">
+Páll-Gergely 
+<emphasis id="B911EAA46C088A03FD52FA6945ECFA6B" box="[682,741,1448,1474]" italics="true" pageId="36" pageNumber="37">et al.</emphasis>
+2015c: 10
+</bibRefCitation>
+</treatmentCitation>
+.
+</treatmentCitationGroup>
+</paragraph>
+<paragraph id="8BDA36B66C088A03FF45FA0C444FFA4E" blockId="36.[189,1399,971,1511]" box="[189,838,1484,1511]" pageId="36" pageNumber="37">
+<treatmentCitationGroup id="AB7511986C088A03FF45FA0C444FFA4E" box="[189,838,1484,1511]" pageId="36" pageNumber="37">
+<taxonomicName id="4C654D356C088A03FF45FA0C46C7FA4F" authorityName="Solem" authorityYear="1966" box="[189,462,1484,1510]" class="Gastropoda" family="Plectopylidae" genus="Chersaecia" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Stylommatophora" pageId="36" pageNumber="37" phylum="Mollusca" rank="species" species="degerbolae">
+<emphasis id="B911EAA46C088A03FF45FA0C46C7FA4F" box="[189,462,1484,1510]" italics="true" pageId="36" pageNumber="37">Chersaecia degerbolae</emphasis>
+</taxonomicName>
+– 
+<treatmentCitation id="0AC410A76C088A03FE13FA0C444BFA4E" author="Pall-Gergely B. &amp; Budha P. B. &amp; Naggs F. &amp; Backeljau T. &amp; Asami T." box="[491,834,1484,1511]" page="10" pageId="36" pageNumber="37" year="2015">
+<bibRefCitation id="EFF44B476C088A03FE13FA0C444BFA4E" author="Pall-Gergely B. &amp; Budha P. B. &amp; Naggs F. &amp; Backeljau T. &amp; Asami T." box="[491,834,1484,1511]" pageId="36" pageNumber="37" pagination="1 - 70" refId="ref55194" refString="Pall-Gergely B., Budha P. B., Naggs F., Backeljau T. &amp; Asami T. 2015 c. Review of the genus Endothyrella Zilch, 1960 with description of five new species (Gastropoda, Pulmonata, Plectopylidae). ZooKeys 529: 1 - 70. https: // doi. org / 10.3897 / zookeys. 529.6139" type="journal article" year="2015">
+Páll-Gergely 
+<emphasis id="B911EAA46C088A03FD70FA0D45CAFA4F" box="[648,707,1484,1510]" italics="true" pageId="36" pageNumber="37">et al.</emphasis>
+2015c: 10
+</bibRefCitation>
+</treatmentCitation>
+.
+</treatmentCitationGroup>
+</paragraph>
+</subSubSection>
+<subSubSection id="C37F653D6C088A03FF45F9CF4572F9D7" pageId="36" pageNumber="37" type="diagnosis">
+<paragraph id="8BDA36B66C088A03FF45F9CF463FF980" blockId="36.[189,310,1551,1577]" box="[189,310,1551,1577]" pageId="36" pageNumber="37">
+<heading id="D09281DA6C088A03FF45F9CF463FF980" bold="true" box="[189,310,1551,1577]" fontSize="11" level="3" pageId="36" pageNumber="37" reason="3">
+<emphasis id="B911EAA46C088A03FF45F9CF463FF980" bold="true" box="[189,310,1551,1577]" pageId="36" pageNumber="37">Diagnosis</emphasis>
+</heading>
+</paragraph>
+<paragraph id="8BDA36B66C088A03FF45F9FF4572F9D7" blockId="36.[189,1399,1599,1662]" pageId="36" pageNumber="37">A small to medium-sized, sinistral species with a single lamella and a main plica on the parietal wall, and parallel plicae on the palatal wall.</paragraph>
+</subSubSection>
+<subSubSection id="C37F653D6C088A00FF45F9674255FE73" lastPageId="39" lastPageNumber="40" pageId="36" pageNumber="37" type="materials_examined">
+<paragraph id="8BDA36B66C088A03FF45F96746A3F968" blockId="36.[189,426,1703,1729]" box="[189,426,1703,1729]" pageId="36" pageNumber="37">
+<heading id="D09281DA6C088A03FF45F96746A3F968" bold="true" box="[189,426,1703,1729]" fontSize="11" level="3" pageId="36" pageNumber="37" reason="3">
+<emphasis id="B911EAA46C088A03FF45F96746A3F968" bold="true" box="[189,426,1703,1729]" pageId="36" pageNumber="37">Material examined</emphasis>
+</heading>
+</paragraph>
+<materialsCitation id="3B0D3CEB6C088A03FF12F9174660F8F6" ID-GBIF-Occurrence="2611489316" pageId="36" pageNumber="37">
+<paragraph id="8BDA36B66C088A03FF12F917463AF958" blockId="36.[189,1399,1751,1887]" box="[234,307,1751,1777]" pageId="36" pageNumber="37">
+<emphasis id="B911EAA46C088A03FF12F917463AF958" bold="true" box="[234,307,1751,1777]" pageId="36" pageNumber="37">
+<typeStatus id="54DE88146C088A03FF12F917463AF958" box="[234,307,1751,1777]" pageId="36" pageNumber="37">Types</typeStatus>
+</emphasis>
+</paragraph>
+<paragraph id="8BDA36B66C088A03FF45F93C4660F8F6" blockId="36.[189,1399,1751,1887]" pageId="36" pageNumber="37">
+<collectingCountry id="F37276266C088A03FF45F93C4652F8BF" box="[189,347,1788,1814]" name="Myanmar" pageId="36" pageNumber="37">MYANMAR</collectingCountry>
+: 3 shells, 
+<typeStatus id="54DE88146C088A03FE34F93C453AF8BF" box="[460,563,1788,1814]" pageId="36" pageNumber="37">syntypes</typeStatus>
+of 
+<taxonomicName id="4C654D356C088A03FDA1F93B45F6F8BC" authorityName="Gude" authorityYear="1914" box="[601,767,1787,1813]" class="Gastropoda" family="Plectopylidae" genus="Chersaecia" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Stylommatophora" pageId="36" pageNumber="37" phylum="Mollusca" rank="species" species="kengtungensis">
+<emphasis id="B911EAA46C088A03FDA1F93B45F6F8BC" box="[601,767,1787,1813]" italics="true" pageId="36" pageNumber="37">kengtungensis</emphasis>
+</taxonomicName>
+(D = 
+<quantity id="4C9D9B536C088A03FCBBF93B44E6F8BF" box="[835,1007,1787,1814]" metricMagnitude="-2" metricUnit="m" metricValue="1.1600000000000001" metricValueMax="1.1800000000000002" metricValueMin="1.1400000000000001" pageId="36" pageNumber="37" unit="mm" value="11.6" valueMax="11.8" valueMin="11.4">11.4–11.8 mm</quantity>
+), Burmah, 
+<collectingRegion id="49A1F8546C088A03FB97F93B43A3F8BC" box="[1135,1194,1787,1813]" country="Myanmar" name="Shan" pageId="36" pageNumber="37">Shan</collectingRegion>
+States (
+<collectionCode id="ED74AE736C088A03FAFEF93B427EF8BC" box="[1286,1399,1787,1813]" country="United Kingdom" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34665" lsid="urn:lsid:biocol.org:col:34665" name="Natural History Museum, London" pageId="36" pageNumber="37" type="Museum">NHMUK</collectionCode>
+1903.7.1.750); 4 shells, probably 
+<typeStatus id="54DE88146C088A03FDA1F8E045C9F893" box="[601,704,1824,1850]" pageId="36" pageNumber="37">syntypes</typeStatus>
+of 
+<taxonomicName id="4C654D356C088A03FD17F8E044E1F893" authority=", Burmah" authorityName="Burmah" box="[751,1000,1824,1850]" class="Gastropoda" family="Plectopylidae" genus="Plectopylis" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Stylommatophora" pageId="36" pageNumber="37" phylum="Mollusca" rank="species" species="pseudophis">
+<emphasis id="B911EAA46C088A03FD17F8E0447AF893" box="[751,883,1824,1850]" italics="true" pageId="36" pageNumber="37">pseudophis</emphasis>
+, Burmah
+</taxonomicName>
+, coll. Godwin-Austen (
+<collectionCode id="ED74AE736C088A03FAFEF8E0427EF893" box="[1286,1399,1824,1850]" country="United Kingdom" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34665" lsid="urn:lsid:biocol.org:col:34665" name="Natural History Museum, London" pageId="36" pageNumber="37" type="Museum">NHMUK</collectionCode>
+1903.7.1.754).
+</paragraph>
+</materialsCitation>
+<paragraph id="8BDA36B66C088A03FF45F8484636F842" blockId="36.[189,1405,1927,2027]" pageId="36" pageNumber="37">
+<materialsCitation id="3B0D3CEB6C088A03FF45F8484636F842" ID-GBIF-Occurrence="2611489319" pageId="36" pageNumber="37">
+<collectingCountry id="F37276266C088A03FF45F8484650F80B" box="[189,345,1928,1954]" name="Thailand" pageId="36" pageNumber="37">THAILAND</collectingCountry>
+: 1 shell, 
+<typeStatus id="54DE88146C088A03FE46F847452CF808" box="[446,549,1927,1953]" pageId="36" pageNumber="37">holotype</typeStatus>
+of 
+<taxonomicName id="4C654D356C088A03FDB3F84845E2F808" authorityName="Solem" authorityYear="1966" box="[587,747,1927,1953]" class="Gastropoda" family="Plectopylidae" genus="Chersaecia" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Stylommatophora" pageId="36" pageNumber="37" phylum="Mollusca" rank="species" species="degerbolae">
+<emphasis id="B911EAA46C088A03FDB3F84845E2F808" box="[587,747,1927,1953]" italics="true" pageId="36" pageNumber="37">P. degerbolae</emphasis>
+</taxonomicName>
+(preserved in ethanol: PL123 used for molecular study) (D = 16.2), N. Thailand, Doi Sutep, O.H., 
+<quantity id="4C9D9B536C088A03FD4AF86C4405F86E" box="[690,780,1964,1991]" metricMagnitude="3" metricUnit="m" metricValue="1.0" pageId="36" pageNumber="37" unit="m" value="1000.0">1000 m</quantity>
+a.s.l., 
+<date id="FFDB10766C088A03FCA1F86C44D7F86F" box="[857,990,1964,1990]" pageId="36" pageNumber="37" value="1960-07-01">1 Jul. 1960</date>
+, Degerbøl leg. (nr. 1173) (
+<collectionCode id="ED74AE736C088A03FAEEF86C427FF86F" box="[1302,1398,1964,1990]" pageId="36" pageNumber="37">ZMUC-</collectionCode>
+GAS-485).
+</materialsCitation>
+</paragraph>
+<paragraph id="8BDA36B66C098A02FF12FECB46E8FE8C" blockId="37.[234,481,267,293]" box="[234,481,267,293]" pageId="37" pageNumber="38">
+<emphasis id="B911EAA46C098A02FF12FECB46E8FE8C" bold="true" box="[234,481,267,293]" pageId="37" pageNumber="38">Additional material</emphasis>
+</paragraph>
+<paragraph id="8BDA36B66C098A02FF45FEFC427FFEFE" blockId="37.[189,1398,316,343]" box="[189,1398,316,343]" pageId="37" pageNumber="38">
+LOCALITY UNKNOWN: 1 shell (“ 
+<taxonomicName id="4C654D356C098A02FD78FEFD45C2FEFE" baseAuthorityName="Gould" baseAuthorityYear="1846" box="[640,715,317,343]" class="Gastropoda" family="Helicidae" genus="Helix" higherTaxonomySource="CoL" kingdom="Animalia" order="Stylommatophora" pageId="37" pageNumber="38" phylum="Mollusca" rank="species" species="refuga">
+<emphasis id="B911EAA46C098A02FD78FEFD45C2FEFE" box="[640,715,317,343]" italics="true" pageId="37" pageNumber="38">refuga</emphasis>
+</taxonomicName>
+”), ex-exhibition coll. “alte Schau-Slg.” (
+<collectionCode id="ED74AE736C098A02FB3DFEFC4208FEFF" box="[1221,1281,316,342]" country="Germany" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34838" lsid="urn:lsid:biocol.org:col:34838" name="Forschungsinstitut und Natur-Museum Senckenberg" pageId="37" pageNumber="38">SMF</collectionCode>
+<date id="FFDB10766C098A02FAF6FEFC4263FEFE" box="[1294,1386,316,343]" pageId="37" pageNumber="38" value="16-01-15">150116</date>
+);
+</paragraph>
+<paragraph id="8BDA36B66C098A02FF45FEAE427FFE21" blockId="37.[189,1398,366,393]" box="[189,1398,366,393]" pageId="37" pageNumber="38">
+1 shell, ex-exhibition coll. “alte Schau-Slg.” (
+<collectionCode id="ED74AE736C098A02FD0DFEAE4438FE21" box="[757,817,366,392]" country="Germany" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34838" lsid="urn:lsid:biocol.org:col:34838" name="Forschungsinstitut und Natur-Museum Senckenberg" pageId="37" pageNumber="38">SMF</collectionCode>
+<date id="FFDB10766C098A02FCC7FEAE4492FE20" box="[831,923,366,393]" pageId="37" pageNumber="38" value="14-01-15">150114</date>
+); 67 shells, coll. Blanford (
+<collectionCode id="ED74AE736C098A02FB0CFEAE4263FE21" box="[1268,1386,366,392]" country="United Kingdom" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34665" lsid="urn:lsid:biocol.org:col:34665" name="Natural History Museum, London" pageId="37" pageNumber="38" type="Museum">NHMUK</collectionCode>
+);
+</paragraph>
+<paragraph id="8BDA36B66C098A01FF45FE5F46BEFCAC" blockId="37.[189,1202,415,442]" lastBlockId="38.[189,1399,267,773]" lastPageId="38" lastPageNumber="39" pageId="37" pageNumber="38">
+3 shells, coll. Blanford (
+<collectionCode id="ED74AE736C098A02FE2FFE5F4544FE10" box="[471,589,415,441]" country="United Kingdom" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34665" lsid="urn:lsid:biocol.org:col:34665" name="Natural History Museum, London" pageId="37" pageNumber="38" type="Museum">NHMUK</collectionCode>
+); 1 shell, “from author” (
+<collectionCode id="ED74AE736C098A02FC89FE5F44EBFE10" box="[881,994,415,441]" country="United Kingdom" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34665" lsid="urn:lsid:biocol.org:col:34665" name="Natural History Museum, London" pageId="37" pageNumber="38" type="Museum">NHMUK</collectionCode>
+1888.12.4.1532). 
+<collectingCountry id="F37276266C0A8A01FF45FECC4652FE8F" box="[189,347,268,294]" name="Myanmar" pageId="38" pageNumber="39">MYANMAR</collectingCountry>
+: 1 shell, 
+<collectingRegion id="49A1F8546C0A8A01FE34FECC4503FE8F" box="[460,522,268,294]" country="Myanmar" name="Bago" pageId="38" pageNumber="39">Pegu</collectingRegion>
+, (
+<collectionCode id="ED74AE736C0A8A01FDD9FECB4571FE8C" box="[545,632,267,293]" pageId="38" pageNumber="39">NHMS</collectionCode>
+122178); 3 shells, Barma, coll. Möllendorff (photographed for Zilch 1960) (
+<collectionCode id="ED74AE736C0A8A01FEABFEF74686FEF8" box="[339,399,311,337]" country="Germany" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34838" lsid="urn:lsid:biocol.org:col:34838" name="Forschungsinstitut und Natur-Museum Senckenberg" pageId="38" pageNumber="39">SMF</collectionCode>
+150115); 1 shell, Brit. Indien, coll. Bosch ex Rolle (Schlüter) (
+<collectionCode id="ED74AE736C0A8A01FB9DFEF743A8FEF8" box="[1125,1185,311,337]" country="Germany" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34838" lsid="urn:lsid:biocol.org:col:34838" name="Forschungsinstitut und Natur-Museum Senckenberg" pageId="38" pageNumber="39">SMF</collectionCode>
+172055); 3 shells, Akouktoung (
+<collectionCode id="ED74AE736C0A8A01FE9DFEA346DFFED4" box="[357,470,355,381]" country="United Kingdom" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34665" lsid="urn:lsid:biocol.org:col:34665" name="Natural History Museum, London" pageId="38" pageNumber="39" type="Museum">NHMUK</collectionCode>
+1888.12.4.1526–1528); 2 shells (mixed sample with 
+<taxonomicName id="4C654D356C0A8A01FB8BFEA343EEFED4" baseAuthorityName="Gould" baseAuthorityYear="1846" box="[1139,1255,355,381]" class="Gastropoda" family="Helicidae" genus="Helix" higherTaxonomySource="CoL" kingdom="Animalia" order="Stylommatophora" pageId="38" pageNumber="39" phylum="Mollusca" rank="species" species="refuga">
+<emphasis id="B911EAA46C0A8A01FB8BFEA343EEFED4" box="[1139,1255,355,381]" italics="true" pageId="38" pageNumber="39">C. refuga</emphasis>
+</taxonomicName>
+) (
+<collectionCode id="ED74AE736C0A8A01FAFEFEA3427EFED4" box="[1286,1399,355,381]" country="United Kingdom" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34665" lsid="urn:lsid:biocol.org:col:34665" name="Natural History Museum, London" pageId="38" pageNumber="39" type="Museum">NHMUK</collectionCode>
+20170160); 1 shell, Burma, ex Museum Cuming (
+<collectionCode id="ED74AE736C0A8A01FCE5FE4E4487FE01" box="[797,910,398,424]" country="United Kingdom" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34665" lsid="urn:lsid:biocol.org:col:34665" name="Natural History Museum, London" pageId="38" pageNumber="39" type="Museum">NHMUK</collectionCode>
+20150360); 1 shell (mixed sample with 
+<taxonomicName id="4C654D356C0A8A01FF45FE7A4624FE7D" baseAuthorityName="Gould" baseAuthorityYear="1846" box="[189,301,442,468]" class="Gastropoda" family="Helicidae" genus="Helix" higherTaxonomySource="CoL" kingdom="Animalia" order="Stylommatophora" pageId="38" pageNumber="39" phylum="Mollusca" rank="species" species="refuga">
+<emphasis id="B911EAA46C0A8A01FF45FE7A4624FE7D" box="[189,301,442,468]" italics="true" pageId="38" pageNumber="39">C. refuga</emphasis>
+</taxonomicName>
+) (
+<collectionCode id="ED74AE736C0A8A01FEB0FE7A46B0FE7D" box="[328,441,442,468]" country="United Kingdom" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34665" lsid="urn:lsid:biocol.org:col:34665" name="Natural History Museum, London" pageId="38" pageNumber="39" type="Museum">NHMUK</collectionCode>
+20170162); 1 shell, India, Thyet Myo (
+<collectionCode id="ED74AE736C0A8A01FC59FE7A431BFE7D" box="[929,1042,442,468]" country="United Kingdom" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34665" lsid="urn:lsid:biocol.org:col:34665" name="Natural History Museum, London" pageId="38" pageNumber="39" type="Museum">NHMUK</collectionCode>
+20170161); 3 shells, Burmah (donated by Prof. Kenneth D. Thomas), 
+<date id="FFDB10766C0A8A01FD5EFE25444DFE56" box="[678,836,485,511]" pageId="38" pageNumber="39" value="2012-10-16">16 Oct. 2012</date>
+(
+<collectionCode id="ED74AE736C0A8A01FCAEFE2544C5FE56" box="[854,972,485,511]" country="United Kingdom" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34665" lsid="urn:lsid:biocol.org:col:34665" name="Natural History Museum, London" pageId="38" pageNumber="39" type="Museum">NHMUK</collectionCode>
+); 3 shells, Prome(?) (
+<collectionCode id="ED74AE736C0A8A01FB37FE25424FFE56" box="[1231,1350,485,511]" country="United Kingdom" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34665" lsid="urn:lsid:biocol.org:col:34665" name="Natural History Museum, London" pageId="38" pageNumber="39" type="Museum">NHMUK</collectionCode>
+/13); 1 shell, Ava(?) (
+<collectionCode id="ED74AE736C0A8A01FE8CFDD146E3FD82" box="[372,490,529,555]" country="United Kingdom" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34665" lsid="urn:lsid:biocol.org:col:34665" name="Natural History Museum, London" pageId="38" pageNumber="39" type="Museum">NHMUK</collectionCode>
+); 4 shells, 
+<collectingRegion id="49A1F8546C0A8A01FD99FDD145BEFD82" box="[609,695,529,555]" country="Myanmar" name="Rakhine" pageId="38" pageNumber="39">Arakan</collectingRegion>
+Coast, Nioung jo (
+<collectionCode id="ED74AE736C0A8A01FC6AFDD1430AFD82" box="[914,1027,529,555]" country="United Kingdom" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34665" lsid="urn:lsid:biocol.org:col:34665" name="Natural History Museum, London" pageId="38" pageNumber="39" type="Museum">NHMUK</collectionCode>
+1888.12.4.1544–1547); 1 shell, 
+<collectingRegion id="49A1F8546C0A8A01FF45FDFD47F2FDFE" box="[189,251,573,599]" country="Myanmar" name="Bago" pageId="38" pageNumber="39">Pegu</collectingRegion>
+, Lower Burma, coll. Salisbury ex Beddome (
+<collectionCode id="ED74AE736C0A8A01FCCEFDFC44A5FDFF" box="[822,940,572,598]" country="United Kingdom" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34665" lsid="urn:lsid:biocol.org:col:34665" name="Natural History Museum, London" pageId="38" pageNumber="39" type="Museum">NHMUK</collectionCode>
+); 3 shells, India, Burmah, (
+<collectionCode id="ED74AE736C0A8A01FAFEFDFC427EFDFF" box="[1286,1399,572,598]" country="United Kingdom" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34665" lsid="urn:lsid:biocol.org:col:34665" name="Natural History Museum, London" pageId="38" pageNumber="39" type="Museum">NHMUK</collectionCode>
+1871.9.23.205); 6 shells, Burmah (
+<collectionCode id="ED74AE736C0A8A01FD98FDA845DFFD2B" box="[608,726,616,642]" country="United Kingdom" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34665" lsid="urn:lsid:biocol.org:col:34665" name="Natural History Museum, London" pageId="38" pageNumber="39" type="Museum">NHMUK</collectionCode>
+); 3 shells, Burmah, coll. Kennard ex Leipner ex Bullen (
+<collectionCode id="ED74AE736C0A8A01FF3DFD544632FD07" box="[197,315,660,686]" country="United Kingdom" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34665" lsid="urn:lsid:biocol.org:col:34665" name="Natural History Museum, London" pageId="38" pageNumber="39" type="Museum">NHMUK</collectionCode>
+); 5 shells, Akouktoung (
+<collectionCode id="ED74AE736C0A8A01FDA6FD5445DDFD07" box="[606,724,660,686]" country="United Kingdom" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34665" lsid="urn:lsid:biocol.org:col:34665" name="Natural History Museum, London" pageId="38" pageNumber="39" type="Museum">NHMUK</collectionCode>
+); 5 shells, 
+<collectingRegion id="49A1F8546C0A8A01FCADFD54449AFD07" box="[853,915,660,686]" country="Myanmar" name="Bago" pageId="38" pageNumber="39">Pegu</collectingRegion>
+, Thayet Myo?, coll. Blanford (
+<collectionCode id="ED74AE736C0A8A01FAFEFD54427EFD07" box="[1286,1399,660,686]" country="United Kingdom" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34665" lsid="urn:lsid:biocol.org:col:34665" name="Natural History Museum, London" pageId="38" pageNumber="39" type="Museum">NHMUK</collectionCode>
+1906.1.1.742); 3 shells, Upper 
+<collectingRegion id="49A1F8546C0A8A01FDCFFD7F4598FD70" box="[567,657,703,729]" country="Myanmar" name="Ayeyawady" pageId="38" pageNumber="39">Irawadi</collectingRegion>
+(
+<collectionCode id="ED74AE736C0A8A01FD5BFD7F441DFD70" box="[675,788,703,729]" country="United Kingdom" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34665" lsid="urn:lsid:biocol.org:col:34665" name="Natural History Museum, London" pageId="38" pageNumber="39" type="Museum">NHMUK</collectionCode>
+1888.12.04.1533–1535); ± 15 shells, Prome, coll. Blanford (
+<collectionCode id="ED74AE736C0A8A01FECDFD2B46A2FCAC" box="[309,427,747,773]" country="United Kingdom" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34665" lsid="urn:lsid:biocol.org:col:34665" name="Natural History Museum, London" pageId="38" pageNumber="39" type="Museum">NHMUK</collectionCode>
+).
+</paragraph>
+<caption id="DF1A663E6C098A02FF45F884460DF842" ID-DOI="http://doi.org/10.5281/zenodo.3817743" ID-Zenodo-Dep="3817743" httpUri="https://zenodo.org/record/3817743/files/figure.png" pageId="37" pageNumber="38" startId="37.[189,232,1860,1886]" targetBox="[189,1399,486,1817]" targetPageId="37">
+<paragraph id="8BDA36B66C098A02FF45F884460DF842" blockId="37.[189,1399,1860,2027]" pageId="37" pageNumber="38">
+<emphasis id="B911EAA46C098A02FF45F8844615F8F7" bold="true" box="[189,284,1860,1886]" pageId="37" pageNumber="38">Fig. 18.</emphasis>
+Shells and protoconch of species of 
+<taxonomicName id="4C654D356C098A02FD18F884439AF8F6" authority="(Benson, 1860)" baseAuthorityName="Benson" baseAuthorityYear="1860" box="[736,1171,1860,1887]" class="Gastropoda" family="Plectopylidae" genus="Chersaecia" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Stylommatophora" pageId="37" pageNumber="38" phylum="Mollusca" rank="species" species="leiophis">
+<emphasis id="B911EAA46C098A02FD18F88444C4F8F7" box="[736,973,1860,1886]" italics="true" pageId="37" pageNumber="38">Chersaecia leiophis</emphasis>
+(
+<bibRefCitation id="EFF44B476C098A02FC27F8844383F8F6" author="Benson W. H." box="[991,1162,1860,1887]" pageId="37" pageNumber="38" pagination="243 - 247" refId="ref51737" refString="Benson W. H. 1860. Notes on Plectopylis, a group a Helicidae distinguished by several internal plicate Ephiphragms; with the Characters of a new Species. The Annals and Magazine of Natural History 3 (5): 243 - 247. Available from https: // biodiversitylibrary. org / page / 18658580 [accessed 30 Jul. 2018]." type="journal article" year="1860">Benson, 1860</bibRefCitation>
+)
+</taxonomicName>
+. 
+<emphasis id="B911EAA46C098A02FB59F88443D3F8F7" bold="true" box="[1185,1242,1860,1886]" pageId="37" pageNumber="38">A–C</emphasis>
+. Shells from Myanmar (NHMUK 1888.12.4.1526–1528, two different shells). 
+<emphasis id="B911EAA46C098A02FC38F8A744DCF828" bold="true" box="[960,981,1895,1921]" pageId="37" pageNumber="38">D</emphasis>
+. Probable syntype of 
+<taxonomicName id="4C654D356C098A02FB2EF8A846CAF80C" authority="Godwin-Austen, 1875" authorityName="Godwin-Austen" authorityYear="1875" class="Gastropoda" family="Plectopylidae" genus="Plectopylis" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Stylommatophora" pageId="37" pageNumber="38" phylum="Mollusca" rank="species" species="pseudophis">
+<emphasis id="B911EAA46C098A02FB2EF8A8427FF828" box="[1238,1398,1895,1921]" italics="true" pageId="37" pageNumber="38">P. pseudophis</emphasis>
+Godwin-Austen, 1875
+</taxonomicName>
+(NHMUK 1903.7.1.754). 
+<emphasis id="B911EAA46C098A02FCF8F84A441DF80D" bold="true" box="[768,788,1930,1956]" pageId="37" pageNumber="38">E</emphasis>
+. Syntype of 
+<taxonomicName id="4C654D356C098A02FC55F84B420DF80D" authority="Gude, 1914" authorityName="Gude" authorityYear="1914" box="[941,1284,1930,1956]" class="Gastropoda" family="Plectopylidae" genus="Chersaecia" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Stylommatophora" pageId="37" pageNumber="38" phylum="Mollusca" rank="species" species="kengtungensis" status="syn. nov.">
+<emphasis id="B911EAA46C098A02FC55F84B4378F80D" box="[941,1137,1930,1956]" italics="true" pageId="37" pageNumber="38">P. kengtungensis</emphasis>
+Gude, 1914
+</taxonomicName>
+<taxonomicNameLabel id="A22257DF6C098A02FAF4F84B427EF80C" box="[1292,1399,1931,1957]" pageId="37" pageNumber="38">syn. nov.</taxonomicNameLabel>
+(NHMUK 1903.7.1.750). Scale of shells = 10 mm. Images: B. Páll-Gergely (B–C) and H. Taylor (A, D–E).
+</paragraph>
+</caption>
+<caption id="DF1A663E6C0A8A01FF45F8A745EFF842" ID-DOI="http://doi.org/10.5281/zenodo.3817745" ID-Zenodo-Dep="3817745" httpUri="https://zenodo.org/record/3817745/files/figure.png" pageId="38" pageNumber="39" startId="38.[189,232,1895,1921]" targetBox="[189,1399,819,1855]" targetPageId="38">
+<paragraph id="8BDA36B66C0A8A01FF45F8A745EFF842" blockId="38.[189,1399,1895,2027]" pageId="38" pageNumber="39">
+<emphasis id="B911EAA46C0A8A01FF45F8A74616F828" bold="true" box="[189,287,1895,1921]" pageId="38" pageNumber="39">Fig. 19.</emphasis>
+Shells of species of 
+<taxonomicName id="4C654D356C0A8A01FDD4F8A74459F828" authority="Gude, 1899" authorityName="Gude" authorityYear="1899" box="[556,848,1895,1921]" class="Gastropoda" family="Plectopylidae" genus="Chersaecia" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Stylommatophora" pageId="38" pageNumber="39" phylum="Mollusca" rank="genus">
+<emphasis id="B911EAA46C0A8A01FDD4F8A745BBF828" box="[556,690,1895,1921]" italics="true" pageId="38" pageNumber="39">Chersaecia</emphasis>
+Gude, 1899
+</taxonomicName>
+. 
+<emphasis id="B911EAA46C0A8A01FC99F8A7447FF828" bold="true" box="[865,886,1895,1921]" pageId="38" pageNumber="39">A</emphasis>
+. 
+<taxonomicName id="4C654D356C0A8A01FC72F8A843D0F82B" authority="(Benson, 1860)" baseAuthorityName="Benson" baseAuthorityYear="1860" box="[906,1241,1895,1922]" class="Gastropoda" family="Plectopylidae" genus="Chersaecia" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Stylommatophora" pageId="38" pageNumber="39" phylum="Mollusca" rank="species" species="leiophis">
+<emphasis id="B911EAA46C0A8A01FC72F8A84306F828" box="[906,1039,1895,1922]" italics="true" pageId="38" pageNumber="39">C. leiophis</emphasis>
+(
+<bibRefCitation id="EFF44B476C0A8A01FBDCF8A743D8F82B" author="Benson W. H." box="[1060,1233,1895,1922]" pageId="38" pageNumber="39" pagination="243 - 247" refId="ref51737" refString="Benson W. H. 1860. Notes on Plectopylis, a group a Helicidae distinguished by several internal plicate Ephiphragms; with the Characters of a new Species. The Annals and Magazine of Natural History 3 (5): 243 - 247. Available from https: // biodiversitylibrary. org / page / 18658580 [accessed 30 Jul. 2018]." type="journal article" year="1860">Benson, 1860</bibRefCitation>
+)
+</taxonomicName>
+, holotype of 
+<taxonomicName id="4C654D356C0A8A01FF45F84B451DF80D" authority="Solem, 1966" authorityName="Solem" authorityYear="1966" box="[189,532,1930,1956]" class="Gastropoda" family="Plectopylidae" genus="Chersaecia" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Stylommatophora" pageId="38" pageNumber="39" phylum="Mollusca" rank="species" species="degerbolae">
+<emphasis id="B911EAA46C0A8A01FF45F84B466EF80D" box="[189,359,1930,1956]" italics="true" pageId="38" pageNumber="39">P. degerbolae</emphasis>
+<bibRefCitation id="EFF44B476C0A8A01FE8FF84A451DF80D" author="Solem A." box="[375,532,1930,1956]" pageId="38" pageNumber="39" pagination="1 - 110" refId="ref56118" refString="Solem A. 1966. Some non-marine mollusks from Thailand, with notes on classification of the Helicarionidae. Spolia Zoologica Musei Hauniensis 24: 1 - 110." type="journal article" year="1966">Solem, 1966</bibRefCitation>
+</taxonomicName>
+(ZMUC-GAS-485). 
+<emphasis id="B911EAA46C0A8A01FCE6F84A443BF80D" bold="true" box="[798,818,1930,1956]" pageId="38" pageNumber="39">B</emphasis>
+. 
+<taxonomicName id="4C654D356C0A8A01FCB1F84B44D8F80D" baseAuthorityName="Benson" baseAuthorityYear="1860" box="[841,977,1930,1957]" class="Gastropoda" family="Plectopylidae" genus="Chersaecia" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Stylommatophora" pageId="38" pageNumber="39" phylum="Mollusca" rank="species" species="leiophis">
+<emphasis id="B911EAA46C0A8A01FCB1F84B44D8F80D" box="[841,977,1930,1957]" italics="true" pageId="38" pageNumber="39">C. leiophis</emphasis>
+</taxonomicName>
+from Thailand (UF 346988). 
+<emphasis id="B911EAA46C0A8A01FAA2F84A4266F80D" bold="true" box="[1370,1391,1930,1956]" pageId="38" pageNumber="39">C</emphasis>
+. 
+<taxonomicName id="4C654D356C0A8A01FF45F86E46F5F861" authority="(Gude, 1897)" baseAuthorityName="Gude" baseAuthorityYear="1897" box="[189,508,1965,1992]" class="Gastropoda" family="Plectopylidae" genus="Chersaecia" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Stylommatophora" pageId="38" pageNumber="39" phylum="Mollusca" rank="species" species="leucochila" status="comb. nov.">
+<emphasis id="B911EAA46C0A8A01FF45F86E4650F86E" box="[189,345,1965,1992]" italics="true" pageId="38" pageNumber="39">C. leucochila</emphasis>
+(Gude, 1897)
+</taxonomicName>
+<taxonomicNameLabel id="A22257DF6C0A8A01FDFCF86D4581F861" box="[516,648,1965,1992]" pageId="38" pageNumber="39" rank="species">comb. nov.</taxonomicNameLabel>
+, holotype (NHMUK 1922.8.29.39). Scale bar = 10 mm. Photos: B. Páll-Gergely (A), T. Deli (B), H. Taylor (C).
+</paragraph>
+</caption>
+<paragraph id="8BDA36B66C0B8A00FF45FECC4255FE73" blockId="39.[189,1399,265,474]" pageId="39" pageNumber="40">
+<collectingCountry id="F37276266C0B8A00FF45FECC4650FE8F" box="[189,345,268,294]" name="Thailand" pageId="39" pageNumber="40">THAILAND</collectingCountry>
+: 1 shell (
+<figureCitation id="135E2A336C0B8A00FE30FECB453DFE8C" box="[456,564,267,293]" captionStart="Fig" captionStartId="38.[189,232,1895,1921]" captionTargetBox="[189,1399,819,1855]" captionTargetId="figure@38.[189,1399,819,1855]" captionTargetPageId="38" captionText="Fig. 19. Shells of species of Chersaecia Gude, 1899. A. C. leiophis (Benson, 1860), holotype of P. degerbolae Solem, 1966 (ZMUC-GAS-485). B. C. leiophis from Thailand (UF 346988). C. C. leucochila (Gude, 1897) comb. nov., holotype (NHMUK 1922.8.29.39). Scale bar = 10 mm. Photos: B. Páll-Gergely (A), T. Deli (B), H. Taylor (C)." figureDoi="http://doi.org/10.5281/zenodo.3817745" httpUri="https://zenodo.org/record/3817745/files/figure.png" pageId="39" pageNumber="40">Fig. 19B</figureCitation>
+), 
+<collectingRegion id="49A1F8546C0B8A00FDB4FECB445AFE8C" box="[588,851,267,294]" inferredBySuffix="true" pageId="39" pageNumber="40">Chiang Mae Province</collectingRegion>
+, NW side of Doi Pha Sam Sao, 
+<geoCoordinate id="EE5150716C0B8A00FB22FEC9427BFE8F" box="[1242,1394,265,294]" degrees="19" direction="north" minutes="24" orientation="latitude" pageId="39" pageNumber="40" precision="15" seconds="27" value="19.4075">19°24′27″ N</geoCoordinate>
+, 
+<geoCoordinate id="EE5150716C0B8A00FF45FEED4648FEE3" box="[189,321,301,330]" degrees="99" direction="east" minutes="2" orientation="longitude" pageId="39" pageNumber="40" precision="15" seconds="56" value="99.04889">99°2′56″ E</geoCoordinate>
+, 
+<date id="FFDB10766C0B8A00FEB6FEEF46E6FEE0" box="[334,495,303,330]" pageId="39" pageNumber="40" value="1988-05-20">20 May 1988</date>
+, F.G. Thompson leg. (
+<accessionNumber id="9436AB556C0B8A00FD0FFEEF448DFEE3" box="[759,900,303,330]" httpUri="http://www.ncbi.nlm.nih.gov/nucleotide/UF346988" pageId="39" pageNumber="40">
+<collectionCode id="ED74AE736C0B8A00FD0FFEEF4417FEE0" box="[759,798,303,329]" country="USA" lsid="urn:lsid:biocol.org:col:34858" name="Florida Museum of Natural History- Zoology, Paleontology and Paleobotany" pageId="39" pageNumber="40" type="Museum">UF</collectionCode>
+346988
+</accessionNumber>
+); 3 shells, same data as for preceding (
+<accessionNumber id="9436AB556C0B8A00FAB7FEEF4613FEC7" httpUri="http://www.ncbi.nlm.nih.gov/nucleotide/UF448573" pageId="39" pageNumber="40">
+<collectionCode id="ED74AE736C0B8A00FAB7FEEF427FFEE0" box="[1359,1398,303,329]" country="USA" lsid="urn:lsid:biocol.org:col:34858" name="Florida Museum of Natural History- Zoology, Paleontology and Paleobotany" pageId="39" pageNumber="40" type="Museum">UF</collectionCode>
+448573
+</accessionNumber>
+); 1 shell, same data as for preceding (
+<collectionCode id="ED74AE736C0B8A00FD25FE934430FEC4" box="[733,825,339,365]" country="Hungary" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34991" lsid="urn:lsid:biocol.org:col:34991" name="Hungarian Natural History Museum (Termeszettudomanyi Muzeum)" pageId="39" pageNumber="40">HNHM</collectionCode>
+97456); 1 shell, 
+<collectingRegion id="49A1F8546C0B8A00FBFBFE934200FEC4" box="[1027,1289,339,366]" inferredBySuffix="true" pageId="39" pageNumber="40">Chiang Mae Province</collectingRegion>
+, Doi Pha San Sao Mountain, 
+<quantity id="4C9D9B536C0B8A00FE50FEB746EDFE38" box="[424,484,375,401]" metricMagnitude="3" metricUnit="m" metricValue="1.0" pageId="39" pageNumber="40" unit="km" value="1.0">1 km</quantity>
+W of Ban Prang Ma-o, 
+<geoCoordinate id="EE5150716C0B8A00FCFEFEB644CBFE3B" box="[774,962,374,402]" degrees="19" direction="north" minutes="25" orientation="latitude" pageId="39" pageNumber="40" precision="1" seconds="58.26" value="19.43285">19°25′58.26″ N</geoCoordinate>
+, 
+<geoCoordinate id="EE5150716C0B8A00FC37FEB64371FE3B" box="[975,1144,374,402]" degrees="99" direction="east" minutes="4" orientation="longitude" pageId="39" pageNumber="40" precision="1" seconds="14.02" value="99.07056">99°4′14.02″ E</geoCoordinate>
+, 
+<quantity id="4C9D9B536C0B8A00FB7EFEB743D8FE3B" box="[1158,1233,375,402]" metricMagnitude="2" metricUnit="m" metricValue="5.0" pageId="39" pageNumber="40" unit="m" value="500.0">500 m</quantity>
+a.s.l., 
+<date id="FFDB10766C0B8A00FAD8FEB747F3FE1C" pageId="39" pageNumber="40" value="1987-06-19">19 Jun. 1987</date>
+, F.G. Thompson leg. (
+<accessionNumber id="9436AB556C0B8A00FDF9FE5B4587FE1F" box="[513,654,411,438]" httpUri="http://www.ncbi.nlm.nih.gov/nucleotide/UF346677" pageId="39" pageNumber="40">
+<collectionCode id="ED74AE736C0B8A00FDF9FE5B4521FE1C" box="[513,552,411,437]" country="USA" lsid="urn:lsid:biocol.org:col:34858" name="Florida Museum of Natural History- Zoology, Paleontology and Paleobotany" pageId="39" pageNumber="40" type="Museum">UF</collectionCode>
+346677
+</accessionNumber>
+); 1 shell, 
+<collectingRegion id="49A1F8546C0B8A00FCF8FE5B44F6FE1C" box="[768,1023,411,437]" country="Thailand" name="Chiang Mai" pageId="39" pageNumber="40">Chiang Mai Province</collectingRegion>
+, Ban Pang Mao, 
+<quantity id="4C9D9B536C0B8A00FB33FE5B4214FE1C" box="[1227,1309,411,437]" metricMagnitude="3" metricUnit="m" metricValue="1.1" pageId="39" pageNumber="40" unit="km" value="1.1">1.1 km</quantity>
+NW of Wat Suwan Khiri, 
+<geoCoordinate id="EE5150716C0B8A00FE6FFE7E453FFE73" box="[407,566,446,474]" degrees="19" direction="north" minutes="25.981" orientation="latitude" pageId="39" pageNumber="40" precision="1" value="19.433016">19°25.981′ N</geoCoordinate>
+, 
+<geoCoordinate id="EE5150716C0B8A00FDBAFE7E45D4FE73" box="[578,733,446,474]" degrees="99" direction="east" minutes="04.335" orientation="longitude" pageId="39" pageNumber="40" precision="1" value="99.07225">99°04.335′ E</geoCoordinate>
+, 
+<quantity id="4C9D9B536C0B8A00FD12FE7F443DFE73" box="[746,820,447,474]" metricMagnitude="2" metricUnit="m" metricValue="5.1" pageId="39" pageNumber="40" unit="m" value="510.0">510 m</quantity>
+a.s.l., 
+<date id="FFDB10766C0B8A00FC79FE7F4306FE73" box="[897,1039,447,474]" pageId="39" pageNumber="40" value="2015-02-08">8 Feb. 2015</date>
+, A. Hunyadi leg. (coll. 
+<collectionCode id="ED74AE736C0B8A00FAD8FE004246FE73" box="[1312,1359,448,474]" pageId="39" pageNumber="40">HA</collectionCode>
+).
+</paragraph>
+</subSubSection>
+<subSubSection id="C37F653D6C0B8A00FF45FDC146D2FB29" pageId="39" pageNumber="40" type="description">
+<paragraph id="8BDA36B66C0B8A00FF45FDC14539FDB5" blockId="39.[189,560,513,540]" box="[189,560,513,540]" pageId="39" pageNumber="40">
+<heading id="D09281DA6C0B8A00FF45FDC14539FDB5" bold="true" box="[189,560,513,540]" fontSize="11" level="3" pageId="39" pageNumber="40" reason="3">
+<emphasis id="B911EAA46C0B8A00FF45FDC14539FDB5" bold="true" box="[189,560,513,540]" pageId="39" pageNumber="40">
+Description of typical 
+<taxonomicName id="4C654D356C0B8A00FE29FDC14539FDB5" baseAuthorityName="Benson" baseAuthorityYear="1860" box="[465,560,513,540]" class="Gastropoda" family="Plectopylidae" genus="Chersaecia" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Stylommatophora" pageId="39" pageNumber="40" phylum="Mollusca" rank="species" species="leiophis">
+<emphasis id="B911EAA46C0B8A00FE29FDC14539FDB5" bold="true" box="[465,560,513,540]" italics="true" pageId="39" pageNumber="40">leiophis</emphasis>
+</taxonomicName>
+</emphasis>
+</heading>
+</paragraph>
+<paragraph id="8BDA36B66C0B8A00FF45FDF14661FC8A" blockId="39.[189,1399,561,803]" pageId="39" pageNumber="40">SHELL. Sinistral, flat above or with very slightly elevated spire; colour light brown to yellowish and white; protoconch consists of 2.5–2.75 whorls, very finely tuberculated, with fine wrinkles over the entire surface; teleoconch with reticular structure, only periphery of body whorl dominated by radial riblets, rest of shell surface sculptured with spiral and radial elements of ca equal strength; whorls 5.75–6.25 (n = 3), separated by rather shallow suture; whorls angled, flat above; peristome expanded and slightly thickened; parietal callus elevated, rather sharp and V-shaped; apertural fold connected to parietal callus.</paragraph>
+<paragraph id="8BDA36B66C0B8A00FF45FC8B45EBFC5C" blockId="39.[189,1399,843,1014]" pageId="39" pageNumber="40">
+Three opened shells of typical 
+<taxonomicName id="4C654D356C0B8A00FDDCFC8B4588FCCC" baseAuthorityName="Benson" baseAuthorityYear="1860" box="[548,641,843,869]" class="Gastropoda" family="Plectopylidae" genus="Chersaecia" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Stylommatophora" pageId="39" pageNumber="40" phylum="Mollusca" rank="species" species="leiophis">
+<emphasis id="B911EAA46C0B8A00FDDCFC8B4588FCCC" box="[548,641,843,869]" italics="true" pageId="39" pageNumber="40">leiophis</emphasis>
+</taxonomicName>
+were examined. Parietal wall with a single curved lamella; main plica long, reaches apertural fold; lower plica short, situated under lamella; intermediate plica short; all horizontal parietal plicae free from lamella or connected to it. Palatal plicae six or seven; first and last plicae straight, middle ones straight, horizontal or oblique, or sometimes fourth and fifth vertical; sometimes the plicae have a posterior denticle.
+</paragraph>
+<paragraph id="8BDA36B66C0B8A00FF45FBDE46D2FB29" blockId="39.[189,1399,1053,1152]" pageId="39" pageNumber="40">
+MEASUREMENTS (in mm). D = 14.55–15.3, H = 6.1–6.9 (n = 3, NHMUK 1888.12.4.1526–28, typical 
+<taxonomicName id="4C654D356C0B8A00FF45FB824613FBF5" baseAuthorityName="Benson" baseAuthorityYear="1860" box="[189,282,1090,1116]" class="Gastropoda" family="Plectopylidae" genus="Chersaecia" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Stylommatophora" pageId="39" pageNumber="40" phylum="Mollusca" rank="species" species="leiophis">
+<emphasis id="B911EAA46C0B8A00FF45FB824613FBF5" box="[189,282,1090,1116]" italics="true" pageId="39" pageNumber="40">leiophis</emphasis>
+</taxonomicName>
+); D = 16.2, H = 6.2 (
+<typeStatus id="54DE88146C0B8A00FDE3FB81458DFBF2" box="[539,644,1089,1115]" pageId="39" pageNumber="40">holotype</typeStatus>
+of 
+<taxonomicName id="4C654D356C0B8A00FD55FB824438FBF5" authorityName="Solem" authorityYear="1966" box="[685,817,1090,1116]" class="Gastropoda" family="Plectopylidae" genus="Chersaecia" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Stylommatophora" pageId="39" pageNumber="40" phylum="Mollusca" rank="species" species="degerbolae">
+<emphasis id="B911EAA46C0B8A00FD55FB824438FBF5" box="[685,817,1090,1116]" italics="true" pageId="39" pageNumber="40">degerbolae</emphasis>
+</taxonomicName>
+, ZMUC-GAS-485); D = 13.6–15.6, H = 5.5–5.9 (Thai specimens, n = 3).
+</paragraph>
+</subSubSection>
+<subSubSection id="C37F653D6C0B8A00FF45FB68463BFABF" pageId="39" pageNumber="40" type="diagnosis">
+<paragraph id="8BDA36B66C0B8A00FF45FB6846C0FB6B" blockId="39.[189,457,1192,1218]" box="[189,457,1192,1218]" pageId="39" pageNumber="40">
+<heading id="D09281DA6C0B8A00FF45FB6846C0FB6B" bold="true" box="[189,457,1192,1218]" fontSize="11" level="3" pageId="39" pageNumber="40" reason="3">
+<emphasis id="B911EAA46C0B8A00FF45FB6846C0FB6B" bold="true" box="[189,457,1192,1218]" pageId="39" pageNumber="40">Differential diagnosis</emphasis>
+</heading>
+</paragraph>
+<paragraph id="8BDA36B66C0B8A00FF45FB17463BFABF" blockId="39.[189,1398,1239,1302]" pageId="39" pageNumber="40">
+<taxonomicName id="4C654D356C0B8A00FF45FB1746B9FB58" baseAuthorityName="Blanford" baseAuthorityYear="1865" box="[189,432,1239,1265]" class="Gastropoda" family="Plectopylidae" genus="Chersaecia" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Stylommatophora" pageId="39" pageNumber="40" phylum="Mollusca" rank="species" species="perarcta">
+<emphasis id="B911EAA46C0B8A00FF45FB1746B9FB58" box="[189,432,1239,1265]" italics="true" pageId="39" pageNumber="40">Chersaecia perarcta</emphasis>
+</taxonomicName>
+is smaller and flatter, usually with concave surface. See under 
+<taxonomicName id="4C654D356C0B8A00FB51FB18424BFB58" baseAuthorityName="Godwin-Austen" baseAuthorityYear="1875" box="[1193,1346,1240,1266]" class="Gastropoda" family="Plectopylidae" genus="Chersaecia" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Stylommatophora" pageId="39" pageNumber="40" phylum="Mollusca" rank="species" species="nagaensis">
+<emphasis id="B911EAA46C0B8A00FB51FB18424BFB58" box="[1193,1346,1240,1266]" italics="true" pageId="39" pageNumber="40">C. nagaensis</emphasis>
+</taxonomicName>
+and 
+<taxonomicName id="4C654D356C0B8A00FF45FB3C4623FABC" baseAuthorityName="Gould" baseAuthorityYear="1846" box="[189,298,1275,1302]" class="Gastropoda" family="Helicidae" genus="Helix" higherTaxonomySource="CoL" kingdom="Animalia" order="Stylommatophora" pageId="39" pageNumber="40" phylum="Mollusca" rank="species" species="refuga">
+<emphasis id="B911EAA46C0B8A00FF45FB3C4623FABC" box="[189,298,1275,1302]" italics="true" pageId="39" pageNumber="40">C. refuga</emphasis>
+</taxonomicName>
+.
+</paragraph>
+</subSubSection>
+<subSubSection id="C37F653D6C0B8A00FF45FAFD45F9FA05" pageId="39" pageNumber="40" type="distribution">
+<paragraph id="8BDA36B66C0B8A00FF45FAFD465FFAFE" blockId="39.[189,342,1341,1367]" box="[189,342,1341,1367]" pageId="39" pageNumber="40">
+<heading id="D09281DA6C0B8A00FF45FAFD465FFAFE" bold="true" box="[189,342,1341,1367]" fontSize="11" level="3" pageId="39" pageNumber="40" reason="3">
+<emphasis id="B911EAA46C0B8A00FF45FAFD465FFAFE" bold="true" box="[189,342,1341,1367]" pageId="39" pageNumber="40">Distribution</emphasis>
+</heading>
+</paragraph>
+<paragraph id="8BDA36B66C0B8A00FF45FAAD45F9FA05" blockId="39.[189,1398,1389,1452]" pageId="39" pageNumber="40">
+<taxonomicName id="4C654D356C0B8A00FF45FAAD46A0FA2E" baseAuthorityName="Benson" baseAuthorityYear="1860" box="[189,425,1389,1415]" class="Gastropoda" family="Plectopylidae" genus="Chersaecia" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Stylommatophora" pageId="39" pageNumber="40" phylum="Mollusca" rank="species" species="leiophis">
+<emphasis id="B911EAA46C0B8A00FF45FAAD46A0FA2E" box="[189,425,1389,1415]" italics="true" pageId="39" pageNumber="40">Chersaecia leiophis</emphasis>
+</taxonomicName>
+is known from 
+<collectingCountry id="F37276266C0B8A00FD93FAAD45D4FA2E" box="[619,733,1389,1415]" name="Myanmar" pageId="39" pageNumber="40">Myanmar</collectingCountry>
+(states of 
+<collectingRegion id="49A1F8546C0B8A00FCA5FAAD4497FA2E" box="[861,926,1389,1415]" country="Myanmar" name="Bago" pageId="39" pageNumber="40">Bago</collectingRegion>
+, Pyay, Thayet, 
+<collectingRegion id="49A1F8546C0B8A00FBAFFAAD439CFA2E" box="[1111,1173,1389,1415]" country="Myanmar" name="Shan" pageId="39" pageNumber="40">Shan</collectingRegion>
+, etc.) and northern 
+<collectingCountry id="F37276266C0B8A00FF45FA51462CFA02" box="[189,293,1425,1451]" name="Thailand" pageId="39" pageNumber="40">Thailand</collectingCountry>
+(see 
+<figureCitation id="135E2A336C0B8A00FE9BFA5146BFFA02" box="[355,438,1425,1451]" captionStart="Fig" captionStartId="34.[189,232,1824,1850]" captionTargetBox="[189,1399,940,1784]" captionTargetId="figure@34.[186,1400,938,1787]" captionTargetPageId="34" captionText="Fig. 17. Distribution of plectopylid species in Northern Thailand. Legends: circle = Chersaecia auffenbergi sp. nov.; triangle = Chersaecia leiophis (Benson, 1860) (empty triangle shows the type locality of Plectopylis degerbolae Solem, 1966); empty square = Chersaecia perarcta simplex (Solem, 1966); cross = Chersaecia perarcta perarcta (Blanford, 1865); filled square = Chersaecia scabra sp. nov.; rhomb = Chersaecia densegyrata sp. nov.; the upper filled triangle also shows the locality of Naggsia oligogyra sp. nov." figureDoi="http://doi.org/10.5281/zenodo.3817741" httpUri="https://zenodo.org/record/3817741/files/figure.png" pageId="39" pageNumber="40">Fig. 17</figureCitation>
+for localities in 
+<collectingCountry id="F37276266C0B8A00FD8EFA5145EDFA05" box="[630,740,1425,1452]" name="Thailand" pageId="39" pageNumber="40">Thailand</collectingCountry>
+).
+</paragraph>
+</subSubSection>
+<subSubSection id="C37F653D6C0B8A0FFF45FA13427BFB73" lastPageId="40" lastPageNumber="41" pageId="39" pageNumber="40" type="discussion">
+<paragraph id="8BDA36B66C0B8A00FF45FA134626FA44" blockId="39.[189,303,1491,1517]" box="[189,303,1491,1517]" pageId="39" pageNumber="40">
+<heading id="D09281DA6C0B8A00FF45FA134626FA44" bold="true" box="[189,303,1491,1517]" fontSize="11" level="3" pageId="39" pageNumber="40" reason="3">
+<emphasis id="B911EAA46C0B8A00FF45FA134626FA44" bold="true" box="[189,303,1491,1517]" pageId="39" pageNumber="40">Remarks</emphasis>
+</heading>
+</paragraph>
+<paragraph id="8BDA36B66C0B8A00FF45F9C24495F8B1" blockId="39.[189,1399,1538,1817]" pageId="39" pageNumber="40">
+The relationship between 
+<taxonomicName id="4C654D356C0B8A00FDFAF9C2441EF9B5" authorityName="Godwin-Austen" authorityYear="1875" box="[514,791,1538,1564]" class="Gastropoda" family="Plectopylidae" genus="Plectopylis" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Stylommatophora" pageId="39" pageNumber="40" phylum="Mollusca" rank="species" species="pseudophis">
+<emphasis id="B911EAA46C0B8A00FDFAF9C2441EF9B5" box="[514,791,1538,1564]" italics="true" pageId="39" pageNumber="40">Plectopylis pseudophis</emphasis>
+</taxonomicName>
+and 
+<taxonomicName id="4C654D356C0B8A00FCA6F9C344D7F9B5" baseAuthorityName="Benson" baseAuthorityYear="1860" box="[862,990,1538,1564]" class="Gastropoda" family="Plectopylidae" genus="Chersaecia" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Stylommatophora" pageId="39" pageNumber="40" phylum="Mollusca" rank="species" species="leiophis">
+<emphasis id="B911EAA46C0B8A00FCA6F9C344D7F9B5" box="[862,990,1538,1564]" italics="true" pageId="39" pageNumber="40">P. leiophis</emphasis>
+</taxonomicName>
+was discussed by 
+<bibRefCitation id="EFF44B476C0B8A00FB2BF9C24278F9B4" author="Gude G. K." box="[1235,1393,1538,1565]" pageId="39" pageNumber="40" pagination="88 - 89" refId="ref54255" refString="Gude G. K. 1908. On the identity of Plectopylis leiophis and P. pseudophis. Proceedings of the Malacological Society of London 8: 88 - 89. Available from https: // biodiversitylibrary. org / page / 32058281 [accessed 30 Jul. 2018]." type="journal article" year="1908">Gude (1908)</bibRefCitation>
+. According to him, the typical forms differ in the following characters: toothed outline of the lamella, elevated spire, and the absence of a short additional plica between the main and intermediate plicae in 
+<taxonomicName id="4C654D356C0B8A00FF45F9AE4648F921" authorityName="Godwin-Austen" authorityYear="1875" box="[189,321,1646,1672]" class="Gastropoda" family="Plectopylidae" genus="Plectopylis" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Stylommatophora" pageId="39" pageNumber="40" phylum="Mollusca" rank="species" species="pseudophis">
+<emphasis id="B911EAA46C0B8A00FF45F9AE4648F921" box="[189,321,1646,1672]" italics="true" pageId="39" pageNumber="40">pseudophis</emphasis>
+</taxonomicName>
+; smooth lamella, flat spire and the presence of an additional plica between the main and intermediate plicae in 
+<taxonomicName id="4C654D356C0B8A00FE3CF9524528F905" baseAuthorityName="Benson" baseAuthorityYear="1860" box="[452,545,1682,1708]" class="Gastropoda" family="Plectopylidae" genus="Chersaecia" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Stylommatophora" pageId="39" pageNumber="40" phylum="Mollusca" rank="species" species="leiophis">
+<emphasis id="B911EAA46C0B8A00FE3CF9524528F905" box="[452,545,1682,1708]" italics="true" pageId="39" pageNumber="40">leiophis</emphasis>
+</taxonomicName>
+. Based on the specimens examined by 
+<bibRefCitation id="EFF44B476C0B8A00FC0AF9524381F904" author="Gude G. K." box="[1010,1160,1682,1709]" pageId="39" pageNumber="40" pagination="88 - 89" refId="ref54255" refString="Gude G. K. 1908. On the identity of Plectopylis leiophis and P. pseudophis. Proceedings of the Malacological Society of London 8: 88 - 89. Available from https: // biodiversitylibrary. org / page / 32058281 [accessed 30 Jul. 2018]." type="journal article" year="1908">Gude (1908)</bibRefCitation>
+, all these characters are variable across populations and do not allow for the separation of these two species. Therefore, 
+<taxonomicName id="4C654D356C0B8A00FF45F91A46C5F95D" authorityName="Godwin-Austen" authorityYear="1875" box="[189,460,1754,1780]" class="Gastropoda" family="Plectopylidae" genus="Plectopylis" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Stylommatophora" pageId="39" pageNumber="40" phylum="Mollusca" rank="species" species="pseudophis">
+<emphasis id="B911EAA46C0B8A00FF45F91A46C5F95D" box="[189,460,1754,1780]" italics="true" pageId="39" pageNumber="40">Plectopylis pseudophis</emphasis>
+</taxonomicName>
+was assigned as a synonym of 
+<taxonomicName id="4C654D356C0B8A00FCBCF91B44B6F95D" baseAuthorityName="Benson" baseAuthorityYear="1860" box="[836,959,1754,1780]" class="Gastropoda" family="Plectopylidae" genus="Chersaecia" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Stylommatophora" pageId="39" pageNumber="40" phylum="Mollusca" rank="species" species="leiophis">
+<emphasis id="B911EAA46C0B8A00FCBCF91B44B6F95D" box="[836,959,1754,1780]" italics="true" pageId="39" pageNumber="40">P. leiophis</emphasis>
+</taxonomicName>
+. I confirmed Gude’s observations by examining the same specimens, and agree with his conclusion.
+</paragraph>
+<paragraph id="8BDA36B66C0B8A0FFF45F8814416FDAC" blockId="39.[189,1399,1857,2027]" lastBlockId="40.[189,1399,267,517]" lastPageId="40" lastPageNumber="41" pageId="39" pageNumber="40">
+<taxonomicName id="4C654D356C0B8A00FF45F88146E4F8F2" authorityName="Gude" authorityYear="1914" box="[189,493,1857,1883]" class="Gastropoda" family="Plectopylidae" genus="Plectopylis" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Stylommatophora" pageId="39" pageNumber="40" phylum="Mollusca" rank="species" species="kengtungensis">
+<emphasis id="B911EAA46C0B8A00FF45F88146E4F8F2" box="[189,493,1857,1883]" italics="true" pageId="39" pageNumber="40">Plectopylis kengtungensis</emphasis>
+</taxonomicName>
+was compared with 
+<taxonomicName id="4C654D356C0B8A00FD18F882447BF8F2" baseAuthorityName="Godwin-Austen" baseAuthorityYear="1875" box="[736,882,1858,1883]" class="Gastropoda" family="Plectopylidae" genus="Chersaecia" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Stylommatophora" pageId="39" pageNumber="40" phylum="Mollusca" rank="species" species="nagaensis">
+<emphasis id="B911EAA46C0B8A00FD18F882447BF8F2" box="[736,882,1858,1883]" italics="true" pageId="39" pageNumber="40">P. nagaensis</emphasis>
+</taxonomicName>
+and 
+<taxonomicName id="4C654D356C0B8A00FC54F8824330F8F2" authorityName="Gude" authorityYear="1897" box="[940,1081,1858,1883]" class="Gastropoda" family="Plectopylidae" genus="Plectopylis" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Stylommatophora" pageId="39" pageNumber="40" phylum="Mollusca" rank="species" species="muspratti">
+<emphasis id="B911EAA46C0B8A00FC54F8824330F8F2" box="[940,1081,1858,1883]" italics="true" pageId="39" pageNumber="40">P. muspratti</emphasis>
+</taxonomicName>
+in the original description, but not with 
+<taxonomicName id="4C654D356C0B8A00FEACF8A64575F8D6" authority="(Gude 1914 a)" baseAuthorityName="Gude" baseAuthorityYear="1914" box="[340,636,1893,1919]" class="Gastropoda" family="Plectopylidae" genus="Chersaecia" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Stylommatophora" pageId="39" pageNumber="40" phylum="Mollusca" rank="species" species="leiophis">
+<emphasis id="B911EAA46C0B8A00FEACF8A646C6F8D6" box="[340,463,1893,1919]" italics="true" pageId="39" pageNumber="40">P. leiophis</emphasis>
+(
+<bibRefCitation id="EFF44B476C0B8A00FE18F8A54579F8D6" author="Gude G. K." box="[480,624,1893,1919]" pageId="39" pageNumber="40" pagination="52 - 57" refId="ref54362" refString="Gude G. K. 1914 a. Descriptions of new species of helicoids from the Indian Region. Proceedings of the Malacological Society of London 11 (1): 52 - 57. Available from https: // biodiversitylibrary. org / page / 15715573 [accessed 30 Jul. 2018]." type="journal article" year="1914">Gude 1914a</bibRefCitation>
+)
+</taxonomicName>
+. According to the original description of 
+<taxonomicName id="4C654D356C0B8A00FB9CF8A6422EF8D6" authorityName="Gude" authorityYear="1914" box="[1124,1319,1893,1919]" class="Gastropoda" family="Plectopylidae" genus="Plectopylis" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Stylommatophora" pageId="39" pageNumber="40" phylum="Mollusca" rank="species" species="kengtungensis">
+<emphasis id="B911EAA46C0B8A00FB9CF8A6422EF8D6" box="[1124,1319,1893,1919]" italics="true" pageId="39" pageNumber="40">P. kengtungensis</emphasis>
+</taxonomicName>
+, it has the palatal plicae united with a “low transverse ridge”, whereas this was not mentioned in the case of 
+<taxonomicName id="4C654D356C0B8A00FF45F86E463DF86E" baseAuthorityName="Gude" baseAuthorityYear="1914" box="[189,308,1965,1991]" class="Gastropoda" family="Plectopylidae" genus="Chersaecia" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Stylommatophora" pageId="39" pageNumber="40" phylum="Mollusca" rank="species" species="leiophis">
+<emphasis id="B911EAA46C0B8A00FF45F86E463DF86E" box="[189,308,1965,1991]" italics="true" pageId="39" pageNumber="40">P. leiophis</emphasis>
+</taxonomicName>
+. This character, however, varies considerably between specimens within the same populations, probably depending on their age. Older shells tend to have stronger calcareous layers built on both the parietal and palatal sides of the armature. Regardless of the ridge, the morphology of palatal plicae of typical 
+<taxonomicName id="4C654D356C048A0FFEECFEF146B3FEE2" authorityName="Gude" authorityYear="1914" box="[276,442,305,331]" class="Gastropoda" family="Plectopylidae" genus="Plectopylis" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Stylommatophora" pageId="40" pageNumber="41" phylum="Mollusca" rank="species" species="kengtungensis">
+<emphasis id="B911EAA46C048A0FFEECFEF146B3FEE2" box="[276,442,305,331]" italics="true" pageId="40" pageNumber="41">kengtungensis</emphasis>
+</taxonomicName>
+and 
+<taxonomicName id="4C654D356C048A0FFE0CFEF14558FEE2" baseAuthorityName="Gude" baseAuthorityYear="1914" box="[500,593,305,331]" class="Gastropoda" family="Plectopylidae" genus="Chersaecia" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Stylommatophora" pageId="40" pageNumber="41" phylum="Mollusca" rank="species" species="leiophis">
+<emphasis id="B911EAA46C048A0FFE0CFEF14558FEE2" box="[500,593,305,331]" italics="true" pageId="40" pageNumber="41">leiophis</emphasis>
+</taxonomicName>
+are similar (usually long plicae with small denticles posteriorly, and the 5 
+<superScript id="7C109BFE6C048A0FFF0EFE94460AFECB" attach="left" box="[246,259,340,354]" fontSize="6" pageId="40" pageNumber="41">th</superScript>
+plica is oblique). The plication of the parietal side is also similar in the two forms. The shell shape of typical 
+<taxonomicName id="4C654D356C048A0FFECCFEBB4698FE3C" baseAuthorityName="Gude" baseAuthorityYear="1914" box="[308,401,379,405]" class="Gastropoda" family="Plectopylidae" genus="Chersaecia" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Stylommatophora" pageId="40" pageNumber="41" phylum="Mollusca" rank="species" species="leiophis">
+<emphasis id="B911EAA46C048A0FFECCFEBB4698FE3C" box="[308,401,379,405]" italics="true" pageId="40" pageNumber="41">leiophis</emphasis>
+</taxonomicName>
+is quite flat, whereas the spire of 
+<taxonomicName id="4C654D356C048A0FFCE3FEBC44D7FE3C" authorityName="Gude" authorityYear="1914" box="[795,990,379,405]" class="Gastropoda" family="Plectopylidae" genus="Plectopylis" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Stylommatophora" pageId="40" pageNumber="41" phylum="Mollusca" rank="species" species="kengtungensis">
+<emphasis id="B911EAA46C048A0FFCE3FEBC44D7FE3C" box="[795,990,379,405]" italics="true" pageId="40" pageNumber="41">P. kengtungensis</emphasis>
+</taxonomicName>
+is slightly elevated. This character also does not differentiate the two species, because typical 
+<taxonomicName id="4C654D356C048A0FFC86FE60430BFE13" authorityName="Godwin-Austen" authorityYear="1875" box="[894,1026,416,442]" class="Gastropoda" family="Plectopylidae" genus="Plectopylis" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Stylommatophora" pageId="40" pageNumber="41" phylum="Mollusca" rank="species" species="pseudophis">
+<emphasis id="B911EAA46C048A0FFC86FE60430BFE13" box="[894,1026,416,442]" italics="true" pageId="40" pageNumber="41">pseudophis</emphasis>
+</taxonomicName>
+(= synonym of 
+<taxonomicName id="4C654D356C048A0FFB3CFE604228FE13" baseAuthorityName="Gude" baseAuthorityYear="1914" box="[1220,1313,416,442]" class="Gastropoda" family="Plectopylidae" genus="Chersaecia" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Stylommatophora" pageId="40" pageNumber="41" phylum="Mollusca" rank="species" species="leiophis">
+<emphasis id="B911EAA46C048A0FFB3CFE604228FE13" box="[1220,1313,416,442]" italics="true" pageId="40" pageNumber="41">leiophis</emphasis>
+</taxonomicName>
+) shells have similar shell shape to that of 
+<taxonomicName id="4C654D356C048A0FFD9DFE064422FE49" authorityName="Gude" authorityYear="1914" box="[613,811,454,480]" class="Gastropoda" family="Plectopylidae" genus="Plectopylis" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Stylommatophora" pageId="40" pageNumber="41" phylum="Mollusca" rank="species" species="kengtungensis">
+<emphasis id="B911EAA46C048A0FFD9DFE064422FE49" box="[613,811,454,480]" italics="true" pageId="40" pageNumber="41">P. kengtungensis</emphasis>
+</taxonomicName>
+. Because of the above-mentioned information, I assign 
+<taxonomicName id="4C654D356C048A0FFEF6FE2C46D9FDAC" authorityName="Gude" authorityYear="1914" box="[270,464,491,517]" class="Gastropoda" family="Plectopylidae" genus="Plectopylis" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Stylommatophora" pageId="40" pageNumber="41" phylum="Mollusca" rank="species" species="kengtungensis">
+<emphasis id="B911EAA46C048A0FFEF6FE2C46D9FDAC" box="[270,464,491,517]" italics="true" pageId="40" pageNumber="41">P. kengtungensis</emphasis>
+</taxonomicName>
+as a synonym of 
+<taxonomicName id="4C654D356C048A0FFD67FE2C4410FDAC" baseAuthorityName="Gude" baseAuthorityYear="1914" box="[671,793,491,517]" class="Gastropoda" family="Plectopylidae" genus="Chersaecia" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Stylommatophora" pageId="40" pageNumber="41" phylum="Mollusca" rank="species" species="leiophis">
+<emphasis id="B911EAA46C048A0FFD67FE2C4410FDAC" box="[671,793,491,517]" italics="true" pageId="40" pageNumber="41">P. leiophis</emphasis>
+</taxonomicName>
+.
+</paragraph>
+<paragraph id="8BDA36B66C048A0FFF45FDEE4414FCDA" blockId="40.[189,1399,558,883]" pageId="40" pageNumber="41">
+<taxonomicName id="4C654D356C048A0FFF45FDEE4562FDE1" authorityName="Solem" authorityYear="1966" box="[189,619,558,585]" class="Gastropoda" family="Plectopylidae" genus="Plectopylis" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Stylommatophora" pageId="40" pageNumber="41" phylum="Mollusca" rank="species" species="degerbolae" subGenus="Chersaecia">
+<emphasis id="B911EAA46C048A0FFF45FDEE4636FDE1" box="[189,319,558,584]" italics="true" pageId="40" pageNumber="41">Plectopylis</emphasis>
+(
+<emphasis id="B911EAA46C048A0FFEA8FDEE46DFFDE1" box="[336,470,558,584]" italics="true" pageId="40" pageNumber="41">Chersaecia</emphasis>
+) 
+<emphasis id="B911EAA46C048A0FFE1FFDEE4562FDE1" box="[487,619,558,584]" italics="true" pageId="40" pageNumber="41">degerbolae</emphasis>
+</taxonomicName>
+does not differ in shape from typical 
+<taxonomicName id="4C654D356C048A0FFBDAFDEF4395FDE1" baseAuthorityName="Gude" baseAuthorityYear="1914" box="[1058,1180,558,584]" class="Gastropoda" family="Plectopylidae" genus="Chersaecia" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Stylommatophora" pageId="40" pageNumber="41" phylum="Mollusca" rank="species" species="leiophis">
+<emphasis id="B911EAA46C048A0FFBDAFDEF4395FDE1" box="[1058,1180,558,584]" italics="true" pageId="40" pageNumber="41">P. leiophis</emphasis>
+</taxonomicName>
+specimens. 
+<bibRefCitation id="EFF44B476C048A0FFAD3FDEE4602FDC7" author="Solem A." pageId="40" pageNumber="41" pagination="1 - 110" refId="ref56118" refString="Solem A. 1966. Some non-marine mollusks from Thailand, with notes on classification of the Helicarionidae. Spolia Zoologica Musei Hauniensis 24: 1 - 110." type="journal article" year="1966">Solem (1966)</bibRefCitation>
+mentioned the following differences: (1) both horizontal plicae are free from the lamella in 
+<taxonomicName id="4C654D356C048A0FFF45FDB94648FD3A" authorityName="Solem" authorityYear="1966" box="[189,321,633,659]" class="Gastropoda" family="Plectopylidae" genus="Plectopylis" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Stylommatophora" pageId="40" pageNumber="41" phylum="Mollusca" rank="species" species="degerbolae">
+<emphasis id="B911EAA46C048A0FFF45FDB94648FD3A" box="[189,321,633,659]" italics="true" pageId="40" pageNumber="41">degerbolae</emphasis>
+</taxonomicName>
+, and at least one of them is fused to the lamella as in 
+<taxonomicName id="4C654D356C048A0FFC45FDB94313FD3A" baseAuthorityName="Gude" baseAuthorityYear="1914" box="[957,1050,633,659]" class="Gastropoda" family="Plectopylidae" genus="Chersaecia" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Stylommatophora" pageId="40" pageNumber="41" phylum="Mollusca" rank="species" species="leiophis">
+<emphasis id="B911EAA46C048A0FFC45FDB94313FD3A" box="[957,1050,633,659]" italics="true" pageId="40" pageNumber="41">leiophis</emphasis>
+</taxonomicName>
+; (2) the denticles posterior to the palatal plicae are absent in 
+<taxonomicName id="4C654D356C048A0FFDD8FD5E45ADFD11" authorityName="Solem" authorityYear="1966" box="[544,676,670,696]" class="Gastropoda" family="Plectopylidae" genus="Plectopylis" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Stylommatophora" pageId="40" pageNumber="41" phylum="Mollusca" rank="species" species="degerbolae">
+<emphasis id="B911EAA46C048A0FFDD8FD5E45ADFD11" box="[544,676,670,696]" italics="true" pageId="40" pageNumber="41">degerbolae</emphasis>
+</taxonomicName>
+and present in 
+<taxonomicName id="4C654D356C048A0FFCABFD5E44B9FD11" baseAuthorityName="Gude" baseAuthorityYear="1914" box="[851,944,670,696]" class="Gastropoda" family="Plectopylidae" genus="Chersaecia" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Stylommatophora" pageId="40" pageNumber="41" phylum="Mollusca" rank="species" species="leiophis">
+<emphasis id="B911EAA46C048A0FFCABFD5E44B9FD11" box="[851,944,670,696]" italics="true" pageId="40" pageNumber="41">leiophis</emphasis>
+</taxonomicName>
+; (3) the larger shell size of 
+<taxonomicName id="4C654D356C048A0FFB13FD5E4266FD11" authorityName="Solem" authorityYear="1966" box="[1259,1391,670,696]" class="Gastropoda" family="Plectopylidae" genus="Plectopylis" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Stylommatophora" pageId="40" pageNumber="41" phylum="Mollusca" rank="species" species="degerbolae">
+<emphasis id="B911EAA46C048A0FFB13FD5E4266FD11" box="[1259,1391,670,696]" italics="true" pageId="40" pageNumber="41">degerbolae</emphasis>
+</taxonomicName>
+. The first is not true, because the lamella and the horizontal plicae are separate in some 
+<taxonomicName id="4C654D356C048A0FFB55FD034203FD74" baseAuthorityName="Gude" baseAuthorityYear="1914" box="[1197,1290,707,733]" class="Gastropoda" family="Plectopylidae" genus="Chersaecia" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Stylommatophora" pageId="40" pageNumber="41" phylum="Mollusca" rank="species" species="leiophis">
+<emphasis id="B911EAA46C048A0FFB55FD034203FD74" box="[1197,1290,707,733]" italics="true" pageId="40" pageNumber="41">leiophis</emphasis>
+</taxonomicName>
+samples, for example in typical ones (NHMUK 1906.02.02.145). The second might be true (in some 
+<taxonomicName id="4C654D356C048A0FFAE2FD29427EFCAA" baseAuthorityName="Gude" baseAuthorityYear="1914" box="[1306,1399,745,771]" class="Gastropoda" family="Plectopylidae" genus="Chersaecia" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Stylommatophora" pageId="40" pageNumber="41" phylum="Mollusca" rank="species" species="leiophis">
+<emphasis id="B911EAA46C048A0FFAE2FD29427EFCAA" box="[1306,1399,745,771]" italics="true" pageId="40" pageNumber="41">leiophis</emphasis>
+</taxonomicName>
+samples only 1–2 additional denticles found), although this character appears too variable to be useful. The same prudence should be applied with regard to the slight differences in shell size. Therefore, I treat 
+<taxonomicName id="4C654D356C048A0FFF45FC994657FCDB" authorityName="Solem" authorityYear="1966" box="[189,350,856,882]" class="Gastropoda" family="Plectopylidae" genus="Plectopylis" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Stylommatophora" pageId="40" pageNumber="41" phylum="Mollusca" rank="species" species="degerbolae">
+<emphasis id="B911EAA46C048A0FFF45FC994657FCDB" box="[189,350,856,882]" italics="true" pageId="40" pageNumber="41">P. degerbolae</emphasis>
+</taxonomicName>
+as a synonym of 
+<taxonomicName id="4C654D356C048A0FFDD4FC98441FFCDB" baseAuthorityName="Gude" baseAuthorityYear="1914" box="[556,790,856,882]" class="Gastropoda" family="Plectopylidae" genus="Chersaecia" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Stylommatophora" pageId="40" pageNumber="41" phylum="Mollusca" rank="species" species="leiophis">
+<emphasis id="B911EAA46C048A0FFDD4FC98441FFCDB" box="[556,790,856,882]" italics="true" pageId="40" pageNumber="41">Chersaecia leiophis</emphasis>
+</taxonomicName>
+.
+</paragraph>
+<paragraph id="8BDA36B66C048A0FFF45FC5C46FFFBA9" blockId="40.[189,1399,924,1024]" pageId="40" pageNumber="41">
+The shells collected in 
+<collectingCountry id="F37276266C048A0FFE31FC5C4538FC1F" box="[457,561,924,950]" name="Thailand" pageId="40" pageNumber="41">Thailand</collectingCountry>
+on the Doi Pha San Sao Mountain differ from typical 
+<taxonomicName id="4C654D356C048A0FFB51FC5C4221FC1F" baseAuthorityName="Gude" baseAuthorityYear="1914" box="[1193,1320,924,950]" class="Gastropoda" family="Plectopylidae" genus="Chersaecia" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Stylommatophora" pageId="40" pageNumber="41" phylum="Mollusca" rank="species" species="leiophis">
+<emphasis id="B911EAA46C048A0FFB51FC5C4221FC1F" box="[1193,1320,924,950]" italics="true" pageId="40" pageNumber="41">C. leiophis</emphasis>
+</taxonomicName>
+by the strongly descending aperture and the strongly expanded and reflected peristome. This form may deserve subspecific differentiation.
+</paragraph>
+<paragraph id="8BDA36B66C048A0FFF45FBEA427BFB73" blockId="40.[189,1399,1066,1242]" pageId="40" pageNumber="41">
+According to the original descriptions of 
+<taxonomicName id="4C654D356C048A0FFD63FBEB4432FBED" authorityName="Solem" authorityYear="1966" box="[667,827,1066,1092]" class="Gastropoda" family="Plectopylidae" genus="Plectopylis" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Stylommatophora" pageId="40" pageNumber="41" phylum="Mollusca" rank="species" species="degerbolae">
+<emphasis id="B911EAA46C048A0FFD63FBEB4432FBED" box="[667,827,1066,1092]" italics="true" pageId="40" pageNumber="41">P. degerbolae</emphasis>
+</taxonomicName>
+and 
+<taxonomicName id="4C654D356C048A0FFC8AFBEB44E1FBED" authorityName="Solem" authorityYear="1966" box="[882,1000,1066,1092]" class="Gastropoda" family="Plectopylidae" genus="Plectopylis" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Stylommatophora" pageId="40" pageNumber="41" phylum="Mollusca" rank="species" species="simplex">
+<emphasis id="B911EAA46C048A0FFC8AFBEB44E1FBED" box="[882,1000,1066,1092]" italics="true" pageId="40" pageNumber="41">P. simplex</emphasis>
+</taxonomicName>
+, their protoconchs have “irregular growth wrinkles” and are “smooth”, respectively (
+<bibRefCitation id="EFF44B476C048A0FFCD8FB8F44B9FBC0" author="Solem A." box="[800,944,1103,1129]" pageId="40" pageNumber="41" pagination="1 - 110" refId="ref56118" refString="Solem A. 1966. Some non-marine mollusks from Thailand, with notes on classification of the Helicarionidae. Spolia Zoologica Musei Hauniensis 24: 1 - 110." type="journal article" year="1966">Solem 1966</bibRefCitation>
+). I examined type specimens of both species and found that both have finely tuberculated protoconchs, which is a characteristic trait of the genus. In addition to the tubercles, the second whorl of the protoconch is irregularly wrinkled in the 
+<typeStatus id="54DE88146C048A0FFF45FB00462BFB73" box="[189,290,1216,1242]" pageId="40" pageNumber="41">paratype</typeStatus>
+of 
+<taxonomicName id="4C654D356C048A0FFEB1FB0046E3FB70" authorityName="Solem" authorityYear="1966" box="[329,490,1215,1241]" class="Gastropoda" family="Plectopylidae" genus="Plectopylis" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Stylommatophora" pageId="40" pageNumber="41" phylum="Mollusca" rank="species" species="degerbolae">
+<emphasis id="B911EAA46C048A0FFEB1FB0046E3FB70" box="[329,490,1215,1241]" italics="true" pageId="40" pageNumber="41">P. degerbolae</emphasis>
+</taxonomicName>
+, but no wrinkles were found on the protoconch of the 
+<typeStatus id="54DE88146C048A0FFB91FB0043C7FB73" box="[1129,1230,1216,1242]" pageId="40" pageNumber="41">paratype</typeStatus>
+of 
+<taxonomicName id="4C654D356C048A0FFB0DFB004262FB70" authorityName="Solem" authorityYear="1966" box="[1269,1387,1215,1241]" class="Gastropoda" family="Plectopylidae" genus="Plectopylis" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Stylommatophora" pageId="40" pageNumber="41" phylum="Mollusca" rank="species" species="simplex">
+<emphasis id="B911EAA46C048A0FFB0DFB004262FB70" box="[1269,1387,1215,1241]" italics="true" pageId="40" pageNumber="41">P. simplex</emphasis>
+</taxonomicName>
+.
+</paragraph>
+</subSubSection>
+</treatment>
+</document>
