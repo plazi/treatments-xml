@@ -1,4 +1,4 @@
-<document ID-DOI="10.5252/a2012n2a7" ID-ISSN="1639-4798" ID-Zenodo-Dep="5371143" approvalRequired="111" approvalRequired_for_taxonomicNames="7" approvalRequired_for_textStreams="80" approvalRequired_for_treatments="24" checkinTime="1630270159945" checkinUser="marcus" docAuthor="Schmid, Maurice" docDate="2012" docId="EB41A8571F62FF99FF5AFE14FBA1300B" docLanguage="fr" docName="Adansonia.34.2.279-341.pdf" docOrigin="Adansonia (3) 34 (2)" docSource="http://dx.doi.org/10.5252/a2012n2a7" docStyle="DocumentStyle:B98EC8A323C0F63E1C55336AD58D9273.2:Adansonia.2011-2014.journal_article" docStyleId="B98EC8A323C0F63E1C55336AD58D9273" docStyleName="Adansonia.2011-2014.journal_article" docStyleVersion="2" docTitle="Tapeinosperma oblongifolium Mez, syn. nov." docType="treatment" docVersion="6" lastPageNumber="320" masterDocId="1778D02F1F4BFFB0FF9AFFE1FFAA3307" masterDocTitle="Contribution à la connaissance des Primulaceae (ex Myrsinaceae) de Nouvelle-Calédonie. III. Les genres Tapeinosperma Hook. f. et Mangenotiella gen. nov." masterLastPageNumber="341" masterPageNumber="279" pageId="41" pageNumber="320" updateTime="1648668362996" updateUser="jonas" zenodo-license-document="CC-BY-4.0" zenodo-license-figures="CC-BY-4.0">
+<document ID-DOI="10.5252/a2012n2a7" ID-ISSN="1639-4798" ID-Zenodo-Dep="5371143" approvalRequired="111" approvalRequired_for_taxonomicNames="7" approvalRequired_for_textStreams="80" approvalRequired_for_treatments="24" checkinTime="1630270159945" checkinUser="marcus" docAuthor="Schmid, Maurice" docDate="2012" docId="EB41A8571F62FF99FF5AFE14FBA1300B" docLanguage="fr" docName="Adansonia.34.2.279-341.pdf" docOrigin="Adansonia (3) 34 (2)" docSource="http://dx.doi.org/10.5252/a2012n2a7" docStyle="DocumentStyle:B98EC8A323C0F63E1C55336AD58D9273.2:Adansonia.2011-2014.journal_article" docStyleId="B98EC8A323C0F63E1C55336AD58D9273" docStyleName="Adansonia.2011-2014.journal_article" docStyleVersion="2" docTitle="Tapeinosperma oblongifolium Mez" docType="treatment" docVersion="8" lastPageNumber="320" masterDocId="1778D02F1F4BFFB0FF9AFFE1FFAA3307" masterDocTitle="Contribution à la connaissance des Primulaceae (ex Myrsinaceae) de Nouvelle-Calédonie. III. Les genres Tapeinosperma Hook. f. et Mangenotiella gen. nov." masterLastPageNumber="341" masterPageNumber="279" pageId="41" pageNumber="320" updateTime="1648839717495" updateUser="jonas" zenodo-license-document="CC-BY-4.0" zenodo-license-figures="CC-BY-4.0">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Contribution à la connaissance des Primulaceae (ex Myrsinaceae) de Nouvelle-Calédonie. III. Les genres Tapeinosperma Hook. f. et Mangenotiella gen. nov.</mods:title>
@@ -45,6 +45,7 @@
 <mods:identifier type="ZooBank">5A91572C-743B-495C-9FC7-F8DC9BF2ACB9</mods:identifier>
 </mods:mods>
 <treatment LSID="urn:lsid:plazi:treatment:EB41A8571F62FF99FF5AFE14FBA1300B" httpUri="http://treatment.plazi.org/id/EB41A8571F62FF99FF5AFE14FBA1300B" lastPageNumber="320" pageId="41" pageNumber="320">
+<subSubSection box="[192,570,500,527]" pageId="41" pageNumber="320" type="nomenclature">
 <paragraph blockId="41.[192,570,500,527]" box="[192,570,500,527]" pageId="41" pageNumber="320">
 <heading box="[192,570,500,527]" centered="true" fontSize="11" level="2" pageId="41" pageNumber="320" reason="3">
 <taxonomicName authority="Mez" box="[192,570,500,527]" class="Magnoliopsida" family="Primulaceae" genus="Tapeinosperma" kingdom="Plantae" order="Ericales" pageId="41" pageNumber="320" phylum="Tracheophyta" rank="species" species="oblongifolium">
@@ -53,16 +54,22 @@ Mez
 </taxonomicName>
 </heading>
 </paragraph>
+</subSubSection>
+<subSubSection pageId="41" pageNumber="320" type="reference_group">
 <paragraph blockId="41.[111,648,558,1386]" box="[136,604,558,582]" pageId="41" pageNumber="320">
 <emphasis box="[136,157,559,582]" italics="true" pageId="41" pageNumber="320">In</emphasis>
+<bibRefCitation box="[163,601,558,582]" pageId="41" pageNumber="320">
 Engler, 
 <emphasis box="[238,365,558,582]" italics="true" pageId="41" pageNumber="320">Pflanzenreich</emphasis>
-9 (IV.236): 169 (1902).
+9 (IV.236): 169 (1902)
+</bibRefCitation>
+.
 </paragraph>
 <paragraph blockId="41.[111,648,558,1386]" pageId="41" pageNumber="320">
+<treatmentCitation author="Guillaumin" page="651" pageId="41" pageNumber="320" year="1919">
 <taxonomicName authority="Guillaumin" authorityName="Guillaumin" box="[113,339,605,629]" class="Magnoliopsida" family="Primulaceae" genus="Tapeinosperma" kingdom="Plantae" order="Ericales" pageId="41" pageNumber="320" phylum="Tracheophyta" rank="species" species="pennelli" status="syn. nov.">
 <emphasis box="[113,216,605,629]" italics="true" pageId="41" pageNumber="320">T. pennelli</emphasis>
-<materialsCitation box="[224,339,605,629]" pageId="41" pageNumber="320">Guillaumin</materialsCitation>
+Guillaumin
 </taxonomicName>
 <taxonomicNameLabel box="[346,438,606,630]" pageId="41" pageNumber="320">syn. nov.</taxonomicNameLabel>
 , 
@@ -72,89 +79,125 @@ national
 <collectorName box="[221,312,632,656]" pageId="41" pageNumber="320">d’Histoire</collectorName>
 naturelle,
 </emphasis>
-<bibCitation journal="Paris, ser. Botanique" page="651" pageId="41" pageNumber="320" score="0.35909755432635504" volume="25" year="1919">
 <collectorName box="[410,459,632,656]" pageId="41" pageNumber="320">Paris</collectorName>
 , sér. 
 <collectorName box="[504,608,632,656]" pageId="41" pageNumber="320">Botanique</collectorName>
 , 25: 651 (1919)
-</bibCitation>
-. — 
+</treatmentCitation>
+.
+</paragraph>
+</subSubSection>
+<subSubSection pageId="41" pageNumber="320" type="materials_examined">
+<paragraph blockId="41.[111,648,558,1386]" pageId="41" pageNumber="320">
+— 
 <typeStatus box="[287,335,659,683]" pageId="41" pageNumber="320">
 <collectorName box="[287,335,659,683]" pageId="41" pageNumber="320">Type</collectorName>
 </typeStatus>
 : 
+<materialsCitation collectionCode="P" collectorName="Pennel" country="New Caledonia" location="Bourail" municipality="Bourail" pageId="41" pageNumber="320" specimenCode="P00835331" specimenCount="1">
 <collectingCountry box="[350,548,658,682]" name="New Caledonia" pageId="41" pageNumber="320">Nouvelle-Calédonie</collectingCountry>
-, région 
-<collectorName pageId="41" pageNumber="320">de Bourail</collectorName>
+, région de 
+<collectingMunicipality box="[136,211,685,709]" pageId="41" pageNumber="320">Bourail</collectingMunicipality>
 , fl., 
 <emphasis box="[251,399,685,709]" italics="true" pageId="41" pageNumber="320">
 s.d., 
 <collectorName box="[294,356,685,709]" pageId="41" pageNumber="320">Pennel</collectorName>
 394
 </emphasis>
-(holo-, P! [
+(holo-, 
+<collectionCode box="[476,492,685,709]" pageId="41" pageNumber="320">P</collectionCode>
+! [
 <specimenCode box="[508,623,685,709]" collectionCode="P" country="France" lsid="urn:lsid:biocol.org:col:15763" name="Museum National d' Histoire Naturelle, Paris (MNHN) - Vascular Plants" pageId="41" pageNumber="320" type="Herbarium">P00835331</specimenCode>
-]). 
+])
+</materialsCitation>
+.
+</paragraph>
+<paragraph blockId="41.[111,648,558,1386]" pageId="41" pageNumber="320">
 <typeStatus box="[113,174,733,756]" pageId="41" pageNumber="320">TYPUS</typeStatus>
 . — 
+<materialsCitation collectionCode="P" collectorName="Vieillard" country="New Caledonia" location="Wagap" pageId="41" pageNumber="320" specimenCode="P00835388" specimenCount="1" typeStatus="lectotype">
 <collectingCountry box="[214,407,732,756]" name="New Caledonia" pageId="41" pageNumber="320">Nouvelle-Calédonie</collectingCountry>
-, Wagap, bois des collines, arbuste dressé, élégant, fl., 1861-67, 
-<emphasis box="[443,574,759,783]" italics="true" pageId="41" pageNumber="320">Vieillard 2849</emphasis>
-(lecto-, P [
+, 
+<location LSID="urn:lsid:plazi:treatment:EB41A8571F62FF99FF5AFE14FBA1300B:66374F9A1F62FF99FE05FD3CFE4931F2" box="[415,483,733,757]" country="New Caledonia" name="Wagap" pageId="41" pageNumber="320">Wagap</location>
+, bois des collines, arbuste dressé, élégant, fl., 1861-67, 
+<emphasis box="[443,574,759,783]" italics="true" pageId="41" pageNumber="320">
+<collectorName box="[443,521,759,783]" pageId="41" pageNumber="320">Vieillard</collectorName>
+2849
+</emphasis>
+(
+<typeStatus box="[587,643,759,783]" pageId="41" pageNumber="320">lecto-</typeStatus>
+, 
+<collectionCode box="[111,125,786,809]" pageId="41" pageNumber="320">P</collectionCode>
+[
 <specimenCode box="[141,256,785,809]" collectionCode="P" country="France" lsid="urn:lsid:biocol.org:col:15763" name="Museum National d' Histoire Naturelle, Paris (MNHN) - Vascular Plants" pageId="41" pageNumber="320" type="Herbarium">P00835388</specimenCode>
-], désigné ici; isolecto-, BISH, G, MO, NOU, NSW, P [
+], désigné ici
+</materialsCitation>
+; 
+<materialsCitation collectionCode="BISH, G, MO, NOU, NSW, P" collectorName="Vieillard" country="New Caledonia" location="Wagap" pageId="41" pageNumber="320" specimenCode="P00835389, P00835390" specimenCount="1" typeStatus="isolectotype">
+<typeStatus box="[399,483,785,809]" pageId="41" pageNumber="320">isolecto-</typeStatus>
+, 
+<collectionCode box="[494,553,786,810]" pageId="41" pageNumber="320">BISH</collectionCode>
+, 
+<collectionCode box="[564,585,786,810]" pageId="41" pageNumber="320">G</collectionCode>
+, 
+<collectionCode box="[597,643,786,810]" pageId="41" pageNumber="320">MO</collectionCode>
+, 
+<collectionCode box="[113,174,812,836]" pageId="41" pageNumber="320">NOU</collectionCode>
+, 
+<collectionCode box="[185,241,812,836]" pageId="41" pageNumber="320">NSW</collectionCode>
+, 
+<collectionCode box="[251,265,812,835]" pageId="41" pageNumber="320">P</collectionCode>
+[
 <specimenCode box="[279,395,812,836]" collectionCode="P" country="France" lsid="urn:lsid:biocol.org:col:15763" name="Museum National d' Histoire Naturelle, Paris (MNHN) - Vascular Plants" pageId="41" pageNumber="320" type="Herbarium">P00835389</specimenCode>
 , 
 <specimenCode box="[407,523,812,836]" collectionCode="P" country="France" lsid="urn:lsid:biocol.org:col:15763" name="Museum National d' Histoire Naturelle, Paris (MNHN) - Vascular Plants" pageId="41" pageNumber="320" type="Herbarium">P00835390</specimenCode>
-]).
+])
+</materialsCitation>
+.
 </paragraph>
 <paragraph blockId="41.[111,648,558,1386]" pageId="41" pageNumber="320">AUTRE MATÉRIEL SÉLECTIONNÉ. — L’herbier de Paris comprend une douzaine d’échantillons, tous – sauf un – récoltés en forêt sur terrains plus ou moins siliceux.</paragraph>
 <paragraph blockId="41.[111,648,558,1386]" pageId="41" pageNumber="320">
-<materialsCitation pageId="41" pageNumber="320">
-<emphasis bold="true" box="[113,301,940,964]" pageId="41" pageNumber="320">
-<collectingCountry box="[113,301,940,964]" name="New Caledonia" pageId="41" pageNumber="320">Nouvelle-Calédonie</collectingCountry>
-</emphasis>
+<materialsCitation collectingDate="1965-10-28" collectionCode="NOU" collectorName="MacKee" country="New Caledonia" elevation="150" location="HauteTchamba" pageId="41" pageNumber="320" specimenCount="1">
+<collectingCountry box="[113,301,940,964]" name="New Caledonia" pageId="41" pageNumber="320">
+<emphasis bold="true" box="[113,301,940,964]" pageId="41" pageNumber="320">Nouvelle-Calédonie</emphasis>
+</collectingCountry>
 . 
-<collectorName box="[311,463,939,963]" pageId="41" pageNumber="320">HauteTchamba</collectorName>
+<location LSID="urn:lsid:plazi:treatment:EB41A8571F62FF99FF5AFE14FBA1300B:66374F9A1F62FF99FEADFC4AFE6530C4" box="[311,463,939,963]" country="New Caledonia" name="HauteTchamba" pageId="41" pageNumber="320">HauteTchamba</location>
 , vers 
 <quantity box="[510,571,939,963]" metricMagnitude="2" metricUnit="m" metricValue="1.5" pageId="41" pageNumber="320" unit="m" value="150.0">
 <elevation box="[510,571,939,963]" metricMagnitude="2" metricUnit="m" metricValue="1.5" pageId="41" pageNumber="320" unit="m" value="150.0">150 m</elevation>
 </quantity>
 , arbuste (
-<quantity box="[119,159,965,989]" metricMagnitude="0" metricUnit="m" metricValue="2.0" pageId="41" pageNumber="320" unit="m" value="2.0">
-<elevation box="[119,159,965,989]" metricMagnitude="0" metricUnit="m" metricValue="2.0" pageId="41" pageNumber="320" unit="m" value="2.0">2 m</elevation>
-</quantity>
+<quantity box="[119,159,965,989]" metricMagnitude="0" metricUnit="m" metricValue="2.0" pageId="41" pageNumber="320" unit="m" value="2.0">2 m</quantity>
 ), en forêt-galerie, fl. roses, 
 <date box="[399,501,965,989]" pageId="41" pageNumber="320" value="1965-10-28">
 <collectingDate box="[399,501,965,989]" pageId="41" pageNumber="320" value="1965-10-28">28.X.1965</collectingDate>
 </date>
 , 
 <emphasis box="[509,646,965,989]" italics="true" pageId="41" pageNumber="320">
-<location LSID="urn:lsid:plazi:treatment:EB41A8571F62FF99FF5AFE14FBA1300B:66374F9A1F62FF99FE67FC27FDEF30DA" box="[509,581,966,989]" country="New Caledonia" name="MacKee" pageId="41" pageNumber="320">MacKee</location>
+<collectorName box="[509,581,966,989]" pageId="41" pageNumber="320">MacKee</collectorName>
 13757
 </emphasis>
 (
 <collectionCode box="[119,184,992,1016]" country="New Caledonia" httpUri="http://biocol.org/urn:lsid:biocol.org:col:15483" lsid="urn:lsid:biocol.org:col:15483" name="Institut de Recherche pour le Développement" pageId="41" pageNumber="320" type="Herbarium">NOU</collectionCode>
-)
+).
 </materialsCitation>
-. — 
-<materialsCitation pageId="41" pageNumber="320">
-<collectorName box="[238,429,992,1016]" pageId="41" pageNumber="320">Haute Pouembout</collectorName>
+— 
+<materialsCitation collectingDate="1967-10-15" collectionCode="MO, NOU, NSW" collectorName="MacKee" elevation="650" location="Haute Pouembout" pageId="41" pageNumber="320" specimenCount="1">
+<location LSID="urn:lsid:plazi:treatment:EB41A8571F62FF99FF5AFE14FBA1300B:66374F9A1F62FF99FF74FC01FE0730FF" box="[238,429,992,1016]" name="Haute Pouembout" pageId="41" pageNumber="320">Haute Pouembout</location>
 , vers 
 <quantity box="[489,559,992,1016]" metricMagnitude="2" metricUnit="m" metricValue="6.5" pageId="41" pageNumber="320" unit="m" value="650.0">
 <elevation box="[489,559,992,1016]" metricMagnitude="2" metricUnit="m" metricValue="6.5" pageId="41" pageNumber="320" unit="m" value="650.0">650 m</elevation>
 </quantity>
 , arbuste (
-<quantity box="[123,162,1018,1042]" metricMagnitude="0" metricUnit="m" metricValue="2.0" pageId="41" pageNumber="320" unit="m" value="2.0">
-<elevation box="[123,162,1018,1042]" metricMagnitude="0" metricUnit="m" metricValue="2.0" pageId="41" pageNumber="320" unit="m" value="2.0">2 m</elevation>
-</quantity>
+<quantity box="[123,162,1018,1042]" metricMagnitude="0" metricUnit="m" metricValue="2.0" pageId="41" pageNumber="320" unit="m" value="2.0">2 m</quantity>
 ), fl. roses, 
 <date box="[260,366,1018,1042]" pageId="41" pageNumber="320" value="1967-10-15">
 <collectingDate box="[260,366,1018,1042]" pageId="41" pageNumber="320" value="1967-10-15">15.X.1967</collectingDate>
 </date>
 , 
 <emphasis box="[375,517,1018,1042]" italics="true" pageId="41" pageNumber="320">
-<location LSID="urn:lsid:plazi:treatment:EB41A8571F62FF99FF5AFE14FBA1300B:66374F9A1F62FF99FEEDFC1AFE6B3715" box="[375,449,1019,1042]" country="New Caledonia" name="MacKee" pageId="41" pageNumber="320">MacKee</location>
+<collectorName box="[375,449,1019,1042]" pageId="41" pageNumber="320">MacKee</collectorName>
 17731
 </emphasis>
 (
@@ -163,16 +206,12 @@ s.d.,
 <collectionCode box="[583,644,1018,1042]" country="New Caledonia" httpUri="http://biocol.org/urn:lsid:biocol.org:col:15483" lsid="urn:lsid:biocol.org:col:15483" name="Institut de Recherche pour le Développement" pageId="41" pageNumber="320" type="Herbarium">NOU</collectionCode>
 , 
 <collectionCode box="[112,173,1045,1069]" country="Australia" httpUri="http://biocol.org/urn:lsid:biocol.org:col:15627" lsid="urn:lsid:biocol.org:col:15627" name="Royal Botanic Gardens, National Herbarium of New South Wales" pageId="41" pageNumber="320" type="Herbarium">NSW</collectionCode>
-)
+).
 </materialsCitation>
-. — 
-<materialsCitation pageId="41" pageNumber="320">
-<collectorName box="[224,314,1045,1069]" pageId="41" pageNumber="320">Aoupinié</collectorName>
-(versant 
-<collectionCode box="[407,430,1045,1069]" country="China" lsid="urn:lsid:biocol.org:col:13092" name="Nanjing University" pageId="41" pageNumber="320" type="Herbarium">N</collectionCode>
-. 
-<collectionCode box="[433,452,1045,1069]" country="United Kingdom" lsid="urn:lsid:biocol.org:col:15670" name="Royal Botanic Garden Edinburgh" pageId="41" pageNumber="320" type="Herbarium">E</collectionCode>
-.), arbuste (
+— 
+<materialsCitation collectingDate="1967-11-24" collectionCode="NOU" collectorName="MacKee" elevation="3" location="Aoupinie" pageId="41" pageNumber="320" specimenCount="1">
+<location LSID="urn:lsid:plazi:treatment:EB41A8571F62FF99FF5AFE14FBA1300B:66374F9A1F62FF99FF7AFBF4FE90372A" box="[224,314,1045,1069]" name="Aoupinie" pageId="41" pageNumber="320">Aoupinié</location>
+(versant N.E.), arbuste (
 <quantity box="[563,606,1045,1069]" metricMagnitude="0" metricUnit="m" metricValue="3.0" pageId="41" pageNumber="320" unit="m" value="3.0">
 <elevation box="[563,606,1045,1069]" metricMagnitude="0" metricUnit="m" metricValue="3.0" pageId="41" pageNumber="320" unit="m" value="3.0">3 m</elevation>
 </quantity>
@@ -182,59 +221,56 @@ s.d.,
 </date>
 , 
 <emphasis box="[346,482,1071,1095]" italics="true" pageId="41" pageNumber="320">
-<location LSID="urn:lsid:plazi:treatment:EB41A8571F62FF99FF5AFE14FBA1300B:66374F9A1F62FF99FEC0FBD1FE083740" box="[346,418,1072,1095]" country="New Caledonia" name="MacKee" pageId="41" pageNumber="320">MacKee</location>
+<collectorName box="[346,418,1072,1095]" pageId="41" pageNumber="320">MacKee</collectorName>
 18049
 </emphasis>
 (
 <collectionCode box="[493,553,1071,1095]" country="New Caledonia" httpUri="http://biocol.org/urn:lsid:biocol.org:col:15483" lsid="urn:lsid:biocol.org:col:15483" name="Institut de Recherche pour le Développement" pageId="41" pageNumber="320" type="Herbarium">NOU</collectionCode>
-)
+).
 </materialsCitation>
-.— 
-<materialsCitation pageId="41" pageNumber="320">
-<collectorName pageId="41" pageNumber="320">Entre Tchamba</collectorName>
+— 
+<materialsCitation collectingDate="1968-11-14" collectionCode="G, NOU" collectorName="MacKee" country="New Caledonia" elevation="600" location="Tchamba" pageId="41" pageNumber="320" specimenCount="1">
+Entre 
+<location LSID="urn:lsid:plazi:treatment:EB41A8571F62FF99FF5AFE14FBA1300B:66374F9A1F62FF99FFF5FBABFF663765" box="[111,204,1098,1122]" name="Tchamba" pageId="41" pageNumber="320">Tchamba</location>
 et 
-<collectorName box="[234,295,1098,1122]" pageId="41" pageNumber="320">Amoa</collectorName>
+<location LSID="urn:lsid:plazi:treatment:EB41A8571F62FF99FF5AFE14FBA1300B:66374F9A1F62FF99FF70FBABFE8D3765" box="[234,295,1098,1122]" name="Amoa" pageId="41" pageNumber="320">Amoa</location>
 , vers 
 <quantity box="[347,413,1098,1122]" metricMagnitude="2" metricUnit="m" metricValue="6.0" pageId="41" pageNumber="320" unit="m" value="600.0">
 <elevation box="[347,413,1098,1122]" metricMagnitude="2" metricUnit="m" metricValue="6.0" pageId="41" pageNumber="320" unit="m" value="600.0">600 m</elevation>
 </quantity>
 , arbuste (
-<quantity box="[507,548,1098,1122]" metricMagnitude="0" metricUnit="m" metricValue="3.0" pageId="41" pageNumber="320" unit="m" value="3.0">
-<elevation box="[507,548,1098,1122]" metricMagnitude="0" metricUnit="m" metricValue="3.0" pageId="41" pageNumber="320" unit="m" value="3.0">3 m</elevation>
-</quantity>
+<quantity box="[507,548,1098,1122]" metricMagnitude="0" metricUnit="m" metricValue="3.0" pageId="41" pageNumber="320" unit="m" value="3.0">3 m</quantity>
 ), fl. violet pâle, 
 <date box="[164,280,1124,1148]" pageId="41" pageNumber="320" value="1968-11-14">
 <collectingDate box="[164,280,1124,1148]" pageId="41" pageNumber="320" value="1968-11-14">14.XI.1968</collectingDate>
 </date>
 , 
 <emphasis box="[289,432,1124,1148]" italics="true" pageId="41" pageNumber="320">
-<location LSID="urn:lsid:plazi:treatment:EB41A8571F62FF99FF5AFE14FBA1300B:66374F9A1F62FF99FEBBFB84FEC6377B" box="[289,364,1125,1148]" country="New Caledonia" name="MacKee" pageId="41" pageNumber="320">MacKee</location>
+<collectorName box="[289,364,1125,1148]" pageId="41" pageNumber="320">MacKee</collectorName>
 19958
 </emphasis>
 (
 <collectionCode box="[446,467,1124,1148]" country="Switzerland" lsid="urn:lsid:biocol.org:col:15706" name="Conservatoire et Jardin botaniques de la Ville de Genève" pageId="41" pageNumber="320" type="Herbarium">G</collectionCode>
 , 
 <collectionCode box="[476,539,1124,1148]" country="New Caledonia" httpUri="http://biocol.org/urn:lsid:biocol.org:col:15483" lsid="urn:lsid:biocol.org:col:15483" name="Institut de Recherche pour le Développement" pageId="41" pageNumber="320" type="Herbarium">NOU</collectionCode>
-)
+).
 </materialsCitation>
-. — 
-<materialsCitation pageId="41" pageNumber="320">
-<collectorName pageId="41" pageNumber="320">Haute Tiwaka</collectorName>
+— 
+<materialsCitation collectingDate="1973-10-30" collectionCode="CANB, G, MO, NOU" collectorName="MacKee" country="New Caledonia" elevation="250" location="Haute Tiwaka" pageId="41" pageNumber="320" specimenCount="1">
+<location LSID="urn:lsid:plazi:treatment:EB41A8571F62FF99FF5AFE14FBA1300B:66374F9A1F62FF99FDD3FB84FF113791" name="Haute Tiwaka" pageId="41" pageNumber="320">Haute Tiwaka</location>
 , vers 
 <quantity box="[244,312,1150,1174]" metricMagnitude="2" metricUnit="m" metricValue="2.5" pageId="41" pageNumber="320" unit="m" value="250.0">
 <elevation box="[244,312,1150,1174]" metricMagnitude="2" metricUnit="m" metricValue="2.5" pageId="41" pageNumber="320" unit="m" value="250.0">250 m</elevation>
 </quantity>
 , arbuste (
-<quantity box="[412,453,1151,1175]" metricMagnitude="0" metricUnit="m" metricValue="3.0" pageId="41" pageNumber="320" unit="m" value="3.0">
-<elevation box="[412,453,1151,1175]" metricMagnitude="0" metricUnit="m" metricValue="3.0" pageId="41" pageNumber="320" unit="m" value="3.0">3 m</elevation>
-</quantity>
+<quantity box="[412,453,1151,1175]" metricMagnitude="0" metricUnit="m" metricValue="3.0" pageId="41" pageNumber="320" unit="m" value="3.0">3 m</quantity>
 ) ripicole, infloresc. sur des rameaux spéciaux, fl. roses, 
 <date box="[454,561,1177,1201]" pageId="41" pageNumber="320" value="1973-10-30">
 <collectingDate box="[454,561,1177,1201]" pageId="41" pageNumber="320" value="1973-10-30">30.X.1973</collectingDate>
 </date>
 , 
 <emphasis italics="true" pageId="41" pageNumber="320">
-<location LSID="urn:lsid:plazi:treatment:EB41A8571F62FF99FF5AFE14FBA1300B:66374F9A1F62FF99FDA1FB7BFD2C37B6" box="[571,646,1178,1201]" country="New Caledonia" name="MacKee" pageId="41" pageNumber="320">MacKee</location>
+<collectorName box="[571,646,1178,1201]" pageId="41" pageNumber="320">MacKee</collectorName>
 27668
 </emphasis>
 (
@@ -245,41 +281,39 @@ et
 <collectionCode box="[293,338,1204,1228]" country="USA" lsid="urn:lsid:biocol.org:col:15859" name="Missouri Botanical Garden" pageId="41" pageNumber="320" type="Herbarium">MO</collectionCode>
 , 
 <collectionCode box="[346,407,1204,1228]" country="New Caledonia" httpUri="http://biocol.org/urn:lsid:biocol.org:col:15483" lsid="urn:lsid:biocol.org:col:15483" name="Institut de Recherche pour le Développement" pageId="41" pageNumber="320" type="Herbarium">NOU</collectionCode>
-)
+).
 </materialsCitation>
-. — 
-<materialsCitation pageId="41" pageNumber="320">
-<collectorName box="[451,548,1203,1227]" pageId="41" pageNumber="320">Ponandou</collectorName>
-(au sud 
-<collectorName pageId="41" pageNumber="320">de Touho</collectorName>
+— 
+<materialsCitation collectingDate="1976-04-01" collectionCode="MO, NOU" collectorName="MacKee" elevation="150" location="Ponandou" pageId="41" pageNumber="320" specimenCount="1">
+<location LSID="urn:lsid:plazi:treatment:EB41A8571F62FF99FF5AFE14FBA1300B:66374F9A1F62FF99FE59FB52FD8E37CC" box="[451,548,1203,1227]" name="Ponandou" pageId="41" pageNumber="320">Ponandou</location>
+(au sud de 
+<location LSID="urn:lsid:plazi:treatment:EB41A8571F62FF99FF5AFE14FBA1300B:66374F9A1F62FF99FFEAFB2FFF1E37E1" box="[112,180,1230,1254]" name="Touho" pageId="41" pageNumber="320">Touho</location>
 ), vers 
 <quantity box="[236,301,1230,1254]" metricMagnitude="2" metricUnit="m" metricValue="1.5" pageId="41" pageNumber="320" unit="m" value="150.0">
 <elevation box="[236,301,1230,1254]" metricMagnitude="2" metricUnit="m" metricValue="1.5" pageId="41" pageNumber="320" unit="m" value="150.0">150 m</elevation>
 </quantity>
 , arbuste (
-<quantity box="[392,433,1230,1254]" metricMagnitude="0" metricUnit="m" metricValue="2.0" pageId="41" pageNumber="320" unit="m" value="2.0">
-<elevation box="[392,433,1230,1254]" metricMagnitude="0" metricUnit="m" metricValue="2.0" pageId="41" pageNumber="320" unit="m" value="2.0">2 m</elevation>
-</quantity>
+<quantity box="[392,433,1230,1254]" metricMagnitude="0" metricUnit="m" metricValue="2.0" pageId="41" pageNumber="320" unit="m" value="2.0">2 m</quantity>
 ), peu ramifié, fr. verts, 
 <date box="[112,209,1256,1280]" pageId="41" pageNumber="320" value="1976-04-01">
 <collectingDate box="[112,209,1256,1280]" pageId="41" pageNumber="320" value="1976-04-01">1.IV.1976</collectingDate>
 </date>
 , 
 <emphasis box="[219,358,1256,1280]" italics="true" pageId="41" pageNumber="320">
-<location LSID="urn:lsid:plazi:treatment:EB41A8571F62FF99FF5AFE14FBA1300B:66374F9A1F62FF99FF41FB08FE8E3607" box="[219,292,1257,1280]" country="New Caledonia" name="MacKee" pageId="41" pageNumber="320">MacKee</location>
+<collectorName box="[219,292,1257,1280]" pageId="41" pageNumber="320">MacKee</collectorName>
 30965
 </emphasis>
 (
 <collectionCode box="[369,414,1256,1280]" country="USA" lsid="urn:lsid:biocol.org:col:15859" name="Missouri Botanical Garden" pageId="41" pageNumber="320" type="Herbarium">MO</collectionCode>
 , 
 <collectionCode box="[421,482,1256,1280]" country="New Caledonia" httpUri="http://biocol.org/urn:lsid:biocol.org:col:15483" lsid="urn:lsid:biocol.org:col:15483" name="Institut de Recherche pour le Développement" pageId="41" pageNumber="320" type="Herbarium">NOU</collectionCode>
-)
+).
 </materialsCitation>
-. — 
-<materialsCitation pageId="41" pageNumber="320">
-<collectorName box="[526,647,1257,1281]" pageId="41" pageNumber="320">Haute Amoa</collectorName>
+— 
+<materialsCitation collectingDate="1976-10-25" collectionCode="NOU, NSW" collectorName="MacKee" elevation="2" location="Haute Amoa" pageId="41" pageNumber="320" specimenCount="1">
+<location LSID="urn:lsid:plazi:treatment:EB41A8571F62FF99FF5AFE14FBA1300B:66374F9A1F62FF99FD94FB08FD2D3606" box="[526,647,1257,1281]" name="Haute Amoa" pageId="41" pageNumber="320">Haute Amoa</location>
 (à la base du mont 
-<collectorName box="[307,391,1283,1307]" pageId="41" pageNumber="320">Grandié</collectorName>
+<location LSID="urn:lsid:plazi:treatment:EB41A8571F62FF99FF5AFE14FBA1300B:66374F9A1F62FF99FEA9FAE2FE2D361C" box="[307,391,1283,1307]" name="Grandie" pageId="41" pageNumber="320">Grandié</location>
 ), arbuste (
 <quantity box="[495,542,1283,1307]" metricMagnitude="0" metricUnit="m" metricValue="2.0" pageId="41" pageNumber="320" unit="m" value="2.0">
 <elevation box="[495,542,1283,1307]" metricMagnitude="0" metricUnit="m" metricValue="2.0" pageId="41" pageNumber="320" unit="m" value="2.0">2 m</elevation>
@@ -290,25 +324,25 @@ et
 </date>
 , 
 <emphasis box="[112,256,1336,1360]" italics="true" pageId="41" pageNumber="320">
-<location LSID="urn:lsid:plazi:treatment:EB41A8571F62FF99FF5AFE14FBA1300B:66374F9A1F62FF99FFEAFAD9FF113648" box="[112,187,1336,1359]" country="New Caledonia" name="MacKee" pageId="41" pageNumber="320">MacKee</location>
+<collectorName box="[112,187,1336,1359]" pageId="41" pageNumber="320">MacKee</collectorName>
 32134
 </emphasis>
 (
 <collectionCode box="[271,333,1336,1360]" country="New Caledonia" httpUri="http://biocol.org/urn:lsid:biocol.org:col:15483" lsid="urn:lsid:biocol.org:col:15483" name="Institut de Recherche pour le Développement" pageId="41" pageNumber="320" type="Herbarium">NOU</collectionCode>
 , 
 <collectionCode box="[343,404,1336,1360]" country="Australia" httpUri="http://biocol.org/urn:lsid:biocol.org:col:15627" lsid="urn:lsid:biocol.org:col:15627" name="Royal Botanic Gardens, National Herbarium of New South Wales" pageId="41" pageNumber="320" type="Herbarium">NSW</collectionCode>
-)
+).
 </materialsCitation>
-. — 
-<materialsCitation pageId="41" pageNumber="320">
-<collectorName box="[453,615,1336,1360]" pageId="41" pageNumber="320">Haute Tchamba</collectorName>
+— 
+<materialsCitation collectingDate="2002-11-10" collectionCode="NOU" collectorName="Munzinger" location="Haute Tchamba" pageId="41" pageNumber="320" specimenCount="1">
+<location LSID="urn:lsid:plazi:treatment:EB41A8571F62FF99FF5AFE14FBA1300B:66374F9A1F62FF99FE5FFAD9FDCD3657" box="[453,615,1336,1360]" name="Haute Tchamba" pageId="41" pageNumber="320">Haute Tchamba</location>
 , fl. rosâtres, 
 <date box="[199,315,1362,1386]" pageId="41" pageNumber="320" value="2002-11-10">
 <collectingDate box="[199,315,1362,1386]" pageId="41" pageNumber="320" value="2002-11-10">10.XI.2002</collectingDate>
 </date>
 , 
 <emphasis box="[325,486,1362,1386]" italics="true" pageId="41" pageNumber="320">
-<location LSID="urn:lsid:plazi:treatment:EB41A8571F62FF99FF5AFE14FBA1300B:66374F9A1F62FF99FEDFFAB2FE07366D" box="[325,429,1363,1386]" country="New Caledonia" name="Munzinger" pageId="41" pageNumber="320">Munzinger</location>
+<collectorName box="[325,429,1363,1386]" pageId="41" pageNumber="320">Munzinger</collectorName>
 1410
 </emphasis>
 (
@@ -317,6 +351,8 @@ et
 </materialsCitation>
 .
 </paragraph>
+</subSubSection>
+<subSubSection pageId="41" pageNumber="320" type="discussion">
 <paragraph blockId="41.[113,648,1421,1700]" box="[113,272,1421,1447]" pageId="41" pageNumber="320">OBSERVATIONS</paragraph>
 <paragraph blockId="41.[113,648,1421,1700]" pageId="41" pageNumber="320">
 <taxonomicName box="[113,356,1451,1477]" class="Magnoliopsida" family="Primulaceae" genus="Tapeinosperma" kingdom="Plantae" order="Ericales" pageId="41" pageNumber="320" phylum="Tracheophyta" rank="species" species="pennelli">
@@ -347,5 +383,6 @@ Mez
 principalement par ses grandes feuilles, sans ponctuations glanduleuses bien apparentes, et jamais dépassées par les inflorescences, qui sont relativement condensées.
 </paragraph>
 <paragraph blockId="41.[675,1212,501,781]" pageId="41" pageNumber="320">L’espèce, sans doute moins commune que les deux autres espèces du sous-groupe, peut être classée comme vulnérable, même si aucune menace précise ne porte sur elle dans l’immédiat.</paragraph>
+</subSubSection>
 </treatment>
 </document>
