@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.5627526" ID-GBIF-Dataset="20d58797-2815-434b-a9c5-5786e926af9d" ID-GBIF-Taxon="119557128" ID-ISSN="1175-5326" ID-Zenodo-Dep="5627526" checkinTime="1460563276739" checkinUser="plazi" docAuthor="Boehme, Nicole F., Tanner, David A., Williams, Kevin A. &amp; Pitts, James P." docDate="2012" docId="038187E5161CFFBDFF09EE71FE48F940" docLanguage="en" docName="zt03587p045.pdf" docOrigin="Zootaxa 3587" docStyle="DocumentStylede.uka.ipd.idaho.easyIO.settings.Settings@46390392" docStyleName="zootaxa.2007.monograph" docTitle="Odontophotopsis microdonta Ferguson 1967" docType="treatment" docVersion="8" lastPageNumber="21" masterDocId="FFB8FF9D1608FFA9FF9EED63FFB0FF9D" masterDocTitle="Faunal study of velvet ants (Hymenoptera: Mutillidae) and their activity patterns and habitat preference at Ash Meadows National Wildlife Refuge, Nye County, Nevada, USA" masterLastPageNumber="45" masterPageNumber="1" pageId="20" pageNumber="21" updateTime="1635614690631" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.5627526" ID-GBIF-Dataset="20d58797-2815-434b-a9c5-5786e926af9d" ID-GBIF-Taxon="119557128" ID-ISSN="1175-5326" ID-Zenodo-Dep="5627526" ID-ZooBank="91FCB387-5D4F-4F12-ABDC-B06D7F60A271" checkinTime="1460563276739" checkinUser="plazi" docAuthor="Boehme, Nicole F., Tanner, David A., Williams, Kevin A. &amp; Pitts, James P." docDate="2012" docId="038187E5161CFFBDFF09EE71FE48F940" docLanguage="en" docName="zt03587p045.pdf" docOrigin="Zootaxa 3587" docStyle="DocumentStyle:890A69B780ED73D6DB8551B71C8AC79E.3:Zootaxa.2009-2012.journal_article" docStyleId="890A69B780ED73D6DB8551B71C8AC79E" docStyleName="Zootaxa.2009-2012.journal_article" docStyleVersion="3" docTitle="Odontophotopsis microdonta Ferguson 1967" docType="treatment" docVersion="9" lastPageNumber="21" masterDocId="FFB8FF9D1608FFA9FF9EED63FFB0FF9D" masterDocTitle="Faunal study of velvet ants (Hymenoptera: Mutillidae) and their activity patterns and habitat preference at Ash Meadows National Wildlife Refuge, Nye County, Nevada, USA" masterLastPageNumber="45" masterPageNumber="1" pageId="20" pageNumber="21" updateTime="1648843520468" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Faunal study of velvet ants (Hymenoptera: Mutillidae) and their activity patterns and habitat preference at Ash Meadows National Wildlife Refuge, Nye County, Nevada, USA</mods:title>
@@ -34,6 +34,9 @@
 </mods:titleInfo>
 <mods:part>
 <mods:date>2012</mods:date>
+<mods:detail type="pubDate">
+<mods:number>2012-12-17</mods:number>
+</mods:detail>
 <mods:detail type="volume">
 <mods:number>3587</mods:number>
 </mods:detail>
@@ -44,7 +47,7 @@
 </mods:part>
 </mods:relatedItem>
 <mods:classification>journal article</mods:classification>
-<mods:identifier type="DOI">10.5281/zenodo.283115</mods:identifier>
+<mods:identifier type="DOI">10.11646/zootaxa.3587.1.1</mods:identifier>
 <mods:identifier type="GBIF-Dataset">20d58797-2815-434b-a9c5-5786e926af9d</mods:identifier>
 <mods:identifier type="ISSN">1175-5326</mods:identifier>
 <mods:identifier type="Zenodo-Dep">283115</mods:identifier>
@@ -71,12 +74,14 @@ Ferguson,
 Figs 
 <number box="[215,231,821,845]" pageId="20" pageNumber="21" value="6.14">6</number>
 </figureCitation>
-, 14)
+, 
+<figureCitation box="[243,272,821,845]" captionStart="FIGURES 12–21" captionStartId="12.[151,264,1978,2001]" captionTargetBox="[241,1347,1204,1948]" captionTargetId="figure@12.[237,1349,1191,1957]" captionTargetPageId="12" captionText="FIGURES 12–21. Male mandibles: 12. Odontophotopsis armata; 13. O. clypeata; 14. O. microdonta; 15. O. piute; 16. O. serca; 17. O. setifera; 18. Sphaeropthalma edwardsii; 19. S. orestes; 20. S. parkeri; and 21. S. uro." pageId="20" pageNumber="21">14</figureCitation>
+)
 </paragraph>
 </subSubSection>
-<subSubSection pageId="20" pageNumber="21" type="reference_group">
-<paragraph blockId="20.[151,1436,886,939]" pageId="20" pageNumber="21">
 <treatmentCitationGroup pageId="20" pageNumber="21">
+<subSubSection box="[151,852,886,909]" pageId="20" pageNumber="21" type="reference_group">
+<paragraph blockId="20.[151,1436,886,939]" box="[151,852,886,909]" pageId="20" pageNumber="21">
 <taxonomicName authority="Ferguson, 1967: 22" authorityName="Ferguson" authorityPageNumber="22" authorityYear="1967" box="[151,848,886,909]" class="Insecta" family="Mutillidae" genus="Odontophotopsis" higherTaxonomySource="GBIF" kingdom="Metazoa" order="Hymenoptera" pageId="20" pageNumber="21" phylum="Arthropoda" rank="species" species="microdonta" subGenus="Odontophotopsis">
 <emphasis box="[151,324,887,909]" italics="true" pageId="20" pageNumber="21">Odontophotopsis</emphasis>
 (
@@ -92,21 +97,29 @@ Ferguson,
 <number box="[820,848,887,908]" pageId="20" pageNumber="21" value="22.3">22</number>
 </treatmentCitation>
 </taxonomicName>
-, 3. 
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="20" pageNumber="21" type="reference_group">
+<paragraph blockId="20.[151,1436,886,939]" pageId="20" pageNumber="21">
+3. 
 <typeStatus box="[890,988,886,908]" pageId="20" pageNumber="21">Holotype</typeStatus>
 : Nevada, Nye County, 
 <quantity box="[1223,1272,886,908]" metricMagnitude="3" metricUnit="m" metricValue="8.04672" pageId="20" pageNumber="21" unit="mi" value="5.0">5 mi</quantity>
 . NNW Mercury (
 <collectionCode box="[206,289,917,939]" httpUri="http://grbio.org/cool/142r-0w94" name="Smithsonian Institution, National Museum of Natural History" pageId="20" pageNumber="21">NMNH</collectionCode>
 ).
-</treatmentCitationGroup>
 </paragraph>
 </subSubSection>
+</treatmentCitationGroup>
 <subSubSection pageId="20" pageNumber="21" type="diagnosis">
 <paragraph blockId="20.[151,1436,977,1757]" pageId="20" pageNumber="21">
 <emphasis bold="true" box="[151,266,977,1002]" pageId="20" pageNumber="21">Diagnosis</emphasis>
-. MALE. This species has a head that is rounded posteriorly, deeply excised mandibles that are slightly dilated apically (Fig. 
+. MALE. This species has a head that is rounded posteriorly, deeply excised mandibles that are slightly dilated apically (
+<figureCitation box="[338,420,1013,1037]" captionStart="FIGURES 12–21" captionStartId="12.[151,264,1978,2001]" captionTargetBox="[241,1347,1204,1948]" captionTargetId="figure@12.[237,1349,1191,1957]" captionTargetPageId="12" captionText="FIGURES 12–21. Male mandibles: 12. Odontophotopsis armata; 13. O. clypeata; 14. O. microdonta; 15. O. piute; 16. O. serca; 17. O. setifera; 18. Sphaeropthalma edwardsii; 19. S. orestes; 20. S. parkeri; and 21. S. uro." pageId="20" pageNumber="21">
+Fig. 
 <number box="[390,420,1013,1037]" pageId="20" pageNumber="21" value="14.0">14</number>
+</figureCitation>
 ), has a transverse clypeus that is slightly depressed below mandibular margins, but lacks a tubercle situated posteromedially on the clypeus, has a pair of denticulate mesosternal processes situated more laterally and posteriorly than in 
 <taxonomicName box="[546,683,1085,1109]" class="Insecta" family="Mutillidae" genus="Odontophotopsis" higherTaxonomySource="GBIF" kingdom="Metazoa" order="Hymenoptera" pageId="20" pageNumber="21" phylum="Arthropoda" rank="species" species="clypeata">
 <emphasis box="[546,683,1085,1109]" italics="true" pageId="20" pageNumber="21">O. clypeata</emphasis>
@@ -124,6 +137,7 @@ Fig.
 <emphasis bold="true" box="[199,434,1157,1182]" pageId="20" pageNumber="21">Material examined.</emphasis>
 <typeStatus box="[442,498,1158,1182]" pageId="20" pageNumber="21">Type</typeStatus>
 material. 
+<materialsCitation collectingDate="1964-08-25" collectionCode="NMNH" collectorName="W. E. Ferguson" county="Nye County" location="Mercury" pageId="20" pageNumber="21" specimenCount="1" typeStatus="holotype">
 <typeStatus box="[614,718,1157,1182]" pageId="20" pageNumber="21">
 <emphasis bold="true" box="[614,718,1157,1182]" italics="true" pageId="20" pageNumber="21">Holotype</emphasis>
 </typeStatus>
@@ -131,264 +145,364 @@ of
 <taxonomicName box="[758,922,1157,1181]" class="Insecta" family="Mutillidae" genus="Odontophotopsis" higherTaxonomySource="GBIF" kingdom="Metazoa" order="Hymenoptera" pageId="20" pageNumber="21" phylum="Arthropoda" rank="species" species="microdonta">
 <emphasis box="[758,922,1157,1181]" italics="true" pageId="20" pageNumber="21">O. microdonta</emphasis>
 </taxonomicName>
-: Nevada, Nye County, 
+: Nevada, 
+<collectingCounty box="[1040,1178,1157,1182]" pageId="20" pageNumber="21">Nye County</collectingCounty>
+, 
+<locationDeviation box="[1191,1326,1157,1181]" pageId="20" pageNumber="21">
 <quantity box="[1191,1247,1157,1181]" metricMagnitude="3" metricUnit="m" metricValue="8.04672" pageId="20" pageNumber="21" unit="mi" value="5.0">5 mi</quantity>
-. NNW Mercury, 
+. NNW
+</locationDeviation>
+<location LSID="urn:lsid:plazi:treatment:038187E5161CFFBDFF09EE71FE48F940:8EF76028161CFFBDFAA8E9E5FA27FB03" box="[1334,1431,1158,1182]" county="Nye County" name="Mercury" pageId="20" pageNumber="21">Mercury</location>
+, 
 <date box="[151,303,1193,1218]" pageId="20" pageNumber="21" value="1964-08-25">
+<collectingDate box="[151,303,1193,1218]" pageId="20" pageNumber="21" value="1964-08-25">
 <number box="[151,179,1193,1217]" pageId="20" pageNumber="21" value="25.0">25</number>
 Aug 
 <number box="[244,303,1193,1217]" pageId="20" pageNumber="21" value="1964.0">1964</number>
+</collectingDate>
 </date>
-, W. E. Ferguson (
+, 
+<collectorName box="[315,491,1194,1218]" pageId="20" pageNumber="21">W. E. Ferguson</collectorName>
+(
 <collectionCode box="[508,600,1193,1217]" httpUri="http://grbio.org/cool/142r-0w94" name="Smithsonian Institution, National Museum of Natural History" pageId="20" pageNumber="21">NMNH</collectionCode>
-). Other material. 
+)
+</materialsCitation>
+. Other material. 
+<materialsCitation pageId="20" pageNumber="21">
 <emphasis bold="true" box="[799,896,1194,1218]" pageId="20" pageNumber="21">Nevada,</emphasis>
-Nye Co., 
-<collectionCode box="[1015,1130,1194,1218]" pageId="20" pageNumber="21">AMNWR</collectionCode>
-: Non-dune site 
+Nye Co., AMNWR: Non-dune site 
 <number box="[1310,1326,1193,1217]" pageId="20" pageNumber="21" value="1.0">1</number>
 : 
 <number box="[1340,1354,1193,1217]" pageId="20" pageNumber="21" value="1.0">1</number>
-<number box="[1363,1384,1193,1217]" pageId="20" pageNumber="21" value="3.0">3</number>
+<number box="[1363,1384,1193,1217]" pageId="20" pageNumber="21" value="3.0">♂</number>
 , LT, 
 <date box="[151,332,1229,1253]" pageId="20" pageNumber="21" value="2009-07-21" valueMax="2009-07-23" valueMin="2009-07-21">
 <number box="[151,222,1229,1253]" pageId="20" pageNumber="21" value="22.0" valueMax="23.0" valueMin="21.0">21–23</number>
 .VII. 
 <number box="[271,332,1229,1253]" pageId="20" pageNumber="21" value="2009.1">2009</number>
 </date>
-, 1 
-<number box="[388,409,1229,1253]" pageId="20" pageNumber="21" value="3.0">3</number>
+,
+</materialsCitation>
+<materialsCitation box="[355,732,1229,1253]" pageId="20" pageNumber="21">
+1 
+<number box="[388,409,1229,1253]" pageId="20" pageNumber="21" value="3.0">♂</number>
 , LT, 
 <date box="[489,651,1229,1253]" pageId="20" pageNumber="21" value="2009-08-04" valueMax="2009-08-06" valueMin="2009-08-04">
 <number box="[489,533,1229,1253]" pageId="20" pageNumber="21" value="5.0" valueMax="6.0" valueMin="4.0">4–6</number>
 .VIII. 
 <number box="[591,651,1229,1253]" pageId="20" pageNumber="21" value="2009.0">2009</number>
 </date>
-, NFB; Non-dune site 
+, NFB
+</materialsCitation>
+; 
+<materialsCitation box="[755,1302,1229,1253]" pageId="20" pageNumber="21">
+Non-dune site 
 <number box="[942,959,1229,1253]" pageId="20" pageNumber="21" value="2.0">2</number>
 : 
 <number box="[983,997,1229,1253]" pageId="20" pageNumber="21" value="1.0">1</number>
-<number box="[1015,1036,1229,1253]" pageId="20" pageNumber="21" value="3.0">3</number>
+<number box="[1015,1036,1229,1253]" pageId="20" pageNumber="21" value="3.0">♂</number>
 , LT, 
 <date box="[1117,1298,1229,1253]" pageId="20" pageNumber="21" value="2009-07-21" valueMax="2009-07-23" valueMin="2009-07-21">
 <number box="[1117,1188,1229,1253]" pageId="20" pageNumber="21" value="22.0" valueMax="23.0" valueMin="21.0">21–23</number>
 .VII. 
 <number box="[1237,1298,1229,1253]" pageId="20" pageNumber="21" value="2009.1">2009</number>
 </date>
-, 1 
-<number box="[1353,1374,1229,1253]" pageId="20" pageNumber="21" value="3.0">3</number>
+,
+</materialsCitation>
+<materialsCitation pageId="20" pageNumber="21">
+1 
+<number box="[1353,1374,1229,1253]" pageId="20" pageNumber="21" value="3.0">♂</number>
 , LT, 
 <date box="[151,323,1265,1289]" pageId="20" pageNumber="21" value="2009-09-18" valueMax="2009-09-23" valueMin="2009-09-18">
 <number box="[151,222,1265,1289]" pageId="20" pageNumber="21" value="20.5" valueMax="23.0" valueMin="18.0">18–23</number>
 .IX. 
 <number box="[261,323,1265,1289]" pageId="20" pageNumber="21" value="2009.0">2009</number>
 </date>
-, NFB; Non-dune site 
+, NFB
+</materialsCitation>
+; 
+<materialsCitation box="[424,970,1265,1289]" pageId="20" pageNumber="21">
+Non-dune site 
 <number box="[610,627,1265,1289]" pageId="20" pageNumber="21" value="3.0">3</number>
 : 
 <number box="[649,677,1265,1289]" pageId="20" pageNumber="21" value="17.0">17</number>
-<number box="[695,716,1265,1289]" pageId="20" pageNumber="21" value="3.0">3</number>
+<number box="[695,716,1265,1289]" pageId="20" pageNumber="21" value="3.0">♂</number>
 , LT, 
 <date box="[794,967,1265,1289]" pageId="20" pageNumber="21" value="2009-06-23" valueMax="2009-06-25" valueMin="2009-06-23">
 <number box="[794,867,1265,1289]" pageId="20" pageNumber="21" value="24.0" valueMax="25.0" valueMin="23.0">23–25</number>
 .VI. 
 <number box="[906,967,1265,1289]" pageId="20" pageNumber="21" value="2009.8">2009</number>
 </date>
-, 8 
-<number box="[1020,1041,1265,1289]" pageId="20" pageNumber="21" value="3.0">3</number>
+,
+</materialsCitation>
+<materialsCitation box="[988,1305,1265,1289]" pageId="20" pageNumber="21">
+8 
+<number box="[1020,1041,1265,1289]" pageId="20" pageNumber="21" value="3.0">♂</number>
 , LT, 
 <date box="[1119,1301,1265,1289]" pageId="20" pageNumber="21" value="2009-07-21" valueMax="2009-07-23" valueMin="2009-07-21">
 <number box="[1119,1190,1265,1289]" pageId="20" pageNumber="21" value="22.0" valueMax="23.0" valueMin="21.0">21–23</number>
 .VII. 
 <number box="[1240,1301,1265,1289]" pageId="20" pageNumber="21" value="2009.2">2009</number>
 </date>
-, 2 
-<number box="[1354,1375,1265,1289]" pageId="20" pageNumber="21" value="3.0">3</number>
+,
+</materialsCitation>
+<materialsCitation pageId="20" pageNumber="21">
+2 
+<number box="[1354,1375,1265,1289]" pageId="20" pageNumber="21" value="3.0">♂</number>
 , LT, 
 <date box="[151,313,1301,1325]" pageId="20" pageNumber="21" value="2009-08-04" valueMax="2009-08-06" valueMin="2009-08-04">
 <number box="[151,195,1301,1325]" pageId="20" pageNumber="21" value="5.0" valueMax="6.0" valueMin="4.0">4–6</number>
 .VIII. 
 <number box="[253,313,1301,1325]" pageId="20" pageNumber="21" value="2009.4">2009</number>
 </date>
-, 4 
-<number box="[346,367,1301,1325]" pageId="20" pageNumber="21" value="3.0">3</number>
+,
+</materialsCitation>
+<materialsCitation box="[325,619,1301,1325]" pageId="20" pageNumber="21">
+4 
+<number box="[346,367,1301,1325]" pageId="20" pageNumber="21" value="3.0">♂</number>
 , LT, 
 <date box="[424,614,1301,1325]" pageId="20" pageNumber="21" value="2009-08-17" valueMax="2009-08-19" valueMin="2009-08-17">
 <number box="[424,494,1301,1325]" pageId="20" pageNumber="21" value="18.0" valueMax="19.0" valueMin="17.0">17–19</number>
 .VIII. 
 <number box="[553,614,1301,1325]" pageId="20" pageNumber="21" value="2009.7">2009</number>
 </date>
-, 7 
-<number box="[647,668,1301,1325]" pageId="20" pageNumber="21" value="3.0">3</number>
+,
+</materialsCitation>
+<materialsCitation box="[626,967,1301,1325]" pageId="20" pageNumber="21">
+7 
+<number box="[647,668,1301,1325]" pageId="20" pageNumber="21" value="3.0">♂</number>
 , LT, 
 <date box="[725,897,1301,1325]" pageId="20" pageNumber="21" value="2009-09-18" valueMax="2009-09-23" valueMin="2009-09-18">
 <number box="[725,797,1301,1325]" pageId="20" pageNumber="21" value="20.5" valueMax="23.0" valueMin="18.0">18–23</number>
 .IX. 
 <number box="[836,897,1301,1325]" pageId="20" pageNumber="21" value="2009.0">2009</number>
 </date>
-, NFB; Non-dune site 
+, NFB
+</materialsCitation>
+; 
+<materialsCitation box="[978,1415,1301,1325]" pageId="20" pageNumber="21">
+Non-dune site 
 <number box="[1142,1160,1301,1325]" pageId="20" pageNumber="21" value="4.0">4</number>
 : 
 <number box="[1171,1185,1301,1325]" pageId="20" pageNumber="21" value="1.0">1</number>
-<number box="[1192,1213,1301,1325]" pageId="20" pageNumber="21" value="3.0">3</number>
+<number box="[1192,1213,1301,1325]" pageId="20" pageNumber="21" value="3.0">♂</number>
 , PT, 
 <number box="[1271,1300,1301,1325]" pageId="20" pageNumber="21" value="23.0">23</number>
 . 
 <date box="[1303,1436,1301,1325]" pageId="20" pageNumber="21" value="2008-07-01">
 VII. 
-<number box="[1349,1436,1301,1325]" pageId="20" pageNumber="21" value="2008.1">2008, 1</number>
-</date>
-<number box="[151,172,1337,1361]" pageId="20" pageNumber="21" value="3.0">3</number>
+<number box="[1349,1436,1301,1325]" pageId="20" pageNumber="21" value="2008.1">
+2008, 
+<materialsCitation pageId="20" pageNumber="21">
+1 
+<number box="[151,172,1337,1361]" pageId="20" pageNumber="21" value="3.0">♂</number>
 , LT, 
 <date box="[229,387,1337,1361]" pageId="20" pageNumber="21" value="2009-06-08" valueMax="2009-06-15" valueMin="2009-06-08">
 <number box="[229,285,1337,1361]" pageId="20" pageNumber="21" value="11.5" valueMax="15.0" valueMin="8.0">8–15</number>
 .VI. 
 <number box="[324,387,1337,1361]" pageId="20" pageNumber="21" value="2009.0">2009</number>
 </date>
-, NFB &amp; DAT, 
+, NFB &amp; DAT,
+</materialsCitation>
+</number>
+</date>
+</materialsCitation>
+<materialsCitation box="[554,829,1337,1361]" pageId="20" pageNumber="21">
 <number box="[554,568,1337,1361]" pageId="20" pageNumber="21" value="3.0">3</number>
-<number box="[575,596,1337,1361]" pageId="20" pageNumber="21" value="3.0">3</number>
+<number box="[575,596,1337,1361]" pageId="20" pageNumber="21" value="3.0">♂</number>
 , LT, 
 <date box="[653,825,1337,1361]" pageId="20" pageNumber="21" value="2009-06-23" valueMax="2009-06-25" valueMin="2009-06-23">
 <number box="[653,726,1337,1361]" pageId="20" pageNumber="21" value="24.0" valueMax="25.0" valueMin="23.0">23–25</number>
 .VI. 
 <number box="[764,825,1337,1361]" pageId="20" pageNumber="21" value="2009.13">2009</number>
 </date>
-, 13 
-<number box="[871,892,1337,1361]" pageId="20" pageNumber="21" value="3.0">3</number>
+,
+</materialsCitation>
+<materialsCitation box="[836,1135,1337,1361]" pageId="20" pageNumber="21">
+13 
+<number box="[871,892,1337,1361]" pageId="20" pageNumber="21" value="3.0">♂</number>
 , LT, 
 <date box="[949,1131,1337,1361]" pageId="20" pageNumber="21" value="2009-07-21" valueMax="2009-07-23" valueMin="2009-07-21">
 <number box="[949,1020,1337,1361]" pageId="20" pageNumber="21" value="22.0" valueMax="23.0" valueMin="21.0">21–23</number>
 .VII. 
 <number box="[1070,1131,1337,1361]" pageId="20" pageNumber="21" value="2009.4">2009</number>
 </date>
-, 4 
-<number box="[1163,1184,1337,1361]" pageId="20" pageNumber="21" value="3.0">3</number>
+,
+</materialsCitation>
+<materialsCitation box="[1142,1435,1337,1361]" pageId="20" pageNumber="21">
+4 
+<number box="[1163,1184,1337,1361]" pageId="20" pageNumber="21" value="3.0">♂</number>
 , LT, 
 <date box="[1241,1431,1337,1361]" pageId="20" pageNumber="21" value="2009-08-17" valueMax="2009-08-19" valueMin="2009-08-17">
 <number box="[1241,1310,1337,1361]" pageId="20" pageNumber="21" value="18.0" valueMax="19.0" valueMin="17.0">17–19</number>
 .VIII. 
 <number box="[1370,1431,1337,1361]" pageId="20" pageNumber="21" value="2009.4">2009</number>
 </date>
-, 4 
-<number box="[171,192,1373,1397]" pageId="20" pageNumber="21" value="3.0">3</number>
+,
+</materialsCitation>
+<materialsCitation box="[151,425,1373,1397]" pageId="20" pageNumber="21">
+4 
+<number box="[171,192,1373,1397]" pageId="20" pageNumber="21" value="3.0">♂</number>
 , LT, 
 <date box="[249,420,1373,1397]" pageId="20" pageNumber="21" value="2009-09-18" valueMax="2009-09-23" valueMin="2009-09-18">
 <number box="[249,320,1373,1397]" pageId="20" pageNumber="21" value="20.5" valueMax="23.0" valueMin="18.0">18–23</number>
 .IX. 
 <number box="[359,420,1373,1397]" pageId="20" pageNumber="21" value="2009.1">2009</number>
 </date>
-, 1 
-<number box="[452,473,1373,1397]" pageId="20" pageNumber="21" value="3.0">3</number>
+,
+</materialsCitation>
+<materialsCitation box="[432,832,1373,1397]" pageId="20" pageNumber="21">
+1 
+<number box="[452,473,1373,1397]" pageId="20" pageNumber="21" value="3.0">♂</number>
 , LT, 
 <number box="[530,544,1373,1397]" pageId="20" pageNumber="21" value="1.0">1</number>
-<number box="[550,571,1373,1397]" pageId="20" pageNumber="21" value="3.0">3</number>
+<number box="[550,571,1373,1397]" pageId="20" pageNumber="21" value="3.0">♂</number>
 , PT, 
 <date box="[629,763,1373,1397]" pageId="20" pageNumber="21" value="2009-10-02" valueMax="2009-10-04" valueMin="2009-10-02">
 <number box="[629,674,1373,1397]" pageId="20" pageNumber="21" value="3.0" valueMax="4.0" valueMin="2.0">2–4</number>
 .X. 
 <number box="[702,763,1373,1397]" pageId="20" pageNumber="21" value="2009.0">2009</number>
 </date>
-, NFB; Sand dune site 
+, NFB
+</materialsCitation>
+; 
+<materialsCitation box="[843,1369,1373,1397]" pageId="20" pageNumber="21">
+Sand dune site 
 <number box="[1012,1028,1373,1397]" pageId="20" pageNumber="21" value="1.0">1</number>
 : 
 <number box="[1040,1054,1373,1397]" pageId="20" pageNumber="21" value="1.0">1</number>
-<number box="[1060,1081,1373,1397]" pageId="20" pageNumber="21" value="3.0">3</number>
+<number box="[1060,1081,1373,1397]" pageId="20" pageNumber="21" value="3.0">♂</number>
 , LT, 
 <date box="[1138,1300,1373,1397]" pageId="20" pageNumber="21" value="2009-08-04" valueMax="2009-08-06" valueMin="2009-08-04">
 <number box="[1138,1182,1373,1397]" pageId="20" pageNumber="21" value="5.0" valueMax="6.0" valueMin="4.0">4–6</number>
 .VIII. 
 <number box="[1240,1300,1373,1397]" pageId="20" pageNumber="21" value="2009.0">2009</number>
 </date>
-, NFB; Sand dune site 
+, NFB
+</materialsCitation>
+; 
+<materialsCitation pageId="20" pageNumber="21">
+Sand dune site 
 <number box="[261,279,1409,1433]" pageId="20" pageNumber="21" value="4.0">4</number>
 : 
 <number box="[291,305,1409,1433]" pageId="20" pageNumber="21" value="2.0">2</number>
-<number box="[314,335,1409,1433]" pageId="20" pageNumber="21" value="3.0">3</number>
+<number box="[314,335,1409,1433]" pageId="20" pageNumber="21" value="3.0">♂</number>
 , LT, 
 <date box="[395,567,1409,1433]" pageId="20" pageNumber="21" value="2009-09-18" valueMax="2009-09-23" valueMin="2009-09-18">
 <number box="[395,466,1409,1433]" pageId="20" pageNumber="21" value="20.5" valueMax="23.0" valueMin="18.0">18–23</number>
 .IX. 
 <number box="[506,567,1409,1433]" pageId="20" pageNumber="21" value="2009.0">2009</number>
 </date>
-, NFB; Non-dune site 
+, NFB
+</materialsCitation>
+; 
+<materialsCitation box="[651,1087,1409,1433]" pageId="20" pageNumber="21">
+Non-dune site 
 <number box="[818,835,1409,1433]" pageId="20" pageNumber="21" value="5.0">5</number>
 : 
 <number box="[848,862,1409,1433]" pageId="20" pageNumber="21" value="2.0">2</number>
-<number box="[871,892,1409,1433]" pageId="20" pageNumber="21" value="3.0">3</number>
+<number box="[871,892,1409,1433]" pageId="20" pageNumber="21" value="3.0">♂</number>
 , LT, 
 <number box="[952,979,1409,1433]" pageId="20" pageNumber="21" value="13.0">13</number>
 . 
 <date box="[983,1109,1409,1433]" pageId="20" pageNumber="21" value="2008-06-01">
 VI. 
-<number box="[1019,1109,1409,1433]" pageId="20" pageNumber="21" value="2008.1">2008, 1</number>
-</date>
-<number box="[1117,1138,1409,1433]" pageId="20" pageNumber="21" value="3.0">3</number>
+<number box="[1019,1109,1409,1433]" pageId="20" pageNumber="21" value="2008.1">
+2008, 
+<materialsCitation pageId="20" pageNumber="21">
+1 
+<number box="[1117,1138,1409,1433]" pageId="20" pageNumber="21" value="3.0">♂</number>
 , LT, 
 <date box="[1199,1338,1409,1433]" pageId="20" pageNumber="21" value="2008-07-23">
 <number box="[1199,1228,1409,1433]" pageId="20" pageNumber="21" value="23.0">23</number>
 .VII. 
 <number box="[1277,1338,1409,1433]" pageId="20" pageNumber="21" value="2008.0">2008</number>
 </date>
-, NFB &amp; DAT, 
+, NFB &amp; DAT,
+</materialsCitation>
+</number>
+</date>
+</materialsCitation>
+<materialsCitation box="[219,486,1445,1469]" pageId="20" pageNumber="21">
 <number box="[219,233,1445,1469]" pageId="20" pageNumber="21" value="1.0">1</number>
-<number box="[241,262,1445,1469]" pageId="20" pageNumber="21" value="3.0">3</number>
+<number box="[241,262,1445,1469]" pageId="20" pageNumber="21" value="3.0">♂</number>
 , LT, 
 <date box="[323,482,1445,1469]" pageId="20" pageNumber="21" value="2009-05-12" valueMax="2009-05-14" valueMin="2009-05-12">
 <number box="[323,393,1445,1469]" pageId="20" pageNumber="21" value="13.0" valueMax="14.0" valueMin="12.0">12–14</number>
 .V. 
 <number box="[421,482,1445,1469]" pageId="20" pageNumber="21" value="2009.2">2009</number>
 </date>
-, 2 
-<number box="[517,538,1445,1469]" pageId="20" pageNumber="21" value="3.0">3</number>
+,
+</materialsCitation>
+<materialsCitation box="[495,762,1445,1469]" pageId="20" pageNumber="21">
+2 
+<number box="[517,538,1445,1469]" pageId="20" pageNumber="21" value="3.0">♂</number>
 , LT, 
 <date box="[599,758,1445,1469]" pageId="20" pageNumber="21" value="2009-05-26" valueMax="2009-05-28" valueMin="2009-05-26">
 <number box="[599,671,1445,1469]" pageId="20" pageNumber="21" value="27.0" valueMax="28.0" valueMin="26.0">26–28</number>
 .V. 
 <number box="[699,758,1445,1469]" pageId="20" pageNumber="21" value="2009.11">2009</number>
 </date>
-, 11 
-<number box="[806,827,1445,1469]" pageId="20" pageNumber="21" value="3.0">3</number>
+,
+</materialsCitation>
+<materialsCitation box="[771,1064,1445,1469]" pageId="20" pageNumber="21">
+11 
+<number box="[806,827,1445,1469]" pageId="20" pageNumber="21" value="3.0">♂</number>
 , LT, 
 <date box="[888,1060,1445,1469]" pageId="20" pageNumber="21" value="2009-06-23" valueMax="2009-06-25" valueMin="2009-06-23">
 <number box="[888,961,1445,1469]" pageId="20" pageNumber="21" value="24.0" valueMax="25.0" valueMin="23.0">23–25</number>
 .VI. 
 <number box="[999,1060,1445,1469]" pageId="20" pageNumber="21" value="2009.13">2009</number>
 </date>
-, 13 
-<number box="[1109,1130,1445,1469]" pageId="20" pageNumber="21" value="3.0">3</number>
+,
+</materialsCitation>
+<materialsCitation box="[1073,1377,1445,1469]" pageId="20" pageNumber="21">
+13 
+<number box="[1109,1130,1445,1469]" pageId="20" pageNumber="21" value="3.0">♂</number>
 , LT, 
 <date box="[1191,1373,1445,1469]" pageId="20" pageNumber="21" value="2009-07-21" valueMax="2009-07-23" valueMin="2009-07-21">
 <number box="[1191,1262,1445,1469]" pageId="20" pageNumber="21" value="22.0" valueMax="23.0" valueMin="21.0">21–23</number>
 .VII. 
 <number box="[1312,1373,1445,1469]" pageId="20" pageNumber="21" value="2009.6">2009</number>
 </date>
-, 6 
-<number box="[1408,1429,1445,1469]" pageId="20" pageNumber="21" value="3.0">3</number>
+,
+</materialsCitation>
+<materialsCitation pageId="20" pageNumber="21">
+6 
+<number box="[1408,1429,1445,1469]" pageId="20" pageNumber="21" value="3.0">♂</number>
 , LT, 
 <date box="[194,338,1481,1505]" pageId="20" pageNumber="21" value="2009-09-04" valueMax="2009-09-06" valueMin="2009-09-04">
 <number box="[194,239,1481,1505]" pageId="20" pageNumber="21" value="5.0" valueMax="6.0" valueMin="4.0">4–6</number>
 .IX. 
 <number box="[277,338,1481,1505]" pageId="20" pageNumber="21" value="2009.8">2009</number>
 </date>
-, 8 
-<number box="[371,392,1481,1505]" pageId="20" pageNumber="21" value="3.0">3</number>
+,
+</materialsCitation>
+<materialsCitation box="[350,625,1481,1505]" pageId="20" pageNumber="21">
+8 
+<number box="[371,392,1481,1505]" pageId="20" pageNumber="21" value="3.0">♂</number>
 , LT, 
 <date box="[449,621,1481,1505]" pageId="20" pageNumber="21" value="2009-09-18" valueMax="2009-09-23" valueMin="2009-09-18">
 <number box="[449,521,1481,1505]" pageId="20" pageNumber="21" value="20.5" valueMax="23.0" valueMin="18.0">18–23</number>
 .IX. 
 <number box="[560,621,1481,1505]" pageId="20" pageNumber="21" value="2009.1">2009</number>
 </date>
-, 1 
-<number box="[654,675,1481,1505]" pageId="20" pageNumber="21" value="3.0">3</number>
+,
+</materialsCitation>
+<materialsCitation box="[633,871,1481,1505]" pageId="20" pageNumber="21">
+1 
+<number box="[654,675,1481,1505]" pageId="20" pageNumber="21" value="3.0">♂</number>
 , LT, 
 <date box="[733,867,1481,1505]" pageId="20" pageNumber="21" value="2009-10-02" valueMax="2009-10-04" valueMin="2009-10-02">
 <number box="[733,778,1481,1505]" pageId="20" pageNumber="21" value="3.0" valueMax="4.0" valueMin="2.0">2–4</number>
 .X. 
 <number box="[806,867,1481,1505]" pageId="20" pageNumber="21" value="2009.1">2009</number>
 </date>
-, 1 
-<number box="[900,921,1481,1505]" pageId="20" pageNumber="21" value="3.0">3</number>
+,
+</materialsCitation>
+<materialsCitation box="[879,1214,1481,1505]" pageId="20" pageNumber="21">
+1 
+<number box="[900,921,1481,1505]" pageId="20" pageNumber="21" value="3.0">♂</number>
 , LT, 
 <date box="[978,1141,1481,1505]" pageId="20" pageNumber="21" value="2009-10-16" valueMax="2009-10-18" valueMin="2009-10-16">
 <number box="[978,1049,1481,1505]" pageId="20" pageNumber="21" value="17.0" valueMax="18.0" valueMin="16.0">16–18</number>
@@ -396,6 +510,7 @@ VI.
 <number box="[1079,1141,1481,1505]" pageId="20" pageNumber="21" value="2009.0">2009</number>
 </date>
 , NFB.
+</materialsCitation>
 </paragraph>
 </subSubSection>
 <subSubSection pageId="20" pageNumber="21" type="distribution">

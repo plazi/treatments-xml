@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.5627542" ID-GBIF-Dataset="20d58797-2815-434b-a9c5-5786e926af9d" ID-GBIF-Taxon="119557105" ID-ISSN="1175-5326" ID-Zenodo-Dep="5627542" checkinTime="1460563276739" checkinUser="plazi" docAuthor="Boehme, Nicole F., Tanner, David A., Williams, Kevin A. &amp; Pitts, James P." docDate="2012" docId="038187E51610FFB0FF09E907FAC1FEF9" docLanguage="en" docName="zt03587p045.pdf" docOrigin="Zootaxa 3587" docStyle="DocumentStylede.uka.ipd.idaho.easyIO.settings.Settings@46390392" docStyleName="zootaxa.2007.monograph" docTitle="Sphaeropthalma angulifera Schuster 1958" docType="treatment" docVersion="8" lastPageId="25" lastPageNumber="26" masterDocId="FFB8FF9D1608FFA9FF9EED63FFB0FF9D" masterDocTitle="Faunal study of velvet ants (Hymenoptera: Mutillidae) and their activity patterns and habitat preference at Ash Meadows National Wildlife Refuge, Nye County, Nevada, USA" masterLastPageNumber="45" masterPageNumber="1" pageId="24" pageNumber="25" updateTime="1635614690631" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.5627542" ID-GBIF-Dataset="20d58797-2815-434b-a9c5-5786e926af9d" ID-GBIF-Taxon="119557105" ID-ISSN="1175-5326" ID-Zenodo-Dep="5627542" ID-ZooBank="91FCB387-5D4F-4F12-ABDC-B06D7F60A271" checkinTime="1460563276739" checkinUser="plazi" docAuthor="Boehme, Nicole F., Tanner, David A., Williams, Kevin A. &amp; Pitts, James P." docDate="2012" docId="038187E51610FFB0FF09E907FAC1FEF9" docLanguage="en" docName="zt03587p045.pdf" docOrigin="Zootaxa 3587" docStyle="DocumentStyle:890A69B780ED73D6DB8551B71C8AC79E.3:Zootaxa.2009-2012.journal_article" docStyleId="890A69B780ED73D6DB8551B71C8AC79E" docStyleName="Zootaxa.2009-2012.journal_article" docStyleVersion="3" docTitle="Sphaeropthalma angulifera Schuster 1958" docType="treatment" docVersion="9" lastPageId="25" lastPageNumber="26" masterDocId="FFB8FF9D1608FFA9FF9EED63FFB0FF9D" masterDocTitle="Faunal study of velvet ants (Hymenoptera: Mutillidae) and their activity patterns and habitat preference at Ash Meadows National Wildlife Refuge, Nye County, Nevada, USA" masterLastPageNumber="45" masterPageNumber="1" pageId="24" pageNumber="25" updateTime="1648843520468" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Faunal study of velvet ants (Hymenoptera: Mutillidae) and their activity patterns and habitat preference at Ash Meadows National Wildlife Refuge, Nye County, Nevada, USA</mods:title>
@@ -34,6 +34,9 @@
 </mods:titleInfo>
 <mods:part>
 <mods:date>2012</mods:date>
+<mods:detail type="pubDate">
+<mods:number>2012-12-17</mods:number>
+</mods:detail>
 <mods:detail type="volume">
 <mods:number>3587</mods:number>
 </mods:detail>
@@ -44,7 +47,7 @@
 </mods:part>
 </mods:relatedItem>
 <mods:classification>journal article</mods:classification>
-<mods:identifier type="DOI">10.5281/zenodo.283115</mods:identifier>
+<mods:identifier type="DOI">10.11646/zootaxa.3587.1.1</mods:identifier>
 <mods:identifier type="GBIF-Dataset">20d58797-2815-434b-a9c5-5786e926af9d</mods:identifier>
 <mods:identifier type="ISSN">1175-5326</mods:identifier>
 <mods:identifier type="Zenodo-Dep">283115</mods:identifier>
@@ -121,6 +124,7 @@ a
 <emphasis bold="true" box="[199,433,1693,1718]" pageId="24" pageNumber="25">Material examined.</emphasis>
 <typeStatus box="[440,496,1694,1718]" pageId="24" pageNumber="25">Type</typeStatus>
 material. 
+<materialsCitation box="[610,1432,1693,1718]" collectionCode="CASC" county="Kern County" location="Bakersfield" pageId="24" pageNumber="25" specimenCount="1" stateProvince="California" typeStatus="holotype">
 <typeStatus box="[610,714,1693,1718]" pageId="24" pageNumber="25">
 <emphasis bold="true" box="[610,714,1693,1718]" italics="true" pageId="24" pageNumber="25">Holotype</emphasis>
 </typeStatus>
@@ -128,58 +132,82 @@ of
 <taxonomicName box="[753,897,1693,1717]" class="Insecta" family="Mutillidae" genus="Sphaeropthalma" higherTaxonomySource="GBIF" kingdom="Animalia" order="Hymenoptera" pageId="24" pageNumber="25" phylum="Arthropoda" rank="species" species="angulifera">
 <emphasis box="[753,897,1693,1717]" italics="true" pageId="24" pageNumber="25">S. angulifera</emphasis>
 </taxonomicName>
-: California, Kern County, Bakersfield (
+: 
+<collectingRegion box="[913,1030,1693,1717]" pageId="24" pageNumber="25">California</collectingRegion>
+, 
+<collectingCounty box="[1042,1188,1693,1717]" pageId="24" pageNumber="25">Kern County</collectingCounty>
+, 
+<location LSID="urn:lsid:plazi:treatment:038187E51610FFB0FF09E907FAC1FEF9:8EF760281610FFB1FB2EEBFEFA81F928" box="[1200,1329,1693,1717]" county="Kern County" name="Bakersfield" pageId="24" pageNumber="25" stateProvince="California">Bakersfield</location>
+(
 <collectionCode box="[1345,1424,1693,1717]" pageId="24" pageNumber="25">CASC</collectionCode>
-). Other material. 
+)
+</materialsCitation>
+. Other material. 
+<materialsCitation box="[328,1093,1729,1754]" pageId="24" pageNumber="25">
 <emphasis bold="true" box="[328,425,1730,1754]" pageId="24" pageNumber="25">Nevada,</emphasis>
-Nye Co., 
-<collectionCode box="[540,655,1730,1754]" pageId="24" pageNumber="25">AMNWR</collectionCode>
-: Non-dune site 
+Nye Co., AMNWR: Non-dune site 
 <number box="[832,849,1729,1753]" pageId="24" pageNumber="25" value="5.0">5</number>
 : 
 <number box="[861,875,1729,1753]" pageId="24" pageNumber="25" value="1.0">1</number>
-Ƥ, PT, 
+♀, PT, 
 <number box="[962,975,1729,1753]" pageId="24" pageNumber="25" value="8.0">8</number>
 . 
 <date box="[979,1114,1729,1753]" pageId="24" pageNumber="25" value="2008-07-01">
 VII. 
-<number box="[1025,1114,1729,1753]" pageId="24" pageNumber="25" value="2008.1">2008, 1</number>
-</date>
-Ƥ, PT, 
+<number box="[1025,1114,1729,1753]" pageId="24" pageNumber="25" value="2008.1">
+2008, 
+<materialsCitation pageId="24" pageNumber="25">
+1 ♀, PT, 
 <date box="[1201,1341,1729,1753]" pageId="24" pageNumber="25" value="2008-07-22">
 <number box="[1201,1231,1729,1753]" pageId="24" pageNumber="25" value="22.0">22</number>
 .VII. 
 <number box="[1280,1341,1729,1753]" pageId="24" pageNumber="25" value="2008.0">2008</number>
 </date>
-, NFB &amp; DAT; Copeland site: 
+, NFB &amp; DAT
+</materialsCitation>
+</number>
+</date>
+</materialsCitation>
+; 
+<materialsCitation box="[219,841,1765,1790]" pageId="24" pageNumber="25">
+Copeland site: 
 <number box="[389,403,1765,1789]" pageId="24" pageNumber="25" value="1.0">1</number>
-Ƥ, PT, 
+♀, PT, 
 <date box="[493,623,1765,1789]" pageId="24" pageNumber="25" value="2008-06-24">
 <number box="[493,523,1765,1789]" pageId="24" pageNumber="25" value="24.0">24</number>
 .VI. 
 <number box="[562,623,1765,1789]" pageId="24" pageNumber="25" value="2008.0">2008</number>
 </date>
-, NFB, DAT &amp; JPP; Mesquite site 
+, NFB, DAT &amp; JPP
+</materialsCitation>
+; 
+<materialsCitation box="[854,1432,1765,1790]" pageId="24" pageNumber="25">
+Mesquite site 
 <number box="[1012,1028,1765,1789]" pageId="24" pageNumber="25" value="1.0">1</number>
 : 
 <number box="[1042,1056,1765,1789]" pageId="24" pageNumber="25" value="1.0">1</number>
-Ƥ, PT, 
+♀, PT, 
 <date box="[1146,1271,1765,1789]" pageId="24" pageNumber="25" value="2008-07-08">
 <number box="[1146,1159,1765,1789]" pageId="24" pageNumber="25" value="8.0">8</number>
 .VII. 
 <number box="[1209,1271,1765,1789]" pageId="24" pageNumber="25" value="2008.0">2008</number>
 </date>
-, NFB &amp; DAT; Mesquite site 
+, NFB &amp; DAT
+</materialsCitation>
+; 
+<materialsCitation box="[151,784,1801,1826]" pageId="24" pageNumber="25">
+Mesquite site 
 <number box="[308,325,1801,1825]" pageId="24" pageNumber="25" value="2.0">2</number>
 : 
 <number box="[337,351,1801,1825]" pageId="24" pageNumber="25" value="1.0">1</number>
-Ƥ, PT, 
+♀, PT, 
 <date box="[437,567,1801,1825]" pageId="24" pageNumber="25" value="2008-06-24">
 <number box="[437,467,1801,1825]" pageId="24" pageNumber="25" value="24.0">24</number>
 .VI. 
 <number box="[506,567,1801,1825]" pageId="24" pageNumber="25" value="2008.0">2008</number>
 </date>
 , NFB, DAT &amp; JPP.
+</materialsCitation>
 </paragraph>
 </subSubSection>
 <subSubSection pageId="24" pageNumber="25" type="distribution">
