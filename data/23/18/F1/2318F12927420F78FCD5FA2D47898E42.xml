@@ -1,4 +1,4 @@
-<document ID-DOI="10.21248/contrib.entomol.66.2.257-264" ID-GBIF-Dataset="cdc3d462-a67d-4a54-b403-dae1af013526" ID-GBIF-Taxon="192438309" ID-ISSN="0005-805X" ID-Zenodo-Dep="4754080" checkinTime="1620838856975" checkinUser="carolina" docAuthor="Gaedike, Reinhard" docDate="2016" docId="2318F12927420F78FCD5FA2D47898E42" docLanguage="en" docName="ContribEntomol.66.2.257-264.pdf" docOrigin="Beiträge Zur Entomologie = Contributions to Entomology 66 (2)" docSource="https://www.contributions-to-entomology.org/article/view/1905" docStyle="DocumentStyle:05A48F5F6902F879680B6E64765AA512.1:ContribEntomol.2013-2016.journal_article" docStyleId="05A48F5F6902F879680B6E64765AA512" docStyleName="ContribEntomol.2013-2016.journal_article" docStyleVersion="1" docTitle="Acrolepiopsis jaspidata" docType="treatment" docVersion="8" lastPageNumber="259" masterDocId="DF21895127400F7AFFB0FF9E44028643" masterDocTitle="New and poorly known Acrolepiinae from the Palaearctic, Afrotropical, Neotropical and Oriental regions (Lepidoptera: Glyphipterigidae)" masterLastPageNumber="264" masterPageNumber="257" pageId="2" pageNumber="259" updateTime="1643311985323" updateUser="carolina">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6415013" ID-GBIF-Dataset="cdc3d462-a67d-4a54-b403-dae1af013526" ID-GBIF-Taxon="192438309" ID-ISSN="0005-805X" ID-Zenodo-Dep="6415013" checkinTime="1620838856975" checkinUser="carolina" docAuthor="Gaedike, Reinhard" docDate="2016" docId="2318F12927420F78FCD5FA2D47898E42" docLanguage="en" docName="ContribEntomol.66.2.257-264.pdf" docOrigin="Beiträge Zur Entomologie = Contributions to Entomology 66 (2)" docSource="https://www.contributions-to-entomology.org/article/view/1905" docStyle="DocumentStyle:05A48F5F6902F879680B6E64765AA512.2:ContribEntomol.2013-2016.journal_article" docStyleId="05A48F5F6902F879680B6E64765AA512" docStyleName="ContribEntomol.2013-2016.journal_article" docStyleVersion="2" docTitle="Acrolepiopsis jaspidata" docType="treatment" docVersion="10" lastPageNumber="259" masterDocId="DF21895127400F7AFFB0FF9E44028643" masterDocTitle="New and poorly known Acrolepiinae from the Palaearctic, Afrotropical, Neotropical and Oriental regions (Lepidoptera: Glyphipterigidae)" masterLastPageNumber="264" masterPageNumber="257" pageId="2" pageNumber="259" updateTime="1649167531764" updateUser="ExternalLinkService">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>New and poorly known Acrolepiinae from the Palaearctic, Afrotropical, Neotropical and Oriental regions (Lepidoptera: Glyphipterigidae)</mods:title>
@@ -40,8 +40,8 @@
 <mods:identifier type="ISSN">0005-805X</mods:identifier>
 <mods:identifier type="Zenodo-Dep">4754080</mods:identifier>
 </mods:mods>
-<treatment ID-GBIF-Taxon="192438309" LSID="urn:lsid:plazi:treatment:2318F12927420F78FCD5FA2D47898E42" httpUri="http://treatment.plazi.org/id/2318F12927420F78FCD5FA2D47898E42" lastPageNumber="259" pageId="2" pageNumber="259">
-<subSubSection pageId="2" pageNumber="259" type="nomenclature">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6415013" ID-GBIF-Taxon="192438309" ID-Zenodo-Dep="6415013" LSID="urn:lsid:plazi:treatment:2318F12927420F78FCD5FA2D47898E42" httpUri="http://treatment.plazi.org/id/2318F12927420F78FCD5FA2D47898E42" lastPageNumber="259" pageId="2" pageNumber="259">
+<subSubSection box="[869,1281,1459,1486]" pageId="2" pageNumber="259" type="nomenclature">
 <paragraph blockId="2.[869,1281,1459,1486]" box="[869,1281,1459,1486]" pageId="2" pageNumber="259">
 <heading box="[869,1281,1459,1486]" centered="true" fontSize="12" level="2" pageId="2" pageNumber="259" reason="2">
 <taxonomicName authority="(MEYRICK, 1919)" baseAuthorityName="MEYRICK" baseAuthorityYear="1919" box="[869,1281,1459,1486]" class="Insecta" family="Glyphipterigidae" genus="Acrolepiopsis" higherTaxonomySource="GBIF" kingdom="Animalia" order="Lepidoptera" pageId="2" pageNumber="259" phylum="Arthropoda" rank="species" species="jaspidata">
@@ -52,6 +52,8 @@
 </taxonomicName>
 </heading>
 </paragraph>
+</subSubSection>
+<subSubSection pageId="2" pageNumber="259" type="multiple">
 <paragraph blockId="2.[831,1437,1513,2049]" pageId="2" pageNumber="259">
 My collegue Bernard Landry enabled me to study some specimens of this species, collected on the 
 <collectingRegion country="Ecuador" name="Galapagos" pageId="2" pageNumber="259">Galapagos Islands</collectingRegion>
@@ -62,10 +64,11 @@ My collegue Bernard Landry enabled me to study some specimens of this species, c
 ).
 </paragraph>
 </subSubSection>
-<subSubSection pageId="2" pageNumber="259" type="description">
+<subSubSection pageId="2" pageNumber="259" type="materials_examined">
 <paragraph blockId="2.[831,1437,1513,2049]" pageId="2" pageNumber="259">
-<materialsCitation ID-GBIF-Occurrence="3447660303" collectingDate="2004-04-07" collectionCode="NNW, MHNG" collectorName="B. Landry" elevation="223" latitude="-0.0" location="Santa Cruz agriculture zone" longLatPrecision="43333" longitude="-90.0" municipality="Santa Cruz" pageId="2" pageNumber="259" specimenCount="1" stateProvince="Galapagos">
-1 ♀, ECU: 
+<materialsCitation ID-GBIF-Occurrence="3447660303" collectingDate="2004-04-07" collectionCode="NNW, MHNG" collectorName="B. Landry" elevation="223" location="Santa Cruz agriculture zone" municipality="Santa Cruz" pageId="2" pageNumber="259" specimenCount="1" specimenCount-female="1" stateProvince="Galapagos">
+<specimenCount box="[831,869,1609,1633]" pageId="2" pageNumber="259" type="female">1 ♀</specimenCount>
+, ECU: 
 <collectingRegion box="[949,1061,1609,1633]" country="Ecuador" name="Galapagos" pageId="2" pageNumber="259">Galapagos</collectingRegion>
 , 
 <location LSID="urn:lsid:plazi:treatment:2318F12927420F78FCD5FA2D47898E42:AE6E16E427420F78FB81F9D741638022" box="[1073,1377,1609,1633]" latitude="-0.0" longLatPrecision="43333" longitude="-90.0" municipality="Santa Cruz" name="Santa Cruz agriculture zone" pageId="2" pageNumber="259" stateProvince="Galapagos">Santa Cruz agriculture zone</location>
@@ -85,9 +88,9 @@ My collegue Bernard Landry enabled me to study some specimens of this species, c
 <collectionCode box="[1096,1181,1673,1697]" collectionName="Switzerland, Geneva, Museum d'Histoire Naturelle" country="Switzerland" httpUri="http://grbio.org/cool/2jyg-xmd2" name="Museum d'Histoire Naturelle" pageId="2" pageNumber="259" type="Museum">MHNG</collectionCode>
 ;
 </materialsCitation>
-<materialsCitation ID-GBIF-Occurrence="3447660312" collectingDate="2005-02-18" collectionCode="MHNG, SDEI" collectorName="B. Landry" elevation="225" latitude="-0.0" location="NNW Bella Vista" longLatPrecision="43333" longitude="-90.0" municipality="Santa Cruz" pageId="2" pageNumber="259" specimenCount="3" stateProvince="Galapagos">
-<specimenCount box="[1191,1234,1673,1697]" pageId="2" pageNumber="259" type="generic">3 ♂,</specimenCount>
-2 ♀, ECU: 
+<materialsCitation ID-GBIF-Occurrence="3447660312" collectingDate="2005-02-18" collectionCode="MHNG, SDEI" collectorName="B. Landry" elevation="225" location="NNW Bella Vista" municipality="Santa Cruz" pageId="2" pageNumber="259" specimenCount="3" specimenCount-female="3" stateProvince="Galapagos">
+<specimenCount box="[1191,1277,1673,1697]" pageId="2" pageNumber="259" type="female">3 ♂, 2 ♀</specimenCount>
+, ECU: 
 <collectingRegion country="Ecuador" name="Galapagos" pageId="2" pageNumber="259">Galapagos</collectingRegion>
 , 
 <collectingMunicipality box="[881,1002,1705,1729]" pageId="2" pageNumber="259">Santa Cruz</collectingMunicipality>
