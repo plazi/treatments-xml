@@ -1,4 +1,4 @@
-<document ID-DOI="10.11646/megataxa.4.1.1" ID-ISSN="2703-3090" ID-Zenodo-Dep="4591138" approvalRequired="693" approvalRequired_for_bibRefs="6" approvalRequired_for_illustrations="15" approvalRequired_for_textStreams="423" approvalRequired_for_treatments="249" checkinTime="1614033145335" checkinUser="plazi" docAuthor="Kim, Il-Hoi &amp; Boxshall, Geoff A." docDate="2020" docId="03C487CBEDD038B7FCEFFD8BFF7CF7D7" docLanguage="en" docName="megataxa.4.1.1.pdf.imf" docOrigin="Megataxa 4 (1)" docSource="http://zoobank.org/3fdd970e-62f1-4f67-8cce-10870bdb3c01" docStyle="DocumentStyle:50B6B96D96A55C21793B52C23E95B310.2:Megataxa.2020-.journal_article" docStyleId="50B6B96D96A55C21793B52C23E95B310" docStyleName="Megataxa.2020-.journal_article" docStyleVersion="2" docTitle="Nodoscarus compressus Kim &amp; Boxshall 2020, gen. et sp. nov." docType="treatment" docVersion="3" lastPageId="642" lastPageNumber="642" masterDocId="FFFDFFB3EF513A35FFC5FFCEFFC5FFC1" masterDocTitle="Untold diversity: the astonishing species richness of the Notodelphyidae (Copepoda: Cyclopoida), a family of symbiotic copepods associated with ascidians (Tunicata)" masterLastPageNumber="6" masterPageNumber="1" pageId="641" pageNumber="642" updateTime="1636630336792" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6422178" ID-GBIF-Dataset="7c9bc39d-9910-46f1-9558-c0647b9cbbdb" ID-ISSN="2703-3090" ID-Zenodo-Dep="6422178" approvalRequired="4" approvalRequired_for_matCits="4" checkinTime="1614033145335" checkinUser="plazi" docAuthor="Kim, Il-Hoi &amp; Boxshall, Geoff A." docDate="2020" docId="03C487CBEDD038B7FCEFFD8BFF7CF7D7" docLanguage="en" docName="megataxa.4.1.1.pdf.imf" docOrigin="Megataxa 4 (1)" docSource="http://zoobank.org/3fdd970e-62f1-4f67-8cce-10870bdb3c01" docStyle="DocumentStyle:50B6B96D96A55C21793B52C23E95B310.3:Megataxa.2020-.journal_article" docStyleId="50B6B96D96A55C21793B52C23E95B310" docStyleName="Megataxa.2020-.journal_article" docStyleVersion="3" docTitle="Nodoscarus compressus Kim &amp; Boxshall 2020, gen. et sp. nov." docType="treatment" docVersion="5" lastPageId="642" lastPageNumber="642" masterDocId="FFFDFFB3EF513A35FFC5FFCEFFC5FFC1" masterDocTitle="Untold diversity: the astonishing species richness of the Notodelphyidae (Copepoda: Cyclopoida), a family of symbiotic copepods associated with ascidians (Tunicata)" masterLastPageNumber="6" masterPageNumber="1" pageId="641" pageNumber="642" updateTime="1649351744914" updateUser="ExternalLinkService">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Untold diversity: the astonishing species richness of the Notodelphyidae (Copepoda: Cyclopoida), a family of symbiotic copepods associated with ascidians (Tunicata)</mods:title>
@@ -48,10 +48,11 @@
 </mods:location>
 <mods:classification>journal article</mods:classification>
 <mods:identifier type="DOI">10.11646/megataxa.4.1.1</mods:identifier>
+<mods:identifier type="GBIF-Dataset">7c9bc39d-9910-46f1-9558-c0647b9cbbdb</mods:identifier>
 <mods:identifier type="ISSN">2703-3090</mods:identifier>
 <mods:identifier type="Zenodo-Dep">4591138</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:03C487CBEDD038B7FCEFFD8BFF7CF7D7" httpUri="http://treatment.plazi.org/id/03C487CBEDD038B7FCEFFD8BFF7CF7D7" lastPageId="642" lastPageNumber="642" pageId="641" pageNumber="642">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6422178" ID-Zenodo-Dep="6422178" LSID="urn:lsid:plazi:treatment:03C487CBEDD038B7FCEFFD8BFF7CF7D7" httpUri="http://treatment.plazi.org/id/03C487CBEDD038B7FCEFFD8BFF7CF7D7" lastPageId="642" lastPageNumber="642" pageId="641" pageNumber="642">
 <subSubSection box="[810,1290,581,608]" pageId="641" pageNumber="642" type="nomenclature">
 <paragraph blockId="641.[810,1290,581,642]" box="[810,1290,581,608]" pageId="641" pageNumber="642">
 <heading box="[810,1290,581,608]" fontSize="11" level="2" pageId="641" pageNumber="642" reason="2">
@@ -75,29 +76,39 @@
 <paragraph blockId="641.[810,1452,683,2070]" pageId="641" pageNumber="642">
 <emphasis bold="true" box="[810,979,683,709]" pageId="641" pageNumber="642">Type material</emphasis>
 . 
+<materialsCitation collectedFrom="from Leptoclinides sp." collectingDate="2003-06-22" collectorName="L. Martin" country="Papua New Guinea" elevation="24" latitude="-2.5378332" location="Baluan I." longLatPrecision="13" longitude="147.2995" pageId="641" pageNumber="642" specimenCode="MNHN-IU-2014-21459" specimenCount="1" specimenCount-female="1" stateProvince="Baluan I." typeStatus="holotype">
 <typeStatus box="[997,1101,683,709]" pageId="641" pageNumber="642">Holotype</typeStatus>
-<specimenCount box="[1111,1132,684,710]" pageId="641" pageNumber="642">♀</specimenCount>
-(dissected and mounted on a slide, MNHN-IU-2014-21459) from 
+<specimenCount box="[1111,1132,684,710]" pageId="641" pageNumber="642" type="female">♀</specimenCount>
+(dissected and mounted on a slide, 
+<specimenCode box="[904,1175,717,744]" pageId="641" pageNumber="642">MNHN-IU-2014-21459</specimenCode>
+) 
+<collectedFrom box="[1193,1451,717,744]" pageId="641" pageNumber="642">
+from 
 <taxonomicName box="[1258,1409,717,743]" class="Ascidiacea" family="Didemnidae" genus="Leptoclinides" kingdom="Animalia" order="Enterogona" pageId="641" pageNumber="642" phylum="Chordata" rank="genus">
 <emphasis box="[1258,1409,717,743]" italics="true" pageId="641" pageNumber="642">Leptoclinides</emphasis>
 </taxonomicName>
-sp. (MNHN-IT-2008-4861 = 
-<collectionCode box="[1112,1231,751,778]" country="France" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34988" lsid="urn:lsid:biocol.org:col:34988" name="Museum National d'Histoire Naturelle" pageId="641" pageNumber="642">MNHNA</collectionCode>
-2/ 
-<collectionCode box="[1253,1306,751,777]" country="Russia" httpUri="http://biocol.org/urn:lsid:biocol.org:col:15259" lsid="urn:lsid:biocol.org:col:15259" name="All-Russian Research Institute of Plant Protection" pageId="641" pageNumber="642" type="Herbarium">LEP</collectionCode>
-/111), 
-<collectionCode pageId="641" pageNumber="642">CRRF CRCHO</collectionCode>
-561, Baluan I., 
+sp.
+</collectedFrom>
+(MNHN-IT-2008-4861 = MNHNA2/LEP/111), CRRF CRCHO 561, 
+<collectingRegion box="[973,1079,785,812]" pageId="641" pageNumber="642">Baluan I.</collectingRegion>
+, 
 <collectingCountry box="[1093,1313,785,812]" name="Papua New Guinea" pageId="641" pageNumber="642">Papua New Guinea</collectingCountry>
 (
 <geoCoordinate box="[1330,1447,785,811]" degrees="2" direction="south" minutes="32.27" orientation="latitude" pageId="641" pageNumber="642" precision="9" value="-2.5378332">2°32.27’S</geoCoordinate>
 , 
 <geoCoordinate box="[810,955,819,845]" degrees="147" direction="east" minutes="17.97" orientation="longitude" pageId="641" pageNumber="642" precision="9" value="147.2995">147°17.97’E</geoCoordinate>
 ), open reef, depth 
-<quantity box="[1169,1229,819,846]" metricMagnitude="1" metricUnit="m" metricValue="2.4" pageId="641" pageNumber="642" unit="m" value="24.0">24 m</quantity>
-, L. Martin coll., 
-<date pageId="641" pageNumber="642" value="2003-06-22">22 June 2003</date>
+<quantity box="[1169,1229,819,846]" metricMagnitude="1" metricUnit="m" metricValue="2.4" pageId="641" pageNumber="642" unit="m" value="24.0">
+<elevation box="[1169,1229,819,846]" metricMagnitude="1" metricUnit="m" metricValue="2.4" pageId="641" pageNumber="642" unit="m" value="24.0">24 m</elevation>
+</quantity>
+, 
+<collectorName box="[1242,1351,819,846]" pageId="641" pageNumber="642">L. Martin</collectorName>
+coll., 
+<date pageId="641" pageNumber="642" value="2003-06-22">
+<collectingDate pageId="641" pageNumber="642" value="2003-06-22">22 June 2003</collectingDate>
+</date>
 .
+</materialsCitation>
 </paragraph>
 </subSubSection>
 <subSubSection pageId="641" pageNumber="642" type="etymology">

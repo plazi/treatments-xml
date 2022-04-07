@@ -1,4 +1,4 @@
-<document ID-DOI="10.11646/megataxa.4.1.1" ID-ISSN="2703-3090" ID-Zenodo-Dep="4591138" approvalRequired="693" approvalRequired_for_bibRefs="6" approvalRequired_for_illustrations="15" approvalRequired_for_textStreams="423" approvalRequired_for_treatments="249" checkinTime="1614033145335" checkinUser="plazi" docAuthor="Kim, Il-Hoi &amp; Boxshall, Geoff A." docDate="2020" docId="03C487CBED68380EFCEFFD03FD9CFCEA" docLanguage="en" docName="megataxa.4.1.1.pdf.imf" docOrigin="Megataxa 4 (1)" docSource="http://zoobank.org/3fdd970e-62f1-4f67-8cce-10870bdb3c01" docStyle="DocumentStyle:50B6B96D96A55C21793B52C23E95B310.2:Megataxa.2020-.journal_article" docStyleId="50B6B96D96A55C21793B52C23E95B310" docStyleName="Megataxa.2020-.journal_article" docStyleVersion="2" docTitle="Unimeria longipedata Kim &amp; Boxshall 2020, gen. et sp. nov." docType="treatment" docVersion="3" lastPageId="571" lastPageNumber="572" masterDocId="FFFDFFB3EF513A35FFC5FFCEFFC5FFC1" masterDocTitle="Untold diversity: the astonishing species richness of the Notodelphyidae (Copepoda: Cyclopoida), a family of symbiotic copepods associated with ascidians (Tunicata)" masterLastPageNumber="6" masterPageNumber="1" pageId="569" pageNumber="570" updateTime="1636630336792" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6422153" ID-GBIF-Dataset="7c9bc39d-9910-46f1-9558-c0647b9cbbdb" ID-ISSN="2703-3090" ID-Zenodo-Dep="6422153" approvalRequired="4" approvalRequired_for_matCits="4" checkinTime="1614033145335" checkinUser="plazi" docAuthor="Kim, Il-Hoi &amp; Boxshall, Geoff A." docDate="2020" docId="03C487CBED68380EFCEFFD03FD9CFCEA" docLanguage="en" docName="megataxa.4.1.1.pdf.imf" docOrigin="Megataxa 4 (1)" docSource="http://zoobank.org/3fdd970e-62f1-4f67-8cce-10870bdb3c01" docStyle="DocumentStyle:50B6B96D96A55C21793B52C23E95B310.3:Megataxa.2020-.journal_article" docStyleId="50B6B96D96A55C21793B52C23E95B310" docStyleName="Megataxa.2020-.journal_article" docStyleVersion="3" docTitle="Unimeria longipedata Kim &amp; Boxshall 2020, gen. et sp. nov." docType="treatment" docVersion="5" lastPageId="571" lastPageNumber="572" masterDocId="FFFDFFB3EF513A35FFC5FFCEFFC5FFC1" masterDocTitle="Untold diversity: the astonishing species richness of the Notodelphyidae (Copepoda: Cyclopoida), a family of symbiotic copepods associated with ascidians (Tunicata)" masterLastPageNumber="6" masterPageNumber="1" pageId="569" pageNumber="570" updateTime="1649351744914" updateUser="ExternalLinkService">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Untold diversity: the astonishing species richness of the Notodelphyidae (Copepoda: Cyclopoida), a family of symbiotic copepods associated with ascidians (Tunicata)</mods:title>
@@ -48,10 +48,11 @@
 </mods:location>
 <mods:classification>journal article</mods:classification>
 <mods:identifier type="DOI">10.11646/megataxa.4.1.1</mods:identifier>
+<mods:identifier type="GBIF-Dataset">7c9bc39d-9910-46f1-9558-c0647b9cbbdb</mods:identifier>
 <mods:identifier type="ISSN">2703-3090</mods:identifier>
 <mods:identifier type="Zenodo-Dep">4591138</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:03C487CBED68380EFCEFFD03FD9CFCEA" httpUri="http://treatment.plazi.org/id/03C487CBED68380EFCEFFD03FD9CFCEA" lastPageId="571" lastPageNumber="572" pageId="569" pageNumber="570">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6422153" ID-Zenodo-Dep="6422153" LSID="urn:lsid:plazi:treatment:03C487CBED68380EFCEFFD03FD9CFCEA" httpUri="http://treatment.plazi.org/id/03C487CBED68380EFCEFFD03FD9CFCEA" lastPageId="571" lastPageNumber="572" pageId="569" pageNumber="570">
 <subSubSection box="[810,1264,717,744]" pageId="569" pageNumber="570" type="nomenclature">
 <paragraph blockId="569.[810,1264,717,777]" box="[810,1264,717,744]" pageId="569" pageNumber="570">
 <heading box="[810,1264,717,744]" fontSize="11" level="2" pageId="569" pageNumber="570" reason="2">
@@ -75,24 +76,37 @@
 <paragraph blockId="569.[810,1452,819,2070]" pageId="569" pageNumber="570">
 <emphasis bold="true" box="[810,977,819,845]" pageId="569" pageNumber="570">Type material</emphasis>
 . 
+<materialsCitation collectedFrom="from the colonial ascidian Leptoclinidesapertus Monniot F., 1989" collectingDate="1987-03-19" collectorName="Monniot" country="New Caledonia" elevation="10" location="Rocher a la Voile" pageId="569" pageNumber="570" specimenCode="MNHN-IU-2014-21418" specimenCount="1" specimenCount-female="1" typeStatus="holotype">
 <typeStatus box="[991,1095,819,845]" pageId="569" pageNumber="570">Holotype</typeStatus>
-<specimenCount box="[1103,1124,820,846]" pageId="569" pageNumber="570">♀</specimenCount>
-(dissected and mounted on a slide, MNHN-IU-2014-21418) from the colonial ascidian 
+<specimenCount box="[1103,1124,820,846]" pageId="569" pageNumber="570" type="female">♀</specimenCount>
+(dissected and mounted on a slide, 
+<specimenCode box="[876,1147,853,879]" pageId="569" pageNumber="570">MNHN-IU-2014-21418</specimenCode>
+) 
+<collectedFrom pageId="569" pageNumber="570">
+from the colonial ascidian 
 <taxonomicName authority="Monniot F., 1989" authorityName="Monniot F." authorityYear="1989" box="[810,1244,887,914]" class="Ascidiacea" family="Didemnidae" genus="Leptoclinides" kingdom="Animalia" order="Enterogona" pageId="569" pageNumber="570" phylum="Chordata" rank="species" species="apertus">
 <emphasis box="[810,1049,887,913]" italics="true" pageId="569" pageNumber="570">Leptoclinidesapertus</emphasis>
 Monniot F., 1989
 </taxonomicName>
-(MNHN-IT-2008- 4767 = 
-<collectionCode box="[897,1010,921,948]" country="France" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34988" lsid="urn:lsid:biocol.org:col:34988" name="Museum National d'Histoire Naturelle" pageId="569" pageNumber="570">MNHNA</collectionCode>
-2/ 
-<collectionCode box="[1031,1083,921,947]" country="Russia" httpUri="http://biocol.org/urn:lsid:biocol.org:col:15259" lsid="urn:lsid:biocol.org:col:15259" name="All-Russian Research Institute of Plant Protection" pageId="569" pageNumber="570" type="Herbarium">LEP</collectionCode>
-/20), Rocher à la Voile, Noumea, NC45, 
+</collectedFrom>
+(MNHN-IT-2008- 4767 = MNHNA2/LEP/20), 
+<location LSID="urn:lsid:plazi:treatment:03C487CBED68380EFCEFFD03FD9CFCEA:8EB26006ED68380CFBB1FC57FAFFFC72" box="[1140,1338,921,947]" country="New Caledonia" name="Rocher a la Voile" pageId="569" pageNumber="570">Rocher à la Voile</location>
+, 
+<location LSID="urn:lsid:plazi:treatment:03C487CBED68380EFCEFFD03FD9CFCEA:8EB26006ED68380CFA80FC54FA62FC75" box="[1349,1447,922,948]" country="New Caledonia" name="Noumea" pageId="569" pageNumber="570">Noumea</location>
+, NC45, 
 <collectingCountry box="[893,1070,955,982]" name="New Caledonia" pageId="569" pageNumber="570">New Caledonia</collectingCountry>
 , depth 
-<quantity box="[1155,1239,955,982]" metricMagnitude="0" metricUnit="m" metricValue="9.5" metricValueMax="10.0" metricValueMin="9.0" pageId="569" pageNumber="570" unit="m" value="9.5" valueMax="10.0" valueMin="9.0">9-10 m</quantity>
-, Monniot coll., 
-<date pageId="569" pageNumber="570" value="1987-03-19">19 March 1987</date>
+<quantity box="[1155,1239,955,982]" metricMagnitude="0" metricUnit="m" metricValue="9.5" metricValueMax="10.0" metricValueMin="9.0" pageId="569" pageNumber="570" unit="m" value="9.5" valueMax="10.0" valueMin="9.0">
+<elevation box="[1155,1239,955,982]" metricMagnitude="0" metricUnit="m" metricValue="9.5" metricValueMax="10.0" metricValueMin="9.0" pageId="569" pageNumber="570" unit="m" value="9.5" valueMax="10.0" valueMin="9.0">9-10 m</elevation>
+</quantity>
+, 
+<collectorName box="[1253,1349,955,981]" pageId="569" pageNumber="570">Monniot</collectorName>
+coll., 
+<date pageId="569" pageNumber="570" value="1987-03-19">
+<collectingDate pageId="569" pageNumber="570" value="1987-03-19">19 March 1987</collectingDate>
+</date>
 .
+</materialsCitation>
 </paragraph>
 </subSubSection>
 <subSubSection pageId="569" pageNumber="570" type="etymology">

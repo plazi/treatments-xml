@@ -1,4 +1,4 @@
-<document ID-DOI="10.11646/megataxa.4.1.1" ID-ISSN="2703-3090" ID-Zenodo-Dep="4591138" approvalRequired="596" approvalRequired_for_bibRefs="6" approvalRequired_for_illustrations="13" approvalRequired_for_textStreams="203" approvalRequired_for_treatments="374" checkinTime="1614033145335" checkinUser="plazi" docAuthor="Kim, Il-Hoi &amp; Boxshall, Geoff A." docDate="2020" docId="03C487CBED123870FCEFFF62FEE7F9BC" docLanguage="en" docName="megataxa.4.1.1.pdf.imf" docOrigin="Megataxa 4 (1)" docSource="http://zoobank.org/3fdd970e-62f1-4f67-8cce-10870bdb3c01" docStyle="DocumentStyle:50B6B96D96A55C21793B52C23E95B310.2:Megataxa.2020-.journal_article" docStyleId="50B6B96D96A55C21793B52C23E95B310" docStyleName="Megataxa.2020-.journal_article" docStyleVersion="2" docTitle="Tubipedia anisocladia Kim &amp; Boxshall 2020, gen. et sp. nov." docType="treatment" docVersion="4" lastPageId="581" lastPageNumber="582" masterDocId="FFFDFFB3EF513A35FFC5FFCEFFC5FFC1" masterDocTitle="Untold diversity: the astonishing species richness of the Notodelphyidae (Copepoda: Cyclopoida), a family of symbiotic copepods associated with ascidians (Tunicata)" masterLastPageNumber="6" masterPageNumber="1" pageId="579" pageNumber="580" updateTime="1636734593124" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6422156" ID-GBIF-Dataset="7c9bc39d-9910-46f1-9558-c0647b9cbbdb" ID-ISSN="2703-3090" ID-Zenodo-Dep="6422156" approvalRequired="4" approvalRequired_for_matCits="4" checkinTime="1614033145335" checkinUser="plazi" docAuthor="Kim, Il-Hoi &amp; Boxshall, Geoff A." docDate="2020" docId="03C487CBED123870FCEFFF62FEE7F9BC" docLanguage="en" docName="megataxa.4.1.1.pdf.imf" docOrigin="Megataxa 4 (1)" docSource="http://zoobank.org/3fdd970e-62f1-4f67-8cce-10870bdb3c01" docStyle="DocumentStyle:50B6B96D96A55C21793B52C23E95B310.3:Megataxa.2020-.journal_article" docStyleId="50B6B96D96A55C21793B52C23E95B310" docStyleName="Megataxa.2020-.journal_article" docStyleVersion="3" docTitle="Tubipedia anisocladia Kim &amp; Boxshall 2020, gen. et sp. nov." docType="treatment" docVersion="6" lastPageId="581" lastPageNumber="582" masterDocId="FFFDFFB3EF513A35FFC5FFCEFFC5FFC1" masterDocTitle="Untold diversity: the astonishing species richness of the Notodelphyidae (Copepoda: Cyclopoida), a family of symbiotic copepods associated with ascidians (Tunicata)" masterLastPageNumber="6" masterPageNumber="1" pageId="579" pageNumber="580" updateTime="1649351744914" updateUser="ExternalLinkService">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Untold diversity: the astonishing species richness of the Notodelphyidae (Copepoda: Cyclopoida), a family of symbiotic copepods associated with ascidians (Tunicata)</mods:title>
@@ -48,10 +48,11 @@
 </mods:location>
 <mods:classification>journal article</mods:classification>
 <mods:identifier type="DOI">10.11646/megataxa.4.1.1</mods:identifier>
+<mods:identifier type="GBIF-Dataset">7c9bc39d-9910-46f1-9558-c0647b9cbbdb</mods:identifier>
 <mods:identifier type="ISSN">2703-3090</mods:identifier>
 <mods:identifier type="Zenodo-Dep">4591138</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:03C487CBED123870FCEFFF62FEE7F9BC" httpUri="http://treatment.plazi.org/id/03C487CBED123870FCEFFF62FEE7F9BC" lastPageId="581" lastPageNumber="582" pageId="579" pageNumber="580">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6422156" ID-Zenodo-Dep="6422156" LSID="urn:lsid:plazi:treatment:03C487CBED123870FCEFFF62FEE7F9BC" httpUri="http://treatment.plazi.org/id/03C487CBED123870FCEFFF62FEE7F9BC" lastPageId="581" lastPageNumber="582" pageId="579" pageNumber="580">
 <subSubSection box="[810,1266,172,199]" pageId="579" pageNumber="580" type="nomenclature">
 <paragraph blockId="579.[810,1266,172,233]" box="[810,1266,172,199]" pageId="579" pageNumber="580">
 <heading box="[810,1266,172,199]" fontSize="11" level="2" pageId="579" pageNumber="580" reason="2">
@@ -77,15 +78,29 @@
 <paragraph blockId="579.[810,1452,275,2070]" pageId="579" pageNumber="580">
 <emphasis bold="true" box="[810,979,275,301]" pageId="579" pageNumber="580">Type material</emphasis>
 . 
+<materialsCitation collectingDate="1995-11-14" collectorName="Monniot" country="Mozambique" elevation="10" location="near the lighthouse" pageId="579" pageNumber="580" specimenCode="MNHN-IU-2014-21424" specimenCount="1" specimenCount-female="1" stateProvince="Ibo Island" typeStatus="holotype">
 <typeStatus box="[997,1101,275,301]" pageId="579" pageNumber="580">Holotype</typeStatus>
-<specimenCount box="[1111,1132,275,301]" pageId="579" pageNumber="580">♀</specimenCount>
-(dissected and mounted on a slide, MNHN-IU-2014-21424) from an unknown host, AURACEA 1995 Stn P15, near the lighthouse, Ibo Island, 
+<specimenCount box="[1111,1132,275,301]" pageId="579" pageNumber="580" type="female">♀</specimenCount>
+(dissected and mounted on a slide, 
+<specimenCode box="[899,1170,309,335]" pageId="579" pageNumber="580">MNHN-IU-2014-21424</specimenCode>
+) from an unknown host, AURACEA 1995 Stn P15, 
+<location LSID="urn:lsid:plazi:treatment:03C487CBED123870FCEFFF62FEE7F9BC:8EB26006ED123876FB93FE99FAE9FEB0" box="[1110,1324,343,369]" country="Mozambique" name="near the lighthouse" pageId="579" pageNumber="580" stateProvince="Ibo Island">near the lighthouse</location>
+, 
+<collectingRegion box="[1333,1447,343,369]" pageId="579" pageNumber="580">Ibo Island</collectingRegion>
+, 
 <collectingCountry box="[810,961,377,403]" name="Mozambique" pageId="579" pageNumber="580">Mozambique</collectingCountry>
 , depth 
-<quantity box="[1040,1122,377,403]" metricMagnitude="1" metricUnit="m" metricValue="1.0" metricValueMax="2.0" metricValueMin="0.0" pageId="579" pageNumber="580" unit="m" value="10.0" valueMax="20.0" valueMin="0.0">0-20 m</quantity>
-, Monniot coll., 
-<date pageId="579" pageNumber="580" value="1995-11-14">14 November 1995</date>
+<quantity box="[1040,1122,377,403]" metricMagnitude="1" metricUnit="m" metricValue="1.0" metricValueMax="2.0" metricValueMin="0.0" pageId="579" pageNumber="580" unit="m" value="10.0" valueMax="20.0" valueMin="0.0">
+<elevation box="[1040,1122,377,403]" metricMagnitude="1" metricUnit="m" metricValue="1.0" metricValueMax="2.0" metricValueMin="0.0" pageId="579" pageNumber="580" unit="m" value="10.0" valueMax="20.0" valueMin="0.0">0-20 m</elevation>
+</quantity>
+, 
+<collectorName box="[1133,1229,377,403]" pageId="579" pageNumber="580">Monniot</collectorName>
+coll., 
+<date pageId="579" pageNumber="580" value="1995-11-14">
+<collectingDate pageId="579" pageNumber="580" value="1995-11-14">14 November 1995</collectingDate>
+</date>
 .
+</materialsCitation>
 </paragraph>
 </subSubSection>
 <subSubSection pageId="579" pageNumber="580" type="etymology">

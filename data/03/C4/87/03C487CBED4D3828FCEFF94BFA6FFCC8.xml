@@ -1,4 +1,4 @@
-<document ID-DOI="10.11646/megataxa.4.1.1" ID-ISSN="2703-3090" ID-Zenodo-Dep="4591138" approvalRequired="596" approvalRequired_for_bibRefs="6" approvalRequired_for_illustrations="13" approvalRequired_for_textStreams="203" approvalRequired_for_treatments="374" checkinTime="1614033145335" checkinUser="plazi" docAuthor="Kim, Il-Hoi &amp; Boxshall, Geoff A." docDate="2020" docId="03C487CBED4D3828FCEFF94BFA6FFCC8" docLanguage="en" docName="megataxa.4.1.1.pdf.imf" docOrigin="Megataxa 4 (1)" docSource="http://zoobank.org/3fdd970e-62f1-4f67-8cce-10870bdb3c01" docStyle="DocumentStyle:50B6B96D96A55C21793B52C23E95B310.2:Megataxa.2020-.journal_article" docStyleId="50B6B96D96A55C21793B52C23E95B310" docStyleName="Megataxa.2020-.journal_article" docStyleVersion="2" docTitle="Ammonixys quadridens Kim &amp; Boxshall 2020, gen. etsp. nov." docType="treatment" docVersion="4" lastPageId="541" lastPageNumber="542" masterDocId="FFFDFFB3EF513A35FFC5FFCEFFC5FFC1" masterDocTitle="Untold diversity: the astonishing species richness of the Notodelphyidae (Copepoda: Cyclopoida), a family of symbiotic copepods associated with ascidians (Tunicata)" masterLastPageNumber="6" masterPageNumber="1" pageId="540" pageNumber="541" updateTime="1636734593124" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6422137" ID-GBIF-Dataset="7c9bc39d-9910-46f1-9558-c0647b9cbbdb" ID-ISSN="2703-3090" ID-Zenodo-Dep="6422137" approvalRequired="4" approvalRequired_for_matCits="4" checkinTime="1614033145335" checkinUser="plazi" docAuthor="Kim, Il-Hoi &amp; Boxshall, Geoff A." docDate="2020" docId="03C487CBED4D3828FCEFF94BFA6FFCC8" docLanguage="en" docName="megataxa.4.1.1.pdf.imf" docOrigin="Megataxa 4 (1)" docSource="http://zoobank.org/3fdd970e-62f1-4f67-8cce-10870bdb3c01" docStyle="DocumentStyle:50B6B96D96A55C21793B52C23E95B310.3:Megataxa.2020-.journal_article" docStyleId="50B6B96D96A55C21793B52C23E95B310" docStyleName="Megataxa.2020-.journal_article" docStyleVersion="3" docTitle="Ammonixys quadridens Kim &amp; Boxshall 2020, gen. etsp. nov." docType="treatment" docVersion="6" lastPageId="541" lastPageNumber="542" masterDocId="FFFDFFB3EF513A35FFC5FFCEFFC5FFC1" masterDocTitle="Untold diversity: the astonishing species richness of the Notodelphyidae (Copepoda: Cyclopoida), a family of symbiotic copepods associated with ascidians (Tunicata)" masterLastPageNumber="6" masterPageNumber="1" pageId="540" pageNumber="541" updateTime="1649351744914" updateUser="ExternalLinkService">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Untold diversity: the astonishing species richness of the Notodelphyidae (Copepoda: Cyclopoida), a family of symbiotic copepods associated with ascidians (Tunicata)</mods:title>
@@ -48,10 +48,11 @@
 </mods:location>
 <mods:classification>journal article</mods:classification>
 <mods:identifier type="DOI">10.11646/megataxa.4.1.1</mods:identifier>
+<mods:identifier type="GBIF-Dataset">7c9bc39d-9910-46f1-9558-c0647b9cbbdb</mods:identifier>
 <mods:identifier type="ISSN">2703-3090</mods:identifier>
 <mods:identifier type="Zenodo-Dep">4591138</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:03C487CBED4D3828FCEFF94BFA6FFCC8" httpUri="http://treatment.plazi.org/id/03C487CBED4D3828FCEFF94BFA6FFCC8" lastPageId="541" lastPageNumber="542" pageId="540" pageNumber="541">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6422137" ID-Zenodo-Dep="6422137" LSID="urn:lsid:plazi:treatment:03C487CBED4D3828FCEFF94BFA6FFCC8" httpUri="http://treatment.plazi.org/id/03C487CBED4D3828FCEFF94BFA6FFCC8" lastPageId="541" lastPageNumber="542" pageId="540" pageNumber="541">
 <subSubSection box="[810,1285,1669,1696]" pageId="540" pageNumber="541" type="nomenclature">
 <paragraph blockId="540.[810,1285,1669,1730]" box="[810,1285,1669,1696]" pageId="540" pageNumber="541">
 <heading box="[810,1285,1669,1696]" fontSize="11" level="2" pageId="540" pageNumber="541" reason="2">
@@ -77,32 +78,37 @@
 <paragraph blockId="540.[810,1452,1771,2070]" pageId="540" pageNumber="541">
 <emphasis bold="true" box="[810,986,1771,1798]" pageId="540" pageNumber="541">Type material</emphasis>
 . 
+<materialsCitation collectedFrom="from Polyclinum isipingense Sluiter, 1898" collectingDate="2010-05-01" collectionCode="MNHN" country="Madagascar" elevation="14" latitude="-25.016666" location="Madagascar" longLatPrecision="1248" longitude="47.0" pageId="540" pageNumber="541" specimenCode="MNHN-IU-2014-21404" specimenCount="1" specimenCount-female="1" typeStatus="holotype">
 <typeStatus box="[1010,1114,1772,1798]" pageId="540" pageNumber="541">Holotype</typeStatus>
-<specimenCount box="[1130,1151,1772,1798]" pageId="540" pageNumber="541">♀</specimenCount>
-(dissected and mounted on a slide, MNHN-IU-2014-21404) from 
+<specimenCount box="[1130,1151,1772,1798]" pageId="540" pageNumber="541" type="female">♀</specimenCount>
+(dissected and mounted on a slide, 
+<specimenCode box="[959,1230,1806,1832]" pageId="540" pageNumber="541">MNHN-IU-2014-21404</specimenCode>
+) 
+<collectedFrom pageId="540" pageNumber="541">
+from 
 <taxonomicName authority="Sluiter, 1898" authorityName="Sluiter" authorityYear="1898" class="Ascidiacea" family="Polyclinidae" genus="Polyclinum" kingdom="Animalia" order="Enterogona" pageId="540" pageNumber="541" phylum="Chordata" rank="species" species="isipingense">
 <emphasis italics="true" pageId="540" pageNumber="541">Polyclinum isipingense</emphasis>
 Sluiter, 1898
 </taxonomicName>
-(MNHN-IT-2008-XXX = 
-<collectionCode box="[848,934,1874,1900]" country="France" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34988" lsid="urn:lsid:biocol.org:col:34988" name="Museum National d'Histoire Naturelle" pageId="540" pageNumber="541">MNHN</collectionCode>
-A1/ 
-<collectionCode box="[995,1055,1874,1900]" pageId="540" pageNumber="541">POL</collectionCode>
-.B/108), 
-<collectionCode box="[1162,1359,1874,1900]" pageId="540" pageNumber="541">ATIMOVATAE</collectionCode>
-TR07, 
+</collectedFrom>
+(MNHN-IT-2008-XXX = MNHN A1/POL.B/108), ATIMOVATAE TR07, 
 <collectingCountry box="[810,945,1908,1934]" name="Madagascar" pageId="540" pageNumber="541">Madagascar</collectingCountry>
 (
 <geoCoordinate box="[961,1057,1907,1934]" degrees="25" direction="south" minutes="01" orientation="latitude" pageId="540" pageNumber="541" precision="925" value="-25.016666">25°01 Ś</geoCoordinate>
 , 
 <geoCoordinate box="[1069,1166,1908,1934]" degrees="47" direction="east" minutes="00" orientation="longitude" pageId="540" pageNumber="541" precision="925" value="47.0">47°00 É</geoCoordinate>
 ), depth 
-<quantity box="[1256,1353,1908,1934]" metricMagnitude="1" metricUnit="m" metricValue="1.4" metricValueMax="1.6" metricValueMin="1.2" pageId="540" pageNumber="541" unit="m" value="14.0" valueMax="16.0" valueMin="12.0">12-16 m</quantity>
+<quantity box="[1256,1353,1908,1934]" metricMagnitude="1" metricUnit="m" metricValue="1.4" metricValueMax="1.6" metricValueMin="1.2" pageId="540" pageNumber="541" unit="m" value="14.0" valueMax="16.0" valueMin="12.0">
+<elevation box="[1256,1353,1908,1934]" metricMagnitude="1" metricUnit="m" metricValue="1.4" metricValueMax="1.6" metricValueMin="1.2" pageId="540" pageNumber="541" unit="m" value="14.0" valueMax="16.0" valueMin="12.0">12-16 m</elevation>
+</quantity>
 , 
 <collectionCode box="[1366,1452,1908,1934]" country="France" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34988" lsid="urn:lsid:biocol.org:col:34988" name="Museum National d'Histoire Naturelle" pageId="540" pageNumber="541">MNHN</collectionCode>
 coll., 
-<date box="[873,1026,1942,1968]" pageId="540" pageNumber="541" value="2010-05-01">01 May 2010</date>
+<date box="[873,1026,1942,1968]" pageId="540" pageNumber="541" value="2010-05-01">
+<collectingDate box="[873,1026,1942,1968]" pageId="540" pageNumber="541" value="2010-05-01">01 May 2010</collectingDate>
+</date>
 .
+</materialsCitation>
 </paragraph>
 </subSubSection>
 <subSubSection pageId="540" pageNumber="541" type="etymology">
