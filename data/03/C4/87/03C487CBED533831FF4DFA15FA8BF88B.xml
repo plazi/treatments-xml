@@ -1,4 +1,4 @@
-<document ID-DOI="10.11646/megataxa.4.1.1" ID-ISSN="2703-3090" ID-Zenodo-Dep="4591138" approvalRequired="596" approvalRequired_for_bibRefs="6" approvalRequired_for_illustrations="13" approvalRequired_for_textStreams="203" approvalRequired_for_treatments="374" checkinTime="1614033145335" checkinUser="plazi" docAuthor="Kim, Il-Hoi &amp; Boxshall, Geoff A." docDate="2020" docId="03C487CBED533831FF4DFA15FA8BF88B" docLanguage="en" docName="megataxa.4.1.1.pdf.imf" docOrigin="Megataxa 4 (1)" docSource="http://zoobank.org/3fdd970e-62f1-4f67-8cce-10870bdb3c01" docStyle="DocumentStyle:50B6B96D96A55C21793B52C23E95B310.2:Megataxa.2020-.journal_article" docStyleId="50B6B96D96A55C21793B52C23E95B310" docStyleName="Megataxa.2020-.journal_article" docStyleVersion="2" docTitle="Notoixys hirsuta Kim &amp; Boxshall 2020, gen. et sp. nov." docType="treatment" docVersion="4" lastPageId="516" lastPageNumber="517" masterDocId="FFFDFFB3EF513A35FFC5FFCEFFC5FFC1" masterDocTitle="Untold diversity: the astonishing species richness of the Notodelphyidae (Copepoda: Cyclopoida), a family of symbiotic copepods associated with ascidians (Tunicata)" masterLastPageNumber="6" masterPageNumber="1" pageId="514" pageNumber="515" updateTime="1636734593124" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6422131" ID-ISSN="2703-3090" ID-Zenodo-Dep="6422131" approvalRequired="4" approvalRequired_for_matCits="4" checkinTime="1614033145335" checkinUser="plazi" docAuthor="Kim, Il-Hoi &amp; Boxshall, Geoff A." docDate="2020" docId="03C487CBED533831FF4DFA15FA8BF88B" docLanguage="en" docName="megataxa.4.1.1.pdf.imf" docOrigin="Megataxa 4 (1)" docSource="http://zoobank.org/3fdd970e-62f1-4f67-8cce-10870bdb3c01" docStyle="DocumentStyle:50B6B96D96A55C21793B52C23E95B310.4:Megataxa.2020-.journal_article" docStyleId="50B6B96D96A55C21793B52C23E95B310" docStyleName="Megataxa.2020-.journal_article" docStyleVersion="4" docTitle="Notoixys hirsuta Kim &amp; Boxshall 2020, gen. et sp. nov." docType="treatment" docVersion="6" lastPageId="516" lastPageNumber="517" masterDocId="FFFDFFB3EF513A35FFC5FFCEFFC5FFC1" masterDocTitle="Untold diversity: the astonishing species richness of the Notodelphyidae (Copepoda: Cyclopoida), a family of symbiotic copepods associated with ascidians (Tunicata)" masterLastPageNumber="6" masterPageNumber="1" pageId="514" pageNumber="515" updateTime="1649350887949" updateUser="ExternalLinkService">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Untold diversity: the astonishing species richness of the Notodelphyidae (Copepoda: Cyclopoida), a family of symbiotic copepods associated with ascidians (Tunicata)</mods:title>
@@ -51,7 +51,7 @@
 <mods:identifier type="ISSN">2703-3090</mods:identifier>
 <mods:identifier type="Zenodo-Dep">4591138</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:03C487CBED533831FF4DFA15FA8BF88B" httpUri="http://treatment.plazi.org/id/03C487CBED533831FF4DFA15FA8BF88B" lastPageId="516" lastPageNumber="517" pageId="514" pageNumber="515">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6422131" ID-Zenodo-Dep="6422131" LSID="urn:lsid:plazi:treatment:03C487CBED533831FF4DFA15FA8BF88B" httpUri="http://treatment.plazi.org/id/03C487CBED533831FF4DFA15FA8BF88B" lastPageId="516" lastPageNumber="517" pageId="514" pageNumber="515">
 <subSubSection box="[136,525,1499,1526]" pageId="514" pageNumber="515" type="nomenclature">
 <paragraph blockId="514.[136,525,1499,1560]" box="[136,525,1499,1526]" pageId="514" pageNumber="515">
 <heading box="[136,525,1499,1526]" fontSize="11" level="2" pageId="514" pageNumber="515" reason="2">
@@ -77,10 +77,15 @@
 <paragraph blockId="514.[136,778,1601,2070]" pageId="514" pageNumber="515">
 <emphasis bold="true" box="[136,310,1601,1628]" pageId="514" pageNumber="515">Typematerial</emphasis>
 . 
+<materialsCitation pageId="514" pageNumber="515" specimenCode="MNHN-IU-2014- 21389" specimenCount="1" specimenCount-female="1" typeStatus="holotype">
 <typeStatus box="[332,436,1601,1627]" pageId="514" pageNumber="515">Holotype</typeStatus>
 (intact 
-<specimenCount box="[536,557,1602,1628]" pageId="514" pageNumber="515">♀</specimenCount>
-, MNHN-IU-2014- 21389), 
+<specimenCount box="[536,557,1602,1628]" pageId="514" pageNumber="515" type="female">♀</specimenCount>
+, 
+<specimenCode pageId="514" pageNumber="515">MNHN-IU-2014- 21389</specimenCode>
+)
+</materialsCitation>
+, 
 <typeStatus box="[228,335,1636,1662]" pageId="514" pageNumber="515">paratypes</typeStatus>
 (6 intact 
 <specimenCount box="[438,481,1636,1662]" pageId="514" pageNumber="515">♀♀</specimenCount>

@@ -1,4 +1,4 @@
-<document ID-DOI="10.11646/megataxa.4.1.1" ID-ISSN="2703-3090" ID-Zenodo-Dep="4591138" approvalRequired="596" approvalRequired_for_bibRefs="6" approvalRequired_for_illustrations="13" approvalRequired_for_textStreams="203" approvalRequired_for_treatments="374" checkinTime="1614033145335" checkinUser="plazi" docAuthor="Kim, Il-Hoi &amp; Boxshall, Geoff A." docDate="2020" docId="03C487CBEE033B62FCEFFA56FB80FA70" docLanguage="en" docName="megataxa.4.1.1.pdf.imf" docOrigin="Megataxa 4 (1)" docSource="http://zoobank.org/3fdd970e-62f1-4f67-8cce-10870bdb3c01" docStyle="DocumentStyle:50B6B96D96A55C21793B52C23E95B310.2:Megataxa.2020-.journal_article" docStyleId="50B6B96D96A55C21793B52C23E95B310" docStyleName="Megataxa.2020-.journal_article" docStyleVersion="2" docTitle="Doropygus antarcticus Kim &amp; Boxshall 2020, sp. nov." docType="treatment" docVersion="4" lastPageId="343" lastPageNumber="344" masterDocId="FFFDFFB3EF513A35FFC5FFCEFFC5FFC1" masterDocTitle="Untold diversity: the astonishing species richness of the Notodelphyidae (Copepoda: Cyclopoida), a family of symbiotic copepods associated with ascidians (Tunicata)" masterLastPageNumber="6" masterPageNumber="1" pageId="338" pageNumber="339" updateTime="1636734593124" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6421635" ID-ISSN="2703-3090" ID-Zenodo-Dep="6421635" approvalRequired="4" approvalRequired_for_matCits="4" checkinTime="1614033145335" checkinUser="plazi" docAuthor="Kim, Il-Hoi &amp; Boxshall, Geoff A." docDate="2020" docId="03C487CBEE033B62FCEFFA56FB80FA70" docLanguage="en" docName="megataxa.4.1.1.pdf.imf" docOrigin="Megataxa 4 (1)" docSource="http://zoobank.org/3fdd970e-62f1-4f67-8cce-10870bdb3c01" docStyle="DocumentStyle:50B6B96D96A55C21793B52C23E95B310.4:Megataxa.2020-.journal_article" docStyleId="50B6B96D96A55C21793B52C23E95B310" docStyleName="Megataxa.2020-.journal_article" docStyleVersion="4" docTitle="Doropygus antarcticus Kim &amp; Boxshall 2020, sp. nov." docType="treatment" docVersion="7" lastPageId="343" lastPageNumber="344" masterDocId="FFFDFFB3EF513A35FFC5FFCEFFC5FFC1" masterDocTitle="Untold diversity: the astonishing species richness of the Notodelphyidae (Copepoda: Cyclopoida), a family of symbiotic copepods associated with ascidians (Tunicata)" masterLastPageNumber="6" masterPageNumber="1" pageId="338" pageNumber="339" updateTime="1649350887949" updateUser="ExternalLinkService">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Untold diversity: the astonishing species richness of the Notodelphyidae (Copepoda: Cyclopoida), a family of symbiotic copepods associated with ascidians (Tunicata)</mods:title>
@@ -51,7 +51,7 @@
 <mods:identifier type="ISSN">2703-3090</mods:identifier>
 <mods:identifier type="Zenodo-Dep">4591138</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:03C487CBEE033B62FCEFFA56FB80FA70" httpUri="http://treatment.plazi.org/id/03C487CBEE033B62FCEFFA56FB80FA70" lastPageId="343" lastPageNumber="344" pageId="338" pageNumber="339">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6421635" ID-Zenodo-Dep="6421635" LSID="urn:lsid:plazi:treatment:03C487CBEE033B62FCEFFA56FB80FA70" httpUri="http://treatment.plazi.org/id/03C487CBEE033B62FCEFFA56FB80FA70" lastPageId="343" lastPageNumber="344" pageId="338" pageNumber="339">
 <subSubSection box="[810,1185,1431,1458]" pageId="338" pageNumber="339" type="nomenclature">
 <paragraph blockId="338.[810,1185,1431,1492]" box="[810,1185,1431,1458]" pageId="338" pageNumber="339">
 <heading box="[810,1185,1431,1458]" fontSize="11" level="2" pageId="338" pageNumber="339" reason="2">
@@ -77,29 +77,36 @@
 <paragraph blockId="338.[810,1452,1533,2070]" pageId="338" pageNumber="339">
 <emphasis bold="true" box="[810,981,1533,1560]" pageId="338" pageNumber="339">Type material</emphasis>
 . 
+<materialsCitation collectedFrom="from Cnemidocarpa pfefferi Michaelsen, 1898" collectingDate="2008-01-04" collectorName="IPEV-AAD-MNHN" elevation="541" latitude="-66.183334" location="Terre Adelie" longLatPrecision="998" longitude="143.35" pageId="338" pageNumber="339" specimenCode="MNHN-IU-2014-21315" specimenCount="1" specimenCount-female="1" stateProvince="Terre Adelie" typeStatus="holotype">
 <typeStatus box="[1000,1104,1533,1559]" pageId="338" pageNumber="339">Holotype</typeStatus>
-<specimenCount box="[1116,1129,1533,1559]" pageId="338" pageNumber="339">♀</specimenCount>
-(dissected and mounted on a slide, MNHN-IU-2014-21315) from 
+<specimenCount box="[1116,1129,1533,1559]" pageId="338" pageNumber="339" type="female">♀</specimenCount>
+(dissected and mounted on a slide, 
+<specimenCode box="[917,1188,1567,1594]" pageId="338" pageNumber="339">MNHN-IU-2014-21315</specimenCode>
+) 
+<collectedFrom pageId="338" pageNumber="339">
+from 
 <taxonomicName authority="Michaelsen, 1898" authorityName="Michaelsen" authorityYear="1898" class="Ascidiacea" family="Styelidae" genus="Cnemidocarpa" kingdom="Animalia" order="Pleurogona" pageId="338" pageNumber="339" phylum="Chordata" rank="species" species="pfefferi">
 <emphasis italics="true" pageId="338" pageNumber="339">Cnemidocarpa pfefferi</emphasis>
 Michaelsen, 1898
 </taxonomicName>
+</collectedFrom>
 , Antarctic (
 <geoCoordinate box="[1223,1317,1601,1627]" degrees="66" direction="south" minutes="11" orientation="latitude" pageId="338" pageNumber="339" precision="925" value="-66.183334">66°11 Ś</geoCoordinate>
 , 
 <geoCoordinate box="[1327,1438,1602,1628]" degrees="143" direction="east" minutes="21" orientation="longitude" pageId="338" pageNumber="339" precision="925" value="143.35">143°21 É</geoCoordinate>
-), CEAMARC 62EV303 (Beam Trawl 
-<collectionCode box="[1222,1287,1636,1662]" pageId="338" pageNumber="339">AAD</collectionCode>
-), Terre Adélie, “ 
-<collectingRegion box="[819,901,1670,1696]" country="Philippines" name="Aurora" pageId="338" pageNumber="339">Aurora</collectingRegion>
-Australis” (
-<geoCoordinate box="[1043,1136,1669,1695]" degrees="66" direction="south" minutes="11" orientation="latitude" pageId="338" pageNumber="339" precision="925" value="-66.183334">66°11’S</geoCoordinate>
+), CEAMARC 62EV303 (Beam Trawl AAD), 
+<collectingRegion box="[1306,1448,1635,1662]" pageId="338" pageNumber="339">Terre Adélie</collectingRegion>
+, “Aurora Australis” (66°11’S, 143°21’E), depth 
+<quantity metricMagnitude="2" metricUnit="m" metricValue="5.41" metricValueMax="5.5" metricValueMin="5.32" pageId="338" pageNumber="339" unit="m" value="541.0" valueMax="550.0" valueMin="532.0">
+<elevation metricMagnitude="2" metricUnit="m" metricValue="5.41" metricValueMax="5.5" metricValueMin="5.32" pageId="338" pageNumber="339" unit="m" value="541.0" valueMax="550.0" valueMin="532.0">532-550 m</elevation>
+</quantity>
 , 
-<geoCoordinate box="[1151,1262,1670,1696]" degrees="143" direction="east" minutes="21" orientation="longitude" pageId="338" pageNumber="339" precision="925" value="143.35">143°21’E</geoCoordinate>
-), depth 
-<quantity metricMagnitude="2" metricUnit="m" metricValue="5.41" metricValueMax="5.5" metricValueMin="5.32" pageId="338" pageNumber="339" unit="m" value="541.0" valueMax="550.0" valueMin="532.0">532-550 m</quantity>
-, IPEV-AAD-MNHN coll., 
-<date box="[1140,1329,1704,1730]" pageId="338" pageNumber="339" value="2008-01-04">04 January 2008</date>
+<collectorName box="[845,1069,1704,1730]" pageId="338" pageNumber="339">IPEV-AAD-MNHN</collectorName>
+coll., 
+<date box="[1140,1329,1704,1730]" pageId="338" pageNumber="339" value="2008-01-04">
+<collectingDate box="[1140,1329,1704,1730]" pageId="338" pageNumber="339" value="2008-01-04">04 January 2008</collectingDate>
+</date>
+</materialsCitation>
 .
 </paragraph>
 <paragraph blockId="338.[810,1452,1533,2070]" pageId="338" pageNumber="339">

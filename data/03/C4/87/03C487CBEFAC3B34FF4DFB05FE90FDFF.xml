@@ -1,4 +1,4 @@
-<document ID-DOI="10.11646/megataxa.4.1.1" ID-ISSN="2703-3090" ID-Zenodo-Dep="4591138" approvalRequired="596" approvalRequired_for_bibRefs="6" approvalRequired_for_illustrations="13" approvalRequired_for_textStreams="203" approvalRequired_for_treatments="374" checkinTime="1614033145335" checkinUser="plazi" docAuthor="Kim, Il-Hoi &amp; Boxshall, Geoff A." docDate="2020" docId="03C487CBEFAC3B34FF4DFB05FE90FDFF" docLanguage="en" docName="megataxa.4.1.1.pdf.imf" docOrigin="Megataxa 4 (1)" docSource="http://zoobank.org/3fdd970e-62f1-4f67-8cce-10870bdb3c01" docStyle="DocumentStyle:50B6B96D96A55C21793B52C23E95B310.2:Megataxa.2020-.journal_article" docStyleId="50B6B96D96A55C21793B52C23E95B310" docStyleName="Megataxa.2020-.journal_article" docStyleVersion="2" docTitle="Bonnierilla reniformis Kim &amp; Boxshall 2020, sp. nov." docType="treatment" docVersion="6" lastPageId="257" lastPageNumber="258" masterDocId="FFFDFFB3EF513A35FFC5FFCEFFC5FFC1" masterDocTitle="Untold diversity: the astonishing species richness of the Notodelphyidae (Copepoda: Cyclopoida), a family of symbiotic copepods associated with ascidians (Tunicata)" masterLastPageNumber="6" masterPageNumber="1" pageId="253" pageNumber="254" updateTime="1636734593124" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6421258" ID-ISSN="2703-3090" ID-Zenodo-Dep="6421258" approvalRequired="4" approvalRequired_for_matCits="4" checkinTime="1614033145335" checkinUser="plazi" docAuthor="Kim, Il-Hoi &amp; Boxshall, Geoff A." docDate="2020" docId="03C487CBEFAC3B34FF4DFB05FE90FDFF" docLanguage="en" docName="megataxa.4.1.1.pdf.imf" docOrigin="Megataxa 4 (1)" docSource="http://zoobank.org/3fdd970e-62f1-4f67-8cce-10870bdb3c01" docStyle="DocumentStyle:50B6B96D96A55C21793B52C23E95B310.4:Megataxa.2020-.journal_article" docStyleId="50B6B96D96A55C21793B52C23E95B310" docStyleName="Megataxa.2020-.journal_article" docStyleVersion="4" docTitle="Bonnierilla reniformis Kim &amp; Boxshall 2020, sp. nov." docType="treatment" docVersion="8" lastPageId="257" lastPageNumber="258" masterDocId="FFFDFFB3EF513A35FFC5FFCEFFC5FFC1" masterDocTitle="Untold diversity: the astonishing species richness of the Notodelphyidae (Copepoda: Cyclopoida), a family of symbiotic copepods associated with ascidians (Tunicata)" masterLastPageNumber="6" masterPageNumber="1" pageId="253" pageNumber="254" updateTime="1649350887949" updateUser="ExternalLinkService">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Untold diversity: the astonishing species richness of the Notodelphyidae (Copepoda: Cyclopoida), a family of symbiotic copepods associated with ascidians (Tunicata)</mods:title>
@@ -51,7 +51,7 @@
 <mods:identifier type="ISSN">2703-3090</mods:identifier>
 <mods:identifier type="Zenodo-Dep">4591138</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:03C487CBEFAC3B34FF4DFB05FE90FDFF" httpUri="http://treatment.plazi.org/id/03C487CBEFAC3B34FF4DFB05FE90FDFF" lastPageId="257" lastPageNumber="258" pageId="253" pageNumber="254">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6421258" ID-Zenodo-Dep="6421258" LSID="urn:lsid:plazi:treatment:03C487CBEFAC3B34FF4DFB05FE90FDFF" httpUri="http://treatment.plazi.org/id/03C487CBEFAC3B34FF4DFB05FE90FDFF" lastPageId="257" lastPageNumber="258" pageId="253" pageNumber="254">
 <subSubSection box="[136,510,1227,1254]" pageId="253" pageNumber="254" type="nomenclature">
 <paragraph blockId="253.[136,510,1227,1287]" box="[136,510,1227,1254]" pageId="253" pageNumber="254">
 <heading box="[136,510,1227,1254]" fontSize="11" level="2" pageId="253" pageNumber="254" reason="2">
@@ -77,32 +77,37 @@
 <paragraph blockId="253.[136,778,1329,2070]" pageId="253" pageNumber="254">
 <emphasis bold="true" box="[136,306,1329,1355]" pageId="253" pageNumber="254">Type material</emphasis>
 . 
+<materialsCitation collectedFrom="from Styela canopus (Savigny, 1816)" collectingDate="2010-05-09" collectionCode="MNHN" country="Madagascar" elevation="16" latitude="-24.983334" location="Madagascar" longLatPrecision="1248" longitude="47.083332" pageId="253" pageNumber="254" specimenCode="MNHN-IU-2014-21283" specimenCount="1" specimenCount-female="1" typeStatus="holotype">
 <typeStatus box="[323,427,1329,1355]" pageId="253" pageNumber="254">Holotype</typeStatus>
-<specimenCount box="[438,459,1330,1356]" pageId="253" pageNumber="254">♀</specimenCount>
-(dissected and mounted on a slide, MNHN-IU-2014-21283) from 
+<specimenCount box="[438,459,1330,1356]" pageId="253" pageNumber="254" type="female">♀</specimenCount>
+(dissected and mounted on a slide, 
+<specimenCode box="[238,509,1363,1389]" pageId="253" pageNumber="254">MNHN-IU-2014-21283</specimenCode>
+) 
+<collectedFrom pageId="253" pageNumber="254">
+from 
 <taxonomicName authority="(Savigny, 1816)" baseAuthorityName="Savigny" baseAuthorityYear="1816" class="Ascidiacea" family="Styelidae" genus="Styela" kingdom="Animalia" order="Pleurogona" pageId="253" pageNumber="254" phylum="Chordata" rank="species" species="canopus">
 <emphasis box="[601,777,1363,1389]" italics="true" pageId="253" pageNumber="254">Styela canopus</emphasis>
 (Savigny, 1816)
 </taxonomicName>
-(MNHN-IT-2008-XXXX = 
-<collectionCode box="[645,756,1397,1424]" country="France" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34988" lsid="urn:lsid:biocol.org:col:34988" name="Museum National d'Histoire Naturelle" pageId="253" pageNumber="254">MNHNS</collectionCode>
-1/ 
-<collectionCode box="[136,191,1431,1458]" pageId="253" pageNumber="254">STY</collectionCode>
-/316), 
-<collectionCode box="[261,442,1432,1458]" pageId="253" pageNumber="254">ATIMOVATAE</collectionCode>
-TR16, 
+</collectedFrom>
+(MNHN-IT-2008-XXXX = MNHNS1/ STY/316), ATIMOVATAE TR16, 
 <collectingCountry box="[527,662,1431,1457]" name="Madagascar" pageId="253" pageNumber="254">Madagascar</collectingCountry>
 (
 <geoCoordinate box="[678,773,1431,1458]" degrees="24" direction="south" minutes="59" orientation="latitude" pageId="253" pageNumber="254" precision="925" value="-24.983334">24°59 Ś</geoCoordinate>
 , 
 <geoCoordinate box="[136,233,1465,1492]" degrees="47" direction="east" minutes="05" orientation="longitude" pageId="253" pageNumber="254" precision="925" value="47.083332">47°05 É</geoCoordinate>
 ), depth 
-<quantity box="[322,419,1465,1492]" metricMagnitude="1" metricUnit="m" metricValue="1.6" metricValueMax="1.7" metricValueMin="1.5" pageId="253" pageNumber="254" unit="m" value="16.0" valueMax="17.0" valueMin="15.0">15-17 m</quantity>
+<quantity box="[322,419,1465,1492]" metricMagnitude="1" metricUnit="m" metricValue="1.6" metricValueMax="1.7" metricValueMin="1.5" pageId="253" pageNumber="254" unit="m" value="16.0" valueMax="17.0" valueMin="15.0">
+<elevation box="[322,419,1465,1492]" metricMagnitude="1" metricUnit="m" metricValue="1.6" metricValueMax="1.7" metricValueMin="1.5" pageId="253" pageNumber="254" unit="m" value="16.0" valueMax="17.0" valueMin="15.0">15-17 m</elevation>
+</quantity>
 , 
 <collectionCode box="[430,516,1466,1492]" country="France" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34988" lsid="urn:lsid:biocol.org:col:34988" name="Museum National d'Histoire Naturelle" pageId="253" pageNumber="254">MNHN</collectionCode>
 coll., 
-<date box="[586,739,1466,1492]" pageId="253" pageNumber="254" value="2010-05-09">09 May 2010</date>
+<date box="[586,739,1466,1492]" pageId="253" pageNumber="254" value="2010-05-09">
+<collectingDate box="[586,739,1466,1492]" pageId="253" pageNumber="254" value="2010-05-09">09 May 2010</collectingDate>
+</date>
 .
+</materialsCitation>
 </paragraph>
 </subSubSection>
 <subSubSection pageId="253" pageNumber="254" type="etymology">
