@@ -1,4 +1,4 @@
-<document ID-DOI="10.2478/vzoo-2018-0003" ID-ISSN="2073-2333" ID-Zenodo-Dep="6404172" approvalRequired="21" approvalRequired_for_textStreams="21" checkinTime="1648784511059" checkinUser="felipe" docAuthor="Khaghaninia, S., Kazerani, F. &amp; Vala, Jean-Claude" docDate="2018" docId="AE6F87D2FE41FF8AFF7FFA555D9BF932" docLanguage="en" docName="VestnikZoologii.52.1.21-30.pdf" docOrigin="Vestnik Zoologii 52 (1)" docSource="http://dx.doi.org/10.2478/vzoo-2018-0003" docStyle="DocumentStyle:9FE6554C034D0A4D8EA9CEAE255F4368:VestnikZoologii.2014-2019.journal_article" docStyleId="9FE6554C034D0A4D8EA9CEAE255F4368" docStyleName="VestnikZoologii.2014-2019.journal_article" docTitle="Coremacera amoena" docType="treatment" docVersion="2" lastPageNumber="22" masterDocId="5256FFAAFE40FF8BFFD1FFCE5C46FFB7" masterDocTitle="New Data About Snail-Killing Flies (Diptera, Sciomyzidae) In Iran" masterLastPageNumber="30" masterPageNumber="21" pageId="1" pageNumber="22" updateTime="1648786000079" updateUser="ExternalLinkService" zenodo-license-document="CC-BY-4.0">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6425694" ID-GBIF-Dataset="10df1939-771d-4471-a63b-7863f2591a34" ID-ISSN="2073-2333" ID-Zenodo-Dep="6425694" checkinTime="1648784511059" checkinUser="felipe" docAuthor="Khaghaninia, S., Kazerani, F. &amp; Vala, Jean-Claude" docDate="2018" docId="AE6F87D2FE41FF8AFF7FFA555D9BF932" docLanguage="en" docName="VestnikZoologii.52.1.21-30.pdf" docOrigin="Vestnik Zoologii 52 (1)" docSource="http://dx.doi.org/10.2478/vzoo-2018-0003" docStyle="DocumentStyle:9FE6554C034D0A4D8EA9CEAE255F4368.1:VestnikZoologii.2014-2019.journal_article" docStyleId="9FE6554C034D0A4D8EA9CEAE255F4368" docStyleName="VestnikZoologii.2014-2019.journal_article" docStyleVersion="1" docTitle="Coremacera amoena" docType="treatment" docVersion="4" lastPageNumber="22" masterDocId="5256FFAAFE40FF8BFFD1FFCE5C46FFB7" masterDocTitle="New Data About Snail-Killing Flies (Diptera, Sciomyzidae) In Iran" masterLastPageNumber="30" masterPageNumber="21" pageId="1" pageNumber="22" updateTime="1649435796889" updateUser="ExternalLinkService" zenodo-license-document="CC-BY-4.0">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>New Data About Snail-Killing Flies (Diptera, Sciomyzidae) In Iran</mods:title>
@@ -48,11 +48,12 @@
 </mods:location>
 <mods:classification>journal article</mods:classification>
 <mods:identifier type="DOI">10.2478/vzoo-2018-0003</mods:identifier>
+<mods:identifier type="GBIF-Dataset">10df1939-771d-4471-a63b-7863f2591a34</mods:identifier>
 <mods:identifier type="ISSN">2073-2333</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6404172</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:AE6F87D2FE41FF8AFF7FFA555D9BF932" httpUri="http://treatment.plazi.org/id/AE6F87D2FE41FF8AFF7FFA555D9BF932" lastPageNumber="22" pageId="1" pageNumber="22">
-<subSubSection pageId="1" pageNumber="22" type="nomenclature">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6425694" ID-Zenodo-Dep="6425694" LSID="urn:lsid:plazi:treatment:AE6F87D2FE41FF8AFF7FFA555D9BF932" httpUri="http://treatment.plazi.org/id/AE6F87D2FE41FF8AFF7FFA555D9BF932" lastPageNumber="22" pageId="1" pageNumber="22">
+<subSubSection box="[174,583,1435,1462]" pageId="1" pageNumber="22" type="nomenclature">
 <paragraph blockId="1.[174,583,1435,1462]" box="[174,583,1435,1462]" pageId="1" pageNumber="22">
 <heading box="[174,583,1435,1462]" fontSize="36" level="2" pageId="1" pageNumber="22" reason="3">
 <taxonomicName authority="(Loew, 1853)" baseAuthorityName="Loew" baseAuthorityYear="1853" box="[174,583,1435,1462]" class="Insecta" family="Sciomyzidae" genus="Coremacera" kingdom="Animalia" order="Diptera" pageId="1" pageNumber="22" phylum="Arthropoda" rank="species" species="amoena">
@@ -61,8 +62,10 @@
 </taxonomicName>
 </heading>
 </paragraph>
-<paragraph blockId="1.[174,1232,1492,1541]" box="[227,1232,1492,1514]" pageId="1" pageNumber="22">
-<materialsCitation box="[227,1232,1492,1514]" country="Iran" latitude="38.883335" location="Gharadagh" longLatPrecision="1172" longitude="46.8" pageId="1" pageNumber="22" specimenCount="1" stateProvince="Azarbayjan-e Sharqi">
+</subSubSection>
+<subSubSection pageId="1" pageNumber="22" type="materials_examined">
+<paragraph blockId="1.[174,1232,1492,1541]" pageId="1" pageNumber="22">
+<materialsCitation country="Iran" latitude="38.883335" location="Gharadagh" longLatPrecision="1172" longitude="46.8" pageId="1" pageNumber="22" specimenCount="1" stateProvince="Azarbayjan-e Sharqi">
 M a t e r i a l e x a m i n e d: 
 <collectingCountry box="[467,510,1492,1514]" name="Iran" pageId="1" pageNumber="22">Iran</collectingCountry>
 : 
@@ -73,19 +76,17 @@ M a t e r i a l e x a m i n e d:
 <geoCoordinate box="[1042,1133,1492,1514]" degrees="38" direction="north" minutes="53" orientation="latitude" pageId="1" pageNumber="22" precision="925" value="38.883335">38°53´N</geoCoordinate>
 , 
 <geoCoordinate box="[1143,1228,1492,1514]" degrees="46" direction="east" minutes="48" orientation="longitude" pageId="1" pageNumber="22" precision="925" value="46.8">46°48´E</geoCoordinate>
-,
-</materialsCitation>
-</paragraph>
-</subSubSection>
-<subSubSection pageId="1" pageNumber="22" type="description">
-<paragraph blockId="1.[174,1232,1492,1541]" box="[174,644,1518,1541]" pageId="1" pageNumber="22">
+, 
 <quantity box="[174,248,1519,1541]" metricMagnitude="3" metricUnit="m" metricValue="1.859" pageId="1" pageNumber="22" unit="m" value="1859.0">1859 m</quantity>
 ], 
 <date box="[264,369,1519,1541]" pageId="1" pageNumber="22" value="2010-06-20">20.06.2010</date>
-, 3 Ơ, 
+, 3 ♂, 
 <specimenCount box="[421,453,1518,1541]" pageId="1" pageNumber="22" type="female">2 ♀</specimenCount>
 (Khaghaninia leg.).
+</materialsCitation>
 </paragraph>
+</subSubSection>
+<subSubSection pageId="1" pageNumber="22" type="distribution">
 <paragraph blockId="1.[174,1232,1579,1670]" pageId="1" pageNumber="22">
 D i s t r i b u t i o n. South Europe, Middle-east: 
 <collectingCountry box="[761,849,1579,1605]" name="Turkey" pageId="1" pageNumber="22">Turkey</collectingCountry>
@@ -95,6 +96,8 @@ D i s t r i b u t i o n. South Europe, Middle-east:
 <bibRefCitation author="Knutson, L. V. &amp; Shagudian, E. R. &amp; Sahba, G. H." pageId="1" pageNumber="22" pagination="145 - 155" refId="ref6445" refString="Knutson, L. V., Shagudian, E. R., Sahba, G. H. 1973. Notes on the biology of certain snail-killing flies (Sciomyzidae) from Khuzestan (Iran). Iranian Journal of Public Health, 2 (3), 145 - 155." type="journal article" year="1973">Knutson et al. (1973)</bibRefCitation>
 .
 </paragraph>
+</subSubSection>
+<subSubSection box="[227,477,1643,1670]" pageId="1" pageNumber="22" type="biology_ecology">
 <paragraph blockId="1.[174,1232,1579,1670]" box="[227,477,1643,1670]" pageId="1" pageNumber="22">B i o l o g y. Unknown.</paragraph>
 </subSubSection>
 </treatment>

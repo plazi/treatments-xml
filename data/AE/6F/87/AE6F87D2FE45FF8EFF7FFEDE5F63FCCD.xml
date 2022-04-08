@@ -1,4 +1,4 @@
-<document ID-DOI="10.2478/vzoo-2018-0003" ID-ISSN="2073-2333" ID-Zenodo-Dep="6404172" approvalRequired="21" approvalRequired_for_textStreams="21" checkinTime="1648784511059" checkinUser="felipe" docAuthor="Khaghaninia, S., Kazerani, F. &amp; Vala, Jean-Claude" docDate="2018" docId="AE6F87D2FE45FF8EFF7FFEDE5F63FCCD" docLanguage="en" docName="VestnikZoologii.52.1.21-30.pdf" docOrigin="Vestnik Zoologii 52 (1)" docSource="http://dx.doi.org/10.2478/vzoo-2018-0003" docStyle="DocumentStyle:9FE6554C034D0A4D8EA9CEAE255F4368:VestnikZoologii.2014-2019.journal_article" docStyleId="9FE6554C034D0A4D8EA9CEAE255F4368" docStyleName="VestnikZoologii.2014-2019.journal_article" docTitle="Tetanocera arrogans Meigen 1830" docType="treatment" docVersion="2" lastPageNumber="26" masterDocId="5256FFAAFE40FF8BFFD1FFCE5C46FFB7" masterDocTitle="New Data About Snail-Killing Flies (Diptera, Sciomyzidae) In Iran" masterLastPageNumber="30" masterPageNumber="21" pageId="5" pageNumber="26" updateTime="1648786000079" updateUser="ExternalLinkService" zenodo-license-document="CC-BY-4.0">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6425708" ID-GBIF-Dataset="10df1939-771d-4471-a63b-7863f2591a34" ID-ISSN="2073-2333" ID-Zenodo-Dep="6425708" checkinTime="1648784511059" checkinUser="felipe" docAuthor="Khaghaninia, S., Kazerani, F. &amp; Vala, Jean-Claude" docDate="2018" docId="AE6F87D2FE45FF8EFF7FFEDE5F63FCCD" docLanguage="en" docName="VestnikZoologii.52.1.21-30.pdf" docOrigin="Vestnik Zoologii 52 (1)" docSource="http://dx.doi.org/10.2478/vzoo-2018-0003" docStyle="DocumentStyle:9FE6554C034D0A4D8EA9CEAE255F4368.1:VestnikZoologii.2014-2019.journal_article" docStyleId="9FE6554C034D0A4D8EA9CEAE255F4368" docStyleName="VestnikZoologii.2014-2019.journal_article" docStyleVersion="1" docTitle="Tetanocera arrogans Meigen 1830" docType="treatment" docVersion="4" lastPageNumber="26" masterDocId="5256FFAAFE40FF8BFFD1FFCE5C46FFB7" masterDocTitle="New Data About Snail-Killing Flies (Diptera, Sciomyzidae) In Iran" masterLastPageNumber="30" masterPageNumber="21" pageId="5" pageNumber="26" updateTime="1649435796889" updateUser="ExternalLinkService" zenodo-license-document="CC-BY-4.0">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>New Data About Snail-Killing Flies (Diptera, Sciomyzidae) In Iran</mods:title>
@@ -48,11 +48,12 @@
 </mods:location>
 <mods:classification>journal article</mods:classification>
 <mods:identifier type="DOI">10.2478/vzoo-2018-0003</mods:identifier>
+<mods:identifier type="GBIF-Dataset">10df1939-771d-4471-a63b-7863f2591a34</mods:identifier>
 <mods:identifier type="ISSN">2073-2333</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6404172</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:AE6F87D2FE45FF8EFF7FFEDE5F63FCCD" httpUri="http://treatment.plazi.org/id/AE6F87D2FE45FF8EFF7FFEDE5F63FCCD" lastPageNumber="26" pageId="5" pageNumber="26">
-<subSubSection pageId="5" pageNumber="26" type="nomenclature">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6425708" ID-Zenodo-Dep="6425708" LSID="urn:lsid:plazi:treatment:AE6F87D2FE45FF8EFF7FFEDE5F63FCCD" httpUri="http://treatment.plazi.org/id/AE6F87D2FE45FF8EFF7FFEDE5F63FCCD" lastPageNumber="26" pageId="5" pageNumber="26">
+<subSubSection box="[174,589,271,298]" pageId="5" pageNumber="26" type="nomenclature">
 <paragraph blockId="5.[174,589,271,298]" box="[174,589,271,298]" pageId="5" pageNumber="26">
 <heading box="[174,589,271,298]" fontSize="36" level="2" pageId="5" pageNumber="26" reason="3">
 <taxonomicName authority="Meigen, 1830" authorityName="Meigen" authorityYear="1830" box="[174,589,271,298]" class="Insecta" family="Sciomyzidae" genus="Tetanocera" kingdom="Animalia" order="Diptera" pageId="5" pageNumber="26" phylum="Arthropoda" rank="species" species="arrogans">
@@ -61,7 +62,9 @@ Meigen, 1830
 </taxonomicName>
 </heading>
 </paragraph>
-<paragraph blockId="5.[174,1232,328,377]" box="[227,1232,328,350]" pageId="5" pageNumber="26">
+</subSubSection>
+<subSubSection pageId="5" pageNumber="26" type="materials_examined">
+<paragraph blockId="5.[174,1232,328,377]" pageId="5" pageNumber="26">
 <materialsCitation box="[227,1232,328,350]" country="Iran" latitude="38.433334" location="Ahar" longLatPrecision="1175" longitude="46.883335" pageId="5" pageNumber="26" specimenCount="1" stateProvince="Azarbayjan-e Sharqi">
 M a t e r i a l e x a m i n e d: 
 <collectingCountry box="[471,514,328,350]" name="Iran" pageId="5" pageNumber="26">Iran</collectingCountry>
@@ -75,17 +78,15 @@ M a t e r i a l e x a m i n e d:
 <geoCoordinate box="[1141,1228,328,350]" degrees="46" direction="east" minutes="53" orientation="longitude" pageId="5" pageNumber="26" precision="925" value="46.883335">46°53´E</geoCoordinate>
 ,
 </materialsCitation>
-</paragraph>
-</subSubSection>
-<subSubSection pageId="5" pageNumber="26" type="description">
-<paragraph blockId="5.[174,1232,328,377]" box="[174,644,354,377]" pageId="5" pageNumber="26">
 <quantity box="[174,248,355,377]" metricMagnitude="3" metricUnit="m" metricValue="1.53" pageId="5" pageNumber="26" unit="m" value="1530.0">1530 m</quantity>
 ], 
 <date box="[264,369,355,377]" pageId="5" pageNumber="26" value="2011-10-06">10.06.2011</date>
-, 1 Ơ, 
+, 1 ♂, 
 <specimenCount box="[421,453,354,377]" pageId="5" pageNumber="26" type="female">2 ♀</specimenCount>
 (Khaghaninia leg.).
 </paragraph>
+</subSubSection>
+<subSubSection pageId="5" pageNumber="26" type="distribution">
 <paragraph blockId="5.[174,1233,415,890]" pageId="5" pageNumber="26">
 D i s t r i b u t i o n. North Europe: Denmark, Sweden, Finland, Norway. South Europe: Ireland, Spain, Greece. Asia: Turkey. 
 <emphasis bold="true" box="[610,882,447,473]" pageId="5" pageNumber="26">
@@ -94,6 +95,8 @@ First record from
 </emphasis>
 .
 </paragraph>
+</subSubSection>
+<subSubSection pageId="5" pageNumber="26" type="biology_ecology">
 <paragraph blockId="5.[174,1233,415,890]" pageId="5" pageNumber="26">
 Biology. 
 <bibRefCitation author="Rozkosny, R." box="[359,567,479,506]" pageId="5" pageNumber="26" pagination="117 - 160" refId="ref6777" refString="Rozkosny, R. 1967. Zur Morphologie und Biologie der Metamorphosestadien mitteleuropaischer Sciomyziden (Diptera). Acta Academiae Scientiarum, Brno, 1 (4), 117 - 160." type="journal article" year="1967">Rozkošný (1967)</bibRefCitation>
@@ -129,6 +132,8 @@ spp.(Icheuneumonidae) (
 <bibRefCitation author="Vala, J. - C." box="[475,605,735,762]" pageId="5" pageNumber="26" pagination="1 - 300" refId="ref7413" refString="Vala, J. - C. 1989. Dipteres Sciomyzidae Euro-mediterraneens. Faune de France. France et Regions limitrophes. N ° 72. Federation Francaise de la Societe des Sciences Naturelles, Paris. 1 - 300." type="book chapter" year="1989">Vala, 1989</bibRefCitation>
 ).
 </paragraph>
+</subSubSection>
+<subSubSection pageId="5" pageNumber="26" type="diagnosis">
 <paragraph blockId="5.[174,1233,415,890]" pageId="5" pageNumber="26">
 D i a g n o s t i c c h a r a c t e r s: whitish pruinose patches forming occipital spots fused in basal half (fig. 2, 
 <emphasis box="[383,394,800,825]" italics="true" pageId="5" pageNumber="26">c</emphasis>

@@ -1,4 +1,4 @@
-<document ID-DOI="10.2478/vzoo-2018-0003" ID-ISSN="2073-2333" ID-Zenodo-Dep="6404172" approvalRequired="21" approvalRequired_for_textStreams="21" checkinTime="1648784511059" checkinUser="felipe" docAuthor="Khaghaninia, S., Kazerani, F. &amp; Vala, Jean-Claude" docDate="2018" docId="AE6F87D2FE44FF8EFF77FA7A5E58FF5D" docLanguage="en" docName="VestnikZoologii.52.1.21-30.pdf" docOrigin="Vestnik Zoologii 52 (1)" docSource="http://dx.doi.org/10.2478/vzoo-2018-0003" docStyle="DocumentStyle:9FE6554C034D0A4D8EA9CEAE255F4368:VestnikZoologii.2014-2019.journal_article" docStyleId="9FE6554C034D0A4D8EA9CEAE255F4368" docStyleName="VestnikZoologii.2014-2019.journal_article" docTitle="Sepedon spinipes" docType="treatment" docVersion="2" lastPageId="5" lastPageNumber="25" masterDocId="5256FFAAFE40FF8BFFD1FFCE5C46FFB7" masterDocTitle="New Data About Snail-Killing Flies (Diptera, Sciomyzidae) In Iran" masterLastPageNumber="30" masterPageNumber="21" pageId="4" pageNumber="25" updateTime="1648786000079" updateUser="ExternalLinkService" zenodo-license-document="CC-BY-4.0">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6425706" ID-GBIF-Dataset="10df1939-771d-4471-a63b-7863f2591a34" ID-ISSN="2073-2333" ID-Zenodo-Dep="6425706" checkinTime="1648784511059" checkinUser="felipe" docAuthor="Khaghaninia, S., Kazerani, F. &amp; Vala, Jean-Claude" docDate="2018" docId="AE6F87D2FE44FF8EFF77FA7A5E58FF5D" docLanguage="en" docName="VestnikZoologii.52.1.21-30.pdf" docOrigin="Vestnik Zoologii 52 (1)" docSource="http://dx.doi.org/10.2478/vzoo-2018-0003" docStyle="DocumentStyle:9FE6554C034D0A4D8EA9CEAE255F4368.1:VestnikZoologii.2014-2019.journal_article" docStyleId="9FE6554C034D0A4D8EA9CEAE255F4368" docStyleName="VestnikZoologii.2014-2019.journal_article" docStyleVersion="1" docTitle="Sepedon spinipes" docType="treatment" docVersion="4" lastPageId="5" lastPageNumber="25" masterDocId="5256FFAAFE40FF8BFFD1FFCE5C46FFB7" masterDocTitle="New Data About Snail-Killing Flies (Diptera, Sciomyzidae) In Iran" masterLastPageNumber="30" masterPageNumber="21" pageId="4" pageNumber="25" updateTime="1649435796889" updateUser="ExternalLinkService" zenodo-license-document="CC-BY-4.0">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>New Data About Snail-Killing Flies (Diptera, Sciomyzidae) In Iran</mods:title>
@@ -48,11 +48,12 @@
 </mods:location>
 <mods:classification>journal article</mods:classification>
 <mods:identifier type="DOI">10.2478/vzoo-2018-0003</mods:identifier>
+<mods:identifier type="GBIF-Dataset">10df1939-771d-4471-a63b-7863f2591a34</mods:identifier>
 <mods:identifier type="ISSN">2073-2333</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6404172</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:AE6F87D2FE44FF8EFF77FA7A5E58FF5D" httpUri="http://treatment.plazi.org/id/AE6F87D2FE44FF8EFF77FA7A5E58FF5D" lastPageId="5" lastPageNumber="25" pageId="4" pageNumber="25">
-<subSubSection pageId="4" pageNumber="25" type="nomenclature">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6425706" ID-Zenodo-Dep="6425706" LSID="urn:lsid:plazi:treatment:AE6F87D2FE44FF8EFF77FA7A5E58FF5D" httpUri="http://treatment.plazi.org/id/AE6F87D2FE44FF8EFF77FA7A5E58FF5D" lastPageId="5" lastPageNumber="25" pageId="4" pageNumber="25">
+<subSubSection box="[166,553,1460,1487]" pageId="4" pageNumber="25" type="nomenclature">
 <paragraph blockId="4.[166,553,1460,1487]" box="[166,553,1460,1487]" pageId="4" pageNumber="25">
 <heading box="[166,553,1460,1487]" fontSize="36" level="2" pageId="4" pageNumber="25" reason="3">
 <taxonomicName authority="(Scopoli, 1763)" baseAuthorityName="Scopoli" baseAuthorityYear="1763" box="[166,553,1460,1487]" class="Insecta" family="Sciomyzidae" genus="Sepedon" kingdom="Animalia" order="Diptera" pageId="4" pageNumber="25" phylum="Arthropoda" rank="species" species="spinipes">
@@ -61,7 +62,9 @@
 </taxonomicName>
 </heading>
 </paragraph>
-<paragraph blockId="4.[166,1225,1507,1556]" box="[219,1225,1507,1529]" pageId="4" pageNumber="25">
+</subSubSection>
+<subSubSection pageId="4" pageNumber="25" type="materials_examined">
+<paragraph blockId="4.[166,1225,1507,1556]" pageId="4" pageNumber="25">
 <materialsCitation box="[219,1225,1507,1529]" country="Iran" latitude="38.85" location="Qaradagh" longLatPrecision="1172" longitude="46.866665" pageId="4" pageNumber="25" specimenCount="1" stateProvince="Azarbayjan-e Sharqi">
 M a t e r i a l e x a m i n e d: 
 <collectingCountry box="[462,505,1507,1529]" name="Iran" pageId="4" pageNumber="25">Iran</collectingCountry>
@@ -75,15 +78,13 @@ M a t e r i a l e x a m i n e d:
 <geoCoordinate box="[1135,1220,1507,1529]" degrees="46" direction="east" minutes="52" orientation="longitude" pageId="4" pageNumber="25" precision="925" value="46.866665">46°52´E</geoCoordinate>
 ,
 </materialsCitation>
-</paragraph>
-</subSubSection>
-<subSubSection lastPageId="5" lastPageNumber="26" pageId="4" pageNumber="25" type="description">
-<paragraph blockId="4.[166,1225,1507,1556]" box="[166,593,1533,1556]" pageId="4" pageNumber="25">
 <quantity box="[166,241,1533,1555]" metricMagnitude="3" metricUnit="m" metricValue="1.77" pageId="4" pageNumber="25" unit="m" value="1770.0">1770 m</quantity>
 ], 
 <date box="[257,362,1533,1555]" pageId="4" pageNumber="25" value="2010-06-14">14.06.2010</date>
-, 2 Ơ (Khaghaninia leg.).
+, 2 ♂ (Khaghaninia leg.).
 </paragraph>
+</subSubSection>
+<subSubSection pageId="4" pageNumber="25" type="distribution">
 <paragraph blockId="4.[166,1225,1594,1844]" pageId="4" pageNumber="25">
 Distribution. Widely distributed in the Palaearctic Region, North Africa, Mediterranean islands, 
 <collectingCountry box="[448,535,1626,1652]" name="Turkey" pageId="4" pageNumber="25">Turkey</collectingCountry>
@@ -95,6 +96,8 @@ Distribution. Widely distributed in the Palaearctic Region, North Africa, Medite
 <bibRefCitation author="Knutson, L. V. &amp; Shagudian, E. R. &amp; Sahba, G. H." box="[831,1088,1626,1653]" pageId="4" pageNumber="25" pagination="145 - 155" refId="ref6445" refString="Knutson, L. V., Shagudian, E. R., Sahba, G. H. 1973. Notes on the biology of certain snail-killing flies (Sciomyzidae) from Khuzestan (Iran). Iranian Journal of Public Health, 2 (3), 145 - 155." type="journal article" year="1973">Knutson et al. (1973)</bibRefCitation>
 ; Motamedi et al. (2006).
 </paragraph>
+</subSubSection>
+<subSubSection lastPageId="5" lastPageNumber="26" pageId="4" pageNumber="25" type="biology_ecology">
 <paragraph blockId="4.[166,1225,1594,1844]" lastBlockId="5.[174,1232,175,234]" lastPageId="5" lastPageNumber="26" pageId="4" pageNumber="25">
 Biology. From laboratory rearing, 
 <bibRefCitation author="Neff, S. E. &amp; Berg, C. O." box="[661,875,1690,1717]" pageId="4" pageNumber="25" pagination="1 - 113" refId="ref6735" refString="Neff, S. E., Berg, C. O. 1966. Biology and immature stages of malacophagous Diptera of the genus Sepedon (Sciomyzidae). Virginia Agricultural Experimental Station Bulletin, 566, 1 - 113." type="journal article" year="1966">Neff, Berg (1966)</bibRefCitation>
