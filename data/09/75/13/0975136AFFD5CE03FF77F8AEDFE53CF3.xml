@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.5655595" ID-GBIF-Dataset="f7793976-e4e9-4562-a9cd-eda910d77fa0" ID-GBIF-Taxon="190123749" ID-ISSN="2703-3090" ID-Zenodo-Dep="5655595" approvalRequired="6" approvalRequired_for_taxonomicNames="4" approvalRequired_for_treatments="2" checkinTime="1614072591502" checkinUser="plazi" docAuthor="Miglio, Laura Tavares, Pérez-Miles, Fernando &amp; Bonaldo, Alexandre B." docDate="2020" docId="0975136AFFD5CE03FF77F8AEDFE53CF3" docLanguage="en" docName="megataxa.2.1.1.pdf.imf" docOrigin="Megataxa 2 (1)" docStyle="DocumentStyle:50B6B96D96A55C21793B52C23E95B310.2:Megataxa.2020-.journal_article" docStyleId="50B6B96D96A55C21793B52C23E95B310" docStyleName="Megataxa.2020-.journal_article" docStyleVersion="2" docTitle="Actinopus itapitocai, sp. nov." docType="treatment" docVersion="6" lastPageId="94" lastPageNumber="95" masterDocId="F54C6B12FF8DCE5DFFFFFFD1DB533C2E" masterDocTitle="Taxonomic Revision of the Spider Genus Actinopus Perty, 1833 (Araneae, Mygalomorphae, Actinopodidae)" masterLastPageNumber="2" masterPageNumber="1" pageId="88" pageNumber="89" updateTime="1636411901672" updateUser="ExternalLinkService" zenodo-license-document="CC-BY-NC-4.0">
+<document ID-DOI="http://doi.org/10.5281/zenodo.5655595" ID-GBIF-Dataset="f7793976-e4e9-4562-a9cd-eda910d77fa0" ID-GBIF-Taxon="190123749" ID-ISSN="2703-3090" ID-Zenodo-Dep="5655595" approvalRequired="13" approvalRequired_for_matCits="8" approvalRequired_for_taxonomicNames="2" approvalRequired_for_treatments="3" checkinTime="1614072591502" checkinUser="plazi" docAuthor="Miglio, Laura Tavares, Pérez-Miles, Fernando &amp; Bonaldo, Alexandre B." docDate="2020" docId="0975136AFFD5CE03FF77F8AEDFE53CF3" docLanguage="en" docName="megataxa.2.1.1.pdf.imf" docOrigin="Megataxa 2 (1)" docStyle="DocumentStyle:50B6B96D96A55C21793B52C23E95B310.3:Megataxa.2020-.journal_article" docStyleId="50B6B96D96A55C21793B52C23E95B310" docStyleName="Megataxa.2020-.journal_article" docStyleVersion="3" docTitle="Actinopus itapitocai, sp. nov." docType="treatment" docVersion="7" lastPageId="94" lastPageNumber="95" masterDocId="F54C6B12FF8DCE5DFFFFFFD1DB533C2E" masterDocTitle="Taxonomic Revision of the Spider Genus Actinopus Perty, 1833 (Araneae, Mygalomorphae, Actinopodidae)" masterLastPageNumber="256" masterPageNumber="1" pageId="88" pageNumber="89" updateTime="1649386351364" updateUser="admin" zenodo-license-document="CC-BY-NC-4.0">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Taxonomic Revision of the Spider Genus Actinopus Perty, 1833 (Araneae, Mygalomorphae, Actinopodidae)</mods:title>
@@ -26,7 +26,7 @@
 <mods:roleTerm>Author</mods:roleTerm>
 </mods:role>
 <mods:namePart>Bonaldo, Alexandre B.</mods:namePart>
-<mods:nameIdentifier type="ORCID">0000-0002-8216-5110</mods:nameIdentifier>
+<mods:nameIdentifier type="ORCID">0000-0002-9101-8657</mods:nameIdentifier>
 <mods:affiliation>Museu Paraense Emílio Goeldi, Coordenação de Zoologia, Laboratório de Aracnologia, Av. Perimetral, 1901, Terra Firme, Cep: 66077 - 830, Belém, Pará, Brazil. https: // orcid. org / 0000 - 0002 - 9101 - 8657,</mods:affiliation>
 <mods:nameIdentifier type="email">bonaldo@museu-goeldi.br</mods:nameIdentifier>
 </mods:name>
@@ -48,7 +48,7 @@
 </mods:detail>
 <mods:extent unit="page">
 <mods:start>1</mods:start>
-<mods:end>2</mods:end>
+<mods:end>256</mods:end>
 </mods:extent>
 </mods:part>
 </mods:relatedItem>
@@ -183,7 +183,7 @@ removed for
 , [
 <geoCoordinate box="[973,1086,1836,1862]" degrees="23" direction="south" minutes="21" orientation="latitude" pageId="88" pageNumber="89" precision="925" value="-23.35">23° 21’ S</geoCoordinate>
 <geoCoordinate box="[1096,1222,1835,1863]" degrees="47" direction="west" minutes="51" orientation="longitude" pageId="88" pageNumber="89" precision="925" value="-47.85">47° 51’ W</geoCoordinate>
-], 1♁, 
+], 1♂, 
 <date box="[1297,1384,1836,1862]" pageId="88" pageNumber="89" value="1982-09">
 <collectingDate box="[1297,1384,1836,1862]" pageId="88" pageNumber="89" value="1982-09">ix.1982</collectingDate>
 </date>
@@ -302,7 +302,7 @@ leg. (
 , [
 <geoCoordinate box="[627,733,1919,1945]" degrees="29" direction="south" minutes="47" orientation="latitude" pageId="89" pageNumber="90" precision="925" value="-29.783333">29° 47’ S</geoCoordinate>
 <geoCoordinate degrees="57" direction="west" minutes="03" orientation="longitude" pageId="89" pageNumber="90" precision="925" value="-57.05">57° 03’ W</geoCoordinate>
-], 1♁ 
+], 1♂ 
 <specimenCount box="[270,306,1956,1982]" pageId="89" pageNumber="90" type="female">2♀</specimenCount>
 </materialsCitation>
 , 
@@ -599,7 +599,7 @@ Paraembolic apophysis;
 Riacho 
 <collectorName box="[1269,1361,158,184]" pageId="94" pageNumber="95">da Cruz</collectorName>
 </collectingMunicipality>
-, 1♁ 
+, 1♂ 
 <specimenCount box="[1416,1451,158,184]" pageId="94" pageNumber="95" type="female">1♀</specimenCount>
 1J, 
 <collectorName box="[849,976,194,221]" pageId="94" pageNumber="95">José Blaser</collectorName>

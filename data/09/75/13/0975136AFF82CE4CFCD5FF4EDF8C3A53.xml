@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.5655547" ID-GBIF-Dataset="f7793976-e4e9-4562-a9cd-eda910d77fa0" ID-GBIF-Taxon="190123799" ID-ISSN="2703-3090" ID-Zenodo-Dep="5655547" approvalRequired="6" approvalRequired_for_taxonomicNames="4" approvalRequired_for_treatments="2" checkinTime="1614072591502" checkinUser="plazi" docAuthor="Miglio, Laura Tavares, Pérez-Miles, Fernando &amp; Bonaldo, Alexandre B." docDate="2020" docId="0975136AFF82CE4CFCD5FF4EDF8C3A53" docLanguage="en" docName="megataxa.2.1.1.pdf.imf" docOrigin="Megataxa 2 (1)" docStyle="DocumentStyle:50B6B96D96A55C21793B52C23E95B310.2:Megataxa.2020-.journal_article" docStyleId="50B6B96D96A55C21793B52C23E95B310" docStyleName="Megataxa.2020-.journal_article" docStyleVersion="2" docTitle="Actinopus castelo, sp. nov." docType="treatment" docVersion="6" lastPageId="17" lastPageNumber="18" masterDocId="F54C6B12FF8DCE5DFFFFFFD1DB533C2E" masterDocTitle="Taxonomic Revision of the Spider Genus Actinopus Perty, 1833 (Araneae, Mygalomorphae, Actinopodidae)" masterLastPageNumber="2" masterPageNumber="1" pageId="15" pageNumber="16" updateTime="1636411901672" updateUser="ExternalLinkService" zenodo-license-document="CC-BY-NC-4.0">
+<document ID-DOI="http://doi.org/10.5281/zenodo.5655547" ID-GBIF-Dataset="f7793976-e4e9-4562-a9cd-eda910d77fa0" ID-GBIF-Taxon="190123799" ID-ISSN="2703-3090" ID-Zenodo-Dep="5655547" approvalRequired="13" approvalRequired_for_matCits="8" approvalRequired_for_taxonomicNames="2" approvalRequired_for_treatments="3" checkinTime="1614072591502" checkinUser="plazi" docAuthor="Miglio, Laura Tavares, Pérez-Miles, Fernando &amp; Bonaldo, Alexandre B." docDate="2020" docId="0975136AFF82CE4CFCD5FF4EDF8C3A53" docLanguage="en" docName="megataxa.2.1.1.pdf.imf" docOrigin="Megataxa 2 (1)" docStyle="DocumentStyle:50B6B96D96A55C21793B52C23E95B310.3:Megataxa.2020-.journal_article" docStyleId="50B6B96D96A55C21793B52C23E95B310" docStyleName="Megataxa.2020-.journal_article" docStyleVersion="3" docTitle="Actinopus castelo, sp. nov." docType="treatment" docVersion="7" lastPageId="17" lastPageNumber="18" masterDocId="F54C6B12FF8DCE5DFFFFFFD1DB533C2E" masterDocTitle="Taxonomic Revision of the Spider Genus Actinopus Perty, 1833 (Araneae, Mygalomorphae, Actinopodidae)" masterLastPageNumber="256" masterPageNumber="1" pageId="15" pageNumber="16" updateTime="1649386351364" updateUser="admin" zenodo-license-document="CC-BY-NC-4.0">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Taxonomic Revision of the Spider Genus Actinopus Perty, 1833 (Araneae, Mygalomorphae, Actinopodidae)</mods:title>
@@ -26,7 +26,7 @@
 <mods:roleTerm>Author</mods:roleTerm>
 </mods:role>
 <mods:namePart>Bonaldo, Alexandre B.</mods:namePart>
-<mods:nameIdentifier type="ORCID">0000-0002-8216-5110</mods:nameIdentifier>
+<mods:nameIdentifier type="ORCID">0000-0002-9101-8657</mods:nameIdentifier>
 <mods:affiliation>Museu Paraense Emílio Goeldi, Coordenação de Zoologia, Laboratório de Aracnologia, Av. Perimetral, 1901, Terra Firme, Cep: 66077 - 830, Belém, Pará, Brazil. https: // orcid. org / 0000 - 0002 - 9101 - 8657,</mods:affiliation>
 <mods:nameIdentifier type="email">bonaldo@museu-goeldi.br</mods:nameIdentifier>
 </mods:name>
@@ -48,7 +48,7 @@
 </mods:detail>
 <mods:extent unit="page">
 <mods:start>1</mods:start>
-<mods:end>2</mods:end>
+<mods:end>256</mods:end>
 </mods:extent>
 </mods:part>
 </mods:relatedItem>
@@ -133,7 +133,7 @@ do
 , 
 <geoCoordinate degrees="05" direction="south" minutes="13" orientation="latitude" pageId="15" pageNumber="16" precision="1" seconds="48.8" value="-5.230222">05º 13’ 48.8” S</geoCoordinate>
 <geoCoordinate box="[834,1020,504,531]" degrees="41" direction="west" minutes="41" orientation="longitude" pageId="15" pageNumber="16" precision="1" seconds="59.0" value="-41.699722">41º 41’ 59.0” W</geoCoordinate>
-, 10♁, 
+, 10♂, 
 <date box="[1097,1213,504,530]" pageId="15" pageNumber="16" value="2006-02-12">
 <collectingDate box="[1097,1213,504,530]" pageId="15" pageNumber="16" value="2006-02-12">12.ii.2006</collectingDate>
 </date>
@@ -143,7 +143,7 @@ leg. (
 <specimenCode box="[143,291,1307,1333]" collectionCode="MPEG" country="Brazil" httpUri="http://grbio.org/cool/90vz-swjg" name="Museu Paraense Emilio Goeldi" pageId="16" pageNumber="17">MPEG 2400</specimenCode>
 , 
 <specimenCode box="[303,317,1309,1336]" collectionCode="MPEG" country="Brazil" httpUri="http://grbio.org/cool/90vz-swjg" name="Museu Paraense Emilio Goeldi" pageId="16" pageNumber="17">1</specimenCode>
-♁ removed for 
+♂ removed for 
 <collectionCode box="[494,556,1307,1333]" pageId="16" pageNumber="17">SEM</collectionCode>
 );
 </materialsCitation>
@@ -152,7 +152,7 @@ leg. (
 , 
 <geoCoordinate box="[136,319,1343,1370]" degrees="05" direction="south" minutes="14" orientation="latitude" pageId="16" pageNumber="17" precision="1" seconds="07.1" value="-5.2353053">05º 14’ 07.1” S</geoCoordinate>
 <geoCoordinate box="[330,523,1343,1370]" degrees="41" direction="west" minutes="41" orientation="longitude" pageId="16" pageNumber="17" precision="1" seconds="16.3" value="-41.687862">41º 41’ 16.3” W</geoCoordinate>
-, 9♁, 
+, 9♂, 
 <date box="[592,707,1343,1369]" pageId="16" pageNumber="17" value="2006-02-10">
 <collectingDate box="[592,707,1343,1369]" pageId="16" pageNumber="17" value="2006-02-10">10.ii.2006</collectingDate>
 </date>
@@ -176,7 +176,7 @@ PPBio
 , 
 <geoCoordinate degrees="09" direction="south" minutes="13" orientation="latitude" pageId="16" pageNumber="17" precision="15" seconds="16" value="-9.22111">09° 13’ 16” S</geoCoordinate>
 <geoCoordinate box="[206,368,1452,1478]" degrees="43" direction="west" minutes="29" orientation="longitude" pageId="16" pageNumber="17" precision="15" seconds="21" value="-43.489166">43° 29’ 21” W</geoCoordinate>
-, 1♁, 
+, 1♂, 
 <date box="[427,506,1452,1478]" pageId="16" pageNumber="17" value="2006-10">
 <collectingDate box="[427,506,1452,1478]" pageId="16" pageNumber="17" value="2006-10">x.2006</collectingDate>
 </date>
@@ -203,7 +203,7 @@ leg. (
 , 
 <geoCoordinate box="[347,525,1524,1551]" degrees="09" direction="south" minutes="39" orientation="latitude" pageId="16" pageNumber="17" precision="1" seconds="58.1" value="-9.666139">09° 39’ 58.1” S</geoCoordinate>
 <geoCoordinate box="[534,723,1524,1551]" degrees="38" direction="west" minutes="28" orientation="longitude" pageId="16" pageNumber="17" precision="1" seconds="15.1" value="-38.470863">38° 28’ 15.1” W</geoCoordinate>
-, 4♁, 
+, 4♂, 
 <date box="[136,291,1560,1586]" pageId="16" pageNumber="17" value="2012-05-22" valueMax="2012-05-23" valueMin="2012-05-22">
 <collectingDate box="[136,291,1560,1586]" pageId="16" pageNumber="17" value="2012-05-22" valueMax="2012-05-23" valueMin="2012-05-22">22–23.v.2012</collectingDate>
 </date>
@@ -216,7 +216,7 @@ leg. (
 );
 </materialsCitation>
 <materialsCitation ID-GBIF-Occurrence="3399910715" collectingDate="2012-05-22" collectingDateMax="2012-05-23" collectingDateMin="2012-05-22" collectionCode="V" collectorName="I. L. F. Magalh &amp; J. L. Chavari" country="Brazil" latitude="-9.666139" location="Estac" longLatPrecision="1" longitude="-38.470863" municipality="Paulo Afonso" pageId="16" pageNumber="17" specimenCode="UFMG 11681" specimenCount="1" stateProvince="Bahia" typeStatus="paratype">
-5♁, 
+5♂, 
 <date box="[375,472,1597,1623]" pageId="16" pageNumber="17" value="2012-05-22" valueMax="2012-05-23" valueMin="2012-05-22">
 22–23. 
 <collectionCode box="[451,472,1597,1623]" country="Canada" lsid="urn:lsid:biocol.org:col:13946" name="Royal British Columbia Museum - Herbarium" pageId="16" pageNumber="17" type="Museum">V</collectionCode>

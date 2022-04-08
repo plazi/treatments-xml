@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.5655589" ID-GBIF-Dataset="f7793976-e4e9-4562-a9cd-eda910d77fa0" ID-GBIF-Taxon="190123747" ID-ISSN="2703-3090" ID-Zenodo-Dep="5655589" approvalRequired="6" approvalRequired_for_taxonomicNames="4" approvalRequired_for_treatments="2" checkinTime="1614072591502" checkinUser="plazi" docAuthor="Miglio, Laura Tavares, Pérez-Miles, Fernando &amp; Bonaldo, Alexandre B." docDate="2020" docId="0975136AFFDECE08FF77F875DFFB3B22" docLanguage="en" docName="megataxa.2.1.1.pdf.imf" docOrigin="Megataxa 2 (1)" docStyle="DocumentStyle:50B6B96D96A55C21793B52C23E95B310.2:Megataxa.2020-.journal_article" docStyleId="50B6B96D96A55C21793B52C23E95B310" docStyleName="Megataxa.2020-.journal_article" docStyleVersion="2" docTitle="Actinopus vilhena, sp. nov." docType="treatment" docVersion="6" lastPageId="85" lastPageNumber="86" masterDocId="F54C6B12FF8DCE5DFFFFFFD1DB533C2E" masterDocTitle="Taxonomic Revision of the Spider Genus Actinopus Perty, 1833 (Araneae, Mygalomorphae, Actinopodidae)" masterLastPageNumber="2" masterPageNumber="1" pageId="83" pageNumber="84" updateTime="1636411901672" updateUser="ExternalLinkService" zenodo-license-document="CC-BY-NC-4.0">
+<document ID-DOI="http://doi.org/10.5281/zenodo.5655589" ID-GBIF-Dataset="f7793976-e4e9-4562-a9cd-eda910d77fa0" ID-GBIF-Taxon="190123747" ID-ISSN="2703-3090" ID-Zenodo-Dep="5655589" approvalRequired="13" approvalRequired_for_matCits="8" approvalRequired_for_taxonomicNames="2" approvalRequired_for_treatments="3" checkinTime="1614072591502" checkinUser="plazi" docAuthor="Miglio, Laura Tavares, Pérez-Miles, Fernando &amp; Bonaldo, Alexandre B." docDate="2020" docId="0975136AFFDECE08FF77F875DFFB3B22" docLanguage="en" docName="megataxa.2.1.1.pdf.imf" docOrigin="Megataxa 2 (1)" docStyle="DocumentStyle:50B6B96D96A55C21793B52C23E95B310.3:Megataxa.2020-.journal_article" docStyleId="50B6B96D96A55C21793B52C23E95B310" docStyleName="Megataxa.2020-.journal_article" docStyleVersion="3" docTitle="Actinopus vilhena, sp. nov." docType="treatment" docVersion="7" lastPageId="85" lastPageNumber="86" masterDocId="F54C6B12FF8DCE5DFFFFFFD1DB533C2E" masterDocTitle="Taxonomic Revision of the Spider Genus Actinopus Perty, 1833 (Araneae, Mygalomorphae, Actinopodidae)" masterLastPageNumber="256" masterPageNumber="1" pageId="83" pageNumber="84" updateTime="1649386351364" updateUser="admin" zenodo-license-document="CC-BY-NC-4.0">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Taxonomic Revision of the Spider Genus Actinopus Perty, 1833 (Araneae, Mygalomorphae, Actinopodidae)</mods:title>
@@ -26,7 +26,7 @@
 <mods:roleTerm>Author</mods:roleTerm>
 </mods:role>
 <mods:namePart>Bonaldo, Alexandre B.</mods:namePart>
-<mods:nameIdentifier type="ORCID">0000-0002-8216-5110</mods:nameIdentifier>
+<mods:nameIdentifier type="ORCID">0000-0002-9101-8657</mods:nameIdentifier>
 <mods:affiliation>Museu Paraense Emílio Goeldi, Coordenação de Zoologia, Laboratório de Aracnologia, Av. Perimetral, 1901, Terra Firme, Cep: 66077 - 830, Belém, Pará, Brazil. https: // orcid. org / 0000 - 0002 - 9101 - 8657,</mods:affiliation>
 <mods:nameIdentifier type="email">bonaldo@museu-goeldi.br</mods:nameIdentifier>
 </mods:name>
@@ -48,7 +48,7 @@
 </mods:detail>
 <mods:extent unit="page">
 <mods:start>1</mods:start>
-<mods:end>2</mods:end>
+<mods:end>256</mods:end>
 </mods:extent>
 </mods:part>
 </mods:relatedItem>
@@ -82,17 +82,18 @@
 <subSubSection pageId="83" pageNumber="84" type="materials_examined">
 <paragraph blockId="83.[136,778,2066,2092]" lastBlockId="83.[810,1452,1810,2093]" pageId="83" pageNumber="84">
 <emphasis bold="true" box="[136,313,2066,2092]" pageId="83" pageNumber="84">Type material.</emphasis>
+<materialsCitation collectingDate="1999-09" collectionCode="IBSP" collectorName="M. Carvalho" latitude="-12.733334" location="Brazil" longLatPrecision="1292" longitude="-60.116665" municipality="Vilhena" pageId="83" pageNumber="84" specimenCode="IBSP 114440" specimenCount="1" specimenCount-male="1" stateProvince="Rondonia" typeStatus="holotype">
 <typeStatus box="[322,426,2066,2092]" pageId="83" pageNumber="84">Holotype</typeStatus>
-male from [
+<specimenCount box="[436,490,2066,2092]" pageId="83" pageNumber="84" type="male">male</specimenCount>
+from [
 <geoCoordinate box="[572,684,2066,2092]" degrees="12" direction="south" minutes="44" orientation="latitude" pageId="83" pageNumber="84" precision="925" value="-12.733334">12° 44’ S</geoCoordinate>
-60° 07’ 
-<materialsCitation ID-GBIF-Occurrence="3399910751" collectingDate="1999-09" collectionCode="IBSP" collectorName="M. Carvalho" location="Brazil" municipality="Vilhena" pageId="83" pageNumber="84" specimenCode="IBSP 114440" specimenCount="1" stateProvince="Rondonia" typeStatus="paratype">
-W], 
+<geoCoordinate box="[693,841,1810,2092]" degrees="60" direction="west" minutes="07" orientation="longitude" pageId="83" pageNumber="84" precision="925" value="-60.116665">60° 07’ W</geoCoordinate>
+], 
 <collectingMunicipality box="[859,949,1811,1837]" pageId="83" pageNumber="84">Vilhena</collectingMunicipality>
 , 
 <collectingRegion box="[959,1071,1811,1837]" country="Brazil" name="Rondonia" pageId="83" pageNumber="84">Rondônia</collectingRegion>
 , 
-<location LSID="urn:lsid:plazi:treatment:0975136AFFDECE08FF77F875DFFB3B22:8403F4A7FFDECE0EFBC5F8C2DFD23B03" box="[1082,1153,1811,1837]" municipality="Vilhena" name="Brazil" pageId="83" pageNumber="84" stateProvince="Rondonia">Brazil</location>
+<location LSID="urn:lsid:plazi:treatment:0975136AFFDECE08FF77F875DFFB3B22:8403F4A7FFDECE0EFBC5F8C2DFD23B03" box="[1082,1153,1811,1837]" latitude="-12.733334" longLatPrecision="1292" longitude="-60.116665" municipality="Vilhena" name="Brazil" pageId="83" pageNumber="84" stateProvince="Rondonia">Brazil</location>
 , 
 <date box="[1164,1251,1811,1837]" pageId="83" pageNumber="84" value="1999-09">
 <collectingDate box="[1164,1251,1811,1837]" pageId="83" pageNumber="84" value="1999-09">ix.1999</collectingDate>
@@ -101,22 +102,23 @@ W],
 <collectorName box="[1262,1404,1811,1838]" pageId="83" pageNumber="84">M. Carvalho</collectorName>
 leg. (
 <specimenCode box="[817,970,1848,1874]" collectionCode="IBSP" country="Brazil" httpUri="http://grbio.org/cool/23qr-v2gj" name="Instituto Biologico de Sao Paulo" pageId="83" pageNumber="84">IBSP 114440</specimenCode>
-). 
+)
+</materialsCitation>
+. 
+<materialsCitation collectionCode="IBSP" country="Brazil" latitude="-19.0" location="Corumba" longLatPrecision="1273" longitude="-57.65" municipality="Corumba" pageId="83" pageNumber="84" specimenCode="IBSP 110559" specimenCount="1" stateProvince="Mato Grosso do Sul" typeStatus="paratype">
 <typeStatus box="[987,1100,1848,1874]" pageId="83" pageNumber="84">
 <emphasis bold="true" box="[987,1100,1848,1874]" pageId="83" pageNumber="84">Paratype</emphasis>
 </typeStatus>
-</materialsCitation>
 <emphasis bold="true" box="[1100,1105,1848,1874]" pageId="83" pageNumber="84">:</emphasis>
-<materialsCitation ID-GBIF-Occurrence="3399910804" collectionCode="IBSP" country="Brazil" latitude="-19.0" location="Corumba" longLatPrecision="1273" longitude="-57.65" pageId="83" pageNumber="84" specimenCode="IBSP 110559" specimenCount="1" stateProvince="Mato Grosso do Sul" typeStatus="paratype">
 <collectingCountry box="[1110,1215,1848,1874]" name="Brazil" pageId="83" pageNumber="84">BRAZIL</collectingCountry>
 . 
 <collectingRegion box="[1224,1447,1847,1874]" country="Brazil" name="Mato Grosso do Sul" pageId="83" pageNumber="84">Mato Grosso do Sul</collectingRegion>
 : 
-<location LSID="urn:lsid:plazi:treatment:0975136AFFDECE08FF77F875DFFB3B22:8403F4A7FFDECE0EFCD5F88DD8C63B58" box="[810,917,1884,1910]" country="Brazil" latitude="-19.0" longLatPrecision="1273" longitude="-57.65" name="Corumba" pageId="83" pageNumber="84" stateProvince="Mato Grosso do Sul">Corumbá</location>
+<collectingMunicipality box="[810,917,1884,1910]" country="Brazil" latitude="-19.0" longLatPrecision="1273" longitude="-57.65" name="Corumba" pageId="83" pageNumber="84" stateProvince="Mato Grosso do Sul">Corumbá</collectingMunicipality>
 , [
 <geoCoordinate box="[936,1042,1884,1910]" degrees="19" direction="south" minutes="00" orientation="latitude" pageId="83" pageNumber="84" precision="925" value="-19.0">19° 00’ S</geoCoordinate>
 <geoCoordinate box="[1048,1167,1883,1911]" degrees="57" direction="west" minutes="39" orientation="longitude" pageId="83" pageNumber="84" precision="925" value="-57.65">57° 39’ W</geoCoordinate>
-], 1♁ (
+], 1♂ (
 <specimenCode box="[1236,1390,1884,1911]" collectionCode="IBSP" country="Brazil" httpUri="http://grbio.org/cool/23qr-v2gj" name="Instituto Biologico de Sao Paulo" pageId="83" pageNumber="84">IBSP 110559</specimenCode>
 )
 </materialsCitation>
