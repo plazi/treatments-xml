@@ -1,4 +1,4 @@
-<document ID-DOI="10.5252/a2012n2a7" ID-ISSN="1639-4798" ID-Zenodo-Dep="5371143" approvalRequired="111" approvalRequired_for_taxonomicNames="7" approvalRequired_for_textStreams="80" approvalRequired_for_treatments="24" checkinTime="1630270159945" checkinUser="marcus" docAuthor="Schmid, Maurice" docDate="2012" docId="EB41A8571F40FFBDFD41FD72FEC13256" docLanguage="fr" docName="Adansonia.34.2.279-341.pdf" docOrigin="Adansonia (3) 34 (2)" docSource="http://dx.doi.org/10.5252/a2012n2a7" docStyle="DocumentStyle:B98EC8A323C0F63E1C55336AD58D9273.1:Adansonia.2011-2014.journal_article" docStyleId="B98EC8A323C0F63E1C55336AD58D9273" docStyleName="Adansonia.2011-2014.journal_article" docStyleVersion="1" docTitle="Tapeinosperma canalense Guillaumin" docType="treatment" docVersion="5" lastPageId="13" lastPageNumber="290" masterDocId="1778D02F1F4BFFB0FF9AFFE1FFAA3307" masterDocTitle="Contribution à la connaissance des Primulaceae (ex Myrsinaceae) de Nouvelle-Calédonie. III. Les genres Tapeinosperma Hook. f. et Mangenotiella gen. nov." masterLastPageNumber="341" masterPageNumber="279" pageId="11" pageNumber="290" updateTime="1642695846338" updateUser="jonas" zenodo-license-document="CC-BY-4.0" zenodo-license-figures="CC-BY-4.0">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6452627" ID-ISSN="1639-4798" ID-Zenodo-Dep="6452627" checkinTime="1630270159945" checkinUser="marcus" docAuthor="Schmid, Maurice" docDate="2012" docId="EB41A8571F40FFBDFD41FD72FEC13256" docLanguage="fr" docName="Adansonia.34.2.279-341.pdf" docOrigin="Adansonia (3) 34 (2)" docSource="http://dx.doi.org/10.5252/a2012n2a7" docStyle="DocumentStyle:B98EC8A323C0F63E1C55336AD58D9273.2:Adansonia.2011-2014.journal_article" docStyleId="B98EC8A323C0F63E1C55336AD58D9273" docStyleName="Adansonia.2011-2014.journal_article" docStyleVersion="2" docTitle="Tapeinosperma canalense Guillaumin" docType="treatment" docVersion="8" lastPageId="13" lastPageNumber="290" masterDocId="1778D02F1F4BFFB0FF9AFFE1FFAA3307" masterDocTitle="Contribution à la connaissance des Primulaceae (ex Myrsinaceae) de Nouvelle-Calédonie. III. Les genres Tapeinosperma Hook. f. et Mangenotiella gen. nov." masterLastPageNumber="341" masterPageNumber="279" pageId="11" pageNumber="290" updateTime="1649773667154" updateUser="ExternalLinkService" zenodo-license-document="CC-BY-4.0" zenodo-license-figures="CC-BY-4.0">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Contribution à la connaissance des Primulaceae (ex Myrsinaceae) de Nouvelle-Calédonie. III. Les genres Tapeinosperma Hook. f. et Mangenotiella gen. nov.</mods:title>
@@ -44,7 +44,7 @@
 <mods:identifier type="Zenodo-Dep">5371143</mods:identifier>
 <mods:identifier type="ZooBank">5A91572C-743B-495C-9FC7-F8DC9BF2ACB9</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:EB41A8571F40FFBDFD41FD72FEC13256" httpUri="http://treatment.plazi.org/id/EB41A8571F40FFBDFD41FD72FEC13256" lastPageId="13" lastPageNumber="290" pageId="11" pageNumber="290">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6452627" ID-Zenodo-Dep="6452627" LSID="urn:lsid:plazi:treatment:EB41A8571F40FFBDFD41FD72FEC13256" httpUri="http://treatment.plazi.org/id/EB41A8571F40FFBDFD41FD72FEC13256" lastPageId="13" lastPageNumber="290" pageId="11" pageNumber="290">
 <subSubSection box="[731,1155,659,686]" pageId="11" pageNumber="290" type="nomenclature">
 <paragraph blockId="11.[731,1155,659,686]" box="[731,1155,659,686]" pageId="11" pageNumber="290">
 <heading box="[731,1155,659,686]" centered="true" fontSize="11" level="2" pageId="11" pageNumber="290" reason="3">
@@ -57,15 +57,13 @@ Guillaumin
 </subSubSection>
 <subSubSection pageId="11" pageNumber="290" type="reference_group">
 <paragraph blockId="11.[677,1210,716,1285]" pageId="11" pageNumber="290">
-<treatmentCitationGroup pageId="11" pageNumber="290">
-<treatmentCitation author="Guillaumin" page="398" pageId="11" pageNumber="290" year="1941">
+<bibRefCitation author="GUILLAUMIN A." journalOrPublisher="Bulletin de la Societe botanique de France" pageId="11" pageNumber="290" pagination="395 - 401" part="88" refId="ref42818" refString="GUILLAUMIN A. 1941. - Materiaux pour la flore de la Nouvelle-Caledonie. Bulletin de la Societe botanique de France 88: 395 - 401." title="Materiaux pour la flore de la Nouvelle-Caledonie" type="journal article" year="1941">
 <emphasis box="[699,1114,716,740]" italics="true" pageId="11" pageNumber="290">
 Bulletin de la Société Botanique de 
 <collectingCountry box="[1050,1114,717,740]" name="France" pageId="11" pageNumber="290">France</collectingCountry>
 </emphasis>
 88: 398 (1941).
-</treatmentCitation>
-</treatmentCitationGroup>
+</bibRefCitation>
 </paragraph>
 </subSubSection>
 <subSubSection pageId="11" pageNumber="290" type="materials_examined">
@@ -105,22 +103,26 @@ iso-
 <paragraph blockId="11.[677,1210,716,1285]" pageId="11" pageNumber="290">
 <collectionCode box="[677,939,919,943]" pageId="11" pageNumber="290">AUTRE MATÉRIEL ÉTUDIÉ</collectionCode>
 . — 
-<materialsCitation pageId="11" pageNumber="290">
-<emphasis bold="true" box="[990,1202,919,943]" pageId="11" pageNumber="290">
-<collectingCountry box="[990,1202,919,943]" name="New Caledonia" pageId="11" pageNumber="290">Nouvelle-Calédonie</collectingCountry>
-</emphasis>
+<materialsCitation collectingDate="1969-09-30" collectionCode="G" collectorName="MacKee" country="New Caledonia" elevation="500" location="Kouaoua" municipality="Kouaoua" pageId="11" pageNumber="290" specimenCount="1">
+<collectingCountry box="[990,1202,919,943]" name="New Caledonia" pageId="11" pageNumber="290">
+<emphasis bold="true" box="[990,1202,919,943]" pageId="11" pageNumber="290">Nouvelle-Calédonie</emphasis>
+</collectingCountry>
 . 
 <collectingMunicipality box="[677,775,944,967]" country="New Caledonia" name="Kouaoua" pageId="11" pageNumber="290">Kouaoua</collectingMunicipality>
 , vers 
-<quantity box="[838,912,944,968]" metricMagnitude="2" metricUnit="m" metricValue="5.0" pageId="11" pageNumber="290" unit="m" value="500.0">500 m</quantity>
+<quantity box="[838,912,944,968]" metricMagnitude="2" metricUnit="m" metricValue="5.0" pageId="11" pageNumber="290" unit="m" value="500.0">
+<elevation box="[838,912,944,968]" metricMagnitude="2" metricUnit="m" metricValue="5.0" pageId="11" pageNumber="290" unit="m" value="500.0">500 m</elevation>
+</quantity>
 , fr., 
-<date box="[966,1092,944,968]" pageId="11" pageNumber="290" value="1969-09-30">30.IX.1969</date>
+<date box="[966,1092,944,968]" pageId="11" pageNumber="290" value="1969-09-30">
+<collectingDate box="[966,1092,944,968]" pageId="11" pageNumber="290" value="1969-09-30">30.IX.1969</collectingDate>
+</date>
 , 
 <emphasis box="[1106,1209,944,968]" italics="true" pageId="11" pageNumber="290">Jaffré 278</emphasis>
 [échantillon un peu atypique]
 </materialsCitation>
 ; 
-<materialsCitation pageId="11" pageNumber="290">
+<materialsCitation collectingDate="1970-03-30" collectionCode="MO" collectorName="MacKee" country="New Caledonia" elevation="550" municipality="Kouaoua" pageId="11" pageNumber="290" specimenCount="1">
 vers 
 <quantity box="[1053,1124,970,994]" metricMagnitude="2" metricUnit="m" metricValue="5.5" pageId="11" pageNumber="290" unit="m" value="550.0">
 <elevation box="[1053,1124,970,994]" metricMagnitude="2" metricUnit="m" metricValue="5.5" pageId="11" pageNumber="290" unit="m" value="550.0">550 m</elevation>
@@ -135,7 +137,7 @@ vers
 </date>
 , 
 <emphasis box="[1060,1209,1023,1047]" italics="true" pageId="11" pageNumber="290">
-<location LSID="urn:lsid:plazi:treatment:EB41A8571F40FFBDFD41FD72FEC13256:66374F9A1F40FFBBFBBEFBE1FBDB3710" box="[1060,1137,1024,1047]" country="New Caledonia" name="MacKee" pageId="11" pageNumber="290">MacKee</location>
+<collectorName box="[1060,1137,1024,1047]" pageId="11" pageNumber="290">MacKee</collectorName>
 21731
 </emphasis>
 (
@@ -143,7 +145,7 @@ vers
 )
 </materialsCitation>
 ; 
-<materialsCitation collectingDate="4. VI. 1976" collectionCode="G" collectorName="MacKee" country="New Caledonia" location="Kouaoua" municipality="Kouaoua" pageId="11" pageNumber="290" specimenCount="1">
+<materialsCitation collectingDate="1976-06-04" collectionCode="G, MO, NSW" collectorName="MacKee" country="New Caledonia" location="Kouaoua" municipality="Kouaoua" pageId="11" pageNumber="290" specimenCount="1">
 arbuste (
 <quantity box="[863,906,1050,1074]" metricMagnitude="0" metricUnit="m" metricValue="1.0" pageId="11" pageNumber="290" unit="m" value="1.0">1 m</quantity>
 ) multicaule, en fl. blanches, fr. rouges puis bruns, 
@@ -165,19 +167,17 @@ VI.1976
 )
 </materialsCitation>
 ; 
-<materialsCitation pageId="11" pageNumber="290">
-<collectingMunicipality box="[870,925,1103,1127]" pageId="11" pageNumber="290">Dahi</collectingMunicipality>
+<materialsCitation collectingDate="1977-03-30" collectionCode="CANB, Z" collectorName="MacKee" country="New Caledonia" location="Dahi" municipality="Kouaoua" pageId="11" pageNumber="290" specimenCount="1">
+<location LSID="urn:lsid:plazi:treatment:EB41A8571F40FFBDFD41FD72FEC13256:66374F9A1F40FFBBFCFCFBAEFC373760" box="[870,925,1103,1127]" country="New Caledonia" municipality="Kouaoua" name="Dahi" pageId="11" pageNumber="290">Dahi</location>
 , arbuste (
-<quantity box="[1030,1076,1103,1127]" metricMagnitude="0" metricUnit="m" metricValue="2.0" pageId="11" pageNumber="290" unit="m" value="2.0">
-<elevation box="[1030,1076,1103,1127]" metricMagnitude="0" metricUnit="m" metricValue="2.0" pageId="11" pageNumber="290" unit="m" value="2.0">2 m</elevation>
-</quantity>
+<quantity box="[1030,1076,1103,1127]" metricMagnitude="0" metricUnit="m" metricValue="2.0" pageId="11" pageNumber="290" unit="m" value="2.0">2 m</quantity>
 ) multicaule, en maquis, fl. blanches, fr. rougeâtres, 
 <date box="[1082,1205,1129,1153]" pageId="11" pageNumber="290" value="1977-03-30">
 <collectingDate box="[1082,1205,1129,1153]" pageId="11" pageNumber="290" value="1977-03-30">30.III.1977</collectingDate>
 </date>
 , 
 <emphasis box="[679,835,1156,1180]" italics="true" pageId="11" pageNumber="290">
-<location LSID="urn:lsid:plazi:treatment:EB41A8571F40FFBDFD41FD72FEC13256:66374F9A1F40FFBBFD3DFB65FD5D379C" box="[679,759,1156,1179]" country="New Caledonia" municipality="Areha" name="MacKee" pageId="11" pageNumber="290">MacKee</location>
+<collectorName box="[679,759,1156,1179]" pageId="11" pageNumber="290">MacKee</collectorName>
 32982
 </emphasis>
 (
@@ -187,7 +187,7 @@ VI.1976
 )
 </materialsCitation>
 ; 
-<materialsCitation pageId="11" pageNumber="290">
+<materialsCitation collectingDate="1982-03-30" collectionCode="G" collectorName="MacKee" country="New Caledonia" location="Areha" municipality="Areha" pageId="11" pageNumber="290" specimenCount="1">
 <collectingMunicipality box="[986,1050,1155,1179]" pageId="11" pageNumber="290">Aréha</collectingMunicipality>
 , en maquis, fl. rose pâle, 
 <date box="[780,902,1182,1206]" pageId="11" pageNumber="290" value="1982-03-30">
@@ -195,13 +195,13 @@ VI.1976
 </date>
 , 
 <emphasis box="[914,1064,1182,1206]" italics="true" pageId="11" pageNumber="290">
-<location LSID="urn:lsid:plazi:treatment:EB41A8571F40FFBDFD41FD72FEC13256:66374F9A1F40FFBBFC08FB7EFC7537B1" box="[914,991,1183,1206]" country="New Caledonia" municipality="Presqu'ile de Bogota" name="MacKee" pageId="11" pageNumber="290">MacKee</location>
+<collectorName box="[914,991,1183,1206]" pageId="11" pageNumber="290">MacKee</collectorName>
 42294
 </emphasis>
 .
 </materialsCitation>
 — 
-<materialsCitation pageId="11" pageNumber="290">
+<materialsCitation collectingDate="1989-09-13" collectionCode="G" collectorName="MacKee" country="New Caledonia" elevation="450" location="Presqu'ile de Bogota" municipality="Presqu'ile de Bogota" pageId="11" pageNumber="290" specimenCount="1">
 <collectingMunicipality pageId="11" pageNumber="290">Presqu’île de Bogota</collectingMunicipality>
 , vers 
 <quantity box="[838,907,1208,1232]" metricMagnitude="2" metricUnit="m" metricValue="4.5" pageId="11" pageNumber="290" unit="m" value="450.0">
@@ -216,7 +216,10 @@ VI.1976
 <collectingDate box="[712,832,1261,1285]" pageId="11" pageNumber="290" value="1989-09-13">13.IX.1989</collectingDate>
 </date>
 , 
-<emphasis box="[844,993,1261,1285]" italics="true" pageId="11" pageNumber="290">MacKee 44602</emphasis>
+<emphasis box="[844,993,1261,1285]" italics="true" pageId="11" pageNumber="290">
+<collectorName box="[844,921,1262,1285]" pageId="11" pageNumber="290">MacKee</collectorName>
+44602
+</emphasis>
 .
 </materialsCitation>
 </paragraph>
