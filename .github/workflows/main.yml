@@ -59,7 +59,7 @@ jobs:
             relative_file=`realpath -m --relative-to=$GITHUB_WORKSPACE/rdf $file`
             mkdir -p $GITHUB_WORKSPACE/ttl/${relative_file%/*}
             # $file → $GITHUB_WORKSPACE/ttl/${file:0:-4}.ttl
-            rapper -e -w -q $file --output turtle > $GITHUB_WORKSPACE/ttl/${file:0:-4}.ttl
+            rapper -w -q $file --output turtle > $GITHUB_WORKSPACE/ttl/${file:0:-4}.ttl
           done
 
       - name: Checkout treatments-rdf
