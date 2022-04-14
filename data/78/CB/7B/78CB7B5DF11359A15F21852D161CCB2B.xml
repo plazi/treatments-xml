@@ -1,4 +1,4 @@
-<document ENCODING="UTF-8" ID-GBIF-Dataset="f0bc27d9-feea-4732-bf04-19f030f22cce" ID-GBIF-Taxon="125136078" checkinTime="1366354042941" checkinUser="donat" docAuthor="Jonsell, B., Karlsson" docDate="2005" docId="78CB7B5DF11359A15F21852D161CCB2B" docLanguage="en" docName="FlNordica_chenop.xml" docOrigin="Flora Nordica 2" docSource="http://antbase.org/ants/publications/FlNordica_chenop/FlNordica_chenop.pdf" docTitle="Chenopodium bonus-henricus L." docType="treatment" docVersion="19" lastPageNumber="10" masterDocId="5940829869E0E110AC4D6129054CDD66" masterDocTitle="Chenopodiaceae - Fumariaceae (Chenopodium)" masterLastPageNumber="31" masterPageNumber="4" pageId="6" pageNumber="10" updateTime="1643586498180" updateUser="ExternalLinkService">
+<document ENCODING="UTF-8" ID-DOI="http://doi.org/10.5281/zenodo.6462362" ID-GBIF-Dataset="f0bc27d9-feea-4732-bf04-19f030f22cce" ID-GBIF-Taxon="125136078" ID-Zenodo-Dep="6462362" checkinTime="1366354042941" checkinUser="donat" docAuthor="Jonsell, B., Karlsson" docDate="2005" docId="78CB7B5DF11359A15F21852D161CCB2B" docLanguage="en" docName="FlNordica_chenop.xml" docOrigin="Flora Nordica 2" docSource="http://antbase.org/ants/publications/FlNordica_chenop/FlNordica_chenop.pdf" docTitle="Chenopodium bonus-henricus L." docType="treatment" docVersion="22" lastPageNumber="10" masterDocId="5940829869E0E110AC4D6129054CDD66" masterDocTitle="Chenopodiaceae - Fumariaceae (Chenopodium)" masterLastPageNumber="31" masterPageNumber="4" pageId="6" pageNumber="10" updateTime="1649972847959" updateUser="ExternalLinkService">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Chenopodiaceae - Fumariaceae (Chenopodium)</mods:title>
@@ -31,31 +31,29 @@
 <mods:classification>journal article</mods:classification>
 <mods:identifier type="Plazi-MODS">FlNordica_chenop</mods:identifier>
 </mods:mods>
-<treatment ID-GBIF-Taxon="125136078" LSID="urn:lsid:plazi:treatment:78CB7B5DF11359A15F21852D161CCB2B" httpUri="http://treatment.plazi.org/id/78CB7B5DF11359A15F21852D161CCB2B" lastPageNumber="10" pageId="6" pageNumber="10">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6462362" ID-GBIF-Taxon="125136078" ID-Zenodo-Dep="6462362" LSID="urn:lsid:plazi:treatment:78CB7B5DF11359A15F21852D161CCB2B" httpUri="http://treatment.plazi.org/id/78CB7B5DF11359A15F21852D161CCB2B" lastPageNumber="10" pageId="6" pageNumber="10">
 <subSubSection pageId="6" pageNumber="10" type="nomenclature">
 <paragraph pageId="6" pageNumber="10" type="mainText">
 3. 
-<taxonomicName authority="L." authorityName="L." class="Magnoliopsida" family="Amaranthaceae" genus="Chenopodium" higherTaxonomySource="CoL" kingdom="Plantae" order="Caryophyllales" pageId="6" pageNumber="10" phylum="Tracheophyta" rank="species" species="bonus-henricus">
-Chenopodium bonus-henricus 
-<authority pageId="6" pageNumber="10">L.</authority>
-</taxonomicName>
+<taxonomicName authority="L." authorityName="L." class="Magnoliopsida" family="Amaranthaceae" genus="Chenopodium" higherTaxonomySource="CoL" kingdom="Plantae" order="Caryophyllales" pageId="6" pageNumber="10" phylum="Tracheophyta" rank="species" species="bonus-henricus">Chenopodium bonus-henricus L.</taxonomicName>
 </paragraph>
 </subSubSection>
+<subSubSection pageId="6" pageNumber="10" type="description">
 <paragraph pageId="6" pageNumber="10" type="mainText">Figs 2C, 5A</paragraph>
+</subSubSection>
 <subSubSection pageId="6" pageNumber="10" type="reference_group">
 <paragraph pageId="6" pageNumber="10" type="mainText">
-<bibRef pageId="6" pageNumber="10">Linnaeus, Sp. pi.: 218 (1753).</bibRef>
-- 
-<subSubSection pageId="6" pageNumber="10" type="typeStatus">
-<paragraph pageId="6" pageNumber="10">
-Type: Linnaean Herbarium 313.1 (LINN) lectotype, sei. by 
-<bibRef pageId="6" pageNumber="10">Jonsell &amp; Jarvis, Nordic J. Bot. 14:155(1994)</bibRef>
+<bibCitation pageId="6" pageNumber="10">Linnaeus, Sp. pi.: 218 (1753).</bibCitation>
 </paragraph>
 </subSubSection>
+<subSubSection pageId="6" pageNumber="10" type="materials_examined">
+<paragraph pageId="6" pageNumber="10" type="mainText">
+- Type: Linnaean Herbarium 313.1 (LINN) lectotype, sei. by 
+<bibCitation pageId="6" pageNumber="10">Jonsell &amp; Jarvis, Nordic J. Bot. 14:155(1994)</bibCitation>
 .
 </paragraph>
 </subSubSection>
-<subSubSection pageId="6" pageNumber="10" type="vernacularName">
+<subSubSection pageId="6" pageNumber="10" type="vernacular_names">
 <paragraph pageId="6" pageNumber="10" type="mainText">
 D Stolthenriks 
 <normalizedToken originalValue="Gåsefod" pageId="6" pageNumber="10">Gasefod</normalizedToken>

@@ -1,4 +1,4 @@
-<document ENCODING="UTF-8" ID-GBIF-Dataset="f0bc27d9-feea-4732-bf04-19f030f22cce" ID-GBIF-Taxon="125136047" checkinTime="1366354042941" checkinUser="donat" docAuthor="Jonsell, B., Karlsson" docDate="2005" docId="FF71956CD0B8C7FE7BA344A740C5A26D" docLanguage="en" docName="FlNordica_chenop.xml" docOrigin="Flora Nordica 2" docSource="http://antbase.org/ants/publications/FlNordica_chenop/FlNordica_chenop.pdf" docTitle="Chenopodium capitatum (L.) Ambrosi" docType="treatment" docVersion="21" lastPageId="6" lastPageNumber="10" masterDocId="5940829869E0E110AC4D6129054CDD66" masterDocTitle="Chenopodiaceae - Fumariaceae (Chenopodium)" masterLastPageNumber="31" masterPageNumber="4" pageId="5" pageNumber="9" updateTime="1643586498180" updateUser="ExternalLinkService">
+<document ENCODING="UTF-8" ID-DOI="http://doi.org/10.5281/zenodo.6462360" ID-GBIF-Dataset="f0bc27d9-feea-4732-bf04-19f030f22cce" ID-GBIF-Taxon="125136047" ID-Zenodo-Dep="6462360" checkinTime="1366354042941" checkinUser="donat" docAuthor="Jonsell, B., Karlsson" docDate="2005" docId="FF71956CD0B8C7FE7BA344A740C5A26D" docLanguage="en" docName="FlNordica_chenop.xml" docOrigin="Flora Nordica 2" docSource="http://antbase.org/ants/publications/FlNordica_chenop/FlNordica_chenop.pdf" docTitle="Chenopodium capitatum (L.) Ambrosi" docType="treatment" docVersion="23" lastPageId="6" lastPageNumber="10" masterDocId="5940829869E0E110AC4D6129054CDD66" masterDocTitle="Chenopodiaceae - Fumariaceae (Chenopodium)" masterLastPageNumber="31" masterPageNumber="4" pageId="5" pageNumber="9" updateTime="1649972847959" updateUser="ExternalLinkService">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Chenopodiaceae - Fumariaceae (Chenopodium)</mods:title>
@@ -31,42 +31,31 @@
 <mods:classification>journal article</mods:classification>
 <mods:identifier type="Plazi-MODS">FlNordica_chenop</mods:identifier>
 </mods:mods>
-<treatment ID-GBIF-Taxon="125136047" LSID="urn:lsid:plazi:treatment:FF71956CD0B8C7FE7BA344A740C5A26D" httpUri="http://treatment.plazi.org/id/FF71956CD0B8C7FE7BA344A740C5A26D" lastPageId="6" lastPageNumber="10" pageId="5" pageNumber="9">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6462360" ID-GBIF-Taxon="125136047" ID-Zenodo-Dep="6462360" LSID="urn:lsid:plazi:treatment:FF71956CD0B8C7FE7BA344A740C5A26D" httpUri="http://treatment.plazi.org/id/FF71956CD0B8C7FE7BA344A740C5A26D" lastPageId="6" lastPageNumber="10" pageId="5" pageNumber="9">
 <subSubSection pageId="5" pageNumber="9" type="nomenclature">
 <paragraph pageId="5" pageNumber="9" type="mainText">
 2. 
-<taxonomicName authority="(L.) Ambrosi" authorityName="(L.) Ambrosi" class="Magnoliopsida" family="Amaranthaceae" genus="Chenopodium" higherTaxonomySource="CoL" kingdom="Plantae" order="Caryophyllales" pageId="5" pageNumber="9" phylum="Tracheophyta" rank="species" species="capitatum">
-Chenopodium capitatum 
-<authority pageId="5" pageNumber="9">(L.) Ambrosi</authority>
-</taxonomicName>
-<paragraph pageId="5" pageNumber="9">Figs 2B, 4B</paragraph>
+<taxonomicName authority="(L.) Ambrosi" authorityName="(L.) Ambrosi" class="Magnoliopsida" family="Amaranthaceae" genus="Chenopodium" higherTaxonomySource="CoL" kingdom="Plantae" order="Caryophyllales" pageId="5" pageNumber="9" phylum="Tracheophyta" rank="species" species="capitatum">Chenopodium capitatum (L.) Ambrosi</taxonomicName>
+Figs 2B, 4B
 </paragraph>
 <paragraph pageId="5" pageNumber="9">
-<bibRef pageId="5" pageNumber="9">Ambrosi, FI. Tirolo Mer. 2: 180 (1857).</bibRef>
+<bibCitation pageId="5" pageNumber="9">Ambrosi, FI. Tirolo Mer. 2: 180 (1857).</bibCitation>
 </paragraph>
 </subSubSection>
-<subSubSection pageId="5" pageNumber="9" type="synonym">
+<subSubSection pageId="5" pageNumber="9" type="reference_group">
+<paragraph pageId="5" pageNumber="9">
 - 
-<taxonomicName authority="L." authorityName="L." class="Magnoliopsida" family="Amaranthaceae" genus="Blitum" higherTaxonomySource="CoL" kingdom="Plantae" order="Caryophyllales" pageId="5" pageNumber="9" phylum="Tracheophyta" rank="species" species="capitatum">
-Blitum capitatum 
-<authority pageId="5" pageNumber="9">L.</authority>
-</taxonomicName>
+<taxonomicName authority="L." authorityName="L." class="Magnoliopsida" family="Amaranthaceae" genus="Blitum" higherTaxonomySource="CoL" kingdom="Plantae" order="Caryophyllales" pageId="5" pageNumber="9" phylum="Tracheophyta" rank="species" species="capitatum">Blitum capitatum L.</taxonomicName>
 , 
-<subSubSection pageId="5" pageNumber="9" type="reference_group">
-<paragraph pageId="5" pageNumber="9">
-<bibRef pageId="5" pageNumber="9">Sp. pi.: 4 (1753).</bibRef>
+<bibCitation pageId="5" pageNumber="9">Sp. pi.: 4 (1753).</bibCitation>
 </paragraph>
 </subSubSection>
-</subSubSection>
-<subSubSection pageId="5" pageNumber="9" type="reference_group">
-- 
-<subSubSection pageId="5" pageNumber="9" type="typeStatus">
+<subSubSection pageId="5" pageNumber="9" type="materials_examined">
 <paragraph pageId="5" pageNumber="9">
-Type: Linnaean Herbarium 14.1 (LINN) lectotype, sei. by 
-<bibRef pageId="5" pageNumber="9">Jonsell &amp; Jarvis, Regnum Veg. 127: 25 (1993)</bibRef>
+- Type: Linnaean Herbarium 14.1 (LINN) lectotype, sei. by 
+<bibCitation pageId="5" pageNumber="9">Jonsell &amp; Jarvis, Regnum Veg. 127: 25 (1993)</bibCitation>
 .
 </paragraph>
-</subSubSection>
 </subSubSection>
 <subSubSection pageId="5" pageNumber="9" type="multiple">
 <paragraph pageId="5" pageNumber="9" type="mainText">
@@ -84,11 +73,10 @@ N
 <normalizedToken originalValue="smultronmålla" pageId="5" pageNumber="9">smultronmalla</normalizedToken>
 .
 </paragraph>
-<subSubSection pageId="5" pageNumber="9" type="reference_group">
 <paragraph pageId="5" pageNumber="9" type="mainText">
-<bibRef pageId="5" pageNumber="9">Literature. Aronsson 1998.</bibRef>
+Literature. 
+<bibCitation pageId="5" pageNumber="9">Aronsson 1998.</bibCitation>
 </paragraph>
-</subSubSection>
 </subSubSection>
 <subSubSection pageId="5" pageNumber="9" type="description">
 <paragraph pageId="5" pageNumber="9" type="mainText">Therophyte (summer-annual). Glabrous, cm. Stem subangular, yellowish, green-striped or sometimes red, fairly soft, erect to ascending, usually sparsely branched. Leaves fairly succulent. Lower leaves with up to 8 cm long petiole; blade triangular to hastate, 2-7(-11) cm, longer than wide, often with several coarse teeth. Middle leaves with shorter petiole and smaller blade. Bracts narrowly hastate to lanceolate, with entire margin.</paragraph>

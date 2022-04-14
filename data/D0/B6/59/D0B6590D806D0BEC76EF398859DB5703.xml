@@ -1,4 +1,4 @@
-<document ENCODING="UTF-8" ID-DOI="http://doi.org/10.5281/zenodo.6265349" ID-GBIF-Dataset="f0bc27d9-feea-4732-bf04-19f030f22cce" ID-GBIF-Taxon="125136052" ID-Zenodo-Dep="6265349" checkinTime="1366354042941" checkinUser="donat" docAuthor="Jonsell, B., Karlsson" docDate="2005" docId="D0B6590D806D0BEC76EF398859DB5703" docLanguage="en" docName="FlNordica_chenop.xml" docOrigin="Flora Nordica 2" docSource="http://antbase.org/ants/publications/FlNordica_chenop/FlNordica_chenop.pdf" docTitle="Chenopodium chenopodioides (L.) Aelien" docType="treatment" docVersion="26" lastPageId="7" lastPageNumber="11" masterDocId="5940829869E0E110AC4D6129054CDD66" masterDocTitle="Chenopodiaceae - Fumariaceae (Chenopodium)" masterLastPageNumber="31" masterPageNumber="4" pageId="6" pageNumber="10" updateTime="1645739713264" updateUser="ExternalLinkService">
+<document ENCODING="UTF-8" ID-DOI="http://doi.org/10.5281/zenodo.6265349" ID-GBIF-Dataset="f0bc27d9-feea-4732-bf04-19f030f22cce" ID-GBIF-Taxon="125136052" ID-Zenodo-Dep="6265349" checkinTime="1366354042941" checkinUser="donat" docAuthor="Jonsell, B., Karlsson" docDate="2005" docId="D0B6590D806D0BEC76EF398859DB5703" docLanguage="en" docName="FlNordica_chenop.xml" docOrigin="Flora Nordica 2" docSource="http://antbase.org/ants/publications/FlNordica_chenop/FlNordica_chenop.pdf" docTitle="Chenopodium chenopodioides (L.) Aelien" docType="treatment" docVersion="28" lastPageId="7" lastPageNumber="11" masterDocId="5940829869E0E110AC4D6129054CDD66" masterDocTitle="Chenopodiaceae - Fumariaceae (Chenopodium)" masterLastPageNumber="31" masterPageNumber="4" pageId="6" pageNumber="10" updateTime="1649972430118" updateUser="admin">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Chenopodiaceae - Fumariaceae (Chenopodium)</mods:title>
@@ -33,51 +33,44 @@
 </mods:mods>
 <treatment ID-DOI="http://doi.org/10.5281/zenodo.6265349" ID-GBIF-Taxon="125136052" ID-Zenodo-Dep="6265349" LSID="urn:lsid:plazi:treatment:D0B6590D806D0BEC76EF398859DB5703" httpUri="http://treatment.plazi.org/id/D0B6590D806D0BEC76EF398859DB5703" lastPageId="7" lastPageNumber="11" pageId="6" pageNumber="10">
 <subSubSection pageId="6" pageNumber="10" type="nomenclature">
+<paragraph pageId="6" pageNumber="10">
 4. 
-<taxonomicName authority="(L.) Aelien" authorityName="(L.) Aelien" class="Magnoliopsida" family="Amaranthaceae" genus="Chenopodium" higherTaxonomySource="CoL" kingdom="Plantae" order="Caryophyllales" pageId="6" pageNumber="10" phylum="Tracheophyta" rank="species" species="chenopodioides">
-Chenopodium chenopodioides 
-<authority pageId="6" pageNumber="10">(L.) Aellen</authority>
-</taxonomicName>
+<taxonomicName authority="(L.) Aelien" authorityName="(L.) Aelien" class="Magnoliopsida" family="Amaranthaceae" genus="Chenopodium" higherTaxonomySource="CoL" kingdom="Plantae" order="Caryophyllales" pageId="6" pageNumber="10" phylum="Tracheophyta" rank="species" species="chenopodioides">Chenopodium chenopodioides (L.) Aellen</taxonomicName>
+</paragraph>
 </subSubSection>
+<subSubSection type="description">
 <paragraph pageId="6" pageNumber="10" type="mainText">Figs 2D, 5B</paragraph>
-<subSubSection pageId="6" pageNumber="10" type="reference_group">
+</subSubSection>
+<subSubSection type="reference_group">
 <paragraph pageId="6" pageNumber="10">
-<bibRef pageId="6" pageNumber="10">Aelien, Ostenia: 98 (1933).</bibRef>
+<bibCitation pageId="6" pageNumber="10">Aelien, Ostenia: 98 (1933).</bibCitation>
+</paragraph>
+<paragraph pageId="6" pageNumber="10">
+- 
+<taxonomicName authority="L." authorityName="L." class="Magnoliopsida" family="Amaranthaceae" genus="Blitum" higherTaxonomySource="CoL" kingdom="Plantae" order="Caryophyllales" pageId="6" pageNumber="10" phylum="Tracheophyta" rank="species" species="chenopodioides">Blitum chenopodioides L.</taxonomicName>
+,
+</paragraph>
+<paragraph pageId="6" pageNumber="10">
+<bibCitation pageId="6" pageNumber="10">Mant. pl.: 170 (1771).</bibCitation>
 </paragraph>
 </subSubSection>
-- 
-<taxonomicName authority="L." authorityName="L." class="Magnoliopsida" family="Amaranthaceae" genus="Blitum" higherTaxonomySource="CoL" kingdom="Plantae" order="Caryophyllales" pageId="6" pageNumber="10" phylum="Tracheophyta" rank="species" species="chenopodioides">
-Blitum chenopodioides 
-<authority pageId="6" pageNumber="10">L.</authority>
-</taxonomicName>
-, 
-<subSubSection pageId="6" pageNumber="10" type="reference_group">
-<paragraph pageId="6" pageNumber="10">
-<bibRef pageId="6" pageNumber="10">Mant. pl.: 170 (1771).</bibRef>
-</paragraph>
-<subSubSection pageId="6" pageNumber="10" type="typeStatus">
+<subSubSection pageId="6" pageNumber="10" type="materials_examined">
 <paragraph pageId="6" pageNumber="10">
 - Type: [Russia, Dagestan] Kizlyar, leg. C. Steven (H) neotype, sei. by 
-<bibRef pageId="6" pageNumber="10">Uotila, Ann. Bot. Fenn. 38: 95 (2001)</bibRef>
+<bibCitation pageId="6" pageNumber="10">Uotila, Ann. Bot. Fenn. 38: 95 (2001)</bibCitation>
 .
 </paragraph>
 </subSubSection>
+<subSubSection type="reference_group">
+<paragraph pageId="6" pageNumber="10" type="mainText">
+<taxonomicName authority="Sm. (1811)" authorityName="Sm." authorityYear="1811" class="Magnoliopsida" family="Amaranthaceae" genus="Chenopodium" higherTaxonomySource="CoL" kingdom="Plantae" order="Caryophyllales" pageId="6" pageNumber="10" phylum="Tracheophyta" rank="species" species="botryodes">C. botryodes Sm. (1811)</taxonomicName>
+.
+</paragraph>
+<paragraph pageId="6" pageNumber="10" type="mainText">
+<taxonomicName authority="auct., non Homem. (1813)" authorityName="auct., non Homem." authorityYear="1813" class="Magnoliopsida" family="Amaranthaceae" genus="Chenopodium" genus.outerRound="1" higherTaxonomySource="CoL" kingdom="Plantae" order="Caryophyllales" pageId="6" pageNumber="10" phylum="Tracheophyta" rank="species" species="crassifolium">C. crassifolium auct., non Homem. (1813).</taxonomicName>
+</paragraph>
 </subSubSection>
-<paragraph pageId="6" pageNumber="10" type="mainText">
-<taxonomicName authority="Sm. (1811)" authorityName="Sm." authorityYear="1811" class="Magnoliopsida" family="Amaranthaceae" genus="Chenopodium" higherTaxonomySource="CoL" kingdom="Plantae" order="Caryophyllales" pageId="6" pageNumber="10" phylum="Tracheophyta" rank="species" species="botryodes">
-C. botryodes 
-<authority pageId="6" pageNumber="10">Sm. (1811)</authority>
-</taxonomicName>
-.
-</paragraph>
-<paragraph pageId="6" pageNumber="10" type="mainText">
-<taxonomicName authority="auct., non Homem. (1813)" authorityName="auct., non Homem." authorityYear="1813" class="Magnoliopsida" family="Amaranthaceae" genus="Chenopodium" genus.outerRound="1" higherTaxonomySource="CoL" kingdom="Plantae" order="Caryophyllales" pageId="6" pageNumber="10" phylum="Tracheophyta" rank="species" species="crassifolium">
-C. crassifolium 
-<authority pageId="6" pageNumber="10">auct., non Homem. (1813)</authority>
-.
-</taxonomicName>
-</paragraph>
-<subSubSection pageId="6" pageNumber="10" type="vernacularName">
+<subSubSection type="multiple">
 <paragraph pageId="6" pageNumber="10" type="mainText">
 D 
 <normalizedToken originalValue="Drue-Gåsefod" pageId="6" pageNumber="10">Drue-Gasefod</normalizedToken>
@@ -85,11 +78,13 @@ D
 <normalizedToken originalValue="druvmålla" pageId="6" pageNumber="10">druvmalla</normalizedToken>
 .
 </paragraph>
+</subSubSection>
 <subSubSection pageId="6" pageNumber="10" type="reference_group">
 <paragraph pageId="6" pageNumber="10">
-<bibRef pageId="6" pageNumber="10" type="mainText">Literature. Aellen 1927.</bibRef>
+Literature. 
+<bibCitation pageId="6" pageNumber="10" type="mainText">Aellen 1927</bibCitation>
+.
 </paragraph>
-</subSubSection>
 </subSubSection>
 <subSubSection lastPageId="7" lastPageNumber="11" pageId="6" pageNumber="10" type="description">
 <paragraph lastPageId="7" lastPageNumber="11" pageId="6" pageNumber="10" type="mainText">
@@ -137,17 +132,14 @@ Habitat. Sheltered seashores, on bare, muddy to clayey soil in the middle geolit
 stands.
 </paragraph>
 </subSubSection>
-<subSubSection pageId="7" pageNumber="11" type="discussion">
+<subSubSection type="discussion">
 <paragraph pageId="7" pageNumber="11" type="mainText">
 Variation. Aellen (1927), who used the name 
 <taxonomicName class="Magnoliopsida" family="Amaranthaceae" genus="Chenopodium" genus.outerRound="1" higherTaxonomySource="CoL" kingdom="Plantae" order="Caryophyllales" pageId="7" pageNumber="11" phylum="Tracheophyta" rank="species" species="crassifolium">C. crassifolium</taxonomicName>
 for this species, divided it into two varieties, 
 <taxonName authority="" authorityName="" genus="Chenopodium" genus.completionEvidence="missing" genus.completionRound="1" genus.outerRound="1" pageId="7" pageNumber="11" rank="variety" species="crassifolium" species.completionEvidence="missing" species.completionRound="1" variety="lengyelianum">
 <taxonName authority="" authorityName="" genus="Chenopodium" genus.completionEvidence="missing" genus.completionRound="1" genus.outerRound="1" pageId="7" pageNumber="11" rank="variety" species="crassifolium" species.completionEvidence="missing" species.completionRound="1" variety="lengyelianum">
-<taxonomicName authority="Aellen" authorityName="Aellen" class="Magnoliopsida" family="Amaranthaceae" genus="Chenopodium" genus.completionEvidence="missing" genus.completionRound="1" genus.outerRound="1" higherTaxonomySource="CoL" kingdom="Plantae" order="Caryophyllales" pageId="7" pageNumber="11" phylum="Tracheophyta" rank="variety" species="crassifolium" species.completionEvidence="missing" species.completionRound="1" variety="lengyelianum">
-var. lengyelianum 
-<authority pageId="7" pageNumber="11">Aellen</authority>
-</taxonomicName>
+<taxonomicName authority="Aellen" authorityName="Aellen" class="Magnoliopsida" family="Amaranthaceae" genus="Chenopodium" genus.completionEvidence="missing" genus.completionRound="1" genus.outerRound="1" higherTaxonomySource="CoL" kingdom="Plantae" order="Caryophyllales" pageId="7" pageNumber="11" phylum="Tracheophyta" rank="variety" species="crassifolium" species.completionEvidence="missing" species.completionRound="1" variety="lengyelianum">var. lengyelianum Aellen</taxonomicName>
 </taxonName>
 </taxonName>
 (= 
@@ -167,13 +159,11 @@ prostrate, branched at the base only and small-leaved; the leaf-blades are broad
 in their 
 <normalizedToken originalValue="±" pageId="7" pageNumber="11">+/-</normalizedToken>
 erect habit but the leaf-blades are usually subentire. 
-<bibRef pageId="7" pageNumber="11">Aellen (1927)</bibRef>
+<bibCitation pageId="7" pageNumber="11">Aellen (1927)</bibCitation>
 cited material from D under 
 <taxonomicName class="Magnoliopsida" family="Amaranthaceae" genus="Chenopodium" genus.completionEvidence="missing" genus.completionRound="1" higherTaxonomySource="CoL" kingdom="Plantae" order="Caryophyllales" pageId="7" pageNumber="11" phylum="Tracheophyta" rank="variety" species="crassifolium" species.completionEvidence="missing" species.completionRound="1" variety="lengyelianum">var. lengyelianum</taxonomicName>
 only.
 </paragraph>
-</subSubSection>
-<subSubSection pageId="7" pageNumber="11" type="diagnosis">
 <paragraph pageId="7" pageNumber="11" type="mainText">
 Similar taxa. 
 <taxonomicName class="Magnoliopsida" family="Amaranthaceae" genus="Chenopodium" higherTaxonomySource="CoL" kingdom="Plantae" order="Caryophyllales" pageId="7" pageNumber="11" phylum="Tracheophyta" rank="species" species="chenopodioides">Chenopodium chenopodioides</taxonomicName>
