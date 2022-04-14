@@ -1,4 +1,4 @@
-<document ENCODING="UTF8" ID-GBIF-Dataset="abb96834-8ba1-417d-8185-f382bc7d53a7" ID-GBIF-Taxon="100108717" ModsDocAuthor="Brenan, J.P.M" ModsDocDate="1954" ModsDocID="FlEast_africa_Chenop" ModsDocOrigin="http://antbase.org/ants/publications/FlEast_africa_Chenop/FlEast_africa_Chenop.pdf" ModsDocTitle="Chenopodiaceae (part: Chenopodium)" checkinTime="1366088718070" checkinUser="donat" docAuthor="Brenan, J. P. M" docDate="1954" docId="1D2A31B44E07B79FFD5AA14E96843028" docLanguage="en" docName="FlEast_africa_Chenop.xml" docOrigin="Flora of Tropical East Africa 12" docSource="http://antbase.org/ants/publications/FlEast_africa_Chenop/FlEast_africa_Chenop.pdf" docTitle="Chenopodium carinatum R.Br." docType="treatment" docVersion="17" lastPageNumber="13" masterDocId="CDD696ED727BEBAB937EEA1FEEEC4E82" masterDocTitle="Chenopodiaceae (part: Chenopodium)" masterLastPageNumber="14" masterPageNumber="2" pageId="11" pageNumber="13" updateTime="1643596152226" updateUser="ExternalLinkService">
+<document ENCODING="UTF8" ID-DOI="http://doi.org/10.5281/zenodo.6462390" ID-GBIF-Dataset="abb96834-8ba1-417d-8185-f382bc7d53a7" ID-GBIF-Taxon="100108717" ID-Zenodo-Dep="6462390" ModsDocAuthor="Brenan, J.P.M" ModsDocDate="1954" ModsDocID="FlEast_africa_Chenop" ModsDocOrigin="http://antbase.org/ants/publications/FlEast_africa_Chenop/FlEast_africa_Chenop.pdf" ModsDocTitle="Chenopodiaceae (part: Chenopodium)" checkinTime="1366088718070" checkinUser="donat" docAuthor="Brenan, J. P. M" docDate="1954" docId="1D2A31B44E07B79FFD5AA14E96843028" docLanguage="en" docName="FlEast_africa_Chenop.xml" docOrigin="Flora of Tropical East Africa 12" docSource="http://antbase.org/ants/publications/FlEast_africa_Chenop/FlEast_africa_Chenop.pdf" docTitle="Chenopodium carinatum R.Br." docType="treatment" docVersion="19" lastPageNumber="13" masterDocId="CDD696ED727BEBAB937EEA1FEEEC4E82" masterDocTitle="Chenopodiaceae (part: Chenopodium)" masterLastPageNumber="14" masterPageNumber="2" pageId="11" pageNumber="13" updateTime="1649975166830" updateUser="ExternalLinkService">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Chenopodiaceae (part: Chenopodium)</mods:title>
@@ -31,8 +31,8 @@
 <mods:classification>journal article</mods:classification>
 <mods:identifier type="Plazi-MODS">FlEast_africa_Chenop</mods:identifier>
 </mods:mods>
-<treatment ID-GBIF-Taxon="100108717" LSID="urn:lsid:plazi:treatment:1D2A31B44E07B79FFD5AA14E96843028" httpUri="http://treatment.plazi.org/id/1D2A31B44E07B79FFD5AA14E96843028" lastPageNumber="13" pageId="11" pageNumber="13">
-<subSubSection pageId="11" pageNumber="13" type="nomenclature">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6462390" ID-GBIF-Taxon="100108717" ID-Zenodo-Dep="6462390" LSID="urn:lsid:plazi:treatment:1D2A31B44E07B79FFD5AA14E96843028" httpUri="http://treatment.plazi.org/id/1D2A31B44E07B79FFD5AA14E96843028" lastPageNumber="13" pageId="11" pageNumber="13">
+<subSubSection type="nomenclature">
 <paragraph pageId="11" pageNumber="13">
 <pageBreakToken pageId="11" pageNumber="13" start="start">8</pageBreakToken>
 . 
@@ -40,18 +40,21 @@
 C. carinatum 
 <taxonNameAuthority>R.Br.</taxonNameAuthority>
 </taxonomicName>
-, 
+</paragraph>
+</subSubSection>
 <subSubSection type="reference_group">
-<paragraph>
-<bibRef>Prodr. Fl. Nov. Holl. 1: 407 (1810);</bibRef>
-<bibRef>Aellen in Verh. Naturf. Gesellsch. Basel 44 (1): 312 (1933);</bibRef>
-<bibRef>Ulbr. in E. &amp; P. Pf., ed. 2,16c: 494 (1934).</bibRef>
+<paragraph pageId="11" pageNumber="13">
+, 
+<bibCitation>Prodr. Fl. Nov. Holl. 1: 407 (1810)</bibCitation>
+;
+<bibCitation>Aellen in Verh. Naturf. Gesellsch. Basel 44 (1): 312 (1933)</bibCitation>
+;
+<bibCitation>Ulbr. in E. &amp; P. Pf., ed. 2,16c: 494 (1934)</bibCitation>
+.
 </paragraph>
-<subSubSection type="typeStatus">
-<paragraph>Type: Australia, New South Wales, Hawkesbury R.,R. Brown 3034 (BM, holo.!)</paragraph>
 </subSubSection>
-</subSubSection>
-</paragraph>
+<subSubSection type="materials_examined">
+<paragraph pageId="11" pageNumber="13">Type: Australia, New South Wales, Hawkesbury R.,R. Brown 3034 (BM, holo.!)</paragraph>
 </subSubSection>
 <subSubSection pageId="11" pageNumber="13" type="description">
 <paragraph pageId="11" pageNumber="13">
@@ -90,7 +93,7 @@ var. melanocarpum
 is treated as a distinct species, 
 <taxonomicName authority=", (Black) Black" authorityName="Black" class="Magnoliopsida" family="Amaranthaceae" genus="Chenopodium" kingdom="Plantae" order="Caryophyllales" pageId="11" pageNumber="13" phylum="Tracheophyta" rank="species" species="melanocarpum">C. melanocarpum, (Black) Black</taxonomicName>
 , by 
-<bibRef>J. M. Black in Fl. S. Austral., ed. 2,2: 289 (1948)</bibRef>
+<bibCitation>J. M. Black in Fl. S. Austral., ed. 2,2: 289 (1948)</bibCitation>
 . Verdcourt 550! (Nairobi) and Bogdan 3263! are certainly 
 <taxonomicName class="Magnoliopsida" family="Amaranthaceae" genus="Chenopodium" genus.completionEvidence="missing" genus.completionRound="1" kingdom="Plantae" order="Caryophyllales" pageId="11" pageNumber="13" phylum="Tracheophyta" rank="variety" species="melanocarpum" species.completionEvidence="missing" species.completionRound="1" variety="carinatum">var. carinatum</taxonomicName>
 ; but other specimens do not show fully mature fruits and may or may not be the same variety.
