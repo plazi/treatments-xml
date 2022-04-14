@@ -1,4 +1,4 @@
-<document ID-DOI="10.2478/vzoo-2014-0050" ID-ISSN="2073-2333" ID-Zenodo-Dep="6449169" approvalRequired="9" approvalRequired_for_textStreams="6" approvalRequired_for_treatments="3" checkinTime="1649699808392" checkinUser="felipe" docAuthor="Koretsky, I., Rahmat, S. &amp; Peters, N." docDate="2014" docId="03D087B7D173FFC768F72CF4FD96FAB2" docLanguage="en" docName="VestnikZoologii.48.5.419-432.pdf" docOrigin="Vestnik Zoologii 48 (5)" docSource="http://dx.doi.org/10.2478/vzoo-2014-0050" docStyle="DocumentStyle:9FE6554C034D0A4D8EA9CEAE255F4368.1:VestnikZoologii.2014-2019.journal_article" docStyleId="9FE6554C034D0A4D8EA9CEAE255F4368" docStyleName="VestnikZoologii.2014-2019.journal_article" docStyleVersion="1" docTitle="Pontophoca jutlandica Koretsky, Rahmat et Peters 2014, sp. n." docType="treatment" docVersion="2" lastPageId="4" lastPageNumber="423" masterDocId="FFE9FFCFD171FFC368512A71FFC7FFF7" masterDocTitle="Rare Late Miocene Seal Taxa (Carnivora, Phocidae) From The North Sea Basin" masterLastPageNumber="432" masterPageNumber="419" pageId="2" pageNumber="421" updateTime="1649700120324" updateUser="ExternalLinkService" zenodo-license-document="CC-BY-4.0">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6462219" ID-GBIF-Dataset="5a008645-a03c-45a2-99de-2b8878f6ba10" ID-ISSN="2073-2333" ID-Zenodo-Dep="6462219" checkinTime="1649699808392" checkinUser="felipe" docAuthor="Koretsky, I., Rahmat, S. &amp; Peters, N." docDate="2014" docId="03D087B7D173FFC768F72CF4FD96FAB2" docLanguage="en" docName="VestnikZoologii.48.5.419-432.pdf" docOrigin="Vestnik Zoologii 48 (5)" docSource="http://dx.doi.org/10.2478/vzoo-2014-0050" docStyle="DocumentStyle:9FE6554C034D0A4D8EA9CEAE255F4368.2:VestnikZoologii.2014-2019.journal_article" docStyleId="9FE6554C034D0A4D8EA9CEAE255F4368" docStyleName="VestnikZoologii.2014-2019.journal_article" docStyleVersion="2" docTitle="Pontophoca jutlandica Koretsky, Rahmat et Peters 2014, sp. n." docType="treatment" docVersion="4" lastPageId="4" lastPageNumber="423" masterDocId="FFE9FFCFD171FFC368512A71FFC7FFF7" masterDocTitle="Rare Late Miocene Seal Taxa (Carnivora, Phocidae) From The North Sea Basin" masterLastPageNumber="432" masterPageNumber="419" pageId="2" pageNumber="421" updateTime="1649968491662" updateUser="ExternalLinkService" zenodo-license-document="CC-BY-4.0">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Rare Late Miocene Seal Taxa (Carnivora, Phocidae) From The North Sea Basin</mods:title>
@@ -48,10 +48,11 @@
 </mods:location>
 <mods:classification>journal article</mods:classification>
 <mods:identifier type="DOI">10.2478/vzoo-2014-0050</mods:identifier>
+<mods:identifier type="GBIF-Dataset">5a008645-a03c-45a2-99de-2b8878f6ba10</mods:identifier>
 <mods:identifier type="ISSN">2073-2333</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6449169</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:03D087B7D173FFC768F72CF4FD96FAB2" httpUri="http://treatment.plazi.org/id/03D087B7D173FFC768F72CF4FD96FAB2" lastPageId="4" lastPageNumber="423" pageId="2" pageNumber="421">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6462219" ID-Zenodo-Dep="6462219" LSID="urn:lsid:plazi:treatment:03D087B7D173FFC768F72CF4FD96FAB2" httpUri="http://treatment.plazi.org/id/03D087B7D173FFC768F72CF4FD96FAB2" lastPageId="4" lastPageNumber="423" pageId="2" pageNumber="421">
 <subSubSection pageId="2" pageNumber="421" type="nomenclature">
 <paragraph blockId="2.[166,1104,1669,1697]" box="[166,1104,1669,1697]" pageId="2" pageNumber="421">
 <heading box="[166,1104,1669,1697]" fontSize="36" level="2" pageId="2" pageNumber="421" reason="3">
@@ -69,16 +70,31 @@ Koretsky, Rahmat et Peters
 </heading>
 </paragraph>
 <paragraph blockId="2.[166,1225,1718,1841]" pageId="2" pageNumber="421">
-H o l o t y p e. Incomplete right femur MSM 1788, MidtsØnderjyllands Museum, Gram Slot, 
-<collectingCountry box="[225,341,1750,1776]" name="Denmark" pageId="2" pageNumber="421">Denmark</collectingCountry>
-.
+<materialsCitation collectionCode="MSM" country="Denmark" location="claypit of Gram Teglvaerk" municipality="Gram" pageId="2" pageNumber="421" specimenCode="MSM 1788" specimenCount="1" stateProvince="Jutland" typeStatus="holotype">
+<typeStatus box="[219,360,1718,1745]" pageId="2" pageNumber="421">H o l o t y p e</typeStatus>
+. Incomplete right femur 
+<specimenCode box="[657,790,1718,1744]" pageId="2" pageNumber="421">MSM 1788</specimenCode>
+, MidtsØnderjyllands Museum, Gram Slot, Denmark.
+</materialsCitation>
 </paragraph>
 </subSubSection>
 <subSubSection lastPageId="4" lastPageNumber="423" pageId="2" pageNumber="421" type="description">
 <paragraph blockId="2.[166,1225,1718,1841]" pageId="2" pageNumber="421">
-T y p e l o c a l i t y. Gram, Jutland, 
+T y p e l o c a l i t y. 
+<collectingMunicipality box="[442,513,1782,1808]" pageId="2" pageNumber="421">Gram</collectingMunicipality>
+, 
+<collectingRegion box="[525,613,1782,1808]" pageId="2" pageNumber="421">Jutland</collectingRegion>
+, 
 <collectingCountry box="[626,741,1782,1808]" name="Denmark" pageId="2" pageNumber="421">Denmark</collectingCountry>
-, claypit of Gram Teglvaerk (55.29°17' N, 9.05°2' E); Gram Formation, late Miocene (early-middle Tortonian, 8.0–11.5 ma).
+, 
+<location LSID="urn:lsid:plazi:treatment:03D087B7D173FFC768F72CF4FD96FAB2:8EA6607AD173FFC16AA02C87FBEFF8E7" box="[753,1064,1782,1808]" country="Denmark" municipality="Gram" name="claypit of Gram Teglvaerk" pageId="2" pageNumber="421" stateProvince="Jutland">claypit of Gram Teglvaerk</location>
+(
+<geoCoordinate box="[1080,1220,1782,1809]" pageId="2" pageNumber="421">55.29°17' N</geoCoordinate>
+, 
+<geoCoordinate box="[166,278,1814,1841]" pageId="2" pageNumber="421">9.05°2' E</geoCoordinate>
+); Gram Formation, 
+<geologicalTimeScale box="[513,1127,1814,1841]" pageId="2" pageNumber="421">late Miocene (early-middle Tortonian, 8.0–11.5 ma)</geologicalTimeScale>
+.
 </paragraph>
 <paragraph blockId="3.[174,1233,175,426]" pageId="3" pageNumber="422">
 E t y m o l o g y. After Jutland, the English name for 
@@ -98,7 +114,7 @@ D i a g n o s i s. Femoral trochanteric fossa deep (in contrast to
 </taxonomicName>
 ), reaching half of greater trochanter’s thickness; maximal distance across epicondyles 71.0 % of absolute length; condyles very different in size; plantar fossa very distinctive and deep, outlined by thin lateral border of lateral epicondyle.
 </paragraph>
-<paragraph blockId="3.[174,1233,175,426]" pageId="3" pageNumber="422">
+<paragraph blockId="3.[174,1233,175,426]" lastBlockId="4.[166,1225,906,1349]" lastPageId="4" lastPageNumber="423" pageId="3" pageNumber="422">
 D i s c u s s i o n. A monachine of small size,similar to 
 <taxonomicName authority="(Koretsky, Grigorescu, 2002)" baseAuthorityName="Koretsky, Grigorescu" baseAuthorityYear="2002" class="Mammalia" family="Phocidae" genus="Phoca" kingdom="Animalia" order="Carnivora" pageId="3" pageNumber="422" phylum="Chordata" rank="species" species="sarmatica">
 <emphasis box="[824,966,368,393]" italics="true" pageId="3" pageNumber="422">P.sarmatica</emphasis>
@@ -114,8 +130,13 @@ D i s c u s s i o n. A monachine of small size,similar to
 </taxonomicName>
 (pl. 1, 
 <emphasis box="[678,755,399,425]" italics="true" pageId="3" pageNumber="422">1A, 1B</emphasis>
-): The distal end of the greater trochanter
+): The distal end of the greater trochanter is narrower and has a V-shaped termination. The trochanteric fossa is deep, elongated along the femoral axis, wide, and reaches the middle of the greater trochanter’s length. This fossa is open on the proximal side of the greater trochanter. The condyles are very widely spaced (maximal distance across them is 71.1 % of the bone’s length). In contrast to 
+<taxonomicName baseAuthorityName="Alekseev" baseAuthorityYear="1924" box="[1073,1218,1003,1028]" class="Mammalia" family="Phocidae" genus="Pontophoca" higherTaxonomySource="GBIF" kingdom="Animalia" order="Carnivora" pageId="4" pageNumber="423" phylum="Chordata" rank="species" species="sarmatica">
+<emphasis box="[1073,1218,1003,1028]" italics="true" pageId="4" pageNumber="423">P. sarmatica</emphasis>
+</taxonomicName>
+, the condyles are very different in size. The plantar fossa is located medial to the lateral epicondyle, making the outside border of the lateral epicondyle very thin.
 </paragraph>
+<caption ID-DOI="http://doi.org/10.5281/zenodo.6462207" ID-Zenodo-Dep="6462207" httpUri="https://zenodo.org/record/6462207/files/figure.png" pageId="3" pageNumber="422" startId="3.[174,222,1510,1532]" subCaptionStartIDs="3.[174,207,1537,1559] 3.[449,476,1564,1586]" subCaptionStarts="Fig. 1 &amp; fig. 3" targetBox="[266,1108,462,988]" targetPageId="3">
 <paragraph blockId="3.[174,1233,1510,1586]" box="[174,244,1510,1532]" pageId="3" pageNumber="422">Plate 1.</paragraph>
 <paragraph blockId="3.[174,1233,1510,1586]" pageId="3" pageNumber="422">
 Fig. 1. 
@@ -128,14 +149,14 @@ right femur; Kishinev,
 (Middle Miocene, middle Sarmatian); аfter 
 <bibRefCitation author="Koretsky, I. A. &amp; Grigorescu, D." box="[174,440,1564,1586]" pageId="3" pageNumber="422" pagination="149 - 162" refId="ref9453" refString="Koretsky, I. A., Grigorescu, D. The fossil monk seal Pontophoca sarmatica (Alekseev) (Mammalia: Phocidae: Monachinae) from the Miocene of eastern Europe // Smithsonian Contributions to Paleobiology. - 2002. - 93. - P. 149 - 162." type="book chapter" year="2002">Koretsky, Grigorescu (2002</bibRefCitation>
 : 
-<figureCitation box="[449,497,1564,1586]" captionStart="Fig" captionStartId="6.[166,199,1375,1397]" captionText="Fig. 3. Gryphoca nordica sp. n., paratype, proximal part of right humerus (reversed); Gram, Jutland, Denmark. Clay pit of Gram Teglvaerk, Gram Formation (late Miocene, early-middle Tortonian, 8.0–11.5 ma); MSM 1404x1 (cast in Geological Museum, Copenhagen, Denmark): 3A — caudal; 3B — cranial; 3C — medial; 3D — lateral view. Abbreviations: ac — anconeal crest; rf — radial fossa; sg — spiral groove." pageId="3" pageNumber="422">fig. 3</figureCitation>
+<figureCitation box="[449,497,1564,1586]" captionStart="Fig" captionStartId="6.[166,199,1375,1397]" captionTargetId="graphics-341@6.[660,739,1042,1092]" captionTargetPageId="6" captionText="Fig. 3. Gryphoca nordica sp. n., paratype, proximal part of right humerus (reversed); Gram, Jutland, Denmark. Clay pit of Gram Teglvaerk, Gram Formation (late Miocene, early-middle Tortonian, 8.0–11.5 ma); MSM 1404x1 (cast in Geological Museum, Copenhagen, Denmark): 3A — caudal; 3B — cranial; 3C — medial; 3D — lateral view. Abbreviations: ac — anconeal crest; rf — radial fossa; sg — spiral groove." figureDoi="http://doi.org/10.5281/zenodo.6462211" httpUri="https://zenodo.org/record/6462211/files/figure.png" pageId="3" pageNumber="422">fig. 3</figureCitation>
 ); USNM 214980: 
 <emphasis box="[668,695,1564,1585]" italics="true" pageId="3" pageNumber="422">1A</emphasis>
 — cranial; 
 <emphasis box="[805,831,1564,1585]" italics="true" pageId="3" pageNumber="422">1B</emphasis>
 — caudal view.
 </paragraph>
-<caption ID-DOI="http://doi.org/10.5281/zenodo.6449171" ID-Zenodo-Dep="6449171" httpUri="https://zenodo.org/record/6449171/files/figure.png" pageId="3" pageNumber="422" startId="3.[174,207,1606,1628]" targetBox="[266,1108,460,1476]" targetPageId="3">
+<caption ID-DOI="http://doi.org/10.5281/zenodo.6462209" ID-Zenodo-Dep="6462209" httpUri="https://zenodo.org/record/6462209/files/figure.png" pageId="3" pageNumber="422" startId="3.[174,207,1606,1628]" targetBox="[266,1108,994,1488]" targetPageId="3">
 <paragraph blockId="3.[174,1232,1606,1682]" pageId="3" pageNumber="422">
 Fig. 2. 
 <taxonomicName authority="Koretsky &amp; Rahmat &amp; Peters, 2014" authorityName="Koretsky &amp; Rahmat &amp; Peters" authorityYear="2014" box="[242,458,1607,1628]" class="Mammalia" family="Phocidae" genus="Pontophoca" higherTaxonomySource="GBIF" kingdom="Animalia" order="Carnivora" pageId="3" pageNumber="422" phylum="Chordata" rank="species" species="jutlandica" status="sp. n.">
@@ -148,7 +169,6 @@ Fig. 2.
 <emphasis box="[251,276,1660,1681]" italics="true" pageId="3" pageNumber="422">2B</emphasis>
 — caudal view.
 </paragraph>
-</caption>
 <paragraph blockId="3.[174,1233,1702,1751]" pageId="3" pageNumber="422">
 Рис. 1. 
 <taxonomicName baseAuthorityName="Alekseev" baseAuthorityYear="1924" box="[251,465,1703,1724]" class="Mammalia" family="Phocidae" genus="Pontophoca" higherTaxonomySource="GBIF" kingdom="Animalia" order="Carnivora" pageId="3" pageNumber="422" phylum="Chordata" rank="species" species="sarmatica">
@@ -178,10 +198,10 @@ Fig. 2.
 <emphasis box="[731,757,1825,1846]" italics="true" pageId="3" pageNumber="422">1B</emphasis>
 — вид сзади.
 </paragraph>
-<caption box="[166,519,175,197]" pageId="4" pageNumber="423" startId="4.[166,181,175,196]">
-<paragraph blockId="4.[166,519,175,197]" box="[166,519,175,197]" pageId="4" pageNumber="423">T a b l e 1. Measurements of femora</paragraph>
 </caption>
-<caption box="[166,626,217,239]" pageId="4" pageNumber="423" startId="4.[166,181,218,239]">
+</caption>
+<caption ID-Table-UUID="DF066629D175FFC768F72ADEFDB5FF18" httpUri="http://table.plazi.org/id/DF066629D175FFC768F72ADEFDB5FF18" pageId="4" pageNumber="423" startId="4.[166,181,175,196]" targetBox="[177,1114,263,869]" targetIsTable="true" targetPageId="4">
+<paragraph blockId="4.[166,519,175,197]" box="[166,519,175,197]" pageId="4" pageNumber="423">T a b l e 1. Measurements of femora</paragraph>
 <paragraph blockId="4.[166,626,217,239]" box="[166,626,217,239]" pageId="4" pageNumber="423">Т а б л и ц а 1. Измерения бедренных костей</paragraph>
 </caption>
 <paragraph pageId="4" pageNumber="423">
@@ -285,13 +305,6 @@ Fig. 2.
 <td box="[708,801,847,869]" gridcol="1" gridrow="20" pageId="4" pageNumber="423">14.0–17.5</td>
 </tr>
 </table>
-</paragraph>
-<paragraph blockId="4.[166,1225,906,1349]" pageId="4" pageNumber="423">
-is narrower and has a V-shaped termination. The trochanteric fossa is deep, elongated along the femoral axis, wide, and reaches the middle of the greater trochanter’s length. This fossa is open on the proximal side of the greater trochanter. The condyles are very widely spaced (maximal distance across them is 71.1 % of the bone’s length). In contrast to 
-<taxonomicName baseAuthorityName="Alekseev" baseAuthorityYear="1924" box="[1073,1218,1003,1028]" class="Mammalia" family="Phocidae" genus="Pontophoca" higherTaxonomySource="GBIF" kingdom="Animalia" order="Carnivora" pageId="4" pageNumber="423" phylum="Chordata" rank="species" species="sarmatica">
-<emphasis box="[1073,1218,1003,1028]" italics="true" pageId="4" pageNumber="423">P. sarmatica</emphasis>
-</taxonomicName>
-, the condyles are very different in size. The plantar fossa is located medial to the lateral epicondyle, making the outside border of the lateral epicondyle very thin.
 </paragraph>
 <paragraph blockId="4.[166,1225,906,1349]" pageId="4" pageNumber="423">
 The anatomical features and size of this femur are compatible with the similar bone of the 
