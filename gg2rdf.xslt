@@ -11,7 +11,7 @@
 	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 	xmlns:trt="http://plazi.org/vocab/treatment#"
 	xmlns:xs="http://www.w3.org/2001/XMLSchema/"
-	exclude-result-prefixes="xs" version="1.1">
+	exclude-result-prefixes="xs" version="1.0">
 <!-- xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
 	xmlns:xs="http://www.w3.org/2001/XMLSchema/"
@@ -628,7 +628,7 @@
 			<xsl:when test="contains($authorityName, ' ')"><xsl:call-template name="authorityNameForURI">
 				<xsl:with-param name="authorityName" select="substring-after($authorityName, ' ')"/>
 			</xsl:call-template></xsl:when>
-			<xsl:otherwise><xsl:value-of select="normalize-space($authorityName)"/></xsl:otherwise>
+			<xsl:otherwise><xsl:value-of select="encode-for-uri(normalize-space($authorityName))"/></xsl:otherwise>
 		</xsl:choose>
 	</xsl:template>
 	
