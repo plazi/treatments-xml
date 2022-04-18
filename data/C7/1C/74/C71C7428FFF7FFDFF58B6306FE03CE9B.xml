@@ -1,4 +1,4 @@
-<document ID-DOI="10.5252/a2013n2a5" ID-ISSN="1639-4798" ID-Zenodo-Dep="5206484" approvalRequired="265" approvalRequired_for_taxonomicNames="2" approvalRequired_for_textStreams="155" approvalRequired_for_treatments="108" checkinTime="1629124948625" checkinUser="carolina" docAuthor="Werff, Henk Van Der" docDate="2013" docId="C71C7428FFF7FFDFF58B6306FE03CE9B" docLanguage="en" docName="Adansonia.35.2.235-279.pdf" docOrigin="Adansonia (3) 35 (2)" docSource="http://dx.doi.org/10.5252/a2013n2a5" docStyle="DocumentStyle:B98EC8A323C0F63E1C55336AD58D9273.2:Adansonia.2011-2014.journal_article" docStyleId="B98EC8A323C0F63E1C55336AD58D9273" docStyleName="Adansonia.2011-2014.journal_article" docStyleVersion="2" docTitle="Ocotea humblotii Baillon" docType="treatment" docVersion="5" lastPageId="21" lastPageNumber="254" masterDocId="3B250C50FFE4FFCAF5556014FFCBCF4B" masterDocTitle="A revision of the genus Ocotea Aubl. (Lauraceae) in Madagascar and the Comoro Islands" masterLastPageNumber="279" masterPageNumber="235" pageId="19" pageNumber="254" updateTime="1650293201017" updateUser="jonas" zenodo-license-document="CC-BY-4.0" zenodo-license-figures="CC-BY-4.0">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6468407" ID-GBIF-Dataset="93b27db0-ab0a-40d9-862c-1a5c68678186" ID-ISSN="1639-4798" ID-Zenodo-Dep="6468407" checkinTime="1629124948625" checkinUser="carolina" docAuthor="Werff, Henk Van Der" docDate="2013" docId="C71C7428FFF7FFDFF58B6306FE03CE9B" docLanguage="en" docName="Adansonia.35.2.235-279.pdf" docOrigin="Adansonia (3) 35 (2)" docSource="http://dx.doi.org/10.5252/a2013n2a5" docStyle="DocumentStyle:B98EC8A323C0F63E1C55336AD58D9273.2:Adansonia.2011-2014.journal_article" docStyleId="B98EC8A323C0F63E1C55336AD58D9273" docStyleName="Adansonia.2011-2014.journal_article" docStyleVersion="2" docTitle="Ocotea humblotii Baillon" docType="treatment" docVersion="7" lastPageId="21" lastPageNumber="254" masterDocId="3B250C50FFE4FFCAF5556014FFCBCF4B" masterDocTitle="A revision of the genus Ocotea Aubl. (Lauraceae) in Madagascar and the Comoro Islands" masterLastPageNumber="279" masterPageNumber="235" pageId="19" pageNumber="254" updateTime="1650309971595" updateUser="ExternalLinkService" zenodo-license-document="CC-BY-4.0" zenodo-license-figures="CC-BY-4.0">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>A revision of the genus Ocotea Aubl. (Lauraceae) in Madagascar and the Comoro Islands</mods:title>
@@ -41,10 +41,11 @@
 </mods:location>
 <mods:classification>journal article</mods:classification>
 <mods:identifier type="DOI">10.5252/a2013n2a5</mods:identifier>
+<mods:identifier type="GBIF-Dataset">93b27db0-ab0a-40d9-862c-1a5c68678186</mods:identifier>
 <mods:identifier type="ISSN">1639-4798</mods:identifier>
 <mods:identifier type="Zenodo-Dep">5206484</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:C71C7428FFF7FFDFF58B6306FE03CE9B" httpUri="http://treatment.plazi.org/id/C71C7428FFF7FFDFF58B6306FE03CE9B" lastPageId="21" lastPageNumber="254" pageId="19" pageNumber="254">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6468407" ID-Zenodo-Dep="6468407" LSID="urn:lsid:plazi:treatment:C71C7428FFF7FFDFF58B6306FE03CE9B" httpUri="http://treatment.plazi.org/id/C71C7428FFF7FFDFF58B6306FE03CE9B" lastPageId="21" lastPageNumber="254" pageId="19" pageNumber="254">
 <subSubSection box="[222,538,785,812]" pageId="19" pageNumber="254" type="nomenclature">
 <paragraph blockId="19.[222,538,785,844]" box="[222,538,785,812]" pageId="19" pageNumber="254">
 <heading box="[222,538,785,812]" centered="true" fontSize="11" level="2" pageId="19" pageNumber="254" reason="3">
@@ -79,8 +80,10 @@ Baillon
 <bibRefCitation author="KOSTERMANS A. J. G. H." journalOrPublisher="Communication (Pengumuman) of the Forest Research Institute" pageId="19" pageNumber="254" pagination="1 - 44" part="57" refId="ref26822" refString="KOSTERMANS A. J. G. H. 1957. - Le genre Ocotea Aubl. (Lauracees) a Madagascar. Communication (Pengumuman) of the Forest Research Institute 57: 1 - 44." title="Le genre Ocotea Aubl. (Lauracees) a Madagascar" type="journal article" year="1957">
 Kosterm., 
 <emphasis box="[387,539,951,974]" italics="true" pageId="19" pageNumber="254">Communication</emphasis>
-<emphasis box="[543,646,951,974]" italics="true" pageId="19" pageNumber="254">(Pengumu-</emphasis>
-<emphasis box="[136,466,977,1002]" italics="true" pageId="19" pageNumber="254">man) of the Forest Research Institute</emphasis>
+<emphasis box="[543,646,951,974]" italics="true" pageId="19" pageNumber="254">
+(
+<emphasis box="[136,466,977,1002]" italics="true" pageId="19" pageNumber="254">Pengumuman) of the Forest Research Institute</emphasis>
+</emphasis>
 , 
 <collectingCountry box="[478,576,977,1001]" name="Indonesia" pageId="19" pageNumber="254">Indonesia</collectingCountry>
 , 60: 12 (1957)
@@ -145,9 +148,11 @@ Typus:
 <bibRefCitation author="KOSTERMANS A. J. G. H." journalOrPublisher="Communication (Pengumuman) of the Forest Research Institute" pageId="19" pageNumber="254" pagination="1 - 44" part="57" refId="ref26822" refString="KOSTERMANS A. J. G. H. 1957. - Le genre Ocotea Aubl. (Lauracees) a Madagascar. Communication (Pengumuman) of the Forest Research Institute 57: 1 - 44." title="Le genre Ocotea Aubl. (Lauracees) a Madagascar" type="journal article" year="1957">
 Kosterm., 
 <emphasis box="[426,585,1132,1155]" italics="true" pageId="19" pageNumber="254">Communication</emphasis>
-<emphasis box="[593,646,1132,1155]" italics="true" pageId="19" pageNumber="254">(Pen-</emphasis>
-<emphasis box="[136,549,1158,1183]" italics="true" pageId="19" pageNumber="254">gumuman) of the Forest Research Institute</emphasis>
-, Indone- sia, 60: 20 (1957).
+<emphasis box="[593,646,1132,1155]" italics="true" pageId="19" pageNumber="254">
+(
+<emphasis box="[136,549,1158,1183]" italics="true" pageId="19" pageNumber="254">Pengumuman) of the Forest Research Institute</emphasis>
+</emphasis>
+, Indonesia, 60: 20 (1957).
 </bibRefCitation>
 </taxonomicName>
 </treatmentCitation>
@@ -287,7 +292,7 @@ et al. 2263
 </paragraph>
 </subSubSection>
 <subSubSection pageId="19" pageNumber="254" type="distribution">
-<paragraph blockId="19.[112,649,876,1699]" lastBlockId="19.[675,1210,215,340]" pageId="19" pageNumber="254">
+<paragraph blockId="19.[112,649,876,1699]" pageId="19" pageNumber="254">
 DISTRIBUTION. — 
 <taxonomicName box="[290,446,1622,1646]" class="Magnoliopsida" family="Lauraceae" genus="Ocotea" kingdom="Plantae" order="Laurales" pageId="19" pageNumber="254" phylum="Tracheophyta" rank="species" species="humblotii">
 <emphasis box="[290,446,1622,1646]" italics="true" pageId="19" pageNumber="254">Ocotea humblotii</emphasis>
@@ -298,8 +303,9 @@ north to Sambava and Vohémar, at altitudes from
 <quantity box="[423,549,1675,1699]" metricMagnitude="2" metricUnit="m" metricValue="6.75" metricValueMax="11.0" metricValueMin="2.5" pageId="19" pageNumber="254" unit="m" value="675.0" valueMax="1100.0" valueMin="250.0">
 <elevation box="[423,549,1675,1699]" metricMagnitude="2" metricUnit="m" metricValue="6.75" metricValueMax="11.0" metricValueMin="2.5" pageId="19" pageNumber="254" unit="m" value="675.0" valueMax="1100.0" valueMin="250.0">250-1100 m</elevation>
 </quantity>
-. PHENOLOGY. — Flowers: September -December; fruits: February, May, August.
+.
 </paragraph>
+<paragraph blockId="19.[675,1210,215,340]" pageId="19" pageNumber="254">PHENOLOGY. — Flowers: September -December; fruits: February, May, August.</paragraph>
 </subSubSection>
 <subSubSection pageId="19" pageNumber="254" type="vernacular_names">
 <paragraph blockId="19.[675,1210,215,340]" pageId="19" pageNumber="254">VERNACULAR NAMES. — Varongy mainty, tafononana, tafononana fotsy, tafononana mavo.</paragraph>

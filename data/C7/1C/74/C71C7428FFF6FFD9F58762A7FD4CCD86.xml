@@ -1,4 +1,4 @@
-<document ID-DOI="10.5252/a2013n2a5" ID-ISSN="1639-4798" ID-Zenodo-Dep="5206484" approvalRequired="85" approvalRequired_for_taxonomicNames="2" approvalRequired_for_textStreams="83" checkinTime="1629124948625" checkinUser="carolina" docAuthor="Werff, Henk Van Der" docDate="2013" docId="C71C7428FFF6FFD9F58762A7FD4CCD86" docLanguage="en" docName="Adansonia.35.2.235-279.pdf" docOrigin="Adansonia (3) 35 (2)" docSource="http://dx.doi.org/10.5252/a2013n2a5" docStyle="DocumentStyle:B98EC8A323C0F63E1C55336AD58D9273.2:Adansonia.2011-2014.journal_article" docStyleId="B98EC8A323C0F63E1C55336AD58D9273" docStyleName="Adansonia.2011-2014.journal_article" docStyleVersion="2" docTitle="Ocotea humbertii Kosterm." docType="treatment" docVersion="5" lastPageId="19" lastPageNumber="253" masterDocId="3B250C50FFE4FFCAF5556014FFCBCF4B" masterDocTitle="A revision of the genus Ocotea Aubl. (Lauraceae) in Madagascar and the Comoro Islands" masterLastPageNumber="279" masterPageNumber="235" pageId="18" pageNumber="253" updateTime="1650306537288" updateUser="jonas" zenodo-license-document="CC-BY-4.0" zenodo-license-figures="CC-BY-4.0">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6468403" ID-GBIF-Dataset="93b27db0-ab0a-40d9-862c-1a5c68678186" ID-ISSN="1639-4798" ID-Zenodo-Dep="6468403" checkinTime="1629124948625" checkinUser="carolina" docAuthor="Werff, Henk Van Der" docDate="2013" docId="C71C7428FFF6FFD9F58762A7FD4CCD86" docLanguage="en" docName="Adansonia.35.2.235-279.pdf" docOrigin="Adansonia (3) 35 (2)" docSource="http://dx.doi.org/10.5252/a2013n2a5" docStyle="DocumentStyle:B98EC8A323C0F63E1C55336AD58D9273.2:Adansonia.2011-2014.journal_article" docStyleId="B98EC8A323C0F63E1C55336AD58D9273" docStyleName="Adansonia.2011-2014.journal_article" docStyleVersion="2" docTitle="Ocotea humbertii Kosterm." docType="treatment" docVersion="7" lastPageId="19" lastPageNumber="253" masterDocId="3B250C50FFE4FFCAF5556014FFCBCF4B" masterDocTitle="A revision of the genus Ocotea Aubl. (Lauraceae) in Madagascar and the Comoro Islands" masterLastPageNumber="279" masterPageNumber="235" pageId="18" pageNumber="253" updateTime="1650309971595" updateUser="ExternalLinkService" zenodo-license-document="CC-BY-4.0" zenodo-license-figures="CC-BY-4.0">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>A revision of the genus Ocotea Aubl. (Lauraceae) in Madagascar and the Comoro Islands</mods:title>
@@ -41,10 +41,11 @@
 </mods:location>
 <mods:classification>journal article</mods:classification>
 <mods:identifier type="DOI">10.5252/a2013n2a5</mods:identifier>
+<mods:identifier type="GBIF-Dataset">93b27db0-ab0a-40d9-862c-1a5c68678186</mods:identifier>
 <mods:identifier type="ISSN">1639-4798</mods:identifier>
 <mods:identifier type="Zenodo-Dep">5206484</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:C71C7428FFF6FFD9F58762A7FD4CCD86" httpUri="http://treatment.plazi.org/id/C71C7428FFF6FFD9F58762A7FD4CCD86" lastPageId="19" lastPageNumber="253" pageId="18" pageNumber="253">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6468403" ID-Zenodo-Dep="6468403" LSID="urn:lsid:plazi:treatment:C71C7428FFF6FFD9F58762A7FD4CCD86" httpUri="http://treatment.plazi.org/id/C71C7428FFF6FFD9F58762A7FD4CCD86" lastPageId="19" lastPageNumber="253" pageId="18" pageNumber="253">
 <subSubSection box="[210,550,690,718]" pageId="18" pageNumber="253" type="nomenclature">
 <paragraph blockId="18.[210,550,690,749]" box="[210,550,690,718]" pageId="18" pageNumber="253">
 <heading box="[210,550,690,718]" centered="true" fontSize="11" level="2" pageId="18" pageNumber="253" reason="3">
@@ -74,17 +75,13 @@ Kosterm.
 </subSubSection>
 <subSubSection pageId="18" pageNumber="253" type="materials_examined">
 <paragraph blockId="18.[113,648,780,1206]" pageId="18" pageNumber="253">
-<materialsCitation pageId="18" pageNumber="253">
-<typeStatus box="[113,179,828,851]" pageId="18" pageNumber="253">TYPUS</typeStatus>
-. — 
+<materialsCitation collectingDate="1934-01" collectionCode="P" collectorName="Humbert" country="Madagascar" elevation="1850" location="Massif de l'Andohahela" pageId="18" pageNumber="253" specimenCode="P00541569" specimenCount="1" typeStatus="holotype">
+TYPUS. — 
 <emphasis bold="true" box="[235,363,827,851]" pageId="18" pageNumber="253">
 <collectingCountry box="[235,363,827,851]" name="Madagascar" pageId="18" pageNumber="253">Madagascar</collectingCountry>
 </emphasis>
 . 
-<location LSID="urn:lsid:plazi:treatment:C71C7428FFF6FFD9F58762A7FD4CCD86:4A6A93E5FFF6FFD8F42B632FFD4ACC18" box="[382,641,827,851]" country="Madagascar" name="Massif de l'Andohahela" pageId="18" pageNumber="253">
-Massif 
-<collectorName box="[462,641,827,851]" pageId="18" pageNumber="253">de l’Andohahela</collectorName>
-</location>
+<location LSID="urn:lsid:plazi:treatment:C71C7428FFF6FFD9F58762A7FD4CCD86:4A6A93E5FFF6FFD8F42B632FFD4ACC18" box="[382,641,827,851]" country="Madagascar" name="Massif de l'Andohahela" pageId="18" pageNumber="253">Massif de l’Andohahela</location>
 , 
 <quantity box="[113,261,854,878]" metricMagnitude="3" metricUnit="m" metricValue="1.85" metricValueMax="1.9" metricValueMin="1.8" pageId="18" pageNumber="253" unit="m" value="1850.0" valueMax="1900.0" valueMin="1800.0">
 <elevation box="[113,261,854,878]" metricMagnitude="3" metricUnit="m" metricValue="1.85" metricValueMax="1.9" metricValueMin="1.8" pageId="18" pageNumber="253" unit="m" value="1850.0" valueMax="1900.0" valueMin="1800.0">1800-1900 m</elevation>
@@ -94,12 +91,22 @@ Massif
 <collectingDate box="[275,347,854,878]" pageId="18" pageNumber="253" value="1934-01">I.1934</collectingDate>
 </date>
 , fls, 
-<emphasis box="[400,567,854,878]" italics="true" pageId="18" pageNumber="253">Humbert 13613</emphasis>
-(holo-, 
+<emphasis box="[400,567,854,878]" italics="true" pageId="18" pageNumber="253">
+<collectorName box="[400,491,854,878]" pageId="18" pageNumber="253">Humbert</collectorName>
+13613
+</emphasis>
+(
+<typeStatus box="[583,642,854,878]" pageId="18" pageNumber="253">holo-</typeStatus>
+, 
 <collectionCode box="[115,130,881,904]" country="France" lsid="urn:lsid:biocol.org:col:15763" name="Museum National d' Histoire Naturelle, Paris (MNHN) - Vascular Plants" pageId="18" pageNumber="253" type="Herbarium">P</collectionCode>
 [
 <specimenCode box="[136,246,880,904]" collectionCode="P" country="France" lsid="urn:lsid:biocol.org:col:15763" name="Museum National d' Histoire Naturelle, Paris (MNHN) - Vascular Plants" pageId="18" pageNumber="253" type="Herbarium">P00541569</specimenCode>
-]!; iso-, 
+]!
+</materialsCitation>
+; 
+<materialsCitation box="[269,642,880,904]" collectingDate="1934-01" collectionCode="MO, P" collectorName="Humbert" country="Madagascar" elevation="1850" location="Massif de l'Andohahela" pageId="18" pageNumber="253" specimenCode="P00541570, P00541571" specimenCount="1" typeStatus="isotype">
+<typeStatus box="[269,305,880,904]" pageId="18" pageNumber="253">iso-</typeStatus>
+, 
 <collectionCode box="[313,359,880,904]" country="USA" lsid="urn:lsid:biocol.org:col:15859" name="Missouri Botanical Garden" pageId="18" pageNumber="253" type="Herbarium">MO</collectionCode>
 !, 
 <collectionCode box="[370,385,881,904]" country="France" lsid="urn:lsid:biocol.org:col:15763" name="Museum National d' Histoire Naturelle, Paris (MNHN) - Vascular Plants" pageId="18" pageNumber="253" type="Herbarium">P</collectionCode>
@@ -184,7 +191,7 @@ Kosterm.
 (
 <emphasis bold="true" box="[1127,1141,1196,1214]" pageId="18" pageNumber="253">N</emphasis>
 ), 
-<emphasis italics="true" pageId="18" pageNumber="253">O. fo- veolata</emphasis>
+<emphasis italics="true" pageId="18" pageNumber="253">O. foveolata</emphasis>
 Kosterm. (
 <emphasis bold="true" box="[830,848,1219,1236]" italics="true" pageId="18" pageNumber="253">p</emphasis>
 ), 
