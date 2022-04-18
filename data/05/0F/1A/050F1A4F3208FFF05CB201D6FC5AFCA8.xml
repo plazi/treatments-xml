@@ -1,4 +1,4 @@
-<document ID-DOI="10.2478/vzoo-2014-0048" ID-ISSN="2073-2333" ID-Zenodo-Dep="6449149" approvalRequired="7" approvalRequired_for_textStreams="6" approvalRequired_for_treatments="1" checkinTime="1649699733196" checkinUser="felipe" docAuthor="Khaganinia, S. &amp; Kazerani, F." docDate="2014" docId="050F1A4F3208FFF05CB201D6FC5AFCA8" docLanguage="en" docName="VestnikZoologii.48.5.401-410.pdf" docOrigin="Vestnik Zoologii 48 (5)" docSource="http://dx.doi.org/10.2478/vzoo-2014-0048" docStyle="DocumentStyle:9FE6554C034D0A4D8EA9CEAE255F4368.2:VestnikZoologii.2014-2019.journal_article" docStyleId="9FE6554C034D0A4D8EA9CEAE255F4368" docStyleName="VestnikZoologii.2014-2019.journal_article" docStyleVersion="2" docTitle="Cheilosia (Cheilosia) ruralis" docType="treatment" docVersion="2" lastPageNumber="407" masterDocId="F9366237320EFFF65C140079FFF4FFC2" masterDocTitle="A Review Of The Genus Cheilosia (Diptera, Syrphidae) From Iran" masterLastPageNumber="410" masterPageNumber="401" pageId="6" pageNumber="407" updateTime="1649700240181" updateUser="ExternalLinkService" zenodo-license-document="CC-BY-4.0">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6467521" ID-GBIF-Dataset="a9e2bd3c-4c26-483f-9f17-f44b53075c03" ID-ISSN="2073-2333" ID-Zenodo-Dep="6467521" checkinTime="1649699733196" checkinUser="felipe" docAuthor="Khaganinia, S. &amp; Kazerani, F." docDate="2014" docId="050F1A4F3208FFF05CB201D6FC5AFCA8" docLanguage="en" docName="VestnikZoologii.48.5.401-410.pdf" docOrigin="Vestnik Zoologii 48 (5)" docSource="http://dx.doi.org/10.2478/vzoo-2014-0048" docStyle="DocumentStyle:9FE6554C034D0A4D8EA9CEAE255F4368.2:VestnikZoologii.2014-2019.journal_article" docStyleId="9FE6554C034D0A4D8EA9CEAE255F4368" docStyleName="VestnikZoologii.2014-2019.journal_article" docStyleVersion="2" docTitle="Cheilosia (Cheilosia) ruralis" docType="treatment" docVersion="4" lastPageNumber="407" masterDocId="F9366237320EFFF65C140079FFF4FFC2" masterDocTitle="A Review Of The Genus Cheilosia (Diptera, Syrphidae) From Iran" masterLastPageNumber="410" masterPageNumber="401" pageId="6" pageNumber="407" updateTime="1650289674603" updateUser="ExternalLinkService" zenodo-license-document="CC-BY-4.0">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>A Review Of The Genus Cheilosia (Diptera, Syrphidae) From Iran</mods:title>
@@ -42,11 +42,12 @@
 </mods:location>
 <mods:classification>journal article</mods:classification>
 <mods:identifier type="DOI">10.2478/vzoo-2014-0048</mods:identifier>
+<mods:identifier type="GBIF-Dataset">a9e2bd3c-4c26-483f-9f17-f44b53075c03</mods:identifier>
 <mods:identifier type="ISSN">2073-2333</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6449149</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:050F1A4F3208FFF05CB201D6FC5AFCA8" httpUri="http://treatment.plazi.org/id/050F1A4F3208FFF05CB201D6FC5AFCA8" lastPageNumber="407" pageId="6" pageNumber="407">
-<subSubSection pageId="6" pageNumber="407" type="nomenclature">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6467521" ID-Zenodo-Dep="6467521" LSID="urn:lsid:plazi:treatment:050F1A4F3208FFF05CB201D6FC5AFCA8" httpUri="http://treatment.plazi.org/id/050F1A4F3208FFF05CB201D6FC5AFCA8" lastPageNumber="407" pageId="6" pageNumber="407">
+<subSubSection box="[166,825,431,458]" pageId="6" pageNumber="407" type="nomenclature">
 <paragraph blockId="6.[166,825,431,458]" box="[166,825,431,458]" pageId="6" pageNumber="407">
 <heading box="[166,825,431,458]" fontSize="36" level="2" pageId="6" pageNumber="407" reason="3">
 <taxonomicName authority="(Meigen, 1822)" baseAuthorityName="Meigen" baseAuthorityYear="1822" box="[166,691,431,458]" class="Insecta" family="Syrphidae" genus="Cheilosia" kingdom="Animalia" order="Diptera" pageId="6" pageNumber="407" phylum="Arthropoda" rank="species" species="ruralis" subGenus="Cheilosia">
@@ -66,7 +67,9 @@
 )
 </heading>
 </paragraph>
-<paragraph blockId="6.[166,1225,488,537]" box="[219,1225,488,510]" pageId="6" pageNumber="407">
+</subSubSection>
+<subSubSection pageId="6" pageNumber="407" type="materials_examined">
+<paragraph blockId="6.[166,1225,488,537]" pageId="6" pageNumber="407">
 <materialsCitation box="[219,1220,488,510]" country="Iran" elevation="1288" latitude="38.933083" location="Horand" longLatPrecision="1" longitude="47.300568" pageId="6" pageNumber="407" specimenCount="1" stateProvince="Azarbayjan-e Sharqi">
 M a t e r i a l e x a m i n e d. 
 <collectingCountry box="[476,519,488,510]" name="Iran" pageId="6" pageNumber="407">Iran</collectingCountry>
@@ -83,16 +86,14 @@ M a t e r i a l e x a m i n e d.
 <elevation box="[1147,1220,488,510]" metricMagnitude="3" metricUnit="m" metricValue="1.288" pageId="6" pageNumber="407" unit="m" value="1288.0">1288 m</elevation>
 </quantity>
 </materialsCitation>
-,
-</paragraph>
-</subSubSection>
-<subSubSection pageId="6" pageNumber="407" type="description">
-<paragraph blockId="6.[166,1225,488,537]" box="[166,487,514,537]" pageId="6" pageNumber="407">
+, 
 <date box="[166,271,515,537]" pageId="6" pageNumber="407" value="2010-01-07">01.07.2010</date>
 , 
 <specimenCount box="[280,312,514,537]" pageId="6" pageNumber="407" type="female">2 ♀</specimenCount>
 (S. Khaghaninia).
 </paragraph>
+</subSubSection>
+<subSubSection pageId="6" pageNumber="407" type="distribution">
 <paragraph blockId="6.[166,1225,559,874]" pageId="6" pageNumber="407">
 D i s t r i b u t i o n. From Fennoscandia southwards to Iberian Peninsula and the Mediterranean region (including Crete); from Britain eastwards through Central and Southern Europe to the Balkans and 
 <collectingCountry box="[699,795,623,649]" name="Turkey" pageId="6" pageNumber="407">Turkey</collectingCountry>
@@ -102,6 +103,8 @@ D i s t r i b u t i o n. From Fennoscandia southwards to Iberian Peninsula and t
 <bibRefCitation author="Gilasian, E." pageId="6" pageNumber="407" pagination="75 - 76" refId="ref6509" refString="Gilasian, E. New record of one genus and six species of Syrphidae (Diptera) from Iran // J. Entomological Society of Iran. - 2005. - 25, N 1. - P. 75 - 76." type="book chapter" year="2005">Gilasian, 2005</bibRefCitation>
 ).
 </paragraph>
+</subSubSection>
+<subSubSection pageId="6" pageNumber="407" type="diagnosis">
 <paragraph blockId="6.[166,1225,559,874]" pageId="6" pageNumber="407">
 D i a g n o s t i c c h a r a c t e r s. Eye with short white hairs in dorsal half; face without distinct hairs (
 <figureCitation box="[332,391,719,745]" captionStart="Fig" captionStartId="5.[170,203,1669,1691]" captionTargetBox="[173,1228,862,1644]" captionTargetId="figure-318@5.[169,1228,862,1644]" captionTargetPageId="5" captionText="Fig. 3. Cheilosia rufipes (a–c): a — dorsal view of female, b — frontal view of head of female, c — male genitalia; C. aruralis, female (d–f): d — dorsal view, e — frontal view of head, f — lateral view; Cheilosia scutellata male (g–i): g — lateral view, h — frontal view of head, i — genitalia." figureDoi="http://doi.org/10.5281/zenodo.6449155" httpUri="https://zenodo.org/record/6449155/files/figure.png" pageId="6" pageNumber="407">fig. 3</figureCitation>
