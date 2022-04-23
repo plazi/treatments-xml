@@ -8,7 +8,7 @@ The repository contains all treatments in the Plazi Root Format GG-XML, all othe
 
 # Workflow: How Changes are translated to Synospecies
 
-Changed XML is uploaded to this repository\
+Changed XML is uploaded to this repository (currently this is always from TreatmentBank)\
 ↓\
 A github action in this repository transforms this XML with the [XSLT](gg2rdf.xslt) to RDF.\
 ↓\
