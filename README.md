@@ -10,7 +10,7 @@ The repository contains all treatments in the Plazi Root Format GG-XML, all othe
 
 Changed XML is uploaded to this repository (currently this is always from TreatmentBank)\
 ↓\
-A github action in this repository transforms this XML to RDF Turtle, to do so iut uses this [XSLT](gg2rdf.xslt) and the [Raptor RDF Library](https://librdf.org/raptor/).\
+A github action in this repository is immediatley triggered, this action transforms this XML to RDF Turtle, to do so it uses this [XSLT](gg2rdf.xslt) and the [Raptor RDF Library](https://librdf.org/raptor/).\
 ↓\
 The same Github Action uploads the genrated RDF to the [treatments-rdf repository](https://github.com/plazi/treatments-rdf)\
 ↓\
