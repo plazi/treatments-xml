@@ -12,7 +12,7 @@ Changed XML is uploaded to this repository\
 ↓\
 A github action in this repository transforms this XML with the [XSLT](gg2rdf.xslt) to RDF.\
 ↓\
-The same Github Action uplads this RDF to the [treatments-rdf repository](https://github.com/plazi/treatments-rdf)\
+The same Github Action uploads this RDF to the [treatments-rdf repository](https://github.com/plazi/treatments-rdf)\
 ↓\
 That repository triggers a Webhook on our server, where PSPS takes in the data and stores it in an internal triplestore.
 (Exposed SPARQL-Endpoint at https://treatment.ld.plazi.org/sparql )\
