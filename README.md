@@ -10,9 +10,9 @@ The repository contains all treatments in the Plazi Root Format GG-XML, all othe
 
 Changed XML is uploaded to this repository (currently this is always from TreatmentBank)\
 ↓\
-A github action in this repository transforms this XML with the [XSLT](gg2rdf.xslt) to RDF.\
+A github action in this repository transforms this XML to RDF Turtle, to do so iut uses this [XSLT](gg2rdf.xslt) and the [Raptor RDF Library](https://librdf.org/raptor/).\
 ↓\
-The same Github Action uploads this RDF to the [treatments-rdf repository](https://github.com/plazi/treatments-rdf)\
+The same Github Action uploads the genrated RDF to the [treatments-rdf repository](https://github.com/plazi/treatments-rdf)\
 ↓\
 That repository triggers a Webhook on our server, where PSPS takes in the data and stores it in an internal triplestore.
 (Exposed SPARQL-Endpoint at https://treatment.ld.plazi.org/sparql )\
