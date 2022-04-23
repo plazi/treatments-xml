@@ -8,7 +8,7 @@ The repository contains all treatments in the Plazi Root Format GG-XML, all othe
 
 # Workflow: How Changes are translated to Synospecies
 
-Changed XML is uploaded to this repository (currently this is always from TreatmentBank). The whole history of these XML Documents is available in this Git Repository.\
+Changed XML is uploaded to this repository (currently this is always from TreatmentBank). All XML Documents and their history is available in the [data folder](data/) in this Git Repository.\
 ↓\
 A github action in this repository is immediatley triggered, this action transforms this XML to RDF Turtle, to do so it uses this [XSLT](gg2rdf.xslt) and the [Raptor RDF Library](https://librdf.org/raptor/).\
 ↓\
