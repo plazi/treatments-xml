@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.5327440" ID-ISSN="0253-116X" ID-Zenodo-Dep="5327440" approvalRequired="55" approvalRequired_for_taxonomicNames="3" approvalRequired_for_textStreams="35" approvalRequired_for_treatments="17" checkinTime="1630156329692" checkinUser="carolina" docAuthor="Assing, V." docDate="2012" docId="B96987B9362FFC0CC482D901FB8EB0E0" docLanguage="en" docName="LinzerbiolBeitr.2012.44.1.365-399.pdf" docOrigin="Linzer biologische Beiträge 44 (1)" docStyle="DocumentStyle:24E5EB772D355DE2EE23B1E8D07853E0.7:LinzerbiolBeitr.2006-.journal_article" docStyleId="24E5EB772D355DE2EE23B1E8D07853E0" docStyleName="LinzerbiolBeitr.2006-.journal_article" docStyleVersion="7" docTitle="Oxypoda (Cyrtonychochaeta) nimbicola Fauvel 1900" docType="treatment" docVersion="2" lastPageId="23" lastPageNumber="388" masterDocId="4550FFC13639FC1BC430DD3FFFAFB20D" masterDocTitle="On the taxonomy and zoogeography of some Oxypoda species of the West Palaearctic region (Coleoptera: Staphylinidae: Aleocharinae)" masterLastPageNumber="399" masterPageNumber="365" pageId="22" pageNumber="387" updateTime="1630251159810" updateUser="ExternalLinkService" zenodo-license-document="CC-BY-4.0">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6483873" ID-GBIF-Dataset="cbb1498a-e1c1-4a61-939f-9dbc4c9cabe3" ID-ISSN="0253-116X" ID-Zenodo-Dep="6483873" checkinTime="1630156329692" checkinUser="carolina" docAuthor="Assing, V." docDate="2012" docId="B96987B9362FFC0CC482D901FB8EB0E0" docLanguage="en" docName="LinzerbiolBeitr.2012.44.1.365-399.pdf" docOrigin="Linzer biologische Beiträge 44 (1)" docStyle="DocumentStyle:24E5EB772D355DE2EE23B1E8D07853E0.8:LinzerbiolBeitr.2006-.journal_article" docStyleId="24E5EB772D355DE2EE23B1E8D07853E0" docStyleName="LinzerbiolBeitr.2006-.journal_article" docStyleVersion="8" docTitle="Oxypoda (Cyrtonychochaeta) nimbicola Fauvel 1900" docType="treatment" docVersion="4" lastPageId="23" lastPageNumber="388" masterDocId="4550FFC13639FC1BC430DD3FFFAFB20D" masterDocTitle="On the taxonomy and zoogeography of some Oxypoda species of the West Palaearctic region (Coleoptera: Staphylinidae: Aleocharinae)" masterLastPageNumber="399" masterPageNumber="365" pageId="22" pageNumber="387" updateTime="1650906987546" updateUser="ExternalLinkService" zenodo-license-document="CC-BY-4.0">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>On the taxonomy and zoogeography of some Oxypoda species of the West Palaearctic region (Coleoptera: Staphylinidae: Aleocharinae)</mods:title>
@@ -33,10 +33,11 @@
 </mods:relatedItem>
 <mods:classification>journal article</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.5327440</mods:identifier>
+<mods:identifier type="GBIF-Dataset">cbb1498a-e1c1-4a61-939f-9dbc4c9cabe3</mods:identifier>
 <mods:identifier type="ISSN">0253-116X</mods:identifier>
 <mods:identifier type="Zenodo-Dep">5327440</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:B96987B9362FFC0CC482D901FB8EB0E0" httpUri="http://treatment.plazi.org/id/B96987B9362FFC0CC482D901FB8EB0E0" lastPageId="23" lastPageNumber="388" pageId="22" pageNumber="387">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6483873" ID-Zenodo-Dep="6483873" LSID="urn:lsid:plazi:treatment:B96987B9362FFC0CC482D901FB8EB0E0" httpUri="http://treatment.plazi.org/id/B96987B9362FFC0CC482D901FB8EB0E0" lastPageId="23" lastPageNumber="388" pageId="22" pageNumber="387">
 <subSubSection box="[178,741,1086,1108]" pageId="22" pageNumber="387" type="nomenclature">
 <paragraph blockId="22.[178,741,1086,1108]" box="[178,741,1086,1108]" pageId="22" pageNumber="387">
 <heading box="[178,741,1086,1108]" fontSize="8" level="2" pageId="22" pageNumber="387" reason="2">
@@ -80,8 +81,9 @@ LOHSE 1968:
 f.
 </treatmentCitationGroup>
 </paragraph>
-<paragraph blockId="22.[178,1086,1125,1513]" box="[178,581,1181,1201]" pageId="22" pageNumber="387">T y p e m a t e r i a l e x a m i n e d:</paragraph>
+<paragraph blockId="22.[178,1086,1125,1513]" box="[178,581,1181,1201]" pageId="22" pageNumber="387">Type material examined:</paragraph>
 <paragraph blockId="22.[178,1086,1125,1513]" pageId="22" pageNumber="387">
+<materialsCitation pageId="22" pageNumber="387">
 <taxonomicName authorityName="Fauvel" authorityYear="1900" box="[178,300,1205,1225]" class="Insecta" family="Staphylinidae" genus="Oxypoda" kingdom="Animalia" order="Coleoptera" pageId="22" pageNumber="387" phylum="Arthropoda" rank="species" species="nimbicola">
 <emphasis box="[178,300,1205,1225]" italics="true" pageId="22" pageNumber="387">O. nimbicola</emphasis>
 </taxonomicName>
@@ -95,7 +97,10 @@ f.
 Oxypoda nimbicola 
 <bibRefCitation author="FAUVEL A" box="[553,674,1253,1273]" pageId="22" pageNumber="387" pagination="160 - 161" refId="ref20552" refString="FAUVEL A. (1900): Staphylinides palearctiqaues nouveaux. - Revue d'Entomologie 19: 160 - 161." type="journal article" year="1900">Fauvel, 1900</bibRefCitation>
 </taxonomicName>
-, Zerche desg. 1990&quot; (IRSNB). 
+, Zerche desg. 1990&quot; (IRSNB)
+</materialsCitation>
+. 
+<materialsCitation pageId="22" pageNumber="387">
 <typeStatus box="[961,1085,1253,1273]" pageId="22" pageNumber="387">Paralectotype</typeStatus>
 [heavily damaged; one antenna, pronotum, and two legs missing; legs partly separated from body]: Macugnaga, Mt. Rosa / 
 <taxonomicName authority="Fvl." authorityName="Fauvel" authorityYear="1900" box="[486,625,1301,1321]" class="Insecta" family="Staphylinidae" genus="Oxypoda" kingdom="Animalia" order="Coleoptera" pageId="22" pageNumber="387" phylum="Arthropoda" rank="species" species="nimbicola">nimbicola Fvl.</taxonomicName>
@@ -109,26 +114,31 @@ Oxypoda nimbicola
 Oxypoda nimbicola 
 <bibRefCitation author="FAUVEL A" pageId="22" pageNumber="387" pagination="160 - 161" refId="ref20552" refString="FAUVEL A. (1900): Staphylinides palearctiqaues nouveaux. - Revue d'Entomologie 19: 160 - 161." type="journal article" year="1900">Fauvel, 1900</bibRefCitation>
 </taxonomicName>
-, Zerche desg. 1990&quot; (IRSNB).
+, Zerche desg. 1990&quot; (IRSNB)
+</materialsCitation>
+.
 </paragraph>
 <paragraph blockId="22.[178,1086,1125,1513]" pageId="22" pageNumber="387">
 <taxonomicName authorityName="LOHSE" authorityYear="1968" box="[178,250,1373,1393]" class="Insecta" family="Staphylinidae" genus="Cyrtonychochaeta" kingdom="Animalia" order="Coleoptera" pageId="22" pageNumber="387" phylum="Arthropoda" rank="species" species="falsa">
 <emphasis box="[178,250,1373,1393]" italics="true" pageId="22" pageNumber="387">C. falsa</emphasis>
 </taxonomicName>
 : 
-<materialsCitation collectionCode="MHNG" collectorName="Coll. G. A. Lohse" determinerName="Zerche &amp; V. Assing" pageId="22" pageNumber="387" specimenCount="2" typeStatus="holotype">
+<materialsCitation collectionCode="MHNG" collectorName="Coll. G. A. Lohse" determinerName="V. Assing" location="Barmer Hutte" pageId="22" pageNumber="387" specimenCount="1" stateProvince="Defreggen" typeStatus="holotype">
 <typeStatus box="[263,347,1373,1393]" pageId="22" pageNumber="387">Holotype</typeStatus>
-: &quot;Defreggen, Barmer Hütte, 2600 13.7.63 / 
+: &quot; 
+<collectingRegion box="[394,494,1373,1393]" pageId="22" pageNumber="387">Defreggen</collectingRegion>
+, 
+<location LSID="urn:lsid:plazi:treatment:B96987B9362FFC0CC482D901FB8EB0E0:341F6074362FFC0DC5C9D862FDD6B77C" box="[505,633,1373,1393]" name="Barmer Hutte" pageId="22" pageNumber="387" stateProvince="Defreggen">Barmer Hütte</location>
+, 2600 13.7.63 / 
+<originalDetermination pageId="22" pageNumber="387">
 <taxonomicName authority="Fauv." authorityName="Fauvel" authorityYear="1900" box="[785,1027,1373,1393]" class="Insecta" family="Staphylinidae" genus="Oxypoda" kingdom="Animalia" order="Coleoptera" pageId="22" pageNumber="387" phylum="Arthropoda" rank="species" species="nimbicola">Oxypoda nimbicola Fauv.</taxonomicName>
-? Peez 64. / 
-<typeStatus box="[224,319,1397,1417]" pageId="22" pageNumber="387">Holotypus</typeStatus>
-/ Cyrtonychonych. falsa 
+? Peez 64
+</originalDetermination>
+. / Holotypus / Cyrtonychonych. falsa 
 <taxonomicNameLabel box="[548,598,1397,1417]" pageId="22" pageNumber="387" rank="species">n. sp.</taxonomicNameLabel>
 Lohse 1967 [overleaf] / 
 <taxonomicName authority="(Fauvel)" baseAuthorityName="Fauvel" class="Insecta" family="Staphylinidae" genus="Cyrtonychochaeta" kingdom="Animalia" order="Coleoptera" pageId="22" pageNumber="387" phylum="Arthropoda" rank="species" species="nimbicola">Cyrtonychochaeta nimbicola (Fauvel)</taxonomicName>
-, 
-<determinerName box="[268,331,1421,1441]" pageId="22" pageNumber="387">Zerche</determinerName>
-det. 1990 / 
+, Zerche det. 1990 / 
 <taxonomicName authorityName="LOHSE" authorityYear="1968" box="[444,659,1421,1441]" class="Insecta" family="Staphylinidae" genus="Cyrtonychochaeta" kingdom="Animalia" order="Coleoptera" pageId="22" pageNumber="387" phylum="Arthropoda" rank="species" species="falsa">Cyrtonychochaeta falsa</taxonomicName>
 / 
 <collectorName box="[680,848,1421,1441]" pageId="22" pageNumber="387">Coll. G. A. Lohse</collectorName>
@@ -167,11 +177,13 @@ det. 1990 /
 </paragraph>
 </subSubSection>
 <subSubSection pageId="23" pageNumber="388" type="description">
-<paragraph blockId="23.[178,1086,215,374]" pageId="23" pageNumber="388">
-<materialsCitation collectingDate="1972-08" collectingDateMax="2011-05-25" collectingDateMin="1972-08" collectionCode="MHNG" collectorName="Feldmann &amp; Lenzerheide, S &amp; Szallies &amp; Hohe Tauern &amp; Reisseck" country="France" elevation="2600" location="Isere" municipality="Veiron" pageId="23" pageNumber="388" specimenCount="1" stateProvince="Karnten">
-A d d i t i o n a l m a t e r i a l e x a m i n e d: 
+<paragraph blockId="23.[178,1086,215,749]" pageId="23" pageNumber="388">
+<materialsCitation collectingDate="1976-06-19" collectionCode="MHNG" country="France" location="Isere" municipality="Veiron" pageId="23" pageNumber="388" specimenCount="1">
+Additional material examined: 
 <collectingCountry box="[694,762,215,235]" name="France" pageId="23" pageNumber="388">France</collectingCountry>
-:1, 
+: 
+<specimenCount box="[767,778,215,235]" pageId="23" pageNumber="388">1</specimenCount>
+, 
 <location LSID="urn:lsid:plazi:treatment:B96987B9362FFC0CC482D901FB8EB0E0:341F6074362EFC0CC71BDDE8FCF8B2E6" box="[811,855,215,235]" country="France" municipality="Veiron" name="Isere" pageId="23" pageNumber="388" stateProvince="Karnten">Isère</location>
 , 
 <collectingMunicipality box="[866,927,215,235]" pageId="23" pageNumber="388">Veiron</collectingMunicipality>
@@ -181,7 +193,9 @@ env.,
 </date>
 (
 <collectionCode box="[229,301,238,258]" country="Switzerland" httpUri="http://grbio.org/cool/2jyg-xmd2" name="Museum d'Histoire Naturelle" pageId="23" pageNumber="388" type="Museum">MHNG</collectionCode>
-). 
+).
+</materialsCitation>
+<materialsCitation box="[319,1086,238,258]" collectingDate="1972-08" collectingDateMax="2011-05-25" collectingDateMin="1972-08" collectionCode="MHNG" collectorName="Feldmann" country="France" elevation="2600" location="Isere" municipality="Veiron" pageId="23" pageNumber="388" specimenCount="1" stateProvince="Karnten">
 <collectingCountry box="[319,362,238,258]" name="Italy" pageId="23" pageNumber="388">Italy</collectingCountry>
 : 1, Alpi Cozie, Colle dell'Agnello, 
 <quantity box="[701,772,238,258]" metricMagnitude="3" metricUnit="m" metricValue="2.6" pageId="23" pageNumber="388" unit="m" value="2600.0">
@@ -193,7 +207,9 @@ env.,
 </date>
 , leg. 
 <collectorName box="[933,1020,238,258]" pageId="23" pageNumber="388">Feldmann</collectorName>
-(cFel). 
+(cFel).
+</materialsCitation>
+<materialsCitation collectingDate="1972-08" collectingDateMax="2011-05-25" collectingDateMin="1972-08" collectionCode="MHNG" collectorName="Szallies" country="France" elevation="2600" location="Isere" municipality="Veiron" pageId="23" pageNumber="388" specimenCount="1" stateProvince="Karnten">
 <collectingCountry box="[223,330,261,281]" name="Switzerland" pageId="23" pageNumber="388">Switzerland</collectingCountry>
 : 1, 1, Graubünden, 
 <collectorName box="[537,668,261,281]" pageId="23" pageNumber="388">Lenzerheide, S</collectorName>
@@ -207,12 +223,14 @@ Parpaner Rothorn,
 </date>
 , leg. 
 <collectorName box="[223,290,285,305]" pageId="23" pageNumber="388">Szallies</collectorName>
-(cSza, cAss). 
+(cSza, cAss).
+</materialsCitation>
+<materialsCitation collectingDate="1972-08" collectingDateMax="2011-05-25" collectingDateMin="1972-08" collectionCode="MHNG" collectorName="Reisseck" country="Austria" elevation="2600" location="Hohe Tauern" municipality="Veiron" pageId="23" pageNumber="388" specimenCount="1" stateProvince="Karnten">
 <collectingCountry box="[429,496,285,305]" name="Austria" pageId="23" pageNumber="388">Austria</collectingCountry>
 : 1, 1, 
 <collectingRegion box="[600,672,285,305]" country="Austria" name="Karnten" pageId="23" pageNumber="388">Kärnten</collectingRegion>
 , 
-<collectorName box="[686,808,285,305]" pageId="23" pageNumber="388">Hohe Tauern</collectorName>
+<location LSID="urn:lsid:plazi:treatment:B96987B9362FFC0CC482D901FB8EB0E0:341F6074362EFC0CC69EDC22FC87B33C" box="[686,808,285,305]" country="Austria" municipality="Veiron" name="Hohe Tauern" pageId="23" pageNumber="388" stateProvince="Karnten">Hohe Tauern</location>
 , 
 <collectorName box="[821,895,285,305]" pageId="23" pageNumber="388">Reisseck</collectorName>
 , 
@@ -241,7 +259,9 @@ Parpaner Rothorn,
 </date>
 , leg. 
 <collectorName box="[1025,1086,308,328]" pageId="23" pageNumber="388">Assing</collectorName>
-(cAss). 
+(cAss).
+</materialsCitation>
+<materialsCitation collectingDate="1996-07-23" collectingDateMax="1999-07-26" collectingDateMin="1996-07-23" collectorName="Assing &amp; Triglavski Narodni Park, V" country="Slovenia" elevation="2300" location="Gurktaler Alpen" municipality="Rinsennock" pageId="23" pageNumber="388" specimenCount="1" stateProvince="Karnten">
 <collectingCountry box="[290,369,331,351]" name="Slovenia" pageId="23" pageNumber="388">Slovenia</collectingCountry>
 : 1, 
 <collectorName box="[417,658,331,351]" pageId="23" pageNumber="388">Triglavski Narodni Park, V</collectorName>
@@ -257,14 +277,14 @@ Parpaner Rothorn,
 </materialsCitation>
 .
 </paragraph>
-<paragraph blockId="23.[178,1086,389,528]" pageId="23" pageNumber="388">
-C o m m e n t: The original description of 
+<paragraph blockId="23.[178,1086,215,749]" pageId="23" pageNumber="388">
+Comment: The original description of 
 <taxonomicName authorityName="Fauvel" authorityYear="1900" box="[654,790,389,411]" class="Insecta" family="Staphylinidae" genus="Oxypoda" kingdom="Animalia" order="Coleoptera" pageId="23" pageNumber="388" phylum="Arthropoda" rank="species" species="nimbicola">
 <emphasis box="[654,790,389,411]" italics="true" pageId="23" pageNumber="388">O. nimbicola</emphasis>
 </taxonomicName>
 is based on an unspecified number of 
 <typeStatus box="[294,383,419,440]" pageId="23" pageNumber="388">syntypes</typeStatus>
-from &quot;Mont Rosa: Macugnaga; Savoie: La Vanoise, août! Hautes- Pyrénées: Arrens&quot; (
+from &quot;Mont Rosa: Macugnaga; Savoie: La Vanoise, août! Hautes-Pyrénées: Arrens&quot; (
 <bibRefCitation author="FAUVEL A" box="[378,523,447,469]" pageId="23" pageNumber="388" pagination="160 - 161" refId="ref20552" refString="FAUVEL A. (1900): Staphylinides palearctiqaues nouveaux. - Revue d'Entomologie 19: 160 - 161." type="journal article" year="1900">FAUVEL 1900</bibRefCitation>
 ). 
 <bibRefCitation author="ZERCHE L" box="[541,696,447,469]" pageId="23" pageNumber="388" pagination="307 - 336" refId="ref21311" refString="ZERCHE L. (1995): Revision der Oxypoda - Untergattung Cyrtonychochaeta SCHEERPELTZ, 1947, stat. n., und alpiner Arten der Untergattung Podoxya MULSANT &amp; REY, 1875 (Coleoptera, Staphylinidae, Aleocharinae). - Beitrage zur Entomologie, Berlin 45 (2): 307 - 336." type="journal article" year="1995">ZERCHE (1995)</bibRefCitation>
@@ -280,7 +300,7 @@ is in very poor condition.
 </paragraph>
 </subSubSection>
 <subSubSection pageId="23" pageNumber="388" type="reference_group">
-<paragraph blockId="23.[178,1086,543,653]" pageId="23" pageNumber="388">
+<paragraph blockId="23.[178,1086,215,749]" pageId="23" pageNumber="388">
 <taxonomicName authorityName="LOHSE" authorityYear="1968" box="[178,419,543,565]" class="Insecta" family="Staphylinidae" genus="Cyrtonychochaeta" kingdom="Animalia" order="Coleoptera" pageId="23" pageNumber="388" phylum="Arthropoda" rank="species" species="falsa">
 <emphasis box="[178,419,543,565]" italics="true" pageId="23" pageNumber="388">Cyrtonychochaeta falsa</emphasis>
 </taxonomicName>
@@ -306,7 +326,7 @@ with
 </taxonomicName>
 without specifying his reasons.
 </paragraph>
-<paragraph blockId="23.[178,1085,668,749]" pageId="23" pageNumber="388">
+<paragraph blockId="23.[178,1086,215,749]" pageId="23" pageNumber="388">
 This species is subject to remarkable intraspecific variation, particularly of the coloration, antennal morphology, the shape of the pronotum, and the shape of the spermatheca. For illustrations of the variability of the spermatheca see 
 <bibRefCitation author="ZERCHE L" box="[896,1053,727,749]" pageId="23" pageNumber="388" pagination="307 - 336" refId="ref21311" refString="ZERCHE L. (1995): Revision der Oxypoda - Untergattung Cyrtonychochaeta SCHEERPELTZ, 1947, stat. n., und alpiner Arten der Untergattung Podoxya MULSANT &amp; REY, 1875 (Coleoptera, Staphylinidae, Aleocharinae). - Beitrage zur Entomologie, Berlin 45 (2): 307 - 336." type="journal article" year="1995">ZERCHE (1995)</bibRefCitation>
 .
