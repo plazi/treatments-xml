@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.5062924" ID-GBIF-Dataset="d23af9df-f41f-492c-a123-2a497f38ec7b" ID-GBIF-Taxon="183238690" ID-ISSN="1804-6487" ID-Zenodo-Dep="5062924" checkinTime="1612479102273" checkinUser="felipe" docAuthor="Bezděk, Jan" docDate="2019" docId="0C4EEE5EFFF4014860A1F35F96F88ED3" docLanguage="en" docName="ActaEntMusNatPra.59.1.23-52.pdf" docOrigin="Acta Entomologica Musei Nationalis Pragae (Acta. Ent. Mus. Natl. Pragae) 59 (1)" docSource="http://dx.doi.org/10.2478/aemnp-2019-0003" docStyle="DocumentStyle:BA2C5C8540539042E893A65A182CEA85.7:ActaEntMusNatPra.2018-.journal_article" docStyleId="BA2C5C8540539042E893A65A182CEA85" docStyleName="ActaEntMusNatPra.2018-.journal_article" docStyleVersion="7" docTitle="Taumacera variceps" docType="treatment" docVersion="7" lastPageNumber="45" masterDocId="F0779626FFE2015E6332F00093718B22" masterDocTitle="Taumacera revisited, with new synonyms, new combinations and a revised catalogue of the species (Coleoptera: Chrysomelidae: Galerucinae)" masterLastPageNumber="52" masterPageNumber="23" pageId="22" pageNumber="45" updateTime="1650911863901" updateUser="tatiana" zenodo-license-document="CC-BY-NC-ND-3.0">
+<document ID-DOI="http://doi.org/10.5281/zenodo.5062924" ID-GBIF-Dataset="d23af9df-f41f-492c-a123-2a497f38ec7b" ID-GBIF-Taxon="183238690" ID-ISSN="1804-6487" ID-Zenodo-Dep="5062924" checkinTime="1612479102273" checkinUser="felipe" docAuthor="Bezděk, Jan" docDate="2019" docId="0C4EEE5EFFF4014860A1F35F96F88ED3" docLanguage="en" docName="ActaEntMusNatPra.59.1.23-52.pdf" docOrigin="Acta Entomologica Musei Nationalis Pragae (Acta. Ent. Mus. Natl. Pragae) 59 (1)" docSource="http://dx.doi.org/10.2478/aemnp-2019-0003" docStyle="DocumentStyle:BA2C5C8540539042E893A65A182CEA85.7:ActaEntMusNatPra.2018-.journal_article" docStyleId="BA2C5C8540539042E893A65A182CEA85" docStyleName="ActaEntMusNatPra.2018-.journal_article" docStyleVersion="7" docTitle="Taumacera variceps" docType="treatment" docVersion="8" lastPageNumber="45" masterDocId="F0779626FFE2015E6332F00093718B22" masterDocTitle="Taumacera revisited, with new synonyms, new combinations and a revised catalogue of the species (Coleoptera: Chrysomelidae: Galerucinae)" masterLastPageNumber="52" masterPageNumber="23" pageId="22" pageNumber="45" updateTime="1651069630259" updateUser="tatiana" zenodo-license-document="CC-BY-NC-ND-3.0">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Taumacera revisited, with new synonyms, new combinations and a revised catalogue of the species (Coleoptera: Chrysomelidae: Galerucinae)</mods:title>
@@ -76,7 +76,6 @@
 )
 </paragraph>
 </subSubSection>
-<treatmentCitationGroup pageId="22" pageNumber="45">
 <subSubSection box="[828,1419,927,946]" pageId="22" pageNumber="45" type="reference_group">
 <paragraph blockId="22.[828,1438,893,1521]" box="[828,1419,927,946]" pageId="22" pageNumber="45">
 <treatmentCitation author="LABOISSIERE V." box="[828,1232,927,946]" page="71" pageId="22" pageNumber="45" year="1933">
@@ -91,10 +90,14 @@
 <subSubSection pageId="22" pageNumber="45" type="materials_examined">
 <paragraph blockId="22.[828,1438,893,1521]" pageId="22" pageNumber="45">
 <emphasis bold="true" box="[828,1048,969,988]" pageId="22" pageNumber="45">Type material examined.</emphasis>
+<materialsCitation pageId="22" pageNumber="45">
 <typeStatus box="[1053,1130,969,988]" pageId="22" pageNumber="45">SYNTYPES</typeStatus>
-: 3 ♁♁ (on the same pin), ‘Hoa-Binh / de Cooman [w, h] // TYPE [red letters, p] / ♁ [w, h] // 
+: 3 ♂♂ (on the same pin), ‘Hoa-Binh / de Cooman [w, h] // TYPE [red letters, p] / ♂ [w, h] // 
 <taxonomicName authorityName="Laboissiere" authorityYear="1933" box="[1292,1425,995,1014]" class="Insecta" family="Chrysomelidae" genus="Platyxanthoides" higherTaxonomySource="GBIF" kingdom="Animalia" order="Coleoptera" pageId="22" pageNumber="45" phylum="Arthropoda" rank="genus">Platyxanthoides</taxonomicName>
-/ variceps m.[h] / V.Laboissière – Dét.[w, p] // Le Moult Vend./ via Reinbek / Eing Nr. 1, 1957 [white w, p]’ (ZMUH); 1 ♁, ‘ 
+/ variceps m.[h] / V.Laboissière – Dét.[w, p] // Le Moult Vend./ via Reinbek / Eing Nr. 1, 1957 [white w, p]’ (ZMUH);
+</materialsCitation>
+<materialsCitation pageId="22" pageNumber="45">
+1 ♂, ‘ 
 <collectingCountry box="[1226,1289,1049,1068]" name="Vietnam" pageId="22" pageNumber="45">Tonkin</collectingCountry>
 / Lac Tho / 
 <collectingRegion country="Vietnam" name="Hoa Binh" pageId="22" pageNumber="45">HOA BINH</collectingRegion>
@@ -102,33 +105,41 @@
 <taxonomicName authorityName="Laboissiere" authorityYear="1933" box="[1089,1222,1075,1094]" class="Insecta" family="Chrysomelidae" genus="Platyxanthoides" higherTaxonomySource="GBIF" kingdom="Animalia" order="Coleoptera" pageId="22" pageNumber="45" phylum="Arthropoda" rank="genus">Platyxanthoides</taxonomicName>
 / variceps m / 
 <typeStatus box="[1344,1416,1075,1094]" pageId="22" pageNumber="45">paratype</typeStatus>
-♁ [h] / V. LABOISSIÈRE - DÉT. [w, p] // Para- / type [orange, p] // cf.Ann. Soc. Ent. / Fr., [p] CII, 1933 / p. 71-72, fig. 42 [w, h] // R. Mus. Hist.Nat. / Belg. I. G. 12.752 [w, p]’ (ISNB); 1 ♁, ‘Co- / type [white round label with yellow collar, p] // 
+♂ [h] / V. LABOISSIÈRE - DÉT. [w, p] // Para- / type [orange, p] // cf.Ann. Soc. Ent. / Fr., [p] CII, 1933 / p. 71-72, fig. 42 [w, h] // R. Mus. Hist.Nat. / Belg. I. G. 12.752 [w, p]’ (ISNB);
+</materialsCitation>
+<materialsCitation pageId="22" pageNumber="45">
+1 ♂, ‘Co- / type [white round label with yellow collar, p] // 
 <collectingCountry box="[987,1049,1182,1201]" name="Vietnam" pageId="22" pageNumber="45">Tonkin</collectingCountry>
 . / A. de Cooman. [w, p] // Pres. by / Imp. Bur. Ent. / Brit.Mus. / 1929-178. [w, p] // 
 <taxonomicName authorityName="Laboissiere" authorityYear="1933" box="[1130,1263,1209,1228]" class="Insecta" family="Chrysomelidae" genus="Platyxanthoides" higherTaxonomySource="GBIF" kingdom="Animalia" order="Coleoptera" pageId="22" pageNumber="45" phylum="Arthropoda" rank="genus">Platyxanthoides</taxonomicName>
-/ variceps / m [h] / V. Laboissière -- Dét.[w, p]’ (BMNH); 
+/ variceps / m [h] / V. Laboissière -- Dét.[w, p]’ (BMNH);
+</materialsCitation>
+<materialsCitation pageId="22" pageNumber="45">
 <specimenCount box="[1121,1149,1232,1255]" pageId="22" pageNumber="45" type="female">1♀</specimenCount>
 , ‘Co- / type[white round label with yellow collar, p] // 
 <collectingCountry box="[983,1045,1262,1281]" name="Vietnam" pageId="22" pageNumber="45">Tonkin</collectingCountry>
-. / A. de Cooman. [w, p] // Hoa Binh / -Tonkin- / de Cooman [w, h] // Pres. by / Imp. Bur. Ent. / Brit. Mus. / 1929-178. [w, p] // COTYPE [red letters, p] / ♁ 
+. / A. de Cooman. [w, p] // Hoa Binh / -Tonkin- / de Cooman [w, h] // Pres. by / Imp. Bur. Ent. / Brit. Mus. / 1929-178. [w, p] // COTYPE [red letters, p] / ♂ 
 <specimenCount box="[1107,1123,1312,1335]" pageId="22" pageNumber="45" type="female">♀</specimenCount>
 [w, h]’ (BMNH).
+</materialsCitation>
 </paragraph>
 <paragraph blockId="22.[828,1438,893,1521]" pageId="22" pageNumber="45">
 <emphasis bold="true" box="[828,1436,1342,1361]" pageId="22" pageNumber="45">
 Additional material examined. 
+<materialsCitation pageId="22" pageNumber="45">
 <collectingCountry box="[1108,1223,1342,1361]" name="Thailand" pageId="22" pageNumber="45">THAILAND</collectingCountry>
 : 
 <collectingRegion box="[1234,1274,1342,1361]" country="Thailand" name="Mae Hong Son" pageId="22" pageNumber="45">MAE</collectingRegion>
-HONG SON PROV.:
-</emphasis>
-Kiwlom pass near Soppong, 
+HONG SON PROV.: Kiwlom pass near Soppong, 
 <quantity box="[1056,1119,1369,1388]" metricMagnitude="3" metricUnit="m" metricValue="1.4" pageId="22" pageNumber="45" unit="m" value="1400.0">1400 m</quantity>
 , 
 <date box="[1125,1266,1369,1388]" pageId="22" pageNumber="45" value="2002-06-23" valueMax="2002-07-02" valueMin="2002-06-23">23.vi.–2.vii.2002</date>
-, 1♁, R.&amp; H.Fouqué leg. (
+, 1♂, R.&amp; H.Fouqué leg. (
 <collectionCode box="[869,922,1395,1414]" pageId="22" pageNumber="45">JBCB</collectionCode>
-). 
+).
+</materialsCitation>
+</emphasis>
+<materialsCitation pageId="22" pageNumber="45">
 <emphasis bold="true" box="[936,1195,1395,1414]" pageId="22" pageNumber="45">
 <collectingCountry box="[936,1040,1395,1414]" name="Vietnam" pageId="22" pageNumber="45">VIETNAM</collectingCountry>
 : 
@@ -137,24 +148,28 @@ BINH PROV.:
 </emphasis>
 Hoa-Binh, 
 <date box="[1292,1367,1395,1414]" pageId="22" pageNumber="45" value="1918-08">viii.1918</date>
-, 1 ♁, R. V.de Salvaza leg.(
+, 1 ♂, R. V.de Salvaza leg.(
 <collectionCode box="[980,1047,1422,1441]" pageId="22" pageNumber="45">BMNH</collectionCode>
-). 
+).
+</materialsCitation>
+<materialsCitation pageId="22" pageNumber="45">
 <emphasis bold="true" box="[1059,1201,1422,1441]" pageId="22" pageNumber="45">
 <collectingRegion box="[1059,1201,1422,1441]" country="Vietnam" name="Ninh Binh" pageId="22" pageNumber="45">NINH BINH PROV.</collectingRegion>
 </emphasis>
 : Cuc-Phong, 
 <date box="[1312,1394,1422,1441]" pageId="22" pageNumber="45" value="1986-05-25">25.v.1986</date>
-, 1♁, J. Macek leg. (
+, 1♂, J. Macek leg. (
 <collectionCode box="[945,1008,1449,1468]" country="Czech Republic" httpUri="http://grbio.org/cool/hj12-2xm7" name="National Museum Prague" pageId="22" pageNumber="45">NMPC</collectionCode>
-). 
+).
+</materialsCitation>
+<materialsCitation pageId="22" pageNumber="45">
 <emphasis bold="true" box="[1020,1249,1449,1468]" pageId="22" pageNumber="45">
 <collectingCountry box="[1020,1136,1449,1468]" name="Myanmar" pageId="22" pageNumber="45">MYANMAR</collectingCountry>
 : TENASSERIM:
 </emphasis>
 Thagatà, 
 <date box="[1327,1394,1449,1468]" pageId="22" pageNumber="45" value="1887-04">iv.1887</date>
-, 1♁, Fea leg.(
+, 1♂, Fea leg.(
 <collectionCode box="[898,960,1475,1494]" country="Italy" httpUri="http://grbio.org/cool/1trn-7b59" name="Museo Civico di Storia Naturale di Genova 'Giacomo Doria'" pageId="22" pageNumber="45">MSNG</collectionCode>
 , 
 <typeStatus box="[967,1075,1475,1494]" pageId="22" pageNumber="45">paralectotype</typeStatus>
@@ -162,7 +177,9 @@ of
 <taxonomicName authorityName="Jacoby" authorityYear="1889" box="[1097,1221,1475,1494]" class="Insecta" family="Chrysomelidae" genus="Dorydea" higherTaxonomySource="GBIF" kingdom="Animalia" order="Coleoptera" pageId="22" pageNumber="45" phylum="Arthropoda" rank="species" species="indica">
 <emphasis box="[1097,1221,1475,1494]" italics="true" pageId="22" pageNumber="45">Dorydea indica</emphasis>
 </taxonomicName>
-). 
+).
+</materialsCitation>
+<materialsCitation pageId="22" pageNumber="45">
 <emphasis bold="true" pageId="22" pageNumber="45">
 <collectingCountry box="[1236,1295,1475,1494]" name="Laos" pageId="22" pageNumber="45">LAOS</collectingCountry>
 : 
@@ -171,11 +188,11 @@ KHOUANG PROV.:
 </emphasis>
 Xieng Khouang, 
 <date box="[1029,1082,1502,1521]" pageId="22" pageNumber="45" value="1920-01">i.1920</date>
-, 1 ♁, R. Vitalis de Salvaza leg. (
+, 1 ♂, R. Vitalis de Salvaza leg. (
 <collectionCode box="[1343,1406,1502,1521]" country="Czech Republic" httpUri="http://grbio.org/cool/hj12-2xm7" name="National Museum Prague" pageId="22" pageNumber="45">NMPC</collectionCode>
 ).
+</materialsCitation>
 </paragraph>
 </subSubSection>
-</treatmentCitationGroup>
 </treatment>
 </document>
