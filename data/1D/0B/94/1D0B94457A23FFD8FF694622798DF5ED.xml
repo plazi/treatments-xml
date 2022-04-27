@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6329197" ID-GBIF-Dataset="50b4b0e8-e56b-4c22-a9ca-8b5e04e3498d" ID-GBIF-Taxon="193872663" ID-Zenodo-Dep="6329197" approvalRequired="1" approvalRequired_for_taxonomicNames="1" checkinTime="1646333029598" checkinUser="diego" docAuthor="OVCHINNIKOVA, ANNA, KRYLOVA, EKATERINA, GAVRILENKO, TATJANA, SMEKALOVA, TAMARA, ZHUK, MIKHAIL, KNAPP, SANDRA &amp; SPOONER, DAVID M." docDate="2011" docId="1D0B94457A23FFD8FF694622798DF5ED" docLanguage="en" docName="BotJLinnSoc.165.107-155.pdf" docOrigin="Botanical Journal of the Linnean Society 165 (2)" docSource="http://dx.doi.org/10.1111/j.1095-8339.2010.01107.x" docTitle="Solanum tuberosum L. Sp. Pl." docType="treatment" docVersion="11" lastPageId="32" lastPageNumber="139" masterDocId="E132EC3D7A2DFFF8FFF9477D7831F33B" masterDocTitle="Taxonomy of cultivated potatoes (Solanum section Petota: Solanaceae)" masterLastPageNumber="155" masterPageNumber="107" pageId="14" pageNumber="121" updateTime="1650477633830" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6329197" ID-GBIF-Dataset="50b4b0e8-e56b-4c22-a9ca-8b5e04e3498d" ID-GBIF-Taxon="193872663" ID-Zenodo-Dep="6329197" approvalRequired="1" approvalRequired_for_taxonomicNames="1" checkinTime="1646333029598" checkinUser="diego" docAuthor="OVCHINNIKOVA, ANNA, KRYLOVA, EKATERINA, GAVRILENKO, TATJANA, SMEKALOVA, TAMARA, ZHUK, MIKHAIL, KNAPP, SANDRA &amp; SPOONER, DAVID M." docDate="2011" docId="1D0B94457A23FFD8FF694622798DF5ED" docLanguage="en" docName="BotJLinnSoc.165.107-155.pdf" docOrigin="Botanical Journal of the Linnean Society 165 (2)" docSource="http://dx.doi.org/10.1111/j.1095-8339.2010.01107.x" docTitle="Solanum tuberosum L. Sp. Pl." docType="treatment" docVersion="12" lastPageId="32" lastPageNumber="139" masterDocId="E132EC3D7A2DFFF8FFF9477D7831F33B" masterDocTitle="Taxonomy of cultivated potatoes (Solanum section Petota: Solanaceae)" masterLastPageNumber="155" masterPageNumber="107" pageId="14" pageNumber="121" updateTime="1651071393569" updateUser="maarten">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Taxonomy of cultivated potatoes (Solanum section Petota: Solanaceae)</mods:title>
@@ -577,7 +577,7 @@ Alef
 : cultivated in Darmstadt, 
 <collectingCountry box="[904,1010,1055,1076]" name="Germany" pageId="14" pageNumber="121">Germany</collectingCountry>
 (
-<specimenCount box="[1037,1202,1055,1077]" pageId="14" pageNumber="121">no specimens</specimenCount>
+<specimenCount box="[1037,1202,1055,1077]" pageId="14" pageNumber="121" type="generic">no specimens</specimenCount>
 found, 
 <typeStatus box="[1312,1417,1055,1077]" pageId="14" pageNumber="121">lectotype</typeStatus>
 , 
@@ -1206,9 +1206,9 @@ Alef
 <collectionCode box="[1296,1316,1024,1045]" country="Netherlands" lsid="urn:lsid:biocol.org:col:15678" name="Nationaal Herbarium Nederland, Leiden University branch" pageId="16" pageNumber="123" type="Herbarium">L</collectionCode>
 . convar. 
 <emphasis box="[831,971,1055,1076]" italics="true" pageId="16" pageNumber="123">fragariinum</emphasis>
-(Alef
+(Alef.) Danert
 </taxonomicName>
-.) Danert, Kulturpβanze 4: 126. 1956. 
+, Kulturpβanze 4: 126. 1956. 
 <typeStatus box="[902,960,1086,1107]" pageId="16" pageNumber="123">Type</typeStatus>
 : cultivated in Darmstadt, 
 <collectingCountry box="[1270,1376,1085,1106]" name="Germany" pageId="16" pageNumber="123">Germany</collectingCountry>
@@ -1328,11 +1328,11 @@ A.DC., Arch. Sci. Phys. Nat. ser. 3, 15: 437. 1886
 </taxonomicName>
 . 
 <treatmentCitation author="Berthault" journal="Ann. Sci. Agron. Franc. Etrangere" page="180" pageId="16" pageNumber="123" score="0.3544928172658845" volume="6" year="1911">
-<taxonomicName pageId="16" pageNumber="123">
+<taxonomicName authority="(A.DC.) Berthault" authorityName="Berthault" baseAuthorityName="A. DC." class="Magnoliopsida" family="Solanaceae" genus="Solanum" kingdom="Plantae" order="Solanales" pageId="16" pageNumber="123" phylum="Tracheophyta" rank="species" species="chiloense">
 <emphasis box="[1207,1421,1697,1718]" italics="true" pageId="16" pageNumber="123">Solanum chiloense</emphasis>
-(A.DC
+(A.DC.) Berthault
 </taxonomicName>
-.) Berthault, Ann. Sci. Agron. Franç. Étrangère, ser. 3, 6: 180. 1911
+, Ann. Sci. Agron. Franç. Étrangère, ser. 3, 6: 180. 1911
 </treatmentCitation>
 . 
 <materialsCitation ID-GBIF-Occurrence="3753871319" collectionCode="G" country="Chile" location="Philippi" municipality="Isla Chiloe" pageId="16" pageNumber="123" specimenCode="G00070236" specimenCount="2" stateProvince="Los Lagos" typeStatus="type">
@@ -1342,7 +1342,10 @@ A.DC., Arch. Sci. Phys. Nat. ser. 3, 15: 437. 1886
 . Region X (
 <collectingRegion box="[865,987,1789,1810]" country="Chile" name="Los Lagos" pageId="16" pageNumber="123">Los Lagos</collectingRegion>
 ): 
-<collectingMunicipality box="[1007,1136,1789,1811]" pageId="16" pageNumber="123">Isla Chiloé</collectingMunicipality>
+<collectingMunicipality box="[1007,1136,1789,1811]" pageId="16" pageNumber="123">
+<collectingCountry box="[1007,1050,1789,1811]" name="Iceland" pageId="16" pageNumber="123">Isla</collectingCountry>
+Chiloé
+</collectingMunicipality>
 , 1862, 
 <emphasis box="[1220,1421,1789,1811]" italics="true" pageId="16" pageNumber="123">
 R.A. 
@@ -1354,7 +1357,10 @@ s.n.
 , 
 <collectionCode box="[952,975,1820,1841]" country="Switzerland" lsid="urn:lsid:biocol.org:col:15706" name="Conservatoire et Jardin botaniques de la Ville de Genève" pageId="16" pageNumber="123" type="Herbarium">G</collectionCode>
 ! [
-<specimenCode box="[995,1132,1819,1842]" pageId="16" pageNumber="123">G00070236</specimenCode>
+<specimenCode box="[995,1132,1819,1842]" pageId="16" pageNumber="123">
+<collectionCode box="[995,1015,1819,1842]" pageId="16" pageNumber="123">G</collectionCode>
+00070236
+</specimenCode>
 ]). [C].
 </materialsCitation>
 </paragraph>
@@ -1408,7 +1414,10 @@ N.
 , 
 <collectionCode box="[755,775,290,311]" country="France" lsid="urn:lsid:biocol.org:col:15763" name="Museum National d' Histoire Naturelle, Paris (MNHN) - Vascular Plants" pageId="17" pageNumber="124" type="Herbarium">P</collectionCode>
 ! [
-<specimenCode box="[195,329,320,343]" pageId="17" pageNumber="124">P00384639</specimenCode>
+<specimenCode box="[195,329,320,343]" pageId="17" pageNumber="124">
+<collectionCode box="[195,211,320,343]" pageId="17" pageNumber="124">P</collectionCode>
+00384639
+</specimenCode>
 ]). [C].
 </materialsCitation>
 </paragraph>
@@ -1879,9 +1888,13 @@ Bukasov
 <materialsCitation ID-GBIF-Occurrence="3753871322" collectingDate="1929" collectionCode="WIR" collectorName="S. Bukasov &amp; S. Juzepczuk" country="Mexico" location="Anon" pageId="17" pageNumber="124" specimenCode="WIR-38364" specimenCount="2" typeStatus="type">
 <typeStatus box="[1035,1093,1055,1076]" pageId="17" pageNumber="124">Type</typeStatus>
 : cultivated in Leningrad from tuber accession 4001/1 collected in 
-<collectingCountry box="[1258,1338,1085,1107]" name="Mexico" pageId="17" pageNumber="124">Mexico</collectingCountry>
+<collectingCountry box="[1258,1338,1085,1107]" name="Mexico" pageId="17" pageNumber="124">
+<collectingRegion box="[1258,1338,1085,1107]" country="Mexico" name="Mexico" pageId="17" pageNumber="124">Mexico</collectingRegion>
+</collectingCountry>
 (
-<collectingCountry box="[1353,1437,1085,1107]" name="Mexico" pageId="17" pageNumber="124">Mexico</collectingCountry>
+<collectingCountry box="[1353,1437,1085,1107]" name="Mexico" pageId="17" pageNumber="124">
+<collectingRegion box="[1353,1437,1085,1107]" country="Mexico" name="Mexico" pageId="17" pageNumber="124">Mexico</collectingRegion>
+</collectingCountry>
 : Cuautzingo, 
 <emphasis box="[996,1234,1116,1137]" italics="true" pageId="17" pageNumber="124">
 <location LSID="urn:lsid:plazi:treatment:1D0B94457A23FFD8FF694622798DF5ED:907D73887A3CFFE9FC1D43217C12F74A" box="[996,1059,1116,1137]" country="Mexico" name="Anon" pageId="17" pageNumber="124">Anon</location>
@@ -1946,7 +1959,9 @@ Trudy Prikl. Bot. Suppl. 47: 205, 518. 1930.
 <materialsCitation ID-GBIF-Occurrence="3753871309" collectingDate="1929" collectionCode="WIR" collectorName="S. Bukasov" country="Guatemala" location="Anon" pageId="17" pageNumber="124" specimenCode="WIR-38370" specimenCount="2" stateProvince="Escuintla" typeStatus="type">
 <typeStatus box="[974,1032,1453,1474]" pageId="17" pageNumber="124">Type</typeStatus>
 : cultivated in Leningrad from tuber accession 4018 collected in 
-<collectingCountry box="[1179,1306,1483,1505]" name="Guatemala" pageId="17" pageNumber="124">Guatemala</collectingCountry>
+<collectingCountry box="[1179,1306,1483,1505]" name="Guatemala" pageId="17" pageNumber="124">
+<collectingRegion box="[1179,1306,1483,1505]" country="Guatemala" name="Guatemala" pageId="17" pageNumber="124">Guatemala</collectingRegion>
+</collectingCountry>
 (
 <collectingRegion box="[1325,1437,1483,1505]" country="Guatemala" name="Escuintla" pageId="17" pageNumber="124">Escuintla</collectingRegion>
 , 
@@ -2268,117 +2283,142 @@ Anon. [
 ].
 </paragraph>
 <paragraph blockId="19.[164,779,198,1903]" pageId="19" pageNumber="126">
-<taxonomicName authority="Bukasov, Trudy Prikl. Bot. Suppl." class="Magnoliopsida" family="Solanaceae" genus="Solanum" kingdom="Plantae" order="Solanales" pageId="19" pageNumber="126" phylum="Tracheophyta" rank="variety" species="stenotomum" variety="ccami">
+<taxonomicName authority="Bukasov" authorityName="Bukasov" class="Magnoliopsida" family="Solanaceae" genus="Solanum" kingdom="Plantae" order="Solanales" pageId="19" pageNumber="126" phylum="Tracheophyta" rank="variety" species="stenotomum" variety="ccami">
 <emphasis box="[164,421,1208,1229]" italics="true" pageId="19" pageNumber="126">Solanum stenotomum</emphasis>
 Juz. &amp; Bukasov var. 
 <emphasis box="[713,779,1208,1229]" italics="true" pageId="19" pageNumber="126">ccami</emphasis>
-Bukasov, Trudy Prikl. Bot. Suppl.
+Bukasov
 </taxonomicName>
-58: 33, 164. 1933. 
-<taxonomicName authority="(Juz. &amp; Bukasov) Hawkes, Potato Collect. Exped." authorityName="Hawkes, Potato Collect. Exped." baseAuthorityName="Juz. &amp; Bukasov" class="Magnoliopsida" family="Solanaceae" form="ccami" genus="Solanum" kingdom="Plantae" order="Solanales" pageId="19" pageNumber="126" phylum="Tracheophyta" rank="form" species="stenotomum">
+, Trudy Prikl. Bot. Suppl. 58: 33, 164. 1933. 
+<taxonomicName pageId="19" pageNumber="126">
 <emphasis box="[188,438,1269,1290]" italics="true" pageId="19" pageNumber="126">Solanum stenotomum</emphasis>
 Juz. &amp; Bukasov forma 
 <emphasis box="[713,779,1269,1290]" italics="true" pageId="19" pageNumber="126">ccami</emphasis>
-(Juz. &amp; Bukasov) Hawkes, Potato Collect. Exped.
+(Juz. &amp; Bukasov) Hawkes
 </taxonomicName>
+, Potato Collect. Exped. 
 <collectingCountry box="[188,268,1330,1352]" name="Mexico" pageId="19" pageNumber="126">Mexico</collectingCountry>
 &amp; 
 <collectionCode box="[312,330,1330,1351]" country="Sweden" lsid="urn:lsid:biocol.org:col:15668" name="Department of Botany, Swedish Museum of Natural History" pageId="19" pageNumber="126" type="Herbarium">S</collectionCode>
-. Amer., 2, Syst. Classific. Collect. 55. 1944. Type: cultivated in Leningrad from tuber accession 4678/3605 collected in 
+. Amer., 2, Syst. Classific. Collect. 55. 1944. 
+<materialsCitation collectionCode="WIR" collectorName="S. Juzepczuk" country="Bolivia" location="Tiahuanaco" municipality="Titicaca" pageId="19" pageNumber="126" specimenCount="2" stateProvince="La Paz" typeStatus="type">
+<typeStatus box="[266,324,1361,1382]" pageId="19" pageNumber="126">Type</typeStatus>
+: cultivated in Leningrad from tuber accession 4678/3605 collected in 
 <collectingCountry box="[585,665,1391,1413]" name="Bolivia" pageId="19" pageNumber="126">Bolivia</collectingCountry>
 (
 <collectingRegion box="[686,775,1391,1413]" country="Bolivia" name="La Paz" pageId="19" pageNumber="126">La Paz</collectingRegion>
-: Titicaca, Tiahuanaco, 
+: 
+<collectingMunicipality box="[188,281,1422,1444]" pageId="19" pageNumber="126">Titicaca</collectingMunicipality>
+, 
+<location LSID="urn:lsid:plazi:treatment:1D0B94457A23FFD8FF694622798DF5ED:907D73887A3EFFEBFEDE42F3799EF69F" box="[295,431,1422,1444]" country="Bolivia" municipality="Titicaca" name="Tiahuanaco" pageId="19" pageNumber="126" stateProvince="La Paz">Tiahuanaco</location>
+, 
 <emphasis box="[445,660,1422,1443]" italics="true" pageId="19" pageNumber="126">
-<collectionCode box="[445,464,1422,1443]" country="Sweden" lsid="urn:lsid:biocol.org:col:15668" name="Department of Botany, Swedish Museum of Natural History" pageId="19" pageNumber="126" type="Herbarium">S</collectionCode>
-. Juzepczuk 1645
+<collectorName box="[445,595,1422,1443]" pageId="19" pageNumber="126">S. Juzepczuk</collectorName>
+1645
 </emphasis>
 ), 1929, 
 <emphasis italics="true" pageId="19" pageNumber="126">
-<collectionCode box="[755,774,1422,1443]" country="Sweden" lsid="urn:lsid:biocol.org:col:15668" name="Department of Botany, Swedish Museum of Natural History" pageId="19" pageNumber="126" type="Herbarium">S</collectionCode>
-. Juzepczuk [1645]
+<collectorName pageId="19" pageNumber="126">S. Juzepczuk</collectorName>
+[1645]
 </emphasis>
 (
 <typeStatus box="[432,538,1452,1474]" pageId="19" pageNumber="126">lectotype</typeStatus>
 , 
-<collectionCode box="[565,624,1453,1474]" country="Russia" httpUri="http://biocol.org/urn:lsid:biocol.org:col:15563" lsid="urn:lsid:biocol.org:col:15563" name="N. I. Vavilov Institute of Plant Industry" pageId="19" pageNumber="126" type="Herbarium">WIR</collectionCode>
-!, designated here). [
+<collectionCode box="[565,624,1453,1474]" collectionName="WIR" country="Russia" httpUri="http://biocol.org/urn:lsid:biocol.org:col:15563" lsid="urn:lsid:biocol.org:col:15563" name="N. I. Vavilov Institute of Plant Industry" pageId="19" pageNumber="126" type="Herbarium">WIR</collectionCode>
+!, designated here
+</materialsCitation>
+). [
 <collectionCode box="[271,294,1482,1504]" country="USA" lsid="urn:lsid:biocol.org:col:15406" name="Harvard University - Arnold Arboretum" pageId="19" pageNumber="126" type="Herbarium">A</collectionCode>
 ].
 </paragraph>
 <paragraph blockId="19.[164,779,198,1903]" pageId="19" pageNumber="126">
 <treatmentCitation author="Bukasov" journal="Trudy Prikl. Bot. Suppl." page="33" pageId="19" pageNumber="126" score="2.4795569177717978" volume="58" year="1933">
-<taxonomicName authority="Bukasov, Trudy Prikl. Bot. Suppl." class="Magnoliopsida" family="Solanaceae" genus="Solanum" kingdom="Plantae" order="Solanales" pageId="19" pageNumber="126" phylum="Tracheophyta" rank="variety" species="stenotomum" variety="ppitiquina">
+<taxonomicName authority="Bukasov" authorityName="Bukasov" class="Magnoliopsida" family="Solanaceae" genus="Solanum" kingdom="Plantae" order="Solanales" pageId="19" pageNumber="126" phylum="Tracheophyta" rank="variety" species="stenotomum" variety="ppitiquina">
 <emphasis box="[164,413,1514,1535]" italics="true" pageId="19" pageNumber="126">Solanum stenotomum</emphasis>
 Juz. &amp; Bukasov var. 
 <emphasis box="[659,778,1514,1535]" italics="true" pageId="19" pageNumber="126">ppitiquina</emphasis>
-Bukasov, Trudy Prikl. Bot. Suppl.
+Bukasov
 </taxonomicName>
-58: 33. 1933
+, Trudy Prikl. Bot. Suppl. 58: 33. 1933
 </treatmentCitation>
-. Type: cultivated in Leningrad from tuber accession 4862/3446 collected in 
+. 
+<materialsCitation collectionCode="WIR" collectorName="S. Juzepczuk" country="Peru" location="Cusco" pageId="19" pageNumber="126" specimenCount="2" stateProvince="Cusco" typeStatus="type">
+<typeStatus box="[188,246,1575,1596]" pageId="19" pageNumber="126">Type</typeStatus>
+: cultivated in Leningrad from tuber accession 4862/3446 collected in 
 <collectingCountry box="[463,518,1606,1627]" name="Peru" pageId="19" pageNumber="126">Peru</collectingCountry>
 (
 <collectingRegion box="[538,609,1605,1626]" country="Peru" name="Cusco" pageId="19" pageNumber="126">Cusco</collectingRegion>
 , 
 <emphasis italics="true" pageId="19" pageNumber="126">
-<collectionCode box="[625,644,1606,1627]" country="Sweden" lsid="urn:lsid:biocol.org:col:15668" name="Department of Botany, Swedish Museum of Natural History" pageId="19" pageNumber="126" type="Herbarium">S</collectionCode>
-. Juzepczuk 1319
+<collectorName box="[625,779,1605,1627]" pageId="19" pageNumber="126">S. Juzepczuk</collectorName>
+1319
 </emphasis>
 ), 1929, 
 <emphasis box="[341,574,1636,1657]" italics="true" pageId="19" pageNumber="126">
-<collectionCode box="[341,360,1636,1657]" country="Sweden" lsid="urn:lsid:biocol.org:col:15668" name="Department of Botany, Swedish Museum of Natural History" pageId="19" pageNumber="126" type="Herbarium">S</collectionCode>
-. Juzepczuk [1319]
+<collectorName box="[341,493,1636,1657]" pageId="19" pageNumber="126">S. Juzepczuk</collectorName>
+[1319]
 </emphasis>
 (
 <typeStatus box="[592,698,1636,1658]" pageId="19" pageNumber="126">lectotype</typeStatus>
 , 
-<collectionCode box="[713,772,1636,1657]" country="Russia" httpUri="http://biocol.org/urn:lsid:biocol.org:col:15563" lsid="urn:lsid:biocol.org:col:15563" name="N. I. Vavilov Institute of Plant Industry" pageId="19" pageNumber="126" type="Herbarium">WIR</collectionCode>
-!, designated here). [
+<collectionCode box="[713,772,1636,1657]" collectionName="WIR" country="Russia" httpUri="http://biocol.org/urn:lsid:biocol.org:col:15563" lsid="urn:lsid:biocol.org:col:15563" name="N. I. Vavilov Institute of Plant Industry" pageId="19" pageNumber="126" type="Herbarium">WIR</collectionCode>
+!, designated here).
+</materialsCitation>
+[
 <collectionCode box="[404,427,1666,1688]" country="USA" lsid="urn:lsid:biocol.org:col:15406" name="Harvard University - Arnold Arboretum" pageId="19" pageNumber="126" type="Herbarium">A</collectionCode>
 ].
 </paragraph>
 <paragraph blockId="19.[164,779,198,1903]" pageId="19" pageNumber="126">
 <treatmentCitation author="Bukasov" journal="Trudy Prikl. Bot. Suppl." page="38" pageId="19" pageNumber="126" score="2.4795569177717978" volume="58" year="1933">
-<taxonomicName authority="Bukasov, Trudy Prikl. Bot. Suppl." class="Magnoliopsida" family="Solanaceae" form="lilacinoflorum" genus="Solanum" kingdom="Plantae" order="Solanales" pageId="19" pageNumber="126" phylum="Tracheophyta" rank="form" species="andigenum">
+<taxonomicName pageId="19" pageNumber="126">
 <emphasis box="[164,405,1697,1718]" italics="true" pageId="19" pageNumber="126">Solanum andigenum</emphasis>
 Juz. &amp; Bukasov forma 
 <emphasis italics="true" pageId="19" pageNumber="126">lilacinoflorum</emphasis>
-Bukasov, Trudy Prikl. Bot. Suppl.
+Bukasov
 </taxonomicName>
-58: 38. 1933
+, Trudy Prikl. Bot. Suppl. 58: 38. 1933
 </treatmentCitation>
-. Type: cultivated in Leningrad from tuber accession 4106 collected in 
+. 
+<materialsCitation collectionCode="WIR" collectorName="S. Bukasov &amp; S. Juzepczuk" country="Colombia" location="Anon" municipality="Chipaque" pageId="19" pageNumber="126" specimenCode="WIR-38390" specimenCount="2" stateProvince="Cundinamarca" typeStatus="type">
+<typeStatus box="[266,324,1759,1780]" pageId="19" pageNumber="126">Type</typeStatus>
+: cultivated in Leningrad from tuber accession 4106 collected in 
 <collectingCountry box="[511,618,1789,1811]" name="Colombia" pageId="19" pageNumber="126">Colombia</collectingCountry>
 (
 <collectingRegion country="Colombia" name="Cundinamarca" pageId="19" pageNumber="126">Cundinamarca</collectingRegion>
-: Chipaque, 
+: 
+<collectingMunicipality box="[243,355,1820,1842]" pageId="19" pageNumber="126">Chipaque</collectingMunicipality>
+, 
 <emphasis box="[372,654,1820,1841]" italics="true" pageId="19" pageNumber="126">
-Anon. [
-<collectionCode box="[463,479,1820,1841]" country="Sweden" lsid="urn:lsid:biocol.org:col:15668" name="Department of Botany, Swedish Museum of Natural History" pageId="19" pageNumber="126" type="Herbarium">S</collectionCode>
-. Bukasov] 57a
+<location LSID="urn:lsid:plazi:treatment:1D0B94457A23FFD8FF694622798DF5ED:907D73887A3EFFEBFE8D40617982F40A" box="[372,435,1820,1841]" country="Colombia" municipality="Chipaque" name="Anon" pageId="19" pageNumber="126" stateProvince="Cundinamarca">Anon</location>
+. [
+<collectorName box="[463,589,1820,1841]" pageId="19" pageNumber="126">S. Bukasov</collectorName>
+] 57a
 </emphasis>
 ), 1929, 
 <emphasis italics="true" pageId="19" pageNumber="126">
-<collectionCode box="[755,774,1820,1841]" country="Sweden" lsid="urn:lsid:biocol.org:col:15668" name="Department of Botany, Swedish Museum of Natural History" pageId="19" pageNumber="126" type="Herbarium">S</collectionCode>
-. Juzepczuk s.n.
+<collectorName pageId="19" pageNumber="126">S. Juzepczuk</collectorName>
+s.n.
 </emphasis>
 (
 <typeStatus box="[377,483,1850,1872]" pageId="19" pageNumber="126">lectotype</typeStatus>
 , 
-<collectionCode box="[498,554,1850,1871]" country="Russia" httpUri="http://biocol.org/urn:lsid:biocol.org:col:15563" lsid="urn:lsid:biocol.org:col:15563" name="N. I. Vavilov Institute of Plant Industry" pageId="19" pageNumber="126" type="Herbarium">WIR</collectionCode>
-! [WIR-38390], designated here). [
+<collectionCode box="[498,554,1850,1871]" collectionName="WIR" country="Russia" httpUri="http://biocol.org/urn:lsid:biocol.org:col:15563" lsid="urn:lsid:biocol.org:col:15563" name="N. I. Vavilov Institute of Plant Industry" pageId="19" pageNumber="126" type="Herbarium">WIR</collectionCode>
+! [
+<specimenCode box="[575,711,1849,1871]" pageId="19" pageNumber="126">WIR-38390</specimenCode>
+], designated here)
+</materialsCitation>
+. [
 <collectionCode box="[366,389,1880,1902]" country="USA" lsid="urn:lsid:biocol.org:col:15406" name="Harvard University - Arnold Arboretum" pageId="19" pageNumber="126" type="Herbarium">A</collectionCode>
 ].
 </paragraph>
 <paragraph blockId="19.[826,1442,198,1903]" pageId="19" pageNumber="126">
-<taxonomicName authority="Bukasov &amp; Lechn., Trudy Prikl. Bot. Suppl." class="Magnoliopsida" family="Solanaceae" genus="Solanum" kingdom="Plantae" order="Solanales" pageId="19" pageNumber="126" phylum="Tracheophyta" rank="subSpecies" species="andigenum" subSpecies="ayapapa">
+<taxonomicName authority="Bukasov &amp; Lechn" authorityName="Bukasov &amp; Lechn" class="Magnoliopsida" family="Solanaceae" genus="Solanum" kingdom="Plantae" order="Solanales" pageId="19" pageNumber="126" phylum="Tracheophyta" rank="subSpecies" species="andigenum" subSpecies="ayapapa">
 <emphasis box="[826,1066,198,219]" italics="true" pageId="19" pageNumber="126">Solanum andigenum</emphasis>
 Juz. &amp; Bukasov subsp. 
 <emphasis box="[1344,1441,198,219]" italics="true" pageId="19" pageNumber="126">ayapapa</emphasis>
-Bukasov &amp; Lechn., Trudy Prikl. Bot. Suppl.
+Bukasov &amp; Lechn
 </taxonomicName>
-58: 45, 164. 1933. 
+., Trudy Prikl. Bot. Suppl. 58: 45, 164. 1933. 
 <typeStatus box="[974,1032,259,280]" pageId="19" pageNumber="126">Type</typeStatus>
 : cultivated in Leningrad from tuber accessions collected in 
 <collectingCountry box="[1117,1212,290,312]" name="Ecuador" pageId="19" pageNumber="126">Ecuador</collectingCountry>
@@ -2388,13 +2428,13 @@ Bukasov &amp; Lechn., Trudy Prikl. Bot. Suppl.
 </paragraph>
 <paragraph blockId="19.[826,1442,198,1903]" pageId="19" pageNumber="126">
 <treatmentCitation author="Bukasov" journal="Trudy Prikl. Bot. Suppl." page="46" pageId="19" pageNumber="126" score="2.4795569177717978" volume="58" year="1933">
-<taxonomicName authority="Bukasov, Trudy Prikl. Bot. Suppl." class="Magnoliopsida" family="Solanaceae" genus="Solanum" kingdom="Plantae" order="Solanales" pageId="19" pageNumber="126" phylum="Tracheophyta" rank="variety" species="andigenum" variety="juninum">
+<taxonomicName authority="Bukasov" authorityName="Bukasov" class="Magnoliopsida" family="Solanaceae" genus="Solanum" kingdom="Plantae" order="Solanales" pageId="19" pageNumber="126" phylum="Tracheophyta" rank="variety" species="andigenum" variety="juninum">
 <emphasis box="[826,1071,351,372]" italics="true" pageId="19" pageNumber="126">Solanum andigenum</emphasis>
 Juz. &amp; Bukasov var. 
 <emphasis box="[1343,1441,351,372]" italics="true" pageId="19" pageNumber="126">juninum</emphasis>
-Bukasov, Trudy Prikl. Bot. Suppl.
+Bukasov
 </taxonomicName>
-58: 46. 1933
+, Trudy Prikl. Bot. Suppl. 58: 46. 1933
 </treatmentCitation>
 . 
 <typeStatus box="[851,909,412,433]" pageId="19" pageNumber="126">Type</typeStatus>
@@ -2413,13 +2453,13 @@ Bukasov, Trudy Prikl. Bot. Suppl.
 </paragraph>
 <paragraph blockId="19.[826,1442,198,1903]" pageId="19" pageNumber="126">
 <treatmentCitation author="Bukasov" journal="Trudy Prikl. Bot. Suppl." page="49" pageId="19" pageNumber="126" score="2.4795569177717978" volume="58" year="1933">
-<taxonomicName authority="Bukasov, Trudy Prikl. Bot. Suppl." class="Magnoliopsida" family="Solanaceae" form="nodosum" genus="Solanum" kingdom="Plantae" order="Solanales" pageId="19" pageNumber="126" phylum="Tracheophyta" rank="form" species="andigenum">
+<taxonomicName pageId="19" pageNumber="126">
 <emphasis box="[826,1066,504,525]" italics="true" pageId="19" pageNumber="126">Solanum andigenum</emphasis>
 Juz. &amp; Bukasov forma 
 <emphasis box="[1338,1441,504,525]" italics="true" pageId="19" pageNumber="126">nodosum</emphasis>
-Bukasov, Trudy Prikl. Bot. Suppl.
+Bukasov
 </taxonomicName>
-58: 49. 1933
+, Trudy Prikl. Bot. Suppl. 58: 49. 1933
 </treatmentCitation>
 . 
 <typeStatus box="[851,909,565,586]" pageId="19" pageNumber="126">Type</typeStatus>
@@ -2440,51 +2480,63 @@ market from Titlicaen,
 </paragraph>
 <paragraph blockId="19.[826,1442,198,1903]" pageId="19" pageNumber="126">
 <treatmentCitation author="Bukasov &amp; Lechn." journal="Trudy Prikl. Bot. Suppl." page="50" pageId="19" pageNumber="126" score="2.4795569177717978" volume="58" year="1933">
-<taxonomicName authority="Bukasov &amp; Lechn., Trudy Prikl. Bot. Suppl." class="Magnoliopsida" family="Solanaceae" genus="Solanum" kingdom="Plantae" order="Solanales" pageId="19" pageNumber="126" phylum="Tracheophyta" rank="subSpecies" species="andigenum" subSpecies="tarmense">
+<taxonomicName authority="Bukasov &amp; Lechn" authorityName="Bukasov &amp; Lechn" class="Magnoliopsida" family="Solanaceae" genus="Solanum" kingdom="Plantae" order="Solanales" pageId="19" pageNumber="126" phylum="Tracheophyta" rank="subSpecies" species="andigenum" subSpecies="tarmense">
 <emphasis box="[826,1065,687,708]" italics="true" pageId="19" pageNumber="126">Solanum andigenum</emphasis>
 Juz. &amp; Bukasov subsp. 
 <emphasis box="[1338,1441,688,709]" italics="true" pageId="19" pageNumber="126">tarmense</emphasis>
-Bukasov &amp; Lechn., Trudy Prikl. Bot. Suppl.
+Bukasov &amp; Lechn
 </taxonomicName>
-58: 50. 1933
+., Trudy Prikl. Bot. Suppl. 58: 50. 1933
 </treatmentCitation>
 . 
 <treatmentCitation author="Bukasov &amp; Lechn." journal="Trudy Prikl. Bot." page="46" pageId="19" pageNumber="126" score="0.9895594432724582" volume="79" year="1983">
-<taxonomicName authority="Bukasov &amp; Lechn., Trudy Prikl. Bot." authorityName="Bukasov &amp; Lechn., Trudy Prikl. Bot." class="Magnoliopsida" family="Solanaceae" genus="Solanum" kingdom="Plantae" order="Solanales" pageId="19" pageNumber="126" phylum="Tracheophyta" rank="subSpecies" species="andigenum" subSpecies="tarmense">
+<taxonomicName authority="Bukasov &amp; Lechn" authorityName="Bukasov &amp; Lechn" class="Magnoliopsida" family="Solanaceae" genus="Solanum" kingdom="Plantae" order="Solanales" pageId="19" pageNumber="126" phylum="Tracheophyta" rank="subSpecies" species="andigenum" subSpecies="tarmense">
 <emphasis box="[922,1164,749,770]" italics="true" pageId="19" pageNumber="126">Solanum andigenum</emphasis>
 Juz. &amp; Bukasov subsp. 
 <emphasis box="[851,954,780,801]" italics="true" pageId="19" pageNumber="126">tarmense</emphasis>
-Bukasov &amp; Lechn., Trudy Prikl. Bot.
+Bukasov &amp; Lechn
 </taxonomicName>
-79: 46. 1983
+., Trudy Prikl. Bot. 79: 46. 1983
 </treatmentCitation>
 , 
 <emphasis box="[964,1125,810,832]" italics="true" pageId="19" pageNumber="126">nomen superfl</emphasis>
-. Type: cultivated in Leningrad from tuber accession collected in 
+. 
+<materialsCitation collectionCode="V, S, WIR" collectorName="S. Juzepczuk" country="Peru" location="Cerro" pageId="19" pageNumber="126" specimenCount="2" stateProvince="Pasco" typeStatus="type">
+<typeStatus box="[1141,1199,810,831]" pageId="19" pageNumber="126">Type</typeStatus>
+: cultivated in Leningrad from tuber accession collected in 
 <collectingCountry box="[1298,1353,841,862]" name="Peru" pageId="19" pageNumber="126">Peru</collectingCountry>
 (
 <collectingRegion box="[1369,1438,841,862]" country="Peru" name="Pasco" pageId="19" pageNumber="126">Pasco</collectingRegion>
-: Cerro de 
+: 
+<location LSID="urn:lsid:plazi:treatment:1D0B94457A23FFD8FF694622798DF5ED:907D73887A3EFFEBFCAA441A7BA2F047" box="[851,915,871,892]" country="Peru" name="Cerro" pageId="19" pageNumber="126" stateProvince="Pasco">Cerro</location>
+de 
 <collectingRegion box="[968,1035,871,892]" country="Peru" name="Pasco" pageId="19" pageNumber="126">Pasco</collectingRegion>
 , 1929, 
 <emphasis box="[1128,1351,871,892]" italics="true" pageId="19" pageNumber="126">
-<collectionCode box="[1128,1147,871,892]" country="Sweden" lsid="urn:lsid:biocol.org:col:15668" name="Department of Botany, Swedish Museum of Natural History" pageId="19" pageNumber="126" type="Herbarium">S</collectionCode>
-. Juzepczuk 587b
+<collectorName box="[1128,1283,871,892]" pageId="19" pageNumber="126">S. Juzepczuk</collectorName>
+587b
 </emphasis>
 ), 1929, 
 <emphasis box="[851,1112,902,923]" italics="true" pageId="19" pageNumber="126">
 <collectionCode box="[851,872,902,923]" country="Canada" lsid="urn:lsid:biocol.org:col:13946" name="Royal British Columbia Museum - Herbarium" pageId="19" pageNumber="126" type="Museum">V</collectionCode>
 . 
 <collectionCode box="[875,892,902,923]" country="Sweden" lsid="urn:lsid:biocol.org:col:15668" name="Department of Botany, Swedish Museum of Natural History" pageId="19" pageNumber="126" type="Herbarium">S</collectionCode>
-. Lekhnovich [4320]
+. 
+<location LSID="urn:lsid:plazi:treatment:1D0B94457A23FFD8FF694622798DF5ED:907D73887A3EFFEBFC7E44FB7C38F0A0" box="[903,1033,902,923]" country="Peru" name="Lekhnovich" pageId="19" pageNumber="126" stateProvince="Pasco">Lekhnovich</location>
+[4320]
 </emphasis>
 (
 <typeStatus box="[1127,1233,902,924]" pageId="19" pageNumber="126">lectotype</typeStatus>
 , 
-<collectionCode box="[1244,1303,902,923]" country="Russia" httpUri="http://biocol.org/urn:lsid:biocol.org:col:15563" lsid="urn:lsid:biocol.org:col:15563" name="N. I. Vavilov Institute of Plant Industry" pageId="19" pageNumber="126" type="Herbarium">WIR</collectionCode>
+<collectionCode box="[1244,1303,902,923]" collectionName="WIR" country="Russia" httpUri="http://biocol.org/urn:lsid:biocol.org:col:15563" lsid="urn:lsid:biocol.org:col:15563" name="N. I. Vavilov Institute of Plant Industry" pageId="19" pageNumber="126" type="Herbarium">WIR</collectionCode>
 !, designated by 
-<bibRefCitation author="Lekhnovich VS" box="[888,1139,932,954]" journalOrPublisher="Trudy po Prikladnoj Botanike Genetike i Selekcii" pageId="19" pageNumber="126" pagination="45 - 49" part="79" refId="ref35141" refString="Lekhnovich VS. 1983. New taxons [taxa] within the species Solanum andigenum Juz. et Buk. (in Russian with Latin diagnoses). Trudy po Prikladnoj Botanike Genetike i Selekcii 79: 45 - 49." title="New taxons [taxa] within the species Solanum andigenum Juz. et Buk" type="journal article" year="1983">Lekhnovich, 1983: 46</bibRefCitation>
-). [
+<bibRefCitation author="Lekhnovich VS" box="[888,1139,932,954]" journalOrPublisher="Trudy po Prikladnoj Botanike Genetike i Selekcii" pageId="19" pageNumber="126" pagination="45 - 49" part="79" refId="ref35141" refString="Lekhnovich VS. 1983. New taxons [taxa] within the species Solanum andigenum Juz. et Buk. (in Russian with Latin diagnoses). Trudy po Prikladnoj Botanike Genetike i Selekcii 79: 45 - 49." title="New taxons [taxa] within the species Solanum andigenum Juz. et Buk" type="journal article" year="1983">
+<location LSID="urn:lsid:plazi:treatment:1D0B94457A23FFD8FF694622798DF5ED:907D73887A3EFFEBFC8144D97BCEF081" box="[888,1023,932,954]" country="Peru" name="Lekhnovich" pageId="19" pageNumber="126" stateProvince="Pasco">Lekhnovich</location>
+, 1983: 46
+</bibRefCitation>
+).
+</materialsCitation>
+[
 <collectionCode box="[1168,1191,931,953]" country="USA" lsid="urn:lsid:biocol.org:col:15406" name="Harvard University - Arnold Arboretum" pageId="19" pageNumber="126" type="Herbarium">A</collectionCode>
 ].
 </paragraph>
@@ -2516,13 +2568,13 @@ Bukasov &amp; Lechn., Trudy Prikl. Bot. Suppl.
 </paragraph>
 <paragraph blockId="19.[826,1442,198,1903]" pageId="19" pageNumber="126">
 <treatmentCitation author="Bukasov &amp; Lechn." journal="Trudy Prikl. Bot. Suppl." page="51" pageId="19" pageNumber="126" score="2.4795569177717978" volume="58" year="1933">
-<taxonomicName authority="Bukasov &amp; Lechn., Trudy Prikl. Bot. Suppl." class="Magnoliopsida" family="Solanaceae" form="tenue" genus="Solanum" kingdom="Plantae" order="Solanales" pageId="19" pageNumber="126" phylum="Tracheophyta" rank="form" species="andigenum">
+<taxonomicName pageId="19" pageNumber="126">
 <emphasis box="[826,1073,1146,1167]" italics="true" pageId="19" pageNumber="126">Solanum andigenum</emphasis>
 Juz. &amp; Bukasov forma 
 <emphasis box="[1380,1441,1147,1168]" italics="true" pageId="19" pageNumber="126">tenue</emphasis>
-Bukasov &amp; Lechn., Trudy Prikl. Bot. Suppl.
+Bukasov &amp; Lechn
 </taxonomicName>
-58: 51. 1933
+., Trudy Prikl. Bot. Suppl. 58: 51. 1933
 </treatmentCitation>
 . 
 <typeStatus box="[929,987,1208,1229]" pageId="19" pageNumber="126">Type</typeStatus>
@@ -2541,13 +2593,13 @@ Bukasov &amp; Lechn., Trudy Prikl. Bot. Suppl.
 </paragraph>
 <paragraph blockId="19.[826,1442,198,1903]" pageId="19" pageNumber="126">
 <treatmentCitation author="Bukasov &amp; Lechn." journal="Trudy Prikl. Bot. Suppl." page="51" pageId="19" pageNumber="126" score="2.4795569177717978" volume="58" year="1933">
-<taxonomicName authority="Bukasov &amp; Lechn., Trudy Prikl. Bot. Suppl." class="Magnoliopsida" family="Solanaceae" genus="Solanum" kingdom="Plantae" order="Solanales" pageId="19" pageNumber="126" phylum="Tracheophyta" rank="variety" species="andigenum" variety="latius">
+<taxonomicName authority="Bukasov &amp; Lechn" authorityName="Bukasov &amp; Lechn" class="Magnoliopsida" family="Solanaceae" genus="Solanum" kingdom="Plantae" order="Solanales" pageId="19" pageNumber="126" phylum="Tracheophyta" rank="variety" species="andigenum" variety="latius">
 <emphasis box="[826,1076,1299,1320]" italics="true" pageId="19" pageNumber="126">Solanum andigenum</emphasis>
 Juz. &amp; Bukasov var. 
 <emphasis box="[1376,1441,1299,1320]" italics="true" pageId="19" pageNumber="126">latius</emphasis>
-Bukasov &amp; Lechn., Trudy Prikl. Bot. Suppl.
+Bukasov &amp; Lechn
 </taxonomicName>
-58: 51. 1933
+., Trudy Prikl. Bot. Suppl. 58: 51. 1933
 </treatmentCitation>
 . 
 <typeStatus box="[922,980,1361,1382]" pageId="19" pageNumber="126">Type</typeStatus>
@@ -2558,73 +2610,95 @@ Bukasov &amp; Lechn., Trudy Prikl. Bot. Suppl.
 ].
 </paragraph>
 <paragraph blockId="19.[826,1442,198,1903]" pageId="19" pageNumber="126">
-<taxonomicName authority="Bukasov &amp; Lechn., Trudy Prikl. Bot. Suppl." class="Magnoliopsida" family="Solanaceae" genus="Solanum" kingdom="Plantae" order="Solanales" pageId="19" pageNumber="126" phylum="Tracheophyta" rank="variety" species="andigenum" variety="ckellohuaccoto">
+<taxonomicName pageId="19" pageNumber="126">
 <emphasis box="[826,1068,1422,1443]" italics="true" pageId="19" pageNumber="126">Solanum andigenum</emphasis>
 Juz. &amp; Bukasov var. 
 <emphasis italics="true" pageId="19" pageNumber="126">ckellohuaccoto</emphasis>
-Bukasov &amp; Lechn., Trudy Prikl. Bot. Suppl.
+Bukasov &amp; Lechn.,
 </taxonomicName>
-58: 53, fig. 12. 1933. Type: cultivated in Leningrad from tuber accession 4894/3324 collected in 
+Trudy Prikl. Bot. Suppl. 58: 53, fig. 12. 1933. 
+<materialsCitation collectingDate="1929" collectionCode="WIR" collectorName="S. Juzepczuk" country="Peru" location="Yuncaypampa" pageId="19" pageNumber="126" specimenCode="WIR-39571" specimenCount="2" stateProvince="Cusco" typeStatus="type">
+<typeStatus box="[1096,1154,1483,1504]" pageId="19" pageNumber="126">Type</typeStatus>
+: cultivated in Leningrad from tuber accession 4894/3324 collected in 
 <collectingCountry box="[1386,1441,1514,1535]" name="Peru" pageId="19" pageNumber="126">Peru</collectingCountry>
 (
 <collectingRegion box="[858,930,1544,1565]" country="Peru" name="Cusco" pageId="19" pageNumber="126">Cusco</collectingRegion>
-: Yuncaypampa, 
+: 
+<location LSID="urn:lsid:plazi:treatment:1D0B94457A23FFD8FF694622798DF5ED:907D73887A3EFFEBFC5541747C7EF525" box="[940,1103,1545,1566]" country="Peru" name="Yuncaypampa" pageId="19" pageNumber="126" stateProvince="Cusco">Yuncaypampa</location>
+, 
 <emphasis box="[1115,1326,1544,1566]" italics="true" pageId="19" pageNumber="126">
-<collectionCode box="[1115,1134,1545,1566]" country="Sweden" lsid="urn:lsid:biocol.org:col:15668" name="Department of Botany, Swedish Museum of Natural History" pageId="19" pageNumber="126" type="Herbarium">S</collectionCode>
-. Juzepczuk 1228
+<collectorName box="[1115,1264,1544,1566]" pageId="19" pageNumber="126">S. Juzepczuk</collectorName>
+1228
 </emphasis>
-), 1929, 
+), 
+<collectingDate box="[1348,1405,1544,1565]" pageId="19" pageNumber="126">1929</collectingDate>
+, 
 <emphasis italics="true" pageId="19" pageNumber="126">
-<collectionCode box="[1418,1437,1545,1566]" country="Sweden" lsid="urn:lsid:biocol.org:col:15668" name="Department of Botany, Swedish Museum of Natural History" pageId="19" pageNumber="126" type="Herbarium">S</collectionCode>
-. Juzepczuk [1228]
+<collectorName pageId="19" pageNumber="126">S. Juzepczuk</collectorName>
+[1228]
 </emphasis>
 (
 <typeStatus box="[1084,1190,1575,1597]" pageId="19" pageNumber="126">lectotype</typeStatus>
 , 
-<collectionCode box="[1212,1268,1575,1596]" country="Russia" httpUri="http://biocol.org/urn:lsid:biocol.org:col:15563" lsid="urn:lsid:biocol.org:col:15563" name="N. I. Vavilov Institute of Plant Industry" pageId="19" pageNumber="126" type="Herbarium">WIR</collectionCode>
-! [WIR-39571], designated here). [
+<collectionCode box="[1212,1268,1575,1596]" collectionName="WIR" country="Russia" httpUri="http://biocol.org/urn:lsid:biocol.org:col:15563" lsid="urn:lsid:biocol.org:col:15563" name="N. I. Vavilov Institute of Plant Industry" pageId="19" pageNumber="126" type="Herbarium">WIR</collectionCode>
+! [
+<specimenCode box="[1295,1431,1574,1596]" pageId="19" pageNumber="126">WIR-39571</specimenCode>
+], designated here)
+</materialsCitation>
+. [
 <collectionCode box="[1067,1090,1605,1627]" country="USA" lsid="urn:lsid:biocol.org:col:15406" name="Harvard University - Arnold Arboretum" pageId="19" pageNumber="126" type="Herbarium">A</collectionCode>
 ].
 </paragraph>
 </subSubSection>
 <subSubSection lastPageId="20" lastPageNumber="127" pageId="19" pageNumber="126" type="description">
 <paragraph blockId="19.[826,1442,198,1903]" pageId="19" pageNumber="126">
-<taxonomicName authority="Bukasov &amp; Lechn., Trudy Prikl. Bot. Suppl." class="Magnoliopsida" family="Solanaceae" form="alccaihuarmi" genus="Solanum" kingdom="Plantae" order="Solanales" pageId="19" pageNumber="126" phylum="Tracheophyta" rank="form" species="andigenum">
+<taxonomicName pageId="19" pageNumber="126">
 <emphasis box="[826,1071,1636,1657]" italics="true" pageId="19" pageNumber="126">Solanum andigenum</emphasis>
 Juz. &amp; Bukasov forma 
 <emphasis italics="true" pageId="19" pageNumber="126">alccaihuarmi</emphasis>
-Bukasov &amp; Lechn., Trudy Prikl. Bot. Suppl.
+Bukasov &amp; Lechn
 </taxonomicName>
-58: 54, fig. 13. 1933. Type: cultivated in Leningrad from tuber accession collected in 
+., Trudy Prikl. Bot. Suppl. 58: 54, fig. 13. 1933. 
+<materialsCitation collectingDate="1928" collectionCode="WIR" collectorName="S. Juzepczuk" country="Peru" location="Ccorau" pageId="19" pageNumber="126" specimenCode="WIR-37218" specimenCount="2" stateProvince="Cusco" typeStatus="type">
+<typeStatus box="[1096,1154,1698,1719]" pageId="19" pageNumber="126">Type</typeStatus>
+: cultivated in Leningrad from tuber accession collected in 
 <collectingCountry box="[1285,1340,1728,1749]" name="Peru" pageId="19" pageNumber="126">Peru</collectingCountry>
 (
 <collectingRegion box="[1366,1438,1728,1749]" country="Peru" name="Cusco" pageId="19" pageNumber="126">Cusco</collectingRegion>
-: Ccorau, 
+: 
+<location LSID="urn:lsid:plazi:treatment:1D0B94457A23FFD8FF694622798DF5ED:907D73887A3EFFEBFCAA41A37B97F5C8" box="[851,934,1758,1779]" country="Peru" name="Ccorau" pageId="19" pageNumber="126" stateProvince="Cusco">Ccorau</location>
+, 
 <emphasis box="[953,1179,1758,1780]" italics="true" pageId="19" pageNumber="126">
-<collectionCode box="[953,972,1759,1780]" country="Sweden" lsid="urn:lsid:biocol.org:col:15668" name="Department of Botany, Swedish Museum of Natural History" pageId="19" pageNumber="126" type="Herbarium">S</collectionCode>
-. Juzepczuk 1390
+<collectorName box="[953,1109,1758,1780]" pageId="19" pageNumber="126">S. Juzepczuk</collectorName>
+1390
 </emphasis>
-), 1928, 
+), 
+<collectingDate box="[1209,1266,1758,1779]" pageId="19" pageNumber="126">1928</collectingDate>
+, 
 <emphasis italics="true" pageId="19" pageNumber="126">
-<collectionCode box="[1285,1304,1759,1780]" country="Sweden" lsid="urn:lsid:biocol.org:col:15668" name="Department of Botany, Swedish Museum of Natural History" pageId="19" pageNumber="126" type="Herbarium">S</collectionCode>
-. Juzepczuk [1390]
+<collectorName box="[1285,1441,1758,1780]" pageId="19" pageNumber="126">S. Juzepczuk</collectorName>
+[1390]
 </emphasis>
 (
 <typeStatus box="[946,1052,1789,1811]" pageId="19" pageNumber="126">lectotype</typeStatus>
 , 
-<collectionCode box="[1073,1129,1789,1810]" country="Russia" httpUri="http://biocol.org/urn:lsid:biocol.org:col:15563" lsid="urn:lsid:biocol.org:col:15563" name="N. I. Vavilov Institute of Plant Industry" pageId="19" pageNumber="126" type="Herbarium">WIR</collectionCode>
-! [WIR-37218], designated here). [
+<collectionCode box="[1073,1129,1789,1810]" collectionName="WIR" country="Russia" httpUri="http://biocol.org/urn:lsid:biocol.org:col:15563" lsid="urn:lsid:biocol.org:col:15563" name="N. I. Vavilov Institute of Plant Industry" pageId="19" pageNumber="126" type="Herbarium">WIR</collectionCode>
+! [
+<specimenCode box="[1155,1290,1788,1810]" pageId="19" pageNumber="126">WIR-37218</specimenCode>
+], designated here).
+</materialsCitation>
+[
 <collectionCode box="[933,956,1819,1841]" country="USA" lsid="urn:lsid:biocol.org:col:15406" name="Harvard University - Arnold Arboretum" pageId="19" pageNumber="126" type="Herbarium">A</collectionCode>
 ].
 </paragraph>
 <paragraph blockId="19.[826,1442,198,1903]" lastBlockId="20.[144,759,198,1903]" lastPageId="20" lastPageNumber="127" pageId="19" pageNumber="126">
-<taxonomicName authority="Bukasov &amp; Lechn., Trudy Prikl. Bot." class="Magnoliopsida" family="Solanaceae" form="huamanuma" genus="Solanum" kingdom="Plantae" order="Solanales" pageId="19" pageNumber="126" phylum="Tracheophyta" rank="form" species="andigenum">
+<taxonomicName pageId="19" pageNumber="126">
 <emphasis box="[826,1075,1850,1871]" italics="true" pageId="19" pageNumber="126">Solanum andigenum</emphasis>
 Juz. &amp; Bukasov forma 
 <emphasis italics="true" pageId="19" pageNumber="126">huamanuma</emphasis>
-Bukasov &amp; Lechn., Trudy Prikl. Bot.
+Bukasov &amp; Lechn
 </taxonomicName>
-Suppl. 58: 54, tab. 2, fig. 6. 1933. 
+., Trudy Prikl. Bot. Suppl. 58: 54, tab. 2, fig. 6. 1933. 
 <typeStatus box="[546,604,198,219]" pageId="20" pageNumber="127">Type</typeStatus>
 : cultivated in Leningrad from tuber accession collected in 
 <collectingCountry box="[704,759,229,250]" name="Peru" pageId="20" pageNumber="127">Peru</collectingCountry>
@@ -2643,106 +2717,139 @@ group’,
 <subSubSection pageId="20" pageNumber="127" type="reference_group">
 <paragraph blockId="20.[144,759,198,1903]" pageId="20" pageNumber="127">
 <treatmentCitation author="Bukasov &amp; Lechn." journal="Trudy Prikl. Bot. Suppl." page="55" pageId="20" pageNumber="127" score="2.4795569177717978" volume="58" year="1933">
-<taxonomicName authority="Bukasov &amp; Lechn., Trudy Prikl. Bot. Suppl." class="Magnoliopsida" family="Solanaceae" form="sunchchu" genus="Solanum" kingdom="Plantae" order="Solanales" pageId="20" pageNumber="127" phylum="Tracheophyta" rank="form" species="andigenum">
+<taxonomicName pageId="20" pageNumber="127">
 <emphasis box="[144,383,320,341]" italics="true" pageId="20" pageNumber="127">Solanum andigenum</emphasis>
 Juz. &amp; Bukasov forma 
 <emphasis box="[650,758,320,341]" italics="true" pageId="20" pageNumber="127">sunchchu</emphasis>
-Bukasov &amp; Lechn., Trudy Prikl. Bot. Suppl.
+Bukasov &amp; Lechn
 </taxonomicName>
-58: 55. 1933
+., Trudy Prikl. Bot. Suppl. 58: 55. 1933
 </treatmentCitation>
-. Type: cultivated in Leningrad from tuber accession collected in 
+. 
+<materialsCitation collectingDate="1928" collectionCode="WIR" collectorName="S. Juzepczuk" country="Peru" location="Poroy" pageId="20" pageNumber="127" specimenCode="WIR-37267" specimenCount="2" stateProvince="Cusco" typeStatus="type">
+<typeStatus box="[246,304,382,403]" pageId="20" pageNumber="127">Type</typeStatus>
+: cultivated in Leningrad from tuber accession collected in 
 <collectingCountry box="[415,470,413,434]" name="Peru" pageId="20" pageNumber="127">Peru</collectingCountry>
 (
 <collectingRegion box="[485,557,412,433]" country="Peru" name="Cusco" pageId="20" pageNumber="127">Cusco</collectingRegion>
-: Poroy, 
+: 
+<location LSID="urn:lsid:plazi:treatment:1D0B94457A23FFD8FF694622798DF5ED:907D73887A39FFECFDCF46E07A46F289" box="[566,631,413,434]" country="Peru" name="Poroy" pageId="20" pageNumber="127" stateProvince="Cusco">Poroy</location>
+, 
 <emphasis italics="true" pageId="20" pageNumber="127">
-<collectionCode box="[643,662,412,433]" country="Sweden" lsid="urn:lsid:biocol.org:col:15668" name="Department of Botany, Swedish Museum of Natural History" pageId="20" pageNumber="127" type="Herbarium">S</collectionCode>
-. Juzepczuk 1397
+<collectorName pageId="20" pageNumber="127">S. Juzepczuk</collectorName>
+1397
 </emphasis>
-), 1928, 
+), 
+<collectingDate box="[308,365,443,464]" pageId="20" pageNumber="127">1928</collectingDate>
+, 
 <emphasis box="[385,627,443,464]" italics="true" pageId="20" pageNumber="127">
-<collectionCode box="[385,404,443,464]" country="Sweden" lsid="urn:lsid:biocol.org:col:15668" name="Department of Botany, Swedish Museum of Natural History" pageId="20" pageNumber="127" type="Herbarium">S</collectionCode>
-. Juzepczuk [1397]
+<collectorName box="[385,541,443,464]" pageId="20" pageNumber="127">S. Juzepczuk</collectorName>
+[1397]
 </emphasis>
 (
 <typeStatus box="[649,755,443,465]" pageId="20" pageNumber="127">lectotype</typeStatus>
 , 
-<collectionCode box="[168,224,473,494]" country="Russia" httpUri="http://biocol.org/urn:lsid:biocol.org:col:15563" lsid="urn:lsid:biocol.org:col:15563" name="N. I. Vavilov Institute of Plant Industry" pageId="20" pageNumber="127" type="Herbarium">WIR</collectionCode>
-! [WIR-37267], designated here). [
+<collectionCode box="[168,224,473,494]" collectionName="WIR" country="Russia" httpUri="http://biocol.org/urn:lsid:biocol.org:col:15563" lsid="urn:lsid:biocol.org:col:15563" name="N. I. Vavilov Institute of Plant Industry" pageId="20" pageNumber="127" type="Herbarium">WIR</collectionCode>
+! [
+<specimenCode box="[243,378,472,494]" pageId="20" pageNumber="127">WIR-37267</specimenCode>
+], designated here).
+</materialsCitation>
+[
 <collectionCode box="[615,638,472,494]" country="USA" lsid="urn:lsid:biocol.org:col:15406" name="Harvard University - Arnold Arboretum" pageId="20" pageNumber="127" type="Herbarium">A</collectionCode>
 ].
 </paragraph>
 <paragraph blockId="20.[144,759,198,1903]" pageId="20" pageNumber="127">
 <treatmentCitation author="Bukasov &amp; Lechn." journal="Trudy Prikl. Bot. Suppl." page="56" pageId="20" pageNumber="127" score="2.4795569177717978" volume="58" year="1933">
-<taxonomicName authority="Bukasov &amp; Lechn., Trudy Prikl. Bot. Suppl." class="Magnoliopsida" family="Solanaceae" form="ccompetillo" genus="Solanum" kingdom="Plantae" order="Solanales" pageId="20" pageNumber="127" phylum="Tracheophyta" rank="form" species="andigenum">
+<taxonomicName pageId="20" pageNumber="127">
 <emphasis box="[144,390,504,525]" italics="true" pageId="20" pageNumber="127">Solanum andigenum</emphasis>
 Juz. &amp; Bukasov forma 
 <emphasis italics="true" pageId="20" pageNumber="127">ccompetillo</emphasis>
-Bukasov &amp; Lechn., Trudy Prikl. Bot. Suppl.
+Bukasov &amp; Lechn
 </taxonomicName>
-58: 56. 1933
+., Trudy Prikl. Bot. Suppl. 58: 56. 1933
 </treatmentCitation>
-. Type: cultivated in Leningrad from tuber accession 4479/3481 collected in 
+. 
+<materialsCitation collectingDate="1929" collectionCode="WIR" collectorName="S. Juzepczuk" country="Peru" location="San Jeronimo" pageId="20" pageNumber="127" specimenCode="WIR-37523" specimenCount="2" stateProvince="Cusco" typeStatus="type">
+<typeStatus box="[337,395,565,586]" pageId="20" pageNumber="127">Type</typeStatus>
+: cultivated in Leningrad from tuber accession 4479/3481 collected in 
 <collectingCountry box="[613,668,596,617]" name="Peru" pageId="20" pageNumber="127">Peru</collectingCountry>
 (
 <collectingRegion box="[684,756,596,617]" country="Peru" name="Cusco" pageId="20" pageNumber="127">Cusco</collectingRegion>
-: San Jeronimo, 
+: 
+<location LSID="urn:lsid:plazi:treatment:1D0B94457A23FFD8FF694622798DF5ED:907D73887A39FFECFF51450F7978F1B3" box="[168,329,626,648]" country="Peru" name="San Jeronimo" pageId="20" pageNumber="127" stateProvince="Cusco">San Jeronimo</location>
+, 
 <emphasis box="[340,551,626,648]" italics="true" pageId="20" pageNumber="127">
-<collectionCode box="[340,359,627,648]" country="Sweden" lsid="urn:lsid:biocol.org:col:15668" name="Department of Botany, Swedish Museum of Natural History" pageId="20" pageNumber="127" type="Herbarium">S</collectionCode>
-. Juzepczuk 1352
+<collectorName box="[340,489,626,648]" pageId="20" pageNumber="127">S. Juzepczuk</collectorName>
+1352
 </emphasis>
-), 1929, 
+), 
+<collectingDate box="[573,630,626,647]" pageId="20" pageNumber="127">1929</collectingDate>
+, 
 <emphasis italics="true" pageId="20" pageNumber="127">
-<collectionCode box="[642,661,627,648]" country="Sweden" lsid="urn:lsid:biocol.org:col:15668" name="Department of Botany, Swedish Museum of Natural History" pageId="20" pageNumber="127" type="Herbarium">S</collectionCode>
-. Juzepczuk [1352]
+<collectorName pageId="20" pageNumber="127">S. Juzepczuk</collectorName>
+[1352]
 </emphasis>
 (
 <typeStatus box="[321,427,657,679]" pageId="20" pageNumber="127">lectotype</typeStatus>
 , 
-<collectionCode box="[447,503,657,678]" country="Russia" httpUri="http://biocol.org/urn:lsid:biocol.org:col:15563" lsid="urn:lsid:biocol.org:col:15563" name="N. I. Vavilov Institute of Plant Industry" pageId="20" pageNumber="127" type="Herbarium">WIR</collectionCode>
-! [WIR-37523], designated here). [
+<collectionCode box="[447,503,657,678]" collectionName="WIR" country="Russia" httpUri="http://biocol.org/urn:lsid:biocol.org:col:15563" lsid="urn:lsid:biocol.org:col:15563" name="N. I. Vavilov Institute of Plant Industry" pageId="20" pageNumber="127" type="Herbarium">WIR</collectionCode>
+! [
+<specimenCode box="[529,664,656,678]" pageId="20" pageNumber="127">WIR-37523</specimenCode>
+], designated here).
+</materialsCitation>
+[
 <collectionCode box="[325,348,687,709]" country="USA" lsid="urn:lsid:biocol.org:col:15406" name="Harvard University - Arnold Arboretum" pageId="20" pageNumber="127" type="Herbarium">A</collectionCode>
 ].
 </paragraph>
 <paragraph blockId="20.[144,759,198,1903]" pageId="20" pageNumber="127">
-<taxonomicName authority="Bukasov &amp; Lechn., Trudy Prikl. Bot. Suppl." class="Magnoliopsida" family="Solanaceae" genus="Solanum" kingdom="Plantae" order="Solanales" pageId="20" pageNumber="127" phylum="Tracheophyta" rank="variety" species="andigenum" variety="huairuru">
+<taxonomicName pageId="20" pageNumber="127">
 <emphasis box="[144,387,718,739]" italics="true" pageId="20" pageNumber="127">Solanum andigenum</emphasis>
 Juz. &amp; Bukasov var. 
 <emphasis box="[654,758,718,739]" italics="true" pageId="20" pageNumber="127">huairuru</emphasis>
-Bukasov &amp; Lechn., Trudy Prikl. Bot. Suppl.
+Bukasov &amp; Lechn.,
 </taxonomicName>
-58: 57, tab. 2, fig. 4. 1933. Type: cultivated in Leningrad from tuber accession collected in 
+Trudy Prikl. Bot. Suppl. 58: 57, tab. 2, fig. 4. 1933. 
+<materialsCitation collectingDate="1928" collectionCode="WIR" collectorName="S. Juzepczuk" country="Peru" location="Yuncaypampa" municipality="Yuncaypampa" pageId="20" pageNumber="127" specimenCode="WIR-37376" specimenCount="2" stateProvince="Cusco" typeStatus="type">
+<typeStatus box="[407,465,780,801]" pageId="20" pageNumber="127">Type</typeStatus>
+: cultivated in Leningrad from tuber accession collected in 
 <collectingCountry box="[552,607,810,831]" name="Peru" pageId="20" pageNumber="127">Peru</collectingCountry>
 (
 <collectingRegion box="[623,695,810,831]" country="Peru" name="Cusco" pageId="20" pageNumber="127">Cusco</collectingRegion>
-: Yuncaypampa, 
+: 
+<collectingMunicipality pageId="20" pageNumber="127">Yuncaypampa</collectingMunicipality>
+, 
 <emphasis box="[300,514,840,862]" italics="true" pageId="20" pageNumber="127">
-<collectionCode box="[300,319,841,862]" country="Sweden" lsid="urn:lsid:biocol.org:col:15668" name="Department of Botany, Swedish Museum of Natural History" pageId="20" pageNumber="127" type="Herbarium">S</collectionCode>
-. Juzepczuk 1231
+<collectorName box="[300,450,840,862]" pageId="20" pageNumber="127">S. Juzepczuk</collectorName>
+1231
 </emphasis>
-), 1928, 
+), 
+<collectingDate box="[538,595,841,862]" pageId="20" pageNumber="127">1928</collectingDate>
+, 
 <emphasis italics="true" pageId="20" pageNumber="127">
-<collectionCode box="[608,627,841,862]" country="Sweden" lsid="urn:lsid:biocol.org:col:15668" name="Department of Botany, Swedish Museum of Natural History" pageId="20" pageNumber="127" type="Herbarium">S</collectionCode>
-. Juzepczuk [1231]
+<collectorName box="[608,759,840,862]" pageId="20" pageNumber="127">S. Juzepczuk</collectorName>
+[1231]
 </emphasis>
 (
 <typeStatus box="[264,370,871,893]" pageId="20" pageNumber="127">lectotype</typeStatus>
 , 
-<collectionCode box="[390,446,871,892]" country="Russia" httpUri="http://biocol.org/urn:lsid:biocol.org:col:15563" lsid="urn:lsid:biocol.org:col:15563" name="N. I. Vavilov Institute of Plant Industry" pageId="20" pageNumber="127" type="Herbarium">WIR</collectionCode>
-! [WIR-37376], designated here). [
+<collectionCode box="[390,446,871,892]" collectionName="WIR" country="Russia" httpUri="http://biocol.org/urn:lsid:biocol.org:col:15563" lsid="urn:lsid:biocol.org:col:15563" name="N. I. Vavilov Institute of Plant Industry" pageId="20" pageNumber="127" type="Herbarium">WIR</collectionCode>
+! [
+<specimenCode box="[472,608,870,892]" pageId="20" pageNumber="127">WIR-37376</specimenCode>
+], designated here).
+</materialsCitation>
+[
 <collectionCode box="[251,274,901,923]" country="USA" lsid="urn:lsid:biocol.org:col:15406" name="Harvard University - Arnold Arboretum" pageId="20" pageNumber="127" type="Herbarium">A</collectionCode>
 ].
 </paragraph>
 <paragraph blockId="20.[144,759,198,1903]" pageId="20" pageNumber="127">
 <treatmentCitation author="Bukasov" journal="Trudy Prikl. Bot. Suppl." page="57" pageId="20" pageNumber="127" score="2.4795569177717978" volume="58" year="1933">
-<taxonomicName authority="Lechn. ex Bukasov, Trudy Prikl. Bot. Suppl." class="Magnoliopsida" family="Solanaceae" form="pacus" genus="Solanum" kingdom="Plantae" order="Solanales" pageId="20" pageNumber="127" phylum="Tracheophyta" rank="form" species="andigenum">
+<taxonomicName pageId="20" pageNumber="127">
 <emphasis box="[144,390,932,953]" italics="true" pageId="20" pageNumber="127">Solanum andigenum</emphasis>
 Juz. &amp; Bukasov forma 
 <emphasis box="[693,758,933,954]" italics="true" pageId="20" pageNumber="127">pacus</emphasis>
-Lechn. ex Bukasov, Trudy Prikl. Bot. Suppl.
+Lechn. ex Bukasov
 </taxonomicName>
-58: 57. 1933
+, Trudy Prikl. Bot. Suppl. 58: 57. 1933
 </treatmentCitation>
 . 
 <typeStatus box="[246,304,994,1015]" pageId="20" pageNumber="127">Type</typeStatus>
@@ -2761,241 +2868,313 @@ Lechn. ex Bukasov, Trudy Prikl. Bot. Suppl.
 </paragraph>
 <paragraph blockId="20.[144,759,198,1903]" pageId="20" pageNumber="127">
 <treatmentCitation author="Bukasov &amp; Lechn." journal="Trudy Prikl. Bot. Suppl." page="57" pageId="20" pageNumber="127" score="2.4795569177717978" volume="58" year="1933">
-<taxonomicName authority="Bukasov &amp; Lechn., Trudy Prikl. Bot. Suppl." class="Magnoliopsida" family="Solanaceae" genus="Solanum" kingdom="Plantae" order="Solanales" pageId="20" pageNumber="127" phylum="Tracheophyta" rank="variety" species="andigenum" variety="quechuanum">
+<taxonomicName pageId="20" pageNumber="127">
 <emphasis box="[144,388,1116,1137]" italics="true" pageId="20" pageNumber="127">Solanum andigenum</emphasis>
 Juz. &amp; Bukasov var. 
 <emphasis italics="true" pageId="20" pageNumber="127">quechuanum</emphasis>
-Bukasov &amp; Lechn., Trudy Prikl. Bot. Suppl.
+Bukasov &amp; Lechn.,
 </taxonomicName>
-58: 57. 1933
+Trudy Prikl. Bot. Suppl. 58: 57. 1933
 </treatmentCitation>
-. Type: cultivated in Leningrad from tuber accession collected in 
+. 
+<materialsCitation collectingDate="1931" collectionCode="WIR" collectorName="S. Juzepczuk" country="Peru" location="Jamamachay" pageId="20" pageNumber="127" specimenCode="WIR-37494" specimenCount="2" stateProvince="Cusco" typeStatus="type">
+<typeStatus box="[282,340,1177,1198]" pageId="20" pageNumber="127">Type</typeStatus>
+: cultivated in Leningrad from tuber accession collected in 
 <collectingCountry box="[419,474,1208,1229]" name="Peru" pageId="20" pageNumber="127">Peru</collectingCountry>
 (
 <collectingRegion box="[489,561,1208,1229]" country="Peru" name="Cusco" pageId="20" pageNumber="127">Cusco</collectingRegion>
-: Jamamachay, 
+: 
+<location LSID="urn:lsid:plazi:treatment:1D0B94457A23FFD8FF694622798DF5ED:907D73887A39FFECFDC543C57AE2F7F5" box="[572,723,1208,1230]" country="Peru" name="Jamamachay" pageId="20" pageNumber="127" stateProvince="Cusco">Jamamachay</location>
+, 
 <emphasis italics="true" pageId="20" pageNumber="127">
-<collectionCode box="[735,754,1208,1229]" country="Sweden" lsid="urn:lsid:biocol.org:col:15668" name="Department of Botany, Swedish Museum of Natural History" pageId="20" pageNumber="127" type="Herbarium">S</collectionCode>
-. Juzepczuk 1009a
+<collectorName pageId="20" pageNumber="127">S. Juzepczuk</collectorName>
+1009a
 </emphasis>
-), 1931, 
+), 
+<collectingDate box="[388,445,1238,1259]" pageId="20" pageNumber="127">1931</collectingDate>
+, 
 <emphasis box="[458,702,1238,1260]" italics="true" pageId="20" pageNumber="127">
-<collectionCode box="[458,477,1239,1260]" country="Sweden" lsid="urn:lsid:biocol.org:col:15668" name="Department of Botany, Swedish Museum of Natural History" pageId="20" pageNumber="127" type="Herbarium">S</collectionCode>
-. Juzepczuk [1009a]
+<collectorName box="[458,608,1238,1260]" pageId="20" pageNumber="127">S. Juzepczuk</collectorName>
+[1009a]
 </emphasis>
 (
 <typeStatus pageId="20" pageNumber="127">lectotype</typeStatus>
 , 
-<collectionCode box="[254,310,1269,1290]" country="Russia" httpUri="http://biocol.org/urn:lsid:biocol.org:col:15563" lsid="urn:lsid:biocol.org:col:15563" name="N. I. Vavilov Institute of Plant Industry" pageId="20" pageNumber="127" type="Herbarium">WIR</collectionCode>
-! [WIR-37494], designated here). [
+<collectionCode box="[254,310,1269,1290]" collectionName="WIR" country="Russia" httpUri="http://biocol.org/urn:lsid:biocol.org:col:15563" lsid="urn:lsid:biocol.org:col:15563" name="N. I. Vavilov Institute of Plant Industry" pageId="20" pageNumber="127" type="Herbarium">WIR</collectionCode>
+! [
+<specimenCode box="[328,464,1268,1290]" pageId="20" pageNumber="127">WIR-37494</specimenCode>
+], designated here).
+</materialsCitation>
+[
 <collectionCode box="[694,717,1268,1290]" country="USA" lsid="urn:lsid:biocol.org:col:15406" name="Harvard University - Arnold Arboretum" pageId="20" pageNumber="127" type="Herbarium">A</collectionCode>
 ].
 </paragraph>
 <paragraph blockId="20.[144,759,198,1903]" pageId="20" pageNumber="127">
 <treatmentCitation author="Bukasov &amp; Lechn." journal="Trudy Prikl. Bot. Suppl." page="58" pageId="20" pageNumber="127" score="2.4795569177717978" volume="58" year="1933">
-<taxonomicName authority="Bukasov &amp; Lechn., Trudy Prikl. Bot. Suppl." class="Magnoliopsida" family="Solanaceae" form="chimaco" genus="Solanum" kingdom="Plantae" order="Solanales" pageId="20" pageNumber="127" phylum="Tracheophyta" rank="form" species="andigenum">
+<taxonomicName pageId="20" pageNumber="127">
 <emphasis box="[144,385,1299,1320]" italics="true" pageId="20" pageNumber="127">Solanum andigenum</emphasis>
 Juz. &amp; Bukasov forma 
 <emphasis box="[665,758,1299,1320]" italics="true" pageId="20" pageNumber="127">chimaco</emphasis>
-Bukasov &amp; Lechn., Trudy Prikl. Bot. Suppl.
+Bukasov &amp; Lechn.,
 </taxonomicName>
-58: 58. 1933
+Trudy Prikl. Bot. Suppl. 58: 58. 1933
 </treatmentCitation>
-. Type: cultivated in Leningrad from tuber accession collected in 
+. 
+<materialsCitation collectionCode="WIR" collectorName="S. Juzepczuk" country="Peru" location="Ollantaytambo" municipality="Urubamba" pageId="20" pageNumber="127" specimenCode="WIR-37468" specimenCount="2" stateProvince="Cusco" typeStatus="type">
+<typeStatus box="[246,304,1361,1382]" pageId="20" pageNumber="127">Type</typeStatus>
+: cultivated in Leningrad from tuber accession collected in 
 <collectingCountry box="[453,508,1392,1413]" name="Peru" pageId="20" pageNumber="127">Peru</collectingCountry>
 (
 <collectingRegion box="[535,607,1391,1412]" country="Peru" name="Cusco" pageId="20" pageNumber="127">Cusco</collectingRegion>
-: Urubamba, Ollantaytambo, 
+: 
+<collectingMunicipality box="[629,754,1391,1413]" pageId="20" pageNumber="127">Urubamba</collectingMunicipality>
+, 
+<location LSID="urn:lsid:plazi:treatment:1D0B94457A23FFD8FF694622798DF5ED:907D73887A39FFECFF5142F37967F69F" box="[168,342,1422,1444]" country="Peru" municipality="Urubamba" name="Ollantaytambo" pageId="20" pageNumber="127" stateProvince="Cusco">Ollantaytambo</location>
+, 
 <emphasis box="[369,612,1422,1443]" italics="true" pageId="20" pageNumber="127">
-<collectionCode box="[369,388,1422,1443]" country="Sweden" lsid="urn:lsid:biocol.org:col:15668" name="Department of Botany, Swedish Museum of Natural History" pageId="20" pageNumber="127" type="Herbarium">S</collectionCode>
-. Juzepczuk 1064
+<collectorName box="[369,534,1422,1443]" pageId="20" pageNumber="127">S. Juzepczuk</collectorName>
+1064
 </emphasis>
 ), 1931, 
 <emphasis italics="true" pageId="20" pageNumber="127">
-<collectionCode box="[735,754,1422,1443]" country="Sweden" lsid="urn:lsid:biocol.org:col:15668" name="Department of Botany, Swedish Museum of Natural History" pageId="20" pageNumber="127" type="Herbarium">S</collectionCode>
-. Juzepczuk [1064]
+<collectorName pageId="20" pageNumber="127">S. Juzepczuk</collectorName>
+[1064]
 </emphasis>
 (
 <typeStatus box="[401,507,1452,1474]" pageId="20" pageNumber="127">lectotype</typeStatus>
 , 
-<collectionCode box="[529,585,1453,1474]" country="Russia" httpUri="http://biocol.org/urn:lsid:biocol.org:col:15563" lsid="urn:lsid:biocol.org:col:15563" name="N. I. Vavilov Institute of Plant Industry" pageId="20" pageNumber="127" type="Herbarium">WIR</collectionCode>
-! [WIR-37468], designated here). [
+<collectionCode box="[529,585,1453,1474]" collectionName="WIR" country="Russia" httpUri="http://biocol.org/urn:lsid:biocol.org:col:15563" lsid="urn:lsid:biocol.org:col:15563" name="N. I. Vavilov Institute of Plant Industry" pageId="20" pageNumber="127" type="Herbarium">WIR</collectionCode>
+! [
+<specimenCode box="[613,748,1452,1474]" pageId="20" pageNumber="127">WIR-37468</specimenCode>
+], designated here).
+</materialsCitation>
+[
 <collectionCode box="[384,407,1482,1504]" country="USA" lsid="urn:lsid:biocol.org:col:15406" name="Harvard University - Arnold Arboretum" pageId="20" pageNumber="127" type="Herbarium">A</collectionCode>
 ].
 </paragraph>
 <paragraph blockId="20.[144,759,198,1903]" pageId="20" pageNumber="127">
 <treatmentCitation author="Bukasov &amp; Lechn." journal="Trudy Prikl. Bot. Suppl." page="58" pageId="20" pageNumber="127" score="2.4795569177717978" volume="58" year="1933">
-<taxonomicName authority="Bukasov &amp; Lechn., Trudy Prikl. Bot. Suppl." class="Magnoliopsida" family="Solanaceae" genus="Solanum" kingdom="Plantae" order="Solanales" pageId="20" pageNumber="127" phylum="Tracheophyta" rank="variety" species="andigenum" variety="sihuanum">
+<taxonomicName pageId="20" pageNumber="127">
 <emphasis box="[144,386,1514,1535]" italics="true" pageId="20" pageNumber="127">Solanum andigenum</emphasis>
 Juz. &amp; Bukasov var. 
 <emphasis box="[643,758,1514,1535]" italics="true" pageId="20" pageNumber="127">sihuanum</emphasis>
-Bukasov &amp; Lechn., Trudy Prikl. Bot. Suppl.
+Bukasov &amp; Lechn.,
 </taxonomicName>
-58: 58. 1933
+Trudy Prikl. Bot. Suppl. 58: 58. 1933
 </treatmentCitation>
-. Type: cultivated in Leningrad from tuber accession collected in 
+. 
+<materialsCitation collectingDate="1929" collectionCode="WIR" collectorName="S. Juzepczuk" country="Peru" location="Omasbamba" pageId="20" pageNumber="127" specimenCode="WIR-37027" specimenCount="2" stateProvince="Cusco" typeStatus="type">
+<typeStatus box="[246,304,1575,1596]" pageId="20" pageNumber="127">Type</typeStatus>
+: cultivated in Leningrad from tuber accession collected in 
 <collectingCountry box="[422,477,1606,1627]" name="Peru" pageId="20" pageNumber="127">Peru</collectingCountry>
 (
 <collectingRegion box="[493,565,1605,1626]" country="Peru" name="Cusco" pageId="20" pageNumber="127">Cusco</collectingRegion>
-: Omasbamba, 
+: 
+<location LSID="urn:lsid:plazi:treatment:1D0B94457A23FFD8FF694622798DF5ED:907D73887A39FFECFDB841387AE3F560" box="[577,722,1605,1627]" country="Peru" name="Omasbamba" pageId="20" pageNumber="127" stateProvince="Cusco">Omasbamba</location>
+, 
 <emphasis italics="true" pageId="20" pageNumber="127">
-<collectionCode box="[735,754,1606,1627]" country="Sweden" lsid="urn:lsid:biocol.org:col:15668" name="Department of Botany, Swedish Museum of Natural History" pageId="20" pageNumber="127" type="Herbarium">S</collectionCode>
-. Juzepczuk 1256
+<collectorName pageId="20" pageNumber="127">S. Juzepczuk</collectorName>
+1256
 </emphasis>
-), 1929, 
+), 
+<collectingDate box="[376,433,1636,1657]" pageId="20" pageNumber="127">1929</collectingDate>
+, 
 <emphasis box="[447,679,1636,1657]" italics="true" pageId="20" pageNumber="127">
-<collectionCode box="[447,466,1636,1657]" country="Sweden" lsid="urn:lsid:biocol.org:col:15668" name="Department of Botany, Swedish Museum of Natural History" pageId="20" pageNumber="127" type="Herbarium">S</collectionCode>
-. Juzepczuk [1259]
+<collectorName box="[447,598,1636,1657]" pageId="20" pageNumber="127">S. Juzepczuk</collectorName>
+[1259]
 </emphasis>
 (
 <typeStatus pageId="20" pageNumber="127">lectotype</typeStatus>
 , 
-<collectionCode box="[234,290,1667,1688]" country="Russia" httpUri="http://biocol.org/urn:lsid:biocol.org:col:15563" lsid="urn:lsid:biocol.org:col:15563" name="N. I. Vavilov Institute of Plant Industry" pageId="20" pageNumber="127" type="Herbarium">WIR</collectionCode>
-! [WIR-37027], designated here). [
+<collectionCode box="[234,290,1667,1688]" collectionName="WIR" country="Russia" httpUri="http://biocol.org/urn:lsid:biocol.org:col:15563" lsid="urn:lsid:biocol.org:col:15563" name="N. I. Vavilov Institute of Plant Industry" pageId="20" pageNumber="127" type="Herbarium">WIR</collectionCode>
+! [
+<specimenCode box="[309,444,1666,1688]" pageId="20" pageNumber="127">WIR-37027</specimenCode>
+], designated here)
+</materialsCitation>
+. [
 <collectionCode box="[681,704,1666,1688]" country="USA" lsid="urn:lsid:biocol.org:col:15406" name="Harvard University - Arnold Arboretum" pageId="20" pageNumber="127" type="Herbarium">A</collectionCode>
 ].
 </paragraph>
 <paragraph blockId="20.[144,759,198,1903]" pageId="20" pageNumber="127">
 <treatmentCitation author="Bukasov" journal="Trudy Prikl. Bot. Suppl." page="60" pageId="20" pageNumber="127" score="2.4795569177717978" volume="58" year="1933">
-<taxonomicName authority="Lechn. ex Bukasov, Trudy Prikl. Bot. Suppl." class="Magnoliopsida" family="Solanaceae" form="llutucruntum" genus="Solanum" kingdom="Plantae" order="Solanales" pageId="20" pageNumber="127" phylum="Tracheophyta" rank="form" species="andigenum">
+<taxonomicName pageId="20" pageNumber="127">
 <emphasis box="[144,388,1697,1718]" italics="true" pageId="20" pageNumber="127">Solanum andigenum</emphasis>
 Juz. &amp; Bukasov forma 
 <emphasis italics="true" pageId="20" pageNumber="127">llutucruntum</emphasis>
-Lechn. ex Bukasov, Trudy Prikl. Bot. Suppl.
+Lechn. ex Bukasov
 </taxonomicName>
-58: 60. 1933
+, Trudy Prikl. Bot. Suppl. 58: 60. 1933
 </treatmentCitation>
-. Type: cultivated in Leningrad from tuber accession collected in 
+. 
+<materialsCitation collectingDate="1931" collectionCode="WIR" collectorName="S. Juzepczuk" country="Peru" location="Pomacanchi" municipality="Acomayo" pageId="20" pageNumber="127" specimenCode="WIR-3740" specimenCount="2" stateProvince="Cusco" typeStatus="type">
+<typeStatus box="[337,395,1759,1780]" pageId="20" pageNumber="127">Type</typeStatus>
+: cultivated in Leningrad from tuber accession collected in 
 <collectingCountry box="[495,550,1789,1810]" name="Peru" pageId="20" pageNumber="127">Peru</collectingCountry>
 (
 <collectingRegion box="[566,638,1789,1810]" country="Peru" name="Cusco" pageId="20" pageNumber="127">Cusco</collectingRegion>
-: Acomayo, Pomacanchi, 
+: 
+<collectingMunicipality box="[649,754,1789,1810]" pageId="20" pageNumber="127">Acomayo</collectingMunicipality>
+, 
+<location LSID="urn:lsid:plazi:treatment:1D0B94457A23FFD8FF694622798DF5ED:907D73887A39FFECFF5140617905F409" box="[168,308,1820,1842]" country="Peru" municipality="Acomayo" name="Pomacanchi" pageId="20" pageNumber="127" stateProvince="Cusco">Pomacanchi</location>
+, 
 <emphasis box="[323,541,1820,1841]" italics="true" pageId="20" pageNumber="127">
-<collectionCode box="[323,342,1820,1841]" country="Sweden" lsid="urn:lsid:biocol.org:col:15668" name="Department of Botany, Swedish Museum of Natural History" pageId="20" pageNumber="127" type="Herbarium">S</collectionCode>
-. Juzepczuk 1249
+<collectorName box="[323,476,1820,1841]" pageId="20" pageNumber="127">S. Juzepczuk</collectorName>
+1249
 </emphasis>
-), 1931, 
+), 
+<collectingDate box="[566,623,1820,1841]" pageId="20" pageNumber="127">1931</collectingDate>
+, 
 <emphasis italics="true" pageId="20" pageNumber="127">
-<collectionCode box="[639,658,1820,1841]" country="Sweden" lsid="urn:lsid:biocol.org:col:15668" name="Department of Botany, Swedish Museum of Natural History" pageId="20" pageNumber="127" type="Herbarium">S</collectionCode>
-. Juzepczuk [1249]
+<collectorName pageId="20" pageNumber="127">S. Juzepczuk</collectorName>
+[1249]
 </emphasis>
 (
 <typeStatus box="[303,409,1850,1872]" pageId="20" pageNumber="127">lectotype</typeStatus>
 , 
-<collectionCode box="[421,477,1850,1871]" country="Russia" httpUri="http://biocol.org/urn:lsid:biocol.org:col:15563" lsid="urn:lsid:biocol.org:col:15563" name="N. I. Vavilov Institute of Plant Industry" pageId="20" pageNumber="127" type="Herbarium">WIR</collectionCode>
-! [WIR-3740], designated here). [
+<collectionCode box="[421,477,1850,1871]" collectionName="WIR" country="Russia" httpUri="http://biocol.org/urn:lsid:biocol.org:col:15563" lsid="urn:lsid:biocol.org:col:15563" name="N. I. Vavilov Institute of Plant Industry" pageId="20" pageNumber="127" type="Herbarium">WIR</collectionCode>
+! [
+<specimenCode box="[495,617,1849,1871]" pageId="20" pageNumber="127">WIR-3740</specimenCode>
+], designated here).
+</materialsCitation>
+[
 <collectionCode box="[251,274,1880,1902]" country="USA" lsid="urn:lsid:biocol.org:col:15406" name="Harvard University - Arnold Arboretum" pageId="20" pageNumber="127" type="Herbarium">A</collectionCode>
 ].
 </paragraph>
 <paragraph blockId="20.[806,1422,198,1903]" pageId="20" pageNumber="127">
 <treatmentCitation author="Bukasov &amp; Lechn." journal="Trudy Prikl. Bot. Suppl." page="60" pageId="20" pageNumber="127" score="2.4795569177717978" volume="58" year="1933">
-<taxonomicName authority="Bukasov &amp; Lechn., Trudy Prikl. Bot. Suppl." class="Magnoliopsida" family="Solanaceae" form="ppaqui" genus="Solanum" kingdom="Plantae" order="Solanales" pageId="20" pageNumber="127" phylum="Tracheophyta" rank="form" species="andigenum">
+<taxonomicName pageId="20" pageNumber="127">
 <emphasis box="[806,1050,198,219]" italics="true" pageId="20" pageNumber="127">Solanum andigenum</emphasis>
 Juz. &amp; Bukasov forma 
 <emphasis box="[1342,1421,198,219]" italics="true" pageId="20" pageNumber="127">ppaqui</emphasis>
-Bukasov &amp; Lechn., Trudy Prikl. Bot. Suppl.
+Bukasov &amp; Lechn.
 </taxonomicName>
-58: 60. 1933
+, Trudy Prikl. Bot. Suppl. 58: 60. 1933
 </treatmentCitation>
-. Type: cultivated in Leningrad from tuber accession collected in 
+. 
+<materialsCitation collectingDate="1931" collectionCode="WIR" collectorName="S. Juzepczuk" country="Peru" location="Poroy" municipality="Poroy" pageId="20" pageNumber="127" specimenCode="WIR-37822" specimenCount="2" stateProvince="Cusco" typeStatus="type">
+<typeStatus box="[909,967,259,280]" pageId="20" pageNumber="127">Type</typeStatus>
+: cultivated in Leningrad from tuber accession collected in 
 <collectingCountry box="[1078,1133,290,311]" name="Peru" pageId="20" pageNumber="127">Peru</collectingCountry>
 (
 <collectingRegion box="[1147,1219,290,311]" country="Peru" name="Cusco" pageId="20" pageNumber="127">Cusco</collectingRegion>
-: Poroy, 
+: 
+<collectingMunicipality box="[1229,1294,290,311]" pageId="20" pageNumber="127">Poroy</collectingMunicipality>
+, 
 <emphasis italics="true" pageId="20" pageNumber="127">
-<collectionCode box="[1305,1324,290,311]" country="Sweden" lsid="urn:lsid:biocol.org:col:15668" name="Department of Botany, Swedish Museum of Natural History" pageId="20" pageNumber="127" type="Herbarium">S</collectionCode>
-. Juzepczuk 1402
+<collectorName pageId="20" pageNumber="127">S. Juzepczuk</collectorName>
+1402
 </emphasis>
-), 1931, 
+), 
+<collectingDate box="[971,1028,320,341]" pageId="20" pageNumber="127">1931</collectingDate>
+, 
 <emphasis box="[1047,1289,320,342]" italics="true" pageId="20" pageNumber="127">
-<collectionCode box="[1047,1066,321,342]" country="Sweden" lsid="urn:lsid:biocol.org:col:15668" name="Department of Botany, Swedish Museum of Natural History" pageId="20" pageNumber="127" type="Herbarium">S</collectionCode>
-. Juzepczuk [1402]
+<collectorName box="[1047,1203,320,342]" pageId="20" pageNumber="127">S. Juzepczuk</collectorName>
+[1402]
 </emphasis>
 (
 <typeStatus box="[1311,1417,320,342]" pageId="20" pageNumber="127">lectotype</typeStatus>
 , 
-<collectionCode box="[831,887,351,372]" country="Russia" httpUri="http://biocol.org/urn:lsid:biocol.org:col:15563" lsid="urn:lsid:biocol.org:col:15563" name="N. I. Vavilov Institute of Plant Industry" pageId="20" pageNumber="127" type="Herbarium">WIR</collectionCode>
-! [WIR-37822], designated here). [
+<collectionCode box="[831,887,351,372]" collectionName="WIR" country="Russia" httpUri="http://biocol.org/urn:lsid:biocol.org:col:15563" lsid="urn:lsid:biocol.org:col:15563" name="N. I. Vavilov Institute of Plant Industry" pageId="20" pageNumber="127" type="Herbarium">WIR</collectionCode>
+! [
+<specimenCode box="[906,1042,350,372]" pageId="20" pageNumber="127">WIR-37822</specimenCode>
+], designated here).
+</materialsCitation>
+[
 <collectionCode box="[1277,1300,350,372]" country="USA" lsid="urn:lsid:biocol.org:col:15406" name="Harvard University - Arnold Arboretum" pageId="20" pageNumber="127" type="Herbarium">A</collectionCode>
 ].
 </paragraph>
 <paragraph blockId="20.[806,1422,198,1903]" pageId="20" pageNumber="127">
 <treatmentCitation author="Bukasov &amp; Lechn." journal="Trudy Prikl. Bot. Suppl." page="60" pageId="20" pageNumber="127" score="2.4795569177717978" volume="58" year="1933">
-<taxonomicName authority="Bukasov &amp; Lechn., Trudy Prikl. Bot. Suppl." class="Magnoliopsida" family="Solanaceae" genus="Solanum" kingdom="Plantae" order="Solanales" pageId="20" pageNumber="127" phylum="Tracheophyta" rank="variety" species="andigenum" variety="herrerae">
+<taxonomicName authority="Bukasov &amp; Lechn." authorityName="Bukasov &amp; Lechn." class="Magnoliopsida" family="Solanaceae" genus="Solanum" kingdom="Plantae" order="Solanales" pageId="20" pageNumber="127" phylum="Tracheophyta" rank="variety" species="andigenum" variety="herrerae">
 <emphasis box="[806,1052,381,402]" italics="true" pageId="20" pageNumber="127">Solanum andigenum</emphasis>
 Juz. &amp; Bukasov var. 
 <emphasis box="[1326,1421,381,402]" italics="true" pageId="20" pageNumber="127">herrerae</emphasis>
-Bukasov &amp; Lechn., Trudy Prikl. Bot. Suppl.
+Bukasov &amp; Lechn.
 </taxonomicName>
-58: 60. 1933
+, Trudy Prikl. Bot. Suppl. 58: 60. 1933
 </treatmentCitation>
-. Type: cultivated in Leningrad from tuber accession collected in 
+. 
+<materialsCitation collectingDate="1928" collectionCode="WIR" collectorName="S. Juzepczuk" country="Peru" location="Yana Machay" pageId="20" pageNumber="127" specimenCode="WIR-37793" specimenCount="2" stateProvince="Cusco" typeStatus="type">
+<typeStatus box="[909,967,443,464]" pageId="20" pageNumber="127">Type</typeStatus>
+: cultivated in Leningrad from tuber accession collected in 
 <collectingCountry box="[1096,1151,474,495]" name="Peru" pageId="20" pageNumber="127">Peru</collectingCountry>
 (
 <collectingRegion box="[1171,1243,473,494]" country="Peru" name="Cusco" pageId="20" pageNumber="127">Cusco</collectingRegion>
-: Yana Machay, 
+: 
+<location LSID="urn:lsid:plazi:treatment:1D0B94457A23FFD8FF694622798DF5ED:907D73887A39FFECFB1046A77DB8F2D4" box="[1257,1417,473,495]" country="Peru" name="Yana Machay" pageId="20" pageNumber="127" stateProvince="Cusco">Yana Machay</location>
+, 
 <emphasis box="[831,1062,504,525]" italics="true" pageId="20" pageNumber="127">
-<collectionCode box="[831,850,504,525]" country="Sweden" lsid="urn:lsid:biocol.org:col:15668" name="Department of Botany, Swedish Museum of Natural History" pageId="20" pageNumber="127" type="Herbarium">S</collectionCode>
-. Juzepczuk 1283
+<collectorName box="[831,990,504,525]" pageId="20" pageNumber="127">S. Juzepczuk</collectorName>
+1283
 </emphasis>
-), 1928, 
+), 
+<collectingDate box="[1094,1151,504,525]" pageId="20" pageNumber="127">1928</collectingDate>
+, 
 <emphasis box="[1174,1421,504,525]" italics="true" pageId="20" pageNumber="127">
-<collectionCode box="[1174,1193,504,525]" country="Sweden" lsid="urn:lsid:biocol.org:col:15668" name="Department of Botany, Swedish Museum of Natural History" pageId="20" pageNumber="127" type="Herbarium">S</collectionCode>
-. Juzepczuk [1283]
+<collectorName box="[1174,1333,504,525]" pageId="20" pageNumber="127">S. Juzepczuk</collectorName>
+[1283]
 </emphasis>
 (
 <typeStatus box="[838,944,534,556]" pageId="20" pageNumber="127">lectotype</typeStatus>
 , 
-<collectionCode box="[966,1022,535,556]" country="Russia" httpUri="http://biocol.org/urn:lsid:biocol.org:col:15563" lsid="urn:lsid:biocol.org:col:15563" name="N. I. Vavilov Institute of Plant Industry" pageId="20" pageNumber="127" type="Herbarium">WIR</collectionCode>
-! [WIR-37793], designated here). [
+<collectionCode box="[966,1022,535,556]" collectionName="WIR" country="Russia" httpUri="http://biocol.org/urn:lsid:biocol.org:col:15563" lsid="urn:lsid:biocol.org:col:15563" name="N. I. Vavilov Institute of Plant Industry" pageId="20" pageNumber="127" type="Herbarium">WIR</collectionCode>
+! [
+<specimenCode box="[1050,1185,534,556]" pageId="20" pageNumber="127">WIR-37793</specimenCode>
+], designated here).
+</materialsCitation>
+[
 <collectionCode box="[838,861,564,586]" country="USA" lsid="urn:lsid:biocol.org:col:15406" name="Harvard University - Arnold Arboretum" pageId="20" pageNumber="127" type="Herbarium">A</collectionCode>
 ].
 </paragraph>
 <paragraph blockId="20.[806,1422,198,1903]" pageId="20" pageNumber="127">
 <treatmentCitation author="Bukasov &amp; Lechn." journal="Trudy Prikl. Bot. Suppl." page="61" pageId="20" pageNumber="127" score="2.4795569177717978" volume="58" year="1933">
-<taxonomicName authority="Bukasov &amp; Lechn., Trudy Prikl. Bot. Suppl." class="Magnoliopsida" family="Solanaceae" form="huallata" genus="Solanum" kingdom="Plantae" order="Solanales" pageId="20" pageNumber="127" phylum="Tracheophyta" rank="form" species="andigenum">
+<taxonomicName pageId="20" pageNumber="127">
 <emphasis box="[806,1047,596,617]" italics="true" pageId="20" pageNumber="127">Solanum andigenum</emphasis>
 Juz. &amp; Bukasov forma 
 <emphasis box="[1324,1422,596,617]" italics="true" pageId="20" pageNumber="127">huallata</emphasis>
-Bukasov &amp; Lechn., Trudy Prikl. Bot. Suppl.
+Bukasov &amp; Lechn
 </taxonomicName>
-58: 61. 1933
+., Trudy Prikl. Bot. Suppl. 58: 61. 1933
 </treatmentCitation>
-. Type: cultivated in Leningrad from tuber accession collected in 
+. 
+<materialsCitation collectingDate="1938" collectionCode="K" collectorName="S. Juzepczuk" country="Peru" location="Prov. Chinchero" municipality="Prov. Chinchero" pageId="20" pageNumber="127" specimenCode="K000658026" specimenCount="2" stateProvince="Cusco" typeStatus="type">
+<typeStatus box="[909,967,657,678]" pageId="20" pageNumber="127">Type</typeStatus>
+: cultivated in Leningrad from tuber accession collected in 
 <collectingCountry box="[1080,1135,688,709]" name="Peru" pageId="20" pageNumber="127">Peru</collectingCountry>
 (
 <collectingRegion box="[1150,1222,688,709]" country="Peru" name="Cusco" pageId="20" pageNumber="127">Cusco</collectingRegion>
-: Prov. Chinchero, 1927, 
+: 
+<collectingMunicipality box="[1232,1417,687,709]" pageId="20" pageNumber="127">Prov. Chinchero</collectingMunicipality>
+, 1927, 
 <emphasis box="[904,1122,718,739]" italics="true" pageId="20" pageNumber="127">
-<collectionCode box="[904,923,718,739]" country="Sweden" lsid="urn:lsid:biocol.org:col:15668" name="Department of Botany, Swedish Museum of Natural History" pageId="20" pageNumber="127" type="Herbarium">S</collectionCode>
-. Juzepczuk 1438
+<collectorName box="[904,1056,718,739]" pageId="20" pageNumber="127">S. Juzepczuk</collectorName>
+1438
 </emphasis>
-), 1938, 
-<emphasis box="[1221,1421,718,740]" italics="true" pageId="20" pageNumber="127">
-<collectionCode box="[1221,1238,718,739]" country="South Africa" lsid="urn:lsid:biocol.org:col:14647" name="University of the Witwatersrand" pageId="20" pageNumber="127" type="Herbarium">J</collectionCode>
-. 
-<collectionCode box="[1242,1265,718,739]" country="Switzerland" lsid="urn:lsid:biocol.org:col:15706" name="Conservatoire et Jardin botaniques de la Ville de Genève" pageId="20" pageNumber="127" type="Herbarium">G</collectionCode>
-. Hawkes s.n.
-</emphasis>
+), 
+<collectingDate box="[1148,1205,718,739]" pageId="20" pageNumber="127">1938</collectingDate>
+, 
+<emphasis box="[1221,1421,718,740]" italics="true" pageId="20" pageNumber="127">J.G. Hawkes s.n.</emphasis>
 (no specimens cited in protologue; 
 <typeStatus box="[1280,1372,749,770]" pageId="20" pageNumber="127">neotype</typeStatus>
 , 
 <collectionCode box="[1395,1418,749,770]" country="United Kingdom" lsid="urn:lsid:biocol.org:col:15867" name="Royal Botanic Gardens" pageId="20" pageNumber="127" type="Herbarium">K</collectionCode>
 ! [
-<collectionCode box="[837,857,778,800]" country="United Kingdom" lsid="urn:lsid:biocol.org:col:15867" name="Royal Botanic Gardens" pageId="20" pageNumber="127" type="Herbarium">K</collectionCode>
-000658026], designated here). [
+<specimenCode box="[837,986,778,800]" pageId="20" pageNumber="127">K000658026</specimenCode>
+], designated here)
+</materialsCitation>
+. [
 <collectionCode box="[1222,1245,778,800]" country="USA" lsid="urn:lsid:biocol.org:col:15406" name="Harvard University - Arnold Arboretum" pageId="20" pageNumber="127" type="Herbarium">A</collectionCode>
 ].
 </paragraph>
 <paragraph blockId="20.[806,1422,198,1903]" pageId="20" pageNumber="127">
 <treatmentCitation author="Bukasov &amp; Lechn." journal="Trudy Prikl. Bot. Suppl." page="61" pageId="20" pageNumber="127" score="2.4795569177717978" volume="58" year="1933">
-<taxonomicName authority="Bukasov &amp; Lechn., Trudy Prikl. Bot. Suppl." class="Magnoliopsida" family="Solanaceae" form="leckeumo" genus="Solanum" kingdom="Plantae" order="Solanales" pageId="20" pageNumber="127" phylum="Tracheophyta" rank="form" species="andigenum">
+<taxonomicName pageId="20" pageNumber="127">
 <emphasis box="[806,1046,810,831]" italics="true" pageId="20" pageNumber="127">Solanum andigenum</emphasis>
 Juz. &amp; Bukasov forma 
 <emphasis box="[1317,1421,810,831]" italics="true" pageId="20" pageNumber="127">leckeumo</emphasis>
-Bukasov &amp; Lechn., Trudy Prikl. Bot. Suppl.
+Bukasov &amp; Lechn.,
 </taxonomicName>
-58: 61. 1933
+Trudy Prikl. Bot. Suppl. 58: 61. 1933
 </treatmentCitation>
 . 
 <typeStatus box="[909,967,871,892]" pageId="20" pageNumber="127">Type</typeStatus>
@@ -3018,46 +3197,59 @@ and Paucartambo,
 ].
 </paragraph>
 <paragraph blockId="20.[806,1422,198,1903]" pageId="20" pageNumber="127">
-<taxonomicName authority="Bukasov &amp; Lechn., Trudy Prikl. Bot. Suppl." class="Magnoliopsida" family="Solanaceae" genus="Solanum" kingdom="Plantae" order="Solanales" pageId="20" pageNumber="127" phylum="Tracheophyta" rank="variety" species="andigenum" variety="ccusi">
+<taxonomicName pageId="20" pageNumber="127">
 <emphasis box="[806,1058,993,1014]" italics="true" pageId="20" pageNumber="127">Solanum andigenum</emphasis>
 Juz. &amp; Bukasov var. 
 <emphasis box="[1365,1421,994,1015]" italics="true" pageId="20" pageNumber="127">ccusi</emphasis>
-Bukasov &amp; Lechn., Trudy Prikl. Bot. Suppl.
+Bukasov &amp; Lechn.,
 </taxonomicName>
-58: 62, fig. 15. 1933. Type: cultivated in Leningrad from tuber accession collected in 
+Trudy Prikl. Bot. Suppl. 58: 62, fig. 15. 1933. 
+<materialsCitation collectingDate="1929" collectionCode="WIR" collectorName="S. Juzepczuk" country="Peru" location="Yana" pageId="20" pageNumber="127" specimenCode="WIR-37608" specimenCount="2" stateProvince="Cusco" typeStatus="type">
+<typeStatus box="[1000,1058,1055,1076]" pageId="20" pageNumber="127">Type</typeStatus>
+: cultivated in Leningrad from tuber accession collected in 
 <collectingCountry box="[1164,1219,1086,1107]" name="Peru" pageId="20" pageNumber="127">Peru</collectingCountry>
 (
 <collectingRegion box="[1237,1309,1085,1106]" country="Peru" name="Cusco" pageId="20" pageNumber="127">Cusco</collectingRegion>
-: Yana, 
+: 
+<location LSID="urn:lsid:plazi:treatment:1D0B94457A23FFD8FF694622798DF5ED:907D73887A39FFECFAD243437D56F768" box="[1323,1383,1086,1107]" country="Peru" name="Yana" pageId="20" pageNumber="127" stateProvince="Cusco">Yana</location>
+, 
 <emphasis italics="true" pageId="20" pageNumber="127">
-<collectionCode box="[1398,1417,1086,1107]" country="Sweden" lsid="urn:lsid:biocol.org:col:15668" name="Department of Botany, Swedish Museum of Natural History" pageId="20" pageNumber="127" type="Herbarium">S</collectionCode>
-. Juzepczuk 1284
+<collectorName pageId="20" pageNumber="127">S. Juzepczuk</collectorName>
+1284
 </emphasis>
-), 1929, 
+), 
+<collectingDate box="[1038,1095,1116,1137]" pageId="20" pageNumber="127">1929</collectingDate>
+, 
 <emphasis box="[1110,1342,1116,1137]" italics="true" pageId="20" pageNumber="127">
-<collectionCode box="[1110,1129,1116,1137]" country="Sweden" lsid="urn:lsid:biocol.org:col:15668" name="Department of Botany, Swedish Museum of Natural History" pageId="20" pageNumber="127" type="Herbarium">S</collectionCode>
-. Juzepczuk [1284]
+<collectorName box="[1110,1261,1116,1137]" pageId="20" pageNumber="127">S. Juzepczuk</collectorName>
+[1284]
 </emphasis>
 (
 <typeStatus pageId="20" pageNumber="127">lectotype</typeStatus>
 , 
-<collectionCode box="[897,953,1147,1168]" country="Russia" httpUri="http://biocol.org/urn:lsid:biocol.org:col:15563" lsid="urn:lsid:biocol.org:col:15563" name="N. I. Vavilov Institute of Plant Industry" pageId="20" pageNumber="127" type="Herbarium">WIR</collectionCode>
-! [WIR-37608], designated here). [
+<collectionCode box="[897,953,1147,1168]" collectionName="WIR" country="Russia" httpUri="http://biocol.org/urn:lsid:biocol.org:col:15563" lsid="urn:lsid:biocol.org:col:15563" name="N. I. Vavilov Institute of Plant Industry" pageId="20" pageNumber="127" type="Herbarium">WIR</collectionCode>
+! [
+<specimenCode box="[972,1107,1146,1168]" pageId="20" pageNumber="127">WIR-37608</specimenCode>
+], designated here)
+</materialsCitation>
+. [
 <collectionCode box="[1343,1366,1146,1168]" country="USA" lsid="urn:lsid:biocol.org:col:15406" name="Harvard University - Arnold Arboretum" pageId="20" pageNumber="127" type="Herbarium">A</collectionCode>
 ].
 </paragraph>
 </subSubSection>
 <subSubSection pageId="20" pageNumber="127" type="description">
 <paragraph blockId="20.[806,1422,198,1903]" pageId="20" pageNumber="127">
-<taxonomicName authority="Bukasov &amp; Lechn., Trudy Prikl. Bot. Suppl." class="Magnoliopsida" family="Solanaceae" form="uncuna" genus="Solanum" kingdom="Plantae" order="Solanales" pageId="20" pageNumber="127" phylum="Tracheophyta" rank="form" species="andigenum">
+<taxonomicName pageId="20" pageNumber="127">
 <emphasis box="[806,1049,1177,1198]" italics="true" pageId="20" pageNumber="127">Solanum andigenum</emphasis>
 Juz. &amp; Bukasov forma 
 <emphasis box="[1336,1421,1178,1199]" italics="true" pageId="20" pageNumber="127">uncuna</emphasis>
-Bukasov &amp; Lechn., Trudy Prikl. Bot. Suppl.
+Bukasov &amp; Lechn
 </taxonomicName>
-58: 63, tab. 2, fig. 5. 1933. as ‘ 
+., Trudy Prikl. Bot. Suppl. 58: 63, tab. 2, fig. 5. 1933. as ‘ 
 <emphasis box="[1098,1183,1239,1260]" italics="true" pageId="20" pageNumber="127">uncuña</emphasis>
-’. Type: cultivated in Leningrad from tuber accession collected in 
+’. 
+<materialsCitation pageId="20" pageNumber="127">
+Type: cultivated in Leningrad from tuber accession collected in 
 <collectingCountry box="[1366,1421,1269,1290]" name="Peru" pageId="20" pageNumber="127">Peru</collectingCountry>
 (
 <collectingRegion box="[838,910,1300,1321]" country="Peru" name="Cusco" pageId="20" pageNumber="127">Cusco</collectingRegion>
@@ -3075,7 +3267,9 @@ Bukasov &amp; Lechn., Trudy Prikl. Bot. Suppl.
 <typeStatus box="[1240,1346,1330,1352]" pageId="20" pageNumber="127">lectotype</typeStatus>
 , 
 <collectionCode box="[1362,1418,1330,1351]" country="Russia" httpUri="http://biocol.org/urn:lsid:biocol.org:col:15563" lsid="urn:lsid:biocol.org:col:15563" name="N. I. Vavilov Institute of Plant Industry" pageId="20" pageNumber="127" type="Herbarium">WIR</collectionCode>
-! [WIR-37427], designated here). [
+! [WIR-37427], designated here).
+</materialsCitation>
+[
 <collectionCode box="[1208,1231,1360,1382]" country="USA" lsid="urn:lsid:biocol.org:col:15406" name="Harvard University - Arnold Arboretum" pageId="20" pageNumber="127" type="Herbarium">A</collectionCode>
 ].
 </paragraph>
@@ -3083,15 +3277,17 @@ Bukasov &amp; Lechn., Trudy Prikl. Bot. Suppl.
 <subSubSection lastPageId="21" lastPageNumber="128" pageId="20" pageNumber="127" type="reference_group">
 <paragraph blockId="20.[806,1422,198,1903]" pageId="20" pageNumber="127">
 <treatmentCitation author="Bukasov &amp; Lechn." journal="Trudy Prikl. Bot. Suppl." page="63" pageId="20" pageNumber="127" score="2.4795569177717978" volume="58" year="1933">
-<taxonomicName authority="Bukasov &amp; Lechn., Trudy Prikl. Bot. Suppl." class="Magnoliopsida" family="Solanaceae" form="ancaccmaquin" genus="Solanum" kingdom="Plantae" order="Solanales" pageId="20" pageNumber="127" phylum="Tracheophyta" rank="form" species="andigenum">
+<taxonomicName pageId="20" pageNumber="127">
 <emphasis box="[806,1049,1391,1412]" italics="true" pageId="20" pageNumber="127">Solanum andigenum</emphasis>
 Juz. &amp; Bukasov forma 
 <emphasis italics="true" pageId="20" pageNumber="127">ancaccmaquin</emphasis>
-Bukasov &amp; Lechn., Trudy Prikl. Bot. Suppl.
+Bukasov &amp; Lechn.,
 </taxonomicName>
-58: 63. 1933
+Trudy Prikl. Bot. Suppl. 58: 63. 1933
 </treatmentCitation>
-. Type: cultivated in Leningrad from tuber accession collected in 
+. 
+<materialsCitation pageId="20" pageNumber="127">
+Type: cultivated in Leningrad from tuber accession collected in 
 <collectingCountry box="[1168,1223,1483,1504]" name="Peru" pageId="20" pageNumber="127">Peru</collectingCountry>
 (
 <collectingRegion box="[1242,1314,1483,1504]" country="Peru" name="Cusco" pageId="20" pageNumber="127">Cusco</collectingRegion>
@@ -3109,19 +3305,21 @@ Bukasov &amp; Lechn., Trudy Prikl. Bot. Suppl.
 <typeStatus box="[983,1089,1544,1566]" pageId="20" pageNumber="127">lectotype</typeStatus>
 , 
 <collectionCode box="[1109,1165,1544,1565]" country="Russia" httpUri="http://biocol.org/urn:lsid:biocol.org:col:15563" lsid="urn:lsid:biocol.org:col:15563" name="N. I. Vavilov Institute of Plant Industry" pageId="20" pageNumber="127" type="Herbarium">WIR</collectionCode>
-! [WIR-37560], designated here). [
+! [WIR-37560], designated here).
+</materialsCitation>
+[
 <collectionCode box="[988,1011,1574,1596]" country="USA" lsid="urn:lsid:biocol.org:col:15406" name="Harvard University - Arnold Arboretum" pageId="20" pageNumber="127" type="Herbarium">A</collectionCode>
 ].
 </paragraph>
 <paragraph blockId="20.[806,1422,198,1903]" pageId="20" pageNumber="127">
 <treatmentCitation author="Bukasov &amp; Lechn." journal="Trudy Prikl. Bot. Suppl." page="63" pageId="20" pageNumber="127" score="2.4795569177717978" volume="58" year="1933">
-<taxonomicName authority="Bukasov &amp; Lechn., Trudy Prikl. Bot. Suppl." class="Magnoliopsida" family="Solanaceae" form="microstigma" genus="Solanum" kingdom="Plantae" order="Solanales" pageId="20" pageNumber="127" phylum="Tracheophyta" rank="form" species="andigenum">
+<taxonomicName pageId="20" pageNumber="127">
 <emphasis box="[806,1068,1605,1626]" italics="true" pageId="20" pageNumber="127">Solanum andigenum</emphasis>
 Juz. &amp; Bukasov forma 
 <emphasis box="[831,972,1637,1658]" italics="true" pageId="20" pageNumber="127">microstigma</emphasis>
-Bukasov &amp; Lechn., Trudy Prikl. Bot. Suppl.
+Bukasov &amp; Lechn.,
 </taxonomicName>
-58: 63. 1933
+Trudy Prikl. Bot. Suppl. 58: 63. 1933
 </treatmentCitation>
 . 
 <typeStatus box="[1074,1132,1667,1688]" pageId="20" pageNumber="127">Type</typeStatus>
@@ -3138,13 +3336,13 @@ Bukasov &amp; Lechn., Trudy Prikl. Bot. Suppl.
 </paragraph>
 <paragraph blockId="20.[806,1422,198,1903]" pageId="20" pageNumber="127">
 <treatmentCitation author="Bukasov &amp; Lechn." journal="Trudy Prikl. Bot. Suppl." page="63" pageId="20" pageNumber="127" score="2.4795569177717978" volume="58" year="1933">
-<taxonomicName authority="Bukasov &amp; Lechn., Trudy Prikl. Bot. Suppl." class="Magnoliopsida" family="Solanaceae" form="ppaccnacha" genus="Solanum" kingdom="Plantae" order="Solanales" pageId="20" pageNumber="127" phylum="Tracheophyta" rank="form" species="andigenum">
+<taxonomicName pageId="20" pageNumber="127">
 <emphasis box="[806,1051,1758,1779]" italics="true" pageId="20" pageNumber="127">Solanum andigenum</emphasis>
 Juz. &amp; Bukasov forma 
 <emphasis italics="true" pageId="20" pageNumber="127">ppaccnacha</emphasis>
-Bukasov &amp; Lechn., Trudy Prikl. Bot. Suppl.
+Bukasov &amp; Lechn.,
 </taxonomicName>
-58: 63. 1933
+Trudy Prikl. Bot. Suppl. 58: 63. 1933
 </treatmentCitation>
 . 
 <typeStatus box="[999,1057,1820,1841]" pageId="20" pageNumber="127">Type</typeStatus>
