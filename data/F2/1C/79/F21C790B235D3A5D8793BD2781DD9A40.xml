@@ -1,4 +1,4 @@
-<document ID-DOI="10.1080/00222933.2012.707249" ID-ISSN="1464-5262" ID-Zenodo-Dep="5202071" approvalRequired="104" approvalRequired_for_textStreams="104" checkinTime="1628963778859" checkinUser="felipe" docAuthor="Moradmand, Majid &amp; Jäger, Peter" docDate="2012" docId="F21C790B235D3A5D8793BD2781DD9A40" docLanguage="en" docName="JNatHist.46.39-40.2439-2496.pdf" docOrigin="Journal of Natural History 46 (39 - 40)" docSource="http://dx.doi.org/10.1080/00222933.2012.707249" docStyle="DocumentStyle:FCA295E821436EF9307F50C7AC261B53.5:JNatHist.2008-2012.journal_article.1cover" docStyleId="FCA295E821436EF9307F50C7AC261B53" docStyleName="JNatHist.2008-2012.journal_article.1cover" docStyleVersion="5" docTitle="Eusparassus levantinus Urones 2006" docType="treatment" docVersion="2" lastPageId="13" lastPageNumber="2451" masterDocId="0E25017323513A508636BE21855C9C2A" masterDocTitle="Taxonomic revision of the huntsman spider genus Eusparassus Simon, 1903 (Araneae: Sparassidae) in Eurasia" masterLastPageNumber="2496" masterPageNumber="2439" pageId="12" pageNumber="2450" updateTime="1628964200911" updateUser="ExternalLinkService" zenodo-license-document="CLOSED">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6501752" ID-GBIF-Dataset="6e4a60c9-c2d5-4ed2-b640-6253aa251f7f" ID-ISSN="1464-5262" ID-Zenodo-Dep="6501752" approvalRequired="7" approvalRequired_for_textStreams="7" checkinTime="1628963778859" checkinUser="felipe" docAuthor="Moradmand, Majid &amp; Jäger, Peter" docDate="2012" docId="F21C790B235D3A5D8793BD2781DD9A40" docLanguage="en" docName="JNatHist.46.39-40.2439-2496.pdf" docOrigin="Journal of Natural History 46 (39 - 40)" docSource="http://dx.doi.org/10.1080/00222933.2012.707249" docStyle="DocumentStyle:FCA295E821436EF9307F50C7AC261B53.9:JNatHist.2008-2012.journal_article.1cover" docStyleId="FCA295E821436EF9307F50C7AC261B53" docStyleName="JNatHist.2008-2012.journal_article.1cover" docStyleVersion="9" docTitle="Eusparassus levantinus Urones 2006" docType="treatment" docVersion="6" lastPageId="13" lastPageNumber="2451" masterDocId="0E25017323513A508636BE21855C9C2A" masterDocTitle="Taxonomic revision of the huntsman spider genus Eusparassus Simon, 1903 (Araneae: Sparassidae) in Eurasia" masterLastPageNumber="2496" masterPageNumber="2439" pageId="12" pageNumber="2450" updateTime="1651155285709" updateUser="ExternalLinkService" zenodo-license-document="CLOSED">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Taxonomic revision of the huntsman spider genus Eusparassus Simon, 1903 (Araneae: Sparassidae) in Eurasia</mods:title>
@@ -42,10 +42,11 @@
 </mods:location>
 <mods:classification>journal article</mods:classification>
 <mods:identifier type="DOI">10.1080/00222933.2012.707249</mods:identifier>
+<mods:identifier type="GBIF-Dataset">6e4a60c9-c2d5-4ed2-b640-6253aa251f7f</mods:identifier>
 <mods:identifier type="ISSN">1464-5262</mods:identifier>
 <mods:identifier type="Zenodo-Dep">5202071</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:F21C790B235D3A5D8793BD2781DD9A40" httpUri="http://treatment.plazi.org/id/F21C790B235D3A5D8793BD2781DD9A40" lastPageId="13" lastPageNumber="2451" pageId="12" pageNumber="2450">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6501752" ID-Zenodo-Dep="6501752" LSID="urn:lsid:plazi:treatment:F21C790B235D3A5D8793BD2781DD9A40" httpUri="http://treatment.plazi.org/id/F21C790B235D3A5D8793BD2781DD9A40" lastPageId="13" lastPageNumber="2451" pageId="12" pageNumber="2450">
 <subSubSection box="[421,826,773,798]" pageId="12" pageNumber="2450" type="nomenclature">
 <paragraph blockId="12.[421,826,773,829]" box="[421,826,773,798]" pageId="12" pageNumber="2450">
 <heading box="[421,826,773,798]" centered="true" fontSize="36" level="2" pageId="12" pageNumber="2450" reason="7">
@@ -84,33 +85,35 @@ female examined).
 </treatmentCitationGroup>
 </paragraph>
 </subSubSection>
-<subSubSection lastPageId="13" lastPageNumber="2451" pageId="12" pageNumber="2450" type="materials_examined">
+<subSubSection pageId="12" pageNumber="2450" type="materials_examined">
 <paragraph blockId="12.[143,408,1004,1028]" box="[143,408,1004,1028]" pageId="12" pageNumber="2450">
 <emphasis box="[143,408,1004,1028]" italics="true" pageId="12" pageNumber="2450">Type material examined</emphasis>
 </paragraph>
 <paragraph blockId="12.[143,1103,1044,1132]" pageId="12" pageNumber="2450">
-<materialsCitation collectingDate="2004-05-20" collectorName="La Mosquera &amp; S. Montagud" country="Spain" county="La Mosquera" location="Castellon Province" municipality="Almeria" pageId="12" pageNumber="2450" specimenCount="1" typeStatus="holotype">
+<materialsCitation collectingDate="2004-05-20" collectionCode="MVHN" collectorName="S. Montagud" country="Spain" county="La Mosquera" location="Castellon Province" municipality="Almeria" pageId="12" pageNumber="2450" specimenCount="1" typeStatus="holotype">
 <typeStatus box="[143,254,1044,1068]" pageId="12" pageNumber="2450">Holotype</typeStatus>
-: male, 
+: 
+<specimenCount box="[266,322,1044,1068]" pageId="12" pageNumber="2450" type="male">male</specimenCount>
+, 
 <collectingCountry box="[334,419,1044,1068]" name="Spain" pageId="12" pageNumber="2450">SPAIN</collectingCountry>
 : 
 <location LSID="urn:lsid:plazi:treatment:F21C790B235D3A5D8793BD2781DD9A40:7F6A9EC6235D3A5C8799BA3587D99806" box="[431,645,1044,1068]" country="Spain" county="La Mosquera" municipality="Almeria" name="Castellon Province" pageId="12" pageNumber="2450">Castellon Province</location>
 , 
-<collectingMunicipality box="[658,750,1044,1068]" pageId="12" pageNumber="2450">Almeria</collectingMunicipality>
+<location LSID="urn:lsid:plazi:treatment:F21C790B235D3A5D8793BD2781DD9A40:7F6A9EC6235D3A5C84A4BA3587B29806" box="[658,750,1044,1068]" country="Spain" county="La Mosquera" municipality="Almeria" name="Almeria" pageId="12" pageNumber="2450">Almeria</location>
 (
-<collectorName box="[767,926,1044,1068]" pageId="12" pageNumber="2450">
-<collectingCounty box="[767,926,1044,1068]" pageId="12" pageNumber="2450">La Mosquera</collectingCounty>
-</collectorName>
+<location LSID="urn:lsid:plazi:treatment:F21C790B235D3A5D8793BD2781DD9A40:7F6A9EC6235D3A5C84C9BA3586C29806" box="[767,926,1044,1068]" country="Spain" county="La Mosquera" municipality="Almeria" name="La Mosquera" pageId="12" pageNumber="2450">La Mosquera</location>
 ), 
 <date box="[947,1099,1044,1069]" pageId="12" pageNumber="2450" value="2004-05-20">
 <collectingDate box="[947,1099,1044,1069]" pageId="12" pageNumber="2450" value="2004-05-20">20 May 2004</collectingDate>
 </date>
 , 
 <collectorName box="[143,291,1076,1100]" pageId="12" pageNumber="2450">S. Montagud</collectorName>
-leg. (MVHN 200504LM1)
+leg. (
+<collectionCode box="[353,443,1076,1100]" collectionName="MVHN" pageId="12" pageNumber="2450">MVHN</collectionCode>
+200504LM1)
 </materialsCitation>
 ; 
-<materialsCitation collectingDate="1973-04-18" collectionCode="MNCN" collectorName="Enix &amp; Almeria &amp; M. Rambla" country="Spain" pageId="12" pageNumber="2450" specimenCode="MNCN 20.02" specimenCount="1" specimenCount-female="1" typeStatus="paratype">
+<materialsCitation collectingDate="1973-04-18" collectionCode="MNCN" collectorName=" M. Rambla" country="Spain" pageId="12" pageNumber="2450" specimenCode="MNCN 20.02" specimenCount="1" specimenCount-female="1" typeStatus="paratype">
 <typeStatus box="[612,716,1077,1101]" pageId="12" pageNumber="2450">Paratype</typeStatus>
 : 
 <specimenCount box="[727,824,1076,1100]" pageId="12" pageNumber="2450" type="female">1 female</specimenCount>
@@ -305,20 +308,19 @@ leg. (
 </materialsCitation>
 .
 </paragraph>
+</subSubSection>
+<subSubSection lastPageId="13" lastPageNumber="2451" pageId="12" pageNumber="2450" type="diagnosis">
 <paragraph blockId="12.[143,251,1563,1586]" box="[143,251,1563,1586]" pageId="12" pageNumber="2450">
 <emphasis box="[143,251,1563,1586]" italics="true" pageId="12" pageNumber="2450">Diagnosis</emphasis>
 </paragraph>
-<paragraph blockId="12.[143,1104,1602,1690]" pageId="12" pageNumber="2450">
+<paragraph blockId="12.[143,1104,1602,1690]" lastBlockId="13.[211,1171,167,224]" lastPageId="13" lastPageNumber="2451" pageId="12" pageNumber="2450">
 Similar to 
 <taxonomicName authorityName="Simon" authorityYear="1932" box="[271,386,1602,1626]" class="Arachnida" family="Sparassidae" genus="Eusparassus" kingdom="Animalia" order="Araneae" pageId="12" pageNumber="2450" phylum="Arthropoda" rank="species" species="dufouri">
 <emphasis box="[271,386,1602,1626]" italics="true" pageId="12" pageNumber="2450">E. dufouri</emphasis>
 </taxonomicName>
 but distinguished by shape of embolus tip, which is smaller, slimmer and pointed in ventral view and dRTA which is straighter (
 <figureCitation box="[908,1061,1634,1658]" captionStart="Figure 4" captionStartId="14.[143,210,1578,1600]" captionTargetBox="[145,1102,162,1545]" captionTargetId="figure-6@14.[145,1102,162,1545]" captionTargetPageId="14" captionText="Figure 4. Eusparassus levantinus Urones, 2006, female paratype (A–D) from Almeria, Spain: (A) eye arrangement; (B) left chelicera, ventral; (C) epigyne, ventral; (D) left vulva, anteriodorso-lateral. Male (E–G) from Andalusia, Spain: (E) left palp, ventral; (F) left palp, retrolateral; (G) tip of embolus and conductor, ventral. Scale bars: (A–C, E, F) 1 mm, (D, G) 0.5 mm." figureDoi="http://doi.org/10.5281/zenodo.5202079" httpUri="https://zenodo.org/record/5202079/files/figure.png" pageId="12" pageNumber="2450">Figure 4E–G</figureCitation>
-); in vulva glandular pores situated on a semicircular process which is fused to entire body
-</paragraph>
-<paragraph blockId="13.[211,1171,167,224]" pageId="13" pageNumber="2451">
-of vulva (
+); in vulva glandular pores situated on a semicircular process which is fused to entire body of vulva (
 <figureCitation box="[320,441,167,191]" captionStart="Figure 4" captionStartId="14.[143,210,1578,1600]" captionTargetBox="[145,1102,162,1545]" captionTargetId="figure-6@14.[145,1102,162,1545]" captionTargetPageId="14" captionText="Figure 4. Eusparassus levantinus Urones, 2006, female paratype (A–D) from Almeria, Spain: (A) eye arrangement; (B) left chelicera, ventral; (C) epigyne, ventral; (D) left vulva, anteriodorso-lateral. Male (E–G) from Andalusia, Spain: (E) left palp, ventral; (F) left palp, retrolateral; (G) tip of embolus and conductor, ventral. Scale bars: (A–C, E, F) 1 mm, (D, G) 0.5 mm." figureDoi="http://doi.org/10.5281/zenodo.5202079" httpUri="https://zenodo.org/record/5202079/files/figure.png" pageId="13" pageNumber="2451">Figure 4D</figureCitation>
 ), in contrast they are present on a separated curved structure in 
 <taxonomicName authorityName="Simon" authorityYear="1932" box="[211,322,200,224]" class="Arachnida" family="Sparassidae" genus="Eusparassus" kingdom="Animalia" order="Araneae" pageId="13" pageNumber="2451" phylum="Arthropoda" rank="species" species="dufouri">
@@ -326,6 +328,8 @@ of vulva (
 </taxonomicName>
 females.
 </paragraph>
+</subSubSection>
+<subSubSection pageId="13" pageNumber="2451" type="description">
 <paragraph blockId="13.[211,361,302,326]" box="[211,361,302,326]" pageId="13" pageNumber="2451">
 <emphasis box="[211,361,302,326]" italics="true" pageId="13" pageNumber="2451">Redescription</emphasis>
 </paragraph>
