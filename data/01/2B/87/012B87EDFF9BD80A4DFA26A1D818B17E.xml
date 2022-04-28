@@ -1,4 +1,4 @@
-<document ID-DOI="10.5281/zenodo.3374526" ID-GBIF-Dataset="2a40cf95-9ffb-4f3c-894b-cf53b8788a0a" ID-Zenodo-Dep="3374526" checkinTime="1566477704804" checkinUser="jeremy" docAuthor="Holtz, TR jr." docDate="2004" docId="012B87EDFF9BD80A4DFA26A1D818B17E" docLanguage="en" docName="Holtz2004Tyrannosauroidea.pdf" docOrigin="The Dinosauria, University of California Press" docStyle="DocumentStyle{}" docTitle="Stokesosaurus clevelandi Madsen 1974" docType="treatment" docVersion="1" lastPageNumber="112" masterDocId="FD12FF95FF9AD80B4D3D2775DD29B37C" masterDocTitle="Tyrannosauroidea" masterLastPageNumber="136" masterPageNumber="111" pageId="1" pageNumber="112" updateTime="1651161145082" updateUser="felipe">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6501948" ID-GBIF-Dataset="2a40cf95-9ffb-4f3c-894b-cf53b8788a0a" ID-GBIF-Taxon="194854492" ID-Zenodo-Dep="6501948" checkinTime="1566477704804" checkinUser="jeremy" docAuthor="Holtz, TR jr." docDate="2004" docId="012B87EDFF9BD80A4DFA26A1D818B17E" docLanguage="en" docName="Holtz2004Tyrannosauroidea.pdf" docOrigin="The Dinosauria, University of California Press" docStyle="DocumentStyle{}" docTitle="Stokesosaurus clevelandi Madsen 1974" docType="treatment" docVersion="3" lastPageNumber="112" masterDocId="FD12FF95FF9AD80B4D3D2775DD29B37C" masterDocTitle="Tyrannosauroidea" masterLastPageNumber="136" masterPageNumber="111" pageId="1" pageNumber="112" updateTime="1651175885665" updateUser="ExternalLinkService">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Tyrannosauroidea</mods:title>
@@ -48,9 +48,9 @@
 <mods:identifier type="GBIF-Dataset">2a40cf95-9ffb-4f3c-894b-cf53b8788a0a</mods:identifier>
 <mods:identifier type="Zenodo-Dep">3374526</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:012B87EDFF9BD80A4DFA26A1D818B17E" httpUri="http://treatment.plazi.org/id/012B87EDFF9BD80A4DFA26A1D818B17E" lastPageNumber="112" pageId="1" pageNumber="112">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6501948" ID-GBIF-Taxon="194854492" ID-Zenodo-Dep="6501948" LSID="urn:lsid:plazi:treatment:012B87EDFF9BD80A4DFA26A1D818B17E" httpUri="http://treatment.plazi.org/id/012B87EDFF9BD80A4DFA26A1D818B17E" lastPageNumber="112" pageId="1" pageNumber="112">
 <subSubSection box="[199,458,468,487]" pageId="1" pageNumber="112" type="nomenclature">
-<paragraph blockId="1.[99,1357,196,1687]" box="[199,458,468,487]" pageId="1" pageNumber="112">
+<paragraph blockId="1.[179,460,441,487]" box="[199,458,468,487]" pageId="1" pageNumber="112">
 <taxonomicName authority="Madsen, 1974" authorityName="Madsen" authorityYear="1974" box="[199,458,468,487]" class="Reptilia" family="Not" genus="Stokesosaurus" higherTaxonomySource="CoL" kingdom="Animalia" order="Dinosauria" pageId="1" pageNumber="112" phylum="Chordata" rank="species" species="clevelandi">
 <emphasis bold="true" box="[199,328,468,487]" italics="true" pageId="1" pageNumber="112">S. clevelandi</emphasis>
 Madsen, 1974
@@ -58,8 +58,16 @@ Madsen, 1974
 </paragraph>
 </subSubSection>
 <subSubSection pageId="1" pageNumber="112" type="materials_examined">
-<paragraph blockId="1.[99,1357,196,1687]" pageId="1" pageNumber="112">
-<materialsCitation pageId="1" pageNumber="112">Morrison Formation (Utah), United States Kimmeridgian– Tithonian Ilium, associated elements and pelvic cranial material</materialsCitation>
+<paragraph pageId="1" pageNumber="112">
+<materialsCitation ID-GBIF-Occurrence="3757557301" country="United States of America" location="Morrison Formation" pageId="1" pageNumber="112" specimenCount="1" stateProvince="Utah">
+<location LSID="urn:lsid:plazi:treatment:012B87EDFF9BD80A4DFA26A1D818B17E:8C5D6020FF9BD80A4F5E26A1DE09B29B" box="[611,800,468,487]" country="United States of America" name="Morrison Formation" pageId="1" pageNumber="112" stateProvince="Utah">Morrison Formation</location>
+(
+<collectingRegion box="[628,677,495,514]" country="United States of America" name="Utah" pageId="1" pageNumber="112">Utah</collectingRegion>
+), 
+<collectingCountry box="[692,813,495,514]" name="United States of America" pageId="1" pageNumber="112">United States</collectingCountry>
+<geologicalTimeScale box="[899,1043,468,514]" pageId="1" pageNumber="112">Kimmeridgian– Tithonian</geologicalTimeScale>
+Ilium, associated elements and pelvic cranial material
+</materialsCitation>
 </paragraph>
 </subSubSection>
 </treatment>

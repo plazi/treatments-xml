@@ -1,4 +1,4 @@
-<document ID-DOI="10.5281/zenodo.3374526" ID-GBIF-Dataset="2a40cf95-9ffb-4f3c-894b-cf53b8788a0a" ID-Zenodo-Dep="3374526" checkinTime="1566477704804" checkinUser="jeremy" docAuthor="Holtz, TR jr." docDate="2004" docId="012B87EDFF98D8094DFA27AAD9C7B23E" docLanguage="en" docName="Holtz2004Tyrannosauroidea.pdf" docOrigin="The Dinosauria, University of California Press" docStyle="DocumentStyle{}" docTitle="Tarbosaurus bataar Maleev 1955" docType="treatment" docVersion="1" lastPageNumber="113" masterDocId="FD12FF95FF9AD80B4D3D2775DD29B37C" masterDocTitle="Tyrannosauroidea" masterLastPageNumber="136" masterPageNumber="111" pageId="2" pageNumber="113" updateTime="1651170105056" updateUser="felipe">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6502439" ID-GBIF-Dataset="2a40cf95-9ffb-4f3c-894b-cf53b8788a0a" ID-GBIF-Taxon="194854910" ID-Zenodo-Dep="6502439" checkinTime="1566477704804" checkinUser="jeremy" docAuthor="Holtz, TR jr." docDate="2004" docId="012B87EDFF98D8094DFA27AAD9C7B23E" docLanguage="en" docName="Holtz2004Tyrannosauroidea.pdf" docOrigin="The Dinosauria, University of California Press" docStyle="DocumentStyle{}" docTitle="Tarbosaurus bataar Maleev 1955" docType="treatment" docVersion="2" lastPageNumber="113" masterDocId="FD12FF95FF9AD80B4D3D2775DD29B37C" masterDocTitle="Tyrannosauroidea" masterLastPageNumber="136" masterPageNumber="111" pageId="2" pageNumber="113" updateTime="1651175885665" updateUser="ExternalLinkService">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Tyrannosauroidea</mods:title>
@@ -48,7 +48,7 @@
 <mods:identifier type="GBIF-Dataset">2a40cf95-9ffb-4f3c-894b-cf53b8788a0a</mods:identifier>
 <mods:identifier type="Zenodo-Dep">3374526</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:012B87EDFF98D8094DFA27AAD9C7B23E" httpUri="http://treatment.plazi.org/id/012B87EDFF98D8094DFA27AAD9C7B23E" lastPageNumber="113" pageId="2" pageNumber="113">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6502439" ID-GBIF-Taxon="194854910" ID-Zenodo-Dep="6502439" LSID="urn:lsid:plazi:treatment:012B87EDFF98D8094DFA27AAD9C7B23E" httpUri="http://treatment.plazi.org/id/012B87EDFF98D8094DFA27AAD9C7B23E" lastPageNumber="113" pageId="2" pageNumber="113">
 <subSubSection box="[199,444,223,242]" pageId="2" pageNumber="113" type="nomenclature">
 <paragraph blockId="2.[199,580,223,615]" box="[199,444,223,242]" pageId="2" pageNumber="113">
 <taxonomicName authority="(Maleev, 1955 a)" authorityName="Maleev" authorityYear="1955" baseAuthorityName="Maleev" baseAuthorityYear="1955" box="[199,444,223,242]" class="Reptilia" family="Tyrannosauridae" genus="Tarbosaurus" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Dinosauria" pageId="2" pageNumber="113" phylum="Chordata" rank="species" species="bataar">
@@ -139,7 +139,7 @@ Dong, 1979
 </subSubSection>
 <subSubSection pageId="2" pageNumber="113" type="materials_examined">
 <paragraph pageId="2" pageNumber="113">
-<materialsCitation country="Mongolia" location="Nemegt Svita" pageId="2" pageNumber="113" specimenCount="1" stateProvince="Bayankhongor">
+<materialsCitation ID-GBIF-Occurrence="3757643335" country="Mongolia" location="Nemegt Svita" pageId="2" pageNumber="113" specimenCount="1" stateProvince="Bayankhongor">
 <location LSID="urn:lsid:plazi:treatment:012B87EDFF98D8094DFA27AAD9C7B23E:8C5D6020FF98D8094F5E27AADFF6B38E" box="[611,735,223,242]" name="Nemegt Svita" pageId="2" pageNumber="113" stateProvince="Bayankhongor">Nemegt Svita</location>
 , 
 <location LSID="urn:lsid:plazi:treatment:012B87EDFF98D8094DFA27AAD9C7B23E:8C5D6020FF98D8094FD527AADFD6B270" name="White Beds of Hermiin Tsav" pageId="2" pageNumber="113" stateProvince="Bayankhongor">White Beds of Hermiin Tsav</location>
@@ -147,7 +147,7 @@ Dong, 1979
 <collectingRegion box="[627,767,276,295]" pageId="2" pageNumber="113">Bayankhongor</collectingRegion>
 ),
 </materialsCitation>
-<materialsCitation country="Mongolia" location="Nemegt Formation" pageId="2" pageNumber="113" specimenCount="1" stateProvince="Omnogov'">
+<materialsCitation ID-GBIF-Occurrence="3757643329" country="Mongolia" location="Nemegt Formation" pageId="2" pageNumber="113" specimenCount="1" stateProvince="Omnogov'">
 <location LSID="urn:lsid:plazi:treatment:012B87EDFF98D8094DFA27AAD9C7B23E:8C5D6020FF98D8094E302661DFE6B23E" country="Mongolia" name="Nemegt Formation" pageId="2" pageNumber="113" stateProvince="Omnogov'">Nemegt Formation</location>
 (
 <collectingRegion box="[730,832,303,322]" pageId="2" pageNumber="113">Ömnögov’</collectingRegion>
@@ -155,30 +155,30 @@ Dong, 1979
 <collectingCountry box="[621,713,329,348]" name="Mongolia" pageId="2" pageNumber="113">Mongolia</collectingCountry>
 ;
 </materialsCitation>
-<materialsCitation country="China" location="Subashi Formation" pageId="2" pageNumber="113" specimenCount="1" stateProvince="Xinjiang Uygur Zizhiqu">
+<materialsCitation ID-GBIF-Occurrence="3757643317" country="China" location="Subashi Formation" pageId="2" pageNumber="113" specimenCount="1" stateProvince="Xinjiang Uygur Zizhiqu">
 <location LSID="urn:lsid:plazi:treatment:012B87EDFF98D8094DFA27AAD9C7B23E:8C5D6020FF98D8094FEC263CDFE6B20B" name="Subashi Formation" pageId="2" pageNumber="113" stateProvince="Xinjiang Uygur Zizhiqu">Subashi Formation</location>
 (
 <collectingRegion pageId="2" pageNumber="113">Xinjiang Uygur Zizhiqu</collectingRegion>
 ),
 </materialsCitation>
-<materialsCitation country="China" location="Heilongjiang" pageId="2" pageNumber="113" specimenCount="1" stateProvince="Heilongjiang">
+<materialsCitation ID-GBIF-Occurrence="3757643339" country="China" location="Heilongjiang" pageId="2" pageNumber="113" specimenCount="1" stateProvince="Heilongjiang">
 unnamed unit (
 <collectingRegion box="[671,796,409,428]" pageId="2" pageNumber="113">Heilongjiang</collectingRegion>
 ),
 </materialsCitation>
-<materialsCitation country="China" location="Yuanpu Formation" pageId="2" pageNumber="113" specimenCount="1" stateProvince="Guangdong">
+<materialsCitation ID-GBIF-Occurrence="3757643319" country="China" location="Yuanpu Formation" pageId="2" pageNumber="113" specimenCount="1" stateProvince="Guangdong">
 <location LSID="urn:lsid:plazi:treatment:012B87EDFF98D8094DFA27AAD9C7B23E:8C5D6020FF98D8094F5026C1DE32B2BB" box="[621,795,436,455]" name="Yuanpu Formation" pageId="2" pageNumber="113" stateProvince="Guangdong">Yuanpu Formation</location>
 (
 <collectingRegion box="[628,741,463,482]" pageId="2" pageNumber="113">Guangdong</collectingRegion>
 ),
 </materialsCitation>
-<materialsCitation country="China" location="Wangshi Group" pageId="2" pageNumber="113" specimenCount="1" stateProvince="Shandong">
+<materialsCitation ID-GBIF-Occurrence="3757643330" country="China" location="Wangshi Group" pageId="2" pageNumber="113" specimenCount="1" stateProvince="Shandong">
 <location LSID="urn:lsid:plazi:treatment:012B87EDFF98D8094DFA27AAD9C7B23E:8C5D6020FF98D8094FCE26BADF80B280" name="Wangshi Group" pageId="2" pageNumber="113" stateProvince="Shandong">Wangshi Group</location>
 (
 <collectingRegion box="[692,790,489,508]" pageId="2" pageNumber="113">Shandong</collectingRegion>
 ),
 </materialsCitation>
-<materialsCitation country="China" location="Quiba Formation" pageId="2" pageNumber="113" specimenCount="30" stateProvince="Henan">
+<materialsCitation ID-GBIF-Occurrence="3757643310" country="China" location="Quiba Formation" pageId="2" pageNumber="113" specimenCount="30" stateProvince="Henan">
 <location LSID="urn:lsid:plazi:treatment:012B87EDFF98D8094DFA27AAD9C7B23E:8C5D6020FF98D8094E19269CDFE6B16B" country="China" name="Quiba Formation" pageId="2" pageNumber="113" stateProvince="Henan">Quiba Formation</location>
 (
 <collectingRegion box="[730,795,516,535]" country="China" name="Henan" pageId="2" pageNumber="113">Henan</collectingRegion>
