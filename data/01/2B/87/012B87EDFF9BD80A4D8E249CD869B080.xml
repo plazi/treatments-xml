@@ -1,4 +1,4 @@
-<document ID-DOI="10.5281/zenodo.3374526" ID-GBIF-Dataset="2a40cf95-9ffb-4f3c-894b-cf53b8788a0a" ID-Zenodo-Dep="3374526" checkinTime="1566477704804" checkinUser="jeremy" docAuthor="Holtz, TR jr." docDate="2004" docId="012B87EDFF9BD80A4D8E249CD869B080" docLanguage="en" docName="Holtz2004Tyrannosauroidea.pdf" docOrigin="The Dinosauria, University of California Press" docStyle="DocumentStyle{}" docTitle="Tyrannosauroidea" docType="treatment" docVersion="1" lastPageNumber="112" masterDocId="FD12FF95FF9AD80B4D3D2775DD29B37C" masterDocTitle="Tyrannosauroidea" masterLastPageNumber="136" masterPageNumber="111" pageId="1" pageNumber="112" updateTime="1651162308143" updateUser="felipe">
+<document ID-DOI="10.5281/zenodo.3374526" ID-GBIF-Dataset="2a40cf95-9ffb-4f3c-894b-cf53b8788a0a" ID-Zenodo-Dep="3374526" checkinTime="1566477704804" checkinUser="jeremy" docAuthor="Holtz, TR jr." docDate="2004" docId="012B87EDFF9BD80A4D8E249CD869B080" docLanguage="en" docName="Holtz2004Tyrannosauroidea.pdf" docOrigin="The Dinosauria, University of California Press" docStyle="DocumentStyle{}" docTitle="Tyrannosauridae Osborn 1905" docType="treatment" docVersion="2" lastPageNumber="112" masterDocId="FD12FF95FF9AD80B4D3D2775DD29B37C" masterDocTitle="Tyrannosauroidea" masterLastPageNumber="136" masterPageNumber="111" pageId="1" pageNumber="112" updateTime="1651169053527" updateUser="felipe">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Tyrannosauroidea</mods:title>
@@ -49,9 +49,25 @@
 <mods:identifier type="Zenodo-Dep">3374526</mods:identifier>
 </mods:mods>
 <treatment LSID="urn:lsid:plazi:treatment:012B87EDFF9BD80A4D8E249CD869B080" httpUri="http://treatment.plazi.org/id/012B87EDFF9BD80A4D8E249CD869B080" lastPageNumber="112" pageId="1" pageNumber="112">
-<paragraph blockId="1.[179,584,1001,1047]" pageId="1" pageNumber="112">Unnamed tyrannosaurid (Carr, Williamson, et Schwimmer, in press)</paragraph>
-<paragraph blockId="1.[611,1344,1001,1074]" pageId="1" pageNumber="112">
-<materialsCitation pageId="1" pageNumber="112">Demopolis Chalk Formation (Alabama), United States middle Campanian Partial skull and postcranium</materialsCitation>
+<subSubSection pageId="1" pageNumber="112" type="nomenclature">
+<paragraph blockId="1.[179,584,1001,1047]" pageId="1" pageNumber="112">
+Unnamed 
+<taxonomicName authority="Osborn, 1905" authorityName="Osborn" authorityYear="1905" box="[276,407,1001,1020]" class="Reptilia" family="Tyrannosauridae" higherTaxonomySource="GBIF,CoL" kingdom="Animalia" order="Dinosauria" pageId="1" pageNumber="112" phylum="Chordata" rank="family">tyrannosaurid</taxonomicName>
+(Carr, Williamson, et Schwimmer, in press)
 </paragraph>
+</subSubSection>
+<subSubSection pageId="1" pageNumber="112" type="materials_examined">
+<paragraph blockId="1.[611,1344,1001,1074]" pageId="1" pageNumber="112">
+<materialsCitation country="United States of America" location="Demopolis Chalk Formation" pageId="1" pageNumber="112" specimenCount="1" stateProvince="Alabama">
+<location LSID="urn:lsid:plazi:treatment:012B87EDFF9BD80A4D8E249CD869B080:8C5D6020FF9BD80A4F5E249CDFE6B76B" country="United States of America" name="Demopolis Chalk Formation" pageId="1" pageNumber="112" stateProvince="Alabama">Demopolis Chalk Formation</location>
+(
+<collectingRegion box="[730,815,1028,1047]" country="United States of America" name="Alabama" pageId="1" pageNumber="112">Alabama</collectingRegion>
+), 
+<collectingCountry box="[621,743,1055,1074]" name="United States of America" pageId="1" pageNumber="112">United States</collectingCountry>
+<geologicalTimeScale box="[899,1017,1001,1047]" pageId="1" pageNumber="112">middle Campanian</geologicalTimeScale>
+Partial skull and postcranium
+</materialsCitation>
+</paragraph>
+</subSubSection>
 </treatment>
 </document>
