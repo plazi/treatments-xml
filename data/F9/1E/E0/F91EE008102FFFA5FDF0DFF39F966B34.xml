@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.4331145" ID-GBIF-Dataset="3bad6762-1788-4f94-9cfd-1281b8619c55" ID-GBIF-Taxon="167368586" ID-ISSN="1464-5262" ID-Zenodo-Dep="4331145" checkinTime="1598467980037" checkinUser="carolina" docAuthor="Frolov, Andrey V." docDate="2014" docId="F91EE008102FFFA5FDF0DFF39F966B34" docLanguage="en" docName="JNATHIST.49.3-4.129-154.pdf" docOrigin="Journal of Natural History 49 (3)" docStyle="DocumentStylede.uka.ipd.idaho.easyIO.settings.Settings@1861287c" docStyleName="journalofnaturalhistory.2013-2015.journal_article" docTitle="Delopleurus striatus Arrow" docType="treatment" docVersion="6" lastPageId="23" lastPageNumber="152" masterDocId="052798701039FFB2FFECDA539E466F14" masterDocTitle="Revision of the genus Delopleurus Boheman (Coleoptera: Scarabaeidae: Scarabaeinae) with description of new species from Africa" masterLastPageNumber="154" masterPageNumber="129" pageId="22" pageNumber="151" updateTime="1632023643526" updateUser="ExternalLinkService" zenodo-license-document="CC-BY-4.0" zenodo-license-figures="CC-BY-4.0">
+<document ID-DOI="http://doi.org/10.5281/zenodo.4331145" ID-GBIF-Dataset="3bad6762-1788-4f94-9cfd-1281b8619c55" ID-GBIF-Taxon="167368586" ID-ISSN="1464-5262" ID-Zenodo-Dep="4331145" checkinTime="1598467980037" checkinUser="carolina" docAuthor="Frolov, Andrey V." docDate="2014" docId="F91EE008102FFFA5FDF0DFF39F966B34" docLanguage="en" docName="JNATHIST.49.3-4.129-154.pdf" docOrigin="Journal of Natural History 49 (3)" docStyle="DocumentStyle:210803DF447D5DCB84349979EDD3507F.6:JNatHist.2013-2015.journal_article.2cover" docStyleId="210803DF447D5DCB84349979EDD3507F" docStyleName="JNatHist.2013-2015.journal_article.2cover" docStyleVersion="6" docTitle="Delopleurus striatus Arrow" docType="treatment" docVersion="8" lastPageId="23" lastPageNumber="152" masterDocId="052798701039FFB2FFECDA539E466F14" masterDocTitle="Revision of the genus Delopleurus Boheman (Coleoptera: Scarabaeidae: Scarabaeinae) with description of new species from Africa" masterLastPageNumber="154" masterPageNumber="129" pageId="22" pageNumber="151" updateTime="1651242536061" updateUser="carolina" zenodo-license-document="CC-BY-4.0" zenodo-license-figures="CC-BY-4.0">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Revision of the genus Delopleurus Boheman (Coleoptera: Scarabaeidae: Scarabaeinae) with description of new species from Africa</mods:title>
@@ -56,7 +56,7 @@ Arrow
 )
 </paragraph>
 </subSubSection>
-<subSubSection box="[212,578,1518,1542]" pageId="22" pageNumber="151" type="nomenclature">
+<subSubSection box="[212,578,1518,1542]" pageId="22" pageNumber="151" type="reference_group">
 <paragraph blockId="22.[212,578,1518,1542]" box="[212,578,1518,1542]" pageId="22" pageNumber="151">
 <heading box="[212,578,1518,1542]" fontSize="10" level="3" pageId="22" pageNumber="151" reason="5">
 <taxonomicName authority="Arrow 1931" authorityName="Arrow" authorityYear="1931" box="[212,578,1518,1542]" class="Insecta" family="Scarabaeidae" genus="Delopleurus" higherTaxonomySource="GBIF" kingdom="Animalia" order="Coleoptera" pageId="22" pageNumber="151" phylum="Arthropoda" rank="species" species="striatus">
@@ -123,21 +123,29 @@ unknown
 </heading>
 </paragraph>
 <paragraph blockId="23.[144,1104,729,888]" pageId="23" pageNumber="152">
+<materialsCitation collectingDate="1927-08" collectionCode="BMNH" collectorName="H. G. Champion'" country="India" elevation="610" location="United Provs. Dehra Dun." municipality="United Provs. Dehra Dun." pageId="23" pageNumber="152" specimenCount="1" specimenCount-female="1" typeStatus="holotype">
 <typeStatus box="[144,253,768,792]" pageId="23" pageNumber="152">Holotype</typeStatus>
-, female with the labels ‘ 
+, 
+<specimenCount box="[264,338,768,792]" pageId="23" pageNumber="152" type="female">female</specimenCount>
+with the labels ‘ 
 <collectingCountry box="[525,588,768,792]" name="India" pageId="23" pageNumber="152">India</collectingCountry>
-. United Provs. Dehra Dun. 
-<quantity box="[908,1001,768,792]" metricMagnitude="2" metricUnit="m" metricValue="6.096" pageId="23" pageNumber="152" unit="ft" value="2000.0">2,000 ft.</quantity>
-<date box="[1008,1103,768,792]" pageId="23" pageNumber="152" value="1927-08">viii.1927</date>
-H.G.Champion’, ‘ 
-<collectingCountry box="[357,416,800,824]" name="India" pageId="23" pageNumber="152">India</collectingCountry>
-H.G.Champion B.M. 1931-8’, ‘ 
+. 
+<collectingMunicipality box="[599,901,768,792]" pageId="23" pageNumber="152">United Provs. Dehra Dun.</collectingMunicipality>
+<quantity box="[908,1001,768,792]" metricMagnitude="2" metricUnit="m" metricValue="6.096" pageId="23" pageNumber="152" unit="ft" value="2000.0">
+<elevation box="[908,1001,768,792]" metricMagnitude="2" metricUnit="m" metricValue="6.096" pageId="23" pageNumber="152" unit="ft" value="2000.0">2,000 ft.</elevation>
+</quantity>
+<date box="[1008,1103,768,792]" pageId="23" pageNumber="152" value="1927-08">
+<collectingDate box="[1008,1103,768,792]" pageId="23" pageNumber="152" value="1927-08">viii.1927</collectingDate>
+</date>
+<collectorName box="[144,328,800,824]" pageId="23" pageNumber="152">H.G.Champion’</collectorName>
+, ‘India H.G.Champion B.M. 1931-8’, ‘ 
 <taxonomicName box="[807,1041,800,824]" class="Insecta" family="Scarabaeidae" genus="Delopleurus" higherTaxonomySource="GBIF" kingdom="Animalia" order="Coleoptera" pageId="23" pageNumber="152" phylum="Arthropoda" rank="species" species="striatus">Delopleurus striatus</taxonomicName>
 type Arrow’, ‘Type’, ‘SYNTYPE’, ‘ 
 <taxonomicName authority="Arrow M. E. Bacchus" box="[507,990,832,856]" class="Insecta" family="Scarabaeidae" genus="Delopleurus" higherTaxonomySource="GBIF" kingdom="Animalia" order="Coleoptera" pageId="23" pageNumber="152" phylum="Arthropoda" rank="species" species="striatus">Delopleurus striatus Arrow M.E.Bacchus</taxonomicName>
 det 1975 SYNTYPE’ (
-<collectionCode box="[296,388,864,888]" pageId="23" pageNumber="152">BMNH</collectionCode>
+<collectionCode box="[296,388,864,888]" collectionName="United Kingdom, London, The Natural History Museum [formerly British Museum (Natural History)]" pageId="23" pageNumber="152">BMNH</collectionCode>
 ).
+</materialsCitation>
 </paragraph>
 </subSubSection>
 <subSubSection pageId="23" pageNumber="152" type="distribution">
@@ -147,7 +155,7 @@ det 1975 SYNTYPE’ (
 </heading>
 </paragraph>
 <paragraph blockId="23.[144,1104,961,1056]" pageId="23" pageNumber="152">
-The species is known from the single locality in northern periphery of the Indo- Gangetic Plain (
+The species is known from the single locality in northern periphery of the Indo-Gangetic Plain (
 <figureCitation box="[330,448,1032,1056]" captionStart="Figure 9" captionStartId="11.[144,211,939,961]" captionTargetBox="[147,1104,168,906]" captionTargetId="figure@11.[144,1104,168,907]" captionTargetPageId="11" captionText="Figure 9. Delopleurus spp. and Metacatharsius janssensi. (A, E) habitus (A, D. striatus, E, M. janssensi); (B) D. striatus, head and pronotum in dorsal view; (C) D. striatus, pygidium; (D) D. striatus, locality map; (F) D. fossatus sp. nov., ventral view of head showing gula with distinct longitudinal groove." figureDoi="http://doi.org/10.5281/zenodo.4002615" httpUri="https://zenodo.org/record/4002615/files/figure.png" pageId="23" pageNumber="152">Figure 9D</figureCitation>
 ).
 </paragraph>
