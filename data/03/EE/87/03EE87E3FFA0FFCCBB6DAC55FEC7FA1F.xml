@@ -1,4 +1,4 @@
-<document ID-DOI="10.1080/00222933.2017.1319519" ID-ISSN="1464-5262" ID-Zenodo-Dep="4746652" approvalRequired="57" approvalRequired_for_document="1" approvalRequired_for_matCits="12" approvalRequired_for_textStreams="42" approvalRequired_for_treatments="2" checkinTime="1620669599041" checkinUser="carolina" docAuthor="Frolov, Andrey V., Akhmetova, Lilia A. &amp; Vaz-de-Mello, Fernando Z." docDate="2017" docId="03EE87E3FFA0FFCCBB6DAC55FEC7FA1F" docLanguage="en" docName="JNATHIST.51.19-20.1035-1090.pdf" docOrigin="Journal of Natural History 51 (19 - 20)" docSource="http://dx.doi.org/10.1080/00222933.2017.1319519" docStyle="DocumentStyle:485A7191CD41D6261F41521A3380DC73.7:JNatHist.2017-.journal_article" docStyleId="485A7191CD41D6261F41521A3380DC73" docStyleName="JNatHist.2017-.journal_article" docStyleVersion="7" docTitle="Aegidium asperatum Preudhomme de Borre (Arrow 1912" docType="treatment" docVersion="2" lastPageId="48" lastPageNumber="1082" masterDocId="FFD7FF9BFF8FFFFCBA0DAF01FFF0FFB5" masterDocTitle="Revision of the mainland species of the Neotropical genus Aegidium Westwood (Coleoptera: Scarabaeidae: Orphninae)" masterLastPageNumber="1090" masterPageNumber="1035" pageId="47" pageNumber="1081" updateTime="1620670257549" updateUser="ExternalLinkService" zenodo-license-document="CLOSED">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6506530" ID-GBIF-Dataset="7dd54e06-5524-476c-8ef1-eefc5c571da3" ID-ISSN="1464-5262" ID-Zenodo-Dep="6506530" checkinTime="1620669599041" checkinUser="carolina" docAuthor="Frolov, Andrey V., Akhmetova, Lilia A. &amp; Vaz-de-Mello, Fernando Z." docDate="2017" docId="03EE87E3FFA0FFCCBB6DAC55FEC7FA1F" docLanguage="en" docName="JNATHIST.51.19-20.1035-1090.pdf" docOrigin="Journal of Natural History 51 (19 - 20)" docSource="http://dx.doi.org/10.1080/00222933.2017.1319519" docStyle="DocumentStyle:485A7191CD41D6261F41521A3380DC73.9:JNatHist.2017-.journal_article.1cover" docStyleId="485A7191CD41D6261F41521A3380DC73" docStyleName="JNatHist.2017-.journal_article.1cover" docStyleVersion="9" docTitle="Aegidium asperatum Preudhomme de Borre (Arrow 1912" docType="treatment" docVersion="5" lastPageId="48" lastPageNumber="1082" masterDocId="FFD7FF9BFF8FFFFCBA0DAF01FFF0FFB5" masterDocTitle="Revision of the mainland species of the Neotropical genus Aegidium Westwood (Coleoptera: Scarabaeidae: Orphninae)" masterLastPageNumber="1090" masterPageNumber="1035" pageId="47" pageNumber="1081" updateTime="1651263106619" updateUser="ExternalLinkService" zenodo-license-document="CLOSED">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Revision of the mainland species of the Neotropical genus Aegidium Westwood (Coleoptera: Scarabaeidae: Orphninae)</mods:title>
@@ -48,10 +48,11 @@
 </mods:location>
 <mods:classification>journal article</mods:classification>
 <mods:identifier type="DOI">10.1080/00222933.2017.1319519</mods:identifier>
+<mods:identifier type="GBIF-Dataset">7dd54e06-5524-476c-8ef1-eefc5c571da3</mods:identifier>
 <mods:identifier type="ISSN">1464-5262</mods:identifier>
 <mods:identifier type="Zenodo-Dep">4746652</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:03EE87E3FFA0FFCCBB6DAC55FEC7FA1F" httpUri="http://treatment.plazi.org/id/03EE87E3FFA0FFCCBB6DAC55FEC7FA1F" lastPageId="48" lastPageNumber="1082" pageId="47" pageNumber="1081">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6506530" ID-Zenodo-Dep="6506530" LSID="urn:lsid:plazi:treatment:03EE87E3FFA0FFCCBB6DAC55FEC7FA1F" httpUri="http://treatment.plazi.org/id/03EE87E3FFA0FFCCBB6DAC55FEC7FA1F" lastPageId="48" lastPageNumber="1082" pageId="47" pageNumber="1081">
 <subSubSection box="[352,963,852,877]" pageId="47" pageNumber="1081" type="nomenclature">
 <paragraph blockId="47.[352,963,852,912]" box="[352,963,852,877]" pageId="47" pageNumber="1081">
 <heading box="[352,963,852,877]" centered="true" fontSize="11" level="2" pageId="47" pageNumber="1081" reason="2">
@@ -123,21 +124,26 @@ Preudhomme de Borre
 <collectingRegion box="[265,376,1113,1137]" country="Ecuador" name="Pichincha" pageId="47" pageNumber="1081">Pichincha</collectingRegion>
 , Quito.
 </paragraph>
+</subSubSection>
+<subSubSection pageId="47" pageNumber="1081" type="materials_examined">
 <paragraph blockId="47.[160,1155,1182,1276]" box="[160,450,1182,1207]" pageId="47" pageNumber="1081">
 <emphasis bold="true" box="[160,450,1182,1207]" italics="true" pageId="47" pageNumber="1081">Type material examined</emphasis>
 </paragraph>
 <paragraph blockId="47.[160,1155,1182,1276]" pageId="47" pageNumber="1081">
+<materialsCitation collectionCode="IRSNB" country="Ecuador" determinerName="Bone R. Paulian" location="Ecuador" pageId="47" pageNumber="1081" specimenCount="1" specimenCount-male="1" typeStatus="holotype">
 <typeStatus box="[160,265,1217,1241]" pageId="47" pageNumber="1081">Holotype</typeStatus>
-, male (
+, 
+<specimenCount box="[277,332,1217,1241]" pageId="47" pageNumber="1081" type="male">male</specimenCount>
+(
 <figureCitation box="[348,455,1217,1241]" captionStart="Figure 16" captionStartId="22.[160,225,1510,1533]" captionTargetBox="[164,1152,143,1479]" captionTargetId="figure-1@22.[163,1153,142,1479]" captionTargetPageId="22" captionText="Figure 16. Aegidium asperatum, holotype male (a, c, d), male (b, e). Habitus in dorsal view (a, b), aedeagus in lateral view (c), parameres in dorsal view (d), spiculum gastrale (e), locality map (f)." figureDoi="http://doi.org/10.5281/zenodo.4746705" httpUri="https://zenodo.org/record/4746705/files/figure.png" pageId="47" pageNumber="1081">Figure 16</figureCitation>
 (a,c,d)) at 
-<collectionCode box="[567,633,1217,1241]" country="Belgium" httpUri="http://grbio.org/cool/c7r2-61q8" name="Institut Royal des Sciences Naturelles de Belgique" pageId="47" pageNumber="1081">IRSNB</collectionCode>
+<collectionCode box="[567,633,1217,1241]" collectionName="Belgium, Brussels, Institut Royal des Sciences Naturelles de Belgique" country="Belgium" httpUri="http://grbio.org/cool/c7r2-61q8" name="Institut Royal des Sciences Naturelles de Belgique" pageId="47" pageNumber="1081">IRSNB</collectionCode>
 labeled ‘Coll. R. I. Sc. N. B. 
 <collectingCountry box="[943,1034,1217,1241]" name="Ecuador" pageId="47" pageNumber="1081">Ecuador</collectingCountry>
 E. Devilie/ 
 <taxonomicName authority="Bone R. Paulian" box="[160,574,1252,1276]" class="Insecta" family="Hybosoridae" genus="Aegidium" kingdom="Animalia" order="Coleoptera" pageId="47" pageNumber="1081" phylum="Arthropoda" rank="species" species="asperatum">
 <emphasis box="[160,388,1252,1276]" italics="true" pageId="47" pageNumber="1081">Aegidium asperatum</emphasis>
-Bone R. Paulian
+<determinerName box="[397,574,1252,1276]" pageId="47" pageNumber="1081">Bone R. Paulian</determinerName>
 </taxonomicName>
 det./ 
 <taxonomicName box="[634,779,1252,1276]" class="Insecta" family="Hybosoridae" genus="Aegidium" kingdom="Animalia" order="Coleoptera" pageId="47" pageNumber="1081" phylum="Arthropoda" rank="species" species="undetermined">
@@ -145,22 +151,23 @@ det./
 <taxonomicNameLabel box="[746,779,1252,1276]" pageId="47" pageNumber="1081" rank="species">sp.</taxonomicNameLabel>
 </taxonomicName>
 nov.!/HOLOTYPE’.
+</materialsCitation>
 </paragraph>
 <paragraph blockId="47.[160,1156,1321,1450]" box="[160,517,1321,1346]" pageId="47" pageNumber="1081">
 <emphasis bold="true" box="[160,517,1321,1346]" italics="true" pageId="47" pageNumber="1081">Additional material examined</emphasis>
 </paragraph>
 <paragraph blockId="47.[160,1156,1321,1450]" pageId="47" pageNumber="1081">
-<materialsCitation box="[160,556,1356,1380]" collectionCode="MNHN" country="Colombia" location="Two" pageId="47" pageNumber="1081" specimenCount="1">
+<materialsCitation box="[160,683,1356,1380]" collectingDate="1960-09" collectionCode="MNHN" collectorName="La Estrella &amp; Forster" country="Colombia" location="Two" pageId="47" pageNumber="1081" specimenCount="1" specimenCount-male="1" stateProvince="Antioquia">
 <collectingCountry box="[160,286,1356,1380]" name="Colombia" pageId="47" pageNumber="1081">COLOMBIA</collectingCountry>
 . 
-<location LSID="urn:lsid:plazi:treatment:03EE87E3FFA0FFCCBB6DAC55FEC7FA1F:8E98602EFFA0FFD3BB24AA4DFEA9FAD1" box="[297,345,1356,1380]" country="Colombia" name="Two" pageId="47" pageNumber="1081">Two</location>
+<location LSID="urn:lsid:plazi:treatment:03EE87E3FFA0FFCCBB6DAC55FEC7FA1F:8E98602EFFA0FFD3BB24AA4DFEA9FAD1" box="[297,345,1356,1380]" country="Colombia" name="Two" pageId="47" pageNumber="1081" stateProvince="Antioquia">Two</location>
 females at 
-<collectionCode box="[479,556,1356,1380]" country="France" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34988" lsid="urn:lsid:biocol.org:col:34988" name="Museum National d'Histoire Naturelle" pageId="47" pageNumber="1081">MNHN</collectionCode>
-</materialsCitation>
+<collectionCode box="[479,556,1356,1380]" collectionName="France, Paris, Museum National d'Histoire Naturelle" country="France" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34988" lsid="urn:lsid:biocol.org:col:34988" name="Museum National d'Histoire Naturelle" pageId="47" pageNumber="1081">MNHN</collectionCode>
 . 
-<materialsCitation collectingDate="1960-09" collectionCode="CMN" collectorName="La Estrella &amp; Forster" country="Colombia" location="Antioquia" pageId="47" pageNumber="1081" specimenCount="1" specimenCount-male="1" stateProvince="Antioquia">
 <collectingRegion box="[567,679,1356,1380]" country="Colombia" name="Antioquia" pageId="47" pageNumber="1081">Antioquia</collectingRegion>
-: 
+:
+</materialsCitation>
+<materialsCitation collectingDate="1960-09" collectionCode="CMN" collectorName="La Estrella &amp; Forster" country="Colombia" isTailEnumeration="true" location="Two" pageId="47" pageNumber="1081" specimenCount="1" specimenCount-male="1" stateProvince="Antioquia">
 <specimenCount box="[690,797,1356,1380]" pageId="47" pageNumber="1081" type="male">one male</specimenCount>
 at 
 <collectionCode box="[835,892,1356,1380]" country="Canada" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34935" lsid="urn:lsid:biocol.org:col:34935" name="Canadian Museum of Nature" pageId="47" pageNumber="1081" type="Museum">CMN</collectionCode>
@@ -172,19 +179,18 @@ at
 </date>
 , 
 <collectorName box="[232,310,1391,1415]" pageId="47" pageNumber="1081">Forster</collectorName>
-leg
+leg.
 </materialsCitation>
-<materialsCitation box="[358,362,1391,1415]" collectingDate="1960-09" collectionCode="CMN" collectorName="La Estrella &amp; Forster" country="Colombia" isTailEnumeration="true" location="Antioquia" pageId="47" pageNumber="1081" specimenCount="1" stateProvince="Antioquia">.</materialsCitation>
-<materialsCitation collectingDate="1984-12" collectionCode="MHNG" collectorName="Naranjal &amp; Voirin" country="Ecuador" location="Guayas" pageId="47" pageNumber="1081" specimenCount="1" specimenCount-male="1" stateProvince="Guayas">
+<materialsCitation collectingDate="1984-12" collectionCode="MHNG" collectorName="Voirin" country="Ecuador" location="Naranjal" pageId="47" pageNumber="1081" specimenCount="1" specimenCount-male="1" stateProvince="Guayas">
 <collectingCountry box="[373,489,1391,1415]" name="Ecuador" pageId="47" pageNumber="1081">ECUADOR</collectingCountry>
 . 
 <collectingRegion box="[503,587,1391,1415]" country="Ecuador" name="Guayas" pageId="47" pageNumber="1081">Guayas</collectingRegion>
 : 
 <specimenCount box="[601,721,1391,1415]" pageId="47" pageNumber="1081" type="male">two males</specimenCount>
 at 
-<collectionCode box="[767,843,1391,1415]" country="Switzerland" httpUri="http://grbio.org/cool/2jyg-xmd2" name="Museum d'Histoire Naturelle" pageId="47" pageNumber="1081" type="Museum">MHNG</collectionCode>
+<collectionCode box="[767,843,1391,1415]" collectionName="Switzerland, Geneva, Museum d'Histoire Naturelle" country="Switzerland" httpUri="http://grbio.org/cool/2jyg-xmd2" name="Museum d'Histoire Naturelle" pageId="47" pageNumber="1081" type="Museum">MHNG</collectionCode>
 , 
-<collectorName box="[857,952,1391,1415]" pageId="47" pageNumber="1081">Naranjal</collectorName>
+<location LSID="urn:lsid:plazi:treatment:03EE87E3FFA0FFCCBB6DAC55FEC7FA1F:8E98602EFFA0FFD3B954AA6EFC48FA32" box="[857,952,1391,1415]" country="Ecuador" name="Naranjal" pageId="47" pageNumber="1081" stateProvince="Guayas">Naranjal</location>
 , 
 <date box="[967,1152,1391,1415]" pageId="47" pageNumber="1081" value="1984-12">
 <collectingDate box="[967,1152,1391,1415]" pageId="47" pageNumber="1081" value="1984-12">December 1984</collectingDate>
@@ -193,7 +199,7 @@ at
 <collectorName box="[160,226,1426,1450]" pageId="47" pageNumber="1081">Voirin</collectorName>
 leg
 </materialsCitation>
-<materialsCitation box="[270,1037,1426,1450]" collectingDate="1982-02-22" collectionCode="CEMT" collectorName="Quito" country="Ecuador" elevation="2800" location="Pichincha" pageId="47" pageNumber="1081" specimenCount="1" specimenCount-female="1" stateProvince="Pichincha">
+<materialsCitation box="[270,1152,1426,1450]" collectingDate="1982-02-22" collectionCode="CEMT" collectorName="Quito &amp; Lasso" country="Ecuador" elevation="2800" isTailEnumeration="true" location="Pichincha" pageId="47" pageNumber="1081" specimenCount="1" specimenCount-female="1" stateProvince="Pichincha">
 . 
 <collectingRegion box="[280,391,1426,1450]" country="Ecuador" name="Pichincha" pageId="47" pageNumber="1081">Pichincha</collectingRegion>
 : 
@@ -210,10 +216,7 @@ at
 <date box="[812,1010,1426,1450]" pageId="47" pageNumber="1081" value="1982-02-22">
 <collectingDate box="[812,1010,1426,1450]" pageId="47" pageNumber="1081" value="1982-02-22">22 February 1982</collectingDate>
 </date>
-, S
-</materialsCitation>
-<materialsCitation box="[1036,1152,1426,1450]" collectingDate="1982-02-22" collectionCode="CEMT" collectorName="Lasso" country="Ecuador" elevation="2800" isTailEnumeration="true" location="Pichincha" pageId="47" pageNumber="1081" specimenCount="1" stateProvince="Pichincha">
-. 
+, S. 
 <collectorName box="[1047,1108,1426,1450]" pageId="47" pageNumber="1081">Lasso</collectorName>
 leg
 </materialsCitation>
