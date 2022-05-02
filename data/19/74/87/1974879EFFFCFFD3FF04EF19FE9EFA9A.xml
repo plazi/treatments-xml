@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.5301289" ID-ISSN="0253-116X" ID-Zenodo-Dep="5301289" approvalRequired="51" approvalRequired_for_taxonomicNames="5" approvalRequired_for_textStreams="40" approvalRequired_for_treatments="6" checkinTime="1630101010072" checkinUser="marcus" docAuthor="Assing, V." docDate="2013" docId="1974879EFFFCFFD3FF04EF19FE9EFA9A" docLanguage="en" docName="LinzerbiolBeitr.2013.45.2.1479-1520.pdf" docOrigin="Linzer biologische Beiträge 45 (2)" docStyle="DocumentStyle:24E5EB772D355DE2EE23B1E8D07853E0.7:LinzerbiolBeitr.2006-.journal_article" docStyleId="24E5EB772D355DE2EE23B1E8D07853E0" docStyleName="LinzerbiolBeitr.2006-.journal_article" docStyleVersion="7" docTitle="Micrillus testaceus" docType="treatment" docVersion="2" lastPageId="10" lastPageNumber="1489" masterDocId="E54DFFE6FFF5FFD9FFB6EA15FFE8FFA6" masterDocTitle="On the Palaearctic and Oriental species of Scymbalium and Micrillus (Coleoptera: Staphylinidae: Paederinae)" masterLastPageNumber="1520" masterPageNumber="1479" pageId="9" pageNumber="1488" updateTime="1630137432442" updateUser="ExternalLinkService" zenodo-license-document="CC-BY-4.0">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6512317" ID-ISSN="0253-116X" ID-Zenodo-Dep="6512317" checkinTime="1630101010072" checkinUser="marcus" docAuthor="Assing, V." docDate="2013" docId="1974879EFFFCFFD3FF04EF19FE9EFA9A" docLanguage="en" docName="LinzerbiolBeitr.2013.45.2.1479-1520.pdf" docOrigin="Linzer biologische Beiträge 45 (2)" docStyle="DocumentStyle:24E5EB772D355DE2EE23B1E8D07853E0.8:LinzerbiolBeitr.2006-.journal_article" docStyleId="24E5EB772D355DE2EE23B1E8D07853E0" docStyleName="LinzerbiolBeitr.2006-.journal_article" docStyleVersion="8" docTitle="Micrillus testaceus" docType="treatment" docVersion="5" lastPageId="10" lastPageNumber="1489" masterDocId="E54DFFE6FFF5FFD9FFB6EA15FFE8FFA6" masterDocTitle="On the Palaearctic and Oriental species of Scymbalium and Micrillus (Coleoptera: Staphylinidae: Paederinae)" masterLastPageNumber="1520" masterPageNumber="1479" pageId="9" pageNumber="1488" updateTime="1651519213727" updateUser="ExternalLinkService" zenodo-license-document="CC-BY-4.0">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>On the Palaearctic and Oriental species of Scymbalium and Micrillus (Coleoptera: Staphylinidae: Paederinae)</mods:title>
@@ -36,7 +36,7 @@
 <mods:identifier type="ISSN">0253-116X</mods:identifier>
 <mods:identifier type="Zenodo-Dep">5301289</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:1974879EFFFCFFD3FF04EF19FE9EFA9A" httpUri="http://treatment.plazi.org/id/1974879EFFFCFFD3FF04EF19FE9EFA9A" lastPageId="10" lastPageNumber="1489" pageId="9" pageNumber="1488">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6512317" ID-Zenodo-Dep="6512317" LSID="urn:lsid:plazi:treatment:1974879EFFFCFFD3FF04EF19FE9EFA9A" httpUri="http://treatment.plazi.org/id/1974879EFFFCFFD3FF04EF19FE9EFA9A" lastPageId="10" lastPageNumber="1489" pageId="9" pageNumber="1488">
 <subSubSection lastPageId="10" lastPageNumber="1489" pageId="9" pageNumber="1488" type="nomenclature">
 <paragraph blockId="9.[178,564,1292,1314]" box="[178,564,1292,1314]" pageId="9" pageNumber="1488">
 <heading box="[178,564,1292,1314]" fontSize="8" level="2" pageId="9" pageNumber="1488" reason="2">
@@ -49,14 +49,21 @@
 </heading>
 </paragraph>
 <paragraph blockId="9.[178,1087,1339,1591]" lastBlockId="10.[223,1087,215,1186]" lastPageId="10" lastPageNumber="1489" pageId="9" pageNumber="1488">
-M a t e r i a l e x a m i n e d 
+Material examined 
+<materialsCitation box="[504,969,1339,1359]" collectionCode="MHNG" collectorName="Nordmann" country="Tunisia" location="Kairouan" pageId="9" pageNumber="1488" specimenCount="1" stateProvince="Kairouan">
 <collectingCountry box="[504,564,1339,1359]" name="Tunisia" pageId="9" pageNumber="1488">Tunisia</collectingCountry>
 : 
 <specimenCount box="[584,633,1339,1359]" pageId="9" pageNumber="1488" type="generic">1 ex.</specimenCount>
 , 
 <collectingRegion box="[645,728,1339,1359]" country="Tunisia" name="Kairouan" pageId="9" pageNumber="1488">Kairouan</collectingRegion>
-, leg. Nordmann (MHNG); 
-<materialsCitation collectingDate="2008-06-04" collectingDateMax="2012-03-04" collectingDateMin="2008-06-04" collectorName="W Djebba &amp; Hetzel &amp; Lencina" country="Algeria" county="Mt. Teboursouk" determinerName="Feldmann" elevation="640" latitude="36.466667" location="Aguila" longLatPrecision="1187" longitude="9.083333" municipality="Jumilla" pageId="9" pageNumber="1488" specimenCount="4" stateProvince="Beja">
+, leg. 
+<collectorName box="[782,876,1339,1359]" pageId="9" pageNumber="1488">Nordmann</collectorName>
+(
+<collectionCode box="[891,963,1339,1359]" pageId="9" pageNumber="1488">MHNG</collectionCode>
+)
+</materialsCitation>
+; 
+<materialsCitation collectingDate="2008-06-04" collectingDateMax="2012-03-04" collectingDateMin="2008-06-04" collectorName="Hetzel" country="Algeria" county="Mt. Teboursouk" determinerName="Feldmann" elevation="640" latitude="36.466667" location="Aguila" longLatPrecision="1187" longitude="9.083333" municipality="Jumilla" pageId="9" pageNumber="1488" specimenCount="4" stateProvince="Beja">
 <specimenCount box="[982,1038,1339,1359]" pageId="9" pageNumber="1488" type="generic">2 exs.</specimenCount>
 [det. 
 <determinerName box="[223,315,1362,1382]" pageId="9" pageNumber="1488">Feldmann</determinerName>
@@ -80,15 +87,19 @@ M a t e r i a l e x a m i n e d
 </date>
 , leg. 
 <collectorName box="[361,418,1385,1405]" pageId="9" pageNumber="1488">Hetzel</collectorName>
-(cFel). 
+(cFel).
+</materialsCitation>
+<materialsCitation box="[489,764,1385,1405]" collectingDate="2008-06-04" collectingDateMax="2012-03-04" collectingDateMin="2008-06-04" country="Algeria" county="Mt. Teboursouk" determinerName="Feldmann" elevation="640" latitude="36.466667" location="Aguila" longLatPrecision="1187" longitude="9.083333" municipality="Jumilla" pageId="9" pageNumber="1488" specimenCount="4" stateProvince="Beja">
 <collectingCountry box="[489,557,1385,1405]" name="Algeria" pageId="9" pageNumber="1488">Algeria</collectingCountry>
 : 
 <specimenCount box="[568,615,1385,1405]" pageId="9" pageNumber="1488" type="generic">1 ex.</specimenCount>
 , 
 <collectingRegion box="[625,693,1385,1405]" country="Algeria" name="Annaba" pageId="9" pageNumber="1488">Annaba</collectingRegion>
-(cAss). 
+(cAss).
+</materialsCitation>
+<materialsCitation collectingDate="2008-06-04" collectingDateMax="2012-03-04" collectingDateMin="2008-06-04" collectorName="Lencina" country="Algeria" county="Mt. Teboursouk" determinerName="Feldmann" elevation="640" latitude="36.466667" location="Aguila" longLatPrecision="1187" longitude="9.083333" municipality="Jumilla" pageId="9" pageNumber="1488" specimenCount="4" stateProvince="Beja">
 <collectingCountry box="[770,823,1385,1405]" name="Spain" pageId="9" pageNumber="1488">Spain</collectingCountry>
-: M u r c i a: 
+: Murcia: 
 <specimenCount box="[959,1006,1385,1405]" pageId="9" pageNumber="1488" type="generic">1 ex.</specimenCount>
 , 
 <collectingMunicipality box="[1016,1082,1385,1405]" pageId="9" pageNumber="1488">Jumilla</collectingMunicipality>
@@ -105,7 +116,7 @@ del
 (cAss)
 </materialsCitation>
 ; 
-<materialsCitation collectingDate="2009-06-04" collectingDateMax="2009-12-26" collectingDateMin="2009-06-04" collectorName="J. Lencina &amp; Assing &amp; Wunderle" country="Algeria" county="Jumilla" elevation="575" latitude="36.05" location="Cadiz" longLatPrecision="1190" longitude="-5.616667" municipality="El Portichuelo" pageId="9" pageNumber="1488" specimenCount="5" stateProvince="Beja">
+<materialsCitation collectingDate="2009-06-04" collectingDateMax="2009-12-26" collectingDateMin="2009-06-04" collectorName="J. Lencina" country="Algeria" county="Jumilla" elevation="575" latitude="36.05" location="Cadiz" longLatPrecision="1190" longitude="-5.616667" municipality="El Portichuelo" pageId="9" pageNumber="1488" specimenCount="5" stateProvince="Beja">
 <specimenCount box="[716,767,1409,1429]" pageId="9" pageNumber="1488" type="generic">1 ex.</specimenCount>
 , 
 <collectingCounty box="[781,847,1409,1429]" pageId="9" pageNumber="1488">Jumilla</collectingCounty>
@@ -125,7 +136,10 @@ del
 </date>
 , leg. 
 <collectorName box="[505,595,1432,1452]" pageId="9" pageNumber="1488">J. Lencina</collectorName>
-(cAss). A n d a l u c í a: 
+(cAss).
+</materialsCitation>
+<materialsCitation collectingDate="2009-06-04" collectingDateMax="2009-12-26" collectingDateMin="2009-06-04" collectorName="Assing &amp; Wunderle" country="Algeria" county="Jumilla" elevation="575" latitude="36.05" location="Cadiz" longLatPrecision="1190" longitude="-5.616667" municipality="El Portichuelo" pageId="9" pageNumber="1488" specimenCount="5" stateProvince="Beja">
+Andalucía: 
 <specimenCount box="[855,905,1432,1452]" pageId="9" pageNumber="1488" type="generic">4exs.</specimenCount>
 , 
 <location LSID="urn:lsid:plazi:treatment:1974879EFFFCFFD3FF04EF19FE9EFA9A:94026053FFFCFFD0FC3AEF8DFC21FA0A" box="[908,969,1432,1452]" country="Algeria" county="Jumilla" latitude="36.05" longLatPrecision="1190" longitude="-5.616667" municipality="El Portichuelo" name="Cadiz" pageId="9" pageNumber="1488" stateProvince="Beja">Cádiz</location>
@@ -231,7 +245,9 @@ NW Tarifa
 </date>
 , leg. 
 <collectorName box="[461,522,1571,1591]" pageId="9" pageNumber="1488">Assing</collectorName>
-(cAss). 
+(cAss).
+</materialsCitation>
+<materialsCitation box="[597,1026,1571,1591]" collectingDate="1953-12" collectingDateMax="2010-01-01" collectingDateMin="1953-12" collectorName="Assing" country="France" county="Cadiz" elevation="180" latitude="36.1" location="Herault" longLatPrecision="1189" longitude="-5.8" municipality="Bolonia" pageId="9" pageNumber="1488" specimenCount="2">
 <collectingCountry box="[597,660,1571,1591]" name="France" pageId="9" pageNumber="1488">France</collectingCountry>
 : 
 <specimenCount box="[669,715,1571,1591]" pageId="9" pageNumber="1488" type="generic">1 ex.</specimenCount>
@@ -255,7 +271,7 @@ NW Tarifa
 (cBor)
 </materialsCitation>
 ; 
-<materialsCitation box="[432,697,215,235]" collectionCode="MHNG" collectorName="Hyeres" country="France" location="Var" pageId="10" pageNumber="1489" specimenCount="2">
+<materialsCitation box="[432,697,215,235]" collectionCode="MHNG" country="France" location="Var. Hyères" pageId="10" pageNumber="1489" specimenCount="2">
 <specimenCount box="[432,487,215,235]" pageId="10" pageNumber="1489" type="generic">2 exs.</specimenCount>
 , 
 <location LSID="urn:lsid:plazi:treatment:1974879EFFFCFFD3FF04EF19FE9EFA9A:94026053FFFFFFD3FE47EAC2FDFCFF4D" box="[497,532,215,235]" country="France" name="Var" pageId="10" pageNumber="1489">Var</location>
@@ -296,13 +312,17 @@ NW Tarifa
 (cAss)
 </materialsCitation>
 ; 
-<materialsCitation collectingDate="1970-04" collectionCode="MHNG" collectorName="Roma &amp; Luigioni" country="Italy" location="Aniene river" municipality="Ferrara" pageId="10" pageNumber="1489" specimenCount="4">
+<materialsCitation collectionCode="MHNG" country="France" pageId="10" pageNumber="1489" specimenCount="1" stateProvince="Corsica">
 <specimenCount pageId="10" pageNumber="1489" type="generic">1 ex.</specimenCount>
-, Corsica, locality not specified (
+, 
+<collectingRegion box="[261,330,262,282]" pageId="10" pageNumber="1489">Corsica</collectingRegion>
+, locality not specified (
 <collectionCode box="[534,606,262,282]" country="Switzerland" httpUri="http://grbio.org/cool/2jyg-xmd2" name="Museum d'Histoire Naturelle" pageId="10" pageNumber="1489" type="Museum">MHNG</collectionCode>
-). 
+).
+</materialsCitation>
+<materialsCitation collectingDate="1970-04" collectionCode="MHNG" collectorName="Roma &amp; Luigioni" country="Italy" location="Aniene river" municipality="Ferrara" pageId="10" pageNumber="1489" specimenCount="4">
 <collectingCountry box="[621,664,262,282]" name="Italy" pageId="10" pageNumber="1489">Italy</collectingCountry>
-: E m i l i a - R o m a g n a: 
+: Emilia - Romagna: 
 <specimenCount box="[954,1002,262,282]" pageId="10" pageNumber="1489" type="generic">2exs.</specimenCount>
 , 
 <collectingMunicipality box="[1005,1082,262,282]" pageId="10" pageNumber="1489">Ferrara</collectingMunicipality>
@@ -310,12 +330,16 @@ NW Tarifa
 <date box="[223,295,285,305]" pageId="10" pageNumber="1489" value="1970-04">
 <collectingDate box="[223,295,285,305]" pageId="10" pageNumber="1489" value="1970-04">IV.1970</collectingDate>
 </date>
-(cBor). L a z i o: 
+(cBor).
+</materialsCitation>
+<materialsCitation box="[372,1063,285,305]" collectionCode="MHNG" collectorName="Luigioni" location="Aniene river" municipality="Roma" pageId="10" pageNumber="1489" specimenCount="1" stateProvince="Lazio">
+<collectingRegion box="[372,455,285,305]" pageId="10" pageNumber="1489">Lazio</collectingRegion>
+: 
 <specimenCount box="[486,533,285,305]" pageId="10" pageNumber="1489" type="generic">1 ex.</specimenCount>
 , 
-<collectorName box="[543,598,285,305]" pageId="10" pageNumber="1489">Roma</collectorName>
+<collectingMunicipality box="[543,598,285,305]" pageId="10" pageNumber="1489">Roma</collectingMunicipality>
 , inundation of 
-<location LSID="urn:lsid:plazi:treatment:1974879EFFFCFFD3FF04EF19FE9EFA9A:94026053FFFFFFD3FD6BEB08FCA7FE97" box="[733,847,285,305]" country="Italy" municipality="Ferrara" name="Aniene river" pageId="10" pageNumber="1489">Aniene river</location>
+<location LSID="urn:lsid:plazi:treatment:1974879EFFFCFFD3FF04EF19FE9EFA9A:94026053FFFFFFD3FD6BEB08FCA7FE97" box="[733,847,285,305]" country="Italy" municipality="Roma" name="Aniene river" pageId="10" pageNumber="1489" stateProvince="Lazio">Aniene river</location>
 , leg. 
 <collectorName box="[896,971,285,305]" pageId="10" pageNumber="1489">Luigioni</collectorName>
 (
@@ -323,7 +347,7 @@ NW Tarifa
 )
 </materialsCitation>
 ; 
-<materialsCitation collectingDate="1969-03-16" collectingDateMax="2003-09-14" collectingDateMin="1969-03-16" collectionCode="MT, ZMUC, RC" collectorName="Vigna &amp; Accettura &amp; Angelini" country="Italy" county="Roma" location="Gallipoli-Coganto" municipality="Monte della Tolfa Rota" pageId="10" pageNumber="1489" specimenCount="6">
+<materialsCitation collectingDate="1969-03-16" collectingDateMax="2003-09-14" collectingDateMin="1969-03-16" collectionCode="MT, ZMUC, RC" collectorName="Vigna" country="Italy" county="Roma" location="Gallipoli-Coganto" municipality="Monte della Tolfa Rota" pageId="10" pageNumber="1489" specimenCount="6">
 <specimenCount pageId="10" pageNumber="1489" type="generic">1 ex.</specimenCount>
 , 
 <collectingCounty box="[263,318,308,328]" pageId="10" pageNumber="1489">Roma</collectingCounty>
@@ -335,13 +359,14 @@ NW Tarifa
 </date>
 , leg. 
 <collectorName box="[709,763,308,328]" pageId="10" pageNumber="1489">Vigna</collectorName>
-(cBor). B a s i l i c a t a: 
+(cBor).
+</materialsCitation>
+<materialsCitation collectingDate="1969-03-16" collectingDateMax="2003-09-14" collectingDateMin="1969-03-16" collectionCode="MT, ZMUC, RC" collectorName="Angelini" country="Italy" county="Roma" location="Gallipoli-Coganto" municipality="Monte della Tolfa Rota" pageId="10" pageNumber="1489" specimenCount="6">
+Basilicata: 
 <specimenCount box="[1034,1082,308,328]" pageId="10" pageNumber="1489" type="generic">1 ex.</specimenCount>
 , 
 <collectorName box="[223,307,331,351]" pageId="10" pageNumber="1489">Accettura</collectorName>
-(
-<collectionCode box="[325,362,331,351]" country="Russia" name="Mus. Tinro, Vladyvostok" pageId="10" pageNumber="1489">MT</collectionCode>
-), 
+(MT), 
 <location LSID="urn:lsid:plazi:treatment:1974879EFFFCFFD3FF04EF19FE9EFA9A:94026053FFFFFFD3FEC8EB5EFDF6FEF9" box="[382,542,331,351]" country="Italy" county="Roma" municipality="Monte della Tolfa Rota" name="Gallipoli-Coganto" pageId="10" pageNumber="1489">Gallipoli-Coganto</location>
 , 
 <date box="[555,655,331,351]" pageId="10" pageNumber="1489" value="1996-04-14">
@@ -351,7 +376,10 @@ NW Tarifa
 <collectorName box="[712,788,331,351]" pageId="10" pageNumber="1489">Angelini</collectorName>
 (
 <collectionCode box="[804,873,331,351]" country="Denmark" httpUri="http://grbio.org/cool/mci8-ehqk" name="Zoological Museum, University of Copenhagen" pageId="10" pageNumber="1489">ZMUC</collectionCode>
-). P u g l i a: 
+).
+</materialsCitation>
+<materialsCitation collectingDate="1969-03-16" collectingDateMax="2003-09-14" collectingDateMin="1969-03-16" collectionCode="MT, ZMUC, RC" collectorName="Angelini" country="Italy" county="Roma" location="Gallipoli-Coganto" municipality="Monte della Tolfa Rota" pageId="10" pageNumber="1489" specimenCount="6">
+Puglia: 
 <specimenCount box="[1024,1083,331,351]" pageId="10" pageNumber="1489" type="generic">2 exs.</specimenCount>
 , estuary of 
 <location LSID="urn:lsid:plazi:treatment:1974879EFFFCFFD3FF04EF19FE9EFA9A:94026053FFFFFFD3FE89EB77FE71FED0" box="[319,409,354,374]" country="Italy" county="Roma" municipality="Monte della Tolfa Rota" name="Lato river" pageId="10" pageNumber="1489">Lato river</location>
@@ -363,13 +391,14 @@ NW Tarifa
 <collectorName box="[570,646,354,374]" pageId="10" pageNumber="1489">Angelini</collectorName>
 (
 <collectionCode box="[659,728,354,374]" country="Denmark" httpUri="http://grbio.org/cool/mci8-ehqk" name="Zoological Museum, University of Copenhagen" pageId="10" pageNumber="1489">ZMUC</collectionCode>
-). C a l a b r i a: 
+).
+</materialsCitation>
+<materialsCitation collectingDate="1969-03-16" collectingDateMax="2003-09-14" collectingDateMin="1969-03-16" collectionCode="MT, ZMUC, RC" collectorName="Angelini" country="Italy" county="Roma" location="Gallipoli-Coganto" municipality="Monte della Tolfa Rota" pageId="10" pageNumber="1489" specimenCount="6">
+Calabria: 
 <specimenCount box="[907,962,354,374]" pageId="10" pageNumber="1489" type="generic">2 exs.</specimenCount>
 , 
 <location LSID="urn:lsid:plazi:treatment:1974879EFFFCFFD3FF04EF19FE9EFA9A:94026053FFFFFFD3FC7AEB77FBEDFED0" box="[972,1029,354,374]" country="Italy" county="Roma" municipality="Monte della Tolfa Rota" name="Africo" pageId="10" pageNumber="1489">Africo</location>
-(
-<collectionCode box="[1043,1076,354,374]" pageId="10" pageNumber="1489">RC</collectionCode>
-), meadow, 
+(RC), meadow, 
 <date box="[314,413,378,398]" pageId="10" pageNumber="1489" value="2000-03-11">
 <collectingDate box="[314,413,378,398]" pageId="10" pageNumber="1489" value="2000-03-11">11.III.2000</collectingDate>
 </date>
@@ -384,9 +413,7 @@ NW Tarifa
 <specimenCount box="[713,765,378,398]" pageId="10" pageNumber="1489" type="generic">1 ex.</specimenCount>
 , 
 <collectingCounty box="[779,867,378,398]" pageId="10" pageNumber="1489">San Luca</collectingCounty>
-(
-<collectionCode box="[885,918,378,398]" pageId="10" pageNumber="1489">RC</collectionCode>
-), 
+(RC), 
 <date box="[939,1038,378,398]" pageId="10" pageNumber="1489" value="2000-03-12">
 <collectingDate box="[939,1038,378,398]" pageId="10" pageNumber="1489" value="2000-03-12">12.III.2000</collectingDate>
 </date>
@@ -394,7 +421,10 @@ NW Tarifa
 <collectorName box="[223,299,401,421]" pageId="10" pageNumber="1489">Angelini</collectorName>
 (
 <collectionCode box="[310,379,401,421]" country="Denmark" httpUri="http://grbio.org/cool/mci8-ehqk" name="Zoological Museum, University of Copenhagen" pageId="10" pageNumber="1489">ZMUC</collectionCode>
-). S a r d e g n a: 
+).
+</materialsCitation>
+<materialsCitation box="[393,1082,401,421]" collectingDate="1979-04-25" collectingDateMax="2000-03-12" collectingDateMin="1979-04-25" collectionCode="RC, ZMUC, MCSNM" collectorName="Angelini &amp; Pavesi" country="Italy" county="San Luca" location="Chilivani" municipality="Sassari" pageId="10" pageNumber="1489" specimenCount="2">
+Sardegna: 
 <specimenCount box="[561,595,401,421]" pageId="10" pageNumber="1489" type="generic">1ex.</specimenCount>
 , 
 <collectingMunicipality box="[598,669,401,421]" pageId="10" pageNumber="1489">Sassari</collectingMunicipality>
@@ -430,7 +460,10 @@ env.,
 <specimenCount box="[735,780,424,444]" pageId="10" pageNumber="1489" type="generic">1 ex.</specimenCount>
 , locality not specified, leg. 
 <collectorName box="[1020,1086,424,444]" pageId="10" pageNumber="1489">Dodero</collectorName>
-(cBoh). S i c i l i a: 
+(cBoh).
+</materialsCitation>
+<materialsCitation collectingDate="2007-04-26" collectionCode="ZMUC" collectorName="Dodero &amp; Angelini" country="Italy" elevation="650" location="Vizzini" municipality="Monti Iblei" pageId="10" pageNumber="1489" specimenCount="2">
+Sicilia: 
 <specimenCount box="[442,488,447,467]" pageId="10" pageNumber="1489" type="generic">1 ex.</specimenCount>
 , 
 <collectingMunicipality box="[509,609,447,467]" pageId="10" pageNumber="1489">Monti Iblei</collectingMunicipality>
@@ -455,9 +488,7 @@ env.,
 <specimenCount box="[317,366,470,490]" pageId="10" pageNumber="1489" type="generic">1 ex.</specimenCount>
 , 
 <location LSID="urn:lsid:plazi:treatment:1974879EFFFCFFD3FF04EF19FE9EFA9A:94026053FFFFFFD3FECCEBC3FE56FE4C" box="[378,446,470,490]" country="Italy" name="Maletto" pageId="10" pageNumber="1489">Maletto</location>
-(
-<collectionCode box="[461,498,470,490]" pageId="10" pageNumber="1489">ME</collectionCode>
-), ctr. 
+(ME), ctr. 
 <collectorName box="[554,646,470,490]" pageId="10" pageNumber="1489">S. Venera</collectorName>
 , 
 <date box="[658,742,470,490]" pageId="10" pageNumber="1489" value="2007-05-08">
@@ -492,15 +523,21 @@ env.,
 )
 </materialsCitation>
 ; 
-<materialsCitation collectionCode="MNHUB, MCSNT" collectorName="Sekera &amp; Rambousek &amp; Bischoff" country="Serbia" county="Rudnik" location="Tiranes" municipality="Lum" pageId="10" pageNumber="1489" specimenCount="4">
+<materialsCitation collectionCode="MNHUB, MCSNT" country="Serbia" county="Rudnik" location="Tiranes" municipality="Lum" pageId="10" pageNumber="1489" specimenCount="4">
 <specimenCount box="[847,893,494,514]" pageId="10" pageNumber="1489" type="generic">1 ex.</specimenCount>
 , locality not specified (
 <collectionCode box="[229,316,517,537]" pageId="10" pageNumber="1489">MNHUB</collectionCode>
-). L o c a l i t y a m b i g u o u s: 
+).
+</materialsCitation>
+<materialsCitation box="[341,1087,517,537]" collectionCode="MNHUB, MCSNT" collectorName="Sekera" country="Serbia" county="Rudnik" location="Tiranes" municipality="Lum" pageId="10" pageNumber="1489" specimenCount="4">
+Locality ambiguous: 
 <specimenCount box="[708,757,517,537]" pageId="10" pageNumber="1489" type="generic">1 ex.</specimenCount>
 , &quot;Bazzano&quot;, leg. 
 <collectorName box="[944,995,517,537]" pageId="10" pageNumber="1489">Sekera</collectorName>
-(cBoh). Yugoslavia: 
+(cBoh).
+</materialsCitation>
+<materialsCitation box="[223,809,540,560]" collectionCode="MNHUB, MCSNT" collectorName="Rambousek" country="Serbia" county="Rudnik" location="Tiranes" municipality="Lum" pageId="10" pageNumber="1489" specimenCount="4">
+Yugoslavia: 
 <specimenCount box="[335,382,540,560]" pageId="10" pageNumber="1489" type="generic">1 ex.</specimenCount>
 , 
 <collectingCountry box="[392,450,540,560]" name="Serbia" pageId="10" pageNumber="1489">Serbia</collectingCountry>
@@ -508,7 +545,9 @@ env.,
 <collectingCounty box="[459,526,540,560]" pageId="10" pageNumber="1489">Rudnik</collectingCounty>
 , 1914, leg. 
 <collectorName box="[631,734,540,560]" pageId="10" pageNumber="1489">Rambousek</collectorName>
-(cBoh). 
+(cBoh).
+</materialsCitation>
+<materialsCitation collectionCode="MNHUB, MCSNT" collectorName="Bischoff" country="Serbia" county="Rudnik" location="Tiranes" municipality="Lum" pageId="10" pageNumber="1489" specimenCount="4">
 <collectingCountry box="[814,886,540,560]" name="Albania" pageId="10" pageNumber="1489">Albania</collectingCountry>
 : 
 <specimenCount box="[896,943,540,560]" pageId="10" pageNumber="1489" type="generic">1 ex.</specimenCount>
@@ -551,7 +590,7 @@ NNW Pogradec
 (cAss)
 </materialsCitation>
 ; 
-<materialsCitation collectingDate="2005-07-02" collectingDateMax="2013-03-07" collectingDateMin="2005-07-02" collectionCode="MHNG" collectorName="Assing &amp; Reitter &amp; Hilf &amp; SW Embonas &amp; Attaviros &amp; NE Azdavay &amp; W YeuilpOnar &amp; E Kulu &amp; Duden Golu &amp; Schnitter" country="Greece" elevation="520" latitude="39.066666" location="Aitoloarkanania" longLatPrecision="1171" longitude="33.133335" municipality="Ostrovikes" pageId="10" pageNumber="1489" specimenCount="8" stateProvince="Ankara">
+<materialsCitation collectingDate="2005-07-02" collectingDateMax="2013-03-07" collectingDateMin="2005-07-02" collectionCode="MHNG" collectorName="Assing" country="Greece" elevation="520" latitude="39.066666" location="Aitoloarkanania" longLatPrecision="1171" longitude="33.133335" municipality="Ostrovikes" pageId="10" pageNumber="1489" specimenCount="8" stateProvince="Ankara">
 <specimenCount box="[872,920,586,606]" pageId="10" pageNumber="1489" type="generic">1 ex.</specimenCount>
 , Korçë, 
 <locationDeviation location="Korce" pageId="10" pageNumber="1489">
@@ -574,25 +613,40 @@ W Korçë
 </date>
 , leg. 
 <collectorName box="[1025,1086,610,630]" pageId="10" pageNumber="1489">Assing</collectorName>
-(cAss). 
+(cAss).
+</materialsCitation>
+<materialsCitation box="[292,905,633,653]" collectingDate="2005-07-02" collectingDateMax="2013-03-07" collectingDateMin="2005-07-02" collectionCode="MHNG" country="Greece" elevation="520" latitude="39.066666" location="Aitoloarkanania" longLatPrecision="1171" longitude="33.133335" municipality="Ostrovikes" pageId="10" pageNumber="1489" specimenCount="8" stateProvince="Ankara">
 <collectingCountry box="[292,357,633,653]" name="Greece" pageId="10" pageNumber="1489">Greece</collectingCountry>
-: M a i n l a n d: 
+: Mainland: 
 <specimenCount box="[523,576,633,653]" pageId="10" pageNumber="1489" type="generic">1ex.</specimenCount>
 , 
 <location LSID="urn:lsid:plazi:treatment:1974879EFFFCFFD3FF04EF19FE9EFA9A:94026053FFFFFFD3FDFAE86CFD30FD2B" box="[588,728,633,653]" country="Greece" latitude="39.066666" longLatPrecision="1171" longitude="33.133335" municipality="Ostrovikes" name="Aitoloarkanania" pageId="10" pageNumber="1489" stateProvince="Ankara">Aitoloarkanania</location>
-[&quot;Aetolia&quot;] (cBoh). C o r f o u: 
+[&quot;Aetolia&quot;] (cBoh).
+</materialsCitation>
+<materialsCitation collectionCode="MHNG" collectorName="Reitter" country="Greece" location="Corfou" municipality="Corfou" pageId="10" pageNumber="1489" specimenCount="1">
+<collectingMunicipality box="[910,1014,633,653]" pageId="10" pageNumber="1489">Corfou</collectingMunicipality>
+: 
 <specimenCount box="[1036,1083,633,653]" pageId="10" pageNumber="1489" type="generic">1 ex.</specimenCount>
 , locality not specified, leg. 
 <collectorName box="[461,520,656,676]" pageId="10" pageNumber="1489">Reitter</collectorName>
 (
 <collectionCode box="[534,606,656,676]" country="Switzerland" httpUri="http://grbio.org/cool/2jyg-xmd2" name="Museum d'Histoire Naturelle" pageId="10" pageNumber="1489" type="Museum">MHNG</collectionCode>
-). Z a k i n t h o s: 
+).
+</materialsCitation>
+<materialsCitation collectionCode="MHNG" collectorName="Hilf" country="Greece" location="Kalamaki" municipality="Kalamaki" pageId="10" pageNumber="1489" specimenCount="1" stateProvince="Zakinthos">
+<collectingRegion box="[622,777,656,676]" pageId="10" pageNumber="1489">Zakinthos</collectingRegion>
+: 
 <specimenCount box="[799,846,656,676]" pageId="10" pageNumber="1489" type="generic">1 ex.</specimenCount>
-, Kalamaki, 1909, leg. 
+, 
+<collectingMunicipality box="[857,944,656,676]" pageId="10" pageNumber="1489">Kalamaki</collectingMunicipality>
+, 1909, leg. 
 <collectorName box="[1051,1086,656,676]" pageId="10" pageNumber="1489">Hilf</collectorName>
 (
 <collectionCode box="[229,301,679,699]" country="Switzerland" httpUri="http://grbio.org/cool/2jyg-xmd2" name="Museum d'Histoire Naturelle" pageId="10" pageNumber="1489" type="Museum">MHNG</collectionCode>
-). R h ó d o s:1, 5 km 
+).
+</materialsCitation>
+<materialsCitation collectingDate="2005-07-02" collectingDateMax="2013-03-07" collectingDateMin="2005-07-02" collectionCode="MHNG" collectorName="Assing" country="Greece" elevation="520" latitude="39.066666" location="Aitoloarkanania" longLatPrecision="1171" longitude="33.133335" municipality="Ostrovikes" pageId="10" pageNumber="1489" specimenCount="8" stateProvince="Ankara">
+Rhódos:1, 5 km 
 <collectorName box="[538,662,679,699]" pageId="10" pageNumber="1489">SW Embonas</collectorName>
 , 
 <collectorName box="[670,753,679,699]" pageId="10" pageNumber="1489">Attaviros</collectorName>
@@ -610,9 +664,11 @@ W Korçë
 </date>
 , leg. 
 <collectorName box="[549,610,702,722]" pageId="10" pageNumber="1489">Assing</collectorName>
-(cAss). 
+(cAss).
+</materialsCitation>
+<materialsCitation collectingDate="2005-07-02" collectingDateMax="2013-03-07" collectingDateMin="2005-07-02" collectionCode="MHNG" collectorName="Assing" country="Greece" elevation="520" latitude="39.066666" location="Aitoloarkanania" longLatPrecision="1171" longitude="33.133335" municipality="Ostrovikes" pageId="10" pageNumber="1489" specimenCount="8" stateProvince="Ankara">
 <collectingCountry box="[681,747,702,722]" name="Turkey" pageId="10" pageNumber="1489">Turkey</collectingCountry>
-: S i n o p: 
+: Sinop: 
 <specimenCount box="[851,890,702,722]" pageId="10" pageNumber="1489" type="generic">1ex.</specimenCount>
 ,15kmSWSinop, S KÕlÕçlÕ, 
 <geoCoordinate box="[290,364,726,746]" degrees="41" direction="north" minutes="57" orientation="latitude" pageId="10" pageNumber="1489" precision="925" value="41.95">41°57'N</geoCoordinate>
@@ -628,7 +684,10 @@ W Korçë
 </date>
 , leg. 
 <collectorName box="[223,289,749,769]" pageId="10" pageNumber="1489">Assing</collectorName>
-(cAss).K a s t a m o n u: 
+(cAss).
+</materialsCitation>
+<materialsCitation collectingDate="2005-07-02" collectingDateMax="2013-03-07" collectingDateMin="2005-07-02" collectionCode="MHNG" collectorName="Assing " country="Greece" elevation="520" latitude="39.066666" location="Aitoloarkanania" longLatPrecision="1171" longitude="33.133335" municipality="Ostrovikes" pageId="10" pageNumber="1489" specimenCount="8" stateProvince="Ankara">
+Kastamonu: 
 <specimenCount box="[550,602,749,769]" pageId="10" pageNumber="1489" type="generic">1ex.</specimenCount>
 , 40 kmNWKastamonu, 
 <collectorName box="[832,950,749,769]" pageId="10" pageNumber="1489">NE Azdavay</collectorName>
@@ -648,7 +707,10 @@ W Korçë
 </date>
 , leg. 
 <collectorName box="[1025,1086,772,792]" pageId="10" pageNumber="1489">Assing</collectorName>
-(cAss). A n k a r a 
+(cAss).
+</materialsCitation>
+<materialsCitation collectingDate="2005-07-02" collectingDateMax="2013-03-07" collectingDateMin="2005-07-02" collectionCode="MHNG" collectorName=" Schnitter" country="Greece" elevation="520" latitude="39.066666" location="Aitoloarkanania" longLatPrecision="1171" longitude="33.133335" municipality="Ostrovikes" pageId="10" pageNumber="1489" specimenCount="8" stateProvince="Ankara">
+Ankara 
 <specimenCount box="[426,475,795,815]" pageId="10" pageNumber="1489" type="generic">1 ex.</specimenCount>
 , S 
 <collectingRegion box="[509,576,795,815]" country="Turkey" name="Ankara" pageId="10" pageNumber="1489">Ankara</collectingRegion>
@@ -670,7 +732,10 @@ W Korçë
 </date>
 , leg. 
 <collectorName box="[460,538,818,838]" pageId="10" pageNumber="1489">Schnitter</collectorName>
-(cApf). A d a n a: 
+(cApf).
+</materialsCitation>
+<materialsCitation box="[613,957,818,838]" collectingDate="2005-07-02" collectingDateMax="2013-03-07" collectingDateMin="2005-07-02" collectionCode="MHNG" country="Greece" elevation="520" latitude="39.066666" location="Aitoloarkanania" longLatPrecision="1171" longitude="33.133335" municipality="Ostrovikes" pageId="10" pageNumber="1489" specimenCount="8" stateProvince="Ankara">
+Adana: 
 <specimenCount box="[715,756,818,838]" pageId="10" pageNumber="1489" type="generic">1ex.</specimenCount>
 , 
 <collectingRegion box="[760,840,818,838]" country="Turkey" name="Adana" pageId="10" pageNumber="1489">Adana</collectingRegion>
@@ -681,7 +746,10 @@ W Korçë
 <specimenCount box="[966,1020,818,838]" pageId="10" pageNumber="1489" type="generic">3 exs.</specimenCount>
 , 
 <collectingRegion box="[1028,1085,818,838]" country="Turkey" name="Adana" pageId="10" pageNumber="1489">Adana</collectingRegion>
-(cBoh). G a z i a n t e p 
+(cBoh).
+</materialsCitation>
+<materialsCitation box="[299,1087,836,862]" collectingDate="1977-07-26" collectingDateMax="1997-05-16" collectingDateMin="1977-07-26" collectionCode="MNHUB, EU" collectorName="Sama" country="Greece" elevation="1000" location="DiyarbakOr" municipality="Nurda" pageId="10" pageNumber="1489" specimenCount="7" stateProvince="Adana">
+Gaziantep 
 <specimenCount box="[479,522,842,862]" pageId="10" pageNumber="1489" type="generic">1 ex.</specimenCount>
 , 
 <collectingMunicipality box="[541,595,842,862]" pageId="10" pageNumber="1489">Nurda</collectingMunicipality>
@@ -697,7 +765,10 @@ W Korçë
 <collectorName box="[925,974,842,862]" pageId="10" pageNumber="1489">Sama</collectorName>
 (
 <collectionCode box="[989,1076,842,862]" pageId="10" pageNumber="1489">MNHUB</collectionCode>
-). D i y a r b a k Õ r: 
+).
+</materialsCitation>
+<materialsCitation box="[223,809,859,885]" collectingDate="1977-07-26" collectingDateMax="1997-05-16" collectingDateMin="1977-07-26" collectionCode="MNHUB, EU" collectorName="Sama" country="Greece" elevation="1000" location="DiyarbakOr" municipality="Nurda" pageId="10" pageNumber="1489" specimenCount="7" stateProvince="Adana">
+Diyarbak Õ r: 
 <specimenCount box="[416,473,865,885]" pageId="10" pageNumber="1489" type="generic">3 exs.</specimenCount>
 , 
 <location LSID="urn:lsid:plazi:treatment:1974879EFFFCFFD3FF04EF19FE9EFA9A:94026053FFFFFFD3FE52E974FDABFCD3" box="[484,579,859,885]" country="Greece" municipality="Nurda" name="DiyarbakOr" pageId="10" pageNumber="1489" stateProvince="Adana">DiyarbakÕr</location>
@@ -710,7 +781,7 @@ W Korçë
 , cAss)
 </materialsCitation>
 ; 
-<materialsCitation collectingDate="1987-05-28" collectingDateMax="2010-06-11" collectingDateMin="1987-05-28" collectionCode="NHMW" collectorName="Schonmann &amp; Schillhammer &amp; Ziegler" country="Cyprus" location="Oroklini" municipality="Karacada" pageId="10" pageNumber="1489" specimenCount="5" stateProvince="Larnaka">
+<materialsCitation collectingDate="1987-05-28" collectingDateMax="2010-06-11" collectingDateMin="1987-05-28" collectionCode="NHMW" collectorName="Schonmann &amp; Schillhammer" country="Cyprus" location="Oroklini" municipality="Karacada" pageId="10" pageNumber="1489" specimenCount="5" stateProvince="Larnaka">
 <specimenCount box="[821,869,865,885]" pageId="10" pageNumber="1489" type="generic">1 ex.</specimenCount>
 , 
 <collectingMunicipality box="[881,963,865,885]" pageId="10" pageNumber="1489">Karacada</collectingMunicipality>
@@ -724,7 +795,9 @@ W Korçë
 <collectorName box="[396,518,888,908]" pageId="10" pageNumber="1489">Schillhammer</collectorName>
 (
 <collectionCode box="[531,608,888,908]" country="Austria" httpUri="http://grbio.org/cool/91g3-0mnw" name="Naturhistorisches Museum, Wien" pageId="10" pageNumber="1489" type="Museum">NHMW</collectionCode>
-). 
+).
+</materialsCitation>
+<materialsCitation collectingDate="1987-05-28" collectingDateMax="2010-06-11" collectingDateMin="1987-05-28" collectionCode="NHMW" collectorName="Ziegler" country="Cyprus" location="Oroklini" municipality="Karacada" pageId="10" pageNumber="1489" specimenCount="5" stateProvince="Larnaka">
 <collectingCountry box="[624,690,888,908]" name="Cyprus" pageId="10" pageNumber="1489">Cyprus</collectingCountry>
 : 
 <specimenCount box="[700,755,888,908]" pageId="10" pageNumber="1489" type="generic">4 exs.</specimenCount>
@@ -741,7 +814,7 @@ W Korçë
 (cAss)
 </materialsCitation>
 ; 
-<materialsCitation collectingDate="1988-08-17" collectingDateMax="2011-02-24" collectingDateMin="1988-08-17" collectionCode="HNHM, ZMUC" collectorName="Ziegler &amp; Rahme &amp; Shahak" country="Syria" county="Arodes" latitude="35.816666" location="Aqra mts." longLatPrecision="1191" longitude="35.783333" municipality="Al" pageId="10" pageNumber="1489" specimenCount="3" stateProvince="Pafos">
+<materialsCitation box="[510,973,911,931]" collectingDate="1988-08-17" collectingDateMax="2011-02-24" collectingDateMin="1988-08-17" collectionCode="HNHM, ZMUC" collectorName="Ziegler" country="Syria" county="Arodes" latitude="35.816666" location="Aqra mts." longLatPrecision="1191" longitude="35.783333" municipality="Al" pageId="10" pageNumber="1489" specimenCount="3" stateProvince="Pafos">
 <specimenCount box="[510,556,911,931]" pageId="10" pageNumber="1489" type="generic">1 ex.</specimenCount>
 , 
 <collectingRegion box="[565,616,911,931]" country="Cyprus" name="Pafos" pageId="10" pageNumber="1489">Pafos</collectingRegion>
@@ -753,7 +826,9 @@ W Korçë
 </date>
 , leg. 
 <collectorName box="[840,903,911,931]" pageId="10" pageNumber="1489">Ziegler</collectorName>
-(cAss). 
+(cAss).
+</materialsCitation>
+<materialsCitation collectingDate="1988-08-17" collectingDateMax="2011-02-24" collectingDateMin="1988-08-17" collectionCode="HNHM, ZMUC" collectorName="Rahme" country="Syria" county="Arodes" latitude="35.816666" location="Aqra mts." longLatPrecision="1191" longitude="35.783333" municipality="Al" pageId="10" pageNumber="1489" specimenCount="3" stateProvince="Pafos">
 <collectingCountry box="[978,1027,911,931]" name="Syria" pageId="10" pageNumber="1489">Syria</collectingCountry>
 : 
 <specimenCount box="[1036,1083,911,931]" pageId="10" pageNumber="1489" type="generic">1 ex.</specimenCount>
@@ -778,7 +853,9 @@ SW Al Basit
 <collectorName box="[223,285,958,978]" pageId="10" pageNumber="1489">Rahmé</collectorName>
 et al. (
 <collectionCode box="[345,417,958,978]" country="Hungary" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34991" lsid="urn:lsid:biocol.org:col:34991" name="Hungarian Natural History Museum (Termeszettudomanyi Muzeum)" pageId="10" pageNumber="1489">HNHM</collectionCode>
-). 
+).
+</materialsCitation>
+<materialsCitation collectingDate="1988-08-17" collectingDateMax="2011-02-24" collectingDateMin="1988-08-17" collectionCode="HNHM, ZMUC" collectorName="Shahak" country="Syria" county="Arodes" latitude="35.816666" location="Aqra mts." longLatPrecision="1191" longitude="35.783333" municipality="Al" pageId="10" pageNumber="1489" specimenCount="3" stateProvince="Pafos">
 <collectingCountry box="[432,483,958,978]" name="Israel" pageId="10" pageNumber="1489">Israel</collectingCountry>
 : 
 <specimenCount box="[491,537,958,978]" pageId="10" pageNumber="1489" type="generic">1 ex.</specimenCount>
@@ -816,8 +893,8 @@ et al. (
 <quantity box="[890,935,981,1001]" metricMagnitude="3" metricUnit="m" metricValue="5.0" pageId="10" pageNumber="1489" unit="km" value="5.0">5 km</quantity>
 SW Hadera
 </locationDeviation>
-, Ha- 
-<location LSID="urn:lsid:plazi:treatment:1974879EFFFCFFD3FF04EF19FE9EFA9A:94026053FFFFFFD3FF69E9F9FEBAFBA6" box="[223,338,1004,1024]" country="Syria" name="Sharon Park" pageId="10" pageNumber="1489" stateProvince="Pafos">Sharon Park</location>
+, 
+<location LSID="urn:lsid:plazi:treatment:1974879EFFFCFFD3FF04EF19FE9EFA9A:94026053FFFFFFD3FF69E9F9FEBAFBA6" box="[223,338,1004,1024]" country="Syria" name="Sharon Park" pageId="10" pageNumber="1489" stateProvince="Pafos">Ha-Sharon Park</location>
 , 
 <date box="[351,453,1004,1024]" pageId="10" pageNumber="1489" value="2007-11-27">
 <collectingDate box="[351,453,1004,1024]" pageId="10" pageNumber="1489" value="2007-11-27">27.XI.2007</collectingDate>
@@ -908,7 +985,7 @@ haBek,
 )
 </materialsCitation>
 ; 
-<materialsCitation collectingDate="1997-08-08" collectingDateMax="2006-05-26" collectingDateMin="1997-08-08" collectionCode="ZMUC, MNHUB" collectorName="Orbach &amp; Frisch &amp; Serri &amp; Kursk-strel. &amp; Arnoldi" country="Iran" county="Kiryat-Tivon" elevation="1800" latitude="36.8" location="Mareshk" longLatPrecision="1185" longitude="59.55" municipality="Sah Jahan mts." pageId="10" pageNumber="1489" specimenCount="3">
+<materialsCitation collectingDate="1997-08-08" collectingDateMax="2006-05-26" collectingDateMin="1997-08-08" collectionCode="ZMUC, MNHUB" collectorName="Orbach" country="Iran" county="Kiryat-Tivon" elevation="1800" latitude="36.8" location="Mareshk" longLatPrecision="1185" longitude="59.55" municipality="Sah Jahan mts." pageId="10" pageNumber="1489" specimenCount="3">
 <specimenCount box="[679,726,1097,1117]" pageId="10" pageNumber="1489" type="generic">1 ex.</specimenCount>
 , 
 <collectingCounty box="[736,853,1097,1117]" pageId="10" pageNumber="1489">Kiryat-Tivon</collectingCounty>
@@ -920,7 +997,9 @@ haBek,
 <collectorName box="[223,287,1120,1140]" pageId="10" pageNumber="1489">Orbach</collectorName>
 (
 <collectionCode box="[299,368,1120,1140]" country="Denmark" httpUri="http://grbio.org/cool/mci8-ehqk" name="Zoological Museum, University of Copenhagen" pageId="10" pageNumber="1489">ZMUC</collectionCode>
-). 
+).
+</materialsCitation>
+<materialsCitation collectingDate="1997-08-08" collectingDateMax="2006-05-26" collectingDateMin="1997-08-08" collectionCode="ZMUC, MNHUB" collectorName="Frisch &amp; Serri" country="Iran" county="Kiryat-Tivon" elevation="1800" latitude="36.8" location="Mareshk" longLatPrecision="1185" longitude="59.55" municipality="Sah Jahan mts." pageId="10" pageNumber="1489" specimenCount="3">
 <collectingCountry box="[382,420,1120,1140]" name="Iran" pageId="10" pageNumber="1489">Iran</collectingCountry>
 : 
 <specimenCount box="[428,473,1120,1140]" pageId="10" pageNumber="1489" type="generic">1 ex.</specimenCount>
@@ -946,7 +1025,9 @@ haBek,
 <collectorName box="[306,348,1143,1163]" pageId="10" pageNumber="1489">Serri</collectorName>
 (
 <collectionCode box="[359,446,1143,1163]" pageId="10" pageNumber="1489">MNHUB</collectionCode>
-). 
+).
+</materialsCitation>
+<materialsCitation box="[460,1082,1143,1163]" collectingDate="1997-08-08" collectingDateMax="2006-05-26" collectingDateMin="1997-08-08" collectionCode="ZMUC, MNHUB" collectorName="Arnoldi" country="Iran" county="Kiryat-Tivon" elevation="1800" latitude="36.8" location="Mareshk" longLatPrecision="1185" longitude="59.55" municipality="Sah Jahan mts." pageId="10" pageNumber="1489" specimenCount="3">
 <collectingCountry box="[460,521,1143,1163]" name="Russia" pageId="10" pageNumber="1489">Russia</collectingCountry>
 : 
 <specimenCount box="[529,574,1143,1163]" pageId="10" pageNumber="1489" type="generic">1 ex.</specimenCount>
@@ -982,7 +1063,7 @@ illegible:
 </subSubSection>
 <subSubSection pageId="10" pageNumber="1489" type="description">
 <paragraph blockId="10.[178,1085,1201,1340]" pageId="10" pageNumber="1489">
-C o m m e n t: The vast distribution of 
+Comment: The vast distribution of 
 <taxonomicName baseAuthorityName="ERICHSON" baseAuthorityYear="1840" box="[615,810,1201,1223]" class="Insecta" family="Staphylinidae" genus="Micrillus" kingdom="Animalia" order="Coleoptera" pageId="10" pageNumber="1489" phylum="Arthropoda" rank="species" species="testaceus">
 <emphasis box="[615,810,1201,1223]" italics="true" pageId="10" pageNumber="1489">Micrillus testaceus</emphasis>
 </taxonomicName>
@@ -992,7 +1073,9 @@ and ranges from the Iberian Peninsula and
 <collectingCountry box="[719,810,1231,1252]" name="Morocco" pageId="10" pageNumber="1489">Morocco</collectingCountry>
 in the west to South European 
 <collectingCountry box="[235,302,1259,1281]" name="Russia" pageId="10" pageNumber="1489">Russia</collectingCountry>
-and the Middle East in the east. The currently known distribution is illustrated in Map 1. For a detailed account of the taxonomy, distribution, and natural history see 
+and the Middle East in the east. The currently known distribution is illustrated in 
+<figureCitation box="[269,337,1289,1311]" captionStart="Map 1" captionStartId="11.[178,223,1571,1591]" captionTargetBox="[178,1058,212,1558]" captionTargetId="figure-16@11.[178,1058,212,1558]" captionTargetPageId="11" captionText="Map 1: Distribution of Micrillus testaceus (ERICHSON), based on revised records." figureDoi="http://doi.org/10.5281/zenodo.6511852" httpUri="https://zenodo.org/record/6511852/files/figure.png" pageId="10" pageNumber="1489">Map 1</figureCitation>
+. For a detailed account of the taxonomy, distribution, and natural history see 
 <bibRefCitation author="ASSING V" box="[217,369,1318,1340]" pageId="10" pageNumber="1489" pagination="301 - 344" refId="ref22718" refString="ASSING V. (2008): A revision of the Micrillus species of the Palaearctic region, with notes on two species from adjacent parts of the Afrotropical and Oriental regions (Coleoptera: Staphylinidae: Paederinae). - Stuttgarter Beitrage zur Naturkunde Serie A, Neue Serie 1: 301 - 344." type="journal article" year="2008">ASSING (2008)</bibRefCitation>
 .
 </paragraph>
