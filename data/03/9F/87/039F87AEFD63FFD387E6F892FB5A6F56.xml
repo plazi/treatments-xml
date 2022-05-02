@@ -1,4 +1,4 @@
-<document ID-DOI="10.15560/13.5.479" ID-GBIF-Dataset="243064a9-76d7-48c8-b378-31b5aacf9ad7" ID-GBIF-Taxon="150927092" ID-ISSN="1809-127X" ID-Zenodo-Dep="1143518" checkinTime="1545593804165" checkinUser="plazi" docAuthor="María C. Melo, Gimena Dellapé, Leonela Olivera, Pablo S. Varela, Sara I. Montemayor &amp; Pablo M. Dellapé" docDate="2017" docId="039F87AEFD63FFD387E6F892FB5A6F56" docLanguage="en" docName="CheckList.13.5.479-511.pdf" docOrigin="Check List 13 (5)" docStyle="DocumentStyle:BB30DA0EB5D11E1D6FE264CD32192DE2:CheckList.2021-.journal_article.list" docStyleId="BB30DA0EB5D11E1D6FE264CD32192DE2" docStyleName="CheckList.2021-.journal_article.list" docTitle="Niesthrea similis Chopra 1973" docType="treatment" docVersion="6" lastPageNumber="495" masterDocId="FFA6FFD6FD73FFC3874EFFD8FFE56E14" masterDocTitle="Diversity of true bugs from Iguazú National Park, Argentina" masterLastPageNumber="511" masterPageNumber="479" originalUpdateDomain="Boston" originalUpdateTime="1545496208115" originalUpdateUser="plazi" pageId="16" pageNumber="495" updateTime="1643488181369" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6511990" ID-GBIF-Dataset="243064a9-76d7-48c8-b378-31b5aacf9ad7" ID-GBIF-Taxon="150927092" ID-ISSN="1809-127X" ID-Zenodo-Dep="6511990" approvalRequired="19" approvalRequired_for_treatments="19" checkinTime="1545593804165" checkinUser="plazi" docAuthor="María C. Melo, Gimena Dellapé, Leonela Olivera, Pablo S. Varela, Sara I. Montemayor &amp; Pablo M. Dellapé" docDate="2017" docId="039F87AEFD63FFD387E6F892FB5A6F56" docLanguage="en" docName="CheckList.13.5.479-511.pdf.imd" docOrigin="Check List 13 (5)" docStyle="DocumentStyle:BB30DA0EB5D11E1D6FE264CD32192DE2.1:CheckList.2017-.journal_article.annotatedlist" docStyleId="BB30DA0EB5D11E1D6FE264CD32192DE2" docStyleName="CheckList.2017-.journal_article.annotatedlist" docStyleVersion="1" docTitle="Niesthrea similis Chopra 1973" docType="treatment" docVersion="8" lastPageNumber="495" masterDocId="FFA6FFD6FD73FFC3874EFFD8FFE56E14" masterDocTitle="Diversity of true bugs from Iguazú National Park, Argentina" masterLastPageNumber="511" masterPageNumber="479" originalUpdateDomain="Boston" originalUpdateTime="1545496208115" originalUpdateUser="plazi" pageId="16" pageNumber="495" updateTime="1651507962544" updateUser="ExternalLinkService">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Diversity of true bugs from Iguazú National Park, Argentina</mods:title>
@@ -67,13 +67,13 @@
 <mods:identifier type="ISSN">1809-127X</mods:identifier>
 <mods:identifier type="Zenodo-Dep">1143518</mods:identifier>
 </mods:mods>
-<treatment ID-GBIF-Taxon="150927092" LSID="urn:lsid:plazi:treatment:039F87AEFD63FFD387E6F892FB5A6F56" httpUri="http://treatment.plazi.org/id/039F87AEFD63FFD387E6F892FB5A6F56" lastPageNumber="495" pageId="16" pageNumber="495">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6511990" ID-GBIF-Taxon="150927092" ID-Zenodo-Dep="6511990" LSID="urn:lsid:plazi:treatment:039F87AEFD63FFD387E6F892FB5A6F56" httpUri="http://treatment.plazi.org/id/039F87AEFD63FFD387E6F892FB5A6F56" lastPageNumber="495" pageId="16" pageNumber="495">
 <subSubSection pageId="16" pageNumber="495" type="nomenclature">
 <paragraph blockId="16.[168,776,1866,2093]" box="[168,504,1866,1890]" pageId="16" pageNumber="495">
 <heading box="[168,504,1866,1890]" fontSize="10" level="3" pageId="16" pageNumber="495" reason="1">
 <taxonomicName authority="Chopra, 1973" authorityName="Chopra" authorityYear="1973" box="[168,504,1866,1890]" class="Insecta" family="Rhopalidae" genus="Niesthrea" higherTaxonomySource="GBIF" kingdom="Animalia" order="Hemiptera" pageId="16" pageNumber="495" phylum="Arthropoda" rank="species" species="similis">
 <emphasis bold="true" box="[168,352,1866,1890]" italics="true" pageId="16" pageNumber="495">Niesthrea similis</emphasis>
-<bibRefCitation author="Chopra NP" box="[359,504,1866,1890]" journalOrPublisher="Journal of Natural History" pageId="16" pageNumber="495" pagination="441 - 459" part="7" refId="ref29075" refString="Chopra NP (1973) A revision of the genus Niesthrea Spinola (Rhopali- dae: Hemiptera). Journal of Natural History 7: 441 - 459." title="A revision of the genus Niesthrea Spinola (Rhopali- dae: Hemiptera)" type="journal article" year="1973">Chopra, 1973</bibRefCitation>
+<bibRefCitation author="Chopra" box="[359,504,1866,1890]" firstAuthor="Chopra" journalOrPublisher="Journal of Natural History" pageId="16" pageNumber="495" pagination="441 - 459" part="7" refId="ref29075" refString="Chopra NP (1973) A revision of the genus Niesthrea Spinola (Rhopali- dae: Hemiptera). Journal of Natural History 7: 441 - 459." title="A revision of the genus Niesthrea Spinola (Rhopali- dae: Hemiptera)" type="journal article" year="1973">Chopra, 1973</bibRefCitation>
 </taxonomicName>
 </heading>
 </paragraph>
@@ -90,25 +90,24 @@
 , and 
 <collectingRegion box="[168,266,2001,2025]" country="Argentina" name="Misiones" pageId="16" pageNumber="495">Misiones</collectingRegion>
 (
-<bibRefCitation author="Dellape PM &amp; Melo MC &amp; Montemayor SI &amp; Dellape G &amp; Brailovsky H" box="[280,595,2001,2026]" journalOrPublisher="Check List" pageId="16" pageNumber="495" pagination="1662" part="11" refId="ref30055" refString="Dellape PM, Melo MC, Montemayor SI, Dellape G, Brailovsky H (2015 b) Terrestrial Heteroptera (Hemiptera) from Mocona Provin- cial Park (Misiones, Argentina). Check List 11 (3): 1662. https: // doi. org / 10.15560 / 11.3.1662" title="Terrestrial Heteroptera (Hemiptera) from Mocona Provin- cial Park (Misiones, Argentina)" type="journal article" year="2015">Melo and Montemayor 2015</bibRefCitation>
+<bibRefCitation author="Melo and Montemayor" box="[280,595,2001,2026]" firstAuthor="Melo" journalOrPublisher="Check List" pageId="16" pageNumber="495" pagination="1662" part="11" refId="ref30055" refString="Dellape PM, Melo MC, Montemayor SI, Dellape G, Brailovsky H (2015 b) Terrestrial Heteroptera (Hemiptera) from Mocona Provin- cial Park (Misiones, Argentina). Check List 11 (3): 1662. https: // doi. org / 10.15560 / 11.3.1662" title="Terrestrial Heteroptera (Hemiptera) from Mocona Provin- cial Park (Misiones, Argentina)" type="journal article" year="2015">Melo and Montemayor 2015</bibRefCitation>
 ); 
 <collectingCountry box="[615,680,2001,2025]" name="Brazil" pageId="16" pageNumber="495">Brazil</collectingCountry>
 (
-<bibRefCitation author="Chopra NP" journalOrPublisher="Journal of Natural History" pageId="16" pageNumber="495" pagination="441 - 459" part="7" refId="ref29075" refString="Chopra NP (1973) A revision of the genus Niesthrea Spinola (Rhopali- dae: Hemiptera). Journal of Natural History 7: 441 - 459." title="A revision of the genus Niesthrea Spinola (Rhopali- dae: Hemiptera)" type="journal article" year="1973">Chopra 1973</bibRefCitation>
+<bibRefCitation author="Chopra" firstAuthor="Chopra" journalOrPublisher="Journal of Natural History" pageId="16" pageNumber="495" pagination="441 - 459" part="7" refId="ref29075" refString="Chopra NP (1973) A revision of the genus Niesthrea Spinola (Rhopali- dae: Hemiptera). Journal of Natural History 7: 441 - 459." title="A revision of the genus Niesthrea Spinola (Rhopali- dae: Hemiptera)" type="journal article" year="1973">Chopra 1973</bibRefCitation>
 , 
-<bibRefCitation author="Gollner-Scheiding U" box="[235,495,2035,2059]" journalOrPublisher="Mitteilungen aus dem Zoologischen Museum in Berlin" pageId="16" pageNumber="495" pagination="37 - 189" part="59" refId="ref31594" refString="Gollner-Scheiding U (1983) General-Katalog der Familie Rhopalidae (Heteroptera). Mitteilungen aus dem Zoologischen Museum in Berlin 59 (1): 37 - 189." title="General-Katalog der Familie Rhopalidae (Heteroptera)" type="journal article" year="1983">Göllner-Scheiding 1983</bibRefCitation>
+<bibRefCitation author="Gollner-Scheiding" box="[235,495,2035,2059]" firstAuthor="Gollner-Scheiding" journalOrPublisher="Mitteilungen aus dem Zoologischen Museum in Berlin" pageId="16" pageNumber="495" pagination="37 - 189" part="59" refId="ref31594" refString="Gollner-Scheiding U (1983) General-Katalog der Familie Rhopalidae (Heteroptera). Mitteilungen aus dem Zoologischen Museum in Berlin 59 (1): 37 - 189." title="General-Katalog der Familie Rhopalidae (Heteroptera)" type="journal article" year="1983">Göllner-Scheiding 1983</bibRefCitation>
 ).
 </paragraph>
 </subSubSection>
 <subSubSection pageId="16" pageNumber="495" type="materials_examined">
-<paragraph blockId="16.[168,776,1866,2093]" box="[206,775,2069,2093]" pageId="16" pageNumber="495">
+<paragraph blockId="16.[168,776,1866,2093]" lastBlockId="16.[813,1420,162,322]" pageId="16" pageNumber="495">
 <emphasis bold="true" box="[206,441,2069,2093]" pageId="16" pageNumber="495">Material examined.</emphasis>
 <materialsCitation ID-GBIF-Occurrence="1978373082" box="[460,1022,162,2093]" pageId="16" pageNumber="495">
 1♂ 1♀, CIES, 
 <date box="[656,771,2069,2093]" pageId="16" pageNumber="495" value="2012-11-02">2-XI-2012</date>
-, 
-<paragraph blockId="16.[813,1420,162,322]" pageId="16" pageNumber="495">
-PNI0514-5 (MLP); 
+, PNI0514-5 (MLP);
+</materialsCitation>
 <materialsCitation ID-GBIF-Occurrence="1978373084" pageId="16" pageNumber="495">
 3♂, 
 <date box="[1083,1198,162,186]" pageId="16" pageNumber="495" value="2012-11-01">1-XI-2012</date>
@@ -122,14 +121,12 @@ PNI0514-5 (MLP);
 <materialsCitation ID-GBIF-Occurrence="1978372997" pageId="16" pageNumber="495">
 2♂ 4♀, 
 <date box="[1189,1304,230,254]" pageId="16" pageNumber="495" value="2012-11-01">1-XI-2012</date>
-, S.I. Mon- temayor coll., PNI0521-6 (MLP);
+, S.I. Montemayor coll., PNI0521-6 (MLP);
 </materialsCitation>
 <materialsCitation ID-GBIF-Occurrence="1978373087" pageId="16" pageNumber="495">
 2♂ 2♀, 
 <date box="[1300,1415,264,288]" pageId="16" pageNumber="495" value="2012-11-01">1-XI-2012</date>
 , M.C. Melo coll., PNI0527-30 (MLP).
-</materialsCitation>
-</paragraph>
 </materialsCitation>
 </paragraph>
 </subSubSection>
