@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.5188195" ID-GBIF-Dataset="9e3e032c-3c08-4b9f-8763-a45e0f2c79d5" ID-GBIF-Taxon="160336858" ID-Zenodo-Dep="5188195" checkinTime="1573465703047" checkinUser="jeremy" docAuthor="Garrison, R. W." docDate="1982" docId="FF6487B070369627F8B5FDF5FE67BD24" docLanguage="en" docName="Garrison - 1982 - iArchilestes neblinai, a new damselfly from Costa Rica, with comments on the variability of iA. latialatusi Donnelly (.pdf.imf" docOrigin="Occasional Papers of the Museum of Zoology, University of Michigan 702" docStyle="DocumentStyle{}" docTitle="Archilestes grandis" docType="treatment" docVersion="11" lastPageNumber="11" masterDocId="035DFFC8703C962DF879FF8CFFFCB929" masterDocTitle="Archilestes neblina, a new damselfly from Costa Rica, with comments on the variability of A. latialatus Donnelly (Odonata: Lestidae)" masterLastPageNumber="12" masterPageNumber="1" pageId="10" pageNumber="11" updateTime="1632324321935" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.5188195" ID-GBIF-Dataset="9e3e032c-3c08-4b9f-8763-a45e0f2c79d5" ID-GBIF-Taxon="160336858" ID-Zenodo-Dep="5188195" approvalRequired="1" approvalRequired_for_originalDoi="1" checkinTime="1573465703047" checkinUser="jeremy" docAuthor="Garrison, R. W." docDate="1982" docId="FF6487B070369627F8B5FDF5FE67BD24" docLanguage="en" docName="Garrison - 1982 - iArchilestes neblinai, a new damselfly from Costa Rica, with comments on the variability of iA. latialatusi Donnelly (.pdf.imf" docOrigin="Occasional Papers of the Museum of Zoology, University of Michigan 702" docStyle="DocumentStyle{}" docTitle="Archilestes grandis" docType="treatment" docVersion="12" lastPageNumber="11" masterDocId="035DFFC8703C962DF879FF8CFFFCB929" masterDocTitle="Archilestes neblina, a new damselfly from Costa Rica, with comments on the variability of A. latialatus Donnelly (Odonata: Lestidae)" masterLastPageNumber="12" masterPageNumber="1" pageId="10" pageNumber="11" updateTime="1651587540543" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Archilestes neblina, a new damselfly from Costa Rica, with comments on the variability of A. latialatus Donnelly (Odonata: Lestidae)</mods:title>
@@ -16,6 +16,9 @@
 </mods:titleInfo>
 <mods:part>
 <mods:date>1982</mods:date>
+<mods:detail type="pubDate">
+<mods:number>1982-11-12</mods:number>
+</mods:detail>
 <mods:detail type="volume">
 <mods:number>702</mods:number>
 </mods:detail>
@@ -31,15 +34,17 @@
 <mods:identifier type="Zenodo-Dep">3535422</mods:identifier>
 </mods:mods>
 <treatment ID-DOI="http://doi.org/10.5281/zenodo.5188195" ID-GBIF-Taxon="160336858" ID-Zenodo-Dep="5188195" LSID="urn:lsid:plazi:treatment:FF6487B070369627F8B5FDF5FE67BD24" httpUri="http://treatment.plazi.org/id/FF6487B070369627F8B5FDF5FE67BD24" lastPageNumber="11" pageId="10" pageNumber="11">
-<subSubSection pageId="10" pageNumber="11" type="nomenclature">
+<subSubSection box="[204,437,633,673]" pageId="10" pageNumber="11" type="nomenclature">
 <paragraph blockId="10.[114,1417,370,1662]" box="[204,437,633,673]" pageId="10" pageNumber="11">
-<taxonomicName box="[204,431,633,673]" class="Insecta" family="Lestidae" genus="Archilestes" kingdom="Animalia" order="Odonata" pageId="10" pageNumber="11" phylum="Arthropoda" rank="species" species="grandis">
+<taxonomicName authority="(Lestes)" box="[204,431,633,673]" class="Insecta" family="Lestidae" genus="Archilestes" kingdom="Animalia" order="Odonata" pageId="10" pageNumber="11" phylum="Arthropoda" rank="species" species="grandis">
 <emphasis box="[204,240,633,673]" italics="true" pageId="10" pageNumber="11">A</emphasis>
 . 
 <emphasis box="[272,431,633,673]" italics="true" pageId="10" pageNumber="11">grandis</emphasis>
 </taxonomicName>
 :
 </paragraph>
+</subSubSection>
+<subSubSection pageId="10" pageNumber="11" type="materials_examined">
 <paragraph blockId="10.[114,1417,370,1662]" pageId="10" pageNumber="11">
 <materialsCitation ID-GBIF-Occurrence="2449445955" collectingDate="1978-06-11" collectorName="J. E. Hafernik, Jr" country="United States of America" county="Pima" location="Florida Cyn., Santa Rita Mtns" pageId="10" pageNumber="11" specimenCount="1" specimenCount-male="1" stateProvince="Arizona">
 <collectingRegion box="[459,623,633,673]" pageId="10" pageNumber="11">Arizona</collectingRegion>
@@ -65,7 +70,6 @@ Florida
 <collectorName box="[896,1246,686,726]" pageId="10" pageNumber="11">J.E. Hafernik, Jr</collectorName>
 </materialsCitation>
 .; 
-<subSubSection pageId="10" pageNumber="11" type="nomenclature">
 <materialsCitation ID-GBIF-Occurrence="2449445962" collectingDate="1977-07-23" collectorName="Rosser W. &amp; J. A. Garrison" country="United States of America" county="Uvaldc Co." location="Frio River at rest area, just N of Garner State Park" pageId="10" pageNumber="11" specimenCount="1" specimenCount-male="1" stateProvince="Texas">
 <collectingRegion box="[1269,1398,686,726]" pageId="10" pageNumber="11">Texas</collectingRegion>
 : 
@@ -84,8 +88,6 @@ Uvaldc
 <specimenCount box="[407,466,789,829]" pageId="10" pageNumber="11" type="male">1 ♂</specimenCount>
 );
 </materialsCitation>
-</subSubSection>
-<subSubSection pageId="10" pageNumber="11" type="nomenclature">
 <materialsCitation ID-GBIF-Occurrence="2449445958" collectingDate="1976-08-10" collectorName="Rosser W. &amp; J. A. Garrison" country="Mexico" elevation="900" location="Rio Metlac about 3.5 km. WNW of Fortin" pageId="10" pageNumber="11" specimenCount="1" specimenCount-male="1" stateProvince="Veracruz">
 <collectingRegion box="[521,673,789,829]" country="Mexico" name="Mexico" pageId="10" pageNumber="11">Mexico</collectingRegion>
 : 
@@ -108,9 +110,7 @@ Rio Metlac about
 <specimenCount box="[897,954,841,881]" pageId="10" pageNumber="11" type="male">1 ♂</specimenCount>
 )
 </materialsCitation>
-;
-</subSubSection>
-<subSubSection pageId="10" pageNumber="11" type="nomenclature">
+; 
 <materialsCitation ID-GBIF-Occurrence="2449445961" collectingDate="1980-09-18" collectingDateMax="1980-09-26" collectingDateMin="1980-09-18" collectorName="Rosser W. &amp; J. A. Garrison" country="Venezuela" elevation="970" location="Quebrada Pasaquire, N of el Marques, Caracas" pageId="10" pageNumber="11" specimenCount="9" specimenCount-male="9" stateProvince="Miranda">
 <collectingCountry box="[1006,1214,841,881]" name="Venezuela" pageId="10" pageNumber="11" value="Venezuela">Venezuela</collectingCountry>
 : 
@@ -147,7 +147,6 @@ and
 <collectorName box="[116,405,997,1037]" pageId="10" pageNumber="11">J.A. Garrison</collectorName>
 </materialsCitation>
 .
-</subSubSection>
 </paragraph>
 </subSubSection>
 </treatment>
