@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.5518792" ID-GBIF-Dataset="c1589979-f5b3-453f-909c-042efaea6990" ID-Zenodo-Dep="5518792" checkinTime="1573218742422" checkinUser="jeremy" docAuthor="Fabricius, J. C." docDate="1798" docId="03FF87A2422BC67B144B8D48762B66FA" docLanguage="en" docName="Fabricius_1798_ABBY_2.pdf (1).imf" docOrigin="Supplementum Entomologiae systematicae 5" docStyle="DocumentStyle{}" docTitle="Agrion Fabricius 1798" docType="treatment" docVersion="3" lastPageNumber="286" masterDocId="FFC6FFDA4228C678176481117E6C6820" masterDocTitle="Classis V. Odonata" masterLastPageNumber="287" masterPageNumber="283" pageId="3" pageNumber="286" updateTime="1632218041661" updateUser="jeremy">
+<document ID-DOI="http://doi.org/10.5281/zenodo.5518792" ID-GBIF-Dataset="c1589979-f5b3-453f-909c-042efaea6990" ID-Zenodo-Dep="5518792" approvalRequired="1" approvalRequired_for_originalDoi="1" checkinTime="1573218742422" checkinUser="jeremy" docAuthor="Fabricius, J. C." docDate="1798" docId="03FF87A2422BC67B144B8D48762B66FA" docLanguage="en" docName="Fabricius_1798_ABBY_2.pdf (1).imf" docOrigin="Supplementum Entomologiae systematicae 5" docStyle="DocumentStyle{}" docTitle="Agrion Fabricius 1798" docType="treatment" docVersion="4" lastPageNumber="286" masterDocId="FFC6FFDA4228C678176481117E6C6820" masterDocTitle="Classis V. Odonata" masterLastPageNumber="287" masterPageNumber="283" pageId="3" pageNumber="286" updateTime="1651600365336" updateUser="jonas">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Classis V. Odonata</mods:title>
@@ -16,6 +16,9 @@
 </mods:titleInfo>
 <mods:part>
 <mods:date>1798</mods:date>
+<mods:detail type="pubDate">
+<mods:number>1798-12-31</mods:number>
+</mods:detail>
 <mods:detail type="volume">
 <mods:number>5</mods:number>
 </mods:detail>
@@ -31,15 +34,21 @@
 <mods:identifier type="Zenodo-Dep">3532983</mods:identifier>
 </mods:mods>
 <treatment ID-DOI="http://doi.org/10.5281/zenodo.5518792" ID-Zenodo-Dep="5518792" LSID="urn:lsid:plazi:treatment:03FF87A2422BC67B144B8D48762B66FA" httpUri="http://treatment.plazi.org/id/03FF87A2422BC67B144B8D48762B66FA" lastPageNumber="286" pageId="3" pageNumber="286">
+<subSubSection box="[815,1437,3161,3284]" pageId="3" pageNumber="286" type="nomenclature">
 <paragraph blockId="3.[815,3109,3151,3801]" box="[815,1437,3161,3284]" pageId="3" pageNumber="286">
 <taxonomicName authority="Fabricius, 1798" authorityName="Fabricius" authorityYear="1798" box="[815,1412,3161,3284]" class="Insecta" family="Lestidae" genus="Agrion" kingdom="Animalia" order="Odonata" pageId="3" pageNumber="286" phylum="Arthropoda" rank="genus">AGRION</taxonomicName>
 .
 </paragraph>
+</subSubSection>
+<subSubSection pageId="3" pageNumber="286" type="description">
 <paragraph blockId="3.[815,3109,3151,3801]" pageId="3" pageNumber="286">
 <emphasis box="[1531,2004,3151,3273]" italics="true" pageId="3" pageNumber="286">Labium</emphasis>
-triﬁdum: laciniis exterioribus biﬁdis. 
+triﬁdum: laciniis exterioribus biﬁdis.
+</paragraph>
+<paragraph blockId="3.[815,3109,3151,3801]" pageId="3" pageNumber="286">
 <emphasis box="[1534,2076,3516,3636]" italics="true" pageId="3" pageNumber="286">Antennae</emphasis>
 tenuissimae, ﬁliformes.
 </paragraph>
+</subSubSection>
 </treatment>
 </document>
