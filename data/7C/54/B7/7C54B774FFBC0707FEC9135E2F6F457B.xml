@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.4327768" ID-GBIF-Dataset="4f2bbc27-03f2-46a2-a461-9995a8a5a5fd" ID-GBIF-Taxon="165857073" ID-ISSN="1639-4798" ID-Zenodo-Dep="4327768" approvalRequired="16" approvalRequired_for_textStreams="16" checkinTime="1595282049620" checkinUser="tatiana" docAuthor="Schatz, George E. &amp; Lowry II, Porter P." docDate="2020" docId="7C54B774FFBC0707FEC9135E2F6F457B" docLanguage="en" docName="Adansonia.42.9.201-218.pdf.imf" docOrigin="Adansonia 42 (9)" docStyle="DocumentStyle:2FE19AC740987067EC2A6C89A85F9648:Adansonia.2018-.journal_article" docStyleId="2FE19AC740987067EC2A6C89A85F9648" docStyleName="Adansonia.2018-.journal_article" docTitle="Diospyros comorensis Hiern 1873" docType="treatment" docVersion="7" lastPageId="12" lastPageNumber="211" masterDocId="806DCF0CFFB7070BFFF9152A2E194275" masterDocTitle="Taxonomic studies of Diospyros L. (Ebenaceae) from the Malagasy region. IV. Synoptic revision of the Squamosa group in Madagascar and the Comoro Islands" masterLastPageNumber="218" masterPageNumber="201" pageId="11" pageNumber="210" updateTime="1632023626345" updateUser="ExternalLinkService" zenodo-license-document="CC-BY-4.0" zenodo-license-figures="CC-BY-4.0" zenodo-license-treatments="UNSPECIFIED">
+<document ID-DOI="http://doi.org/10.5281/zenodo.4327768" ID-GBIF-Dataset="4f2bbc27-03f2-46a2-a461-9995a8a5a5fd" ID-GBIF-Taxon="165857073" ID-ISSN="1639-4798" ID-Zenodo-Dep="4327768" approvalRequired="16" approvalRequired_for_textStreams="16" checkinTime="1595282049620" checkinUser="tatiana" docAuthor="Schatz, George E. &amp; Lowry II, Porter P." docDate="2020" docId="7C54B774FFBC0707FEC9135E2F6F457B" docLanguage="en" docName="Adansonia.42.9.201-218.pdf.imf" docOrigin="Adansonia (3) 42 (9)" docStyle="DocumentStyle:2FE19AC740987067EC2A6C89A85F9648.8:Adansonia.2018-.journal_article" docStyleId="2FE19AC740987067EC2A6C89A85F9648" docStyleName="Adansonia.2018-.journal_article" docStyleVersion="8" docTitle="Diospyros comorensis Hiern 1873" docType="treatment" docVersion="8" lastPageId="12" lastPageNumber="211" masterDocId="806DCF0CFFB7070BFFF9152A2E194275" masterDocTitle="Taxonomic studies of Diospyros L. (Ebenaceae) from the Malagasy region. IV. Synoptic revision of the Squamosa group in Madagascar and the Comoro Islands" masterLastPageNumber="218" masterPageNumber="201" pageId="11" pageNumber="210" updateTime="1651589777192" updateUser="jonas" zenodo-license-document="CC-BY-4.0" zenodo-license-figures="CC-BY-4.0" zenodo-license-treatments="UNSPECIFIED">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Taxonomic studies of Diospyros L. (Ebenaceae) from the Malagasy region. IV. Synoptic revision of the Squamosa group in Madagascar and the Comoro Islands</mods:title>
@@ -26,6 +26,9 @@
 </mods:titleInfo>
 <mods:part>
 <mods:date>2020</mods:date>
+<mods:detail type="series">
+<mods:title>3</mods:title>
+</mods:detail>
 <mods:detail type="pubDate">
 <mods:number>2020-07-20</mods:number>
 </mods:detail>
@@ -65,15 +68,16 @@ Hiern
 )
 </paragraph>
 </subSubSection>
-<subSubSection pageId="11" pageNumber="210" type="materials_examined">
-<paragraph blockId="11.[132,776,1756,1833]" pageId="11" pageNumber="210">
-<treatmentCitationGroup pageId="11" pageNumber="210">
-<treatmentCitation author="Hiern" box="[155,747,1756,1780]" page="220" pageId="11" pageNumber="210" year="1873">
+<subSubSection box="[155,747,1756,1780]" pageId="11" pageNumber="210" type="reference_group">
+<paragraph blockId="11.[132,776,1756,1833]" box="[155,747,1756,1780]" pageId="11" pageNumber="210">
 <bibRefCitation author="HIERN W. P." box="[155,747,1756,1780]" pageId="11" pageNumber="210" pagination="27 - 300" refId="ref13474" refString="HIERN W. P. 1873. - A monograph of Ebenaceae. Transactions of the Cambridge Philosophical Society 12: 27 - 300. https: // doi. org / 10.5962 / bhl. title. 25923" type="journal article" year="1873">
 <emphasis box="[155,598,1756,1780]" italics="true" pageId="11" pageNumber="210">Transactions of the Cambridge Philosophical Society</emphasis>
 12: 220 (1873).
 </bibRefCitation>
-</treatmentCitation>
+</paragraph>
+</subSubSection>
+<subSubSection pageId="11" pageNumber="210" type="materials_examined">
+<paragraph blockId="11.[132,776,1756,1833]" pageId="11" pageNumber="210">
 — 
 <materialsCitation ID-GBIF-Occurrence="2816746325" collectingDate="1846" collectingDateMax="1848" collectingDateMin="1846" collectionCode="W" country="Mayotte" location="Boivin" pageId="11" pageNumber="210" specimenCode="W0007071" specimenCount="1" typeStatus="lectotype">
 <typeStatus box="[132,232,1783,1807]" pageId="11" pageNumber="210">Lectotype</typeStatus>
@@ -94,14 +98,18 @@ s.n.
 <specimenCode box="[403,516,1809,1833]" collectionCode="W" country="Austria" lsid="urn:lsid:biocol.org:col:15588" name="Naturhistorisches Museum Wien" pageId="11" pageNumber="210" type="Herbarium">W0007071</specimenCode>
 ]!).
 </materialsCitation>
-</treatmentCitationGroup>
 </paragraph>
+</subSubSection>
+<subSubSection pageId="11" pageNumber="210" type="reference_group">
 <paragraph blockId="11.[132,775,1872,2029]" pageId="11" pageNumber="210">
-<taxonomicName authority="H. Perrier, Memoires de l'Institut" authorityName="H. Perrier, Memoires de l'Institut" authorityYear="1952" box="[132,639,1872,1896]" class="Magnoliopsida" family="Ebenaceae" genus="Diospyros" kingdom="Plantae" order="Ericales" pageId="11" pageNumber="210" phylum="Tracheophyta" rank="species" species="ankifiensis">
+<treatmentCitationGroup pageId="11" pageNumber="210">
+<treatmentCitation author="H. Perrier" page="153" pageId="11" pageNumber="210" year="1952">
+<taxonomicName authority="H. Perrier" authorityName="H. Perrier" authorityYear="1952" box="[132,428,1872,1896]" class="Magnoliopsida" family="Ebenaceae" genus="Diospyros" kingdom="Plantae" order="Ericales" pageId="11" pageNumber="210" phylum="Tracheophyta" rank="species" species="ankifiensis" status="syn. nov.">
 <emphasis box="[132,323,1872,1896]" italics="true" pageId="11" pageNumber="210">Diospyros ankifiensis</emphasis>
-H. Perrier, 
-<emphasis box="[437,639,1872,1896]" italics="true" pageId="11" pageNumber="210">Mémoires de l’Institut</emphasis>
+H. Perrier
 </taxonomicName>
+, 
+<emphasis box="[437,639,1872,1896]" italics="true" pageId="11" pageNumber="210">Mémoires de l’Institut</emphasis>
 <emphasis italics="true" pageId="11" pageNumber="210">
 scientifique 
 <collectorName pageId="11" pageNumber="210">de Madagascar</collectorName>
@@ -109,8 +117,16 @@ scientifique
 <collectingCounty box="[348,422,1899,1923]" pageId="11" pageNumber="210">Biologie</collectingCounty>
 végétale
 </emphasis>
-4: 153 (1952). — 
-<materialsCitation ID-GBIF-Occurrence="2816746307" collectingDate="1932-10" collectionCode="P" collectorName="Perrier de la Bathie" country="Madagascar" latitude="-13.175" location="Ambohipiraka" longLatPrecision="21" longitude="49.1" municipality="Diana Region" pageId="11" pageNumber="210" specimenCode="P00541730" specimenCount="1" stateProvince="Antsiranana" typeStatus="lectotype">
+4: 153 (1952)
+</treatmentCitation>
+.
+</treatmentCitationGroup>
+</paragraph>
+</subSubSection>
+<subSubSection pageId="11" pageNumber="210" type="materials_examined">
+<paragraph blockId="11.[132,775,1872,2029]" pageId="11" pageNumber="210">
+— 
+<materialsCitation ID-GBIF-Occurrence="2816746307" collectingDate="1932-10" collectionCode="P" collectorName="Perrier de la Bathie" country="Madagascar" latitude="-13.175" location="Ambohipiraka" longLatPrecision="21" longitude="49.1" municipality="Antsiranana" pageId="11" pageNumber="210" specimenCode="P00541730" specimenCount="1" stateProvince="Diana" typeStatus="lectotype">
 <typeStatus box="[679,775,1899,1923]" pageId="11" pageNumber="210">Lectotype</typeStatus>
 (designated by 
 <bibRefCitation author="Schatz &amp; Lowry" box="[295,500,1925,1950]" firstAuthor="Schatz" pageId="11" pageNumber="210" pagination="271 - 281" refId="ref13744" refString="SCHATZ G. E. &amp; LOWRY II P. P. 2011. - Nomenclatural notes on Malagasy Diospyros L. (Ebenaceae). Adansonia, ser. 3, 33: 271 - 281. https: // doi. org / 10.5252 / a 2011 n 2 a 12" type="book chapter" year="2011">Schatz &amp; Lowry 2011</bibRefCitation>
@@ -119,11 +135,11 @@ végétale
 <collectingCountry box="[519,634,1925,1949]" name="Madagascar" pageId="11" pageNumber="210">Madagascar</collectingCountry>
 </emphasis>
 . 
-<collectingMunicipality box="[644,775,1925,1949]" pageId="11" pageNumber="210">Diana Region</collectingMunicipality>
-[Prov. 
-<collectingRegion box="[219,342,1952,1976]" country="Madagascar" name="Antsiranana" pageId="11" pageNumber="210">Antsiranana</collectingRegion>
+<collectingRegion box="[644,702,1925,1949]" pageId="11" pageNumber="210">Diana</collectingRegion>
+Region [Prov. 
+<collectingMunicipality box="[219,342,1952,1976]" pageId="11" pageNumber="210">Antsiranana</collectingMunicipality>
 ], 
-<location LSID="urn:lsid:plazi:treatment:7C54B774FFBC0707FEC9135E2F6F457B:F12250B9FFBC0700FE9F128A2FEF45CD" box="[358,502,1952,1976]" country="Madagascar" county="Biologie" latitude="-13.175" longLatPrecision="21" longitude="49.1" municipality="Diana Region" name="Ambohipiraka" pageId="11" pageNumber="210" stateProvince="Antsiranana">Ambohipiraka</location>
+<location LSID="urn:lsid:plazi:treatment:7C54B774FFBC0707FEC9135E2F6F457B:F12250B9FFBC0700FE9F128A2FEF45CD" box="[358,502,1952,1976]" country="Madagascar" county="Biologie" latitude="-13.175" longLatPrecision="21" longitude="49.1" municipality="Antsiranana" name="Ambohipiraka" pageId="11" pageNumber="210" stateProvince="Diana">Ambohipiraka</location>
 , [
 <geoCoordinate box="[520,634,1952,1976]" degrees="13" direction="south" minutes="10" orientation="latitude" pageId="11" pageNumber="210" precision="15" seconds="30" value="-13.175">13°10’30”S</geoCoordinate>
 , 
@@ -143,62 +159,230 @@ végétale
 <specimenCode box="[633,754,1978,2002]" collectionCode="P" country="France" lsid="urn:lsid:biocol.org:col:15763" name="Museum National d' Histoire Naturelle, Paris (MNHN) - Vascular Plants" pageId="11" pageNumber="210" type="Herbarium">P00541730</specimenCode>
 ]!;
 </materialsCitation>
-<materialsCitation ID-GBIF-Occurrence="2816746311" box="[155,508,2004,2029]" pageId="11" pageNumber="210">
-isolecto-, P[
+<materialsCitation ID-GBIF-Occurrence="2816746311" box="[155,409,2004,2029]" collectingDate="1932-10" collectionCode="P" collectorName="Perrier de la Bathie" country="Madagascar" latitude="-13.175" location="Ambohipiraka" longLatPrecision="21" longitude="49.1" municipality="Antsiranana" pageId="11" pageNumber="210" specimenCode="P00541731" specimenCount="1" stateProvince="Diana" typeStatus="isolectotype">
+<typeStatus box="[155,239,2005,2029]" pageId="11" pageNumber="210">isolecto-</typeStatus>
+, 
+<collectionCode box="[249,265,2005,2028]" pageId="11" pageNumber="210">P</collectionCode>
+[
 <specimenCode box="[271,386,2004,2028]" collectionCode="P" country="France" lsid="urn:lsid:biocol.org:col:15763" name="Museum National d' Histoire Naturelle, Paris (MNHN) - Vascular Plants" pageId="11" pageNumber="210" type="Herbarium">P00541731</specimenCode>
-]!), 
-<emphasis bold="true" box="[421,508,2004,2028]" pageId="11" pageNumber="210">syn. nov.</emphasis>
+]!)
 </materialsCitation>
+, 
+<emphasis bold="true" box="[421,508,2004,2028]" pageId="11" pageNumber="210">
+<taxonomicNameLabel box="[421,508,2004,2028]" pageId="11" pageNumber="210">syn. nov.</taxonomicNameLabel>
+</emphasis>
 </paragraph>
 <paragraph blockId="11.[813,1456,854,1249]" pageId="11" pageNumber="210">
 ADDITIONAL MATERIAL EXAMINED. — 
-<emphasis bold="true" box="[1188,1306,854,878]" pageId="11" pageNumber="210">
-<collectingCountry box="[1188,1306,854,878]" name="Madagascar" pageId="11" pageNumber="210">Madagascar</collectingCountry>
+<materialsCitation collectorName="Andriamihajarivo" country="Madagascar" location="Prov. Antsiranana" municipality="Diana Region" pageId="11" pageNumber="210" specimenCount="1">
+<collectingCountry box="[1188,1306,854,878]" name="Madagascar" pageId="11" pageNumber="210">
+<emphasis bold="true" box="[1188,1306,854,878]" pageId="11" pageNumber="210">Madagascar</emphasis>
+</collectingCountry>
+. 
+<collectingMunicipality box="[1319,1455,855,879]" pageId="11" pageNumber="210">Diana Region</collectingMunicipality>
+[
+<location LSID="urn:lsid:plazi:treatment:7C54B774FFBC0707FEC9135E2F6F457B:F12250B9FFBC0700FCCB16582DFB41FC" box="[818,994,881,905]" country="Madagascar" municipality="Diana Region" name="Prov. Antsiranana" pageId="11" pageNumber="210">Prov. Antsiranana</location>
+]: 
+<location LSID="urn:lsid:plazi:treatment:7C54B774FFBC0707FEC9135E2F6F457B:F12250B9FFBC0700FC16165B2A2641FC" box="[1007,1087,881,905]" country="Madagascar" municipality="Diana Region" name="Analabe" pageId="11" pageNumber="210">Analabe</location>
+, 
+<emphasis box="[1095,1316,881,905]" italics="true" pageId="11" pageNumber="210">
+<collectorName box="[1095,1262,881,905]" pageId="11" pageNumber="210">Andriamihajarivo</collectorName>
+1370
 </emphasis>
-. Diana Region [Prov. Antsiranana]: Analabe, 
-<emphasis box="[1095,1316,881,905]" italics="true" pageId="11" pageNumber="210">Andriamihajarivo 1370</emphasis>
-; Ankarana AP, 
-<emphasis box="[813,1084,907,931]" italics="true" pageId="11" pageNumber="210">Andrianantoanina 726, 968</emphasis>
-; same locality, 
-<emphasis italics="true" pageId="11" pageNumber="210">Bardot-Vaucoulon 843, 1341, 1577</emphasis>
-; Montagne des Français, 
-<emphasis box="[1173,1240,934,958]" italics="true" pageId="11" pageNumber="210">Be 326</emphasis>
-; Nossi Be, 
-<emphasis box="[1349,1449,935,958]" italics="true" pageId="11" pageNumber="210">Boivin s.n.</emphasis>
-; Andavakoera, 
-<emphasis box="[950,1067,960,984]" italics="true" pageId="11" pageNumber="210">Guittou 354</emphasis>
-; Ankarana AP, 
-<emphasis box="[1212,1335,960,984]" italics="true" pageId="11" pageNumber="210">Harder 1707</emphasis>
-; Sommet de la forêt de Galoko, 
-<emphasis box="[1007,1134,987,1011]" italics="true" pageId="11" pageNumber="210">Manjato 493</emphasis>
-; Bobataolana, 
-<emphasis box="[1283,1449,987,1011]" italics="true" pageId="11" pageNumber="210">Rakotoarisoa 474</emphasis>
-; Ambondromifehy, 
-<emphasis box="[994,1154,1013,1037]" italics="true" pageId="11" pageNumber="210">Rakotoarisoa 622</emphasis>
-; Ananjaka, forêt de Tsiandrotonana, 
-<emphasis box="[871,1056,1040,1064]" italics="true" pageId="11" pageNumber="210">Randrianaivo 1107</emphasis>
-; Ankarana AP, 
-<emphasis box="[1202,1449,1040,1064]" italics="true" pageId="11" pageNumber="210">Randrianaivo 2405, 2427</emphasis>
-; Anjahana, 
-<emphasis box="[919,1107,1066,1090]" italics="true" pageId="11" pageNumber="210">Randrianaivo 3299</emphasis>
-; Montagne des Français, 
-<emphasis italics="true" pageId="11" pageNumber="210">Ratovoson 1270</emphasis>
-; Ampombiantambo, 
-<emphasis box="[1081,1339,1093,1117]" italics="true" pageId="11" pageNumber="210">Razafitsalama 1228, 1249</emphasis>
-; Ankarana, 
-<emphasis box="[813,930,1119,1143]" italics="true" pageId="11" pageNumber="210">Rogers 1158</emphasis>
-; Antsampano, Beately, 
-<emphasis box="[1166,1347,1119,1143]" italics="true" pageId="11" pageNumber="210">Rakotonasolo 1040</emphasis>
-; Ankarana AP, 
-<emphasis box="[850,1289,1145,1170]" italics="true" pageId="11" pageNumber="210">Randrianaivo 3234, 3235, 3236, 3237, 3238</emphasis>
-; Sahafary, 
-<emphasis italics="true" pageId="11" pageNumber="210">Schatz 4360</emphasis>
-; Ankarana AP, 
-<emphasis italics="true" pageId="11" pageNumber="210">Service Forestier 6190, 7271, 10430, 10661, 18975</emphasis>
-. — Sofia Region [Prov. Mahajanga]: Anjajavy, 
-<emphasis italics="true" pageId="11" pageNumber="210">Rasoafaranaivo 245</emphasis>
+</materialsCitation>
+; 
+<materialsCitation collectorName="Andrianantoanina" location="Ankarana" municipality="Ankarana" pageId="11" pageNumber="210" specimenCount="1">
+<collectingMunicipality box="[1327,1419,881,905]" pageId="11" pageNumber="210">Ankarana</collectingMunicipality>
+AP, 
+<emphasis box="[813,1084,907,931]" italics="true" pageId="11" pageNumber="210">
+<collectorName box="[813,988,907,931]" pageId="11" pageNumber="210">Andrianantoanina</collectorName>
+726, 968
+</emphasis>
+</materialsCitation>
+; 
+<materialsCitation collectorName="Bardot-Vaucoulon" pageId="11" pageNumber="210" specimenCount="1">
+same locality, 
+<emphasis italics="true" pageId="11" pageNumber="210">
+<collectorName box="[1234,1404,907,931]" pageId="11" pageNumber="210">Bardot-Vaucoulon</collectorName>
+843, 1341, 1577
+</emphasis>
+</materialsCitation>
+; 
+<materialsCitation box="[938,1240,934,958]" collectorName="Be" location="Montagne des Francais" municipality="Montagne des Francais" pageId="11" pageNumber="210" specimenCount="1">
+<collectingMunicipality box="[938,1164,934,958]" pageId="11" pageNumber="210">Montagne des Français</collectingMunicipality>
+, 
+<emphasis box="[1173,1240,934,958]" italics="true" pageId="11" pageNumber="210">
+<collectorName box="[1173,1196,935,958]" pageId="11" pageNumber="210">Be</collectorName>
+326
+</emphasis>
+</materialsCitation>
+; 
+<materialsCitation box="[1252,1449,934,958]" collectorName="Boivin" location="Be" municipality="Nossi" pageId="11" pageNumber="210" specimenCount="1">
+<collectingMunicipality box="[1252,1306,934,958]" pageId="11" pageNumber="210">Nossi</collectingMunicipality>
+<location LSID="urn:lsid:plazi:treatment:7C54B774FFBC0707FEC9135E2F6F457B:F12250B9FFBC0700FAE6168C2B2241C8" box="[1311,1339,934,957]" municipality="Nossi" name="Be" pageId="11" pageNumber="210">Be</location>
+, 
+<emphasis box="[1349,1449,935,958]" italics="true" pageId="11" pageNumber="210">
+<collectorName box="[1349,1412,935,958]" pageId="11" pageNumber="210">Boivin</collectorName>
+s.n.
+</emphasis>
+</materialsCitation>
+; 
+<materialsCitation box="[813,1067,960,984]" collectorName="Guittou" location="Andavakoera" municipality="Andavakoera" pageId="11" pageNumber="210" specimenCount="1">
+<collectingMunicipality box="[813,942,960,984]" pageId="11" pageNumber="210">Andavakoera</collectingMunicipality>
+, 
+<emphasis box="[950,1067,960,984]" italics="true" pageId="11" pageNumber="210">
+<collectorName box="[950,1024,961,984]" pageId="11" pageNumber="210">Guittou</collectorName>
+354
+</emphasis>
+</materialsCitation>
+; 
+<materialsCitation box="[1078,1335,960,985]" collectorName="Harder" location="Ankarana" municipality="Ankarana" pageId="11" pageNumber="210" specimenCount="1">
+<collectingMunicipality box="[1078,1171,960,984]" pageId="11" pageNumber="210">Ankarana</collectingMunicipality>
+AP, 
+<emphasis box="[1212,1335,960,984]" italics="true" pageId="11" pageNumber="210">
+<collectorName box="[1212,1279,960,984]" pageId="11" pageNumber="210">Harder</collectorName>
+1707
+</emphasis>
+</materialsCitation>
+; 
+<materialsCitation collectorName="Manjato" location="Galoko" municipality="Sommet" pageId="11" pageNumber="210" specimenCount="1">
+<collectingMunicipality box="[1346,1428,961,985]" pageId="11" pageNumber="210">Sommet</collectingMunicipality>
+de la forêt de 
+<location LSID="urn:lsid:plazi:treatment:7C54B774FFBC0707FEC9135E2F6F457B:F12250B9FFBC0700FC6016F12DFD4186" box="[921,996,987,1011]" municipality="Sommet" name="Galoko" pageId="11" pageNumber="210">Galoko</location>
+, 
+<emphasis box="[1007,1134,987,1011]" italics="true" pageId="11" pageNumber="210">
+<collectorName box="[1007,1088,987,1010]" pageId="11" pageNumber="210">Manjato</collectorName>
+493
+</emphasis>
+</materialsCitation>
+; 
+<materialsCitation box="[1148,1449,987,1011]" collectorName="Rakotoarisoa" location="Bobataolana" municipality="Bobataolana" pageId="11" pageNumber="210" specimenCount="1">
+<collectingMunicipality box="[1148,1272,987,1011]" pageId="11" pageNumber="210">Bobataolana</collectingMunicipality>
+, 
+<emphasis box="[1283,1449,987,1011]" italics="true" pageId="11" pageNumber="210">
+<collectorName box="[1283,1403,987,1011]" pageId="11" pageNumber="210">Rakotoarisoa</collectorName>
+474
+</emphasis>
+</materialsCitation>
+; 
+<materialsCitation box="[813,1154,1013,1037]" collectorName="Rakotoarisoa" location="Ambondromifehy" pageId="11" pageNumber="210" specimenCount="1">
+<location LSID="urn:lsid:plazi:treatment:7C54B774FFBC0707FEC9135E2F6F457B:F12250B9FFBC0700FCD416DF2DC24678" box="[813,987,1013,1037]" name="Ambondromifehy" pageId="11" pageNumber="210">Ambondromifehy</location>
+, 
+<emphasis box="[994,1154,1013,1037]" italics="true" pageId="11" pageNumber="210">
+<collectorName box="[994,1112,1013,1037]" pageId="11" pageNumber="210">Rakotoarisoa</collectorName>
+622
+</emphasis>
+</materialsCitation>
+; 
+<materialsCitation collectorName="Randrianaivo" location="Tsiandrotonana" municipality="Ananjaka" pageId="11" pageNumber="210" specimenCount="1">
+<collectingMunicipality box="[1166,1259,1013,1037]" pageId="11" pageNumber="210">Ananjaka</collectingMunicipality>
+, forêt de 
+<location LSID="urn:lsid:plazi:treatment:7C54B774FFBC0707FEC9135E2F6F457B:F12250B9FFBC0700FAC616DF2D464652" municipality="Ananjaka" name="Tsiandrotonana" pageId="11" pageNumber="210">Tsiandrotonana</location>
+, 
+<emphasis box="[871,1056,1040,1064]" italics="true" pageId="11" pageNumber="210">
+<collectorName box="[871,1000,1040,1064]" pageId="11" pageNumber="210">Randrianaivo</collectorName>
+1107
+</emphasis>
+</materialsCitation>
+; 
+<materialsCitation box="[1067,1449,1040,1064]" collectorName="Randrianaivo" location="Ankarana" municipality="Ankarana" pageId="11" pageNumber="210" specimenCount="1">
+<collectingMunicipality box="[1067,1161,1040,1064]" pageId="11" pageNumber="210">Ankarana</collectingMunicipality>
+AP, 
+<emphasis box="[1202,1449,1040,1064]" italics="true" pageId="11" pageNumber="210">
+<collectorName box="[1202,1331,1040,1064]" pageId="11" pageNumber="210">Randrianaivo</collectorName>
+2405, 2427
+</emphasis>
+</materialsCitation>
+; 
+<materialsCitation box="[813,1107,1066,1090]" collectorName="Randrianaivo" location="Anjahana" pageId="11" pageNumber="210" specimenCount="1">
+<location LSID="urn:lsid:plazi:treatment:7C54B774FFBC0707FEC9135E2F6F457B:F12250B9FFBC0700FCD411002D954637" box="[813,908,1066,1090]" name="Anjahana" pageId="11" pageNumber="210">Anjahana</location>
+, 
+<emphasis box="[919,1107,1066,1090]" italics="true" pageId="11" pageNumber="210">
+<collectorName box="[919,1048,1066,1090]" pageId="11" pageNumber="210">Randrianaivo</collectorName>
+3299
+</emphasis>
+</materialsCitation>
+; 
+<materialsCitation collectorName="Ratovoson" location="Montagne des Francais" municipality="Montagne des Francais" pageId="11" pageNumber="210" specimenCount="1">
+<collectingMunicipality box="[1121,1351,1066,1091]" pageId="11" pageNumber="210">Montagne des Français</collectingMunicipality>
+, 
+<emphasis italics="true" pageId="11" pageNumber="210">
+<collectorName box="[1361,1455,1067,1090]" pageId="11" pageNumber="210">Ratovoson</collectorName>
+1270
+</emphasis>
+</materialsCitation>
+; 
+<materialsCitation box="[878,1339,1093,1117]" collectorName="Razafitsalama" location="Ampombiantambo" municipality="Ampombiantambo" pageId="11" pageNumber="210" specimenCount="1">
+<collectingMunicipality box="[878,1069,1093,1117]" pageId="11" pageNumber="210">Ampombiantambo</collectingMunicipality>
+, 
+<emphasis box="[1081,1339,1093,1117]" italics="true" pageId="11" pageNumber="210">
+<collectorName box="[1081,1215,1093,1117]" pageId="11" pageNumber="210">Razafitsalama</collectorName>
+1228, 1249
+</emphasis>
+</materialsCitation>
+; 
+<materialsCitation collectorName="Rogers" location="Ankarana" municipality="Ankarana" pageId="11" pageNumber="210" specimenCount="1">
+<collectingMunicipality box="[1354,1451,1093,1117]" pageId="11" pageNumber="210">Ankarana</collectingMunicipality>
+, 
+<emphasis box="[813,930,1119,1143]" italics="true" pageId="11" pageNumber="210">
+<collectorName box="[813,872,1120,1143]" pageId="11" pageNumber="210">Rogers</collectorName>
+1158
+</emphasis>
+</materialsCitation>
+; 
+<materialsCitation box="[944,1347,1119,1143]" collectorName="Rakotonasolo" location="Beately" municipality="Antsampano" pageId="11" pageNumber="210" specimenCount="1">
+<collectingMunicipality box="[944,1071,1119,1143]" pageId="11" pageNumber="210">Antsampano</collectingMunicipality>
+, 
+<location LSID="urn:lsid:plazi:treatment:7C54B774FFBC0707FEC9135E2F6F457B:F12250B9FFBC0700FBC211752A9A4602" box="[1083,1155,1119,1143]" municipality="Antsampano" name="Beately" pageId="11" pageNumber="210">Beately</location>
+, 
+<emphasis box="[1166,1347,1119,1143]" italics="true" pageId="11" pageNumber="210">
+<collectorName box="[1166,1289,1119,1143]" pageId="11" pageNumber="210">Rakotonasolo</collectorName>
+1040
+</emphasis>
+</materialsCitation>
+; 
+<materialsCitation collectorName="Randrianaivo" location="Ankarana" municipality="Ankarana" pageId="11" pageNumber="210" specimenCount="1">
+<collectingMunicipality box="[1361,1455,1119,1143]" pageId="11" pageNumber="210">Ankarana</collectingMunicipality>
+AP, 
+<emphasis box="[850,1289,1145,1170]" italics="true" pageId="11" pageNumber="210">
+<collectorName box="[850,979,1145,1169]" pageId="11" pageNumber="210">Randrianaivo</collectorName>
+3234, 3235, 3236, 3237, 3238
+</emphasis>
+</materialsCitation>
+; 
+<materialsCitation collectorName="Schatz" location="Sahafary" municipality="Sahafary" pageId="11" pageNumber="210" specimenCount="1">
+<collectingMunicipality box="[1301,1385,1146,1170]" pageId="11" pageNumber="210">Sahafary</collectingMunicipality>
+, 
+<emphasis italics="true" pageId="11" pageNumber="210">
+<collectorName box="[1394,1455,1145,1169]" pageId="11" pageNumber="210">Schatz</collectorName>
+4360
+</emphasis>
+</materialsCitation>
+; 
+<materialsCitation collectorName="Service Forestier &amp; Rasoafaranaivo" location="Prov. Mahajanga" municipality="Ankarana" pageId="11" pageNumber="210" specimenCount="1" stateProvince="Sofia">
+<collectingMunicipality box="[878,972,1172,1196]" pageId="11" pageNumber="210">Ankarana</collectingMunicipality>
+AP, 
+<emphasis italics="true" pageId="11" pageNumber="210">
+<collectorName box="[1019,1169,1172,1196]" pageId="11" pageNumber="210">Service Forestier</collectorName>
+6190, 7271, 10430, 10661, 18975
+</emphasis>
+.
+</materialsCitation>
+— 
+<materialsCitation collectorName="Service Forestier &amp; Rasoafaranaivo" location="Prov. Mahajanga" municipality="Ankarana" pageId="11" pageNumber="210" specimenCount="1" stateProvince="Sofia">
+<collectingRegion box="[925,973,1198,1222]" pageId="11" pageNumber="210">Sofia</collectingRegion>
+Region [
+<location LSID="urn:lsid:plazi:treatment:7C54B774FFBC0707FEC9135E2F6F457B:F12250B9FFBC0700FBD011852AC146B3" box="[1065,1240,1198,1222]" municipality="Ankarana" name="Prov. Mahajanga" pageId="11" pageNumber="210" stateProvince="Sofia">Prov. Mahajanga</location>
+]: 
+<location LSID="urn:lsid:plazi:treatment:7C54B774FFBC0707FEC9135E2F6F457B:F12250B9FFBC0700FB1011842B5946B3" box="[1257,1344,1198,1222]" municipality="Ankarana" name="Anjajavy" pageId="11" pageNumber="210" stateProvince="Sofia">Anjajavy</location>
+, 
+<emphasis italics="true" pageId="11" pageNumber="210">
+<collectorName pageId="11" pageNumber="210">Rasoafaranaivo</collectorName>
+245
+</emphasis>
 , 
 <emphasis box="[922,960,1225,1249]" italics="true" pageId="11" pageNumber="210">254</emphasis>
+</materialsCitation>
 .
 </paragraph>
 </subSubSection>
@@ -222,7 +406,7 @@ Catalogue 2020
 ).
 </paragraph>
 </subSubSection>
-<subSubSection pageId="11" pageNumber="210" type="discussion">
+<subSubSection pageId="11" pageNumber="210" type="biology_ecology">
 <paragraph blockId="11.[813,1455,1399,1450]" pageId="11" pageNumber="210">
 PHENOLOGY. — 
 <taxonomicName authorityName="Hiern" authorityYear="1873" box="[975,1165,1400,1423]" class="Magnoliopsida" family="Ebenaceae" genus="Diospyros" kingdom="Plantae" order="Ericales" pageId="11" pageNumber="210" phylum="Tracheophyta" rank="species" species="comorensis">
@@ -240,7 +424,7 @@ VERNACULAR NAMES. — Jobiampototra (
 ).
 </paragraph>
 </subSubSection>
-<subSubSection pageId="11" pageNumber="210" type="distribution">
+<subSubSection pageId="11" pageNumber="210" type="conservation">
 <paragraph blockId="11.[813,1456,1547,1836]" pageId="11" pageNumber="210">
 CONSERVATION STATUS. — 
 <taxonomicName authorityName="Hiern" authorityYear="1873" box="[1091,1285,1548,1571]" class="Magnoliopsida" family="Ebenaceae" genus="Diospyros" kingdom="Plantae" order="Ericales" pageId="11" pageNumber="210" phylum="Tracheophyta" rank="species" species="comorensis">

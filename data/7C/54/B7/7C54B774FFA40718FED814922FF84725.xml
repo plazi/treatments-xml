@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.4327778" ID-GBIF-Dataset="4f2bbc27-03f2-46a2-a461-9995a8a5a5fd" ID-GBIF-Taxon="165857082" ID-ISSN="1639-4798" ID-Zenodo-Dep="4327778" approvalRequired="16" approvalRequired_for_textStreams="16" checkinTime="1595282049620" checkinUser="tatiana" docAuthor="Schatz, George E. &amp; Lowry II, Porter P." docDate="2020" docId="7C54B774FFA40718FED814922FF84725" docLanguage="en" docName="Adansonia.42.9.201-218.pdf.imf" docOrigin="Adansonia 42 (9)" docStyle="DocumentStyle:2FE19AC740987067EC2A6C89A85F9648:Adansonia.2018-.journal_article" docStyleId="2FE19AC740987067EC2A6C89A85F9648" docStyleName="Adansonia.2018-.journal_article" docTitle="Diospyros tetraceros H. Perrier 1952" docType="treatment" docVersion="7" lastPageNumber="218" masterDocId="806DCF0CFFB7070BFFF9152A2E194275" masterDocTitle="Taxonomic studies of Diospyros L. (Ebenaceae) from the Malagasy region. IV. Synoptic revision of the Squamosa group in Madagascar and the Comoro Islands" masterLastPageNumber="218" masterPageNumber="201" pageId="19" pageNumber="218" updateTime="1632023626345" updateUser="ExternalLinkService" zenodo-license-document="CC-BY-4.0" zenodo-license-figures="CC-BY-4.0" zenodo-license-treatments="UNSPECIFIED">
+<document ID-DOI="http://doi.org/10.5281/zenodo.4327778" ID-GBIF-Dataset="4f2bbc27-03f2-46a2-a461-9995a8a5a5fd" ID-GBIF-Taxon="165857082" ID-ISSN="1639-4798" ID-Zenodo-Dep="4327778" approvalRequired="16" approvalRequired_for_textStreams="16" checkinTime="1595282049620" checkinUser="tatiana" docAuthor="Schatz, George E. &amp; Lowry II, Porter P." docDate="2020" docId="7C54B774FFA40718FED814922FF84725" docLanguage="en" docName="Adansonia.42.9.201-218.pdf.imf" docOrigin="Adansonia (3) 42 (9)" docStyle="DocumentStyle:2FE19AC740987067EC2A6C89A85F9648.8:Adansonia.2018-.journal_article" docStyleId="2FE19AC740987067EC2A6C89A85F9648" docStyleName="Adansonia.2018-.journal_article" docStyleVersion="8" docTitle="Diospyros tetraceros H. Perrier 1952" docType="treatment" docVersion="8" lastPageNumber="218" masterDocId="806DCF0CFFB7070BFFF9152A2E194275" masterDocTitle="Taxonomic studies of Diospyros L. (Ebenaceae) from the Malagasy region. IV. Synoptic revision of the Squamosa group in Madagascar and the Comoro Islands" masterLastPageNumber="218" masterPageNumber="201" pageId="19" pageNumber="218" updateTime="1651589777192" updateUser="jonas" zenodo-license-document="CC-BY-4.0" zenodo-license-figures="CC-BY-4.0" zenodo-license-treatments="UNSPECIFIED">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Taxonomic studies of Diospyros L. (Ebenaceae) from the Malagasy region. IV. Synoptic revision of the Squamosa group in Madagascar and the Comoro Islands</mods:title>
@@ -26,6 +26,9 @@
 </mods:titleInfo>
 <mods:part>
 <mods:date>2020</mods:date>
+<mods:detail type="series">
+<mods:title>3</mods:title>
+</mods:detail>
 <mods:detail type="pubDate">
 <mods:number>2020-07-20</mods:number>
 </mods:detail>
@@ -58,19 +61,23 @@ H. Perrier
 </heading>
 </paragraph>
 </subSubSection>
-<subSubSection pageId="19" pageNumber="218" type="materials_examined">
+<subSubSection pageId="19" pageNumber="218" type="reference_group">
 <paragraph blockId="19.[132,775,497,654]" pageId="19" pageNumber="218">
-<treatmentCitationGroup pageId="19" pageNumber="218">
-<treatmentCitation author="H. Perrier" page="151" pageId="19" pageNumber="218" year="1952">
 <bibRefCitation author="PERRIER DE LA BATHIE H." pageId="19" pageNumber="218" refId="ref13657" refString="PERRIER DE LA BATHIE H. 1952. - Ebenaceae. Museum national d'Histoire naturelle, Paris, 137 p. (Flore de Madagascar et des Comores; 165)." type="book" year="1952">
 <emphasis box="[155,667,497,521]" italics="true" pageId="19" pageNumber="218">Mémoires de l’Institut scientifique de Madagascar, série</emphasis>
-<materialsCitation ID-GBIF-Occurrence="2816746327" collectingDate="1908-06" collectionCode="P" collectorName="Perrier de la Bathie" country="Madagascar" county="Biologie" latitude="-15.816667" location="d'Antsahabe" longLatPrecision="1284" longitude="46.35" municipality="Boeny Region" pageId="19" pageNumber="218" specimenCode="P00573652" specimenCount="1" stateProvince="Mahajanga" typeStatus="lectotype">
 <emphasis italics="true" pageId="19" pageNumber="218">
 B, 
 <collectingCounty box="[701,775,497,521]" pageId="19" pageNumber="218">Biologie</collectingCounty>
 végétale
 </emphasis>
-4: 151 (1952). — 
+4: 151 (1952).
+</bibRefCitation>
+</paragraph>
+</subSubSection>
+<subSubSection pageId="19" pageNumber="218" type="materials_examined">
+<paragraph blockId="19.[132,775,497,654]" pageId="19" pageNumber="218">
+— 
+<materialsCitation ID-GBIF-Occurrence="2816746335" collectingDate="1908-06" collectionCode="P" collectorName="Perrier de la Bathie" country="Madagascar" county="Biologie" latitude="-15.816667" location="d'Antsahabe" longLatPrecision="1284" longitude="46.35" municipality="Mahajanga" pageId="19" pageNumber="218" specimenCode="P00573652" specimenCount="1" stateProvince="Boeny" typeStatus="lectotype">
 <typeStatus box="[379,474,524,548]" pageId="19" pageNumber="218">Lectotype</typeStatus>
 (designated by 
 <bibRefCitation author="Schatz &amp; Lowry" firstAuthor="Schatz" pageId="19" pageNumber="218" pagination="271 - 281" refId="ref13744" refString="SCHATZ G. E. &amp; LOWRY II P. P. 2011. - Nomenclatural notes on Malagasy Diospyros L. (Ebenaceae). Adansonia, ser. 3, 33: 271 - 281. https: // doi. org / 10.5252 / a 2011 n 2 a 12" type="book chapter" year="2011">Schatz &amp; Lowry 2011</bibRefCitation>
@@ -79,13 +86,13 @@ végétale
 <collectingCountry box="[202,320,550,574]" name="Madagascar" pageId="19" pageNumber="218">Madagascar</collectingCountry>
 </emphasis>
 . 
-<collectingMunicipality box="[331,466,550,575]" pageId="19" pageNumber="218">Boeny Region</collectingMunicipality>
-[Prov. 
-<collectingRegion box="[533,646,550,574]" country="Madagascar" name="Mahajanga" pageId="19" pageNumber="218">Mahajanga</collectingRegion>
+<collectingRegion box="[331,393,551,575]" pageId="19" pageNumber="218">Boeny</collectingRegion>
+Region [Prov. 
+<collectingMunicipality box="[533,646,550,574]" pageId="19" pageNumber="218">Mahajanga</collectingMunicipality>
 ], ravin rocailleux 
-<location LSID="urn:lsid:plazi:treatment:7C54B774FFA40718FED814922FF84725:F12250B9FFA40718FF4C176B2F37402C" box="[181,302,577,601]" country="Madagascar" county="Biologie" latitude="-15.816667" longLatPrecision="1284" longitude="46.35" municipality="Boeny Region" name="d'Antsahabe" pageId="19" pageNumber="218" stateProvince="Mahajanga">d’Antsahabe</location>
+<location LSID="urn:lsid:plazi:treatment:7C54B774FFA40718FED814922FF84725:F12250B9FFA40718FF4C176B2F37402C" box="[181,302,577,601]" country="Madagascar" county="Biologie" latitude="-15.816667" longLatPrecision="1284" longitude="46.35" municipality="Mahajanga" name="d'Antsahabe" pageId="19" pageNumber="218" stateProvince="Boeny">d’Antsahabe</location>
 aux environs 
-<location LSID="urn:lsid:plazi:treatment:7C54B774FFA40718FED814922FF84725:F12250B9FFA40718FE45176B2C20402C" box="[444,569,577,601]" country="Madagascar" county="Biologie" latitude="-15.816667" longLatPrecision="1284" longitude="46.35" municipality="Boeny Region" name="d'Amboanio" pageId="19" pageNumber="218" stateProvince="Mahajanga">d’Amboanio</location>
+<location LSID="urn:lsid:plazi:treatment:7C54B774FFA40718FED814922FF84725:F12250B9FFA40718FE45176B2C20402C" box="[444,569,577,601]" country="Madagascar" county="Biologie" latitude="-15.816667" longLatPrecision="1284" longitude="46.35" municipality="Mahajanga" name="d'Amboanio" pageId="19" pageNumber="218" stateProvince="Boeny">d’Amboanio</location>
 , [
 <geoCoordinate box="[589,669,576,600]" degrees="15" direction="south" minutes="49" orientation="latitude" pageId="19" pageNumber="218" precision="925" value="-15.816667">15°49’S</geoCoordinate>
 , 
@@ -103,20 +110,20 @@ aux environs
 <collectionCode box="[612,628,604,627]" country="France" lsid="urn:lsid:biocol.org:col:15763" name="Museum National d' Histoire Naturelle, Paris (MNHN) - Vascular Plants" pageId="19" pageNumber="218" type="Herbarium">P</collectionCode>
 [
 <specimenCode box="[635,754,603,627]" collectionCode="P" country="France" lsid="urn:lsid:biocol.org:col:15763" name="Museum National d' Histoire Naturelle, Paris (MNHN) - Vascular Plants" pageId="19" pageNumber="218" type="Herbarium">P00573652</specimenCode>
-]!;
+]!
 </materialsCitation>
-</bibRefCitation>
-</treatmentCitation>
-</treatmentCitationGroup>
-<materialsCitation ID-GBIF-Occurrence="2816746335" box="[132,520,629,654]" collectingDate="1908-06" collectionCode="P" collectorName="Perrier de la Bathie" country="Madagascar" county="Biologie" latitude="-15.816667" location="d'Antsahabe" longLatPrecision="1284" longitude="46.35" municipality="Boeny Region" pageId="19" pageNumber="218" specimenCode="P00573651, P00573653" specimenCount="2" stateProvince="Mahajanga" typeStatus="isotype">
-isolecto-, 
+; 
+<materialsCitation ID-GBIF-Occurrence="2816746335" box="[132,516,629,654]" collectingDate="1908-06" collectionCode="P" collectorName="Perrier de la Bathie" country="Madagascar" county="Biologie" latitude="-15.816667" location="d'Antsahabe" longLatPrecision="1284" longitude="46.35" municipality="Boeny Region" pageId="19" pageNumber="218" specimenCode="P00573651, P00573653" specimenCount="1" stateProvince="Mahajanga" typeStatus="isolectotype">
+<typeStatus box="[132,216,629,653]" pageId="19" pageNumber="218">isolecto-</typeStatus>
+, 
 <collectionCode box="[227,243,630,653]" country="France" lsid="urn:lsid:biocol.org:col:15763" name="Museum National d' Histoire Naturelle, Paris (MNHN) - Vascular Plants" pageId="19" pageNumber="218" type="Herbarium">P</collectionCode>
 [
 <specimenCode box="[249,363,629,653]" collectionCode="P" country="France" lsid="urn:lsid:biocol.org:col:15763" name="Museum National d' Histoire Naturelle, Paris (MNHN) - Vascular Plants" pageId="19" pageNumber="218" type="Herbarium">P00573651</specimenCode>
 , 
 <specimenCode box="[376,492,629,653]" collectionCode="P" country="France" lsid="urn:lsid:biocol.org:col:15763" name="Museum National d' Histoire Naturelle, Paris (MNHN) - Vascular Plants" pageId="19" pageNumber="218" type="Herbarium">P00573653</specimenCode>
-]!).
+]!)
 </materialsCitation>
+.
 </paragraph>
 <paragraph blockId="19.[132,774,676,728]" pageId="19" pageNumber="218">
 ADDITIONAL MATERIAL EXAMINED. — 
@@ -126,8 +133,8 @@ ADDITIONAL MATERIAL EXAMINED. —
 </emphasis>
 . Boeny Region [Prov. Mahajanga]: causse d’Ankara, 
 <emphasis box="[491,730,703,727]" italics="true" pageId="19" pageNumber="218">Perrier de la Bâthie 1160</emphasis>
-.
 </materialsCitation>
+.
 </paragraph>
 </subSubSection>
 <subSubSection pageId="19" pageNumber="218" type="distribution">
@@ -146,7 +153,7 @@ Catalogue 2020
 ).
 </paragraph>
 </subSubSection>
-<subSubSection pageId="19" pageNumber="218" type="discussion">
+<subSubSection pageId="19" pageNumber="218" type="biology_ecology">
 <paragraph blockId="19.[132,775,877,929]" pageId="19" pageNumber="218">
 PHENOLOGY. — 
 <taxonomicName authorityName="H. Perrier" authorityYear="1952" box="[297,477,879,902]" class="Magnoliopsida" family="Ebenaceae" genus="Diospyros" kingdom="Plantae" order="Ericales" pageId="19" pageNumber="218" phylum="Tracheophyta" rank="species" species="tetraceros">
@@ -155,7 +162,7 @@ PHENOLOGY. —
 has been recorded in flower in January, and in fruit in June.
 </paragraph>
 </subSubSection>
-<subSubSection pageId="19" pageNumber="218" type="distribution">
+<subSubSection pageId="19" pageNumber="218" type="conservation">
 <paragraph blockId="19.[132,776,951,1135]" pageId="19" pageNumber="218">
 CONSERVATION STATUS. — 
 <taxonomicName authorityName="H. Perrier" authorityYear="1952" box="[416,601,953,976]" class="Magnoliopsida" family="Ebenaceae" genus="Diospyros" kingdom="Plantae" order="Ericales" pageId="19" pageNumber="218" phylum="Tracheophyta" rank="species" species="tetraceros">
