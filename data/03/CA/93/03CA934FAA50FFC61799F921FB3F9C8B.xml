@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.5521612" ID-GBIF-Dataset="eded7a3e-78b3-4d84-8002-b0c87b9bb4da" ID-GBIF-Taxon="160165058" ID-Zenodo-Dep="5521612" approvalRequired="12" approvalRequired_for_document="1" approvalRequired_for_taxonomicNames="8" approvalRequired_for_textStreams="1" approvalRequired_for_treatments="2" checkinTime="1573131395505" checkinUser="jeremy" docAuthor="Selys-Longchamps, M. E." docDate="1850" docId="03CA934FAA50FFC61799F921FB3F9C8B" docLanguage="fr" docName="Selys_1850_extract_LestProj02.pdf.imf" docOrigin="Mémoires de la Société Royale des Sciences de Liége 6 (22)" docStyle="DocumentStyle{}" docTitle="Lestes virens . (Charp." docType="treatment" docVersion="10" lastPageId="8" lastPageNumber="159" masterDocId="FFF3EB37AA55FFCE1541FFBFFF909823" masterDocTitle="Revue des Odonates ou Libellules d’Europe (excerpt)" pageId="5" pageNumber="156" updateTime="1645188346379" updateUser="jeremy">
+<document ID-DOI="http://doi.org/10.5281/zenodo.5521612" ID-GBIF-Dataset="eded7a3e-78b3-4d84-8002-b0c87b9bb4da" ID-GBIF-Taxon="160165058" ID-Zenodo-Dep="5521612" approvalRequired="2" approvalRequired_for_treatments="2" checkinTime="1573131395505" checkinUser="jeremy" docAuthor="Selys-Longchamps, M. E." docDate="1850" docId="03CA934FAA50FFC61799F921FB3F9C8B" docLanguage="fr" docName="Selys_1850_extract_LestProj02.pdf.imf" docOrigin="Mémoires de la Société Royale des Sciences de Liége 6 (22)" docStyle="DocumentStyle{}" docTitle="Lestes virens . (Charp." docType="treatment" docVersion="11" lastPageId="8" lastPageNumber="159" masterDocId="FFF3EB37AA55FFCE1541FFBFFF909823" masterDocTitle="Revue des Odonates ou Libellules d’Europe (excerpt)" masterLastPageNumber="14" masterPageNumber="2" pageId="5" pageNumber="156" updateTime="1651601679393" updateUser="jonas">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Revue des Odonates ou Libellules d’Europe (excerpt)</mods:title>
@@ -16,15 +16,22 @@
 </mods:titleInfo>
 <mods:part>
 <mods:date>1850</mods:date>
+<mods:detail type="pubDate">
+<mods:number>1850-12-31</mods:number>
+</mods:detail>
 <mods:detail type="volume">
 <mods:number>6</mods:number>
 </mods:detail>
 <mods:detail type="issue">
 <mods:number>22</mods:number>
 </mods:detail>
+<mods:extent unit="page">
+<mods:start>2</mods:start>
+<mods:end>14</mods:end>
+</mods:extent>
 </mods:part>
 </mods:relatedItem>
-<mods:classification>journal volume</mods:classification>
+<mods:classification>journal article</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.3531636</mods:identifier>
 <mods:identifier type="GBIF-Dataset">eded7a3e-78b3-4d84-8002-b0c87b9bb4da</mods:identifier>
 <mods:identifier type="Zenodo-Dep">3531636</mods:identifier>
@@ -135,7 +142,7 @@ Mâle
 , Vanderlinden.
 </paragraph>
 <paragraph blockId="6.[228,1379,195,767]" box="[348,813,580,613]" pageId="6" pageNumber="157">
-<taxonomicName box="[348,574,580,613]" class="Insecta" family="Coenagrionidae" genus="Agrion" higherTaxonomySource="GBIF" kingdom="Animalia" order="Odonata" pageId="6" pageNumber="157" phylum="Arthropoda" rank="species" species="amasia">
+<taxonomicName authority="Hansem" box="[348,574,580,613]" class="Insecta" family="Coenagrionidae" genus="Agrion" higherTaxonomySource="GBIF" kingdom="Animalia" order="Odonata" pageId="6" pageNumber="157" phylum="Arthropoda" rank="species" species="amasia">
 <emphasis box="[348,574,580,613]" italics="true" pageId="6" pageNumber="157">Agrion amasia</emphasis>
 </taxonomicName>
 , Hansem, mus.
