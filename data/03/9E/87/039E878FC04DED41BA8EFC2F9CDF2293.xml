@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.4507360" ID-ISSN="0253-116X" ID-RefBankID="FF8EFFCCFFB76202FFF4FF8C1C7EFFEA" ID-Zenodo-Dep="4507360" approvalRequired="35" approvalRequired_for_textStreams="26" approvalRequired_for_treatments="9" checkinTime="1612537585474" checkinUser="felipe" docAuthor="Assing, V." docDate="2013" docId="039E878FC04DED41BA8EFC2F9CDF2293" docLanguage="en" docName="LinzerbiolBeitr.45.1.0247-0266.pdf" docOrigin="Linzer biologische Beiträge 45 (1)" docStyle="DocumentStyle:24E5EB772D355DE2EE23B1E8D07853E0.5:LinzerbiolBeitr.2006-.journal_article" docStyleId="24E5EB772D355DE2EE23B1E8D07853E0" docStyleName="LinzerbiolBeitr.2006-.journal_article" docStyleVersion="5" docTitle="Lathrobium inexcisum ASSING 2012" docType="treatment" docVersion="3" lastPageNumber="253" masterDocId="FFA7FFF7C04BED47BA6CFFC39E602621" masterDocTitle="Six new species and additional records of Lathrobium from the Palaearctic region" masterLastPageNumber="266" masterPageNumber="247" pageId="6" pageNumber="253" updateTime="1612561239595" updateUser="ExternalLinkService" zenodo-license-document="CC-BY-4.0">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6518726" ID-GBIF-Dataset="4eab4a56-748d-4606-b925-2c605cff7b94" ID-ISSN="0253-116X" ID-RefBankID="FF8EFFCCFFB76202FFF4FF8C1C7EFFEA" ID-Zenodo-Dep="6518726" checkinTime="1612537585474" checkinUser="felipe" docAuthor="Assing, V." docDate="2013" docId="039E878FC04DED41BA8EFC2F9CDF2293" docLanguage="en" docName="LinzerbiolBeitr.45.1.0247-0266.pdf" docOrigin="Linzer biologische Beiträge 45 (1)" docStyle="DocumentStyle:24E5EB772D355DE2EE23B1E8D07853E0.8:LinzerbiolBeitr.2006-.journal_article" docStyleId="24E5EB772D355DE2EE23B1E8D07853E0" docStyleName="LinzerbiolBeitr.2006-.journal_article" docStyleVersion="8" docTitle="Lathrobium inexcisum ASSING 2012" docType="treatment" docVersion="6" lastPageNumber="253" masterDocId="FFA7FFF7C04BED47BA6CFFC39E602621" masterDocTitle="Six new species and additional records of Lathrobium from the Palaearctic region" masterLastPageNumber="266" masterPageNumber="247" pageId="6" pageNumber="253" updateTime="1651688787975" updateUser="ExternalLinkService" zenodo-license-document="CC-BY-4.0">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Six new species and additional records of Lathrobium from the Palaearctic region</mods:title>
@@ -33,12 +33,13 @@
 </mods:relatedItem>
 <mods:classification>journal article</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.4507360</mods:identifier>
+<mods:identifier type="GBIF-Dataset">4eab4a56-748d-4606-b925-2c605cff7b94</mods:identifier>
 <mods:identifier type="ISSN">0253-116X</mods:identifier>
 <mods:identifier type="RefBankID">FF8EFFCCFFB76202FFF4FF8C1C7EFFEA</mods:identifier>
 <mods:identifier type="Zenodo-Dep">4507360</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:039E878FC04DED41BA8EFC2F9CDF2293" httpUri="http://treatment.plazi.org/id/039E878FC04DED41BA8EFC2F9CDF2293" lastPageNumber="253" pageId="6" pageNumber="253">
-<subSubSection pageId="6" pageNumber="253" type="nomenclature">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6518726" ID-Zenodo-Dep="6518726" LSID="urn:lsid:plazi:treatment:039E878FC04DED41BA8EFC2F9CDF2293" httpUri="http://treatment.plazi.org/id/039E878FC04DED41BA8EFC2F9CDF2293" lastPageNumber="253" pageId="6" pageNumber="253">
+<subSubSection box="[226,702,1004,1032]" pageId="6" pageNumber="253" type="nomenclature">
 <paragraph blockId="6.[226,702,1004,1032]" box="[226,702,1004,1032]" pageId="6" pageNumber="253">
 <heading bold="true" box="[226,702,1004,1032]" fontSize="10" level="2" pageId="6" pageNumber="253" reason="4">
 <taxonomicName authority="ASSING 2012" authorityName="ASSING" authorityYear="2012" box="[226,702,1004,1032]" class="Insecta" family="Staphylinidae" genus="Lathrobium" kingdom="Animalia" order="Coleoptera" pageId="6" pageNumber="253" phylum="Arthropoda" rank="species" species="inexcisum">
@@ -49,8 +50,11 @@ ASSING 2012
 </taxonomicName>
 </heading>
 </paragraph>
+</subSubSection>
+<subSubSection pageId="6" pageNumber="253" type="materials_examined">
 <paragraph blockId="6.[226,1362,1064,1119]" pageId="6" pageNumber="253">
-M a t e r i a l e x a m i n e d: 
+Material examined: 
+<materialsCitation latitude="27.533333" longitude="87.916664" pageId="6" pageNumber="253">
 <collectingCountry box="[625,694,1064,1089]" name="Nepal" pageId="6" pageNumber="253">Nepal</collectingCountry>
 : 
 <specimenCount box="[704,770,1064,1089]" pageId="6" pageNumber="253" type="generic">2 exs.</specimenCount>
@@ -58,7 +62,7 @@ M a t e r i a l e x a m i n e d:
 <collectingRegion box="[781,851,1064,1089]" country="Nepal" name="Mechi" pageId="6" pageNumber="253">Mechi</collectingRegion>
 /Taplejung, 
 <quantity box="[981,1052,1064,1089]" metricMagnitude="4" metricUnit="m" metricValue="3.2" pageId="6" pageNumber="253" unit="km" value="32.0">32 km</quantity>
-NE Taplejung, Anda Pheci- Tortung, 
+NE Taplejung, Anda Pheci-Tortung, 
 <geoCoordinate box="[384,476,1094,1119]" degrees="27" direction="north" minutes="32" orientation="latitude" pageId="6" pageNumber="253" precision="925" value="27.533333">27°32'N</geoCoordinate>
 , 
 <geoCoordinate box="[486,576,1094,1119]" degrees="87" direction="east" minutes="55" orientation="longitude" pageId="6" pageNumber="253" precision="925" value="87.916664">87°55'E</geoCoordinate>
@@ -66,12 +70,15 @@ NE Taplejung, Anda Pheci- Tortung,
 <quantity box="[586,671,1094,1119]" metricMagnitude="3" metricUnit="m" metricValue="3.19" pageId="6" pageNumber="253" unit="m" value="3190.0">3190 m</quantity>
 , rhododendron forest, 
 <date box="[915,1032,1094,1119]" pageId="6" pageNumber="253" value="2003-05-18">18.V.2003</date>
-, leg. Weigel (NME, cAss).
+, leg. Weigel (NME, 
+<collectionCode box="[1257,1314,1094,1119]" pageId="6" pageNumber="253">cAss</collectionCode>
+).
+</materialsCitation>
 </paragraph>
 </subSubSection>
-<subSubSection pageId="6" pageNumber="253" type="description">
+<subSubSection pageId="6" pageNumber="253" type="discussion">
 <paragraph blockId="6.[226,1361,1137,1202]" pageId="6" pageNumber="253">
-C o m m e n t: The known distribution of 
+Comment: The known distribution of 
 <taxonomicName authorityName="ASSING" authorityYear="2012" box="[793,954,1137,1165]" class="Insecta" family="Staphylinidae" genus="Lathrobium" kingdom="Animalia" order="Coleoptera" pageId="6" pageNumber="253" phylum="Arthropoda" rank="species" species="inexcisum">
 <emphasis box="[793,954,1137,1165]" italics="true" pageId="6" pageNumber="253">L. inexcisum</emphasis>
 </taxonomicName>

@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.4327751" ID-GBIF-Dataset="26464cf9-5139-4f0c-90ea-39e1aeb0ff36" ID-GBIF-Taxon="164712332" ID-ISSN="1639-4798" ID-Zenodo-Dep="4327751" checkinTime="1592917558271" checkinUser="tatiana" docAuthor="Pignal, Marc, Laudereau, Christian &amp; Laudereau, Pierre-Louis" docDate="2020" docId="430A87E24609FFAEFC24F90F9F8FA4B5" docLanguage="fr" docName="Adansonia.42.9.189-200.pdf.imf" docOrigin="Adansonia 42 (9)" docStyle="DocumentStyle:2FE19AC740987067EC2A6C89A85F9648.5:Adansonia.2018-.journal_article" docStyleId="2FE19AC740987067EC2A6C89A85F9648" docStyleName="Adansonia.2018-.journal_article" docStyleVersion="5" docTitle="Dendrobium crassicaule Schltr." docType="treatment" docVersion="8" lastPageId="6" lastPageNumber="193" masterDocId="BF33FF9A460CFFA8FF93FF9B9A08A358" masterDocTitle="Une espèce nouvelle du genre Dendrobium Sw. (Orchidaceae) de Nouvelle-Calédonie et une clé pour la section Kinetochilus Schltr." masterLastPageNumber="200" masterPageNumber="189" pageId="5" pageNumber="192" updateTime="1636504877992" updateUser="ExternalLinkService" zenodo-license-document="CC-BY-4.0" zenodo-license-figures="CC-BY-4.0" zenodo-license-treatments="UNSPECIFIED">
+<document ID-DOI="http://doi.org/10.5281/zenodo.4327751" ID-GBIF-Dataset="26464cf9-5139-4f0c-90ea-39e1aeb0ff36" ID-GBIF-Taxon="164712332" ID-ISSN="1639-4798" ID-Zenodo-Dep="4327751" checkinTime="1592917558271" checkinUser="tatiana" docAuthor="Pignal, Marc, Laudereau, Christian &amp; Laudereau, Pierre-Louis" docDate="2020" docId="430A87E24609FFAEFC24F90F9F8FA4B5" docLanguage="fr" docName="Adansonia.42.9.189-200.pdf.imf" docOrigin="Adansonia (3) 42 (9)" docStyle="DocumentStyle:2FE19AC740987067EC2A6C89A85F9648.8:Adansonia.2018-.journal_article" docStyleId="2FE19AC740987067EC2A6C89A85F9648" docStyleName="Adansonia.2018-.journal_article" docStyleVersion="8" docTitle="Dendrobium crassicaule Schltr." docType="treatment" docVersion="9" lastPageId="6" lastPageNumber="193" masterDocId="BF33FF9A460CFFA8FF93FF9B9A08A358" masterDocTitle="Une espèce nouvelle du genre Dendrobium Sw. (Orchidaceae) de Nouvelle-Calédonie et une clé pour la section Kinetochilus Schltr." masterLastPageNumber="200" masterPageNumber="189" pageId="5" pageNumber="192" updateTime="1651688918565" updateUser="jonas" zenodo-license-document="CC-BY-4.0" zenodo-license-figures="CC-BY-4.0" zenodo-license-treatments="UNSPECIFIED">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Une espèce nouvelle du genre Dendrobium Sw. (Orchidaceae) de Nouvelle-Calédonie et une clé pour la section Kinetochilus Schltr.</mods:title>
@@ -34,6 +34,9 @@
 </mods:titleInfo>
 <mods:part>
 <mods:date>2020</mods:date>
+<mods:detail type="series">
+<mods:title>3</mods:title>
+</mods:detail>
 <mods:detail type="pubDate">
 <mods:number>2020-06-22</mods:number>
 </mods:detail>
@@ -80,14 +83,14 @@ Schltr.
 </subSubSection>
 <subSubSection pageId="5" pageNumber="192" type="reference_group">
 <paragraph blockId="5.[813,1456,1774,1931]" pageId="5" pageNumber="192">
-<treatmentCitationGroup pageId="5" pageNumber="192">
-<treatmentCitation pageId="5" pageNumber="192">
 <bibRefCitation author="SCHLECHTER R." pageId="5" pageNumber="192" pagination="1 - 274" refId="ref9456" refString="SCHLECHTER R. 1906. - Beitrage zur Kenntnis der Flora von Neu-Kaledonien. Botanische Jahrbucher fur Systematik, Pflanzengeschichte und Pflanzengeographie 39: 1 - 274. https: // www. biodiversitylibrary. org / page / 213766" type="journal article" year="1906">
 <emphasis italics="true" pageId="5" pageNumber="192">Botanische Jahrbücher für Systematik, Pflanzengeschichte und Pflanzengeographie. Leipzig</emphasis>
 39: 75 (1906).
 </bibRefCitation>
-</treatmentCitation>
-</treatmentCitationGroup>
+</paragraph>
+</subSubSection>
+<subSubSection pageId="5" pageNumber="192" type="materials_examined">
+<paragraph blockId="5.[813,1456,1774,1931]" pageId="5" pageNumber="192">
 — Type: 
 <materialsCitation ID-GBIF-Occurrence="2640761345" collectingDate="1902-11-15" collectionCode="P" collectorName="R. Schlechter" country="New Caledonia" elevation="1200" location="Auf den Abhangen des Monts Humboldt" pageId="5" pageNumber="192" specimenCode="P00121166" specimenCount="1" typeStatus="lectotype">
 <emphasis bold="true" box="[1250,1448,1800,1824]" pageId="5" pageNumber="192">
@@ -116,10 +119,9 @@ Schltr.
 <specimenCode box="[1223,1339,1854,1878]" collectionCode="P" country="France" lsid="urn:lsid:biocol.org:col:15763" name="Museum National d' Histoire Naturelle, Paris (MNHN) - Vascular Plants" pageId="5" pageNumber="192" type="Herbarium">P00121166</specimenCode>
 ]!;
 </materialsCitation>
-<materialsCitation ID-GBIF-Occurrence="2640761306" collectingDate="1902-11-15" collectionCode="R, P, B, BM, K" collectorName="Auf den Abhangen" country="New Caledonia" elevation="1200" location="Abhangen des Monts Humboldt" pageId="5" pageNumber="192" specimenCode="P00121166, BM000505878, K001085493" specimenCount="1" typeStatus="holotype">
-isolecto-, holo- 
-<collectionCode box="[869,886,1881,1904]" country="Germany" lsid="urn:lsid:biocol.org:col:15534" name="Botanischer Garten und Botanisches Museum Berlin-Dahlem, Zentraleinrichtung der Freien Universitaet" pageId="5" pageNumber="192" type="Herbarium">B</collectionCode>
-, détruit, 
+<materialsCitation ID-GBIF-Occurrence="2640761306" collectingDate="1902-11-15" collectionCode="BM, K" collectorName="R. Schlechter" country="New Caledonia" elevation="1200" location="Auf den Abhangen des Monts Humboldt" pageId="5" pageNumber="192" specimenCode="BM000505878, K001085493" specimenCount="1" typeStatus="isolectotype">
+<typeStatus box="[1367,1451,1854,1878]" pageId="5" pageNumber="192">isolecto-</typeStatus>
+, holo- B, détruit, 
 <collectionCode box="[973,1014,1881,1904]" country="United Kingdom" name="Bristol Museum" pageId="5" pageNumber="192">BM</collectionCode>
 [
 <specimenCode box="[1019,1171,1880,1904]" collectionCode="BM" country="United Kingdom" name="Bristol Museum" pageId="5" pageNumber="192">BM000505878</specimenCode>
@@ -135,7 +137,7 @@ isolecto-, holo-
 <subSubSection box="[813,1381,1953,1980]" pageId="5" pageNumber="192" type="etymology">
 <paragraph blockId="5.[813,1381,1953,1980]" box="[813,1381,1953,1980]" pageId="5" pageNumber="192">ÉTYMOLOGIE. — L’épithète se réfère à l’épaisseur des tiges.</paragraph>
 </subSubSection>
-<subSubSection lastPageId="6" lastPageNumber="193" pageId="5" pageNumber="192" type="discussion">
+<subSubSection lastPageId="6" lastPageNumber="193" pageId="5" pageNumber="192" type="biology_ecology">
 <paragraph blockId="5.[813,1268,2004,2029]" box="[813,1268,2004,2029]" pageId="5" pageNumber="192">PHÉNOLOGIE. — Floraison d’octobre à janvier.</paragraph>
 <caption ID-DOI="http://doi.org/10.5281/zenodo.3904483" ID-Zenodo-Dep="3904483" box="[570,1020,1051,1068]" httpUri="https://zenodo.org/record/3904483/files/figure.png" pageId="6" pageNumber="193" startId="6.[570,581,1051,1068]" targetBox="[138,1449,218,1014]" targetPageId="6">
 <paragraph blockId="6.[570,1020,1051,1068]" box="[570,1020,1051,1068]" pageId="6" pageNumber="193">
@@ -149,6 +151,8 @@ Schltr.
 </paragraph>
 </caption>
 <paragraph blockId="6.[132,776,1119,1223]" pageId="6" pageNumber="193">HABITAT ET RÉPARTITION. — C’est une plante épiphyte et saxicole. Elle pousse en altitude dans les maquis élevés et dégradés. Exposition au soleil. Comme l’espèce précédente, sa répartition s’est étendue au Nord à des observations au Col des Roussettes.</paragraph>
+</subSubSection>
+<subSubSection pageId="6" pageNumber="193" type="conservation">
 <paragraph blockId="6.[132,775,1257,1335]" pageId="6" pageNumber="193">
 STATUT DE CONSERVATION. — Ce 
 <taxonomicName box="[462,581,1258,1282]" class="Liliopsida" family="Orchidaceae" genus="Dendrobium" kingdom="Plantae" order="Asparagales" pageId="6" pageNumber="193" phylum="Tracheophyta" rank="genus">
@@ -164,7 +168,7 @@ a été évalué en 2015 par la
 <subSubSection pageId="6" pageNumber="193" type="materials_examined">
 <paragraph blockId="6.[132,775,1369,2029]" lastBlockId="6.[813,1456,1119,1884]" pageId="6" pageNumber="193">
 MATÉRIEL ÉTUDIÉ. — 
-<materialsCitation ID-GBIF-Occurrence="2640761341" collectingDate="1951-07-28" collectionCode="M, G, P, Z" collectorName="Baumann-Bodenheim" country="New Caledonia" elevation="1000" latitude="-22.160084" location="Mont Mone" longLatPrecision="1" longitude="166.51353" pageId="6" pageNumber="193" specimenCode="P00124985" specimenCount="1" stateProvince="Province Sud">
+<materialsCitation ID-GBIF-Occurrence="2640761341" collectingDate="1951-07-28" collectionCode="M, P, Z" collectorName="Baumann-Bodenheim" country="New Caledonia" elevation="1000" latitude="-22.160084" location="Mont Mone" longLatPrecision="1" longitude="166.51353" pageId="6" pageNumber="193" specimenCode="P00124985" specimenCount="1" stateProvince="Province Sud">
 <emphasis bold="true" box="[356,564,1369,1393]" pageId="6" pageNumber="193">
 <collectingCountry box="[356,560,1369,1393]" name="New Caledonia" pageId="6" pageNumber="193">Nouvelle-Calédonie</collectingCountry>
 .
@@ -187,9 +191,7 @@ MATÉRIEL ÉTUDIÉ. —
 , 
 <emphasis box="[132,451,1422,1446]" italics="true" pageId="6" pageNumber="193">
 <collectionCode box="[132,157,1423,1446]" country="Germany" lsid="urn:lsid:biocol.org:col:15637" name="Botanische Staatssammlung München" pageId="6" pageNumber="193" type="Herbarium">M</collectionCode>
-. 
-<collectionCode box="[161,180,1423,1446]" country="Switzerland" lsid="urn:lsid:biocol.org:col:15706" name="Conservatoire et Jardin botaniques de la Ville de Genève" pageId="6" pageNumber="193" type="Herbarium">G</collectionCode>
-. 
+.G. 
 <collectorName box="[187,385,1422,1446]" pageId="6" pageNumber="193">Baumann-Bodenheim</collectorName>
 14869
 </emphasis>
@@ -202,7 +204,7 @@ MATÉRIEL ÉTUDIÉ. —
 [Z-000045384] non vu
 </materialsCitation>
 ; 
-<materialsCitation ID-GBIF-Occurrence="2640761375" collectingDate="1951-11-06" collectionCode="M, G, P, Z" collectorName="Baumann-Bodenheim" country="New Caledonia" elevation="900" latitude="-22.1815" location="Mont Bouo" longLatPrecision="1" longitude="166.5154" pageId="6" pageNumber="193" specimenCode="P00124984" specimenCount="1" stateProvince="Province Sud">
+<materialsCitation ID-GBIF-Occurrence="2640761375" collectingDate="1951-11-06" collectionCode="M, P, Z" collectorName="Baumann-Bodenheim" country="New Caledonia" elevation="900" latitude="-22.1815" location="Mont Bouo" longLatPrecision="1" longitude="166.5154" pageId="6" pageNumber="193" specimenCode="P00124984" specimenCount="1" stateProvince="Province Sud">
 <location LSID="urn:lsid:plazi:treatment:430A87E24609FFAEFC24F90F9F8FA4B5:CE7C602F460AFFAEFF72FA319B56A699" box="[225,350,1450,1473]" country="New Caledonia" latitude="-22.1815" longLatPrecision="1" longitude="166.5154" name="Mont Bouo" pageId="6" pageNumber="193" stateProvince="Province Sud">Mont Bouo</location>
 , 
 <quantity box="[362,433,1449,1473]" metricMagnitude="2" metricUnit="m" metricValue="9.0" pageId="6" pageNumber="193" unit="m" value="900.0">
@@ -219,9 +221,7 @@ MATÉRIEL ÉTUDIÉ. —
 , fl., 
 <emphasis box="[286,614,1475,1500]" italics="true" pageId="6" pageNumber="193">
 <collectionCode box="[286,312,1476,1499]" country="Germany" lsid="urn:lsid:biocol.org:col:15637" name="Botanische Staatssammlung München" pageId="6" pageNumber="193" type="Herbarium">M</collectionCode>
-. 
-<collectionCode box="[315,335,1476,1499]" country="Switzerland" lsid="urn:lsid:biocol.org:col:15706" name="Conservatoire et Jardin botaniques de la Ville de Genève" pageId="6" pageNumber="193" type="Herbarium">G</collectionCode>
-. 
+.G. 
 <collectorName box="[342,546,1475,1499]" pageId="6" pageNumber="193">Baumann-Bodenheim</collectorName>
 15775
 </emphasis>
@@ -416,7 +416,7 @@ ultramafique, [
 ]
 </materialsCitation>
 ; 
-<materialsCitation ID-GBIF-Occurrence="2640761314" collectingDate="2009-11-02" collectionCode="C, G, M, NOU" collectorName="Grignon &amp; Dagostini &amp; Le Corre &amp; D. Garnier" country="New Caledonia" latitude="-21.960835" location="Substrat" longLatPrecision="21" longitude="166.53389" municipality="Kouakoue" pageId="6" pageNumber="193" specimenCode="NOU052703" specimenCount="1" stateProvince="Province Sud">
+<materialsCitation ID-GBIF-Occurrence="2640761314" collectingDate="2009-11-02" collectionCode="C, M, NOU" collectorName="Grignon &amp; Dagostini &amp; Le Corre &amp; D. Garnier" country="New Caledonia" latitude="-21.960835" location="Substrat" longLatPrecision="21" longitude="166.53389" municipality="Kouakoue" pageId="6" pageNumber="193" specimenCode="NOU052703" specimenCount="1" stateProvince="Province Sud">
 <collectingMunicipality box="[423,530,1846,1870]" pageId="6" pageNumber="193">Kouakoué</collectingMunicipality>
 , forêt humide. 
 <location LSID="urn:lsid:plazi:treatment:430A87E24609FFAEFC24F90F9F8FA4B5:CE7C602F460AFFAEFD27F8AD990FA416" box="[692,775,1846,1870]" country="New Caledonia" latitude="-21.960835" longLatPrecision="21" longitude="166.53389" municipality="Kouakoue" name="Substrat" pageId="6" pageNumber="193" stateProvince="Province Sud">Substrat</location>
@@ -433,9 +433,7 @@ ultramafique, [
 <collectionCode box="[662,681,1873,1896]" country="Denmark" name="University of Copenhagen" pageId="6" pageNumber="193" type="Herbarium">C</collectionCode>
 . 
 <collectorName box="[690,772,1873,1896]" pageId="6" pageNumber="193">Grignon</collectorName>
-, 
-<collectionCode box="[132,152,1899,1922]" country="Switzerland" lsid="urn:lsid:biocol.org:col:15706" name="Conservatoire et Jardin botaniques de la Ville de Genève" pageId="6" pageNumber="193" type="Herbarium">G</collectionCode>
-. 
+, G. 
 <collectorName box="[161,253,1899,1922]" pageId="6" pageNumber="193">Dagostini</collectorName>
 , 
 <collectionCode box="[261,286,1899,1922]" country="Germany" lsid="urn:lsid:biocol.org:col:15637" name="Botanische Staatssammlung München" pageId="6" pageNumber="193" type="Herbarium">M</collectionCode>
