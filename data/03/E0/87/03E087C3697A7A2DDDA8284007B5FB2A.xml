@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.4507307" ID-ISSN="0253-116X" ID-RefBankID="1643FFB2ED42FFC2FFE4FFE28E27FFAF" ID-Zenodo-Dep="4507307" approvalRequired="13" approvalRequired_for_textStreams="8" approvalRequired_for_treatments="5" checkinTime="1612537541968" checkinUser="felipe" docAuthor="Assing, V." docDate="2013" docId="03E087C3697A7A2DDDA8284007B5FB2A" docLanguage="en" docName="LinzerbiolBeitr.45.1.0171-0190.pdf" docOrigin="Linzer biologische Beiträge 45 (1)" docStyle="DocumentStyle:24E5EB772D355DE2EE23B1E8D07853E0.5:LinzerbiolBeitr.2006-.journal_article" docStyleId="24E5EB772D355DE2EE23B1E8D07853E0" docStyleName="LinzerbiolBeitr.2006-.journal_article" docStyleVersion="5" docTitle="Rugilus (Eurystilicus) rufescens SHARP 1874" docType="treatment" docVersion="3" lastPageNumber="185" masterDocId="FFD9FFBB69747A23DD0B2B5B0548FFA4" masterDocTitle="A revision of Palaearctic and Oriental Rugilus. III. Five new species from the Palaearctic region and additional records (Coleoptera: Staphylinidae: Paederinae)" masterLastPageNumber="190" masterPageNumber="171" pageId="14" pageNumber="185" updateTime="1612561789597" updateUser="ExternalLinkService" zenodo-license-document="CC-BY-4.0">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6521077" ID-GBIF-Dataset="72a1f456-f29c-471e-baf8-6c026cc900a1" ID-ISSN="0253-116X" ID-RefBankID="1643FFB2ED42FFC2FFE4FFE28E27FFAF" ID-Zenodo-Dep="6521077" checkinTime="1612537541968" checkinUser="felipe" docAuthor="Assing, V." docDate="2013" docId="03E087C3697A7A2DDDA8284007B5FB2A" docLanguage="en" docName="LinzerbiolBeitr.45.1.0171-0190.pdf" docOrigin="Linzer biologische Beiträge 45 (1)" docStyle="DocumentStyle:24E5EB772D355DE2EE23B1E8D07853E0.8:LinzerbiolBeitr.2006-.journal_article" docStyleId="24E5EB772D355DE2EE23B1E8D07853E0" docStyleName="LinzerbiolBeitr.2006-.journal_article" docStyleVersion="8" docTitle="Rugilus (Eurystilicus) rufescens" docType="treatment" docVersion="6" lastPageNumber="185" masterDocId="FFD9FFBB69747A23DD0B2B5B0548FFA4" masterDocTitle="A revision of Palaearctic and Oriental Rugilus. III. Five new species from the Palaearctic region and additional records (Coleoptera: Staphylinidae: Paederinae)" masterLastPageNumber="190" masterPageNumber="171" pageId="14" pageNumber="185" updateTime="1651754570138" updateUser="ExternalLinkService" zenodo-license-document="CC-BY-4.0">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>A revision of Palaearctic and Oriental Rugilus. III. Five new species from the Palaearctic region and additional records (Coleoptera: Staphylinidae: Paederinae)</mods:title>
@@ -33,12 +33,13 @@
 </mods:relatedItem>
 <mods:classification>journal article</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.4507307</mods:identifier>
+<mods:identifier type="GBIF-Dataset">72a1f456-f29c-471e-baf8-6c026cc900a1</mods:identifier>
 <mods:identifier type="ISSN">0253-116X</mods:identifier>
 <mods:identifier type="RefBankID">1643FFB2ED42FFC2FFE4FFE28E27FFAF</mods:identifier>
 <mods:identifier type="Zenodo-Dep">4507307</mods:identifier>
 <mods:identifier type="ZooBank">8683FCEB-A495-4147-A79E-996E04C23526</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:03E087C3697A7A2DDDA8284007B5FB2A" httpUri="http://treatment.plazi.org/id/03E087C3697A7A2DDDA8284007B5FB2A" lastPageNumber="185" pageId="14" pageNumber="185">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6521077" ID-Zenodo-Dep="6521077" LSID="urn:lsid:plazi:treatment:03E087C3697A7A2DDDA8284007B5FB2A" httpUri="http://treatment.plazi.org/id/03E087C3697A7A2DDDA8284007B5FB2A" lastPageNumber="185" pageId="14" pageNumber="185">
 <subSubSection pageId="14" pageNumber="185" type="nomenclature">
 <paragraph blockId="14.[163,648,795,818]" box="[163,648,795,818]" pageId="14" pageNumber="185">
 <heading box="[163,648,795,818]" fontSize="8" level="2" pageId="14" pageNumber="185" reason="2">
@@ -93,7 +94,9 @@ M a t e r i a l e x a m i n e d:
 </date>
 , leg. 
 <collectorName box="[362,411,889,909]" pageId="14" pageNumber="185">Bolm</collectorName>
-(cAss). 
+(
+<collectionCode box="[426,472,889,909]" pageId="14" pageNumber="185">cAss</collectionCode>
+). 
 <collectingCountry box="[491,537,889,909]" name="Laos" pageId="14" pageNumber="185">Laos</collectingCountry>
 : 
 <specimenCount box="[548,602,889,909]" pageId="14" pageNumber="185" type="generic">6 exs.</specimenCount>
@@ -163,10 +166,12 @@ NE Ban Nape
 </date>
 , leg. 
 <collectorName box="[1012,1070,958,978]" pageId="14" pageNumber="185">Kubaň</collectorName>
-(cAss)
+(
+<collectionCode box="[215,261,982,1002]" pageId="14" pageNumber="185">cAss</collectionCode>
+)
 </materialsCitation>
 ; 
-<materialsCitation collectingDate="2009-05-10" collectingDateMax="2009-05-30" collectingDateMin="2009-05-10" collectionCode="NHMB" collectorName="Kraus" country="Laos" elevation="1450" location="Phou Sane mountain" longitude="103.333336" pageId="14" pageNumber="185" specimenCount="1" stateProvince="Xiangkhouang">
+<materialsCitation collectingDate="2009-05-10" collectingDateMax="2009-05-30" collectingDateMin="2009-05-10" collectionCode="NHMB" collectorName="Kraus" country="Laos" elevation="1450" latitude="19.6167" location="Phou Sane mountain" longitude="103.333336" pageId="14" pageNumber="185" specimenCount="1" stateProvince="Xiangkhouang">
 <specimenCount box="[277,323,982,1002]" pageId="14" pageNumber="185" type="generic">1 ex.</specimenCount>
 , 
 <collectingRegion box="[332,556,982,1002]" country="Laos" name="Xiangkhouang" pageId="14" pageNumber="185">Xieng Khouang province</collectingRegion>
@@ -177,7 +182,9 @@ NE Phonsavan
 </locationDeviation>
 , 
 <location LSID="urn:lsid:plazi:treatment:03E087C3697A7A2DDDA8284007B5FB2A:8E96600E697A7A2DDE08288D06F4FC4E" box="[771,956,982,1002]" country="Laos" longitude="103.333336" name="Phou Sane mountain" pageId="14" pageNumber="185" stateProvince="Xiangkhouang">Phou Sane mountain</location>
-, 19°37-38'N, 
+, 
+<geoCoordinate box="[965,1017,982,1002]" degrees="19" direction="north" minutes="37" orientation="latitude" pageId="14" pageNumber="185" value="19.6167">19°37</geoCoordinate>
+-38'N, 
 <geoCoordinate box="[208,290,1005,1025]" degrees="103" direction="east" minutes="20" orientation="longitude" pageId="14" pageNumber="185" precision="925" value="103.333336">103°20'E</geoCoordinate>
 , 
 <quantity box="[302,424,1005,1025]" metricMagnitude="3" metricUnit="m" metricValue="1.45" metricValueMax="1.5" metricValueMin="1.4" pageId="14" pageNumber="185" unit="m" value="1450.0" valueMax="1500.0" valueMin="1400.0">
@@ -198,8 +205,8 @@ NE Phonsavan
 <specimenCount box="[773,821,1005,1025]" pageId="14" pageNumber="185" type="generic">1 ex.</specimenCount>
 , 
 <collectingRegion box="[833,1004,1005,1025]" country="Laos" name="Viangchan" pageId="14" pageNumber="185">Vientiane province</collectingRegion>
-, Vang- 
-<location LSID="urn:lsid:plazi:treatment:03E087C3697A7A2DDDA8284007B5FB2A:8E96600E697A7A2DDDDB2F5F0440FBBC" box="[208,264,1028,1048]" country="Laos" latitude="18.916666" longLatPrecision="1273" longitude="102.45" name="Vieng" pageId="14" pageNumber="185" stateProvince="Viangchan">Vieng</location>
+, 
+<location LSID="urn:lsid:plazi:treatment:03E087C3697A7A2DDDA8284007B5FB2A:8E96600E697A7A2DDDDB2F5F0440FBBC" box="[208,264,1028,1048]" country="Laos" latitude="18.916666" longLatPrecision="1273" longitude="102.45" name="Vieng" pageId="14" pageNumber="185" stateProvince="Viangchan">Vang-Vieng</location>
 , 
 <geoCoordinate box="[274,347,1028,1048]" degrees="18" direction="north" minutes="55" orientation="latitude" pageId="14" pageNumber="185" precision="925" value="18.916666">18°55'N</geoCoordinate>
 , 
@@ -235,7 +242,9 @@ Sano Mai,
 </date>
 , leg. 
 <collectorName box="[765,824,1051,1071]" pageId="14" pageNumber="185">Kubaň</collectorName>
-(cAss)
+(
+<collectionCode box="[836,882,1051,1071]" pageId="14" pageNumber="185">cAss</collectionCode>
+)
 </materialsCitation>
 .
 </paragraph>
