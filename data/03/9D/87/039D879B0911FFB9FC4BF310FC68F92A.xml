@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.5209422" ID-ISSN="1639-4798" ID-Zenodo-Dep="5209422" approvalRequired="47" approvalRequired_for_textStreams="42" approvalRequired_for_treatments="5" checkinTime="1629155395149" checkinUser="carolina" docAuthor="Vandrot, Hervé" docDate="2018" docId="039D879B0911FFB9FC4BF310FC68F92A" docLanguage="fr" docName="Adansonia.40.8.103-129.pdf" docOrigin="Adansonia (3) 40 (8)" docStyle="DocumentStyle:2FE19AC740987067EC2A6C89A85F9648.8:Adansonia.2018-.journal_article" docStyleId="2FE19AC740987067EC2A6C89A85F9648" docStyleName="Adansonia.2018-.journal_article" docStyleVersion="8" docTitle="Arthroclianthus macrophyllus Schindl." docType="treatment" docVersion="3" lastPageNumber="116" masterDocId="FFA4FFE3091EFFB6FFD5F623FF94FFA6" masterDocTitle="Nomenclature des genres néo-calédoniens Arthroclianthus Baill. et Nephrodesmus Schindl. (Fabaceae-Desmodieae)" masterLastPageNumber="129" masterPageNumber="103" pageId="15" pageNumber="116" updateTime="1651709296261" updateUser="jonas" zenodo-license-document="CC-BY-4.0">
+<document ID-DOI="http://doi.org/10.5281/zenodo.5209422" ID-ISSN="1639-4798" ID-Zenodo-Dep="5209422" checkinTime="1629155395149" checkinUser="carolina" docAuthor="Vandrot, Hervé" docDate="2018" docId="039D879B0911FFB9FC4BF310FC68F92A" docLanguage="fr" docName="Adansonia.40.8.103-129.pdf" docOrigin="Adansonia (3) 40 (8)" docStyle="DocumentStyle:2FE19AC740987067EC2A6C89A85F9648.8:Adansonia.2018-.journal_article" docStyleId="2FE19AC740987067EC2A6C89A85F9648" docStyleName="Adansonia.2018-.journal_article" docStyleVersion="8" docTitle="Arthroclianthus macrophyllus Schindl." docType="treatment" docVersion="4" lastPageNumber="116" masterDocId="FFA4FFE3091EFFB6FFD5F623FF94FFA6" masterDocTitle="Nomenclature des genres néo-calédoniens Arthroclianthus Baill. et Nephrodesmus Schindl. (Fabaceae-Desmodieae)" masterLastPageNumber="129" masterPageNumber="103" pageId="15" pageNumber="116" updateTime="1651770183174" updateUser="jonas" zenodo-license-document="CC-BY-4.0">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Nomenclature des genres néo-calédoniens Arthroclianthus Baill. et Nephrodesmus Schindl. (Fabaceae-Desmodieae)</mods:title>
@@ -42,6 +42,7 @@
 <mods:identifier type="Zenodo-Dep">5209390</mods:identifier>
 </mods:mods>
 <treatment ID-DOI="http://doi.org/10.5281/zenodo.5209422" ID-Zenodo-Dep="5209422" LSID="urn:lsid:plazi:treatment:039D879B0911FFB9FC4BF310FC68F92A" httpUri="http://treatment.plazi.org/id/039D879B0911FFB9FC4BF310FC68F92A" lastPageNumber="116" pageId="15" pageNumber="116">
+<subSubSection box="[926,1343,1331,1358]" pageId="15" pageNumber="116" type="nomenclature">
 <paragraph blockId="15.[926,1343,1331,1358]" box="[926,1343,1331,1358]" pageId="15" pageNumber="116">
 <heading box="[926,1343,1331,1358]" centered="true" fontSize="11" level="2" pageId="15" pageNumber="116" reason="7">
 <taxonomicName authority="Schindl." box="[926,1343,1331,1358]" class="Magnoliopsida" family="Fabaceae" genus="Arthroclianthus" kingdom="Plantae" order="Fabales" pageId="15" pageNumber="116" phylum="Tracheophyta" rank="species" species="macrophyllus">
@@ -50,23 +51,31 @@ Schindl.
 </taxonomicName>
 </heading>
 </paragraph>
+</subSubSection>
+<subSubSection pageId="15" pageNumber="116" type="reference_group">
 <paragraph blockId="15.[811,1456,1388,1492]" pageId="15" pageNumber="116">
-<bibCitation journal="In Repertorium Specierum Novarum Regni Vegetabilis" page="18" pageId="15" pageNumber="116" score="144525.6004526838" volume="21" year="1925">
+<bibRefCitation author="SCHINDLER A. K." journalOrPublisher="Repertorium Specierum Novarum Regni Vegetabilis" pageId="15" pageNumber="116" pagination="16 - 21" part="21" refId="ref9912" refString="SCHINDLER A. K. 1925. - Desmodii generumque affinium species et combinationes novae I. Repertorium Specierum Novarum Regni Vegetabilis 21 (1 - 7): 16 - 21. https: // doi. org / 10.1002 / fedr. 19250210102" title="Desmodii generumque affinium species et combinationes novae I" type="journal article" year="1925">
+<bibCitation journal="Repertorium Specierum Novarum Regni Vegetabilis" page="18" pageId="15" pageNumber="116" score="144525.6004526838" volume="21" year="1925">
 <emphasis box="[835,1378,1388,1412]" italics="true" pageId="15" pageNumber="116">In Repertorium Specierum Novarum Regni Vegetabilis</emphasis>
-<materialsCitation collectionCode="P, US, Z" collectorName="de Uarai" country="New Caledonia" elevation="500" location="Foret de Uarai" pageId="15" pageNumber="116" specimenCode="P02296490, US00902296" specimenCount="1" typeStatus="holotype">21: 18 (1925)</materialsCitation>
+21: 18 (1925)
 </bibCitation>
-. — 
+</bibRefCitation>
+.
+</paragraph>
+</subSubSection>
+<subSubSection pageId="15" pageNumber="116" type="materials_examined">
+<paragraph blockId="15.[811,1456,1388,1492]" pageId="15" pageNumber="116">
+— 
 <typeStatus box="[920,968,1415,1439]" pageId="15" pageNumber="116">Type</typeStatus>
 : 
+<materialsCitation collectionCode="P" collectorName="Lecard" country="New Caledonia" elevation="500" location="Foret de Uarai" pageId="15" pageNumber="116" specimenCode="P02296490" specimenCount="1" stateProvince="Prov. Nord" typeStatus="holotype">
 <emphasis bold="true" box="[979,1186,1415,1440]" pageId="15" pageNumber="116">
 <collectingCountry box="[979,1177,1416,1440]" name="New Caledonia" pageId="15" pageNumber="116">Nouvelle-Calédonie</collectingCountry>
 .
 </emphasis>
-Prov. Nord: 
-<location LSID="urn:lsid:plazi:treatment:039D879B0911FFB9FC4BF310FC68F92A:8EEB60560911FFB9FACAF3A4FA38FA39" box="[1311,1452,1415,1439]" country="New Caledonia" name="Foret de Uarai" pageId="15" pageNumber="116">
-Forêt 
-<collectorName box="[1367,1452,1415,1439]" pageId="15" pageNumber="116">de Uarai</collectorName>
-</location>
+<collectingRegion box="[1191,1297,1415,1439]" pageId="15" pageNumber="116">Prov. Nord</collectingRegion>
+: 
+<location LSID="urn:lsid:plazi:treatment:039D879B0911FFB9FC4BF310FC68F92A:8EEB60560911FFB9FACAF3A4FA38FA39" box="[1311,1452,1415,1439]" country="New Caledonia" name="Foret de Uarai" pageId="15" pageNumber="116" stateProvince="Prov. Nord">Forêt de Uarai</location>
 , 
 <quantity box="[811,876,1441,1465]" metricMagnitude="2" metricUnit="m" metricValue="5.0" pageId="15" pageNumber="116" unit="m" value="500.0">
 <elevation box="[811,876,1441,1465]" metricMagnitude="2" metricUnit="m" metricValue="5.0" pageId="15" pageNumber="116" unit="m" value="500.0">500 m</elevation>
@@ -74,24 +83,44 @@ Forêt
 , 
 <emphasis box="[884,909,1441,1465]" italics="true" pageId="15" pageNumber="116">s.d</emphasis>
 ., fl., fr., 
-<emphasis box="[988,1089,1441,1465]" italics="true" pageId="15" pageNumber="116">Lécard s.n.</emphasis>
-(holo 
+<emphasis box="[988,1089,1441,1465]" italics="true" pageId="15" pageNumber="116">
+<collectorName box="[988,1050,1441,1465]" pageId="15" pageNumber="116">Lécard</collectorName>
+s.n.
+</emphasis>
+(
+<typeStatus box="[1100,1145,1441,1465]" pageId="15" pageNumber="116">holo</typeStatus>
 <emphasis bold="true" box="[1145,1159,1441,1465]" pageId="15" pageNumber="116">-,</emphasis>
-P[
+<collectionCode box="[1164,1180,1442,1465]" pageId="15" pageNumber="116">P</collectionCode>
+[
 <specimenCode box="[1186,1300,1441,1465]" collectionCode="P" country="France" lsid="urn:lsid:biocol.org:col:15763" name="Museum National d' Histoire Naturelle, Paris (MNHN) - Vascular Plants" pageId="15" pageNumber="116" type="Herbarium">P02296490</specimenCode>
 ]!, 
 <figureCitation box="[1325,1392,1441,1465]" captionStart="FIG" captionStartId="20.[517,528,2007,2025]" captionTargetBox="[212,1376,215,1975]" captionTargetId="figure-37@20.[212,1376,212,1975]" captionTargetPageId="20" captionText="FIG. 13. — Holotype de Arthroclianthus macrophyllus (P02296490)." figureDoi="http://doi.org/10.5281/zenodo.5209426" httpUri="https://zenodo.org/record/5209426/files/figure.png" pageId="15" pageNumber="116">Fig. 13</figureCitation>
-); iso 
+)
+</materialsCitation>
+; 
+<materialsCitation collectionCode="US, Z" collectorName="Lecard" country="New Caledonia" elevation="500" location="Foret de Uarai" pageId="15" pageNumber="116" specimenCode="US00902296, Z-000025183" specimenCount="1" stateProvince="Prov. Nord" typeStatus="isotype">
+<typeStatus box="[1414,1441,1441,1465]" pageId="15" pageNumber="116">iso</typeStatus>
 <emphasis bold="true" box="[1441,1449,1441,1465]" pageId="15" pageNumber="116">-</emphasis>
-, US[
+, 
+<collectionCode box="[813,846,1468,1492]" pageId="15" pageNumber="116">US</collectionCode>
+[
 <specimenCode box="[852,985,1468,1492]" collectionCode="US" country="South Africa" name="University of Stellenbosch" pageId="15" pageNumber="116">US00902296</specimenCode>
-] scan!; Z[Z-000025183]!).
+] scan!; 
+<collectionCode box="[1062,1080,1468,1491]" pageId="15" pageNumber="116">Z</collectionCode>
+[
+<specimenCode box="[1087,1225,1467,1491]" pageId="15" pageNumber="116">Z-000025183</specimenCode>
+]!)
+</materialsCitation>
+.
 </paragraph>
+</subSubSection>
+<subSubSection pageId="15" pageNumber="116" type="discussion">
 <paragraph blockId="15.[811,1456,1523,1677]" box="[813,877,1523,1549]" pageId="15" pageNumber="116">NOTE</paragraph>
 <paragraph blockId="15.[811,1456,1523,1677]" pageId="15" pageNumber="116">
 Il n’existe aucune collection récente de la localité 
 <typeStatus box="[1333,1382,1555,1581]" pageId="15" pageNumber="116">type</typeStatus>
 , ni faisant référence à cette espèce, qui reste insuffisamment connue et nécessitera de plus amples recherches sur le terrain, dans sa région d’origine.
 </paragraph>
+</subSubSection>
 </treatment>
 </document>
