@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.3815256" ID-GBIF-Dataset="4edbdeb0-1bf3-40f0-b739-3efe9e466e23" ID-GBIF-Taxon="163977286" ID-ISSN="2118-9773" ID-Zenodo-Dep="3815256" ID-ZooBank="5FA15797-9B96-404A-ADA9-486486ED9609" approvalRequired="11" approvalRequired_for_document="1" approvalRequired_for_textStreams="10" checkinTime="1588881428965" checkinUser="carolina" docAuthor="Germann, Christoph" docDate="2013" docId="03DCCD52FF9B6E419475CE76BF41E5A4" docLanguage="en" docName="ejt-2013-46.pdf.imf" docOrigin="European Journal of Taxonomy 46" docStyle="DocumentStylede.uka.ipd.idaho.easyIO.settings.Settings@1d6aa3ad" docStyleName="ejt.v2_0.2018_backlog.journal_article" docTitle="Dichorrhinus freyi F. Solari 1940" docType="treatment" docVersion="4" lastPageNumber="10" masterDocId="FFE5B52AFF926E48963BCC32BA28E61F" masterDocTitle="A review of Dichorrhinus Desbrochers, 1875 (Coleoptera, Curculionidae) with two new species from Greece and Turkey, and from Cyprus" masterLastPageNumber="13" masterPageNumber="1" pageId="9" pageNumber="10" updateTime="1643537750204" updateUser="ExternalLinkService" zenodo-license-document="CC-BY-3.0" zenodo-license-figures="CC-BY-3.0" zenodo-license-treatments="UNSPECIFIED">
+<document ID-DOI="http://doi.org/10.5281/zenodo.3815256" ID-GBIF-Dataset="4edbdeb0-1bf3-40f0-b739-3efe9e466e23" ID-GBIF-Taxon="163977286" ID-ISSN="2118-9773" ID-Zenodo-Dep="3815256" ID-ZooBank="5FA15797-9B96-404A-ADA9-486486ED9609" approvalRequired="11" approvalRequired_for_document="1" approvalRequired_for_textStreams="10" checkinTime="1588881428965" checkinUser="carolina" docAuthor="Germann, Christoph" docDate="2013" docId="03DCCD52FF9B6E419475CE76BF41E5A4" docLanguage="en" docName="ejt-2013-46.pdf.imf" docOrigin="European Journal of Taxonomy 46 (46)" docStyle="DocumentStyle:EF2B578F1D15862ADE45B0C07C620911.14:EJT.2018-.journal_article" docStyleId="EF2B578F1D15862ADE45B0C07C620911" docStyleName="EJT.2018-.journal_article" docStyleVersion="14" docTitle="Dichorrhinus freyi F. Solari 1940" docType="treatment" docVersion="5" lastPageNumber="10" masterDocId="FFE5B52AFF926E48963BCC32BA28E61F" masterDocTitle="A review of Dichorrhinus Desbrochers, 1875 (Coleoptera, Curculionidae) with two new species from Greece and Turkey, and from Cyprus" masterLastPageNumber="13" masterPageNumber="1" pageId="9" pageNumber="10" updateTime="1651765955890" updateUser="carolina" zenodo-license-document="CC-BY-3.0" zenodo-license-figures="CC-BY-3.0" zenodo-license-treatments="UNSPECIFIED">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>A review of Dichorrhinus Desbrochers, 1875 (Coleoptera, Curculionidae) with two new species from Greece and Turkey, and from Cyprus</mods:title>
@@ -18,6 +18,9 @@
 <mods:date>2013</mods:date>
 <mods:detail type="pubDate">
 <mods:number>2013-06-07</mods:number>
+</mods:detail>
+<mods:detail type="volume">
+<mods:number>46</mods:number>
 </mods:detail>
 <mods:detail type="issue">
 <mods:number>46</mods:number>
@@ -97,6 +100,7 @@ sign]
 ).
 </paragraph>
 </materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="2610780301" collectionCode="NMB" collectorName="G. Frey" determinerName="F. Solari" location="Dichorrhinus Freyi" municipality="Cirene" pageId="9" pageNumber="10" specimenCount="5" specimenCount-female="1" specimenCount-male="4" typeStatus="paratype">
 <paragraph blockId="9.[189,1385,894,955]" box="[234,359,894,920]" pageId="9" pageNumber="10">
 <emphasis bold="true" box="[234,359,894,920]" pageId="9" pageNumber="10">
 <typeStatus box="[234,359,894,920]" pageId="9" pageNumber="10">Paratypes</typeStatus>
@@ -109,14 +113,20 @@ sign]
 , same data as 
 <typeStatus box="[484,587,929,955]" pageId="9" pageNumber="10">holotype</typeStatus>
 (
-<collectionCode box="[602,675,929,955]" country="Switzerland" httpUri="http://grbio.org/cool/8wbz-jkc3" name="Naturhistorishes Museum" pageId="9" pageNumber="10">NMB</collectionCode>
+<collectionCode box="[602,675,929,955]" collectionName="Zimbabwe, Bulawayo, Natural History Museum of Zimbabwe" country="Switzerland" httpUri="http://grbio.org/cool/8wbz-jkc3" name="Naturhistorishes Museum" pageId="9" pageNumber="10">NMB</collectionCode>
 ); 
+<materialsCitation box="[696,1385,928,955]" collectionCode="LIBYA" location="Ras El Hilal P. Weill" pageId="9" pageNumber="10" specimenCode="LIBYA 27" specimenCount="1" specimenCount-female="1">
 <specimenCount box="[696,740,929,955]" pageId="9" pageNumber="10" type="female">1 ♀</specimenCount>
 , “ 
-<collectingCountry box="[764,852,929,955]" name="Libya" pageId="9" pageNumber="10">LIBYA</collectingCountry>
+<specimenCode box="[764,889,928,955]" pageId="9" pageNumber="10">
+LIBYA 
 <date box="[859,992,928,955]" pageId="9" pageNumber="10" value="2005-03-27">27.III.2005</date>
-Ras El Hilal P. Weill lgt.“ (cRB).
+</specimenCode>
+<location LSID="urn:lsid:plazi:treatment:03DCCD52FF9B6E419475CE76BF41E5A4:8EAA2A9FFF9B6E4195DCCF93BEF0E5A4" box="[999,1240,929,955]" name="Ras El Hilal P. Weill" pageId="9" pageNumber="10">Ras El Hilal P. Weill</location>
+lgt.“ (cRB).
+</materialsCitation>
 </paragraph>
+</materialsCitation>
 </subSubSection>
 </treatment>
 </document>
