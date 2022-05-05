@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.3852586" ID-GBIF-Dataset="37e33fa8-2cb4-4693-86c6-77bb430b5baa" ID-GBIF-Taxon="164248126" ID-ISSN="2118-9773" ID-Zenodo-Dep="3852586" ID-ZooBank="D58FA727-9A10-4023-B178-9E6CCD1EA457" approvalRequired="3" approvalRequired_for_bibRefs="1" approvalRequired_for_document="2" checkinTime="1590097503938" checkinUser="tatiana" docAuthor="Yoshitomi, Hiroyuki" docDate="2014" docId="03933D4C204AFFA16D4A8778FC0AFA9C" docLanguage="en" docName="ejt-2014-97.pdf.imf" docOrigin="European Journal of Taxonomy 97" docStyle="DocumentStyle:EF2B578F1D15862ADE45B0C07C620911.12:EJT.2018-.journal_article" docStyleId="EF2B578F1D15862ADE45B0C07C620911" docStyleName="EJT.2018-.journal_article" docStyleVersion="12" docTitle="Laius submariniformis Wittmer 1985" docType="treatment" docVersion="5" lastPageId="19" lastPageNumber="20" masterDocId="FFAA45342058FFB26F7D8673FFDAFF82" masterDocTitle="Comparative morphology of the endophallic structures of the genus Laius (Coleoptera, Melyridae), with the descriptions of three new species" masterLastPageNumber="29" masterPageNumber="1" pageId="18" pageNumber="19" updateTime="1636531509315" updateUser="ExternalLinkService" zenodo-license-document="CC-BY-3.0" zenodo-license-figures="CC-BY-3.0" zenodo-license-treatments="UNSPECIFIED">
+<document ID-DOI="http://doi.org/10.5281/zenodo.3852586" ID-GBIF-Dataset="37e33fa8-2cb4-4693-86c6-77bb430b5baa" ID-GBIF-Taxon="164248126" ID-ISSN="2118-9773" ID-Zenodo-Dep="3852586" ID-ZooBank="D58FA727-9A10-4023-B178-9E6CCD1EA457" approvalRequired="3" approvalRequired_for_bibRefs="1" approvalRequired_for_document="2" checkinTime="1590097503938" checkinUser="tatiana" docAuthor="Yoshitomi, Hiroyuki" docDate="2014" docId="03933D4C204AFFA16D4A8778FC0AFA9C" docLanguage="en" docName="ejt-2014-97.pdf.imf" docOrigin="European Journal of Taxonomy 97" docStyle="DocumentStyle:EF2B578F1D15862ADE45B0C07C620911.14:EJT.2018-.journal_article" docStyleId="EF2B578F1D15862ADE45B0C07C620911" docStyleName="EJT.2018-.journal_article" docStyleVersion="14" docTitle="Laius submariniformis Wittmer 1985" docType="treatment" docVersion="6" lastPageId="19" lastPageNumber="20" masterDocId="FFAA45342058FFB26F7D8673FFDAFF82" masterDocTitle="Comparative morphology of the endophallic structures of the genus Laius (Coleoptera, Melyridae), with the descriptions of three new species" masterLastPageNumber="29" masterPageNumber="1" pageId="18" pageNumber="19" updateTime="1651768973477" updateUser="carolina" zenodo-license-document="CC-BY-3.0" zenodo-license-figures="CC-BY-3.0" zenodo-license-treatments="UNSPECIFIED">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Comparative morphology of the endophallic structures of the genus Laius (Coleoptera, Melyridae), with the descriptions of three new species</mods:title>
@@ -19,7 +19,7 @@
 <mods:detail type="pubDate">
 <mods:number>2014-09-25</mods:number>
 </mods:detail>
-<mods:detail type="issue">
+<mods:detail type="volume">
 <mods:number>97</mods:number>
 </mods:detail>
 <mods:extent unit="page">
@@ -79,50 +79,70 @@
 </heading>
 </paragraph>
 <paragraph blockId="18.[189,1399,479,577]" pageId="18" pageNumber="19">
+<materialsCitation box="[189,1038,479,506]" collectingDate="1990-09-17" collectionCode="EUMJ" country="Malaysia" location="Ken Ito" pageId="18" pageNumber="19" specimenCount="8" specimenCount-female="6" specimenCount-male="2">
 <specimenCount box="[189,261,480,506]" pageId="18" pageNumber="19" type="male">2 ♂♂</specimenCount>
 , 
 <specimenCount box="[279,349,479,506]" pageId="18" pageNumber="19" type="female">6 ♀♀</specimenCount>
 (
-<collectionCode box="[369,452,480,506]" country="Japan" httpUri="http://grbio.org/cool/0wyw-sfpi" name="Ehime University" pageId="18" pageNumber="19">
+<collectionCode box="[369,452,480,506]" collectionName="Japan, Matsuyama, Ehime University" country="Japan" httpUri="http://grbio.org/cool/0wyw-sfpi" name="Ehime University" pageId="18" pageNumber="19">
 <potCollectionCode box="[369,452,480,506]" pageId="18" pageNumber="19">EUMJ</potCollectionCode>
 </collectionCode>
 ), “Damai, 
 <collectingCountry box="[587,688,479,505]" name="Malaysia" pageId="18" pageNumber="19">Sarawak</collectingCountry>
-<date box="[700,857,480,506]" pageId="18" pageNumber="19" value="1990-09-17">17. IX. 1990</date>
-Ken Itô leg.”; 
+<date box="[700,857,480,506]" pageId="18" pageNumber="19" value="1990-09-17">
+<collectingDate box="[700,857,480,506]" pageId="18" pageNumber="19" value="1990-09-17">17. IX. 1990</collectingDate>
+</date>
+<location LSID="urn:lsid:plazi:treatment:03933D4C204AFFA16D4A8778FC0AFA9C:8EE5DA81204AFFA06C188793FC18FE78" box="[869,962,480,506]" country="Malaysia" name="Ken Ito" pageId="18" pageNumber="19">Ken Itô</location>
+leg.”;
+</materialsCitation>
+<materialsCitation collectionCode="EUMJ" pageId="18" pageNumber="19" specimenCount="34" specimenCount-female="29" specimenCount-male="5" typeStatus="paratype">
 <specimenCount box="[1050,1122,479,506]" pageId="18" pageNumber="19" type="male">5 ♂♂</specimenCount>
 , 
 <specimenCount box="[1140,1225,480,506]" pageId="18" pageNumber="19" type="female">29 ♀♀</specimenCount>
-(including 
-<specimenCount pageId="18" pageNumber="19" type="generic" typeStatus="paratypes">10 paratypes</specimenCount>
+(including 10 
+<typeStatus box="[189,305,515,541]" pageId="18" pageNumber="19">paratypes</typeStatus>
 ; 
-<collectionCode box="[316,397,515,541]" country="Japan" httpUri="http://grbio.org/cool/0wyw-sfpi" name="Ehime University" pageId="18" pageNumber="19">
+<collectionCode box="[316,397,515,541]" collectionName="Japan, Matsuyama, Ehime University" country="Japan" httpUri="http://grbio.org/cool/0wyw-sfpi" name="Ehime University" pageId="18" pageNumber="19">
 <potCollectionCode box="[316,397,515,541]" pageId="18" pageNumber="19">EUMJ</potCollectionCode>
 </collectionCode>
-), “ 
+),
+</materialsCitation>
+<materialsCitation collectionCode="BPBM" country="Philippines" location="Sato" municipality="July" pageId="18" pageNumber="19" specimenCount="1986" specimenCount-female="4" specimenCount-male="1982" stateProvince="Palawan">
+“ 
 <collectingCountry box="[425,601,515,541]" name="Philippines" pageId="18" pageNumber="19">
 <potCollectionCode box="[425,601,515,541]" pageId="18" pageNumber="19">PHILIPPINES</potCollectionCode>
 </collectingCountry>
 Sabang, N. of Mt. St. Paul, 
 <collectingRegion box="[924,1023,515,541]" country="Philippines" name="Palawan" pageId="18" pageNumber="19">Palawan</collectingRegion>
-July, 11-13, 1977 M. Sato leg.”; 
+<collectingMunicipality box="[1030,1080,515,541]" pageId="18" pageNumber="19">July</collectingMunicipality>
+, 11-13, 
+<specimenCount box="[1171,1270,515,541]" pageId="18" pageNumber="19" type="male">1977 M.</specimenCount>
+<location LSID="urn:lsid:plazi:treatment:03933D4C204AFFA16D4A8778FC0AFA9C:8EE5DA81204AFFA06B818470FAEAFD9F" box="[1276,1328,515,541]" country="Philippines" municipality="July" name="Sato" pageId="18" pageNumber="19" stateProvince="Palawan">Sato</location>
+leg.”; 
 <specimenCount box="[189,257,550,577]" pageId="18" pageNumber="19" type="male">5 ♂♂</specimenCount>
 , 
 <specimenCount box="[270,335,550,576]" pageId="18" pageNumber="19" type="female">4 ♀♀</specimenCount>
 (
-<collectionCode box="[351,438,550,576]" country="USA" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34697" lsid="urn:lsid:biocol.org:col:34697" name="Bishop Museum" pageId="18" pageNumber="19" type="Museum">
+<collectionCode box="[351,438,550,576]" collectionName="USA, Hawaii, Honolulu, Bernice P. Bishop Museum" country="USA" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34697" lsid="urn:lsid:biocol.org:col:34697" name="Bishop Museum" pageId="18" pageNumber="19" type="Museum">
 <potCollectionCode box="[351,438,550,576]" pageId="18" pageNumber="19">BPBM</potCollectionCode>
 </collectionCode>
-), “ 
+),
+</materialsCitation>
+<materialsCitation box="[458,1399,550,577]" collectingDate="1957-02-27" country="Philippines" location="Yoshio Kondo" municipality="Sulu I." pageId="18" pageNumber="19" specimenCount="1" stateProvince="Cagayan">
+“ 
 <collectingCountry box="[468,644,550,576]" name="Philippines" pageId="18" pageNumber="19">
 <potCollectionCode box="[468,644,550,576]" pageId="18" pageNumber="19">PHILIPPINES</potCollectionCode>
 </collectingCountry>
 (S.) 
 <collectingRegion box="[702,805,550,576]" country="Philippines" name="Cagayan" pageId="18" pageNumber="19">Cagayan</collectingRegion>
-<collectingRegion box="[812,866,550,576]" country="Philippines" name="Sulu" pageId="18" pageNumber="19">Sulu</collectingRegion>
-I. 
-<date box="[897,1063,550,577]" pageId="18" pageNumber="19" value="1957-02-27">Feb. 27. 1957</date>
-”, “Yoshio Kondo collector”.
+<collectingMunicipality box="[812,890,550,576]" pageId="18" pageNumber="19">Sulu I.</collectingMunicipality>
+<date box="[897,1063,550,577]" pageId="18" pageNumber="19" value="1957-02-27">
+<collectingDate box="[897,1063,550,577]" pageId="18" pageNumber="19" value="1957-02-27">Feb. 27. 1957</collectingDate>
+</date>
+”, “ 
+<location LSID="urn:lsid:plazi:treatment:03933D4C204AFFA16D4A8778FC0AFA9C:8EE5DA81204AFFA06B358455FB2EFDC2" box="[1096,1268,550,576]" country="Philippines" municipality="Sulu I." name="Yoshio Kondo" pageId="18" pageNumber="19" stateProvince="Cagayan">Yoshio Kondo</location>
+collector”.
+</materialsCitation>
 </paragraph>
 </subSubSection>
 <caption ID-DOI="http://doi.org/10.5281/zenodo.3838946" ID-Zenodo-Dep="3838946" httpUri="https://zenodo.org/record/3838946/files/figure.png" pageId="18" pageNumber="19" startId="18.[189,232,1930,1956]" targetBox="[234,1378,670,1876]" targetPageId="18">
