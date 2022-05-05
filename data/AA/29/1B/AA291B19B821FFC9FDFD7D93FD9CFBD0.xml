@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.3852010" ID-GBIF-Dataset="55dbf55a-f438-463d-b68a-8b48dba366ab" ID-GBIF-Taxon="164243853" ID-ISSN="2118-9773" ID-Zenodo-Dep="3852010" ID-ZooBank="EAADCD7D-88AB-4F79-8B66-3197FD0BBBC7" approvalRequired="40" approvalRequired_for_bibRefs="1" approvalRequired_for_document="2" approvalRequired_for_textStreams="37" checkinTime="1590012191492" checkinUser="tatiana" docAuthor="Karner, Michael" docDate="2014" docId="AA291B19B821FFC9FDFD7D93FD9CFBD0" docLanguage="en" docName="ejt-2014-89.pdf.imf" docOrigin="European Journal of Taxonomy 89" docStyle="DocumentStyle{}" docStyleName="ejt.v2_0.2018_backlog.journal_article" docTitle="Psammoecus longicornis Schaufuss 1872" docType="treatment" docVersion="4" lastPageNumber="15" masterDocId="56106361B82FFFC7FFE27E1AFFB9FFE6" masterDocTitle="Three new species and new records of African Psammoecus Latreille (Coleoptera, Silvanidae)" masterLastPageNumber="18" masterPageNumber="1" pageId="14" pageNumber="15" updateTime="1643528548034" updateUser="ExternalLinkService" zenodo-license-document="CC-BY-3.0" zenodo-license-figures="CC-BY-3.0" zenodo-license-treatments="UNSPECIFIED">
+<document ID-DOI="http://doi.org/10.5281/zenodo.3852010" ID-GBIF-Dataset="55dbf55a-f438-463d-b68a-8b48dba366ab" ID-GBIF-Taxon="164243853" ID-ISSN="2118-9773" ID-Zenodo-Dep="3852010" ID-ZooBank="EAADCD7D-88AB-4F79-8B66-3197FD0BBBC7" checkinTime="1590012191492" checkinUser="tatiana" docAuthor="Karner, Michael" docDate="2014" docId="AA291B19B821FFC9FDFD7D93FD9CFBD0" docLanguage="en" docName="ejt-2014-89.pdf.imf" docOrigin="European Journal of Taxonomy 89" docStyle="DocumentStyle:EF2B578F1D15862ADE45B0C07C620911.14:EJT.2018-.journal_article" docStyleId="EF2B578F1D15862ADE45B0C07C620911" docStyleName="EJT.2018-.journal_article" docStyleVersion="14" docTitle="Psammoecus longicornis Schaufuss 1872" docType="treatment" docVersion="6" lastPageNumber="15" masterDocId="56106361B82FFFC7FFE27E1AFFB9FFE6" masterDocTitle="Three new species and new records of African Psammoecus Latreille (Coleoptera, Silvanidae)" masterLastPageNumber="18" masterPageNumber="1" pageId="14" pageNumber="15" updateTime="1651768097390" updateUser="carolina" zenodo-license-document="CC-BY-3.0" zenodo-license-figures="CC-BY-3.0" zenodo-license-treatments="UNSPECIFIED">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Three new species and new records of African Psammoecus Latreille (Coleoptera, Silvanidae)</mods:title>
@@ -19,7 +19,7 @@
 <mods:detail type="pubDate">
 <mods:number>2014-07-04</mods:number>
 </mods:detail>
-<mods:detail type="issue">
+<mods:detail type="volume">
 <mods:number>89</mods:number>
 </mods:detail>
 <mods:extent unit="page">
@@ -53,18 +53,26 @@ Schaufuss, 1872
 </heading>
 </paragraph>
 <paragraph blockId="14.[189,1398,1017,1078]" pageId="14" pageNumber="15">
+<materialsCitation collectingDate="1987-02-10" collectionCode="TMSA, MKF" collectorName="Endrody-Younga" country="South Africa" location="Nelshoogte Pass" pageId="14" pageNumber="15" specimenCount="11" stateProvince="Mpumalanga Province">
 <collectingCountry box="[189,407,1017,1043]" name="South Africa" pageId="14" pageNumber="15">SOUTH AFRICA</collectingCountry>
 : 
 <collectingRegion box="[421,695,1017,1043]" country="South Africa" name="Mpumalanga" pageId="14" pageNumber="15">Mpumalanga Province</collectingRegion>
-: Nelshoogte Pass, 
-<date box="[922,1084,1017,1043]" pageId="14" pageNumber="15" value="1987-02-10">10 Feb. 1987</date>
-, leg. Endrödy-Younga, 
+: 
+<location LSID="urn:lsid:plazi:treatment:AA291B19B821FFC9FDFD7D93FD9CFBD0:275FFCD4B821FFC9FD267DE3FC32FBF5" box="[708,907,1017,1043]" country="South Africa" name="Nelshoogte Pass" pageId="14" pageNumber="15" stateProvince="Mpumalanga Province">Nelshoogte Pass</location>
+, 
+<date box="[922,1084,1017,1043]" pageId="14" pageNumber="15" value="1987-02-10">
+<collectingDate box="[922,1084,1017,1043]" pageId="14" pageNumber="15" value="1987-02-10">10 Feb. 1987</collectingDate>
+</date>
+, leg. 
+<collectorName box="[1152,1356,1017,1043]" pageId="14" pageNumber="15">Endrödy-Younga</collectorName>
+, 
 <specimenCount pageId="14" pageNumber="15" type="generic">11 specimens</specimenCount>
 (9 
-<collectionCode box="[350,434,1052,1078]" country="South Africa" httpUri="http://grbio.org/cool/s8gp-ktsi" name="Transvaal Museum" pageId="14" pageNumber="15">TMSA</collectionCode>
+<collectionCode box="[350,434,1052,1078]" collectionName="South Africa, Gauteng, Pretoria, Transvaal Museum" country="South Africa" httpUri="http://grbio.org/cool/s8gp-ktsi" name="Transvaal Museum" pageId="14" pageNumber="15">TMSA</collectionCode>
 , 2 
 <collectionCode box="[468,537,1052,1078]" pageId="14" pageNumber="15">MKF</collectionCode>
 ).
+</materialsCitation>
 </paragraph>
 </subSubSection>
 </treatment>

@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.3852016" ID-GBIF-Dataset="55dbf55a-f438-463d-b68a-8b48dba366ab" ID-GBIF-Taxon="164243848" ID-ISSN="2118-9773" ID-Zenodo-Dep="3852016" ID-ZooBank="EAADCD7D-88AB-4F79-8B66-3197FD0BBBC7" approvalRequired="40" approvalRequired_for_bibRefs="1" approvalRequired_for_document="2" approvalRequired_for_textStreams="37" checkinTime="1590012191492" checkinUser="tatiana" docAuthor="Karner, Michael" docDate="2014" docId="AA291B19B825FFCCFDC07BD5FCA8FEAF" docLanguage="en" docName="ejt-2014-89.pdf.imf" docOrigin="European Journal of Taxonomy 89" docStyle="DocumentStyle{}" docStyleName="ejt.v2_0.2018_backlog.journal_article" docTitle="Psammoecus personatus Grouvelle 1919" docType="treatment" docVersion="4" lastPageId="11" lastPageNumber="12" masterDocId="56106361B82FFFC7FFE27E1AFFB9FFE6" masterDocTitle="Three new species and new records of African Psammoecus Latreille (Coleoptera, Silvanidae)" masterLastPageNumber="18" masterPageNumber="1" pageId="10" pageNumber="11" updateTime="1643528548034" updateUser="ExternalLinkService" zenodo-license-document="CC-BY-3.0" zenodo-license-figures="CC-BY-3.0" zenodo-license-treatments="UNSPECIFIED">
+<document ID-DOI="http://doi.org/10.5281/zenodo.3852016" ID-GBIF-Dataset="55dbf55a-f438-463d-b68a-8b48dba366ab" ID-GBIF-Taxon="164243848" ID-ISSN="2118-9773" ID-Zenodo-Dep="3852016" ID-ZooBank="EAADCD7D-88AB-4F79-8B66-3197FD0BBBC7" checkinTime="1590012191492" checkinUser="tatiana" docAuthor="Karner, Michael" docDate="2014" docId="AA291B19B825FFCCFDC07BD5FCA8FEAF" docLanguage="en" docName="ejt-2014-89.pdf.imf" docOrigin="European Journal of Taxonomy 89" docStyle="DocumentStyle:EF2B578F1D15862ADE45B0C07C620911.14:EJT.2018-.journal_article" docStyleId="EF2B578F1D15862ADE45B0C07C620911" docStyleName="EJT.2018-.journal_article" docStyleVersion="14" docTitle="Psammoecus personatus Grouvelle 1919" docType="treatment" docVersion="6" lastPageId="11" lastPageNumber="12" masterDocId="56106361B82FFFC7FFE27E1AFFB9FFE6" masterDocTitle="Three new species and new records of African Psammoecus Latreille (Coleoptera, Silvanidae)" masterLastPageNumber="18" masterPageNumber="1" pageId="10" pageNumber="11" updateTime="1651768097390" updateUser="carolina" zenodo-license-document="CC-BY-3.0" zenodo-license-figures="CC-BY-3.0" zenodo-license-treatments="UNSPECIFIED">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Three new species and new records of African Psammoecus Latreille (Coleoptera, Silvanidae)</mods:title>
@@ -19,7 +19,7 @@
 <mods:detail type="pubDate">
 <mods:number>2014-07-04</mods:number>
 </mods:detail>
-<mods:detail type="issue">
+<mods:detail type="volume">
 <mods:number>89</mods:number>
 </mods:detail>
 <mods:extent unit="page">
@@ -53,105 +53,223 @@ Grouvelle, 1919
 </heading>
 </paragraph>
 <paragraph blockId="10.[189,1114,1599,1626]" box="[189,1114,1599,1626]" pageId="10" pageNumber="11">
-MADEIRA: Canhas, 
-<date box="[442,600,1599,1626]" pageId="10" pageNumber="11" value="2002-02-15">15 Feb. 2002</date>
-, leg. Lott, 
+<materialsCitation box="[189,1114,1599,1626]" collectingDate="2002-02-15" collectionCode="BMNH, MKF" collectorName="Lott" location="Canhas" pageId="10" pageNumber="11" specimenCount="3">
+MADEIRA: 
+<location LSID="urn:lsid:plazi:treatment:AA291B19B825FFCCFDC07BD5FCA8FEAF:275FFCD4B825FFCDFEB77825FE17F9BF" box="[341,430,1599,1625]" name="Canhas" pageId="10" pageNumber="11">Canhas</location>
+, 
+<date box="[442,600,1599,1626]" pageId="10" pageNumber="11" value="2002-02-15">
+<collectingDate box="[442,600,1599,1626]" pageId="10" pageNumber="11" value="2002-02-15">15 Feb. 2002</collectingDate>
+</date>
+, leg. 
+<collectorName box="[662,714,1599,1625]" pageId="10" pageNumber="11">Lott</collectorName>
+, 
 <specimenCount box="[725,869,1599,1625]" pageId="10" pageNumber="11" type="generic">3 specimens</specimenCount>
-(2 BMNH, 1 MKF).
+(2 
+<collectionCode box="[908,999,1599,1625]" collectionName="United Kingdom, London, The Natural History Museum [formerly British Museum (Natural History)]" pageId="10" pageNumber="11">BMNH</collectionCode>
+, 1 
+<collectionCode box="[1033,1102,1599,1625]" pageId="10" pageNumber="11">MKF</collectionCode>
+).
+</materialsCitation>
 </paragraph>
 <paragraph blockId="10.[189,1399,1664,1866]" pageId="10" pageNumber="11">
+<materialsCitation collectingDate="1998-01-23" collectionCode="TMSA" collectorName="Muller" country="South Africa" location="Levubu" municipality="Arbor Farm" pageId="10" pageNumber="11" specimenCount="1" stateProvince="Limpopo Province">
 <collectingCountry box="[189,404,1664,1690]" name="South Africa" pageId="10" pageNumber="11">SOUTH AFRICA</collectingCountry>
 : 
 <collectingRegion box="[423,651,1664,1690]" country="South Africa" name="Limpopo" pageId="10" pageNumber="11">Limpopo Province</collectingRegion>
-: Arbor Farm, Levubu, 
-<date box="[934,1094,1664,1691]" pageId="10" pageNumber="11" value="1998-01-23">23 Jan. 1998</date>
-, leg. Müller, 
+: 
+<collectingMunicipality box="[664,811,1664,1691]" pageId="10" pageNumber="11">Arbor Farm</collectingMunicipality>
+, 
+<location LSID="urn:lsid:plazi:treatment:AA291B19B825FFCCFDC07BD5FCA8FEAF:275FFCD4B825FFCDFCD8789AFC2EF97C" box="[826,919,1664,1690]" country="South Africa" municipality="Arbor Farm" name="Levubu" pageId="10" pageNumber="11" stateProvince="Limpopo Province">Levubu</location>
+, 
+<date box="[934,1094,1664,1691]" pageId="10" pageNumber="11" value="1998-01-23">
+<collectingDate box="[934,1094,1664,1691]" pageId="10" pageNumber="11" value="1998-01-23">23 Jan. 1998</collectingDate>
+</date>
+, leg. 
+<collectorName box="[1164,1246,1664,1690]" pageId="10" pageNumber="11">Müller</collectorName>
+, 
 <specimenCount box="[1262,1399,1664,1690]" pageId="10" pageNumber="11" type="generic">1 specimen</specimenCount>
 (
-<collectionCode box="[197,285,1700,1726]" country="South Africa" httpUri="http://grbio.org/cool/s8gp-ktsi" name="Transvaal Museum" pageId="10" pageNumber="11">TMSA</collectionCode>
-); Entabeni, 
-<date box="[426,582,1699,1726]" pageId="10" pageNumber="11" value="1976-04-21">21 Apr. 1976</date>
-, leg. Endrödy-Younga, 
+<collectionCode box="[197,285,1700,1726]" collectionName="South Africa, Gauteng, Pretoria, Transvaal Museum" country="South Africa" httpUri="http://grbio.org/cool/s8gp-ktsi" name="Transvaal Museum" pageId="10" pageNumber="11">TMSA</collectionCode>
+);
+</materialsCitation>
+<materialsCitation box="[306,1250,1699,1726]" collectingDate="1976-04-21" collectionCode="TMSA, MKF" collectorName="Endrody-Younga" location="Entabeni" pageId="10" pageNumber="11" specimenCount="5">
+<location LSID="urn:lsid:plazi:treatment:AA291B19B825FFCCFDC07BD5FCA8FEAF:275FFCD4B825FFCDFED078B9FE24F95B" box="[306,413,1699,1725]" name="Entabeni" pageId="10" pageNumber="11">Entabeni</location>
+, 
+<date box="[426,582,1699,1726]" pageId="10" pageNumber="11" value="1976-04-21">
+<collectingDate box="[426,582,1699,1726]" pageId="10" pageNumber="11" value="1976-04-21">21 Apr. 1976</collectingDate>
+</date>
+, leg. 
+<collectorName box="[647,851,1699,1725]" pageId="10" pageNumber="11">Endrödy-Younga</collectorName>
+, 
 <specimenCount box="[863,1008,1699,1726]" pageId="10" pageNumber="11" type="generic">5 specimens</specimenCount>
 (3 
-<collectionCode box="[1049,1133,1700,1726]" country="South Africa" httpUri="http://grbio.org/cool/s8gp-ktsi" name="Transvaal Museum" pageId="10" pageNumber="11">TMSA</collectionCode>
+<collectionCode box="[1049,1133,1700,1726]" collectionName="South Africa, Gauteng, Pretoria, Transvaal Museum" country="South Africa" httpUri="http://grbio.org/cool/s8gp-ktsi" name="Transvaal Museum" pageId="10" pageNumber="11">TMSA</collectionCode>
 , 2 
 <collectionCode box="[1168,1237,1700,1726]" pageId="10" pageNumber="11">MKF</collectionCode>
-); Pietersburg, 
-<date box="[189,312,1735,1761]" pageId="10" pageNumber="11" value="1960-09">Sep. 1960</date>
-, leg. Leleup, 
+);
+</materialsCitation>
+<materialsCitation collectingDate="1960-09" collectionCode="TMSA" collectorName="Leleup" location="Pietersburg" pageId="10" pageNumber="11" specimenCount="1">
+<location LSID="urn:lsid:plazi:treatment:AA291B19B825FFCCFDC07BD5FCA8FEAF:275FFCD4B825FFCDFB0878B9FACBF95B" box="[1258,1394,1699,1725]" name="Pietersburg" pageId="10" pageNumber="11">Pietersburg</location>
+, 
+<date box="[189,312,1735,1761]" pageId="10" pageNumber="11" value="1960-09">
+<collectingDate box="[189,312,1735,1761]" pageId="10" pageNumber="11" value="1960-09">Sep. 1960</collectingDate>
+</date>
+, leg. 
+<collectorName box="[383,467,1735,1761]" pageId="10" pageNumber="11">Leleup</collectorName>
+, 
 <specimenCount box="[482,619,1735,1761]" pageId="10" pageNumber="11" type="generic">1 specimen</specimenCount>
 (
-<collectionCode box="[638,726,1735,1761]" country="South Africa" httpUri="http://grbio.org/cool/s8gp-ktsi" name="Transvaal Museum" pageId="10" pageNumber="11">TMSA</collectionCode>
-); Soutpansberg, 
-<date box="[928,1095,1735,1761]" pageId="10" pageNumber="11" value="1973-03-14">14 Mar. 1973</date>
-, leg. Endrödy-Younga, 
+<collectionCode box="[638,726,1735,1761]" collectionName="South Africa, Gauteng, Pretoria, Transvaal Museum" country="South Africa" httpUri="http://grbio.org/cool/s8gp-ktsi" name="Transvaal Museum" pageId="10" pageNumber="11">TMSA</collectionCode>
+);
+</materialsCitation>
+<materialsCitation collectingDate="1973-03-14" collectionCode="TMSA" collectorName="Endrody-Younga" location="Soutpansberg" pageId="10" pageNumber="11" specimenCount="2">
+<location LSID="urn:lsid:plazi:treatment:AA291B19B825FFCCFDC07BD5FCA8FEAF:275FFCD4B825FFCDFD0C78DDFC29F907" box="[750,912,1735,1761]" name="Soutpansberg" pageId="10" pageNumber="11">Soutpansberg</location>
+, 
+<date box="[928,1095,1735,1761]" pageId="10" pageNumber="11" value="1973-03-14">
+<collectingDate box="[928,1095,1735,1761]" pageId="10" pageNumber="11" value="1973-03-14">14 Mar. 1973</collectingDate>
+</date>
+, leg. 
+<collectorName box="[1165,1369,1735,1761]" pageId="10" pageNumber="11">Endrödy-Younga</collectorName>
+, 
 <specimenCount pageId="10" pageNumber="11" type="generic">2 specimens</specimenCount>
 (
-<collectionCode box="[329,417,1770,1796]" country="South Africa" httpUri="http://grbio.org/cool/s8gp-ktsi" name="Transvaal Museum" pageId="10" pageNumber="11">TMSA</collectionCode>
-). 
+<collectionCode box="[329,417,1770,1796]" collectionName="South Africa, Gauteng, Pretoria, Transvaal Museum" country="South Africa" httpUri="http://grbio.org/cool/s8gp-ktsi" name="Transvaal Museum" pageId="10" pageNumber="11">TMSA</collectionCode>
+).
+</materialsCitation>
+<materialsCitation box="[439,1399,1770,1796]" collectingDate="1961-10" collectionCode="TMSA" collectorName="Leleup" location="Barberton" pageId="10" pageNumber="11" specimenCount="1" stateProvince="Mpumalanga Province">
 <collectingRegion box="[439,712,1770,1796]" country="South Africa" name="Mpumalanga" pageId="10" pageNumber="11">Mpumalanga Province</collectingRegion>
-: Barberton, 
-<date box="[859,979,1770,1796]" pageId="10" pageNumber="11" value="1961-10">Oct. 1961</date>
-, leg. Leleup, 
+: 
+<location LSID="urn:lsid:plazi:treatment:AA291B19B825FFCCFDC07BD5FCA8FEAF:275FFCD4B825FFCDFD3778F0FCF4F8E2" box="[725,845,1770,1796]" name="Barberton" pageId="10" pageNumber="11" stateProvince="Mpumalanga Province">Barberton</location>
+, 
+<date box="[859,979,1770,1796]" pageId="10" pageNumber="11" value="1961-10">
+<collectingDate box="[859,979,1770,1796]" pageId="10" pageNumber="11" value="1961-10">Oct. 1961</collectingDate>
+</date>
+, leg. 
+<collectorName box="[1046,1130,1770,1796]" pageId="10" pageNumber="11">Leleup</collectorName>
+, 
 <specimenCount box="[1145,1280,1770,1796]" pageId="10" pageNumber="11" type="generic">1 specimen</specimenCount>
 (
-<collectionCode box="[1297,1385,1770,1796]" country="South Africa" httpUri="http://grbio.org/cool/s8gp-ktsi" name="Transvaal Museum" pageId="10" pageNumber="11">TMSA</collectionCode>
-); Nelshoogte, Knuckles Rocks Forest, 
-<date box="[632,791,1805,1831]" pageId="10" pageNumber="11" value="1987-02-11">11 Feb. 1987</date>
+<collectionCode box="[1297,1385,1770,1796]" collectionName="South Africa, Gauteng, Pretoria, Transvaal Museum" country="South Africa" httpUri="http://grbio.org/cool/s8gp-ktsi" name="Transvaal Museum" pageId="10" pageNumber="11">TMSA</collectionCode>
+);
+</materialsCitation>
+<materialsCitation collectingDate="1986-12-25" collectingDateMax="1987-02-11" collectingDateMin="1986-12-25" collectionCode="TMSA" collectorName="Endrody-Younga" location="Knuckles Rocks Forest" municipality="Nelshoogte" pageId="10" pageNumber="11" specimenCount="2">
+<collectingMunicipality box="[189,326,1805,1831]" pageId="10" pageNumber="11">Nelshoogte</collectingMunicipality>
 , 
-<date box="[805,968,1805,1832]" pageId="10" pageNumber="11" value="1986-12-25">25 Dec. 1986</date>
-, leg. Endrödy-Younga, 
+<location LSID="urn:lsid:plazi:treatment:AA291B19B825FFCCFDC07BD5FCA8FEAF:275FFCD4B825FFCDFEB17917FDD3F8CE" box="[339,618,1805,1832]" municipality="Nelshoogte" name="Knuckles Rocks Forest" pageId="10" pageNumber="11">Knuckles Rocks Forest</location>
+, 
+<date box="[632,791,1805,1831]" pageId="10" pageNumber="11" value="1987-02-11">
+<collectingDate box="[632,791,1805,1831]" pageId="10" pageNumber="11" value="1987-02-11">11 Feb. 1987</collectingDate>
+</date>
+, 
+<date box="[805,968,1805,1832]" pageId="10" pageNumber="11" value="1986-12-25">
+<collectingDate box="[805,968,1805,1832]" pageId="10" pageNumber="11" value="1986-12-25">25 Dec. 1986</collectingDate>
+</date>
+, leg. 
+<collectorName box="[1035,1239,1805,1831]" pageId="10" pageNumber="11">Endrödy-Younga</collectorName>
+, 
 <specimenCount box="[1252,1398,1805,1831]" pageId="10" pageNumber="11" type="generic">2 specimens</specimenCount>
 (
-<collectionCode box="[197,285,1840,1866]" country="South Africa" httpUri="http://grbio.org/cool/s8gp-ktsi" name="Transvaal Museum" pageId="10" pageNumber="11">TMSA</collectionCode>
+<collectionCode box="[197,285,1840,1866]" collectionName="South Africa, Gauteng, Pretoria, Transvaal Museum" country="South Africa" httpUri="http://grbio.org/cool/s8gp-ktsi" name="Transvaal Museum" pageId="10" pageNumber="11">TMSA</collectionCode>
 ).
+</materialsCitation>
 </paragraph>
 <paragraph blockId="10.[189,1399,1905,2003]" pageId="10" pageNumber="11">
+<materialsCitation box="[189,1346,1905,1932]" collectingDate="1965-11-15" collectingDateMax="1965-12-31" collectingDateMin="1965-11-15" collectionCode="HNHM" collectorName="Szunyoghy" country="Tanzania" location="River" municipality="Ngare Sero" pageId="10" pageNumber="11" specimenCount="1">
 <collectingCountry box="[189,343,1906,1932]" name="Tanzania" pageId="10" pageNumber="11">TANZANIA</collectingCountry>
-: Ngare Sero, Usa River, 
-<date box="[626,889,1905,1932]" pageId="10" pageNumber="11" value="1965-11-15" valueMax="1965-12-31" valueMin="1965-11-15">15 Nov.–31 Dec. 1965</date>
-, leg. Szunyoghy, 
+: 
+<collectingMunicipality box="[352,487,1906,1932]" pageId="10" pageNumber="11">Ngare Sero</collectingMunicipality>
+, 
+<collectingCountry box="[497,543,1906,1932]" name="United States of America" pageId="10" pageNumber="11">Usa</collectingCountry>
+<location LSID="urn:lsid:plazi:treatment:AA291B19B825FFCCFDC07BD5FCA8FEAF:275FFCD4B825FFCDFDC77968FDD1F86A" box="[549,616,1906,1932]" country="Tanzania" municipality="Ngare Sero" name="River" pageId="10" pageNumber="11">River</location>
+, 
+<date box="[626,889,1905,1932]" pageId="10" pageNumber="11" value="1965-11-15" valueMax="1965-12-31" valueMin="1965-11-15">
+<collectingDate box="[626,889,1905,1932]" pageId="10" pageNumber="11" value="1965-11-15" valueMax="1965-12-31" valueMin="1965-11-15">15 Nov.–31 Dec. 1965</collectingDate>
+</date>
+, leg. 
+<collectorName box="[949,1082,1906,1932]" pageId="10" pageNumber="11">Szunyoghy</collectorName>
+, 
 <specimenCount box="[1092,1224,1906,1932]" pageId="10" pageNumber="11" type="generic">1 specimen</specimenCount>
 (
-<collectionCode box="[1238,1334,1906,1932]" country="Hungary" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34991" lsid="urn:lsid:biocol.org:col:34991" name="Hungarian Natural History Museum (Termeszettudomanyi Muzeum)" pageId="10" pageNumber="11">HNHM</collectionCode>
-); Usa River, 
-<date box="[269,474,1941,1967]" pageId="10" pageNumber="11" value="1981-03-24" valueMax="1981-03-31" valueMin="1981-03-24">24–31 Mar. 1981</date>
-, leg. Bremer, 
+<collectionCode box="[1238,1334,1906,1932]" collectionName="Hungary, Budapest, Hungarian Natural History Museum" country="Hungary" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34991" lsid="urn:lsid:biocol.org:col:34991" name="Hungarian Natural History Museum (Termeszettudomanyi Muzeum)" pageId="10" pageNumber="11">HNHM</collectionCode>
+);
+</materialsCitation>
+<materialsCitation collectingDate="1981-03-24" collectingDateMax="1981-03-31" collectingDateMin="1981-03-24" collectionCode="HNHM" collectorName="Bremer" country="United States of America" location="River" municipality="River" pageId="10" pageNumber="11" specimenCount="1">
+<collectingCountry box="[1353,1399,1906,1932]" name="United States of America" pageId="10" pageNumber="11">Usa</collectingCountry>
+<collectingMunicipality box="[189,256,1941,1967]" pageId="10" pageNumber="11">River</collectingMunicipality>
+, 
+<date box="[269,474,1941,1967]" pageId="10" pageNumber="11" value="1981-03-24" valueMax="1981-03-31" valueMin="1981-03-24">
+<collectingDate box="[269,474,1941,1967]" pageId="10" pageNumber="11" value="1981-03-24" valueMax="1981-03-31" valueMin="1981-03-24">24–31 Mar. 1981</collectingDate>
+</date>
+, leg. 
+<collectorName box="[539,629,1941,1967]" pageId="10" pageNumber="11">Bremer</collectorName>
+, 
 <specimenCount box="[641,775,1941,1967]" pageId="10" pageNumber="11" type="generic">1 specimen</specimenCount>
 (
-<collectionCode box="[791,887,1941,1967]" country="Hungary" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34991" lsid="urn:lsid:biocol.org:col:34991" name="Hungarian Natural History Museum (Termeszettudomanyi Muzeum)" pageId="10" pageNumber="11">HNHM</collectionCode>
-); near Usa River, 
-<quantity box="[1101,1175,1941,1967]" metricMagnitude="4" metricUnit="m" metricValue="2.0" pageId="10" pageNumber="11" unit="km" value="20.0">20 km</quantity>
+<collectionCode box="[791,887,1941,1967]" collectionName="Hungary, Budapest, Hungarian Natural History Museum" country="Hungary" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34991" lsid="urn:lsid:biocol.org:col:34991" name="Hungarian Natural History Museum (Termeszettudomanyi Muzeum)" pageId="10" pageNumber="11">HNHM</collectionCode>
+);
+</materialsCitation>
+<materialsCitation collectingDate="1982-03-06" collectingDateMax="2017-02" collectingDateMin="1982-03-06" collectionCode="HNHM" collectorName="Bremer" country="United States of America" location="River" pageId="10" pageNumber="11" specimenCount="1" specimenCount-female="1" stateProvince="Arusha">
+near 
+<collectingCountry box="[967,1013,1941,1967]" name="United States of America" pageId="10" pageNumber="11">Usa</collectingCountry>
+<location LSID="urn:lsid:plazi:treatment:AA291B19B825FFCCFDC07BD5FCA8FEAF:275FFCD4B825FFCDFC1F798FFBF9F849" box="[1021,1088,1941,1967]" country="United States of America" name="River" pageId="10" pageNumber="11" stateProvince="Arusha">River</location>
+, 
+<quantity box="[1101,1175,1941,1967]" metricMagnitude="4" metricUnit="m" metricValue="2.0" pageId="10" pageNumber="11" unit="km" value="20.0">
+<locationDeviation box="[1101,1175,1941,1967]" metricMagnitude="4" metricUnit="m" metricValue="2.0" pageId="10" pageNumber="11" unit="km" value="20.0">20 km</locationDeviation>
+</quantity>
 east of 
 <collectingRegion box="[1269,1357,1941,1967]" country="Tanzania" name="Arusha" pageId="10" pageNumber="11">Arusha</collectingRegion>
-, 17 Feb.–- 
-<date box="[265,410,1976,2003]" pageId="10" pageNumber="11" value="1982-03-06">6 Mar. 1982</date>
-, leg. Bremer, 
+, 
+<date pageId="10" pageNumber="11" value="2017-02">
+<collectingDate pageId="10" pageNumber="11" value="2017-02">17 Feb.</collectingDate>
+</date>
+–- 
+<date box="[265,410,1976,2003]" pageId="10" pageNumber="11" value="1982-03-06">
+<collectingDate box="[265,410,1976,2003]" pageId="10" pageNumber="11" value="1982-03-06">6 Mar. 1982</collectingDate>
+</date>
+, leg. 
+<collectorName box="[473,563,1977,2003]" pageId="10" pageNumber="11">Bremer</collectorName>
+, 
 <specimenCount box="[574,618,1976,2003]" pageId="10" pageNumber="11" type="female">1 ♀</specimenCount>
 (
-<collectionCode box="[633,729,1976,2002]" country="Hungary" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34991" lsid="urn:lsid:biocol.org:col:34991" name="Hungarian Natural History Museum (Termeszettudomanyi Muzeum)" pageId="10" pageNumber="11">HNHM</collectionCode>
+<collectionCode box="[633,729,1976,2002]" collectionName="Hungary, Budapest, Hungarian Natural History Museum" country="Hungary" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34991" lsid="urn:lsid:biocol.org:col:34991" name="Hungarian Natural History Museum (Termeszettudomanyi Muzeum)" pageId="10" pageNumber="11">HNHM</collectionCode>
 ).
+</materialsCitation>
 </paragraph>
 <paragraph blockId="11.[189,1398,267,329]" pageId="11" pageNumber="12">
+<materialsCitation box="[189,1206,267,294]" collectingDate="1958-02-15" collectingDateMax="1958-03-06" collectingDateMin="1958-02-15" collectionCode="BMNH" collectorName="P. Whalley" country="Uganda" location="Kawanda" pageId="11" pageNumber="12" specimenCount="1">
 <collectingCountry box="[189,321,267,293]" name="Uganda" pageId="11" pageNumber="12">UGANDA</collectingCountry>
-: Kawanda, 
-<date box="[465,725,267,294]" pageId="11" pageNumber="12" value="1958-02-15" valueMax="1958-03-06" valueMin="1958-02-15">15 Feb.–6 Mar. 1958</date>
-, leg. P. Whalley, 
+: 
+<location LSID="urn:lsid:plazi:treatment:AA291B19B825FFCCFDC07BD5FCA8FEAF:275FFCD4B824FFCCFEB27F11FE7BFEC3" box="[336,450,267,293]" country="Uganda" name="Kawanda" pageId="11" pageNumber="12">Kawanda</location>
+, 
+<date box="[465,725,267,294]" pageId="11" pageNumber="12" value="1958-02-15" valueMax="1958-03-06" valueMin="1958-02-15">
+<collectingDate box="[465,725,267,294]" pageId="11" pageNumber="12" value="1958-02-15" valueMax="1958-03-06" valueMin="1958-02-15">15 Feb.–6 Mar. 1958</collectingDate>
+</date>
+, leg. 
+<collectorName box="[795,928,267,294]" pageId="11" pageNumber="12">P. Whalley</collectorName>
+, 
 <specimenCount box="[943,1080,267,293]" pageId="11" pageNumber="12" type="generic">1 specimen</specimenCount>
 (
-<collectionCode box="[1099,1194,267,293]" pageId="11" pageNumber="12">BMNH</collectionCode>
-). 
+<collectionCode box="[1099,1194,267,293]" collectionName="United Kingdom, London, The Natural History Museum [formerly British Museum (Natural History)]" pageId="11" pageNumber="12">BMNH</collectionCode>
+).
+</materialsCitation>
+<materialsCitation collectingDate="1938-10" collectionCode="BMNH" collectorName="Taylor" location="Bubulu" pageId="11" pageNumber="12" specimenCount="2" specimenCount-female="1" specimenCount-male="1" stateProvince="Mbale District">
 <collectingRegion box="[1217,1394,267,293]" country="Uganda" name="Mbale" pageId="11" pageNumber="12">Mbale District</collectingRegion>
-, Bubulu, 
-<date box="[290,408,303,329]" pageId="11" pageNumber="12" value="1938-10">Oct. 1938</date>
-, leg. Taylor, 
+, 
+<location LSID="urn:lsid:plazi:treatment:AA291B19B825FFCCFDC07BD5FCA8FEAF:275FFCD4B824FFCCFF5F7F34FEAFFEAE" box="[189,278,302,328]" name="Bubulu" pageId="11" pageNumber="12" stateProvince="Mbale District">Bubulu</location>
+, 
+<date box="[290,408,303,329]" pageId="11" pageNumber="12" value="1938-10">
+<collectingDate box="[290,408,303,329]" pageId="11" pageNumber="12" value="1938-10">Oct. 1938</collectingDate>
+</date>
+, leg. 
+<collectorName box="[470,548,302,328]" pageId="11" pageNumber="12">Taylor</collectorName>
+, 
 <specimenCount box="[560,606,303,329]" pageId="11" pageNumber="12" type="male">1 ♂</specimenCount>
 , 
 <specimenCount box="[619,663,303,329]" pageId="11" pageNumber="12" type="female">1 ♀</specimenCount>
 (
-<collectionCode box="[678,773,303,329]" pageId="11" pageNumber="12">BMNH</collectionCode>
+<collectionCode box="[678,773,303,329]" collectionName="United Kingdom, London, The Natural History Museum [formerly British Museum (Natural History)]" pageId="11" pageNumber="12">BMNH</collectionCode>
 ).
+</materialsCitation>
 </paragraph>
 </subSubSection>
 </treatment>

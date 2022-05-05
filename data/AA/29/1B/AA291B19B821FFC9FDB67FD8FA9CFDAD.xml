@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.3852004" ID-GBIF-Dataset="55dbf55a-f438-463d-b68a-8b48dba366ab" ID-GBIF-Taxon="164243856" ID-ISSN="2118-9773" ID-Zenodo-Dep="3852004" ID-ZooBank="EAADCD7D-88AB-4F79-8B66-3197FD0BBBC7" approvalRequired="40" approvalRequired_for_bibRefs="1" approvalRequired_for_document="2" approvalRequired_for_textStreams="37" checkinTime="1590012191492" checkinUser="tatiana" docAuthor="Karner, Michael" docDate="2014" docId="AA291B19B821FFC9FDB67FD8FA9CFDAD" docLanguage="en" docName="ejt-2014-89.pdf.imf" docOrigin="European Journal of Taxonomy 89" docStyle="DocumentStyle{}" docStyleName="ejt.v2_0.2018_backlog.journal_article" docTitle="Psammoecus luchti Karner 2012" docType="treatment" docVersion="4" lastPageNumber="15" masterDocId="56106361B82FFFC7FFE27E1AFFB9FFE6" masterDocTitle="Three new species and new records of African Psammoecus Latreille (Coleoptera, Silvanidae)" masterLastPageNumber="18" masterPageNumber="1" pageId="14" pageNumber="15" updateTime="1643528548034" updateUser="ExternalLinkService" zenodo-license-document="CC-BY-3.0" zenodo-license-figures="CC-BY-3.0" zenodo-license-treatments="UNSPECIFIED">
+<document ID-DOI="http://doi.org/10.5281/zenodo.3852004" ID-GBIF-Dataset="55dbf55a-f438-463d-b68a-8b48dba366ab" ID-GBIF-Taxon="164243856" ID-ISSN="2118-9773" ID-Zenodo-Dep="3852004" ID-ZooBank="EAADCD7D-88AB-4F79-8B66-3197FD0BBBC7" checkinTime="1590012191492" checkinUser="tatiana" docAuthor="Karner, Michael" docDate="2014" docId="AA291B19B821FFC9FDB67FD8FA9CFDAD" docLanguage="en" docName="ejt-2014-89.pdf.imf" docOrigin="European Journal of Taxonomy 89" docStyle="DocumentStyle:EF2B578F1D15862ADE45B0C07C620911.14:EJT.2018-.journal_article" docStyleId="EF2B578F1D15862ADE45B0C07C620911" docStyleName="EJT.2018-.journal_article" docStyleVersion="14" docTitle="Psammoecus luchti Karner 2012" docType="treatment" docVersion="6" lastPageNumber="15" masterDocId="56106361B82FFFC7FFE27E1AFFB9FFE6" masterDocTitle="Three new species and new records of African Psammoecus Latreille (Coleoptera, Silvanidae)" masterLastPageNumber="18" masterPageNumber="1" pageId="14" pageNumber="15" updateTime="1651768097390" updateUser="carolina" zenodo-license-document="CC-BY-3.0" zenodo-license-figures="CC-BY-3.0" zenodo-license-treatments="UNSPECIFIED">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Three new species and new records of African Psammoecus Latreille (Coleoptera, Silvanidae)</mods:title>
@@ -19,7 +19,7 @@
 <mods:detail type="pubDate">
 <mods:number>2014-07-04</mods:number>
 </mods:detail>
-<mods:detail type="issue">
+<mods:detail type="volume">
 <mods:number>89</mods:number>
 </mods:detail>
 <mods:extent unit="page">
@@ -53,14 +53,24 @@
 </heading>
 </paragraph>
 <paragraph blockId="14.[189,1317,561,588]" box="[189,1317,561,588]" pageId="14" pageNumber="15">
+<materialsCitation box="[189,1317,561,588]" collectingDate="1981-11" collectionCode="HNHM" collectorName="Cho Chi Ignatius" country="Cameroon" location="Bamenda" municipality="Northwest Province" pageId="14" pageNumber="15" specimenCount="1" specimenCount-male="1">
 <collectingCountry box="[189,362,561,587]" name="Cameroon" pageId="14" pageNumber="15">CAMEROON</collectingCountry>
-: Northwest Province, Bamenda, 
-<date box="[746,871,561,588]" pageId="14" pageNumber="15" value="1981-11">Nov. 1981</date>
-, leg. Cho Chi Ignatius. 
+: 
+<collectingMunicipality box="[372,609,561,587]" pageId="14" pageNumber="15">Northwest Province</collectingMunicipality>
+, 
+<location LSID="urn:lsid:plazi:treatment:AA291B19B821FFC9FDB67FD8FA9CFDAD:275FFCD4B821FFC9FD8F7C2BFD66FDAD" box="[621,735,561,587]" country="Cameroon" municipality="Northwest Province" name="Bamenda" pageId="14" pageNumber="15">Bamenda</location>
+, 
+<date box="[746,871,561,588]" pageId="14" pageNumber="15" value="1981-11">
+<collectingDate box="[746,871,561,588]" pageId="14" pageNumber="15" value="1981-11">Nov. 1981</collectingDate>
+</date>
+, leg. 
+<collectorName box="[933,1137,561,587]" pageId="14" pageNumber="15">Cho Chi Ignatius</collectorName>
+. 
 <specimenCount box="[1148,1192,561,588]" pageId="14" pageNumber="15" type="male">1 ♂</specimenCount>
 (
-<collectionCode box="[1208,1304,561,587]" country="Hungary" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34991" lsid="urn:lsid:biocol.org:col:34991" name="Hungarian Natural History Museum (Termeszettudomanyi Muzeum)" pageId="14" pageNumber="15">HNHM</collectionCode>
+<collectionCode box="[1208,1304,561,587]" collectionName="Hungary, Budapest, Hungarian Natural History Museum" country="Hungary" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34991" lsid="urn:lsid:biocol.org:col:34991" name="Hungarian Natural History Museum (Termeszettudomanyi Muzeum)" pageId="14" pageNumber="15">HNHM</collectionCode>
 ).
+</materialsCitation>
 </paragraph>
 </subSubSection>
 </treatment>

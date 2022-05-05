@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.3852024" ID-GBIF-Dataset="55dbf55a-f438-463d-b68a-8b48dba366ab" ID-GBIF-Taxon="164243850" ID-ISSN="2118-9773" ID-Zenodo-Dep="3852024" ID-ZooBank="EAADCD7D-88AB-4F79-8B66-3197FD0BBBC7" approvalRequired="40" approvalRequired_for_bibRefs="1" approvalRequired_for_document="2" approvalRequired_for_textStreams="37" checkinTime="1590012191492" checkinUser="tatiana" docAuthor="Karner, Michael" docDate="2014" docId="AA291B19B824FFCAFDD67D14FAFFFE12" docLanguage="en" docName="ejt-2014-89.pdf.imf" docOrigin="European Journal of Taxonomy 89" docStyle="DocumentStyle{}" docStyleName="ejt.v2_0.2018_backlog.journal_article" docTitle="Psammoecus laetulus Grouvelle 1914" docType="treatment" docVersion="4" lastPageId="13" lastPageNumber="14" masterDocId="56106361B82FFFC7FFE27E1AFFB9FFE6" masterDocTitle="Three new species and new records of African Psammoecus Latreille (Coleoptera, Silvanidae)" masterLastPageNumber="18" masterPageNumber="1" pageId="11" pageNumber="12" updateTime="1643528548034" updateUser="ExternalLinkService" zenodo-license-document="CC-BY-3.0" zenodo-license-figures="CC-BY-3.0" zenodo-license-treatments="UNSPECIFIED">
+<document ID-DOI="http://doi.org/10.5281/zenodo.3852024" ID-GBIF-Dataset="55dbf55a-f438-463d-b68a-8b48dba366ab" ID-GBIF-Taxon="164243850" ID-ISSN="2118-9773" ID-Zenodo-Dep="3852024" ID-ZooBank="EAADCD7D-88AB-4F79-8B66-3197FD0BBBC7" checkinTime="1590012191492" checkinUser="tatiana" docAuthor="Karner, Michael" docDate="2014" docId="AA291B19B824FFCAFDD67D14FAFFFE12" docLanguage="en" docName="ejt-2014-89.pdf.imf" docOrigin="European Journal of Taxonomy 89" docStyle="DocumentStyle:EF2B578F1D15862ADE45B0C07C620911.14:EJT.2018-.journal_article" docStyleId="EF2B578F1D15862ADE45B0C07C620911" docStyleName="EJT.2018-.journal_article" docStyleVersion="14" docTitle="Psammoecus laetulus Grouvelle 1914" docType="treatment" docVersion="6" lastPageId="13" lastPageNumber="14" masterDocId="56106361B82FFFC7FFE27E1AFFB9FFE6" masterDocTitle="Three new species and new records of African Psammoecus Latreille (Coleoptera, Silvanidae)" masterLastPageNumber="18" masterPageNumber="1" pageId="11" pageNumber="12" updateTime="1651768097390" updateUser="carolina" zenodo-license-document="CC-BY-3.0" zenodo-license-figures="CC-BY-3.0" zenodo-license-treatments="UNSPECIFIED">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Three new species and new records of African Psammoecus Latreille (Coleoptera, Silvanidae)</mods:title>
@@ -19,7 +19,7 @@
 <mods:detail type="pubDate">
 <mods:number>2014-07-04</mods:number>
 </mods:detail>
-<mods:detail type="issue">
+<mods:detail type="volume">
 <mods:number>89</mods:number>
 </mods:detail>
 <mods:extent unit="page">
@@ -58,209 +58,442 @@ Grouvelle, 1914
 </heading>
 </paragraph>
 <paragraph blockId="11.[189,1399,929,1026]" pageId="11" pageNumber="12">
+<materialsCitation box="[189,1220,929,956]" collectingDate="2001-10-26" collectionCode="MKF" collectorName="Schuh" country="Madagascar" location="Ranomafana" pageId="11" pageNumber="12" specimenCount="1" specimenCount-male="1" stateProvince="Fianarantsoa">
 <collectingCountry box="[189,402,929,955]" name="Madagascar" pageId="11" pageNumber="12">MADAGASCAR</collectingCountry>
 : 
 <collectingRegion box="[416,569,929,955]" country="Madagascar" name="Fianarantsoa" pageId="11" pageNumber="12">Fianarantsoa</collectingRegion>
-, Ranomafana, 
-<date box="[750,910,929,955]" pageId="11" pageNumber="12" value="2001-10-26">26 Oct. 2001</date>
-, leg. Schuh, 
+, 
+<location LSID="urn:lsid:plazi:treatment:AA291B19B824FFCAFDD67D14FAFFFE12:275FFCD4B824FFCCFDAA7DBBFD66FC5D" box="[584,735,929,955]" country="Madagascar" name="Ranomafana" pageId="11" pageNumber="12" stateProvince="Fianarantsoa">Ranomafana</location>
+, 
+<date box="[750,910,929,955]" pageId="11" pageNumber="12" value="2001-10-26">
+<collectingDate box="[750,910,929,955]" pageId="11" pageNumber="12" value="2001-10-26">26 Oct. 2001</collectingDate>
+</date>
+, leg. 
+<collectorName box="[979,1055,929,955]" pageId="11" pageNumber="12">Schuh</collectorName>
+, 
 <specimenCount box="[1070,1118,929,956]" pageId="11" pageNumber="12" type="male">1 ♂</specimenCount>
 (
 <collectionCode box="[1136,1206,929,955]" pageId="11" pageNumber="12">MKF</collectionCode>
-); 
+);
+</materialsCitation>
+<materialsCitation collectingDate="2001-11-01" collectionCode="MKF" collectorName="Schuh" location="Moramanga" municipality="Andasibe" pageId="11" pageNumber="12" specimenCount="1" specimenCount-female="1" stateProvince="Toamasina">
 <collectingRegion box="[1229,1359,929,955]" country="Madagascar" name="Toamasina" pageId="11" pageNumber="12">Toamasina</collectingRegion>
 , 
+<locationDeviation bearing="135.0" distance="4000.0" pageId="11" pageNumber="12">
 <quantity metricMagnitude="3" metricUnit="m" metricValue="4.0" pageId="11" pageNumber="12" unit="km" value="4.0">4 km</quantity>
-SE of Andasibe, 
+SE of
+</locationDeviation>
+<collectingMunicipality box="[306,420,964,990]" pageId="11" pageNumber="12">Andasibe</collectingMunicipality>
+, 
+<locationDeviation bearing="90.0" box="[431,563,964,991]" distance="25000.0" pageId="11" pageNumber="12">
 <quantity box="[431,505,964,991]" metricMagnitude="4" metricUnit="m" metricValue="2.5" pageId="11" pageNumber="12" unit="km" value="25.0">25 km</quantity>
-E of Moramanga, 
-<date box="[727,873,964,991]" pageId="11" pageNumber="12" value="2001-11-01">1 Nov. 2001</date>
-, leg. Schuh, 
+E of
+</locationDeviation>
+<location LSID="urn:lsid:plazi:treatment:AA291B19B824FFCAFDD67D14FAFFFE12:275FFCD4B824FFCCFDD87DDFFD72FC39" box="[570,715,965,991]" municipality="Andasibe" name="Moramanga" pageId="11" pageNumber="12" stateProvince="Toamasina">Moramanga</location>
+, 
+<date box="[727,873,964,991]" pageId="11" pageNumber="12" value="2001-11-01">
+<collectingDate box="[727,873,964,991]" pageId="11" pageNumber="12" value="2001-11-01">1 Nov. 2001</collectingDate>
+</date>
+, leg. 
+<collectorName box="[937,1013,964,990]" pageId="11" pageNumber="12">Schuh</collectorName>
+, 
 <specimenCount box="[1025,1069,964,991]" pageId="11" pageNumber="12" type="female">1 ♀</specimenCount>
 (
 <collectionCode box="[1085,1155,964,990]" pageId="11" pageNumber="12">MKF</collectionCode>
-); 
+);
+</materialsCitation>
+<materialsCitation collectingDate="2001-10-31" collectionCode="MKF" collectorName="Schuh" location="Moramanga" municipality="Anosibe an' Ala" pageId="11" pageNumber="12" specimenCount="1" specimenCount-female="1" stateProvince="Toamasina">
 <collectingRegion box="[1174,1304,964,990]" country="Madagascar" name="Toamasina" pageId="11" pageNumber="12">Toamasina</collectingRegion>
-, road to Anosibe an’ Ala, road km 18 S of Moramanga, 
-<date box="[745,900,1000,1026]" pageId="11" pageNumber="12" value="2001-10-31">31 Oct. 2001</date>
-, leg. Schuh, 
+, road to 
+<collectingMunicipality box="[189,380,999,1026]" pageId="11" pageNumber="12">Anosibe an’ Ala</collectingMunicipality>
+, road km 18 S of 
+<location LSID="urn:lsid:plazi:treatment:AA291B19B824FFCAFDD67D14FAFFFE12:275FFCD4B824FFCCFDAE7DF2FD64FBE4" box="[588,733,1000,1026]" municipality="Anosibe an' Ala" name="Moramanga" pageId="11" pageNumber="12" stateProvince="Toamasina">Moramanga</location>
+, 
+<date box="[745,900,1000,1026]" pageId="11" pageNumber="12" value="2001-10-31">
+<collectingDate box="[745,900,1000,1026]" pageId="11" pageNumber="12" value="2001-10-31">31 Oct. 2001</collectingDate>
+</date>
+, leg. 
+<collectorName box="[962,1038,999,1025]" pageId="11" pageNumber="12">Schuh</collectorName>
+, 
 <specimenCount box="[1050,1094,1000,1026]" pageId="11" pageNumber="12" type="female">1 ♀</specimenCount>
 (
 <collectionCode box="[1110,1180,1000,1026]" pageId="11" pageNumber="12">MKF</collectionCode>
 ).
+</materialsCitation>
 </paragraph>
 <paragraph blockId="11.[189,1072,1065,1092]" box="[189,1072,1065,1092]" pageId="11" pageNumber="12">
+<materialsCitation box="[189,1072,1065,1092]" collectingDate="1982-11-25" collectionCode="MKF" collectorName="Muhle" country="Rwanda" location="Nyakabuye" municipality="Cyangugu" pageId="11" pageNumber="12" specimenCount="1" specimenCount-male="1">
 <collectingCountry box="[189,321,1065,1091]" name="Rwanda" pageId="11" pageNumber="12">RWANDA</collectingCountry>
-: Cyangugu, Nyakabuye, 
-<date box="[615,776,1065,1092]" pageId="11" pageNumber="12" value="1982-11-25">25 Nov. 1982</date>
-, leg. Mühle, 
+: 
+<collectingMunicipality box="[332,456,1065,1091]" pageId="11" pageNumber="12">Cyangugu</collectingMunicipality>
+, 
+<location LSID="urn:lsid:plazi:treatment:AA291B19B824FFCAFDD67D14FAFFFE12:275FFCD4B824FFCCFE317A33FDE5FBA5" box="[467,604,1065,1091]" country="Rwanda" municipality="Cyangugu" name="Nyakabuye" pageId="11" pageNumber="12">Nyakabuye</location>
+, 
+<date box="[615,776,1065,1092]" pageId="11" pageNumber="12" value="1982-11-25">
+<collectingDate box="[615,776,1065,1092]" pageId="11" pageNumber="12" value="1982-11-25">25 Nov. 1982</collectingDate>
+</date>
+, leg. 
+<collectorName box="[839,919,1065,1091]" pageId="11" pageNumber="12">Mühle</collectorName>
+, 
 <specimenCount box="[930,974,1065,1091]" pageId="11" pageNumber="12" type="male">1 ♂</specimenCount>
 (
 <collectionCode box="[990,1060,1065,1091]" pageId="11" pageNumber="12">MKF</collectionCode>
 ).
+</materialsCitation>
 </paragraph>
 <paragraph blockId="11.[189,762,1130,1157]" box="[189,762,1130,1157]" pageId="11" pageNumber="12">
+<materialsCitation box="[189,762,1130,1157]" collectionCode="BMNH" country="Seychelles" location="Silhouette" pageId="11" pageNumber="12" specimenCount="1" specimenCount-male="1">
 <collectingCountry box="[189,378,1130,1156]" name="Seychelles" pageId="11" pageNumber="12">SEYCHELLES</collectingCountry>
-: Silhouette, 1908, 
+: 
+<location LSID="urn:lsid:plazi:treatment:AA291B19B824FFCAFDD67D14FAFFFE12:275FFCD4B824FFCCFE677A70FE46FB62" box="[389,511,1130,1156]" country="Seychelles" name="Silhouette" pageId="11" pageNumber="12">Silhouette</location>
+, 1908, 
 <specimenCount box="[596,640,1130,1157]" pageId="11" pageNumber="12" type="male">1 ♂</specimenCount>
 (
-<collectionCode box="[655,750,1130,1156]" pageId="11" pageNumber="12">BMNH</collectionCode>
+<collectionCode box="[655,750,1130,1156]" collectionName="United Kingdom, London, The Natural History Museum [formerly British Museum (Natural History)]" pageId="11" pageNumber="12">BMNH</collectionCode>
 ).
+</materialsCitation>
 </paragraph>
 <paragraph blockId="11.[189,1399,1196,1821]" pageId="11" pageNumber="12">
+<materialsCitation collectingDate="1987-04" collectingDateMax="1987-12-06" collectingDateMin="1987-04" collectionCode="TMSA, MKF" country="South Africa" location="Younga" municipality="Alexandria Forest Station" pageId="11" pageNumber="12" specimenCount="4" specimenCount-female="1" specimenCount-male="3" stateProvince="Eastern Cape Province">
 <collectingCountry box="[189,402,1196,1222]" name="South Africa" pageId="11" pageNumber="12">SOUTH AFRICA</collectingCountry>
 : 
 <collectingRegion box="[410,676,1196,1222]" country="South Africa" name="Eastern Cape" pageId="11" pageNumber="12">Eastern Cape Province</collectingRegion>
-:Alexandria Forest Station, 3Apr. &amp; 
-<date box="[1091,1230,1196,1222]" pageId="11" pageNumber="12" value="1987-12-06">6 Dec. 1987</date>
-, leg. Endrödy- Younga, 
+: 
+<collectingMunicipality box="[683,981,1196,1222]" pageId="11" pageNumber="12">Alexandria Forest Station</collectingMunicipality>
+, 
+<date box="[990,1060,1196,1222]" pageId="11" pageNumber="12" value="1987-04">
+<collectingDate box="[990,1060,1196,1222]" pageId="11" pageNumber="12" value="1987-04">3Apr.</collectingDate>
+</date>
+&amp; 
+<date box="[1091,1230,1196,1222]" pageId="11" pageNumber="12" value="1987-12-06">
+<collectingDate box="[1091,1230,1196,1222]" pageId="11" pageNumber="12" value="1987-12-06">6 Dec. 1987</collectingDate>
+</date>
+, leg. 
+<location LSID="urn:lsid:plazi:treatment:AA291B19B824FFCAFDD67D14FAFFFE12:275FFCD4B824FFCCFF5F7ACAFEA3FB0C" box="[189,282,1232,1258]" country="South Africa" municipality="Alexandria Forest Station" name="Younga" pageId="11" pageNumber="12" stateProvince="Eastern Cape Province">Endrödy-Younga</location>
+, 
 <specimenCount box="[295,364,1231,1258]" pageId="11" pageNumber="12" type="male">2 ♂♂</specimenCount>
 , 
 <specimenCount box="[379,424,1231,1258]" pageId="11" pageNumber="12" type="female">1 ♀</specimenCount>
 (2 
-<collectionCode box="[466,550,1231,1257]" country="South Africa" httpUri="http://grbio.org/cool/s8gp-ktsi" name="Transvaal Museum" pageId="11" pageNumber="12">TMSA</collectionCode>
+<collectionCode box="[466,550,1231,1257]" collectionName="South Africa, Gauteng, Pretoria, Transvaal Museum" country="South Africa" httpUri="http://grbio.org/cool/s8gp-ktsi" name="Transvaal Museum" pageId="11" pageNumber="12">TMSA</collectionCode>
 , 
 <specimenCount box="[563,609,1231,1258]" pageId="11" pageNumber="12" type="male">1 ♂</specimenCount>
 <collectionCode box="[617,686,1232,1258]" pageId="11" pageNumber="12">MKF</collectionCode>
-); Amatole, Pirie Forest, 
-<date box="[977,1125,1231,1258]" pageId="11" pageNumber="12" value="1987-12-08">8 Dec. 1987</date>
-, leg. Endrödy-Younga, 
+);
+</materialsCitation>
+<materialsCitation collectingDate="1987-12-08" collectionCode="TMSA" collectorName="Endrody-Younga" location="Pirie Forest" municipality="Amatole" pageId="11" pageNumber="12" specimenCount="1">
+<collectingMunicipality box="[706,810,1231,1257]" pageId="11" pageNumber="12">Amatole</collectingMunicipality>
+, 
+<location LSID="urn:lsid:plazi:treatment:AA291B19B824FFCAFDD67D14FAFFFE12:275FFCD4B824FFCCFCD57AD5FC7AFB0C" box="[823,963,1231,1258]" municipality="Amatole" name="Pirie Forest" pageId="11" pageNumber="12">Pirie Forest</location>
+, 
+<date box="[977,1125,1231,1258]" pageId="11" pageNumber="12" value="1987-12-08">
+<collectingDate box="[977,1125,1231,1258]" pageId="11" pageNumber="12" value="1987-12-08">8 Dec. 1987</collectingDate>
+</date>
+, leg. 
+<collectorName box="[1190,1394,1231,1257]" pageId="11" pageNumber="12">Endrödy-Younga</collectorName>
+, 
 <specimenCount box="[189,324,1266,1292]" pageId="11" pageNumber="12" type="generic">1 specimen</specimenCount>
 (
-<collectionCode box="[342,430,1266,1292]" country="South Africa" httpUri="http://grbio.org/cool/s8gp-ktsi" name="Transvaal Museum" pageId="11" pageNumber="12">TMSA</collectionCode>
-); 
+<collectionCode box="[342,430,1266,1292]" collectionName="South Africa, Gauteng, Pretoria, Transvaal Museum" country="South Africa" httpUri="http://grbio.org/cool/s8gp-ktsi" name="Transvaal Museum" pageId="11" pageNumber="12">TMSA</collectionCode>
+);
+</materialsCitation>
+<materialsCitation collectingDate="1987-11-22" collectionCode="TMSA" collectorName="Endrody-Younga" location="Tsidenge Forest Station" municipality="Amatole" pageId="11" pageNumber="12" specimenCount="1" stateProvince="Cape">
 <collectingRegion box="[452,512,1266,1292]" country="South Africa" name="Western Cape" pageId="11" pageNumber="12">Cape</collectingRegion>
-Amatole, Tsidenge Forest Station, 
-<date box="[934,1099,1266,1293]" pageId="11" pageNumber="12" value="1987-11-22">22 Nov. 1987</date>
-, leg. Endrödy-Younga, 
+<collectingMunicipality box="[520,624,1266,1292]" pageId="11" pageNumber="12">Amatole</collectingMunicipality>
+, 
+<location LSID="urn:lsid:plazi:treatment:AA291B19B824FFCAFDD67D14FAFFFE12:275FFCD4B824FFCCFD9F7AE8FC20FAEA" box="[637,921,1266,1293]" municipality="Amatole" name="Tsidenge Forest Station" pageId="11" pageNumber="12" stateProvince="Cape">Tsidenge Forest Station</location>
+, 
+<date box="[934,1099,1266,1293]" pageId="11" pageNumber="12" value="1987-11-22">
+<collectingDate box="[934,1099,1266,1293]" pageId="11" pageNumber="12" value="1987-11-22">22 Nov. 1987</collectingDate>
+</date>
+, leg. 
+<collectorName box="[1166,1370,1266,1292]" pageId="11" pageNumber="12">Endrödy-Younga</collectorName>
+, 
 <specimenCount pageId="11" pageNumber="12" type="generic">1 specimen</specimenCount>
 (
-<collectionCode box="[315,403,1302,1328]" country="South Africa" httpUri="http://grbio.org/cool/s8gp-ktsi" name="Transvaal Museum" pageId="11" pageNumber="12">TMSA</collectionCode>
-); Berlin, 22 Sep. &amp; 
-<date box="[633,776,1301,1328]" pageId="11" pageNumber="12" value="1986-12-08">8 Dec. 1986</date>
-, leg. Endrödy-Younga, 
+<collectionCode box="[315,403,1302,1328]" collectionName="South Africa, Gauteng, Pretoria, Transvaal Museum" country="South Africa" httpUri="http://grbio.org/cool/s8gp-ktsi" name="Transvaal Museum" pageId="11" pageNumber="12">TMSA</collectionCode>
+);
+</materialsCitation>
+<materialsCitation box="[422,1312,1301,1328]" collectingDate="1922-09" collectingDateMax="1986-12-08" collectingDateMin="1922-09" collectionCode="TMSA" collectorName="Endrody-Younga" location="Berlin" pageId="11" pageNumber="12" specimenCount="2">
+<location LSID="urn:lsid:plazi:treatment:AA291B19B824FFCAFDD67D14FAFFFE12:275FFCD4B824FFCCFE447B0FFE4BFAC9" box="[422,498,1301,1327]" name="Berlin" pageId="11" pageNumber="12">Berlin</location>
+, 
+<date box="[510,597,1302,1328]" pageId="11" pageNumber="12" value="1922-09">
+<collectingDate box="[510,597,1302,1328]" pageId="11" pageNumber="12" value="1922-09">22 Sep.</collectingDate>
+</date>
+&amp; 
+<date box="[633,776,1301,1328]" pageId="11" pageNumber="12" value="1986-12-08">
+<collectingDate box="[633,776,1301,1328]" pageId="11" pageNumber="12" value="1986-12-08">8 Dec. 1986</collectingDate>
+</date>
+, leg. 
+<collectorName box="[838,1042,1301,1327]" pageId="11" pageNumber="12">Endrödy-Younga</collectorName>
+, 
 <specimenCount box="[1053,1196,1301,1328]" pageId="11" pageNumber="12" type="generic">2 specimens</specimenCount>
 (
-<collectionCode box="[1211,1299,1302,1328]" country="South Africa" httpUri="http://grbio.org/cool/s8gp-ktsi" name="Transvaal Museum" pageId="11" pageNumber="12">TMSA</collectionCode>
-); Dwesa Forest Reserve, 17, 
-<date box="[424,628,1336,1363]" pageId="11" pageNumber="12" value="1979-12-26" valueMax="1979-12-27" valueMin="1979-12-26">26–27 Dec. 1979</date>
-, leg. Endrödy-Younga, 
+<collectionCode box="[1211,1299,1302,1328]" collectionName="South Africa, Gauteng, Pretoria, Transvaal Museum" country="South Africa" httpUri="http://grbio.org/cool/s8gp-ktsi" name="Transvaal Museum" pageId="11" pageNumber="12">TMSA</collectionCode>
+);
+</materialsCitation>
+<materialsCitation collectingDate="2017-12-26" collectingDateMax="2017-12-27" collectingDateMin="2017-12-26" collectionCode="TMSA" collectorName="Endrody-Younga" location="Dwesa Forest Reserve" pageId="11" pageNumber="12" specimenCount="4" specimenCount-female="4">
+<location LSID="urn:lsid:plazi:treatment:AA291B19B824FFCAFDD67D14FAFFFE12:275FFCD4B824FFCCFAC57B0CFED6FAB5" name="Dwesa Forest Reserve" pageId="11" pageNumber="12">Dwesa Forest Reserve</location>
+, 
+<date box="[379,559,1336,1363]" pageId="11" pageNumber="12" value="2017-12-26" valueMax="2017-12-27" valueMin="2017-12-26">
+<collectingDate box="[379,559,1336,1363]" pageId="11" pageNumber="12" value="2017-12-26" valueMax="2017-12-27" valueMin="2017-12-26">17, 26–27 Dec.</collectingDate>
+</date>
+1979, leg. 
+<collectorName box="[691,895,1337,1363]" pageId="11" pageNumber="12">Endrödy-Younga</collectorName>
+, 
 <specimenCount box="[907,973,1337,1363]" pageId="11" pageNumber="12" type="female">4 ♀♀</specimenCount>
 (
-<collectionCode box="[989,1077,1337,1363]" country="South Africa" httpUri="http://grbio.org/cool/s8gp-ktsi" name="Transvaal Museum" pageId="11" pageNumber="12">TMSA</collectionCode>
-). 
+<collectionCode box="[989,1077,1337,1363]" collectionName="South Africa, Gauteng, Pretoria, Transvaal Museum" country="South Africa" httpUri="http://grbio.org/cool/s8gp-ktsi" name="Transvaal Museum" pageId="11" pageNumber="12">TMSA</collectionCode>
+).
+</materialsCitation>
+<materialsCitation collectingDate="1990-01-24" collectionCode="TMSA" collectorName="Klimazsewski" location="Cape Vidal" pageId="11" pageNumber="12" specimenCount="1" stateProvince="KwaZulu Natal Province">
 <collectingRegion box="[1097,1395,1337,1363]" inferredBySuffix="true" pageId="11" pageNumber="12">KwaZulu Natal Province</collectingRegion>
 : 
-<collectingRegion box="[189,249,1372,1398]" country="South Africa" name="Western Cape" pageId="11" pageNumber="12">Cape</collectingRegion>
-Vidal, 
-<date box="[335,488,1372,1398]" pageId="11" pageNumber="12" value="1990-01-24">24 Jan. 1990</date>
-, leg. Klimazsewski, 
+<location LSID="urn:lsid:plazi:treatment:AA291B19B824FFCAFDD67D14FAFFFE12:275FFCD4B824FFCCFF5F7B46FEFAFA90" box="[189,323,1372,1398]" name="Cape Vidal" pageId="11" pageNumber="12" stateProvince="KwaZulu Natal Province">Cape Vidal</location>
+, 
+<date box="[335,488,1372,1398]" pageId="11" pageNumber="12" value="1990-01-24">
+<collectingDate box="[335,488,1372,1398]" pageId="11" pageNumber="12" value="1990-01-24">24 Jan. 1990</collectingDate>
+</date>
+, leg. 
+<collectorName box="[552,721,1372,1398]" pageId="11" pageNumber="12">Klimazsewski</collectorName>
+, 
 <specimenCount box="[733,867,1372,1398]" pageId="11" pageNumber="12" type="generic">1 specimen</specimenCount>
 (
-<collectionCode box="[883,971,1372,1398]" country="South Africa" httpUri="http://grbio.org/cool/s8gp-ktsi" name="Transvaal Museum" pageId="11" pageNumber="12">TMSA</collectionCode>
-); Karkloof Forest, 2 Sep. &amp; 
-<date pageId="11" pageNumber="12" value="1989-12-13">13 Dec. 1989</date>
-, leg. Endrödy &amp; Klimaszew, 
+<collectionCode box="[883,971,1372,1398]" collectionName="South Africa, Gauteng, Pretoria, Transvaal Museum" country="South Africa" httpUri="http://grbio.org/cool/s8gp-ktsi" name="Transvaal Museum" pageId="11" pageNumber="12">TMSA</collectionCode>
+);
+</materialsCitation>
+<materialsCitation collectingDate="1989-09" collectingDateMax="1989-12-13" collectingDateMin="1989-09" collectionCode="TMSA, MKF" collectorName="Endrody &amp; Klimaszew" location="Karkloof Forest" pageId="11" pageNumber="12" specimenCount="8">
+<location LSID="urn:lsid:plazi:treatment:AA291B19B824FFCAFDD67D14FAFFFE12:275FFCD4B824FFCCFC027B46FB24FA90" box="[992,1181,1372,1398]" name="Karkloof Forest" pageId="11" pageNumber="12">Karkloof Forest</location>
+, 
+<date box="[1194,1268,1372,1398]" pageId="11" pageNumber="12" value="1989-09">
+<collectingDate box="[1194,1268,1372,1398]" pageId="11" pageNumber="12" value="1989-09">2 Sep.</collectingDate>
+</date>
+&amp; 
+<date pageId="11" pageNumber="12" value="1989-12-13">
+<collectingDate pageId="11" pageNumber="12" value="1989-12-13">13 Dec. 1989</collectingDate>
+</date>
+, leg. 
+<collectorName box="[315,588,1407,1433]" pageId="11" pageNumber="12">Endrödy &amp; Klimaszew</collectorName>
+, 
 <specimenCount box="[600,745,1407,1433]" pageId="11" pageNumber="12" type="generic">8 specimens</specimenCount>
 (6 
-<collectionCode box="[786,870,1407,1433]" country="South Africa" httpUri="http://grbio.org/cool/s8gp-ktsi" name="Transvaal Museum" pageId="11" pageNumber="12">TMSA</collectionCode>
+<collectionCode box="[786,870,1407,1433]" collectionName="South Africa, Gauteng, Pretoria, Transvaal Museum" country="South Africa" httpUri="http://grbio.org/cool/s8gp-ktsi" name="Transvaal Museum" pageId="11" pageNumber="12">TMSA</collectionCode>
 , 2 
 <collectionCode box="[906,975,1408,1434]" pageId="11" pageNumber="12">MKF</collectionCode>
-); St. Lucia, Mission Rocks, 8–9, 
-<date pageId="11" pageNumber="12" value="1975-12-18">18 Dec. 1975</date>
-, leg. Endrödy-Younga, 
+);
+</materialsCitation>
+<materialsCitation collectingDate="1975-12" collectingDateMax="1975-12-18" collectingDateMin="1975-12" collectionCode="TMSA" collectorName="Endrody-Younga" country="Saint Lucia" location="Mission Rocks" pageId="11" pageNumber="12" specimenCount="5">
+<collectingCountry box="[996,1106,1407,1433]" name="Saint Lucia" pageId="11" pageNumber="12">St. Lucia</collectingCountry>
+, 
+<location LSID="urn:lsid:plazi:treatment:AA291B19B824FFCAFDD67D14FAFFFE12:275FFCD4B824FFCCFBBC7B65FAA8FA7F" box="[1118,1297,1407,1433]" country="Saint Lucia" name="Mission Rocks" pageId="11" pageNumber="12">Mission Rocks</location>
+, 
+<date box="[1310,1356,1407,1433]" pageId="11" pageNumber="12" value="1975-12">
+<collectingDate box="[1310,1356,1407,1433]" pageId="11" pageNumber="12" value="1975-12">8–9</collectingDate>
+</date>
+, 
+<date pageId="11" pageNumber="12" value="1975-12-18">
+<collectingDate pageId="11" pageNumber="12" value="1975-12-18">18 Dec. 1975</collectingDate>
+</date>
+, leg. 
+<collectorName box="[377,581,1442,1468]" pageId="11" pageNumber="12">Endrödy-Younga</collectorName>
+, 
 <specimenCount box="[593,738,1442,1469]" pageId="11" pageNumber="12" type="generic">5 specimens</specimenCount>
 (
-<collectionCode box="[754,842,1442,1468]" country="South Africa" httpUri="http://grbio.org/cool/s8gp-ktsi" name="Transvaal Museum" pageId="11" pageNumber="12">TMSA</collectionCode>
-); Drakensberge, Oqalweni Forest, 
-<date box="[1252,1371,1442,1468]" pageId="11" pageNumber="12" value="1960-10">Oct. 1960</date>
+<collectionCode box="[754,842,1442,1468]" collectionName="South Africa, Gauteng, Pretoria, Transvaal Museum" country="South Africa" httpUri="http://grbio.org/cool/s8gp-ktsi" name="Transvaal Museum" pageId="11" pageNumber="12">TMSA</collectionCode>
+);
+</materialsCitation>
+<materialsCitation collectingDate="1960-10" collectionCode="TMSA" location="Oqalweni Forest" municipality="Drakensberge" pageId="11" pageNumber="12" specimenCount="2">
+<collectingMunicipality box="[863,1028,1442,1468]" pageId="11" pageNumber="12">Drakensberge</collectingMunicipality>
+, 
+<location LSID="urn:lsid:plazi:treatment:AA291B19B824FFCAFDD67D14FAFFFE12:275FFCD4B824FFCCFBF37BB8FB6EFA5B" box="[1041,1239,1442,1469]" municipality="Drakensberge" name="Oqalweni Forest" pageId="11" pageNumber="12">Oqalweni Forest</location>
+, 
+<date box="[1252,1371,1442,1468]" pageId="11" pageNumber="12" value="1960-10">
+<collectingDate box="[1252,1371,1442,1468]" pageId="11" pageNumber="12" value="1960-10">Oct. 1960</collectingDate>
+</date>
 , 
 <specimenCount pageId="11" pageNumber="12" type="generic">2 specimens</specimenCount>
 (
-<collectionCode box="[328,416,1478,1504]" country="South Africa" httpUri="http://grbio.org/cool/s8gp-ktsi" name="Transvaal Museum" pageId="11" pageNumber="12">TMSA</collectionCode>
-); Malvern, Mar. &amp; 
-<date box="[648,766,1478,1504]" pageId="11" pageNumber="12" value="1897-06">Jun. 1897</date>
-, leg. G.A.K. Marshall, 
+<collectionCode box="[328,416,1478,1504]" collectionName="South Africa, Gauteng, Pretoria, Transvaal Museum" country="South Africa" httpUri="http://grbio.org/cool/s8gp-ktsi" name="Transvaal Museum" pageId="11" pageNumber="12">TMSA</collectionCode>
+);
+</materialsCitation>
+<materialsCitation box="[438,1239,1477,1504]" collectingDate="1897-03" collectingDateMax="1897-06" collectingDateMin="1897-03" collectionCode="BMNH" collectorName="G. A. K. Marshall" location="Malvern" pageId="11" pageNumber="12" specimenCount="2" specimenCount-female="2">
+<location LSID="urn:lsid:plazi:treatment:AA291B19B824FFCAFDD67D14FAFFFE12:275FFCD4B824FFCCFE547BDFFDA5FA39" box="[438,540,1477,1503]" name="Malvern" pageId="11" pageNumber="12">Malvern</location>
+, 
+<date box="[553,609,1478,1504]" pageId="11" pageNumber="12" value="1897-03">
+<collectingDate box="[553,609,1478,1504]" pageId="11" pageNumber="12" value="1897-03">Mar.</collectingDate>
+</date>
+&amp; 
+<date box="[648,766,1478,1504]" pageId="11" pageNumber="12" value="1897-06">
+<collectingDate box="[648,766,1478,1504]" pageId="11" pageNumber="12" value="1897-06">Jun. 1897</collectingDate>
+</date>
+, leg. 
+<collectorName box="[832,1033,1477,1504]" pageId="11" pageNumber="12">G.A.K. Marshall</collectorName>
+, 
 <specimenCount box="[1047,1114,1478,1504]" pageId="11" pageNumber="12" type="female">2 ♀♀</specimenCount>
 (
-<collectionCode box="[1131,1226,1478,1504]" pageId="11" pageNumber="12">BMNH</collectionCode>
-); Oribi Gorge, 
-<date box="[189,311,1512,1539]" pageId="11" pageNumber="12" value="1961-10">Oct. 1961</date>
-, leg. Leleup, 
+<collectionCode box="[1131,1226,1478,1504]" collectionName="United Kingdom, London, The Natural History Museum [formerly British Museum (Natural History)]" pageId="11" pageNumber="12">BMNH</collectionCode>
+);
+</materialsCitation>
+<materialsCitation collectingDate="1961-10" collectionCode="TMSA" collectorName="Leleup" location="Oribi Gorge" pageId="11" pageNumber="12" specimenCount="2">
+<location LSID="urn:lsid:plazi:treatment:AA291B19B824FFCAFDD67D14FAFFFE12:275FFCD4B824FFCCFB027BDFFACBFA06" box="[1248,1394,1477,1504]" name="Oribi Gorge" pageId="11" pageNumber="12">Oribi Gorge</location>
+, 
+<date box="[189,311,1512,1539]" pageId="11" pageNumber="12" value="1961-10">
+<collectingDate box="[189,311,1512,1539]" pageId="11" pageNumber="12" value="1961-10">Oct. 1961</collectingDate>
+</date>
+, leg. 
+<collectorName box="[382,466,1513,1539]" pageId="11" pageNumber="12">Leleup</collectorName>
+, 
 <specimenCount box="[482,631,1513,1539]" pageId="11" pageNumber="12" type="generic">2 specimens</specimenCount>
 (
-<collectionCode box="[651,739,1513,1539]" country="South Africa" httpUri="http://grbio.org/cool/s8gp-ktsi" name="Transvaal Museum" pageId="11" pageNumber="12">TMSA</collectionCode>
-); Sodwana Bay National Park, 
-<date box="[1126,1339,1512,1539]" pageId="11" pageNumber="12" value="1996-11-14" valueMax="1996-11-15" valueMin="1996-11-14">14–15 Nov. 1996</date>
-, leg. Uhlig, 
+<collectionCode box="[651,739,1513,1539]" collectionName="South Africa, Gauteng, Pretoria, Transvaal Museum" country="South Africa" httpUri="http://grbio.org/cool/s8gp-ktsi" name="Transvaal Museum" pageId="11" pageNumber="12">TMSA</collectionCode>
+);
+</materialsCitation>
+<materialsCitation collectingDate="1996-11-14" collectingDateMax="1996-11-15" collectingDateMin="1996-11-14" collectionCode="ZMHB" collectorName="Uhlig" location="Sodwana Bay National Park" pageId="11" pageNumber="12" specimenCount="2">
+<location LSID="urn:lsid:plazi:treatment:AA291B19B824FFCAFDD67D14FAFFFE12:275FFCD4B824FFCCFD197BF3FBEFF9E5" box="[763,1110,1513,1539]" name="Sodwana Bay National Park" pageId="11" pageNumber="12">Sodwana Bay National Park</location>
+, 
+<date box="[1126,1339,1512,1539]" pageId="11" pageNumber="12" value="1996-11-14" valueMax="1996-11-15" valueMin="1996-11-14">
+<collectingDate box="[1126,1339,1512,1539]" pageId="11" pageNumber="12" value="1996-11-14" valueMax="1996-11-15" valueMin="1996-11-14">14–15 Nov. 1996</collectingDate>
+</date>
+, leg. 
+<collectorName box="[189,259,1548,1574]" pageId="11" pageNumber="12">Uhlig</collectorName>
+, 
 <specimenCount box="[272,417,1548,1574]" pageId="11" pageNumber="12" type="generic">2 specimens</specimenCount>
 (
-<collectionCode box="[434,525,1548,1574]" pageId="11" pageNumber="12">ZMHB</collectionCode>
-); Zululand, Dukuduku Forest Station, 
-<date box="[982,1125,1548,1574]" pageId="11" pageNumber="12" value="1974-04-04">4 Apr. 1974</date>
-, leg. Endrödy-Younga, 
+<collectionCode box="[434,525,1548,1574]" collectionName="Germany, Berlin, Museum fuer Naturkunde der Humboldt-Universitaet" pageId="11" pageNumber="12">ZMHB</collectionCode>
+);
+</materialsCitation>
+<materialsCitation collectingDate="1974-04-04" collectionCode="MKF" collectorName="Endrody-Younga" location="Dukuduku Forest Station" municipality="Zululand" pageId="11" pageNumber="12" specimenCount="1" specimenCount-male="1">
+<collectingMunicipality box="[547,656,1548,1574]" pageId="11" pageNumber="12">Zululand</collectingMunicipality>
+, 
+<location LSID="urn:lsid:plazi:treatment:AA291B19B824FFCAFDD67D14FAFFFE12:275FFCD4B824FFCCFD7F7816FC70F9C0" box="[669,969,1548,1574]" municipality="Zululand" name="Dukuduku Forest Station" pageId="11" pageNumber="12">Dukuduku Forest Station</location>
+, 
+<date box="[982,1125,1548,1574]" pageId="11" pageNumber="12" value="1974-04-04">
+<collectingDate box="[982,1125,1548,1574]" pageId="11" pageNumber="12" value="1974-04-04">4 Apr. 1974</collectingDate>
+</date>
+, leg. 
+<collectorName box="[1190,1394,1548,1574]" pageId="11" pageNumber="12">Endrödy-Younga</collectorName>
+, 
 <specimenCount box="[189,235,1583,1610]" pageId="11" pageNumber="12" type="male">1 ♂</specimenCount>
 (
 <collectionCode box="[253,323,1583,1609]" pageId="11" pageNumber="12">MKF</collectionCode>
-). 
+).
+</materialsCitation>
+<materialsCitation collectingDate="1976-04-21" collectionCode="TMSA" collectorName="Endrody-Younga" location="Entabeni Forest Reserve" pageId="11" pageNumber="12" specimenCount="2" specimenCount-male="2" stateProvince="Limpopo Province">
 <collectingRegion box="[344,567,1583,1609]" country="South Africa" name="Limpopo" pageId="11" pageNumber="12">Limpopo Province</collectingRegion>
-, Entabeni Forest Reserve, 
-<date box="[888,1047,1583,1609]" pageId="11" pageNumber="12" value="1976-04-21">21 Apr. 1976</date>
-, leg. Endrödy-Younga, 
+, 
+<location LSID="urn:lsid:plazi:treatment:AA291B19B824FFCAFDD67D14FAFFFE12:275FFCD4B824FFCCFDA77835FCD3F9AC" box="[581,874,1583,1610]" name="Entabeni Forest Reserve" pageId="11" pageNumber="12" stateProvince="Limpopo Province">Entabeni Forest Reserve</location>
+, 
+<date box="[888,1047,1583,1609]" pageId="11" pageNumber="12" value="1976-04-21">
+<collectingDate box="[888,1047,1583,1609]" pageId="11" pageNumber="12" value="1976-04-21">21 Apr. 1976</collectingDate>
+</date>
+, leg. 
+<collectorName box="[1113,1317,1583,1609]" pageId="11" pageNumber="12">Endrödy-Younga</collectorName>
+, 
 <specimenCount box="[1331,1399,1583,1610]" pageId="11" pageNumber="12" type="male">2 ♂♂</specimenCount>
 (
-<collectionCode box="[197,285,1618,1644]" country="South Africa" httpUri="http://grbio.org/cool/s8gp-ktsi" name="Transvaal Museum" pageId="11" pageNumber="12">TMSA</collectionCode>
-); Mariepskop Forest, 
-<date box="[541,667,1618,1644]" pageId="11" pageNumber="12" value="1960-08">Aug. 1960</date>
-, leg. Leleup, 
+<collectionCode box="[197,285,1618,1644]" collectionName="South Africa, Gauteng, Pretoria, Transvaal Museum" country="South Africa" httpUri="http://grbio.org/cool/s8gp-ktsi" name="Transvaal Museum" pageId="11" pageNumber="12">TMSA</collectionCode>
+);
+</materialsCitation>
+<materialsCitation collectingDate="1960-08" collectingDateMax="1981-05-06" collectingDateMin="1960-08" collectionCode="TMSA" collectorName="Leleup &amp; Endrody-Younga" location="Mariepskop Forest" pageId="11" pageNumber="12" specimenCount="2">
+<location LSID="urn:lsid:plazi:treatment:AA291B19B824FFCAFDD67D14FAFFFE12:275FFCD4B824FFCCFED07848FDABF98B" box="[306,530,1618,1645]" name="Mariepskop Forest" pageId="11" pageNumber="12">Mariepskop Forest</location>
+, 
+<date box="[541,667,1618,1644]" pageId="11" pageNumber="12" value="1960-08">
+<collectingDate box="[541,667,1618,1644]" pageId="11" pageNumber="12" value="1960-08">Aug. 1960</collectingDate>
+</date>
+, leg. 
+<collectorName box="[731,815,1618,1644]" pageId="11" pageNumber="12">Leleup</collectorName>
+, 
 <specimenCount box="[827,965,1618,1644]" pageId="11" pageNumber="12" type="generic">1 specimen</specimenCount>
 ; 
-<date box="[976,1127,1618,1645]" pageId="11" pageNumber="12" value="1981-05-06">6 May. 1981</date>
-, leg. Endrödy-Younga, 
+<date box="[976,1127,1618,1645]" pageId="11" pageNumber="12" value="1981-05-06">
+<collectingDate box="[976,1127,1618,1645]" pageId="11" pageNumber="12" value="1981-05-06">6 May. 1981</collectingDate>
+</date>
+, leg. 
+<collectorName box="[1190,1394,1618,1644]" pageId="11" pageNumber="12">Endrödy-Younga</collectorName>
+, 
 <specimenCount box="[189,322,1653,1680]" pageId="11" pageNumber="12" type="generic">1 specimen</specimenCount>
 (
-<collectionCode box="[337,425,1654,1680]" country="South Africa" httpUri="http://grbio.org/cool/s8gp-ktsi" name="Transvaal Museum" pageId="11" pageNumber="12">TMSA</collectionCode>
-); Soutpansberg, 
+<collectionCode box="[337,425,1654,1680]" collectionName="South Africa, Gauteng, Pretoria, Transvaal Museum" country="South Africa" httpUri="http://grbio.org/cool/s8gp-ktsi" name="Transvaal Museum" pageId="11" pageNumber="12">TMSA</collectionCode>
+);
+</materialsCitation>
+<materialsCitation collectingDate="1973-03-14" collectingDateMax="1990-04-03" collectingDateMin="1973-03-14" collectionCode="TMSA, MKF" collectorName="Endrody-Younga" location="Younga" municipality="Hazyview" pageId="11" pageNumber="12" specimenCount="4" specimenCount-female="1" specimenCount-male="2" stateProvince="Mpumalanga Province">
+Soutpansberg, 
 <specimenCount box="[618,662,1654,1680]" pageId="11" pageNumber="12" type="female">1 ♀</specimenCount>
 (
-<collectionCode box="[677,765,1654,1680]" country="South Africa" httpUri="http://grbio.org/cool/s8gp-ktsi" name="Transvaal Museum" pageId="11" pageNumber="12">TMSA</collectionCode>
+<collectionCode box="[677,765,1654,1680]" collectionName="South Africa, Gauteng, Pretoria, Transvaal Museum" country="South Africa" httpUri="http://grbio.org/cool/s8gp-ktsi" name="Transvaal Museum" pageId="11" pageNumber="12">TMSA</collectionCode>
 ); Soutpansberg, Hanglip, 
-<date box="[1067,1226,1654,1680]" pageId="11" pageNumber="12" value="1973-03-14">14 Mar. 1973</date>
-, leg. Endrödy- Younga, 
+<date box="[1067,1226,1654,1680]" pageId="11" pageNumber="12" value="1973-03-14">
+<collectingDate box="[1067,1226,1654,1680]" pageId="11" pageNumber="12" value="1973-03-14">14 Mar. 1973</collectingDate>
+</date>
+, leg. 
+<location LSID="urn:lsid:plazi:treatment:AA291B19B824FFCAFDD67D14FAFFFE12:275FFCD4B824FFCCFF5F7883FEA3F955" box="[189,282,1689,1715]" municipality="Hazyview" name="Younga" pageId="11" pageNumber="12" stateProvince="Mpumalanga Province">Endrödy-Younga</location>
+, 
 <specimenCount box="[294,427,1689,1715]" pageId="11" pageNumber="12" type="generic">1 specimen</specimenCount>
 (
-<collectionCode box="[443,531,1689,1715]" country="South Africa" httpUri="http://grbio.org/cool/s8gp-ktsi" name="Transvaal Museum" pageId="11" pageNumber="12">TMSA</collectionCode>
+<collectionCode box="[443,531,1689,1715]" collectionName="South Africa, Gauteng, Pretoria, Transvaal Museum" country="South Africa" httpUri="http://grbio.org/cool/s8gp-ktsi" name="Transvaal Museum" pageId="11" pageNumber="12">TMSA</collectionCode>
 ). 
 <collectingRegion box="[550,822,1689,1715]" country="South Africa" name="Mpumalanga" pageId="11" pageNumber="12">Mpumalanga Province</collectingRegion>
-: Hazyview, 
-<date box="[964,1105,1689,1715]" pageId="11" pageNumber="12" value="1990-04-03">3 Apr. 1990</date>
-, leg. Endrödy-Younga, 
+: 
+<collectingMunicipality box="[833,953,1689,1715]" pageId="11" pageNumber="12">Hazyview</collectingMunicipality>
+, 
+<date box="[964,1105,1689,1715]" pageId="11" pageNumber="12" value="1990-04-03">
+<collectingDate box="[964,1105,1689,1715]" pageId="11" pageNumber="12" value="1990-04-03">3 Apr. 1990</collectingDate>
+</date>
+, leg. 
+<collectorName box="[1168,1372,1689,1715]" pageId="11" pageNumber="12">Endrödy-Younga</collectorName>
+, 
 <specimenCount pageId="11" pageNumber="12" type="male">2 ♂♂</specimenCount>
 (
 <collectionCode box="[246,312,1724,1750]" pageId="11" pageNumber="12">MKF</collectionCode>
 , 
-<collectionCode box="[322,409,1724,1750]" country="South Africa" httpUri="http://grbio.org/cool/s8gp-ktsi" name="Transvaal Museum" pageId="11" pageNumber="12">TMSA</collectionCode>
-); Nelshoogte, Knuckles Rocks Forest, 
-<date box="[854,995,1724,1750]" pageId="11" pageNumber="12" value="1986-12-04">4 Dec. 1986</date>
-, leg. Endrödy-Younga, 
+<collectionCode box="[322,409,1724,1750]" collectionName="South Africa, Gauteng, Pretoria, Transvaal Museum" country="South Africa" httpUri="http://grbio.org/cool/s8gp-ktsi" name="Transvaal Museum" pageId="11" pageNumber="12">TMSA</collectionCode>
+);
+</materialsCitation>
+<materialsCitation collectingDate="1986-12-04" collectionCode="TMSA" collectorName="Endrody-Younga" location="Knuckles Rocks Forest" municipality="Nelshoogte" pageId="11" pageNumber="12" specimenCount="1">
+<collectingMunicipality box="[426,563,1724,1750]" pageId="11" pageNumber="12">Nelshoogte</collectingMunicipality>
+, 
+<location LSID="urn:lsid:plazi:treatment:AA291B19B824FFCAFDD67D14FAFFFE12:275FFCD4B824FFCCFDDF78A6FCF5F930" box="[573,844,1724,1750]" municipality="Nelshoogte" name="Knuckles Rocks Forest" pageId="11" pageNumber="12">Knuckles Rocks Forest</location>
+, 
+<date box="[854,995,1724,1750]" pageId="11" pageNumber="12" value="1986-12-04">
+<collectingDate box="[854,995,1724,1750]" pageId="11" pageNumber="12" value="1986-12-04">4 Dec. 1986</collectingDate>
+</date>
+, leg. 
+<collectorName box="[1054,1258,1724,1750]" pageId="11" pageNumber="12">Endrödy-Younga</collectorName>
+, 
 <specimenCount box="[1268,1399,1724,1750]" pageId="11" pageNumber="12" type="generic">1 specimen</specimenCount>
 (
-<collectionCode box="[197,285,1759,1785]" country="South Africa" httpUri="http://grbio.org/cool/s8gp-ktsi" name="Transvaal Museum" pageId="11" pageNumber="12">TMSA</collectionCode>
-); Barberton, 
-<date box="[437,554,1759,1785]" pageId="11" pageNumber="12" value="1961-10">Oct. 1961</date>
-, leg. Leleup, 
+<collectionCode box="[197,285,1759,1785]" collectionName="South Africa, Gauteng, Pretoria, Transvaal Museum" country="South Africa" httpUri="http://grbio.org/cool/s8gp-ktsi" name="Transvaal Museum" pageId="11" pageNumber="12">TMSA</collectionCode>
+);
+</materialsCitation>
+<materialsCitation collectingDate="1923-10" collectingDateMax="1961-10" collectingDateMin="1923-10" collectionCode="TMSA" collectorName="Leleup &amp; Turner" location="Port St. John" pageId="11" pageNumber="12" specimenCount="5" stateProvince="Ostkap">
+Barberton, 
+<date box="[437,554,1759,1785]" pageId="11" pageNumber="12" value="1961-10">
+<collectingDate box="[437,554,1759,1785]" pageId="11" pageNumber="12" value="1961-10">Oct. 1961</collectingDate>
+</date>
+, leg. 
+<collectorName box="[616,700,1759,1785]" pageId="11" pageNumber="12">Leleup</collectorName>
+, 
 <specimenCount box="[712,844,1759,1785]" pageId="11" pageNumber="12" type="generic">1 specimen</specimenCount>
 (
-<collectionCode box="[859,947,1759,1785]" country="South Africa" httpUri="http://grbio.org/cool/s8gp-ktsi" name="Transvaal Museum" pageId="11" pageNumber="12">TMSA</collectionCode>
+<collectionCode box="[859,947,1759,1785]" collectionName="South Africa, Gauteng, Pretoria, Transvaal Museum" country="South Africa" httpUri="http://grbio.org/cool/s8gp-ktsi" name="Transvaal Museum" pageId="11" pageNumber="12">TMSA</collectionCode>
 ). 
 <collectingRegion box="[966,1052,1759,1785]" country="South Africa" name="Eastern Cape" pageId="11" pageNumber="12">Ostkap</collectingRegion>
-, Port St. John, 
-<date box="[1227,1345,1759,1785]" pageId="11" pageNumber="12" value="1923-10">Oct. 1923</date>
+, 
+<location LSID="urn:lsid:plazi:treatment:AA291B19B824FFCAFDD67D14FAFFFE12:275FFCD4B824FFCCFBC578FAFB79F91F" box="[1063,1216,1759,1786]" name="Port St. John" pageId="11" pageNumber="12" stateProvince="Ostkap">Port St. John</location>
+, 
+<date box="[1227,1345,1759,1785]" pageId="11" pageNumber="12" value="1923-10">
+<collectingDate box="[1227,1345,1759,1785]" pageId="11" pageNumber="12" value="1923-10">Oct. 1923</collectingDate>
+</date>
 , Jul. &amp; 
-<date box="[219,334,1794,1821]" pageId="11" pageNumber="12" value="1924-01">Jan. 1924</date>
-, leg. Turner, 
+<date box="[219,334,1794,1821]" pageId="11" pageNumber="12" value="1924-01">
+<collectingDate box="[219,334,1794,1821]" pageId="11" pageNumber="12" value="1924-01">Jan. 1924</collectingDate>
+</date>
+, leg. 
+<collectorName box="[396,477,1795,1821]" pageId="11" pageNumber="12">Turner</collectorName>
+, 
 <specimenCount box="[488,636,1794,1820]" pageId="11" pageNumber="12" type="generic">4 specimens</specimenCount>
 .
+</materialsCitation>
 </paragraph>
 </subSubSection>
 <subSubSection lastPageId="13" lastPageNumber="14" pageId="11" pageNumber="12" type="discussion">
