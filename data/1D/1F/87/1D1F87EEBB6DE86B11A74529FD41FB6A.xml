@@ -1,4 +1,4 @@
-<document ID-DOI="https://doi.org/10.11646/zootaxa.4295.1.1" ID-GBIF-Dataset="7fa54607-3136-43d2-ae34-6fcf7e947bf1" ID-ISSN="1175-5326" ID-Zenodo-Dep="1001753" ID-ZooBank="A7816444-BBA4-4E51-A5EC-63FE95D71051" approvalRequired="14561" approvalRequired_for_bibRefs="12352" approvalRequired_for_taxonomicNames="31" approvalRequired_for_textStreams="2129" approvalRequired_for_treatments="49" checkinTime="1508162292768" checkinUser="plazi" docAuthor="Coscarón, María Del Carmen" docDate="2017" docId="1D1F87EEBB6DE86B11A74529FD41FB6A" docLanguage="en" docName="zootaxa.4295.1.1.pdf.imf" docOrigin="Zootaxa 4295 (1)" docStyle="DocumentStyle{}" docStyleName="zootaxa.2013.monograph" docTitle="Sephina Amyot and Serville" docType="treatment" docVersion="7" lastPageNumber="70" masterDocId="E126FF96BB28E82E11304643FF83FFA9" masterDocTitle="A catalogue of the Heteroptera (Hemiptera) or true bugs of Argentina" masterLastPageNumber="432" masterPageNumber="1" pageId="69" pageNumber="70" updateTime="1595258069072" updateUser="carolina">
+<document ID-DOI="https://doi.org/10.11646/zootaxa.4295.1.1" ID-GBIF-Dataset="7fa54607-3136-43d2-ae34-6fcf7e947bf1" ID-GBIF-Taxon="135437015" ID-ISSN="1175-5326" ID-Zenodo-Dep="1001753" ID-ZooBank="A7816444-BBA4-4E51-A5EC-63FE95D71051" approvalRequired="14561" approvalRequired_for_bibRefs="12352" approvalRequired_for_taxonomicNames="31" approvalRequired_for_textStreams="2129" approvalRequired_for_treatments="49" checkinTime="1508162292768" checkinUser="plazi" docAuthor="Coscarón, María Del Carmen" docDate="2017" docId="1D1F87EEBB6DE86B11A74529FD41FB6A" docLanguage="en" docName="zootaxa.4295.1.1.pdf.imf" docOrigin="Zootaxa 4295 (1)" docStyle="DocumentStyle{}" docStyleName="zootaxa.2013.monograph" docTitle="Sephina Amyot and Serville" docType="treatment" docVersion="8" lastPageNumber="70" masterDocId="E126FF96BB28E82E11304643FF83FFA9" masterDocTitle="A catalogue of the Heteroptera (Hemiptera) or true bugs of Argentina" masterLastPageNumber="432" masterPageNumber="1" pageId="69" pageNumber="70" updateTime="1651972325141" updateUser="ExternalLinkService">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>A catalogue of the Heteroptera (Hemiptera) or true bugs of Argentina</mods:title>
@@ -38,7 +38,7 @@
 <mods:identifier type="Zenodo-Dep">1001753</mods:identifier>
 <mods:identifier type="ZooBank">A7816444-BBA4-4E51-A5EC-63FE95D71051</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:1D1F87EEBB6DE86B11A74529FD41FB6A" httpUri="http://treatment.plazi.org/id/1D1F87EEBB6DE86B11A74529FD41FB6A" pageId="69" pageNumber="70">
+<treatment ID-GBIF-Taxon="135437015" LSID="urn:lsid:plazi:treatment:1D1F87EEBB6DE86B11A74529FD41FB6A" httpUri="http://treatment.plazi.org/id/1D1F87EEBB6DE86B11A74529FD41FB6A" lastPageNumber="70" pageId="69" pageNumber="70">
 <subSubSection box="[151,566,874,899]" pageId="69" pageNumber="70" type="nomenclature">
 <paragraph blockId="69.[151,1205,874,1055]" box="[151,566,874,899]" pageId="69" pageNumber="70">
 <heading bold="true" box="[151,566,874,899]" fontSize="10" level="2" pageId="69" pageNumber="70" reason="2">
@@ -71,9 +71,9 @@ Amyot and
 , xxx. Informal name.
 </paragraph>
 <paragraph blockId="69.[151,1205,874,1055]" box="[151,571,972,994]" pageId="69" pageNumber="70">
-<materialsCitation box="[151,571,972,994]" location="Costa" pageId="69" pageNumber="70" specimenCount="1" stateProvince="Costa">
+<materialsCitation ID-GBIF-Occurrence="1675140063" box="[151,571,972,994]" location="Costa" pageId="69" pageNumber="70" specimenCount="1" stateProvince="Costa">
 1863 
-<taxonomicName authority="Costa" authorityName="Costa" authorityYear="1863" box="[208,357,972,994]" genus="Saphina" kingdom="Animalia" pageId="69" pageNumber="70" rank="genus">
+<taxonomicName authority="Costa" authorityName="Costa" authorityYear="1863" box="[208,357,972,994]" class="Insecta" family="Coreidae" genus="Saphina" higherTaxonomySource="GBIF" kingdom="Animalia" order="Hemiptera" pageId="69" pageNumber="70" phylum="Arthropoda" rank="genus">
 <emphasis box="[208,291,972,994]" italics="true" pageId="69" pageNumber="70">Saphina</emphasis>
 <collectingRegion box="[297,357,972,994]" country="New Zealand" name="West Coast" pageId="69" pageNumber="70">Costa</collectingRegion>
 </taxonomicName>
@@ -119,7 +119,7 @@ Fabricius
 </subSubSection>
 <subSubSection pageId="69" pageNumber="70" type="reference_group">
 <paragraph blockId="69.[151,1436,1100,1219]" pageId="69" pageNumber="70">
-<materialsCitation box="[151,788,1166,1188]" country="Argentina" location="Chaco" pageId="69" pageNumber="70" specimenCount="1" stateProvince="Chaco">
+<materialsCitation ID-GBIF-Occurrence="1675140073" box="[151,788,1166,1188]" country="Argentina" location="Chaco" pageId="69" pageNumber="70" specimenCount="1" stateProvince="Chaco">
 1920 
 <taxonomicName authority=": Pennington" authorityName="Pennington" box="[213,538,1166,1188]" class="Insecta" family="Coreidae" genus="Sephina" kingdom="Animalia" order="Hemiptera" pageId="69" pageNumber="70" phylum="Arthropoda" rank="species" species="pustulata">
 <emphasis box="[213,409,1166,1188]" italics="true" pageId="69" pageNumber="70">Sephina pustulata:</emphasis>
@@ -132,7 +132,7 @@ Pennington
 ]
 </materialsCitation>
 — 
-<materialsCitation box="[814,1354,1166,1188]" country="Argentina" location="Chaco" pageId="69" pageNumber="70" specimenCount="1" stateProvince="Chaco">
+<materialsCitation ID-GBIF-Occurrence="1675140025" box="[814,1354,1166,1188]" country="Argentina" location="Chaco" pageId="69" pageNumber="70" specimenCount="1" stateProvince="Chaco">
 <bibRefCitation author="Pennington" box="[814,1007,1166,1188]" pageId="69" pageNumber="70" refString="Pennington, M. S. (1922 a) Notas sobre Coreidos argentinos (conclusion). Physis, 5, 125 - 170. [Buenos Aires]" type="journal article" year="1922" yearSuffix="a">Pennington 1922a</bibRefCitation>
 , 143 [
 <collectingCountry box="[1077,1185,1166,1188]" name="Argentina" pageId="69" pageNumber="70">Argentina</collectingCountry>
@@ -141,7 +141,7 @@ Pennington
 ”]
 </materialsCitation>
 — 
-<materialsCitation country="Argentina" location="Catamarca" pageId="69" pageNumber="70" specimenCount="1" stateProvince="Catamarca">
+<materialsCitation ID-GBIF-Occurrence="1675140082" country="Argentina" location="Catamarca" pageId="69" pageNumber="70" specimenCount="1" stateProvince="Catamarca">
 <bibRefCitation author="Piran" pageId="69" pageNumber="70" refString="Piran, A. A. (1963 b) Hemiptera Neotropica VII. Algunas especies nuevas o poco conocidas del Noroeste Argentino. I. Acta Zoologica Lilloana, 19, 335 - 341." type="journal article" year="1963" yearSuffix="b">Pirán 1963b</bibRefCitation>
 , 336 [
 <collectingCountry box="[325,432,1197,1219]" name="Argentina" pageId="69" pageNumber="70">Argentina</collectingCountry>
