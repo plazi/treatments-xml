@@ -1,4 +1,4 @@
-<document ID-ISSN="1536-9307" approvalRequired="40" approvalRequired_for_originalDoi="1" approvalRequired_for_taxonomicNames="1" approvalRequired_for_textStreams="37" approvalRequired_for_treatments="1" checkinTime="1638264341924" checkinUser="felipe" docAuthor="Kovařík, František &amp; Šťáhlavský, František" docDate="2019" docId="DC014066B84D6D16FCC137B8FE44D739" docLanguage="en" docName="Euscorpius.295.1-45.pdf" docOrigin="Euscorpius 295" docStyle="DocumentStyle:05AD4CDCECA6C90C60787CEF3EC4672A.2:Euscorpius.2002-2019.journal_article" docStyleId="05AD4CDCECA6C90C60787CEF3EC4672A" docStyleName="Euscorpius.2002-2019.journal_article" docStyleVersion="2" docTitle="Reddyanus deharvengi" docType="treatment" docVersion="1" lastPageId="5" lastPageNumber="4" masterDocId="2038381EB8496D13FF863174FFA0D41A" masterDocTitle="Revision of the genus Reddyanus from Southeast Asia, with description of five new species from Cambodia, Malaysia, Thailand and Vietnam (Scorpiones: Buthidae)" masterLastPageNumber="45" masterPageNumber="1" pageId="4" pageNumber="3" updateTime="1638264436064" updateUser="GgImagineBatch" zenodo-license-document="CC-BY-4.0" zenodo-license-figures="CC-BY-4.0">
+<document ID-ISSN="1536-9307" checkinTime="1638264341924" checkinUser="felipe" docAuthor="Kovařík, František &amp; Šťáhlavský, František" docDate="2019" docId="DC014066B84D6D16FCC137B8FE44D739" docLanguage="en" docName="Euscorpius.295.1-45.pdf" docOrigin="Euscorpius 295" docStyle="DocumentStyle:05AD4CDCECA6C90C60787CEF3EC4672A.3:Euscorpius.2002-2019.journal_article" docStyleId="05AD4CDCECA6C90C60787CEF3EC4672A" docStyleName="Euscorpius.2002-2019.journal_article" docStyleVersion="3" docTitle="Reddyanus deharvengi" docType="treatment" docVersion="2" lastPageId="5" lastPageNumber="4" masterDocId="2038381EB8496D13FF863174FFA0D41A" masterDocTitle="Revision of the genus Reddyanus from Southeast Asia, with description of five new species from Cambodia, Malaysia, Thailand and Vietnam (Scorpiones: Buthidae)" masterLastPageNumber="45" masterPageNumber="1" pageId="4" pageNumber="3" updateTime="1652299025331" updateUser="tatiana" zenodo-license-document="CC-BY-4.0" zenodo-license-figures="CC-BY-4.0">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Revision of the genus Reddyanus from Southeast Asia, with description of five new species from Cambodia, Malaysia, Thailand and Vietnam (Scorpiones: Buthidae)</mods:title>
@@ -8,12 +8,16 @@
 <mods:roleTerm>Author</mods:roleTerm>
 </mods:role>
 <mods:namePart>Kovařík, František</mods:namePart>
+<mods:affiliation>Department of Zoology, Charles University, ViničnÁ 7, CZ- 128 44 Praha 2, Czech Republic;</mods:affiliation>
+<mods:nameIdentifier type="URL">www.scorpio.cz</mods:nameIdentifier>
 </mods:name>
 <mods:name type="personal">
 <mods:role>
 <mods:roleTerm>Author</mods:roleTerm>
 </mods:role>
 <mods:namePart>Šťáhlavský, František</mods:namePart>
+<mods:affiliation>Department of Zoology, Charles University, ViničnÁ 7, CZ- 128 44 Praha 2, Czech Republic;</mods:affiliation>
+<mods:nameIdentifier type="URL">www.scorpio.cz</mods:nameIdentifier>
 </mods:name>
 <mods:typeOfResource>text</mods:typeOfResource>
 <mods:relatedItem type="host">
@@ -22,6 +26,9 @@
 </mods:titleInfo>
 <mods:part>
 <mods:date>2019</mods:date>
+<mods:detail type="pubDate">
+<mods:number>2019-12-31</mods:number>
+</mods:detail>
 <mods:detail type="volume">
 <mods:number>295</mods:number>
 </mods:detail>
@@ -33,7 +40,6 @@
 </mods:relatedItem>
 <mods:classification>journal article</mods:classification>
 <mods:identifier type="ISSN">1536-9307</mods:identifier>
-<mods:identifier type="ZooBank">C1B6834A-19A0-40EA-AEA6-AC1FE9E7E4ED</mods:identifier>
 </mods:mods>
 <treatment LSID="urn:lsid:plazi:treatment:DC014066B84D6D16FCC137B8FE44D739" httpUri="http://treatment.plazi.org/id/DC014066B84D6D16FCC137B8FE44D739" lastPageId="5" lastPageNumber="4" pageId="4" pageNumber="3">
 <subSubSection box="[839,1452,1740,1767]" pageId="4" pageNumber="3" type="nomenclature">
@@ -41,7 +47,9 @@
 <heading box="[839,1452,1740,1767]" centered="true" fontSize="10" level="2" pageId="4" pageNumber="3" reason="4">
 <taxonomicName authority="(Lourenco &amp; Duhem, 2010)" baseAuthorityName="Lourenco &amp; Duhem" baseAuthorityYear="2010" box="[839,1452,1740,1767]" class="Arachnida" family="Buthidae" genus="Reddyanus" kingdom="Animalia" order="Scorpiones" pageId="4" pageNumber="3" phylum="Arthropoda" rank="species" species="deharvengi">
 <emphasis bold="true" box="[839,1115,1740,1767]" italics="true" pageId="4" pageNumber="3">Reddyanus deharvengi</emphasis>
-(Lourenço &amp; Duhem, 2010)
+(
+<bibRefCitation author="LOURENCO, W. R. &amp; B. DUHEM" box="[1130,1443,1740,1766]" journalOrPublisher="Comptes Rendus Biologies" pageId="4" pageNumber="3" pagination="631 - 636" part="333" refId="ref15832" refString="LOURENCO, W. R. &amp; B. DUHEM. 2010. Buthid scorpions found in caves; a new species of Isometrus Ehrenberg, 1828 (Scorpiones: Buthidae) from southern Vietnam. Comptes Rendus Biologies, 333: 631 - 636." title="Buthid scorpions found in caves; a new species of Isometrus Ehrenberg, 1828 (Scorpiones: Buthidae) from southern Vietnam." type="journal article" year="2010">Lourenço &amp; Duhem, 2010</bibRefCitation>
+)
 </taxonomicName>
 </heading>
 </paragraph>
@@ -55,27 +63,29 @@
 </subSubSection>
 <subSubSection pageId="4" pageNumber="3" type="reference_group">
 <paragraph blockId="4.[816,1474,1838,1894]" pageId="4" pageNumber="3">
+<treatmentCitationGroup pageId="4" pageNumber="3">
+<treatmentCitation author="LOURENCO, W. R. &amp; B. DUHEM" page="632" pageId="4" pageNumber="3" year="2010">
 <taxonomicName authority="Lourenco &amp; Duhem, 2010: 632" authorityName="Lourenco &amp; Duhem" authorityPageNumber="632" authorityYear="2010" class="Arachnida" family="Buthidae" genus="Isometrus" kingdom="Animalia" order="Scorpiones" pageId="4" pageNumber="3" phylum="Arthropoda" rank="species" species="deharvengi" subGenus="Reddyanus">
 <emphasis box="[816,921,1839,1862]" italics="true" pageId="4" pageNumber="3">Isometrus</emphasis>
 (
 <emphasis box="[948,1065,1838,1862]" italics="true" pageId="4" pageNumber="3">Reddyanus</emphasis>
 ) 
 <emphasis box="[1092,1212,1838,1862]" italics="true" pageId="4" pageNumber="3">deharvengi</emphasis>
-Lourenço &amp; Duhem, 2010: 632
+<bibRefCitation author="LOURENCO, W. R. &amp; B. DUHEM" journalOrPublisher="Comptes Rendus Biologies" pageId="4" pageNumber="3" pagination="631 - 636" part="333" refId="ref15832" refString="LOURENCO, W. R. &amp; B. DUHEM. 2010. Buthid scorpions found in caves; a new species of Isometrus Ehrenberg, 1828 (Scorpiones: Buthidae) from southern Vietnam. Comptes Rendus Biologies, 333: 631 - 636." title="Buthid scorpions found in caves; a new species of Isometrus Ehrenberg, 1828 (Scorpiones: Buthidae) from southern Vietnam." type="journal article" year="2010">Lourenço &amp; Duhem, 2010: 632</bibRefCitation>
 </taxonomicName>
+</treatmentCitation>
 .
+</treatmentCitationGroup>
 </paragraph>
 </subSubSection>
 <subSubSection pageId="4" pageNumber="3" type="materials_examined">
 <paragraph blockId="4.[816,1474,1934,2022]" pageId="4" pageNumber="3">
-<materialsCitation box="[816,1034,1934,1958]" collectionCode="LOCALITY, AND" pageId="4" pageNumber="3" specimenCount="1" typeStatus="holotype">
 <typeStatus box="[816,870,1934,1957]" pageId="4" pageNumber="3">TYPE</typeStatus>
 <collectionCode box="[879,1034,1934,1958]" pageId="4" pageNumber="3">LOCALITY AND</collectionCode>
-</materialsCitation>
-<materialsCitation collectionCode="REPOSITORY" country="Vietnam" county="Kien Luong" location="Nui Hon Chong" municipality="Hon Chong" pageId="4" pageNumber="3" specimenCount="1" stateProvince="Kien Giang" typeStatus="holotype">
 <typeStatus box="[1043,1093,1934,1957]" pageId="4" pageNumber="3">TYPE</typeStatus>
 <collectionCode box="[1102,1226,1934,1958]" pageId="4" pageNumber="3">REPOSITORY</collectionCode>
 . 
+<materialsCitation collectedFrom="in cave" collectionCode="MNHN" country="Vietnam" county="Kien Luong" location="Nui Hon Chong hill" municipality="Hon Chong" pageId="4" pageNumber="3" specimenCount="1" stateProvince="Kien Giang" typeStatus="holotype">
 <collectingCountry box="[1236,1329,1934,1958]" name="Vietnam" pageId="4" pageNumber="3">Vietnam</collectingCountry>
 , 
 <collectingRegion box="[1342,1470,1934,1958]" country="Vietnam" name="Kien Giang" pageId="4" pageNumber="3">Kien Giang</collectingRegion>
@@ -84,14 +94,15 @@ Lourenço &amp; Duhem, 2010: 632
 , 
 <collectingMunicipality box="[963,1093,1966,1990]" pageId="4" pageNumber="3">Hon Chong</collectingMunicipality>
 , 
-<location LSID="urn:lsid:plazi:treatment:DC014066B84D6D16FCC137B8FE44D739:5177A7ABB84D6D17FBD436DAFAA2D3DC" box="[1106,1282,1966,1990]" country="Vietnam" county="Kien Luong" municipality="Hon Chong" name="Nui Hon Chong" pageId="4" pageNumber="3" stateProvince="Kien Giang">Nui Hon Chong</location>
-hill, 
+<location LSID="urn:lsid:plazi:treatment:DC014066B84D6D16FCC137B8FE44D739:5177A7ABB84D6D17FBD436DAFA91D3DC" box="[1106,1329,1966,1990]" country="Vietnam" county="Kien Luong" municipality="Hon Chong" name="Nui Hon Chong hill" pageId="4" pageNumber="3" stateProvince="Kien Giang">Nui Hon Chong hill</location>
+, 
 <location LSID="urn:lsid:plazi:treatment:DC014066B84D6D16FCC137B8FE44D739:5177A7ABB84D6D17FAB936DAFCC3D3FC" country="Vietnam" county="Kien Luong" municipality="Hon Chong" name="Hang Cieng Tien" pageId="4" pageNumber="3" stateProvince="Kien Giang">Hang Ciêng Tiên</location>
-, in cave
-</materialsCitation>
+, 
+<collectedFrom box="[878,957,1998,2022]" pageId="4" pageNumber="3">in cave</collectedFrom>
 ; 
 <collectionCode box="[968,1053,1998,2021]" country="France" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34988" lsid="urn:lsid:biocol.org:col:34988" name="Museum National d'Histoire Naturelle" pageId="4" pageNumber="3">MNHN</collectionCode>
 .
+</materialsCitation>
 </paragraph>
 </subSubSection>
 <subSubSection pageId="5" pageNumber="4" type="diagnosis">

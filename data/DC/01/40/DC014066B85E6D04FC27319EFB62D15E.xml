@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.5741420" ID-ISSN="1536-9307" ID-Zenodo-Dep="5741420" approvalRequired="40" approvalRequired_for_originalDoi="1" approvalRequired_for_taxonomicNames="1" approvalRequired_for_textStreams="37" approvalRequired_for_treatments="1" checkinTime="1638264341924" checkinUser="felipe" docAuthor="Kovařík, František &amp; Šťáhlavský, František" docDate="2019" docId="DC014066B85E6D04FC27319EFB62D15E" docLanguage="en" docName="Euscorpius.295.1-45.pdf" docOrigin="Euscorpius 295" docStyle="DocumentStyle:05AD4CDCECA6C90C60787CEF3EC4672A.2:Euscorpius.2002-2019.journal_article" docStyleId="05AD4CDCECA6C90C60787CEF3EC4672A" docStyleName="Euscorpius.2002-2019.journal_article" docStyleVersion="2" docTitle="Reddyanus navaiae" docType="treatment" docVersion="2" lastPageNumber="22" masterDocId="2038381EB8496D13FF863174FFA0D41A" masterDocTitle="Revision of the genus Reddyanus from Southeast Asia, with description of five new species from Cambodia, Malaysia, Thailand and Vietnam (Scorpiones: Buthidae)" masterLastPageNumber="45" masterPageNumber="1" pageId="23" pageNumber="22" updateTime="1638264797333" updateUser="ExternalLinkService" zenodo-license-document="CC-BY-4.0" zenodo-license-figures="CC-BY-4.0">
+<document ID-DOI="http://doi.org/10.5281/zenodo.5741420" ID-ISSN="1536-9307" ID-Zenodo-Dep="5741420" checkinTime="1638264341924" checkinUser="felipe" docAuthor="Kovařík, František &amp; Šťáhlavský, František" docDate="2019" docId="DC014066B85E6D04FC27319EFB62D15E" docLanguage="en" docName="Euscorpius.295.1-45.pdf" docOrigin="Euscorpius 295" docStyle="DocumentStyle:05AD4CDCECA6C90C60787CEF3EC4672A.3:Euscorpius.2002-2019.journal_article" docStyleId="05AD4CDCECA6C90C60787CEF3EC4672A" docStyleName="Euscorpius.2002-2019.journal_article" docStyleVersion="3" docTitle="Reddyanus navaiae" docType="treatment" docVersion="3" lastPageNumber="22" masterDocId="2038381EB8496D13FF863174FFA0D41A" masterDocTitle="Revision of the genus Reddyanus from Southeast Asia, with description of five new species from Cambodia, Malaysia, Thailand and Vietnam (Scorpiones: Buthidae)" masterLastPageNumber="45" masterPageNumber="1" pageId="23" pageNumber="22" updateTime="1652299025331" updateUser="tatiana" zenodo-license-document="CC-BY-4.0" zenodo-license-figures="CC-BY-4.0">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Revision of the genus Reddyanus from Southeast Asia, with description of five new species from Cambodia, Malaysia, Thailand and Vietnam (Scorpiones: Buthidae)</mods:title>
@@ -8,12 +8,16 @@
 <mods:roleTerm>Author</mods:roleTerm>
 </mods:role>
 <mods:namePart>Kovařík, František</mods:namePart>
+<mods:affiliation>Department of Zoology, Charles University, ViničnÁ 7, CZ- 128 44 Praha 2, Czech Republic;</mods:affiliation>
+<mods:nameIdentifier type="URL">www.scorpio.cz</mods:nameIdentifier>
 </mods:name>
 <mods:name type="personal">
 <mods:role>
 <mods:roleTerm>Author</mods:roleTerm>
 </mods:role>
 <mods:namePart>Šťáhlavský, František</mods:namePart>
+<mods:affiliation>Department of Zoology, Charles University, ViničnÁ 7, CZ- 128 44 Praha 2, Czech Republic;</mods:affiliation>
+<mods:nameIdentifier type="URL">www.scorpio.cz</mods:nameIdentifier>
 </mods:name>
 <mods:typeOfResource>text</mods:typeOfResource>
 <mods:relatedItem type="host">
@@ -22,6 +26,9 @@
 </mods:titleInfo>
 <mods:part>
 <mods:date>2019</mods:date>
+<mods:detail type="pubDate">
+<mods:number>2019-12-31</mods:number>
+</mods:detail>
 <mods:detail type="volume">
 <mods:number>295</mods:number>
 </mods:detail>
@@ -33,7 +40,6 @@
 </mods:relatedItem>
 <mods:classification>journal article</mods:classification>
 <mods:identifier type="ISSN">1536-9307</mods:identifier>
-<mods:identifier type="ZooBank">C1B6834A-19A0-40EA-AEA6-AC1FE9E7E4ED</mods:identifier>
 </mods:mods>
 <treatment ID-DOI="http://doi.org/10.5281/zenodo.5741420" ID-Zenodo-Dep="5741420" LSID="urn:lsid:plazi:treatment:DC014066B85E6D04FC27319EFB62D15E" httpUri="http://treatment.plazi.org/id/DC014066B85E6D04FC27319EFB62D15E" lastPageNumber="22" pageId="23" pageNumber="22">
 <subSubSection box="[929,1361,234,263]" pageId="23" pageNumber="22" type="nomenclature">
@@ -41,7 +47,9 @@
 <heading box="[929,1361,234,263]" centered="true" fontSize="10" level="2" pageId="23" pageNumber="22" reason="4">
 <taxonomicName authority="(KovarIk, 1998)" baseAuthorityName="KovarIk" baseAuthorityYear="1998" box="[929,1361,234,263]" class="Arachnida" family="Buthidae" genus="Reddyanus" kingdom="Animalia" order="Scorpiones" pageId="23" pageNumber="22" phylum="Arthropoda" rank="species" species="navaiae">
 <emphasis bold="true" box="[929,1165,234,261]" italics="true" pageId="23" pageNumber="22">Reddyanus navaiae</emphasis>
-(KovařÍk, 1998)
+(
+<bibRefCitation author="KOVARIK, F." box="[1180,1353,235,263]" journalOrPublisher="Acta Societatis Zoologicae Bohemicae" pageId="23" pageNumber="22" pagination="35 - 40" part="62" refId="ref15550" refString="KOVARIK, F. 1998 a. Isometrus (Reddyanus) krasenskyi sp. n. from Indonesia and I. (R.) navaiae sp. n. from the Philippines (Scorpiones: Buthidae). Acta Societatis Zoologicae Bohemicae, 62: 35 - 40." title="Isometrus (Reddyanus) krasenskyi sp. n. from Indonesia and I. (R.) navaiae sp. n. from the Philippines (Scorpiones: Buthidae)" type="journal article" year="1998">KovařÍk, 1998</bibRefCitation>
+)
 </taxonomicName>
 </heading>
 </paragraph>
@@ -63,28 +71,33 @@
 <emphasis box="[937,1054,332,356]" italics="true" pageId="23" pageNumber="22">Reddyanus</emphasis>
 ) 
 <emphasis box="[1069,1153,333,356]" italics="true" pageId="23" pageNumber="22">navaiae</emphasis>
-<bibRefCitation author="KOVARIK" box="[1160,1369,333,359]" pageId="23" pageNumber="22" pagination="35 - 40" refId="ref15550" refString="KOVARIK, F. 1998 a. Isometrus (Reddyanus) krasenskyi sp. n. from Indonesia and I. (R.) navaiae sp. n. from the Philippines (Scorpiones: Buthidae). Acta Societatis Zoologicae Bohemicae, 62: 35 - 40." type="journal article" year="1998">KovařÍk, 1998a: 37</bibRefCitation>
+<bibRefCitation author="KovarIk" box="[1160,1369,333,359]" firstAuthor="KovarIk" page="37" pageId="23" pageNumber="22" pagination="35 - 40" refId="ref15550" refString="KOVARIK, F. 1998 a. Isometrus (Reddyanus) krasenskyi sp. n. from Indonesia and I. (R.) navaiae sp. n. from the Philippines (Scorpiones: Buthidae). Acta Societatis Zoologicae Bohemicae, 62: 35 - 40." type="journal article" year="1998" yearSuffix="a">KovařÍk, 1998a: 37</bibRefCitation>
 </taxonomicName>
 </treatmentCitation>
 ; 
 <treatmentCitation author="KOVARIK" page="112" pageId="23" pageNumber="22" year="1998">
-<bibRefCitation author="KOVARIK" pageId="23" pageNumber="22" refId="ref15600" refString="KOVARIK, F. 1998 b. Stiri [Scorpions]. Madagaskar, Jihlava. 175 pp. (in Czech)." type="book" year="1998">KovařÍk, 1998b: 112</bibRefCitation>
+<bibRefCitation author="KovarIk" firstAuthor="KovarIk" page="112" pageId="23" pageNumber="22" refId="ref15600" refString="KOVARIK, F. 1998 b. Stiri [Scorpions]. Madagaskar, Jihlava. 175 pp. (in Czech)." type="book" year="1998" yearSuffix="b">KovařÍk, 1998b: 112</bibRefCitation>
 </treatmentCitation>
-; Fet &amp; Lowe, 2000: 153; 
+; 
+<treatmentCitation author="FET, V. &amp; G. LOWE" box="[1000,1257,364,389]" page="153" pageId="23" pageNumber="22" year="2000">
+<bibRefCitation author="FET, V. &amp; G. LOWE" bookContentInfo="689 pp." box="[1000,1257,364,389]" editor="Fet, V. &amp; W. D. Sissom &amp; G. Lowe &amp; M. E. Braunwalder" journalOrPublisher="New York: The New York Entomological Society" pageId="23" pageNumber="22" pagination="54 - 286" refId="ref15343" refString="FET, V. &amp; G. LOWE. 2000. Family Buthidae C. L. Koch, 1837. Pp. 54 - 286 in Fet, V., W. D. Sissom, G. Lowe &amp; M. E. Braunwalder. Catalog of the Scorpions of the World (1758 - 1998). New York: The New York Entomological Society, 689 pp." title="Family Buthidae C. L. Koch, 1837" type="book chapter" volumeTitle="Catalog of the Scorpions of the World (1758 - 1998)" year="2000">Fet &amp; Lowe, 2000: 153</bibRefCitation>
+</treatmentCitation>
+; 
 <treatmentCitation ID-DOI="http://doi.org/10.5281/zenodo.4672892" ID-Zenodo-Dep="4672892" author="KOVARIK" box="[1270,1469,365,391]" httpUri="http://treatment.plazi.org/id/4703879F4514270BFCAAAD43273482C2" page="10" pageId="23" pageNumber="22" year="2003">
-<bibRefCitation author="KOVARIK" box="[1270,1469,365,391]" pageId="23" pageNumber="22" pagination="1 - 19" refId="ref15624" refString="KOVARIK, F. 2003. A review of the genus Isometrus Ehrenberg, 1828 (Scorpiones: Buthidae) with descriptions of four new species from Asia and Australia. Euscorpius, 10: 1 - 19." type="journal article" year="2003">KovařÍk, 2003: 10</bibRefCitation>
+<bibRefCitation author="KovarIk" box="[1270,1469,365,391]" firstAuthor="KovarIk" page="10" pageId="23" pageNumber="22" pagination="1 - 19" refId="ref15624" refString="KOVARIK, F. 2003. A review of the genus Isometrus Ehrenberg, 1828 (Scorpiones: Buthidae) with descriptions of four new species from Asia and Australia. Euscorpius, 10: 1 - 19." type="journal article" year="2003">KovařÍk, 2003: 10</bibRefCitation>
 </treatmentCitation>
-; KovařÍk in KovařÍk et Ojanguren, 2013: 190, figs. 1339– 1340.
+; KovařÍk in 
+<treatmentCitation author="KOVARIK, F. &amp; A. A. OJANGUREN AFFILASTRO" box="[987,1343,396,423]" page="190" pageId="23" pageNumber="22" year="2013">
+<bibRefCitation author="KOVARIK, F. &amp; A. A. OJANGUREN AFFILASTRO" bookContentInfo="400 pp." box="[987,1343,396,423]" journalOrPublisher="Prague: Clairon Production" pageId="23" pageNumber="22" refId="ref15783" refString="KOVARIK, F. &amp; A. A. OJANGUREN AFFILASTRO. 2013. Illustrated catalog of scorpions. Part II. Bothriuridae; Chaerilidae; Buthidae I. Genera Compsobuthus, Hottentotta, Isometrus, Lychas, and Sassanidotus. Prague: Clairon Production, 400 pp." title="Illustrated catalog of scorpions. Part II. Bothriuridae; Chaerilidae; Buthidae I. Genera Compsobuthus, Hottentotta, Isometrus, Lychas, and Sassanidotus." type="book" year="2013">KovařÍk et Ojanguren, 2013: 190</bibRefCitation>
+</treatmentCitation>
+, figs. 1339– 1340.
 </treatmentCitationGroup>
 </paragraph>
 </subSubSection>
 <subSubSection pageId="23" pageNumber="22" type="materials_examined">
 <paragraph blockId="23.[816,1474,492,549]" pageId="23" pageNumber="22">
-<materialsCitation box="[816,1061,493,517]" collectionCode="LOCALITY, AND" pageId="23" pageNumber="22" specimenCount="1" typeStatus="holotype">
 <typeStatus box="[816,870,493,516]" pageId="23" pageNumber="22">TYPE</typeStatus>
 <collectionCode box="[892,1061,493,517]" pageId="23" pageNumber="22">LOCALITY AND</collectionCode>
-</materialsCitation>
-<materialsCitation collectionCode="REPOSITORY" collectorName="S. Mindanao" country="Philippines" location="Port Banga" pageId="23" pageNumber="22" specimenCount="1" typeStatus="holotype">
 <typeStatus box="[1083,1133,493,516]" pageId="23" pageNumber="22">TYPE</typeStatus>
 <collectionCode box="[1156,1280,493,517]" pageId="23" pageNumber="22">REPOSITORY</collectionCode>
 . 
@@ -93,48 +106,44 @@
 <collectorName pageId="23" pageNumber="22">S. Mindanao</collectorName>
 , 
 <location LSID="urn:lsid:plazi:treatment:DC014066B85E6D04FC27319EFB62D15E:5177A7ABB85E6D04FC2C3379FB84D63F" box="[938,1060,525,549]" country="Philippines" name="Port Banga" pageId="23" pageNumber="22">Port Banga</location>
-</materialsCitation>
 ; 
 <collectionCode box="[1071,1152,525,548]" pageId="23" pageNumber="22">ZMHB</collectionCode>
 .
 </paragraph>
 <paragraph blockId="23.[816,1475,588,773]" pageId="23" pageNumber="22">
-<materialsCitation box="[816,1470,588,613]" collectionCode="TYPE, MATERIAL" collectorName="S. Mindanao" country="Philippines" location="Port Banga" pageId="23" pageNumber="22" specimenCount="1">
 <collectionCode box="[816,992,589,613]" pageId="23" pageNumber="22">TYPE MATERIAL</collectionCode>
 . 
+<materialsCitation collectingDate="1915-05" collectionCode="ZMHB" collectorName="S. Bottcher &amp; V. Heyne" country="Philippines" location="Port Banga" pageId="23" pageNumber="22" specimenCount="1" specimenCount-female="1" stateProvince="S. Mindanao" typeStatus="holotype">
 <emphasis bold="true" box="[1013,1140,588,612]" pageId="23" pageNumber="22">
 <collectingCountry box="[1013,1140,588,612]" name="Philippines" pageId="23" pageNumber="22">Philippines</collectingCountry>
 </emphasis>
 , 
-<collectorName box="[1165,1315,588,613]" pageId="23" pageNumber="22">S. Mindanao</collectorName>
+<collectingRegion box="[1165,1315,588,613]" pageId="23" pageNumber="22">S. Mindanao</collectingRegion>
 , 
-<location LSID="urn:lsid:plazi:treatment:DC014066B85E6D04FC27319EFB62D15E:5177A7ABB85E6D04FABF3339FA1ED67F" box="[1337,1470,589,613]" country="Philippines" name="Port Banga" pageId="23" pageNumber="22">Port Banga</location>
-</materialsCitation>
+<location LSID="urn:lsid:plazi:treatment:DC014066B85E6D04FC27319EFB62D15E:5177A7ABB85E6D04FABF3339FA1ED67F" box="[1337,1470,589,613]" country="Philippines" name="Port Banga" pageId="23" pageNumber="22" stateProvince="S. Mindanao">Port Banga</location>
 , 
 <date box="[816,895,620,644]" pageId="23" pageNumber="22" value="1915-05">
-<collectionCode box="[816,836,620,644]" country="Canada" lsid="urn:lsid:biocol.org:col:13946" name="Royal British Columbia Museum - Herbarium" pageId="23" pageNumber="22" type="Museum">V</collectionCode>
-.1915
+<collectingDate box="[816,895,620,644]" pageId="23" pageNumber="22" value="1915-05">V.1915</collectingDate>
 </date>
-, 
-<specimenCount box="[909,942,621,645]" pageId="23" pageNumber="22" type="female">4♀</specimenCount>
+, 4 
+<specimenCount box="[926,942,621,645]" pageId="23" pageNumber="22" type="female">♀</specimenCount>
 (
 <typeStatus box="[959,1054,620,644]" pageId="23" pageNumber="22">holotype</typeStatus>
-and 
-<typeStatus box="[1112,1218,621,645]" pageId="23" pageNumber="22">paratypes</typeStatus>
-), leg. S. Böttcher &amp; 
-<materialsCitation collectionCode="V" collectorName="Heyne" country="Philippines" pageId="23" pageNumber="22" specimenCount="1">
-<collectionCode box="[1452,1471,621,644]" country="Canada" lsid="urn:lsid:biocol.org:col:13946" name="Royal British Columbia Museum - Herbarium" pageId="23" pageNumber="22" type="Museum">V</collectionCode>
-. 
-<collectorName box="[816,888,653,677]" pageId="23" pageNumber="22">Heyne</collectorName>
+and paratypes), leg. 
+<collectorName box="[1289,1412,620,645]" pageId="23" pageNumber="22">S. Böttcher</collectorName>
+&amp; 
+<collectorName pageId="23" pageNumber="22">V. Heyne</collectorName>
+, 
+<collectionCode box="[902,982,653,676]" pageId="23" pageNumber="22">ZMHB</collectionCode>
 </materialsCitation>
 , 
-<materialsCitation collectingDate="1905-01" collectionCode="ZMHB, NMPC, FKCP" collectorName="N. Mindanao &amp; S. Bottcher" country="Philippines" location="Kolambugan" pageId="23" pageNumber="22" specimenCount="2" specimenCount-female="1" typeStatus="paratype">
-<collectionCode box="[902,982,653,676]" pageId="23" pageNumber="22">ZMHB</collectionCode>
-, 
+<materialsCitation box="[995,1161,653,677]" collectingDate="1915-05" collectionCode="ZMHB, NMPC, FKCP" collectorName="S. Bottcher &amp; V. Heyne" country="Philippines" location="Port Banga" pageId="23" pageNumber="22" specimenCount="1" specimenCount-female="3" stateProvince="S. Mindanao" typeStatus="paratype">
 <collectionCode box="[995,1073,653,677]" country="Czech Republic" httpUri="http://grbio.org/cool/hj12-2xm7" name="National Museum Prague" pageId="23" pageNumber="22">NMPC</collectionCode>
 , 
 <collectionCode box="[1087,1157,653,677]" pageId="23" pageNumber="22">FKCP</collectionCode>
-; 
+;
+</materialsCitation>
+<materialsCitation collectingDate="1905-01" pageId="23" pageNumber="22">
 <collectorName box="[1170,1316,652,676]" pageId="23" pageNumber="22">N. Mindanao</collectorName>
 , 
 <location LSID="urn:lsid:plazi:treatment:DC014066B85E6D04FC27319EFB62D15E:5177A7ABB85E6D04FAB433F8FA1FD6BE" box="[1330,1471,652,676]" country="Philippines" name="Kolambugan" pageId="23" pageNumber="22">Kolambugan</location>
@@ -149,17 +158,15 @@ and
 <typeStatus box="[1018,1126,685,709]" pageId="23" pageNumber="22">paratypes</typeStatus>
 ), leg. 
 <collectorName box="[1198,1322,684,709]" pageId="23" pageNumber="22">S. Böttcher</collectorName>
-</materialsCitation>
 &amp; 
-<materialsCitation box="[1364,1470,685,709]" collectionCode="V" collectorName="Heyne" country="Philippines" pageId="23" pageNumber="22" specimenCount="1" typeStatus="paratype">
 <collectionCode box="[1364,1383,685,708]" country="Canada" lsid="urn:lsid:biocol.org:col:13946" name="Royal British Columbia Museum - Herbarium" pageId="23" pageNumber="22" type="Museum">V</collectionCode>
 . 
 <collectorName box="[1398,1470,685,709]" pageId="23" pageNumber="22">Heyne</collectorName>
-</materialsCitation>
 , 
-<materialsCitation collectingDate="1914-04-25" collectionCode="ZMHB" collectorName="S. Bottcher" country="Philippines" elevation="2000" location="Luzon" municipality="Banahao" pageId="23" pageNumber="22" specimenCount="1" specimenCount-female="1" typeStatus="paratype">
 <collectionCode box="[816,896,717,740]" pageId="23" pageNumber="22">ZMHB</collectionCode>
-; 
+;
+</materialsCitation>
+<materialsCitation collectingDate="1914-04-25" elevation="2000.0" pageId="23" pageNumber="22">
 <location LSID="urn:lsid:plazi:treatment:DC014066B85E6D04FC27319EFB62D15E:5177A7ABB85E6D04FC1733B9FC78D6FE" box="[913,984,717,740]" country="Philippines" municipality="Banahao" name="Luzon" pageId="23" pageNumber="22">Luzon</location>
 , 
 <collectingMunicipality box="[1000,1096,716,740]" pageId="23" pageNumber="22">Banahao</collectingMunicipality>
@@ -178,16 +185,14 @@ a. s. l.
 <typeStatus box="[824,921,749,773]" pageId="23" pageNumber="22">paratype</typeStatus>
 ), leg. 
 <collectorName box="[985,1105,748,773]" pageId="23" pageNumber="22">S. Böttcher</collectorName>
-</materialsCitation>
 &amp; 
-<materialsCitation box="[1139,1240,749,773]" collectionCode="V" collectorName="Heyne" country="Philippines" pageId="23" pageNumber="22" specimenCount="1" typeStatus="paratype">
 <collectionCode box="[1139,1158,749,772]" country="Canada" lsid="urn:lsid:biocol.org:col:13946" name="Royal British Columbia Museum - Herbarium" pageId="23" pageNumber="22" type="Museum">V</collectionCode>
 . 
 <collectorName box="[1168,1240,749,773]" pageId="23" pageNumber="22">Heyne</collectorName>
-</materialsCitation>
 , 
 <collectionCode box="[1251,1332,749,772]" pageId="23" pageNumber="22">ZMHB</collectionCode>
 .
+</materialsCitation>
 </paragraph>
 </subSubSection>
 <subSubSection pageId="23" pageNumber="22" type="diagnosis">
