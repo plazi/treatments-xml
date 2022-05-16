@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.3740269" ID-GBIF-Dataset="34e4a5a6-881c-4a1a-b64d-6868e12df7fb" ID-GBIF-Taxon="163435136" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="3740269" approvalRequired="518" approvalRequired_for_document="1" approvalRequired_for_originalDoi="1" approvalRequired_for_taxonomicNames="152" approvalRequired_for_textStreams="311" approvalRequired_for_treatments="53" checkinTime="1586037971521" checkinUser="plazi" docAuthor="Bonaccorso, Frank" docDate="2019" docId="03D587F2FFD94C13FF153987FE0DFD29" docLanguage="en" docName="hbmw-9.emballorunidae.pdf.imd" docOrigin="Handbook of the Mammals of the World, Vol. 9, Lyny Edicions" docStyle="DocumentStyle{}" docTitle="Saccopteryx bilineata" docType="treatment" docVersion="11" lastPageId="23" lastPageNumber="9" masterDocId="FFECFF8AFFCF4C04FFA53577FFF8FFE9" masterDocTitle="Family Emballonuridae (Sheath-tailed Bats)" masterLastPageNumber="373" masterPageNumber="350" pageId="22" pageNumber="371" updateTime="1637932782092" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.3740269" ID-GBIF-Dataset="34e4a5a6-881c-4a1a-b64d-6868e12df7fb" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="3740269" approvalRequired="7" approvalRequired_for_taxonomicNames="2" approvalRequired_for_treatments="5" checkinTime="1586037971521" checkinUser="plazi" docAuthor="Bonaccorso, Frank" docDate="2019" docId="03D587F2FFD94C13FF153987FE0DFD29" docLanguage="en" docName="hbmw_9_Emballorunidae.pdf.imd" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Lyny Edicions" docStyle="DocumentStyle{}" docTitle="Saccopteryx bilineata" docType="treatment" docVersion="13" lastPageNumber="9" masterDocId="FFECFF8AFFCF4C04FFA53577FFF8FFE9" masterDocTitle="Family Emballonuridae (Sheath-tailed Bats)" masterLastPageNumber="373" masterPageNumber="350" pageNumber="371" updateTime="1652725477925" updateUser="tatiana">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Family Emballonuridae (Sheath-tailed Bats)</mods:title>
@@ -29,7 +29,7 @@
 <mods:namePart>Mittermeier, Russel A.</mods:namePart>
 </mods:name>
 <mods:titleInfo>
-<mods:title>Handbook of the Mammals of the World, Vol. 9</mods:title>
+<mods:title>Handbook of the Mammals of the World – Volume 9 Bats</mods:title>
 </mods:titleInfo>
 <mods:part>
 <mods:extent unit="page">
@@ -77,14 +77,20 @@ Greater
 Bat
 </paragraph>
 </subSubSection>
-<subSubSection pageId="22" pageNumber="371" type="discussion">
+<subSubSection pageId="22" pageNumber="371" type="reference_group">
 <paragraph blockId="22.[990,1786,3538,4101]" pageId="22" pageNumber="371">
 <emphasis box="[996,1198,3538,3577]" pageId="22" pageNumber="371">Taxonomy</emphasis>
 . 
-<taxonomicName authority="Temminck, 1838" authorityName="Temminck" authorityYear="1838" box="[1219,1399,3538,3577]" class="Mammalia" family="Emballonuridae" genus="Urocryptus" higherTaxonomySource="GBIF" kingdom="Animalia" order="Chiroptera" pageId="22" pageNumber="371" phylum="Chordata" rank="genus">
-<emphasis box="[1219,1399,3538,3577]" italics="true" pageId="22" pageNumber="371">Urocryptus</emphasis>
+<taxonomicName authority="Temminck, 1838" authorityName="Temminck" authorityYear="1838" class="Mammalia" family="Emballonuridae" genus="Urocryptus" higherTaxonomySource="CoL" kingdom="Animalia" order="Chiroptera" pageId="22" pageNumber="371" phylum="Chordata" rank="species" species="bilineatus">
+<emphasis box="[1219,1570,3538,3577]" italics="true" pageId="22" pageNumber="371">Urocryptus bilineatus</emphasis>
+Temminck, 1838
 </taxonomicName>
-bilineatusTemminck, 1838, “ 
+,
+</paragraph>
+</subSubSection>
+<subSubSection box="[1110,1581,3589,3628]" pageId="22" pageNumber="371" type="materials_examined">
+<paragraph blockId="22.[990,1786,3538,4101]" box="[1110,1581,3589,3628]" pageId="22" pageNumber="371">
+“ 
 <materialsCitation ID-GBIF-Occurrence="2595781774" box="[1127,1550,3589,3628]" country="Suriname" location="Suriname" pageId="22" pageNumber="371" specimenCount="1" typeStatus="type">
 <collectingCountry box="[1127,1288,3589,3628]" name="Suriname" pageId="22" pageNumber="371">Surinam</collectingCountry>
 [= 
@@ -92,12 +98,14 @@ bilineatusTemminck, 1838, “
 </materialsCitation>
 ].”
 </paragraph>
+</subSubSection>
+<subSubSection pageId="22" pageNumber="371" type="discussion">
 <paragraph blockId="22.[990,1786,3538,4101]" pageId="22" pageNumber="371">
 <taxonomicName baseAuthorityName="Temminck" baseAuthorityYear="1838" box="[999,1409,3642,3681]" class="Mammalia" family="Emballonuridae" genus="Saccopteryx" kingdom="Animalia" order="Chiroptera" pageId="22" pageNumber="371" phylum="Chordata" rank="species" species="bilineata">
 <emphasis box="[999,1409,3642,3681]" italics="true" pageId="22" pageNumber="371">Saccopteryx bilineata</emphasis>
 </taxonomicName>
 was originally described in the genus 
-<taxonomicName authority="Temminck, 1838" authorityName="Temminck" authorityYear="1838" box="[1439,1619,3694,3733]" class="Mammalia" family="Emballonuridae" genus="Urocryptus" higherTaxonomySource="GBIF" kingdom="Animalia" order="Chiroptera" pageId="22" pageNumber="371" phylum="Chordata" rank="genus">
+<taxonomicName box="[1439,1619,3694,3733]" class="Mammalia" family="Emballonuridae" genus="Urocryptus" higherTaxonomySource="CoL" kingdom="Animalia" order="Chiroptera" pageId="22" pageNumber="371" phylum="Chordata" rank="genus">
 <emphasis box="[1439,1619,3694,3733]" italics="true" pageId="22" pageNumber="371">Urocryptus</emphasis>
 </taxonomicName>
 but later recognized as monophyletic in the existing genus 
@@ -119,13 +127,9 @@ but they were considered to be synonymous with
 . 
 <emphasis box="[1376,1524,4010,4049]" italics="true" pageId="22" pageNumber="371">bilineata</emphasis>
 </taxonomicName>
-byJ. K. 
-<taxonomicName authority=", Jr." authorityName="Jr." authorityYear="1936" class="Demospongiae" family="Coelosphaeridae" genus="Jones" higherTaxonomySource="GBIF" kingdom="Animalia" order="Poecilosclerida" pageId="22" pageNumber="371" phylum="Porifera" rank="genus">
-Jones, 
+byJ. K. Jones, 
 <emphasis bold="true" box="[990,1028,4062,4101]" pageId="22" pageNumber="371">Jr</emphasis>
-.
-</taxonomicName>
-and. S. Hood in 1993. Monotypic.
+. and. S. Hood in 1993. Monotypic.
 </paragraph>
 </subSubSection>
 <subSubSection pageId="22" pageNumber="371" type="distribution">
@@ -293,9 +297,7 @@ al. (1981),
 , Achmann &amp; Mayer (2000), Heckel, 
 <emphasis box="[544,619,515,542]" italics="true" pageId="23" pageNumber="9">Voigt</emphasis>
 et al. (1999), 
-<taxonomicName authority="Hood (1993)" authorityName="Hood" authorityYear="1993" box="[825,914,515,542]" class="Demospongiae" family="Coelosphaeridae" genus="Jones" higherTaxonomySource="GBIF" kingdom="Animalia" order="Poecilosclerida" pageId="23" pageNumber="9" phylum="Porifera" rank="genus">
 <emphasis box="[825,914,515,542]" italics="true" pageId="23" pageNumber="9">Jones</emphasis>
-</taxonomicName>
 &amp; Hood (1993), Knörnschild &amp; von Helversen (2008), 
 <emphasis box="[1722,1832,515,542]" italics="true" pageId="23" pageNumber="9">Knörnschild</emphasis>
 , Behr &amp; 

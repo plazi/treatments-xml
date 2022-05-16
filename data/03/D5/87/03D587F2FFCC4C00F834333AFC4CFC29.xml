@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.3810757" ID-GBIF-Dataset="34e4a5a6-881c-4a1a-b64d-6868e12df7fb" ID-GBIF-Taxon="163435147" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="3810757" approvalRequired="518" approvalRequired_for_document="1" approvalRequired_for_originalDoi="1" approvalRequired_for_taxonomicNames="152" approvalRequired_for_textStreams="311" approvalRequired_for_treatments="53" checkinTime="1586037971521" checkinUser="plazi" docAuthor="Bonaccorso, Frank" docDate="2019" docId="03D587F2FFCC4C00F834333AFC4CFC29" docLanguage="en" docName="hbmw-9.emballorunidae.pdf.imd" docOrigin="Handbook of the Mammals of the World, Vol. 9, Lyny Edicions" docStyle="DocumentStyle{}" docTitle="Taphozous hildegardeae Thomas 1909" docType="treatment" docVersion="12" lastPageId="4" lastPageNumber="353" masterDocId="FFECFF8AFFCF4C04FFA53577FFF8FFE9" masterDocTitle="Family Emballonuridae (Sheath-tailed Bats)" masterLastPageNumber="373" masterPageNumber="350" pageId="3" pageNumber="352" updateTime="1637932782092" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.3740269" ID-GBIF-Dataset="34e4a5a6-881c-4a1a-b64d-6868e12df7fb" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="3740269" approvalRequired="7" approvalRequired_for_taxonomicNames="2" approvalRequired_for_treatments="5" checkinTime="1586037971521" checkinUser="plazi" docAuthor="Bonaccorso, Frank" docDate="2019" docId="03D587F2FFCC4C00F834333AFC4CFC29" docLanguage="en" docName="hbmw_9_Emballorunidae.pdf.imd" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Lyny Edicions" docStyle="DocumentStyle{}" docTitle="Taphozous hildegardeae Thomas 1909" docType="treatment" docVersion="14" lastPageNumber="353" masterDocId="FFECFF8AFFCF4C04FFA53577FFF8FFE9" masterDocTitle="Family Emballonuridae (Sheath-tailed Bats)" masterLastPageNumber="373" masterPageNumber="350" pageNumber="352" updateTime="1652725477925" updateUser="tatiana">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Family Emballonuridae (Sheath-tailed Bats)</mods:title>
@@ -29,7 +29,7 @@
 <mods:namePart>Mittermeier, Russel A.</mods:namePart>
 </mods:name>
 <mods:titleInfo>
-<mods:title>Handbook of the Mammals of the World, Vol. 9</mods:title>
+<mods:title>Handbook of the Mammals of the World – Volume 9 Bats</mods:title>
 </mods:titleInfo>
 <mods:part>
 <mods:extent unit="page">
@@ -82,7 +82,11 @@ Bat
 <emphasis box="[2986,3165,1843,1882]" italics="true" pageId="3" pageNumber="352">Taphozous</emphasis>
 hildegardeaeThomas, 1909
 </taxonomicName>
-, “ 
+, “
+</paragraph>
+</subSubSection>
+<subSubSection pageId="3" pageNumber="352" type="materials_examined">
+<paragraph blockId="3.[2757,3558,1843,2411]" pageId="3" pageNumber="352">
 <materialsCitation ID-GBIF-Occurrence="2595781784" country="Kenya" elevation="213" location="Rabai" pageId="3" pageNumber="352" specimenCount="1" typeStatus="type">
 <location LSID="urn:lsid:plazi:treatment:03D587F2FFCC4C00F834333AFC4CFC29:8EA3603FFFCC4C07F4E93212F443F865" box="[2892,3003,1893,1932]" country="Kenya" name="Rabai" pageId="3" pageNumber="352">Rabai</location>
 , 700 ’ [= 
@@ -142,14 +146,16 @@ Tropical
 <emphasis box="[2266,2329,3163,3202]" italics="true" pageId="3" pageNumber="352">dry</emphasis>
 forests in very restricted coastal areas from sea level to elevations of C.214 m. Hildegarde’s Tomb Bat also might occur further inland in gallery forests along the Tana River.
 </paragraph>
-<paragraph blockId="3.[1930,3555,2424,4624]" pageId="3" pageNumber="352">
+<paragraph blockId="3.[1930,3555,2424,4624]" box="[1933,3543,3321,3360]" pageId="3" pageNumber="352">
 <emphasis bold="true" box="[1933,2278,3321,3360]" pageId="3" pageNumber="352">
 <emphasis box="[1933,2271,3321,3360]" pageId="3" pageNumber="352">Food and Feeding</emphasis>
 .
 </emphasis>
 Hildegarde’s Tomb Bat eats species of Orthoptera and 
 <taxonomicName authorityName="Linnaeus" authorityYear="1758" box="[3305,3536,3321,3360]" class="Insecta" kingdom="Animalia" order="Lepidoptera" pageId="3" pageNumber="352" phylum="Arthropoda" rank="order">Lepidoptera</taxonomicName>
-. 
+.
+</paragraph>
+<paragraph blockId="3.[1930,3555,2424,4624]" pageId="3" pageNumber="352">
 <emphasis box="[1933,2108,3374,3413]" pageId="3" pageNumber="352">Breeding</emphasis>
 . In coastal Kenya, reproductive cycle ofHildegarde’s Tomb Bat closely corresponds to regional seasonality in rainfall. Males have pronounced bimodal cycles of fat deposition, corresponding to relative insect abundance during dual rainy seasons in Kenya. During active courtship and copulation in the first dry season of the year when moth abundance is lowest, males deplete body fat; fat accumulation in males is greatest in the long rainy season in Kenya. Females do not put on appreciable fat deposits, and even near-term pregnant females do not reach large seasonal body weights of males. A secondary peak in body weight and development of male sexual glands are associated with “short rains” in October-December. Second rainy season apparently does not result in reproduction but appears to allow maintenance of year-round harems that might reflect a vestigial polyestrous reproductive cycle.
 </paragraph>
@@ -174,18 +180,17 @@ and the bat fly
 <taxonomicName authorityName="Macquart" authorityYear="1851" box="[1322,1554,344,383]" class="Insecta" family="Hippoboscidae" genus="Brachytarsina" kingdom="Animalia" order="Diptera" pageId="4" pageNumber="353" phylum="Arthropoda" rank="genus">Brachytarsina</taxonomicName>
 aUuaudi
 </emphasis>
-have been identified as common ectoparasites in the larger colonies of Hildegard’s Tomb Bats
+have been identified as common ectoparasites in the larger colonies of Hildegard’s Tomb Bats.
 </paragraph>
-<paragraph blockId="4.[182,1798,344,967]" pageId="4" pageNumber="353">
-. 
+</subSubSection>
 <subSubSection pageId="4" pageNumber="353" type="conservation">
+<paragraph blockId="4.[182,1798,344,967]" pageId="4" pageNumber="353">
 <emphasis box="[183,633,450,489]" pageId="4" pageNumber="353">Status and Conservation</emphasis>
 . Classified as Vulnerable on 
 <emphasis box="[1165,1227,450,489]" italics="true" pageId="4" pageNumber="353">The</emphasis>
 IUCNRed 
 <emphasis box="[1419,1491,450,489]" italics="true" pageId="4" pageNumber="353">List.</emphasis>
 Extent of occurrence of Hildegard’s Tomb Bat is less than 20,000 km2, its distribution is severely fragmented, and there is continuing decline in extent and quality of its forest habitat. It has been recorded from fewer than ten coastal localities. No distribution-wide population estimates are available, but surveys in Kenya and Tanzania in 1988 documented more than 130, 300, and 1000 individuals in three caves. Hildegard’s Tomb Bat likely is declining due to loss of habitat in coastal dry forests and disturbance of cave sites. Updated surveys of cave populations are needed to reassess it conservation status.
-</subSubSection>
 </paragraph>
 </subSubSection>
 <subSubSection pageId="4" pageNumber="353" type="reference_group">

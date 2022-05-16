@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.3810709" ID-GBIF-Dataset="34e4a5a6-881c-4a1a-b64d-6868e12df7fb" ID-GBIF-Taxon="163435165" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="3810709" approvalRequired="518" approvalRequired_for_document="1" approvalRequired_for_originalDoi="1" approvalRequired_for_taxonomicNames="152" approvalRequired_for_textStreams="311" approvalRequired_for_treatments="53" checkinTime="1586037971521" checkinUser="plazi" docAuthor="Bonaccorso, Frank" docDate="2019" docId="03D587F2FFC34C08FF0D3952F27FF407" docLanguage="en" docName="hbmw-9.emballorunidae.pdf.imd" docOrigin="Handbook of the Mammals of the World, Vol. 9, Lyny Edicions" docStyle="DocumentStyle{}" docTitle="Emballonura semicaudata Peale 1848" docType="treatment" docVersion="12" lastPageNumber="361" masterDocId="FFECFF8AFFCF4C04FFA53577FFF8FFE9" masterDocTitle="Family Emballonuridae (Sheath-tailed Bats)" masterLastPageNumber="373" masterPageNumber="350" pageId="12" pageNumber="361" updateTime="1637932782092" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.3740269" ID-GBIF-Dataset="34e4a5a6-881c-4a1a-b64d-6868e12df7fb" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="3740269" approvalRequired="7" approvalRequired_for_taxonomicNames="2" approvalRequired_for_treatments="5" checkinTime="1586037971521" checkinUser="plazi" docAuthor="Bonaccorso, Frank" docDate="2019" docId="03D587F2FFC34C08FF0D3952F27FF407" docLanguage="en" docName="hbmw_9_Emballorunidae.pdf.imd" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Lyny Edicions" docStyle="DocumentStyle{}" docTitle="Emballonura semicaudata Peale 1848" docType="treatment" docVersion="14" lastPageNumber="361" masterDocId="FFECFF8AFFCF4C04FFA53577FFF8FFE9" masterDocTitle="Family Emballonuridae (Sheath-tailed Bats)" masterLastPageNumber="373" masterPageNumber="350" pageNumber="361" updateTime="1652725477925" updateUser="tatiana">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Family Emballonuridae (Sheath-tailed Bats)</mods:title>
@@ -29,7 +29,7 @@
 <mods:namePart>Mittermeier, Russel A.</mods:namePart>
 </mods:name>
 <mods:titleInfo>
-<mods:title>Handbook of the Mammals of the World, Vol. 9</mods:title>
+<mods:title>Handbook of the Mammals of the World – Volume 9 Bats</mods:title>
 </mods:titleInfo>
 <mods:part>
 <mods:extent unit="page">
@@ -55,10 +55,7 @@
 <subSubSection box="[1011,1674,3109,3170]" pageId="12" pageNumber="361" type="nomenclature">
 <paragraph blockId="12.[168,1674,3109,3170]" box="[1011,1674,3109,3170]" pageId="12" pageNumber="361">
 <taxonomicName authorityName="Peale" authorityYear="1848" box="[1011,1674,3109,3170]" class="Mammalia" family="Emballonuridae" genus="Emballonura" kingdom="Animalia" order="Chiroptera" pageId="12" pageNumber="361" phylum="Chordata" rank="species" species="semicaudata">
-<emphasis box="[1011,1674,3109,3170]" italics="true" pageId="12" pageNumber="361">
-Emballonura 
-<taxonomicName box="[1360,1674,3109,3170]" class="Mammalia" family="Emballonuridae" genus="Emballonura" higherTaxonomySource="CoL" kingdom="Animalia" order="Chiroptera" pageId="12" pageNumber="361" phylum="Chordata" rank="species" species="semicaudata">semicaudata</taxonomicName>
-</emphasis>
+<emphasis box="[1011,1674,3109,3170]" italics="true" pageId="12" pageNumber="361">Emballonura semicaudata</emphasis>
 </taxonomicName>
 </paragraph>
 </subSubSection>
@@ -80,27 +77,29 @@ Caroline Sheath-tailed Bat, Mariana Sheath-tailed Bat,
 Sheath-tailed Bat
 </paragraph>
 </subSubSection>
-<subSubSection pageId="12" pageNumber="361" type="reference_group">
 <paragraph blockId="12.[984,1778,3336,3901]" pageId="12" pageNumber="361">
-<emphasis bold="true" box="[985,1194,3336,3375]" pageId="12" pageNumber="361">
+<subSubSection pageId="12" pageNumber="361" type="reference_group">
 <emphasis box="[985,1185,3336,3375]" pageId="12" pageNumber="361">Taxonomy</emphasis>
-.
-</emphasis>
-<taxonomicName box="[1225,1391,3336,3375]" class="Mammalia" family="Vespertilionidae" genus="Vespertilio" kingdom="Animalia" order="Chiroptera" pageId="12" pageNumber="361" phylum="Chordata" rank="genus">Vespertilio</taxonomicName>
+. 
+<taxonomicName authority="Peale, 1848" authorityName="Peale" authorityYear="1848" class="Mammalia" family="Vespertilionidae" genus="Vespertilio" kingdom="Animalia" order="Chiroptera" pageId="12" pageNumber="361" phylum="Chordata" rank="species" species="semicaudatus">
+Vespertilio 
 <emphasis box="[1414,1644,3336,3375]" italics="true" pageId="12" pageNumber="361">semicaudatus</emphasis>
-Peale, 1848, 
+Peale, 1848
+</taxonomicName>
+,
+</subSubSection>
+<subSubSection box="[1099,1233,3388,3427]" pageId="12" pageNumber="361" type="materials_examined">
 <materialsCitation ID-GBIF-Occurrence="2595781815" box="[1099,1228,3388,3427]" country="Samoa" location="Samoa" pageId="12" pageNumber="361" specimenCount="1" typeStatus="type">
 <collectingCountry box="[1099,1228,3388,3427]" name="Samoa" pageId="12" pageNumber="361">Samoa</collectingCountry>
 </materialsCitation>
 .
+</subSubSection>
 </paragraph>
+<subSubSection pageId="12" pageNumber="361" type="discussion">
 <paragraph blockId="12.[984,1778,3336,3901]" pageId="12" pageNumber="361">
 S. J. Oyler-McCance and colleagues in 2013 reviewed taxonomy of 
 <taxonomicName authorityName="Peale" authorityYear="1848" box="[1516,1778,3493,3532]" class="Mammalia" family="Emballonuridae" genus="Emballonura" kingdom="Animalia" order="Chiroptera" pageId="12" pageNumber="361" phylum="Chordata" rank="species" species="semicaudata">
-<emphasis box="[1516,1778,3493,3532]" italics="true" pageId="12" pageNumber="361">
-E. 
-<taxonomicName box="[1567,1778,3493,3532]" class="Mammalia" family="Emballonuridae" genus="Emballonura" higherTaxonomySource="CoL" kingdom="Animalia" order="Chiroptera" pageId="12" pageNumber="361" phylum="Chordata" rank="species" species="semicaudata">semicaudata</taxonomicName>
-</emphasis>
+<emphasis box="[1516,1778,3493,3532]" italics="true" pageId="12" pageNumber="361">E. semicaudata</emphasis>
 </taxonomicName>
 and found genetic distances in the cytochrome-b gene among subspecies to be larger than typically reported for mammalian subspecies. They also found that 
 <emphasis box="[1084,1209,3757,3796]" italics="true" pageId="12" pageNumber="361">rotensis</emphasis>
@@ -208,7 +207,7 @@ Activity
 <emphasis bold="true" box="[2032,2198,1433,1472]" pageId="12" pageNumber="361">patterns.</emphasis>
 Pacific Sheath-tailed Bats are crepuscular and roost in limestone caves, including 
 <emphasis box="[2198,2258,1486,1525]" italics="true" pageId="12" pageNumber="361">sea</emphasis>
-caves, and under rock overhangs. They prefer to roost in larg­ er caves and display significant fidelity to roosting caves. On Aguigan, they began to emerge in twilight conditions around sunset and had fully emerged 15 minutes after sunset. Emerging bats immediately moved to shaded understories in evergreen forests where they forage early in the evening, and they often moved above forest canopies after dark. Flight is slow and fluttery.
+caves, and under rock overhangs. They prefer to roost in larger caves and display significant fidelity to roosting caves. On Aguigan, they began to emerge in twilight conditions around sunset and had fully emerged 15 minutes after sunset. Emerging bats immediately moved to shaded understories in evergreen forests where they forage early in the evening, and they often moved above forest canopies after dark. Flight is slow and fluttery.
 </paragraph>
 <paragraph blockId="12.[1868,3504,369,3060]" pageId="12" pageNumber="361">
 <emphasis bold="true" box="[1874,2566,1804,1843]" pageId="12" pageNumber="361">Movements, Home range and Social</emphasis>

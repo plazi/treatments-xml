@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.3810735" ID-GBIF-Dataset="34e4a5a6-881c-4a1a-b64d-6868e12df7fb" ID-GBIF-Taxon="163435153" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="3810735" approvalRequired="518" approvalRequired_for_document="1" approvalRequired_for_originalDoi="1" approvalRequired_for_taxonomicNames="152" approvalRequired_for_textStreams="311" approvalRequired_for_treatments="53" checkinTime="1586037971521" checkinUser="plazi" docAuthor="Bonaccorso, Frank" docDate="2019" docId="03D587F2FFC94C02F8FA36ADF71EF0C4" docLanguage="en" docName="hbmw-9.emballorunidae.pdf.imd" docOrigin="Handbook of the Mammals of the World, Vol. 9, Lyny Edicions" docStyle="DocumentStyle{}" docTitle="Taphozous hilli Kitchener 1980" docType="treatment" docVersion="12" lastPageNumber="355" masterDocId="FFECFF8AFFCF4C04FFA53577FFF8FFE9" masterDocTitle="Family Emballonuridae (Sheath-tailed Bats)" masterLastPageNumber="373" masterPageNumber="350" pageId="6" pageNumber="355" updateTime="1637932782092" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.3740269" ID-GBIF-Dataset="34e4a5a6-881c-4a1a-b64d-6868e12df7fb" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="3740269" approvalRequired="7" approvalRequired_for_taxonomicNames="2" approvalRequired_for_treatments="5" checkinTime="1586037971521" checkinUser="plazi" docAuthor="Bonaccorso, Frank" docDate="2019" docId="03D587F2FFC94C02F8FA36ADF71EF0C4" docLanguage="en" docName="hbmw_9_Emballorunidae.pdf.imd" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Lyny Edicions" docStyle="DocumentStyle{}" docTitle="Taphozous hilli Kitchener 1980" docType="treatment" docVersion="14" lastPageNumber="355" masterDocId="FFECFF8AFFCF4C04FFA53577FFF8FFE9" masterDocTitle="Family Emballonuridae (Sheath-tailed Bats)" masterLastPageNumber="373" masterPageNumber="350" pageNumber="355" updateTime="1652725477925" updateUser="tatiana">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Family Emballonuridae (Sheath-tailed Bats)</mods:title>
@@ -29,7 +29,7 @@
 <mods:namePart>Mittermeier, Russel A.</mods:namePart>
 </mods:name>
 <mods:titleInfo>
-<mods:title>Handbook of the Mammals of the World, Vol. 9</mods:title>
+<mods:title>Handbook of the Mammals of the World – Volume 9 Bats</mods:title>
 </mods:titleInfo>
 <mods:part>
 <mods:extent unit="page">
@@ -78,24 +78,26 @@ Hill's
 Bat, Slender-toothed Sheath-tailed Bat
 </paragraph>
 </subSubSection>
-<subSubSection pageId="6" pageNumber="355" type="reference_group">
-<paragraph blockId="6.[2700,3503,1216,1785]" pageId="6" pageNumber="355">
+<subSubSection box="[2703,3502,1216,1255]" pageId="6" pageNumber="355" type="reference_group">
+<paragraph blockId="6.[2700,3503,1216,1785]" box="[2703,3502,1216,1255]" pageId="6" pageNumber="355">
 <emphasis box="[2703,2908,1216,1255]" pageId="6" pageNumber="355">Taxonomy</emphasis>
 . 
-<taxonomicName box="[2931,3109,1216,1255]" class="Mammalia" family="Emballonuridae" genus="Taphozous" kingdom="Animalia" order="Chiroptera" pageId="6" pageNumber="355" phylum="Chordata" rank="genus">
+<taxonomicName authorityName="Kitchener" authorityYear="1980" box="[2931,3495,1216,1255]" class="Mammalia" family="Emballonuridae" genus="Taphozous" kingdom="Animalia" order="Chiroptera" pageId="6" pageNumber="355" phylum="Chordata" rank="species" species="hilli">
 <emphasis box="[2931,3109,1216,1255]" italics="true" pageId="6" pageNumber="355">Taphozous</emphasis>
+hiUiVstchener, 1980
 </taxonomicName>
-hiUiVstchener, 1980, 
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="6" pageNumber="355" type="materials_examined">
+<paragraph blockId="6.[2700,3503,1216,1785]" pageId="6" pageNumber="355">
 <materialsCitation ID-GBIF-Occurrence="2595781812" collectedFrom="disturbed from roof of test adit [= horizontal passage leading into a mine]" country="Australia" latitude="-29.65083" location="4 - 8 km 180 ° from Mt Bruce" longitude="118.14166" pageId="6" pageNumber="355" specimenCount="1" stateProvince="Western Australia" typeStatus="type">
 “ 
 <location LSID="urn:lsid:plazi:treatment:03D587F2FFC94C02F8FA36ADF71EF0C4:8EA3603FFFC94C02F5043183F34FFAF2" box="[2721,3255,1268,1307]" country="Australia" longitude="118.14166" name="4 - 8 km 180 ° from Mt Bruce" pageId="6" pageNumber="355" stateProvince="Western Australia">
 <quantity box="[2721,2855,1268,1307]" metricMagnitude="3" metricUnit="m" metricValue="6.0" metricValueMax="8.0" metricValueMin="4.0" pageId="6" pageNumber="355" unit="km" value="6.0" valueMax="8.0" valueMin="4.0">4-8 km</quantity>
 180° from Mt Bruce
 </location>
-(
-<geoCoordinate box="[3286,3501,1268,1307]" pageId="6" pageNumber="355">29°39’03’S,</geoCoordinate>
-<geoCoordinate box="[2706,2943,1321,1360]" degrees="118" direction="east" minutes="08" orientation="longitude" pageId="6" pageNumber="355" precision="15" seconds="30" value="118.14166">118°08’30”E</geoCoordinate>
-), 
+(29°39’03’S, 118°08’30”E), 
 <location LSID="urn:lsid:plazi:treatment:03D587F2FFC94C02F8FA36ADF71EF0C4:8EA3603FFFC94C02F407305EF51FFA6C" country="Australia" longitude="118.14166" name="Hammersly Range National Park" pageId="6" pageNumber="355" stateProvince="Western Australia">Hammersly Range National Park</location>
 ..., 
 <collectedFrom pageId="6" pageNumber="355">disturbed from roof of test adit [= horizontal passage leading into a mine]</collectedFrom>
@@ -144,11 +146,11 @@ Descriptive notes. Head-body 63-81 • 1 mm, tail 26-35 mm, ear 18-5-23-7 mm, hi
 <emphasis box="[2107,2307,2218,2257]" italics="true" pageId="6" pageNumber="355">posteriorly</emphasis>
 transitions to snuff brown, tipped dark yellow-brown. Uropatagium is raw umber and furred lightly in anal region. Propatagium is also sparsely haired and clay in color; plagiopatagium is lightly furred, with deep olive hairs along edges of upper arm and forearm. There are patches of dense buffy brown hairs at opening of radial-metacarpal pouches, and sparse 
 <emphasis box="[2588,2685,2430,2469]" italics="true" pageId="6" pageNumber="355">buffy</emphasis>
-brown hairs cover ventral side of radial-metacarpal pouch. Skin of plagiopatagium, lips, fece, 
-<taxonomicName box="[2801,2916,2483,2522]" class="Liliopsida" family="Poaceae" genus="Tragus" kingdom="Plantae" order="Poales" pageId="6" pageNumber="354" phylum="Tracheophyta" rank="genus">tragus</taxonomicName>
-, and ears are 
+brown hairs cover ventral side of radial-metacarpal pouch. Skin of plagiopatagium, lips, fece, tragus, and ears are 
 <emphasis box="[3174,3393,2483,2522]" italics="true" pageId="6" pageNumber="355">olive-brown</emphasis>
-. Skin of rhinarium is light brown. Anterior one-third of chin is bare, but posterior two-thirds is sparsely covered with olive-brown hair. Fur on forehead is not as dense as rest ofdorsum. 
+. Skin of rhinarium is light brown. Anterior one-third of chin is bare, but posterior two-thirds is sparsely covered with olive-brown hair. Fur on forehead is not as dense as rest ofdorsum.
+</paragraph>
+<paragraph blockId="6.[1871,3501,1795,3885]" pageId="6" pageNumber="355">
 <emphasis box="[1876,2021,2642,2681]" pageId="6" pageNumber="355">Habitat</emphasis>
 . Commonly arid woodlands, semiarid woodlands, and scrublands in rocky, hilly country and uncommonly sandy desert.
 </paragraph>
@@ -167,7 +169,9 @@ while flying at fast speeds above and around trees.
 <emphasis box="[1876,2047,2853,2892]" pageId="6" pageNumber="355">Breeding</emphasis>
 . Seasonal enlargement ofthroat pouches ofbreeding male Hill’s Sheath-tailed Bats is correlated with enlargement of seminiferous tubules and accessory male glands. Females give birth to one young between early summer and mid-autumn (December- April). After parturition, female reproductive organs become quiescent until early 
 <emphasis box="[3412,3489,3010,3049]" italics="true" pageId="6" pageNumber="355">winter</emphasis>
-. Males appear to be fertile throughout the year, but testes are scrotal in summer, inguinal in late autumn to winter, and abdominal mid-winter until late spring. Copulation appears to be restricted to briefperiods when females are in estrus beginning in August. 
+. Males appear to be fertile throughout the year, but testes are scrotal in summer, inguinal in late autumn to winter, and abdominal mid-winter until late spring. Copulation appears to be restricted to briefperiods when females are in estrus beginning in August.
+</paragraph>
+<paragraph blockId="6.[1871,3501,1795,3885]" pageId="6" pageNumber="355">
 <emphasis bold="true" box="[1872,2188,3221,3260]" pageId="6" pageNumber="355">Activity patterns.</emphasis>
 Hill’s Sheath-tailed Bat emerges well after dark, and roosts exclusively in crevices, caves, and unused mines. It clings by all four limbs to vertical walls in twilight zones of caves and mines.
 </paragraph>
