@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.5719829" ID-GBIF-Dataset="ab7b3796-32e4-4ce6-b3ca-caa38bc94377" ID-GBIF-Taxon="190545678" ID-ISBN="978-84-96553-77-4" ID-Zenodo-Dep="5719829" approvalRequired="5" approvalRequired_for_taxonomicNames="4" approvalRequired_for_treatments="1" checkinTime="1633679304096" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2011" docId="039F7D71A96CAD1C081CF80D7046DAD4" docLanguage="en" docName="hbmw_2_Giraffidae_0788.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 2 Hoofed Mammals, Barcelona: Lynx Edicions" docTitle="Okapia" docType="treatment" docVersion="6" lastPageId="3" lastPageNumber="802" masterDocId="FFA60509A96EAD1F0D6FFF8F772DDD2A" masterDocTitle="Giraffidae" masterLastPageNumber="802" masterPageNumber="788" pageId="2" pageNumber="801" updateTime="1651486471616" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.5719821" ID-GBIF-Dataset="ab7b3796-32e4-4ce6-b3ca-caa38bc94377" ID-ISBN="978-84-96553-77-4" ID-Zenodo-Dep="5719821" approvalRequired="2" approvalRequired_for_taxonomicNames="2" checkinTime="1633679304096" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2011" docId="039F7D71A96CAD1C081CF80D7046DAD4" docLanguage="en" docName="hbmw_2_Giraffidae_0788.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 2 Hoofed Mammals, Barcelona: Lynx Edicions" docTitle="Okapia johnstonii" docType="treatment" docVersion="8" lastPageNumber="802" masterDocId="FFA60509A96EAD1F0D6FFF8F772DDD2A" masterDocTitle="Giraffidae" masterLastPageNumber="802" masterPageNumber="788" pageNumber="801" updateTime="1652731332252" updateUser="jonas">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Giraffidae</mods:title>
@@ -59,10 +59,9 @@
 <subSubSection box="[1626,1948,1917,1963]" pageId="2" pageNumber="801" type="nomenclature">
 <paragraph blockId="2.[1394,1948,1917,2002]" box="[1626,1948,1917,1963]" pageId="2" pageNumber="801">
 <heading box="[1626,1948,1917,1963]" pageId="2" pageNumber="801">
-<emphasis box="[1626,1948,1917,1963]" italics="true" pageId="2" pageNumber="801">
-<taxonomicName box="[1626,1762,1917,1963]" class="Mammalia" family="Giraffidae" genus="Okapia" kingdom="Animalia" order="Artiodactyla" pageId="2" pageNumber="801" phylum="Chordata" rank="genus">Okapia</taxonomicName>
-johnstonii
-</emphasis>
+<taxonomicName box="[1626,1948,1917,1963]" class="Mammalia" family="Giraffidae" genus="Okapia" kingdom="Animalia" order="Artiodactyla" pageId="2" pageNumber="801" phylum="Chordata" rank="species" species="johnstonii">
+<emphasis box="[1626,1948,1917,1963]" italics="true" pageId="2" pageNumber="801">Okapia johnstonii</emphasis>
+</taxonomicName>
 </heading>
 </paragraph>
 </subSubSection>
@@ -91,22 +90,28 @@ johnstonii
 </heading>
 </paragraph>
 </subSubSection>
-<subSubSection pageId="2" pageNumber="801" type="reference_group">
-<paragraph blockId="2.[2009,2595,2047,2474]" pageId="2" pageNumber="801">
+<subSubSection box="[2009,2593,2047,2080]" pageId="2" pageNumber="801" type="reference_group">
+<paragraph blockId="2.[2009,2595,2047,2474]" box="[2009,2593,2047,2080]" pageId="2" pageNumber="801">
 <emphasis bold="true" box="[2009,2164,2047,2080]" pageId="2" pageNumber="801">
 <emphasis box="[2009,2160,2047,2080]" pageId="2" pageNumber="801">Taxonomy</emphasis>
 .
 </emphasis>
-Equus johnston: Sclater, 1901, 
-<materialsCitation pageId="2" pageNumber="801">
+Equus johnston: Sclater, 1901,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="2" pageNumber="801" type="materials_examined">
+<paragraph blockId="2.[2009,2595,2047,2474]" pageId="2" pageNumber="801">
+<materialsCitation ID-GBIF-Occurrence="3758678302" pageId="2" pageNumber="801">
 forests along Semliki River, Mundala, 
 <collectingCountry box="[2010,2449,2126,2159]" name="Democratic Republic of the Congo" pageId="2" pageNumber="801">Democratic Republic of Congo</collectingCountry>
 .
 </materialsCitation>
 </paragraph>
+</subSubSection>
+<subSubSection box="[2009,2370,2165,2198]" pageId="2" pageNumber="801" type="discussion">
 <paragraph blockId="2.[2009,2595,2047,2474]" box="[2009,2370,2165,2198]" pageId="2" pageNumber="801">This species is monotypic.</paragraph>
 </subSubSection>
-<subSubSection pageId="2" pageNumber="801" type="distribution">
+<subSubSection pageId="2" pageNumber="801" type="multiple">
 <caption ID-DOI="http://doi.org/10.5281/zenodo.5719827" ID-Zenodo-Dep="5719827" httpUri="https://zenodo.org/record/5719827/files/figure.png" inLine="true" pageId="2" pageNumber="801" startId="2.[2009,2180,2205,2238]" targetBox="[1391,1985,2057,2473]" targetPageId="2">
 <paragraph blockId="2.[2009,2595,2047,2474]" pageId="2" pageNumber="801">
 <emphasis bold="true" box="[2009,2184,2205,2238]" pageId="2" pageNumber="801">
@@ -128,7 +133,7 @@ Okapis are endemic to the rain forests of the N &amp; NE
 Head-body 200-210 cm, tail 30-42 cm, height from the sole of the forefoot to the crown at maturity 
 <quantity box="[2100,2203,2436,2474]" metricMagnitude="0" metricUnit="m" metricValue="1.8" pageId="2" pageNumber="801" unit="cm" value="180.0">180 cm</quantity>
 and to the shoulder 
-<quantity metricMagnitude="0" metricUnit="m" metricValue="1.6" metricValueMax="1.7" metricValueMin="1.5" pageId="2" pageNumber="801" unit="cm" value="160.0" valueMax="170.0" valueMin="150.0">150— 170 cm</quantity>
+<quantity metricMagnitude="0" metricUnit="m" metricValue="1.6" metricValueMax="1.7" metricValueMin="1.5" pageId="2" pageNumber="801" unit="cm" value="160.0" valueMax="170.0" valueMin="150.0">150—170 cm</quantity>
 ; weight 180-320 kg. Cows are noticeably taller and more massive than bulls, weighing upward of 
 <quantity box="[1684,1778,2519,2552]" metricMagnitude="2" metricUnit="kg" metricValue="2.7" pageId="2" pageNumber="801" unit="kg" value="270.0">270 kg</quantity>
 . Almost nothing is known of Okapi anatomy and physiology. The body shape resembles that of the Giraffe, except that Okapis have much shorter necks. The pelage is dark brown-purplish on the body, with black muzzle and white to yellow stripes on the rump and forelegs. The forehead and large ears are chestnut in color. The lower legs are white with dark garters at the joints. Stripes are specific to each individual and are thoughtto help calves follow their mothers through dense rain forests, and also to break up the outline of their body, creating camouflage in the light and shade of the forest understory. With age stripes become more clear and distinct. The hair is short and oily, enabling waterproofing in a damp forest environment. The mane hairs are 
