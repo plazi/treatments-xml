@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.5698349" ID-GBIF-Dataset="42812098-88b0-4d43-bdb1-9dccf92aaa47" ID-ISBN="978-84-96553-49-1" ID-Zenodo-Dep="5698349" approvalRequired="16" approvalRequired_for_taxonomicNames="2" approvalRequired_for_treatments="14" checkinTime="1633477116202" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2009" docId="D51587EFFFEC9A37F0C01851F8E4F99F" docLanguage="en" docName="hbmw_1_Eupleridae_0330.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 1 Carnivores, Barcelona: Lynx Edicions" docTitle="Fossa fossana" docType="treatment" docVersion="25" lastPageNumber="347" masterDocId="292CFF97FFE89A33F0651C02FF86FF94" masterDocTitle="Eupleridae" masterLastPageNumber="351" masterPageNumber="330" pageId="4" pageNumber="347" updateTime="1646894222874" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.5676533" ID-GBIF-Dataset="42812098-88b0-4d43-bdb1-9dccf92aaa47" ID-ISBN="978-84-96553-49-1" ID-Zenodo-Dep="5676533" approvalRequired="6" approvalRequired_for_document="1" approvalRequired_for_originalDoi="1" approvalRequired_for_treatments="4" checkinTime="1633477116202" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2009" docId="D51587EFFFEC9A37F0C01851F8E4F99F" docLanguage="en" docName="hbmw_1_Eupleridae_0330.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 1 Carnivores, Barcelona: Lynx Edicions" docTitle="Fossa fossana" docType="treatment" docVersion="26" lastPageNumber="347" masterDocId="292CFF97FFE89A33F0651C02FF86FF94" masterDocTitle="Eupleridae" masterLastPageNumber="351" masterPageNumber="330" pageNumber="347" updateTime="1652721194311" updateUser="jonas">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Eupleridae</mods:title>
@@ -95,23 +95,29 @@
 </heading>
 </paragraph>
 </subSubSection>
-<subSubSection pageId="4" pageNumber="347" type="reference_group">
-<paragraph blockId="4.[775,1366,1277,1703]" pageId="4" pageNumber="347">
+<subSubSection box="[778,1363,1277,1310]" pageId="4" pageNumber="347" type="reference_group">
+<paragraph blockId="4.[775,1366,1277,1703]" box="[778,1363,1277,1310]" pageId="4" pageNumber="347">
 <emphasis box="[778,933,1277,1310]" pageId="4" pageNumber="347">Taxonomy.</emphasis>
 <taxonomicName authority="Muller, 1776" authorityName="Müller" authorityYear="1776" box="[956,1358,1277,1310]" class="Mammalia" family="Viverridae" genus="Viverra" kingdom="Animalia" order="Carnivora" pageId="4" pageNumber="347" phylum="Chordata" rank="genus" species="fossana">Viverra fossana Muller, 1776</taxonomicName>
-, 
+,
+</paragraph>
+</subSubSection>
+<subSubSection box="[779,947,1321,1350]" pageId="4" pageNumber="347" type="materials_examined">
+<paragraph blockId="4.[775,1366,1277,1703]" box="[779,947,1321,1350]" pageId="4" pageNumber="347">
 <materialsCitation box="[779,947,1321,1350]" pageId="4" pageNumber="347">
 <collectingCountry box="[779,943,1321,1350]" name="Madagascar" pageId="4" pageNumber="347">Madagascar</collectingCountry>
 .
 </materialsCitation>
 </paragraph>
+</subSubSection>
+<subSubSection pageId="4" pageNumber="347" type="discussion">
 <paragraph blockId="4.[775,1366,1277,1703]" pageId="4" pageNumber="347">
 The specific name of this animal has varied in the literature: 
 <taxonomicName box="[1075,1142,1399,1428]" class="Mammalia" family="Eupleridae" genus="Fossa" kingdom="Animalia" order="Carnivora" pageId="4" pageNumber="347" phylum="Chordata" rank="genus">Fossa</taxonomicName>
 fossa, F. daubentoni, and F. major: are all synonyms of F. Jfossana. Monotypic.
 </paragraph>
 </subSubSection>
-<subSubSection box="[778,1134,1517,1546]" pageId="4" pageNumber="347" type="distribution">
+<subSubSection box="[778,1134,1517,1546]" pageId="4" pageNumber="347" type="multiple">
 <caption ID-DOI="http://doi.org/10.5281/zenodo.5676539" ID-Zenodo-Dep="5676539" box="[778,1134,1517,1546]" httpUri="https://zenodo.org/record/5676539/files/figure.png" inLine="true" pageId="4" pageNumber="347" targetBox="[162,754,1289,1703]" targetPageId="4">
 <paragraph blockId="4.[775,1366,1277,1703]" box="[778,1134,1517,1546]" pageId="4" pageNumber="347">
 <emphasis box="[778,954,1517,1546]" pageId="4" pageNumber="347">Distribution.</emphasis>
@@ -121,7 +127,7 @@ fossa, F. daubentoni, and F. major: are all synonyms of F. Jfossana. Monotypic.
 </caption>
 </subSubSection>
 <subSubSection pageId="4" pageNumber="347" type="description">
-<paragraph blockId="4.[775,1366,1277,1703]" pageId="4" pageNumber="347">
+<paragraph blockId="4.[775,1366,1277,1703]" lastBlockId="4.[163,1368,1714,3471]" pageId="4" pageNumber="347">
 <emphasis box="[778,1032,1561,1586]" pageId="4" pageNumber="347">Descriptive notes.</emphasis>
 Head-body 40-45 cm, tail 22.1-26. 
 <quantity box="[955,1033,1596,1625]" metricMagnitude="-2" metricUnit="m" metricValue="4.0" pageId="4" pageNumber="347" unit="cm" value="4.0">4 cm</quantity>
@@ -129,9 +135,8 @@ Head-body 40-45 cm, tail 22.1-26.
 <quantity box="[929,1008,1639,1664]" metricMagnitude="-2" metricUnit="m" metricValue="8.0" pageId="4" pageNumber="347" unit="cm" value="8.0">8 cm</quantity>
 ; weight of adult males 1.5-1. 
 <quantity box="[861,924,1670,1703]" metricMagnitude="0" metricUnit="kg" metricValue="9.0" pageId="4" pageNumber="347" unit="kg" value="9.0">9 kg</quantity>
-and adult females 1.3-1.75 kg.
+and adult females 1.3-1.75 kg. These weights are probably at the lower end of the normal range, as trapping occurred during the winter, when food may have been in short supply. This animal, with its short legs, pointed snout, bushy tail, and large body is very reminiscent of a civet; hence the misleading and formerly used English common name “Malagasy Civet”. The dense dorsal pelage ranges from tan to light brown. There are two nearly continuous black mid-dorsal lines. These are bordered by a row of partially-broken stripes. Below them is a row of spots on the flanks; there are also scattered spots on the flanks. The throat, lower neck, and balance of venter vary in color from cream to pale orange. The tail is medium brown with a series of concentric rings and spots.
 </paragraph>
-<paragraph blockId="4.[163,1368,1714,3471]" pageId="4" pageNumber="347">These weights are probably at the lower end of the normal range, as trapping occurred during the winter, when food may have been in short supply. This animal, with its short legs, pointed snout, bushy tail, and large body is very reminiscent of a civet; hence the misleading and formerly used English common name “Malagasy Civet”. The dense dorsal pelage ranges from tan to light brown. There are two nearly continuous black mid-dorsal lines. These are bordered by a row of partially-broken stripes. Below them is a row of spots on the flanks; there are also scattered spots on the flanks. The throat, lower neck, and balance of venter vary in color from cream to pale orange. The tail is medium brown with a series of concentric rings and spots.</paragraph>
 </subSubSection>
 <subSubSection pageId="4" pageNumber="347" type="biology_ecology">
 <paragraph blockId="4.[163,1368,1714,3471]" pageId="4" pageNumber="347">
