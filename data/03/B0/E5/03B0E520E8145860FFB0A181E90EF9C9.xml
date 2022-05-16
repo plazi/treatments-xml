@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.5719802" ID-GBIF-Dataset="fb7a3a15-9c77-4974-921b-49b90848f29b" ID-GBIF-Taxon="190543844" ID-ISBN="978-84-96553-77-4" ID-Zenodo-Dep="5719802" approvalRequired="56" approvalRequired_for_illustrations="7" approvalRequired_for_matCits="2" approvalRequired_for_taxonomicNames="18" approvalRequired_for_textStreams="14" approvalRequired_for_treatments="15" checkinTime="1633680277969" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2011" docId="03B0E520E8145860FFB0A181E90EF9C9" docLanguage="en" docName="hbmw_2_Equidae_0106.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 2 Hoofed Mammals, Barcelona: Lynx Edicions" docTitle="Equus quagga Boddaert 1785" docType="treatment" docVersion="5" lastPageId="5" lastPageNumber="142" masterDocId="FF899D58E8105865FFDBAA21EB53FFD7" masterDocTitle="Equidae" masterLastPageNumber="143" masterPageNumber="106" pageId="4" pageNumber="141" updateTime="1651485031833" updateUser="conny">
+<document ID-DOI="http://doi.org/10.5281/zenodo.5719778" ID-GBIF-Dataset="fb7a3a15-9c77-4974-921b-49b90848f29b" ID-ISBN="978-84-96553-77-4" ID-Zenodo-Dep="5719778" approvalRequired="1" checkinTime="1633680277969" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2011" docId="03B0E520E8145860FFB0A181E90EF9C9" docLanguage="en" docName="hbmw_2_Equidae_0106.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 2 Hoofed Mammals, Barcelona: Lynx Edicions" docTitle="Equus quagga Boddaert 1785" docType="treatment" docVersion="7" lastPageNumber="142" masterDocId="FF899D58E8105865FFDBAA21EB53FFD7" masterDocTitle="Equidae" masterLastPageNumber="143" masterPageNumber="106" pageNumber="141" updateTime="1652726600780" updateUser="jonas">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Equidae</mods:title>
@@ -44,9 +44,7 @@
 <treatment ID-DOI="http://doi.org/10.5281/zenodo.5719802" ID-GBIF-Taxon="190543844" ID-Zenodo-Dep="5719802" LSID="urn:lsid:plazi:treatment:03B0E520E8145860FFB0A181E90EF9C9" httpUri="http://treatment.plazi.org/id/03B0E520E8145860FFB0A181E90EF9C9" lastPageId="5" lastPageNumber="142" pageId="4" pageNumber="141">
 <subSubSection box="[107,139,2976,3022]" pageId="4" pageNumber="141" type="multiple">
 <paragraph blockId="4.[105,1288,2976,3179]" box="[107,139,2976,3022]" pageId="4" pageNumber="141">
-<heading box="[107,139,2976,3022]" pageId="4" pageNumber="141">
-<figureCitation box="[107,139,2976,3022]" captionTargetBox="[13,2755,14,3632]" captionTargetPageId="1" captionText="1. Przewalski’s Horse (Equus przewalskii), 2. Asiatic Wild Ass (Equus hemionus), 3. Tibetan Wild Ass (Equus kiang), 4. African Wild Ass (Equus africanus), 5. Plains Zebra (Equus quagga), 6. Grevy’s Zebra (Equus grevyi), 7. Mountain Zebra (Equus zebra)" pageId="4" pageNumber="141">5.</figureCitation>
-</heading>
+<heading box="[107,139,2976,3022]" pageId="4" pageNumber="141">5.</heading>
 </paragraph>
 </subSubSection>
 <subSubSection box="[156,413,2976,3022]" pageId="4" pageNumber="141" type="vernacular_names">
@@ -140,16 +138,22 @@ Grant's
 </heading>
 </paragraph>
 </subSubSection>
-<subSubSection pageId="4" pageNumber="141" type="reference_group">
-<paragraph blockId="4.[104,1306,3229,3460]" box="[105,1152,3232,3257]" pageId="4" pageNumber="141">
+<subSubSection box="[105,682,3232,3257]" pageId="4" pageNumber="141" type="reference_group">
+<paragraph blockId="4.[104,1306,3229,3460]" box="[105,682,3232,3257]" pageId="4" pageNumber="141">
 <emphasis bold="true" box="[105,260,3232,3257]" pageId="4" pageNumber="141">Taxonomy.</emphasis>
 <taxonomicName authority="Boddaert, 1785" authorityName="Boddaert" authorityYear="1785" box="[271,678,3232,3257]" class="Mammalia" family="Equidae" genus="Equus" kingdom="Animalia" order="Perissodactyla" pageId="4" pageNumber="141" phylum="Chordata" rank="species" species="quagga">Equus quagga Boddaert, 1785</taxonomicName>
-, 
-<materialsCitation box="[694,1152,3232,3257]" pageId="4" pageNumber="141">
+,
+</paragraph>
+</subSubSection>
+<subSubSection box="[694,1152,3232,3257]" pageId="4" pageNumber="141" type="materials_examined">
+<paragraph blockId="4.[104,1306,3229,3460]" box="[694,1152,3232,3257]" pageId="4" pageNumber="141">
+<materialsCitation ID-GBIF-Occurrence="3758657304" box="[694,1152,3232,3257]" pageId="4" pageNumber="141">
 <collectingCountry box="[694,870,3232,3257]" name="South Africa" pageId="4" pageNumber="141">South Africa</collectingCountry>
 , south of Vaal River.
 </materialsCitation>
 </paragraph>
+</subSubSection>
+<subSubSection pageId="4" pageNumber="141" type="discussion">
 <paragraph blockId="4.[104,1306,3229,3460]" lastBlockId="4.[1375,2579,708,3453]" pageId="4" pageNumber="141">
 Revisions have been made to the taxonomy of the Plains 
 <taxonomicName box="[915,998,3263,3296]" class="Mammalia" family="Equidae" genus="Zebra" higherTaxonomySource="GBIF" kingdom="Animalia" order="Perissodactyla" pageId="4" pageNumber="141" phylum="Chordata" rank="genus">Zebra</taxonomicName>
@@ -182,7 +186,7 @@ shows a genetic and morphological cline from northern
 to southern Africa; generally, the farther south, the less the degree of stripe coverage, while body size increases. With the nominate subspecies’ demise, only six extant subspecies are recognized, located around three widely separated regional centres.
 </paragraph>
 </subSubSection>
-<subSubSection pageId="4" pageNumber="141" type="synonymic_list">
+<subSubSection pageId="4" pageNumber="141" type="multiple">
 <caption ID-DOI="http://doi.org/10.5281/zenodo.5719794" ID-Zenodo-Dep="5719794" httpUri="https://zenodo.org/record/5719794/files/figure.png" inLine="true" pageId="4" pageNumber="141" targetBox="[1374,1969,282,698]" targetPageId="4">
 <paragraph blockId="4.[1375,2579,708,3453]" box="[1376,1775,905,938]" pageId="4" pageNumber="141">
 <emphasis bold="true" box="[1376,1775,905,938]" pageId="4" pageNumber="141">Subspecies and Distribution.</emphasis>
