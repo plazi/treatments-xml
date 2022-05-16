@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.5698435" ID-GBIF-Dataset="23dac009-8dc4-4021-a812-5f9db538c89c" ID-ISBN="978-84-96553-49-1" ID-Zenodo-Dep="5698435" approvalRequired="58" approvalRequired_for_textStreams="20" approvalRequired_for_treatments="38" checkinTime="1633548419167" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2009" docId="143F87B3FFCFFF8EFF5C92B7FEC1F61E" docLanguage="en" docName="hbmw_1_Herpestidae_0262.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 1 Carnivores, Barcelona: Lynx Edicions" docTitle="Herpestes auropunctatus Illiger 1811" docType="treatment" docVersion="9" lastPageId="4" lastPageNumber="309" masterDocId="E806FFCBFFCCFF8AFF999B1CFF9CFFA7" masterDocTitle="Herpestidae" masterLastPageNumber="328" masterPageNumber="262" pageId="3" pageNumber="308" updateTime="1647011941653" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.5676639" ID-GBIF-Dataset="23dac009-8dc4-4021-a812-5f9db538c89c" ID-ISBN="978-84-96553-49-1" ID-Zenodo-Dep="5676639" approvalRequired="11" approvalRequired_for_taxonomicNames="4" approvalRequired_for_treatments="7" checkinTime="1633548419167" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2009" docId="143F87B3FFCFFF8EFF5C92B7FEC1F61E" docLanguage="en" docName="hbmw_1_Herpestidae_0262.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 1 Carnivores, Barcelona: Lynx Edicions" docTitle="Herpestes auropunctatus Illiger 1811" docType="treatment" docVersion="10" lastPageNumber="309" masterDocId="E806FFCBFFCCFF8AFF999B1CFF9CFFA7" masterDocTitle="Herpestidae" masterLastPageNumber="328" masterPageNumber="262" pageNumber="308" updateTime="1652710360076" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Herpestidae</mods:title>
@@ -82,15 +82,26 @@
 <subSubSection pageId="3" pageNumber="308" type="reference_group">
 <paragraph blockId="3.[811,1397,2609,3032]" pageId="3" pageNumber="308">
 <emphasis box="[811,966,2609,2638]" pageId="3" pageNumber="308">Taxonomy.</emphasis>
-Mangusta auropunctata Hodgson, 1836, 
+<taxonomicName authority="Hodgson, 1836" authorityName="Hodgson" authorityYear="1836" class="Mammalia" family="Herpestidae" genus="Mangusta" higherTaxonomySource="GBIF" kingdom="Animalia" order="Carnivora" pageId="3" pageNumber="308" phylum="Chordata" rank="species" species="auropunctata">Mangusta auropunctata Hodgson, 1836</taxonomicName>
+, 
 <materialsCitation ID-GBIF-Occurrence="3699972325" box="[962,1157,2653,2678]" pageId="3" pageNumber="308">
 central 
 <collectingCountry box="[1068,1153,2653,2678]" name="Nepal" pageId="3" pageNumber="308">Nepal</collectingCountry>
 .
 </materialsCitation>
 </paragraph>
+</subSubSection>
+<subSubSection pageId="3" pageNumber="308" type="discussion">
 <paragraph blockId="3.[811,1397,2609,3032]" lastBlockId="3.[190,1397,3038,3464]" pageId="3" pageNumber="308">
-Some authors considered the Small Indian Mongoose and the Javan Mongoose (H. javanicus) conspecific under the name H. javanicus or H. auropunctatus. Recent molecular studies suggest that they should be treated as separate species. Five subspecies have been recognized in H. auropunctatus, but the taxonomy needs clarification as some populations (notably from southern 
+Some authors considered the Small Indian Mongoose and the Javan Mongoose (
+<taxonomicName box="[825,1011,2766,2795]" class="Mammalia" family="Herpestidae" genus="Herpestes" kingdom="Animalia" order="Carnivora" pageId="3" pageNumber="308" phylum="Chordata" rank="species" species="javanicus">H. javanicus</taxonomicName>
+) conspecific under the name 
+<taxonomicName box="[910,1086,2806,2835]" class="Mammalia" family="Herpestidae" genus="Herpestes" kingdom="Animalia" order="Carnivora" pageId="3" pageNumber="308" phylum="Chordata" rank="species" species="javanicus">H. javanicus</taxonomicName>
+or 
+<taxonomicName box="[1153,1391,2806,2835]" class="Mammalia" family="Herpestidae" genus="Herpestes" kingdom="Animalia" order="Carnivora" pageId="3" pageNumber="308" phylum="Chordata" rank="species" species="auropunctatus">H. auropunctatus</taxonomicName>
+. Recent molecular studies suggest that they should be treated as separate species. Five subspecies have been recognized in 
+<taxonomicName box="[813,1041,2964,2993]" class="Mammalia" family="Herpestidae" genus="Herpestes" kingdom="Animalia" order="Carnivora" pageId="3" pageNumber="308" phylum="Chordata" rank="species" species="auropunctatus">H. auropunctatus</taxonomicName>
+, but the taxonomy needs clarification as some populations (notably from southern 
 <collectingCountry box="[412,497,3038,3071]" name="China" pageId="3" pageNumber="308">China</collectingCountry>
 ) have not been confirmed as belonging to this species or to H. javanicus. Included here is H. palustris, which has been considered either a separate species or a synonym of H. auropunctatus.
 </paragraph>
@@ -203,14 +214,16 @@ Omnivorous. Most of the dietary information comes from introduced populations, b
 desert, 
 <collectingCountry box="[2433,2507,1424,1457]" name="India" pageId="3" pageNumber="308">India</collectingCountry>
 , contained remains of insects (Helicopric bucephalus, Anthic sexguttata, Blap orientalus, 
-<taxonomicName authorityName="Latreille" authorityYear="1802" box="[2500,2669,1472,1497]" class="Insecta" family="Scarabaeidae" genus="Onthophagus" kingdom="Animalia" order="Coleoptera" pageId="3" pageNumber="308" phylum="Arthropoda" rank="genus">Onthophagus</taxonomicName>
-longicornis, and Grylus sagillatus) and a scorpion. In 56 stomachs from 
+<taxonomicName authorityName="Latreille" authorityYear="1802" class="Insecta" family="Scarabaeidae" genus="Onthophagus" kingdom="Animalia" order="Coleoptera" pageId="3" pageNumber="308" phylum="Arthropoda" rank="genus">Onthophagus longicornis</taxonomicName>
+, and 
+<taxonomicName box="[1685,1895,1511,1536]" pageId="3" pageNumber="308">Grylus sagillatus</taxonomicName>
+) and a scorpion. In 56 stomachs from 
 <collectingCountry box="[2436,2603,1511,1536]" name="Puerto Rico" pageId="3" pageNumber="308">Puerto Rico</collectingCountry>
 , 315 food items were recorded, with the following frequency of occurrence: insects (56%), reptiles (17%), myriapods (12%), arachnids (8%), mammals (3%), crustaceans (1%), asteroids (starfish) (1%), amphibians (1%), and plants (11%). On St. Croix Island, 36 stomachs contained insects (83%), toads (14%), mice 
-<taxonomicName authorityName="Linnaeus" authorityYear="1758" box="[2305,2363,1664,1693]" class="Mammalia" family="Muridae" genus="Mus" higherTaxonomySource="GBIF" kingdom="Animalia" order="Mammalia" pageId="3" pageNumber="308" phylum="Chordata" rank="genus">Mus</taxonomicName>
-musculus (14%), rats 
-<taxonomicName authorityName="Fischer" authorityYear="1803" box="[1468,1552,1703,1732]" class="Mammalia" family="Muridae" genus="Rattus" higherTaxonomySource="GBIF" kingdom="Animalia" order="Mammalia" pageId="3" pageNumber="308" phylum="Chordata" rank="genus">Rattus</taxonomicName>
-rattus (14%), crabs (11%), birds (3%), poultry (3%), lizards Anolis (0-5%), fruit (11%), and other plant material (6%). On 
+<taxonomicName authorityName="Linnaeus" authorityYear="1758" box="[2305,2495,1664,1693]" class="Mammalia" family="Muridae" genus="Mus" higherTaxonomySource="GBIF" kingdom="Animalia" order="Mammalia" pageId="3" pageNumber="308" phylum="Chordata" rank="genus">Mus musculus</taxonomicName>
+(14%), rats 
+<taxonomicName authorityName="Fischer" authorityYear="1803" box="[1468,1633,1703,1732]" class="Mammalia" family="Muridae" genus="Rattus" higherTaxonomySource="GBIF" kingdom="Animalia" order="Mammalia" pageId="3" pageNumber="308" phylum="Chordata" rank="genus">Rattus rattus</taxonomicName>
+(14%), crabs (11%), birds (3%), poultry (3%), lizards Anolis (0-5%), fruit (11%), and other plant material (6%). On 
 <collectingCountry box="[2102,2151,1742,1771]" name="Fiji" pageId="3" pageNumber="308">Viti</collectingCountry>
 Levu, 
 <collectingCountry box="[2255,2300,1742,1771]" name="Fiji" pageId="3" pageNumber="308">Fiji</collectingCountry>
@@ -219,8 +232,8 @@ Levu,
 , 458 stomachs contained 46% rodents and shrews, 20% Tail-less Tenrecs (Tenrec eucaudatus), 20% invertebrates, 18% refuse, carrion and plants, 15% reptiles and amphibians, and 6% birds; there were seasonal changes in the diet, with more insects eaten during the wet season, and more reptiles taken during the dry season. During the winter on Korcula Island, 
 <collectingCountry box="[1468,1572,2171,2204]" name="Croatia" pageId="3" pageNumber="308">Croatia</collectingCountry>
 , 184 food items were identified in 126 scats: the frequency of occurrence was 66% plants (mostly the fruits ofjuniper Juniperus oxycedrus and strawberry tree Arbutus unedo), 38% mammals (mainly wood mice 
-<taxonomicName authorityName="Kaup" authorityYear="1829" box="[2062,2193,2251,2284]" class="Mammalia" family="Muridae" genus="Apodemus" higherTaxonomySource="GBIF" kingdom="Animalia" order="Mammalia" pageId="3" pageNumber="308" phylum="Chordata" rank="genus">Apodemus</taxonomicName>
-sylvaticus and rats 
+<taxonomicName authorityName="Kaup" authorityYear="1829" box="[2062,2321,2251,2284]" class="Mammalia" family="Muridae" genus="Apodemus" higherTaxonomySource="GBIF" kingdom="Animalia" order="Mammalia" pageId="3" pageNumber="308" phylum="Chordata" rank="genus">Apodemus sylvaticus</taxonomicName>
+and rats 
 <taxonomicName box="[2447,2578,2251,2284]" class="Mammalia" family="Muridae" genus="Rattus" kingdom="Animalia" order="Mammalia" pageId="3" pageNumber="308" phylum="Chordata" rank="species" species="undetermined">Rattus sp.</taxonomicName>
 ), 23% arthropods (mainly 
 <taxonomicName authorityName="Linnaeus" authorityYear="1758" box="[1748,1904,2289,2322]" class="Insecta" kingdom="Animalia" order="Coleoptera" pageId="3" pageNumber="308" phylum="Arthropoda" rank="order">Coleoptera</taxonomicName>
