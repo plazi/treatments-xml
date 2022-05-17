@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.5719723" ID-GBIF-Dataset="efd20bd6-96ef-4eea-b3dd-b4757b59abe4" ID-GBIF-Taxon="190542151" ID-ISBN="978-84-96553-77-4" ID-Zenodo-Dep="5719723" approvalRequired="12" approvalRequired_for_illustrations="6" approvalRequired_for_taxonomicNames="1" approvalRequired_for_textStreams="2" approvalRequired_for_treatments="3" checkinTime="1637631316926" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2011" docId="03928E699A41FFC8D579FE7AF5F5F837" docLanguage="en" docName="hbmw_2_Camelidae_0206.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 2 Hoofed Mammals, Barcelona: Lynx Edicions" docTitle="Lama guanicoe" docType="treatment" docVersion="5" lastPageId="3" lastPageNumber="236" masterDocId="FFABF6119A43FFCBD51BFF89FF98FFCB" masterDocTitle="Camelidae" masterLastPageNumber="246" masterPageNumber="206" pageId="2" pageNumber="235" updateTime="1651569663910" updateUser="conny">
+<document ID-DOI="http://doi.org/10.5281/zenodo.5719719" ID-GBIF-Dataset="efd20bd6-96ef-4eea-b3dd-b4757b59abe4" ID-ISBN="978-84-96553-77-4" ID-Zenodo-Dep="5719719" approvalRequired="1" approvalRequired_for_treatments="1" checkinTime="1637631316926" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2011" docId="03928E699A41FFC8D579FE7AF5F5F837" docLanguage="en" docName="hbmw_2_Camelidae_0206.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 2 Hoofed Mammals, Barcelona: Lynx Edicions" docTitle="Lama guanicoe" docType="treatment" docVersion="7" lastPageNumber="236" masterDocId="FFABF6119A43FFCBD51BFF89FF98FFCB" masterDocTitle="Camelidae" masterLastPageNumber="246" masterPageNumber="206" pageNumber="235" updateTime="1652794628730" updateUser="jonas">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Camelidae</mods:title>
@@ -44,17 +44,13 @@
 <treatment ID-DOI="http://doi.org/10.5281/zenodo.5719723" ID-GBIF-Taxon="190542151" ID-Zenodo-Dep="5719723" LSID="urn:lsid:plazi:treatment:03928E699A41FFC8D579FE7AF5F5F837" httpUri="http://treatment.plazi.org/id/03928E699A41FFC8D579FE7AF5F5F837" lastPageId="3" lastPageNumber="236" pageId="2" pageNumber="235">
 <subSubSection box="[98,127,499,545]" pageId="2" pageNumber="235" type="multiple">
 <paragraph blockId="2.[94,683,499,588]" box="[98,127,499,545]" pageId="2" pageNumber="235">
-<heading box="[98,127,499,545]" pageId="2" pageNumber="235">
-<figureCitation box="[98,127,499,545]" captionText="1. Guanaco (Lama guanicoe)" pageId="2" pageNumber="235">1.</figureCitation>
-</heading>
+<heading box="[98,127,499,545]" pageId="2" pageNumber="235">1.</heading>
 </paragraph>
 </subSubSection>
 <subSubSection box="[145,330,499,545]" pageId="2" pageNumber="235" type="vernacular_names">
 <paragraph blockId="2.[94,683,499,588]" box="[145,330,499,545]" pageId="2" pageNumber="235">
 <heading box="[145,330,499,545]" pageId="2" pageNumber="235">
-<taxonomicName box="[145,330,499,545]" class="Mammalia" family="Camelidae" genus="Guanaco" kingdom="Animalia" order="Artiodactyla" pageId="2" pageNumber="235" phylum="Chordata" rank="genus">
 <vernacularName box="[145,330,499,545]" pageId="2" pageNumber="235">Guanaco</vernacularName>
-</taxonomicName>
 </heading>
 </paragraph>
 </subSubSection>
@@ -85,17 +81,23 @@
 </heading>
 </paragraph>
 </subSubSection>
-<subSubSection pageId="2" pageNumber="235" type="reference_group">
-<paragraph blockId="2.[710,1298,633,1055]" pageId="2" pageNumber="235">
+<subSubSection box="[710,1293,633,662]" pageId="2" pageNumber="235" type="reference_group">
+<paragraph blockId="2.[710,1298,633,1055]" box="[710,1293,633,662]" pageId="2" pageNumber="235">
 <emphasis bold="true" box="[710,865,633,662]" pageId="2" pageNumber="235">Taxonomy.</emphasis>
 <taxonomicName authority="Muller, 1776" authorityName="Muller" authorityYear="1776" box="[879,1289,633,662]" class="Mammalia" family="Camelidae" genus="Camelus" kingdom="Animalia" order="Artiodactyla" pageId="2" pageNumber="235" phylum="Chordata" rank="species" species="guanicoe">Camelus guanicoe Muller, 1776</taxonomicName>
-, 
-<materialsCitation box="[711,1012,669,702]" pageId="2" pageNumber="235">
+,
+</paragraph>
+</subSubSection>
+<subSubSection box="[711,1012,669,702]" pageId="2" pageNumber="235" type="materials_examined">
+<paragraph blockId="2.[710,1298,633,1055]" box="[711,1012,669,702]" pageId="2" pageNumber="235">
+<materialsCitation ID-GBIF-Occurrence="3761198301" box="[711,1012,669,702]" pageId="2" pageNumber="235">
 Patagonia, 
 <collectingCountry box="[865,1008,669,702]" name="Argentina" pageId="2" pageNumber="235">Argentina</collectingCountry>
 .
 </materialsCitation>
 </paragraph>
+</subSubSection>
+<subSubSection pageId="2" pageNumber="235" type="discussion">
 <paragraph blockId="2.[710,1298,633,1055]" lastBlockId="2.[91,1296,1062,3335]" pageId="2" pageNumber="235">
 The 
 <taxonomicName box="[783,908,708,741]" class="Mammalia" family="Camelidae" genus="Guanaco" kingdom="Animalia" order="Artiodactyla" pageId="2" pageNumber="235" phylum="Chordata" rank="genus">Guanaco</taxonomicName>
@@ -107,12 +109,14 @@ Pleistocene deposits and others in strata dated
 <geoCoordinate box="[1017,1112,948,977]" degrees="73,000" direction="north" orientation="latitude" pageId="2" pageNumber="235" precision="55" value="73.0">73,000</geoCoordinate>
 -97,000 years ago in 
 <collectingCountry box="[815,911,983,1016]" name="Bolivia" pageId="2" pageNumber="235">Bolivia</collectingCountry>
-. Phylogenetically, L. guanicoeis monophyletic. Historically, four subspecies of Guanacos were recognized, albeit based upon incomplete information on skull measurements, coat coloration, distribution, and body size. However, recent molecular studies using mtDNA cytochrome-b sequences, recognize only two subspecies, placing the Peruvian and northern Chilean populations in subspecies cacsilensis and assigning the remainder of the clade to subspecies 
+. Phylogenetically, 
+<taxonomicName authorityName="Muller" authorityYear="1776" class="Mammalia" family="Camelidae" genus="Camelus" kingdom="Animalia" order="Artiodactyla" pageId="2" pageNumber="235" phylum="Chordata" rank="species" species="guanicoe">L. guanicoe</taxonomicName>
+is monophyletic. Historically, four sub-species of Guanacos were recognized, albeit based upon incomplete information on skull measurements, coat coloration, distribution, and body size. However, recent molecular studies using mtDNA cytochrome-b sequences, recognize only two subspecies, placing the Peruvian and northern Chilean populations in subspecies cacsilensis and assigning the remainder of the clade to subspecies 
 <taxonomicName authorityName="Muller" authorityYear="1776" box="[779,893,1219,1252]" class="Mammalia" family="Camelidae" genus="Camelus" kingdom="Animalia" order="Artiodactyla" pageId="2" pageNumber="235" phylum="Chordata" rank="species" species="guanicoe">guanicoe</taxonomicName>
 . A significant biogeographic revision of the two valid subspecies is needed, especially an analysis and classification of populations on a regional and ecosystem basis.
 </paragraph>
 </subSubSection>
-<subSubSection pageId="2" pageNumber="235" type="synonymic_list">
+<subSubSection pageId="2" pageNumber="235" type="multiple">
 <caption ID-DOI="http://doi.org/10.5281/zenodo.5719721" ID-Zenodo-Dep="5719721" httpUri="https://zenodo.org/record/5719721/files/figure.png" inLine="true" pageId="2" pageNumber="235" targetBox="[92,686,638,1054]" targetPageId="2">
 <paragraph blockId="2.[91,1296,1062,3335]" box="[94,493,1337,1370]" pageId="2" pageNumber="235">
 <emphasis bold="true" box="[94,493,1337,1370]" pageId="2" pageNumber="235">Subspecies and Distribution.</emphasis>

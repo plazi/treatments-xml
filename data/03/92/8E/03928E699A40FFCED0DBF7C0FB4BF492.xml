@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.5719727" ID-GBIF-Dataset="efd20bd6-96ef-4eea-b3dd-b4757b59abe4" ID-GBIF-Taxon="190542152" ID-ISBN="978-84-96553-77-4" ID-Zenodo-Dep="5719727" approvalRequired="12" approvalRequired_for_illustrations="6" approvalRequired_for_taxonomicNames="1" approvalRequired_for_textStreams="2" approvalRequired_for_treatments="3" checkinTime="1637631316926" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2011" docId="03928E699A40FFCED0DBF7C0FB4BF492" docLanguage="en" docName="hbmw_2_Camelidae_0206.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 2 Hoofed Mammals, Barcelona: Lynx Edicions" docTitle="Lama glama" docType="treatment" docVersion="5" lastPageId="5" lastPageNumber="238" masterDocId="FFABF6119A43FFCBD51BFF89FF98FFCB" masterDocTitle="Camelidae" masterLastPageNumber="246" masterPageNumber="206" pageId="3" pageNumber="236" updateTime="1651569663910" updateUser="conny">
+<document ID-DOI="http://doi.org/10.5281/zenodo.5719719" ID-GBIF-Dataset="efd20bd6-96ef-4eea-b3dd-b4757b59abe4" ID-ISBN="978-84-96553-77-4" ID-Zenodo-Dep="5719719" approvalRequired="1" approvalRequired_for_treatments="1" checkinTime="1637631316926" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2011" docId="03928E699A40FFCED0DBF7C0FB4BF492" docLanguage="en" docName="hbmw_2_Camelidae_0206.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 2 Hoofed Mammals, Barcelona: Lynx Edicions" docTitle="Lama glama" docType="treatment" docVersion="7" lastPageNumber="238" masterDocId="FFABF6119A43FFCBD51BFF89FF98FFCB" masterDocTitle="Camelidae" masterLastPageNumber="246" masterPageNumber="206" pageNumber="236" updateTime="1652794628730" updateUser="jonas">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Camelidae</mods:title>
@@ -44,9 +44,7 @@
 <treatment ID-DOI="http://doi.org/10.5281/zenodo.5719727" ID-GBIF-Taxon="190542152" ID-Zenodo-Dep="5719727" LSID="urn:lsid:plazi:treatment:03928E699A40FFCED0DBF7C0FB4BF492" httpUri="http://treatment.plazi.org/id/03928E699A40FFCED0DBF7C0FB4BF492" lastPageId="5" lastPageNumber="238" pageId="3" pageNumber="236">
 <subSubSection box="[1472,1503,2121,2163]" pageId="3" pageNumber="236" type="multiple">
 <paragraph blockId="3.[1471,1963,2121,2201]" box="[1472,1503,2121,2163]" pageId="3" pageNumber="236">
-<heading box="[1472,1503,2121,2163]" pageId="3" pageNumber="236">
-<figureCitation box="[1472,1503,2121,2163]" captionText="1. Guanaco (Lama guanicoe)" pageId="3" pageNumber="236">2.</figureCitation>
-</heading>
+<heading box="[1472,1503,2121,2163]" pageId="3" pageNumber="236">2.</heading>
 </paragraph>
 </subSubSection>
 <subSubSection box="[1520,1650,2121,2163]" pageId="3" pageNumber="236" type="vernacular_names">
@@ -83,16 +81,22 @@
 </heading>
 </paragraph>
 </subSubSection>
-<subSubSection pageId="3" pageNumber="236" type="reference_group">
-<paragraph blockId="3.[2085,2671,2255,2673]" pageId="3" pageNumber="236">
+<subSubSection box="[2085,2668,2255,2280]" pageId="3" pageNumber="236" type="reference_group">
+<paragraph blockId="3.[2085,2671,2255,2673]" box="[2085,2668,2255,2280]" pageId="3" pageNumber="236">
 <emphasis bold="true" box="[2085,2240,2255,2280]" pageId="3" pageNumber="236">Taxonomy.</emphasis>
 <taxonomicName authority="Linnaeus, 1758" authorityName="Linnaeus" authorityYear="1758" box="[2253,2663,2255,2280]" class="Mammalia" family="Camelidae" genus="Camelus" kingdom="Animalia" order="Artiodactyla" pageId="3" pageNumber="236" phylum="Chordata" rank="species" species="glama">Camelus glama Linnaeus, 1758</taxonomicName>
-, 
-<materialsCitation box="[2086,2262,2294,2319]" pageId="3" pageNumber="236">
+,
+</paragraph>
+</subSubSection>
+<subSubSection box="[2086,2262,2294,2319]" pageId="3" pageNumber="236" type="materials_examined">
+<paragraph blockId="3.[2085,2671,2255,2673]" box="[2086,2262,2294,2319]" pageId="3" pageNumber="236">
+<materialsCitation ID-GBIF-Occurrence="3761198305" box="[2086,2262,2294,2319]" pageId="3" pageNumber="236">
 <collectingCountry box="[2086,2153,2294,2319]" name="Peru" pageId="3" pageNumber="236">Peru</collectingCountry>
 , Andes.
 </materialsCitation>
 </paragraph>
+</subSubSection>
+<subSubSection pageId="3" pageNumber="236" type="discussion">
 <paragraph blockId="3.[2085,2671,2255,2673]" lastBlockId="3.[1469,2674,2679,3458]" pageId="3" pageNumber="236">
 The Llama was selectively bred from the 
 <taxonomicName box="[2087,2211,2364,2397]" class="Mammalia" family="Camelidae" genus="Guanaco" kingdom="Animalia" order="Artiodactyla" pageId="3" pageNumber="236" phylum="Chordata" rank="genus">Guanaco</taxonomicName>
@@ -100,7 +104,7 @@ The Llama was selectively bred from the
 <taxonomicName authorityName="Miller" authorityYear="1776" box="[2239,2395,2364,2397]" class="Mammalia" family="Camelidae" genus="Lama" kingdom="Animalia" order="Artiodactyla" pageId="3" pageNumber="236" phylum="Chordata" rank="species" species="guanicoe">L. guanicoe</taxonomicName>
 ) for use as a pack animal and producer of meat. It is regarded throughout the world as the premier symbol of South American fauna. With the possibility of more than one center, Llama domestication occurred 4000-4500 years ago in the South-Central Andes (northern 
 <collectingCountry box="[2332,2406,2644,2673]" name="Chile" pageId="3" pageNumber="236">Chile</collectingCountry>
-and north-westernArgentina) and/or 4500-5500 ago in the Central Andes (Junin de los Andes, 
+and north-western Argentina) and/or 4500-5500 ago in the Central Andes (Junin de los Andes, 
 <collectingCountry name="Argentina" pageId="3" pageNumber="236">Argentina</collectingCountry>
 ). It is often assumed and reported that the Lake Titacaca region was a core of Llama domestication, but supporting data are lacking from early archaeological sites. Osteological remains and DNA analysis document the origin of domestication to be within the range of the northern subspecies of 
 <taxonomicName box="[2121,2246,2836,2869]" class="Mammalia" family="Camelidae" genus="Guanaco" kingdom="Animalia" order="Artiodactyla" pageId="3" pageNumber="236" phylum="Chordata" rank="genus">Guanaco</taxonomicName>
@@ -113,7 +117,7 @@ L. g. cacsilensis. From its points of domestication, archeological evidence reve
 in almost all aspects of physiology, behavior, general morphology, and adaptability to a wide range of environments. There are no subspecies, but two distinct phenotypic breeds: Short-Woolled and Long-Woolled Llamas.
 </paragraph>
 </subSubSection>
-<subSubSection pageId="3" pageNumber="236" type="distribution">
+<subSubSection pageId="3" pageNumber="236" type="multiple">
 <caption ID-DOI="http://doi.org/10.5281/zenodo.5719725" ID-Zenodo-Dep="5719725" httpUri="https://zenodo.org/record/5719725/files/figure.png" inLine="true" pageId="3" pageNumber="236" startId="3.[1470,1640,3159,3184]" targetBox="[1468,2061,2254,2670]" targetPageId="3">
 <paragraph blockId="3.[1469,2674,2679,3458]" pageId="3" pageNumber="236">
 <emphasis bold="true" box="[1470,1643,3159,3184]" pageId="3" pageNumber="236">Distribution.</emphasis>
