@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.5721116" ID-GBIF-Dataset="e1da6e7b-2faa-4ac3-a4f0-99d827a27611" ID-GBIF-Taxon="190600668" ID-ISBN="978-84-96553-77-4" ID-Zenodo-Dep="5721116" approvalRequired="11" approvalRequired_for_illustrations="2" approvalRequired_for_taxonomicNames="6" approvalRequired_for_treatments="3" checkinTime="1633651340880" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2011" docId="038087E8552A56278BBD035F1944F537" docLanguage="en" docName="hbmw_2_Suidae_0248.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 2 Hoofed Mammals, Barcelona: Lynx Edicions" docTitle="Porcula salvania" docType="treatment" docVersion="8" lastPageId="18" lastPageNumber="291" masterDocId="FFB9FF90553B56358E7B0F4A1178FFAF" masterDocTitle="Suidae" masterLastPageNumber="291" masterPageNumber="248" pageId="17" pageNumber="290" updateTime="1651577469509" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.5721014" ID-GBIF-Dataset="e1da6e7b-2faa-4ac3-a4f0-99d827a27611" ID-ISBN="978-84-96553-77-4" ID-Zenodo-Dep="5721014" approvalRequired="2" approvalRequired_for_illustrations="2" checkinTime="1633651340880" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2011" docId="038087E8552A56278BBD035F1944F537" docLanguage="en" docName="hbmw_2_Suidae_0248.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 2 Hoofed Mammals, Barcelona: Lynx Edicions" docTitle="Porcula salvania" docType="treatment" docVersion="9" lastPageNumber="291" masterDocId="FFB9FF90553B56358E7B0F4A1178FFAF" masterDocTitle="Suidae" masterLastPageNumber="291" masterPageNumber="248" pageNumber="290" updateTime="1652807298471" updateUser="jonas">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Suidae</mods:title>
@@ -80,11 +80,15 @@ pigmeo
 </heading>
 </paragraph>
 </subSubSection>
-<subSubSection pageId="17" pageNumber="290" type="reference_group">
-<paragraph blockId="17.[1472,2676,3229,3460]" box="[1474,2366,3232,3257]" pageId="17" pageNumber="290">
+<subSubSection box="[1474,2083,3232,3257]" pageId="17" pageNumber="290" type="reference_group">
+<paragraph blockId="17.[1472,2676,3229,3460]" box="[1474,2083,3232,3257]" pageId="17" pageNumber="290">
 <emphasis bold="true" box="[1474,1628,3232,3257]" pageId="17" pageNumber="290">Taxonomy.</emphasis>
 <taxonomicName authority="Hodgson, 1847" authorityName="Hodgson" authorityYear="1847" box="[1640,2078,3232,3257]" class="Mammalia" family="Suidae" genus="Porcula" higherTaxonomySource="GBIF" kingdom="Animalia" order="Artiodactyla" pageId="17" pageNumber="290" phylum="Chordata" rank="species" species="salvania">Porcula salvania Hodgson, 1847</taxonomicName>
-, 
+,
+</paragraph>
+</subSubSection>
+<subSubSection box="[2094,2366,3232,3257]" pageId="17" pageNumber="290" type="materials_examined">
+<paragraph blockId="17.[1472,2676,3229,3460]" box="[2094,2366,3232,3257]" pageId="17" pageNumber="290">
 <materialsCitation ID-GBIF-Occurrence="3761200305" box="[2094,2366,3232,3257]" pageId="17" pageNumber="290">
 <collectingRegion box="[2094,2188,3232,3257]" country="India" name="Sikkim" pageId="17" pageNumber="290">Sikkim</collectingRegion>
 Terai, 
@@ -92,6 +96,8 @@ Terai,
 .
 </materialsCitation>
 </paragraph>
+</subSubSection>
+<subSubSection pageId="17" pageNumber="290" type="discussion">
 <paragraph blockId="17.[1472,2676,3229,3460]" pageId="17" pageNumber="290">
 After having been included in 
 <taxonomicName authorityName="Linnaeus" authorityYear="1758" box="[1923,1967,3263,3296]" class="Mammalia" family="Suidae" genus="Sus" kingdom="Animalia" order="Artiodactyla" pageId="17" pageNumber="290" phylum="Chordata" rank="genus">Sus</taxonomicName>
@@ -100,7 +106,7 @@ for a long time, the species was reassigned to its original genus
 . Monotypic.
 </paragraph>
 </subSubSection>
-<subSubSection box="[1474,1981,3345,3374]" pageId="17" pageNumber="290" type="distribution">
+<subSubSection box="[1474,1981,3345,3374]" pageId="17" pageNumber="290" type="multiple">
 <caption ID-DOI="http://doi.org/10.5281/zenodo.5721120" ID-Zenodo-Dep="5721120" box="[1474,1981,3345,3374]" httpUri="https://zenodo.org/record/5721120/files/figure.png" inLine="true" pageId="17" pageNumber="290" targetBox="[97,692,286,702]" targetPageId="18">
 <paragraph blockId="17.[1472,2676,3229,3460]" box="[1474,1981,3345,3374]" pageId="17" pageNumber="290">
 <emphasis bold="true" box="[1474,1649,3345,3374]" pageId="17" pageNumber="290">Distribution.</emphasis>
@@ -131,9 +137,7 @@ in the extreme reduction in body, ears, and tail size, relatively short medial f
 <subSubSection pageId="18" pageNumber="291" type="biology_ecology">
 <paragraph blockId="18.[97,1303,712,2711]" pageId="18" pageNumber="291">
 <emphasis bold="true" box="[100,212,751,784]" pageId="18" pageNumber="291">Habitat.</emphasis>
-Pygmy Hogs prefer undisturbed grassland typical of early successional riverine communities, comprising dense tall grass mixed with a wide variety of herbs, shrubs, and young trees. Such grasslands, dominated by Narenga porphyrocoma, Saccharum spontaneum, S. bengalensis, Imperata cylindrica, and Themeda villosa, 
-<taxonomicName form="characteristic" pageId="18" pageNumber="291" rank="form">form characteristic</taxonomicName>
-associations 2-3 m in height. However, most such early successional communities are subject to wide-scale annual burning and accordingly are characterized by low diversity and the overwhelming preponderance of a few, fire-resistant grasses. Therefore they almost certainly constitute suboptimal habitats for Pygmy Hogs and most other grassland dependent species, which are deprived of cover and other resources for protracted periods prior to the early season rains. The species is not found in structurally similar grasslands located in riverine floodplains, which are subject to prolonged inundations during the monsoon. These grasslands are generally fertile alluvial areas, making them desirable for agriculture. Human use of these habitats contributes to the rapid decline of Pygmy Hogs throughout their known or presumed former range.
+Pygmy Hogs prefer undisturbed grassland typical of early successional riverine communities, comprising dense tall grass mixed with a wide variety of herbs, shrubs, and young trees. Such grasslands, dominated by Narenga porphyrocoma, Saccharum spontaneum, S. bengalensis, Imperata cylindrica, and Themeda villosa, form characteristic associations 2-3 m in height. However, most such early successional communities are subject to wide-scale annual burning and accordingly are characterized by low diversity and the overwhelming preponderance of a few, fire-resistant grasses. Therefore they almost certainly constitute suboptimal habitats for Pygmy Hogs and most other grassland dependent species, which are deprived of cover and other resources for protracted periods prior to the early season rains. The species is not found in structurally similar grasslands located in riverine floodplains, which are subject to prolonged inundations during the monsoon. These grasslands are generally fertile alluvial areas, making them desirable for agriculture. Human use of these habitats contributes to the rapid decline of Pygmy Hogs throughout their known or presumed former range.
 </paragraph>
 </subSubSection>
 <subSubSection pageId="18" pageNumber="291" type="food_feeding">
