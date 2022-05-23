@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.5735202" ID-GBIF-Dataset="a1d7ccc4-c76c-4ac3-bdd4-c53c2f378b35" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="5735202" approvalRequired="98" approvalRequired_for_document="2" approvalRequired_for_matCits="7" approvalRequired_for_originalDoi="1" approvalRequired_for_taxonomicNames="36" approvalRequired_for_treatments="52" checkinTime="1600872994229" checkinUser="plazi" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="E84887F9FFC4D64A0ACCF8EE14183AA4" docLanguage="en" docName="hbmw_9_Miniopteridae_674.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Miniopterus petersoni" docType="treatment" docVersion="7" lastPageNumber="709" masterDocId="1471FF81FFD6D6580A4AFFEC112F3619" masterDocTitle="Miniopteridae" masterLastPageNumber="709" masterPageNumber="674" pageNumber="709" updateTime="1653330680203" updateUser="carolina">
+<document ID-DOI="http://doi.org/10.5281/zenodo.5735202" ID-GBIF-Dataset="a1d7ccc4-c76c-4ac3-bdd4-c53c2f378b35" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="5735202" approvalRequired="39" approvalRequired_for_taxonomicNames="36" approvalRequired_for_treatments="3" checkinTime="1600872994229" checkinUser="plazi" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="E84887F9FFC4D64A0ACCF8EE14183AA4" docLanguage="en" docName="hbmw_9_Miniopteridae_674.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Miniopterus petersoni" docType="treatment" docVersion="8" lastPageNumber="709" masterDocId="1471FF81FFD6D6580A4AFFEC112F3619" masterDocTitle="Miniopteridae" masterLastPageNumber="709" masterPageNumber="674" pageNumber="709" updateTime="1653333169402" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Miniopteridae</mods:title>
@@ -92,25 +92,34 @@
 <emphasis bold="true" box="[744,895,1964,1997]" pageId="18" pageNumber="709">Taxonomy.</emphasis>
 <taxonomicName authority="Goodman et al., 2008" authorityName="Goodman" authorityYear="2008" class="Mammalia" family="Miniopteridae" genus="Miniopterus" kingdom="Animalia" order="Chiroptera" pageId="18" pageNumber="709" phylum="Chordata" rank="species" species="petersoni">Miniopterus petersoni Goodman et al., 2008</taxonomicName>
 , 
-<materialsCitation ID-GBIF-Occurrence="3747914306" pageId="18" pageNumber="709">
+<materialsCitation ID-GBIF-Occurrence="3747914306" country="Madagascar" latitude="-24.98905" location="Tolagnaro" longLatPrecision="1" longitude="46.922832" municipality="Cascade de Manantantely" pageId="18" pageNumber="709" specimenCount="65" stateProvince="Province de Toliara">
 “ 
 <collectingCountry box="[886,1048,2013,2038]" name="Madagascar" pageId="18" pageNumber="709">Madagascar</collectingCountry>
 : 
 <collectingRegion box="[1065,1331,2013,2038]" country="Madagascar" name="Toliara" pageId="18" pageNumber="709">Province de Toliara</collectingRegion>
-, Cascade de Manantantely, 
+, 
+<collectingMunicipality box="[746,1088,2052,2077]" pageId="18" pageNumber="709">Cascade de Manantantely</collectingMunicipality>
+, 
+<locationDeviation bearing="315.0" box="[1103,1291,2052,2077]" distance="5200.0" pageId="18" pageNumber="709">
 <quantity box="[1103,1193,2052,2077]" metricMagnitude="3" metricUnit="m" metricValue="5.2" pageId="18" pageNumber="709" unit="km" value="5.2">5.2 km</quantity>
-NW of Tolagnaro, 
+NW of
+</locationDeviation>
+<location LSID="urn:lsid:plazi:treatment:E84887F9FFC4D64A0ACCF8EE14183AA4:653E6034FFC4D64A0F44F7E8127E3E5D" country="Madagascar" latitude="-24.98905" longLatPrecision="1" longitude="46.922832" municipality="Cascade de Manantantely" name="Tolagnaro" pageId="18" pageNumber="709" stateProvince="Province de Toliara">Tolagnaro</location>
+, 
 <geoCoordinate box="[864,1015,2083,2116]" degrees="24" direction="south" minutes="59.343" orientation="latitude" pageId="18" pageNumber="709" precision="1" value="-24.98905">24°59.343S</geoCoordinate>
 , 
 <geoCoordinate box="[1030,1183,2083,2116]" degrees="46" direction="east" minutes="55.370" orientation="longitude" pageId="18" pageNumber="709" precision="1" value="46.922832">46°55.370E</geoCoordinate>
 , 
+<specimenCount box="[1199,1269,2083,2116]" pageId="18" pageNumber="709" type="generic">
 <quantity box="[1199,1265,2083,2116]" metricMagnitude="1" metricUnit="m" metricValue="6.5" pageId="18" pageNumber="709" unit="m" value="65.0">65 m</quantity>
-.”
+.
+</specimenCount>
+”
 </materialsCitation>
 </paragraph>
 <paragraph blockId="18.[739,1340,1964,2393]" pageId="18" pageNumber="709">
-<taxonomicName authorityName="Bonaparte" authorityYear="1837" box="[746,900,2123,2156]" class="Mammalia" family="Miniopteridae" genus="Miniopterus" kingdom="Animalia" order="Chiroptera" pageId="18" pageNumber="709" phylum="Chordata" rank="genus">Miniopterus</taxonomicName>
-peterson was formerly included within 
+<taxonomicName authorityName="Bonaparte" authorityYear="1837" box="[746,1019,2123,2156]" class="Mammalia" family="Miniopteridae" genus="Miniopterus" kingdom="Animalia" order="Chiroptera" pageId="18" pageNumber="709" phylum="Chordata" rank="species" species="peterson">Miniopterus peterson</taxonomicName>
+was formerly included within 
 <taxonomicName box="[847,1025,2162,2195]" class="Mammalia" family="Miniopteridae" genus="Miniopterus" kingdom="Animalia" order="Chiroptera" pageId="18" pageNumber="709" phylum="Chordata" rank="species" species="sororculus">M. sororculus</taxonomicName>
 . Taxonomic status of specimens from northern 
 <collectingCountry box="[1124,1290,2206,2235]" name="Madagascar" pageId="18" pageNumber="709">Madagascar</collectingCountry>
