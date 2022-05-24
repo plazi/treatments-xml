@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.5735202" ID-GBIF-Dataset="a1d7ccc4-c76c-4ac3-bdd4-c53c2f378b35" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="5735202" approvalRequired="98" approvalRequired_for_document="2" approvalRequired_for_matCits="7" approvalRequired_for_originalDoi="1" approvalRequired_for_taxonomicNames="36" approvalRequired_for_treatments="52" checkinTime="1600872994229" checkinUser="plazi" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="E84887F9FFC7D64A0FD7F3D310EE30A0" docLanguage="en" docName="hbmw_9_Miniopteridae_674.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Miniopterus sororculus" docType="treatment" docVersion="7" lastPageNumber="709" masterDocId="1471FF81FFD6D6580A4AFFEC112F3619" masterDocTitle="Miniopteridae" masterLastPageNumber="709" masterPageNumber="674" pageNumber="708" updateTime="1653330680203" updateUser="carolina">
+<document ID-DOI="http://doi.org/10.5281/zenodo.5735202" ID-GBIF-Dataset="a1d7ccc4-c76c-4ac3-bdd4-c53c2f378b35" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="5735202" approvalRequired="16" approvalRequired_for_taxonomicNames="13" approvalRequired_for_treatments="3" checkinTime="1600872994229" checkinUser="plazi" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="E84887F9FFC7D64A0FD7F3D310EE30A0" docLanguage="en" docName="hbmw_9_Miniopteridae_674.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Miniopterus sororculus Goodman 2007" docType="treatment" docVersion="9" lastPageNumber="709" masterDocId="1471FF81FFD6D6580A4AFFEC112F3619" masterDocTitle="Miniopteridae" masterLastPageNumber="709" masterPageNumber="674" pageNumber="708" updateTime="1653395389965" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Miniopteridae</mods:title>
@@ -59,7 +59,7 @@
 <subSubSection box="[2160,2590,3135,3181]" pageId="17" pageNumber="708" type="nomenclature">
 <paragraph blockId="17.[1434,2590,3135,3262]" box="[2160,2590,3135,3181]" pageId="17" pageNumber="708">
 <heading box="[2160,2590,3135,3181]" pageId="17" pageNumber="708">
-<taxonomicName box="[2160,2590,3135,3181]" class="Mammalia" family="Miniopteridae" genus="Miniopterus" kingdom="Animalia" order="Chiroptera" pageId="17" pageNumber="708" phylum="Chordata" rank="species" species="sororculus">
+<taxonomicName authority="Goodman et al., 2007" authorityName="Goodman" authorityYear="2007" box="[2160,2590,3135,3181]" class="Mammalia" family="Miniopteridae" genus="Miniopterus" kingdom="Animalia" order="Chiroptera" pageId="17" pageNumber="708" phylum="Chordata" rank="species" species="sororculus">
 <emphasis box="[2160,2590,3135,3181]" italics="true" pageId="17" pageNumber="708">Miniopterus sororculus</emphasis>
 </taxonomicName>
 </heading>
@@ -94,25 +94,26 @@
 <emphasis bold="true" box="[1435,1590,3305,3338]" pageId="17" pageNumber="708">Taxonomy.</emphasis>
 <taxonomicName authority="Goodman et al., 2007" authorityName="Goodman" authorityYear="2007" box="[1610,2240,3305,3338]" class="Mammalia" family="Miniopteridae" genus="Miniopterus" kingdom="Animalia" order="Chiroptera" pageId="17" pageNumber="708" phylum="Chordata" rank="species" species="sororculus">Miniopterus sororculus Goodman et al., 2007</taxonomicName>
 , 
-<materialsCitation ID-GBIF-Occurrence="3747914317" pageId="17" pageNumber="708">
+<materialsCitation ID-GBIF-Occurrence="3747914317" country="Madagascar" latitude="-34.321" location="Ambatofinandrahana" longLatPrecision="55" longitude="46.808834" pageId="17" pageNumber="708" specimenCount="1" stateProvince="Province de Fianarantsoa">
 “ 
 <collectingCountry box="[2277,2443,3305,3338]" name="Madagascar" pageId="17" pageNumber="708">Madagascar</collectingCountry>
 : 
 <collectingRegion country="Madagascar" name="Fianarantsoa" pageId="17" pageNumber="708">Province de Fianarantsoa</collectingRegion>
 , 
-<quantity box="[1639,1713,3353,3378]" metricMagnitude="3" metricUnit="m" metricValue="3.0" pageId="17" pageNumber="708" unit="km" value="3.0">3 km</quantity>
-south of Ambatofinandrahana, in unnamed cave, 
-<geoCoordinate box="[2466,2605,3353,3378]" degrees="20" minutes="34.321" pageId="17" pageNumber="708">
-20° 
-<geoCoordinate box="[2511,2605,3353,3378]" degrees="34.321" direction="south" orientation="latitude" pageId="17" pageNumber="708" precision="55" value="-34.321">34.321</geoCoordinate>
-</geoCoordinate>
-°S, 
-<geoCoordinate box="[1435,1586,3384,3417]" degrees="46" minutes="48.530" pageId="17" pageNumber="708">46°48.530'</geoCoordinate>
-F, 1,450. m.”
+<quantity box="[1639,1713,3353,3378]" metricMagnitude="3" metricUnit="m" metricValue="3.0" pageId="17" pageNumber="708" unit="km" value="3.0">
+<locationDeviation box="[1639,1713,3353,3378]" metricMagnitude="3" metricUnit="m" metricValue="3.0" pageId="17" pageNumber="708" unit="km" value="3.0">3 km</locationDeviation>
+</quantity>
+south of 
+<location LSID="urn:lsid:plazi:treatment:E84887F9FFC7D64A0FD7F3D310EE30A0:653E6034FFC7D6490D0CF2F519573B2B" box="[1862,2168,3353,3378]" country="Madagascar" latitude="-34.321" longLatPrecision="55" longitude="46.808834" name="Ambatofinandrahana" pageId="17" pageNumber="708" stateProvince="Province de Fianarantsoa">Ambatofinandrahana</location>
+, in unnamed cave, 20° 
+<geoCoordinate box="[2511,2632,3353,3378]" degrees="34.321" direction="south" orientation="latitude" pageId="17" pageNumber="708" precision="55" value="-34.321">34.321°S</geoCoordinate>
+, 
+<geoCoordinate box="[1435,1605,3384,3417]" degrees="46" direction="east" minutes="48.530" orientation="longitude" pageId="17" pageNumber="708" precision="1" value="46.808834">46°48.530'E</geoCoordinate>
+, 1,450. m.”
 </materialsCitation>
 </paragraph>
 <paragraph blockId="17.[1434,2639,3305,3503]" box="[1436,2637,3424,3457]" pageId="17" pageNumber="708">
-<taxonomicName box="[1436,1717,3424,3457]" class="Mammalia" family="Miniopteridae" genus="Miniopterus" kingdom="Animalia" order="Chiroptera" pageId="17" pageNumber="708" phylum="Chordata" rank="species" species="sororculus">Miniopterus sororculus</taxonomicName>
+<taxonomicName authority="Goodman et al., 2007" authorityName="Goodman" authorityYear="2007" box="[1436,1717,3424,3457]" class="Mammalia" family="Miniopteridae" genus="Miniopterus" kingdom="Animalia" order="Chiroptera" pageId="17" pageNumber="708" phylum="Chordata" rank="species" species="sororculus">Miniopterus sororculus</taxonomicName>
 was formerly included in 
 <taxonomicName authorityName="Thomas &amp; Schwann" authorityYear="1906" box="[2066,2240,3424,3457]" class="Mammalia" family="Miniopteridae" genus="Miniopterus" kingdom="Animalia" order="Chiroptera" pageId="17" pageNumber="708" phylum="Chordata" rank="species" species="fraterculus">M. fraterculus</taxonomicName>
 of eastern Africa. Monotypic.

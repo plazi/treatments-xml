@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.5735202" ID-GBIF-Dataset="a1d7ccc4-c76c-4ac3-bdd4-c53c2f378b35" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="5735202" approvalRequired="98" approvalRequired_for_document="2" approvalRequired_for_matCits="7" approvalRequired_for_originalDoi="1" approvalRequired_for_taxonomicNames="36" approvalRequired_for_treatments="52" checkinTime="1600872994229" checkinUser="plazi" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="E84887F9FFC6D6480FC9FE281B1D31BC" docLanguage="en" docName="hbmw_9_Miniopteridae_674.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Manaopterus brachytragos" docType="treatment" docVersion="7" lastPageNumber="707" masterDocId="1471FF81FFD6D6580A4AFFEC112F3619" masterDocTitle="Miniopteridae" masterLastPageNumber="709" masterPageNumber="674" pageNumber="707" updateTime="1653330680203" updateUser="carolina">
+<document ID-DOI="http://doi.org/10.5281/zenodo.5735202" ID-GBIF-Dataset="a1d7ccc4-c76c-4ac3-bdd4-c53c2f378b35" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="5735202" approvalRequired="16" approvalRequired_for_taxonomicNames="13" approvalRequired_for_treatments="3" checkinTime="1600872994229" checkinUser="plazi" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="E84887F9FFC6D6480FC9FE281B1D31BC" docLanguage="en" docName="hbmw_9_Miniopteridae_674.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Manaopterus brachytragos Goodman 2009" docType="treatment" docVersion="9" lastPageNumber="707" masterDocId="1471FF81FFD6D6580A4AFFEC112F3619" masterDocTitle="Miniopteridae" masterLastPageNumber="709" masterPageNumber="674" pageNumber="707" updateTime="1653395389965" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Miniopteridae</mods:title>
@@ -62,7 +62,7 @@ Long-fingered Bat
 <subSubSection box="[1411,1885,492,538]" pageId="16" pageNumber="707" type="nomenclature">
 <paragraph blockId="16.[1409,2583,452,657]" box="[1411,1885,492,538]" pageId="16" pageNumber="707">
 <heading box="[1411,1885,492,538]" pageId="16" pageNumber="707">
-<taxonomicName box="[1411,1885,492,538]" class="Magnoliopsida" family="Fabaceae" genus="Manaopterus" kingdom="Plantae" order="Fabales" pageId="16" pageNumber="707" phylum="Tracheophyta" rank="species" species="brachytragos">
+<taxonomicName authority="Goodman et al., 2009" authorityName="Goodman" authorityYear="2009" box="[1411,1885,492,538]" class="Magnoliopsida" family="Fabaceae" genus="Manaopterus" kingdom="Plantae" order="Fabales" pageId="16" pageNumber="707" phylum="Tracheophyta" rank="species" species="brachytragos">
 <emphasis box="[1411,1885,492,538]" italics="true" pageId="16" pageNumber="707">Manaopterus brachytragos</emphasis>
 </taxonomicName>
 </heading>
@@ -102,20 +102,23 @@ Bent-winged Bat
 <emphasis bold="true" box="[2022,2175,704,733]" pageId="16" pageNumber="707">Taxonomy.</emphasis>
 <taxonomicName authority="Goodman et al., 2009" authorityName="Goodman" authorityYear="2009" class="Mammalia" family="Miniopteridae" genus="Miniopterus" kingdom="Animalia" order="Chiroptera" pageId="16" pageNumber="707" phylum="Chordata" rank="species" species="brachytragos">Miniopterus brachytragos Goodman et al., 2009</taxonomicName>
 , 
-<materialsCitation ID-GBIF-Occurrence="3747914325" pageId="16" pageNumber="707">
+<materialsCitation ID-GBIF-Occurrence="3747914325" country="Madagascar" elevation="200" location="Parc National" municipality="Reserve Naturelle Integrale de Namoroka" pageId="16" pageNumber="707" specimenCount="1" stateProvince="Mahajanga">
 “ 
 <collectingCountry box="[2268,2435,743,772]" name="Madagascar" pageId="16" pageNumber="707">Madagascar</collectingCountry>
 : Province de 
 <collectingRegion box="[2024,2177,779,812]" country="Madagascar" name="Mahajanga" pageId="16" pageNumber="707">Mahajanga</collectingRegion>
-, Réserve Naturelle Intégrale de Namoroka [status subsequently changed to Parc National], Forét d’Ambovonomby, 9% km NW Andranomavo, 
-<geoCoordinate box="[2482,2582,901,930]" degrees="16" minutes="28.2" pageId="16" pageNumber="707">
-16° 
-<geoCoordinate box="[2522,2582,901,930]" degrees="28.2" direction="south" orientation="latitude" pageId="16" pageNumber="707" precision="5555" value="-28.2">28.2</geoCoordinate>
-</geoCoordinate>
-°S, 
-<geoCoordinate box="[2024,2157,941,970]" degrees="45" direction="east" minutes="20.9" orientation="longitude" pageId="16" pageNumber="707" precision="92" value="45.34833">45°20.9’E</geoCoordinate>
 , 
-<quantity box="[2173,2257,941,970]" metricMagnitude="2" metricUnit="m" metricValue="2.0" pageId="16" pageNumber="707" unit="m" value="200.0">200 m</quantity>
+<collectingMunicipality pageId="16" pageNumber="707">Réserve Naturelle Intégrale de Namoroka</collectingMunicipality>
+[status subsequently changed to 
+<location LSID="urn:lsid:plazi:treatment:E84887F9FFC6D6480FC9FE281B1D31BC:653E6034FFC6D6480244FC8E19FB3562" box="[2062,2260,866,891]" country="Madagascar" longitude="45.34833" municipality="Reserve Naturelle Integrale de Namoroka" name="Parc National" pageId="16" pageNumber="707" stateProvince="Mahajanga">Parc National</location>
+], 
+<location LSID="urn:lsid:plazi:treatment:E84887F9FFC6D6480FC9FE281B1D31BC:653E6034FFC6D64802A4FC8E18173562" box="[2286,2360,866,891]" country="Madagascar" longitude="45.34833" municipality="Reserve Naturelle Integrale de Namoroka" name="Foret" pageId="16" pageNumber="707" stateProvince="Mahajanga">Forét</location>
+d’Ambovonomby, 9% km NW 
+<location LSID="urn:lsid:plazi:treatment:E84887F9FFC6D6480FC9FE281B1D31BC:653E6034FFC6D648028BFC6918A435BB" box="[2241,2443,901,930]" country="Madagascar" longitude="45.34833" municipality="Reserve Naturelle Integrale de Namoroka" name="Andranomavo" pageId="16" pageNumber="707" stateProvince="Mahajanga">Andranomavo</location>
+, 16°28.2°S, 45°20.9’E, 
+<quantity box="[2173,2257,941,970]" metricMagnitude="2" metricUnit="m" metricValue="2.0" pageId="16" pageNumber="707" unit="m" value="200.0">
+<elevation box="[2173,2257,941,970]" metricMagnitude="2" metricUnit="m" metricValue="2.0" pageId="16" pageNumber="707" unit="m" value="200.0">200 m</elevation>
+</quantity>
 above sea level.”
 </materialsCitation>
 </paragraph>

@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.5735202" ID-GBIF-Dataset="a1d7ccc4-c76c-4ac3-bdd4-c53c2f378b35" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="5735202" approvalRequired="98" approvalRequired_for_document="2" approvalRequired_for_matCits="7" approvalRequired_for_originalDoi="1" approvalRequired_for_taxonomicNames="36" approvalRequired_for_treatments="52" checkinTime="1600872994229" checkinUser="plazi" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="E84887F9FFC6D6490FCCF80314203471" docLanguage="en" docName="hbmw_9_Miniopteridae_674.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Miniopterus ambohitrensis Bonaparte 1837" docType="treatment" docVersion="7" lastPageNumber="708" masterDocId="1471FF81FFD6D6580A4AFFEC112F3619" masterDocTitle="Miniopteridae" masterLastPageNumber="709" masterPageNumber="674" pageNumber="707" updateTime="1653330680203" updateUser="carolina">
+<document ID-DOI="http://doi.org/10.5281/zenodo.5735202" ID-GBIF-Dataset="a1d7ccc4-c76c-4ac3-bdd4-c53c2f378b35" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="5735202" approvalRequired="16" approvalRequired_for_taxonomicNames="13" approvalRequired_for_treatments="3" checkinTime="1600872994229" checkinUser="plazi" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="E84887F9FFC6D6490FCCF80314203471" docLanguage="en" docName="hbmw_9_Miniopteridae_674.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Miniopterus ambohitrensis Bonaparte 1837" docType="treatment" docVersion="9" lastPageNumber="708" masterDocId="1471FF81FFD6D6580A4AFFEC112F3619" masterDocTitle="Miniopteridae" masterLastPageNumber="709" masterPageNumber="674" pageNumber="707" updateTime="1653395389965" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Miniopteridae</mods:title>
@@ -92,23 +92,29 @@
 <subSubSection pageId="16" pageNumber="707" type="reference_group">
 <paragraph blockId="16.[2025,2621,2240,2668]" pageId="16" pageNumber="707">
 <emphasis bold="true" box="[2025,2178,2240,2273]" pageId="16" pageNumber="707">Taxonomy.</emphasis>
-<taxonomicName class="Mammalia" family="Miniopteridae" genus="Miniopterus" kingdom="Animalia" order="Chiroptera" pageId="16" pageNumber="707" phylum="Chordata" rank="species" species="ambohitrensis">Miniopterus ambohitrensis Goodman et al, 2015</taxonomicName>
+<taxonomicName authorityName="Bonaparte" authorityYear="1837" class="Mammalia" family="Miniopteridae" genus="Miniopterus" kingdom="Animalia" order="Chiroptera" pageId="16" pageNumber="707" phylum="Chordata" rank="species" species="ambohitrensis">Miniopterus ambohitrensis Goodman et al, 2015</taxonomicName>
 , 
-<materialsCitation ID-GBIF-Occurrence="3747914335" pageId="16" pageNumber="707">
+<materialsCitation ID-GBIF-Occurrence="3747914335" country="Madagascar" location="Parc National de la Montagne" municipality="Province" pageId="16" pageNumber="707" specimenCount="1">
 “ 
 <collectingCountry box="[2307,2473,2288,2313]" name="Madagascar" pageId="16" pageNumber="707">Madagascar</collectingCountry>
-: Province d’Antsiranana, Parc National de la Montagne d’Ambre, 
-<quantity box="[2252,2343,2367,2392]" metricMagnitude="3" metricUnit="m" metricValue="5.5" pageId="16" pageNumber="707" unit="km" value="5.5">5.5 km</quantity>
-SWJoffreville (Ambohitra), Station Forestiere des Roussettes, 
-<geoCoordinate box="[2029,2202,2438,2471]" degrees="12" minutes="31" pageId="16" pageNumber="707" seconds="37.978">12°31'37.978</geoCoordinate>
-, 
-<geoCoordinate box="[2218,2396,2438,2471]" degrees="49" direction="east" minutes="10" orientation="longitude" pageId="16" pageNumber="707" precision="1" seconds="19.1" value="49.171974">49° 10'19.1E</geoCoordinate>
-, 1600'm.”
+: 
+<collectingMunicipality box="[2498,2617,2288,2313]" pageId="16" pageNumber="707">Province</collectingMunicipality>
+d’Antsiranana, 
+<location LSID="urn:lsid:plazi:treatment:E84887F9FFC6D6490FCCF80314203471:653E6034FFC6D648028FF6FF19193F41" country="Madagascar" longitude="49.171974" municipality="Province" name="Parc National de la Montagne" pageId="16" pageNumber="707">Parc National de la Montagne</location>
+d’Ambre, 
+<quantity box="[2252,2343,2367,2392]" metricMagnitude="3" metricUnit="m" metricValue="5.5" pageId="16" pageNumber="707" unit="km" value="5.5">
+<locationDeviation box="[2252,2343,2367,2392]" metricMagnitude="3" metricUnit="m" metricValue="5.5" pageId="16" pageNumber="707" unit="km" value="5.5">5.5 km</locationDeviation>
+</quantity>
+SWJoffreville (
+<location LSID="urn:lsid:plazi:treatment:E84887F9FFC6D6490FCCF80314203471:653E6034FFC6D648004BF6D3197A3F66" country="Madagascar" longitude="49.171974" municipality="Province" name="Ambohitra" pageId="16" pageNumber="707">Ambohitra</location>
+), 
+<location LSID="urn:lsid:plazi:treatment:E84887F9FFC6D6490FCCF80314203471:653E6034FFC6D6480225F68A1B1B3F66" box="[2159,2612,2406,2431]" country="Madagascar" longitude="49.171974" municipality="Province" name="Station Forestiere des Roussettes" pageId="16" pageNumber="707">Station Forestiere des Roussettes</location>
+, 12°31'37.978, 49° 10'19.1E, 1600'm.”
 </materialsCitation>
 </paragraph>
 <paragraph blockId="16.[2025,2621,2240,2668]" pageId="16" pageNumber="707">
 Some specimens belonging to M. ambohitrensis were included in the original description of 
-<taxonomicName box="[2130,2257,2556,2589]" class="Mammalia" family="Miniopteridae" genus="Miniopterus" kingdom="Animalia" order="Chiroptera" pageId="16" pageNumber="707" phylum="Chordata" rank="species" species="aelleni">M. aelleni</taxonomicName>
+<taxonomicName authority="Goodman" authorityName="Goodman" box="[2130,2257,2556,2589]" class="Mammalia" family="Miniopteridae" genus="Miniopterus" kingdom="Animalia" order="Chiroptera" pageId="16" pageNumber="707" phylum="Chordata" rank="species" species="aelleni">M. aelleni</taxonomicName>
 , which is its sister species.
 </paragraph>
 <paragraph blockId="16.[2025,2621,2240,2668]" box="[2027,2180,2600,2629]" pageId="16" pageNumber="707">Monotypic.</paragraph>
