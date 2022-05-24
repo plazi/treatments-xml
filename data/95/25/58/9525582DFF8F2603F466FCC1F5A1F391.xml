@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6514169" ID-GBIF-Dataset="b231b31b-455c-43ff-80a5-80e9d0874636" ID-ISBN="978-84-96553-77-4" ID-Zenodo-Dep="6514169" approvalRequired="3" approvalRequired_for_taxonomicNames="1" approvalRequired_for_treatments="2" checkinTime="1633653942716" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2011" docId="9525582DFF8F2603F466FCC1F5A1F391" docLanguage="en" docName="hbmw_2_Procaviidae_0028.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 2 Hoofed Mammals, Barcelona: Lynx Edicions" docTitle="Dendrohyrax validus True 1890" docType="treatment" docVersion="2" lastPageNumber="47" masterDocId="691C2055FF892605F116FF9DFFB9FFE3" masterDocTitle="Procaviidae" masterLastPageNumber="47" masterPageNumber="41" pageId="6" pageNumber="47" updateTime="1651581701583" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.5720677" ID-GBIF-Dataset="b231b31b-455c-43ff-80a5-80e9d0874636" ID-ISBN="978-84-96553-77-4" ID-Zenodo-Dep="5720677" approvalRequired="1" approvalRequired_for_taxonomicNames="1" checkinTime="1633653942716" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2011" docId="9525582DFF8F2603F466FCC1F5A1F391" docLanguage="en" docName="hbmw_2_Procaviidae_0028.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 2 Hoofed Mammals, Barcelona: Lynx Edicions" docTitle="Dendrohyrax validus True 1890" docType="treatment" docVersion="4" lastPageNumber="47" masterDocId="691C2055FF892605F116FF9DFFB9FFE3" masterDocTitle="Procaviidae" masterLastPageNumber="47" masterPageNumber="41" pageNumber="47" updateTime="1653418574080" updateUser="tatiana">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Procaviidae</mods:title>
@@ -41,7 +41,7 @@
 <mods:identifier type="ISBN">978-84-96553-77-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">5720677</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6514169" ID-Zenodo-Dep="6514169" LSID="urn:lsid:plazi:treatment:9525582DFF8F2603F466FCC1F5A1F391" httpUri="http://treatment.plazi.org/id/9525582DFF8F2603F466FCC1F5A1F391" lastPageNumber="47" pageId="6" pageNumber="47">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6514169" ID-GBIF-Taxon="195045941" ID-Zenodo-Dep="6514169" LSID="urn:lsid:plazi:treatment:9525582DFF8F2603F466FCC1F5A1F391" httpUri="http://treatment.plazi.org/id/9525582DFF8F2603F466FCC1F5A1F391" lastPageNumber="47" pageId="6" pageNumber="47">
 <subSubSection box="[1392,1424,860,906]" pageId="6" pageNumber="47" type="multiple">
 <paragraph blockId="6.[1389,2432,860,984]" box="[1392,1424,860,906]" pageId="6" pageNumber="47">
 <heading box="[1392,1424,860,906]" pageId="6" pageNumber="47">
@@ -77,10 +77,8 @@ Daman du
 <emphasis bold="true" box="[1715,1806,924,945]" pageId="6" pageNumber="47">German:</emphasis>
 <vernacularName box="[1815,2056,924,945]" pageId="6" pageNumber="47">Ostlicher Baumschliefer</vernacularName>
 / 
-<taxonomicName authority="Daman" authorityName="Daman" box="[2076,2245,924,945]" class="Aves" family="Phasianidae" genus="Spanish" kingdom="Animalia" order="Galliformes" pageId="6" pageNumber="47" phylum="Chordata" rank="genus">
 <emphasis bold="true" box="[2076,2167,924,945]" pageId="6" pageNumber="47">Spanish:</emphasis>
 <vernacularName box="[2177,2430,924,945]" pageId="6" pageNumber="47">Daman arboricola oriental</vernacularName>
-</taxonomicName>
 </heading>
 </paragraph>
 <paragraph blockId="6.[1389,2432,860,984]" box="[1390,1761,963,984]" pageId="6" pageNumber="47">
@@ -94,17 +92,23 @@ Daman du
 <paragraph blockId="6.[2005,2591,1030,1457]" pageId="6" pageNumber="47">
 <emphasis bold="true" box="[2005,2160,1030,1063]" pageId="6" pageNumber="47">Taxonomy.</emphasis>
 <taxonomicName authority="True, 1890" authorityName="True" authorityYear="1890" class="Mammalia" family="Procaviidae" genus="Dendrohyrax" kingdom="Animalia" order="Hyracoidea" pageId="6" pageNumber="47" phylum="Chordata" rank="species" species="validus">Dendrohyrax validus True, 1890</taxonomicName>
-, 
-<materialsCitation box="[2090,2509,1078,1103]" pageId="6" pageNumber="47">
+,
+</paragraph>
+</subSubSection>
+<subSubSection box="[2090,2509,1078,1103]" pageId="6" pageNumber="47" type="materials_examined">
+<paragraph blockId="6.[2005,2591,1030,1457]" box="[2090,2509,1078,1103]" pageId="6" pageNumber="47">
+<materialsCitation ID-GBIF-Occurrence="3761283302" box="[2090,2509,1078,1103]" pageId="6" pageNumber="47">
 <collectingRegion box="[2090,2361,1078,1103]" country="Tanzania" name="Kilimanjaro" pageId="6" pageNumber="47">Mount Kilimanjaro</collectingRegion>
 , 
 <collectingCountry box="[2377,2505,1078,1103]" name="Tanzania" pageId="6" pageNumber="47">Tanzania</collectingCountry>
 .
 </materialsCitation>
 </paragraph>
+</subSubSection>
+<subSubSection box="[2005,2549,1109,1142]" pageId="6" pageNumber="47" type="discussion">
 <paragraph blockId="6.[2005,2591,1030,1457]" box="[2005,2549,1109,1142]" pageId="6" pageNumber="47">Three subspecies have been described.</paragraph>
 </subSubSection>
-<subSubSection pageId="6" pageNumber="47" type="synonymic_list">
+<subSubSection pageId="6" pageNumber="47" type="distribution">
 <caption ID-DOI="http://doi.org/10.5281/zenodo.5720693" ID-Zenodo-Dep="5720693" httpUri="https://zenodo.org/record/5720693/files/figure.png" inLine="true" pageId="6" pageNumber="47" targetBox="[1388,1982,1038,1454]" targetPageId="6">
 <paragraph blockId="6.[2005,2591,1030,1457]" box="[2006,2405,1148,1181]" pageId="6" pageNumber="47">
 <emphasis bold="true" box="[2006,2405,1148,1181]" pageId="6" pageNumber="47">Subspecies and Distribution.</emphasis>

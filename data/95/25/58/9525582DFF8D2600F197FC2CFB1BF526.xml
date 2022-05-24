@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.5720689" ID-GBIF-Dataset="b231b31b-455c-43ff-80a5-80e9d0874636" ID-GBIF-Taxon="190577660" ID-ISBN="978-84-96553-77-4" ID-Zenodo-Dep="5720689" approvalRequired="3" approvalRequired_for_taxonomicNames="1" approvalRequired_for_treatments="2" checkinTime="1633653942716" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2011" docId="9525582DFF8D2600F197FC2CFB1BF526" docLanguage="en" docName="hbmw_2_Procaviidae_0028.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 2 Hoofed Mammals, Barcelona: Lynx Edicions" docTitle="Heterohyrax brucei" docType="treatment" docVersion="6" lastPageId="5" lastPageNumber="46" masterDocId="691C2055FF892605F116FF9DFFB9FFE3" masterDocTitle="Procaviidae" masterLastPageNumber="47" masterPageNumber="41" pageId="4" pageNumber="45" updateTime="1651581701583" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.5720677" ID-GBIF-Dataset="b231b31b-455c-43ff-80a5-80e9d0874636" ID-ISBN="978-84-96553-77-4" ID-Zenodo-Dep="5720677" approvalRequired="1" approvalRequired_for_taxonomicNames="1" checkinTime="1633653942716" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2011" docId="9525582DFF8D2600F197FC2CFB1BF526" docLanguage="en" docName="hbmw_2_Procaviidae_0028.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 2 Hoofed Mammals, Barcelona: Lynx Edicions" docTitle="Heterohyrax brucei" docType="treatment" docVersion="8" lastPageNumber="46" masterDocId="691C2055FF892605F116FF9DFFB9FFE3" masterDocTitle="Procaviidae" masterLastPageNumber="47" masterPageNumber="41" pageNumber="45" updateTime="1653418574080" updateUser="tatiana">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Procaviidae</mods:title>
@@ -74,10 +74,8 @@
 <emphasis bold="true" box="[402,493,1009,1030]" pageId="4" pageNumber="45">German:</emphasis>
 <vernacularName box="[503,650,1009,1030]" pageId="4" pageNumber="45">Buschschliefer</vernacularName>
 / 
-<taxonomicName authority="Daman" authorityName="Daman" box="[670,840,1009,1030]" class="Aves" family="Phasianidae" genus="Spanish" kingdom="Animalia" order="Galliformes" pageId="4" pageNumber="45" phylum="Chordata" rank="genus">
 <emphasis bold="true" box="[670,761,1009,1030]" pageId="4" pageNumber="45">Spanish:</emphasis>
 <vernacularName box="[771,965,1009,1030]" pageId="4" pageNumber="45">Daman de arbustos</vernacularName>
-</taxonomicName>
 </heading>
 </paragraph>
 <paragraph blockId="4.[126,966,945,1069]" box="[128,595,1048,1069]" pageId="4" pageNumber="45">
@@ -87,23 +85,30 @@
 </heading>
 </paragraph>
 </subSubSection>
-<subSubSection pageId="4" pageNumber="45" type="reference_group">
-<paragraph blockId="4.[742,1330,1113,1539]" pageId="4" pageNumber="45">
+<subSubSection box="[743,1234,1113,1146]" pageId="4" pageNumber="45" type="reference_group">
+<paragraph blockId="4.[742,1330,1113,1539]" box="[743,1234,1113,1146]" pageId="4" pageNumber="45">
 <emphasis bold="true" box="[743,898,1113,1146]" pageId="4" pageNumber="45">Taxonomy.</emphasis>
-Hyrax bruce: Gray, 1868, 
-<materialsCitation pageId="4" pageNumber="45">
+<taxonomicName authority="Gray, 1868" authorityName="Gray" authorityYear="1868" box="[910,1229,1113,1146]" class="Mammalia" family="Procaviidae" genus="Hyrax" kingdom="Animalia" order="Hyracoidea" pageId="4" pageNumber="45" phylum="Chordata" rank="species" species="brucei">Hyrax brucei: Gray, 1868</taxonomicName>
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="4" pageNumber="45" type="materials_examined">
+<paragraph blockId="4.[742,1330,1113,1539]" pageId="4" pageNumber="45">
+<materialsCitation ID-GBIF-Occurrence="3761283305" pageId="4" pageNumber="45">
 <collectingCountry name="Ethiopia" pageId="4" pageNumber="45">Ethiopia</collectingCountry>
 (= 
 <collectingCountry box="[833,971,1153,1186]" name="Ethiopia" pageId="4" pageNumber="45">Abyssinia</collectingCountry>
 ).
 </materialsCitation>
 </paragraph>
+</subSubSection>
+<subSubSection pageId="4" pageNumber="45" type="discussion">
 <paragraph blockId="4.[742,1330,1113,1539]" lastBlockId="4.[126,1332,1546,3465]" pageId="4" pageNumber="45">
 Various names have been applied to the Bush Hyrax including 
-<taxonomicName authorityName="Gray" authorityYear="1868" box="[1057,1218,1235,1264]" class="Mammalia" family="Procaviidae" genus="Dendrohyrax" kingdom="Animalia" order="Hyracoidea" pageId="4" pageNumber="45" phylum="Chordata" rank="genus">Dendrohyrax</taxonomicName>
-blainvillii, 
-<taxonomicName box="[787,937,1275,1304]" class="Mammalia" family="Procaviidae" genus="Heterohyrax" kingdom="Animalia" order="Hyracoidea" pageId="4" pageNumber="45" phylum="Chordata" rank="genus">Heterohyrax</taxonomicName>
-blainuvillii, Hyrax syriacus and even 
+<taxonomicName authorityName="Gray" authorityYear="1868" class="Mammalia" family="Procaviidae" genus="Dendrohyrax" kingdom="Animalia" order="Hyracoidea" pageId="4" pageNumber="45" phylum="Chordata" rank="species" species="blainvillii">Dendrohyrax blainvillii</taxonomicName>
+, 
+<taxonomicName box="[787,1067,1275,1304]" class="Mammalia" family="Procaviidae" genus="Heterohyrax" kingdom="Animalia" order="Hyracoidea" pageId="4" pageNumber="45" phylum="Chordata" rank="species" species="blainvillii">Heterohyrax blainvillii</taxonomicName>
+, Hyrax syriacus and even 
 <taxonomicName authorityName="Gray" authorityYear="1868" box="[824,1024,1310,1343]" class="Mammalia" family="Procaviidae" genus="Procavia" kingdom="Animalia" order="Hyracoidea" pageId="4" pageNumber="45" phylum="Chordata" rank="species" species="brucei">Procavia brucei</taxonomicName>
 . Many different subspecies have been described from Africa, and two forms, 
 <taxonomicName baseAuthorityName="Heim de Balsac &amp; Begouen" baseAuthorityYear="1932" box="[970,1077,1397,1422]" class="Mammalia" family="Procaviidae" genus="Heterohyrax" kingdom="Animalia" order="Hyracoidea" pageId="4" pageNumber="45" phylum="Chordata" rank="species" species="antineae">antineae</taxonomicName>
@@ -238,11 +243,14 @@ are highly distinct and may represent cryptic species. Further genetic studies o
 <collectingCountry box="[571,661,3009,3034]" name="Sudan" pageId="4" pageNumber="45">H.b.thomasiNeumann,1901—Sudan.</collectingCountry>
 </taxonomicName>
 </paragraph>
-<paragraph blockId="4.[126,1332,1546,3465]" pageId="4" pageNumber="45">
+<paragraph blockId="4.[126,1332,1546,3465]" box="[132,749,3044,3073]" pageId="4" pageNumber="45">
 <taxonomicName authority="Brauer, 1917" authorityName="Brauer" authorityYear="1917" box="[132,584,3044,3073]" class="Mammalia" family="Procaviidae" genus="Heterohyrax" kingdom="Animalia" order="Hyracoidea" pageId="4" pageNumber="45" phylum="Chordata" rank="subSpecies" species="brucei" subSpecies="victorianjansae">H. b. victorianjansae Brauer, 1917</taxonomicName>
 — 
 <collectingCountry box="[617,745,3044,3073]" name="Tanzania" pageId="4" pageNumber="45">Tanzania</collectingCountry>
-. Endemic to Africa from NE 
+.
+</paragraph>
+<paragraph blockId="4.[126,1332,1546,3465]" pageId="4" pageNumber="45">
+Endemic to Africa from NE 
 <collectingCountry box="[528,615,3079,3112]" name="Sudan" pageId="4" pageNumber="45">Sudan</collectingCountry>
 throughout the Horn of Africa, south to 
 <collectingRegion box="[1201,1330,3079,3112]" country="South Africa" name="Limpopo" pageId="4" pageNumber="45">Limpopo</collectingRegion>

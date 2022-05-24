@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.5720681" ID-GBIF-Dataset="b231b31b-455c-43ff-80a5-80e9d0874636" ID-GBIF-Taxon="190577665" ID-ISBN="978-84-96553-77-4" ID-Zenodo-Dep="5720681" approvalRequired="3" approvalRequired_for_taxonomicNames="1" approvalRequired_for_treatments="2" checkinTime="1633653942716" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2011" docId="9525582DFF8B2601F192FE30FB74FD40" docLanguage="en" docName="hbmw_2_Procaviidae_0028.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 2 Hoofed Mammals, Barcelona: Lynx Edicions" docTitle="Procavia capensis Pallas 1766" docType="treatment" docVersion="6" lastPageId="4" lastPageNumber="44" masterDocId="691C2055FF892605F116FF9DFFB9FFE3" masterDocTitle="Procaviidae" masterLastPageNumber="47" masterPageNumber="41" pageId="2" pageNumber="43" updateTime="1651581701583" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.5720677" ID-GBIF-Dataset="b231b31b-455c-43ff-80a5-80e9d0874636" ID-ISBN="978-84-96553-77-4" ID-Zenodo-Dep="5720677" approvalRequired="1" approvalRequired_for_taxonomicNames="1" checkinTime="1633653942716" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2011" docId="9525582DFF8B2601F192FE30FB74FD40" docLanguage="en" docName="hbmw_2_Procaviidae_0028.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 2 Hoofed Mammals, Barcelona: Lynx Edicions" docTitle="Procavia capensis Pallas 1766" docType="treatment" docVersion="8" lastPageNumber="44" masterDocId="691C2055FF892605F116FF9DFFB9FFE3" masterDocTitle="Procaviidae" masterLastPageNumber="47" masterPageNumber="41" pageNumber="43" updateTime="1653418574080" updateUser="tatiana">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Procaviidae</mods:title>
@@ -74,10 +74,8 @@
 <emphasis bold="true" box="[431,522,493,514]" pageId="2" pageNumber="43">German:</emphasis>
 <vernacularName box="[532,665,493,514]" pageId="2" pageNumber="43">Klippschliefer</vernacularName>
 / 
-<taxonomicName authority="Daman" authorityName="Daman" box="[685,854,493,514]" class="Aves" family="Phasianidae" genus="Spanish" kingdom="Animalia" order="Galliformes" pageId="2" pageNumber="43" phylum="Chordata" rank="genus">
 <emphasis bold="true" box="[685,776,493,514]" pageId="2" pageNumber="43">Spanish:</emphasis>
 <vernacularName box="[786,947,493,514]" pageId="2" pageNumber="43">Daman de rocas</vernacularName>
-</taxonomicName>
 </heading>
 </paragraph>
 <paragraph blockId="2.[127,1213,429,594]" pageId="2" pageNumber="43">
@@ -100,13 +98,16 @@ Hyrax (
 </heading>
 </paragraph>
 </subSubSection>
-<subSubSection pageId="2" pageNumber="43" type="reference_group">
-<paragraph blockId="2.[741,1332,641,1063]" pageId="2" pageNumber="43">
+<subSubSection box="[744,1328,641,670]" pageId="2" pageNumber="43" type="reference_group">
+<paragraph blockId="2.[741,1332,641,1063]" box="[744,1328,641,670]" pageId="2" pageNumber="43">
 <emphasis bold="true" box="[744,899,641,670]" pageId="2" pageNumber="43">Taxonomy.</emphasis>
-Cavia 
-<taxonomicName authority="Pallas, 1766" authorityName="Pallas" authorityYear="1766" box="[1023,1323,641,670]" class="Mammalia" family="Procaviidae" genus="Procavia" kingdom="Animalia" order="Hyracoidea" pageId="2" pageNumber="43" phylum="Chordata" rank="species" species="capensis">capensis Pallas, 1766</taxonomicName>
-, 
-<materialsCitation pageId="2" pageNumber="43">
+<taxonomicName authority="Pallas, 1766" authorityName="Pallas" authorityYear="1766" box="[926,1323,641,670]" class="Mammalia" family="Procaviidae" genus="Cavia" kingdom="Animalia" order="Hyracoidea" pageId="2" pageNumber="43" phylum="Chordata" rank="species" species="capensis">Cavia capensis Pallas, 1766</taxonomicName>
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="2" pageNumber="43" type="materials_examined">
+<paragraph blockId="2.[741,1332,641,1063]" pageId="2" pageNumber="43">
+<materialsCitation ID-GBIF-Occurrence="3761283301" pageId="2" pageNumber="43">
 <collectingCountry box="[745,920,680,709]" name="South Africa" pageId="2" pageNumber="43">South Africa</collectingCountry>
 , 
 <collectingRegion box="[934,1207,680,709]" country="South Africa" name="Western Cape" pageId="2" pageNumber="43">Western Cape Prov.</collectingRegion>
@@ -115,6 +116,8 @@ Cavia
 of Good Hope.
 </materialsCitation>
 </paragraph>
+</subSubSection>
+<subSubSection pageId="2" pageNumber="43" type="reference_group">
 <paragraph blockId="2.[741,1332,641,1063]" lastBlockId="2.[128,1332,1078,3343]" pageId="2" pageNumber="43">
 Recent authors have recognized only a single species, 
 <taxonomicName authorityName="Pallas" authorityYear="1766" box="[956,1096,794,827]" class="Mammalia" family="Procaviidae" genus="Procavia" kingdom="Animalia" order="Hyracoidea" pageId="2" pageNumber="43" phylum="Chordata" rank="species" species="capensis">P. capensis</taxonomicName>
@@ -336,8 +339,8 @@ On following pages 2 Bush Hyrax (
 <taxonomicName box="[527,662,3440,3463]" class="Mammalia" family="Procaviidae" genus="Heterohyrax" kingdom="Animalia" order="Hyracoidea" pageId="2" pageNumber="43" phylum="Chordata" rank="genus">Heterohyrax</taxonomicName>
 bruce», 3 Western Tree Hyrax (
 <taxonomicName box="[1017,1158,3439,3464]" class="Mammalia" family="Procaviidae" genus="Dendrohyrax" kingdom="Animalia" order="Hyracoidea" pageId="2" pageNumber="43" phylum="Chordata" rank="genus">Dendrohyrax</taxonomicName>
-dorsal/s), 4 Southern Tree Hyrax (Dondrohyrax 
-<taxonomicName box="[1683,1779,3439,3459]" class="Mammalia" family="Procaviidae" genus="Dendrohyrax" kingdom="Animalia" order="Hyracoidea" pageId="2" pageNumber="43" phylum="Chordata" rank="species" species="arboreus">arboreus</taxonomicName>
+dorsal/s), 4 Southern Tree Hyrax (
+<taxonomicName box="[1536,1779,3439,3463]" class="Mammalia" family="Procaviidae" genus="Dondrohyrax" kingdom="Animalia" order="Hyracoidea" pageId="2" pageNumber="43" phylum="Chordata" rank="species" species="arboreus">Dondrohyrax arboreus</taxonomicName>
 ), 5 Eastern Tree Hyrax (Dendmhyrax vahdusl
 </paragraph>
 </caption>
