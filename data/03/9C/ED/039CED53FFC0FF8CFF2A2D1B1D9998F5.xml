@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.5721165" ID-GBIF-Dataset="d49c093c-d189-4593-ad9c-e2d4036ea128" ID-GBIF-Taxon="190604218" ID-ISBN="978-84-96553-77-4" ID-Zenodo-Dep="5721165" approvalRequired="9" approvalRequired_for_taxonomicNames="2" approvalRequired_for_textStreams="6" approvalRequired_for_treatments="1" checkinTime="1633650758772" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2011" docId="039CED53FFC0FF8CFF2A2D1B1D9998F5" docLanguage="en" docName="hbmw_2_Tapiridae_0182.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 2 Hoofed Mammals, Barcelona: Lynx Edicions" docTitle="Tapirus terrestris Linnaeus 1758" docType="treatment" docVersion="6" lastPageId="3" lastPageNumber="200" masterDocId="FFA5952BFFC1FF8FFFEC264B1E3D944E" masterDocTitle="Tapiridae" masterLastPageNumber="204" masterPageNumber="182" pageId="1" pageNumber="198" updateTime="1651576741611" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.5721161" ID-GBIF-Dataset="d49c093c-d189-4593-ad9c-e2d4036ea128" ID-ISBN="978-84-96553-77-4" ID-Zenodo-Dep="5721161" approvalRequired="6" approvalRequired_for_textStreams="6" checkinTime="1633650758772" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2011" docId="039CED53FFC0FF8CFF2A2D1B1D9998F5" docLanguage="en" docName="hbmw_2_Tapiridae_0182.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 2 Hoofed Mammals, Barcelona: Lynx Edicions" docTitle="Tapirus terrestris Linnaeus 1758" docType="treatment" docVersion="8" lastPageNumber="200" masterDocId="FFA5952BFFC1FF8FFFEC264B1E3D944E" masterDocTitle="Tapiridae" masterLastPageNumber="204" masterPageNumber="182" pageNumber="198" updateTime="1653488145959" updateUser="tatiana">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Tapiridae</mods:title>
@@ -77,10 +77,8 @@ Tapir du
 <emphasis bold="true" box="[441,531,2956,2977]" pageId="1" pageNumber="198">German:</emphasis>
 <vernacularName box="[541,677,2956,2977]" pageId="1" pageNumber="198">Flachlandtapir</vernacularName>
 / 
-<taxonomicName authority="Tapir" authorityName="Tapir" box="[698,843,2956,2977]" class="Aves" family="Phasianidae" genus="Spanish" kingdom="Animalia" order="Galliformes" pageId="1" pageNumber="198" phylum="Chordata" rank="genus">
 <emphasis bold="true" box="[698,789,2956,2977]" pageId="1" pageNumber="198">Spanish:</emphasis>
 <vernacularName box="[798,843,2956,2977]" pageId="1" pageNumber="198">Tapir</vernacularName>
-</taxonomicName>
 amazonico
 </heading>
 </paragraph>
@@ -93,19 +91,25 @@ amazonico
 </heading>
 </paragraph>
 </subSubSection>
-<subSubSection pageId="1" pageNumber="198" type="reference_group">
-<paragraph blockId="1.[192,1397,3068,3456]" pageId="1" pageNumber="198">
+<subSubSection box="[193,900,3070,3095]" pageId="1" pageNumber="198" type="reference_group">
+<paragraph blockId="1.[192,1397,3068,3456]" box="[193,900,3070,3095]" pageId="1" pageNumber="198">
 <emphasis bold="true" box="[193,348,3070,3095]" pageId="1" pageNumber="198">Taxonomy.</emphasis>
-Hippopotamus 
-<taxonomicName authority="Linnaeus, 1758" authorityName="Linnaeus" authorityYear="1758" box="[564,895,3070,3095]" class="Mammalia" family="Tapiridae" genus="Tapirus" kingdom="Animalia" order="Perissodactyla" pageId="1" pageNumber="198" phylum="Chordata" rank="species" species="terrestris">terrestris Linnaeus, 1758</taxonomicName>
-, 
-<materialsCitation box="[915,1207,3070,3095]" pageId="1" pageNumber="198">“Habitat in Brasillia”</materialsCitation>
-i.e. 
+<taxonomicName authority="Linnaeus, 1758" authorityName="Linnaeus" authorityYear="1758" box="[365,895,3070,3095]" class="Mammalia" family="Tapiridae" genus="Hippopotamus" kingdom="Animalia" order="Perissodactyla" pageId="1" pageNumber="198" phylum="Chordata" rank="species" species="terrestris">Hippopotamus terrestris Linnaeus, 1758</taxonomicName>
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="1" pageNumber="198" type="materials_examined">
+<paragraph blockId="1.[192,1397,3068,3456]" pageId="1" pageNumber="198">
+<materialsCitation ID-GBIF-Occurrence="3761201302" country="Brazil" location="Pernambuco" pageId="1" pageNumber="198" specimenCount="1" stateProvince="Pernambuco">
+“Habitat in Brasillia” i.e. 
 <collectingRegion country="Brazil" name="Pernambuco" pageId="1" pageNumber="198">Pernambuco</collectingRegion>
 , 
 <collectingCountry box="[283,363,3108,3133]" name="Brazil" pageId="1" pageNumber="198">Brazil</collectingCountry>
 .
+</materialsCitation>
 </paragraph>
+</subSubSection>
+<subSubSection box="[195,585,3148,3173]" pageId="1" pageNumber="198" type="discussion">
 <paragraph blockId="1.[192,1397,3068,3456]" box="[195,585,3148,3173]" pageId="1" pageNumber="198">Four subspecies recognized.</paragraph>
 </subSubSection>
 <subSubSection pageId="1" pageNumber="198" type="synonymic_list">
@@ -114,17 +118,17 @@ i.e.
 <emphasis bold="true" box="[194,592,3182,3211]" pageId="1" pageNumber="198">Subspecies and Distribution.</emphasis>
 </paragraph>
 <paragraph blockId="1.[192,1397,3068,3456]" pageId="1" pageNumber="198">
-<taxonomicName authority="Linnaeus, 1758" authorityName="Linnaeus" authorityYear="1758" class="Mammalia" family="Tapiridae" genus="Tapirus" kingdom="Animalia" order="Perissodactyla" pageId="1" pageNumber="198" phylum="Chordata" rank="subSpecies" species="terrestris" subSpecies="terrestris">
+<taxonomicName authority="Linnaeus, 1758" authorityName="Linnaeus" authorityYear="1758" box="[198,598,3227,3252]" class="Mammalia" family="Tapiridae" genus="Tapirus" kingdom="Animalia" order="Perissodactyla" pageId="1" pageNumber="198" phylum="Chordata" rank="subSpecies" species="terrestris" subSpecies="terrestris">
 <collectingCountry name="Venezuela" pageId="1" pageNumber="198">T.t.terrestrisLinnaeus,1758—VenezuelathroughtheGuianastoCBrazilandNEArgentina(N&amp;CMisiones).</collectingCountry>
 </taxonomicName>
 </paragraph>
 <paragraph blockId="1.[192,1397,3068,3456]" box="[198,1158,3301,3330]" pageId="1" pageNumber="198">
-<taxonomicName authority="Gray, 1872" authorityName="Gray" authorityYear="1872" box="[198,1158,3301,3330]" class="Mammalia" family="Tapiridae" genus="Tapirus" kingdom="Animalia" order="Perissodactyla" pageId="1" pageNumber="198" phylum="Chordata" rank="subSpecies" species="terrestris" subSpecies="aenigmaticus">
+<taxonomicName authority="Gray, 1872" authorityName="Gray" authorityYear="1872" box="[198,575,3301,3330]" class="Mammalia" family="Tapiridae" genus="Tapirus" kingdom="Animalia" order="Perissodactyla" pageId="1" pageNumber="198" phylum="Chordata" rank="subSpecies" species="terrestris" subSpecies="aenigmaticus">
 <collectingCountry box="[198,1158,3301,3330]" name="Colombia" pageId="1" pageNumber="198">T.t.aenigmaticusGray,1872—SEColombia,EEcuador,andNEPeru.</collectingCountry>
 </taxonomicName>
 </paragraph>
 <paragraph blockId="1.[192,1397,3068,3456]" pageId="1" pageNumber="198">
-<taxonomicName authority="Hershkovitz, 1954" authorityName="Hershkovitz" authorityYear="1954" class="Mammalia" family="Tapiridae" genus="Tapirus" kingdom="Animalia" order="Perissodactyla" pageId="1" pageNumber="198" phylum="Chordata" rank="subSpecies" species="terrestris" subSpecies="colombianus">
+<taxonomicName authority="Hershkovitz, 1954" authorityName="Hershkovitz" authorityYear="1954" box="[198,690,3344,3369]" class="Mammalia" family="Tapiridae" genus="Tapirus" kingdom="Animalia" order="Perissodactyla" pageId="1" pageNumber="198" phylum="Chordata" rank="subSpecies" species="terrestris" subSpecies="colombianus">
 <collectingCountry name="Colombia" pageId="1" pageNumber="198">T.t.colombianusHershkovitz,1954—tropicalzonesofNColombiaintheareasofMagdalena,Bolivar,Atlantico,Cordoba,andNWAntioquia,asfarastheAtrataRiver,andasfarNastheRancheriaRiverinLaGuajira.</collectingCountry>
 </taxonomicName>
 </paragraph>
@@ -135,9 +139,7 @@ i.e.
 , 
 <collectingCountry name="Paraguay" pageId="1" pageNumber="198">Paraguay</collectingCountry>
 , and N 
-<taxonomicName box="[2251,2391,2831,2860]" class="Magnoliopsida" family="Rosaceae" genus="Argentina" kingdom="Plantae" order="Rosales" pageId="1" pageNumber="198" phylum="Tracheophyta" rank="genus">
 <collectingCountry box="[2251,2391,2831,2860]" name="Argentina" pageId="1" pageNumber="198">Argentina</collectingCountry>
-</taxonomicName>
 to NE 
 <collectingRegion box="[2488,2607,2831,2860]" country="Argentina" name="Santa Fe" pageId="1" pageNumber="198">Santa Fe</collectingRegion>
 , NE 
@@ -176,8 +178,8 @@ The Lowland Tapir has a broad geographic distribution and seems to be adapted to
 , 
 <collectingCountry box="[345,426,1151,1176]" name="Brazil" pageId="2" pageNumber="199">Brazil</collectingCountry>
 , tapirs strongly selected riparian environments and marshes, where they performed most of their main activities, particularly foraging. They avoided areas of agriculture and pasture land, as well as secondary growth forests. Palm forests are known to be important habitats, and they also frequent saltlicks, particularly in the Amazon. In the north-eastern region of the Brazilian Pantanal, tapirs show high preference for Acuri palm (Scheelea phalerata) forests. In the semi-deciduous Atlantic Forest, they prefer areas ofJeriva palm (
-<taxonomicName box="[656,757,1379,1412]" class="Liliopsida" family="Arecaceae" genus="Syagrus" kingdom="Plantae" order="Arecales" pageId="2" pageNumber="199" phylum="Tracheophyta" rank="genus">Syagrus</taxonomicName>
-romanzoffiana) forests. The Jeriva is the most abundant and widespread palm species in the semi-deciduous Atlantic Forest. In the Amazon, patches of moriche palm (Mauritiaflexuosa) are used intensively by tapirs. During the study in Morro do Diabo State Park, tapirs moved fairly easily through areas of non-habitat between patches of forest. These pathways included pastures and croplands, especially sugar cane, soy bean, and corn plantations. In some instances, tapirs crossed areas of forest regeneration, degraded forest corridors, and riparian forests along small rivers. Lowland Tapirs also cross eucalyptus plantations between fragments of Atlantic Forest in 
+<taxonomicName box="[656,948,1379,1412]" class="Liliopsida" family="Arecaceae" genus="Syagrus" kingdom="Plantae" order="Arecales" pageId="2" pageNumber="199" phylum="Tracheophyta" rank="species" species="romanzoffiana">Syagrus romanzoffiana</taxonomicName>
+) forests. The Jeriva is the most abundant and widespread palm species in the semi-deciduous Atlantic Forest. In the Amazon, patches of moriche palm (Mauritiaflexuosa) are used intensively by tapirs. During the study in Morro do Diabo State Park, tapirs moved fairly easily through areas of non-habitat between patches of forest. These pathways included pastures and croplands, especially sugar cane, soy bean, and corn plantations. In some instances, tapirs crossed areas of forest regeneration, degraded forest corridors, and riparian forests along small rivers. Lowland Tapirs also cross eucalyptus plantations between fragments of Atlantic Forest in 
 <collectingRegion box="[536,812,1693,1726]" country="Brazil" name="Espirito Santo" pageId="2" pageNumber="199">Espirito Santo State</collectingRegion>
 , 
 <collectingCountry box="[829,911,1693,1726]" name="Brazil" pageId="2" pageNumber="199">Brazil</collectingCountry>
@@ -192,12 +194,10 @@ Due to their diet and stomach anatomy, Lowland Tapirs are closer to the browser 
 their diet comprised 24-4% fruit, 22-3% leaf, and 53-2% fiber. In the Bolivian Chaco, the diet was 16-8% fruit, 62% leaf, and 21-2 % fiber. Tapirs selectively browse vegetative parts of different food plants. More than 170 species of fruits in over 60 different plant families have been identified as eaten by Lowland Tapirs throughout their range. In the Peruvian Amazon, they consumed 122 species of fruit from 33 plant families, and in the semi-deciduous Atlantic Forests of 
 <collectingCountry box="[1144,1224,2130,2159]" name="Brazil" pageId="2" pageNumber="199">Brazil</collectingCountry>
 , they consumed 58 species of fruit from 23 plant families. Palm fruits are among the most important food resources, especially during the dry season when other species of fruit are less available. Mauritiaflexuosa is the single most important food item (76%) in the diet of Lowland Tapirs in the Peruvian Amazon. The distribution of these palm patches appears to strongly influence the movement patterns of tapirs in the area. In addition, tapirs are efficient dispersers of 
-<taxonomicName box="[547,663,2362,2395]" class="Liliopsida" family="Arecaceae" genus="Mauritia" kingdom="Plantae" order="Arecales" pageId="2" pageNumber="199" phylum="Tracheophyta" rank="genus">Mauritia</taxonomicName>
-flexuosa seeds. In Morro do Diabo State Park, 
+<taxonomicName box="[547,776,2362,2395]" class="Liliopsida" family="Arecaceae" genus="Mauritia" kingdom="Plantae" order="Arecales" pageId="2" pageNumber="199" phylum="Tracheophyta" rank="species" species="flexuosa">Mauritia flexuosa</taxonomicName>
+seeds. In Morro do Diabo State Park, 
 <collectingCountry box="[100,181,2401,2434]" name="Brazil" pageId="2" pageNumber="199">Brazil</collectingCountry>
-, 
-<taxonomicName box="[199,297,2401,2434]" class="Liliopsida" family="Arecaceae" genus="Syagrus" kingdom="Plantae" order="Arecales" pageId="2" pageNumber="199" phylum="Tracheophyta" rank="genus">Syagrus</taxonomicName>
-romanzoffiana was the most frequently found fruit (18:4%) in Lowland Tapir fecal samples. In the Bolivian Chaco, Lowland Tapirs have successfully adapted to seasonal droughts, and to diets that include a large proportion of cactus fiber.
+, Syagrus romanzoffiana was the most frequently found fruit (18:4%) in Lowland Tapir fecal samples. In the Bolivian Chaco, Lowland Tapirs have successfully adapted to seasonal droughts, and to diets that include a large proportion of cactus fiber.
 </paragraph>
 </subSubSection>
 <subSubSection pageId="2" pageNumber="199" type="breeding">
@@ -218,9 +218,7 @@ Tapirs are predominantly nocturnal and crepuscular. Lowland Tapir rest during th
 , their main periods of activity are from 19:00 h to 00:00 h, with a peak between 20:00 h and 21:00 h (63% active); and from 01:00 h to 07:00 h, with a peak between 05:00 h and 06:00 h (60% active). Tapirs in Morro do Diabo are largely inactive between 11:00 h and 16:00 h. Overall, tapirs in Morro do Diabo foraged for approximately five hours in the early evening, and then seemed to rest for a few hours in the middle of the night. There followed a second foraging bout, of approximately six hours in the early hours of the day. Tapir activity patterns were analyzed separately for wet and dry season, as well for both sexes and different age classes in Morro do Diabo, and were fairly consistent. In Kaa-Iya del Gran Chaco National Park, 
 <collectingCountry box="[2022,2117,947,980]" name="Bolivia" pageId="2" pageNumber="199">Bolivia</collectingCountry>
 , tapirs are mostly active between 18:00 h and 22:00 h, and between 00:00 h and 06:00 h, with a main activity peak between 01:00 h and 06:30 h, and very little activity between 11:00 h and 15:30 h. In the Peruvian Amazon, tapir activity peaks were observed between 19:00 h and 20:00 h and between 03:00 h and 04:00 h, with the main foraging time between 21:00 h and 03:00 h. Nocturnal line-transect sampling in Morro do Diabo State Park allowed for an analysis of the effect of moonlight intensity on tapir activity. Approximately 47% of the tapir encounters occurred during the waning crescent, 21% during the new moon, 18% during the waxing crescent, and only 14% during the full moon. It was clear that tapirs in Morro do Diabo were considerably less active during the brighter phases of the moon. Previous studies suggested that a lower level of animal activity during moonlit nights is a result of higher predation risk. In El Rey National Park, 
-<taxonomicName box="[2335,2477,1379,1412]" class="Magnoliopsida" family="Rosaceae" genus="Argentina" kingdom="Plantae" order="Rosales" pageId="2" pageNumber="199" phylum="Tracheophyta" rank="genus">
 <collectingCountry box="[2335,2477,1379,1412]" name="Argentina" pageId="2" pageNumber="199">Argentina</collectingCountry>
-</taxonomicName>
 , tapirs were typically diurnal, perhaps due to lack of human disturbance.
 </paragraph>
 </subSubSection>
@@ -249,9 +247,7 @@ L.owland Tapirs can move fairly easily through areas of low quality habitat (e.g
 <paragraph blockId="3.[191,1399,279,3262]" pageId="3" pageNumber="200">
 <emphasis bold="true" box="[193,549,279,312]" pageId="3" pageNumber="200">Status and Conservation.</emphasis>
 CITES Appendix II. Classified as Vulnerable on The IUCN Red List. Although the species has been listed as Vulnerable across its entire range, several populations in 
-<taxonomicName box="[523,668,362,391]" class="Magnoliopsida" family="Rosaceae" genus="Argentina" kingdom="Plantae" order="Rosales" pageId="3" pageNumber="200" phylum="Tracheophyta" rank="genus">
 <collectingCountry box="[523,668,362,391]" name="Argentina" pageId="3" pageNumber="200">Argentina</collectingCountry>
-</taxonomicName>
 , 
 <collectingCountry box="[688,770,362,391]" name="Brazil" pageId="3" pageNumber="200">Brazil</collectingCountry>
 , 
@@ -261,9 +257,7 @@ CITES Appendix II. Classified as Vulnerable on The IUCN Red List. Although the s
 present considerably higher levels of threat. A few examples include tapir populations in the Atlantic Forest and Cerrado biomes in 
 <collectingCountry box="[740,822,440,469]" name="Brazil" pageId="3" pageNumber="200">Brazil</collectingCountry>
 , as well as Colombian and Venezuelan populations in Catatumbo, Maracaibo, and Lake Valencia watershed. The Lowland Tapir has the broadest geographic distribution of the four living species of tapirs and the species occurs in 21 different biomes in eleven countries. Historically, this species was found east of the Andes and north of the Espinal grasslands and shrublands of 
-<taxonomicName box="[325,470,641,666]" class="Magnoliopsida" family="Rosaceae" genus="Argentina" kingdom="Plantae" order="Rosales" pageId="3" pageNumber="200" phylum="Tracheophyta" rank="genus">
 <collectingCountry box="[325,470,641,666]" name="Argentina" pageId="3" pageNumber="200">Argentina</collectingCountry>
-</taxonomicName>
 , throughout the 
 <collectingRegion box="[737,828,641,666]" country="Argentina" name="Chaco" pageId="3" pageNumber="200">Chaco</collectingRegion>
 , Pantanal, Cerrado, Llanos, Caatinga, Atlantic Forest, and Amazonian/Orinoco biomes. The historic distribution of the species covered approximately 13,129,874 km*. Nevertheless, populations have been severely reduced and are currently often limited to forested biomes and wetlands. The species is believed to have gone extinct in approximately 14% ofits range and the current distribution declined to 11,232,018 km*. The species has been extirpated from the dry inter-Andean valleys of the northern Andes and is becoming increasingly rare along the agricultural frontiers that are sweeping through parts of the western and southern Amazon basin. In 
@@ -292,9 +286,7 @@ have been converted to agriculture and cattle ranching. As a consequence, the Lo
 <subSubSection pageId="3" pageNumber="200" type="bibRefCitation_list">
 <paragraph blockId="3.[191,1399,279,3262]" pageId="3" pageNumber="200">
 <emphasis bold="true" box="[195,349,2724,2749]" pageId="3" pageNumber="200">Bibliography.</emphasis>
-Affonso (1998), Aquino et al. (2001), Aquino &amp; Calle (2003), Ayala (2002, 2003), Barongi (1986, 1993), Bodmer (1990a, 1990b, 1991a, 1995), Bodmer &amp; Lozano (2001), Bodmer et al. (1997), Brooks et al. (1997), Chiarello (1999), CITES (2005), Cordeiro (2004), 
-<taxonomicName box="[808,873,2807,2828]" class="Magnoliopsida" family="Fabaceae" genus="Cullen" kingdom="Plantae" order="Fabales" pageId="3" pageNumber="200" phylum="Tracheophyta" rank="genus">Cullen</taxonomicName>
-et al. (2000), Desbiez (2009), Eisenberg (1989, 1997), Emmons (1990), Emmons &amp; Feer (1997), Flesher (2007), Fradrich &amp; Thenius (1972), Fragoso (1997), Fragoso &amp; Huffman (2000), Fragoso et al. (2000), Galetti et al. (2001), Gomez et al. (2005), Goncalves da Silva (2007), Haugaasen &amp; Peres (2005), Henry et al. (2000), Herrera et al. (1999), Hershkovitz (1954), Hunsaker &amp; Hahn (1965), Janson &amp; Emmons (1990), Maffei et al. (2002), Mallinson (1969, 1974), Mangini (2001), Mangini &amp; Medici (2001), Mangini et al. (2000), Medici (1999, 2001, 2002, 2010), Medici et al. (2007), Mendes-Pontes (2004), Ministerio del Medio Ambiente de 
+Affonso (1998), Aquino et al. (2001), Aquino &amp; Calle (2003), Ayala (2002, 2003), Barongi (1986, 1993), Bodmer (1990a, 1990b, 1991a, 1995), Bodmer &amp; Lozano (2001), Bodmer et al. (1997), Brooks et al. (1997), Chiarello (1999), CITES (2005), Cordeiro (2004), Cullen et al. (2000), Desbiez (2009), Eisenberg (1989, 1997), Emmons (1990), Emmons &amp; Feer (1997), Flesher (2007), Fradrich &amp; Thenius (1972), Fragoso (1997), Fragoso &amp; Huffman (2000), Fragoso et al. (2000), Galetti et al. (2001), Gomez et al. (2005), Goncalves da Silva (2007), Haugaasen &amp; Peres (2005), Henry et al. (2000), Herrera et al. (1999), Hershkovitz (1954), Hunsaker &amp; Hahn (1965), Janson &amp; Emmons (1990), Maffei et al. (2002), Mallinson (1969, 1974), Mangini (2001), Mangini &amp; Medici (2001), Mangini et al. (2000), Medici (1999, 2001, 2002, 2010), Medici et al. (2007), Mendes-Pontes (2004), Ministerio del Medio Ambiente de 
 <collectingCountry box="[653,753,3038,3063]" name="Colombia" pageId="3" pageNumber="200">Colombia</collectingCountry>
 (2002), 
 <collectingCountry box="[844,977,3038,3063]" name="Serbia" pageId="3" pageNumber="200">Montenegro</collectingCountry>
