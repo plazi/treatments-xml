@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6329195" ID-GBIF-Dataset="50b4b0e8-e56b-4c22-a9ca-8b5e04e3498d" ID-GBIF-Taxon="193872664" ID-Zenodo-Dep="6329195" approvalRequired="1" approvalRequired_for_taxonomicNames="1" checkinTime="1646333029598" checkinUser="diego" docAuthor="OVCHINNIKOVA, ANNA, KRYLOVA, EKATERINA, GAVRILENKO, TATJANA, SMEKALOVA, TAMARA, ZHUK, MIKHAIL, KNAPP, SANDRA &amp; SPOONER, DAVID M." docDate="2011" docId="1D0B94457A21FFF6FF6946137961F203" docLanguage="en" docName="BotJLinnSoc.165.107-155.pdf" docOrigin="Botanical Journal of the Linnean Society 165 (2)" docSource="http://dx.doi.org/10.1111/j.1095-8339.2010.01107.x" docTitle="Solanum juzepczukii Bukasov" docType="treatment" docVersion="9" lastPageId="14" lastPageNumber="119" masterDocId="E132EC3D7A2DFFF8FFF9477D7831F33B" masterDocTitle="Taxonomy of cultivated potatoes (Solanum section Petota: Solanaceae)" masterLastPageNumber="155" masterPageNumber="107" pageId="12" pageNumber="119" updateTime="1646744115503" updateUser="ExternalLinkService">
+<document ID-DOI="10.1111/j.1095-8339.2010.01107.x" ID-GBIF-Dataset="50b4b0e8-e56b-4c22-a9ca-8b5e04e3498d" ID-Zenodo-Dep="6326420" approvalRequired="1" approvalRequired_for_taxonomicNames="1" checkinTime="1646333029598" checkinUser="diego" docAuthor="OVCHINNIKOVA, ANNA, KRYLOVA, EKATERINA, GAVRILENKO, TATJANA, SMEKALOVA, TAMARA, ZHUK, MIKHAIL, KNAPP, SANDRA &amp; SPOONER, DAVID M." docDate="2011" docId="1D0B94457A21FFF6FF6946137961F203" docLanguage="en" docName="BotJLinnSoc.165.107-155.pdf" docOrigin="Botanical Journal of the Linnean Society 165 (2)" docSource="http://dx.doi.org/10.1111/j.1095-8339.2010.01107.x" docTitle="Solanum juzepczukii Bukasov" docType="treatment" docVersion="13" lastPageNumber="119" masterDocId="E132EC3D7A2DFFF8FFF9477D7831F33B" masterDocTitle="Taxonomy of cultivated potatoes (Solanum section Petota: Solanaceae)" masterLastPageNumber="155" masterPageNumber="107" pageNumber="119" updateTime="1653482059597" updateUser="maarten">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Taxonomy of cultivated potatoes (Solanum section Petota: Solanaceae)</mods:title>
@@ -96,10 +96,13 @@
 <subSubSection pageId="12" pageNumber="119" type="description">
 <paragraph blockId="12.[144,759,366,1674]" pageId="12" pageNumber="119">
 <materialsCitation ID-GBIF-Occurrence="3698000302" collectingDate="1928-09-01" collectionCode="WIR, K" collectorName="V. S. Lekhnovich" country="Peru" county="Pomacanchi" location="Cusco" municipality="Cusco" pageId="12" pageNumber="119" specimenCode="WIR-36897, K000585544" specimenCount="1" stateProvince="prov. Acomayo" typeStatus="isolectotype">
-Type: cultivated in Leningrad from tuber accession 3355 collected in 
+<typeStatus box="[456,514,428,449]" pageId="12" pageNumber="119">Type</typeStatus>
+: cultivated in Leningrad from tuber accession 3355 collected in 
 <collectingCountry box="[704,759,458,479]" name="Peru" pageId="12" pageNumber="119">Peru</collectingCountry>
 (
-<collectingMunicipality box="[176,248,489,510]" pageId="12" pageNumber="119">Cusco</collectingMunicipality>
+<collectingMunicipality box="[176,248,489,510]" pageId="12" pageNumber="119">
+<collectingRegion box="[176,248,489,510]" country="Peru" name="Cusco" pageId="12" pageNumber="119">Cusco</collectingRegion>
+</collectingMunicipality>
 : 
 <collectingRegion box="[263,433,489,510]" pageId="12" pageNumber="119">prov. Acomayo</collectingRegion>
 , 
@@ -115,8 +118,9 @@ Type: cultivated in Leningrad from tuber accession 3355 collected in
 <collectorName box="[368,554,519,540]" pageId="12" pageNumber="119">V.S. Lekhnovich</collectorName>
 [3355]
 </emphasis>
-(lectotype 
-<collectionCode box="[168,224,550,571]" pageId="12" pageNumber="119">WIR</collectionCode>
+(
+<typeStatus box="[655,758,519,541]" pageId="12" pageNumber="119">lectotype</typeStatus>
+<collectionCode box="[168,224,550,571]" collectionName="WIR" pageId="12" pageNumber="119">WIR</collectionCode>
 ! [
 <specimenCode box="[248,383,549,571]" pageId="12" pageNumber="119">WIR-36897</specimenCode>
 ], designated here; 
@@ -124,7 +128,10 @@ Type: cultivated in Leningrad from tuber accession 3355 collected in
 , 
 <collectionCode box="[168,191,580,601]" pageId="12" pageNumber="119">K</collectionCode>
 ! [
-<specimenCode box="[211,361,580,603]" pageId="12" pageNumber="119">K000585544</specimenCode>
+<specimenCode box="[211,361,580,603]" pageId="12" pageNumber="119">
+<collectionCode box="[211,231,580,603]" pageId="12" pageNumber="119">K</collectionCode>
+000585544
+</specimenCode>
 ]). 
 <figureCitation box="[388,487,580,602]" captionStart="Figure 3" captionStartId="13.[164,243,1842,1861]" captionTargetBox="[245,1363,193,1812]" captionTargetId="figure-0@13.[245,1363,193,1812]" captionTargetPageId="13" captionText="Figure 3. Lectotype specimen of Solanum juzepczukii Bukasov held in WIR (WIR-36897). Reproduced with permission of the N. I. Vavilov Institute of Plant Industry." figureDoi="http://doi.org/10.5281/zenodo.6326426" httpUri="https://zenodo.org/record/6326426/files/figure.png" pageId="12" pageNumber="119">Figure 3</figureCitation>
 .
@@ -151,32 +158,45 @@ Potato Collect. Exped.
 .
 </paragraph>
 <paragraph blockId="12.[144,759,366,1674]" pageId="12" pageNumber="119">
-Type: cultivated in Cambridge (
-<collectingCountry box="[316,357,703,725]" name="United Kingdom" pageId="12" pageNumber="119">UK</collectingCountry>
+<materialsCitation ID-GBIF-Occurrence="3753871336" collectionCode="J, G, K" collectorName="J. Soukup" country="United Kingdom" location="Hawkes" municipality="Anon" pageId="12" pageNumber="119" specimenCode="[K000658001" specimenCount="2" stateProvince="Puno" typeStatus="type">
+<typeStatus box="[543,601,673,694]" pageId="12" pageNumber="119">Type</typeStatus>
+: cultivated in Cambridge (
+<collectingCountry box="[316,357,703,725]" name="United Kingdom" pageId="12" pageNumber="119">
+<collectionCode box="[316,357,703,725]" pageId="12" pageNumber="119">UK</collectionCode>
+</collectingCountry>
 ) from tuber accession EPC-1106 collected in 
 <collectingCountry box="[322,377,734,755]" name="Peru" pageId="12" pageNumber="119">Peru</collectingCountry>
 (
 <collectingRegion box="[401,463,733,754]" country="Peru" name="Puno" pageId="12" pageNumber="119">Puno</collectingRegion>
 , 
 <emphasis box="[484,665,733,755]" italics="true" pageId="12" pageNumber="119">
-<collectionCode box="[484,502,734,755]" country="South Africa" lsid="urn:lsid:biocol.org:col:14647" name="University of the Witwatersrand" pageId="12" pageNumber="119" type="Herbarium">J</collectionCode>
-. Soukup s.n.
+<collectorName box="[484,609,733,755]" pageId="12" pageNumber="119">J. Soukup</collectorName>
+s.n.
 </emphasis>
 ), 1940, 
 <emphasis box="[168,540,764,786]" italics="true" pageId="12" pageNumber="119">
-Anon. [
+<collectingMunicipality box="[168,231,764,785]" pageId="12" pageNumber="119">Anon</collectingMunicipality>
+. [
 <collectionCode box="[284,300,764,785]" country="South Africa" lsid="urn:lsid:biocol.org:col:14647" name="University of the Witwatersrand" pageId="12" pageNumber="119" type="Herbarium">J</collectionCode>
 . 
 <collectionCode box="[303,324,764,785]" country="Switzerland" lsid="urn:lsid:biocol.org:col:15706" name="Conservatoire et Jardin botaniques de la Ville de Genève" pageId="12" pageNumber="119" type="Herbarium">G</collectionCode>
-. Hawkes] s.n.
+. 
+<location LSID="urn:lsid:plazi:treatment:1D0B94457A21FFF6FF6946137961F203:907D73887A21FFF4FE97458179F4F02A" box="[366,453,764,785]" country="United Kingdom" municipality="Anon" name="Hawkes" pageId="12" pageNumber="119" stateProvince="Puno">Hawkes</location>
+] s.n.
 </emphasis>
 (
 <typeStatus box="[585,691,764,786]" pageId="12" pageNumber="119">lectotype</typeStatus>
 , 
 <collectionCode box="[732,755,764,785]" country="United Kingdom" lsid="urn:lsid:biocol.org:col:15867" name="Royal Botanic Gardens" pageId="12" pageNumber="119" type="Herbarium">K</collectionCode>
-! [
-<collectionCode box="[174,194,794,816]" country="United Kingdom" lsid="urn:lsid:biocol.org:col:15867" name="Royal Botanic Gardens" pageId="12" pageNumber="119" type="Herbarium">K</collectionCode>
-000658001], designated here).
+! 
+<specimenCode box="[168,324,794,816]" pageId="12" pageNumber="119">
+[
+<collectionCode box="[174,194,794,816]" pageId="12" pageNumber="119">K</collectionCode>
+000658001
+</specimenCode>
+], designated here)
+</materialsCitation>
+.
 </paragraph>
 <paragraph blockId="12.[144,759,366,1674]" pageId="12" pageNumber="119">
 <taxonomicName authority="Vargas" authorityName="Vargas" authorityYear="1954" box="[144,754,825,847]" class="Magnoliopsida" family="Solanaceae" genus="Solanum" kingdom="Plantae" order="Solanales" pageId="12" pageNumber="119" phylum="Tracheophyta" rank="variety" species="juzepczukii" variety="roseum">
@@ -190,22 +210,31 @@ Vargas
 [‘1954’].
 </paragraph>
 <paragraph blockId="12.[144,759,366,1674]" pageId="12" pageNumber="119">
-Type: 
+<materialsCitation ID-GBIF-Occurrence="3753871340" collectionCode="CUZ" collectorName="C. Vargas" country="Peru" elevation="4300" location="Macusani" municipality="Prov. Carabaya" pageId="12" pageNumber="119" specimenCount="2" stateProvince="Puno" typeStatus="type">
+<typeStatus box="[697,755,856,877]" pageId="12" pageNumber="119">Type</typeStatus>
+: 
 <collectingCountry box="[168,226,887,908]" name="Peru" pageId="12" pageNumber="119">Peru</collectingCountry>
 . 
 <collectingRegion box="[239,301,887,908]" country="Peru" name="Puno" pageId="12" pageNumber="119">Puno</collectingRegion>
-: Prov. Carabaya, Macusani, 
-<quantity box="[634,720,886,908]" metricMagnitude="3" metricUnit="m" metricValue="4.3" pageId="12" pageNumber="119" unit="m" value="4300.0">4300 m</quantity>
+: 
+<collectingMunicipality box="[314,494,886,908]" pageId="12" pageNumber="119">Prov. Carabaya</collectingMunicipality>
+, 
+<location LSID="urn:lsid:plazi:treatment:1D0B94457A21FFF6FF6946137961F203:907D73887A21FFF4FE02440B7A5DF0B7" box="[507,620,886,908]" country="Peru" municipality="Prov. Carabaya" name="Macusani" pageId="12" pageNumber="119" stateProvince="Puno">Macusani</location>
+, 
+<quantity box="[634,720,886,908]" metricMagnitude="3" metricUnit="m" metricValue="4.3" pageId="12" pageNumber="119" unit="m" value="4300.0">
+<elevation box="[634,720,886,908]" metricMagnitude="3" metricUnit="m" metricValue="4.3" pageId="12" pageNumber="119" unit="m" value="4300.0">4300 m</elevation>
+</quantity>
 , 
 <emphasis italics="true" pageId="12" pageNumber="119">
-<collectionCode box="[734,755,887,908]" country="Denmark" name="University of Copenhagen" pageId="12" pageNumber="119" type="Herbarium">C</collectionCode>
-. Vargas 1145
+<collectorName pageId="12" pageNumber="119">C. Vargas</collectorName>
+1145
 </emphasis>
 (
 <typeStatus box="[326,426,917,939]" pageId="12" pageNumber="119">holotype</typeStatus>
 , 
-<collectionCode box="[440,500,917,939]" country="Peru" httpUri="http://biocol.org/urn:lsid:biocol.org:col:14364" lsid="urn:lsid:biocol.org:col:14364" name="Universidad Nacional San Antonio Abad del Cusco" pageId="12" pageNumber="119" type="Herbarium">CUZ</collectionCode>
+<collectionCode box="[440,500,917,939]" collectionName="CUZ" country="Peru" httpUri="http://biocol.org/urn:lsid:biocol.org:col:14364" lsid="urn:lsid:biocol.org:col:14364" name="Universidad Nacional San Antonio Abad del Cusco" pageId="12" pageNumber="119" type="Herbarium">CUZ</collectionCode>
 !).
+</materialsCitation>
 </paragraph>
 </subSubSection>
 <subSubSection pageId="12" pageNumber="119" type="reference_group">
@@ -251,22 +280,34 @@ Ochoa
 .
 </paragraph>
 <paragraph blockId="12.[144,759,366,1674]" pageId="12" pageNumber="119">
-Type: 
+<materialsCitation ID-GBIF-Occurrence="3753871337" collectionCode="CUZ" collectorName="Z. Huaman" country="Bolivia" elevation="3700" location="Toledo" municipality="Prov. Poopo" pageId="12" pageNumber="119" specimenCount="2" stateProvince="Oruro" typeStatus="type">
+<typeStatus box="[593,651,1101,1122]" pageId="12" pageNumber="119">Type</typeStatus>
+: 
 <collectingCountry box="[671,755,1100,1122]" name="Bolivia" pageId="12" pageNumber="119">Bolivia</collectingCountry>
 . 
 <collectingRegion box="[168,240,1131,1152]" country="Bolivia" name="Oruro" pageId="12" pageNumber="119">Oruro</collectingRegion>
-: Prov. Poopó, Toledo, 
-<quantity box="[482,568,1131,1153]" metricMagnitude="3" metricUnit="m" metricValue="3.7" pageId="12" pageNumber="119" unit="m" value="3700.0">3700 m</quantity>
+: 
+<collectingMunicipality box="[250,384,1131,1153]" pageId="12" pageNumber="119">Prov. Poopó</collectingMunicipality>
+, 
+<location LSID="urn:lsid:plazi:treatment:1D0B94457A21FFF6FF6946137961F203:907D73887A21FFF4FE75431679E9F7BA" box="[396,472,1131,1153]" country="Bolivia" municipality="Prov. Poopo" name="Toledo" pageId="12" pageNumber="119" stateProvince="Oruro">Toledo</location>
+, 
+<quantity box="[482,568,1131,1153]" metricMagnitude="3" metricUnit="m" metricValue="3.7" pageId="12" pageNumber="119" unit="m" value="3700.0">
+<elevation box="[482,568,1131,1153]" metricMagnitude="3" metricUnit="m" metricValue="3.7" pageId="12" pageNumber="119" unit="m" value="3700.0">3700 m</elevation>
+</quantity>
 , 
 <emphasis box="[579,758,1131,1153]" italics="true" pageId="12" pageNumber="119">
-<collectionCode box="[579,599,1132,1153]" country="Switzerland" name="Universität Zürich" pageId="12" pageNumber="119" type="Herbarium">Z</collectionCode>
-. Huamán 809
+<collectorName box="[579,711,1132,1153]" pageId="12" pageNumber="119">Z. Huamán</collectorName>
+809
 </emphasis>
 (
 <typeStatus box="[176,276,1162,1184]" pageId="12" pageNumber="119">holotype</typeStatus>
 , 
-<collectionCode box="[289,346,1162,1183]" country="Peru" httpUri="http://biocol.org/urn:lsid:biocol.org:col:14364" lsid="urn:lsid:biocol.org:col:14364" name="Universidad Nacional San Antonio Abad del Cusco" pageId="12" pageNumber="119" type="Herbarium">CUZ</collectionCode>
-! [original citation as herb. Ochoa]).
+<collectionCode box="[289,346,1162,1183]" collectionName="CUZ" country="Peru" httpUri="http://biocol.org/urn:lsid:biocol.org:col:14364" lsid="urn:lsid:biocol.org:col:14364" name="Universidad Nacional San Antonio Abad del Cusco" pageId="12" pageNumber="119" type="Herbarium">CUZ</collectionCode>
+! [original citation as herb. 
+<location LSID="urn:lsid:plazi:treatment:1D0B94457A21FFF6FF6946137961F203:907D73887A21FFF4FD6143F47AD4F79B" box="[664,741,1161,1184]" country="Bolivia" municipality="Prov. Poopo" name="Ochoa" pageId="12" pageNumber="119" stateProvince="Oruro">Ochoa</location>
+])
+</materialsCitation>
+.
 </paragraph>
 </treatmentCitationGroup>
 <paragraph blockId="12.[144,759,366,1674]" pageId="12" pageNumber="119">
@@ -280,17 +321,22 @@ Ochoa,
 .
 </paragraph>
 <paragraph blockId="12.[144,759,366,1674]" pageId="12" pageNumber="119">
-Type: 
+<materialsCitation ID-GBIF-Occurrence="3753871311" collectionCode="CIP" country="Bolivia" location="Challa" municipality="Challa" pageId="12" pageNumber="119" specimenCount="2" stateProvince="Oruro" typeStatus="type">
+<typeStatus box="[593,651,1223,1244]" pageId="12" pageNumber="119">Type</typeStatus>
+: 
 <collectingCountry box="[671,755,1223,1245]" name="Bolivia" pageId="12" pageNumber="119">Bolivia</collectingCountry>
 . 
 <collectingRegion box="[168,240,1254,1275]" country="Bolivia" name="Oruro" pageId="12" pageNumber="119">Oruro</collectingRegion>
-: Challa, 
+: 
+<collectingMunicipality box="[253,331,1253,1275]" country="Bolivia" name="Challa" pageId="12" pageNumber="119" stateProvince="Oruro">Challa</collectingMunicipality>
+, 
 <emphasis box="[346,480,1253,1274]" italics="true" pageId="12" pageNumber="119">CIP-702631</emphasis>
 (
 <typeStatus box="[497,597,1253,1275]" pageId="12" pageNumber="119">holotype</typeStatus>
 , 
-<collectionCode box="[611,662,1254,1276]" country="Colombia" httpUri="http://grbio.org/cool/kny8-abms" name="Centro de Investigaciones Pesqueras" pageId="12" pageNumber="119">CIP</collectionCode>
+<collectionCode box="[611,662,1254,1276]" collectionName="CIP" country="Colombia" httpUri="http://grbio.org/cool/kny8-abms" name="Centro de Investigaciones Pesqueras" pageId="12" pageNumber="119">CIP</collectionCode>
 !).
+</materialsCitation>
 </paragraph>
 <paragraph blockId="12.[144,759,366,1674]" pageId="12" pageNumber="119">
 <taxonomicName authority="Ochoa" authorityName="Ochoa" class="Magnoliopsida" family="Solanaceae" form="luckipinkula" genus="Solanum" kingdom="Plantae" order="Solanales" pageId="12" pageNumber="119" phylum="Tracheophyta" rank="form" species="juzepczukii">
@@ -303,22 +349,35 @@ Ochoa,
 .
 </paragraph>
 <paragraph blockId="12.[144,759,366,1674]" pageId="12" pageNumber="119">
-Type: 
+<materialsCitation ID-GBIF-Occurrence="3753871316" collectionCode="C, CUZ" country="Bolivia" elevation="3900" location="Callactiri" municipality="Prov. Frias" pageId="12" pageNumber="119" specimenCount="2" stateProvince="Potosi" typeStatus="type">
+<typeStatus box="[593,651,1315,1336]" pageId="12" pageNumber="119">Type</typeStatus>
+: 
 <collectingCountry box="[671,755,1315,1337]" name="Bolivia" pageId="12" pageNumber="119">Bolivia</collectingCountry>
 . 
 <collectingRegion box="[168,241,1345,1367]" country="Bolivia" name="Potosi" pageId="12" pageNumber="119">Potosí</collectingRegion>
-: Prov. Frias, Callactiri, 
-<quantity box="[542,628,1345,1367]" metricMagnitude="3" metricUnit="m" metricValue="3.9" pageId="12" pageNumber="119" unit="m" value="3900.0">3900 m</quantity>
+: 
+<collectingMunicipality box="[260,394,1345,1367]" pageId="12" pageNumber="119">Prov. Frias</collectingMunicipality>
+, 
+<location LSID="urn:lsid:plazi:treatment:1D0B94457A21FFF6FF6946137961F203:907D73887A21FFF4FE64423C7A3AF66C" box="[413,523,1345,1367]" country="Bolivia" municipality="Prov. Frias" name="Callactiri" pageId="12" pageNumber="119" stateProvince="Potosi">Callactiri</location>
+, 
+<quantity box="[542,628,1345,1367]" metricMagnitude="3" metricUnit="m" metricValue="3.9" pageId="12" pageNumber="119" unit="m" value="3900.0">
+<elevation box="[542,628,1345,1367]" metricMagnitude="3" metricUnit="m" metricValue="3.9" pageId="12" pageNumber="119" unit="m" value="3900.0">3900 m</elevation>
+</quantity>
 , 
 <emphasis italics="true" pageId="12" pageNumber="119">
 <collectionCode box="[647,668,1346,1367]" country="Denmark" name="University of Copenhagen" pageId="12" pageNumber="119" type="Herbarium">C</collectionCode>
-. Ochoa 10571
+. 
+<location LSID="urn:lsid:plazi:treatment:1D0B94457A21FFF6FF6946137961F203:907D73887A21FFF4FD56423C7AC6F66D" box="[687,759,1345,1366]" country="Bolivia" municipality="Prov. Frias" name="Ochoa" pageId="12" pageNumber="119" stateProvince="Potosi">Ochoa</location>
+10571
 </emphasis>
 (
 <typeStatus box="[258,358,1376,1398]" pageId="12" pageNumber="119">holotype</typeStatus>
 , 
-<collectionCode box="[376,433,1376,1397]" country="Peru" httpUri="http://biocol.org/urn:lsid:biocol.org:col:14364" lsid="urn:lsid:biocol.org:col:14364" name="Universidad Nacional San Antonio Abad del Cusco" pageId="12" pageNumber="119" type="Herbarium">CUZ</collectionCode>
-! [original citation as herb. Ochoa]).
+<collectionCode box="[376,433,1376,1397]" collectionName="CUZ" country="Peru" httpUri="http://biocol.org/urn:lsid:biocol.org:col:14364" lsid="urn:lsid:biocol.org:col:14364" name="Universidad Nacional San Antonio Abad del Cusco" pageId="12" pageNumber="119" type="Herbarium">CUZ</collectionCode>
+! [original citation as herb. 
+<location LSID="urn:lsid:plazi:treatment:1D0B94457A21FFF6FF6946137961F203:907D73887A21FFF4FF51420378C4F6AE" box="[168,245,1406,1429]" country="Bolivia" municipality="Prov. Frias" name="Ochoa" pageId="12" pageNumber="119" stateProvince="Potosi">Ochoa</location>
+]).
+</materialsCitation>
 </paragraph>
 <paragraph blockId="12.[144,759,366,1674]" pageId="12" pageNumber="119">
 <taxonomicName authority="Ochoa" authorityName="Ochoa" class="Magnoliopsida" family="Solanaceae" form="wilackaisalla" genus="Solanum" kingdom="Plantae" order="Solanales" pageId="12" pageNumber="119" phylum="Tracheophyta" rank="form" species="juzepczukii">
@@ -331,18 +390,27 @@ Ochoa,
 .
 </paragraph>
 <paragraph blockId="12.[144,759,366,1674]" pageId="12" pageNumber="119">
-Type: 
+<materialsCitation ID-GBIF-Occurrence="3753871323" collectorName="Z. Huaman" country="Bolivia" location="Saucari-Toledo" municipality="Prov. Poopo" pageId="12" pageNumber="119" specimenCount="2" stateProvince="Oruro" typeStatus="type">
+<typeStatus box="[593,651,1468,1489]" pageId="12" pageNumber="119">Type</typeStatus>
+: 
 <collectingCountry box="[671,755,1468,1490]" name="Bolivia" pageId="12" pageNumber="119">Bolivia</collectingCountry>
 . 
 <collectingRegion box="[168,240,1498,1519]" country="Bolivia" name="Oruro" pageId="12" pageNumber="119">Oruro</collectingRegion>
-: Prov. Poopó, Saucari-Toledo, 
+: 
+<collectingMunicipality box="[251,385,1498,1520]" pageId="12" pageNumber="119">Prov. Poopó</collectingMunicipality>
+, 
+<location LSID="urn:lsid:plazi:treatment:1D0B94457A21FFF6FF6946137961F203:907D73887A21FFF4FE7542A77A09F6CB" box="[396,568,1498,1520]" country="Bolivia" municipality="Prov. Poopo" name="Saucari-Toledo" pageId="12" pageNumber="119" stateProvince="Oruro">Saucari-Toledo</location>
+, 
 <emphasis box="[579,758,1498,1520]" italics="true" pageId="12" pageNumber="119">
-<collectionCode box="[579,599,1499,1520]" country="Switzerland" name="Universität Zürich" pageId="12" pageNumber="119" type="Herbarium">Z</collectionCode>
-. Huamán 815
+<collectorName box="[579,710,1499,1520]" pageId="12" pageNumber="119">Z. Huamán</collectorName>
+815
 </emphasis>
 (
 <typeStatus box="[176,276,1529,1551]" pageId="12" pageNumber="119">holotype</typeStatus>
-, herb. Ochoa, not found).
+, herb. 
+<location LSID="urn:lsid:plazi:treatment:1D0B94457A21FFF6FF6946137961F203:907D73887A21FFF4FE9F42847981F534" box="[358,432,1529,1551]" country="Bolivia" municipality="Prov. Poopo" name="Ochoa" pageId="12" pageNumber="119" stateProvince="Oruro">Ochoa</location>
+, not found).
+</materialsCitation>
 </paragraph>
 <paragraph blockId="12.[144,759,366,1674]" box="[144,696,1559,1581]" pageId="12" pageNumber="119">
 <taxonomicName authority="Ochoa, Phytologia" authorityName="Ochoa, Phytologia" box="[144,696,1559,1581]" class="Magnoliopsida" family="Solanaceae" genus="Solanum" kingdom="Plantae" order="Solanales" pageId="12" pageNumber="119" phylum="Tracheophyta" rank="variety" species="juzepczukii" variety="lucki">
@@ -357,20 +425,30 @@ Ochoa,
 .
 </paragraph>
 <paragraph blockId="12.[144,759,366,1674]" pageId="12" pageNumber="119">
-Type: 
+<materialsCitation ID-GBIF-Occurrence="3753871331" collectionCode="CUZ" collectorName="Z. Huaman" country="Bolivia" location="Ingavi" municipality="Prov. Ingavi" pageId="12" pageNumber="119" specimenCount="2" stateProvince="La Paz" typeStatus="type">
+<typeStatus box="[431,489,1591,1612]" pageId="12" pageNumber="119">Type</typeStatus>
+: 
 <collectingCountry box="[503,587,1590,1612]" name="Bolivia" pageId="12" pageNumber="119">Bolivia</collectingCountry>
 . 
 <collectingRegion box="[601,687,1591,1612]" country="Bolivia" name="La Paz" pageId="12" pageNumber="119">La Paz</collectingRegion>
-: Prov. Ingavi, Ingavi, 
+: 
+<collectingMunicipality pageId="12" pageNumber="119">Prov. Ingavi</collectingMunicipality>
+, 
+<location LSID="urn:lsid:plazi:treatment:1D0B94457A21FFF6FF6946137961F203:907D73887A21FFF4FEF141287962F550" box="[264,339,1621,1643]" country="Bolivia" municipality="Prov. Ingavi" name="Ingavi" pageId="12" pageNumber="119" stateProvince="La Paz">Ingavi</location>
+, 
 <emphasis box="[359,555,1621,1642]" italics="true" pageId="12" pageNumber="119">
-<collectionCode box="[359,379,1621,1642]" country="Switzerland" name="Universität Zürich" pageId="12" pageNumber="119" type="Herbarium">Z</collectionCode>
-. Huamán 789
+<collectorName box="[359,499,1621,1642]" pageId="12" pageNumber="119">Z. Huamán</collectorName>
+789
 </emphasis>
 (
 <typeStatus box="[578,678,1621,1643]" pageId="12" pageNumber="119">holotype</typeStatus>
 , 
-<collectionCode box="[698,755,1621,1642]" country="Peru" httpUri="http://biocol.org/urn:lsid:biocol.org:col:14364" lsid="urn:lsid:biocol.org:col:14364" name="Universidad Nacional San Antonio Abad del Cusco" pageId="12" pageNumber="119" type="Herbarium">CUZ</collectionCode>
-! [original citation as herb. Ochoa]).
+<collectionCode box="[698,755,1621,1642]" collectionName="CUZ" country="Peru" httpUri="http://biocol.org/urn:lsid:biocol.org:col:14364" lsid="urn:lsid:biocol.org:col:14364" name="Universidad Nacional San Antonio Abad del Cusco" pageId="12" pageNumber="119" type="Herbarium">CUZ</collectionCode>
+! [original citation as herb. 
+<location LSID="urn:lsid:plazi:treatment:1D0B94457A21FFF6FF6946137961F203:907D73887A21FFF4FE22410E7A19F5B1" box="[475,552,1651,1674]" country="Bolivia" municipality="Prov. Ingavi" name="Ochoa" pageId="12" pageNumber="119" stateProvince="La Paz">Ochoa</location>
+])
+</materialsCitation>
+.
 </paragraph>
 </subSubSection>
 <subSubSection lastPageId="14" lastPageNumber="121" pageId="12" pageNumber="119" type="description">
