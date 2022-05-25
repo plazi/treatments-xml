@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.5721279" ID-GBIF-Dataset="9893c5f9-5d89-4633-8047-17d296133ce3" ID-ISBN="978-84-96553-77-4" ID-Zenodo-Dep="5721279" checkinTime="1633650213837" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2011" docId="03C587E31E7DFF90FA9AF7A994F1F4AF" docLanguage="en" docName="hbmw_2_Tragulidae_0320.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 2 Hoofed Mammals, Barcelona: Lynx Edicions" docTitle="Hyemoschus aquaticus Ogilby 1841" docType="treatment" docVersion="7" lastPageNumber="334" masterDocId="FFFCFF9B1E7BFF97FFEFFFBA910FFF81" masterDocTitle="Tragulidae" masterLastPageNumber="334" masterPageNumber="320" pageNumber="333" updateTime="1653422500852" updateUser="tatiana">
+<document ID-DOI="http://doi.org/10.5281/zenodo.5721279" ID-GBIF-Dataset="9893c5f9-5d89-4633-8047-17d296133ce3" ID-ISBN="978-84-96553-77-4" ID-Zenodo-Dep="5721279" approvalRequired="1" approvalRequired_for_taxonomicNames="1" checkinTime="1633650213837" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2011" docId="03C587E31E7DFF90FA9AF7A994F1F4AF" docLanguage="en" docName="hbmw_2_Tragulidae_0320.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 2 Hoofed Mammals, Barcelona: Lynx Edicions" docTitle="Hyemoschus aquaticus Ogilby 1841" docType="treatment" docVersion="8" lastPageNumber="334" masterDocId="FFFCFF9B1E7BFF97FFEFFFBA910FFF81" masterDocTitle="Tragulidae" masterLastPageNumber="334" masterPageNumber="320" pageNumber="333" updateTime="1653487375019" updateUser="tatiana">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Tragulidae</mods:title>
@@ -81,12 +81,25 @@ ratén acuatico
 </paragraph>
 </subSubSection>
 <subSubSection pageId="6" pageNumber="333" type="reference_group">
-<paragraph blockId="6.[2007,2595,2202,2623]" lastBlockId="6.[1391,2593,2629,3449]" pageId="6" pageNumber="333">
+<paragraph blockId="6.[2007,2595,2202,2623]" pageId="6" pageNumber="333">
 <emphasis bold="true" box="[2008,2163,2202,2231]" pageId="6" pageNumber="333">Taxonomy.</emphasis>
 <taxonomicName authority="Ogilby, 1841" authorityName="Ogilby" authorityYear="1841" class="Mammalia" family="Tragulidae" genus="Moschus" kingdom="Animalia" order="Artiodactyla" pageId="6" pageNumber="333" phylum="Chordata" rank="species" species="aquaticus">Moschus aquaticus Ogilby, 1841</taxonomicName>
-, Bulham Creek, 
+,
+</paragraph>
+</subSubSection>
+<subSubSection box="[2093,2501,2245,2270]" pageId="6" pageNumber="333" type="materials_examined">
+<paragraph blockId="6.[2007,2595,2202,2623]" box="[2093,2501,2245,2270]" pageId="6" pageNumber="333">
+<materialsCitation box="[2093,2497,2245,2270]" country="Sierra Leone" location="Bulham Creek" pageId="6" pageNumber="333" specimenCount="1">
+<location LSID="urn:lsid:plazi:treatment:03C587E31E7DFF90FA9AF7A994F1F4AF:8EB3602E1E7DFF91F7C2F77F99F5F75F" box="[2093,2298,2245,2270]" country="Sierra Leone" name="Bulham Creek" pageId="6" pageNumber="333">Bulham Creek</location>
+, 
 <collectingCountry box="[2314,2497,2245,2270]" name="Sierra Leone" pageId="6" pageNumber="333">Sierra Leone</collectingCountry>
-. The Water Chevrotain is thought to be the most ancestral of the extant tragulids, with its lineage separating from the species in Asia about 35 million years ago. Morphologically 
+</materialsCitation>
+.
+</paragraph>
+</subSubSection>
+<subSubSection pageId="6" pageNumber="333" type="discussion">
+<paragraph blockId="6.[2007,2595,2202,2623]" lastBlockId="6.[1391,2593,2629,3449]" pageId="6" pageNumber="333">
+The Water Chevrotain is thought to be the most ancestral of the extant tragulids, with its lineage separating from the species in Asia about 35 million years ago. Morphologically 
 <taxonomicName authorityName="Gray" authorityYear="1845" box="[2254,2408,2433,2466]" class="Mammalia" family="Tragulidae" genus="Hyemoschus" kingdom="Animalia" order="Artiodactyla" pageId="6" pageNumber="333" phylum="Chordata" rank="genus">Hyemoschus</taxonomicName>
 shows many similarities with the Pliocene genus Dorcatherium of Africa and Europe, and both genera are quite distinct from the Asian 
 <taxonomicName box="[2012,2124,2594,2623]" class="Mammalia" family="Tragulidae" genus="Tragulus" kingdom="Animalia" order="Artiodactyla" pageId="6" pageNumber="333" phylum="Chordata" rank="genus">Tragulus</taxonomicName>
@@ -206,14 +219,14 @@ revealed that fruits comprise 68-7% of all foods eaten, which appears to be less
 ), Bombax buonopozense (
 <taxonomicName authorityName="K.S.Kunth" authorityYear="1822" box="[939,1140,2362,2391]" class="Magnoliopsida" family="Bombacaceae" higherTaxonomySource="GBIF" kingdom="Plantae" order="Malvales" pageId="7" pageNumber="334" phylum="Tracheophyta" rank="family">Bombacaceae</taxonomicName>
 ), 
-<taxonomicName box="[1165,1293,2362,2391]" class="Magnoliopsida" family="Euphorbiaceae" genus="Alchornea" kingdom="Plantae" order="Malpighiales" pageId="7" pageNumber="334" phylum="Tracheophyta" rank="genus">Alchornea</taxonomicName>
-cordifolia (
+<taxonomicName class="Magnoliopsida" family="Euphorbiaceae" genus="Alchornea" kingdom="Plantae" order="Malpighiales" pageId="7" pageNumber="334" phylum="Tracheophyta" rank="species" species="cordifolia">Alchornea cordifolia</taxonomicName>
+(
 <taxonomicName box="[243,463,2397,2430]" class="Magnoliopsida" family="Euphorbiaceae" kingdom="Plantae" order="Malpighiales" pageId="7" pageNumber="334" phylum="Tracheophyta" rank="family">Euphorbiaceae</taxonomicName>
 ), 
-<taxonomicName box="[493,641,2397,2430]" class="Magnoliopsida" family="Myristicaceae" genus="Coelocaryon" kingdom="Plantae" order="Magnoliales" pageId="7" pageNumber="334" phylum="Tracheophyta" rank="genus">Coelocaryon</taxonomicName>
-preussi and 
-<taxonomicName box="[806,955,2397,2430]" class="Magnoliopsida" family="Myristicaceae" genus="Pycnanthus" kingdom="Plantae" order="Magnoliales" pageId="7" pageNumber="334" phylum="Tracheophyta" rank="genus">Pycnanthus</taxonomicName>
-angolensis (
+<taxonomicName box="[493,736,2397,2430]" class="Magnoliopsida" family="Myristicaceae" genus="Coelocaryon" kingdom="Plantae" order="Magnoliales" pageId="7" pageNumber="334" phylum="Tracheophyta" rank="species" species="preussi">Coelocaryon preussi</taxonomicName>
+and 
+<taxonomicName box="[806,1095,2397,2430]" class="Magnoliopsida" family="Myristicaceae" genus="Pycnanthus" kingdom="Plantae" order="Magnoliales" pageId="7" pageNumber="334" phylum="Tracheophyta" rank="species" species="angolensis">Pycnanthus angolensis</taxonomicName>
+(
 <taxonomicName box="[1115,1310,2397,2430]" class="Magnoliopsida" family="Myristicaceae" kingdom="Plantae" order="Magnoliales" pageId="7" pageNumber="334" phylum="Tracheophyta" rank="family">Myristicaceae</taxonomicName>
 ), and Cissus dinklager (
 <taxonomicName authorityName="de Jussieu" authorityYear="1789" box="[417,543,2441,2470]" class="Magnoliopsida" family="Vitaceae" kingdom="Plantae" order="Vitales" pageId="7" pageNumber="334" phylum="Tracheophyta" rank="family">Vitaceae</taxonomicName>
