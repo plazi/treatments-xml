@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6584330" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6584330" approvalRequired="10" approvalRequired_for_document="1" approvalRequired_for_originalDoi="1" approvalRequired_for_treatments="8" checkinTime="1653506929168" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="03C08797A1608005DF11265DFC59FBDE" docLanguage="en" docName="hbmw_6_Anomaluridae_0270.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Anomalurus derbianus Gray 1842" docType="treatment" docVersion="4" lastPageNumber="278" masterDocId="FFF9FFEFA1628006DF7F2A5FFF9FFFF5" masterDocTitle="Anomaluridae" masterLastPageNumber="279" masterPageNumber="270" pageNumber="277" updateTime="1653577545430" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6584330" ID-GBIF-Dataset="b6ffe202-140d-402d-933b-14bb6d1c6071" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6584330" checkinTime="1653506929168" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="03C08797A1608005DF11265DFC59FBDE" docLanguage="en" docName="hbmw_6_Anomaluridae_0270.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Anomalurus derbianus" docType="treatment" docVersion="7" lastPageNumber="278" masterDocId="FFF9FFEFA1628006DF7F2A5FFF9FFFF5" masterDocTitle="Anomaluridae" masterLastPageNumber="279" masterPageNumber="270" pageNumber="277" updateTime="1653663832919" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Anomaluridae</mods:title>
@@ -43,10 +43,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6584330</mods:identifier>
+<mods:identifier type="GBIF-Dataset">b6ffe202-140d-402d-933b-14bb6d1c6071</mods:identifier>
 <mods:identifier type="ISBN">978-84-941892-3-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6584330</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6582161" ID-Zenodo-Dep="6582161" LSID="urn:lsid:plazi:treatment:03C08797A1608005DF11265DFC59FBDE" httpUri="http://treatment.plazi.org/id/03C08797A1608005DF11265DFC59FBDE" lastPageId="3" lastPageNumber="278" pageId="2" pageNumber="277">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6582161" ID-GBIF-Taxon="195656938" ID-Zenodo-Dep="6582161" LSID="urn:lsid:plazi:treatment:03C08797A1608005DF11265DFC59FBDE" httpUri="http://treatment.plazi.org/id/03C08797A1608005DF11265DFC59FBDE" lastPageId="3" lastPageNumber="278" pageId="2" pageNumber="277">
 <heading pageId="2" pageNumber="277">
 <subSubSection box="[110,142,3074,3120]" pageId="2" pageNumber="277" type="multiple">
 <paragraph blockId="2.[108,1292,3074,3241]" box="[110,142,3074,3120]" pageId="2" pageNumber="277">
@@ -60,7 +61,7 @@
 </subSubSection>
 <subSubSection box="[751,1165,3074,3120]" pageId="2" pageNumber="277" type="nomenclature">
 <paragraph blockId="2.[108,1292,3074,3241]" box="[751,1165,3074,3120]" pageId="2" pageNumber="277">
-<taxonomicName authorityName="Gray" authorityYear="1842" box="[751,1165,3074,3120]" class="Mammalia" family="Anomaluridae" genus="Anomalurus" kingdom="Animalia" order="Rodentia" pageId="2" pageNumber="277" phylum="Chordata" rank="species" species="derbianus">
+<taxonomicName baseAuthorityName="Gray" baseAuthorityYear="1842" box="[751,1165,3074,3120]" class="Mammalia" family="Anomaluridae" genus="Anomalurus" kingdom="Animalia" order="Rodentia" pageId="2" pageNumber="277" phylum="Chordata" rank="species" species="derbianus">
 <emphasis box="[751,1165,3074,3120]" italics="true" pageId="2" pageNumber="277">Anomalurus derbianus</emphasis>
 </taxonomicName>
 </paragraph>
@@ -91,10 +92,9 @@
 <subSubSection pageId="2" pageNumber="277" type="reference_group">
 <paragraph blockId="2.[108,1050,3288,3325]" lastBlockId="2.[1984,2578,282,710]" pageId="2" pageNumber="277">
 <emphasis bold="true" box="[109,265,3288,3317]" pageId="2" pageNumber="277">Taxonomy.</emphasis>
-Pteromys 
-<taxonomicName authority="Gray, 1842" authorityName="Gray" authorityYear="1842" box="[395,674,3288,3317]" class="Mammalia" family="Anomaluridae" genus="Anomalurus" kingdom="Animalia" order="Rodentia" pageId="2" pageNumber="277" phylum="Chordata" rank="species" species="derbianus">derbianus Gray, 1842</taxonomicName>
+<taxonomicName authority="Gray, 1842" authorityName="Gray" authorityYear="1842" box="[277,674,3288,3317]" class="Mammalia" family="Anomaluridae" genus="Pteromys" kingdom="Animalia" order="Rodentia" pageId="2" pageNumber="277" phylum="Chordata" rank="species" species="derbianus">Pteromys derbianus Gray, 1842</taxonomicName>
 , 
-<materialsCitation box="[690,1048,3288,3317]" pageId="2" pageNumber="277">“W. Africa, Sierra Leone.”</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3784205306" box="[690,1048,3288,3317]" pageId="2" pageNumber="277">“W. Africa, Sierra Leone.”</materialsCitation>
 Although numerous forms have been attributed to 
 <taxonomicName authorityName="Gray" authorityYear="1842" box="[2160,2331,322,355]" class="Mammalia" family="Anomaluridae" genus="Anomalurus" kingdom="Animalia" order="Rodentia" pageId="2" pageNumber="277" phylum="Chordata" rank="species" species="derbianus">A. derbianus</taxonomicName>
 , they are junior synonyms, and no subspecies are recognized. Monotypic.
