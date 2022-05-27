@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.5727205" ID-GBIF-Dataset="60d0954b-1201-4408-8492-1a762f592c33" ID-GBIF-Taxon="190703616" ID-Zenodo-Dep="5727205" checkinTime="1636037979838" checkinUser="conny" docAuthor="Russell A. Mittermeier, Anthony B. Rylands &amp; Don E. Wilson" docDate="2013" docId="313A88142A1AF33DFA46F5176969FB4D" docLanguage="en" docName="hbmw_3_Atelidae_0484.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 3 Primates, Barcelona: Lynx Edicions" docTitle="Alouatta palliata Gray 1849" docType="treatment" docVersion="3" lastPageId="10" lastPageNumber="533" masterDocId="CD03F06C2A13F337FFF3FF8F6156FFA3" masterDocTitle="Atelidae" masterLastPageNumber="549" masterPageNumber="484" pageId="9" pageNumber="532" updateTime="1637851113031" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.5727205" ID-GBIF-Dataset="60d0954b-1201-4408-8492-1a762f592c33" ID-Zenodo-Dep="5727205" approvalRequired="1" approvalRequired_for_treatments="1" checkinTime="1636037979838" checkinUser="conny" docAuthor="Russell A. Mittermeier, Anthony B. Rylands &amp; Don E. Wilson" docDate="2013" docId="313A88142A1AF33DFA46F5176969FB4D" docLanguage="en" docName="hbmw_3_Atelidae_0484.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 3 Primates, Barcelona: Lynx Edicions" docTitle="Alouatta palliata" docType="treatment" docVersion="7" lastPageNumber="533" masterDocId="CD03F06C2A13F337FFF3FF8F6156FFA3" masterDocTitle="Atelidae" masterLastPageNumber="549" masterPageNumber="484" pageNumber="532" updateTime="1653679532653" updateUser="ExternalLinkService">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Atelidae</mods:title>
@@ -46,20 +46,20 @@
 <mods:identifier type="GBIF-Dataset">60d0954b-1201-4408-8492-1a762f592c33</mods:identifier>
 <mods:identifier type="Zenodo-Dep">5727205</mods:identifier>
 </mods:mods>
-<treatment ID-GBIF-Taxon="190703616" LSID="urn:lsid:plazi:treatment:313A88142A1AF33DFA46F5176969FB4D" httpUri="http://treatment.plazi.org/id/313A88142A1AF33DFA46F5176969FB4D" lastPageId="10" lastPageNumber="533" pageId="9" pageNumber="532">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6588395" ID-GBIF-Taxon="190703616" ID-Zenodo-Dep="6588395" LSID="urn:lsid:plazi:treatment:313A88142A1AF33DFA46F5176969FB4D" httpUri="http://treatment.plazi.org/id/313A88142A1AF33DFA46F5176969FB4D" lastPageId="10" lastPageNumber="533" pageId="9" pageNumber="532">
+<subSubSection box="[1461,2247,2712,2758]" pageId="9" pageNumber="532" type="nomenclature">
 <paragraph blockId="9.[1456,2617,2712,2880]" box="[1461,2247,2712,2758]" pageId="9" pageNumber="532">
 <heading box="[1461,2247,2712,2758]" pageId="9" pageNumber="532">
-<subSubSection box="[1461,1516,2712,2758]" pageId="9" pageNumber="532" type="multiple">11.</subSubSection>
-<subSubSection box="[1533,1873,2712,2758]" pageId="9" pageNumber="532" type="vernacular_name">Mantled Howler</subSubSection>
-<subSubSection box="[1941,2247,2712,2758]" pageId="9" pageNumber="532" type="nomenclature">
-<taxonomicName authorityName="Gray" authorityYear="1849" box="[1941,2247,2712,2758]" class="Mammalia" family="Atelidae" genus="Alouatta" kingdom="Animalia" order="Primates" pageId="9" pageNumber="532" phylum="Chordata" rank="species" species="palliata">
+<figureCitation box="[1461,1509,2712,2758]" captionStart="On" captionStartId="8.[102,134,3448,3469]" captionTargetBox="[11,2739,14,3631]" captionTargetPageId="7" captionText="On followıng pages Mantled Howler (Alouatta palliata) 12 Central Amerıcan Black Howler (Alouatta pigra)" figureDoi="http://doi.org/10.5281/zenodo.6585765" httpUri="https://zenodo.org/record/6585765/files/figure.png" pageId="9" pageNumber="532">11</figureCitation>
+. Mantled Howler 
+<taxonomicName baseAuthorityName="Gray" baseAuthorityYear="1849" box="[1941,2247,2712,2758]" class="Mammalia" family="Atelidae" genus="Alouatta" kingdom="Animalia" order="Primates" pageId="9" pageNumber="532" phylum="Chordata" rank="species" species="palliata">
 <emphasis box="[1941,2247,2712,2758]" pageId="9" pageNumber="532">Alouatta palliata</emphasis>
 </taxonomicName>
-</subSubSection>
 </heading>
 </paragraph>
-<paragraph blockId="9.[1456,2617,2712,2880]" lastBlockId="9.[2072,2658,2925,3347]" pageId="9" pageNumber="532">
-<subSubSection pageId="9" pageNumber="532" type="vernacular_name">
+</subSubSection>
+<subSubSection pageId="9" pageNumber="532" type="vernacular_names">
+<paragraph blockId="9.[1456,2617,2712,2880]" pageId="9" pageNumber="532">
 <heading pageId="9" pageNumber="532">
 <emphasis box="[1458,1535,2776,2797]" pageId="9" pageNumber="532">French:</emphasis>
 <vernacularName box="[1544,1727,2776,2797]" pageId="9" pageNumber="532">Hurleur a manteau</vernacularName>
@@ -76,30 +76,40 @@
 , 
 <vernacularName pageId="9" pageNumber="532">Ecuadorian Mantled/ South Pacific Blackish Howler (aequatorialis)</vernacularName>
 , 
-<vernacularName box="[1916,2244,2854,2875]" pageId="9" pageNumber="532">
-Golden-mantled Howler (
-<taxonomicName authorityName="Gray" authorityYear="1849" box="[2169,2237,2854,2875]" class="Mammalia" family="Atelidae" genus="Alouatta" kingdom="Animalia" order="Primates" pageId="9" pageNumber="532" phylum="Chordata" rank="species" species="palliata">palliata</taxonomicName>
-)
-</vernacularName>
+<vernacularName box="[1916,2244,2854,2875]" pageId="9" pageNumber="532">Golden-mantled Howler (palliata)</vernacularName>
 , 
 <vernacularName box="[2258,2535,2854,2875]" pageId="9" pageNumber="532">Mexican Howler (mexicana)</vernacularName>
 </heading>
+</paragraph>
 </subSubSection>
-<subSubSection lastPageId="10" lastPageNumber="533" pageId="9" pageNumber="532" type="reference_group">
+<subSubSection box="[2072,2602,2925,2954]" pageId="9" pageNumber="532" type="reference_group">
+<paragraph blockId="9.[2072,2658,2925,3347]" box="[2072,2602,2925,2954]" pageId="9" pageNumber="532">
 <emphasis box="[2072,2227,2925,2954]" pageId="9" pageNumber="532">Taxonomy.</emphasis>
-Mycetes 
-<taxonomicName authority="Gray, 1849" authorityName="Gray" authorityYear="1849" box="[2340,2597,2925,2954]" class="Mammalia" family="Atelidae" genus="Alouatta" kingdom="Animalia" order="Primates" pageId="9" pageNumber="532" phylum="Chordata" rank="species" species="palliata">palliata Gray, 1849</taxonomicName>
-, Caracas, 
+<taxonomicName authority="Gray, 1849" authorityName="Gray" authorityYear="1849" box="[2240,2597,2925,2954]" class="Mammalia" family="Atelidae" genus="Mycetes" kingdom="Animalia" order="Primates" pageId="9" pageNumber="532" phylum="Chordata" rank="species" species="palliata">Mycetes palliata Gray, 1849</taxonomicName>
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="9" pageNumber="532" type="materials_examined">
+<paragraph blockId="9.[2072,2658,2925,3347]" pageId="9" pageNumber="532">
+<materialsCitation pageId="9" pageNumber="532">
+Caracas, 
 <collectingCountry box="[2166,2313,2960,2993]" name="Venezuela" pageId="9" pageNumber="532">Venezuela</collectingCountry>
 . Restricted by Allen in 1910 to Lago 
 <collectingCountry box="[2265,2409,3004,3033]" name="Nicaragua" pageId="9" pageNumber="532">Nicaragua</collectingCountry>
 , 
 <collectingCountry box="[2425,2570,3004,3033]" name="Nicaragua" pageId="9" pageNumber="532">Nicaragua</collectingCountry>
-. Three subspecies of A. 
+.
+</materialsCitation>
+</paragraph>
+</subSubSection>
+<subSubSection lastPageId="10" lastPageNumber="533" pageId="9" pageNumber="532" type="discussion">
+<paragraph blockId="9.[2072,2658,2925,3347]" pageId="9" pageNumber="532">
+Three subspecies of A. 
 <taxonomicName authorityName="Gray" authorityYear="1849" box="[2410,2510,3039,3072]" class="Mammalia" family="Atelidae" genus="Alouatta" kingdom="Animalia" order="Primates" pageId="9" pageNumber="532" phylum="Chordata" rank="species" species="palliata">palliata</taxonomicName>
 are based on geography: mexicana, 
 <taxonomicName authorityName="Gray" authorityYear="1849" box="[2471,2571,3086,3111]" class="Mammalia" family="Atelidae" genus="Alouatta" kingdom="Animalia" order="Primates" pageId="9" pageNumber="532" phylum="Chordata" rank="species" species="palliata">palliata</taxonomicName>
-, and aequatorialis. The forms coibensis (Coiba Island) and trabeata (Azuero Peninsula) were identified as distinct in a study of dermal ridge patterning by J. and P. Froehlich in 1986. Similar color morphs and body sizes can be found in all populations. 
+, and aequatorialis. The forms coibensis (Coiba Island) and trabeata (Azuero Peninsula) were identified as distinct in a study of dermal ridge patterning by J. and P. Froehlich in 1986. Similar color morphs and body sizes can be found in all populations.
+</paragraph>
 <paragraph blockId="9.[1456,2658,3353,3465]" lastBlockId="10.[100,1307,290,3472]" lastPageId="10" lastPageNumber="533" pageId="9" pageNumber="532">
 A study byJ. Ellsworth and G. Hoelzer in 2006, using microsatellite markers, found little genetic variability among this widely distributed species. In fact, they suggested that A. 
 <taxonomicName authorityName="Gray" authorityYear="1849" box="[1496,1596,3432,3465]" class="Mammalia" family="Atelidae" genus="Alouatta" kingdom="Animalia" order="Primates" pageId="9" pageNumber="532" phylum="Chordata" rank="species" species="palliata">palliata</taxonomicName>
@@ -120,7 +130,6 @@ in parts of north-western
 . Genetic analyses have indicated that crosses of the parental species result in fertile female offspring but infertile male offspring. Five subspecies recognized.
 </paragraph>
 </subSubSection>
-</paragraph>
 <subSubSection pageId="10" pageNumber="533" type="multiple">
 <caption ID-DOI="http://doi.org/10.5281/zenodo.5727239" ID-Zenodo-Dep="5727239" httpUri="https://zenodo.org/record/5727239/files/figure.png" inLine="true" pageId="10" pageNumber="533" targetBox="[1460,2041,2932,3340]" targetPageId="9">
 <paragraph blockId="10.[100,1307,290,3472]" pageId="10" pageNumber="533">
