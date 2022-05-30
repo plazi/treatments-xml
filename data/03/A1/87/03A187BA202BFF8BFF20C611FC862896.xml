@@ -1,4 +1,4 @@
-<document ID-ISBN="978-84-96553-93-4" approvalRequired="84" approvalRequired_for_document="2" approvalRequired_for_originalDoi="1" approvalRequired_for_textStreams="74" approvalRequired_for_treatments="7" checkinTime="1653933733589" checkinUser="diego" docAuthor="Russell A. Mittermeier &amp; Don E. Wilson" docDate="2014" docId="03A187BA202BFF8BFF20C611FC862896" docLanguage="en" docName="hbmw_4_Balaenidae_0186.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 4 Sea Mammals, Barcelona: Lynx Edicions" docTitle="Eubalaena japonica" docType="treatment" docVersion="1" lastPageNumber="211" masterDocId="FF98FFC22028FF8FFFE8CE51FFC32D1F" masterDocTitle="Balaenidae" masterLastPageNumber="215" masterPageNumber="186" pageNumber="210" updateTime="1653933734775" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6595811" ID-GBIF-Dataset="8ba573dc-3c83-4c88-91aa-d17e299758cf" ID-ISBN="978-84-96553-93-4" ID-Zenodo-Dep="6595811" approvalRequired="3" approvalRequired_for_treatments="3" checkinTime="1653933733589" checkinUser="diego" docAuthor="Russell A. Mittermeier &amp; Don E. Wilson" docDate="2014" docId="03A187BA202BFF8BFF20C611FC862896" docLanguage="en" docName="hbmw_4_Balaenidae_0186.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 4 Sea Mammals, Barcelona: Lynx Edicions" docTitle="Eubalaena japonica" docType="treatment" docVersion="3" lastPageNumber="211" masterDocId="FF98FFC22028FF8FFFE8CE51FFC32D1F" masterDocTitle="Balaenidae" masterLastPageNumber="215" masterPageNumber="186" pageNumber="210" updateTime="1653936706527" updateUser="ExternalLinkService">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Balaenidae</mods:title>
@@ -36,13 +36,16 @@
 </mods:part>
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
+<mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6595811</mods:identifier>
+<mods:identifier type="GBIF-Dataset">8ba573dc-3c83-4c88-91aa-d17e299758cf</mods:identifier>
 <mods:identifier type="ISBN">978-84-96553-93-4</mods:identifier>
+<mods:identifier type="Zenodo-Dep">6595811</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:03A187BA202BFF8BFF20C611FC862896" httpUri="http://treatment.plazi.org/id/03A187BA202BFF8BFF20C611FC862896" lastPageId="4" lastPageNumber="211" pageId="3" pageNumber="210">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6595827" ID-Zenodo-Dep="6595827" LSID="urn:lsid:plazi:treatment:03A187BA202BFF8BFF20C611FC862896" httpUri="http://treatment.plazi.org/id/03A187BA202BFF8BFF20C611FC862896" lastPageId="4" lastPageNumber="211" pageId="3" pageNumber="210">
 <heading pageId="3" pageNumber="210">
 <subSubSection box="[200,231,2112,2162]" pageId="3" pageNumber="210" type="multiple">
 <paragraph blockId="3.[197,1224,2112,2244]" box="[200,231,2112,2162]" pageId="3" pageNumber="210">
-<figureCitation box="[200,231,2112,2162]" captionStart="Plate 7: Balaenidae" captionStartId="2.[64,94,3438,3459]" captionTargetBox="[12,2720,14,3653]" captionTargetPageId="1" captionText="1. North Atlantic Right Whale (Eubalaena glacialis), 2. North Pacific Right Whale (Fubalaena japonica), 3. Southern Right Whale (Fubalaena australis), 4. Bowhead Whale (Balaena mysticetus)" pageId="3" pageNumber="210">2.</figureCitation>
+<figureCitation box="[200,231,2112,2162]" captionStart="Plate 7: Balaenidae" captionStartId="2.[64,94,3438,3459]" captionTargetBox="[12,2720,14,3653]" captionTargetPageId="1" captionText="1. North Atlantic Right Whale (Eubalaena glacialis), 2. North Pacific Right Whale (Fubalaena japonica), 3. Southern Right Whale (Fubalaena australis), 4. Bowhead Whale (Balaena mysticetus)" figureDoi="http://doi.org/10.5281/zenodo.6595835" httpUri="https://zenodo.org/record/6595835/files/figure.png" pageId="3" pageNumber="210">2.</figureCitation>
 </paragraph>
 </subSubSection>
 <subSubSection box="[248,796,2112,2162]" pageId="3" pageNumber="210" type="vernacular_names">
@@ -79,45 +82,32 @@
 </subSubSection>
 </heading>
 <subSubSection pageId="3" pageNumber="210" type="reference_group">
-<paragraph blockId="3.[818,1403,2291,2713]" box="[818,1400,2291,2320]" pageId="3" pageNumber="210">
+<paragraph blockId="3.[818,1403,2291,2713]" pageId="3" pageNumber="210">
 <emphasis bold="true" box="[818,973,2291,2320]" pageId="3" pageNumber="210">Taxonomy.</emphasis>
-<taxonomicName baseAuthorityName="Lacepede" baseAuthorityYear="1818" class="Mammalia" family="Balaenidae" genus="Eubalaena" kingdom="Animalia" order="Cetacea" pageId="3" pageNumber="210" phylum="Chordata" rank="species" species="japonica">
-Balaena japonica Lacépède, 
-<paragraph blockId="3.[818,1403,2291,2713]" box="[822,1056,2326,2359]" pageId="3" pageNumber="210">
-1818, 
-<materialsCitation box="[904,1201,2326,2359]" pageId="3" pageNumber="210">
-“du Japon” 
-<paragraph blockId="3.[818,1403,2291,2713]" box="[1070,1206,2326,2359]" pageId="3" pageNumber="210">(=Japan).</paragraph>
-</materialsCitation>
-</paragraph>
-</taxonomicName>
+<taxonomicName baseAuthorityName="Lacepede" baseAuthorityYear="1818" class="Mammalia" family="Balaenidae" genus="Eubalaena" kingdom="Animalia" order="Cetacea" pageId="3" pageNumber="210" phylum="Chordata" rank="species" species="japonica">Balaena japonica Lacépède, 1818</taxonomicName>
+, 
+<materialsCitation box="[904,1201,2326,2359]" pageId="3" pageNumber="210">“du Japon” (=Japan)</materialsCitation>
+.
 </paragraph>
 </subSubSection>
 <subSubSection box="[818,1180,2366,2399]" pageId="3" pageNumber="210" type="discussion">
 <paragraph blockId="3.[818,1403,2291,2713]" box="[818,1180,2366,2399]" pageId="3" pageNumber="210">This species is monotypic.</paragraph>
 </subSubSection>
 <subSubSection pageId="3" pageNumber="210" type="distribution">
-<caption inLine="true" pageId="3" pageNumber="210" targetBox="[199,789,2293,2706]" targetPageId="3">
-<paragraph blockId="3.[818,1403,2291,2713]" box="[818,1403,2405,2438]" pageId="3" pageNumber="210">
+<caption ID-DOI="http://doi.org/10.5281/zenodo.6595825" ID-Zenodo-Dep="6595825" httpUri="https://zenodo.org/record/6595825/files/figure.png" inLine="true" pageId="3" pageNumber="210" targetBox="[199,789,2293,2706]" targetPageId="3">
+<paragraph blockId="3.[818,1403,2291,2713]" lastBlockId="3.[194,1402,2719,3461]" pageId="3" pageNumber="210">
 <emphasis bold="true" box="[818,994,2405,2438]" pageId="3" pageNumber="210">Distribution.</emphasis>
-Cold-temperate waters of
+Cold-temperate waters of the N Pacific, from Bonin Is (27° N, 142° E) and Ryukyu Is N to Yellow Sea, Sea ofJapan, Sea of Okhotsk, Bering Sea and Gulf of Alaska; occasionally reaching tip of Baja California, Mexico, to the S of E Pacific in winter. Except on their N summer grounds, only a few sightings in the E Pacific Ocean during the past 50 years.
 </paragraph>
-<paragraph blockId="3.[818,1403,2291,2713]" box="[819,1399,2449,2478]" pageId="3" pageNumber="210">the N Pacific, from Bonin Is (27° N,</paragraph>
-<paragraph blockId="3.[818,1403,2291,2713]" box="[821,1398,2484,2517]" pageId="3" pageNumber="210">142° E) and Ryukyu Is N to Yellow Sea,</paragraph>
-<paragraph blockId="3.[818,1403,2291,2713]" box="[819,1401,2523,2556]" pageId="3" pageNumber="210">Sea ofJapan, Sea of Okhotsk, Bering Sea</paragraph>
-<paragraph blockId="3.[818,1403,2291,2713]" box="[818,1400,2571,2596]" pageId="3" pageNumber="210">and Gulf of Alaska; occasionally reaching</paragraph>
-<paragraph blockId="3.[818,1403,2291,2713]" pageId="3" pageNumber="210">tip of Baja California, Mexico, to the S of E Pacific in winter. Except on their N summer grounds, only a few sightings in</paragraph>
-<paragraph blockId="3.[194,1402,2719,3461]" box="[198,823,2719,2752]" pageId="3" pageNumber="210">the E Pacific Ocean during the past 50 years.</paragraph>
 </caption>
 </subSubSection>
 <subSubSection pageId="3" pageNumber="210" type="description">
-<paragraph blockId="3.[194,1402,2719,3461]" pageId="3" pageNumber="210">
+<paragraph blockId="3.[194,1402,2719,3461]" lastBlockId="3.[1468,2683,279,3471]" pageId="3" pageNumber="210">
 <emphasis bold="true" box="[197,449,2759,2792]" pageId="3" pageNumber="210">Descriptive notes.</emphasis>
 Total length can exceed 1700 cm; weight exceeding ¢.80,000 kg. The North Pacific Right Whale is sexually dimorphic, with females growing slightly larger than males. It can grow somewhat larger but is similar to the North Atlantic Right Whale (
 <taxonomicName authorityName="Miller" authorityYear="1776" box="[395,538,2877,2910]" class="Mammalia" family="Balaenidae" genus="Eubalaena" kingdom="Animalia" order="Cetacea" pageId="3" pageNumber="210" phylum="Chordata" rank="species" species="glacialis">E. glacialis</taxonomicName>
-) in external morphology and color. The North Pacific Right Whale is mostly black. Often,it has a small white area ventrally at the navel. In some individuals, this white coloration may form a much larger patch and may even extend laterally onto sides of the body. Some individuals are completely black. As with the North Atlantic Right Whale, the North Pacific Right Whale is stout and stocky. Maximum girth is approximately 75% of total body length, with its large head one-third of body length. Blowhole openings are widely separated and angle slightly to the sides. Spout is V-shaped and can reach up to 5 m. Rostrum is narrow, elongate, and arched. Approximately 200-270 thin baleen plates, each ¢.300 cm long, hang from each side of upperjaw. Baleen is gray-brown to black and is fringed with long, fine, grayish bristles. Eyes are located above apex of mouth. Patterns of callosities vary among individuals, but they are distributed in generally consistent locations, including behind blowhole, along rostrum, above eyes, along mandibles, and on chin. Hair may grow from areas with callosities. Callosities are naturally gray or black in color and are inhabited by cyamids. There is no dorsal fin or ridge on the wide, smooth back. Flippers are relatively
+) in external morphology and color. The North Pacific Right Whale is mostly black. Often,it has a small white area ventrally at the navel. In some individuals, this white coloration may form a much larger patch and may even extend laterally onto sides of the body. Some individuals are completely black. As with the North Atlantic Right Whale, the North Pacific Right Whale is stout and stocky. Maximum girth is approximately 75% of total body length, with its large head one-third of body length. Blowhole openings are widely separated and angle slightly to the sides. Spout is V-shaped and can reach up to 5 m. Rostrum is narrow, elongate, and arched. Approximately 200-270 thin baleen plates, each ¢.300 cm long, hang from each side of upperjaw. Baleen is gray-brown to black and is fringed with long, fine, grayish bristles. Eyes are located above apex of mouth. Patterns of callosities vary among individuals, but they are distributed in generally consistent locations, including behind blowhole, along rostrum, above eyes, along mandibles, and on chin. Hair may grow from areas with callosities. Callosities are naturally gray or black in color and are inhabited by cyamids. There is no dorsal fin or ridge on the wide, smooth back. Flippers are relatively large, broad, and paddle-shaped, with angular leading edges. There is a deep notch between wide, gently curving flukes.
 </paragraph>
-<paragraph blockId="3.[1468,2683,279,3471]" pageId="3" pageNumber="210">large, broad, and paddle-shaped, with angular leading edges. There is a deep notch between wide, gently curving flukes.</paragraph>
 </subSubSection>
 <subSubSection pageId="3" pageNumber="210" type="biology_ecology">
 <paragraph blockId="3.[1468,2683,279,3471]" pageId="3" pageNumber="210">
@@ -154,13 +144,12 @@ The North Pacific Right Whale appears to make northward migrations to high latit
 </paragraph>
 </subSubSection>
 <subSubSection lastPageId="4" lastPageNumber="211" pageId="3" pageNumber="210" type="conservation">
-<paragraph blockId="3.[1468,2683,279,3471]" pageId="3" pageNumber="210">
+<paragraph blockId="3.[1468,2683,279,3471]" lastBlockId="4.[64,1274,279,1422]" lastPageId="4" lastPageNumber="211" pageId="3" pageNumber="210">
 <emphasis bold="true" box="[1472,1828,2564,2597]" pageId="3" pageNumber="210">Status and Conservation.</emphasis>
 CITES Appendix I. Classified as Endangered on The IUCN Red Last, with the north-eastern North Pacific subpopulation classified as Critically Endangered. The original distribution of the North Pacific Right Whale was never documented in any detail before it was depleted by the middle of the 19&quot; century. Today, whales are found in winter around the Bonin Islands, Ryukyu Islands, and Yellow Sea (west of the Korean Peninsula); in summer (feeding grounds), they are found from the Sea of Okhotsk and Kuril Islands, north to off the Kamchatka Peninsula, Commander Islands, and the western Bering Sea. In the East Pacific Ocean, North Pacific Right Whales moved north off the California coast and along the western coast of North America, but since the 1990s, they have only been seen regularly from summer to early autumn in the south-eastern Bering Sea, west of Bristol Bay, Alaska (¢.57°-59° N), and sometimes in the Gulf of Alaska. Western and eastern populations of the North Pacific Right Whale have different geographic distributions, population sizes, and stranding histories. In the western North Pacific Ocean, they are poorly known, and the only available population estimate is outdated and only preliminary based on data collected during dedicated line-transect surveys for Common Minke Whales (
 <taxonomicName authorityName="Lacepede" authorityYear="1804" box="[1854,2026,3199,3228]" class="Mammalia" family="Balaenopteridae" genus="Balaenoptera" kingdom="Animalia" order="Cetacea" pageId="3" pageNumber="210" phylum="Chordata" rank="genus">Balaenoptera</taxonomicName>
-acutorostrata), conducted in the Sea of Okhotsk during 1989, 1990, and 1992. The resulting population estimate of 922 North Pacific Right Whales was based on only a limited number of sightings and the confidence interval was wide (404-2108 individuals). However, the most recent [UCN assessment gives 400 for the Sea of Okhotsk population size. Sighting data are available from additional Russian and Japanese surveys conducted since 1992, but they have not yet been analyzed. No assessment has been made for the north-western
+acutorostrata), conducted in the Sea of Okhotsk during 1989, 1990, and 1992. The resulting population estimate of 922 North Pacific Right Whales was based on only a limited number of sightings and the confidence interval was wide (404-2108 individuals). However, the most recent [UCN assessment gives 400 for the Sea of Okhotsk population size. Sighting data are available from additional Russian and Japanese surveys conducted since 1992, but they have not yet been analyzed. No assessment has been made for the north-western subpopulation of the North Pacific Right Whale because of the outdated population estimate. No estimate is available for the pre-whaling size of this subpopulation, but large numbers of right whales were taken in the North Pacific during the 19&quot; century, and illegal Soviet pelagic catches made during the 1960s included at least 152 whales taken from the Sea of Okhotsk. Major current threats are bycatch in various types of fishing gear. No deaths of North Pacific Right Whales from ship strikes have been reported, butthis is likely an important threat because of their coastal nature in much of their distribution, especially in coastal waters of China, Korea, and Japan. In the Sea of Okhotsk, future oil and gas activities will pose risks to North Pacific Right Whales on their summer feeding grounds. The current abundance estimate for the north-eastern North Pacific population is only ¢.30 individuals, based on independent photo-identifications and genetic mark-recaptures. No pre-whaling estimate is available for this population. They were depleted quickly in the middle of the 19&quot; century. Some were also killed during the start of modern commercial whaling off Alaska and British Columbia, Canada,in the early part of the 20&quot; century and then after c.30 years of no catches,illegal Soviet pelagic whaling operations killed a minimum of 529 individuals in the Gulf of Alaska and south-eastern Bering Sea in the 1960s. Bycatch in various types of fishing gear and ship strikes are the two most important current threats, but to date, there have not been any confirmed deaths. Potential future threats include oil and gas activities on summer feeding grounds of the North Pacific Right Whale.
 </paragraph>
-<paragraph blockId="4.[64,1274,279,1422]" pageId="4" pageNumber="211">subpopulation of the North Pacific Right Whale because of the outdated population estimate. No estimate is available for the pre-whaling size of this subpopulation, but large numbers of right whales were taken in the North Pacific during the 19&quot; century, and illegal Soviet pelagic catches made during the 1960s included at least 152 whales taken from the Sea of Okhotsk. Major current threats are bycatch in various types of fishing gear. No deaths of North Pacific Right Whales from ship strikes have been reported, butthis is likely an important threat because of their coastal nature in much of their distribution, especially in coastal waters of China, Korea, and Japan. In the Sea of Okhotsk, future oil and gas activities will pose risks to North Pacific Right Whales on their summer feeding grounds. The current abundance estimate for the north-eastern North Pacific population is only ¢.30 individuals, based on independent photo-identifications and genetic mark-recaptures. No pre-whaling estimate is available for this population. They were depleted quickly in the middle of the 19&quot; century. Some were also killed during the start of modern commercial whaling off Alaska and British Columbia, Canada,in the early part of the 20&quot; century and then after c.30 years of no catches,illegal Soviet pelagic whaling operations killed a minimum of 529 individuals in the Gulf of Alaska and south-eastern Bering Sea in the 1960s. Bycatch in various types of fishing gear and ship strikes are the two most important current threats, but to date, there have not been any confirmed deaths. Potential future threats include oil and gas activities on summer feeding grounds of the North Pacific Right Whale.</paragraph>
 </subSubSection>
 <subSubSection pageId="4" pageNumber="211" type="bibRefCitation_list">
 <paragraph blockId="4.[64,1274,279,1422]" pageId="4" pageNumber="211">
