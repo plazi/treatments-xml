@@ -1,0 +1,17 @@
+name: transform
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: plazi/gg2rdf@v0.1
+        with:
+          source-repo: "plazi/treatments-xml"
+          destination-repo: "plazi/treatments-rdf"
+          deploy-key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
