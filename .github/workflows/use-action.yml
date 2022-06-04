@@ -10,7 +10,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: plazi/gg2rdf@v0.4.0
+      - uses: plazi/gg2rdf@v0.5.0
         with:
           source-repo: "plazi/treatments-xml"
           destination-repo: "plazi/treatments-rdf"
