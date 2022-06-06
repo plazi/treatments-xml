@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.5714775" ID-GBIF-Dataset="af527510-2032-4025-89ea-c5a2091de173" ID-ISBN="978-84-96553-49-1" ID-Zenodo-Dep="5714775" approvalRequired="18" approvalRequired_for_taxonomicNames="13" approvalRequired_for_treatments="5" checkinTime="1633639045184" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2009" docId="039D8794F66FC76390977DF0FD46F213" docLanguage="en" docName="hbmw_1_Ursidae_0448.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 1 Carnivores, Barcelona: Lynx Edicions" docTitle="Melursus ursinus" docType="treatment" docVersion="7" lastPageId="5" lastPageNumber="490" masterDocId="FFA4FFECF66BC766950C7F53FF82FF9D" masterDocTitle="Ursidae" masterLastPageNumber="497" masterPageNumber="448" pageId="4" pageNumber="489" updateTime="1647879058487" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.5714493" ID-GBIF-Dataset="af527510-2032-4025-89ea-c5a2091de173" ID-ISBN="978-84-96553-49-1" ID-Zenodo-Dep="5714493" checkinTime="1633639045184" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2009" docId="039D8794F66FC76390977DF0FD46F213" docLanguage="en" docName="hbmw_1_Ursidae_0448.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 1 Carnivores, Barcelona: Lynx Edicions" docTitle="Melursus ursinus" docType="treatment" docVersion="10" lastPageNumber="490" masterDocId="FFA4FFECF66BC766950C7F53FF82FF9D" masterDocTitle="Ursidae" masterLastPageNumber="497" masterPageNumber="448" pageNumber="489" updateTime="1654523237658" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Ursidae</mods:title>
@@ -59,7 +59,7 @@
 <subSubSection box="[1752,2082,675,717]" pageId="4" pageNumber="489" type="nomenclature">
 <paragraph blockId="4.[1433,2137,675,797]" box="[1752,2082,675,717]" pageId="4" pageNumber="489">
 <heading box="[1752,2082,675,717]" pageId="4" pageNumber="489">
-<taxonomicName box="[1752,2082,675,717]" class="Mammalia" family="Ursidae" genus="Melursus" kingdom="Animalia" order="Carnivora" pageId="4" pageNumber="489" phylum="Chordata" rank="species" species="ursinus">
+<taxonomicName baseAuthorityName="Shaw" baseAuthorityYear="1791" box="[1752,2082,675,717]" class="Mammalia" family="Ursidae" genus="Melursus" kingdom="Animalia" order="Carnivora" pageId="4" pageNumber="489" phylum="Chordata" rank="species" species="ursinus">
 <emphasis box="[1752,2082,675,717]" italics="true" pageId="4" pageNumber="489">Melursus ursinus</emphasis>
 </taxonomicName>
 </heading>
@@ -74,10 +74,8 @@
 <emphasis bold="true" box="[1698,1789,735,756]" pageId="4" pageNumber="489">German:</emphasis>
 <vernacularName box="[1799,1896,735,756]" pageId="4" pageNumber="489">Lippenbar</vernacularName>
 / 
-<taxonomicName authority="Oso" authorityName="Oso" box="[1917,2056,735,756]" class="Aves" family="Phasianidae" genus="Spanish" kingdom="Animalia" order="Galliformes" pageId="4" pageNumber="489" phylum="Chordata" rank="genus">
 <emphasis bold="true" box="[1917,2007,735,756]" pageId="4" pageNumber="489">Spanish:</emphasis>
 <vernacularName box="[2017,2056,735,756]" pageId="4" pageNumber="489">Oso</vernacularName>
-</taxonomicName>
 bezudo
 </heading>
 </paragraph>
@@ -93,8 +91,7 @@ bezudo
 <subSubSection pageId="4" pageNumber="489" type="reference_group">
 <paragraph blockId="4.[2031,2635,841,1267]" pageId="4" pageNumber="489">
 <emphasis bold="true" box="[2031,2185,841,874]" pageId="4" pageNumber="489">Taxonomy.</emphasis>
-Bradypus 
-<taxonomicName authority="Shaw, 1791" authorityName="Shaw" authorityYear="1791" box="[2326,2583,841,874]" class="Mammalia" family="Ursidae" genus="Melursus" kingdom="Animalia" order="Carnivora" pageId="4" pageNumber="489" phylum="Chordata" rank="species" species="ursinus">ursinus Shaw, 1791</taxonomicName>
+<taxonomicName authority="Shaw, 1791" authorityName="Shaw" authorityYear="1791" box="[2197,2583,841,874]" class="Mammalia" family="Ursidae" genus="Bradypus" kingdom="Animalia" order="Carnivora" pageId="4" pageNumber="489" phylum="Chordata" rank="species" species="ursinus">Bradypus ursinus Shaw, 1791</taxonomicName>
 , 
 <materialsCitation ID-GBIF-Occurrence="3712020307" pageId="4" pageNumber="489">
 <collectingRegion country="India" name="Bihar" pageId="4" pageNumber="489">Bihar</collectingRegion>
@@ -103,6 +100,8 @@ Bradypus
 .
 </materialsCitation>
 </paragraph>
+</subSubSection>
+<subSubSection pageId="4" pageNumber="489" type="discussion">
 <paragraph blockId="4.[2031,2635,841,1267]" pageId="4" pageNumber="489">Previously included in genus Bradypus = sloth. Two subspecies recognized.</paragraph>
 </subSubSection>
 <subSubSection pageId="4" pageNumber="489" type="synonymic_list">
@@ -251,9 +250,7 @@ because laws against this are not adequately enforced. Some non-governmental org
 <emphasis bold="true" box="[191,345,3292,3313]" pageId="5" pageNumber="490">Bibliography.</emphasis>
 Akhtar et al. (2004, 2007), Bargali et al. (2004, 2005), Chhangani (2002), Garshelis, Joshi &amp; Smith (1999), Garshelis, Joshi, Smith &amp; Rice (1999), Garshelis, Ratnayeke &amp; Chauhan (2007), 
 <collectingCountry box="[1215,1277,3327,3352]" name="Japan" pageId="5" pageNumber="490">Japan</collectingCountry>
-Bear Network (2006), Joshi, Garshelis &amp; Smith (1995, 1997), Joshi, Smith &amp; Garshelis (1999), Laurie &amp; Seidensticker (1977), Rajpurohit &amp; Krausman (2000), Ratnayeke, Van Manen &amp; Padmalal (2007), Ratnayeke, Van Manen, 
-<taxonomicName authority="Pragash (2007)" authorityName="Pragash" authorityYear="2007" box="[192,249,3445,3470]" class="Magnoliopsida" family="Ericaceae" genus="Pieris" kingdom="Plantae" order="Ericales" pageId="5" pageNumber="490" phylum="Tracheophyta" rank="genus">Pieris</taxonomicName>
-&amp; Pragash (2007), Yoganand et al. (2006).
+Bear Network (2006), Joshi, Garshelis &amp; Smith (1995, 1997), Joshi, Smith &amp; Garshelis (1999), Laurie &amp; Seidensticker (1977), Rajpurohit &amp; Krausman (2000), Ratnayeke, Van Manen &amp; Padmalal (2007), Ratnayeke, Van Manen, Pieris &amp; Pragash (2007), Yoganand et al. (2006).
 </paragraph>
 </subSubSection>
 </treatment>
