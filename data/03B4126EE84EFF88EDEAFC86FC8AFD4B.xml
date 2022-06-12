@@ -1,0 +1,941 @@
+<document id="8556B06790FAF905EA4F47E3DCB05EB5" ID-DOI="http://doi.org/10.5281/zenodo.5762239" ID-GBIF-Dataset="41b8f51f-1d31-44c0-851e-2697e4e9497f" ID-GBIF-Taxon="191142501" ID-ISSN="2118-9773" ID-Zenodo-Dep="5762239" ID-ZooBank="932663A6-D83D-49E0-B1F7-87F7DA8DC086" _generate="added" checkinTime="1638793843470" checkinUser="felipe" docAuthor="Fonseca-Ferreira, Rafael, Guadanucci, José Paulo Leite, Yamamoto, Flávio Uemori &amp; Brescovit, Antonio Domingos" docDate="2021" docId="03B4126EE84EFF88EDEAFC86FC8AFD4B" docLanguage="en" docName="ejt-780_1-71.pdf.imf" docOrigin="European Journal of Taxonomy 780 (1)" docSource="http://dx.doi.org/10.5852/ejt.2021.780.1581" docStyle="DocumentStyle:EF2B578F1D15862ADE45B0C07C620911.12:EJT.2018-.journal_article" docStyleId="EF2B578F1D15862ADE45B0C07C620911" docStyleName="EJT.2018-.journal_article" docStyleVersion="12" docTitle="Idiops guri Fonseca-Ferreira, Guadanucci &amp; Brescovit 2021, sp. nov." docType="treatment" docVersion="5" lastPageId="39" lastPageNumber="40" masterDocId="FF8D6A16E86DFFAFEC4DFFEAFF8AFFF6" masterDocTitle="Taxonomic revision of the Neotropical spiders of the genus Idiops Perty, 1833 (Araneae, Idiopidae), with description of four new species" masterLastPageNumber="71" masterPageNumber="1" pageId="35" pageNumber="36" updateTime="1638817299798" updateUser="ExternalLinkService" zenodo-license-document="CC-BY-4.0" zenodo-license-figures="CC-BY-4.0" zenodo-license-treatments="UNSPECIFIED">
+<mods:mods id="8BE3860A19800769AC11C73AA9A61FD7" xmlns:mods="http://www.loc.gov/mods/v3">
+<mods:titleInfo id="EECBA35194058D9ECAA686231747B326">
+<mods:title id="DB405773999C8292ED1AC181B4478069">Taxonomic revision of the Neotropical spiders of the genus Idiops Perty, 1833 (Araneae, Idiopidae), with description of four new species</mods:title>
+</mods:titleInfo>
+<mods:name id="1470550B309CBA38E8B275750753BB39" type="personal">
+<mods:role id="57D53217B8CD8A64C177AA3798F54C67">
+<mods:roleTerm id="F59ECDF194C72BCC8FA93EE81B536793">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="D51A8921F83FB09D06A9C5F4706C2E5E">Fonseca-Ferreira, Rafael</mods:namePart>
+<mods:nameIdentifier id="39EA11EBFBE86856A5A4DBA3B3AC782C" type="LSID">8E23FE6D-3D20-4667-9F69-15B132D9537B</mods:nameIdentifier>
+<mods:affiliation id="B309D4805ED73401DBB837C007F766C8">Pós-graduação em Ecologia, Evolução e Biodiversidade, Instituto de Biociências, Universidade Estadual Paulista, Avenida 24 A 1515, 13506 - 900 Rio Claro-SP, Brazil.</mods:affiliation>
+<mods:nameIdentifier id="3D8BFF687205D7E63C51E0AACB05C422" type="email">rafaelbioferreira@gmail.com</mods:nameIdentifier>
+</mods:name>
+<mods:name id="7BD8A2E3533F8181A6E9A0759B726E93" type="personal">
+<mods:role id="094CA4B3A29B2AFDE092CF527AAFD59D">
+<mods:roleTerm id="7154A86274F132A35EBD66B666382C23">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="9974CE8FE93DBA2E49430874810CC7F5">Guadanucci, José Paulo Leite</mods:namePart>
+<mods:nameIdentifier id="6A42FB622164B85A2599FDD34D96E918" type="LSID">D4955FF5-FE7F-4E68-AB2F-4A89593F9850</mods:nameIdentifier>
+<mods:affiliation id="458FBB4A05B47EF4AFCEFBBB56255AAA">Departamento de Ecologia, Evolução e Biodiversidade, Instituto de Biociências, Universidade Estadual Paulista, Avenida 24 A 1515, 13506 - 900 Rio Claro-SP, Brazil.</mods:affiliation>
+<mods:nameIdentifier id="FE617B3736D5B0972280132761B96252" type="email">jose.guadanucci@unesp.br</mods:nameIdentifier>
+</mods:name>
+<mods:name id="8DCB78864549F24C112A8E4715DF8FCB" type="personal">
+<mods:role id="C01DADC59C18A55DFC8E739A547EA6AC">
+<mods:roleTerm id="B70A8607C912049FA87923E094305316">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="C1C97BDA01AEA2A67DC0CE78FA53D9C4">Yamamoto, Flávio Uemori</mods:namePart>
+<mods:nameIdentifier id="D32D0E194ECBF0DAF6F9FD012681F0B8" type="LSID">86719D83-2F02-4122-8CCE-D0932A3206D0</mods:nameIdentifier>
+<mods:affiliation id="1C8FFAE21BEBF4A2D5F0133A44D3BF71">Laboratório de Coleções Zoológicas, Instituto Butantan, Av. Vital Brasil, 1500, Butantã, São Paulo, São Paulo, CEP 05503 - 900, Brazil.</mods:affiliation>
+<mods:nameIdentifier id="55BED2839D8A927A6FFC5C27CDCC9494" type="email">flayamamoto@gmail.com</mods:nameIdentifier>
+</mods:name>
+<mods:name id="0B666007362EF1C35D93871FAFE68486" type="personal">
+<mods:role id="3FB51482BE799BFD685019935D11CA35">
+<mods:roleTerm id="36C8DADE2A039B41C6C758508C9AC74B">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="372C07901901C02ED2D8257942DCDE89">Brescovit, Antonio Domingos</mods:namePart>
+<mods:nameIdentifier id="819EFD3AF7578AB4393716E83A533D62" type="LSID">D5B81D79-AFAE-47B1-8A6E-DAB448A24BCC</mods:nameIdentifier>
+<mods:affiliation id="A44DD8938CCEB1534B99AC9A15DABA7E">Laboratório de Coleções Zoológicas, Instituto Butantan, Av. Vital Brasil, 1500, Butantã, São Paulo, São Paulo, CEP 05503 - 900, Brazil.</mods:affiliation>
+<mods:nameIdentifier id="86A3D0FE71D2653B2B86F8E9B5F1B589" type="email">antonio.brescovit@butantan.gov.br</mods:nameIdentifier>
+</mods:name>
+<mods:typeOfResource id="616C8DBD017385A4C12D724B8B56557E">text</mods:typeOfResource>
+<mods:relatedItem id="27C3B59F3C00D1CD750F945A42E85DDE" type="host">
+<mods:titleInfo id="2A29577D447DEF158FAE7CA0CBB5FD2A">
+<mods:title id="81E1C5D873C5AC9F1157E6AA54C356E7">European Journal of Taxonomy</mods:title>
+</mods:titleInfo>
+<mods:part id="A29A180EC4874CB5CAC2B997C526070B">
+<mods:date id="CD3EE9EE36DCF658186DB0DD7E594BA3">2021</mods:date>
+<mods:detail id="3DE960C955AD7DBAC7F0A208E836A144" type="pubDate">
+<mods:number id="CC540D35C601AF0E76EB510D61A7541E">2021-11-25</mods:number>
+</mods:detail>
+<mods:detail id="2F4C835BE8BF0F4B59A2247B06FE299F" type="volume">
+<mods:number id="36E0207952AFAB926D6DA3BBE7259767">780</mods:number>
+</mods:detail>
+<mods:detail id="5C371EF99C7B1AD9E99BDAF8A94D9DDE" type="issue">
+<mods:number id="03368394E0A3079ACE1911981503EDC0">1</mods:number>
+</mods:detail>
+<mods:extent id="3B3AF639851AF5C9543869E82F2E859B" unit="page">
+<mods:start id="999F70AE3FE2C651E93E32E55FED4CA8">1</mods:start>
+<mods:end id="7D0144EBF17E8B6AE21A7361FDF57B55">71</mods:end>
+</mods:extent>
+</mods:part>
+</mods:relatedItem>
+<mods:location id="625FBB9F1886CB08A8FAC24438AC1953">
+<mods:url id="8FF79074B1B4F8B401B8EDE316E2B545">http://dx.doi.org/10.5852/ejt.2021.780.1581</mods:url>
+</mods:location>
+<mods:classification id="C9BC7CFF32A136621E068771600CB51D">journal article</mods:classification>
+<mods:identifier id="E8C3B14274DACE6A12FA03FEA713D57F" type="DOI">10.5852/ejt.2021.780.1581</mods:identifier>
+<mods:identifier id="53DB4B764076C9F88998485922694EDF" type="GBIF-Dataset">41b8f51f-1d31-44c0-851e-2697e4e9497f</mods:identifier>
+<mods:identifier id="D3DF17961662052D9ABFAE05451D5020" type="ISSN">2118-9773</mods:identifier>
+<mods:identifier id="E67F82A7B10FEC70DDD5CBAC3B663491" type="Zenodo-Dep">5761280</mods:identifier>
+<mods:identifier id="221E1FD0B36992D9E153C71B72417900" type="ZooBank">932663A6-D83D-49E0-B1F7-87F7DA8DC086</mods:identifier>
+</mods:mods>
+<treatment id="03B4126EE84EFF88EDEAFC86FC8AFD4B" ID-DOI="http://doi.org/10.5281/zenodo.5762239" ID-GBIF-Taxon="191142501" ID-Zenodo-Dep="5762239" LSID="urn:lsid:plazi:treatment:03B4126EE84EFF88EDEAFC86FC8AFD4B" httpUri="http://treatment.plazi.org/id/03B4126EE84EFF88EDEAFC86FC8AFD4B" lastPageId="39" lastPageNumber="40" pageId="35" pageNumber="36">
+<subSubSection id="C307F0F3E84EFF8CEDEAFC86FB07FC7E" box="[423,1165,876,904]" pageId="35" pageNumber="36" type="nomenclature">
+<paragraph id="8BA2A378E84EFF8CEDEAFC86FB07FC7E" blockId="35.[368,1219,876,974]" box="[423,1165,876,904]" pageId="35" pageNumber="36">
+<heading id="D0EA1414E84EFF8CEDEAFC86FB07FC7E" box="[423,1165,876,904]" centered="true" fontSize="11" level="2" pageId="35" pageNumber="36" reason="2">
+<taxonomicName id="4C1DD8FBE84EFF8CEDEAFC86FBA0FC71" authority="Fonseca-Ferreira, Guadanucci &amp; Brescovit" authorityName="Fonseca-Ferreira, Guadanucci &amp; Brescovit" authorityYear="2021" box="[423,1066,876,903]" class="Arachnida" family="Idiopidae" genus="Idiops" kingdom="Animalia" order="Araneae" pageId="35" pageNumber="36" phylum="Arthropoda" rank="species" species="guri" status="sp. nov.">
+<emphasis id="B9697F6AE84EFF8CEDEAFC86FDA6FC71" bold="true" box="[423,556,876,903]" italics="true" pageId="35" pageNumber="36">Idiops guri</emphasis>
+Fonseca-Ferreira, Guadanucci &amp; Brescovit
+</taxonomicName>
+<taxonomicNameLabel id="A25AC211E84EFF8CE87FFC84FB07FC7E" box="[1074,1165,878,904]" pageId="35" pageNumber="36" rank="species">sp. nov.</taxonomicNameLabel>
+</heading>
+</paragraph>
+</subSubSection>
+<subSubSection id="C307F0F3E84EFF8CED3DFC7AFCF9FC38" pageId="35" pageNumber="36" type="description">
+<paragraph id="8BA2A378E84EFF8CED3DFC7AFB49FC5D" blockId="35.[368,1219,876,974]" box="[368,1219,912,939]" pageId="35" pageNumber="36">
+<uri id="FF8CAF7AE84EFF8CED3DFC7AFB49FC5D" box="[368,1219,912,939]" pageId="35" pageNumber="36">
+urn:lsid:zoobank.org:act: 
+<uuid id="FFBB99ADE84EFF8CEEC2FC7AFB49FC5D" box="[655,1219,912,939]" pageId="35" pageNumber="36">A7664A49-43C0-4157-BC48-B98BFB58252B</uuid>
+</uri>
+</paragraph>
+<paragraph id="8BA2A378E84EFF8CEE8DFC5EFCF9FC38" blockId="35.[368,1219,876,974]" box="[704,883,948,974]" pageId="35" pageNumber="36">
+<figureCitation id="1326BFFDE84EFF8CEE8DFC5EFC94FC38" box="[704,798,948,974]" captionStart="Fig" captionStartId="7.[191,234,1997,2023]" captionTargetBox="[212,1387,687,1932]" captionTargetId="figure-145@7.[189,1398,648,1958]" captionTargetPageId="7" captionText="Fig. 3. Distribution of species of Idiops Perty, 1833 in the Neotropical region (part)." figureDoi="http://doi.org/10.5281/zenodo.5761286" httpUri="https://zenodo.org/record/5761286/files/figure.png" pageId="35" pageNumber="36">Figs 3C</figureCitation>
+, 
+<figureCitation id="1326BFFDE84EFF8CEF67FC5EFCF9FC38" box="[810,883,948,974]" captionStart-0="Fig" captionStart-1="Fig" captionStartId-0="37.[189,232,1778,1804]" captionStartId-1="38.[189,231,1857,1883]" captionTargetBox-0="[189,1398,265,1740]" captionTargetBox-1="[189,1398,1126,1818]" captionTargetId-0="figure-11@37.[189,1398,265,1740]" captionTargetId-1="figure-277@38.[189,1398,1126,1818]" captionTargetPageId-0="37" captionTargetPageId-1="38" captionText-0="Fig. 20. Idiops guri Fonseca-Ferreira, Guadanucci &amp; Brescovit sp. nov. A–I. ♂, holotype (MCN 39594). A. Prosoma (dorsal view). B. Prosoma (ventral view).C. Part of palp (retrolateral view). D–F. Palpal bulb. D. Dorsal view. E. Retrolateral view.F. Prolateral view. G. Tibia, metatarsus and tarsus I (prolateral view). H. Tibial apophysis (prolateral view). I. Tibial apophysis and metatarsus I (dorsal view). J–L. ♀ (MCTP 23469). J. Prosoma (dorsal view). K. Prosoma (ventral view). L. Genitalia (dorsal view). Abbreviations: EL = embolar lamella; K = keel. Scale bars: A–G, I–L = 1 mm; H = 0.5 mm." captionText-1="Fig. 21. Scanning electron micrographs of Idiops guri Fonseca-Ferreira, Guadanucci &amp; Brescovit sp. nov., ♂ (IBSP 220523). A. Chelicera (retrolateral view). B. Rastellum (retrolateral view). C. Tibial apophysis (dorsal view). D. Part of the palp, showing retrolateral depression. E–F. Detail of the final portion of the embolus in prolateral view. Abbreviation: EL = embolar lamella. The arrow indicates the hook-shaped projection near the sperm duct. Scale bars: A = 0.4 mm; B, E–F = 0.2 mm; C = 0.3 mm; D = 1 mm." figureDoi-0="http://doi.org/10.5281/zenodo.5761324" figureDoi-1="http://doi.org/10.5281/zenodo.5761326" httpUri-0="https://zenodo.org/record/5761324/files/figure.png" httpUri-1="https://zenodo.org/record/5761326/files/figure.png" pageId="35" pageNumber="36">20–21</figureCitation>
+</paragraph>
+</subSubSection>
+<subSubSection id="C307F0F3E84EFF8CECF0FC1CFC72FB07" pageId="35" pageNumber="36" type="diagnosis">
+<paragraph id="8BA2A378E84EFF8CECF0FC1CFEBCFBE6" blockId="35.[189,310,1014,1040]" box="[189,310,1014,1040]" pageId="35" pageNumber="36">
+<heading id="D0EA1414E84EFF8CECF0FC1CFEBCFBE6" bold="true" box="[189,310,1014,1040]" fontSize="11" level="3" pageId="35" pageNumber="36" reason="3">
+<emphasis id="B9697F6AE84EFF8CECF0FC1CFEBCFBE6" bold="true" box="[189,310,1014,1040]" pageId="35" pageNumber="36">Diagnosis</emphasis>
+</heading>
+</paragraph>
+<paragraph id="8BA2A378E84EFF8CECF0FBCFFC72FB07" blockId="35.[188,1398,1061,1265]" pageId="35" pageNumber="36">
+The male of 
+<taxonomicName id="4C1DD8FBE84EFF8CED01FBCFFE47FBC9" authority="Fonseca-Ferreira &amp; Guadanucci &amp; Yamamoto &amp; Brescovit, 2021" authorityName="Fonseca-Ferreira &amp; Guadanucci &amp; Yamamoto &amp; Brescovit" authorityYear="2021" box="[332,461,1061,1087]" class="Arachnida" family="Idiopidae" genus="Idiops" kingdom="Animalia" order="Araneae" pageId="35" pageNumber="36" phylum="Arthropoda" rank="species" species="guri" status="sp. nov.">
+<emphasis id="B9697F6AE84EFF8CED01FBCFFE47FBC9" box="[332,461,1061,1087]" italics="true" pageId="35" pageNumber="36">Idiops guri</emphasis>
+</taxonomicName>
+<taxonomicNameLabel id="A25AC211E84EFF8CED9EFBCFFDA7FBC9" box="[467,557,1061,1087]" pageId="35" pageNumber="36" rank="species">sp. nov.</taxonomicNameLabel>
+differs from those of other Neotropical species by having the palpal tibia with the retrolateral depression shallow and delimited by spines of decreasing lengths towards the apical portion (
+<figureCitation id="1326BFFDE84EFF8CED6CFB86FE1AFB70" box="[289,400,1132,1158]" captionStart="Fig" captionStartId="37.[189,232,1778,1804]" captionTargetBox="[189,1398,265,1740]" captionTargetId="figure-11@37.[189,1398,265,1740]" captionTargetPageId="37" captionText="Fig. 20. Idiops guri Fonseca-Ferreira, Guadanucci &amp; Brescovit sp. nov. A–I. ♂, holotype (MCN 39594). A. Prosoma (dorsal view). B. Prosoma (ventral view).C. Part of palp (retrolateral view). D–F. Palpal bulb. D. Dorsal view. E. Retrolateral view.F. Prolateral view. G. Tibia, metatarsus and tarsus I (prolateral view). H. Tibial apophysis (prolateral view). I. Tibial apophysis and metatarsus I (dorsal view). J–L. ♀ (MCTP 23469). J. Prosoma (dorsal view). K. Prosoma (ventral view). L. Genitalia (dorsal view). Abbreviations: EL = embolar lamella; K = keel. Scale bars: A–G, I–L = 1 mm; H = 0.5 mm." figureDoi="http://doi.org/10.5281/zenodo.5761324" httpUri="https://zenodo.org/record/5761324/files/figure.png" pageId="35" pageNumber="36">Figs 20C</figureCitation>
+, 
+<figureCitation id="1326BFFDE84EFF8CEDD0FB86FE5BFB70" box="[413,465,1132,1158]" captionStart="Fig" captionStartId="38.[189,231,1857,1883]" captionTargetBox="[189,1398,1126,1818]" captionTargetId="figure-277@38.[189,1398,1126,1818]" captionTargetPageId="38" captionText="Fig. 21. Scanning electron micrographs of Idiops guri Fonseca-Ferreira, Guadanucci &amp; Brescovit sp. nov., ♂ (IBSP 220523). A. Chelicera (retrolateral view). B. Rastellum (retrolateral view). C. Tibial apophysis (dorsal view). D. Part of the palp, showing retrolateral depression. E–F. Detail of the final portion of the embolus in prolateral view. Abbreviation: EL = embolar lamella. The arrow indicates the hook-shaped projection near the sperm duct. Scale bars: A = 0.4 mm; B, E–F = 0.2 mm; C = 0.3 mm; D = 1 mm." figureDoi="http://doi.org/10.5281/zenodo.5761326" httpUri="https://zenodo.org/record/5761326/files/figure.png" pageId="35" pageNumber="36">21D</figureCitation>
+) and by the presence of a hook-shaped projection near the sperm duct opening in retroventral view (
+<figureCitation id="1326BFFDE84EFF8CEDF6FB65FDCCFB5C" box="[443,582,1167,1194]" captionStart="Fig" captionStartId="38.[189,231,1857,1883]" captionTargetBox="[189,1398,1126,1818]" captionTargetId="figure-277@38.[189,1398,1126,1818]" captionTargetPageId="38" captionText="Fig. 21. Scanning electron micrographs of Idiops guri Fonseca-Ferreira, Guadanucci &amp; Brescovit sp. nov., ♂ (IBSP 220523). A. Chelicera (retrolateral view). B. Rastellum (retrolateral view). C. Tibial apophysis (dorsal view). D. Part of the palp, showing retrolateral depression. E–F. Detail of the final portion of the embolus in prolateral view. Abbreviation: EL = embolar lamella. The arrow indicates the hook-shaped projection near the sperm duct. Scale bars: A = 0.4 mm; B, E–F = 0.2 mm; C = 0.3 mm; D = 1 mm." figureDoi="http://doi.org/10.5281/zenodo.5761326" httpUri="https://zenodo.org/record/5761326/files/figure.png" pageId="35" pageNumber="36">Fig. 21E–F</figureCitation>
+). The female differs from the other species by the horseshoe-shaped spermathecae, with ducts curved inward and with sclerotization at the transition between the duct and the receptacle, and oval and weakly sclerotized receptacles (
+<figureCitation id="1326BFFDE84EFF8CEFCCFB3DFC66FB07" box="[897,1004,1239,1265]" captionStart="Fig" captionStartId="37.[189,232,1778,1804]" captionTargetBox="[189,1398,265,1740]" captionTargetId="figure-11@37.[189,1398,265,1740]" captionTargetPageId="37" captionText="Fig. 20. Idiops guri Fonseca-Ferreira, Guadanucci &amp; Brescovit sp. nov. A–I. ♂, holotype (MCN 39594). A. Prosoma (dorsal view). B. Prosoma (ventral view).C. Part of palp (retrolateral view). D–F. Palpal bulb. D. Dorsal view. E. Retrolateral view.F. Prolateral view. G. Tibia, metatarsus and tarsus I (prolateral view). H. Tibial apophysis (prolateral view). I. Tibial apophysis and metatarsus I (dorsal view). J–L. ♀ (MCTP 23469). J. Prosoma (dorsal view). K. Prosoma (ventral view). L. Genitalia (dorsal view). Abbreviations: EL = embolar lamella; K = keel. Scale bars: A–G, I–L = 1 mm; H = 0.5 mm." figureDoi="http://doi.org/10.5281/zenodo.5761324" httpUri="https://zenodo.org/record/5761324/files/figure.png" pageId="35" pageNumber="36">Fig. 20L</figureCitation>
+).
+</paragraph>
+</subSubSection>
+<subSubSection id="C307F0F3E84EFF8CECF0FAF3FD44FA5E" pageId="35" pageNumber="36" type="etymology">
+<paragraph id="8BA2A378E84EFF8CECF0FAF3FECEFAC5" blockId="35.[189,324,1305,1331]" box="[189,324,1305,1331]" pageId="35" pageNumber="36">
+<heading id="D0EA1414E84EFF8CECF0FAF3FECEFAC5" bold="true" box="[189,324,1305,1331]" fontSize="11" level="3" pageId="35" pageNumber="36" reason="3">
+<emphasis id="B9697F6AE84EFF8CECF0FAF3FECEFAC5" bold="true" box="[189,324,1305,1331]" pageId="35" pageNumber="36">Etymology</emphasis>
+</heading>
+</paragraph>
+<paragraph id="8BA2A378E84EFF8CECF0FAADFD44FA5E" blockId="35.[189,1399,1351,1449]" pageId="35" pageNumber="36">
+The specific epithet is a tribute to southern 
+<collectingCountry id="F30AE3E8E84EFF8CEEFBFAADFC8BFA97" box="[694,769,1351,1377]" name="Brazil" pageId="35" pageNumber="36">Brazil</collectingCountry>
+, the region where the species is distributed. The word ʻguriʼ, which is of Tupi-Guarani origin, is commonly used in the region to refer to a child or a lad. It also alludes to the tiny size of the specimens.
+</paragraph>
+</subSubSection>
+<subSubSection id="C307F0F3E84EFF8BECF0FA3AFE19FA8D" lastPageId="36" lastPageNumber="37" pageId="35" pageNumber="36" type="materials_examined">
+<paragraph id="8BA2A378E84EFF8CECF0FA3AFEE6FA1C" blockId="35.[189,364,1488,1514]" box="[189,364,1488,1514]" pageId="35" pageNumber="36">
+<heading id="D0EA1414E84EFF8CECF0FA3AFEE6FA1C" bold="true" box="[189,364,1488,1514]" fontSize="11" level="3" pageId="35" pageNumber="36" reason="3">
+<emphasis id="B9697F6AE84EFF8CECF0FA3AFEE6FA1C" bold="true" box="[189,364,1488,1514]" pageId="35" pageNumber="36">Type material</emphasis>
+</heading>
+</paragraph>
+<paragraph id="8BA2A378E84EFF8CECA7FA15FA9EF997" blockId="35.[189,1398,1535,1633]" pageId="35" pageNumber="36">
+<materialsCitation id="3B75A925E84EFF8CECA7FA15FA9EF997" ID-GBIF-Occurrence="3414941657" accessionNumber="MCN 39594" collectingDate="2001-05-01" collectionCode="MCN" collectorName="R. Ott" country="Brazil" county="Sao Francisco de Paula" latitude="-29.583334" location="Cento de Pesquisas e Conservacao da Natureza Pro Mata" longLatPrecision="1226" longitude="-50.25" municipality="Cento de Pesquisas" pageId="35" pageNumber="36" specimenCode="MCN 39594" specimenCount="1" specimenCount-male="1" stateProvince="Rio Grande do Sul" typeStatus="holotype">
+<emphasis id="B9697F6AE84EFF8CECA7FA15FED6F9EF" bold="true" box="[234,348,1535,1561]" pageId="35" pageNumber="36">
+<typeStatus id="54A61DDAE84EFF8CECA7FA15FED6F9EF" box="[234,348,1535,1561]" pageId="35" pageNumber="36">Holotype</typeStatus>
+</emphasis>
+<collectingCountry id="F30AE3E8E84EFF8CECF0F9C9FEA2F9CB" box="[189,296,1571,1597]" name="Brazil" pageId="35" pageNumber="36">BRAZIL</collectingCountry>
+– 
+<emphasis id="B9697F6AE84EFF8CED04F9C9FDB6F9CA" bold="true" box="[329,572,1570,1597]" pageId="35" pageNumber="36">
+<collectingRegion id="49D96D9AE84EFF8CED04F9C9FDB6F9CA" box="[329,572,1570,1597]" country="Brazil" name="Rio Grande do Sul" pageId="35" pageNumber="36">Rio Grande do Sul</collectingRegion>
+</emphasis>
+• 
+<specimenCount id="9D1B68F1E84EFF8CEE14F9C9FDF8F9CB" box="[601,626,1571,1597]" pageId="35" pageNumber="36" type="male">♂</specimenCount>
+; 
+<collectingCounty id="62C3DBF4E84EFF8CEECCF9C9FC15F9CB" box="[641,927,1571,1597]" pageId="35" pageNumber="36">São Francisco de Paula</collectingCounty>
+, 
+<location id="8EC2F5A3E84EFF8CEFE0F9C9FE14F997" LSID="urn:lsid:plazi:treatment:03B4126EE84EFF88EDEAFC86FC8AFD4B:8EC2F5A3E84EFF8CEFE0F9C9FE14F997" country="Brazil" county="Sao Francisco de Paula" latitude="-29.583334" longLatPrecision="1226" longitude="-50.25" municipality="Cento de Pesquisas" name="Cento de Pesquisas e Conservacao da Natureza Pro Mata" pageId="35" pageNumber="36" stateProvince="Rio Grande do Sul">Cento de Pesquisas e Conservação da Natureza Pró Mata</location>
+; 29°27′– 
+<geoCoordinate id="EE29C5BFE84EFF8CEE4AF9AFFDE6F997" box="[519,620,1605,1633]" degrees="29" direction="south" minutes="35" orientation="latitude" pageId="35" pageNumber="36" precision="925" value="-29.583334">29°35′ S</geoCoordinate>
+, 50°08′– 
+<geoCoordinate id="EE29C5BFE84EFF8CEE9AF9AFFCCCF997" box="[727,838,1605,1633]" degrees="50" direction="west" minutes="15" orientation="longitude" pageId="35" pageNumber="36" precision="925" value="-50.25">50°15′ W</geoCoordinate>
+; 
+<date id="FFA385B8E84EFF8CEF1FF9ADFC69F997" box="[850,995,1607,1633]" pageId="35" pageNumber="36" value="2001-05-01">
+<collectingDate id="EFE77C50E84EFF8CEF1FF9ADFC69F997" box="[850,995,1607,1633]" pageId="35" pageNumber="36" value="2001-05-01">1 May 2001</collectingDate>
+</date>
+; 
+<collectorName id="26E8C6AEE84EFF8CEFA2F9ADFBBCF997" box="[1007,1078,1607,1633]" pageId="35" pageNumber="36">R. Ott</collectorName>
+leg.; 
+<specimenCode id="DBBB0B03E84EFF8CE834F9ADFA9AF997" box="[1145,1296,1606,1633]" pageId="35" pageNumber="36">MCN 39594</specimenCode>
+.
+</materialsCitation>
+</paragraph>
+<paragraph id="8BA2A378E84EFF8CECA7F962FE15F8A2" blockId="35.[189,1399,1672,1876]" pageId="35" pageNumber="36">
+<materialsCitation id="3B75A925E84EFF8CECA7F962FDD3F91F" ID-GBIF-Occurrence="3414941385" collectingDate="1999-01-05" collectionCode="MCTP" collectorName="J. Lopes &amp; I. M. Madri" country="Brazil" latitude="-23.433332" location="Parque dos Godoy" longLatPrecision="1256" longitude="-51.25" municipality="Londrina" pageId="35" pageNumber="36" specimenCode="MCTP 11840" specimenCount="1" specimenCount-male="1" stateProvince="Parana" typeStatus="paratype">
+<emphasis id="B9697F6AE84EFF8CECA7F962FEEDF954" bold="true" box="[234,359,1672,1698]" pageId="35" pageNumber="36">
+<typeStatus id="54A61DDAE84EFF8CECA7F962FEEDF954" box="[234,359,1672,1698]" pageId="35" pageNumber="36">Paratypes</typeStatus>
+</emphasis>
+<collectingCountry id="F30AE3E8E84EFF8CECF0F946FEA2F930" box="[189,296,1708,1734]" name="Brazil" pageId="35" pageNumber="36">BRAZIL</collectingCountry>
+– 
+<emphasis id="B9697F6AE84EFF8CED04F941FE2CF930" bold="true" box="[329,422,1707,1734]" pageId="35" pageNumber="36">
+<collectingRegion id="49D96D9AE84EFF8CED04F941FE2CF930" box="[329,422,1707,1734]" country="Brazil" name="Parana" pageId="35" pageNumber="36">Paraná</collectingRegion>
+</emphasis>
+• 
+<specimenCount id="9D1B68F1E84EFF8CED89F946FE7FF930" box="[452,501,1708,1734]" pageId="35" pageNumber="36" type="male">1 ♂</specimenCount>
+; 
+<collectingMunicipality id="6BC63902E84EFF8CEE49F946FDFFF930" box="[516,629,1708,1734]" pageId="35" pageNumber="36">Londrina</collectingMunicipality>
+, 
+<location id="8EC2F5A3E84EFF8CEECEF946FCEDF930" LSID="urn:lsid:plazi:treatment:03B4126EE84EFF88EDEAFC86FC8AFD4B:8EC2F5A3E84EFF8CEECEF946FCEDF930" box="[643,871,1708,1734]" country="Brazil" latitude="-23.433332" longLatPrecision="1256" longitude="-51.25" municipality="Londrina" name="Parque dos Godoy" pageId="35" pageNumber="36" stateProvince="Parana">Parque dos Godoy</location>
+; 
+<geoCoordinate id="EE29C5BFE84EFF8CEF38F940FC55F930" box="[885,991,1706,1734]" degrees="23" direction="south" minutes="26" orientation="latitude" pageId="35" pageNumber="36" precision="925" value="-23.433332">23°26′ S</geoCoordinate>
+, 
+<geoCoordinate id="EE29C5BFE84EFF8CEFA3F940FBEFF930" box="[1006,1125,1706,1734]" degrees="51" direction="west" minutes="15" orientation="longitude" pageId="35" pageNumber="36" precision="925" value="-51.25">51°15′ W</geoCoordinate>
+; 
+<date id="FFA385B8E84EFF8CE83FF946FA88F930" box="[1138,1282,1708,1735]" pageId="35" pageNumber="36" value="1999-01-05">
+<collectingDate id="EFE77C50E84EFF8CE83FF946FA88F930" box="[1138,1282,1708,1735]" pageId="35" pageNumber="36" value="1999-01-05">5 Jan. 1999</collectingDate>
+</date>
+; 
+<collectorName id="26E8C6AEE84EFF8CE95CF946FAFCF930" box="[1297,1398,1708,1734]" pageId="35" pageNumber="36">J. Lopes</collectorName>
+and 
+<collectorName id="26E8C6AEE84EFF8CECBDF93AFEF9F91F" box="[240,371,1743,1770]" pageId="35" pageNumber="36">I.M. Madri</collectorName>
+leg.; 
+<specimenCode id="DBBB0B03E84EFF8CEDFBF925FDD3F91F" box="[438,601,1743,1769]" collectionCode="MCTP" country="Brazil" httpUri="http://grbio.org/cool/rq94-ajyg" name="Museu de Ciencias" pageId="35" pageNumber="36">MCTP 11840</specimenCode>
+</materialsCitation>
+. – 
+<materialsCitation id="3B75A925E84EFF8CEE31F925FBD0F8FB" ID-GBIF-Occurrence="3414941474" collectingDate="2004-03-10" collectionCode="IBSP" collectorName="M. Scartezini" country="Brazil" latitude="-27.102917" location="Floresta Nacional de Chapeco" longLatPrecision="1" longitude="-52.780224" municipality="Chapeco" pageId="35" pageNumber="36" specimenCode="IBSP 126721" specimenCount="1" specimenCount-male="1" stateProvince="Santa Catarina" typeStatus="paratype">
+<emphasis id="B9697F6AE84EFF8CEE31F925FCB6F91F" bold="true" box="[636,828,1743,1769]" pageId="35" pageNumber="36">
+<collectingRegion id="49D96D9AE84EFF8CEE31F925FCB6F91F" box="[636,828,1743,1769]" country="Brazil" name="Santa Catarina" pageId="35" pageNumber="36">Santa Catarina</collectingRegion>
+</emphasis>
+• 
+<specimenCount id="9D1B68F1E84EFF8CEF1AF925FC0DF91C" box="[855,903,1743,1770]" pageId="35" pageNumber="36" type="male">1 ♂</specimenCount>
+; 
+<collectingMunicipality id="6BC63902E84EFF8CEFD8F925FC75F91F" box="[917,1023,1743,1769]" pageId="35" pageNumber="36">Chapecó</collectingMunicipality>
+, 
+<location id="8EC2F5A3E84EFF8CE846F925FAF8F91F" LSID="urn:lsid:plazi:treatment:03B4126EE84EFF88EDEAFC86FC8AFD4B:8EC2F5A3E84EFF8CE846F925FAF8F91F" box="[1035,1394,1743,1769]" country="Brazil" latitude="-27.102917" longLatPrecision="1" longitude="-52.780224" municipality="Chapeco" name="Floresta Nacional de Chapeco" pageId="35" pageNumber="36" stateProvince="Santa Catarina">Floresta Nacional de Chapecó</location>
+; 
+<geoCoordinate id="EE29C5BFE84EFF8CECF0F91BFEE9F8FB" box="[189,355,1777,1805]" degrees="27" direction="south" minutes="06" orientation="latitude" pageId="35" pageNumber="36" precision="1" seconds="10.5" value="-27.102917">27°06′10.5″ S</geoCoordinate>
+, 
+<geoCoordinate id="EE29C5BFE84EFF8CED3DF91BFDABF8FB" box="[368,545,1777,1805]" degrees="52" direction="west" minutes="46" orientation="longitude" pageId="35" pageNumber="36" precision="1" seconds="48.8" value="-52.780224">52°46′48.8″ W</geoCoordinate>
+; 
+<date id="FFA385B8E84EFF8CEE60F919FD44F8FB" box="[557,718,1779,1805]" pageId="35" pageNumber="36" value="2004-03-10">
+<collectingDate id="EFE77C50E84EFF8CEE60F919FD44F8FB" box="[557,718,1779,1805]" pageId="35" pageNumber="36" value="2004-03-10">10 Mar. 2004</collectingDate>
+</date>
+; 
+<collectorName id="26E8C6AEE84EFF8CEE97F919FCF2F8FB" box="[730,888,1779,1805]" pageId="35" pageNumber="36">M. Scartezini</collectorName>
+leg.; 
+<specimenCode id="DBBB0B03E84EFF8CEFF7F919FBD0F8FB" box="[954,1114,1779,1805]" collectionCode="IBSP" country="Brazil" httpUri="http://grbio.org/cool/23qr-v2gj" name="Instituto Biologico de Sao Paulo" pageId="35" pageNumber="36">IBSP 126721</specimenCode>
+</materialsCitation>
+. – 
+<materialsCitation id="3B75A925E84EFF8CE836F919FE11F8A2" ID-GBIF-Occurrence="3414941303" collectingDate="2004-05-28" collectionCode="MCTP" collectorName="A. C. K. Ferreira" country="Brazil" latitude="-30.368334" location="Parque Estadual de Itapua" longLatPrecision="20" longitude="-50.99778" municipality="Viamao" pageId="35" pageNumber="36" specimenCode="MCTP 16937" specimenCount="1" specimenCount-male="1" stateProvince="Rio Grande do Sul" typeStatus="paratype">
+<emphasis id="B9697F6AE84EFF8CE836F919FAEFF8FB" bold="true" box="[1147,1381,1779,1805]" pageId="35" pageNumber="36">
+<collectingRegion id="49D96D9AE84EFF8CE836F919FAEFF8FB" box="[1147,1381,1779,1805]" country="Brazil" name="Rio Grande do Sul" pageId="35" pageNumber="36">Rio Grande do Sul</collectingRegion>
+</emphasis>
+• 
+<specimenCount id="9D1B68F1E84EFF8CECF0F8FDFF66F8C7" box="[189,236,1815,1841]" pageId="35" pageNumber="36" type="male">1 ♂</specimenCount>
+; 
+<collectingMunicipality id="6BC63902E84EFF8CECBAF8FCFEDFF8C6" box="[247,341,1814,1840]" pageId="35" pageNumber="36">Viamão</collectingMunicipality>
+, 
+<location id="8EC2F5A3E84EFF8CED2CF8FDFD1FF8C7" LSID="urn:lsid:plazi:treatment:03B4126EE84EFF88EDEAFC86FC8AFD4B:8EC2F5A3E84EFF8CED2CF8FDFD1FF8C7" box="[353,661,1814,1841]" country="Brazil" latitude="-30.368334" longLatPrecision="20" longitude="-50.99778" municipality="Viamao" name="Parque Estadual de Itapua" pageId="35" pageNumber="36" stateProvince="Rio Grande do Sul">Parque Estadual de Itapuã</location>
+; 
+<geoCoordinate id="EE29C5BFE84EFF8CEEEDF8FFFCABF8C7" box="[672,801,1813,1841]" degrees="30" direction="south" minutes="22" orientation="latitude" pageId="35" pageNumber="36" precision="15" seconds="6" value="-30.368334">30°22′6″ S</geoCoordinate>
+, 
+<geoCoordinate id="EE29C5BFE84EFF8CEF63F8FFFC42F8C7" box="[814,968,1813,1841]" degrees="50" direction="west" minutes="59" orientation="longitude" pageId="35" pageNumber="36" precision="15" seconds="52" value="-50.99778">50°59′52″ W</geoCoordinate>
+; 
+<date id="FFA385B8E84EFF8CEF99F8FDFBF9F8C7" box="[980,1139,1815,1841]" pageId="35" pageNumber="36" value="2004-05-28">
+<collectingDate id="EFE77C50E84EFF8CEF99F8FDFBF9F8C7" box="[980,1139,1815,1841]" pageId="35" pageNumber="36" value="2004-05-28">28 May 2004</collectingDate>
+</date>
+; 
+<collectorName id="26E8C6AEE84EFF8CE830F8FDFABFF8C6" box="[1149,1333,1814,1841]" pageId="35" pageNumber="36">A.C.K. Ferreira</collectorName>
+<emphasis id="B9697F6AE84EFF8CE971F8FDFAFDF8C6" box="[1340,1399,1814,1840]" italics="true" pageId="35" pageNumber="36">et al.</emphasis>
+leg.; 
+<specimenCode id="DBBB0B03E84EFF8CECB5F8D0FE11F8A2" box="[248,411,1850,1876]" collectionCode="MCTP" country="Brazil" httpUri="http://grbio.org/cool/rq94-ajyg" name="Museu de Ciencias" pageId="35" pageNumber="36">MCTP 16937</specimenCode>
+</materialsCitation>
+.
+</paragraph>
+<paragraph id="8BA2A378E84EFF8CECF0F896FE73F860" blockId="35.[189,505,1916,1942]" box="[189,505,1916,1942]" pageId="35" pageNumber="36">
+<heading id="D0EA1414E84EFF8CECF0F896FE73F860" bold="true" box="[189,505,1916,1942]" fontSize="11" level="3" pageId="35" pageNumber="36" reason="3">
+<emphasis id="B9697F6AE84EFF8CECF0F896FE73F860" bold="true" box="[189,505,1916,1942]" pageId="35" pageNumber="36">Other material examined</emphasis>
+</heading>
+</paragraph>
+<paragraph id="8BA2A378E84EFF8BECF0F841FE19FA8D" blockId="35.[189,1399,1961,2025]" lastBlockId="36.[188,1399,263,1403]" lastPageId="36" lastPageNumber="37" pageId="35" pageNumber="36">
+<materialsCitation id="3B75A925E84EFF8CECF0F841FCBCF81F" ID-GBIF-Occurrence="3414941465" collectingDate="2009" collectionCode="SEM" collectorName="J. L. Chavari" country="Brazil" latitude="-28.146473" location="Parque Estadual Mata Sao Francisco" longLatPrecision="1" longitude="-50.572083" municipality="Cornelio Procopio" pageId="35" pageNumber="36" specimenCode="IBSP 220523" specimenCount="2" specimenCount-male="2" stateProvince="Parana">
+<collectingCountry id="F30AE3E8E84EFF8CECF0F841FEAEF833" box="[189,292,1963,1989]" name="Brazil" pageId="35" pageNumber="36">BRAZIL</collectingCountry>
+– 
+<emphasis id="B9697F6AE84EFF8CED70F840FE1CF833" bold="true" box="[317,406,1962,1989]" pageId="35" pageNumber="36">
+<collectingRegion id="49D96D9AE84EFF8CED70F840FE1CF833" box="[317,406,1962,1989]" country="Brazil" name="Parana" pageId="35" pageNumber="36">Paraná</collectingRegion>
+</emphasis>
+• 
+<specimenCount id="9D1B68F1E84EFF8CEDE7F841FE63F833" box="[426,489,1963,1989]" pageId="35" pageNumber="36" type="male">2 ♂♂</specimenCount>
+(SEM); 
+<collectingMunicipality id="6BC63902E84EFF8CEE07F841FC94F833" box="[586,798,1963,1989]" pageId="35" pageNumber="36">Cornélio Procópio</collectingMunicipality>
+, 
+<location id="8EC2F5A3E84EFF8CEF6AF841FB42F833" LSID="urn:lsid:plazi:treatment:03B4126EE84EFF88EDEAFC86FC8AFD4B:8EC2F5A3E84EFF8CEF6AF841FB42F833" box="[807,1224,1963,1989]" country="Brazil" latitude="-28.146473" longLatPrecision="1" longitude="-50.572083" municipality="Cornelio Procopio" name="Parque Estadual Mata Sao Francisco" pageId="35" pageNumber="36" stateProvince="Parana">Parque Estadual Mata São Francisco</location>
+; 
+<geoCoordinate id="EE29C5BFE84EFF8CE89CF843FAFBF833" box="[1233,1393,1961,1989]" degrees="28" direction="south" minutes="08" orientation="latitude" pageId="35" pageNumber="36" precision="1" seconds="47.3" value="-28.146473">28°08′47.3″ S</geoCoordinate>
+, 
+<geoCoordinate id="EE29C5BFE84EFF8CECF0F827FEE5F81F" box="[189,367,1997,2025]" degrees="50" direction="west" minutes="34" orientation="longitude" pageId="35" pageNumber="36" precision="1" seconds="19.5" value="-50.572083">50°34′19.5″ W</geoCoordinate>
+; 
+<collectingDate id="EFE77C50E84EFF8CED36F824FE33F81E" box="[379,441,1998,2024]" pageId="35" pageNumber="36">2009</collectingDate>
+; 
+<collectorName id="26E8C6AEE84EFF8CED8BF825FDDDF81E" box="[454,599,1998,2025]" pageId="35" pageNumber="36">J.L. Chavari</collectorName>
+leg.; 
+<specimenCode id="DBBB0B03E84EFF8CEED4F824FCBCF81F" box="[665,822,1998,2025]" collectionCode="IBSP" country="Brazil" httpUri="http://grbio.org/cool/23qr-v2gj" name="Instituto Biologico de Sao Paulo" pageId="35" pageNumber="36">IBSP 220523</specimenCode>
+</materialsCitation>
+• 
+<materialsCitation id="3B75A925E84EFF8BEF1DF824FCEDFED2" ID-GBIF-Occurrence="3414941532" collectingDate="2009-05-08" collectionCode="IBSP" collectorName="N. G. Cipola" country="Brazil" lastPageId="36" lastPageNumber="37" location="Parque Estadual Mata Sao Francisco" municipality="Cornelio Procopio" pageId="35" pageNumber="36" specimenCode="IBSP 150273" specimenCount="1" specimenCount-male="1" stateProvince="Parana">
+<specimenCount id="9D1B68F1E84EFF8CEF1DF824FC0AF81F" box="[848,896,1998,2025]" pageId="35" pageNumber="36" type="male">1 ♂</specimenCount>
+; 
+<collectingMunicipality id="6BC63902E84EFF8CEFC0F824FBE2F81E" box="[909,1128,1998,2024]" pageId="35" pageNumber="36">Cornélio Procópio</collectingMunicipality>
+, 
+<location id="8EC2F5A3E84EFF8BE839F825FEE9FED5" LSID="urn:lsid:plazi:treatment:03B4126EE84EFF88EDEAFC86FC8AFD4B:8EC2F5A3E84EFF8BE839F825FEE9FED5" country="Brazil" lastPageId="36" lastPageNumber="37" municipality="Cornelio Procopio" name="Parque Estadual Mata Sao Francisco" pageId="35" pageNumber="36" stateProvince="Parana">Parque Estadual Mata São Francisco</location>
+; 
+<date id="FFA385B8E849FF8BED20FEE3FE70FED5" box="[365,506,265,291]" pageId="36" pageNumber="37" value="2009-05-08">
+<collectingDate id="EFE77C50E849FF8BED20FEE3FE70FED5" box="[365,506,265,291]" pageId="36" pageNumber="37" value="2009-05-08">8 May 2009</collectingDate>
+</date>
+; 
+<collectorName id="26E8C6AEE849FF8BEE49FEE3FD05FED5" box="[516,655,265,291]" pageId="36" pageNumber="37">N.G. Cipola</collectorName>
+leg.; 
+<specimenCode id="DBBB0B03E849FF8BEE83FEE3FCEDFED2" box="[718,871,265,292]" collectionCode="IBSP" country="Brazil" httpUri="http://grbio.org/cool/23qr-v2gj" name="Instituto Biologico de Sao Paulo" pageId="36" pageNumber="37">IBSP 150273</specimenCode>
+</materialsCitation>
+• 
+<materialsCitation id="3B75A925E849FF8BEF30FEE3FC5AFEBC" ID-GBIF-Occurrence="3414941617" collectingDate="1999-04-13" collectionCode="MCTP" collectorName="J. Lopes &amp; I. M. Madri" country="Brazil" latitude="-23.433332" location="Parque dos Godoy" longLatPrecision="1256" longitude="-51.25" municipality="Londrina" pageId="36" pageNumber="37" specimenCode="MCTP 11815" specimenCount="1" specimenCount-male="1" stateProvince="Parana">
+<specimenCount id="9D1B68F1E849FF8BEF30FEE3FC23FED5" box="[893,937,265,291]" pageId="36" pageNumber="37" type="male">1 ♂</specimenCount>
+; 
+<collectingMunicipality id="6BC63902E849FF8BEFF8FEE3FBA8FED5" box="[949,1058,265,291]" pageId="36" pageNumber="37">Londrina</collectingMunicipality>
+, 
+<location id="8EC2F5A3E849FF8BE861FEE3FA89FED5" LSID="urn:lsid:plazi:treatment:03B4126EE84EFF88EDEAFC86FC8AFD4B:8EC2F5A3E849FF8BE861FEE3FA89FED5" box="[1068,1283,265,291]" country="Brazil" latitude="-23.433332" longLatPrecision="1256" longitude="-51.25" municipality="Londrina" name="Parque dos Godoy" pageId="36" pageNumber="37" stateProvince="Parana">Parque dos Godoy</location>
+; 
+<geoCoordinate id="EE29C5BFE849FF8BE940FEEDFAFBFED5" box="[1293,1393,263,291]" degrees="23" direction="south" minutes="26" orientation="latitude" pageId="36" pageNumber="37" precision="925" value="-23.433332">23°26′ S</geoCoordinate>
+, 
+<geoCoordinate id="EE29C5BFE849FF8BECF0FEC4FEA7FEBC" box="[189,301,302,330]" degrees="51" direction="west" minutes="15" orientation="longitude" pageId="36" pageNumber="37" precision="925" value="-51.25">51°15′ W</geoCoordinate>
+; 
+<date id="FFA385B8E849FF8BED75FEC5FE5BFEBF" box="[312,465,303,329]" pageId="36" pageNumber="37" value="1999-04-13">
+<collectingDate id="EFE77C50E849FF8BED75FEC5FE5BFEBF" box="[312,465,303,329]" pageId="36" pageNumber="37" value="1999-04-13">13 Apr. 1999</collectingDate>
+</date>
+; 
+<collectorName id="26E8C6AEE849FF8BED91FEDAFDB7FEBC" box="[476,573,304,330]" pageId="36" pageNumber="37">J. Lopes</collectorName>
+and 
+<collectorName id="26E8C6AEE849FF8BEE3EFEDAFD7EFEBF" box="[627,756,303,330]" pageId="36" pageNumber="37">I.M. Madri</collectorName>
+leg.; 
+<specimenCode id="DBBB0B03E849FF8BEF7EFEC5FC5AFEBC" box="[819,976,303,330]" collectionCode="MCTP" country="Brazil" httpUri="http://grbio.org/cool/rq94-ajyg" name="Museu de Ciencias" pageId="36" pageNumber="37">MCTP 11815</specimenCode>
+</materialsCitation>
+• 
+<materialsCitation id="3B75A925E849FF8BEFABFEC5FCD0FE99" ID-GBIF-Occurrence="3414941652" collectingDate="1999-03-16" collectionCode="MCTP" collectorName="J. Lopes &amp; I. M. Madri" country="Brazil" location="Parque dos Godoy" municipality="Londrina" pageId="36" pageNumber="37" specimenCode="MCTP 11816" specimenCount="1" specimenCount-male="1" stateProvince="Parana">
+<specimenCount id="9D1B68F1E849FF8BEFABFEC5FB9EFEBC" box="[998,1044,303,330]" pageId="36" pageNumber="37" type="male">1 ♂</specimenCount>
+; 
+<collectingMunicipality id="6BC63902E849FF8BE852FEC5FB04FEBF" box="[1055,1166,303,329]" pageId="36" pageNumber="37">Londrina</collectingMunicipality>
+, 
+<location id="8EC2F5A3E849FF8BE8D5FEDAFAF8FEBF" LSID="urn:lsid:plazi:treatment:03B4126EE84EFF88EDEAFC86FC8AFD4B:8EC2F5A3E849FF8BE8D5FEDAFAF8FEBF" box="[1176,1394,303,330]" country="Brazil" municipality="Londrina" name="Parque dos Godoy" pageId="36" pageNumber="37" stateProvince="Parana">Parque dos Godoy</location>
+; 
+<date id="FFA385B8E849FF8BECF0FEBFFED1FE86" box="[189,347,341,368]" pageId="36" pageNumber="37" value="1999-03-16">
+<collectingDate id="EFE77C50E849FF8BECF0FEBFFED1FE86" box="[189,347,341,368]" pageId="36" pageNumber="37" value="1999-03-16">16 Mar. 1999</collectingDate>
+</date>
+; 
+<collectorName id="26E8C6AEE849FF8BED2BFEBCFE4DFE86" box="[358,455,342,368]" pageId="36" pageNumber="37">J. Lopes</collectorName>
+and 
+<collectorName id="26E8C6AEE849FF8BEDB0FEBCFDF4FE99" box="[509,638,341,368]" pageId="36" pageNumber="37">I.M. Madri</collectorName>
+leg.; 
+<specimenCode id="DBBB0B03E849FF8BEEF0FEBCFCD0FE99" box="[701,858,341,368]" collectionCode="MCTP" country="Brazil" httpUri="http://grbio.org/cool/rq94-ajyg" name="Museu de Ciencias" pageId="36" pageNumber="37">MCTP 11816</specimenCode>
+</materialsCitation>
+• 
+<materialsCitation id="3B75A925E849FF8BEF3CFEBCFED6FE60" ID-GBIF-Occurrence="3414941437" collectingDate="1999-03-16" collectionCode="MCTP" collectorName="J. Lopes &amp; I. M. Madri" country="Brazil" location="Londrina" municipality="Londrina" pageId="36" pageNumber="37" specimenCode="MCTP 11820" specimenCount="2" specimenCount-male="2" stateProvince="Parana">
+<specimenCount id="9D1B68F1E849FF8BEF3CFEBCFC3FFE86" box="[881,949,342,368]" pageId="36" pageNumber="37" type="male">2 ♂♂</specimenCount>
+; same collection data as for preceding; 
+<specimenCode id="DBBB0B03E849FF8BECF0FE96FED6FE60" box="[189,348,380,406]" collectionCode="MCTP" country="Brazil" httpUri="http://grbio.org/cool/rq94-ajyg" name="Museu de Ciencias" pageId="36" pageNumber="37">MCTP 11820</specimenCode>
+</materialsCitation>
+• 
+<materialsCitation id="3B75A925E849FF8BED3BFE96FE8CFE4A" ID-GBIF-Occurrence="3414941615" collectingDate="1999-03-30" collectionCode="MCTP" collectorName="J. Lopes &amp; I. M. Madri" country="Brazil" location="Parque dos Godoy" municipality="Londrina" pageId="36" pageNumber="37" specimenCode="MCTP 11817" specimenCount="1" specimenCount-male="1" stateProvince="Parana">
+<specimenCount id="9D1B68F1E849FF8BED3BFE96FE2CFE60" box="[374,422,380,406]" pageId="36" pageNumber="37" type="male">1 ♂</specimenCount>
+; 
+<collectingMunicipality id="6BC63902E849FF8BEDFEFE96FDA8FE60" box="[435,546,380,406]" pageId="36" pageNumber="37">Londrina</collectingMunicipality>
+, 
+<location id="8EC2F5A3E849FF8BEE60FE96FC81FE60" LSID="urn:lsid:plazi:treatment:03B4126EE84EFF88EDEAFC86FC8AFD4B:8EC2F5A3E849FF8BEE60FE96FC81FE60" box="[557,779,380,406]" country="Brazil" municipality="Londrina" name="Parque dos Godoy" pageId="36" pageNumber="37" stateProvince="Parana">Parque dos Godoy</location>
+; 
+<date id="FFA385B8E849FF8BEF5AFE96FC33FE60" box="[791,953,380,406]" pageId="36" pageNumber="37" value="1999-03-30">
+<collectingDate id="EFE77C50E849FF8BEF5AFE96FC33FE60" box="[791,953,380,406]" pageId="36" pageNumber="37" value="1999-03-30">30 Mar. 1999</collectingDate>
+</date>
+; 
+<collectorName id="26E8C6AEE849FF8BEF8BFE96FBA3FE60" box="[966,1065,380,406]" pageId="36" pageNumber="37">J. Lopes</collectorName>
+and 
+<collectorName id="26E8C6AEE849FF8BE82FFE96FB6FFE60" box="[1122,1253,380,406]" pageId="36" pageNumber="37">I.M. Madri</collectorName>
+leg.; 
+<specimenCode id="DBBB0B03E849FF8BE965FE96FE8CFE4A" collectionCode="MCTP" country="Brazil" httpUri="http://grbio.org/cool/rq94-ajyg" name="Museu de Ciencias" pageId="36" pageNumber="37">MCTP 11817</specimenCode>
+</materialsCitation>
+• 
+<materialsCitation id="3B75A925E849FF8BED6FFE48FDEAFE14" ID-GBIF-Occurrence="3414941327" accessionNumber="MCN 20668" collectingDate="1986-11-22" collectionCode="MCN" collectorName="Equipe Profaupar" country="Brazil" latitude="-25.238056" location="Parque Estadual de Vila Velha" longLatPrecision="21" longitude="-50.010834" municipality="Ponta Grossa" pageId="36" pageNumber="37" specimenCode="MCN 20668" specimenCount="1" specimenCount-male="1" stateProvince="Parana">
+<specimenCount id="9D1B68F1E849FF8BED6FFE48FED9FE4B" box="[290,339,418,445]" pageId="36" pageNumber="37" type="male">1 ♂</specimenCount>
+; 
+<collectingMunicipality id="6BC63902E849FF8BED2CFE49FD88FE4A" box="[353,514,418,445]" pageId="36" pageNumber="37">Ponta Grossa</collectingMunicipality>
+, 
+<location id="8EC2F5A3E849FF8BEE5DFE49FCF5FE4A" LSID="urn:lsid:plazi:treatment:03B4126EE84EFF88EDEAFC86FC8AFD4B:8EC2F5A3E849FF8BEE5DFE49FCF5FE4A" box="[528,895,418,445]" country="Brazil" latitude="-25.238056" longLatPrecision="21" longitude="-50.010834" municipality="Ponta Grossa" name="Parque Estadual de Vila Velha" pageId="36" pageNumber="37" stateProvince="Parana">Parque Estadual de Vila Velha</location>
+; 
+<geoCoordinate id="EE29C5BFE849FF8BEFC1FE4BFB95FE4A" box="[908,1055,417,445]" degrees="25" direction="south" minutes="14" orientation="latitude" pageId="36" pageNumber="37" precision="15" seconds="17" value="-25.238056">25°14′17″ S</geoCoordinate>
+, 
+<geoCoordinate id="EE29C5BFE849FF8BE863FE4BFB37FE4B" box="[1070,1213,417,445]" degrees="50" direction="west" minutes="0" orientation="longitude" pageId="36" pageNumber="37" precision="15" seconds="39" value="-50.010834">50°0′39″ W</geoCoordinate>
+; 
+<date id="FFA385B8E849FF8BE886FE48FAF8FE4A" box="[1227,1394,418,445]" pageId="36" pageNumber="37" value="1986-11-22">
+<collectingDate id="EFE77C50E849FF8BE886FE48FAF8FE4A" box="[1227,1394,418,445]" pageId="36" pageNumber="37" value="1986-11-22">22 Nov. 1986</collectingDate>
+</date>
+; 
+<collectorName id="26E8C6AEE849FF8BECF0FE22FE01FE14" box="[189,395,456,482]" pageId="36" pageNumber="37">Equipe Profaupar</collectorName>
+leg.; 
+<specimenCode id="DBBB0B03E849FF8BED80FE23FDEAFE14" box="[461,608,456,483]" pageId="36" pageNumber="37">MCN 20668</specimenCode>
+</materialsCitation>
+• 
+<materialsCitation id="3B75A925E849FF8BEE34FE23FB09FDFF" ID-GBIF-Occurrence="3414941408" accessionNumber="MCN 23420" collectingDate="1993-02-24" collectingDateMax="1993-03-24" collectingDateMin="1993-02-24" collectionCode="MCN" collectorName="A. B. Bonaldo" country="Brazil" latitude="-25.418888" location="Foz do Corrego Tres Barras" longLatPrecision="21" longitude="-53.180836" municipality="Tres Barras do Parana" pageId="36" pageNumber="37" specimenCode="MCN 23420" specimenCount="3" specimenCount-male="2" stateProvince="Parana">
+<specimenCount id="9D1B68F1E849FF8BEE34FE23FD36FE15" box="[633,700,457,483]" pageId="36" pageNumber="37" type="male">2 ♂♂</specimenCount>
+, 
+<specimenCount id="9D1B68F1E849FF8BEE84FE23FC87FE14" box="[713,781,456,483]" pageId="36" pageNumber="37" type="generic">1 juv.</specimenCount>
+; 
+<collectingMunicipality id="6BC63902E849FF8BEF55FE23FB94FE15" box="[792,1054,456,483]" pageId="36" pageNumber="37">Três Barras do Paraná</collectingMunicipality>
+, 
+<location id="8EC2F5A3E849FF8BE864FE23FAF8FE15" LSID="urn:lsid:plazi:treatment:03B4126EE84EFF88EDEAFC86FC8AFD4B:8EC2F5A3E849FF8BE864FE23FAF8FE15" box="[1065,1394,456,483]" country="Brazil" latitude="-25.418888" longLatPrecision="21" longitude="-53.180836" municipality="Tres Barras do Parana" name="Foz do Corrego Tres Barras" pageId="36" pageNumber="37" stateProvince="Parana">Foz do Córrego Três Barras</location>
+; 
+<geoCoordinate id="EE29C5BFE849FF8BECF0FE07FEB4FDFF" box="[189,318,493,521]" degrees="25" direction="south" minutes="25" orientation="latitude" pageId="36" pageNumber="37" precision="15" seconds="8" value="-25.418888">25°25′8″ S</geoCoordinate>
+, 
+<geoCoordinate id="EE29C5BFE849FF8BED01FE07FE6DFDFF" box="[332,487,493,521]" degrees="53" direction="west" minutes="10" orientation="longitude" pageId="36" pageNumber="37" precision="15" seconds="51" value="-53.180836">53°10′51″ W</geoCoordinate>
+; 
+<date id="FFA385B8E849FF8BEDB9FE05FD76FDFF" box="[500,764,495,521]" pageId="36" pageNumber="37" value="1993-02-24" valueMax="1993-03-24" valueMin="1993-02-24">
+<collectingDate id="EFE77C50E849FF8BEDB9FE05FD76FDFF" box="[500,764,495,521]" pageId="36" pageNumber="37" value="1993-02-24" valueMax="1993-03-24" valueMin="1993-02-24">24 Feb.–24 Mar. 1993</collectingDate>
+</date>
+; 
+<collectorName id="26E8C6AEE849FF8BEF4AFE05FC23FDFF" box="[775,937,495,521]" pageId="36" pageNumber="37">A.B. Bonaldo</collectorName>
+leg.; 
+<specimenCode id="DBBB0B03E849FF8BEFA1FE05FB09FDFF" box="[1004,1155,495,521]" pageId="36" pageNumber="37">MCN 23420</specimenCode>
+</materialsCitation>
+. – 
+<materialsCitation id="3B75A925E849FF8BE8E8FE04FE19FDA0" ID-GBIF-Occurrence="3414941372" collectingDate="2004-03-10" collectionCode="IBSP" collectorName="M. Scartezini" country="Brazil" latitude="-27.102917" location="Floresta Nacional de Chapeco" longLatPrecision="1" longitude="-52.780224" municipality="Chapeco" pageId="36" pageNumber="37" specimenCode="IBSP 126735" specimenCount="1" specimenCount-male="1" stateProvince="Santa Catarina">
+<emphasis id="B9697F6AE849FF8BE8E8FE04FAEEFDFF" bold="true" box="[1189,1380,494,521]" pageId="36" pageNumber="37">
+<collectingRegion id="49D96D9AE849FF8BE8E8FE04FAEEFDFF" box="[1189,1380,494,521]" country="Brazil" name="Santa Catarina" pageId="36" pageNumber="37">Santa Catarina</collectingRegion>
+</emphasis>
+• 
+<specimenCount id="9D1B68F1E849FF8BECF0FDFFFF63FDC6" box="[189,233,533,560]" pageId="36" pageNumber="37" type="male">1 ♂</specimenCount>
+; 
+<collectingMunicipality id="6BC63902E849FF8BECB8FDFFFED4FDD9" box="[245,350,533,559]" pageId="36" pageNumber="37">Chapecó</collectingMunicipality>
+, 
+<location id="8EC2F5A3E849FF8BED25FDFFFD4FFDD9" LSID="urn:lsid:plazi:treatment:03B4126EE84EFF88EDEAFC86FC8AFD4B:8EC2F5A3E849FF8BED25FDFFFD4FFDD9" box="[360,709,533,559]" country="Brazil" latitude="-27.102917" longLatPrecision="1" longitude="-52.780224" municipality="Chapeco" name="Floresta Nacional de Chapeco" pageId="36" pageNumber="37" stateProvince="Santa Catarina">Floresta Nacional de Chapecó</location>
+; 
+<geoCoordinate id="EE29C5BFE849FF8BEE82FDFEFCFBFDD9" box="[719,881,532,560]" degrees="27" direction="south" minutes="06" orientation="latitude" pageId="36" pageNumber="37" precision="1" seconds="10.5" value="-27.102917">27°06′10.5″ S</geoCoordinate>
+, 
+<geoCoordinate id="EE29C5BFE849FF8BEF31FDFEFBA0FDC6" box="[892,1066,532,560]" degrees="52" direction="west" minutes="46" orientation="longitude" pageId="36" pageNumber="37" precision="1" seconds="48.8" value="-52.780224">52°46′48.8″ W</geoCoordinate>
+; 
+<date id="FFA385B8E849FF8BE878FDFFFB5BFDD9" box="[1077,1233,533,560]" pageId="36" pageNumber="37" value="2004-03-10">
+<collectingDate id="EFE77C50E849FF8BE878FDFFFB5BFDD9" box="[1077,1233,533,560]" pageId="36" pageNumber="37" value="2004-03-10">10 Mar. 2004</collectingDate>
+</date>
+; 
+<collectorName id="26E8C6AEE849FF8BE896FDFCFAFCFDD9" box="[1243,1398,533,560]" pageId="36" pageNumber="37">M. Scartezini</collectorName>
+leg.; 
+<specimenCode id="DBBB0B03E849FF8BECBAFDD6FE19FDA0" box="[247,403,571,598]" collectionCode="IBSP" country="Brazil" httpUri="http://grbio.org/cool/23qr-v2gj" name="Instituto Biologico de Sao Paulo" pageId="36" pageNumber="37">IBSP 126735</specimenCode>
+</materialsCitation>
+• 
+<materialsCitation id="3B75A925E849FF8BEDE6FDD6FBDDFDA3" ID-GBIF-Occurrence="3414941423" box="[427,1111,571,598]" collectingDate="2004-03-10" collectionCode="IBSP" collectorName="M. Scartezini" country="Brazil" latitude="-27.102917" location="Floresta Nacional de Chapeco" longLatPrecision="1" longitude="-52.780224" municipality="Chapeco" pageId="36" pageNumber="37" specimenCode="IBSP 126732" specimenCount="2" specimenCount-male="2" stateProvince="Santa Catarina">
+<specimenCount id="9D1B68F1E849FF8BEDE6FDD6FE65FDA0" box="[427,495,572,598]" pageId="36" pageNumber="37" type="male">2 ♂♂</specimenCount>
+; same collection data as for preceding; 
+<specimenCode id="DBBB0B03E849FF8BEFF1FDD6FBDDFDA3" box="[956,1111,571,598]" collectionCode="IBSP" country="Brazil" httpUri="http://grbio.org/cool/23qr-v2gj" name="Instituto Biologico de Sao Paulo" pageId="36" pageNumber="37">IBSP 126732</specimenCode>
+</materialsCitation>
+• 
+<materialsCitation id="3B75A925E849FF8BE822FDD6FDE4FD8A" ID-GBIF-Occurrence="3414941581" collectingDate="2004-03-10" collectionCode="IBSP" collectorName="M. Scartezini" country="Brazil" latitude="-27.102917" location="Floresta Nacional de Chapeco" longLatPrecision="1" longitude="-52.780224" municipality="Chapeco" pageId="36" pageNumber="37" specimenCode="IBSP 126729" specimenCount="2" specimenCount-male="2" stateProvince="Santa Catarina">
+<specimenCount id="9D1B68F1E849FF8BE822FDD6FB3EFDA0" box="[1135,1204,572,598]" pageId="36" pageNumber="37" type="male">2 ♂♂</specimenCount>
+; same collection data as for preceding; 
+<specimenCode id="DBBB0B03E849FF8BED80FD88FDE4FD8A" box="[461,622,610,636]" collectionCode="IBSP" country="Brazil" httpUri="http://grbio.org/cool/23qr-v2gj" name="Instituto Biologico de Sao Paulo" pageId="36" pageNumber="37">IBSP 126729</specimenCode>
+</materialsCitation>
+• 
+<materialsCitation id="3B75A925E849FF8BEEC7FD88FB84FD54" ID-GBIF-Occurrence="3414941323" collectingDate="2004-03-10" collectionCode="IBSP" collectorName="M. Scartezini" country="Brazil" latitude="-27.102917" location="Floresta Nacional de Chapeco" longLatPrecision="1" longitude="-52.780224" municipality="Chapeco" pageId="36" pageNumber="37" specimenCode="IBSP 126723, IBSP 126724, IBSP 126726, IBSP 126727, IBSP 126728, IBSP 126730, IBSP 126731, IBSP 126733" specimenCount="8" specimenCount-male="8" stateProvince="Santa Catarina">
+<specimenCount id="9D1B68F1E849FF8BEEC7FD88FD58FD8A" box="[650,722,610,636]" pageId="36" pageNumber="37" type="male">8 ♂♂</specimenCount>
+; same collection data as for preceding; 
+<specimenCode id="DBBB0B03E849FF8BE8FBFD88FADDFD8A" box="[1206,1367,610,636]" collectionCode="IBSP" country="Brazil" httpUri="http://grbio.org/cool/23qr-v2gj" name="Instituto Biologico de Sao Paulo" pageId="36" pageNumber="37">IBSP 126723</specimenCode>
+to 
+<specimenCode id="DBBB0B03E849FF8BECF0FD62FE92FD54" box="[189,280,648,674]" collectionCode="IBSP" country="Brazil" httpUri="http://grbio.org/cool/23qr-v2gj" name="Instituto Biologico de Sao Paulo" pageId="36" pageNumber="37">126724</specimenCode>
+, 
+<specimenCode id="DBBB0B03E849FF8BED6EFD62FE35FD54" box="[291,447,648,674]" collectionCode="IBSP" country="Brazil" httpUri="http://grbio.org/cool/23qr-v2gj" name="Instituto Biologico de Sao Paulo" pageId="36" pageNumber="37">IBSP 126726</specimenCode>
+to 
+<specimenCode id="DBBB0B03E849FF8BEDAEFD62FDB4FD54" box="[483,574,648,674]" collectionCode="IBSP" country="Brazil" httpUri="http://grbio.org/cool/23qr-v2gj" name="Instituto Biologico de Sao Paulo" pageId="36" pageNumber="37">126728</specimenCode>
+, 
+<specimenCode id="DBBB0B03E849FF8BEE04FD62FD6EFD54" box="[585,740,648,674]" collectionCode="IBSP" country="Brazil" httpUri="http://grbio.org/cool/23qr-v2gj" name="Instituto Biologico de Sao Paulo" pageId="36" pageNumber="37">IBSP 126730</specimenCode>
+to 
+<specimenCode id="DBBB0B03E849FF8BEF44FD62FCEEFD54" box="[777,868,648,674]" collectionCode="IBSP" country="Brazil" httpUri="http://grbio.org/cool/23qr-v2gj" name="Instituto Biologico de Sao Paulo" pageId="36" pageNumber="37">126731</specimenCode>
+, 
+<specimenCode id="DBBB0B03E849FF8BEF22FD62FB84FD54" box="[879,1038,648,674]" collectionCode="IBSP" country="Brazil" httpUri="http://grbio.org/cool/23qr-v2gj" name="Instituto Biologico de Sao Paulo" pageId="36" pageNumber="37">IBSP 126733</specimenCode>
+</materialsCitation>
+. – 
+<materialsCitation id="3B75A925E849FF8BE860FD62FED1FD19" ID-GBIF-Occurrence="3414941618" collectingDate="2002-02" collectionCode="MCTP" collectorName="Bertocello" country="Brazil" latitude="-29.447777" location="Potreiro Velho" longLatPrecision="20" longitude="-50.58389" municipality="Sao Francisco de Paula" pageId="36" pageNumber="37" specimenCode="MCTP 17532, MCTP 23469" specimenCount="2" specimenCount-female="2" stateProvince="Rio Grande do Sul">
+<emphasis id="B9697F6AE849FF8BE860FD62FA9CFD54" bold="true" box="[1069,1302,648,674]" pageId="36" pageNumber="37">
+<collectingRegion id="49D96D9AE849FF8BE860FD62FA9CFD54" box="[1069,1302,648,674]" country="Brazil" name="Rio Grande do Sul" pageId="36" pageNumber="37">Rio Grande do Sul</collectingRegion>
+</emphasis>
+• 
+<specimenCount id="9D1B68F1E849FF8BE960FD62FAE5FD55" box="[1325,1391,648,675]" pageId="36" pageNumber="37" type="female">2 ♀♀</specimenCount>
+; 
+<collectingMunicipality id="6BC63902E849FF8BECF0FD45FE43FD3E" box="[189,457,686,713]" pageId="36" pageNumber="37">São Francisco de Paula</collectingMunicipality>
+; 
+<location id="8EC2F5A3E849FF8BED9FFD44FDF6FD3E" LSID="urn:lsid:plazi:treatment:03B4126EE84EFF88EDEAFC86FC8AFD4B:8EC2F5A3E849FF8BED9FFD44FDF6FD3E" box="[466,636,686,712]" country="Brazil" latitude="-29.447777" longLatPrecision="20" longitude="-50.58389" municipality="Sao Francisco de Paula" name="Potreiro Velho" pageId="36" pageNumber="37" stateProvince="Rio Grande do Sul">Potreiro Velho</location>
+; 
+<geoCoordinate id="EE29C5BFE849FF8BEECBFD47FC98FD3F" box="[646,786,685,713]" degrees="29" direction="south" minutes="26" orientation="latitude" pageId="36" pageNumber="37" precision="15" seconds="52" value="-29.447777">29°26′52″ S</geoCoordinate>
+, 
+<geoCoordinate id="EE29C5BFE849FF8BEF50FD47FC2CFD3F" box="[797,934,685,713]" degrees="50" direction="west" minutes="35" orientation="longitude" pageId="36" pageNumber="37" precision="15" seconds="2" value="-50.58389">50°35′2″ W</geoCoordinate>
+; 
+<date id="FFA385B8E849FF8BEFFDFD44FBAFFD3F" box="[944,1061,686,713]" pageId="36" pageNumber="37" value="2002-02">
+<collectingDate id="EFE77C50E849FF8BEFFDFD44FBAFFD3F" box="[944,1061,686,713]" pageId="36" pageNumber="37" value="2002-02">Feb. 2002</collectingDate>
+</date>
+; L. 
+<collectorName id="26E8C6AEE849FF8BE803FD44FB40FD3E" box="[1102,1226,686,712]" pageId="36" pageNumber="37">Bertocello</collectorName>
+; 
+<specimenCode id="DBBB0B03E849FF8BE899FD45FAF8FD3F" box="[1236,1394,686,713]" collectionCode="MCTP" country="Brazil" httpUri="http://grbio.org/cool/rq94-ajyg" name="Museu de Ciencias" pageId="36" pageNumber="37">MCTP 17532</specimenCode>
+, 
+<specimenCode id="DBBB0B03E849FF8BECF0FD3FFED1FD19" box="[189,347,725,751]" collectionCode="MCTP" country="Brazil" httpUri="http://grbio.org/cool/rq94-ajyg" name="Museu de Ciencias" pageId="36" pageNumber="37">MCTP 23469</specimenCode>
+</materialsCitation>
+• 
+<materialsCitation id="3B75A925E849FF8BED3EFD3FFBA6FCE0" ID-GBIF-Occurrence="3414941381" collectingDate="2002-05-18" collectionCode="MCTP" collectorName="R. Ott" country="Brazil" county="Sao Francisco de Paula" latitude="-29.583334" location="Centro de Pesquisas e Conservacao da Natureza Pro-Mata" longLatPrecision="1226" longitude="-50.25" municipality="Centro de Pesquisas" pageId="36" pageNumber="37" specimenCode="MCTP 18549" specimenCount="1" specimenCount-female="1" stateProvince="Rio Grande do Sul">
+<specimenCount id="9D1B68F1E849FF8BED3EFD3FFE15FD19" box="[371,415,725,751]" pageId="36" pageNumber="37" type="female">1 ♀</specimenCount>
+; 
+<collectingCounty id="62C3DBF4E849FF8BEDE0FD3FFD35FD19" box="[429,703,725,751]" pageId="36" pageNumber="37">São Francisco de Paula</collectingCounty>
+, 
+<location id="8EC2F5A3E849FF8BEE87FD3FFAF8FD19" LSID="urn:lsid:plazi:treatment:03B4126EE84EFF88EDEAFC86FC8AFD4B:8EC2F5A3E849FF8BEE87FD3FFAF8FD19" box="[714,1394,725,751]" country="Brazil" county="Sao Francisco de Paula" latitude="-29.583334" longLatPrecision="1226" longitude="-50.25" municipality="Centro de Pesquisas" name="Centro de Pesquisas e Conservacao da Natureza Pro-Mata" pageId="36" pageNumber="37" stateProvince="Rio Grande do Sul">Centro de Pesquisas e Conservação da Natureza Pró-Mata</location>
+; 29°27′– 
+<geoCoordinate id="EE29C5BFE849FF8BED57FD13FEF7FCE3" box="[282,381,761,789]" degrees="29" direction="south" minutes="35" orientation="latitude" pageId="36" pageNumber="37" precision="925" value="-29.583334">29°35′ S</geoCoordinate>
+, 50°08′– 
+<geoCoordinate id="EE29C5BFE849FF8BEDAAFD13FDDFFCE0" box="[487,597,761,790]" degrees="50" direction="west" minutes="15" orientation="longitude" pageId="36" pageNumber="37" precision="925" value="-50.25">50°15′ W</geoCoordinate>
+; 
+<date id="FFA385B8E849FF8BEE2DFD11FD77FCE3" box="[608,765,763,790]" pageId="36" pageNumber="37" value="2002-05-18">
+<collectingDate id="EFE77C50E849FF8BEE2DFD11FD77FCE3" box="[608,765,763,790]" pageId="36" pageNumber="37" value="2002-05-18">18 May 2002</collectingDate>
+</date>
+; 
+<collectorName id="26E8C6AEE849FF8BEF45FD16FCC4FCE3" box="[776,846,763,790]" pageId="36" pageNumber="37">R. Ott</collectorName>
+leg.; 
+<specimenCode id="DBBB0B03E849FF8BEFC3FD11FBA6FCE0" box="[910,1068,763,790]" collectionCode="MCTP" country="Brazil" httpUri="http://grbio.org/cool/rq94-ajyg" name="Museu de Ciencias" pageId="36" pageNumber="37">MCTP 18549</specimenCode>
+</materialsCitation>
+• 
+<materialsCitation id="3B75A925E849FF8BE80FFD11FB88FCCD" ID-GBIF-Occurrence="3414941522" collectingDate="2017-04" collectionCode="MCTP" collectorName="A. A. Lise" country="Brazil" latitude="-29.61" location="Itaara" longLatPrecision="20" longitude="-53.765" pageId="36" pageNumber="37" specimenCode="MCTP 20798, MCTP 20799" specimenCount="2" specimenCount-male="2" stateProvince="Rio Grande do Sul">
+<specimenCount id="9D1B68F1E849FF8BE80FFD11FB0CFCE0" box="[1090,1158,763,790]" pageId="36" pageNumber="37" type="male">2 ♂♂</specimenCount>
+; 
+<location id="8EC2F5A3E849FF8BE8DCFD16FB52FCE0" LSID="urn:lsid:plazi:treatment:03B4126EE84EFF88EDEAFC86FC8AFD4B:8EC2F5A3E849FF8BE8DCFD16FB52FCE0" box="[1169,1240,764,790]" country="Brazil" latitude="-29.61" longLatPrecision="20" longitude="-53.765" name="Itaara" pageId="36" pageNumber="37" stateProvince="Rio Grande do Sul">Itaara</location>
+; 
+<geoCoordinate id="EE29C5BFE849FF8BE8AFFD13FAFBFCE3" box="[1250,1393,761,789]" degrees="29" direction="south" minutes="36" orientation="latitude" pageId="36" pageNumber="37" precision="15" seconds="36" value="-29.61">29°36′36″ S</geoCoordinate>
+, 
+<geoCoordinate id="EE29C5BFE849FF8BECF0FCCAFED3FCCA" box="[189,345,800,828]" degrees="53" direction="west" minutes="45" orientation="longitude" pageId="36" pageNumber="37" precision="15" seconds="54" value="-53.765">53°45′54″ W</geoCoordinate>
+; 
+<date id="FFA385B8E849FF8BED28FCC8FE54FCCD" box="[357,478,801,828]" pageId="36" pageNumber="37" value="2017-04">
+<collectingDate id="EFE77C50E849FF8BED28FCC8FE54FCCD" box="[357,478,801,828]" pageId="36" pageNumber="37" value="2017-04">Apr. 2017</collectingDate>
+</date>
+; 
+<collectorName id="26E8C6AEE849FF8BEDA7FCC8FDD4FCCD" box="[490,606,801,828]" pageId="36" pageNumber="37">A.A. Lise</collectorName>
+leg; 
+<specimenCode id="DBBB0B03E849FF8BEED7FCCBFCB0FCCD" box="[666,826,801,827]" collectionCode="MCTP" country="Brazil" httpUri="http://grbio.org/cool/rq94-ajyg" name="Museu de Ciencias" pageId="36" pageNumber="37">MCTP 20798</specimenCode>
+to 
+<specimenCode id="DBBB0B03E849FF8BEF2FFCCBFB88FCCD" box="[866,1026,801,827]" collectionCode="MCTP" country="Brazil" httpUri="http://grbio.org/cool/rq94-ajyg" name="Museu de Ciencias" pageId="36" pageNumber="37">MCTP 20799</specimenCode>
+</materialsCitation>
+• 
+<materialsCitation id="3B75A925E849FF8BE850FCCBFAFCFC94" ID-GBIF-Occurrence="3414941326" accessionNumber="MCN 39594" collectingDate="2001-05-01" collectionCode="MCN" collectorName="R. Ott" country="Brazil" county="Sao Francisco de Paula" location="Centro de Pesquisas e Conservacao da Natureza Pro-Mata" municipality="Centro de Pesquisas" pageId="36" pageNumber="37" specimenCode="MCN 39594a" specimenCount="2" specimenCount-male="1" stateProvince="Rio Grande do Sul">
+<specimenCount id="9D1B68F1E849FF8BE850FCCBFBC6FCCA" box="[1053,1100,801,828]" pageId="36" pageNumber="37" type="male">1 ♂</specimenCount>
+, 
+<specimenCount id="9D1B68F1E849FF8BE817FCCBFB2AFCCD" box="[1114,1184,801,827]" pageId="36" pageNumber="37" type="generic">1 juv.</specimenCount>
+; 
+<collectingCounty id="62C3DBF4E849FF8BE8E1FCCBFE8BFC94" pageId="36" pageNumber="37">São Francisco de Paula</collectingCounty>
+, 
+<location id="8EC2F5A3E849FF8BED46FCA2FC3AFC94" LSID="urn:lsid:plazi:treatment:03B4126EE84EFF88EDEAFC86FC8AFD4B:8EC2F5A3E849FF8BED46FCA2FC3AFC94" box="[267,944,840,866]" country="Brazil" county="Sao Francisco de Paula" municipality="Centro de Pesquisas" name="Centro de Pesquisas e Conservacao da Natureza Pro-Mata" pageId="36" pageNumber="37" stateProvince="Rio Grande do Sul">Centro de Pesquisas e Conservação da Natureza Pró-Mata</location>
+; 
+<date id="FFA385B8E849FF8BEFF7FCA2FBCDFC94" box="[954,1095,840,866]" pageId="36" pageNumber="37" value="2001-05-01">
+<collectingDate id="EFE77C50E849FF8BEFF7FCA2FBCDFC94" box="[954,1095,840,866]" pageId="36" pageNumber="37" value="2001-05-01">1 May 2001</collectingDate>
+</date>
+, 
+<collectorName id="26E8C6AEE849FF8BE81FFCA2FB12FC94" box="[1106,1176,840,866]" pageId="36" pageNumber="37">R. Ott</collectorName>
+leg.; 
+<specimenCode id="DBBB0B03E849FF8BE89AFCA2FAFCFC94" box="[1239,1398,839,866]" pageId="36" pageNumber="37">MCN 39594a</specimenCode>
+</materialsCitation>
+• 
+<materialsCitation id="3B75A925E849FF8BEC82FC84FDA9FC59" ID-GBIF-Occurrence="3414941578" accessionNumber="MCN 39593" collectingDate="2001-02-03" collectionCode="MCN" collectorName="R. Ott" country="Brazil" county="Sao Francisco de Paula" location="Centro de Pesquisas e Conservacao da Natureza Pro-Mata" municipality="Centro de Pesquisas" pageId="36" pageNumber="37" specimenCode="MCN 39593" specimenCount="2" specimenCount-male="2" stateProvince="Rio Grande do Sul">
+<specimenCount id="9D1B68F1E849FF8BEC82FC84FE92FC7F" box="[207,280,878,905]" pageId="36" pageNumber="37" type="male">2 ♂♂</specimenCount>
+, 
+<collectingCounty id="62C3DBF4E849FF8BED6BFC84FDCCFC7E" box="[294,582,878,904]" pageId="36" pageNumber="37">São Francisco de Paula</collectingCounty>
+, 
+<location id="8EC2F5A3E849FF8BEE1EFC84FA96FC7E" LSID="urn:lsid:plazi:treatment:03B4126EE84EFF88EDEAFC86FC8AFD4B:8EC2F5A3E849FF8BEE1EFC84FA96FC7E" box="[595,1308,878,905]" country="Brazil" county="Sao Francisco de Paula" municipality="Centro de Pesquisas" name="Centro de Pesquisas e Conservacao da Natureza Pro-Mata" pageId="36" pageNumber="37" stateProvince="Rio Grande do Sul">Centro de Pesquisas e Conservação da Natureza Pró-Mata</location>
+; 
+<date id="FFA385B8E849FF8BE967FC84FF71FC58" pageId="36" pageNumber="37" value="2001-02-03">
+<collectingDate id="EFE77C50E849FF8BE967FC84FF71FC58" pageId="36" pageNumber="37" value="2001-02-03">3 Feb. 2001</collectingDate>
+</date>
+; 
+<collectorName id="26E8C6AEE849FF8BED4AFC7FFEC4FC58" box="[263,334,916,943]" pageId="36" pageNumber="37">R. Ott</collectorName>
+leg.; 
+<specimenCode id="DBBB0B03E849FF8BEDDDFC7EFDA9FC59" box="[400,547,916,943]" pageId="36" pageNumber="37">MCN 39593</specimenCode>
+</materialsCitation>
+• 
+<materialsCitation id="3B75A925E849FF8BEE76FC7EFDF8FC23" ID-GBIF-Occurrence="3414941439" accessionNumber="MCN 40380" collectingDate="2004-05-07" collectionCode="MCN" collectorName="R. Ott" country="Brazil" latitude="-27.145555" location="Parque Estadual do Turvo" longLatPrecision="20" longitude="-53.886112" municipality="Derrubadas" pageId="36" pageNumber="37" specimenCode="MCN 40380" specimenCount="1" specimenCount-male="1" stateProvince="Rio Grande do Sul">
+<specimenCount id="9D1B68F1E849FF8BEE76FC7EFDE0FC59" box="[571,618,916,943]" pageId="36" pageNumber="37" type="male">1 ♂</specimenCount>
+; 
+<collectingMunicipality id="6BC63902E849FF8BEE3BFC7EFC8AFC58" box="[630,768,916,942]" pageId="36" pageNumber="37">Derrubadas</collectingMunicipality>
+, 
+<location id="8EC2F5A3E849FF8BEF46FC7FFBB4FC59" LSID="urn:lsid:plazi:treatment:03B4126EE84EFF88EDEAFC86FC8AFD4B:8EC2F5A3E849FF8BEF46FC7FFBB4FC59" box="[779,1086,916,943]" country="Brazil" latitude="-27.145555" longLatPrecision="20" longitude="-53.886112" municipality="Derrubadas" name="Parque Estadual do Turvo" pageId="36" pageNumber="37" stateProvince="Rio Grande do Sul">Parque Estadual do Turvo</location>
+; 
+<geoCoordinate id="EE29C5BFE849FF8BE804FC79FB40FC58" box="[1097,1226,915,943]" degrees="27" direction="south" minutes="8" orientation="latitude" pageId="36" pageNumber="37" precision="15" seconds="44" value="-27.145555">27°8′44″ S</geoCoordinate>
+, 
+<geoCoordinate id="EE29C5BFE849FF8BE89AFC79FAF8FC59" box="[1239,1394,915,943]" degrees="53" direction="west" minutes="53" orientation="longitude" pageId="36" pageNumber="37" precision="15" seconds="10" value="-53.886112">53°53′10″ W</geoCoordinate>
+; 
+<date id="FFA385B8E849FF8BECF0FC51FEC7FC23" box="[189,333,955,981]" pageId="36" pageNumber="37" value="2004-05-07">
+<collectingDate id="EFE77C50E849FF8BECF0FC51FEC7FC23" box="[189,333,955,981]" pageId="36" pageNumber="37" value="2004-05-07">7 May 2004</collectingDate>
+</date>
+; 
+<collectorName id="26E8C6AEE849FF8BED15FC51FE14FC23" box="[344,414,955,981]" pageId="36" pageNumber="37">R. Ott</collectorName>
+leg.; 
+<specimenCode id="DBBB0B03E849FF8BED92FC51FDF8FC23" box="[479,626,955,981]" pageId="36" pageNumber="37">MCN 40380</specimenCode>
+</materialsCitation>
+• 
+<materialsCitation id="3B75A925E849FF8BEEC4FC51FCFEFC0A" ID-GBIF-Occurrence="3414941598" accessionNumber="MCN 52357" collectingDate="2006-11-01" collectionCode="MCN" collectorName="A. Goncalves &amp; et al." country="Brazil" latitude="-29.365" location="Tres Passos" longLatPrecision="20" longitude="-49.935" pageId="36" pageNumber="37" specimenCode="MCN 52357, 52358" specimenCount="3" specimenCount-male="3" stateProvince="Morrinhos do Sul">
+<specimenCount id="9D1B68F1E849FF8BEEC4FC51FD44FC23" box="[649,718,955,981]" pageId="36" pageNumber="37" type="male">3 ♂♂</specimenCount>
+; 
+<collectingRegion id="49D96D9AE849FF8BEE94FC51FC20FC23" box="[729,938,955,981]" inferredBySuffix="true" pageId="36" pageNumber="37">Morrinhos do Sul</collectingRegion>
+, 
+<location id="8EC2F5A3E849FF8BEFF9FC51FBCAFC23" LSID="urn:lsid:plazi:treatment:03B4126EE84EFF88EDEAFC86FC8AFD4B:8EC2F5A3E849FF8BEFF9FC51FBCAFC23" box="[948,1088,955,981]" country="Brazil" latitude="-29.365" longLatPrecision="20" longitude="-49.935" name="Tres Passos" pageId="36" pageNumber="37" stateProvince="Morrinhos do Sul">Tres Passos</location>
+; 
+<geoCoordinate id="EE29C5BFE849FF8BE806FC53FB50FC23" box="[1099,1242,953,981]" degrees="29" direction="south" minutes="21" orientation="latitude" pageId="36" pageNumber="37" precision="15" seconds="54" value="-29.365">29°21′54″ S</geoCoordinate>
+, 
+<geoCoordinate id="EE29C5BFE849FF8BE8ABFC53FAF8FC23" box="[1254,1394,953,981]" degrees="49" direction="west" minutes="56" orientation="longitude" pageId="36" pageNumber="37" precision="15" seconds="6" value="-49.935">49°56′6″ W</geoCoordinate>
+; 
+<date id="FFA385B8E849FF8BECF0FC0BFEC4FC0D" box="[189,334,993,1019]" pageId="36" pageNumber="37" value="2006-11-01">
+<collectingDate id="EFE77C50E849FF8BECF0FC0BFEC4FC0D" box="[189,334,993,1019]" pageId="36" pageNumber="37" value="2006-11-01">1 Nov. 2006</collectingDate>
+</date>
+; 
+<collectorName id="26E8C6AEE849FF8BED1AFC0BFE7CFC0D" box="[343,502,993,1019]" pageId="36" pageNumber="37">A. Gonçalves</collectorName>
+<emphasis id="B9697F6AE849FF8BEDB6FC08FDBFFC0D" box="[507,565,993,1019]" italics="true" pageId="36" pageNumber="37">
+<collectorName id="26E8C6AEE849FF8BEDB6FC08FDBFFC0D" box="[507,565,993,1019]" pageId="36" pageNumber="37">et al.</collectorName>
+</emphasis>
+leg.; 
+<specimenCode id="DBBB0B03E849FF8BEE3BFC0BFC82FC0A" box="[630,776,993,1020]" pageId="36" pageNumber="37">MCN 52357</specimenCode>
+to 
+<specimenCode id="DBBB0B03E849FF8BEF66FC0BFCFEFC0A" box="[811,884,993,1020]" collectionCode="MCN" pageId="36" pageNumber="37">52358</specimenCode>
+</materialsCitation>
+• 
+<materialsCitation id="3B75A925E849FF8BEFC6FC0BFC5EFBD4" ID-GBIF-Occurrence="3414941577" accessionNumber="MCN 52356" collectingDate="2006-04-25" collectionCode="MCN" collectorName="A. Goncalves &amp; et al." country="Brazil" latitude="-29.368889" location="Dom Pedro de Alcantara" longLatPrecision="20" longitude="-49.85" pageId="36" pageNumber="37" specimenCode="MCN 52356" specimenCount="1" specimenCount-male="1" stateProvince="Rio Grande do Sul">
+<specimenCount id="9D1B68F1E849FF8BEFC6FC0BFC33FC0D" box="[907,953,993,1019]" pageId="36" pageNumber="37" type="male">1 ♂</specimenCount>
+; 
+<location id="8EC2F5A3E849FF8BEF88FC0BFB6CFC0D" LSID="urn:lsid:plazi:treatment:03B4126EE84EFF88EDEAFC86FC8AFD4B:8EC2F5A3E849FF8BEF88FC0BFB6CFC0D" box="[965,1254,993,1019]" country="Brazil" latitude="-29.368889" longLatPrecision="20" longitude="-49.85" name="Dom Pedro de Alcantara" pageId="36" pageNumber="37" stateProvince="Rio Grande do Sul">Dom Pedro de Alcântara</location>
+; 
+<geoCoordinate id="EE29C5BFE849FF8BE8BCFC35FAFBFC0D" box="[1265,1393,991,1019]" degrees="29" direction="south" minutes="22" orientation="latitude" pageId="36" pageNumber="37" precision="15" seconds="8" value="-29.368889">29°22′8″ S</geoCoordinate>
+, 
+<geoCoordinate id="EE29C5BFE849FF8BECF0FBECFEC4FBD4" box="[189,334,1030,1058]" degrees="49" direction="west" minutes="51" orientation="longitude" pageId="36" pageNumber="37" precision="15" seconds="0" value="-49.85">49°51′0″ W</geoCoordinate>
+; 
+<date id="FFA385B8E849FF8BED11FBEDFE75FBD7" box="[348,511,1031,1058]" pageId="36" pageNumber="37" value="2006-04-25">
+<collectingDate id="EFE77C50E849FF8BED11FBEDFE75FBD7" box="[348,511,1031,1058]" pageId="36" pageNumber="37" value="2006-04-25">25 Apr. 2006</collectingDate>
+</date>
+; 
+<collectorName id="26E8C6AEE849FF8BEE47FBEDFD24FBD7" box="[522,686,1031,1057]" pageId="36" pageNumber="37">A. Gonçalves</collectorName>
+<emphasis id="B9697F6AE849FF8BEEF5FBE2FD7FFBD7" box="[696,757,1031,1057]" italics="true" pageId="36" pageNumber="37">
+<collectorName id="26E8C6AEE849FF8BEEF5FBE2FD7FFBD7" box="[696,757,1031,1057]" pageId="36" pageNumber="37">et al.</collectorName>
+</emphasis>
+leg.; 
+<specimenCode id="DBBB0B03E849FF8BEF71FBEDFC5EFBD4" box="[828,980,1031,1058]" pageId="36" pageNumber="37">MCN 52356</specimenCode>
+</materialsCitation>
+• 
+<materialsCitation id="3B75A925E849FF8BEFBDFBEDFE82FB98" ID-GBIF-Occurrence="3414941468" collectingDate="2004-04-15" collectionCode="MCTP" collectorName="A. C. K. Ferreira" country="Brazil" latitude="-30.368334" location="Parque Estadual de Itapua" longLatPrecision="20" longitude="-50.99778" municipality="Viamao" pageId="36" pageNumber="37" specimenCode="et al., MCTP 16939, MCTP 16946" specimenCount="2" specimenCount-male="2" stateProvince="Rio Grande do Sul">
+<specimenCount id="9D1B68F1E849FF8BEFBDFBEDFBB2FBD4" box="[1008,1080,1031,1058]" pageId="36" pageNumber="37" type="male">2 ♂♂</specimenCount>
+; 
+<collectingMunicipality id="6BC63902E849FF8BE80BFBEDFB2CFBD7" box="[1094,1190,1031,1057]" pageId="36" pageNumber="37">Viamão</collectingMunicipality>
+, 
+<location id="8EC2F5A3E849FF8BE8FEFBE2FEBAFBBE" LSID="urn:lsid:plazi:treatment:03B4126EE84EFF88EDEAFC86FC8AFD4B:8EC2F5A3E849FF8BE8FEFBE2FEBAFBBE" country="Brazil" latitude="-30.368334" longLatPrecision="20" longitude="-50.99778" municipality="Viamao" name="Parque Estadual de Itapua" pageId="36" pageNumber="37" stateProvince="Rio Grande do Sul">Parque Estadual de Itapuã</location>
+; 
+<geoCoordinate id="EE29C5BFE849FF8BED73FBC6FE48FBBE" box="[318,450,1068,1096]" degrees="30" direction="south" minutes="22" orientation="latitude" pageId="36" pageNumber="37" precision="15" seconds="6" value="-30.368334">30°22′6″ S</geoCoordinate>
+, 
+<geoCoordinate id="EE29C5BFE849FF8BED9CFBC6FDFAFBBE" box="[465,624,1068,1096]" degrees="50" direction="west" minutes="59" orientation="longitude" pageId="36" pageNumber="37" precision="15" seconds="52" value="-50.99778">50°59′52″ W</geoCoordinate>
+; 
+<date id="FFA385B8E849FF8BEE30FBC7FC95FBBE" box="[637,799,1069,1096]" pageId="36" pageNumber="37" value="2004-04-15">
+<collectingDate id="EFE77C50E849FF8BEE30FBC7FC95FBBE" box="[637,799,1069,1096]" pageId="36" pageNumber="37" value="2004-04-15">15 Apr. 2004</collectingDate>
+</date>
+; 
+<collectorName id="26E8C6AEE849FF8BEF66FBC4FC6DFBB1" box="[811,999,1069,1096]" pageId="36" pageNumber="37">A.C.K. Ferreira</collectorName>
+<emphasis id="B9697F6AE849FF8BEFBDFBC4FBA7FBB1" box="[1008,1069,1069,1095]" italics="true" pageId="36" pageNumber="37">
+<specimenCode id="DBBB0B03E849FF8BEFBDFBC4FBA7FBB1" box="[1008,1069,1069,1095]" pageId="36" pageNumber="37">et al.</specimenCode>
+</emphasis>
+leg.; 
+<specimenCode id="DBBB0B03E849FF8BE83EFBC4FA93FBB1" box="[1139,1305,1069,1096]" collectionCode="MCTP" country="Brazil" httpUri="http://grbio.org/cool/rq94-ajyg" name="Museu de Ciencias" pageId="36" pageNumber="37">MCTP 16939</specimenCode>
+, 
+<specimenCode id="DBBB0B03E849FF8BE96AFBC4FE82FB98" collectionCode="MCTP" country="Brazil" httpUri="http://grbio.org/cool/rq94-ajyg" name="Museu de Ciencias" pageId="36" pageNumber="37">MCTP 16946</specimenCode>
+</materialsCitation>
+• 
+<materialsCitation id="3B75A925E849FF8BED6CFBBEFC5FFB98" ID-GBIF-Occurrence="3414941511" box="[289,981,1108,1134]" collectingDate="2004-04-15" collectionCode="MCTP" collectorName="A. C. K. Ferreira" country="Brazil" latitude="-30.368334" location="Parque Estadual de Itapua" longLatPrecision="20" longitude="-50.99778" municipality="Viamao" pageId="36" pageNumber="37" specimenCode="MCTP 16948" specimenCount="2" specimenCount-male="2" stateProvince="Rio Grande do Sul">
+<specimenCount id="9D1B68F1E849FF8BED6CFBBEFEEFFB98" box="[289,357,1108,1134]" pageId="36" pageNumber="37" type="male">2 ♂♂</specimenCount>
+; same collection data as for preceding; 
+<specimenCode id="DBBB0B03E849FF8BEF7BFBBEFC5FFB98" box="[822,981,1108,1134]" collectionCode="MCTP" country="Brazil" httpUri="http://grbio.org/cool/rq94-ajyg" name="Museu de Ciencias" pageId="36" pageNumber="37">MCTP 16948</specimenCode>
+</materialsCitation>
+• 
+<materialsCitation id="3B75A925E849FF8BEFA2FBBEFC4AFB62" ID-GBIF-Occurrence="3414941415" collectingDate="2004-04-30" collectionCode="MCTP" collectorName="A. C. K. Ferreira &amp; et al." country="Brazil" location="Parque Estadual de Itapua" municipality="Viamao" pageId="36" pageNumber="37" specimenCode="MCTP 16638" specimenCount="14" specimenCount-male="14" stateProvince="Rio Grande do Sul">
+<specimenCount id="9D1B68F1E849FF8BEFA2FBBEFBC8FB98" box="[1007,1090,1108,1134]" pageId="36" pageNumber="37" type="male">14 ♂♂</specimenCount>
+; 
+<collectingMunicipality id="6BC63902E849FF8BE802FBBEFB27FB98" box="[1103,1197,1108,1134]" pageId="36" pageNumber="37">Viamão</collectingMunicipality>
+, 
+<location id="8EC2F5A3E849FF8BE8F5FBBEFEA4FB63" LSID="urn:lsid:plazi:treatment:03B4126EE84EFF88EDEAFC86FC8AFD4B:8EC2F5A3E849FF8BE8F5FBBEFEA4FB63" country="Brazil" municipality="Viamao" name="Parque Estadual de Itapua" pageId="36" pageNumber="37" stateProvince="Rio Grande do Sul">Parque Estadual de Itapuã</location>
+; 
+<date id="FFA385B8E849FF8BED77FB90FE5DFB62" box="[314,471,1146,1172]" pageId="36" pageNumber="37" value="2004-04-30">
+<collectingDate id="EFE77C50E849FF8BED77FB90FE5DFB62" box="[314,471,1146,1172]" pageId="36" pageNumber="37" value="2004-04-30">30 Apr. 2004</collectingDate>
+</date>
+; 
+<collectorName id="26E8C6AEE849FF8BEDAFFB90FD10FB62" box="[482,666,1146,1172]" pageId="36" pageNumber="37">A.C.K. Ferreira</collectorName>
+<emphasis id="B9697F6AE849FF8BEEEEFB91FD54FB62" box="[675,734,1146,1172]" italics="true" pageId="36" pageNumber="37">
+<collectorName id="26E8C6AEE849FF8BEEEEFB91FD54FB62" box="[675,734,1146,1172]" pageId="36" pageNumber="37">et al.</collectorName>
+</emphasis>
+leg.; 
+<specimenCode id="DBBB0B03E849FF8BEF6DFB90FC4AFB62" box="[800,960,1146,1172]" collectionCode="MCTP" country="Brazil" httpUri="http://grbio.org/cool/rq94-ajyg" name="Museu de Ciencias" pageId="36" pageNumber="37">MCTP 16638</specimenCode>
+</materialsCitation>
+• 
+<materialsCitation id="3B75A925E849FF8BEF97FB90FE51FB4C" ID-GBIF-Occurrence="3414941684" collectingDate="2004-04-30" collectionCode="MCTP" collectorName="A. C. K. Ferreira" country="Brazil" location="Parque Estadual de Itapua" municipality="Viamao" pageId="36" pageNumber="37" specimenCode="MCTP 16936" specimenCount="12" specimenCount-male="12" stateProvince="Rio Grande do Sul">
+<specimenCount id="9D1B68F1E849FF8BEF97FB90FBA5FB63" box="[986,1071,1146,1173]" pageId="36" pageNumber="37" type="male">12 ♂♂</specimenCount>
+; same collection data as for preceding; 
+<specimenCode id="DBBB0B03E849FF8BED73FB4BFE51FB4C" box="[318,475,1184,1211]" collectionCode="MCTP" country="Brazil" httpUri="http://grbio.org/cool/rq94-ajyg" name="Museu de Ciencias" pageId="36" pageNumber="37">MCTP 16936</specimenCode>
+</materialsCitation>
+• 
+<materialsCitation id="3B75A925E849FF8BEDBCFB4BFED4FB17" ID-GBIF-Occurrence="3414941524" collectingDate="2007-04-18" collectingDateMax="2007-05-08" collectingDateMin="2007-04-18" collectionCode="MCTP" collectorName="R. Moraes" country="Brazil" location="Parque Estadual de Itapua" municipality="Viamao" pageId="36" pageNumber="37" specimenCode="MCTP 29969" specimenCount="1" specimenCount-male="1" stateProvince="Rio Grande do Sul">
+<specimenCount id="9D1B68F1E849FF8BEDBCFB4BFD95FB4D" box="[497,543,1185,1211]" pageId="36" pageNumber="37" type="male">1 ♂</specimenCount>
+; 
+<collectingMunicipality id="6BC63902E849FF8BEE64FB4AFD0DFB4C" box="[553,647,1184,1210]" pageId="36" pageNumber="37">Viamão</collectingMunicipality>
+, 
+<location id="8EC2F5A3E849FF8BEEDCFB4BFC4AFB4D" LSID="urn:lsid:plazi:treatment:03B4126EE84EFF88EDEAFC86FC8AFD4B:8EC2F5A3E849FF8BEEDCFB4BFC4AFB4D" box="[657,960,1184,1211]" country="Brazil" municipality="Viamao" name="Parque Estadual de Itapua" pageId="36" pageNumber="37" stateProvince="Rio Grande do Sul">Parque Estadual de Itapuã</location>
+; 
+<date id="FFA385B8E849FF8BEF87FB4BFB31FB4D" box="[970,1211,1185,1211]" pageId="36" pageNumber="37" value="2007-04-18" valueMax="2007-05-08" valueMin="2007-04-18">
+<collectingDate id="EFE77C50E849FF8BEF87FB4BFB31FB4D" box="[970,1211,1185,1211]" pageId="36" pageNumber="37" value="2007-04-18" valueMax="2007-05-08" valueMin="2007-04-18">18 Apr.–8 May 2007</collectingDate>
+</date>
+; 
+<collectorName id="26E8C6AEE849FF8BE88BFB4BFAB4FB4D" box="[1222,1342,1185,1211]" pageId="36" pageNumber="37">R. Moraes</collectorName>
+leg.; 
+<specimenCode id="DBBB0B03E849FF8BECF0FB2DFED4FB17" box="[189,350,1223,1249]" collectionCode="MCTP" country="Brazil" httpUri="http://grbio.org/cool/rq94-ajyg" name="Museu de Ciencias" pageId="36" pageNumber="37">MCTP 29969</specimenCode>
+</materialsCitation>
+• 
+<materialsCitation id="3B75A925E849FF8BED37FB2DFE11FAF1" ID-GBIF-Occurrence="3414941662" accessionNumber="MCN 46338" collectingDate="2006-03-23" collectingDateMax="2006-04-02" collectingDateMin="2006-03-23" collectionCode="MCN" country="Brazil" latitude="-30.25" location="Reserva Biologica de Lami" longLatPrecision="1222" longitude="-51.083332" municipality="Porto Alegre" pageId="36" pageNumber="37" specimenCode="MCN 46338" specimenCount="2" specimenCount-male="2" stateProvince="Rio Grande do Sul">
+<specimenCount id="9D1B68F1E849FF8BED37FB2DFE4AFB17" box="[378,448,1223,1249]" pageId="36" pageNumber="37" type="male">2 ♂♂</specimenCount>
+; 
+<collectingMunicipality id="6BC63902E849FF8BED83FB2DFDE2FB17" box="[462,616,1223,1249]" pageId="36" pageNumber="37">Porto Alegre</collectingMunicipality>
+, 
+<location id="8EC2F5A3E849FF8BEE38FB2DFC34FB17" LSID="urn:lsid:plazi:treatment:03B4126EE84EFF88EDEAFC86FC8AFD4B:8EC2F5A3E849FF8BEE38FB2DFC34FB17" box="[629,958,1223,1249]" country="Brazil" latitude="-30.25" longLatPrecision="1222" longitude="-51.083332" municipality="Porto Alegre" name="Reserva Biologica de Lami" pageId="36" pageNumber="37" stateProvince="Rio Grande do Sul">Reserva Biológica de Lami</location>
+; 
+<geoCoordinate id="EE29C5BFE849FF8BEF86FB2FFBB9FB17" box="[971,1075,1221,1249]" degrees="30" direction="south" minutes="15" orientation="latitude" pageId="36" pageNumber="37" precision="925" value="-30.25">30°15′ S</geoCoordinate>
+, 
+<geoCoordinate id="EE29C5BFE849FF8BE80CFB2FFB3EFB17" box="[1089,1204,1221,1249]" degrees="51" direction="west" minutes="05" orientation="longitude" pageId="36" pageNumber="37" precision="925" value="-51.083332">51°05′ W</geoCoordinate>
+; 
+<date id="FFA385B8E849FF8BE88FFB2DFF71FAF1" pageId="36" pageNumber="37" value="2006-03-23" valueMax="2006-04-02" valueMin="2006-03-23">
+<collectingDate id="EFE77C50E849FF8BE88FFB2DFF71FAF1" pageId="36" pageNumber="37" value="2006-03-23" valueMax="2006-04-02" valueMin="2006-03-23">23 Mar.–2 Apr. 2006</collectingDate>
+</date>
+; 
+<specimenCode id="DBBB0B03E849FF8BED45FB07FE11FAF1" box="[264,411,1261,1287]" pageId="36" pageNumber="37">MCN 46338</specimenCode>
+</materialsCitation>
+• 
+<materialsCitation id="3B75A925E849FF8BEDF8FB07FE07FAD8" ID-GBIF-Occurrence="3414941548" accessionNumber="MCN 56824" collectingDate="2006-03-23" collectingDateMax="2006-04-12" collectingDateMin="2006-03-23" collectionCode="MCN" collectorName="R. Moraes" country="Brazil" location="Reserva Biologica de Lami" municipality="Porto Alegre" pageId="36" pageNumber="37" specimenCode="MCN 56824" specimenCount="1" specimenCount-male="1" stateProvince="Rio Grande do Sul">
+<specimenCount id="9D1B68F1E849FF8BEDF8FB07FE6FFAFE" box="[437,485,1261,1288]" pageId="36" pageNumber="37" type="male">1 ♂</specimenCount>
+; 
+<collectingMunicipality id="6BC63902E849FF8BEDBFFB04FD01FAF1" box="[498,651,1261,1288]" pageId="36" pageNumber="37">Porto Alegre</collectingMunicipality>
+, 
+<location id="8EC2F5A3E849FF8BEEDAFB04FC56FAF1" LSID="urn:lsid:plazi:treatment:03B4126EE84EFF88EDEAFC86FC8AFD4B:8EC2F5A3E849FF8BEEDAFB04FC56FAF1" box="[663,988,1261,1288]" country="Brazil" municipality="Porto Alegre" name="Reserva Biologica de Lami" pageId="36" pageNumber="37" stateProvince="Rio Grande do Sul">Reserva Biológica de Lami</location>
+; 
+<date id="FFA385B8E849FF8BEFA5FB07FB65FAF1" box="[1000,1263,1261,1287]" pageId="36" pageNumber="37" value="2006-03-23" valueMax="2006-04-12" valueMin="2006-03-23">
+<collectingDate id="EFE77C50E849FF8BEFA5FB07FB65FAF1" box="[1000,1263,1261,1287]" pageId="36" pageNumber="37" value="2006-03-23" valueMax="2006-04-12" valueMin="2006-03-23">23 Mar.–12 Apr. 2006</collectingDate>
+</date>
+; 
+<collectorName id="26E8C6AEE849FF8BE8B1FB04FAFCFAFE" box="[1276,1398,1262,1288]" pageId="36" pageNumber="37">R. Moraes</collectorName>
+leg.; 
+<specimenCode id="DBBB0B03E849FF8BECB4FAFEFE07FAD8" box="[249,397,1299,1326]" pageId="36" pageNumber="37">MCN 56824</specimenCode>
+</materialsCitation>
+• 
+<materialsCitation id="3B75A925E849FF8BEDE4FAFEFD9BFAA2" ID-GBIF-Occurrence="3414941432" accessionNumber="MCN 49909, MCN 49913" collectingDate="2013-03-05" collectingDateMax="2013-04-05" collectingDateMin="2013-03-05" collectionCode="MCN" collectorName="G. O. Silva" country="Brazil" location="Jardim Botanico" municipality="Porto Alegre" pageId="36" pageNumber="37" specimenCode="MCN 49909, MCN 49910, MCN 49911, MCN 49913" specimenCount="4" specimenCount-male="4" stateProvince="Rio Grande do Sul">
+<specimenCount id="9D1B68F1E849FF8BEDE4FAFEFE7AFAD8" box="[425,496,1300,1326]" pageId="36" pageNumber="37" type="male">4 ♂♂</specimenCount>
+; 
+<collectingMunicipality id="6BC63902E849FF8BEDB3FAFEFD1DFADB" box="[510,663,1299,1326]" pageId="36" pageNumber="37">Porto Alegre</collectingMunicipality>
+, 
+<location id="8EC2F5A3E849FF8BEEE9FAF9FCE0FADB" LSID="urn:lsid:plazi:treatment:03B4126EE84EFF88EDEAFC86FC8AFD4B:8EC2F5A3E849FF8BEEE9FAF9FCE0FADB" box="[676,874,1299,1325]" country="Brazil" municipality="Porto Alegre" name="Jardim Botanico" pageId="36" pageNumber="37" stateProvince="Rio Grande do Sul">Jardim Botânico</location>
+; 
+<date id="FFA385B8E849FF8BEF3AFAF9FBE9FAD8" box="[887,1123,1299,1326]" pageId="36" pageNumber="37" value="2013-03-05" valueMax="2013-04-05" valueMin="2013-03-05">
+<collectingDate id="EFE77C50E849FF8BEF3AFAF9FBE9FAD8" box="[887,1123,1299,1326]" pageId="36" pageNumber="37" value="2013-03-05" valueMax="2013-04-05" valueMin="2013-03-05">5 Mar.–5 Apr. 2013</collectingDate>
+</date>
+; 
+<collectorName id="26E8C6AEE849FF8BE83CFAFEFB65FADB" box="[1137,1263,1299,1326]" pageId="36" pageNumber="37">G.O. Silva</collectorName>
+leg.; 
+<specimenCode id="DBBB0B03E849FF8BE979FAFEFE8CFAA2" pageId="36" pageNumber="37">MCN 49909</specimenCode>
+to 
+<specimenCode id="DBBB0B03E849FF8BED64FAD0FEFFFAA2" box="[297,373,1338,1364]" collectionCode="MCN" pageId="36" pageNumber="37">49911</specimenCode>
+; 
+<specimenCode id="DBBB0B03E849FF8BEDCDFAD0FD9BFAA2" box="[384,529,1338,1364]" pageId="36" pageNumber="37">MCN 49913</specimenCode>
+</materialsCitation>
+• 
+<materialsCitation id="3B75A925E849FF8BEE65FAD0FE05FA8D" ID-GBIF-Occurrence="3414941538" accessionNumber="MCN 48527" collectingDate="2013-04-27" collectingDateMax="2013-04-28" collectingDateMin="2013-04-27" collectionCode="MCN" collectorName="Equipe Sisbiota" country="Brazil" latitude="-32.023888" location="Herval" longLatPrecision="20" longitude="-53.395836" pageId="36" pageNumber="37" specimenCode="MCN 48527" specimenCount="1" specimenCount-male="1" stateProvince="Rio Grande do Sul">
+<specimenCount id="9D1B68F1E849FF8BEE65FAD0FDDCFAA2" box="[552,598,1338,1364]" pageId="36" pageNumber="37" type="male">1 ♂</specimenCount>
+; 
+<location id="8EC2F5A3E849FF8BEE2CFAD0FD3FFAA2" LSID="urn:lsid:plazi:treatment:03B4126EE84EFF88EDEAFC86FC8AFD4B:8EC2F5A3E849FF8BEE2CFAD0FD3FFAA2" box="[609,693,1338,1364]" country="Brazil" latitude="-32.023888" longLatPrecision="20" longitude="-53.395836" name="Herval" pageId="36" pageNumber="37" stateProvince="Rio Grande do Sul">Herval</location>
+; 
+<geoCoordinate id="EE29C5BFE849FF8BEEF2FAD2FCB5FAA2" box="[703,831,1336,1364]" degrees="32" direction="south" minutes="1" orientation="latitude" pageId="36" pageNumber="37" precision="15" seconds="26" value="-32.023888">32°1′26″ S</geoCoordinate>
+, 
+<geoCoordinate id="EE29C5BFE849FF8BEF07FAD2FC6EFAA2" box="[842,996,1336,1364]" degrees="53" direction="west" minutes="23" orientation="longitude" pageId="36" pageNumber="37" precision="15" seconds="45" value="-53.395836">53°23′45″ W</geoCoordinate>
+; 
+<date id="FFA385B8E849FF8BEFA2FAD0FB3EFAA2" box="[1007,1204,1338,1364]" pageId="36" pageNumber="37" value="2013-04-27" valueMax="2013-04-28" valueMin="2013-04-27">
+<collectingDate id="EFE77C50E849FF8BEFA2FAD0FB3EFAA2" box="[1007,1204,1338,1364]" pageId="36" pageNumber="37" value="2013-04-27" valueMax="2013-04-28" valueMin="2013-04-27">27–28 Apr. 2013</collectingDate>
+</date>
+; 
+<collectorName id="26E8C6AEE849FF8BE8F2FAD0FAFDFAA2" box="[1215,1399,1338,1364]" pageId="36" pageNumber="37">Equipe Sisbiota</collectorName>
+leg.; 
+<specimenCode id="DBBB0B03E849FF8BECB5FA8AFE05FA8D" box="[248,399,1376,1403]" pageId="36" pageNumber="37">MCN 48527</specimenCode>
+</materialsCitation>
+.
+</paragraph>
+</subSubSection>
+<subSubSection id="C307F0F3E849FF88ECF0FA4EFDC0FDDB" lastPageId="39" lastPageNumber="40" pageId="36" pageNumber="37" type="description">
+<paragraph id="8BA2A378E849FF8BECF0FA4EFEC4FA48" blockId="36.[189,334,1444,1470]" box="[189,334,1444,1470]" pageId="36" pageNumber="37">
+<heading id="D0EA1414E849FF8BECF0FA4EFEC4FA48" bold="true" box="[189,334,1444,1470]" fontSize="11" level="3" pageId="36" pageNumber="37" reason="3">
+<emphasis id="B9697F6AE849FF8BECF0FA4EFEC4FA48" bold="true" box="[189,334,1444,1470]" pageId="36" pageNumber="37">Description</emphasis>
+</heading>
+</paragraph>
+<paragraph id="8BA2A378E849FF8BECA7FA3CFDCCFA07" blockId="36.[189,582,1494,1559]" box="[234,582,1494,1521]" pageId="36" pageNumber="37">
+<emphasis id="B9697F6AE849FF8BECA7FA3CFEA0FA06" bold="true" box="[234,298,1494,1520]" pageId="36" pageNumber="37">Male</emphasis>
+(
+<typeStatus id="54A61DDAE849FF8BED74FA3CFE28FA06" box="[313,418,1494,1520]" pageId="36" pageNumber="37">holotype</typeStatus>
+MCN 39594)
+</paragraph>
+<paragraph id="8BA2A378E849FF8BECF0FA17FE5BF9E1" blockId="36.[189,582,1494,1559]" box="[189,465,1532,1559]" pageId="36" pageNumber="37">
+HABITUS. See 
+<figureCitation id="1326BFFDE849FF8BED2CFA16FE47F9E1" box="[353,461,1532,1559]" captionStart="Fig" captionStartId="37.[189,232,1778,1804]" captionTargetBox="[189,1398,265,1740]" captionTargetId="figure-11@37.[189,1398,265,1740]" captionTargetPageId="37" captionText="Fig. 20. Idiops guri Fonseca-Ferreira, Guadanucci &amp; Brescovit sp. nov. A–I. ♂, holotype (MCN 39594). A. Prosoma (dorsal view). B. Prosoma (ventral view).C. Part of palp (retrolateral view). D–F. Palpal bulb. D. Dorsal view. E. Retrolateral view.F. Prolateral view. G. Tibia, metatarsus and tarsus I (prolateral view). H. Tibial apophysis (prolateral view). I. Tibial apophysis and metatarsus I (dorsal view). J–L. ♀ (MCTP 23469). J. Prosoma (dorsal view). K. Prosoma (ventral view). L. Genitalia (dorsal view). Abbreviations: EL = embolar lamella; K = keel. Scale bars: A–G, I–L = 1 mm; H = 0.5 mm." figureDoi="http://doi.org/10.5281/zenodo.5761324" httpUri="https://zenodo.org/record/5761324/files/figure.png" pageId="36" pageNumber="37">Fig. 20A</figureCitation>
+.
+</paragraph>
+<paragraph id="8BA2A378E849FF8BECF0F9ABFBB0F9AD" blockId="36.[189,1082,1601,1628]" box="[189,1082,1601,1628]" pageId="36" pageNumber="37">MEASUREMENTS. TBL 5.3, CL 2.5, CW 2.4, LL 0.4, LW 0.6, SL 1.4, SW 1.3.</paragraph>
+<paragraph id="8BA2A378E849FF8BECF0F96CFB97F956" blockId="36.[189,1053,1670,1696]" box="[189,1053,1670,1696]" pageId="36" pageNumber="37">
+COLOR. Yellowish brown carapace and legs, gray abdomen (
+<figureCitation id="1326BFFDE849FF8BEFCDF96CFB9BF956" box="[896,1041,1670,1696]" captionStart="Fig" captionStartId="37.[189,232,1778,1804]" captionTargetBox="[189,1398,265,1740]" captionTargetId="figure-11@37.[189,1398,265,1740]" captionTargetPageId="37" captionText="Fig. 20. Idiops guri Fonseca-Ferreira, Guadanucci &amp; Brescovit sp. nov. A–I. ♂, holotype (MCN 39594). A. Prosoma (dorsal view). B. Prosoma (ventral view).C. Part of palp (retrolateral view). D–F. Palpal bulb. D. Dorsal view. E. Retrolateral view.F. Prolateral view. G. Tibia, metatarsus and tarsus I (prolateral view). H. Tibial apophysis (prolateral view). I. Tibial apophysis and metatarsus I (dorsal view). J–L. ♀ (MCTP 23469). J. Prosoma (dorsal view). K. Prosoma (ventral view). L. Genitalia (dorsal view). Abbreviations: EL = embolar lamella; K = keel. Scale bars: A–G, I–L = 1 mm; H = 0.5 mm." figureDoi="http://doi.org/10.5281/zenodo.5761324" httpUri="https://zenodo.org/record/5761324/files/figure.png" pageId="36" pageNumber="37">Fig. 20A–B</figureCitation>
+).
+</paragraph>
+<paragraph id="8BA2A378E849FF8BECF0F920FAB6F8A1" blockId="36.[187,1399,1738,1880]" pageId="36" pageNumber="37">
+PROSOMA. Carapace and ocular arrangement as shown in 
+<figureCitation id="1326BFFDE849FF8BEF08F920FC24F912" box="[837,942,1738,1764]" captionStart="Fig" captionStartId="37.[189,232,1778,1804]" captionTargetBox="[189,1398,265,1740]" captionTargetId="figure-11@37.[189,1398,265,1740]" captionTargetPageId="37" captionText="Fig. 20. Idiops guri Fonseca-Ferreira, Guadanucci &amp; Brescovit sp. nov. A–I. ♂, holotype (MCN 39594). A. Prosoma (dorsal view). B. Prosoma (ventral view).C. Part of palp (retrolateral view). D–F. Palpal bulb. D. Dorsal view. E. Retrolateral view.F. Prolateral view. G. Tibia, metatarsus and tarsus I (prolateral view). H. Tibial apophysis (prolateral view). I. Tibial apophysis and metatarsus I (dorsal view). J–L. ♀ (MCTP 23469). J. Prosoma (dorsal view). K. Prosoma (ventral view). L. Genitalia (dorsal view). Abbreviations: EL = embolar lamella; K = keel. Scale bars: A–G, I–L = 1 mm; H = 0.5 mm." figureDoi="http://doi.org/10.5281/zenodo.5761324" httpUri="https://zenodo.org/record/5761324/files/figure.png" pageId="36" pageNumber="37">Fig. 20A</figureCitation>
+. Eye tubercle: 0.4 long; 0.5 wide. AME-ALE distance 0.3. Eye diameters: AME 0.1, ALE 0.2, PME 0.1, PLE 0.12. Thoracic fovea procurved (
+<figureCitation id="1326BFFDE849FF8BEC8AF8FDFEBBF8C7" box="[199,305,1815,1841]" captionStart="Fig" captionStartId="37.[189,232,1778,1804]" captionTargetBox="[189,1398,265,1740]" captionTargetId="figure-11@37.[189,1398,265,1740]" captionTargetPageId="37" captionText="Fig. 20. Idiops guri Fonseca-Ferreira, Guadanucci &amp; Brescovit sp. nov. A–I. ♂, holotype (MCN 39594). A. Prosoma (dorsal view). B. Prosoma (ventral view).C. Part of palp (retrolateral view). D–F. Palpal bulb. D. Dorsal view. E. Retrolateral view.F. Prolateral view. G. Tibia, metatarsus and tarsus I (prolateral view). H. Tibial apophysis (prolateral view). I. Tibial apophysis and metatarsus I (dorsal view). J–L. ♀ (MCTP 23469). J. Prosoma (dorsal view). K. Prosoma (ventral view). L. Genitalia (dorsal view). Abbreviations: EL = embolar lamella; K = keel. Scale bars: A–G, I–L = 1 mm; H = 0.5 mm." figureDoi="http://doi.org/10.5281/zenodo.5761324" httpUri="https://zenodo.org/record/5761324/files/figure.png" pageId="36" pageNumber="37">Fig. 20A</figureCitation>
+). Labium and sternum without cuspules (
+<figureCitation id="1326BFFDE849FF8BEF4FF8FDFCE3F8C7" box="[770,873,1815,1841]" captionStart="Fig" captionStartId="37.[189,232,1778,1804]" captionTargetBox="[189,1398,265,1740]" captionTargetId="figure-11@37.[189,1398,265,1740]" captionTargetPageId="37" captionText="Fig. 20. Idiops guri Fonseca-Ferreira, Guadanucci &amp; Brescovit sp. nov. A–I. ♂, holotype (MCN 39594). A. Prosoma (dorsal view). B. Prosoma (ventral view).C. Part of palp (retrolateral view). D–F. Palpal bulb. D. Dorsal view. E. Retrolateral view.F. Prolateral view. G. Tibia, metatarsus and tarsus I (prolateral view). H. Tibial apophysis (prolateral view). I. Tibial apophysis and metatarsus I (dorsal view). J–L. ♀ (MCTP 23469). J. Prosoma (dorsal view). K. Prosoma (ventral view). L. Genitalia (dorsal view). Abbreviations: EL = embolar lamella; K = keel. Scale bars: A–G, I–L = 1 mm; H = 0.5 mm." figureDoi="http://doi.org/10.5281/zenodo.5761324" httpUri="https://zenodo.org/record/5761324/files/figure.png" pageId="36" pageNumber="37">Fig. 20B</figureCitation>
+). Basal segment of chelicerae with a prolateral row of 5 small teeth equally distributed, rastellum with 11–12 spines, distals largest (
+<figureCitation id="1326BFFDE849FF8BE8D2F8D7FAA5F8A1" box="[1183,1327,1853,1879]" captionStart="Fig" captionStartId="38.[189,231,1857,1883]" captionTargetBox="[189,1398,1126,1818]" captionTargetId="figure-277@38.[189,1398,1126,1818]" captionTargetPageId="38" captionText="Fig. 21. Scanning electron micrographs of Idiops guri Fonseca-Ferreira, Guadanucci &amp; Brescovit sp. nov., ♂ (IBSP 220523). A. Chelicera (retrolateral view). B. Rastellum (retrolateral view). C. Tibial apophysis (dorsal view). D. Part of the palp, showing retrolateral depression. E–F. Detail of the final portion of the embolus in prolateral view. Abbreviation: EL = embolar lamella. The arrow indicates the hook-shaped projection near the sperm duct. Scale bars: A = 0.4 mm; B, E–F = 0.2 mm; C = 0.3 mm; D = 1 mm." figureDoi="http://doi.org/10.5281/zenodo.5761326" httpUri="https://zenodo.org/record/5761326/files/figure.png" pageId="36" pageNumber="37">Fig. 21A–B</figureCitation>
+).
+</paragraph>
+<paragraph id="8BA2A378E849FF8BECF0F868FBE5F81E" blockId="36.[187,1399,1922,2025]" pageId="36" pageNumber="37">
+LEGS. Tibia, metatarsus and tarsus I as shown in 
+<figureCitation id="1326BFFDE849FF8BEEAFF868FCC1F86A" box="[738,843,1922,1948]" captionStart="Fig" captionStartId="37.[189,232,1778,1804]" captionTargetBox="[189,1398,265,1740]" captionTargetId="figure-11@37.[189,1398,265,1740]" captionTargetPageId="37" captionText="Fig. 20. Idiops guri Fonseca-Ferreira, Guadanucci &amp; Brescovit sp. nov. A–I. ♂, holotype (MCN 39594). A. Prosoma (dorsal view). B. Prosoma (ventral view).C. Part of palp (retrolateral view). D–F. Palpal bulb. D. Dorsal view. E. Retrolateral view.F. Prolateral view. G. Tibia, metatarsus and tarsus I (prolateral view). H. Tibial apophysis (prolateral view). I. Tibial apophysis and metatarsus I (dorsal view). J–L. ♀ (MCTP 23469). J. Prosoma (dorsal view). K. Prosoma (ventral view). L. Genitalia (dorsal view). Abbreviations: EL = embolar lamella; K = keel. Scale bars: A–G, I–L = 1 mm; H = 0.5 mm." figureDoi="http://doi.org/10.5281/zenodo.5761324" httpUri="https://zenodo.org/record/5761324/files/figure.png" pageId="36" pageNumber="37">Fig. 20G</figureCitation>
+. Tibial apophysis of leg I with short basal branch with small triangular spine and apical branch twice as large as basal branch (
+<figureCitation id="1326BFFDE849FF8BE87DF842FB3FF834" box="[1072,1205,1960,1986]" captionStart="Fig" captionStartId="37.[189,232,1778,1804]" captionTargetBox="[189,1398,265,1740]" captionTargetId="figure-11@37.[189,1398,265,1740]" captionTargetPageId="37" captionText="Fig. 20. Idiops guri Fonseca-Ferreira, Guadanucci &amp; Brescovit sp. nov. A–I. ♂, holotype (MCN 39594). A. Prosoma (dorsal view). B. Prosoma (ventral view).C. Part of palp (retrolateral view). D–F. Palpal bulb. D. Dorsal view. E. Retrolateral view.F. Prolateral view. G. Tibia, metatarsus and tarsus I (prolateral view). H. Tibial apophysis (prolateral view). I. Tibial apophysis and metatarsus I (dorsal view). J–L. ♀ (MCTP 23469). J. Prosoma (dorsal view). K. Prosoma (ventral view). L. Genitalia (dorsal view). Abbreviations: EL = embolar lamella; K = keel. Scale bars: A–G, I–L = 1 mm; H = 0.5 mm." figureDoi="http://doi.org/10.5281/zenodo.5761324" httpUri="https://zenodo.org/record/5761324/files/figure.png" pageId="36" pageNumber="37">Fig. 20G–I</figureCitation>
+), with elongated spine in digitiform shape (
+<figureCitation id="1326BFFDE849FF8BEDBDF824FDD6F81E" box="[496,604,1998,2024]" captionStart="Fig" captionStartId="38.[189,231,1857,1883]" captionTargetBox="[189,1398,1126,1818]" captionTargetId="figure-277@38.[189,1398,1126,1818]" captionTargetPageId="38" captionText="Fig. 21. Scanning electron micrographs of Idiops guri Fonseca-Ferreira, Guadanucci &amp; Brescovit sp. nov., ♂ (IBSP 220523). A. Chelicera (retrolateral view). B. Rastellum (retrolateral view). C. Tibial apophysis (dorsal view). D. Part of the palp, showing retrolateral depression. E–F. Detail of the final portion of the embolus in prolateral view. Abbreviation: EL = embolar lamella. The arrow indicates the hook-shaped projection near the sperm duct. Scale bars: A = 0.4 mm; B, E–F = 0.2 mm; C = 0.3 mm; D = 1 mm." figureDoi="http://doi.org/10.5281/zenodo.5761326" httpUri="https://zenodo.org/record/5761326/files/figure.png" pageId="36" pageNumber="37">Fig. 21C</figureCitation>
+). Pseudoscopula: tarsus I–IV totally covered.
+</paragraph>
+<caption id="DF62F3F0E848FF8AECF0F918FBB5F84B" ID-DOI="http://doi.org/10.5281/zenodo.5761324" ID-Zenodo-Dep="5761324" httpUri="https://zenodo.org/record/5761324/files/figure.png" pageId="37" pageNumber="38" startId="37.[189,232,1778,1804]" targetBox="[189,1398,265,1740]" targetPageId="37">
+<paragraph id="8BA2A378E848FF8AECF0F918FBB5F84B" blockId="37.[187,1399,1778,1981]" pageId="37" pageNumber="38">
+<emphasis id="B9697F6AE848FF8AECF0F918FE9DF8FA" bold="true" box="[189,279,1778,1804]" pageId="37" pageNumber="38">Fig. 20.</emphasis>
+<taxonomicName id="4C1DD8FBE848FF8AED50F919FC1DF8FB" authority="Fonseca-Ferreira, Guadanucci &amp; Brescovit" authorityName="Fonseca-Ferreira, Guadanucci &amp; Brescovit" authorityYear="2021" box="[285,919,1779,1805]" class="Arachnida" family="Idiopidae" genus="Idiops" kingdom="Animalia" order="Araneae" pageId="37" pageNumber="38" phylum="Arthropoda" rank="species" species="guri" status="sp. nov.">
+<emphasis id="B9697F6AE848FF8AED50F919FE17F8FA" box="[285,413,1779,1805]" italics="true" pageId="37" pageNumber="38">Idiops guri</emphasis>
+Fonseca-Ferreira, Guadanucci &amp; Brescovit
+</taxonomicName>
+<taxonomicNameLabel id="A25AC211E848FF8AEFD3F919FC7DF8FB" box="[926,1015,1779,1805]" pageId="37" pageNumber="38" rank="species">sp. nov.</taxonomicNameLabel>
+<emphasis id="B9697F6AE848FF8AEFB6F918FBA1F8FA" bold="true" box="[1019,1067,1778,1804]" pageId="37" pageNumber="38">A–I</emphasis>
+. ♂, holotype (MCN 39594). 
+<emphasis id="B9697F6AE848FF8AECF0F8FCFF58F8C6" bold="true" box="[189,210,1814,1840]" pageId="37" pageNumber="38">A</emphasis>
+. Prosoma (dorsal view). 
+<emphasis id="B9697F6AE848FF8AEDA1F8FCFE75F8C6" bold="true" box="[492,511,1814,1840]" pageId="37" pageNumber="38">B</emphasis>
+. Prosoma (ventral view). 
+<emphasis id="B9697F6AE848FF8AEF69F8FCFCB3F8C6" bold="true" box="[804,825,1814,1840]" pageId="37" pageNumber="38">C</emphasis>
+. Part of palp (retrolateral view). 
+<emphasis id="B9697F6AE848FF8AE8E6F8FCFB6AF8C6" bold="true" box="[1195,1248,1814,1840]" pageId="37" pageNumber="38">D–F</emphasis>
+. Palpal bulb. 
+<emphasis id="B9697F6AE848FF8AECF6F8D3FF5AF8A5" bold="true" box="[187,208,1849,1875]" pageId="37" pageNumber="38">D</emphasis>
+. Dorsal view. 
+<emphasis id="B9697F6AE848FF8AED3EF8D3FE0CF8A5" bold="true" box="[371,390,1849,1875]" pageId="37" pageNumber="38">E</emphasis>
+. Retrolateral view. 
+<emphasis id="B9697F6AE848FF8AEE2EF8D3FDFFF8A5" bold="true" box="[611,629,1849,1875]" pageId="37" pageNumber="38">F</emphasis>
+. Prolateral view. 
+<emphasis id="B9697F6AE848FF8AEF76F8D3FCD8F8A5" bold="true" box="[827,850,1849,1875]" pageId="37" pageNumber="38">G</emphasis>
+. Tibia, metatarsus and tarsus I (prolateral view). 
+<emphasis id="B9697F6AE848FF8AECF0F8B6FF5EF880" bold="true" box="[189,212,1884,1910]" pageId="37" pageNumber="38">H</emphasis>
+. Tibial apophysis (prolateral view). 
+<emphasis id="B9697F6AE848FF8AEE35F8B6FD09F880" bold="true" box="[632,643,1884,1910]" pageId="37" pageNumber="38">I</emphasis>
+. Tibial apophysis and metatarsus I (dorsal view). 
+<emphasis id="B9697F6AE848FF8AE88EF8B6FB7EF880" bold="true" box="[1219,1268,1884,1910]" pageId="37" pageNumber="38">J–L</emphasis>
+. ♀ (MCTP 23469). 
+<emphasis id="B9697F6AE848FF8AED50F86AFEA6F86C" bold="true" box="[285,300,1920,1946]" pageId="37" pageNumber="38">J</emphasis>
+. Prosoma (dorsal view). 
+<emphasis id="B9697F6AE848FF8AEE01F86AFDE9F86C" bold="true" box="[588,611,1920,1946]" pageId="37" pageNumber="38">K</emphasis>
+. Prosoma (ventral view). 
+<emphasis id="B9697F6AE848FF8AEFC3F86AFC28F86C" bold="true" box="[910,930,1920,1946]" pageId="37" pageNumber="38">L</emphasis>
+. Genitalia (dorsal view). Abbreviations: EL = embolar lamella; K = keel. Scale bars: A–G, I–L = 1 mm; H = 0.5 mm.
+</paragraph>
+</caption>
+<paragraph id="8BA2A378E84BFF89ECF0FEE3FDCCFE90" blockId="38.[188,1398,265,358]" pageId="38" pageNumber="39">
+PALP. Tibia with larger spines arranged on basal half of retrolateral depression (
+<figureCitation id="1326BFFDE84BFF89E815FEE3FB4EFED5" box="[1112,1220,265,291]" captionStart="Fig" captionStartId="37.[189,232,1778,1804]" captionTargetBox="[189,1398,265,1740]" captionTargetId="figure-11@37.[189,1398,265,1740]" captionTargetPageId="37" captionText="Fig. 20. Idiops guri Fonseca-Ferreira, Guadanucci &amp; Brescovit sp. nov. A–I. ♂, holotype (MCN 39594). A. Prosoma (dorsal view). B. Prosoma (ventral view).C. Part of palp (retrolateral view). D–F. Palpal bulb. D. Dorsal view. E. Retrolateral view.F. Prolateral view. G. Tibia, metatarsus and tarsus I (prolateral view). H. Tibial apophysis (prolateral view). I. Tibial apophysis and metatarsus I (dorsal view). J–L. ♀ (MCTP 23469). J. Prosoma (dorsal view). K. Prosoma (ventral view). L. Genitalia (dorsal view). Abbreviations: EL = embolar lamella; K = keel. Scale bars: A–G, I–L = 1 mm; H = 0.5 mm." figureDoi="http://doi.org/10.5281/zenodo.5761324" httpUri="https://zenodo.org/record/5761324/files/figure.png" pageId="38" pageNumber="39">Fig. 20C</figureCitation>
+), embolus with keel in retrolateral view, embolus with subapical torsion, followed by lateral lamella close to opening of sperm duct (
+<figureCitation id="1326BFFDE84BFF89ED00FEA6FE51FE90" box="[333,475,332,358]" captionStart="Fig" captionStartId="37.[189,232,1778,1804]" captionTargetBox="[189,1398,265,1740]" captionTargetId="figure-11@37.[189,1398,265,1740]" captionTargetPageId="37" captionText="Fig. 20. Idiops guri Fonseca-Ferreira, Guadanucci &amp; Brescovit sp. nov. A–I. ♂, holotype (MCN 39594). A. Prosoma (dorsal view). B. Prosoma (ventral view).C. Part of palp (retrolateral view). D–F. Palpal bulb. D. Dorsal view. E. Retrolateral view.F. Prolateral view. G. Tibia, metatarsus and tarsus I (prolateral view). H. Tibial apophysis (prolateral view). I. Tibial apophysis and metatarsus I (dorsal view). J–L. ♀ (MCTP 23469). J. Prosoma (dorsal view). K. Prosoma (ventral view). L. Genitalia (dorsal view). Abbreviations: EL = embolar lamella; K = keel. Scale bars: A–G, I–L = 1 mm; H = 0.5 mm." figureDoi="http://doi.org/10.5281/zenodo.5761324" httpUri="https://zenodo.org/record/5761324/files/figure.png" pageId="38" pageNumber="39">Figs 20D–F</figureCitation>
+, 
+<figureCitation id="1326BFFDE84BFF89EDAAFEA6FDB0FE90" box="[487,570,332,358]" captionStart="Fig" captionStartId="38.[189,231,1857,1883]" captionTargetBox="[189,1398,1126,1818]" captionTargetId="figure-277@38.[189,1398,1126,1818]" captionTargetPageId="38" captionText="Fig. 21. Scanning electron micrographs of Idiops guri Fonseca-Ferreira, Guadanucci &amp; Brescovit sp. nov., ♂ (IBSP 220523). A. Chelicera (retrolateral view). B. Rastellum (retrolateral view). C. Tibial apophysis (dorsal view). D. Part of the palp, showing retrolateral depression. E–F. Detail of the final portion of the embolus in prolateral view. Abbreviation: EL = embolar lamella. The arrow indicates the hook-shaped projection near the sperm duct. Scale bars: A = 0.4 mm; B, E–F = 0.2 mm; C = 0.3 mm; D = 1 mm." figureDoi="http://doi.org/10.5281/zenodo.5761326" httpUri="https://zenodo.org/record/5761326/files/figure.png" pageId="38" pageNumber="39">21E–F</figureCitation>
+).
+</paragraph>
+<paragraph id="8BA2A378E84BFF89ECF0FE61FC5DFE31" blockId="38.[189,1399,395,455]" pageId="38" pageNumber="39">PALP AND LEG MEASUREMENTS. Palp = 3.8 (1.2, 0.6, 1.4, 0.6), I = 7.5 (2.2, 1.2, 1.7, 1.4, 1), II = 6.8 (2.2, 1, 1.4, 1.2, 1), III = 6.2 (1.7, 1, 1, 1.5, 1), IV = 8 (1.9, 1, 2, 1.9, 1.2).</paragraph>
+<paragraph id="8BA2A378E84BFF89ECF0FE06FE6DFD9C" blockId="38.[189,1398,492,619]" pageId="38" pageNumber="39">SPINATION. Palp: Ti r13. Leg I: Pa v0-0-1, Ti r0-1-2 Mt v0-0-1, p0-0-1, r1-1-2, Ta p0-0-1 r0-1-0. Leg II: Pa v0-0-3, Ti v1-1-3, p0-0-2, Mt v1-1-3, p0-0-1, Ta p0-0-1. Leg III: Pa p1-2-2, Ti v0-0-2, p0-1-1, r0- 0-1, Mt v0-1-2, p0-1-2, r0-1-2, d0-1-2. Leg IV: Pa 0-0-1, Ti v1-1-2, p0-0-1, r0-0-1, Mt v0-1-2, p0-0-1, r0-0-2, Ta p0-0-1, r0-0-1.</paragraph>
+<paragraph id="8BA2A378E84BFF89ECA7FD7AFD8AFD5D" blockId="38.[189,512,656,715]" box="[234,512,656,683]" pageId="38" pageNumber="39">
+<emphasis id="B9697F6AE84BFF89ECA7FD7AFECFFD5C" bold="true" box="[234,325,656,682]" pageId="38" pageNumber="39">Female</emphasis>
+(MCTP 23469)
+</paragraph>
+<paragraph id="8BA2A378E84BFF89ECF0FD5BFE4DFD3D" blockId="38.[189,512,656,715]" box="[189,455,689,715]" pageId="38" pageNumber="39">
+HABITUS. See 
+<figureCitation id="1326BFFDE84BFF89ED2CFD5BFE49FD3D" box="[353,451,689,715]" captionStart="Fig" captionStartId="37.[189,232,1778,1804]" captionTargetBox="[189,1398,265,1740]" captionTargetId="figure-11@37.[189,1398,265,1740]" captionTargetPageId="37" captionText="Fig. 20. Idiops guri Fonseca-Ferreira, Guadanucci &amp; Brescovit sp. nov. A–I. ♂, holotype (MCN 39594). A. Prosoma (dorsal view). B. Prosoma (ventral view).C. Part of palp (retrolateral view). D–F. Palpal bulb. D. Dorsal view. E. Retrolateral view.F. Prolateral view. G. Tibia, metatarsus and tarsus I (prolateral view). H. Tibial apophysis (prolateral view). I. Tibial apophysis and metatarsus I (dorsal view). J–L. ♀ (MCTP 23469). J. Prosoma (dorsal view). K. Prosoma (ventral view). L. Genitalia (dorsal view). Abbreviations: EL = embolar lamella; K = keel. Scale bars: A–G, I–L = 1 mm; H = 0.5 mm." figureDoi="http://doi.org/10.5281/zenodo.5761324" httpUri="https://zenodo.org/record/5761324/files/figure.png" pageId="38" pageNumber="39">Fig. 20J</figureCitation>
+.
+</paragraph>
+<paragraph id="8BA2A378E84BFF89ECF0FD1BFBB0FCFD" blockId="38.[189,1082,752,779]" box="[189,1082,752,779]" pageId="38" pageNumber="39">MEASUREMENTS. TBL 8.4, CL 4.2, CW 3.7, LL 0.7, LW 0.9, SL 2.5, SW 2.5.</paragraph>
+<paragraph id="8BA2A378E84BFF89ECF0FCDAFC14FCBC" blockId="38.[189,926,816,843]" box="[189,926,816,843]" pageId="38" pageNumber="39">
+COLOR. Brown carapace and legs, gray abdomen (
+<figureCitation id="1326BFFDE84BFF89EF44FCDAFC18FCBC" box="[777,914,816,842]" captionStart="Fig" captionStartId="37.[189,232,1778,1804]" captionTargetBox="[189,1398,265,1740]" captionTargetId="figure-11@37.[189,1398,265,1740]" captionTargetPageId="37" captionText="Fig. 20. Idiops guri Fonseca-Ferreira, Guadanucci &amp; Brescovit sp. nov. A–I. ♂, holotype (MCN 39594). A. Prosoma (dorsal view). B. Prosoma (ventral view).C. Part of palp (retrolateral view). D–F. Palpal bulb. D. Dorsal view. E. Retrolateral view.F. Prolateral view. G. Tibia, metatarsus and tarsus I (prolateral view). H. Tibial apophysis (prolateral view). I. Tibial apophysis and metatarsus I (dorsal view). J–L. ♀ (MCTP 23469). J. Prosoma (dorsal view). K. Prosoma (ventral view). L. Genitalia (dorsal view). Abbreviations: EL = embolar lamella; K = keel. Scale bars: A–G, I–L = 1 mm; H = 0.5 mm." figureDoi="http://doi.org/10.5281/zenodo.5761324" httpUri="https://zenodo.org/record/5761324/files/figure.png" pageId="38" pageNumber="39">Fig. 20J–K</figureCitation>
+).
+</paragraph>
+<paragraph id="8BA2A378E84BFF89ECF0FC9AFD00FBC4" blockId="38.[187,1400,879,1074]" pageId="38" pageNumber="39">
+PROSOMA. Carapace and ocular arrangement as shown in 
+<figureCitation id="1326BFFDE84BFF89EF38FC9AFC51FC7C" box="[885,987,880,906]" captionStart="Fig" captionStartId="37.[189,232,1778,1804]" captionTargetBox="[189,1398,265,1740]" captionTargetId="figure-11@37.[189,1398,265,1740]" captionTargetPageId="37" captionText="Fig. 20. Idiops guri Fonseca-Ferreira, Guadanucci &amp; Brescovit sp. nov. A–I. ♂, holotype (MCN 39594). A. Prosoma (dorsal view). B. Prosoma (ventral view).C. Part of palp (retrolateral view). D–F. Palpal bulb. D. Dorsal view. E. Retrolateral view.F. Prolateral view. G. Tibia, metatarsus and tarsus I (prolateral view). H. Tibial apophysis (prolateral view). I. Tibial apophysis and metatarsus I (dorsal view). J–L. ♀ (MCTP 23469). J. Prosoma (dorsal view). K. Prosoma (ventral view). L. Genitalia (dorsal view). Abbreviations: EL = embolar lamella; K = keel. Scale bars: A–G, I–L = 1 mm; H = 0.5 mm." figureDoi="http://doi.org/10.5281/zenodo.5761324" httpUri="https://zenodo.org/record/5761324/files/figure.png" pageId="38" pageNumber="39">Fig. 20J</figureCitation>
+. Eye tubercle: 0.5 long; 0.9 wide. AME-ALE distance 0.7. Eye diameters: AME 0.2, ALE 0.3, PME 0.2, PLE 0.3. Thoracic fovea procurved (
+<figureCitation id="1326BFFDE84BFF89EC89FC58FEACFC3A" box="[196,294,946,972]" captionStart="Fig" captionStartId="37.[189,232,1778,1804]" captionTargetBox="[189,1398,265,1740]" captionTargetId="figure-11@37.[189,1398,265,1740]" captionTargetPageId="37" captionText="Fig. 20. Idiops guri Fonseca-Ferreira, Guadanucci &amp; Brescovit sp. nov. A–I. ♂, holotype (MCN 39594). A. Prosoma (dorsal view). B. Prosoma (ventral view).C. Part of palp (retrolateral view). D–F. Palpal bulb. D. Dorsal view. E. Retrolateral view.F. Prolateral view. G. Tibia, metatarsus and tarsus I (prolateral view). H. Tibial apophysis (prolateral view). I. Tibial apophysis and metatarsus I (dorsal view). J–L. ♀ (MCTP 23469). J. Prosoma (dorsal view). K. Prosoma (ventral view). L. Genitalia (dorsal view). Abbreviations: EL = embolar lamella; K = keel. Scale bars: A–G, I–L = 1 mm; H = 0.5 mm." figureDoi="http://doi.org/10.5281/zenodo.5761324" httpUri="https://zenodo.org/record/5761324/files/figure.png" pageId="38" pageNumber="39">Fig. 20J</figureCitation>
+). Labium with 4 cuspules (
+<figureCitation id="1326BFFDE84BFF89EE17FC58FD4CFC3A" box="[602,710,946,972]" captionStart="Fig" captionStartId="37.[189,232,1778,1804]" captionTargetBox="[189,1398,265,1740]" captionTargetId="figure-11@37.[189,1398,265,1740]" captionTargetPageId="37" captionText="Fig. 20. Idiops guri Fonseca-Ferreira, Guadanucci &amp; Brescovit sp. nov. A–I. ♂, holotype (MCN 39594). A. Prosoma (dorsal view). B. Prosoma (ventral view).C. Part of palp (retrolateral view). D–F. Palpal bulb. D. Dorsal view. E. Retrolateral view.F. Prolateral view. G. Tibia, metatarsus and tarsus I (prolateral view). H. Tibial apophysis (prolateral view). I. Tibial apophysis and metatarsus I (dorsal view). J–L. ♀ (MCTP 23469). J. Prosoma (dorsal view). K. Prosoma (ventral view). L. Genitalia (dorsal view). Abbreviations: EL = embolar lamella; K = keel. Scale bars: A–G, I–L = 1 mm; H = 0.5 mm." figureDoi="http://doi.org/10.5281/zenodo.5761324" httpUri="https://zenodo.org/record/5761324/files/figure.png" pageId="38" pageNumber="39">Fig. 20K</figureCitation>
+). Maxilla with 29 cuspules, distributed over anterior ventral half, with 8 large cuspules at anterior ventral retrolateral end and 5 large cuspules at anterior ventral prolateral end (
+<figureCitation id="1326BFFDE84BFF89ED3CFC1FFE55FBF9" box="[369,479,1013,1039]" captionStart="Fig" captionStartId="37.[189,232,1778,1804]" captionTargetBox="[189,1398,265,1740]" captionTargetId="figure-11@37.[189,1398,265,1740]" captionTargetPageId="37" captionText="Fig. 20. Idiops guri Fonseca-Ferreira, Guadanucci &amp; Brescovit sp. nov. A–I. ♂, holotype (MCN 39594). A. Prosoma (dorsal view). B. Prosoma (ventral view).C. Part of palp (retrolateral view). D–F. Palpal bulb. D. Dorsal view. E. Retrolateral view.F. Prolateral view. G. Tibia, metatarsus and tarsus I (prolateral view). H. Tibial apophysis (prolateral view). I. Tibial apophysis and metatarsus I (dorsal view). J–L. ♀ (MCTP 23469). J. Prosoma (dorsal view). K. Prosoma (ventral view). L. Genitalia (dorsal view). Abbreviations: EL = embolar lamella; K = keel. Scale bars: A–G, I–L = 1 mm; H = 0.5 mm." figureDoi="http://doi.org/10.5281/zenodo.5761324" httpUri="https://zenodo.org/record/5761324/files/figure.png" pageId="38" pageNumber="39">Fig. 20K</figureCitation>
+). Basal segment of chelicerae with a prolateral row of 5 large teeth. Rastellum with 11–12 thick spines, distals largest.
+</paragraph>
+<caption id="DF62F3F0E84BFF89ECF0F8ABFAC3F81F" ID-DOI="http://doi.org/10.5281/zenodo.5761326" ID-Zenodo-Dep="5761326" httpUri="https://zenodo.org/record/5761326/files/figure.png" pageId="38" pageNumber="39" startId="38.[189,231,1857,1883]" targetBox="[189,1398,1126,1818]" targetPageId="38">
+<paragraph id="8BA2A378E84BFF89ECF0F8ABFAC3F81F" blockId="38.[187,1399,1857,2025]" pageId="38" pageNumber="39">
+<emphasis id="B9697F6AE84BFF89ECF0F8ABFE9DF8AD" bold="true" box="[189,279,1857,1883]" pageId="38" pageNumber="39">Fig. 21.</emphasis>
+Scanning electron micrographs of 
+<taxonomicName id="4C1DD8FBE84BFF89EEEFF8ABFA98F8AD" authority="Fonseca-Ferreira, Guadanucci &amp; Brescovit" authorityName="Fonseca-Ferreira, Guadanucci &amp; Brescovit" authorityYear="2021" box="[674,1298,1857,1884]" class="Arachnida" family="Idiopidae" genus="Idiops" kingdom="Animalia" order="Araneae" pageId="38" pageNumber="39" phylum="Arthropoda" rank="species" species="guri" status="sp. nov.">
+<emphasis id="B9697F6AE84BFF89EEEFF8ABFCAAF8AD" box="[674,800,1857,1883]" italics="true" pageId="38" pageNumber="39">Idiops guri</emphasis>
+Fonseca-Ferreira, Guadanucci &amp; Brescovit
+</taxonomicName>
+<taxonomicNameLabel id="A25AC211E84BFF89E955F8A8FAF8F8AA" box="[1304,1394,1858,1884]" pageId="38" pageNumber="39" rank="species">sp. nov.</taxonomicNameLabel>
+, ♂ (IBSP 220523). 
+<emphasis id="B9697F6AE84BFF89EDDBF88EFE21F888" bold="true" box="[406,427,1892,1918]" pageId="38" pageNumber="39">A</emphasis>
+. Chelicera (retrolateral view). 
+<emphasis id="B9697F6AE84BFF89EF5CF88FFCAFF889" bold="true" box="[785,805,1893,1919]" pageId="38" pageNumber="39">B</emphasis>
+. Rastellum (retrolateral view). 
+<emphasis id="B9697F6AE84BFF89E8DFF88EFB2DF888" bold="true" box="[1170,1191,1892,1918]" pageId="38" pageNumber="39">C</emphasis>
+. Tibial apophysis (dorsal view). 
+<emphasis id="B9697F6AE84BFF89ED28F862FEF0F854" bold="true" box="[357,378,1928,1954]" pageId="38" pageNumber="39">D</emphasis>
+. Part of the palp, showing retrolateral depression. 
+<emphasis id="B9697F6AE84BFF89EF8EF862FC7DF854" bold="true" box="[963,1015,1928,1954]" pageId="38" pageNumber="39">E–F</emphasis>
+. Detail of the final portion of the embolus in prolateral view. Abbreviation: EL = embolar lamella. The arrow indicates the hook-shaped projection near the sperm duct. Scale bars: A = 0.4 mm; B, E–F = 0.2 mm; C = 0.3 mm; D = 1 mm.
+</paragraph>
+</caption>
+<paragraph id="8BA2A378E84AFF88ECF0FEE3FBA5FEB3" blockId="39.[189,1399,265,326]" pageId="39" pageNumber="40">PALP AND LEG MEASUREMENTS. Palp = 6.9 (2.5, 1.3, 1.5, 1.6), I = 7.7 (2.5, 1.6, 1.8, 1, 0.8), II = 6.6 (2.2, 1.4, 1.2, 1.1, 0.7), III = 7.3 (2, 1.6, 1.2, 1.5, 1), IV = 9.7 (2.6, 2, 1.8, 2, 1.3).</paragraph>
+<paragraph id="8BA2A378E84AFF88ECF0FE86FAFCFE3C" blockId="39.[188,1399,363,459]" pageId="39" pageNumber="40">SPINATION. Palp: Ti r5-4-5, p2-4-6, Ta r4-6-6, p7-6-5. Leg I: Mt r3-4-5, p2-3-3, Ta v0-0-3, r5-4-6, p2-4-2. Leg II: Ti r2-3-3, p2-4-2, Mt r6-4-5, p5-5-5, Ta v0-0-3, r3-2-1, p2-4-2. Leg III: Pa p3-5-8, Ti p0-2-3, Mt d2-4-4, v1-2-2, p4-2-1, Ta v0-1-3, p0-2-0. Leg IV: Pa p12-0-0, Ti v1-1-1, Mt v1-2-2, p0-0-1, Ta v0-3-4.</paragraph>
+<paragraph id="8BA2A378E84AFF88ECF0FE1BFDC0FDDB" blockId="39.[189,1399,496,557]" pageId="39" pageNumber="40">
+SPERMATHECAE. Duct with translucent median portion and receptacle with evident granules and medial half slightly expanded (
+<figureCitation id="1326BFFDE84AFF88ED9FFDF9FDB7FDDB" box="[466,573,531,557]" captionStart="Fig" captionStartId="37.[189,232,1778,1804]" captionTargetBox="[189,1398,265,1740]" captionTargetId="figure-11@37.[189,1398,265,1740]" captionTargetPageId="37" captionText="Fig. 20. Idiops guri Fonseca-Ferreira, Guadanucci &amp; Brescovit sp. nov. A–I. ♂, holotype (MCN 39594). A. Prosoma (dorsal view). B. Prosoma (ventral view).C. Part of palp (retrolateral view). D–F. Palpal bulb. D. Dorsal view. E. Retrolateral view.F. Prolateral view. G. Tibia, metatarsus and tarsus I (prolateral view). H. Tibial apophysis (prolateral view). I. Tibial apophysis and metatarsus I (dorsal view). J–L. ♀ (MCTP 23469). J. Prosoma (dorsal view). K. Prosoma (ventral view). L. Genitalia (dorsal view). Abbreviations: EL = embolar lamella; K = keel. Scale bars: A–G, I–L = 1 mm; H = 0.5 mm." figureDoi="http://doi.org/10.5281/zenodo.5761324" httpUri="https://zenodo.org/record/5761324/files/figure.png" pageId="39" pageNumber="40">Fig. 20L</figureCitation>
+).
+</paragraph>
+</subSubSection>
+<subSubSection id="C307F0F3E84AFF88ECF0FDB9FC8AFD4B" pageId="39" pageNumber="40" type="distribution">
+<paragraph id="8BA2A378E84AFF88ECF0FDB9FEDCFD9B" blockId="39.[189,342,595,621]" box="[189,342,595,621]" pageId="39" pageNumber="40">
+<heading id="D0EA1414E84AFF88ECF0FDB9FEDCFD9B" bold="true" box="[189,342,595,621]" fontSize="11" level="3" pageId="39" pageNumber="40" reason="3">
+<emphasis id="B9697F6AE84AFF88ECF0FDB9FEDCFD9B" bold="true" box="[189,342,595,621]" pageId="39" pageNumber="40">Distribution</emphasis>
+</heading>
+</paragraph>
+<paragraph id="8BA2A378E84AFF88ECF0FD6BFC8AFD4B" blockId="39.[188,1398,641,702]" pageId="39" pageNumber="40">
+<collectingCountry id="F30AE3E8E84AFF88ECF0FD6BFE82FD6D" box="[189,264,641,667]" name="Brazil" pageId="39" pageNumber="40">Brazil</collectingCountry>
+. Found mainly in Atlantic Forest phytophysiognomies, with records for the South region (
+<collectingRegion id="49D96D9AE84AFF88E953FD6BFAF9FD6D" box="[1310,1395,641,667]" country="Brazil" name="Parana" pageId="39" pageNumber="40">Paraná</collectingRegion>
+, 
+<collectingRegion id="49D96D9AE84AFF88ECF1FD49FEE2FD4B" box="[188,360,675,701]" country="Brazil" name="Santa Catarina" pageId="39" pageNumber="40">Santa Catarina</collectingRegion>
+and 
+<collectingRegion id="49D96D9AE84AFF88EDECFD49FDF4FD48" box="[417,638,675,702]" country="Brazil" name="Rio Grande do Sul" pageId="39" pageNumber="40">Rio Grande do Sul</collectingRegion>
+) (
+<figureCitation id="1326BFFDE84AFF88EEDBFD49FD79FD4B" box="[662,755,675,701]" captionStart="Fig" captionStartId="7.[191,234,1997,2023]" captionTargetBox="[212,1387,687,1932]" captionTargetId="figure-145@7.[189,1398,648,1958]" captionTargetPageId="7" captionText="Fig. 3. Distribution of species of Idiops Perty, 1833 in the Neotropical region (part)." figureDoi="http://doi.org/10.5281/zenodo.5761286" httpUri="https://zenodo.org/record/5761286/files/figure.png" pageId="39" pageNumber="40">Fig. 3C</figureCitation>
+).
+</paragraph>
+</subSubSection>
+</treatment>
+</document>
