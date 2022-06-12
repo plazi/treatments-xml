@@ -1,0 +1,928 @@
+<document id="C7C12DD9DB6EE4A83FBBCEE39213DB6E" ID-DOI="http://doi.org/10.5281/zenodo.5588645" ID-GBIF-Dataset="5994a538-4735-4a87-817e-5e3e7d6213ca" ID-GBIF-Taxon="189363823" ID-ISSN="1175-5326" ID-Zenodo-Dep="5588645" ID-ZooBank="C00259C2-CB84-42EA-AB16-38DD47153DC6" _generate="added" checkinTime="1634627715315" checkinUser="plazi" docAuthor="Ulysséa, Mônica Antunes" docDate="2021" docId="4A4D4F09FFE7FFFAF0A5F1DFFB07FA00" docLanguage="en" docName="zootaxa.5055.1.1.pdf" docOrigin="Zootaxa 5055 (1)" docStyle="DocumentStyle:5EBBA59367AD13919D70D935FA04F6A3.9:Zootaxa.2013-.monograph" docStyleId="5EBBA59367AD13919D70D935FA04F6A3" docStyleName="Zootaxa.2013-.monograph" docStyleVersion="9" docTitle="Hylomyrma mitiae Ulyssea 2021, new species" docType="treatment" docVersion="6" lastPageId="82" lastPageNumber="86" masterDocId="B6743771FFA8FFA8F032F403FFC7FFE5" masterDocTitle="Taxonomic revision of the Neotropical ant genus Hylomyrma Forel, 1912 (Hymenoptera: Formicidae: Myrmicinae), with the description of fourteen new species" masterLastPageNumber="137" masterPageNumber="1" pageId="79" pageNumber="80" updateTime="1635192830594" updateUser="ExternalLinkService">
+<mods:mods id="28F82C521991CF221578A34DF726BA10" xmlns:mods="http://www.loc.gov/mods/v3">
+<mods:titleInfo id="322892A83F2ADDF0ED5AF3BDE039798F">
+<mods:title id="0857AAC4C1C5FBB8BFD4C4A0285C64DB">Taxonomic revision of the Neotropical ant genus Hylomyrma Forel, 1912 (Hymenoptera: Formicidae: Myrmicinae), with the description of fourteen new species</mods:title>
+</mods:titleInfo>
+<mods:name id="BC200F061D6F104CF8C837DC04F07E82" type="personal">
+<mods:role id="09AC86241976A6C192DEDD4C84735153">
+<mods:roleTerm id="153D993690B7873DC49147F1D16FFD74">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="649A822861B1C9C2310FC3A510364CEC">Ulysséa, Mônica Antunes</mods:namePart>
+</mods:name>
+<mods:typeOfResource id="4B35CA0F3A366D0689C607724913FFA9">text</mods:typeOfResource>
+<mods:relatedItem id="589B8ED750CEE3CCA8B33997836EEC6A" type="host">
+<mods:titleInfo id="E85E477A73201194110553E2688BF521">
+<mods:title id="8BAA536B1E3BC705C97ABFE0D5A3DAAD">Zootaxa</mods:title>
+</mods:titleInfo>
+<mods:part id="6EB4FB619AB603413CC28A921B7FD8F6">
+<mods:date id="58EF1BAA58A5097EEEE3A01C03D13DDE">2021</mods:date>
+<mods:detail id="2A2786A0F546BC3529E075B1B449628A" type="pubDate">
+<mods:number id="8E943DB3890AABB72CF17459E840F3E8">2021-10-19</mods:number>
+</mods:detail>
+<mods:detail id="522E2B5CFFF7D6C3D18424A7A0A10C8E" type="volume">
+<mods:number id="6BC420F15B314802625FA938019E4F45">5055</mods:number>
+</mods:detail>
+<mods:detail id="13C907D6D1727CEC77DAB38093332EDD" type="issue">
+<mods:number id="E54C1FFFD10EDE34951A925D97F2C524">1</mods:number>
+</mods:detail>
+<mods:extent id="E68A5B79ED4F846FDC6B591A6862DC22" unit="page">
+<mods:start id="D813529ABC940D8A064FE827B55B5DDE">1</mods:start>
+<mods:end id="96B5DACEA4996BFEBA1208EAD4A17C61">137</mods:end>
+</mods:extent>
+</mods:part>
+</mods:relatedItem>
+<mods:classification id="3D0E54E47E91516FF89371377A1F50BE">journal article</mods:classification>
+<mods:identifier id="0CA71C8EE3492B7AF3D4A0C6EB449144" type="DOI">https://doi.org/10.11646/zootaxa.5055.1.1</mods:identifier>
+<mods:identifier id="5C9EBC4ECC07922D1BA222C0F8504C28" type="GBIF-Dataset">5994a538-4735-4a87-817e-5e3e7d6213ca</mods:identifier>
+<mods:identifier id="A737CBF10CD98AD31DB34BBBE0F2A94C" type="ISSN">1175-5326</mods:identifier>
+<mods:identifier id="FCBDD4E0F7441E645986BE2819E09301" type="Zenodo-Dep">5577660</mods:identifier>
+<mods:identifier id="801C4D4B40EB720D92A694312D16AAC7" type="ZooBank">C00259C2-CB84-42EA-AB16-38DD47153DC6</mods:identifier>
+</mods:mods>
+<treatment id="4A4D4F09FFE7FFFAF0A5F1DFFB07FA00" ID-DOI="http://doi.org/10.5281/zenodo.5588645" ID-GBIF-Taxon="189363823" ID-Zenodo-Dep="5588645" LSID="urn:lsid:plazi:treatment:4A4D4F09FFE7FFFAF0A5F1DFFB07FA00" httpUri="http://treatment.plazi.org/id/4A4D4F09FFE7FFFAF0A5F1DFFB07FA00" lastPageId="82" lastPageNumber="86" pageId="79" pageNumber="80">
+<subSubSection id="8AFEAD94FFE7FFE7F0A5F1DFFDB1FA13" box="[151,630,1500,1527]" pageId="79" pageNumber="80" type="nomenclature">
+<paragraph id="C25BFE1FFFE7FFE7F0A5F1DFFDB1FA13" blockId="79.[151,630,1500,1564]" box="[151,630,1500,1527]" pageId="79" pageNumber="80">
+<heading id="99134973FFE7FFE7F0A5F1DFFDB1FA13" bold="true" box="[151,630,1500,1527]" fontSize="11" level="2" pageId="79" pageNumber="80" reason="4">
+<emphasis id="F090220DFFE7FFE7F0A5F1DFFDB1FA13" bold="true" box="[151,630,1500,1527]" pageId="79" pageNumber="80">
+<taxonomicName id="05E4859CFFE7FFE7F0A5F1DFFE18FA12" authority="Ulyssea" authorityName="Ulyssea" authorityYear="2021" box="[151,479,1500,1527]" class="Insecta" family="Formicidae" genus="Hylomyrma" kingdom="Animalia" order="Hymenoptera" pageId="79" pageNumber="80" phylum="Arthropoda" rank="species" species="mitiae" status="new species">
+<emphasis id="F090220DFFE7FFE7F0A5F1DFFEBEFA12" bold="true" box="[151,377,1500,1527]" italics="true" pageId="79" pageNumber="80">Hylomyrma mitiae</emphasis>
+Ulysséa
+</taxonomicName>
+<taxonomicNameLabel id="EBA39F76FFE7FFE7F1D4F1DEFDB1FA13" box="[486,630,1500,1527]" pageId="79" pageNumber="80" rank="species">new species</taxonomicNameLabel>
+</emphasis>
+</heading>
+</paragraph>
+</subSubSection>
+<subSubSection id="8AFEAD94FFE7FFE7F0A5F202FDEEF9FE" box="[151,553,1537,1564]" pageId="79" pageNumber="80" type="description">
+<paragraph id="C25BFE1FFFE7FFE7F0A5F202FDEEF9FE" blockId="79.[151,630,1500,1564]" box="[151,553,1537,1564]" pageId="79" pageNumber="80">
+<figureCitation id="5ADFE29AFFE7FFE7F0A5F202FED7F9F9" box="[151,272,1537,1564]" captionStart="FIGURE 53" captionStartId="80.[151,250,1685,1709]" captionTargetBox="[152,1436,345,1662]" captionTargetId="figure-115@80.[151,1436,345,1662]" captionTargetPageId="80" captionText="FIGURE 53. Holotype worker of Hylomyrma mitiae (MZSP67401). A) frontal view; B) dorsal view; C) lateral view. Photos by Gabriel Biffi." figureDoi="http://doi.org/10.5281/zenodo.5577792" httpUri="https://zenodo.org/record/5577792/files/figure.png" pageId="79" pageNumber="80">Figures 53</figureCitation>
+, 
+<figureCitation id="5ADFE29AFFE7FFE7F12EF202FEFDF9F9" box="[284,314,1537,1564]" captionStart="FIGURE 54" captionStartId="81.[151,250,1598,1622]" captionTargetBox="[151,1436,309,1575]" captionTargetId="figure-62@81.[151,1436,309,1575]" captionTargetPageId="81" captionText="FIGURE 54. Paratype queen of Hylomyrma mitiae (MZSP67402). A) frontal view; B) dorsal view; C) lateral view. Photos by Gabriel Biffi." figureDoi="http://doi.org/10.5281/zenodo.5577796" httpUri="https://zenodo.org/record/5577796/files/figure.png" pageId="79" pageNumber="80">54</figureCitation>
+, 
+<figureCitation id="5ADFE29AFFE7FFE7F174F202FEBEF9FE" box="[326,377,1537,1563]" captionStart="FIGURE 80" captionStartId="127.[151,250,1694,1718]" captionTargetBox="[214,1374,1173,1664]" captionTargetId="figure-447@127.[213,1374,1173,1671]" captionTargetPageId="127" captionText="FIGURE 80. Types of setae found in the species of Hylomyrma. Unbranched setae: A) Hylomyrma adelae, H. blandiens, H. macielae; B) H. immanis; C) H. marielleae. Branched setae: D) H. dentiloba, H. lispectorae, H. mitiae, H. peetersi, H. virginiae; E) H. balzani, H. lopesi; F) H. blandiens, H. jeronimae, H. versuta; G) H. dolichops; H) H. transversa; I) H. longiscapa; J) H. balzani, H. lopesi, H. primavesi, H. reitteri, H. versuta; K) H. plumosa." figureDoi="http://doi.org/10.5281/zenodo.5577854" httpUri="https://zenodo.org/record/5577854/files/figure.png" pageId="79" pageNumber="80">80D</figureCitation>
+, 
+<figureCitation id="5ADFE29AFFE7FFE7F1B6F202FE70F9FE" box="[388,439,1537,1563]" captionStart="FIGURE 81" captionStartId="128.[151,250,1692,1716]" captionTargetBox="[156,1431,184,1668]" captionTargetId="figure-35@128.[156,1431,181,1669]" captionTargetPageId="128" captionText="FIGURE 81. Queen’s wings. A) Hylomyrma balzani (MZSP67324); B) H. reitteri (MZSP67431); C) H. versuta (MEXICO: VeraCr.: Pueblo Nuevo, nr. Tetzonapa, Aug.14 -53, E.O. Wilson, 221, rain forest [MCZC]); D) H. longiscapa (MZSP67352); E) H. lispectorae (MZSP67348); F) H. adelae paratype (MZSP67316); G) H. dentiloba (MZSP67319); H) H. mitiae paratype (MZSP67402). Venation: costa (C), radial (R), radial sector (Rs), media (M), cubitus (Cu), anal (A), radial-subcosta (R+Sc), media-cubitus (M+Cu), cubitus-anal crossvein (cu-a), first media-cubitus crossvein (1m-cu), radial sector-media 1 (Rs+M1), radial sector-media 2 (Rs+M2), second radial-radial sector crossvein (2r-rs), radial-subcosta (R+Sc), media-first radial sectormedia (M+1rs-m), submarginal 1+2 (2rs-m). Cells: basal (B), sub-basal (BS), discal (D), sub-marginal 1 (SM1), marginal (M), sub-marginal 2 (SM2)." figureDoi="http://doi.org/10.5281/zenodo.5577856" httpUri="https://zenodo.org/record/5577856/files/figure.png" pageId="79" pageNumber="80">81H</figureCitation>
+, 
+<figureCitation id="5ADFE29AFFE7FFE7F1F1F202FE18F9FE" box="[451,479,1537,1563]" captionStart="FIGURE 87" captionStartId="132.[151,250,1070,1094]" captionTargetBox="[184,1404,184,1043]" captionTargetId="figure-35@132.[177,1410,181,1047]" captionTargetPageId="132" captionText="FIGURE 87. Distribution records of Hylomyrma dolichops, and H. mitiae." figureDoi="http://doi.org/10.5281/zenodo.5577868" httpUri="https://zenodo.org/record/5577868/files/figure.png" pageId="79" pageNumber="80">87</figureCitation>
+(map)
+</paragraph>
+</subSubSection>
+<subSubSection id="8AFEAD94FFE7FFE7F0A5F246FB62F8F0" pageId="79" pageNumber="80" type="materials_examined">
+<paragraph id="C25BFE1FFFE7FFE7F0A5F246FB62F8F0" blockId="79.[151,1437,1605,1813]" pageId="79" pageNumber="80">
+<materialsCitation id="728CF442FFE7FFE7F0A5F246FA9FF999" ID-GBIF-Occurrence="3392794662" collectingDate="2015-03-04" collectionCode="MZSP" collectorName="J. Orivel &amp; F. Petitclerc" country="French Guiana" latitude="2.238226" location="Mitaraka Mts" municipality="Pente" pageId="79" pageNumber="80" specimenCode="MZSP67401" specimenCount="1" typeStatus="holotype">
+<typeStatus id="1D5F40BDFFE7FFE7F0A5F246FF3EF9B8" box="[151,249,1605,1629]" pageId="79" pageNumber="80">Holotype</typeStatus>
+: 
+<collectingCountry id="BAF3BE8FFFE7FFE7F135F246FEA8F9B8" box="[263,367,1605,1629]" name="French Guiana" pageId="79" pageNumber="80">GUYANE</collectingCountry>
+FRANÇAISE: [Saint-Laurent-du-Maroni: Maripasoula], 
+<location id="C73BA8C4FFE7FFE7F3F9F246FB9CF9B8" LSID="urn:lsid:plazi:treatment:4A4D4F09FFE7FFFAF0A5F1DFFB07FA00:C73BA8C4FFE7FFE7F3F9F246FB9CF9B8" box="[971,1115,1605,1629]" country="French Guiana" latitude="2.238226" municipality="Pente" name="Mitaraka Mts" pageId="79" pageNumber="80">Mitaraka Mts</location>
+, 
+<collectingMunicipality id="223F6465FFE7FFE7F45BF245FB63F9B8" box="[1129,1188,1606,1629]" pageId="79" pageNumber="80">Pente</collectingMunicipality>
+, 
+<geoCoordinate id="A7D098D8FFE7FFE7F480F246FAE3F9B8" box="[1202,1316,1605,1629]" degrees="2.238226" direction="north" orientation="latitude" pageId="79" pageNumber="80" precision="1" value="2.238226">2.238226N</geoCoordinate>
+<geoCoordinate id="A7D098D8FFE7FFE7F51CF246FA5FF9B8" box="[1326,1432,1605,1629]" pageId="79" pageNumber="80">-54.45203</geoCoordinate>
+, 
+<date id="B65AD8DFFFE7FFE7F0F5F267FEF0F999" box="[199,311,1636,1660]" pageId="79" pageNumber="80" value="2015-03-04">
+<collectingDate id="A61E2137FFE7FFE7F0F5F267FEF0F999" box="[199,311,1636,1660]" pageId="79" pageNumber="80" value="2015-03-04">04.iii.2015</collectingDate>
+</date>
+, 
+<collectorName id="6F119BC9FFE7FFE7F175F267FE64F999" box="[327,419,1636,1660]" pageId="79" pageNumber="80">J. Orivel</collectorName>
+&amp; 
+<collectorName id="6F119BC9FFE7FFE7F1FCF267FD8CF999" box="[462,587,1636,1660]" pageId="79" pageNumber="80">F. Petitclerc</collectorName>
+cols., winkler 48h, A-P2-8, MI15-0380-25 (1W) (
+<specimenCode id="92425664FFE7FFE7F459F267FB37F999" box="[1131,1264,1636,1660]" collectionCode="MZSP" country="Brazil" httpUri="http://grbio.org/cool/9yp6-zxp9" name="Sao Paulo, Museu de Zoologia da Universidade de Sao Paulo" pageId="79" pageNumber="80" type="Museum">MZSP67401</specimenCode>
+) [
+<collectionCode id="A4F566DAFFE7FFE7F53AF267FA95F999" box="[1288,1362,1636,1660]" country="Brazil" httpUri="http://grbio.org/cool/9yp6-zxp9" name="Sao Paulo, Museu de Zoologia da Universidade de Sao Paulo" pageId="79" pageNumber="80" type="Museum">MZSP</collectionCode>
+]
+</materialsCitation>
+. 
+<materialsCitation id="728CF442FFE7FFE7F555F267FCDAF97F" ID-GBIF-Occurrence="3392795125" collectionCode="CASC, DZUP, IHVL" pageId="79" pageNumber="80" specimenCount="1" typeStatus="paratype">
+<typeStatus id="1D5F40BDFFE7FFE7F555F267FEC7F97E" pageId="79" pageNumber="80">Paratypes</typeStatus>
+: same data as holotype (3W) [
+<collectionCode id="A4F566DAFFE7FFE7F204F280FDBAF97E" box="[566,637,1667,1691]" pageId="79" pageNumber="80">CASC</collectionCode>
+, 
+<collectionCode id="A4F566DAFFE7FFE7F2BAF280FD0DF97F" box="[648,714,1667,1690]" country="Brazil" httpUri="http://grbio.org/cool/5xp9-edpx" name="Universidade Federal do Parana, Colecao de Entomologia Pe. Jesus Santiago Moure" pageId="79" pageNumber="80" type="University or college">DZUP</collectionCode>
+, 
+<collectionCode id="A4F566DAFFE7FFE7F2E7F280FCD0F97F" box="[725,791,1667,1690]" pageId="79" pageNumber="80">IHVL</collectionCode>
+]
+</materialsCitation>
+; 
+<materialsCitation id="728CF442FFE7FFE7F31AF280FB84F97E" ID-GBIF-Occurrence="3392794576" box="[808,1091,1667,1691]" collectionCode="MZSP" pageId="79" pageNumber="80" specimenCode="MZHY223" specimenCount="1">
+(7W) (
+<specimenCode id="92425664FFE7FFE7F35EF280FC18F97E" box="[876,991,1667,1691]" pageId="79" pageNumber="80">MZHY223</specimenCode>
+) [
+<collectionCode id="A4F566DAFFE7FFE7F3C1F280FBFAF97E" box="[1011,1085,1667,1691]" country="Brazil" httpUri="http://grbio.org/cool/9yp6-zxp9" name="Sao Paulo, Museu de Zoologia da Universidade de Sao Paulo" pageId="79" pageNumber="80" type="Museum">MZSP</collectionCode>
+]
+</materialsCitation>
+; 
+<materialsCitation id="728CF442FFE7FFE7F47CF280FBD7F93D" ID-GBIF-Occurrence="3392795028" collectingDate="2015-03-03" collectionCode="MZSP" collectorName="J. Orivel &amp; F. Petitclerc" latitude="2.243615" pageId="79" pageNumber="80" specimenCode="MZSP67403, MZSP67402, MZSP67404" specimenCount="2" specimenCount-queen="1" specimenCount-worker="1">
+same except Plateau, 
+<geoCoordinate id="A7D098D8FFE7FFE7F519F281FA5BF97F" box="[1323,1436,1666,1690]" degrees="2.243615" direction="north" orientation="latitude" pageId="79" pageNumber="80" precision="1" value="2.243615">2.243615N</geoCoordinate>
+<geoCoordinate id="A7D098D8FFE7FFE7F0F5F2A2FEF6F95C" box="[199,305,1697,1721]" pageId="79" pageNumber="80">-54.45882</geoCoordinate>
+, 
+<date id="B65AD8DFFFE7FFE7F10DF2A2FE68F95C" box="[319,431,1697,1721]" pageId="79" pageNumber="80" value="2015-03-03">
+<collectingDate id="A61E2137FFE7FFE7F10DF2A2FE68F95C" box="[319,431,1697,1721]" pageId="79" pageNumber="80" value="2015-03-03">03.iii.2015</collectingDate>
+</date>
+, 
+<collectorName id="6F119BC9FFE7FFE7F18EF2A1FDD0F95C" box="[444,535,1697,1721]" pageId="79" pageNumber="80">J. Orivel</collectorName>
+&amp; 
+<collectorName id="6F119BC9FFE7FFE7F20CF2A1FD7DF95C" box="[574,698,1697,1721]" pageId="79" pageNumber="80">F. Petitclerc</collectorName>
+cols., winkler 48h, A-P1-12, MI15-0344-62 (1W 2Q, 
+<specimenCount id="D4E23596FFE7FFE7F4CAF2A1FAA9F95C" box="[1272,1390,1697,1721]" pageId="79" pageNumber="80" type="worker">one worker</specimenCount>
+and 
+<specimenCount id="D4E23596FFE7FFE7F0F5F2C3FEE8F932" box="[199,303,1728,1751]" pageId="79" pageNumber="80" type="queen">one queen</specimenCount>
+covered with gold) (
+<specimenCode id="92425664FFE7FFE7F23AF2C3FD49F93D" box="[520,654,1728,1752]" collectionCode="MZSP" country="Brazil" httpUri="http://grbio.org/cool/9yp6-zxp9" name="Sao Paulo, Museu de Zoologia da Universidade de Sao Paulo" pageId="79" pageNumber="80" type="Museum">MZSP67403</specimenCode>
+, 
+<specimenCode id="92425664FFE7FFE7F2ABF2C3FCDAF93D" box="[665,797,1728,1752]" collectionCode="MZSP" country="Brazil" httpUri="http://grbio.org/cool/9yp6-zxp9" name="Sao Paulo, Museu de Zoologia da Universidade de Sao Paulo" pageId="79" pageNumber="80" type="Museum">MZSP67402</specimenCode>
+, 
+<specimenCode id="92425664FFE7FFE7F31AF2C3FC6CF93D" box="[808,939,1728,1752]" collectionCode="MZSP" country="Brazil" httpUri="http://grbio.org/cool/9yp6-zxp9" name="Sao Paulo, Museu de Zoologia da Universidade de Sao Paulo" pageId="79" pageNumber="80" type="Museum">MZSP67404</specimenCode>
+) [
+<collectionCode id="A4F566DAFFE7FFE7F3F2F2C3FBCDF93D" box="[960,1034,1728,1752]" country="Brazil" httpUri="http://grbio.org/cool/9yp6-zxp9" name="Sao Paulo, Museu de Zoologia da Universidade de Sao Paulo" pageId="79" pageNumber="80" type="Museum">MZSP</collectionCode>
+]
+</materialsCitation>
+; 
+<materialsCitation id="728CF442FFE7FFE7F42EF2C3FACBF93D" ID-GBIF-Occurrence="3392795160" box="[1052,1292,1728,1752]" collectionCode="MCZC, USNM" pageId="79" pageNumber="80" specimenCount="1">
+(2W) [
+<collectionCode id="A4F566DAFFE7FFE7F46DF2C3FB6BF93D" box="[1119,1196,1728,1752]" pageId="79" pageNumber="80">MCZC</collectionCode>
+, 
+<collectionCode id="A4F566DAFFE7FFE7F485F2C3FAC1F93D" box="[1207,1286,1728,1752]" country="USA" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34871" lsid="urn:lsid:biocol.org:col:34871" name="Smithsonian Institution, National Museum of Natural History" pageId="79" pageNumber="80" type="Museum">USNM</collectionCode>
+]
+</materialsCitation>
+; 
+<materialsCitation id="728CF442FFE7FFE7F525F2C3FDFDF912" ID-GBIF-Occurrence="3392794812" collectingDate="1999-07" collectionCode="CEPLAC" collectorName="S. Durou" location="Maripasoula" municipality="Maripasoula" pageId="79" pageNumber="80" specimenCount="1">
+<collectingMunicipality id="223F6465FFE7FFE7F525F2C3FA5FF93D" box="[1303,1432,1728,1752]" county="Ant Course" latitude="2.243615" municipality="Rainforest" name="Maripasoula" pageId="79" pageNumber="80">Maripasoula</collectingMunicipality>
+, 
+<date id="B65AD8DFFFE7FFE7F0F5F2DCFEDAF912" box="[199,285,1759,1783]" pageId="79" pageNumber="80" value="1999-07">
+<collectingDate id="A61E2137FFE7FFE7F0F5F2DCFEDAF912" box="[199,285,1759,1783]" pageId="79" pageNumber="80" value="1999-07">vii.1999</collectingDate>
+</date>
+, 
+<collectorName id="6F119BC9FFE7FFE7F115F2DCFE44F913" box="[295,387,1759,1783]" pageId="79" pageNumber="80">S. Durou</collectorName>
+(1W) [
+<collectionCode id="A4F566DAFFE7FFE7F1F8F2DCFDF4F912" box="[458,563,1759,1783]" pageId="79" pageNumber="80">CEPLAC</collectionCode>
+]
+</materialsCitation>
+; 
+<materialsCitation id="728CF442FFE7FFE7F271F2DCFB62F8F0" ID-GBIF-Occurrence="3392794338" collectingDate="2018-08-21" collectingDateMax="2018-09-01" collectingDateMin="2018-08-21" collectionCode="MZSP" collectorName="Ant Course" elevation="145" location="Nouragues Natural Reserve Station" municipality="Cayenne" pageId="79" pageNumber="80" specimenCode="MZHY224" specimenCount="1">
+[
+<collectingMunicipality id="223F6465FFE7FFE7F27BF2DCFD6DF912" box="[585,682,1759,1783]" pageId="79" pageNumber="80">Cayenne</collectingMunicipality>
+]: 
+<location id="C73BA8C4FFE7FFE7F288F2DCFBE5F912" LSID="urn:lsid:plazi:treatment:4A4D4F09FFE7FFFAF0A5F1DFFB07FA00:C73BA8C4FFE7FFE7F288F2DCFBE5F912" box="[698,1058,1759,1783]" county="Ant Course" latitude="2.243615" municipality="Cayenne" name="Nouragues Natural Reserve Station" pageId="79" pageNumber="80">Nouragues Natural Reserve Station</location>
+, 
+<locationDeviation id="D3E9E73DFFE7FFE7F41EF2DCFADDF912" box="[1068,1306,1759,1783]" location="Cayenne" pageId="79" pageNumber="80">
+<quantity id="051C53FAFFE7FFE7F41EF2DCFBB5F912" box="[1068,1138,1759,1783]" metricMagnitude="5" metricUnit="m" metricValue="1.02" pageId="79" pageNumber="80" unit="km" value="102.0">102km</quantity>
+SW of Cayenne
+</locationDeviation>
+, lat 
+<geoCoordinate id="A7D098D8FFE7FFE7F576F2DCFA5EF912" box="[1348,1433,1759,1783]" pageId="79" pageNumber="80">4.08799</geoCoordinate>
+, lon 
+<geoCoordinate id="A7D098D8FFE7FFE7F0DCF2FEFE9FF8F0" box="[238,344,1789,1813]" pageId="79" pageNumber="80">-52.67978</geoCoordinate>
+, 
+<quantity id="051C53FAFFE7FFE7F150F2FEFE59F8F0" box="[354,414,1789,1813]" metricMagnitude="2" metricUnit="m" metricValue="1.45" pageId="79" pageNumber="80" unit="m" value="145.0">
+<elevation id="49C9192CFFE7FFE7F150F2FEFE59F8F0" box="[354,414,1789,1813]" metricMagnitude="2" metricUnit="m" metricValue="1.45" pageId="79" pageNumber="80" unit="m" value="145.0">145m</elevation>
+</quantity>
+, 
+<date id="B65AD8DFFFE7FFE7F19AF2FEFD92F8F0" box="[424,597,1789,1813]" pageId="79" pageNumber="80" value="2018-08-21" valueMax="2018-09-01" valueMin="2018-08-21">
+<collectingDate id="A61E2137FFE7FFE7F19AF2FEFD92F8F0" box="[424,597,1789,1813]" pageId="79" pageNumber="80" value="2018-08-21" valueMax="2018-09-01" valueMin="2018-08-21">21.viii-1.ix.2018</collectingDate>
+</date>
+, Rainforest, 
+<collectorName id="6F119BC9FFE7FFE7F2E1F2FEFC8FF8F0" box="[723,840,1789,1813]" pageId="79" pageNumber="80">Ant Course</collectorName>
+2018 (2W) (
+<specimenCode id="92425664FFE7FFE7F3FBF2FEFBF9F8F0" box="[969,1086,1789,1813]" pageId="79" pageNumber="80">MZHY224</specimenCode>
+) [
+<collectionCode id="A4F566DAFFE7FFE7F463F2FEFB5CF8F0" box="[1105,1179,1789,1813]" country="Brazil" httpUri="http://grbio.org/cool/9yp6-zxp9" name="Sao Paulo, Museu de Zoologia da Universidade de Sao Paulo" pageId="79" pageNumber="80" type="Museum">MZSP</collectionCode>
+].
+</materialsCitation>
+</paragraph>
+</subSubSection>
+<subSubSection id="8AFEAD94FFE7FFE7F0A5F33DFDD1F80D" pageId="79" pageNumber="80" type="diagnosis">
+<paragraph id="C25BFE1FFFE7FFE7F0A5F33DFDD1F80D" blockId="79.[151,1437,1854,2024]" pageId="79" pageNumber="80">
+<emphasis id="F090220DFFE7FFE7F0A5F33DFED5F8BD" bold="true" box="[151,274,1854,1880]" pageId="79" pageNumber="80">Diagnosis.</emphasis>
+Vermicular to vermiculated-areolated striae on head dorsum and mesosoma; dorsal margin of petiole continuous, ventral surface smooth; longitudinal and anastomosed striae on postpetiole and tergum of first gastral segment; subpostpetiolar process prominent, subtriangular; profemur posterior surface and protibia extensor surface entirely striate; striae on tergum of first gastral segment shorter than postpetiole length; 2 short branches of equal size diverging from the main axis.
+</paragraph>
+</subSubSection>
+<subSubSection id="8AFEAD94FFF8FFFAF0F5F495FE44FD14" lastPageId="82" lastPageNumber="83" pageId="80" pageNumber="81" type="description">
+<paragraph id="C25BFE1FFFF8FFF8F0F5F495FAF6FEA4" blockId="80.[151,1436,150,321]" pageId="80" pageNumber="81">
+<emphasis id="F090220DFFF8FFF8F0F5F495FE9EFF55" bold="true" box="[199,345,150,176]" pageId="80" pageNumber="81">Description.</emphasis>
+WORKER (n=3) (
+<figureCitation id="5ADFE29AFFF8FFF8F23FF494FD50FF54" box="[525,663,150,177]" captionStart="FIGURE 53" captionStartId="80.[151,250,1685,1709]" captionTargetBox="[152,1436,345,1662]" captionTargetId="figure-115@80.[151,1436,345,1662]" captionTargetPageId="80" captionText="FIGURE 53. Holotype worker of Hylomyrma mitiae (MZSP67401). A) frontal view; B) dorsal view; C) lateral view. Photos by Gabriel Biffi." figureDoi="http://doi.org/10.5281/zenodo.5577792" httpUri="https://zenodo.org/record/5577792/files/figure.png" pageId="80" pageNumber="81">Fig. 53A–C</figureCitation>
+): HL (0.95–1.06); HW (0.98–1.01); ML (0.67–0.75); SL (0.75–0.83); MOD (0.27–0.29); PNW (0.73–0.76); WL (1.41–1.52); PSL (0.32–0.356); PL (0.69–0.72); PW (0.27–0.30); PPL (0.30–0.32); PPW (0.33–0.36); GL (1.13–1.21); TL (5.27–5.52); CI (94.11–106.45); SI (74.24–81.81); OI (27.27– 28.78). Large-sized. Shiny integument. Dark brown body, lighter appendices. Thin and branched setae, long to midsized, erect to subdecumbent; 2 short branches of equal size diverging from the main axis (
+<figureCitation id="5ADFE29AFFF8FFF8F48EF524FAE2FEA4" box="[1212,1317,295,321]" captionStart="FIGURE 80" captionStartId="127.[151,250,1694,1718]" captionTargetBox="[214,1374,1173,1664]" captionTargetId="figure-447@127.[213,1374,1173,1671]" captionTargetPageId="127" captionText="FIGURE 80. Types of setae found in the species of Hylomyrma. Unbranched setae: A) Hylomyrma adelae, H. blandiens, H. macielae; B) H. immanis; C) H. marielleae. Branched setae: D) H. dentiloba, H. lispectorae, H. mitiae, H. peetersi, H. virginiae; E) H. balzani, H. lopesi; F) H. blandiens, H. jeronimae, H. versuta; G) H. dolichops; H) H. transversa; I) H. longiscapa; J) H. balzani, H. lopesi, H. primavesi, H. reitteri, H. versuta; K) H. plumosa." figureDoi="http://doi.org/10.5281/zenodo.5577854" httpUri="https://zenodo.org/record/5577854/files/figure.png" pageId="80" pageNumber="81">Fig. 80D</figureCitation>
+).
+</paragraph>
+<caption id="969BAE97FFF8FFF8F0A5F296FE87F934" ID-DOI="http://doi.org/10.5281/zenodo.5577792" ID-Zenodo-Dep="5577792" httpUri="https://zenodo.org/record/5577792/files/figure.png" pageId="80" pageNumber="81" startId="80.[151,250,1685,1709]" targetBox="[152,1436,345,1662]" targetPageId="80">
+<paragraph id="C25BFE1FFFF8FFF8F0A5F296FE87F934" blockId="80.[151,1436,1685,1745]" pageId="80" pageNumber="81">
+<emphasis id="F090220DFFF8FFF8F0A5F296FEE6F948" bold="true" box="[151,289,1685,1709]" pageId="80" pageNumber="81">FIGURE 53.</emphasis>
+Holotype worker of 
+<taxonomicName id="05E4859CFFF8FFF8F1C8F296FD7FF948" authorityName="Ulyssea" authorityYear="2021" box="[506,696,1685,1709]" class="Insecta" family="Formicidae" genus="Hylomyrma" kingdom="Animalia" order="Hymenoptera" pageId="80" pageNumber="81" phylum="Arthropoda" rank="species" species="mitiae">
+<emphasis id="F090220DFFF8FFF8F1C8F296FD7FF948" box="[506,696,1685,1709]" italics="true" pageId="80" pageNumber="81">Hylomyrma mitiae</emphasis>
+</taxonomicName>
+(MZSP67401). A) frontal view; B) dorsal view; C) lateral view. Photos by Gabriel Biffi.
+</paragraph>
+</caption>
+<paragraph id="C25BFE1FFFF8FFF9F0F5F2FCFE67FEF8" blockId="80.[151,1436,1791,2034]" lastBlockId="81.[151,1436,151,285]" lastPageId="81" lastPageNumber="82" pageId="80" pageNumber="81">Head subquadrate; posterior margin straight. Mandible masticatory margin with 5 teeth. Anterior margin of clypeus concave medially, with a pair of medium teeth laterally; median area of clypeus with irregular and longitudinal striae converging to a point on the anterior margin, interspaces indistinguishable. Frontal triangle with 1 sagittal stria. Short scape, not reaching head posterior margin; apical antennomere slightly shorter than previous 3 antennomeres together. Frontal carina slightly concave posterior to antennal socket. Eye drop-shaped, midsized, larger diameter with 12 ommatidia. Head dorsum with vermicular to vermiculated-areolated striae, divergent towards posterior margin, interspaces smooth. Striae on head lateral and laterodorsal regions converge to eye margin; very thin striae (microsculpture) between vermicular to vermiculated-areolated striae (macrosculpture), interspaces between microesculpture indistinguishable; gena striate, with the same striation of head lateral, 2–3 regular and semicircular striae circumscribe the torulus, not reaching eye margin. Interspaces between striae on head ventral surface distinguishable.</paragraph>
+<caption id="969BAE97FFF9FFF9F0A5F23DFEE7F99E" ID-DOI="http://doi.org/10.5281/zenodo.5577796" ID-Zenodo-Dep="5577796" httpUri="https://zenodo.org/record/5577796/files/figure.png" pageId="81" pageNumber="82" startId="81.[151,250,1598,1622]" targetBox="[151,1436,309,1575]" targetPageId="81">
+<paragraph id="C25BFE1FFFF9FFF9F0A5F23DFEE7F99E" blockId="81.[151,1436,1598,1659]" pageId="81" pageNumber="82">
+<emphasis id="F090220DFFF9FFF9F0A5F23DFEE7F9B3" bold="true" box="[151,288,1598,1622]" pageId="81" pageNumber="82">FIGURE 54.</emphasis>
+Paratype queen of 
+<taxonomicName id="05E4859CFFF9FFF9F1D7F23CFD65F9B3" authorityName="Ulyssea" authorityYear="2021" box="[485,674,1599,1623]" class="Insecta" family="Formicidae" genus="Hylomyrma" kingdom="Animalia" order="Hymenoptera" pageId="81" pageNumber="82" phylum="Arthropoda" rank="species" species="mitiae">
+<emphasis id="F090220DFFF9FFF9F1D7F23CFD65F9B3" box="[485,674,1599,1623]" italics="true" pageId="81" pageNumber="82">Hylomyrma mitiae</emphasis>
+</taxonomicName>
+(MZSP67402). A) frontal view; B) dorsal view; C) lateral view. Photos by Gabriel Biffi.
+</paragraph>
+</caption>
+<paragraph id="C25BFE1FFFF9FFF9F0F5F2AAFD79F85A" blockId="81.[151,1437,1705,2019]" pageId="81" pageNumber="82">
+Thick, vermicular to vermiculated-areolated striae on mesosoma, interspaces between thick striae on mesosoma dorsum smooth, but filled with thinner striae on mesosoma lateral. Promesonotal junction indistinct. Metanotal groove discernible by a slight depression. Transverse carina well-marked. Dorsal margin of mesosoma discontinuous, slightly convex. Propodeal lobe bidentate, dorsal tooth slightly longer and more acute than the shorter and blunt ventral tooth; dorsal tooth length 
+<superScript id="35915357FFF9FFF9F239F33AFDD4F8A2" attach="right" box="[523,531,1849,1863]" fontSize="6" pageId="81" pageNumber="82">1</superScript>
+/ of propodeal spine length. Propodeal spine long, straight (LV), divergent (DV), 
+<subScript id="5E60FC5AFFF9FFF9F229F348FDE4F8BC" attach="left" box="[539,547,1867,1881]" fontSize="6" pageId="81" pageNumber="82">2</subScript>
+sculptured on base. Thin and transverse striae of uniform thickness on procoxa; irregular and transverse striae on C2 and C3. Irregular to regular transverse striae on profemur dorsal and posterior surfaces; anterior and ventral surfaces smooth. Protibia extensor surface entirely striate.
+</paragraph>
+<paragraph id="C25BFE1FFFF9FFFAF0F5F3CAFDCAFEF8" blockId="81.[151,1437,1705,2019]" lastBlockId="82.[151,1437,151,1509]" lastPageId="82" lastPageNumber="83" pageId="81" pageNumber="82">Dorsal margin of petiole continuous, convex; ventral surface smooth; first third of dorsal surface smooth; irregular and transverse striae on second third of dorsal surface (aligned to petiolar spiracle) continuing on lateral surface; vermiculated-areolated striae on lateral and last third of dorsal surface. Longitudinal, regular to irregular striae on postpetiole, few anastomosed; subpostpetiolar process striae restricted to lateral region; subpostpetiolar process prominent, subtriangular.</paragraph>
+<paragraph id="C25BFE1FFFFAFFFAF0F5F524FC03FE80" blockId="82.[151,1437,151,1509]" pageId="82" pageNumber="83">First gastral segment striation similar to postpetiole striae; short striae on tergum, shorter than postpetiole length; sternite striation weakly marked, covering the laterobasal region.</paragraph>
+<paragraph id="C25BFE1FFFFAFFFAF0F5F56CFD93FD28" blockId="82.[151,1437,151,1509]" pageId="82" pageNumber="83">
+QUEEN (n=2) (
+<figureCitation id="5ADFE29AFFFAFFFAF15CF56CFE3AFE6C" box="[366,509,366,393]" captionStart="FIGURE 54" captionStartId="81.[151,250,1598,1622]" captionTargetBox="[151,1436,309,1575]" captionTargetId="figure-62@81.[151,1436,309,1575]" captionTargetPageId="81" captionText="FIGURE 54. Paratype queen of Hylomyrma mitiae (MZSP67402). A) frontal view; B) dorsal view; C) lateral view. Photos by Gabriel Biffi." figureDoi="http://doi.org/10.5281/zenodo.5577796" httpUri="https://zenodo.org/record/5577796/files/figure.png" pageId="82" pageNumber="83">Fig. 54A–C</figureCitation>
+): HL (1.04); HW (1.06); ML (0.75–0.76); SL (0.81–0.86); MOD (0.30); PNW (0.89–0.90); WL (1.67–1.69); PSL (0.36); PL (0.73–0.76); PW (0.30–0.32); PPL (0.33–0.36); PPW (0.36–0.40); GL (1.40–1.43); TL (5.96–6.06); CI (95.74–100.97); SI (101.47); OI (28.98). Large-sized. Color, pilosity, and some sculpture characters shared with conspecific workers, only slightly larger. Larger diameter of eye with 16–17 ommatidia. Longitudinal, irregular to vermicular striae on scutum going from an anterior central point towards transcutal suture, interspaces distinguishable. Longitudinal and irregular striae on anepisternum and katepisternum, interspaces distinguishable. Axilla and scutellum with the same sculpture of scutum. Scutoscutellar sulcus inconspicuous. Transverse and regular striae on propodeum (DV). Thick striae (macrosculpture) on mesosoma lateral, irregular to vermiculated-areolated, directed to propodeal spine, interspaces between thicker striae filled with thinner striae (microsculpture). Wings as in 
+<figureCitation id="5ADFE29AFFFAFFFAF1DBF6B0FD93FD28" box="[489,596,691,717]" captionStart="FIGURE 81" captionStartId="128.[151,250,1692,1716]" captionTargetBox="[156,1431,184,1668]" captionTargetId="figure-35@128.[156,1431,181,1669]" captionTargetPageId="128" captionText="FIGURE 81. Queen’s wings. A) Hylomyrma balzani (MZSP67324); B) H. reitteri (MZSP67431); C) H. versuta (MEXICO: VeraCr.: Pueblo Nuevo, nr. Tetzonapa, Aug.14 -53, E.O. Wilson, 221, rain forest [MCZC]); D) H. longiscapa (MZSP67352); E) H. lispectorae (MZSP67348); F) H. adelae paratype (MZSP67316); G) H. dentiloba (MZSP67319); H) H. mitiae paratype (MZSP67402). Venation: costa (C), radial (R), radial sector (Rs), media (M), cubitus (Cu), anal (A), radial-subcosta (R+Sc), media-cubitus (M+Cu), cubitus-anal crossvein (cu-a), first media-cubitus crossvein (1m-cu), radial sector-media 1 (Rs+M1), radial sector-media 2 (Rs+M2), second radial-radial sector crossvein (2r-rs), radial-subcosta (R+Sc), media-first radial sectormedia (M+1rs-m), submarginal 1+2 (2rs-m). Cells: basal (B), sub-basal (BS), discal (D), sub-marginal 1 (SM1), marginal (M), sub-marginal 2 (SM2)." figureDoi="http://doi.org/10.5281/zenodo.5577856" httpUri="https://zenodo.org/record/5577856/files/figure.png" pageId="82" pageNumber="83">Fig. 81H.</figureCitation>
+</paragraph>
+<paragraph id="C25BFE1FFFFAFFFAF0F5F6D4FE44FD14" blockId="82.[151,1437,151,1509]" box="[199,387,727,753]" pageId="82" pageNumber="83">MALE Unknown.</paragraph>
+</subSubSection>
+<subSubSection id="8AFEAD94FFFAFFFAF0F5F6F8FC87FC40" pageId="82" pageNumber="83" type="etymology">
+<paragraph id="C25BFE1FFFFAFFFAF0F5F6F8FC87FC40" blockId="82.[151,1437,151,1509]" pageId="82" pageNumber="83">
+<emphasis id="F090220DFFFAFFFAF0F5F6F8FE89FCF0" bold="true" box="[199,334,763,789]" pageId="82" pageNumber="83">Etymology.</emphasis>
+The epithet 
+<taxonomicName id="05E4859CFFFAFFFAF1EFF6F8FDE4FCF1" authorityName="Ulyssea" authorityYear="2021" box="[477,547,763,788]" class="Insecta" family="Formicidae" genus="Hylomyrma" kingdom="Animalia" order="Hymenoptera" pageId="82" pageNumber="83" phylum="Arthropoda" rank="species" species="mitiae">
+<emphasis id="F090220DFFFAFFFAF1EFF6F8FDE4FCF1" box="[477,547,763,788]" italics="true" pageId="82" pageNumber="83">mitiae</emphasis>
+</taxonomicName>
+is a Latin noun in the genitive case created by adding the singular Latin genitive case suffix -e to the first name of a female person. This species is named in honor of M.A. Ulysséa’s beloved friend Mítia Heusi Silveira (1984–2010), who had her life interrupted by femicide. As an undergraduate student, she developed projects with Fungi and 
+<taxonomicName id="05E4859CFFFAFFFAF21BF764FD6FFC64" authorityName="Linnaeus" authorityYear="1758" box="[553,680,871,897]" class="Insecta" kingdom="Animalia" order="Coleoptera" pageId="82" pageNumber="83" phylum="Arthropoda" rank="order">Coleoptera</taxonomicName>
+. After university, she worked at FUNAI, a Brazilian governmental agency for the protection of indigenous interests and culture.
+</paragraph>
+</subSubSection>
+<subSubSection id="8AFEAD94FFFAFFFAF0F5F7ADFEEEFA9C" pageId="82" pageNumber="83" type="discussion">
+<paragraph id="C25BFE1FFFFAFFFAF0F5F7ADFEEEFA9C" blockId="82.[151,1437,151,1509]" pageId="82" pageNumber="83">
+<emphasis id="F090220DFFFAFFFAF0F5F7ADFE88FC2D" bold="true" box="[199,335,942,968]" pageId="82" pageNumber="83">Comments.</emphasis>
+<taxonomicName id="05E4859CFFFAFFFAF16AF7ACFDEDFC2D" authorityName="Ulyssea" authorityYear="2021" box="[344,554,943,969]" class="Insecta" family="Formicidae" genus="Hylomyrma" kingdom="Animalia" order="Hymenoptera" pageId="82" pageNumber="83" phylum="Arthropoda" rank="species" species="mitiae">
+<emphasis id="F090220DFFFAFFFAF16AF7ACFDEDFC2D" box="[344,554,943,969]" italics="true" pageId="82" pageNumber="83">Hylomyrma mitiae</emphasis>
+</taxonomicName>
+is similar to 
+<taxonomicName id="05E4859CFFFAFFFAF2F0F7ACFC8EFC2D" authorityName="Ulysséa" authorityYear="2021" box="[706,841,943,968]" class="Insecta" family="Formicidae" genus="Hylomyrma" kingdom="Animalia" order="Hymenoptera" pageId="82" pageNumber="83" phylum="Arthropoda" rank="species" species="virginiae">
+<emphasis id="F090220DFFFAFFFAF2F0F7ACFC8EFC2D" box="[706,841,943,968]" italics="true" pageId="82" pageNumber="83">H. virginiae</emphasis>
+</taxonomicName>
+and 
+<emphasis id="F090220DFFFAFFFAF3B0F7ACFC28FC2D" box="[898,1007,943,968]" italics="true" pageId="82" pageNumber="83">
+<taxonomicName id="05E4859CFFFAFFFAF3B0F7ACFC2CFC2D" authorityName="Kempf" authorityYear="1973" box="[898,1003,943,968]" class="Insecta" family="Formicidae" genus="Hylomyrma" kingdom="Animalia" order="Hymenoptera" pageId="82" pageNumber="83" phylum="Arthropoda" rank="species" species="sagax">H. sagax</taxonomicName>
+.
+</emphasis>
+All three are allopatric, but nevertheless occur in northwestern South America. 
+<taxonomicName id="05E4859CFFFAFFFAF24CF7D0FC97FC09" authorityName="Ulyssea" authorityYear="2021" box="[638,848,979,1005]" class="Insecta" family="Formicidae" genus="Hylomyrma" kingdom="Animalia" order="Hymenoptera" pageId="82" pageNumber="83" phylum="Arthropoda" rank="species" species="mitiae">
+<emphasis id="F090220DFFFAFFFAF24CF7D0FC97FC09" box="[638,848,979,1005]" italics="true" pageId="82" pageNumber="83">Hylomyrma mitiae</emphasis>
+</taxonomicName>
+has been recorded only in 
+<collectingCountry id="BAF3BE8FFFFAFFFAF4B6F7D0FAEDFC08" box="[1156,1322,979,1005]" name="French Guiana" pageId="82" pageNumber="83">French Guiana</collectingCountry>
+(
+<figureCitation id="5ADFE29AFFFAFFFAF509F7D0FA48FC08" box="[1339,1423,979,1005]" captionStart="FIGURE 87" captionStartId="132.[151,250,1070,1094]" captionTargetBox="[184,1404,184,1043]" captionTargetId="figure-35@132.[177,1410,181,1047]" captionTargetPageId="132" captionText="FIGURE 87. Distribution records of Hylomyrma dolichops, and H. mitiae." figureDoi="http://doi.org/10.5281/zenodo.5577868" httpUri="https://zenodo.org/record/5577868/files/figure.png" pageId="82" pageNumber="83">Fig. 87</figureCitation>
+), 
+<taxonomicName id="05E4859CFFFAFFFAF0A5F7F4FF3BFBF5" authorityName="Kempf" authorityYear="1973" box="[151,252,1015,1040]" class="Insecta" family="Formicidae" genus="Hylomyrma" kingdom="Animalia" order="Hymenoptera" pageId="82" pageNumber="83" phylum="Arthropoda" rank="species" species="sagax">
+<emphasis id="F090220DFFFAFFFAF0A5F7F4FF3BFBF5" box="[151,252,1015,1040]" italics="true" pageId="82" pageNumber="83">H. sagax</emphasis>
+</taxonomicName>
+is restricted to southeast 
+<collectingCountry id="BAF3BE8FFFFAFFFAF211F7F4FD56FBF4" box="[547,657,1015,1041]" name="Colombia" pageId="82" pageNumber="83">Colombia</collectingCountry>
+(
+<figureCitation id="5ADFE29AFFFAFFFAF291F7F4FD3FFBF4" box="[675,760,1015,1041]" captionStart="FIGURE 83" captionStartId="130.[151,250,1076,1100]" captionTargetBox="[170,1420,184,1049]" captionTargetId="figure-35@130.[167,1420,181,1052]" captionTargetPageId="130" captionText="FIGURE 83. Distribution records of Hylomyrma adelae, H. dandarae, H. longiscapa, H. montana, and H. sagax." figureDoi="http://doi.org/10.5281/zenodo.5577860" httpUri="https://zenodo.org/record/5577860/files/figure.png" pageId="82" pageNumber="83">Fig. 83</figureCitation>
+), whereas 
+<taxonomicName id="05E4859CFFFAFFFAF341F7F4FC3BFBF5" authorityName="Ulysséa" authorityYear="2021" box="[883,1020,1015,1040]" class="Insecta" family="Formicidae" genus="Hylomyrma" kingdom="Animalia" order="Hymenoptera" pageId="82" pageNumber="83" phylum="Arthropoda" rank="species" species="virginiae">
+<emphasis id="F090220DFFFAFFFAF341F7F4FC3BFBF5" box="[883,1020,1015,1040]" italics="true" pageId="82" pageNumber="83">H. virginiae</emphasis>
+</taxonomicName>
+has been recorded in 
+<collectingCountry id="BAF3BE8FFFFAFFFAF4C9F7F4FA9FFBF4" box="[1275,1368,1015,1041]" name="Ecuador" pageId="82" pageNumber="83">Ecuador</collectingCountry>
+(both sides of The Andes) and in western 
+<collectingCountry id="BAF3BE8FFFFAFFFAF218F018FD5FFBD0" box="[554,664,1051,1077]" name="Colombia" pageId="82" pageNumber="83">Colombia</collectingCountry>
+(
+<figureCitation id="5ADFE29AFFFAFFFAF29BF018FD39FBD0" box="[681,766,1051,1077]" captionStart="FIGURE 89" captionStartId="133.[151,250,1048,1072]" captionTargetBox="[193,1392,185,1021]" captionTargetId="figure-19@133.[188,1400,181,1024]" captionTargetPageId="133" captionText="FIGURE 89. Distribution records of Hylomyrma lopesi, H. margaridae, H. peetersi, H. transversa, and H. virginiae." figureDoi="http://doi.org/10.5281/zenodo.5577874" httpUri="https://zenodo.org/record/5577874/files/figure.png" pageId="82" pageNumber="83">Fig. 89</figureCitation>
+). 
+<taxonomicName id="05E4859CFFFAFFFAF323F018FC24FBD1" authorityName="Ulyssea" authorityYear="2021" box="[785,995,1051,1077]" class="Insecta" family="Formicidae" genus="Hylomyrma" kingdom="Animalia" order="Hymenoptera" pageId="82" pageNumber="83" phylum="Arthropoda" rank="species" species="mitiae">
+<emphasis id="F090220DFFFAFFFAF323F018FC24FBD1" box="[785,995,1051,1077]" italics="true" pageId="82" pageNumber="83">Hylomyrma mitiae</emphasis>
+</taxonomicName>
+can be distinguished from 
+<taxonomicName id="05E4859CFFFAFFFAF527F018FA5BFBD1" authorityName="Ulysséa" authorityYear="2021" box="[1301,1436,1051,1076]" class="Insecta" family="Formicidae" genus="Hylomyrma" kingdom="Animalia" order="Hymenoptera" pageId="82" pageNumber="83" phylum="Arthropoda" rank="species" species="virginiae">
+<emphasis id="F090220DFFFAFFFAF527F018FA5BFBD1" box="[1301,1436,1051,1076]" italics="true" pageId="82" pageNumber="83">H. virginiae</emphasis>
+</taxonomicName>
+(characteristic in parentheses) by the comparatively larger body, TL 
+<quantity id="051C53FAFFFAFFFAF3BFF03DFBF6FBBC" box="[909,1073,1086,1113]" metricMagnitude="-3" metricUnit="m" metricValue="5.395" metricValueMax="5.52" metricValueMin="5.27" pageId="82" pageNumber="83" unit="mm" value="5.395" valueMax="5.52" valueMin="5.27">5.27–5.52 mm</quantity>
+, WL 
+<quantity id="051C53FAFFFAFFFAF45EF03DFAC8FBBC" box="[1132,1295,1086,1113]" metricMagnitude="-3" metricUnit="m" metricValue="1.4649999999999999" metricValueMax="1.52" metricValueMin="1.41" pageId="82" pageNumber="83" unit="mm" value="1.4649999999999999" valueMax="1.52" valueMin="1.41">1.41–1.52 mm</quantity>
+(vs. smaller, TL 
+<quantity id="051C53FAFFFAFFFAF0F2F061FEA1FB98" box="[192,358,1122,1149]" metricMagnitude="-3" metricUnit="m" metricValue="5.07" metricValueMax="5.2" metricValueMin="4.94" pageId="82" pageNumber="83" unit="mm" value="5.07" valueMax="5.2" valueMin="4.94">4.94–5.20 mm</quantity>
+, WL 
+<quantity id="051C53FAFFFAFFFAF196F060FD8BFB98" box="[420,588,1123,1149]" metricMagnitude="-3" metricUnit="m" metricValue="1.3199999999999998" metricValueMax="1.4" metricValueMin="1.24" pageId="82" pageNumber="83" unit="mm" value="1.3199999999999998" valueMax="1.4" valueMin="1.24">1.24–1.40 mm</quantity>
+), the gena and laterodorsal region of head are covered with very thin striae between the vermicular to vermiculated-areolated striae (vs. very thin striae superimposed on vermicular to vermiculated-areolated striae), the metanotal groove distinguished by a slight depression (vs. indistinct), the continuous dorsal margin of petiole (vs. discontinuous), and the very prominent and subtriangular subpostpetiolar process (vs. weak and slightly convex). 
+<taxonomicName id="05E4859CFFFAFFFAF1CBF0F0FD0EFAE9" authorityName="Ulyssea" authorityYear="2021" box="[505,713,1267,1293]" class="Insecta" family="Formicidae" genus="Hylomyrma" kingdom="Animalia" order="Hymenoptera" pageId="82" pageNumber="83" phylum="Arthropoda" rank="species" species="mitiae">
+<emphasis id="F090220DFFFAFFFAF1CBF0F0FD0EFAE9" box="[505,713,1267,1293]" italics="true" pageId="82" pageNumber="83">Hylomyrma mitiae</emphasis>
+</taxonomicName>
+is distinguished from 
+<taxonomicName id="05E4859CFFFAFFFAF3F3F0F0FBE4FAE9" authorityName="Kempf" authorityYear="1973" box="[961,1059,1267,1292]" class="Insecta" family="Formicidae" genus="Hylomyrma" kingdom="Animalia" order="Hymenoptera" pageId="82" pageNumber="83" phylum="Arthropoda" rank="species" species="sagax">
+<emphasis id="F090220DFFFAFFFAF3F3F0F0FBE4FAE9" box="[961,1059,1267,1292]" italics="true" pageId="82" pageNumber="83">H. sagax</emphasis>
+</taxonomicName>
+by the pair of medium sized teeth laterally at the clypeus anterior margin (vs. large teeth), the presence of smooth interspaces between the vermicular striae only on the mesosomal dorsum (vs. on the entire mesosoma), and the subtriangular subpostpetiolar process (vs. convex).
+</paragraph>
+</subSubSection>
+<subSubSection id="8AFEAD94FFFAFFFAF0F5F181FE6BF990" pageId="82" pageNumber="83" type="distribution">
+<subSubSection id="8AFEAD94FFFAFFFAF0F5F181FB07FA00" pageId="82" pageNumber="83" type="distribution">
+<paragraph id="C25BFE1FFFFAFFFAF0F5F181FC37FA78" blockId="82.[151,1437,151,1509]" box="[199,1008,1410,1437]" pageId="82" pageNumber="83">
+<emphasis id="F090220DFFFAFFFAF0F5F181FEA6FA79" bold="true" box="[199,353,1410,1436]" pageId="82" pageNumber="83">Distribution.</emphasis>
+This species is only known from 
+<collectingCountry id="BAF3BE8FFFFAFFFAF2E9F180FC47FA78" box="[731,896,1411,1437]" name="French Guiana" pageId="82" pageNumber="83">French Guiana</collectingCountry>
+(
+<figureCitation id="5ADFE29AFFFAFFFAF3A2F180FC24FA78" box="[912,995,1411,1437]" captionStart="FIGURE 87" captionStartId="132.[151,250,1070,1094]" captionTargetBox="[184,1404,184,1043]" captionTargetId="figure-35@132.[177,1410,181,1047]" captionTargetPageId="132" captionText="FIGURE 87. Distribution records of Hylomyrma dolichops, and H. mitiae." figureDoi="http://doi.org/10.5281/zenodo.5577868" httpUri="https://zenodo.org/record/5577868/files/figure.png" pageId="82" pageNumber="83">Fig. 87</figureCitation>
+).
+</paragraph>
+<paragraph id="C25BFE1FFFFAFFFAF0F5F1A4FB07FA00" blockId="82.[151,1437,151,1509]" pageId="82" pageNumber="83">
+<emphasis id="F090220DFFFAFFFAF0F5F1A4FE40FA25" bold="true" box="[199,391,1446,1473]" pageId="82" pageNumber="83">Natural history.</emphasis>
+Most specimens were found in leaf-litter samples, which suggests that nests are located in fallen logs, rotten wood, between leaves, or inside natural cavities of the superficial soil layers.
+</paragraph>
+</subSubSection>
+<treatment id="4A4D4F09FFFAFFFDF0A5F235FD57F9B4" ID-DOI="http://doi.org/10.5281/zenodo.5588647" ID-GBIF-Taxon="189363816" ID-Zenodo-Dep="5588647" LSID="urn:lsid:plazi:treatment:4A4D4F09FFE7FFFAF0A5F1DFFB07FA00" httpUri="http://treatment.plazi.org/id/4A4D4F09FFE7FFFAF0A5F1DFFB07FA00" lastPageId="85" lastPageNumber="86" pageId="82" pageNumber="83">
+<subSubSection id="8AFEAD94FFFAFFFAF0A5F235FCA2F9B5" box="[151,869,1590,1617]" pageId="82" pageNumber="83" type="nomenclature">
+<paragraph id="C25BFE1FFFFAFFFAF0A5F235FCA2F9B5" blockId="82.[151,869,1590,1653]" box="[151,869,1590,1617]" pageId="82" pageNumber="83">
+<taxonomicName id="05E4859CFFFAFFFAF0A5F235FCA2F9B5" authority="Pierce, Branstetter &amp; Longino, 2017" authorityName="Pierce, Branstetter &amp; Longino" authorityYear="2017" box="[151,869,1590,1617]" class="Insecta" family="Formicidae" genus="Hylomyrma" kingdom="Animalia" order="Hymenoptera" pageId="82" pageNumber="83" phylum="Arthropoda" rank="species" species="montana">
+<emphasis id="F090220DFFFAFFFAF0A5F235FCA2F9B5" bold="true" box="[151,869,1590,1617]" pageId="82" pageNumber="83">
+<emphasis id="F090220DFFFAFFFAF0A5F235FE5DF9B4" bold="true" box="[151,410,1590,1617]" italics="true" pageId="82" pageNumber="83">Hylomyrma montana</emphasis>
+<bibRefCitation id="A67583EEFFFAFFFAF193F235FCA2F9B5" author="Pierce, M. &amp; Branstetter, M. G. &amp; Longino, J. T." box="[417,869,1590,1617]" pageId="82" pageNumber="83" pagination="131 - 143" refId="ref109780" refString="Pierce, M. P, Branstetter, M. G. &amp; Longino, J. T. (2017) Integrative taxonomy reveals multiple cryptic species within Central American Hylomyrma Forel, 1912 (Hymenoptera: Formicidae). Myrmecological News, 25, 131 - 143." type="journal article" year="2017">Pierce, Branstetter &amp; Longino, 2017</bibRefCitation>
+</emphasis>
+</taxonomicName>
+</paragraph>
+</subSubSection>
+<subSubSection id="8AFEAD94FFFAFFFAF0A5F258FE6BF990" box="[151,428,1626,1653]" pageId="82" pageNumber="83" type="description">
+<paragraph id="C25BFE1FFFFAFFFAF0A5F258FE6BF990" blockId="82.[151,869,1590,1653]" box="[151,428,1626,1653]" pageId="82" pageNumber="83">
+<figureCitation id="5ADFE29AFFFAFFFAF0A5F258FED7F990" box="[151,272,1626,1653]" captionStart="FIGURE 55" captionStartId="83.[151,250,1866,1890]" captionTargetBox="[151,1436,381,1843]" captionTargetId="figure-107@83.[151,1436,381,1843]" captionTargetPageId="83" captionText="FIGURE 55. Holotype worker of Hylomyrma montana (CASENT0637306). A) frontal view; B) dorsal view; C) lateral view. Photos by Michele Esposito, available from www.antweb.org." figureDoi="http://doi.org/10.5281/zenodo.5577798" httpUri="https://zenodo.org/record/5577798/files/figure.png" pageId="82" pageNumber="83">Figures 55</figureCitation>
+, 
+<figureCitation id="5ADFE29AFFFAFFFAF12EF259FEFDF990" box="[284,314,1626,1653]" captionStart="FIGURE 56" captionStartId="84.[151,250,1385,1409]" captionTargetBox="[151,1436,181,1361]" captionTargetId="figure-35@84.[151,1436,181,1361]" captionTargetPageId="84" captionText="FIGURE 56. Queen of Hylomyrma montana (MZSP67406). A) frontal view; B) dorsal view; C) lateral view. Photos by M.A. Ulysséa." figureDoi="http://doi.org/10.5281/zenodo.5577802" httpUri="https://zenodo.org/record/5577802/files/figure.png" pageId="82" pageNumber="83">56</figureCitation>
+, 
+<figureCitation id="5ADFE29AFFFAFFFAF174F258FEA5F990" box="[326,354,1627,1653]" captionStart="FIGURE 83" captionStartId="130.[151,250,1076,1100]" captionTargetBox="[170,1420,184,1049]" captionTargetId="figure-35@130.[167,1420,181,1052]" captionTargetPageId="130" captionText="FIGURE 83. Distribution records of Hylomyrma adelae, H. dandarae, H. longiscapa, H. montana, and H. sagax." figureDoi="http://doi.org/10.5281/zenodo.5577860" httpUri="https://zenodo.org/record/5577860/files/figure.png" pageId="82" pageNumber="83">83</figureCitation>
+(map)
+</paragraph>
+</subSubSection>
+<subSubSection id="8AFEAD94FFFAFFFAF0A5F29CFCF6F88A" pageId="82" pageNumber="83" type="materials_examined">
+<paragraph id="C25BFE1FFFFAFFFAF0A5F29CFCF6F88A" blockId="82.[151,1437,1695,1903]" pageId="82" pageNumber="83">
+<treatmentCitationGroup id="E2F4D931FFFAFFFAF0A5F29CFCF6F88A" pageId="82" pageNumber="83">
+<treatmentCitation id="4345D80EFFFAFFFAF0A5F29CFC82F952" author="Pierce, M. &amp; Branstetter, M. G. &amp; Longino, J. T." box="[151,837,1695,1719]" page="138" pageId="82" pageNumber="83" year="2017">
+<taxonomicName id="05E4859CFFFAFFFAF0A5F29CFC82F952" authority="Pierce, Branstetter &amp; Longino, 2017: 138" authorityName="Pierce, Branstetter &amp; Longino" authorityPageNumber="138" authorityYear="2017" box="[151,837,1695,1719]" class="Insecta" family="Formicidae" genus="Hylomyrma" kingdom="Animalia" order="Hymenoptera" pageId="82" pageNumber="83" phylum="Arthropoda" rank="species" species="montana">
+<emphasis id="F090220DFFFAFFFAF0A5F29CFEB2F952" box="[151,373,1695,1719]" italics="true" pageId="82" pageNumber="83">Hylomyrma montana</emphasis>
+<materialsCitation id="728CF442FFFAFFFAF1B3F29CFC82F952" ID-GBIF-Occurrence="3392795174" box="[385,837,1695,1719]" collectingDate="2015-06-18" collectionCode="CASC, MCZC, UCD, UCR, USNM, JTLC, MZSP" collectorName="J. Orivel &amp; F. Petitclerc" country="Costa Rica" elevation="0" latitude="9.86732" location="Cerro Platano" longLatPrecision="28" longitude="-83.24131" municipality="Pente" pageId="82" pageNumber="83" specimenCode="MZSP67405" specimenCount="2" stateProvince="Limon" typeStatus="holotype">
+<bibRefCitation id="A67583EEFFFAFFFAF1B3F29CFC82F952" author="Pierce, M. &amp; Branstetter, M. G. &amp; Longino, J. T." box="[385,837,1695,1719]" pageId="82" pageNumber="83" pagination="131 - 143" refId="ref109780" refString="Pierce, M. P, Branstetter, M. G. &amp; Longino, J. T. (2017) Integrative taxonomy reveals multiple cryptic species within Central American Hylomyrma Forel, 1912 (Hymenoptera: Formicidae). Myrmecological News, 25, 131 - 143." type="journal article" year="2017">Pierce, Branstetter &amp; Longino, 2017: 138</bibRefCitation>
+</materialsCitation>
+</taxonomicName>
+</treatmentCitation>
+(W). 
+<typeStatus id="1D5F40BDFFFAFFFAF3BFF29CFC28F952" box="[909,1007,1695,1719]" pageId="82" pageNumber="83">Holotype</typeStatus>
+: 
+<collectingCountry id="BAF3BE8FFFFAFFFAF432F29CFB5AF952" box="[1024,1181,1695,1719]" name="Costa Rica" pageId="82" pageNumber="83">COSTA RICA</collectingCountry>
+: 
+<collectingRegion id="002030FDFFFAFFFAF49EF29CFB33F952" box="[1196,1268,1695,1719]" country="Costa Rica" name="Limon" pageId="82" pageNumber="83">Limón</collectingRegion>
+: 
+<location id="C73BA8C4FFFAFFFAF531F29CFA5EF952" LSID="urn:lsid:plazi:treatment:4A4D4F09FFE7FFFAF0A5F1DFFB07FA00:C73BA8C4FFFAFFFAF531F29CFA5EF952" box="[1283,1433,1695,1719]" country="Costa Rica" latitude="9.86732" longLatPrecision="28" longitude="-83.24131" name="Cerro Platano" pageId="82" pageNumber="83" stateProvince="Limon">Cerro Platano</location>
+, 
+<geoCoordinate id="A7D098D8FFFAFFFAF0F5F2BDFEDDF933" box="[199,282,1726,1750]" degrees="9.86732" direction="north" orientation="latitude" pageId="82" pageNumber="83" precision="20" value="9.86732">9.86732</geoCoordinate>
+<geoCoordinate id="A7D098D8FFFAFFFAF129F2BDFE41F933" box="[283,390,1726,1750]" degrees="83.24131" direction="west" orientation="longitude" pageId="82" pageNumber="83" precision="20" value="-83.24131">–83.24131</geoCoordinate>
+± 
+<elevation id="49C9192CFFFAFFFAF1ADF2BDFDECF930" box="[415,555,1726,1750]" isEnumeration="true" pageId="82" pageNumber="83">
+<quantity id="051C53FAFFFAFFFAF1ADF2BDFE12F930" box="[415,469,1726,1750]" metricMagnitude="1" metricUnit="m" metricValue="2.0" pageId="82" pageNumber="83" unit="m" value="20.0">20 m</quantity>
+, 
+<quantity id="051C53FAFFFAFFFAF1EDF2BDFDECF930" box="[479,555,1726,1750]" metricMagnitude="3" metricUnit="m" metricValue="1.13" pageId="82" pageNumber="83" unit="m" value="1130.0">1130 m</quantity>
+</elevation>
+[a.s.l.], 
+<date id="B65AD8DFFFFAFFFAF24FF2BDFCC1F933" box="[637,774,1726,1750]" pageId="82" pageNumber="83" value="2015-06-18">
+<collectingDate id="A61E2137FFFAFFFAF24FF2BDFCC1F933" box="[637,774,1726,1750]" pageId="82" pageNumber="83" value="2015-06-18">18 June 2015</collectingDate>
+</date>
+, [Project] ADMAC [collection code] #Wm-E-03-1-01, cloud forest, ex sifted leaf litter (1W) (CASENT0637306) [CASC] [examined by image]. 
+<typeStatus id="1D5F40BDFFFAFFFAF438F2DEFBB6F910" box="[1034,1137,1757,1781]" pageId="82" pageNumber="83">Paratypes</typeStatus>
+: same data as holotype (1W) (CASENT0638686) [MCZC] [not examined]; (1W) (CASENT0638689) [UCD] [not examined]; (1W) (CASENT0638690) [UCR] [not examined]; (1W) (CASENT0638691) [USNM] [not examined]; (7W) (CASENT0638721, CASENT0638702, CASENT0638694, CASENT0638692, CASENT0638699, CASENT0638696, CASENT0638695) [JTLC] [not examined]; (1W) (CASENT0638719 
+<specimenCode id="92425664FFFAFFFAF1FFF354FD97F88A" box="[461,592,1879,1903]" collectionCode="MZSP" country="Brazil" httpUri="http://grbio.org/cool/9yp6-zxp9" name="Sao Paulo, Museu de Zoologia da Universidade de Sao Paulo" pageId="82" pageNumber="83" type="Museum">MZSP67405</specimenCode>
+) [MZSP] [examined].
+</treatmentCitationGroup>
+</paragraph>
+</subSubSection>
+<subSubSection id="8AFEAD94FFFAFFFBF0A5F39BFCBAFE80" lastPageId="83" lastPageNumber="84" pageId="82" pageNumber="83" type="diagnosis">
+<paragraph id="C25BFE1FFFFAFFFBF0A5F39BFCBAFE80" blockId="82.[151,1436,1944,2043]" lastBlockId="83.[151,1436,151,357]" lastPageId="83" lastPageNumber="84" pageId="82" pageNumber="83">
+Worker (
+<figureCitation id="5ADFE29AFFFAFFFAF0CBF39BFEB8F856" box="[249,383,1944,1971]" captionStart="FIGURE 55" captionStartId="83.[151,250,1866,1890]" captionTargetBox="[151,1436,381,1843]" captionTargetId="figure-107@83.[151,1436,381,1843]" captionTargetPageId="83" captionText="FIGURE 55. Holotype worker of Hylomyrma montana (CASENT0637306). A) frontal view; B) dorsal view; C) lateral view. Photos by Michele Esposito, available from www.antweb.org." figureDoi="http://doi.org/10.5281/zenodo.5577798" httpUri="https://zenodo.org/record/5577798/files/figure.png" pageId="82" pageNumber="83">Fig. 55A–C</figureCitation>
+) 
+<emphasis id="F090220DFFFAFFFAF1BFF39BFDCFF857" bold="true" box="[397,520,1944,1970]" pageId="82" pageNumber="83">Diagnosis.</emphasis>
+Regular and longitudinal striae on head dorsum diverge towards posterior margin, interspaces between thicker striae filled with thinner striae; regular and irregular striae on mesosoma assuming multiple directions, interspaces smooth; dorsal tooth of propodeal lobe acute, ventral tooth blunt; dorsal margin of mesosoma slightly discontinuous, somewhat straight (mesosoma slightly flattened dorsally), promesonotal junction and metanotal groove discernible by a slight depression (LV) and altered sculpture (DV); propodeal spine long; dorsal margin of petiole continuous, convex; ventral surface with transverse striae from petiole spiracle to posterior end of petiole; irregular, longitudinal and anastomosed striae node dorsum; postpetiole smooth; subpostpetiolar process predominantly smooth, weak, convex; profemur posterior surface and protibia extensor surface smooth; striation on tergum of first gastral segment restricted to base, very short striae.
+</paragraph>
+</subSubSection>
+<caption id="969BAE97FFFBFFFBF0A5F349FCCBF863" ID-DOI="http://doi.org/10.5281/zenodo.5577798" ID-Zenodo-Dep="5577798" httpUri="https://zenodo.org/record/5577798/files/figure.png" pageId="83" pageNumber="84" startId="83.[151,250,1866,1890]" targetBox="[151,1436,381,1843]" targetPageId="83">
+<paragraph id="C25BFE1FFFFBFFFBF0A5F349FCCBF863" blockId="83.[151,1437,1866,1926]" pageId="83" pageNumber="84">
+<emphasis id="F090220DFFFBFFFBF0A5F349FEE6F887" bold="true" box="[151,289,1866,1890]" pageId="83" pageNumber="84">FIGURE 55.</emphasis>
+Holotype worker of 
+<taxonomicName id="05E4859CFFFBFFFBF1CAF349FD17F887" authorityName="Pierce, Branstetter &amp; Longino" authorityYear="2017" box="[504,720,1866,1890]" class="Insecta" family="Formicidae" genus="Hylomyrma" kingdom="Animalia" order="Hymenoptera" pageId="83" pageNumber="84" phylum="Arthropoda" rank="species" species="montana">
+<emphasis id="F090220DFFFBFFFBF1CAF349FD17F887" box="[504,720,1866,1890]" italics="true" pageId="83" pageNumber="84">Hylomyrma montana</emphasis>
+</taxonomicName>
+(CASENT0637306). A) frontal view; B) dorsal view; C) lateral view. Photos by Michele Esposito, available from www.antweb.org.
+</paragraph>
+</caption>
+<caption id="969BAE97FFFCFFFCF0A5F16AFF28FA40" ID-DOI="http://doi.org/10.5281/zenodo.5577802" ID-Zenodo-Dep="5577802" httpUri="https://zenodo.org/record/5577802/files/figure.png" pageId="84" pageNumber="85" startId="84.[151,250,1385,1409]" targetBox="[151,1436,181,1361]" targetPageId="84">
+<paragraph id="C25BFE1FFFFCFFFCF0A5F16AFF28FA40" blockId="84.[151,1437,1385,1445]" pageId="84" pageNumber="85">
+<emphasis id="F090220DFFFCFFFCF0A5F16AFEE7FA64" bold="true" box="[151,288,1385,1409]" pageId="84" pageNumber="85">FIGURE 56.</emphasis>
+Queen of 
+<taxonomicName id="05E4859CFFFCFFFCF1BEF16AFDA3FA64" authorityName="Pierce, Branstetter &amp; Longino" authorityYear="2017" box="[396,612,1385,1409]" class="Insecta" family="Formicidae" genus="Hylomyrma" kingdom="Animalia" order="Hymenoptera" pageId="84" pageNumber="85" phylum="Arthropoda" rank="species" species="montana">
+<emphasis id="F090220DFFFCFFFCF1BEF16AFDA3FA64" box="[396,612,1385,1409]" italics="true" pageId="84" pageNumber="85">Hylomyrma montana</emphasis>
+</taxonomicName>
+(MZSP67406). A) frontal view; B) dorsal view; C) lateral view. Photos by M.A. Ulysséa.
+</paragraph>
+</caption>
+<subSubSection id="8AFEAD94FFFCFFFCF0F5F1D0FE44F8B0" pageId="84" pageNumber="85" type="description">
+<paragraph id="C25BFE1FFFFCFFFCF0F5F1D0FF2CF8D4" blockId="84.[151,1437,1491,2022]" pageId="84" pageNumber="85">
+QUEEN (first description) (n=3) (
+<figureCitation id="5ADFE29AFFFCFFFCF21CF1D0FD7FFA0B" box="[558,696,1491,1518]" captionStart="FIGURE 56" captionStartId="84.[151,250,1385,1409]" captionTargetBox="[151,1436,181,1361]" captionTargetId="figure-35@84.[151,1436,181,1361]" captionTargetPageId="84" captionText="FIGURE 56. Queen of Hylomyrma montana (MZSP67406). A) frontal view; B) dorsal view; C) lateral view. Photos by M.A. Ulysséa." figureDoi="http://doi.org/10.5281/zenodo.5577802" httpUri="https://zenodo.org/record/5577802/files/figure.png" pageId="84" pageNumber="85">Fig. 56A–C</figureCitation>
+): HL (1–1.02); HW (0.96–0.97); ML (0.64–0.68); SL (0.72–0.74); MOD (0.24–0.26); PNW (0.78–0.80); WL (1.48–1.51); PSL (0.31–0.34); PL (0.71–0.74); PW (0.28–0.30); PPL (0.36–0.38); PPW (0.42); GL (1.30–1.36); TL (5.49–5.62); CI (95.10–97); SI (74.22–77.08); OI (24.74–26.80). Large-sized. Color, pilosity, and some sculpture characters shared with conspecific workers, only slightly larger. Larger diameter of eye with 12–13 ommatidia. Longitudinal, regular to irregular striae on scutum going from an anterior central point towards transcutal suture, interspaces distinguishable. Longitudinal and mostly irregular striae on anepisternum and katepisternum, interspaces distinguishable. Axilla and scutellum with same sculpture of scutum. Scutoscutellar sulcus inconspicuous. Transverse striae on propodeum (DV). Irregular striae on mesosoma lateral directed in part to propodeal dorsum and in part to propodeal spine, interspaces distinguishable. Wings unknown.
+</paragraph>
+<paragraph id="C25BFE1FFFFCFFFCF0F5F33FFE44F8B0" blockId="84.[151,1437,1491,2022]" box="[199,387,1851,1878]" pageId="84" pageNumber="85">MALE Unknown.</paragraph>
+</subSubSection>
+<subSubSection id="8AFEAD94FFFCFFFCF0F5F35CFB7DF89C" box="[199,1210,1887,1914]" pageId="84" pageNumber="85" type="etymology">
+<paragraph id="C25BFE1FFFFCFFFCF0F5F35CFB7DF89C" blockId="84.[151,1437,1491,2022]" box="[199,1210,1887,1914]" pageId="84" pageNumber="85">
+<emphasis id="F090220DFFFCFFFCF0F5F35CFE89F89C" bold="true" box="[199,334,1887,1913]" pageId="84" pageNumber="85">Etymology.</emphasis>
+The specific epithet is in reference to the montane distribution of this species.
+</paragraph>
+</subSubSection>
+<subSubSection id="8AFEAD94FFFCFFFDF0F5F380FD2DFDFC" lastPageId="85" lastPageNumber="86" pageId="84" pageNumber="85" type="discussion">
+<paragraph id="C25BFE1FFFFCFFFDF0F5F380FBF4FEF8" blockId="84.[151,1437,1491,2022]" lastBlockId="85.[151,1437,151,1617]" lastPageId="85" lastPageNumber="86" pageId="84" pageNumber="85">
+<emphasis id="F090220DFFFCFFFCF0F5F380FE88F878" bold="true" box="[199,335,1923,1949]" pageId="84" pageNumber="85">Comments.</emphasis>
+This species is easily distinguished from almost all of its congeners, but it is very similar to 
+<taxonomicName id="05E4859CFFFCFFFCF5B3F387FED4F824" authorityName="Ulyssea" authorityYear="2021" class="Insecta" family="Formicidae" genus="Hylomyrma" kingdom="Animalia" order="Hymenoptera" pageId="84" pageNumber="85" phylum="Arthropoda" rank="species" species="lispectorae">
+<emphasis id="F090220DFFFCFFFCF5B3F387FED4F824" italics="true" pageId="84" pageNumber="85">H. lispectorae</emphasis>
+</taxonomicName>
+regarding the shape of mesosoma, and the sculpture and shape of the procoxa, petiole, postpetiole, and gaster. The two species are sympatric, co-occuring in two Ecuadorian localities: 
+<collectingRegion id="002030FDFFFCFFFCF402F3C8FBBBF800" box="[1072,1148,1995,2021]" country="France" name="Centre" pageId="84" pageNumber="85">Centro</collectingRegion>
+Científico Río Palenque, and 
+<quantity id="051C53FAFFFDFFFDF0F5F494FEC7FF54" box="[199,256,151,177]" metricMagnitude="3" metricUnit="m" metricValue="4.0" pageId="85" pageNumber="86" unit="km" value="4.0">4 km</quantity>
+E of Santo Domingo de los Colorados (
+<figureCitation id="5ADFE29AFFFDFFFDF2F6F494FCE6FF54" box="[708,801,151,177]" captionStart="FIGURE 83" captionStartId="130.[151,250,1076,1100]" captionTargetBox="[170,1420,184,1049]" captionTargetId="figure-35@130.[167,1420,181,1052]" captionTargetPageId="130" captionText="FIGURE 83. Distribution records of Hylomyrma adelae, H. dandarae, H. longiscapa, H. montana, and H. sagax." figureDoi="http://doi.org/10.5281/zenodo.5577860" httpUri="https://zenodo.org/record/5577860/files/figure.png" pageId="85" pageNumber="86">Figs. 83</figureCitation>
+, 
+<figureCitation id="5ADFE29AFFFDFFFDF31CF494FC89FF54" box="[814,846,151,177]" captionStart="FIGURE 84" captionStartId="130.[151,250,2013,2037]" captionTargetBox="[181,1406,1129,1986]" captionTargetId="figure-61@130.[175,1412,1125,1990]" captionTargetPageId="130" captionText="FIGURE 84. Distribution records of Hylomyrma balzani, H. blandiens, H. jeronimae, and H. lispectorae." figureDoi="http://doi.org/10.5281/zenodo.5577862" httpUri="https://zenodo.org/record/5577862/files/figure.png" pageId="85" pageNumber="86">84</figureCitation>
+). 
+<taxonomicName id="05E4859CFFFDFFFDF353F494FB88FF55" authorityName="Pierce, Branstetter &amp; Longino" authorityYear="2017" box="[865,1103,151,177]" class="Insecta" family="Formicidae" genus="Hylomyrma" kingdom="Animalia" order="Hymenoptera" pageId="85" pageNumber="86" phylum="Arthropoda" rank="species" species="montana">
+<emphasis id="F090220DFFFDFFFDF353F494FB88FF55" box="[865,1103,151,177]" italics="true" pageId="85" pageNumber="86">Hylomyrma montana</emphasis>
+</taxonomicName>
+can be distinguished from 
+<taxonomicName id="05E4859CFFFDFFFDF5B3F494FED4FF30" authorityName="Ulyssea" authorityYear="2021" class="Insecta" family="Formicidae" genus="Hylomyrma" kingdom="Animalia" order="Hymenoptera" pageId="85" pageNumber="86" phylum="Arthropoda" rank="species" species="lispectorae">
+<emphasis id="F090220DFFFDFFFDF5B3F494FED4FF30" italics="true" pageId="85" pageNumber="86">H. lispectorae</emphasis>
+</taxonomicName>
+(characteristic in parentheses) by the dorsum of head and mesosoma with irregular striae of uniform thickness with interspaces distinguishable (vs. vermicular striae of variable thickness with interspaces indistinguishable), and the somewhat straight dorsal margin of mesosoma (vs. notably convex).
+</paragraph>
+<paragraph id="C25BFE1FFFFDFFFDF0F5F524FD2DFDFC" blockId="85.[151,1437,151,1617]" pageId="85" pageNumber="86">
+The morphological variation displayed by 
+<taxonomicName id="05E4859CFFFDFFFDF281F524FCFCFEA5" authorityName="Pierce, Branstetter &amp; Longino" authorityYear="2017" box="[691,827,295,320]" class="Insecta" family="Formicidae" genus="Hylomyrma" kingdom="Animalia" order="Hymenoptera" pageId="85" pageNumber="86" phylum="Arthropoda" rank="species" species="montana">
+<emphasis id="F090220DFFFDFFFDF281F524FCFCFEA5" box="[691,827,295,320]" italics="true" pageId="85" pageNumber="86">H. montana</emphasis>
+</taxonomicName>
+is associated with the presence of intercastes. Three specimens have an inconspicuous central ocellus, and a more pronounced depression on the metanotal groove. Two specimens (#17842, #17840) from Chiriqui-Bocas del Toro, 
+<collectingCountry id="BAF3BE8FFFFDFFFDF370F56CFC59FE6C" box="[834,926,367,393]" name="Panama" pageId="85" pageNumber="86">Panama</collectingCountry>
+, have more queen-like traits, as larger bodies [HL (1); HW (0.94–0.98); ML (0.58–0.62); SL (0.68–0.70); MOD (0.22–0.23); PNW (0.25–0.26); WL (1.32–1.34); PSL (0.30–0.31); PL (0.64–0.65); PW (0.25–0.26); PPL (0.36); PPW (0.35–0.38); GL (1.18–1.30); TL (5.09–5.26)], the presence of three ocelli, the well-marked promesonotal suture, the differentiated mesonotum (scutum, transcutal suture, prescutellum, and scutellum) and metanotum.
+</paragraph>
+</subSubSection>
+<subSubSection id="8AFEAD94FFFDFFFDF0F5F621FCDDFD28" pageId="85" pageNumber="86" type="distribution">
+<paragraph id="C25BFE1FFFFDFFFDF0F5F621FC95FDD8" blockId="85.[151,1437,151,1617]" box="[199,850,546,573]" pageId="85" pageNumber="86">
+<emphasis id="F090220DFFFDFFFDF0F5F621FEA6FDD9" bold="true" box="[199,353,546,572]" pageId="85" pageNumber="86">Distribution.</emphasis>
+<collectingCountry id="BAF3BE8FFFFDFFFDF155F620FE23FDD8" box="[359,484,547,573]" name="Costa Rica" pageId="85" pageNumber="86">Costa Rica</collectingCountry>
+, 
+<collectingCountry id="BAF3BE8FFFFDFFFDF1C2F620FD88FDD8" box="[496,591,547,573]" name="Ecuador" pageId="85" pageNumber="86">Ecuador</collectingCountry>
+, and 
+<collectingCountry id="BAF3BE8FFFFDFFFDF2BBF620FD25FDD8" box="[649,738,547,573]" name="Panama" pageId="85" pageNumber="86">Panama</collectingCountry>
+(
+<figureCitation id="5ADFE29AFFFDFFFDF2C3F620FC83FDD8" box="[753,836,547,573]" captionStart="FIGURE 83" captionStartId="130.[151,250,1076,1100]" captionTargetBox="[170,1420,184,1049]" captionTargetId="figure-35@130.[167,1420,181,1052]" captionTargetPageId="130" captionText="FIGURE 83. Distribution records of Hylomyrma adelae, H. dandarae, H. longiscapa, H. montana, and H. sagax." figureDoi="http://doi.org/10.5281/zenodo.5577860" httpUri="https://zenodo.org/record/5577860/files/figure.png" pageId="85" pageNumber="86">Fig. 83</figureCitation>
+).
+</paragraph>
+<paragraph id="C25BFE1FFFFDFFFDF0F5F644FCDDFD28" blockId="85.[151,1437,151,1617]" pageId="85" pageNumber="86">
+<emphasis id="F090220DFFFDFFFDF0F5F644FE40FD85" bold="true" box="[199,391,582,609]" pageId="85" pageNumber="86">Natural history.</emphasis>
+This species inhabits wet forest sites at elevations between 29 and 
+<quantity id="051C53FAFFFDFFFDF4A3F644FB2CFD84" box="[1169,1259,583,609]" metricMagnitude="3" metricUnit="m" metricValue="1.8" pageId="85" pageNumber="86" unit="m" value="1800.0">1800 m</quantity>
+. Specimens are frequently found in leaf-litter samples, which suggests that nests are located in leaf-litter, fallen logs, rotten wood, or inside natural cavities of the superficial soil layers. Except for the presence of intercastes, there is no further information available regarding the biology of 
+<taxonomicName id="05E4859CFFFDFFFDF2BDF6B0FCD4FD29" authorityName="Pierce, Branstetter &amp; Longino" authorityYear="2017" box="[655,787,691,716]" class="Insecta" family="Formicidae" genus="Hylomyrma" kingdom="Animalia" order="Hymenoptera" pageId="85" pageNumber="86" phylum="Arthropoda" rank="species" species="montana">
+<emphasis id="F090220DFFFDFFFDF2BDF6B0FCD4FD29" box="[655,787,691,716]" italics="true" pageId="85" pageNumber="86">H. montana</emphasis>
+</taxonomicName>
+.
+</paragraph>
+</subSubSection>
+<subSubSection id="8AFEAD94FFFDFFFDF0F5F6D5FD57F9B4" pageId="85" pageNumber="86" type="materials_examined">
+<paragraph id="C25BFE1FFFFDFFFDF0F5F6D5FD57F9B4" blockId="85.[151,1437,151,1617]" pageId="85" pageNumber="86">
+<emphasis id="F090220DFFFDFFFDF0F5F6D5FDE8FD15" bold="true" box="[199,559,726,752]" pageId="85" pageNumber="86">Additional material examined</emphasis>
+(
+<specimenCount id="D4E23596FFFDFFFDF20DF6D4FD05FD14" box="[575,706,727,753]" pageId="85" pageNumber="86" type="worker">40 workers</specimenCount>
+, 15 queens, 5 intercastes): 
+<materialsCitation id="728CF442FFFDFFFDF3C7F6D5FEA2FCDC" ID-GBIF-Occurrence="3392795200" accessionNumber="I 26128" collectingDate="2001-04-01" collectingDateMax="1981-02-28" collectingDateMin="1981-01-04" collectionCode="MZSP" collectorName="ALAS" country="Costa Rica" county="La Fortuna area" elevation="0" latitude="10.26877" location="16 km SSE La Virgem" longLatPrecision="1" longitude="-84.08531" municipality="Centr. Cient." pageId="85" pageNumber="86" specimenCode="MIZA0021697, MIZA0021698, MIZA0021700" specimenCount="1" stateProvince="Heredia">
+<emphasis id="F090220DFFFDFFFDF3C7F6D5FADBFD15" bold="true" box="[1013,1308,726,752]" pageId="85" pageNumber="86">
+<collectingCountry id="BAF3BE8FFFFDFFFDF3C7F6D5FB61FD15" box="[1013,1190,726,752]" name="Costa Rica" pageId="85" pageNumber="86">COSTA RICA</collectingCountry>
+: 
+<collectingRegion id="002030FDFFFDFFFDF481F6D5FAD0FD15" box="[1203,1303,726,752]" country="Costa Rica" name="Heredia" pageId="85" pageNumber="86">Heredia</collectingRegion>
+:
+</emphasis>
+<location id="C73BA8C4FFFDFFFDF516F6D4FED7FCF0" LSID="urn:lsid:plazi:treatment:4A4D4F09FFE7FFFAF0A5F1DFFB07FA00:C73BA8C4FFFDFFFDF516F6D4FED7FCF0" country="Costa Rica" county="La Fortuna area" latitude="10.26877" longLatPrecision="1" longitude="-84.08531" municipality="Centr. Cient." name="16 km SSE La Virgem" pageId="85" pageNumber="86" stateProvince="Heredia">
+<quantity id="051C53FAFFFDFFFDF516F6D4FAA3FD14" box="[1316,1380,727,753]" metricMagnitude="4" metricUnit="m" metricValue="1.6" pageId="85" pageNumber="86" unit="km" value="16.0">16km</quantity>
+SSE La Virgem
+</location>
+, 
+<geoCoordinate id="A7D098D8FFFDFFFDF129F6F8FE43FCF0" box="[283,388,763,789]" degrees="10.26877" direction="north" orientation="latitude" pageId="85" pageNumber="86" precision="1" value="10.26877">10.26877</geoCoordinate>
+<geoCoordinate id="A7D098D8FFFDFFFDF1B8F6F9FE3AFCF0" box="[394,509,762,789]" degrees="84.08531" direction="west" orientation="longitude" pageId="85" pageNumber="86" precision="1" value="-84.08531">-84.08531</geoCoordinate>
++ 
+<elevation id="49C9192CFFFDFFFDF22BF6F8FD72FCF0" box="[537,693,763,789]" isEnumeration="true" pageId="85" pageNumber="86">
+<quantity id="051C53FAFFFDFFFDF22BF6F8FD9BFCF0" box="[537,604,763,789]" metricMagnitude="2" metricUnit="m" metricValue="2.0" pageId="85" pageNumber="86" unit="m" value="200.0">200m</quantity>
+, 
+<quantity id="051C53FAFFFDFFFDF254F6F8FD72FCF0" box="[614,693,763,789]" metricMagnitude="3" metricUnit="m" metricValue="1.1099999999999999" pageId="85" pageNumber="86" unit="m" value="1110.0">1110m</quantity>
+</elevation>
+, 
+<date id="B65AD8DFFFFDFFFDF28DF6F8FCEEFCF0" box="[703,809,763,789]" pageId="85" pageNumber="86" value="2001-04-01">
+<collectingDate id="A61E2137FFFDFFFDF28DF6F8FCEEFCF0" box="[703,809,763,789]" pageId="85" pageNumber="86" value="2001-04-01">1.iv.2001</collectingDate>
+</date>
+, 
+<collectorName id="6F119BC9FFFDFFFDF301F6F8FCBBFCF0" box="[819,892,763,789]" pageId="85" pageNumber="86">ALAS</collectorName>
+#11/WF/01/all montane wet forest, ex sifted leaf litter (2I) [
+<collectionCode id="A4F566DAFFFDFFFDF13BF71DFE9CFCDC" box="[265,347,798,825]" country="Brazil" httpUri="http://grbio.org/cool/9yp6-zxp9" name="Sao Paulo, Museu de Zoologia da Universidade de Sao Paulo" pageId="85" pageNumber="86" type="Museum">MZSP</collectionCode>
+].
+</materialsCitation>
+<materialsCitation id="728CF442FFFDFFFDF159F71DFDCDFCB8" ID-GBIF-Occurrence="3392795036" accessionNumber="I 26128" collectingDate="1977-08-02" collectingDateMax="1981-02-28" collectingDateMin="1981-01-04" collectionCode="UTLP" collectorName="L. Tapia &amp; P. Ponce" country="Ecuador" county="La Fortuna area" elevation="0" latitude="10.26877" location="Otonga" longLatPrecision="1" longitude="-84.08531" municipality="Centr. Cient." pageId="85" pageNumber="86" specimenCode="MIZA0021697, MIZA0021698, MIZA0021700" specimenCount="1" stateProvince="Cotopaxi">
+<emphasis id="F090220DFFFDFFFDF159F71DFDB9FCDD" bold="true" box="[363,638,798,825]" pageId="85" pageNumber="86">
+<collectingCountry id="BAF3BE8FFFFDFFFDF159F71DFE3EFCDD" box="[363,505,798,824]" name="Ecuador" pageId="85" pageNumber="86">ECUADOR</collectingCountry>
+: 
+<collectingRegion id="002030FDFFFDFFFDF23AF71DFDBEFCDD" box="[520,633,798,824]" country="Ecuador" name="Cotopaxi" pageId="85" pageNumber="86">Cotopaxi</collectingRegion>
+:
+</emphasis>
+<location id="C73BA8C4FFFDFFFDF2B6F71CFD1EFCDC" LSID="urn:lsid:plazi:treatment:4A4D4F09FFE7FFFAF0A5F1DFFB07FA00:C73BA8C4FFFDFFFDF2B6F71CFD1EFCDC" box="[644,729,799,825]" country="Ecuador" county="La Fortuna area" latitude="10.26877" longLatPrecision="1" longitude="-84.08531" municipality="Centr. Cient." name="Otonga" pageId="85" pageNumber="86" stateProvince="Cotopaxi">Otonga</location>
+, 
+<geoCoordinate id="A7D098D8FFFDFFFDF2D1F723FCF8FCDE" box="[739,831,800,827]" degrees="00" direction="south" minutes="25" orientation="latitude" pageId="85" pageNumber="86" precision="925" value="-0.41666666">00°25′S</geoCoordinate>
+, 
+<geoCoordinate id="A7D098D8FFFDFFFDF37BF723FC6AFCDE" box="[841,941,800,827]" degrees="79" direction="west" minutes="00" orientation="longitude" pageId="85" pageNumber="86" precision="925" value="-79.0">79°00′W</geoCoordinate>
+, 
+<date id="B65AD8DFFFFDFFFDF385F71CFBFBFCDC" box="[951,1084,799,825]" pageId="85" pageNumber="86" value="1977-08-02">
+<collectingDate id="A61E2137FFFDFFFDF385F71CFBFBFCDC" box="[951,1084,799,825]" pageId="85" pageNumber="86" value="1977-08-02">2AUG1977</collectingDate>
+</date>
+, 
+<collectorName id="6F119BC9FFFDFFFDF475F71CFB65FCDC" box="[1095,1186,799,825]" pageId="85" pageNumber="86">L. Tapia</collectorName>
+&amp; 
+<collectorName id="6F119BC9FFFDFFFDF4F6F71CFAE3FCDC" box="[1220,1316,799,825]" pageId="85" pageNumber="86">P. Ponce</collectorName>
+, ex monte, B5, QCAZ I 26128 (1Q) [
+<collectionCode id="A4F566DAFFFDFFFDF187F741FDC3FCB8" box="[437,516,834,861]" pageId="85" pageNumber="86">UTLP</collectionCode>
+]
+</materialsCitation>
+; 
+<materialsCitation id="728CF442FFFDFFFDF227F740FBEDFCB8" ID-GBIF-Occurrence="3392794814" accessionNumber="I 26128" box="[533,1066,834,861]" collectingDate="2001-04-01" collectingDateMax="1981-02-28" collectingDateMin="1981-01-04" collectionCode="UTLP" collectorName="L. Tapia &amp; P. Ponce" country="Costa Rica" county="La Fortuna area" elevation="0" latitude="10.26877" location="16 km SSE La Virgem" longLatPrecision="1" longitude="-84.08531" municipality="Centr. Cient." pageId="85" pageNumber="86" specimenCode="MIZA0021697, MIZA0021698, MIZA0021700" specimenCount="1" stateProvince="Heredia">
+same except MN008I, LL4-P2WI (1Q) [
+<collectionCode id="A4F566DAFFFDFFFDF3E6F741FBE4FCB8" box="[980,1059,834,861]" pageId="85" pageNumber="86">UTLP</collectionCode>
+]
+</materialsCitation>
+; 
+<materialsCitation id="728CF442FFFDFFFDF406F740FBA4FC64" ID-GBIF-Occurrence="3392794832" accessionNumber="I 26128" collectingDate="2001-04-01" collectingDateMax="1981-02-28" collectingDateMin="1981-01-04" collectionCode="MCZC" collectorName="G. J. Umphrey" country="Costa Rica" county="La Fortuna area" elevation="0" latitude="10.26877" location="Rio Palenque, Univ. Miami Res. Sta." longLatPrecision="1" longitude="-84.08531" municipality="Centr. Cient." pageId="85" pageNumber="86" specimenCode="MIZA0021697, MIZA0021698, MIZA0021700" specimenCount="1" stateProvince="Los Rios">
+<emphasis id="F090220DFFFDFFFDF406F740FB71FCB9" bold="true" box="[1076,1206,834,861]" pageId="85" pageNumber="86">
+[
+<collectingRegion id="002030FDFFFDFFFDF409F740FB6DFCB9" box="[1083,1194,834,861]" country="Ecuador" name="Los Rios" pageId="85" pageNumber="86">Los Rios</collectingRegion>
+]:
+</emphasis>
+<location id="C73BA8C4FFFDFFFDF48FF740FE9EFC64" LSID="urn:lsid:plazi:treatment:4A4D4F09FFE7FFFAF0A5F1DFFB07FA00:C73BA8C4FFFDFFFDF48FF740FE9EFC64" country="Costa Rica" county="La Fortuna area" latitude="10.26877" longLatPrecision="1" longitude="-84.08531" municipality="Centr. Cient." name="Rio Palenque, Univ. Miami Res. Sta." pageId="85" pageNumber="86" stateProvince="Los Rios">Rio Palenque, Univ. Miami Res. Sta.</location>
+, 29July.1978, 
+<collectorName id="6F119BC9FFFDFFFDF237F764FD6FFC64" box="[517,680,871,897]" pageId="85" pageNumber="86">G.J. Umphrey</collectorName>
+(1W) (MCZENT00525538) [
+<collectionCode id="A4F566DAFFFDFFFDF436F765FB9BFC64" box="[1028,1116,870,897]" pageId="85" pageNumber="86">MCZC</collectionCode>
+]
+</materialsCitation>
+; 
+<materialsCitation id="728CF442FFFDFFFDF440F764FCB9FC40" ID-GBIF-Occurrence="3392794478" accessionNumber="I 26128" collectingDate="2001-04-01" collectingDateMax="1981-02-28" collectingDateMin="1981-01-04" collectionCode="UTLP" collectorName="L. Tapia &amp; P. Ponce" country="Costa Rica" county="La Fortuna area" elevation="0" latitude="10.26877" location="16 km SSE La Virgem" longLatPrecision="1" longitude="-84.08531" municipality="Centr. Cient." pageId="85" pageNumber="86" specimenCode="MIZA0021697, MIZA0021698, MIZA0021700" specimenCount="1" stateProvince="Heredia">
+Agosto/Septiembre, 1977, 55235, Bosque primario, cuad.cerr, QCAZ I 114015 (1Q) [
+<collectionCode id="A4F566DAFFFDFFFDF31AF789FCB0FC40" box="[808,887,906,933]" pageId="85" pageNumber="86">UTLP</collectionCode>
+]
+</materialsCitation>
+; 
+<materialsCitation id="728CF442FFFDFFFDF3BBF789FCB0FC2C" ID-GBIF-Occurrence="3392795182" accessionNumber="I 26128" collectingDate="1981-01-04" collectingDateMax="1981-02-28" collectingDateMin="1981-01-04" collectionCode="IHVL" collectorName="Sonia Sandoval" country="Costa Rica" county="La Fortuna area" elevation="0" latitude="10.26877" location="Palenque" longLatPrecision="1" longitude="-84.08531" municipality="Centr. Cient." pageId="85" pageNumber="86" specimenCode="MIZA0021697, MIZA0021698, MIZA0021700" specimenCount="1" stateProvince="Pichincha">
+<emphasis id="F090220DFFFDFFFDF3BBF789FBCFFC41" bold="true" box="[905,1032,906,932]" pageId="85" pageNumber="86">
+<collectingRegion id="002030FDFFFDFFFDF3BBF789FBC3FC41" box="[905,1028,906,932]" country="Ecuador" name="Pichincha" pageId="85" pageNumber="86">Pichincha</collectingRegion>
+:
+</emphasis>
+<collectingMunicipality id="223F6465FFFDFFFDF43DF788FB59FC40" box="[1039,1182,907,933]" pageId="85" pageNumber="86">Centr. Cient.</collectingMunicipality>
+R. 
+<location id="C73BA8C4FFFDFFFDF4F7F788FAE8FC40" LSID="urn:lsid:plazi:treatment:4A4D4F09FFE7FFFAF0A5F1DFFB07FA00:C73BA8C4FFFDFFFDF4F7F788FAE8FC40" box="[1221,1327,907,933]" country="Costa Rica" county="La Fortuna area" latitude="10.26877" longLatPrecision="1" longitude="-84.08531" municipality="Centr. Cient." name="Palenque" pageId="85" pageNumber="86" stateProvince="Pichincha">Palenque</location>
+, 
+<date id="B65AD8DFFFFDFFFDF50BF788FA50FC40" box="[1337,1431,907,933]" pageId="85" pageNumber="86" value="1981-01-04">
+<collectingDate id="A61E2137FFFDFFFDF50BF788FA50FC40" box="[1337,1431,907,933]" pageId="85" pageNumber="86" value="1981-01-04">4.i.1981</collectingDate>
+</date>
+, 
+<collectorName id="6F119BC9FFFDFFFDF0A5F7ACFE80FC2C" box="[151,327,943,969]" pageId="85" pageNumber="86">Sonia Sandoval</collectorName>
+col., Bosque primario cerrado, 196 (1Q) [
+<collectionCode id="A4F566DAFFFDFFFDF317F7ADFCB7FC2C" box="[805,880,942,969]" pageId="85" pageNumber="86">IHVL</collectionCode>
+]
+</materialsCitation>
+; 
+<materialsCitation id="728CF442FFFDFFFDF3B1F7ACFA99FC2C" ID-GBIF-Occurrence="3392794494" accessionNumber="I 26128" box="[899,1374,942,969]" collectingDate="1981-02-28" collectingDateMax="1981-02-28" collectingDateMin="1981-01-04" collectionCode="IHVL" collectorName="L. Tapia &amp; P. Ponce" country="Costa Rica" county="La Fortuna area" elevation="0" latitude="10.26877" location="16 km SSE La Virgem" longLatPrecision="1" longitude="-84.08531" municipality="Centr. Cient." pageId="85" pageNumber="86" specimenCode="MIZA0021697, MIZA0021698, MIZA0021700" specimenCount="1" stateProvince="Heredia">
+same except 
+<date id="B65AD8DFFFFDFFFDF424F7ACFB4EFC2C" box="[1046,1161,943,969]" pageId="85" pageNumber="86" value="1981-02-28">
+<collectingDate id="A61E2137FFFDFFFDF424F7ACFB4EFC2C" box="[1046,1161,943,969]" pageId="85" pageNumber="86" value="1981-02-28">28.ii.1981</collectingDate>
+</date>
+, 279 (1Q) [
+<collectionCode id="A4F566DAFFFDFFFDF53EF7ADFA90FC2C" box="[1292,1367,942,969]" pageId="85" pageNumber="86">IHVL</collectionCode>
+]
+</materialsCitation>
+; 
+<materialsCitation id="728CF442FFFDFFFDF558F7ACFF3AFBF4" ID-GBIF-Occurrence="3392795128" accessionNumber="I 26128" collectingDate="1976-07-08" collectingDateMax="1981-02-28" collectingDateMin="1981-01-04" collectionCode="MCZC" collectorName="S. &amp; J. Peck" country="Costa Rica" county="La Fortuna area" elevation="0" latitude="10.26877" location="Colorados" longLatPrecision="1" longitude="-84.08531" municipality="Centr. Cient." pageId="85" pageNumber="86" specimenCode="MIZA0021697, MIZA0021698, MIZA0021700" specimenCount="1" stateProvince="Heredia">
+<locationDeviation id="D3E9E73DFFFDFFFDF558F7ACFEAEFC08" location="Santo Domingo" pageId="85" pageNumber="86">
+<quantity id="051C53FAFFFDFFFDF558F7ACFA5AFC2C" box="[1386,1437,943,969]" metricMagnitude="3" metricUnit="m" metricValue="4.0" pageId="85" pageNumber="86" unit="km" value="4.0">4km</quantity>
+E Santo Domingo
+</locationDeviation>
+de los 
+<location id="C73BA8C4FFFDFFFDF1F4F7D0FDFBFC08" LSID="urn:lsid:plazi:treatment:4A4D4F09FFE7FFFAF0A5F1DFFB07FA00:C73BA8C4FFFDFFFDF1F4F7D0FDFBFC08" box="[454,572,979,1005]" country="Costa Rica" county="La Fortuna area" latitude="10.26877" longLatPrecision="1" longitude="-84.08531" municipality="Centr. Cient." name="Colorados" pageId="85" pageNumber="86" stateProvince="Heredia">Colorados</location>
+, 
+<date id="B65AD8DFFFFDFFFDF279F7D0FD78FC08" box="[587,703,979,1005]" pageId="85" pageNumber="86" value="1976-07-08">
+<collectingDate id="A61E2137FFFDFFFDF279F7D0FD78FC08" box="[587,703,979,1005]" pageId="85" pageNumber="86" value="1976-07-08">8.vii.1976</collectingDate>
+</date>
+, 
+<collectorName id="6F119BC9FFFDFFFDF2FDF7D0FCA2FC08" box="[719,869,979,1005]" pageId="85" pageNumber="86">S. &amp; J. Peck</collectorName>
+(2Q) (MCZENT00524645, MCZENT00524644) [
+<collectionCode id="A4F566DAFFFDFFFDF0ACF7F5FF31FBF4" box="[158,246,1014,1041]" pageId="85" pageNumber="86">MCZC</collectionCode>
+]
+</materialsCitation>
+; 
+<materialsCitation id="728CF442FFFDFFFDF13BF7F4FD7CFBD0" ID-GBIF-Occurrence="3392794707" accessionNumber="I 26128" collectingDate="1975-06-22" collectingDateMax="1981-02-28" collectingDateMin="1981-01-04" collectionCode="MCZC" collectorName="S. &amp; J. Peck" country="Costa Rica" county="La Fortuna area" elevation="520" latitude="10.26877" location="Colorados" longLatPrecision="1" longitude="-84.08531" municipality="Centr. Cient." pageId="85" pageNumber="86" specimenCode="MIZA0021697, MIZA0021698, MIZA0021700" specimenCount="1" stateProvince="Heredia">
+<locationDeviation id="D3E9E73DFFFDFFFDF13BF7F4FDCBFBF4" box="[265,524,1015,1041]" location="Santo Domingo" pageId="85" pageNumber="86">
+<quantity id="051C53FAFFFDFFFDF13BF7F4FEFCFBF4" box="[265,315,1015,1041]" metricMagnitude="3" metricUnit="m" metricValue="4.0" pageId="85" pageNumber="86" unit="km" value="4.0">4km</quantity>
+E Santo Domingo
+</locationDeviation>
+de los 
+<location id="C73BA8C4FFFDFFFDF26CF7F4FD13FBF4" LSID="urn:lsid:plazi:treatment:4A4D4F09FFE7FFFAF0A5F1DFFB07FA00:C73BA8C4FFFDFFFDF26CF7F4FD13FBF4" box="[606,724,1015,1041]" country="Costa Rica" county="La Fortuna area" latitude="10.26877" longLatPrecision="1" longitude="-84.08531" municipality="Centr. Cient." name="Colorados" pageId="85" pageNumber="86" stateProvince="Heredia">Colorados</location>
+, 
+<quantity id="051C53FAFFFDFFFDF2D2F7F5FCE5FBF4" box="[736,802,1014,1041]" metricMagnitude="2" metricUnit="m" metricValue="5.2" pageId="85" pageNumber="86" unit="m" value="520.0">
+<elevation id="49C9192CFFFDFFFDF2D2F7F5FCE5FBF4" box="[736,802,1014,1041]" metricMagnitude="2" metricUnit="m" metricValue="5.2" pageId="85" pageNumber="86" unit="m" value="520.0">520m</elevation>
+</quantity>
+, 
+<date id="B65AD8DFFFFDFFFDF31CF7F4FC0FFBF4" box="[814,968,1014,1041]" pageId="85" pageNumber="86" value="1975-06-22">
+<collectingDate id="A61E2137FFFDFFFDF31CF7F4FC0FFBF4" box="[814,968,1014,1041]" pageId="85" pageNumber="86" value="1975-06-22">22 June 1975</collectingDate>
+</date>
+, rainfor., B-304, 
+<collectorName id="6F119BC9FFFDFFFDF4BAF7F4FAD4FBF4" box="[1160,1299,1015,1041]" pageId="85" pageNumber="86">S. &amp; J. Peck</collectorName>
+(2W) (MCZENT00524657, MCZENT00524665) [
+<collectionCode id="A4F566DAFFFDFFFDF26EF019FD73FBD0" box="[604,692,1050,1077]" pageId="85" pageNumber="86">MCZC</collectionCode>
+]
+</materialsCitation>
+; 
+<materialsCitation id="728CF442FFFDFFFDF2FBF018FB2EFBD0" ID-GBIF-Occurrence="3392794583" accessionNumber="I 26128" box="[713,1257,1050,1077]" collectingDate="2001-04-01" collectingDateMax="1981-02-28" collectingDateMin="1981-01-04" collectionCode="MZSP" collectorName="L. Tapia &amp; P. Ponce" country="Costa Rica" county="La Fortuna area" elevation="0" latitude="10.26877" location="16 km SSE La Virgem" longLatPrecision="1" longitude="-84.08531" municipality="Centr. Cient." pageId="85" pageNumber="86" specimenCode="MIZA0021697, MIZA0021698, MIZA0021700" specimenCount="1" stateProvince="Heredia">
+same data (1W) (MZCENT00524664) [
+<collectionCode id="A4F566DAFFFDFFFDF4A2F019FB25FBD0" box="[1168,1250,1050,1077]" country="Brazil" httpUri="http://grbio.org/cool/9yp6-zxp9" name="Sao Paulo, Museu de Zoologia da Universidade de Sao Paulo" pageId="85" pageNumber="86" type="Museum">MZSP</collectionCode>
+]
+</materialsCitation>
+; 
+<materialsCitation id="728CF442FFFDFFFDF4C5F018FE02FB98" ID-GBIF-Occurrence="3392794616" accessionNumber="I 26128" collectingDate="2001-04-01" collectingDateMax="1981-02-28" collectingDateMin="1981-01-04" collectionCode="MCZC" collectorName="S. &amp; J. Peck" country="Costa Rica" county="La Fortuna area" elevation="1600" latitude="10.26877" location="16 km SSE La Virgem" longLatPrecision="1" longitude="-84.08531" municipality="Centr. Cient." pageId="85" pageNumber="86" specimenCode="MIZA0021697, MIZA0021698, MIZA0021700" specimenCount="1" stateProvince="Heredia">
+<locationDeviation id="D3E9E73DFFFDFFFDF4C5F018FE14FBBC" location="Alluriquin on Chiriboga Rd." pageId="85" pageNumber="86">
+<quantity id="051C53FAFFFDFFFDF4C5F018FA9BFBD0" box="[1271,1372,1051,1077]" metricMagnitude="4" metricUnit="m" metricValue="2.5" metricValueMax="3.0" metricValueMin="2.0" pageId="85" pageNumber="86" unit="km" value="25.0" valueMax="30.0" valueMin="20.0">20-30km</quantity>
+ENE Alluriquin on Chiriboga Rd.
+</locationDeviation>
+, 
+<quantity id="051C53FAFFFDFFFDF1ECF03CFDA8FBBC" box="[478,623,1087,1113]" metricMagnitude="3" metricUnit="m" metricValue="1.6" metricValueMax="1.8" metricValueMin="1.4" pageId="85" pageNumber="86" unit="m" value="1600.0" valueMax="1800.0" valueMin="1400.0">
+<elevation id="49C9192CFFFDFFFDF1ECF03CFDA8FBBC" box="[478,623,1087,1113]" metricMagnitude="3" metricUnit="m" metricValue="1.6" metricValueMax="1.8" metricValueMin="1.4" pageId="85" pageNumber="86" unit="m" value="1600.0" valueMax="1800.0" valueMin="1400.0">1400-1800m</elevation>
+</quantity>
+, moss for., B301, 1975, 
+<collectorName id="6F119BC9FFFDFFFDF348F03CFC38FBBC" box="[890,1023,1087,1113]" pageId="85" pageNumber="86">S. &amp; J. Peck</collectorName>
+(1W 1Q) (MCZENT00524672, MCZENT00524671) [
+<collectionCode id="A4F566DAFFFDFFFDF154F061FE79FB98" box="[358,446,1122,1149]" pageId="85" pageNumber="86">MCZC</collectionCode>
+]
+</materialsCitation>
+; 
+<materialsCitation id="728CF442FFFDFFFDF1E3F060FEFFFB44" ID-GBIF-Occurrence="3392795205" accessionNumber="I 26128" collectingDate="2009-09-04" collectingDateMax="1981-02-28" collectingDateMin="1981-01-04" collectionCode="UTLP" collectorName="G. Ramon" country="Costa Rica" county="La Fortuna area" elevation="850" latitude="10.26877" location="Otongachi" longLatPrecision="1" longitude="-84.08531" municipality="Centr. Cient." pageId="85" pageNumber="86" specimenCode="MIZA0021697, MIZA0021698, MIZA0021700" specimenCount="1" stateProvince="Heredia">
+<location id="C73BA8C4FFFDFFFDF1E3F060FD8EFB98" LSID="urn:lsid:plazi:treatment:4A4D4F09FFE7FFFAF0A5F1DFFB07FA00:C73BA8C4FFFDFFFDF1E3F060FD8EFB98" box="[465,585,1123,1149]" country="Costa Rica" county="La Fortuna area" latitude="10.26877" longLatPrecision="1" longitude="-84.08531" municipality="Centr. Cient." name="Otongachi" pageId="85" pageNumber="86" stateProvince="Heredia">Otongachi</location>
+, 
+<quantity id="051C53FAFFFDFFFDF266F061FD50FB98" box="[596,663,1122,1149]" metricMagnitude="2" metricUnit="m" metricValue="8.5" pageId="85" pageNumber="86" unit="m" value="850.0">
+<elevation id="49C9192CFFFDFFFDF266F061FD50FB98" box="[596,663,1122,1149]" metricMagnitude="2" metricUnit="m" metricValue="8.5" pageId="85" pageNumber="86" unit="m" value="850.0">850m</elevation>
+</quantity>
+, 
+<geoCoordinate id="A7D098D8FFFDFFFDF291F067FCDFFB9A" box="[675,792,1124,1151]" degrees="0" direction="south" minutes="18" orientation="latitude" pageId="85" pageNumber="86" precision="15" seconds="49" value="-0.31361112">0°18′49″S</geoCoordinate>
+, 
+<geoCoordinate id="A7D098D8FFFDFFFDF316F067FC77FB9A" box="[804,944,1124,1151]" degrees="78" direction="west" minutes="57" orientation="longitude" pageId="85" pageNumber="86" precision="15" seconds="15" value="-78.95416">78°57′15″W</geoCoordinate>
+, 
+<date id="B65AD8DFFFFDFFFDF38EF060FB84FB98" box="[956,1091,1123,1149]" pageId="85" pageNumber="86" value="2009-09-04">
+<collectingDate id="A61E2137FFFDFFFDF38EF060FB84FB98" box="[956,1091,1123,1149]" pageId="85" pageNumber="86" value="2009-09-04">04SEP2009</collectingDate>
+</date>
+, 
+<collectorName id="6F119BC9FFFDFFFDF47CF060FB02FB98" box="[1102,1221,1123,1149]" pageId="85" pageNumber="86">G. Ramón</collectorName>
+, KT-601, LL8W14 (2W) [
+<collectionCode id="A4F566DAFFFDFFFDF0D0F085FEF6FB44" box="[226,305,1158,1185]" pageId="85" pageNumber="86">UTLP</collectionCode>
+]
+</materialsCitation>
+; 
+<materialsCitation id="728CF442FFFDFFFDF177F084FC96FB44" ID-GBIF-Occurrence="3392794740" accessionNumber="I 26128" box="[325,849,1158,1185]" collectingDate="2001-04-01" collectingDateMax="1981-02-28" collectingDateMin="1981-01-04" collectionCode="UTLP" collectorName="L. Tapia &amp; P. Ponce" country="Costa Rica" county="La Fortuna area" elevation="0" latitude="10.26877" location="16 km SSE La Virgem" longLatPrecision="1" longitude="-84.08531" municipality="Centr. Cient." pageId="85" pageNumber="86" specimenCode="MIZA0021697, MIZA0021698, MIZA0021700" specimenCount="1" stateProvince="Heredia">
+same except KT-1668, LL8W7 (2W) [
+<collectionCode id="A4F566DAFFFDFFFDF2CEF085FC8CFB44" box="[764,843,1158,1185]" pageId="85" pageNumber="86">UTLP</collectionCode>
+]
+</materialsCitation>
+; 
+<materialsCitation id="728CF442FFFDFFFDF36CF084FAA4FB44" ID-GBIF-Occurrence="3392795217" accessionNumber="I 26128" box="[862,1379,1158,1185]" collectingDate="2001-04-01" collectingDateMax="1981-02-28" collectingDateMin="1981-01-04" collectionCode="MZSP" collectorName="L. Tapia &amp; P. Ponce" country="Costa Rica" county="La Fortuna area" elevation="0" latitude="10.26877" location="16 km SSE La Virgem" longLatPrecision="1" longitude="-84.08531" municipality="Centr. Cient." pageId="85" pageNumber="86" specimenCode="MIZA0021697, MIZA0021698, MIZA0021700" specimenCount="1" stateProvince="Heredia">
+KT-691, LL8W1 (1W) (MZHY213) [
+<collectionCode id="A4F566DAFFFDFFFDF538F085FA9BFB44" box="[1290,1372,1158,1185]" country="Brazil" httpUri="http://grbio.org/cool/9yp6-zxp9" name="Sao Paulo, Museu de Zoologia da Universidade de Sao Paulo" pageId="85" pageNumber="86" type="Museum">MZSP</collectionCode>
+]
+</materialsCitation>
+; 
+<materialsCitation id="728CF442FFFDFFFDF542F084FE15FB20" ID-GBIF-Occurrence="3392795085" accessionNumber="I 26128" collectingDate="2001-04-01" collectingDateMax="1981-02-28" collectingDateMin="1981-01-04" collectionCode="IHVL" collectorName="L. Tapia &amp; P. Ponce" country="Costa Rica" county="La Fortuna area" elevation="0" latitude="10.26877" location="16 km SSE La Virgem" longLatPrecision="1" longitude="-84.08531" municipality="Centr. Cient." pageId="85" pageNumber="86" specimenCode="MIZA0021697, MIZA0021698, MIZA0021700" specimenCount="1" stateProvince="Heredia">
+KT-691, LL8W1 (1W) [
+<collectionCode id="A4F566DAFFFDFFFDF1B2F0A9FE0CFB20" box="[384,459,1194,1221]" pageId="85" pageNumber="86">IHVL</collectionCode>
+]
+</materialsCitation>
+; 
+<materialsCitation id="728CF442FFFDFFFDF1D3F0A8FB15FB20" ID-GBIF-Occurrence="3392795198" accessionNumber="I 26128" box="[481,1234,1194,1221]" collectingDate="2008-08-04" collectingDateMax="1981-02-28" collectingDateMin="1981-01-04" collectionCode="MZSP" collectorName="D. Donoso" country="Costa Rica" county="La Fortuna area" elevation="0" latitude="10.26877" location="16 km SSE La Virgem" longLatPrecision="1" longitude="-84.08531" municipality="Centr. Cient." pageId="85" pageNumber="86" specimenCode="MIZA0021697, MIZA0021698, MIZA0021700" specimenCount="1" stateProvince="Heredia">
+<date id="B65AD8DFFFFDFFFDF1D3F0A8FD41FB20" box="[481,646,1195,1221]" pageId="85" pageNumber="86" value="2008-08-04">
+<collectingDate id="A61E2137FFFDFFFDF1D3F0A8FD41FB20" box="[481,646,1195,1221]" pageId="85" pageNumber="86" value="2008-08-04">04-AUG-2008</collectingDate>
+</date>
+, 
+<collectorName id="6F119BC9FFFDFFFDF2A7F0A8FCD3FB20" box="[661,788,1195,1221]" pageId="85" pageNumber="86">D. Donoso</collectorName>
+, KT-1270, LL6-W2 (2W 1Q) [
+<collectionCode id="A4F566DAFFFDFFFDF448F0A9FB0BFB20" box="[1146,1228,1194,1221]" country="Brazil" httpUri="http://grbio.org/cool/9yp6-zxp9" name="Sao Paulo, Museu de Zoologia da Universidade de Sao Paulo" pageId="85" pageNumber="86" type="Museum">MZSP</collectionCode>
+]
+</materialsCitation>
+; 
+<materialsCitation id="728CF442FFFDFFFDF4D3F0A8FD45FB0C" ID-GBIF-Occurrence="3392794548" accessionNumber="I 26128" collectingDate="2011-08-03" collectingDateMax="1981-02-28" collectingDateMin="1981-01-04" collectionCode="MZSP" collectorName="G. Ramon" country="Costa Rica" county="La Fortuna area" elevation="0" latitude="10.26877" location="16 km SSE La Virgem" longLatPrecision="1" longitude="-84.08531" municipality="Centr. Cient." pageId="85" pageNumber="86" specimenCode="MIZA0021697, MIZA0021698, MIZA0021700" specimenCount="1" stateProvince="Heredia">
+<date id="B65AD8DFFFFDFFFDF4D3F0A8FAB4FB20" box="[1249,1395,1195,1221]" pageId="85" pageNumber="86" value="2011-08-03">
+<collectingDate id="A61E2137FFFDFFFDF4D3F0A8FAB4FB20" box="[1249,1395,1195,1221]" pageId="85" pageNumber="86" value="2011-08-03">03AUG2011</collectingDate>
+</date>
+, 
+<collectorName id="6F119BC9FFFDFFFDF5B3F0A8FF2CFB0C" pageId="85" pageNumber="86">G. Ramón</collectorName>
+, VD-604, LL12-PF18 (1Q) [
+<collectionCode id="A4F566DAFFFDFFFDF21BF0CDFDBCFB0C" box="[553,635,1230,1257]" country="Brazil" httpUri="http://grbio.org/cool/9yp6-zxp9" name="Sao Paulo, Museu de Zoologia da Universidade de Sao Paulo" pageId="85" pageNumber="86" type="Museum">MZSP</collectionCode>
+]
+</materialsCitation>
+; 
+<materialsCitation id="728CF442FFFDFFFDF2BFF0CCFAD3FB0C" ID-GBIF-Occurrence="3392795017" accessionNumber="I 26128" box="[653,1300,1230,1257]" collectingDate="2009-08-06" collectingDateMax="1981-02-28" collectingDateMin="1981-01-04" collectionCode="UTLP" collectorName="G. Ramon" country="Costa Rica" county="La Fortuna area" elevation="0" latitude="10.26877" location="16 km SSE La Virgem" longLatPrecision="1" longitude="-84.08531" municipality="Centr. Cient." pageId="85" pageNumber="86" specimenCode="MIZA0021697, MIZA0021698, MIZA0021700" specimenCount="1" stateProvince="Heredia">
+<date id="B65AD8DFFFFDFFFDF2BFF0CCFCE7FB0C" box="[653,800,1231,1257]" pageId="85" pageNumber="86" value="2009-08-06">
+<collectingDate id="A61E2137FFFDFFFDF2BFF0CCFCE7FB0C" box="[653,800,1231,1257]" pageId="85" pageNumber="86" value="2009-08-06">06AUG2009</collectingDate>
+</date>
+, 
+<collectorName id="6F119BC9FFFDFFFDF319F0CCFC67FB0C" box="[811,928,1231,1257]" pageId="85" pageNumber="86">G. Ramón</collectorName>
+, KT-1055, GR-018 (1Q) [
+<collectionCode id="A4F566DAFFFDFFFDF48DF0CDFAC9FB0C" box="[1215,1294,1230,1257]" pageId="85" pageNumber="86">UTLP</collectionCode>
+]
+</materialsCitation>
+; 
+<materialsCitation id="728CF442FFFDFFFDF52CF0CCFC1DFAD4" ID-GBIF-Occurrence="3392795115" accessionNumber="I 26128" collectingDate="1976-06-05" collectingDateMax="1981-02-28" collectingDateMin="1981-01-04" collectionCode="MCZC" collectorName="S. &amp; J. Peck" country="Costa Rica" county="La Fortuna area" elevation="0" latitude="10.26877" location="Tinalandia" longLatPrecision="1" longitude="-84.08531" municipality="Tinalandia" pageId="85" pageNumber="86" specimenCode="MIZA0021697, MIZA0021698, MIZA0021700" specimenCount="1" stateProvince="Heredia">
+<collectingMunicipality id="223F6465FFFDFFFDF52CF0CCFA5FFB0C" box="[1310,1432,1231,1257]" pageId="85" pageNumber="86">Tinalandia</collectingMunicipality>
+, 
+<locationDeviation id="D3E9E73DFFFDFFFDF0A5F0F0FD9EFAE8" box="[151,601,1267,1293]" pageId="85" pageNumber="86">
+<quantity id="051C53FAFFFDFFFDF0A5F0F0FF10FAE8" box="[151,215,1267,1293]" metricMagnitude="4" metricUnit="m" metricValue="1.6" pageId="85" pageNumber="86" unit="km" value="16.0">16km</quantity>
+SE S. Domingo de los Colorados
+</locationDeviation>
+, 
+<date id="B65AD8DFFFFDFFFDF254F0F1FD15FAE8" box="[614,722,1266,1293]" pageId="85" pageNumber="86" value="1976-06-05">
+<collectingDate id="A61E2137FFFDFFFDF254F0F1FD15FAE8" box="[614,722,1266,1293]" pageId="85" pageNumber="86" value="1976-06-05">5.vi.1976</collectingDate>
+</date>
+, 
+<collectorName id="6F119BC9FFFDFFFDF2EDF0F0FCACFAE8" box="[735,875,1267,1293]" pageId="85" pageNumber="86">S. &amp; J. Peck</collectorName>
+(5W) (MCZENT00524687, MZCENT00525525, MZCENT00524685, MZCENT00525526, MZCENT00524686) [
+<collectionCode id="A4F566DAFFFDFFFDF349F115FC14FAD4" box="[891,979,1302,1329]" pageId="85" pageNumber="86">MCZC</collectionCode>
+]
+</materialsCitation>
+; 
+<materialsCitation id="728CF442FFFDFFFDF3D5F114FF30FAB0" ID-GBIF-Occurrence="3392794985" accessionNumber="I 26128" collectingDate="2001-04-01" collectingDateMax="1981-02-28" collectingDateMin="1981-01-04" collectionCode="MZSP" collectorName="L. Tapia &amp; P. Ponce" country="Costa Rica" county="La Fortuna area" elevation="0" latitude="10.26877" location="16 km SSE La Virgem" longLatPrecision="1" longitude="-84.08531" municipality="Centr. Cient." pageId="85" pageNumber="86" specimenCode="MIZA0021697, MIZA0021698, MIZA0021700" specimenCount="1" stateProvince="Heredia">
+same data (1W) (MZCENT00525527) [
+<collectionCode id="A4F566DAFFFDFFFDF0ACF139FF37FAB0" box="[158,240,1338,1365]" country="Brazil" httpUri="http://grbio.org/cool/9yp6-zxp9" name="Sao Paulo, Museu de Zoologia da Universidade de Sao Paulo" pageId="85" pageNumber="86" type="Museum">MZSP</collectionCode>
+]
+</materialsCitation>
+; 
+<materialsCitation id="728CF442FFFDFFFDF137F138FC7CFAB0" ID-GBIF-Occurrence="3392795120" accessionNumber="I 26128" box="[261,955,1338,1365]" collectingDate="1976-06-04" collectingDateMax="1981-02-28" collectingDateMin="1981-01-04" collectionCode="MCZC" collectorName="L. Tapia &amp; P. Ponce" country="Costa Rica" county="La Fortuna area" elevation="0" latitude="10.26877" location="16 km SSE La Virgem" longLatPrecision="1" longitude="-84.08531" municipality="Centr. Cient." pageId="85" pageNumber="86" specimenCode="MIZA0021697, MIZA0021698, MIZA0021700" specimenCount="1" stateProvince="Heredia">
+same except 
+<date id="B65AD8DFFFFDFFFDF1AEF138FDC2FAB0" box="[412,517,1339,1365]" pageId="85" pageNumber="86" value="1976-06-04">
+<collectingDate id="A61E2137FFFDFFFDF1AEF138FDC2FAB0" box="[412,517,1339,1365]" pageId="85" pageNumber="86" value="1976-06-04">4.vi.1976</collectingDate>
+</date>
+(1W) (MCZENT00525483) [
+<collectionCode id="A4F566DAFFFDFFFDF36EF139FC73FAB0" box="[860,948,1338,1365]" pageId="85" pageNumber="86">MCZC</collectionCode>
+]
+</materialsCitation>
+; 
+<materialsCitation id="728CF442FFFDFFFDF3FBF138FE76FA9C" ID-GBIF-Occurrence="3392795141" accessionNumber="I 26128" collectingDate="2001-04-01" collectingDateMax="1981-02-28" collectingDateMin="1981-01-04" collectionCode="MIZA" collectorName="L. Tapia &amp; P. Ponce" country="Costa Rica" county="La Fortuna area" elevation="680" latitude="10.26877" location="16 km SSE La Virgem" longLatPrecision="1" longitude="-84.08531" municipality="Centr. Cient." pageId="85" pageNumber="86" specimenCode="MIZA0021697, MIZA0021698" specimenCount="1" stateProvince="Heredia">
+<quantity id="051C53FAFFFDFFFDF3FBF138FBCBFAB0" box="[969,1036,1339,1365]" metricMagnitude="2" metricUnit="m" metricValue="6.8" pageId="85" pageNumber="86" unit="m" value="680.0">
+<elevation id="49C9192CFFFDFFFDF3FBF138FBCBFAB0" box="[969,1036,1339,1365]" metricMagnitude="2" metricUnit="m" metricValue="6.8" pageId="85" pageNumber="86" unit="m" value="680.0">680m</elevation>
+</quantity>
+, B-300, (1W 1Q) (
+<specimenCode id="92425664FFFDFFFDF4D8F138FA5EFAB0" box="[1258,1433,1339,1365]" collectionCode="MIZA" country="Venezuela" httpUri="http://biocol.org/urn:lsid:biocol.org:col:33834" lsid="urn:lsid:biocol.org:col:33834" name="Museo del Instituto de Zoologia Agricola Francisco Fernandez Yepez" pageId="85" pageNumber="86" type="Museum">MIZA0021697</specimenCode>
+, 
+<specimenCode id="92425664FFFDFFFDF0A5F15CFE84FA9F" box="[151,323,1375,1402]" collectionCode="MIZA" country="Venezuela" httpUri="http://biocol.org/urn:lsid:biocol.org:col:33834" lsid="urn:lsid:biocol.org:col:33834" name="Museo del Instituto de Zoologia Agricola Francisco Fernandez Yepez" pageId="85" pageNumber="86" type="Museum">MIZA0021698</specimenCode>
+) [
+<collectionCode id="A4F566DAFFFDFFFDF168F15DFE6DFA9C" box="[346,426,1374,1401]" country="Venezuela" httpUri="http://biocol.org/urn:lsid:biocol.org:col:33834" lsid="urn:lsid:biocol.org:col:33834" name="Museo del Instituto de Zoologia Agricola Francisco Fernandez Yepez" pageId="85" pageNumber="86" type="Museum">MIZA</collectionCode>
+]
+</materialsCitation>
+; 
+<materialsCitation id="728CF442FFFDFFFDF18DF15CFCADFA9C" ID-GBIF-Occurrence="3392794785" accessionNumber="I 26128" box="[447,874,1374,1401]" collectingDate="2001-04-01" collectingDateMax="1981-02-28" collectingDateMin="1981-01-04" collectionCode="MIZA" collectorName="L. Tapia &amp; P. Ponce" country="Costa Rica" county="La Fortuna area" elevation="680" latitude="10.26877" location="16 km SSE La Virgem" longLatPrecision="1" longitude="-84.08531" municipality="Centr. Cient." pageId="85" pageNumber="86" specimenCode="MIZA0021700" specimenCount="1" stateProvince="Heredia">
+<quantity id="051C53FAFFFDFFFDF18DF15CFE38FA9C" box="[447,511,1375,1401]" metricMagnitude="2" metricUnit="m" metricValue="6.8" pageId="85" pageNumber="86" unit="m" value="680.0">
+<elevation id="49C9192CFFFDFFFDF18DF15CFE38FA9C" box="[447,511,1375,1401]" metricMagnitude="2" metricUnit="m" metricValue="6.8" pageId="85" pageNumber="86" unit="m" value="680.0">680m</elevation>
+</quantity>
+(1Q) (
+<specimenCode id="92425664FFFDFFFDF27CF15CFD3CFA9C" box="[590,763,1375,1401]" collectionCode="MIZA" country="Venezuela" httpUri="http://biocol.org/urn:lsid:biocol.org:col:33834" lsid="urn:lsid:biocol.org:col:33834" name="Museo del Instituto de Zoologia Agricola Francisco Fernandez Yepez" pageId="85" pageNumber="86" type="Museum">MIZA0021700</specimenCode>
+) [
+<collectionCode id="A4F566DAFFFDFFFDF321F15DFCA4FA9C" box="[787,867,1374,1401]" country="Venezuela" httpUri="http://biocol.org/urn:lsid:biocol.org:col:33834" lsid="urn:lsid:biocol.org:col:33834" name="Museo del Instituto de Zoologia Agricola Francisco Fernandez Yepez" pageId="85" pageNumber="86" type="Museum">MIZA</collectionCode>
+]
+</materialsCitation>
+; 
+<materialsCitation id="728CF442FFFDFFFDF34AF15CFA90FA78" ID-GBIF-Occurrence="3392794849" accessionNumber="I 26128" collectingDate="2003-09-05" collectingDateMax="1981-02-28" collectingDateMin="1981-01-04" collectionCode="MZSP" collectorName="D. Donoso" country="Costa Rica" county="La Fortuna area" elevation="900" latitude="10.26877" location="Rio Toachi" longLatPrecision="1" longitude="-84.08531" municipality="Centr. Cient." pageId="85" pageNumber="86" specimenCode="MZSP67433" specimenCount="1" stateProvince="Heredia">
+<location id="C73BA8C4FFFDFFFDF34AF15CFC3FFA9C" LSID="urn:lsid:plazi:treatment:4A4D4F09FFE7FFFAF0A5F1DFFB07FA00:C73BA8C4FFFDFFFDF34AF15CFC3FFA9C" box="[888,1016,1375,1401]" country="Costa Rica" county="La Fortuna area" latitude="10.26877" longLatPrecision="1" longitude="-84.08531" municipality="Centr. Cient." name="Rio Toachi" pageId="85" pageNumber="86" stateProvince="Heredia">Río Toachi</location>
+, 
+<quantity id="051C53FAFFFDFFFDF434F15CFB8FFA9C" box="[1030,1096,1375,1401]" metricMagnitude="2" metricUnit="m" metricValue="9.0" pageId="85" pageNumber="86" unit="m" value="900.0">
+<elevation id="49C9192CFFFDFFFDF434F15CFB8FFA9C" box="[1030,1096,1375,1401]" metricMagnitude="2" metricUnit="m" metricValue="9.0" pageId="85" pageNumber="86" unit="m" value="900.0">900m</elevation>
+</quantity>
+, 
+<geoCoordinate id="A7D098D8FFFDFFFDF464F15CFB2CFA9C" box="[1110,1259,1375,1401]" degrees="0.3304033" direction="south" orientation="latitude" pageId="85" pageNumber="86" precision="1" value="-0.3304033">0.3304033°S</geoCoordinate>
+, 
+<geoCoordinate id="A7D098D8FFFDFFFDF4CAF15CFA52FA9C" box="[1272,1429,1375,1401]" degrees="78.9413833" direction="west" orientation="longitude" pageId="85" pageNumber="86" precision="1" value="-78.94138">78.9413833W</geoCoordinate>
+, 
+<date id="B65AD8DFFFFDFFFDF0A5F181FEE1FA78" box="[151,294,1410,1437]" pageId="85" pageNumber="86" value="2003-09-05">
+<collectingDate id="A61E2137FFFDFFFDF0A5F181FEE1FA78" box="[151,294,1410,1437]" pageId="85" pageNumber="86" value="2003-09-05">05.Sep.2003</collectingDate>
+</date>
+, 
+<collectorName id="6F119BC9FFFDFFFDF100F180FE69FA78" box="[306,430,1411,1437]" pageId="85" pageNumber="86">D. Donoso</collectorName>
+, KT-786, N.O W LL-1, 19/26 (2W, one covered with gold) (
+<specimenCode id="92425664FFFDFFFDF464F180FB2EFA7B" box="[1110,1257,1411,1438]" collectionCode="MZSP" country="Brazil" httpUri="http://grbio.org/cool/9yp6-zxp9" name="Sao Paulo, Museu de Zoologia da Universidade de Sao Paulo" pageId="85" pageNumber="86" type="Museum">MZSP67433</specimenCode>
+) [
+<collectionCode id="A4F566DAFFFDFFFDF4CCF181FA97FA78" box="[1278,1360,1410,1437]" country="Brazil" httpUri="http://grbio.org/cool/9yp6-zxp9" name="Sao Paulo, Museu de Zoologia da Universidade de Sao Paulo" pageId="85" pageNumber="86" type="Museum">MZSP</collectionCode>
+]
+</materialsCitation>
+; 
+<materialsCitation id="728CF442FFFDFFFDF551F180FCA4FA24" ID-GBIF-Occurrence="3392795139" accessionNumber="I 26128" collectingDate="2001-04-01" collectingDateMax="1981-02-28" collectingDateMin="1981-01-04" collectionCode="MZSP" collectorName="Cont. Div. &amp; R. Anderson" country="Panama" county="La Fortuna area" elevation="0" latitude="10.26877" location="Chiriqui-Bocas del Toro" longLatPrecision="1" longitude="-84.08531" municipality="Centr. Cient." pageId="85" pageNumber="86" specimenCode="MIZA0021697, MIZA0021698, MIZA0021700" specimenCount="1" stateProvince="Heredia">
+same except LL1P11W48h, xc275, QCAZ 
+<accessionNumber id="DDB763FCFFFDFFFDF20BF1A4FD48FA24" box="[569,655,1446,1473]" httpUri="http://www.ncbi.nlm.nih.gov/nucleotide/I59348" pageId="85" pageNumber="86">I 59348</accessionNumber>
+(1W 1Q) [
+<collectionCode id="A4F566DAFFFDFFFDF334F1A5FC9FFA24" box="[774,856,1446,1473]" country="Brazil" httpUri="http://grbio.org/cool/9yp6-zxp9" name="Sao Paulo, Museu de Zoologia da Universidade de Sao Paulo" pageId="85" pageNumber="86" type="Museum">MZSP</collectionCode>
+].
+</materialsCitation>
+<materialsCitation id="728CF442FFFDFFFDF35BF1A5FD47FA00" ID-GBIF-Occurrence="3392795031" accessionNumber="I 26128" collectingDate="2001-04-01" collectingDateMax="1981-02-28" collectingDateMin="1981-01-04" collectionCode="MZSP" collectorName="Cont. Div. &amp; R. Anderson" country="Panama" county="La Fortuna area" elevation="0" latitude="10.26877" location="Chiriqui-Bocas del Toro" longLatPrecision="1" longitude="-84.08531" municipality="Centr. Cient." pageId="85" pageNumber="86" specimenCode="MIZA0021697, MIZA0021698, MIZA0021700" specimenCount="1" stateProvince="Heredia">
+<emphasis id="F090220DFFFDFFFDF35BF1A5FADCFA24" bold="true" box="[873,1307,1446,1473]" pageId="85" pageNumber="86">
+<collectingCountry id="BAF3BE8FFFFDFFFDF35BF1A5FC2FFA25" box="[873,1000,1446,1472]" name="Panama" pageId="85" pageNumber="86">PANAMA</collectingCountry>
+: 
+<location id="C73BA8C4FFFDFFFDF3C1F1A5FAD1FA24" LSID="urn:lsid:plazi:treatment:4A4D4F09FFE7FFFAF0A5F1DFFB07FA00:C73BA8C4FFFDFFFDF3C1F1A5FAD1FA24" box="[1011,1302,1446,1473]" country="Panama" county="La Fortuna area" latitude="10.26877" longLatPrecision="1" longitude="-84.08531" municipality="Centr. Cient." name="Chiriqui-Bocas del Toro" pageId="85" pageNumber="86" stateProvince="Heredia">Chiriqui-Bocas del Toro</location>
+:
+</emphasis>
+<collectorName id="6F119BC9FFFDFFFDF510F1A4FA5FFA24" box="[1314,1432,1447,1473]" pageId="85" pageNumber="86">Cont. Div.</collectorName>
+, 9.vi.95, 
+<collectorName id="6F119BC9FFFDFFFDF0C1F1C8FE45FA00" box="[243,386,1483,1509]" pageId="85" pageNumber="86">R. Anderson</collectorName>
+, #17845 (2W) 
+<collectionCode id="A4F566DAFFFDFFFDF218F1C9FDBEFA00" box="[554,633,1482,1509]" country="Brazil" httpUri="http://grbio.org/cool/9yp6-zxp9" name="Sao Paulo, Museu de Zoologia da Universidade de Sao Paulo" pageId="85" pageNumber="86" type="Museum">MZSP</collectionCode>
+]
+</materialsCitation>
+; 
+<materialsCitation id="728CF442FFFDFFFDF2B9F1C8FC67FA00" ID-GBIF-Occurrence="3392794570" accessionNumber="I 26128" box="[651,928,1482,1509]" collectingDate="2001-04-01" collectingDateMax="1981-02-28" collectingDateMin="1981-01-04" collectionCode="UTEP" collectorName="L. Tapia &amp; P. Ponce" country="Costa Rica" county="La Fortuna area" elevation="0" latitude="10.26877" location="16 km SSE La Virgem" longLatPrecision="1" longitude="-84.08531" municipality="Centr. Cient." pageId="85" pageNumber="86" specimenCode="MIZA0021697, MIZA0021698, MIZA0021700" specimenCount="1" stateProvince="Heredia">
+same data (1W) [
+<collectionCode id="A4F566DAFFFDFFFDF378F1C9FC5EFA00" box="[842,921,1482,1509]" country="USA" httpUri="http://biocol.org/urn:lsid:biocol.org:col:15719" lsid="urn:lsid:biocol.org:col:15719" name="University of Texas at El Paso Biodiversity Collections" pageId="85" pageNumber="86" type="Museum">UTEP</collectionCode>
+]
+</materialsCitation>
+; 
+<materialsCitation id="728CF442FFFDFFFDF399F1C8FB8AFA00" ID-GBIF-Occurrence="3392795055" accessionNumber="I 26128" box="[939,1101,1482,1509]" collectingDate="2001-04-01" collectingDateMax="1981-02-28" collectingDateMin="1981-01-04" collectionCode="DZUP" collectorName="L. Tapia &amp; P. Ponce" country="Costa Rica" county="La Fortuna area" elevation="0" latitude="10.26877" location="16 km SSE La Virgem" longLatPrecision="1" longitude="-84.08531" municipality="Centr. Cient." pageId="85" pageNumber="86" specimenCode="MIZA0021697, MIZA0021698, MIZA0021700" specimenCount="1" stateProvince="Heredia">
+(2W) [
+<collectionCode id="A4F566DAFFFDFFFDF3C6F1C9FB81FA00" box="[1012,1094,1482,1509]" country="Brazil" httpUri="http://grbio.org/cool/5xp9-edpx" name="Universidade Federal do Parana, Colecao de Entomologia Pe. Jesus Santiago Moure" pageId="85" pageNumber="86" type="University or college">DZUP</collectionCode>
+]
+</materialsCitation>
+; 
+<materialsCitation id="728CF442FFFDFFFDF46AF1C8FF30F9EC" ID-GBIF-Occurrence="3392794800" accessionNumber="I 26128" collectingDate="2001-04-01" collectingDateMax="1981-02-28" collectingDateMin="1981-01-04" collectionCode="MZSP" collectorName="L. Tapia &amp; P. Ponce" country="Costa Rica" county="La Fortuna area" elevation="0" latitude="10.26877" location="16 km SSE La Virgem" longLatPrecision="1" longitude="-84.08531" municipality="Centr. Cient." pageId="85" pageNumber="86" specimenCode="MIZA0021697, MIZA0021698, MIZA0021700" specimenCount="1" stateProvince="Heredia">
+same except #17842 (8W 1I) [
+<collectionCode id="A4F566DAFFFDFFFDF0ACF1EDFF37F9EC" box="[158,240,1518,1545]" country="Brazil" httpUri="http://grbio.org/cool/9yp6-zxp9" name="Sao Paulo, Museu de Zoologia da Universidade de Sao Paulo" pageId="85" pageNumber="86" type="Museum">MZSP</collectionCode>
+]
+</materialsCitation>
+; 
+<materialsCitation id="728CF442FFFDFFFDF137F1ECFE32F9EC" ID-GBIF-Occurrence="3392795056" accessionNumber="I 26128" box="[261,501,1518,1545]" collectingDate="2001-04-01" collectingDateMax="1981-02-28" collectingDateMin="1981-01-04" collectionCode="MZSP" collectorName="L. Tapia &amp; P. Ponce" country="Costa Rica" county="La Fortuna area" elevation="0" latitude="10.26877" location="16 km SSE La Virgem" longLatPrecision="1" longitude="-84.08531" municipality="Centr. Cient." pageId="85" pageNumber="86" specimenCode="MIZA0021697, MIZA0021698, MIZA0021700" specimenCount="1" stateProvince="Heredia">
+#17840 (2I) [
+<collectionCode id="A4F566DAFFFDFFFDF1AFF1EDFE28F9EC" box="[413,495,1518,1545]" country="Brazil" httpUri="http://grbio.org/cool/9yp6-zxp9" name="Sao Paulo, Museu de Zoologia da Universidade de Sao Paulo" pageId="85" pageNumber="86" type="Museum">MZSP</collectionCode>
+]
+</materialsCitation>
+; 
+<materialsCitation id="728CF442FFFDFFFDF231F1ECFA5FF9EC" ID-GBIF-Occurrence="3392795005" accessionNumber="I 26128" box="[515,1432,1518,1546]" collectingDate="2001-04-01" collectingDateMax="1981-02-28" collectingDateMin="1981-01-04" collectionCode="MZSP" collectorName="R. Anderson" country="Costa Rica" county="La Fortuna area" elevation="0" latitude="10.26877" location="La Fortuna area" longLatPrecision="1" longitude="-84.08531" municipality="Centr. Cient." pageId="85" pageNumber="86" specimenCode="MZSP67406" specimenCount="1" stateProvince="Heredia">
+<collectingCounty id="2B3A8693FFFDFFFDF231F1ECFD7BF9EC" box="[515,700,1519,1545]" pageId="85" pageNumber="86">La Fortuna area</collectingCounty>
+, 9.v.95, 
+<collectorName id="6F119BC9FFFDFFFDF312F1ECFC75F9EC" box="[800,946,1519,1545]" pageId="85" pageNumber="86">R. Anderson</collectorName>
+, #17846 (1W 1Q) (
+<specimenCode id="92425664FFFDFFFDF4A7F1ECFAEFF9EF" box="[1173,1320,1519,1546]" collectionCode="MZSP" country="Brazil" httpUri="http://grbio.org/cool/9yp6-zxp9" name="Sao Paulo, Museu de Zoologia da Universidade de Sao Paulo" pageId="85" pageNumber="86" type="Museum">MZSP67406</specimenCode>
+) [
+<collectionCode id="A4F566DAFFFDFFFDF50DF1EDFA56F9EC" box="[1343,1425,1518,1545]" country="Brazil" httpUri="http://grbio.org/cool/9yp6-zxp9" name="Sao Paulo, Museu de Zoologia da Universidade de Sao Paulo" pageId="85" pageNumber="86" type="Museum">MZSP</collectionCode>
+]
+</materialsCitation>
+; 
+<materialsCitation id="728CF442FFFDFFFDF0A5F210FF30F9B4" ID-GBIF-Occurrence="3392795195" accessionNumber="I 26128" collectingDate="1996-06-13" collectingDateMax="1981-02-28" collectingDateMin="1981-01-04" collectionCode="MZSP" collectorName="R. Anderson" country="Costa Rica" county="La Fortuna area" elevation="1220" latitude="10.26877" location="Cerro Tute" longLatPrecision="1" longitude="-84.08531" municipality="Centr. Cient." pageId="85" pageNumber="86" specimenCode="MIZA0021697, MIZA0021698, MIZA0021700" specimenCount="1" stateProvince="Veraguas">
+<emphasis id="F090220DFFFDFFFDF0A5F210FED7F9C8" bold="true" box="[151,272,1555,1581]" pageId="85" pageNumber="86">
+<collectingRegion id="002030FDFFFDFFFDF0A5F210FECDF9C8" box="[151,266,1555,1581]" country="Panama" name="Veraguas" pageId="85" pageNumber="86">Veraguas</collectingRegion>
+:
+</emphasis>
+<locationDeviation id="D3E9E73DFFFDFFFDF125F210FE17F9C8" box="[279,464,1555,1581]" pageId="85" pageNumber="86">6.1k N Santa Fe</locationDeviation>
+, 
+<location id="C73BA8C4FFFDFFFDF1E9F210FD90F9C8" LSID="urn:lsid:plazi:treatment:4A4D4F09FFE7FFFAF0A5F1DFFB07FA00:C73BA8C4FFFDFFFDF1E9F210FD90F9C8" box="[475,599,1555,1581]" country="Costa Rica" county="La Fortuna area" latitude="10.26877" longLatPrecision="1" longitude="-84.08531" municipality="Centr. Cient." name="Cerro Tute" pageId="85" pageNumber="86" stateProvince="Veraguas">Cerro Tute</location>
+, 
+<quantity id="051C53FAFFFDFFFDF251F210FD74F9C8" box="[611,691,1555,1581]" metricMagnitude="3" metricUnit="m" metricValue="1.22" pageId="85" pageNumber="86" unit="m" value="1220.0">
+<elevation id="49C9192CFFFDFFFDF251F210FD74F9C8" box="[611,691,1555,1581]" metricMagnitude="3" metricUnit="m" metricValue="1.22" pageId="85" pageNumber="86" unit="m" value="1220.0">1220m</elevation>
+</quantity>
+, 
+<date id="B65AD8DFFFFDFFFDF28DF210FCFEF9C8" box="[703,825,1555,1581]" pageId="85" pageNumber="86" value="1996-06-13">
+<collectingDate id="A61E2137FFFDFFFDF28DF210FCFEF9C8" box="[703,825,1555,1581]" pageId="85" pageNumber="86" value="1996-06-13">13.vi.1996</collectingDate>
+</date>
+, litter extr., wet cloud for., 
+<collectorName id="6F119BC9FFFDFFFDF459F210FB3DF9C8" box="[1131,1274,1555,1581]" pageId="85" pageNumber="86">R. Anderson</collectorName>
+, #17893 (1W) [
+<collectionCode id="A4F566DAFFFDFFFDF0ACF235FF37F9B4" box="[158,240,1590,1617]" country="Brazil" httpUri="http://grbio.org/cool/9yp6-zxp9" name="Sao Paulo, Museu de Zoologia da Universidade de Sao Paulo" pageId="85" pageNumber="86" type="Museum">MZSP</collectionCode>
+]
+</materialsCitation>
+; 
+<materialsCitation id="728CF442FFFDFFFDF130F234FD4BF9B4" ID-GBIF-Occurrence="3392794744" accessionNumber="I 26128" box="[258,652,1590,1617]" collectingDate="2001-04-01" collectingDateMax="1981-02-28" collectingDateMin="1981-01-04" collectionCode="UTEP" collectorName="L. Tapia &amp; P. Ponce" country="Costa Rica" county="La Fortuna area" elevation="0" latitude="10.26877" location="16 km SSE La Virgem" longLatPrecision="1" longitude="-84.08531" municipality="Centr. Cient." pageId="85" pageNumber="86" specimenCode="MIZA0021697, MIZA0021698, MIZA0021700" specimenCount="1" stateProvince="Heredia">
+same except #17891 (1W) [
+<collectionCode id="A4F566DAFFFDFFFDF204F235FD42F9B4" box="[566,645,1590,1617]" country="USA" httpUri="http://biocol.org/urn:lsid:biocol.org:col:15719" lsid="urn:lsid:biocol.org:col:15719" name="University of Texas at El Paso Biodiversity Collections" pageId="85" pageNumber="86" type="Museum">UTEP</collectionCode>
+]
+</materialsCitation>
+.
+</paragraph>
+</subSubSection>
+</treatment>
+</subSubSection>
+</treatment>
+</document>
