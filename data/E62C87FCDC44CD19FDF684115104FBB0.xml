@@ -1,0 +1,937 @@
+<document id="A67E4ECD5AD4271829FF02D6C8FF5D7D" ID-DOI="http://doi.org/10.5281/zenodo.6483905" ID-GBIF-Dataset="b4506300-8a4a-45f0-bc34-ec2eb31dfc92" ID-GBIF-Taxon="194839395" ID-ISSN="2118-9773" ID-Zenodo-Dep="6483905" ID-ZooBank="213B577F-867D-4ECD-AD2C-48ACA71801B5" LSID="urn:lsid:zoobank.org:act:4ACFDCEE-4214-4FAB-AF53-0EAD86F9C20D" _generate="added" checkinTime="1647348990589" checkinUser="felipe" docAuthor="Gustafsson, Daniel R., Najer, Tomas, Zou, Fasheng &amp; Bush, Sarah E." docDate="2022" docId="E62C87FCDC44CD19FDF684115104FBB0" docLanguage="en" docName="ejt-800_1-88.pdf" docOrigin="European Journal of Taxonomy 800" docSource="http://dx.doi.org/10.5852/ejt.2022.800.1683" docStyle="DocumentStyle:EF2B578F1D15862ADE45B0C07C620911.14:EJT.2018-.journal_article" docStyleId="EF2B578F1D15862ADE45B0C07C620911" docStyleName="EJT.2018-.journal_article" docStyleVersion="14" docTitle="Philopteroides holosternus Gustafsson &amp; Najer &amp; Zou &amp; Bush 2022, sp. nov." docType="treatment" docUuid="4ACFDCEE-4214-4FAB-AF53-0EAD86F9C20D" docUuidSource="ZooBank" docVersion="7" lastPageId="65" lastPageNumber="69" masterDocId="1A15FF84DC79CD58FFB1824A5065FFAD" masterDocTitle="The ischnoceran chewing lice (Phthiraptera: Ischnocera) of bulbuls (Aves: Passeriformes: Pycnonotidae), with descriptions of 18 new species" masterLastPageNumber="88" masterPageNumber="1" pageId="61" pageNumber="62" updateTime="1651635253156" updateUser="ExternalLinkService" zenodo-license-document="CC-BY-4.0" zenodo-license-figures="CC-BY-4.0" zenodo-license-treatments="UNSPECIFIED">
+<mods:mods id="853E03DAF9C09CF1664EA076E7E1E725" xmlns:mods="http://www.loc.gov/mods/v3">
+<mods:titleInfo id="A4CD1B981CD09BEAE0816FF908962480">
+<mods:title id="B26C8D0E28F081A78C49568B323387A2">The ischnoceran chewing lice (Phthiraptera: Ischnocera) of bulbuls (Aves: Passeriformes: Pycnonotidae), with descriptions of 18 new species</mods:title>
+</mods:titleInfo>
+<mods:name id="14EC76E2A9F2098B018915D520B628D7" type="personal">
+<mods:role id="7A7C90E2955DAB7E595139769C1FF93B">
+<mods:roleTerm id="EC3426DBBAEE34A77EF30A652A315B8D">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="E02A9AD7380E3FE74D9D9485235991F3">Gustafsson, Daniel R.</mods:namePart>
+<mods:nameIdentifier id="C90EB4624A9C4347C6299BCA4CBD5767" type="LSID">8D918E7D-07D5-49F4-A8D2-85682F00200C</mods:nameIdentifier>
+<mods:affiliation id="B3C60C56A7FF1CA0015F890770923B95">Guangdong Key Laboratory of Animal Conservation and Resource Utilization, Guangdong Public Laboratory of Wild Animal Conservation and Utilization, Institute of Zoology, Guangdong Academy of Sciences, Guangzhou, China. Department of Veterinary Sciences, Faculty of Agrobiology, Food and Natural Resources, Czech University of Life Sciences, Kamycka 129, 165 00 Prague 6, Czech Republic. School of Biological Sciences, University of Utah, 257 S. 1400 E., Salt Lake City, Utah, 84112, USA.</mods:affiliation>
+<mods:nameIdentifier id="DF6DC65953CC2BCA3A82B598253DAF1C" type="email">kotatsu@fripost.org</mods:nameIdentifier>
+</mods:name>
+<mods:name id="D5ED233433FCD2ED7518B15A3D9410DE" type="personal">
+<mods:role id="3E5C48A39A2A6DD51666C9800C9038BB">
+<mods:roleTerm id="730294FD5484DB088498C6B1E3324CD0">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="D672A772DD4ED34263B31B241234F681">Najer, Tomas</mods:namePart>
+<mods:nameIdentifier id="B8BCCE12A46ACA1374C481819C191C45" type="LSID">08A25BDD-8CCD-4709-9A57-7CE235D473C7</mods:nameIdentifier>
+<mods:nameIdentifier id="5A6ABE22CD99854E4D5ACC9153A1C86D" type="email">najer@af.czu.cz,tomas.najer@gmail.com</mods:nameIdentifier>
+</mods:name>
+<mods:name id="C92083B8C57D76CC5B361503E2A6D924" type="personal">
+<mods:role id="F654F83250372DE203510FD4B68E0ED8">
+<mods:roleTerm id="6AF9E81473076E9CBDD8D674C790487D">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="A8BCA3C6917B32DFB5660DE4B34C62D8">Zou, Fasheng</mods:namePart>
+<mods:nameIdentifier id="00B05EC542C35C29FE46722F1A8480AD" type="LSID">9D1BB50D-CD19-4332-8854-4D0EA411342C</mods:nameIdentifier>
+<mods:affiliation id="8740D46F2E0F42B5E62912FD380AE57C">Guangdong Key Laboratory of Animal Conservation and Resource Utilization, Guangdong Public Laboratory of Wild Animal Conservation and Utilization, Institute of Zoology, Guangdong Academy of Sciences, Guangzhou, China. Department of Veterinary Sciences, Faculty of Agrobiology, Food and Natural Resources, Czech University of Life Sciences, Kamycka 129, 165 00 Prague 6, Czech Republic. School of Biological Sciences, University of Utah, 257 S. 1400 E., Salt Lake City, Utah, 84112, USA.</mods:affiliation>
+<mods:nameIdentifier id="F9136196804ACD80E463B8715E867E1C" type="email">zoufs@giz.gd.cn</mods:nameIdentifier>
+</mods:name>
+<mods:name id="B3E3D54C7DFB25619232E081FECA8E33" type="personal">
+<mods:role id="7E8B33EE4DBBD7B8E14D9E87BEB1DAA7">
+<mods:roleTerm id="829A79B067711191274501F175515716">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="14FBE42FE9063F6EAB8F541D352B948C">Bush, Sarah E.</mods:namePart>
+<mods:nameIdentifier id="6245DADE0CAB1EA178138EF50A72C598" type="LSID">87DAE296-C04F-4DA5-82A9-AC2715A065F8</mods:nameIdentifier>
+<mods:nameIdentifier id="121A69D0553D7988FF014E05BB9D3FB7" type="email">dovelouse@gmail.com</mods:nameIdentifier>
+</mods:name>
+<mods:typeOfResource id="7315B25359880186BE24B26C8D411AB2">text</mods:typeOfResource>
+<mods:relatedItem id="B62BCF928C020D7D5F0BFF58FC50ADFA" type="host">
+<mods:titleInfo id="98DD5F64F162901793640B0E276E715E">
+<mods:title id="A634A82E7CB528FD5DCD020BD530F721">European Journal of Taxonomy</mods:title>
+</mods:titleInfo>
+<mods:part id="322B1749953DC7D38EB74F784183712E">
+<mods:date id="C088AD4AF916F2DE350C5FA58AD1954F">2022</mods:date>
+<mods:detail id="2943EE3C9A9E588CD2A6DFB94AB018C9" type="pubDate">
+<mods:number id="4B4717026564AE9395BA34440173FC9C">2022-03-09</mods:number>
+</mods:detail>
+<mods:detail id="241DB95ED216C66F793015244803A86E" type="volume">
+<mods:number id="F0D62B6B74C22D24025CE210587A4CBB">800</mods:number>
+</mods:detail>
+<mods:extent id="A387C78D92B30D5E378A20D18F395558" unit="page">
+<mods:start id="5107C4E2D750880B1AF34A8D7373347F">1</mods:start>
+<mods:end id="21A7E0F845B44C9900BD986AD76D890B">88</mods:end>
+</mods:extent>
+</mods:part>
+</mods:relatedItem>
+<mods:location id="21F99E522447E5B5A5A7E274FFBF0A6A">
+<mods:url id="A256FBCD727F524A2ADBD7396AC03FFE">http://dx.doi.org/10.5852/ejt.2022.800.1683</mods:url>
+</mods:location>
+<mods:classification id="E89BC42D4C8F27235688E3C675A10518">journal article</mods:classification>
+<mods:identifier id="A056354F4D096EE6CCA7A5181681C20C" type="DOI">https://doi.org/10.5852/ejt.2022.800.1683</mods:identifier>
+<mods:identifier id="EFA7C96CC34FE8493A1C5DE06C505E77" type="GBIF-Dataset">b4506300-8a4a-45f0-bc34-ec2eb31dfc92</mods:identifier>
+<mods:identifier id="9A2E7E538DCA1F69ABD263AF45DDE7AD" type="ISSN">2118-9773</mods:identifier>
+<mods:identifier id="73711F531E89DC9DEDC97DCDC70FAE7B" type="Zenodo-Dep">6358666</mods:identifier>
+<mods:identifier id="9A90FA2653DD0802D5A405EB42E6F26E" type="ZooBank">213B577F-867D-4ECD-AD2C-48ACA71801B5</mods:identifier>
+</mods:mods>
+<treatment id="E62C87FCDC44CD19FDF684115104FBB0" ID-DOI="http://doi.org/10.5281/zenodo.6483905" ID-GBIF-Taxon="194839395" ID-Zenodo-Dep="6483905" LSID="urn:lsid:zoobank.org:act:4ACFDCEE-4214-4FAB-AF53-0EAD86F9C20D" httpUri="http://treatment.plazi.org/id/E62C87FCDC44CD19FDF684115104FBB0" lastPageId="65" lastPageNumber="69" pageId="61" pageNumber="62">
+<subSubSection id="269F6561DC44CD65FDF684115388F9DB" box="[583,1005,1627,1654]" pageId="61" pageNumber="62" type="nomenclature">
+<paragraph id="6E3A36EADC44CD65FDF684115388F9DB" blockId="61.[353,1234,1627,1727]" box="[583,1005,1627,1654]" pageId="61" pageNumber="62">
+<heading id="35728186DC44CD65FDF684115388F9DB" box="[583,1005,1627,1654]" centered="true" fontSize="11" level="2" pageId="61" pageNumber="62" reason="2">
+<taxonomicName id="A9854D69DC44CD65FDF6841153EEF9DB" authority="Gustafsson &amp; Najer &amp; Zou &amp; Bush, 2022" authorityName="Gustafsson &amp; Najer &amp; Zou &amp; Bush" authorityYear="2022" box="[583,907,1627,1654]" class="Aves" family="Pycnonotidae" genus="Philopteroides" kingdom="Animalia" order="Passeriformes" pageId="61" pageNumber="62" phylum="Chordata" rank="species" species="holosternus" status="sp. nov.">
+<emphasis id="5CF1EAF8DC44CD65FDF6841153EEF9DB" bold="true" box="[583,907,1627,1654]" italics="true" pageId="61" pageNumber="62">Philopteroides holosternus</emphasis>
+</taxonomicName>
+<taxonomicNameLabel id="47C25783DC44CD65FC2384165388F9DB" box="[914,1005,1628,1654]" pageId="61" pageNumber="62" rank="species">sp. nov.</taxonomicNameLabel>
+</heading>
+</paragraph>
+</subSubSection>
+<subSubSection id="269F6561DC44CD65FED084CA530CF912" pageId="61" pageNumber="62" type="description">
+<paragraph id="6E3A36EADC44CD65FED084CA54B7F936" blockId="61.[353,1234,1627,1727]" box="[353,1234,1664,1691]" pageId="61" pageNumber="62">
+<uri id="1A143AE8DC44CD65FED084CA54B7F936" box="[353,1234,1664,1691]" pageId="61" pageNumber="62">
+urn:lsid:zoobank.org:act: 
+<uuid id="1A230C3FDC44CD65FDCB84CA54B7F936" box="[634,1234,1664,1691]" pageId="61" pageNumber="62">4ACFDCEE-4214-4FAB-AF53-0EAD86F9C20D</uuid>
+</uri>
+</paragraph>
+<paragraph id="6E3A36EADC44CD65FD7A84EE530CF912" blockId="61.[353,1234,1627,1727]" box="[715,873,1700,1727]" pageId="61" pageNumber="62">
+<figureCitation id="F6BE2A6FDC44CD65FD7A84EE530CF912" box="[715,873,1700,1727]" captionStart-0="Figs 112–113" captionStart-1="Figs 114–117" captionStartId-0="63.[189,241,1960,1986]" captionStartId-1="64.[189,241,1925,1951]" captionTargetBox-0="[346,1242,929,1908]" captionTargetBox-1="[349,1238,654,1866]" captionTargetId-0="figure-129@63.[346,1242,924,1908]" captionTargetId-1="figure-117@64.[341,1247,652,1877]" captionTargetPageId-0="63" captionTargetPageId-1="64" captionText-0="Figs 112–113. Philopteroides holosternus sp. nov. 112. Male habitus, dorsal and ventral views. 113. Female habitus, dorsal and ventral views." captionText-1="Figs 114–117. Philopteroides holosternus sp. nov. 114. Male head, dorsal and ventral views. 115. Male genitalia, dorsal view. 116. Male genitalia, ventral view. 117. Female subgenital plate and vulval margin, ventral view." figureDoi-0="http://doi.org/10.5281/zenodo.6358768" figureDoi-1="http://doi.org/10.5281/zenodo.6358770" httpUri-0="https://zenodo.org/record/6358768/files/figure.png" httpUri-1="https://zenodo.org/record/6358770/files/figure.png" pageId="61" pageNumber="62">Figs 112–117</figureCitation>
+</paragraph>
+</subSubSection>
+<subSubSection id="269F6561DC44CD65FF0C84AD555BF844" pageId="61" pageNumber="62" type="diagnosis">
+<paragraph id="6E3A36EADC44CD65FF0C84AD5153F8AC" blockId="61.[189,310,1767,1793]" box="[189,310,1767,1793]" pageId="61" pageNumber="62">
+<heading id="35728186DC44CD65FF0C84AD5153F8AC" bold="true" box="[189,310,1767,1793]" fontSize="11" level="3" pageId="61" pageNumber="62" reason="3">
+<emphasis id="5CF1EAF8DC44CD65FF0C84AD5153F8AC" bold="true" box="[189,310,1767,1793]" pageId="61" pageNumber="62">Diagnosis</emphasis>
+</heading>
+</paragraph>
+<paragraph id="6E3A36EADC44CD65FF0C855D555BF844" blockId="61.[188,1398,1815,2025]" pageId="61" pageNumber="62">
+<taxonomicName id="A9854D69DC44CD65FF0C855D5267F89C" authority="Gustafsson &amp; Najer &amp; Zou &amp; Bush, 2022" authorityName="Gustafsson &amp; Najer &amp; Zou &amp; Bush" authorityYear="2022" box="[189,514,1815,1841]" class="Aves" family="Pycnonotidae" genus="Philopteroides" kingdom="Animalia" order="Passeriformes" pageId="61" pageNumber="62" phylum="Chordata" rank="species" species="holosternus" status="sp. nov.">
+<emphasis id="5CF1EAF8DC44CD65FF0C855D5267F89C" box="[189,514,1815,1841]" italics="true" pageId="61" pageNumber="62">Philopteroides holosternus</emphasis>
+</taxonomicName>
+<taxonomicNameLabel id="47C25783DC44CD65FDA285525212F89F" box="[531,631,1816,1842]" pageId="61" pageNumber="62" rank="species">sp. nov.</taxonomicNameLabel>
+does not appear particularly close to any other species of 
+<taxonomicName id="A9854D69DC44CD65FF0C8576510CF8FB" authorityName="Mey" authorityYear="2004" box="[189,361,1852,1878]" class="Aves" family="Pycnonotidae" genus="Philopteroides" kingdom="Animalia" order="Passeriformes" pageId="61" pageNumber="62" phylum="Chordata" rank="genus">
+<emphasis id="5CF1EAF8DC44CD65FF0C8576510CF8FB" box="[189,361,1852,1878]" italics="true" pageId="61" pageNumber="62">Philopteroides</emphasis>
+</taxonomicName>
+known from bulbuls. It can be separated from all other species in the genus known from bulbuls by the following characters: male sternal plates III–VI entire, with no lateral accessory sternal plates present (
+<figureCitation id="F6BE2A6FDC44CD65FEC585CF51B9F832" box="[372,476,1925,1951]" captionStart="Figs 112–113" captionStartId="63.[189,241,1960,1986]" captionTargetBox="[346,1242,929,1908]" captionTargetId="figure-129@63.[346,1242,924,1908]" captionTargetPageId="63" captionText="Figs 112–113. Philopteroides holosternus sp. nov. 112. Male habitus, dorsal and ventral views. 113. Female habitus, dorsal and ventral views." figureDoi="http://doi.org/10.5281/zenodo.6358768" httpUri="https://zenodo.org/record/6358768/files/figure.png" pageId="61" pageNumber="62">Fig. 112</figureCitation>
+); dorsal sclerite of mesosome with elongated, bifid proximal end (
+<figureCitation id="F6BE2A6FDC44CD65FAB185CF550CF80D" box="[1280,1385,1925,1952]" captionStart="Figs 114–117" captionStartId="64.[189,241,1925,1951]" captionTargetBox="[349,1238,654,1866]" captionTargetId="figure-117@64.[341,1247,652,1877]" captionTargetPageId="64" captionText="Figs 114–117. Philopteroides holosternus sp. nov. 114. Male head, dorsal and ventral views. 115. Male genitalia, dorsal view. 116. Male genitalia, ventral view. 117. Female subgenital plate and vulval margin, ventral view." figureDoi="http://doi.org/10.5281/zenodo.6358770" httpUri="https://zenodo.org/record/6358770/files/figure.png" pageId="61" pageNumber="62">Fig. 115</figureCitation>
+); distal basal apodeme with central ridge that appears to lie dorsal to dorsal sclerite and bear one sensillum on each side (
+<figureCitation id="F6BE2A6FDC44CD65FEEC858451A6F844" box="[349,451,1998,2025]" captionStart="Figs 114–117" captionStartId="64.[189,241,1925,1951]" captionTargetBox="[349,1238,654,1866]" captionTargetId="figure-117@64.[341,1247,652,1877]" captionTargetPageId="64" captionText="Figs 114–117. Philopteroides holosternus sp. nov. 114. Male head, dorsal and ventral views. 115. Male genitalia, dorsal view. 116. Male genitalia, ventral view. 117. Female subgenital plate and vulval margin, ventral view." figureDoi="http://doi.org/10.5281/zenodo.6358770" httpUri="https://zenodo.org/record/6358770/files/figure.png" pageId="61" pageNumber="62">Fig. 115</figureCitation>
+); gonoporal complex unique among species known from bulbuls (
+<figureCitation id="F6BE2A6FDC44CD65FB7A85845554F844" box="[1227,1329,1998,2025]" captionStart="Figs 114–117" captionStartId="64.[189,241,1925,1951]" captionTargetBox="[349,1238,654,1866]" captionTargetId="figure-117@64.[341,1247,652,1877]" captionTargetPageId="64" captionText="Figs 114–117. Philopteroides holosternus sp. nov. 114. Male head, dorsal and ventral views. 115. Male genitalia, dorsal view. 116. Male genitalia, ventral view. 117. Female subgenital plate and vulval margin, ventral view." figureDoi="http://doi.org/10.5281/zenodo.6358770" httpUri="https://zenodo.org/record/6358770/files/figure.png" pageId="61" pageNumber="62">Fig. 116</figureCitation>
+).
+</paragraph>
+</subSubSection>
+<caption id="3AFA6662DC47CD66FF08801F5163FD76" ID-Table-UUID="3AFA6662DC47CD66FF08801F5163FD76" httpUri="http://table.plazi.org/id/3AFA6662DC47CD66FF08801F5163FD76" pageId="62" pageNumber="63" startId="62.[185,254,597,625]" targetBox="[197,1910,776,1608]" targetIsTable="true" targetPageId="62">
+<paragraph id="6E3A36EADC47CD66FF08801F5163FD76" blockId="62.[185,1940,597,731]" pageId="62" pageNumber="63">
+<emphasis id="5CF1EAF8DC47CD66FF08801F5147FDDC" bold="true" box="[185,290,597,625]" pageId="62" pageNumber="63">Table 2.</emphasis>
+Additional measurements for the species of 
+<taxonomicName id="A9854D69DC47CD66FCEB801F54FDFDDC" authority="Mey, 2004" authorityName="Mey" authorityYear="2004" box="[858,1176,597,625]" class="Aves" family="Pycnonotidae" genus="Philopteroides" kingdom="Animalia" order="Passeriformes" pageId="62" pageNumber="63" phylum="Chordata" rank="genus">
+<emphasis id="5CF1EAF8DC47CD66FCEB801F5463FDDC" box="[858,1030,597,625]" italics="true" pageId="62" pageNumber="63">Philopteroides</emphasis>
+<bibRefCitation id="0A144B1BDC47CD66FBA2801F54FDFDDC" author="Mey E." box="[1043,1176,597,625]" pageId="62" pageNumber="63" pagination="149 - 203" refId="ref36265" refString="Mey E. 2004. Zur Taxonomie, Verbreitung und parasitophyletischer Evidenz des Philopterus - Komplexes (Insecta, Phthiraptera, Ischnocera). Ornithologischer Anzeiger 43: 149 - 203." type="journal article" year="2004">Mey, 2004</bibRefCitation>
+</taxonomicName>
+described here. Abbreviations: ADPL = anterior dorsal plate length; ADPW = anterior dorsal plate width; ANW = anterior notch width; GW = genital width (male); N = number; PAL = preantennal head length; PAW = preantennal head width; POL = post-antennal head length; SGPW = subgenital plate width; TRL = trabeculum length; TRW = trabeculum width.
+</paragraph>
+</caption>
+<paragraph id="6E3A36EADC47CD66FF4E81595710F991" pageId="62" pageNumber="63">
+<table id="1C85C44ADC4732A7FF7481425713F9E5" box="[197,1910,776,1608]" gridcols="14" gridrows="14" pageId="62" pageNumber="63">
+<tr id="D0B534A8DC4732A7FF7481425713FC85" box="[197,1910,776,808]" gridrow="0" pageId="62" pageNumber="63">
+<th id="93645DD4DC4732A7FF748142510AFC85" box="[197,367,776,808]" gridcol="0" gridrow="0" pageId="62" pageNumber="63">
+<emphasis id="5CF1EAF8DC47CD66FF4E81595153FC85" bold="true" box="[255,310,787,808]" pageId="62" pageNumber="63">Louse</emphasis>
+</th>
+<th id="93645DD4DC4732A7FE2381425232FC85" box="[402,599,776,808]" gridcol="1" gridrow="0" pageId="62" pageNumber="63">
+<emphasis id="5CF1EAF8DC47CD66FE6E8159526FFC85" bold="true" box="[479,522,787,808]" pageId="62" pageNumber="63">Host</emphasis>
+</th>
+<th id="93645DD4DC4732A7FDC9814252FDFC85" box="[632,664,776,808]" gridcol="2" gridrow="0" pageId="62" pageNumber="63">
+<emphasis id="5CF1EAF8DC47CD66FDC9815952FDFC85" bold="true" box="[632,664,787,808]" pageId="62" pageNumber="63">Sex</emphasis>
+</th>
+<th id="93645DD4DC4732A7FD05814252A0FC85" box="[692,709,776,808]" gridcol="3" gridrow="0" pageId="62" pageNumber="63">
+<emphasis id="5CF1EAF8DC47CD66FD04815952A1FC85" bold="true" box="[693,708,787,808]" pageId="62" pageNumber="63">N</emphasis>
+</th>
+<th id="93645DD4DC4732A7FD5681425358FC85" box="[743,829,776,808]" gridcol="4" gridrow="0" pageId="62" pageNumber="63">
+<emphasis id="5CF1EAF8DC47CD66FD4381595354FC85" bold="true" box="[754,817,787,808]" pageId="62" pageNumber="63">SGPW</emphasis>
+</th>
+<th id="93645DD4DC4732A7FCEF814253D6FC85" box="[862,947,776,808]" gridcol="5" gridrow="0" pageId="62" pageNumber="63">
+<emphasis id="5CF1EAF8DC47CD66FCC7815953F9FC85" bold="true" box="[886,924,787,808]" pageId="62" pageNumber="63">GW</emphasis>
+</th>
+<th id="93645DD4DC4732A7FC6681425448FC85" box="[983,1069,776,808]" gridcol="6" gridrow="0" pageId="62" pageNumber="63">
+<emphasis id="5CF1EAF8DC47CD66FC5A8159547CFC85" bold="true" box="[1003,1049,787,808]" pageId="62" pageNumber="63">PAW</emphasis>
+</th>
+<th id="93645DD4DC4732A7FBE1814254C0FC85" box="[1104,1189,776,808]" gridcol="7" gridrow="0" pageId="62" pageNumber="63">
+<emphasis id="5CF1EAF8DC47CD66FBD7815954EAFC85" bold="true" box="[1126,1167,787,808]" pageId="62" pageNumber="63">PAL</emphasis>
+</th>
+<th id="93645DD4DC4732A7FB788142557BFC85" box="[1225,1310,776,808]" gridcol="8" gridrow="0" pageId="62" pageNumber="63">
+<emphasis id="5CF1EAF8DC47CD66FB6F8159556FFC85" bold="true" box="[1246,1290,787,808]" pageId="62" pageNumber="63">TRL</emphasis>
+</th>
+<th id="93645DD4DC4732A7FAF3814255F2FC85" box="[1346,1431,776,808]" gridcol="9" gridrow="0" pageId="62" pageNumber="63">
+<emphasis id="5CF1EAF8DC47CD66FAE2815955E0FC85" bold="true" box="[1363,1413,787,808]" pageId="62" pageNumber="63">TRW</emphasis>
+</th>
+<th id="93645DD4DC4732A7FA0B81425675FC85" box="[1466,1552,776,808]" gridcol="10" gridrow="0" pageId="62" pageNumber="63">
+<emphasis id="5CF1EAF8DC47CD66FA6181595599FC85" bold="true" box="[1488,1532,787,808]" pageId="62" pageNumber="63">POL</emphasis>
+</th>
+<th id="93645DD4DC4732A7F985814256EFFC85" box="[1588,1674,776,808]" gridcol="11" gridrow="0" pageId="62" pageNumber="63">
+<emphasis id="5CF1EAF8DC47CD66F98F8159561AFC85" bold="true" box="[1598,1663,787,808]" pageId="62" pageNumber="63">ADPW</emphasis>
+</th>
+<th id="93645DD4DC4732A7F9148142569EFC85" box="[1701,1787,776,808]" gridcol="12" gridrow="0" pageId="62" pageNumber="63">
+<emphasis id="5CF1EAF8DC47CD66F9078159568FFC85" bold="true" box="[1718,1770,787,808]" pageId="62" pageNumber="63">ANW</emphasis>
+</th>
+<th id="93645DD4DC4732A7F89081425713FC85" box="[1825,1910,776,808]" gridcol="13" gridrow="0" pageId="62" pageNumber="63">
+<emphasis id="5CF1EAF8DC47CD66F89E8142570CFCB0" bold="true" box="[1839,1897,776,797]" pageId="62" pageNumber="63">ADPL</emphasis>
+</th>
+</tr>
+<tr id="D0B534A8DC4732A7FF74810E5713FCDE" box="[197,1910,836,883]" gridrow="1" pageId="62" pageNumber="63">
+<th id="93645DD4DC4732A7FF74810E510AFCDE" box="[197,367,836,883]" gridcol="0" gridrow="1" pageId="62" pageNumber="63">
+<emphasis id="5CF1EAF8DC47CD66FF74811B510AFCCB" box="[197,367,849,870]" italics="true" pageId="62" pageNumber="63">Po. cucphuongensis</emphasis>
+</th>
+<td id="93645DD4DC4732A7FE23810E5232FCDE" box="[402,599,836,883]" gridcol="1" gridrow="1" pageId="62" pageNumber="63">
+<emphasis id="5CF1EAF8DC47CD66FE28810E5270FCDE" italics="true" pageId="62" pageNumber="63">Pycnonotus blanfordi conradi</emphasis>
+</td>
+<td id="93645DD4DC4732A7FDC9810E52FDFCDE" box="[632,664,836,883]" gridcol="2" gridrow="1" pageId="62" pageNumber="63">♂</td>
+<td id="93645DD4DC4732A7FD05810E52A0FCDE" box="[692,709,836,883]" gridcol="3" gridrow="1" pageId="62" pageNumber="63">2</td>
+<td id="93645DD4DC4732A7FD56810E5358FCDE" box="[743,829,836,883]" gridcol="4" gridrow="1" pageId="62" pageNumber="63">0.31–0.33</td>
+<td id="93645DD4DC4732A7FCEF810E53D6FCDE" box="[862,947,836,883]" gridcol="5" gridrow="1" pageId="62" pageNumber="63">0.08</td>
+<td id="93645DD4DC4732A7FC66810E5448FCDE" box="[983,1069,836,883]" gridcol="6" gridrow="1" pageId="62" pageNumber="63">0.27–0.28</td>
+<td id="93645DD4DC4732A7FBE1810E54C0FCDE" box="[1104,1189,836,883]" gridcol="7" gridrow="1" pageId="62" pageNumber="63">0.18–0.19</td>
+<td id="93645DD4DC4732A7FB78810E557BFCDE" box="[1225,1310,836,883]" gridcol="8" gridrow="1" pageId="62" pageNumber="63">0.08–0.09</td>
+<td id="93645DD4DC4732A7FAF3810E55F2FCDE" box="[1346,1431,836,883]" gridcol="9" gridrow="1" pageId="62" pageNumber="63">0.04</td>
+<td id="93645DD4DC4732A7FA0B810E5675FCDE" box="[1466,1552,836,883]" gridcol="10" gridrow="1" pageId="62" pageNumber="63">0.20</td>
+<td id="93645DD4DC4732A7F985810E56EFFCDE" box="[1588,1674,836,883]" gridcol="11" gridrow="1" pageId="62" pageNumber="63">0.09–0.10</td>
+<td id="93645DD4DC4732A7F914810E569EFCDE" box="[1701,1787,836,883]" gridcol="12" gridrow="1" pageId="62" pageNumber="63">0.09–0.10</td>
+<td id="93645DD4DC4732A7F890810E5713FCDE" box="[1825,1910,836,883]" gridcol="13" gridrow="1" pageId="62" pageNumber="63">0.13</td>
+</tr>
+<tr id="D0B534A8DC4732A7FF7481C95713FC09" box="[197,1910,899,932]" gridrow="2" pageId="62" pageNumber="63" rowspan-0="1" rowspan-1="1">
+<td id="93645DD4DC4732A7FDC981C952FDFC09" box="[632,664,899,932]" gridcol="2" gridrow="2" pageId="62" pageNumber="63">♀</td>
+<td id="93645DD4DC4732A7FD0581C952A0FC09" box="[692,709,899,932]" gridcol="3" gridrow="2" pageId="62" pageNumber="63">4</td>
+<td id="93645DD4DC4732A7FD5681C95358FC09" box="[743,829,899,932]" gridcol="4" gridrow="2" pageId="62" pageNumber="63">0.34–0.39</td>
+<td id="93645DD4DC4732A7FCEF81C953D6FC09" box="[862,947,899,932]" gridcol="5" gridrow="2" pageId="62" pageNumber="63">–</td>
+<td id="93645DD4DC4732A7FC6681C95448FC09" box="[983,1069,899,932]" gridcol="6" gridrow="2" pageId="62" pageNumber="63">0.31–0.32</td>
+<td id="93645DD4DC4732A7FBE181C954C0FC09" box="[1104,1189,899,932]" gridcol="7" gridrow="2" pageId="62" pageNumber="63">0.21–0.22</td>
+<td id="93645DD4DC4732A7FB7881C9557BFC09" box="[1225,1310,899,932]" gridcol="8" gridrow="2" pageId="62" pageNumber="63">0.09–0.11</td>
+<td id="93645DD4DC4732A7FAF381C955F2FC09" box="[1346,1431,899,932]" gridcol="9" gridrow="2" pageId="62" pageNumber="63">0.04–0.05</td>
+<td id="93645DD4DC4732A7FA0B81C95675FC09" box="[1466,1552,899,932]" gridcol="10" gridrow="2" pageId="62" pageNumber="63">0.23–0.24</td>
+<td id="93645DD4DC4732A7F98581C956EFFC09" box="[1588,1674,899,932]" gridcol="11" gridrow="2" pageId="62" pageNumber="63">0.11–0.12</td>
+<td id="93645DD4DC4732A7F91481C9569EFC09" box="[1701,1787,899,932]" gridcol="12" gridrow="2" pageId="62" pageNumber="63">0.09–0.11</td>
+<td id="93645DD4DC4732A7F89081C95713FC09" box="[1825,1910,899,932]" gridcol="13" gridrow="2" pageId="62" pageNumber="63">0.15–0.16</td>
+</tr>
+<tr id="D0B534A8DC4732A7FF74818A5713FC42" box="[197,1910,960,1007]" gridrow="3" pageId="62" pageNumber="63">
+<th id="93645DD4DC4732A7FF74818A510AFC42" box="[197,367,960,1007]" gridcol="0" gridrow="3" pageId="62" pageNumber="63">
+<taxonomicName id="A9854D69DC47CD66FF5D8187512CFC4F" authorityName="Blyth" authorityYear="1845" box="[236,329,973,994]" class="Aves" family="Pycnonotidae" genus="Philopteroides" kingdom="Animalia" order="Passeriformes" pageId="62" pageNumber="63" phylum="Chordata" rank="species" species="flavala">
+<emphasis id="5CF1EAF8DC47CD66FF5D8187512CFC4F" box="[236,329,973,994]" italics="true" pageId="62" pageNumber="63">Po. flavala</emphasis>
+</taxonomicName>
+</th>
+<td id="93645DD4DC4732A7FE23818A5232FC42" box="[402,599,960,1007]" gridcol="1" gridrow="3" pageId="62" pageNumber="63">
+<taxonomicName id="A9854D69DC47CD66FE2D818A5242FC42" baseAuthorityName="Oates" baseAuthorityYear="1899" class="Aves" family="Pycnonotidae" genus="Alophoixus" kingdom="Animalia" order="Passeriformes" pageId="62" pageNumber="63" phylum="Chordata" rank="subSpecies" species="flaveolus" subSpecies="burmanicus">
+<emphasis id="5CF1EAF8DC47CD66FE2D818A5242FC42" italics="true" pageId="62" pageNumber="63">Alophoixus flaveolus burmanicus</emphasis>
+</taxonomicName>
+</td>
+<td id="93645DD4DC4732A7FDC9818A52FDFC42" box="[632,664,960,1007]" gridcol="2" gridrow="3" pageId="62" pageNumber="63">♂</td>
+<td id="93645DD4DC4732A7FD05818A52A0FC42" box="[692,709,960,1007]" gridcol="3" gridrow="3" pageId="62" pageNumber="63">31</td>
+<td id="93645DD4DC4732A7FD56818A5358FC42" box="[743,829,960,1007]" gridcol="4" gridrow="3" pageId="62" pageNumber="63">0.30</td>
+<td id="93645DD4DC4732A7FCEF818A53D6FC42" box="[862,947,960,1007]" gridcol="5" gridrow="3" pageId="62" pageNumber="63">0.08–0.09</td>
+<td id="93645DD4DC4732A7FC66818A5448FC42" box="[983,1069,960,1007]" gridcol="6" gridrow="3" pageId="62" pageNumber="63">0.33–0.41</td>
+<td id="93645DD4DC4732A7FBE1818A54C0FC42" box="[1104,1189,960,1007]" gridcol="7" gridrow="3" pageId="62" pageNumber="63">0.23–0.24</td>
+<td id="93645DD4DC4732A7FB78818A557BFC42" box="[1225,1310,960,1007]" gridcol="8" gridrow="3" pageId="62" pageNumber="63">0.09–0.10</td>
+<td id="93645DD4DC4732A7FAF3818A55F2FC42" box="[1346,1431,960,1007]" gridcol="9" gridrow="3" pageId="62" pageNumber="63">0.04–0.05</td>
+<td id="93645DD4DC4732A7FA0B818A5675FC42" box="[1466,1552,960,1007]" gridcol="10" gridrow="3" pageId="62" pageNumber="63">0.23</td>
+<td id="93645DD4DC4732A7F985818A56EFFC42" box="[1588,1674,960,1007]" gridcol="11" gridrow="3" pageId="62" pageNumber="63">0.10–0.11</td>
+<td id="93645DD4DC4732A7F914818A569EFC42" box="[1701,1787,960,1007]" gridcol="12" gridrow="3" pageId="62" pageNumber="63">0.10–0.11</td>
+<td id="93645DD4DC4732A7F890818A5713FC42" box="[1825,1910,960,1007]" gridcol="13" gridrow="3" pageId="62" pageNumber="63">0.21–0.23</td>
+</tr>
+<tr id="D0B534A8DC4732A7FF7481B55713FB83" box="[197,1910,1023,1070]" gridrow="4" pageId="62" pageNumber="63" rowspan-0="1">
+<td id="93645DD4DC4732A7FE2381B55232FB83" box="[402,599,1023,1070]" gridcol="1" gridrow="4" pageId="62" pageNumber="63">
+<taxonomicName id="A9854D69DC47CD66FE2E81B55277FB83" baseAuthorityName="Oustalet" baseAuthorityYear="1869" class="Aves" family="Pycnonotidae" genus="Alophoixus" kingdom="Animalia" order="Passeriformes" pageId="62" pageNumber="63" phylum="Chordata" rank="subSpecies" species="pallidus" subSpecies="henrici">
+<emphasis id="5CF1EAF8DC47CD66FE2E81B55277FB83" italics="true" pageId="62" pageNumber="63">Alophoixus pallidus henrici</emphasis>
+</taxonomicName>
+</td>
+<td id="93645DD4DC4732A7FDC981B552FDFB83" box="[632,664,1023,1070]" gridcol="2" gridrow="4" pageId="62" pageNumber="63">♂</td>
+<td id="93645DD4DC4732A7FD0581B552A0FB83" box="[692,709,1023,1070]" gridcol="3" gridrow="4" pageId="62" pageNumber="63">4</td>
+<td id="93645DD4DC4732A7FD5681B55358FB83" box="[743,829,1023,1070]" gridcol="4" gridrow="4" pageId="62" pageNumber="63">0.28–0.30</td>
+<td id="93645DD4DC4732A7FCEF81B553D6FB83" box="[862,947,1023,1070]" gridcol="5" gridrow="4" pageId="62" pageNumber="63">0.08–0.09</td>
+<td id="93645DD4DC4732A7FC6681B55448FB83" box="[983,1069,1023,1070]" gridcol="6" gridrow="4" pageId="62" pageNumber="63">0.28–0.32</td>
+<td id="93645DD4DC4732A7FBE181B554C0FB83" box="[1104,1189,1023,1070]" gridcol="7" gridrow="4" pageId="62" pageNumber="63">0.21–0.24</td>
+<td id="93645DD4DC4732A7FB7881B5557BFB83" box="[1225,1310,1023,1070]" gridcol="8" gridrow="4" pageId="62" pageNumber="63">0.10</td>
+<td id="93645DD4DC4732A7FAF381B555F2FB83" box="[1346,1431,1023,1070]" gridcol="9" gridrow="4" pageId="62" pageNumber="63">0.04–0.05</td>
+<td id="93645DD4DC4732A7FA0B81B55675FB83" box="[1466,1552,1023,1070]" gridcol="10" gridrow="4" pageId="62" pageNumber="63">0.20–0.29</td>
+<td id="93645DD4DC4732A7F98581B556EFFB83" box="[1588,1674,1023,1070]" gridcol="11" gridrow="4" pageId="62" pageNumber="63">0.10</td>
+<td id="93645DD4DC4732A7F91481B5569EFB83" box="[1701,1787,1023,1070]" gridcol="12" gridrow="4" pageId="62" pageNumber="63">0.08–0.10</td>
+<td id="93645DD4DC4732A7F89081B55713FB83" box="[1825,1910,1023,1070]" gridcol="13" gridrow="4" pageId="62" pageNumber="63">0.16–0.24</td>
+</tr>
+<tr id="D0B534A8DC4732A7FF7486745713FBF2" box="[197,1910,1086,1119]" gridrow="5" pageId="62" pageNumber="63" rowspan-0="1" rowspan-1="1">
+<td id="93645DD4DC4732A7FDC9867452FDFBF2" box="[632,664,1086,1119]" gridcol="2" gridrow="5" pageId="62" pageNumber="63">♀</td>
+<td id="93645DD4DC4732A7FD05867452A0FBF2" box="[692,709,1086,1119]" gridcol="3" gridrow="5" pageId="62" pageNumber="63">3</td>
+<td id="93645DD4DC4732A7FD5686745358FBF2" box="[743,829,1086,1119]" gridcol="4" gridrow="5" pageId="62" pageNumber="63">0.26–0.28</td>
+<td id="93645DD4DC4732A7FCEF867453D6FBF2" box="[862,947,1086,1119]" gridcol="5" gridrow="5" pageId="62" pageNumber="63">–</td>
+<td id="93645DD4DC4732A7FC6686745448FBF2" box="[983,1069,1086,1119]" gridcol="6" gridrow="5" pageId="62" pageNumber="63">0.29–0.36</td>
+<td id="93645DD4DC4732A7FBE1867454C0FBF2" box="[1104,1189,1086,1119]" gridcol="7" gridrow="5" pageId="62" pageNumber="63">0.21–0.25</td>
+<td id="93645DD4DC4732A7FB788674557BFBF2" box="[1225,1310,1086,1119]" gridcol="8" gridrow="5" pageId="62" pageNumber="63">0.10–0.12</td>
+<td id="93645DD4DC4732A7FAF3867455F2FBF2" box="[1346,1431,1086,1119]" gridcol="9" gridrow="5" pageId="62" pageNumber="63">0.04–0.06</td>
+<td id="93645DD4DC4732A7FA0B86745675FBF2" box="[1466,1552,1086,1119]" gridcol="10" gridrow="5" pageId="62" pageNumber="63">0.21–0.26</td>
+<td id="93645DD4DC4732A7F985867456EFFBF2" box="[1588,1674,1086,1119]" gridcol="11" gridrow="5" pageId="62" pageNumber="63">0.10–0.13</td>
+<td id="93645DD4DC4732A7F9148674569EFBF2" box="[1701,1787,1086,1119]" gridcol="12" gridrow="5" pageId="62" pageNumber="63">0.08–0.11</td>
+<td id="93645DD4DC4732A7F89086745713FBF2" box="[1825,1910,1086,1119]" gridcol="13" gridrow="5" pageId="62" pageNumber="63">0.15–0.24</td>
+</tr>
+<tr id="D0B534A8DC4732A7FF7486315713FB36" box="[197,1910,1147,1179]" gridrow="6" pageId="62" pageNumber="63" rowspan-0="1">
+<td id="93645DD4DC4732A7FE2386315232FB36" box="[402,599,1147,1179]" gridcol="1" gridrow="6" pageId="62" pageNumber="63">
+<emphasis id="5CF1EAF8DC47CD66FE1E86CC525CFB36" box="[431,569,1158,1179]" italics="true" pageId="62" pageNumber="63">
+Hemixos 
+<taxonomicName id="A9854D69DC47CD66FE4E86CC525CFB36" authorityName="Blyth" authorityYear="1845" box="[511,569,1158,1179]" class="Aves" family="Pycnonotidae" genus="Philopteroides" kingdom="Animalia" order="Passeriformes" pageId="62" pageNumber="63" phylum="Chordata" rank="species" species="flavala">flavala</taxonomicName>
+</emphasis>
+</td>
+<td id="93645DD4DC4732A7FDC9863152FDFB36" box="[632,664,1147,1179]" gridcol="2" gridrow="6" pageId="62" pageNumber="63">♂</td>
+<td id="93645DD4DC4732A7FD05863152A0FB36" box="[692,709,1147,1179]" gridcol="3" gridrow="6" pageId="62" pageNumber="63">22</td>
+<td id="93645DD4DC4732A7FD5686315358FB36" box="[743,829,1147,1179]" gridcol="4" gridrow="6" pageId="62" pageNumber="63">0.31</td>
+<td id="93645DD4DC4732A7FCEF863153D6FB36" box="[862,947,1147,1179]" gridcol="5" gridrow="6" pageId="62" pageNumber="63">0.09</td>
+<td id="93645DD4DC4732A7FC6686315448FB36" box="[983,1069,1147,1179]" gridcol="6" gridrow="6" pageId="62" pageNumber="63">0.30–0.34</td>
+<td id="93645DD4DC4732A7FBE1863154C0FB36" box="[1104,1189,1147,1179]" gridcol="7" gridrow="6" pageId="62" pageNumber="63">0.23–0.24</td>
+<td id="93645DD4DC4732A7FB788631557BFB36" box="[1225,1310,1147,1179]" gridcol="8" gridrow="6" pageId="62" pageNumber="63">0.09</td>
+<td id="93645DD4DC4732A7FAF3863155F2FB36" box="[1346,1431,1147,1179]" gridcol="9" gridrow="6" pageId="62" pageNumber="63">0.04</td>
+<td id="93645DD4DC4732A7FA0B86315675FB36" box="[1466,1552,1147,1179]" gridcol="10" gridrow="6" pageId="62" pageNumber="63">0.22–0.23</td>
+<td id="93645DD4DC4732A7F985863156EFFB36" box="[1588,1674,1147,1179]" gridcol="11" gridrow="6" pageId="62" pageNumber="63">0.10-0.11</td>
+<td id="93645DD4DC4732A7F9148631569EFB36" box="[1701,1787,1147,1179]" gridcol="12" gridrow="6" pageId="62" pageNumber="63">0.09–0.10</td>
+<td id="93645DD4DC4732A7F89086315713FB36" box="[1825,1910,1147,1179]" gridcol="13" gridrow="6" pageId="62" pageNumber="63">0.22–0.25</td>
+</tr>
+<tr id="D0B534A8DC4732A7FF7486FD5713FB75" box="[197,1910,1207,1240]" gridrow="7" pageId="62" pageNumber="63" rowspan-0="1" rowspan-1="1">
+<td id="93645DD4DC4732A7FDC986FD52FDFB75" box="[632,664,1207,1240]" gridcol="2" gridrow="7" pageId="62" pageNumber="63">♀</td>
+<td id="93645DD4DC4732A7FD0586FD52A0FB75" box="[692,709,1207,1240]" gridcol="3" gridrow="7" pageId="62" pageNumber="63">33</td>
+<td id="93645DD4DC4732A7FD5686FD5358FB75" box="[743,829,1207,1240]" gridcol="4" gridrow="7" pageId="62" pageNumber="63">0.31</td>
+<td id="93645DD4DC4732A7FCEF86FD53D6FB75" box="[862,947,1207,1240]" gridcol="5" gridrow="7" pageId="62" pageNumber="63">–</td>
+<td id="93645DD4DC4732A7FC6686FD5448FB75" box="[983,1069,1207,1240]" gridcol="6" gridrow="7" pageId="62" pageNumber="63">0.30–0.36</td>
+<td id="93645DD4DC4732A7FBE186FD54C0FB75" box="[1104,1189,1207,1240]" gridcol="7" gridrow="7" pageId="62" pageNumber="63">0.25–0.26</td>
+<td id="93645DD4DC4732A7FB7886FD557BFB75" box="[1225,1310,1207,1240]" gridcol="8" gridrow="7" pageId="62" pageNumber="63">0.09–0.10</td>
+<td id="93645DD4DC4732A7FAF386FD55F2FB75" box="[1346,1431,1207,1240]" gridcol="9" gridrow="7" pageId="62" pageNumber="63">0.04–0.05</td>
+<td id="93645DD4DC4732A7FA0B86FD5675FB75" box="[1466,1552,1207,1240]" gridcol="10" gridrow="7" pageId="62" pageNumber="63">0.24–0.26</td>
+<td id="93645DD4DC4732A7F98586FD56EFFB75" box="[1588,1674,1207,1240]" gridcol="11" gridrow="7" pageId="62" pageNumber="63">0.11–0.13</td>
+<td id="93645DD4DC4732A7F91486FD569EFB75" box="[1701,1787,1207,1240]" gridcol="12" gridrow="7" pageId="62" pageNumber="63">0.09</td>
+<td id="93645DD4DC4732A7F89086FD5713FB75" box="[1825,1910,1207,1240]" gridcol="13" gridrow="7" pageId="62" pageNumber="63">0.24</td>
+</tr>
+<tr id="D0B534A8DC4732A7FF7486BE5713FAB9" box="[197,1910,1268,1300]" gridrow="8" pageId="62" pageNumber="63">
+<th id="93645DD4DC4732A7FF7486BE510AFAB9" box="[197,367,1268,1300]" gridcol="0" gridrow="8" pageId="62" pageNumber="63">
+<emphasis id="5CF1EAF8DC47CD66FF5486B55135FAB9" box="[229,336,1279,1300]" italics="true" pageId="62" pageNumber="63">Po. haerixos</emphasis>
+</th>
+<td id="93645DD4DC4732A7FE2386BE5232FAB9" box="[402,599,1268,1300]" gridcol="1" gridrow="8" pageId="62" pageNumber="63">
+<emphasis id="5CF1EAF8DC47CD66FE2386B55232FAB9" box="[402,599,1279,1300]" italics="true" pageId="62" pageNumber="63">Ixos mcclellandii holtii</emphasis>
+</td>
+<td id="93645DD4DC4732A7FDC986BE52FDFAB9" box="[632,664,1268,1300]" gridcol="2" gridrow="8" pageId="62" pageNumber="63">♂</td>
+<td id="93645DD4DC4732A7FD0586BE52A0FAB9" box="[692,709,1268,1300]" gridcol="3" gridrow="8" pageId="62" pageNumber="63">3</td>
+<td id="93645DD4DC4732A7FD5686BE5358FAB9" box="[743,829,1268,1300]" gridcol="4" gridrow="8" pageId="62" pageNumber="63">0.28–0.29</td>
+<td id="93645DD4DC4732A7FCEF86BE53D6FAB9" box="[862,947,1268,1300]" gridcol="5" gridrow="8" pageId="62" pageNumber="63">0.08–0.09</td>
+<td id="93645DD4DC4732A7FC6686BE5448FAB9" box="[983,1069,1268,1300]" gridcol="6" gridrow="8" pageId="62" pageNumber="63">0.27–0.28</td>
+<td id="93645DD4DC4732A7FBE186BE54C0FAB9" box="[1104,1189,1268,1300]" gridcol="7" gridrow="8" pageId="62" pageNumber="63">0.21–0.22</td>
+<td id="93645DD4DC4732A7FB7886BE557BFAB9" box="[1225,1310,1268,1300]" gridcol="8" gridrow="8" pageId="62" pageNumber="63">0.10–0.11</td>
+<td id="93645DD4DC4732A7FAF386BE55F2FAB9" box="[1346,1431,1268,1300]" gridcol="9" gridrow="8" pageId="62" pageNumber="63">0.04–0.05</td>
+<td id="93645DD4DC4732A7FA0B86BE5675FAB9" box="[1466,1552,1268,1300]" gridcol="10" gridrow="8" pageId="62" pageNumber="63">0.20–0.21</td>
+<td id="93645DD4DC4732A7F98586BE56EFFAB9" box="[1588,1674,1268,1300]" gridcol="11" gridrow="8" pageId="62" pageNumber="63">0.10</td>
+<td id="93645DD4DC4732A7F91486BE569EFAB9" box="[1701,1787,1268,1300]" gridcol="12" gridrow="8" pageId="62" pageNumber="63">0.06–0.08</td>
+<td id="93645DD4DC4732A7F89086BE5713FAB9" box="[1825,1910,1268,1300]" gridcol="13" gridrow="8" pageId="62" pageNumber="63">0.15–0.16</td>
+</tr>
+<tr id="D0B534A8DC4732A7FF74877A5713FAFC" box="[197,1910,1328,1361]" gridrow="9" pageId="62" pageNumber="63" rowspan-0="1" rowspan-1="1">
+<td id="93645DD4DC4732A7FDC9877A52FDFAFC" box="[632,664,1328,1361]" gridcol="2" gridrow="9" pageId="62" pageNumber="63">♀</td>
+<td id="93645DD4DC4732A7FD05877A52A0FAFC" box="[692,709,1328,1361]" gridcol="3" gridrow="9" pageId="62" pageNumber="63">4</td>
+<td id="93645DD4DC4732A7FD56877A5358FAFC" box="[743,829,1328,1361]" gridcol="4" gridrow="9" pageId="62" pageNumber="63">0.25–0.30</td>
+<td id="93645DD4DC4732A7FCEF877A53D6FAFC" box="[862,947,1328,1361]" gridcol="5" gridrow="9" pageId="62" pageNumber="63">–</td>
+<td id="93645DD4DC4732A7FC66877A5448FAFC" box="[983,1069,1328,1361]" gridcol="6" gridrow="9" pageId="62" pageNumber="63">0.28–0.30</td>
+<td id="93645DD4DC4732A7FBE1877A54C0FAFC" box="[1104,1189,1328,1361]" gridcol="7" gridrow="9" pageId="62" pageNumber="63">0.21–0.23</td>
+<td id="93645DD4DC4732A7FB78877A557BFAFC" box="[1225,1310,1328,1361]" gridcol="8" gridrow="9" pageId="62" pageNumber="63">0.10–0.11</td>
+<td id="93645DD4DC4732A7FAF3877A55F2FAFC" box="[1346,1431,1328,1361]" gridcol="9" gridrow="9" pageId="62" pageNumber="63">0.04–0.05</td>
+<td id="93645DD4DC4732A7FA0B877A5675FAFC" box="[1466,1552,1328,1361]" gridcol="10" gridrow="9" pageId="62" pageNumber="63">0.21–0.23</td>
+<td id="93645DD4DC4732A7F985877A56EFFAFC" box="[1588,1674,1328,1361]" gridcol="11" gridrow="9" pageId="62" pageNumber="63">0.10–0.11</td>
+<td id="93645DD4DC4732A7F914877A569EFAFC" box="[1701,1787,1328,1361]" gridcol="12" gridrow="9" pageId="62" pageNumber="63">0.07–0.09</td>
+<td id="93645DD4DC4732A7F890877A5713FAFC" box="[1825,1910,1328,1361]" gridcol="13" gridrow="9" pageId="62" pageNumber="63">0.15–0.17</td>
+</tr>
+<tr id="D0B534A8DC4732A7FF7487275713FA36" box="[197,1910,1389,1435]" gridrow="10" pageId="62" pageNumber="63">
+<th id="93645DD4DC4732A7FF748727510AFA36" box="[197,367,1389,1435]" gridcol="0" gridrow="10" pageId="62" pageNumber="63">
+<emphasis id="5CF1EAF8DC47CD66FF668733513BFA23" box="[215,350,1401,1422]" italics="true" pageId="62" pageNumber="63">Po. holosternus</emphasis>
+</th>
+<td id="93645DD4DC4732A7FE2387275232FA36" box="[402,599,1389,1435]" gridcol="1" gridrow="10" pageId="62" pageNumber="63">
+<emphasis id="5CF1EAF8DC47CD66FE2D8727527DFA36" italics="true" pageId="62" pageNumber="63">Pycnonotus goiavier goiavier</emphasis>
+</td>
+<td id="93645DD4DC4732A7FDC9872752FDFA36" box="[632,664,1389,1435]" gridcol="2" gridrow="10" pageId="62" pageNumber="63">♂</td>
+<td id="93645DD4DC4732A7FD05872752A0FA36" box="[692,709,1389,1435]" gridcol="3" gridrow="10" pageId="62" pageNumber="63">1</td>
+<td id="93645DD4DC4732A7FD5687275358FA36" box="[743,829,1389,1435]" gridcol="4" gridrow="10" pageId="62" pageNumber="63">0.37</td>
+<td id="93645DD4DC4732A7FCEF872753D6FA36" box="[862,947,1389,1435]" gridcol="5" gridrow="10" pageId="62" pageNumber="63">0.09</td>
+<td id="93645DD4DC4732A7FC6687275448FA36" box="[983,1069,1389,1435]" gridcol="6" gridrow="10" pageId="62" pageNumber="63">0.31</td>
+<td id="93645DD4DC4732A7FBE1872754C0FA36" box="[1104,1189,1389,1435]" gridcol="7" gridrow="10" pageId="62" pageNumber="63">0.20</td>
+<td id="93645DD4DC4732A7FB788727557BFA36" box="[1225,1310,1389,1435]" gridcol="8" gridrow="10" pageId="62" pageNumber="63">0.10</td>
+<td id="93645DD4DC4732A7FAF3872755F2FA36" box="[1346,1431,1389,1435]" gridcol="9" gridrow="10" pageId="62" pageNumber="63">0.04</td>
+<td id="93645DD4DC4732A7FA0B87275675FA36" box="[1466,1552,1389,1435]" gridcol="10" gridrow="10" pageId="62" pageNumber="63">0.22</td>
+<td id="93645DD4DC4732A7F985872756EFFA36" box="[1588,1674,1389,1435]" gridcol="11" gridrow="10" pageId="62" pageNumber="63">0.10</td>
+<td id="93645DD4DC4732A7F9148727569EFA36" box="[1701,1787,1389,1435]" gridcol="12" gridrow="10" pageId="62" pageNumber="63">0.08</td>
+<td id="93645DD4DC4732A7F89087275713FA36" box="[1825,1910,1389,1435]" gridcol="13" gridrow="10" pageId="62" pageNumber="63">0.14</td>
+</tr>
+<tr id="D0B534A8DC4732A7FF7487E65713FA61" box="[197,1910,1452,1484]" gridrow="11" pageId="62" pageNumber="63" rowspan-0="1" rowspan-1="1">
+<td id="93645DD4DC4732A7FDC987E652FDFA61" box="[632,664,1452,1484]" gridcol="2" gridrow="11" pageId="62" pageNumber="63">♀</td>
+<td id="93645DD4DC4732A7FD0587E652A0FA61" box="[692,709,1452,1484]" gridcol="3" gridrow="11" pageId="62" pageNumber="63">2</td>
+<td id="93645DD4DC4732A7FD5687E65358FA61" box="[743,829,1452,1484]" gridcol="4" gridrow="11" pageId="62" pageNumber="63">0.34</td>
+<td id="93645DD4DC4732A7FCEF87E653D6FA61" box="[862,947,1452,1484]" gridcol="5" gridrow="11" pageId="62" pageNumber="63">–</td>
+<td id="93645DD4DC4732A7FC6687E65448FA61" box="[983,1069,1452,1484]" gridcol="6" gridrow="11" pageId="62" pageNumber="63">0.31</td>
+<td id="93645DD4DC4732A7FBE187E654C0FA61" box="[1104,1189,1452,1484]" gridcol="7" gridrow="11" pageId="62" pageNumber="63">0.21</td>
+<td id="93645DD4DC4732A7FB7887E6557BFA61" box="[1225,1310,1452,1484]" gridcol="8" gridrow="11" pageId="62" pageNumber="63">0.10</td>
+<td id="93645DD4DC4732A7FAF387E655F2FA61" box="[1346,1431,1452,1484]" gridcol="9" gridrow="11" pageId="62" pageNumber="63">0.04</td>
+<td id="93645DD4DC4732A7FA0B87E65675FA61" box="[1466,1552,1452,1484]" gridcol="10" gridrow="11" pageId="62" pageNumber="63">0.22–0.23</td>
+<td id="93645DD4DC4732A7F98587E656EFFA61" box="[1588,1674,1452,1484]" gridcol="11" gridrow="11" pageId="62" pageNumber="63">0.11</td>
+<td id="93645DD4DC4732A7F91487E6569EFA61" box="[1701,1787,1452,1484]" gridcol="12" gridrow="11" pageId="62" pageNumber="63">0.07–0.08</td>
+<td id="93645DD4DC4732A7F89087E65713FA61" box="[1825,1910,1452,1484]" gridcol="13" gridrow="11" pageId="62" pageNumber="63">0.15–0.16</td>
+</tr>
+<tr id="D0B534A8DC4732A7FF7487A25713F9BA" box="[197,1910,1512,1559]" gridrow="12" pageId="62" pageNumber="63">
+<th id="93645DD4DC4732A7FF7487A2510AF9BA" box="[197,367,1512,1559]" gridcol="0" gridrow="12" pageId="62" pageNumber="63">
+<emphasis id="5CF1EAF8DC47CD66FF7A87BF510CF9A7" box="[203,361,1525,1546]" italics="true" pageId="62" pageNumber="63">Po. longiclypeatus</emphasis>
+</th>
+<td id="93645DD4DC4732A7FE2387A25232F9BA" box="[402,599,1512,1559]" gridcol="1" gridrow="12" pageId="62" pageNumber="63">
+<emphasis id="5CF1EAF8DC47CD66FE1287A25241F9BA" italics="true" pageId="62" pageNumber="63">Hypsipetes everetti samarensis</emphasis>
+</td>
+<td id="93645DD4DC4732A7FDC987A252FDF9BA" box="[632,664,1512,1559]" gridcol="2" gridrow="12" pageId="62" pageNumber="63">♂</td>
+<td id="93645DD4DC4732A7FD0587A252A0F9BA" box="[692,709,1512,1559]" gridcol="3" gridrow="12" pageId="62" pageNumber="63">3</td>
+<td id="93645DD4DC4732A7FD5687A25358F9BA" box="[743,829,1512,1559]" gridcol="4" gridrow="12" pageId="62" pageNumber="63">0.24–0.27</td>
+<td id="93645DD4DC4732A7FCEF87A253D6F9BA" box="[862,947,1512,1559]" gridcol="5" gridrow="12" pageId="62" pageNumber="63">0.08</td>
+<td id="93645DD4DC4732A7FC6687A25448F9BA" box="[983,1069,1512,1559]" gridcol="6" gridrow="12" pageId="62" pageNumber="63">0.24–0.25</td>
+<td id="93645DD4DC4732A7FBE187A254C0F9BA" box="[1104,1189,1512,1559]" gridcol="7" gridrow="12" pageId="62" pageNumber="63">0.19–0.21</td>
+<td id="93645DD4DC4732A7FB7887A2557BF9BA" box="[1225,1310,1512,1559]" gridcol="8" gridrow="12" pageId="62" pageNumber="63">0.08–0.09</td>
+<td id="93645DD4DC4732A7FAF387A255F2F9BA" box="[1346,1431,1512,1559]" gridcol="9" gridrow="12" pageId="62" pageNumber="63">0.03–0.04</td>
+<td id="93645DD4DC4732A7FA0B87A25675F9BA" box="[1466,1552,1512,1559]" gridcol="10" gridrow="12" pageId="62" pageNumber="63">0.19–0.21</td>
+<td id="93645DD4DC4732A7F98587A256EFF9BA" box="[1588,1674,1512,1559]" gridcol="11" gridrow="12" pageId="62" pageNumber="63">0.09–0.10</td>
+<td id="93645DD4DC4732A7F91487A2569EF9BA" box="[1701,1787,1512,1559]" gridcol="12" gridrow="12" pageId="62" pageNumber="63">0.05–0.07</td>
+<td id="93645DD4DC4732A7F89087A25713F9BA" box="[1825,1910,1512,1559]" gridcol="13" gridrow="12" pageId="62" pageNumber="63">0.14–0.17</td>
+</tr>
+<tr id="D0B534A8DC4732A7FF74846D5713F9E5" box="[197,1910,1575,1608]" gridrow="13" pageId="62" pageNumber="63" rowspan-0="1" rowspan-1="1">
+<td id="93645DD4DC4732A7FDC9846D52FDF9E5" box="[632,664,1575,1608]" gridcol="2" gridrow="13" pageId="62" pageNumber="63">♀</td>
+<td id="93645DD4DC4732A7FD05846D52A0F9E5" box="[692,709,1575,1608]" gridcol="3" gridrow="13" pageId="62" pageNumber="63">44</td>
+<td id="93645DD4DC4732A7FD56846D5358F9E5" box="[743,829,1575,1608]" gridcol="4" gridrow="13" pageId="62" pageNumber="63">0.24–0.26</td>
+<td id="93645DD4DC4732A7FCEF846D53D6F9E5" box="[862,947,1575,1608]" gridcol="5" gridrow="13" pageId="62" pageNumber="63">–</td>
+<td id="93645DD4DC4732A7FC66846D5448F9E5" box="[983,1069,1575,1608]" gridcol="6" gridrow="13" pageId="62" pageNumber="63">0.26</td>
+<td id="93645DD4DC4732A7FBE1846D54C0F9E5" box="[1104,1189,1575,1608]" gridcol="7" gridrow="13" pageId="62" pageNumber="63">0.20–0.21</td>
+<td id="93645DD4DC4732A7FB78846D557BF9E5" box="[1225,1310,1575,1608]" gridcol="8" gridrow="13" pageId="62" pageNumber="63">0.07–0.08</td>
+<td id="93645DD4DC4732A7FAF3846D55F2F9E5" box="[1346,1431,1575,1608]" gridcol="9" gridrow="13" pageId="62" pageNumber="63">0.03–0.04</td>
+<td id="93645DD4DC4732A7FA0B846D5675F9E5" box="[1466,1552,1575,1608]" gridcol="10" gridrow="13" pageId="62" pageNumber="63">0.19–0.21</td>
+<td id="93645DD4DC4732A7F985846D56EFF9E5" box="[1588,1674,1575,1608]" gridcol="11" gridrow="13" pageId="62" pageNumber="63">0.10</td>
+<td id="93645DD4DC4732A7F914846D569EF9E5" box="[1701,1787,1575,1608]" gridcol="12" gridrow="13" pageId="62" pageNumber="63">0.04–0.06</td>
+<td id="93645DD4DC4732A7F890846D5713F9E5" box="[1825,1910,1575,1608]" gridcol="13" gridrow="13" pageId="62" pageNumber="63">0.15–0.16</td>
+</tr>
+</table>
+</paragraph>
+<footnote id="0D9E2AE4DC47CD66FF0884375258F938" box="[185,573,1661,1685]" pageId="62" pageNumber="63">
+<paragraph id="6E3A36EADC47CD66FF0884375258F938" blockId="62.[185,573,1661,1685]" box="[185,573,1661,1685]" pageId="62" pageNumber="63">
+<superScript id="99F09BA2DC47CD66FF08843750B3F926" attach="left" box="[185,214,1661,1675]" fontSize="5" pageId="62" pageNumber="63">1,2,3</superScript>
+N for SGPW = 1; 
+<superScript id="99F09BA2DC47CD66FE38843751F5F926" attach="right" box="[393,400,1661,1675]" fontSize="5" pageId="62" pageNumber="63">4</superScript>
+N for SGPW = 3.
+</paragraph>
+</footnote>
+<subSubSection id="269F6561DC46CD67FF0C834354ABFED8" pageId="63" pageNumber="64" type="etymology">
+<paragraph id="6E3A36EADC46CD67FF0C83435121FE8E" blockId="63.[189,324,265,291]" box="[189,324,265,291]" pageId="63" pageNumber="64">
+<heading id="35728186DC46CD67FF0C83435121FE8E" bold="true" box="[189,324,265,291]" fontSize="11" level="3" pageId="63" pageNumber="64" reason="3">
+<emphasis id="5CF1EAF8DC46CD67FF0C83435121FE8E" bold="true" box="[189,324,265,291]" pageId="63" pageNumber="64">Etymology</emphasis>
+</heading>
+</paragraph>
+<paragraph id="6E3A36EADC46CD67FF0C837D54ABFED8" blockId="63.[187,1399,311,373]" pageId="63" pageNumber="64">
+The species name is derived from the Greek words ‘ 
+<emphasis id="5CF1EAF8DC46CD67FCA0837D5334FEFC" box="[785,849,311,337]" italics="true" pageId="63" pageNumber="64">holos</emphasis>
+’ for ‘whole’, and ‘ 
+<emphasis id="5CF1EAF8DC46CD67FB968372541AFEFC" box="[1063,1151,312,337]" italics="true" pageId="63" pageNumber="64">sternon</emphasis>
+’ for ‘chest’, referring to the broad sternal plates and uninterrupted sternal plate of male abdominal segment III.
+</paragraph>
+</subSubSection>
+<subSubSection id="269F6561DC46CD67FF0C83D15390FCEB" pageId="63" pageNumber="64" type="materials_examined">
+<paragraph id="6E3A36EADC46CD67FF0C83D151CFFE18" blockId="63.[189,426,411,437]" box="[189,426,411,437]" pageId="63" pageNumber="64">
+<heading id="35728186DC46CD67FF0C83D151CFFE18" bold="true" box="[189,426,411,437]" fontSize="11" level="3" pageId="63" pageNumber="64" reason="3">
+<emphasis id="5CF1EAF8DC46CD67FF0C83D151CFFE18" bold="true" box="[189,426,411,437]" pageId="63" pageNumber="64">Material examined</emphasis>
+</heading>
+</paragraph>
+<paragraph id="6E3A36EADC46CD67FF5B8380511FFD86" blockId="63.[189,1398,458,555]" pageId="63" pageNumber="64">
+<materialsCitation id="DEED3CB7DC46CD67FF5B8380511FFD86" ID-GBIF-Occurrence="3756363329" collectingDate="1965-02-06" collectionCode="BPBM" collectorName="H. E. McClure" country="Philippines" location="Siaton" pageId="63" pageNumber="64" specimenCount="1" specimenCount-male="1" stateProvince="Negros Oriental" typeStatus="holotype">
+<emphasis id="5CF1EAF8DC46CD67FF5B83805139FE49" bold="true" box="[234,348,458,484]" pageId="63" pageNumber="64">
+<typeStatus id="B13E8848DC46CD67FF5B83805139FE49" box="[234,348,458,484]" pageId="63" pageNumber="64">Holotype</typeStatus>
+</emphasis>
+(ex 
+<emphasis id="5CF1EAF8DC46CD67FE2083815289FE49" box="[401,748,459,484]" italics="true" pageId="63" pageNumber="64">Pycnonotus goiavier goiavier</emphasis>
+) 
+<collectingCountry id="1692767ADC46CD67FF0C83A4510FFDA5" box="[189,362,494,520]" name="Philippines" pageId="63" pageNumber="64">PHILIPPINES</collectingCountry>
+• 
+<specimenCount id="7883FD63DC46CD67FE3D83A451C0FDA5" box="[396,421,494,520]" pageId="63" pageNumber="64" type="male">♂</specimenCount>
+; 
+<collectingRegion id="AC41F808DC46CD67FE0683A4521FFDAA" box="[439,634,493,520]" country="Philippines" name="Negros Oriental" pageId="63" pageNumber="64">Negros Oriental</collectingRegion>
+, 
+<location id="6B5A6031DC46CD67FD3A83A752BFFDAA" LSID="urn:lsid:plazi:treatment:E62C87FCDC44CD19FDF684115104FBB0:6B5A6031DC46CD67FD3A83A752BFFDAA" box="[651,730,493,519]" country="Philippines" name="Siaton" pageId="63" pageNumber="64" stateProvince="Negros Oriental">Siaton</location>
+; 
+<date id="1A3B102ADC46CD67FD5B83A753E6FDA5" box="[746,899,493,520]" pageId="63" pageNumber="64" value="1965-02-06">
+<collectingDate id="0A7FE9C2DC46CD67FD5B83A753E6FDA5" box="[746,899,493,520]" pageId="63" pageNumber="64" value="1965-02-06">6 Feb. 1965</collectingDate>
+</date>
+; 
+<collectorName id="C370533CDC46CD67FC2583A4545BFDAA" box="[916,1086,493,520]" pageId="63" pageNumber="64">H.E. McClure</collectorName>
+leg.; SE-1760, 23710 on reverse; 
+<collectionCode id="0894AE2FDC46CD67FE90805B5113FD86" box="[289,374,529,555]" collectionName="USA, Hawaii, Honolulu, Bernice P. Bishop Museum" country="USA" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34697" lsid="urn:lsid:biocol.org:col:34697" name="Bishop Museum" pageId="63" pageNumber="64" type="Museum">BPBM</collectionCode>
+.
+</materialsCitation>
+</paragraph>
+<paragraph id="6E3A36EADC46CD67FF5B801851FAFD7B" blockId="63.[189,1398,594,726]" pageId="63" pageNumber="64">
+<materialsCitation id="DEED3CB7DC46CD67FF5B8018516AFD1E" ID-GBIF-Occurrence="3756363383" collectionCode="BPBM" country="Philippines" location="PHILIPPINES" pageId="63" pageNumber="64" specimenCount="1" specimenCount-female="1" typeStatus="paratype">
+<emphasis id="5CF1EAF8DC46CD67FF5B80185102FDC1" bold="true" box="[234,359,594,620]" pageId="63" pageNumber="64">
+<typeStatus id="B13E8848DC46CD67FF5B80185102FDC1" box="[234,359,594,620]" pageId="63" pageNumber="64">Paratypes</typeStatus>
+</emphasis>
+<collectingCountry id="1692767ADC46CD67FF0C803F510FFD22" box="[189,362,629,655]" name="Philippines" pageId="63" pageNumber="64">PHILIPPINES</collectingCountry>
+• 
+<specimenCount id="7883FD63DC46CD67FE38803F51DCFD3D" box="[393,441,629,656]" pageId="63" pageNumber="64" type="female">1 ♀</specimenCount>
+; same locality, collector and host as for holotype; SE-1755, 23709 on reverse; 
+<collectionCode id="0894AE2FDC46CD67FF0C80D3516AFD1E" box="[189,271,665,691]" collectionName="USA, Hawaii, Honolulu, Bernice P. Bishop Museum" country="USA" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34697" lsid="urn:lsid:biocol.org:col:34697" name="Bishop Museum" pageId="63" pageNumber="64" type="Museum">BPBM</collectionCode>
+</materialsCitation>
+• 
+<materialsCitation id="DEED3CB7DC46CD67FE9480D351FEFD7B" ID-GBIF-Occurrence="3756363339" collectingDate="1965-03-02" collectionCode="BPBM" collectorName="Siaton &amp; Maloh &amp; H. E. McClure" country="Philippines" pageId="63" pageNumber="64" specimenCode="MAPS-5E2081" specimenCount="1" specimenCount-female="1" typeStatus="paratype">
+<specimenCount id="7883FD63DC46CD67FE9480D35134FD1E" box="[293,337,665,691]" pageId="63" pageNumber="64" type="female">1 ♀</specimenCount>
+; Negros [Oriental], 
+<collectorName id="C370533CDC46CD67FD8B80D252EDFD1F" box="[570,648,664,690]" pageId="63" pageNumber="64">Siaton</collectorName>
+, 
+<collectorName id="C370533CDC46CD67FD2280D25286FD1F" box="[659,739,664,690]" pageId="63" pageNumber="64">Maloh</collectorName>
+; 
+<date id="1A3B102ADC46CD67FD5C80D35318FD1E" box="[749,893,664,691]" pageId="63" pageNumber="64" value="1965-03-02">
+<collectingDate id="0A7FE9C2DC46CD67FD5C80D35318FD1E" box="[749,893,664,691]" pageId="63" pageNumber="64" value="1965-03-02">2 Mar. 1965</collectingDate>
+</date>
+; 
+<collectorName id="C370533CDC46CD67FC3980D35449FD1F" box="[904,1068,664,691]" pageId="63" pageNumber="64">H.E. McClure</collectorName>
+leg.; 
+<specimenCode id="3E239E91DC46CD67FBDD80D25541FD1E" box="[1132,1316,664,691]" pageId="63" pageNumber="64">MAPS-5E2081</specimenCode>
+, 23711 on reverse; 
+<collectionCode id="0894AE2FDC46CD67FEF780F651FEFD7B" box="[326,411,700,726]" collectionName="USA, Hawaii, Honolulu, Bernice P. Bishop Museum" country="USA" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34697" lsid="urn:lsid:biocol.org:col:34697" name="Bishop Museum" pageId="63" pageNumber="64" type="Museum">BPBM</collectionCode>
+</materialsCitation>
+.
+</paragraph>
+<paragraph id="6E3A36EADC46CD67FF0C80B75153FCBA" blockId="63.[189,310,765,791]" box="[189,310,765,791]" pageId="63" pageNumber="64">
+<heading id="35728186DC46CD67FF0C80B75153FCBA" bold="true" box="[189,310,765,791]" fontSize="11" level="3" pageId="63" pageNumber="64" reason="3">
+<emphasis id="5CF1EAF8DC46CD67FF0C80B75153FCBA" bold="true" box="[189,310,765,791]" pageId="63" pageNumber="64">Type host</emphasis>
+</heading>
+</paragraph>
+<paragraph id="6E3A36EADC46CD67FF0C81665390FCEB" blockId="63.[189,1013,811,838]" box="[189,1013,811,838]" pageId="63" pageNumber="64">
+<emphasis id="5CF1EAF8DC46CD67FF0C8166527DFCE8" box="[189,536,812,837]" italics="true" pageId="63" pageNumber="64">Pycnonotus goiavier goiavier</emphasis>
+(Scopoli, 1786) – yellow-vented bulbul.
+</paragraph>
+</subSubSection>
+<caption id="3AFA6662DC46CD67FF0C85E252B8F848" ID-DOI="http://doi.org/10.5281/zenodo.6358768" ID-Zenodo-Dep="6358768" httpUri="https://zenodo.org/record/6358768/files/figure.png" pageId="63" pageNumber="64" startId="63.[189,241,1960,1986]" targetBox="[346,1242,929,1908]" targetPageId="63">
+<paragraph id="6E3A36EADC46CD67FF0C85E252B8F848" blockId="63.[189,1399,1960,2022]" pageId="63" pageNumber="64">
+<emphasis id="5CF1EAF8DC46CD67FF0C85E2510EF86F" bold="true" box="[189,363,1960,1986]" pageId="63" pageNumber="64">Figs 112–113.</emphasis>
+<taxonomicName id="A9854D69DC46CD67FECA85E252DAF86F" authority="Gustafsson &amp; Najer &amp; Zou &amp; Bush, 2022" authorityName="Gustafsson &amp; Najer &amp; Zou &amp; Bush" authorityYear="2022" box="[379,703,1960,1986]" class="Aves" family="Pycnonotidae" genus="Philopteroides" kingdom="Animalia" order="Passeriformes" pageId="63" pageNumber="64" phylum="Chordata" rank="species" species="holosternus" status="sp. nov.">
+<emphasis id="5CF1EAF8DC46CD67FECA85E252DAF86F" box="[379,703,1960,1986]" italics="true" pageId="63" pageNumber="64">Philopteroides holosternus</emphasis>
+</taxonomicName>
+<taxonomicNameLabel id="47C25783DC46CD67FD7F85E35354F86E" box="[718,817,1961,1987]" pageId="63" pageNumber="64" rank="species">sp. nov.</taxonomicNameLabel>
+<emphasis id="5CF1EAF8DC46CD67FCF185E2530FF86F" bold="true" box="[832,874,1960,1986]" pageId="63" pageNumber="64">112</emphasis>
+. Male habitus, dorsal and ventral views. 
+<emphasis id="5CF1EAF8DC46CD67FF0C85815082F848" bold="true" box="[189,231,1995,2021]" pageId="63" pageNumber="64">113</emphasis>
+. Female habitus, dorsal and ventral views.
+</paragraph>
+</caption>
+<subSubSection id="269F6561DC39CD19FF0C8342530FFB6D" lastPageId="65" lastPageNumber="66" pageId="64" pageNumber="65" type="description">
+<subSubSection id="269F6561DC39CD19FF0C83425104FBB0" lastPageId="65" lastPageNumber="66" pageId="64" pageNumber="65" type="description">
+<paragraph id="6E3A36EADC39CD18FF0C8342512BFE8F" blockId="64.[189,334,264,290]" box="[189,334,264,290]" pageId="64" pageNumber="65">
+<heading id="35728186DC39CD18FF0C8342512BFE8F" bold="true" box="[189,334,264,290]" fontSize="11" level="3" pageId="64" pageNumber="65" reason="3">
+<emphasis id="5CF1EAF8DC39CD18FF0C8342512BFE8F" bold="true" box="[189,334,264,290]" pageId="64" pageNumber="65">Description</emphasis>
+</heading>
+</paragraph>
+<paragraph id="6E3A36EADC39CD18FF5B837D510BFEFC" blockId="64.[187,1400,311,548]" box="[234,366,311,337]" pageId="64" pageNumber="65">
+<emphasis id="5CF1EAF8DC39CD18FF5B837D510BFEFC" bold="true" box="[234,366,311,337]" pageId="64" pageNumber="65">Both sexes</emphasis>
+</paragraph>
+<paragraph id="6E3A36EADC39CD18FF0C83105352FD89" blockId="64.[187,1400,311,548]" pageId="64" pageNumber="65">
+Head shape as in 
+<figureCitation id="F6BE2A6FDC39CD18FE398310518EFED9" box="[392,491,346,372]" captionStart="Figs 114–117" captionStartId="64.[189,241,1925,1951]" captionTargetBox="[349,1238,654,1866]" captionTargetId="figure-117@64.[341,1247,652,1877]" captionTargetPageId="64" captionText="Figs 114–117. Philopteroides holosternus sp. nov. 114. Male head, dorsal and ventral views. 115. Male genitalia, dorsal view. 116. Male genitalia, ventral view. 117. Female subgenital plate and vulval margin, ventral view." figureDoi="http://doi.org/10.5281/zenodo.6358770" httpUri="https://zenodo.org/record/6358770/files/figure.png" pageId="64" pageNumber="65">Fig. 114</figureCitation>
+, lateral margins of preantennal area shallowly concave, frons deeply concave, with central sclerotization medianly continuous. Dorsal anterior plate as in 
+<figureCitation id="F6BE2A6FDC39CD18FBA98337541FFE35" box="[1048,1146,381,408]" captionStart="Figs 114–117" captionStartId="64.[189,241,1925,1951]" captionTargetBox="[349,1238,654,1866]" captionTargetId="figure-117@64.[341,1247,652,1877]" captionTargetPageId="64" captionText="Figs 114–117. Philopteroides holosternus sp. nov. 114. Male head, dorsal and ventral views. 115. Male genitalia, dorsal view. 116. Male genitalia, ventral view. 117. Female subgenital plate and vulval margin, ventral view." figureDoi="http://doi.org/10.5281/zenodo.6358770" httpUri="https://zenodo.org/record/6358770/files/figure.png" pageId="64" pageNumber="65">Fig. 114</figureCitation>
+. Ventral anterior plate rounded triangular, anterior margin concave. Lobes of ventral carina trapezoidal, widening medianly. Head chaetotaxy as in 
+<figureCitation id="F6BE2A6FDC39CD18FE63838E525DFE73" box="[466,568,452,478]" captionStart="Figs 114–117" captionStartId="64.[189,241,1925,1951]" captionTargetBox="[349,1238,654,1866]" captionTargetId="figure-117@64.[341,1247,652,1877]" captionTargetPageId="64" captionText="Figs 114–117. Philopteroides holosternus sp. nov. 114. Male head, dorsal and ventral views. 115. Male genitalia, dorsal view. 116. Male genitalia, ventral view. 117. Female subgenital plate and vulval margin, ventral view." figureDoi="http://doi.org/10.5281/zenodo.6358770" httpUri="https://zenodo.org/record/6358770/files/figure.png" pageId="64" pageNumber="65">Fig. 114</figureCitation>
+. Thoracic and abdominal segments as in 
+<figureCitation id="F6BE2A6FDC39CD18FB9B838E54ABFE73" box="[1066,1230,452,478]" captionStart="Figs 112–113" captionStartId="63.[189,241,1960,1986]" captionTargetBox="[346,1242,929,1908]" captionTargetId="figure-129@63.[346,1242,924,1908]" captionTargetPageId="63" captionText="Figs 112–113. Philopteroides holosternus sp. nov. 112. Male habitus, dorsal and ventral views. 113. Female habitus, dorsal and ventral views." figureDoi="http://doi.org/10.5281/zenodo.6358768" httpUri="https://zenodo.org/record/6358768/files/figure.png" pageId="64" pageNumber="65">Figs 112–113</figureCitation>
+; sternal plates broad. Pigmentation differs between sexes, with female much darker than male. Tergopleurites III–VIII with translucent fenestrae around spiracular openings.
+</paragraph>
+<caption id="3AFA6662DC39CD18FF0C85CF5136F84B" ID-DOI="http://doi.org/10.5281/zenodo.6358770" ID-Zenodo-Dep="6358770" httpUri="https://zenodo.org/record/6358770/files/figure.png" pageId="64" pageNumber="65" startId="64.[189,241,1925,1951]" targetBox="[349,1238,654,1866]" targetPageId="64">
+<paragraph id="6E3A36EADC39CD18FF0C85CF5136F84B" blockId="64.[188,1398,1925,2022]" pageId="64" pageNumber="65">
+<emphasis id="5CF1EAF8DC39CD18FF0C85CF5106F80D" bold="true" box="[189,355,1925,1952]" pageId="64" pageNumber="65">Figs 114–117.</emphasis>
+<taxonomicName id="A9854D69DC39CD18FEDA85CC52C2F80D" authority="Gustafsson &amp; Najer &amp; Zou &amp; Bush, 2022" authorityName="Gustafsson &amp; Najer &amp; Zou &amp; Bush" authorityYear="2022" box="[363,679,1926,1952]" class="Aves" family="Pycnonotidae" genus="Philopteroides" kingdom="Animalia" order="Passeriformes" pageId="64" pageNumber="65" phylum="Chordata" rank="species" species="holosternus" status="sp. nov.">
+<emphasis id="5CF1EAF8DC39CD18FEDA85CC52C2F80D" box="[363,679,1926,1952]" italics="true" pageId="64" pageNumber="65">Philopteroides holosternus</emphasis>
+</taxonomicName>
+<taxonomicNameLabel id="47C25783DC39CD18FD1F85CC536CF80D" box="[686,777,1926,1952]" pageId="64" pageNumber="65" rank="species">sp. nov.</taxonomicNameLabel>
+<emphasis id="5CF1EAF8DC39CD18FCA085CC535EF80D" bold="true" box="[785,827,1926,1952]" pageId="64" pageNumber="65">114</emphasis>
+. Male head, dorsal and ventral views. 
+<emphasis id="5CF1EAF8DC39CD18FAB085CC554EF80D" bold="true" box="[1281,1323,1926,1952]" pageId="64" pageNumber="65">115</emphasis>
+. Male genitalia, dorsal view. 
+<emphasis id="5CF1EAF8DC39CD18FE7085E3518EF86E" bold="true" box="[449,491,1961,1987]" pageId="64" pageNumber="65">116</emphasis>
+. Male genitalia, ventral view. 
+<emphasis id="5CF1EAF8DC39CD18FCF885E35316F86E" bold="true" box="[841,883,1961,1987]" pageId="64" pageNumber="65">117</emphasis>
+. Female subgenital plate and vulval margin, ventral view.
+</paragraph>
+</caption>
+<paragraph id="6E3A36EADC38CD19FF5B8343514FFE8E" blockId="65.[187,1399,265,657]" box="[234,298,265,291]" pageId="65" pageNumber="66">
+<emphasis id="5CF1EAF8DC38CD19FF5B8343514FFE8E" bold="true" box="[234,298,265,291]" pageId="65" pageNumber="66">Male</emphasis>
+</paragraph>
+<paragraph id="6E3A36EADC38CD19FF0C836752CAFD3C" blockId="65.[187,1399,265,657]" pageId="65" pageNumber="66">
+Thoracic and abdominal chaetotaxy as in 
+<figureCitation id="F6BE2A6FDC38CD19FD7283675349FEEA" box="[707,812,301,327]" captionStart="Figs 112–113" captionStartId="63.[189,241,1960,1986]" captionTargetBox="[346,1242,929,1908]" captionTargetId="figure-129@63.[346,1242,924,1908]" captionTargetPageId="63" captionText="Figs 112–113. Philopteroides holosternus sp. nov. 112. Male habitus, dorsal and ventral views. 113. Female habitus, dorsal and ventral views." figureDoi="http://doi.org/10.5281/zenodo.6358768" httpUri="https://zenodo.org/record/6358768/files/figure.png" pageId="65" pageNumber="66">Fig. 112</figureCitation>
+. Metanotum with 8–9 setae on each side. Base pigmentation light brown, except posterior elongation of dorsal anterior plate, temporal carinae, and proepimera medium brown. Sternal plate II medianly continuous; sternal plates III–VI broad, long, not divided into central and accessory plates. Subgenital plate large, with small irregular accessory plate on segment IX+X. Basal apodeme broad (
+<figureCitation id="F6BE2A6FDC38CD19FCB383F5530FFE77" box="[770,874,447,474]" captionStart="Figs 114–117" captionStartId="64.[189,241,1925,1951]" captionTargetBox="[349,1238,654,1866]" captionTargetId="figure-117@64.[341,1247,652,1877]" captionTargetPageId="64" captionText="Figs 114–117. Philopteroides holosternus sp. nov. 114. Male head, dorsal and ventral views. 115. Male genitalia, dorsal view. 116. Male genitalia, ventral view. 117. Female subgenital plate and vulval margin, ventral view." figureDoi="http://doi.org/10.5281/zenodo.6358770" httpUri="https://zenodo.org/record/6358770/files/figure.png" pageId="65" pageNumber="66">Fig. 115</figureCitation>
+), narrowing markedly in anterior end, with slightly convex anterior margin. Distal end of basal apodeme with arched, medianly convergent dorsal ridges (
+<figureCitation id="F6BE2A6FDC38CD19FEA58043511DFD8E" box="[276,376,520,547]" captionStart="Figs 114–117" captionStartId="64.[189,241,1925,1951]" captionTargetBox="[349,1238,654,1866]" captionTargetId="figure-117@64.[341,1247,652,1877]" captionTargetPageId="64" captionText="Figs 114–117. Philopteroides holosternus sp. nov. 114. Male head, dorsal and ventral views. 115. Male genitalia, dorsal view. 116. Male genitalia, ventral view. 117. Female subgenital plate and vulval margin, ventral view." figureDoi="http://doi.org/10.5281/zenodo.6358770" httpUri="https://zenodo.org/record/6358770/files/figure.png" pageId="65" pageNumber="66">Fig. 115</figureCitation>
+). Dorsal thickening of mesosome with bifid anterior extension. Gonopore wide, crescent shaped, distally with wide, blunt nodes (
+<figureCitation id="F6BE2A6FDC38CD19FD3A8067528AFDE5" box="[651,751,557,584]" captionStart="Figs 114–117" captionStartId="64.[189,241,1925,1951]" captionTargetBox="[349,1238,654,1866]" captionTargetId="figure-117@64.[341,1247,652,1877]" captionTargetPageId="64" captionText="Figs 114–117. Philopteroides holosternus sp. nov. 114. Male head, dorsal and ventral views. 115. Male genitalia, dorsal view. 116. Male genitalia, ventral view. 117. Female subgenital plate and vulval margin, ventral view." figureDoi="http://doi.org/10.5281/zenodo.6358770" httpUri="https://zenodo.org/record/6358770/files/figure.png" pageId="65" pageNumber="66">Fig. 116</figureCitation>
+); 1 sensillum on each lobe. Parameres simple (
+<figureCitation id="F6BE2A6FDC38CD19FAB48067550DFDE5" box="[1285,1384,557,584]" captionStart="Figs 114–117" captionStartId="64.[189,241,1925,1951]" captionTargetBox="[349,1238,654,1866]" captionTargetId="figure-117@64.[341,1247,652,1877]" captionTargetPageId="64" captionText="Figs 114–117. Philopteroides holosternus sp. nov. 114. Male head, dorsal and ventral views. 115. Male genitalia, dorsal view. 116. Male genitalia, ventral view. 117. Female subgenital plate and vulval margin, ventral view." figureDoi="http://doi.org/10.5281/zenodo.6358770" httpUri="https://zenodo.org/record/6358770/files/figure.png" pageId="65" pageNumber="66">Fig. 116</figureCitation>
+), 2 sensilla on lateral margin of basal paramere, and 2 sensilla on lateral margin in distal half of each paramere. Measurements as in 
+<tableCitation id="23070351DC38CD19FD98803C52CEFD3C" box="[553,683,630,657]" captionStart-0="Table 1" captionStart-1="Table 2" captionStartId-0="9.[185,254,545,573]" captionStartId-1="62.[185,254,597,625]" captionTargetPageId-0="9" captionTargetPageId-1="62" captionText-0="Table 1 (continued on next two pages). Measurements of the species described here. Means (in brackets) only included for samples sizes&gt;10. Abbreviations: AW = abdominal width; HL = head length; HW = head width; N = number; PRW = prothoracic width; PTW = pterothoracic width; TL = total length. Genus abbreviations: Br. = Brueelia; Gu. = Guimaraesiella; Po. = Philopteroides. For additional measurements for the species of Philopteroides Mey, 2004, see Table 2." captionText-1="Table 2. Additional measurements for the species of Philopteroides Mey, 2004 described here. Abbreviations: ADPL = anterior dorsal plate length; ADPW = anterior dorsal plate width; ANW = anterior notch width; GW = genital width (male); N = number; PAL = preantennal head length; PAW = preantennal head width; POL = post-antennal head length; SGPW = subgenital plate width; TRL = trabeculum length; TRW = trabeculum width." httpUri-0="http://table.plazi.org/id/3AFA6662DC70CD51FF08806B52E7FD0B" httpUri-1="http://table.plazi.org/id/3AFA6662DC47CD66FF08801F5163FD76" pageId="65" pageNumber="66" tableUuid-0="3AFA6662DC70CD51FF08806B52E7FD0B" tableUuid-1="3AFA6662DC47CD66FF08801F5163FD76">Tables 1–2</tableCitation>
+.
+</paragraph>
+<paragraph id="6E3A36EADC38CD19FF5B80F35120FD7E" blockId="65.[188,1399,697,1053]" box="[234,325,697,723]" pageId="65" pageNumber="66">
+<emphasis id="5CF1EAF8DC38CD19FF5B80F35120FD7E" bold="true" box="[234,325,697,723]" pageId="65" pageNumber="66">Female</emphasis>
+</paragraph>
+<paragraph id="6E3A36EADC38CD19FF0C80945104FBB0" blockId="65.[188,1399,697,1053]" pageId="65" pageNumber="66">
+Thoracic and abdominal chaetotaxy as in 
+<figureCitation id="F6BE2A6FDC38CD19FD7280945349FD55" box="[707,812,734,760]" captionStart="Figs 112–113" captionStartId="63.[189,241,1960,1986]" captionTargetBox="[346,1242,929,1908]" captionTargetId="figure-129@63.[346,1242,924,1908]" captionTargetPageId="63" captionText="Figs 112–113. Philopteroides holosternus sp. nov. 112. Male habitus, dorsal and ventral views. 113. Female habitus, dorsal and ventral views." figureDoi="http://doi.org/10.5281/zenodo.6358768" httpUri="https://zenodo.org/record/6358768/files/figure.png" pageId="65" pageNumber="66">Fig. 113</figureCitation>
+. Metanotum with 7–9 setae on each side. Base pigmentation pale brown, except marginal carina, dorsal anterior plate, preantennal nodi, temporal and temporal marginal carinae, proepimera, prosternal plate, lateral and posterior sections of metanotum, and lateral sections of tergopleurites medium brown. Sternal plate II short but wide (
+<figureCitation id="F6BE2A6FDC38CD19FB2081065490FCCB" box="[1169,1269,844,870]" captionStart="Figs 112–113" captionStartId="63.[189,241,1960,1986]" captionTargetBox="[346,1242,929,1908]" captionTargetId="figure-129@63.[346,1242,924,1908]" captionTargetPageId="63" captionText="Figs 112–113. Philopteroides holosternus sp. nov. 112. Male habitus, dorsal and ventral views. 113. Female habitus, dorsal and ventral views." figureDoi="http://doi.org/10.5281/zenodo.6358768" httpUri="https://zenodo.org/record/6358768/files/figure.png" pageId="65" pageNumber="66">Fig. 113</figureCitation>
+), medianly continuous, and with small lateral accessory plate on each side; sternal plates III–VI wide, with small lateral accessory plates on each side. Subgenital plate as in 
+<figureCitation id="F6BE2A6FDC38CD19FC3081DF5381FC02" box="[897,996,917,943]" captionStart="Figs 114–117" captionStartId="64.[189,241,1925,1951]" captionTargetBox="[349,1238,654,1866]" captionTargetId="figure-117@64.[341,1247,652,1877]" captionTargetPageId="64" captionText="Figs 114–117. Philopteroides holosternus sp. nov. 114. Male head, dorsal and ventral views. 115. Male genitalia, dorsal view. 116. Male genitalia, ventral view. 117. Female subgenital plate and vulval margin, ventral view." figureDoi="http://doi.org/10.5281/zenodo.6358770" httpUri="https://zenodo.org/record/6358770/files/figure.png" pageId="65" pageNumber="66">Fig. 117</figureCitation>
+. Surface between subgenital plate and vulval margin with faint reticulation. Vulval margin more or less straight (
+<figureCitation id="F6BE2A6FDC38CD19FBE881F354DBFC79" box="[1113,1214,953,980]" captionStart="Figs 114–117" captionStartId="64.[189,241,1925,1951]" captionTargetBox="[349,1238,654,1866]" captionTargetId="figure-117@64.[341,1247,652,1877]" captionTargetPageId="64" captionText="Figs 114–117. Philopteroides holosternus sp. nov. 114. Male head, dorsal and ventral views. 115. Male genitalia, dorsal view. 116. Male genitalia, ventral view. 117. Female subgenital plate and vulval margin, ventral view." figureDoi="http://doi.org/10.5281/zenodo.6358770" httpUri="https://zenodo.org/record/6358770/files/figure.png" pageId="65" pageNumber="66">Fig. 117</figureCitation>
+), with 4–5 long and 4–5 short setae on each side. Subvulval plates broad, distal end widely pointed. Measurements as in 
+<tableCitation id="23070351DC38CD19FF6D86495138FBB0" box="[220,349,1027,1053]" captionStart-0="Table 1" captionStart-1="Table 2" captionStartId-0="9.[185,254,545,573]" captionStartId-1="62.[185,254,597,625]" captionTargetPageId-0="9" captionTargetPageId-1="62" captionText-0="Table 1 (continued on next two pages). Measurements of the species described here. Means (in brackets) only included for samples sizes&gt;10. Abbreviations: AW = abdominal width; HL = head length; HW = head width; N = number; PRW = prothoracic width; PTW = pterothoracic width; TL = total length. Genus abbreviations: Br. = Brueelia; Gu. = Guimaraesiella; Po. = Philopteroides. For additional measurements for the species of Philopteroides Mey, 2004, see Table 2." captionText-1="Table 2. Additional measurements for the species of Philopteroides Mey, 2004 described here. Abbreviations: ADPL = anterior dorsal plate length; ADPW = anterior dorsal plate width; ANW = anterior notch width; GW = genital width (male); N = number; PAL = preantennal head length; PAW = preantennal head width; POL = post-antennal head length; SGPW = subgenital plate width; TRL = trabeculum length; TRW = trabeculum width." httpUri-0="http://table.plazi.org/id/3AFA6662DC70CD51FF08806B52E7FD0B" httpUri-1="http://table.plazi.org/id/3AFA6662DC47CD66FF08801F5163FD76" pageId="65" pageNumber="66" tableUuid-0="3AFA6662DC70CD51FF08806B52E7FD0B" tableUuid-1="3AFA6662DC47CD66FF08801F5163FD76">Tables 1–2</tableCitation>
+.
+</paragraph>
+</subSubSection>
+<treatment id="E62C87FCDC38CD1CFDD68616550EFB56" ID-DOI="http://doi.org/10.5281/zenodo.6483913" ID-GBIF-Taxon="194839400" ID-Zenodo-Dep="6483913" LSID="urn:lsid:zoobank.org:act:4ACFDCEE-4214-4FAB-AF53-0EAD86F9C20D" httpUri="http://treatment.plazi.org/id/E62C87FCDC44CD19FDF684115104FBB0" lastPageId="68" lastPageNumber="69" pageId="65" pageNumber="66">
+<subSubSection id="269F6561DC38CD19FDD686165448FBDA" box="[615,1069,1116,1143]" pageId="65" pageNumber="66" type="nomenclature">
+<paragraph id="6E3A36EADC38CD19FDD686165448FBDA" blockId="65.[359,1228,1116,1216]" box="[615,1069,1116,1143]" pageId="65" pageNumber="66">
+<taxonomicName id="A9854D69DC38CD19FDD6861653AEFBDA" authority="Gustafsson &amp; Najer &amp; Zou &amp; Bush, 2022" authorityName="Gustafsson &amp; Najer &amp; Zou &amp; Bush" authorityYear="2022" box="[615,971,1116,1143]" class="Aves" family="Pycnonotidae" genus="Philopteroides" kingdom="Animalia" order="Passeriformes" pageId="65" pageNumber="66" phylum="Chordata" rank="species" species="longiclypeatus" status="sp. nov.">
+<emphasis id="5CF1EAF8DC38CD19FDD6861653AEFBDA" bold="true" box="[615,971,1116,1143]" italics="true" pageId="65" pageNumber="66">Philopteroides longiclypeatus</emphasis>
+</taxonomicName>
+<taxonomicNameLabel id="47C25783DC38CD19FC6386175448FBDA" box="[978,1069,1117,1143]" pageId="65" pageNumber="66" rank="species">sp. nov.</taxonomicNameLabel>
+</paragraph>
+</subSubSection>
+<subSubSection id="269F6561DC38CD19FED686CB530FFB6D" pageId="65" pageNumber="66" type="description">
+<paragraph id="6E3A36EADC38CD19FED686CB54A9FB31" blockId="65.[359,1228,1116,1216]" box="[359,1228,1153,1180]" pageId="65" pageNumber="66">
+<uri id="1A143AE8DC38CD19FED686CB54A9FB31" box="[359,1228,1153,1180]" pageId="65" pageNumber="66">
+urn:lsid:zoobank.org:act: 
+<uuid id="1A230C3FDC38CD19FD3B86CB54A9FB31" box="[650,1228,1153,1180]" pageId="65" pageNumber="66">65995C7C-D0A2-40B5-8A19-A5CA73A1F2FC</uuid>
+</uri>
+</paragraph>
+<paragraph id="6E3A36EADC38CD19FD7B86EF530FFB6D" blockId="65.[359,1228,1116,1216]" box="[714,874,1189,1216]" pageId="65" pageNumber="66">
+<figureCitation id="F6BE2A6FDC38CD19FD7B86EF530FFB6D" box="[714,874,1189,1216]" captionStart-0="Figs 118–119" captionStart-1="Figs 120–123" captionStartId-0="66.[189,241,1958,1984]" captionStartId-1="67.[191,243,1926,1952]" captionTargetBox-0="[343,1247,864,1912]" captionTargetBox-1="[359,1225,640,1871]" captionTargetId-0="figure-107@66.[340,1247,857,1920]" captionTargetId-1="figure-125@67.[355,1232,636,1882]" captionTargetPageId-0="66" captionTargetPageId-1="67" captionText-0="Figs 118–119. Philopteroides longiclypeatus sp. nov. 118. Male habitus, dorsal and ventral views. 119. Female habitus, dorsal and ventral views." captionText-1="Figs 120–123. Philopteroides longiclypeatus sp. nov. 120. Male head, dorsal and ventral views. 121. Male genitalia, dorsal view. 122. Male genitalia, ventral view. 123. Female subgenital plate and vulval margin, ventral view." figureDoi-0="http://doi.org/10.5281/zenodo.6358772" figureDoi-1="http://doi.org/10.5281/zenodo.6358776" httpUri-0="https://zenodo.org/record/6358772/files/figure.png" httpUri-1="https://zenodo.org/record/6358776/files/figure.png" pageId="65" pageNumber="66">Figs 118–123</figureCitation>
+</paragraph>
+</subSubSection>
+<subSubSection id="269F6561DC38CD19FF0C86A251BDF8FC" pageId="65" pageNumber="66" type="diagnosis">
+<paragraph id="6E3A36EADC38CD19FF0C86A25153FAAF" blockId="65.[189,310,1256,1282]" box="[189,310,1256,1282]" pageId="65" pageNumber="66">
+<heading id="35728186DC38CD19FF0C86A25153FAAF" bold="true" box="[189,310,1256,1282]" fontSize="11" level="3" pageId="65" pageNumber="66" reason="3">
+<emphasis id="5CF1EAF8DC38CD19FF0C86A25153FAAF" bold="true" box="[189,310,1256,1282]" pageId="65" pageNumber="66">Diagnosis</emphasis>
+</heading>
+</paragraph>
+<paragraph id="6E3A36EADC38CD19FF0C875253E2FA68" blockId="65.[188,1399,1304,1477]" pageId="65" pageNumber="66">
+<taxonomicName id="A9854D69DC38CD19FF0C87525278FA9F" authority="Gustafsson &amp; Najer &amp; Zou &amp; Bush, 2022" authorityName="Gustafsson &amp; Najer &amp; Zou &amp; Bush" authorityYear="2022" box="[189,541,1304,1330]" class="Aves" family="Pycnonotidae" genus="Philopteroides" kingdom="Animalia" order="Passeriformes" pageId="65" pageNumber="66" phylum="Chordata" rank="species" species="longiclypeatus" status="sp. nov.">
+<emphasis id="5CF1EAF8DC38CD19FF0C87525278FA9F" box="[189,541,1304,1330]" italics="true" pageId="65" pageNumber="66">Philopteroides longiclypeatus</emphasis>
+</taxonomicName>
+<taxonomicNameLabel id="47C25783DC38CD19FD97875352E7FA9E" box="[550,642,1305,1331]" pageId="65" pageNumber="66" rank="species">sp. nov.</taxonomicNameLabel>
+is most similar to 
+<taxonomicName id="A9854D69DC38CD19FCD48752541BFA9F" authority="Gustafsson &amp; Najer &amp; Zou &amp; Bush, 2022" authorityName="Gustafsson &amp; Najer &amp; Zou &amp; Bush" authorityYear="2022" box="[869,1150,1304,1330]" class="Aves" family="Pycnonotidae" genus="Philopteroides" kingdom="Animalia" order="Passeriformes" pageId="65" pageNumber="66" phylum="Chordata" rank="species" species="haerixos" status="sp. nov.">
+<emphasis id="5CF1EAF8DC38CD19FCD48752541BFA9F" box="[869,1150,1304,1330]" italics="true" pageId="65" pageNumber="66">Philopteroides haerixos</emphasis>
+</taxonomicName>
+<taxonomicNameLabel id="47C25783DC38CD19FB3787535481FA9E" box="[1158,1252,1305,1331]" pageId="65" pageNumber="66" rank="species">sp. nov.</taxonomicNameLabel>
+, with which it shares the following characters: abdominal segment III without 
+<emphasis id="5CF1EAF8DC38CD19FC72877453B8FAFA" box="[963,989,1342,1367]" italics="true" pageId="65" pageNumber="66">ps</emphasis>
+in both sexes (
+<figureCitation id="F6BE2A6FDC38CD19FB3C87775555FAFA" box="[1165,1328,1341,1367]" captionStart="Figs 118–119" captionStartId="66.[189,241,1958,1984]" captionTargetBox="[343,1247,864,1912]" captionTargetId="figure-107@66.[340,1247,857,1920]" captionTargetPageId="66" captionText="Figs 118–119. Philopteroides longiclypeatus sp. nov. 118. Male habitus, dorsal and ventral views. 119. Female habitus, dorsal and ventral views." figureDoi="http://doi.org/10.5281/zenodo.6358772" httpUri="https://zenodo.org/record/6358772/files/figure.png" pageId="65" pageNumber="66">Figs 118–119</figureCitation>
+, 
+<figureCitation id="F6BE2A6FDC38CD19FA8D87775088FAD1" captionStart="Figs 124–125" captionStartId="69.[189,241,1962,1988]" captionTargetBox="[345,1243,752,1913]" captionTargetId="figure-94@69.[340,1247,751,1915]" captionTargetPageId="69" captionText="Figs 124–125. Philopteroides haerixos sp. nov. 124. Male habitus, dorsal and ventral views.125. Female habitus, dorsal and ventral views." figureDoi="http://doi.org/10.5281/zenodo.6358780" httpUri="https://zenodo.org/record/6358780/files/figure.png" pageId="65" pageNumber="66">124– 125</figureCitation>
+); male sternite III with lateral accessory sternal plate present and separate from central sternal plate (
+<figureCitation id="F6BE2A6FDC38CD19FF7487CC5149FA0D" box="[197,300,1414,1440]" captionStart="Figs 118–119" captionStartId="66.[189,241,1958,1984]" captionTargetBox="[343,1247,864,1912]" captionTargetId="figure-107@66.[340,1247,857,1920]" captionTargetPageId="66" captionText="Figs 118–119. Philopteroides longiclypeatus sp. nov. 118. Male habitus, dorsal and ventral views. 119. Female habitus, dorsal and ventral views." figureDoi="http://doi.org/10.5281/zenodo.6358772" httpUri="https://zenodo.org/record/6358772/files/figure.png" pageId="65" pageNumber="66">Figs 118</figureCitation>
+, 
+<figureCitation id="F6BE2A6FDC38CD19FE8987CC510DFA0D" box="[312,360,1414,1440]" captionStart="Figs 124–125" captionStartId="69.[189,241,1962,1988]" captionTargetBox="[345,1243,752,1913]" captionTargetId="figure-94@69.[340,1247,751,1915]" captionTargetPageId="69" captionText="Figs 124–125. Philopteroides haerixos sp. nov. 124. Male habitus, dorsal and ventral views.125. Female habitus, dorsal and ventral views." figureDoi="http://doi.org/10.5281/zenodo.6358780" httpUri="https://zenodo.org/record/6358780/files/figure.png" pageId="65" pageNumber="66">124</figureCitation>
+); dorsal sclerotization of mesosome broad, roughly triangular (
+<figureCitation id="F6BE2A6FDC38CD19FBF287CC54C9FA0D" box="[1091,1196,1414,1440]" captionStart="Figs 120–123" captionStartId="67.[191,243,1926,1952]" captionTargetBox="[359,1225,640,1871]" captionTargetId="figure-125@67.[355,1232,636,1882]" captionTargetPageId="67" captionText="Figs 120–123. Philopteroides longiclypeatus sp. nov. 120. Male head, dorsal and ventral views. 121. Male genitalia, dorsal view. 122. Male genitalia, ventral view. 123. Female subgenital plate and vulval margin, ventral view." figureDoi="http://doi.org/10.5281/zenodo.6358776" httpUri="https://zenodo.org/record/6358776/files/figure.png" pageId="65" pageNumber="66">Figs 121</figureCitation>
+, 
+<figureCitation id="F6BE2A6FDC38CD19FB0987CC548DFA0D" box="[1208,1256,1414,1440]" captionStart="Figs 126–129" captionStartId="70.[189,241,1927,1953]" captionTargetBox="[381,1216,675,1861]" captionTargetId="figure-95@70.[360,1227,675,1876]" captionTargetPageId="70" captionText="Figs 126–129. Philopteroides haerixos sp. nov. 126. Male head, dorsal and ventral views. 127. Male genitalia, dorsal view.128. Male genitalia, ventral view. 129. Female subgenital plate and vulval margin, ventral view." figureDoi="http://doi.org/10.5281/zenodo.6358782" httpUri="https://zenodo.org/record/6358782/files/figure.png" pageId="65" pageNumber="66">127</figureCitation>
+); no median dorsal ridges on distal end of basal apodeme (
+<figureCitation id="F6BE2A6FDC38CD19FD6587E1535BFA68" box="[724,830,1451,1477]" captionStart="Figs 120–123" captionStartId="67.[191,243,1926,1952]" captionTargetBox="[359,1225,640,1871]" captionTargetId="figure-125@67.[355,1232,636,1882]" captionTargetPageId="67" captionText="Figs 120–123. Philopteroides longiclypeatus sp. nov. 120. Male head, dorsal and ventral views. 121. Male genitalia, dorsal view. 122. Male genitalia, ventral view. 123. Female subgenital plate and vulval margin, ventral view." figureDoi="http://doi.org/10.5281/zenodo.6358776" httpUri="https://zenodo.org/record/6358776/files/figure.png" pageId="65" pageNumber="66">Figs 121</figureCitation>
+, 
+<figureCitation id="F6BE2A6FDC38CD19FCFB87E1531FFA68" box="[842,890,1451,1477]" captionStart="Figs 126–129" captionStartId="70.[189,241,1927,1953]" captionTargetBox="[381,1216,675,1861]" captionTargetId="figure-95@70.[360,1227,675,1876]" captionTargetPageId="70" captionText="Figs 126–129. Philopteroides haerixos sp. nov. 126. Male head, dorsal and ventral views. 127. Male genitalia, dorsal view.128. Male genitalia, ventral view. 129. Female subgenital plate and vulval margin, ventral view." figureDoi="http://doi.org/10.5281/zenodo.6358782" httpUri="https://zenodo.org/record/6358782/files/figure.png" pageId="65" pageNumber="66">127</figureCitation>
+).
+</paragraph>
+<paragraph id="6E3A36EADC38CD19FF0C87A751BDF8FC" blockId="65.[188,1399,1517,1873]" pageId="65" pageNumber="66">
+<taxonomicName id="A9854D69DC38CD19FF0C87A7527BF9AA" authority="Gustafsson &amp; Najer &amp; Zou &amp; Bush, 2022" authorityName="Gustafsson &amp; Najer &amp; Zou &amp; Bush" authorityYear="2022" box="[189,542,1517,1543]" class="Aves" family="Pycnonotidae" genus="Philopteroides" kingdom="Animalia" order="Passeriformes" pageId="65" pageNumber="66" phylum="Chordata" rank="species" species="longiclypeatus" status="sp. nov.">
+<emphasis id="5CF1EAF8DC38CD19FF0C87A7527BF9AA" box="[189,542,1517,1543]" italics="true" pageId="65" pageNumber="66">Philopteroides longiclypeatus</emphasis>
+</taxonomicName>
+<taxonomicNameLabel id="47C25783DC38CD19FD9987A452E3F9A5" box="[552,646,1518,1544]" pageId="65" pageNumber="66" rank="species">sp. nov.</taxonomicNameLabel>
+can be separated from 
+<taxonomicName id="A9854D69DC38CD19FC1487A45458F9AA" authority="Gustafsson &amp; Najer &amp; Zou &amp; Bush, 2022" authorityName="Gustafsson &amp; Najer &amp; Zou &amp; Bush" authorityYear="2022" box="[933,1085,1517,1543]" class="Aves" family="Pycnonotidae" genus="Philopteroides" kingdom="Animalia" order="Passeriformes" pageId="65" pageNumber="66" phylum="Chordata" rank="species" species="haerixos" status="sp. nov.">
+<emphasis id="5CF1EAF8DC38CD19FC1487A45458F9AA" box="[933,1085,1517,1543]" italics="true" pageId="65" pageNumber="66">Po. haerixos</emphasis>
+</taxonomicName>
+<taxonomicNameLabel id="47C25783DC38CD19FBF687A454C0F9A5" box="[1095,1189,1518,1544]" pageId="65" pageNumber="66" rank="species">sp. nov.</taxonomicNameLabel>
+by the following characters: head coni slender elongated in 
+<taxonomicName id="A9854D69DC38CD19FD0E845953F9F981" authority="Gustafsson &amp; Najer &amp; Zou &amp; Bush, 2022" authorityName="Gustafsson &amp; Najer &amp; Zou &amp; Bush" authorityYear="2022" box="[703,924,1554,1580]" class="Aves" family="Pycnonotidae" genus="Philopteroides" kingdom="Animalia" order="Passeriformes" pageId="65" pageNumber="66" phylum="Chordata" rank="species" species="longiclypeatus" status="sp. nov.">
+<emphasis id="5CF1EAF8DC38CD19FD0E845953F9F981" box="[703,924,1554,1580]" italics="true" pageId="65" pageNumber="66">Po. longiclypeatus</emphasis>
+</taxonomicName>
+<taxonomicNameLabel id="47C25783DC38CD19FC1784595461F980" box="[934,1028,1555,1581]" pageId="65" pageNumber="66" rank="species">sp. nov.</taxonomicNameLabel>
+(
+<figureCitation id="F6BE2A6FDC38CD19FBA78458541BF981" box="[1046,1150,1554,1580]" captionStart="Figs 120–123" captionStartId="67.[191,243,1926,1952]" captionTargetBox="[359,1225,640,1871]" captionTargetId="figure-125@67.[355,1232,636,1882]" captionTargetPageId="67" captionText="Figs 120–123. Philopteroides longiclypeatus sp. nov. 120. Male head, dorsal and ventral views. 121. Male genitalia, dorsal view. 122. Male genitalia, ventral view. 123. Female subgenital plate and vulval margin, ventral view." figureDoi="http://doi.org/10.5281/zenodo.6358776" httpUri="https://zenodo.org/record/6358776/files/figure.png" pageId="65" pageNumber="66">Fig. 120</figureCitation>
+), but broad bulky in 
+<taxonomicName id="A9854D69DC38CD19FF0C84725134F9FC" authority="Gustafsson &amp; Najer &amp; Zou &amp; Bush, 2022" authorityName="Gustafsson &amp; Najer &amp; Zou &amp; Bush" authorityYear="2022" box="[189,337,1591,1617]" class="Aves" family="Pycnonotidae" genus="Philopteroides" kingdom="Animalia" order="Passeriformes" pageId="65" pageNumber="66" phylum="Chordata" rank="species" species="haerixos" status="sp. nov.">
+<emphasis id="5CF1EAF8DC38CD19FF0C84725134F9FC" box="[189,337,1591,1617]" italics="true" pageId="65" pageNumber="66">Po. haerixos</emphasis>
+</taxonomicName>
+<taxonomicNameLabel id="47C25783DC38CD19FEE9847D51D7F9FC" box="[344,434,1591,1617]" pageId="65" pageNumber="66" rank="species">sp. nov.</taxonomicNameLabel>
+(
+<figureCitation id="F6BE2A6FDC38CD19FE73847D524DF9FF" box="[450,552,1591,1618]" captionStart="Figs 126–129" captionStartId="70.[189,241,1927,1953]" captionTargetBox="[381,1216,675,1861]" captionTargetId="figure-95@70.[360,1227,675,1876]" captionTargetPageId="70" captionText="Figs 126–129. Philopteroides haerixos sp. nov. 126. Male head, dorsal and ventral views. 127. Male genitalia, dorsal view.128. Male genitalia, ventral view. 129. Female subgenital plate and vulval margin, ventral view." figureDoi="http://doi.org/10.5281/zenodo.6358782" httpUri="https://zenodo.org/record/6358782/files/figure.png" pageId="65" pageNumber="66">Fig. 126</figureCitation>
+); sternal plate II absent in both sexes in 
+<taxonomicName id="A9854D69DC38CD19FC4D847254F5F9FC" authority="Gustafsson &amp; Najer &amp; Zou &amp; Bush, 2022" authorityName="Gustafsson &amp; Najer &amp; Zou &amp; Bush" authorityYear="2022" box="[1020,1168,1591,1617]" class="Aves" family="Pycnonotidae" genus="Philopteroides" kingdom="Animalia" order="Passeriformes" pageId="65" pageNumber="66" phylum="Chordata" rank="species" species="haerixos" status="sp. nov.">
+<emphasis id="5CF1EAF8DC38CD19FC4D847254F5F9FC" box="[1020,1168,1591,1617]" italics="true" pageId="65" pageNumber="66">Po. haerixos</emphasis>
+</taxonomicName>
+<taxonomicNameLabel id="47C25783DC38CD19FB26847D5497F9FC" box="[1175,1266,1591,1617]" pageId="65" pageNumber="66" rank="species">sp. nov.</taxonomicNameLabel>
+(
+<figureCitation id="F6BE2A6FDC38CD19FAB0847D5089F9DB" captionStart="Figs 124–125" captionStartId="69.[189,241,1962,1988]" captionTargetBox="[345,1243,752,1913]" captionTargetId="figure-94@69.[340,1247,751,1915]" captionTargetPageId="69" captionText="Figs 124–125. Philopteroides haerixos sp. nov. 124. Male habitus, dorsal and ventral views.125. Female habitus, dorsal and ventral views." figureDoi="http://doi.org/10.5281/zenodo.6358780" httpUri="https://zenodo.org/record/6358780/files/figure.png" pageId="65" pageNumber="66">Figs 124– 125</figureCitation>
+), but present in 
+<taxonomicName id="A9854D69DC38CD19FE74841652C3F9D8" authority="Gustafsson &amp; Najer &amp; Zou &amp; Bush, 2022" authorityName="Gustafsson &amp; Najer &amp; Zou &amp; Bush" authorityYear="2022" box="[453,678,1627,1653]" class="Aves" family="Pycnonotidae" genus="Philopteroides" kingdom="Animalia" order="Passeriformes" pageId="65" pageNumber="66" phylum="Chordata" rank="species" species="longiclypeatus" status="sp. nov.">
+<emphasis id="5CF1EAF8DC38CD19FE74841652C3F9D8" box="[453,678,1627,1653]" italics="true" pageId="65" pageNumber="66">Po. longiclypeatus</emphasis>
+</taxonomicName>
+<taxonomicNameLabel id="47C25783DC38CD19FD0584165373F9DB" box="[692,790,1628,1654]" pageId="65" pageNumber="66" rank="species">sp. nov.</taxonomicNameLabel>
+(
+<figureCitation id="F6BE2A6FDC38CD19FC9D841153BDF9D8" box="[812,984,1627,1653]" captionStart="Figs 118–119" captionStartId="66.[189,241,1958,1984]" captionTargetBox="[343,1247,864,1912]" captionTargetId="figure-107@66.[340,1247,857,1920]" captionTargetPageId="66" captionText="Figs 118–119. Philopteroides longiclypeatus sp. nov. 118. Male habitus, dorsal and ventral views. 119. Female habitus, dorsal and ventral views." figureDoi="http://doi.org/10.5281/zenodo.6358772" httpUri="https://zenodo.org/record/6358772/files/figure.png" pageId="65" pageNumber="66">Figs 118–119</figureCitation>
+); male basal apodeme narrowing anteriorly in 
+<taxonomicName id="A9854D69DC38CD19FEE784CB5254F937" authority="Gustafsson &amp; Najer &amp; Zou &amp; Bush, 2022" authorityName="Gustafsson &amp; Najer &amp; Zou &amp; Bush" authorityYear="2022" box="[342,561,1664,1690]" class="Aves" family="Pycnonotidae" genus="Philopteroides" kingdom="Animalia" order="Passeriformes" pageId="65" pageNumber="66" phylum="Chordata" rank="species" species="longiclypeatus" status="sp. nov.">
+<emphasis id="5CF1EAF8DC38CD19FEE784CB5254F937" box="[342,561,1664,1690]" italics="true" pageId="65" pageNumber="66">Po. longiclypeatus</emphasis>
+</taxonomicName>
+<taxonomicNameLabel id="47C25783DC38CD19FD8884CA52F1F937" box="[569,660,1664,1690]" pageId="65" pageNumber="66" rank="species">sp. nov.</taxonomicNameLabel>
+(
+<figureCitation id="F6BE2A6FDC38CD19FD1584CA532FF937" box="[676,842,1664,1690]" captionStart="Figs 120–123" captionStartId="67.[191,243,1926,1952]" captionTargetBox="[359,1225,640,1871]" captionTargetId="figure-125@67.[355,1232,636,1882]" captionTargetPageId="67" captionText="Figs 120–123. Philopteroides longiclypeatus sp. nov. 120. Male head, dorsal and ventral views. 121. Male genitalia, dorsal view. 122. Male genitalia, ventral view. 123. Female subgenital plate and vulval margin, ventral view." figureDoi="http://doi.org/10.5281/zenodo.6358776" httpUri="https://zenodo.org/record/6358776/files/figure.png" pageId="65" pageNumber="66">Figs 121–122</figureCitation>
+), but in all its length more or less equally wide in 
+<taxonomicName id="A9854D69DC38CD19FF6E84EF511DF913" authority="Gustafsson &amp; Najer &amp; Zou &amp; Bush, 2022" authorityName="Gustafsson &amp; Najer &amp; Zou &amp; Bush" authorityYear="2022" box="[223,376,1700,1726]" class="Aves" family="Pycnonotidae" genus="Philopteroides" kingdom="Animalia" order="Passeriformes" pageId="65" pageNumber="66" phylum="Chordata" rank="species" species="haerixos" status="sp. nov.">
+<emphasis id="5CF1EAF8DC38CD19FF6E84EF511DF913" box="[223,376,1700,1726]" italics="true" pageId="65" pageNumber="66">Po. haerixos</emphasis>
+</taxonomicName>
+<taxonomicNameLabel id="47C25783DC38CD19FE3284EF5187F912" box="[387,482,1701,1727]" pageId="65" pageNumber="66" rank="species">sp. nov.</taxonomicNameLabel>
+(
+<figureCitation id="F6BE2A6FDC38CD19FE4484EE52C5F912" box="[501,672,1700,1727]" captionStart="Figs 126–129" captionStartId="70.[189,241,1927,1953]" captionTargetBox="[381,1216,675,1861]" captionTargetId="figure-95@70.[360,1227,675,1876]" captionTargetPageId="70" captionText="Figs 126–129. Philopteroides haerixos sp. nov. 126. Male head, dorsal and ventral views. 127. Male genitalia, dorsal view.128. Male genitalia, ventral view. 129. Female subgenital plate and vulval margin, ventral view." figureDoi="http://doi.org/10.5281/zenodo.6358782" httpUri="https://zenodo.org/record/6358782/files/figure.png" pageId="65" pageNumber="66">Figs 127–128</figureCitation>
+); gonoporal complex of different structure (
+<figureCitation id="F6BE2A6FDC38CD19FB0B84EE554CF912" box="[1210,1321,1700,1727]" captionStart="Figs 120–123" captionStartId="67.[191,243,1926,1952]" captionTargetBox="[359,1225,640,1871]" captionTargetId="figure-125@67.[355,1232,636,1882]" captionTargetPageId="67" captionText="Figs 120–123. Philopteroides longiclypeatus sp. nov. 120. Male head, dorsal and ventral views. 121. Male genitalia, dorsal view. 122. Male genitalia, ventral view. 123. Female subgenital plate and vulval margin, ventral view." figureDoi="http://doi.org/10.5281/zenodo.6358776" httpUri="https://zenodo.org/record/6358776/files/figure.png" pageId="65" pageNumber="66">Figs 122</figureCitation>
+, 
+<figureCitation id="F6BE2A6FDC38CD19FA8884EF550CF912" box="[1337,1385,1701,1727]" captionStart="Figs 126–129" captionStartId="70.[189,241,1927,1953]" captionTargetBox="[381,1216,675,1861]" captionTargetId="figure-95@70.[360,1227,675,1876]" captionTargetPageId="70" captionText="Figs 126–129. Philopteroides haerixos sp. nov. 126. Male head, dorsal and ventral views. 127. Male genitalia, dorsal view.128. Male genitalia, ventral view. 129. Female subgenital plate and vulval margin, ventral view." figureDoi="http://doi.org/10.5281/zenodo.6358782" httpUri="https://zenodo.org/record/6358782/files/figure.png" pageId="65" pageNumber="66">128</figureCitation>
+); female subgenital plate with elongated, slender postero-lateral extensions in 
+<taxonomicName id="A9854D69DC38CD19FB8A84805570F94E" authority="Gustafsson &amp; Najer &amp; Zou &amp; Bush, 2022" authorityName="Gustafsson &amp; Najer &amp; Zou &amp; Bush" authorityYear="2022" box="[1083,1301,1737,1763]" class="Aves" family="Pycnonotidae" genus="Philopteroides" kingdom="Animalia" order="Passeriformes" pageId="65" pageNumber="66" phylum="Chordata" rank="species" species="longiclypeatus" status="sp. nov.">
+<emphasis id="5CF1EAF8DC38CD19FB8A84805570F94E" box="[1083,1301,1737,1763]" italics="true" pageId="65" pageNumber="66">Po. longiclypeatus</emphasis>
+</taxonomicName>
+<taxonomicNameLabel id="47C25783DC38CD19FAAC84805512F949" box="[1309,1399,1738,1764]" pageId="65" pageNumber="66" rank="species">sp. nov.</taxonomicNameLabel>
+(
+<figureCitation id="F6BE2A6FDC38CD19FF7484A4514FF8A5" box="[197,298,1774,1800]" captionStart="Figs 120–123" captionStartId="67.[191,243,1926,1952]" captionTargetBox="[359,1225,640,1871]" captionTargetId="figure-125@67.[355,1232,636,1882]" captionTargetPageId="67" captionText="Figs 120–123. Philopteroides longiclypeatus sp. nov. 120. Male head, dorsal and ventral views. 121. Male genitalia, dorsal view. 122. Male genitalia, ventral view. 123. Female subgenital plate and vulval margin, ventral view." figureDoi="http://doi.org/10.5281/zenodo.6358776" httpUri="https://zenodo.org/record/6358776/files/figure.png" pageId="65" pageNumber="66">Fig. 123</figureCitation>
+), but without such extensions in 
+<taxonomicName id="A9854D69DC38CD19FD1584A5535CF8A5" authority="Gustafsson &amp; Najer &amp; Zou &amp; Bush, 2022" authorityName="Gustafsson &amp; Najer &amp; Zou &amp; Bush" authorityYear="2022" box="[676,825,1774,1800]" class="Aves" family="Pycnonotidae" genus="Philopteroides" kingdom="Animalia" order="Passeriformes" pageId="65" pageNumber="66" phylum="Chordata" rank="species" species="haerixos" status="sp. nov.">
+<emphasis id="5CF1EAF8DC38CD19FD1584A5535CF8A5" box="[676,825,1774,1800]" italics="true" pageId="65" pageNumber="66">Po. haerixos</emphasis>
+</taxonomicName>
+<taxonomicNameLabel id="47C25783DC38CD19FC8E84A453FDF8A5" box="[831,920,1774,1800]" pageId="65" pageNumber="66" rank="species">sp. nov.</taxonomicNameLabel>
+(
+<figureCitation id="F6BE2A6FDC38CD19FC1684A45468F8A5" box="[935,1037,1774,1800]" captionStart="Figs 126–129" captionStartId="70.[189,241,1927,1953]" captionTargetBox="[381,1216,675,1861]" captionTargetId="figure-95@70.[360,1227,675,1876]" captionTargetPageId="70" captionText="Figs 126–129. Philopteroides haerixos sp. nov. 126. Male head, dorsal and ventral views. 127. Male genitalia, dorsal view.128. Male genitalia, ventral view. 129. Female subgenital plate and vulval margin, ventral view." figureDoi="http://doi.org/10.5281/zenodo.6358782" httpUri="https://zenodo.org/record/6358782/files/figure.png" pageId="65" pageNumber="66">Fig. 129</figureCitation>
+); mesometasternal plate absent or poorly sclerotized in 
+<taxonomicName id="A9854D69DC38CD19FE6B85595215F881" authority="Gustafsson &amp; Najer &amp; Zou &amp; Bush, 2022" authorityName="Gustafsson &amp; Najer &amp; Zou &amp; Bush" authorityYear="2022" box="[474,624,1810,1836]" class="Aves" family="Pycnonotidae" genus="Philopteroides" kingdom="Animalia" order="Passeriformes" pageId="65" pageNumber="66" phylum="Chordata" rank="species" species="haerixos" status="sp. nov.">
+<emphasis id="5CF1EAF8DC38CD19FE6B85595215F881" box="[474,624,1810,1836]" italics="true" pageId="65" pageNumber="66">Po. haerixos</emphasis>
+</taxonomicName>
+<taxonomicNameLabel id="47C25783DC38CD19FDC6855952B6F880" box="[631,723,1811,1837]" pageId="65" pageNumber="66" rank="species">sp. nov.</taxonomicNameLabel>
+(
+<figureCitation id="F6BE2A6FDC38CD19FD52855853ECF880" box="[739,905,1810,1837]" captionStart="Figs 124–125" captionStartId="69.[189,241,1962,1988]" captionTargetBox="[345,1243,752,1913]" captionTargetId="figure-94@69.[340,1247,751,1915]" captionTargetPageId="69" captionText="Figs 124–125. Philopteroides haerixos sp. nov. 124. Male habitus, dorsal and ventral views.125. Female habitus, dorsal and ventral views." figureDoi="http://doi.org/10.5281/zenodo.6358780" httpUri="https://zenodo.org/record/6358780/files/figure.png" pageId="65" pageNumber="66">Figs 124–125</figureCitation>
+), but clearly visible in 
+<taxonomicName id="A9854D69DC38CD19FB2D85595512F881" authority="Gustafsson &amp; Najer &amp; Zou &amp; Bush, 2022" authorityName="Gustafsson &amp; Najer &amp; Zou &amp; Bush" authorityYear="2022" box="[1180,1399,1810,1836]" class="Aves" family="Pycnonotidae" genus="Philopteroides" kingdom="Animalia" order="Passeriformes" pageId="65" pageNumber="66" phylum="Chordata" rank="species" species="longiclypeatus" status="sp. nov.">
+<emphasis id="5CF1EAF8DC38CD19FB2D85595512F881" box="[1180,1399,1810,1836]" italics="true" pageId="65" pageNumber="66">Po. longiclypeatus</emphasis>
+</taxonomicName>
+<taxonomicNameLabel id="47C25783DC38CD19FF0C857D517DF8FC" box="[189,280,1847,1873]" pageId="65" pageNumber="66" rank="species">sp. nov.</taxonomicNameLabel>
+(
+<figureCitation id="F6BE2A6FDC38CD19FE96857D51A9F8FC" box="[295,460,1847,1873]" captionStart="Figs 118–119" captionStartId="66.[189,241,1958,1984]" captionTargetBox="[343,1247,864,1912]" captionTargetId="figure-107@66.[340,1247,857,1920]" captionTargetPageId="66" captionText="Figs 118–119. Philopteroides longiclypeatus sp. nov. 118. Male habitus, dorsal and ventral views. 119. Female habitus, dorsal and ventral views." figureDoi="http://doi.org/10.5281/zenodo.6358772" httpUri="https://zenodo.org/record/6358772/files/figure.png" pageId="65" pageNumber="66">Figs 118–119</figureCitation>
+).
+</paragraph>
+</subSubSection>
+<subSubSection id="269F6561DC38CD19FF0C85305256F845" pageId="65" pageNumber="66" type="etymology">
+<paragraph id="6E3A36EADC38CD19FF0C85305121F839" blockId="65.[189,324,1914,1940]" box="[189,324,1914,1940]" pageId="65" pageNumber="66">
+<heading id="35728186DC38CD19FF0C85305121F839" bold="true" box="[189,324,1914,1940]" fontSize="11" level="3" pageId="65" pageNumber="66" reason="3">
+<emphasis id="5CF1EAF8DC38CD19FF0C85305121F839" bold="true" box="[189,324,1914,1940]" pageId="65" pageNumber="66">Etymology</emphasis>
+</heading>
+</paragraph>
+<paragraph id="6E3A36EADC38CD19FF0C85E05256F845" blockId="65.[188,1399,1962,2025]" pageId="65" pageNumber="66">
+The species name is derived from the Latin words ‘ 
+<emphasis id="5CF1EAF8DC38CD19FCBE85E05338F869" box="[783,861,1962,1988]" italics="true" pageId="65" pageNumber="66">longus</emphasis>
+’ for ‘long’ and ‘ 
+<emphasis id="5CF1EAF8DC38CD19FBAB85E05417F869" box="[1050,1138,1962,1988]" italics="true" pageId="65" pageNumber="66">clypeus</emphasis>
+’ for ‘shield’, referring to the long dorsal anterior plate.
+</paragraph>
+</subSubSection>
+<subSubSection id="269F6561DC3BCD1AFF0C8342546FFD1F" pageId="66" pageNumber="67" type="materials_examined">
+<paragraph id="6E3A36EADC3BCD1AFF0C834251CFFE8F" blockId="66.[189,426,264,290]" box="[189,426,264,290]" pageId="66" pageNumber="67">
+<heading id="35728186DC3BCD1AFF0C834251CFFE8F" bold="true" box="[189,426,264,290]" fontSize="11" level="3" pageId="66" pageNumber="67" reason="3">
+<emphasis id="5CF1EAF8DC3BCD1AFF0C834251CFFE8F" bold="true" box="[189,426,264,290]" pageId="66" pageNumber="67">Material examined</emphasis>
+</heading>
+</paragraph>
+<paragraph id="6E3A36EADC3BCD1AFF5B837D5262FE35" blockId="66.[189,1398,311,408]" pageId="66" pageNumber="67">
+<materialsCitation id="DEED3CB7DC3BCD1AFF5B837D5262FE35" ID-GBIF-Occurrence="3756363367" collectingDate="1964-07-01" collectionCode="BPBM" collectorName="D. S. Rabor" country="Philippines" county="Island" location="Mount Kabalanti-am" municipality="Mahaplag" pageId="66" pageNumber="67" specimenCode="B-3553" specimenCount="1" specimenCount-male="1" stateProvince="Leyte" typeStatus="holotype">
+<emphasis id="5CF1EAF8DC3BCD1AFF5B837D5139FEFC" bold="true" box="[234,348,311,337]" pageId="66" pageNumber="67">
+<typeStatus id="B13E8848DC3BCD1AFF5B837D5139FEFC" box="[234,348,311,337]" pageId="66" pageNumber="67">Holotype</typeStatus>
+</emphasis>
+(ex 
+<emphasis id="5CF1EAF8DC3BCD1AFE208372529FFEFC" box="[401,762,312,337]" italics="true" pageId="66" pageNumber="67">Hypsipetes everetti samarensis</emphasis>
+) 
+<collectingCountry id="1692767ADC3BCD1AFF0C8310510FFED9" box="[189,362,346,372]" name="Philippines" pageId="66" pageNumber="67">PHILIPPINES</collectingCountry>
+• 
+<specimenCount id="7883FD63DC3BCD1AFE3F831151C2FED8" box="[398,423,347,373]" pageId="66" pageNumber="67" type="male">♂</specimenCount>
+; 
+<collectingRegion id="AC41F808DC3BCD1AFE0883115199FED8" box="[441,508,347,373]" country="Philippines" name="Southern Leyte" pageId="66" pageNumber="67">Leyte</collectingRegion>
+<collectingCounty id="875B4E66DC3BCD1AFDB883105231FED9" box="[521,596,346,372]" pageId="66" pageNumber="67">Island</collectingCounty>
+, 
+<collectingMunicipality id="8E5EAC90DC3BCD1AFDD4831052B8FED9" box="[613,733,346,372]" pageId="66" pageNumber="67">Mahaplag</collectingMunicipality>
+, 
+<location id="6B5A6031DC3BCD1AFD5F83115388FED9" LSID="urn:lsid:plazi:treatment:E62C87FCDC44CD19FDF684115104FBB0:6B5A6031DC3BCD1AFD5F83115388FED9" box="[750,1005,346,373]" country="Philippines" county="Island" municipality="Mahaplag" name="Mount Kabalanti-am" pageId="66" pageNumber="67" stateProvince="Leyte">Mount Kabalanti-am</location>
+, 
+<location id="6B5A6031DC3BCD1AFC4F831054EAFED9" LSID="urn:lsid:plazi:treatment:E62C87FCDC44CD19FDF684115104FBB0:6B5A6031DC3BCD1AFC4F831054EAFED9" box="[1022,1167,346,372]" country="Philippines" county="Island" municipality="Mahaplag" name="Bulog Peak" pageId="66" pageNumber="67" stateProvince="Leyte">Bulog Peak</location>
+; 
+<date id="1A3B102ADC3BCD1AFB1183105555FED9" box="[1184,1328,346,372]" pageId="66" pageNumber="67" value="1964-07-01">
+<collectingDate id="0A7FE9C2DC3BCD1AFB1183105555FED9" box="[1184,1328,346,372]" pageId="66" pageNumber="67" value="1964-07-01">1 Jul. 1964</collectingDate>
+</date>
+; 
+<collectorName id="C370533CDC3BCD1AFAF383105160FE3A" pageId="66" pageNumber="67">D.S. Rabor</collectorName>
+leg.; 
+<specimenCode id="3E239E91DC3BCD1AFEF6833751C7FE35" box="[327,418,381,408]" pageId="66" pageNumber="67">B-3553</specimenCode>
+; 
+<collectionCode id="0894AE2FDC3BCD1AFE1F83345266FE35" box="[430,515,382,408]" collectionName="USA, Hawaii, Honolulu, Bernice P. Bishop Museum" country="USA" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34697" lsid="urn:lsid:biocol.org:col:34697" name="Bishop Museum" pageId="66" pageNumber="67" type="Museum">BPBM</collectionCode>
+.
+</materialsCitation>
+</paragraph>
+<paragraph id="6E3A36EADC3BCD1AFF5B83F55423FDEE" blockId="66.[189,1399,447,579]" pageId="66" pageNumber="67">
+<materialsCitation id="DEED3CB7DC3BCD1AFF5B83F553A1FE50" ID-GBIF-Occurrence="3756363384" collectingDate="1964-07-01" collectionCode="BPBM" collectorName="D. S. Rabor" country="Philippines" county="Island" location="PHILIPPINES" municipality="Mahaplag" pageId="66" pageNumber="67" specimenCount="1" specimenCount-male="1" stateProvince="Southern Leyte" typeStatus="paratype">
+<emphasis id="5CF1EAF8DC3BCD1AFF5B83F55102FE74" bold="true" box="[234,359,447,473]" pageId="66" pageNumber="67">
+<typeStatus id="B13E8848DC3BCD1AFF5B83F55102FE74" box="[234,359,447,473]" pageId="66" pageNumber="67">Paratypes</typeStatus>
+</emphasis>
+<collectingCountry id="1692767ADC3BCD1AFF0C83A8510FFE51" box="[189,362,482,508]" name="Philippines" pageId="66" pageNumber="67">PHILIPPINES</collectingCountry>
+• 
+<specimenCount id="7883FD63DC3BCD1AFE3383A851D4FE50" box="[386,433,482,509]" pageId="66" pageNumber="67" type="male">1 ♂</specimenCount>
+; same collection data as for holotype; 
+<collectionCode id="0894AE2FDC3BCD1AFCC383A953A1FE50" box="[882,964,483,509]" collectionName="USA, Hawaii, Honolulu, Bernice P. Bishop Museum" country="USA" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34697" lsid="urn:lsid:biocol.org:col:34697" name="Bishop Museum" pageId="66" pageNumber="67" type="Museum">BPBM</collectionCode>
+</materialsCitation>
+• 
+<materialsCitation id="DEED3CB7DC3BCD1AFC6D83A853F3FD8D" ID-GBIF-Occurrence="3756363321" collectingDate="1964-06-24" collectionCode="BPBM" collectorName="D. S. Rabor" country="Philippines" county="Island" location="Mount Kabalanti-am" municipality="Mahaplag" pageId="66" pageNumber="67" specimenCode="BBM-2757" specimenCount="4" specimenCount-female="3" specimenCount-male="1" stateProvince="Southern Leyte" typeStatus="paratype">
+<specimenCount id="7883FD63DC3BCD1AFC6D83A8546FFE50" box="[988,1034,482,509]" pageId="66" pageNumber="67" type="male">1 ♂</specimenCount>
+, 
+<specimenCount id="7883FD63DC3BCD1AFBA683A8543FFE50" box="[1047,1114,482,509]" pageId="66" pageNumber="67" type="female">3 ♀♀</specimenCount>
+; same locality, collector and host as for holotype; 
+<date id="1A3B102ADC3BCD1AFE48804F52FEFDB2" box="[505,667,517,544]" pageId="66" pageNumber="67" value="1964-06-24">
+<collectingDate id="0A7FE9C2DC3BCD1AFE48804F52FEFDB2" box="[505,667,517,544]" pageId="66" pageNumber="67" value="1964-06-24">24 Jun. 1964</collectingDate>
+</date>
+; 
+<specimenCode id="3E239E91DC3BCD1AFD1A804F5351FD8D" box="[683,820,517,544]" pageId="66" pageNumber="67">BBM-2757</specimenCode>
+; 
+<collectionCode id="0894AE2FDC3BCD1AFCF5804C53F3FD8D" box="[836,918,518,544]" collectionName="USA, Hawaii, Honolulu, Bernice P. Bishop Museum" country="USA" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34697" lsid="urn:lsid:biocol.org:col:34697" name="Bishop Museum" pageId="66" pageNumber="67" type="Museum">BPBM</collectionCode>
+</materialsCitation>
+• 
+<materialsCitation id="DEED3CB7DC3BCD1AFC07804F5424FDEE" ID-GBIF-Occurrence="3756363360" collectingDate="1964-06-21" collectionCode="BPBM" collectorName="N. Wilson" country="Philippines" county="Island" location="Mount Kabalanti-am" municipality="Mahaplag" pageId="66" pageNumber="67" specimenCode="BBM-2558" specimenCount="1" specimenCount-female="1" stateProvince="Leyte" typeStatus="paratype">
+<specimenCount id="7883FD63DC3BCD1AFC07804F5383FD8D" box="[950,998,517,544]" pageId="66" pageNumber="67" type="female">1 ♀</specimenCount>
+; 
+<collectingRegion id="AC41F808DC3BCD1AFC49804C545EFD8D" box="[1016,1083,518,544]" country="Philippines" name="Southern Leyte" pageId="66" pageNumber="67">Leyte</collectingRegion>
+<collectingCounty id="875B4E66DC3BCD1AFBF7804F54F4FDB2" box="[1094,1169,517,543]" pageId="66" pageNumber="67">Island</collectingCounty>
+, 
+<collectingMunicipality id="8E5EAC90DC3BCD1AFB11804F557DFDB2" box="[1184,1304,517,543]" pageId="66" pageNumber="67">Mahaplag</collectingMunicipality>
+, 
+<location id="6B5A6031DC3BCD1AFA99804C5105FDEF" LSID="urn:lsid:plazi:treatment:E62C87FCDC44CD19FDF684115104FBB0:6B5A6031DC3BCD1AFA99804C5105FDEF" country="Philippines" county="Island" municipality="Mahaplag" name="Mount Kabalanti-am" pageId="66" pageNumber="67" stateProvince="Leyte">Mount Kabalanti-am</location>
+, 
+<location id="6B5A6031DC3BCD1AFEDA80625189FDEF" LSID="urn:lsid:plazi:treatment:E62C87FCDC44CD19FDF684115104FBB0:6B5A6031DC3BCD1AFEDA80625189FDEF" box="[363,492,552,578]" country="Philippines" county="Island" municipality="Mahaplag" name="Paniniklan" pageId="66" pageNumber="67" stateProvince="Leyte">Paniniklan</location>
+; 
+<date id="1A3B102ADC3BCD1AFE49806352F7FDEF" box="[504,658,552,579]" pageId="66" pageNumber="67" value="1964-06-21">
+<collectingDate id="0A7FE9C2DC3BCD1AFE49806352F7FDEF" box="[504,658,552,579]" pageId="66" pageNumber="67" value="1964-06-21">21 Jun. 1964</collectingDate>
+</date>
+; 
+<collectorName id="C370533CDC3BCD1AFD2E80635373FDEF" box="[671,790,552,579]" pageId="66" pageNumber="67">N. Wilson</collectorName>
+leg,; 
+<specimenCode id="3E239E91DC3BCD1AFCE680625384FDEE" box="[855,993,552,579]" pageId="66" pageNumber="67">BBM-2558</specimenCode>
+; 
+<collectionCode id="0894AE2FDC3BCD1AFC5D80635424FDEE" box="[1004,1089,553,579]" collectionName="USA, Hawaii, Honolulu, Bernice P. Bishop Museum" country="USA" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34697" lsid="urn:lsid:biocol.org:col:34697" name="Bishop Museum" pageId="66" pageNumber="67" type="Museum">BPBM</collectionCode>
+</materialsCitation>
+.
+</paragraph>
+<paragraph id="6E3A36EADC3BCD1AFF0C80205153FD29" blockId="66.[189,310,618,644]" box="[189,310,618,644]" pageId="66" pageNumber="67">
+<heading id="35728186DC3BCD1AFF0C80205153FD29" bold="true" box="[189,310,618,644]" fontSize="11" level="3" pageId="66" pageNumber="67" reason="3">
+<emphasis id="5CF1EAF8DC3BCD1AFF0C80205153FD29" bold="true" box="[189,310,618,644]" pageId="66" pageNumber="67">Type host</emphasis>
+</heading>
+</paragraph>
+<paragraph id="6E3A36EADC3BCD1AFF0C80D3546FFD1F" blockId="66.[189,1034,664,691]" box="[189,1034,664,691]" pageId="66" pageNumber="67">
+<emphasis id="5CF1EAF8DC3BCD1AFF0C80D35243FD1F" box="[189,550,665,690]" italics="true" pageId="66" pageNumber="67">Hypsipetes everetti samarensis</emphasis>
+<bibRefCitation id="0A144B1BDC3BCD1AFD9C80D25344FD1E" author="Rand A. L. &amp; Rabor D. S." box="[557,801,664,691]" pageId="66" pageNumber="67" pagination="275 - 277" refId="ref36865" refString="Rand A. L. &amp; Rabor D. S. 1959. Three new birds from the Philippine Islands. Fieldiana Zoology 39: 275 - 277." type="journal article" year="1959">Rand &amp; Rabor, 1959</bibRefCitation>
+– yellowish bulbul.
+</paragraph>
+</subSubSection>
+<caption id="3AFA6662DC3BCD1AFF0C85EC52B8F84E" ID-DOI="http://doi.org/10.5281/zenodo.6358772" ID-Zenodo-Dep="6358772" httpUri="https://zenodo.org/record/6358772/files/figure.png" pageId="66" pageNumber="67" startId="66.[189,241,1958,1984]" targetBox="[343,1247,864,1912]" targetPageId="66">
+<paragraph id="6E3A36EADC3BCD1AFF0C85EC52B8F84E" blockId="66.[189,1399,1958,2020]" pageId="66" pageNumber="67">
+<emphasis id="5CF1EAF8DC3BCD1AFF0C85EC510DF86D" bold="true" box="[189,360,1958,1984]" pageId="66" pageNumber="67">Figs 118–119.</emphasis>
+<taxonomicName id="A9854D69DC3BCD1AFEC485EC52BDF86D" authority="Gustafsson &amp; Najer &amp; Zou &amp; Bush, 2022" authorityName="Gustafsson &amp; Najer &amp; Zou &amp; Bush" authorityYear="2022" box="[373,728,1958,1984]" class="Aves" family="Pycnonotidae" genus="Philopteroides" kingdom="Animalia" order="Passeriformes" pageId="66" pageNumber="67" phylum="Chordata" rank="species" species="longiclypeatus" status="sp. nov.">
+<emphasis id="5CF1EAF8DC3BCD1AFEC485EC52BDF86D" box="[373,728,1958,1984]" italics="true" pageId="66" pageNumber="67">Philopteroides longiclypeatus</emphasis>
+</taxonomicName>
+<taxonomicNameLabel id="47C25783DC3BCD1AFD5485ED5320F86C" box="[741,837,1959,1985]" pageId="66" pageNumber="67" rank="species">sp. nov.</taxonomicNameLabel>
+<emphasis id="5CF1EAF8DC3BCD1AFCE085EC531EF86D" bold="true" box="[849,891,1958,1984]" pageId="66" pageNumber="67">118</emphasis>
+. Male habitus, dorsal and ventral views. 
+<emphasis id="5CF1EAF8DC3BCD1AFF0C85835082F84E" bold="true" box="[189,231,1993,2019]" pageId="66" pageNumber="67">119</emphasis>
+. Female habitus, dorsal and ventral views.
+</paragraph>
+</caption>
+<subSubSection id="269F6561DC3ACD1CFF0C83425551FC58" lastPageId="68" lastPageNumber="69" pageId="67" pageNumber="68" type="description">
+<paragraph id="6E3A36EADC3ACD1BFF0C8342512BFE8F" blockId="67.[189,334,264,290]" box="[189,334,264,290]" pageId="67" pageNumber="68">
+<heading id="35728186DC3ACD1BFF0C8342512BFE8F" bold="true" box="[189,334,264,290]" fontSize="11" level="3" pageId="67" pageNumber="68" reason="3">
+<emphasis id="5CF1EAF8DC3ACD1BFF0C8342512BFE8F" bold="true" box="[189,334,264,290]" pageId="67" pageNumber="68">Description</emphasis>
+</heading>
+</paragraph>
+<paragraph id="6E3A36EADC3ACD1BFF5B837D510BFEFC" blockId="67.[186,1400,311,549]" box="[234,366,311,337]" pageId="67" pageNumber="68">
+<emphasis id="5CF1EAF8DC3ACD1BFF5B837D510BFEFC" bold="true" box="[234,366,311,337]" pageId="67" pageNumber="68">Both sexes</emphasis>
+</paragraph>
+<paragraph id="6E3A36EADC3ACD1CFF0C83105473FEE5" blockId="67.[186,1400,311,549]" lastBlockId="68.[189,1398,265,328]" lastPageId="68" lastPageNumber="69" pageId="67" pageNumber="68">
+Head shape as in 
+<figureCitation id="F6BE2A6FDC3ACD1BFE3383105181FED9" box="[386,484,346,372]" captionStart="Figs 120–123" captionStartId="67.[191,243,1926,1952]" captionTargetBox="[359,1225,640,1871]" captionTargetId="figure-125@67.[355,1232,636,1882]" captionTargetPageId="67" captionText="Figs 120–123. Philopteroides longiclypeatus sp. nov. 120. Male head, dorsal and ventral views. 121. Male genitalia, dorsal view. 122. Male genitalia, ventral view. 123. Female subgenital plate and vulval margin, ventral view." figureDoi="http://doi.org/10.5281/zenodo.6358776" httpUri="https://zenodo.org/record/6358776/files/figure.png" pageId="67" pageNumber="68">Fig. 120</figureCitation>
+, anterior end narrow and elongated, lateral margins of preantennal head slightly concave, frons deeply concave, with central sclerotization medianly continuous. Dorsal anterior plate with moderately concave anterior margin, convex lateral margins in anterior end, and slender posterior elongation that does not reach beyond mandibles. Ventral anterior plate elongated triangular, with concave anterior margin. Lobes of ventral carinae roughly rectangular. Head chaetotaxy as in 
+<figureCitation id="F6BE2A6FDC3ACD1BFB2D83AD5565FDAC" box="[1180,1280,487,513]" captionStart="Figs 120–123" captionStartId="67.[191,243,1926,1952]" captionTargetBox="[359,1225,640,1871]" captionTargetId="figure-125@67.[355,1232,636,1882]" captionTargetPageId="67" captionText="Figs 120–123. Philopteroides longiclypeatus sp. nov. 120. Male head, dorsal and ventral views. 121. Male genitalia, dorsal view. 122. Male genitalia, ventral view. 123. Female subgenital plate and vulval margin, ventral view." figureDoi="http://doi.org/10.5281/zenodo.6358776" httpUri="https://zenodo.org/record/6358776/files/figure.png" pageId="67" pageNumber="68">Fig. 120</figureCitation>
+. Thoracic and abdominal segments as in 
+<figureCitation id="F6BE2A6FDC3ACD1BFD81804052B1FD89" box="[560,724,522,548]" captionStart="Figs 118–119" captionStartId="66.[189,241,1958,1984]" captionTargetBox="[343,1247,864,1912]" captionTargetId="figure-107@66.[340,1247,857,1920]" captionTargetPageId="66" captionText="Figs 118–119. Philopteroides longiclypeatus sp. nov. 118. Male habitus, dorsal and ventral views. 119. Female habitus, dorsal and ventral views." figureDoi="http://doi.org/10.5281/zenodo.6358772" httpUri="https://zenodo.org/record/6358772/files/figure.png" pageId="67" pageNumber="68">Figs 118–119</figureCitation>
+. Tergopleurites III–VIII with small translucent fenestrae around spiracular openings; plates barely reaching ventral surface. Base pigmentation moderate yellow, only mandibles and parts of preantennal nodi and marginal carina darker.
+</paragraph>
+<caption id="3AFA6662DC3ACD1BFF0E85CC526CF84A" ID-DOI="http://doi.org/10.5281/zenodo.6358776" ID-Zenodo-Dep="6358776" httpUri="https://zenodo.org/record/6358776/files/figure.png" pageId="67" pageNumber="68" startId="67.[191,243,1926,1952]" targetBox="[359,1225,640,1871]" targetPageId="67">
+<paragraph id="6E3A36EADC3ACD1BFF0E85CC526CF84A" blockId="67.[189,1399,1926,2023]" pageId="67" pageNumber="68">
+<emphasis id="5CF1EAF8DC3ACD1BFF0E85CC5108F80D" bold="true" box="[191,365,1926,1952]" pageId="67" pageNumber="68">Figs 120–123.</emphasis>
+<taxonomicName id="A9854D69DC3ACD1BFECD85CC5287F80D" authority="Gustafsson &amp; Najer &amp; Zou &amp; Bush, 2022" authorityName="Gustafsson &amp; Najer &amp; Zou &amp; Bush" authorityYear="2022" box="[380,738,1926,1952]" class="Aves" family="Pycnonotidae" genus="Philopteroides" kingdom="Animalia" order="Passeriformes" pageId="67" pageNumber="68" phylum="Chordata" rank="species" species="longiclypeatus" status="sp. nov.">
+<emphasis id="5CF1EAF8DC3ACD1BFECD85CC5287F80D" box="[380,738,1926,1952]" italics="true" pageId="67" pageNumber="68">Philopteroides longiclypeatus</emphasis>
+</taxonomicName>
+<taxonomicNameLabel id="47C25783DC3ACD1BFD4085CD5336F80C" box="[753,851,1927,1953]" pageId="67" pageNumber="68" rank="species">sp. nov.</taxonomicNameLabel>
+<emphasis id="5CF1EAF8DC3ACD1BFCD085CC53E8F80D" bold="true" box="[865,909,1926,1952]" pageId="67" pageNumber="68">120</emphasis>
+. Male head, dorsal and ventral views. 
+<emphasis id="5CF1EAF8DC3ACD1BFF0C85E3508CF86E" bold="true" box="[189,233,1961,1987]" pageId="67" pageNumber="68">121</emphasis>
+. Male genitalia, dorsal view. 
+<emphasis id="5CF1EAF8DC3ACD1BFDE085E3521EF86E" bold="true" box="[593,635,1961,1987]" pageId="67" pageNumber="68">122</emphasis>
+. Male genitalia, ventral view. 
+<emphasis id="5CF1EAF8DC3ACD1BFC5C85E35472F86E" bold="true" box="[1005,1047,1961,1987]" pageId="67" pageNumber="68">123</emphasis>
+. Female subgenital plate and vulval margin, ventral view.
+</paragraph>
+</caption>
+<paragraph id="6E3A36EADC3DCD1CFF5B833B514FFE26" blockId="68.[186,1399,369,689]" box="[234,298,369,395]" pageId="68" pageNumber="69">
+<emphasis id="5CF1EAF8DC3DCD1CFF5B833B514FFE26" bold="true" box="[234,298,369,395]" pageId="68" pageNumber="69">Male</emphasis>
+</paragraph>
+<paragraph id="6E3A36EADC3DCD1CFF0C83DF5369FD1C" blockId="68.[186,1399,369,689]" pageId="68" pageNumber="69">
+Thoracic and abdominal chaetotaxy as in 
+<figureCitation id="F6BE2A6FDC3DCD1CFD0883DF5345FE1D" box="[697,800,405,432]" captionStart="Figs 118–119" captionStartId="66.[189,241,1958,1984]" captionTargetBox="[343,1247,864,1912]" captionTargetId="figure-107@66.[340,1247,857,1920]" captionTargetPageId="66" captionText="Figs 118–119. Philopteroides longiclypeatus sp. nov. 118. Male habitus, dorsal and ventral views. 119. Female habitus, dorsal and ventral views." figureDoi="http://doi.org/10.5281/zenodo.6358772" httpUri="https://zenodo.org/record/6358772/files/figure.png" pageId="68" pageNumber="69">Fig. 118</figureCitation>
+. Metanotum with 6–7 setae on each side. Sternal plate II very small, divided medianly; sternal plate III with lateral accessory plate on each side; sternal plates IV–VI wide, without accessory plates. Subgenital plate large, with small, irregular lateral accessory plate on segment IX+X. Basal apodeme long, slender (
+<figureCitation id="F6BE2A6FDC3DCD1CFCF9804E53D7FDB3" box="[840,946,516,542]" captionStart="Figs 120–123" captionStartId="67.[191,243,1926,1952]" captionTargetBox="[359,1225,640,1871]" captionTargetId="figure-125@67.[355,1232,636,1882]" captionTargetPageId="67" captionText="Figs 120–123. Philopteroides longiclypeatus sp. nov. 120. Male head, dorsal and ventral views. 121. Male genitalia, dorsal view. 122. Male genitalia, ventral view. 123. Female subgenital plate and vulval margin, ventral view." figureDoi="http://doi.org/10.5281/zenodo.6358776" httpUri="https://zenodo.org/record/6358776/files/figure.png" pageId="68" pageNumber="69">Fig. 121</figureCitation>
+), widening distally. Dorsal thickening of mesosome diffuse but broad, roughly triangular (
+<figureCitation id="F6BE2A6FDC3DCD1CFC83806253F9FDEE" box="[818,924,552,579]" captionStart="Figs 120–123" captionStartId="67.[191,243,1926,1952]" captionTargetBox="[359,1225,640,1871]" captionTargetId="figure-125@67.[355,1232,636,1882]" captionTargetPageId="67" captionText="Figs 120–123. Philopteroides longiclypeatus sp. nov. 120. Male head, dorsal and ventral views. 121. Male genitalia, dorsal view. 122. Male genitalia, ventral view. 123. Female subgenital plate and vulval margin, ventral view." figureDoi="http://doi.org/10.5281/zenodo.6358776" httpUri="https://zenodo.org/record/6358776/files/figure.png" pageId="68" pageNumber="69">Fig. 121</figureCitation>
+). Gonopore wide, anterior margin with blunt median point (
+<figureCitation id="F6BE2A6FDC3DCD1CFE1E80075273FDCA" box="[431,534,589,615]" captionStart="Figs 120–123" captionStartId="67.[191,243,1926,1952]" captionTargetBox="[359,1225,640,1871]" captionTargetId="figure-125@67.[355,1232,636,1882]" captionTargetPageId="67" captionText="Figs 120–123. Philopteroides longiclypeatus sp. nov. 120. Male head, dorsal and ventral views. 121. Male genitalia, dorsal view. 122. Male genitalia, ventral view. 123. Female subgenital plate and vulval margin, ventral view." figureDoi="http://doi.org/10.5281/zenodo.6358776" httpUri="https://zenodo.org/record/6358776/files/figure.png" pageId="68" pageNumber="69">Fig. 122</figureCitation>
+), distally with bilobed median processes on each side. Parameres simple (
+<figureCitation id="F6BE2A6FDC3DCD1CFF7680385149FD21" box="[199,300,626,652]" captionStart="Figs 120–123" captionStartId="67.[191,243,1926,1952]" captionTargetBox="[359,1225,640,1871]" captionTargetId="figure-125@67.[355,1232,636,1882]" captionTargetPageId="67" captionText="Figs 120–123. Philopteroides longiclypeatus sp. nov. 120. Male head, dorsal and ventral views. 121. Male genitalia, dorsal view. 122. Male genitalia, ventral view. 123. Female subgenital plate and vulval margin, ventral view." figureDoi="http://doi.org/10.5281/zenodo.6358776" httpUri="https://zenodo.org/record/6358776/files/figure.png" pageId="68" pageNumber="69">Fig. 121</figureCitation>
+); 2 sensilla on lateral margin of basal paramere, and 2 sensilla on lateral margin in distal half of each paramere. Measurements as in 
+<tableCitation id="23070351DC3DCD1CFD3780DD536DFD1C" box="[646,776,663,689]" captionStart-0="Table 1" captionStart-1="Table 2" captionStartId-0="9.[185,254,545,573]" captionStartId-1="62.[185,254,597,625]" captionTargetPageId-0="9" captionTargetPageId-1="62" captionText-0="Table 1 (continued on next two pages). Measurements of the species described here. Means (in brackets) only included for samples sizes&gt;10. Abbreviations: AW = abdominal width; HL = head length; HW = head width; N = number; PRW = prothoracic width; PTW = pterothoracic width; TL = total length. Genus abbreviations: Br. = Brueelia; Gu. = Guimaraesiella; Po. = Philopteroides. For additional measurements for the species of Philopteroides Mey, 2004, see Table 2." captionText-1="Table 2. Additional measurements for the species of Philopteroides Mey, 2004 described here. Abbreviations: ADPL = anterior dorsal plate length; ADPW = anterior dorsal plate width; ANW = anterior notch width; GW = genital width (male); N = number; PAL = preantennal head length; PAW = preantennal head width; POL = post-antennal head length; SGPW = subgenital plate width; TRL = trabeculum length; TRW = trabeculum width." httpUri-0="http://table.plazi.org/id/3AFA6662DC70CD51FF08806B52E7FD0B" httpUri-1="http://table.plazi.org/id/3AFA6662DC47CD66FF08801F5163FD76" pageId="68" pageNumber="69" tableUuid-0="3AFA6662DC70CD51FF08806B52E7FD0B" tableUuid-1="3AFA6662DC47CD66FF08801F5163FD76">Tables 1–2</tableCitation>
+.
+</paragraph>
+<paragraph id="6E3A36EADC3DCD1CFF5B80905120FD59" blockId="68.[189,1400,730,1013]" box="[234,325,730,756]" pageId="68" pageNumber="69">
+<emphasis id="5CF1EAF8DC3DCD1CFF5B80905120FD59" bold="true" box="[234,325,730,756]" pageId="68" pageNumber="69">Female</emphasis>
+</paragraph>
+<paragraph id="6E3A36EADC3DCD1CFF0C80B45551FC58" blockId="68.[189,1400,730,1013]" pageId="68" pageNumber="69">
+Thoracic and abdominal chaetotaxy as in 
+<figureCitation id="F6BE2A6FDC3DCD1CFD0880B45345FCB5" box="[697,800,766,792]" captionStart="Figs 118–119" captionStartId="66.[189,241,1958,1984]" captionTargetBox="[343,1247,864,1912]" captionTargetId="figure-107@66.[340,1247,857,1920]" captionTargetPageId="66" captionText="Figs 118–119. Philopteroides longiclypeatus sp. nov. 118. Male habitus, dorsal and ventral views. 119. Female habitus, dorsal and ventral views." figureDoi="http://doi.org/10.5281/zenodo.6358772" httpUri="https://zenodo.org/record/6358772/files/figure.png" pageId="68" pageNumber="69">Fig. 119</figureCitation>
+. Metanotum with 6–7 setae on each side. Sternal plate II small, divided medianly; sternal plates III–VI small, in some specimens with median part much narrowed, each with small accessory plate on each side, in more posterior segments often oblong. Subgenital plate as in 
+<figureCitation id="F6BE2A6FDC3DCD1CFE6B81275220FC2A" box="[474,581,877,903]" captionStart="Figs 120–123" captionStartId="67.[191,243,1926,1952]" captionTargetBox="[359,1225,640,1871]" captionTargetId="figure-125@67.[355,1232,636,1882]" captionTargetPageId="67" captionText="Figs 120–123. Philopteroides longiclypeatus sp. nov. 120. Male head, dorsal and ventral views. 121. Male genitalia, dorsal view. 122. Male genitalia, ventral view. 123. Female subgenital plate and vulval margin, ventral view." figureDoi="http://doi.org/10.5281/zenodo.6358776" httpUri="https://zenodo.org/record/6358776/files/figure.png" pageId="68" pageNumber="69">Fig. 123</figureCitation>
+, lateral sections with slender posterior extensions, detached from subgenital plate in some specimens; median section with wide, often angular, posterior bulge. Surface between subgenital plate and vulval margin densely reticulated. Vulval margin slightly concave, with 4 long and 3 short setae on each side. Subvulval plates small, oval. Measurements as in 
+<tableCitation id="23070351DC3DCD1CFB1C81915555FC58" box="[1197,1328,987,1013]" captionStart-0="Table 1" captionStart-1="Table 2" captionStartId-0="9.[185,254,545,573]" captionStartId-1="62.[185,254,597,625]" captionTargetPageId-0="9" captionTargetPageId-1="62" captionText-0="Table 1 (continued on next two pages). Measurements of the species described here. Means (in brackets) only included for samples sizes&gt;10. Abbreviations: AW = abdominal width; HL = head length; HW = head width; N = number; PRW = prothoracic width; PTW = pterothoracic width; TL = total length. Genus abbreviations: Br. = Brueelia; Gu. = Guimaraesiella; Po. = Philopteroides. For additional measurements for the species of Philopteroides Mey, 2004, see Table 2." captionText-1="Table 2. Additional measurements for the species of Philopteroides Mey, 2004 described here. Abbreviations: ADPL = anterior dorsal plate length; ADPW = anterior dorsal plate width; ANW = anterior notch width; GW = genital width (male); N = number; PAL = preantennal head length; PAW = preantennal head width; POL = post-antennal head length; SGPW = subgenital plate width; TRL = trabeculum length; TRW = trabeculum width." httpUri-0="http://table.plazi.org/id/3AFA6662DC70CD51FF08806B52E7FD0B" httpUri-1="http://table.plazi.org/id/3AFA6662DC47CD66FF08801F5163FD76" pageId="68" pageNumber="69" tableUuid-0="3AFA6662DC70CD51FF08806B52E7FD0B" tableUuid-1="3AFA6662DC47CD66FF08801F5163FD76">Tables 1–2</tableCitation>
+.
+</paragraph>
+</subSubSection>
+<subSubSection id="269F6561DC3DCD1CFF0C8654550EFB56" pageId="68" pageNumber="69" type="discussion">
+<paragraph id="6E3A36EADC3DCD1CFF0C8654514AFB95" blockId="68.[189,303,1054,1080]" box="[189,303,1054,1080]" pageId="68" pageNumber="69">
+<heading id="35728186DC3DCD1CFF0C8654514AFB95" bold="true" box="[189,303,1054,1080]" fontSize="11" level="3" pageId="68" pageNumber="69" reason="3">
+<emphasis id="5CF1EAF8DC3DCD1CFF0C8654514AFB95" bold="true" box="[189,303,1054,1080]" pageId="68" pageNumber="69">Remarks</emphasis>
+</heading>
+</paragraph>
+<paragraph id="6E3A36EADC3DCD1CFF0C8604550EFB56" blockId="68.[187,1401,1102,1275]" pageId="68" pageNumber="69">
+Abdominal size is variable among female specimens examined. We have illustrated a female with a proportionately small abdomen, but note that other specimens have proportionately larger abdomens, similar to those of other species treated here. Structurally, there are no differences between the abdomens of these females, and we do not consider these differences meaningful. We illustrate the smaller-bodied specimens here to highlight the possible variation in body shapes among specimens of 
+<taxonomicName id="A9854D69DC3DCD1CFB0986AB5501FB56" authorityName="Mey" authorityYear="2004" box="[1208,1380,1249,1275]" class="Aves" family="Pycnonotidae" genus="Philopteroides" kingdom="Animalia" order="Passeriformes" pageId="68" pageNumber="69" phylum="Chordata" rank="genus">
+<emphasis id="5CF1EAF8DC3DCD1CFB0986AB5501FB56" box="[1208,1380,1249,1275]" italics="true" pageId="68" pageNumber="69">Philopteroides</emphasis>
+</taxonomicName>
+.
+</paragraph>
+</subSubSection>
+</treatment>
+</subSubSection>
+</treatment>
+</document>
