@@ -1,0 +1,941 @@
+<document ID-DOI="http://dx.doi.org/10.3897/jhr.86.72281" ID-GBIF-Dataset="97439079-3aea-46cc-b46f-2772194b98da" ID-GBIF-Taxon="189635631" ID-Pensoft-Pub="1314-2607-86-123" ID-Pensoft-UUID="B7B416D84AB55732B981DAE9DEF393FA" ID-ZooBank="0CCED1F302204B66AF5572A60C54E859" LSID="urn:lsid:zoobank.org:act:8C5BDFA5-7F51-4218-B83F-6C6A81022948" ModsDocID="1314-2607-86-123" checkinTime="1635566785266" checkinUser="pensoft" docAuthor="Wang, Xu, Chen, Huayan, Miko, Istvan, Huang, Yixin &amp; Zhu, Chaodong" docDate="2021" docId="43C332E33291592C80F53182BE31C636" docLanguage="en" docName="JourHymenoptRes 86: 123-143" docOrigin="Journal of Hymenoptera Research 86" docPubDate="2021-10-29" docSource="http://dx.doi.org/10.3897/jhr.86.72281" docTitle="Dendrocerus anisodontus Wang, Chen &amp; Miko 2021, sp. nov." docType="treatment" docUuid="8C5BDFA5-7F51-4218-B83F-6C6A81022948" docUuidSource="ZooBank" docVersion="3" id="B7B416D84AB55732B981DAE9DEF393FA" lastPageNumber="123" masterDocId="B7B416D84AB55732B981DAE9DEF393FA" masterDocTitle="Notes on the genus Dendrocerus Ratzeburg (Hymenoptera, Megaspilidae) from China, with description of two new species" masterLastPageNumber="143" masterPageNumber="123" pageId="0" pageNumber="123" updateTime="1635572522427" updateUser="ExternalLinkService">
+<mods:mods id="0D709E7E639F1F9E4627FB7A6AA26A0F" xmlns:mods="http://www.loc.gov/mods/v3">
+<mods:titleInfo id="DDBCAC9FF9EA1DABCB6896B4D8F16EC1">
+<mods:title id="2BB0041475FDBCB276F9218FE945575C">Notes on the genus Dendrocerus Ratzeburg (Hymenoptera, Megaspilidae) from China, with description of two new species</mods:title>
+</mods:titleInfo>
+<mods:name id="469858CEAD16862E0787FF186971674B" type="personal">
+<mods:role id="17E000080612EF48A4238EAA99A6B5B7">
+<mods:roleTerm id="33FF5AF46C7845A838BED79608EEAECC">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="BC1B3136D82C099B9DB7CAB50CA75FF5">Wang, Xu</mods:namePart>
+<mods:affiliation id="2EB0E21CD9A0C8A54A02E600687AAFBA">Anhui Provincial Key Laboratory of the Conservation and Exploitation of Biological Resources, Key Laboratory of Biotic Environment and Ecological Safety in Anhui Province, College of Life Sciences, Anhui Normal University, Wuhu, Anhui 241000, China &amp; Key Laboratory of Zoological Systematics and Evolution, Institute of Zoology, Chinese Academy of Sciences, Beijing 100000, China</mods:affiliation>
+<mods:nameIdentifier id="3A6E815F3D5421A99D7D05303344E7DC" type="email">wangxu0322@ahnu.edu.cn</mods:nameIdentifier>
+</mods:name>
+<mods:name id="D0A7F8AB951C58A1B3AB4AE1CB4F73B2" type="personal">
+<mods:role id="0E5241A798EAB15C1107DE615249D917">
+<mods:roleTerm id="589DEDFE4146A0A0EAEE5BFC1E6963BD">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="77A800BF66CCB581E194DDB7BF846D96">Chen, Huayan</mods:namePart>
+<mods:affiliation id="6789540FF7043A52BBD4FC8DAA6F5FC1">State Key Laboratory of Biocontrol, School of Life Sciences / School of Ecology, Sun Yat-sen University, Guangzhou 510275, China</mods:affiliation>
+</mods:name>
+<mods:name id="52523854E1F3F66F19AFC4FFE97F1BC5" type="personal">
+<mods:role id="79E480FA717A4A8CD28AA1FADA8D360C">
+<mods:roleTerm id="385347E413D40F830647D9D7C45A14EE">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="BCA6271DB91DC98234DE9DF9EF5BBBB7">Miko, Istvan</mods:namePart>
+<mods:nameIdentifier id="0E8EB31817C10EDD073383ED35EFFAE6" type="ORCID">https://orcid.org/0000-0001-9719-0215</mods:nameIdentifier>
+<mods:affiliation id="56CA03C9CD1EC12C8B19516E38A9D951">Don Chandler Entomological Collection, Department of Biological Sciences, University of New Hampshire, Spaulding Hall, Durham, NH 03824, USA</mods:affiliation>
+</mods:name>
+<mods:name id="BFBAA2E3971CC5D9A5A7667235B2EC7C" type="personal">
+<mods:role id="DD6F320BFED947A582A6A575870DF5D6">
+<mods:roleTerm id="F195042806E3394BBE397756CD7D3540">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="BC8893E7B396969A833DF159EBD3CF04">Huang, Yixin</mods:namePart>
+<mods:nameIdentifier id="2012537D129286CAD796B0CEC938468D" type="ORCID">https://orcid.org/0000-0002-7885-321X</mods:nameIdentifier>
+<mods:affiliation id="E828FC3AD7421215A65B3AB188995113">Collaborative Innovation Center of Recovery and Reconstruction of Degraded Ecosystem in Wanjiang Basin Co-founded by Anhui Province and Ministry of Education; School of Ecology and Environment, Anhui Normal University, Wuhu, Anhui 241000, China &amp; Key Laboratory of Zoological Systematics and Evolution, Institute of Zoology, Chinese Academy of Sciences, Beijing 100000, China</mods:affiliation>
+</mods:name>
+<mods:name id="2630E3BE95F61CB1D07359A943EF9CE6" type="personal">
+<mods:role id="72D5BA40C08DFB999D63B33CAB40D47A">
+<mods:roleTerm id="78614DBDC977336F9FF31FCE9443F34D">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="8BE150F33BC4816BE27CAC2F117BEC43">Zhu, Chaodong</mods:namePart>
+<mods:nameIdentifier id="DA79AB1EE0E10955C73C0F84B8FA23C4" type="ORCID">https://orcid.org/0000-0002-9347-3178</mods:nameIdentifier>
+<mods:affiliation id="5A9755FCD01F062C889C56F47034C30B">Key Laboratory of Zoological Systematics and Evolution, Institute of Zoology, Chinese Academy of Sciences, Beijing 100000, China</mods:affiliation>
+<mods:nameIdentifier id="9DB6211AB81723A3B1E1281D16D933D3" type="email">zhucd@ioz.ac.cn</mods:nameIdentifier>
+</mods:name>
+<mods:typeOfResource id="441A94D58D6D87155FAA37A5133B83FF">text</mods:typeOfResource>
+<mods:relatedItem id="3AEECD701D0A229D15914E3D5B348217" type="host">
+<mods:titleInfo id="E7448867E9E7E1E05990B1C0D0627494">
+<mods:title id="BCA81C92EB633C42242AED76DCA7A5D0">Journal of Hymenoptera Research</mods:title>
+</mods:titleInfo>
+<mods:part id="E742DD4B1E7940145B2CDD95AA9B8C85">
+<mods:date id="AF92FDA20177AB8222A262AB96CF6DE7">2021</mods:date>
+<mods:detail id="BB60E57ADD26DAB3EBC14028063C1C44" type="pubDate">
+<mods:number id="049730CB1A37C8298816D1AD46DCE34C">2021-10-29</mods:number>
+</mods:detail>
+<mods:detail id="210A5933BE89779C5D36F9955761A417" type="volume">
+<mods:number id="EC8AAE0E33FEF04007FE5DC3B948089F">86</mods:number>
+</mods:detail>
+<mods:extent id="662B205FFBF0FD5F827626FBC7DC1809" unit="page">
+<mods:start id="C50FA50D44BC9073DC73F81151DE1B02">123</mods:start>
+<mods:end id="6E3910905CDA32D8E9F259DEA33C852F">143</mods:end>
+</mods:extent>
+</mods:part>
+</mods:relatedItem>
+<mods:location id="7D32EE36440DD4726764DC624F7F30B2">
+<mods:url id="0F7D8B4D86B2E5F6378F382828F17A4E">http://dx.doi.org/10.3897/jhr.86.72281</mods:url>
+</mods:location>
+<mods:classification id="BE9642F7824334FDEE24DF7E724F4D8E">journal article</mods:classification>
+<mods:identifier id="2B933AE7036724F13B5EA7A7D05D44B7" type="DOI">http://dx.doi.org/10.3897/jhr.86.72281</mods:identifier>
+<mods:identifier id="59B51CC028D7967CF422BAED66090D45" type="Pensoft-Pub">1314-2607-86-123</mods:identifier>
+<mods:identifier id="FB4D6C8A163C5633A4CDB3DEE75F129C" type="ZooBank">0CCED1F302204B66AF5572A60C54E859</mods:identifier>
+<mods:identifier id="76ADA76232D4AE78A2DC798CA1911C73" type="Pensoft-UUID">B7B416D84AB55732B981DAE9DEF393FA</mods:identifier>
+</mods:mods>
+<treatment id="43C332E33291592C80F53182BE31C636" ID-GBIF-Taxon="189635631" LSID="urn:lsid:zoobank.org:act:8C5BDFA5-7F51-4218-B83F-6C6A81022948" httpUri="http://treatment.plazi.org/id/43C332E33291592C80F53182BE31C636" lastPageNumber="123" pageId="0" pageNumber="123">
+<subSubSection id="5AC39EA124CDD2F9A0B9B0E962497152" pageId="0" pageNumber="123" type="nomenclature">
+<paragraph id="C0526311840632B42E7D98A1EE0A6EA2" pageId="0" pageNumber="123">
+<taxonomicName id="85BB11E754D6E79C2C5267632CBA0DDC" LSID="http://zoobank.org/8C5BDFA5-7F51-4218-B83F-6C6A81022948" authority="Wang, Chen &amp; Mikó" authorityName="Wang, Chen &amp; Miko" authorityYear="2021" class="Insecta" family="Megaspilidae" genus="Dendrocerus" higherTaxonomySource="CoL" kingdom="Animalia" lsidName="Dendrocerus anisodontus" order="Hymenoptera" pageId="0" pageNumber="123" phylum="Arthropoda" rank="species" species="anisodontus" status="sp. nov.">
+Dendrocerus anisodontus Wang, Chen &amp; 
+<normalizedToken id="148142396BDB19931133295002ECE35C" originalValue="Mikó">Miko</normalizedToken>
+</taxonomicName>
+<taxonomicNameLabel id="F5542C99510EC2C5191A364C4A02C351" pageId="0" pageNumber="123">sp. nov.</taxonomicNameLabel>
+</paragraph>
+</subSubSection>
+<subSubSection id="DA27522FC5D01DC895F13436EDB09D69" pageId="0" pageNumber="123" type="description">
+<paragraph id="17F49B6391DA7ECC6ADA85771D499358" pageId="0" pageNumber="123">
+<figureCitation id="A211E09CF802F4E57431CFE0EF8E5E53" captionStart="Figure 5" captionStartId="F5" captionText="Figure 5. Dendrocerus anisodontus Wang, Chen and Miko sp. nov., male, holotype A dorsal habitus B head and mesosoma, dorsal view C lateral habitus D head and mesosoma, lateral view E head, anterior view F wings G metasoma, dorsal view. Abbreviations: pronotum (prn), median mesoscutal sulcus (mms)." figureDoi="10.3897/jhr.86.72281.figure5" httpUri="https://binary.pensoft.net/fig/602134" pageId="0" pageNumber="123">Figs 5</figureCitation>
+<figureCitation id="E7106F0ADA5D25AB1CC6591B593D0789" captionStart="Figure 6" captionStartId="F6" captionText="Figure 6. Dendrocerus anisodontus Wang, Chen and Miko sp. nov., male, holotype, genitalia A dorsal view B lateral view. Abbreviations: harpe (hrp), gonostipes (gsp)." figureDoi="10.3897/jhr.86.72281.figure6" httpUri="https://binary.pensoft.net/fig/602135" pageId="0" pageNumber="123">, 6</figureCitation>
+<figureCitation id="159878F44B8A305CEF0176E092FEB19E" captionStart="Figure 7" captionStartId="F7" captionText="Figure 7. Dendrocerus anisodontus Wang, Chen and Miko sp. nov., female, paratype A dorsal habitus B head and mesosoma, dorsal view C lateral habitus D head and mesosoma, lateral view E head, anterior view F wings G metasoma, dorsal view." figureDoi="10.3897/jhr.86.72281.figure7" httpUri="https://binary.pensoft.net/fig/602136" pageId="0" pageNumber="123">, 7</figureCitation>
+</paragraph>
+</subSubSection>
+<subSubSection id="9D037E8FDFA9417721FDA1FD484F7FDF" pageId="0" pageNumber="123" type="diagnosis">
+<paragraph id="F4483F9B268B208B9DD4BEA3335FB594" pageId="0" pageNumber="123">Diagnosis.</paragraph>
+<paragraph id="3E5D4F8AA79A49AA95CED0DB4EE9044E" pageId="0" pageNumber="123">
+This new species belongs to the 
+<taxonomicName id="6E7B84A2AD383D6CE68E5759484E1EF3" genus="D." lsidName="D. halidayi" pageId="0" pageNumber="123" rank="species" species="halidayi">
+<emphasis id="8F1B6E3823D21CDAF5CA7838797EF4E4" italics="true" pageId="0" pageNumber="123">D. halidayi</emphasis>
+</taxonomicName>
+species-group and can be separated from other species by the following characteristics: metasoma concolorous with mesosoma and head; intertorular carina present, blunt harpe with numerous setae; distal parossiculal projection cone.
+</paragraph>
+</subSubSection>
+<subSubSection id="4EB316A57B09C71EA41253686B60DEAD" pageId="0" pageNumber="123" type="materials_examined">
+<paragraph id="FA08FFBA36E1081516A7AAC94F618543" pageId="0" pageNumber="123">Material examined.</paragraph>
+<paragraph id="7E2960E84D0CC2488C58AA8779C09D32" pageId="0" pageNumber="123">
+<materialsCitation id="CA52E5C89B6416A3E1021C15CC2E6D30" collectingDate="2019-07-20" collectingDateMax="2019-08-21" collectingDateMin="2019-07-20" collectorName="L. Ma" country="China" location="Mt. Bulang" municipality="Menghai" specimenCount="1" stateProvince="Yunnan" typeStatus="Holotype">
+<emphasis id="C49C0D5472FB1943E801695CB40AC41E" bold="true" italics="true" pageId="0" pageNumber="123">
+<typeStatus id="A2D0F916D645ACA499C5FB6EB1235115">Holotype</typeStatus>
+</emphasis>
+<collectingCountry id="2A4EEE4E8991DD822796532D1D76C4B3" name="China">China</collectingCountry>
+• male; 
+<collectingRegion id="5A9A016229C3CEA86B56912D8298BDB6" country="China" name="Yunnan">Yunnan</collectingRegion>
+, 
+<collectingMunicipality id="C015B0CFA60AE875C41CB1B1CA8B9528">Menghai</collectingMunicipality>
+, 
+<location id="BE9859A0FB09243779DC9530F5213811" LSID="urn:lsid:plazi:treatment:43C332E33291592C80F53182BE31C636:BE9859A0FB09243779DC9530F5213811" country="China" municipality="Menghai" name="Mt. Bulang" stateProvince="Yunnan">Mt. Bulang</location>
+; 
+<collectingDate id="81412550A497317040A7A810E1F77B72" value="2019-07-20" valueMax="2019-08-21" valueMin="2019-07-20">20.VII-21.VIII.2019</collectingDate>
+; 
+<collectorName id="D34A68DF1A428713BC639ADD2AEA9F09">L. Ma</collectorName>
+leg. (SYSBM)
+</materialsCitation>
+. 
+<emphasis id="A3D589D9DCAE4C67E37CA8FFA56A0B51" bold="true" italics="true" pageId="0" pageNumber="123">
+<typeStatus id="D22FB797AE311E73AD741858D11490F8">Paratypes</typeStatus>
+</emphasis>
+(
+<specimenCount id="9781C06159029361C27ADA086BBA37E7" type="male">29 males</specimenCount>
+, 
+<specimenCount id="4C388D608F1DFE01765E101482A36E7D" type="female">89 females</specimenCount>
+)
+</paragraph>
+<paragraph id="3437DF0C9A684442424FAE376D1BA937" pageId="0" pageNumber="123">
+<materialsCitation id="1045B4F809526BE7B10D7205F1BE4500" collectingDate="2005-07-13" collectingDateMax="2020-04-18" collectingDateMin="2005-07-13" collectorName="F. Fan, J. Yan, L. Zhu, H. Chen, J. Liu, Z. Xu, N. Wei, Guangzhou, Bamboo Garden, Huizhou City, L. Chen, Qingyuan, Lian Zhou, Dongguan City, Guangzhou City, South" country="China" county="Minqing County" elevation="1200" location="Mt. Fengyang" municipality="West Campus" specimenCount="30" specimenCount-female="21" specimenCount-male="9" stateProvince="Hebei">
+<collectingCountry id="25572FCD579C56C6AE0F708C30F9CA7B" name="China">China</collectingCountry>
+• 
+<specimenCount id="332E72A425EEBD14264B6ABFBB7ABEED" type="female">1 female</specimenCount>
+; 
+<collectingRegion id="74B0B90C134043C523FC31E528C4090D" country="China" name="Hebei">Hebei</collectingRegion>
+, Baoding, 
+<collectingRegion id="80794141592276169EFA0DC0748DC6EA" country="China" name="Hebei">Hebei</collectingRegion>
+Agri. Unv. 
+<collectingMunicipality id="B414E37266FB871B057ACE1FD4159BE9">West Campus</collectingMunicipality>
+; MT; 
+<collectingDate id="316FF3A18FC7C1013F055C15B9A208CB" value="2017-07-12" valueMax="2017-07-19" valueMin="2017-07-12">12-19.VII.2017</collectingDate>
+; 
+<collectorName id="DD1CB43C5D26A8363CCA0F828600290F">F. Fan</collectorName>
+(SYSBM) • 
+<specimenCount id="ED2BAD67E938DA8644C536366CE4FFB6" type="female">2 females</specimenCount>
+; same collection data as for preceding; 
+<collectingDate id="C3143888075F485D412A039A91E8AE78" value="2017-06-20" valueMax="2017-06-27" valueMin="2017-06-20">20-27.VI.2017</collectingDate>
+; (IZCAS) • 
+<specimenCount id="5744A5028DEDF4774F5536D85496BAAF" type="female">4 females</specimenCount>
+; same collection data as for preceding; 
+<collectingDate id="C97AFA093AE4213A608E50A78C2D7637" value="2017-06-27" valueMax="2017-07-04" valueMin="2017-06-27">27.VI-4.VII.2017</collectingDate>
+; (AHNU) • 
+<specimenCount id="0423474FDC96FADD02D3BBC55489D118" type="female">1 female</specimenCount>
+; 
+<collectingRegion id="9336CC75298780735CF97DD18430F0CF" country="China" name="Shandong">Shandong</collectingRegion>
+, Shanghe; MT; 
+<collectingDate id="3B2D36DAD87B0ED9C73F7109D25BD8A5" value="2018-01-26">26.I.2018</collectingDate>
+; 
+<collectorName id="CB0BEF62A3FB09E9639B3C237444063C">J. Yan</collectorName>
+leg.; (SYSBM) • 
+<specimenCount id="953DFF7E71D013F36B4615D61583D175" type="female">4 females</specimenCount>
+, same collection information as for preceding; 
+<collectingDate id="56C93A0EC8945D12DA7AEB52430CD2B6" value="2018-08-04" valueMax="2018-08-10" valueMin="2018-08-04">4-10.VIII.2018</collectingDate>
+; (IZCAS) • 
+<specimenCount id="D18FCB714A45D40A8EAFC85F8EEA31E1" type="female">1 female</specimenCount>
+; 
+<collectingRegion id="C8265308CE0E4F7B53918266394AEB13" country="China" name="Zhejiang">Zhejiang</collectingRegion>
+, 
+<location id="374B2DE1588E9723DB7A32931ABE22CD" LSID="urn:lsid:plazi:treatment:43C332E33291592C80F53182BE31C636:374B2DE1588E9723DB7A32931ABE22CD" country="China" county="Minqing County" municipality="West Campus" name="Mt. Fengyang" stateProvince="Hebei">Mt. Fengyang</location>
+; 
+<collectingDate id="324BD193D0824F1D13DB83DED8D11FFF" value="2007-07-28">28.VII.2007</collectingDate>
+; 
+<collectorName id="CA746582C8DA85340C226C2610E1817D">L. Zhu</collectorName>
+leg.; (AHNU); • 
+<specimenCount id="94FF8821EE87437843606149C70C93B5" type="female">1 female</specimenCount>
+; 
+<collectingRegion id="69C475C988063E24D0EC8AAF11598D52" country="China" name="Zhejiang">Zhejiang</collectingRegion>
+, 
+<location id="E0D6070BD48584374414C3B3F46CC940" LSID="urn:lsid:plazi:treatment:43C332E33291592C80F53182BE31C636:E0D6070BD48584374414C3B3F46CC940" country="China" county="Minqing County" municipality="West Campus" name="Mt. Tianmu" stateProvince="Hebei">Mt. Tianmu</location>
+, 
+<quantity id="33076165015A4AD0F054F98A32E1DC61" metricMagnitude="3" metricUnit="m" metricValue="1.2" unit="m" value="1200.0">
+<elevation id="D9B5D2A76F3841DAC66CC5CC1BACE7C7" metricMagnitude="3" metricUnit="m" metricValue="1.2" unit="m" value="1200.0">1200 m</elevation>
+</quantity>
+; 
+<collectingDate id="5458BCB009258884EDEF804605998CFA" value="2011-07-25" valueMax="2011-07-29" valueMin="2011-07-25">25-29.VII.2011</collectingDate>
+; 
+<collectorName id="26B94B8523BA19FC37075CCAB3FA6DCA">H. Chen</collectorName>
+leg.; (SYSBM) • 
+<specimenCount id="588469C15AB503A27BB8464F9A432FA9" type="male">1 male</specimenCount>
+; 
+<collectingRegion id="D181834620AC05675F4DC406655D01B8" country="China" name="Zhejiang">Zhejiang</collectingRegion>
+, 
+<location id="8754D3ADBBCCA67BEA27AD6059D66321" LSID="urn:lsid:plazi:treatment:43C332E33291592C80F53182BE31C636:8754D3ADBBCCA67BEA27AD6059D66321" country="China" county="Minqing County" municipality="West Campus" name="Mt. Gutian" stateProvince="Hebei">Mt. Gutian</location>
+; 
+<collectingDate id="A1F38569EB8F53489C9A747E70BAB81F" value="2015-07-05">5.VII.2015</collectingDate>
+• 
+<specimenCount id="2096B881ACEC4262F25DED81FA988BC6" type="female">1 female</specimenCount>
+; 
+<collectingRegion id="933E4597A662E911176CFF9E0BF5C34F" country="China" name="Hunan">Hunan</collectingRegion>
+, 
+<location id="2A4C74BBF0B86F2952801DD9B432905B" LSID="urn:lsid:plazi:treatment:43C332E33291592C80F53182BE31C636:2A4C74BBF0B86F2952801DD9B432905B" country="China" county="Minqing County" municipality="West Campus" name="Mt. Mangshan" stateProvince="Hebei">Mt. Mangshan</location>
+; YPT; 
+<collectingDate id="1397ED7971B7EC9B52DDB4D4C9FF0A52" value="2010-08-13">13.VIII.2010</collectingDate>
+; 
+<collectorName id="7F6A9DF188530ADA3983D6F9B85FE681">H. Chen</collectorName>
+leg.; (IZCAS) • 
+<specimenCount id="14A657383CBA115EAB44E745E4DBA6E3" type="male">1 male</specimenCount>
+; 
+<collectingRegion id="36E582A05EC78A0911AD85BF9CB225B2" country="China" name="Fujian">Fujian</collectingRegion>
+, 
+<collectingCounty id="9849B00B4B6F0FE543E58D553BF9F2A5">Minqing County</collectingCounty>
+, 
+<location id="46331FCDCCA5CE0C1F3C98F4CFA06FF1" LSID="urn:lsid:plazi:treatment:43C332E33291592C80F53182BE31C636:46331FCDCCA5CE0C1F3C98F4CFA06FF1" country="China" county="Minqing County" municipality="West Campus" name="Huangchulin Nature Reserve" stateProvince="Hebei">Huangchulin Nature Reserve</location>
+; 
+<collectingDate id="7626BD04D791AD37F09D85451F672E23" value="2005-07-13" valueMax="2005-07-17" valueMin="2005-07-13">13-17.VII.2005</collectingDate>
+; 
+<collectorName id="EFBCF8281A27B9E3C796CE6DAC653D35">J. Liu</collectorName>
+leg.; (AHNU) • 
+<specimenCount id="DF8A4D54FD4624F32F39D8873B58D76E" type="male">2 males</specimenCount>
+; 
+<collectingRegion id="D7FFA4F72D14CC6FCFA23DD5FE7AFAB8" country="China" name="Guangdong">Guangdong</collectingRegion>
+, 
+<location id="3C9E5E0C2EC13881251DA386952F4019" LSID="urn:lsid:plazi:treatment:43C332E33291592C80F53182BE31C636:3C9E5E0C2EC13881251DA386952F4019" country="China" county="Minqing County" municipality="West Campus" name="Nanling National Natural Reserve" stateProvince="Hebei">Nanling National Natural Reserve</location>
+; 
+<collectingDate id="6AD451FD5C5493F872AA494FFA257E78" value="2010-08-08" valueMax="2010-08-17" valueMin="2010-08-08">8-17.VIII.2010</collectingDate>
+• 
+<collectorName id="E8E2BF0438218E020A2A9ED022F6DCEF">H. Chen</collectorName>
+and 
+<collectorName id="1EED5140682C5A142622612585E8E923">H. Chen</collectorName>
+leg.; (AHNU) • 
+<specimenCount id="3E2889CAF2C8F4D0C0A503CFD18AB5C4" type="female">1 female</specimenCount>
+; 
+<collectingRegion id="8020D7DE8B39CE77885D6AE27E311D11" country="China" name="Guangdong">Guangdong</collectingRegion>
+, 
+<location id="C9D738611DBB2878DA81ACA6AB7EEBE0" LSID="urn:lsid:plazi:treatment:43C332E33291592C80F53182BE31C636:C9D738611DBB2878DA81ACA6AB7EEBE0" country="China" county="Minqing County" municipality="West Campus" name="Nanling Protection Station" stateProvince="Hebei">Nanling Protection Station</location>
+; YPT; 
+<collectingDate id="3BB9F41327E5ACE9993273F3DD13CAB4" value="2011-05-16" valueMax="2011-05-17" valueMin="2011-05-16">16-17.V.2011</collectingDate>
+; 
+<collectorName id="8CD81AC4DCFBAFE5CF90B8E6C5A703F2">Z. Xu</collectorName>
+leg.; (SYSBM) • 
+<specimenCount id="CEC85902137FB67C09C2485C37798C5D" type="male">1 male</specimenCount>
+; same collection information as for preceding; 
+<quantity id="5EF24C5A4FF7C54BC4AE7FD1A3505894" metricMagnitude="3" metricUnit="m" metricValue="1.2" unit="m" value="1200.0">
+<elevation id="1623F6BB20CC7D26B5BEE37A0FC4766E" metricMagnitude="3" metricUnit="m" metricValue="1.2" unit="m" value="1200.0">1200 m</elevation>
+</quantity>
+; 
+<collectingDate id="186B15A7A7EDECE481AD2A49215A9878" value="2011-05-17">17.V.2011</collectingDate>
+; 
+<collectorName id="77A3F3C96A0005C47D8276730F1BC294">N. Wei</collectorName>
+leg.; (IZCAS) • 
+<specimenCount id="48DB93D72360B03BED8A8E9A3EBFF289" type="female">1 female</specimenCount>
+; 
+<collectingRegion id="F67BFD06BB8A02EB3B7CDC2C660FE0E2" country="China" name="Guangdong">Guangdong</collectingRegion>
+, 
+<location id="765C84090D5E5031B0D98AB7686010D8" LSID="urn:lsid:plazi:treatment:43C332E33291592C80F53182BE31C636:765C84090D5E5031B0D98AB7686010D8" country="China" county="Minqing County" municipality="West Campus" name="Mt. Nankun" stateProvince="Hebei">Mt. Nankun</location>
+; 
+<collectingDate id="37C5F85491F917A923C23D7ACD1FD20E" value="2016-08-19">19.VIII.2016</collectingDate>
+; 
+<collectorName id="9CD73F0ADB778F84837EEE2E753C936C">Z. Xu</collectorName>
+leg.; (AHNU) • 
+<specimenCount id="C21C623DF906F12A36017176C63B6887" type="male">1 male</specimenCount>
+; 
+<collectingRegion id="0C07470E0806209D4FFCDA39F14BADD1" country="China" name="Guangdong">Guangdong</collectingRegion>
+, 
+<collectorName id="0981E31921706F488765C7DF2A8004D8">Guangzhou</collectorName>
+, SYSU 
+<collectorName id="874234673828E6D786479E3FB29952A4">Bamboo Garden</collectorName>
+; 
+<collectingDate id="1DB82C282142FDE05375F7391C54F13F" value="2019-01-20" valueMax="2019-02-18" valueMin="2019-01-20">20.I-18.II.2019</collectingDate>
+; 
+<collectorName id="65434F01724715FD47ACE64D9FE3CD23">H. Chen</collectorName>
+leg.; (SYSBM) • 
+<specimenCount id="8B55882521B4918AD3B1947414FC0628" type="male">1 male</specimenCount>
+; same collection information as for preceding; 
+<collectingDate id="AF3C3C531659F13BD87565754F88EEF7" value="2018-07-23">23.VII.2018</collectingDate>
+-
+<collectingDate id="6019F19AA0BFA36BB59B2AC0DF423968" value="2019-01-20">20.I.2019</collectingDate>
+; 
+<collectorName id="C080872637FAEA576FEDB6EAF89F23CB">H. Chen</collectorName>
+leg.; (IZCAS) • 
+<specimenCount id="7C3F979E09703C7143777E87F0028F60" type="female">1 female</specimenCount>
+; same collection information as for preceding; 
+<collectingDate id="CA611469773332D0F44457437A56D71F" value="2020-01-10" valueMax="2020-04-18" valueMin="2020-01-10">10.I-18.IV.2020</collectingDate>
+; 
+<collectorName id="11F4C5D40065CED70B02A482413F6C21">H. Chen</collectorName>
+leg.; (IZCAS) • 
+<specimenCount id="3B2C0F62A37EEA7878F00211A1BA8C5C" type="male">1 male</specimenCount>
+; 
+<collectingRegion id="20FCEFE8BB7EBE504D37486083005017" country="China" name="Guangdong">Guangdong</collectingRegion>
+, 
+<collectorName id="14C058988E08790A1E3DDC7E61A380D5">Huizhou City</collectorName>
+, 
+<location id="801DE6C248339DB90ACA8A66A10E89C6" LSID="urn:lsid:plazi:treatment:43C332E33291592C80F53182BE31C636:801DE6C248339DB90ACA8A66A10E89C6" country="China" county="Minqing County" municipality="West Campus" name="Mt. Gutian" stateProvince="Hebei">Mt. Gutian</location>
+; 
+<collectingDate id="049BE64E8847A3198785CA86AAE24DF4" value="2019-05-30" valueMax="2019-06-30" valueMin="2019-05-30">30.V-30.VI.2019</collectingDate>
+; 
+<collectorName id="255C58F9FACD47A9B553E779B5C0D4C5">L. Chen</collectorName>
+et al. leg.; (AHNU) • 
+<specimenCount id="2A8261420EC9631D5D3032845D625507" type="female">1 female</specimenCount>
+; 
+<collectingRegion id="BD9876A2002E20D0EDA46B913A86E085" country="China" name="Guangdong">Guangdong</collectingRegion>
+, 
+<collectorName id="624345BF8A203D3A2B94A2C7CB11E1D8">Qingyuan</collectorName>
+, 
+<collectorName id="8DE8540E1598A3673E51A4BE8115BB8C">Lian Zhou</collectorName>
+; YPT; 
+<collectingDate id="30735C5E9D4A06883D949BB69246E7F4" value="2019-06-10" valueMax="2019-06-13" valueMin="2019-06-10">10-13.VI.2019</collectingDate>
+; 
+<collectorName id="16A6A67A33CAB91196880DB4516B8F33">H. Chen</collectorName>
+leg.; SCAU 3049491 (AHNU) • 
+<specimenCount id="2B401820D90750D08A8DA895C3CC5A1F" type="female">1 female</specimenCount>
+; 
+<collectingRegion id="9D6E0C3FF685F7456433871B5A967D8F" country="China" name="Guangdong">Guangdong</collectingRegion>
+, 
+<collectorName id="6B361C8E83AE0E9D923FD8E3FA8CDE80">Dongguan City</collectorName>
+, 
+<location id="DC6B8632C4B57F5EBA5EEE17E1BF055A" LSID="urn:lsid:plazi:treatment:43C332E33291592C80F53182BE31C636:DC6B8632C4B57F5EBA5EEE17E1BF055A" country="China" county="Minqing County" municipality="West Campus" name="Mt. Daling" stateProvince="Hebei">Mt. Daling</location>
+; 
+<collectingDate id="F3F1BB000F8C1EF15C27CFDE048E9D5A" value="2019-09-20" valueMax="2019-09-30" valueMin="2019-09-20">20-30.IX.2019</collectingDate>
+; 
+<collectorName id="EAF6E469B39706FE146EE7E7B6813AE9">L. Chen</collectorName>
+et al. leg.; (IZCAS) • 
+<specimenCount id="50FDD96E5295720A6FA45DF2D2115842" type="male">1 male</specimenCount>
+, 
+<specimenCount id="F923CA5EDC69B7D26CEDB9E72E348B80" type="female">1 female</specimenCount>
+; 
+<collectingRegion id="79B25B9026327FFF2E5708857BF171D9" country="China" name="Guangdong">Guangdong</collectingRegion>
+, 
+<collectorName id="F71A66EF555FDD558B88CC72EC74F502">Guangzhou City</collectorName>
+, 
+<collectorName id="B0EE6A55CCC8A8A143E8D45D68C4A261">South</collectorName>
+</materialsCitation>
+<materialsCitation id="8B9CE616687FAEC6EFC2B4F7ECA1E56B" collectingDate="2003-07-25" collectingDateMax="2020-03-16" collectingDateMin="2003-07-25" collectorName="H. Huang, Jiujialing, H. Chen, Jianfengling, Danzhou City, Plant Protection, S. Dong, Same, N. Wei, Nanning, Z. Xu, Pingwu, Baimazhai, H. Zhang, Yaan City, Zhangjiashan Park, Z. Gao, Q. Wu, Leigong Mountain Forest Farm, Kuankuoshui Protection Center, J. Zeng, Gejiu, Xianggelila Gaoshan Botanical Garden, Xishuangbanna Rainforest, L. Ma, Xianggelila, Gaoshan Botanical Garden, Menghai" country="China" county="Baisha County" elevation="380" location="Institute of Environmental" municipality="Mt. Diaoluo" specimenCount="88" specimenCount-female="69" specimenCount-male="19" stateProvince="Hainan">
+<collectingCountry id="737B954C2D75C3460693E9D0D6071093" name="China">China</collectingCountry>
+Botanical Garden; 
+<collectingDate id="2D910EC80CCC12E00E2E5B09EC408307" value="2020-02-07" valueMax="2020-03-16" valueMin="2020-02-07">7.II-16.III.2020</collectingDate>
+; 
+<collectorName id="CD88BAB5097168D7E955C45DC182F8BA">H. Huang</collectorName>
+et al. leg.; (SYSBM) • 
+<specimenCount id="7461F539388BF081D175807898D76C73" type="male">1 male</specimenCount>
+; 
+<collectingRegion id="3443A43EE2C4D637362A4BC92F6DCEC4" country="China" name="Hainan">Hainan</collectingRegion>
+, 
+<collectingCounty id="5D774ADAD9014A93080DA4BF18C2E32A">Baisha County</collectingCounty>
+, 
+<collectorName id="0C5EB778A8D158FBF70AF24A524A0C81">Jiujialing</collectorName>
+; 
+<collectingDate id="15A0E5EDD5CE1191A18235EF6236C82F" value="2010-07-11">11.VII.2010</collectingDate>
+; 
+<collectorName id="D69E5E1EFB726719B2F200AC9E277ABB">H. Chen</collectorName>
+leg.; (IZCAS) • 
+<specimenCount id="9688A790ACFEF3C6D49B35BF4667F9E1" type="female">1 female</specimenCount>
+; 
+<collectingRegion id="C262357F5C4AF7945932198E8693F400" country="China" name="Hainan">Hainan</collectingRegion>
+, 
+<collectingMunicipality id="DCEB9E4F81A2A9F377CA919AB8F80477">Mt. Diaoluo</collectingMunicipality>
+; YPT; 
+<collectingDate id="127E374D44C387B2655AEA7CB1DDE4DA" value="2010-07-12" valueMax="2010-07-13" valueMin="2010-07-12">12-13.VII.2010</collectingDate>
+; 
+<collectorName id="C8E433104972EAAAE078519AB626AA2D">H. Chen</collectorName>
+et al. leg.; (SYSBM) • 
+<specimenCount id="0E54663537FF232ECBF42FB105711461" type="female">1 female</specimenCount>
+; 
+<collectingRegion id="5B64B125DBEB6667A1ADE123F53CF72F" country="China" name="Hainan">Hainan</collectingRegion>
+, 
+<collectorName id="CBC0A6CF82377C2BC25B2A622B318720">Jianfengling</collectorName>
+; 
+<collectingDate id="FC524595E5570FAFEEFFFB330930846E" value="2010-07-14" valueMax="2010-07-16" valueMin="2010-07-14">14-16.VII.2010</collectingDate>
+; 
+<collectorName id="C38B8E67ADDE6D581F8F383C452374E7">H. Chen</collectorName>
+leg.; (AHNU) • 
+<specimenCount id="5BD2002F2C0978A6E598007E6309FB98" type="female">7 females</specimenCount>
+; 
+<collectingRegion id="FCBF23EF1B512BEEA17B585921CE6102" country="China" name="Hainan">Hainan</collectingRegion>
+, 
+<collectorName id="BB3B2AAF810E9255BBCB0C4E58C23AE4">Danzhou City</collectorName>
+, 
+<location id="19B753B2C3178189B85794E810B578CE" LSID="urn:lsid:plazi:treatment:43C332E33291592C80F53182BE31C636:19B753B2C3178189B85794E810B578CE" country="China" county="Baisha County" municipality="Mt. Diaoluo" name="Institute of Environmental" stateProvince="Hainan">Institute of Environmental</location>
+and 
+<collectorName id="A34012E87695F1CBAC0AB335A38E411E">Plant Protection</collectorName>
+; 
+<collectingDate id="3EB287579DF50CA0337961FF96D734DB" value="2019-06-20" valueMax="2019-06-30" valueMin="2019-06-20">20-30.VI.2019</collectingDate>
+; 
+<collectorName id="9A81F023407F74363FA16C7DDBBB8494">S. Dong</collectorName>
+leg.; SCAU 3049465 (SYSBM) • 
+<specimenCount id="99687E1F49054ACAA08C1C4671648EEF" type="female">2 females</specimenCount>
+, same collection information as for preceding; 
+<collectingDate id="6EBD0C12F4A1B13E0EC2258E6DC8FC91" value="2019-06-04" valueMax="2019-06-20" valueMin="2019-06-04">4-20.VI.2019</collectingDate>
+; 
+<collectorName id="7F6DF4B3CA301448F07261EF3274E913">S. Dong</collectorName>
+leg.; SCAU 3049467 (IZCAS) • 
+<specimenCount id="10AF27C5CF9064F6160D9CCA701E8DF3" type="female">1 female</specimenCount>
+; 
+<collectorName id="B39EFB5D72024B4A2FBDE30BCAB8A4F7">Same</collectorName>
+collection information as for preceding; 
+<collectingDate id="DBF8E221D8C25FC112F3899F8D9C4E61" value="2019-06-30" valueMax="2019-07-10" valueMin="2019-06-30">30.VI-10.VII.2019</collectingDate>
+; 
+<collectorName id="18E6493A8D0C5D2884E3B78ACBF5EE94">S. Dong</collectorName>
+leg.; SCAU 3049474 (AHNU) • 
+<specimenCount id="C1A19D941A430F5EE7ECCE4D58C7B6AE" type="female">2 females</specimenCount>
+; 
+<collectorName id="8536BC160D83F6853FEDF79DA8D0C7C0">Same</collectorName>
+collection information as for preceding; 
+<collectingDate id="39A009BD9FDAA16C737A40941B7BB6B8" value="2019-07-30" valueMax="2019-08-10" valueMin="2019-07-30">30.VII-10.VIII.2019</collectingDate>
+; 
+<collectorName id="0B8F50EC1CC73BCA3CFE921CF46E759E">S. Dong</collectorName>
+leg.; SCAU 3049488 (SYSBM) • 
+<specimenCount id="97CC108B006729B95142C0E83DAC4AA5" type="female">1 female</specimenCount>
+; 
+<collectorName id="D41636374AB76560066F5C97A6D18699">Same</collectorName>
+collection information as for preceding; 
+<collectingDate id="5322B73C1AE9ECC21CC05BF86F7F8F1F" value="2019-07-30" valueMax="2019-08-10" valueMin="2019-07-30">30.VII-10.VIII.2019</collectingDate>
+; 
+<collectorName id="805ABBBA414B3635FF4DE83CB1B03F23">S. Dong</collectorName>
+leg.; SCAU 3049474 (IZCAS) • 
+<specimenCount id="0690F6C6A47B892C681A71E47C00355E" type="female">2 females</specimenCount>
+, 
+<collectorName id="A1BCA52BA5F1AF72948262A84A93DD4E">Same</collectorName>
+collection information as for preceding; 
+<collectingDate id="E46CCDCFB494424319141A8A56A2A7B6" value="2019-07-30" valueMax="2019-08-10" valueMin="2019-07-30">30.VII-10.VIII.2019</collectingDate>
+; 
+<collectorName id="7DD195E1F94B759725D8A49E225F4447">S. Dong</collectorName>
+leg.; SCAU 3049489 (AHNU) • 
+<specimenCount id="2A9637795878608F17F940E7FDD2C98D" type="female">2 females</specimenCount>
+; 
+<collectorName id="1FFA23ECB669D42E29C1EEDE4D6006C2">Same</collectorName>
+collection information as for preceding; 
+<collectingDate id="30AA4F3934EE7D1EA003A7A41E4E7F27" value="2019-08-10" valueMax="2019-08-20" valueMin="2019-08-10">10-20.VIII.2019</collectingDate>
+; 
+<collectorName id="E9E95170EFDC75F7D1DDFCF485EF6343">S. Dong</collectorName>
+leg.; SCAU 3049481 (SYSBM) • 
+<specimenCount id="5C04AD3CF0C5983DBE484D192B77CC49" type="female">5 females</specimenCount>
+; 
+<collectorName id="9A3062A1A8891820A2C85185D28D058E">Same</collectorName>
+collection information as for preceding; 
+<collectingDate id="195B62FF39C756F138C604C2C91ABA9B" value="2019-08-20" valueMax="2019-08-30" valueMin="2019-08-20">20-30.VIII.2019</collectingDate>
+; 
+<collectorName id="7F1CB6EA4F6D9915C2A24B87F249B504">S. Dong</collectorName>
+leg.; SCAU 3049484 (IZCAS) • 
+<specimenCount id="521D09EC3633A0F69B0F067CB7554FED" type="female">6 females</specimenCount>
+; 
+<collectorName id="CFDE1D057EFF300378232A1CA94871B7">Same</collectorName>
+collection information as for preceding; 
+<collectingDate id="4D862E6581A5924BCAD0E8381E16529D" value="2019-08-30" valueMax="2019-09-10" valueMin="2019-08-30">30.VIII-10.IX.2019</collectingDate>
+; 
+<collectorName id="DCB55E6C1B8C481D1CF87241AF54F166">S. Dong</collectorName>
+leg.; SCAU 3049480 (AHNU) • 
+<specimenCount id="96509B8B26827B987988B8152238B287" type="female">4 females</specimenCount>
+,; 
+<collectorName id="D8C6BE424E3EC2C16F5A9E38FFFB629D">Same</collectorName>
+collection information as for preceding; 
+<collectingDate id="2128DD1B43691BBB692A2DC94EAC5F49" value="2019-11-30" valueMax="2019-12-30" valueMin="2019-11-30">30.XI-30.XII.2019</collectingDate>
+; 
+<collectorName id="1FA04F1F225F4652EA454DDC4BB5622C">S. Dong</collectorName>
+leg.; SCAU 3049487 (IZCAS) • 
+<specimenCount id="09F62DC35A3F65AB0D790FB6B19DEDF9" type="female">1 female</specimenCount>
+; 
+<collectorName id="B811C33495952985C146515993004E7C">Same</collectorName>
+collection information as for preceding; 
+<collectingDate id="AD2C2E691CE3F12A480921D3F801CA8E" value="2019-11-20" valueMax="2019-11-30" valueMin="2019-11-20">20-30.XI.2019</collectingDate>
+, 
+<collectorName id="1E1DA6D425C754D4573D085DC18A0722">S. Dong</collectorName>
+leg.; SCAU 3049473 (AHNU) • 
+<specimenCount id="AF1E481F3600D90F8352B08294924A26" type="female">1 female</specimenCount>
+; 
+<collectorName id="3938D85470123B7B01EC7C142B79C334">Same</collectorName>
+collection information as for preceding; 
+<collectingDate id="51970221AA86DDA72B00F25ADEF0FE2F" value="2019-11-30" valueMax="2019-12-30" valueMin="2019-11-30">30.XI-30.XII.2019</collectingDate>
+; 
+<collectorName id="7626B80913804E19E38E2A196CF4B7FA">S. Dong</collectorName>
+leg.; SCAU 3049469 (SYSBM) • 
+<specimenCount id="BA47550584515335AA92AD671F2B6BD7" type="male">3 males</specimenCount>
+, 
+<specimenCount id="2FDED202B4CFA6C2F2DB6141579DAD35" type="female">5 females</specimenCount>
+; 
+<collectorName id="8EAE649F96C060F1879C391A368AEE24">Same</collectorName>
+collection information as for preceding; 
+<collectingDate id="6BCBE33936DBFE56B646BCCD048E36B1" value="2019-09-20" valueMax="2019-09-30" valueMin="2019-09-20">20-30.IX.2019</collectingDate>
+; 
+<collectorName id="1B77E0BF02C56DCEC53120ED29A342D0">S. Dong</collectorName>
+leg.; SCAU 3049483 (IZCAS) • 
+<specimenCount id="F5D7860B4446708E2DBF7A588B7DA6F7" type="male">2 males</specimenCount>
+, 
+<specimenCount id="4EC6DEA5C0D3A73AA840375E46C0D3B0" type="female">2 females</specimenCount>
+; 
+<collectorName id="6F7C2F4E15141FDA68109EEE5852034C">Same</collectorName>
+collection information as for preceding; 
+<collectingDate id="70E718A0558A5DB54CEC014505C2B70A" value="2019-10-30" valueMax="2019-11-30" valueMin="2019-10-30">30.X-30.XI.2019</collectingDate>
+; 
+<collectorName id="F77378DE3543902CBB24956BA7D7C07D">S. Dong</collectorName>
+leg.; SCAU 3049485 (SYSBM) • 
+<specimenCount id="293B012D746222F6B866C43FD16C40D4" type="male">1 male</specimenCount>
+; 
+<collectorName id="1E4C12361F80D20363AF85612158B60B">Same</collectorName>
+collection information as for preceding; 
+<collectingDate id="1846982C41295959550969CF07759FF9" value="2019-10-10" valueMax="2019-10-20" valueMin="2019-10-10">10-20.X.2019</collectingDate>
+, 
+<collectorName id="7A639B0E8864D1F36CBB4E09EC679A07">S. Dong</collectorName>
+leg.; SCAU 3049472 (IZCAS) • 
+<specimenCount id="8B63D1B0FEFE69264C8C5D464C265359" type="female">2 females</specimenCount>
+; 
+<collectorName id="D99F370CB38A3B69405AE62178472026">Same</collectorName>
+collection information as for preceding; 
+<collectingDate id="57A2B393FE6FBF546A54E2EAA544699E" value="2019-08-20" valueMax="2019-08-30" valueMin="2019-08-20">20-30.VIII.2019</collectingDate>
+; 
+<collectorName id="B2C6373E9B4020A73BCE90BDFADB04E9">S. Dong</collectorName>
+leg.; SCAU 3049476 (AHNU) • 
+<specimenCount id="A8112CF711D0FDE763365F7C9EFCC01D" type="female">1 female</specimenCount>
+; 
+<collectorName id="B22F320887E7458026459FF0DD30A5EE">Same</collectorName>
+collection information as for preceding; 
+<collectingDate id="67EDD426F0642FF4A5288BA8BD8691F7" value="2019-09-10" valueMax="2019-09-20" valueMin="2019-09-10">10-20.IX.2019</collectingDate>
+; 
+<collectorName id="9CADD24B6CB7F8B22172EB7DDB9B0E01">S. Dong</collectorName>
+leg.; SCAU 3049477 (SYSBM) • 
+<specimenCount id="D7C5D7D80AC9FBCA9389B545B126FA69" type="female">3 females</specimenCount>
+; 
+<collectorName id="A9A368865A593A6D8AD0045266BEA0B8">Same</collectorName>
+collection information as for preceding; 
+<collectingDate id="F61AAA9B78EBBB51CE54C2ACE723AD9B" value="2019-08-30" valueMax="2019-09-10" valueMin="2019-08-30">30.VIII-10.IX.2019</collectingDate>
+; 
+<collectorName id="E06192745C83C585C60A0C818BC7A54E">S. Dong</collectorName>
+leg.; SCAU 3049471 (IZCAS) • 
+<specimenCount id="C55331D9684DB82BF7C81E95CB9B853A" type="female">4 females</specimenCount>
+; 
+<collectorName id="492396A5D87979641661FFC93CF5DAEE">Same</collectorName>
+collection information as for preceding; 
+<collectingDate id="2000AABDD365D9B1B1E49FD3B778CFCA" value="2019-10-30" valueMax="2019-11-30" valueMin="2019-10-30">30.X-30.XI.2019</collectingDate>
+; 
+<collectorName id="24C4BC91494D15F586C8DB5DE7397EE2">S. Dong</collectorName>
+leg.; SCAU 3049470 (AHNU) • 
+<specimenCount id="9B378DB6EB5BC902DC68AC489BA2C62F" type="male">4 males</specimenCount>
+, 
+<specimenCount id="E3BF2E65C60CD7188F94667805DC333C" type="female">3 females</specimenCount>
+; 
+<collectorName id="947CF3123793C3C7BBB0DCF06077337F">Same</collectorName>
+collection information as for preceding; 
+<collectingDate id="BA050AB795F525F306F01E443FF6ED70" value="2019-09-30" valueMax="2019-10-10" valueMin="2019-09-30">30.IX-10.X.2019</collectingDate>
+; 
+<collectorName id="6F30923DFD081D448403543D48C007AA">S. Dong</collectorName>
+leg.; SCAU 3049486 (SYSBM) • 
+<specimenCount id="1B924B9E636445F38E427DDDDD56F68C" type="female">1 female</specimenCount>
+; 
+<collectorName id="5BD564740F39F0B1E8109AFAC072106E">Same</collectorName>
+collection information as for preceding; 
+<collectingDate id="214E5367C2DB4AED820F86444D04FCAB" value="2019-10-30" valueMax="2019-11-30" valueMin="2019-10-30">30.X-30.XI.2019</collectingDate>
+; 
+<collectorName id="C7C8956C3826C7BD24FABED46FA01EE3">S. Dong</collectorName>
+leg.; SCAU 3049470 (IZCAS) • 
+<specimenCount id="AB4C2D082CCBE0F2153298869DA36E2A" type="female">1 female</specimenCount>
+; 
+<collectorName id="731F782331490AF84D8F9084FCA3A2B6">Same</collectorName>
+collection information as for preceding; 
+<collectingDate id="7B447FDEBB454B267E276BC07842DCD1" value="2019-09-30" valueMax="2019-10-10" valueMin="2019-09-30">30.IX-10.X.2019</collectingDate>
+; 
+<collectorName id="7E7B9210736CFFB4B6CEBADE34D2BF70">S. Dong</collectorName>
+leg.; SCAU 3049486 (AHNU) • 
+<specimenCount id="1A1D5F8630AE6B5ECD65C2837A1E3F5A" type="male">1 male</specimenCount>
+; 
+<collectingRegion id="4A41EC5BBD57641766FC9B8A85103F6F" country="China" name="Guangxi">Guangxi</collectingRegion>
+, 
+<location id="9402E8F0913213E5128F3A9C756209FB" LSID="urn:lsid:plazi:treatment:43C332E33291592C80F53182BE31C636:9402E8F0913213E5128F3A9C756209FB" country="China" county="Baisha County" municipality="Mt. Diaoluo" name="Xingan County" stateProvince="Hainan">Xingan County</location>
+, 
+<location id="D7E8FA38425762F3B7B7C354507926B1" LSID="urn:lsid:plazi:treatment:43C332E33291592C80F53182BE31C636:D7E8FA38425762F3B7B7C354507926B1" country="China" county="Baisha County" municipality="Mt. Diaoluo" name="Huajiang Village" stateProvince="Hainan">Huajiang Village</location>
+, 
+<quantity id="833609EF57DBBD9016FA4B9ECE546E4D" metricMagnitude="2" metricUnit="m" metricValue="3.8" unit="m" value="380.0">
+<elevation id="4110FBEFD8D33FCF159D5099643233DA" metricMagnitude="2" metricUnit="m" metricValue="3.8" unit="m" value="380.0">380 m</elevation>
+</quantity>
+; 
+<collectingDate id="91110C5208551613D5857A563832BDD2" value="2011-06-26" valueMax="2011-06-27" valueMin="2011-06-26">26-27.VI.2011</collectingDate>
+; 
+<collectorName id="FA2872CDDF659E61EDE64435BDB14661">N. Wei</collectorName>
+leg.; (SYSBM) • 
+<specimenCount id="D0BC4453B51E276FE4FB4B566FC10FBD" type="female">2 females</specimenCount>
+; 
+<collectingRegion id="2E629D68AD696A847583205F2DB21EEE" country="China" name="Guangxi">Guangxi</collectingRegion>
+, 
+<collectorName id="43D34E2109719BEB49149BA8B4135FE0">Nanning</collectorName>
+, 
+<location id="442B6CAEB16D0ED22357C95B272D1710" LSID="urn:lsid:plazi:treatment:43C332E33291592C80F53182BE31C636:442B6CAEB16D0ED22357C95B272D1710" country="China" county="Baisha County" municipality="Mt. Diaoluo" name="Mt. Longshan" stateProvince="Hainan">Mt. Longshan</location>
+, 
+<quantity id="881EA306D3647DE0B4DEBBF195E6220C" metricMagnitude="2" metricUnit="m" metricValue="3.7" unit="m" value="370.0">
+<elevation id="8FBC2C52A3957CC2B373314BA55D13C8" metricMagnitude="2" metricUnit="m" metricValue="3.7" unit="m" value="370.0">370 m</elevation>
+</quantity>
+; 
+<collectingDate id="F1D100D40D3989B544B6B075EF5CB39B" value="2011-07-01" valueMax="2011-07-02" valueMin="2011-07-01">1-2.VII.2011</collectingDate>
+; 
+<collectorName id="F0B0D1EB3FD7E9E71A0240D224E88E61">Z. Xu</collectorName>
+leg.; (IZCAS) • 
+<specimenCount id="B10ABDE490642692667A612E8A3258B0" type="female">1 female</specimenCount>
+; 
+<collectingRegion id="63EB86F5926E36DE0432CE2396FB16C7" country="China" name="Sichuan">Sichuan</collectingRegion>
+, 
+<collectorName id="82A17A8E85852B484FC370C0EC7F7FEB">Pingwu</collectorName>
+, 
+<collectorName id="9015F0FBA724CB2E2055B15EF190C06A">Baimazhai</collectorName>
+; 
+<collectingDate id="573BC32CEAC9AAA202D6D2C1A870A46F" value="2005-07-25">25.VII.2005</collectingDate>
+; 
+<collectorName id="43D76BF200A9706FCEA5635605E9A9D1">H. Zhang</collectorName>
+leg.; (AHNU) • 
+<specimenCount id="1C3D8AB998EF7B5E09F28B4C38083372" type="male">1 male</specimenCount>
+; 
+<collectingRegion id="3F6E51B1914A74AA875C56C14546B6F3" country="China" name="Sichuan">Sichuan</collectingRegion>
+, 
+<collectorName id="306E6A57A67FDD11AE28554D065427FC">Yaan City</collectorName>
+, 
+<collectorName id="D41A5A66FD431AEADD3497A766900779">Zhangjiashan Park</collectorName>
+; 
+<collectingDate id="ED47CE4285D0C407EF8C3C706AF6471A" value="2006-07-14">14.VII.2006</collectingDate>
+; 
+<collectorName id="844415A7491386429AA52CDBF23D9FD4">Z. Gao</collectorName>
+leg.; (SYSBM) • 
+<specimenCount id="BE7BF2979D06340D0C7E3D1F5D506F0D" type="male">1 male</specimenCount>
+; 
+<collectingRegion id="A44728D3522C692631C57BB0C636500C" country="China" name="Shaanxi">Shaanxi</collectingRegion>
+, 
+<location id="417F8AA9548B8A723DA9D5B2A0AC8D93" LSID="urn:lsid:plazi:treatment:43C332E33291592C80F53182BE31C636:417F8AA9548B8A723DA9D5B2A0AC8D93" country="China" county="Baisha County" municipality="Mt. Diaoluo" name="Liping Forest Experiment Station" stateProvince="Hainan">Liping Forest Experiment Station</location>
+; 
+<collectingDate id="0E17A0F744DDC2C44907D24BFAEA3990" value="2004-07-23">23.VII.2004</collectingDate>
+; 
+<collectorName id="49129B5EE125AB302B04A12E9B673293">Q. Wu</collectorName>
+leg.; (IZCAS) • 
+<specimenCount id="9C1EC6DB1A2C5A72D40E9BE7CED7BB0B" type="male">1 male</specimenCount>
+; 
+<collectingRegion id="0E2640059B50C7FDAC5E4269C5C8C059" country="China" name="Guizhou">Guizhou</collectingRegion>
+; 
+<collectorName id="9F9575F9C80056302F360A6460F6007E">
+<location id="067F2EDDEB13E61D036E8714380839DF" LSID="urn:lsid:plazi:treatment:43C332E33291592C80F53182BE31C636:067F2EDDEB13E61D036E8714380839DF" country="China" county="Baisha County" municipality="Mt. Diaoluo" name="Leigong Mountain Forest" stateProvince="Hainan">Leigong 
+<location id="55E4048AEB3E37A2B30BE3ED8B276312" LSID="urn:lsid:plazi:treatment:43C332E33291592C80F53182BE31C636:55E4048AEB3E37A2B30BE3ED8B276312" country="China" county="Baisha County" municipality="Mt. Diaoluo" name="Mountain Forest Farm" stateProvince="Hainan">Mountain Forest Farm</location>
+</location>
+</collectorName>
+; 
+<collectingDate id="CF713C76DDFDE92725FF974B498D307F" value="2005-06-01">1.VI.2005</collectingDate>
+; 
+<collectorName id="1FA3FBCC74DDA1BBDE67D0B7673F5F62">H. Zhang</collectorName>
+leg.; (IZCAS) • 
+<specimenCount id="6A295AD35B1814B0468F38F403DD346A" type="female">2 females</specimenCount>
+; 
+<collectingRegion id="FD512037DAE52DBEBC543C3824BAAAEF" country="China" name="Guizhou">Guizhou</collectingRegion>
+, 
+<collectorName id="BEA3FF48AB844C4D73A9AADFC63E6B35">Kuankuoshui Protection Center</collectorName>
+; 
+<collectingDate id="F6C0AFCA0E93033EFC82124FA9B23955" value="2010-01-03">3.I.2010</collectingDate>
+; 
+<collectorName id="D4BFC4D11F6C10D65FC9B3B337EBFBB4">J. Zeng</collectorName>
+leg.; (SYSBM) • 
+<specimenCount id="30990558BAB16834C4C8F2D6170E2C6D" type="male">1 male</specimenCount>
+, 
+<specimenCount id="9293F11289800EADAA8C6802A2FF9328" type="female">1 female</specimenCount>
+; 
+<collectingRegion id="E1240A4EA933156FF088ED715FDCC064" country="China" name="Yunnan">Yunnan</collectingRegion>
+, 
+<collectorName id="54228A3CD301669D656ED22C84B50F7C">Gejiu</collectorName>
+, 
+<location id="51AA26F46634262AC021B8707B4AB16D" LSID="urn:lsid:plazi:treatment:43C332E33291592C80F53182BE31C636:51AA26F46634262AC021B8707B4AB16D" country="China" county="Baisha County" municipality="Mt. Diaoluo" name="Luechun County" stateProvince="Hainan">
+<normalizedToken id="BF0C8417CA6432060221B241E1889C7B" originalValue="Lüchun">Luechun</normalizedToken>
+County
+</location>
+; 
+<collectingDate id="241472BBB1E5F150FB11F09206039A39" value="2003-07-25">25.VII.2003</collectingDate>
+; (AHNU) • 
+<specimenCount id="DDAF7D1D7A6343170F0F65D6A18309EB" type="female">1 female</specimenCount>
+; 
+<collectingRegion id="D17DEAE0A33DC4A5B8D3106A234C8AAF" country="China" name="Yunnan">Yunnan</collectingRegion>
+, 
+<collectorName id="84F1AE7DAAFF3A3EE238A4560AD0C7D2">Xianggelila Gaoshan Botanical Garden</collectorName>
+; 
+<collectingDate id="9368DB9E24BCDDE075F4826A9FE3FFBF" value="2017-03-27">27.III.2017</collectingDate>
+; 
+<collectorName id="3D31F4EB30641F2F583AF27C6BE98BED">J. Zeng</collectorName>
+leg.; (IZCAS) • 
+<specimenCount id="2EC834038A9E6B03418B86F2389F43EE" type="female">1 female</specimenCount>
+, 
+<specimenCount id="901F6B38107B06AF277EC4504AE305E7" type="male">1 male</specimenCount>
+; 
+<collectingRegion id="051ACE67FD79D7FD7AACE8C497B20011" country="China" name="Yunnan">Yunnan</collectingRegion>
+, 
+<collectorName id="B193298BB473221C111731D1F6BC4EA2">Xishuangbanna Rainforest</collectorName>
+, 
+<quantity id="8E4ECA4DF9ECFC59D107CA3DFE1362DD" metricMagnitude="2" metricUnit="m" metricValue="5.99" unit="m" value="599.0">
+<elevation id="D735E04C9A9EB3087E85E4A00362F2CB" metricMagnitude="2" metricUnit="m" metricValue="5.99" unit="m" value="599.0">599 m</elevation>
+</quantity>
+; 
+<collectingDate id="3A6032CE8801AE4018AFCE17FB593586" value="2017-04-24" valueMax="2017-05-31" valueMin="2017-04-24">24.IV-31.V.2017</collectingDate>
+; 
+<collectorName id="7159A841CBE49548A8D41F017DC73387">L. Ma</collectorName>
+leg.; (SYSBM) • 
+<specimenCount id="F1C0F188FB1260AC3321149FB470C75C" type="male">1 male</specimenCount>
+; 
+<collectingRegion id="F81C81AFD553CFE450031BCCD2FAFB2F" country="China" name="Yunnan">Yunnan</collectingRegion>
+, 
+<collectorName id="EFAA474E2A6F5C135EBCD6AEAC0A28D3">Xianggelila</collectorName>
+, 
+<collectorName id="395C03CA3C48A81DAF50836EA3EC5ACA">Gaoshan Botanical Garden</collectorName>
+; 
+<collectingDate id="FFD3735BF69BE1799F05ADFE6CEFDFE4" value="2017-03-27">27.III.2017</collectingDate>
+; (AHNU) • 
+<specimenCount id="4265CF3655080C0E21F555B95908B2E6" type="male">1 male</specimenCount>
+, 
+<specimenCount id="BC51FEABCB375E6F147EA4418AD584B2" type="female">2 females</specimenCount>
+; 
+<collectingRegion id="A3270E5E979B3BFE1E798B16D92098C2" country="China" name="Yunnan">Yunnan</collectingRegion>
+, 
+<collectorName id="96433CEE4D3386D486FE837EAFA85724">Menghai</collectorName>
+, 
+<location id="C34266C3014B15E927EB623D6F09697D" LSID="urn:lsid:plazi:treatment:43C332E33291592C80F53182BE31C636:C34266C3014B15E927EB623D6F09697D" country="China" county="Baisha County" municipality="Mt. Diaoluo" name="Mt. Bulang" stateProvince="Hainan">Mt. Bulang</location>
+, 
+<quantity id="D93AF6DCE4A7874DE54404F96BE30D07" metricMagnitude="3" metricUnit="m" metricValue="1.683" unit="m" value="1683.0">
+<elevation id="B043F48C270AA10B41A972024D2864A7" metricMagnitude="3" metricUnit="m" metricValue="1.683" unit="m" value="1683.0">1683 m</elevation>
+</quantity>
+; MT; 
+<collectingDate id="65E88B188168AF402C643B43B087E16C" value="2018-05-17" valueMax="2018-06-21" valueMin="2018-05-17">17.V-21.VI.2018</collectingDate>
+; 
+<collectorName id="A46F047B5E02B9E7E73393BF36876816">L. Ma</collectorName>
+leg.; (SYSBM) • 
+<specimenCount id="AEDB30FC4FAAB943D97FF5BEDCC890FD" type="female">1 female</specimenCount>
+; 
+<collectorName id="B68077B501A4DABD337905AFF02660EE">Same</collectorName>
+collection information as for preceding; 
+<collectingDate id="BA24BDC932F1EAD4700D02DBB7E95263" value="2019-08-21" valueMax="2019-09-20" valueMin="2019-08-21">21.VIII-20.IX.2019</collectingDate>
+; 
+<collectorName id="16062FF9E1FCDE35322E233EF8CB6D1E">L. Ma</collectorName>
+(IZCAS)
+</materialsCitation>
+.
+</paragraph>
+</subSubSection>
+<subSubSection id="155D606B1AD07A568B1F4DF7D727D1B2" pageId="0" pageNumber="123" type="description">
+<paragraph id="D200055DA31D97DADF5607B487DE23AA" pageId="0" pageNumber="123">Description.</paragraph>
+<paragraph id="3976C373425AC13DE43656DD28D9EF55" pageId="0" pageNumber="123">
+<emphasis id="99761ACAFD2B46289A8ECD5753E93E85" bold="true" pageId="0" pageNumber="123">Male</emphasis>
+: Body length: 1.8-2.1 mm.
+</paragraph>
+<paragraph id="C8EBD613D33E5B2CDC707A8E94A9926A" pageId="0" pageNumber="123">
+<emphasis id="5ACEA7B7ACE4B16FD566E97A3631E004" bold="true" pageId="0" pageNumber="123">
+<emphasis id="304843D01BA6604CA6035E656A6D3D61" italics="true" pageId="0" pageNumber="123">Coloration</emphasis>
+(Fig. 
+<figureCitation id="8E9C1ADAA7D6532BE4E6857CDBA0140F" captionStart="Figure 5" captionStartId="F5" captionText="Figure 5. Dendrocerus anisodontus Wang, Chen and Miko sp. nov., male, holotype A dorsal habitus B head and mesosoma, dorsal view C lateral habitus D head and mesosoma, lateral view E head, anterior view F wings G metasoma, dorsal view. Abbreviations: pronotum (prn), median mesoscutal sulcus (mms)." figureDoi="10.3897/jhr.86.72281.figure5" httpUri="https://binary.pensoft.net/fig/602134" pageId="0" pageNumber="123">5</figureCitation>
+)
+</emphasis>
+: Cranium, mesosoma and metasoma black; eyes brown to black; ocelli brown; scape and basal pedicel yellow; flagellum dark brown to black; fore and mid coxa along with femur and tibia brown with brownish joints; syntergum brown (Fig. 
+<figureCitation id="327DA562DC6EB41118901392641B175F" captionStart="Figure 5" captionStartId="F5" captionText="Figure 5. Dendrocerus anisodontus Wang, Chen and Miko sp. nov., male, holotype A dorsal habitus B head and mesosoma, dorsal view C lateral habitus D head and mesosoma, lateral view E head, anterior view F wings G metasoma, dorsal view. Abbreviations: pronotum (prn), median mesoscutal sulcus (mms)." figureDoi="10.3897/jhr.86.72281.figure5" httpUri="https://binary.pensoft.net/fig/602134" pageId="0" pageNumber="123">5A</figureCitation>
+); pterostigma and costal vein brown; radial vein brown (Fig. 
+<figureCitation id="97E7451A61C299B296A3F2907B42AF62" captionStart="Figure 5" captionStartId="F5" captionText="Figure 5. Dendrocerus anisodontus Wang, Chen and Miko sp. nov., male, holotype A dorsal habitus B head and mesosoma, dorsal view C lateral habitus D head and mesosoma, lateral view E head, anterior view F wings G metasoma, dorsal view. Abbreviations: pronotum (prn), median mesoscutal sulcus (mms)." figureDoi="10.3897/jhr.86.72281.figure5" httpUri="https://binary.pensoft.net/fig/602134" pageId="0" pageNumber="123">5F</figureCitation>
+); body pubescence white; marginal fringes of wings brown.
+</paragraph>
+<paragraph id="D29B1BFC3ED295FE6E627370E24B03B7" pageId="0" pageNumber="123">
+<emphasis id="E0C7DE82C846A06D2591A7D63E68539C" bold="true" pageId="0" pageNumber="123">
+<emphasis id="56969216DB583D96180875949938D2CF" italics="true" pageId="0" pageNumber="123">Head</emphasis>
+(Fig. 
+<figureCitation id="9E945D2DC242B3BD3BA02EAF33BED535" captionStart="Figure 5" captionStartId="F5" captionText="Figure 5. Dendrocerus anisodontus Wang, Chen and Miko sp. nov., male, holotype A dorsal habitus B head and mesosoma, dorsal view C lateral habitus D head and mesosoma, lateral view E head, anterior view F wings G metasoma, dorsal view. Abbreviations: pronotum (prn), median mesoscutal sulcus (mms)." figureDoi="10.3897/jhr.86.72281.figure5" httpUri="https://binary.pensoft.net/fig/602134" pageId="0" pageNumber="123">5C</figureCitation>
+)
+</emphasis>
+: Slightly wider than mesosoma (about 1.1
+<normalizedToken id="784D3D54D6FCD54B6AFB5DCD079FFB59" originalValue="×">x</normalizedToken>
+wider than mesosoma). HH: EHf = 1.9-2.1. HH: HL = 1.2-1.6. HW: IOS = 1.8-1.9. HW: HH = 1.2-1.3. CSB: Mean: 350-470 
+<normalizedToken id="DCFE91A9BD2916F110ADFFA648577A06" originalValue="μm">μm</normalizedToken>
+. POL longer than OOL and ocellar triangle with broad base. OOL: LOL = 1.8-1.9. OOL: POL = 1.0-1.1. Head shape transverse in dorsal view, concolorous below and above eye midlevel. Preoccipital lunula absent (Fig. 
+<figureCitation id="D02B0AC586EB9274E33F78B0B32DAD61" captionStart="Figure 5" captionStartId="F5" captionText="Figure 5. Dendrocerus anisodontus Wang, Chen and Miko sp. nov., male, holotype A dorsal habitus B head and mesosoma, dorsal view C lateral habitus D head and mesosoma, lateral view E head, anterior view F wings G metasoma, dorsal view. Abbreviations: pronotum (prn), median mesoscutal sulcus (mms)." figureDoi="10.3897/jhr.86.72281.figure5" httpUri="https://binary.pensoft.net/fig/602134" pageId="0" pageNumber="123">5B</figureCitation>
+). Facial pit absent. Intertorular carina distinct; ocular suture prominent and foveolate; frons with sparse hairs; densely pubescent at gena (Fig. 
+<figureCitation id="4AB3A73887EAD17EDD35165D72524452" captionStart="Figure 5" captionStartId="F5" captionText="Figure 5. Dendrocerus anisodontus Wang, Chen and Miko sp. nov., male, holotype A dorsal habitus B head and mesosoma, dorsal view C lateral habitus D head and mesosoma, lateral view E head, anterior view F wings G metasoma, dorsal view. Abbreviations: pronotum (prn), median mesoscutal sulcus (mms)." figureDoi="10.3897/jhr.86.72281.figure5" httpUri="https://binary.pensoft.net/fig/602134" pageId="0" pageNumber="123">5B</figureCitation>
+); Preoccipital furrow present.
+</paragraph>
+<caption id="1CF168BE688C97355B6C47E151931981" doi="10.3897/jhr.86.72281.figure5" httpUri="https://binary.pensoft.net/fig/602134" pageId="0" pageNumber="123" start="Figure 5" startId="F5">
+<paragraph id="D8CAA88CDB24517FF22FB729AD671B26" pageId="0" pageNumber="123">
+<emphasis id="6DA354B6AED330473FFF6081746E45E7" bold="true" pageId="0" pageNumber="123">Figure 5.</emphasis>
+<taxonomicName id="18B93036F3B1CF88AFBC107884E059E5" authorityName="Wang, Chen &amp; Miko" authorityYear="2021" class="Insecta" family="Megaspilidae" genus="Dendrocerus" higherTaxonomySource="CoL" kingdom="Animalia" lsidName="Dendrocerus anisodontus" order="Hymenoptera" pageId="0" pageNumber="123" phylum="Arthropoda" rank="species" species="anisodontus">
+<emphasis id="146F16D0D3114EDCAA3D5322DB404759" italics="true" pageId="0" pageNumber="123">Dendrocerus anisodontus</emphasis>
+</taxonomicName>
+Wang, Chen and 
+<normalizedToken id="32C2FC32E71AE215B11360C846185267" originalValue="Mikó">Miko</normalizedToken>
+sp. nov., male, holotype 
+<emphasis id="18194EB18D3205769F36209D39D2CD7B" bold="true" pageId="0" pageNumber="123">A</emphasis>
+dorsal habitus 
+<emphasis id="5407BF0EFD218B29526873D190DA537E" bold="true" pageId="0" pageNumber="123">B</emphasis>
+head and mesosoma, dorsal view 
+<emphasis id="E7C2B485AED0AADDDC1D511D6EA3642C" bold="true" pageId="0" pageNumber="123">C</emphasis>
+lateral habitus 
+<emphasis id="A577BB8B63FA6F466DA3010BDF8AF184" bold="true" pageId="0" pageNumber="123">D</emphasis>
+head and mesosoma, lateral view 
+<emphasis id="AB959004B2370F32CE23B306574AC5CA" bold="true" pageId="0" pageNumber="123">E</emphasis>
+head, anterior view 
+<emphasis id="4D56EE02D065C254B180D73C4EB7083B" bold="true" pageId="0" pageNumber="123">F</emphasis>
+wings 
+<emphasis id="59B10D5B002FB13537220826B0A0E094" bold="true" pageId="0" pageNumber="123">G</emphasis>
+metasoma, dorsal view. Abbreviations: pronotum (prn), median mesoscutal sulcus (mms).
+</paragraph>
+</caption>
+<paragraph id="56166DAD0C7BEA48FF8C9278113181A6" pageId="0" pageNumber="123">
+<emphasis id="EF4DDCE9E4C6C46788DDF29EEE7C053E" bold="true" pageId="0" pageNumber="123">
+<emphasis id="F8422E7094C41D39AB87AF0AA427AE1D" italics="true" pageId="0" pageNumber="123">Antennae</emphasis>
+(Fig. 
+<figureCitation id="CBB8ED54B6B8704D21E8CEE64F4F56CD" captionStart="Figure 5" captionStartId="F5" captionText="Figure 5. Dendrocerus anisodontus Wang, Chen and Miko sp. nov., male, holotype A dorsal habitus B head and mesosoma, dorsal view C lateral habitus D head and mesosoma, lateral view E head, anterior view F wings G metasoma, dorsal view. Abbreviations: pronotum (prn), median mesoscutal sulcus (mms)." figureDoi="10.3897/jhr.86.72281.figure5" httpUri="https://binary.pensoft.net/fig/602134" pageId="0" pageNumber="123">5C</figureCitation>
+)
+</emphasis>
+: Ramose with six branches; scape nearly four times longer than wide; pedicel small and almost globular. Scape length vs. pedicel length: 4.7-4.8. Scape length vs. F1 length: 3.6-3.7. F1 length vs. pedicel length: 1.3-1.5. F1 length vs. F2 length: 0.9 
+<normalizedToken id="3622A930C4E103B8ECE11BF7F96A7D5C" originalValue="μm">μm</normalizedToken>
+. Longest flagellomere: F9. Length of setae on flagellomere vs. flagellomere width: setae as long as or shorter than width of flagellomeres. Basal flagellar segments clearly asymmetrical, with long projections.
+</paragraph>
+<paragraph id="CB1B70560663D9D7FE95CD019B1E0E80" pageId="0" pageNumber="123">
+<emphasis id="01E51AA7E98CB665D6694F0B51B62759" bold="true" pageId="0" pageNumber="123">
+<emphasis id="AA5A408E9A65B70A2CC8196B985A43C1" italics="true" pageId="0" pageNumber="123">Mesosoma</emphasis>
+(Fig. 
+<figureCitation id="6D901B701F64EFB361A0B040F10042AB" captionStart="Figure 5" captionStartId="F5" captionText="Figure 5. Dendrocerus anisodontus Wang, Chen and Miko sp. nov., male, holotype A dorsal habitus B head and mesosoma, dorsal view C lateral habitus D head and mesosoma, lateral view E head, anterior view F wings G metasoma, dorsal view. Abbreviations: pronotum (prn), median mesoscutal sulcus (mms)." figureDoi="10.3897/jhr.86.72281.figure5" httpUri="https://binary.pensoft.net/fig/602134" pageId="0" pageNumber="123">5B, D</figureCitation>
+)
+</emphasis>
+: Pronotum not elongate. AscW/PscW = 0.7-0.8. Mesosoma slightly narrow (1.1
+<normalizedToken id="08591031D80EDA0C1A379B562D93697B" originalValue="×">x</normalizedToken>
+longer than wide) (Length/width/height = 640/600/560 
+<normalizedToken id="66F24A21FF3BBE718F76B7B4DD1ED936" originalValue="μm">μm</normalizedToken>
+); coriaceous in sculpture, densely pubescent. Mesoscutum: (Length/width = 350/570 
+<normalizedToken id="DC67DAE1244E762B8F273A52B3B6B291" originalValue="μm">μm</normalizedToken>
+); mesoscutum 1.6
+<normalizedToken id="86442A683F73B4117F260A407E03ECC9" originalValue="×">x</normalizedToken>
+wider than long, with more or less straight anterior margin; anterior corners of mesoscutum sharply angled; mesoscutal humeral sulcus evident; coarsely foveolate notauli angled sharply. Median mesoscutal sulcus present and complete, terminating adjacent to the transscutal articulation (Fig. 
+<figureCitation id="BDFA74E8634F9BBBF9FAD66A76BE44E0" captionStart="Figure 5" captionStartId="F5" captionText="Figure 5. Dendrocerus anisodontus Wang, Chen and Miko sp. nov., male, holotype A dorsal habitus B head and mesosoma, dorsal view C lateral habitus D head and mesosoma, lateral view E head, anterior view F wings G metasoma, dorsal view. Abbreviations: pronotum (prn), median mesoscutal sulcus (mms)." figureDoi="10.3897/jhr.86.72281.figure5" httpUri="https://binary.pensoft.net/fig/602134" pageId="0" pageNumber="123">5B</figureCitation>
+); scutellum 0.9
+<normalizedToken id="6282B5911832FBB57E501EA3FB65328E" originalValue="×">x</normalizedToken>
+longer than wide, narrowed at apex with densely setose lateral margin; lateral scutellar carina evident; scutellum convex and highly sculptured with numerous hairs; metanotum and propodeum carinated. Posterodorsal metapleural area trapezoid-shaped. Mesopleural sulcus present.
+</paragraph>
+<paragraph id="98F734E18F8412F89D54A3A34DA867C8" pageId="0" pageNumber="123">
+<emphasis id="5119CAE141DAAFB98AF93AFBEA233C3E" bold="true" pageId="0" pageNumber="123">
+<emphasis id="C0247EFE5686348D9C0A4352A6BF725D" italics="true" pageId="0" pageNumber="123">Wings</emphasis>
+(Fig. 
+<figureCitation id="64F21329C5EA96C2200C238E1B19AD60" captionStart="Figure 5" captionStartId="F5" captionText="Figure 5. Dendrocerus anisodontus Wang, Chen and Miko sp. nov., male, holotype A dorsal habitus B head and mesosoma, dorsal view C lateral habitus D head and mesosoma, lateral view E head, anterior view F wings G metasoma, dorsal view. Abbreviations: pronotum (prn), median mesoscutal sulcus (mms)." figureDoi="10.3897/jhr.86.72281.figure5" httpUri="https://binary.pensoft.net/fig/602134" pageId="0" pageNumber="123">5F</figureCitation>
+)
+</emphasis>
+: Total wing length 1.5 mm. Hyaline. Pterostigma (Length/width = 220/110 
+<normalizedToken id="D31613144D0604C8BD62676B58CC41B3" originalValue="μm">μm</normalizedToken>
+) elliptical, 2.0
+<normalizedToken id="2BF14555F16413C238D4BE5697068B79" originalValue="×">x</normalizedToken>
+longer than wide; distal edge of pterostigma truncated; Radius (270 
+<normalizedToken id="ACE975FD811E9AFF92DD9A4D42311ACA" originalValue="μm">μm</normalizedToken>
+), curved a little in the middle and slightly logger (1.2
+<normalizedToken id="3E3C2492FF84DDEED5DEAF6F2B41501D" originalValue="×">x</normalizedToken>
+) than pterostigma; forewing densely pubescent and marginal fringes numerous; hindwing without venation. Dark area on fore wing absent.
+</paragraph>
+<paragraph id="7ECEC1C38548F0E2030FACBEC952F508" pageId="0" pageNumber="123">
+<emphasis id="2CE292B070ACC6BBB5CC4C590327C40B" bold="true" pageId="0" pageNumber="123">
+<emphasis id="F5CD3456038EB29F415A19455AB94592" italics="true" pageId="0" pageNumber="123">Metasoma</emphasis>
+(Fig. 
+<figureCitation id="E088023B0CFA09FBC9490E728E7AEDCB" captionStart="Figure 5" captionStartId="F5" captionText="Figure 5. Dendrocerus anisodontus Wang, Chen and Miko sp. nov., male, holotype A dorsal habitus B head and mesosoma, dorsal view C lateral habitus D head and mesosoma, lateral view E head, anterior view F wings G metasoma, dorsal view. Abbreviations: pronotum (prn), median mesoscutal sulcus (mms)." figureDoi="10.3897/jhr.86.72281.figure5" httpUri="https://binary.pensoft.net/fig/602134" pageId="0" pageNumber="123">5G</figureCitation>
+)
+</emphasis>
+: Metasoma concolorous with mesosoma. Mesosoma 1.6
+<normalizedToken id="A3BC0578D7B53DF7D8F0DE5947BF94CC" originalValue="×">x</normalizedToken>
+longer than wide (Length/width/height = 830/510/430 
+<normalizedToken id="9FC54B167B054F2ED94DD585772BC210" originalValue="μm">μm</normalizedToken>
+). Syntergum with crenulate collar, clearly with neck. Rest of metasoma smooth, but with numerous pit like punctuations in middle and posterior of T3. Eight strong transverse gastral carinae present in basal portion of metasoma; gastrocoeli not evident; five terminal segments visible dorsally with numerous hairs.
+</paragraph>
+<paragraph id="7520A7399B53056880428E0DA2E93C02" pageId="0" pageNumber="123">
+<emphasis id="90F8D57312E17ECCBC8ED8B3C8061EDD" bold="true" pageId="0" pageNumber="123">
+<emphasis id="F78CE283C1D5664B6B087C25BBA8259A" italics="true" pageId="0" pageNumber="123">Male genitalia</emphasis>
+(Fig. 
+<figureCitation id="EDFDB2884B69A5009873DD56951E637B" captionStart="Figure 6" captionStartId="F6" captionText="Figure 6. Dendrocerus anisodontus Wang, Chen and Miko sp. nov., male, holotype, genitalia A dorsal view B lateral view. Abbreviations: harpe (hrp), gonostipes (gsp)." figureDoi="10.3897/jhr.86.72281.figure6" httpUri="https://binary.pensoft.net/fig/602135" pageId="0" pageNumber="123">6</figureCitation>
+)
+</emphasis>
+: Genitalia with short cupula. Harpe longer than gonostipes in lateral view; simple and not bilobed. Distal margin of harpe in lateral view blunt. Lateral setae of harpe present, but sparse (Fig. 
+<figureCitation id="FCC7411CF34E42CB2A2FE9E949C5ACB5" captionStart="Figure 6" captionStartId="F6" captionText="Figure 6. Dendrocerus anisodontus Wang, Chen and Miko sp. nov., male, holotype, genitalia A dorsal view B lateral view. Abbreviations: harpe (hrp), gonostipes (gsp)." figureDoi="10.3897/jhr.86.72281.figure6" httpUri="https://binary.pensoft.net/fig/602135" pageId="0" pageNumber="123">6B</figureCitation>
+). Gonostipes longer than wide, fused dorsally; apical margin (part of gonostipes) cleft medially (Fig. 
+<figureCitation id="2877434729894AB228C1AD60C5829E8D" captionStart="Figure 6" captionStartId="F6" captionText="Figure 6. Dendrocerus anisodontus Wang, Chen and Miko sp. nov., male, holotype, genitalia A dorsal view B lateral view. Abbreviations: harpe (hrp), gonostipes (gsp)." figureDoi="10.3897/jhr.86.72281.figure6" httpUri="https://binary.pensoft.net/fig/602135" pageId="0" pageNumber="123">6A</figureCitation>
+). Median notch of distodorsal margin of gonostipes oval. Distal parossiculal projection rounded.
+</paragraph>
+<paragraph id="8F42D1FBB66817932FB2FEAB253CB688" pageId="0" pageNumber="123">
+<emphasis id="5EC9C8BC8D4F692FAFB1BAC87CD996BF" bold="true" pageId="0" pageNumber="123">
+Females (Fig. 
+<figureCitation id="827B88699C5EDFCDB10609A2954C77CF" captionStart="Figure 7" captionStartId="F7" captionText="Figure 7. Dendrocerus anisodontus Wang, Chen and Miko sp. nov., female, paratype A dorsal habitus B head and mesosoma, dorsal view C lateral habitus D head and mesosoma, lateral view E head, anterior view F wings G metasoma, dorsal view." figureDoi="10.3897/jhr.86.72281.figure7" httpUri="https://binary.pensoft.net/fig/602136" pageId="0" pageNumber="123">7</figureCitation>
+)
+</emphasis>
+: Body length: 1.9-2.1 mm. Scape about 2.6
+<normalizedToken id="AC8ED70AC968D1119CCC8FC0B0A999FA" originalValue="×">x</normalizedToken>
+longer than combined length of pedicel and F1. Scape length vs. pedicel length: 4.1-4.6. Scape length vs. F1 length: 2.8-3.3. F1 length vs. pedicel length: 1.5-1.7. F1 length vs. F2 length: 0.8-0.9. Longest flagellomere: F3. Other than genitalia differences and sexual dimorphism in the antennae, there are no obvious differences between males and females.
+</paragraph>
+</subSubSection>
+<subSubSection id="40541A5DE64542F9ADB6FA6A3AACB2F8" pageId="0" pageNumber="123" type="distribution">
+<paragraph id="36EC444DD2D4461CEBF15D1505874152" pageId="0" pageNumber="123">Distribution.</paragraph>
+<paragraph id="D517F9ADE9FC53F57AA31EB505C5073A" pageId="0" pageNumber="123">China (Hebei, Shandong, Zhejiang, Hunan, Fujian, Guangdong, Hainan, Guangxi, Sichuan, Shaanxi, Guizhou, Yunnan).</paragraph>
+</subSubSection>
+<subSubSection id="708CBB711C664837933E96D658D5C557" pageId="0" pageNumber="123" type="etymology">
+<paragraph id="9650E37053D6E4BCAD232425800F92E0" pageId="0" pageNumber="123">Etymology.</paragraph>
+<paragraph id="0CDD8CD744E93E2E00352EF63F65D6F6" pageId="0" pageNumber="123">The species name is a Greek masculine adjective meaning &quot;unequal tooth&quot;, signifying the irregular branches of the antennae of males.</paragraph>
+</subSubSection>
+<subSubSection id="453FC7576300520B8D7F287CE7E5D146" pageId="0" pageNumber="123" type="remarks">
+<paragraph id="A59C0709665A765205F565C2349AE44B" pageId="0" pageNumber="123">Remarks.</paragraph>
+<paragraph id="2CF54F370BA1596210C2C5BF4BD5FDD0" pageId="0" pageNumber="123">
+Like most 
+<taxonomicName id="BC3C9EC6103AFBB8192869FE75D6AC57" authorityName="Ratzeburg" authorityYear="1852" class="Insecta" family="Megaspilidae" genus="Dendrocerus" higherTaxonomySource="CoL" kingdom="Animalia" lsidName="Dendrocerus" order="Hymenoptera" pageId="0" pageNumber="123" phylum="Arthropoda" rank="genus">
+<emphasis id="6CF66A74938BD6BA839EEA0709E7AC99" italics="true" pageId="0" pageNumber="123">Dendrocerus</emphasis>
+</taxonomicName>
+males, the lateral extension of the basal flagellar segments is the most notable character of 
+<taxonomicName id="AEE32231E87A58576BD6B5FCCCBC30AD" genus="D." lsidName="D. anisodontus" pageId="0" pageNumber="123" rank="species" species="anisodontus">
+<emphasis id="A48FB4D2783FC762F8E964D452F796FD" italics="true" pageId="0" pageNumber="123">D. anisodontus</emphasis>
+</taxonomicName>
+sp. nov. This is likely a device to increase the olfactory efficiency of the male, probably in its response to sex pheromones released by the female (Fergusson, 1980).
+</paragraph>
+<caption id="8950DAFC071A0D48A9EE9151799D590F" doi="10.3897/jhr.86.72281.figure6" httpUri="https://binary.pensoft.net/fig/602135" pageId="0" pageNumber="123" start="Figure 6" startId="F6">
+<paragraph id="992BB14225002C07C02455FCC7625928" pageId="0" pageNumber="123">
+<emphasis id="F7C21133F97DF5493980F1BE7F91E021" bold="true" pageId="0" pageNumber="123">Figure 6.</emphasis>
+<taxonomicName id="858767D69A7E3E2CD3D052603326A380" authorityName="Wang, Chen &amp; Miko" authorityYear="2021" class="Insecta" family="Megaspilidae" genus="Dendrocerus" higherTaxonomySource="CoL" kingdom="Animalia" lsidName="Dendrocerus anisodontus" order="Hymenoptera" pageId="0" pageNumber="123" phylum="Arthropoda" rank="species" species="anisodontus">
+<emphasis id="3B3D348100F29749632F9B296BDEAC60" italics="true" pageId="0" pageNumber="123">Dendrocerus anisodontus</emphasis>
+</taxonomicName>
+Wang, Chen and 
+<normalizedToken id="1CA54E1A14A03B6AA9AB5FEB15D8C2F7" originalValue="Mikó">Miko</normalizedToken>
+sp. nov., male, holotype, genitalia 
+<emphasis id="A8859EFFF919FA59CC1970D9D4482D69" bold="true" pageId="0" pageNumber="123">A</emphasis>
+dorsal view 
+<emphasis id="AB16E3A0481DDA07E1B23E4F309B5F84" bold="true" pageId="0" pageNumber="123">B</emphasis>
+lateral view. Abbreviations: harpe (hrp), gonostipes (gsp).
+</paragraph>
+</caption>
+<caption id="4D9F67CB9F1DD2DA87582AF813E425B7" doi="10.3897/jhr.86.72281.figure7" httpUri="https://binary.pensoft.net/fig/602136" pageId="0" pageNumber="123" start="Figure 7" startId="F7">
+<paragraph id="93D6421532F8418C350EB5F98E0A771E" pageId="0" pageNumber="123">
+<emphasis id="603A63E957BC532FC4F67BE5B526EC79" bold="true" pageId="0" pageNumber="123">Figure 7.</emphasis>
+<taxonomicName id="8F646EF1EA54ABCAB6D6E7A085EBDAD7" authorityName="Wang, Chen &amp; Miko" authorityYear="2021" class="Insecta" family="Megaspilidae" genus="Dendrocerus" higherTaxonomySource="CoL" kingdom="Animalia" lsidName="Dendrocerus anisodontus" order="Hymenoptera" pageId="0" pageNumber="123" phylum="Arthropoda" rank="species" species="anisodontus">
+<emphasis id="7EF419E7FA9D75E2DA95A0C77F8CBFE7" italics="true" pageId="0" pageNumber="123">Dendrocerus anisodontus</emphasis>
+</taxonomicName>
+Wang, Chen and 
+<normalizedToken id="A477ABB94FA75DF145F37C0735E4B423" originalValue="Mikó">Miko</normalizedToken>
+sp. nov., female, paratype 
+<emphasis id="1BE30D995FA01FE149E04C12F766186D" bold="true" pageId="0" pageNumber="123">A</emphasis>
+dorsal habitus 
+<emphasis id="03D7185B6832DE34E4B179F4A659EA3A" bold="true" pageId="0" pageNumber="123">B</emphasis>
+head and mesosoma, dorsal view 
+<emphasis id="F4A58F19E9B1D80A47D09F6B7FB4B24B" bold="true" pageId="0" pageNumber="123">C</emphasis>
+lateral habitus 
+<emphasis id="25A41C2992C1E798D4F45394B229396D" bold="true" pageId="0" pageNumber="123">D</emphasis>
+head and mesosoma, lateral view 
+<emphasis id="394293B9163584C68234B74DD65B4ED3" bold="true" pageId="0" pageNumber="123">E</emphasis>
+head, anterior view 
+<emphasis id="E253111F8D07B67EC86CD8BAE76B9F42" bold="true" pageId="0" pageNumber="123">F</emphasis>
+wings 
+<emphasis id="7396593007BF51AB06E471BC489143C9" bold="true" pageId="0" pageNumber="123">G</emphasis>
+metasoma, dorsal view.
+</paragraph>
+</caption>
+</subSubSection>
+</treatment>
+</document>
