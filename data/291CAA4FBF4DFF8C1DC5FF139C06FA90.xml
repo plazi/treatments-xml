@@ -1,0 +1,605 @@
+<document id="DD731B1687A46F5EA3221A22D83A196C" ID-DOI="http://doi.org/10.5281/zenodo.6412787" ID-GBIF-Dataset="de55f596-c349-4ca2-a826-0e2bad912aa3" ID-GBIF-Taxon="194444070" ID-ISSN="1175-5326" ID-Zenodo-Dep="6412787" ID-ZooBank="67D4C618-C7C2-4FFC-925B-B260E11CD7B4" _generate="added" checkinTime="1649054363463" checkinUser="plazi" docAuthor="Jiang, Zhuo-Yin, Zhao, Shuang, Yang, Zhen-Yu, Jia, Feng-Long &amp; Hájek, Jiří" docDate="2022" docId="291CAA4FBF4DFF8C1DC5FF139C06FA90" docLanguage="en" docName="zootaxa.5124.3.1.pdf" docOrigin="Zootaxa 5124 (3)" docStyle="DocumentStyle:647186512141C8FC8976D5BCC54AEB7D.9:Zootaxa.2013-.journal_article" docStyleId="647186512141C8FC8976D5BCC54AEB7D" docStyleName="Zootaxa.2013-.journal_article" docStyleVersion="9" docTitle="Copelatus puzhelongi Jiang, Hajek &amp; Jia 2022, sp. nov." docType="treatment" docVersion="6" lastPageId="17" lastPageNumber="268" masterDocId="D525D237BF5DFF9D1D52FF849836FF9E" masterDocTitle="A review of Copelatus Erichson, 1832 of Mainland China, with description of ten new species from the japonicus complex (Coleoptera: Dytiscidae: Copelatinae)" masterLastPageNumber="295" masterPageNumber="251" pageId="16" pageNumber="267" updateTime="1649105551428" updateUser="ExternalLinkService" zenodo-license-document="CLOSED">
+<mods:mods id="4BE3EEA77A5392E133E7046DDFFAE793" xmlns:mods="http://www.loc.gov/mods/v3">
+<mods:titleInfo id="B5F8901D338175E30A3072C6ADE4B10E">
+<mods:title id="B78E7895DCB55863DB74D1B956D1A344">A review of Copelatus Erichson, 1832 of Mainland China, with description of ten new species from the japonicus complex (Coleoptera: Dytiscidae: Copelatinae)</mods:title>
+</mods:titleInfo>
+<mods:name id="68F75FB4B38431FD2A43624F7DFE2FAD" type="personal">
+<mods:role id="8881A0BE7B10A63C74055FAAD3B14591">
+<mods:roleTerm id="D307D2C30EC73C627A234CB493972A6B">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="CD7B3D2992B0BF3D25E41CD3E9A38FDF">Jiang, Zhuo-Yin</mods:namePart>
+<mods:nameIdentifier id="11E5E4D32FDC8B0E5032F254FBBE4CA4" type="ORCID">0000-0001-6825-4283</mods:nameIdentifier>
+<mods:affiliation id="B36D2183EC59162F8146232130715B68">State Key Laboratory of Biocontrol and Institute of Entomology, Sun Yat-sen University, Guangzhou 510275, China. zhuoyin _ jiang @ 126. com; https: // orcid. org / 0000 - 0001 - 6825 - 4283</mods:affiliation>
+</mods:name>
+<mods:name id="69F92D487790C4414872813EAEEBA7E9" type="personal">
+<mods:role id="36C4E193A1ACA8EAA59542F237949F06">
+<mods:roleTerm id="C34CFA8CB6796D451642ACDC7764B4F8">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="E09754C9EA5F25F011636A9DC4DC5FBC">Zhao, Shuang</mods:namePart>
+<mods:affiliation id="FD2743232EBD5C00BDCBAF478DE482A2">Guangzhou Customs Technology Center, Nansha District, Guangzhou, China.</mods:affiliation>
+</mods:name>
+<mods:name id="5C428C0A986A26DE919878E10CDC94C7" type="personal">
+<mods:role id="D2133FD0C87479EF7E6EF8D4CA71BF24">
+<mods:roleTerm id="5FFA9DF69B8A75FF99E2D05C191DFD33">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="DBDB365F97FEB6D05BB9D756F5BBC4D2">Yang, Zhen-Yu</mods:namePart>
+<mods:affiliation id="972CEDCE93441E2918013F9A39B00494">Brilliant Landscaping and Gardening Company Limited, Macau.</mods:affiliation>
+</mods:name>
+<mods:name id="6873D6223CEEDCA1B438892897E05E80" type="personal">
+<mods:role id="7C54821181FDCF51DE861FADD7133AFE">
+<mods:roleTerm id="BFE4714E4BC88D0C0CF37A89B27B3BD1">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="B88538D9DE2DC1A89A9AAB7008EE6008">Jia, Feng-Long</mods:namePart>
+<mods:nameIdentifier id="F640705CD25A952B61B9860CA1C92E06" type="ORCID">0000-0003-2391-5038</mods:nameIdentifier>
+<mods:affiliation id="BF0587D2568C30D8AA280FF6AF54E573">State Key Laboratory of Biocontrol and Institute of Entomology, Sun Yat-sen University, Guangzhou 510275, China. fenglongjia @ aliyun. com; lssjfl @ mail. sysu. edu. cn; http: // orcid. org / 0000 - 0003 - 2391 - 5038</mods:affiliation>
+<mods:nameIdentifier id="450170538C917121600BAF9C7B103458" type="email">fenglongjia@aliyun.com</mods:nameIdentifier>
+</mods:name>
+<mods:name id="2A4E3F4B5FD81349929986C39340ADCA" type="personal">
+<mods:role id="9B0D73E56D46A4584F7870106C49AB11">
+<mods:roleTerm id="DB271BEAE380A459E789AD699B11C375">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="719F44521BBB3BE18D35BD206AC45A66">Hájek, Jiří</mods:namePart>
+<mods:nameIdentifier id="BFFEAA5543C9EDDB5BF2D23FA845A908" type="ORCID">0000-0001-5779-1542</mods:nameIdentifier>
+<mods:affiliation id="BFAC245A68A4A3912FF54CD0B54D83A1">Department of Entomology, National Museum, Cirkusová 1740, CZ- 193 00 Praha 9 - Horní Počernice, Czech Republic. jiri. hajek @ nm. cz; https: // orcid. org / 0000 - 0001 - 5779 - 1542</mods:affiliation>
+<mods:nameIdentifier id="0EF737395FB85C6A13F4DFC4F36163B4" type="email">jiri.hajek@nm.cz</mods:nameIdentifier>
+</mods:name>
+<mods:typeOfResource id="35960CFC7434A90D10DCB289CF430D7E">text</mods:typeOfResource>
+<mods:relatedItem id="CEF2990E6D2515910F73315A9B7138E2" type="host">
+<mods:titleInfo id="2AC21EDD900F46BA1A95852B513CF6BD">
+<mods:title id="4488B1F6CE46973EF45682F47D1241CE">Zootaxa</mods:title>
+</mods:titleInfo>
+<mods:part id="AFDDF3C1EC689DC993917501B43DE6CA">
+<mods:date id="AE81FD1A2885D1F9AF25A1FAEF2B0106">2022</mods:date>
+<mods:detail id="51408206CBBD3C743E2619FC34E92EB3" type="pubDate">
+<mods:number id="70B086DFE94ECBBF5DCEAE0EC9C52C32">2022-04-04</mods:number>
+</mods:detail>
+<mods:detail id="941E343AB03188811734E1427B58B07E" type="volume">
+<mods:number id="A7F020BC9A1085F644391D38CBECEF96">5124</mods:number>
+</mods:detail>
+<mods:detail id="17BE2CACCF09FBC27FF674C6B467097E" type="issue">
+<mods:number id="96902028FF1598C00E8C9873CDFD9D02">3</mods:number>
+</mods:detail>
+<mods:extent id="33949618A7247902248453BBD9D2F278" unit="page">
+<mods:start id="4F15358481B3DB2F4E46A3EEB4FF7F44">251</mods:start>
+<mods:end id="2C692C551162F98070829BFDA6709A02">295</mods:end>
+</mods:extent>
+</mods:part>
+</mods:relatedItem>
+<mods:classification id="2853F586E13AFF7C15578B10242BF236">journal article</mods:classification>
+<mods:identifier id="0A17AD143CA051B4478A3F2A3A7C1B07" type="DOI">https://doi.org/10.11646/zootaxa.5124.3.1</mods:identifier>
+<mods:identifier id="69B242BAA7C1EDEBB6E1088309F5AB7C" type="GBIF-Dataset">de55f596-c349-4ca2-a826-0e2bad912aa3</mods:identifier>
+<mods:identifier id="E494D0074620C155B3DE09107DD6F9D3" type="ISSN">1175-5326</mods:identifier>
+<mods:identifier id="7FBAE4614F6661CF1EFC8DA174BBE8FC" type="Zenodo-Dep">6410696</mods:identifier>
+<mods:identifier id="23C085BB8384A613F45C4430ED20F644" type="ZooBank">67D4C618-C7C2-4FFC-925B-B260E11CD7B4</mods:identifier>
+</mods:mods>
+<treatment id="291CAA4FBF4DFF8C1DC5FF139C06FA90" ID-DOI="http://doi.org/10.5281/zenodo.6412787" ID-GBIF-Taxon="194444070" ID-Zenodo-Dep="6412787" LSID="urn:lsid:plazi:treatment:291CAA4FBF4DFF8C1DC5FF139C06FA90" httpUri="http://treatment.plazi.org/id/291CAA4FBF4DFF8C1DC5FF139C06FA90" lastPageId="17" lastPageNumber="268" pageId="16" pageNumber="267">
+<subSubSection id="E9AF48D2BF4DFF8D1DC5FF139AC3FF2F" box="[151,757,150,178]" pageId="16" pageNumber="267" type="nomenclature">
+<paragraph id="A10A1B59BF4DFF8D1DC5FF139AC3FF2F" blockId="16.[151,757,150,214]" box="[151,757,150,178]" pageId="16" pageNumber="267">
+<heading id="FA42AC35BF4DFF8D1DC5FF139AC3FF2F" bold="true" box="[151,757,150,178]" fontSize="11" level="1" pageId="16" pageNumber="267" reason="1">
+<emphasis id="93C1C74BBF4DFF8D1DC5FF139AC3FF2F" bold="true" box="[151,757,150,178]" pageId="16" pageNumber="267">
+<taxonomicName id="66B560DABF4DFF8D1DC5FF139AA6FF2F" authority="Jiang, Hajek &amp; Jia" authorityName="Jiang, Hajek &amp; Jia" authorityYear="2022" box="[151,656,150,178]" class="Insecta" family="Dytiscidae" genus="Copelatus" kingdom="Animalia" order="Coleoptera" pageId="16" pageNumber="267" phylum="Arthropoda" rank="species" species="puzhelongi" status="sp. nov.">
+<emphasis id="93C1C74BBF4DFF8D1DC5FF1399ABFF2C" bold="true" box="[151,413,151,178]" italics="true" pageId="16" pageNumber="267">Copelatus puzhelongi</emphasis>
+Jiang, Hájek &amp; Jia
+</taxonomicName>
+<taxonomicNameLabel id="88F27A30BF4DFF8D1FCAFF139AC3FF2F" box="[664,757,151,177]" pageId="16" pageNumber="267" rank="species">sp. nov.</taxonomicNameLabel>
+</emphasis>
+</heading>
+</paragraph>
+</subSubSection>
+<subSubSection id="E9AF48D2BF4DFF8D1DC5FF3F994DFF48" box="[151,379,187,214]" pageId="16" pageNumber="267" type="description">
+<paragraph id="A10A1B59BF4DFF8D1DC5FF3F994DFF48" blockId="16.[151,757,150,214]" box="[151,379,187,214]" pageId="16" pageNumber="267">
+(
+<figureCitation id="398E07DCBF4DFF8D1DCDFF3F9916FF4B" box="[159,288,187,213]" captionStart="FIGURES 17–20" captionStartId="35.[151,264,1943,1967]" captionTargetBox="[216,1367,188,1912]" captionTargetId="figure-18@35.[203,1385,181,1919]" captionTargetPageId="35" captionText="FIGURES 17–20. Habitus of Copelatus in China. 17. C. puzhelongi sp. nov. (holotype ♂; Pu’er, Yunnan); 18. C. puzhelongi sp. nov. (paratype ♀; Pu’er, Yunnan); 19. C. rimosus (♂; Dali, Yunnan); 20. C. rosulae (paratype ♂; Pianma, Yunnan). Scale bar 1 mm." figureDoi="http://doi.org/10.5281/zenodo.6410721" httpUri="https://zenodo.org/record/6410721/files/figure.png" pageId="16" pageNumber="267">Figs 17–18</figureCitation>
+, 
+<figureCitation id="398E07DCBF4DFF8D1C7EFF3F9942FF48" box="[300,372,187,214]" captionStart="FIGURES 51–62" captionStartId="40.[151,264,1836,1860]" captionTargetBox="[197,1390,193,1801]" captionTargetId="figure-23@40.[190,1397,181,1812]" captionTargetPageId="40" captionText="FIGURES 51–62. Male genitalia of Copelatus. 51, 53, 55, 57, 59, 61. median lobe in lateral view; 52, 54, 56, 58, 60, 62. paramere. 51–52. C. parallelus (Yushuwan, Hunan); 53. C. puzhelongi sp. nov. (a. holotype, Pu’er, Yunnan; b. Huanglianshan, Yunnan; c. Houaphanh, Laos); 54. C. puzhelongi sp. nov. (holotype, Pu’er, Yunnan); 55–56. C. rimosus (Dali, Yunnan); 57. C. rosulae sp. nov. (a. holotype, Pianma, Yunnan; b. Kongshu, Yunnan); 58. C. rosulae sp. nov. (Kongshu, Yunnan); 59–60. C. sociennus (Hengqin Island, Guangdong); 61–62. C. tenebrosus (Hengqin Island, Guangdong). Scale bar 0.5 mm." figureDoi="http://doi.org/10.5281/zenodo.6412783" httpUri="https://zenodo.org/record/6412783/files/figure.png" pageId="16" pageNumber="267">53–54</figureCitation>
+)
+</paragraph>
+</subSubSection>
+<subSubSection id="E9AF48D2BF4DFF8D1DC5FE879ABFFC73" pageId="16" pageNumber="267" type="materials_examined">
+<paragraph id="A10A1B59BF4DFF8D1DC5FE879D0EFEBE" blockId="16.[151,1437,259,2014]" box="[151,1336,259,288]" pageId="16" pageNumber="267">
+<materialsCitation id="11DD1104BF4DFF8D1DC5FE879D03FEBE" ID-GBIF-Occurrence="3746435358" box="[151,1333,259,288]" country="China" latitude="22.606667" location="Laiyanghe Nature Reserve" longLatPrecision="125" longitude="101.00667" municipality="Pu'er City" pageId="16" pageNumber="267" specimenCount="1" stateProvince="Yunnan" typeStatus="holotype">
+<emphasis id="93C1C74BBF4DFF8D1DC5FE879900FE83" bold="true" box="[151,310,259,285]" pageId="16" pageNumber="267">
+<typeStatus id="7E0EA5FBBF4DFF8D1DC5FE8798E4FE83" box="[151,210,259,285]" pageId="16" pageNumber="267">Type</typeStatus>
+locality.
+</emphasis>
+<collectingCountry id="D9A25BC9BF4DFF8D1C6EFE8799B4FE83" box="[316,386,259,285]" name="China" pageId="16" pageNumber="267">China</collectingCountry>
+, 
+<collectingRegion id="6371D5BBBF4DFF8D1CDEFE809A79FE83" box="[396,591,259,286]" country="China" name="Yunnan" pageId="16" pageNumber="267">Yunnan Province</collectingRegion>
+, 
+<collectingMunicipality id="416E8123BF4DFF8D1F08FE879AF9FE83" box="[602,719,259,285]" pageId="16" pageNumber="267">Pu’er City</collectingMunicipality>
+, 
+<location id="A46A4D82BF4DFF8D1F88FE879C3EFE80" LSID="urn:lsid:plazi:treatment:291CAA4FBF4DFF8C1DC5FF139C06FA90:A46A4D82BF4DFF8D1F88FE879C3EFE80" box="[730,1032,259,286]" country="China" latitude="22.606667" longLatPrecision="125" longitude="101.00667" municipality="Pu'er City" name="Laiyanghe Nature Reserve" pageId="16" pageNumber="267" stateProvince="Yunnan">Laiyanghe Nature Reserve</location>
+, ca. 
+<geoCoordinate id="C4817D9EBF4DFF8D1968FE819C9AFEBE" box="[1082,1196,261,288]" degrees="22" direction="north" minutes="36.4" orientation="latitude" pageId="16" pageNumber="267" precision="92" value="22.606667">22°36.4′N</geoCoordinate>
+<geoCoordinate id="C4817D9EBF4DFF8D19E1FE819D03FEBE" box="[1203,1333,261,288]" degrees="101" direction="east" minutes="00.4" orientation="longitude" pageId="16" pageNumber="267" precision="92" value="101.00667">101°00.4′E</geoCoordinate>
+</materialsCitation>
+.
+</paragraph>
+<paragraph id="A10A1B59BF4DFF8D1D95FEA39ABFFC73" blockId="16.[151,1437,259,2014]" pageId="16" pageNumber="267">
+<emphasis id="93C1C74BBF4DFF8D1D95FEA3994AFEDF" bold="true" box="[199,380,295,321]" pageId="16" pageNumber="267">Type material.</emphasis>
+<materialsCitation id="11DD1104BF4DFF8D1CD8FEA39CFAFE17" ID-GBIF-Occurrence="3746435335" collectingDate="2007-07-29" collectionCode="SYSU" collectorName="Fenglong Jia" country="China" determinerName="Jia" location="Laiyanghe Nature Reserve" pageId="16" pageNumber="267" specimenCount="1" specimenCount-male="1" stateProvince="Yunnan" typeStatus="holotype">
+<typeStatus id="7E0EA5FBBF4DFF8D1CD8FEA399C4FEDF" box="[394,498,295,321]" pageId="16" pageNumber="267">Holotype</typeStatus>
+<specimenCount id="B7B3D0D0BF4DFF8D1F52FEAC9A23FEDC" box="[512,533,296,322]" pageId="16" pageNumber="267" type="male">♂</specimenCount>
+(
+<collectionCode id="C7A4839CBF4DFF8D1F79FEA39A4EFEDF" box="[555,632,295,321]" pageId="16" pageNumber="267">SYSU</collectionCode>
+), labelled: “ 
+<emphasis id="93C1C74BBF4DFF8D1E5EFEAC9C12FEA1" bold="true" box="[780,1060,296,319]" pageId="16" pageNumber="267">云南Ḃ洱ǨÑ河保护区</emphasis>
+/ 
+<date id="D50B3D99BF4DFF8D191AFEA39CE7FEDF" box="[1096,1233,295,321]" pageId="16" pageNumber="267" value="2007-07-29">
+<collectingDate id="C54FC471BF4DFF8D191AFEA39CE7FEDF" box="[1096,1233,295,321]" pageId="16" pageNumber="267" value="2007-07-29">2007.VII.29</collectingDate>
+</date>
+/ 
+<emphasis id="93C1C74BBF4DFF8D19A6FEAC9885FEFD" bold="true" pageId="16" pageNumber="267">Āφ人：DZṂ AE</emphasis>
+// 
+<collectingCountry id="D9A25BC9BF4DFF8D1D85FECF9902FEFB" box="[215,308,331,357]" name="China" pageId="16" pageNumber="267">CHINA</collectingCountry>
+: 
+<collectingRegion id="6371D5BBBF4DFF8D1C13FEC89A32FEFB" box="[321,516,331,358]" country="China" name="Yunnan" pageId="16" pageNumber="267">Yunnan Province</collectingRegion>
+/ Pu’er City / 
+<location id="A46A4D82BF4DFF8D1FE1FECF9BD2FEF8" LSID="urn:lsid:plazi:treatment:291CAA4FBF4DFF8C1DC5FF139C06FA90:A46A4D82BF4DFF8D1FE1FECF9BD2FEF8" box="[691,996,331,358]" country="China" name="Laiyanghe Nature Reserve" pageId="16" pageNumber="267" stateProvince="Yunnan">Laiyanghe Nature Reserve</location>
+/ 
+<date id="D50B3D99BF4DFF8D1952FECF9CB4FEFB" box="[1024,1154,331,357]" pageId="16" pageNumber="267" value="2007-07-29">
+<collectingDate id="C54FC471BF4DFF8D1952FECF9CB4FEFB" box="[1024,1154,331,357]" pageId="16" pageNumber="267" value="2007-07-29">29.vii.2007</collectingDate>
+</date>
+, 
+<collectorName id="0C407E8FBF4DFF8D19C3FECF9D12FEFB" box="[1169,1316,331,357]" pageId="16" pageNumber="267">Fenglong Jia</collectorName>
+leg. [p] // 
+<typeStatus id="7E0EA5FBBF4DFF8D1DC5FEEB991DFE17" box="[151,299,367,393]" pageId="16" pageNumber="267">HOLOTYPE</typeStatus>
+/ 
+<emphasis id="93C1C74BBF4DFF8D1C10FEEB9A59FE17" box="[322,623,367,394]" italics="true" pageId="16" pageNumber="267">
+<taxonomicName id="66B560DABF4DFF8D1C10FEEB99EBFE17" authorityName="Erichson" authorityYear="1832" box="[322,477,367,393]" class="Insecta" family="Dytiscidae" genus="Copelatus" kingdom="Animalia" order="Coleoptera" pageId="16" pageNumber="267" phylum="Arthropoda" rank="genus">COPELATUS</taxonomicName>
+/ 
+<taxonomicName id="66B560DABF4DFF8D1CA6FEEB9A59FE17" authority="Jiang &amp; Zhao &amp; Yang &amp; Jia &amp; Hájek, 2022" authorityName="Jiang &amp; Zhao &amp; Yang &amp; Jia &amp; Hájek" authorityYear="2022" box="[500,623,367,393]" class="Insecta" family="Dytiscidae" genus="Copelatus" kingdom="Animalia" order="Coleoptera" pageId="16" pageNumber="267" phylum="Arthropoda" rank="species" species="puzhelongi" status="sp. nov.">puzhelongi</taxonomicName>
+</emphasis>
+<taxonomicNameLabel id="88F27A30BF4DFF8D1F24FEF49AFBFE14" box="[630,717,368,394]" pageId="16" pageNumber="267" rank="species">sp. nov.</taxonomicNameLabel>
+/ Jiang, Hájek &amp; 
+<determinerName id="54D6F79DBF4DFF8D1EC7FEEB9B82FE17" box="[917,948,367,393]" pageId="16" pageNumber="267">Jia</determinerName>
+det. 2021 [red label, p]”
+</materialsCitation>
+. 
+<materialsCitation id="11DD1104BF4DFF8D198BFEF49A4BFE33" ID-GBIF-Occurrence="3746435315" collectingDate="2007-07-29" collectionCode="NMPC, SYSU" collectorName="Fenglong Jia" country="China" determinerName="Jia" location="Laiyanghe Nature Reserve" pageId="16" pageNumber="267" specimenCount="8" specimenCount-female="4" specimenCount-male="4" stateProvince="Yunnan" typeStatus="paratype">
+<typeStatus id="7E0EA5FBBF4DFF8D198BFEF49D7CFE14" box="[1241,1354,368,394]" pageId="16" pageNumber="267">Paratypes</typeStatus>
+: 
+<specimenCount id="B7B3D0D0BF4DFF8D1807FEEB9DB4FE14" box="[1365,1410,367,394]" pageId="16" pageNumber="267" type="male">4 ♂</specimenCount>
+, 
+<specimenCount id="B7B3D0D0BF4DFF8D18DCFEEB989AFE30" pageId="16" pageNumber="267" type="female">4 ♀</specimenCount>
+, same data as holotype (
+<collectionCode id="C7A4839CBF4DFF8D1C9AFE179A2AFE33" box="[456,540,403,429]" country="Czech Republic" httpUri="http://grbio.org/cool/hj12-2xm7" name="National Museum Prague" pageId="16" pageNumber="267">NMPC</collectionCode>
+, 
+<collectionCode id="C7A4839CBF4DFF8D1F7BFE179A43FE33" box="[553,629,403,429]" pageId="16" pageNumber="267">SYSU</collectionCode>
+)
+</materialsCitation>
+; 
+<materialsCitation id="11DD1104BF4DFF8D1FD8FE17991BFE6B" ID-GBIF-Occurrence="3746435400" collectingDate="2008-11-12" collectionCode="SNUC" collectorName="Liang" country="China" county="China" elevation="1750" location="Shanshenmiao" municipality="Bengganghani" pageId="16" pageNumber="267" specimenCount="1" specimenCount-female="1" stateProvince="Yunnan" typeStatus="paratype">
+<specimenCount id="B7B3D0D0BF4DFF8D1FD8FE179A80FE30" box="[650,694,403,430]" pageId="16" pageNumber="267" type="female">1 ♀</specimenCount>
+, labelled: “ 
+<collectingCounty id="486B63D5BF4DFF8D1E6AFE179B4BFE33" box="[824,893,403,429]" pageId="16" pageNumber="267">China</collectingCounty>
+: 
+<collectingRegion id="6371D5BBBF4DFF8D1ED2FE179C29FE30" box="[896,1055,403,430]" country="China" name="Yunnan" pageId="16" pageNumber="267">Yunnan Prov.</collectingRegion>
+/ Nabanhe 
+<taxonomicNameLabel id="88F27A30BF4DFF8D19F6FE109CD4FE30" box="[1188,1250,404,430]" pageId="16" pageNumber="267" rank="subSpecies">N. R.</taxonomicNameLabel>
+/ 
+<collectingMunicipality id="416E8123BF4DFF8D19A9FE179DABFE33" box="[1275,1437,403,429]" pageId="16" pageNumber="267">Bengganghani</collectingMunicipality>
+/ 
+<location id="A46A4D82BF4DFF8D1DFBFE33997AFE4F" LSID="urn:lsid:plazi:treatment:291CAA4FBF4DFF8C1DC5FF139C06FA90:A46A4D82BF4DFF8D1DFBFE33997AFE4F" box="[169,332,439,465]" country="China" county="China" municipality="Bengganghani" name="Shanshenmiao" pageId="16" pageNumber="267" stateProvince="Yunnan">Shanshenmiao</location>
+/ N22.08.450 E100.35.289 [p] // 
+<location id="A46A4D82BF4DFF8D1F80FE339ACBFE4F" LSID="urn:lsid:plazi:treatment:291CAA4FBF4DFF8C1DC5FF139C06FA90:A46A4D82BF4DFF8D1F80FE339ACBFE4F" box="[722,765,439,465]" country="China" county="China" municipality="Bengganghani" name="Alt." pageId="16" pageNumber="267" stateProvince="Yunnan">Alt.</location>
+<quantity id="664DB6BCBF4DFF8D1E55FE339B63FE4C" box="[775,853,439,466]" metricMagnitude="3" metricUnit="m" metricValue="1.75" pageId="16" pageNumber="267" unit="m" value="1750.0">
+<elevation id="2A98FC6ABF4DFF8D1E55FE339B63FE4C" box="[775,853,439,466]" metricMagnitude="3" metricUnit="m" metricValue="1.75" pageId="16" pageNumber="267" unit="m" value="1750.0">1750m</elevation>
+</quantity>
+/ 
+<date id="D50B3D99BF4DFF8D1E22FE339BC2FE4F" box="[880,1012,439,465]" pageId="16" pageNumber="267" value="2008-11-12">
+<collectingDate id="C54FC471BF4DFF8D1E22FE339BC2FE4F" box="[880,1012,439,465]" pageId="16" pageNumber="267" value="2008-11-12">12-XI-2008</collectingDate>
+</date>
+/ HU Jia-Yao &amp; / TANG 
+<collectorName id="0C407E8FBF4DFF8D187AFE339D5FFE4F" box="[1320,1385,439,465]" pageId="16" pageNumber="267">Liang</collectorName>
+leg. [p]” (
+<collectionCode id="C7A4839CBF4DFF8D1D87FE5F9910FE6B" box="[213,294,475,501]" pageId="16" pageNumber="267">SNUC</collectionCode>
+)
+</materialsCitation>
+; 
+<materialsCitation id="11DD1104BF4DFF8D1C68FE5F9B06FD87" ID-GBIF-Occurrence="3746435319" collectingDate="2009-04-27" collectionCode="SNUC" collectorName="Zi-Wei Yin" country="China" county="China" elevation="1700" location="Bengganghani" municipality="Shanshenmiao" pageId="16" pageNumber="267" specimenCount="1" specimenCount-male="1" stateProvince="Yunnan" typeStatus="paratype">
+<specimenCount id="B7B3D0D0BF4DFF8D1C68FE5F9951FE68" box="[314,359,475,502]" pageId="16" pageNumber="267" type="male">1 ♂</specimenCount>
+, labelled: “ 
+<collectingCounty id="486B63D5BF4DFF8D1CB5FE5F9A1AFE6B" box="[487,556,475,501]" pageId="16" pageNumber="267">China</collectingCounty>
+: 
+<collectingRegion id="6371D5BBBF4DFF8D1F7DFE5F9AFBFE68" box="[559,717,475,502]" country="China" name="Yunnan" pageId="16" pageNumber="267">Yunnan Prov.</collectingRegion>
+/ Nabanhe 
+<taxonomicNameLabel id="88F27A30BF4DFF8D1E03FE589BB8FE68" box="[849,910,476,502]" pageId="16" pageNumber="267" rank="subSpecies">N. R.</taxonomicNameLabel>
+/ 
+<collectingMunicipality id="416E8123BF4DFF8D1EF4FE5F9C7FFE6B" box="[934,1097,475,501]" pageId="16" pageNumber="267">Shanshenmiao</collectingMunicipality>
+/ 
+<location id="A46A4D82BF4DFF8D1930FE5F9D32FE6B" LSID="urn:lsid:plazi:treatment:291CAA4FBF4DFF8C1DC5FF139C06FA90:A46A4D82BF4DFF8D1930FE5F9D32FE6B" box="[1122,1284,475,501]" country="China" county="China" municipality="Shanshenmiao" name="Bengganghani" pageId="16" pageNumber="267" stateProvince="Yunnan">Bengganghani</location>
+/ alt. 
+<quantity id="664DB6BCBF4DFF8D1815FE5F9DAEFE6B" box="[1351,1432,475,501]" metricMagnitude="3" metricUnit="m" metricValue="1.7" pageId="16" pageNumber="267" unit="m" value="1700.0">
+<elevation id="2A98FC6ABF4DFF8D1815FE5F9DAEFE6B" box="[1351,1432,475,501]" metricMagnitude="3" metricUnit="m" metricValue="1.7" pageId="16" pageNumber="267" unit="m" value="1700.0">1700m</elevation>
+</quantity>
+, 
+<date id="D50B3D99BF4DFF8D1DC5FE7B992FFD87" box="[151,281,511,537]" pageId="16" pageNumber="267" value="2009-04-27">
+<collectingDate id="C54FC471BF4DFF8D1DC5FE7B992FFD87" box="[151,281,511,537]" pageId="16" pageNumber="267" value="2009-04-27">27-IV-2009</collectingDate>
+</date>
+/ Jia-Yao Hu &amp; / 
+<collectorName id="0C407E8FBF4DFF8D1CB6FE7B9A57FD87" box="[484,609,511,537]" pageId="16" pageNumber="267">Zi-Wei Yin</collectorName>
+leg. [p]” (
+<collectionCode id="C7A4839CBF4DFF8D1F85FE7B9B1EFD87" box="[727,808,511,537]" pageId="16" pageNumber="267">SNUC</collectionCode>
+)
+</materialsCitation>
+; 
+<materialsCitation id="11DD1104BF4DFF8D1E6EFE7B9DB5FDA3" ID-GBIF-Occurrence="3746435314" collectingDate="2009-04-28" collectionCode="NMPC, SNUC" collectorName="Zi-Wei Yin" country="China" county="China" elevation="1750" location="Bengganghani" municipality="Chuguohe" pageId="16" pageNumber="267" specimenCount="2" specimenCount-male="2" stateProvince="Yunnan" typeStatus="paratype">
+<specimenCount id="B7B3D0D0BF4DFF8D1E6EFE7B9B5FFD84" box="[828,873,511,538]" pageId="16" pageNumber="267" type="male">2 ♂</specimenCount>
+, labelled: “ 
+<collectingCounty id="486B63D5BF4DFF8D1EBAFE7B9C1BFD87" box="[1000,1069,511,537]" pageId="16" pageNumber="267">China</collectingCounty>
+: 
+<collectingRegion id="6371D5BBBF4DFF8D1962FE7B9CF8FD84" box="[1072,1230,511,538]" country="China" name="Yunnan" pageId="16" pageNumber="267">Yunnan Prov.</collectingRegion>
+/ Nabanhe 
+<taxonomicNameLabel id="88F27A30BF4DFF8D1802FD849DBBFD84" box="[1360,1421,512,538]" pageId="16" pageNumber="267" rank="subSpecies">N. R.</taxonomicNameLabel>
+/ 
+<collectingMunicipality id="416E8123BF4DFF8D1DC5FDA7993CFDA3" box="[151,266,547,573]" pageId="16" pageNumber="267">Chuguohe</collectingMunicipality>
+/ 
+<location id="A46A4D82BF4DFF8D1C73FDA799F5FDA3" LSID="urn:lsid:plazi:treatment:291CAA4FBF4DFF8C1DC5FF139C06FA90:A46A4D82BF4DFF8D1C73FDA799F5FDA3" box="[289,451,547,573]" country="China" county="China" municipality="Chuguohe" name="Bengganghani" pageId="16" pageNumber="267" stateProvince="Yunnan">Bengganghani</location>
+[p] // alt. 
+<quantity id="664DB6BCBF4DFF8D1F66FDA79AB2FDA0" box="[564,644,547,574]" metricMagnitude="3" metricUnit="m" metricValue="1.75" pageId="16" pageNumber="267" unit="m" value="1750.0">
+<elevation id="2A98FC6ABF4DFF8D1F66FDA79AB2FDA0" box="[564,644,547,574]" metricMagnitude="3" metricUnit="m" metricValue="1.75" pageId="16" pageNumber="267" unit="m" value="1750.0">1750m</elevation>
+</quantity>
+, 
+<date id="D50B3D99BF4DFF8D1FC2FDA79B27FDA3" box="[656,785,547,573]" pageId="16" pageNumber="267" value="2009-04-28">
+<collectingDate id="C54FC471BF4DFF8D1FC2FDA79B27FDA3" box="[656,785,547,573]" pageId="16" pageNumber="267" value="2009-04-28">28-IV-2009</collectingDate>
+</date>
+/ Jia-Yao Hu &amp; / 
+<collectorName id="0C407E8FBF4DFF8D1E88FDA79C61FDA3" box="[986,1111,547,573]" pageId="16" pageNumber="267">Zi-Wei Yin</collectorName>
+leg. [p]” (
+<collectionCode id="C7A4839CBF4DFF8D1999FDA79D29FDA3" box="[1227,1311,547,573]" country="Czech Republic" httpUri="http://grbio.org/cool/hj12-2xm7" name="National Museum Prague" pageId="16" pageNumber="267">NMPC</collectionCode>
+, 
+<collectionCode id="C7A4839CBF4DFF8D1879FDA79D4DFDA3" box="[1323,1403,547,573]" pageId="16" pageNumber="267">SNUC</collectionCode>
+)
+</materialsCitation>
+; 
+<materialsCitation id="11DD1104BF4DFF8D18DCFDA79C32FD1B" ID-GBIF-Occurrence="3746435462" collectingDate="2021-04-30" collectionCode="SYSU" collectorName="Z. Jiang &amp; Z. Yang &amp; Z. Mai &amp; B. Huang" country="China" county="Lvchun County" elevation="1717" latitude="22.8898" location="Huanglianshan Reservoir" longLatPrecision="7" longitude="102.2952" pageId="16" pageNumber="267" specimenCount="3" specimenCount-female="2" specimenCount-male="1" stateProvince="Yunnan" typeStatus="paratype">
+<specimenCount id="B7B3D0D0BF4DFF8D18DCFDA79898FDFC" pageId="16" pageNumber="267" type="male">1 ♂</specimenCount>
+, 
+<specimenCount id="B7B3D0D0BF4DFF8D1DE8FDC398D3FDFC" box="[186,229,583,610]" pageId="16" pageNumber="267" type="female">2 ♀</specimenCount>
+, labelled: “ 
+<collectingCountry id="D9A25BC9BF4DFF8D1C37FDC399F3FDFF" box="[357,453,583,609]" name="China" pageId="16" pageNumber="267">CHINA</collectingCountry>
+: 
+<collectingRegion id="6371D5BBBF4DFF8D1C9CFDCC9AB9FDFF" box="[462,655,583,610]" country="China" name="Yunnan" pageId="16" pageNumber="267">Yunnan Province</collectingRegion>
+/ 
+<collectingCounty id="486B63D5BF4DFF8D1FF7FDC39B65FDFF" box="[677,851,583,609]" pageId="16" pageNumber="267">Lvchun County</collectingCounty>
+/ 
+<location id="A46A4D82BF4DFF8D1E38FDC39CB0FDFF" LSID="urn:lsid:plazi:treatment:291CAA4FBF4DFF8C1DC5FF139C06FA90:A46A4D82BF4DFF8D1E38FDC39CB0FDFF" box="[874,1158,583,609]" country="China" county="Lvchun County" latitude="22.8898" longLatPrecision="7" longitude="102.2952" name="Huanglianshan Reservoir" pageId="16" pageNumber="267" stateProvince="Yunnan">Huanglianshan Reservoir</location>
+/ 
+<geoCoordinate id="C4817D9EBF4DFF8D19CFFDC39D3AFDFF" box="[1181,1292,583,609]" degrees="22.8898" direction="north" orientation="latitude" pageId="16" pageNumber="267" precision="5" value="22.8898">22.8898N</geoCoordinate>
+<geoCoordinate id="C4817D9EBF4DFF8D1841FDC39DBBFDFC" box="[1299,1421,583,610]" degrees="102.2952" direction="east" orientation="longitude" pageId="16" pageNumber="267" precision="5" value="102.2952">102.2952E</geoCoordinate>
+/ 
+<quantity id="664DB6BCBF4DFF8D1DC5FDEF98CBFD1B" box="[151,253,619,645]" metricMagnitude="3" metricUnit="m" metricValue="1.7172999999999998" pageId="16" pageNumber="267" unit="m" value="1717.3">
+<elevation id="2A98FC6ABF4DFF8D1DC5FDEF98CBFD1B" box="[151,253,619,645]" metricMagnitude="3" metricUnit="m" metricValue="1.7172999999999998" pageId="16" pageNumber="267" unit="m" value="1717.3">1717.3m</elevation>
+</quantity>
+, 
+<date id="D50B3D99BF4DFF8D1C55FDEF994BFD1B" box="[263,381,619,645]" pageId="16" pageNumber="267" value="2021-04-30">
+<collectingDate id="C54FC471BF4DFF8D1C55FDEF994BFD1B" box="[263,381,619,645]" pageId="16" pageNumber="267" value="2021-04-30">30.iv.2021</collectingDate>
+</date>
+/ 
+<collectorName id="0C407E8FBF4DFF8D1CC2FDE899DAFD1B" box="[400,492,619,646]" pageId="16" pageNumber="267">Z. Jiang</collectorName>
+, 
+<collectorName id="0C407E8FBF4DFF8D1CA4FDE89A66FD18" box="[502,592,620,646]" pageId="16" pageNumber="267">Z. Yang</collectorName>
+, 
+<collectorName id="0C407E8FBF4DFF8D1F08FDE89A93FD1B" box="[602,677,619,646]" pageId="16" pageNumber="267">Z. Mai</collectorName>
+&amp; / 
+<collectorName id="0C407E8FBF4DFF8D1F86FDE89B09FD18" box="[724,831,620,646]" pageId="16" pageNumber="267">B. Huang</collectorName>
+leg. [p]” (
+<collectionCode id="C7A4839CBF4DFF8D1EFDFDEF9BCAFD1B" box="[943,1020,619,645]" pageId="16" pageNumber="267">SYSU</collectionCode>
+)
+</materialsCitation>
+; 
+<materialsCitation id="11DD1104BF4DFF8D195CFDEF9905FD53" ID-GBIF-Occurrence="3746435367" collectingDate="2001-04-26" collectingDateMax="2001-05-11" collectingDateMin="2001-04-26" collectionCode="NMPC" collectorName="J. Bezdek" country="Laos" elevation="1750" latitude="20.25" location="Phu Phan Mt." longLatPrecision="1268" longitude="104.03333" pageId="16" pageNumber="267" specimenCount="3" specimenCount-female="2" specimenCount-male="1" stateProvince="Houaphan" typeStatus="paratype">
+<specimenCount id="B7B3D0D0BF4DFF8D195CFDEF9C0FFD18" box="[1038,1081,619,646]" pageId="16" pageNumber="267" type="male">1 ♂</specimenCount>
+, 
+<specimenCount id="B7B3D0D0BF4DFF8D1916FDEF9C5BFD18" box="[1092,1133,619,646]" pageId="16" pageNumber="267" type="female">2 ♀</specimenCount>
+, labelled: “NE 
+<collectingCountry id="D9A25BC9BF4DFF8D184AFDEF9D52FD1B" box="[1304,1380,619,645]" name="Laos" pageId="16" pageNumber="267">LAOS</collectingCountry>
+, 
+<collectingRegion id="6371D5BBBF4DFF8D183CFDE89924FD34" country="Laos" name="Houaphan" pageId="16" pageNumber="267">Hua Phan Prov.</collectingRegion>
+/ BAN SALUEI, 
+<location id="A46A4D82BF4DFF8D1CB3FD0B9A4BFD34" LSID="urn:lsid:plazi:treatment:291CAA4FBF4DFF8C1DC5FF139C06FA90:A46A4D82BF4DFF8D1CB3FD0B9A4BFD34" box="[481,637,655,682]" country="Laos" latitude="20.25" longLatPrecision="1268" longitude="104.03333" name="Phu Phan Mt." pageId="16" pageNumber="267" stateProvince="Houaphan">Phu Phan Mt.</location>
+/ 
+<geoCoordinate id="C4817D9EBF4DFF8D1FC4FD159AC5FD32" box="[662,755,657,684]" degrees="20" direction="north" minutes="15" orientation="latitude" pageId="16" pageNumber="267" precision="925" value="20.25">20°15′N</geoCoordinate>
+<geoCoordinate id="C4817D9EBF4DFF8D1FAEFD159B50FD32" box="[764,870,657,684]" degrees="104" direction="east" minutes="02" orientation="longitude" pageId="16" pageNumber="267" precision="925" value="104.03333">104°02′E</geoCoordinate>
+, / 
+<quantity id="664DB6BCBF4DFF8D1ED6FD0B9C14FD34" box="[900,1058,655,682]" metricMagnitude="3" metricUnit="m" metricValue="1.75" metricValueMax="2.0" metricValueMin="1.5" pageId="16" pageNumber="267" unit="m" value="1750.0" valueMax="2000.0" valueMin="1500.0">
+<elevation id="2A98FC6ABF4DFF8D1ED6FD0B9C14FD34" box="[900,1058,655,682]" metricMagnitude="3" metricUnit="m" metricValue="1.75" metricValueMax="2.0" metricValueMin="1.5" pageId="16" pageNumber="267" unit="m" value="1750.0" valueMax="2000.0" valueMin="1500.0">1500–2000 m</elevation>
+</quantity>
+, / 
+<collectorName id="0C407E8FBF4DFF8D196DFD149C98FD37" box="[1087,1198,655,682]" pageId="16" pageNumber="267">J. Bezděk</collectorName>
+leg. 
+<date id="D50B3D99BF4DFF8D19BAFD0B9DABFD37" box="[1256,1437,655,681]" pageId="16" pageNumber="267" value="2001-04-26" valueMax="2001-05-11" valueMin="2001-04-26">
+<collectingDate id="C54FC471BF4DFF8D19BAFD0B9DABFD37" box="[1256,1437,655,681]" pageId="16" pageNumber="267" value="2001-04-26" valueMax="2001-05-11" valueMin="2001-04-26">26.iv.-11.v.2001</collectingDate>
+</date>
+[p]” (
+<collectionCode id="C7A4839CBF4DFF8D1D87FD37991DFD53" box="[213,299,691,717]" country="Czech Republic" httpUri="http://grbio.org/cool/hj12-2xm7" name="National Museum Prague" pageId="16" pageNumber="267">NMPC</collectionCode>
+)
+</materialsCitation>
+; 
+<materialsCitation id="11DD1104BF4DFF8D1C12FD379B73FD6F" ID-GBIF-Occurrence="3746435453" collectingDate="2008-05-08" collectionCode="NMPC" country="Laos" elevation="1800" location="Houa Phan prov." pageId="16" pageNumber="267" specimenCount="2" specimenCount-male="2" typeStatus="paratype">
+<specimenCount id="B7B3D0D0BF4DFF8D1C12FD379958FD50" box="[320,366,691,718]" pageId="16" pageNumber="267" type="male">2 ♂</specimenCount>
+, labelled: “ 
+<collectingCountry id="D9A25BC9BF4DFF8D1CBDFD379A0DFD53" box="[495,571,691,717]" name="Laos" pageId="16" pageNumber="267">LAOS</collectingCountry>
+–NE, 
+<location id="A46A4D82BF4DFF8D1F2DFD309B09FD50" LSID="urn:lsid:plazi:treatment:291CAA4FBF4DFF8C1DC5FF139C06FA90:A46A4D82BF4DFF8D1F2DFD309B09FD50" box="[639,831,691,718]" country="Laos" name="Houa Phan prov." pageId="16" pageNumber="267">Houa Phan prov.</location>
+/ 20°12′01-30″ N 104°00′ / 34-55″ E, 
+<quantity id="664DB6BCBF4DFF8D19AFFD379DA1FD50" box="[1277,1431,691,718]" metricMagnitude="3" metricUnit="m" metricValue="1.8" metricValueMax="1.85" metricValueMin="1.75" pageId="16" pageNumber="267" unit="m" value="1800.0" valueMax="1850.0" valueMin="1750.0">
+<elevation id="2A98FC6ABF4DFF8D19AFFD379DA1FD50" box="[1277,1431,691,718]" metricMagnitude="3" metricUnit="m" metricValue="1.8" metricValueMax="1.85" metricValueMin="1.75" pageId="16" pageNumber="267" unit="m" value="1800.0" valueMax="1850.0" valueMin="1750.0">1750-1850 m</elevation>
+</quantity>
+, / PHOU PANE Mt. / 
+<date id="D50B3D99BF4DFF8D1CDFFD5399D9FD6F" box="[397,495,727,753]" pageId="16" pageNumber="267" value="2008-05-08">
+<collectingDate id="C54FC471BF4DFF8D1CDFFD5399D9FD6F" box="[397,495,727,753]" pageId="16" pageNumber="267" value="2008-05-08">8.v.2008</collectingDate>
+</date>
+, Vít Kubáň lgt. [p]” (
+<collectionCode id="C7A4839CBF4DFF8D1FB5FD539B0BFD6F" box="[743,829,727,753]" country="Czech Republic" httpUri="http://grbio.org/cool/hj12-2xm7" name="National Museum Prague" pageId="16" pageNumber="267">NMPC</collectionCode>
+)
+</materialsCitation>
+; 
+<materialsCitation id="11DD1104BF4DFF8D1E00FD539DAEFC8B" ID-GBIF-Occurrence="3746435463" collectionCode="NMPC" country="Laos" elevation="1800" location="Houa Phan prov." pageId="16" pageNumber="267" specimenCount="2" specimenCount-female="1" specimenCount-male="1" typeStatus="paratype">
+<specimenCount id="B7B3D0D0BF4DFF8D1E00FD539BB6FD6C" box="[850,896,727,754]" pageId="16" pageNumber="267" type="male">1 ♂</specimenCount>
+, 
+<specimenCount id="B7B3D0D0BF4DFF8D1EDFFD539B8FFD6C" box="[909,953,727,754]" pageId="16" pageNumber="267" type="female">1 ♀</specimenCount>
+, labelled: “LAOS-NE, 
+<location id="A46A4D82BF4DFF8D1994FD5C9DBEFD6C" LSID="urn:lsid:plazi:treatment:291CAA4FBF4DFF8C1DC5FF139C06FA90:A46A4D82BF4DFF8D1994FD5C9DBEFD6C" box="[1222,1416,727,754]" country="Laos" name="Houa Phan prov." pageId="16" pageNumber="267">Houa Phan prov.</location>
+, / 20°12′01-30″N 104°00′34- / 55″E, 
+<quantity id="664DB6BCBF4DFF8D1F72FD7F9A84FC88" box="[544,690,763,790]" metricMagnitude="3" metricUnit="m" metricValue="1.8" metricValueMax="1.85" metricValueMin="1.75" pageId="16" pageNumber="267" unit="m" value="1800.0" valueMax="1850.0" valueMin="1750.0">
+<elevation id="2A98FC6ABF4DFF8D1F72FD7F9A84FC88" box="[544,690,763,790]" metricMagnitude="3" metricUnit="m" metricValue="1.8" metricValueMax="1.85" metricValueMin="1.75" pageId="16" pageNumber="267" unit="m" value="1800.0" valueMax="1850.0" valueMin="1750.0">1750-1850m</elevation>
+</quantity>
+, / PHOU PANE Mt. 4.+ 
+<date id="D50B3D99BF4DFF8D1EEDFD7F9C78FC8B" box="[959,1102,763,789]" pageId="16" pageNumber="267" value="2009-06-10">10.vi. / 2009</date>
+, Vít Kubáň lgt. [p]” (
+<collectionCode id="C7A4839CBF4DFF8D1868FD7F9DA6FC8B" box="[1338,1424,763,789]" country="Czech Republic" httpUri="http://grbio.org/cool/hj12-2xm7" name="National Museum Prague" pageId="16" pageNumber="267">NMPC</collectionCode>
+)
+</materialsCitation>
+; 
+<materialsCitation id="11DD1104BF4DFF8D1DC5FC9B9B69FCC3" ID-GBIF-Occurrence="3746435389" collectingDate="2009-05-10" collectingDateMax="2009-05-30" collectingDateMin="2009-05-10" collectionCode="NMPC" collectorName="V. Kuban" country="Laos" elevation="1500" latitude="19.636667" location="Phou Sane Mt." longLatPrecision="12" longitude="103.33667" municipality="Xieng Khouan prov." pageId="16" pageNumber="267" specimenCount="1" specimenCount-male="1" typeStatus="paratype">
+<specimenCount id="B7B3D0D0BF4DFF8D1DC5FC9B98F2FCA4" box="[151,196,799,826]" pageId="16" pageNumber="267" type="male">1 ♂</specimenCount>
+, labelled: “LAOS-NE, 
+<collectingMunicipality id="416E8123BF4DFF8D1C9FFC9B9A80FCA4" box="[461,694,799,826]" pageId="16" pageNumber="267">Xieng Khouan prov.</collectingMunicipality>
+, / 
+<geoCoordinate id="C4817D9EBF4DFF8D1F83FCA59B64FCA2" box="[721,850,801,828]" degrees="19" direction="north" minutes="38.20" orientation="latitude" pageId="16" pageNumber="267" precision="9" value="19.636667">19°38.20′N</geoCoordinate>
+<geoCoordinate id="C4817D9EBF4DFF8D1E08FCA59BDEFCA2" box="[858,1000,801,828]" degrees="103" direction="east" minutes="20.20" orientation="longitude" pageId="16" pageNumber="267" precision="9" value="103.33667">103°20.20′E</geoCoordinate>
+, / Phonsavan (
+<quantity id="664DB6BCBF4DFF8D19DFFC9B9CF9FCA7" box="[1165,1231,799,825]" metricMagnitude="4" metricUnit="m" metricValue="3.0" pageId="16" pageNumber="267" unit="km" value="30.0">30km</quantity>
+NE), / 
+<location id="A46A4D82BF4DFF8D1876FC9B98F4FCC0" LSID="urn:lsid:plazi:treatment:291CAA4FBF4DFF8C1DC5FF139C06FA90:A46A4D82BF4DFF8D1876FC9B98F4FCC0" country="Laos" latitude="19.636667" longLatPrecision="12" longitude="103.33667" municipality="Xieng Khouan prov." name="Phou Sane Mt." pageId="16" pageNumber="267">Phou Sane Mt.</location>
+, 
+<date id="D50B3D99BF4DFF8D1D9FFCC7995DFCC3" box="[205,363,835,861]" pageId="16" pageNumber="267" value="2009-05-10" valueMax="2009-05-30" valueMin="2009-05-10">
+<collectingDate id="C54FC471BF4DFF8D1D9FFCC7995DFCC3" box="[205,363,835,861]" pageId="16" pageNumber="267" value="2009-05-10" valueMax="2009-05-30" valueMin="2009-05-10">10.-30.v.2009</collectingDate>
+</date>
+, / 
+<quantity id="664DB6BCBF4DFF8D1CD4FCC79A21FCC3" box="[390,535,835,861]" metricMagnitude="3" metricUnit="m" metricValue="1.5" metricValueMax="1.6" metricValueMin="1.4" pageId="16" pageNumber="267" unit="m" value="1500.0" valueMax="1600.0" valueMin="1400.0">
+<elevation id="2A98FC6ABF4DFF8D1CD4FCC79A21FCC3" box="[390,535,835,861]" metricMagnitude="3" metricUnit="m" metricValue="1.5" metricValueMax="1.6" metricValueMin="1.4" pageId="16" pageNumber="267" unit="m" value="1500.0" valueMax="1600.0" valueMin="1400.0">1400-1600m</elevation>
+</quantity>
+, 
+<collectorName id="0C407E8FBF4DFF8D1F71FCC09ABBFCC3" box="[547,653,835,862]" pageId="16" pageNumber="267">V. Kubáň</collectorName>
+leg. [p]” (
+<collectionCode id="C7A4839CBF4DFF8D1E53FCC79B61FCC3" box="[769,855,835,861]" country="Czech Republic" httpUri="http://grbio.org/cool/hj12-2xm7" name="National Museum Prague" pageId="16" pageNumber="267">NMPC</collectionCode>
+)
+</materialsCitation>
+. 
+<specimenCount id="B7B3D0D0BF4DFF8D1E38FCC79BA0FCC0" box="[874,918,835,862]" pageId="16" pageNumber="267" type="male">1 ♂</specimenCount>
+, 
+<specimenCount id="B7B3D0D0BF4DFF8D1EF1FCC79BFBFCC0" box="[931,973,835,862]" pageId="16" pageNumber="267" type="female">1 ♀</specimenCount>
++ 
+<materialsCitation id="11DD1104BF4DFF8D1EBEFCC79DAEFC1F" ID-GBIF-Occurrence="3746435317" collectionCode="ZMHB" collectorName="V. Assing" country="Laos" elevation="2010" latitude="22.352777" location="Sa Pa" longLatPrecision="21" longitude="103.766945" pageId="16" pageNumber="267" specimenCount="6" typeStatus="paratype">
+<specimenCount id="B7B3D0D0BF4DFF8D1EBEFCC79C0BFCC0" box="[1004,1085,835,862]" pageId="16" pageNumber="267" type="generic">6 spec.</specimenCount>
+, labelled: “N-Vietnam – pass 
+<quantity id="664DB6BCBF4DFF8D18DCFCC7988DFC1F" metricMagnitude="3" metricUnit="m" metricValue="8.0" pageId="16" pageNumber="267" unit="km" value="8.0">8 km</quantity>
+/ NW 
+<location id="A46A4D82BF4DFF8D1C56FCE39973FC1C" LSID="urn:lsid:plazi:treatment:291CAA4FBF4DFF8C1DC5FF139C06FA90:A46A4D82BF4DFF8D1C56FCE39973FC1C" box="[260,325,871,898]" country="Laos" latitude="22.352777" longLatPrecision="21" longitude="103.766945" name="Sa Pa" pageId="16" pageNumber="267">Sa Pa</location>
+, 
+<geoCoordinate id="C4817D9EBF4DFF8D1C1DFCE399EBFC1F" box="[335,477,871,897]" degrees="22" direction="north" minutes="21" orientation="latitude" pageId="16" pageNumber="267" precision="15" seconds="10" value="22.352777">22°21’10’’N</geoCoordinate>
+/ 
+<geoCoordinate id="C4817D9EBF4DFF8D1CA3FCE39ABDFC1F" box="[497,651,871,897]" degrees="103" direction="east" minutes="46" orientation="longitude" pageId="16" pageNumber="267" precision="15" seconds="01" value="103.766945">103°46’01’’E</geoCoordinate>
+, 
+<quantity id="664DB6BCBF4DFF8D1FC4FCE39ADBFC1C" box="[662,749,871,898]" metricMagnitude="3" metricUnit="m" metricValue="2.01" pageId="16" pageNumber="267" unit="m" value="2010.0">
+<elevation id="2A98FC6ABF4DFF8D1FC4FCE39ADBFC1C" box="[662,749,871,898]" metricMagnitude="3" metricUnit="m" metricValue="2.01" pageId="16" pageNumber="267" unit="m" value="2010.0">2010 m</elevation>
+</quantity>
+, / second. forest, 
+<date id="D50B3D99BF4DFF8D1EFCFCE39C61FC1F" box="[942,1111,871,897]" pageId="16" pageNumber="267" value="2013-08-12">12.VIII. / 2013</date>
+, 
+<collectorName id="0C407E8FBF4DFF8D1933FCEC9CFAFC1F" box="[1121,1228,871,898]" pageId="16" pageNumber="267">V. Assing</collectorName>
+[7b+2]” (
+<collectionCode id="C7A4839CBF4DFF8D186BFCE39DA6FC1F" box="[1337,1424,871,897]" pageId="16" pageNumber="267">ZMHB</collectionCode>
+)
+</materialsCitation>
+; 
+<materialsCitation id="11DD1104BF4DFF8D1DC5FC0F9D5BFC57" ID-GBIF-Occurrence="3746435486" collectingDate="2014-05-09" collectingDateMax="2014-05-15" collectingDateMin="2014-05-09" collectionCode="ZSMG" collectorName="M. Balke" country="Laos" county="Vietnam" elevation="1075" latitude="22.631945" location="Tinh" municipality="Cao Bang Prov." pageId="16" pageNumber="267" specimenCount="1" specimenCount-male="1" typeStatus="paratype">
+<specimenCount id="B7B3D0D0BF4DFF8D1DC5FC0F98F0FC38" box="[151,198,907,934]" pageId="16" pageNumber="267" type="male">1 ♂</specimenCount>
+, labelled: “ 
+<collectingCounty id="486B63D5BF4DFF8D1C1AFC0F9998FC3B" box="[328,430,907,933]" pageId="16" pageNumber="267">Vietnam</collectingCounty>
+: 
+<collectingMunicipality id="416E8123BF4DFF8D1CE9FC0F9A42FC38" box="[443,628,907,934]" pageId="16" pageNumber="267">Cao Bang Prov.</collectingMunicipality>
+, 
+<location id="A46A4D82BF4DFF8D1FD3FC0F9A83FC3B" LSID="urn:lsid:plazi:treatment:291CAA4FBF4DFF8C1DC5FF139C06FA90:A46A4D82BF4DFF8D1FD3FC0F9A83FC3B" box="[641,693,907,933]" country="Laos" county="Vietnam" latitude="22.631945" municipality="Cao Bang Prov." name="Tinh" pageId="16" pageNumber="267">Tinh</location>
+/ 
+<location id="A46A4D82BF4DFF8D1F82FC089ACBFC38" LSID="urn:lsid:plazi:treatment:291CAA4FBF4DFF8C1DC5FF139C06FA90:A46A4D82BF4DFF8D1F82FC089ACBFC38" box="[720,765,908,934]" country="Laos" county="Vietnam" latitude="22.631945" municipality="Cao Bang Prov." name="Tuc" pageId="16" pageNumber="267">Tuc</location>
+, 
+<location id="A46A4D82BF4DFF8D1E59FC0F9BB7FC38" LSID="urn:lsid:plazi:treatment:291CAA4FBF4DFF8C1DC5FF139C06FA90:A46A4D82BF4DFF8D1E59FC0F9BB7FC38" box="[779,897,907,934]" country="Laos" county="Vietnam" latitude="22.631945" municipality="Cao Bang Prov." name="Son Dong" pageId="16" pageNumber="267">Son Dong</location>
+, 
+<location id="A46A4D82BF4DFF8D1EDDFC0F9C2BFC3B" LSID="urn:lsid:plazi:treatment:291CAA4FBF4DFF8C1DC5FF139C06FA90:A46A4D82BF4DFF8D1EDDFC0F9C2BFC3B" box="[911,1053,907,933]" country="Laos" county="Vietnam" latitude="22.631945" municipality="Cao Bang Prov." name="Nui Pia Oac" pageId="16" pageNumber="267">Nui Pia Oac</location>
+/ 
+<location id="A46A4D82BF4DFF8D196AFC089CDDFC38" LSID="urn:lsid:plazi:treatment:291CAA4FBF4DFF8C1DC5FF139C06FA90:A46A4D82BF4DFF8D196AFC089CDDFC38" box="[1080,1259,908,934]" country="Laos" county="Vietnam" latitude="22.631945" municipality="Cao Bang Prov." name="Nature Reserve" pageId="16" pageNumber="267">Nature Reserve</location>
+, 
+<quantity id="664DB6BCBF4DFF8D19ABFC0F9D4CFC38" box="[1273,1402,907,934]" metricMagnitude="3" metricUnit="m" metricValue="1.075" metricValueMax="1.3" metricValueMin="0.85" pageId="16" pageNumber="267" unit="m" value="1075.0" valueMax="1300.0" valueMin="850.0">
+<elevation id="2A98FC6ABF4DFF8D19ABFC0F9D4CFC38" box="[1273,1402,907,934]" metricMagnitude="3" metricUnit="m" metricValue="1.075" metricValueMax="1.3" metricValueMin="0.85" pageId="16" pageNumber="267" unit="m" value="1075.0" valueMax="1300.0" valueMin="850.0">850-1300m</elevation>
+</quantity>
+, / 
+<date id="D50B3D99BF4DFF8D1DC5FC2B9929FC54" box="[151,287,943,970]" pageId="16" pageNumber="267" value="2014-05-09" valueMax="2014-05-15" valueMin="2014-05-09">
+<collectingDate id="C54FC471BF4DFF8D1DC5FC2B9929FC54" box="[151,287,943,970]" pageId="16" pageNumber="267" value="2014-05-09" valueMax="2014-05-15" valueMin="2014-05-09">9-15.v.2014</collectingDate>
+</date>
+, 22°37′55″N / 105°52′98″E, A. Skale [p] // DNA / 
+<collectorName id="0C407E8FBF4DFF8D1E3CFC349BEEFC57" box="[878,984,943,970]" pageId="16" pageNumber="267">M. Balke</collectorName>
+/ 6665 [p, green typing]” (
+<collectionCode id="C7A4839CBF4DFF8D1843FC2B9D53FC57" box="[1297,1381,943,969]" pageId="16" pageNumber="267">ZSMG</collectionCode>
+)
+</materialsCitation>
+. 
+<materialsCitation id="11DD1104BF4DFF8D182AFC2B9AB3FC73" ID-GBIF-Occurrence="3746435421" country="Laos" location="All" pageId="16" pageNumber="267" specimenCount="2" typeStatus="paratype">
+<location id="A46A4D82BF4DFF8D182AFC2B9DAAFC57" LSID="urn:lsid:plazi:treatment:291CAA4FBF4DFF8C1DC5FF139C06FA90:A46A4D82BF4DFF8D182AFC2B9DAAFC57" box="[1400,1436,943,969]" country="Laos" name="All" pageId="16" pageNumber="267">All</location>
+<typeStatus id="7E0EA5FBBF4DFF8D1DC5FC509934FC70" box="[151,258,980,1006]" pageId="16" pageNumber="267">paratypes</typeStatus>
+with the respective 
+<typeStatus id="7E0EA5FBBF4DFF8D1CB6FC509A72FC70" box="[484,580,980,1006]" pageId="16" pageNumber="267">paratype</typeStatus>
+label
+</materialsCitation>
+.
+</paragraph>
+</subSubSection>
+<subSubSection id="E9AF48D2BF4DFF8C1D95FC739D7EFC3B" lastPageId="17" lastPageNumber="268" pageId="16" pageNumber="267" type="description">
+<paragraph id="A10A1B59BF4DFF8D1D95FC739AC8FBAB" blockId="16.[151,1437,259,2014]" pageId="16" pageNumber="267">
+<emphasis id="93C1C74BBF4DFF8D1D95FC739AB3FB8C" bold="true" box="[199,645,1015,1042]" pageId="16" pageNumber="267">
+Description of male 
+<typeStatus id="7E0EA5FBBF4DFF8D1CE7FC739A28FB8F" box="[437,542,1015,1041]" pageId="16" pageNumber="267">holotype</typeStatus>
+. 
+<emphasis id="93C1C74BBF4DFF8D1F7BFC739AB3FB8C" bold="true" box="[553,645,1015,1042]" italics="true" pageId="16" pageNumber="267">Habitus</emphasis>
+</emphasis>
+(
+<figureCitation id="398E07DCBF4DFF8D1FC1FC739AD5FB8F" box="[659,739,1015,1041]" captionStart="FIGURES 17–20" captionStartId="35.[151,264,1943,1967]" captionTargetBox="[216,1367,188,1912]" captionTargetId="figure-18@35.[203,1385,181,1919]" captionTargetPageId="35" captionText="FIGURES 17–20. Habitus of Copelatus in China. 17. C. puzhelongi sp. nov. (holotype ♂; Pu’er, Yunnan); 18. C. puzhelongi sp. nov. (paratype ♀; Pu’er, Yunnan); 19. C. rimosus (♂; Dali, Yunnan); 20. C. rosulae (paratype ♂; Pianma, Yunnan). Scale bar 1 mm." figureDoi="http://doi.org/10.5281/zenodo.6410721" httpUri="https://zenodo.org/record/6410721/files/figure.png" pageId="16" pageNumber="267">Fig. 17</figureCitation>
+) oblong-oval, with continuous outline, broadest in anterior 1/3 of elytral length, slightly convex. Dorsal surface shiny.
+</paragraph>
+<paragraph id="A10A1B59BF4DFF8D1D95FBBB9B87FB3F" blockId="16.[151,1437,259,2014]" pageId="16" pageNumber="267">
+<emphasis id="93C1C74BBF4DFF8D1D95FBBB996CFBC4" bold="true" box="[199,346,1087,1114]" italics="true" pageId="16" pageNumber="267">Colouration.</emphasis>
+Head dark brown, clypeus and two oval spots on vertex orange; pronotum dark brown, laterally broadly orange, anterior and posterior margin orange translucent; elytra orange-brown, base and lateral sides indistinctly paler, orange; appendages orange; ventral side dark brown.
+</paragraph>
+<paragraph id="A10A1B59BF4DFF8D1D95FB2F9B51FAE7" blockId="16.[151,1437,259,2014]" pageId="16" pageNumber="267">
+<emphasis id="93C1C74BBF4DFF8D1D95FB2F993AFB58" bold="true" box="[199,268,1195,1222]" italics="true" pageId="16" pageNumber="267">Head.</emphasis>
+Moderately broad, ca. 0.62× width of pronotum, semicircular. Anterior margin of clypeus indistinctly concave. Antenna with antennomeres long and slender. Reticulation consisting of moderately deeply impressed polygonal isodiametric meshes. Punctation double, consisting of coarse setigerous punctures, and fine punctures spread sparsely on surface; row of coarse punctures present alongside inner margin of eyes, several punctures present at frontal level of eyes, and antero-laterally to eyes in fronto-clypeal depressions; fine punctures smaller and sparser on clypeus, becoming larger and more dense posteriorly.
+</paragraph>
+<paragraph id="A10A1B59BF4DFF8D1D95FA079AC5F9CC" blockId="16.[151,1437,259,2014]" pageId="16" pageNumber="267">
+<emphasis id="93C1C74BBF4DFF8D1D95FA079975FA03" bold="true" box="[199,323,1411,1437]" italics="true" pageId="16" pageNumber="267">Pronotum.</emphasis>
+Transverse (width/length ratio = 2.92), broadest between posterior angles, lateral margins moderately curved. Lateral sides with beading very thin but distinct except for anterior angles. Reticulation similar to that of head. Punctation similar to that of head; rows of coarse setigerous punctures present along anterior margin, laterally close to sides, several punctures present also in shallow baso-lateral depressions along basal margin. Pronotum baso-laterally and especially laterally with several, irregularly distributed short longitudinal strioles. 
+<collectingRegion id="6371D5BBBF4DFF8D19ADF9979D7CF9B3" box="[1279,1354,1555,1581]" country="France" name="Centre" pageId="16" pageNumber="267">Centre</collectingRegion>
+of disc with shallowly impressed medial longitudinal groove.
+</paragraph>
+<paragraph id="A10A1B59BF4DFF8D1D95F9DF9B4BF8D3" blockId="16.[151,1437,259,2014]" pageId="16" pageNumber="267">
+<emphasis id="93C1C74BBF4DFF8D1D95F9DF9923F9E8" bold="true" box="[199,277,1627,1654]" italics="true" pageId="16" pageNumber="267">Elytra.</emphasis>
+Base of elytra as broad as pronotal base; lateral margins of elytra slightly diverging in basal third, then distinctly narrowing to apex. Six discal and one submarginal longitudinal striae present on each elytron: striae 1–4 beginning at base, striae 5–6 beginning slightly posteriorly to base; stria 1 longest, ending close to apex; striae 2–5 somewhat shorter, ending subapically, even striae generally shorter than odd striae; stria 6 ending at apical fourth; submarginal stria long, beginning before elytral mid-length and ending at apical fourth. Reticulation similar to that of head and pronotum. Punctation consisting of coarse setigerous punctures and very fine sparse punctures; coarse punctures present along elytral striae and lateral margins of elytra.
+</paragraph>
+<paragraph id="A10A1B59BF4DFF8D1D95F8D39C85F80B" blockId="16.[151,1437,259,2014]" pageId="16" pageNumber="267">
+<emphasis id="93C1C74BBF4DFF8D1D95F8D39933F8EF" bold="true" box="[199,261,1879,1905]" pageId="16" pageNumber="267">
+<emphasis id="93C1C74BBF4DFF8D1D95F8D398CBF8EF" bold="true" box="[199,253,1879,1905]" italics="true" pageId="16" pageNumber="267">Legs</emphasis>
+.
+</emphasis>
+Protibia modified, angled near base, distinctly broadened anteriorly, club shaped. Pro- and mesotarsomeres 1–3 distinctly broadened, with four rows of adhesive setae on their ventral side; claws simple.
+</paragraph>
+<paragraph id="A10A1B59BF4DFF8C1D95F81B9B0BFE33" blockId="16.[151,1437,259,2014]" lastBlockId="17.[151,1437,151,1294]" lastPageId="17" lastPageNumber="268" pageId="16" pageNumber="267">
+<emphasis id="93C1C74BBF4DFF8D1D95F81B9961F827" bold="true" box="[199,343,1951,1978]" pageId="16" pageNumber="267">
+<emphasis id="93C1C74BBF4DFF8D1D95F81B9966F824" bold="true" box="[199,336,1951,1978]" italics="true" pageId="16" pageNumber="267">Ventral side</emphasis>
+.
+</emphasis>
+Prosternum sinuate anteriorly, obtusely keeled medially. Prosternal process shortly lanceolate, in cross-section convex, apex obtuse; process distinctly bordered laterally; reticulation imperceptible. Metaventrite with microsculpture consisting of polygonal meshes; lateral parts of metaventrite (“metasternal wings”) tongueshaped, slender. Metacoxal lines nearly complete, absent only close to metaventrite. Metacoxal plates covered with short, longitudinal strioles and some transverse wrinkles; reticulation consisting of elongate, longitudinal and oblique polygonal meshes. Metacoxal processes rounded at posterior margin. Abdominal ventrites I–II with longitudinal strioles; ventrites III–IV with oblique strioles laterally. Tuft of setae present antero-medially on ventrites III–V; ventrite VI with setigerous punctures laterally on either side. Abdominal reticulation consisting of elongate polygonal meshes, longitudinal on ventrites I–II, oblique on ventrite III and transverse on ventrites IV–VI. Punctation consisting of fine, sparsely distributed punctures.
+</paragraph>
+<paragraph id="A10A1B59BF4CFF8C1D95FE329B21FD87" blockId="17.[151,1437,151,1294]" pageId="17" pageNumber="268">
+<emphasis id="93C1C74BBF4CFF8C1D95FE329940FE4F" bold="true" box="[199,374,438,465]" italics="true" pageId="17" pageNumber="268">Male genitalia.</emphasis>
+Median lobe of aedeagus in lateral view simple, sickle-shaped; in middle part almost straight on ventral side, regularly curved to bluntly pointed apex (
+<figureCitation id="398E07DCBF4CFF8C1E70FE5F9B40FE6B" box="[802,886,474,501]" captionStart="FIGURES 51–62" captionStartId="40.[151,264,1836,1860]" captionTargetBox="[197,1390,193,1801]" captionTargetId="figure-23@40.[190,1397,181,1812]" captionTargetPageId="40" captionText="FIGURES 51–62. Male genitalia of Copelatus. 51, 53, 55, 57, 59, 61. median lobe in lateral view; 52, 54, 56, 58, 60, 62. paramere. 51–52. C. parallelus (Yushuwan, Hunan); 53. C. puzhelongi sp. nov. (a. holotype, Pu’er, Yunnan; b. Huanglianshan, Yunnan; c. Houaphanh, Laos); 54. C. puzhelongi sp. nov. (holotype, Pu’er, Yunnan); 55–56. C. rimosus (Dali, Yunnan); 57. C. rosulae sp. nov. (a. holotype, Pianma, Yunnan; b. Kongshu, Yunnan); 58. C. rosulae sp. nov. (Kongshu, Yunnan); 59–60. C. sociennus (Hengqin Island, Guangdong); 61–62. C. tenebrosus (Hengqin Island, Guangdong). Scale bar 0.5 mm." figureDoi="http://doi.org/10.5281/zenodo.6412783" httpUri="https://zenodo.org/record/6412783/files/figure.png" pageId="17" pageNumber="268">Fig. 53</figureCitation>
+). Parameres moderately broad, ‘C’-shaped; apex short and broad; apical lobes long, club-shaped (
+<figureCitation id="398E07DCBF4CFF8C1FE5FE7B9B3DFD87" box="[695,779,510,537]" captionStart="FIGURES 51–62" captionStartId="40.[151,264,1836,1860]" captionTargetBox="[197,1390,193,1801]" captionTargetId="figure-23@40.[190,1397,181,1812]" captionTargetPageId="40" captionText="FIGURES 51–62. Male genitalia of Copelatus. 51, 53, 55, 57, 59, 61. median lobe in lateral view; 52, 54, 56, 58, 60, 62. paramere. 51–52. C. parallelus (Yushuwan, Hunan); 53. C. puzhelongi sp. nov. (a. holotype, Pu’er, Yunnan; b. Huanglianshan, Yunnan; c. Houaphanh, Laos); 54. C. puzhelongi sp. nov. (holotype, Pu’er, Yunnan); 55–56. C. rimosus (Dali, Yunnan); 57. C. rosulae sp. nov. (a. holotype, Pianma, Yunnan; b. Kongshu, Yunnan); 58. C. rosulae sp. nov. (Kongshu, Yunnan); 59–60. C. sociennus (Hengqin Island, Guangdong); 61–62. C. tenebrosus (Hengqin Island, Guangdong). Scale bar 0.5 mm." figureDoi="http://doi.org/10.5281/zenodo.6412783" httpUri="https://zenodo.org/record/6412783/files/figure.png" pageId="17" pageNumber="268">Fig. 54</figureCitation>
+).
+</paragraph>
+<paragraph id="A10A1B59BF4CFF8C1D95FDA79A00FD53" blockId="17.[151,1437,151,1294]" pageId="17" pageNumber="268">
+<emphasis id="93C1C74BBF4CFF8C1D95FDA79913FDA3" bold="true" box="[199,293,547,573]" pageId="17" pageNumber="268">Female.</emphasis>
+Identical to male in habitus. Protibia simple, not angled basally and only slightly broadened distally; pro- and mesotarsomeres not broadened, without adhesive setae. Females dimorphic; smooth form differs from male in more developed striolation presenting laterally on pronotum; striolate form matt, 
+<specimenCount id="B7B3D0D0BF4CFF8C19CBFDEF9D21FD1B" box="[1177,1303,619,645]" pageId="17" pageNumber="268" type="female">one female</specimenCount>
+from Pu’er with long strioles on elytra except for apical fourth (
+<figureCitation id="398E07DCBF4CFF8C1FA5FD0B9B7AFD37" box="[759,844,655,681]" captionStart="FIGURES 17–20" captionStartId="35.[151,264,1943,1967]" captionTargetBox="[216,1367,188,1912]" captionTargetId="figure-18@35.[203,1385,181,1919]" captionTargetPageId="35" captionText="FIGURES 17–20. Habitus of Copelatus in China. 17. C. puzhelongi sp. nov. (holotype ♂; Pu’er, Yunnan); 18. C. puzhelongi sp. nov. (paratype ♀; Pu’er, Yunnan); 19. C. rimosus (♂; Dali, Yunnan); 20. C. rosulae (paratype ♂; Pianma, Yunnan). Scale bar 1 mm." figureDoi="http://doi.org/10.5281/zenodo.6410721" httpUri="https://zenodo.org/record/6410721/files/figure.png" pageId="17" pageNumber="268">Fig. 18</figureCitation>
+), females from 
+<collectingCountry id="D9A25BC9BF4CFF8C1957FD0B9C0DFD37" box="[1029,1083,655,681]" name="Laos" pageId="17" pageNumber="268">Laos</collectingCountry>
+additionally with long strioles covering whole surface of pronotum.
+</paragraph>
+<paragraph id="A10A1B59BF4CFF8C1D95FD529A53FCC3" blockId="17.[151,1437,151,1294]" pageId="17" pageNumber="268">
+<emphasis id="93C1C74BBF4CFF8C1D95FD52997BFD6E" bold="true" box="[199,333,726,752]" pageId="17" pageNumber="268">Variability.</emphasis>
+All specimens of the 
+<typeStatus id="7E0EA5FBBF4CFF8C1F6EFD539A5AFD6F" box="[572,620,727,753]" pageId="17" pageNumber="268">type</typeStatus>
+series are rather uniform. There is only slight variability in dorsal surface colouration – the pale base of elytra is not perceptible in some specimens and elytra are uniformly orange-brown; some specimens are somewhat darker with elytra brown. Minor variability can be seen also in number and length of strioles presenting laterally on pronotum.
+</paragraph>
+<paragraph id="A10A1B59BF4CFF8C1D95FCE39D7EFC3B" blockId="17.[151,1437,151,1294]" pageId="17" pageNumber="268">
+<emphasis id="93C1C74BBF4CFF8C1D95FCE39948FC1F" bold="true" box="[199,382,871,897]" pageId="17" pageNumber="268">Measurements.</emphasis>
+TL: 
+<quantity id="664DB6BCBF4CFF8C1CEBFCE29A75FC1F" box="[441,579,870,897]" metricMagnitude="-3" metricUnit="m" metricValue="5.3" metricValueMax="5.8" metricValueMin="4.8" pageId="17" pageNumber="268" unit="mm" value="5.3" valueMax="5.8" valueMin="4.8">4.8–5.8 mm</quantity>
+(mean value: 5.3 ± 
+<quantity id="664DB6BCBF4CFF8C1E7FFCE39BBFFC1F" box="[813,905,871,897]" metricMagnitude="-4" metricUnit="m" metricValue="2.0" pageId="17" pageNumber="268" unit="mm" value="0.2">0.2 mm</quantity>
+); 
+<typeStatus id="7E0EA5FBBF4CFF8C1ECDFCE39C33FC1F" box="[927,1029,871,897]" pageId="17" pageNumber="268">holotype</typeStatus>
+: 
+<quantity id="664DB6BCBF4CFF8C1940FCE29C5BFC1F" box="[1042,1133,870,897]" metricMagnitude="-3" metricUnit="m" metricValue="5.4" pageId="17" pageNumber="268" unit="mm" value="5.4">5.4 mm</quantity>
+. TL-h: 
+<quantity id="664DB6BCBF4CFF8C1996FCE29D7BFC1F" box="[1220,1357,870,897]" metricMagnitude="-3" metricUnit="m" metricValue="4.85" metricValueMax="5.3" metricValueMin="4.4" pageId="17" pageNumber="268" unit="mm" value="4.85" valueMax="5.3" valueMin="4.4">4.4–5.3 mm</quantity>
+(mean value: 4.8 ± 
+<quantity id="664DB6BCBF4CFF8C1C71FC0F994BFC3B" box="[291,381,907,933]" metricMagnitude="-4" metricUnit="m" metricValue="2.0" pageId="17" pageNumber="268" unit="mm" value="0.2">0.2 mm</quantity>
+); 
+<typeStatus id="7E0EA5FBBF4CFF8C1CC3FC0F99C1FC3B" box="[401,503,907,933]" pageId="17" pageNumber="268">holotype</typeStatus>
+: 
+<quantity id="664DB6BCBF4CFF8C1F53FC0F9A6CFC3B" box="[513,602,907,933]" metricMagnitude="-3" metricUnit="m" metricValue="4.9" pageId="17" pageNumber="268" unit="mm" value="4.9">4.9 mm</quantity>
+. MW: 
+<quantity id="664DB6BCBF4CFF8C1FF4FC0F9B1BFC3B" box="[678,813,907,933]" metricMagnitude="-3" metricUnit="m" metricValue="2.55" metricValueMax="2.9" metricValueMin="2.2" pageId="17" pageNumber="268" unit="mm" value="2.55" valueMax="2.9" valueMin="2.2">2.2–2.9 mm</quantity>
+(mean value: 2.6 ± 
+<quantity id="664DB6BCBF4CFF8C195EFC0F9C50FC3B" box="[1036,1126,907,933]" metricMagnitude="-4" metricUnit="m" metricValue="1.0" pageId="17" pageNumber="268" unit="mm" value="0.1">0.1 mm</quantity>
+); 
+<typeStatus id="7E0EA5FBBF4CFF8C1928FC0F9CD6FC3B" box="[1146,1248,907,933]" pageId="17" pageNumber="268">holotype</typeStatus>
+: 
+<quantity id="664DB6BCBF4CFF8C19B9FC0F9D72FC3B" box="[1259,1348,907,933]" metricMagnitude="-3" metricUnit="m" metricValue="2.7" pageId="17" pageNumber="268" unit="mm" value="2.7">2.7 mm</quantity>
+.
+</paragraph>
+</subSubSection>
+<subSubSection id="E9AF48D2BF4CFF8C1D95FC2A9C17FBE3" pageId="17" pageNumber="268" type="diagnosis">
+<paragraph id="A10A1B59BF4CFF8C1D95FC2A9C17FBE3" blockId="17.[151,1437,151,1294]" pageId="17" pageNumber="268">
+<emphasis id="93C1C74BBF4CFF8C1D95FC2A99F8FC56" bold="true" box="[199,462,942,968]" pageId="17" pageNumber="268">Differential diagnosis.</emphasis>
+Based on the presence of six dorsal striae and a submarginal stria on each elytron, the new species can be classified within 
+<taxonomicName id="66B560DABF4CFF8C1F13FC579ACBFC72" authorityName="Regimbart" authorityYear="1899" box="[577,765,979,1005]" class="Insecta" family="Dytiscidae" genus="Copelatus" kingdom="Animalia" order="Coleoptera" pageId="17" pageNumber="268" phylum="Arthropoda" rank="species" species="irinus">
+<emphasis id="93C1C74BBF4CFF8C1F13FC579ACBFC72" box="[577,765,979,1005]" italics="true" pageId="17" pageNumber="268">Copelatus irinus</emphasis>
+</taxonomicName>
+species group. Elongate habitus, complete elytral striation and male median lobe without distinct process place 
+<taxonomicName id="66B560DABF4CFF8C1FB6FC739B49FB8F" authority="Jiang &amp; Zhao &amp; Yang &amp; Jia &amp; Hájek, 2022" authorityName="Jiang &amp; Zhao &amp; Yang &amp; Jia &amp; Hájek" authorityYear="2022" box="[740,895,1015,1041]" class="Insecta" family="Dytiscidae" genus="Copelatus" kingdom="Animalia" order="Coleoptera" pageId="17" pageNumber="268" phylum="Arthropoda" rank="species" species="puzhelongi" status="sp. nov.">
+<emphasis id="93C1C74BBF4CFF8C1FB6FC739B49FB8F" box="[740,895,1015,1041]" italics="true" pageId="17" pageNumber="268">C. puzhelongi</emphasis>
+</taxonomicName>
+<taxonomicNameLabel id="88F27A30BF4CFF8C1ED7FC739BEDFB8F" box="[901,987,1015,1041]" pageId="17" pageNumber="268" rank="species">sp. nov.</taxonomicNameLabel>
+in the 
+<taxonomicName id="66B560DABF4CFF8C1974FC739C85FB8E" authorityName="Sharp" authorityYear="1884" box="[1062,1203,1015,1041]" class="Insecta" family="Dytiscidae" genus="Copelatus" kingdom="Animalia" order="Coleoptera" pageId="17" pageNumber="268" phylum="Arthropoda" rank="species" species="japonicus">
+<emphasis id="93C1C74BBF4CFF8C1974FC739C85FB8E" box="[1062,1203,1015,1041]" italics="true" pageId="17" pageNumber="268">C. japonicus</emphasis>
+</taxonomicName>
+complex. Within the complex, the new species can be undoubtedly recognised only based on the shape of male genitalia: with the shape of simple slender arc, the median lobe of the new species is very similar to that of 
+<taxonomicName id="66B560DABF4CFF8C1968FBBB9C8CFBC7" authorityName="Guignot" authorityYear="1954" box="[1082,1210,1087,1113]" class="Insecta" family="Dytiscidae" genus="Copelatus" kingdom="Animalia" order="Coleoptera" pageId="17" pageNumber="268" phylum="Arthropoda" rank="species" species="malaisei">
+<emphasis id="93C1C74BBF4CFF8C1968FBBB9C8CFBC7" box="[1082,1210,1087,1113]" italics="true" pageId="17" pageNumber="268">C. malaisei</emphasis>
+</taxonomicName>
+, however, the arc is shallower and in middle part almost straight on ventral side (see 
+<figureCitation id="398E07DCBF4CFF8C1E39FBE79B88FBE3" box="[875,958,1123,1149]" captionStart="FIGURES 39–50" captionStartId="39.[151,264,1839,1863]" captionTargetBox="[210,1370,207,1804]" captionTargetId="figure-18@39.[192,1395,181,1815]" captionTargetPageId="39" captionText="FIGURES 39–50. Male genitalia of Copelatus. 39, 41, 43, 45, 47, 49. median lobe in lateral view; 40, 42, 44, 46, 48, 50. paramere. 39–40. C. japonicus (Shanghai); 41. C. malaisei (a. Gaoligongshan, Yunnan; b. Renjiafen, Yunnan); 42. C. malaisei (Renjiafen, Yunnan); 43–44. C. miaowangi sp. nov. (paratype, Liupanshui, Guizhou); 45–46. C. mopanshanensis sp. nov. (holotype, Mopanshan, Yunnan); 47–48. C. nanlingensis sp. nov. (holotype, Dadongshan, Guangdong); 49–50. C. oblitus (Macao). Scale bar 0.5 mm." figureDoi="http://doi.org/10.5281/zenodo.6412781" httpUri="https://zenodo.org/record/6412781/files/figure.png" pageId="17" pageNumber="268">Figs 41</figureCitation>
+and 
+<figureCitation id="398E07DCBF4CFF8C1EA7FBE69C22FBE3" box="[1013,1044,1122,1149]" captionStart="FIGURES 51–62" captionStartId="40.[151,264,1836,1860]" captionTargetBox="[197,1390,193,1801]" captionTargetId="figure-23@40.[190,1397,181,1812]" captionTargetPageId="40" captionText="FIGURES 51–62. Male genitalia of Copelatus. 51, 53, 55, 57, 59, 61. median lobe in lateral view; 52, 54, 56, 58, 60, 62. paramere. 51–52. C. parallelus (Yushuwan, Hunan); 53. C. puzhelongi sp. nov. (a. holotype, Pu’er, Yunnan; b. Huanglianshan, Yunnan; c. Houaphanh, Laos); 54. C. puzhelongi sp. nov. (holotype, Pu’er, Yunnan); 55–56. C. rimosus (Dali, Yunnan); 57. C. rosulae sp. nov. (a. holotype, Pianma, Yunnan; b. Kongshu, Yunnan); 58. C. rosulae sp. nov. (Kongshu, Yunnan); 59–60. C. sociennus (Hengqin Island, Guangdong); 61–62. C. tenebrosus (Hengqin Island, Guangdong). Scale bar 0.5 mm." figureDoi="http://doi.org/10.5281/zenodo.6412783" httpUri="https://zenodo.org/record/6412783/files/figure.png" pageId="17" pageNumber="268">53</figureCitation>
+).
+</paragraph>
+</subSubSection>
+<subSubSection id="E9AF48D2BF4CFF8C1D95FB039BE5FB5B" pageId="17" pageNumber="268" type="etymology">
+<paragraph id="A10A1B59BF4CFF8C1D95FB039BE5FB5B" blockId="17.[151,1437,151,1294]" pageId="17" pageNumber="268">
+<emphasis id="93C1C74BBF4CFF8C1D95FB039978FB3F" bold="true" box="[199,334,1159,1185]" pageId="17" pageNumber="268">Etymology.</emphasis>
+The new species is dedicated to the late Dr. Zhelong Pu (SYSU), the founder of aquatic beetle taxonomy in 
+<collectingCountry id="D9A25BC9BF4CFF8C1C79FB2F9944FB5B" box="[299,370,1195,1221]" name="China" pageId="17" pageNumber="268">China</collectingCountry>
+. The specific epithet is a noun in the genitive singular.
+</paragraph>
+</subSubSection>
+<subSubSection id="E9AF48D2BF4CFF8C1D95FB4A9C06FA90" pageId="17" pageNumber="268" type="distribution">
+<paragraph id="A10A1B59BF4CFF8C1D95FB4A9C06FA90" blockId="17.[151,1437,151,1294]" pageId="17" pageNumber="268">
+<emphasis id="93C1C74BBF4CFF8C1D95FB4A9957FB76" bold="true" box="[199,353,1230,1256]" pageId="17" pageNumber="268">Distribution.</emphasis>
+This species is so far known from the border area between 
+<collectingCountry id="D9A25BC9BF4CFF8C195CFB4B9C67FB77" box="[1038,1105,1231,1257]" name="China" pageId="17" pageNumber="268">China</collectingCountry>
+(southern 
+<collectingRegion id="6371D5BBBF4CFF8C1998FB4B9D14FB77" box="[1226,1314,1231,1257]" country="China" name="Yunnan" pageId="17" pageNumber="268">Yunnan</collectingRegion>
+) (
+<figureCitation id="398E07DCBF4CFF8C1868FB4B9DB9FB77" box="[1338,1423,1231,1257]" captionStart="FIGURE 82" captionStartId="44.[151,250,1078,1102]" captionTargetBox="[265,1326,188,1049]" captionTargetId="figure-23@44.[258,1330,181,1054]" captionTargetPageId="44" captionText="FIGURE 82. Map of distribution of Copelatus in China Mainland." figureDoi="http://doi.org/10.5281/zenodo.6410810" httpUri="https://zenodo.org/record/6410810/files/figure.png" pageId="17" pageNumber="268">Fig. 82</figureCitation>
+), 
+<collectingCountry id="D9A25BC9BF4CFF8C1DC5FB7798FBFA93" box="[151,205,1267,1293]" name="Laos" pageId="17" pageNumber="268">Laos</collectingCountry>
+(
+<collectingRegion id="6371D5BBBF4CFF8C1D8EFB779969FA93" box="[220,351,1267,1293]" country="Laos" name="Houaphan" pageId="17" pageNumber="268">Houaphanh</collectingRegion>
+and 
+<collectingRegion id="6371D5BBBF4CFF8C1CC7FB779A0CFA93" box="[405,570,1267,1293]" country="Laos" name="Xiangkhouang" pageId="17" pageNumber="268">Xiangkhouang</collectingRegion>
+provinces) and 
+<collectingCountry id="D9A25BC9BF4CFF8C1FBFFB779B7AFA93" box="[749,844,1267,1293]" name="Vietnam" pageId="17" pageNumber="268">Vietnam</collectingCountry>
+(
+<collectingRegion id="6371D5BBBF4CFF8C1E09FB779C12FA90" box="[859,1060,1267,1294]" country="Vietnam" name="Lao Cai" pageId="17" pageNumber="268">Lao Cai province</collectingRegion>
+).
+</paragraph>
+</subSubSection>
+</treatment>
+</document>
