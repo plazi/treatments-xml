@@ -1,0 +1,816 @@
+<document id="A521735FDFEE4C89554EA3AAF38A3790" ID-DOI="http://doi.org/10.5281/zenodo.6304087" ID-GBIF-Dataset="75fb76d3-bfe5-4786-b2e9-a18a86ab2d4f" ID-GBIF-Taxon="193304947" ID-ISSN="2118-9773" ID-Zenodo-Dep="6304087" ID-ZooBank="E3ED109B-70C8-414D-A245-6E3590C9E5B5" LSID="urn:lsid:zoobank.org:act:6737F5C9-8DE2-4074-9C6E-BD62F2E4E10D" _generate="added" checkinTime="1644247602222" checkinUser="felipe" docAuthor="Gustafsson, Daniel R., Najer, Tomas, Zou, Fasheng &amp; Bush, Sarah E." docDate="2022" docId="760487F2FFC8E975FDBDFD7DD007FB7E" docLanguage="en" docName="ejt-790_1-52.pdf" docOrigin="European Journal of Taxonomy 790 (1)" docSource="http://dx.doi.org/10.5852/ejt.2022.790.1641" docStyle="DocumentStyle:EF2B578F1D15862ADE45B0C07C620911.12:EJT.2018-.journal_article" docStyleId="EF2B578F1D15862ADE45B0C07C620911" docStyleName="EJT.2018-.journal_article" docStyleVersion="12" docTitle="Philopterus afropari Gustafsson &amp; Najer &amp; Zou &amp; Bush 2022, sp. nov." docType="treatment" docUuid="6737F5C9-8DE2-4074-9C6E-BD62F2E4E10D" docUuidSource="ZooBank" docVersion="10" lastPageId="19" lastPageNumber="20" masterDocId="8A3DFF8AFFC7E966FFD0FFADD231FF9F" masterDocTitle="New species of Philopterus Nitzsch, 1818 (Ischnocera: Philopteridae), with notes on Cypseloecus Conci, 1941" masterLastPageNumber="52" masterPageNumber="1" pageId="15" pageNumber="16" updateTime="1646058725997" updateUser="ExternalLinkService" zenodo-license-document="CC-BY-4.0" zenodo-license-figures="CC-BY-4.0" zenodo-license-treatments="UNSPECIFIED">
+<mods:mods id="562CB4396409375799607C80C117043A" xmlns:mods="http://www.loc.gov/mods/v3">
+<mods:titleInfo id="A035722F3B5D66418C89C2586F11BA69">
+<mods:title id="74B6C998C11CD007318A7E2B5B0791D2">New species of Philopterus Nitzsch, 1818 (Ischnocera: Philopteridae), with notes on Cypseloecus Conci, 1941</mods:title>
+</mods:titleInfo>
+<mods:name id="D6EFD1EFDC8E862B0CD71E1BBE0C1775" type="personal">
+<mods:role id="DC082A9E11338A73FCC011477A4BE63B">
+<mods:roleTerm id="90AB5EBB8CA08A9B7EACC85A6DFCD596">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="C70F080EED3D5F846149611DBDFE00DB">Gustafsson, Daniel R.</mods:namePart>
+<mods:nameIdentifier id="16C200F060958B570BD3C41A39926E0D" type="LSID">8D918E7D-07D5-49F4-A8D2-85682F00200C</mods:nameIdentifier>
+<mods:affiliation id="EC865D0C4D41005B4283A0C950DB55CE">Guangdong Key Laboratory of Animal Conservation and Resources, Guangdong Public Laboratory of Wild Animal Conservation and Utilization, Institute of Zoology, Guangdong Academy of Sciences, 105 Xingang West Road, Haizhu District, Guangzhou 510260, China. Department of Veterinary Sciences, Faculty of Agriculture, Food and Natural Resources, Czech University of Life Sciences, Kamycka 129, 165 00 Prague 6, Czech Republic. School of Biological Sciences, University of Utah, 257 S. 1400 E., Salt Lake City, Utah 84112, USA.</mods:affiliation>
+<mods:nameIdentifier id="5068FCE2FA1F89B3E3F2F28255FB368A" type="email">kotatsu@fripost.org</mods:nameIdentifier>
+</mods:name>
+<mods:name id="34859ED0E1395B7D96E43799698B6AD2" type="personal">
+<mods:role id="E855870E5B558982D95116B2C0B4DDCA">
+<mods:roleTerm id="395867C52EF3421A7423D6156B8A8012">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="606B7EAC3C00894EE5E85194C1475C5E">Najer, Tomas</mods:namePart>
+<mods:nameIdentifier id="4988F3371C6B8954FD5B5365BEA288DB" type="LSID">08A25BDD-8CCD-4709-9A57-7CE235D473C7</mods:nameIdentifier>
+<mods:nameIdentifier id="493E060CD9BABC65463958B1F37D0EEE" type="email">najer@af.czu.cz;tomas.najer@gmail.com</mods:nameIdentifier>
+</mods:name>
+<mods:name id="87634314351E24B86F07563C91695E19" type="personal">
+<mods:role id="711D9E5DFA117FB91553A9EBAF9F81D1">
+<mods:roleTerm id="B7A39499CBFD32719A252A40BC11E4C7">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="E53F3F07A43EB887EE01E43D04EE88F5">Zou, Fasheng</mods:namePart>
+<mods:nameIdentifier id="EBC36BCDD1CA6B6A85F073EF7851CE29" type="LSID">A0E4F4A7-CF40-4524-AAAE-60D0AD845479</mods:nameIdentifier>
+<mods:affiliation id="24BB1F95BD4300A9493ACC9C5C4E1838">Guangdong Key Laboratory of Animal Conservation and Resources, Guangdong Public Laboratory of Wild Animal Conservation and Utilization, Institute of Zoology, Guangdong Academy of Sciences, 105 Xingang West Road, Haizhu District, Guangzhou 510260, China. Department of Veterinary Sciences, Faculty of Agriculture, Food and Natural Resources, Czech University of Life Sciences, Kamycka 129, 165 00 Prague 6, Czech Republic. School of Biological Sciences, University of Utah, 257 S. 1400 E., Salt Lake City, Utah 84112, USA.</mods:affiliation>
+<mods:nameIdentifier id="D130BCFC0140588BBCDE59EEC39A77E7" type="email">zoufs@giabr.gd.cn</mods:nameIdentifier>
+</mods:name>
+<mods:name id="1F281A2F945781A0530A7891173A6E14" type="personal">
+<mods:role id="32541AC0B0FACCDA9019A0F9E068CB04">
+<mods:roleTerm id="9B402EAF07B9B6E506D5F40260D25A97">Author</mods:roleTerm>
+</mods:role>
+<mods:namePart id="CA4BC0156F545A889913803AEBF4C8BD">Bush, Sarah E.</mods:namePart>
+<mods:nameIdentifier id="CF26BD22CC2B3C70DB4C3CDA2535D8CB" type="LSID">87DAE296-C04F-4DA5-82A9-AC2715A065F8</mods:nameIdentifier>
+<mods:nameIdentifier id="CCDA9C4943473EA917206EFB9CB84C23" type="email">dovelouse@gmail.com</mods:nameIdentifier>
+</mods:name>
+<mods:typeOfResource id="BEB7AE860A9ACEC1904D4FCEA4C0E87B">text</mods:typeOfResource>
+<mods:relatedItem id="2EAF39BA25349BCFC07613143FD79FBF" type="host">
+<mods:titleInfo id="1580E1E94F20E8327B45BCF658578F44">
+<mods:title id="F3B654C11129E0C9A22021B9E8B156E6">European Journal of Taxonomy</mods:title>
+</mods:titleInfo>
+<mods:part id="F8DE86D4859354EB98762D82BA7EB717">
+<mods:date id="84682A9ACFE217A188CCD5A6A9FE9A12">2022</mods:date>
+<mods:detail id="F32F6ABF80E20F4D789559564C3FF7F2" type="pubDate">
+<mods:number id="A2CD965148B46FB7933309E8CAB691EA">2022-02-04</mods:number>
+</mods:detail>
+<mods:detail id="59E6BFEF428A4A7F798DB3AE88E69F2E" type="volume">
+<mods:number id="500564C4FECBB583A1849D38EE4D3853">790</mods:number>
+</mods:detail>
+<mods:detail id="967D36BE04EDA8C5D9DDC1B8BEEE56F2" type="issue">
+<mods:number id="403D53E414ED9F2DD5695990E38D0832">1</mods:number>
+</mods:detail>
+<mods:extent id="B3EFBE4DB9BEDD7008A5E439C25A9A22" unit="page">
+<mods:start id="C4F9F6DCE9F9DA8066A9767A0FBA523C">1</mods:start>
+<mods:end id="AD76B49681CBCE56C47FE20FAE08BC9F">52</mods:end>
+</mods:extent>
+</mods:part>
+</mods:relatedItem>
+<mods:location id="0B8DA41F35C83FFF2FF69BAF4B27C671">
+<mods:url id="3BA74D31538BFAB02AC161C0A87FA8E1">http://dx.doi.org/10.5852/ejt.2022.790.1641</mods:url>
+</mods:location>
+<mods:classification id="9BF585DA3945DA8D5575FE55E37FD484">journal article</mods:classification>
+<mods:identifier id="E4D294AEC889807DAAD4D32AC14FA2FA" type="DOI">https://doi.org/10.5852/ejt.2022.790.1641</mods:identifier>
+<mods:identifier id="160802DF5BB106D554FFDEB0D9E6023D" type="GBIF-Dataset">75fb76d3-bfe5-4786-b2e9-a18a86ab2d4f</mods:identifier>
+<mods:identifier id="C5E1A831D4CB5BE3B7357FD1FCB2EDE8" type="ISSN">2118-9773</mods:identifier>
+<mods:identifier id="514306DE55465FE379D5753150D44A7E" type="Zenodo-Dep">5999772</mods:identifier>
+<mods:identifier id="F43B7977DC94B246619B5AA16175CF45" type="ZooBank">E3ED109B-70C8-414D-A245-6E3590C9E5B5</mods:identifier>
+</mods:mods>
+<treatment id="760487F2FFC8E975FDBDFD7DD007FB7E" ID-DOI="http://doi.org/10.5281/zenodo.6304087" ID-GBIF-Taxon="193304947" ID-Zenodo-Dep="6304087" LSID="urn:lsid:zoobank.org:act:6737F5C9-8DE2-4074-9C6E-BD62F2E4E10D" httpUri="http://treatment.plazi.org/id/760487F2FFC8E975FDBDFD7DD007FB7E" lastPageId="19" lastPageNumber="20" pageId="15" pageNumber="16">
+<subSubSection id="B6B7656FFFC8E969FDBDFD7DD1F7FD74" box="[621,966,720,747]" pageId="15" pageNumber="16" type="nomenclature">
+<paragraph id="FE1236E4FFC8E969FDBDFD7DD1F7FD74" blockId="15.[367,1220,720,817]" box="[621,966,720,747]" pageId="15" pageNumber="16">
+<heading id="A55A8188FFC8E969FDBDFD7DD1F7FD74" box="[621,966,720,747]" centered="true" fontSize="11" level="2" pageId="15" pageNumber="16" reason="2">
+<taxonomicName id="39AD4D67FFC8E969FDBDFD7DD155FD75" authority="Gustafsson &amp; Najer &amp; Zou &amp; Bush, 2022" authorityName="Gustafsson &amp; Najer &amp; Zou &amp; Bush" authorityYear="2022" box="[621,868,720,747]" class="Insecta" family="Philopteridae" genus="Philopterus" kingdom="Animalia" order="Psocodea" pageId="15" pageNumber="16" phylum="Arthropoda" rank="species" species="afropari" status="sp. nov.">
+<emphasis id="CCD9EAF6FFC8E969FDBDFD7DD155FD75" bold="true" box="[621,868,720,747]" italics="true" pageId="15" pageNumber="16">Philopterus afropari</emphasis>
+</taxonomicName>
+<taxonomicNameLabel id="D7EA578DFFC8E969FCBCFD7CD1F7FD74" box="[876,966,721,747]" pageId="15" pageNumber="16" rank="species">sp. nov.</taxonomicNameLabel>
+</heading>
+</paragraph>
+</subSubSection>
+<subSubSection id="B6B7656FFFC8E969FEBFFD5ED193FCAE" pageId="15" pageNumber="16" type="description">
+<paragraph id="FE1236E4FFC8E969FEBFFD5ED6F5FC91" blockId="15.[367,1220,720,817]" box="[367,1220,755,782]" pageId="15" pageNumber="16">
+<uri id="8A3C3AE6FFC8E969FEBFFD5ED6F5FC91" box="[367,1220,755,782]" pageId="15" pageNumber="16">
+urn:lsid:zoobank.org:act: 
+<uuid id="8A0B0C31FFC8E969FD40FD5ED6F5FC91" box="[656,1220,755,782]" pageId="15" pageNumber="16">6737F5C9-8DE2-4074-9C6E-BD62F2E4E10D</uuid>
+</uri>
+</paragraph>
+<paragraph id="FE1236E4FFC8E969FD41FCBBD193FCAE" blockId="15.[367,1220,720,817]" box="[657,930,790,817]" pageId="15" pageNumber="16">
+<figureCitation id="66962A61FFC8E969FD41FCBBD129FCAE" box="[657,792,790,817]" captionStart-0="Figs 13–14" captionStart-1="Figs 15–18" captionStartId-0="16.[189,241,1964,1990]" captionStartId-1="17.[189,241,1926,1952]" captionTargetBox-0="[194,1391,469,1955]" captionTargetBox-1="[211,1371,266,1908]" captionTargetId-0="figure-69@16.[189,1399,457,1963]" captionTargetId-1="figure-56@17.[210,1377,264,1910]" captionTargetPageId-0="16" captionTargetPageId-1="17" captionText-0="Figs 13–14. Philopterus afropari sp. nov. ex Melaniparus cinerascens cinerascens (Vieillot, 1818). 13. Male habitus, dorsal and ventral views. 14. Female habitus, dorsal and ventral views." captionText-1="Figs 15–18. Philopterus afropari sp. nov. ex Melaniparus cinerascens cinerascens (Vieillot, 1818). 15. Male head, dorsal and ventral views. 16. Male genitalia, dorsal view. 17. Male genitalia, ventral view. 18. Female subgenital plate, vulval margin, and subvulval plates, ventral view." figureDoi-0="http://doi.org/10.5281/zenodo.5999794" figureDoi-1="http://doi.org/10.5281/zenodo.5999798" httpUri-0="https://zenodo.org/record/5999794/files/figure.png" httpUri-1="https://zenodo.org/record/5999798/files/figure.png" pageId="15" pageNumber="16">Figs 13–18</figureCitation>
+; 
+<tableCitation id="B32F035FFFC8E969FCF3FCBBD193FCAE" box="[803,930,790,817]" captionStart-0="Table 2" captionStart-1="Table 3" captionStart-2="Table 4" captionStart-3="Table 5" captionStartId-0="10.[189,258,265,291]" captionStartId-1="11.[189,258,265,291]" captionStartId-2="12.[189,258,265,291]" captionStartId-3="18.[164,233,511,540]" captionTargetPageId-0="10" captionTargetPageId-1="11" captionTargetPageId-2="12" captionTargetPageId-3="18" captionText-0="Table 2. Thoracic and abdominal chaetotaxy of the species of Philopterus Nitzsch, 1818 described in this paper. Only tergal seta are included here; for sternal setae, see Table 3; for pleural setae, see Table 4. Anterior margin of tergopleurite II has 1 seta on each side in all species, which is not listed in the table. Numbers denote the numbers of setae on one side of the abdomen only; for setal counts in the entire setal row of each segment, these numbers thus need to be doubled. Abbreviation: mms = marginal mesometathoracic setae." captionText-1="Table 3. Abdominal and vulval chaetotaxy of the species of Philopterus Nitzsch, 1818 described in this paper. Only sternal setae are listed here; for tergal setae, see Table 2; for pleural setae, see Table 4. Numbers denote the numbers of setae on one side of the abdomen only; for setal counts in the entire setal row of each segment, these numbers thus need to be doubled." captionText-2="Table 4. Abdominal chaetotaxy of the species of Philopterus Nitzsch, 1818 described in this paper. Only pleural setae are listed here; for tergal setae, see Table 2; for sternal setae, see Table 3. Numbers denote the numbers of setae on one side of the abdomen only; for setal counts in the entire setal row of each segment, these numbers thus need to be doubled. Abbreviations: ant. = anterior end; post. = posterior end." captionText-3="Table 5. Measurements (in millimetres) of Philopterus afropari sp. nov., P. sinensis sp. nov., and P. trepostephanus sp. nov. Some dimensions (e.g.,APLL,TPVL)aremeasured on both sidesof the body, and intervals maythereforebegiven even ifonly one specimenwas examined.Abbreviations: ADPL = dorsal anterior plate length (at midline); ADPW = dorsal anterior plate width; AL = abdominal length (at midline); ANW = anterior notch width; APLL = dorsal anterior plate lateral length; AW = abdominal width (at segment V); GL = genital length (in male); GW = genital width (in male); HL = head length (at midline); HW = head width (at temples); PAL = preantennal length; PAW = preantennal width (at base of coni); PMCL = premarginal carina length; POL = postantennal length (at midline); PRL = prothoracic length; PRW = prothoracic width; PTL = pterothoracic length (at midline); PTW = pterothoracic width; SGPW = subgenital plate width (in female); TL = total length (at midline); TPVL = tergal plate V length; TRL = trabeculum length; TRW = trabeculum width." httpUri-0="http://table.plazi.org/id/AAD2666CFFCDE96CFF6DFEA4D3EAFE4B" httpUri-2="http://table.plazi.org/id/AAD2666CFFCBE96AFF6DFEA4D2C0FE2F" httpUri-3="http://table.plazi.org/id/AAD2666CFFD5E974FF74FE52D15DFC8E" pageId="15" pageNumber="16" tableUuid-0="AAD2666CFFCDE96CFF6DFEA4D3EAFE4B" tableUuid-2="AAD2666CFFCBE96AFF6DFEA4D2C0FE2F" tableUuid-3="AAD2666CFFD5E974FF74FE52D15DFC8E">Tables 2–5</tableCitation>
+</paragraph>
+</subSubSection>
+<subSubSection id="B6B7656FFFC8E969FF6DFCFDD01CF8C6" pageId="15" pageNumber="16" type="diagnosis">
+<paragraph id="FE1236E4FFC8E969FF6DFCFDD307FCF5" blockId="15.[189,310,848,874]" box="[189,310,848,874]" pageId="15" pageNumber="16">
+<heading id="A55A8188FFC8E969FF6DFCFDD307FCF5" bold="true" box="[189,310,848,874]" fontSize="11" level="3" pageId="15" pageNumber="16" reason="3">
+<emphasis id="CCD9EAF6FFC8E969FF6DFCFDD307FCF5" bold="true" box="[189,310,848,874]" pageId="15" pageNumber="16">Diagnosis</emphasis>
+</heading>
+</paragraph>
+<paragraph id="FE1236E4FFC8E969FF6DFCD2D381FBF3" blockId="15.[188,1401,895,1132]" pageId="15" pageNumber="16">
+<taxonomicName id="39AD4D67FFC8E969FF6DFCD2D381FC06" authority="Gustafsson &amp; Najer &amp; Zou &amp; Bush, 2022" authorityName="Gustafsson &amp; Najer &amp; Zou &amp; Bush" authorityYear="2022" box="[189,432,895,921]" class="Insecta" family="Philopteridae" genus="Philopterus" kingdom="Animalia" order="Psocodea" pageId="15" pageNumber="16" phylum="Arthropoda" rank="species" species="afropari" status="sp. nov.">
+<emphasis id="CCD9EAF6FFC8E969FF6DFCD2D381FC06" box="[189,432,895,921]" italics="true" pageId="15" pageNumber="16">Philopterus afropari</emphasis>
+</taxonomicName>
+<taxonomicNameLabel id="D7EA578DFFC8E969FE69FC2DD024FC05" box="[441,533,896,922]" pageId="15" pageNumber="16" rank="species">sp. nov.</taxonomicNameLabel>
+is not similar to any species of 
+<taxonomicName id="39AD4D67FFC8E969FC49FCD2D613FC06" authorityName="Nitzsch" authorityYear="1818" box="[921,1058,895,921]" class="Insecta" family="Philopteridae" genus="Philopterus" kingdom="Animalia" order="Psocodea" pageId="15" pageNumber="16" phylum="Arthropoda" rank="genus">
+<emphasis id="CCD9EAF6FFC8E969FC49FCD2D613FC06" box="[921,1058,895,921]" italics="true" pageId="15" pageNumber="16">Philopterus</emphasis>
+</taxonomicName>
+known from Holarctic parid hosts, which are all characterized by having the dorsal anterior plate with pointed postero-lateral corners near 
+<emphasis id="CCD9EAF6FFC8E969FF2AFC68D312FC40" box="[250,291,965,991]" italics="true" pageId="15" pageNumber="16">ads</emphasis>
+on each side, 3–4 setae on each side on the posterior margin of the pronotum, and a long and narrow basal apodeme (
+<bibRefCitation id="9A3C4B15FFC8E969FDDEFC44D148FB9C" author="Fedorenko I. A. &amp; Vasjukova T. T." box="[526,889,1000,1027]" pageId="15" pageNumber="16" pagination="22 - 3" refId="ref20218" refString="Fedorenko I. A. &amp; Vasjukova T. T. 1985. A new species of the genus Philopterus (Mallophaga, Philopteridae) from Parus cinetus of Yakutia. Vestnik Zoologii 2: 22 - 3. [In Russian]" type="journal article" year="1985">Fedorenko &amp; Vasjukova 1985</bibRefCitation>
+; 
+<bibRefCitation id="9A3C4B15FFC8E969FC57FC44D632FB9C" author="Mey E." box="[903,1027,1001,1027]" pageId="15" pageNumber="16" pagination="71 - 77" refId="ref20710" refString="Mey E. 1988. Zur Taxonomie der auf Meisen (Paridae) parasitierenden Docophorulus - Arten (Insecta, Phthiraptera, Philopteridae). Rudolstadter naturhistorische Schriften 1: 71 - 77." type="journal article" year="1988">Mey 1988</bibRefCitation>
+, 
+<bibRefCitation id="9A3C4B15FFC8E969FBC2FC44D660FB9C" author="Mey E." box="[1042,1105,1001,1027]" pageId="15" pageNumber="16" pagination="3 - 84" refId="ref20744" refString="Mey E. 1994. Beziehungen zwischen Larvenmorphologie und Systematik der Adulti bei den Vogel- Ischnozeren (Insecta, Phthiraptera, Ischnocera). Mitteilungen aus dem zoologischen Museum in Berlin 70 (1): 3 - 84. https: // doi. org / 10.1002 / mmnz. 19940700102" type="journal article" year="1994">1994</bibRefCitation>
+). In contrast, 
+<taxonomicName id="39AD4D67FFC8E969FB29FC44D748FB9C" authority="Gustafsson &amp; Najer &amp; Zou &amp; Bush, 2022" authorityName="Gustafsson &amp; Najer &amp; Zou &amp; Bush" authorityYear="2022" box="[1273,1401,1001,1027]" class="Insecta" family="Philopteridae" genus="Philopterus" kingdom="Animalia" order="Psocodea" pageId="15" pageNumber="16" phylum="Arthropoda" rank="species" species="afropari" status="sp. nov.">
+<emphasis id="CCD9EAF6FFC8E969FB29FC44D748FB9C" box="[1273,1401,1001,1027]" italics="true" pageId="15" pageNumber="16">P. afropari</emphasis>
+</taxonomicName>
+<taxonomicNameLabel id="D7EA578DFFC8E969FF6DFBA1D328FBB9" box="[189,281,1036,1062]" pageId="15" pageNumber="16" rank="species">sp. nov.</taxonomicNameLabel>
+lacks the pointed corners of the dorsal anterior plate, has only one posterior seta on each side of the pronotum, and has a broader basal apodeme. No species of 
+<taxonomicName id="39AD4D67FFC8E969FC17FB82D661FBD6" authorityName="Nitzsch" authorityYear="1818" box="[967,1104,1071,1097]" class="Insecta" family="Philopteridae" genus="Philopterus" kingdom="Animalia" order="Psocodea" pageId="15" pageNumber="16" phylum="Arthropoda" rank="genus">
+<emphasis id="CCD9EAF6FFC8E969FC17FB82D661FBD6" box="[967,1104,1071,1097]" italics="true" pageId="15" pageNumber="16">Philopterus</emphasis>
+</taxonomicName>
+has been described from other African parids.
+</paragraph>
+<paragraph id="FE1236E4FFC8E969FF6DFB21D6FAFA7C" blockId="15.[189,1401,1164,1508]" pageId="15" pageNumber="16">
+<taxonomicName id="39AD4D67FFC8E969FF6DFB21D381FB39" authority="Gustafsson &amp; Najer &amp; Zou &amp; Bush, 2022" authorityName="Gustafsson &amp; Najer &amp; Zou &amp; Bush" authorityYear="2022" box="[189,432,1164,1190]" class="Insecta" family="Philopteridae" genus="Philopterus" kingdom="Animalia" order="Psocodea" pageId="15" pageNumber="16" phylum="Arthropoda" rank="species" species="afropari" status="sp. nov.">
+<emphasis id="CCD9EAF6FFC8E969FF6DFB21D381FB39" box="[189,432,1164,1190]" italics="true" pageId="15" pageNumber="16">Philopterus afropari</emphasis>
+</taxonomicName>
+<taxonomicNameLabel id="D7EA578DFFC8E969FE69FB20D027FB38" box="[441,534,1165,1191]" pageId="15" pageNumber="16" rank="species">sp. nov.</taxonomicNameLabel>
+is somewhat similar to 
+<taxonomicName id="39AD4D67FFC8E969FCE9FB20D660FB39" authority="Tendeiro, 1962" authorityName="Tendeiro" authorityYear="1962" box="[825,1105,1164,1190]" class="Insecta" family="Philopteridae" genus="Philopterus" kingdom="Animalia" order="Psocodea" pageId="15" pageNumber="16" phylum="Arthropoda" rank="species" species="solus">
+<emphasis id="CCD9EAF6FFC8E969FCE9FB20D1A5FB39" box="[825,916,1164,1190]" italics="true" pageId="15" pageNumber="16">P. solus</emphasis>
+<bibRefCitation id="9A3C4B15FFC8E969FC4BFB21D660FB39" author="Tendeiro J." box="[923,1105,1164,1190]" pageId="15" pageNumber="16" pagination="669 - 704" refId="ref21935" refString="Tendeiro J. 1962. Etudes sur les mallophages. Observations sur des Ischnocera africains, avec descriptions de 12 especes et 2 sous-especes nouvelles. Boletim cultural da Guine Portuguesa 68: 669 - 704." type="journal article" year="1962">Tendeiro, 1962</bibRefCitation>
+</taxonomicName>
+, another African species associated with a host in the Bucerotiformes (
+<emphasis id="CCD9EAF6FFC8E969FD34FB02D6AFFB56" box="[740,1182,1199,1225]" italics="true" pageId="15" pageNumber="16">Rhinopomastus cyanomelas schalowi</emphasis>
+Neumann, 1900). These two species share the following characters: hyaline margin wide but relatively short; dorsal anterior plate broadly trapezoidal; coni small with concave anterior margins; male subgenital plate with at least 2 lateral lobes on each side and a lateral accessory sternal plate on abdominal segment IX+X (fused with subgenital plate in 
+<specimenCount id="E8ABFD6DFFC8E969FDFEFA90D0FEFAC9" box="[558,719,1340,1367]" pageId="15" pageNumber="16" type="generic">one specimen</specimenCount>
+examined in 
+<bibRefCitation id="9A3C4B15FFC8E969FCA0FA91D62EFAC8" author="Tendeiro J." box="[880,1055,1340,1367]" pageId="15" pageNumber="16" pagination="669 - 704" refId="ref21935" refString="Tendeiro J. 1962. Etudes sur les mallophages. Observations sur des Ischnocera africains, avec descriptions de 12 especes et 2 sous-especes nouvelles. Boletim cultural da Guine Portuguesa 68: 669 - 704." type="journal article" year="1962">Tendeiro 1962</bibRefCitation>
+). Most notably, the gonopore of both species is of similar shape and the ventral section of the mesosome is largely indistinguishable from the distal basal apodeme in both species; dorsally, the mesosome of 
+<taxonomicName id="39AD4D67FFC8E969FBF6FA2ED694FA02" authority="Gustafsson &amp; Najer &amp; Zou &amp; Bush, 2022" authorityName="Gustafsson &amp; Najer &amp; Zou &amp; Bush" authorityYear="2022" box="[1062,1189,1411,1437]" class="Insecta" family="Philopteridae" genus="Philopterus" kingdom="Animalia" order="Psocodea" pageId="15" pageNumber="16" phylum="Arthropoda" rank="species" species="afropari" status="sp. nov.">
+<emphasis id="CCD9EAF6FFC8E969FBF6FA2ED694FA02" box="[1062,1189,1411,1437]" italics="true" pageId="15" pageNumber="16">P. afropari</emphasis>
+</taxonomicName>
+<taxonomicNameLabel id="D7EA578DFFC8E969FB7CFA2ED736FA02" box="[1196,1287,1411,1437]" pageId="15" pageNumber="16" rank="species">sp. nov.</taxonomicNameLabel>
+(
+<figureCitation id="66962A61FFC8E969FAC8FA2FD75CFA02" box="[1304,1389,1410,1437]" captionStart="Figs 15–18" captionStartId="17.[189,241,1926,1952]" captionTargetBox="[211,1371,266,1908]" captionTargetId="figure-56@17.[210,1377,264,1910]" captionTargetPageId="17" captionText="Figs 15–18. Philopterus afropari sp. nov. ex Melaniparus cinerascens cinerascens (Vieillot, 1818). 15. Male head, dorsal and ventral views. 16. Male genitalia, dorsal view. 17. Male genitalia, ventral view. 18. Female subgenital plate, vulval margin, and subvulval plates, ventral view." figureDoi="http://doi.org/10.5281/zenodo.5999798" httpUri="https://zenodo.org/record/5999798/files/figure.png" pageId="15" pageNumber="16">Fig. 16</figureCitation>
+) appears to be similar to the dark section of the distal basal apodeme in Tendeiro’s photo of 
+<taxonomicName id="39AD4D67FFC8E969FB39FA0BD773FA5F" authorityName="Tendeiro" authorityYear="1962" box="[1257,1346,1446,1472]" class="Insecta" family="Philopteridae" genus="Philopterus" kingdom="Animalia" order="Psocodea" pageId="15" pageNumber="16" phylum="Arthropoda" rank="species" species="solus">
+<emphasis id="CCD9EAF6FFC8E969FB39FA0BD773FA5F" box="[1257,1346,1446,1472]" italics="true" pageId="15" pageNumber="16">P. solus</emphasis>
+</taxonomicName>
+, but this section is not clearly illustrated by 
+<bibRefCitation id="9A3C4B15FFC8E969FD59FA64D178FA7B" author="Tendeiro J." box="[649,841,1481,1508]" pageId="15" pageNumber="16" pagination="669 - 704" refId="ref21935" refString="Tendeiro J. 1962. Etudes sur les mallophages. Observations sur des Ischnocera africains, avec descriptions de 12 especes et 2 sous-especes nouvelles. Boletim cultural da Guine Portuguesa 68: 669 - 704." type="journal article" year="1962">Tendeiro (1962)</bibRefCitation>
+, and the photo is of poor quality.
+</paragraph>
+<paragraph id="FE1236E4FFC8E969FF6DF9AED01CF8C6" blockId="15.[189,1400,1539,1882]" pageId="15" pageNumber="16">
+These two species can be separated by the following characters: 
+<emphasis id="CCD9EAF6FFC8E969FC7FF9A9D1F8F982" box="[943,969,1540,1565]" italics="true" pageId="15" pageNumber="16">os</emphasis>
+and 
+<emphasis id="CCD9EAF6FFC8E969FBD1F9A9D61BF982" box="[1025,1066,1540,1565]" italics="true" pageId="15" pageNumber="16">pos</emphasis>
+of more or less equal length in 
+<taxonomicName id="39AD4D67FFC8E969FF0DF98AD36DF9DF" authority="Gustafsson &amp; Najer &amp; Zou &amp; Bush, 2022" authorityName="Gustafsson &amp; Najer &amp; Zou &amp; Bush" authorityYear="2022" box="[221,348,1574,1600]" class="Insecta" family="Philopteridae" genus="Philopterus" kingdom="Animalia" order="Psocodea" pageId="15" pageNumber="16" phylum="Arthropoda" rank="species" species="afropari" status="sp. nov.">
+<emphasis id="CCD9EAF6FFC8E969FF0DF98AD36DF9DF" box="[221,348,1574,1600]" italics="true" pageId="15" pageNumber="16">P. afropari</emphasis>
+</taxonomicName>
+<taxonomicNameLabel id="D7EA578DFFC8E969FEB4F98BD3F1F9DF" box="[356,448,1574,1600]" pageId="15" pageNumber="16" rank="species">sp. nov.</taxonomicNameLabel>
+(
+<figureCitation id="66962A61FFC8E969FE01F98BD019F9DE" box="[465,552,1574,1601]" captionStart="Figs 15–18" captionStartId="17.[189,241,1926,1952]" captionTargetBox="[211,1371,266,1908]" captionTargetId="figure-56@17.[210,1377,264,1910]" captionTargetPageId="17" captionText="Figs 15–18. Philopterus afropari sp. nov. ex Melaniparus cinerascens cinerascens (Vieillot, 1818). 15. Male head, dorsal and ventral views. 16. Male genitalia, dorsal view. 17. Male genitalia, ventral view. 18. Female subgenital plate, vulval margin, and subvulval plates, ventral view." figureDoi="http://doi.org/10.5281/zenodo.5999798" httpUri="https://zenodo.org/record/5999798/files/figure.png" pageId="15" pageNumber="16">Fig. 15</figureCitation>
+), but 
+<emphasis id="CCD9EAF6FFC8E969FDA0F98AD0A8F9DF" box="[624,665,1575,1600]" italics="true" pageId="15" pageNumber="16">pos</emphasis>
+much longer than 
+<emphasis id="CCD9EAF6FFC8E969FCAAF98AD1A5F9DF" box="[890,916,1575,1600]" italics="true" pageId="15" pageNumber="16">os</emphasis>
+in 
+<taxonomicName id="39AD4D67FFC8E969FC6BF98AD627F9DF" authorityName="Tendeiro" authorityYear="1962" box="[955,1046,1574,1600]" class="Insecta" family="Philopteridae" genus="Philopterus" kingdom="Animalia" order="Psocodea" pageId="15" pageNumber="16" phylum="Arthropoda" rank="species" species="solus">
+<emphasis id="CCD9EAF6FFC8E969FC6BF98AD627F9DF" box="[955,1046,1574,1600]" italics="true" pageId="15" pageNumber="16">P. solus</emphasis>
+</taxonomicName>
+; preantennal head longer and more slender in 
+<taxonomicName id="39AD4D67FFC8E969FEAEF9E7D3CCF9FC" authority="Gustafsson &amp; Najer &amp; Zou &amp; Bush, 2022" authorityName="Gustafsson &amp; Najer &amp; Zou &amp; Bush" authorityYear="2022" box="[382,509,1609,1635]" class="Insecta" family="Philopteridae" genus="Philopterus" kingdom="Animalia" order="Psocodea" pageId="15" pageNumber="16" phylum="Arthropoda" rank="species" species="afropari" status="sp. nov.">
+<emphasis id="CCD9EAF6FFC8E969FEAEF9E7D3CCF9FC" box="[382,509,1609,1635]" italics="true" pageId="15" pageNumber="16">P. afropari</emphasis>
+</taxonomicName>
+<taxonomicNameLabel id="D7EA578DFFC8E969FDD4F9E7D051F9FB" box="[516,608,1610,1636]" pageId="15" pageNumber="16" rank="species">sp. nov.</taxonomicNameLabel>
+(
+<figureCitation id="66962A61FFC8E969FDA0F9E4D0F7F9FB" box="[624,710,1609,1636]" captionStart="Figs 15–18" captionStartId="17.[189,241,1926,1952]" captionTargetBox="[211,1371,266,1908]" captionTargetId="figure-56@17.[210,1377,264,1910]" captionTargetPageId="17" captionText="Figs 15–18. Philopterus afropari sp. nov. ex Melaniparus cinerascens cinerascens (Vieillot, 1818). 15. Male head, dorsal and ventral views. 16. Male genitalia, dorsal view. 17. Male genitalia, ventral view. 18. Female subgenital plate, vulval margin, and subvulval plates, ventral view." figureDoi="http://doi.org/10.5281/zenodo.5999798" httpUri="https://zenodo.org/record/5999798/files/figure.png" pageId="15" pageNumber="16">Fig. 15</figureCitation>
+) than in 
+<taxonomicName id="39AD4D67FFC8E969FCE2F9E7D1BAF9FC" authorityName="Tendeiro" authorityYear="1962" box="[818,907,1609,1635]" class="Insecta" family="Philopteridae" genus="Philopterus" kingdom="Animalia" order="Psocodea" pageId="15" pageNumber="16" phylum="Arthropoda" rank="species" species="solus">
+<emphasis id="CCD9EAF6FFC8E969FCE2F9E7D1BAF9FC" box="[818,907,1609,1635]" italics="true" pageId="15" pageNumber="16">P. solus</emphasis>
+</taxonomicName>
+; central sternal plates evidently absent in males of 
+<taxonomicName id="39AD4D67FFC8E969FEFAF9C0D3B2F919" authorityName="Tendeiro" authorityYear="1962" box="[298,387,1644,1670]" class="Insecta" family="Philopteridae" genus="Philopterus" kingdom="Animalia" order="Psocodea" pageId="15" pageNumber="16" phylum="Arthropoda" rank="species" species="solus">
+<emphasis id="CCD9EAF6FFC8E969FEFAF9C0D3B2F919" box="[298,387,1644,1670]" italics="true" pageId="15" pageNumber="16">P. solus</emphasis>
+</taxonomicName>
+, but present in males of 
+<taxonomicName id="39AD4D67FFC8E969FD77F9C0D117F919" authority="Gustafsson &amp; Najer &amp; Zou &amp; Bush, 2022" authorityName="Gustafsson &amp; Najer &amp; Zou &amp; Bush" authorityYear="2022" box="[679,806,1644,1670]" class="Insecta" family="Philopteridae" genus="Philopterus" kingdom="Animalia" order="Psocodea" pageId="15" pageNumber="16" phylum="Arthropoda" rank="species" species="afropari" status="sp. nov.">
+<emphasis id="CCD9EAF6FFC8E969FD77F9C0D117F919" box="[679,806,1644,1670]" italics="true" pageId="15" pageNumber="16">P. afropari</emphasis>
+</taxonomicName>
+<taxonomicNameLabel id="D7EA578DFFC8E969FCFDF9C0D1B9F918" box="[813,904,1645,1671]" pageId="15" pageNumber="16" rank="species">sp. nov.</taxonomicNameLabel>
+(
+<figureCitation id="66962A61FFC8E969FC48F9C1D1DEF919" box="[920,1007,1644,1670]" captionStart="Figs 13–14" captionStartId="16.[189,241,1964,1990]" captionTargetBox="[194,1391,469,1955]" captionTargetId="figure-69@16.[189,1399,457,1963]" captionTargetPageId="16" captionText="Figs 13–14. Philopterus afropari sp. nov. ex Melaniparus cinerascens cinerascens (Vieillot, 1818). 13. Male habitus, dorsal and ventral views. 14. Female habitus, dorsal and ventral views." figureDoi="http://doi.org/10.5281/zenodo.5999794" httpUri="https://zenodo.org/record/5999794/files/figure.png" pageId="15" pageNumber="16">Fig. 13</figureCitation>
+); lateral lobes of male subgenital plate of roughly equal size in 
+<taxonomicName id="39AD4D67FFC8E969FDF3F93DD04CF936" authorityName="Tendeiro" authorityYear="1962" box="[547,637,1679,1705]" class="Insecta" family="Philopteridae" genus="Philopterus" kingdom="Animalia" order="Psocodea" pageId="15" pageNumber="16" phylum="Arthropoda" rank="species" species="solus">
+<emphasis id="CCD9EAF6FFC8E969FDF3F93DD04CF936" box="[547,637,1679,1705]" italics="true" pageId="15" pageNumber="16">P. solus</emphasis>
+</taxonomicName>
+, but posterior lobe much larger than anterior lobe in 
+<taxonomicName id="39AD4D67FFC8E969FB29F93DD749F935" authority="Gustafsson &amp; Najer &amp; Zou &amp; Bush, 2022" authorityName="Gustafsson &amp; Najer &amp; Zou &amp; Bush" authorityYear="2022" box="[1273,1400,1680,1706]" class="Insecta" family="Philopteridae" genus="Philopterus" kingdom="Animalia" order="Psocodea" pageId="15" pageNumber="16" phylum="Arthropoda" rank="species" species="afropari" status="sp. nov.">
+<emphasis id="CCD9EAF6FFC8E969FB29F93DD749F935" box="[1273,1400,1680,1706]" italics="true" pageId="15" pageNumber="16">P. afropari</emphasis>
+</taxonomicName>
+<taxonomicNameLabel id="D7EA578DFFC8E969FF6DF91ED329F952" box="[189,280,1715,1741]" pageId="15" pageNumber="16" rank="species">sp. nov.</taxonomicNameLabel>
+(
+<figureCitation id="66962A61FFC8E969FEF8F91ED3B1F952" box="[296,384,1715,1741]" captionStart="Figs 13–14" captionStartId="16.[189,241,1964,1990]" captionTargetBox="[194,1391,469,1955]" captionTargetId="figure-69@16.[189,1399,457,1963]" captionTargetPageId="16" captionText="Figs 13–14. Philopterus afropari sp. nov. ex Melaniparus cinerascens cinerascens (Vieillot, 1818). 13. Male habitus, dorsal and ventral views. 14. Female habitus, dorsal and ventral views." figureDoi="http://doi.org/10.5281/zenodo.5999794" httpUri="https://zenodo.org/record/5999794/files/figure.png" pageId="15" pageNumber="16">Fig. 13</figureCitation>
+); basal apodeme in 
+<taxonomicName id="39AD4D67FFC8E969FDBCF919D0F7F952" authorityName="Tendeiro" authorityYear="1962" box="[620,710,1715,1741]" class="Insecta" family="Philopteridae" genus="Philopterus" kingdom="Animalia" order="Psocodea" pageId="15" pageNumber="16" phylum="Arthropoda" rank="species" species="solus">
+<emphasis id="CCD9EAF6FFC8E969FDBCF919D0F7F952" box="[620,710,1715,1741]" italics="true" pageId="15" pageNumber="16">P. solus</emphasis>
+</taxonomicName>
+with clear central thickenings presumably associated with the endophallus, but no such structures visible in 
+<taxonomicName id="39AD4D67FFC8E969FCC7F97AD1A6F96F" authority="Gustafsson &amp; Najer &amp; Zou &amp; Bush, 2022" authorityName="Gustafsson &amp; Najer &amp; Zou &amp; Bush" authorityYear="2022" box="[791,919,1750,1776]" class="Insecta" family="Philopteridae" genus="Philopterus" kingdom="Animalia" order="Psocodea" pageId="15" pageNumber="16" phylum="Arthropoda" rank="species" species="afropari" status="sp. nov.">
+<emphasis id="CCD9EAF6FFC8E969FCC7F97AD1A6F96F" box="[791,919,1750,1776]" italics="true" pageId="15" pageNumber="16">P. afropari</emphasis>
+</taxonomicName>
+<taxonomicNameLabel id="D7EA578DFFC8E969FC71F97BD1CEF96F" box="[929,1023,1750,1776]" pageId="15" pageNumber="16" rank="species">sp. nov.</taxonomicNameLabel>
+(
+<figureCitation id="66962A61FFC8E969FBC1F97BD6ACF96E" box="[1041,1181,1750,1777]" captionStart="Figs 15–18" captionStartId="17.[189,241,1926,1952]" captionTargetBox="[211,1371,266,1908]" captionTargetId="figure-56@17.[210,1377,264,1910]" captionTargetPageId="17" captionText="Figs 15–18. Philopterus afropari sp. nov. ex Melaniparus cinerascens cinerascens (Vieillot, 1818). 15. Male head, dorsal and ventral views. 16. Male genitalia, dorsal view. 17. Male genitalia, ventral view. 18. Female subgenital plate, vulval margin, and subvulval plates, ventral view." figureDoi="http://doi.org/10.5281/zenodo.5999798" httpUri="https://zenodo.org/record/5999798/files/figure.png" pageId="15" pageNumber="16">Figs 16–17</figureCitation>
+); central posterior extension of the female subgenital plate more prominent in 
+<taxonomicName id="39AD4D67FFC8E969FCA0F957D1DCF88C" authority="Gustafsson &amp; Najer &amp; Zou &amp; Bush, 2022" authorityName="Gustafsson &amp; Najer &amp; Zou &amp; Bush" authorityYear="2022" box="[880,1005,1785,1811]" class="Insecta" family="Philopteridae" genus="Philopterus" kingdom="Animalia" order="Psocodea" pageId="15" pageNumber="16" phylum="Arthropoda" rank="species" species="afropari" status="sp. nov.">
+<emphasis id="CCD9EAF6FFC8E969FCA0F957D1DCF88C" box="[880,1005,1785,1811]" italics="true" pageId="15" pageNumber="16">P. afropari</emphasis>
+</taxonomicName>
+<taxonomicNameLabel id="D7EA578DFFC8E969FC24F957D67FF88B" box="[1012,1102,1786,1812]" pageId="15" pageNumber="16" rank="species">sp. nov.</taxonomicNameLabel>
+(
+<figureCitation id="66962A61FFC8E969FB8DF954D680F88C" box="[1117,1201,1785,1811]" captionStart="Figs 15–18" captionStartId="17.[189,241,1926,1952]" captionTargetBox="[211,1371,266,1908]" captionTargetId="figure-56@17.[210,1377,264,1910]" captionTargetPageId="17" captionText="Figs 15–18. Philopterus afropari sp. nov. ex Melaniparus cinerascens cinerascens (Vieillot, 1818). 15. Male head, dorsal and ventral views. 16. Male genitalia, dorsal view. 17. Male genitalia, ventral view. 18. Female subgenital plate, vulval margin, and subvulval plates, ventral view." figureDoi="http://doi.org/10.5281/zenodo.5999798" httpUri="https://zenodo.org/record/5999798/files/figure.png" pageId="15" pageNumber="16">Fig. 18</figureCitation>
+) than in 
+<taxonomicName id="39AD4D67FFC8E969FAC6F957D75FF88C" authorityName="Tendeiro" authorityYear="1962" box="[1302,1390,1785,1811]" class="Insecta" family="Philopteridae" genus="Philopterus" kingdom="Animalia" order="Psocodea" pageId="15" pageNumber="16" phylum="Arthropoda" rank="species" species="solus">
+<emphasis id="CCD9EAF6FFC8E969FAC6F957D75FF88C" box="[1302,1390,1785,1811]" italics="true" pageId="15" pageNumber="16">P. solus</emphasis>
+</taxonomicName>
+. Note that 
+<taxonomicName id="39AD4D67FFC8E969FEE8F8B0D3A2F8A9" authorityName="Tendeiro" authorityYear="1962" box="[312,403,1820,1846]" class="Insecta" family="Philopteridae" genus="Philopterus" kingdom="Animalia" order="Psocodea" pageId="15" pageNumber="16" phylum="Arthropoda" rank="species" species="solus">
+<emphasis id="CCD9EAF6FFC8E969FEE8F8B0D3A2F8A9" box="[312,403,1820,1846]" italics="true" pageId="15" pageNumber="16">P. solus</emphasis>
+</taxonomicName>
+is in need of a more detailed redescription before a complete comparison between these two species can be made.
+</paragraph>
+</subSubSection>
+<subSubSection id="B6B7656FFFC8E969FF6DF8D7D39FF87A" pageId="15" pageNumber="16" type="etymology">
+<paragraph id="FE1236E4FFC8E969FF6DF8D7D375F80B" blockId="15.[189,324,1914,1940]" box="[189,324,1914,1940]" pageId="15" pageNumber="16">
+<heading id="A55A8188FFC8E969FF6DF8D7D375F80B" bold="true" box="[189,324,1914,1940]" fontSize="11" level="3" pageId="15" pageNumber="16" reason="3">
+<emphasis id="CCD9EAF6FFC8E969FF6DF8D7D375F80B" bold="true" box="[189,324,1914,1940]" pageId="15" pageNumber="16">Etymology</emphasis>
+</heading>
+</paragraph>
+<paragraph id="FE1236E4FFC8E969FF6DF805D39FF87A" blockId="15.[189,1398,1960,2021]" pageId="15" pageNumber="16">
+The specific name refers to the fact that this is the first species of the 
+<taxonomicName id="39AD4D67FFC8E969FBD5F805D6BFF85D" authorityName="Nitzsch" authorityYear="1818" box="[1029,1166,1960,1986]" class="Insecta" family="Philopteridae" genus="Philopterus" kingdom="Animalia" order="Psocodea" pageId="15" pageNumber="16" phylum="Arthropoda" rank="genus">
+<emphasis id="CCD9EAF6FFC8E969FBD5F805D6BFF85D" box="[1029,1166,1960,1986]" italics="true" pageId="15" pageNumber="16">Philopterus</emphasis>
+</taxonomicName>
+complex described from African parids.
+</paragraph>
+</subSubSection>
+<subSubSection id="B6B7656FFFD7E975FF6DFEA5D1B6FEF6" lastPageId="19" lastPageNumber="20" pageId="16" pageNumber="17" type="materials_examined">
+<paragraph id="FE1236E4FFD7E976FF6DFEA5D39BFEBD" blockId="16.[189,426,264,290]" box="[189,426,264,290]" pageId="16" pageNumber="17">
+<heading id="A55A8188FFD7E976FF6DFEA5D39BFEBD" bold="true" box="[189,426,264,290]" fontSize="11" level="3" pageId="16" pageNumber="17" reason="3">
+<emphasis id="CCD9EAF6FFD7E976FF6DFEA5D39BFEBD" bold="true" box="[189,426,264,290]" pageId="16" pageNumber="17">Material examined</emphasis>
+</heading>
+</paragraph>
+<paragraph id="FE1236E4FFD7E976FF3AFE9AD630FE07" blockId="16.[189,1399,311,408]" pageId="16" pageNumber="17">
+<materialsCitation id="4EC53CB9FFD7E976FF3AFE9AD630FE07" ID-GBIF-Occurrence="3463331304" collectedFrom="ex Melaniparus cinerascens cinerascens (as Parus cinerascens)" collectingDate="1952-07-27" collectionCode="MFN" collectorName="[F.] Zumpt" country="South Africa" location="Potchefstroom" municipality="Transvaal" pageId="16" pageNumber="17" specimenCode="I.N. 1373/29" specimenCount="1" specimenCount-male="1" typeStatus="holotype">
+<emphasis id="CCD9EAF6FFD7E976FF3AFE9AD36DFECE" bold="true" box="[234,348,311,337]" pageId="16" pageNumber="17">
+<typeStatus id="21168846FFD7E976FF3AFE9AD36DFECE" box="[234,348,311,337]" pageId="16" pageNumber="17">Holotype</typeStatus>
+</emphasis>
+<collectingCountry id="86BA7674FFD7E976FF6DFEF7D3A4FEEB" box="[189,405,346,372]" name="South Africa" pageId="16" pageNumber="17">SOUTH AFRICA</collectingCountry>
+• 
+<specimenCount id="E8ABFD6DFFD7E976FE6BFEF6D3E5FEEA" box="[443,468,347,373]" pageId="16" pageNumber="17" type="male">♂</specimenCount>
+; 
+<collectingMunicipality id="1E76AC9EFFD7E976FE37FEF7D06CFEEB" box="[487,605,346,372]" pageId="16" pageNumber="17">Transvaal</collectingMunicipality>
+, 
+<location id="FB72603FFFD7E976FDBEFEF7D12CFEEB" LSID="urn:lsid:plazi:treatment:760487F2FFC8E975FDBDFD7DD007FB7E:FB72603FFFD7E976FDBEFEF7D12CFEEB" box="[622,797,346,372]" country="South Africa" municipality="Transvaal" name="Potchefstroom" pageId="16" pageNumber="17">Potchefstroom</location>
+; 
+<date id="8A131024FFD7E976FCE0FEF7D1E1FEEA" box="[816,976,346,373]" pageId="16" pageNumber="17" value="1952-07-27">
+<collectingDate id="9A57E9CCFFD7E976FCE0FEF7D1E1FEEA" box="[816,976,346,373]" pageId="16" pageNumber="17" value="1952-07-27">27 Jul. 1952</collectingDate>
+</date>
+; 
+<collectorName id="53585332FFD7E976FC33FEF7D659FEEA" box="[995,1128,346,373]" pageId="16" pageNumber="17">[F.] Zumpt</collectorName>
+leg.; 
+<collectedFrom id="4DB17519FFD7E976FB67FEF6D0DFFE07" pageId="16" pageNumber="17">
+ex 
+<emphasis id="CCD9EAF6FFD7E976FB31FEF7D3E8FE08" italics="true" pageId="16" pageNumber="17">Melaniparus cinerascens cinerascens</emphasis>
+(as 
+<emphasis id="CCD9EAF6FFD7E976FDDAFED3D0D3FE08" box="[522,738,382,407]" italics="true" pageId="16" pageNumber="17">Parus cinerascens</emphasis>
+)
+</collectedFrom>
+; “ 
+<specimenCode id="AE0B9E9FFFD7E976FCD8FED3D192FE07" box="[776,931,382,408]" pageId="16" pageNumber="17">I.N. 1373/29</specimenCode>
+”; 
+<collectionCode id="98BCAE21FFD7E976FC6AFED3D1CCFE07" box="[954,1021,382,408]" pageId="16" pageNumber="17">MFN</collectionCode>
+.
+</materialsCitation>
+</paragraph>
+<caption id="AAD2666CFFD7E976FF6DF801D6FEF876" ID-DOI="http://doi.org/10.5281/zenodo.5999794" ID-Zenodo-Dep="5999794" httpUri="https://zenodo.org/record/5999794/files/figure.png" pageId="16" pageNumber="17" startId="16.[189,241,1964,1990]" targetBox="[194,1391,469,1955]" targetPageId="16">
+<paragraph id="FE1236E4FFD7E976FF6DF801D6FEF876" blockId="16.[189,1399,1964,2026]" pageId="16" pageNumber="17">
+<emphasis id="CCD9EAF6FFD7E976FF6DF801D37FF859" bold="true" box="[189,334,1964,1990]" pageId="16" pageNumber="17">Figs 13–14.</emphasis>
+<taxonomicName id="39AD4D67FFD7E976FE89F801D07FF859" authority="Gustafsson &amp; Najer &amp; Zou &amp; Bush, 2022" authorityName="Gustafsson &amp; Najer &amp; Zou &amp; Bush" authorityYear="2022" box="[345,590,1964,1990]" class="Insecta" family="Philopteridae" genus="Philopterus" kingdom="Animalia" order="Psocodea" pageId="16" pageNumber="17" phylum="Arthropoda" rank="species" species="afropari" status="sp. nov.">
+<emphasis id="CCD9EAF6FFD7E976FE89F801D07FF859" box="[345,590,1964,1990]" italics="true" pageId="16" pageNumber="17">Philopterus afropari</emphasis>
+</taxonomicName>
+<taxonomicNameLabel id="D7EA578DFFD7E976FD89F801D086F859" box="[601,695,1964,1990]" pageId="16" pageNumber="17" rank="species">sp. nov.</taxonomicNameLabel>
+ex 
+<emphasis id="CCD9EAF6FFD7E976FD39F801D69AF859" box="[745,1195,1964,1990]" italics="true" pageId="16" pageNumber="17">Melaniparus cinerascens cinerascens</emphasis>
+(Vieillot, 1818). 
+<emphasis id="CCD9EAF6FFD7E976FF6DF862D2EBF876" bold="true" box="[189,218,1999,2025]" pageId="16" pageNumber="17">13</emphasis>
+. Male habitus, dorsal and ventral views. 
+<emphasis id="CCD9EAF6FFD7E976FD6DF862D0EBF876" bold="true" box="[701,730,1999,2025]" pageId="16" pageNumber="17">14</emphasis>
+. Female habitus, dorsal and ventral views.
+</paragraph>
+</caption>
+<caption id="AAD2666CFFD6E977FF6DF82BD6ADF878" ID-DOI="http://doi.org/10.5281/zenodo.5999798" ID-Zenodo-Dep="5999798" httpUri="https://zenodo.org/record/5999798/files/figure.png" pageId="17" pageNumber="18" startId="17.[189,241,1926,1952]" targetBox="[211,1371,266,1908]" targetPageId="17">
+<paragraph id="FE1236E4FFD6E977FF6DF82BD6ADF878" blockId="17.[189,1399,1926,2024]" pageId="17" pageNumber="18">
+<emphasis id="CCD9EAF6FFD6E977FF6DF82BD37FF83E" bold="true" box="[189,334,1926,1953]" pageId="17" pageNumber="18">Figs 15–18.</emphasis>
+<taxonomicName id="39AD4D67FFD6E977FE89F82AD07FF83E" authority="Gustafsson &amp; Najer &amp; Zou &amp; Bush, 2022" authorityName="Gustafsson &amp; Najer &amp; Zou &amp; Bush" authorityYear="2022" box="[345,590,1927,1953]" class="Insecta" family="Philopteridae" genus="Philopterus" kingdom="Animalia" order="Psocodea" pageId="17" pageNumber="18" phylum="Arthropoda" rank="species" species="afropari" status="sp. nov.">
+<emphasis id="CCD9EAF6FFD6E977FE89F82AD07FF83E" box="[345,590,1927,1953]" italics="true" pageId="17" pageNumber="18">Philopterus afropari</emphasis>
+</taxonomicName>
+<taxonomicNameLabel id="D7EA578DFFD6E977FD89F82AD086F83E" box="[601,695,1927,1953]" pageId="17" pageNumber="18" rank="species">sp. nov.</taxonomicNameLabel>
+ex 
+<emphasis id="CCD9EAF6FFD6E977FD39F82AD69AF83E" box="[745,1195,1927,1953]" italics="true" pageId="17" pageNumber="18">Melaniparus cinerascens cinerascens</emphasis>
+(Vieillot, 1818). 
+<emphasis id="CCD9EAF6FFD6E977FF6DF807D2EBF85B" bold="true" box="[189,218,1962,1988]" pageId="17" pageNumber="18">15</emphasis>
+. Male head, dorsal and ventral views. 
+<emphasis id="CCD9EAF6FFD6E977FD63F807D0E1F85B" bold="true" box="[691,720,1962,1988]" pageId="17" pageNumber="18">16</emphasis>
+. Male genitalia, dorsal view. 
+<emphasis id="CCD9EAF6FFD6E977FBE9F807D667F85B" bold="true" box="[1081,1110,1962,1988]" pageId="17" pageNumber="18">17</emphasis>
+. Male genitalia, ventral view. 
+<emphasis id="CCD9EAF6FFD6E977FED3F860D311F878" bold="true" box="[259,288,1997,2023]" pageId="17" pageNumber="18">18</emphasis>
+. Female subgenital plate, vulval margin, and subvulval plates, ventral view.
+</paragraph>
+</caption>
+<caption id="AAD2666CFFD5E974FF74FE52D15DFC8E" ID-Table-UUID="AAD2666CFFD5E974FF74FE52D15DFC8E" httpUri="http://table.plazi.org/id/AAD2666CFFD5E974FF74FE52D15DFC8E" pageId="18" pageNumber="19" startId="18.[164,233,511,540]" targetBox="[266,1804,798,1731]" targetIsTable="true" targetPageId="18">
+<paragraph id="FE1236E4FFD5E974FF74FE52D15DFC8E" blockId="18.[162,1920,511,785]" pageId="18" pageNumber="19">
+<emphasis id="CCD9EAF6FFD5E974FF74FE52D33AFD83" bold="true" box="[164,267,511,540]" pageId="18" pageNumber="19">Table 5.</emphasis>
+Measurements (in millimetres) of 
+<taxonomicName id="39AD4D67FFD5E974FD6AFE52D181FD84" authority="Gustafsson &amp; Najer &amp; Zou &amp; Bush, 2022" authorityName="Gustafsson &amp; Najer &amp; Zou &amp; Bush" authorityYear="2022" box="[698,944,511,539]" class="Insecta" family="Philopteridae" genus="Philopterus" kingdom="Animalia" order="Psocodea" pageId="18" pageNumber="19" phylum="Arthropoda" rank="species" species="afropari" status="sp. nov.">
+<emphasis id="CCD9EAF6FFD5E974FD6AFE52D181FD84" box="[698,944,511,539]" italics="true" pageId="18" pageNumber="19">Philopterus afropari</emphasis>
+</taxonomicName>
+<taxonomicNameLabel id="D7EA578DFFD5E974FC6BFE52D62CFD84" box="[955,1053,511,539]" pageId="18" pageNumber="19" rank="species">sp. nov.</taxonomicNameLabel>
+, 
+<taxonomicName id="39AD4D67FFD5E974FBFDFE52D69DFD84" authority="Gustafsson &amp; Najer &amp; Zou &amp; Bush, 2022" authorityName="Gustafsson &amp; Najer &amp; Zou &amp; Bush" authorityYear="2022" box="[1069,1196,511,539]" class="Insecta" family="Philopteridae" genus="Philopterus" kingdom="Animalia" order="Psocodea" pageId="18" pageNumber="19" phylum="Arthropoda" rank="species" species="sinensis" status="sp. nov.">
+<emphasis id="CCD9EAF6FFD5E974FBFDFE52D69DFD84" box="[1069,1196,511,539]" italics="true" pageId="18" pageNumber="19">P. sinensis</emphasis>
+</taxonomicName>
+<taxonomicNameLabel id="D7EA578DFFD5E974FB68FE52D728FD84" box="[1208,1305,511,539]" pageId="18" pageNumber="19" rank="species">sp. nov.</taxonomicNameLabel>
+, and 
+<taxonomicName id="39AD4D67FFD5E974FAB0FE52D402FD84" authority="Gustafsson &amp; Najer &amp; Zou &amp; Bush, 2022" authorityName="Gustafsson &amp; Najer &amp; Zou &amp; Bush" authorityYear="2022" box="[1376,1587,511,539]" class="Insecta" family="Philopteridae" genus="Philopterus" kingdom="Animalia" order="Psocodea" pageId="18" pageNumber="19" phylum="Arthropoda" rank="species" species="trepostephanus" status="sp. nov.">
+<emphasis id="CCD9EAF6FFD5E974FAB0FE52D402FD84" box="[1376,1587,511,539]" italics="true" pageId="18" pageNumber="19">P. trepostephanus</emphasis>
+</taxonomicName>
+<taxonomicNameLabel id="D7EA578DFFD5E974F9EFFE52D4AFFD84" box="[1599,1694,511,539]" pageId="18" pageNumber="19" rank="species">sp. nov.</taxonomicNameLabel>
+Some dimensions (e.g.,APLL, TPVL) are measured on both sides of the body, and intervals may therefore be given even if only one specimen was examined.Abbreviations: ADPL = dorsal anterior plate length (at midline); ADPW = dorsal anterior plate width; AL = abdominal length (at midline); ANW = anterior notch width; APLL = dorsal anterior plate lateral length; AW = abdominal width (at segment V); GL = genital length (in male); GW = genital width (in male); HL = head length (at midline); HW = head width (at temples); PAL = preantennal length; PAW = preantennal width (at base of coni); PMCL = premarginal carina length; POL = postantennal length (at midline); PRL = prothoracic length; PRW = prothoracic width; PTL = pterothoracic length (at midline); PTW = pterothoracic width; SGPW = subgenital plate width (in female); TL = total length (at midline); TPVL = tergal plate V length; TRL = trabeculum length; TRW = trabeculum width.
+</paragraph>
+</caption>
+<paragraph id="FE1236E4FFD5E974FDECFCB3D4CAF95C" pageId="18" pageNumber="19">
+<table id="8CADC444FFD51699FEDAFCB3D53DF95C" box="[266,1804,798,1731]" gridcols="10" gridrows="26" pageId="18" pageNumber="19">
+<tr id="409D34A6FFD51699FEDAFCB3D53DFCAC" box="[266,1804,798,819]" gridrow="0" pageId="18" pageNumber="19" rowspan-0="1" rowspan-1="1" rowspan-6="1" rowspan-9="1">
+<th id="034C5DDAFFD51699FE25FCB3D107FCAC" box="[501,822,798,819]" colspan="2" colspanRight="1" gridcol="2" gridrow="0" pageId="18" pageNumber="19">
+<taxonomicName id="39AD4D67FFD5E974FDECFCB3D0DEFCAC" authorityName="Gustafsson &amp; Najer &amp; Zou &amp; Bush" authorityYear="2022" box="[572,751,798,819]" class="Insecta" family="Philopteridae" genus="Philopterus" kingdom="Animalia" order="Psocodea" pageId="18" pageNumber="19" phylum="Arthropoda" rank="species" species="afropari">
+<emphasis id="CCD9EAF6FFD5E974FDECFCB3D0DEFCAC" bold="true" box="[572,751,798,819]" italics="true" pageId="18" pageNumber="19">Philopterus afropari</emphasis>
+</taxonomicName>
+</th>
+<th id="034C5DDAFFD51699FCBCFCB3D67BFCAC" box="[876,1098,798,819]" colspan="2" colspanRight="1" gridcol="4" gridrow="0" pageId="18" pageNumber="19">
+<taxonomicName id="39AD4D67FFD5E974FC54FCB3D604FCAC" authorityName="Gustafsson &amp; Najer &amp; Zou &amp; Bush" authorityYear="2022" box="[900,1077,798,819]" class="Insecta" family="Philopteridae" genus="Philopterus" kingdom="Animalia" order="Psocodea" pageId="18" pageNumber="19" phylum="Arthropoda" rank="species" species="sinensis">
+<emphasis id="CCD9EAF6FFD5E974FC54FCB3D604FCAC" bold="true" box="[900,1077,798,819]" italics="true" pageId="18" pageNumber="19">Philopterus sinensis</emphasis>
+</taxonomicName>
+</th>
+<th id="034C5DDAFFD51699FAEEFCB3D474FCAC" box="[1342,1605,798,819]" colspan="2" colspanRight="1" gridcol="7" gridrow="0" pageId="18" pageNumber="19">
+<emphasis id="CCD9EAF6FFD5E974FA80FCB3D473FCAC" bold="true" box="[1360,1602,798,819]" italics="true" pageId="18" pageNumber="19">Philopterus trepostephanus</emphasis>
+</th>
+</tr>
+<tr id="409D34A6FFD51699FEDAFCEED53DFCC7" box="[266,1804,835,856]" gridrow="1" pageId="18" pageNumber="19" rowspan-0="1" rowspan-1="1">
+<td id="034C5DDAFFD51699FE25FCEED107FCC7" box="[501,822,835,856]" colspan="2" colspanRight="1" gridcol="2" gridrow="1" pageId="18" pageNumber="19">
+<emphasis id="CCD9EAF6FFD5E974FE25FCEED107FCC7" box="[501,822,835,856]" italics="true" pageId="18" pageNumber="19">Melaniparus cinerascens cinerascens</emphasis>
+</td>
+<td id="034C5DDAFFD51699FCBCFCEED67BFCC7" box="[876,1098,835,856]" colspan="2" colspanRight="1" gridcol="4" gridrow="1" pageId="18" pageNumber="19">
+<emphasis id="CCD9EAF6FFD5E974FCA3FCEED677FCC7" box="[883,1094,835,856]" italics="true" pageId="18" pageNumber="19">Hemipus picatus picatus</emphasis>
+</td>
+<td id="034C5DDAFFD51699FB5CFCEED7A4FCC7" box="[1164,1429,835,856]" colspan="2" colspanRight="1" gridcol="6" gridrow="1" pageId="18" pageNumber="19">
+<taxonomicName id="39AD4D67FFD5E974FB5CFCEED7A4FCC7" authorityName="Robinson &amp; Kloss" authorityYear="1920" box="[1164,1429,835,856]" class="Aves" family="Tephrodornithidae" genus="Tephrodornis" kingdom="Animalia" order="Passeriformes" pageId="18" pageNumber="19" phylum="Chordata" rank="subSpecies" species="virgatus" subSpecies="fretensis">
+<emphasis id="CCD9EAF6FFD5E974FB5CFCEED7A4FCC7" box="[1164,1429,835,856]" italics="true" pageId="18" pageNumber="19">Tephrodornis virgatus fretensis</emphasis>
+</taxonomicName>
+</td>
+<td id="034C5DDAFFD51699FA0EFCEED53DFCC7" box="[1502,1804,835,856]" colspan="2" colspanRight="1" gridcol="8" gridrow="1" pageId="18" pageNumber="19">
+<taxonomicName id="39AD4D67FFD5E974FA0EFCEED53DFCC7" authorityName="Meyer de Schauensee" authorityYear="1946" box="[1502,1804,835,856]" class="Aves" family="Tephrodornithidae" genus="Tephrodornis" kingdom="Animalia" order="Passeriformes" pageId="18" pageNumber="19" phylum="Chordata" rank="subSpecies" species="virgatus" subSpecies="mekongensis">
+<emphasis id="CCD9EAF6FFD5E974FA0EFCEED53DFCC7" box="[1502,1804,835,856]" italics="true" pageId="18" pageNumber="19">Tephrodornis virgatus mekongensis</emphasis>
+</taxonomicName>
+</td>
+</tr>
+<tr id="409D34A6FFD51699FEDAFCCAD53DFCE3" box="[266,1804,871,892]" gridrow="2" pageId="18" pageNumber="19" rowspan-0="1" rowspan-1="1">
+<td id="034C5DDAFFD51699FE25FCCAD058FCE3" box="[501,617,871,892]" gridcol="2" gridrow="2" pageId="18" pageNumber="19">♂♂ (n = 6)</td>
+<td id="034C5DDAFFD51699FD1DFCCAD107FCE3" box="[717,822,871,892]" gridcol="3" gridrow="2" pageId="18" pageNumber="19">♀♀ (n = 6)</td>
+<td id="034C5DDAFFD51699FCBCFCCAD1F0FCE3" box="[876,961,871,892]" gridcol="4" gridrow="2" pageId="18" pageNumber="19">♂ (n = 1)</td>
+<td id="034C5DDAFFD51699FC24FCCAD67BFCE3" box="[1012,1098,871,892]" gridcol="5" gridrow="2" pageId="18" pageNumber="19">♀ (n = 1)</td>
+<td id="034C5DDAFFD51699FB5CFCCAD6DBFCE3" box="[1164,1258,871,892]" gridcol="6" gridrow="2" pageId="18" pageNumber="19">♂♂ (n = 2)</td>
+<td id="034C5DDAFFD51699FAEEFCCAD7A4FCE3" box="[1342,1429,871,892]" gridcol="7" gridrow="2" pageId="18" pageNumber="19">♀ (n = 1)</td>
+<td id="034C5DDAFFD51699FA0EFCCAD474FCE3" box="[1502,1605,871,892]" gridcol="8" gridrow="2" pageId="18" pageNumber="19">♂♂ (n = 4)</td>
+<td id="034C5DDAFFD51699F974FCCAD53DFCE3" box="[1700,1804,871,892]" gridcol="9" gridrow="2" pageId="18" pageNumber="19">♀♀ (n = 4)</td>
+</tr>
+<tr id="409D34A6FFD51699FEDAFC3ED53DFC37" box="[266,1804,915,936]" gridrow="3" pageId="18" pageNumber="19">
+<th id="034C5DDAFFD51699FEDAFC3ED352FC37" box="[266,355,915,936]" gridcol="0" gridrow="3" pageId="18" pageNumber="19">
+<emphasis id="CCD9EAF6FFD5E974FECFFC3ED37FFC37" bold="true" box="[287,334,915,936]" pageId="18" pageNumber="19">Total</emphasis>
+</th>
+<td id="034C5DDAFFD51699FE55FC3ED3F7FC37" box="[389,454,915,936]" gridcol="1" gridrow="3" pageId="18" pageNumber="19">
+<emphasis id="CCD9EAF6FFD5E974FE48FC3ED385FC37" bold="true" box="[408,436,915,936]" pageId="18" pageNumber="19">TL</emphasis>
+</td>
+<td id="034C5DDAFFD51699FE25FC3ED058FC37" box="[501,617,915,936]" gridcol="2" gridrow="3" pageId="18" pageNumber="19">1.32–1.37</td>
+<td id="034C5DDAFFD51699FD1DFC3ED107FC37" box="[717,822,915,936]" gridcol="3" gridrow="3" pageId="18" pageNumber="19">1.59–1.69</td>
+<td id="034C5DDAFFD51699FCBCFC3ED1F0FC37" box="[876,961,915,936]" gridcol="4" gridrow="3" pageId="18" pageNumber="19">1.45</td>
+<td id="034C5DDAFFD51699FC24FC3ED67BFC37" box="[1012,1098,915,936]" gridcol="5" gridrow="3" pageId="18" pageNumber="19">1.75</td>
+<td id="034C5DDAFFD51699FB5CFC3ED6DBFC37" box="[1164,1258,915,936]" gridcol="6" gridrow="3" pageId="18" pageNumber="19">1.41–1.50</td>
+<td id="034C5DDAFFD51699FAEEFC3ED7A4FC37" box="[1342,1429,915,936]" gridcol="7" gridrow="3" pageId="18" pageNumber="19">1.83</td>
+<td id="034C5DDAFFD51699FA0EFC3ED474FC37" box="[1502,1605,915,936]" gridcol="8" gridrow="3" pageId="18" pageNumber="19">1.42–1.52</td>
+<td id="034C5DDAFFD51699F974FC3ED53DFC37" box="[1700,1804,915,936]" gridcol="9" gridrow="3" pageId="18" pageNumber="19">1.63–1.83</td>
+</tr>
+<tr id="409D34A6FFD51699FEDAFC1AD53DFC53" box="[266,1804,951,972]" gridrow="4" pageId="18" pageNumber="19">
+<th id="034C5DDAFFD51699FEDAFC1AD352FC53" box="[266,355,951,972]" gridcol="0" gridrow="4" pageId="18" pageNumber="19">
+<emphasis id="CCD9EAF6FFD5E974FECEFC1AD37EFC53" bold="true" box="[286,335,951,972]" pageId="18" pageNumber="19">Head</emphasis>
+</th>
+<td id="034C5DDAFFD51699FE55FC1AD3F7FC53" box="[389,454,951,972]" gridcol="1" gridrow="4" pageId="18" pageNumber="19">
+<emphasis id="CCD9EAF6FFD5E974FE47FC1AD387FC53" bold="true" box="[407,438,951,972]" pageId="18" pageNumber="19">HL</emphasis>
+</td>
+<td id="034C5DDAFFD51699FE25FC1AD058FC53" box="[501,617,951,972]" gridcol="2" gridrow="4" pageId="18" pageNumber="19">0.45–0.48</td>
+<td id="034C5DDAFFD51699FD1DFC1AD107FC53" box="[717,822,951,972]" gridcol="3" gridrow="4" pageId="18" pageNumber="19">0.52–0.53</td>
+<td id="034C5DDAFFD51699FCBCFC1AD1F0FC53" box="[876,961,951,972]" gridcol="4" gridrow="4" pageId="18" pageNumber="19">0.46</td>
+<td id="034C5DDAFFD51699FC24FC1AD67BFC53" box="[1012,1098,951,972]" gridcol="5" gridrow="4" pageId="18" pageNumber="19">0.46</td>
+<td id="034C5DDAFFD51699FB5CFC1AD6DBFC53" box="[1164,1258,951,972]" gridcol="6" gridrow="4" pageId="18" pageNumber="19">0.49</td>
+<td id="034C5DDAFFD51699FAEEFC1AD7A4FC53" box="[1342,1429,951,972]" gridcol="7" gridrow="4" pageId="18" pageNumber="19">0.53</td>
+<td id="034C5DDAFFD51699FA0EFC1AD474FC53" box="[1502,1605,951,972]" gridcol="8" gridrow="4" pageId="18" pageNumber="19">0.50–0.54</td>
+<td id="034C5DDAFFD51699F974FC1AD53DFC53" box="[1700,1804,951,972]" gridcol="9" gridrow="4" pageId="18" pageNumber="19">0.52–0.55</td>
+</tr>
+<tr id="409D34A6FFD51699FEDAFC76D53DFC6F" box="[266,1804,987,1008]" gridrow="5" pageId="18" pageNumber="19" rowspan-0="1">
+<td id="034C5DDAFFD51699FE55FC76D3F7FC6F" box="[389,454,987,1008]" gridcol="1" gridrow="5" pageId="18" pageNumber="19">
+<emphasis id="CCD9EAF6FFD5E974FE43FC76D388FC6F" bold="true" box="[403,441,987,1008]" pageId="18" pageNumber="19">HW</emphasis>
+</td>
+<td id="034C5DDAFFD51699FE25FC76D058FC6F" box="[501,617,987,1008]" gridcol="2" gridrow="5" pageId="18" pageNumber="19">0.40–0.44</td>
+<td id="034C5DDAFFD51699FD1DFC76D107FC6F" box="[717,822,987,1008]" gridcol="3" gridrow="5" pageId="18" pageNumber="19">0.46–0.48</td>
+<td id="034C5DDAFFD51699FCBCFC76D1F0FC6F" box="[876,961,987,1008]" gridcol="4" gridrow="5" pageId="18" pageNumber="19">0.42</td>
+<td id="034C5DDAFFD51699FC24FC76D67BFC6F" box="[1012,1098,987,1008]" gridcol="5" gridrow="5" pageId="18" pageNumber="19">0.41</td>
+<td id="034C5DDAFFD51699FB5CFC76D6DBFC6F" box="[1164,1258,987,1008]" gridcol="6" gridrow="5" pageId="18" pageNumber="19">0.45</td>
+<td id="034C5DDAFFD51699FAEEFC76D7A4FC6F" box="[1342,1429,987,1008]" gridcol="7" gridrow="5" pageId="18" pageNumber="19">0.50</td>
+<td id="034C5DDAFFD51699FA0EFC76D474FC6F" box="[1502,1605,987,1008]" gridcol="8" gridrow="5" pageId="18" pageNumber="19">0.46–0.50</td>
+<td id="034C5DDAFFD51699F974FC76D53DFC6F" box="[1700,1804,987,1008]" gridcol="9" gridrow="5" pageId="18" pageNumber="19">0.50–0.52</td>
+</tr>
+<tr id="409D34A6FFD51699FEDAFC52D53DFB8B" box="[266,1804,1023,1044]" gridrow="6" pageId="18" pageNumber="19" rowspan-0="1">
+<td id="034C5DDAFFD51699FE55FC52D3F7FB8B" box="[389,454,1023,1044]" gridcol="1" gridrow="6" pageId="18" pageNumber="19">
+<emphasis id="CCD9EAF6FFD5E974FE5BFC52D38EFB8B" bold="true" box="[395,447,1023,1044]" pageId="18" pageNumber="19">ANW</emphasis>
+</td>
+<td id="034C5DDAFFD51699FE25FC52D058FB8B" box="[501,617,1023,1044]" gridcol="2" gridrow="6" pageId="18" pageNumber="19">0.14–0.16</td>
+<td id="034C5DDAFFD51699FD1DFC52D107FB8B" box="[717,822,1023,1044]" gridcol="3" gridrow="6" pageId="18" pageNumber="19">0.17–0.18</td>
+<td id="034C5DDAFFD51699FCBCFC52D1F0FB8B" box="[876,961,1023,1044]" gridcol="4" gridrow="6" pageId="18" pageNumber="19">0.19</td>
+<td id="034C5DDAFFD51699FC24FC52D67BFB8B" box="[1012,1098,1023,1044]" gridcol="5" gridrow="6" pageId="18" pageNumber="19">0.17</td>
+<td id="034C5DDAFFD51699FB5CFC52D6DBFB8B" box="[1164,1258,1023,1044]" gridcol="6" gridrow="6" pageId="18" pageNumber="19">0.22</td>
+<td id="034C5DDAFFD51699FAEEFC52D7A4FB8B" box="[1342,1429,1023,1044]" gridcol="7" gridrow="6" pageId="18" pageNumber="19">0.23</td>
+<td id="034C5DDAFFD51699FA0EFC52D474FB8B" box="[1502,1605,1023,1044]" gridcol="8" gridrow="6" pageId="18" pageNumber="19">0.22–0.25</td>
+<td id="034C5DDAFFD51699F974FC52D53DFB8B" box="[1700,1804,1023,1044]" gridcol="9" gridrow="6" pageId="18" pageNumber="19">0.24–0.25</td>
+</tr>
+<tr id="409D34A6FFD51699FEDAFB8ED53DFBA7" box="[266,1804,1059,1080]" gridrow="7" pageId="18" pageNumber="19" rowspan-0="1">
+<td id="034C5DDAFFD51699FE55FB8ED3F7FBA7" box="[389,454,1059,1080]" gridcol="1" gridrow="7" pageId="18" pageNumber="19">
+<emphasis id="CCD9EAF6FFD5E974FE59FB8ED3F2FBA7" bold="true" box="[393,451,1059,1080]" pageId="18" pageNumber="19">ADPL</emphasis>
+</td>
+<td id="034C5DDAFFD51699FE25FB8ED058FBA7" box="[501,617,1059,1080]" gridcol="2" gridrow="7" pageId="18" pageNumber="19">0.18–0.19</td>
+<td id="034C5DDAFFD51699FD1DFB8ED107FBA7" box="[717,822,1059,1080]" gridcol="3" gridrow="7" pageId="18" pageNumber="19">0.20–0.22</td>
+<td id="034C5DDAFFD51699FCBCFB8ED1F0FBA7" box="[876,961,1059,1080]" gridcol="4" gridrow="7" pageId="18" pageNumber="19">0.24</td>
+<td id="034C5DDAFFD51699FC24FB8ED67BFBA7" box="[1012,1098,1059,1080]" gridcol="5" gridrow="7" pageId="18" pageNumber="19">0.22</td>
+<td id="034C5DDAFFD51699FB5CFB8ED6DBFBA7" box="[1164,1258,1059,1080]" gridcol="6" gridrow="7" pageId="18" pageNumber="19">0.22–0.23</td>
+<td id="034C5DDAFFD51699FAEEFB8ED7A4FBA7" box="[1342,1429,1059,1080]" gridcol="7" gridrow="7" pageId="18" pageNumber="19">0.24</td>
+<td id="034C5DDAFFD51699FA0EFB8ED474FBA7" box="[1502,1605,1059,1080]" gridcol="8" gridrow="7" pageId="18" pageNumber="19">0.24–0.27</td>
+<td id="034C5DDAFFD51699F974FB8ED53DFBA7" box="[1700,1804,1059,1080]" gridcol="9" gridrow="7" pageId="18" pageNumber="19">0.26–0.27</td>
+</tr>
+<tr id="409D34A6FFD51699FEDAFBEAD53DFBC3" box="[266,1804,1095,1116]" gridrow="8" pageId="18" pageNumber="19" rowspan-0="1">
+<td id="034C5DDAFFD51699FE55FBEAD3F7FBC3" box="[389,454,1095,1116]" gridcol="1" gridrow="8" pageId="18" pageNumber="19">
+<emphasis id="CCD9EAF6FFD5E974FE55FBEAD3F7FBC3" bold="true" box="[389,454,1095,1116]" pageId="18" pageNumber="19">ADPW</emphasis>
+</td>
+<td id="034C5DDAFFD51699FE25FBEAD058FBC3" box="[501,617,1095,1116]" gridcol="2" gridrow="8" pageId="18" pageNumber="19">0.13–0.14</td>
+<td id="034C5DDAFFD51699FD1DFBEAD107FBC3" box="[717,822,1095,1116]" gridcol="3" gridrow="8" pageId="18" pageNumber="19">0.15–0.17</td>
+<td id="034C5DDAFFD51699FCBCFBEAD1F0FBC3" box="[876,961,1095,1116]" gridcol="4" gridrow="8" pageId="18" pageNumber="19">0.15</td>
+<td id="034C5DDAFFD51699FC24FBEAD67BFBC3" box="[1012,1098,1095,1116]" gridcol="5" gridrow="8" pageId="18" pageNumber="19">0.15</td>
+<td id="034C5DDAFFD51699FB5CFBEAD6DBFBC3" box="[1164,1258,1095,1116]" gridcol="6" gridrow="8" pageId="18" pageNumber="19">0.16</td>
+<td id="034C5DDAFFD51699FAEEFBEAD7A4FBC3" box="[1342,1429,1095,1116]" gridcol="7" gridrow="8" pageId="18" pageNumber="19">0.18</td>
+<td id="034C5DDAFFD51699FA0EFBEAD474FBC3" box="[1502,1605,1095,1116]" gridcol="8" gridrow="8" pageId="18" pageNumber="19">0.16–0.18</td>
+<td id="034C5DDAFFD51699F974FBEAD53DFBC3" box="[1700,1804,1095,1116]" gridcol="9" gridrow="8" pageId="18" pageNumber="19">0.17–0.19</td>
+</tr>
+<tr id="409D34A6FFD51699FEDAFBC6D53DFB1E" box="[266,1804,1131,1153]" gridrow="9" pageId="18" pageNumber="19" rowspan-0="1">
+<td id="034C5DDAFFD51699FE55FBC6D3F7FB1E" box="[389,454,1131,1153]" gridcol="1" gridrow="9" pageId="18" pageNumber="19">
+<emphasis id="CCD9EAF6FFD5E974FE5AFBC6D3F2FB1F" bold="true" box="[394,451,1131,1152]" pageId="18" pageNumber="19">APLL</emphasis>
+</td>
+<td id="034C5DDAFFD51699FE25FBC6D058FB1E" box="[501,617,1131,1153]" gridcol="2" gridrow="9" pageId="18" pageNumber="19">0.14–0.16</td>
+<td id="034C5DDAFFD51699FD1DFBC6D107FB1E" box="[717,822,1131,1153]" gridcol="3" gridrow="9" pageId="18" pageNumber="19">0.15–0.16</td>
+<td id="034C5DDAFFD51699FCBCFBC6D1F0FB1E" box="[876,961,1131,1153]" gridcol="4" gridrow="9" pageId="18" pageNumber="19">0.13–0.14</td>
+<td id="034C5DDAFFD51699FC24FBC6D67BFB1E" box="[1012,1098,1131,1153]" gridcol="5" gridrow="9" pageId="18" pageNumber="19">0.13–0.14</td>
+<td id="034C5DDAFFD51699FB5CFBC6D6DBFB1E" box="[1164,1258,1131,1153]" gridcol="6" gridrow="9" pageId="18" pageNumber="19">0.14–0.16</td>
+<td id="034C5DDAFFD51699FAEEFBC6D7A4FB1E" box="[1342,1429,1131,1153]" gridcol="7" gridrow="9" pageId="18" pageNumber="19">0.15</td>
+<td id="034C5DDAFFD51699FA0EFBC6D474FB1E" box="[1502,1605,1131,1153]" gridcol="8" gridrow="9" pageId="18" pageNumber="19">0.15–0.16</td>
+<td id="034C5DDAFFD51699F974FBC6D53DFB1E" box="[1700,1804,1131,1153]" gridcol="9" gridrow="9" pageId="18" pageNumber="19">0.16–0.17</td>
+</tr>
+<tr id="409D34A6FFD51699FEDAFB3DD53DFB3A" box="[266,1804,1168,1189]" gridrow="10" pageId="18" pageNumber="19" rowspan-0="1">
+<td id="034C5DDAFFD51699FE55FB3DD3F7FB3A" box="[389,454,1168,1189]" gridcol="1" gridrow="10" pageId="18" pageNumber="19">
+<emphasis id="CCD9EAF6FFD5E974FE57FB3DD3F7FB3A" bold="true" box="[391,454,1168,1189]" pageId="18" pageNumber="19">PMCL</emphasis>
+</td>
+<td id="034C5DDAFFD51699FE25FB3DD058FB3A" box="[501,617,1168,1189]" gridcol="2" gridrow="10" pageId="18" pageNumber="19">0.07–0.08</td>
+<td id="034C5DDAFFD51699FD1DFB3DD107FB3A" box="[717,822,1168,1189]" gridcol="3" gridrow="10" pageId="18" pageNumber="19">0.08–0.09</td>
+<td id="034C5DDAFFD51699FCBCFB3DD1F0FB3A" box="[876,961,1168,1189]" gridcol="4" gridrow="10" pageId="18" pageNumber="19">0.07</td>
+<td id="034C5DDAFFD51699FC24FB3DD67BFB3A" box="[1012,1098,1168,1189]" gridcol="5" gridrow="10" pageId="18" pageNumber="19">0.07</td>
+<td id="034C5DDAFFD51699FB5CFB3DD6DBFB3A" box="[1164,1258,1168,1189]" gridcol="6" gridrow="10" pageId="18" pageNumber="19">0.07–0.08</td>
+<td id="034C5DDAFFD51699FAEEFB3DD7A4FB3A" box="[1342,1429,1168,1189]" gridcol="7" gridrow="10" pageId="18" pageNumber="19">0.08–0.09</td>
+<td id="034C5DDAFFD51699FA0EFB3DD474FB3A" box="[1502,1605,1168,1189]" gridcol="8" gridrow="10" pageId="18" pageNumber="19">0.08</td>
+<td id="034C5DDAFFD51699F974FB3DD53DFB3A" box="[1700,1804,1168,1189]" gridcol="9" gridrow="10" pageId="18" pageNumber="19">0.08–0.09</td>
+</tr>
+<tr id="409D34A6FFD51699FEDAFB19D53DFB56" box="[266,1804,1204,1225]" gridrow="11" pageId="18" pageNumber="19" rowspan-0="1">
+<td id="034C5DDAFFD51699FE55FB19D3F7FB56" box="[389,454,1204,1225]" gridcol="1" gridrow="11" pageId="18" pageNumber="19">
+<emphasis id="CCD9EAF6FFD5E974FE41FB19D38BFB56" bold="true" box="[401,442,1204,1225]" pageId="18" pageNumber="19">PAL</emphasis>
+</td>
+<td id="034C5DDAFFD51699FE25FB19D058FB56" box="[501,617,1204,1225]" gridcol="2" gridrow="11" pageId="18" pageNumber="19">0.16–0.17</td>
+<td id="034C5DDAFFD51699FD1DFB19D107FB56" box="[717,822,1204,1225]" gridcol="3" gridrow="11" pageId="18" pageNumber="19">0.16–0.19</td>
+<td id="034C5DDAFFD51699FCBCFB19D1F0FB56" box="[876,961,1204,1225]" gridcol="4" gridrow="11" pageId="18" pageNumber="19">0.16</td>
+<td id="034C5DDAFFD51699FC24FB19D67BFB56" box="[1012,1098,1204,1225]" gridcol="5" gridrow="11" pageId="18" pageNumber="19">0.15</td>
+<td id="034C5DDAFFD51699FB5CFB19D6DBFB56" box="[1164,1258,1204,1225]" gridcol="6" gridrow="11" pageId="18" pageNumber="19">0.14–0.15</td>
+<td id="034C5DDAFFD51699FAEEFB19D7A4FB56" box="[1342,1429,1204,1225]" gridcol="7" gridrow="11" pageId="18" pageNumber="19">0.16–0.18</td>
+<td id="034C5DDAFFD51699FA0EFB19D474FB56" box="[1502,1605,1204,1225]" gridcol="8" gridrow="11" pageId="18" pageNumber="19">0.17</td>
+<td id="034C5DDAFFD51699F974FB19D53DFB56" box="[1700,1804,1204,1225]" gridcol="9" gridrow="11" pageId="18" pageNumber="19">0.16–0.18</td>
+</tr>
+<tr id="409D34A6FFD51699FEDAFB75D53DFB72" box="[266,1804,1240,1261]" gridrow="12" pageId="18" pageNumber="19" rowspan-0="1">
+<td id="034C5DDAFFD51699FE55FB75D3F7FB72" box="[389,454,1240,1261]" gridcol="1" gridrow="12" pageId="18" pageNumber="19">
+<emphasis id="CCD9EAF6FFD5E974FE5FFB75D38CFB72" bold="true" box="[399,445,1240,1261]" pageId="18" pageNumber="19">PAW</emphasis>
+</td>
+<td id="034C5DDAFFD51699FE25FB75D058FB72" box="[501,617,1240,1261]" gridcol="2" gridrow="12" pageId="18" pageNumber="19">0.31–0.34</td>
+<td id="034C5DDAFFD51699FD1DFB75D107FB72" box="[717,822,1240,1261]" gridcol="3" gridrow="12" pageId="18" pageNumber="19">0.34–0.37</td>
+<td id="034C5DDAFFD51699FCBCFB75D1F0FB72" box="[876,961,1240,1261]" gridcol="4" gridrow="12" pageId="18" pageNumber="19">0.33</td>
+<td id="034C5DDAFFD51699FC24FB75D67BFB72" box="[1012,1098,1240,1261]" gridcol="5" gridrow="12" pageId="18" pageNumber="19">0.30</td>
+<td id="034C5DDAFFD51699FB5CFB75D6DBFB72" box="[1164,1258,1240,1261]" gridcol="6" gridrow="12" pageId="18" pageNumber="19">0.32</td>
+<td id="034C5DDAFFD51699FAEEFB75D7A4FB72" box="[1342,1429,1240,1261]" gridcol="7" gridrow="12" pageId="18" pageNumber="19">0.35</td>
+<td id="034C5DDAFFD51699FA0EFB75D474FB72" box="[1502,1605,1240,1261]" gridcol="8" gridrow="12" pageId="18" pageNumber="19">0.34–0.36</td>
+<td id="034C5DDAFFD51699F974FB75D53DFB72" box="[1700,1804,1240,1261]" gridcol="9" gridrow="12" pageId="18" pageNumber="19">0.37–0.38</td>
+</tr>
+<tr id="409D34A6FFD51699FEDAFB51D53DFA8E" box="[266,1804,1276,1297]" gridrow="13" pageId="18" pageNumber="19" rowspan-0="1">
+<td id="034C5DDAFFD51699FE55FB51D3F7FA8E" box="[389,454,1276,1297]" gridcol="1" gridrow="13" pageId="18" pageNumber="19">
+<emphasis id="CCD9EAF6FFD5E974FE40FB51D38DFA8E" bold="true" box="[400,444,1276,1297]" pageId="18" pageNumber="19">POL</emphasis>
+</td>
+<td id="034C5DDAFFD51699FE25FB51D058FA8E" box="[501,617,1276,1297]" gridcol="2" gridrow="13" pageId="18" pageNumber="19">0.23–0.25</td>
+<td id="034C5DDAFFD51699FD1DFB51D107FA8E" box="[717,822,1276,1297]" gridcol="3" gridrow="13" pageId="18" pageNumber="19">0.26–0.28</td>
+<td id="034C5DDAFFD51699FCBCFB51D1F0FA8E" box="[876,961,1276,1297]" gridcol="4" gridrow="13" pageId="18" pageNumber="19">0.23</td>
+<td id="034C5DDAFFD51699FC24FB51D67BFA8E" box="[1012,1098,1276,1297]" gridcol="5" gridrow="13" pageId="18" pageNumber="19">0.24</td>
+<td id="034C5DDAFFD51699FB5CFB51D6DBFA8E" box="[1164,1258,1276,1297]" gridcol="6" gridrow="13" pageId="18" pageNumber="19">0.24</td>
+<td id="034C5DDAFFD51699FAEEFB51D7A4FA8E" box="[1342,1429,1276,1297]" gridcol="7" gridrow="13" pageId="18" pageNumber="19">0.27</td>
+<td id="034C5DDAFFD51699FA0EFB51D474FA8E" box="[1502,1605,1276,1297]" gridcol="8" gridrow="13" pageId="18" pageNumber="19">0.26–0.27</td>
+<td id="034C5DDAFFD51699F974FB51D53DFA8E" box="[1700,1804,1276,1297]" gridcol="9" gridrow="13" pageId="18" pageNumber="19">0.28–0.29</td>
+</tr>
+<tr id="409D34A6FFD51699FEDAFA8DD53DFAAA" box="[266,1804,1312,1333]" gridrow="14" pageId="18" pageNumber="19" rowspan-0="1">
+<td id="034C5DDAFFD51699FE55FA8DD3F7FAAA" box="[389,454,1312,1333]" gridcol="1" gridrow="14" pageId="18" pageNumber="19">
+<emphasis id="CCD9EAF6FFD5E974FE40FA8DD38DFAAA" bold="true" box="[400,444,1312,1333]" pageId="18" pageNumber="19">TRL</emphasis>
+</td>
+<td id="034C5DDAFFD51699FE25FA8DD058FAAA" box="[501,617,1312,1333]" gridcol="2" gridrow="14" pageId="18" pageNumber="19">0.09</td>
+<td id="034C5DDAFFD51699FD1DFA8DD107FAAA" box="[717,822,1312,1333]" gridcol="3" gridrow="14" pageId="18" pageNumber="19">0.10</td>
+<td id="034C5DDAFFD51699FCBCFA8DD1F0FAAA" box="[876,961,1312,1333]" gridcol="4" gridrow="14" pageId="18" pageNumber="19">0.09–0.10</td>
+<td id="034C5DDAFFD51699FC24FA8DD67BFAAA" box="[1012,1098,1312,1333]" gridcol="5" gridrow="14" pageId="18" pageNumber="19">0.09–0.10</td>
+<td id="034C5DDAFFD51699FB5CFA8DD6DBFAAA" box="[1164,1258,1312,1333]" gridcol="6" gridrow="14" pageId="18" pageNumber="19">0.10</td>
+<td id="034C5DDAFFD51699FAEEFA8DD7A4FAAA" box="[1342,1429,1312,1333]" gridcol="7" gridrow="14" pageId="18" pageNumber="19">0.10–0.11</td>
+<td id="034C5DDAFFD51699FA0EFA8DD474FAAA" box="[1502,1605,1312,1333]" gridcol="8" gridrow="14" pageId="18" pageNumber="19">0.09–0.11</td>
+<td id="034C5DDAFFD51699F974FA8DD53DFAAA" box="[1700,1804,1312,1333]" gridcol="9" gridrow="14" pageId="18" pageNumber="19">0.09–0.11</td>
+</tr>
+<tr id="409D34A6FFD51699FEDAFAE9D53DFAC6" box="[266,1804,1348,1369]" gridrow="15" pageId="18" pageNumber="19" rowspan-0="1">
+<td id="034C5DDAFFD51699FE55FAE9D3F7FAC6" box="[389,454,1348,1369]" gridcol="1" gridrow="15" pageId="18" pageNumber="19">
+<emphasis id="CCD9EAF6FFD5E974FE5CFAE9D38FFAC6" bold="true" box="[396,446,1348,1369]" pageId="18" pageNumber="19">TRW</emphasis>
+</td>
+<td id="034C5DDAFFD51699FE25FAE9D058FAC6" box="[501,617,1348,1369]" gridcol="2" gridrow="15" pageId="18" pageNumber="19">0.04</td>
+<td id="034C5DDAFFD51699FD1DFAE9D107FAC6" box="[717,822,1348,1369]" gridcol="3" gridrow="15" pageId="18" pageNumber="19">0.04–0.05</td>
+<td id="034C5DDAFFD51699FCBCFAE9D1F0FAC6" box="[876,961,1348,1369]" gridcol="4" gridrow="15" pageId="18" pageNumber="19">0.04</td>
+<td id="034C5DDAFFD51699FC24FAE9D67BFAC6" box="[1012,1098,1348,1369]" gridcol="5" gridrow="15" pageId="18" pageNumber="19">0.05</td>
+<td id="034C5DDAFFD51699FB5CFAE9D6DBFAC6" box="[1164,1258,1348,1369]" gridcol="6" gridrow="15" pageId="18" pageNumber="19">0.04–0.05</td>
+<td id="034C5DDAFFD51699FAEEFAE9D7A4FAC6" box="[1342,1429,1348,1369]" gridcol="7" gridrow="15" pageId="18" pageNumber="19">0.05</td>
+<td id="034C5DDAFFD51699FA0EFAE9D474FAC6" box="[1502,1605,1348,1369]" gridcol="8" gridrow="15" pageId="18" pageNumber="19">0.05</td>
+<td id="034C5DDAFFD51699F974FAE9D53DFAC6" box="[1700,1804,1348,1369]" gridcol="9" gridrow="15" pageId="18" pageNumber="19">0.05</td>
+</tr>
+<tr id="409D34A6FFD51699FEDAFAC5D53DFAE2" box="[266,1804,1384,1405]" gridrow="16" pageId="18" pageNumber="19">
+<th id="034C5DDAFFD51699FEDAFAC5D352FAE2" box="[266,355,1384,1405]" gridcol="0" gridrow="16" pageId="18" pageNumber="19">
+<emphasis id="CCD9EAF6FFD5E974FEC5FAC5D368FAE2" bold="true" box="[277,345,1384,1405]" pageId="18" pageNumber="19">Thorax</emphasis>
+</th>
+<td id="034C5DDAFFD51699FE55FAC5D3F7FAE2" box="[389,454,1384,1405]" gridcol="1" gridrow="16" pageId="18" pageNumber="19">
+<emphasis id="CCD9EAF6FFD5E974FE41FAC5D38DFAE2" bold="true" box="[401,444,1384,1405]" pageId="18" pageNumber="19">PRL</emphasis>
+</td>
+<td id="034C5DDAFFD51699FE25FAC5D058FAE2" box="[501,617,1384,1405]" gridcol="2" gridrow="16" pageId="18" pageNumber="19">0.09–0.11</td>
+<td id="034C5DDAFFD51699FD1DFAC5D107FAE2" box="[717,822,1384,1405]" gridcol="3" gridrow="16" pageId="18" pageNumber="19">0.11–0.13</td>
+<td id="034C5DDAFFD51699FCBCFAC5D1F0FAE2" box="[876,961,1384,1405]" gridcol="4" gridrow="16" pageId="18" pageNumber="19">0.11</td>
+<td id="034C5DDAFFD51699FC24FAC5D67BFAE2" box="[1012,1098,1384,1405]" gridcol="5" gridrow="16" pageId="18" pageNumber="19">0.11</td>
+<td id="034C5DDAFFD51699FB5CFAC5D6DBFAE2" box="[1164,1258,1384,1405]" gridcol="6" gridrow="16" pageId="18" pageNumber="19">0.11–0.12</td>
+<td id="034C5DDAFFD51699FAEEFAC5D7A4FAE2" box="[1342,1429,1384,1405]" gridcol="7" gridrow="16" pageId="18" pageNumber="19">0.14</td>
+<td id="034C5DDAFFD51699FA0EFAC5D474FAE2" box="[1502,1605,1384,1405]" gridcol="8" gridrow="16" pageId="18" pageNumber="19">0.12–0.14</td>
+<td id="034C5DDAFFD51699F974FAC5D53DFAE2" box="[1700,1804,1384,1405]" gridcol="9" gridrow="16" pageId="18" pageNumber="19">0.12–0.16</td>
+</tr>
+<tr id="409D34A6FFD51699FEDAFA21D53DFA3D" box="[266,1804,1420,1442]" gridrow="17" pageId="18" pageNumber="19" rowspan-0="1">
+<td id="034C5DDAFFD51699FE55FA21D3F7FA3D" box="[389,454,1420,1442]" gridcol="1" gridrow="17" pageId="18" pageNumber="19">
+<emphasis id="CCD9EAF6FFD5E974FE5DFA21D38FFA3E" bold="true" box="[397,446,1420,1441]" pageId="18" pageNumber="19">PRW</emphasis>
+</td>
+<td id="034C5DDAFFD51699FE25FA21D058FA3D" box="[501,617,1420,1442]" gridcol="2" gridrow="17" pageId="18" pageNumber="19">0.23–0.24</td>
+<td id="034C5DDAFFD51699FD1DFA21D107FA3D" box="[717,822,1420,1442]" gridcol="3" gridrow="17" pageId="18" pageNumber="19">0.26–0.27</td>
+<td id="034C5DDAFFD51699FCBCFA21D1F0FA3D" box="[876,961,1420,1442]" gridcol="4" gridrow="17" pageId="18" pageNumber="19">0.16</td>
+<td id="034C5DDAFFD51699FC24FA21D67BFA3D" box="[1012,1098,1420,1442]" gridcol="5" gridrow="17" pageId="18" pageNumber="19">0.16</td>
+<td id="034C5DDAFFD51699FB5CFA21D6DBFA3D" box="[1164,1258,1420,1442]" gridcol="6" gridrow="17" pageId="18" pageNumber="19">0.28</td>
+<td id="034C5DDAFFD51699FAEEFA21D7A4FA3D" box="[1342,1429,1420,1442]" gridcol="7" gridrow="17" pageId="18" pageNumber="19">0.31</td>
+<td id="034C5DDAFFD51699FA0EFA21D474FA3D" box="[1502,1605,1420,1442]" gridcol="8" gridrow="17" pageId="18" pageNumber="19">0.28–0.30</td>
+<td id="034C5DDAFFD51699F974FA21D53DFA3D" box="[1700,1804,1420,1442]" gridcol="9" gridrow="17" pageId="18" pageNumber="19">0.30–0.31</td>
+</tr>
+<tr id="409D34A6FFD51699FEDAFA1CD53DFA59" box="[266,1804,1457,1478]" gridrow="18" pageId="18" pageNumber="19" rowspan-0="1">
+<td id="034C5DDAFFD51699FE55FA1CD3F7FA59" box="[389,454,1457,1478]" gridcol="1" gridrow="18" pageId="18" pageNumber="19">
+<emphasis id="CCD9EAF6FFD5E974FE41FA1CD38BFA59" bold="true" box="[401,442,1457,1478]" pageId="18" pageNumber="19">PTL</emphasis>
+</td>
+<td id="034C5DDAFFD51699FE25FA1CD058FA59" box="[501,617,1457,1478]" gridcol="2" gridrow="18" pageId="18" pageNumber="19">0.14–0.17</td>
+<td id="034C5DDAFFD51699FD1DFA1CD107FA59" box="[717,822,1457,1478]" gridcol="3" gridrow="18" pageId="18" pageNumber="19">0.17–0.19</td>
+<td id="034C5DDAFFD51699FCBCFA1CD1F0FA59" box="[876,961,1457,1478]" gridcol="4" gridrow="18" pageId="18" pageNumber="19">0.18</td>
+<td id="034C5DDAFFD51699FC24FA1CD67BFA59" box="[1012,1098,1457,1478]" gridcol="5" gridrow="18" pageId="18" pageNumber="19">0.17</td>
+<td id="034C5DDAFFD51699FB5CFA1CD6DBFA59" box="[1164,1258,1457,1478]" gridcol="6" gridrow="18" pageId="18" pageNumber="19">0.19–0.20</td>
+<td id="034C5DDAFFD51699FAEEFA1CD7A4FA59" box="[1342,1429,1457,1478]" gridcol="7" gridrow="18" pageId="18" pageNumber="19">0.22</td>
+<td id="034C5DDAFFD51699FA0EFA1CD474FA59" box="[1502,1605,1457,1478]" gridcol="8" gridrow="18" pageId="18" pageNumber="19">0.15–0.19</td>
+<td id="034C5DDAFFD51699F974FA1CD53DFA59" box="[1700,1804,1457,1478]" gridcol="9" gridrow="18" pageId="18" pageNumber="19">0.20–0.22</td>
+</tr>
+<tr id="409D34A6FFD51699FEDAFA78D53DFA75" box="[266,1804,1493,1514]" gridrow="19" pageId="18" pageNumber="19" rowspan-0="1">
+<td id="034C5DDAFFD51699FE55FA78D3F7FA75" box="[389,454,1493,1514]" gridcol="1" gridrow="19" pageId="18" pageNumber="19">
+<emphasis id="CCD9EAF6FFD5E974FE5DFA78D38FFA75" bold="true" box="[397,446,1493,1514]" pageId="18" pageNumber="19">PTW</emphasis>
+</td>
+<td id="034C5DDAFFD51699FE25FA78D058FA75" box="[501,617,1493,1514]" gridcol="2" gridrow="19" pageId="18" pageNumber="19">0.35–0.37</td>
+<td id="034C5DDAFFD51699FD1DFA78D107FA75" box="[717,822,1493,1514]" gridcol="3" gridrow="19" pageId="18" pageNumber="19">0.41–0.42</td>
+<td id="034C5DDAFFD51699FCBCFA78D1F0FA75" box="[876,961,1493,1514]" gridcol="4" gridrow="19" pageId="18" pageNumber="19">0.37</td>
+<td id="034C5DDAFFD51699FC24FA78D67BFA75" box="[1012,1098,1493,1514]" gridcol="5" gridrow="19" pageId="18" pageNumber="19">0.39</td>
+<td id="034C5DDAFFD51699FB5CFA78D6DBFA75" box="[1164,1258,1493,1514]" gridcol="6" gridrow="19" pageId="18" pageNumber="19">0.40–0.41</td>
+<td id="034C5DDAFFD51699FAEEFA78D7A4FA75" box="[1342,1429,1493,1514]" gridcol="7" gridrow="19" pageId="18" pageNumber="19">0.48</td>
+<td id="034C5DDAFFD51699FA0EFA78D474FA75" box="[1502,1605,1493,1514]" gridcol="8" gridrow="19" pageId="18" pageNumber="19">0.41–0.43</td>
+<td id="034C5DDAFFD51699F974FA78D53DFA75" box="[1700,1804,1493,1514]" gridcol="9" gridrow="19" pageId="18" pageNumber="19">0.46–0.47</td>
+</tr>
+<tr id="409D34A6FFD51699FEDAFA54D53DF991" box="[266,1804,1529,1550]" gridrow="20" pageId="18" pageNumber="19">
+<th id="034C5DDAFFD51699FEDAFA54D352F991" box="[266,355,1529,1550]" gridcol="0" gridrow="20" pageId="18" pageNumber="19">
+<emphasis id="CCD9EAF6FFD5E974FEDAFA54D352F991" bold="true" box="[266,355,1529,1550]" pageId="18" pageNumber="19">Abdomen</emphasis>
+</th>
+<td id="034C5DDAFFD51699FE55FA54D3F7F991" box="[389,454,1529,1550]" gridcol="1" gridrow="20" pageId="18" pageNumber="19">
+<emphasis id="CCD9EAF6FFD5E974FE47FA54D384F991" bold="true" box="[407,437,1529,1550]" pageId="18" pageNumber="19">AL</emphasis>
+</td>
+<td id="034C5DDAFFD51699FE25FA54D058F991" box="[501,617,1529,1550]" gridcol="2" gridrow="20" pageId="18" pageNumber="19">0.60–0.65</td>
+<td id="034C5DDAFFD51699FD1DFA54D107F991" box="[717,822,1529,1550]" gridcol="3" gridrow="20" pageId="18" pageNumber="19">0.78–0.86</td>
+<td id="034C5DDAFFD51699FCBCFA54D1F0F991" box="[876,961,1529,1550]" gridcol="4" gridrow="20" pageId="18" pageNumber="19">0.70</td>
+<td id="034C5DDAFFD51699FC24FA54D67BF991" box="[1012,1098,1529,1550]" gridcol="5" gridrow="20" pageId="18" pageNumber="19">0.97</td>
+<td id="034C5DDAFFD51699FB5CFA54D6DBF991" box="[1164,1258,1529,1550]" gridcol="6" gridrow="20" pageId="18" pageNumber="19">0.62–0.70</td>
+<td id="034C5DDAFFD51699FAEEFA54D7A4F991" box="[1342,1429,1529,1550]" gridcol="7" gridrow="20" pageId="18" pageNumber="19">0.94</td>
+<td id="034C5DDAFFD51699FA0EFA54D474F991" box="[1502,1605,1529,1550]" gridcol="8" gridrow="20" pageId="18" pageNumber="19">0.64–0.66</td>
+<td id="034C5DDAFFD51699F974FA54D53DF991" box="[1700,1804,1529,1550]" gridcol="9" gridrow="20" pageId="18" pageNumber="19">0.78–0.94</td>
+</tr>
+<tr id="409D34A6FFD51699FEDAF9B0D53DF9AD" box="[266,1804,1565,1586]" gridrow="21" pageId="18" pageNumber="19" rowspan-0="1">
+<td id="034C5DDAFFD51699FE55F9B0D3F7F9AD" box="[389,454,1565,1586]" gridcol="1" gridrow="21" pageId="18" pageNumber="19">
+<emphasis id="CCD9EAF6FFD5E974FE44F9B0D387F9AD" bold="true" box="[404,438,1565,1586]" pageId="18" pageNumber="19">AW</emphasis>
+</td>
+<td id="034C5DDAFFD51699FE25F9B0D058F9AD" box="[501,617,1565,1586]" gridcol="2" gridrow="21" pageId="18" pageNumber="19">0.56–0.62</td>
+<td id="034C5DDAFFD51699FD1DF9B0D107F9AD" box="[717,822,1565,1586]" gridcol="3" gridrow="21" pageId="18" pageNumber="19">0.68–0.71</td>
+<td id="034C5DDAFFD51699FCBCF9B0D1F0F9AD" box="[876,961,1565,1586]" gridcol="4" gridrow="21" pageId="18" pageNumber="19">0.60</td>
+<td id="034C5DDAFFD51699FC24F9B0D67BF9AD" box="[1012,1098,1565,1586]" gridcol="5" gridrow="21" pageId="18" pageNumber="19">0.72</td>
+<td id="034C5DDAFFD51699FB5CF9B0D6DBF9AD" box="[1164,1258,1565,1586]" gridcol="6" gridrow="21" pageId="18" pageNumber="19">0.58–0.70</td>
+<td id="034C5DDAFFD51699FAEEF9B0D7A4F9AD" box="[1342,1429,1565,1586]" gridcol="7" gridrow="21" pageId="18" pageNumber="19">0.67</td>
+<td id="034C5DDAFFD51699FA0EF9B0D474F9AD" box="[1502,1605,1565,1586]" gridcol="8" gridrow="21" pageId="18" pageNumber="19">0.60–0.65</td>
+<td id="034C5DDAFFD51699F974F9B0D53DF9AD" box="[1700,1804,1565,1586]" gridcol="9" gridrow="21" pageId="18" pageNumber="19">0.72–0.80</td>
+</tr>
+<tr id="409D34A6FFD51699FEDAF9ECD53DF9C9" box="[266,1804,1601,1622]" gridrow="22" pageId="18" pageNumber="19" rowspan-0="1">
+<td id="034C5DDAFFD51699FE55F9ECD3F7F9C9" box="[389,454,1601,1622]" gridcol="1" gridrow="22" pageId="18" pageNumber="19">
+<emphasis id="CCD9EAF6FFD5E974FE5AF9ECD3F2F9C9" bold="true" box="[394,451,1601,1622]" pageId="18" pageNumber="19">TPVL</emphasis>
+</td>
+<td id="034C5DDAFFD51699FE25F9ECD058F9C9" box="[501,617,1601,1622]" gridcol="2" gridrow="22" pageId="18" pageNumber="19">0.10–0.11</td>
+<td id="034C5DDAFFD51699FD1DF9ECD107F9C9" box="[717,822,1601,1622]" gridcol="3" gridrow="22" pageId="18" pageNumber="19">0.13–0.14</td>
+<td id="034C5DDAFFD51699FCBCF9ECD1F0F9C9" box="[876,961,1601,1622]" gridcol="4" gridrow="22" pageId="18" pageNumber="19">0.12–0.13</td>
+<td id="034C5DDAFFD51699FC24F9ECD67BF9C9" box="[1012,1098,1601,1622]" gridcol="5" gridrow="22" pageId="18" pageNumber="19">0.13–0.14</td>
+<td id="034C5DDAFFD51699FB5CF9ECD6DBF9C9" box="[1164,1258,1601,1622]" gridcol="6" gridrow="22" pageId="18" pageNumber="19">0.12–0.14</td>
+<td id="034C5DDAFFD51699FAEEF9ECD7A4F9C9" box="[1342,1429,1601,1622]" gridcol="7" gridrow="22" pageId="18" pageNumber="19">0.16–0.17</td>
+<td id="034C5DDAFFD51699FA0EF9ECD474F9C9" box="[1502,1605,1601,1622]" gridcol="8" gridrow="22" pageId="18" pageNumber="19">0.12–0.14</td>
+<td id="034C5DDAFFD51699F974F9ECD53DF9C9" box="[1700,1804,1601,1622]" gridcol="9" gridrow="22" pageId="18" pageNumber="19">0.15–0.16</td>
+</tr>
+<tr id="409D34A6FFD51699FEDAF9C8D53DF9E5" box="[266,1804,1637,1658]" gridrow="23" pageId="18" pageNumber="19">
+<th id="034C5DDAFFD51699FEDAF9C8D352F9E5" box="[266,355,1637,1658]" gridcol="0" gridrow="23" pageId="18" pageNumber="19">
+<emphasis id="CCD9EAF6FFD5E974FEC1F9C8D36CF9E5" bold="true" box="[273,349,1637,1658]" pageId="18" pageNumber="19">Genitals</emphasis>
+</th>
+<td id="034C5DDAFFD51699FE55F9C8D3F7F9E5" box="[389,454,1637,1658]" gridcol="1" gridrow="23" pageId="18" pageNumber="19">
+<emphasis id="CCD9EAF6FFD5E974FE47F9C8D387F9E5" bold="true" box="[407,438,1637,1658]" pageId="18" pageNumber="19">GL</emphasis>
+</td>
+<td id="034C5DDAFFD51699FE25F9C8D058F9E5" box="[501,617,1637,1658]" gridcol="2" gridrow="23" pageId="18" pageNumber="19">0.23–0.25</td>
+<td id="034C5DDAFFD51699FD1DF9C8D107F9E5" box="[717,822,1637,1658]" gridcol="3" gridrow="23" pageId="18" pageNumber="19">–</td>
+<td id="034C5DDAFFD51699FCBCF9C8D1F0F9E5" box="[876,961,1637,1658]" gridcol="4" gridrow="23" pageId="18" pageNumber="19">0.23</td>
+<td id="034C5DDAFFD51699FC24F9C8D67BF9E5" box="[1012,1098,1637,1658]" gridcol="5" gridrow="23" pageId="18" pageNumber="19">–</td>
+<td id="034C5DDAFFD51699FB5CF9C8D6DBF9E5" box="[1164,1258,1637,1658]" gridcol="6" gridrow="23" pageId="18" pageNumber="19">0.22–0.23</td>
+<td id="034C5DDAFFD51699FAEEF9C8D7A4F9E5" box="[1342,1429,1637,1658]" gridcol="7" gridrow="23" pageId="18" pageNumber="19">–</td>
+<td id="034C5DDAFFD51699FA0EF9C8D474F9E5" box="[1502,1605,1637,1658]" gridcol="8" gridrow="23" pageId="18" pageNumber="19">0.22–0.23</td>
+<td id="034C5DDAFFD51699F974F9C8D53DF9E5" box="[1700,1804,1637,1658]" gridcol="9" gridrow="23" pageId="18" pageNumber="19">–</td>
+</tr>
+<tr id="409D34A6FFD51699FEDAF924D53DF901" box="[266,1804,1673,1694]" gridrow="24" pageId="18" pageNumber="19" rowspan-0="1">
+<td id="034C5DDAFFD51699FE55F924D3F7F901" box="[389,454,1673,1694]" gridcol="1" gridrow="24" pageId="18" pageNumber="19">
+<emphasis id="CCD9EAF6FFD5E974FE43F924D388F901" bold="true" box="[403,441,1673,1694]" pageId="18" pageNumber="19">GW</emphasis>
+</td>
+<td id="034C5DDAFFD51699FE25F924D058F901" box="[501,617,1673,1694]" gridcol="2" gridrow="24" pageId="18" pageNumber="19">0.08–0.09</td>
+<td id="034C5DDAFFD51699FD1DF924D107F901" box="[717,822,1673,1694]" gridcol="3" gridrow="24" pageId="18" pageNumber="19">–</td>
+<td id="034C5DDAFFD51699FCBCF924D1F0F901" box="[876,961,1673,1694]" gridcol="4" gridrow="24" pageId="18" pageNumber="19">0.10</td>
+<td id="034C5DDAFFD51699FC24F924D67BF901" box="[1012,1098,1673,1694]" gridcol="5" gridrow="24" pageId="18" pageNumber="19">–</td>
+<td id="034C5DDAFFD51699FB5CF924D6DBF901" box="[1164,1258,1673,1694]" gridcol="6" gridrow="24" pageId="18" pageNumber="19">0.10</td>
+<td id="034C5DDAFFD51699FAEEF924D7A4F901" box="[1342,1429,1673,1694]" gridcol="7" gridrow="24" pageId="18" pageNumber="19">–</td>
+<td id="034C5DDAFFD51699FA0EF924D474F901" box="[1502,1605,1673,1694]" gridcol="8" gridrow="24" pageId="18" pageNumber="19">0.09</td>
+<td id="034C5DDAFFD51699F974F924D53DF901" box="[1700,1804,1673,1694]" gridcol="9" gridrow="24" pageId="18" pageNumber="19">–</td>
+</tr>
+<tr id="409D34A6FFD51699FEDAF901D53DF95C" box="[266,1804,1708,1731]" gridrow="25" pageId="18" pageNumber="19" rowspan-0="1">
+<td id="034C5DDAFFD51699FE55F901D3F7F95C" box="[389,454,1708,1731]" gridcol="1" gridrow="25" pageId="18" pageNumber="19">
+<emphasis id="CCD9EAF6FFD5E974FE56F900D3F4F95D" bold="true" box="[390,453,1709,1730]" pageId="18" pageNumber="19">SGPW</emphasis>
+</td>
+<td id="034C5DDAFFD51699FE25F901D058F95C" box="[501,617,1708,1731]" gridcol="2" gridrow="25" pageId="18" pageNumber="19">–</td>
+<td id="034C5DDAFFD51699FD1DF901D107F95C" box="[717,822,1708,1731]" gridcol="3" gridrow="25" pageId="18" pageNumber="19">0.37–0.39</td>
+<td id="034C5DDAFFD51699FCBCF901D1F0F95C" box="[876,961,1708,1731]" gridcol="4" gridrow="25" pageId="18" pageNumber="19">–</td>
+<td id="034C5DDAFFD51699FC24F901D67BF95C" box="[1012,1098,1708,1731]" gridcol="5" gridrow="25" pageId="18" pageNumber="19">0.35</td>
+<td id="034C5DDAFFD51699FB5CF901D6DBF95C" box="[1164,1258,1708,1731]" gridcol="6" gridrow="25" pageId="18" pageNumber="19">–</td>
+<td id="034C5DDAFFD51699FAEEF901D7A4F95C" box="[1342,1429,1708,1731]" gridcol="7" gridrow="25" pageId="18" pageNumber="19">– 1</td>
+<td id="034C5DDAFFD51699FA0EF901D474F95C" box="[1502,1605,1708,1731]" gridcol="8" gridrow="25" pageId="18" pageNumber="19">–</td>
+<td id="034C5DDAFFD51699F974F901D53DF95C" box="[1700,1804,1708,1731]" gridcol="9" gridrow="25" pageId="18" pageNumber="19">0.39–0.41</td>
+</tr>
+</table>
+</paragraph>
+<paragraph id="FE1236E4FFD5E974FF74F97FD684F971" blockId="18.[164,1205,1746,1774]" box="[164,1205,1746,1774]" pageId="18" pageNumber="19">
+<tableNote id="034B376AFFD5E974FF74F97FD684F971" box="[164,1205,1746,1774]" pageId="18" pageNumber="19" targetBox="[266,1804,798,1731]" targetPageId="18">
+<superScript id="09D89BACFFD5E974FF74F97FD29DF97E" attach="left" box="[164,172,1746,1761]" fontSize="6" pageId="18" pageNumber="19">1</superScript>
+Subgenital plate partially obscured by gut content in single examined female, and not measured.
+</tableNote>
+</paragraph>
+<paragraph id="FE1236E4FFD4E975FF3AFEA4D1B6FEF6" blockId="19.[189,1399,265,362]" pageId="19" pageNumber="20">
+<materialsCitation id="4EC53CB9FFD4E975FF3AFEA4D623FED9" ID-GBIF-Occurrence="3463331312" collectedFrom="ex Melaniparus cinerascens cinerascens (as Parus cinerascens)" collectingDate="1952-07-27" collectionCode="MFN" collectorName="[F.] Zumpt" country="South Africa" location="SOUTH AFRICA" municipality="Transvaal" pageId="19" pageNumber="20" specimenCount="5" specimenCount-female="4" specimenCount-male="1" typeStatus="paratype">
+<emphasis id="CCD9EAF6FFD4E975FF3AFEA4D356FEBC" bold="true" box="[234,359,265,291]" pageId="19" pageNumber="20">
+<typeStatus id="21168846FFD4E975FF3AFEA4D356FEBC" box="[234,359,265,291]" pageId="19" pageNumber="20">Paratypes</typeStatus>
+</emphasis>
+<collectingCountry id="86BA7674FFD4E975FF6DFE81D3BCFED9" box="[189,397,300,326]" name="South Africa" pageId="19" pageNumber="20">SOUTH AFRICA</collectingCountry>
+• 
+<specimenCount id="E8ABFD6DFFD4E975FE72FE81D3FFFED9" box="[418,462,300,326]" pageId="19" pageNumber="20" type="male">1 ♂</specimenCount>
+, 
+<specimenCount id="E8ABFD6DFFD4E975FE09FE81D02BFED9" box="[473,538,300,326]" pageId="19" pageNumber="20" type="female">4 ♀♀</specimenCount>
+; same collection data as for holotype; 
+<collectionCode id="98BCAE21FFD4E975FC02FE81D623FED9" box="[978,1042,300,326]" pageId="19" pageNumber="20">MFN</collectionCode>
+</materialsCitation>
+• 
+<materialsCitation id="4EC53CB9FFD4E975FBF6FE81D1B2FEF6" ID-GBIF-Occurrence="3463331320" collectedFrom="ex Melaniparus cinerascens cinerascens (as Parus cinerascens)" collectingDate="1952-04-24" collectionCode="MFN" collectorName="[F.] Zumpt" country="South Africa" location="Potchefstroom" municipality="Transvaal" pageId="19" pageNumber="20" specimenCode="I.N. 1373/28" specimenCount="6" specimenCount-female="2" specimenCount-male="4">
+<specimenCount id="E8ABFD6DFFD4E975FBF6FE81D659FED9" box="[1062,1128,300,326]" pageId="19" pageNumber="20" type="male">4 ♂♂</specimenCount>
+, 
+<specimenCount id="E8ABFD6DFFD4E975FBA3FE81D685FED9" box="[1139,1204,300,326]" pageId="19" pageNumber="20" type="female">2 ♀♀</specimenCount>
+; same collection data as for holotype but 
+<date id="8A131024FFD4E975FE09FEE2D044FEF5" box="[473,629,335,362]" pageId="19" pageNumber="20" value="1952-04-24">
+<collectingDate id="9A57E9CCFFD4E975FE09FEE2D044FEF5" box="[473,629,335,362]" pageId="19" pageNumber="20" value="1952-04-24">24 Apr. 1952</collectingDate>
+</date>
+; “ 
+<specimenCode id="AE0B9E9FFFD4E975FD5DFEE2D118FEF6" box="[653,809,335,361]" pageId="19" pageNumber="20">I.N. 1373/28</specimenCode>
+”; 
+<collectionCode id="98BCAE21FFD4E975FC90FEE2D1B2FEF6" box="[832,899,335,361]" pageId="19" pageNumber="20">MFN</collectionCode>
+</materialsCitation>
+.
+</paragraph>
+</subSubSection>
+<subSubSection id="B6B7656FFFD4E975FF6DFE24D611FE4D" pageId="19" pageNumber="20" type="biology_ecology">
+<paragraph id="FE1236E4FFD4E975FF6DFE24D307FE3C" blockId="19.[189,310,393,419]" box="[189,310,393,419]" pageId="19" pageNumber="20">
+<heading id="A55A8188FFD4E975FF6DFE24D307FE3C" bold="true" box="[189,310,393,419]" fontSize="11" level="3" pageId="19" pageNumber="20" reason="3">
+<emphasis id="CCD9EAF6FFD4E975FF6DFE24D307FE3C" bold="true" box="[189,310,393,419]" pageId="19" pageNumber="20">Type host</emphasis>
+</heading>
+</paragraph>
+<paragraph id="FE1236E4FFD4E975FF6DFE1AD611FE4D" blockId="19.[189,1056,439,466]" box="[189,1056,439,466]" pageId="19" pageNumber="20">
+<emphasis id="CCD9EAF6FFD4E975FF6DFE1AD047FE4E" box="[189,630,439,465]" italics="true" pageId="19" pageNumber="20">Melaniparus cinerascens cinerascens</emphasis>
+(Vieillot, 1818) – ashy tit (Paridae).
+</paragraph>
+</subSubSection>
+<subSubSection id="B6B7656FFFD4E975FF6DFE5CD007FB7E" pageId="19" pageNumber="20" type="description">
+<paragraph id="FE1236E4FFD4E975FF6DFE5CD37FFD94" blockId="19.[189,334,497,523]" box="[189,334,497,523]" pageId="19" pageNumber="20">
+<heading id="A55A8188FFD4E975FF6DFE5CD37FFD94" bold="true" box="[189,334,497,523]" fontSize="11" level="3" pageId="19" pageNumber="20" reason="3">
+<emphasis id="CCD9EAF6FFD4E975FF6DFE5CD37FFD94" bold="true" box="[189,334,497,523]" pageId="19" pageNumber="20">Description</emphasis>
+</heading>
+</paragraph>
+<paragraph id="FE1236E4FFD4E975FF6DFD8DD6D7FD58" blockId="19.[189,1399,543,711]" pageId="19" pageNumber="20">
+Head shape and chaetotaxy as in 
+<figureCitation id="66962A61FFD4E975FD8DFD8DD086FDA5" box="[605,695,543,570]" captionStart="Figs 15–18" captionStartId="17.[189,241,1926,1952]" captionTargetBox="[211,1371,266,1908]" captionTargetId="figure-56@17.[210,1377,264,1910]" captionTargetPageId="17" captionText="Figs 15–18. Philopterus afropari sp. nov. ex Melaniparus cinerascens cinerascens (Vieillot, 1818). 15. Male head, dorsal and ventral views. 16. Male genitalia, dorsal view. 17. Male genitalia, ventral view. 18. Female subgenital plate, vulval margin, and subvulval plates, ventral view." figureDoi="http://doi.org/10.5281/zenodo.5999798" httpUri="https://zenodo.org/record/5999798/files/figure.png" pageId="19" pageNumber="20">Fig. 15</figureCitation>
+, preantennal area broad. Hyaline margin wide, extending laterally beyond marginal carina, shallowly concave medianly. Dorsal anterior plate broad, trapezoidal, with broad, blunt posterior extension. Ventral anterior plate roughly triangular, with shallowly concave anterior margin. Coni small, distal end in some specimens curved slightly anteriorly. Gular plate small, irregular. Thoracic and abdominal segments as in 
+<figureCitation id="66962A61FFD4E975FCD6FD01D1BDFD58" box="[774,908,684,711]" captionStart="Figs 13–14" captionStartId="16.[189,241,1964,1990]" captionTargetBox="[194,1391,469,1955]" captionTargetId="figure-69@16.[189,1399,457,1963]" captionTargetPageId="16" captionText="Figs 13–14. Philopterus afropari sp. nov. ex Melaniparus cinerascens cinerascens (Vieillot, 1818). 13. Male habitus, dorsal and ventral views. 14. Female habitus, dorsal and ventral views." figureDoi="http://doi.org/10.5281/zenodo.5999794" httpUri="https://zenodo.org/record/5999794/files/figure.png" pageId="19" pageNumber="20">Figs 13–14</figureCitation>
+. Measurements as in 
+<tableCitation id="B32F035FFFD4E975FB57FD01D6D1FD58" box="[1159,1248,684,711]" captionStart="Table 5" captionStartId="18.[164,233,511,540]" captionTargetPageId="18" captionText="Table 5. Measurements (in millimetres) of Philopterus afropari sp. nov., P. sinensis sp. nov., and P. trepostephanus sp. nov. Some dimensions (e.g.,APLL,TPVL)aremeasured on both sidesof the body, and intervals maythereforebegiven even ifonly one specimenwas examined.Abbreviations: ADPL = dorsal anterior plate length (at midline); ADPW = dorsal anterior plate width; AL = abdominal length (at midline); ANW = anterior notch width; APLL = dorsal anterior plate lateral length; AW = abdominal width (at segment V); GL = genital length (in male); GW = genital width (in male); HL = head length (at midline); HW = head width (at temples); PAL = preantennal length; PAW = preantennal width (at base of coni); PMCL = premarginal carina length; POL = postantennal length (at midline); PRL = prothoracic length; PRW = prothoracic width; PTL = pterothoracic length (at midline); PTW = pterothoracic width; SGPW = subgenital plate width (in female); TL = total length (at midline); TPVL = tergal plate V length; TRL = trabeculum length; TRW = trabeculum width." httpUri="http://table.plazi.org/id/AAD2666CFFD5E974FF74FE52D15DFC8E" pageId="19" pageNumber="20" tableUuid="AAD2666CFFD5E974FF74FE52D15DFC8E">Table 5</tableCitation>
+.
+</paragraph>
+<paragraph id="FE1236E4FFD4E975FF3AFD4AD31BFC9E" blockId="19.[187,1400,743,1050]" box="[234,298,743,769]" pageId="19" pageNumber="20">
+<emphasis id="CCD9EAF6FFD4E975FF3AFD4AD31BFC9E" bold="true" box="[234,298,743,769]" pageId="19" pageNumber="20">Male</emphasis>
+</paragraph>
+<paragraph id="FE1236E4FFD4E975FF6DFCA7D328FB85" blockId="19.[187,1400,743,1050]" pageId="19" pageNumber="20">
+Thoracic and abdominal chaetotaxy as in 
+<figureCitation id="66962A61FFD4E975FD1FFCA7D118FCBB" box="[719,809,778,804]" captionStart="Figs 13–14" captionStartId="16.[189,241,1964,1990]" captionTargetBox="[194,1391,469,1955]" captionTargetId="figure-69@16.[189,1399,457,1963]" captionTargetPageId="16" captionText="Figs 13–14. Philopterus afropari sp. nov. ex Melaniparus cinerascens cinerascens (Vieillot, 1818). 13. Male habitus, dorsal and ventral views. 14. Female habitus, dorsal and ventral views." figureDoi="http://doi.org/10.5281/zenodo.5999794" httpUri="https://zenodo.org/record/5999794/files/figure.png" pageId="19" pageNumber="20">Fig. 13</figureCitation>
+and 
+<tableCitation id="B32F035FFFD4E975FCA0FCA7D1CBFCBB" box="[880,1018,778,804]" captionStart-0="Table 2" captionStart-1="Table 3" captionStart-2="Table 4" captionStartId-0="10.[189,258,265,291]" captionStartId-1="11.[189,258,265,291]" captionStartId-2="12.[189,258,265,291]" captionTargetPageId-0="10" captionTargetPageId-1="11" captionTargetPageId-2="12" captionText-0="Table 2. Thoracic and abdominal chaetotaxy of the species of Philopterus Nitzsch, 1818 described in this paper. Only tergal seta are included here; for sternal setae, see Table 3; for pleural setae, see Table 4. Anterior margin of tergopleurite II has 1 seta on each side in all species, which is not listed in the table. Numbers denote the numbers of setae on one side of the abdomen only; for setal counts in the entire setal row of each segment, these numbers thus need to be doubled. Abbreviation: mms = marginal mesometathoracic setae." captionText-1="Table 3. Abdominal and vulval chaetotaxy of the species of Philopterus Nitzsch, 1818 described in this paper. Only sternal setae are listed here; for tergal setae, see Table 2; for pleural setae, see Table 4. Numbers denote the numbers of setae on one side of the abdomen only; for setal counts in the entire setal row of each segment, these numbers thus need to be doubled." captionText-2="Table 4. Abdominal chaetotaxy of the species of Philopterus Nitzsch, 1818 described in this paper. Only pleural setae are listed here; for tergal setae, see Table 2; for sternal setae, see Table 3. Numbers denote the numbers of setae on one side of the abdomen only; for setal counts in the entire setal row of each segment, these numbers thus need to be doubled. Abbreviations: ant. = anterior end; post. = posterior end." httpUri-0="http://table.plazi.org/id/AAD2666CFFCDE96CFF6DFEA4D3EAFE4B" httpUri-2="http://table.plazi.org/id/AAD2666CFFCBE96AFF6DFEA4D2C0FE2F" pageId="19" pageNumber="20" tableUuid-0="AAD2666CFFCDE96CFF6DFEA4D3EAFE4B" tableUuid-2="AAD2666CFFCBE96AFF6DFEA4D2C0FE2F">Tables 2–4</tableCitation>
+. Tergopleurite IX+X medianly continuous. Abdominal segments II–V with no central sternal plate, but with lateral accessory plates; segment VI with narrow, typically very fragmented central sternal plate and large lateral accessory plates. Subgenital plate with 3 lateral lobes on each side and small lateral accessory plate of segment IX+X. Basal apodeme broad (
+<figureCitation id="66962A61FFD4E975FDC8FC3BD0AFFC2E" box="[536,670,918,945]" captionStart="Figs 15–18" captionStartId="17.[189,241,1926,1952]" captionTargetBox="[211,1371,266,1908]" captionTargetId="figure-56@17.[210,1377,264,1910]" captionTargetPageId="17" captionText="Figs 15–18. Philopterus afropari sp. nov. ex Melaniparus cinerascens cinerascens (Vieillot, 1818). 15. Male head, dorsal and ventral views. 16. Male genitalia, dorsal view. 17. Male genitalia, ventral view. 18. Female subgenital plate, vulval margin, and subvulval plates, ventral view." figureDoi="http://doi.org/10.5281/zenodo.5999798" httpUri="https://zenodo.org/record/5999798/files/figure.png" pageId="19" pageNumber="20">Figs 16–17</figureCitation>
+), much constricted at mid-length. Mesosomal thickening large, with sinuous lateral margins and distal thickening (
+<figureCitation id="66962A61FFD4E975FCF0FC17D148FC4B" box="[800,889,953,980]" captionStart="Figs 15–18" captionStartId="17.[189,241,1926,1952]" captionTargetBox="[211,1371,266,1908]" captionTargetId="figure-56@17.[210,1377,264,1910]" captionTargetPageId="17" captionText="Figs 15–18. Philopterus afropari sp. nov. ex Melaniparus cinerascens cinerascens (Vieillot, 1818). 15. Male head, dorsal and ventral views. 16. Male genitalia, dorsal view. 17. Male genitalia, ventral view. 18. Female subgenital plate, vulval margin, and subvulval plates, ventral view." figureDoi="http://doi.org/10.5281/zenodo.5999798" httpUri="https://zenodo.org/record/5999798/files/figure.png" pageId="19" pageNumber="20">Fig. 16</figureCitation>
+); 3 microsetae on each side of mesosome. Gonopore large (
+<figureCitation id="66962A61FFD4E975FE5AFC70D3D3FC68" box="[394,482,989,1015]" captionStart="Figs 15–18" captionStartId="17.[189,241,1926,1952]" captionTargetBox="[211,1371,266,1908]" captionTargetId="figure-56@17.[210,1377,264,1910]" captionTargetPageId="17" captionText="Figs 15–18. Philopterus afropari sp. nov. ex Melaniparus cinerascens cinerascens (Vieillot, 1818). 15. Male head, dorsal and ventral views. 16. Male genitalia, dorsal view. 17. Male genitalia, ventral view. 18. Female subgenital plate, vulval margin, and subvulval plates, ventral view." figureDoi="http://doi.org/10.5281/zenodo.5999798" httpUri="https://zenodo.org/record/5999798/files/figure.png" pageId="19" pageNumber="20">Fig. 17</figureCitation>
+), widening distally. Parameres fused to basal apodeme, slender; 
+<emphasis id="CCD9EAF6FFD4E975FB38FC70D704FC68" box="[1256,1333,989,1015]" italics="true" pageId="19" pageNumber="20">pst1–2</emphasis>
+as in 
+<figureCitation id="66962A61FFD4E975FF6FFBADD324FB85" box="[191,277,1024,1050]" captionStart="Figs 15–18" captionStartId="17.[189,241,1926,1952]" captionTargetBox="[211,1371,266,1908]" captionTargetId="figure-56@17.[210,1377,264,1910]" captionTargetPageId="17" captionText="Figs 15–18. Philopterus afropari sp. nov. ex Melaniparus cinerascens cinerascens (Vieillot, 1818). 15. Male head, dorsal and ventral views. 16. Male genitalia, dorsal view. 17. Male genitalia, ventral view. 18. Female subgenital plate, vulval margin, and subvulval plates, ventral view." figureDoi="http://doi.org/10.5281/zenodo.5999798" httpUri="https://zenodo.org/record/5999798/files/figure.png" pageId="19" pageNumber="20">Fig. 17</figureCitation>
+.
+</paragraph>
+<paragraph id="FE1236E4FFD4E975FF3AFB97D374FBCB" blockId="19.[189,1400,1082,1249]" box="[234,325,1082,1108]" pageId="19" pageNumber="20">
+<emphasis id="CCD9EAF6FFD4E975FF3AFB97D374FBCB" bold="true" box="[234,325,1082,1108]" pageId="19" pageNumber="20">Female</emphasis>
+</paragraph>
+<paragraph id="FE1236E4FFD4E975FF6DFBF0D007FB7E" blockId="19.[189,1400,1082,1249]" pageId="19" pageNumber="20">
+Thoracic and abdominal chaetotaxy as in 
+<figureCitation id="66962A61FFD4E975FD60FBF0D134FBE8" box="[688,773,1117,1143]" captionStart="Figs 13–14" captionStartId="16.[189,241,1964,1990]" captionTargetBox="[194,1391,469,1955]" captionTargetId="figure-69@16.[189,1399,457,1963]" captionTargetPageId="16" captionText="Figs 13–14. Philopterus afropari sp. nov. ex Melaniparus cinerascens cinerascens (Vieillot, 1818). 13. Male habitus, dorsal and ventral views. 14. Female habitus, dorsal and ventral views." figureDoi="http://doi.org/10.5281/zenodo.5999794" httpUri="https://zenodo.org/record/5999794/files/figure.png" pageId="19" pageNumber="20">Fig. 14</figureCitation>
+and 
+<tableCitation id="B32F035FFFD4E975FC91FBF0D1F7FBE8" box="[833,966,1117,1143]" captionStart-0="Table 2" captionStart-1="Table 3" captionStart-2="Table 4" captionStartId-0="10.[189,258,265,291]" captionStartId-1="11.[189,258,265,291]" captionStartId-2="12.[189,258,265,291]" captionTargetPageId-0="10" captionTargetPageId-1="11" captionTargetPageId-2="12" captionText-0="Table 2. Thoracic and abdominal chaetotaxy of the species of Philopterus Nitzsch, 1818 described in this paper. Only tergal seta are included here; for sternal setae, see Table 3; for pleural setae, see Table 4. Anterior margin of tergopleurite II has 1 seta on each side in all species, which is not listed in the table. Numbers denote the numbers of setae on one side of the abdomen only; for setal counts in the entire setal row of each segment, these numbers thus need to be doubled. Abbreviation: mms = marginal mesometathoracic setae." captionText-1="Table 3. Abdominal and vulval chaetotaxy of the species of Philopterus Nitzsch, 1818 described in this paper. Only sternal setae are listed here; for tergal setae, see Table 2; for pleural setae, see Table 4. Numbers denote the numbers of setae on one side of the abdomen only; for setal counts in the entire setal row of each segment, these numbers thus need to be doubled." captionText-2="Table 4. Abdominal chaetotaxy of the species of Philopterus Nitzsch, 1818 described in this paper. Only pleural setae are listed here; for tergal setae, see Table 2; for sternal setae, see Table 3. Numbers denote the numbers of setae on one side of the abdomen only; for setal counts in the entire setal row of each segment, these numbers thus need to be doubled. Abbreviations: ant. = anterior end; post. = posterior end." httpUri-0="http://table.plazi.org/id/AAD2666CFFCDE96CFF6DFEA4D3EAFE4B" httpUri-2="http://table.plazi.org/id/AAD2666CFFCBE96AFF6DFEA4D2C0FE2F" pageId="19" pageNumber="20" tableUuid-0="AAD2666CFFCDE96CFF6DFEA4D3EAFE4B" tableUuid-2="AAD2666CFFCBE96AFF6DFEA4D2C0FE2F">Tables 2–4</tableCitation>
+. Subgenital plate as in 
+<figureCitation id="66962A61FFD4E975FB0DFBF0D705FBE8" box="[1245,1332,1117,1143]" captionStart="Figs 15–18" captionStartId="17.[189,241,1926,1952]" captionTargetBox="[211,1371,266,1908]" captionTargetId="figure-56@17.[210,1377,264,1910]" captionTargetPageId="17" captionText="Figs 15–18. Philopterus afropari sp. nov. ex Melaniparus cinerascens cinerascens (Vieillot, 1818). 15. Male head, dorsal and ventral views. 16. Male genitalia, dorsal view. 17. Male genitalia, ventral view. 18. Female subgenital plate, vulval margin, and subvulval plates, ventral view." figureDoi="http://doi.org/10.5281/zenodo.5999798" httpUri="https://zenodo.org/record/5999798/files/figure.png" pageId="19" pageNumber="20">Fig. 18</figureCitation>
+, with more weakly sclerotized sections on anterior and posterior ends. Vulval margin concave medianly (
+<figureCitation id="66962A61FFD4E975FF16FB0ED32CFB21" box="[198,285,1187,1214]" captionStart="Figs 15–18" captionStartId="17.[189,241,1926,1952]" captionTargetBox="[211,1371,266,1908]" captionTargetId="figure-56@17.[210,1377,264,1910]" captionTargetPageId="17" captionText="Figs 15–18. Philopterus afropari sp. nov. ex Melaniparus cinerascens cinerascens (Vieillot, 1818). 15. Male head, dorsal and ventral views. 16. Male genitalia, dorsal view. 17. Male genitalia, ventral view. 18. Female subgenital plate, vulval margin, and subvulval plates, ventral view." figureDoi="http://doi.org/10.5281/zenodo.5999798" httpUri="https://zenodo.org/record/5999798/files/figure.png" pageId="19" pageNumber="20">Fig. 18</figureCitation>
+), chaetotaxy as in 
+<figureCitation id="66962A61FFD4E975FE2BFB0ED07FFB21" box="[507,590,1187,1214]" captionStart="Figs 15–18" captionStartId="17.[189,241,1926,1952]" captionTargetBox="[211,1371,266,1908]" captionTargetId="figure-56@17.[210,1377,264,1910]" captionTargetPageId="17" captionText="Figs 15–18. Philopterus afropari sp. nov. ex Melaniparus cinerascens cinerascens (Vieillot, 1818). 15. Male head, dorsal and ventral views. 16. Male genitalia, dorsal view. 17. Male genitalia, ventral view. 18. Female subgenital plate, vulval margin, and subvulval plates, ventral view." figureDoi="http://doi.org/10.5281/zenodo.5999798" httpUri="https://zenodo.org/record/5999798/files/figure.png" pageId="19" pageNumber="20">Fig. 18</figureCitation>
+and 
+<tableCitation id="B32F035FFFD4E975FD59FB0ED0D2FB21" box="[649,739,1187,1214]" captionStart="Table 3" captionStartId="11.[189,258,265,291]" captionTargetPageId="11" captionText="Table 3. Abdominal and vulval chaetotaxy of the species of Philopterus Nitzsch, 1818 described in this paper. Only sternal setae are listed here; for tergal setae, see Table 2; for pleural setae, see Table 4. Numbers denote the numbers of setae on one side of the abdomen only; for setal counts in the entire setal row of each segment, these numbers thus need to be doubled." pageId="19" pageNumber="20">Table 3</tableCitation>
+. Subvulval plate large, irregularly triangular, often with minute accessory plate laterally.
+</paragraph>
+</subSubSection>
+</treatment>
+</document>
