@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6316308" ID-GBIF-Dataset="df85f219-66d9-460e-8c09-6eed0cf477e1" ID-GBIF-Taxon="193825459" ID-ISSN="2391-5846" ID-Zenodo-Dep="6316308" checkinTime="1645646844600" checkinUser="felipe" docAuthor="SZAWARYN, Karol, CERYNGIER, Piotr &amp; ROMANOWSKI, Jerzy" docDate="2018" docId="D17E87DEFFF0F743CAF9B719FB900E32" docLanguage="en" docName="FragFaun.61.1.39-53.pdf" docOrigin="Fragmenta Faunistica 61 (1)" docSource="https://rcin.org.pl/miiz/dlibra/publication/87294/edition/67172/content" docStyle="DocumentStyle:A35443FE762005C21B27402F0AA83FE0.1:FragFaun.2015-.journal_article.type1" docStyleId="A35443FE762005C21B27402F0AA83FE0" docStyleName="FragFaun.2015-.journal_article.type1" docStyleVersion="1" docTitle="Scymnus (Parapullus) abietis" docType="treatment" docVersion="5" lastPageNumber="46" masterDocId="2D47FFA6FFF7F744CB65B35AFFAF0B4C" masterDocTitle="New data on the distribution of ladybird beetles (Coleoptera: Coccinellidae) in the eastern part of the Baltic Coast region in Poland" masterLastPageNumber="53" masterPageNumber="39" pageId="7" pageNumber="46" updateTime="1646096698989" updateUser="ExternalLinkService">
+<document ID-DOI="10.3161/00159301FF2018.61.1.039" ID-GBIF-Dataset="df85f219-66d9-460e-8c09-6eed0cf477e1" ID-ISSN="2391-5846" ID-Zenodo-Dep="6252252" checkinTime="1645646844600" checkinUser="felipe" docAuthor="SZAWARYN, Karol, CERYNGIER, Piotr &amp; ROMANOWSKI, Jerzy" docDate="2018" docId="D17E87DEFFF0F743CAF9B719FB900E32" docLanguage="en" docName="FragFaun.61.1.39-53.pdf" docOrigin="Fragmenta Faunistica 61 (1)" docSource="https://rcin.org.pl/miiz/dlibra/publication/87294/edition/67172/content" docStyle="DocumentStyle:A35443FE762005C21B27402F0AA83FE0.1:FragFaun.2015-.journal_article.type1" docStyleId="A35443FE762005C21B27402F0AA83FE0" docStyleName="FragFaun.2015-.journal_article.type1" docStyleVersion="1" docTitle="Scymnus (Parapullus) abietis" docType="treatment" docVersion="6" lastPageNumber="46" masterDocId="2D47FFA6FFF7F744CB65B35AFFAF0B4C" masterDocTitle="New data on the distribution of ladybird beetles (Coleoptera: Coccinellidae) in the eastern part of the Baltic Coast region in Poland" masterLastPageNumber="53" masterPageNumber="39" pageNumber="46" updateTime="1655146268825" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>New data on the distribution of ladybird beetles (Coleoptera: Coccinellidae) in the eastern part of the Baltic Coast region in Poland</mods:title>
@@ -68,20 +68,27 @@
 </subSubSection>
 <subSubSection pageId="7" pageNumber="46" type="materials_examined">
 <paragraph blockId="7.[140,1159,1129,1184]" pageId="7" pageNumber="46">
-<materialsCitation ID-GBIF-Occurrence="3498296306" collectingDate="2013-07-27" collectionCode="PC" pageId="7" pageNumber="46" specimenCount="1">
-Material: Kuźnica (CF46): 
+Material: 
+<materialsCitation collectedFrom="shaken down from spruce (Picea abies)" collectingDate="2013-07-27" collectorName="PC" location="Kuznica" municipality="Kuznica" pageId="7" pageNumber="46" specimenCount="1">
+<collectingMunicipality box="[313,401,1129,1153]" pageId="7" pageNumber="46">Kuźnica</collectingMunicipality>
+(CF46): 
 <date box="[505,638,1129,1153]" pageId="7" pageNumber="46" value="2013-07-27">
 <collectingDate box="[505,638,1129,1153]" pageId="7" pageNumber="46" value="2013-07-27">27 Jul 2013</collectingDate>
 </date>
 , 
 <specimenCount box="[652,707,1129,1153]" pageId="7" pageNumber="46" type="generic">1 ex.</specimenCount>
+<collectedFrom box="[716,1154,1129,1153]" pageId="7" pageNumber="46">
 shaken down from spruce (
 <emphasis box="[1018,1144,1129,1153]" italics="true" pageId="7" pageNumber="46">Picea abies</emphasis>
-), leg. 
-<collectionCode box="[185,221,1160,1184]" pageId="7" pageNumber="46">PC</collectionCode>
-</materialsCitation>
+)
+</collectedFrom>
+, leg. 
+<collectorName box="[185,221,1160,1184]" pageId="7" pageNumber="46">PC</collectorName>
 .
+</materialsCitation>
 </paragraph>
+</subSubSection>
+<subSubSection pageId="7" pageNumber="46" type="discussion">
 <paragraph blockId="7.[140,1161,1198,1409]" pageId="7" pageNumber="46">
 This species feeds on adelgids (Hemiptera: Adelgidae) associated with conifers or on scale insects (Hemiptera: Coccidae) on deciduous trees (
 <bibRefCitation author="NEDVED O." box="[656,800,1229,1253]" pageId="7" pageNumber="46" refId="ref8856" refString="NEDVED O. 2015. Ladybird beetles (Coccinellidae) of Central Europe. Academia, Praha, 303 pp." type="book" year="2015">Nedvěd 2015</bibRefCitation>
@@ -107,9 +114,7 @@ This species feeds on adelgids (Hemiptera: Adelgidae) associated with conifers o
 <bibRefCitation author="PLEWA R. &amp; HILSZCZANSKI J. &amp; JAWORSKI T. &amp; SIERPINSKI A." box="[897,964,1321,1345]" pageId="7" pageNumber="46" pagination="85 - 96" refId="ref8953" refString="PLEWA R., HILSZCZANSKI J., JAWORSKI T. &amp; SIERPINSKI A. 2014 b. New and rare saproxylic beetles (Coleoptera) of eastern Poland. Wiadomosci Entomologiczne 33: 85 - 96. [In Polish with English abstract]" type="journal article" year="2014">2014b</bibRefCitation>
 ) and north-eastern part of the country (
 <bibRefCitation author="CERYNGIER P. &amp; KRZYSZTOFIAK A. &amp; ROMANOWSKI J." box="[343,565,1351,1376]" pageId="7" pageNumber="46" pagination="13 - 24" refId="ref7374" refString="CERYNGIER P., KRZYSZTOFIAK A. &amp; ROMANOWSKI J. 2015. Ladybird beetles (Coleoptera: Coccinellidae) of Wigry National Park. Parki Narodowe i Rezerwaty Przyrody 34 (1): 13 - 24. [In Polish with English abstract]." type="journal article" year="2015">Ceryngier et al. 2015</bibRefCitation>
-). In the Baltic Coast found in 2007 by O. Aleksandrowicz near Świnoujście (
-<taxonomicName authority="Poloniae" authorityName="Poloniae" box="[328,539,1382,1406]" class="Insecta" kingdom="Animalia" order="Coleoptera" pageId="7" pageNumber="46" phylum="Arthropoda" rank="order">Coleoptera Poloniae</taxonomicName>
-: http://baza.biomap.pl/pl/data/record/622121/default).
+). In the Baltic Coast found in 2007 by O. Aleksandrowicz near Świnoujście (Coleoptera Poloniae: http://baza.biomap.pl/pl/data/record/622121/default).
 </paragraph>
 </subSubSection>
 </treatment>

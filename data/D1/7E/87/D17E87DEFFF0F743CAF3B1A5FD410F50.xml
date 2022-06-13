@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6316303" ID-GBIF-Dataset="df85f219-66d9-460e-8c09-6eed0cf477e1" ID-GBIF-Taxon="193825460" ID-ISSN="2391-5846" ID-Zenodo-Dep="6316303" checkinTime="1645646844600" checkinUser="felipe" docAuthor="SZAWARYN, Karol, CERYNGIER, Piotr &amp; ROMANOWSKI, Jerzy" docDate="2018" docId="D17E87DEFFF0F743CAF3B1A5FD410F50" docLanguage="en" docName="FragFaun.61.1.39-53.pdf" docOrigin="Fragmenta Faunistica 61 (1)" docSource="https://rcin.org.pl/miiz/dlibra/publication/87294/edition/67172/content" docStyle="DocumentStyle:A35443FE762005C21B27402F0AA83FE0.1:FragFaun.2015-.journal_article.type1" docStyleId="A35443FE762005C21B27402F0AA83FE0" docStyleName="FragFaun.2015-.journal_article.type1" docStyleVersion="1" docTitle="Scymnus (Neopullus) limbatus Stephens 1832" docType="treatment" docVersion="5" lastPageNumber="46" masterDocId="2D47FFA6FFF7F744CB65B35AFFAF0B4C" masterDocTitle="New data on the distribution of ladybird beetles (Coleoptera: Coccinellidae) in the eastern part of the Baltic Coast region in Poland" masterLastPageNumber="53" masterPageNumber="39" pageId="7" pageNumber="46" updateTime="1646096698989" updateUser="ExternalLinkService">
+<document ID-DOI="10.3161/00159301FF2018.61.1.039" ID-GBIF-Dataset="df85f219-66d9-460e-8c09-6eed0cf477e1" ID-ISSN="2391-5846" ID-Zenodo-Dep="6252252" checkinTime="1645646844600" checkinUser="felipe" docAuthor="SZAWARYN, Karol, CERYNGIER, Piotr &amp; ROMANOWSKI, Jerzy" docDate="2018" docId="D17E87DEFFF0F743CAF3B1A5FD410F50" docLanguage="en" docName="FragFaun.61.1.39-53.pdf" docOrigin="Fragmenta Faunistica 61 (1)" docSource="https://rcin.org.pl/miiz/dlibra/publication/87294/edition/67172/content" docStyle="DocumentStyle:A35443FE762005C21B27402F0AA83FE0.1:FragFaun.2015-.journal_article.type1" docStyleId="A35443FE762005C21B27402F0AA83FE0" docStyleName="FragFaun.2015-.journal_article.type1" docStyleVersion="1" docTitle="Scymnus (Neopullus) limbatus Stephens 1832" docType="treatment" docVersion="6" lastPageNumber="46" masterDocId="2D47FFA6FFF7F744CB65B35AFFAF0B4C" masterDocTitle="New data on the distribution of ladybird beetles (Coleoptera: Coccinellidae) in the eastern part of the Baltic Coast region in Poland" masterLastPageNumber="53" masterPageNumber="39" pageNumber="46" updateTime="1655146268825" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>New data on the distribution of ladybird beetles (Coleoptera: Coccinellidae) in the eastern part of the Baltic Coast region in Poland</mods:title>
@@ -68,20 +68,27 @@ Stephens, 1832
 </subSubSection>
 <subSubSection pageId="7" pageNumber="46" type="materials_examined">
 <paragraph blockId="7.[140,1159,805,860]" pageId="7" pageNumber="46">
-<materialsCitation ID-GBIF-Occurrence="3498296330" collectingDate="2015-05-23" collectionCode="JR" pageId="7" pageNumber="46" specimenCount="1">
-Material: Jurata (CF56): 
+Material: 
+<materialsCitation collectedFrom="shaken down from willow (Salix sp.) on a dune" collectingDate="2015-05-23" collectorName="JR" location="Jurata" municipality="Jurata" pageId="7" pageNumber="46" specimenCount="1">
+<collectingMunicipality box="[310,374,805,828]" pageId="7" pageNumber="46">Jurata</collectingMunicipality>
+(CF56): 
 <date box="[479,631,805,829]" pageId="7" pageNumber="46" value="2015-05-23">
 <collectingDate box="[479,631,805,829]" pageId="7" pageNumber="46" value="2015-05-23">23 May 2015</collectingDate>
 </date>
 , 
 <specimenCount box="[646,702,805,829]" pageId="7" pageNumber="46" type="generic">1 ex.</specimenCount>
+<collectedFrom pageId="7" pageNumber="46">
 shaken down from willow (
 <emphasis box="[1020,1073,805,829]" italics="true" pageId="7" pageNumber="46">Salix</emphasis>
-sp.) on a dune, leg. 
-<collectionCode box="[269,300,836,859]" pageId="7" pageNumber="46">JR</collectionCode>
-</materialsCitation>
+sp.) on a dune
+</collectedFrom>
+, leg. 
+<collectorName box="[269,300,836,859]" pageId="7" pageNumber="46">JR</collectorName>
 .
+</materialsCitation>
 </paragraph>
+</subSubSection>
+<subSubSection pageId="7" pageNumber="46" type="discussion">
 <paragraph blockId="7.[140,1160,874,1052]" pageId="7" pageNumber="46">
 A species very rarely recorded in 
 <collectingCountry box="[539,617,874,898]" name="Poland" pageId="7" pageNumber="46">Poland</collectingCountry>
