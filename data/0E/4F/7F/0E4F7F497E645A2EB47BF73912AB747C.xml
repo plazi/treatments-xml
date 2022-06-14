@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.5211700" ID-GBIF-Dataset="6dc2872d-cbab-4982-baed-c0969e3e3236" ID-GBIF-Taxon="184416195" ID-Zenodo-Dep="5211700" checkinTime="1628013042203" checkinUser="carolina" docAuthor="Swezey, O. H." docDate="1942" docId="0E4F7F497E645A2EB47BF73912AB747C" docLanguage="en" docName="InsectsOfGuamI.172.175-183.pdf.imf" docOrigin="Insects of Guam I, Honolulu, Hawaii: Bernice P. Bishop Museum" docStyle="DocumentStyle:A6818C686426A7D59822A3BD2E5D42E5.1:InsectsOfGuam.1942.book_chapter" docStyleId="A6818C686426A7D59822A3BD2E5D42E5" docStyleName="InsectsOfGuam.1942.book_chapter" docStyleVersion="1" docTitle="Cerapachys (Syscia) silvestrii Wheeler" docType="treatment" docVersion="13" lastPageId="1" lastPageNumber="176" masterDocId="F27607317E645A2FB552FF8416577654" masterDocTitle="Hymenoptera Formicidae of Guam" masterLastPageNumber="183" masterPageNumber="175" pageId="0" pageNumber="175" updateTime="1632485861111" updateUser="carolina">
+<document ID-DOI="http://doi.org/10.5281/zenodo.5160270" ID-GBIF-Dataset="6dc2872d-cbab-4982-baed-c0969e3e3236" ID-Zenodo-Dep="5160270" checkinTime="1628013042203" checkinUser="carolina" docAuthor="Swezey, O. H." docDate="1942" docId="0E4F7F497E645A2EB47BF73912AB747C" docLanguage="en" docName="InsectsOfGuamI.172.175-183.pdf.imf" docOrigin="Insects of Guam I, Honolulu, Hawaii: Bernice P. Bishop Museum" docStyle="DocumentStyle:A6818C686426A7D59822A3BD2E5D42E5.2:InsectsOfGuam.1942.book_chapter" docStyleId="A6818C686426A7D59822A3BD2E5D42E5" docStyleName="InsectsOfGuam.1942.book_chapter" docStyleVersion="2" docTitle="Cerapachys (Syscia) silvestrii Wheeler" docType="treatment" docVersion="14" lastPageNumber="176" masterDocId="F27607317E645A2FB552FF8416577654" masterDocTitle="Hymenoptera Formicidae of Guam" masterLastPageNumber="183" masterPageNumber="175" pageNumber="175" updateTime="1655241219921" updateUser="felipe">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Hymenoptera Formicidae of Guam</mods:title>
@@ -34,7 +34,6 @@
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.5160270</mods:identifier>
 <mods:identifier type="GBIF-Dataset">6dc2872d-cbab-4982-baed-c0969e3e3236</mods:identifier>
 <mods:identifier type="Zenodo-Dep">5160270</mods:identifier>
-<mods:identifier type="ZooBank">C4A38F8E-02D3-48C2-BA54-527B7B7E8E1B</mods:identifier>
 </mods:mods>
 <treatment ID-DOI="http://doi.org/10.5281/zenodo.5211700" ID-GBIF-Taxon="184416195" ID-Zenodo-Dep="5211700" LSID="urn:lsid:plazi:treatment:0E4F7F497E645A2EB47BF73912AB747C" httpUri="http://treatment.plazi.org/id/0E4F7F497E645A2EB47BF73912AB747C" lastPageId="1" lastPageNumber="176" pageId="0" pageNumber="175">
 <subSubSection box="[297,1145,2237,2279]" pageId="0" pageNumber="175" type="nomenclature">
@@ -43,12 +42,17 @@
 <emphasis bold="true" box="[297,345,2237,2279]" pageId="0" pageNumber="175">*1.</emphasis>
 <taxonomicName authority="Wheeler" authorityName="Wheeler" box="[380,1139,2237,2279]" class="Insecta" family="Formicidae" genus="Cerapachys" kingdom="Animalia" order="Hymenoptera" pageId="0" pageNumber="175" phylum="Arthropoda" rank="species" species="silvestrii" subGenus="Syscia">
 <emphasis bold="true" box="[380,957,2237,2279]" pageId="0" pageNumber="175">Cerapachys (Syscia) silvestrii</emphasis>
-<bibCitation author="Wheeler" journalOrPublisher="Portici, Boll." pageId="0" pageNumber="175" pagination="269" part="3" refId="ref430" title="Lab. Zool. Agrar." type="journal article" year="1909">
-Wheeler, 
+Wheeler
+</taxonomicName>
+,
+</heading>
+</paragraph>
+</subSubSection>
 <subSubSection pageId="0" pageNumber="175" type="reference_group">
 <paragraph blockId="0.[290,1692,675,2485]" pageId="0" pageNumber="175">
 <treatmentCitationGroup pageId="0" pageNumber="175">
 <treatmentCitation author="Wheeler" page="269" pageId="0" pageNumber="175" year="1909">
+<bibCitation author="Wheeler" journalOrPublisher="Portici, Boll." pageId="0" pageNumber="175" pagination="269" part="3" refId="ref430" title="Lab. Zool. Agrar." type="journal article" year="1909">
 <title box="[1174,1522,2237,2279]" pageId="0" pageNumber="175">Lab. Zool. Agrar.</title>
 , 
 <journalOrPublisher pageId="0" pageNumber="175">Portici, Boll.</journalOrPublisher>
@@ -60,6 +64,7 @@ Wheeler,
 , 
 <year box="[603,691,2288,2330]" pageId="0" pageNumber="175">1909</year>
 ;
+</bibCitation>
 </treatmentCitation>
 <bibCitation author="Wheeler" journalOrPublisher="0 cc. Papers" pageId="0" pageNumber="175" pagination="8" part="11" refId="ref430" type="journal article" volumeTitle="B. P. Bishop Mus." year="1935">
 <treatmentCitation author="Wheeler" box="[718,1611,2288,2330]" page="9" pageId="0" pageNumber="175" year="1934">
@@ -83,11 +88,6 @@ and
 </treatmentCitation>
 </bibCitation>
 </treatmentCitationGroup>
-</paragraph>
-</subSubSection>
-</bibCitation>
-</taxonomicName>
-</heading>
 </paragraph>
 </subSubSection>
 <subSubSection pageId="0" pageNumber="175" type="materials_examined">
