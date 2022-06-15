@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.5116784" ID-GBIF-Dataset="34162c15-e5a8-4085-9bfd-be4dc280d20e" ID-GBIF-Taxon="183709359" ID-ISSN="1175-5326" ID-Zenodo-Dep="5116784" ID-ZooBank="10B3C1CE-6279-4B4C-8139-C5D3EDB24255" approvalRequired="10" approvalRequired_for_taxonomicNames="2" approvalRequired_for_treatments="8" checkinTime="1623434708420" checkinUser="felipe" docAuthor="Lowry, J. K. &amp; Kilgallen, N. M." docDate="2014" docId="3462395FAB37FFBE6688F8E9FCB0FD61" docLanguage="en" docName="zt03844p064.pdf.imf" docOrigin="Zootaxa 3844 (1)" docStyle="DocumentStyle:5EBBA59367AD13919D70D935FA04F6A3.9:Zootaxa.2013-.monograph" docStyleId="5EBBA59367AD13919D70D935FA04F6A3" docStyleName="Zootaxa.2013-.monograph" docStyleVersion="9" docTitle="Tryphosites colmani Lowry &amp; Kilgallen, 2014, sp. nov." docType="treatment" docVersion="5" lastPageId="56" lastPageNumber="57" masterDocId="C85B4127AB04FF86661FFFE0F852FFC9" masterDocTitle="New tryphosine amphipods from Australian waters (Crustacea, Amphipoda, Lysianassoidea, Lysianassidae, Tryphosinae)" masterLastPageNumber="64" masterPageNumber="1" pageId="51" pageNumber="52" updateTime="1632024132124" updateUser="ExternalLinkService">
+<document ID-DOI="10.11646/zootaxa.3844.1.1" ID-GBIF-Dataset="34162c15-e5a8-4085-9bfd-be4dc280d20e" ID-ISSN="1175-5326" ID-Zenodo-Dep="5116622" ID-ZooBank="10B3C1CE-6279-4B4C-8139-C5D3EDB24255" approvalRequired="3" approvalRequired_for_taxonomicNames="1" approvalRequired_for_treatments="2" checkinTime="1623434708420" checkinUser="felipe" docAuthor="Lowry, J. K. &amp; Kilgallen, N. M." docDate="2014" docId="3462395FAB37FFBE6688F8E9FCB0FD61" docLanguage="en" docName="zt03844p064.pdf.imf" docOrigin="Zootaxa 3844 (1)" docStyle="DocumentStyle:5EBBA59367AD13919D70D935FA04F6A3.10:Zootaxa.2013-.monograph" docStyleId="5EBBA59367AD13919D70D935FA04F6A3" docStyleName="Zootaxa.2013-.monograph" docStyleVersion="10" docTitle="Tryphosites colmani Lowry &amp; Kilgallen, 2014, sp. nov." docType="treatment" docVersion="6" lastPageNumber="57" masterDocId="C85B4127AB04FF86661FFFE0F852FFC9" masterDocTitle="New tryphosine amphipods from Australian waters (Crustacea, Amphipoda, Lysianassoidea, Lysianassidae, Tryphosinae)" masterLastPageNumber="64" masterPageNumber="1" pageNumber="52" updateTime="1655311462758" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>New tryphosine amphipods from Australian waters (Crustacea, Amphipoda, Lysianassoidea, Lysianassidae, Tryphosinae)</mods:title>
@@ -111,7 +111,7 @@ P.68956,
 , same collection details as 
 <typeStatus box="[1161,1262,1980,2005]" pageId="51" pageNumber="52">holotype</typeStatus>
 ; 
-<materialsCitation ID-GBIF-Occurrence="3325462487" collectionCode="AM" country="Australia" lastPageId="52" lastPageNumber="53" pageId="51" pageNumber="52" specimenCount="2" specimenCount-male="2" stateProvince="New South Wales" typeStatus="paratype">
+<materialsCitation ID-GBIF-Occurrence="3325462487" collectingDate="1977-12-05" collectionCode="AM" country="Australia" elevation="176" lastPageId="52" lastPageNumber="53" latitude="-33.766666" location="Kapala" longLatPrecision="1203" longitude="151.71666" municipality="Kapala" pageId="51" pageNumber="52" specimenCount="2" specimenCount-male="2" stateProvince="New South Wales" typeStatus="paratype">
 <specimenCount box="[1280,1374,1980,2005]" pageId="51" pageNumber="52" type="male">2 males</specimenCount>
 , 
 <collectionCode box="[1391,1436,1980,2005]" country="Australia" name="Australian Museum" pageId="51" pageNumber="52" type="Museum">AM</collectionCode>
@@ -125,16 +125,24 @@ P.68957,
 <geoCoordinate box="[1084,1176,151,176]" degrees="33" direction="south" minutes="46" orientation="latitude" pageId="52" pageNumber="53" precision="925" value="-33.766666">33°46’S</geoCoordinate>
 <geoCoordinate box="[1189,1300,151,176]" degrees="151" direction="east" minutes="43" orientation="longitude" pageId="52" pageNumber="53" precision="925" value="151.71666">151°43’E</geoCoordinate>
 ), 
-<quantity box="[1326,1405,151,176]" metricMagnitude="2" metricUnit="m" metricValue="1.76" pageId="52" pageNumber="53" unit="m" value="176.0">176 m</quantity>
+<quantity box="[1326,1405,151,176]" metricMagnitude="2" metricUnit="m" metricValue="1.76" pageId="52" pageNumber="53" unit="m" value="176.0">
+<elevation box="[1326,1405,151,176]" metricMagnitude="2" metricUnit="m" metricValue="1.76" pageId="52" pageNumber="53" unit="m" value="176.0">176 m</elevation>
+</quantity>
 , 
-<date pageId="52" pageNumber="53" value="1977-12-05">5 December 1977</date>
+<date pageId="52" pageNumber="53" value="1977-12-05">
+<collectingDate pageId="52" pageNumber="53" value="1977-12-05">5 December 1977</collectingDate>
+</date>
 , FRV 
 <taxonomicName authority=", FRV" authorityName="FRV" box="[402,551,188,213]" class="Insecta" family="Eucharitidae" genus="Kapala" kingdom="Animalia" order="Hymenoptera" pageId="52" pageNumber="53" phylum="Arthropoda" rank="genus">
-<emphasis box="[402,485,188,213]" italics="true" pageId="52" pageNumber="53">Kapala</emphasis>
+<emphasis box="[402,485,188,213]" italics="true" pageId="52" pageNumber="53">
+<collectingMunicipality box="[402,485,188,213]" pageId="52" pageNumber="53">Kapala</collectingMunicipality>
+</emphasis>
 , FRV
 </taxonomicName>
 <taxonomicName box="[558,641,188,213]" class="Insecta" family="Eucharitidae" genus="Kapala" kingdom="Animalia" order="Hymenoptera" pageId="52" pageNumber="53" phylum="Arthropoda" rank="genus">
-<emphasis box="[558,641,188,213]" italics="true" pageId="52" pageNumber="53">Kapala</emphasis>
+<emphasis box="[558,641,188,213]" italics="true" pageId="52" pageNumber="53">
+<location LSID="urn:lsid:plazi:treatment:3462395FAB37FFBE6688F8E9FCB0FD61:B914DE92AB30FFB26431FF5CFAD3FF1C" box="[558,641,188,213]" country="Australia" latitude="-33.766666" longLatPrecision="1203" longitude="151.71666" municipality="Kapala" name="Kapala" pageId="52" pageNumber="53" stateProvince="New South Wales">Kapala</location>
+</emphasis>
 </taxonomicName>
 stn K77-23-01.
 </materialsCitation>
