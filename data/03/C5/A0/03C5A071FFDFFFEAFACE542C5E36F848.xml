@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6623649" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6623649" approvalRequired="23" approvalRequired_for_taxonomicNames="22" approvalRequired_for_treatments="1" checkinTime="1654607780702" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="03C5A071FFDFFFEAFACE542C5E36F848" docLanguage="en" docName="hbmw_6_Echimyidae_0552.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Phyllomys thomasi" docType="treatment" docVersion="5" lastPageNumber="603" masterDocId="FFFCD809FFEDFFD9FFBC58095A61FF94" masterDocTitle="Echimyidae" masterLastPageNumber="604" masterPageNumber="552" pageNumber="602" updateTime="1654699539071" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6623649" ID-GBIF-Dataset="5be7e52f-9b9c-4c03-99ed-f346bbcde1d0" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6623649" checkinTime="1654607780702" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="03C5A071FFDFFFEAFACE542C5E36F848" docLanguage="en" docName="hbmw_6_Echimyidae_0552.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Phyllomys thomasi" docType="treatment" docVersion="10" lastPageNumber="603" masterDocId="FFFCD809FFEDFFD9FFBC58095A61FF94" masterDocTitle="Echimyidae" masterLastPageNumber="604" masterPageNumber="552" pageNumber="602" updateTime="1655422934439" updateUser="admin">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Echimyidae</mods:title>
@@ -43,10 +43,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6623649</mods:identifier>
+<mods:identifier type="GBIF-Dataset">5be7e52f-9b9c-4c03-99ed-f346bbcde1d0</mods:identifier>
 <mods:identifier type="ISBN">978-84-941892-3-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6623649</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:03C5A071FFDFFFEAFACE542C5E36F848" httpUri="http://treatment.plazi.org/id/03C5A071FFDFFFEAFACE542C5E36F848" lastPageId="51" lastPageNumber="603" pageId="50" pageNumber="602">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6624628" ID-GBIF-Taxon="195810094" ID-Zenodo-Dep="6624628" LSID="urn:lsid:plazi:treatment:03C5A071FFDFFFEAFACE542C5E36F848" httpUri="http://treatment.plazi.org/id/03C5A071FFDFFFEAFACE542C5E36F848" lastPageId="51" lastPageNumber="603" pageId="50" pageNumber="602">
 <heading pageId="50" pageNumber="602">
 <subSubSection box="[1394,1451,3109,3155]" pageId="50" pageNumber="602" type="multiple">
 <paragraph blockId="50.[1392,2585,3109,3234]" box="[1394,1451,3109,3155]" pageId="50" pageNumber="602">
@@ -82,25 +83,25 @@
 </paragraph>
 </subSubSection>
 </heading>
-<subSubSection pageId="50" pageNumber="602" type="materials_examined">
+<subSubSection pageId="50" pageNumber="602" type="reference_group">
 <paragraph blockId="50.[1392,2597,3278,3476]" pageId="50" pageNumber="602">
 <emphasis bold="true" box="[1393,1548,3278,3311]" pageId="50" pageNumber="602">Taxonomy.</emphasis>
 <taxonomicName authority="Ihering, 1897" authorityName="Ihering" authorityYear="1897" box="[1569,2010,3278,3311]" class="Mammalia" family="Echimyidae" genus="Mesomys" kingdom="Animalia" order="Rodentia" pageId="50" pageNumber="602" phylum="Chordata" rank="species" species="thomasi">Mesomys thomasi Ihering, 1897</taxonomicName>
 , 
-<materialsCitation pageId="50" pageNumber="602">“Ilha de Sao Sebastiao.” Restricted by L. H. Emmons and colleagues in 2002 to “Ilha de Sao Sebastiao, Sao Paulo, Brazil, 23°46’S 45°21°'W.”</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3804303369" pageId="50" pageNumber="602">“Ilha de Sao Sebastiao.” Restricted by L. H. Emmons and colleagues in 2002 to “Ilha de Sao Sebastiao, Sao Paulo, Brazil, 23°46’S 45°21°'W.”</materialsCitation>
 </paragraph>
 </subSubSection>
 <subSubSection pageId="50" pageNumber="602" type="discussion">
 <paragraph blockId="50.[1392,2597,3278,3476]" pageId="50" pageNumber="602">
 <taxonomicName authorityName="Lund" authorityYear="1839" box="[1394,1518,3401,3430]" class="Mammalia" family="Echimyidae" genus="Phyllomys" kingdom="Animalia" order="Rodentia" pageId="50" pageNumber="602" phylum="Chordata" rank="genus">Phyllomys</taxonomicName>
 thomas: was formerly classified in the genera 
-<taxonomicName box="[2220,2343,3401,3430]" class="Mammalia" family="Echimyidae" genus="Loncheres" kingdom="Animalia" order="Rodentia" pageId="50" pageNumber="602" phylum="Chordata" rank="genus">Loncheres</taxonomicName>
+<taxonomicName authorityName="Illiger" authorityYear="1811" box="[2220,2343,3401,3430]" class="Mammalia" family="Echimyidae" genus="Loncheres" kingdom="Animalia" order="Rodentia" pageId="50" pageNumber="602" phylum="Chordata" rank="genus">Loncheres</taxonomicName>
 , 
 <taxonomicName authorityName="Goeldi" authorityYear="1901" box="[2367,2591,3401,3430]" class="Mammalia" family="Echimyidae" genus="Euryzygomatomys" kingdom="Animalia" order="Rodentia" pageId="50" pageNumber="602" phylum="Chordata" rank="genus">Euryzygomatomys</taxonomicName>
 , 
 <taxonomicName authorityName="G. Cuvier" authorityYear="1809" box="[1393,1496,3436,3469]" class="Mammalia" family="Echimyidae" genus="Echimys" kingdom="Animalia" order="Rodentia" pageId="50" pageNumber="602" phylum="Chordata" rank="genus">Echimys</taxonomicName>
 , and 
-<taxonomicName box="[1575,1679,3436,3469]" class="Mammalia" family="Echimyidae" genus="Nelomys" kingdom="Animalia" order="Rodentia" pageId="50" pageNumber="602" phylum="Chordata" rank="genus">Nelomys</taxonomicName>
+<taxonomicName authorityName="Jourdan" authorityYear="1837" box="[1575,1679,3436,3469]" class="Mammalia" family="Echimyidae" genus="Nelomys" kingdom="Animalia" order="Rodentia" pageId="50" pageNumber="602" phylum="Chordata" rank="genus">Nelomys</taxonomicName>
 . Monotypic.
 </paragraph>
 </subSubSection>
@@ -159,7 +160,7 @@ The Giant Atlantic Tree-rat is arboreal and probably solitary.
 Classified as Endangered on The IUCN Red List. The Giant Atlantic Tree-rat is endemic to Sao Sebastiao Island, which is 336 km?, 80% covered by Atlantic rainforest, and protected as a state park. As many insular species, habitat of the Giant Atlantic Tree-rat is threatened by ongoing pressure from increasing human population and introduction of invasive species (cats and dogs). There is no infor mation on its population or abundance. Additional ecological studies of the poorly known Giant Atlantic Tree-rat are needed.
 </paragraph>
 </subSubSection>
-<subSubSection pageId="51" pageNumber="603" type="reference_group">
+<subSubSection pageId="51" pageNumber="603" type="bibRefCitation_list">
 <paragraph blockId="51.[175,1383,717,2012]" pageId="51" pageNumber="603">
 <emphasis bold="true" box="[177,330,1947,1972]" pageId="51" pageNumber="603">Bibliography.</emphasis>
 Emmons (1990, 1997a), Emmons et al. (2002), von Ihering (1897), Leite (2003), Leite &amp; Loss (2015), Loss &amp; Leite (2011), Moojen (1952b), Olmos (1997), Woods &amp; Kilpatrick (2005)
