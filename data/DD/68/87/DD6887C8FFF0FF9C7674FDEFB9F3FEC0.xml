@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6174477" ID-GBIF-Dataset="756e1a74-a63b-4b70-9f12-8614644aef91" ID-GBIF-Taxon="160671886" ID-Zenodo-Dep="6174477" checkinTime="1575657026593" checkinUser="plazi" docAuthor="Boulard, Michel" docDate="2012" docId="DD6887C8FFF0FF9C7674FDEFB9F3FEC0" docLanguage="fr" docName="bulletinSocentomolFrance.117.1.41-52.pdf" docOrigin="Bulletin de la Société entomologique de France 117 (1)" docStyle="DocumentStyle{}" docTitle="Afzeliada iringana Boulard 2012, n. sp." docType="treatment" docVersion="5" lastPageId="8" lastPageNumber="49" masterDocId="2151FFB0FFF7FF947475FFA2BD63FFAD" masterDocTitle="Nouvelles Cigales originaires de Tanzanie (Rhynchota, Auchenorhyncha, Cicadidae)" masterLastPageNumber="52" masterPageNumber="41" pageId="7" pageNumber="48" updateTime="1645315215486" updateUser="ExternalLinkService">
+<document ID-DOI="10.3406/bsef.2012.2640" ID-GBIF-Dataset="756e1a74-a63b-4b70-9f12-8614644aef91" ID-Zenodo-Dep="3565823" approvalRequired="11" approvalRequired_for_document="1" approvalRequired_for_originalDoi="1" approvalRequired_for_textStreams="1" approvalRequired_for_treatments="8" checkinTime="1575657026593" checkinUser="plazi" docAuthor="Boulard, Michel" docDate="2012" docId="DD6887C8FFF0FF9C7674FDEFB9F3FEC0" docLanguage="fr" docName="BSocEntolFr.117.2.41-52.pdf" docOrigin="Bulletin de la Société entomologique de France 117 (1)" docSource="https://doi.org/10.3406/bsef.2012.2640" docStyle="DocumentStyle{}" docTitle="Afzeliada iringana Boulard 2012, n. sp." docType="treatment" docVersion="6" lastPageNumber="49" masterDocId="2151FFB0FFF7FF947475FFA2BD63FFAD" masterDocTitle="Nouvelles Cigales originaires de Tanzanie (Rhynchota, Auchenorhyncha, Cicadidae)" masterLastPageNumber="52" masterPageNumber="41" pageNumber="48" updateTime="1656005029779" updateUser="tatiana">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Nouvelles Cigales originaires de Tanzanie (Rhynchota, Auchenorhyncha, Cicadidae)</mods:title>
@@ -8,6 +8,8 @@
 <mods:roleTerm>Author</mods:roleTerm>
 </mods:role>
 <mods:namePart>Boulard, Michel</mods:namePart>
+<mods:affiliation>Ecole pratique des Hautes Etudes, &quot; Biologie et Evolution des Insectes &quot;, Muséum national d'Histoire naturelle, Entomologie, C. P. 50, 57 rue Cuvier, F – 75231 Paris cedex 05</mods:affiliation>
+<mods:nameIdentifier type="email">&lt;mboulard@mnhn.fr&gt; et &lt;mbkcicada01@yahoo.fr&gt;</mods:nameIdentifier>
 </mods:name>
 <mods:typeOfResource>text</mods:typeOfResource>
 <mods:relatedItem type="host">
@@ -28,8 +30,11 @@
 </mods:extent>
 </mods:part>
 </mods:relatedItem>
+<mods:location>
+<mods:url>https://doi.org/10.3406/bsef.2012.2640</mods:url>
+</mods:location>
 <mods:classification>journal article</mods:classification>
-<mods:identifier type="DOI">http://doi.org/10.5281/zenodo.3565823</mods:identifier>
+<mods:identifier type="DOI">10.3406/bsef.2012.2640</mods:identifier>
 <mods:identifier type="GBIF-Dataset">756e1a74-a63b-4b70-9f12-8614644aef91</mods:identifier>
 <mods:identifier type="Zenodo-Dep">3565823</mods:identifier>
 </mods:mods>
@@ -54,11 +59,11 @@ n.
 </paragraph>
 </subSubSection>
 <subSubSection pageId="7" pageNumber="48" type="materials_examined">
-<paragraph blockId="7.[106,1491,648,724]" box="[181,1491,648,681]" pageId="7" pageNumber="48">
-<materialsCitation ID-GBIF-Occurrence="2464752489" box="[181,1491,648,681]" country="Tanzania" latitude="-7.7702" location="Tandala" municipality="Ruaha Nat. Park" pageId="7" pageNumber="48" specimenCount="1" stateProvince="Iringa" typeStatus="holotype">
+<paragraph blockId="7.[106,1491,648,724]" pageId="7" pageNumber="48">
+<materialsCitation ID-GBIF-Occurrence="2464752489" collectingDate="2006-12-06" collectionCode="MHND" collectorName="Ph. Darge" country="Tanzania" elevation="912" latitude="-7.7702" location="Tandala camp" longLatPrecision="1" longitude="35.005318" municipality="Ruaha Nat. Park" pageId="7" pageNumber="48" specimenCount="1" specimenCount-male="1" stateProvince="Iringa Region" typeStatus="holotype">
 <typeStatus box="[181,342,648,681]" pageId="7" pageNumber="48">HOLOTYPE</typeStatus>
 : 
-<specimenCount box="[373,401,648,681]" pageId="7" pageNumber="48">♂</specimenCount>
+<specimenCount box="[373,401,648,681]" pageId="7" pageNumber="48" type="male">♂</specimenCount>
 , 
 <collectingCountry box="[421,562,648,681]" name="Tanzania" pageId="7" pageNumber="48">Tanzanie</collectingCountry>
 , 
@@ -66,14 +71,10 @@ n.
 , 
 <collectingMunicipality box="[807,1061,648,681]" pageId="7" pageNumber="48">Ruaha Nat. Park</collectingMunicipality>
 , 
-<location LSID="urn:lsid:plazi:treatment:DD6887C8FFF0FF9C7674FDEFB9F3FEC0:501E6005FFF0FF937041FD2AB9CFFD04" box="[1076,1196,648,681]" country="Tanzania" latitude="-7.7702" municipality="Ruaha Nat. Park" name="Tandala" pageId="7" pageNumber="48" stateProvince="Iringa">Tandala</location>
-camp, 
+<location LSID="urn:lsid:plazi:treatment:DD6887C8FFF0FF9C7674FDEFB9F3FEC0:501E6005FFF0FF937041FD2AB86FFD04" box="[1076,1292,648,681]" country="Tanzania" latitude="-7.7702" longLatPrecision="1" longitude="35.005318" municipality="Ruaha Nat. Park" name="Tandala camp" pageId="7" pageNumber="48" stateProvince="Iringa Region">Tandala camp</location>
+, 
 <geoCoordinate box="[1308,1485,648,681]" degrees="7" direction="south" minutes="46.212" orientation="latitude" pageId="7" pageNumber="48" precision="1" value="-7.7702">7°46.212'S</geoCoordinate>
-,
-</materialsCitation>
-</paragraph>
-<paragraph blockId="7.[106,1491,648,724]" box="[106,975,691,724]" pageId="7" pageNumber="48">
-<materialsCitation ID-GBIF-Occurrence="2464752480" box="[106,965,691,724]" collectingDate="2006-12-06" collectionCode="MHND" collectorName="Ph. Darge" elevation="912" longitude="35.005318" pageId="7" pageNumber="48" specimenCount="1">
+, 
 <geoCoordinate box="[106,294,691,724]" degrees="35" direction="east" minutes="00.319" orientation="longitude" pageId="7" pageNumber="48" precision="1" value="35.005318">35°00.319'E</geoCoordinate>
 , 
 <quantity box="[309,407,691,724]" metricMagnitude="2" metricUnit="m" metricValue="9.12" pageId="7" pageNumber="48" unit="m" value="912.0">
@@ -89,7 +90,7 @@ camp,
 réc.
 </emphasis>
 (
-<collectionCode box="[849,957,693,723]" pageId="7" pageNumber="48">MHND</collectionCode>
+<collectionCode box="[849,957,693,723]" collectionName="Dominican Republic, Santo Domingo, Museo Nacional de Historia Natural" pageId="7" pageNumber="48">MHND</collectionCode>
 )
 </materialsCitation>
 .

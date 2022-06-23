@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6174475" ID-GBIF-Dataset="756e1a74-a63b-4b70-9f12-8614644aef91" ID-GBIF-Taxon="160671885" ID-Zenodo-Dep="6174475" checkinTime="1575657026593" checkinUser="plazi" docAuthor="Boulard, Michel" docDate="2012" docId="DD6887C8FFF2FF93759CFA72BE99FD8E" docLanguage="fr" docName="bulletinSocentomolFrance.117.1.41-52.pdf" docOrigin="Bulletin de la Société entomologique de France 117 (1)" docStyle="DocumentStyle{}" docTitle="Afzeliada mikessensis Boulard 2012, n. sp." docType="treatment" docVersion="5" lastPageId="7" lastPageNumber="48" masterDocId="2151FFB0FFF7FF947475FFA2BD63FFAD" masterDocTitle="Nouvelles Cigales originaires de Tanzanie (Rhynchota, Auchenorhyncha, Cicadidae)" masterLastPageNumber="52" masterPageNumber="41" pageId="5" pageNumber="46" updateTime="1645315215486" updateUser="ExternalLinkService">
+<document ID-DOI="10.3406/bsef.2012.2640" ID-GBIF-Dataset="756e1a74-a63b-4b70-9f12-8614644aef91" ID-Zenodo-Dep="3565823" approvalRequired="11" approvalRequired_for_document="1" approvalRequired_for_originalDoi="1" approvalRequired_for_textStreams="1" approvalRequired_for_treatments="8" checkinTime="1575657026593" checkinUser="plazi" docAuthor="Boulard, Michel" docDate="2012" docId="DD6887C8FFF2FF93759CFA72BE99FD8E" docLanguage="fr" docName="BSocEntolFr.117.2.41-52.pdf" docOrigin="Bulletin de la Société entomologique de France 117 (1)" docSource="https://doi.org/10.3406/bsef.2012.2640" docStyle="DocumentStyle{}" docTitle="Afzeliada mikessensis Boulard 2012, n. sp." docType="treatment" docVersion="6" lastPageNumber="48" masterDocId="2151FFB0FFF7FF947475FFA2BD63FFAD" masterDocTitle="Nouvelles Cigales originaires de Tanzanie (Rhynchota, Auchenorhyncha, Cicadidae)" masterLastPageNumber="52" masterPageNumber="41" pageNumber="46" updateTime="1656005029779" updateUser="tatiana">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Nouvelles Cigales originaires de Tanzanie (Rhynchota, Auchenorhyncha, Cicadidae)</mods:title>
@@ -8,6 +8,8 @@
 <mods:roleTerm>Author</mods:roleTerm>
 </mods:role>
 <mods:namePart>Boulard, Michel</mods:namePart>
+<mods:affiliation>Ecole pratique des Hautes Etudes, &quot; Biologie et Evolution des Insectes &quot;, Muséum national d'Histoire naturelle, Entomologie, C. P. 50, 57 rue Cuvier, F – 75231 Paris cedex 05</mods:affiliation>
+<mods:nameIdentifier type="email">&lt;mboulard@mnhn.fr&gt; et &lt;mbkcicada01@yahoo.fr&gt;</mods:nameIdentifier>
 </mods:name>
 <mods:typeOfResource>text</mods:typeOfResource>
 <mods:relatedItem type="host">
@@ -28,8 +30,11 @@
 </mods:extent>
 </mods:part>
 </mods:relatedItem>
+<mods:location>
+<mods:url>https://doi.org/10.3406/bsef.2012.2640</mods:url>
+</mods:location>
 <mods:classification>journal article</mods:classification>
-<mods:identifier type="DOI">http://doi.org/10.5281/zenodo.3565823</mods:identifier>
+<mods:identifier type="DOI">10.3406/bsef.2012.2640</mods:identifier>
 <mods:identifier type="GBIF-Dataset">756e1a74-a63b-4b70-9f12-8614644aef91</mods:identifier>
 <mods:identifier type="Zenodo-Dep">3565823</mods:identifier>
 </mods:mods>
@@ -51,18 +56,18 @@
 </subSubSection>
 <subSubSection pageId="5" pageNumber="46" type="materials_examined">
 <paragraph blockId="5.[106,1481,1543,1700]" pageId="5" pageNumber="46">
-<materialsCitation ID-GBIF-Occurrence="2464752481" collectingDate="2009-01-19" collectionCode="MHND" collectorName="Ph. Darge" country="Tanzania" elevation="377" latitude="-6.66945" location="Mikesse" longLatPrecision="1" longitude="37.971867" pageId="5" pageNumber="46" specimenCount="1" stateProvince="Morogoro" typeStatus="holotype">
+<materialsCitation ID-GBIF-Occurrence="2464752481" collectingDate="2009-01-19" collectionCode="MHND" collectorName="Ph. Darge" country="Tanzania" elevation="377" latitude="-6.66945" location="Mikesse" longLatPrecision="1" longitude="37.971867" municipality="Mikesse" pageId="5" pageNumber="46" specimenCount="1" specimenCount-male="1" stateProvince="Morogoro Region" typeStatus="holotype">
 <typeStatus box="[181,336,1547,1580]" pageId="5" pageNumber="46">HOLOTYPE</typeStatus>
 : 
 <emphasis bold="true" box="[362,390,1543,1580]" pageId="5" pageNumber="46">
-<specimenCount box="[362,390,1543,1580]" pageId="5" pageNumber="46">♂</specimenCount>
+<specimenCount box="[362,390,1543,1580]" pageId="5" pageNumber="46" type="male">♂</specimenCount>
 </emphasis>
 , 
 <collectingCountry box="[407,541,1547,1580]" name="Tanzania" pageId="5" pageNumber="46">Tanzanie</collectingCountry>
 , 
 <collectingRegion box="[554,814,1547,1580]" country="Tanzania" name="Morogoro" pageId="5" pageNumber="46">Morogoro Region</collectingRegion>
 , 
-<location LSID="urn:lsid:plazi:treatment:DD6887C8FFF2FF93759CFA72BE99FD8E:501E6005FFF2FF917749F9A9BED5F981" box="[828,950,1547,1580]" country="Tanzania" latitude="-6.66945" longLatPrecision="1" longitude="37.971867" name="Mikesse" pageId="5" pageNumber="46" stateProvince="Morogoro">Mikesse</location>
+<collectingMunicipality box="[828,950,1547,1580]" country="Tanzania" latitude="-6.66945" longLatPrecision="1" longitude="37.971867" name="Mikesse" pageId="5" pageNumber="46" stateProvince="Morogoro">Mikesse</collectingMunicipality>
 , alt. 
 <quantity box="[1016,1110,1547,1580]" metricMagnitude="2" metricUnit="m" metricValue="3.77" pageId="5" pageNumber="46" unit="m" value="377.0">
 <elevation box="[1016,1110,1547,1580]" metricMagnitude="2" metricUnit="m" metricValue="3.77" pageId="5" pageNumber="46" unit="m" value="377.0">377 m</elevation>
@@ -86,20 +91,19 @@ local collector et
 </materialsCitation>
 </paragraph>
 <paragraph blockId="5.[106,1481,1543,1700]" box="[181,720,1632,1661]" pageId="5" pageNumber="46">
-<materialsCitation ID-GBIF-Occurrence="2464752495" box="[181,720,1632,1661]" collectionCode="MNHN" pageId="5" pageNumber="46" specimenCount="1" typeStatus="allotype">
+<materialsCitation ID-GBIF-Occurrence="2464752495" box="[181,720,1632,1661]" collectingDate="2009-01-19" collectionCode="MNHN" collectorName="Ph. Darge" country="Tanzania" elevation="377" latitude="-6.66945" location="Mikesse" longLatPrecision="1" longitude="37.971867" municipality="Mikesse" pageId="5" pageNumber="46" specimenCount="1" specimenCount-female="1" stateProvince="Morogoro Region" typeStatus="allotype">
 <typeStatus box="[181,324,1632,1661]" pageId="5" pageNumber="46">ALLOTYPE</typeStatus>
 : 
-<specimenCount box="[348,373,1633,1661]" pageId="5" pageNumber="46">♀</specimenCount>
+<specimenCount box="[348,373,1633,1661]" pageId="5" pageNumber="46" type="female">♀</specimenCount>
 , 
 <emphasis box="[390,463,1632,1661]" italics="true" pageId="5" pageNumber="46">idem</emphasis>
-<typeStatus box="[463,579,1632,1661]" pageId="5" pageNumber="46">holotype</typeStatus>
-(
-<collectionCode box="[597,707,1632,1661]" country="France" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34988" lsid="urn:lsid:biocol.org:col:34988" name="Museum National d'Histoire Naturelle" pageId="5" pageNumber="46">MNHN</collectionCode>
+holotype (
+<collectionCode box="[597,707,1632,1661]" collectionName="France, Paris, Museum National d'Histoire Naturelle" country="France" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34988" lsid="urn:lsid:biocol.org:col:34988" name="Museum National d'Histoire Naturelle" pageId="5" pageNumber="46">MNHN</collectionCode>
 ).
 </materialsCitation>
 </paragraph>
 <paragraph blockId="5.[106,1481,1543,1700]" box="[181,850,1668,1700]" pageId="5" pageNumber="46">
-<materialsCitation ID-GBIF-Occurrence="2464752485" box="[181,846,1668,1700]" collectionCode="MNHN" pageId="5" pageNumber="46" specimenCount="10" specimenCount-female="5" specimenCount-male="5" typeStatus="paratype">
+<materialsCitation ID-GBIF-Occurrence="2464752485" box="[181,846,1668,1700]" collectingDate="2009-01-19" collectionCode="MNHN" collectorName="Ph. Darge" country="Tanzania" elevation="377" latitude="-6.66945" location="Mikesse" longLatPrecision="1" longitude="37.971867" municipality="Mikesse" pageId="5" pageNumber="46" specimenCount="10" specimenCount-female="5" specimenCount-male="5" stateProvince="Morogoro Region" typeStatus="paratype">
 <typeStatus box="[181,338,1672,1700]" pageId="5" pageNumber="46">PARATYPES</typeStatus>
 : 
 <specimenCount box="[362,412,1668,1700]" pageId="5" pageNumber="46" type="male">
@@ -113,9 +117,8 @@ et
 </specimenCount>
 , 
 <emphasis box="[519,584,1671,1700]" italics="true" pageId="5" pageNumber="46">idem</emphasis>
-<typeStatus box="[592,708,1671,1700]" pageId="5" pageNumber="46">holotype</typeStatus>
-(
-<collectionCode box="[726,836,1671,1700]" country="France" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34988" lsid="urn:lsid:biocol.org:col:34988" name="Museum National d'Histoire Naturelle" pageId="5" pageNumber="46">MNHN</collectionCode>
+holotype (
+<collectionCode box="[726,836,1671,1700]" collectionName="France, Paris, Museum National d'Histoire Naturelle" country="France" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34988" lsid="urn:lsid:biocol.org:col:34988" name="Museum National d'Histoire Naturelle" pageId="5" pageNumber="46">MNHN</collectionCode>
 )
 </materialsCitation>
 .

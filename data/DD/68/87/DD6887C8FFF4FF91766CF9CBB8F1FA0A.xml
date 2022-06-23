@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6174473" ID-GBIF-Dataset="756e1a74-a63b-4b70-9f12-8614644aef91" ID-GBIF-Taxon="160671883" ID-Zenodo-Dep="6174473" checkinTime="1575657026593" checkinUser="plazi" docAuthor="Boulard, Michel" docDate="2012" docId="DD6887C8FFF4FF91766CF9CBB8F1FA0A" docLanguage="fr" docName="bulletinSocentomolFrance.117.1.41-52.pdf" docOrigin="Bulletin de la Société entomologique de France 117 (1)" docStyle="DocumentStyle{}" docTitle="Pycna moniquae Boulard 2012, n. sp." docType="treatment" docVersion="5" lastPageId="5" lastPageNumber="46" masterDocId="2151FFB0FFF7FF947475FFA2BD63FFAD" masterDocTitle="Nouvelles Cigales originaires de Tanzanie (Rhynchota, Auchenorhyncha, Cicadidae)" masterLastPageNumber="52" masterPageNumber="41" pageId="3" pageNumber="44" updateTime="1645315215486" updateUser="ExternalLinkService">
+<document ID-DOI="10.3406/bsef.2012.2640" ID-GBIF-Dataset="756e1a74-a63b-4b70-9f12-8614644aef91" ID-Zenodo-Dep="3565823" approvalRequired="11" approvalRequired_for_document="1" approvalRequired_for_originalDoi="1" approvalRequired_for_textStreams="1" approvalRequired_for_treatments="8" checkinTime="1575657026593" checkinUser="plazi" docAuthor="Boulard, Michel" docDate="2012" docId="DD6887C8FFF4FF91766CF9CBB8F1FA0A" docLanguage="fr" docName="BSocEntolFr.117.2.41-52.pdf" docOrigin="Bulletin de la Société entomologique de France 117 (1)" docSource="https://doi.org/10.3406/bsef.2012.2640" docStyle="DocumentStyle{}" docTitle="Pycna moniquae Boulard 2012, n. sp." docType="treatment" docVersion="6" lastPageNumber="46" masterDocId="2151FFB0FFF7FF947475FFA2BD63FFAD" masterDocTitle="Nouvelles Cigales originaires de Tanzanie (Rhynchota, Auchenorhyncha, Cicadidae)" masterLastPageNumber="52" masterPageNumber="41" pageNumber="44" updateTime="1656005029779" updateUser="tatiana">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Nouvelles Cigales originaires de Tanzanie (Rhynchota, Auchenorhyncha, Cicadidae)</mods:title>
@@ -8,6 +8,8 @@
 <mods:roleTerm>Author</mods:roleTerm>
 </mods:role>
 <mods:namePart>Boulard, Michel</mods:namePart>
+<mods:affiliation>Ecole pratique des Hautes Etudes, &quot; Biologie et Evolution des Insectes &quot;, Muséum national d'Histoire naturelle, Entomologie, C. P. 50, 57 rue Cuvier, F – 75231 Paris cedex 05</mods:affiliation>
+<mods:nameIdentifier type="email">&lt;mboulard@mnhn.fr&gt; et &lt;mbkcicada01@yahoo.fr&gt;</mods:nameIdentifier>
 </mods:name>
 <mods:typeOfResource>text</mods:typeOfResource>
 <mods:relatedItem type="host">
@@ -28,8 +30,11 @@
 </mods:extent>
 </mods:part>
 </mods:relatedItem>
+<mods:location>
+<mods:url>https://doi.org/10.3406/bsef.2012.2640</mods:url>
+</mods:location>
 <mods:classification>journal article</mods:classification>
-<mods:identifier type="DOI">http://doi.org/10.5281/zenodo.3565823</mods:identifier>
+<mods:identifier type="DOI">10.3406/bsef.2012.2640</mods:identifier>
 <mods:identifier type="GBIF-Dataset">756e1a74-a63b-4b70-9f12-8614644aef91</mods:identifier>
 <mods:identifier type="Zenodo-Dep">3565823</mods:identifier>
 </mods:mods>
@@ -51,18 +56,18 @@
 </subSubSection>
 <subSubSection pageId="3" pageNumber="44" type="materials_examined">
 <paragraph blockId="3.[106,1491,1694,1852]" pageId="3" pageNumber="44">
-<materialsCitation ID-GBIF-Occurrence="2464752492" collectingDate="2008-12-09" collectionCode="MHND" collectorName="Ph. Darge" country="Tanzania" elevation="191" latitude="-6.3634667" location="Mwetemo" longLatPrecision="1" longitude="38.5142" pageId="3" pageNumber="44" specimenCount="1" stateProvince="Pwani" typeStatus="holotype">
+<materialsCitation ID-GBIF-Occurrence="2464752492" collectingDate="2008-12-09" collectionCode="MHND" collectorName="Ph. Darge" country="Tanzania" elevation="191" latitude="-6.3634667" location="Mwetemo" longLatPrecision="1" longitude="38.5142" municipality="Mwetemo" pageId="3" pageNumber="44" specimenCount="1" specimenCount-male="1" stateProvince="Pwani Region" typeStatus="holotype">
 <typeStatus box="[181,342,1698,1731]" pageId="3" pageNumber="44">HOLOTYPE</typeStatus>
 : 
 <emphasis bold="true" box="[374,402,1694,1731]" pageId="3" pageNumber="44">
-<specimenCount box="[374,402,1694,1731]" pageId="3" pageNumber="44">♂</specimenCount>
+<specimenCount box="[374,402,1694,1731]" pageId="3" pageNumber="44" type="male">♂</specimenCount>
 </emphasis>
 , 
 <collectingCountry box="[423,563,1698,1731]" name="Tanzania" pageId="3" pageNumber="44">Tanzanie</collectingCountry>
 , 
 <collectingRegion box="[581,798,1698,1731]" country="Tanzania" name="Pwani" pageId="3" pageNumber="44">Pwani Region</collectingRegion>
 , 
-<location LSID="urn:lsid:plazi:treatment:DD6887C8FFF4FF91766CF9CBB8F1FA0A:501E6005FFF4FF97775AF900BEA9F96E" box="[815,970,1698,1731]" country="Tanzania" latitude="-6.3634667" longLatPrecision="1" longitude="38.5142" name="Mwetemo" pageId="3" pageNumber="44" stateProvince="Pwani">Mwetemo</location>
+<collectingMunicipality box="[815,970,1698,1731]" country="Tanzania" latitude="-6.3634667" longLatPrecision="1" longitude="38.5142" name="Mwetemo" pageId="3" pageNumber="44" stateProvince="Pwani">Mwetemo</collectingMunicipality>
 , 
 <quantity box="[987,1085,1698,1731]" metricMagnitude="2" metricUnit="m" metricValue="1.91" pageId="3" pageNumber="44" unit="m" value="191.0">
 <elevation box="[987,1085,1698,1731]" metricMagnitude="2" metricUnit="m" metricValue="1.91" pageId="3" pageNumber="44" unit="m" value="191.0">191 m</elevation>
@@ -86,22 +91,21 @@ réc.
 </materialsCitation>
 </paragraph>
 <paragraph blockId="3.[106,1491,1694,1852]" box="[181,720,1781,1813]" pageId="3" pageNumber="44">
-<materialsCitation ID-GBIF-Occurrence="2464752483" box="[181,720,1781,1813]" collectionCode="MNHN" pageId="3" pageNumber="44" specimenCount="1" typeStatus="allotype">
+<materialsCitation ID-GBIF-Occurrence="2464752483" box="[181,720,1781,1813]" collectingDate="2008-12-09" collectionCode="MNHN" collectorName="Ph. Darge" country="Tanzania" elevation="191" latitude="-6.3634667" location="Mwetemo" longLatPrecision="1" longitude="38.5142" municipality="Mwetemo" pageId="3" pageNumber="44" specimenCount="1" specimenCount-female="1" stateProvince="Pwani Region" typeStatus="allotype">
 <typeStatus box="[181,324,1783,1812]" pageId="3" pageNumber="44">ALLOTYPE</typeStatus>
 : 
 <emphasis bold="true" box="[348,373,1781,1812]" pageId="3" pageNumber="44">
-<specimenCount box="[348,373,1781,1812]" pageId="3" pageNumber="44">♀</specimenCount>
+<specimenCount box="[348,373,1781,1812]" pageId="3" pageNumber="44" type="female">♀</specimenCount>
 </emphasis>
 , 
 <emphasis box="[390,463,1784,1813]" italics="true" pageId="3" pageNumber="44">idem</emphasis>
-<typeStatus box="[463,579,1783,1812]" pageId="3" pageNumber="44">holotype</typeStatus>
-(
-<collectionCode box="[597,707,1783,1812]" country="France" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34988" lsid="urn:lsid:biocol.org:col:34988" name="Museum National d'Histoire Naturelle" pageId="3" pageNumber="44">MNHN</collectionCode>
+holotype (
+<collectionCode box="[597,707,1783,1812]" collectionName="France, Paris, Museum National d'Histoire Naturelle" country="France" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34988" lsid="urn:lsid:biocol.org:col:34988" name="Museum National d'Histoire Naturelle" pageId="3" pageNumber="44">MNHN</collectionCode>
 ).
 </materialsCitation>
 </paragraph>
 <paragraph blockId="3.[106,1491,1694,1852]" box="[181,837,1820,1852]" pageId="3" pageNumber="44">
-<materialsCitation ID-GBIF-Occurrence="2464752488" box="[181,833,1820,1852]" collectionCode="MNHN" pageId="3" pageNumber="44" specimenCount="3" specimenCount-female="1" specimenCount-male="2" typeStatus="paratype">
+<materialsCitation ID-GBIF-Occurrence="2464752488" box="[181,833,1820,1852]" collectingDate="2008-12-09" collectionCode="MNHN" collectorName="Ph. Darge" country="Tanzania" elevation="191" latitude="-6.3634667" location="Mwetemo" longLatPrecision="1" longitude="38.5142" municipality="Mwetemo" pageId="3" pageNumber="44" specimenCount="3" specimenCount-female="1" specimenCount-male="2" stateProvince="Pwani Region" typeStatus="paratype">
 <typeStatus box="[181,334,1827,1850]" pageId="3" pageNumber="44">PARATYPES</typeStatus>
 , 
 <specimenCount box="[349,399,1820,1851]" pageId="3" pageNumber="44" type="male">
@@ -115,9 +119,8 @@ et
 </specimenCount>
 , 
 <emphasis box="[507,572,1823,1852]" italics="true" pageId="3" pageNumber="44">idem</emphasis>
-<typeStatus box="[580,696,1822,1851]" pageId="3" pageNumber="44">holotype</typeStatus>
-(
-<collectionCode box="[714,824,1822,1851]" country="France" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34988" lsid="urn:lsid:biocol.org:col:34988" name="Museum National d'Histoire Naturelle" pageId="3" pageNumber="44">MNHN</collectionCode>
+holotype (
+<collectionCode box="[714,824,1822,1851]" collectionName="France, Paris, Museum National d'Histoire Naturelle" country="France" httpUri="http://biocol.org/urn:lsid:biocol.org:col:34988" lsid="urn:lsid:biocol.org:col:34988" name="Museum National d'Histoire Naturelle" pageId="3" pageNumber="44">MNHN</collectionCode>
 )
 </materialsCitation>
 .
