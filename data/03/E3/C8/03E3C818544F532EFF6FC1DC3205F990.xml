@@ -1,4 +1,4 @@
-<document ID-DOI="10.5281/zenodo.1040973" ID-GBIF-Dataset="9d2c1913-225a-4801-aa8c-817ac9c399bb" ID-Zenodo-Dep="1040973" approvalRequired="162" approvalRequired_for_bibRefs="94" approvalRequired_for_document="1" approvalRequired_for_illustrations="1" approvalRequired_for_textStreams="66" checkinTime="1509650296584" checkinUser="jeremy" docAuthor="Russell, Dale A." docDate="1970" docId="03E3C818544F532EFF6FC1DC3205F990" docLanguage="en" docName="Russel_1970_Tyrannosaurus rex_Gorgosaurus lancensis(almost done).pdf.imf" docOrigin="Ottawa: National Museum of Natural Sciences, Publications in Palaeontology, No. 1" docStyle="DocumentStyle{}" docTitle="Albertosaurus lancensis Russell 1970" docType="treatment" docVersion="27" lastPageNumber="20" masterDocId="FFDAB06054525333FFBFC024312CFFF2" masterDocTitle="Tyrannosaurs from the Late Cretaceous of western Canada" pageNumber="20" updateTime="1654377432144" updateUser="felipe">
+<document ID-DOI="10.5281/zenodo.1040973" ID-GBIF-Dataset="9d2c1913-225a-4801-aa8c-817ac9c399bb" ID-Zenodo-Dep="1040973" approvalRequired="100" approvalRequired_for_bibRefs="94" approvalRequired_for_document="1" approvalRequired_for_textStreams="5" checkinTime="1509650296584" checkinUser="jeremy" docAuthor="Russell, Dale A." docDate="1970" docId="03E3C818544F532EFF6FC1DC3205F990" docLanguage="en" docName="Russel_1970_Tyrannosaurus rex_Gorgosaurus lancensis(almost done).pdf.imf" docOrigin="Ottawa: National Museum of Natural Sciences, Publications in Palaeontology, No. 1" docStyle="DocumentStyle{}" docTitle="Albertosaurus lancensis Russell 1970" docType="treatment" docVersion="29" lastPageNumber="20" masterDocId="FFDAB06054525333FFBFC024312CFFF2" masterDocTitle="Tyrannosaurs from the Late Cretaceous of western Canada" pageNumber="20" updateTime="1656070052626" updateUser="jeremy">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Tyrannosaurs from the Late Cretaceous of western Canada</mods:title>
@@ -52,7 +52,7 @@ eastern
 . The skull is quite different from 
 <emphasis italics="true" pageId="29" pageNumber="20">
 that of 
-<taxonomicName box="[269,561,681,708]" class="Reptilia" family="Tyrannosauridae" genus="Tyrannosaurus" higherTaxonomySource="GBIF" kingdom="Animalia" order="Dinosauria" pageId="29" pageNumber="20" phylum="Chordata" rank="genus">Tyrannosaurus</taxonomicName>
+<taxonomicName authorityName="Osborn" authorityYear="1905" box="[269,561,681,708]" class="Reptilia" family="Tyrannosauridae" genus="Tyrannosaurus" higherTaxonomySource="GBIF" kingdom="Animalia" order="Dinosauria" pageId="29" pageNumber="20" phylum="Chordata" rank="genus">Tyrannosaurus</taxonomicName>
 </emphasis>
 and 
 <emphasis box="[673,841,679,708]" italics="true" pageId="29" pageNumber="20">Gilmore</emphasis>
@@ -64,13 +64,12 @@ it
 </subSubSection>
 <subSubSection box="[315,949,730,764]" pageId="29" pageNumber="20" type="reference_group">
 <paragraph blockId="29.[206,1842,502,1636]" box="[315,949,730,764]" pageId="29" pageNumber="20">
-<treatmentCitation authorityName="Gilmore" authorityYear="1946" box="[315,943,730,764]" httpUri="http://treatment.plazi.org/id/03EF8836-3631-FFE2-FE22-9BB6557AFD09" pageId="29" pageNumber="20">
-<taxonomicName authorityName="Gilmore" authorityYear="1946" box="[315,564,735,762]" class="Reptilia" family="Tyrannosauridae" genus="Gorgosaurus" higherTaxonomySource="GBIF" kingdom="Animalia" order="Dinosauria" pageId="29" pageNumber="20" phylum="Chordata" rank="genus" status="syn. nov.">Gorgosaurus</taxonomicName>
-(= 
-<taxonomicName authorityName="Osborn" authorityYear="1905" box="[646,930,736,760]" class="Reptilia" family="Tyrannosauridae" genus="Albertosaurus" higherTaxonomySource="GBIF" kingdom="Animalia" order="Dinosauria" pageId="29" pageNumber="20" phylum="Chordata" rank="genus">Albertosaurus</taxonomicName>
-)
+<treatmentCitation authorityName="Gilmore" authorityYear="1946" box="[315,564,735,762]" httpUri="http://treatment.plazi.org/id/03EF8836-3631-FFE2-FE22-9BB6557AFD09" pageId="29" pageNumber="20">
+<taxonomicName authorityName="Gilmore" authorityYear="1946" box="[315,564,735,762]" class="Reptilia" family="Tyrannosauridae" genus="Gorgosaurus" higherTaxonomySource="GBIF" kingdom="Animalia" order="Dinosauria" pageId="29" pageNumber="20" phylum="Chordata" rank="species" species="lancensis">Gorgosaurus</taxonomicName>
 </treatmentCitation>
-.
+(= 
+<taxonomicName authorityName="Osborn" authorityYear="1905" box="[646,930,736,760]" class="Reptilia" family="Tyrannosauridae" genus="Albertosaurus" higherTaxonomySource="GBIF" kingdom="Animalia" order="Dinosauria" pageId="29" pageNumber="20" phylum="Chordata" rank="species" species="lancensis">Albertosaurus</taxonomicName>
+).
 </paragraph>
 </subSubSection>
 <subSubSection pageId="29" pageNumber="20" type="discussion">
