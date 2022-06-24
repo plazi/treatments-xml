@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.4424372" ID-GBIF-Dataset="b97fd151-e825-47df-8472-cf628646d260" ID-GBIF-Taxon="137294941" ID-Zenodo-Dep="4424372" approvalRequired="24" approvalRequired_for_illustrations="1" approvalRequired_for_treatments="23" checkinTime="1509025595032" checkinUser="jeremy" docAuthor="Paul, G. S." docDate="1988" docId="03EB9567FFF05F22FF197F61D6B9FABF" docLanguage="en" docName="Paul1988_Predatory Dinosaurs of the World_(almost done)pdf.imf" docOrigin="Predatory Dinosaurs of the World, New York: Touchstone Books" docStyle="DocumentStyle{}" docTitle="Albertosaurus (&quot;Nanotyrannus&quot;) lancencis" docType="treatment" docVersion="25" lastPageId="14" lastPageNumber="337" masterDocId="FFD2ED1FFFFD5F2CFFB67B6FD320FFCB" masterDocTitle="Predatory Dinosaurs of the World" masterLastPageNumber="349" masterPageNumber="323" pageId="13" pageNumber="336" updateTime="1645519436282" updateUser="jeremy">
+<document ID-DOI="10.5281/zenodo.1095032" ID-GBIF-Dataset="b97fd151-e825-47df-8472-cf628646d260" ID-Zenodo-Dep="1095032" approvalRequired="24" approvalRequired_for_illustrations="1" approvalRequired_for_treatments="23" checkinTime="1509025595032" checkinUser="jeremy" docAuthor="Paul, G. S." docDate="1988" docId="03EB9567FFF05F22FF197F61D6B9FABF" docLanguage="en" docName="Paul1988_Predatory Dinosaurs of the World_(almost done)pdf.imf" docOrigin="Predatory Dinosaurs of the World, New York: Touchstone Books" docStyle="DocumentStyle{}" docTitle="Albertosaurus lancencis" docType="treatment" docVersion="30" lastPageNumber="337" masterDocId="FFD2ED1FFFFD5F2CFFB67B6FD320FFCB" masterDocTitle="Predatory Dinosaurs of the World" masterLastPageNumber="349" masterPageNumber="323" pageNumber="336" updateTime="1656076305143" updateUser="jeremy">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Predatory Dinosaurs of the World</mods:title>
@@ -37,19 +37,23 @@
 <treatment ID-DOI="http://doi.org/10.5281/zenodo.4424372" ID-GBIF-Taxon="137294941" ID-Zenodo-Dep="4424372" LSID="urn:lsid:plazi:treatment:03EB9567FFF05F22FF197F61D6B9FABF" httpUri="http://treatment.plazi.org/id/03EB9567FFF05F22FF197F61D6B9FABF" lastPageId="14" lastPageNumber="337" pageId="13" pageNumber="336">
 <subSubSection pageId="13" pageNumber="336" type="nomenclature">
 <paragraph blockId="13.[175,1249,1038,1327]" pageId="13" pageNumber="336">
-<taxonomicName baseAuthorityName="Gilmore" baseAuthorityYear="1946" box="[175,1218,1038,1077]" class="Reptilia" family="Tyrannosauridae" genus="Albertosaurus (&quot;Nanotyrannus&quot;)" higherTaxonomySource="GBIF" kingdom="Animalia" order="Dinosauria" pageId="13" pageNumber="336" phylum="Chordata" rank="species" species="lancencis">
+<taxonomicName baseAuthorityName="Gilmore" baseAuthorityYear="1946" class="Reptilia" family="Tyrannosauridae" genus="Albertosaurus" higherTaxonomySource="GBIF" kingdom="Animalia" order="Dinosauria" pageId="13" pageNumber="336" phylum="Chordata" rank="species" species="lancencis">
 <emphasis box="[175,558,1038,1077]" pageId="13" pageNumber="336">ALBERTOSAURUS?</emphasis>
 (“NANOTYRANNUS”) 
 <emphasis box="[990,1218,1038,1077]" pageId="13" pageNumber="336">LANCENSIS</emphasis>
-</taxonomicName>
 (Gilmore, 1946)
+</taxonomicName>
 </paragraph>
 </subSubSection>
 <subSubSection box="[179,809,1138,1177]" pageId="13" pageNumber="336" type="reference_group">
 <paragraph blockId="13.[175,1249,1038,1327]" box="[179,809,1138,1177]" pageId="13" pageNumber="336">
+<treatmentCitationGroup box="[179,809,1138,1177]" pageId="13" pageNumber="336">
 <emphasis box="[179,346,1144,1175]" pageId="13" pageNumber="336">synonym</emphasis>
 — 
-<taxonomicName authorityName="Gilmore" authorityYear="1946" box="[392,809,1138,1177]" class="Reptilia" family="Tyrannosauridae" genus="Gorgosaurus" higherTaxonomySource="GBIF" kingdom="Animalia" order="Dinosauria" pageId="13" pageNumber="336" phylum="Chordata" rank="species" species="lancensis">Gorgosaurus lancensis</taxonomicName>
+<treatmentCitation authorityName="Gilmore" authorityYear="1946" box="[392,809,1138,1177]" httpUri="http://treatment.plazi.org/id/03EF8836-3631-FFF5-FEC4-9BCA5549F9F9" pageId="13" pageNumber="336">
+<taxonomicName authorityName="Gilmore" authorityYear="1946" box="[392,809,1138,1177]" class="Reptilia" family="Tyrannosauridae" genus="Gorgosaurus" higherTaxonomySource="GBIF" kingdom="Animalia" order="Dinosauria" pageId="13" pageNumber="336" phylum="Chordata" rank="species" species="lancensis" status="synonym">Gorgosaurus lancensis</taxonomicName>
+</treatmentCitation>
+</treatmentCitationGroup>
 </paragraph>
 </subSubSection>
 <subSubSection box="[179,534,1188,1227]" pageId="13" pageNumber="336" type="materials_examined">
