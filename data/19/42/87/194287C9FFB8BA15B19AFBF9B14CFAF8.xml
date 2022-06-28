@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6418279" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6418279" approvalRequired="180" approvalRequired_for_matCits="27" approvalRequired_for_taxonomicNames="57" approvalRequired_for_treatments="96" checkinTime="1600873888554" checkinUser="plazi" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="194287C9FFB8BA15B19AFBF9B14CFAF8" docLanguage="en" docName="hbmw_9_Molossidae_598.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Mormopterus phrudus Handley 1956" docType="treatment" docVersion="7" lastPageNumber="624" masterDocId="E57BFFB1FFBCBA10B412F760B226FFCE" masterDocTitle="Molossidae" masterLastPageNumber="672" masterPageNumber="598" pageNumber="623" updateTime="1653073986174" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6418279" ID-GBIF-Dataset="bc3766a8-d834-42d8-9b39-0612d00293ca" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6418279" approvalRequired="6" approvalRequired_for_textStreams="6" checkinTime="1600873888554" checkinUser="plazi" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="194287C9FFB8BA15B19AFBF9B14CFAF8" docLanguage="en" docName="hbmw_9_Molossidae_598.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Mormopterus phrudus Handley 1956" docType="treatment" docVersion="12" lastPageNumber="624" masterDocId="E57BFFB1FFBCBA10B412F760B226FFCE" masterDocTitle="Molossidae" masterLastPageNumber="672" masterPageNumber="598" pageNumber="623" updateTime="1656424084046" updateUser="ExternalLinkService">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Molossidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6418279</mods:identifier>
+<mods:identifier type="GBIF-Dataset">bc3766a8-d834-42d8-9b39-0612d00293ca</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6418279</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6418750" ID-Zenodo-Dep="6418750" LSID="urn:lsid:plazi:treatment:194287C9FFB8BA15B19AFBF9B14CFAF8" httpUri="http://treatment.plazi.org/id/194287C9FFB8BA15B19AFBF9B14CFAF8" lastPageId="5" lastPageNumber="624" pageId="4" pageNumber="623">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6418750" ID-GBIF-Taxon="195583631" ID-Zenodo-Dep="6418750" LSID="urn:lsid:plazi:treatment:194287C9FFB8BA15B19AFBF9B14CFAF8" httpUri="http://treatment.plazi.org/id/194287C9FFB8BA15B19AFBF9B14CFAF8" lastPageId="5" lastPageNumber="624" pageId="4" pageNumber="623">
 <heading pageId="4" pageNumber="623">
 <subSubSection box="[1416,1470,3225,3271]" pageId="4" pageNumber="623" type="multiple">
 <paragraph blockId="4.[1412,2438,3225,3311]" box="[1416,1470,3225,3271]" pageId="4" pageNumber="623">
@@ -74,12 +75,16 @@ Molosse du
 </paragraph>
 </subSubSection>
 </heading>
-<subSubSection pageId="4" pageNumber="623" type="reference_group">
-<paragraph blockId="4.[1411,2617,3355,3474]" pageId="4" pageNumber="623">
+<subSubSection box="[1412,2076,3355,3388]" pageId="4" pageNumber="623" type="reference_group">
+<paragraph blockId="4.[1411,2617,3355,3474]" box="[1412,2076,3355,3388]" pageId="4" pageNumber="623">
 <emphasis bold="true" box="[1412,1567,3355,3388]" pageId="4" pageNumber="623">Taxonomy.</emphasis>
 <taxonomicName authority="Handley, 1956" authorityName="Handley" authorityYear="1956" box="[1580,2071,3355,3388]" class="Mammalia" family="Molossidae" genus="Mormopterus" kingdom="Animalia" order="Chiroptera" pageId="4" pageNumber="623" phylum="Chordata" rank="species" species="phrudus">Mormopterus phrudus Handley, 1956</taxonomicName>
-, 
-<materialsCitation pageId="4" pageNumber="623">
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="4" pageNumber="623" type="materials_examined">
+<paragraph blockId="4.[1411,2617,3355,3474]" pageId="4" pageNumber="623">
+<materialsCitation ID-GBIF-Occurrence="3780789353" pageId="4" pageNumber="623">
 “San Miguel Bridge, Urubamba River, Machu Picchu, 
 <collectingRegion box="[1632,1720,3399,3428]" country="Peru" name="Cusco" pageId="4" pageNumber="623">Cuzco</collectingRegion>
 , 
@@ -91,10 +96,12 @@ Molosse du
 ].”
 </materialsCitation>
 </paragraph>
+</subSubSection>
+<subSubSection box="[1412,1774,3438,3467]" pageId="4" pageNumber="623" type="discussion">
 <paragraph blockId="4.[1411,2617,3355,3474]" box="[1412,1774,3438,3467]" pageId="4" pageNumber="623">This species is monotypic.</paragraph>
 </subSubSection>
 <subSubSection pageId="5" pageNumber="624" type="distribution">
-<caption inLine="true" pageId="5" pageNumber="624" targetBox="[870,874,1309,1334]" targetPageId="5">
+<caption ID-DOI="http://doi.org/10.5281/zenodo.6772256" ID-Zenodo-Dep="6772256" httpUri="https://zenodo.org/record/6772256/files/figure.png" inLine="true" pageId="5" pageNumber="624" startId="5.[791,963,275,308]" targetBox="[176,767,284,698]" targetPageId="5">
 <paragraph blockId="5.[790,1383,275,702]" pageId="5" pageNumber="624">
 <emphasis bold="true" box="[791,967,275,308]" pageId="5" pageNumber="624">Distribution.</emphasis>
 Known originally from only type locality in S Andean 

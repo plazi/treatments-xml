@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6418279" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6418279" approvalRequired="6" approvalRequired_for_taxonomicNames="1" approvalRequired_for_textStreams="1" approvalRequired_for_treatments="4" checkinTime="1600873888554" checkinUser="plazi" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="194287C9FFA2BA0EB498FA6BBB40F839" docLanguage="en" docName="hbmw_9_Molossidae_598.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Chaerephon atsinanana" docType="treatment" docVersion="10" lastPageNumber="649" masterDocId="E57BFFB1FFBCBA10B412F760B226FFCE" masterDocTitle="Molossidae" masterLastPageNumber="672" masterPageNumber="598" pageNumber="649" updateTime="1653402497105" updateUser="tatiana">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6418279" ID-GBIF-Dataset="bc3766a8-d834-42d8-9b39-0612d00293ca" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6418279" approvalRequired="2" approvalRequired_for_textStreams="2" checkinTime="1600873888554" checkinUser="plazi" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="194287C9FFA2BA0EB498FA6BBB40F839" docLanguage="en" docName="hbmw_9_Molossidae_598.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Chaerephon atsinanana" docType="treatment" docVersion="13" lastPageNumber="649" masterDocId="E57BFFB1FFBCBA10B412F760B226FFCE" masterDocTitle="Molossidae" masterLastPageNumber="672" masterPageNumber="598" pageNumber="649" updateTime="1656335379779" updateUser="tatiana">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Molossidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6418279</mods:identifier>
+<mods:identifier type="GBIF-Dataset">bc3766a8-d834-42d8-9b39-0612d00293ca</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6418279</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:194287C9FFA2BA0EB498FA6BBB40F839" httpUri="http://treatment.plazi.org/id/194287C9FFA2BA0EB498FA6BBB40F839" lastPageNumber="649" pageId="30" pageNumber="649">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6577255" ID-GBIF-Taxon="195583617" ID-Zenodo-Dep="6577255" LSID="urn:lsid:plazi:treatment:194287C9FFA2BA0EB498FA6BBB40F839" httpUri="http://treatment.plazi.org/id/194287C9FFA2BA0EB498FA6BBB40F839" lastPageNumber="649" pageId="30" pageNumber="649">
 <heading pageId="30" pageNumber="649">
 <subSubSection box="[138,195,3339,3385]" pageId="30" pageNumber="649" type="multiple">
 <paragraph blockId="30.[136,1280,3339,3467]" box="[138,195,3339,3385]" pageId="30" pageNumber="649">
@@ -81,14 +82,16 @@ Free-tailed Bat
 </paragraph>
 </subSubSection>
 </heading>
-<paragraph blockId="30.[2018,2613,272,695]" pageId="30" pageNumber="649">
 <subSubSection pageId="30" pageNumber="649" type="reference_group">
+<paragraph blockId="30.[2018,2613,272,695]" pageId="30" pageNumber="649">
 <emphasis bold="true" box="[2018,2173,272,301]" pageId="30" pageNumber="649">Taxonomy.</emphasis>
 <taxonomicName authority="Goodman" authorityName="Goodman" class="Mammalia" family="Molossidae" genus="Chaerephon" kingdom="Animalia" order="Chiroptera" pageId="30" pageNumber="649" phylum="Chordata" rank="species" species="atsinanana">Chaerephon atsinanana Goodman et al, 2010</taxonomicName>
 ,
+</paragraph>
 </subSubSection>
 <subSubSection pageId="30" pageNumber="649" type="materials_examined">
-<materialsCitation country="Madagascar" latitude="-22.82125" location="Colleges d'Enseignement General (CEG) Fenoarivo" longLatPrecision="1" longitude="47.831" municipality="Farafangana" pageId="30" pageNumber="649" specimenCount="10" specimenCount-male="10" stateProvince="Province de Fianarantsoa">
+<paragraph blockId="30.[2018,2613,272,695]" pageId="30" pageNumber="649">
+<materialsCitation ID-GBIF-Occurrence="3780789386" country="Madagascar" latitude="-22.82125" location="Colleges d'Enseignement General (CEG) Fenoarivo" longLatPrecision="1" longitude="47.831" municipality="Farafangana" pageId="30" pageNumber="649" specimenCount="10" specimenCount-male="10" stateProvince="Province de Fianarantsoa">
 “ 
 <collectingCountry box="[2294,2464,312,341]" name="Madagascar" pageId="30" pageNumber="649">Madagascar</collectingCountry>
 : 
@@ -108,8 +111,8 @@ Free-tailed Bat
 </specimenCount>
 ”
 </materialsCitation>
-</subSubSection>
 </paragraph>
+</subSubSection>
 <subSubSection pageId="30" pageNumber="649" type="discussion">
 <paragraph blockId="30.[2018,2613,272,695]" pageId="30" pageNumber="649">
 The populations that comprise 

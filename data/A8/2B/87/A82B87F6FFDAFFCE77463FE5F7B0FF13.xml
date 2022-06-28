@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6652900" ID-GBIF-Dataset="f9b330a6-2bf2-4178-b73b-d20cbddfbdf9" ID-Zenodo-Dep="6652900" approvalRequired="1" approvalRequired_for_document="1" checkinTime="1654087360872" checkinUser="donat" docAuthor="Dijkstra, Klaas-Douwe B., Kalkman, Vincent J., Dow, Rory A., Stokvis, Frank R. &amp; Tol, Jan Van" docDate="2014" docId="A82B87F6FFDAFFCE77463FE5F7B0FF13" docLanguage="en" docName="SystEntomol.39.68-96.suppl2.pdf.imf" docOrigin="Systematic Entomology 39 (1)" docTitle="Dimeragrion percubitale Calvert 1913" docType="treatment" docVersion="2" lastPageNumber="6" masterDocId="5412FF8EFFDFFFCB76743F08FFBDFFE8" masterDocTitle="Redefining the damselfly families: a comprehensive molecular phylogeny of Zygoptera (Odonata). Supporting Information Table 2: List of analysed samples." masterLastPageNumber="10" masterPageNumber="1" pageNumber="6" updateTime="1655391668726" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6652900" ID-GBIF-Dataset="f9b330a6-2bf2-4178-b73b-d20cbddfbdf9" ID-Zenodo-Dep="6652900" approvalRequired="9" approvalRequired_for_document="1" approvalRequired_for_matCits="8" checkinTime="1654087360872" checkinUser="donat" docAuthor="Dijkstra, Klaas-Douwe B., Kalkman, Vincent J., Dow, Rory A., Stokvis, Frank R. &amp; Tol, Jan Van" docDate="2014" docId="A82B87F6FFDAFFCE77463FE5F7B0FF13" docLanguage="en" docName="SystEntomol.39.68-96.suppl2.pdf.imf" docOrigin="Systematic Entomology 39 (1)" docTitle="Dimeragrion percubitale Calvert 1913" docType="treatment" docVersion="8" lastPageNumber="6" masterDocId="5412FF8EFFDFFFCB76743F08FFBDFFE8" masterDocTitle="Redefining the damselfly families: a comprehensive molecular phylogeny of Zygoptera (Odonata). Supporting Information Table 2: List of analysed samples." masterLastPageNumber="10" masterPageNumber="1" pageNumber="6" updateTime="1656346761513" updateUser="admin" zenodo-license-document="CC-BY-4.0">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Redefining the damselfly families: a comprehensive molecular phylogeny of Zygoptera (Odonata). Supporting Information Table 2: List of analysed samples.</mods:title>
@@ -57,7 +57,7 @@
 <mods:identifier type="GBIF-Dataset">f9b330a6-2bf2-4178-b73b-d20cbddfbdf9</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6652900</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6652766" ID-Zenodo-Dep="6652766" LSID="urn:lsid:plazi:treatment:A82B87F6FFDAFFCE77463FE5F7B0FF13" box="[306,2061,236,251]" httpUri="http://treatment.plazi.org/id/A82B87F6FFDAFFCE77463FE5F7B0FF13" lastPageNumber="6" pageId="5" pageNumber="6">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6652766" ID-GBIF-Taxon="195949841" ID-Zenodo-Dep="6652766" LSID="urn:lsid:plazi:treatment:A82B87F6FFDAFFCE77463FE5F7B0FF13" box="[306,2061,236,251]" httpUri="http://treatment.plazi.org/id/A82B87F6FFDAFFCE77463FE5F7B0FF13" lastPageNumber="6" pageId="5" pageNumber="6">
 <subSubSection box="[306,776,236,251]" pageId="5" pageNumber="6" type="nomenclature">
 <paragraph blockId="5.[136,2061,115,1475]" box="[306,776,236,251]" pageId="5" pageNumber="6">
 <taxonomicName authority="Calvert 1913" authorityName="Calvert" authorityYear="1913" box="[306,776,236,251]" class="Insecta" family="Megapodagrionidae" genus="Dimeragrion" kingdom="Animalia" order="Odonata" pageId="5" pageNumber="6" phylum="Arthropoda" rank="species" species="percubitale">Dimeragrion percubitale Calvert 1913</taxonomicName>
@@ -65,15 +65,17 @@
 </subSubSection>
 <subSubSection box="[797,2061,236,251]" pageId="5" pageNumber="6" type="materials_examined">
 <paragraph blockId="5.[136,2061,115,1475]" box="[797,2061,236,251]" pageId="5" pageNumber="6">
-<materialsCitation box="[797,2061,236,251]" collectionCode="RMNH" country="Venezuela" pageId="5" pageNumber="6">
-Demarmels, J. 
+<materialsCitation ID-GBIF-Occurrence="3812200345" accessionNumber="KF369688, KF370086, KF369360" barcodeNumber="ODOPH177-13" box="[797,2061,236,251]" collectionCode="RMNH" collectorName="Demarmels" country="Venezuela" location="Pijianaus-BO" pageId="5" pageNumber="6" specimenCode="502033, 25924705" specimenCount="1" stateProvince="Pijianaus-BO">
+<collectorName box="[797,901,236,251]" pageId="5" pageNumber="6">Demarmels, J.</collectorName>
 <collectionCode box="[951,999,237,251]" collectionName="Netherlands, Leiden, Nationaal Natuurhistorische Museum (&quot;Naturalis&quot;) [formerly Rijksmuseum van Natuurlijke Historie]" pageId="5" pageNumber="6">RMNH</collectionCode>
 <collectingCountry box="[1069,1145,236,250]" name="Venezuela" pageId="5" pageNumber="6" value="Venezuela">Venezuela</collectingCountry>
-Pijianaus-BO 502033 25924705 
+<collectingRegion box="[1239,1333,236,250]" pageId="5" pageNumber="6">Pijianaus-BO</collectingRegion>
+<specimenCode box="[1416,1470,236,251]" pageId="5" pageNumber="6">502033</specimenCode>
+<specimenCode box="[1518,1589,236,251]" pageId="5" pageNumber="6">25924705</specimenCode>
 <accessionNumber box="[1612,1687,236,250]" pageId="5" pageNumber="6">KF369688</accessionNumber>
 <accessionNumber box="[1726,1800,236,250]" pageId="5" pageNumber="6">KF370086</accessionNumber>
 <accessionNumber box="[1839,1913,236,250]" pageId="5" pageNumber="6">KF369360</accessionNumber>
-ODOPH177-13
+<barcodeNumber box="[1953,2061,237,251]" pageId="5" pageNumber="6">ODOPH177-13</barcodeNumber>
 </materialsCitation>
 </paragraph>
 </subSubSection>

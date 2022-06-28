@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6685333" ID-ISBN="978-84-96553-99-6" ID-Zenodo-Dep="6685333" approvalRequired="6" approvalRequired_for_textStreams="6" checkinTime="1655902366516" checkinUser="tatiana" docAuthor="Russell A. Mittermeier &amp; Don E. Wilson" docDate="2015" docId="F723B76CFFEEFFC5FF05137AFDE58787" docLanguage="en" docName="hbmw_5_Didelphidae_0070.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 5 Monotremes and Marsupials, Barcelona: Lynx Edicions" docTitle="Monodelphis arlindor Pavan, Rossi &amp; Schneider 2012" docType="treatment" docVersion="2" lastPageNumber="150" masterDocId="0B1ACF14FFFBFFD0FFAB161FFFFD8C61" masterDocTitle="Didelphidae" masterLastPageNumber="186" masterPageNumber="129" pageNumber="150" updateTime="1655912935589" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6685333" ID-GBIF-Dataset="b488d6b0-2108-4c9b-ba79-458efc034cf9" ID-ISBN="978-84-96553-99-6" ID-Zenodo-Dep="6685333" approvalRequired="1" approvalRequired_for_matCits="1" checkinTime="1655902366516" checkinUser="tatiana" docAuthor="Russell A. Mittermeier &amp; Don E. Wilson" docDate="2015" docId="F723B76CFFEEFFC5FF05137AFDE58787" docLanguage="en" docName="hbmw_5_Didelphidae_0070.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 5 Monotremes and Marsupials, Barcelona: Lynx Edicions" docTitle="Monodelphis arlindor Pavan, Rossi &amp; Schneider 2012" docType="treatment" docVersion="4" lastPageNumber="150" masterDocId="0B1ACF14FFFBFFD0FFAB161FFFFD8C61" masterDocTitle="Didelphidae" masterLastPageNumber="186" masterPageNumber="129" pageNumber="150" updateTime="1656341372021" updateUser="ExternalLinkService">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Didelphidae</mods:title>
@@ -37,6 +37,7 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6685333</mods:identifier>
+<mods:identifier type="GBIF-Dataset">b488d6b0-2108-4c9b-ba79-458efc034cf9</mods:identifier>
 <mods:identifier type="ISBN">978-84-96553-99-6</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6685333</mods:identifier>
 </mods:mods>
@@ -72,14 +73,16 @@
 </paragraph>
 </subSubSection>
 </heading>
-<paragraph blockId="21.[784,1376,1524,1943]" pageId="21" pageNumber="150">
 <subSubSection pageId="21" pageNumber="150" type="reference_group">
+<paragraph blockId="21.[784,1376,1524,1943]" pageId="21" pageNumber="150">
 <emphasis bold="true" box="[785,939,1524,1549]" pageId="21" pageNumber="150">Taxonomy.</emphasis>
 <taxonomicName authority="Pavan, Rossi &amp; Schneider, 2012" authorityName="Pavan, Rossi &amp; Schneider" authorityYear="2012" class="Mammalia" family="Didelphidae" genus="Monodelphis" kingdom="Animalia" order="Didelphimorphia" pageId="21" pageNumber="150" phylum="Chordata" rank="species" species="arlindor">Monodelphis arlindor Pavan, Rossi &amp; Schneider, 2012</taxonomicName>
 ,
+</paragraph>
 </subSubSection>
 <subSubSection pageId="21" pageNumber="150" type="reference_group">
-<materialsCitation country="Brazil" latitude="-1.828611" location="Plato Greig" municipality="Oriximina" pageId="21" pageNumber="150" specimenCount="1" stateProvince="Para">
+<paragraph blockId="21.[784,1376,1524,1943]" pageId="21" pageNumber="150">
+<materialsCitation country="Brazil" latitude="-1.467045" location="Plato Greig" longitude="-56.379307" municipality="Oriximina" pageId="21" pageNumber="150" specimenCount="1" stateProvince="Para">
 “ 
 <location LSID="urn:lsid:plazi:treatment:F723B76CFFEEFFC5FF05137AFDE58787:7A5550A1FFEEFFC5FB061003FAA68A54" box="[1197,1371,1564,1589]" country="Brazil" latitude="-1.828611" municipality="Oriximina" name="Plato Greig" pageId="21" pageNumber="150" stateProvince="Para">Plato Greig</location>
 , 
@@ -87,11 +90,7 @@
 <quantity box="[786,874,1599,1628]" metricMagnitude="4" metricUnit="m" metricValue="4.3" pageId="21" pageNumber="150" unit="km" value="43.0">43 km</quantity>
 south-west of Porto Trombetas
 </locationDeviation>
-, 
-<geoCoordinate degrees="1" direction="south" minutes="49" orientation="latitude" pageId="21" pageNumber="150" precision="15" seconds="43" value="-1.828611">1° 49’ 43” S</geoCoordinate>
-, 
-<geoCoordinate box="[925,1117,1642,1667]" pageId="21" pageNumber="150">56° 25° 02” W</geoCoordinate>
-,” 
+, 1° 49’ 43” S, 56° 25° 02” W,” 
 <collectingMunicipality box="[1144,1291,1642,1667]" pageId="21" pageNumber="150">Oriximina</collectingMunicipality>
 , 
 <collectingRegion box="[1307,1370,1642,1667]" country="Brazil" name="Para" pageId="21" pageNumber="150">Para</collectingRegion>
@@ -99,8 +98,8 @@ south-west of Porto Trombetas
 <collectingCountry box="[786,868,1677,1706]" name="Brazil" pageId="21" pageNumber="150">Brazil</collectingCountry>
 </materialsCitation>
 .
-</subSubSection>
 </paragraph>
+</subSubSection>
 <subSubSection box="[785,1147,1717,1746]" pageId="21" pageNumber="150" type="discussion">
 <paragraph blockId="21.[784,1376,1524,1943]" box="[785,1147,1717,1746]" pageId="21" pageNumber="150">This species is monotypic.</paragraph>
 </subSubSection>

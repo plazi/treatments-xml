@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6418279" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6418279" approvalRequired="180" approvalRequired_for_matCits="27" approvalRequired_for_taxonomicNames="57" approvalRequired_for_treatments="96" checkinTime="1600873888554" checkinUser="plazi" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="194287C9FFB7BA1BB1A6F292BAEFF384" docLanguage="en" docName="hbmw_9_Molossidae_598.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Eumops chiribaya Medina, Gregorin, Zeballos, Zamora &amp; Moras 2014" docType="treatment" docVersion="7" lastPageNumber="630" masterDocId="E57BFFB1FFBCBA10B412F760B226FFCE" masterDocTitle="Molossidae" masterLastPageNumber="672" masterPageNumber="598" pageNumber="630" updateTime="1653073986174" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6418279" ID-GBIF-Dataset="bc3766a8-d834-42d8-9b39-0612d00293ca" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6418279" approvalRequired="6" approvalRequired_for_textStreams="6" checkinTime="1600873888554" checkinUser="plazi" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="194287C9FFB7BA1BB1A6F292BAEFF384" docLanguage="en" docName="hbmw_9_Molossidae_598.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Eumops chiribaya Medina, Gregorin, Zeballos, Zamora &amp; Moras 2014" docType="treatment" docVersion="13" lastPageNumber="630" masterDocId="E57BFFB1FFBCBA10B412F760B226FFCE" masterDocTitle="Molossidae" masterLastPageNumber="672" masterPageNumber="598" pageNumber="630" updateTime="1656424084046" updateUser="ExternalLinkService">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Molossidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6418279</mods:identifier>
+<mods:identifier type="GBIF-Dataset">bc3766a8-d834-42d8-9b39-0612d00293ca</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6418279</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:194287C9FFB7BA1BB1A6F292BAEFF384" httpUri="http://treatment.plazi.org/id/194287C9FFB7BA1BB1A6F292BAEFF384" lastPageNumber="630" pageId="11" pageNumber="630">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6577235" ID-GBIF-Taxon="195583558" ID-Zenodo-Dep="6577235" LSID="urn:lsid:plazi:treatment:194287C9FFB7BA1BB1A6F292BAEFF384" httpUri="http://treatment.plazi.org/id/194287C9FFB7BA1BB1A6F292BAEFF384" lastPageNumber="630" pageId="11" pageNumber="630">
 <heading pageId="11" pageNumber="630">
 <subSubSection box="[1460,1518,1522,1568]" pageId="11" pageNumber="630" type="multiple">
 <paragraph blockId="11.[1459,2524,1522,1610]" box="[1460,1518,1522,1568]" pageId="11" pageNumber="630">
@@ -75,8 +76,12 @@
 <paragraph blockId="11.[2071,2666,1651,2078]" pageId="11" pageNumber="630">
 <emphasis bold="true" box="[2071,2229,1651,1684]" pageId="11" pageNumber="630">Taxonomy.</emphasis>
 <taxonomicName authorityName="Medina, Gregorin, Zeballos, Zamora &amp; Moras" authorityYear="2014" box="[2240,2468,1651,1684]" class="Mammalia" family="Molossidae" genus="Eumops" kingdom="Animalia" order="Chiroptera" pageId="11" pageNumber="630" phylum="Chordata" rank="species" species="chiribaya">Eumops chiribaya</taxonomicName>
-Medina et al., 2014, 
-<materialsCitation pageId="11" pageNumber="630">
+Medina et al., 2014,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="11" pageNumber="630" type="materials_examined">
+<paragraph blockId="11.[2071,2666,1651,2078]" pageId="11" pageNumber="630">
+<materialsCitation ID-GBIF-Occurrence="3780789336" latitude="-17.622667" longitude="-71.2685" pageId="11" pageNumber="630">
 “El Algarrobal, 
 <quantity box="[2378,2463,1695,1724]" metricMagnitude="2" metricUnit="m" metricValue="1.1099999999999999" pageId="11" pageNumber="630" unit="m" value="111.0">111 m</quantity>
 ; 
@@ -86,17 +91,18 @@ NE of Ilo; Ilo Province;
 Department; 
 <collectingCountry box="[2072,2140,1769,1802]" name="Peru" pageId="11" pageNumber="630">Peru</collectingCountry>
 , (
-<geoCoordinate box="[2171,2250,1769,1802]" degrees="17" minutes="37" pageId="11" pageNumber="630">
-17° 
-<geoCoordinate box="[2215,2328,1769,1802]" degrees="37" minutes="21.6" pageId="11" pageNumber="630">37°21.6</geoCoordinate>
-</geoCoordinate>
-&quot; 8, 71°16706.67 W).”
+<geoCoordinate box="[2171,2364,1769,1802]" degrees="17" direction="south" minutes="37" orientation="latitude" pageId="11" pageNumber="630" precision="1" seconds="21.6" value="-17.622667">17°37'21.6&quot; S</geoCoordinate>
+, 
+<geoCoordinate box="[2383,2590,1769,1802]" degrees="71" direction="west" minutes="16" orientation="longitude" pageId="11" pageNumber="630" precision="1" seconds="06.6" value="-71.2685">71°16'06.6&quot; W</geoCoordinate>
+).”
 </materialsCitation>
 </paragraph>
+</subSubSection>
+<subSubSection box="[2072,2442,1809,1842]" pageId="11" pageNumber="630" type="discussion">
 <paragraph blockId="11.[2071,2666,1651,2078]" box="[2072,2442,1809,1842]" pageId="11" pageNumber="630">This species is monotypic.</paragraph>
 </subSubSection>
 <subSubSection pageId="11" pageNumber="630" type="distribution">
-<caption inLine="true" pageId="11" pageNumber="630" targetBox="[2245,2249,3121,3146]" targetPageId="11">
+<caption ID-DOI="http://doi.org/10.5281/zenodo.6772289" ID-Zenodo-Dep="6772289" httpUri="https://zenodo.org/record/6772289/files/figure.png" inLine="true" pageId="11" pageNumber="630" startId="11.[2072,2248,1848,1881]" targetBox="[1457,2048,1665,2079]" targetPageId="11">
 <paragraph blockId="11.[2071,2666,1651,2078]" pageId="11" pageNumber="630">
 <emphasis bold="true" box="[2072,2252,1848,1881]" pageId="11" pageNumber="630">Distribution.</emphasis>
 Known only from two localities in lowlands of SW 

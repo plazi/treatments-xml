@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6657415" ID-GBIF-Dataset="4411cc96-85e7-4df6-ac26-1a1a3f609296" ID-ISBN="978-84-96553-99-6" ID-Zenodo-Dep="6657415" approvalRequired="2" approvalRequired_for_document="2" approvalRequired_for_treatments="2" checkinTime="1654609426720" checkinUser="felipe" docAuthor="Russell A. Mittermeier &amp; Don E. Wilson" docDate="2015" docId="D344591F5336070523C2FC8C1D65F6BE" docLanguage="en" docName="hbmw_5_Phalangeridae_0456.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 5 Monotremes and Marsupials, Barcelona: Lynx Edicions" docTitle="Phalanger matanim Flannery 1987" docType="treatment" docVersion="3" lastPageNumber="492" masterDocId="2F7D2167533D070E236FFFD11F06FFD9" masterDocTitle="Phalangeridae" masterLastPageNumber="497" masterPageNumber="456" pageNumber="492" updateTime="1655484883446" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6657415" ID-GBIF-Dataset="4411cc96-85e7-4df6-ac26-1a1a3f609296" ID-ISBN="978-84-96553-99-6" ID-Zenodo-Dep="6657415" approvalRequired="1" approvalRequired_for_matCits="1" checkinTime="1654609426720" checkinUser="felipe" docAuthor="Russell A. Mittermeier &amp; Don E. Wilson" docDate="2015" docId="D344591F5336070523C2FC8C1D65F6BE" docLanguage="en" docName="hbmw_5_Phalangeridae_0456.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 5 Monotremes and Marsupials, Barcelona: Lynx Edicions" docTitle="Phalanger matanim Flannery 1987" docType="treatment" docVersion="5" lastPageNumber="492" masterDocId="2F7D2167533D070E236FFFD11F06FFD9" masterDocTitle="Phalangeridae" masterLastPageNumber="497" masterPageNumber="456" pageNumber="492" updateTime="1656350253107" updateUser="tatiana">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Phalangeridae</mods:title>
@@ -41,7 +41,7 @@
 <mods:identifier type="ISBN">978-84-96553-99-6</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6657415</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6620407" ID-Zenodo-Dep="6620407" LSID="urn:lsid:plazi:treatment:D344591F5336070523C2FC8C1D65F6BE" httpUri="http://treatment.plazi.org/id/D344591F5336070523C2FC8C1D65F6BE" lastPageNumber="492" pageId="11" pageNumber="492">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6620407" ID-GBIF-Taxon="195958990" ID-Zenodo-Dep="6620407" LSID="urn:lsid:plazi:treatment:D344591F5336070523C2FC8C1D65F6BE" httpUri="http://treatment.plazi.org/id/D344591F5336070523C2FC8C1D65F6BE" lastPageNumber="492" pageId="11" pageNumber="492">
 <heading pageId="11" pageNumber="492">
 <subSubSection box="[173,230,861,911]" pageId="11" pageNumber="492" type="multiple">
 <paragraph blockId="11.[170,1109,861,990]" box="[173,230,861,911]" pageId="11" pageNumber="492">
@@ -86,7 +86,7 @@
 </subSubSection>
 <subSubSection pageId="11" pageNumber="492" type="materials_examined">
 <paragraph blockId="11.[783,1376,1034,1461]" pageId="11" pageNumber="492">
-<materialsCitation country="Papua New Guinea" elevation="2600" latitude="-5.1" location="upper Sol River Valley" pageId="11" pageNumber="492" specimenCount="1" stateProvince="West Sepik Province">
+<materialsCitation ID-GBIF-Occurrence="3813123322" country="Papua New Guinea" elevation="2600" latitude=" -5.1" location="upper Sol River Valley" longitude="141.700000" pageId="11" pageNumber="492" specimenCount="1" stateProvince="West Sepik Province">
 “ 
 <location LSID="urn:lsid:plazi:treatment:D344591F5336070523C2FC8C1D65F6BE:5E32BED2533607052019FBE31BBDFB8A" box="[886,1211,1074,1107]" country="Papua New Guinea" latitude="-5.1" name="upper Sol River Valley" pageId="11" pageNumber="492" stateProvince="West Sepik Province">upper Sol River Valley</location>
 , 
@@ -95,14 +95,7 @@
 <collectingRegion box="[871,1180,1121,1146]" country="Papua New Guinea" name="West Sepik" pageId="11" pageNumber="492">West Sepik Province</collectingRegion>
 , 
 <collectingCountry name="Papua New Guinea" pageId="11" pageNumber="492">Papua New Guinea</collectingCountry>
-, 
-<geoCoordinate box="[905,993,1157,1186]" degrees="5" direction="south" minutes="06" orientation="latitude" pageId="11" pageNumber="492" precision="925" value="-5.1">5°06’S</geoCoordinate>
-<geoCoordinate box="[1006,1130,1157,1186]" pageId="11" pageNumber="492">141°42°E</geoCoordinate>
-, 
-<quantity box="[1147,1261,1157,1186]" metricMagnitude="3" metricUnit="m" metricValue="2.6" pageId="11" pageNumber="492" unit="m" value="2600.0">
-<elevation box="[1147,1261,1157,1186]" metricMagnitude="3" metricUnit="m" metricValue="2.6" pageId="11" pageNumber="492" unit="m" value="2600.0">2,600 m</elevation>
-</quantity>
-.”
+, 5°06’S 141°42°E, 2,600 m.”
 </materialsCitation>
 </paragraph>
 </subSubSection>

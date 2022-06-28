@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6418279" ID-GBIF-Dataset="bc3766a8-d834-42d8-9b39-0612d00293ca" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6418279" approvalRequired="6" approvalRequired_for_taxonomicNames="1" approvalRequired_for_textStreams="1" approvalRequired_for_treatments="4" checkinTime="1600873888554" checkinUser="plazi" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="194287C9FFB4BA18B49BFDA6BB02F922" docLanguage="en" docName="hbmw_9_Molossidae_598.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Molossus sinaloae J. A. Allen 1906" docType="treatment" docVersion="11" lastPageNumber="627" masterDocId="E57BFFB1FFBCBA10B412F760B226FFCE" masterDocTitle="Molossidae" masterLastPageNumber="672" masterPageNumber="598" pageNumber="627" updateTime="1653403227774" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6418279" ID-GBIF-Dataset="bc3766a8-d834-42d8-9b39-0612d00293ca" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6418279" approvalRequired="6" approvalRequired_for_textStreams="6" checkinTime="1600873888554" checkinUser="plazi" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="194287C9FFB4BA18B49BFDA6BB02F922" docLanguage="en" docName="hbmw_9_Molossidae_598.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Molossus sinaloae J. A. Allen 1906" docType="treatment" docVersion="15" lastPageNumber="627" masterDocId="E57BFFB1FFBCBA10B412F760B226FFCE" masterDocTitle="Molossidae" masterLastPageNumber="672" masterPageNumber="598" pageNumber="627" updateTime="1656424084046" updateUser="ExternalLinkService">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Molossidae</mods:title>
@@ -41,7 +41,7 @@
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6418279</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6418764" ID-Zenodo-Dep="6418764" LSID="urn:lsid:plazi:treatment:194287C9FFB4BA18B49BFDA6BB02F922" httpUri="http://treatment.plazi.org/id/194287C9FFB4BA18B49BFDA6BB02F922" lastPageNumber="627" pageId="8" pageNumber="627">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6418764" ID-GBIF-Taxon="195583580" ID-Zenodo-Dep="6418764" LSID="urn:lsid:plazi:treatment:194287C9FFB4BA18B49BFDA6BB02F922" httpUri="http://treatment.plazi.org/id/194287C9FFB4BA18B49BFDA6BB02F922" lastPageNumber="627" pageId="8" pageNumber="627">
 <heading pageId="8" pageNumber="627">
 <subSubSection box="[137,194,2758,2800]" pageId="8" pageNumber="627" type="multiple">
 <paragraph blockId="8.[135,1091,2758,2878]" box="[137,194,2758,2800]" pageId="8" pageNumber="627">
@@ -90,9 +90,9 @@ Molosse du
 ,
 </paragraph>
 </subSubSection>
-<paragraph blockId="8.[747,1342,2924,3351]" lastBlockId="8.[136,1339,3358,3471]" pageId="8" pageNumber="627">
 <subSubSection box="[833,1250,2971,2996]" pageId="8" pageNumber="627" type="materials_examined">
-<materialsCitation box="[833,1246,2971,2996]" pageId="8" pageNumber="627">
+<paragraph blockId="8.[747,1342,2924,3351]" box="[833,1250,2971,2996]" pageId="8" pageNumber="627">
+<materialsCitation ID-GBIF-Occurrence="3780789332" box="[833,1246,2971,2996]" pageId="8" pageNumber="627">
 “Escuinapa, 
 <taxonomicName authorityName="Scudder" authorityYear="1897" box="[1008,1113,2971,2996]" class="Insecta" family="Acrididae" genus="Sinaloa" kingdom="Animalia" order="Orthoptera" pageId="8" pageNumber="627" phylum="Arthropoda" rank="genus">
 <collectingRegion box="[1008,1113,2971,2996]" country="Mexico" name="Sinaloa" pageId="8" pageNumber="627">Sinaloa</collectingRegion>
@@ -101,8 +101,10 @@ Molosse du
 <collectingCountry box="[1141,1246,2971,2996]" name="Mexico" pageId="8" pageNumber="627">Mexico</collectingCountry>
 </materialsCitation>
 .
+</paragraph>
 </subSubSection>
 <subSubSection pageId="8" pageNumber="627" type="discussion">
+<paragraph blockId="8.[747,1342,2924,3351]" lastBlockId="8.[136,1339,3358,3471]" pageId="8" pageNumber="627">
 Specimens of 
 <taxonomicName authorityName="J. A. Allen" authorityYear="1906" box="[967,1126,3002,3035]" class="Mammalia" family="Molossidae" genus="Molossus" kingdom="Animalia" order="Chiroptera" pageId="8" pageNumber="627" phylum="Chordata" rank="species" species="sinaloae">M. sinaloae</taxonomicName>
 from 
@@ -122,10 +124,10 @@ was expanded to South America, and distribution of
 was restricted to western part of 
 <collectingCountry box="[954,1058,3358,3391]" name="Mexico" pageId="8" pageNumber="627">Mexico</collectingCountry>
 . Monotypic.
-</subSubSection>
 </paragraph>
+</subSubSection>
 <subSubSection pageId="8" pageNumber="627" type="distribution">
-<caption inLine="true" pageId="8" pageNumber="627" targetBox="[2336,2340,1747,1772]" targetPageId="8">
+<caption ID-DOI="http://doi.org/10.5281/zenodo.6772270" ID-Zenodo-Dep="6772270" httpUri="https://zenodo.org/record/6772270/files/figure.png" inLine="true" pageId="8" pageNumber="627" startId="8.[136,308,3397,3430]" targetBox="[133,725,2934,3350]" targetPageId="8">
 <paragraph blockId="8.[136,1339,3358,3471]" pageId="8" pageNumber="627">
 <emphasis bold="true" box="[136,312,3397,3430]" pageId="8" pageNumber="627">Distribution.</emphasis>
 Pacific slope of 
