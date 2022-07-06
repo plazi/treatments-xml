@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.5158982" ID-GBIF-Dataset="16f6ef92-619b-417b-946c-22d9b1445e7d" ID-GBIF-Taxon="183924945" ID-Zenodo-Dep="5158982" checkinTime="1628022546680" checkinUser="carolina" docAuthor="Swezey, O. H." docDate="1946" docId="2C76878DFF9CFFF6BEFCF6CDFB24FD5B" docLanguage="en" docName="InsectsOfGuamII.189.3-8.pdf.imf" docOrigin="Insects of Guam II, Honolulu, Hawaii: Bernice P. Bishop Museum" docTitle="Xiphidion longipenne" docType="treatment" docVersion="16" lastPageId="2" lastPageNumber="5" masterDocId="D04FFFF5FF9DFFF4BF68FFAAFFBBFFD8" masterDocTitle="Orthoptera And Related Orders Orthoptera And Related Orders Of Guam" masterLastPageNumber="8" masterPageNumber="3" pageId="1" pageNumber="4" updateTime="1642314951044" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.5160233" ID-GBIF-Dataset="16f6ef92-619b-417b-946c-22d9b1445e7d" ID-Zenodo-Dep="5160233" checkinTime="1628022546680" checkinUser="carolina" docAuthor="Swezey, O. H." docDate="1946" docId="2C76878DFF9CFFF6BEFCF6CDFB24FD5B" docLanguage="en" docName="InsectsOfGuamII.189.3-8.pdf.imf" docOrigin="Insects of Guam II, Honolulu, Hawaii: Bernice P. Bishop Museum" docStyle="DocumentStyle:A6818C686426A7D59822A3BD2E5D42E5.1:InsectsOfGuam.1942.book_chapter" docStyleId="A6818C686426A7D59822A3BD2E5D42E5" docStyleName="InsectsOfGuam.1942.book_chapter" docStyleVersion="1" docTitle="Xiphidion longipenne" docType="treatment" docVersion="17" lastPageNumber="5" masterDocId="D04FFFF5FF9DFFF4BF68FFAAFFBBFFD8" masterDocTitle="Orthoptera And Related Orders Orthoptera And Related Orders Of Guam" masterLastPageNumber="8" masterPageNumber="3" pageNumber="4" updateTime="1657132326085" updateUser="annettekang">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Orthoptera And Related Orders Orthoptera And Related Orders Of Guam</mods:title>
@@ -34,14 +34,13 @@
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.5160233</mods:identifier>
 <mods:identifier type="GBIF-Dataset">16f6ef92-619b-417b-946c-22d9b1445e7d</mods:identifier>
 <mods:identifier type="Zenodo-Dep">5160233</mods:identifier>
-<mods:identifier type="ZooBank">E59A2281-8D6B-4CC8-97F2-B6A1CF7F9B1D</mods:identifier>
 </mods:mods>
 <treatment ID-DOI="http://doi.org/10.5281/zenodo.5158982" ID-GBIF-Taxon="183924945" ID-Zenodo-Dep="5158982" LSID="urn:lsid:plazi:treatment:2C76878DFF9CFFF6BEFCF6CDFB24FD5B" httpUri="http://treatment.plazi.org/id/2C76878DFF9CFFF6BEFCF6CDFB24FD5B" lastPageId="2" lastPageNumber="5" pageId="1" pageNumber="4">
 <subSubSection box="[404,1088,2404,2446]" pageId="1" pageNumber="4" type="nomenclature">
 <paragraph blockId="1.[404,1800,2404,2548]" box="[404,1088,2404,2446]" pageId="1" pageNumber="4">
 <heading box="[404,1088,2404,2446]" centered="true" fontSize="11" level="2" pageId="1" pageNumber="4" reason="2">
 <emphasis bold="true" box="[404,433,2407,2446]" pageId="1" pageNumber="4">6.</emphasis>
-<taxonomicName authority="(de Haan)" authorityName="" baseAuthorityName="de Haan" box="[466,1082,2404,2445]" class="Insecta" family="Tetrigidae" genus="Xiphidion" higherTaxonomySource="GBIF" kingdom="Animalia" order="Orthoptera" pageId="1" pageNumber="4" phylum="Arthropoda" rank="species" species="longipenne">
+<taxonomicName authority="(de Haan)" baseAuthorityName="de Haan" box="[466,1082,2404,2445]" class="Insecta" family="Tetrigidae" genus="Xiphidion" higherTaxonomySource="CoL" kingdom="Animalia" order="Orthoptera" pageId="1" pageNumber="4" phylum="Arthropoda" rank="species" species="longipenne">
 <emphasis bold="true" box="[466,864,2404,2445]" pageId="1" pageNumber="4">Xiphidion longipenne</emphasis>
 (de Haan)
 </taxonomicName>
@@ -92,13 +91,47 @@
 </subSubSection>
 <subSubSection pageId="2" pageNumber="5" type="materials_examined">
 <paragraph blockId="2.[320,1718,329,643]" pageId="2" pageNumber="5">
-<materialsCitation ID-GBIF-Occurrence="3441224304" box="[385,1008,388,431]" pageId="2" pageNumber="5">Piti, April 30, ex grass, Usinger</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3441224304" box="[385,1008,388,431]" collectingDate="1930-04" location="Usinger" municipality="Piti" pageId="2" pageNumber="5" specimenCount="1">
+<collectingMunicipality box="[385,452,388,431]" pageId="2" pageNumber="5">Piti</collectingMunicipality>
+, 
+<date box="[481,642,388,431]" pageId="2" pageNumber="5" value="1930-04">
+<collectingDate box="[481,642,388,431]" pageId="2" pageNumber="5" value="1930-04">April 30</collectingDate>
+</date>
+, 
+<specimenCount box="[671,712,388,431]" pageId="2" pageNumber="5" type="generic">ex</specimenCount>
+grass, 
+<location LSID="urn:lsid:plazi:treatment:2C76878DFF9CFFF6BEFCF6CDFB24FD5B:A1006040FF9FFFF6BC31FE2EFC4BFE77" box="[857,1008,388,431]" municipality="Piti" name="Usinger" pageId="2" pageNumber="5">Usinger</location>
+</materialsCitation>
 ; 
-<materialsCitation ID-GBIF-Occurrence="3441224391" box="[1039,1710,388,431]" pageId="2" pageNumber="5">Inarajan, May 14, on rice, Usinger</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3441224391" box="[1039,1710,388,431]" collectingDate="2014-05" location="Inarajan" pageId="2" pageNumber="5" specimenCount="1">
+<location LSID="urn:lsid:plazi:treatment:2C76878DFF9CFFF6BEFCF6CDFB24FD5B:A1006040FF9FFFF6BB67FE2EFB11FE77" box="[1039,1194,388,431]" name="Inarajan" pageId="2" pageNumber="5">Inarajan</location>
+, 
+<date box="[1225,1370,388,431]" pageId="2" pageNumber="5" value="2014-05">
+<collectingDate box="[1225,1370,388,431]" pageId="2" pageNumber="5" value="2014-05">May 14</collectingDate>
+</date>
+, on rice, 
+<location LSID="urn:lsid:plazi:treatment:2C76878DFF9CFFF6BEFCF6CDFB24FD5B:A1006040FF9FFFF6B97FFE2EF915FE77" box="[1559,1710,388,431]" name="Usinger" pageId="2" pageNumber="5">Usinger</location>
+</materialsCitation>
 ; 
-<materialsCitation ID-GBIF-Occurrence="3441224373" box="[321,779,439,482]" pageId="2" pageNumber="5">Agana, May 25, Usinger</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3441224373" box="[321,779,439,482]" collectingDate="1925-05" location="Agana" pageId="2" pageNumber="5" specimenCount="1">
+<location LSID="urn:lsid:plazi:treatment:2C76878DFF9CFFF6BEFCF6CDFB24FD5B:A1006040FF9FFFF6BE29FE1DFE0CFE3A" box="[321,439,439,482]" name="Agana" pageId="2" pageNumber="5">Agana</location>
+, 
+<date box="[464,603,439,482]" pageId="2" pageNumber="5" value="1925-05">
+<collectingDate box="[464,603,439,482]" pageId="2" pageNumber="5" value="1925-05">May 25</collectingDate>
+</date>
+, 
+<location LSID="urn:lsid:plazi:treatment:2C76878DFF9CFFF6BEFCF6CDFB24FD5B:A1006040FF9FFFF6BD1CFE1DFCB0FE3A" box="[628,779,439,482]" name="Usinger" pageId="2" pageNumber="5">Usinger</location>
+</materialsCitation>
 ; 
-<materialsCitation ID-GBIF-Occurrence="3441224355" box="[804,1367,439,482]" pageId="2" pageNumber="5">Yigo, Nov. 8, on corn, Swezey</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3441224355" box="[804,1367,439,482]" collectingDate="Nov. 8" collectorName="Swezey" location="Yigo" pageId="2" pageNumber="5" specimenCount="1">
+<location LSID="urn:lsid:plazi:treatment:2C76878DFF9CFFF6BEFCF6CDFB24FD5B:A1006040FF9FFFF6BC4CFE1DFCC6FE3A" box="[804,893,439,482]" name="Yigo" pageId="2" pageNumber="5">Yigo</location>
+, 
+<date box="[918,1042,439,482]" pageId="2" pageNumber="5">
+<collectingDate box="[918,1042,439,482]" pageId="2" pageNumber="5">Nov. 8</collectingDate>
+</date>
+, on corn, 
+<collectorName box="[1232,1367,439,482]" pageId="2" pageNumber="5">Swezey</collectorName>
+</materialsCitation>
 .
 </paragraph>
 </subSubSection>

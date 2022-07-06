@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.5159032" ID-GBIF-Dataset="16f6ef92-619b-417b-946c-22d9b1445e7d" ID-GBIF-Taxon="183924979" ID-Zenodo-Dep="5159032" checkinTime="1628022546680" checkinUser="carolina" docAuthor="Swezey, O. H." docDate="1946" docId="2C76878DFF99FFF0BE52FBA6F9DDFA52" docLanguage="en" docName="InsectsOfGuamII.189.3-8.pdf.imf" docOrigin="Insects of Guam II, Honolulu, Hawaii: Bernice P. Bishop Museum" docTitle="Pycnoscelus surinamensis" docType="treatment" docVersion="11" lastPageNumber="7" masterDocId="D04FFFF5FF9DFFF4BF68FFAAFFBBFFD8" masterDocTitle="Orthoptera And Related Orders Orthoptera And Related Orders Of Guam" masterLastPageNumber="8" masterPageNumber="3" pageId="4" pageNumber="7" updateTime="1642314951044" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.5160233" ID-GBIF-Dataset="16f6ef92-619b-417b-946c-22d9b1445e7d" ID-Zenodo-Dep="5160233" checkinTime="1628022546680" checkinUser="carolina" docAuthor="Swezey, O. H." docDate="1946" docId="2C76878DFF99FFF0BE52FBA6F9DDFA52" docLanguage="en" docName="InsectsOfGuamII.189.3-8.pdf.imf" docOrigin="Insects of Guam II, Honolulu, Hawaii: Bernice P. Bishop Museum" docStyle="DocumentStyle:A6818C686426A7D59822A3BD2E5D42E5.1:InsectsOfGuam.1942.book_chapter" docStyleId="A6818C686426A7D59822A3BD2E5D42E5" docStyleName="InsectsOfGuam.1942.book_chapter" docStyleVersion="1" docTitle="Pycnoscelus surinamensis" docType="treatment" docVersion="12" lastPageNumber="7" masterDocId="D04FFFF5FF9DFFF4BF68FFAAFFBBFFD8" masterDocTitle="Orthoptera And Related Orders Orthoptera And Related Orders Of Guam" masterLastPageNumber="8" masterPageNumber="3" pageNumber="7" updateTime="1657132326085" updateUser="annettekang">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Orthoptera And Related Orders Orthoptera And Related Orders Of Guam</mods:title>
@@ -34,7 +34,6 @@
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.5160233</mods:identifier>
 <mods:identifier type="GBIF-Dataset">16f6ef92-619b-417b-946c-22d9b1445e7d</mods:identifier>
 <mods:identifier type="Zenodo-Dep">5160233</mods:identifier>
-<mods:identifier type="ZooBank">E59A2281-8D6B-4CC8-97F2-B6A1CF7F9B1D</mods:identifier>
 </mods:mods>
 <treatment ID-DOI="http://doi.org/10.5281/zenodo.5159032" ID-GBIF-Taxon="183924979" ID-Zenodo-Dep="5159032" LSID="urn:lsid:plazi:treatment:2C76878DFF99FFF0BE52FBA6F9DDFA52" httpUri="http://treatment.plazi.org/id/2C76878DFF99FFF0BE52FBA6F9DDFA52" lastPageNumber="7" pageId="4" pageNumber="7">
 <subSubSection box="[314,1080,1036,1078]" pageId="4" pageNumber="7" type="nomenclature">
@@ -97,15 +96,60 @@ Ins.
 </subSubSection>
 <subSubSection pageId="4" pageNumber="7" type="materials_examined">
 <paragraph blockId="4.[314,1713,1036,1418]" pageId="4" pageNumber="7">
-<materialsCitation ID-GBIF-Occurrence="3331604367" box="[378,987,1213,1255]" pageId="4" pageNumber="7">Ritidian Point, April 22, Bryan;</materialsCitation>
-<materialsCitation ID-GBIF-Occurrence="3331604346" box="[1005,1489,1213,1255]" pageId="4" pageNumber="7">Umatac, May 14, Swezey</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3331604367" box="[378,987,1213,1255]" pageId="4" pageNumber="7">
+<collectingMunicipality box="[378,647,1213,1255]" pageId="4" pageNumber="7">
+<location LSID="urn:lsid:plazi:treatment:2C76878DFF99FFF0BE52FBA6F9DDFA52:A1006040FF99FFF0BE12FB17FDB4FB3F" box="[378,527,1213,1255]" pageId="4" pageNumber="7">Ritidian</location>
+Point
+</collectingMunicipality>
+, 
+<date box="[673,832,1213,1255]" pageId="4" pageNumber="7" value="1922-04">
+<collectingDate box="[673,832,1213,1255]" pageId="4" pageNumber="7" value="1922-04">April 22</collectingDate>
+</date>
+, 
+<collectorName box="[859,980,1213,1255]" pageId="4" pageNumber="7">Bryan</collectorName>
+;
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3331604346" box="[1005,1489,1213,1255]" pageId="4" pageNumber="7">
+<collectingMunicipality box="[1005,1150,1213,1255]" pageId="4" pageNumber="7">Umatac</collectingMunicipality>
+, 
+<date box="[1176,1319,1213,1255]" pageId="4" pageNumber="7" value="2014-05">
+<collectingDate box="[1176,1319,1213,1255]" pageId="4" pageNumber="7" value="2014-05">May 14</collectingDate>
+</date>
+, 
+<collectorName box="[1346,1489,1213,1255]" pageId="4" pageNumber="7">Swezey</collectorName>
+</materialsCitation>
 ; 
-<materialsCitation ID-GBIF-Occurrence="3441224379" pageId="4" pageNumber="7">Agat, May 31, under bark, Usinger</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3441224379" pageId="4" pageNumber="7">
+<collectingMunicipality box="[1515,1607,1213,1255]" pageId="4" pageNumber="7">Agat</collectingMunicipality>
+, 
+<date pageId="4" pageNumber="7" value="1931-05">
+<collectingDate pageId="4" pageNumber="7" value="1931-05">May 31</collectingDate>
+</date>
+, under bark, 
+<location LSID="urn:lsid:plazi:treatment:2C76878DFF99FFF0BE52FBA6F9DDFA52:A1006040FF99FFF0BD33FB42FD42FAFC" box="[603,761,1256,1316]" pageId="4" pageNumber="7">Usinger</location>
+</materialsCitation>
 ; 
-<materialsCitation ID-GBIF-Occurrence="3441224375" box="[784,1241,1256,1316]" pageId="4" pageNumber="7">Fadian,Aug. 19, Swezey</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3441224375" box="[784,1241,1256,1316]" pageId="4" pageNumber="7">
+<location LSID="urn:lsid:plazi:treatment:2C76878DFF99FFF0BE52FBA6F9DDFA52:A1006040FF99FFF0BC78FB42FC22FAFC" box="[784,921,1256,1316]" pageId="4" pageNumber="7">Fadian</location>
+, 
+<date box="[928,1076,1256,1316]" pageId="4" pageNumber="7" value="2019-08">
+<collectingDate box="[928,1076,1256,1316]" pageId="4" pageNumber="7" value="2019-08">Aug. 19</collectingDate>
+</date>
+, 
+<collectorName box="[1098,1241,1256,1316]" pageId="4" pageNumber="7">Swezey</collectorName>
+</materialsCitation>
 ; 
-<materialsCitation ID-GBIF-Occurrence="3441224315" box="[1264,1491,1256,1316]" pageId="4" pageNumber="7">Piti, July 19</materialsCitation>
-<materialsCitation ID-GBIF-Occurrence="3441224365" pageId="4" pageNumber="7">and ~18, at light, Swezey</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3441224315" box="[1264,1491,1256,1316]" pageId="4" pageNumber="7">
+<collectingMunicipality box="[1264,1332,1256,1316]" pageId="4" pageNumber="7">Piti</collectingMunicipality>
+, 
+<date box="[1352,1491,1256,1316]" pageId="4" pageNumber="7" value="2019-07">
+<collectingDate box="[1352,1491,1256,1316]" pageId="4" pageNumber="7" value="2019-07">July 19</collectingDate>
+</date>
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3441224365" pageId="4" pageNumber="7">
+and ~18, at light, 
+<collectorName box="[478,615,1317,1359]" pageId="4" pageNumber="7">Swezey</collectorName>
+</materialsCitation>
 . Occurs in 
 <collectingRegion box="[838,974,1317,1359]" country="United States of America" name="Hawaii" pageId="4" pageNumber="7">Hawaii</collectingRegion>
 .
