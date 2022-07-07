@@ -1,4 +1,4 @@
-<document ID-ISBN="978-84-16728-04-6" approvalRequired="12443" approvalRequired_for_illustrations="47" approvalRequired_for_textStreams="11727" approvalRequired_for_treatments="666" checkinTime="1656696812616" checkinUser="carolina" docAuthor="Don E. Wilson, Russell A. Mittermeier &amp; Thomas E. Lacher, Jr" docDate="2017" docId="1E30E275344BFFF9E4652E7375FC8285" docLanguage="en" docName="hbmw_7_Muridae_0536.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 7 Rodents II, Barcelona: Lynx Edicions" docTitle="Pseudohydromys" docType="treatment" docVersion="2" lastPageNumber="710" masterDocId="E2099A0D3426FF97E1372C0977498313" masterDocTitle="Muridae" masterLastPageNumber="884" masterPageNumber="536" pageNumber="709" updateTime="1656698107873" updateUser="carolina">
+<document ID-ISBN="978-84-16728-04-6" approvalRequired="12443" approvalRequired_for_illustrations="47" approvalRequired_for_textStreams="11727" approvalRequired_for_treatments="666" checkinTime="1656696812616" checkinUser="carolina" docAuthor="Don E. Wilson, Russell A. Mittermeier &amp; Thomas E. Lacher, Jr" docDate="2017" docId="1E30E275344BFFF9E4652E7375FC8285" docLanguage="en" docName="hbmw_7_Muridae_0536.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 7 Rodents II, Barcelona: Lynx Edicions" docTitle="Pseudohydromys ellermani" docType="treatment" docVersion="4" lastPageNumber="710" masterDocId="E2099A0D3426FF97E1372C0977498313" masterDocTitle="Muridae" masterLastPageNumber="884" masterPageNumber="536" pageNumber="709" updateTime="1657219326172" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Muridae</mods:title>
@@ -44,7 +44,7 @@
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="ISBN">978-84-16728-04-6</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:1E30E275344BFFF9E4652E7375FC8285" httpUri="http://treatment.plazi.org/id/1E30E275344BFFF9E4652E7375FC8285" lastPageId="110" lastPageNumber="710" pageId="109" pageNumber="709">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6788240" ID-Zenodo-Dep="6788240" LSID="urn:lsid:plazi:treatment:1E30E275344BFFF9E4652E7375FC8285" httpUri="http://treatment.plazi.org/id/1E30E275344BFFF9E4652E7375FC8285" lastPageId="110" lastPageNumber="710" pageId="109" pageNumber="709">
 <heading pageId="109" pageNumber="709">
 <subSubSection box="[1362,1444,634,680]" pageId="109" pageNumber="709" type="multiple">
 <paragraph blockId="109.[1360,2567,634,759]" box="[1362,1444,634,680]" pageId="109" pageNumber="709">
@@ -58,10 +58,9 @@
 </subSubSection>
 <subSubSection box="[2099,2567,634,680]" pageId="109" pageNumber="709" type="nomenclature">
 <paragraph blockId="109.[1360,2567,634,759]" box="[2099,2567,634,680]" pageId="109" pageNumber="709">
-<emphasis box="[2099,2567,634,680]" italics="true" pageId="109" pageNumber="709">
-<taxonomicName box="[2099,2382,634,680]" class="Mammalia" family="Muridae" genus="Pseudohydromys" kingdom="Animalia" order="Rodentia" pageId="109" pageNumber="709" phylum="Chordata" rank="genus">Pseudohydromys</taxonomicName>
-ellerman
-</emphasis>
+<taxonomicName baseAuthorityName="Laurie &amp; Hill" baseAuthorityYear="1954" box="[2099,2567,634,680]" class="Mammalia" family="Muridae" genus="Pseudohydromys" kingdom="Animalia" order="Rodentia" pageId="109" pageNumber="709" phylum="Chordata" rank="species" species="ellermani">
+<emphasis box="[2099,2567,634,680]" italics="true" pageId="109" pageNumber="709">Pseudohydromys ellermani</emphasis>
+</taxonomicName>
 </paragraph>
 </subSubSection>
 <subSubSection pageId="109" pageNumber="709" type="vernacular_names">
@@ -82,21 +81,23 @@ ellerman
 </subSubSection>
 </heading>
 <subSubSection pageId="109" pageNumber="709" type="reference_group">
-<paragraph blockId="109.[1972,2567,807,1230]" box="[1972,2565,807,836]" pageId="109" pageNumber="709">
-<emphasis bold="true" box="[1972,2128,807,836]" pageId="109" pageNumber="709">Taxonomy.</emphasis>
-<taxonomicName authority="Laurie &amp;" box="[2151,2565,807,836]" class="Mammalia" family="Muridae" genus="Mayermys" kingdom="Animalia" order="Rodentia" pageId="109" pageNumber="709" phylum="Chordata" rank="species" species="ellermani">Mayermys ellermani Laurie &amp;</taxonomicName>
-</paragraph>
 <paragraph blockId="109.[1972,2567,807,1230]" pageId="109" pageNumber="709">
-Hill, 1954, 
+<emphasis bold="true" box="[1972,2128,807,836]" pageId="109" pageNumber="709">Taxonomy.</emphasis>
+<taxonomicName authorityName="Laurie &amp; Hill" authorityYear="1954" class="Mammalia" family="Muridae" genus="Mayermys" kingdom="Animalia" order="Rodentia" pageId="109" pageNumber="709" phylum="Chordata" rank="species" species="ellermani">Mayermys ellermani Laurie &amp; Hill, 1954</taxonomicName>
+, 
 <materialsCitation pageId="109" pageNumber="709">“Northern slopes of Mt Wilhelm, Bismarck Range, North-East [Pap-ua] New Guinea, 8000 ft [= 2438 m].”</materialsCitation>
 </paragraph>
-<paragraph blockId="109.[1972,2567,807,1230]" lastBlockId="109.[1363,2571,1237,3475]" pageId="109" pageNumber="709">
+</subSubSection>
+<subSubSection pageId="109" pageNumber="709" type="discussion">
+<paragraph blockId="109.[1972,2567,807,1230]" pageId="109" pageNumber="709">
 <taxonomicName baseAuthorityName="Laurie &amp; Hill" baseAuthorityYear="1954" box="[1975,2307,964,993]" class="Mammalia" family="Muridae" genus="Pseudohydromys" kingdom="Animalia" order="Rodentia" pageId="109" pageNumber="709" phylum="Chordata" rank="species" species="ellermani">Pseudohydromys ellermani</taxonomicName>
 was originally described as a new genus and species, and was maintained as such until 2009, when K. M. Helgen and L. E.Helgen argued for a more inclusive definition of 
 <taxonomicName class="Mammalia" family="Muridae" genus="Pseudohydromys" kingdom="Animalia" order="Rodentia" pageId="109" pageNumber="709" phylum="Chordata" rank="genus">Pseudohydromys</taxonomicName>
 ; Helgen and Helgen referred it to an 
 <taxonomicName baseAuthorityName="Laurie &amp; Hill" baseAuthorityYear="1954" box="[1975,2092,1196,1230]" class="Mammalia" family="Muridae" genus="Pseudohydromys" kingdom="Animalia" order="Rodentia" pageId="109" pageNumber="709" phylum="Chordata" rank="species" species="ellermani">ellermani</taxonomicName>
-species group that also includes 
+species group that also includes
+</paragraph>
+<paragraph blockId="109.[1363,2571,1237,3475]" pageId="109" pageNumber="709">
 <taxonomicName authorityName="K. M. Helgen &amp; L. E. Helgen" authorityYear="2009" box="[1363,1471,1237,1271]" class="Mammalia" family="Muridae" genus="Pseudohydromys" kingdom="Animalia" order="Rodentia" pageId="109" pageNumber="709" phylum="Chordata" rank="species" species="carlae">P. carlae</taxonomicName>
 , 
 <taxonomicName baseAuthorityName="Helgen" baseAuthorityYear="2005" box="[1488,1626,1237,1271]" class="Mammalia" family="Muridae" genus="Pseudohydromys" kingdom="Animalia" order="Rodentia" pageId="109" pageNumber="709" phylum="Chordata" rank="species" species="germani">P. germani</taxonomicName>
@@ -128,7 +129,7 @@ and
 </paragraph>
 </subSubSection>
 <subSubSection pageId="109" pageNumber="709" type="distribution">
-<caption inLine="true" pageId="109" pageNumber="709" targetBox="[689,693,381,406]" targetPageId="110">
+<caption inLine="true" pageId="109" pageNumber="709" startId="109.[1363,1535,1630,1664]" targetBox="[1359,1949,815,1228]" targetPageId="109">
 <paragraph blockId="109.[1363,2571,1237,3475]" pageId="109" pageNumber="709">
 <emphasis bold="true" box="[1363,1539,1630,1664]" pageId="109" pageNumber="709">Distribution.</emphasis>
 Recorded from the Central Range of New Guinea, including the Snow Mts of Papua Province, Indonesia, and numerous localities between the Star Mts and Mt Missim in Papua New Guinea.
