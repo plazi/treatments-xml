@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6419109" ID-ISSN="2118-9773" ID-Zenodo-Dep="6419109" checkinTime="1647349194074" checkinUser="felipe" docAuthor="Block, Petra De" docDate="2022" docId="039287D5FFD997265E1F1C0FFD036E2D" docLanguage="en" docName="ejt-801_1-99.pdf" docOrigin="European Journal of Taxonomy 801" docSource="http://dx.doi.org/10.5852/ejt.2022.801.1685" docStyle="DocumentStyle:EF2B578F1D15862ADE45B0C07C620911.13:EJT.2018-.journal_article" docStyleId="EF2B578F1D15862ADE45B0C07C620911" docStyleName="EJT.2018-.journal_article" docStyleVersion="13" docTitle="Paracephaelis cinerea De Block" docType="treatment" docVersion="5" lastPageId="37" lastPageNumber="38" masterDocId="FFABFFADFFC797035C021D07FF82686F" masterDocTitle="Monograph of the western Indian Ocean genus Paracephaelis (Rubiaceae - Pavetteae), with description of thirteen new species" masterLastPageNumber="99" masterPageNumber="1" pageId="30" pageNumber="31" updateTime="1649275393128" updateUser="ExternalLinkService" zenodo-license-document="CC-BY-4.0" zenodo-license-figures="CC-BY-4.0" zenodo-license-treatments="UNSPECIFIED">
+<document ID-DOI="https://doi.org/10.5852/ejt.2022.801.1685" ID-GBIF-Dataset="9e07b749-7497-4b4e-8168-2aca6a9543b2" ID-ISSN="2118-9773" ID-Zenodo-Dep="6358810" checkinTime="1647349194074" checkinUser="felipe" docAuthor="Block, Petra De" docDate="2022" docId="039287D5FFD997265E1F1C0FFD036E2D" docLanguage="en" docName="ejt-801_1-99.pdf" docOrigin="European Journal of Taxonomy 801" docSource="http://dx.doi.org/10.5852/ejt.2022.801.1685" docStyle="DocumentStyle:EF2B578F1D15862ADE45B0C07C620911.12:EJT.2018-.journal_article" docStyleId="EF2B578F1D15862ADE45B0C07C620911" docStyleName="EJT.2018-.journal_article" docStyleVersion="12" docTitle="Paracephaelis cinerea De Block" docType="treatment" docVersion="9" lastPageNumber="38" masterDocId="FFABFFADFFC797035C021D07FF82686F" masterDocTitle="Monograph of the western Indian Ocean genus Paracephaelis (Rubiaceae - Pavetteae), with description of thirteen new species" masterLastPageNumber="99" masterPageNumber="1" pageNumber="31" updateTime="1657372388591" updateUser="ExternalLinkService" zenodo-license-document="CC-BY-4.0" zenodo-license-figures="CC-BY-4.0" zenodo-license-treatments="UNSPECIFIED">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Monograph of the western Indian Ocean genus Paracephaelis (Rubiaceae - Pavetteae), with description of thirteen new species</mods:title>
@@ -8,6 +8,8 @@
 <mods:roleTerm>Author</mods:roleTerm>
 </mods:role>
 <mods:namePart>Block, Petra De</mods:namePart>
+<mods:affiliation>Meise Botanic Garden, Nieuwelaan 38, BE- 1860 Meise, Belgium.</mods:affiliation>
+<mods:nameIdentifier type="email">petra.deblock@meisebotanicgarden.be</mods:nameIdentifier>
 </mods:name>
 <mods:typeOfResource>text</mods:typeOfResource>
 <mods:relatedItem type="host">
@@ -33,6 +35,7 @@
 </mods:location>
 <mods:classification>journal article</mods:classification>
 <mods:identifier type="DOI">https://doi.org/10.5852/ejt.2022.801.1685</mods:identifier>
+<mods:identifier type="GBIF-Dataset">9e07b749-7497-4b4e-8168-2aca6a9543b2</mods:identifier>
 <mods:identifier type="ISSN">2118-9773</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6358810</mods:identifier>
 </mods:mods>
@@ -103,8 +106,11 @@ Mémoires de la Société d’Histoire naturelle de
 </treatmentCitation>
 </emphasis>
 5: 181 (Richard 1834). 
-<materialsCitation collectorName="A. Richard in Drake" country="Madagascar" location="Renivohitra District" municipality="Analamanga Region" pageId="30" pageNumber="31" specimenCount="1" stateProvince="Antananarivo Province" typeStatus="holotype">
-<emphasis bold="true" box="[734,808,551,577]" pageId="30" pageNumber="31">Type:</emphasis>
+<materialsCitation collectionCode="P" collectorName="A. Richard in Drake" country="Madagascar" location="Renivohitra District" municipality="Analamanga Region" pageId="30" pageNumber="31" specimenCode="P00115278" specimenCount="2" stateProvince="Antananarivo Province" typeStatus="type">
+<emphasis bold="true" box="[734,808,551,577]" pageId="30" pageNumber="31">
+<typeStatus box="[734,802,551,577]" pageId="30" pageNumber="31">Type</typeStatus>
+:
+</emphasis>
 <collectingCountry box="[821,1043,551,577]" name="Madagascar" pageId="30" pageNumber="31">MADAGASCAR</collectingCountry>
 – 
 <emphasis bold="true" pageId="30" pageNumber="31">
@@ -124,7 +130,9 @@ s.n.
 </emphasis>
 ; 
 <typeStatus box="[356,463,622,648]" pageId="30" pageNumber="31">holotype</typeStatus>
-: P[P00115278].
+: P[
+<specimenCode box="[498,639,622,649]" pageId="30" pageNumber="31">P00115278</specimenCode>
+].
 </materialsCitation>
 </treatmentCitationGroup>
 </paragraph>
@@ -219,7 +227,7 @@ Bremek.,
 <treatmentCitation author="Baker" box="[189,1073,1099,1125]" journal="Journal of Botany (London)" page="137" pageId="30" pageNumber="31" score="2.936916682087568" volume="20" year="1882">
 <taxonomicName authority="Baker" authorityName="Baker" box="[189,473,1099,1125]" class="Magnoliopsida" family="Rubiaceae" genus="Webera" kingdom="Plantae" order="Gentianales" pageId="30" pageNumber="31" phylum="Tracheophyta" rank="species" species="hispidula">
 <emphasis box="[189,394,1099,1125]" italics="true" pageId="30" pageNumber="31">Webera hispidula</emphasis>
-<materialsCitation box="[401,473,1099,1125]" country="Madagascar" location="Journal of Botany" pageId="30" pageNumber="31" specimenCount="1" stateProvince="Fianarantsoa">Baker</materialsCitation>
+<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFD9971D5D93194CFE5B6C0A" box="[401,473,1099,1125]" pageId="30" pageNumber="31">Baker</location>
 </taxonomicName>
 , 
 <bibCitation box="[484,1073,1099,1125]" journal="Journal of Botany (London)" page="137" pageId="30" pageNumber="31" score="2.936916682087568" volume="20" year="1882">
@@ -235,14 +243,14 @@ Bremek.,
 . 
 <emphasis bold="true" box="[1083,1144,1099,1125]" pageId="30" pageNumber="31">Type</emphasis>
 : 
-<materialsCitation country="Madagascar" location="chiefly in Betsileo land" pageId="30" pageNumber="31" specimenCount="1" stateProvince="Fianarantsoa Province" typeStatus="holotype">
+<materialsCitation country="Madagascar" location="chiefly in Betsileo land" municipality="chiefly in Betsileo land" pageId="30" pageNumber="31" specimenCount="1" stateProvince="Fianarantsoa Province" typeStatus="holotype">
 <collectingCountry box="[1160,1376,1099,1125]" name="Madagascar" pageId="30" pageNumber="31">MADAGASCAR</collectingCountry>
 – 
 <emphasis bold="true" box="[189,472,1134,1160]" pageId="30" pageNumber="31">
 <collectingRegion box="[189,472,1134,1160]" country="Madagascar" name="Fianarantsoa" pageId="30" pageNumber="31">Fianarantsoa Province</collectingRegion>
 </emphasis>
 • 
-<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFD9971D5DF01969FC876CE7" box="[498,773,1134,1160]" country="Madagascar" name="chiefly in Betsileo land" pageId="30" pageNumber="31" stateProvince="Fianarantsoa Province">chiefly in Betsileo land</location>
+<collectingMunicipality box="[498,773,1134,1160]" country="Madagascar" name="chiefly in Betsileo land" pageId="30" pageNumber="31" stateProvince="Fianarantsoa Province">chiefly in Betsileo land</collectingMunicipality>
 ; s.dat.; fl; 
 <emphasis box="[894,1017,1135,1161]" italics="true" pageId="30" pageNumber="31">Baron 150</emphasis>
 ; 
@@ -259,26 +267,22 @@ Bremek.,
 </heading>
 </paragraph>
 <paragraph blockId="30.[187,1399,1247,2025]" lastBlockId="34.[189,1399,265,750]" lastPageId="34" lastPageNumber="35" pageId="30" pageNumber="31">
-<materialsCitation box="[189,1207,1247,1274]" collectorName="II District" country="Madagascar" location="Diana Region" pageId="30" pageNumber="31" specimenCount="1" stateProvince="Antsiranana">
+<materialsCitation collectingDate="2007-07-21" collectorName="II District &amp; Andriamahay &amp; Rakotoarisoa" country="Madagascar" elevation="78" location="Diana Region" municipality="Francais" pageId="30" pageNumber="31" specimenCount="1" stateProvince="Antsiranana Province">
 <collectingCountry box="[189,405,1248,1274]" name="Madagascar" pageId="30" pageNumber="31">MADAGASCAR</collectingCountry>
 – 
 <emphasis bold="true" box="[439,1207,1247,1274]" pageId="30" pageNumber="31">
 <collectingRegion box="[439,716,1247,1273]" country="Madagascar" name="Antsiranana" pageId="30" pageNumber="31">Antsiranana Province</collectingRegion>
 , 
-<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFD9971D5ED819D8FC0A6C96" box="[730,904,1247,1273]" country="Madagascar" name="Diana Region" pageId="30" pageNumber="31" stateProvince="Antsiranana">Diana Region</location>
+<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFD9971D5ED819D8FC0A6C96" box="[730,904,1247,1273]" country="Madagascar" municipality="Francais" name="Diana Region" pageId="30" pageNumber="31" stateProvince="Antsiranana Province">Diana Region</location>
 , 
 <collectingRegion box="[917,1073,1247,1273]" country="Madagascar" name="Antsiranana" pageId="30" pageNumber="31">Antsiranana</collectingRegion>
 <collectorName box="[1082,1207,1247,1274]" pageId="30" pageNumber="31">II District</collectorName>
 </emphasis>
-</materialsCitation>
-• 
-<materialsCitation collectingDate="2007-07-21" collectorName="Andriamahay &amp; Rakotoarisoa" country="Madagascar" elevation="78" location="Ramena" municipality="Francais" pageId="30" pageNumber="31" specimenCount="1">
-montagne des 
-<collectingMunicipality box="[190,291,1283,1309]" pageId="30" pageNumber="31">Français</collectingMunicipality>
-, 
+• montagne des Français, 
+<locationDeviation box="[301,886,1283,1310]" pageId="30" pageNumber="31">
 <quantity box="[301,357,1283,1309]" metricMagnitude="3" metricUnit="m" metricValue="4.0" pageId="30" pageNumber="31" unit="km" value="4.0">4 km</quantity>
-from the junction of the main road to 
-<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFD9971D5F111803FCF46D71" box="[787,886,1284,1310]" country="Madagascar" municipality="Francais" name="Ramena" pageId="30" pageNumber="31">Ramena</location>
+from the junction of the main road to Ramena
+</locationDeviation>
 ; 
 <elevation box="[896,1015,1283,1310]" metricMagnitude="1" metricUnit="m" metricValue="7.8" pageId="30" pageNumber="31" unit="m" value="78.0">
 <quantity box="[896,953,1283,1310]" metricMagnitude="1" metricUnit="m" metricValue="7.8" pageId="30" pageNumber="31" unit="m" value="78.0">78 m</quantity>
@@ -298,20 +302,16 @@ a.s.l.
 ; K
 </materialsCitation>
 • 
-<materialsCitation collectingDate="1994-06-17" collectionCode="BR, MO" collectorName="Analamera &amp; d'Ambery &amp; Antranonaomby &amp; Andrianantoanina &amp; Rabeharinosy" country="Madagascar" elevation="507" location="80 km S d'Antsiranana" pageId="30" pageNumber="31" specimenCount="1">
-<collectorName box="[464,592,1319,1345]" pageId="30" pageNumber="31">Analamera</collectorName>
+<materialsCitation collectingDate="1994-06-17" collectionCode="BR, MO" collectorName="Andrianantoanina &amp; Rabeharinosy" country="Madagascar" elevation="507" location="Analamera" pageId="30" pageNumber="31" specimenCount="1">
+<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFD9971D5DD21820FDD26D2E" box="[464,592,1319,1345]" country="Madagascar" name="Analamera" pageId="30" pageNumber="31">Analamera</location>
 RS, 
-<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFD9971D5E841820FC0D6D2E" box="[646,911,1319,1345]" country="Madagascar" name="80 km S d'Antsiranana" pageId="30" pageNumber="31">
+<locationDeviation pageId="30" pageNumber="31">
 <quantity box="[646,718,1319,1345]" metricMagnitude="4" metricUnit="m" metricValue="8.0" pageId="30" pageNumber="31" unit="km" value="80.0">80 km</quantity>
-S d’Antsiranana
-</location>
-par route et 
+S d’Antsiranana par route et 
 <quantity box="[1051,1130,1319,1346]" metricMagnitude="3" metricUnit="m" metricValue="2.5" pageId="30" pageNumber="31" unit="km" value="2.5">2.5 km</quantity>
-E du village 
-<collectorName box="[1279,1399,1319,1345]" pageId="30" pageNumber="31">d’Ambery</collectorName>
-(
-<collectorName box="[197,397,1355,1382]" pageId="30" pageNumber="31">Antranonaomby</collectorName>
-); 
+E du village d’Ambery (Antranonaomby)
+</locationDeviation>
+; 
 <elevation box="[418,560,1355,1382]" metricMagnitude="2" metricUnit="m" metricValue="5.07" pageId="30" pageNumber="31" unit="m" value="507.0">
 <quantity box="[418,494,1355,1382]" metricMagnitude="2" metricUnit="m" metricValue="5.07" pageId="30" pageNumber="31" unit="m" value="507.0">507 m</quantity>
 a.s.l.
@@ -340,9 +340,7 @@ a.s.l.
 <collectorName box="[804,894,1391,1416]" pageId="30" pageNumber="31">Bernier</collectorName>
 319
 </emphasis>
-; 
-<collectionCode box="[960,1002,1391,1417]" country="Brazil" name="Embrapa Agrobiology Diazothrophic Microbial Culture Collection" pageId="30" pageNumber="31">BR</collectionCode>
-, P
+; BR, P
 </materialsCitation>
 • 
 <materialsCitation collectingDate="1962-02-22" collectionCode="BR, TEF" collectorName="Capuron" country="Madagascar" location="foret d'Orangea" pageId="30" pageNumber="31" specimenCount="1">
@@ -604,24 +602,17 @@ a.s.l.
 <collectionCode box="[732,791,1856,1882]" country="Madagascar" lsid="urn:lsid:biocol.org:col:13842" name="Parc de Tsimbazaza" pageId="30" pageNumber="31" type="Herbarium">TAN</collectionCode>
 </materialsCitation>
 • 
-<materialsCitation collectingDate="2005-02-04" collectionCode="BR, MO, TAN" collectorName="Mahavanona &amp; Andranomanitra &amp; Antafiankoroka &amp; Francais &amp; Rabefarihy" country="Madagascar" elevation="204" pageId="30" pageNumber="31" specimenCount="1">
-commune 
-<collectorName box="[960,1121,1855,1881]" pageId="30" pageNumber="31">
-<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFD9971D5FC21A38FBE36F36" box="[960,1121,1855,1881]" pageId="30" pageNumber="31">Mahavanona</location>
-</collectorName>
-, fkt. 
-<collectorName box="[1191,1394,1855,1881]" pageId="30" pageNumber="31">Andranomanitra</collectorName>
+<materialsCitation collectingDate="2005-02-04" collectionCode="BR, MO, TAN" collectorName="Rabefarihy" country="Madagascar" elevation="204" location="commune Mahavanona" pageId="30" pageNumber="31" specimenCount="1">
+<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFD9971D5F391A47FBE36F36" box="[827,1121,1855,1882]" country="Madagascar" name="commune Mahavanona" pageId="30" pageNumber="31">commune Mahavanona</location>
 , 
-<collectorName box="[189,373,1891,1917]" pageId="30" pageNumber="31">Antafiankoroka</collectorName>
-, massif forestier de la montagne des 
-<collectorName box="[791,893,1891,1917]" pageId="30" pageNumber="31">Français</collectorName>
+<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFD9971D58701A38FAF06F36" box="[1138,1394,1855,1881]" country="Madagascar" name="fkt. Andranomanitra" pageId="30" pageNumber="31">fkt. Andranomanitra</location>
+, 
+<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFD9971D5CBF1A64FEF76F12" box="[189,373,1891,1917]" country="Madagascar" name="Antafiankoroka" pageId="30" pageNumber="31">Antafiankoroka</location>
+, 
+<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFD9971D5D7D1A64FCFF6F12" box="[383,893,1891,1918]" country="Madagascar" name="massif forestier de la montagne des Francais" pageId="30" pageNumber="31">massif forestier de la montagne des Français</location>
 ; 
 <elevation box="[903,1036,1891,1918]" metricMagnitude="2" metricUnit="m" metricValue="2.04" pageId="30" pageNumber="31" unit="m" value="204.0">
-<quantity box="[903,975,1891,1918]" metricMagnitude="2" metricUnit="m" metricValue="2.04" pageId="30" pageNumber="31" unit="m" value="204.0">
-<elevation box="[903,975,1891,1918]" metricMagnitude="2" metricUnit="m" metricValue="2.04" pageId="30" pageNumber="31" unit="m" value="204.0">
-<specimenCount box="[903,975,1891,1918]" pageId="30" pageNumber="31" type="male">204 m</specimenCount>
-</elevation>
-</quantity>
+<quantity box="[903,975,1891,1918]" metricMagnitude="2" metricUnit="m" metricValue="2.04" pageId="30" pageNumber="31" unit="m" value="204.0">204 m</quantity>
 a.s.l.
 </elevation>
 ; 
@@ -679,16 +670,17 @@ montagne des
 , K
 </materialsCitation>
 • 
-<materialsCitation collectingDate="2007-03-30" collectionCode="BR, CNARP, MO, TAN" collectorName="Andrafiabe &amp; Ambolobozokely &amp; Anosy &amp; d'Ambolobozokely &amp; Rakotondrafara" country="Madagascar" elevation="22" lastPageId="31" lastPageNumber="32" pageId="30" pageNumber="31" specimenCount="1">
-<collectorName box="[1258,1394,1962,1988]" pageId="30" pageNumber="31">Andrafiabe</collectorName>
+<materialsCitation collectingDate="2007-03-30" collectionCode="BR, CNARP, MO, TAN" collectorName="Rakotondrafara" country="Madagascar" elevation="22" lastPageId="31" lastPageNumber="32" location="Andrafiabe" pageId="30" pageNumber="31" specimenCount="1">
+<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFD9971D58E81AADFAF06FAB" box="[1258,1394,1962,1988]" country="Madagascar" name="Andrafiabe" pageId="30" pageNumber="31">Andrafiabe</location>
 , 
-<collectorName box="[189,400,1998,2024]" pageId="30" pageNumber="31">Ambolobozokely</collectorName>
+<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFD9971D5CBF1AC9FE126F87" box="[189,400,1998,2024]" country="Madagascar" name="Ambolobozokely" pageId="30" pageNumber="31">Ambolobozokely</location>
 , 
-<collectorName box="[415,495,1999,2025]" pageId="30" pageNumber="31">Anosy</collectorName>
+<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFD9971D5D9D1AC8FE6D6F86" box="[415,495,1999,2025]" country="Madagascar" name="Anosy" pageId="30" pageNumber="31">Anosy</location>
 , 
+<locationDeviation box="[511,1012,1998,2025]" pageId="30" pageNumber="31">
 <quantity box="[511,575,1998,2024]" metricMagnitude="3" metricUnit="m" metricValue="4.0" pageId="30" pageNumber="31" unit="km" value="4.0">4 km</quantity>
-NE du village 
-<collectorName box="[773,1012,1998,2024]" pageId="30" pageNumber="31">d’Ambolobozokely</collectorName>
+NE du village d’Ambolobozokely
+</locationDeviation>
 ; 
 <elevation box="[1028,1163,1998,2025]" metricMagnitude="1" metricUnit="m" metricValue="2.2" pageId="30" pageNumber="31" unit="m" value="22.0">
 <quantity box="[1028,1093,1998,2025]" metricMagnitude="1" metricUnit="m" metricValue="2.2" pageId="30" pageNumber="31" unit="m" value="22.0">22 m</quantity>
@@ -784,15 +776,14 @@ a.s.l.
 <collectionCode box="[245,292,407,433]" country="USA" lsid="urn:lsid:biocol.org:col:15859" name="Missouri Botanical Garden" pageId="31" pageNumber="32" type="Herbarium">MO</collectionCode>
 n.v., P online, 
 <collectionCode box="[465,523,407,433]" country="Madagascar" lsid="urn:lsid:biocol.org:col:13842" name="Parc de Tsimbazaza" pageId="31" pageNumber="32" type="Herbarium">TAN</collectionCode>
-n.v. – 
+n.v. –
+</materialsCitation>
+<materialsCitation collectingDate="2005-02-15" collectionCode="CNARP, MO, TAN" collectorName="Sadjoavato &amp; Saharenana &amp; Schatz &amp; Ratovoson &amp; Guittou" country="Madagascar" elevation="210" location="District" municipality="Sahafary" pageId="31" pageNumber="32" specimenCount="1">
 <emphasis bold="true" box="[600,811,406,432]" pageId="31" pageNumber="32">
 Nossi-Be 
 <location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFD8971C5ECF1C91FCA969DF" box="[717,811,406,432]" country="Madagascar" municipality="Sahafary" name="District" pageId="31" pageNumber="32">District</location>
 </emphasis>
-</materialsCitation>
-• 
-<materialsCitation collectingDate="1851-02" collectorName="Boivin" country="Madagascar" location="entre Amponbilava et Djabul" pageId="31" pageNumber="32" specimenCount="1">
-Nossi-Be, bords de la mer 
+• Nossi-Be, bords de la mer 
 <location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFD8971C58791C90FE9369BB" country="Madagascar" name="entre Amponbilava et Djabul" pageId="31" pageNumber="32">entre Amponbilava et Djabul</location>
 ; 
 <date box="[285,407,442,469]" pageId="31" pageNumber="32" value="1851-02">
@@ -806,7 +797,7 @@ s.n.
 ; P
 </materialsCitation>
 • 
-<materialsCitation collectingDate="1879-12" collectorName="Hildebrandt" country="Madagascar" county="Nossi-Komba" location="Vohemar District" municipality="Sava Region" pageId="31" pageNumber="32" specimenCount="1">
+<materialsCitation box="[640,1399,442,468]" collectingDate="1879-12" collectorName="Hildebrandt" country="Madagascar" county="Nossi-Komba" location="Vohemar District" municipality="Sava Region" pageId="31" pageNumber="32" specimenCount="1">
 <collectingCounty box="[640,807,442,468]" pageId="31" pageNumber="32">Nossi-Komba</collectingCounty>
 ; 
 <date box="[819,945,442,468]" pageId="31" pageNumber="32" value="1879-12">
@@ -816,15 +807,15 @@ s.n.
 <emphasis box="[991,1134,442,468]" italics="true" pageId="31" pageNumber="32">
 <collectorName box="[991,1134,442,468]" pageId="31" pageNumber="32">Hildebrandt</collectorName>
 </emphasis>
-3227; BM, G, K, P. – 
+3227; BM, G, K, P. –
+</materialsCitation>
+<materialsCitation box="[189,1047,477,504]" collectingDate="1879-12" collectorName="Hildebrandt" country="Madagascar" county="Nossi-Komba" location="Vohemar District" municipality="Sava Region" pageId="31" pageNumber="32" specimenCount="1">
 <emphasis bold="true" box="[189,572,477,503]" pageId="31" pageNumber="32">
 <collectingMunicipality box="[189,346,477,503]" pageId="31" pageNumber="32">Sava Region</collectingMunicipality>
 , 
 <location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFD8971C5D671CDAFDBE6998" box="[357,572,477,503]" country="Madagascar" county="Nossi-Komba" municipality="Sava Region" name="Vohemar District" pageId="31" pageNumber="32">Vohemar District</location>
 </emphasis>
-</materialsCitation>
 • 
-<materialsCitation box="[595,1047,477,504]" country="Madagascar" location="Port Leven" pageId="31" pageNumber="32" specimenCount="1">
 <location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFD8971C5E511CD9FD556997" box="[595,727,478,504]" country="Madagascar" name="Port Leven" pageId="31" pageNumber="32">Port Leven</location>
 ; 1849; fl, fr; 
 <emphasis box="[875,1017,477,503]" italics="true" pageId="31" pageNumber="32">Boivin 2430</emphasis>
@@ -939,18 +930,19 @@ vestige forestier
 <collectionCode box="[1328,1380,655,681]" country="Madagascar" httpUri="http://biocol.org/urn:lsid:biocol.org:col:12774" lsid="urn:lsid:biocol.org:col:12774" name="Centre National de la Recherche Appliquée au Developement Rural" pageId="31" pageNumber="32" type="Herbarium">TEF</collectionCode>
 </materialsCitation>
 • 
-<materialsCitation collectingDate="2004-02-22" collectionCode="BR" collectorName="Daraina &amp; d'Ankaramy &amp; Nusbaumer &amp; Ranirison" country="Madagascar" elevation="910" pageId="31" pageNumber="32" specimenCount="1">
-commune 
-<collectorName box="[311,407,689,715]" pageId="31" pageNumber="32">Daraina</collectorName>
+<materialsCitation collectingDate="2004-02-22" collectionCode="BR" collectorName="Nusbaumer &amp; Ranirison" country="Madagascar" elevation="200" location="commune Daraina" pageId="31" pageNumber="32" specimenCount="1">
+<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFD8971C5CBF1FB5FE156AA4" box="[189,407,689,716]" country="Madagascar" name="commune Daraina" pageId="31" pageNumber="32">commune Daraina</location>
 , 
-<collectorName box="[417,513,689,715]" pageId="31" pageNumber="32">Daraina</collectorName>
-, forêt 
-<collectorName box="[585,734,689,715]" pageId="31" pageNumber="32">d’Ankaramy</collectorName>
-, à 
-<quantity box="[765,838,690,716]" metricMagnitude="2" metricUnit="m" metricValue="9.1" pageId="31" pageNumber="32" unit="m" value="910.0">
-<elevation box="[765,838,690,716]" metricMagnitude="2" metricUnit="m" metricValue="9.1" pageId="31" pageNumber="32" unit="m" value="910.0">910 m</elevation>
-</quantity>
-du point côté 361, au 203°; 
+<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFD8971C5DA31FB6FD836AA4" box="[417,513,689,715]" country="Madagascar" name="Daraina" pageId="31" pageNumber="32">Daraina</location>
+, 
+<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFD8971C5E0E1FB6FD5C6AA4" box="[524,734,689,715]" country="Madagascar" name="foret d'Ankaramy" pageId="31" pageNumber="32">forêt d’Ankaramy</location>
+, 
+<locationDeviation box="[745,1152,689,716]" pageId="31" pageNumber="32">
+à 
+<quantity box="[765,838,690,716]" metricMagnitude="2" metricUnit="m" metricValue="9.1" pageId="31" pageNumber="32" unit="m" value="910.0">910 m</quantity>
+du point côté 361, au 203°
+</locationDeviation>
+; 
 <elevation box="[1163,1299,689,716]" metricMagnitude="2" metricUnit="m" metricValue="2.0" pageId="31" pageNumber="32" unit="m" value="200.0">
 <quantity box="[1163,1236,690,716]" metricMagnitude="2" metricUnit="m" metricValue="2.0" pageId="31" pageNumber="32" unit="m" value="200.0">200 m</quantity>
 a.s.l.
@@ -1021,10 +1013,10 @@ commune
 , P
 </materialsCitation>
 • 
-<materialsCitation collectingDate="2013-02-21" collectionCode="BR, MO, TAN" collectorName="Maromikotro-Iloky &amp; Daraina &amp; Rakotonasolo &amp; Randriamboavonjy &amp; Letsara &amp; Bone &amp; Andriantiana" country="Madagascar" pageId="31" pageNumber="32" specimenCount="1">
-<collectorName box="[557,792,831,857]" pageId="31" pageNumber="32">Maromikotro-Iloky</collectorName>
-, road to 
-<collectorName box="[901,1000,831,857]" pageId="31" pageNumber="32">Daraina</collectorName>
+<materialsCitation collectingDate="2013-02-21" collectionCode="BR, MO, TAN" collectorName="Rakotonasolo &amp; Randriamboavonjy &amp; Letsara &amp; Bone &amp; Andriantiana" country="Madagascar" location="Maromikotro-Iloky" pageId="31" pageNumber="32" specimenCount="1">
+<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFD8971C5E2F1E38FC9A6B36" box="[557,792,831,857]" country="Madagascar" name="Maromikotro-Iloky" pageId="31" pageNumber="32">Maromikotro-Iloky</location>
+, 
+<locationDeviation box="[805,1000,831,858]" pageId="31" pageNumber="32">road to Daraina</locationDeviation>
 ; 
 <date box="[1013,1178,831,857]" pageId="31" pageNumber="32" value="2013-02-21">
 <collectingDate box="[1013,1178,831,857]" pageId="31" pageNumber="32" value="2013-02-21">21 Feb. 2013</collectingDate>
@@ -1050,18 +1042,21 @@ commune
 <collectionCode box="[1081,1140,867,893]" country="Madagascar" lsid="urn:lsid:biocol.org:col:13842" name="Parc de Tsimbazaza" pageId="31" pageNumber="32" type="Herbarium">TAN</collectionCode>
 </materialsCitation>
 • 
-<materialsCitation collectingDate="2004-02-10" collectionCode="BR" collectorName="Daraina &amp; Bekaroaka &amp; Ranirison &amp; Nusbaumer" country="Madagascar" elevation="420" pageId="31" pageNumber="32" specimenCount="1">
-commune 
-<collectorName box="[1296,1394,866,892]" pageId="31" pageNumber="32">Daraina</collectorName>
+<materialsCitation collectingDate="2004-02-10" collectionCode="BR" collectorName="Ranirison &amp; Nusbaumer" country="Madagascar" elevation="180" location="Daraina" municipality="commune Daraina" pageId="31" pageNumber="32" specimenCount="1">
+<collectingMunicipality box="[1169,1394,866,893]" pageId="31" pageNumber="32">commune Daraina</collectingMunicipality>
 , 
-<collectorName box="[189,285,902,928]" pageId="31" pageNumber="32">Daraina</collectorName>
-, forêt de 
-<collectorName box="[394,523,902,928]" pageId="31" pageNumber="32">Bekaroaka</collectorName>
-, partie nord, à 
-<quantity box="[696,770,902,928]" metricMagnitude="2" metricUnit="m" metricValue="4.2" pageId="31" pageNumber="32" unit="m" value="420.0">
-<elevation box="[696,770,902,928]" metricMagnitude="2" metricUnit="m" metricValue="4.2" pageId="31" pageNumber="32" unit="m" value="420.0">420 m</elevation>
-</quantity>
-du point côté 96, au 133°; 
+<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFD8971C5CBF1E81FE9F6BCF" box="[189,285,902,928]" country="Madagascar" municipality="commune Daraina" name="Daraina" pageId="31" pageNumber="32">Daraina</location>
+, 
+<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFD8971C5D2A1E81FD896BCF" box="[296,523,902,928]" country="Madagascar" municipality="commune Daraina" name="foret de Bekaroaka" pageId="31" pageNumber="32">forêt de Bekaroaka</location>
+, 
+<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFD8971C5E141E81FD1A6BCF" box="[534,664,902,928]" country="Madagascar" municipality="commune Daraina" name="partie nord" pageId="31" pageNumber="32">partie nord</location>
+, 
+<locationDeviation box="[676,1073,902,928]" pageId="31" pageNumber="32">
+à 
+<quantity box="[696,770,902,928]" metricMagnitude="2" metricUnit="m" metricValue="4.2" pageId="31" pageNumber="32" unit="m" value="420.0">420 m</quantity>
+du point côté 96, au 133°
+</locationDeviation>
+; 
 <elevation box="[1086,1224,902,928]" metricMagnitude="2" metricUnit="m" metricValue="1.8" pageId="31" pageNumber="32" unit="m" value="180.0">
 <quantity box="[1086,1160,902,928]" metricMagnitude="2" metricUnit="m" metricValue="1.8" pageId="31" pageNumber="32" unit="m" value="180.0">180 m</quantity>
 a.s.l.
@@ -1082,18 +1077,19 @@ a.s.l.
 , G n.v
 </materialsCitation>
 . • 
-<materialsCitation collectingDate="2004-02-27" collectionCode="BR" collectorName="Daraina &amp; d'Ankaramy &amp; Ranirison &amp; Nusbaumer" country="Madagascar" elevation="1160" pageId="31" pageNumber="32" specimenCount="1">
-commune 
-<collectorName box="[850,946,937,963]" pageId="31" pageNumber="32">Daraina</collectorName>
+<materialsCitation collectingDate="2004-02-27" collectionCode="BR" collectorName="Ranirison &amp; Nusbaumer" country="Madagascar" elevation="1160" location="commune Daraina" pageId="31" pageNumber="32" specimenCount="1">
+<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFD8971C5ED51EADFC306BAC" box="[727,946,937,964]" country="Madagascar" name="commune Daraina" pageId="31" pageNumber="32">commune Daraina</location>
 , 
-<collectorName box="[958,1054,937,963]" pageId="31" pageNumber="32">Daraina</collectorName>
-, forêt 
-<collectorName box="[1129,1278,937,963]" pageId="31" pageNumber="32">d’Ankaramy</collectorName>
-, à 
-<quantity box="[1310,1399,937,964]" metricMagnitude="3" metricUnit="m" metricValue="1.16" pageId="31" pageNumber="32" unit="m" value="1160.0">
-<elevation box="[1310,1399,937,964]" metricMagnitude="3" metricUnit="m" metricValue="1.16" pageId="31" pageNumber="32" unit="m" value="1160.0">1160 m</elevation>
-</quantity>
-du point côté 361, au 171°; 
+<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFD8971C5FBC1EAEFB9C6BAC" box="[958,1054,937,963]" country="Madagascar" name="Daraina" pageId="31" pageNumber="32">Daraina</location>
+, 
+<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFD8971C58281EAEFB7C6BAC" box="[1066,1278,937,963]" country="Madagascar" name="foret d'Ankaramy" pageId="31" pageNumber="32">forêt d’Ankaramy</location>
+, 
+<locationDeviation pageId="31" pageNumber="32">
+à 
+<quantity box="[1310,1399,937,964]" metricMagnitude="3" metricUnit="m" metricValue="1.16" pageId="31" pageNumber="32" unit="m" value="1160.0">1160 m</quantity>
+du point côté 361, au 171°
+</locationDeviation>
+; 
 <date box="[501,654,972,999]" pageId="31" pageNumber="32" value="2004-02-27">
 <collectingDate box="[501,654,972,999]" pageId="31" pageNumber="32" value="2004-02-27">27 Feb. 2004</collectingDate>
 </date>
@@ -1109,18 +1105,19 @@ du point côté 361, au 171°;
 , G n.v
 </materialsCitation>
 . • 
-<materialsCitation collectingDate="2004-04-18" collectionCode="BR" collectorName="Daraina &amp; d'Antsaharaingy &amp; Ranirison" country="Madagascar" elevation="1080" pageId="31" pageNumber="32" specimenCount="1">
-commune 
-<collectorName box="[1300,1395,972,998]" pageId="31" pageNumber="32">Daraina</collectorName>
+<materialsCitation collectingDate="2004-04-18" collectionCode="BR" collectorName="Ranirison" country="Madagascar" elevation="42" location="commune Daraina" pageId="31" pageNumber="32" specimenCount="1">
+<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFD8971C589E1ECAFAF16B89" box="[1180,1395,972,999]" country="Madagascar" name="commune Daraina" pageId="31" pageNumber="32">commune Daraina</location>
 , 
-<collectorName box="[189,283,1008,1034]" pageId="31" pageNumber="32">Daraina</collectorName>
-, forêt 
-<collectorName box="[353,546,1008,1034]" pageId="31" pageNumber="32">d’Antsaharaingy</collectorName>
-, à 
-<quantity box="[575,661,1008,1034]" metricMagnitude="3" metricUnit="m" metricValue="1.08" pageId="31" pageNumber="32" unit="m" value="1080.0">
-<elevation box="[575,661,1008,1034]" metricMagnitude="3" metricUnit="m" metricValue="1.08" pageId="31" pageNumber="32" unit="m" value="1080.0">1080 m</elevation>
-</quantity>
-du point côté 41, au 303°; 
+<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFD8971C5CBF1EF7FE996C65" box="[189,283,1008,1034]" country="Madagascar" name="Daraina" pageId="31" pageNumber="32">Daraina</location>
+, 
+<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFD8971C5D271EF7FDA06C65" box="[293,546,1008,1034]" country="Madagascar" name="foret d'Antsaharaingy" pageId="31" pageNumber="32">forêt d’Antsaharaingy</location>
+, 
+<locationDeviation box="[556,952,1008,1034]" pageId="31" pageNumber="32">
+à 
+<quantity box="[575,661,1008,1034]" metricMagnitude="3" metricUnit="m" metricValue="1.08" pageId="31" pageNumber="32" unit="m" value="1080.0">1080 m</quantity>
+du point côté 41, au 303°
+</locationDeviation>
+; 
 <elevation box="[962,1080,1008,1034]" metricMagnitude="1" metricUnit="m" metricValue="4.2" pageId="31" pageNumber="32" unit="m" value="42.0">
 <quantity box="[962,1019,1008,1034]" metricMagnitude="1" metricUnit="m" metricValue="4.2" pageId="31" pageNumber="32" unit="m" value="42.0">42 m</quantity>
 a.s.l.
@@ -1139,15 +1136,10 @@ a.s.l.
 , G n.v
 </materialsCitation>
 . • 
-<materialsCitation collectingDate="2003-07-12" collectionCode="MO" collectorName="Nosibe &amp; d'Analabe &amp; d'Anaborano &amp; Sahaka &amp; Razakamalala &amp; Rabevehitra &amp; Rakotomamonjy" country="Madagascar" elevation="21" pageId="31" pageNumber="32" specimenCount="1">
-commune 
-<collectorName box="[536,624,1043,1069]" pageId="31" pageNumber="32">Nosibe</collectorName>
-, forêt littorale 
-<collectorName box="[806,930,1043,1069]" pageId="31" pageNumber="32">d’Analabe</collectorName>
-près du village 
-<collectorName box="[1128,1286,1043,1069]" pageId="31" pageNumber="32">d’Anaborano</collectorName>
-et du lac 
-<collectorName box="[189,278,1078,1104]" pageId="31" pageNumber="32">Sahaka</collectorName>
+<materialsCitation collectingDate="2003-07-12" collectionCode="MO" collectorName="Razakamalala &amp; Rabevehitra &amp; Rakotomamonjy" country="Madagascar" elevation="21" location="commune Nosibe" pageId="31" pageNumber="32" specimenCount="1">
+<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFD8971C5D981913FDF26C42" box="[410,624,1043,1070]" country="Madagascar" name="commune Nosibe" pageId="31" pageNumber="32">commune Nosibe</location>
+, 
+<locationDeviation pageId="31" pageNumber="32">forêt littorale d’Analabe près du village d’Anaborano et du lac Sahaka</locationDeviation>
 ; 
 <elevation box="[292,419,1078,1105]" metricMagnitude="1" metricUnit="m" metricValue="2.1" pageId="31" pageNumber="32" unit="m" value="21.0">
 <quantity box="[292,353,1079,1105]" metricMagnitude="1" metricUnit="m" metricValue="2.1" pageId="31" pageNumber="32" unit="m" value="21.0">21 m</quantity>
@@ -1171,13 +1163,13 @@ a.s.l.
 n.v., P online
 </materialsCitation>
 • 
-<materialsCitation collectingDate="2004-03-13" collectionCode="BR, MO" collectorName="Tsarabaria &amp; Manakana &amp; d'Ambondrobe &amp; Razakamalala &amp; Rabevohitra &amp; Faralahy" country="Madagascar" pageId="31" pageNumber="32" specimenCount="1">
+<materialsCitation collectingDate="2004-03-13" collectionCode="BR, MO" collectorName="Razakamalala &amp; Rabevohitra &amp; Faralahy" country="Madagascar" location="Tsarabaria" pageId="31" pageNumber="32" specimenCount="1">
 fir. 
-<collectorName box="[328,453,1114,1140]" pageId="31" pageNumber="32">Tsarabaria</collectorName>
+<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFD8971C5D4A195DFE476C1B" box="[328,453,1114,1140]" country="Madagascar" name="Tsarabaria" pageId="31" pageNumber="32">Tsarabaria</location>
 , fkt. 
-<collectorName box="[513,638,1114,1140]" pageId="31" pageNumber="32">Manakana</collectorName>
-, forêt sublittorale E du village 
-<collectorName box="[1004,1187,1114,1140]" pageId="31" pageNumber="32">d’Ambondrobe</collectorName>
+<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFD8971C5E03195DFDFC6C1B" box="[513,638,1114,1140]" country="Madagascar" name="Manakana" pageId="31" pageNumber="32">Manakana</location>
+, 
+<locationDeviation box="[650,1187,1114,1140]" pageId="31" pageNumber="32">forêt sublittorale E du village d’Ambondrobe</locationDeviation>
 ; 
 <date box="[1199,1361,1114,1140]" pageId="31" pageNumber="32" value="2004-03-13">
 <collectingDate box="[1199,1361,1114,1140]" pageId="31" pageNumber="32" value="2004-03-13">13 Mar. 2004</collectingDate>
@@ -1235,9 +1227,13 @@ n.v., P online
 ; P
 </materialsCitation>
 • 
-<materialsCitation pageId="31" pageNumber="32">
-aux environs de Vohemar; s.dat.; fr; 
-<emphasis box="[1229,1358,1220,1246]" italics="true" pageId="31" pageNumber="32">Richard 83</emphasis>
+<materialsCitation collectorName="Richard" location="aux environs de Vohemar" pageId="31" pageNumber="32" specimenCount="1">
+<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFD8971C5F2519C2FBD16CB1" box="[807,1107,1220,1247]" name="aux environs de Vohemar" pageId="31" pageNumber="32">aux environs de Vohemar</location>
+; s.dat.; fr; 
+<emphasis box="[1229,1358,1220,1246]" italics="true" pageId="31" pageNumber="32">
+<collectorName box="[1229,1322,1220,1246]" pageId="31" pageNumber="32">Richard</collectorName>
+83
+</emphasis>
 ; L, P
 </materialsCitation>
 • 
@@ -1248,11 +1244,13 @@ aux environs de Vohemar; s.dat.; fr;
 ; P
 </materialsCitation>
 • 
-<materialsCitation country="Madagascar" county="Port Leven" location="Ambatondrazaka District" municipality="Alaotra-Mangoro Region" pageId="31" pageNumber="32" specimenCount="1" stateProvince="Toamasina">
+<materialsCitation box="[665,1129,1255,1282]" country="Madagascar" county="Port Leven" location="Ambatondrazaka District" municipality="Alaotra-Mangoro Region" pageId="31" pageNumber="32" specimenCount="1" stateProvince="Toamasina">
 <collectingCounty box="[665,799,1256,1282]" pageId="31" pageNumber="32">Port Leven</collectingCounty>
 ; 1850; fl, fr; 
 <emphasis box="[954,1069,1256,1281]" italics="true" pageId="31" pageNumber="32">Vesco s.n.</emphasis>
-; P. – 
+; P. –
+</materialsCitation>
+<materialsCitation country="Madagascar" county="Port Leven" location="Ambatondrazaka District" municipality="Alaotra-Mangoro Region" pageId="31" pageNumber="32" specimenCount="1" stateProvince="Toamasina">
 <emphasis bold="true" pageId="31" pageNumber="32">
 <collectingRegion box="[1137,1393,1255,1281]" country="Madagascar" name="Toamasina" pageId="31" pageNumber="32">Toamasina Province</collectingRegion>
 , 
@@ -1260,10 +1258,7 @@ aux environs de Vohemar; s.dat.; fr;
 , 
 <location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFD8971C5E13180CFCD86D4A" box="[529,858,1291,1317]" country="Madagascar" county="Port Leven" municipality="Alaotra-Mangoro Region" name="Ambatondrazaka District" pageId="31" pageNumber="32" stateProvince="Toamasina">Ambatondrazaka District</location>
 </emphasis>
-</materialsCitation>
-• 
-<materialsCitation pageId="31" pageNumber="32">
-lac Alaotra; s.dat.; fr; 
+• lac Alaotra; s.dat.; fr; 
 <emphasis box="[1154,1285,1291,1317]" italics="true" pageId="31" pageNumber="32">coll. ignot.</emphasis>
 (
 <emphasis italics="true" pageId="31" pageNumber="32">Herbier Jardin botanique de Tananarive</emphasis>
@@ -1274,29 +1269,38 @@ lac Alaotra; s.dat.; fr;
 ); P
 </materialsCitation>
 • 
-<materialsCitation pageId="31" pageNumber="32">
-lac Alaotra; s.dat.; fl; 
+<materialsCitation location="Alaotra" municipality="Alaotra" pageId="31" pageNumber="32" specimenCode="3878 (ANK-206), 3923 (MEN-6)" specimenCount="1">
+lac 
+<collectingMunicipality box="[865,957,1326,1352]" pageId="31" pageNumber="32">Alaotra</collectingMunicipality>
+; s.dat.; fl; 
 <emphasis box="[1079,1205,1326,1352]" italics="true" pageId="31" pageNumber="32">coll. ignot.</emphasis>
 (
 <emphasis italics="true" pageId="31" pageNumber="32">Herbier Jardin botanique de Tananarive</emphasis>
 ) 
+<specimenCode box="[488,680,1361,1388]" pageId="31" pageNumber="32">
 <emphasis box="[488,546,1362,1388]" italics="true" pageId="31" pageNumber="32">3878</emphasis>
 (
 <emphasis box="[560,670,1361,1387]" italics="true" pageId="31" pageNumber="32">ANK-206</emphasis>
-); P • lac Alaotra; s.dat.; fl; 
+)
+</specimenCode>
+; P • lac 
+<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFD8971C5EFC1856FCDA6D04" box="[766,856,1361,1387]" municipality="Alaotra" name="Alaotra" pageId="31" pageNumber="32">Alaotra</location>
+; s.dat.; fl; 
 <emphasis box="[970,1092,1361,1387]" italics="true" pageId="31" pageNumber="32">coll. ignot.</emphasis>
 (
 <emphasis italics="true" pageId="31" pageNumber="32">Herbier Jardin botanique de Tananarive</emphasis>
 ) 
+<specimenCode box="[376,552,1397,1423]" pageId="31" pageNumber="32">
 <emphasis box="[376,435,1397,1423]" italics="true" pageId="31" pageNumber="32">3923</emphasis>
 (
 <emphasis box="[453,540,1397,1423]" italics="true" pageId="31" pageNumber="32">MEN-6</emphasis>
-); P
+)
+</specimenCode>
+; P
 </materialsCitation>
 • 
-<materialsCitation collectingDate="1944-12-27" collectionCode="BR" collectorName="d'Analamihilana &amp; Cours" country="Madagascar" elevation="850" pageId="31" pageNumber="32" specimenCount="1">
-forêt 
-<collectorName box="[673,874,1397,1423]" pageId="31" pageNumber="32">d’Analamihilana</collectorName>
+<materialsCitation collectingDate="1944-12-27" collectionCode="BR" collectorName="Cours" country="Madagascar" elevation="850" location="foret d'Analamihilana" pageId="31" pageNumber="32" specimenCount="1">
+<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFD8971C5E631872FCE86DE0" box="[609,874,1397,1423]" country="Madagascar" name="foret d'Analamihilana" pageId="31" pageNumber="32">forêt d’Analamihilana</location>
 ; 
 <elevation box="[886,1027,1397,1424]" metricMagnitude="2" metricUnit="m" metricValue="8.5" pageId="31" pageNumber="32" unit="m" value="850.0">
 <quantity box="[886,962,1397,1424]" metricMagnitude="2" metricUnit="m" metricValue="8.5" pageId="31" pageNumber="32" unit="m" value="850.0">850 m</quantity>
@@ -1316,7 +1320,7 @@ a.s.l.
 , P
 </materialsCitation>
 • 
-<materialsCitation box="[297,1376,1432,1459]" collectingDate="1957-06" collectionCode="TAN" collectorName="Peltier J." country="Madagascar" location="Andilamena District" municipality="Antandrokomby" pageId="31" pageNumber="32" specimenCount="1">
+<materialsCitation box="[297,1097,1432,1459]" collectingDate="1957-06" collectionCode="TAN" collectorName="Peltier J." country="Madagascar" location="Andilamena District" municipality="Antandrokomby" pageId="31" pageNumber="32" specimenCount="1">
 <collectingMunicipality box="[297,500,1432,1458]" pageId="31" pageNumber="32">Antandrokomby</collectingMunicipality>
 ; 
 <date box="[517,642,1432,1459]" pageId="31" pageNumber="32" value="1957-06">
@@ -1329,14 +1333,13 @@ a.s.l.
 </emphasis>
 ; P, 
 <collectionCode box="[1003,1067,1433,1459]" country="Madagascar" lsid="urn:lsid:biocol.org:col:13842" name="Parc de Tsimbazaza" pageId="31" pageNumber="32" type="Herbarium">TAN</collectionCode>
-. – 
+. –
+</materialsCitation>
+<materialsCitation collectingDate="1957-06" collectionCode="TAN" collectorName="Peltier J." country="Madagascar" elevation="1006" location="Andilamena District" municipality="Antandrokomby" pageId="31" pageNumber="32" specimenCount="1">
 <emphasis bold="true" box="[1107,1376,1432,1458]" pageId="31" pageNumber="32">
 <location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFD8971C5851189FFAE26DDD" box="[1107,1376,1432,1458]" country="Madagascar" municipality="Antandrokomby" name="Andilamena District" pageId="31" pageNumber="32">Andilamena District</location>
 </emphasis>
-</materialsCitation>
-• 
-<materialsCitation collectingDate="2001-12-08" collectionCode="MO" collectorName="Ampamoho &amp; d'Analalava &amp; Randrianaivo &amp; Ratodimana &amp; Razafindrabeaza &amp; Razanatsoa &amp; Rakotozanahary &amp; Rabeabimanana &amp; Tolozafy" country="Madagascar" elevation="1006" location="Moramanga District" pageId="31" pageNumber="32" specimenCount="1">
-fkt. 
+• fkt. 
 <collectorName box="[233,375,1468,1494]" pageId="31" pageNumber="32">Ampamoho</collectorName>
 , forêt 
 <collectorName box="[446,592,1468,1494]" pageId="31" pageNumber="32">d’Analalava</collectorName>
@@ -1373,14 +1376,13 @@ a.s.l.
 </emphasis>
 ; K, 
 <collectionCode box="[1344,1394,1503,1529]" country="USA" lsid="urn:lsid:biocol.org:col:15859" name="Missouri Botanical Garden" pageId="31" pageNumber="32" type="Herbarium">MO</collectionCode>
-, P.– 
+, P.–
+</materialsCitation>
+<materialsCitation collectingDate="1957-06" collectionCode="TAN" collectorName="Peltier J." country="Madagascar" county="Mangoro river" elevation="1006" location="Andilamena District" municipality="Antandrokomby" pageId="31" pageNumber="32" specimenCount="1" stateProvince="Mahajanga">
 <emphasis bold="true" box="[235,489,1538,1565]" pageId="31" pageNumber="32">
 <location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFD8971C5CE91B04FE6B6E73" box="[235,489,1538,1565]" country="Madagascar" name="Moramanga District" pageId="31" pageNumber="32">Moramanga District</location>
 </emphasis>
-</materialsCitation>
-• 
-<materialsCitation collectingDate="2001-01-13" collectionCode="BR" collectorName="Rakotonasolo" country="Madagascar" county="Mangoro river" elevation="920" location="Maevatanana District" municipality="Betsiboka Region" pageId="31" pageNumber="32" specimenCount="1" stateProvince="Mahajanga">
-on the left of 
+• on the left of 
 <collectingCounty box="[663,834,1538,1565]" pageId="31" pageNumber="32">Mangoro river</collectingCounty>
 ; 
 <elevation box="[845,979,1538,1565]" metricMagnitude="2" metricUnit="m" metricValue="9.2" pageId="31" pageNumber="32" unit="m" value="920.0">
@@ -1398,7 +1400,9 @@ a.s.l.
 </emphasis>
 ; 
 <collectionCode box="[189,230,1574,1600]" country="Brazil" name="Embrapa Agrobiology Diazothrophic Microbial Culture Collection" pageId="31" pageNumber="32">BR</collectionCode>
-, K. – 
+, K. –
+</materialsCitation>
+<materialsCitation collectingDate="1957-06" collectionCode="TAN" collectorName="Peltier J." country="Madagascar" county="Mangoro river" elevation="1006" location="Andilamena District" municipality="Antandrokomby" pageId="31" pageNumber="32" specimenCount="1" stateProvince="Mahajanga">
 <emphasis bold="true" box="[292,1052,1574,1600]" pageId="31" pageNumber="32">
 <collectingRegion box="[292,548,1574,1600]" country="Madagascar" name="Mahajanga" pageId="31" pageNumber="32">Mahajanga Province</collectingRegion>
 , 
@@ -1406,9 +1410,7 @@ a.s.l.
 , 
 <location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFD8971C5F101B21FB9E6E2F" box="[786,1052,1574,1600]" country="Madagascar" county="Mangoro river" municipality="Betsiboka Region" name="Maevatanana District" pageId="31" pageNumber="32" stateProvince="Mahajanga">Maevatanana District</location>
 </emphasis>
-</materialsCitation>
 • 
-<materialsCitation collectingDate="1899-02" collectorName="de l'Ikopa &amp; du Betsiboka &amp; Perrier de la Bathie" country="Madagascar" location="Tsaratanana District" municipality="Ampanibe" pageId="31" pageNumber="32" specimenCount="1">
 <collectingMunicipality box="[1071,1194,1574,1600]" pageId="31" pageNumber="32">Ampanibe</collectingMunicipality>
 , près du confluent 
 <collectorName box="[189,309,1609,1635]" pageId="31" pageNumber="32">de l’Ikopa</collectorName>
@@ -1423,14 +1425,13 @@ et
 <collectorName box="[679,915,1609,1635]" pageId="31" pageNumber="32">Perrier de la Bâthie</collectorName>
 828
 </emphasis>
-; P. – 
+; P. –
+</materialsCitation>
+<materialsCitation collectingDate="1957-06" collectionCode="TAN" collectorName="Peltier J." country="Madagascar" county="Mangoro river" elevation="1006" location="Andilamena District" municipality="Antandrokomby" pageId="31" pageNumber="32" specimenCount="1" stateProvince="Mahajanga">
 <emphasis bold="true" box="[1032,1290,1609,1635]" pageId="31" pageNumber="32">
 <location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFD8971C580A1B4EFA886E0C" box="[1032,1290,1609,1635]" country="Madagascar" municipality="Ampanibe" name="Tsaratanana District" pageId="31" pageNumber="32">Tsaratanana District</location>
 </emphasis>
-</materialsCitation>
-• 
-<materialsCitation collectingDate="1958-04-28" collectionCode="BR, TEF" collectorName="Antaminbaribe &amp; d'Ampasindava &amp; Ampasindava &amp; Razafinarivo" country="Madagascar" location="Ambato-Boeni District" municipality="Boeny Region" pageId="31" pageNumber="32" specimenCount="1">
-bord N du sentier vers 
+• bord N du sentier vers 
 <collectorName box="[362,541,1644,1670]" pageId="31" pageNumber="32">Antaminbaribe</collectorName>
 , forêt 
 <collectorName box="[613,802,1644,1670]" pageId="31" pageNumber="32">d’Ampasindava</collectorName>
@@ -1449,16 +1450,15 @@ bord N du sentier vers
 <collectionCode box="[500,541,1680,1706]" country="Brazil" name="Embrapa Agrobiology Diazothrophic Microbial Culture Collection" pageId="31" pageNumber="32">BR</collectionCode>
 , P, 
 <collectionCode box="[576,629,1680,1706]" country="Madagascar" httpUri="http://biocol.org/urn:lsid:biocol.org:col:12774" lsid="urn:lsid:biocol.org:col:12774" name="Centre National de la Recherche Appliquée au Developement Rural" pageId="31" pageNumber="32" type="Herbarium">TEF</collectionCode>
-. – 
+. –
+</materialsCitation>
+<materialsCitation collectingDate="1957-06" collectionCode="TAN" collectorName="Peltier J." country="Madagascar" county="Mangoro river" elevation="1006" location="Andilamena District" municipality="Antandrokomby" pageId="31" pageNumber="32" specimenCount="1" stateProvince="Mahajanga">
 <emphasis bold="true" box="[657,1114,1680,1706]" pageId="31" pageNumber="32">
 <collectingMunicipality box="[657,827,1680,1706]" pageId="31" pageNumber="32">Boeny Region</collectingMunicipality>
 , 
 <location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFD8971C5F441B97FBD86EC5" box="[838,1114,1680,1706]" country="Madagascar" municipality="Boeny Region" name="Ambato-Boeni District" pageId="31" pageNumber="32">Ambato-Boeni District</location>
 </emphasis>
-</materialsCitation>
-• 
-<materialsCitation collectingDate="1933-03" country="Madagascar" elevation="100" location="Bevasaka" municipality="Ankarafantsika" pageId="31" pageNumber="32" specimenCount="1">
-RNI 7, 
+• RNI 7, 
 <collectingMunicipality box="[1216,1394,1680,1706]" pageId="31" pageNumber="32">Ankarafantsika</collectingMunicipality>
 , 
 <location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFD8971C5CB91BB4FEAD6EA2" box="[187,303,1715,1741]" country="Madagascar" municipality="Ankarafantsika" name="Bevasaka" pageId="31" pageNumber="32">Bevasaka</location>
@@ -1476,19 +1476,22 @@ a.s.l.
 ; P
 </materialsCitation>
 • 
-<materialsCitation collectingDate="1957-03-08" collectionCode="TEF" collectorName="Maroaboaly &amp; Antafia &amp; Sitampiky" country="Madagascar" pageId="31" pageNumber="32" specimenCount="1">
-forêt de 
-<collectorName box="[996,1139,1715,1741]" pageId="31" pageNumber="32">Maroaboaly</collectorName>
-, village le plus proche 
-<collectorName box="[189,279,1751,1777]" pageId="31" pageNumber="32">Antafia</collectorName>
+<materialsCitation collectingDate="1957-03-08" collectionCode="TEF" collectorName="ignot." country="Madagascar" location="foret de Maroaboaly" pageId="31" pageNumber="32" specimenCount="1">
+<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFD8971C5F861BB4FBF16EA2" box="[900,1139,1715,1741]" country="Madagascar" name="foret de Maroaboaly" pageId="31" pageNumber="32">forêt de Maroaboaly</location>
+, 
+<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFD8971C587C1BB4FE956E9E" country="Madagascar" name="village le plus proche Antafia" pageId="31" pageNumber="32">village le plus proche Antafia</location>
 , fir. 
-<collectorName box="[327,451,1751,1777]" pageId="31" pageNumber="32">Sitampiky</collectorName>
+<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFD8971C5D451BD0FE416E9E" box="[327,451,1751,1777]" country="Madagascar" name="Sitampiky" pageId="31" pageNumber="32">Sitampiky</location>
 ; 
 <date box="[461,605,1750,1777]" pageId="31" pageNumber="32" value="1957-03-08">
 <collectingDate box="[461,605,1750,1777]" pageId="31" pageNumber="32" value="1957-03-08">8 Mar. 1957</collectingDate>
 </date>
 ; fr; 
-<emphasis box="[650,897,1751,1777]" italics="true" pageId="31" pageNumber="32">coll. ignot. 17762-SF</emphasis>
+<emphasis box="[650,897,1751,1777]" italics="true" pageId="31" pageNumber="32">
+coll. 
+<collectorName box="[707,775,1751,1776]" pageId="31" pageNumber="32">ignot.</collectorName>
+17762-SF
+</emphasis>
 ; P, 
 <collectionCode box="[937,989,1751,1777]" country="Madagascar" httpUri="http://biocol.org/urn:lsid:biocol.org:col:12774" lsid="urn:lsid:biocol.org:col:12774" name="Centre National de la Recherche Appliquée au Developement Rural" pageId="31" pageNumber="32" type="Herbarium">TEF</collectionCode>
 </materialsCitation>
@@ -1536,7 +1539,7 @@ forêt
 <collectionCode box="[1346,1398,1822,1848]" country="Madagascar" httpUri="http://biocol.org/urn:lsid:biocol.org:col:12774" lsid="urn:lsid:biocol.org:col:12774" name="Centre National de la Recherche Appliquée au Developement Rural" pageId="31" pageNumber="32" type="Herbarium">TEF</collectionCode>
 </materialsCitation>
 • 
-<materialsCitation collectingDate="1951-09-28" collectionCode="BR, TEF" collectorName="Ankarafantsika &amp; Tsaramandroso &amp; Tsilizy &amp; I District" country="Madagascar" location="Mahajanga" pageId="31" pageNumber="32" specimenCount="1" stateProvince="Mahajanga">
+<materialsCitation box="[207,1248,1857,1884]" collectingDate="1951-09-28" collectionCode="BR, TEF" collectorName="Ankarafantsika &amp; Tsaramandroso &amp; Tsilizy &amp; I District" country="Madagascar" location="Mahajanga" pageId="31" pageNumber="32" specimenCount="1" stateProvince="Mahajanga">
 RNI 7, 
 <collectorName box="[292,474,1857,1883]" pageId="31" pageNumber="32">Ankarafantsika</collectorName>
 , 
@@ -1554,15 +1557,14 @@ RNI 7,
 <collectionCode box="[1087,1129,1857,1883]" country="Brazil" name="Embrapa Agrobiology Diazothrophic Microbial Culture Collection" pageId="31" pageNumber="32">BR</collectionCode>
 , P, 
 <collectionCode box="[1168,1222,1857,1883]" country="Madagascar" httpUri="http://biocol.org/urn:lsid:biocol.org:col:12774" lsid="urn:lsid:biocol.org:col:12774" name="Centre National de la Recherche Appliquée au Developement Rural" pageId="31" pageNumber="32" type="Herbarium">TEF</collectionCode>
-. – 
+. –
+</materialsCitation>
+<materialsCitation collectingDate="1951-09-28" collectionCode="BR, TEF" collectorName="Ankarafantsika &amp; Tsaramandroso &amp; Tsilizy &amp; I District" country="Madagascar" elevation="9" location="Mahajanga" pageId="31" pageNumber="32" specimenCount="1" stateProvince="Mahajanga">
 <emphasis bold="true" pageId="31" pageNumber="32">
 <collectingRegion box="[1255,1398,1857,1883]" country="Madagascar" name="Mahajanga" pageId="31" pageNumber="32">Mahajanga</collectingRegion>
 <collectorName box="[189,300,1892,1918]" pageId="31" pageNumber="32">I District</collectorName>
 </emphasis>
-</materialsCitation>
-• 
-<materialsCitation box="[323,1156,1892,1919]" collectingDate="1924-12" collectionCode="BR" collectorName="de Majunga &amp; Humbert" country="Madagascar" elevation="9" pageId="31" pageNumber="32" specimenCount="1">
-environs 
+• environs 
 <collectorName box="[429,571,1892,1918]" pageId="31" pageNumber="32">de Majunga</collectorName>
 ; 
 <elevation box="[581,731,1892,1919]" metricMagnitude="0" metricUnit="m" metricValue="8.5" metricValueMax="15.0" metricValueMin="2.0" pageId="31" pageNumber="32" unit="m" value="8.5" valueMax="15.0" valueMin="2.0">
@@ -1597,14 +1599,14 @@ dunes
 </emphasis>
 ; 
 <collectionCode box="[673,715,1928,1954]" country="Brazil" name="Embrapa Agrobiology Diazothrophic Microbial Culture Collection" pageId="31" pageNumber="32">BR</collectionCode>
-, P. – 
+, P. –
+</materialsCitation>
+<materialsCitation collectingDate="1921-01" collectionCode="BR" collectorName="de Majunga &amp; Perrier de la Bathie &amp; II District" country="Madagascar" elevation="16" location="Mahajanga" pageId="31" pageNumber="32" specimenCount="1" stateProvince="Mahajanga">
 <emphasis bold="true" box="[774,1047,1927,1954]" pageId="31" pageNumber="32">
 <collectingRegion box="[774,917,1927,1953]" country="Madagascar" name="Mahajanga" pageId="31" pageNumber="32">Mahajanga</collectingRegion>
 <collectorName box="[924,1047,1927,1954]" pageId="31" pageNumber="32">II District</collectorName>
 </emphasis>
-</materialsCitation>
 • 
-<materialsCitation collectingDate="2007-04-20" collectionCode="MO, TAN" collectorName="Mariarano &amp; Ankatsabe &amp; d'Ankatsabe &amp; Rakotoarivelo &amp; Miandrimanana &amp; Randrianarivelo &amp; Razakamalala &amp; Beby" country="Madagascar" elevation="16" location="Mitsinjo District" pageId="31" pageNumber="32" specimenCount="1">
 <collectorName box="[1071,1196,1927,1953]" pageId="31" pageNumber="32">Mariarano</collectorName>
 , 
 <collectorName box="[1205,1332,1927,1953]" pageId="31" pageNumber="32">Ankatsabe</collectorName>
@@ -1636,13 +1638,13 @@ a.s.l.
 <collectionCode box="[507,554,1998,2024]" country="USA" lsid="urn:lsid:biocol.org:col:15859" name="Missouri Botanical Garden" pageId="31" pageNumber="32" type="Herbarium">MO</collectionCode>
 n.v., P online, 
 <collectionCode box="[731,789,1999,2025]" country="Madagascar" lsid="urn:lsid:biocol.org:col:13842" name="Parc de Tsimbazaza" pageId="31" pageNumber="32" type="Herbarium">TAN</collectionCode>
-n.v. – 
+n.v. –
+</materialsCitation>
+<materialsCitation collectingDate="1921-01" collectionCode="BR" collectorName="de Majunga &amp; Perrier de la Bathie &amp; II District" country="Madagascar" elevation="16" lastPageId="32" lastPageNumber="33" location="Mahajanga" municipality="Tsiombikibo" pageId="31" pageNumber="32" specimenCount="1" stateProvince="Mahajanga">
 <emphasis bold="true" box="[870,1078,1998,2024]" pageId="31" pageNumber="32">
 <location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFD8971C5F641AC9FBB46F87" box="[870,1078,1998,2024]" country="Madagascar" name="Mitsinjo District" pageId="31" pageNumber="32">Mitsinjo District</location>
 </emphasis>
-</materialsCitation>
 • 
-<materialsCitation collectingDate="2005-05-06" collectorName="Andriamahay &amp; Rakotoarisoa" country="Madagascar" elevation="24" lastPageId="32" lastPageNumber="33" location="Soalala District" municipality="Tsiombikibo" pageId="31" pageNumber="32" specimenCount="1">
 <collectingMunicipality box="[1104,1256,1998,2024]" pageId="31" pageNumber="32">Tsiombikibo</collectingMunicipality>
 ; 
 <elevation box="[1268,1392,1998,2025]" metricMagnitude="1" metricUnit="m" metricValue="2.4" pageId="31" pageNumber="32" unit="m" value="24.0">
@@ -1660,14 +1662,13 @@ a.s.l.
 <collectorName box="[562,717,265,291]" pageId="32" pageNumber="33">Rakotoarisoa</collectorName>
 1055
 </emphasis>
-; K. – 
+; K. –
+</materialsCitation>
+<materialsCitation collectingDate="1921-01" collectionCode="BR" collectorName="de Majunga &amp; Perrier de la Bathie &amp; II District" country="Madagascar" elevation="16" location="Mahajanga" municipality="Tsiombikibo" pageId="32" pageNumber="33" specimenCount="1" stateProvince="Mahajanga">
 <emphasis bold="true" box="[848,1036,265,291]" pageId="32" pageNumber="33">
 <location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE797235F521C0EFB8E694C" box="[848,1036,265,291]" country="Madagascar" municipality="Tsiombikibo" name="Soalala District" pageId="32" pageNumber="33">Soalala District</location>
 </emphasis>
-</materialsCitation>
-• 
-<materialsCitation collectingDate="2000-02-03" collectionCode="BR, TAN" collectorName="Namoroka &amp; Davis &amp; Rakotonasolo &amp; Wilkin" country="Madagascar" elevation="130" location="38.5 km S of Soalala" pageId="32" pageNumber="33" specimenCount="1">
-RNI 8, 
+• RNI 8, 
 <collectorName box="[1140,1265,265,291]" pageId="32" pageNumber="33">Namoroka</collectorName>
 , ca 
 <location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE79723591B1C0EFEC96929" country="Madagascar" name="38.5 km S of Soalala" pageId="32" pageNumber="33">
@@ -1763,15 +1764,15 @@ fir.
 coll. ignot. 17476- 
 <collectionCode box="[573,606,406,432]" country="Argentina" lsid="urn:lsid:biocol.org:col:15058" name="Universidad Nacional del Litoral" pageId="32" pageNumber="33" type="Herbarium">SF</collectionCode>
 </emphasis>
-). – 
+). –
+</materialsCitation>
+<materialsCitation collectingDate="1956-02-24" collectionCode="BR, TAN, TEF, SF" collectorName="Andranomavo &amp; Randriamiero" country="Madagascar" location="Antsalova District" municipality="Melaky Region" pageId="32" pageNumber="33" specimenCount="1">
 <emphasis bold="true" box="[650,1079,406,433]" pageId="32" pageNumber="33">
 <collectingMunicipality box="[650,841,406,433]" pageId="32" pageNumber="33">Melaky Region</collectingMunicipality>
 , 
 <location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE797235F571C91FBB569DF" box="[853,1079,406,432]" country="Madagascar" municipality="Melaky Region" name="Antsalova District" pageId="32" pageNumber="33">Antsalova District</location>
 </emphasis>
-</materialsCitation>
 • 
-<materialsCitation collectingDate="1943-08" collectorName="Herbier Jardin &amp; Tananarive" country="Madagascar" location="Maintirano District" municipality="Bemaraha" pageId="32" pageNumber="33" specimenCount="1">
 <collectingMunicipality box="[1102,1225,406,432]" pageId="32" pageNumber="33">Bemaraha</collectingMunicipality>
 ; 
 <date box="[1234,1360,407,433]" pageId="32" pageNumber="33" value="1943-08">
@@ -1787,14 +1788,13 @@ botanique de
 </emphasis>
 ) 
 <emphasis box="[821,880,442,468]" italics="true" pageId="32" pageNumber="33">6191</emphasis>
-; P. – 
+; P. –
+</materialsCitation>
+<materialsCitation collectingDate="1956-02-24" collectionCode="BR, TAN, TEF, SF" collectorName="Andranomavo &amp; Randriamiero" country="Madagascar" elevation="1600" location="Antsalova District" municipality="Melaky Region" pageId="32" pageNumber="33" specimenCount="1">
 <emphasis bold="true" box="[943,1187,442,468]" pageId="32" pageNumber="33">
 <location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE797235FAD1CBDFB2169BB" box="[943,1187,442,468]" country="Madagascar" municipality="Bemaraha" name="Maintirano District" pageId="32" pageNumber="33">Maintirano District</location>
 </emphasis>
-</materialsCitation>
-• 
-<materialsCitation collectingDate="1955-02-24" collectionCode="TEF" collectorName="Analalava &amp; Mokotra &amp; Maintirano" country="Madagascar" elevation="1600" pageId="32" pageNumber="33" specimenCount="1">
-forêt 
+• forêt 
 <collectorName box="[1272,1394,442,468]" pageId="32" pageNumber="33">Analalava</collectorName>
 , 
 <quantity box="[189,279,477,504]" metricMagnitude="3" metricUnit="m" metricValue="1.6" pageId="32" pageNumber="33" unit="m" value="1600.0">
@@ -1831,15 +1831,15 @@ forêt
 <collectionCode box="[410,453,549,575]" country="Brazil" name="Embrapa Agrobiology Diazothrophic Microbial Culture Collection" pageId="32" pageNumber="33">BR</collectionCode>
 , P, 
 <collectionCode box="[501,556,549,575]" country="Madagascar" httpUri="http://biocol.org/urn:lsid:biocol.org:col:12774" lsid="urn:lsid:biocol.org:col:12774" name="Centre National de la Recherche Appliquée au Developement Rural" pageId="32" pageNumber="33" type="Herbarium">TEF</collectionCode>
-. – 
+. –
+</materialsCitation>
+<materialsCitation collectingDate="1956-05-30" collectionCode="BR, TEF" collectorName="d'Amboloando &amp; Amboloando &amp; Maintirano" country="Madagascar" elevation="290" location="Antsohihy District" municipality="Sofia Region" pageId="32" pageNumber="33" specimenCount="1">
 <emphasis bold="true" box="[598,1026,548,574]" pageId="32" pageNumber="33">
 <collectingMunicipality box="[598,766,548,574]" pageId="32" pageNumber="33">Sofia Region</collectingMunicipality>
 , 
 <location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE797235F0D1F23FB806A51" box="[783,1026,548,574]" country="Madagascar" municipality="Sofia Region" name="Antsohihy District" pageId="32" pageNumber="33">Antsohihy District</location>
 </emphasis>
-</materialsCitation>
 • 
-<materialsCitation collectingDate="2000-05-30" collectionCode="BR, TAN" collectorName="Rakotonasolo" country="Madagascar" elevation="290" location="Anjimangirana" pageId="32" pageNumber="33" specimenCount="1">
 <location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE7972358231F23FB586A51" box="[1057,1242,548,574]" country="Madagascar" name="Anjimangirana" pageId="32" pageNumber="33">Anjimangirana</location>
 , 
 <locationDeviation location="Anjimangirana (Analananbe) village" pageId="32" pageNumber="33">
@@ -1892,7 +1892,7 @@ a.s.l.
 <collectionCode box="[225,283,654,680]" country="Madagascar" lsid="urn:lsid:biocol.org:col:13842" name="Parc de Tsimbazaza" pageId="32" pageNumber="33" type="Herbarium">TAN</collectionCode>
 </materialsCitation>
 • 
-<materialsCitation collectingDate="2000-06-03" collectionCode="BR, TAN" collectorName="Ankerika &amp; Andohanakerika &amp; Rakotonasolo" country="Madagascar" elevation="200" location="Boriziny-Vaovao District" pageId="32" pageNumber="33" specimenCount="1">
+<materialsCitation box="[309,1399,654,681]" collectingDate="2000-06-03" collectionCode="BR, TAN" collectorName="Ankerika &amp; Andohanakerika &amp; Rakotonasolo" country="Madagascar" elevation="200" location="Boriziny-Vaovao District" pageId="32" pageNumber="33" specimenCount="1">
 <collectorName box="[309,421,654,680]" pageId="32" pageNumber="33">Ankerika</collectorName>
 , 
 <collectorName box="[432,630,654,680]" pageId="32" pageNumber="33">Andohanakerika</collectorName>
@@ -1914,13 +1914,13 @@ a.s.l.
 <collectionCode box="[1219,1261,655,681]" country="Brazil" name="Embrapa Agrobiology Diazothrophic Microbial Culture Collection" pageId="32" pageNumber="33">BR</collectionCode>
 , K, 
 <collectionCode box="[1310,1372,654,680]" country="Madagascar" lsid="urn:lsid:biocol.org:col:13842" name="Parc de Tsimbazaza" pageId="32" pageNumber="33" type="Herbarium">TAN</collectionCode>
-. – 
+. –
+</materialsCitation>
+<materialsCitation box="[189,1224,689,716]" collectingDate="2000-06-03" collectionCode="BR, TAN" collectorName="Ankerika &amp; Andohanakerika &amp; Rakotonasolo" country="Madagascar" elevation="200" location="Boriziny-Vaovao District" pageId="32" pageNumber="33" specimenCount="1">
 <emphasis bold="true" box="[189,499,689,715]" pageId="32" pageNumber="33">
 <location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE797235CBF1FB6FE716AA4" box="[189,499,689,715]" country="Madagascar" name="Boriziny-Vaovao District" pageId="32" pageNumber="33">Boriziny-Vaovao District</location>
 </emphasis>
-</materialsCitation>
 • 
-<materialsCitation box="[524,1224,689,716]" collectingDate="1988-01-18" collectorName="Bisset" country="Madagascar" elevation="70" location="N of Port Berge" pageId="32" pageNumber="33" specimenCount="1">
 <location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE797235E0E1FB5FD4B6AA3" box="[524,713,689,716]" country="Madagascar" name="N of Port Berge" pageId="32" pageNumber="33">N of Port Bergé</location>
 ; 
 <elevation box="[725,848,689,716]" metricMagnitude="1" metricUnit="m" metricValue="7.0" pageId="32" pageNumber="33" unit="m" value="70.0">
@@ -1950,13 +1950,13 @@ M52
 <collectorName box="[351,424,726,751]" pageId="32" pageNumber="33">Morat</collectorName>
 4469
 </emphasis>
-; P. – 
+; P. –
+</materialsCitation>
+<materialsCitation collectingDate="1974-04" collectorName="Morat" country="Madagascar" county="Bongolava" elevation="221" location="Mampikony District" municipality="Mandritsara" pageId="32" pageNumber="33" specimenCount="1">
 <emphasis bold="true" box="[547,799,725,751]" pageId="32" pageNumber="33">
 <location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE797235E211FD2FC9D6A80" box="[547,799,725,751]" country="Madagascar" municipality="Mandritsara" name="Mampikony District" pageId="32" pageNumber="33">Mampikony District</location>
 </emphasis>
-</materialsCitation>
 • 
-<materialsCitation collectingDate="2008-06-14" collectorName="Andriamahay &amp; Rakotoarisoa" country="Madagascar" county="Bongolava" elevation="221" location="Bongolava forest" municipality="Ampombimanangy" pageId="32" pageNumber="33" specimenCount="1">
 <collectingCounty box="[820,949,725,751]" pageId="32" pageNumber="33">Bongolava</collectingCounty>
 , 
 <collectingMunicipality box="[958,1184,725,751]" pageId="32" pageNumber="33">Ampombimanangy</collectingMunicipality>
@@ -1983,13 +1983,13 @@ a.s.l.
 <collectorName box="[1128,1286,760,786]" pageId="32" pageNumber="33">Rakotoarisoa</collectorName>
 2047
 </emphasis>
-; K. – 
+; K. –
+</materialsCitation>
+<materialsCitation collectingDate="1974-04" collectionCode="TEF" collectorName="Morat" country="Madagascar" county="Bongolava" elevation="221" location="Mampikony District" municipality="Mandritsara" pageId="32" pageNumber="33" specimenCount="1" stateProvince="Antananarivo">
 <emphasis bold="true" box="[213,479,795,821]" pageId="32" pageNumber="33">
 <location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE797235CD71E1CFE5D6B5A" box="[213,479,795,821]" country="Madagascar" county="Bongolava" municipality="Ampombimanangy" name="Mandritsara District" pageId="32" pageNumber="33">Mandritsara District</location>
 </emphasis>
-</materialsCitation>
 • 
-<materialsCitation collectingDate="1966-03-14" collectionCode="TEF" collectorName="Ambalafarihy &amp; Sajy" country="Madagascar" county="Antsirabe" location="Andramasina District" municipality="Analamanga Region" pageId="32" pageNumber="33" specimenCount="1" stateProvince="Antananarivo">
 <collectorName box="[506,672,796,822]" pageId="32" pageNumber="33">Ambalafarihy</collectorName>
 , village le plus proche 
 <collectorName box="[952,1118,796,822]" pageId="32" pageNumber="33">Ambalafarihy</collectorName>
@@ -2006,7 +2006,9 @@ a.s.l.
 </emphasis>
 ; P, 
 <collectionCode box="[534,589,832,858]" country="Madagascar" httpUri="http://biocol.org/urn:lsid:biocol.org:col:12774" lsid="urn:lsid:biocol.org:col:12774" name="Centre National de la Recherche Appliquée au Developement Rural" pageId="32" pageNumber="33" type="Herbarium">TEF</collectionCode>
-. – 
+. –
+</materialsCitation>
+<materialsCitation collectingDate="1974-04" collectionCode="TEF" collectorName="Morat" country="Madagascar" county="Bongolava" elevation="221" location="Mampikony District" municipality="Mandritsara" pageId="32" pageNumber="33" specimenCount="1" stateProvince="Antananarivo">
 <emphasis bold="true" pageId="32" pageNumber="33">
 <collectingRegion box="[627,930,831,857]" country="Madagascar" name="Antananarivo" pageId="32" pageNumber="33">Antananarivo Province</collectingRegion>
 , 
@@ -2014,9 +2016,7 @@ a.s.l.
 , 
 <location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE7972358CA1E38FE9F6B13" country="Madagascar" county="Antsirabe" municipality="Analamanga Region" name="Andramasina District" pageId="32" pageNumber="33" stateProvince="Antananarivo">Andramasina District</location>
 </emphasis>
-</materialsCitation>
 • 
-<materialsCitation box="[312,1379,866,893]" collectingDate="1958-12" collectionCode="TAN" collectorName="Andramasina &amp; Bosser" country="Madagascar" location="Anjozorobe District" municipality="Ambatolampy" pageId="32" pageNumber="33" specimenCount="1">
 <collectorName box="[312,473,866,892]" pageId="32" pageNumber="33">Andramasina</collectorName>
 , 
 <collectingMunicipality box="[485,659,866,892]" pageId="32" pageNumber="33">Ambatolampy</collectingMunicipality>
@@ -2031,14 +2031,13 @@ a.s.l.
 </emphasis>
 ; 
 <collectionCode box="[1028,1091,867,893]" country="Madagascar" lsid="urn:lsid:biocol.org:col:13842" name="Parc de Tsimbazaza" pageId="32" pageNumber="33" type="Herbarium">TAN</collectionCode>
-. – 
+. –
+</materialsCitation>
+<materialsCitation collectingDate="1974-04" collectionCode="TEF" collectorName="Morat" country="Madagascar" county="Bongolava" elevation="221" location="Mampikony District" municipality="Mandritsara" pageId="32" pageNumber="33" specimenCount="1" stateProvince="Antananarivo">
 <emphasis bold="true" box="[1126,1379,866,892]" pageId="32" pageNumber="33">
 <location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE7972358641E65FAE16B13" box="[1126,1379,866,892]" country="Madagascar" municipality="Ambatolampy" name="Anjozorobe District" pageId="32" pageNumber="33">Anjozorobe District</location>
 </emphasis>
-</materialsCitation>
-• 
-<materialsCitation box="[191,865,902,929]" pageId="32" pageNumber="33">
-Analabe, N d’Antananarivo; 
+• Analabe, N d’Antananarivo; 
 <date box="[528,651,902,929]" pageId="32" pageNumber="33" value="1953-03">Mar. 1953</date>
 ; fr; 
 <emphasis box="[695,835,902,928]" italics="true" pageId="32" pageNumber="33">Bosser 5111</emphasis>
@@ -2059,7 +2058,7 @@ centre;
 <collectionCode box="[189,247,937,963]" country="Madagascar" lsid="urn:lsid:biocol.org:col:13842" name="Parc de Tsimbazaza" pageId="32" pageNumber="33" type="Herbarium">TAN</collectionCode>
 </materialsCitation>
 • 
-<materialsCitation collectingDate="1999-12-23" collectionCode="BR, TAN" collectorName="Anjozorobe &amp; Rakotonasolo" country="Madagascar" location="Ankazobe District" municipality="Mananara river" pageId="32" pageNumber="33" specimenCount="1">
+<materialsCitation box="[271,1399,937,964]" collectingDate="1999-12-23" collectionCode="BR, TAN" collectorName="Anjozorobe &amp; Rakotonasolo" country="Madagascar" location="Ankazobe District" municipality="Mananara river" pageId="32" pageNumber="33" specimenCount="1">
 <collectorName box="[271,413,937,963]" pageId="32" pageNumber="33">Anjozorobe</collectorName>
 , by the side of 
 <collectingMunicipality box="[592,776,937,964]" pageId="32" pageNumber="33">Mananara river</collectingMunicipality>
@@ -2076,13 +2075,13 @@ centre;
 <collectionCode box="[1221,1263,938,964]" country="Brazil" name="Embrapa Agrobiology Diazothrophic Microbial Culture Collection" pageId="32" pageNumber="33">BR</collectionCode>
 , K, 
 <collectionCode box="[1311,1373,937,963]" country="Madagascar" lsid="urn:lsid:biocol.org:col:13842" name="Parc de Tsimbazaza" pageId="32" pageNumber="33" type="Herbarium">TAN</collectionCode>
-. – 
+. –
+</materialsCitation>
+<materialsCitation box="[189,1230,972,999]" collectingDate="1999-12-23" collectionCode="BR, TAN" collectorName="Anjozorobe &amp; Rakotonasolo" country="Madagascar" location="Ankazobe District" municipality="Mananara river" pageId="32" pageNumber="33" specimenCount="1">
 <emphasis bold="true" box="[189,421,972,998]" pageId="32" pageNumber="33">
 <location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE797235CBF1ECBFE276B89" box="[189,421,972,998]" country="Madagascar" municipality="Mananara river" name="Ankazobe District" pageId="32" pageNumber="33">Ankazobe District</location>
 </emphasis>
-</materialsCitation>
 • 
-<materialsCitation box="[448,1230,972,999]" collectingDate="1943-04-29" collectionCode="BR" collectorName="Decary" country="Madagascar" location="Tampoketsa d'Ankazobe" pageId="32" pageNumber="33" specimenCount="1">
 <location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE797235DC21ECBFD6F6B89" box="[448,749,972,998]" country="Madagascar" name="Tampoketsa d'Ankazobe" pageId="32" pageNumber="33">Tampoketsa d’Ankazobe</location>
 ; 
 <date box="[762,923,973,999]" pageId="32" pageNumber="33" value="1943-04-29">
@@ -2125,15 +2124,21 @@ a.s.l.
 <collectionCode box="[1235,1293,1008,1034]" country="Madagascar" lsid="urn:lsid:biocol.org:col:13842" name="Parc de Tsimbazaza" pageId="32" pageNumber="33" type="Herbarium">TAN</collectionCode>
 </materialsCitation>
 • 
-<materialsCitation pageId="32" pageNumber="33">
-plateau du Tampoketsa entre la Mahazemba et le Bemarivo; 
-<date box="[845,969,1043,1070]" pageId="32" pageNumber="33" value="1905-06">Jun. 1905</date>
+<materialsCitation collectingDate="1905-06" collectorName="Perrier de la Bathie" pageId="32" pageNumber="33" specimenCount="1">
+<locationDeviation pageId="32" pageNumber="33">plateau du Tampoketsa entre la Mahazemba et le Bemarivo</locationDeviation>
+; 
+<date box="[845,969,1043,1070]" pageId="32" pageNumber="33" value="1905-06">
+<collectingDate box="[845,969,1043,1070]" pageId="32" pageNumber="33" value="1905-06">Jun. 1905</collectingDate>
+</date>
 ; fr; 
-<emphasis box="[1023,1344,1043,1069]" italics="true" pageId="32" pageNumber="33">Perrier de la Bâthie 3626</emphasis>
+<emphasis box="[1023,1344,1043,1069]" italics="true" pageId="32" pageNumber="33">
+<collectorName box="[1023,1274,1043,1069]" pageId="32" pageNumber="33">Perrier de la Bâthie</collectorName>
+3626
+</emphasis>
 ; P
 </materialsCitation>
 • 
-<materialsCitation collectorName="Perrier de la Bathie" country="Madagascar" elevation="1500" location="Renivohitra District" municipality="Tampoketsa d'Ankazobe" pageId="32" pageNumber="33" specimenCount="1" stateProvince="Antananarivo">
+<materialsCitation box="[192,1210,1078,1105]" collectorName="Perrier de la Bathie" country="Madagascar" elevation="1500" location="Renivohitra District" municipality="Tampoketsa d'Ankazobe" pageId="32" pageNumber="33" specimenCount="1" stateProvince="Antananarivo">
 <collectingMunicipality box="[192,498,1078,1104]" pageId="32" pageNumber="33">Tampoketsa d’Ankazobe</collectingMunicipality>
 ; 
 <elevation box="[513,672,1078,1105]" metricMagnitude="3" metricUnit="m" metricValue="1.5" pageId="32" pageNumber="33" unit="m" value="1500.0">
@@ -2145,14 +2150,14 @@ a.s.l.
 <collectorName box="[810,1060,1078,1104]" pageId="32" pageNumber="33">Perrier de la Bâthie</collectorName>
 17315
 </emphasis>
-; P. – 
+; P. –
+</materialsCitation>
+<materialsCitation collectorName="Perrier de la Bathie" country="Madagascar" elevation="1500" location="Renivohitra District" municipality="Tampoketsa d'Ankazobe" pageId="32" pageNumber="33" specimenCount="1" stateProvince="Antananarivo">
 <emphasis bold="true" pageId="32" pageNumber="33">
 <collectingRegion box="[1220,1399,1078,1104]" country="Madagascar" name="Antananarivo" pageId="32" pageNumber="33">Antananarivo</collectingRegion>
 <location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE797235CBF195DFE3B6C1B" box="[189,441,1114,1140]" country="Madagascar" municipality="Tampoketsa d'Ankazobe" name="Renivohitra District" pageId="32" pageNumber="33" stateProvince="Antananarivo">Renivohitra District</location>
 </emphasis>
-</materialsCitation>
 • 
-<materialsCitation box="[466,1095,1114,1140]" collectorName="Hilsenberg &amp; Bojer" country="Madagascar" location="Antananarivo" pageId="32" pageNumber="33" specimenCount="1" stateProvince="Antananarivo">
 <collectingRegion box="[466,630,1114,1140]" country="Madagascar" name="Antananarivo" pageId="32" pageNumber="33">Antananarivo</collectingRegion>
 ; s.dat.; fl; 
 <emphasis box="[752,1033,1114,1140]" italics="true" pageId="32" pageNumber="33">
@@ -2170,26 +2175,25 @@ in monte Tananarivo; s. dat.; fl;
 <collectingMunicipality box="[291,509,1149,1175]" pageId="32" pageNumber="33">Richard in Drake</collectingMunicipality>
 s.n.
 </emphasis>
-; P. – 
+; P. –
+</materialsCitation>
+<materialsCitation collectorName="de la Mandraka" country="Madagascar" location="Manjakandriana District" municipality="Richard in Drake" pageId="32" pageNumber="33" specimenCount="1">
 <emphasis bold="true" box="[642,972,1149,1175]" pageId="32" pageNumber="33">
 <location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE797235E80197AFC4E6CF8" box="[642,972,1149,1175]" country="Madagascar" municipality="Richard in Drake" name="Manjakandriana District" pageId="32" pageNumber="33">Manjakandriana District</location>
 </emphasis>
-</materialsCitation>
-• 
-<materialsCitation collectorName="de la Mandraka" country="Madagascar" location="Arivonimamo District" municipality="Itasy Region" pageId="32" pageNumber="33" specimenCount="1">
-forêt 
+• forêt 
 <collectorName box="[1073,1273,1149,1175]" pageId="32" pageNumber="33">de la Mandraka</collectorName>
 ; s.dat.; fl; 
 <emphasis box="[189,359,1185,1211]" italics="true" pageId="32" pageNumber="33">d’Alleizette 10</emphasis>
-; P. – 
+; P. –
+</materialsCitation>
+<materialsCitation collectingDate="1956-01" collectionCode="TAN" collectorName="de la Mandraka" country="Madagascar" location="Manjakandriana District" municipality="Richard in Drake" pageId="32" pageNumber="33" specimenCount="1">
 <emphasis bold="true" box="[426,873,1184,1211]" pageId="32" pageNumber="33">
 <collectingMunicipality box="[426,586,1184,1211]" pageId="32" pageNumber="33">Itasy Region</collectingMunicipality>
 , 
 <location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE797235E5719A7FCEB6CD5" box="[597,873,1184,1210]" country="Madagascar" municipality="Itasy Region" name="Arivonimamo District" pageId="32" pageNumber="33">Arivonimamo District</location>
 </emphasis>
-</materialsCitation>
 • 
-<materialsCitation collectingDate="1956-01" collectionCode="TAN" collectorName="Antongona &amp; Bosser" country="Madagascar" location="d'Antananarivo" pageId="32" pageNumber="33" specimenCount="1">
 <collectorName box="[898,1031,1185,1211]" pageId="32" pageNumber="33">Antongona</collectorName>
 , environs 
 <location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE79723588219A6FABE6CD4" box="[1152,1340,1185,1211]" country="Madagascar" name="d'Antananarivo" pageId="32" pageNumber="33">d’Antananarivo</location>
@@ -2260,13 +2264,12 @@ a.s.l.
 <collectionCode box="[480,542,1291,1317]" country="Madagascar" lsid="urn:lsid:biocol.org:col:13842" name="Parc de Tsimbazaza" pageId="32" pageNumber="33" type="Herbarium">TAN</collectionCode>
 . 
 <emphasis box="[553,568,1292,1317]" italics="true" pageId="32" pageNumber="33">–</emphasis>
+</materialsCitation>
+<materialsCitation box="[576,1399,1291,1317]" collectingDate="1960-01-16" collectionCode="TAN" collectorName="Peltier J." country="Madagascar" county="Itasy" location="Miarinarivo District" municipality="Antongona" pageId="32" pageNumber="33" specimenCount="1">
 <emphasis bold="true" box="[576,832,1291,1317]" pageId="32" pageNumber="33">
 <location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE797235E42180CFCC26D4A" box="[576,832,1291,1317]" country="Madagascar" municipality="Antongona" name="Miarinarivo District" pageId="32" pageNumber="33">Miarinarivo District</location>
 </emphasis>
-</materialsCitation>
-• 
-<materialsCitation collectingDate="1964-02" collectorName="Bosser" country="Madagascar" county="Itasy" location="Ambatolampy District" municipality="Vakinankaratra Region" pageId="32" pageNumber="33" specimenCount="1">
-lac 
+• lac 
 <collectingCounty box="[901,962,1291,1317]" pageId="32" pageNumber="33">Itasy</collectingCounty>
 ; 
 <date box="[975,1096,1291,1317]" pageId="32" pageNumber="33" value="1964-02">
@@ -2274,16 +2277,15 @@ lac
 </date>
 ; fl, fr; 
 <collectorName box="[1177,1257,1291,1317]" pageId="32" pageNumber="33">Bosser</collectorName>
-19183; P. – 
+19183; P. –
+</materialsCitation>
+<materialsCitation collectingDate="1960-01-16" collectionCode="TAN" collectorName="Peltier J." country="Madagascar" county="Itasy" elevation="1350" location="Miarinarivo District" municipality="Antongona" pageId="32" pageNumber="33" specimenCode="RN 7" specimenCount="1" stateProvince="Antananarivo">
 <emphasis bold="true" box="[189,774,1326,1352]" pageId="32" pageNumber="33">
 <collectingMunicipality box="[189,486,1326,1352]" pageId="32" pageNumber="33">Vakinankaratra Region</collectingMunicipality>
 , 
 <location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE797235DED1829FC846D27" box="[495,774,1326,1352]" country="Madagascar" county="Itasy" municipality="Vakinankaratra Region" name="Ambatolampy District" pageId="32" pageNumber="33">Ambatolampy District</location>
 </emphasis>
-</materialsCitation>
-• 
-<materialsCitation collectingDate="1986-01-12" collectionCode="MO" collectorName="Antsirabe &amp; Dorr &amp; Barnett &amp; Rakotozafy" country="Madagascar" elevation="1350" location="Antanifotsy District" pageId="32" pageNumber="33" specimenCode="RN 7" specimenCount="1" stateProvince="Antananarivo">
-PK 35 at stream-crossing 
+• PK 35 at stream-crossing 
 <locationDeviation box="[1093,1243,1326,1352]" location="Behenjy" pageId="32" pageNumber="33">S of Behenjy</locationDeviation>
 on road from 
 <collectingRegion box="[188,346,1361,1387]" country="Madagascar" name="Antananarivo" pageId="32" pageNumber="33">Antananarivo</collectingRegion>
@@ -2314,13 +2316,13 @@ a.s.l.
 </emphasis>
 ; K, 
 <collectionCode box="[225,275,1397,1423]" country="USA" lsid="urn:lsid:biocol.org:col:15859" name="Missouri Botanical Garden" pageId="32" pageNumber="33" type="Herbarium">MO</collectionCode>
-, P. – 
+, P. –
+</materialsCitation>
+<materialsCitation collectingDate="1960-01-16" collectionCode="TAN" collectorName="Peltier J." country="Madagascar" county="Itasy" elevation="1350" location="Miarinarivo District" municipality="Antongona" pageId="32" pageNumber="33" specimenCode="RN 7" specimenCount="1" stateProvince="Antananarivo">
 <emphasis bold="true" box="[336,584,1397,1423]" pageId="32" pageNumber="33">
 <location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE797235D521872FDCA6DE0" box="[336,584,1397,1423]" country="Madagascar" name="Antanifotsy District" pageId="32" pageNumber="33" stateProvince="Antananarivo">Antanifotsy District</location>
 </emphasis>
-</materialsCitation>
 • 
-<materialsCitation collectingDate="1955-12" collectionCode="TAN" collectorName="Ambohimandroso &amp; d'Ambatolampy &amp; de l'Onive &amp; Bosser &amp; Antsirabe II District" country="Madagascar" elevation="1500" pageId="32" pageNumber="33" specimenCount="1">
 <collectorName box="[607,822,1397,1423]" pageId="32" pageNumber="33">Ambohimandroso</collectorName>
 , près 
 <collectorName box="[890,1083,1397,1423]" pageId="32" pageNumber="33">d’Ambatolampy</collectorName>
@@ -2342,13 +2344,13 @@ a.s.l.
 </emphasis>
 ; P, 
 <collectionCode box="[613,675,1433,1459]" country="Madagascar" lsid="urn:lsid:biocol.org:col:13842" name="Parc de Tsimbazaza" pageId="32" pageNumber="33" type="Herbarium">TAN</collectionCode>
-. – 
+. –
+</materialsCitation>
+<materialsCitation collectingDate="1960-01-16" collectionCode="TAN" collectorName="Peltier J." country="Madagascar" county="Itasy" elevation="1350" location="Miarinarivo District" municipality="Antongona" pageId="32" pageNumber="33" specimenCode="RN 7" specimenCount="1" stateProvince="Antananarivo">
 <emphasis bold="true" box="[706,961,1432,1458]" pageId="32" pageNumber="33">
 <collectorName box="[706,961,1432,1458]" pageId="32" pageNumber="33">Antsirabe II District</collectorName>
 </emphasis>
-</materialsCitation>
 • 
-<materialsCitation collectingDate="1914-01" collectionCode="BR" collectorName="Antsirabe &amp; Perrier de la Bathie" country="Madagascar" elevation="1600" location="Betafo District" pageId="32" pageNumber="33" specimenCount="1">
 <collectorName box="[984,1102,1432,1458]" pageId="32" pageNumber="33">Antsirabe</collectorName>
 ; 
 <elevation box="[1113,1265,1432,1459]" metricMagnitude="3" metricUnit="m" metricValue="1.6" pageId="32" pageNumber="33" unit="m" value="1600.0">
@@ -2366,13 +2368,13 @@ a.s.l.
 </emphasis>
 ; 
 <collectionCode box="[540,582,1468,1494]" country="Brazil" name="Embrapa Agrobiology Diazothrophic Microbial Culture Collection" pageId="32" pageNumber="33">BR</collectionCode>
-, P. – 
+, P. –
+</materialsCitation>
+<materialsCitation collectingDate="1960-01-16" collectionCode="TAN" collectorName="Peltier J." country="Madagascar" county="Itasy" elevation="1350" location="Miarinarivo District" municipality="Antongona" pageId="32" pageNumber="33" specimenCode="RN 7" specimenCount="1" stateProvince="Antananarivo">
 <emphasis bold="true" box="[645,829,1467,1493]" pageId="32" pageNumber="33">
 <location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE797235E8718BCFCBF6DBA" box="[645,829,1467,1493]" country="Madagascar" name="Betafo District" pageId="32" pageNumber="33">Betafo District</location>
 </emphasis>
-</materialsCitation>
 • 
-<materialsCitation collectingDate="1939-12-06" collectionCode="BR" collectorName="Decary" country="Madagascar" location="Faratsiho District" municipality="Mandoto" pageId="32" pageNumber="33" specimenCount="1">
 <collectingMunicipality box="[855,965,1468,1494]" pageId="32" pageNumber="33">Mandoto</collectingMunicipality>
 ; 
 <date box="[977,1124,1468,1494]" pageId="32" pageNumber="33" value="1939-12-06">
@@ -2385,13 +2387,13 @@ a.s.l.
 </emphasis>
 ; 
 <collectionCode box="[1352,1394,1468,1494]" country="Brazil" name="Embrapa Agrobiology Diazothrophic Microbial Culture Collection" pageId="32" pageNumber="33">BR</collectionCode>
-, P. – 
+, P. –
+</materialsCitation>
+<materialsCitation box="[239,1225,1503,1530]" collectingDate="1960-01-16" collectionCode="TAN" collectorName="Peltier J." country="Madagascar" county="Itasy" elevation="1350" location="Miarinarivo District" municipality="Antongona" pageId="32" pageNumber="33" specimenCode="RN 7" specimenCount="1" stateProvince="Antananarivo">
 <emphasis bold="true" box="[239,461,1503,1529]" pageId="32" pageNumber="33">
 <location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE797235CED18D8FE4F6D96" box="[239,461,1503,1529]" country="Madagascar" municipality="Mandoto" name="Faratsiho District" pageId="32" pageNumber="33">Faratsiho District</location>
 </emphasis>
-</materialsCitation>
 • 
-<materialsCitation collectingDate="1955-01" collectionCode="TAN" collectorName="Ramainandro &amp; Bosser" country="Madagascar" county="Ankaratra" location="Ihosy District" municipality="Ihorombe Region" pageId="32" pageNumber="33" specimenCount="1" stateProvince="Fianarantsoa">
 <collectorName box="[486,647,1503,1529]" pageId="32" pageNumber="33">Ramainandro</collectorName>
 , 
 <collectingCounty box="[657,778,1503,1529]" pageId="32" pageNumber="33">Ankaratra</collectingCounty>
@@ -2406,7 +2408,9 @@ a.s.l.
 </emphasis>
 ; P, 
 <collectionCode box="[1138,1200,1503,1529]" country="Madagascar" lsid="urn:lsid:biocol.org:col:13842" name="Parc de Tsimbazaza" pageId="32" pageNumber="33" type="Herbarium">TAN</collectionCode>
-. – 
+. –
+</materialsCitation>
+<materialsCitation collectingDate="1960-01-16" collectionCode="TAN" collectorName="Peltier J." country="Madagascar" county="Itasy" elevation="1350" location="Miarinarivo District" municipality="Antongona" pageId="32" pageNumber="33" specimenCode="RN 7" specimenCount="1" stateProvince="Antananarivo">
 <emphasis bold="true" pageId="32" pageNumber="33">
 <collectingRegion country="Madagascar" name="Fianarantsoa" pageId="32" pageNumber="33">Fianarantsoa Province</collectingRegion>
 , 
@@ -2414,10 +2418,7 @@ a.s.l.
 , 
 <location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE797235E1F1B04FD466E73" box="[541,708,1538,1565]" country="Madagascar" county="Ankaratra" municipality="Ihorombe Region" name="Ihosy District" pageId="32" pageNumber="33" stateProvince="Fianarantsoa">Ihosy District</location>
 </emphasis>
-</materialsCitation>
-• 
-<materialsCitation collectingDate="1999-01-03" collectorName="Allorge" country="Madagascar" elevation="601" location="d'Ihosy" pageId="32" pageNumber="33" specimenCount="1">
-entrée 
+• entrée 
 <location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE797235F271B05FCFD6E73" box="[805,895,1538,1564]" country="Madagascar" name="d'Ihosy" pageId="32" pageNumber="33">d’Ihosy</location>
 , face à la piste d’aviation; 
 <elevation box="[1198,1392,1538,1565]" metricMagnitude="2" metricUnit="m" metricValue="6.005" metricValueMax="6.31" metricValueMin="5.7" pageId="32" pageNumber="33" unit="m" value="600.5" valueMax="631.0" valueMin="570.0">
@@ -2436,13 +2437,10 @@ a.s.l.
 ; P
 </materialsCitation>
 • 
-<materialsCitation collectingDate="1963-02-09" collectionCode="BR, TEF" collectorName="de la Sahambana &amp; SE d'Ihosy, PK &amp; Ihosy-Ivohibe &amp; Capuron" country="Madagascar" pageId="32" pageNumber="33" specimenCount="1">
-bassin 
-<collectorName box="[658,859,1574,1600]" pageId="32" pageNumber="33">de la Sahambana</collectorName>
+<materialsCitation collectingDate="1963-02-09" collectionCode="BR, TEF" collectorName="Capuron" country="Madagascar" location="bassin de la Sahambana" pageId="32" pageNumber="33" specimenCount="1">
+<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE797235E431B21FCD96E2F" box="[577,859,1574,1600]" country="Madagascar" name="bassin de la Sahambana" pageId="32" pageNumber="33">bassin de la Sahambana</location>
 , 
-<collectorName box="[871,1051,1574,1600]" pageId="32" pageNumber="33">SE d’Ihosy, PK</collectorName>
-21 de la route 
-<collectorName box="[1226,1394,1574,1600]" pageId="32" pageNumber="33">Ihosy-Ivohibe</collectorName>
+<locationDeviation box="[871,1394,1574,1600]" pageId="32" pageNumber="33">SE d’Ihosy, PK 21 de la route Ihosy-Ivohibe</locationDeviation>
 ; 
 <date box="[189,326,1609,1635]" pageId="32" pageNumber="33" value="1963-02-09">
 <collectingDate box="[189,326,1609,1635]" pageId="32" pageNumber="33" value="1963-02-09">9 Feb. 1963</collectingDate>
@@ -2458,9 +2456,11 @@ bassin
 <collectionCode box="[714,765,1610,1636]" country="Madagascar" httpUri="http://biocol.org/urn:lsid:biocol.org:col:12774" lsid="urn:lsid:biocol.org:col:12774" name="Centre National de la Recherche Appliquée au Developement Rural" pageId="32" pageNumber="33" type="Herbarium">TEF</collectionCode>
 </materialsCitation>
 • 
-<materialsCitation collectingDate="1999-01-09" collectionCode="BR, MO, TAN" collectorName="Isalo &amp; De Block &amp; Rakotonasolo &amp; Randriamboavonjy" country="Madagascar" pageId="32" pageNumber="33" specimenCount="1">
-<collectorName box="[787,843,1609,1635]" pageId="32" pageNumber="33">Isalo</collectorName>
-PN, canyon des makis; 
+<materialsCitation collectingDate="1999-01-09" collectionCode="BR, MO, TAN" collectorName="De Block &amp; Rakotonasolo &amp; Randriamboavonjy" country="Madagascar" location="Isalo PN" pageId="32" pageNumber="33" specimenCount="1">
+<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE797235F111B4EFCFB6E0B" box="[787,889,1609,1636]" country="Madagascar" name="Isalo PN" pageId="32" pageNumber="33">Isalo PN</location>
+, 
+<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE797235F801B4DFBD26E0C" box="[898,1104,1609,1636]" country="Madagascar" name="canyon des makis" pageId="32" pageNumber="33">canyon des makis</location>
+; 
 <date box="[1114,1246,1609,1636]" pageId="32" pageNumber="33" value="1999-01-09">
 <collectingDate box="[1114,1246,1609,1636]" pageId="32" pageNumber="33" value="1999-01-09">9 Jan. 1999</collectingDate>
 </date>
@@ -2481,9 +2481,11 @@ PN, canyon des makis;
 <collectionCode box="[883,941,1645,1671]" country="Madagascar" lsid="urn:lsid:biocol.org:col:13842" name="Parc de Tsimbazaza" pageId="32" pageNumber="33" type="Herbarium">TAN</collectionCode>
 </materialsCitation>
 • 
-<materialsCitation collectingDate="1999-01-09" collectionCode="BR, MO, TAN" collectorName="Isalo &amp; De Block &amp; Rakotonasolo &amp; Randriamboavonjy" country="Madagascar" pageId="32" pageNumber="33" specimenCount="1">
-<collectorName box="[967,1024,1644,1670]" pageId="32" pageNumber="33">Isalo</collectorName>
-PN, beyond canyon des makis; 
+<materialsCitation collectingDate="1999-01-09" collectionCode="BR, MO, TAN" collectorName="De Block &amp; Rakotonasolo &amp; Randriamboavonjy" country="Madagascar" location="Isalo PN" municipality="Isalo PN" pageId="32" pageNumber="33" specimenCount="1">
+<collectingMunicipality box="[967,1073,1644,1671]" pageId="32" pageNumber="33">Isalo PN</collectingMunicipality>
+, 
+<locationDeviation box="[1086,1394,1644,1671]" pageId="32" pageNumber="33">beyond canyon des makis</locationDeviation>
+; 
 <date box="[189,323,1680,1706]" pageId="32" pageNumber="33" value="1999-01-09">
 <collectingDate box="[189,323,1680,1706]" pageId="32" pageNumber="33" value="1999-01-09">9 Jan. 1999</collectingDate>
 </date>
@@ -2504,16 +2506,13 @@ PN, beyond canyon des makis;
 <collectionCode box="[1133,1191,1680,1706]" country="Madagascar" lsid="urn:lsid:biocol.org:col:13842" name="Parc de Tsimbazaza" pageId="32" pageNumber="33" type="Herbarium">TAN</collectionCode>
 </materialsCitation>
 • 
-<materialsCitation collectingDate="2006-01-30" collectionCode="BR, MO, TAN, UPS" collectorName="Ihosy &amp; Farafangana &amp; De Block &amp; Tosh &amp; Rakotonasolo" country="Madagascar" elevation="745" pageId="32" pageNumber="33" specimenCount="1">
-road from 
-<collectorName box="[1333,1398,1680,1706]" pageId="32" pageNumber="33">Ihosy</collectorName>
-to 
-<collectorName box="[215,359,1715,1741]" pageId="32" pageNumber="33">Farafangana</collectorName>
-, 
+<materialsCitation collectingDate="2006-01-30" collectionCode="BR, MO, TAN, UPS" collectorName="De Block &amp; Tosh &amp; Rakotonasolo" country="Madagascar" elevation="745" pageId="32" pageNumber="33" specimenCount="1">
+<locationDeviation pageId="32" pageNumber="33">
+road from Ihosy to Farafangana, 
 <quantity box="[367,423,1715,1741]" metricMagnitude="3" metricUnit="m" metricValue="9.0" pageId="32" pageNumber="33" unit="km" value="9.0">9 km</quantity>
-before 
-<collectorName box="[504,568,1715,1741]" pageId="32" pageNumber="33">Ihosy</collectorName>
-, PK 26; 
+before Ihosy, PK 26
+</locationDeviation>
+; 
 <elevation box="[658,786,1715,1742]" metricMagnitude="2" metricUnit="m" metricValue="7.45" pageId="32" pageNumber="33" unit="m" value="745.0">
 <quantity box="[658,728,1715,1742]" metricMagnitude="2" metricUnit="m" metricValue="7.45" pageId="32" pageNumber="33" unit="m" value="745.0">745 m</quantity>
 a.s.l.
@@ -2557,9 +2556,8 @@ environs
 <collectionCode box="[1123,1181,1751,1777]" country="Madagascar" lsid="urn:lsid:biocol.org:col:13842" name="Parc de Tsimbazaza" pageId="32" pageNumber="33" type="Herbarium">TAN</collectionCode>
 </materialsCitation>
 • 
-<materialsCitation collectingDate="2007-01-30" collectionCode="BR, MO, TAN, UPS" collectorName="Tulear &amp; Groeninckx &amp; Rakotonasolo &amp; Dessein &amp; De Block" country="Madagascar" elevation="812" latitude="-22.17025" longLatPrecision="1" longitude="46.37761" pageId="32" pageNumber="33" specimenCount="1">
-inselberg on RN 7 to 
-<collectorName box="[244,324,1786,1812]" pageId="32" pageNumber="33">Tulear</collectorName>
+<materialsCitation collectingDate="2007-01-30" collectionCode="BR, MO, TAN, UPS" collectorName="Groeninckx &amp; Rakotonasolo &amp; Dessein &amp; De Block" country="Madagascar" elevation="812" latitude="-22.17025" longLatPrecision="1" longitude="46.37761" pageId="32" pageNumber="33" specimenCount="1">
+<locationDeviation pageId="32" pageNumber="33">inselberg on RN 7 to Tulear</locationDeviation>
 ; 
 <geoCoordinate box="[338,508,1784,1812]" degrees="22" direction="south" minutes="10" orientation="latitude" pageId="32" pageNumber="33" precision="1" seconds="12.9" value="-22.17025">22°10′12.9″ S</geoCoordinate>
 , 
@@ -2594,9 +2592,13 @@ a.s.l.
 <collectionCode box="[717,771,1822,1848]" country="Sweden" lsid="urn:lsid:biocol.org:col:15542" name="Uppsala University, Museum of Evolution, Botany Section (Fytoteket)" pageId="32" pageNumber="33" type="Herbarium">UPS</collectionCode>
 </materialsCitation>
 • 
-<materialsCitation box="[797,1271,1821,1848]" pageId="32" pageNumber="33">
-Ranohira; s.dat.; fr; 
-<emphasis box="[1035,1203,1821,1847]" italics="true" pageId="32" pageNumber="33">Homolle 1463</emphasis>
+<materialsCitation box="[797,1271,1821,1848]" collectorName="Homolle" location="Ranohira" pageId="32" pageNumber="33" specimenCount="1">
+<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE797235F1F1A1AFC0E6F58" box="[797,908,1821,1847]" name="Ranohira" pageId="32" pageNumber="33">Ranohira</location>
+; s.dat.; fr; 
+<emphasis box="[1035,1203,1821,1847]" italics="true" pageId="32" pageNumber="33">
+<collectorName box="[1035,1136,1821,1847]" pageId="32" pageNumber="33">Homolle</collectorName>
+1463
+</emphasis>
 ; K, P
 </materialsCitation>
 • 
@@ -2620,11 +2622,10 @@ a.s.l.
 ; P
 </materialsCitation>
 • 
-<materialsCitation collectingDate="1955-01-28" collectingDateMax="1955-04-10" collectingDateMin="1955-01-28" collectionCode="BR" collectorName="de la Menarahaka &amp; E d'Ihosy &amp; Humbert" country="Madagascar" elevation="750" pageId="32" pageNumber="33" specimenCount="1">
-haute vallée 
-<collectorName box="[1055,1265,1857,1883]" pageId="32" pageNumber="33">de la Menarahaka</collectorName>
+<materialsCitation collectingDate="1955-01-28" collectingDateMax="1955-04-10" collectingDateMin="1955-01-28" collectionCode="BR" collectorName="Humbert" country="Madagascar" elevation="750" location="haute vallee de la Menarahaka" pageId="32" pageNumber="33" specimenCount="1">
+<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE797235F8E1A46FB736F34" box="[908,1265,1857,1883]" country="Madagascar" name="haute vallee de la Menarahaka" pageId="32" pageNumber="33">haute vallée de la Menarahaka</location>
 , 
-<collectorName box="[1276,1394,1857,1883]" pageId="32" pageNumber="33">E d’Ihosy</collectorName>
+<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE7972358FE1A46FAF06F34" box="[1276,1394,1857,1883]" country="Madagascar" name="E d'Ihosy" pageId="32" pageNumber="33">E d’Ihosy</location>
 ; 
 <elevation box="[189,390,1892,1919]" metricMagnitude="2" metricUnit="m" metricValue="7.5" metricValueMax="8.0" metricValueMin="7.0" pageId="32" pageNumber="33" unit="m" value="750.0" valueMax="800.0" valueMin="700.0">
 <quantity box="[189,324,1892,1919]" metricMagnitude="2" metricUnit="m" metricValue="7.5" metricValueMax="8.0" metricValueMin="7.0" pageId="32" pageNumber="33" unit="m" value="750.0" valueMax="800.0" valueMin="700.0">700–800 m</quantity>
@@ -2662,15 +2663,15 @@ a.s.l.
 <collectorName box="[431,535,1927,1953]" pageId="32" pageNumber="33">Humbert</collectorName>
 28795
 </emphasis>
-; P. – 
+; P. –
+</materialsCitation>
+<materialsCitation collectingDate="1955-02" collectionCode="BR, MO, TAN" collectorName="Ranohira &amp; E d'Isalo &amp; Humbert" country="Madagascar" elevation="775" location="Ambatofinandrahana District" municipality="Amoron'i Mania Region" pageId="32" pageNumber="33" specimenCount="1">
 <emphasis bold="true" box="[685,1379,1927,1953]" pageId="32" pageNumber="33">
 <collectingMunicipality box="[685,994,1927,1953]" pageId="32" pageNumber="33">Amoron’i Mania Region</collectingMunicipality>
 , 
 <location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE797235FEC1A80FAE16FCE" box="[1006,1379,1927,1953]" country="Madagascar" municipality="Amoron'i Mania Region" name="Ambatofinandrahana District" pageId="32" pageNumber="33">Ambatofinandrahana District</location>
 </emphasis>
-</materialsCitation>
 • 
-<materialsCitation collectingDate="2012-04-27" collectionCode="BR, MO, TAN" collectorName="Analandratehina &amp; Ambatomenaloha &amp; Andrianaivoravelona &amp; Ravaoarisoa &amp; Lazasoa &amp; Ralaivao &amp; Manampisoa" country="Madagascar" elevation="1615" pageId="32" pageNumber="33" specimenCount="1">
 <collectorName box="[190,389,1963,1989]" pageId="32" pageNumber="33">Analandratehina</collectorName>
 , route vers 
 <collectorName box="[528,742,1963,1989]" pageId="32" pageNumber="33">Ambatomenaloha</collectorName>
@@ -2783,13 +2784,13 @@ SE of Analabebiby
 <collectionCode box="[756,807,371,397]" country="USA" lsid="urn:lsid:biocol.org:col:15859" name="Missouri Botanical Garden" pageId="33" pageNumber="34" type="Herbarium">MO</collectionCode>
 , P, 
 <collectionCode box="[856,920,371,397]" country="Madagascar" lsid="urn:lsid:biocol.org:col:13842" name="Parc de Tsimbazaza" pageId="33" pageNumber="34" type="Herbarium">TAN</collectionCode>
-. – 
+. –
+</materialsCitation>
+<materialsCitation collectingDate="2011-12-16" collectionCode="BR, MO, TAN" collectorName="Analabe &amp; Randriamboavonjy &amp; Rajaovelona &amp; Andriamilanto" country="Madagascar" county="Faliarivo" elevation="1600" location="Ambositra District" municipality="Haute Matsiatra Region" pageId="33" pageNumber="34" specimenCount="1">
 <emphasis bold="true" box="[961,1209,371,397]" pageId="33" pageNumber="34">
 <location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE697225FC31C74FB3B69E2" box="[961,1209,371,397]" country="Madagascar" name="Ambositra District" pageId="33" pageNumber="34">Ambositra District</location>
 </emphasis>
-</materialsCitation>
 • 
-<materialsCitation collectingDate="1955-01-15" collectorName="W d'Ambositra &amp; Humbert &amp; Capuron" country="Madagascar" county="Faliarivo" elevation="1600" location="Ambalavao District" municipality="Haute Matsiatra Region" pageId="33" pageNumber="34" specimenCount="1">
 <collectingCounty box="[1242,1355,371,397]" pageId="33" pageNumber="34">Faliarivo</collectingCounty>
 , 
 <collectorName pageId="33" pageNumber="34">W d’Ambositra</collectorName>
@@ -2809,16 +2810,15 @@ a.s.l.
 <collectorName box="[846,949,407,433]" pageId="33" pageNumber="34">Capuron</collectorName>
 28023
 </emphasis>
-; P. – 
+; P. –
+</materialsCitation>
+<materialsCitation collectingDate="2011-12-16" collectionCode="BR, MO, TAN" collectorName="Analabe &amp; Randriamboavonjy &amp; Rajaovelona &amp; Andriamilanto" country="Madagascar" county="Faliarivo" elevation="1600" location="Ambositra District" municipality="Haute Matsiatra Region" pageId="33" pageNumber="34" specimenCount="1" stateProvince="Toliara">
 <emphasis bold="true" pageId="33" pageNumber="34">
 <collectingMunicipality box="[1090,1393,406,433]" pageId="33" pageNumber="34">Haute Matsiatra Region</collectingMunicipality>
 , 
 <location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE697225CBF1CBDFE3069BB" box="[189,434,442,468]" country="Madagascar" county="Faliarivo" municipality="Haute Matsiatra Region" name="Ambalavao District" pageId="33" pageNumber="34">Ambalavao District</location>
 </emphasis>
-</materialsCitation>
-• 
-<materialsCitation collectingDate="1952-12-19" collectionCode="TAN, TEF" collectorName="Andringitra &amp; Sendrisoa &amp; Rakoto" country="Madagascar" location="Amboasary-Atsimo District" municipality="Anosy Region" pageId="33" pageNumber="34" specimenCount="1" stateProvince="Toliara">
-RNI 5, 
+• RNI 5, 
 <collectorName box="[544,684,442,468]" pageId="33" pageNumber="34">Andringitra</collectorName>
 , 
 <collectorName box="[696,816,442,468]" pageId="33" pageNumber="34">Sendrisoa</collectorName>
@@ -2835,7 +2835,9 @@ RNI 5,
 <collectionCode box="[1269,1330,442,468]" country="Madagascar" lsid="urn:lsid:biocol.org:col:13842" name="Parc de Tsimbazaza" pageId="33" pageNumber="34" type="Herbarium">TAN</collectionCode>
 , 
 <collectionCode box="[1341,1395,442,468]" country="Madagascar" httpUri="http://biocol.org/urn:lsid:biocol.org:col:12774" lsid="urn:lsid:biocol.org:col:12774" name="Centre National de la Recherche Appliquée au Developement Rural" pageId="33" pageNumber="34" type="Herbarium">TEF</collectionCode>
-. – 
+. –
+</materialsCitation>
+<materialsCitation collectingDate="2011-12-16" collectionCode="BR, MO, TAN" collectorName="Analabe &amp; Randriamboavonjy &amp; Rajaovelona &amp; Andriamilanto" country="Madagascar" county="Faliarivo" elevation="1600" location="Ambositra District" municipality="Haute Matsiatra Region" pageId="33" pageNumber="34" specimenCount="1" stateProvince="Toliara">
 <emphasis bold="true" box="[210,963,477,503]" pageId="33" pageNumber="34">
 <collectingRegion box="[210,419,477,503]" country="Madagascar" name="Toliara" pageId="33" pageNumber="34">Toliara Province</collectingRegion>
 , 
@@ -2843,10 +2845,7 @@ RNI 5,
 , 
 <location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE697225E6B1CDAFC416998" box="[617,963,477,503]" country="Madagascar" municipality="Anosy Region" name="Amboasary-Atsimo District" pageId="33" pageNumber="34" stateProvince="Toliara">Amboasary-Atsimo District</location>
 </emphasis>
-</materialsCitation>
-• 
-<materialsCitation collectingDate="1945-01-25" collectorName="Homolle E" country="Madagascar" county="d'Ankirikirika" location="Betroka District" municipality="Ankiritry" pageId="33" pageNumber="34" specimenCount="1">
-forêt 
+• forêt 
 <collectingCounty box="[1049,1218,477,503]" pageId="33" pageNumber="34">d’Ankirikirika</collectingCounty>
 (
 <collectingMunicipality box="[1233,1349,477,504]" pageId="33" pageNumber="34">Ankiritry</collectingMunicipality>
@@ -2859,14 +2858,13 @@ forêt
 <collectorName box="[356,489,513,539]" pageId="33" pageNumber="34">Homolle E</collectorName>
 1
 </emphasis>
-; P. – 
+; P. –
+</materialsCitation>
+<materialsCitation collectingDate="2011-12-16" collectionCode="BR, MO, TAN" collectorName="Analabe &amp; Randriamboavonjy &amp; Rajaovelona &amp; Andriamilanto" country="Madagascar" county="Faliarivo" elevation="1600" location="Ambositra District" municipality="Haute Matsiatra Region" pageId="33" pageNumber="34" specimenCount="1" stateProvince="Toliara">
 <emphasis bold="true" box="[572,779,512,539]" pageId="33" pageNumber="34">
 <location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE697225E3E1F06FC896A75" box="[572,779,512,539]" country="Madagascar" county="d'Ankirikirika" municipality="Ankiritry" name="Betroka District" pageId="33" pageNumber="34">Betroka District</location>
 </emphasis>
-</materialsCitation>
-• 
-<materialsCitation collectingDate="1933-12" collectionCode="BR" collectorName="de la Manambolo &amp; Mandrare &amp; de la Sakamalio &amp; Morahariva &amp; Humbert" country="Madagascar" elevation="1100" location="Taolagnaro District" pageId="33" pageNumber="34" specimenCount="1">
-vallée 
+• vallée 
 <collectorName box="[888,1102,513,539]" pageId="33" pageNumber="34">de la Manambolo</collectorName>
 , bassin du 
 <collectorName box="[1238,1357,513,539]" pageId="33" pageNumber="34">Mandrare</collectorName>
@@ -2890,14 +2888,13 @@ a.s.l.
 </emphasis>
 ; 
 <collectionCode box="[1325,1367,549,575]" country="Brazil" name="Embrapa Agrobiology Diazothrophic Microbial Culture Collection" pageId="33" pageNumber="34">BR</collectionCode>
-, P. – 
+, P. –
+</materialsCitation>
+<materialsCitation collectingDate="2011-12-16" collectionCode="BR, MO, TAN" collectorName="Analabe &amp; Randriamboavonjy &amp; Rajaovelona &amp; Andriamilanto" country="Madagascar" county="Faliarivo" elevation="1600" location="Ambositra District" municipality="Haute Matsiatra Region" pageId="33" pageNumber="34" specimenCount="1" stateProvince="Toliara">
 <emphasis bold="true" box="[212,455,583,609]" pageId="33" pageNumber="34">
 <location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE697225CD61F40FE456A0E" box="[212,455,583,609]" country="Madagascar" name="Taolagnaro District" pageId="33" pageNumber="34">Taolagnaro District</location>
 </emphasis>
-</materialsCitation>
-• 
-<materialsCitation collectingDate="1975-02-21" collectionCode="MO, TAN" collectorName="Croat" country="Madagascar" elevation="110" location="W of Manambaro" pageId="33" pageNumber="34" specimenCount="1">
-RN 
+• RN 
 <quantity box="[531,649,583,609]" metricMagnitude="4" metricUnit="m" metricValue="1.016" pageId="33" pageNumber="34" unit="km" value="10.16">10, 16 km</quantity>
 <location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE697225E931F4FFCE56A0E" box="[657,871,583,610]" country="Madagascar" name="W of Manambaro" pageId="33" pageNumber="34">W of Manambaro</location>
 ; 
@@ -2920,13 +2917,15 @@ a.s.l.
 <collectionCode box="[313,371,619,645]" country="Madagascar" lsid="urn:lsid:biocol.org:col:13842" name="Parc de Tsimbazaza" pageId="33" pageNumber="34" type="Herbarium">TAN</collectionCode>
 </materialsCitation>
 • 
-<materialsCitation collectingDate="1994-06-21" collectingDateMax="1994-06-23" collectingDateMin="1994-06-21" collectionCode="BR, MO" collectorName="Andohahela &amp; Fort-Dauphin &amp; Ankazofotsy &amp; Eboroke" country="Madagascar" elevation="175" pageId="33" pageNumber="34" specimenCount="1">
+<materialsCitation collectingDate="1994-06-21" collectingDateMax="1994-06-23" collectingDateMin="1994-06-21" collectionCode="BR, MO" collectorName="Eboroke" country="Madagascar" elevation="175" location="Andohahela" pageId="33" pageNumber="34" specimenCount="1">
 RNI 11, 
-<collectorName box="[494,639,619,645]" pageId="33" pageNumber="34">Andohahela</collectorName>
+<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE697225DEC1F6CFDFD6AEA" box="[494,639,619,645]" country="Madagascar" name="Andohahela" pageId="33" pageNumber="34">Andohahela</location>
 , 
-<collectorName box="[650,813,619,645]" pageId="33" pageNumber="34">Fort-Dauphin</collectorName>
-, parcelle 3, 
-<collectorName box="[951,1105,619,645]" pageId="33" pageNumber="34">Ankazofotsy</collectorName>
+<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE697225E881F6CFCAF6AEA" box="[650,813,619,645]" country="Madagascar" name="Fort-Dauphin" pageId="33" pageNumber="34">Fort-Dauphin</location>
+, 
+<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE697225F3A1F6CFC296AEA" box="[824,939,619,645]" country="Madagascar" name="parcelle 3" pageId="33" pageNumber="34">parcelle 3</location>
+, 
+<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE697225FB51F6CFBD36AEA" box="[951,1105,619,645]" country="Madagascar" name="Ankazofotsy" pageId="33" pageNumber="34">Ankazofotsy</location>
 ; 
 <elevation box="[1116,1312,619,646]" metricMagnitude="2" metricUnit="m" metricValue="1.75" metricValueMax="2.5" metricValueMin="1.0" pageId="33" pageNumber="34" unit="m" value="175.0" valueMax="250.0" valueMin="100.0">
 <quantity box="[1116,1249,619,646]" metricMagnitude="2" metricUnit="m" metricValue="1.75" metricValueMax="2.5" metricValueMin="1.0" pageId="33" pageNumber="34" unit="m" value="175.0" valueMax="250.0" valueMin="100.0">100–250 m</quantity>
@@ -2948,14 +2947,13 @@ a.s.l.
 , P
 </materialsCitation>
 • 
-<materialsCitation collectingDate="2009-04-25" collectionCode="BR, MO" collectorName="Ambatoabo &amp; Mahamavo &amp; Ankazomena &amp; Andohahela &amp; Rakotonasolo &amp; Ratovoson &amp; Iso Fiadana &amp; Rasolondrainy &amp; Constant Mbola" country="Madagascar" elevation="660" pageId="33" pageNumber="34" specimenCount="1">
-<collectorName box="[710,850,654,680]" pageId="33" pageNumber="34">Ambatoabo</collectorName>
+<materialsCitation collectingDate="2009-04-25" collectionCode="BR, MO" collectorName="Rakotonasolo &amp; Ratovoson &amp; Iso Fiadana &amp; Rasolondrainy &amp; Constant Mbola" country="Madagascar" elevation="660" location="Mahamavo" pageId="33" pageNumber="34" specimenCount="1">
+Ambatoabo, 
+<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE697225F5C1F89FC676AC7" box="[862,997,654,680]" country="Madagascar" name="Mahamavo" pageId="33" pageNumber="34">Mahamavo</location>
 , 
-<collectorName box="[862,997,654,680]" pageId="33" pageNumber="34">Mahamavo</collectorName>
+<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE697225FED1F89FB0F6AC7" box="[1007,1165,654,680]" country="Madagascar" name="Ankazomena" pageId="33" pageNumber="34">Ankazomena</location>
 , 
-<collectorName box="[1007,1165,654,680]" pageId="33" pageNumber="34">Ankazomena</collectorName>
-, subhumid forest of 
-<collectorName box="[189,335,689,715]" pageId="33" pageNumber="34">Andohahela</collectorName>
+<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE69722589B1F89FECD6AA4" country="Madagascar" name="subhumid forest of Andohahela" pageId="33" pageNumber="34">subhumid forest of Andohahela</location>
 ; 
 <elevation box="[348,490,689,716]" metricMagnitude="2" metricUnit="m" metricValue="6.6" pageId="33" pageNumber="34" unit="m" value="660.0">
 <quantity box="[348,424,689,716]" metricMagnitude="2" metricUnit="m" metricValue="6.6" pageId="33" pageNumber="34" unit="m" value="660.0">660 m</quantity>
@@ -2985,10 +2983,12 @@ a.s.l.
 , P
 </materialsCitation>
 • 
-<materialsCitation collectingDate="1993-02-18" collectionCode="BR, MO, WAG" collectorName="Andohahela &amp; Randriamampionona" country="Madagascar" elevation="200" pageId="33" pageNumber="34" specimenCount="1">
+<materialsCitation collectingDate="1993-02-18" collectionCode="BR, MO, WAG" collectorName="Randriamampionona" country="Madagascar" elevation="200" location="Andohahela" pageId="33" pageNumber="34" specimenCount="1">
 RNI 11, 
-<collectorName box="[710,855,725,751]" pageId="33" pageNumber="34">Andohahela</collectorName>
-, parcelle 3; 
+<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE697225EC41FD2FCD56A80" box="[710,855,725,751]" country="Madagascar" name="Andohahela" pageId="33" pageNumber="34">Andohahela</location>
+, 
+<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE697225F601FD2FC546A80" box="[866,982,725,751]" country="Madagascar" name="parcelle 3" pageId="33" pageNumber="34">parcelle 3</location>
+; 
 <elevation box="[995,1190,725,751]" metricMagnitude="2" metricUnit="m" metricValue="2.0" metricValueMax="3.0" metricValueMin="1.0" pageId="33" pageNumber="34" unit="m" value="200.0" valueMax="300.0" valueMin="100.0">
 <quantity box="[995,1127,725,751]" metricMagnitude="2" metricUnit="m" metricValue="2.0" metricValueMax="3.0" metricValueMin="1.0" pageId="33" pageNumber="34" unit="m" value="200.0" valueMax="300.0" valueMin="100.0">100–300 m</quantity>
 a.s.l.
@@ -3010,10 +3010,13 @@ a.s.l.
 <collectionCode box="[672,738,760,786]" country="Netherlands" lsid="urn:lsid:biocol.org:col:15578" name="Wageningen University" pageId="33" pageNumber="34" type="Herbarium">WAG</collectionCode>
 </materialsCitation>
 • 
-<materialsCitation collectingDate="1993-04-08" collectingDateMax="1993-04-10" collectingDateMin="1993-04-08" collectionCode="BR, MO, UPS, WAG" collectorName="Andohahela &amp; Randriamampionona" country="Madagascar" elevation="200" pageId="33" pageNumber="34" specimenCount="1">
-RNI 11, 
-<collectorName box="[855,999,760,786]" pageId="33" pageNumber="34">Andohahela</collectorName>
-, parcelle 3; 
+<materialsCitation collectingDate="1993-04-08" collectingDateMax="1993-04-10" collectingDateMin="1993-04-08" collectionCode="BR, MO, UPS, WAG" collectorName="Randriamampionona" country="Madagascar" elevation="200" location="Andohahela" pageId="33" pageNumber="34" specimenCode="RNI 11" specimenCount="1">
+<specimenCode box="[760,846,760,787]" pageId="33" pageNumber="34">RNI 11</specimenCode>
+, 
+<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE697225F551FFFFC656B7D" box="[855,999,760,786]" country="Madagascar" name="Andohahela" pageId="33" pageNumber="34">Andohahela</location>
+, 
+<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE697225FF31FFFFBE66B7D" box="[1009,1124,760,786]" country="Madagascar" name="parcelle 3" pageId="33" pageNumber="34">parcelle 3</location>
+; 
 <elevation box="[1135,1328,760,787]" metricMagnitude="2" metricUnit="m" metricValue="2.0" metricValueMax="3.0" metricValueMin="1.0" pageId="33" pageNumber="34" unit="m" value="200.0" valueMax="300.0" valueMin="100.0">
 <quantity box="[1135,1267,760,787]" metricMagnitude="2" metricUnit="m" metricValue="2.0" metricValueMax="3.0" metricValueMin="1.0" pageId="33" pageNumber="34" unit="m" value="200.0" valueMax="300.0" valueMin="100.0">100–300 m</quantity>
 a.s.l.
@@ -3059,16 +3062,15 @@ a.s.l.
 <collectionCode box="[968,1019,831,857]" country="USA" lsid="urn:lsid:biocol.org:col:15859" name="Missouri Botanical Garden" pageId="33" pageNumber="34" type="Herbarium">MO</collectionCode>
 , P, 
 <collectionCode box="[1061,1124,831,857]" country="Madagascar" lsid="urn:lsid:biocol.org:col:13842" name="Parc de Tsimbazaza" pageId="33" pageNumber="34" type="Herbarium">TAN</collectionCode>
-. – 
+. –
+</materialsCitation>
+<materialsCitation collectingDate="2001-05-15" collectionCode="BR, CNARP, MO, TAN" collectorName="Andohahela &amp; Ankazofotsy &amp; Randriamampionona" country="Madagascar" elevation="531" location="Beroroha District" municipality="Atsimo-Andrefana Region" pageId="33" pageNumber="34" specimenCount="1">
 <emphasis bold="true" pageId="33" pageNumber="34">
 <collectingMunicipality pageId="33" pageNumber="34">Atsimo-Andrefana Region</collectingMunicipality>
 , 
 <location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE697225D211E65FE7F6B13" box="[291,509,866,892]" country="Madagascar" municipality="Atsimo-Andrefana Region" name="Beroroha District" pageId="33" pageNumber="34">Beroroha District</location>
 </emphasis>
-</materialsCitation>
-• 
-<materialsCitation collectingDate="2010-01-16" collectionCode="MO, TAN" collectorName="Beronono-Makay &amp; Behetaheta &amp; Rakotovao &amp; Razakamalala &amp; Andriantiana" country="Madagascar" elevation="531" pageId="33" pageNumber="34" specimenCount="1">
-fkt. 
+• fkt. 
 <collectorName box="[580,788,866,892]" pageId="33" pageNumber="34">Beronono-Makay</collectorName>
 , déviation canyon vers le plateau 
 <collectorName box="[1180,1314,866,892]" pageId="33" pageNumber="34">Behetaheta</collectorName>
@@ -3124,13 +3126,13 @@ a.s.l.
 <collectionCode box="[322,373,973,999]" country="USA" lsid="urn:lsid:biocol.org:col:15859" name="Missouri Botanical Garden" pageId="33" pageNumber="34" type="Herbarium">MO</collectionCode>
 , P, 
 <collectionCode box="[416,479,973,999]" country="Madagascar" lsid="urn:lsid:biocol.org:col:13842" name="Parc de Tsimbazaza" pageId="33" pageNumber="34" type="Herbarium">TAN</collectionCode>
-. – 
+. –
+</materialsCitation>
+<materialsCitation box="[515,1379,972,999]" collectingDate="2011-01-09" collectionCode="BR, MO, TAN" collectorName="Antsoa &amp; Antanamary &amp; Androsy &amp; Razakamalala" country="Madagascar" elevation="254" location="Betioky District" pageId="33" pageNumber="34" specimenCount="1">
 <emphasis bold="true" box="[515,717,972,998]" pageId="33" pageNumber="34">
 <location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE697225E011ECBFD4F6B89" box="[515,717,972,998]" country="Madagascar" name="Betioky District" pageId="33" pageNumber="34">Betioky District</location>
 </emphasis>
-</materialsCitation>
 • 
-<materialsCitation box="[746,1379,972,999]" collectingDate="1913-01-14" collectorName="Afzelius" country="Madagascar" location="Manasoa Tanosy" pageId="33" pageNumber="34" specimenCount="1">
 <location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE697225EE81ECAFC356B88" box="[746,951,973,999]" country="Madagascar" name="Manasoa Tanosy" pageId="33" pageNumber="34">Manasoa Tanosy</location>
 ; 
 <date box="[965,1123,973,999]" pageId="33" pageNumber="34" value="1913-01-14">
@@ -3209,14 +3211,13 @@ a.s.l.
 <collectionCode box="[734,776,1079,1105]" country="Brazil" name="Embrapa Agrobiology Diazothrophic Microbial Culture Collection" pageId="33" pageNumber="34">BR</collectionCode>
 , 
 <collectionCode box="[789,851,1079,1105]" country="Madagascar" lsid="urn:lsid:biocol.org:col:13842" name="Parc de Tsimbazaza" pageId="33" pageNumber="34" type="Herbarium">TAN</collectionCode>
-. – 
+. –
+</materialsCitation>
+<materialsCitation collectingDate="2007-02-06" collectionCode="BR, MO, TAN" collectorName="Betioky &amp; Ampanihy &amp; De Block &amp; Dessein &amp; Groeninckx &amp; Rakotonasolo" country="Madagascar" elevation="335" location="Morombe District" pageId="33" pageNumber="34" specimenCount="1" stateProvince="Toliara">
 <emphasis bold="true" box="[887,1115,1078,1105]" pageId="33" pageNumber="34">
 <location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE697225F751930FBD96C3F" box="[887,1115,1078,1105]" country="Madagascar" name="Morombe District" pageId="33" pageNumber="34">Morombe District</location>
 </emphasis>
-</materialsCitation>
-• 
-<materialsCitation collectingDate="1998-02-12" collectionCode="MO" collectorName="Mikea &amp; McPherson &amp; Razafimandimbison" country="Madagascar" elevation="50" location="W of Vorehy" pageId="33" pageNumber="34" specimenCount="1" stateProvince="Toliara">
-N of 
+• N of 
 <collectingRegion box="[1206,1292,1078,1104]" country="Madagascar" name="Toliara" pageId="33" pageNumber="34">Toliara</collectingRegion>
 , forêt de 
 <collectorName box="[189,267,1114,1140]" pageId="33" pageNumber="34">Mikea</collectorName>
@@ -3267,13 +3268,13 @@ et al. 308
 <collectionCode box="[506,553,1185,1211]" country="USA" lsid="urn:lsid:biocol.org:col:15859" name="Missouri Botanical Garden" pageId="33" pageNumber="34" type="Herbarium">MO</collectionCode>
 n.v., P online, 
 <collectionCode box="[718,775,1185,1211]" country="Madagascar" lsid="urn:lsid:biocol.org:col:13842" name="Parc de Tsimbazaza" pageId="33" pageNumber="34" type="Herbarium">TAN</collectionCode>
-n.v. – 
+n.v. –
+</materialsCitation>
+<materialsCitation collectingDate="2000-02-01" collectionCode="MO, TAN" collectorName="de Mikea &amp; Ankilimihavotse-Ankindranoke &amp; Basibasy &amp; Ranaivojaona" country="Madagascar" county="Mahaboboka" elevation="25" location="Sakaraha District" municipality="Marotsiraka" pageId="33" pageNumber="34" specimenCount="1">
 <emphasis bold="true" box="[848,1066,1184,1210]" pageId="33" pageNumber="34">
 <location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE697225F5219A7FBA86CD5" box="[848,1066,1184,1210]" country="Madagascar" name="Sakaraha District" pageId="33" pageNumber="34">Sakaraha District</location>
 </emphasis>
-</materialsCitation>
 • 
-<materialsCitation collectingDate="2010-12-20" collectorName="Andriamihajarivo &amp; Razanatsima &amp; Fagnarena Miandry" country="Madagascar" county="Mahaboboka" elevation="447" location="d'Ambinanitelo" municipality="Marotsiraka" pageId="33" pageNumber="34" specimenCount="1">
 <collectingCounty box="[1087,1241,1185,1211]" pageId="33" pageNumber="34">Mahaboboka</collectingCounty>
 , 
 <collectingMunicipality box="[1252,1395,1185,1211]" pageId="33" pageNumber="34">Marotsiraka</collectingMunicipality>
@@ -3300,14 +3301,12 @@ a.s.l.
 ; P online
 </materialsCitation>
 • 
-<materialsCitation collectingDate="2012-01-16" collectionCode="BR, MO, TAN" collectorName="Mahaboboka &amp; Marotsiraka &amp; d'Analavelona &amp; Manasay &amp; Andriamihajarivo &amp; Fagnarea" country="Madagascar" elevation="1293" pageId="33" pageNumber="34" specimenCount="1">
-<collectorName box="[633,789,1255,1281]" pageId="33" pageNumber="34">Mahaboboka</collectorName>
+<materialsCitation collectingDate="2012-01-16" collectionCode="BR, MO, TAN" collectorName="Andriamihajarivo &amp; Fagnarea" country="Madagascar" elevation="1293" location="Mahaboboka" pageId="33" pageNumber="34" specimenCount="1">
+<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE697225E7B19E0FC976D6E" box="[633,789,1255,1281]" country="Madagascar" name="Mahaboboka" pageId="33" pageNumber="34">Mahaboboka</location>
 , 
-<collectorName box="[802,947,1255,1281]" pageId="33" pageNumber="34">Marotsiraka</collectorName>
-, partie NW de la forêt 
-<collectorName box="[1218,1394,1255,1281]" pageId="33" pageNumber="34">d’Analavelona</collectorName>
-, près de la source, W de la rivière de 
-<collectorName box="[642,754,1291,1317]" pageId="33" pageNumber="34">Manasay</collectorName>
+<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE697225F2019E0FC316D6E" box="[802,947,1255,1281]" country="Madagascar" name="Marotsiraka" pageId="33" pageNumber="34">Marotsiraka</location>
+, 
+<locationDeviation pageId="33" pageNumber="34">partie NW de la forêt d’Analavelona, près de la source, W de la rivière de Manasay</locationDeviation>
 ; 
 <elevation box="[768,927,1291,1317]" metricMagnitude="3" metricUnit="m" metricValue="1.293" pageId="33" pageNumber="34" unit="m" value="1293.0">
 <quantity box="[768,860,1291,1317]" metricMagnitude="3" metricUnit="m" metricValue="1.293" pageId="33" pageNumber="34" unit="m" value="1293.0">1293 m</quantity>
@@ -3332,16 +3331,14 @@ a.s.l.
 <collectionCode box="[516,573,1326,1352]" country="Madagascar" lsid="urn:lsid:biocol.org:col:13842" name="Parc de Tsimbazaza" pageId="33" pageNumber="34" type="Herbarium">TAN</collectionCode>
 </materialsCitation>
 • 
-<materialsCitation collectingDate="2016-12-01" collectionCode="MO, TAN" collectorName="Mahaboboka &amp; Marotsiraka Betsileo &amp; Andombiry &amp; d'Analavelona &amp; Manasay &amp; Andriamihajarivo &amp; Rehary &amp; Bruno" country="Madagascar" elevation="997" pageId="33" pageNumber="34" specimenCount="1">
-<collectorName box="[595,749,1326,1352]" pageId="33" pageNumber="34">Mahaboboka</collectorName>
+<materialsCitation collectingDate="2016-12-01" collectionCode="MO, TAN" collectorName="Andriamihajarivo &amp; Rehary &amp; Bruno" country="Madagascar" elevation="997" location="Mahaboboka" pageId="33" pageNumber="34" specimenCount="1">
+<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE697225E511829FD6F6D27" box="[595,749,1326,1352]" country="Madagascar" name="Mahaboboka" pageId="33" pageNumber="34">Mahaboboka</location>
 , 
-<collectorName box="[759,1002,1326,1352]" pageId="33" pageNumber="34">Marotsiraka Betsileo</collectorName>
-, village le plus proche 
-<collectorName box="[1260,1395,1326,1352]" pageId="33" pageNumber="34">Andombiry</collectorName>
-, forêt 
-<collectorName box="[255,431,1361,1387]" pageId="33" pageNumber="34">d’Analavelona</collectorName>
-le long de la rivière 
-<collectorName box="[689,801,1362,1388]" pageId="33" pageNumber="34">Manasay</collectorName>
+<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE697225EF51829FC686D27" box="[759,1002,1326,1352]" country="Madagascar" name="Marotsiraka Betsileo" pageId="33" pageNumber="34">Marotsiraka Betsileo</location>
+, 
+<locationDeviation box="[1012,1395,1326,1352]" pageId="33" pageNumber="34">village le plus proche Andombiry</locationDeviation>
+, 
+<locationDeviation box="[189,801,1361,1388]" pageId="33" pageNumber="34">forêt d’Analavelona le long de la rivière Manasay</locationDeviation>
 ; 
 <elevation box="[815,960,1361,1388]" metricMagnitude="2" metricUnit="m" metricValue="9.97" pageId="33" pageNumber="34" unit="m" value="997.0">
 <quantity box="[815,892,1362,1388]" metricMagnitude="2" metricUnit="m" metricValue="9.97" pageId="33" pageNumber="34" unit="m" value="997.0">997 m</quantity>
@@ -3360,15 +3357,11 @@ a.s.l.
 <collectorName box="[310,383,1398,1423]" pageId="33" pageNumber="34">Bruno</collectorName>
 1992
 </emphasis>
-; 
-<collectionCode box="[463,510,1397,1423]" country="USA" lsid="urn:lsid:biocol.org:col:15859" name="Missouri Botanical Garden" pageId="33" pageNumber="34" type="Herbarium">MO</collectionCode>
-n.v., P online, 
-<collectionCode box="[682,740,1397,1423]" country="Madagascar" lsid="urn:lsid:biocol.org:col:13842" name="Parc de Tsimbazaza" pageId="33" pageNumber="34" type="Herbarium">TAN</collectionCode>
-n.v
+; MO n.v., P online, TAN n.v
 </materialsCitation>
 . • 
-<materialsCitation box="[813,1398,1397,1424]" collectingDate="1956-02" collectionCode="BR, TAN" collectorName="Sakaraha &amp; Bosser" country="Madagascar" pageId="33" pageNumber="34" specimenCount="1">
-<collectorName box="[813,924,1397,1423]" pageId="33" pageNumber="34">Sakaraha</collectorName>
+<materialsCitation box="[813,1398,1397,1424]" collectingDate="1956-02" collectionCode="BR, TAN" collectorName="Bosser" country="Madagascar" location="Sakaraha" pageId="33" pageNumber="34" specimenCount="1">
+<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE697225F2F1872FC1E6DE0" box="[813,924,1397,1423]" country="Madagascar" name="Sakaraha" pageId="33" pageNumber="34">Sakaraha</location>
 ; 
 <date box="[935,1055,1397,1424]" pageId="33" pageNumber="34" value="1956-02">
 <collectingDate box="[935,1055,1397,1424]" pageId="33" pageNumber="34" value="1956-02">Feb. 1956</collectingDate>
@@ -3427,10 +3420,10 @@ a.s.l.
 , P
 </materialsCitation>
 • 
-<materialsCitation collectingDate="2007-02-01" collectionCode="BR, MO, TAN" collectorName="Zombitse-Isoky &amp; Zombitse PN &amp; Groeninckx &amp; Rakotonasolo &amp; Dessein &amp; De Block" country="Madagascar" elevation="612" pageId="33" pageNumber="34" specimenCount="1">
-<collectorName box="[277,461,1503,1529]" pageId="33" pageNumber="34">Zombitse-Isoky</collectorName>
+<materialsCitation collectingDate="2007-02-01" collectionCode="BR, MO, TAN" collectorName="Groeninckx &amp; Rakotonasolo &amp; Dessein &amp; De Block" country="Madagascar" elevation="612" location="Zombitse-Isoky" pageId="33" pageNumber="34" specimenCount="1">
+<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE697225D1718D8FE4F6D96" box="[277,461,1503,1529]" country="Madagascar" name="Zombitse-Isoky" pageId="33" pageNumber="34">Zombitse-Isoky</location>
 , 
-<collectorName box="[471,626,1503,1530]" pageId="33" pageNumber="34">Zombitse PN</collectorName>
+<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE697225DD518D8FDF06D95" box="[471,626,1503,1530]" country="Madagascar" name="Zombitse PN" pageId="33" pageNumber="34">Zombitse PN</location>
 ; 
 <elevation box="[636,769,1503,1530]" metricMagnitude="2" metricUnit="m" metricValue="6.12" pageId="33" pageNumber="34" unit="m" value="612.0">
 <quantity box="[636,708,1503,1530]" metricMagnitude="2" metricUnit="m" metricValue="6.12" pageId="33" pageNumber="34" unit="m" value="612.0">612 m</quantity>
@@ -3459,14 +3452,12 @@ a.s.l.
 <collectionCode box="[535,593,1539,1565]" country="Madagascar" lsid="urn:lsid:biocol.org:col:13842" name="Parc de Tsimbazaza" pageId="33" pageNumber="34" type="Herbarium">TAN</collectionCode>
 </materialsCitation>
 • 
-<materialsCitation collectingDate="2011-02-20" collectionCode="MO, TAN" collectorName="Mahaboboka &amp; Marotsiraka Betsileo &amp; de Marokobay NE &amp; d'Ambinanintelo &amp; Randrianarivony &amp; Rakotoarivony &amp; Helison &amp; Heriman &amp; Rehary" country="Madagascar" elevation="462" pageId="33" pageNumber="34" specimenCount="1">
-<collectorName box="[616,772,1538,1564]" pageId="33" pageNumber="34">Mahaboboka</collectorName>
-, fkt. 
-<collectorName box="[829,1076,1538,1564]" pageId="33" pageNumber="34">Marotsiraka Betsileo</collectorName>
-, forêt 
-<collectorName box="[1148,1363,1538,1565]" pageId="33" pageNumber="34">de Marokobay NE</collectorName>
-du village 
-<collectorName box="[281,490,1574,1600]" pageId="33" pageNumber="34">d’Ambinanintelo</collectorName>
+<materialsCitation collectingDate="2011-02-20" collectionCode="MO, TAN" collectorName="Randrianarivony &amp; Rakotoarivony &amp; Helison &amp; Heriman &amp; Rehary" country="Madagascar" elevation="462" location="Mahaboboka" pageId="33" pageNumber="34" specimenCount="1">
+<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE697225E6A1B05FC866E73" box="[616,772,1538,1564]" country="Madagascar" name="Mahaboboka" pageId="33" pageNumber="34">Mahaboboka</location>
+, 
+<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE697225F0D1B05FBB66E73" box="[783,1076,1538,1564]" country="Madagascar" name="fkt. Marotsiraka Betsileo" pageId="33" pageNumber="34">fkt. Marotsiraka Betsileo</location>
+, 
+<locationDeviation pageId="33" pageNumber="34">forêt de Marokobay NE du village d’Ambinanintelo</locationDeviation>
 ; 
 <elevation box="[504,650,1574,1600]" metricMagnitude="2" metricUnit="m" metricValue="4.62" pageId="33" pageNumber="34" unit="m" value="462.0">
 <quantity box="[504,582,1574,1600]" metricMagnitude="2" metricUnit="m" metricValue="4.62" pageId="33" pageNumber="34" unit="m" value="462.0">462 m</quantity>
@@ -3489,22 +3480,17 @@ a.s.l.
 <collectorName box="[329,413,1609,1635]" pageId="33" pageNumber="34">Rehary</collectorName>
 245
 </emphasis>
-; 
-<collectionCode box="[475,522,1609,1635]" country="USA" lsid="urn:lsid:biocol.org:col:15859" name="Missouri Botanical Garden" pageId="33" pageNumber="34" type="Herbarium">MO</collectionCode>
-n.v., P online, 
-<collectionCode box="[689,747,1609,1635]" country="Madagascar" lsid="urn:lsid:biocol.org:col:13842" name="Parc de Tsimbazaza" pageId="33" pageNumber="34" type="Herbarium">TAN</collectionCode>
-n.v
+; MO n.v., P online, TAN n.v
 </materialsCitation>
 . • 
-<materialsCitation collectingDate="2012-01-18" collectionCode="MO, TAN" collectorName="Mahaboboka &amp; Marotsiraka Betsileo &amp; Analavelona &amp; de Manasay &amp; Randrianarivony &amp; Ramarosandratana &amp; Andriamihajarivo &amp; Makabe" country="Madagascar" elevation="1335" pageId="33" pageNumber="34" specimenCount="1">
-commune 
-<collectorName box="[938,1094,1609,1635]" pageId="33" pageNumber="34">Mahaboboka</collectorName>
-, fkt. 
-<collectorName box="[1149,1395,1609,1635]" pageId="33" pageNumber="34">Marotsiraka Betsileo</collectorName>
+<materialsCitation collectingDate="2012-01-18" collectionCode="MO, TAN" collectorName="Randrianarivony &amp; Ramarosandratana &amp; Andriamihajarivo &amp; Makabe" country="Madagascar" elevation="1335" location="commune Mahaboboka" pageId="33" pageNumber="34" specimenCount="1">
+<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE697225F331B4DFBC46E0C" box="[817,1094,1609,1636]" country="Madagascar" name="commune Mahaboboka" pageId="33" pageNumber="34">commune Mahaboboka</location>
 , 
-<collectorName box="[189,340,1644,1670]" pageId="33" pageNumber="34">Analavelona</collectorName>
-, forêt 
-<collectorName box="[417,564,1644,1671]" pageId="33" pageNumber="34">de Manasay</collectorName>
+<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE69722584D1B4EFAF16E0C" box="[1103,1395,1609,1635]" country="Madagascar" name="fkt. Marotsiraka Betsileo" pageId="33" pageNumber="34">fkt. Marotsiraka Betsileo</location>
+, 
+<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE697225CBF1B6BFED66EE9" box="[189,340,1644,1670]" country="Madagascar" name="Analavelona" pageId="33" pageNumber="34">Analavelona</location>
+, 
+<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE697225D631B6BFDB66EE8" box="[353,564,1644,1671]" country="Madagascar" name="foret de Manasay" pageId="33" pageNumber="34">forêt de Manasay</location>
 ; 
 <elevation box="[577,732,1644,1671]" metricMagnitude="3" metricUnit="m" metricValue="1.335" pageId="33" pageNumber="34" unit="m" value="1335.0">
 <quantity box="[577,667,1644,1671]" metricMagnitude="3" metricUnit="m" metricValue="1.335" pageId="33" pageNumber="34" unit="m" value="1335.0">1335 m</quantity>
@@ -3525,11 +3511,7 @@ a.s.l.
 <collectorName box="[443,539,1680,1706]" pageId="33" pageNumber="34">Makabe</collectorName>
 411
 </emphasis>
-; 
-<collectionCode box="[608,656,1680,1706]" country="USA" lsid="urn:lsid:biocol.org:col:15859" name="Missouri Botanical Garden" pageId="33" pageNumber="34" type="Herbarium">MO</collectionCode>
-n.v., P online, 
-<collectionCode box="[838,897,1680,1706]" country="Madagascar" lsid="urn:lsid:biocol.org:col:13842" name="Parc de Tsimbazaza" pageId="33" pageNumber="34" type="Herbarium">TAN</collectionCode>
-n.v
+; MO n.v., P online, TAN n.v
 </materialsCitation>
 . • 
 <materialsCitation collectingDate="2015-12-05" collectionCode="MO, TAN" collectorName="Mahaboboka &amp; Ambinanintelo &amp; d'Analavelona &amp; d'Andohaniankokoky &amp; Ankokoky &amp; Randrianarivony &amp; Rakotoarivony &amp; Helison &amp; Heriman &amp; Rehary &amp; Rebesa" country="Madagascar" elevation="970" location="Morondava District" municipality="Menabe Region" pageId="33" pageNumber="34" specimenCount="1">
@@ -3570,15 +3552,15 @@ a.s.l.
 <collectionCode box="[1119,1166,1751,1777]" country="USA" lsid="urn:lsid:biocol.org:col:15859" name="Missouri Botanical Garden" pageId="33" pageNumber="34" type="Herbarium">MO</collectionCode>
 n.v., P online, 
 <collectionCode box="[1340,1398,1751,1777]" country="Madagascar" lsid="urn:lsid:biocol.org:col:13842" name="Parc de Tsimbazaza" pageId="33" pageNumber="34" type="Herbarium">TAN</collectionCode>
-n.v. – 
+n.v. –
+</materialsCitation>
+<materialsCitation collectingDate="2015-12-05" collectionCode="MO, TAN" collectorName="Mahaboboka &amp; Ambinanintelo &amp; d'Analavelona &amp; d'Andohaniankokoky &amp; Ankokoky &amp; Randrianarivony &amp; Rakotoarivony &amp; Helison &amp; Heriman &amp; Rehary &amp; Rebesa" country="Madagascar" elevation="970" location="Morondava District" municipality="Menabe Region" pageId="33" pageNumber="34" specimenCount="1">
 <emphasis bold="true" box="[265,729,1786,1812]" pageId="33" pageNumber="34">
 <collectingMunicipality box="[265,465,1786,1812]" pageId="33" pageNumber="34">Menabe Region</collectingMunicipality>
 , 
 <location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE697225DDC1BFDFD5B6F7B" box="[478,729,1786,1812]" country="Madagascar" municipality="Menabe Region" name="Morondava District" pageId="33" pageNumber="34">Morondava District</location>
 </emphasis>
-</materialsCitation>
 • 
-<materialsCitation collectingDate="2018-02-21" collectorName="Atalahy &amp; Razafindrahaja &amp; Swenson &amp; Razafimandimbison" country="Madagascar" elevation="17" location="Andranomena" municipality="Kirindy forest" pageId="33" pageNumber="34" specimenCount="1">
 <collectingMunicipality box="[756,927,1786,1812]" pageId="33" pageNumber="34">Kirindy forest</collectingMunicipality>
 , 
 <location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE697225FA91BFDFBD06F7B" box="[939,1106,1786,1812]" country="Madagascar" municipality="Kirindy forest" name="Andranomena" pageId="33" pageNumber="34">Andranomena</location>
@@ -3707,10 +3689,9 @@ a.s.l.
 <collectionCode box="[914,972,1999,2025]" country="Madagascar" lsid="urn:lsid:biocol.org:col:13842" name="Parc de Tsimbazaza" pageId="33" pageNumber="34" type="Herbarium">TAN</collectionCode>
 </materialsCitation>
 • 
-<materialsCitation collectingDate="2007-01-23" collectionCode="BR, MO, TAN, UPS, WAG" collectorName="Antsehase &amp; De Block &amp; Dessein &amp; Groeninckx &amp; Rakotonasolo" country="Madagascar" elevation="197" lastPageId="34" lastPageNumber="35" pageId="33" pageNumber="34" specimenCount="1">
-RN 35 at 
-<collectorName box="[1119,1241,1998,2024]" pageId="33" pageNumber="34">Antsehase</collectorName>
-bridge/river; 
+<materialsCitation collectingDate="2007-01-23" collectionCode="BR, MO, TAN, UPS, WAG" collectorName="De Block &amp; Dessein &amp; Groeninckx &amp; Rakotonasolo" country="Madagascar" elevation="197" lastPageId="34" lastPageNumber="35" pageId="33" pageNumber="34" specimenCount="1">
+<locationDeviation box="[1001,1394,1998,2025]" pageId="33" pageNumber="34">RN 35 at Antsehase bridge/river</locationDeviation>
+; 
 <elevation box="[189,328,265,292]" metricMagnitude="2" metricUnit="m" metricValue="1.97" pageId="34" pageNumber="35" unit="m" value="197.0">
 <quantity box="[189,264,265,292]" metricMagnitude="2" metricUnit="m" metricValue="1.97" pageId="34" pageNumber="35" unit="m" value="197.0">197 m</quantity>
 a.s.l.
@@ -3742,12 +3723,13 @@ a.s.l.
 <collectionCode box="[256,323,300,326]" country="Netherlands" lsid="urn:lsid:biocol.org:col:15578" name="Wageningen University" pageId="34" pageNumber="35" type="Herbarium">WAG</collectionCode>
 </materialsCitation>
 • 
-<materialsCitation collectingDate="2007-01-20" collectionCode="BR, MO, TAN, WAG" collectorName="Lamboukily &amp; Kirindi &amp; Groeninckx &amp; Rakotonasolo &amp; Dessein &amp; De Block" country="Madagascar" elevation="42" pageId="34" pageNumber="35" specimenCount="1">
-<collectorName box="[345,490,300,326]" pageId="34" pageNumber="35">Lamboukily</collectorName>
+<materialsCitation collectingDate="2007-01-20" collectionCode="BR, MO, TAN, WAG" collectorName="Groeninckx &amp; Rakotonasolo &amp; Dessein &amp; De Block" country="Madagascar" elevation="42" location="Lamboukily" pageId="34" pageNumber="35" specimenCount="1">
+<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE597215D5B1C2BFE686929" box="[345,490,300,326]" country="Madagascar" name="Lamboukily" pageId="34" pageNumber="35">Lamboukily</location>
 , 
+<locationDeviation box="[500,921,300,327]" pageId="34" pageNumber="35">
 <quantity box="[500,572,300,326]" metricMagnitude="4" metricUnit="m" metricValue="1.4" pageId="34" pageNumber="35" unit="km" value="14.0">14 km</quantity>
-from camp de base in 
-<collectorName box="[832,921,300,326]" pageId="34" pageNumber="35">Kirindi</collectorName>
+from camp de base in Kirindi
+</locationDeviation>
 ; 
 <elevation box="[931,1052,300,327]" metricMagnitude="1" metricUnit="m" metricValue="4.2" pageId="34" pageNumber="35" unit="m" value="42.0">
 <quantity box="[931,989,300,327]" metricMagnitude="1" metricUnit="m" metricValue="4.2" pageId="34" pageNumber="35" unit="m" value="42.0">42 m</quantity>
@@ -3841,15 +3823,15 @@ commune
 , S
 </materialsCitation>
 • 
-<materialsCitation collectingDate="2013-04-12" collectionCode="MO, TAN" collectorName="Bemanonga &amp; Marofandilia &amp; Kirindy &amp; de Kirindy &amp; Razakamalala &amp; Randrianaivo &amp; Rakotondrasaona" country="Madagascar" elevation="57" pageId="34" pageNumber="35" specimenCount="1">
+<materialsCitation collectingDate="2013-04-12" collectionCode="MO, TAN" collectorName="Razakamalala &amp; Randrianaivo &amp; Rakotondrasaona" country="Madagascar" elevation="57" location="Bemanonga" pageId="34" pageNumber="35" specimenCount="1">
 commune 
-<collectorName box="[189,332,477,503]" pageId="34" pageNumber="35">Bemanonga</collectorName>
-, fkt. 
-<collectorName box="[388,544,476,502]" pageId="34" pageNumber="35">Marofandilia</collectorName>
-, village le plus proche 
-<collectorName box="[807,899,476,502]" pageId="34" pageNumber="35">Kirindy</collectorName>
-, forêt 
-<collectorName box="[971,1099,476,502]" pageId="34" pageNumber="35">de Kirindy</collectorName>
+<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE597215CBF1CDAFECE6998" box="[189,332,477,503]" country="Madagascar" name="Bemanonga" pageId="34" pageNumber="35">Bemanonga</location>
+, 
+<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE597215D541CDBFDA26999" box="[342,544,476,502]" country="Madagascar" name="fkt. Marofandilia" pageId="34" pageNumber="35">fkt. Marofandilia</location>
+, 
+<locationDeviation box="[554,899,476,502]" pageId="34" pageNumber="35">village le plus proche Kirindy</locationDeviation>
+, 
+<location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE597215F8C1CDBFBC96999" box="[910,1099,476,502]" country="Madagascar" name="foret de Kirindy" pageId="34" pageNumber="35">forêt de Kirindy</location>
 ; 
 <elevation box="[1109,1229,476,503]" metricMagnitude="1" metricUnit="m" metricValue="5.7" pageId="34" pageNumber="35" unit="m" value="57.0">
 <quantity box="[1109,1167,476,503]" metricMagnitude="1" metricUnit="m" metricValue="5.7" pageId="34" pageNumber="35" unit="m" value="57.0">57 m</quantity>
@@ -3868,11 +3850,7 @@ a.s.l.
 <collectorName box="[617,828,512,538]" pageId="34" pageNumber="35">Rakotondrasaona</collectorName>
 7404
 </emphasis>
-; 
-<collectionCode box="[913,961,512,538]" country="USA" lsid="urn:lsid:biocol.org:col:15859" name="Missouri Botanical Garden" pageId="34" pageNumber="35" type="Herbarium">MO</collectionCode>
-n.v., P online, 
-<collectionCode box="[1143,1201,512,538]" country="Madagascar" lsid="urn:lsid:biocol.org:col:13842" name="Parc de Tsimbazaza" pageId="34" pageNumber="35" type="Herbarium">TAN</collectionCode>
-n.v
+; MO n.v., P online, TAN n.v
 </materialsCitation>
 . • 
 <materialsCitation collectingDate="2013-04-21" collectionCode="MO, TAN" collectorName="Bemanonga &amp; Marofandilia &amp; Kirindy &amp; de Kirindy &amp; Razakamalala &amp; Randrianaivo &amp; Rakotondrasaona" country="Madagascar" elevation="59" location="Without" pageId="34" pageNumber="35" specimenCount="1">
@@ -3906,24 +3884,26 @@ a.s.l.
 <collectionCode box="[918,966,582,608]" country="USA" lsid="urn:lsid:biocol.org:col:15859" name="Missouri Botanical Garden" pageId="34" pageNumber="35" type="Herbarium">MO</collectionCode>
 n.v., P online, 
 <collectionCode box="[1149,1208,582,608]" country="Madagascar" lsid="urn:lsid:biocol.org:col:13842" name="Parc de Tsimbazaza" pageId="34" pageNumber="35" type="Herbarium">TAN</collectionCode>
-n.v. – 
+n.v. –
+</materialsCitation>
+<materialsCitation collectingDate="2013-04-21" collectionCode="MO, TAN" collectorName="Bemanonga &amp; Marofandilia &amp; Kirindy &amp; de Kirindy &amp; Razakamalala &amp; Randrianaivo &amp; Rakotondrasaona" country="Madagascar" elevation="59" location="Without" pageId="34" pageNumber="35" specimenCount="1">
 <emphasis bold="true" pageId="34" pageNumber="35">
 <location LSID="urn:lsid:plazi:treatment:039287D5FFD997265E1F1C0FFD036E2D:8EE46018FFE59721590F1F41FAF46A0F" box="[1293,1398,582,608]" country="Madagascar" name="Without" pageId="34" pageNumber="35">Without</location>
 locality
 </emphasis>
-</materialsCitation>
-• 
-<materialsCitation box="[304,1276,617,644]" pageId="34" pageNumber="35">
-chiefly in Betsileo land; 1890; fl; 
+• chiefly in Betsileo land; 1890; fl; 
 <emphasis box="[693,816,618,644]" italics="true" pageId="34" pageNumber="35">Baron 150</emphasis>
 ; K, P • s.dat.; fl; 
 <emphasis box="[1014,1152,617,643]" italics="true" pageId="34" pageNumber="35">Baron 4596</emphasis>
 ; BM, K, P
 </materialsCitation>
 • 
-<materialsCitation pageId="34" pageNumber="35">
+<materialsCitation collectorName="Bernier" pageId="34" pageNumber="35" specimenCount="1">
 1840; fl; 
-<emphasis box="[189,328,653,678]" italics="true" pageId="34" pageNumber="35">Bernier s.n.</emphasis>
+<emphasis box="[189,328,653,678]" italics="true" pageId="34" pageNumber="35">
+<collectorName box="[189,279,653,678]" pageId="34" pageNumber="35">Bernier</collectorName>
+s.n.
+</emphasis>
 ; K
 </materialsCitation>
 • 
@@ -3958,9 +3938,12 @@ s.dat.; fr;
 ; P
 </materialsCitation>
 • 
-<materialsCitation box="[1054,1379,688,714]" pageId="34" pageNumber="35">
+<materialsCitation box="[1054,1379,688,714]" collectorName="d'Alleizette" pageId="34" pageNumber="35" specimenCount="1">
 s.dat.; fl; 
-<emphasis box="[1165,1347,688,714]" italics="true" pageId="34" pageNumber="35">d’Alleizette s.n.</emphasis>
+<emphasis box="[1165,1347,688,714]" italics="true" pageId="34" pageNumber="35">
+<collectorName box="[1165,1299,688,714]" pageId="34" pageNumber="35">d’Alleizette</collectorName>
+s.n.
+</emphasis>
 ; P
 </materialsCitation>
 • 
@@ -3970,9 +3953,7 @@ s.dat.; fr;
 <collectorName box="[301,402,723,749]" pageId="34" pageNumber="35">Homolle</collectorName>
 1419
 </emphasis>
-; 
-<collectionCode box="[484,526,724,750]" country="Brazil" name="Embrapa Agrobiology Diazothrophic Microbial Culture Collection" pageId="34" pageNumber="35">BR</collectionCode>
-, K, P
+; BR, K, P
 </materialsCitation>
 .
 </paragraph>
