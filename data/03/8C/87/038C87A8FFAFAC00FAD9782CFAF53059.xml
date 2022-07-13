@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6646565" ID-GBIF-Dataset="f1465af8-3198-4cb6-91a1-a547cbb4d955" ID-ISBN="978-84-16728-08-4" ID-Zenodo-Dep="6646565" approvalRequired="3" approvalRequired_for_taxonomicNames="3" checkinTime="1655302485621" checkinUser="valdenar" docAuthor="Russell A. Mittermeier &amp; Don E. Wilson" docDate="2018" docId="038C87A8FFAFAC00FAD9782CFAF53059" docLanguage="en" docName="hbmw_8_Macroscelididae_0206.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 8 Insectivores, Sloths and Colugos, Barcelona: Lynx Edicions" docTitle="Macroscelides micus Dumbacher &amp; Rathbun 2014" docType="treatment" docVersion="3" lastPageNumber="230" masterDocId="FFB5FFD0FFABAC05FFB37F30FFAE3453" masterDocTitle="Macroscelididae" masterLastPageNumber="234" masterPageNumber="206" pageNumber="229" updateTime="1655305803907" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6646565" ID-GBIF-Dataset="f1465af8-3198-4cb6-91a1-a547cbb4d955" ID-ISBN="978-84-16728-08-4" ID-Zenodo-Dep="6646565" checkinTime="1655302485621" checkinUser="valdenar" docAuthor="Russell A. Mittermeier &amp; Don E. Wilson" docDate="2018" docId="038C87A8FFAFAC00FAD9782CFAF53059" docLanguage="en" docName="hbmw_8_Macroscelididae_0206.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 8 Insectivores, Sloths and Colugos, Barcelona: Lynx Edicions" docTitle="Macroscelides micus Dumbacher &amp; Rathbun 2014" docType="treatment" docVersion="5" lastPageNumber="230" masterDocId="FFB5FFD0FFABAC05FFB37F30FFAE3453" masterDocTitle="Macroscelididae" masterLastPageNumber="234" masterPageNumber="206" pageNumber="229" updateTime="1657724052660" updateUser="tatiana">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Macroscelididae</mods:title>
@@ -41,7 +41,7 @@
 <mods:identifier type="ISBN">978-84-16728-08-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6646565</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6646631" ID-Zenodo-Dep="6646631" LSID="urn:lsid:plazi:treatment:038C87A8FFAFAC00FAD9782CFAF53059" httpUri="http://treatment.plazi.org/id/038C87A8FFAFAC00FAD9782CFAF53059" lastPageId="5" lastPageNumber="230" pageId="4" pageNumber="229">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6646631" ID-GBIF-Taxon="195915425" ID-Zenodo-Dep="6646631" LSID="urn:lsid:plazi:treatment:038C87A8FFAFAC00FAD9782CFAF53059" httpUri="http://treatment.plazi.org/id/038C87A8FFAFAC00FAD9782CFAF53059" lastPageId="5" lastPageNumber="230" pageId="4" pageNumber="229">
 <heading pageId="4" pageNumber="229">
 <subSubSection box="[1386,1418,1820,1866]" pageId="4" pageNumber="229" type="multiple">
 <paragraph blockId="4.[1385,2516,1820,1986]" box="[1386,1418,1820,1866]" pageId="4" pageNumber="229">
@@ -78,16 +78,39 @@
 </subSubSection>
 </heading>
 <subSubSection pageId="4" pageNumber="229" type="reference_group">
-<paragraph blockId="4.[1997,2591,2029,2456]" box="[1997,2590,2029,2062]" pageId="4" pageNumber="229">
-<emphasis bold="true" box="[1997,2153,2029,2062]" pageId="4" pageNumber="229">Taxonomy.</emphasis>
-<taxonomicName authority="Dumbacher &amp; Rathbun" authorityName="A. Smith" authorityYear="1829" box="[2164,2415,2029,2062]" class="Mammalia" family="Macroscelididae" genus="Macroscelides" kingdom="Animalia" order="Macroscelidea" pageId="4" pageNumber="229" phylum="Chordata" rank="genus" species="micus">Macroscelides micus</taxonomicName>
-Dumbacher
-</paragraph>
 <paragraph blockId="4.[1997,2591,2029,2456]" pageId="4" pageNumber="229">
-&amp; Rathbun, 2014, 
-<materialsCitation pageId="4" pageNumber="229">“20.7281°S, 14.1305°E at about 720 m above sea level ... about 10 km south by southwest (200°) of the Mikberg formation, Kunene District,</materialsCitation>
-[NW] Namibia.” This species is monotypic.
+<emphasis bold="true" box="[1997,2153,2029,2062]" pageId="4" pageNumber="229">Taxonomy.</emphasis>
+<taxonomicName authority="Dumbacher &amp; Rathbun, 2014" authorityName="Dumbacher &amp; Rathbun" authorityYear="2014" class="Mammalia" family="Macroscelididae" genus="Macroscelides" kingdom="Animalia" order="Macroscelidea" pageId="4" pageNumber="229" phylum="Chordata" rank="species" species="micus">Macroscelides micus Dumbacher &amp; Rathbun, 2014</taxonomicName>
+,
 </paragraph>
+</subSubSection>
+<subSubSection pageId="4" pageNumber="229" type="materials_examined">
+<paragraph blockId="4.[1997,2591,2029,2456]" pageId="4" pageNumber="229">
+<materialsCitation ID-GBIF-Occurrence="3808212308" country="Namibia" elevation="720" latitude="-20.7281" location="Kunene District" longLatPrecision="7" longitude="14.1305" pageId="4" pageNumber="229" specimenCount="1" stateProvince="Kunene District">
+“ 
+<geoCoordinate box="[2287,2426,2068,2101]" degrees="20.7281" direction="south" orientation="latitude" pageId="4" pageNumber="229" precision="5" value="-20.7281">20.7281°S</geoCoordinate>
+, 
+<geoCoordinate box="[2450,2588,2068,2101]" degrees="14.1305" direction="east" orientation="longitude" pageId="4" pageNumber="229" precision="5" value="14.1305">14.1305°E</geoCoordinate>
+at about 
+<quantity box="[2132,2220,2108,2141]" metricMagnitude="2" metricUnit="m" metricValue="7.2" pageId="4" pageNumber="229" unit="m" value="720.0">
+<elevation box="[2132,2220,2108,2141]" metricMagnitude="2" metricUnit="m" metricValue="7.2" pageId="4" pageNumber="229" unit="m" value="720.0">720 m</elevation>
+</quantity>
+above sea level ... 
+<locationDeviation pageId="4" pageNumber="229">
+about 
+<quantity box="[2001,2089,2151,2180]" metricMagnitude="4" metricUnit="m" metricValue="1.0" pageId="4" pageNumber="229" unit="km" value="10.0">10 km</quantity>
+south by southwest (200°) of the Mikberg formation
+</locationDeviation>
+, 
+<collectingRegion box="[2335,2583,2194,2219]" country="Namibia" name="Kunene" pageId="4" pageNumber="229">Kunene District</collectingRegion>
+, [NW] 
+<collectingCountry box="[2090,2215,2230,2259]" name="Namibia" pageId="4" pageNumber="229">Namibia</collectingCountry>
+.”
+</materialsCitation>
+</paragraph>
+</subSubSection>
+<subSubSection box="[1998,2360,2269,2298]" pageId="4" pageNumber="229" type="discussion">
+<paragraph blockId="4.[1997,2591,2029,2456]" box="[1998,2360,2269,2298]" pageId="4" pageNumber="229">This species is monotypic.</paragraph>
 </subSubSection>
 <subSubSection pageId="4" pageNumber="229" type="distribution">
 <caption ID-DOI="http://doi.org/10.5281/zenodo.6646587" ID-Zenodo-Dep="6646587" httpUri="https://zenodo.org/record/6646587/files/figure.png" inLine="true" pageId="4" pageNumber="229" targetBox="[1383,1975,2041,2455]" targetPageId="4">

@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6646565" ID-GBIF-Dataset="f1465af8-3198-4cb6-91a1-a547cbb4d955" ID-ISBN="978-84-16728-08-4" ID-Zenodo-Dep="6646565" approvalRequired="3" approvalRequired_for_taxonomicNames="3" checkinTime="1655302485621" checkinUser="valdenar" docAuthor="Russell A. Mittermeier &amp; Don E. Wilson" docDate="2018" docId="038C87A8FFADAC03FAD97D45F60C3ED3" docLanguage="en" docName="hbmw_8_Macroscelididae_0206.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 8 Insectivores, Sloths and Colugos, Barcelona: Lynx Edicions" docTitle="Elephantulus revoulii" docType="treatment" docVersion="3" lastPageNumber="231" masterDocId="FFB5FFD0FFABAC05FFB37F30FFAE3453" masterDocTitle="Macroscelididae" masterLastPageNumber="234" masterPageNumber="206" pageNumber="231" updateTime="1655305803907" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6646565" ID-GBIF-Dataset="f1465af8-3198-4cb6-91a1-a547cbb4d955" ID-ISBN="978-84-16728-08-4" ID-Zenodo-Dep="6646565" checkinTime="1655302485621" checkinUser="valdenar" docAuthor="Russell A. Mittermeier &amp; Don E. Wilson" docDate="2018" docId="038C87A8FFADAC03FAD97D45F60C3ED3" docLanguage="en" docName="hbmw_8_Macroscelididae_0206.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 8 Insectivores, Sloths and Colugos, Barcelona: Lynx Edicions" docTitle="Elephantulus revoulii" docType="treatment" docVersion="5" lastPageNumber="231" masterDocId="FFB5FFD0FFABAC05FFB37F30FFAE3453" masterDocTitle="Macroscelididae" masterLastPageNumber="234" masterPageNumber="206" pageNumber="231" updateTime="1657724052660" updateUser="tatiana">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Macroscelididae</mods:title>
@@ -41,7 +41,7 @@
 <mods:identifier type="ISBN">978-84-16728-08-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6646565</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6646635" ID-Zenodo-Dep="6646635" LSID="urn:lsid:plazi:treatment:038C87A8FFADAC03FAD97D45F60C3ED3" httpUri="http://treatment.plazi.org/id/038C87A8FFADAC03FAD97D45F60C3ED3" lastPageNumber="231" pageId="6" pageNumber="231">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6646635" ID-GBIF-Taxon="195915429" ID-Zenodo-Dep="6646635" LSID="urn:lsid:plazi:treatment:038C87A8FFADAC03FAD97D45F60C3ED3" httpUri="http://treatment.plazi.org/id/038C87A8FFADAC03FAD97D45F60C3ED3" lastPageNumber="231" pageId="6" pageNumber="231">
 <heading pageId="6" pageNumber="231">
 <subSubSection box="[1386,1441,629,679]" pageId="6" pageNumber="231" type="multiple">
 <paragraph blockId="6.[1382,2339,629,760]" box="[1386,1441,629,679]" pageId="6" pageNumber="231">
@@ -80,11 +80,25 @@
 <subSubSection pageId="6" pageNumber="231" type="reference_group">
 <paragraph blockId="6.[1994,2591,810,1229]" pageId="6" pageNumber="231">
 <emphasis bold="true" box="[1994,2149,810,835]" pageId="6" pageNumber="231">Taxonomy.</emphasis>
-<taxonomicName authorityName="A. Smith" authorityYear="1829" box="[2187,2475,810,835]" class="Mammalia" family="Macroscelididae" genus="Macroscelides" kingdom="Animalia" order="Macroscelidea" pageId="6" pageNumber="231" phylum="Chordata" rank="species" species="revoilii">Macroscelides revoilii</taxonomicName>
-Huet, 1881, 
-<materialsCitation pageId="6" pageNumber="231">“Medjourtine (Pays des Somalis [= Somali country]).”</materialsCitation>
-This species is monotypic.
+<taxonomicName authorityName="A. Smith" authorityYear="1829" class="Mammalia" family="Macroscelididae" genus="Macroscelides" kingdom="Animalia" order="Macroscelidea" pageId="6" pageNumber="231" phylum="Chordata" rank="species" species="revoilii">Macroscelides revoilii Huet, 1881</taxonomicName>
+,
 </paragraph>
+</subSubSection>
+<subSubSection pageId="6" pageNumber="231" type="materials_examined">
+<paragraph blockId="6.[1994,2591,810,1229]" pageId="6" pageNumber="231">
+<materialsCitation ID-GBIF-Occurrence="3808212304" country="Somalia" location="Pays des Somalis" municipality="Medjourtine" pageId="6" pageNumber="231" specimenCount="1">
+“ 
+<collectingMunicipality box="[2098,2272,844,877]" pageId="6" pageNumber="231">Medjourtine</collectingMunicipality>
+(
+<location LSID="urn:lsid:plazi:treatment:038C87A8FFADAC03FAD97D45F60C3ED3:8EFA6065FFADAC03F7487C7CF640373E" box="[2299,2542,844,877]" country="Somalia" municipality="Medjourtine" name="Pays des Somalis" pageId="6" pageNumber="231">Pays des Somalis</location>
+[= 
+<collectingCountry box="[1995,2090,881,914]" pageId="6" pageNumber="231">Somali</collectingCountry>
+country]).”
+</materialsCitation>
+</paragraph>
+</subSubSection>
+<subSubSection box="[1994,2356,925,954]" pageId="6" pageNumber="231" type="discussion">
+<paragraph blockId="6.[1994,2591,810,1229]" box="[1994,2356,925,954]" pageId="6" pageNumber="231">This species is monotypic.</paragraph>
 </subSubSection>
 <subSubSection pageId="6" pageNumber="231" type="distribution">
 <caption ID-DOI="http://doi.org/10.5281/zenodo.6646595" ID-Zenodo-Dep="6646595" httpUri="https://zenodo.org/record/6646595/files/figure.png" inLine="true" pageId="6" pageNumber="231" targetBox="[1379,1971,812,1226]" targetPageId="6">

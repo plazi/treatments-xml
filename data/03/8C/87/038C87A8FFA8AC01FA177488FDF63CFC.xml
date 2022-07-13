@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6646565" ID-GBIF-Dataset="f1465af8-3198-4cb6-91a1-a547cbb4d955" ID-ISBN="978-84-16728-08-4" ID-Zenodo-Dep="6646565" approvalRequired="1" approvalRequired_for_treatments="1" checkinTime="1655302485621" checkinUser="valdenar" docAuthor="Russell A. Mittermeier &amp; Don E. Wilson" docDate="2018" docId="038C87A8FFA8AC01FA177488FDF63CFC" docLanguage="en" docName="hbmw_8_Macroscelididae_0206.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 8 Insectivores, Sloths and Colugos, Barcelona: Lynx Edicions" docTitle="Macroscelides flavicaudatus Lundholm 1955" docType="treatment" docVersion="4" lastPageNumber="229" masterDocId="FFB5FFD0FFABAC05FFB37F30FFAE3453" masterDocTitle="Macroscelididae" masterLastPageNumber="234" masterPageNumber="206" pageNumber="228" updateTime="1657684433862" updateUser="felipe">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6646565" ID-GBIF-Dataset="f1465af8-3198-4cb6-91a1-a547cbb4d955" ID-ISBN="978-84-16728-08-4" ID-Zenodo-Dep="6646565" checkinTime="1655302485621" checkinUser="valdenar" docAuthor="Russell A. Mittermeier &amp; Don E. Wilson" docDate="2018" docId="038C87A8FFA8AC01FA177488FDF63CFC" docLanguage="en" docName="hbmw_8_Macroscelididae_0206.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 8 Insectivores, Sloths and Colugos, Barcelona: Lynx Edicions" docTitle="Macroscelides flavicaudatus Lundholm 1955" docType="treatment" docVersion="5" lastPageNumber="229" masterDocId="FFB5FFD0FFABAC05FFB37F30FFAE3453" masterDocTitle="Macroscelididae" masterLastPageNumber="234" masterPageNumber="206" pageNumber="228" updateTime="1657724052660" updateUser="tatiana">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Macroscelididae</mods:title>
@@ -85,17 +85,35 @@
 </paragraph>
 </subSubSection>
 </heading>
-<subSubSection pageId="3" pageNumber="228" type="reference_group">
-<paragraph blockId="3.[1441,2647,3209,3485]" pageId="3" pageNumber="228">
+<subSubSection box="[1442,2370,3209,3242]" pageId="3" pageNumber="228" type="reference_group">
+<paragraph blockId="3.[1441,2647,3209,3485]" box="[1442,2370,3209,3242]" pageId="3" pageNumber="228">
 <emphasis bold="true" box="[1442,1597,3209,3242]" pageId="3" pageNumber="228">Taxonomy.</emphasis>
-<taxonomicName authorityName="A. Smith" authorityYear="1829" box="[1608,1777,3209,3242]" class="Mammalia" family="Macroscelididae" genus="Macroscelides" kingdom="Animalia" order="Macroscelidea" pageId="3" pageNumber="228" phylum="Chordata" rank="genus">Macroscelides</taxonomicName>
-proboscideusflavicaudatus LLundholm, 1955, 
-<materialsCitation ID-GBIF-Occurrence="3808212314" pageId="3" pageNumber="228">“6 miles [= 9-6 km] from the mouth of the Omaruru River,”</materialsCitation>
+<taxonomicName authorityName="Lundholm" authorityYear="1955" box="[1608,2365,3209,3242]" class="Mammalia" family="Macroscelididae" genus="Macroscelides" kingdom="Animalia" order="Macroscelidea" pageId="3" pageNumber="228" phylum="Chordata" rank="subSpecies" species="proboscideus" subSpecies="flavicaudatus">Macroscelides proboscideusflavicaudatus Lundholm, 1955</taxonomicName>
+,
 </paragraph>
+</subSubSection>
+<subSubSection pageId="3" pageNumber="228" type="materials_examined">
 <paragraph blockId="3.[1441,2647,3209,3485]" pageId="3" pageNumber="228">
-Swakopmund District, Namibia. 
-<taxonomicName authorityName="A. Smith" authorityYear="1829" box="[1443,1612,3293,3322]" class="Mammalia" family="Macroscelididae" genus="Macroscelides" kingdom="Animalia" order="Macroscelidea" pageId="3" pageNumber="228" phylum="Chordata" rank="genus">Macroscelides</taxonomicName>
-flavicaudatus was formerly a subspecies of 
+<materialsCitation ID-GBIF-Occurrence="3808212314" country="Namibia" location="Swakopmund" pageId="3" pageNumber="228" specimenCount="1" stateProvince="Swakopmund">
+“ 
+<locationDeviation pageId="3" pageNumber="228">
+<quantity box="[2394,2489,3209,3242]" metricMagnitude="3" metricUnit="m" metricValue="9.656064" pageId="3" pageNumber="228" unit="mi" value="6.0">6 miles</quantity>
+[= 9- 
+<quantity box="[2562,2633,3209,3242]" metricMagnitude="3" metricUnit="m" metricValue="6.0" pageId="3" pageNumber="228" unit="km" value="6.0">6 km</quantity>
+] from the mouth of the Omaruru River
+</locationDeviation>
+,” 
+<collectingRegion box="[2012,2203,3257,3282]" pageId="3" pageNumber="228">Swakopmund</collectingRegion>
+District, 
+<collectingCountry box="[2332,2454,3257,3282]" name="Namibia" pageId="3" pageNumber="228">Namibia</collectingCountry>
+.
+</materialsCitation>
+</paragraph>
+</subSubSection>
+<subSubSection pageId="3" pageNumber="228" type="discussion">
+<paragraph blockId="3.[1441,2647,3209,3485]" pageId="3" pageNumber="228">
+<taxonomicName authority="Lundholm" authorityName="Lundholm" authorityYear="1955" box="[1443,1799,3293,3322]" class="Mammalia" family="Macroscelididae" genus="Macroscelides" kingdom="Animalia" order="Macroscelidea" pageId="3" pageNumber="228" phylum="Chordata" rank="species" species="flavicaudatus">Macroscelides flavicaudatus</taxonomicName>
+was formerly a subspecies of 
 <taxonomicName baseAuthorityName="Shaw" baseAuthorityYear="1800" box="[2222,2425,3293,3322]" class="Mammalia" family="Macroscelididae" genus="Macroscelides" kingdom="Animalia" order="Macroscelidea" pageId="3" pageNumber="228" phylum="Chordata" rank="species" species="proboscideus">M. proboscideus</taxonomicName>
 but elevated to full species by J. P. Dumbacher and colleagues in 2012. Monotypic.
 </paragraph>

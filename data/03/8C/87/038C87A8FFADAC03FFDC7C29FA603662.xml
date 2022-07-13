@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6646565" ID-GBIF-Dataset="f1465af8-3198-4cb6-91a1-a547cbb4d955" ID-ISBN="978-84-16728-08-4" ID-Zenodo-Dep="6646565" approvalRequired="3" approvalRequired_for_taxonomicNames="3" checkinTime="1655302485621" checkinUser="valdenar" docAuthor="Russell A. Mittermeier &amp; Don E. Wilson" docDate="2018" docId="038C87A8FFADAC03FFDC7C29FA603662" docLanguage="en" docName="hbmw_8_Macroscelididae_0206.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 8 Insectivores, Sloths and Colugos, Barcelona: Lynx Edicions" docTitle="Elephantulus rufescens" docType="treatment" docVersion="2" lastPageNumber="231" masterDocId="FFB5FFD0FFABAC05FFB37F30FFAE3453" masterDocTitle="Macroscelididae" masterLastPageNumber="234" masterPageNumber="206" pageNumber="231" updateTime="1655305803907" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6646565" ID-GBIF-Dataset="f1465af8-3198-4cb6-91a1-a547cbb4d955" ID-ISBN="978-84-16728-08-4" ID-Zenodo-Dep="6646565" checkinTime="1655302485621" checkinUser="valdenar" docAuthor="Russell A. Mittermeier &amp; Don E. Wilson" docDate="2018" docId="038C87A8FFADAC03FFDC7C29FA603662" docLanguage="en" docName="hbmw_8_Macroscelididae_0206.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 8 Insectivores, Sloths and Colugos, Barcelona: Lynx Edicions" docTitle="Elephantulus rufescens" docType="treatment" docVersion="4" lastPageNumber="231" masterDocId="FFB5FFD0FFABAC05FFB37F30FFAE3453" masterDocTitle="Macroscelididae" masterLastPageNumber="234" masterPageNumber="206" pageNumber="231" updateTime="1657724052660" updateUser="tatiana">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Macroscelididae</mods:title>
@@ -41,7 +41,7 @@
 <mods:identifier type="ISBN">978-84-16728-08-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6646565</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6646308" ID-Zenodo-Dep="6646308" LSID="urn:lsid:plazi:treatment:038C87A8FFADAC03FFDC7C29FA603662" httpUri="http://treatment.plazi.org/id/038C87A8FFADAC03FFDC7C29FA603662" lastPageNumber="231" pageId="6" pageNumber="231">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6646308" ID-GBIF-Taxon="195915428" ID-Zenodo-Dep="6646308" LSID="urn:lsid:plazi:treatment:038C87A8FFADAC03FFDC7C29FA603662" httpUri="http://treatment.plazi.org/id/038C87A8FFADAC03FFDC7C29FA603662" lastPageNumber="231" pageId="6" pageNumber="231">
 <heading pageId="6" pageNumber="231">
 <subSubSection box="[111,166,793,839]" pageId="6" pageNumber="231" type="multiple">
 <paragraph blockId="6.[106,1273,793,961]" box="[111,166,793,839]" pageId="6" pageNumber="231">
@@ -90,15 +90,25 @@
 </subSubSection>
 </heading>
 <subSubSection pageId="6" pageNumber="231" type="reference_group">
-<paragraph blockId="6.[721,1312,1010,1430]" box="[721,1310,1010,1035]" pageId="6" pageNumber="231">
+<paragraph blockId="6.[721,1312,1010,1430]" pageId="6" pageNumber="231">
 <emphasis bold="true" box="[721,876,1010,1035]" pageId="6" pageNumber="231">Taxonomy.</emphasis>
-<taxonomicName authority="Peters" authorityName="Peters" authorityYear="1878" box="[899,1305,1010,1035]" class="Mammalia" family="Macroscelididae" genus="Macroscelides" kingdom="Animalia" order="Macroscelidea" pageId="6" pageNumber="231" phylum="Chordata" rank="species" species="rufescens">Macroscelides rufescens Peters</taxonomicName>
+<taxonomicName authority="Peters" authorityName="Peters" authorityYear="1878" class="Mammalia" family="Macroscelididae" genus="Macroscelides" kingdom="Animalia" order="Macroscelidea" pageId="6" pageNumber="231" phylum="Chordata" rank="species" species="rufescens">Macroscelides rufescens Peters, 1878</taxonomicName>
 ,
 </paragraph>
-<paragraph blockId="6.[721,1312,1010,1430]" box="[725,1053,1046,1075]" pageId="6" pageNumber="231">
-1878, 
-<materialsCitation box="[806,1053,1046,1075]" pageId="6" pageNumber="231">Ndi, Taita, Kenya.</materialsCitation>
+</subSubSection>
+<subSubSection box="[806,1053,1046,1075]" pageId="6" pageNumber="231" type="materials_examined">
+<paragraph blockId="6.[721,1312,1010,1430]" box="[806,1053,1046,1075]" pageId="6" pageNumber="231">
+<materialsCitation ID-GBIF-Occurrence="3808212311" box="[806,1053,1046,1075]" country="Kenya" location="Ndi" pageId="6" pageNumber="231" specimenCount="1" stateProvince="Taita">
+<location LSID="urn:lsid:plazi:treatment:038C87A8FFADAC03FFDC7C29FA603662:8EFA6065FFADAC03FC957B26FCF53060" box="[806,859,1046,1075]" country="Kenya" name="Ndi" pageId="6" pageNumber="231" stateProvince="Taita">Ndi</location>
+, 
+<collectingRegion box="[875,945,1046,1075]" country="Kenya" name="Taita/Taveta" pageId="6" pageNumber="231">Taita</collectingRegion>
+, 
+<collectingCountry box="[962,1049,1046,1075]" name="Kenya" pageId="6" pageNumber="231">Kenya</collectingCountry>
+.
+</materialsCitation>
 </paragraph>
+</subSubSection>
+<subSubSection box="[722,1143,1081,1114]" pageId="6" pageNumber="231" type="discussion">
 <paragraph blockId="6.[721,1312,1010,1430]" box="[722,1143,1081,1114]" pageId="6" pageNumber="231">Six subspecies are recognized.</paragraph>
 </subSubSection>
 <subSubSection pageId="6" pageNumber="231" type="synonymic_list">

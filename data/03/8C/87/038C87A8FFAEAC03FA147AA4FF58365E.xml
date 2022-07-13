@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6646565" ID-GBIF-Dataset="f1465af8-3198-4cb6-91a1-a547cbb4d955" ID-ISBN="978-84-16728-08-4" ID-Zenodo-Dep="6646565" approvalRequired="3" approvalRequired_for_taxonomicNames="3" checkinTime="1655302485621" checkinUser="valdenar" docAuthor="Russell A. Mittermeier &amp; Don E. Wilson" docDate="2018" docId="038C87A8FFAEAC03FA147AA4FF58365E" docLanguage="en" docName="hbmw_8_Macroscelididae_0206.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 8 Insectivores, Sloths and Colugos, Barcelona: Lynx Edicions" docTitle="Petrosaltator rozeti" docType="treatment" docVersion="3" lastPageNumber="231" masterDocId="FFB5FFD0FFABAC05FFB37F30FFAE3453" masterDocTitle="Macroscelididae" masterLastPageNumber="234" masterPageNumber="206" pageNumber="230" updateTime="1655305803907" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6646565" ID-GBIF-Dataset="f1465af8-3198-4cb6-91a1-a547cbb4d955" ID-ISBN="978-84-16728-08-4" ID-Zenodo-Dep="6646565" checkinTime="1655302485621" checkinUser="valdenar" docAuthor="Russell A. Mittermeier &amp; Don E. Wilson" docDate="2018" docId="038C87A8FFAEAC03FA147AA4FF58365E" docLanguage="en" docName="hbmw_8_Macroscelididae_0206.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 8 Insectivores, Sloths and Colugos, Barcelona: Lynx Edicions" docTitle="Petrosaltator rozeti" docType="treatment" docVersion="5" lastPageNumber="231" masterDocId="FFB5FFD0FFABAC05FFB37F30FFAE3453" masterDocTitle="Macroscelididae" masterLastPageNumber="234" masterPageNumber="206" pageNumber="230" updateTime="1657724052660" updateUser="tatiana">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Macroscelididae</mods:title>
@@ -41,7 +41,7 @@
 <mods:identifier type="ISBN">978-84-16728-08-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6646565</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6646633" ID-Zenodo-Dep="6646633" LSID="urn:lsid:plazi:treatment:038C87A8FFAEAC03FA147AA4FF58365E" httpUri="http://treatment.plazi.org/id/038C87A8FFAEAC03FA147AA4FF58365E" lastPageId="6" lastPageNumber="231" pageId="5" pageNumber="230">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6646633" ID-GBIF-Taxon="195915414" ID-Zenodo-Dep="6646633" LSID="urn:lsid:plazi:treatment:038C87A8FFAEAC03FA147AA4FF58365E" httpUri="http://treatment.plazi.org/id/038C87A8FFAEAC03FA147AA4FF58365E" lastPageId="6" lastPageNumber="231" pageId="5" pageNumber="230">
 <heading pageId="5" pageNumber="230">
 <subSubSection box="[1447,1501,1428,1470]" pageId="5" pageNumber="230" type="multiple">
 <paragraph blockId="5.[1442,2446,1428,1553]" box="[1447,1501,1428,1470]" pageId="5" pageNumber="230">
@@ -78,17 +78,27 @@
 </subSubSection>
 </heading>
 <subSubSection pageId="5" pageNumber="230" type="reference_group">
-<paragraph blockId="5.[2052,2649,1599,2021]" box="[2054,2647,1599,1628]" pageId="5" pageNumber="230">
-<emphasis bold="true" box="[2054,2209,1599,1628]" pageId="5" pageNumber="230">Taxonomy.</emphasis>
-Macrocelides 
-<taxonomicName baseAuthorityName="Duvernoy" baseAuthorityYear="1833" box="[2402,2542,1599,1628]" class="Mammalia" family="Macroscelididae" genus="Petrosaltator" higherTaxonomySource="GBIF" isUncertain="true" kingdom="Animalia" order="Macroscelidea" pageId="5" pageNumber="230" phylum="Chordata" rank="species" species="rozeti">[sic] rozeti</taxonomicName>
-Duver-
-</paragraph>
 <paragraph blockId="5.[2052,2649,1599,2021]" pageId="5" pageNumber="230">
-noy, 1833, 
-<materialsCitation pageId="5" pageNumber="230">“Africa septentrionali, prope Alger [= northern Africa, near Oran, Algeria].”</materialsCitation>
-Two subspecies are recognized.
+<emphasis bold="true" box="[2054,2209,1599,1628]" pageId="5" pageNumber="230">Taxonomy.</emphasis>
+<taxonomicName authority="Duvernoy, 1833" authorityName="Duvernoy" authorityYear="1833" class="Mammalia" family="Macroscelididae" genus="Macrocelides" higherTaxonomySource="GBIF" isUncertain="true" kingdom="Animalia" order="Macroscelidea" pageId="5" pageNumber="230" phylum="Chordata" rank="species" species="rozeti">Macrocelides [sic] rozeti Duvernoy, 1833</taxonomicName>
+,
 </paragraph>
+</subSubSection>
+<subSubSection pageId="5" pageNumber="230" type="materials_examined">
+<paragraph blockId="5.[2052,2649,1599,2021]" pageId="5" pageNumber="230">
+<materialsCitation ID-GBIF-Occurrence="3808212317" country="Algeria" location="Africa septentrionali" pageId="5" pageNumber="230" specimenCount="1">
+“ 
+<location LSID="urn:lsid:plazi:treatment:038C87A8FFAEAC03FA147AA4FF58365E:8EFA6065FFAEAC00F70E7952F64632D0" box="[2237,2536,1634,1667]" country="Algeria" name="Africa septentrionali" pageId="5" pageNumber="230">Africa septentrionali</location>
+, prope Alger [
+<locationDeviation box="[2155,2588,1682,1707]" pageId="5" pageNumber="230">= northern Africa, near Oran</locationDeviation>
+, 
+<collectingCountry name="Algeria" pageId="5" pageNumber="230">Algeria</collectingCountry>
+].”
+</materialsCitation>
+</paragraph>
+</subSubSection>
+<subSubSection box="[2054,2490,1752,1785]" pageId="5" pageNumber="230" type="discussion">
+<paragraph blockId="5.[2052,2649,1599,2021]" box="[2054,2490,1752,1785]" pageId="5" pageNumber="230">Two subspecies are recognized.</paragraph>
 </subSubSection>
 <subSubSection pageId="5" pageNumber="230" type="synonymic_list">
 <caption ID-DOI="http://doi.org/10.5281/zenodo.6646591" ID-Zenodo-Dep="6646591" httpUri="https://zenodo.org/record/6646591/files/figure.png" inLine="true" pageId="5" pageNumber="230" targetBox="[1438,2030,1608,2022]" targetPageId="5">

@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6646565" ID-GBIF-Dataset="f1465af8-3198-4cb6-91a1-a547cbb4d955" ID-ISBN="978-84-16728-08-4" ID-Zenodo-Dep="6646565" approvalRequired="3" approvalRequired_for_taxonomicNames="3" checkinTime="1655302485621" checkinUser="valdenar" docAuthor="Russell A. Mittermeier &amp; Don E. Wilson" docDate="2018" docId="038C87A8FFA8AC06FF1B7964F6C83658" docLanguage="en" docName="hbmw_8_Macroscelididae_0206.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 8 Insectivores, Sloths and Colugos, Barcelona: Lynx Edicions" docTitle="Rhynchocyon petersi Bocage 1880" docType="treatment" docVersion="2" lastPageNumber="228" masterDocId="FFB5FFD0FFABAC05FFB37F30FFAE3453" masterDocTitle="Macroscelididae" masterLastPageNumber="234" masterPageNumber="206" pageNumber="228" updateTime="1655305803907" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6646565" ID-GBIF-Dataset="f1465af8-3198-4cb6-91a1-a547cbb4d955" ID-ISBN="978-84-16728-08-4" ID-Zenodo-Dep="6646565" checkinTime="1655302485621" checkinUser="valdenar" docAuthor="Russell A. Mittermeier &amp; Don E. Wilson" docDate="2018" docId="038C87A8FFA8AC06FF1B7964F6C83658" docLanguage="en" docName="hbmw_8_Macroscelididae_0206.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 8 Insectivores, Sloths and Colugos, Barcelona: Lynx Edicions" docTitle="Rhynchocyon petersi Bocage 1880" docType="treatment" docVersion="4" lastPageNumber="228" masterDocId="FFB5FFD0FFABAC05FFB37F30FFAE3453" masterDocTitle="Macroscelididae" masterLastPageNumber="234" masterPageNumber="206" pageNumber="228" updateTime="1657724052660" updateUser="tatiana">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Macroscelididae</mods:title>
@@ -41,7 +41,7 @@
 <mods:identifier type="ISBN">978-84-16728-08-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6646565</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6646296" ID-Zenodo-Dep="6646296" LSID="urn:lsid:plazi:treatment:038C87A8FFA8AC06FF1B7964F6C83658" httpUri="http://treatment.plazi.org/id/038C87A8FFA8AC06FF1B7964F6C83658" lastPageNumber="228" pageId="3" pageNumber="228">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6646296" ID-GBIF-Taxon="195915421" ID-Zenodo-Dep="6646296" LSID="urn:lsid:plazi:treatment:038C87A8FFA8AC06FF1B7964F6C83658" httpUri="http://treatment.plazi.org/id/038C87A8FFA8AC06FF1B7964F6C83658" lastPageNumber="228" pageId="3" pageNumber="228">
 <heading pageId="3" pageNumber="228">
 <subSubSection box="[168,200,1620,1666]" pageId="3" pageNumber="228" type="multiple">
 <paragraph blockId="3.[165,1316,1620,1785]" box="[168,200,1620,1666]" pageId="3" pageNumber="228">
@@ -86,17 +86,27 @@
 </subSubSection>
 </heading>
 <subSubSection pageId="3" pageNumber="228" type="reference_group">
-<paragraph blockId="3.[780,1372,1834,2256]" box="[780,1369,1834,1863]" pageId="3" pageNumber="228">
+<paragraph blockId="3.[780,1372,1834,2256]" pageId="3" pageNumber="228">
 <emphasis bold="true" box="[780,935,1834,1863]" pageId="3" pageNumber="228">Taxonomy.</emphasis>
-<taxonomicName authority="Bocage" authorityName="Peters" authorityYear="1847" box="[966,1231,1834,1863]" class="Mammalia" family="Macroscelididae" genus="Rhynchocyon" kingdom="Animalia" order="Macroscelidea" pageId="3" pageNumber="228" phylum="Chordata" rank="genus" species="petersi">Rhynchocyon peters</taxonomicName>
-: Bocage,
+<taxonomicName authority="Bocage, 1880" authorityName="Bocage" authorityYear="1880" class="Mammalia" family="Macroscelididae" genus="Rhynchocyon" kingdom="Animalia" order="Macroscelidea" pageId="3" pageNumber="228" phylum="Chordata" rank="species" species="petersi">Rhynchocyon petersi Bocage, 1880</taxonomicName>
+,
 </paragraph>
-<paragraph blockId="3.[780,1372,1834,2256]" box="[784,1022,1873,1902]" pageId="3" pageNumber="228">
-1880, 
-<materialsCitation box="[870,1022,1873,1902]" pageId="3" pageNumber="228">“Zanzibar,”</materialsCitation>
+</subSubSection>
+<subSubSection pageId="3" pageNumber="228" type="materials_examined">
+<paragraph blockId="3.[780,1372,1834,2256]" pageId="3" pageNumber="228">
+<materialsCitation ID-GBIF-Occurrence="3808212319" country="Tanzania" location="Zanzibar" pageId="3" pageNumber="228" specimenCount="1" stateProvince="East Africa">
+“ 
+<location LSID="urn:lsid:plazi:treatment:038C87A8FFA8AC06FF1B7964F6C83658:8EFA6065FFA8AC06FCC37861FC41333D" box="[880,1007,1873,1902]" country="Tanzania" name="Zanzibar" pageId="3" pageNumber="228" stateProvince="East Africa">Zanzibar</location>
+,” 
+<collectingCountry box="[1037,1165,1873,1902]" name="Tanzania" pageId="3" pageNumber="228">Tanzania</collectingCountry>
+. Restricted by G. Dollman in 1912 to “ 
+<collectingRegion box="[1133,1289,1913,1942]" pageId="3" pageNumber="228">East Africa</collectingRegion>
+, Zanzibar being used in the original description for the whole district and not for the island.”
+</materialsCitation>
 </paragraph>
-<paragraph blockId="3.[780,1372,1834,2256]" box="[1037,1371,1873,1902]" pageId="3" pageNumber="228">Tanzania. Restricted by</paragraph>
-<paragraph blockId="3.[780,1372,1834,2256]" pageId="3" pageNumber="228">G. Dollman in 1912 to “East Africa, Zanzibar being used in the original description for the whole district and not for the island.” Two subspecies are recognized.</paragraph>
+</subSubSection>
+<subSubSection box="[780,1217,2066,2099]" pageId="3" pageNumber="228" type="discussion">
+<paragraph blockId="3.[780,1372,1834,2256]" box="[780,1217,2066,2099]" pageId="3" pageNumber="228">Two subspecies are recognized.</paragraph>
 </subSubSection>
 <subSubSection pageId="3" pageNumber="228" type="synonymic_list">
 <caption ID-DOI="http://doi.org/10.5281/zenodo.6646577" ID-Zenodo-Dep="6646577" httpUri="https://zenodo.org/record/6646577/files/figure.png" inLine="true" pageId="3" pageNumber="228" targetBox="[165,757,1839,2254]" targetPageId="3">

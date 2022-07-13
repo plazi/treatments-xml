@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6646565" ID-GBIF-Dataset="f1465af8-3198-4cb6-91a1-a547cbb4d955" ID-ISBN="978-84-16728-08-4" ID-Zenodo-Dep="6646565" approvalRequired="3" approvalRequired_for_taxonomicNames="3" checkinTime="1655302485621" checkinUser="valdenar" docAuthor="Russell A. Mittermeier &amp; Don E. Wilson" docDate="2018" docId="038C87A8FFA9AC07FFC77301F8E23D3C" docLanguage="en" docName="hbmw_8_Macroscelididae_0206.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 8 Insectivores, Sloths and Colugos, Barcelona: Lynx Edicions" docTitle="Rhynchocyon cirnei Peters 1847" docType="treatment" docVersion="2" lastPageNumber="227" masterDocId="FFB5FFD0FFABAC05FFB37F30FFAE3453" masterDocTitle="Macroscelididae" masterLastPageNumber="234" masterPageNumber="206" pageNumber="227" updateTime="1655305803907" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6646565" ID-GBIF-Dataset="f1465af8-3198-4cb6-91a1-a547cbb4d955" ID-ISBN="978-84-16728-08-4" ID-Zenodo-Dep="6646565" checkinTime="1655302485621" checkinUser="valdenar" docAuthor="Russell A. Mittermeier &amp; Don E. Wilson" docDate="2018" docId="038C87A8FFA9AC07FFC77301F8E23D3C" docLanguage="en" docName="hbmw_8_Macroscelididae_0206.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 8 Insectivores, Sloths and Colugos, Barcelona: Lynx Edicions" docTitle="Rhynchocyon cirnei Peters 1847" docType="treatment" docVersion="4" lastPageNumber="227" masterDocId="FFB5FFD0FFABAC05FFB37F30FFAE3453" masterDocTitle="Macroscelididae" masterLastPageNumber="234" masterPageNumber="206" pageNumber="227" updateTime="1657724052660" updateUser="tatiana">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Macroscelididae</mods:title>
@@ -41,7 +41,7 @@
 <mods:identifier type="ISBN">978-84-16728-08-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6646565</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6646294" ID-Zenodo-Dep="6646294" LSID="urn:lsid:plazi:treatment:038C87A8FFA9AC07FFC77301F8E23D3C" httpUri="http://treatment.plazi.org/id/038C87A8FFA9AC07FFC77301F8E23D3C" lastPageNumber="227" pageId="2" pageNumber="227">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6646294" ID-GBIF-Taxon="195915419" ID-Zenodo-Dep="6646294" LSID="urn:lsid:plazi:treatment:038C87A8FFA9AC07FFC77301F8E23D3C" httpUri="http://treatment.plazi.org/id/038C87A8FFA9AC07FFC77301F8E23D3C" lastPageNumber="227" pageId="2" pageNumber="227">
 <heading pageId="2" pageNumber="227">
 <subSubSection box="[116,147,3121,3167]" pageId="2" pageNumber="227" type="multiple">
 <paragraph blockId="2.[113,1008,3121,3246]" box="[116,147,3121,3167]" pageId="2" pageNumber="227">
@@ -79,16 +79,28 @@
 </paragraph>
 </subSubSection>
 </heading>
-<subSubSection pageId="2" pageNumber="227" type="reference_group">
+<subSubSection box="[1994,2585,290,323]" pageId="2" pageNumber="227" type="reference_group">
 <paragraph blockId="2.[1994,2588,290,718]" box="[1994,2585,290,323]" pageId="2" pageNumber="227">
 <emphasis bold="true" box="[1994,2149,290,323]" pageId="2" pageNumber="227">Taxonomy.</emphasis>
 <taxonomicName authority="Peters, 1847" authorityName="Peters" authorityYear="1847" box="[2161,2580,290,323]" class="Mammalia" family="Macroscelididae" genus="Rhynchocyon" kingdom="Animalia" order="Macroscelidea" pageId="2" pageNumber="227" phylum="Chordata" rank="species" species="cirnei">Rhynchocyon cirnei Peters, 1847</taxonomicName>
 ,
 </paragraph>
-<materialsCitation pageId="2" pageNumber="227">
-<paragraph blockId="2.[1994,2588,290,718]" box="[1995,2587,334,363]" pageId="2" pageNumber="227">Quelimane, Bororo District, Zambezia</paragraph>
-<paragraph blockId="2.[1994,2588,290,718]" box="[1995,2325,369,402]" pageId="2" pageNumber="227">Province, Mozambique.</paragraph>
+</subSubSection>
+<subSubSection pageId="2" pageNumber="227" type="materials_examined">
+<paragraph blockId="2.[1994,2588,290,718]" pageId="2" pageNumber="227">
+<materialsCitation ID-GBIF-Occurrence="3808212301" country="Mozambique" county="Bororo District" location="Quelimane" municipality="Quelimane" pageId="2" pageNumber="227" specimenCount="1" stateProvince="Zambezia Province">
+<collectingMunicipality box="[1995,2154,334,363]" pageId="2" pageNumber="227">Quelimane</collectingMunicipality>
+, 
+<collectingCounty box="[2188,2418,334,363]" pageId="2" pageNumber="227">Bororo District</collectingCounty>
+, 
+<collectingRegion country="Mozambique" name="Zambezia" pageId="2" pageNumber="227">Zambezia Province</collectingRegion>
+, 
+<collectingCountry box="[2135,2321,369,402]" name="Mozambique" pageId="2" pageNumber="227">Mozambique</collectingCountry>
+.
 </materialsCitation>
+</paragraph>
+</subSubSection>
+<subSubSection box="[1995,2430,413,442]" pageId="2" pageNumber="227" type="discussion">
 <paragraph blockId="2.[1994,2588,290,718]" box="[1995,2430,413,442]" pageId="2" pageNumber="227">Five subspecies are recognized.</paragraph>
 </subSubSection>
 <subSubSection pageId="2" pageNumber="227" type="synonymic_list">

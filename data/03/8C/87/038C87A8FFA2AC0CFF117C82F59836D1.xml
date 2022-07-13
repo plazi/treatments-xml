@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6646565" ID-GBIF-Dataset="f1465af8-3198-4cb6-91a1-a547cbb4d955" ID-ISBN="978-84-16728-08-4" ID-Zenodo-Dep="6646565" approvalRequired="3" approvalRequired_for_taxonomicNames="3" checkinTime="1655302485621" checkinUser="valdenar" docAuthor="Russell A. Mittermeier &amp; Don E. Wilson" docDate="2018" docId="038C87A8FFA2AC0CFF117C82F59836D1" docLanguage="en" docName="hbmw_8_Macroscelididae_0206.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 8 Insectivores, Sloths and Colugos, Barcelona: Lynx Edicions" docTitle="Elephantulus edwardii" docType="treatment" docVersion="2" lastPageNumber="234" masterDocId="FFB5FFD0FFABAC05FFB37F30FFAE3453" masterDocTitle="Macroscelididae" masterLastPageNumber="234" masterPageNumber="206" pageNumber="234" updateTime="1655305803907" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6646565" ID-GBIF-Dataset="f1465af8-3198-4cb6-91a1-a547cbb4d955" ID-ISBN="978-84-16728-08-4" ID-Zenodo-Dep="6646565" checkinTime="1655302485621" checkinUser="valdenar" docAuthor="Russell A. Mittermeier &amp; Don E. Wilson" docDate="2018" docId="038C87A8FFA2AC0CFF117C82F59836D1" docLanguage="en" docName="hbmw_8_Macroscelididae_0206.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 8 Insectivores, Sloths and Colugos, Barcelona: Lynx Edicions" docTitle="Elephantulus edwardii" docType="treatment" docVersion="4" lastPageNumber="234" masterDocId="FFB5FFD0FFABAC05FFB37F30FFAE3453" masterDocTitle="Macroscelididae" masterLastPageNumber="234" masterPageNumber="206" pageNumber="234" updateTime="1657724052660" updateUser="tatiana">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Macroscelididae</mods:title>
@@ -41,7 +41,7 @@
 <mods:identifier type="ISBN">978-84-16728-08-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6646565</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6646316" ID-Zenodo-Dep="6646316" LSID="urn:lsid:plazi:treatment:038C87A8FFA2AC0CFF117C82F59836D1" httpUri="http://treatment.plazi.org/id/038C87A8FFA2AC0CFF117C82F59836D1" lastPageNumber="234" pageId="9" pageNumber="234">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6646316" ID-GBIF-Taxon="195915436" ID-Zenodo-Dep="6646316" LSID="urn:lsid:plazi:treatment:038C87A8FFA2AC0CFF117C82F59836D1" httpUri="http://treatment.plazi.org/id/038C87A8FFA2AC0CFF117C82F59836D1" lastPageNumber="234" pageId="9" pageNumber="234">
 <heading pageId="9" pageNumber="234">
 <subSubSection box="[162,216,946,992]" pageId="9" pageNumber="234" type="multiple">
 <paragraph blockId="9.[157,1110,946,1074]" box="[162,216,946,992]" pageId="9" pageNumber="234">
@@ -85,10 +85,25 @@
 <paragraph blockId="9.[769,1361,1122,1544]" pageId="9" pageNumber="234">
 <emphasis bold="true" box="[770,925,1122,1151]" pageId="9" pageNumber="234">Taxonomy.</emphasis>
 <taxonomicName authority="A. Smith, 1839" authorityName="A. Smith" authorityYear="1839" class="Mammalia" family="Macroscelididae" genus="Macroscelides" kingdom="Animalia" order="Macroscelidea" pageId="9" pageNumber="234" phylum="Chordata" rank="species" species="edwardii">Macroscelides edwardii A. Smith, 1839</taxonomicName>
-, 
-<materialsCitation pageId="9" pageNumber="234">“one of the central districts of the colony, near to the Oliphant’s river,”</materialsCitation>
+,
 </paragraph>
-<paragraph blockId="9.[769,1361,1122,1544]" pageId="9" pageNumber="234">Western Cape Province, South Africa.</paragraph>
+</subSubSection>
+<subSubSection pageId="9" pageNumber="234" type="materials_examined">
+<paragraph blockId="9.[769,1361,1122,1544]" pageId="9" pageNumber="234">
+<materialsCitation ID-GBIF-Occurrence="3808212315" country="South Africa" location="one of the central districts of the colony" pageId="9" pageNumber="234" specimenCount="1" stateProvince="Western Cape Province">
+“ 
+<location LSID="urn:lsid:plazi:treatment:038C87A8FFA2AC0CFF117C82F59836D1:8EFA6065FFA2AC0CFCD97BB5FCF0309E" country="South Africa" name="one of the central districts of the colony" pageId="9" pageNumber="234" stateProvince="Western Cape Province">one of the central districts of the colony</location>
+, 
+<locationDeviation box="[878,1260,1196,1229]" pageId="9" pageNumber="234">near to the Oliphant’s river</locationDeviation>
+,” 
+<collectingRegion country="South Africa" name="Western Cape" pageId="9" pageNumber="234">Western Cape Province</collectingRegion>
+, 
+<collectingCountry box="[1048,1226,1240,1269]" name="South Africa" pageId="9" pageNumber="234">South Africa</collectingCountry>
+.
+</materialsCitation>
+</paragraph>
+</subSubSection>
+<subSubSection pageId="9" pageNumber="234" type="discussion">
 <paragraph blockId="9.[769,1361,1122,1544]" lastBlockId="9.[148,1360,1553,3236]" pageId="9" pageNumber="234">G. B. Corbet and J. Hanks in 1968 stated that Smith’stype locality could refer to the Oliphants River (= Olifantsrivier) in the Oudtshoorn district but more likely refers to the Oliphants River that originates in the Grootwinterhoek Wilderness Area and flows into the Atlantic near Papendorp— both in Western Cape Province. Monotypic.</paragraph>
 </subSubSection>
 <subSubSection box="[155,1357,1589,1622]" pageId="9" pageNumber="234" type="distribution">

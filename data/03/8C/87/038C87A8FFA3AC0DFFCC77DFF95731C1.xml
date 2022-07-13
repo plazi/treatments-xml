@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6646565" ID-GBIF-Dataset="f1465af8-3198-4cb6-91a1-a547cbb4d955" ID-ISBN="978-84-16728-08-4" ID-Zenodo-Dep="6646565" approvalRequired="3" approvalRequired_for_taxonomicNames="3" checkinTime="1655302485621" checkinUser="valdenar" docAuthor="Russell A. Mittermeier &amp; Don E. Wilson" docDate="2018" docId="038C87A8FFA3AC0DFFCC77DFF95731C1" docLanguage="en" docName="hbmw_8_Macroscelididae_0206.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 8 Insectivores, Sloths and Colugos, Barcelona: Lynx Edicions" docTitle="Elephantulus rupestris" docType="treatment" docVersion="3" lastPageNumber="233" masterDocId="FFB5FFD0FFABAC05FFB37F30FFAE3453" masterDocTitle="Macroscelididae" masterLastPageNumber="234" masterPageNumber="206" pageNumber="233" updateTime="1655305803907" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6646565" ID-GBIF-Dataset="f1465af8-3198-4cb6-91a1-a547cbb4d955" ID-ISBN="978-84-16728-08-4" ID-Zenodo-Dep="6646565" checkinTime="1655302485621" checkinUser="valdenar" docAuthor="Russell A. Mittermeier &amp; Don E. Wilson" docDate="2018" docId="038C87A8FFA3AC0DFFCC77DFF95731C1" docLanguage="en" docName="hbmw_8_Macroscelididae_0206.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 8 Insectivores, Sloths and Colugos, Barcelona: Lynx Edicions" docTitle="Elephantulus rupestris" docType="treatment" docVersion="5" lastPageNumber="233" masterDocId="FFB5FFD0FFABAC05FFB37F30FFAE3453" masterDocTitle="Macroscelididae" masterLastPageNumber="234" masterPageNumber="206" pageNumber="233" updateTime="1657724052660" updateUser="tatiana">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Macroscelididae</mods:title>
@@ -41,7 +41,7 @@
 <mods:identifier type="ISBN">978-84-16728-08-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6646565</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6646641" ID-Zenodo-Dep="6646641" LSID="urn:lsid:plazi:treatment:038C87A8FFA3AC0DFFCC77DFF95731C1" httpUri="http://treatment.plazi.org/id/038C87A8FFA3AC0DFFCC77DFF95731C1" lastPageNumber="233" pageId="8" pageNumber="233">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6646641" ID-GBIF-Taxon="195915434" ID-Zenodo-Dep="6646641" LSID="urn:lsid:plazi:treatment:038C87A8FFA3AC0DFFCC77DFF95731C1" httpUri="http://treatment.plazi.org/id/038C87A8FFA3AC0DFFCC77DFF95731C1" lastPageNumber="233" pageId="8" pageNumber="233">
 <heading pageId="8" pageNumber="233">
 <subSubSection box="[127,182,2287,2337]" pageId="8" pageNumber="233" type="multiple">
 <paragraph blockId="8.[123,1189,2287,2419]" box="[127,182,2287,2337]" pageId="8" pageNumber="233">
@@ -84,11 +84,22 @@
 <subSubSection pageId="8" pageNumber="233" type="reference_group">
 <paragraph blockId="8.[737,1330,2463,2886]" pageId="8" pageNumber="233">
 <emphasis bold="true" box="[737,893,2463,2492]" pageId="8" pageNumber="233">Taxonomy.</emphasis>
-<taxonomicName authority="A." box="[951,1325,2463,2492]" class="Mammalia" family="Macroscelididae" genus="Macroscelides" kingdom="Animalia" order="Macroscelidea" pageId="8" pageNumber="233" phylum="Chordata" rank="species" species="rupestris">Macroscelides rupestris A.</taxonomicName>
-Smith, 1831, 
-<materialsCitation pageId="8" pageNumber="233">mountains near the mouth of the Orange River. Restricted by G. C.</materialsCitation>
-Shortridge in 1934 to Little Namaqualand, South Africa. This species is monotypic.
+<taxonomicName authority="A. Smith, 1831" authorityName="A. Smith" authorityYear="1831" class="Mammalia" family="Macroscelididae" genus="Macroscelides" kingdom="Animalia" order="Macroscelidea" pageId="8" pageNumber="233" phylum="Chordata" rank="species" species="rupestris">Macroscelides rupestris A. Smith, 1831</taxonomicName>
+,
 </paragraph>
+</subSubSection>
+<subSubSection pageId="8" pageNumber="233" type="materials_examined">
+<paragraph blockId="8.[737,1330,2463,2886]" pageId="8" pageNumber="233">
+<materialsCitation ID-GBIF-Occurrence="3808212303" country="South Africa" location="mountains near the mouth of the Orange River" pageId="8" pageNumber="233" specimenCount="1">
+<location LSID="urn:lsid:plazi:treatment:038C87A8FFA3AC0DFFCC77DFF95731C1:8EFA6065FFA3AC0DFC1676FBFBA63E58" country="South Africa" name="mountains near the mouth of the Orange River" pageId="8" pageNumber="233">mountains near the mouth of the Orange River</location>
+. Restricted by G. C. Shortridge in 1934 to Little Namaqualand, 
+<collectingCountry box="[819,996,2626,2651]" name="South Africa" pageId="8" pageNumber="233">South Africa</collectingCountry>
+.
+</materialsCitation>
+</paragraph>
+</subSubSection>
+<subSubSection box="[738,1100,2657,2690]" pageId="8" pageNumber="233" type="discussion">
+<paragraph blockId="8.[737,1330,2463,2886]" box="[738,1100,2657,2690]" pageId="8" pageNumber="233">This species is monotypic.</paragraph>
 </subSubSection>
 <subSubSection pageId="8" pageNumber="233" type="distribution">
 <caption ID-DOI="http://doi.org/10.5281/zenodo.6646607" ID-Zenodo-Dep="6646607" httpUri="https://zenodo.org/record/6646607/files/figure.png" inLine="true" pageId="8" pageNumber="233" targetBox="[124,714,2473,2886]" targetPageId="8">

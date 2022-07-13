@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6646565" ID-GBIF-Dataset="f1465af8-3198-4cb6-91a1-a547cbb4d955" ID-ISBN="978-84-16728-08-4" ID-Zenodo-Dep="6646565" approvalRequired="3" approvalRequired_for_taxonomicNames="3" checkinTime="1655302485621" checkinUser="valdenar" docAuthor="Russell A. Mittermeier &amp; Don E. Wilson" docDate="2018" docId="038C87A8FFAEAC00FF1B7A28F60D30D1" docLanguage="en" docName="hbmw_8_Macroscelididae_0206.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 8 Insectivores, Sloths and Colugos, Barcelona: Lynx Edicions" docTitle="Petrodromus tetradactylus Peters 1846" docType="treatment" docVersion="2" lastPageNumber="230" masterDocId="FFB5FFD0FFABAC05FFB37F30FFAE3453" masterDocTitle="Macroscelididae" masterLastPageNumber="234" masterPageNumber="206" pageNumber="230" updateTime="1655305803907" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6646565" ID-GBIF-Dataset="f1465af8-3198-4cb6-91a1-a547cbb4d955" ID-ISBN="978-84-16728-08-4" ID-Zenodo-Dep="6646565" checkinTime="1655302485621" checkinUser="valdenar" docAuthor="Russell A. Mittermeier &amp; Don E. Wilson" docDate="2018" docId="038C87A8FFAEAC00FF1B7A28F60D30D1" docLanguage="en" docName="hbmw_8_Macroscelididae_0206.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 8 Insectivores, Sloths and Colugos, Barcelona: Lynx Edicions" docTitle="Petrodromus tetradactylus Peters 1846" docType="treatment" docVersion="4" lastPageNumber="230" masterDocId="FFB5FFD0FFABAC05FFB37F30FFAE3453" masterDocTitle="Macroscelididae" masterLastPageNumber="234" masterPageNumber="206" pageNumber="230" updateTime="1657724052660" updateUser="tatiana">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Macroscelididae</mods:title>
@@ -41,7 +41,7 @@
 <mods:identifier type="ISBN">978-84-16728-08-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6646565</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6646302" ID-Zenodo-Dep="6646302" LSID="urn:lsid:plazi:treatment:038C87A8FFAEAC00FF1B7A28F60D30D1" httpUri="http://treatment.plazi.org/id/038C87A8FFAEAC00FF1B7A28F60D30D1" lastPageNumber="230" pageId="5" pageNumber="230">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6646302" ID-GBIF-Taxon="195915416" ID-Zenodo-Dep="6646302" LSID="urn:lsid:plazi:treatment:038C87A8FFAEAC00FF1B7A28F60D30D1" httpUri="http://treatment.plazi.org/id/038C87A8FFAEAC00FF1B7A28F60D30D1" lastPageNumber="230" pageId="5" pageNumber="230">
 <heading pageId="5" pageNumber="230">
 <subSubSection box="[168,201,1304,1350]" pageId="5" pageNumber="230" type="multiple">
 <paragraph blockId="5.[166,1079,1304,1433]" box="[168,201,1304,1350]" pageId="5" pageNumber="230">
@@ -78,15 +78,23 @@
 </subSubSection>
 </heading>
 <subSubSection pageId="5" pageNumber="230" type="reference_group">
-<paragraph blockId="5.[780,1371,1478,1901]" box="[781,1369,1478,1507]" pageId="5" pageNumber="230">
+<paragraph blockId="5.[780,1371,1478,1901]" pageId="5" pageNumber="230">
 <emphasis bold="true" box="[781,936,1478,1507]" pageId="5" pageNumber="230">Taxonomy.</emphasis>
-<taxonomicName authority="Peters" authorityName="Peters" authorityYear="1846" box="[947,1364,1478,1507]" class="Mammalia" family="Macroscelididae" genus="Petrodromus" kingdom="Animalia" order="Macroscelidea" pageId="5" pageNumber="230" phylum="Chordata" rank="species" species="tetradactylus">Petrodromus tetradactylus Peters</taxonomicName>
+<taxonomicName authority="Peters, 1846" authorityName="Peters" authorityYear="1846" class="Mammalia" family="Macroscelididae" genus="Petrodromus" kingdom="Animalia" order="Macroscelidea" pageId="5" pageNumber="230" phylum="Chordata" rank="species" species="tetradactylus">Petrodromus tetradactylus Peters, 1846</taxonomicName>
 ,
 </paragraph>
-<paragraph blockId="5.[780,1371,1478,1901]" box="[784,1143,1522,1547]" pageId="5" pageNumber="230">
-1846, 
-<materialsCitation box="[865,1143,1522,1547]" pageId="5" pageNumber="230">Tette, Mozambique.</materialsCitation>
+</subSubSection>
+<subSubSection box="[865,1143,1522,1547]" pageId="5" pageNumber="230" type="materials_examined">
+<paragraph blockId="5.[780,1371,1478,1901]" box="[865,1143,1522,1547]" pageId="5" pageNumber="230">
+<materialsCitation ID-GBIF-Occurrence="3808212305" box="[865,1143,1522,1547]" country="Mozambique" location="Tette" pageId="5" pageNumber="230" specimenCount="1">
+<location LSID="urn:lsid:plazi:treatment:038C87A8FFAEAC00FF1B7A28F60D30D1:8EFA6065FFAEAC00FCD27AC2FC073258" box="[865,937,1522,1547]" country="Mozambique" name="Tette" pageId="5" pageNumber="230">Tette</location>
+, 
+<collectingCountry box="[953,1139,1522,1547]" name="Mozambique" pageId="5" pageNumber="230">Mozambique</collectingCountry>
+.
+</materialsCitation>
 </paragraph>
+</subSubSection>
+<subSubSection box="[781,1213,1553,1586]" pageId="5" pageNumber="230" type="discussion">
 <paragraph blockId="5.[780,1371,1478,1901]" box="[781,1213,1553,1586]" pageId="5" pageNumber="230">Ten subspecies are recognized.</paragraph>
 </subSubSection>
 <subSubSection pageId="5" pageNumber="230" type="synonymic_list">

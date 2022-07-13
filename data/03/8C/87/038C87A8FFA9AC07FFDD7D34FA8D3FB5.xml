@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6646565" ID-GBIF-Dataset="f1465af8-3198-4cb6-91a1-a547cbb4d955" ID-ISBN="978-84-16728-08-4" ID-Zenodo-Dep="6646565" approvalRequired="3" approvalRequired_for_taxonomicNames="3" checkinTime="1655302485621" checkinUser="valdenar" docAuthor="Russell A. Mittermeier &amp; Don E. Wilson" docDate="2018" docId="038C87A8FFA9AC07FFDD7D34FA8D3FB5" docLanguage="en" docName="hbmw_8_Macroscelididae_0206.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 8 Insectivores, Sloths and Colugos, Barcelona: Lynx Edicions" docTitle="Rhynchocyon chrysopygus Gunther 1881" docType="treatment" docVersion="3" lastPageNumber="227" masterDocId="FFB5FFD0FFABAC05FFB37F30FFAE3453" masterDocTitle="Macroscelididae" masterLastPageNumber="234" masterPageNumber="206" pageNumber="227" updateTime="1655305803907" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6646565" ID-GBIF-Dataset="f1465af8-3198-4cb6-91a1-a547cbb4d955" ID-ISBN="978-84-16728-08-4" ID-Zenodo-Dep="6646565" checkinTime="1655302485621" checkinUser="valdenar" docAuthor="Russell A. Mittermeier &amp; Don E. Wilson" docDate="2018" docId="038C87A8FFA9AC07FFDD7D34FA8D3FB5" docLanguage="en" docName="hbmw_8_Macroscelididae_0206.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 8 Insectivores, Sloths and Colugos, Barcelona: Lynx Edicions" docTitle="Rhynchocyon chrysopygus Gunther 1881" docType="treatment" docVersion="5" lastPageNumber="227" masterDocId="FFB5FFD0FFABAC05FFB37F30FFAE3453" masterDocTitle="Macroscelididae" masterLastPageNumber="234" masterPageNumber="206" pageNumber="227" updateTime="1657724052660" updateUser="tatiana">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Macroscelididae</mods:title>
@@ -41,7 +41,7 @@
 <mods:identifier type="ISBN">978-84-16728-08-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6646565</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6646625" ID-Zenodo-Dep="6646625" LSID="urn:lsid:plazi:treatment:038C87A8FFA9AC07FFDD7D34FA8D3FB5" httpUri="http://treatment.plazi.org/id/038C87A8FFA9AC07FFDD7D34FA8D3FB5" lastPageNumber="227" pageId="2" pageNumber="227">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6646625" ID-GBIF-Taxon="195915418" ID-Zenodo-Dep="6646625" LSID="urn:lsid:plazi:treatment:038C87A8FFA9AC07FFDD7D34FA8D3FB5" httpUri="http://treatment.plazi.org/id/038C87A8FFA9AC07FFDD7D34FA8D3FB5" lastPageNumber="227" pageId="2" pageNumber="227">
 <heading pageId="2" pageNumber="227">
 <subSubSection box="[110,139,516,566]" pageId="2" pageNumber="227" type="multiple">
 <paragraph blockId="2.[105,1299,516,686]" box="[110,139,516,566]" pageId="2" pageNumber="227">
@@ -84,15 +84,24 @@
 </subSubSection>
 </heading>
 <subSubSection pageId="2" pageNumber="227" type="reference_group">
-<paragraph blockId="2.[720,1313,732,1154]" box="[720,1313,732,761]" pageId="2" pageNumber="227">
-<emphasis bold="true" box="[720,875,732,761]" pageId="2" pageNumber="227">Taxonomy.</emphasis>
-<taxonomicName authorityName="Gunther" authorityYear="1881" box="[939,1313,732,761]" class="Mammalia" family="Macroscelididae" genus="Rhynchocyon" kingdom="Animalia" order="Macroscelidea" pageId="2" pageNumber="227" phylum="Chordata" rank="species" species="chrysopygus">Rhynchocyon chrysopygus</taxonomicName>
-</paragraph>
 <paragraph blockId="2.[720,1313,732,1154]" pageId="2" pageNumber="227">
-Gunther, 1881, 
-<materialsCitation pageId="2" pageNumber="227">“on the river Mombaca [= Mombasa],”</materialsCitation>
+<emphasis bold="true" box="[720,875,732,761]" pageId="2" pageNumber="227">Taxonomy.</emphasis>
+<taxonomicName authority="Gunther, 1881" authorityName="Gunther" authorityYear="1881" class="Mammalia" family="Macroscelididae" genus="Rhynchocyon" kingdom="Animalia" order="Macroscelidea" pageId="2" pageNumber="227" phylum="Chordata" rank="species" species="chrysopygus">Rhynchocyon chrysopygus Gunther, 1881</taxonomicName>
+,
 </paragraph>
-<paragraph blockId="2.[720,1313,732,1154]" box="[901,993,815,840]" pageId="2" pageNumber="227">Kenya.</paragraph>
+</subSubSection>
+<subSubSection pageId="2" pageNumber="227" type="materials_examined">
+<paragraph blockId="2.[720,1313,732,1154]" pageId="2" pageNumber="227">
+<materialsCitation ID-GBIF-Occurrence="3808212302" country="Kenya" location="on the river Mombaca [= Mombasa]" pageId="2" pageNumber="227" specimenCount="1">
+“ 
+<location LSID="urn:lsid:plazi:treatment:038C87A8FFA9AC07FFDD7D34FA8D3FB5:8EFA6065FFA9AC07FC097C33FCC4371B" country="Kenya" name="on the river Mombaca [= Mombasa]" pageId="2" pageNumber="227">on the river Mombaca [= Mombasa]</location>
+,” 
+<collectingCountry box="[901,989,815,840]" name="Kenya" pageId="2" pageNumber="227">Kenya</collectingCountry>
+.
+</materialsCitation>
+</paragraph>
+</subSubSection>
+<subSubSection box="[720,1083,850,879]" pageId="2" pageNumber="227" type="discussion">
 <paragraph blockId="2.[720,1313,732,1154]" box="[720,1083,850,879]" pageId="2" pageNumber="227">This species is monotypic.</paragraph>
 </subSubSection>
 <subSubSection pageId="2" pageNumber="227" type="distribution">
