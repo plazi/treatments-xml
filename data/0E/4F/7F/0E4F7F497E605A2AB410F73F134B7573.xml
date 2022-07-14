@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.5160270" ID-GBIF-Dataset="6dc2872d-cbab-4982-baed-c0969e3e3236" ID-Zenodo-Dep="5160270" checkinTime="1628013042203" checkinUser="carolina" docAuthor="Swezey, O. H." docDate="1942" docId="0E4F7F497E605A2AB410F73F134B7573" docLanguage="en" docName="InsectsOfGuamI.172.175-183.pdf.imf" docOrigin="Insects of Guam I, Honolulu, Hawaii: Bernice P. Bishop Museum" docStyle="DocumentStyle:A6818C686426A7D59822A3BD2E5D42E5.2:InsectsOfGuam.1942.book_chapter" docStyleId="A6818C686426A7D59822A3BD2E5D42E5" docStyleName="InsectsOfGuam.1942.book_chapter" docStyleVersion="2" docTitle="Triglyphothrix striatidens" docType="treatment" docVersion="17" lastPageNumber="180" masterDocId="F27607317E645A2FB552FF8416577654" masterDocTitle="Hymenoptera Formicidae of Guam" masterLastPageNumber="183" masterPageNumber="175" pageNumber="179" updateTime="1655241219921" updateUser="felipe">
+<document ID-DOI="http://doi.org/10.5281/zenodo.5160270" ID-GBIF-Dataset="6dc2872d-cbab-4982-baed-c0969e3e3236" ID-Zenodo-Dep="5160270" checkinTime="1628013042203" checkinUser="carolina" docAuthor="Swezey, O. H." docDate="1942" docId="0E4F7F497E605A2AB410F73F134B7573" docLanguage="en" docName="InsectsOfGuamI.172.175-183.pdf.imf" docOrigin="Insects of Guam I, Honolulu, Hawaii: Bernice P. Bishop Museum" docStyle="DocumentStyle:A6818C686426A7D59822A3BD2E5D42E5.1:InsectsOfGuam.1942.book_chapter" docStyleId="A6818C686426A7D59822A3BD2E5D42E5" docStyleName="InsectsOfGuam.1942.book_chapter" docStyleVersion="1" docTitle="Triglyphothrix striatidens" docType="treatment" docVersion="18" lastPageNumber="180" masterDocId="F27607317E645A2FB552FF8416577654" masterDocTitle="Hymenoptera Formicidae of Guam" masterLastPageNumber="183" masterPageNumber="175" pageNumber="179" updateTime="1657808829564" updateUser="annettekang">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Hymenoptera Formicidae of Guam</mods:title>
@@ -135,7 +135,36 @@ Fauna Brit.
 </subSubSection>
 <subSubSection pageId="5" pageNumber="180" type="materials_examined">
 <paragraph blockId="5.[426,1821,404,807]" pageId="5" pageNumber="180">
-<materialsCitation ID-GBIF-Occurrence="3336143316" pageId="5" pageNumber="180">Mt. Tenjo, May 3, Usinger; Barrigada, June 12, sifted from leaf mold on ground, Usinger; Piti, Nov. 3, swept from lawn grass, Swezey.</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3336143316" box="[490,1002,560,603]" collectingDate="May 3" location="Usinger" municipality="Mt. Tenjo" pageId="5" pageNumber="180" specimenCount="1">
+<collectingMunicipality box="[490,679,560,603]" pageId="5" pageNumber="180">Mt. Tenjo</collectingMunicipality>
+, 
+<date box="[703,820,560,603]" pageId="5" pageNumber="180">
+<collectingDate box="[703,820,560,603]" pageId="5" pageNumber="180">May 3</collectingDate>
+</date>
+, 
+<location LSID="urn:lsid:plazi:treatment:0E4F7F497E605A2AB410F73F134B7573:833998847E615A2AB61FFDB415B4740F" box="[845,995,560,603]" municipality="Mt. Tenjo" name="Usinger" pageId="5" pageNumber="180">Usinger</location>
+;
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3336143316" collectingDate="2012-06" location="Barrigada" pageId="5" pageNumber="180" specimenCount="1">
+<location LSID="urn:lsid:plazi:treatment:0E4F7F497E605A2AB410F73F134B7573:833998847E615A2AB6AFFDB412F8740F" box="[1021,1199,560,603]" name="Barrigada" pageId="5" pageNumber="180">Barrigada</location>
+, 
+<date box="[1222,1364,560,603]" pageId="5" pageNumber="180" value="2012-06">
+<collectingDate box="[1222,1364,560,603]" pageId="5" pageNumber="180" value="2012-06">June 12</collectingDate>
+</date>
+, sifted from leaf mold on ground, 
+<location LSID="urn:lsid:plazi:treatment:0E4F7F497E605A2AB410F73F134B7573:833998847E615A2AB712FDE0148074DB" box="[576,727,612,655]" name="Usinger" pageId="5" pageNumber="180">Usinger</location>
+;
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3336143316" box="[751,1549,612,655]" collectingDate="Nov. 3" collectorName="Swezey" location="Piti" pageId="5" pageNumber="180" specimenCount="1">
+<location LSID="urn:lsid:plazi:treatment:0E4F7F497E605A2AB410F73F134B7573:833998847E615A2AB7BDFDE0156674DB" box="[751,817,612,655]" name="Piti" pageId="5" pageNumber="180">Piti</location>
+, 
+<date box="[841,962,612,655]" pageId="5" pageNumber="180">
+<collectingDate box="[841,962,612,655]" pageId="5" pageNumber="180">Nov. 3</collectingDate>
+</date>
+, swept from lawn grass, 
+<collectorName box="[1410,1544,612,655]" pageId="5" pageNumber="180">Swezey</collectorName>
+.
+</materialsCitation>
 </paragraph>
 </subSubSection>
 <subSubSection pageId="5" pageNumber="180" type="discussion">
@@ -146,9 +175,15 @@ A dark brown ant, smaller than the preceding species. Occurs in New Britain,
 <collectingCountry box="[903,1023,714,756]" name="Sri Lanka" pageId="5" pageNumber="180">Ceylon</collectingCountry>
 and 
 <collectingCountry box="[1121,1217,714,756]" name="India" pageId="5" pageNumber="180">India</collectingCountry>
-. Collected in 
+. 
+<materialsCitation country="Guam" location="Fullaway" pageId="5" pageNumber="180" specimenCount="1">
+Collected in 
 <collectingCountry box="[1478,1582,714,756]" name="Guam" pageId="5" pageNumber="180">Guam</collectingCountry>
-by Fullaway in 1911. We found it in only a few places in 1936.
+by 
+<location LSID="urn:lsid:plazi:treatment:0E4F7F497E605A2AB410F73F134B7573:833998847E615A2AB32BFD4E114B74A0" box="[1657,1820,714,756]" country="Guam" name="Fullaway" pageId="5" pageNumber="180">Fullaway</location>
+in 1911
+</materialsCitation>
+. We found it in only a few places in 1936.
 </paragraph>
 </subSubSection>
 </treatment>
