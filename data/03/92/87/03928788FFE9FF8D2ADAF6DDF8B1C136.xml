@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.5676766" ID-GBIF-Dataset="d09ba0c5-3d1a-4fd5-a5a1-32616029db65" ID-ISBN="978-84-96553-49-1" ID-Zenodo-Dep="5676766" approvalRequired="6" approvalRequired_for_taxonomicNames="2" approvalRequired_for_treatments="4" checkinTime="1633564632910" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2009" docId="03928788FFE9FF8D2ADAF6DDF8B1C136" docLanguage="en" docName="hbmw_1_Hyaenidae_0234.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 1 Carnivores, Barcelona: Lynx Edicions" docTitle="Crocuta crocuta" docType="treatment" docVersion="11" lastPageNumber="256" masterDocId="FFABFFF0FFEAFF882A1AFF85FF96C40B" masterDocTitle="Hyaenidae" masterLastPageNumber="260" masterPageNumber="234" pageNumber="254" updateTime="1652711268661" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.5676766" ID-GBIF-Dataset="d09ba0c5-3d1a-4fd5-a5a1-32616029db65" ID-ISBN="978-84-96553-49-1" ID-Zenodo-Dep="5676766" approvalRequired="6" approvalRequired_for_taxonomicNames="2" approvalRequired_for_treatments="4" checkinTime="1633564632910" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2009" docId="03928788FFE9FF8D2ADAF6DDF8B1C136" docLanguage="en" docName="hbmw_1_Hyaenidae_0234.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 1 Carnivores, Barcelona: Lynx Edicions" docTitle="Crocuta crocuta" docType="treatment" docVersion="13" lastPageNumber="256" masterDocId="FFABFFF0FFEAFF882A1AFF85FF96C40B" masterDocTitle="Hyaenidae" masterLastPageNumber="260" masterPageNumber="234" pageNumber="254" updateTime="1657897196648" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Hyaenidae</mods:title>
@@ -41,7 +41,7 @@
 <mods:identifier type="ISBN">978-84-96553-49-1</mods:identifier>
 <mods:identifier type="Zenodo-Dep">5676766</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.5698504" ID-Zenodo-Dep="5698504" LSID="urn:lsid:plazi:treatment:03928788FFE9FF8D2ADAF6DDF8B1C136" httpUri="http://treatment.plazi.org/id/03928788FFE9FF8D2ADAF6DDF8B1C136" lastPageId="5" lastPageNumber="256" pageId="3" pageNumber="254">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.5698504" ID-GBIF-Taxon="190304982" ID-Zenodo-Dep="5698504" LSID="urn:lsid:plazi:treatment:03928788FFE9FF8D2ADAF6DDF8B1C136" httpUri="http://treatment.plazi.org/id/03928788FFE9FF8D2ADAF6DDF8B1C136" lastPageId="5" lastPageNumber="256" pageId="3" pageNumber="254">
 <subSubSection box="[192,223,2392,2442]" pageId="3" pageNumber="254" type="multiple">
 <paragraph blockId="3.[190,966,2392,2485]" box="[192,223,2392,2442]" pageId="3" pageNumber="254">
 <heading box="[192,223,2392,2442]" pageId="3" pageNumber="254">
@@ -79,15 +79,23 @@
 </heading>
 </paragraph>
 </subSubSection>
-<subSubSection pageId="3" pageNumber="254" type="reference_group">
-<paragraph blockId="3.[799,1393,2529,2951]" lastBlockId="3.[191,1394,2958,3462]" pageId="3" pageNumber="254">
+<subSubSection box="[799,1328,2529,2558]" pageId="3" pageNumber="254" type="reference_group">
+<paragraph blockId="3.[799,1393,2529,2951]" box="[799,1328,2529,2558]" pageId="3" pageNumber="254">
 <emphasis box="[799,947,2529,2558]" pageId="3" pageNumber="254">Taxonomy.</emphasis>
 <taxonomicName authority="Erxleben, 1777" authorityName="Erxleben" authorityYear="1777" box="[958,1323,2529,2558]" class="Mammalia" family="Canidae" genus="Canis" higherTaxonomySource="GBIF" kingdom="Animalia" order="Carnivora" pageId="3" pageNumber="254" phylum="Chordata" rank="species" species="crocuta">Canis crocuta Erxleben, 1777</taxonomicName>
-, 
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="3" pageNumber="254" type="materials_examined">
+<paragraph blockId="3.[799,1393,2529,2951]" pageId="3" pageNumber="254">
 <materialsCitation ID-GBIF-Occurrence="3704042301" pageId="3" pageNumber="254">
 <collectingCountry name="Guinea-Bissau" pageId="3" pageNumber="254">Guinea</collectingCountry>
 , Aethiopia; restricted to “Senegambia”.
 </materialsCitation>
+</paragraph>
+</subSubSection>
+<subSubSection pageId="3" pageNumber="254" type="discussion">
+<paragraph blockId="3.[799,1393,2529,2951]" lastBlockId="3.[191,1394,2958,3462]" pageId="3" pageNumber="254">
 The earliest members of the genus 
 <taxonomicName authorityName="Kaup" authorityYear="1828" box="[1299,1393,2603,2636]" class="Mammalia" family="Hyaenidae" genus="Crocuta" kingdom="Animalia" order="Carnivora" pageId="3" pageNumber="254" phylum="Chordata" rank="genus">Crocuta</taxonomicName>
 first appear in the fossil record of Africa in the early Pliocene, dated at roughly 3-7 million years ago. However, members of this genus soon dispersed out of Africa, and based on fossils from the period ofits greatest range expansion in the Pleistocene, the genus 
