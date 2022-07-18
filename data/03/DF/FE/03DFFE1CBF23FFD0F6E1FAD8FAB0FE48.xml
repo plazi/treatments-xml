@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.5207968" ID-GBIF-Dataset="204ef7e8-5ba9-4591-8275-598a53611feb" ID-GBIF-Taxon="183919449" ID-Zenodo-Dep="5207968" checkinTime="1628013562991" checkinUser="carolina" docAuthor="Cadwell, J. S." docDate="1942" docId="03DFFE1CBF23FFD0F6E1FAD8FAB0FE48" docLanguage="en" docName="InsectsOfGuamI.172.20-22.pdf.imf" docOrigin="Insects of Guam I, Honolulu, Hawaii: Bernice P. Bishop Museum Bulletin 172" docStyle="DocumentStyle:A6818C686426A7D59822A3BD2E5D42E5.1:InsectsOfGuam.1942.book_chapter" docStyleId="A6818C686426A7D59822A3BD2E5D42E5" docStyleName="InsectsOfGuam.1942.book_chapter" docStyleVersion="1" docTitle="Leptynoptera sulfurea Crawford" docType="treatment" docVersion="13" lastPageId="1" lastPageNumber="20" masterDocId="FFE68664BF23FFD1F70BFF81FFA1FFE4" masterDocTitle="Psyllidae from Guam" masterLastPageNumber="22" masterPageNumber="20" pageId="0" pageNumber="20" updateTime="1632484162720" updateUser="carolina">
+<document ID-DOI="http://doi.org/10.5281/zenodo.5159783" ID-GBIF-Dataset="204ef7e8-5ba9-4591-8275-598a53611feb" ID-Zenodo-Dep="5159783" checkinTime="1628013562991" checkinUser="carolina" docAuthor="Cadwell, J. S." docDate="1942" docId="03DFFE1CBF23FFD0F6E1FAD8FAB0FE48" docLanguage="en" docName="InsectsOfGuamI.172.20-22.pdf.imf" docOrigin="Insects of Guam I, Honolulu, Hawaii: Bernice P. Bishop Museum Bulletin 172" docStyle="DocumentStyle:A6818C686426A7D59822A3BD2E5D42E5.1:InsectsOfGuam.1942.book_chapter" docStyleId="A6818C686426A7D59822A3BD2E5D42E5" docStyleName="InsectsOfGuam.1942.book_chapter" docStyleVersion="1" docTitle="Leptynoptera sulfurea Crawford" docType="treatment" docVersion="14" lastPageNumber="20" masterDocId="FFE68664BF23FFD1F70BFF81FFA1FFE4" masterDocTitle="Psyllidae from Guam" masterLastPageNumber="22" masterPageNumber="20" pageNumber="20" updateTime="1658160968196" updateUser="annettekang">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Psyllidae from Guam</mods:title>
@@ -119,20 +119,39 @@ figs. 4, 20, 38, 48,
 </heading>
 <subSubSection pageId="0" pageNumber="20" type="materials_examined">
 <paragraph blockId="0.[484,1884,1310,2542]" pageId="0" pageNumber="20">
-<materialsCitation ID-GBIF-Occurrence="3331244302" box="[550,1768,1678,1720]" pageId="0" pageNumber="20">
-Yigo, Nov. 13, reared from 
+<materialsCitation ID-GBIF-Occurrence="3331244302" box="[550,1768,1678,1720]" collectedFrom="reared from Calophyllum inophyllum leaves" collectingDate="1936-11-13" collectorName="O. H. Swezey" country="Guam" location="Yigo" pageId="0" pageNumber="20">
+<collectingMunicipality box="[550,638,1678,1720]" pageId="0" pageNumber="20">Yigo</collectingMunicipality>
+, 
+<date box="[661,801,1678,1720]" pageId="0" pageNumber="20" value="2013-11">
+<collectingDate box="[661,801,1678,1720]" pageId="0" pageNumber="20" value="2013-11">Nov. 13</collectingDate>
+</date>
+, reared from 
 <taxonomicName box="[1050,1479,1678,1720]" class="Magnoliopsida" family="Calophyllaceae" genus="Calophyllum" kingdom="Plantae" order="Malpighiales" pageId="0" pageNumber="20" phylum="Tracheophyta" rank="species" species="inophyllum">
-<emphasis box="[1050,1479,1678,1720]" italics="true" pageId="0" pageNumber="20">Calophyllum inophyllum</emphasis>
+<emphasis box="[1050,1479,1678,1720]" italics="true" pageId="0" pageNumber="20">
+<location LSID="urn:lsid:plazi:treatment:03DFFE1CBF23FFD0F6E1FAD8FAB0FE48:8EA919D1BF23FFD1F311F90FFB57F95C" box="[1050,1270,1678,1720]" country="Guam" municipality="Yigo" name="Calophyllum" pageId="0" pageNumber="20">Calophyllum</location>
+inophyllum
+</emphasis>
 </taxonomicName>
-leaves, Swezey;
+leaves, 
+<collectorName box="[1621,1761,1678,1720]" pageId="0" pageNumber="20">Swezey</collectorName>
+;
 </materialsCitation>
-<materialsCitation ID-GBIF-Occurrence="3331244307" pageId="0" pageNumber="20">
-Umatac, on beach, on 
+<materialsCitation ID-GBIF-Occurrence="3331244307" collectedFrom="on beach, on Calophyllum inophyllum" collectingDate="1936-05-28" collectorName="O. H. Swezey" country="Guam" location="Umatac" pageId="0" pageNumber="20">
+<collectingMunicipality pageId="0" pageNumber="20">Umatac</collectingMunicipality>
+, on beach, on 
 <emphasis box="[802,1245,1731,1771]" italics="true" pageId="0" pageNumber="20">
-<taxonomicName box="[802,1239,1731,1771]" class="Magnoliopsida" family="Calophyllaceae" genus="Calophyllum" kingdom="Plantae" order="Malpighiales" pageId="0" pageNumber="20" phylum="Tracheophyta" rank="species" species="inophyllum">Calophyllum inophyllum</taxonomicName>
+<taxonomicName box="[802,1239,1731,1771]" class="Magnoliopsida" family="Calophyllaceae" genus="Calophyllum" kingdom="Plantae" order="Malpighiales" pageId="0" pageNumber="20" phylum="Tracheophyta" rank="species" species="inophyllum">
+<location LSID="urn:lsid:plazi:treatment:03DFFE1CBF23FFD0F6E1FAD8FAB0FE48:8EA919D1BF23FFD1F429F942FC5EF90F" box="[802,1023,1731,1771]" municipality="Umatac" name="Calophyllum" pageId="0" pageNumber="20">Calophyllum</location>
+inophyllum
+</taxonomicName>
 ,
 </emphasis>
-May 28, Swezey.
+<date box="[1263,1401,1731,1771]" pageId="0" pageNumber="20" value="1928-05">
+<collectingDate box="[1263,1401,1731,1771]" pageId="0" pageNumber="20" value="1928-05">May 28</collectingDate>
+</date>
+, 
+<location LSID="urn:lsid:plazi:treatment:03DFFE1CBF23FFD0F6E1FAD8FAB0FE48:8EA919D1BF23FFD1F298F942F9B8F90F" box="[1427,1561,1731,1771]" municipality="Umatac" name="Swezey" pageId="0" pageNumber="20">Swezey</location>
+.
 </materialsCitation>
 </paragraph>
 </subSubSection>

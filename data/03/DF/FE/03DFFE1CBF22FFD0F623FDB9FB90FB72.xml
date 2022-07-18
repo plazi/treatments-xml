@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.5163560" ID-GBIF-Dataset="204ef7e8-5ba9-4591-8275-598a53611feb" ID-GBIF-Taxon="183919442" ID-Zenodo-Dep="5163560" checkinTime="1628013562991" checkinUser="carolina" docAuthor="Cadwell, J. S." docDate="1942" docId="03DFFE1CBF22FFD0F623FDB9FB90FB72" docLanguage="en" docName="InsectsOfGuamI.172.20-22.pdf.imf" docOrigin="Insects of Guam I, Honolulu, Hawaii: Bernice P. Bishop Museum Bulletin 172" docStyle="DocumentStyle:A6818C686426A7D59822A3BD2E5D42E5.1:InsectsOfGuam.1942.book_chapter" docStyleId="A6818C686426A7D59822A3BD2E5D42E5" docStyleName="InsectsOfGuam.1942.book_chapter" docStyleVersion="1" docTitle="Tyora ornata Crawford, Ins." docType="treatment" docVersion="9" lastPageNumber="21" masterDocId="FFE68664BF23FFD1F70BFF81FFA1FFE4" masterDocTitle="Psyllidae from Guam" masterLastPageNumber="22" masterPageNumber="20" pageId="1" pageNumber="21" updateTime="1632484162720" updateUser="carolina">
+<document ID-DOI="http://doi.org/10.5281/zenodo.5159783" ID-GBIF-Dataset="204ef7e8-5ba9-4591-8275-598a53611feb" ID-Zenodo-Dep="5159783" checkinTime="1628013562991" checkinUser="carolina" docAuthor="Cadwell, J. S." docDate="1942" docId="03DFFE1CBF22FFD0F623FDB9FB90FB72" docLanguage="en" docName="InsectsOfGuamI.172.20-22.pdf.imf" docOrigin="Insects of Guam I, Honolulu, Hawaii: Bernice P. Bishop Museum Bulletin 172" docStyle="DocumentStyle:A6818C686426A7D59822A3BD2E5D42E5.1:InsectsOfGuam.1942.book_chapter" docStyleId="A6818C686426A7D59822A3BD2E5D42E5" docStyleName="InsectsOfGuam.1942.book_chapter" docStyleVersion="1" docTitle="Tyora ornata Crawford, Ins." docType="treatment" docVersion="10" lastPageNumber="21" masterDocId="FFE68664BF23FFD1F70BFF81FFA1FFE4" masterDocTitle="Psyllidae from Guam" masterLastPageNumber="22" masterPageNumber="20" pageNumber="21" updateTime="1658160968196" updateUser="annettekang">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Psyllidae from Guam</mods:title>
@@ -51,7 +51,7 @@
 <paragraph blockId="1.[296,1691,568,1174]" pageId="1" pageNumber="21">
 <treatmentCitationGroup pageId="1" pageNumber="21">
 <treatmentCitation author="Kirkaldy" page="390" pageId="1" pageNumber="21" year="1908">
-<taxonomicName authority="Kirkaldy, Linn. Soc. N. S." authorityName="Kirkaldy, Linn. Soc. N. S." authorityYear="1908" box="[360,815,617,660]" class="Insecta" family="Psyllidae" genus="Nesiope" higherTaxonomySource="GBIF" kingdom="Animalia" order="Hemiptera" pageId="1" pageNumber="21" phylum="Arthropoda" rank="species" species="ornata">
+<taxonomicName authority="Kirkaldy, Linn. Soc. N. S." authorityName="Kirkaldy, Linn. Soc. N. S." box="[360,815,617,660]" class="Insecta" family="Psyllidae" genus="Nesiope" higherTaxonomySource="CoL" kingdom="Animalia" order="Hemiptera" pageId="1" pageNumber="21" phylum="Arthropoda" rank="species" species="ornata">
 <emphasis box="[360,635,617,660]" italics="true" pageId="1" pageNumber="21">Nesiope ornata</emphasis>
 <bibCitation author="Kirkaldy" journalOrPublisher="Linn. Soc. N. S. Wales, Proc." pageId="1" pageNumber="21" pagination="390" part="33" type="journal volume" year="1908">
 <author box="[654,815,617,660]" pageId="1" pageNumber="21">Kirkaldy</author>
@@ -119,16 +119,37 @@ without mention of host plant, but a later record from
 .&quot;
 </emphasis>
 <collectingMunicipality box="[594,673,874,917]" pageId="1" pageNumber="21">This</collectingMunicipality>
-species has also been recorded from Borneo. The 
+species has also been recorded from Borneo. 
+<materialsCitation collectedFrom="from the leaves of Heritiera littoralis, a tree growing near the shore along the road" collectingDate="1936-06-21" collectorName="O. H. Swezey" country="Guam" location="Sumay Road" pageId="1" pageNumber="21" specimenCount="28">
+The 
 <collectingCountry box="[1588,1691,874,917]" name="Guam" pageId="1" pageNumber="21">Guam</collectingCountry>
 material (
 <specimenCount box="[471,710,927,968]" pageId="1" pageNumber="21" type="generic">28 specimens</specimenCount>
 ) was all collected from the leaves of 
 <emphasis box="[1361,1691,927,968]" italics="true" pageId="1" pageNumber="21">
-<taxonomicName box="[1361,1685,927,968]" class="Magnoliopsida" family="Malvaceae" genus="Heritiera" kingdom="Plantae" order="Malvales" pageId="1" pageNumber="21" phylum="Tracheophyta" rank="species" species="littoralis">Heritiera littoralis</taxonomicName>
+<taxonomicName box="[1361,1685,927,968]" class="Magnoliopsida" family="Malvaceae" genus="Heritiera" kingdom="Plantae" order="Malvales" pageId="1" pageNumber="21" phylum="Tracheophyta" rank="species" species="littoralis">
+<collectingMunicipality box="[1361,1525,927,968]" pageId="1" pageNumber="21">Heritiera</collectingMunicipality>
+littoralis
+</taxonomicName>
 ,
 </emphasis>
-a tree growing near the shore along the road to Sumay, June 21, and July 15, Swezey. This is another widespread tree in the Pacific, and no doubt this psyllid will be found more widely distributed by future collecting. It was being preyed on by larvae of a lacewing fly.
+a tree growing near the shore along the road to 
+<location LSID="urn:lsid:plazi:treatment:03DFFE1CBF22FFD0F623FDB9FB90FB72:8EA919D1BF22FFD0F387FC50FAA6FC18" box="[1164,1287,977,1020]" country="Guam" municipality="Heritiera" name="Sumay" pageId="1" pageNumber="21">Sumay</location>
+, 
+<date box="[1310,1451,977,1020]" pageId="1" pageNumber="21" value="2021-06">
+<collectingDate box="[1310,1451,977,1020]" pageId="1" pageNumber="21" value="2021-06">June 21</collectingDate>
+</date>
+,
+</materialsCitation>
+<materialsCitation collectedFrom="from the leaves of Heritiera littoralis, a tree growing near the shore along the road" collectingDate="1936-07-15" collectorName="O. H. Swezey" country="Guam" location="Sumay Road" pageId="1" pageNumber="21" specimenCount="28">
+and 
+<date box="[1551,1684,977,1020]" pageId="1" pageNumber="21" value="2015-07">
+<collectingDate box="[1551,1684,977,1020]" pageId="1" pageNumber="21" value="2015-07">July 15</collectingDate>
+</date>
+, 
+<location LSID="urn:lsid:plazi:treatment:03DFFE1CBF22FFD0F623FDB9FB90FB72:8EA919D1BF22FFD0F627FB84FE13FBD4" box="[300,434,1029,1072]" country="Guam" municipality="Heritiera" name="Swezey" pageId="1" pageNumber="21">Swezey</location>
+</materialsCitation>
+. This is another widespread tree in the Pacific, and no doubt this psyllid will be found more widely distributed by future collecting. It was being preyed on by larvae of a lacewing fly.
 </paragraph>
 </subSubSection>
 </treatment>
