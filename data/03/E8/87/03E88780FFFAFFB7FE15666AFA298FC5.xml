@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.5158750" ID-GBIF-Dataset="11d04f7a-e744-4ac9-b0af-3cbf68f8cc92" ID-GBIF-Taxon="184009975" ID-Zenodo-Dep="5158750" checkinTime="1628021447149" checkinUser="carolina" docAuthor="Fullaway, D. T." docDate="1946" docId="03E88780FFFAFFB7FE15666AFA298FC5" docLanguage="en" docName="InsectsOfGuamII.189.201-210.pdf.imf" docOrigin="Insects of Guam II, Honolulu, Hawaii: Bernice P. Bishop Museum" docStyle="DocumentStyle:A6818C686426A7D59822A3BD2E5D42E5.1:InsectsOfGuam.1942.book_chapter" docStyleId="A6818C686426A7D59822A3BD2E5D42E5" docStyleName="InsectsOfGuam.1942.book_chapter" docStyleVersion="1" docTitle="Otitesella swezeyi Fullaway, 1946, new species" docType="treatment" docVersion="7" lastPageId="4" lastPageNumber="205" masterDocId="FFD1FFF8FFF9FFB3FFC86E5DFFBE8B32" masterDocTitle="Hymenoptera, New Species Of Guam Chalcidoidea" masterLastPageNumber="210" masterPageNumber="201" pageId="3" pageNumber="204" updateTime="1643596307041" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.5169330" ID-GBIF-Dataset="11d04f7a-e744-4ac9-b0af-3cbf68f8cc92" ID-Zenodo-Dep="5169330" checkinTime="1628021447149" checkinUser="carolina" docAuthor="Fullaway, D. T." docDate="1946" docId="03E88780FFFAFFB7FE15666AFA298FC5" docLanguage="en" docName="InsectsOfGuamII.189.201-210.pdf.imf" docOrigin="Insects of Guam II, Honolulu, Hawaii: Bernice P. Bishop Museum" docStyle="DocumentStyle:A6818C686426A7D59822A3BD2E5D42E5.1:InsectsOfGuam.1942.book_chapter" docStyleId="A6818C686426A7D59822A3BD2E5D42E5" docStyleName="InsectsOfGuam.1942.book_chapter" docStyleVersion="1" docTitle="Otitesella swezeyi Fullaway, 1946, new species" docType="treatment" docVersion="8" lastPageNumber="205" masterDocId="FFD1FFF8FFF9FFB3FFC86E5DFFBE8B32" masterDocTitle="Hymenoptera, New Species Of Guam Chalcidoidea" masterLastPageNumber="210" masterPageNumber="201" pageNumber="204" updateTime="1658154551490" updateUser="annettekang">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Hymenoptera, New Species Of Guam Chalcidoidea</mods:title>
@@ -34,7 +34,6 @@
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.5169330</mods:identifier>
 <mods:identifier type="GBIF-Dataset">11d04f7a-e744-4ac9-b0af-3cbf68f8cc92</mods:identifier>
 <mods:identifier type="Zenodo-Dep">5169330</mods:identifier>
-<mods:identifier type="ZooBank">D14682FC-24CB-4BB7-AC53-F1A870A5064F</mods:identifier>
 </mods:mods>
 <treatment ID-DOI="http://doi.org/10.5281/zenodo.5158750" ID-GBIF-Taxon="184009975" ID-Zenodo-Dep="5158750" LSID="urn:lsid:plazi:treatment:03E88780FFFAFFB7FE15666AFA298FC5" httpUri="http://treatment.plazi.org/id/03E88780FFFAFFB7FE15666AFA298FC5" lastPageId="4" lastPageNumber="205" pageId="3" pageNumber="204">
 <subSubSection box="[477,1118,2103,2146]" pageId="3" pageNumber="204" type="nomenclature">
@@ -64,10 +63,18 @@ Female:
 </subSubSection>
 <subSubSection box="[361,1431,1231,1271]" pageId="4" pageNumber="205" type="materials_examined">
 <paragraph blockId="4.[292,1693,304,1271]" box="[361,1431,1231,1271]" pageId="4" pageNumber="205">
-<materialsCitation ID-GBIF-Occurrence="3333035309" box="[361,1431,1231,1271]" pageId="4" pageNumber="205">
-Piti, Oct. 10, ex fruit of small-leaved fig, 
+<materialsCitation ID-GBIF-Occurrence="3333035309" box="[361,1431,1231,1271]" collectedFrom="ex fruit of small-leaved fig" collectingDate="1936-10-10" collectorName="O. H. Swezey" country="Guam" location="Piti" pageId="4" pageNumber="205" specimenCount="1" typeStatus="holotype">
+<location LSID="urn:lsid:plazi:treatment:03E88780FFFAFFB7FE15666AFA298FC5:8E9E604DFFFDFFB7FEA16A92FE158FC5" box="[361,427,1231,1271]" name="Piti" pageId="4" pageNumber="205">Piti</location>
+, 
+<date box="[452,585,1231,1271]" pageId="4" pageNumber="205" value="2010-10">
+<collectingDate box="[452,585,1231,1271]" pageId="4" pageNumber="205" value="2010-10">Oct. 10</collectingDate>
+</date>
+, 
+<collectedFrom box="[609,1100,1231,1271]" pageId="4" pageNumber="205">ex fruit of small-leaved fig,</collectedFrom>
 <typeStatus box="[1115,1268,1231,1271]" pageId="4" pageNumber="205">holotype</typeStatus>
-, Swezey.
+, 
+<collectorName box="[1292,1426,1231,1271]" pageId="4" pageNumber="205">Swezey</collectorName>
+.
 </materialsCitation>
 </paragraph>
 </subSubSection>

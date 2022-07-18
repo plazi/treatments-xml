@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.5186390" ID-GBIF-Dataset="11d04f7a-e744-4ac9-b0af-3cbf68f8cc92" ID-GBIF-Taxon="184009986" ID-Zenodo-Dep="5186390" checkinTime="1628021447149" checkinUser="carolina" docAuthor="Fullaway, D. T." docDate="1946" docId="03E88780FFFFFFB5FEE16C73FC6982AB" docLanguage="en" docName="InsectsOfGuamII.189.201-210.pdf.imf" docOrigin="Insects of Guam II, Honolulu, Hawaii: Bernice P. Bishop Museum" docStyle="DocumentStyle:A6818C686426A7D59822A3BD2E5D42E5.1:InsectsOfGuam.1942.book_chapter" docStyleId="A6818C686426A7D59822A3BD2E5D42E5" docStyleName="InsectsOfGuam.1942.book_chapter" docStyleVersion="1" docTitle="Cheiloneurus chrysopae Fullaway, 1946, new species" docType="treatment" docVersion="7" lastPageNumber="207" masterDocId="FFD1FFF8FFF9FFB3FFC86E5DFFBE8B32" masterDocTitle="Hymenoptera, New Species Of Guam Chalcidoidea" masterLastPageNumber="210" masterPageNumber="201" pageId="6" pageNumber="207" updateTime="1643596307041" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.5169330" ID-GBIF-Dataset="11d04f7a-e744-4ac9-b0af-3cbf68f8cc92" ID-Zenodo-Dep="5169330" checkinTime="1628021447149" checkinUser="carolina" docAuthor="Fullaway, D. T." docDate="1946" docId="03E88780FFFFFFB5FEE16C73FC6982AB" docLanguage="en" docName="InsectsOfGuamII.189.201-210.pdf.imf" docOrigin="Insects of Guam II, Honolulu, Hawaii: Bernice P. Bishop Museum" docStyle="DocumentStyle:A6818C686426A7D59822A3BD2E5D42E5.1:InsectsOfGuam.1942.book_chapter" docStyleId="A6818C686426A7D59822A3BD2E5D42E5" docStyleName="InsectsOfGuam.1942.book_chapter" docStyleVersion="1" docTitle="Cheiloneurus chrysopae Fullaway, 1946, new species" docType="treatment" docVersion="8" lastPageNumber="207" masterDocId="FFD1FFF8FFF9FFB3FFC86E5DFFBE8B32" masterDocTitle="Hymenoptera, New Species Of Guam Chalcidoidea" masterLastPageNumber="210" masterPageNumber="201" pageNumber="207" updateTime="1658154551490" updateUser="annettekang">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Hymenoptera, New Species Of Guam Chalcidoidea</mods:title>
@@ -34,7 +34,6 @@
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.5169330</mods:identifier>
 <mods:identifier type="GBIF-Dataset">11d04f7a-e744-4ac9-b0af-3cbf68f8cc92</mods:identifier>
 <mods:identifier type="Zenodo-Dep">5169330</mods:identifier>
-<mods:identifier type="ZooBank">D14682FC-24CB-4BB7-AC53-F1A870A5064F</mods:identifier>
 </mods:mods>
 <treatment ID-DOI="http://doi.org/10.5281/zenodo.5186390" ID-GBIF-Taxon="184009986" ID-Zenodo-Dep="5186390" LSID="urn:lsid:plazi:treatment:03E88780FFFFFFB5FEE16C73FC6982AB" httpUri="http://treatment.plazi.org/id/03E88780FFFFFFB5FEE16C73FC6982AB" lastPageNumber="207" pageId="6" pageNumber="207">
 <subSubSection box="[297,1045,558,600]" pageId="6" pageNumber="207" type="nomenclature">
@@ -64,8 +63,9 @@ Female:
 </subSubSection>
 <subSubSection pageId="6" pageNumber="207" type="materials_examined">
 <paragraph blockId="6.[302,1699,2210,2457]" pageId="6" pageNumber="207">
-<materialsCitation ID-GBIF-Occurrence="3333035324" pageId="6" pageNumber="207">
-Described from 
+<materialsCitation ID-GBIF-Occurrence="3333035324" collectedFrom="reared from a Chrysopa cocoon" collectingDate="1936-06-11" collectorName="O. H. Swezey" country="Guam" location="Merizo" pageId="6" pageNumber="207" specimenCount="14" specimenCount-female="5" specimenCount-male="3" typeStatus="holotype (female), allotype (male), paratype (1 male and 3 females)">
+<collectingMunicipality box="[364,538,2210,2252]" pageId="6" pageNumber="207">Described</collectingMunicipality>
+from 
 <specimenCount box="[658,870,2210,2252]" pageId="6" pageNumber="207" type="female">five females</specimenCount>
 and 
 <specimenCount box="[963,1166,2210,2252]" pageId="6" pageNumber="207" type="male">three males</specimenCount>
@@ -77,9 +77,11 @@ and
 <typeStatus pageId="6" pageNumber="207">paratypes</typeStatus>
 ) as follows: 
 <typeStatus box="[632,781,2261,2303]" pageId="6" pageNumber="207">holotype</typeStatus>
-female and 
+<specimenCount box="[795,910,2261,2303]" pageId="6" pageNumber="207" type="female">female</specimenCount>
+and 
 <typeStatus box="[997,1135,2261,2303]" pageId="6" pageNumber="207">allotype</typeStatus>
-male mounted on a single point, two more points, each with 
+<specimenCount box="[1146,1228,2261,2303]" pageId="6" pageNumber="207" type="male">male</specimenCount>
+mounted on a single point, two more points, each with 
 <specimenCount box="[807,965,2313,2355]" pageId="6" pageNumber="207" type="male">one male</specimenCount>
 and 
 <specimenCount box="[1063,1259,2313,2355]" pageId="6" pageNumber="207" type="female">one female</specimenCount>
@@ -87,11 +89,22 @@ and
 , and one point with 
 <specimenCount box="[395,594,2364,2406]" pageId="6" pageNumber="207" type="female">two female</specimenCount>
 <typeStatus box="[611,782,2364,2406]" pageId="6" pageNumber="207">paratypes</typeStatus>
-, labeled Merizo, June 11, reared from a 
+, labeled 
+<location LSID="urn:lsid:plazi:treatment:03E88780FFFFFFB5FEE16C73FC6982AB:8E9E604DFFFFFFB5FC796761FB8F8254" box="[945,1073,2364,2406]" municipality="Described" name="Merizo" pageId="6" pageNumber="207">Merizo</location>
+, 
+<date box="[1097,1241,2364,2406]" pageId="6" pageNumber="207" value="2011-06">
+<collectingDate box="[1097,1241,2364,2406]" pageId="6" pageNumber="207" value="2011-06">June 11</collectingDate>
+</date>
+, reared from a 
 <taxonomicName authorityName="Leach" authorityYear="1815" box="[1534,1699,2364,2406]" class="Insecta" family="Chrysopidae" genus="Chrysopa" kingdom="Animalia" order="Neuroptera" pageId="6" pageNumber="207" phylum="Arthropoda" rank="genus">
-<emphasis box="[1534,1699,2364,2406]" italics="true" pageId="6" pageNumber="207">Chrysopa</emphasis>
+<emphasis box="[1534,1699,2364,2406]" italics="true" pageId="6" pageNumber="207">
+<location LSID="urn:lsid:plazi:treatment:03E88780FFFFFFB5FEE16C73FC6982AB:8E9E604DFFFFFFB5FA366761F91D8254" box="[1534,1699,2364,2406]" municipality="Described" name="Chrysopa" pageId="6" pageNumber="207">Chrysopa</location>
+</emphasis>
 </taxonomicName>
-cocoon, Swezey. Six 
+cocoon, 
+<collectorName box="[449,583,2416,2457]" pageId="6" pageNumber="207">Swezey</collectorName>
+. 
+<location LSID="urn:lsid:plazi:treatment:03E88780FFFFFFB5FEE16C73FC6982AB:8E9E604DFFFFFFB5FDA2672DFD1B82AB" box="[618,677,2416,2457]" municipality="Described" name="Six" pageId="6" pageNumber="207">Six</location>
 <typeStatus box="[694,978,2416,2457]" isOtherTypeStatus="true" pageId="6" pageNumber="207">other specimens</typeStatus>
 .
 </materialsCitation>

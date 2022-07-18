@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.5186388" ID-GBIF-Dataset="11d04f7a-e744-4ac9-b0af-3cbf68f8cc92" ID-GBIF-Taxon="184009977" ID-Zenodo-Dep="5186388" checkinTime="1628021447149" checkinUser="carolina" docAuthor="Fullaway, D. T." docDate="1946" docId="03E88780FFFAFFB0FE126F31FA2B8337" docLanguage="en" docName="InsectsOfGuamII.189.201-210.pdf.imf" docOrigin="Insects of Guam II, Honolulu, Hawaii: Bernice P. Bishop Museum" docStyle="DocumentStyle:A6818C686426A7D59822A3BD2E5D42E5.1:InsectsOfGuam.1942.book_chapter" docStyleId="A6818C686426A7D59822A3BD2E5D42E5" docStyleName="InsectsOfGuam.1942.book_chapter" docStyleVersion="1" docTitle="Megastigmus mariannensis Fullaway, 1946, new species" docType="treatment" docVersion="7" lastPageNumber="204" masterDocId="FFD1FFF8FFF9FFB3FFC86E5DFFBE8B32" masterDocTitle="Hymenoptera, New Species Of Guam Chalcidoidea" masterLastPageNumber="210" masterPageNumber="201" pageId="3" pageNumber="204" updateTime="1643596307041" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.5169330" ID-GBIF-Dataset="11d04f7a-e744-4ac9-b0af-3cbf68f8cc92" ID-Zenodo-Dep="5169330" checkinTime="1628021447149" checkinUser="carolina" docAuthor="Fullaway, D. T." docDate="1946" docId="03E88780FFFAFFB0FE126F31FA2B8337" docLanguage="en" docName="InsectsOfGuamII.189.201-210.pdf.imf" docOrigin="Insects of Guam II, Honolulu, Hawaii: Bernice P. Bishop Museum" docStyle="DocumentStyle:A6818C686426A7D59822A3BD2E5D42E5.1:InsectsOfGuam.1942.book_chapter" docStyleId="A6818C686426A7D59822A3BD2E5D42E5" docStyleName="InsectsOfGuam.1942.book_chapter" docStyleVersion="1" docTitle="Megastigmus mariannensis Fullaway, 1946, new species" docType="treatment" docVersion="8" lastPageNumber="204" masterDocId="FFD1FFF8FFF9FFB3FFC86E5DFFBE8B32" masterDocTitle="Hymenoptera, New Species Of Guam Chalcidoidea" masterLastPageNumber="210" masterPageNumber="201" pageNumber="204" updateTime="1658154551490" updateUser="annettekang">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Hymenoptera, New Species Of Guam Chalcidoidea</mods:title>
@@ -34,7 +34,6 @@
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.5169330</mods:identifier>
 <mods:identifier type="GBIF-Dataset">11d04f7a-e744-4ac9-b0af-3cbf68f8cc92</mods:identifier>
 <mods:identifier type="Zenodo-Dep">5169330</mods:identifier>
-<mods:identifier type="ZooBank">D14682FC-24CB-4BB7-AC53-F1A870A5064F</mods:identifier>
 </mods:mods>
 <treatment ID-DOI="http://doi.org/10.5281/zenodo.5186388" ID-GBIF-Taxon="184009977" ID-Zenodo-Dep="5186388" LSID="urn:lsid:plazi:treatment:03E88780FFFAFFB0FE126F31FA2B8337" httpUri="http://treatment.plazi.org/id/03E88780FFFAFFB0FE126F31FA2B8337" lastPageNumber="204" pageId="3" pageNumber="204">
 <subSubSection box="[474,1285,364,405]" pageId="3" pageNumber="204" type="nomenclature">
@@ -63,30 +62,50 @@ Female:
 </subSubSection>
 <subSubSection pageId="3" pageNumber="204" type="materials_examined">
 <paragraph blockId="3.[478,1877,1903,2053]" pageId="3" pageNumber="204">
-<materialsCitation ID-GBIF-Occurrence="3333035311" box="[540,1354,1903,1946]" pageId="3" pageNumber="204">
-Yigo, Oct. 21, ex small fig, 
-<typeStatus box="[1052,1202,1903,1946]" pageId="3" pageNumber="204">holotype</typeStatus>
-female;
-</materialsCitation>
-<materialsCitation ID-GBIF-Occurrence="3333035303" pageId="3" pageNumber="204">
-Tarague, May 17, ex larger fig, 
-<specimenCount box="[554,757,1957,1999]" pageId="3" pageNumber="204" type="female">one female</specimenCount>
+<materialsCitation ID-GBIF-Occurrence="3333035311" box="[540,1354,1903,1946]" collectedFrom="ex small fig" collectingDate="1936-10-21" collectorName="O. H. Swezey" country="Guam" location="Yigo" pageId="3" pageNumber="204" specimenCount-female="1" typeStatus="holotype">
+<location LSID="urn:lsid:plazi:treatment:03E88780FFFAFFB0FE126F31FA2B8337:8E9E604DFFFAFFB0FDD46932FDCB8CA8" box="[540,629,1903,1946]" name="Yigo" pageId="3" pageNumber="204">Yigo</location>
 , 
-<specimenCount box="[786,958,1957,1999]" pageId="3" pageNumber="204" type="male">one male</specimenCount>
+<date box="[654,788,1903,1946]" pageId="3" pageNumber="204" value="2021-10">
+<collectingDate box="[654,788,1903,1946]" pageId="3" pageNumber="204" value="2021-10">Oct. 21</collectingDate>
+</date>
+, 
+<collectedFrom box="[813,1028,1903,1946]" pageId="3" pageNumber="204">ex small fig</collectedFrom>
+, 
+<specimenCount box="[1052,1347,1903,1946]" pageId="3" pageNumber="204" type="female">holotype female</specimenCount>
 ;
 </materialsCitation>
-<materialsCitation ID-GBIF-Occurrence="3333035313" pageId="3" pageNumber="204">
-Barrigada, June 24, ex 
+<materialsCitation ID-GBIF-Occurrence="3333035303" collectedFrom="ex larger fig" collectingDate="1936-05-17" collectorName="O. H. Swezey" country="Guam" location="Tarague" pageId="3" pageNumber="204" specimenCount-female="1" specimenCount-male="1">
+<location LSID="urn:lsid:plazi:treatment:03E88780FFFAFFB0FE126F31FA2B8337:8E9E604DFFFAFFB0FA946932FA4C8CA8" box="[1372,1522,1903,1946]" name="Tarague" pageId="3" pageNumber="204">Tarague</location>
+, 
+<date box="[1549,1689,1903,1946]" pageId="3" pageNumber="204" value="2017-05">
+<collectingDate box="[1549,1689,1903,1946]" pageId="3" pageNumber="204" value="2017-05">May 17</collectingDate>
+</date>
+, 
+<collectedFrom pageId="3" pageNumber="204">ex larger fig</collectedFrom>
+, 
+<specimenCount box="[554,958,1957,1999]" pageId="3" pageNumber="204" type="male">one female, one male</specimenCount>
+;
+</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3333035313" collectedFrom="ex Ficus mariannensis" collectingDate="1936-06-24" collectorName="O. H. Swezey" country="Guam" location="Barrigada" pageId="3" pageNumber="204" specimenCount-female="1" specimenCount-male="1" typeStatus="paratype">
+<location LSID="urn:lsid:plazi:treatment:03E88780FFFAFFB0FE126F31FA2B8337:8E9E604DFFFAFFB0FC1369F8FB308CFD" box="[987,1166,1957,1999]" name="Barrigada" pageId="3" pageNumber="204">Barrigada</location>
+, 
+<date box="[1196,1345,1957,1999]" pageId="3" pageNumber="204" value="1924-06">
+<collectingDate box="[1196,1345,1957,1999]" pageId="3" pageNumber="204" value="1924-06">June 24</collectingDate>
+</date>
+, 
+<collectedFrom box="[1374,1788,1957,1999]" pageId="3" pageNumber="204">
+ex 
 <emphasis box="[1436,1794,1957,1999]" italics="true" pageId="3" pageNumber="204">
 <taxonomicName box="[1436,1788,1957,1999]" class="Gastropoda" family="Ficidae" genus="Ficus" kingdom="Animalia" order="Littorinimorpha" pageId="3" pageNumber="204" phylum="Mollusca" rank="species" species="mariannensis">Ficus mariannensis</taxonomicName>
 ,
 </emphasis>
-<specimenCount pageId="3" pageNumber="204" type="female">one female</specimenCount>
-, 
-<specimenCount box="[620,776,2011,2053]" pageId="3" pageNumber="204" type="male">one male</specimenCount>
+</collectedFrom>
+<specimenCount pageId="3" pageNumber="204" type="male">one female, one male</specimenCount>
 , 
 <typeStatus box="[797,970,2011,2053]" pageId="3" pageNumber="204">paratypes</typeStatus>
-. All collected by Swezey.
+. All collected by 
+<collectorName box="[1289,1424,2011,2053]" pageId="3" pageNumber="204">Swezey</collectorName>
+.
 </materialsCitation>
 </paragraph>
 </subSubSection>

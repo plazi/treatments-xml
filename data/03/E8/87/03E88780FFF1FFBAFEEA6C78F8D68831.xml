@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.5186394" ID-GBIF-Dataset="11d04f7a-e744-4ac9-b0af-3cbf68f8cc92" ID-GBIF-Taxon="184009993" ID-Zenodo-Dep="5186394" LSID="urn:lsid:zoobank.org:act:3CF3F602-874D-426F-B979-EE509CA28883" checkinTime="1628021447149" checkinUser="carolina" docAuthor="Fullaway, D. T." docDate="1946" docId="03E88780FFF1FFBAFEEA6C78F8D68831" docLanguage="en" docName="InsectsOfGuamII.189.201-210.pdf.imf" docOrigin="Insects of Guam II, Honolulu, Hawaii: Bernice P. Bishop Museum" docStyle="DocumentStyle:A6818C686426A7D59822A3BD2E5D42E5.1:InsectsOfGuam.1942.book_chapter" docStyleId="A6818C686426A7D59822A3BD2E5D42E5" docStyleName="InsectsOfGuam.1942.book_chapter" docStyleVersion="1" docTitle="Pseudhomalopoda guamensis Fullaway, 1946, new species" docType="treatment" docUuid="3CF3F602-874D-426F-B979-EE509CA28883" docUuidSource="ZooBank" docVersion="8" lastPageId="9" lastPageNumber="210" masterDocId="FFD1FFF8FFF9FFB3FFC86E5DFFBE8B32" masterDocTitle="Hymenoptera, New Species Of Guam Chalcidoidea" masterLastPageNumber="210" masterPageNumber="201" pageId="8" pageNumber="209" updateTime="1643596307041" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.5169330" ID-GBIF-Dataset="11d04f7a-e744-4ac9-b0af-3cbf68f8cc92" ID-Zenodo-Dep="5169330" checkinTime="1628021447149" checkinUser="carolina" docAuthor="Fullaway, D. T." docDate="1946" docId="03E88780FFF1FFBAFEEA6C78F8D68831" docLanguage="en" docName="InsectsOfGuamII.189.201-210.pdf.imf" docOrigin="Insects of Guam II, Honolulu, Hawaii: Bernice P. Bishop Museum" docStyle="DocumentStyle:A6818C686426A7D59822A3BD2E5D42E5.1:InsectsOfGuam.1942.book_chapter" docStyleId="A6818C686426A7D59822A3BD2E5D42E5" docStyleName="InsectsOfGuam.1942.book_chapter" docStyleVersion="1" docTitle="Pseudhomalopoda guamensis Fullaway, 1946, new species" docType="treatment" docVersion="9" lastPageNumber="210" masterDocId="FFD1FFF8FFF9FFB3FFC86E5DFFBE8B32" masterDocTitle="Hymenoptera, New Species Of Guam Chalcidoidea" masterLastPageNumber="210" masterPageNumber="201" pageNumber="209" updateTime="1658154551490" updateUser="annettekang">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Hymenoptera, New Species Of Guam Chalcidoidea</mods:title>
@@ -34,7 +34,6 @@
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.5169330</mods:identifier>
 <mods:identifier type="GBIF-Dataset">11d04f7a-e744-4ac9-b0af-3cbf68f8cc92</mods:identifier>
 <mods:identifier type="Zenodo-Dep">5169330</mods:identifier>
-<mods:identifier type="ZooBank">D14682FC-24CB-4BB7-AC53-F1A870A5064F</mods:identifier>
 </mods:mods>
 <treatment ID-DOI="http://doi.org/10.5281/zenodo.5186394" ID-GBIF-Taxon="184009993" ID-Zenodo-Dep="5186394" LSID="urn:lsid:zoobank.org:act:3CF3F602-874D-426F-B979-EE509CA28883" httpUri="http://treatment.plazi.org/id/03E88780FFF1FFBAFEEA6C78F8D68831" lastPageId="9" lastPageNumber="210" pageId="8" pageNumber="209">
 <subSubSection box="[290,1165,549,590]" pageId="8" pageNumber="209" type="nomenclature">
@@ -64,17 +63,25 @@ Female:
 </subSubSection>
 <subSubSection pageId="9" pageNumber="210" type="materials_examined">
 <paragraph blockId="9.[500,1898,405,771]" pageId="9" pageNumber="210">
-<materialsCitation ID-GBIF-Occurrence="3333035315" pageId="9" pageNumber="210">
-Piti, Oct. 27, swept from scale-infested bamboo, Swezey. Described from 
+<materialsCitation ID-GBIF-Occurrence="3333035315" collectedFrom="swept from scale-infested bamboo" collectingDate="1936-10-27" collectorName="O. H. Swezey" country="Guam" location="Piti" pageId="9" pageNumber="210" specimenCount="24" specimenCount-female="12" typeStatus="holotype and paratypes">
+<location LSID="urn:lsid:plazi:treatment:03E88780FFF1FFBAFEEA6C78F8D68831:8E9E604DFFF0FFBAFDFC6C2FFDC989AE" box="[564,631,626,668]" municipality="Described" name="Piti" pageId="9" pageNumber="210">Piti</location>
+, 
+<date box="[653,783,626,668]" pageId="9" pageNumber="210" value="1927-10">
+<collectingDate box="[653,783,626,668]" pageId="9" pageNumber="210" value="1927-10">Oct. 27</collectingDate>
+</date>
+, swept from scale-infested bamboo, 
+<collectorName box="[1448,1586,626,668]" pageId="9" pageNumber="210">Swezey</collectorName>
+. 
+<collectingMunicipality box="[1616,1795,626,668]" pageId="9" pageNumber="210">Described</collectingMunicipality>
+from 
 <specimenCount box="[504,739,677,720]" pageId="9" pageNumber="210" type="generic">12 specimens</specimenCount>
-, all females, six mounted on points and six on a slide (
+, all 
+<specimenCount box="[817,957,677,720]" pageId="9" pageNumber="210" type="female">females</specimenCount>
+, six mounted on points and six on a slide (
 <typeStatus box="[1736,1898,677,720]" pageId="9" pageNumber="210">holotype</typeStatus>
 and 
 <typeStatus box="[574,735,730,771]" pageId="9" pageNumber="210">paratypes</typeStatus>
-));
-</materialsCitation>
-<materialsCitation ID-GBIF-Occurrence="3333035302" box="[800,1896,730,771]" pageId="9" pageNumber="210">
-12 
+)); 12 
 <typeStatus box="[850,1213,730,771]" isOtherTypeStatus="true" pageId="9" pageNumber="210">additional specimens</typeStatus>
 , mounted on points, from same source.
 </materialsCitation>
