@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6604474" ID-ISBN="978-84-96553-93-4" ID-Zenodo-Dep="6604474" approvalRequired="18" approvalRequired_for_document="2" approvalRequired_for_originalDoi="1" approvalRequired_for_taxonomicNames="3" approvalRequired_for_treatments="15" checkinTime="1654112126101" checkinUser="diego" docAuthor="Russell A. Mittermeier &amp; Don E. Wilson" docDate="2014" docId="965C87FE1E5E564C99229B0B86DAFE17" docLanguage="en" docName="hbmw_4_Otariidae_0034.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 4 Sea Mammals, Barcelona: Lynx Edicions" docTitle="Arctocephalus gazella" docType="treatment" docVersion="4" lastPageNumber="90" masterDocId="6A65FF861E5C564F9C7E926A8E54FFA3" masterDocTitle="Otariidae" masterLastPageNumber="101" masterPageNumber="34" pageNumber="89" updateTime="1654114570680" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6604474" ID-GBIF-Dataset="0ec081dc-b7e4-4a2a-a019-b957fe21087b" ID-ISBN="978-84-96553-93-4" ID-Zenodo-Dep="6604474" checkinTime="1654112126101" checkinUser="diego" docAuthor="Russell A. Mittermeier &amp; Don E. Wilson" docDate="2014" docId="965C87FE1E5E564C99229B0B86DAFE17" docLanguage="en" docName="hbmw_4_Otariidae_0034.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 4 Sea Mammals, Barcelona: Lynx Edicions" docTitle="Arctocephalus gazella" docType="treatment" docVersion="7" lastPageNumber="90" masterDocId="6A65FF861E5C564F9C7E926A8E54FFA3" masterDocTitle="Otariidae" masterLastPageNumber="101" masterPageNumber="34" pageNumber="89" updateTime="1658247567450" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Otariidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6604474</mods:identifier>
+<mods:identifier type="GBIF-Dataset">0ec081dc-b7e4-4a2a-a019-b957fe21087b</mods:identifier>
 <mods:identifier type="ISBN">978-84-96553-93-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6604474</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6604425" ID-Zenodo-Dep="6604425" LSID="urn:lsid:plazi:treatment:965C87FE1E5E564C99229B0B86DAFE17" httpUri="http://treatment.plazi.org/id/965C87FE1E5E564C99229B0B86DAFE17" lastPageId="3" lastPageNumber="90" pageId="2" pageNumber="89">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6604425" ID-GBIF-Taxon="195723749" ID-Zenodo-Dep="6604425" LSID="urn:lsid:plazi:treatment:965C87FE1E5E564C99229B0B86DAFE17" httpUri="http://treatment.plazi.org/id/965C87FE1E5E564C99229B0B86DAFE17" lastPageId="3" lastPageNumber="90" pageId="2" pageNumber="89">
 <heading pageId="2" pageNumber="89">
 <subSubSection box="[1372,1403,2401,2447]" pageId="2" pageNumber="89" type="multiple">
 <paragraph blockId="2.[1368,2272,2401,2527]" box="[1372,1403,2401,2447]" pageId="2" pageNumber="89">
@@ -76,12 +77,16 @@
 </paragraph>
 </subSubSection>
 </heading>
-<subSubSection pageId="2" pageNumber="89" type="reference_group">
-<paragraph blockId="2.[1990,2573,2571,2997]" pageId="2" pageNumber="89">
+<subSubSection box="[1991,2571,2571,2604]" pageId="2" pageNumber="89" type="reference_group">
+<paragraph blockId="2.[1990,2573,2571,2997]" box="[1991,2571,2571,2604]" pageId="2" pageNumber="89">
 <emphasis bold="true" box="[1991,2146,2571,2604]" pageId="2" pageNumber="89">Taxonomy.</emphasis>
 <taxonomicName authority="Peters, 1875" authorityName="Peters" authorityYear="1875" box="[2157,2566,2571,2604]" class="Mammalia" family="Otariidae" genus="Arctophoca" kingdom="Animalia" order="Carnivora" pageId="2" pageNumber="89" phylum="Chordata" rank="species" species="gazella">Arctophoca gazella Peters, 1875</taxonomicName>
-, 
-<materialsCitation pageId="2" pageNumber="89">“von Seehunden aus Kerguelenland.” Restricted by V. B. Scheffer in 1958 to “Anse Betsy (49° 09’ S, 70° 11&quot; E)” (= south-east of Africa, halfway to Antarctica).</materialsCitation>
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="2" pageNumber="89" type="materials_examined">
+<paragraph blockId="2.[1990,2573,2571,2997]" pageId="2" pageNumber="89">
+<materialsCitation ID-GBIF-Occurrence="3800731313" pageId="2" pageNumber="89">“von Seehunden aus Kerguelenland.” Restricted by V. B. Scheffer in 1958 to “Anse Betsy (49° 09’ S, 70° 11&quot; E)” (= south-east of Africa, halfway to Antarctica).</materialsCitation>
 </paragraph>
 </subSubSection>
 <subSubSection pageId="2" pageNumber="89" type="discussion">

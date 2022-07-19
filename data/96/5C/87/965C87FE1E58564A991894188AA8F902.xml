@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6604474" ID-ISBN="978-84-96553-93-4" ID-Zenodo-Dep="6604474" approvalRequired="18" approvalRequired_for_document="2" approvalRequired_for_originalDoi="1" approvalRequired_for_taxonomicNames="3" approvalRequired_for_treatments="15" checkinTime="1654112126101" checkinUser="diego" docAuthor="Russell A. Mittermeier &amp; Don E. Wilson" docDate="2014" docId="965C87FE1E58564A991894188AA8F902" docLanguage="en" docName="hbmw_4_Otariidae_0034.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 4 Sea Mammals, Barcelona: Lynx Edicions" docTitle="Arctocephalus galapagoensis Heller 1904" docType="treatment" docVersion="3" lastPageNumber="101" masterDocId="6A65FF861E5C564F9C7E926A8E54FFA3" masterDocTitle="Otariidae" masterLastPageNumber="101" masterPageNumber="34" pageNumber="34" updateTime="1654114570680" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6604474" ID-GBIF-Dataset="0ec081dc-b7e4-4a2a-a019-b957fe21087b" ID-ISBN="978-84-96553-93-4" ID-Zenodo-Dep="6604474" checkinTime="1654112126101" checkinUser="diego" docAuthor="Russell A. Mittermeier &amp; Don E. Wilson" docDate="2014" docId="965C87FE1E58564A991894188AA8F902" docLanguage="en" docName="hbmw_4_Otariidae_0034.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 4 Sea Mammals, Barcelona: Lynx Edicions" docTitle="Arctocephalus galapagoensis Heller 1904" docType="treatment" docVersion="8" lastPageNumber="101" masterDocId="6A65FF861E5C564F9C7E926A8E54FFA3" masterDocTitle="Otariidae" masterLastPageNumber="101" masterPageNumber="34" pageNumber="34" updateTime="1658247567450" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Otariidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6604474</mods:identifier>
+<mods:identifier type="GBIF-Dataset">0ec081dc-b7e4-4a2a-a019-b957fe21087b</mods:identifier>
 <mods:identifier type="ISBN">978-84-96553-93-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6604474</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6604496" ID-Zenodo-Dep="6604496" LSID="urn:lsid:plazi:treatment:965C87FE1E58564A991894188AA8F902" httpUri="http://treatment.plazi.org/id/965C87FE1E58564A991894188AA8F902" lastPageId="5" pageId="4">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6604496" ID-GBIF-Taxon="195723755" ID-Zenodo-Dep="6604496" LSID="urn:lsid:plazi:treatment:965C87FE1E58564A991894188AA8F902" httpUri="http://treatment.plazi.org/id/965C87FE1E58564A991894188AA8F902" lastPageId="5" pageId="4">
 <heading pageId="4">
 <subSubSection box="[1382,1415,1650,1696]" pageId="4" type="multiple">
 <paragraph blockId="4.[1380,2410,1650,1778]" box="[1382,1415,1650,1696]" pageId="4">
@@ -77,45 +78,44 @@
 </subSubSection>
 </heading>
 <subSubSection pageId="4" type="reference_group">
-<paragraph blockId="4.[1379,2587,1824,3475]" pageId="4">
+<paragraph blockId="4.[2003,2586,1824,2207]" pageId="4">
 <emphasis bold="true" box="[2003,2158,1824,1853]" pageId="4">Taxonomy.</emphasis>
 <taxonomicName authorityName="Heller" authorityYear="1904" class="Mammalia" family="Otariidae" genus="Arctocephalus" kingdom="Animalia" order="Carnivora" pageId="4" phylum="Chordata" rank="species" species="galapagoensis">Arctocephalus galapagoensis Heller, 1904</taxonomicName>
-, 
-<materialsCitation pageId="4">“Wenman Island,” Galapagos Islands, Ecuador.</materialsCitation>
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="4" type="materials_examined">
+<paragraph blockId="4.[2003,2586,1824,2207]" pageId="4">
+<materialsCitation ID-GBIF-Occurrence="3800731305" pageId="4">“Wenman Island,” Galapagos Islands, Ecuador.</materialsCitation>
 </paragraph>
 </subSubSection>
 <subSubSection pageId="4" type="discussion">
-<paragraph blockId="4.[1379,2587,1824,3475]" pageId="4">
+<paragraph blockId="4.[2003,2586,1824,2207]" pageId="4">
 Formerly, 
 <taxonomicName authorityName="Heller" authorityYear="1904" box="[2148,2363,1938,1971]" class="Mammalia" family="Otariidae" genus="Arctocephalus" kingdom="Animalia" order="Carnivora" pageId="4" phylum="Chordata" rank="species" species="galapagoensis">A. galapagoensis</taxonomicName>
 was considered a subspecies of 
 <taxonomicName authorityName="Zimmermann" authorityYear="1783" box="[2220,2369,1982,2011]" class="Mammalia" family="Otariidae" genus="Arctocephalus" kingdom="Animalia" order="Carnivora" pageId="4" phylum="Chordata" rank="species" species="australis">A. australis</taxonomicName>
 . Monotypic.
 </paragraph>
-</subSubSection>
-<subSubSection pageId="4" type="distribution">
-<caption inLine="true" pageId="4" targetBox="[1272,1276,1676,1697]" targetPageId="5">
-<paragraph blockId="4.[1379,2587,1824,3475]" pageId="4">
+<caption ID-DOI="http://doi.org/10.5281/zenodo.6611894" ID-Zenodo-Dep="6611894" httpUri="https://zenodo.org/record/6611894/files/figure.png" inLine="true" pageId="4" startId="4.[2003,2175,2017,2050]" targetBox="[1536,1862,1836,2218]" targetPageId="4">
+<paragraph blockId="4.[2003,2586,1824,2207]" pageId="4">
 <emphasis bold="true" box="[2003,2179,2017,2050]" pageId="4">Distribution.</emphasis>
 Galapagos Is, where they occur on almost all the islands.
 </paragraph>
 </caption>
-</subSubSection>
-<subSubSection pageId="4" type="description">
-<paragraph blockId="4.[1379,2587,1824,3475]" pageId="4">
+<paragraph blockId="4.[2003,2586,1824,2207]" lastBlockId="4.[1380,2586,2214,3467]" pageId="4">
 <emphasis bold="true" box="[2004,2271,2096,2129]" pageId="4">Descriptive notes.</emphasis>
-Total length 150-160 cm (males) and 110-130 cm (females); weight 60-68 kg (males) and up to 33 kg, average 27-3 kg (females).
+Total length 150-160 cm (males) and 110-130 cm (females); weight 60-68 kg (males) and up to 33 kg, average 27-3 kg (females). Neonates are 60-80 cm and 3-4 kg. Dental formula I 3/2, C 1/1, PC 6/5 (x 2) = 36. Galapagos Fur Seals are the smallest species of otariid, and the least sexually dimorphic. Mature males are 1-1-1-3 times the length and 2-2-3 times the weight of mature females. They appear small and relatively compact. Short, straight muzzle tapers to small nose. Vibrissae are pale in adults. Eyes are large, and ear pinnae are long and conspicuous. Although they do not have a mane, adult male Galapagos Fur Seals have thicker shoulders than females. Males do not develop noticeable sagittal crest, but crown of head is slightly round compared with more flattened crown of females. Flippers are short and have dark, sparse, short fur that extends beyond wrists and ankles onto dorsal surface offlippers that are otherwise covered in black leathery skin. Fur is dark brown with gray to ruddy grizzling. In both sexes, muzzle is mostly buff-colored, and adult males can appear to be wearing pale mask. Adult females have pale grayishbuffy chest, and belly is buff to ruddy brown. Young are blackish, occasionally with pale fur around mouth and nose.
 </paragraph>
-<paragraph blockId="4.[1379,2587,1824,3475]" pageId="4">Neonates are 60-80 cm and 3-4 kg. Dental formula I 3/2, C 1/1, PC 6/5 (x 2) = 36. Galapagos Fur Seals are the smallest species of otariid, and the least sexually dimorphic. Mature males are 1-1-1-3 times the length and 2-2-3 times the weight of mature females. They appear small and relatively compact. Short, straight muzzle tapers to small nose. Vibrissae are pale in adults. Eyes are large, and ear pinnae are long and conspicuous. Although they do not have a mane, adult male Galapagos Fur Seals have thicker shoulders than females. Males do not develop noticeable sagittal crest, but crown of head is slightly round compared with more flattened crown of females. Flippers are short and have dark, sparse, short fur that extends beyond wrists and ankles onto dorsal surface offlippers that are otherwise covered in black leathery skin. Fur is dark brown with gray to ruddy grizzling. In both sexes, muzzle is mostly buff-colored, and adult males can appear to be wearing pale mask. Adult females have pale grayishbuffy chest, and belly is buff to ruddy brown. Young are blackish, occasionally with pale fur around mouth and nose.</paragraph>
 </subSubSection>
 <subSubSection pageId="4" type="biology_ecology">
-<paragraph blockId="4.[1379,2587,1824,3475]" pageId="4">
+<paragraph blockId="4.[1380,2586,2214,3467]" pageId="4">
 <emphasis bold="true" box="[1381,1493,2805,2838]" pageId="4">Habitat.</emphasis>
 Significant time hauled out on shore and favor rocky coasts with boulders and ledges for shelter from the sun. Because many Galapagos Fur Seals bear scars from shark bites, predators include sharks, as well as Killer Whales (Orcinus orca). Feral dogs are the only important terrestrial predators.
 </paragraph>
 </subSubSection>
 <subSubSection pageId="4" type="food_feeding">
-<paragraph blockId="4.[1379,2587,1824,3475]" pageId="4">
+<paragraph blockId="4.[1380,2586,2214,3467]" pageId="4">
 <emphasis bold="true" box="[1381,1646,2963,2996]" pageId="4">Food and Feeding.</emphasis>
 There is little specific information for this species, but they seem to prey on multiple species of squid and fish such as lanternfish (
 <taxonomicName authorityName="T.N.Gill" authorityYear="1893" box="[2321,2507,3002,3035]" class="Actinopterygii" family="Myctophidae" kingdom="Animalia" order="Myctophiformes" pageId="4" phylum="Chordata" rank="family">Myctophidae</taxonomicName>
@@ -125,7 +125,7 @@ There is little specific information for this species, but they seem to prey on 
 </paragraph>
 </subSubSection>
 <subSubSection pageId="4" type="breeding">
-<paragraph blockId="4.[1379,2587,1824,3475]" pageId="4">
+<paragraph blockId="4.[1380,2586,2214,3467]" pageId="4">
 <emphasis bold="true" box="[1381,1516,3080,3113]" pageId="4">Breeding.</emphasis>
 There is no specific information for this species, but the Galapagos Fur Seal no doubt has the same general polygynous breeding system as described for the Northern Fur Seal (
 <taxonomicName baseAuthorityName="Linnaeus" baseAuthorityYear="1758" box="[1660,1923,3163,3192]" class="Mammalia" family="Otariidae" genus="Callorhinus" kingdom="Animalia" order="Carnivora" pageId="4" phylum="Chordata" rank="species" species="ursinus">Callorhinus ursinus</taxonomicName>
@@ -133,7 +133,7 @@ There is no specific information for this species, but the Galapagos Fur Seal no
 </paragraph>
 </subSubSection>
 <subSubSection pageId="4" type="activity">
-<paragraph blockId="4.[1379,2587,1824,3475]" pageId="4">
+<paragraph blockId="4.[1380,2586,2214,3467]" pageId="4">
 <emphasis bold="true" box="[1380,1619,3198,3231]" pageId="4">Activity patterns.</emphasis>
 Galapagos Fur Seals spend much time ashore, when not foraging or traveling. While at sea, Galapagos Fur Seals groom, rest, and feed as described for the Antarctic Fur Seal. Rookeries of Galapagos Fur Seals are situated close to feeding areas, and average length of female trips is the shortest for any species of fur seals. Most foraging occurs at night, possibly in pursuit of vertically migrating species when they are near the surface. Average dive is to a depth of 26 m and lasts less than two minutes; maximum depth recorded was 115 m, and the longest dive lasted five minutes.
 </paragraph>
