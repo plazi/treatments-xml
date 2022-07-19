@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6514377" ID-ISBN="978-84-96553-77-4" ID-Zenodo-Dep="6514377" approvalRequired="4" approvalRequired_for_illustrations="2" approvalRequired_for_treatments="2" checkinTime="1635374545975" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2011" docId="03A087C4FFE6FFE7FA73FD52EF18F7E6" docLanguage="en" docName="hbmw_2_Cervidae_0350.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 2 Hoofed Mammals, Barcelona: Lynx Edicions" docTitle="Mazama nanus Rafinesque 1817" docType="treatment" docVersion="6" lastPageNumber="442" masterDocId="FF99FFBCFFC5FFC4FFCBFFB7E63DFFF9" masterDocTitle="Cervidae" masterLastPageNumber="443" masterPageNumber="350" pageNumber="442" updateTime="1652728918470" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6514377" ID-GBIF-Dataset="58bf4faf-7498-4c12-bcb3-b6f085b58978" ID-ISBN="978-84-96553-77-4" ID-Zenodo-Dep="6514377" checkinTime="1635374545975" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2011" docId="03A087C4FFE6FFE7FA73FD52EF18F7E6" docLanguage="en" docName="hbmw_2_Cervidae_0350.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 2 Hoofed Mammals, Barcelona: Lynx Edicions" docTitle="Mazama nanus Rafinesque 1817" docType="treatment" docVersion="9" lastPageNumber="442" masterDocId="FF99FFBCFFC5FFC4FFCBFFB7E63DFFF9" masterDocTitle="Cervidae" masterLastPageNumber="443" masterPageNumber="350" pageNumber="442" updateTime="1658233503832" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Cervidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6514377</mods:identifier>
+<mods:identifier type="GBIF-Dataset">58bf4faf-7498-4c12-bcb3-b6f085b58978</mods:identifier>
 <mods:identifier type="ISBN">978-84-96553-77-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6514377</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6514662" ID-Zenodo-Dep="6514662" LSID="urn:lsid:plazi:treatment:03A087C4FFE6FFE7FA73FD52EF18F7E6" httpUri="http://treatment.plazi.org/id/03A087C4FFE6FFE7FA73FD52EF18F7E6" lastPageNumber="442" pageId="35" pageNumber="442">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6514662" ID-GBIF-Taxon="195657913" ID-Zenodo-Dep="6514662" LSID="urn:lsid:plazi:treatment:03A087C4FFE6FFE7FA73FD52EF18F7E6" httpUri="http://treatment.plazi.org/id/03A087C4FFE6FFE7FA73FD52EF18F7E6" lastPageNumber="442" pageId="35" pageNumber="442">
 <subSubSection box="[1464,1522,741,783]" pageId="35" pageNumber="442" type="multiple">
 <paragraph blockId="35.[1463,2319,741,861]" box="[1464,1522,741,783]" pageId="35" pageNumber="442">
 <heading box="[1464,1522,741,783]" pageId="35" pageNumber="442">
@@ -91,12 +92,16 @@ menor
 </heading>
 </paragraph>
 </subSubSection>
-<subSubSection pageId="35" pageNumber="442" type="reference_group">
-<paragraph blockId="35.[2077,2663,911,1333]" pageId="35" pageNumber="442">
+<subSubSection box="[2077,2662,911,940]" pageId="35" pageNumber="442" type="reference_group">
+<paragraph blockId="35.[2077,2663,911,1333]" box="[2077,2662,911,940]" pageId="35" pageNumber="442">
 <emphasis bold="true" box="[2077,2232,911,940]" pageId="35" pageNumber="442">Taxonomy.</emphasis>
 <taxonomicName authority="Hensel, 1872" authorityName="Hensel" authorityYear="1872" box="[2257,2657,911,940]" class="Mammalia" family="Cervidae" genus="Cervus" kingdom="Animalia" order="Artiodactyla" pageId="35" pageNumber="442" phylum="Chordata" rank="species" species="nanus">Cervus nanus Hensel, 1872</taxonomicName>
-, 
-<materialsCitation box="[2078,2462,950,979]" pageId="35" pageNumber="442">
+,
+</paragraph>
+</subSubSection>
+<subSubSection box="[2078,2462,950,979]" pageId="35" pageNumber="442" type="materials_examined">
+<paragraph blockId="35.[2077,2663,911,1333]" box="[2078,2462,950,979]" pageId="35" pageNumber="442">
+<materialsCitation ID-GBIF-Occurrence="3785196341" box="[2078,2462,950,979]" pageId="35" pageNumber="442">
 <collectingRegion box="[2078,2338,950,979]" country="Brazil" name="Rio Grande do Sul" pageId="35" pageNumber="442">Rio Grande do Sul</collectingRegion>
 (
 <collectingCountry box="[2361,2448,950,979]" name="Brazil" pageId="35" pageNumber="442">Brazil</collectingCountry>
@@ -108,8 +113,8 @@ menor
 <paragraph blockId="35.[2077,2663,911,1333]" pageId="35" pageNumber="442">
 Originally it was included in 
 <taxonomicName baseAuthorityName="Bourcier &amp; Pucheran" baseAuthorityYear="1852" box="[2474,2601,989,1018]" class="Mammalia" family="Cervidae" genus="Mazama" kingdom="Animalia" order="Artiodactyla" pageId="35" pageNumber="442" phylum="Chordata" rank="species" species="rufina">M. rufina</taxonomicName>
-. It is closely related to M. 
-<taxonomicName authorityName="Duarte" authorityYear="1996" box="[2381,2456,1029,1058]" class="Mammalia" family="Cervidae" genus="Mazama" kingdom="Animalia" order="Artiodactyla" pageId="35" pageNumber="442" phylum="Chordata" rank="species" species="bororo">bororo</taxonomicName>
+. It is closely related to 
+<taxonomicName authorityName="Duarte" authorityYear="1996" box="[2331,2456,1029,1058]" class="Mammalia" family="Cervidae" genus="Mazama" kingdom="Animalia" order="Artiodactyla" pageId="35" pageNumber="442" phylum="Chordata" rank="species" species="bororo">M. bororo</taxonomicName>
 . Although the name appears frequently as M. nana, the original nanus is a noun and must remain unchanged. Monotypic.
 </paragraph>
 </subSubSection>

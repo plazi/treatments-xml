@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6514377" ID-ISBN="978-84-96553-77-4" ID-Zenodo-Dep="6514377" approvalRequired="4" approvalRequired_for_illustrations="2" approvalRequired_for_treatments="2" checkinTime="1635374545975" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2011" docId="03A087C4FFDBFFDBFA48F727E294FB40" docLanguage="en" docName="hbmw_2_Cervidae_0350.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 2 Hoofed Mammals, Barcelona: Lynx Edicions" docTitle="Hippocamelus bisulcus" docType="treatment" docVersion="5" lastPageNumber="438" masterDocId="FF99FFBCFFC5FFC4FFCBFFB7E63DFFF9" masterDocTitle="Cervidae" masterLastPageNumber="443" masterPageNumber="350" pageNumber="437" updateTime="1652728918470" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6514377" ID-GBIF-Dataset="58bf4faf-7498-4c12-bcb3-b6f085b58978" ID-ISBN="978-84-96553-77-4" ID-Zenodo-Dep="6514377" checkinTime="1635374545975" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2011" docId="03A087C4FFDBFFDBFA48F727E294FB40" docLanguage="en" docName="hbmw_2_Cervidae_0350.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 2 Hoofed Mammals, Barcelona: Lynx Edicions" docTitle="Hippocamelus bisulcus" docType="treatment" docVersion="8" lastPageNumber="438" masterDocId="FF99FFBCFFC5FFC4FFCBFFB7E63DFFF9" masterDocTitle="Cervidae" masterLastPageNumber="443" masterPageNumber="350" pageNumber="437" updateTime="1658233503832" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Cervidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6514377</mods:identifier>
+<mods:identifier type="GBIF-Dataset">58bf4faf-7498-4c12-bcb3-b6f085b58978</mods:identifier>
 <mods:identifier type="ISBN">978-84-96553-77-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6514377</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6514575" ID-Zenodo-Dep="6514575" LSID="urn:lsid:plazi:treatment:03A087C4FFDBFFDBFA48F727E294FB40" httpUri="http://treatment.plazi.org/id/03A087C4FFDBFFDBFA48F727E294FB40" lastPageId="31" lastPageNumber="438" pageId="30" pageNumber="437">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6514575" ID-GBIF-Taxon="195657940" ID-Zenodo-Dep="6514575" LSID="urn:lsid:plazi:treatment:03A087C4FFDBFFDBFA48F727E294FB40" httpUri="http://treatment.plazi.org/id/03A087C4FFDBFFDBFA48F727E294FB40" lastPageId="31" lastPageNumber="438" pageId="30" pageNumber="437">
 <subSubSection box="[1411,1468,2192,2238]" pageId="30" pageNumber="437" type="multiple">
 <paragraph blockId="30.[1409,2450,2192,2317]" box="[1411,1468,2192,2238]" pageId="30" pageNumber="437">
 <heading box="[1411,1468,2192,2238]" pageId="30" pageNumber="437">
@@ -91,17 +92,23 @@ meridional
 </heading>
 </paragraph>
 </subSubSection>
-<subSubSection pageId="30" pageNumber="437" type="reference_group">
-<paragraph blockId="30.[2025,2611,2360,2786]" pageId="30" pageNumber="437">
+<subSubSection box="[2025,2608,2360,2393]" pageId="30" pageNumber="437" type="reference_group">
+<paragraph blockId="30.[2025,2611,2360,2786]" box="[2025,2608,2360,2393]" pageId="30" pageNumber="437">
 <emphasis bold="true" box="[2025,2180,2360,2393]" pageId="30" pageNumber="437">Taxonomy.</emphasis>
 <taxonomicName authority="Molina, 1782" authorityName="Molina" authorityYear="1782" baseAuthorityName="Molina" baseAuthorityYear="1782" box="[2198,2603,2360,2393]" class="Mammalia" family="Cervidae" genus="Equus" kingdom="Animalia" order="Artiodactyla" pageId="30" pageNumber="437" phylum="Chordata" rank="species" species="bisulcus">Equus bisulcus Molina, 1782</taxonomicName>
-, 
-<materialsCitation box="[2026,2404,2407,2432]" pageId="30" pageNumber="437">
+,
+</paragraph>
+</subSubSection>
+<subSubSection box="[2026,2404,2407,2432]" pageId="30" pageNumber="437" type="materials_examined">
+<paragraph blockId="30.[2025,2611,2360,2786]" box="[2026,2404,2407,2432]" pageId="30" pageNumber="437">
+<materialsCitation ID-GBIF-Occurrence="3785196304" box="[2026,2404,2407,2432]" pageId="30" pageNumber="437">
 Colchagua Province, 
 <collectingCountry box="[2324,2400,2407,2432]" name="Chile" pageId="30" pageNumber="437">Chile</collectingCountry>
 .
 </materialsCitation>
 </paragraph>
+</subSubSection>
+<subSubSection box="[2025,2386,2439,2472]" pageId="30" pageNumber="437" type="discussion">
 <paragraph blockId="30.[2025,2611,2360,2786]" box="[2025,2386,2439,2472]" pageId="30" pageNumber="437">This species is monotypic.</paragraph>
 </subSubSection>
 <subSubSection pageId="30" pageNumber="437" type="distribution">
@@ -164,9 +171,7 @@ CITES Appendix I. Classified as Endangered on The IUCN Red List and decreasing. 
 and 
 <quantity box="[602,687,862,895]" metricMagnitude="1" metricUnit="m" metricValue="1.27" pageId="31" pageNumber="438" unit="in" value="500.0">500 in</quantity>
 <collectingCountry box="[697,840,862,895]" name="Argentina" pageId="31" pageNumber="438">Argentina</collectingCountry>
-. It is the rarest deer in South America. The present range is extremely fragmented, with about one hundred subpopulations, of which 63 are outside protected areas. The northernmost subpopulation (Nevados de Chillan-Laguna del Laja, in the Chilean Andes, 
-<geoCoordinate box="[941,1017,980,1013]" degrees="36" direction="south" orientation="latitude" pageId="31" pageNumber="438" precision="55555" value="-36.0">36° S</geoCoordinate>
-) possibly amounts to less than 50 individuals dispersed in more than 
+. It is the rarest deer in South America. The present range is extremely fragmented, with about one hundred subpopulations, of which 63 are outside protected areas. The northernmost subpopulation (Nevados de Chillan-Laguna del Laja, in the Chilean Andes, 36° S) possibly amounts to less than 50 individuals dispersed in more than 
 <quantity box="[821,942,1019,1052]" metricMagnitude="6" metricUnit="m" metricValue="2.0" pageId="31" pageNumber="438" unit="km" value="2000.0">2000 km</quantity>
 *. Overhunting, introduction of livestock, competition with exotic deer and habitat conversion to agriculture have produced a dramatic decrease in range and abundance.
 </paragraph>
