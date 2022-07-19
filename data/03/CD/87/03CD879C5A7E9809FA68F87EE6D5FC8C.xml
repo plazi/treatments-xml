@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6624497" ID-ISBN="978-84-16728-08-4" ID-Zenodo-Dep="6624497" approvalRequired="205" approvalRequired_for_taxonomicNames="10" approvalRequired_for_textStreams="133" approvalRequired_for_treatments="62" checkinTime="1654693298734" checkinUser="valdenar" docAuthor="Russell A. Mittermeier &amp; Don E. Wilson" docDate="2018" docId="03CD879C5A7E9809FA68F87EE6D5FC8C" docLanguage="en" docName="hbmw_8_Chrysochloridae_0180.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 8 Insectivores, Sloths and Colugos, Barcelona: Lynx Edicions" docTitle="Eremitalpa granti Roberts 1924" docType="treatment" docVersion="3" lastPageNumber="203" masterDocId="FFF4FFE45A779803FFF7FFA3EE05FFAD" masterDocTitle="Chrysochloridae" masterLastPageNumber="203" masterPageNumber="180" pageNumber="202" updateTime="1654716640308" updateUser="valdenar">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6624497" ID-GBIF-Dataset="52fefc99-36df-46d7-91e8-51e724bae638" ID-ISBN="978-84-16728-08-4" ID-Zenodo-Dep="6624497" approvalRequired="8" approvalRequired_for_textStreams="8" checkinTime="1654693298734" checkinUser="valdenar" docAuthor="Russell A. Mittermeier &amp; Don E. Wilson" docDate="2018" docId="03CD879C5A7E9809FA68F87EE6D5FC8C" docLanguage="en" docName="hbmw_8_Chrysochloridae_0180.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 8 Insectivores, Sloths and Colugos, Barcelona: Lynx Edicions" docTitle="Eremitalpa granti Roberts 1924" docType="treatment" docVersion="7" lastPageNumber="203" masterDocId="FFF4FFE45A779803FFF7FFA3EE05FFAD" masterDocTitle="Chrysochloridae" masterLastPageNumber="203" masterPageNumber="180" pageNumber="202" updateTime="1658259093500" updateUser="valdenar">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Chrysochloridae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6624497</mods:identifier>
+<mods:identifier type="GBIF-Dataset">52fefc99-36df-46d7-91e8-51e724bae638</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-08-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6624497</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:03CD879C5A7E9809FA68F87EE6D5FC8C" httpUri="http://treatment.plazi.org/id/03CD879C5A7E9809FA68F87EE6D5FC8C" lastPageId="10" lastPageNumber="203" pageId="9" pageNumber="202">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6628011" ID-GBIF-Taxon="195827546" ID-Zenodo-Dep="6628011" LSID="urn:lsid:plazi:treatment:03CD879C5A7E9809FA68F87EE6D5FC8C" httpUri="http://treatment.plazi.org/id/03CD879C5A7E9809FA68F87EE6D5FC8C" lastPageId="10" lastPageNumber="203" pageId="9" pageNumber="202">
 <heading pageId="9" pageNumber="202">
 <subSubSection box="[1439,1496,2013,2063]" pageId="9" pageNumber="202" type="multiple">
 <paragraph blockId="9.[1436,2352,2013,2140]" box="[1439,1496,2013,2063]" pageId="9" pageNumber="202">
@@ -77,21 +78,19 @@
 </subSubSection>
 </heading>
 <subSubSection pageId="9" pageNumber="202" type="reference_group">
-<paragraph blockId="9.[2048,2641,2190,2613]" box="[2049,2638,2190,2219]" pageId="9" pageNumber="202">
+<paragraph blockId="9.[2048,2641,2190,2613]" pageId="9" pageNumber="202">
 <emphasis bold="true" box="[2049,2204,2190,2219]" pageId="9" pageNumber="202">Taxonomy.</emphasis>
 <taxonomicName authority="Broom" authorityName="Broom" authorityYear="1907" box="[2238,2634,2190,2219]" class="Mammalia" family="Chrysochloridae" genus="Chrysochloris" kingdom="Animalia" order="Afrosoricida" pageId="9" pageNumber="202" phylum="Chordata" rank="species" species="granti">Chrysochloris granti Broom</taxonomicName>
-,
+, 1907,
 </paragraph>
-<paragraph blockId="9.[2048,2641,2190,2613]" box="[2053,2641,2225,2258]" pageId="9" pageNumber="202">
-1907, 
-<materialsCitation pageId="9" pageNumber="202">
-Garies, Little Namaqualand, North- 
-<paragraph blockId="9.[2048,2641,2190,2613]" box="[2050,2509,2269,2298]" pageId="9" pageNumber="202">ern Cape Province, South Africa.</paragraph>
-</materialsCitation>
-</paragraph>
-<paragraph blockId="9.[2048,2641,2190,2613]" box="[2049,2485,2309,2338]" pageId="9" pageNumber="202">Two subspecies are recognized.</paragraph>
 </subSubSection>
-<subSubSection pageId="9" pageNumber="202" type="synonymic_list">
+<subSubSection pageId="9" pageNumber="202" type="materials_examined">
+<paragraph blockId="9.[2048,2641,2190,2613]" pageId="9" pageNumber="202">
+<materialsCitation ID-GBIF-Occurrence="3804714301" pageId="9" pageNumber="202">Garies, Little Namaqualand, North- ern Cape Province, South Africa.</materialsCitation>
+Two subspecies are recognized.
+</paragraph>
+</subSubSection>
+<subSubSection pageId="9" pageNumber="202" type="distribution">
 <caption ID-DOI="http://doi.org/10.5281/zenodo.6624550" ID-Zenodo-Dep="6624550" httpUri="https://zenodo.org/record/6624550/files/figure.png" inLine="true" pageId="9" pageNumber="202" targetBox="[1434,2025,2197,2611]" targetPageId="9">
 <paragraph blockId="9.[2048,2641,2190,2613]" box="[2050,2449,2348,2377]" pageId="9" pageNumber="202">
 <emphasis bold="true" box="[2050,2449,2348,2377]" pageId="9" pageNumber="202">Subspecies and Distribution.</emphasis>
@@ -106,12 +105,9 @@ Garies, Little Namaqualand, North-
 </caption>
 </subSubSection>
 <subSubSection pageId="9" pageNumber="202" type="description">
-<paragraph blockId="9.[2048,2641,2190,2613]" pageId="9" pageNumber="202">
+<paragraph blockId="9.[2048,2641,2190,2613]" lastBlockId="9.[1437,2643,2619,3479]" pageId="9" pageNumber="202">
 <emphasis bold="true" box="[2049,2301,2540,2573]" pageId="9" pageNumber="202">Descriptive notes.</emphasis>
-Head-body 76-86 mm, hindfoot 9-12 mm; weight 15-30 g for
-</paragraph>
-<paragraph blockId="9.[1437,2643,2619,3479]" pageId="9" pageNumber="202">
-nominotypical 
+Head-body 76-86 mm, hindfoot 9-12 mm; weight 15-30 g for nominotypical 
 <taxonomicName authorityName="Broom" authorityYear="1907" box="[1653,1734,2619,2652]" class="Mammalia" family="Chrysochloridae" genus="Chrysochloris" kingdom="Animalia" order="Afrosoricida" pageId="9" pageNumber="202" phylum="Chordata" rank="species" species="granti">granti</taxonomicName>
 ; head—body 65-81 mm (males) and 60-74 mm (females), hindfoot 6-10 mm (males) and 6-8 mm (females); weight 17-30 g (males) and 15-23 g (females) for subspecies namibensis, the “Namib Golden Mole.” Grant’s Golden Mole is the smallest species in the family, and males are larger than females. Dorsum is pale grayish yellow, with iridescent silvery sheen. Flank and venter are paler than dorsum, with more intense yellow; forehead and cheeks are pale yellow. Grant's Golden Mole differs from other species of golden moles by having a well-developed claw on fourth toe. Subspecies namibensis has shorter greater skull length and shorter fur than grant.
 </paragraph>
