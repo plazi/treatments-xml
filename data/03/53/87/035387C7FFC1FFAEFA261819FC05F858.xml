@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6608481" ID-GBIF-Dataset="6136b4e9-16b8-46eb-8a69-14092cd2707b" ID-ISBN="978-84-96553-93-4" ID-Zenodo-Dep="6608481" approvalRequired="4" approvalRequired_for_taxonomicNames="1" approvalRequired_for_treatments="3" checkinTime="1654194389443" checkinUser="diego" docAuthor="Russell A. Mittermeier &amp; Don E. Wilson" docDate="2014" docId="035387C7FFC1FFAEFA261819FC05F858" docLanguage="en" docName="hbmw_4_Ziphiidae_0326.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 4 Sea Mammals, Barcelona: Lynx Edicions" docTitle="Mesoplodon layardii" docType="treatment" docVersion="2" lastPageNumber="353" masterDocId="FF6AFFBFFFC7FFA9FFE31407FFC2FFE9" masterDocTitle="Ziphiidae" masterLastPageNumber="357" masterPageNumber="326" pageNumber="352" updateTime="1654195050795" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6608481" ID-GBIF-Dataset="6136b4e9-16b8-46eb-8a69-14092cd2707b" ID-ISBN="978-84-96553-93-4" ID-Zenodo-Dep="6608481" approvalRequired="4" approvalRequired_for_taxonomicNames="1" approvalRequired_for_treatments="3" checkinTime="1654194389443" checkinUser="diego" docAuthor="Russell A. Mittermeier &amp; Don E. Wilson" docDate="2014" docId="035387C7FFC1FFAEFA261819FC05F858" docLanguage="en" docName="hbmw_4_Ziphiidae_0326.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 4 Sea Mammals, Barcelona: Lynx Edicions" docTitle="Mesoplodon layardii" docType="treatment" docVersion="4" lastPageNumber="353" masterDocId="FF6AFFBFFFC7FFA9FFE31407FFC2FFE9" masterDocTitle="Ziphiidae" masterLastPageNumber="357" masterPageNumber="326" pageNumber="352" updateTime="1658258389471" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Ziphiidae</mods:title>
@@ -41,7 +41,7 @@
 <mods:identifier type="ISBN">978-84-96553-93-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6608481</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6608567" ID-Zenodo-Dep="6608567" LSID="urn:lsid:plazi:treatment:035387C7FFC1FFAEFA261819FC05F858" httpUri="http://treatment.plazi.org/id/035387C7FFC1FFAEFA261819FC05F858" lastPageId="7" lastPageNumber="353" pageId="6" pageNumber="352">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6608567" ID-GBIF-Taxon="195728640" ID-Zenodo-Dep="6608567" LSID="urn:lsid:plazi:treatment:035387C7FFC1FFAEFA261819FC05F858" httpUri="http://treatment.plazi.org/id/035387C7FFC1FFAEFA261819FC05F858" lastPageId="7" lastPageNumber="353" pageId="6" pageNumber="352">
 <heading pageId="6" pageNumber="352">
 <subSubSection box="[1477,1531,3102,3148]" pageId="6" pageNumber="352" type="multiple">
 <paragraph blockId="6.[1472,2411,3102,3229]" box="[1477,1531,3102,3148]" pageId="6" pageNumber="352">
@@ -79,12 +79,16 @@
 </paragraph>
 </subSubSection>
 </heading>
-<subSubSection box="[1473,2653,3276,3305]" pageId="6" pageNumber="352" type="reference_group">
-<paragraph blockId="6.[1471,2676,3276,3470]" box="[1473,2653,3276,3305]" pageId="6" pageNumber="352">
+<subSubSection box="[1473,2004,3276,3305]" pageId="6" pageNumber="352" type="reference_group">
+<paragraph blockId="6.[1471,2676,3276,3470]" box="[1473,2004,3276,3305]" pageId="6" pageNumber="352">
 <emphasis bold="true" box="[1473,1628,3276,3305]" pageId="6" pageNumber="352">Taxonomy.</emphasis>
 <taxonomicName authority="Gray, 1865" authorityName="Gray" authorityYear="1865" box="[1641,1999,3276,3305]" class="Mammalia" family="Hyperoodontidae" genus="Ziphius" kingdom="Animalia" order="Cetacea" pageId="6" pageNumber="352" phylum="Chordata" rank="species" species="layardii">Ziphius layardii Gray, 1865</taxonomicName>
-, 
-<materialsCitation box="[2015,2653,3276,3305]" pageId="6" pageNumber="352">type locality not given, probably South Africa.</materialsCitation>
+,
+</paragraph>
+</subSubSection>
+<subSubSection box="[2015,2653,3276,3305]" pageId="6" pageNumber="352" type="materials_examined">
+<paragraph blockId="6.[1471,2676,3276,3470]" box="[2015,2653,3276,3305]" pageId="6" pageNumber="352">
+<materialsCitation ID-GBIF-Occurrence="3801074311" box="[2015,2653,3276,3305]" pageId="6" pageNumber="352">type locality not given, probably South Africa.</materialsCitation>
 </paragraph>
 </subSubSection>
 <subSubSection box="[1473,1834,3315,3344]" pageId="6" pageNumber="352" type="discussion">
