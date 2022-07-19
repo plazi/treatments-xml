@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6512484" ID-ISBN="978-84-96553-77-4" ID-Zenodo-Dep="6512484" approvalRequired="808" approvalRequired_for_matCits="7" approvalRequired_for_taxonomicNames="741" approvalRequired_for_textStreams="17" approvalRequired_for_treatments="43" checkinTime="1651524980884" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2011" docId="03F507139948FFF303ABFE8AF6C9FA2B" docLanguage="en" docName="hbmw_2_Bovidae_0444.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 2 Hoofed Mammals, Barcelona: Lynx Edicions" docTitle="Bos javanicus d'Alton 1823" docType="treatment" docVersion="5" lastPageNumber="574" masterDocId="FFCC7F6B994BFFF00316FF82FFEDFF81" masterDocTitle="Bovidae" masterLastPageNumber="779" masterPageNumber="444" pageNumber="574" updateTime="1653490567287" updateUser="carolina">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6512484" ID-GBIF-Dataset="67b52095-db4b-43f8-a661-4aced0511111" ID-ISBN="978-84-96553-77-4" ID-Zenodo-Dep="6512484" checkinTime="1651524980884" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2011" docId="03F507139948FFF303ABFE8AF6C9FA2B" docLanguage="en" docName="hbmw_2_Bovidae_0444.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 2 Hoofed Mammals, Barcelona: Lynx Edicions" docTitle="Bos javanicus d'Alton 1823" docType="treatment" docVersion="10" lastPageNumber="574" masterDocId="FFCC7F6B994BFFF00316FF82FFEDFF81" masterDocTitle="Bovidae" masterLastPageNumber="779" masterPageNumber="444" pageNumber="574" updateTime="1658273746930" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Bovidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6512484</mods:identifier>
+<mods:identifier type="GBIF-Dataset">67b52095-db4b-43f8-a661-4aced0511111</mods:identifier>
 <mods:identifier type="ISBN">978-84-96553-77-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6512484</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:03F507139948FFF303ABFE8AF6C9FA2B" httpUri="http://treatment.plazi.org/id/03F507139948FFF303ABFE8AF6C9FA2B" lastPageNumber="574" pageId="3" pageNumber="574">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6581175" ID-GBIF-Taxon="195659387" ID-Zenodo-Dep="6581175" LSID="urn:lsid:plazi:treatment:03F507139948FFF303ABFE8AF6C9FA2B" httpUri="http://treatment.plazi.org/id/03F507139948FFF303ABFE8AF6C9FA2B" lastPageNumber="574" pageId="3" pageNumber="574">
 <subSubSection box="[189,221,264,314]" pageId="3" pageNumber="574" type="multiple">
 <paragraph blockId="3.[187,764,264,392]" box="[189,221,264,314]" pageId="3" pageNumber="574">
 <heading box="[189,221,264,314]" pageId="3" pageNumber="574">
@@ -91,21 +92,27 @@ Cattle (domestic form)
 </heading>
 </paragraph>
 </subSubSection>
-<subSubSection pageId="3" pageNumber="574" type="reference_group">
-<paragraph blockId="3.[803,1389,439,861]" pageId="3" pageNumber="574">
+<subSubSection box="[803,1387,439,468]" pageId="3" pageNumber="574" type="reference_group">
+<paragraph blockId="3.[803,1389,439,861]" box="[803,1387,439,468]" pageId="3" pageNumber="574">
 <emphasis bold="true" box="[803,958,439,468]" pageId="3" pageNumber="574">Taxonomy.</emphasis>
 <taxonomicName authority="d'Alton, 1823" authorityName="d'Alton" authorityYear="1823" box="[979,1382,439,468]" class="Mammalia" family="Bovidae" genus="Bos" kingdom="Animalia" order="Artiodactyla" pageId="3" pageNumber="574" phylum="Chordata" rank="species" species="javanicus">Bos javanicus d’Alton, 1823</taxonomicName>
-, 
-<materialsCitation box="[804,1021,483,508]" pageId="3" pageNumber="574">
+,
+</paragraph>
+</subSubSection>
+<subSubSection box="[804,1021,483,508]" pageId="3" pageNumber="574" type="materials_examined">
+<paragraph blockId="3.[803,1389,439,861]" box="[804,1021,483,508]" pageId="3" pageNumber="574">
+<materialsCitation ID-GBIF-Occurrence="3785198368" box="[804,1021,483,508]" pageId="3" pageNumber="574">
 <collectingCountry box="[804,944,483,508]" name="Indonesia" pageId="3" pageNumber="574">Indonesia</collectingCountry>
 , 
 <collectingRegion box="[955,1017,483,508]" country="Indonesia" name="Jawa Timur" pageId="3" pageNumber="574">Java</collectingRegion>
 .
 </materialsCitation>
 </paragraph>
+</subSubSection>
+<subSubSection box="[804,1341,518,547]" pageId="3" pageNumber="574" type="discussion">
 <paragraph blockId="3.[803,1389,439,861]" box="[804,1341,518,547]" pageId="3" pageNumber="574">Three subspecies are recognized here.</paragraph>
 </subSubSection>
-<subSubSection pageId="3" pageNumber="574" type="synonymic_list">
+<subSubSection pageId="3" pageNumber="574" type="distribution">
 <caption ID-DOI="http://doi.org/10.5281/zenodo.6512493" ID-Zenodo-Dep="6512493" httpUri="https://zenodo.org/record/6512493/files/figure.png" inLine="true" pageId="3" pageNumber="574" targetBox="[187,780,443,858]" targetPageId="3">
 <paragraph blockId="3.[803,1389,439,861]" box="[804,1203,557,586]" pageId="3" pageNumber="574">
 <emphasis bold="true" box="[804,1203,557,586]" pageId="3" pageNumber="574">Subspecies and Distribution.</emphasis>
@@ -221,7 +228,7 @@ and Borneo. The exotic population of Bantengs in the
 of 
 <collectingCountry box="[1459,1584,906,939]" name="Australia" pageId="3" pageNumber="574">Australia</collectingCountry>
 numbers about 6000 individuals and is genetically identical to wild Bantengs, despite the 20 or so founders being domesticated animals from Bali. This population may have conservation potential in the future. In 2003 following successful cloning of Gaur (
-<taxonomicName box="[1553,1683,1024,1057]" class="Mammalia" family="Bovidae" genus="Bos" kingdom="Animalia" order="Artiodactyla" pageId="3" pageNumber="574" phylum="Chordata" rank="species" species="gaurus">B. gaurus</taxonomicName>
+<taxonomicName authorityName="C.H. Smith" authorityYear="1827" box="[1553,1683,1024,1057]" class="Mammalia" family="Bovidae" genus="Bos" kingdom="Animalia" order="Artiodactyla" pageId="3" pageNumber="574" phylum="Chordata" rank="species" species="gaurus">B. gaurus</taxonomicName>
 ), two clones of 
 <taxonomicName box="[1896,2014,1024,1057]" class="Mammalia" family="Bovidae" genus="Bos" kingdom="Animalia" order="Artiodactyla" pageId="3" pageNumber="574" phylum="Chordata" rank="species" species="banteng">Banteng</taxonomicName>
 were produced from a single cell of frozen ear tissue of a male that died at the San Diego Zoo in 1980; one of the clones survived to at least 2007 but had not reproduced. The 
