@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6610922" ID-ISBN="978-84-96553-93-4" ID-Zenodo-Dep="6610922" approvalRequired="5" approvalRequired_for_treatments="5" checkinTime="1654195746118" checkinUser="diego" docAuthor="Russell A. Mittermeier &amp; Don E. Wilson" docDate="2014" docId="BD4CCC617634FFFBFAC2F511EC32FAD2" docLanguage="en" docName="hbmw_4_Delphinidae_0410.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 4 Sea Mammals, Barcelona: Lynx Edicions" docTitle="Tursiops aduncus" docType="treatment" docVersion="5" lastPageNumber="516" masterDocId="4175B419762FFFE7FFAAFFFEE608FFEC" masterDocTitle="Delphinidae" masterLastPageNumber="526" masterPageNumber="410" pageNumber="515" updateTime="1654263750250" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6610922" ID-GBIF-Dataset="7c540c0e-42b4-40f1-982f-0ef4d0c28e77" ID-ISBN="978-84-96553-93-4" ID-Zenodo-Dep="6610922" approvalRequired="6" approvalRequired_for_illustrations="1" approvalRequired_for_textStreams="1" approvalRequired_for_treatments="4" checkinTime="1654195746118" checkinUser="diego" docAuthor="Russell A. Mittermeier &amp; Don E. Wilson" docDate="2014" docId="BD4CCC617634FFFBFAC2F511EC32FAD2" docLanguage="en" docName="hbmw_4_Delphinidae_0410.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 4 Sea Mammals, Barcelona: Lynx Edicions" docTitle="Tursiops aduncus" docType="treatment" docVersion="8" lastPageNumber="516" masterDocId="4175B419762FFFE7FFAAFFFEE608FFEC" masterDocTitle="Delphinidae" masterLastPageNumber="526" masterPageNumber="410" pageNumber="515" updateTime="1658239877413" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Delphinidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6610922</mods:identifier>
+<mods:identifier type="GBIF-Dataset">7c540c0e-42b4-40f1-982f-0ef4d0c28e77</mods:identifier>
 <mods:identifier type="ISBN">978-84-96553-93-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6610922</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6608654" ID-Zenodo-Dep="6608654" LSID="urn:lsid:plazi:treatment:BD4CCC617634FFFBFAC2F511EC32FAD2" httpUri="http://treatment.plazi.org/id/BD4CCC617634FFFBFAC2F511EC32FAD2" lastPageId="28" lastPageNumber="516" pageId="27" pageNumber="515">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6608654" ID-GBIF-Taxon="195730895" ID-Zenodo-Dep="6608654" LSID="urn:lsid:plazi:treatment:BD4CCC617634FFFBFAC2F511EC32FAD2" httpUri="http://treatment.plazi.org/id/BD4CCC617634FFFBFAC2F511EC32FAD2" lastPageId="28" lastPageNumber="516" pageId="27" pageNumber="515">
 <heading pageId="27" pageNumber="515">
 <subSubSection box="[1384,1441,2799,2845]" pageId="27" pageNumber="515" type="multiple">
 <paragraph blockId="27.[1381,2518,2799,2925]" box="[1384,1441,2799,2845]" pageId="27" pageNumber="515">
@@ -76,12 +77,16 @@
 </paragraph>
 </subSubSection>
 </heading>
-<subSubSection box="[1381,2584,2972,3001]" pageId="27" pageNumber="515" type="reference_group">
-<paragraph blockId="27.[1380,2587,2972,3325]" box="[1381,2584,2972,3001]" pageId="27" pageNumber="515">
+<subSubSection box="[1381,2038,2972,3001]" pageId="27" pageNumber="515" type="reference_group">
+<paragraph blockId="27.[1380,2587,2972,3325]" box="[1381,2038,2972,3001]" pageId="27" pageNumber="515">
 <emphasis bold="true" box="[1381,1535,2972,3001]" pageId="27" pageNumber="515">Taxonomy.</emphasis>
 <taxonomicName authority="Ehrenberg, 1833" authorityName="Ehrenberg" authorityYear="1833" box="[1546,2032,2972,3001]" class="Mammalia" family="Delphinidae" genus="Delphinus" kingdom="Animalia" order="Cetacea" pageId="27" pageNumber="515" phylum="Chordata" rank="species" species="aduncus">Delphinus aduncus Ehrenberg, 1833</taxonomicName>
-, 
-<materialsCitation box="[2049,2584,2972,3001]" pageId="27" pageNumber="515">“Belhosse Isl., Dahalk Arch., Ethiopia.”</materialsCitation>
+,
+</paragraph>
+</subSubSection>
+<subSubSection box="[2049,2584,2972,3001]" pageId="27" pageNumber="515" type="materials_examined">
+<paragraph blockId="27.[1380,2587,2972,3325]" box="[2049,2584,2972,3001]" pageId="27" pageNumber="515">
+<materialsCitation ID-GBIF-Occurrence="3802895301" box="[2049,2584,2972,3001]" pageId="27" pageNumber="515">“Belhosse Isl., Dahalk Arch., Ethiopia.”</materialsCitation>
 </paragraph>
 </subSubSection>
 <subSubSection pageId="27" pageNumber="515" type="discussion">
