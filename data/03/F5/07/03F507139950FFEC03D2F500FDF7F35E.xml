@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6512484" ID-GBIF-Dataset="67b52095-db4b-43f8-a661-4aced0511111" ID-ISBN="978-84-96553-77-4" ID-Zenodo-Dep="6512484" approvalRequired="312" approvalRequired_for_taxonomicNames="312" checkinTime="1651524980884" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2011" docId="03F507139950FFEC03D2F500FDF7F35E" docLanguage="en" docName="hbmw_2_Bovidae_0444.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 2 Hoofed Mammals, Barcelona: Lynx Edicions" docTitle="Tragelaphus bor Heuglin 1877" docType="treatment" docVersion="11" lastPageNumber="599" masterDocId="FFCC7F6B994BFFF00316FF82FFEDFF81" masterDocTitle="Bovidae" masterLastPageNumber="779" masterPageNumber="444" pageNumber="598" updateTime="1655081222446" updateUser="carolina">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6512484" ID-GBIF-Dataset="67b52095-db4b-43f8-a661-4aced0511111" ID-ISBN="978-84-96553-77-4" ID-Zenodo-Dep="6512484" checkinTime="1651524980884" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2011" docId="03F507139950FFEC03D2F500FDF7F35E" docLanguage="en" docName="hbmw_2_Bovidae_0444.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 2 Hoofed Mammals, Barcelona: Lynx Edicions" docTitle="Tragelaphus bor Heuglin 1877" docType="treatment" docVersion="14" lastPageNumber="599" masterDocId="FFCC7F6B994BFFF00316FF82FFEDFF81" masterDocTitle="Bovidae" masterLastPageNumber="779" masterPageNumber="444" pageNumber="598" updateTime="1658274314791" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Bovidae</mods:title>
@@ -41,7 +41,7 @@
 <mods:identifier type="ISBN">978-84-96553-77-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6512484</mods:identifier>
 </mods:mods>
-<treatment ID-GBIF-Taxon="195659276" LSID="urn:lsid:plazi:treatment:03F507139950FFEC03D2F500FDF7F35E" httpUri="http://treatment.plazi.org/id/03F507139950FFEC03D2F500FDF7F35E" lastPageId="28" lastPageNumber="599" pageId="27" pageNumber="598">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6636764" ID-GBIF-Taxon="195659276" ID-Zenodo-Dep="6636764" LSID="urn:lsid:plazi:treatment:03F507139950FFEC03D2F500FDF7F35E" httpUri="http://treatment.plazi.org/id/03F507139950FFEC03D2F500FDF7F35E" lastPageId="28" lastPageNumber="599" pageId="27" pageNumber="598">
 <subSubSection box="[196,253,2690,2740]" pageId="27" pageNumber="598" type="multiple">
 <paragraph blockId="27.[194,1019,2690,2781]" box="[196,253,2690,2740]" pageId="27" pageNumber="598">
 <heading box="[196,253,2690,2740]" pageId="27" pageNumber="598">
@@ -84,14 +84,20 @@ del
 </heading>
 </paragraph>
 </subSubSection>
-<paragraph blockId="27.[810,1398,2824,3250]" lastBlockId="27.[196,1398,3259,3444]" pageId="27" pageNumber="598">
-<subSubSection pageId="27" pageNumber="598" type="reference_group">
+<subSubSection box="[810,1394,2824,2857]" pageId="27" pageNumber="598" type="reference_group">
+<paragraph blockId="27.[810,1398,2824,3250]" box="[810,1394,2824,2857]" pageId="27" pageNumber="598">
 <emphasis bold="true" box="[810,965,2824,2857]" pageId="27" pageNumber="598">Taxonomy.</emphasis>
 <taxonomicName authority="Heuglin, 1877" authorityName="Heuglin" authorityYear="1877" box="[981,1389,2824,2857]" class="Mammalia" family="Bovidae" genus="Tragelaphus" kingdom="Animalia" order="Artiodactyla" pageId="27" pageNumber="598" phylum="Chordata" rank="species" species="bor">Tragelaphus bor Heuglin, 1877</taxonomicName>
-, 
+,
+</paragraph>
+</subSubSection>
+<subSubSection box="[812,1356,2872,2897]" pageId="27" pageNumber="598" type="materials_examined">
+<paragraph blockId="27.[810,1398,2824,3250]" box="[812,1356,2872,2897]" pageId="27" pageNumber="598">
 <materialsCitation ID-GBIF-Occurrence="3785198355" box="[812,1356,2872,2897]" pageId="27" pageNumber="598">Bor, on the White Nile, Bahr-el-Ghazal.</materialsCitation>
+</paragraph>
 </subSubSection>
 <subSubSection pageId="27" pageNumber="598" type="discussion">
+<paragraph blockId="27.[810,1398,2824,3250]" lastBlockId="27.[196,1398,3259,3444]" pageId="27" pageNumber="598">
 The Nile Bushbuck was formerly considered a subspecies of 
 <taxonomicName baseAuthorityName="Pallas" baseAuthorityYear="1766" box="[1185,1323,2942,2975]" class="Mammalia" family="Bovidae" genus="Tragelaphus" kingdom="Animalia" order="Artiodactyla" pageId="27" pageNumber="598" phylum="Chordata" rank="species" species="scriptus">T. scriptus</taxonomicName>
 , but it is diagnostically different from other bushbucks. The mtDNA support for this clade is 90%. Apparently, there is, or was, gene flow between bor and sylvaticus in the southern part of Queen Elizabeth National Park, south-western 
@@ -109,8 +115,8 @@ The Nile Bushbuck was formerly considered a subspecies of
 , and 
 <taxonomicName box="[1285,1390,3381,3406]" class="Mammalia" family="Bovidae" genus="Tragelaphus" kingdom="Animalia" order="Artiodactyla" pageId="27" pageNumber="598" phylum="Chordata" rank="species" species="wellensis">wellensis</taxonomicName>
 . Monotypic.
-</subSubSection>
 </paragraph>
+</subSubSection>
 <subSubSection pageId="27" pageNumber="598" type="distribution">
 <caption ID-DOI="http://doi.org/10.5281/zenodo.6512529" ID-Zenodo-Dep="6512529" httpUri="https://zenodo.org/record/6512529/files/figure.png" inLine="true" pageId="27" pageNumber="598" targetBox="[194,787,2832,3246]" targetPageId="27">
 <paragraph blockId="27.[1466,2673,274,3455]" pageId="27" pageNumber="598">

@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6512484" ID-GBIF-Dataset="67b52095-db4b-43f8-a661-4aced0511111" ID-ISBN="978-84-96553-77-4" ID-Zenodo-Dep="6512484" approvalRequired="469" approvalRequired_for_taxonomicNames="468" approvalRequired_for_treatments="1" checkinTime="1651524980884" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2011" docId="03F507139958FFE403D9F427FE1EF59C" docLanguage="en" docName="hbmw_2_Bovidae_0444.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 2 Hoofed Mammals, Barcelona: Lynx Edicions" docTitle="Pseudoryx nghetinhensis Dung 1993" docType="treatment" docVersion="6" lastPageNumber="591" masterDocId="FFCC7F6B994BFFF00316FF82FFEDFF81" masterDocTitle="Bovidae" masterLastPageNumber="779" masterPageNumber="444" pageNumber="590" updateTime="1653664087401" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6512484" ID-GBIF-Dataset="67b52095-db4b-43f8-a661-4aced0511111" ID-ISBN="978-84-96553-77-4" ID-Zenodo-Dep="6512484" checkinTime="1651524980884" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2011" docId="03F507139958FFE403D9F427FE1EF59C" docLanguage="en" docName="hbmw_2_Bovidae_0444.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 2 Hoofed Mammals, Barcelona: Lynx Edicions" docTitle="Pseudoryx nghetinhensis Dung 1993" docType="treatment" docVersion="9" lastPageNumber="591" masterDocId="FFCC7F6B994BFFF00316FF82FFEDFF81" masterDocTitle="Bovidae" masterLastPageNumber="779" masterPageNumber="444" pageNumber="590" updateTime="1658274314791" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Bovidae</mods:title>
@@ -41,7 +41,7 @@
 <mods:identifier type="ISBN">978-84-96553-77-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6512484</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:03F507139958FFE403D9F427FE1EF59C" httpUri="http://treatment.plazi.org/id/03F507139958FFE403D9F427FE1EF59C" lastPageId="20" lastPageNumber="591" pageId="19" pageNumber="590">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6587617" ID-GBIF-Taxon="195659380" ID-Zenodo-Dep="6587617" LSID="urn:lsid:plazi:treatment:03F507139958FFE403D9F427FE1EF59C" httpUri="http://treatment.plazi.org/id/03F507139958FFE403D9F427FE1EF59C" lastPageId="20" lastPageNumber="591" pageId="19" pageNumber="590">
 <subSubSection box="[207,260,2981,3027]" pageId="19" pageNumber="590" type="multiple">
 <paragraph blockId="19.[201,895,2981,3108]" box="[207,260,2981,3027]" pageId="19" pageNumber="590">
 <heading box="[207,260,2981,3027]" pageId="19" pageNumber="590">
@@ -87,17 +87,23 @@
 </heading>
 </paragraph>
 </subSubSection>
-<subSubSection pageId="19" pageNumber="590" type="reference_group">
-<paragraph blockId="19.[201,1403,3158,3465]" box="[202,1057,3158,3183]" pageId="19" pageNumber="590">
+<subSubSection box="[202,922,3158,3183]" pageId="19" pageNumber="590" type="reference_group">
+<paragraph blockId="19.[201,1403,3158,3465]" box="[202,922,3158,3183]" pageId="19" pageNumber="590">
 <emphasis bold="true" box="[202,353,3158,3183]" pageId="19" pageNumber="590">Taxonomy</emphasis>
 . 
 <taxonomicName authority="Dung et al., 1993" authorityName="Dung" authorityYear="1993" box="[370,917,3158,3183]" class="Mammalia" family="Bovidae" genus="Pseudoryx" kingdom="Animalia" order="Artiodactyla" pageId="19" pageNumber="590" phylum="Chordata" rank="species" species="nghetinhensis">Pseudoryx nghetinhensis Dung et al., 1993</taxonomicName>
-, 
-<materialsCitation box="[932,1057,3158,3183]" pageId="19" pageNumber="590">
+,
+</paragraph>
+</subSubSection>
+<subSubSection box="[932,1057,3158,3183]" pageId="19" pageNumber="590" type="materials_examined">
+<paragraph blockId="19.[201,1403,3158,3465]" box="[932,1057,3158,3183]" pageId="19" pageNumber="590">
+<materialsCitation ID-GBIF-Occurrence="3785198320" box="[932,1057,3158,3183]" pageId="19" pageNumber="590">
 <collectingCountry box="[932,1053,3158,3183]" name="Vietnam" pageId="19" pageNumber="590">Vietnam</collectingCountry>
 .
 </materialsCitation>
 </paragraph>
+</subSubSection>
+<subSubSection box="[202,563,3193,3222]" pageId="19" pageNumber="590" type="discussion">
 <paragraph blockId="19.[201,1403,3158,3465]" box="[202,563,3193,3222]" pageId="19" pageNumber="590">This species is monotypic.</paragraph>
 </subSubSection>
 <subSubSection box="[202,893,3232,3261]" pageId="19" pageNumber="590" type="distribution">
