@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.5164322" ID-GBIF-Dataset="1df399c6-c920-4862-81a3-dd51f0a28471" ID-GBIF-Taxon="184130507" ID-Zenodo-Dep="5164322" checkinTime="1628013120545" checkinUser="carolina" docAuthor="Swezey, O. H." docDate="1942" docId="491C80214A7A52456C90FE350843FAFA" docLanguage="en" docName="InsectsOfGuamI.172.184-187.pdf.imf" docOrigin="Insects of Guam I, Honolulu, Hawaii: Bernice P. Bishop Museum" docStyle="DocumentStyle:A6818C686426A7D59822A3BD2E5D42E5.1:InsectsOfGuam.1942.book_chapter" docStyleId="A6818C686426A7D59822A3BD2E5D42E5" docStyleName="InsectsOfGuam.1942.book_chapter" docStyleVersion="1" docTitle="Polistes macaensis" docType="treatment" docVersion="10" lastPageNumber="186" masterDocId="B525F8594A7852476D53FFF00A6FFFD2" masterDocTitle="Wasps of Guam" masterLastPageNumber="187" masterPageNumber="184" pageId="2" pageNumber="186" updateTime="1632487084849" updateUser="carolina">
+<document ID-DOI="http://doi.org/10.5281/zenodo.5160297" ID-GBIF-Dataset="1df399c6-c920-4862-81a3-dd51f0a28471" ID-Zenodo-Dep="5160297" checkinTime="1628013120545" checkinUser="carolina" docAuthor="Swezey, O. H." docDate="1942" docId="491C80214A7A52456C90FE350843FAFA" docLanguage="en" docName="InsectsOfGuamI.172.184-187.pdf.imf" docOrigin="Insects of Guam I, Honolulu, Hawaii: Bernice P. Bishop Museum" docStyle="DocumentStyle:A6818C686426A7D59822A3BD2E5D42E5.1:InsectsOfGuam.1942.book_chapter" docStyleId="A6818C686426A7D59822A3BD2E5D42E5" docStyleName="InsectsOfGuam.1942.book_chapter" docStyleVersion="1" docTitle="Polistes macaensis" docType="treatment" docVersion="11" lastPageNumber="186" masterDocId="B525F8594A7852476D53FFF00A6FFFD2" masterDocTitle="Wasps of Guam" masterLastPageNumber="187" masterPageNumber="184" pageNumber="186" updateTime="1658323767427" updateUser="annettekang">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Wasps of Guam</mods:title>
@@ -34,7 +34,6 @@
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.5160297</mods:identifier>
 <mods:identifier type="GBIF-Dataset">1df399c6-c920-4862-81a3-dd51f0a28471</mods:identifier>
 <mods:identifier type="Zenodo-Dep">5160297</mods:identifier>
-<mods:identifier type="ZooBank">DFAF50FF-2EDC-404E-93B9-1888DC3EFC81</mods:identifier>
 </mods:mods>
 <treatment ID-DOI="http://doi.org/10.5281/zenodo.5164322" ID-GBIF-Taxon="184130507" ID-Zenodo-Dep="5164322" LSID="urn:lsid:plazi:treatment:491C80214A7A52456C90FE350843FAFA" httpUri="http://treatment.plazi.org/id/491C80214A7A52456C90FE350843FAFA" lastPageNumber="186" pageId="2" pageNumber="186">
 <subSubSection box="[451,1091,453,495]" pageId="2" pageNumber="186" type="nomenclature">
@@ -116,15 +115,35 @@
 </subSubSection>
 <subSubSection pageId="2" pageNumber="186" type="materials_examined">
 <paragraph blockId="2.[446,1848,382,2543]" pageId="2" pageNumber="186">
+<materialsCitation box="[515,825,712,756]" pageId="2" pageNumber="186">
 Agana, March 
 <emphasis box="[782,831,712,756]" italics="true" pageId="2" pageNumber="186">27,</emphasis>
-28, Bryan, May 25, Swezey; Piti, May 23, Swezey, June 2, Usinger, Oct. 12, 31, Swezey; Talofofo, June 11, Nov. 18, 
+</materialsCitation>
+<materialsCitation box="[846,1022,712,756]" pageId="2" pageNumber="186">28, Bryan</materialsCitation>
+, 
+<materialsCitation box="[1044,1343,712,756]" pageId="2" pageNumber="186">May 25, Swezey</materialsCitation>
+; 
+<materialsCitation box="[1367,1746,712,756]" pageId="2" pageNumber="186">Piti, May 23, Swezey</materialsCitation>
+, 
+<materialsCitation pageId="2" pageNumber="186">June 2, Usinger</materialsCitation>
+, 
+<materialsCitation box="[667,801,764,807]" pageId="2" pageNumber="186">Oct. 12</materialsCitation>
+, 
+<materialsCitation box="[827,1038,764,807]" pageId="2" pageNumber="186">31, Swezey</materialsCitation>
+; 
+<materialsCitation box="[1063,1394,764,807]" pageId="2" pageNumber="186">Talofofo, June 11</materialsCitation>
+, 
+<materialsCitation pageId="2" pageNumber="186">
+Nov. 18, 
 <specimenCount box="[1589,1846,764,807]" pageId="2" pageNumber="186" type="generic">two specimens</specimenCount>
-dead with parasitic fungus, one fastened on a leaf, the other on a nest, Swezey.
+dead with parasitic fungus, one fastened on a leaf, the other on a nest, Swezey
+</materialsCitation>
+.
 </paragraph>
 </subSubSection>
 <subSubSection pageId="2" pageNumber="186" type="discussion">
 <paragraph blockId="2.[446,1848,382,2543]" pageId="2" pageNumber="186">
+<materialsCitation pageId="2" pageNumber="186">
 This very common yellowjacket wasp was collected in 
 <collectingCountry box="[1506,1610,867,910]" name="Guam" pageId="2" pageNumber="186">Guam</collectingCountry>
 by Fullaway and recorded under the name 
@@ -136,7 +155,9 @@ a related species which has been synonymized with
 <taxonomicName baseAuthorityName="Fabricius" baseAuthorityYear="1793" box="[783,1014,971,1013]" class="Insecta" family="Eumenidae" genus="Polistes" kingdom="Animalia" order="Hymenoptera" pageId="2" pageNumber="186" phylum="Arthropoda" rank="species" species="macaensis">
 <emphasis box="[783,1014,971,1013]" italics="true" pageId="2" pageNumber="186">P. macaensis</emphasis>
 </taxonomicName>
-in some of the literature. It occurs in Hawaii and other Pacific island groups. It is common and widely distributed in 
+in some of the literature
+</materialsCitation>
+. It occurs in Hawaii and other Pacific island groups. It is common and widely distributed in 
 <collectingCountry box="[1732,1840,1023,1063]" name="Guam" pageId="2" pageNumber="186">Guam</collectingCountry>
 .
 </paragraph>
