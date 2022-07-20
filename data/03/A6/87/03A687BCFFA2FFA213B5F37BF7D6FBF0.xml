@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6458594" ID-GBIF-Dataset="adeeb71f-7f8d-4e00-bc9f-35089363f76e" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6458594" approvalRequired="120" approvalRequired_for_taxonomicNames="95" approvalRequired_for_treatments="25" checkinTime="1600878147105" checkinUser="plazi" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="03A687BCFFA2FFA213B5F37BF7D6FBF0" docLanguage="en" docName="hbmw_9_Phyllostomidae_444.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Lophostoma brasiliense Peters 1867" docType="treatment" docVersion="8" lastPageNumber="503" masterDocId="FF9FFFC4FFB1FFB1133CFFBAFFE0F244" masterDocTitle="Phyllostomidae" masterLastPageNumber="583" masterPageNumber="444" pageNumber="503" updateTime="1656353518553" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6458594" ID-GBIF-Dataset="adeeb71f-7f8d-4e00-bc9f-35089363f76e" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6458594" checkinTime="1600878147105" checkinUser="plazi" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="03A687BCFFA2FFA213B5F37BF7D6FBF0" docLanguage="en" docName="hbmw_9_Phyllostomidae_444.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Lophostoma brasiliense Peters 1867" docType="treatment" docVersion="11" lastPageNumber="503" masterDocId="FF9FFFC4FFB1FFB1133CFFBAFFE0F244" masterDocTitle="Phyllostomidae" masterLastPageNumber="583" masterPageNumber="444" pageNumber="503" updateTime="1658329166853" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Phyllostomidae</mods:title>
@@ -41,7 +41,7 @@
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6458594</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:03A687BCFFA2FFA213B5F37BF7D6FBF0" httpUri="http://treatment.plazi.org/id/03A687BCFFA2FFA213B5F37BF7D6FBF0" lastPageNumber="503" pageId="19" pageNumber="503">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6803095" ID-GBIF-Taxon="196400479" ID-Zenodo-Dep="6803095" LSID="urn:lsid:plazi:treatment:03A687BCFFA2FFA213B5F37BF7D6FBF0" httpUri="http://treatment.plazi.org/id/03A687BCFFA2FFA213B5F37BF7D6FBF0" lastPageNumber="503" pageId="19" pageNumber="503">
 <subSubSection box="[137,194,3265,3311]" pageId="19" pageNumber="503" type="multiple">
 <paragraph blockId="19.[134,1196,3265,3390]" box="[137,194,3265,3311]" pageId="19" pageNumber="503">
 <heading box="[137,194,3265,3311]" pageId="19" pageNumber="503">
@@ -88,12 +88,16 @@ pigmeo
 </heading>
 </paragraph>
 </subSubSection>
-<subSubSection pageId="19" pageNumber="503" type="reference_group">
-<paragraph blockId="19.[134,1258,3441,3475]" box="[135,1257,3444,3469]" pageId="19" pageNumber="503">
+<subSubSection box="[135,775,3444,3469]" pageId="19" pageNumber="503" type="reference_group">
+<paragraph blockId="19.[134,1258,3441,3475]" box="[135,775,3444,3469]" pageId="19" pageNumber="503">
 <emphasis bold="true" box="[135,290,3444,3469]" pageId="19" pageNumber="503">Taxonomy.</emphasis>
 <taxonomicName authority="Peters, 1867" authorityName="Peters" authorityYear="1867" box="[302,770,3444,3469]" class="Mammalia" family="Phyllostomidae" genus="Lophostoma" kingdom="Animalia" order="Chiroptera" pageId="19" pageNumber="503" phylum="Chordata" rank="species" species="brasiliense">Lophostoma brasiliense Peters, 1867</taxonomicName>
-, 
-<materialsCitation box="[787,1257,3444,3469]" pageId="19" pageNumber="503">
+,
+</paragraph>
+</subSubSection>
+<subSubSection box="[787,1257,3444,3469]" pageId="19" pageNumber="503" type="materials_examined">
+<paragraph blockId="19.[134,1258,3441,3475]" box="[787,1257,3444,3469]" pageId="19" pageNumber="503">
+<materialsCitation ID-GBIF-Occurrence="3819564490" box="[787,1257,3444,3469]" pageId="19" pageNumber="503">
 “Baia” (= 
 <collectingCountry box="[922,1048,3444,3469]" name="El Salvador" pageId="19" pageNumber="503">Salvador</collectingCountry>
 ), 
@@ -103,6 +107,8 @@ pigmeo
 .
 </materialsCitation>
 </paragraph>
+</subSubSection>
+<subSubSection pageId="19" pageNumber="503" type="discussion">
 <paragraph blockId="19.[2025,2620,285,708]" pageId="19" pageNumber="503">
 <taxonomicName authority="Peters, 1867" authorityName="Peters" authorityYear="1867" box="[2026,2322,285,314]" class="Mammalia" family="Phyllostomidae" genus="Lophostoma" kingdom="Animalia" order="Chiroptera" pageId="19" pageNumber="503" phylum="Chordata" rank="species" species="brasiliense">Lophostoma brasiliense</taxonomicName>
 was formerly in the genus 

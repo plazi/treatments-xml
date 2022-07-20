@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6638668" ID-ISBN="978-84-96553-89-7" ID-Zenodo-Dep="6638668" approvalRequired="243" approvalRequired_for_illustrations="1" approvalRequired_for_taxonomicNames="8" approvalRequired_for_textStreams="231" approvalRequired_for_treatments="3" checkinTime="1655131887220" checkinUser="carolina" docAuthor="Russell A. Mittermeier, Anthony B. Rylands &amp; Don E. Wilson" docDate="2013" docId="A70287F4C251FFACFF20F3417869F511" docLanguage="en" docName="hbmw_3_Lemuridae_0090.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 3 Primates, Barcelona: Lynx Edicions" docTitle="Eulemur albifrons" docType="treatment" docVersion="3" lastPageNumber="134" masterDocId="5B3BFF8CC25AFFA7FF8CFFFB7E10FFF8" masterDocTitle="Lemuridae" masterLastPageNumber="141" masterPageNumber="90" pageNumber="134" updateTime="1655132982342" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6638668" ID-GBIF-Dataset="bdc008b1-a619-440c-8de8-b43eaaa4e9f5" ID-ISBN="978-84-96553-89-7" ID-Zenodo-Dep="6638668" checkinTime="1655131887220" checkinUser="carolina" docAuthor="Russell A. Mittermeier, Anthony B. Rylands &amp; Don E. Wilson" docDate="2013" docId="A70287F4C251FFACFF20F3417869F511" docLanguage="en" docName="hbmw_3_Lemuridae_0090.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 3 Primates, Barcelona: Lynx Edicions" docTitle="Eulemur albifrons" docType="treatment" docVersion="9" lastPageNumber="134" masterDocId="5B3BFF8CC25AFFA7FF8CFFFB7E10FFF8" masterDocTitle="Lemuridae" masterLastPageNumber="141" masterPageNumber="90" pageNumber="134" updateTime="1658330128756" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Lemuridae</mods:title>
@@ -43,10 +43,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6638668</mods:identifier>
+<mods:identifier type="GBIF-Dataset">bdc008b1-a619-440c-8de8-b43eaaa4e9f5</mods:identifier>
 <mods:identifier type="ISBN">978-84-96553-89-7</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6638668</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:A70287F4C251FFACFF20F3417869F511" httpUri="http://treatment.plazi.org/id/A70287F4C251FFACFF20F3417869F511" lastPageNumber="134" pageId="11" pageNumber="134">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6646156" ID-GBIF-Taxon="195913794" ID-Zenodo-Dep="6646156" LSID="urn:lsid:plazi:treatment:A70287F4C251FFACFF20F3417869F511" httpUri="http://treatment.plazi.org/id/A70287F4C251FFACFF20F3417869F511" lastPageNumber="134" pageId="11" pageNumber="134">
 <heading pageId="11" pageNumber="134">
 <subSubSection box="[172,227,3258,3304]" pageId="11" pageNumber="134" type="multiple">
 <paragraph blockId="11.[167,1226,3258,3383]" box="[172,227,3258,3304]" pageId="11" pageNumber="134">
@@ -86,33 +87,28 @@
 </paragraph>
 </subSubSection>
 </heading>
-<subSubSection pageId="11" pageNumber="134" type="reference_group">
-<paragraph blockId="11.[167,1158,3427,3467]" box="[168,1157,3432,3461]" pageId="11" pageNumber="134">
+<subSubSection box="[168,977,3432,3461]" pageId="11" pageNumber="134" type="reference_group">
+<paragraph blockId="11.[167,1158,3427,3467]" box="[168,977,3432,3461]" pageId="11" pageNumber="134">
 <emphasis bold="true" box="[168,323,3432,3461]" pageId="11" pageNumber="134">Taxonomy.</emphasis>
 <taxonomicName authority="E. Geoffroy Saint-Hilaire, 1796" authorityName="E. Geoffroy Saint-Hilaire" authorityYear="1796" box="[335,973,3432,3461]" class="Mammalia" family="Lemuridae" genus="Lemur" kingdom="Animalia" order="Primates" pageId="11" pageNumber="134" phylum="Chordata" rank="species" species="albifrons">Lemur albifrons E. Geoffroy Saint-Hilaire, 1796</taxonomicName>
-, 
-<materialsCitation box="[989,1157,3432,3461]" pageId="11" pageNumber="134">Madagascar.</materialsCitation>
+,
 </paragraph>
-<paragraph blockId="11.[2055,2643,282,708]" box="[2056,2639,282,315]" pageId="11" pageNumber="134">Hybridization with E. fulvus occurs south</paragraph>
-<paragraph blockId="11.[2055,2643,282,708]" box="[2056,2643,321,354]" pageId="11" pageNumber="134">of the Mananara River and with E. sanford:</paragraph>
-<paragraph blockId="11.[2055,2643,282,708]" box="[2056,2637,360,393]" pageId="11" pageNumber="134">in the area north of Sambava. Monotypic.</paragraph>
+</subSubSection>
+<subSubSection box="[989,1157,3432,3461]" pageId="11" pageNumber="134" type="materials_examined">
+<paragraph blockId="11.[167,1158,3427,3467]" box="[989,1157,3432,3461]" pageId="11" pageNumber="134">
+<materialsCitation ID-GBIF-Occurrence="3808186320" box="[989,1157,3432,3461]" pageId="11" pageNumber="134">Madagascar.</materialsCitation>
+</paragraph>
+</subSubSection>
+<subSubSection pageId="11" pageNumber="134" type="discussion">
+<paragraph blockId="11.[2055,2643,282,708]" pageId="11" pageNumber="134">Hybridization with E. fulvus occurs south of the Mananara River and with E. sanford: in the area north of Sambava. Monotypic.</paragraph>
 </subSubSection>
 <subSubSection pageId="11" pageNumber="134" type="distribution">
-<caption ID-DOI="http://doi.org/10.5281/zenodo.6638698" ID-Zenodo-Dep="6638698" httpUri="https://zenodo.org/record/6638698/files/figure.png" inLine="true" pageId="11" pageNumber="134" targetBox="[1442,2023,292,699]" targetPageId="11">
-<paragraph blockId="11.[2055,2643,282,708]" box="[2055,2639,404,433]" pageId="11" pageNumber="134">
+<caption ID-DOI="http://doi.org/10.5281/zenodo.6638698" ID-Zenodo-Dep="6638698" httpUri="https://zenodo.org/record/6638698/files/figure.png" inLine="true" pageId="11" pageNumber="134" startId="11.[2055,2227,404,433]" targetBox="[1442,2023,292,699]" targetPageId="11">
+<paragraph blockId="11.[2055,2643,282,708]" lastBlockId="11.[1437,2645,718,2793]" pageId="11" pageNumber="134">
 <emphasis bold="true" box="[2055,2231,404,433]" pageId="11" pageNumber="134">Distribution.</emphasis>
-NE Madagascar from the
-</paragraph>
-<paragraph blockId="11.[2055,2643,282,708]" box="[2056,2640,447,472]" pageId="11" pageNumber="134">Bemarivo River, near Sambava, S to the</paragraph>
-<paragraph blockId="11.[2055,2643,282,708]" box="[2056,2640,482,511]" pageId="11" pageNumber="134">region of Mananara-Nord, including the</paragraph>
-<paragraph blockId="11.[2055,2643,282,708]" pageId="11" pageNumber="134">
+NE Madagascar from the Bemarivo River, near Sambava, S to the region of Mananara-Nord, including the 
 <taxonomicName box="[2056,2169,517,550]" class="Liliopsida" family="Arecaceae" genus="Masoala" kingdom="Plantae" order="Arecales" pageId="11" pageNumber="134" phylum="Tracheophyta" rank="genus">Masoala</taxonomicName>
-Peninsula and possibly extending from Marojejy W into Tsaratanana;
-</paragraph>
-<paragraph blockId="11.[2055,2643,282,708]" box="[2056,2641,596,629]" pageId="11" pageNumber="134">there are additional isolated and most</paragraph>
-<paragraph blockId="11.[2055,2643,282,708]" pageId="11" pageNumber="134">likely introduced populations in the Betampona Strict Nature Reserve and on Nosy</paragraph>
-<paragraph blockId="11.[1437,2645,718,2793]" pageId="11" pageNumber="134">
-Mangabe and on Ile Roger (also called Aye-aye I) near the town of Mananara-Nord. The distribution S of Mananara needs to be clarified because significant hybridization with the Brown 
+Peninsula and possibly extending from Marojejy W into Tsaratanana; there are additional isolated and most likely introduced populations in the Betampona Strict Nature Reserve and on Nosy Mangabe and on Ile Roger (also called Aye-aye I) near the town of Mananara-Nord. The distribution S of Mananara needs to be clarified because significant hybridization with the Brown 
 <taxonomicName box="[1662,1757,796,825]" class="Mammalia" family="Lemuridae" genus="Lemur" kingdom="Animalia" order="Primates" pageId="11" pageNumber="134" phylum="Chordata" rank="genus">Lemur</taxonomicName>
 (FE. 
 <taxonomicName box="[1812,1897,796,825]" class="Magnoliopsida" family="Myrtaceae" genus="Eucalyptus" kingdom="Plantae" order="Myrtales" pageId="11" pageNumber="134" phylum="Tracheophyta" rank="species" species="fulvus">fulvus</taxonomicName>

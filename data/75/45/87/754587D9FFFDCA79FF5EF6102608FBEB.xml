@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6631721" ID-GBIF-Dataset="250d84e9-ba3f-4dd1-bf4f-f5f4c3da18d5" ID-ISBN="978-84-16728-08-4" ID-Zenodo-Dep="6631721" checkinTime="1654803562277" checkinUser="valdenar" docAuthor="Russell A. Mittermeier &amp; Don E. Wilson" docDate="2018" docId="754587D9FFFDCA79FF5EF6102608FBEB" docLanguage="en" docName="hbmw_8_Dasypodidae_0030.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 8 Insectivores, Sloths and Colugos, Barcelona: Lynx Edicions" docTitle="Dasypus pilosus" docType="treatment" docVersion="4" lastPageNumber="46" masterDocId="897CFFA1FFFECA7AFFF4FFA92F30FFDC" masterDocTitle="Dasypodidae" masterLastPageNumber="47" masterPageNumber="30" pageNumber="46" updateTime="1654869670634" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6631721" ID-GBIF-Dataset="250d84e9-ba3f-4dd1-bf4f-f5f4c3da18d5" ID-ISBN="978-84-16728-08-4" ID-Zenodo-Dep="6631721" approvalRequired="4" approvalRequired_for_textStreams="4" checkinTime="1654803562277" checkinUser="valdenar" docAuthor="Russell A. Mittermeier &amp; Don E. Wilson" docDate="2018" docId="754587D9FFFDCA79FF5EF6102608FBEB" docLanguage="en" docName="hbmw_8_Dasypodidae_0030.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 8 Insectivores, Sloths and Colugos, Barcelona: Lynx Edicions" docTitle="Dasypus pilosus" docType="treatment" docVersion="6" lastPageNumber="46" masterDocId="897CFFA1FFFECA7AFFF4FFA92F30FFDC" masterDocTitle="Dasypodidae" masterLastPageNumber="47" masterPageNumber="30" pageNumber="46" updateTime="1658329586249" updateUser="valdenar">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Dasypodidae</mods:title>
@@ -41,7 +41,7 @@
 <mods:identifier type="ISBN">978-84-16728-08-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6631721</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6629410" ID-Zenodo-Dep="6629410" LSID="urn:lsid:plazi:treatment:754587D9FFFDCA79FF5EF6102608FBEB" httpUri="http://treatment.plazi.org/id/754587D9FFFDCA79FF5EF6102608FBEB" lastPageNumber="46" pageId="3" pageNumber="46">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6629410" ID-GBIF-Taxon="195832445" ID-Zenodo-Dep="6629410" LSID="urn:lsid:plazi:treatment:754587D9FFFDCA79FF5EF6102608FBEB" httpUri="http://treatment.plazi.org/id/754587D9FFFDCA79FF5EF6102608FBEB" lastPageNumber="46" pageId="3" pageNumber="46">
 <heading pageId="3" pageNumber="46">
 <subSubSection box="[170,203,2489,2535]" pageId="3" pageNumber="46" type="multiple">
 <paragraph blockId="3.[168,1168,2489,2614]" box="[170,203,2489,2535]" pageId="3" pageNumber="46">
@@ -81,13 +81,20 @@
 </subSubSection>
 </heading>
 <subSubSection pageId="3" pageNumber="46" type="reference_group">
-<paragraph blockId="3.[779,1373,2664,3087]" lastBlockId="3.[161,1371,3092,3479]" pageId="3" pageNumber="46">
+<paragraph blockId="3.[779,1373,2664,3087]" pageId="3" pageNumber="46">
 <emphasis bold="true" box="[780,938,2664,2693]" pageId="3" pageNumber="46">Taxonomy.</emphasis>
-Cryptophractus 
-<taxonomicName baseAuthorityName="Fitzinger" baseAuthorityYear="1856" box="[1195,1285,2664,2693]" class="Mammalia" family="Dasypodidae" genus="Dasypus" kingdom="Animalia" order="Cingulata" pageId="3" pageNumber="46" phylum="Chordata" rank="species" species="pilosus">pilosus</taxonomicName>
-Fitz- inger, 1856, 
-<materialsCitation box="[969,1069,2707,2732]" pageId="3" pageNumber="46">“Peru.”</materialsCitation>
-Restricted by R. M. Wetzel and E. Mondolfi in 1979 to mon- tane Peru. 
+<taxonomicName baseAuthorityName="Fitzinger" baseAuthorityYear="1856" class="Mammalia" family="Dasypodidae" genus="Dasypus" kingdom="Animalia" order="Cingulata" pageId="3" pageNumber="46" phylum="Chordata" rank="species" species="pilosus">Cryptophractus pilosus Fitz- inger, 1856</taxonomicName>
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="3" pageNumber="46" type="materials_examined">
+<paragraph blockId="3.[779,1373,2664,3087]" pageId="3" pageNumber="46">
+<materialsCitation ID-GBIF-Occurrence="3805309301" pageId="3" pageNumber="46">“Peru.” Restricted by R. M. Wetzel and E. Mondolfi in 1979 to mon- tane Peru</materialsCitation>
+.
+</paragraph>
+</subSubSection>
+<subSubSection pageId="3" pageNumber="46" type="discussion">
+<paragraph blockId="3.[779,1373,2664,3087]" lastBlockId="3.[161,1371,3092,3479]" pageId="3" pageNumber="46">
 <taxonomicName baseAuthorityName="Fitzinger" baseAuthorityYear="1856" box="[780,997,2818,2851]" class="Mammalia" family="Dasypodidae" genus="Dasypus" kingdom="Animalia" order="Cingulata" pageId="3" pageNumber="46" phylum="Chordata" rank="species" species="pilosus">Dasypus pilosus</taxonomicName>
 was originally described as a species of Cryptophractus, which was used subsequently to separate it into its own subgenus. Currently, some have advocated reviving Cryptophractus based on morphological criteria, but molecular genetic data show that 
 <taxonomicName baseAuthorityName="Fitzinger" baseAuthorityYear="1856" box="[1126,1260,3054,3087]" class="Mammalia" family="Dasypodidae" genus="Dasypus" kingdom="Animalia" order="Cingulata" pageId="3" pageNumber="46" phylum="Chordata" rank="species" species="pilosus">D. pilosus</taxonomicName>

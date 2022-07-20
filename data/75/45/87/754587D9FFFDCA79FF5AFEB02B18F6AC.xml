@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6631721" ID-GBIF-Dataset="250d84e9-ba3f-4dd1-bf4f-f5f4c3da18d5" ID-ISBN="978-84-16728-08-4" ID-Zenodo-Dep="6631721" checkinTime="1654803562277" checkinUser="valdenar" docAuthor="Russell A. Mittermeier &amp; Don E. Wilson" docDate="2018" docId="754587D9FFFDCA79FF5AFEB02B18F6AC" docLanguage="en" docName="hbmw_8_Dasypodidae_0030.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 8 Insectivores, Sloths and Colugos, Barcelona: Lynx Edicions" docTitle="Dasypus septemcinctus Linnaeus 1758" docType="treatment" docVersion="4" lastPageNumber="46" masterDocId="897CFFA1FFFECA7AFFF4FFA92F30FFDC" masterDocTitle="Dasypodidae" masterLastPageNumber="47" masterPageNumber="30" pageNumber="46" updateTime="1654869670634" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6631721" ID-GBIF-Dataset="250d84e9-ba3f-4dd1-bf4f-f5f4c3da18d5" ID-ISBN="978-84-16728-08-4" ID-Zenodo-Dep="6631721" approvalRequired="4" approvalRequired_for_textStreams="4" checkinTime="1654803562277" checkinUser="valdenar" docAuthor="Russell A. Mittermeier &amp; Don E. Wilson" docDate="2018" docId="754587D9FFFDCA79FF5AFEB02B18F6AC" docLanguage="en" docName="hbmw_8_Dasypodidae_0030.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 8 Insectivores, Sloths and Colugos, Barcelona: Lynx Edicions" docTitle="Dasypus septemcinctus Linnaeus 1758" docType="treatment" docVersion="6" lastPageNumber="46" masterDocId="897CFFA1FFFECA7AFFF4FFA92F30FFDC" masterDocTitle="Dasypodidae" masterLastPageNumber="47" masterPageNumber="30" pageNumber="46" updateTime="1658329586249" updateUser="valdenar">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Dasypodidae</mods:title>
@@ -41,7 +41,7 @@
 <mods:identifier type="ISBN">978-84-16728-08-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6631721</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6629406" ID-Zenodo-Dep="6629406" LSID="urn:lsid:plazi:treatment:754587D9FFFDCA79FF5AFEB02B18F6AC" httpUri="http://treatment.plazi.org/id/754587D9FFFDCA79FF5AFEB02B18F6AC" lastPageNumber="46" pageId="3" pageNumber="46">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6629406" ID-GBIF-Taxon="195832446" ID-Zenodo-Dep="6629406" LSID="urn:lsid:plazi:treatment:754587D9FFFDCA79FF5AFEB02B18F6AC" httpUri="http://treatment.plazi.org/id/754587D9FFFDCA79FF5AFEB02B18F6AC" lastPageNumber="46" pageId="3" pageNumber="46">
 <heading pageId="3" pageNumber="46">
 <subSubSection box="[174,206,281,327]" pageId="3" pageNumber="46" type="multiple">
 <paragraph blockId="3.[172,1054,281,445]" box="[174,206,281,327]" pageId="3" pageNumber="46">
@@ -86,9 +86,18 @@
 <paragraph blockId="3.[786,1377,496,919]" pageId="3" pageNumber="46">
 <emphasis bold="true" box="[787,942,496,525]" pageId="3" pageNumber="46">Taxonomy.</emphasis>
 <taxonomicName authority="Linnaeus, 1758" authorityName="Linnaeus" authorityYear="1758" class="Mammalia" family="Dasypodidae" genus="Dasypus" kingdom="Animalia" order="Cingulata" pageId="3" pageNumber="46" phylum="Chordata" rank="species" species="septemcinctus">Dasypus septemcinctus Linnaeus, 1758</taxonomicName>
-, 
-<materialsCitation box="[872,1019,531,564]" pageId="3" pageNumber="46">“in Indiis.”</materialsCitation>
-Corrected byJ. C. P. Erxleben in 1777 to “Brasilia.” Restricted by A. Cabrera in 1958 to Pernambuco, Brazil. Classification of specimens has been hampered at times because 
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="3" pageNumber="46" type="materials_examined">
+<paragraph blockId="3.[786,1377,496,919]" pageId="3" pageNumber="46">
+<materialsCitation ID-GBIF-Occurrence="3805309309" pageId="3" pageNumber="46">“in Indiis.” Corrected byJ. C. P. Erxleben in 1777 to “Brasilia.” Restricted by A. Cabrera in 1958 to Pernambuco, Brazil</materialsCitation>
+.
+</paragraph>
+</subSubSection>
+<subSubSection pageId="3" pageNumber="46" type="discussion">
+<paragraph blockId="3.[786,1377,496,919]" pageId="3" pageNumber="46">
+Classification of specimens has been hampered at times because 
 <taxonomicName authorityName="Linnaeus" authorityYear="1758" box="[1118,1329,689,722]" class="Mammalia" family="Dasypodidae" genus="Dasypus" kingdom="Animalia" order="Cingulata" pageId="3" pageNumber="46" phylum="Chordata" rank="species" species="septemcinctus">D. septemcinctus</taxonomicName>
 occurs in areas where other, similar-looking species are found, namely 
 <taxonomicName authorityName="Desmarest" authorityYear="1804" box="[1210,1371,768,801]" class="Mammalia" family="Dasypodidae" genus="Dasypus" kingdom="Animalia" order="Cingulata" pageId="3" pageNumber="46" phylum="Chordata" rank="species" species="hybridus">D. hybridus</taxonomicName>
@@ -99,11 +108,10 @@ occurs in areas where other, similar-looking species are found, namely
 </subSubSection>
 <subSubSection pageId="3" pageNumber="46" type="distribution">
 <caption ID-DOI="http://doi.org/10.5281/zenodo.6631737" ID-Zenodo-Dep="6631737" httpUri="https://zenodo.org/record/6631737/files/figure.png" inLine="true" pageId="3" pageNumber="46" targetBox="[171,762,498,913]" targetPageId="3">
-<paragraph blockId="3.[786,1377,496,919]" box="[786,1374,886,919]" pageId="3" pageNumber="46">
+<paragraph blockId="3.[786,1377,496,919]" lastBlockId="3.[168,1377,929,2416]" pageId="3" pageNumber="46">
 <emphasis bold="true" box="[786,962,886,919]" pageId="3" pageNumber="46">Distribution.</emphasis>
-From lower Amazon Basin
+From lower Amazon Basin S to Rio Grande do Sul State in Brazil and W to the Gran Chaco of E Bolivia, and Paraguay. Presence in N Argentina considered uncertain at this time due to potential misidentification of specimens.
 </paragraph>
-<paragraph blockId="3.[168,1377,929,2416]" pageId="3" pageNumber="46">S to Rio Grande do Sul State in Brazil and W to the Gran Chaco of E Bolivia, and Paraguay. Presence in N Argentina considered uncertain at this time due to potential misidentification of specimens.</paragraph>
 </caption>
 </subSubSection>
 <subSubSection pageId="3" pageNumber="46" type="description">
