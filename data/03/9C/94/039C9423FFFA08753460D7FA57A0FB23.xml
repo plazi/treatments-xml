@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6632647" ID-GBIF-Dataset="03e4f5d4-2a65-4931-aeb7-b4520eac77ca" ID-ISBN="978-84-96553-89-7" ID-Zenodo-Dep="6632647" checkinTime="1654884098359" checkinUser="carolina" docAuthor="Russell A. Mittermeier, Anthony B. Rylands &amp; Don E. Wilson" docDate="2013" docId="039C9423FFFA08753460D7FA57A0FB23" docLanguage="en" docName="hbmw_3_Lorisidae_0210.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 3 Primates, Barcelona: Lynx Edicions" docTitle="Perodicticus potto" docType="treatment" docVersion="4" lastPageNumber="213" masterDocId="FFA5EC5BFFF808763122D562567EFFBD" masterDocTitle="Lorisidae" masterLastPageNumber="220" masterPageNumber="210" pageNumber="212" updateTime="1654885731269" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6632647" ID-GBIF-Dataset="03e4f5d4-2a65-4931-aeb7-b4520eac77ca" ID-ISBN="978-84-96553-89-7" ID-Zenodo-Dep="6632647" approvalRequired="1" approvalRequired_for_textStreams="1" checkinTime="1654884098359" checkinUser="carolina" docAuthor="Russell A. Mittermeier, Anthony B. Rylands &amp; Don E. Wilson" docDate="2013" docId="039C9423FFFA08753460D7FA57A0FB23" docLanguage="en" docName="hbmw_3_Lorisidae_0210.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 3 Primates, Barcelona: Lynx Edicions" docTitle="Perodicticus potto" docType="treatment" docVersion="6" lastPageNumber="213" masterDocId="FFA5EC5BFFF808763122D562567EFFBD" masterDocTitle="Lorisidae" masterLastPageNumber="220" masterPageNumber="210" pageNumber="212" updateTime="1658334181543" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Lorisidae</mods:title>
@@ -47,7 +47,7 @@
 <mods:identifier type="ISBN">978-84-96553-89-7</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6632647</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6632616" ID-Zenodo-Dep="6632616" LSID="urn:lsid:plazi:treatment:039C9423FFFA08753460D7FA57A0FB23" httpUri="http://treatment.plazi.org/id/039C9423FFFA08753460D7FA57A0FB23" lastPageId="3" lastPageNumber="213" pageId="2" pageNumber="212">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6632616" ID-GBIF-Taxon="195833943" ID-Zenodo-Dep="6632616" LSID="urn:lsid:plazi:treatment:039C9423FFFA08753460D7FA57A0FB23" httpUri="http://treatment.plazi.org/id/039C9423FFFA08753460D7FA57A0FB23" lastPageId="3" lastPageNumber="213" pageId="2" pageNumber="212">
 <heading pageId="2" pageNumber="212">
 <subSubSection box="[1346,1378,664,710]" pageId="2" pageNumber="212" type="multiple">
 <paragraph blockId="2.[1344,2453,664,829]" box="[1346,1378,664,710]" pageId="2" pageNumber="212">
@@ -89,20 +89,26 @@
 </paragraph>
 </subSubSection>
 </heading>
-<subSubSection pageId="2" pageNumber="212" type="reference_group">
-<paragraph blockId="2.[1960,2548,878,1300]" pageId="2" pageNumber="212">
+<subSubSection box="[1960,2544,878,907]" pageId="2" pageNumber="212" type="reference_group">
+<paragraph blockId="2.[1960,2548,878,1300]" box="[1960,2544,878,907]" pageId="2" pageNumber="212">
 <emphasis bold="true" box="[1960,2109,878,907]" pageId="2" pageNumber="212">Taxonomy.</emphasis>
 <taxonomicName authority="P. L. S. Miller, 1766" authorityName="P. L. S. Miller" authorityYear="1766" baseAuthorityName="Muller" baseAuthorityYear="1766" box="[2121,2539,878,907]" class="Mammalia" family="Lorisidae" genus="Lemur" kingdom="Animalia" order="Primates" pageId="2" pageNumber="212" phylum="Chordata" rank="species" species="potto">Lemur potto P. L. S. Miller, 1766</taxonomicName>
-, 
-<materialsCitation box="[1961,2178,921,946]" pageId="2" pageNumber="212">Ghana, Elmina.</materialsCitation>
+,
 </paragraph>
+</subSubSection>
+<subSubSection box="[1961,2178,921,946]" pageId="2" pageNumber="212" type="materials_examined">
+<paragraph blockId="2.[1960,2548,878,1300]" box="[1961,2178,921,946]" pageId="2" pageNumber="212">
+<materialsCitation ID-GBIF-Occurrence="3806470305" box="[1961,2178,921,946]" pageId="2" pageNumber="212">Ghana, Elmina.</materialsCitation>
+</paragraph>
+</subSubSection>
+<subSubSection pageId="2" pageNumber="212" type="discussion">
 <paragraph blockId="2.[1960,2548,878,1300]" lastBlockId="2.[1341,2548,1306,3344]" pageId="2" pageNumber="212">
 Data from mtDNA indicated that 
 <taxonomicName baseAuthorityName="Muller" baseAuthorityYear="1766" box="[2485,2547,952,985]" class="Mammalia" family="Lorisidae" genus="Perodicticus" kingdom="Animalia" order="Primates" pageId="2" pageNumber="212" phylum="Chordata" rank="species" species="potto">potto</taxonomicName>
 and former subspecies edwards: and ibeanus deserved species designation as shown by C. Roos and coworkers in 2004, a finding supported by marked differences in body size and skull morphology. The form from Benin (juju) is probably also a distinct species, but it is not recognized here. Currently, three subspecies are recognized, but others may well be found in the future.
 </paragraph>
 </subSubSection>
-<subSubSection pageId="2" pageNumber="212" type="synonymic_list">
+<subSubSection pageId="2" pageNumber="212" type="distribution">
 <caption ID-DOI="http://doi.org/10.5281/zenodo.6632657" ID-Zenodo-Dep="6632657" httpUri="https://zenodo.org/record/6632657/files/figure.png" inLine="true" pageId="2" pageNumber="212" targetBox="[1347,1928,882,1289]" targetPageId="2">
 <paragraph blockId="2.[1341,2548,1306,3344]" box="[1344,1743,1345,1378]" pageId="2" pageNumber="212">
 <emphasis bold="true" box="[1344,1743,1345,1378]" pageId="2" pageNumber="212">Subspecies and Distribution.</emphasis>

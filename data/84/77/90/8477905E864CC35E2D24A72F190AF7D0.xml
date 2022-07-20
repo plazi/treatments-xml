@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6632289" ID-ISBN="978-84-96553-89-7" ID-Zenodo-Dep="6632289" approvalRequired="2" approvalRequired_for_illustrations="1" approvalRequired_for_taxonomicNames="1" checkinTime="1654878241841" checkinUser="carolina" docAuthor="Russell A. Mittermeier, Anthony B. Rylands &amp; Don E. Wilson" docDate="2013" docId="8477905E864CC35E2D24A72F190AF7D0" docLanguage="en" docName="hbmw_3_Phitheciidae_0432.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 3 Primates, Barcelona: Lynx Edicions" docTitle="Callicebus baptista Lonnberg 1939" docType="treatment" docVersion="6" lastPageNumber="463" masterDocId="784EE826864AC358287DA544105EFFF2" masterDocTitle="Phitheciidae" masterLastPageNumber="483" masterPageNumber="432" pageNumber="463" updateTime="1654881495916" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6632289" ID-GBIF-Dataset="4420304b-d31c-468a-a431-2145caa8e2c0" ID-ISBN="978-84-96553-89-7" ID-Zenodo-Dep="6632289" approvalRequired="2" approvalRequired_for_illustrations="1" approvalRequired_for_taxonomicNames="1" checkinTime="1654878241841" checkinUser="carolina" docAuthor="Russell A. Mittermeier, Anthony B. Rylands &amp; Don E. Wilson" docDate="2013" docId="8477905E864CC35E2D24A72F190AF7D0" docLanguage="en" docName="hbmw_3_Phitheciidae_0432.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 3 Primates, Barcelona: Lynx Edicions" docTitle="Callicebus baptista Lonnberg 1939" docType="treatment" docVersion="9" lastPageNumber="463" masterDocId="784EE826864AC358287DA544105EFFF2" masterDocTitle="Phitheciidae" masterLastPageNumber="483" masterPageNumber="432" pageNumber="463" updateTime="1658335142948" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Phitheciidae</mods:title>
@@ -43,10 +43,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6632289</mods:identifier>
+<mods:identifier type="GBIF-Dataset">4420304b-d31c-468a-a431-2145caa8e2c0</mods:identifier>
 <mods:identifier type="ISBN">978-84-96553-89-7</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6632289</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6632209" ID-Zenodo-Dep="6632209" LSID="urn:lsid:plazi:treatment:8477905E864CC35E2D24A72F190AF7D0" httpUri="http://treatment.plazi.org/id/8477905E864CC35E2D24A72F190AF7D0" lastPageNumber="463" pageId="6" pageNumber="463">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6632209" ID-GBIF-Taxon="195833788" ID-Zenodo-Dep="6632209" LSID="urn:lsid:plazi:treatment:8477905E864CC35E2D24A72F190AF7D0" httpUri="http://treatment.plazi.org/id/8477905E864CC35E2D24A72F190AF7D0" lastPageNumber="463" pageId="6" pageNumber="463">
 <heading pageId="6" pageNumber="463">
 <subSubSection box="[1369,1423,619,665]" pageId="6" pageNumber="463" type="multiple">
 <paragraph blockId="6.[1365,2279,619,744]" box="[1369,1423,619,665]" pageId="6" pageNumber="463">
@@ -90,13 +91,19 @@
 <paragraph blockId="6.[1980,2567,798,1216]" pageId="6" pageNumber="463">
 <emphasis bold="true" box="[1981,2141,798,823]" pageId="6" pageNumber="463">Taxonomy.</emphasis>
 <taxonomicName authority="Lonnberg" authorityName="Lonnberg" authorityYear="1939" class="Mammalia" family="Pitheciidae" genus="Callicebus" kingdom="Animalia" order="Primates" pageId="6" pageNumber="463" phylum="Chordata" rank="genus" species="baptista">Callicebus baptista Lonnberg, 1939</taxonomicName>
-, 
-<materialsCitation pageId="6" pageNumber="463">
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="6" pageNumber="463" type="materials_examined">
+<paragraph blockId="6.[1980,2567,798,1216]" pageId="6" pageNumber="463">
+<materialsCitation ID-GBIF-Occurrence="3806466321" pageId="6" pageNumber="463">
 type locality unknown. Restricted by P. Hershkovitz in 1963 to the Lago do 
 <taxonomicName authorityName="Lonnberg" authorityYear="1939" box="[1982,2099,912,941]" class="Mammalia" family="Pitheciidae" genus="Callicebus" kingdom="Animalia" order="Primates" pageId="6" pageNumber="463" phylum="Chordata" rank="species" species="baptista">Baptista</taxonomicName>
 , in the Brazilian state of Amazonas.
 </materialsCitation>
 </paragraph>
+</subSubSection>
+<subSubSection pageId="6" pageNumber="463" type="discussion">
 <paragraph blockId="6.[1980,2567,798,1216]" pageId="6" pageNumber="463">
 <taxonomicName authorityName="Lonnberg" authorityYear="1939" box="[1984,2123,987,1020]" class="Mammalia" family="Pitheciidae" genus="Callicebus" kingdom="Animalia" order="Primates" pageId="6" pageNumber="463" phylum="Chordata" rank="species" species="baptista">C. baptista</taxonomicName>
 is a member of the 

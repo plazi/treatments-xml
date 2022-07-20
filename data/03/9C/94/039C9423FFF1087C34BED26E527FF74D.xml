@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6632647" ID-GBIF-Dataset="03e4f5d4-2a65-4931-aeb7-b4520eac77ca" ID-ISBN="978-84-96553-89-7" ID-Zenodo-Dep="6632647" checkinTime="1654884098359" checkinUser="carolina" docAuthor="Russell A. Mittermeier, Anthony B. Rylands &amp; Don E. Wilson" docDate="2013" docId="039C9423FFF1087C34BED26E527FF74D" docLanguage="en" docName="hbmw_3_Lorisidae_0210.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 3 Primates, Barcelona: Lynx Edicions" docTitle="Nycticebus menagensis Trouessart 1897" docType="treatment" docVersion="4" lastPageNumber="220" masterDocId="FFA5EC5BFFF808763122D562567EFFBD" masterDocTitle="Lorisidae" masterLastPageNumber="220" masterPageNumber="210" pageNumber="219" updateTime="1654885731269" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6632647" ID-GBIF-Dataset="03e4f5d4-2a65-4931-aeb7-b4520eac77ca" ID-ISBN="978-84-96553-89-7" ID-Zenodo-Dep="6632647" approvalRequired="1" approvalRequired_for_textStreams="1" checkinTime="1654884098359" checkinUser="carolina" docAuthor="Russell A. Mittermeier, Anthony B. Rylands &amp; Don E. Wilson" docDate="2013" docId="039C9423FFF1087C34BED26E527FF74D" docLanguage="en" docName="hbmw_3_Lorisidae_0210.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 3 Primates, Barcelona: Lynx Edicions" docTitle="Nycticebus menagensis Trouessart 1897" docType="treatment" docVersion="6" lastPageNumber="220" masterDocId="FFA5EC5BFFF808763122D562567EFFBD" masterDocTitle="Lorisidae" masterLastPageNumber="220" masterPageNumber="210" pageNumber="219" updateTime="1658334181543" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Lorisidae</mods:title>
@@ -47,7 +47,7 @@
 <mods:identifier type="ISBN">978-84-96553-89-7</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6632647</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6632632" ID-Zenodo-Dep="6632632" LSID="urn:lsid:plazi:treatment:039C9423FFF1087C34BED26E527FF74D" httpUri="http://treatment.plazi.org/id/039C9423FFF1087C34BED26E527FF74D" lastPageId="10" lastPageNumber="220" pageId="9" pageNumber="219">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6632632" ID-GBIF-Taxon="195833950" ID-Zenodo-Dep="6632632" LSID="urn:lsid:plazi:treatment:039C9423FFF1087C34BED26E527FF74D" httpUri="http://treatment.plazi.org/id/039C9423FFF1087C34BED26E527FF74D" lastPageId="10" lastPageNumber="220" pageId="9" pageNumber="219">
 <heading pageId="9" pageNumber="219">
 <subSubSection box="[1436,1490,1804,1850]" pageId="9" pageNumber="219" type="multiple">
 <paragraph blockId="9.[1431,2383,1804,1930]" box="[1436,1490,1804,1850]" pageId="9" pageNumber="219">
@@ -87,9 +87,15 @@
 <paragraph blockId="9.[2046,2633,1978,2400]" pageId="9" pageNumber="219">
 <emphasis bold="true" box="[2047,2202,1978,2007]" pageId="9" pageNumber="219">Taxonomy.</emphasis>
 <taxonomicName authority="Trouessart, 1897" authorityName="Trouessart" authorityYear="1897" class="Mammalia" family="Lorisidae" genus="Nycticebus" kingdom="Animalia" order="Primates" pageId="9" pageNumber="219" phylum="Chordata" rank="species" species="menagensis">Nycticebus menagensis Trouessart, 1897</taxonomicName>
-, 
-<materialsCitation box="[2199,2499,2013,2046]" pageId="9" pageNumber="219">Philippines, Tawitawi.</materialsCitation>
+,
 </paragraph>
+</subSubSection>
+<subSubSection box="[2199,2499,2013,2046]" pageId="9" pageNumber="219" type="materials_examined">
+<paragraph blockId="9.[2046,2633,1978,2400]" box="[2199,2499,2013,2046]" pageId="9" pageNumber="219">
+<materialsCitation ID-GBIF-Occurrence="3806470308" box="[2199,2499,2013,2046]" pageId="9" pageNumber="219">Philippines, Tawitawi.</materialsCitation>
+</paragraph>
+</subSubSection>
+<subSubSection pageId="9" pageNumber="219" type="discussion">
 <paragraph blockId="9.[2046,2633,1978,2400]" lastBlockId="9.[1431,2632,2406,3460]" pageId="9" pageNumber="219">
 Extremely variable in color and size on the island of Borneo and surrounding small islands. Earlier authors recognized distinct taxa in the region. Two described by Lyon in 1906: bancanus, from Klabat Bay, Bangka Island, and borneanus from the Sakaiam River, Sanggau District, western Kalimantan, Borneo; and a third philippinus described by Cabrera in 1908, supposedly from Mindanao, but now restricted to the Sulu Archipelago, Philippines. In 1953, W. C. O. Hill subsumed these to subspecies of 
 <taxonomicName baseAuthorityName="Boddaert" baseAuthorityYear="1785" box="[2215,2361,2449,2478]" class="Mammalia" family="Lorisidae" genus="Nycticebus" kingdom="Animalia" order="Primates" pageId="9" pageNumber="219" phylum="Chordata" rank="species" species="coucang">N. coucang</taxonomicName>

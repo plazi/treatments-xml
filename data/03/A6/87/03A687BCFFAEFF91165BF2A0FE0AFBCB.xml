@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6458594" ID-GBIF-Dataset="adeeb71f-7f8d-4e00-bc9f-35089363f76e" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6458594" approvalRequired="120" approvalRequired_for_taxonomicNames="95" approvalRequired_for_treatments="25" checkinTime="1600878147105" checkinUser="plazi" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="03A687BCFFAEFF91165BF2A0FE0AFBCB" docLanguage="en" docName="hbmw_9_Phyllostomidae_444.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Brachyphylla nana G. S. Miller 1902" docType="treatment" docVersion="9" lastPageNumber="516" masterDocId="FF9FFFC4FFB1FFB1133CFFBAFFE0F244" masterDocTitle="Phyllostomidae" masterLastPageNumber="583" masterPageNumber="444" pageNumber="515" updateTime="1656353518553" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6458594" ID-GBIF-Dataset="adeeb71f-7f8d-4e00-bc9f-35089363f76e" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6458594" checkinTime="1600878147105" checkinUser="plazi" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="03A687BCFFAEFF91165BF2A0FE0AFBCB" docLanguage="en" docName="hbmw_9_Phyllostomidae_444.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Brachyphylla nana G. S. Miller 1902" docType="treatment" docVersion="12" lastPageNumber="516" masterDocId="FF9FFFC4FFB1FFB1133CFFBAFFE0F244" masterDocTitle="Phyllostomidae" masterLastPageNumber="583" masterPageNumber="444" pageNumber="515" updateTime="1658334750903" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Phyllostomidae</mods:title>
@@ -41,7 +41,7 @@
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6458594</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:03A687BCFFAEFF91165BF2A0FE0AFBCB" httpUri="http://treatment.plazi.org/id/03A687BCFFAEFF91165BF2A0FE0AFBCB" lastPageId="32" lastPageNumber="516" pageId="31" pageNumber="515">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6803145" ID-GBIF-Taxon="196400466" ID-Zenodo-Dep="6803145" LSID="urn:lsid:plazi:treatment:03A687BCFFAEFF91165BF2A0FE0AFBCB" httpUri="http://treatment.plazi.org/id/03A687BCFFAEFF91165BF2A0FE0AFBCB" lastPageId="32" lastPageNumber="516" pageId="31" pageNumber="515">
 <subSubSection box="[1383,1440,3354,3400]" pageId="31" pageNumber="515" type="multiple">
 <paragraph blockId="31.[1381,2387,3354,3478]" box="[1383,1440,3354,3400]" pageId="31" pageNumber="515">
 <heading box="[1383,1440,3354,3400]" pageId="31" pageNumber="515">
@@ -94,14 +94,22 @@ de
 <paragraph blockId="32.[807,1403,285,712]" pageId="32" pageNumber="516">
 <emphasis bold="true" box="[812,968,285,318]" pageId="32" pageNumber="516">Taxonomy.</emphasis>
 <taxonomicName authority="G. S. Miller, 1902" authorityName="G. S. Miller" authorityYear="1902" class="Mammalia" family="Phyllostomidae" genus="Brachyphylla" kingdom="Animalia" order="Chiroptera" pageId="32" pageNumber="516" phylum="Chordata" rank="species" species="nana">Brachyphylla nana G. S. Miller, 1902</taxonomicName>
-, 
-<materialsCitation box="[898,1383,332,357]" pageId="32" pageNumber="516">
+,
+</paragraph>
+</subSubSection>
+<subSubSection box="[898,1383,332,357]" pageId="32" pageNumber="516" type="materials_examined">
+<paragraph blockId="32.[807,1403,285,712]" box="[898,1383,332,357]" pageId="32" pageNumber="516">
+<materialsCitation ID-GBIF-Occurrence="3819564424" box="[898,1383,332,357]" pageId="32" pageNumber="516">
 “El Guama [
 <collectingRegion box="[1070,1265,332,357]" country="Cuba" name="Pinar del Rio" pageId="32" pageNumber="516">Pinar del Rio</collectingRegion>
 ], 
 <collectingCountry box="[1291,1368,332,357]" name="Cuba" pageId="32" pageNumber="516">Cuba</collectingCountry>
 .”
 </materialsCitation>
+</paragraph>
+</subSubSection>
+<subSubSection pageId="32" pageNumber="516" type="discussion">
+<paragraph blockId="32.[807,1403,285,712]" pageId="32" pageNumber="516">
 <taxonomicName authority="G. S. Miller, 1902" authorityName="G. S. Miller" authorityYear="1902" box="[814,1059,363,396]" class="Mammalia" family="Phyllostomidae" genus="Brachyphylla" kingdom="Animalia" order="Chiroptera" pageId="32" pageNumber="516" phylum="Chordata" rank="species" species="nana">Brachyphylla nana</taxonomicName>
 is considered a subspecies of 
 <taxonomicName authority="J. E. Gray, 1834" authorityName="J. E. Gray" authorityYear="1834" box="[930,1129,403,436]" class="Mammalia" family="Phyllostomidae" genus="Brachyphylla" kingdom="Animalia" order="Chiroptera" pageId="32" pageNumber="516" phylum="Chordata" rank="species" species="cavernarum">B. cavernarum</taxonomicName>
@@ -110,7 +118,7 @@ by some authors.
 , named by G. S. Miller, Jr. in 1918,is a synonym. Monotypic.
 </paragraph>
 </subSubSection>
-<subSubSection pageId="32" pageNumber="516" type="multiple">
+<subSubSection pageId="32" pageNumber="516" type="distribution">
 <caption ID-DOI="http://doi.org/10.5281/zenodo.6458716" ID-Zenodo-Dep="6458716" httpUri="https://zenodo.org/record/6458716/files/figure.png" inLine="true" pageId="32" pageNumber="516" targetBox="[198,788,298,711]" targetPageId="32">
 <paragraph blockId="32.[807,1403,285,712]" pageId="32" pageNumber="516">
 <emphasis bold="true" box="[812,988,521,554]" pageId="32" pageNumber="516">Distribution.</emphasis>
