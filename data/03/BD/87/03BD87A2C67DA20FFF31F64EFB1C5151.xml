@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.3739808" ID-GBIF-Dataset="b7e93c79-44a6-4d9c-8b78-dcb62033fb0d" ID-GBIF-Taxon="194660916" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="3739808" approvalRequired="117" approvalRequired_for_illustrations="6" approvalRequired_for_matCits="24" approvalRequired_for_taxonomicNames="29" approvalRequired_for_treatments="58" checkinTime="1585778501182" checkinUser="plazi" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="03BD87A2C67DA20FFF31F64EFB1C5151" docLanguage="en" docName="hbmw_9_Hipposideridae_210.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Hipposideros griffini Thong, Puechmaille, Denzinger, Dietz, Csorba, Bates, Teeling &amp; Schnitzler 2012" docType="treatment" docVersion="2" lastPageNumber="238" masterDocId="FF84FFDAC676A204FFF8FF9AFFEF4346" masterDocTitle="Hipposideridae" masterLastPageNumber="258" masterPageNumber="227" pageId="11" pageNumber="238" updateTime="1650397422156" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.3739808" ID-GBIF-Dataset="b7e93c79-44a6-4d9c-8b78-dcb62033fb0d" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="3739808" approvalRequired="13" approvalRequired_for_treatments="13" checkinTime="1585778501182" checkinUser="plazi" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="03BD87A2C67DA20FFF31F64EFB1C5151" docLanguage="en" docName="hbmw_9_Hipposideridae_210.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Hipposideros griffini Thong, Puechmaille, Denzinger, Dietz, Csorba, Bates, Teeling &amp; Schnitzler 2012" docType="treatment" docVersion="7" lastPageNumber="238" masterDocId="FF84FFDAC676A204FFF8FF9AFFEF4346" masterDocTitle="Hipposideridae" masterLastPageNumber="258" masterPageNumber="227" pageNumber="238" updateTime="1658319070246" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Hipposideridae</mods:title>
@@ -41,7 +41,7 @@
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">3739808</mods:identifier>
 </mods:mods>
-<treatment ID-GBIF-Taxon="194660916" LSID="urn:lsid:plazi:treatment:03BD87A2C67DA20FFF31F64EFB1C5151" httpUri="http://treatment.plazi.org/id/03BD87A2C67DA20FFF31F64EFB1C5151" lastPageNumber="238" pageId="11" pageNumber="238">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6617540" ID-GBIF-Taxon="194660916" ID-Zenodo-Dep="6617540" LSID="urn:lsid:plazi:treatment:03BD87A2C67DA20FFF31F64EFB1C5151" httpUri="http://treatment.plazi.org/id/03BD87A2C67DA20FFF31F64EFB1C5151" lastPageNumber="238" pageId="11" pageNumber="238">
 <heading pageId="11" pageNumber="238">
 <subSubSection box="[201,279,2516,2577]" pageId="11" pageNumber="238" type="multiple">
 <paragraph blockId="11.[198,1552,2516,2672]" box="[201,279,2516,2577]" pageId="11" pageNumber="238">
@@ -80,18 +80,27 @@
 <subSubSection pageId="11" pageNumber="238" type="reference_group">
 <paragraph blockId="11.[1020,1819,2747,3315]" pageId="11" pageNumber="238">
 <emphasis bold="true" box="[1021,1231,2747,2786]" pageId="11" pageNumber="238">Taxonomy.</emphasis>
-HipposiderosgriffiniThong et aL, 2012, 
-<materialsCitation ID-GBIF-Occurrence="3753598324" pageId="11" pageNumber="238">
+<taxonomicName authorityName="Thong, Puechmaille, Denzinger, Dietz, Csorba, Bates, Teeling &amp; Schnitzler" authorityYear="2012" class="Mammalia" family="Hipposideridae" genus="Hipposideros" kingdom="Animalia" order="Chiroptera" pageId="11" pageNumber="238" phylum="Chordata" rank="species" species="griffini">Hipposideros griffini Thong et aL, 2012</taxonomicName>
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="11" pageNumber="238" type="materials_examined">
+<paragraph blockId="11.[1020,1819,2747,3315]" pageId="11" pageNumber="238">
+<materialsCitation ID-GBIF-Occurrence="3753598324" latitude="20.8" longitude="107.01667" pageId="11" pageNumber="238">
 “Cat Ba National Park, Cat Ba Island, Ha Long Bay, 
 <collectingCountry box="[1281,1445,2852,2891]" name="Vietnam" pageId="11" pageNumber="238">Vietnam</collectingCountry>
 , 
 <geoCoordinate box="[1465,1620,2852,2891]" degrees="20" direction="north" minutes="48" orientation="latitude" pageId="11" pageNumber="238" precision="925" value="20.8">20°48’N</geoCoordinate>
 , 
-<geoCoordinate box="[1641,1748,2852,2891]" degrees="107" minutes="0" pageId="11" pageNumber="238">107°0</geoCoordinate>
-TE, 
+<geoCoordinate box="[1641,1809,2852,2891]" degrees="107" direction="east" minutes="01" orientation="longitude" pageId="11" pageNumber="238" precision="925" value="107.01667">107°01'E</geoCoordinate>
+, 
 <quantity box="[1022,1137,2905,2944]" metricMagnitude="2" metricUnit="m" metricValue="2.48" pageId="11" pageNumber="238" unit="m" value="248.0">248 m</quantity>
 above sea level (m a.s.l.).”
 </materialsCitation>
+</paragraph>
+</subSubSection>
+<subSubSection pageId="11" pageNumber="238" type="discussion">
+<paragraph blockId="11.[1020,1819,2747,3315]" pageId="11" pageNumber="238">
 <taxonomicName authorityName="Thong, Puechmaille, Denzinger, Dietz, Csorba, Bates, Teeling &amp; Schnitzler" authorityYear="2012" box="[1023,1373,2959,2998]" class="Mammalia" family="Hipposideridae" genus="Hipposideros" kingdom="Animalia" order="Chiroptera" pageId="11" pageNumber="238" phylum="Chordata" rank="species" species="griffini">Hipposideros griffini</taxonomicName>
 is in the 
 <taxonomicName authorityName="Hodgson" authorityYear="1835" box="[1547,1680,2959,2998]" class="Mammalia" family="Hipposideridae" genus="Hipposideros" kingdom="Animalia" order="Chiroptera" pageId="11" pageNumber="238" phylum="Chordata" rank="species" species="armiger">armiger</taxonomicName>

@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.3739808" ID-GBIF-Dataset="b7e93c79-44a6-4d9c-8b78-dcb62033fb0d" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="3739808" approvalRequired="108" approvalRequired_for_illustrations="6" approvalRequired_for_matCits="24" approvalRequired_for_originalDoi="1" approvalRequired_for_taxonomicNames="29" approvalRequired_for_textStreams="2" approvalRequired_for_treatments="46" checkinTime="1585778501182" checkinUser="plazi" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="03BD87A2C672A200FF5AF605FE6052B8" docLanguage="en" docName="hbmw_9_Hipposideridae_210.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Doryrhina muscinus" docType="treatment" docVersion="14" lastPageNumber="231" masterDocId="FF84FFDAC676A204FFF8FF9AFFEF4346" masterDocTitle="Hipposideridae" masterLastPageNumber="258" masterPageNumber="227" pageNumber="231" updateTime="1654111281024" updateUser="valdenar">
+<document ID-DOI="http://doi.org/10.5281/zenodo.3739808" ID-GBIF-Dataset="b7e93c79-44a6-4d9c-8b78-dcb62033fb0d" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="3739808" approvalRequired="13" approvalRequired_for_treatments="13" checkinTime="1585778501182" checkinUser="plazi" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="03BD87A2C672A200FF5AF605FE6052B8" docLanguage="en" docName="hbmw_9_Hipposideridae_210.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Doryrhina muscinus" docType="treatment" docVersion="16" lastPageNumber="231" masterDocId="FF84FFDAC676A204FFF8FF9AFFEF4346" masterDocTitle="Hipposideridae" masterLastPageNumber="258" masterPageNumber="227" pageNumber="231" updateTime="1658319070246" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Hipposideridae</mods:title>
@@ -41,7 +41,7 @@
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">3739808</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.3810922" ID-Zenodo-Dep="3810922" LSID="urn:lsid:plazi:treatment:03BD87A2C672A200FF5AF605FE6052B8" httpUri="http://treatment.plazi.org/id/03BD87A2C672A200FF5AF605FE6052B8" lastPageNumber="231" pageId="4" pageNumber="231">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.3810922" ID-GBIF-Taxon="163433717" ID-Zenodo-Dep="3810922" LSID="urn:lsid:plazi:treatment:03BD87A2C672A200FF5AF605FE6052B8" httpUri="http://treatment.plazi.org/id/03BD87A2C672A200FF5AF605FE6052B8" lastPageNumber="231" pageId="4" pageNumber="231">
 <heading pageId="4" pageNumber="231">
 <subSubSection box="[162,207,2463,2524]" pageId="4" pageNumber="231" type="multiple">
 <paragraph blockId="4.[160,1511,2462,2622]" box="[162,207,2463,2524]" pageId="4" pageNumber="231">
@@ -94,16 +94,20 @@ Roundleaf Bat
 <subSubSection pageId="4" pageNumber="231" type="reference_group">
 <paragraph blockId="4.[975,1783,2694,3262]" pageId="4" pageNumber="231">
 <emphasis bold="true" box="[976,1187,2694,2733]" pageId="4" pageNumber="231">Taxonomy.</emphasis>
-PhyUorhina [sic] muscina Thomas &amp; Doria, 1886, 
+<taxonomicName pageId="4" pageNumber="231">PhyUorhina [sic] muscina Thomas &amp; Doria, 1886</taxonomicName>
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="4" pageNumber="231" type="materials_examined">
+<paragraph blockId="4.[975,1783,2694,3262]" pageId="4" pageNumber="231">
 <materialsCitation ID-GBIF-Occurrence="3753598345" pageId="4" pageNumber="231">
 “Fly River,” Western Province, 
-<collectingCountry box="[1242,1607,2800,2839]" name="Papua New Guinea" pageId="4" pageNumber="231">
-<taxonomicName authorityName="Thomas &amp; Doria" authorityYear="1886" box="[1242,1362,2800,2839]" class="Mammalia" family="Hipposideridae" genus="Hipposideros" kingdom="Animalia" order="Chiroptera" pageId="4" pageNumber="231" phylum="Chordata" rank="species" species="papua">Papua</taxonomicName>
-New Guinea
-</collectingCountry>
+<collectingCountry box="[1242,1607,2800,2839]" name="Papua New Guinea" pageId="4" pageNumber="231">Papua New Guinea</collectingCountry>
 .
 </materialsCitation>
 </paragraph>
+</subSubSection>
+<subSubSection box="[976,1463,2853,2892]" pageId="4" pageNumber="231" type="discussion">
 <paragraph blockId="4.[975,1783,2694,3262]" box="[976,1463,2853,2892]" pageId="4" pageNumber="231">This species is monotypic.</paragraph>
 </subSubSection>
 <subSubSection pageId="4" pageNumber="231" type="distribution">
@@ -113,10 +117,7 @@ New Guinea
 Endemic to New 
 <collectingCountry box="[1630,1770,2906,2945]" name="Guinea-Bissau" pageId="4" pageNumber="231">Guinea</collectingCountry>
 , mostly along the Central Range, including 
-<collectingRegion box="[976,1283,3012,3051]" country="Indonesia" name="Papua Barat" pageId="4" pageNumber="231">
-<taxonomicName authorityName="Thomas &amp; Doria" authorityYear="1886" box="[976,1095,3012,3051]" class="Mammalia" family="Hipposideridae" genus="Hipposideros" kingdom="Animalia" order="Chiroptera" pageId="4" pageNumber="231" phylum="Chordata" rank="species" species="papua">Papua</taxonomicName>
-Province
-</collectingRegion>
+<collectingRegion box="[976,1283,3012,3051]" country="Indonesia" name="Papua Barat" pageId="4" pageNumber="231">Papua Province</collectingRegion>
 of 
 <collectingCountry box="[1367,1556,3012,3051]" name="Indonesia" pageId="4" pageNumber="231">Indonesia</collectingCountry>
 and 
@@ -126,10 +127,7 @@ and
 , 
 <collectingRegion box="[1439,1524,3065,3104]" country="Papua New Guinea" name="Gulf" pageId="4" pageNumber="231">Gulf</collectingRegion>
 , and Central provinces of 
-<collectingCountry box="[1218,1583,3118,3157]" name="Papua New Guinea" pageId="4" pageNumber="231">
-<taxonomicName authorityName="Thomas &amp; Doria" authorityYear="1886" box="[1218,1338,3118,3157]" class="Mammalia" family="Hipposideridae" genus="Hipposideros" kingdom="Animalia" order="Chiroptera" pageId="4" pageNumber="231" phylum="Chordata" rank="species" species="papua">Papua</taxonomicName>
-New Guinea
-</collectingCountry>
+<collectingCountry box="[1218,1583,3118,3157]" name="Papua New Guinea" pageId="4" pageNumber="231">Papua New Guinea</collectingCountry>
 .
 </paragraph>
 </caption>
