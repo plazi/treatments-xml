@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6632289" ID-ISBN="978-84-96553-89-7" ID-Zenodo-Dep="6632289" approvalRequired="2" approvalRequired_for_illustrations="1" approvalRequired_for_taxonomicNames="1" checkinTime="1654878241841" checkinUser="carolina" docAuthor="Russell A. Mittermeier, Anthony B. Rylands &amp; Don E. Wilson" docDate="2013" docId="8477905E8647C35528CDA23A182CF6E6" docLanguage="en" docName="hbmw_3_Phitheciidae_0432.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 3 Primates, Barcelona: Lynx Edicions" docTitle="Callicebus nigrifrons Spix 1823" docType="treatment" docVersion="5" lastPageNumber="470" masterDocId="784EE826864AC358287DA544105EFFF2" masterDocTitle="Phitheciidae" masterLastPageNumber="483" masterPageNumber="432" pageNumber="470" updateTime="1654881495916" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6632289" ID-GBIF-Dataset="4420304b-d31c-468a-a431-2145caa8e2c0" ID-ISBN="978-84-96553-89-7" ID-Zenodo-Dep="6632289" approvalRequired="1" checkinTime="1654878241841" checkinUser="carolina" docAuthor="Russell A. Mittermeier, Anthony B. Rylands &amp; Don E. Wilson" docDate="2013" docId="8477905E8647C35528CDA23A182CF6E6" docLanguage="en" docName="hbmw_3_Phitheciidae_0432.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 3 Primates, Barcelona: Lynx Edicions" docTitle="Callicebus nigrifrons Spix 1823" docType="treatment" docVersion="8" lastPageNumber="470" masterDocId="784EE826864AC358287DA544105EFFF2" masterDocTitle="Phitheciidae" masterLastPageNumber="483" masterPageNumber="432" pageNumber="470" updateTime="1658336278418" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Phitheciidae</mods:title>
@@ -43,10 +43,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6632289</mods:identifier>
+<mods:identifier type="GBIF-Dataset">4420304b-d31c-468a-a431-2145caa8e2c0</mods:identifier>
 <mods:identifier type="ISBN">978-84-96553-89-7</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6632289</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6632236" ID-Zenodo-Dep="6632236" LSID="urn:lsid:plazi:treatment:8477905E8647C35528CDA23A182CF6E6" httpUri="http://treatment.plazi.org/id/8477905E8647C35528CDA23A182CF6E6" lastPageNumber="470" pageId="13" pageNumber="470">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6632236" ID-GBIF-Taxon="195833798" ID-Zenodo-Dep="6632236" LSID="urn:lsid:plazi:treatment:8477905E8647C35528CDA23A182CF6E6" httpUri="http://treatment.plazi.org/id/8477905E8647C35528CDA23A182CF6E6" lastPageNumber="470" pageId="13" pageNumber="470">
 <heading pageId="13" pageNumber="470">
 <subSubSection box="[176,232,1918,1968]" pageId="13" pageNumber="470" type="multiple">
 <paragraph blockId="13.[174,1071,1918,2046]" box="[176,232,1918,1968]" pageId="13" pageNumber="470">
@@ -84,13 +85,19 @@
 </paragraph>
 </subSubSection>
 </heading>
-<subSubSection pageId="13" pageNumber="470" type="reference_group">
-<paragraph blockId="13.[789,1374,2101,2519]" pageId="13" pageNumber="470">
+<subSubSection box="[789,1372,2101,2126]" pageId="13" pageNumber="470" type="reference_group">
+<paragraph blockId="13.[789,1374,2101,2519]" box="[789,1372,2101,2126]" pageId="13" pageNumber="470">
 <emphasis bold="true" box="[789,944,2101,2126]" pageId="13" pageNumber="470">Taxonomy.</emphasis>
 <taxonomicName authority="Spix, 1823" authorityName="Spix" authorityYear="1823" box="[960,1367,2101,2126]" class="Mammalia" family="Pitheciidae" genus="Callithrix" kingdom="Animalia" order="Primates" pageId="13" pageNumber="470" phylum="Chordata" rank="species" species="nigrifrons">Callithrix nigrifrons Spix, 1823</taxonomicName>
-, 
-<materialsCitation pageId="13" pageNumber="470">type locality unknown. Restricted by P. Hershkovitz in 1990 to the Rio da Onca, Campos dos Goytacazes, in the Brazilian state of Rio de Janeiro.</materialsCitation>
+,
 </paragraph>
+</subSubSection>
+<subSubSection pageId="13" pageNumber="470" type="materials_examined">
+<paragraph blockId="13.[789,1374,2101,2519]" pageId="13" pageNumber="470">
+<materialsCitation ID-GBIF-Occurrence="3806466313" pageId="13" pageNumber="470">type locality unknown. Restricted by P. Hershkovitz in 1990 to the Rio da Onca, Campos dos Goytacazes, in the Brazilian state of Rio de Janeiro.</materialsCitation>
+</paragraph>
+</subSubSection>
+<subSubSection pageId="13" pageNumber="470" type="discussion">
 <paragraph blockId="13.[789,1374,2101,2519]" lastBlockId="13.[172,1376,2528,3460]" pageId="13" pageNumber="470">
 In his 1990 review of the genus, P. Hershkovitz considered 
 <taxonomicName authorityName="Spix" authorityYear="1823" box="[1090,1254,2329,2362]" class="Mammalia" family="Pitheciidae" genus="Callicebus" kingdom="Animalia" order="Primates" pageId="13" pageNumber="470" phylum="Chordata" rank="species" species="nigrifrons">C. nigrifrons</taxonomicName>

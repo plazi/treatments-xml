@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6632289" ID-ISBN="978-84-96553-89-7" ID-Zenodo-Dep="6632289" approvalRequired="2" approvalRequired_for_illustrations="1" approvalRequired_for_taxonomicNames="1" checkinTime="1654878241841" checkinUser="carolina" docAuthor="Russell A. Mittermeier, Anthony B. Rylands &amp; Don E. Wilson" docDate="2013" docId="8477905E8641C35328C9AD4817A1FE16" docLanguage="en" docName="hbmw_3_Phitheciidae_0432.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 3 Primates, Barcelona: Lynx Edicions" docTitle="Callicebus medemi" docType="treatment" docVersion="4" lastPageNumber="468" masterDocId="784EE826864AC358287DA544105EFFF2" masterDocTitle="Phitheciidae" masterLastPageNumber="483" masterPageNumber="432" pageNumber="468" updateTime="1654881495916" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6632289" ID-GBIF-Dataset="4420304b-d31c-468a-a431-2145caa8e2c0" ID-ISBN="978-84-96553-89-7" ID-Zenodo-Dep="6632289" approvalRequired="1" checkinTime="1654878241841" checkinUser="carolina" docAuthor="Russell A. Mittermeier, Anthony B. Rylands &amp; Don E. Wilson" docDate="2013" docId="8477905E8641C35328C9AD4817A1FE16" docLanguage="en" docName="hbmw_3_Phitheciidae_0432.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 3 Primates, Barcelona: Lynx Edicions" docTitle="Callicebus medemi" docType="treatment" docVersion="7" lastPageNumber="468" masterDocId="784EE826864AC358287DA544105EFFF2" masterDocTitle="Phitheciidae" masterLastPageNumber="483" masterPageNumber="432" pageNumber="468" updateTime="1658336278418" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Phitheciidae</mods:title>
@@ -43,10 +43,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6632289</mods:identifier>
+<mods:identifier type="GBIF-Dataset">4420304b-d31c-468a-a431-2145caa8e2c0</mods:identifier>
 <mods:identifier type="ISBN">978-84-96553-89-7</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6632289</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6632223" ID-Zenodo-Dep="6632223" LSID="urn:lsid:plazi:treatment:8477905E8641C35328C9AD4817A1FE16" httpUri="http://treatment.plazi.org/id/8477905E8641C35328C9AD4817A1FE16" lastPageNumber="468" pageId="11" pageNumber="468">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6632223" ID-GBIF-Taxon="195833808" ID-Zenodo-Dep="6632223" LSID="urn:lsid:plazi:treatment:8477905E8641C35328C9AD4817A1FE16" httpUri="http://treatment.plazi.org/id/8477905E8641C35328C9AD4817A1FE16" lastPageNumber="468" pageId="11" pageNumber="468">
 <heading pageId="11" pageNumber="468">
 <subSubSection box="[180,237,2060,2102]" pageId="11" pageNumber="468" type="multiple">
 <paragraph blockId="11.[177,1180,2060,2180]" box="[180,237,2060,2102]" pageId="11" pageNumber="468">
@@ -90,9 +91,15 @@
 <paragraph blockId="11.[794,1381,2227,2650]" pageId="11" pageNumber="468">
 <emphasis bold="true" box="[794,949,2227,2256]" pageId="11" pageNumber="468">Taxonomy.</emphasis>
 <taxonomicName authority="Hershkovitz, 1963" authorityName="Hershkovitz" authorityYear="1963" class="Mammalia" family="Pitheciidae" genus="Callicebus" kingdom="Animalia" order="Primates" pageId="11" pageNumber="468" phylum="Chordata" rank="subSpecies" species="torquatus" subSpecies="medemi">Callicebus torquatus medemi Hershkovitz, 1963</taxonomicName>
-, 
-<materialsCitation pageId="11" pageNumber="468">near the mouth of the Rio Mecaya on the right bank of the Rio Caqueta, Putumayo, Colombia; altitude 180 m above sea level.</materialsCitation>
+,
 </paragraph>
+</subSubSection>
+<subSubSection pageId="11" pageNumber="468" type="materials_examined">
+<paragraph blockId="11.[794,1381,2227,2650]" pageId="11" pageNumber="468">
+<materialsCitation ID-GBIF-Occurrence="3806466304" pageId="11" pageNumber="468">near the mouth of the Rio Mecaya on the right bank of the Rio Caqueta, Putumayo, Colombia; altitude 180 m above sea level.</materialsCitation>
+</paragraph>
+</subSubSection>
+<subSubSection pageId="11" pageNumber="468" type="discussion">
 <paragraph blockId="11.[794,1381,2227,2650]" pageId="11" pageNumber="468">
 <taxonomicName authorityName="Hershkovitz" authorityYear="1963" box="[798,929,2420,2453]" class="Mammalia" family="Pitheciidae" genus="Callicebus" kingdom="Animalia" order="Primates" pageId="11" pageNumber="468" phylum="Chordata" rank="species" species="medemi">C. medemi</taxonomicName>
 was reclassified as a full species of the 

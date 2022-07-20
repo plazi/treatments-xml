@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6632289" ID-ISBN="978-84-96553-89-7" ID-Zenodo-Dep="6632289" approvalRequired="2" approvalRequired_for_illustrations="1" approvalRequired_for_taxonomicNames="1" checkinTime="1654878241841" checkinUser="carolina" docAuthor="Russell A. Mittermeier, Anthony B. Rylands &amp; Don E. Wilson" docDate="2013" docId="8477905E8652C340282AA3FD1965F85C" docLanguage="en" docName="hbmw_3_Phitheciidae_0432.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 3 Primates, Barcelona: Lynx Edicions" docTitle="Chiropotes sagulatus" docType="treatment" docVersion="3" lastPageNumber="481" masterDocId="784EE826864AC358287DA544105EFFF2" masterDocTitle="Phitheciidae" masterLastPageNumber="483" masterPageNumber="432" pageNumber="481" updateTime="1654881158422" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6632289" ID-GBIF-Dataset="4420304b-d31c-468a-a431-2145caa8e2c0" ID-ISBN="978-84-96553-89-7" ID-Zenodo-Dep="6632289" approvalRequired="1" checkinTime="1654878241841" checkinUser="carolina" docAuthor="Russell A. Mittermeier, Anthony B. Rylands &amp; Don E. Wilson" docDate="2013" docId="8477905E8652C340282AA3FD1965F85C" docLanguage="en" docName="hbmw_3_Phitheciidae_0432.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 3 Primates, Barcelona: Lynx Edicions" docTitle="Chiropotes sagulatus" docType="treatment" docVersion="6" lastPageNumber="481" masterDocId="784EE826864AC358287DA544105EFFF2" masterDocTitle="Phitheciidae" masterLastPageNumber="483" masterPageNumber="432" pageNumber="481" updateTime="1658336278418" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Phitheciidae</mods:title>
@@ -43,10 +43,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6632289</mods:identifier>
+<mods:identifier type="GBIF-Dataset">4420304b-d31c-468a-a431-2145caa8e2c0</mods:identifier>
 <mods:identifier type="ISBN">978-84-96553-89-7</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6632289</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6632267" ID-Zenodo-Dep="6632267" LSID="urn:lsid:plazi:treatment:8477905E8652C340282AA3FD1965F85C" httpUri="http://treatment.plazi.org/id/8477905E8652C340282AA3FD1965F85C" lastPageNumber="481" pageId="24" pageNumber="481">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6632267" ID-GBIF-Taxon="195833779" ID-Zenodo-Dep="6632267" LSID="urn:lsid:plazi:treatment:8477905E8652C340282AA3FD1965F85C" httpUri="http://treatment.plazi.org/id/8477905E8652C340282AA3FD1965F85C" lastPageNumber="481" pageId="24" pageNumber="481">
 <heading pageId="24" pageNumber="481">
 <subSubSection box="[87,144,1721,1767]" pageId="24" pageNumber="481" type="multiple">
 <paragraph blockId="24.[85,1066,1721,1848]" box="[87,144,1721,1767]" pageId="24" pageNumber="481">
@@ -84,13 +85,19 @@
 </paragraph>
 </subSubSection>
 </heading>
-<subSubSection pageId="24" pageNumber="481" type="reference_group">
-<paragraph blockId="24.[701,1288,1891,2318]" pageId="24" pageNumber="481">
+<subSubSection box="[701,1284,1891,1924]" pageId="24" pageNumber="481" type="reference_group">
+<paragraph blockId="24.[701,1288,1891,2318]" box="[701,1284,1891,1924]" pageId="24" pageNumber="481">
 <emphasis bold="true" box="[701,856,1891,1924]" pageId="24" pageNumber="481">Taxonomy.</emphasis>
 <taxonomicName authority="Traill, 1821" authorityName="Traill" authorityYear="1821" box="[883,1279,1891,1924]" class="Mammalia" family="Pitheciidae" genus="Simia" kingdom="Animalia" order="Primates" pageId="24" pageNumber="481" phylum="Chordata" rank="species" species="sagulata">Simia sagulata Traill, 1821</taxonomicName>
-, 
-<materialsCitation box="[702,1013,1935,1964]" pageId="24" pageNumber="481">Demerara (= Guiana).</materialsCitation>
+,
 </paragraph>
+</subSubSection>
+<subSubSection box="[702,1013,1935,1964]" pageId="24" pageNumber="481" type="materials_examined">
+<paragraph blockId="24.[701,1288,1891,2318]" box="[702,1013,1935,1964]" pageId="24" pageNumber="481">
+<materialsCitation ID-GBIF-Occurrence="3806466303" box="[702,1013,1935,1964]" pageId="24" pageNumber="481">Demerara (= Guiana).</materialsCitation>
+</paragraph>
+</subSubSection>
+<subSubSection pageId="24" pageNumber="481" type="discussion">
 <paragraph blockId="24.[701,1288,1891,2318]" pageId="24" pageNumber="481">
 Prior to the splitting of the bearded sakis north of the Rio Amazonas into two species, 
 <taxonomicName baseAuthorityName="Traill" baseAuthorityYear="1821" box="[775,934,2058,2083]" class="Mammalia" family="Pitheciidae" genus="Chiropotes" kingdom="Animalia" order="Primates" pageId="24" pageNumber="481" phylum="Chordata" rank="species" species="sagulatus">C. sagulatus</taxonomicName>

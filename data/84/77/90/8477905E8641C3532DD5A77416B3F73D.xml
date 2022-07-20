@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6632289" ID-ISBN="978-84-96553-89-7" ID-Zenodo-Dep="6632289" approvalRequired="2" approvalRequired_for_illustrations="1" approvalRequired_for_taxonomicNames="1" checkinTime="1654878241841" checkinUser="carolina" docAuthor="Russell A. Mittermeier, Anthony B. Rylands &amp; Don E. Wilson" docDate="2013" docId="8477905E8641C3532DD5A77416B3F73D" docLanguage="en" docName="hbmw_3_Phitheciidae_0432.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 3 Primates, Barcelona: Lynx Edicions" docTitle="Callicebus torquatus" docType="treatment" docVersion="5" lastPageNumber="468" masterDocId="784EE826864AC358287DA544105EFFF2" masterDocTitle="Phitheciidae" masterLastPageNumber="483" masterPageNumber="432" pageNumber="468" updateTime="1654881495916" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6632289" ID-GBIF-Dataset="4420304b-d31c-468a-a431-2145caa8e2c0" ID-ISBN="978-84-96553-89-7" ID-Zenodo-Dep="6632289" approvalRequired="1" checkinTime="1654878241841" checkinUser="carolina" docAuthor="Russell A. Mittermeier, Anthony B. Rylands &amp; Don E. Wilson" docDate="2013" docId="8477905E8641C3532DD5A77416B3F73D" docLanguage="en" docName="hbmw_3_Phitheciidae_0432.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 3 Primates, Barcelona: Lynx Edicions" docTitle="Callicebus torquatus" docType="treatment" docVersion="8" lastPageNumber="468" masterDocId="784EE826864AC358287DA544105EFFF2" masterDocTitle="Phitheciidae" masterLastPageNumber="483" masterPageNumber="432" pageNumber="468" updateTime="1658336278418" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Phitheciidae</mods:title>
@@ -43,10 +43,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6632289</mods:identifier>
+<mods:identifier type="GBIF-Dataset">4420304b-d31c-468a-a431-2145caa8e2c0</mods:identifier>
 <mods:identifier type="ISBN">978-84-96553-89-7</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6632289</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6632225" ID-Zenodo-Dep="6632225" LSID="urn:lsid:plazi:treatment:8477905E8641C3532DD5A77416B3F73D" httpUri="http://treatment.plazi.org/id/8477905E8641C3532DD5A77416B3F73D" lastPageNumber="468" pageId="11" pageNumber="468">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6632225" ID-GBIF-Taxon="195833806" ID-Zenodo-Dep="6632225" LSID="urn:lsid:plazi:treatment:8477905E8641C3532DD5A77416B3F73D" httpUri="http://treatment.plazi.org/id/8477905E8641C3532DD5A77416B3F73D" lastPageNumber="468" pageId="11" pageNumber="468">
 <heading pageId="11" pageNumber="468">
 <subSubSection box="[1448,1505,560,602]" pageId="11" pageNumber="468" type="multiple">
 <paragraph blockId="11.[1445,2342,560,682]" box="[1448,1505,560,602]" pageId="11" pageNumber="468">
@@ -88,9 +89,15 @@
 <paragraph blockId="11.[2062,2648,728,1151]" pageId="11" pageNumber="468">
 <emphasis bold="true" box="[2062,2217,728,757]" pageId="11" pageNumber="468">Taxonomy.</emphasis>
 <taxonomicName authority="Hofmansegg, 1807" authorityName="Hofmansegg" authorityYear="1807" class="Mammalia" family="Pitheciidae" genus="Callithrix" kingdom="Animalia" order="Primates" pageId="11" pageNumber="468" phylum="Chordata" rank="species" species="torquata">Callithrix torquata Hofmansegg, 1807</taxonomicName>
-, 
-<materialsCitation pageId="11" pageNumber="468">interior of the Brazilian state of Para. Restricted by P. Hershkovitz in 1990 to Codajaz, a town on the left (northern) bank of the Rio Solimoes in Amazonas State.</materialsCitation>
+,
 </paragraph>
+</subSubSection>
+<subSubSection pageId="11" pageNumber="468" type="materials_examined">
+<paragraph blockId="11.[2062,2648,728,1151]" pageId="11" pageNumber="468">
+<materialsCitation ID-GBIF-Occurrence="3806466316" pageId="11" pageNumber="468">interior of the Brazilian state of Para. Restricted by P. Hershkovitz in 1990 to Codajaz, a town on the left (northern) bank of the Rio Solimoes in Amazonas State.</materialsCitation>
+</paragraph>
+</subSubSection>
+<subSubSection pageId="11" pageNumber="468" type="discussion">
 <paragraph blockId="11.[2062,2648,728,1151]" lastBlockId="11.[1447,2654,1159,2255]" pageId="11" pageNumber="468">
 <taxonomicName baseAuthorityName="Hoffmannsegg" baseAuthorityYear="1807" box="[2066,2220,961,994]" class="Mammalia" family="Pitheciidae" genus="Callicebus" kingdom="Animalia" order="Primates" pageId="11" pageNumber="468" phylum="Chordata" rank="species" species="torquatus">C. torquatus</taxonomicName>
 was considered to be polytypic until the 2002 review of M. van Roosmalen and colleagues; they considered the subspecies to be full species. C. torquatusis the representative species of the 

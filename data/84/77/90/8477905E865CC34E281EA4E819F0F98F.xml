@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6632289" ID-ISBN="978-84-96553-89-7" ID-Zenodo-Dep="6632289" approvalRequired="2" approvalRequired_for_illustrations="1" approvalRequired_for_taxonomicNames="1" checkinTime="1654878241841" checkinUser="carolina" docAuthor="Russell A. Mittermeier, Anthony B. Rylands &amp; Don E. Wilson" docDate="2013" docId="8477905E865CC34E281EA4E819F0F98F" docLanguage="en" docName="hbmw_3_Phitheciidae_0432.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 3 Primates, Barcelona: Lynx Edicions" docTitle="Chiropoles albinasus" docType="treatment" docVersion="4" lastPageNumber="479" masterDocId="784EE826864AC358287DA544105EFFF2" masterDocTitle="Phitheciidae" masterLastPageNumber="483" masterPageNumber="432" pageNumber="479" updateTime="1654881495916" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6632289" ID-GBIF-Dataset="4420304b-d31c-468a-a431-2145caa8e2c0" ID-ISBN="978-84-96553-89-7" ID-Zenodo-Dep="6632289" approvalRequired="1" checkinTime="1654878241841" checkinUser="carolina" docAuthor="Russell A. Mittermeier, Anthony B. Rylands &amp; Don E. Wilson" docDate="2013" docId="8477905E865CC34E281EA4E819F0F98F" docLanguage="en" docName="hbmw_3_Phitheciidae_0432.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 3 Primates, Barcelona: Lynx Edicions" docTitle="Chiropoles albinasus" docType="treatment" docVersion="7" lastPageNumber="479" masterDocId="784EE826864AC358287DA544105EFFF2" masterDocTitle="Phitheciidae" masterLastPageNumber="483" masterPageNumber="432" pageNumber="479" updateTime="1658336278418" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Phitheciidae</mods:title>
@@ -43,10 +43,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6632289</mods:identifier>
+<mods:identifier type="GBIF-Dataset">4420304b-d31c-468a-a431-2145caa8e2c0</mods:identifier>
 <mods:identifier type="ISBN">978-84-96553-89-7</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6632289</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6632259" ID-Zenodo-Dep="6632259" LSID="urn:lsid:plazi:treatment:8477905E865CC34E281EA4E819F0F98F" httpUri="http://treatment.plazi.org/id/8477905E865CC34E281EA4E819F0F98F" lastPageNumber="479" pageId="22" pageNumber="479">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6632259" ID-GBIF-Taxon="195833768" ID-Zenodo-Dep="6632259" LSID="urn:lsid:plazi:treatment:8477905E865CC34E281EA4E819F0F98F" httpUri="http://treatment.plazi.org/id/8477905E865CC34E281EA4E819F0F98F" lastPageNumber="479" pageId="22" pageNumber="479">
 <heading pageId="22" pageNumber="479">
 <subSubSection box="[99,156,428,478]" pageId="22" pageNumber="479" type="multiple">
 <paragraph blockId="22.[97,1114,428,556]" box="[99,156,428,478]" pageId="22" pageNumber="479">
@@ -90,9 +91,15 @@
 <paragraph blockId="22.[711,1298,606,1028]" pageId="22" pageNumber="479">
 <emphasis bold="true" box="[712,867,606,635]" pageId="22" pageNumber="479">Taxonomy.</emphasis>
 <taxonomicName authority="I. Geoffroy Saint-Hilaire &amp; Deville, 1848" authorityName="I. Geoffroy Saint-Hilaire &amp; Deville" authorityYear="1848" class="Mammalia" family="Pitheciidae" genus="Pithecia" kingdom="Animalia" order="Primates" pageId="22" pageNumber="479" phylum="Chordata" rank="species" species="albinasa">Pithecia albinasa I. Geoffroy Saint-Hilaire &amp; Deville, 1848</taxonomicName>
-, 
-<materialsCitation pageId="22" pageNumber="479">Brazil, Para, Santarém, lower Rio Tapajos.</materialsCitation>
+,
 </paragraph>
+</subSubSection>
+<subSubSection pageId="22" pageNumber="479" type="materials_examined">
+<paragraph blockId="22.[711,1298,606,1028]" pageId="22" pageNumber="479">
+<materialsCitation ID-GBIF-Occurrence="3806466311" pageId="22" pageNumber="479">Brazil, Para, Santarém, lower Rio Tapajos.</materialsCitation>
+</paragraph>
+</subSubSection>
+<subSubSection box="[712,1072,720,753]" pageId="22" pageNumber="479" type="discussion">
 <paragraph blockId="22.[711,1298,606,1028]" box="[712,1072,720,753]" pageId="22" pageNumber="479">This species is monotypic.</paragraph>
 </subSubSection>
 <subSubSection pageId="22" pageNumber="479" type="distribution">
