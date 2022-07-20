@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6639332" ID-GBIF-Dataset="1b718368-bbae-48fa-898f-8bad8de61e7a" ID-ISBN="978-84-16728-08-4" ID-Zenodo-Dep="6639332" approvalRequired="2" approvalRequired_for_treatments="2" checkinTime="1654882271075" checkinUser="valdenar" docAuthor="Russell A. Mittermeier &amp; Don E. Wilson" docDate="2018" docId="038787D0FFD9FFCCFA52F372FEE17D7E" docLanguage="en" docName="hbmw_8_Erinaceidae_0288.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 8 Insectivores, Sloths and Colugos, Barcelona: Lynx Edicions" docTitle="Mesechinus miodon Thomas 1908" docType="treatment" docVersion="4" lastPageNumber="327" masterDocId="FFBEFFA8FFD0FFC6FFF2FFD4FFC37B4A" masterDocTitle="Erinaceidae" masterLastPageNumber="330" masterPageNumber="288" pageNumber="326" updateTime="1655143122621" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6639332" ID-GBIF-Dataset="1b718368-bbae-48fa-898f-8bad8de61e7a" ID-ISBN="978-84-16728-08-4" ID-Zenodo-Dep="6639332" approvalRequired="2" approvalRequired_for_textStreams="1" approvalRequired_for_treatments="1" checkinTime="1654882271075" checkinUser="valdenar" docAuthor="Russell A. Mittermeier &amp; Don E. Wilson" docDate="2018" docId="038787D0FFD9FFCCFA52F372FEE17D7E" docLanguage="en" docName="hbmw_8_Erinaceidae_0288.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 8 Insectivores, Sloths and Colugos, Barcelona: Lynx Edicions" docTitle="Mesechinus miodon Thomas 1908" docType="treatment" docVersion="6" lastPageNumber="327" masterDocId="FFBEFFA8FFD0FFC6FFF2FFD4FFC37B4A" masterDocTitle="Erinaceidae" masterLastPageNumber="330" masterPageNumber="288" pageNumber="326" updateTime="1658339364012" updateUser="valdenar">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Erinaceidae</mods:title>
@@ -41,7 +41,7 @@
 <mods:identifier type="ISBN">978-84-16728-08-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6639332</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6632546" ID-Zenodo-Dep="6632546" LSID="urn:lsid:plazi:treatment:038787D0FFD9FFCCFA52F372FEE17D7E" httpUri="http://treatment.plazi.org/id/038787D0FFD9FFCCFA52F372FEE17D7E" lastPageId="10" lastPageNumber="327" pageId="9" pageNumber="326">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6632546" ID-GBIF-Taxon="195866877" ID-Zenodo-Dep="6632546" LSID="urn:lsid:plazi:treatment:038787D0FFD9FFCCFA52F372FEE17D7E" httpUri="http://treatment.plazi.org/id/038787D0FFD9FFCCFA52F372FEE17D7E" lastPageId="10" lastPageNumber="327" pageId="9" pageNumber="326">
 <heading pageId="9" pageNumber="326">
 <subSubSection box="[1440,1494,3238,3284]" pageId="9" pageNumber="326" type="multiple">
 <paragraph blockId="9.[1434,2600,3238,3365]" box="[1440,1494,3238,3284]" pageId="9" pageNumber="326">
@@ -77,14 +77,20 @@
 </paragraph>
 </subSubSection>
 </heading>
-<subSubSection lastPageId="10" lastPageNumber="327" pageId="9" pageNumber="326" type="reference_group">
-<paragraph blockId="9.[1434,2638,3413,3484]" pageId="9" pageNumber="326">
+<subSubSection box="[1434,2050,3413,3442]" pageId="9" pageNumber="326" type="reference_group">
+<paragraph blockId="9.[1434,2638,3413,3484]" box="[1434,2050,3413,3442]" pageId="9" pageNumber="326">
 <emphasis bold="true" box="[1434,1590,3413,3442]" pageId="9" pageNumber="326">Taxonomy.</emphasis>
-<taxonomicName authority="Thomas" authorityName="Linnaeus" authorityYear="1758" box="[1603,1833,3413,3442]" class="Mammalia" family="Erinaceidae" genus="Erinaceus" kingdom="Animalia" order="Erinaceomorpha" pageId="9" pageNumber="326" phylum="Chordata" rank="genus" species="miodon">Erinaceus miodon</taxonomicName>
-Thomas, 1908, 
-<materialsCitation pageId="9" pageNumber="326">“Yu-lin-fu [= Yulin], Shen-si [= Shaanxi], 4000’ [= 1219 m],”</materialsCitation>
-China.
+<taxonomicName authority="Thomas, 1908" authorityName="Thomas" authorityYear="1908" box="[1603,2045,3413,3442]" class="Mammalia" family="Erinaceidae" genus="Erinaceus" kingdom="Animalia" order="Erinaceomorpha" pageId="9" pageNumber="326" phylum="Chordata" rank="species" species="miodon">Erinaceus miodon Thomas, 1908</taxonomicName>
+,
 </paragraph>
+</subSubSection>
+<subSubSection pageId="9" pageNumber="326" type="materials_examined">
+<paragraph blockId="9.[1434,2638,3413,3484]" pageId="9" pageNumber="326">
+<materialsCitation ID-GBIF-Occurrence="3807305310" pageId="9" pageNumber="326">“Yu-lin-fu [= Yulin], Shen-si [= Shaanxi], 4000’ [= 1219 m],” China</materialsCitation>
+.
+</paragraph>
+</subSubSection>
+<subSubSection pageId="10" pageNumber="327" type="discussion">
 <paragraph blockId="10.[709,1339,292,721]" pageId="10" pageNumber="327">
 Based on genetic and morphometric data, Kong Fei and colleagues in 2016 suggested that the population of 
 <taxonomicName baseAuthorityName="Sundevall" baseAuthorityYear="1842" class="Mammalia" family="Erinaceidae" genus="Mesechinus" kingdom="Animalia" order="Erinaceomorpha" pageId="10" pageNumber="327" phylum="Chordata" rank="species" species="dauuricus">M. dauuricus</taxonomicName>
