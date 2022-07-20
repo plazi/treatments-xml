@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6779158" ID-GBIF-Dataset="c0cd46f6-682c-4b64-8efa-ab19bef80cf3" ID-ISBN="978-84-16728-08-4" ID-Zenodo-Dep="6779158" approvalRequired="1" approvalRequired_for_taxonomicNames="1" checkinTime="1655754179092" checkinUser="valdenar" docAuthor="Russell A. Mittermeier &amp; Don E. Wilson" docDate="2018" docId="E75FB01DFA52FFA3BA698439FDCB6417" docLanguage="en" docName="hbmw_8_Tupaiidae_0242.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 8 Insectivores, Sloths and Colugos, Barcelona: Lynx Edicions" docTitle="Anathana ellioti" docType="treatment" docVersion="3" lastPageNumber="264" masterDocId="1B66C865FA50FFA0BF07817AFFEF657D" masterDocTitle="Tupaiidae" masterLastPageNumber="269" masterPageNumber="242" pageNumber="263" updateTime="1656511027821" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6779158" ID-GBIF-Dataset="c0cd46f6-682c-4b64-8efa-ab19bef80cf3" ID-ISBN="978-84-16728-08-4" ID-Zenodo-Dep="6779158" approvalRequired="7" approvalRequired_for_textStreams="7" checkinTime="1655754179092" checkinUser="valdenar" docAuthor="Russell A. Mittermeier &amp; Don E. Wilson" docDate="2018" docId="E75FB01DFA52FFA3BA698439FDCB6417" docLanguage="en" docName="hbmw_8_Tupaiidae_0242.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 8 Insectivores, Sloths and Colugos, Barcelona: Lynx Edicions" docTitle="Anathana ellioti" docType="treatment" docVersion="5" lastPageNumber="264" masterDocId="1B66C865FA50FFA0BF07817AFFEF657D" masterDocTitle="Tupaiidae" masterLastPageNumber="269" masterPageNumber="242" pageNumber="263" updateTime="1658345010043" updateUser="valdenar">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Tupaiidae</mods:title>
@@ -41,7 +41,7 @@
 <mods:identifier type="ISBN">978-84-16728-08-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6779158</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6779174" ID-Zenodo-Dep="6779174" LSID="urn:lsid:plazi:treatment:E75FB01DFA52FFA3BA698439FDCB6417" httpUri="http://treatment.plazi.org/id/E75FB01DFA52FFA3BA698439FDCB6417" lastPageId="3" lastPageNumber="264" pageId="2" pageNumber="263">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6779174" ID-GBIF-Taxon="196368994" ID-Zenodo-Dep="6779174" LSID="urn:lsid:plazi:treatment:E75FB01DFA52FFA3BA698439FDCB6417" httpUri="http://treatment.plazi.org/id/E75FB01DFA52FFA3BA698439FDCB6417" lastPageId="3" lastPageNumber="264" pageId="2" pageNumber="263">
 <heading pageId="2" pageNumber="263">
 <subSubSection box="[1390,1421,1347,1389]" pageId="2" pageNumber="263" type="multiple">
 <paragraph blockId="2.[1387,2270,1347,1468]" box="[1390,1421,1347,1389]" pageId="2" pageNumber="263">
@@ -78,16 +78,19 @@
 </subSubSection>
 </heading>
 <subSubSection pageId="2" pageNumber="263" type="reference_group">
-<paragraph blockId="2.[2000,2593,1520,1938]" box="[2000,2591,1520,1545]" pageId="2" pageNumber="263">
+<paragraph blockId="2.[2000,2593,1520,1938]" pageId="2" pageNumber="263">
 <emphasis bold="true" box="[2000,2155,1520,1545]" pageId="2" pageNumber="263">Taxonomy.</emphasis>
-<taxonomicName authority="Waterhouse" box="[2195,2586,1520,1545]" class="Mammalia" family="Tupaiidae" genus="Tupaia" kingdom="Animalia" order="Scandentia" pageId="2" pageNumber="263" phylum="Chordata" rank="species" species="ellioti">Tupaia ellioti Waterhouse</taxonomicName>
+<taxonomicName authority="Waterhouse" class="Mammalia" family="Tupaiidae" genus="Tupaia" kingdom="Animalia" order="Scandentia" pageId="2" pageNumber="263" phylum="Chordata" rank="species" species="ellioti">Tupaia ellioti Waterhouse, 1850</taxonomicName>
 ,
 </paragraph>
-<paragraph blockId="2.[2000,2593,1520,1938]" pageId="2" pageNumber="263">
-1850, 
-<materialsCitation pageId="2" pageNumber="263">“hills between Cuddapah and Nel- lox [= Nellore], in what may be termed the Eastern Ghats [= Velikonda Range],”</materialsCitation>
-</paragraph>
+</subSubSection>
+<subSubSection pageId="2" pageNumber="263" type="materials_examined">
+<materialsCitation ID-GBIF-Occurrence="3820348322" pageId="2" pageNumber="263">
+<paragraph blockId="2.[2000,2593,1520,1938]" pageId="2" pageNumber="263">“hills between Cuddapah and Nel- lox [= Nellore], in what may be termed the Eastern Ghats [= Velikonda Range],”</paragraph>
 <paragraph blockId="2.[2000,2593,1520,1938]" box="[2000,2327,1674,1703]" pageId="2" pageNumber="263">Andhra Pradesh, India.</paragraph>
+</materialsCitation>
+</subSubSection>
+<subSubSection pageId="2" pageNumber="263" type="discussion">
 <paragraph blockId="2.[2000,2593,1520,1938]" box="[2001,2593,1708,1741]" pageId="2" pageNumber="263">
 <taxonomicName authorityName="Lyon" authorityYear="1913" box="[2001,2133,1708,1741]" class="Mammalia" family="Tupaiidae" genus="Anathana" kingdom="Animalia" order="Scandentia" pageId="2" pageNumber="263" phylum="Chordata" rank="genus">Anathana</taxonomicName>
 was subdivided into three spe-

@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6779158" ID-GBIF-Dataset="c0cd46f6-682c-4b64-8efa-ab19bef80cf3" ID-ISBN="978-84-16728-08-4" ID-Zenodo-Dep="6779158" approvalRequired="1" approvalRequired_for_taxonomicNames="1" checkinTime="1655754179092" checkinUser="valdenar" docAuthor="Russell A. Mittermeier &amp; Don E. Wilson" docDate="2018" docId="E75FB01DFA53FFA3BFAF8303FC1C6FAD" docLanguage="en" docName="hbmw_8_Tupaiidae_0242.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 8 Insectivores, Sloths and Colugos, Barcelona: Lynx Edicions" docTitle="Tupaia belangeri Wagner 1841" docType="treatment" docVersion="2" lastPageNumber="264" masterDocId="1B66C865FA50FFA0BF07817AFFEF657D" masterDocTitle="Tupaiidae" masterLastPageNumber="269" masterPageNumber="242" pageNumber="264" updateTime="1656511027821" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6779158" ID-GBIF-Dataset="c0cd46f6-682c-4b64-8efa-ab19bef80cf3" ID-ISBN="978-84-16728-08-4" ID-Zenodo-Dep="6779158" approvalRequired="7" approvalRequired_for_textStreams="7" checkinTime="1655754179092" checkinUser="valdenar" docAuthor="Russell A. Mittermeier &amp; Don E. Wilson" docDate="2018" docId="E75FB01DFA53FFA3BFAF8303FC1C6FAD" docLanguage="en" docName="hbmw_8_Tupaiidae_0242.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 8 Insectivores, Sloths and Colugos, Barcelona: Lynx Edicions" docTitle="Tupaia belangeri Wagner 1841" docType="treatment" docVersion="5" lastPageNumber="264" masterDocId="1B66C865FA50FFA0BF07817AFFEF657D" masterDocTitle="Tupaiidae" masterLastPageNumber="269" masterPageNumber="242" pageNumber="264" updateTime="1658345010043" updateUser="valdenar">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Tupaiidae</mods:title>
@@ -41,7 +41,7 @@
 <mods:identifier type="ISBN">978-84-16728-08-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6779158</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:E75FB01DFA53FFA3BFAF8303FC1C6FAD" httpUri="http://treatment.plazi.org/id/E75FB01DFA53FFA3BFAF8303FC1C6FAD" lastPageNumber="264" pageId="3" pageNumber="264">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6779283" ID-GBIF-Taxon="196368991" ID-Zenodo-Dep="6779283" LSID="urn:lsid:plazi:treatment:E75FB01DFA53FFA3BFAF8303FC1C6FAD" httpUri="http://treatment.plazi.org/id/E75FB01DFA53FFA3BFAF8303FC1C6FAD" lastPageNumber="264" pageId="3" pageNumber="264">
 <heading pageId="3" pageNumber="264">
 <subSubSection box="[168,200,633,679]" pageId="3" pageNumber="264" type="multiple">
 <paragraph blockId="3.[165,1155,633,758]" box="[168,200,633,679]" pageId="3" pageNumber="264">
@@ -80,12 +80,17 @@
 <subSubSection pageId="3" pageNumber="264" type="reference_group">
 <paragraph blockId="3.[780,1373,809,1230]" pageId="3" pageNumber="264">
 <emphasis bold="true" box="[780,935,809,838]" pageId="3" pageNumber="264">Taxonomy.</emphasis>
-Cladobates 
-<taxonomicName authority="Wagner, 1841" authorityName="Wagner" authorityYear="1841" class="Mammalia" family="Tupaiidae" genus="Tupaia" kingdom="Animalia" order="Scandentia" pageId="3" pageNumber="264" phylum="Chordata" rank="species" species="belangeri">belangeri Wagner, 1841</taxonomicName>
-, 
-<materialsCitation box="[876,1152,844,877]" pageId="3" pageNumber="264">“Pégou [= Bago],”</materialsCitation>
+<taxonomicName authority="Wagner, 1841" authorityName="Wagner" authorityYear="1841" class="Mammalia" family="Tupaiidae" genus="Cladobates" kingdom="Animalia" order="Scandentia" pageId="3" pageNumber="264" phylum="Chordata" rank="species" species="belangeri">Cladobates belangeri Wagner, 1841</taxonomicName>
+,
 </paragraph>
-<paragraph blockId="3.[780,1373,809,1230]" pageId="3" pageNumber="264">near Yangon, southern Burma (=Myanmar).</paragraph>
+</subSubSection>
+<subSubSection pageId="3" pageNumber="264" type="materials_examined">
+<paragraph blockId="3.[780,1373,809,1230]" pageId="3" pageNumber="264">
+<materialsCitation ID-GBIF-Occurrence="3820348313" pageId="3" pageNumber="264">“Pégou [= Bago],” near Yangon, southern Burma (=Myanmar)</materialsCitation>
+.
+</paragraph>
+</subSubSection>
+<subSubSection pageId="3" pageNumber="264" type="discussion">
 <paragraph blockId="3.[780,1373,809,1230]" pageId="3" pageNumber="264">
 <taxonomicName authorityName="Wagner" authorityYear="1841" box="[784,994,923,956]" class="Mammalia" family="Tupaiidae" genus="Tupaia" kingdom="Animalia" order="Scandentia" pageId="3" pageNumber="264" phylum="Chordata" rank="species" species="belangeri">Tupaia belangeri</taxonomicName>
 is in need of further taxonomic scrutiny. Although it has a variety of forms, K. M. Helgen in 2005 recognized two subspecies. Two subspecies recognized.

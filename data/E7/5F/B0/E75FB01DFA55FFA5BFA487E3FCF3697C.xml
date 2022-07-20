@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6779158" ID-GBIF-Dataset="c0cd46f6-682c-4b64-8efa-ab19bef80cf3" ID-ISBN="978-84-16728-08-4" ID-Zenodo-Dep="6779158" approvalRequired="1" approvalRequired_for_taxonomicNames="1" checkinTime="1655754179092" checkinUser="valdenar" docAuthor="Russell A. Mittermeier &amp; Don E. Wilson" docDate="2018" docId="E75FB01DFA55FFA5BFA487E3FCF3697C" docLanguage="en" docName="hbmw_8_Tupaiidae_0242.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 8 Insectivores, Sloths and Colugos, Barcelona: Lynx Edicions" docTitle="Tupaia hypochrysa Raffles 1821" docType="treatment" docVersion="2" lastPageNumber="266" masterDocId="1B66C865FA50FFA0BF07817AFFEF657D" masterDocTitle="Tupaiidae" masterLastPageNumber="269" masterPageNumber="242" pageNumber="266" updateTime="1656511027821" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6779158" ID-GBIF-Dataset="c0cd46f6-682c-4b64-8efa-ab19bef80cf3" ID-ISBN="978-84-16728-08-4" ID-Zenodo-Dep="6779158" approvalRequired="7" approvalRequired_for_textStreams="7" checkinTime="1655754179092" checkinUser="valdenar" docAuthor="Russell A. Mittermeier &amp; Don E. Wilson" docDate="2018" docId="E75FB01DFA55FFA5BFA487E3FCF3697C" docLanguage="en" docName="hbmw_8_Tupaiidae_0242.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 8 Insectivores, Sloths and Colugos, Barcelona: Lynx Edicions" docTitle="Tupaia hypochrysa Raffles 1821" docType="treatment" docVersion="5" lastPageNumber="266" masterDocId="1B66C865FA50FFA0BF07817AFFEF657D" masterDocTitle="Tupaiidae" masterLastPageNumber="269" masterPageNumber="242" pageNumber="266" updateTime="1658345010043" updateUser="valdenar">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Tupaiidae</mods:title>
@@ -41,7 +41,7 @@
 <mods:identifier type="ISBN">978-84-16728-08-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6779158</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:E75FB01DFA55FFA5BFA487E3FCF3697C" httpUri="http://treatment.plazi.org/id/E75FB01DFA55FFA5BFA487E3FCF3697C" lastPageNumber="266" pageId="5" pageNumber="266">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6779294" ID-GBIF-Taxon="196368984" ID-Zenodo-Dep="6779294" LSID="urn:lsid:plazi:treatment:E75FB01DFA55FFA5BFA487E3FCF3697C" httpUri="http://treatment.plazi.org/id/E75FB01DFA55FFA5BFA487E3FCF3697C" lastPageNumber="266" pageId="5" pageNumber="266">
 <heading pageId="5" pageNumber="266">
 <subSubSection box="[163,217,1689,1735]" pageId="5" pageNumber="266" type="multiple">
 <paragraph blockId="5.[158,1049,1689,1818]" box="[163,217,1689,1735]" pageId="5" pageNumber="266">
@@ -78,16 +78,19 @@
 </subSubSection>
 </heading>
 <subSubSection pageId="5" pageNumber="266" type="reference_group">
-<paragraph blockId="5.[769,1364,1866,2288]" box="[771,1363,1866,1895]" pageId="5" pageNumber="266">
+<paragraph blockId="5.[769,1364,1866,2288]" pageId="5" pageNumber="266">
 <emphasis bold="true" box="[771,926,1866,1895]" pageId="5" pageNumber="266">Taxonomy.</emphasis>
-<taxonomicName baseAuthorityName="Thomas" baseAuthorityYear="1895" box="[957,1363,1866,1895]" class="Mammalia" family="Tupaiidae" genus="Tupaia" kingdom="Animalia" order="Scandentia" pageId="5" pageNumber="266" phylum="Chordata" rank="subSpecies" species="ferruginea" subSpecies="hypochrysa">Tupaia ferruginea hypochrysa</taxonomicName>
+<taxonomicName baseAuthorityName="Thomas" baseAuthorityYear="1895" class="Mammalia" family="Tupaiidae" genus="Tupaia" kingdom="Animalia" order="Scandentia" pageId="5" pageNumber="266" phylum="Chordata" rank="subSpecies" species="ferruginea" subSpecies="hypochrysa">Tupaia ferruginea hypochrysa Thomas, 1895</taxonomicName>
+,
 </paragraph>
-<paragraph blockId="5.[769,1364,1866,2288]" box="[771,1360,1901,1934]" pageId="5" pageNumber="266">
-Thomas, 1895, 
-<materialsCitation box="[993,1360,1901,1934]" pageId="5" pageNumber="266">“Sipora [= Sipura Island],</materialsCitation>
+</subSubSection>
+<subSubSection pageId="5" pageNumber="266" type="materials_examined">
+<paragraph blockId="5.[769,1364,1866,2288]" pageId="5" pageNumber="266">
+<materialsCitation ID-GBIF-Occurrence="3820348302" pageId="5" pageNumber="266">“Sipora [= Sipura Island], Mentawei Islands,” West Sumatra, Indo- nesia</materialsCitation>
+.
 </paragraph>
-<paragraph blockId="5.[769,1364,1866,2288]" box="[772,1362,1949,1974]" pageId="5" pageNumber="266">Mentawei Islands,” West Sumatra, Indo-</paragraph>
-<paragraph blockId="5.[769,1364,1866,2288]" box="[771,847,1983,2012]" pageId="5" pageNumber="266">nesia.</paragraph>
+</subSubSection>
+<subSubSection pageId="5" pageNumber="266" type="discussion">
 <paragraph blockId="5.[769,1364,1866,2288]" pageId="5" pageNumber="266">
 Based on the recent morphological analyses by E. J. Sargis and others in 2013, this species was elevated from a subspecies of 1. 
 <taxonomicName authorityName="Diard" authorityYear="1820" box="[805,849,2137,2170]" class="Mammalia" family="Tupaiidae" genus="Tupaia" kingdom="Animalia" order="Scandentia" pageId="5" pageNumber="266" phylum="Chordata" rank="species" species="glis">glis</taxonomicName>
