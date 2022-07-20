@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6628157" ID-ISBN="978-84-16728-08-4" ID-Zenodo-Dep="6628157" approvalRequired="3" approvalRequired_for_textStreams="3" checkinTime="1654780209764" checkinUser="valdenar" docAuthor="Russell A. Mittermeier &amp; Don E. Wilson" docDate="2018" docId="997787B3FFE6FFBB58D96E0AFB9B4E97" docLanguage="en" docName="hbmw_8_Cynocephalidae_0272.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 8 Insectivores, Sloths and Colugos, Barcelona: Lynx Edicions" docTitle="Cynocephalus volans Linnaeus 1758" docType="treatment" docVersion="3" lastPageNumber="285" masterDocId="654EFFCBFFE7FFB958436910FFE24F04" masterDocTitle="Cynocephalidae" masterLastPageNumber="285" masterPageNumber="272" pageNumber="284" updateTime="1654780952248" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6628157" ID-GBIF-Dataset="dfa4516a-ce4d-4beb-89a5-79f7d0979407" ID-ISBN="978-84-16728-08-4" ID-Zenodo-Dep="6628157" checkinTime="1654780209764" checkinUser="valdenar" docAuthor="Russell A. Mittermeier &amp; Don E. Wilson" docDate="2018" docId="997787B3FFE6FFBB58D96E0AFB9B4E97" docLanguage="en" docName="hbmw_8_Cynocephalidae_0272.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 8 Insectivores, Sloths and Colugos, Barcelona: Lynx Edicions" docTitle="Cynocephalus volans Linnaeus 1758" docType="treatment" docVersion="6" lastPageNumber="285" masterDocId="654EFFCBFFE7FFB958436910FFE24F04" masterDocTitle="Cynocephalidae" masterLastPageNumber="285" masterPageNumber="272" pageNumber="284" updateTime="1658320198099" updateUser="valdenar">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Cynocephalidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6628157</mods:identifier>
+<mods:identifier type="GBIF-Dataset">dfa4516a-ce4d-4beb-89a5-79f7d0979407</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-08-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6628157</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6628089" ID-Zenodo-Dep="6628089" LSID="urn:lsid:plazi:treatment:997787B3FFE6FFBB58D96E0AFB9B4E97" httpUri="http://treatment.plazi.org/id/997787B3FFE6FFBB58D96E0AFB9B4E97" lastPageId="2" lastPageNumber="285" pageId="1" pageNumber="284">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6628089" ID-GBIF-Taxon="195827603" ID-Zenodo-Dep="6628089" LSID="urn:lsid:plazi:treatment:997787B3FFE6FFBB58D96E0AFB9B4E97" httpUri="http://treatment.plazi.org/id/997787B3FFE6FFBB58D96E0AFB9B4E97" lastPageId="2" lastPageNumber="285" pageId="1" pageNumber="284">
 <heading pageId="1" pageNumber="284">
 <subSubSection box="[154,182,1818,1864]" pageId="1" pageNumber="284" type="multiple">
 <paragraph blockId="1.[148,1193,1818,1945]" box="[154,182,1818,1864]" pageId="1" pageNumber="284">
@@ -76,14 +77,21 @@
 </paragraph>
 </subSubSection>
 </heading>
-<subSubSection pageId="1" pageNumber="284" type="reference_group">
-<paragraph blockId="1.[761,1352,1995,2416]" lastBlockId="1.[147,1352,2426,3478]" pageId="1" pageNumber="284">
+<subSubSection box="[761,1351,1995,2020]" pageId="1" pageNumber="284" type="reference_group">
+<paragraph blockId="1.[761,1352,1995,2416]" box="[761,1351,1995,2020]" pageId="1" pageNumber="284">
 <emphasis bold="true" box="[761,916,1995,2020]" pageId="1" pageNumber="284">Taxonomy.</emphasis>
-Lemur 
-<taxonomicName authority="Linnaeus, 1758" authorityName="Linnaeus" authorityYear="1758" box="[1031,1347,1995,2020]" class="Mammalia" family="Cynocephalidae" genus="Cynocephalus" kingdom="Animalia" order="Dermoptera" pageId="1" pageNumber="284" phylum="Chordata" rank="species" species="volans">volans Linnaeus, 1758</taxonomicName>
-, 
-<materialsCitation box="[763,851,2032,2061]" pageId="1" pageNumber="284">“Asia.”</materialsCitation>
-Restricted by O. Thomas in 1908 to the “Philippine Islands.” O. Thomas in 1908 clarified the confusion about the type locality of 
+<taxonomicName authority="Linnaeus, 1758" authorityName="Linnaeus" authorityYear="1758" box="[935,1347,1995,2020]" class="Mammalia" family="Cynocephalidae" genus="Lemur" kingdom="Animalia" order="Dermoptera" pageId="1" pageNumber="284" phylum="Chordata" rank="species" species="volans">Lemur volans Linnaeus, 1758</taxonomicName>
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="1" pageNumber="284" type="materials_examined">
+<paragraph blockId="1.[761,1352,1995,2416]" pageId="1" pageNumber="284">
+<materialsCitation ID-GBIF-Occurrence="3804715302" pageId="1" pageNumber="284">“Asia.” Restricted by O. Thomas in 1908 to the “Philippine Islands.”</materialsCitation>
+</paragraph>
+</subSubSection>
+<subSubSection pageId="1" pageNumber="284" type="discussion">
+<paragraph blockId="1.[761,1352,1995,2416]" lastBlockId="1.[147,1352,2426,3478]" pageId="1" pageNumber="284">
+O. Thomas in 1908 clarified the confusion about the type locality of 
 <taxonomicName authorityName="Linnaeus" authorityYear="1758" box="[1148,1271,2150,2179]" class="Mammalia" family="Cynocephalidae" genus="Cynocephalus" kingdom="Animalia" order="Dermoptera" pageId="1" pageNumber="284" phylum="Chordata" rank="species" species="volans">C. volans</taxonomicName>
 from the literature that predated Linnaeus’s original description. G. B. Corbet and J. E. Hill in 1992 noted that 
 <taxonomicName authorityName="Linnaeus" authorityYear="1758" box="[1094,1212,2268,2297]" class="Mammalia" family="Cynocephalidae" genus="Cynocephalus" kingdom="Animalia" order="Dermoptera" pageId="1" pageNumber="284" phylum="Chordata" rank="species" species="volans">C. volans</taxonomicName>

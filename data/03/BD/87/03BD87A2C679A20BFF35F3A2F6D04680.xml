@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.3739808" ID-GBIF-Dataset="b7e93c79-44a6-4d9c-8b78-dcb62033fb0d" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="3739808" approvalRequired="48" approvalRequired_for_taxonomicNames="29" approvalRequired_for_textStreams="5" approvalRequired_for_treatments="14" checkinTime="1585778501182" checkinUser="plazi" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="03BD87A2C679A20BFF35F3A2F6D04680" docLanguage="en" docName="hbmw_9_Hipposideridae_210.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Hipposideros inornatus McKean 1970" docType="treatment" docVersion="14" lastPageNumber="242" masterDocId="FF84FFDAC676A204FFF8FF9AFFEF4346" masterDocTitle="Hipposideridae" masterLastPageNumber="258" masterPageNumber="227" pageNumber="242" updateTime="1654527234938" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.3739808" ID-GBIF-Dataset="b7e93c79-44a6-4d9c-8b78-dcb62033fb0d" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="3739808" approvalRequired="13" approvalRequired_for_treatments="13" checkinTime="1585778501182" checkinUser="plazi" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="03BD87A2C679A20BFF35F3A2F6D04680" docLanguage="en" docName="hbmw_9_Hipposideridae_210.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Hipposideros inornatus McKean 1970" docType="treatment" docVersion="17" lastPageNumber="242" masterDocId="FF84FFDAC676A204FFF8FF9AFFEF4346" masterDocTitle="Hipposideridae" masterLastPageNumber="258" masterPageNumber="227" pageNumber="242" updateTime="1658320025573" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Hipposideridae</mods:title>
@@ -41,7 +41,7 @@
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">3739808</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:03BD87A2C679A20BFF35F3A2F6D04680" httpUri="http://treatment.plazi.org/id/03BD87A2C679A20BFF35F3A2F6D04680" lastPageNumber="242" pageId="15" pageNumber="242">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6617214" ID-GBIF-Taxon="163433743" ID-Zenodo-Dep="6617214" LSID="urn:lsid:plazi:treatment:03BD87A2C679A20BFF35F3A2F6D04680" httpUri="http://treatment.plazi.org/id/03BD87A2C679A20BFF35F3A2F6D04680" lastPageNumber="242" pageId="15" pageNumber="242">
 <heading pageId="15" pageNumber="242">
 <subSubSection box="[205,286,3128,3189]" pageId="15" pageNumber="242" type="multiple">
 <paragraph blockId="15.[203,1642,3128,3285]" box="[205,286,3128,3189]" pageId="15" pageNumber="242">
@@ -80,10 +80,14 @@
 </subSubSection>
 </heading>
 <subSubSection pageId="15" pageNumber="242" type="reference_group">
-<paragraph blockId="15.[1024,1828,3357,3925]" lastBlockId="15.[204,1824,3939,4663]" pageId="15" pageNumber="242">
+<paragraph blockId="15.[1024,1828,3357,3925]" pageId="15" pageNumber="242">
 <emphasis bold="true" box="[1025,1238,3357,3396]" pageId="15" pageNumber="242">Taxonomy.</emphasis>
 <taxonomicName authority="McKean, 1970" authorityName="McKean" authorityYear="1970" class="Mammalia" family="Hipposideridae" genus="Hipposideros" kingdom="Animalia" order="Chiroptera" pageId="15" pageNumber="242" phylum="Chordata" rank="subSpecies" species="diadema" subSpecies="inomatus">Hipposideros diadema inomatus McKean, 1970</taxonomicName>
-, 
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="15" pageNumber="242" type="materials_examined">
+<paragraph blockId="15.[1024,1828,3357,3925]" pageId="15" pageNumber="242">
 <materialsCitation ID-GBIF-Occurrence="3753598363" latitude="-13.1" longitude="132.93333" pageId="15" pageNumber="242">
 “Deaf Adder Creek, where it emerges from the Arnhem Land Plateau, 
 <quantity box="[1193,1352,3515,3554]" metricMagnitude="4" metricUnit="m" metricValue="8.851392" pageId="15" pageNumber="242" unit="mi" value="55.0">55 miles</quantity>
@@ -99,6 +103,10 @@
 <geoCoordinate box="[1511,1685,3621,3660]" degrees="132" direction="east" minutes="56" orientation="longitude" pageId="15" pageNumber="242" precision="925" value="132.93333">132°56’E</geoCoordinate>
 .”
 </materialsCitation>
+</paragraph>
+</subSubSection>
+<subSubSection pageId="15" pageNumber="242" type="discussion">
+<paragraph blockId="15.[1024,1828,3357,3925]" lastBlockId="15.[204,1824,3939,4663]" pageId="15" pageNumber="242">
 <taxonomicName authorityName="ZyfetThomas" authorityYear="1913" box="[1026,1448,3675,3714]" class="Mammalia" family="Hipposideridae" genus="Hipposideros" kingdom="Animalia" order="Chiroptera" pageId="15" pageNumber="242" phylum="Chordata" rank="species" species="inomatus">Hipposideros inomatus</taxonomicName>
 is in the 
 <taxonomicName baseAuthorityName="E. Geoffroy Saint-Hilaire" baseAuthorityYear="1813" box="[1678,1826,3675,3714]" class="Mammalia" family="Hipposideridae" genus="Hipposideros" kingdom="Animalia" order="Chiroptera" pageId="15" pageNumber="242" phylum="Chordata" rank="species" species="diadema">diadema</taxonomicName>
