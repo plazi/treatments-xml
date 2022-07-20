@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="39" approvalRequired_for_matCits="1" approvalRequired_for_taxonomicNames="9" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF8E6A31FF8397AA1716B97E" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Euderma maculatum" docType="treatment" docVersion="7" lastPageNumber="875" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="875" updateTime="1653491089352" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF8E6A31FF8397AA1716B97E" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Euderma maculatum" docType="treatment" docVersion="9" lastPageNumber="875" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="875" updateTime="1658341609797" updateUser="felipe">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -41,7 +41,7 @@
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6403630" ID-Zenodo-Dep="6403630" LSID="urn:lsid:plazi:treatment:4C3D87E8FF8E6A31FF8397AA1716B97E" httpUri="http://treatment.plazi.org/id/4C3D87E8FF8E6A31FF8397AA1716B97E" lastPageNumber="875" pageId="117" pageNumber="875">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6403630" ID-GBIF-Taxon="195628549" ID-Zenodo-Dep="6403630" LSID="urn:lsid:plazi:treatment:4C3D87E8FF8E6A31FF8397AA1716B97E" httpUri="http://treatment.plazi.org/id/4C3D87E8FF8E6A31FF8397AA1716B97E" lastPageNumber="875" pageId="117" pageNumber="875">
 <subSubSection box="[127,209,499,549]" pageId="117" pageNumber="875" type="multiple">
 <paragraph blockId="117.[124,1017,499,626]" box="[127,209,499,549]" pageId="117" pageNumber="875">
 <heading box="[127,209,499,549]" pageId="117" pageNumber="875">
@@ -86,19 +86,23 @@ maculado
 </heading>
 </paragraph>
 </subSubSection>
-<subSubSection pageId="117" pageNumber="875" type="reference_group">
 <paragraph blockId="117.[736,1333,672,1099]" pageId="117" pageNumber="875">
+<subSubSection pageId="117" pageNumber="875" type="reference_group">
 <emphasis bold="true" box="[737,892,672,705]" pageId="117" pageNumber="875">Taxonomy.</emphasis>
 <taxonomicName authority="J. A. Allen, 1891" authorityName="J. A. Allen" authorityYear="1891" class="Mammalia" family="Vespertilionidae" genus="Histiotus" kingdom="Animalia" order="Chiroptera" pageId="117" pageNumber="875" phylum="Chordata" rank="species" species="maculatus">Histiotus maculatus J. A. Allen, 1891</taxonomicName>
-, 
-<materialsCitation pageId="117" pageNumber="875">
+,
+</subSubSection>
+<subSubSection pageId="117" pageNumber="875" type="materials_examined">
+<materialsCitation ID-GBIF-Occurrence="3783319507" pageId="117" pageNumber="875">
 “ ‘caught on a fence,’ at Piru [Santa Clara 
 <collectingRegion box="[823,896,751,784]" country="Nigeria" name="Rivers" pageId="117" pageNumber="875">River</collectingRegion>
 Valley], in the western part of Ventura County, 
 <collectingRegion box="[976,1120,799,824]" country="United States of America" name="California" pageId="117" pageNumber="875">California</collectingRegion>
 .”
 </materialsCitation>
+</subSubSection>
 </paragraph>
+<subSubSection pageId="117" pageNumber="875" type="discussion">
 <paragraph blockId="117.[736,1333,672,1099]" lastBlockId="117.[122,1333,1105,3228]" pageId="117" pageNumber="875">
 Based on morphological and chromosomal characters, the genus 
 <taxonomicName authorityName="Anthony" authorityYear="1923" box="[1045,1185,869,902]" class="Mammalia" family="Vespertilionidae" genus="Idionycteris" kingdom="Animalia" order="Chiroptera" pageId="117" pageNumber="875" phylum="Chordata" rank="genus">Idionycteris</taxonomicName>

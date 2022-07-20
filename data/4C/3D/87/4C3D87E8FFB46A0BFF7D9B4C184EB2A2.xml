@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="149" approvalRequired_for_illustrations="1" approvalRequired_for_matCits="100" approvalRequired_for_taxonomicNames="9" approvalRequired_for_textStreams="2" approvalRequired_for_treatments="37" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FFB46A0BFF7D9B4C184EB2A2" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Scoteanax rueppellii" docType="treatment" docVersion="7" lastPageNumber="837" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="837" updateTime="1653414436161" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FFB46A0BFF7D9B4C184EB2A2" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Scoteanax rueppellii" docType="treatment" docVersion="10" lastPageNumber="837" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="837" updateTime="1658341609797" updateUser="felipe">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6397752</mods:identifier>
+<mods:identifier type="GBIF-Dataset">45351c32-25dd-422c-bdb2-00e73deb4943</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6403533" ID-Zenodo-Dep="6403533" LSID="urn:lsid:plazi:treatment:4C3D87E8FFB46A0BFF7D9B4C184EB2A2" httpUri="http://treatment.plazi.org/id/4C3D87E8FFB46A0BFF7D9B4C184EB2A2" lastPageNumber="837" pageId="79" pageNumber="837">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6403533" ID-GBIF-Taxon="195628498" ID-Zenodo-Dep="6403533" LSID="urn:lsid:plazi:treatment:4C3D87E8FFB46A0BFF7D9B4C184EB2A2" httpUri="http://treatment.plazi.org/id/4C3D87E8FFB46A0BFF7D9B4C184EB2A2" lastPageNumber="837" pageId="79" pageNumber="837">
 <subSubSection box="[129,208,3349,3395]" pageId="79" pageNumber="837" type="multiple">
 <paragraph blockId="79.[124,1206,3349,3474]" box="[129,208,3349,3395]" pageId="79" pageNumber="837">
 <heading box="[129,208,3349,3395]" pageId="79" pageNumber="837">
@@ -84,20 +85,22 @@
 </heading>
 </paragraph>
 </subSubSection>
-<subSubSection pageId="79" pageNumber="837" type="reference_group">
 <paragraph blockId="79.[2017,2610,284,711]" pageId="79" pageNumber="837">
+<subSubSection box="[2017,2607,284,317]" pageId="79" pageNumber="837" type="reference_group">
 <emphasis bold="true" box="[2017,2170,284,317]" pageId="79" pageNumber="837">Taxonomy.</emphasis>
-<taxonomicName authority="Peters, 1866" authorityName="Peters" authorityYear="1866" box="[2188,2602,284,317]" class="Mammalia" genus="Nyticejus" kingdom="Animalia" order="Chiroptera" pageId="79" pageNumber="837" rank="species" species="ruppelliz">Nyticejus ruppelliz Peters, 1866</taxonomicName>
-, 
-<materialsCitation box="[2018,2534,327,356]" pageId="79" pageNumber="837">
+<taxonomicName authority="Peters, 1866" authorityName="Peters" authorityYear="1866" box="[2188,2602,284,317]" class="Mammalia" family="Vespertilionidae" genus="Nyticejus" kingdom="Animalia" order="Chiroptera" pageId="79" pageNumber="837" rank="species" species="ruppelliz">Nyticejus ruppelliz Peters, 1866</taxonomicName>
+,
+</subSubSection>
+<subSubSection box="[2018,2534,327,356]" pageId="79" pageNumber="837" type="materials_examined">
+<materialsCitation ID-GBIF-Occurrence="3783319714" box="[2018,2534,327,356]" pageId="79" pageNumber="837">
 “Sydney,” 
 <collectingRegion box="[2153,2393,327,356]" country="Australia" name="New South Wales" pageId="79" pageNumber="837">New South Wales</collectingRegion>
 , 
 <collectingCountry box="[2406,2530,327,356]" name="Australia" pageId="79" pageNumber="837">Australia</collectingCountry>
 .
 </materialsCitation>
-</paragraph>
 </subSubSection>
+</paragraph>
 <subSubSection pageId="79" pageNumber="837" type="discussion">
 <paragraph blockId="79.[2017,2610,284,711]" pageId="79" pageNumber="837">
 Phylogenetic position of 
