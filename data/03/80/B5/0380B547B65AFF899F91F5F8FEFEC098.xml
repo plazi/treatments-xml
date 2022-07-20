@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6678191" ID-ISBN="978-84-16728-08-4" ID-Zenodo-Dep="6678191" approvalRequired="360" approvalRequired_for_taxonomicNames="32" approvalRequired_for_textStreams="325" approvalRequired_for_treatments="3" checkinTime="1655746672033" checkinUser="valdenar" docAuthor="Russell A. Mittermeier &amp; Don E. Wilson" docDate="2018" docId="0380B547B65AFF899F91F5F8FEFEC098" docLanguage="en" docName="hbmw_8_Talpidae_0552.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 8 Insectivores, Sloths and Colugos, Barcelona: Lynx Edicions" docTitle="Scapanus anthonyi" docType="treatment" docVersion="4" lastPageNumber="601" masterDocId="FFB9CD3FB65FFF8F9A30FF87FF98C371" masterDocTitle="Talpidae" masterLastPageNumber="619" masterPageNumber="52" pageNumber="600" updateTime="1656523025552" updateUser="valdenar">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6678191" ID-GBIF-Dataset="6e85855c-9cd4-46e9-b1e1-5a643c103c3f" ID-ISBN="978-84-16728-08-4" ID-Zenodo-Dep="6678191" checkinTime="1655746672033" checkinUser="valdenar" docAuthor="Russell A. Mittermeier &amp; Don E. Wilson" docDate="2018" docId="0380B547B65AFF899F91F5F8FEFEC098" docLanguage="en" docName="hbmw_8_Talpidae_0552.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 8 Insectivores, Sloths and Colugos, Barcelona: Lynx Edicions" docTitle="Scapanus anthonyi" docType="treatment" docVersion="10" lastPageNumber="601" masterDocId="FFB9CD3FB65FFF8F9A30FF87FF98C371" masterDocTitle="Talpidae" masterLastPageNumber="619" masterPageNumber="52" pageNumber="600" updateTime="1658342546673" updateUser="valdenar">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Talpidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6678191</mods:identifier>
+<mods:identifier type="GBIF-Dataset">6e85855c-9cd4-46e9-b1e1-5a643c103c3f</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-08-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6678191</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6671942" ID-Zenodo-Dep="6671942" LSID="urn:lsid:plazi:treatment:0380B547B65AFF899F91F5F8FEFEC098" httpUri="http://treatment.plazi.org/id/0380B547B65AFF899F91F5F8FEFEC098" lastPageId="6" lastPageNumber="601" pageId="5" pageNumber="600">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6671942" ID-GBIF-Taxon="197525519" ID-Zenodo-Dep="6671942" LSID="urn:lsid:plazi:treatment:0380B547B65AFF899F91F5F8FEFEC098" httpUri="http://treatment.plazi.org/id/0380B547B65AFF899F91F5F8FEFEC098" lastPageId="6" lastPageNumber="601" pageId="5" pageNumber="600">
 <heading pageId="5" pageNumber="600">
 <subSubSection box="[1441,1495,2687,2733]" pageId="5" pageNumber="600" type="multiple">
 <paragraph blockId="5.[1436,2324,2687,2811]" box="[1441,1495,2687,2733]" pageId="5" pageNumber="600">
@@ -77,18 +78,20 @@
 </subSubSection>
 </heading>
 <subSubSection pageId="5" pageNumber="600" type="reference_group">
-<paragraph blockId="5.[2047,2640,2863,3285]" box="[2048,2638,2863,2892]" pageId="5" pageNumber="600">
-<emphasis bold="true" box="[2048,2203,2863,2892]" pageId="5" pageNumber="600">Taxonomy.</emphasis>
-<taxonomicName authorityName="Pomel" authorityYear="1848" box="[2221,2465,2863,2892]" class="Mammalia" family="Talpidae" genus="Scapanus" kingdom="Animalia" order="Soricomorpha" pageId="5" pageNumber="600" phylum="Chordata" rank="species" species="anthony">Scapanus anthony</taxonomicName>
-: J. A. Allen,
-</paragraph>
-<paragraph blockId="5.[2047,2640,2863,3285]" box="[2051,2637,2902,2931]" pageId="5" pageNumber="600">
-1893, 
-<materialsCitation box="[2138,2637,2902,2931]" pageId="5" pageNumber="600">“San Pedro Martir Mountains (alt.</materialsCitation>
-</paragraph>
-<paragraph blockId="5.[2047,2640,2863,3285]" box="[2050,2638,2942,2971]" pageId="5" pageNumber="600">7000 ft. [= 2134 m]),” Baja California,</paragraph>
 <paragraph blockId="5.[2047,2640,2863,3285]" pageId="5" pageNumber="600">
-Mexico. 
+<emphasis bold="true" box="[2048,2203,2863,2892]" pageId="5" pageNumber="600">Taxonomy.</emphasis>
+<taxonomicName authority="J. A. Allen, 1893" authorityName="J. A. Allen" authorityYear="1893" class="Mammalia" family="Talpidae" genus="Scapanus" kingdom="Animalia" order="Soricomorpha" pageId="5" pageNumber="600" phylum="Chordata" rank="species" species="anthony">Scapanus anthony: J. A. Allen, 1893</taxonomicName>
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="5" pageNumber="600" type="materials_examined">
+<paragraph blockId="5.[2047,2640,2863,3285]" pageId="5" pageNumber="600">
+<materialsCitation ID-GBIF-Occurrence="3862682327" pageId="5" pageNumber="600">“San Pedro Martir Mountains (alt. 7000 ft. [= 2134 m]),” Baja California, Mexico</materialsCitation>
+.
+</paragraph>
+</subSubSection>
+<subSubSection pageId="5" pageNumber="600" type="reference_group">
+<paragraph blockId="5.[2047,2640,2863,3285]" pageId="5" pageNumber="600">
 <taxonomicName authorityName="Pomel" authorityYear="1848" box="[2050,2293,3016,3049]" class="Mammalia" family="Talpidae" genus="Scapanus" kingdom="Animalia" order="Soricomorpha" pageId="5" pageNumber="600" phylum="Chordata" rank="species" species="anthony">Scapanus anthony</taxonomicName>
 : was described as a species but subsequently reclassified as the most distinct subspecies of S. 
 <taxonomicName baseAuthorityName="Bachman" baseAuthorityYear="1842" box="[2473,2602,3095,3128]" class="Mammalia" family="Talpidae" genus="Scapanus" kingdom="Animalia" order="Soricomorpha" pageId="5" pageNumber="600" phylum="Chordata" rank="species" species="latimanus">latimanus</taxonomicName>
@@ -96,12 +99,11 @@ Mexico.
 </paragraph>
 </subSubSection>
 <subSubSection pageId="5" pageNumber="600" type="distribution">
-<caption inLine="true" pageId="5" pageNumber="600" targetBox="[354,358,976,1001]" targetPageId="6">
-<paragraph blockId="5.[2047,2640,2863,3285]" pageId="5" pageNumber="600">
+<caption ID-DOI="http://doi.org/10.5281/zenodo.6835528" ID-Zenodo-Dep="6835528" httpUri="https://zenodo.org/record/6835528/files/figure.png" inLine="true" pageId="5" pageNumber="600" startId="5.[2047,2219,3213,3246]" targetBox="[1433,2024,2867,3282]" targetPageId="5">
+<paragraph blockId="5.[2047,2640,2863,3285]" lastBlockId="5.[1435,2639,3290,3481]" pageId="5" pageNumber="600">
 <emphasis bold="true" box="[2047,2223,3213,3246]" pageId="5" pageNumber="600">Distribution.</emphasis>
-Endemic to Baja California (Mexico), known from four localities in
+Endemic to Baja California (Mexico), known from four localities in Sierra de San Pedro Martir.
 </paragraph>
-<paragraph blockId="5.[1435,2639,3290,3481]" box="[1436,1817,3290,3323]" pageId="5" pageNumber="600">Sierra de San Pedro Martir.</paragraph>
 </caption>
 </subSubSection>
 <subSubSection lastPageId="6" lastPageNumber="601" pageId="5" pageNumber="600" type="description">

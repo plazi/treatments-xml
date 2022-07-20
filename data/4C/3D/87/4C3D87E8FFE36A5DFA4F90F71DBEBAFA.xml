@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="1530" approvalRequired_for_illustrations="1" approvalRequired_for_matCits="143" approvalRequired_for_taxonomicNames="590" approvalRequired_for_textStreams="13" approvalRequired_for_treatments="783" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FFE36A5DFA4F90F71DBEBAFA" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Pipistrellus angulatus Peters 1880" docType="treatment" docVersion="5" lastPageNumber="783" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="782" updateTime="1652799540288" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FFE36A5DFA4F90F71DBEBAFA" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Pipistrellus angulatus Peters 1880" docType="treatment" docVersion="8" lastPageNumber="783" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="782" updateTime="1658342230170" updateUser="felipe">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6397752</mods:identifier>
+<mods:identifier type="GBIF-Dataset">45351c32-25dd-422c-bdb2-00e73deb4943</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6403414" ID-Zenodo-Dep="6403414" LSID="urn:lsid:plazi:treatment:4C3D87E8FFE36A5DFA4F90F71DBEBAFA" httpUri="http://treatment.plazi.org/id/4C3D87E8FFE36A5DFA4F90F71DBEBAFA" lastPageId="25" lastPageNumber="783" pageId="24" pageNumber="782">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6403414" ID-GBIF-Taxon="195628269" ID-Zenodo-Dep="6403414" LSID="urn:lsid:plazi:treatment:4C3D87E8FFE36A5DFA4F90F71DBEBAFA" httpUri="http://treatment.plazi.org/id/4C3D87E8FFE36A5DFA4F90F71DBEBAFA" lastPageId="25" lastPageNumber="783" pageId="24" pageNumber="782">
 <subSubSection box="[1459,1517,1710,1756]" pageId="24" pageNumber="782" type="multiple">
 <paragraph blockId="24.[1458,2563,1710,1839]" box="[1459,1517,1710,1756]" pageId="24" pageNumber="782">
 <heading box="[1459,1517,1710,1756]" pageId="24" pageNumber="782">
@@ -90,20 +91,22 @@ de Nueva
 </heading>
 </paragraph>
 </subSubSection>
-<subSubSection pageId="24" pageNumber="782" type="reference_group">
 <paragraph blockId="24.[2070,2664,1885,2309]" pageId="24" pageNumber="782">
+<subSubSection pageId="24" pageNumber="782" type="reference_group">
 <emphasis bold="true" box="[2070,2223,1885,1914]" pageId="24" pageNumber="782">Taxonomy.</emphasis>
 <taxonomicName authority="Peters, 1880" authorityName="Peters" authorityYear="1880" class="Mammalia" family="Vespertilionidae" genus="Vesperugo" kingdom="Animalia" order="Chiroptera" pageId="24" pageNumber="782" phylum="Chordata" rank="species" species="angulatus">Vesperugo angulatus Peters, 1880</taxonomicName>
-, 
-<materialsCitation pageId="24" pageNumber="782">
+,
+</subSubSection>
+<subSubSection pageId="24" pageNumber="782" type="materials_examined">
+<materialsCitation ID-GBIF-Occurrence="3783319427" pageId="24" pageNumber="782">
 “Insula Papuana, ‘Duke of York’ [Islands],” 
 <collectingRegion box="[2190,2558,1968,1993]" country="Papua New Guinea" name="East New Britain" pageId="24" pageNumber="782">East New Britain Province</collectingRegion>
 , 
 <collectingCountry name="Papua New Guinea" pageId="24" pageNumber="782">Papua New Guinea</collectingCountry>
 .
 </materialsCitation>
-</paragraph>
 </subSubSection>
+</paragraph>
 <subSubSection pageId="24" pageNumber="782" type="discussion">
 <paragraph blockId="24.[2070,2664,1885,2309]" pageId="24" pageNumber="782">
 <taxonomicName authorityName="Peters" authorityYear="1880" box="[2071,2348,2038,2071]" class="Mammalia" family="Vespertilionidae" genus="Pipistrellus" kingdom="Animalia" order="Chiroptera" pageId="24" pageNumber="782" phylum="Chordata" rank="species" species="angulatus">Pipustrellus angulatus</taxonomicName>
