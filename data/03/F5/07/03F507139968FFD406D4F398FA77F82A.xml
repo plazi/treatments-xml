@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6512484" ID-GBIF-Dataset="67b52095-db4b-43f8-a661-4aced0511111" ID-ISBN="978-84-96553-77-4" ID-Zenodo-Dep="6512484" approvalRequired="312" approvalRequired_for_taxonomicNames="312" checkinTime="1651524980884" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2011" docId="03F507139968FFD406D4F398FA77F82A" docLanguage="en" docName="hbmw_2_Bovidae_0444.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 2 Hoofed Mammals, Barcelona: Lynx Edicions" docTitle="Tragelaphus gratus Sclater 1880" docType="treatment" docVersion="9" lastPageNumber="607" masterDocId="FFCC7F6B994BFFF00316FF82FFEDFF81" masterDocTitle="Bovidae" masterLastPageNumber="779" masterPageNumber="444" pageNumber="606" updateTime="1655081222446" updateUser="carolina">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6512484" ID-GBIF-Dataset="67b52095-db4b-43f8-a661-4aced0511111" ID-ISBN="978-84-96553-77-4" ID-Zenodo-Dep="6512484" checkinTime="1651524980884" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2011" docId="03F507139968FFD406D4F398FA77F82A" docLanguage="en" docName="hbmw_2_Bovidae_0444.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 2 Hoofed Mammals, Barcelona: Lynx Edicions" docTitle="Tragelaphus gratus Sclater 1880" docType="treatment" docVersion="11" lastPageNumber="607" masterDocId="FFCC7F6B994BFFF00316FF82FFEDFF81" masterDocTitle="Bovidae" masterLastPageNumber="779" masterPageNumber="444" pageNumber="606" updateTime="1658275772497" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Bovidae</mods:title>
@@ -41,7 +41,7 @@
 <mods:identifier type="ISBN">978-84-96553-77-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6512484</mods:identifier>
 </mods:mods>
-<treatment ID-GBIF-Taxon="195659273" LSID="urn:lsid:plazi:treatment:03F507139968FFD406D4F398FA77F82A" httpUri="http://treatment.plazi.org/id/03F507139968FFD406D4F398FA77F82A" lastPageId="36" lastPageNumber="607" pageId="35" pageNumber="606">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6636776" ID-GBIF-Taxon="195659273" ID-Zenodo-Dep="6636776" LSID="urn:lsid:plazi:treatment:03F507139968FFD406D4F398FA77F82A" httpUri="http://treatment.plazi.org/id/03F507139968FFD406D4F398FA77F82A" lastPageId="36" lastPageNumber="607" pageId="35" pageNumber="606">
 <subSubSection box="[1474,1531,3098,3148]" pageId="35" pageNumber="606" type="multiple">
 <paragraph blockId="35.[1471,2398,3098,3225]" box="[1474,1531,3098,3148]" pageId="35" pageNumber="606">
 <heading box="[1474,1531,3098,3148]" pageId="35" pageNumber="606">
@@ -89,16 +89,22 @@ occidental
 </heading>
 </paragraph>
 </subSubSection>
-<subSubSection pageId="35" pageNumber="606" type="reference_group">
-<paragraph blockId="35.[1470,2673,3274,3466]" box="[1472,2184,3274,3303]" pageId="35" pageNumber="606">
+<subSubSection box="[1472,2072,3274,3303]" pageId="35" pageNumber="606" type="reference_group">
+<paragraph blockId="35.[1470,2673,3274,3466]" box="[1472,2072,3274,3303]" pageId="35" pageNumber="606">
 <emphasis bold="true" box="[1472,1626,3274,3303]" pageId="35" pageNumber="606">Taxonomy.</emphasis>
 <taxonomicName authority="Sclater, 1880" authorityName="Sclater" authorityYear="1880" box="[1642,2068,3274,3303]" class="Mammalia" family="Bovidae" genus="Tragelaphus" kingdom="Animalia" order="Artiodactyla" pageId="35" pageNumber="606" phylum="Chordata" rank="species" species="gratus">Tragelaphus gratus Sclater, 1880</taxonomicName>
-, 
+,
+</paragraph>
+</subSubSection>
+<subSubSection box="[2084,2184,3274,3303]" pageId="35" pageNumber="606" type="materials_examined">
+<paragraph blockId="35.[1470,2673,3274,3466]" box="[2084,2184,3274,3303]" pageId="35" pageNumber="606">
 <materialsCitation ID-GBIF-Occurrence="3785198307" box="[2084,2184,3274,3303]" pageId="35" pageNumber="606">
 <collectingCountry box="[2084,2180,3274,3303]" name="Gabon" pageId="35" pageNumber="606">Gabon</collectingCountry>
 .
 </materialsCitation>
 </paragraph>
+</subSubSection>
+<subSubSection pageId="35" pageNumber="606" type="discussion">
 <paragraph blockId="35.[1470,2673,3274,3466]" pageId="35" pageNumber="606">
 The Western Sitatunga was formerly considered a subspecies of 
 <taxonomicName authorityName="Speke" authorityYear="1863" box="[2395,2500,3309,3342]" class="Mammalia" family="Bovidae" genus="Tragelaphus" kingdom="Animalia" order="Artiodactyla" pageId="35" pageNumber="606" phylum="Chordata" rank="species" species="spekii">T. spekii</taxonomicName>

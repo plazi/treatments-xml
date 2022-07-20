@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6512484" ID-GBIF-Dataset="67b52095-db4b-43f8-a661-4aced0511111" ID-ISBN="978-84-96553-77-4" ID-Zenodo-Dep="6512484" approvalRequired="469" approvalRequired_for_taxonomicNames="468" approvalRequired_for_treatments="1" checkinTime="1651524980884" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2011" docId="03F507139966FFDD03DBFAB3F5A5FCD8" docLanguage="en" docName="hbmw_2_Bovidae_0444.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 2 Hoofed Mammals, Barcelona: Lynx Edicions" docTitle="Strepsiceros chora" docType="treatment" docVersion="6" lastPageNumber="616" masterDocId="FFCC7F6B994BFFF00316FF82FFEDFF81" masterDocTitle="Bovidae" masterLastPageNumber="779" masterPageNumber="444" pageNumber="616" updateTime="1653664087401" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6512484" ID-GBIF-Dataset="67b52095-db4b-43f8-a661-4aced0511111" ID-ISBN="978-84-96553-77-4" ID-Zenodo-Dep="6512484" checkinTime="1651524980884" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2011" docId="03F507139966FFDD03DBFAB3F5A5FCD8" docLanguage="en" docName="hbmw_2_Bovidae_0444.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 2 Hoofed Mammals, Barcelona: Lynx Edicions" docTitle="Strepsiceros chora" docType="treatment" docVersion="9" lastPageNumber="616" masterDocId="FFCC7F6B994BFFF00316FF82FFEDFF81" masterDocTitle="Bovidae" masterLastPageNumber="779" masterPageNumber="444" pageNumber="616" updateTime="1658275772497" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Bovidae</mods:title>
@@ -41,7 +41,7 @@
 <mods:identifier type="ISBN">978-84-96553-77-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6512484</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:03F507139966FFDD03DBFAB3F5A5FCD8" httpUri="http://treatment.plazi.org/id/03F507139966FFDD03DBFAB3F5A5FCD8" lastPageNumber="616" pageId="45" pageNumber="616">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6587623" ID-GBIF-Taxon="195659230" ID-Zenodo-Dep="6587623" LSID="urn:lsid:plazi:treatment:03F507139966FFDD03DBFAB3F5A5FCD8" httpUri="http://treatment.plazi.org/id/03F507139966FFDD03DBFAB3F5A5FCD8" lastPageNumber="616" pageId="45" pageNumber="616">
 <subSubSection box="[205,261,1329,1366]" pageId="45" pageNumber="616" type="multiple">
 <paragraph blockId="45.[202,1176,1327,1445]" box="[205,261,1329,1366]" pageId="45" pageNumber="616">
 <heading box="[205,261,1329,1366]" pageId="45" pageNumber="616">
@@ -90,13 +90,19 @@ kudu septentrional
 <paragraph blockId="45.[818,1404,1491,1917]" pageId="45" pageNumber="616">
 <emphasis bold="true" box="[818,973,1491,1524]" pageId="45" pageNumber="616">Taxonomy.</emphasis>
 <taxonomicName authority="Cretzschmar, 1826" authorityName="Cretzschmar" authorityYear="1826" class="Mammalia" family="Bovidae" genus="Antilope" kingdom="Animalia" order="Artiodactyla" pageId="45" pageNumber="616" phylum="Chordata" rank="species" species="chora">Antilope chora Cretzschmar, 1826</taxonomicName>
-, 
-<materialsCitation box="[903,1112,1534,1563]" pageId="45" pageNumber="616">
+,
+</paragraph>
+</subSubSection>
+<subSubSection box="[903,1112,1534,1563]" pageId="45" pageNumber="616" type="materials_examined">
+<paragraph blockId="45.[818,1404,1491,1917]" box="[903,1112,1534,1563]" pageId="45" pageNumber="616">
+<materialsCitation ID-GBIF-Occurrence="3785198377" box="[903,1112,1534,1563]" pageId="45" pageNumber="616">
 Eastern 
 <collectingCountry box="[1017,1107,1534,1563]" name="Sudan" pageId="45" pageNumber="616">Sudan</collectingCountry>
 .
 </materialsCitation>
 </paragraph>
+</subSubSection>
+<subSubSection pageId="45" pageNumber="616" type="discussion">
 <paragraph blockId="45.[818,1404,1491,1917]" pageId="45" pageNumber="616">Recent evaluations of museum specimens by C. P. Groves and P. Grubb show that four forms of greater kudu are diagnostically different. Synonym is bea. Monotypic.</paragraph>
 </subSubSection>
 <subSubSection pageId="45" pageNumber="616" type="distribution">
