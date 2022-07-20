@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.3739808" ID-GBIF-Dataset="b7e93c79-44a6-4d9c-8b78-dcb62033fb0d" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="3739808" approvalRequired="108" approvalRequired_for_illustrations="6" approvalRequired_for_matCits="24" approvalRequired_for_originalDoi="1" approvalRequired_for_taxonomicNames="29" approvalRequired_for_textStreams="2" approvalRequired_for_treatments="46" checkinTime="1585778501182" checkinUser="plazi" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="03BD87A2C66AA219F8B6EF7FF92245DD" docLanguage="en" docName="hbmw_9_Hipposideridae_210.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Hipposideros macrobullatus Tate 1941" docType="treatment" docVersion="15" lastPageNumber="256" masterDocId="FF84FFDAC676A204FFF8FF9AFFEF4346" masterDocTitle="Hipposideridae" masterLastPageNumber="258" masterPageNumber="227" pageNumber="255" updateTime="1654111281024" updateUser="valdenar">
+<document ID-DOI="http://doi.org/10.5281/zenodo.3739808" ID-GBIF-Dataset="b7e93c79-44a6-4d9c-8b78-dcb62033fb0d" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="3739808" approvalRequired="13" approvalRequired_for_treatments="13" checkinTime="1585778501182" checkinUser="plazi" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="03BD87A2C66AA219F8B6EF7FF92245DD" docLanguage="en" docName="hbmw_9_Hipposideridae_210.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Hipposideros macrobullatus Tate 1941" docType="treatment" docVersion="17" lastPageNumber="256" masterDocId="FF84FFDAC676A204FFF8FF9AFFEF4346" masterDocTitle="Hipposideridae" masterLastPageNumber="258" masterPageNumber="227" pageNumber="255" updateTime="1658321659381" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Hipposideridae</mods:title>
@@ -41,7 +41,7 @@
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">3739808</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.3810884" ID-Zenodo-Dep="3810884" LSID="urn:lsid:plazi:treatment:03BD87A2C66AA219F8B6EF7FF92245DD" httpUri="http://treatment.plazi.org/id/03BD87A2C66AA219F8B6EF7FF92245DD" lastPageId="29" lastPageNumber="256" pageId="28" pageNumber="255">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.3810884" ID-GBIF-Taxon="163433778" ID-Zenodo-Dep="3810884" LSID="urn:lsid:plazi:treatment:03BD87A2C66AA219F8B6EF7FF92245DD" httpUri="http://treatment.plazi.org/id/03BD87A2C66AA219F8B6EF7FF92245DD" lastPageId="29" lastPageNumber="256" pageId="28" pageNumber="255">
 <heading pageId="28" pageNumber="255">
 <subSubSection box="[1870,1948,4325,4386]" pageId="28" pageNumber="255" type="multiple">
 <paragraph blockId="28.[1867,3434,4325,4488]" box="[1870,1948,4325,4386]" pageId="28" pageNumber="255">
@@ -77,11 +77,15 @@
 </paragraph>
 </subSubSection>
 </heading>
-<subSubSection lastPageId="29" lastPageNumber="256" pageId="28" pageNumber="255" type="reference_group">
-<paragraph blockId="28.[1866,3483,4555,4648]" pageId="28" pageNumber="255">
+<subSubSection box="[1867,2915,4556,4595]" pageId="28" pageNumber="255" type="reference_group">
+<paragraph blockId="28.[1866,3483,4555,4648]" box="[1867,2915,4556,4595]" pageId="28" pageNumber="255">
 <emphasis bold="true" box="[1867,2078,4556,4595]" pageId="28" pageNumber="255">Taxonomy.</emphasis>
 <taxonomicName authority="Tate, 1941" authorityName="Tate" authorityYear="1941" box="[2095,2908,4556,4595]" class="Mammalia" family="Hipposideridae" genus="Hipposideros" kingdom="Animalia" order="Chiroptera" pageId="28" pageNumber="255" phylum="Chordata" rank="subSpecies" species="bicolor" subSpecies="macrobullotus">Hipposideros bicolor macrobullotus Tate, 1941</taxonomicName>
-, 
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="28" pageNumber="255" type="materials_examined">
+<paragraph blockId="28.[1866,3483,4555,4648]" pageId="28" pageNumber="255">
 <materialsCitation ID-GBIF-Occurrence="3753598356" pageId="28" pageNumber="255">
 “Talassa (Maros), South 
 <collectingRegion country="Indonesia" name="Sulawesi Utara" pageId="28" pageNumber="255">Celebes</collectingRegion>
@@ -92,6 +96,8 @@
 ]; 300 meters.”
 </materialsCitation>
 </paragraph>
+</subSubSection>
+<subSubSection pageId="29" pageNumber="256" type="discussion">
 <paragraph blockId="29.[1041,1838,379,951]" pageId="29" pageNumber="256">
 <taxonomicName authorityName="Tate" authorityYear="1941" box="[1042,1532,379,418]" class="Mammalia" family="Hipposideridae" genus="Hipposideros" kingdom="Animalia" order="Chiroptera" pageId="29" pageNumber="256" phylum="Chordata" rank="species" species="macrobullatus">Hipposideros macrobullatus</taxonomicName>
 was described as a subspecies of 

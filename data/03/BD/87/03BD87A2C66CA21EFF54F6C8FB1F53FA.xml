@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.3739808" ID-GBIF-Dataset="b7e93c79-44a6-4d9c-8b78-dcb62033fb0d" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="3739808" approvalRequired="108" approvalRequired_for_illustrations="6" approvalRequired_for_matCits="24" approvalRequired_for_originalDoi="1" approvalRequired_for_taxonomicNames="29" approvalRequired_for_textStreams="2" approvalRequired_for_treatments="46" checkinTime="1585778501182" checkinUser="plazi" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="03BD87A2C66CA21EFF54F6C8FB1F53FA" docLanguage="en" docName="hbmw_9_Hipposideridae_210.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Hipposideros doriae" docType="treatment" docVersion="15" lastPageNumber="253" masterDocId="FF84FFDAC676A204FFF8FF9AFFEF4346" masterDocTitle="Hipposideridae" masterLastPageNumber="258" masterPageNumber="227" pageNumber="253" updateTime="1654111281024" updateUser="valdenar">
+<document ID-DOI="http://doi.org/10.5281/zenodo.3739808" ID-GBIF-Dataset="b7e93c79-44a6-4d9c-8b78-dcb62033fb0d" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="3739808" approvalRequired="13" approvalRequired_for_treatments="13" checkinTime="1585778501182" checkinUser="plazi" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="03BD87A2C66CA21EFF54F6C8FB1F53FA" docLanguage="en" docName="hbmw_9_Hipposideridae_210.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Hipposideros doriae" docType="treatment" docVersion="17" lastPageNumber="253" masterDocId="FF84FFDAC676A204FFF8FF9AFFEF4346" masterDocTitle="Hipposideridae" masterLastPageNumber="258" masterPageNumber="227" pageNumber="253" updateTime="1658321659381" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Hipposideridae</mods:title>
@@ -41,7 +41,7 @@
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">3739808</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.3810894" ID-Zenodo-Dep="3810894" LSID="urn:lsid:plazi:treatment:03BD87A2C66CA21EFF54F6C8FB1F53FA" httpUri="http://treatment.plazi.org/id/03BD87A2C66CA21EFF54F6C8FB1F53FA" lastPageNumber="253" pageId="26" pageNumber="253">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.3810894" ID-GBIF-Taxon="163433770" ID-Zenodo-Dep="3810894" LSID="urn:lsid:plazi:treatment:03BD87A2C66CA21EFF54F6C8FB1F53FA" httpUri="http://treatment.plazi.org/id/03BD87A2C66CA21EFF54F6C8FB1F53FA" lastPageNumber="253" pageId="26" pageNumber="253">
 <heading pageId="26" pageNumber="253">
 <subSubSection box="[172,250,2386,2447]" pageId="26" pageNumber="253" type="multiple">
 <paragraph blockId="26.[168,1514,2385,2541]" box="[172,250,2386,2447]" pageId="26" pageNumber="253">
@@ -76,11 +76,15 @@
 </paragraph>
 </subSubSection>
 </heading>
-<subSubSection pageId="26" pageNumber="253" type="reference_group">
-<paragraph blockId="26.[982,1786,2616,3183]" pageId="26" pageNumber="253">
+<subSubSection box="[990,1785,2616,2655]" pageId="26" pageNumber="253" type="reference_group">
+<paragraph blockId="26.[982,1786,2616,3183]" box="[990,1785,2616,2655]" pageId="26" pageNumber="253">
 <emphasis bold="true" box="[990,1201,2616,2655]" pageId="26" pageNumber="253">Taxonomy.</emphasis>
 <taxonomicName authority="Peters, 1871" authorityName="Peters" authorityYear="1871" box="[1216,1778,2616,2655]" class="Mammalia" family="Hipposideridae" genus="Phyllorhina" higherTaxonomySource="GBIF" kingdom="Animalia" order="Chiroptera" pageId="26" pageNumber="253" phylum="Chordata" rank="species" species="doriae">Phyllorhina doriae Peters, 1871</taxonomicName>
-, 
+,
+</paragraph>
+</subSubSection>
+<subSubSection box="[991,1595,2669,2708]" pageId="26" pageNumber="253" type="materials_examined">
+<paragraph blockId="26.[982,1786,2616,3183]" box="[991,1595,2669,2708]" pageId="26" pageNumber="253">
 <materialsCitation ID-GBIF-Occurrence="3753598314" box="[991,1595,2669,2708]" pageId="26" pageNumber="253">
 “ 
 <collectingCountry box="[1008,1163,2669,2708]" name="Malaysia" pageId="26" pageNumber="253">Sarawak</collectingCountry>
@@ -89,6 +93,8 @@ auf Borneo,”
 .
 </materialsCitation>
 </paragraph>
+</subSubSection>
+<subSubSection pageId="26" pageNumber="253" type="discussion">
 <paragraph blockId="26.[982,1786,2616,3183]" pageId="26" pageNumber="253">
 <taxonomicName baseAuthorityName="Peters" baseAuthorityYear="1871" box="[991,1335,2723,2762]" class="Mammalia" family="Hipposideridae" genus="Hipposideros" kingdom="Animalia" order="Chiroptera" pageId="26" pageNumber="253" phylum="Chordata" rank="species" species="doriae">Hipposideros doriae</taxonomicName>
 was formerly included in the 
@@ -109,11 +115,10 @@ Malay Peninsula,
 </caption>
 </subSubSection>
 <subSubSection pageId="26" pageNumber="253" type="description">
-<paragraph blockId="26.[982,1786,2616,3183]" box="[990,1782,3144,3183]" pageId="26" pageNumber="253">
+<paragraph blockId="26.[982,1786,2616,3183]" lastBlockId="26.[165,1785,3194,4284]" pageId="26" pageNumber="253">
 <emphasis bold="true" box="[990,1341,3144,3183]" pageId="26" pageNumber="253">Descriptive notes.</emphasis>
-Forearm 34-37 mm.
+Forearm 34-37 mm. Noseleaf of the Bornean Leaf-nosed Bat is dark brown, very narrow, and lacks supplementary leaflet. Intemarial septum is short and parallel-sided. Posterior leaf lacks vertical septa. Pelage is grayish brown to dark brown.
 </paragraph>
-<paragraph blockId="26.[165,1785,3194,4284]" pageId="26" pageNumber="253">Noseleaf of the Bornean Leaf-nosed Bat is dark brown, very narrow, and lacks supplementary leaflet. Intemarial septum is short and parallel-sided. Posterior leaf lacks vertical septa. Pelage is grayish brown to dark brown.</paragraph>
 </subSubSection>
 <subSubSection pageId="26" pageNumber="253" type="biology_ecology">
 <paragraph blockId="26.[165,1785,3194,4284]" pageId="26" pageNumber="253">

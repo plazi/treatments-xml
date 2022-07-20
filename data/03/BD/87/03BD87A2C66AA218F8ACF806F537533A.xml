@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.3739808" ID-GBIF-Dataset="b7e93c79-44a6-4d9c-8b78-dcb62033fb0d" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="3739808" approvalRequired="13" approvalRequired_for_treatments="13" checkinTime="1585778501182" checkinUser="plazi" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="03BD87A2C66AA218F8ACF806F537533A" docLanguage="en" docName="hbmw_9_Hipposideridae_210.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Hipposideros kunzi Murray et al. 2018" docType="treatment" docVersion="17" lastPageNumber="255" masterDocId="FF84FFDAC676A204FFF8FF9AFFEF4346" masterDocTitle="Hipposideridae" masterLastPageNumber="258" masterPageNumber="227" pageNumber="255" updateTime="1654534341575" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.3739808" ID-GBIF-Dataset="b7e93c79-44a6-4d9c-8b78-dcb62033fb0d" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="3739808" approvalRequired="13" approvalRequired_for_treatments="13" checkinTime="1585778501182" checkinUser="plazi" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="03BD87A2C66AA218F8ACF806F537533A" docLanguage="en" docName="hbmw_9_Hipposideridae_210.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Hipposideros kunzi Murray et al. 2018" docType="treatment" docVersion="19" lastPageNumber="255" masterDocId="FF84FFDAC676A204FFF8FF9AFFEF4346" masterDocTitle="Hipposideridae" masterLastPageNumber="258" masterPageNumber="227" pageNumber="255" updateTime="1658321659381" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Hipposideridae</mods:title>
@@ -41,7 +41,7 @@
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">3739808</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.3810880" ID-Zenodo-Dep="3810880" LSID="urn:lsid:plazi:treatment:03BD87A2C66AA218F8ACF806F537533A" httpUri="http://treatment.plazi.org/id/03BD87A2C66AA218F8ACF806F537533A" lastPageNumber="255" pageId="28" pageNumber="255">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.3810880" ID-GBIF-Taxon="163433777" ID-Zenodo-Dep="3810880" LSID="urn:lsid:plazi:treatment:03BD87A2C66AA218F8ACF806F537533A" httpUri="http://treatment.plazi.org/id/03BD87A2C66AA218F8ACF806F537533A" lastPageNumber="255" pageId="28" pageNumber="255">
 <heading pageId="28" pageNumber="255">
 <subSubSection box="[1876,1955,1948,2009]" pageId="28" pageNumber="255" type="multiple">
 <paragraph blockId="28.[1873,3151,1948,2110]" box="[1876,1955,1948,2009]" pageId="28" pageNumber="255">
@@ -82,8 +82,12 @@
 <subSubSection pageId="28" pageNumber="255" type="reference_group">
 <paragraph blockId="28.[2695,3497,2183,2751]" pageId="28" pageNumber="255">
 <emphasis bold="true" box="[2696,2909,2183,2222]" pageId="28" pageNumber="255">Taxonomy.</emphasis>
-<taxonomicName authority="Murray" authorityName="Murray" box="[2936,3442,2183,2222]" class="Mammalia" family="Hipposideridae" genus="Hipposideros" kingdom="Animalia" order="Chiroptera" pageId="28" pageNumber="255" phylum="Chordata" rank="species" species="kunzi">Hipposideros kunzi Murray</taxonomicName>
-et al, 2018, 
+<taxonomicName authority="Murray" authorityName="Murray" class="Mammalia" family="Hipposideridae" genus="Hipposideros" kingdom="Animalia" order="Chiroptera" pageId="28" pageNumber="255" phylum="Chordata" rank="species" species="kunzi">Hipposideros kunzi Murray et al, 2018</taxonomicName>
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="28" pageNumber="255" type="materials_examined">
+<paragraph blockId="28.[2695,3497,2183,2751]" pageId="28" pageNumber="255">
 <materialsCitation ID-GBIF-Occurrence="3753598320" latitude="3.596" longitude="102.18305" pageId="28" pageNumber="255">
 “Bukit Rengit, Krau Wildlife Reserve, 
 <collectingRegion box="[2869,3015,2288,2327]" country="Malaysia" name="Pahang" pageId="28" pageNumber="255">Pahang</collectingRegion>
@@ -98,6 +102,8 @@ et al, 2018,
 ).”
 </materialsCitation>
 </paragraph>
+</subSubSection>
+<subSubSection pageId="28" pageNumber="255" type="discussion">
 <paragraph blockId="28.[2695,3497,2183,2751]" pageId="28" pageNumber="255">
 <taxonomicName authorityName="Murray et al." authorityYear="2018" box="[2696,3029,2447,2486]" class="Mammalia" family="Hipposideridae" genus="Hipposideros" kingdom="Animalia" order="Chiroptera" pageId="28" pageNumber="255" phylum="Chordata" rank="species" species="kunzi">Hipposideros kunzi</taxonomicName>
 was initially referred to as “Mbicolor-Y42. kHz” by T. Kingston and colleagues in 2001 and provisionally designated 
