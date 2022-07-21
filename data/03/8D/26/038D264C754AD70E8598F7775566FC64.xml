@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6576920" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6576920" approvalRequired="7" approvalRequired_for_taxonomicNames="6" approvalRequired_for_treatments="1" checkinTime="1600876003125" checkinUser="plazi" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="038D264C754AD70E8598F7775566FC64" docLanguage="en" docName="hbmw_9_Nycteridae_374.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Nycteris macrotis Dobson 1876" docType="treatment" docVersion="4" lastPageNumber="385" masterDocId="FFB45E34754FD70B851AFFEF527EFFBD" masterDocTitle="Nycteridae" masterLastPageNumber="386" masterPageNumber="374" pageNumber="385" updateTime="1653398926731" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6576920" ID-GBIF-Dataset="3e6d4b74-5d99-4155-a5de-5c8585abf1c8" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6576920" checkinTime="1600876003125" checkinUser="plazi" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="038D264C754AD70E8598F7775566FC64" docLanguage="en" docName="hbmw_9_Nycteridae_374.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Nycteris macrotis Dobson 1876" docType="treatment" docVersion="7" lastPageNumber="385" masterDocId="FFB45E34754FD70B851AFFEF527EFFBD" masterDocTitle="Nycteridae" masterLastPageNumber="386" masterPageNumber="374" pageNumber="385" updateTime="1658410325563" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Nycteridae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6576920</mods:identifier>
+<mods:identifier type="GBIF-Dataset">3e6d4b74-5d99-4155-a5de-5c8585abf1c8</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6576920</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6418677" ID-Zenodo-Dep="6418677" LSID="urn:lsid:plazi:treatment:038D264C754AD70E8598F7775566FC64" httpUri="http://treatment.plazi.org/id/038D264C754AD70E8598F7775566FC64" lastPageNumber="385" pageId="5" pageNumber="385">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6418677" ID-GBIF-Taxon="195828958" ID-Zenodo-Dep="6418677" LSID="urn:lsid:plazi:treatment:038D264C754AD70E8598F7775566FC64" httpUri="http://treatment.plazi.org/id/038D264C754AD70E8598F7775566FC64" lastPageNumber="385" pageId="5" pageNumber="385">
 <subSubSection box="[130,185,2200,2246]" pageId="5" pageNumber="385" type="multiple">
 <paragraph blockId="5.[125,1100,2200,2324]" box="[130,185,2200,2246]" pageId="5" pageNumber="385">
 <heading box="[130,185,2200,2246]" pageId="5" pageNumber="385">
@@ -82,16 +83,22 @@
 </heading>
 </paragraph>
 </subSubSection>
-<subSubSection pageId="5" pageNumber="385" type="reference_group">
-<paragraph blockId="5.[740,1333,2375,2798]" pageId="5" pageNumber="385">
+<subSubSection box="[740,1329,2375,2404]" pageId="5" pageNumber="385" type="reference_group">
+<paragraph blockId="5.[740,1333,2375,2798]" box="[740,1329,2375,2404]" pageId="5" pageNumber="385">
 <emphasis bold="true" box="[740,895,2375,2404]" pageId="5" pageNumber="385">Taxonomy.</emphasis>
 <taxonomicName authority="Dobson, 1876" authorityName="Dobson" authorityYear="1876" box="[908,1325,2375,2404]" class="Mammalia" family="Nycteridae" genus="Nycteris" kingdom="Animalia" order="Chiroptera" pageId="5" pageNumber="385" phylum="Chordata" rank="species" species="macrotis">Nycteris macrotis Dobson, 1876</taxonomicName>
-, 
-<materialsCitation box="[741,928,2414,2443]" pageId="5" pageNumber="385">
+,
+</paragraph>
+</subSubSection>
+<subSubSection box="[741,928,2414,2443]" pageId="5" pageNumber="385" type="materials_examined">
+<paragraph blockId="5.[740,1333,2375,2798]" box="[741,928,2414,2443]" pageId="5" pageNumber="385">
+<materialsCitation ID-GBIF-Occurrence="3804723308" box="[741,928,2414,2443]" pageId="5" pageNumber="385">
 <collectingCountry box="[741,924,2414,2443]" name="Sierra Leone" pageId="5" pageNumber="385">Sierra Leone</collectingCountry>
 .
 </materialsCitation>
 </paragraph>
+</subSubSection>
+<subSubSection pageId="5" pageNumber="385" type="discussion">
 <paragraph blockId="5.[740,1333,2375,2798]" lastBlockId="5.[124,1331,2804,3468]" pageId="5" pageNumber="385">
 <taxonomicName authorityName="Dobson" authorityYear="1876" box="[741,964,2450,2483]" class="Mammalia" family="Nycteridae" genus="Nycteris" kingdom="Animalia" order="Chiroptera" pageId="5" pageNumber="385" phylum="Chordata" rank="species" species="macrotis">Nycteris macrotis</taxonomicName>
 belongs to the 

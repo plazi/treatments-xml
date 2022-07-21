@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6576920" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6576920" approvalRequired="7" approvalRequired_for_taxonomicNames="6" approvalRequired_for_treatments="1" checkinTime="1600876003125" checkinUser="plazi" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="038D264C7549D70D85A8FEE453F0F923" docLanguage="en" docName="hbmw_9_Nycteridae_374.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Nycteris woodi K. Andersen 1914" docType="treatment" docVersion="4" lastPageNumber="386" masterDocId="FFB45E34754FD70B851AFFEF527EFFBD" masterDocTitle="Nycteridae" masterLastPageNumber="386" masterPageNumber="374" pageNumber="386" updateTime="1653398926731" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6576920" ID-GBIF-Dataset="3e6d4b74-5d99-4155-a5de-5c8585abf1c8" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6576920" checkinTime="1600876003125" checkinUser="plazi" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="038D264C7549D70D85A8FEE453F0F923" docLanguage="en" docName="hbmw_9_Nycteridae_374.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Nycteris woodi K. Andersen 1914" docType="treatment" docVersion="7" lastPageNumber="386" masterDocId="FFB45E34754FD70B851AFFEF527EFFBD" masterDocTitle="Nycteridae" masterLastPageNumber="386" masterPageNumber="374" pageNumber="386" updateTime="1658410325563" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Nycteridae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6576920</mods:identifier>
+<mods:identifier type="GBIF-Dataset">3e6d4b74-5d99-4155-a5de-5c8585abf1c8</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6576920</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6418702" ID-Zenodo-Dep="6418702" LSID="urn:lsid:plazi:treatment:038D264C7549D70D85A8FEE453F0F923" httpUri="http://treatment.plazi.org/id/038D264C7549D70D85A8FEE453F0F923" lastPageNumber="386" pageId="6" pageNumber="386">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6418702" ID-GBIF-Taxon="195828962" ID-Zenodo-Dep="6418702" LSID="urn:lsid:plazi:treatment:038D264C7549D70D85A8FEE453F0F923" httpUri="http://treatment.plazi.org/id/038D264C7549D70D85A8FEE453F0F923" lastPageNumber="386" pageId="6" pageNumber="386">
 <subSubSection box="[178,234,267,313]" pageId="6" pageNumber="386" type="multiple">
 <paragraph blockId="6.[174,1024,267,395]" box="[178,234,267,313]" pageId="6" pageNumber="386">
 <heading box="[178,234,267,313]" pageId="6" pageNumber="386">
@@ -84,8 +85,12 @@
 <paragraph blockId="6.[788,1381,441,864]" pageId="6" pageNumber="386">
 <emphasis bold="true" box="[789,944,441,470]" pageId="6" pageNumber="386">Taxonomy.</emphasis>
 <taxonomicName authority="K. Andersen, 1914" authorityName="K. Andersen" authorityYear="1914" class="Mammalia" family="Nycteridae" genus="Nycteris" kingdom="Animalia" order="Chiroptera" pageId="6" pageNumber="386" phylum="Chordata" rank="species" species="woodi">Nycteris woodi K. Andersen, 1914</taxonomicName>
-, 
-<materialsCitation pageId="6" pageNumber="386">
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="6" pageNumber="386" type="materials_examined">
+<paragraph blockId="6.[788,1381,441,864]" pageId="6" pageNumber="386">
+<materialsCitation ID-GBIF-Occurrence="3804723313" pageId="6" pageNumber="386">
 “Chilanga, N.W. 
 <collectingCountry box="[1123,1252,475,508]" name="Zimbabwe" pageId="6" pageNumber="386">Rhodesia</collectingCountry>
 [= 
@@ -95,6 +100,8 @@
 ].”
 </materialsCitation>
 </paragraph>
+</subSubSection>
+<subSubSection pageId="6" pageNumber="386" type="discussion">
 <paragraph blockId="6.[788,1381,441,864]" pageId="6" pageNumber="386">
 <taxonomicName authorityName="E. Geoffroy &amp; G. Cuvier" authorityYear="1795" box="[790,984,555,588]" class="Mammalia" family="Nycteridae" genus="Nycteris" kingdom="Animalia" order="Chiroptera" pageId="6" pageNumber="386" phylum="Chordata" rank="species" species="wood">Nycteris wood</taxonomicName>
 : belongs to the 

@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6576920" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6576920" approvalRequired="7" approvalRequired_for_taxonomicNames="6" approvalRequired_for_treatments="1" checkinTime="1600876003125" checkinUser="plazi" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="038D264C754BD70E80B3F9A3531CFE13" docLanguage="en" docName="hbmw_9_Nycteridae_374.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Nycteris grandis Peters 1865" docType="treatment" docVersion="4" lastPageNumber="384" masterDocId="FFB45E34754FD70B851AFFEF527EFFBD" masterDocTitle="Nycteridae" masterLastPageNumber="386" masterPageNumber="374" pageNumber="384" updateTime="1653398926731" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6576920" ID-GBIF-Dataset="3e6d4b74-5d99-4155-a5de-5c8585abf1c8" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6576920" checkinTime="1600876003125" checkinUser="plazi" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="038D264C754BD70E80B3F9A3531CFE13" docLanguage="en" docName="hbmw_9_Nycteridae_374.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Nycteris grandis Peters 1865" docType="treatment" docVersion="7" lastPageNumber="384" masterDocId="FFB45E34754FD70B851AFFEF527EFFBD" masterDocTitle="Nycteridae" masterLastPageNumber="386" masterPageNumber="374" pageNumber="384" updateTime="1658410325563" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Nycteridae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6576920</mods:identifier>
+<mods:identifier type="GBIF-Dataset">3e6d4b74-5d99-4155-a5de-5c8585abf1c8</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6576920</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6491555" ID-Zenodo-Dep="6491555" LSID="urn:lsid:plazi:treatment:038D264C754BD70E80B3F9A3531CFE13" httpUri="http://treatment.plazi.org/id/038D264C754BD70E80B3F9A3531CFE13" lastPageId="5" lastPageNumber="384" pageId="4" pageNumber="384">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6491555" ID-GBIF-Taxon="195828956" ID-Zenodo-Dep="6491555" LSID="urn:lsid:plazi:treatment:038D264C754BD70E80B3F9A3531CFE13" httpUri="http://treatment.plazi.org/id/038D264C754BD70E80B3F9A3531CFE13" lastPageId="5" lastPageNumber="384" pageId="4" pageNumber="384">
 <subSubSection box="[1449,1481,1612,1658]" pageId="4" pageNumber="384" type="multiple">
 <paragraph blockId="4.[1448,2255,1612,1700]" box="[1449,1481,1612,1658]" pageId="4" pageNumber="384">
 <heading box="[1449,1481,1612,1658]" pageId="4" pageNumber="384">
@@ -76,17 +77,23 @@
 </heading>
 </paragraph>
 </subSubSection>
-<subSubSection pageId="4" pageNumber="384" type="reference_group">
-<paragraph blockId="4.[2060,2654,1748,2172]" pageId="4" pageNumber="384">
+<subSubSection box="[2060,2651,1748,1777]" pageId="4" pageNumber="384" type="reference_group">
+<paragraph blockId="4.[2060,2654,1748,2172]" box="[2060,2651,1748,1777]" pageId="4" pageNumber="384">
 <emphasis bold="true" box="[2060,2216,1748,1777]" pageId="4" pageNumber="384">Taxonomy.</emphasis>
 <taxonomicName authority="Peters, 1865" authorityName="Peters" authorityYear="1865" box="[2237,2647,1748,1777]" class="Mammalia" family="Nycteridae" genus="Nycteris" kingdom="Animalia" order="Chiroptera" pageId="4" pageNumber="384" phylum="Chordata" rank="species" species="grandis">Nycteris grandis Peters, 1865</taxonomicName>
-, 
-<materialsCitation box="[2061,2196,1783,1816]" pageId="4" pageNumber="384">
+,
+</paragraph>
+</subSubSection>
+<subSubSection box="[2061,2196,1783,1816]" pageId="4" pageNumber="384" type="materials_examined">
+<paragraph blockId="4.[2060,2654,1748,2172]" box="[2061,2196,1783,1816]" pageId="4" pageNumber="384">
+<materialsCitation ID-GBIF-Occurrence="3804723306" box="[2061,2196,1783,1816]" pageId="4" pageNumber="384">
 “ 
 <collectingCountry box="[2075,2177,1783,1816]" name="Guinea-Bissau" pageId="4" pageNumber="384">Guinea</collectingCountry>
 .”
 </materialsCitation>
 </paragraph>
+</subSubSection>
+<subSubSection pageId="4" pageNumber="384" type="discussion">
 <paragraph blockId="4.[2060,2654,1748,2172]" pageId="4" pageNumber="384">
 <taxonomicName authorityName="Peters" authorityYear="1865" box="[2061,2279,1827,1856]" class="Mammalia" family="Nycteridae" genus="Nycteris" kingdom="Animalia" order="Chiroptera" pageId="4" pageNumber="384" phylum="Chordata" rank="species" species="grandis">Nycteris grandis</taxonomicName>
 belongs to the 

@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6576920" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6576920" approvalRequired="7" approvalRequired_for_taxonomicNames="6" approvalRequired_for_treatments="1" checkinTime="1600876003125" checkinUser="plazi" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="038D264C754CD708859DF7CA5AB3FE66" docLanguage="en" docName="hbmw_9_Nycteridae_374.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Nycteris intermedia Aellen 1959" docType="treatment" docVersion="4" lastPageNumber="383" masterDocId="FFB45E34754FD70B851AFFEF527EFFBD" masterDocTitle="Nycteridae" masterLastPageNumber="386" masterPageNumber="374" pageNumber="383" updateTime="1653398926731" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6576920" ID-GBIF-Dataset="3e6d4b74-5d99-4155-a5de-5c8585abf1c8" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6576920" checkinTime="1600876003125" checkinUser="plazi" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="038D264C754CD708859DF7CA5AB3FE66" docLanguage="en" docName="hbmw_9_Nycteridae_374.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Nycteris intermedia Aellen 1959" docType="treatment" docVersion="7" lastPageNumber="383" masterDocId="FFB45E34754FD70B851AFFEF527EFFBD" masterDocTitle="Nycteridae" masterLastPageNumber="386" masterPageNumber="374" pageNumber="383" updateTime="1658410325563" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Nycteridae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6576920</mods:identifier>
+<mods:identifier type="GBIF-Dataset">3e6d4b74-5d99-4155-a5de-5c8585abf1c8</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6576920</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6418569" ID-Zenodo-Dep="6418569" LSID="urn:lsid:plazi:treatment:038D264C754CD708859DF7CA5AB3FE66" httpUri="http://treatment.plazi.org/id/038D264C754CD708859DF7CA5AB3FE66" lastPageNumber="383" pageId="3" pageNumber="383">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6418569" ID-GBIF-Taxon="195828951" ID-Zenodo-Dep="6418569" LSID="urn:lsid:plazi:treatment:038D264C754CD708859DF7CA5AB3FE66" httpUri="http://treatment.plazi.org/id/038D264C754CD708859DF7CA5AB3FE66" lastPageNumber="383" pageId="3" pageNumber="383">
 <subSubSection box="[135,166,2085,2135]" pageId="3" pageNumber="383" type="multiple">
 <paragraph blockId="3.[133,1149,2085,2176]" box="[135,166,2085,2135]" pageId="3" pageNumber="383">
 <heading box="[135,166,2085,2135]" pageId="3" pageNumber="383">
@@ -80,13 +81,19 @@
 <paragraph blockId="3.[747,1341,2219,2648]" pageId="3" pageNumber="383">
 <emphasis bold="true" box="[747,902,2219,2252]" pageId="3" pageNumber="383">Taxonomy.</emphasis>
 <taxonomicName authority="Aellen, 1959" authorityName="Aellen" authorityYear="1959" class="Mammalia" family="Nycteridae" genus="Nycteris" kingdom="Animalia" order="Chiroptera" pageId="3" pageNumber="383" phylum="Chordata" rank="species" species="intermedia">Nycteris intermedia Aellen, 1959</taxonomicName>
-, 
-<materialsCitation box="[830,1216,2267,2292]" pageId="3" pageNumber="383">
+,
+</paragraph>
+</subSubSection>
+<subSubSection box="[830,1216,2267,2292]" pageId="3" pageNumber="383" type="materials_examined">
+<paragraph blockId="3.[747,1341,2219,2648]" box="[830,1216,2267,2292]" pageId="3" pageNumber="383">
+<materialsCitation ID-GBIF-Occurrence="3804723310" box="[830,1216,2267,2292]" pageId="3" pageNumber="383">
 Adiopodoume, 
 <collectingCountry box="[1054,1213,2267,2292]" name="Ivory Coast" pageId="3" pageNumber="383">Ivory Coast</collectingCountry>
 .
 </materialsCitation>
 </paragraph>
+</subSubSection>
+<subSubSection pageId="3" pageNumber="383" type="discussion">
 <paragraph blockId="3.[747,1341,2219,2648]" pageId="3" pageNumber="383">
 <taxonomicName authorityName="Aellen" authorityYear="1959" box="[748,1004,2298,2331]" class="Mammalia" family="Nycteridae" genus="Nycteris" kingdom="Animalia" order="Chiroptera" pageId="3" pageNumber="383" phylum="Chordata" rank="species" species="intermedia">Nycteris intermedia</taxonomicName>
 belongs to the arge group. It was previously considered conspecific with 

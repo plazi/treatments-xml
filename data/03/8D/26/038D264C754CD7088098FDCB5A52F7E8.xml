@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6576920" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6576920" approvalRequired="7" approvalRequired_for_taxonomicNames="6" approvalRequired_for_treatments="1" checkinTime="1600876003125" checkinUser="plazi" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="038D264C754CD7088098FDCB5A52F7E8" docLanguage="en" docName="hbmw_9_Nycteridae_374.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Nycteris nana K. Andersen 1912" docType="treatment" docVersion="4" lastPageNumber="383" masterDocId="FFB45E34754FD70B851AFFEF527EFFBD" masterDocTitle="Nycteridae" masterLastPageNumber="386" masterPageNumber="374" pageNumber="383" updateTime="1653398926731" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6576920" ID-GBIF-Dataset="3e6d4b74-5d99-4155-a5de-5c8585abf1c8" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6576920" checkinTime="1600876003125" checkinUser="plazi" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="038D264C754CD7088098FDCB5A52F7E8" docLanguage="en" docName="hbmw_9_Nycteridae_374.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Nycteris nana K. Andersen 1912" docType="treatment" docVersion="7" lastPageNumber="383" masterDocId="FFB45E34754FD70B851AFFEF527EFFBD" masterDocTitle="Nycteridae" masterLastPageNumber="386" masterPageNumber="374" pageNumber="383" updateTime="1658410325563" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Nycteridae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6576920</mods:identifier>
+<mods:identifier type="GBIF-Dataset">3e6d4b74-5d99-4155-a5de-5c8585abf1c8</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6576920</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6418593" ID-Zenodo-Dep="6418593" LSID="urn:lsid:plazi:treatment:038D264C754CD7088098FDCB5A52F7E8" httpUri="http://treatment.plazi.org/id/038D264C754CD7088098FDCB5A52F7E8" lastPageNumber="383" pageId="3" pageNumber="383">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6418593" ID-GBIF-Taxon="195828952" ID-Zenodo-Dep="6418593" LSID="urn:lsid:plazi:treatment:038D264C754CD7088098FDCB5A52F7E8" httpUri="http://treatment.plazi.org/id/038D264C754CD7088098FDCB5A52F7E8" lastPageNumber="383" pageId="3" pageNumber="383">
 <subSubSection box="[1410,1442,548,594]" pageId="3" pageNumber="383" type="multiple">
 <paragraph blockId="3.[1408,2206,548,634]" box="[1410,1442,548,594]" pageId="3" pageNumber="383">
 <heading box="[1410,1442,548,594]" pageId="3" pageNumber="383">
@@ -80,8 +81,12 @@
 <paragraph blockId="3.[2021,2616,678,1106]" pageId="3" pageNumber="383">
 <emphasis bold="true" box="[2021,2177,678,711]" pageId="3" pageNumber="383">Taxonomy.</emphasis>
 <taxonomicName authority="K. Andersen, 1912" authorityName="K. Andersen" authorityYear="1912" class="Mammalia" family="Nycteridae" genus="Petalia" kingdom="Animalia" order="Chiroptera" pageId="3" pageNumber="383" phylum="Chordata" rank="species" species="nana">Petalia nana K. Andersen, 1912</taxonomicName>
-, 
-<materialsCitation pageId="3" pageNumber="383">
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="3" pageNumber="383" type="materials_examined">
+<paragraph blockId="3.[2021,2616,678,1106]" pageId="3" pageNumber="383">
+<materialsCitation ID-GBIF-Occurrence="3804723309" pageId="3" pageNumber="383">
 “Benito R[iver]., 
 <collectingCountry box="[2362,2570,721,750]" name="Democratic Republic of the Congo" pageId="3" pageNumber="383">French Congo</collectingCountry>
 [= 
@@ -89,6 +94,8 @@
 ].”
 </materialsCitation>
 </paragraph>
+</subSubSection>
+<subSubSection pageId="3" pageNumber="383" type="discussion">
 <paragraph blockId="3.[2021,2616,678,1106]" box="[2023,2612,796,829]" pageId="3" pageNumber="383">
 <taxonomicName authorityName="K. Andersen" authorityYear="1912" box="[2023,2205,796,829]" class="Mammalia" family="Nycteridae" genus="Nycteris" kingdom="Animalia" order="Chiroptera" pageId="3" pageNumber="383" phylum="Chordata" rank="species" species="nana">Nycteris nana</taxonomicName>
 belongs to the arge group.
