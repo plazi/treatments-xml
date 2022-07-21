@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.5735202" ID-GBIF-Dataset="a1d7ccc4-c76c-4ac3-bdd4-c53c2f378b35" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="5735202" approvalRequired="16" approvalRequired_for_taxonomicNames="13" approvalRequired_for_treatments="3" checkinTime="1600872994229" checkinUser="plazi" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="E84887F9FFC4D64A0ACCF8EE14183AA4" docLanguage="en" docName="hbmw_9_Miniopteridae_674.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Miniopterus petersoni Goodman 2008" docType="treatment" docVersion="9" lastPageNumber="709" masterDocId="1471FF81FFD6D6580A4AFFEC112F3619" masterDocTitle="Miniopteridae" masterLastPageNumber="709" masterPageNumber="674" pageNumber="709" updateTime="1653395389965" updateUser="carolina">
+<document ID-DOI="http://doi.org/10.5281/zenodo.5735202" ID-GBIF-Dataset="a1d7ccc4-c76c-4ac3-bdd4-c53c2f378b35" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="5735202" approvalRequired="11" approvalRequired_for_taxonomicNames="11" checkinTime="1600872994229" checkinUser="plazi" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="E84887F9FFC4D64A0ACCF8EE14183AA4" docLanguage="en" docName="hbmw_9_Miniopteridae_674.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Miniopterus petersoni Goodman 2008" docType="treatment" docVersion="11" lastPageNumber="709" masterDocId="1471FF81FFD6D6580A4AFFEC112F3619" masterDocTitle="Miniopteridae" masterLastPageNumber="709" masterPageNumber="674" pageNumber="709" updateTime="1658408184778" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Miniopteridae</mods:title>
@@ -41,7 +41,7 @@
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">5735202</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.5735361" ID-Zenodo-Dep="5735361" LSID="urn:lsid:plazi:treatment:E84887F9FFC4D64A0ACCF8EE14183AA4" httpUri="http://treatment.plazi.org/id/E84887F9FFC4D64A0ACCF8EE14183AA4" lastPageNumber="709" pageId="18" pageNumber="709">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.5735361" ID-GBIF-Taxon="190874083" ID-Zenodo-Dep="5735361" LSID="urn:lsid:plazi:treatment:E84887F9FFC4D64A0ACCF8EE14183AA4" httpUri="http://treatment.plazi.org/id/E84887F9FFC4D64A0ACCF8EE14183AA4" lastPageNumber="709" pageId="18" pageNumber="709">
 <subSubSection box="[134,191,1794,1840]" pageId="18" pageNumber="709" type="multiple">
 <paragraph blockId="18.[131,1272,1794,1922]" box="[134,191,1794,1840]" pageId="18" pageNumber="709">
 <heading box="[134,191,1794,1840]" pageId="18" pageNumber="709">
@@ -74,10 +74,8 @@
 <emphasis bold="true" box="[474,565,1859,1880]" pageId="18" pageNumber="709">German:</emphasis>
 <vernacularName box="[575,887,1859,1880]" pageId="18" pageNumber="709">Peterson-Langflligelfledermaus</vernacularName>
 / 
-<taxonomicName authority=": Minieptero de Peterson" box="[908,1244,1859,1880]" class="Aves" family="Phasianidae" genus="Spanish" kingdom="Animalia" order="Galliformes" pageId="18" pageNumber="709" phylum="Chordata" rank="genus">
 <emphasis bold="true" box="[908,999,1859,1880]" pageId="18" pageNumber="709">Spanish:</emphasis>
 <vernacularName box="[1009,1244,1859,1880]" pageId="18" pageNumber="709">Miniéptero de Peterson</vernacularName>
-</taxonomicName>
 </heading>
 </paragraph>
 <paragraph blockId="18.[131,1272,1794,1922]" box="[132,667,1897,1918]" pageId="18" pageNumber="709">
@@ -91,7 +89,11 @@
 <paragraph blockId="18.[739,1340,1964,2393]" pageId="18" pageNumber="709">
 <emphasis bold="true" box="[744,895,1964,1997]" pageId="18" pageNumber="709">Taxonomy.</emphasis>
 <taxonomicName authority="Goodman et al., 2008" authorityName="Goodman" authorityYear="2008" class="Mammalia" family="Miniopteridae" genus="Miniopterus" kingdom="Animalia" order="Chiroptera" pageId="18" pageNumber="709" phylum="Chordata" rank="species" species="petersoni">Miniopterus petersoni Goodman et al., 2008</taxonomicName>
-, 
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="18" pageNumber="709" type="materials_examined">
+<paragraph blockId="18.[739,1340,1964,2393]" pageId="18" pageNumber="709">
 <materialsCitation ID-GBIF-Occurrence="3747914306" country="Madagascar" latitude="-24.98905" location="Tolagnaro" longLatPrecision="1" longitude="46.922832" municipality="Cascade de Manantantely" pageId="18" pageNumber="709" specimenCount="65" stateProvince="Province de Toliara">
 “ 
 <collectingCountry box="[886,1048,2013,2038]" name="Madagascar" pageId="18" pageNumber="709">Madagascar</collectingCountry>
@@ -117,6 +119,8 @@ NW of
 ”
 </materialsCitation>
 </paragraph>
+</subSubSection>
+<subSubSection pageId="18" pageNumber="709" type="discussion">
 <paragraph blockId="18.[739,1340,1964,2393]" pageId="18" pageNumber="709">
 <taxonomicName authorityName="Bonaparte" authorityYear="1837" box="[746,1019,2123,2156]" class="Mammalia" family="Miniopteridae" genus="Miniopterus" kingdom="Animalia" order="Chiroptera" pageId="18" pageNumber="709" phylum="Chordata" rank="species" species="peterson">Miniopterus peterson</taxonomicName>
 was formerly included within 

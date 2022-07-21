@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.5735202" ID-GBIF-Dataset="a1d7ccc4-c76c-4ac3-bdd4-c53c2f378b35" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="5735202" approvalRequired="98" approvalRequired_for_document="2" approvalRequired_for_matCits="7" approvalRequired_for_originalDoi="1" approvalRequired_for_taxonomicNames="36" approvalRequired_for_treatments="52" checkinTime="1600872994229" checkinUser="plazi" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="E84887F9FFDBD6560FF1F6B5143F354C" docLanguage="en" docName="hbmw_9_Miniopteridae_674.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Miniopterus africanus Sanborn 1936" docType="treatment" docVersion="7" lastPageNumber="705" masterDocId="1471FF81FFD6D6580A4AFFEC112F3619" masterDocTitle="Miniopteridae" masterLastPageNumber="709" masterPageNumber="674" pageNumber="704" updateTime="1653330680203" updateUser="carolina">
+<document ID-DOI="http://doi.org/10.5281/zenodo.5735202" ID-GBIF-Dataset="a1d7ccc4-c76c-4ac3-bdd4-c53c2f378b35" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="5735202" approvalRequired="11" approvalRequired_for_taxonomicNames="11" checkinTime="1600872994229" checkinUser="plazi" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="E84887F9FFDBD6560FF1F6B5143F354C" docLanguage="en" docName="hbmw_9_Miniopteridae_674.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Miniopterus africanus Sanborn 1936" docType="treatment" docVersion="10" lastPageNumber="705" masterDocId="1471FF81FFD6D6580A4AFFEC112F3619" masterDocTitle="Miniopteridae" masterLastPageNumber="709" masterPageNumber="674" pageNumber="704" updateTime="1658408184778" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Miniopteridae</mods:title>
@@ -41,7 +41,7 @@
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">5735202</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.5735332" ID-Zenodo-Dep="5735332" LSID="urn:lsid:plazi:treatment:E84887F9FFDBD6560FF1F6B5143F354C" httpUri="http://treatment.plazi.org/id/E84887F9FFDBD6560FF1F6B5143F354C" lastPageId="14" lastPageNumber="705" pageId="13" pageNumber="704">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.5735332" ID-GBIF-Taxon="190874038" ID-Zenodo-Dep="5735332" LSID="urn:lsid:plazi:treatment:E84887F9FFDBD6560FF1F6B5143F354C" httpUri="http://treatment.plazi.org/id/E84887F9FFDBD6560FF1F6B5143F354C" lastPageId="14" lastPageNumber="705" pageId="13" pageNumber="704">
 <subSubSection box="[1467,1523,2393,2439]" pageId="13" pageNumber="704" type="multiple">
 <paragraph blockId="13.[1464,2561,2393,2520]" box="[1467,1523,2393,2439]" pageId="13" pageNumber="704">
 <heading box="[1467,1523,2393,2439]" pageId="13" pageNumber="704">
@@ -74,10 +74,8 @@
 <emphasis bold="true" box="[1774,1864,2457,2478]" pageId="13" pageNumber="704">German:</emphasis>
 <vernacularName box="[1873,2187,2457,2478]" pageId="13" pageNumber="704">Ostafrika-Langflugelfledermaus</vernacularName>
 / 
-<taxonomicName authority=": Minidptero" authorityName="Minidptero" box="[2209,2417,2457,2478]" class="Aves" family="Phasianidae" genus="Spanish" kingdom="Animalia" order="Galliformes" pageId="13" pageNumber="704" phylum="Chordata" rank="genus">
 <emphasis bold="true" box="[2209,2300,2457,2478]" pageId="13" pageNumber="704">Spanish:</emphasis>
 <vernacularName box="[2310,2417,2457,2478]" pageId="13" pageNumber="704">Minidptero</vernacularName>
-</taxonomicName>
 de Africa
 </heading>
 </paragraph>
@@ -92,22 +90,25 @@ de Africa
 <paragraph blockId="13.[2077,2670,2563,2990]" pageId="13" pageNumber="704">
 <emphasis bold="true" box="[2077,2233,2563,2596]" pageId="13" pageNumber="704">Taxonomy.</emphasis>
 <taxonomicName authority="Sanborn, 1936" authorityName="Sanborn" authorityYear="1936" class="Mammalia" family="Miniopteridae" genus="Miniopterus" kingdom="Animalia" order="Chiroptera" pageId="13" pageNumber="704" phylum="Chordata" rank="species" species="africanus">Miniopterus africanus Sanborn, 1936</taxonomicName>
-, 
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="13" pageNumber="704" type="materials_examined">
+<paragraph blockId="13.[2077,2670,2563,2990]" pageId="13" pageNumber="704">
 <materialsCitation ID-GBIF-Occurrence="3747914318" pageId="13" pageNumber="704">
 “Sanford’s Ranch, Mulo, northwest of 
 <collectingRegion box="[2120,2307,2651,2676]" country="Ethiopia" name="Adis Abeba" pageId="13" pageNumber="704">Addis Ababa</collectingRegion>
 , Shoa District, 
 <collectingCountry box="[2542,2663,2651,2676]" name="Ethiopia" pageId="13" pageNumber="704">Ethiopia</collectingCountry>
-. 
-<paragraph blockId="13.[2077,2670,2563,2990]" box="[2077,2523,2686,2715]" pageId="13" pageNumber="704">
-Altitude 
+. Altitude 
 <quantity box="[2201,2337,2686,2715]" metricMagnitude="3" metricUnit="m" metricValue="2.4384" pageId="13" pageNumber="704" unit="ft" value="8000.0">8,000 feet</quantity>
 [= 
 <quantity box="[2386,2496,2686,2715]" metricMagnitude="3" metricUnit="m" metricValue="2.438" pageId="13" pageNumber="704" unit="m" value="2438.0">2438 m</quantity>
 ].”
-</paragraph>
 </materialsCitation>
 </paragraph>
+</subSubSection>
+<subSubSection pageId="13" pageNumber="704" type="discussion">
 <paragraph blockId="13.[2077,2670,2563,2990]" pageId="13" pageNumber="704">
 <taxonomicName authorityName="Sanborn" authorityYear="1936" box="[2079,2363,2721,2754]" class="Mammalia" family="Miniopteridae" genus="Miniopterus" kingdom="Animalia" order="Chiroptera" pageId="13" pageNumber="704" phylum="Chordata" rank="species" species="africanus">Miniopterus africanus</taxonomicName>
 was considered a subspecies in the 
