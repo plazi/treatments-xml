@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="347" approvalRequired_for_illustrations="1" approvalRequired_for_matCits="100" approvalRequired_for_taxonomicNames="143" approvalRequired_for_textStreams="2" approvalRequired_for_treatments="101" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FFAC6A13FA93930E1798B0BA" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Eptesicus innoxius" docType="treatment" docVersion="7" lastPageNumber="845" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="845" updateTime="1653077013319" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FFAC6A13FA93930E1798B0BA" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Eptesicus innoxius" docType="treatment" docVersion="10" lastPageNumber="845" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="845" updateTime="1658415534165" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6397752</mods:identifier>
+<mods:identifier type="GBIF-Dataset">45351c32-25dd-422c-bdb2-00e73deb4943</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6568065" ID-Zenodo-Dep="6568065" LSID="urn:lsid:plazi:treatment:4C3D87E8FFAC6A13FA93930E1798B0BA" httpUri="http://treatment.plazi.org/id/4C3D87E8FFAC6A13FA93930E1798B0BA" lastPageNumber="845" pageId="87" pageNumber="845">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6568065" ID-GBIF-Taxon="195628451" ID-Zenodo-Dep="6568065" LSID="urn:lsid:plazi:treatment:4C3D87E8FFAC6A13FA93930E1798B0BA" httpUri="http://treatment.plazi.org/id/4C3D87E8FFAC6A13FA93930E1798B0BA" lastPageNumber="845" pageId="87" pageNumber="845">
 <subSubSection box="[1391,1471,1367,1413]" pageId="87" pageNumber="845" type="multiple">
 <paragraph blockId="87.[1386,2441,1367,1457]" box="[1391,1471,1367,1413]" pageId="87" pageNumber="845">
 <heading box="[1391,1471,1367,1413]" pageId="87" pageNumber="845">
@@ -82,8 +83,12 @@
 <paragraph blockId="87.[1998,2594,1502,1925]" pageId="87" pageNumber="845">
 <emphasis bold="true" box="[1999,2155,1502,1531]" pageId="87" pageNumber="845">Taxonomy.</emphasis>
 <taxonomicName authority="P. Gervais" authorityName="P. Gervais" class="Mammalia" family="Vespertilionidae" genus="Vespertilio" kingdom="Animalia" order="Chiroptera" pageId="87" pageNumber="845" phylum="Chordata" rank="species" species="innoxius">Vespertilio innoxius P. Gervais in Vaillant, 1841</taxonomicName>
-, 
-<materialsCitation box="[2206,2518,1542,1571]" pageId="87" pageNumber="845">
+,
+</paragraph>
+</subSubSection>
+<subSubSection box="[2206,2518,1542,1571]" pageId="87" pageNumber="845" type="materials_examined">
+<paragraph blockId="87.[1998,2594,1502,1925]" box="[2206,2518,1542,1571]" pageId="87" pageNumber="845">
+<materialsCitation ID-GBIF-Occurrence="3783319652" box="[2206,2518,1542,1571]" pageId="87" pageNumber="845">
 Amotape, 
 <collectingRegion box="[2354,2430,1542,1571]" country="Peru" name="Piura" pageId="87" pageNumber="845">Piura</collectingRegion>
 , 
@@ -108,9 +113,7 @@ as synonyms. Monotypic.
 <emphasis bold="true" box="[1999,2175,1656,1689]" pageId="87" pageNumber="845">Distribution.</emphasis>
 Pacific coast from WC 
 <collectingCountry name="Ecuador" pageId="87" pageNumber="845">Ecuador</collectingCountry>
-(including 
-<taxonomicName box="[2216,2288,1696,1729]" class="Magnoliopsida" family="Cactaceae" genus="Puna" kingdom="Plantae" order="Caryophyllales" pageId="87" pageNumber="845" phylum="Tracheophyta" rank="genus">Puna</taxonomicName>
-I) S to NW 
+(including Puna I) S to NW 
 <collectingCountry box="[2457,2525,1696,1729]" name="Peru" pageId="87" pageNumber="845">Peru</collectingCountry>
 .
 </paragraph>

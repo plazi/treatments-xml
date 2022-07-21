@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="231" approvalRequired_for_illustrations="1" approvalRequired_for_matCits="100" approvalRequired_for_taxonomicNames="57" approvalRequired_for_textStreams="2" approvalRequired_for_treatments="71" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FFA36A1CFA4A935E193BB763" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Eptesicus ulapesensis Sanchez, Montani, Tomasco, Diaz &amp; Barquez 2019" docType="treatment" docVersion="5" lastPageNumber="846" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="846" updateTime="1653404785018" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FFA36A1CFA4A935E193BB763" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Eptesicus ulapesensis Sanchez, Montani, Tomasco, Diaz &amp; Barquez 2019" docType="treatment" docVersion="10" lastPageNumber="846" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="846" updateTime="1658415534165" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6397752</mods:identifier>
+<mods:identifier type="GBIF-Dataset">45351c32-25dd-422c-bdb2-00e73deb4943</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:4C3D87E8FFA36A1CFA4A935E193BB763" httpUri="http://treatment.plazi.org/id/4C3D87E8FFA36A1CFA4A935E193BB763" lastPageNumber="846" pageId="88" pageNumber="846">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6580604" ID-GBIF-Taxon="195628458" ID-Zenodo-Dep="6580604" LSID="urn:lsid:plazi:treatment:4C3D87E8FFA36A1CFA4A935E193BB763" httpUri="http://treatment.plazi.org/id/4C3D87E8FFA36A1CFA4A935E193BB763" lastPageNumber="846" pageId="88" pageNumber="846">
 <subSubSection box="[1462,1541,1287,1337]" pageId="88" pageNumber="846" type="multiple">
 <paragraph blockId="88.[1457,2459,1287,1379]" box="[1462,1541,1287,1337]" pageId="88" pageNumber="846">
 <heading box="[1462,1541,1287,1337]" pageId="88" pageNumber="846">
@@ -82,14 +83,18 @@
 <paragraph blockId="88.[2070,2663,1426,1849]" pageId="88" pageNumber="846">
 <emphasis bold="true" box="[2070,2218,1426,1455]" pageId="88" pageNumber="846">Taxonomy.</emphasis>
 <taxonomicName authorityName="Sanchez, Montani, Tomasco, Diaz &amp; Barquez" authorityYear="2019" class="Mammalia" family="Vespertilionidae" genus="Eptesicus" kingdom="Animalia" order="Chiroptera" pageId="88" pageNumber="846" phylum="Chordata" rank="species" species="ulapesensis">Eptesicus ulapesensis R. T. Sanchez ad of, 2019</taxonomicName>
-, 
-<materialsCitation pageId="88" pageNumber="846">
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="88" pageNumber="846" type="materials_examined">
+<paragraph blockId="88.[2070,2663,1426,1849]" pageId="88" pageNumber="846">
+<materialsCitation ID-GBIF-Occurrence="3783319472" latitude="-31.57639" longitude="-66.248604" pageId="88" pageNumber="846">
 Ulapes, 1 kn: 'W of the central plaza, San Martin Department, La Riga Province, 
 <collectingCountry box="[2330,2460,1540,1573]" name="Argentina" pageId="88" pageNumber="846">Argentina</collectingCountry>
 : (
-<geoCoordinate box="[2511,2655,1540,1573]" degrees="31" direction="south" minutes="34" orientation="latitude" pageId="88" pageNumber="846" seconds="357">31°34'357S</geoCoordinate>
+<geoCoordinate box="[2511,2655,1540,1573]" degrees="31" direction="south" minutes="34" orientation="latitude" pageId="88" pageNumber="846" precision="15" seconds="35" value="-31.57639">31°34'35&quot;S</geoCoordinate>
 , 
-<geoCoordinate box="[2072,2228,1580,1613]" pageId="88" pageNumber="846">66°1455&quot;W</geoCoordinate>
+<geoCoordinate box="[2072,2228,1580,1613]" degrees="66" direction="west" minutes="14" orientation="longitude" pageId="88" pageNumber="846" precision="15" seconds="55" value="-66.248604">66°14'55&quot;W</geoCoordinate>
 , 
 <quantity box="[2243,2324,1580,1613]" metricMagnitude="2" metricUnit="m" metricValue="4.95" pageId="88" pageNumber="846" unit="m" value="495.0">495m</quantity>
 .”

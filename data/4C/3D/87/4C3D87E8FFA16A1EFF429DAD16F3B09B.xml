@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="211" approvalRequired_for_illustrations="1" approvalRequired_for_matCits="100" approvalRequired_for_taxonomicNames="39" approvalRequired_for_textStreams="2" approvalRequired_for_treatments="69" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FFA16A1EFF429DAD16F3B09B" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Eptesicus anatolicus Felten 1971" docType="treatment" docVersion="6" lastPageNumber="848" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="848" updateTime="1653409992966" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FFA16A1EFF429DAD16F3B09B" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Eptesicus anatolicus Felten 1971" docType="treatment" docVersion="10" lastPageNumber="848" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="848" updateTime="1658415534165" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6397752</mods:identifier>
+<mods:identifier type="GBIF-Dataset">45351c32-25dd-422c-bdb2-00e73deb4943</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:4C3D87E8FFA16A1EFF429DAD16F3B09B" httpUri="http://treatment.plazi.org/id/4C3D87E8FFA16A1EFF429DAD16F3B09B" lastPageNumber="848" pageId="90" pageNumber="848">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6577830" ID-GBIF-Taxon="195628448" ID-Zenodo-Dep="6577830" LSID="urn:lsid:plazi:treatment:4C3D87E8FFA16A1EFF429DAD16F3B09B" httpUri="http://treatment.plazi.org/id/4C3D87E8FFA16A1EFF429DAD16F3B09B" lastPageNumber="848" pageId="90" pageNumber="848">
 <subSubSection box="[190,270,3060,3106]" pageId="90" pageNumber="848" type="multiple">
 <paragraph blockId="90.[186,1235,3060,3186]" box="[190,270,3060,3106]" pageId="90" pageNumber="848">
 <heading box="[190,270,3060,3106]" pageId="90" pageNumber="848">
@@ -87,12 +88,16 @@ Eptesicus de
 </heading>
 </paragraph>
 </subSubSection>
-<subSubSection box="[187,1139,3230,3263]" pageId="90" pageNumber="848" type="reference_group">
-<paragraph blockId="90.[185,1392,3230,3471]" box="[187,1139,3230,3263]" pageId="90" pageNumber="848">
+<subSubSection box="[187,795,3230,3263]" pageId="90" pageNumber="848" type="reference_group">
+<paragraph blockId="90.[185,1392,3230,3471]" box="[187,795,3230,3263]" pageId="90" pageNumber="848">
 <emphasis bold="true" box="[187,342,3230,3263]" pageId="90" pageNumber="848">Taxonomy.</emphasis>
 <taxonomicName authority="Felten, 1971" authorityName="Felten" authorityYear="1971" box="[353,790,3230,3263]" class="Mammalia" family="Vespertilionidae" genus="Eptesicus" kingdom="Animalia" order="Chiroptera" pageId="90" pageNumber="848" phylum="Chordata" rank="species" species="anatolicus">Eplesicus anatolicus Felten, 1971</taxonomicName>
-, 
-<materialsCitation box="[804,1139,3230,3263]" pageId="90" pageNumber="848">
+,
+</paragraph>
+</subSubSection>
+<subSubSection box="[804,1139,3230,3263]" pageId="90" pageNumber="848" type="materials_examined">
+<paragraph blockId="90.[185,1392,3230,3471]" box="[804,1139,3230,3263]" pageId="90" pageNumber="848">
+<materialsCitation ID-GBIF-Occurrence="3783319728" box="[804,1139,3230,3263]" pageId="90" pageNumber="848">
 Alanya, 
 <collectingRegion box="[916,1023,3230,3263]" country="Turkey" name="Antalya" pageId="90" pageNumber="848">Antalya</collectingRegion>
 , 
@@ -149,9 +154,7 @@ Rhodes I (
 ), S 
 <collectingCountry box="[1950,2046,740,773]" name="Turkey" pageId="90" pageNumber="848">Turkey</collectingCountry>
 , NE 
-<taxonomicName authorityName="Schoenherr" authorityYear="1825" box="[2117,2216,740,773]" class="Insecta" family="Curculionidae" genus="Cyprus" kingdom="Animalia" order="Coleoptera" pageId="90" pageNumber="848" phylum="Arthropoda" rank="genus">
 <collectingCountry box="[2117,2216,740,773]" name="Cyprus" pageId="90" pageNumber="848">Cyprus</collectingCountry>
-</taxonomicName>
 , N 
 <collectingCountry box="[2266,2334,740,773]" name="Syria" pageId="90" pageNumber="848">Syria</collectingCountry>
 , 
