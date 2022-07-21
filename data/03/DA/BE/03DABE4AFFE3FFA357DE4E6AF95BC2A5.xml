@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6606979" ID-GBIF-Dataset="cf4cfe95-51c5-4379-bcbc-1c57bd2884ec" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6606979" approvalRequired="4" approvalRequired_for_document="2" approvalRequired_for_illustrations="2" checkinTime="1600875845620" checkinUser="plazi" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="03DABE4AFFE3FFA357DE4E6AF95BC2A5" docLanguage="en" docName="hbmw_9_Noctilionidae_404.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Noctilio albiventris Desmarest 1818" docType="treatment" docVersion="4" lastPageNumber="411" masterDocId="FFE3C632FFE0FFA057444405FFA9C95B" masterDocTitle="Noctilionidae" masterLastPageNumber="411" masterPageNumber="404" pageNumber="411" updateTime="1654175048642" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6606979" ID-GBIF-Dataset="cf4cfe95-51c5-4379-bcbc-1c57bd2884ec" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6606979" checkinTime="1600875845620" checkinUser="plazi" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="03DABE4AFFE3FFA357DE4E6AF95BC2A5" docLanguage="en" docName="hbmw_9_Noctilionidae_404.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Noctilio albiventris Desmarest 1818" docType="treatment" docVersion="6" lastPageNumber="411" masterDocId="FFE3C632FFE0FFA057444405FFA9C95B" masterDocTitle="Noctilionidae" masterLastPageNumber="411" masterPageNumber="404" pageNumber="411" updateTime="1658405628192" updateUser="valdenar">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Noctilionidae</mods:title>
@@ -41,11 +41,11 @@
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6606979</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6418892" ID-Zenodo-Dep="6418892" LSID="urn:lsid:plazi:treatment:03DABE4AFFE3FFA357DE4E6AF95BC2A5" httpUri="http://treatment.plazi.org/id/03DABE4AFFE3FFA357DE4E6AF95BC2A5" lastPageNumber="411" pageId="3" pageNumber="411">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6418892" ID-GBIF-Taxon="195723809" ID-Zenodo-Dep="6418892" LSID="urn:lsid:plazi:treatment:03DABE4AFFE3FFA357DE4E6AF95BC2A5" httpUri="http://treatment.plazi.org/id/03DABE4AFFE3FFA357DE4E6AF95BC2A5" lastPageNumber="411" pageId="3" pageNumber="411">
 <subSubSection box="[154,185,2671,2717]" pageId="3" pageNumber="411" type="multiple">
 <paragraph blockId="3.[152,996,2671,2760]" box="[154,185,2671,2717]" pageId="3" pageNumber="411">
 <heading box="[154,185,2671,2717]" pageId="3" pageNumber="411">
-<figureCitation box="[154,185,2671,2717]" captionStart="Plate 31: Noctilionidae" captionText="1. Greater Bulldog Bat (Noctilio leporinus), 2. Lesser Bulldog Bat (Noctilio albrventris)" pageId="3" pageNumber="411">2.</figureCitation>
+<figureCitation box="[154,185,2671,2717]" captionStart="Plate 31" captionStartId="2.[774,839,2391,2416]" captionTargetBox="[12,2788,18,2316]" captionTargetPageId="2" captionText="Plate 31 Species Accounts" figureDoi="http://doi.org/10.5281/zenodo.6606993" httpUri="https://zenodo.org/record/6606993/files/figure.png" pageId="3" pageNumber="411">2.</figureCitation>
 </heading>
 </paragraph>
 </subSubSection>
@@ -79,12 +79,16 @@
 </heading>
 </paragraph>
 </subSubSection>
-<subSubSection pageId="3" pageNumber="411" type="reference_group">
-<paragraph blockId="3.[151,1358,2806,3081]" pageId="3" pageNumber="411">
+<subSubSection box="[152,813,2806,2835]" pageId="3" pageNumber="411" type="reference_group">
+<paragraph blockId="3.[151,1358,2806,3081]" box="[152,813,2806,2835]" pageId="3" pageNumber="411">
 <emphasis bold="true" box="[152,307,2806,2835]" pageId="3" pageNumber="411">Taxonomy.</emphasis>
 <taxonomicName authority="Desmarest, 1818" authorityName="Desmarest" authorityYear="1818" box="[323,808,2806,2835]" class="Mammalia" family="Noctilionidae" genus="Noctilio" kingdom="Animalia" order="Chiroptera" pageId="3" pageNumber="411" phylum="Chordata" rank="species" species="albiventris">Noctilio albiventris Desmarest, 1818</taxonomicName>
-, 
-<materialsCitation pageId="3" pageNumber="411">
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="3" pageNumber="411" type="materials_examined">
+<paragraph blockId="3.[151,1358,2806,3081]" pageId="3" pageNumber="411">
+<materialsCitation ID-GBIF-Occurrence="3800754302" pageId="3" pageNumber="411">
 “I’Amérique méridionale.” Restricted by A. Cabrera in 1958 to Rio Sao Francisco, 
 <collectingRegion box="[770,851,2850,2875]" country="Brazil" name="Bahia" pageId="3" pageNumber="411">Bahia</collectingRegion>
 , 
@@ -92,6 +96,8 @@
 </materialsCitation>
 .
 </paragraph>
+</subSubSection>
+<subSubSection pageId="3" pageNumber="411" type="discussion">
 <paragraph blockId="3.[151,1358,2806,3081]" pageId="3" pageNumber="411">
 <taxonomicName authorityName="Desmarest" authorityYear="1818" box="[153,392,2880,2913]" class="Mammalia" family="Noctilionidae" genus="Noctilio" kingdom="Animalia" order="Chiroptera" pageId="3" pageNumber="411" phylum="Chordata" rank="species" species="albiventris">Noctilio albiventris</taxonomicName>
 is paraphyletic with respect to N. 
@@ -203,8 +209,8 @@ Some studies indicate that Lesser Bulldog Bats might be philopatric and very loy
 Classified as Least Concern on The IUCN Red List. No country considers the Lesser Bulldog Bat at any level of risk of extinction. In 
 <collectingCountry box="[2449,2545,2798,2831]" name="Bolivia" pageId="3" pageNumber="411">Bolivia</collectingCountry>
 , some populations might be prone to extirpation because misdirected control of Common Vampire Bat (
-<taxonomicName authorityName="Wied-Neuwied" authorityYear="1826" box="[1624,1753,2877,2910]" class="Mammalia" family="Phyllostomidae" genus="Desmodus" kingdom="Animalia" order="Chiroptera" pageId="3" pageNumber="411" phylum="Chordata" rank="genus">Desmodus</taxonomicName>
-rotundus) can destroy hollow tree roosts.
+<taxonomicName authorityName="Wied-Neuwied" authorityYear="1826" box="[1624,1876,2877,2910]" class="Mammalia" family="Phyllostomidae" genus="Desmodus" kingdom="Animalia" order="Chiroptera" pageId="3" pageNumber="411" phylum="Chordata" rank="species" species="rotundus">Desmodus rotundus</taxonomicName>
+) can destroy hollow tree roosts.
 </paragraph>
 </subSubSection>
 <subSubSection pageId="3" pageNumber="411" type="bibRefCitation_list">

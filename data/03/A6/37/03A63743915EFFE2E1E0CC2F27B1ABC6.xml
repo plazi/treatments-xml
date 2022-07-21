@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6419781" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6419781" approvalRequired="28" approvalRequired_for_taxonomicNames="22" approvalRequired_for_treatments="6" checkinTime="1600874096722" checkinUser="plazi" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="03A63743915EFFE2E1E0CC2F27B1ABC6" docLanguage="en" docName="hbmw_9_Mormoopidae_424.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Pteronotus alitonus" docType="treatment" docVersion="6" lastPageNumber="443" masterDocId="FF9F4F3B9157FFEBE472C9232F51A072" masterDocTitle="Mormoopidae" masterLastPageNumber="443" masterPageNumber="424" pageNumber="443" updateTime="1658173301601" updateUser="valdenar">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6419781" ID-GBIF-Dataset="37ddff76-af79-4681-a698-fc8f6a58bc6c" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6419781" approvalRequired="3" approvalRequired_for_treatments="3" checkinTime="1600874096722" checkinUser="plazi" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="03A63743915EFFE2E1E0CC2F27B1ABC6" docLanguage="en" docName="hbmw_9_Mormoopidae_424.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Pteronotus alitonus" docType="treatment" docVersion="9" lastPageNumber="443" masterDocId="FF9F4F3B9157FFEBE472C9232F51A072" masterDocTitle="Mormoopidae" masterLastPageNumber="443" masterPageNumber="424" pageNumber="443" updateTime="1658404853892" updateUser="valdenar">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Mormoopidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6419781</mods:identifier>
+<mods:identifier type="GBIF-Dataset">37ddff76-af79-4681-a698-fc8f6a58bc6c</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6419781</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6606830" ID-Zenodo-Dep="6606830" LSID="urn:lsid:plazi:treatment:03A63743915EFFE2E1E0CC2F27B1ABC6" httpUri="http://treatment.plazi.org/id/03A63743915EFFE2E1E0CC2F27B1ABC6" lastPageNumber="443" pageId="9" pageNumber="443">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6606830" ID-GBIF-Taxon="197821920" ID-Zenodo-Dep="6606830" LSID="urn:lsid:plazi:treatment:03A63743915EFFE2E1E0CC2F27B1ABC6" httpUri="http://treatment.plazi.org/id/03A63743915EFFE2E1E0CC2F27B1ABC6" lastPageNumber="443" pageId="9" pageNumber="443">
 <subSubSection box="[1426,1481,1292,1338]" pageId="9" pageNumber="443" type="multiple">
 <paragraph blockId="9.[1421,2591,1292,1457]" box="[1426,1481,1292,1338]" pageId="9" pageNumber="443">
 <heading box="[1426,1481,1292,1338]" pageId="9" pageNumber="443">
@@ -88,7 +89,11 @@
 <paragraph blockId="9.[2035,2630,1507,1930]" pageId="9" pageNumber="443">
 <emphasis bold="true" box="[2035,2193,1507,1536]" pageId="9" pageNumber="443">Taxonomy.</emphasis>
 <taxonomicName authority="Pavan, Bobrowiec &amp; Percequillo" class="Mammalia" family="Mormoopidae" genus="Pteronotus" kingdom="Animalia" order="Chiroptera" pageId="9" pageNumber="443" phylum="Chordata" rank="species" species="alitonus">Pteronotus alitonus Pavan, Bobrowiec &amp; Percequillo, 2018</taxonomicName>
-, 
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="9" pageNumber="443" type="materials_examined">
+<paragraph blockId="9.[2035,2630,1507,1930]" pageId="9" pageNumber="443">
 <materialsCitation pageId="9" pageNumber="443">
 “Biological Dynamics of Forest Fragments Project (BDFFP) area, 
 <quantity box="[2263,2354,1625,1654]" metricMagnitude="4" metricUnit="m" metricValue="8.0" pageId="9" pageNumber="443" unit="km" value="80.0">80 km</quantity>
@@ -99,6 +104,8 @@ north of Manaus,
 ).”
 </materialsCitation>
 </paragraph>
+</subSubSection>
+<subSubSection pageId="9" pageNumber="443" type="discussion">
 <paragraph blockId="9.[2035,2630,1507,1930]" pageId="9" pageNumber="443">
 <taxonomicName box="[2036,2169,1743,1772]" class="Mammalia" family="Mormoopidae" genus="Pteronotus" kingdom="Animalia" order="Chiroptera" pageId="9" pageNumber="443" phylum="Chordata" rank="genus">Pteronotus</taxonomicName>
 alitonus was split from P. rubiginosus based on molecular, morphological, and acoustic evidence; it was referred to in some previous molecular studies as 

@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6418929" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6418929" approvalRequired="3" approvalRequired_for_illustrations="2" approvalRequired_for_treatments="1" checkinTime="1600875494076" checkinUser="plazi" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="61143626C158FFE5FF33F68CFD65FC06" docLanguage="en" docName="hbmw_9_Mystacinidae_394.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Mystacina tuberculata" docType="treatment" docVersion="3" lastPageNumber="403" masterDocId="9D2D4E5EC159FFE7FF80F125FF8DFFFF" masterDocTitle="Mystacinidae" masterLastPageNumber="403" masterPageNumber="394" pageNumber="402" updateTime="1654173463372" updateUser="valdenar">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6418929" ID-GBIF-Dataset="de8e617c-31fd-4c7c-9d26-0d89aecc51cc" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6418929" checkinTime="1600875494076" checkinUser="plazi" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="61143626C158FFE5FF33F68CFD65FC06" docLanguage="en" docName="hbmw_9_Mystacinidae_394.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Mystacina tuberculata" docType="treatment" docVersion="6" lastPageNumber="403" masterDocId="9D2D4E5EC159FFE7FF80F125FF8DFFFF" masterDocTitle="Mystacinidae" masterLastPageNumber="403" masterPageNumber="394" pageNumber="402" updateTime="1658405117383" updateUser="valdenar">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Mystacinidae</mods:title>
@@ -37,14 +37,15 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6418929</mods:identifier>
+<mods:identifier type="GBIF-Dataset">de8e617c-31fd-4c7c-9d26-0d89aecc51cc</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6418929</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:61143626C158FFE5FF33F68CFD65FC06" httpUri="http://treatment.plazi.org/id/61143626C158FFE5FF33F68CFD65FC06" lastPageId="2" lastPageNumber="403" pageId="1" pageNumber="402">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6606898" ID-GBIF-Taxon="195723775" ID-Zenodo-Dep="6606898" LSID="urn:lsid:plazi:treatment:61143626C158FFE5FF33F68CFD65FC06" httpUri="http://treatment.plazi.org/id/61143626C158FFE5FF33F68CFD65FC06" lastPageId="2" lastPageNumber="403" pageId="1" pageNumber="402">
 <subSubSection box="[179,208,1961,2007]" pageId="1" pageNumber="402" type="multiple">
 <paragraph blockId="1.[174,1353,1961,2209]" box="[179,208,1961,2007]" pageId="1" pageNumber="402">
 <heading box="[179,208,1961,2007]" pageId="1" pageNumber="402">
-<figureCitation box="[179,208,1961,2007]" captionStart="Plate 30: Mystacinidae" captionText="1. Lesser New Zealand Short-tailed Bat (Mystacina tuberculata), 2. Greater New Zealand Short-tailed Bat (Mystacina robusta)" pageId="1" pageNumber="402">1.</figureCitation>
+<figureCitation box="[179,208,1961,2007]" captionStart="Plate 30" captionStartId="1.[785,850,1608,1633]" captionTargetBox="[11,2803,17,1498]" captionTargetPageId="1" captionText="Plate 30 Species Accounts" figureDoi="http://doi.org/10.5281/zenodo.6606894" httpUri="https://zenodo.org/record/6606894/files/figure.png" pageId="1" pageNumber="402">1.</figureCitation>
 </heading>
 </paragraph>
 </subSubSection>
@@ -77,10 +78,8 @@ Short-tailed Bat
 <emphasis bold="true" box="[449,539,2065,2086]" pageId="1" pageNumber="402">German:</emphasis>
 <vernacularName box="[550,848,2065,2086]" pageId="1" pageNumber="402">Kleine Neuseelandfledermaus</vernacularName>
 / 
-<taxonomicName authority="Murcielago" authorityName="Murcielago" box="[870,1081,2065,2086]" class="Aves" family="Phasianidae" genus="Spanish" kingdom="Animalia" order="Galliformes" pageId="1" pageNumber="402" phylum="Chordata" rank="genus">
 <emphasis bold="true" box="[870,961,2065,2086]" pageId="1" pageNumber="402">Spanish:</emphasis>
 <vernacularName box="[971,1081,2065,2086]" pageId="1" pageNumber="402">Murciélago</vernacularName>
-</taxonomicName>
 neozelandés pequeno
 </heading>
 </paragraph>
@@ -101,9 +100,7 @@ Short-tailed Bat
 <vernacularName box="[299,898,2144,2165]" pageId="1" pageNumber="402">
 Southern Lesser 
 <collectingCountry box="[473,602,2144,2165]" name="New Zealand" pageId="1" pageNumber="402">New Zealand</collectingCountry>
-Short-tailed Bat (
-<taxonomicName box="[781,892,2144,2165]" class="Mammalia" family="Mystacinidae" genus="Mystacina" kingdom="Animalia" order="Chiroptera" pageId="1" pageNumber="402" phylum="Chordata" rank="species" species="tuberculata">tuberculata</taxonomicName>
-)
+Short-tailed Bat (tuberculata)
 </vernacularName>
 , 
 <vernacularName pageId="1" pageNumber="402">
@@ -118,13 +115,19 @@ Shorttailed Bat (rhyacobia)
 <paragraph blockId="1.[788,1381,2258,2677]" pageId="1" pageNumber="402">
 <emphasis bold="true" box="[788,943,2258,2283]" pageId="1" pageNumber="402">Taxonomy.</emphasis>
 <taxonomicName authority="J. E. Gray" authorityName="J. E. Gray" box="[957,1381,2258,2283]" class="Mammalia" family="Mystacinidae" genus="Mystacina" kingdom="Animalia" order="Chiroptera" pageId="1" pageNumber="402" phylum="Chordata" rank="species" species="tuberculata">Mystacina tuberculata J. E. Gray</taxonomicName>
-in Dieffenbach, 1843, 
-<materialsCitation box="[1102,1317,2293,2322]" pageId="1" pageNumber="402">
+in Dieffenbach, 1843,
+</paragraph>
+</subSubSection>
+<subSubSection box="[1102,1317,2293,2322]" pageId="1" pageNumber="402" type="materials_examined">
+<paragraph blockId="1.[788,1381,2258,2677]" box="[1102,1317,2293,2322]" pageId="1" pageNumber="402">
+<materialsCitation ID-GBIF-Occurrence="3800732301" box="[1102,1317,2293,2322]" pageId="1" pageNumber="402">
 “ 
 <collectingCountry box="[1111,1303,2293,2322]" name="New Zealand" pageId="1" pageNumber="402">New Zealand</collectingCountry>
 .”
 </materialsCitation>
 </paragraph>
+</subSubSection>
+<subSubSection pageId="1" pageNumber="402" type="discussion">
 <paragraph blockId="1.[788,1381,2258,2677]" pageId="1" pageNumber="402">Three subspecies recognized based on morphological characteristics, but they are not well supported based on molecular evidence.</paragraph>
 </subSubSection>
 <subSubSection pageId="1" pageNumber="402" type="synonymic_list">
