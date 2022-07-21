@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="39" approvalRequired_for_matCits="1" approvalRequired_for_taxonomicNames="9" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FFF46A54FA849E4E1F6BBD0C" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Pipistrellus maderensis Dobson 1878" docType="treatment" docVersion="4" lastPageNumber="774" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="773" updateTime="1653491089352" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FFF46A54FA849E4E1F6BBD0C" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Pipistrellus maderensis Dobson 1878" docType="treatment" docVersion="6" lastPageNumber="774" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="773" updateTime="1658412944878" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -41,7 +41,7 @@
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:4C3D87E8FFF46A54FA849E4E1F6BBD0C" httpUri="http://treatment.plazi.org/id/4C3D87E8FFF46A54FA849E4E1F6BBD0C" lastPageId="16" lastPageNumber="774" pageId="15" pageNumber="773">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6581211" ID-GBIF-Taxon="195628260" ID-Zenodo-Dep="6581211" LSID="urn:lsid:plazi:treatment:4C3D87E8FFF46A54FA849E4E1F6BBD0C" httpUri="http://treatment.plazi.org/id/4C3D87E8FFF46A54FA849E4E1F6BBD0C" lastPageId="16" lastPageNumber="774" pageId="15" pageNumber="773">
 <subSubSection box="[1400,1456,2071,2121]" pageId="15" pageNumber="773" type="multiple">
 <paragraph blockId="15.[1397,2413,2071,2203]" box="[1400,1456,2071,2121]" pageId="15" pageNumber="773">
 <heading box="[1400,1456,2071,2121]" pageId="15" pageNumber="773">
@@ -93,20 +93,26 @@ de
 </heading>
 </paragraph>
 </subSubSection>
-<paragraph blockId="15.[2010,2605,2245,2673]" lastBlockId="15.[1391,2602,2679,3501]" pageId="15" pageNumber="773">
 <subSubSection pageId="15" pageNumber="773" type="reference_group">
+<paragraph blockId="15.[2010,2605,2245,2673]" pageId="15" pageNumber="773">
 <emphasis bold="true" box="[2010,2166,2245,2278]" pageId="15" pageNumber="773">Taxonomy.</emphasis>
 <taxonomicName authority="Dobson, 1878" authorityName="Dobson" authorityYear="1878" class="Mammalia" family="Vespertilionidae" genus="Vesperugo" kingdom="Animalia" order="Chiroptera" pageId="15" pageNumber="773" phylum="Chordata" rank="species" species="maderensis">Vesperugo maderensis Dobson, 1878</taxonomicName>
-, 
-<materialsCitation box="[2096,2515,2289,2318]" pageId="15" pageNumber="773">
+,
+</paragraph>
+</subSubSection>
+<subSubSection box="[2096,2515,2289,2318]" pageId="15" pageNumber="773" type="materials_examined">
+<paragraph blockId="15.[2010,2605,2245,2673]" box="[2096,2515,2289,2318]" pageId="15" pageNumber="773">
+<materialsCitation ID-GBIF-Occurrence="3783319318" box="[2096,2515,2289,2318]" pageId="15" pageNumber="773">
 “ 
 <collectingRegion box="[2106,2224,2289,2318]" country="Portugal" name="Madeira" pageId="15" pageNumber="773">Madeira</collectingRegion>
 [Islands],” 
 <collectingCountry box="[2390,2511,2289,2318]" name="Portugal" pageId="15" pageNumber="773">Portugal</collectingCountry>
 .
 </materialsCitation>
+</paragraph>
 </subSubSection>
 <subSubSection pageId="15" pageNumber="773" type="discussion">
+<paragraph blockId="15.[2010,2605,2245,2673]" lastBlockId="15.[1391,2602,2679,3501]" pageId="15" pageNumber="773">
 <taxonomicName authorityName="Dobson" authorityYear="1878" box="[2011,2303,2324,2357]" class="Liliopsida" family="Arecaceae" genus="Pipustrellus" kingdom="Plantae" order="Arecales" pageId="15" pageNumber="773" phylum="Tracheophyta" rank="species" species="maderensis">Pipustrellus maderensis</taxonomicName>
 1s closely related to 
 <taxonomicName box="[2010,2121,2372,2397]" class="Liliopsida" family="Arecaceae" genus="Pipustrellus" kingdom="Plantae" order="Arecales" pageId="15" pageNumber="773" phylum="Tracheophyta" rank="species" species="kuhlii">P. kuhlii</taxonomicName>
@@ -121,8 +127,8 @@ or
 represents multiple species; additional studies are needed to clarify this. There are potentially multiple subspecies recognizable between the 
 <collectingRegion box="[2304,2420,2640,2673]" country="Portugal" name="Madeira" pageId="15" pageNumber="773">Madeira</collectingRegion>
 Archipelago and Canary Islands populations. Monotypic.
-</subSubSection>
 </paragraph>
+</subSubSection>
 <subSubSection pageId="15" pageNumber="773" type="distribution">
 <caption ID-DOI="http://doi.org/10.5281/zenodo.6397818" ID-Zenodo-Dep="6397818" httpUri="https://zenodo.org/record/6397818/files/figure.png" inLine="true" pageId="15" pageNumber="773" targetBox="[1395,1986,2258,2673]" targetPageId="15">
 <paragraph blockId="15.[1391,2602,2679,3501]" pageId="15" pageNumber="773">
@@ -241,9 +247,7 @@ Pipistrelle is among the most endangered bat species in Europe. Its population t
 Alcalde &amp; Juste (2016), Benda et al. (2015), Dietz &amp; Kiefer (2016), 
 <collectingRegion box="[1043,1120,1455,1480]" country="Puerto Rico" name="Fajardo" pageId="16" pageNumber="774">Fajardo</collectingRegion>
 &amp; Benzal (1999), Jesus et al. (2013), 
-<taxonomicName box="[310,389,1494,1519]" class="Insecta" family="Tachinidae" genus="Medina" kingdom="Animalia" order="Diptera" pageId="16" pageNumber="774" phylum="Arthropoda" rank="genus">
 <collectingRegion box="[310,389,1494,1519]" country="Saudi Arabia" name="Al Madinah" pageId="16" pageNumber="774">Medina</collectingRegion>
-</taxonomicName>
 (2014), Pacifici et al. (2013), Pestano, Brown, Suarez &amp; 
 <collectingRegion box="[992,1069,1494,1519]" country="Puerto Rico" name="Fajardo" pageId="16" pageNumber="774">Fajardo</collectingRegion>
 (2003), Rainho et al. (2002), 

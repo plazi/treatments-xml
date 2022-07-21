@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="347" approvalRequired_for_illustrations="1" approvalRequired_for_matCits="100" approvalRequired_for_taxonomicNames="143" approvalRequired_for_textStreams="2" approvalRequired_for_treatments="101" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FFB76A08FF529DFA16ECBFA0" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Glauconycteris kenyacola Peterson 1982" docType="treatment" docVersion="6" lastPageNumber="834" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="834" updateTime="1653076796268" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FFB76A08FF529DFA16ECBFA0" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Glauconycteris kenyacola Peterson 1982" docType="treatment" docVersion="11" lastPageNumber="834" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="834" updateTime="1658412944878" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6397752</mods:identifier>
+<mods:identifier type="GBIF-Dataset">45351c32-25dd-422c-bdb2-00e73deb4943</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:4C3D87E8FFB76A08FF529DFA16ECBFA0" httpUri="http://treatment.plazi.org/id/4C3D87E8FFB76A08FF529DFA16ECBFA0" lastPageNumber="834" pageId="76" pageNumber="834">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6580594" ID-GBIF-Taxon="195628249" ID-Zenodo-Dep="6580594" LSID="urn:lsid:plazi:treatment:4C3D87E8FFB76A08FF529DFA16ECBFA0" httpUri="http://treatment.plazi.org/id/4C3D87E8FFB76A08FF529DFA16ECBFA0" lastPageNumber="834" pageId="76" pageNumber="834">
 <subSubSection box="[174,253,2979,3025]" pageId="76" pageNumber="834" type="multiple">
 <paragraph blockId="76.[169,1304,2979,3107]" box="[174,253,2979,3025]" pageId="76" pageNumber="834">
 <heading box="[174,253,2979,3025]" pageId="76" pageNumber="834">
@@ -91,12 +92,16 @@ de
 </heading>
 </paragraph>
 </subSubSection>
-<subSubSection pageId="76" pageNumber="834" type="reference_group">
-<paragraph blockId="76.[168,1374,3150,3468]" pageId="76" pageNumber="834">
+<subSubSection box="[169,893,3150,3183]" pageId="76" pageNumber="834" type="reference_group">
+<paragraph blockId="76.[168,1374,3150,3468]" box="[169,893,3150,3183]" pageId="76" pageNumber="834">
 <emphasis bold="true" box="[169,325,3150,3183]" pageId="76" pageNumber="834">Taxonomy.</emphasis>
 <taxonomicName authority="Peterson, 1982" authorityName="Peterson" authorityYear="1982" box="[345,888,3150,3183]" class="Mammalia" family="Vespertilionidae" genus="Glauconycteris" kingdom="Animalia" order="Chiroptera" pageId="76" pageNumber="834" phylum="Chordata" rank="species" species="kenyacola">Glauconycteris kenyacola Peterson, 1982</taxonomicName>
-, 
-<materialsCitation pageId="76" pageNumber="834">
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="76" pageNumber="834" type="materials_examined">
+<paragraph blockId="76.[168,1374,3150,3468]" pageId="76" pageNumber="834">
+<materialsCitation ID-GBIF-Occurrence="3783319734" latitude="-12.0" longitude="40.083332" pageId="76" pageNumber="834">
 “on the Galole Road, 8.5 km N Garsen, 
 <collectingCountry box="[287,373,3190,3223]" name="Kenya" pageId="76" pageNumber="834">Kenya</collectingCountry>
 (
@@ -106,6 +111,8 @@ de
 ).”
 </materialsCitation>
 </paragraph>
+</subSubSection>
+<subSubSection box="[169,532,3229,3262]" pageId="76" pageNumber="834" type="discussion">
 <paragraph blockId="76.[168,1374,3150,3468]" box="[169,532,3229,3262]" pageId="76" pageNumber="834">This species is monotypic.</paragraph>
 </subSubSection>
 <subSubSection box="[169,944,3268,3301]" pageId="76" pageNumber="834" type="distribution">

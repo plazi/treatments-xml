@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="39" approvalRequired_for_matCits="1" approvalRequired_for_taxonomicNames="9" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FFB26A0DFF8097F61658B87E" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Glauconycteris variegata" docType="treatment" docVersion="7" lastPageNumber="831" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="831" updateTime="1653491089352" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FFB26A0DFF8097F61658B87E" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Glauconycteris variegata" docType="treatment" docVersion="11" lastPageNumber="831" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="831" updateTime="1658412944878" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -41,7 +41,7 @@
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6403517" ID-Zenodo-Dep="6403517" LSID="urn:lsid:plazi:treatment:4C3D87E8FFB26A0DFF8097F61658B87E" httpUri="http://treatment.plazi.org/id/4C3D87E8FFB26A0DFF8097F61658B87E" lastPageNumber="831" pageId="73" pageNumber="831">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6403517" ID-GBIF-Taxon="195628246" ID-Zenodo-Dep="6403517" LSID="urn:lsid:plazi:treatment:4C3D87E8FFB26A0DFF8097F61658B87E" httpUri="http://treatment.plazi.org/id/4C3D87E8FFB26A0DFF8097F61658B87E" lastPageNumber="831" pageId="73" pageNumber="831">
 <subSubSection box="[124,203,431,477]" pageId="73" pageNumber="831" type="multiple">
 <paragraph blockId="73.[118,1280,431,562]" box="[124,203,431,477]" pageId="73" pageNumber="831">
 <heading box="[124,203,431,477]" pageId="73" pageNumber="831">
@@ -89,11 +89,15 @@ reticulado
 </paragraph>
 </subSubSection>
 <subSubSection pageId="73" pageNumber="831" type="reference_group">
-<paragraph blockId="73.[99,1325,612,3213]" pageId="73" pageNumber="831">
+<paragraph blockId="73.[729,1325,613,1035]" pageId="73" pageNumber="831">
 <emphasis bold="true" box="[731,886,613,642]" pageId="73" pageNumber="831">Taxonomy.</emphasis>
 <taxonomicName authority="Tomes, 1861" authorityName="Tomes" authorityYear="1861" class="Mammalia" family="Vespertilionidae" genus="Scotophilus" kingdom="Animalia" order="Chiroptera" pageId="73" pageNumber="831" phylum="Chordata" rank="species" species="variegatus">Scotophilus variegatus Tomes, 1861</taxonomicName>
-, 
-<materialsCitation box="[816,1078,655,680]" pageId="73" pageNumber="831">
+,
+</paragraph>
+</subSubSection>
+<subSubSection box="[816,1078,655,680]" pageId="73" pageNumber="831" type="materials_examined">
+<paragraph blockId="73.[729,1325,613,1035]" box="[816,1078,655,680]" pageId="73" pageNumber="831">
+<materialsCitation ID-GBIF-Occurrence="3783319422" box="[816,1078,655,680]" pageId="73" pageNumber="831">
 “Otjoro,” 
 <collectingCountry box="[953,1075,655,680]" name="Namibia" pageId="73" pageNumber="831">Namibia</collectingCountry>
 .
@@ -101,7 +105,7 @@ reticulado
 </paragraph>
 </subSubSection>
 <subSubSection pageId="73" pageNumber="831" type="discussion">
-<paragraph blockId="73.[99,1325,612,3213]" pageId="73" pageNumber="831">
+<paragraph blockId="73.[729,1325,613,1035]" pageId="73" pageNumber="831">
 Analysis of mitochondrial genes by A. Hassanin and colleagues in 2018 retrieved 
 <taxonomicName baseAuthorityName="Tomes" baseAuthorityYear="1861" box="[733,891,766,799]" class="Mammalia" family="Vespertilionidae" genus="Glauconycteris" kingdom="Animalia" order="Chiroptera" pageId="73" pageNumber="831" phylum="Chordata" rank="species" species="variegata">G. variegata</taxonomicName>
 as sister to all other species of 
@@ -109,26 +113,27 @@ as sister to all other species of
 . Two subspecies recognized.
 </paragraph>
 </subSubSection>
-<subSubSection pageId="73" pageNumber="831" type="synonymic_list">
-<caption inLine="true" pageId="73" pageNumber="831" targetBox="[2132,2136,819,844]" targetPageId="73">
-<paragraph blockId="73.[99,1325,612,3213]" box="[730,1130,844,877]" pageId="73" pageNumber="831">
-<emphasis bold="true" box="[730,1130,844,877]" pageId="73" pageNumber="831">Subspecies and Distribution.</emphasis>
-</paragraph>
-<paragraph blockId="73.[99,1325,612,3213]" pageId="73" pageNumber="831">
+<subSubSection pageId="73" pageNumber="831" type="distribution">
+<caption ID-DOI="http://doi.org/10.5281/zenodo.6612150" ID-Zenodo-Dep="6612150" httpUri="https://zenodo.org/record/6612150/files/figure.png" inLine="true" pageId="73" pageNumber="831" startId="73.[116,141,1041,1070]" targetBox="[115,704,612,1030]" targetPageId="73">
+<emphasis bold="true" box="[730,1130,844,877]" pageId="73" pageNumber="831">
+<paragraph blockId="73.[729,1325,613,1035]" box="[730,884,844,877]" pageId="73" pageNumber="831">Subspecies</paragraph>
+<paragraph blockId="73.[729,1325,613,1035]" box="[893,1130,844,877]" pageId="73" pageNumber="831">and Distribution.</paragraph>
+</emphasis>
+<paragraph blockId="73.[729,1325,613,1035]" lastBlockId="73.[99,1320,1041,3203]" pageId="73" pageNumber="831">
 <taxonomicName authority="Tomes, 1861" authorityName="Tomes" authorityYear="1861" box="[733,1124,884,917]" class="Mammalia" family="Vespertilionidae" genus="Glauconycteris" kingdom="Animalia" order="Chiroptera" pageId="73" pageNumber="831" phylum="Chordata" rank="subSpecies" species="variegata" subSpecies="variegata">G. v. variegata Tomes, 1861</taxonomicName>
 — widely but patchily distributed throughout much of sub-Saharan Africa, from Atlantic coast of 
 <collectingCountry box="[729,837,1002,1035]" name="Senegal" pageId="73" pageNumber="831">Senegal</collectingCountry>
 E to 
 <collectingCountry box="[912,1031,1002,1035]" name="Ethiopia" pageId="73" pageNumber="831">Ethiopia</collectingCountry>
 and S to NE 
-<collectingCountry name="Namibia" pageId="73" pageNumber="831">Namibia</collectingCountry>
+<collectingCountry box="[116,141,1041,1070]" name="Namibia" pageId="73" pageNumber="831">Namibia</collectingCountry>
 , N 
 <collectingCountry box="[191,324,1041,1070]" name="Botswana" pageId="73" pageNumber="831">Botswana</collectingCountry>
 , and NE 
 <collectingCountry box="[456,633,1041,1070]" name="South Africa" pageId="73" pageNumber="831">South Africa</collectingCountry>
 .
 </paragraph>
-<paragraph blockId="73.[99,1325,612,3213]" box="[119,871,1078,1111]" pageId="73" pageNumber="831">
+<paragraph blockId="73.[99,1320,1041,3203]" box="[119,871,1078,1111]" pageId="73" pageNumber="831">
 <taxonomicName authority="Thomas, 1915" authorityName="Thomas" authorityYear="1915" box="[119,510,1078,1111]" class="Mammalia" family="Vespertilionidae" genus="Glauconycteris" kingdom="Animalia" order="Chiroptera" pageId="73" pageNumber="831" phylum="Chordata" rank="variety" species="variegata" subSpecies="phalaena" variety="phalaena">G. v. phalaena Thomas, 1915</taxonomicName>
 — SC 
 <collectingCountry box="[593,680,1078,1111]" name="Sudan" pageId="73" pageNumber="831">Sudan</collectingCountry>
@@ -139,7 +144,7 @@ and
 </caption>
 </subSubSection>
 <subSubSection pageId="73" pageNumber="831" type="description">
-<paragraph blockId="73.[99,1325,612,3213]" pageId="73" pageNumber="831">
+<paragraph blockId="73.[99,1320,1041,3203]" pageId="73" pageNumber="831">
 <emphasis bold="true" box="[115,362,1122,1149]" pageId="73" pageNumber="831">Descriptive notes.</emphasis>
 Head-body ¢.48-62 mm, tail 40-53 mm, ear 11-14 mm, hindfoot 7-10 mm, forearm 38-45 mm; weight 5-14 g. Females are apparently larger than males in body dimensions but not body weight. Pelage is dense and soft, with 7-10 mm middorsal hairs. Dorsal fur lacks markings and ranges from pale creamy buff to yellowish fawn, paler on head and neck in some individuals. Hairs are pale creamy buff or yellowish fawn with paler bases or creamy white with brown bases and yellowish fawn tips. Ventral fur ranges from yellowish cream to pure white, suffused with pale gray particularly on throat in some individuals. Ears are light brown, separated, and shortfor a vespertilionid, with outer margins connecting with fleshy lobe near corner of mouth and inner margins with moderately long backward-pointing lobe at base. Tragus has straight anterior margin and convex posterior margin, with inconspicuous lobe at base. Eyes are very small. Nostrils are subcylindrical and open laterally. Well-developed glandular protuberances separate nostrils by deep groove,giving swollen appearance to muzzle. Flight membranes are conspicuously reticulated. Wings and uropatagium are pale yellowish orange, with dark brown pigment outlining bones and venation. Tibia is long (18-21 mm). Baculum is very small and triangular. Skull is moderately large and has high broad braincase, short obtuse rostrum, and domed cranium without sagittal crest. Profile of forehead region is weakly concave compared with other species of 
 <taxonomicName authorityName="Dobson" authorityYear="1875" box="[677,853,1789,1822]" class="Mammalia" family="Vespertilionidae" genus="Glauconycteris" kingdom="Animalia" order="Chiroptera" pageId="73" pageNumber="831" phylum="Chordata" rank="genus">Glauconycteris</taxonomicName>
@@ -147,7 +152,7 @@ Head-body ¢.48-62 mm, tail 40-53 mm, ear 11-14 mm, hindfoot 7-10 mm, forearm 38
 </paragraph>
 </subSubSection>
 <subSubSection pageId="73" pageNumber="831" type="biology_ecology">
-<paragraph blockId="73.[99,1325,612,3213]" pageId="73" pageNumber="831">
+<paragraph blockId="73.[99,1320,1041,3203]" pageId="73" pageNumber="831">
 <emphasis bold="true" box="[107,216,2224,2257]" pageId="73" pageNumber="831">Habitat.</emphasis>
 Mainly savanna habitats, including open woodland savannas and open bush country known from elevations up to ¢. 
 <quantity box="[639,745,2263,2296]" metricMagnitude="3" metricUnit="m" metricValue="1.0" pageId="73" pageNumber="831" unit="m" value="1000.0">1000 m</quantity>
@@ -159,13 +164,13 @@ Mainly savanna habitats, including open woodland savannas and open bush country 
 </paragraph>
 </subSubSection>
 <subSubSection pageId="73" pageNumber="831" type="food_feeding">
-<paragraph blockId="73.[99,1325,612,3213]" pageId="73" pageNumber="831">
+<paragraph blockId="73.[99,1320,1041,3203]" pageId="73" pageNumber="831">
 <emphasis bold="true" box="[106,371,2377,2411]" pageId="73" pageNumber="831">Food and Feeding.</emphasis>
 The Variegated Butterfly Bat forages by moderately fast hawking, high aboveground, mainly in uncluttered habitats, but also between trees, around lights, close to the ground, and over water. It eats airborne prey, primarily soft-bodied insects.
 </paragraph>
 </subSubSection>
 <subSubSection pageId="73" pageNumber="831" type="breeding">
-<paragraph blockId="73.[99,1325,612,3213]" pageId="73" pageNumber="831">
+<paragraph blockId="73.[99,1320,1041,3203]" pageId="73" pageNumber="831">
 <emphasis bold="true" box="[105,240,2500,2533]" pageId="73" pageNumber="831">Breeding.</emphasis>
 The Variegated Butterfly Bat seems to be monoestrous, but seasonal reproductive cycle might vary acrossits distribution. Sexually active males were reported in July and Octoberin southern 
 <collectingCountry box="[530,643,2579,2612]" name="Uganda" pageId="73" pageNumber="831">Uganda</collectingCountry>
@@ -183,7 +188,7 @@ The Variegated Butterfly Bat seems to be monoestrous, but seasonal reproductive 
 </paragraph>
 </subSubSection>
 <subSubSection pageId="73" pageNumber="831" type="activity">
-<paragraph blockId="73.[99,1325,612,3213]" lastBlockId="73.[1393,2603,296,846]" pageId="73" pageNumber="831">
+<paragraph blockId="73.[99,1320,1041,3203]" lastBlockId="73.[1393,2603,296,846]" pageId="73" pageNumber="831">
 <emphasis bold="true" box="[101,327,2933,2966]" pageId="73" pageNumber="831">Activity patterns.</emphasis>
 During the day, the Variegated Butterfly Bat roosts mainly in dense clusters ofleaves in trees. It also roosts in thatch of abandoned huts. It has been found in lychee trees (Lutchi, 
 <taxonomicName box="[279,455,3017,3046]" class="Magnoliopsida" family="Sapindaceae" kingdom="Plantae" order="Sapindales" pageId="73" pageNumber="831" phylum="Tracheophyta" rank="family">Sapindaceae</taxonomicName>

@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="347" approvalRequired_for_illustrations="1" approvalRequired_for_matCits="100" approvalRequired_for_taxonomicNames="143" approvalRequired_for_textStreams="2" approvalRequired_for_treatments="101" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FFA86A17FF8297F51D16BCEF" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Histiotus humboldti Handley 1996" docType="treatment" docVersion="6" lastPageNumber="841" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="841" updateTime="1653076796268" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FFA86A17FF8297F51D16BCEF" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Histiotus humboldti Handley 1996" docType="treatment" docVersion="11" lastPageNumber="841" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="841" updateTime="1658412944878" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6397752</mods:identifier>
+<mods:identifier type="GBIF-Dataset">45351c32-25dd-422c-bdb2-00e73deb4943</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:4C3D87E8FFA86A17FF8297F51D16BCEF" httpUri="http://treatment.plazi.org/id/4C3D87E8FFA86A17FF8297F51D16BCEF" lastPageNumber="841" pageId="83" pageNumber="841">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6580598" ID-GBIF-Taxon="195628527" ID-Zenodo-Dep="6580598" LSID="urn:lsid:plazi:treatment:4C3D87E8FFA86A17FF8297F51D16BCEF" httpUri="http://treatment.plazi.org/id/4C3D87E8FFA86A17FF8297F51D16BCEF" lastPageNumber="841" pageId="83" pageNumber="841">
 <subSubSection box="[126,205,428,474]" pageId="83" pageNumber="841" type="multiple">
 <paragraph blockId="83.[121,1325,428,517]" box="[126,205,428,474]" pageId="83" pageNumber="841">
 <heading box="[126,205,428,474]" pageId="83" pageNumber="841">
@@ -78,12 +79,16 @@
 </heading>
 </paragraph>
 </subSubSection>
-<paragraph blockId="83.[734,1328,559,986]" lastBlockId="83.[116,1327,992,2013]" pageId="83" pageNumber="841">
 <subSubSection pageId="83" pageNumber="841" type="reference_group">
+<paragraph blockId="83.[734,1328,559,986]" pageId="83" pageNumber="841">
 <emphasis bold="true" box="[734,889,559,592]" pageId="83" pageNumber="841">Taxonomy.</emphasis>
 <taxonomicName authority="Handley, 1996" authorityName="Handley" authorityYear="1996" class="Mammalia" family="Vespertilionidae" genus="Histiotus" kingdom="Animalia" order="Chiroptera" pageId="83" pageNumber="841" phylum="Chordata" rank="species" species="humboldti">Histiotus humboldti Handley, 1996</taxonomicName>
-, 
-<materialsCitation pageId="83" pageNumber="841">
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="83" pageNumber="841" type="materials_examined">
+<paragraph blockId="83.[734,1328,559,986]" pageId="83" pageNumber="841">
+<materialsCitation ID-GBIF-Occurrence="3783319474" latitude="10.533334" longitude="-66.9" pageId="83" pageNumber="841">
 “Los Venados, 
 <quantity box="[1035,1106,606,631]" metricMagnitude="3" metricUnit="m" metricValue="4.0" pageId="83" pageNumber="841" unit="km" value="4.0">4 km</quantity>
 NNW Caracas, 
@@ -96,8 +101,10 @@ NNW Caracas,
 <collectingCountry box="[803,950,677,710]" name="Venezuela" pageId="83" pageNumber="841">Venezuela</collectingCountry>
 .”
 </materialsCitation>
+</paragraph>
 </subSubSection>
 <subSubSection pageId="83" pageNumber="841" type="discussion">
+<paragraph blockId="83.[734,1328,559,986]" lastBlockId="83.[116,1327,992,2013]" pageId="83" pageNumber="841">
 <taxonomicName box="[735,850,716,749]" class="Mammalia" family="Vespertilionidae" genus="Histiotus" kingdom="Animalia" order="Chiroptera" pageId="83" pageNumber="841" phylum="Chordata" rank="genus">Histiotus</taxonomicName>
 is phylogenetically nested within 
 <taxonomicName box="[734,850,756,789]" class="Mammalia" family="Vespertilionidae" genus="Eptesicus" kingdom="Animalia" order="Chiroptera" pageId="83" pageNumber="841" phylum="Chordata" rank="genus">Eptesicus</taxonomicName>
@@ -118,8 +125,8 @@ into multiple genera. Venezuelan specimens previously reported as “
 ” by A. L. Gardner in 1990 correspond to 
 <taxonomicName authorityName="Handley" authorityYear="1996" box="[684,856,1072,1105]" class="Mammalia" family="Vespertilionidae" genus="Histiotus" kingdom="Animalia" order="Chiroptera" pageId="83" pageNumber="841" phylum="Chordata" rank="species" species="humboldti">H. humboldti</taxonomicName>
 . It has a disjunct distribution that is probably related to a relictual wider distribution. Monotypic.
-</subSubSection>
 </paragraph>
+</subSubSection>
 <subSubSection box="[122,1120,1154,1183]" pageId="83" pageNumber="841" type="distribution">
 <caption ID-DOI="http://doi.org/10.5281/zenodo.6398166" ID-Zenodo-Dep="6398166" box="[122,1120,1154,1183]" httpUri="https://zenodo.org/record/6398166/files/figure.png" inLine="true" pageId="83" pageNumber="841" targetBox="[119,710,568,982]" targetPageId="83">
 <paragraph blockId="83.[116,1327,992,2013]" box="[122,1120,1154,1183]" pageId="83" pageNumber="841">

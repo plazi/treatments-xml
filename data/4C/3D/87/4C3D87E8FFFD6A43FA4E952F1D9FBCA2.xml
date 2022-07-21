@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="39" approvalRequired_for_matCits="1" approvalRequired_for_taxonomicNames="9" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FFFD6A43FA4E952F1D9FBCA2" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Nyctalus plancyi" docType="treatment" docVersion="6" lastPageNumber="765" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="764" updateTime="1653491089352" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FFFD6A43FA4E952F1D9FBCA2" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Nyctalus plancyi" docType="treatment" docVersion="8" lastPageNumber="765" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="764" updateTime="1658412944878" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -41,7 +41,7 @@
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6403380" ID-Zenodo-Dep="6403380" LSID="urn:lsid:plazi:treatment:4C3D87E8FFFD6A43FA4E952F1D9FBCA2" httpUri="http://treatment.plazi.org/id/4C3D87E8FFFD6A43FA4E952F1D9FBCA2" lastPageId="7" lastPageNumber="765" pageId="6" pageNumber="764">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6403380" ID-GBIF-Taxon="195628489" ID-Zenodo-Dep="6403380" LSID="urn:lsid:plazi:treatment:4C3D87E8FFFD6A43FA4E952F1D9FBCA2" httpUri="http://treatment.plazi.org/id/4C3D87E8FFFD6A43FA4E952F1D9FBCA2" lastPageId="7" lastPageNumber="765" pageId="6" pageNumber="764">
 <subSubSection box="[1458,1512,886,932]" pageId="6" pageNumber="764" type="multiple">
 <paragraph blockId="6.[1453,2388,886,1010]" box="[1458,1512,886,932]" pageId="6" pageNumber="764">
 <heading box="[1458,1512,886,932]" pageId="6" pageNumber="764">
@@ -95,10 +95,13 @@ de
 <subSubSection pageId="6" pageNumber="764" type="reference_group">
 <paragraph blockId="6.[2066,2661,1055,1483]" pageId="6" pageNumber="764">
 <emphasis bold="true" box="[2067,2222,1055,1088]" pageId="6" pageNumber="764">Taxonomy.</emphasis>
-Vesperugo (
-<taxonomicName authorityName="Schreber" authorityYear="1774" box="[2377,2480,1055,1088]" class="Mammalia" family="Vespertilionidae" genus="Nyctalus" kingdom="Animalia" order="Chiroptera" pageId="6" pageNumber="764" phylum="Chordata" rank="species" species="noctula">Noctula</taxonomicName>
-) plancy: Gerbe, 1880, 
-<materialsCitation box="[2203,2409,1103,1128]" pageId="6" pageNumber="764">
+<taxonomicName authority="Gerbe, 1880" authorityName="Gerbe" authorityYear="1880" class="Mammalia" family="Vespertilionidae" genus="Vesperugo" kingdom="Animalia" order="Chiroptera" pageId="6" pageNumber="764" phylum="Chordata" rank="species" species="plancy" subGenus="Noctula">Vesperugo (Noctula) plancy: Gerbe, 1880</taxonomicName>
+,
+</paragraph>
+</subSubSection>
+<subSubSection box="[2203,2409,1103,1128]" pageId="6" pageNumber="764" type="materials_examined">
+<paragraph blockId="6.[2066,2661,1055,1483]" box="[2203,2409,1103,1128]" pageId="6" pageNumber="764">
+<materialsCitation ID-GBIF-Occurrence="3783319766" box="[2203,2409,1103,1128]" pageId="6" pageNumber="764">
 <collectingRegion box="[2203,2301,1103,1128]" country="China" name="Beijing" pageId="6" pageNumber="764">Peking</collectingRegion>
 , 
 <collectingCountry box="[2318,2404,1103,1128]" name="China" pageId="6" pageNumber="764">China</collectingCountry>
@@ -131,7 +134,7 @@ or N. p. plancy: in any published articles; for the present it is provisionally 
 , although it almost certainly represents a distinct species, as indicated by its morphological divergence. The species name is sometimes misspelled plancei. Three subspecies recognized.
 </paragraph>
 </subSubSection>
-<subSubSection pageId="6" pageNumber="764" type="synonymic_list">
+<subSubSection pageId="6" pageNumber="764" type="distribution">
 <caption ID-DOI="http://doi.org/10.5281/zenodo.6397784" ID-Zenodo-Dep="6397784" httpUri="https://zenodo.org/record/6397784/files/figure.png" inLine="true" pageId="6" pageNumber="764" targetBox="[1452,2044,1068,1482]" targetPageId="6">
 <paragraph blockId="6.[1450,2666,1490,3459]" box="[1456,1856,1925,1958]" pageId="6" pageNumber="764">
 <emphasis bold="true" box="[1456,1856,1925,1958]" pageId="6" pageNumber="764">Subspecies and Distribution.</emphasis>
@@ -246,9 +249,7 @@ Roosts often number many individuals in a large colony, and the Chinese Noctule 
 <subSubSection pageId="7" pageNumber="765" type="conservation">
 <paragraph blockId="7.[110,1323,286,1940]" pageId="7" pageNumber="765">
 <emphasis bold="true" box="[113,465,1509,1542]" pageId="7" pageNumber="765">Status and Conservation.</emphasis>
-Classified as Least Concern on The IUCN Red List. The Chinese Noctule is widespread and common throughout much of its range; 
-<taxonomicName box="[1185,1318,1549,1582]" class="Magnoliopsida" family="Fabaceae" genus="Acacia" kingdom="Plantae" order="Fabales" pageId="7" pageNumber="57" phylum="Tracheophyta" rank="species" species="major">no major</taxonomicName>
-threats are known. However, bioaccumulation of mercury and cadmium may be a threat to the species because ofits habit of foraging around plantations; further investigation is needed.
+Classified as Least Concern on The IUCN Red List. The Chinese Noctule is widespread and common throughout much of its range; no major threats are known. However, bioaccumulation of mercury and cadmium may be a threat to the species because ofits habit of foraging around plantations; further investigation is needed.
 </paragraph>
 </subSubSection>
 <subSubSection pageId="7" pageNumber="765" type="bibRefCitation_list">

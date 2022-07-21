@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="1530" approvalRequired_for_illustrations="1" approvalRequired_for_matCits="143" approvalRequired_for_taxonomicNames="590" approvalRequired_for_textStreams="13" approvalRequired_for_treatments="783" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FFBF6A01FA569C0B1D3FBF02" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Thainycleris torquatus Csorba &amp; Lee Lingling 1999" docType="treatment" docVersion="5" lastPageNumber="827" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="826" updateTime="1652885602625" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FFBF6A01FA569C0B1D3FBF02" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Thainycleris torquatus Csorba &amp; Lee Lingling 1999" docType="treatment" docVersion="10" lastPageNumber="827" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="826" updateTime="1658412944878" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6397752</mods:identifier>
+<mods:identifier type="GBIF-Dataset">45351c32-25dd-422c-bdb2-00e73deb4943</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:4C3D87E8FFBF6A01FA569C0B1D3FBF02" httpUri="http://treatment.plazi.org/id/4C3D87E8FFBF6A01FA569C0B1D3FBF02" lastPageId="69" lastPageNumber="827" pageId="68" pageNumber="826">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6578480" ID-GBIF-Taxon="195627984" ID-Zenodo-Dep="6578480" LSID="urn:lsid:plazi:treatment:4C3D87E8FFBF6A01FA569C0B1D3FBF02" httpUri="http://treatment.plazi.org/id/4C3D87E8FFBF6A01FA569C0B1D3FBF02" lastPageId="69" lastPageNumber="827" pageId="68" pageNumber="826">
 <subSubSection box="[1450,1530,2642,2688]" pageId="68" pageNumber="826" type="multiple">
 <paragraph blockId="68.[1445,2428,2642,2771]" box="[1450,1530,2642,2688]" pageId="68" pageNumber="826">
 <heading box="[1450,1530,2642,2688]" pageId="68" pageNumber="826">
@@ -97,8 +98,12 @@ de
 <paragraph blockId="68.[2058,2653,2816,3240]" pageId="68" pageNumber="826">
 <emphasis bold="true" box="[2059,2211,2816,2845]" pageId="68" pageNumber="826">Taxonomy.</emphasis>
 <taxonomicName authority="Csorba &amp; Lee Lingling, 1999" authorityName="Csorba &amp; Lee Lingling" authorityYear="1999" class="Pinopsida" family="Cupressaceae" genus="Arelulus" kingdom="Plantae" order="Pinales" pageId="68" pageNumber="826" phylum="Tracheophyta" rank="species" species="torquatus">Arelulus torquatus Csorba &amp; Lee Lingling, 1999</taxonomicName>
-, 
-<materialsCitation pageId="68" pageNumber="826">
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="68" pageNumber="826" type="materials_examined">
+<paragraph blockId="68.[2058,2653,2816,3240]" pageId="68" pageNumber="826">
+<materialsCitation ID-GBIF-Occurrence="3783319608" latitude="24.4" longitude="121.3" pageId="68" pageNumber="826">
 Wu-ling Farm, 
 <quantity box="[2526,2644,2860,2885]" metricMagnitude="0" metricUnit="m" metricValue="1.8" pageId="68" pageNumber="826" unit="m" value="1.8">1,800 m</quantity>
 , 
@@ -112,6 +117,8 @@ County,
 .
 </materialsCitation>
 </paragraph>
+</subSubSection>
+<subSubSection box="[2059,2413,2930,2963]" pageId="68" pageNumber="826" type="discussion">
 <paragraph blockId="68.[2058,2653,2816,3240]" box="[2059,2413,2930,2963]" pageId="68" pageNumber="826">This species is monotypic.</paragraph>
 </subSubSection>
 <subSubSection box="[2059,2363,2970,3003]" pageId="68" pageNumber="826" type="distribution">

@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="39" approvalRequired_for_matCits="1" approvalRequired_for_taxonomicNames="9" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FFDB6A64FA509758145BB64F" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Falsistrellus tasmaniensis" docType="treatment" docVersion="6" lastPageNumber="790" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="790" updateTime="1653491089352" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FFDB6A64FA509758145BB64F" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Falsistrellus tasmaniensis" docType="treatment" docVersion="8" lastPageNumber="790" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="790" updateTime="1658412944878" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -41,7 +41,7 @@
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:4C3D87E8FFDB6A64FA509758145BB64F" httpUri="http://treatment.plazi.org/id/4C3D87E8FFDB6A64FA509758145BB64F" lastPageNumber="790" pageId="32" pageNumber="790">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6581230" ID-GBIF-Taxon="195628437" ID-Zenodo-Dep="6581230" LSID="urn:lsid:plazi:treatment:4C3D87E8FFDB6A64FA509758145BB64F" httpUri="http://treatment.plazi.org/id/4C3D87E8FFDB6A64FA509758145BB64F" lastPageNumber="790" pageId="32" pageNumber="790">
 <subSubSection box="[1452,1509,257,299]" pageId="32" pageNumber="790" type="multiple">
 <paragraph blockId="32.[1450,2570,257,382]" box="[1452,1509,257,299]" pageId="32" pageNumber="790">
 <heading box="[1452,1509,257,299]" pageId="32" pageNumber="790">
@@ -98,8 +98,12 @@ de
 <paragraph blockId="32.[2063,2657,422,849]" pageId="32" pageNumber="790">
 <emphasis bold="true" box="[2063,2218,422,455]" pageId="32" pageNumber="790">Taxonomy.</emphasis>
 <taxonomicName authority="Gould, 1858" authorityName="Gould" authorityYear="1858" class="Mammalia" family="Vespertilionidae" genus="Vespertilio" kingdom="Animalia" order="Chiroptera" pageId="32" pageNumber="790" phylum="Chordata" rank="species" species="tasmaniensis">Vespertilio tasmaniensis Gould, 1858</taxonomicName>
-, 
-<materialsCitation box="[2147,2427,470,495]" pageId="32" pageNumber="790">
+,
+</paragraph>
+</subSubSection>
+<subSubSection box="[2147,2427,470,495]" pageId="32" pageNumber="790" type="materials_examined">
+<paragraph blockId="32.[2063,2657,422,849]" box="[2147,2427,470,495]" pageId="32" pageNumber="790">
+<materialsCitation ID-GBIF-Occurrence="3783319315" box="[2147,2427,470,495]" pageId="32" pageNumber="790">
 <collectingRegion box="[2147,2282,470,495]" country="Australia" name="Tasmania" pageId="32" pageNumber="790">Tasmania</collectingRegion>
 , 
 <collectingCountry box="[2296,2423,470,495]" name="Australia" pageId="32" pageNumber="790">Australia</collectingCountry>
@@ -171,9 +175,7 @@ E &amp;
 , 
 <collectingRegion box="[2139,2387,1294,1323]" country="Australia" name="New South Wales" pageId="32" pageNumber="790">New South Wales</collectingRegion>
 , 
-<taxonomicName box="[2403,2516,1294,1323]" class="Insecta" family="Geometridae" genus="Victoria" kingdom="Animalia" order="Lepidoptera" pageId="32" pageNumber="790" phylum="Arthropoda" rank="genus">
 <collectingRegion box="[2403,2516,1294,1323]" country="Australia" name="Victoria" pageId="32" pageNumber="790">Victoria</collectingRegion>
-</taxonomicName>
 ) and 
 <collectingRegion country="Australia" name="Tasmania" pageId="32" pageNumber="790">Tasmania</collectingRegion>
 .
@@ -184,8 +186,8 @@ E &amp;
 <paragraph blockId="32.[1452,2662,856,3453]" pageId="32" pageNumber="790">
 <emphasis bold="true" box="[1452,1705,1372,1401]" pageId="32" pageNumber="790">Descriptive notes.</emphasis>
 Head—body 55-70 mm, tail 40-52 mm, ear 14-19 mm, hindfoot 8:2-11-9 mm, forearm 48-54 mm; weight 17-28 g. The Eastern False Pipistrelle is robust bat, with dark brown to reddish-brown upperparts, and dark gray underparts. Face is naked and pale brown. Ears, flight membrane, lips, feet, and forearms are blackish. Ears are long and narrow with rounded tips, and a distinct notch on the upper rear margin; tragus is long, narrow and strongly curved forward; ears overlap when pressed over crown. Baculum is broad, proximally widened, roof-like in cross section, and without distal expansion; it appears to be close to the similar broad and ventrally fluted structure of many of 
-<taxonomicName box="[1964,2186,1684,1717]" class="Mammalia" family="Vespertilionidae" genus="Hypsugo" kingdom="Animalia" order="Chiroptera" pageId="32" pageNumber="790" phylum="Chordata" rank="species" species="undetermined">Hypsugo species.</taxonomicName>
-Skull is large with well-developed sagittal crests, dorsal profile relatively flat, frontals rising only slightly in interorbital region, characteristic occipital helmet, palate long and no basial pits. I* unicuspid; I’ minute; P? tiny, less than half size of I’. There is a distinct gap between upper incisors and canines. Condylo-canine length 17-6-18-7 mm; maxillary tooth row 6-8-7-4 mm. Chromosomal complement has 2n = 44 and FN = 52.
+<taxonomicName box="[1964,2075,1684,1717]" class="Mammalia" family="Vespertilionidae" genus="Hypsugo" kingdom="Animalia" order="Chiroptera" pageId="32" pageNumber="790" phylum="Chordata" rank="genus" species="undetermined">Hypsugo</taxonomicName>
+species. Skull is large with well-developed sagittal crests, dorsal profile relatively flat, frontals rising only slightly in interorbital region, characteristic occipital helmet, palate long and no basial pits. I* unicuspid; I’ minute; P? tiny, less than half size of I’. There is a distinct gap between upper incisors and canines. Condylo-canine length 17-6-18-7 mm; maxillary tooth row 6-8-7-4 mm. Chromosomal complement has 2n = 44 and FN = 52.
 </paragraph>
 </subSubSection>
 <subSubSection pageId="32" pageNumber="790" type="biology_ecology">

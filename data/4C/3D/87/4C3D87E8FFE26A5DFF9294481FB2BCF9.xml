@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="377" approvalRequired_for_illustrations="1" approvalRequired_for_matCits="100" approvalRequired_for_taxonomicNames="169" approvalRequired_for_textStreams="2" approvalRequired_for_treatments="105" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FFE26A5DFF9294481FB2BCF9" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Pipistrellus watts : Kitchener, Caputi &amp; B. Jones 1986" docType="treatment" docVersion="6" lastPageNumber="783" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="783" updateTime="1653071343545" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FFE26A5DFF9294481FB2BCF9" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Pipistrellus watts : Kitchener, Caputi &amp; B. Jones 1986" docType="treatment" docVersion="10" lastPageNumber="783" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="783" updateTime="1658412944878" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6397752</mods:identifier>
+<mods:identifier type="GBIF-Dataset">45351c32-25dd-422c-bdb2-00e73deb4943</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:4C3D87E8FFE26A5DFF9294481FB2BCF9" httpUri="http://treatment.plazi.org/id/4C3D87E8FFE26A5DFF9294481FB2BCF9" lastPageNumber="783" pageId="25" pageNumber="783">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6567700" ID-GBIF-Taxon="195628265" ID-Zenodo-Dep="6567700" LSID="urn:lsid:plazi:treatment:4C3D87E8FFE26A5DFF9294481FB2BCF9" httpUri="http://treatment.plazi.org/id/4C3D87E8FFE26A5DFF9294481FB2BCF9" lastPageNumber="783" pageId="25" pageNumber="783">
 <subSubSection box="[110,167,529,575]" pageId="25" pageNumber="783" type="multiple">
 <paragraph blockId="25.[108,1053,529,616]" box="[110,167,529,575]" pageId="25" pageNumber="783">
 <heading box="[110,167,529,575]" pageId="25" pageNumber="783">
@@ -82,8 +83,12 @@
 <paragraph blockId="25.[723,1315,668,1087]" pageId="25" pageNumber="783">
 <emphasis bold="true" box="[723,878,668,693]" pageId="25" pageNumber="783">Taxonomy.</emphasis>
 <taxonomicName authority=": Kitchener, Caputi &amp; B. Jones, 1986" authorityName=": Kitchener, Caputi &amp; B. Jones" authorityYear="1986" class="Mammalia" family="Vespertilionidae" genus="Pipistrellus" kingdom="Animalia" order="Chiroptera" pageId="25" pageNumber="783" phylum="Chordata" rank="species" species="watts">Pipistrellus watts: Kitchener, Caputi &amp; B. Jones, 1986</taxonomicName>
-, 
-<materialsCitation latitude="-8.083333" longitude="146.2" pageId="25" pageNumber="783">
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="25" pageNumber="783" type="materials_examined">
+<paragraph blockId="25.[723,1315,668,1087]" pageId="25" pageNumber="783">
+<materialsCitation ID-GBIF-Occurrence="3783319362" latitude="-8.083333" longitude="146.2" pageId="25" pageNumber="783">
 “Iepala, 
 <collectingCountry name="Papua New Guinea" pageId="25" pageNumber="783">Papua New Guinea</collectingCountry>
 (
@@ -160,9 +165,7 @@ Watts’s Pipistrelle has been recorded in colonies of 20 or fewer individuals i
 <subSubSection pageId="25" pageNumber="783" type="conservation">
 <paragraph blockId="25.[106,1316,1094,1995]" pageId="25" pageNumber="783">
 <emphasis bold="true" box="[108,459,1764,1797]" pageId="25" pageNumber="783">Status and Conservation.</emphasis>
-Classified as Least Concern on The IUCN Red List. Although Watts’s Pipistrelle seems to have a rather restricted distribution, it does not seem to face any 
-<taxonomicName box="[236,318,1843,1876]" class="Magnoliopsida" family="Fabaceae" genus="Acacia" kingdom="Plantae" order="Fabales" pageId="25" pageNumber="783" phylum="Tracheophyta" rank="species" species="major">major</taxonomicName>
-threats. It also seems tolerant to human activities and has only really been recorded in urban areas.
+Classified as Least Concern on The IUCN Red List. Although Watts’s Pipistrelle seems to have a rather restricted distribution, it does not seem to face any major threats. It also seems tolerant to human activities and has only really been recorded in urban areas.
 </paragraph>
 </subSubSection>
 <subSubSection pageId="25" pageNumber="783" type="bibRefCitation_list">

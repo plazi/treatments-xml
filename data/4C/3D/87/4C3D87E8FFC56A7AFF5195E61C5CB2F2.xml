@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="347" approvalRequired_for_illustrations="1" approvalRequired_for_matCits="100" approvalRequired_for_taxonomicNames="143" approvalRequired_for_textStreams="2" approvalRequired_for_treatments="101" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FFC56A7AFF5195E61C5CB2F2" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Neoromicia robertsi" docType="treatment" docVersion="5" lastPageNumber="820" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="820" updateTime="1653076796268" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FFC56A7AFF5195E61C5CB2F2" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Neoromicia robertsi" docType="treatment" docVersion="10" lastPageNumber="820" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="820" updateTime="1658412944878" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6397752</mods:identifier>
+<mods:identifier type="GBIF-Dataset">45351c32-25dd-422c-bdb2-00e73deb4943</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:4C3D87E8FFC56A7AFF5195E61C5CB2F2" httpUri="http://treatment.plazi.org/id/4C3D87E8FFC56A7AFF5195E61C5CB2F2" lastPageNumber="820" pageId="62" pageNumber="820">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6578472" ID-GBIF-Taxon="195628365" ID-Zenodo-Dep="6578472" LSID="urn:lsid:plazi:treatment:4C3D87E8FFC56A7AFF5195E61C5CB2F2" httpUri="http://treatment.plazi.org/id/4C3D87E8FFC56A7AFF5195E61C5CB2F2" lastPageNumber="820" pageId="62" pageNumber="820">
 <subSubSection box="[173,253,959,997]" pageId="62" pageNumber="820" type="multiple">
 <paragraph blockId="62.[169,1185,959,1040]" box="[173,253,959,997]" pageId="62" pageNumber="820">
 <heading box="[173,253,959,997]" pageId="62" pageNumber="820">
@@ -78,31 +79,37 @@
 </heading>
 </paragraph>
 </subSubSection>
-<paragraph blockId="62.[782,1375,1080,1507]" pageId="62" pageNumber="820">
 <subSubSection pageId="62" pageNumber="820" type="reference_group">
+<paragraph blockId="62.[782,1375,1080,1507]" pageId="62" pageNumber="820">
 <emphasis bold="true" box="[782,938,1080,1113]" pageId="62" pageNumber="820">Taxonomy.</emphasis>
 <taxonomicName authority="Goodman" authorityName="Goodman" class="Mammalia" family="Vespertilionidae" genus="Neoromicia" kingdom="Animalia" order="Chiroptera" pageId="62" pageNumber="820" phylum="Chordata" rank="species" species="robertsi">Neoromicia robertsi Goodman et al, 2012</taxonomicName>
-, 
-<materialsCitation pageId="62" pageNumber="820">
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="62" pageNumber="820" type="materials_examined">
+<paragraph blockId="62.[782,1375,1080,1507]" pageId="62" pageNumber="820">
+<materialsCitation ID-GBIF-Occurrence="3783319459" latitude="-18.404917" longitude="47.944984" pageId="62" pageNumber="820">
 “ 
 <collectingCountry box="[1060,1229,1127,1152]" name="Madagascar" pageId="62" pageNumber="820">Madagascar</collectingCountry>
 : 
 <collectingRegion country="Madagascar" name="Antananarivo" pageId="62" pageNumber="820">Province d’Antananarivo</collectingRegion>
 , Anjozorobe, Amboasary, 
-<geoCoordinate box="[785,949,1198,1231]" pageId="62" pageNumber="820">18°24295°S</geoCoordinate>
+<geoCoordinate box="[785,949,1198,1231]" degrees="18" direction="south" minutes="24.295" orientation="latitude" pageId="62" pageNumber="820" precision="1" value="-18.404917">18°24.295'S</geoCoordinate>
 , 
-<geoCoordinate box="[966,1136,1198,1231]" degrees="47" direction="east" minutes="56.699" orientation="longitude" pageId="62" pageNumber="820" precision="55" value="56.699">47°56.699°E</geoCoordinate>
+<geoCoordinate box="[966,1136,1198,1231]" degrees="47" direction="east" minutes="56.699" orientation="longitude" pageId="62" pageNumber="820" precision="1" value="47.944984">47°56.699'E</geoCoordinate>
 .”
 </materialsCitation>
+</paragraph>
 </subSubSection>
-<subSubSection pageId="62" pageNumber="820" type="diagnosis">
+<subSubSection pageId="62" pageNumber="820" type="discussion">
+<paragraph blockId="62.[782,1375,1080,1507]" pageId="62" pageNumber="820">
 Madagascan specimens previously assigned to melckorum were the basis for the description of 
 <taxonomicName box="[1054,1189,1316,1349]" class="Mammalia" family="Vespertilionidae" genus="Neoromicia" kingdom="Animalia" order="Chiroptera" pageId="62" pageNumber="820" phylum="Chordata" rank="species" species="robertsi">N. robertsi</taxonomicName>
 . The species was found to be sister to 
 <taxonomicName box="[1147,1368,1356,1389]" class="Mammalia" family="Vespertilionidae" genus="Neoromicia" kingdom="Animalia" order="Chiroptera" pageId="62" pageNumber="821" phylum="Chordata" rank="species" species="malagasyensis">N. malagasyensis</taxonomicName>
 . Monotypic.
-</subSubSection>
 </paragraph>
+</subSubSection>
 <subSubSection box="[783,1168,1435,1468]" pageId="62" pageNumber="820" type="distribution">
 <caption ID-DOI="http://doi.org/10.5281/zenodo.6398027" ID-Zenodo-Dep="6398027" box="[783,1168,1435,1468]" httpUri="https://zenodo.org/record/6398027/files/figure.png" inLine="true" pageId="62" pageNumber="820" targetBox="[167,759,1091,1505]" targetPageId="62">
 <paragraph blockId="62.[782,1375,1080,1507]" box="[783,1168,1435,1468]" pageId="62" pageNumber="820">
@@ -143,7 +150,11 @@ Roberts’s Serotine is reported to feed on
 , 
 <taxonomicName class="Insecta" kingdom="Animalia" order="Hymenoptera" pageId="62" pageNumber="820" phylum="Arthropoda" rank="order">Hymenoptera</taxonomicName>
 , 
-<taxonomicName authority=", Trichoptera, and Homoptera." box="[244,853,2147,2180]" class="Insecta" kingdom="Animalia" order="Lepidoptera" pageId="62" pageNumber="820" phylum="Arthropoda" rank="order">Lepidoptera, Trichoptera, and Homoptera.</taxonomicName>
+<taxonomicName authority=", Trichoptera, and Homoptera." authorityName="Linnaeus" authorityYear="1758" box="[244,420,2147,2180]" class="Insecta" family="Malvaceae" genus="Lepidoptera" higherTaxonomySource="GBIF" kingdom="Animalia" order="Lepidoptera" pageId="62" pageNumber="820" phylum="Arthropoda" rank="genus">Lepidoptera</taxonomicName>
+, 
+<taxonomicName authority=", Trichoptera, and Homoptera." box="[436,609,2147,2180]" class="Insecta" kingdom="Animalia" order="Lepidoptera" pageId="62" pageNumber="820" phylum="Arthropoda" rank="order">Trichoptera,</taxonomicName>
+and 
+<taxonomicName authority=", Trichoptera, and Homoptera." box="[683,853,2147,2180]" class="Insecta" kingdom="Animalia" order="Lepidoptera" pageId="62" pageNumber="820" phylum="Arthropoda" rank="order">Homoptera.</taxonomicName>
 </paragraph>
 </subSubSection>
 <subSubSection pageId="62" pageNumber="820" type="breeding">

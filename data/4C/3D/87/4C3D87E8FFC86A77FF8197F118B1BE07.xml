@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="377" approvalRequired_for_illustrations="1" approvalRequired_for_matCits="100" approvalRequired_for_taxonomicNames="169" approvalRequired_for_textStreams="2" approvalRequired_for_treatments="105" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FFC86A77FF8197F118B1BE07" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Hypsugo ariel" docType="treatment" docVersion="5" lastPageNumber="809" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="809" updateTime="1653071343545" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FFC86A77FF8197F118B1BE07" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Hypsugo ariel" docType="treatment" docVersion="10" lastPageNumber="809" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="809" updateTime="1658412944878" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6397752</mods:identifier>
+<mods:identifier type="GBIF-Dataset">45351c32-25dd-422c-bdb2-00e73deb4943</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:4C3D87E8FFC86A77FF8197F118B1BE07" httpUri="http://treatment.plazi.org/id/4C3D87E8FFC86A77FF8197F118B1BE07" lastPageNumber="809" pageId="51" pageNumber="809">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6578439" ID-GBIF-Taxon="195628298" ID-Zenodo-Dep="6578439" LSID="urn:lsid:plazi:treatment:4C3D87E8FFC86A77FF8197F118B1BE07" httpUri="http://treatment.plazi.org/id/4C3D87E8FFC86A77FF8197F118B1BE07" lastPageNumber="809" pageId="51" pageNumber="809">
 <subSubSection box="[125,183,424,470]" pageId="51" pageNumber="809" type="multiple">
 <paragraph blockId="51.[124,1266,424,553]" box="[125,183,424,470]" pageId="51" pageNumber="809">
 <heading box="[125,183,424,470]" pageId="51" pageNumber="809">
@@ -90,12 +91,16 @@
 </heading>
 </paragraph>
 </subSubSection>
-<subSubSection pageId="51" pageNumber="809" type="reference_group">
-<paragraph blockId="51.[738,1332,596,1018]" pageId="51" pageNumber="809">
+<subSubSection box="[738,1327,596,625]" pageId="51" pageNumber="809" type="reference_group">
+<paragraph blockId="51.[738,1332,596,1018]" box="[738,1327,596,625]" pageId="51" pageNumber="809">
 <emphasis bold="true" box="[738,893,596,625]" pageId="51" pageNumber="809">Taxonomy.</emphasis>
 <taxonomicName authority="Thomas, 1904" authorityName="Kaup" authorityYear="1829" box="[907,1322,596,625]" class="Mammalia" family="Vespertilionidae" genus="Pipistrellus" kingdom="Animalia" order="Chiroptera" pageId="51" pageNumber="809" phylum="Chordata" rank="genus" species="ariel">Pipistrellus ariel Thomas, 1904</taxonomicName>
-, 
-<materialsCitation pageId="51" pageNumber="809">
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="51" pageNumber="809" type="materials_examined">
+<paragraph blockId="51.[738,1332,596,1018]" pageId="51" pageNumber="809">
+<materialsCitation ID-GBIF-Occurrence="3783319701" latitude="22.0" longitude="35.0" pageId="51" pageNumber="809">
 “Eastern Egyptian desert, lat. 
 <geoCoordinate box="[1155,1236,635,664]" degrees="22" direction="north" orientation="latitude" pageId="51" pageNumber="809" precision="55555" value="22.0">22° N</geoCoordinate>
 ., long. 
@@ -195,9 +200,7 @@ includes bodenheimeri as a synonym, based on genetic and morphological data. Mon
 <subSubSection pageId="51" pageNumber="809" type="description">
 <paragraph blockId="51.[126,1337,1026,3151]" pageId="51" pageNumber="809">
 <emphasis bold="true" box="[127,380,1548,1573]" pageId="51" pageNumber="809">Descriptive notes.</emphasis>
-Head-body 35-45 mm, tail 32-44 mm, ear 9-14-1 mm, hindfoot 5-6 mm, forearm 28-1-33-7 mm; weight 2:3—4-8 g. Pelage of the Fairy Pipistrelle is not dense; dorsally it is pale pinkish brown to pale grayish cream or off-white cream, with underlying color showing through (hairs are blackish brown basally); ventrally it is generally paler brownish cream to off-white (hairs with blackish-brown base and pale grayish-cream tip). Bare face, ears, limbs, and digits are pinkish to dark pinkish brown. Ears are relatively short with convex inner margins, concave outer margins, and rounded tip; tragus has maximum breadth thatis only slightly less than length of its anterior margin, straight anterior margin, smoothly convex posterior margin with distinct lobule basally, and rounded tip. Membranes are pale brown and semitranslucent (uropatagium is apparently lighter than wings); Postcalcarial lobe is very narrow and tail projects slightly beyond uropatagium (last two vertebrae). Penisis relatively short with glans covered in long fine hairs. Baculum is short (1-4-1-8 mm) with upturned tip; shaft is wide in dorsal view, gradually widening just before narrowed and pointed tip, and thinner in lateral view; base is bulbous and non-bifurcated. Skull is small and 
-<taxonomicName box="[316,411,2131,2164]" class="Mammalia" family="Vespertilionidae" genus="Rhogeessa" kingdom="Animalia" order="Chiroptera" pageId="51" pageNumber="809" phylum="Chordata" rank="species" species="gracile">gracile</taxonomicName>
-; braincase is relatively narrow and moderately high; rostrum is flattened and relatively narrow; forehead when viewed laterally is strongly concave; sagittal crest is extremely reduced and lambdoidal crests are absent. I” varies between unicuspid and bicuspid; I? is about two-thirds length of I?; P* is minute and sometimes not visible above gum and displaced lingually; C' and P* are in contact; and lower molars are myotodont. Dental formula for all members of Hypsugois 12/3, C 1/1, P 2/2, M 3/3 (x2) = 34 (but see 
+Head-body 35-45 mm, tail 32-44 mm, ear 9-14-1 mm, hindfoot 5-6 mm, forearm 28-1-33-7 mm; weight 2:3—4-8 g. Pelage of the Fairy Pipistrelle is not dense; dorsally it is pale pinkish brown to pale grayish cream or off-white cream, with underlying color showing through (hairs are blackish brown basally); ventrally it is generally paler brownish cream to off-white (hairs with blackish-brown base and pale grayish-cream tip). Bare face, ears, limbs, and digits are pinkish to dark pinkish brown. Ears are relatively short with convex inner margins, concave outer margins, and rounded tip; tragus has maximum breadth thatis only slightly less than length of its anterior margin, straight anterior margin, smoothly convex posterior margin with distinct lobule basally, and rounded tip. Membranes are pale brown and semitranslucent (uropatagium is apparently lighter than wings); Postcalcarial lobe is very narrow and tail projects slightly beyond uropatagium (last two vertebrae). Penisis relatively short with glans covered in long fine hairs. Baculum is short (1-4-1-8 mm) with upturned tip; shaft is wide in dorsal view, gradually widening just before narrowed and pointed tip, and thinner in lateral view; base is bulbous and non-bifurcated. Skull is small and gracile; braincase is relatively narrow and moderately high; rostrum is flattened and relatively narrow; forehead when viewed laterally is strongly concave; sagittal crest is extremely reduced and lambdoidal crests are absent. I” varies between unicuspid and bicuspid; I? is about two-thirds length of I?; P* is minute and sometimes not visible above gum and displaced lingually; C' and P* are in contact; and lower molars are myotodont. Dental formula for all members of Hypsugois 12/3, C 1/1, P 2/2, M 3/3 (x2) = 34 (but see 
 <taxonomicName baseAuthorityName="Bobrinskii" baseAuthorityYear="1926" box="[490,697,2374,2403]" class="Mammalia" family="Vespertilionidae" genus="Hypsugo" kingdom="Animalia" order="Chiroptera" pageId="51" pageNumber="809" phylum="Chordata" rank="species" species="alaschanicus">H. alaschanicus</taxonomicName>
 and 
 <taxonomicName baseAuthorityName="Thomas" baseAuthorityYear="1913" box="[767,957,2374,2403]" class="Mammalia" family="Vespertilionidae" genus="Hypsugo" kingdom="Animalia" order="Chiroptera" pageId="51" pageNumber="809" phylum="Chordata" rank="species" species="musciculus">H. musciculus</taxonomicName>
@@ -222,9 +225,15 @@ in a rocky canyon, at a small spring, and in an old village garden, suggesting F
 contained a variety of insects, including 
 <taxonomicName box="[867,1023,2684,2717]" class="Insecta" family="Scarabaeidae" genus="Coleoptera" kingdom="Animalia" order="Coleoptera" pageId="51" pageNumber="809" phylum="Arthropoda" rank="order">Coleoptera</taxonomicName>
 , 
-<taxonomicName authority=", Auchenorrhyncha, Heteroptera" authorityName="Auchenorrhyncha, Heteroptera" class="Insecta" kingdom="Animalia" order="Lepidoptera" pageId="51" pageNumber="809" phylum="Arthropoda" rank="order">Lepidoptera, Auchenorrhyncha, Heteroptera</taxonomicName>
+<taxonomicName authority=", Auchenorrhyncha, Heteroptera" authorityName="Auchenorrhyncha, Heteroptera" box="[1044,1218,2684,2717]" class="Insecta" kingdom="Animalia" order="Lepidoptera" pageId="51" pageNumber="809" phylum="Arthropoda" rank="order">Lepidoptera</taxonomicName>
 , 
-<taxonomicName authority=", Nematocera" authorityName="Nematocera" box="[509,895,2724,2757]" class="Insecta" kingdom="Animalia" order="Hymenoptera" pageId="51" pageNumber="809" phylum="Arthropoda" rank="order">Hymenoptera, Nematocera</taxonomicName>
+<taxonomicName authority=", Auchenorrhyncha, Heteroptera" authorityName="Auchenorrhyncha, Heteroptera" class="Insecta" genus="Auchenorrhyncha" kingdom="Animalia" order="Lepidoptera" pageId="51" pageNumber="809" phylum="Arthropoda" rank="genus">Auchenorrhyncha</taxonomicName>
+, 
+<taxonomicName authority=", Auchenorrhyncha, Heteroptera" authorityName="Auchenorrhyncha, Heteroptera" box="[316,489,2724,2757]" class="Insecta" family="Miridae" genus="Heteroptera" higherTaxonomySource="GBIF" kingdom="Animalia" order="Lepidoptera" pageId="51" pageNumber="809" phylum="Arthropoda" rank="genus">Heteroptera</taxonomicName>
+, 
+<taxonomicName authority=", Nematocera" authorityName="Nematocera" authorityYear="1758" box="[509,704,2724,2757]" class="Insecta" family="Malvaceae" genus="Hymenoptera" higherTaxonomySource="GBIF" kingdom="Animalia" order="Hymenoptera" pageId="51" pageNumber="809" phylum="Arthropoda" rank="genus">Hymenoptera</taxonomicName>
+, 
+<taxonomicName authority=", Nematocera" authorityName="Nematocera" box="[723,895,2724,2757]" class="Insecta" family="Mycetophilidae" genus="Nematocera" higherTaxonomySource="CoL" kingdom="Animalia" order="Hymenoptera" pageId="51" pageNumber="809" phylum="Arthropoda" rank="genus">Nematocera</taxonomicName>
 , 
 <taxonomicName box="[915,1079,2724,2757]" class="Insecta" kingdom="Animalia" order="Neuroptera" pageId="51" pageNumber="809" phylum="Arthropoda" rank="order">Neuroptera</taxonomicName>
 , and Trichoptera, being dominated by small 

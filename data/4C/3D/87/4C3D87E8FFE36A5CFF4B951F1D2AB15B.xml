@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="39" approvalRequired_for_matCits="1" approvalRequired_for_taxonomicNames="9" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FFE36A5CFF4B951F1D2AB15B" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Pipistrellus collinus Thomas 1920" docType="treatment" docVersion="5" lastPageNumber="782" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="782" updateTime="1653491089352" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FFE36A5CFF4B951F1D2AB15B" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Pipistrellus collinus Thomas 1920" docType="treatment" docVersion="7" lastPageNumber="782" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="782" updateTime="1658412944878" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -41,7 +41,7 @@
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:4C3D87E8FFE36A5CFF4B951F1D2AB15B" httpUri="http://treatment.plazi.org/id/4C3D87E8FFE36A5CFF4B951F1D2AB15B" lastPageNumber="782" pageId="24" pageNumber="782">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6581223" ID-GBIF-Taxon="195628268" ID-Zenodo-Dep="6581223" LSID="urn:lsid:plazi:treatment:4C3D87E8FFE36A5CFF4B951F1D2AB15B" httpUri="http://treatment.plazi.org/id/4C3D87E8FFE36A5CFF4B951F1D2AB15B" lastPageNumber="782" pageId="24" pageNumber="782">
 <subSubSection box="[183,240,838,888]" pageId="24" pageNumber="782" type="multiple">
 <paragraph blockId="24.[181,1349,838,971]" box="[183,240,838,888]" pageId="24" pageNumber="782">
 <heading box="[183,240,838,888]" pageId="24" pageNumber="782">
@@ -90,10 +90,13 @@ grande de
 <subSubSection pageId="24" pageNumber="782" type="reference_group">
 <paragraph blockId="24.[796,1388,1017,1440]" pageId="24" pageNumber="782">
 <emphasis bold="true" box="[796,951,1017,1046]" pageId="24" pageNumber="782">Taxonomy.</emphasis>
-<taxonomicName baseAuthorityName="Peters &amp; Doria" baseAuthorityYear="1881" box="[977,1268,1017,1046]" class="Mammalia" family="Vespertilionidae" genus="Pipistrellus" kingdom="Animalia" order="Chiroptera" pageId="24" pageNumber="782" phylum="Chordata" rank="species" species="papuanus">Pipistrellus papuanus</taxonomicName>
-<taxonomicName authority="Thomas, 1920" authorityName="Thomas" authorityYear="1920" class="Mammalia" family="Vespertilionidae" genus="Pipistrellus" kingdom="Animalia" order="Chiroptera" pageId="24" pageNumber="782" phylum="Chordata" rank="species" species="collinus">collinus Thomas, 1920</taxonomicName>
-, 
-<materialsCitation pageId="24" pageNumber="782">
+<taxonomicName authority="Thomas, 1920" authorityName="Thomas" authorityYear="1920" baseAuthorityName="Peters &amp; Doria" baseAuthorityYear="1881" class="Mammalia" family="Vespertilionidae" genus="Pipistrellus" kingdom="Animalia" order="Chiroptera" pageId="24" pageNumber="782" phylum="Chordata" rank="subSpecies" species="papuanus" subSpecies="collinus">Pipistrellus papuanus collinus Thomas, 1920</taxonomicName>
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="24" pageNumber="782" type="materials_examined">
+<paragraph blockId="24.[796,1388,1017,1440]" pageId="24" pageNumber="782">
+<materialsCitation ID-GBIF-Occurrence="3783319763" pageId="24" pageNumber="782">
 “Bihagi, head of Mambare 
 <collectingRegion box="[797,868,1092,1125]" country="Nigeria" name="Rivers" pageId="24" pageNumber="782">River</collectingRegion>
 , British 
@@ -175,9 +178,7 @@ Most recorded roosts of Greater Papuan Pipistrelles consist of a single individu
 <subSubSection pageId="24" pageNumber="782" type="conservation">
 <paragraph blockId="24.[180,1389,1447,2665]" pageId="24" pageNumber="782">
 <emphasis bold="true" box="[183,533,2473,2506]" pageId="24" pageNumber="782">Status and Conservation.</emphasis>
-Classified as Least Concern on The IUCN Red List. Very little is currently known about ecology of the Greater Papuan Pipistrelle. It is reportedly locally common. It does seem to face any 
-<taxonomicName box="[737,819,2552,2585]" class="Magnoliopsida" family="Fabaceae" genus="Acacia" kingdom="Plantae" order="Fabales" pageId="24" pageNumber="782" phylum="Tracheophyta" rank="species" species="major">major</taxonomicName>
-threats, and much of its habitat is intact.
+Classified as Least Concern on The IUCN Red List. Very little is currently known about ecology of the Greater Papuan Pipistrelle. It is reportedly locally common. It does seem to face any major threats, and much of its habitat is intact.
 </paragraph>
 </subSubSection>
 <subSubSection pageId="24" pageNumber="782" type="bibRefCitation_list">

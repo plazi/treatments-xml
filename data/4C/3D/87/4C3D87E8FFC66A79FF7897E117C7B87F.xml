@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="39" approvalRequired_for_matCits="1" approvalRequired_for_taxonomicNames="9" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FFC66A79FF7897E117C7B87F" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Neoromicia capensis" docType="treatment" docVersion="6" lastPageNumber="819" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="819" updateTime="1653491089352" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FFC66A79FF7897E117C7B87F" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Neoromicia capensis" docType="treatment" docVersion="8" lastPageNumber="819" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="819" updateTime="1658412944878" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -41,7 +41,7 @@
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:4C3D87E8FFC66A79FF7897E117C7B87F" httpUri="http://treatment.plazi.org/id/4C3D87E8FFC66A79FF7897E117C7B87F" lastPageNumber="819" pageId="61" pageNumber="819">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6581266" ID-GBIF-Taxon="195628363" ID-Zenodo-Dep="6581266" LSID="urn:lsid:plazi:treatment:4C3D87E8FFC66A79FF7897E117C7B87F" httpUri="http://treatment.plazi.org/id/4C3D87E8FFC66A79FF7897E117C7B87F" lastPageNumber="819" pageId="61" pageNumber="819">
 <subSubSection box="[132,211,440,486]" pageId="61" pageNumber="819" type="multiple">
 <paragraph blockId="61.[127,1214,440,570]" box="[132,211,440,486]" pageId="61" pageNumber="819">
 <heading box="[132,211,440,486]" pageId="61" pageNumber="819">
@@ -118,8 +118,12 @@ Serotine Bat
 <paragraph blockId="61.[737,1333,612,1039]" pageId="61" pageNumber="819">
 <emphasis bold="true" box="[740,895,612,645]" pageId="61" pageNumber="819">Taxonomy.</emphasis>
 <taxonomicName authority="A. Smith, 1829" authorityName="A. Smith" authorityYear="1829" class="Mammalia" family="Vespertilionidae" genus="Vespertilio" kingdom="Animalia" order="Chiroptera" pageId="61" pageNumber="819" phylum="Chordata" rank="species" species="capensis">Vespertilio capensis A. Smith, 1829</taxonomicName>
-, 
-<materialsCitation pageId="61" pageNumber="819">
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="61" pageNumber="819" type="materials_examined">
+<paragraph blockId="61.[737,1333,612,1039]" pageId="61" pageNumber="819">
+<materialsCitation ID-GBIF-Occurrence="3783319698" pageId="61" pageNumber="819">
 Grahamstown, 
 <collectingRegion country="South Africa" name="Eastern Cape" pageId="61" pageNumber="819">Eastern Cape Province</collectingRegion>
 , 

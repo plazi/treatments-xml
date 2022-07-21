@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="154" approvalRequired_for_illustrations="1" approvalRequired_for_matCits="100" approvalRequired_for_taxonomicNames="15" approvalRequired_for_textStreams="2" approvalRequired_for_treatments="36" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FFFF6A40FF4F9B5F18EEB6B4" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Vansonia rueppellii" docType="treatment" docVersion="7" lastPageNumber="762" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="762" updateTime="1653412976443" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FFFF6A40FF4F9B5F18EEB6B4" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Vansonia rueppellii" docType="treatment" docVersion="10" lastPageNumber="762" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="762" updateTime="1658412944878" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6397752</mods:identifier>
+<mods:identifier type="GBIF-Dataset">45351c32-25dd-422c-bdb2-00e73deb4943</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6567069" ID-Zenodo-Dep="6567069" LSID="urn:lsid:plazi:treatment:4C3D87E8FFFF6A40FF4F9B5F18EEB6B4" httpUri="http://treatment.plazi.org/id/4C3D87E8FFFF6A40FF4F9B5F18EEB6B4" lastPageNumber="762" pageId="4" pageNumber="762">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6567069" ID-GBIF-Taxon="195628474" ID-Zenodo-Dep="6567069" LSID="urn:lsid:plazi:treatment:4C3D87E8FFFF6A40FF4F9B5F18EEB6B4" httpUri="http://treatment.plazi.org/id/4C3D87E8FFFF6A40FF4F9B5F18EEB6B4" lastPageNumber="762" pageId="4" pageNumber="762">
 <subSubSection box="[179,211,3334,3384]" pageId="4" pageNumber="762" type="multiple">
 <paragraph blockId="4.[177,1244,3334,3465]" box="[179,211,3334,3384]" pageId="4" pageNumber="762">
 <heading box="[179,211,3334,3384]" pageId="4" pageNumber="762">
@@ -91,8 +92,12 @@ de vientre blanco
 <paragraph blockId="4.[2060,2655,269,696]" pageId="4" pageNumber="762">
 <emphasis bold="true" box="[2060,2215,269,302]" pageId="4" pageNumber="762">Taxonomy.</emphasis>
 <taxonomicName authorityName="Linnaeus" authorityYear="1758" class="Mammalia" family="Vespertilionidae" genus="Vespertilio" kingdom="Animalia" order="Chiroptera" pageId="4" pageNumber="762" phylum="Chordata" rank="species" species="rueppelii">Vespertilio rueppelii [sic] J. B. Fischer, 1829</taxonomicName>
-, 
-<materialsCitation pageId="4" pageNumber="762">
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="4" pageNumber="762" type="materials_examined">
+<paragraph blockId="4.[2060,2655,269,696]" pageId="4" pageNumber="762">
+<materialsCitation ID-GBIF-Occurrence="3783319326" pageId="4" pageNumber="762">
 Dongola, Northern Province, 
 <collectingCountry box="[2061,2151,349,382]" name="Sudan" pageId="4" pageNumber="762">Sudan</collectingCountry>
 .
@@ -105,7 +110,7 @@ This species is generally placed in
 <taxonomicName authorityName="Kaup" authorityYear="1829" class="Mammalia" family="Vespertilionidae" genus="Pipistrellus" kingdom="Animalia" order="Chiroptera" pageId="4" pageNumber="762" phylum="Chordata" rank="genus">Pipistrellus</taxonomicName>
 but has been transferred to its own monotypic genus, 
 <taxonomicName box="[2333,2449,466,499]" class="Mammalia" family="Vespertilionidae" genus="Vansonia" higherTaxonomySource="GBIF" kingdom="Animalia" order="Chiroptera" pageId="4" pageNumber="762" phylum="Chordata" rank="genus">Vansonia</taxonomicName>
-, based on genetic data showing that it is either a very primitive lineage within Pipistrellini or is;:: ts sister to a clade including 
+, based on genetic data showing that it is either a very primitive lineage within Pipistrellini or is sister to a clade including 
 <taxonomicName authorityName="Kaup" authorityYear="1829" box="[2449,2588,584,617]" class="Mammalia" family="Vespertilionidae" genus="Pipistrellus" kingdom="Animalia" order="Chiroptera" pageId="4" pageNumber="762" phylum="Chordata" rank="genus">Pipistrellus</taxonomicName>
 and 
 <taxonomicName authorityName="Bowditch" authorityYear="1825" box="[2062,2173,628,657]" class="Mammalia" family="Vespertilionidae" genus="Nyctalus" kingdom="Animalia" order="Chiroptera" pageId="4" pageNumber="762" phylum="Chordata" rank="genus">Nyctalus</taxonomicName>
@@ -271,9 +276,7 @@ emminus has been recorded from this species.
 <emphasis bold="true" box="[1454,1802,3111,3144]" pageId="4" pageNumber="762">Status and Conservation.</emphasis>
 Classified as Least Concern on The IUCN Red List (as 
 <taxonomicName baseAuthorityName="J. Fischer" baseAuthorityYear="1829" class="Mammalia" family="Vespertilionidae" genus="Pipistrellus" kingdom="Animalia" order="Chiroptera" pageId="4" pageNumber="762" phylum="Chordata" rank="species" species="rueppellii">Pipistrellus rueppellii</taxonomicName>
-). Ruppell’s Bat is very widespread and common throughoutits range. 
-<taxonomicName class="Magnoliopsida" family="Fabaceae" genus="Acacia" kingdom="Plantae" order="Fabales" pageId="4" pageNumber="762" phylum="Tracheophyta" rank="species" species="major">A major</taxonomicName>
-threat to this species may be the use of pesticidesto kill locusts, which can result in the poisoning of the bats themselves.
+). Ruppell’s Bat is very widespread and common throughoutits range. A major threat to this species may be the use of pesticidesto kill locusts, which can result in the poisoning of the bats themselves.
 </paragraph>
 </subSubSection>
 <subSubSection pageId="4" pageNumber="762" type="bibRefCitation_list">

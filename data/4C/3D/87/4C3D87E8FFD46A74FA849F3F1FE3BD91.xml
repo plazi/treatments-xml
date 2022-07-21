@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="377" approvalRequired_for_illustrations="1" approvalRequired_for_matCits="100" approvalRequired_for_taxonomicNames="169" approvalRequired_for_textStreams="2" approvalRequired_for_treatments="105" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FFD46A74FA849F3F1FE3BD91" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Nyctophilus arnhemensis" docType="treatment" docVersion="6" lastPageNumber="806" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="805" updateTime="1653071343545" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FFD46A74FA849F3F1FE3BD91" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Nyctophilus arnhemensis" docType="treatment" docVersion="14" lastPageNumber="806" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="805" updateTime="1658412944878" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6397752</mods:identifier>
+<mods:identifier type="GBIF-Dataset">45351c32-25dd-422c-bdb2-00e73deb4943</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:4C3D87E8FFD46A74FA849F3F1FE3BD91" httpUri="http://treatment.plazi.org/id/4C3D87E8FFD46A74FA849F3F1FE3BD91" lastPageId="48" lastPageNumber="806" pageId="47" pageNumber="805">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6578464" ID-GBIF-Taxon="195628047" ID-Zenodo-Dep="6578464" LSID="urn:lsid:plazi:treatment:4C3D87E8FFD46A74FA849F3F1FE3BD91" httpUri="http://treatment.plazi.org/id/4C3D87E8FFD46A74FA849F3F1FE3BD91" lastPageId="48" lastPageNumber="806" pageId="47" pageNumber="805">
 <subSubSection box="[1400,1457,2406,2452]" pageId="47" pageNumber="805" type="multiple">
 <paragraph blockId="47.[1398,2525,2406,2493]" box="[1400,1457,2406,2452]" pageId="47" pageNumber="805">
 <heading box="[1400,1457,2406,2452]" pageId="47" pageNumber="805">
@@ -79,13 +80,15 @@
 </paragraph>
 </subSubSection>
 <subSubSection pageId="47" pageNumber="805" type="reference_group">
-<paragraph blockId="47.[2006,2607,2537,2966]" box="[2011,2601,2537,2570]" pageId="47" pageNumber="805">
-<emphasis bold="true" box="[2011,2164,2537,2570]" pageId="47" pageNumber="805">Taxonomy.</emphasis>
-<taxonomicName authority="D. H." class="Mammalia" family="Vespertilionidae" genus="Nyctophilus" kingdom="Animalia" order="Chiroptera" pageId="47" pageNumber="805" phylum="Chordata" rank="species" species="arnhemensis">
-Nyctophilus arnhemensis D. H. 
 <paragraph blockId="47.[2006,2607,2537,2966]" pageId="47" pageNumber="805">
-Johnson, 1959, 
-<materialsCitation pageId="47" pageNumber="805">
+<emphasis bold="true" box="[2011,2164,2537,2570]" pageId="47" pageNumber="805">Taxonomy.</emphasis>
+<taxonomicName authority="D. H." class="Mammalia" family="Vespertilionidae" genus="Nyctophilus" kingdom="Animalia" order="Chiroptera" pageId="47" pageNumber="805" phylum="Chordata" rank="species" species="arnhemensis">Nyctophilus arnhemensis D. H. Johnson, 1959</taxonomicName>
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="47" pageNumber="805" type="materials_examined">
+<paragraph blockId="47.[2006,2607,2537,2966]" pageId="47" pageNumber="805">
+<materialsCitation ID-GBIF-Occurrence="3783319337" latitude="-12.266666" longitude="136.78334" pageId="47" pageNumber="805">
 “Rocky Bay, south of Yirkala, Cape Arnhem Peninsula, 
 <collectingRegion country="Australia" name="Northern Territory" pageId="47" pageNumber="805">Northern Territory</collectingRegion>
 , 
@@ -93,16 +96,14 @@ Johnson, 1959,
 (lat. 
 <geoCoordinate box="[2311,2439,2656,2689]" degrees="12" direction="south" minutes="16" orientation="latitude" pageId="47" pageNumber="805" precision="925" value="-12.266666">12° 16’ S</geoCoordinate>
 , long. 
-<geoCoordinate degrees="136" direction="east" minutes="47" orientation="longitude" pageId="47" pageNumber="805" precision="925" value="136.78334">136° 47 E</geoCoordinate>
+<geoCoordinate degrees="136" direction="east" minutes="47" orientation="longitude" pageId="47" pageNumber="805" precision="925" value="136.78334">136° 47' E</geoCoordinate>
 ).”
 </materialsCitation>
-</paragraph>
-</taxonomicName>
 </paragraph>
 </subSubSection>
 <subSubSection pageId="47" pageNumber="805" type="discussion">
 <paragraph blockId="47.[2006,2607,2537,2966]" lastBlockId="47.[1396,2604,2971,3478]" pageId="47" pageNumber="805">
-<taxonomicName box="[2013,2330,2736,2769]" class="Mammalia" family="Vespertilionidae" genus="Nyctophilus" kingdom="Animalia" order="Chiroptera" pageId="47" pageNumber="805" phylum="Chordata" rank="species" species="arnhemensis">Nyctophilus arnhemensis</taxonomicName>
+<taxonomicName authority="Johnson, 1959" box="[2013,2330,2736,2769]" class="Mammalia" family="Vespertilionidae" genus="Nyctophilus" kingdom="Animalia" order="Chiroptera" pageId="47" pageNumber="805" phylum="Chordata" rank="species" species="arnhemensis">Nyctophilus arnhemensis</taxonomicName>
 is in the 
 <taxonomicName authorityName="Thomas" authorityYear="1915" box="[2477,2540,2736,2769]" class="Mammalia" family="Vespertilionidae" genus="Nyctophilus" kingdom="Animalia" order="Chiroptera" pageId="47" pageNumber="805" phylum="Chordata" rank="species" species="bifax">bifax</taxonomicName>
 species group. It is extremely similar to N. bfax in most morphological characters (although it is smaller) and could potentially be a subspecies of N. 

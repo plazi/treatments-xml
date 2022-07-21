@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="154" approvalRequired_for_illustrations="1" approvalRequired_for_matCits="100" approvalRequired_for_taxonomicNames="15" approvalRequired_for_textStreams="2" approvalRequired_for_treatments="36" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FFEF6A51FA5F9B7F1B21BEFB" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Pipustrellus sturdeei" docType="treatment" docVersion="5" lastPageNumber="779" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="778" updateTime="1653412976443" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FFEF6A51FA5F9B7F1B21BEFB" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Pipustrellus sturdeei" docType="treatment" docVersion="9" lastPageNumber="779" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="778" updateTime="1658412944878" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6397752</mods:identifier>
+<mods:identifier type="GBIF-Dataset">45351c32-25dd-422c-bdb2-00e73deb4943</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:4C3D87E8FFEF6A51FA5F9B7F1B21BEFB" httpUri="http://treatment.plazi.org/id/4C3D87E8FFEF6A51FA5F9B7F1B21BEFB" lastPageId="21" lastPageNumber="779" pageId="20" pageNumber="778">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6578089" ID-GBIF-Taxon="195628516" ID-Zenodo-Dep="6578089" LSID="urn:lsid:plazi:treatment:4C3D87E8FFEF6A51FA5F9B7F1B21BEFB" httpUri="http://treatment.plazi.org/id/4C3D87E8FFEF6A51FA5F9B7F1B21BEFB" lastPageId="21" lastPageNumber="779" pageId="20" pageNumber="778">
 <subSubSection box="[1443,1500,3366,3412]" pageId="20" pageNumber="778" type="multiple">
 <paragraph blockId="20.[1440,2451,3366,3492]" box="[1443,1500,3366,3412]" pageId="20" pageNumber="778">
 <heading box="[1443,1500,3366,3412]" pageId="20" pageNumber="778">
@@ -88,12 +89,16 @@
 <paragraph blockId="21.[721,1313,313,731]" pageId="21" pageNumber="779">
 <emphasis bold="true" box="[721,876,313,338]" pageId="21" pageNumber="779">Taxonomy.</emphasis>
 <taxonomicName authority=": Thomas, 1915" authorityName="Thomas" authorityYear="1915" class="Mammalia" family="Vespertilionidae" genus="Pipistrellus" kingdom="Animalia" order="Chiroptera" pageId="21" pageNumber="779" phylum="Chordata" rank="species" species="sturdee">Pipistrellus sturdee: Thomas, 1915</taxonomicName>
-, 
-<materialsCitation pageId="21" pageNumber="779">
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="21" pageNumber="779" type="materials_examined">
+<paragraph blockId="21.[721,1313,313,731]" pageId="21" pageNumber="779">
+<materialsCitation ID-GBIF-Occurrence="3783319445" pageId="21" pageNumber="779">
 “Hillsborough Island [= Hahajima],” Bonin Islands, 
 <collectingCountry box="[1014,1101,388,417]" name="Japan" pageId="21" pageNumber="779">Japan</collectingCountry>
-</materialsCitation>
 .
+</materialsCitation>
 </paragraph>
 </subSubSection>
 <subSubSection pageId="21" pageNumber="779" type="discussion">

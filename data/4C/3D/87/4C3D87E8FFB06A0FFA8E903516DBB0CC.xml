@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="154" approvalRequired_for_illustrations="1" approvalRequired_for_matCits="100" approvalRequired_for_taxonomicNames="15" approvalRequired_for_textStreams="2" approvalRequired_for_treatments="36" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FFB06A0FFA8E903516DBB0CC" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Glauconycteris curryae Eger &amp; Schlitter 2001" docType="treatment" docVersion="7" lastPageNumber="833" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="833" updateTime="1653412976443" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FFB06A0FFA8E903516DBB0CC" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Glauconycteris curryae Eger &amp; Schlitter 2001" docType="treatment" docVersion="11" lastPageNumber="833" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="833" updateTime="1658412944878" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6397752</mods:identifier>
+<mods:identifier type="GBIF-Dataset">45351c32-25dd-422c-bdb2-00e73deb4943</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6403525" ID-Zenodo-Dep="6403525" LSID="urn:lsid:plazi:treatment:4C3D87E8FFB06A0FFA8E903516DBB0CC" httpUri="http://treatment.plazi.org/id/4C3D87E8FFB06A0FFA8E903516DBB0CC" lastPageNumber="833" pageId="75" pageNumber="833">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6403525" ID-GBIF-Taxon="195628248" ID-Zenodo-Dep="6403525" LSID="urn:lsid:plazi:treatment:4C3D87E8FFB06A0FFA8E903516DBB0CC" httpUri="http://treatment.plazi.org/id/4C3D87E8FFB06A0FFA8E903516DBB0CC" lastPageNumber="833" pageId="75" pageNumber="833">
 <subSubSection box="[1394,1474,1644,1690]" pageId="75" pageNumber="833" type="multiple">
 <paragraph blockId="75.[1390,2514,1644,1769]" box="[1394,1474,1644,1690]" pageId="75" pageNumber="833">
 <heading box="[1394,1474,1644,1690]" pageId="75" pageNumber="833">
@@ -91,7 +92,9 @@
 Glauconycteris curry: [sic] Eger &amp; Schlitter, 
 <quantity box="[2130,2296,1856,1889]" metricMagnitude="6" metricUnit="m" metricValue="2.0011" pageId="75" pageNumber="833" unit="km" value="2001.1">
 2001, 
-<materialsCitation pageId="75" pageNumber="833">
+<subSubSection pageId="75" pageNumber="833" type="materials_examined">
+<paragraph blockId="75.[2001,2596,1816,2244]" pageId="75" pageNumber="833">
+<materialsCitation ID-GBIF-Occurrence="3783319487" latitude="5.0" longitude="25.0" pageId="75" pageNumber="833">
 10 km W Bipindi (
 <geoCoordinate box="[2467,2587,1856,1889]" degrees="05" direction="north" orientation="latitude" pageId="75" pageNumber="833" precision="55555" value="5.0">03’05° N</geoCoordinate>
 , 
@@ -102,6 +105,8 @@ Glauconycteris curry: [sic] Eger &amp; Schlitter,
 <collectingCountry box="[2441,2588,1903,1928]" name="Cameroon" pageId="75" pageNumber="833">Cameroon</collectingCountry>
 .
 </materialsCitation>
+</paragraph>
+</subSubSection>
 </quantity>
 </taxonomicName>
 </paragraph>

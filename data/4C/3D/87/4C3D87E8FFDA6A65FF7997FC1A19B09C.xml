@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="403" approvalRequired_for_illustrations="1" approvalRequired_for_matCits="105" approvalRequired_for_taxonomicNames="182" approvalRequired_for_treatments="115" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FFDA6A65FF7997FC1A19B09C" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Vespadelus douglasorum" docType="treatment" docVersion="6" lastPageNumber="791" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="791" updateTime="1653058883169" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FFDA6A65FF7997FC1A19B09C" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Vespadelus douglasorum" docType="treatment" docVersion="11" lastPageNumber="791" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="791" updateTime="1658412944878" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6397752</mods:identifier>
+<mods:identifier type="GBIF-Dataset">45351c32-25dd-422c-bdb2-00e73deb4943</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:4C3D87E8FFDA6A65FF7997FC1A19B09C" httpUri="http://treatment.plazi.org/id/4C3D87E8FFDA6A65FF7997FC1A19B09C" lastPageNumber="791" pageId="33" pageNumber="791">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6578387" ID-GBIF-Taxon="195628392" ID-Zenodo-Dep="6578387" LSID="urn:lsid:plazi:treatment:4C3D87E8FFDA6A65FF7997FC1A19B09C" httpUri="http://treatment.plazi.org/id/4C3D87E8FFDA6A65FF7997FC1A19B09C" lastPageNumber="791" pageId="33" pageNumber="791">
 <subSubSection box="[133,189,421,467]" pageId="33" pageNumber="791" type="multiple">
 <paragraph blockId="33.[129,1199,421,549]" box="[133,189,421,467]" pageId="33" pageNumber="791">
 <heading box="[133,189,421,467]" pageId="33" pageNumber="791">
@@ -73,10 +74,8 @@
 <emphasis bold="true" box="[482,573,485,506]" pageId="33" pageNumber="791">German:</emphasis>
 <vernacularName box="[582,857,485,506]" pageId="33" pageNumber="791">Gelblippen-Waldfledermaus</vernacularName>
 / 
-<taxonomicName authority=": Vespadela de Douglas" box="[879,1198,485,506]" class="Aves" family="Phasianidae" genus="Spanish" kingdom="Animalia" order="Galliformes" pageId="33" pageNumber="791" phylum="Chordata" rank="genus">
 <emphasis bold="true" box="[879,970,485,506]" pageId="33" pageNumber="791">Spanish:</emphasis>
 <vernacularName box="[977,1198,485,506]" pageId="33" pageNumber="791">Vespadela de Douglas</vernacularName>
-</taxonomicName>
 </heading>
 </paragraph>
 <paragraph blockId="33.[129,1199,421,549]" box="[130,764,523,544]" pageId="33" pageNumber="791">
@@ -92,15 +91,19 @@
 <paragraph blockId="33.[743,1335,593,1020]" pageId="33" pageNumber="791">
 <emphasis bold="true" box="[744,899,593,626]" pageId="33" pageNumber="791">Taxonomy.</emphasis>
 <taxonomicName authorityName="Kitchener" authorityYear="1976" class="Mammalia" family="Vespertilionidae" genus="Eptesicus" kingdom="Animalia" order="Chiroptera" pageId="33" pageNumber="791" phylum="Chordata" rank="species" species="douglasi">Eptesicus douglasi [sic] Kitchener, 1976</taxonomicName>
-, 
-<materialsCitation latitude="-17.616667" pageId="33" pageNumber="791">
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="33" pageNumber="791" type="materials_examined">
+<paragraph blockId="33.[743,1335,593,1020]" pageId="33" pageNumber="791">
+<materialsCitation ID-GBIF-Occurrence="3783319536" latitude="-17.616667" longitude="125.15" pageId="33" pageNumber="791">
 “Tunnel Creek, Napier Range, 
 <collectingRegion box="[743,1002,676,705]" country="Australia" name="Western Australia" pageId="33" pageNumber="791">Western Australia</collectingRegion>
 (
 <geoCoordinate box="[1037,1144,676,705]" degrees="17" direction="south" minutes="37" orientation="latitude" pageId="33" pageNumber="791" precision="925" value="-17.616667">17°37'S</geoCoordinate>
 , 
-<geoCoordinate box="[1175,1283,676,705]" degrees="125" minutes="09" pageId="33" pageNumber="791">125°09'</geoCoordinate>
-F),” 
+<geoCoordinate box="[1175,1305,676,705]" degrees="125" direction="east" minutes="09" orientation="longitude" pageId="33" pageNumber="791" precision="925" value="125.15">125°09'E</geoCoordinate>
+),” 
 <collectingCountry box="[743,870,710,743]" name="Australia" pageId="33" pageNumber="791">Australia</collectingCountry>
 .
 </materialsCitation>

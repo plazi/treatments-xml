@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="39" approvalRequired_for_matCits="1" approvalRequired_for_taxonomicNames="9" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FFB66A0AFA819DF61D9FBC2A" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Hesperoptenus tomesi Thomas 1905" docType="treatment" docVersion="5" lastPageNumber="836" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="835" updateTime="1653491089352" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FFB66A0AFA819DF61D9FBC2A" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Hesperoptenus tomesi Thomas 1905" docType="treatment" docVersion="7" lastPageNumber="836" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="835" updateTime="1658412944878" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -41,7 +41,7 @@
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:4C3D87E8FFB66A0AFA819DF61D9FBC2A" httpUri="http://treatment.plazi.org/id/4C3D87E8FFB66A0AFA819DF61D9FBC2A" lastPageId="78" lastPageNumber="836" pageId="77" pageNumber="835">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6581288" ID-GBIF-Taxon="195628351" ID-Zenodo-Dep="6581288" LSID="urn:lsid:plazi:treatment:4C3D87E8FFB66A0AFA819DF61D9FBC2A" httpUri="http://treatment.plazi.org/id/4C3D87E8FFB66A0AFA819DF61D9FBC2A" lastPageId="78" lastPageNumber="836" pageId="77" pageNumber="835">
 <subSubSection box="[1405,1485,2991,3037]" pageId="77" pageNumber="835" type="multiple">
 <paragraph blockId="77.[1400,2403,2991,3117]" box="[1405,1485,2991,3037]" pageId="77" pageNumber="835">
 <heading box="[1405,1485,2991,3037]" pageId="77" pageNumber="835">
@@ -85,12 +85,16 @@
 </heading>
 </paragraph>
 </subSubSection>
-<subSubSection box="[1401,2339,3161,3194]" pageId="77" pageNumber="835" type="reference_group">
-<paragraph blockId="77.[1399,2607,3161,3481]" box="[1401,2339,3161,3194]" pageId="77" pageNumber="835">
+<subSubSection box="[1401,2047,3161,3194]" pageId="77" pageNumber="835" type="reference_group">
+<paragraph blockId="77.[1399,2607,3161,3481]" box="[1401,2047,3161,3194]" pageId="77" pageNumber="835">
 <emphasis bold="true" box="[1401,1556,3161,3194]" pageId="77" pageNumber="835">Taxonomy.</emphasis>
 <taxonomicName authority="Thomas, 1905" authorityName="Thomas" authorityYear="1905" box="[1568,2042,3161,3194]" class="Mammalia" family="Vespertilionidae" genus="Hesperoptenus" kingdom="Animalia" order="Chiroptera" pageId="77" pageNumber="835" phylum="Chordata" rank="species" species="tomesi">Hesperoptenus tomesi Thomas, 1905</taxonomicName>
-, 
-<materialsCitation box="[2059,2339,3161,3194]" pageId="77" pageNumber="835">
+,
+</paragraph>
+</subSubSection>
+<subSubSection box="[2059,2339,3161,3194]" pageId="77" pageNumber="835" type="materials_examined">
+<paragraph blockId="77.[1399,2607,3161,3481]" box="[2059,2339,3161,3194]" pageId="77" pageNumber="835">
+<materialsCitation ID-GBIF-Occurrence="3783319423" box="[2059,2339,3161,3194]" pageId="77" pageNumber="835">
 “ 
 <collectingCountry box="[2072,2186,3161,3194]" name="Malaysia" pageId="77" pageNumber="835">Malacca</collectingCountry>
 ,” 

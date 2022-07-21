@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="347" approvalRequired_for_illustrations="1" approvalRequired_for_matCits="100" approvalRequired_for_taxonomicNames="143" approvalRequired_for_textStreams="2" approvalRequired_for_treatments="101" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FFBA6A05FF899C5319FBB9CB" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Neoromicia isabella" docType="treatment" docVersion="5" lastPageNumber="823" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="823" updateTime="1653076796268" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FFBA6A05FF899C5319FBB9CB" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Neoromicia isabella" docType="treatment" docVersion="10" lastPageNumber="823" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="823" updateTime="1658412944878" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6397752</mods:identifier>
+<mods:identifier type="GBIF-Dataset">45351c32-25dd-422c-bdb2-00e73deb4943</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:4C3D87E8FFBA6A05FF899C5319FBB9CB" httpUri="http://treatment.plazi.org/id/4C3D87E8FFBA6A05FF899C5319FBB9CB" lastPageNumber="823" pageId="65" pageNumber="823">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6578478" ID-GBIF-Taxon="195628358" ID-Zenodo-Dep="6578478" LSID="urn:lsid:plazi:treatment:4C3D87E8FFBA6A05FF899C5319FBB9CB" httpUri="http://treatment.plazi.org/id/4C3D87E8FFBA6A05FF899C5319FBB9CB" lastPageNumber="823" pageId="65" pageNumber="823">
 <subSubSection box="[117,197,2570,2612]" pageId="65" pageNumber="823" type="multiple">
 <paragraph blockId="65.[112,1049,2570,2693]" box="[117,197,2570,2612]" pageId="65" pageNumber="823">
 <heading box="[117,197,2570,2612]" pageId="65" pageNumber="823">
@@ -88,12 +89,16 @@
 <paragraph blockId="65.[724,1318,2738,3164]" pageId="65" pageNumber="823">
 <emphasis bold="true" box="[725,880,2738,2771]" pageId="65" pageNumber="823">Taxonomy.</emphasis>
 <taxonomicName authority="Decher, Hutterer &amp; Monadjem in Decher et al., 2016" class="Mammalia" family="Vespertilionidae" genus="Neoromicia" kingdom="Animalia" order="Chiroptera" pageId="65" pageNumber="823" phylum="Chordata" rank="species" species="isabella">Neoromicia isabella Decher, Hutterer &amp; Monadjem in Decher et al., 2016</taxonomicName>
-, 
-<materialsCitation pageId="65" pageNumber="823">
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="65" pageNumber="823" type="materials_examined">
+<paragraph blockId="65.[724,1318,2738,3164]" pageId="65" pageNumber="823">
+<materialsCitation ID-GBIF-Occurrence="3783319480" latitude="8.49684" longitude="-8.913394" pageId="65" pageNumber="823">
 “ 
 <collectingCountry box="[737,842,2825,2850]" name="Guinea-Bissau" pageId="65" pageNumber="823">Guinea</collectingCountry>
-, Province Macenta, Simandou Range, Foko Confluence, 
-<geoCoordinate box="[1123,1310,2860,2889]" degrees="8" direction="north" minutes="29" orientation="latitude" pageId="65" pageNumber="823" precision="1" seconds="48.62" value="8.49684">8°29’48.62”N</geoCoordinate>
+, Province Macenta, Simandou Range, Foko Confluence, 8° 
+<geoCoordinate box="[1148,1310,2860,2889]" degrees="8" direction="north" minutes="29" orientation="latitude" pageId="65" pageNumber="823" precision="1" seconds="48.62" value="8.49684">29’48.62”N</geoCoordinate>
 , 
 <geoCoordinate box="[725,915,2900,2929]" degrees="8" direction="west" minutes="54" orientation="longitude" pageId="65" pageNumber="823" precision="1" seconds="48.22" value="-8.913394">8°54’48.22”W</geoCoordinate>
 , ca. 

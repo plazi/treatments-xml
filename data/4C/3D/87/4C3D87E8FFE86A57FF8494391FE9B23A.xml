@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="403" approvalRequired_for_illustrations="1" approvalRequired_for_matCits="105" approvalRequired_for_taxonomicNames="182" approvalRequired_for_treatments="115" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FFE86A57FF8494391FE9B23A" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Pipistrellus permixtus Aellen 1957" docType="treatment" docVersion="5" lastPageNumber="777" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="777" updateTime="1653058883169" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FFE86A57FF8494391FE9B23A" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Pipistrellus permixtus Aellen 1957" docType="treatment" docVersion="9" lastPageNumber="777" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="777" updateTime="1658412944878" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6397752</mods:identifier>
+<mods:identifier type="GBIF-Dataset">45351c32-25dd-422c-bdb2-00e73deb4943</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:4C3D87E8FFE86A57FF8494391FE9B23A" httpUri="http://treatment.plazi.org/id/4C3D87E8FFE86A57FF8494391FE9B23A" lastPageNumber="777" pageId="19" pageNumber="777">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6567077" ID-GBIF-Taxon="195628262" ID-Zenodo-Dep="6567077" LSID="urn:lsid:plazi:treatment:4C3D87E8FFE86A57FF8494391FE9B23A" httpUri="http://treatment.plazi.org/id/4C3D87E8FFE86A57FF8494391FE9B23A" lastPageNumber="777" pageId="19" pageNumber="777">
 <subSubSection box="[120,177,608,654]" pageId="19" pageNumber="777" type="multiple">
 <paragraph blockId="19.[117,1200,608,738]" box="[120,177,608,654]" pageId="19" pageNumber="777">
 <heading box="[120,177,608,654]" pageId="19" pageNumber="777">
@@ -100,20 +101,26 @@ Pipistrelle
 </heading>
 </paragraph>
 </subSubSection>
-<paragraph blockId="19.[731,1324,782,1205]" pageId="19" pageNumber="777">
 <subSubSection pageId="19" pageNumber="777" type="reference_group">
+<paragraph blockId="19.[731,1324,782,1205]" pageId="19" pageNumber="777">
 <emphasis bold="true" box="[731,886,782,811]" pageId="19" pageNumber="777">Taxonomy.</emphasis>
 <taxonomicName authority="Aellen, 1957" authorityName="Aellen" authorityYear="1957" class="Mammalia" family="Vespertilionidae" genus="Pipistrellus" kingdom="Animalia" order="Chiroptera" pageId="19" pageNumber="777" phylum="Chordata" rank="species" species="permixtus" subGenus="Pipistrellus">Pipistrellus (Pipistrellus) permixtus Aellen, 1957</taxonomicName>
-, 
-<materialsCitation pageId="19" pageNumber="777">
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="19" pageNumber="777" type="materials_examined">
+<paragraph blockId="19.[731,1324,782,1205]" pageId="19" pageNumber="777">
+<materialsCitation ID-GBIF-Occurrence="3783319451" pageId="19" pageNumber="777">
 “ 
 <collectingRegion box="[984,1168,821,850]" country="Tanzania" name="Dar es Salaam" pageId="19" pageNumber="777">Dar es Salam</collectingRegion>
 [sic], Tanganyika [= 
 <collectingCountry box="[886,1020,857,890]" name="Tanzania" pageId="19" pageNumber="777">Tanzania</collectingCountry>
 ].”
 </materialsCitation>
+</paragraph>
 </subSubSection>
 <subSubSection pageId="19" pageNumber="777" type="discussion">
+<paragraph blockId="19.[731,1324,782,1205]" pageId="19" pageNumber="777">
 Taxonomy of 
 <taxonomicName authorityName="Aellen" authorityYear="1957" box="[933,1093,900,929]" class="Mammalia" family="Vespertilionidae" genus="Pipistrellus" kingdom="Animalia" order="Chiroptera" pageId="19" pageNumber="777" phylum="Chordata" rank="species" species="permixtus">P. permixtus</taxonomicName>
 is currently uncertain. It seems to be related to Palearctic 
@@ -121,8 +128,8 @@ is currently uncertain. It seems to be related to Palearctic
 , and because the only known specimen was found at port 
 <collectingRegion box="[1120,1317,1022,1047]" country="Tanzania" name="Dar es Salaam" pageId="19" pageNumber="777">Dar-es-Salaam</collectingRegion>
 , there are speculations that it might have been a stowaway on a ship from some Palearctic region. Monotypic.
-</subSubSection>
 </paragraph>
+</subSubSection>
 <subSubSection pageId="19" pageNumber="777" type="distribution">
 <caption ID-DOI="http://doi.org/10.5281/zenodo.6397834" ID-Zenodo-Dep="6397834" httpUri="https://zenodo.org/record/6397834/files/figure.png" inLine="true" pageId="19" pageNumber="777" targetBox="[116,707,793,1207]" targetPageId="19">
 <paragraph blockId="19.[731,1324,782,1205]" lastBlockId="19.[118,1326,1217,2312]" pageId="19" pageNumber="777">

@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="39" approvalRequired_for_matCits="1" approvalRequired_for_taxonomicNames="9" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FFCF6A70FF579F0918B1B7F0" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Hypsugo savii" docType="treatment" docVersion="6" lastPageNumber="810" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="810" updateTime="1653491089352" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FFCF6A70FF579F0918B1B7F0" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Hypsugo savii" docType="treatment" docVersion="8" lastPageNumber="810" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="810" updateTime="1658412944878" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -41,7 +41,7 @@
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:4C3D87E8FFCF6A70FF579F0918B1B7F0" httpUri="http://treatment.plazi.org/id/4C3D87E8FFCF6A70FF579F0918B1B7F0" lastPageNumber="810" pageId="52" pageNumber="810">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6581248" ID-GBIF-Taxon="195628308" ID-Zenodo-Dep="6581248" LSID="urn:lsid:plazi:treatment:4C3D87E8FFCF6A70FF579F0918B1B7F0" httpUri="http://treatment.plazi.org/id/4C3D87E8FFCF6A70FF579F0918B1B7F0" lastPageNumber="810" pageId="52" pageNumber="810">
 <subSubSection box="[171,228,2384,2434]" pageId="52" pageNumber="810" type="multiple">
 <paragraph blockId="52.[169,1052,2384,2478]" box="[171,228,2384,2434]" pageId="52" pageNumber="810">
 <heading box="[171,228,2384,2434]" pageId="52" pageNumber="810">
@@ -84,8 +84,12 @@ montanero
 <paragraph blockId="52.[782,1376,2523,2946]" pageId="52" pageNumber="810">
 <emphasis bold="true" box="[782,937,2523,2552]" pageId="52" pageNumber="810">Taxonomy.</emphasis>
 <taxonomicName authority="Bonaparte, 1897" authorityName="Bonaparte" authorityYear="1897" class="Mammalia" family="Vespertilionidae" genus="Vespertilio" kingdom="Animalia" order="Chiroptera" pageId="52" pageNumber="810" phylum="Chordata" rank="species" species="savii">Vespertilio savii Bonaparte, 1897</taxonomicName>
-, 
-<materialsCitation box="[867,997,2545,2591]" pageId="52" pageNumber="810">Pisa, Tuoi</materialsCitation>
+,
+</paragraph>
+</subSubSection>
+<subSubSection box="[867,1001,2545,2591]" pageId="52" pageNumber="810" type="materials_examined">
+<paragraph blockId="52.[782,1376,2523,2946]" box="[867,1001,2545,2591]" pageId="52" pageNumber="810">
+<materialsCitation ID-GBIF-Occurrence="3783319438" box="[867,997,2545,2591]" pageId="52" pageNumber="810">Pisa, Tuoi</materialsCitation>
 ,
 </paragraph>
 </subSubSection>
@@ -125,7 +129,7 @@ have not yet been compared genetically to other populations and further studies 
 , or a distinct species. The subspecific name ochromixtus is replaced with the name darwini, which has priority since it is the older name available for that lineage; it has been suggested that this taxon represents a distinct species (referred to as H. cf. darwini in recent studies). Four subspecies recognized.
 </paragraph>
 </subSubSection>
-<subSubSection pageId="52" pageNumber="810" type="synonymic_list">
+<subSubSection pageId="52" pageNumber="810" type="distribution">
 <caption ID-DOI="http://doi.org/10.5281/zenodo.6397974" ID-Zenodo-Dep="6397974" httpUri="https://zenodo.org/record/6397974/files/figure.png" inLine="true" pageId="52" pageNumber="810" targetBox="[166,758,2532,2946]" targetPageId="52">
 <paragraph blockId="52.[168,1374,2953,3459]" box="[168,568,3430,3459]" pageId="52" pageNumber="810">
 <emphasis bold="true" box="[168,568,3430,3459]" pageId="52" pageNumber="810">Subspecies and Distribution.</emphasis>
@@ -193,7 +197,9 @@ Savi’s Pipistrelle hunts insects by aerial-hawking. It tends to hunt individua
 , but also 
 <taxonomicName box="[2479,2645,1773,1806]" class="Insecta" kingdom="Animalia" order="Neuroptera" pageId="52" pageNumber="810" phylum="Arthropoda" rank="order">Neuroptera</taxonomicName>
 , 
-<taxonomicName authority=", Trichoptera" authorityName="Trichoptera" box="[1448,1795,1812,1845]" class="Insecta" family="Scarabaeidae" genus="Coleoptera" kingdom="Animalia" order="Coleoptera" pageId="52" pageNumber="810" phylum="Arthropoda" rank="order">Coleoptera, Trichoptera</taxonomicName>
+<taxonomicName authority=", Trichoptera" authorityName="Trichoptera" box="[1448,1606,1812,1845]" class="Insecta" family="Scarabaeidae" genus="Coleoptera" kingdom="Animalia" order="Coleoptera" pageId="52" pageNumber="810" phylum="Arthropoda" rank="genus">Coleoptera</taxonomicName>
+, 
+<taxonomicName authority=", Trichoptera" authorityName="Trichoptera" box="[1627,1795,1812,1845]" class="Insecta" family="Scarabaeidae" genus="Trichoptera" kingdom="Animalia" order="Coleoptera" pageId="52" pageNumber="810" phylum="Arthropoda" rank="genus">Trichoptera</taxonomicName>
 , and 
 <taxonomicName box="[1884,2038,1812,1845]" class="Insecta" kingdom="Animalia" order="Hemiptera" pageId="52" pageNumber="810" phylum="Arthropoda" rank="order">Hemiptera</taxonomicName>
 , and others, depending on availability. In meadows and pastures, cicadellids might represent an important food for this species, whereas in forests and highly cluttered environments swarming insects such as flying ants were abundantin its feces.

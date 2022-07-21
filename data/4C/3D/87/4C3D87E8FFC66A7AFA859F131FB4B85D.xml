@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="347" approvalRequired_for_illustrations="1" approvalRequired_for_matCits="100" approvalRequired_for_taxonomicNames="143" approvalRequired_for_textStreams="2" approvalRequired_for_treatments="101" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FFC66A7AFA859F131FB4B85D" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Neoromicia malagasyensis" docType="treatment" docVersion="6" lastPageNumber="820" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="819" updateTime="1653076796268" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FFC66A7AFA859F131FB4B85D" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Neoromicia malagasyensis" docType="treatment" docVersion="11" lastPageNumber="820" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="819" updateTime="1658412944878" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6397752</mods:identifier>
+<mods:identifier type="GBIF-Dataset">45351c32-25dd-422c-bdb2-00e73deb4943</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:4C3D87E8FFC66A7AFA859F131FB4B85D" httpUri="http://treatment.plazi.org/id/4C3D87E8FFC66A7AFA859F131FB4B85D" lastPageId="62" lastPageNumber="820" pageId="61" pageNumber="819">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6578468" ID-GBIF-Taxon="195628356" ID-Zenodo-Dep="6578468" LSID="urn:lsid:plazi:treatment:4C3D87E8FFC66A7AFA859F131FB4B85D" httpUri="http://treatment.plazi.org/id/4C3D87E8FFC66A7AFA859F131FB4B85D" lastPageId="62" lastPageNumber="820" pageId="61" pageNumber="819">
 <subSubSection box="[1401,1481,2378,2424]" pageId="61" pageNumber="819" type="multiple">
 <paragraph blockId="61.[1397,2326,2378,2468]" box="[1401,1481,2378,2424]" pageId="61" pageNumber="819">
 <heading box="[1401,1481,2378,2424]" pageId="61" pageNumber="819">
@@ -85,15 +86,19 @@
 Eptesicus somalicus malagasyensis Peterson, Eger &amp; Mitchell, 
 <quantity box="[2375,2550,2554,2583]" metricMagnitude="6" metricUnit="m" metricValue="1.9952199999999998" pageId="61" pageNumber="819" unit="km" value="1995.22">
 1995, 
-<materialsCitation pageId="61" pageNumber="819">
+<subSubSection pageId="61" pageNumber="819" type="materials_examined">
+<paragraph blockId="61.[2009,2606,2515,2938]" pageId="61" pageNumber="819">
+<materialsCitation ID-GBIF-Occurrence="3783319777" latitude="-41.0" longitude="45.216667" pageId="61" pageNumber="819">
 220 km NE Tuléar (= Toleara), Ilakaka, East of Sakaraha sous-prefecture, 
 <collectingCountry box="[2289,2449,2629,2662]" name="Madagascar" pageId="61" pageNumber="819">Madagascar</collectingCountry>
 (
-<geoCoordinate box="[2476,2595,2629,2662]" degrees="22" direction="south" minutes="41" orientation="latitude" pageId="61" pageNumber="819" precision="55555" value="-41.0">22°41° S</geoCoordinate>
+<geoCoordinate box="[2476,2595,2629,2662]" degrees="22" direction="south" minutes="41" orientation="latitude" pageId="61" pageNumber="819" precision="55555" value="-41.0">22°41' S</geoCoordinate>
 , 
-<geoCoordinate box="[2010,2127,2668,2701]" degrees="45" direction="east" minutes="13" orientation="longitude" pageId="61" pageNumber="819" precision="925" value="45.216667">45°13 E</geoCoordinate>
+<geoCoordinate box="[2010,2127,2668,2701]" degrees="45" direction="east" minutes="13" orientation="longitude" pageId="61" pageNumber="819" precision="925" value="45.216667">45°13' E</geoCoordinate>
 ).
 </materialsCitation>
+</paragraph>
+</subSubSection>
 </quantity>
 </taxonomicName>
 </paragraph>

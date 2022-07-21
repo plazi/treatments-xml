@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="39" approvalRequired_for_matCits="1" approvalRequired_for_taxonomicNames="9" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FFB46A14FA829CF91C69B221" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Scotorepens sanborni Troughton 1937" docType="treatment" docVersion="6" lastPageNumber="838" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="837" updateTime="1653491089352" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FFB46A14FA829CF91C69B221" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Scotorepens sanborni Troughton 1937" docType="treatment" docVersion="8" lastPageNumber="838" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="837" updateTime="1658412944878" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -41,7 +41,7 @@
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:4C3D87E8FFB46A14FA829CF91C69B221" httpUri="http://treatment.plazi.org/id/4C3D87E8FFB46A14FA829CF91C69B221" lastPageId="80" lastPageNumber="838" pageId="79" pageNumber="837">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6581290" ID-GBIF-Taxon="195628470" ID-Zenodo-Dep="6581290" LSID="urn:lsid:plazi:treatment:4C3D87E8FFB46A14FA829CF91C69B221" httpUri="http://treatment.plazi.org/id/4C3D87E8FFB46A14FA829CF91C69B221" lastPageId="80" lastPageNumber="838" pageId="79" pageNumber="837">
 <subSubSection box="[1406,1486,2720,2766]" pageId="79" pageNumber="837" type="multiple">
 <paragraph blockId="79.[1402,2500,2720,2807]" box="[1406,1486,2720,2766]" pageId="79" pageNumber="837">
 <heading box="[1406,1486,2720,2766]" pageId="79" pageNumber="837">
@@ -83,8 +83,12 @@
 <paragraph blockId="79.[2015,2609,2855,3278]" pageId="79" pageNumber="837">
 <emphasis bold="true" box="[2015,2168,2855,2884]" pageId="79" pageNumber="837">Taxonomy.</emphasis>
 <taxonomicName authority="Troughton, 1937" authorityName="Troughton" authorityYear="1937" class="Mammalia" family="Vespertilionidae" genus="Scoteinus" kingdom="Animalia" order="Chiroptera" pageId="79" pageNumber="837" phylum="Chordata" rank="species" species="sanborni">Scoteinus sanborni Troughton, 1937</taxonomicName>
-, 
-<materialsCitation pageId="79" pageNumber="837">
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="79" pageNumber="837" type="materials_examined">
+<paragraph blockId="79.[2015,2609,2855,3278]" pageId="79" pageNumber="837">
+<materialsCitation ID-GBIF-Occurrence="3783319539" pageId="79" pageNumber="837">
 East Cape, 
 <collectingRegion box="[2258,2532,2890,2923]" country="Papua New Guinea" name="Milne Bay" pageId="79" pageNumber="837">Milne Bay Province</collectingRegion>
 , 
