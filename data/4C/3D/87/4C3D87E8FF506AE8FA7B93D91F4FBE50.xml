@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="1530" approvalRequired_for_illustrations="1" approvalRequired_for_matCits="143" approvalRequired_for_taxonomicNames="590" approvalRequired_for_textStreams="13" approvalRequired_for_treatments="783" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF506AE8FA7B93D91F4FBE50" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Myotis riparius Handley 1960" docType="treatment" docVersion="5" lastPageNumber="934" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="933" updateTime="1652987333655" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF506AE8FA7B93D91F4FBE50" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Myotis riparius Handley 1960" docType="treatment" docVersion="9" lastPageNumber="934" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="933" updateTime="1658433834459" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6397752</mods:identifier>
+<mods:identifier type="GBIF-Dataset">45351c32-25dd-422c-bdb2-00e73deb4943</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6402939" ID-Zenodo-Dep="6402939" LSID="urn:lsid:plazi:treatment:4C3D87E8FF506AE8FA7B93D91F4FBE50" httpUri="http://treatment.plazi.org/id/4C3D87E8FF506AE8FA7B93D91F4FBE50" lastPageId="172" lastPageNumber="934" pageId="171" pageNumber="933">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6402939" ID-GBIF-Taxon="195628166" ID-Zenodo-Dep="6402939" LSID="urn:lsid:plazi:treatment:4C3D87E8FF506AE8FA7B93D91F4FBE50" httpUri="http://treatment.plazi.org/id/4C3D87E8FF506AE8FA7B93D91F4FBE50" lastPageId="172" lastPageNumber="934" pageId="171" pageNumber="933">
 <subSubSection box="[1415,1497,1408,1454]" pageId="171" pageNumber="933" type="multiple">
 <paragraph blockId="171.[1413,2234,1408,1498]" box="[1415,1497,1408,1454]" pageId="171" pageNumber="933">
 <heading box="[1415,1497,1408,1454]" pageId="171" pageNumber="933">
@@ -82,8 +83,12 @@
 <paragraph blockId="171.[2024,2619,1545,1968]" pageId="171" pageNumber="933">
 <emphasis bold="true" box="[2026,2182,1545,1574]" pageId="171" pageNumber="933">Taxonomy.</emphasis>
 <taxonomicName authority="Handley, 1960" authorityName="Handley" authorityYear="1960" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="171" pageNumber="933" phylum="Chordata" rank="subSpecies" species="simus" subSpecies="riparius">Myotis simus riparius Handley, 1960</taxonomicName>
-, 
-<materialsCitation pageId="171" pageNumber="933">
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="171" pageNumber="933" type="materials_examined">
+<paragraph blockId="171.[2024,2619,1545,1968]" pageId="171" pageNumber="933">
+<materialsCitation ID-GBIF-Occurrence="3783319425" pageId="171" pageNumber="933">
 “Facarcuna Village, 3,200 fi. [= 
 <quantity box="[2066,2158,1624,1653]" metricMagnitude="2" metricUnit="m" metricValue="9.75" pageId="171" pageNumber="933" unit="m" value="975.0">975 m</quantity>
 ], Rio Pucro, 
@@ -141,7 +146,7 @@ Head-body ¢.
 ; weight 
 <quantity box="[2014,2091,2092,2125]" metricMagnitude="-3" metricUnit="kg" metricValue="5.5" metricValueMax="7.0" metricValueMin="4.0" pageId="171" pageNumber="933" unit="g" value="5.5" valueMax="7.0" valueMin="4.0">4-7 g</quantity>
 . The Riparian 
-<taxonomicName box="[2310,2399,2092,2125]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="171" pageNumber="933" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[2310,2399,2092,2125]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="171" pageNumber="933" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 is morphologically similar to its Neotropical congeners. Fur is long (dorsal fur 
 <quantity box="[2334,2450,2132,2165]" metricMagnitude="-3" metricUnit="m" metricValue="7.0" metricValueMax="9.0" metricValueMin="5.0" pageId="171" pageNumber="933" unit="mm" value="7.0" valueMax="9.0" valueMin="5.0">5-9 mm</quantity>
 ; ventral fur 
@@ -179,7 +184,7 @@ Wide variety of habitats such tropical rainforests, savannas, xerophytic formati
 <paragraph blockId="171.[1406,2617,1978,3466]" pageId="171" pageNumber="933">
 <emphasis bold="true" box="[1406,1672,3356,3389]" pageId="171" pageNumber="933">Food and Feeding.</emphasis>
 The Riparian 
-<taxonomicName box="[1888,1978,3356,3389]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="171" pageNumber="933" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[1888,1978,3356,3389]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="171" pageNumber="933" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 forages in forested areas and over water. Its diet includes a large variety of insects, particularly 
 <taxonomicName box="[2127,2285,3395,3428]" class="Insecta" family="Scarabaeidae" genus="Coleoptera" kingdom="Animalia" order="Coleoptera" pageId="171" pageNumber="933" phylum="Arthropoda" rank="order">Coleoptera</taxonomicName>
 , 
@@ -197,7 +202,7 @@ forages in forested areas and over water. Its diet includes a large variety of i
 In 
 <collectingCountry box="[347,493,279,312]" name="Costa Rica" pageId="172" pageNumber="934">Costa Rica</collectingCountry>
 , the Riparian 
-<taxonomicName box="[693,782,279,312]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="172" pageNumber="934" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[693,782,279,312]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="172" pageNumber="934" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 is considered seasonal monoestrous, with high prevalence of pregnant females in April-June. Pregnant females were observed in August in 
 <collectingCountry box="[353,420,358,391]" name="Peru" pageId="172" pageNumber="934">Peru</collectingCountry>
 . Birth of one young was observed in November in 
@@ -213,7 +218,7 @@ crown-rump length, was collected in February in
 <paragraph blockId="172.[161,1369,279,1378]" pageId="172" pageNumber="934">
 <emphasis bold="true" box="[161,398,520,549]" pageId="172" pageNumber="934">Activity patterns.</emphasis>
 The Riparian 
-<taxonomicName box="[612,701,520,549]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="172" pageNumber="934" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[612,701,520,549]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="172" pageNumber="934" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 emerges just before sunset. In rainforest areas in south-eastern 
 <collectingCountry box="[400,481,563,588]" name="Brazil" pageId="172" pageNumber="934">Brazil</collectingCountry>
 , its activity is concentrated in two periods: first five hours after sunset and last two hours before sunrise. In 
@@ -233,13 +238,13 @@ emerges just before sunset. In rainforest areas in south-eastern
 Short recapture distances in 
 <collectingCountry name="Costa Rica" pageId="172" pageNumber="934">Costa Rica</collectingCountry>
 indicate small home ranges. The Riparian 
-<taxonomicName box="[890,980,910,943]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="172" pageNumber="934" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[890,980,910,943]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="172" pageNumber="934" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 uses lower forest strata, although it also explores forest canopies. It roosts in colonies of up to 50 individuals and with other bat species such as Common Black 
-<taxonomicName box="[882,971,989,1022]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="172" pageNumber="934" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[882,971,989,1022]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="172" pageNumber="934" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 (
 <taxonomicName baseAuthorityName="Schinz" baseAuthorityYear="1821" box="[995,1167,989,1022]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="172" pageNumber="944" phylum="Chordata" rank="species" species="nigricans">M. nigricans</taxonomicName>
 ), Silver-tipped 
-<taxonomicName box="[164,253,1033,1062]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="172" pageNumber="934" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[164,253,1033,1062]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="172" pageNumber="934" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 (
 <taxonomicName baseAuthorityName="E. Geoffroy" baseAuthorityYear="1806" box="[277,443,1033,1062]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="172" pageNumber="941" phylum="Chordata" rank="species" species="albescens">M. albescens</taxonomicName>
 ), and Pallas’s Mastiff Bats (Molossus molossus).
@@ -249,7 +254,7 @@ uses lower forest strata, although it also explores forest canopies. It roosts i
 <paragraph blockId="172.[161,1369,279,1378]" pageId="172" pageNumber="934">
 <emphasis bold="true" box="[164,511,1068,1101]" pageId="172" pageNumber="934">Status and Conservation.</emphasis>
 Classified as Least Concern on The IUCN Red List. The Riparian 
-<taxonomicName box="[218,307,1107,1140]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="172" pageNumber="934" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[218,307,1107,1140]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="172" pageNumber="934" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 is widespread, apparent has large populations with no decline, and occurs in several protected areas.
 </paragraph>
 </subSubSection>

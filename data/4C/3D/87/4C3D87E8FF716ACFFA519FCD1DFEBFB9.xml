@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="320" approvalRequired_for_illustrations="1" approvalRequired_for_matCits="100" approvalRequired_for_taxonomicNames="124" approvalRequired_for_textStreams="2" approvalRequired_for_treatments="93" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF716ACFFA519FCD1DFEBFB9" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Kerivoula titania Bates 2007" docType="treatment" docVersion="6" lastPageNumber="899" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="898" updateTime="1653396323223" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF716ACFFA519FCD1DFEBFB9" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Kerivoula titania Bates 2007" docType="treatment" docVersion="11" lastPageNumber="899" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="898" updateTime="1658433834459" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6397752</mods:identifier>
+<mods:identifier type="GBIF-Dataset">45351c32-25dd-422c-bdb2-00e73deb4943</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:4C3D87E8FF716ACFFA519FCD1DFEBFB9" httpUri="http://treatment.plazi.org/id/4C3D87E8FF716ACFFA519FCD1DFEBFB9" lastPageId="139" lastPageNumber="899" pageId="138" pageNumber="898">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6580638" ID-GBIF-Taxon="195628329" ID-Zenodo-Dep="6580638" LSID="urn:lsid:plazi:treatment:4C3D87E8FF716ACFFA519FCD1DFEBFB9" httpUri="http://treatment.plazi.org/id/4C3D87E8FF716ACFFA519FCD1DFEBFB9" lastPageId="139" lastPageNumber="899" pageId="138" pageNumber="898">
 <subSubSection box="[1453,1535,2452,2498]" pageId="138" pageNumber="898" type="multiple">
 <paragraph blockId="138.[1451,2341,2452,2538]" box="[1453,1535,2452,2498]" pageId="138" pageNumber="898">
 <heading box="[1453,1535,2452,2498]" pageId="138" pageNumber="898">
@@ -83,8 +84,12 @@ titania
 <paragraph blockId="138.[2064,2659,2585,3009]" pageId="138" pageNumber="898">
 <emphasis bold="true" box="[2064,2216,2585,2614]" pageId="138" pageNumber="898">Taxonomy.</emphasis>
 <taxonomicName authority="Bates et al., 2007" authorityName="Bates" authorityYear="2007" class="Mammalia" family="Vespertilionidae" genus="Kerivoula" kingdom="Animalia" order="Chiroptera" pageId="138" pageNumber="898" phylum="Chordata" rank="species" species="titania">Kerivoula titania Bates et al., 2007</taxonomicName>
-, 
-<materialsCitation pageId="138" pageNumber="898">
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="138" pageNumber="898" type="materials_examined">
+<paragraph blockId="138.[2064,2659,2585,3009]" pageId="138" pageNumber="898">
+<materialsCitation ID-GBIF-Occurrence="3783319635" latitude="10.49" longitude="106.97583" pageId="138" pageNumber="898">
 “Seima Biodiversity Conservation Area, 
 <collectingRegion box="[2158,2479,2669,2694]" country="Cambodia" name="Mondolkiri" pageId="138" pageNumber="898">Mondul Kiri Province</collectingRegion>
 , 
@@ -194,9 +199,7 @@ No information.
 <subSubSection pageId="139" pageNumber="899" type="conservation">
 <paragraph blockId="139.[135,1345,302,1165]" pageId="139" pageNumber="899">
 <emphasis bold="true" box="[137,490,976,1005]" pageId="139" pageNumber="899">Status and Conservation.</emphasis>
-Classified as Least Concern on The IUCN Red List. Titania's Woolly Bat does not seem to currently face any 
-<taxonomicName authorityName="J. E. Gray" authorityYear="1844" box="[816,898,1012,1045]" class="Mammalia" family="Vespertilionidae" genus="Nyctophilus" kingdom="Animalia" order="Chiroptera" pageId="139" pageNumber="899" phylum="Chordata" rank="species" species="major">major</taxonomicName>
-threats, but becauseit is forest dependent, logging and agricultural development might be future threats.
+Classified as Least Concern on The IUCN Red List. Titania's Woolly Bat does not seem to currently face any major threats, but becauseit is forest dependent, logging and agricultural development might be future threats.
 </paragraph>
 </subSubSection>
 <subSubSection pageId="139" pageNumber="899" type="bibRefCitation_list">

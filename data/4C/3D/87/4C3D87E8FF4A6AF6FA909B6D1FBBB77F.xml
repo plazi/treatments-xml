@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="1530" approvalRequired_for_illustrations="1" approvalRequired_for_matCits="143" approvalRequired_for_taxonomicNames="590" approvalRequired_for_textStreams="13" approvalRequired_for_treatments="783" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF4A6AF6FA909B6D1FBBB77F" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Myotis chiloensis" docType="treatment" docVersion="6" lastPageNumber="940" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="939" updateTime="1652987333655" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF4A6AF6FA909B6D1FBBB77F" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Myotis chiloensis" docType="treatment" docVersion="10" lastPageNumber="940" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="939" updateTime="1658433834459" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6397752</mods:identifier>
+<mods:identifier type="GBIF-Dataset">45351c32-25dd-422c-bdb2-00e73deb4943</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6403737" ID-Zenodo-Dep="6403737" LSID="urn:lsid:plazi:treatment:4C3D87E8FF4A6AF6FA909B6D1FBBB77F" httpUri="http://treatment.plazi.org/id/4C3D87E8FF4A6AF6FA909B6D1FBBB77F" lastPageId="178" lastPageNumber="940" pageId="177" pageNumber="939">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6403737" ID-GBIF-Taxon="195628118" ID-Zenodo-Dep="6403737" LSID="urn:lsid:plazi:treatment:4C3D87E8FF4A6AF6FA909B6D1FBBB77F" httpUri="http://treatment.plazi.org/id/4C3D87E8FF4A6AF6FA909B6D1FBBB77F" lastPageId="178" lastPageNumber="940" pageId="177" pageNumber="939">
 <subSubSection box="[1388,1471,3380,3426]" pageId="177" pageNumber="939" type="multiple">
 <paragraph blockId="177.[1387,2177,3380,3468]" box="[1388,1471,3380,3426]" pageId="177" pageNumber="939">
 <heading box="[1388,1471,3380,3426]" pageId="177" pageNumber="939">
@@ -51,10 +52,7 @@
 <subSubSection box="[1489,1799,3380,3426]" pageId="177" pageNumber="939" type="vernacular_names">
 <paragraph blockId="177.[1387,2177,3380,3468]" box="[1489,1799,3380,3426]" pageId="177" pageNumber="939">
 <heading box="[1489,1799,3380,3426]" pageId="177" pageNumber="939">
-<vernacularName box="[1489,1799,3380,3426]" pageId="177" pageNumber="939">
-Chilean 
-<taxonomicName box="[1665,1799,3380,3426]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="177" pageNumber="939" phylum="Chordata" rank="genus">Myotis</taxonomicName>
-</vernacularName>
+<vernacularName box="[1489,1799,3380,3426]" pageId="177" pageNumber="939">Chilean Myotis</vernacularName>
 </heading>
 </paragraph>
 </subSubSection>
@@ -91,8 +89,12 @@ Ratonero de
 <paragraph blockId="178.[804,1396,271,699]" pageId="178" pageNumber="940">
 <emphasis bold="true" box="[804,959,271,304]" pageId="178" pageNumber="940">Taxonomy.</emphasis>
 <taxonomicName authority="Waterhouse, 1838" authorityName="Waterhouse" authorityYear="1838" class="Mammalia" family="Vespertilionidae" genus="Vespertilio" kingdom="Animalia" order="Chiroptera" pageId="178" pageNumber="940" phylum="Chordata" rank="species" species="chiloensis">Vespertilio chiloensis Waterhouse, 1838</taxonomicName>
-, 
-<materialsCitation pageId="178" pageNumber="940">
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="178" pageNumber="940" type="materials_examined">
+<paragraph blockId="178.[804,1396,271,699]" pageId="178" pageNumber="940">
+<materialsCitation ID-GBIF-Occurrence="3783319759" pageId="178" pageNumber="940">
 “amongst the islets on Eastern side of Chiloe,” 
 <collectingRegion box="[1087,1228,350,383]" country="Chile" name="Los Lagos" pageId="178" pageNumber="940">Los Lagos</collectingRegion>
 , 
@@ -179,7 +181,7 @@ Evergreen-deciduous forests and temperate forests (south-central
 (
 <taxonomicName box="[1087,1239,1732,1765]" class="Magnoliopsida" family="Myrtaceae" kingdom="Plantae" order="Myrtales" pageId="178" pageNumber="940" phylum="Tracheophyta" rank="family">Myrtaceae</taxonomicName>
 ). The Chilean 
-<taxonomicName box="[253,343,1772,1805]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="178" pageNumber="940" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[253,343,1772,1805]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="178" pageNumber="940" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 has the southernmost distribution known for any bat in the world and is associated with subtropical climates.
 </paragraph>
 </subSubSection>
@@ -187,7 +189,7 @@ has the southernmost distribution known for any bat in the world and is associat
 <paragraph blockId="178.[188,1399,706,3149]" pageId="178" pageNumber="940">
 <emphasis bold="true" box="[190,460,1851,1884]" pageId="178" pageNumber="940">Food and Feeding.</emphasis>
 The Chilean 
-<taxonomicName box="[670,760,1851,1884]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="178" pageNumber="940" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[670,760,1851,1884]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="178" pageNumber="940" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 forages in forested areas and over water. It feeds on insects, mainly nematocerans (
 <taxonomicName box="[748,856,1890,1923]" class="Insecta" kingdom="Animalia" order="Diptera" pageId="178" pageNumber="940" phylum="Arthropoda" rank="order">Diptera</taxonomicName>
 ) that are captured in flight. There are also records of it eating 
@@ -201,7 +203,7 @@ flies in southern
 <paragraph blockId="178.[188,1399,706,3149]" pageId="178" pageNumber="940">
 <emphasis bold="true" box="[190,325,1969,2002]" pageId="178" pageNumber="940">Breeding.</emphasis>
 The Chilean 
-<taxonomicName box="[546,636,1969,2002]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="178" pageNumber="940" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[546,636,1969,2002]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="178" pageNumber="940" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 is monoestrous, and age of first pregnancy is ten months. Females give birth to one young per year at the beginning of summer. A pregnant female was captured in 
 <collectingCountry box="[661,804,2048,2081]" name="Argentina" pageId="178" pageNumber="940">Argentina</collectingCountry>
 with single embryo that had crown—-rump length of 
@@ -213,9 +215,9 @@ with single embryo that had crown—-rump length of
 <paragraph blockId="178.[188,1399,706,3149]" pageId="178" pageNumber="940">
 <emphasis bold="true" box="[188,429,2127,2160]" pageId="178" pageNumber="940">Activity patterns.</emphasis>
 Foraging activity of the Chilean 
-<taxonomicName box="[922,1012,2127,2160]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="178" pageNumber="940" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[922,1012,2127,2160]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="178" pageNumber="940" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 begins at sunset and lasts for ¢.3 hours—a unimodal pattern clearly distinct from bimodal patterns of most insectivorous bats. Due to reduced mean basal metabolic rate and occurrence in subtropical zones, it has a single and short euthermic period of 2-3 hours, followed by long period of daily torpor or natural hypothermia. Chilean 
-<taxonomicName box="[1051,1140,2285,2318]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="178" pageNumber="940" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[1051,1140,2285,2318]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="178" pageNumber="940" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 use a wide variety of buildings and natural roosts, including ground holes, fissures in tree bark, caves, abandoned mines, crevices in walls, attic spaces, and under tiles or other roofing. Other smaller underground structures, such as rock crevices or ledges, are also used as roost. Wing morphology is consistent with highly maneuverable flight needed to forage in cluttered habitats, including edge habitats and forest with clearings. Its low aspect ratio (mean 5-8) and low wing loading (6-8 N/m?) indicate high energetic cost and low flight speed, respectively. Echolocation calls contain single harmonics and are characterized by downward FM at beginning of signal, followed by narrowband QCF component. Search calls consist of short (less than 4 milliseconds) broadband signals sweeping down between 89 kHz and 39 kHz, with most energy at 47 kHz. Pulses are emitted at mean intervals of 95-1 milliseconds.
 </paragraph>
 </subSubSection>

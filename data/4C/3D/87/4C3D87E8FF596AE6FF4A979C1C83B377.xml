@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="403" approvalRequired_for_illustrations="1" approvalRequired_for_matCits="105" approvalRequired_for_taxonomicNames="182" approvalRequired_for_treatments="115" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF596AE6FF4A979C1C83B377" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Submyotodon caliginosus" docType="treatment" docVersion="6" lastPageNumber="924" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="924" updateTime="1653058883169" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF596AE6FF4A979C1C83B377" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Submyotodon caliginosus" docType="treatment" docVersion="10" lastPageNumber="924" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="924" updateTime="1658433834459" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6397752</mods:identifier>
+<mods:identifier type="GBIF-Dataset">45351c32-25dd-422c-bdb2-00e73deb4943</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:4C3D87E8FF596AE6FF4A979C1C83B377" httpUri="http://treatment.plazi.org/id/4C3D87E8FF596AE6FF4A979C1C83B377" lastPageNumber="924" pageId="162" pageNumber="924">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6567110" ID-GBIF-Taxon="195628273" ID-Zenodo-Dep="6567110" LSID="urn:lsid:plazi:treatment:4C3D87E8FF596AE6FF4A979C1C83B377" httpUri="http://treatment.plazi.org/id/4C3D87E8FF596AE6FF4A979C1C83B377" lastPageNumber="924" pageId="162" pageNumber="924">
 <subSubSection box="[182,264,453,499]" pageId="162" pageNumber="924" type="multiple">
 <paragraph blockId="162.[179,1172,453,619]" box="[182,264,453,499]" pageId="162" pageNumber="924">
 <heading box="[182,264,453,499]" pageId="162" pageNumber="924">
@@ -88,16 +89,19 @@
 <paragraph blockId="162.[794,1386,663,1091]" pageId="162" pageNumber="924">
 <emphasis bold="true" box="[794,949,663,696]" pageId="162" pageNumber="924">Taxonomy.</emphasis>
 <taxonomicName authority="Tomes, 1859" authorityName="Tomes" authorityYear="1859" class="Mammalia" family="Vespertilionidae" genus="Vespertilio" kingdom="Animalia" order="Chiroptera" pageId="162" pageNumber="924" phylum="Chordata" rank="species" species="caliginosus">Vespertilio caliginosus Tomes, 1859</taxonomicName>
-, 
-<materialsCitation box="[880,955,711,736]" pageId="162" pageNumber="924">
+,
+</paragraph>
+</subSubSection>
+<subSubSection box="[880,958,711,736]" pageId="162" pageNumber="924" type="materials_examined">
+<paragraph blockId="162.[794,1386,663,1091]" box="[880,958,711,736]" pageId="162" pageNumber="924">
+<materialsCitation ID-GBIF-Occurrence="3783319366" box="[880,955,711,736]" pageId="162" pageNumber="924">
 <collectingCountry box="[880,955,711,736]" name="India" pageId="162" pageNumber="924">India</collectingCountry>
 </materialsCitation>
 .
 </paragraph>
 </subSubSection>
-<subSubSection pageId="162" pageNumber="924" type="multiple">
-<caption ID-DOI="http://doi.org/10.5281/zenodo.6398640" ID-Zenodo-Dep="6398640" httpUri="https://zenodo.org/record/6398640/files/figure.png" inLine="true" pageId="162" pageNumber="924" targetBox="[178,770,670,1085]" targetPageId="162">
-<paragraph blockId="162.[794,1386,663,1091]" lastBlockId="162.[175,1385,1097,2117]" pageId="162" pageNumber="924">
+<subSubSection pageId="162" pageNumber="924" type="discussion">
+<paragraph blockId="162.[794,1386,663,1091]" pageId="162" pageNumber="924">
 See S. 
 <taxonomicName authorityName="Kishida" authorityYear="1932" box="[886,1002,742,775]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="162" pageNumber="924" phylum="Chordata" rank="species" species="latirostris">latirostris</taxonomicName>
 . Taxon 
@@ -112,7 +116,12 @@ and its taxonomic distinction from S.
 <taxonomicName authorityName="Kishida" authorityYear="1932" box="[1199,1315,940,973]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="162" pageNumber="924" phylum="Chordata" rank="species" species="latirostris">latirostris</taxonomicName>
 and S. 
 <taxonomicName baseAuthorityName="A.Milne-Edwards" baseAuthorityYear="1872" box="[838,995,979,1012]" class="Mammalia" family="Vespertilionidae" genus="Submyotodon" higherTaxonomySource="GBIF" kingdom="Animalia" order="Chiroptera" pageId="162" pageNumber="924" phylum="Chordata" rank="species" species="moupinensis">moupinensis</taxonomicName>
-are very uncertain. Additional research is needed. Monotypic. 
+are very uncertain. Additional research is needed. Monotypic.
+</paragraph>
+</subSubSection>
+<subSubSection pageId="162" pageNumber="924" type="multiple">
+<caption ID-DOI="http://doi.org/10.5281/zenodo.6398640" ID-Zenodo-Dep="6398640" httpUri="https://zenodo.org/record/6398640/files/figure.png" inLine="true" pageId="162" pageNumber="924" startId="162.[794,966,1058,1091]" targetBox="[178,770,670,1085]" targetPageId="162">
+<paragraph blockId="162.[794,1386,663,1091]" lastBlockId="162.[175,1385,1097,2117]" pageId="162" pageNumber="924">
 <emphasis bold="true" box="[794,970,1058,1091]" pageId="162" pageNumber="924">Distribution.</emphasis>
 Verified records based on analyzed specimens are from NE 
 <collectingCountry box="[653,825,1097,1130]" name="Afghanistan" pageId="162" pageNumber="924">Afghanistan</collectingCountry>

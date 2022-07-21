@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="54" approvalRequired_for_matCits="13" approvalRequired_for_taxonomicNames="9" approvalRequired_for_textStreams="3" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF706ACFFF7D9A56170DBD58" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Kerivoula intermedia Hill &amp; Francis 1984" docType="treatment" docVersion="6" lastPageNumber="899" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="899" updateTime="1653483499320" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF706ACFFF7D9A56170DBD58" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Kerivoula intermedia Hill &amp; Francis 1984" docType="treatment" docVersion="10" lastPageNumber="899" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="899" updateTime="1658433834459" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6397752</mods:identifier>
+<mods:identifier type="GBIF-Dataset">45351c32-25dd-422c-bdb2-00e73deb4943</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:4C3D87E8FF706ACFFF7D9A56170DBD58" httpUri="http://treatment.plazi.org/id/4C3D87E8FF706ACFFF7D9A56170DBD58" lastPageNumber="899" pageId="139" pageNumber="899">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6580640" ID-GBIF-Taxon="195628317" ID-Zenodo-Dep="6580640" LSID="urn:lsid:plazi:treatment:4C3D87E8FF706ACFFF7D9A56170DBD58" httpUri="http://treatment.plazi.org/id/4C3D87E8FF706ACFFF7D9A56170DBD58" lastPageNumber="899" pageId="139" pageNumber="899">
 <subSubSection box="[129,211,3087,3137]" pageId="139" pageNumber="899" type="multiple">
 <paragraph blockId="139.[127,1097,3087,3178]" box="[129,211,3087,3137]" pageId="139" pageNumber="899">
 <heading box="[129,211,3087,3137]" pageId="139" pageNumber="899">
@@ -78,12 +79,16 @@
 </heading>
 </paragraph>
 </subSubSection>
-<subSubSection pageId="139" pageNumber="899" type="reference_group">
-<paragraph blockId="139.[125,1332,3222,3498]" pageId="139" pageNumber="899">
+<subSubSection box="[126,868,3222,3255]" pageId="139" pageNumber="899" type="reference_group">
+<paragraph blockId="139.[125,1332,3222,3498]" box="[126,868,3222,3255]" pageId="139" pageNumber="899">
 <emphasis bold="true" box="[126,282,3222,3255]" pageId="139" pageNumber="899">Taxonomy.</emphasis>
 <taxonomicName authority="Hill &amp; Francis, 1984" authorityName="Hill &amp; Francis" authorityYear="1984" box="[297,863,3222,3255]" class="Mammalia" family="Vespertilionidae" genus="Kerivoula" kingdom="Animalia" order="Chiroptera" pageId="139" pageNumber="899" phylum="Chordata" rank="species" species="intermedia">Kerivoula intermedia Hill &amp; Francis, 1984</taxonomicName>
-, 
-<materialsCitation latitude="5.2" longitude="8.866667" pageId="139" pageNumber="899">
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="139" pageNumber="899" type="materials_examined">
+<paragraph blockId="139.[125,1332,3222,3498]" pageId="139" pageNumber="899">
+<materialsCitation ID-GBIF-Occurrence="3783319743" latitude="5.2" longitude="8.866667" pageId="139" pageNumber="899">
 “Lumerau, 
 <collectingRegion box="[1044,1127,3222,3255]" country="Malaysia" name="Sabah" pageId="139" pageNumber="899">Sabah</collectingRegion>
 [Borneo, 

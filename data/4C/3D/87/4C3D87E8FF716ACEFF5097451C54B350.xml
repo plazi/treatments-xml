@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="320" approvalRequired_for_illustrations="1" approvalRequired_for_matCits="100" approvalRequired_for_taxonomicNames="124" approvalRequired_for_textStreams="2" approvalRequired_for_treatments="93" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF716ACEFF5097451C54B350" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Kerivoula kachinensis Bates 2004" docType="treatment" docVersion="6" lastPageNumber="898" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="898" updateTime="1653396323223" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF716ACEFF5097451C54B350" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Kerivoula kachinensis Bates 2004" docType="treatment" docVersion="11" lastPageNumber="898" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="898" updateTime="1658433834459" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6397752</mods:identifier>
+<mods:identifier type="GBIF-Dataset">45351c32-25dd-422c-bdb2-00e73deb4943</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:4C3D87E8FF716ACEFF5097451C54B350" httpUri="http://treatment.plazi.org/id/4C3D87E8FF716ACEFF5097451C54B350" lastPageNumber="898" pageId="138" pageNumber="898">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6580632" ID-GBIF-Taxon="195628336" ID-Zenodo-Dep="6580632" LSID="urn:lsid:plazi:treatment:4C3D87E8FF716ACEFF5097451C54B350" httpUri="http://treatment.plazi.org/id/4C3D87E8FF716ACEFF5097451C54B350" lastPageNumber="898" pageId="138" pageNumber="898">
 <subSubSection box="[172,255,284,330]" pageId="138" pageNumber="898" type="multiple">
 <paragraph blockId="138.[170,1131,284,370]" box="[172,255,284,330]" pageId="138" pageNumber="898">
 <heading box="[172,255,284,330]" pageId="138" pageNumber="898">
@@ -90,16 +91,20 @@ de
 <paragraph blockId="138.[785,1378,418,841]" pageId="138" pageNumber="898">
 <emphasis bold="true" box="[785,940,418,447]" pageId="138" pageNumber="898">Taxonomy.</emphasis>
 <taxonomicName authority="Bates et al., 2004" authorityName="Bates" authorityYear="2004" class="Mammalia" family="Vespertilionidae" genus="Kerivoula" kingdom="Animalia" order="Chiroptera" pageId="138" pageNumber="898" phylum="Chordata" rank="species" species="kachinensis">Kerivoula kachinensis Bates et al., 2004</taxonomicName>
-, 
-<materialsCitation pageId="138" pageNumber="898">
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="138" pageNumber="898" type="materials_examined">
+<paragraph blockId="138.[785,1378,418,841]" pageId="138" pageNumber="898">
+<materialsCitation ID-GBIF-Occurrence="3783319577" latitude="34.203" longitude="97.125015" pageId="138" pageNumber="898">
 “Namdee Forest, Bhamo Township, 
 <collectingRegion box="[859,1034,493,526]" country="Myanmar" name="Kachin" pageId="138" pageNumber="898">Kachin State</collectingRegion>
 , 
 <collectingCountry box="[1049,1180,493,526]" name="Myanmar" pageId="138" pageNumber="898">Myanmar</collectingCountry>
 , 
-<geoCoordinate box="[1195,1368,493,526]" degrees="24" direction="north" minutes="34.203" orientation="latitude" pageId="138" pageNumber="898" precision="55" value="34.203">24°34.203°N</geoCoordinate>
+<geoCoordinate box="[1195,1368,493,526]" degrees="24" direction="north" minutes="34.203" orientation="latitude" pageId="138" pageNumber="898" precision="1" value="24.57005">24°34.203'N</geoCoordinate>
 , 
-<geoCoordinate box="[786,967,533,566]" degrees="97" minutes="07.501" pageId="138" pageNumber="898">97°07.501KE.</geoCoordinate>
+<geoCoordinate box="[786,967,533,566]" degrees="97" direction="east" minutes="07.501" orientation="longitude" pageId="138" pageNumber="898" precision="1" value="97.125015">97°07.501'E.</geoCoordinate>
 ”
 </materialsCitation>
 </paragraph>

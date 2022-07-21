@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="338" approvalRequired_for_illustrations="1" approvalRequired_for_matCits="100" approvalRequired_for_taxonomicNames="136" approvalRequired_for_textStreams="2" approvalRequired_for_treatments="99" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF726ACDFA7C9250142AB6AF" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Kerivoula furva Kuo Haochih 2017" docType="treatment" docVersion="6" lastPageNumber="897" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="897" updateTime="1653394972605" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF726ACDFA7C9250142AB6AF" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Kerivoula furva Kuo Haochih 2017" docType="treatment" docVersion="11" lastPageNumber="897" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="897" updateTime="1658433834459" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6397752</mods:identifier>
+<mods:identifier type="GBIF-Dataset">45351c32-25dd-422c-bdb2-00e73deb4943</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:4C3D87E8FF726ACDFA7C9250142AB6AF" httpUri="http://treatment.plazi.org/id/4C3D87E8FF726ACDFA7C9250142AB6AF" lastPageNumber="897" pageId="137" pageNumber="897">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6580630" ID-GBIF-Taxon="195628337" ID-Zenodo-Dep="6580630" LSID="urn:lsid:plazi:treatment:4C3D87E8FF726ACDFA7C9250142AB6AF" httpUri="http://treatment.plazi.org/id/4C3D87E8FF726ACDFA7C9250142AB6AF" lastPageNumber="897" pageId="137" pageNumber="897">
 <subSubSection box="[1408,1489,1033,1079]" pageId="137" pageNumber="897" type="multiple">
 <paragraph blockId="137.[1405,2320,1033,1122]" box="[1408,1489,1033,1079]" pageId="137" pageNumber="897">
 <heading box="[1408,1489,1033,1079]" pageId="137" pageNumber="897">
@@ -83,8 +84,12 @@ oscuro
 <paragraph blockId="137.[2017,2610,1164,1592]" pageId="137" pageNumber="897">
 <emphasis bold="true" box="[2017,2172,1164,1197]" pageId="137" pageNumber="897">Taxonomy.</emphasis>
 <taxonomicName authority="Kuo Haochih et al., 2017" authorityName="Kuo Haochih" authorityYear="2017" class="Mammalia" family="Vespertilionidae" genus="Kerivoula" kingdom="Animalia" order="Chiroptera" pageId="137" pageNumber="897" phylum="Chordata" rank="species" species="furva">Kerivoula furva Kuo Haochih et al., 2017</taxonomicName>
-, 
-<materialsCitation pageId="137" pageNumber="897">
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="137" pageNumber="897" type="materials_examined">
+<paragraph blockId="137.[2017,2610,1164,1592]" pageId="137" pageNumber="897">
+<materialsCitation ID-GBIF-Occurrence="3783319681" latitude="24.753334" longitude="39.63" pageId="137" pageNumber="897">
 “ 
 <collectingCountry box="[2189,2314,1209,1238]" name="Taiwan" pageId="137" pageNumber="897">TAIWAN</collectingCountry>
 , 
@@ -92,9 +97,8 @@ oscuro
 , Yuanshan Township, 
 <quantity box="[2251,2321,1243,1276]" metricMagnitude="3" metricUnit="m" metricValue="3.0" pageId="137" pageNumber="897" unit="km" value="3.0">3 km</quantity>
 East of Shuanglianpi, 
-<geoCoordinate box="[2085,2220,1283,1316]" pageId="137" pageNumber="897">24 45.20’N</geoCoordinate>
-, 
-<geoCoordinate box="[2238,2405,1283,1316]" degrees="121" direction="east" minutes="39.63" orientation="longitude" pageId="137" pageNumber="897" precision="555" value="39.63">121°39.63°E</geoCoordinate>
+<geoCoordinate box="[2068,2225,1283,1316]" degrees="24" direction="north" minutes="45.20" orientation="latitude" pageId="137" pageNumber="897" precision="9" value="24.753334">24º 45.20'N,</geoCoordinate>
+<geoCoordinate box="[2238,2405,1283,1316]" degrees="24" direction="north" minutes="45.20" orientation="latitude" pageId="137" pageNumber="897" precision="9" value="24.753334">121°39.63'E</geoCoordinate>
 , 
 <quantity box="[2424,2507,1283,1316]" metricMagnitude="2" metricUnit="m" metricValue="1.8" pageId="137" pageNumber="897" unit="m" value="180.0">180m</quantity>
 asl”

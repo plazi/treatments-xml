@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="291" approvalRequired_for_illustrations="1" approvalRequired_for_matCits="100" approvalRequired_for_taxonomicNames="102" approvalRequired_for_textStreams="2" approvalRequired_for_treatments="86" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF616ADEFF78974D1DB6B31B" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Murina annamitica Francis &amp; Eger" docType="treatment" docVersion="6" lastPageNumber="915" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="915" updateTime="1653399060648" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF616ADEFF78974D1DB6B31B" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Murina annamitica Francis &amp; Eger" docType="treatment" docVersion="11" lastPageNumber="915" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="915" updateTime="1658433834459" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6397752</mods:identifier>
+<mods:identifier type="GBIF-Dataset">45351c32-25dd-422c-bdb2-00e73deb4943</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:4C3D87E8FF616ADEFF78974D1DB6B31B" httpUri="http://treatment.plazi.org/id/4C3D87E8FF616ADEFF78974D1DB6B31B" lastPageNumber="915" pageId="154" pageNumber="915">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6580670" ID-GBIF-Taxon="195628089" ID-Zenodo-Dep="6580670" LSID="urn:lsid:plazi:treatment:4C3D87E8FF616ADEFF78974D1DB6B31B" httpUri="http://treatment.plazi.org/id/4C3D87E8FF616ADEFF78974D1DB6B31B" lastPageNumber="915" pageId="154" pageNumber="915">
 <subSubSection box="[132,213,276,314]" pageId="154" pageNumber="915" type="multiple">
 <paragraph blockId="154.[128,1156,275,393]" box="[132,213,276,314]" pageId="154" pageNumber="915">
 <heading box="[132,213,276,314]" pageId="154" pageNumber="915">
@@ -91,8 +92,12 @@ Tube-nosed Bat
 <paragraph blockId="154.[692,1334,445,867]" pageId="154" pageNumber="915">
 <emphasis bold="true" box="[743,898,445,474]" pageId="154" pageNumber="915">Taxonomy.</emphasis>
 <taxonomicName authority="Francis &amp; Eger, 2012" authorityName="Francis &amp; Eger" class="Mammalia" family="Vespertilionidae" genus="Murina" kingdom="Animalia" order="Chiroptera" pageId="154" pageNumber="915" phylum="Chordata" rank="species" species="annamitica">Murina annamitica Francis &amp; Eger, 2012</taxonomicName>
-, 
-<materialsCitation pageId="154" pageNumber="915">
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="154" pageNumber="915" type="materials_examined">
+<paragraph blockId="154.[692,1334,445,867]" pageId="154" pageNumber="915">
+<materialsCitation ID-GBIF-Occurrence="3783319592" latitude="28.0" longitude="105.083336" pageId="154" pageNumber="915">
 “near Nam Pan in the Annamite Mountains, 
 <collectingRegion box="[1005,1326,528,553]" country="Laos" name="Bolikhamxai" pageId="154" pageNumber="915">Bolikhamxai Province</collectingRegion>
 , 

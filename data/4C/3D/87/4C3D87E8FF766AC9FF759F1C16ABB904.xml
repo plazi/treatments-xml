@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="320" approvalRequired_for_illustrations="1" approvalRequired_for_matCits="100" approvalRequired_for_taxonomicNames="124" approvalRequired_for_textStreams="2" approvalRequired_for_treatments="93" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF766AC9FF759F1C16ABB904" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Kerivoula flora Thomas 1914" docType="treatment" docVersion="6" lastPageNumber="901" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="901" updateTime="1653396323223" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF766AC9FF759F1C16ABB904" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Kerivoula flora Thomas 1914" docType="treatment" docVersion="10" lastPageNumber="901" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="901" updateTime="1658433834459" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6397752</mods:identifier>
+<mods:identifier type="GBIF-Dataset">45351c32-25dd-422c-bdb2-00e73deb4943</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:4C3D87E8FF766AC9FF759F1C16ABB904" httpUri="http://treatment.plazi.org/id/4C3D87E8FF766AC9FF759F1C16ABB904" lastPageNumber="901" pageId="141" pageNumber="901">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6576769" ID-GBIF-Taxon="195628328" ID-Zenodo-Dep="6576769" LSID="urn:lsid:plazi:treatment:4C3D87E8FF766AC9FF759F1C16ABB904" httpUri="http://treatment.plazi.org/id/4C3D87E8FF766AC9FF759F1C16ABB904" lastPageNumber="901" pageId="141" pageNumber="901">
 <subSubSection box="[137,219,2373,2419]" pageId="141" pageNumber="901" type="multiple">
 <paragraph blockId="141.[135,1085,2373,2460]" box="[137,219,2373,2419]" pageId="141" pageNumber="901">
 <heading box="[137,219,2373,2419]" pageId="141" pageNumber="901">
@@ -86,12 +87,16 @@ de
 </heading>
 </paragraph>
 </subSubSection>
-<subSubSection pageId="141" pageNumber="901" type="reference_group">
-<paragraph blockId="141.[669,1340,2504,2931]" pageId="141" pageNumber="901">
+<subSubSection box="[748,1338,2504,2538]" pageId="141" pageNumber="901" type="reference_group">
+<paragraph blockId="141.[669,1340,2504,2931]" box="[748,1338,2504,2538]" pageId="141" pageNumber="901">
 <emphasis bold="true" box="[748,903,2504,2533]" pageId="141" pageNumber="901">Taxonomy.</emphasis>
 <taxonomicName authority="Thomas, 1914" authorityName="Thomas" authorityYear="1914" box="[919,1333,2505,2538]" class="Mammalia" family="Vespertilionidae" genus="Kerivoula" kingdom="Animalia" order="Chiroptera" pageId="141" pageNumber="901" phylum="Chordata" rank="species" species="flora">Kerivoula flora Thomas, 1914</taxonomicName>
-, 
-<materialsCitation box="[749,1270,2548,2577]" pageId="141" pageNumber="901">
+,
+</paragraph>
+</subSubSection>
+<subSubSection box="[749,1270,2548,2577]" pageId="141" pageNumber="901" type="materials_examined">
+<paragraph blockId="141.[669,1340,2504,2931]" box="[749,1270,2548,2577]" pageId="141" pageNumber="901">
+<materialsCitation ID-GBIF-Occurrence="3783319410" box="[749,1270,2548,2577]" pageId="141" pageNumber="901">
 “S. 
 <collectingCountry box="[794,883,2548,2577]" name="Indonesia" pageId="141" pageNumber="901">Flores</collectingCountry>
 ,” Lesser Sundas, 

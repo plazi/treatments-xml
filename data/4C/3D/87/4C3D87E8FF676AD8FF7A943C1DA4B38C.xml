@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="291" approvalRequired_for_illustrations="1" approvalRequired_for_matCits="100" approvalRequired_for_taxonomicNames="102" approvalRequired_for_textStreams="2" approvalRequired_for_treatments="86" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF676AD8FF7A943C1DA4B38C" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Murina fionae" docType="treatment" docVersion="6" lastPageNumber="917" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="917" updateTime="1653399060648" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF676AD8FF7A943C1DA4B38C" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Murina fionae" docType="treatment" docVersion="11" lastPageNumber="917" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="917" updateTime="1658433834459" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6397752</mods:identifier>
+<mods:identifier type="GBIF-Dataset">45351c32-25dd-422c-bdb2-00e73deb4943</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:4C3D87E8FF676AD8FF7A943C1DA4B38C" httpUri="http://treatment.plazi.org/id/4C3D87E8FF676AD8FF7A943C1DA4B38C" lastPageNumber="917" pageId="156" pageNumber="917">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6580678" ID-GBIF-Taxon="195628086" ID-Zenodo-Dep="6580678" LSID="urn:lsid:plazi:treatment:4C3D87E8FF676AD8FF7A943C1DA4B38C" httpUri="http://treatment.plazi.org/id/4C3D87E8FF676AD8FF7A943C1DA4B38C" lastPageNumber="917" pageId="156" pageNumber="917">
 <subSubSection box="[134,216,613,659]" pageId="156" pageNumber="917" type="multiple">
 <paragraph blockId="156.[131,1076,613,703]" box="[134,216,613,659]" pageId="156" pageNumber="917">
 <heading box="[134,216,613,659]" pageId="156" pageNumber="917">
@@ -82,8 +83,12 @@
 <paragraph blockId="156.[743,1336,751,1172]" pageId="156" pageNumber="917">
 <emphasis bold="true" box="[745,901,751,780]" pageId="156" pageNumber="917">Taxonomy.</emphasis>
 <taxonomicName authority="Francis &amp; Eger, 2012" authorityName="Francis" class="Mammalia" family="Vespertilionidae" genus="Murina" kingdom="Animalia" order="Chiroptera" pageId="156" pageNumber="917" phylum="Chordata" rank="species" species="fionae">Murina fionae Francis &amp; Eger, 2012</taxonomicName>
-, 
-<materialsCitation pageId="156" pageNumber="917">
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="156" pageNumber="917" type="materials_examined">
+<paragraph blockId="156.[743,1336,751,1172]" pageId="156" pageNumber="917">
+<materialsCitation ID-GBIF-Occurrence="3783319371" latitude="17.95" longitude="105.38333" pageId="156" pageNumber="917">
 “Pha Deng, ~ 
 <quantity box="[1015,1083,791,820]" metricMagnitude="3" metricUnit="m" metricValue="8.0" pageId="156" pageNumber="917" unit="km" value="8.0">8 km</quantity>
 E of Ban Navang, 
@@ -91,10 +96,10 @@ E of Ban Navang,
 , 
 <collectingCountry box="[1110,1174,830,859]" name="Laos" pageId="156" pageNumber="917">Laos</collectingCountry>
 (
-<geoCoordinate box="[1213,1329,830,859]" degrees="17" direction="north" minutes="57" orientation="latitude" pageId="156" pageNumber="917" precision="925" value="17.95">17°57’N</geoCoordinate>
+<geoCoordinate box="[1213,1329,830,859]" degrees="17" direction="north" minutes="57" orientation="latitude" pageId="156" pageNumber="917" precision="925" value="17.95">17°57'N</geoCoordinate>
 , 
-<geoCoordinate box="[748,855,869,898]" degrees="105" minutes="23" pageId="156" pageNumber="917">105°23’</geoCoordinate>
-F); altitude 
+<geoCoordinate box="[748,876,869,898]" degrees="105" direction="east" minutes="23" orientation="longitude" pageId="156" pageNumber="917" precision="925" value="105.38333">105°23'E</geoCoordinate>
+); altitude 
 <quantity box="[1023,1127,869,898]" metricMagnitude="3" metricUnit="m" metricValue="1.14" pageId="156" pageNumber="917" unit="m" value="1140.0">1140 m</quantity>
 .”
 </materialsCitation>

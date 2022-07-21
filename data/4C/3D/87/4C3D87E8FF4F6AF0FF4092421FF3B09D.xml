@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="291" approvalRequired_for_illustrations="1" approvalRequired_for_matCits="100" approvalRequired_for_taxonomicNames="102" approvalRequired_for_textStreams="2" approvalRequired_for_treatments="86" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF4F6AF0FF4092421FF3B09D" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Myotis lavali Moratelli" docType="treatment" docVersion="6" lastPageNumber="942" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="942" updateTime="1653399060648" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF4F6AF0FF4092421FF3B09D" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Myotis lavali Moratelli" docType="treatment" docVersion="12" lastPageNumber="942" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="942" updateTime="1658433834459" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6397752</mods:identifier>
+<mods:identifier type="GBIF-Dataset">45351c32-25dd-422c-bdb2-00e73deb4943</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:4C3D87E8FF4F6AF0FF4092421FF3B09D" httpUri="http://treatment.plazi.org/id/4C3D87E8FF4F6AF0FF4092421FF3B09D" lastPageNumber="942" pageId="180" pageNumber="942">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6580703" ID-GBIF-Taxon="195628104" ID-Zenodo-Dep="6580703" LSID="urn:lsid:plazi:treatment:4C3D87E8FF4F6AF0FF4092421FF3B09D" httpUri="http://treatment.plazi.org/id/4C3D87E8FF4F6AF0FF4092421FF3B09D" lastPageNumber="942" pageId="180" pageNumber="942">
 <subSubSection box="[188,271,1051,1097]" pageId="180" pageNumber="942" type="multiple">
 <paragraph blockId="180.[187,991,1055,1140]" box="[188,271,1051,1097]" pageId="180" pageNumber="942">
 <heading box="[188,271,1051,1097]" pageId="180" pageNumber="942">
@@ -82,8 +83,12 @@
 <paragraph blockId="180.[799,1392,1183,1611]" pageId="180" pageNumber="942">
 <emphasis bold="true" box="[799,955,1183,1216]" pageId="180" pageNumber="942">Taxonomy.</emphasis>
 <taxonomicName authority="Moratelli et al. 2011" authorityName="Moratelli" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="180" pageNumber="942" phylum="Chordata" rank="species" species="lavali">Myotis lavali Moratelli et al, 2011</taxonomicName>
-, 
-<materialsCitation pageId="180" pageNumber="942">
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="180" pageNumber="942" type="materials_examined">
+<paragraph blockId="180.[799,1392,1183,1611]" pageId="180" pageNumber="942">
+<materialsCitation ID-GBIF-Occurrence="3783319341" latitude="-7.5" longitude="-30.716667" pageId="180" pageNumber="942">
 “6.km S of Exu (
 <geoCoordinate box="[1139,1229,1223,1256]" degrees="7" direction="south" minutes="30" orientation="latitude" pageId="180" pageNumber="942" precision="925" value="-7.5">7°30'S</geoCoordinate>
 , 
@@ -164,7 +169,7 @@ ecoregions, predominantly with semiarid and savanna formations, with peripheral 
 <paragraph blockId="180.[182,1393,1617,2991]" pageId="180" pageNumber="942">
 <emphasis bold="true" box="[184,455,2367,2400]" pageId="180" pageNumber="942">Food and Feeding.</emphasis>
 [L.aVal’s 
-<taxonomicName box="[585,674,2367,2400]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="180" pageNumber="942" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[585,674,2367,2400]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="180" pageNumber="942" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 forages in open areas and over water, capturing prey in flight. Diets include various insects, particularly 
 <taxonomicName box="[1006,1164,2407,2440]" class="Insecta" family="Scarabaeidae" genus="Coleoptera" kingdom="Animalia" order="Coleoptera" pageId="180" pageNumber="942" phylum="Arthropoda" rank="order">Coleoptera</taxonomicName>
 , 
@@ -178,7 +183,7 @@ forages in open areas and over water, capturing prey in flight. Diets include va
 <paragraph blockId="180.[182,1393,1617,2991]" pageId="180" pageNumber="942">
 <emphasis bold="true" box="[183,318,2486,2519]" pageId="180" pageNumber="942">Breeding.</emphasis>
 L.aVal’s 
-<taxonomicName box="[439,528,2486,2519]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="180" pageNumber="942" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[439,528,2486,2519]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="180" pageNumber="942" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 from Brazilian Caatinga breeds year-round, with no peaks of pregnancy or lactation in rainy seasons.
 </paragraph>
 </subSubSection>
@@ -186,7 +191,7 @@ from Brazilian Caatinga breeds year-round, with no peaks of pregnancy or lactati
 <paragraph blockId="180.[182,1393,1617,2991]" pageId="180" pageNumber="942">
 <emphasis bold="true" box="[182,419,2565,2598]" pageId="180" pageNumber="942">Activity patterns.</emphasis>
 [.aVal’s 
-<taxonomicName box="[542,631,2565,2598]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="180" pageNumber="942" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[542,631,2565,2598]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="180" pageNumber="942" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 emerges just before sunset. In Brazilian Caatinga,its activity 1s concentrated in the first five hours after sunset, and it roosted in horizontal crevices in sandstone rock, small cave in a sandstone plateau with xeric shrub vegetation, and rooftops of abandoned human dwelling. Wing morphology is typical of aerial insectivore that uses cluttered spaces.
 </paragraph>
 </subSubSection>
@@ -194,7 +199,7 @@ emerges just before sunset. In Brazilian Caatinga,its activity 1s concentrated i
 <paragraph blockId="180.[182,1393,1617,2991]" pageId="180" pageNumber="942">
 <emphasis bold="true" box="[183,886,2762,2795]" pageId="180" pageNumber="942">Movements, Home range and Social organization.</emphasis>
 In Brazilian Caatinga, LLaVal’s 
-<taxonomicName class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="180" pageNumber="942" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="180" pageNumber="942" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 formed colonies of 16-20 individuals.
 </paragraph>
 </subSubSection>
@@ -202,7 +207,7 @@ formed colonies of 16-20 individuals.
 <paragraph blockId="180.[182,1393,1617,2991]" pageId="180" pageNumber="942">
 <emphasis bold="true" box="[183,540,2841,2874]" pageId="180" pageNumber="942">Status and Conservation.</emphasis>
 Classified as Least Concern on The IUCN Red List. L.aVal’s 
-<taxonomicName box="[184,273,2880,2913]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="180" pageNumber="942" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[184,273,2880,2913]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="180" pageNumber="942" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 is widespread and presumably has a large population.
 </paragraph>
 </subSubSection>

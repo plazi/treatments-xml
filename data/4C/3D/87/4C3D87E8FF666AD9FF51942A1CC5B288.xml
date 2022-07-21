@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="39" approvalRequired_for_matCits="1" approvalRequired_for_taxonomicNames="9" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF666AD9FF51942A1CC5B288" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Murina peninsularis Hill 1964" docType="treatment" docVersion="6" lastPageNumber="918" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="918" updateTime="1653491089352" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF666AD9FF51942A1CC5B288" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Murina peninsularis Hill 1964" docType="treatment" docVersion="8" lastPageNumber="918" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="918" updateTime="1658433834459" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -41,7 +41,7 @@
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:4C3D87E8FF666AD9FF51942A1CC5B288" httpUri="http://treatment.plazi.org/id/4C3D87E8FF666AD9FF51942A1CC5B288" lastPageNumber="918" pageId="157" pageNumber="918">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6581390" ID-GBIF-Taxon="195628083" ID-Zenodo-Dep="6581390" LSID="urn:lsid:plazi:treatment:4C3D87E8FF666AD9FF51942A1CC5B288" httpUri="http://treatment.plazi.org/id/4C3D87E8FF666AD9FF51942A1CC5B288" lastPageNumber="918" pageId="157" pageNumber="918">
 <subSubSection box="[173,255,627,673]" pageId="157" pageNumber="918" type="multiple">
 <paragraph blockId="157.[171,1286,627,715]" box="[173,255,627,673]" pageId="157" pageNumber="918">
 <heading box="[173,255,627,673]" pageId="157" pageNumber="918">
@@ -83,8 +83,12 @@
 <paragraph blockId="157.[786,1381,764,1184]" pageId="157" pageNumber="918">
 <emphasis bold="true" box="[786,941,764,789]" pageId="157" pageNumber="918">Taxonomy.</emphasis>
 <taxonomicName authority="Hill, 1964" authorityName="Hill" authorityYear="1964" class="Mammalia" family="Vespertilionidae" genus="Murina" kingdom="Animalia" order="Chiroptera" pageId="157" pageNumber="918" phylum="Chordata" rank="subSpecies" species="cyclotis" subSpecies="peninsularis">Murina cyclotis peninsularis Hill, 1964</taxonomicName>
-, 
-<materialsCitation pageId="157" pageNumber="918">
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="157" pageNumber="918" type="materials_examined">
+<paragraph blockId="157.[786,1381,764,1184]" pageId="157" pageNumber="918">
+<materialsCitation ID-GBIF-Occurrence="3783319396" pageId="157" pageNumber="918">
 Ulu Chemperoh, near Janda Baik, Bentong District, 
 <collectingRegion box="[1036,1142,835,868]" country="Malaysia" name="Pahang" pageId="157" pageNumber="918">Pahang</collectingRegion>
 , 

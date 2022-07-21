@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="1530" approvalRequired_for_illustrations="1" approvalRequired_for_matCits="143" approvalRequired_for_taxonomicNames="590" approvalRequired_for_textStreams="13" approvalRequired_for_treatments="783" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF536AEDFA4B91961C1EB82A" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Myotis planiceps R. H. Baker 1955" docType="treatment" docVersion="5" lastPageNumber="931" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="930" updateTime="1652987333655" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF536AEDFA4B91961C1EB82A" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Myotis planiceps R. H. Baker 1955" docType="treatment" docVersion="9" lastPageNumber="931" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="930" updateTime="1658433834459" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6397752</mods:identifier>
+<mods:identifier type="GBIF-Dataset">45351c32-25dd-422c-bdb2-00e73deb4943</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6402932" ID-Zenodo-Dep="6402932" LSID="urn:lsid:plazi:treatment:4C3D87E8FF536AEDFA4B91961C1EB82A" httpUri="http://treatment.plazi.org/id/4C3D87E8FF536AEDFA4B91961C1EB82A" lastPageId="169" lastPageNumber="931" pageId="168" pageNumber="930">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6402932" ID-GBIF-Taxon="195628150" ID-Zenodo-Dep="6402932" LSID="urn:lsid:plazi:treatment:4C3D87E8FF536AEDFA4B91961C1EB82A" httpUri="http://treatment.plazi.org/id/4C3D87E8FF536AEDFA4B91961C1EB82A" lastPageId="169" lastPageNumber="931" pageId="168" pageNumber="930">
 <subSubSection box="[1463,1545,1999,2045]" pageId="168" pageNumber="930" type="multiple">
 <paragraph blockId="168.[1461,2415,1999,2089]" box="[1463,1545,1999,2045]" pageId="168" pageNumber="930">
 <heading box="[1463,1545,1999,2045]" pageId="168" pageNumber="930">
@@ -82,8 +83,12 @@
 <paragraph blockId="168.[2074,2668,2129,2557]" pageId="168" pageNumber="930">
 <emphasis bold="true" box="[2074,2230,2129,2162]" pageId="168" pageNumber="930">Taxonomy.</emphasis>
 <taxonomicName authority="R. H. Baker, 1955" authorityName="R. H. Baker" authorityYear="1955" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="168" pageNumber="930" phylum="Chordata" rank="species" species="planiceps">Myotis planiceps R. H. Baker, 1955</taxonomicName>
-, 
-<materialsCitation pageId="168" pageNumber="930">
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="168" pageNumber="930" type="materials_examined">
+<paragraph blockId="168.[2074,2668,2129,2557]" pageId="168" pageNumber="930">
+<materialsCitation ID-GBIF-Occurrence="3783319651" pageId="168" pageNumber="930">
 “ 
 <quantity box="[2171,2235,2168,2201]" metricMagnitude="4" metricUnit="m" metricValue="1.1265408" pageId="168" pageNumber="930" unit="mi" value="7.0">7 mi.</quantity>
 [= 
@@ -139,13 +144,13 @@ Head-body ¢.30
 ; weight 
 <quantity box="[2094,2168,2563,2596]" metricMagnitude="-3" metricUnit="kg" metricValue="6.0" metricValueMax="7.0" metricValueMin="5.0" pageId="168" pageNumber="930" unit="g" value="6.0" valueMax="7.0" valueMin="5.0">5-7 g</quantity>
 . The Flat-headed 
-<taxonomicName box="[2419,2509,2563,2596]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="168" pageNumber="930" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[2419,2509,2563,2596]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="168" pageNumber="930" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 is morphologically distinct from its New World congeners. Fur is long and silky. Dorsal hairs are 
 <quantity box="[1464,1597,2642,2675]" metricMagnitude="-3" metricUnit="m" metricValue="9.0" metricValueMax="10.0" metricValueMin="8.0" pageId="168" pageNumber="930" unit="mm" value="9.0" valueMax="10.0" valueMin="8.0">8-10 mm</quantity>
 , with blackish bases and cinnamon-brown tips. Ventral hairs are bicolored, with dark brown bases and buff tips and strong contrast between bases and tips. Ears are proportionally long, extending forward halfway from eye to nostril. Membranes are dark brown; plagiopatagium is broadly attached to foot at bases of toes. Upper and lower surfaces of uropatagium are barely covered with hairs. Skull is moderate in size (greatest skull lengths 13-5-14- 
 <quantity box="[1959,2043,2840,2873]" metricMagnitude="-3" metricUnit="m" metricValue="5.0" pageId="168" pageNumber="930" unit="mm" value="5.0">5 mm</quantity>
 ) and flattened, more than in any other New World 
-<taxonomicName box="[1562,1646,2879,2912]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="168" pageNumber="930" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[1562,1646,2879,2912]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="168" pageNumber="930" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 , sagittal crest is absent, and lambdoidal crests are present but very low; and rostrum narrows anteriorly. Teeth are small relative to palatal surface; occlusal surfaces of premolars are subequal in size, not crowded, and well-spaced; and P* and P* are very similar.
 </paragraph>
 </subSubSection>
@@ -163,7 +168,7 @@ and surrounding habitats, at elevations of
 <paragraph blockId="168.[1462,2672,2563,3465]" pageId="168" pageNumber="930">
 <emphasis bold="true" box="[1464,1730,3116,3149]" pageId="168" pageNumber="930">Food and Feeding.</emphasis>
 Limited captures suggest that the Flat-headed 
-<taxonomicName box="[2412,2501,3116,3149]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="168" pageNumber="930" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[2412,2501,3116,3149]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="168" pageNumber="930" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 is an aerial insectivore that forages in forested areas and near water bodies. Stomach contents of one specimen had dipterans (
 <taxonomicName box="[1906,2062,3195,3228]" class="Insecta" family="Tachinidae" kingdom="Animalia" order="Diptera" pageId="168" pageNumber="930" phylum="Arthropoda" rank="family">Tachinidae</taxonomicName>
 and 
@@ -175,7 +180,7 @@ and
 <paragraph blockId="168.[1462,2672,2563,3465]" pageId="168" pageNumber="930">
 <emphasis bold="true" box="[1464,1599,3274,3307]" pageId="168" pageNumber="930">Breeding.</emphasis>
 A male Flat-headed 
-<taxonomicName box="[1899,1988,3274,3307]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="168" pageNumber="930" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[1899,1988,3274,3307]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="168" pageNumber="930" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 with scrotal testes was captured in mid-September. Seven females appeared to be lactating with no embryos when captured in June.
 </paragraph>
 </subSubSection>
@@ -183,7 +188,7 @@ with scrotal testes was captured in mid-September. Seven females appeared to be 
 <paragraph blockId="168.[1462,2672,2563,3465]" lastBlockId="169.[132,1340,287,794]" lastPageId="169" lastPageNumber="931" pageId="168" pageNumber="930">
 <emphasis bold="true" box="[1463,1702,3353,3386]" pageId="168" pageNumber="930">Activity patterns.</emphasis>
 The flattened skull of the Flat-headed 
-<taxonomicName box="[2286,2375,3353,3386]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="168" pageNumber="930" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[2286,2375,3353,3386]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="168" pageNumber="930" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 is possibly an adaptation for roosting in crevices. Echolocation calls of indoor flying individuals were short (2-3 milliseconds), broadband (40-45 kHz), and steep FM. They swept from 80-90 kHz at the beginning of the call to 40-42 kHz at the end. Pulse interval was ¢.60-70 milliseconds. In open space, terminal frequency tended to decrease slightly (c.1 kHz); call duration and pulse interval increased from 2-3 milliseconds to 4 milliseconds and from ¢.60-70 milliseconds to 90 milliseconds, respectively, compared with indoor recordings. Bandwidth was similar (40-45 kHz).
 </paragraph>
 </subSubSection>
@@ -197,7 +202,7 @@ No information.
 <paragraph blockId="169.[132,1340,287,794]" pageId="169" pageNumber="931">
 <emphasis bold="true" box="[134,491,524,557]" pageId="169" pageNumber="931">Status and Conservation.</emphasis>
 Classified as Endangered on The IUCN Red List. The Flatheaded 
-<taxonomicName box="[248,337,563,596]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="169" pageNumber="931" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[248,337,563,596]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="169" pageNumber="931" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 has an extremely restricted distribution, there are less than 250 mature individuals, and the population is probably declining because of wood exploitation and other disturbances in land use. Discovery of a new population near the known distribution in 2005 indicates it is not extinct, as it was once supposed to be.
 </paragraph>
 </subSubSection>

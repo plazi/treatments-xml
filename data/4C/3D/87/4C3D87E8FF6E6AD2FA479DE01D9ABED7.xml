@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="39" approvalRequired_for_matCits="1" approvalRequired_for_taxonomicNames="9" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF6E6AD2FA479DE01D9ABED7" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Murina feae" docType="treatment" docVersion="7" lastPageNumber="911" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="910" updateTime="1653491089352" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF6E6AD2FA479DE01D9ABED7" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Murina feae" docType="treatment" docVersion="9" lastPageNumber="911" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="910" updateTime="1658433834459" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -41,7 +41,7 @@
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:4C3D87E8FF6E6AD2FA479DE01D9ABED7" httpUri="http://treatment.plazi.org/id/4C3D87E8FF6E6AD2FA479DE01D9ABED7" lastPageId="150" lastPageNumber="911" pageId="149" pageNumber="910">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6581377" ID-GBIF-Taxon="195628082" ID-Zenodo-Dep="6581377" LSID="urn:lsid:plazi:treatment:4C3D87E8FF6E6AD2FA479DE01D9ABED7" httpUri="http://treatment.plazi.org/id/4C3D87E8FF6E6AD2FA479DE01D9ABED7" lastPageId="150" lastPageNumber="911" pageId="149" pageNumber="910">
 <subSubSection box="[1467,1549,3001,3051]" pageId="149" pageNumber="910" type="multiple">
 <paragraph blockId="149.[1464,2352,3001,3134]" box="[1467,1549,3001,3051]" pageId="149" pageNumber="910">
 <heading box="[1467,1549,3001,3051]" pageId="149" pageNumber="910">
@@ -85,12 +85,16 @@
 </heading>
 </paragraph>
 </subSubSection>
-<subSubSection box="[1465,2514,3180,3209]" pageId="149" pageNumber="910" type="reference_group">
-<paragraph blockId="149.[1464,2670,3180,3486]" box="[1465,2514,3180,3209]" pageId="149" pageNumber="910">
+<subSubSection box="[1465,2098,3180,3209]" pageId="149" pageNumber="910" type="reference_group">
+<paragraph blockId="149.[1464,2670,3180,3486]" box="[1465,2098,3180,3209]" pageId="149" pageNumber="910">
 <emphasis bold="true" box="[1465,1620,3180,3209]" pageId="149" pageNumber="910">Taxonomy.</emphasis>
 <taxonomicName authority="Thomas, 1891" authorityName="Thomas" authorityYear="1891" box="[1632,2093,3180,3209]" class="Mammalia" family="Vespertilionidae" genus="Harpiocephalus" kingdom="Animalia" order="Chiroptera" pageId="149" pageNumber="910" phylum="Chordata" rank="species" species="feae">Harpiocephalus feae Thomas, 1891</taxonomicName>
-, 
-<materialsCitation box="[2110,2514,3180,3209]" pageId="149" pageNumber="910">
+,
+</paragraph>
+</subSubSection>
+<subSubSection box="[2110,2514,3180,3209]" pageId="149" pageNumber="910" type="materials_examined">
+<paragraph blockId="149.[1464,2670,3180,3486]" box="[2110,2514,3180,3209]" pageId="149" pageNumber="910">
+<materialsCitation ID-GBIF-Occurrence="3783319503" box="[2110,2514,3180,3209]" pageId="149" pageNumber="910">
 Biapo, Karin Hills, 
 <collectingCountry box="[2378,2510,3180,3209]" name="Myanmar" pageId="149" pageNumber="910">Myanmar</collectingCountry>
 .

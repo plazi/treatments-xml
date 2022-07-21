@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="309" approvalRequired_for_illustrations="1" approvalRequired_for_matCits="100" approvalRequired_for_taxonomicNames="118" approvalRequired_for_textStreams="2" approvalRequired_for_treatments="88" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF686AD7FA4691EE165FB6AB" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Murina rongjiangensis J.Chen, T.Liu, H.-Q.Deng, N.Xiao &amp; J.Zhou 2017" docType="treatment" docVersion="6" lastPageNumber="908" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="908" updateTime="1653397026648" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF686AD7FA4691EE165FB6AB" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Murina rongjiangensis J.Chen, T.Liu, H.-Q.Deng, N.Xiao &amp; J.Zhou 2017" docType="treatment" docVersion="11" lastPageNumber="908" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="908" updateTime="1658433834459" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6397752</mods:identifier>
+<mods:identifier type="GBIF-Dataset">45351c32-25dd-422c-bdb2-00e73deb4943</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:4C3D87E8FF686AD7FA4691EE165FB6AB" httpUri="http://treatment.plazi.org/id/4C3D87E8FF686AD7FA4691EE165FB6AB" lastPageNumber="908" pageId="147" pageNumber="908">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6580644" ID-GBIF-Taxon="195628059" ID-Zenodo-Dep="6580644" LSID="urn:lsid:plazi:treatment:4C3D87E8FF686AD7FA4691EE165FB6AB" httpUri="http://treatment.plazi.org/id/4C3D87E8FF686AD7FA4691EE165FB6AB" lastPageNumber="908" pageId="147" pageNumber="908">
 <subSubSection box="[1466,1548,1975,2021]" pageId="147" pageNumber="908" type="multiple">
 <paragraph blockId="147.[1464,2603,1975,2063]" box="[1466,1548,1975,2021]" pageId="147" pageNumber="908">
 <heading box="[1466,1548,1975,2021]" pageId="147" pageNumber="908">
@@ -82,8 +83,12 @@
 <paragraph blockId="147.[2071,2669,2107,2533]" pageId="147" pageNumber="908">
 <emphasis bold="true" box="[2076,2229,2107,2140]" pageId="147" pageNumber="908">Taxonomy.</emphasis>
 <taxonomicName authorityName="Chen Jian et al. " authorityYear="2017" class="Mammalia" family="Vespertilionidae" genus="Murina" kingdom="Animalia" order="Chiroptera" pageId="147" pageNumber="908" phylum="Chordata" rank="species" species="rongjiangensis">Murina rongjiangensis Chen Jian et al, 2017</taxonomicName>
-, 
-<materialsCitation pageId="147" pageNumber="908">
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="147" pageNumber="908" type="materials_examined">
+<paragraph blockId="147.[2071,2669,2107,2533]" pageId="147" pageNumber="908">
+<materialsCitation ID-GBIF-Occurrence="3783319751" latitude="25.909575" longitude="23.17" pageId="147" pageNumber="908">
 “Xinghua town, Rongjiang county in 
 <collectingRegion box="[2296,2554,2194,2219]" country="China" name="Guizhou" pageId="147" pageNumber="908">Guizhou Province</collectingRegion>
 , 
@@ -91,9 +96,9 @@
 , (
 <quantity box="[2090,2176,2225,2258]" metricMagnitude="2" metricUnit="m" metricValue="3.7" pageId="147" pageNumber="908" unit="m" value="370.0">370m</quantity>
 , 
-<geoCoordinate box="[2193,2391,2225,2258]" degrees="25" minutes="54" pageId="147" pageNumber="908">25°54°3447&quot;N</geoCoordinate>
+<geoCoordinate box="[2193,2391,2225,2258]" degrees="25" direction="north" minutes="54" orientation="latitude" pageId="147" pageNumber="908" precision="1" seconds="34.47" value="25.909575">25°54'34.47&quot;N</geoCoordinate>
 , 
-<geoCoordinate box="[2410,2618,2225,2258]" degrees="108" direction="east" minutes="10" orientation="longitude" pageId="147" pageNumber="908" precision="555" seconds="23.17" value="23.17">108° 10'23.17°E</geoCoordinate>
+<geoCoordinate box="[2410,2618,2225,2258]" degrees="108" direction="east" minutes="10" orientation="longitude" pageId="147" pageNumber="908" precision="1" seconds="23.17" value="108.1731">108° 10'23.17&quot;E</geoCoordinate>
 ) in an abandoned mine.”
 </materialsCitation>
 </paragraph>

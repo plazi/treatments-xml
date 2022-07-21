@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="320" approvalRequired_for_illustrations="1" approvalRequired_for_matCits="100" approvalRequired_for_taxonomicNames="124" approvalRequired_for_textStreams="2" approvalRequired_for_treatments="93" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF776AC8FF5495231A4DB23E" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Kerivoula lenis Thomas 1916" docType="treatment" docVersion="6" lastPageNumber="900" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="900" updateTime="1653396323223" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF776AC8FF5495231A4DB23E" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Kerivoula lenis Thomas 1916" docType="treatment" docVersion="10" lastPageNumber="900" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="900" updateTime="1658433834459" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6397752</mods:identifier>
+<mods:identifier type="GBIF-Dataset">45351c32-25dd-422c-bdb2-00e73deb4943</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:4C3D87E8FF776AC8FF5495231A4DB23E" httpUri="http://treatment.plazi.org/id/4C3D87E8FF776AC8FF5495231A4DB23E" lastPageNumber="900" pageId="140" pageNumber="900">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6576765" ID-GBIF-Taxon="195628341" ID-Zenodo-Dep="6576765" LSID="urn:lsid:plazi:treatment:4C3D87E8FF776AC8FF5495231A4DB23E" httpUri="http://treatment.plazi.org/id/4C3D87E8FF776AC8FF5495231A4DB23E" lastPageNumber="900" pageId="140" pageNumber="900">
 <subSubSection box="[168,250,890,936]" pageId="140" pageNumber="900" type="multiple">
 <paragraph blockId="140.[166,1100,890,977]" box="[168,250,890,936]" pageId="140" pageNumber="900">
 <heading box="[168,250,890,936]" pageId="140" pageNumber="900">
@@ -80,16 +81,20 @@ de
 </heading>
 </paragraph>
 </subSubSection>
-<subSubSection pageId="140" pageNumber="900" type="reference_group">
-<paragraph blockId="140.[778,1373,1022,1445]" pageId="140" pageNumber="900">
+<subSubSection box="[778,1368,1022,1051]" pageId="140" pageNumber="900" type="reference_group">
+<paragraph blockId="140.[778,1373,1022,1445]" box="[778,1368,1022,1051]" pageId="140" pageNumber="900">
 <emphasis bold="true" box="[778,931,1022,1051]" pageId="140" pageNumber="900">Taxonomy.</emphasis>
 <taxonomicName authority="Thomas, 1916" authorityName="Thomas" authorityYear="1916" box="[950,1364,1022,1051]" class="Mammalia" family="Vespertilionidae" genus="Kerivoula" kingdom="Animalia" order="Chiroptera" pageId="140" pageNumber="900" phylum="Chordata" rank="species" species="lenis">Kerivoula lenis Thomas, 1916</taxonomicName>
-, 
-<materialsCitation box="[780,1009,1062,1091]" pageId="140" pageNumber="900">
+,
+</paragraph>
+</subSubSection>
+<subSubSection box="[780,1013,1062,1091]" pageId="140" pageNumber="900" type="materials_examined">
+<paragraph blockId="140.[778,1373,1022,1445]" box="[780,1013,1062,1091]" pageId="140" pageNumber="900">
+<materialsCitation ID-GBIF-Occurrence="3783319619" box="[780,1013,1062,1091]" pageId="140" pageNumber="900">
 “Calcuta,” 
 <collectingCountry box="[935,1009,1062,1091]" name="India" pageId="140" pageNumber="900">India</collectingCountry>
-</materialsCitation>
 .
+</materialsCitation>
 </paragraph>
 </subSubSection>
 <subSubSection pageId="140" pageNumber="900" type="discussion">
@@ -172,9 +177,7 @@ No information.
 <subSubSection pageId="140" pageNumber="900" type="conservation">
 <paragraph blockId="140.[169,1377,1453,2316]" pageId="140" pageNumber="900">
 <emphasis bold="true" box="[171,519,2124,2157]" pageId="140" pageNumber="900">Status and Conservation.</emphasis>
-Classified as Least Concern on The IUCN Red List. Full extent of the distribution of the 
-<taxonomicName authority="Woolly" authorityName="Woolly" box="[522,701,2163,2196]" class="Mammalia" family="Vespertilionidae" genus="Kerivoula" kingdom="Animalia" order="Chiroptera" pageId="140" pageNumber="900" phylum="Chordata" rank="species" species="lenis">Lenis Woolly</taxonomicName>
-Bat is uncertain, but it is no doubt wide but fragmentary. Additional studies are needed to clarify its taxonomy and conservation status.
+Classified as Least Concern on The IUCN Red List. Full extent of the distribution of the Lenis Woolly Bat is uncertain, but it is no doubt wide but fragmentary. Additional studies are needed to clarify its taxonomy and conservation status.
 </paragraph>
 </subSubSection>
 <subSubSection pageId="140" pageNumber="900" type="bibRefCitation_list">

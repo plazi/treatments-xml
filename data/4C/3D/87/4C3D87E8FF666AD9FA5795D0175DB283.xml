@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="291" approvalRequired_for_illustrations="1" approvalRequired_for_matCits="100" approvalRequired_for_taxonomicNames="102" approvalRequired_for_textStreams="2" approvalRequired_for_treatments="86" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF666AD9FA5795D0175DB283" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Murina kontumensis" docType="treatment" docVersion="6" lastPageNumber="918" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="918" updateTime="1653399060648" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF666AD9FA5795D0175DB283" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Murina kontumensis" docType="treatment" docVersion="11" lastPageNumber="918" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="918" updateTime="1658433834459" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6397752</mods:identifier>
+<mods:identifier type="GBIF-Dataset">45351c32-25dd-422c-bdb2-00e73deb4943</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:4C3D87E8FF666AD9FA5795D0175DB283" httpUri="http://treatment.plazi.org/id/4C3D87E8FF666AD9FA5795D0175DB283" lastPageNumber="918" pageId="157" pageNumber="918">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6580684" ID-GBIF-Taxon="195628076" ID-Zenodo-Dep="6580684" LSID="urn:lsid:plazi:treatment:4C3D87E8FF666AD9FA5795D0175DB283" httpUri="http://treatment.plazi.org/id/4C3D87E8FF666AD9FA5795D0175DB283" lastPageNumber="918" pageId="157" pageNumber="918">
 <subSubSection box="[1451,1533,905,943]" pageId="157" pageNumber="918" type="multiple">
 <paragraph blockId="157.[1449,2533,902,983]" box="[1451,1533,905,943]" pageId="157" pageNumber="918">
 <heading box="[1451,1533,905,943]" pageId="157" pageNumber="918">
@@ -91,16 +92,20 @@ Ratonero narizudo de
 <paragraph blockId="157.[2062,2657,1026,1454]" pageId="157" pageNumber="918">
 <emphasis bold="true" box="[2062,2217,1026,1059]" pageId="157" pageNumber="918">Taxonomy.</emphasis>
 <taxonomicName authority="Nguyen Truong Son et al. 2015" class="Mammalia" family="Vespertilionidae" genus="Murina" kingdom="Animalia" order="Chiroptera" pageId="157" pageNumber="918" phylum="Chordata" rank="species" species="kontumensis">Murina kontumensis Nguyen Truong Son et al, 2015</taxonomicName>
-, 
-<materialsCitation pageId="157" pageNumber="918">
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="157" pageNumber="918" type="materials_examined">
+<paragraph blockId="157.[2062,2657,1026,1454]" pageId="157" pageNumber="918">
+<materialsCitation ID-GBIF-Occurrence="3783319679" latitude="15.091666" longitude="107.85972" pageId="157" pageNumber="918">
 “Ngoc Linh Nature Reserve, Xop commune, Dak Glei district, 
 <collectingRegion box="[2196,2501,1153,1178]" country="Vietnam" name="Kon Tum" pageId="157" pageNumber="918">Kon Tum province</collectingRegion>
 , 
 <collectingCountry box="[2534,2654,1153,1178]" name="Vietnam" pageId="157" pageNumber="918">Vietnam</collectingCountry>
 (
-<geoCoordinate box="[2076,2227,1183,1216]" pageId="157" pageNumber="918">15205&quot;30N</geoCoordinate>
+<geoCoordinate box="[2076,2227,1183,1216]" degrees="15" direction="north" minutes="05" orientation="latitude" pageId="157" pageNumber="918" precision="15" seconds="30" value="15.091666">15º05'30&quot;N</geoCoordinate>
 , 
-<geoCoordinate box="[2246,2409,1183,1216]" degrees="107" minutes="51" pageId="157" pageNumber="918">107°51°'35E</geoCoordinate>
+<geoCoordinate box="[2246,2409,1183,1216]" degrees="107" direction="east" minutes="51" orientation="longitude" pageId="157" pageNumber="918" precision="15" seconds="35" value="107.85972">107°51 '35&quot;E</geoCoordinate>
 ), 
 <quantity box="[2438,2545,1183,1216]" metricMagnitude="0" metricUnit="m" metricValue="1.73" pageId="157" pageNumber="918" unit="m" value="1.73">1,730m</quantity>
 asl.”

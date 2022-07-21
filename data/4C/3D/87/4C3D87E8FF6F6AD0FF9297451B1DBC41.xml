@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="154" approvalRequired_for_illustrations="1" approvalRequired_for_matCits="100" approvalRequired_for_taxonomicNames="15" approvalRequired_for_textStreams="2" approvalRequired_for_treatments="36" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF6F6AD0FF9297451B1DBC41" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Murina fanjingshanensis He, Xiao &amp; Zhou 2015" docType="treatment" docVersion="6" lastPageNumber="909" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="909" updateTime="1653412976443" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF6F6AD0FF9297451B1DBC41" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Murina fanjingshanensis He, Xiao &amp; Zhou 2015" docType="treatment" docVersion="11" lastPageNumber="909" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="909" updateTime="1658433834459" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6397752</mods:identifier>
+<mods:identifier type="GBIF-Dataset">45351c32-25dd-422c-bdb2-00e73deb4943</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:4C3D87E8FF6F6AD0FF9297451B1DBC41" httpUri="http://treatment.plazi.org/id/4C3D87E8FF6F6AD0FF9297451B1DBC41" lastPageNumber="909" pageId="148" pageNumber="909">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6580650" ID-GBIF-Taxon="195628075" ID-Zenodo-Dep="6580650" LSID="urn:lsid:plazi:treatment:4C3D87E8FF6F6AD0FF9297451B1DBC41" httpUri="http://treatment.plazi.org/id/4C3D87E8FF6F6AD0FF9297451B1DBC41" lastPageNumber="909" pageId="148" pageNumber="909">
 <subSubSection box="[110,192,284,330]" pageId="148" pageNumber="909" type="multiple">
 <paragraph blockId="148.[108,1258,284,414]" box="[110,192,284,330]" pageId="148" pageNumber="909">
 <heading box="[110,192,284,330]" pageId="148" pageNumber="909">
@@ -88,21 +89,27 @@
 <paragraph blockId="148.[722,1314,458,881]" pageId="148" pageNumber="909">
 <emphasis bold="true" box="[722,875,458,487]" pageId="148" pageNumber="909">Taxonomy.</emphasis>
 <taxonomicName authorityName="Gray" authorityYear="1842" class="Mammalia" family="Vespertilionidae" genus="Murina" kingdom="Animalia" order="Chiroptera" pageId="148" pageNumber="909" phylum="Chordata" rank="species" species="fanjingshanensis">Murina fanjingshanensis He Fang, Xiao Ning &amp; ZhouJiang, 2015</taxonomicName>
-, 
-<materialsCitation pageId="148" pageNumber="909">
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="148" pageNumber="909" type="materials_examined">
+<paragraph blockId="148.[722,1314,458,881]" pageId="148" pageNumber="909">
+<materialsCitation ID-GBIF-Occurrence="3783319579" latitude="28.01938" longitude="108.760376" pageId="148" pageNumber="909">
 “in an abandoned gold mine of Luojiawan village, Wuluo town, Songtao County (
 <quantity box="[1148,1252,572,605]" metricMagnitude="3" metricUnit="m" metricValue="1.069" pageId="148" pageNumber="909" unit="m" value="1069.0">1069 m</quantity>
 , 
-<geoCoordinate degrees="28" direction="north" minutes="01" orientation="latitude" pageId="148" pageNumber="909" precision="1" seconds="09.77" value="28.01938">28° 01 ‘09.77 “N</geoCoordinate>
+<geoCoordinate degrees="28" direction="north" minutes="01" orientation="latitude" pageId="148" pageNumber="909" precision="1" seconds="09.77" value="28.01938">28° 01 '09.77 &quot;N</geoCoordinate>
 , 
-<geoCoordinate box="[916,1121,611,644]" degrees="108" minutes="45" pageId="148" pageNumber="909" seconds="37.34">108° 45’ 37.34</geoCoordinate>
-’E), located in the east of the FNNR in 
+<geoCoordinate box="[916,1148,611,644]" degrees="108" direction="east" minutes="45" orientation="longitude" pageId="148" pageNumber="909" precision="1" seconds="37.34" value="108.760376">108° 45' 37.34&quot;E</geoCoordinate>
+), located in the east of the FNNR in 
 <collectingRegion box="[1057,1307,659,684]" country="China" name="Guizhou" pageId="148" pageNumber="909">Guizhou Province</collectingRegion>
 , 
 <collectingCountry box="[724,808,690,723]" name="China" pageId="148" pageNumber="909">China</collectingCountry>
 .”
 </materialsCitation>
 </paragraph>
+</subSubSection>
+<subSubSection box="[724,1136,729,762]" pageId="148" pageNumber="909" type="discussion">
 <paragraph blockId="148.[722,1314,458,881]" box="[724,1136,729,762]" pageId="148" pageNumber="909">
 <collectingRegion box="[724,771,729,762]" country="South Sudan" name="Lakes" pageId="148" pageNumber="909">See</collectingRegion>
 M. 

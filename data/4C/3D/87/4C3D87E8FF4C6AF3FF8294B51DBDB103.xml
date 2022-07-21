@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="266" approvalRequired_for_illustrations="1" approvalRequired_for_matCits="100" approvalRequired_for_taxonomicNames="81" approvalRequired_for_textStreams="2" approvalRequired_for_treatments="82" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF4C6AF3FF8294B51DBDB103" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Myotis handleyi Moratelli 2013" docType="treatment" docVersion="5" lastPageNumber="945" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="945" updateTime="1653402593307" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF4C6AF3FF8294B51DBDB103" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Myotis handleyi Moratelli 2013" docType="treatment" docVersion="11" lastPageNumber="945" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="945" updateTime="1658433834459" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6397752</mods:identifier>
+<mods:identifier type="GBIF-Dataset">45351c32-25dd-422c-bdb2-00e73deb4943</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:4C3D87E8FF4C6AF3FF8294B51DBDB103" httpUri="http://treatment.plazi.org/id/4C3D87E8FF4C6AF3FF8294B51DBDB103" lastPageNumber="945" pageId="183" pageNumber="945">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6580709" ID-GBIF-Taxon="195628171" ID-Zenodo-Dep="6580709" LSID="urn:lsid:plazi:treatment:4C3D87E8FF4C6AF3FF8294B51DBDB103" httpUri="http://treatment.plazi.org/id/4C3D87E8FF4C6AF3FF8294B51DBDB103" lastPageNumber="945" pageId="183" pageNumber="945">
 <subSubSection box="[126,208,748,794]" pageId="183" pageNumber="945" type="multiple">
 <paragraph blockId="183.[124,1016,748,834]" box="[126,208,748,794]" pageId="183" pageNumber="945">
 <heading box="[126,208,748,794]" pageId="183" pageNumber="945">
@@ -82,8 +83,12 @@
 <paragraph blockId="183.[737,1330,879,1306]" pageId="183" pageNumber="945">
 <emphasis bold="true" box="[738,894,879,912]" pageId="183" pageNumber="945">Taxonomy.</emphasis>
 <taxonomicName authority="Moratelli et al., 2013" authorityName="Moratelli" authorityYear="2013" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="183" pageNumber="945" phylum="Chordata" rank="species" species="handleyi">Myotis handleyi Moratelli et al., 2013</taxonomicName>
-, 
-<materialsCitation pageId="183" pageNumber="945">
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="183" pageNumber="945" type="materials_examined">
+<paragraph blockId="183.[737,1330,879,1306]" pageId="183" pageNumber="945">
+<materialsCitation ID-GBIF-Occurrence="3783319524" latitude="10.33" longitude="-66.52" pageId="183" pageNumber="945">
 “Pico Avila, 
 <quantity box="[994,1063,923,952]" metricMagnitude="3" metricUnit="m" metricValue="5.0" pageId="183" pageNumber="945" unit="km" value="5.0">5 km</quantity>
 northeast of Caracas, ca. 
@@ -97,6 +102,8 @@ northeast of Caracas, ca.
 .”
 </materialsCitation>
 </paragraph>
+</subSubSection>
+<subSubSection pageId="183" pageNumber="945" type="discussion">
 <paragraph blockId="183.[737,1330,879,1306]" pageId="183" pageNumber="945">
 Subgenus Pizonyx; 
 <taxonomicName authorityName="E. Geoffroy Saint-Hilaire" authorityYear="1806" box="[1006,1117,1037,1070]" class="Mammalia" family="Vespertilionidae" genus="Vespertilio" kingdom="Animalia" order="Chiroptera" pageId="183" pageNumber="945" phylum="Chordata" rank="species" species="albescens">albescens</taxonomicName>
@@ -113,9 +120,7 @@ species group.
 N 
 <collectingCountry box="[976,1123,1119,1148]" name="Venezuela" pageId="183" pageNumber="945">Venezuela</collectingCountry>
 , known from Cordillera de la Costa (Distrito Federal, 
-<taxonomicName authorityName="Rindge" authorityYear="1983" box="[737,841,1194,1227]" class="Insecta" family="Geometridae" genus="Aragua" kingdom="Animalia" order="Lepidoptera" pageId="183" pageNumber="945" phylum="Arthropoda" rank="genus">
 <collectingRegion box="[737,841,1194,1227]" country="Venezuela" name="Aragua" pageId="183" pageNumber="945">Aragua</collectingRegion>
-</taxonomicName>
 , and 
 <collectingRegion box="[921,1041,1194,1227]" country="Venezuela" name="Miranda" pageId="183" pageNumber="945">Miranda</collectingRegion>
 ) and Macizo Oriental (
@@ -142,7 +147,7 @@ Head—body c¢.
 ; weight 3-5- 
 <quantity box="[769,818,1391,1424]" metricMagnitude="-3" metricUnit="kg" metricValue="6.0" pageId="183" pageNumber="945" unit="g" value="6.0">6 g</quantity>
 . Handley’s 
-<taxonomicName box="[986,1076,1391,1424]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="183" pageNumber="945" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[986,1076,1391,1424]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="183" pageNumber="945" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 varies geographically, and individuals from Macizo 
 <collectingRegion box="[609,727,1431,1464]" country="Saudi Arabia" name="Ash Sharqiyah" pageId="183" pageNumber="945">Oriental</collectingRegion>
 are generally smaller than those from 
@@ -154,7 +159,7 @@ de la
 by the Unare Depression, a gap of c. 
 <quantity box="[271,381,1510,1543]" metricMagnitude="5" metricUnit="m" metricValue="2.0" pageId="183" pageNumber="945" unit="km" value="200.0">200 km</quantity>
 of lowland dry forests. If Handley’s 
-<taxonomicName box="[906,996,1510,1543]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="183" pageNumber="945" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[906,996,1510,1543]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="183" pageNumber="945" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 proves to be restricted to upper elevations, these differences might be indicative of distinct subspecies. Fur is relatively long (dorsal fur 
 <quantity box="[524,640,1589,1622]" metricMagnitude="-3" metricUnit="m" metricValue="7.5" metricValueMax="9.0" metricValueMin="6.0" pageId="183" pageNumber="945" unit="mm" value="7.5" valueMax="9.0" valueMin="6.0">6-9 mm</quantity>
 ; ventral fur 
@@ -178,7 +183,7 @@ Montane humid forests at elevations of
 <paragraph blockId="183.[121,1332,1316,2609]" pageId="183" pageNumber="945">
 <emphasis bold="true" box="[123,391,2221,2254]" pageId="183" pageNumber="945">Food and Feeding.</emphasis>
 Handley’s 
-<taxonomicName box="[558,648,2221,2254]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="183" pageNumber="945" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[558,648,2221,2254]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="183" pageNumber="945" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 is an aerial insectivore that forages in forested habitats and over water.
 </paragraph>
 </subSubSection>
@@ -186,7 +191,7 @@ is an aerial insectivore that forages in forested habitats and over water.
 <paragraph blockId="183.[121,1332,1316,2609]" pageId="183" pageNumber="945">
 <emphasis bold="true" box="[123,257,2304,2333]" pageId="183" pageNumber="945">Breeding.</emphasis>
 One pregnant, nine lactating, and one post-lactating Handley’s 
-<taxonomicName box="[1164,1254,2304,2333]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="183" pageNumber="945" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[1164,1254,2304,2333]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="183" pageNumber="945" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 were caught in May.
 </paragraph>
 </subSubSection>
@@ -194,7 +199,7 @@ were caught in May.
 <paragraph blockId="183.[121,1332,1316,2609]" pageId="183" pageNumber="945">
 <emphasis bold="true" box="[121,356,2378,2411]" pageId="183" pageNumber="945">Activity patterns.</emphasis>
 Handley’s 
-<taxonomicName box="[513,603,2378,2411]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="183" pageNumber="945" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[513,603,2378,2411]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="183" pageNumber="945" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 emergesjust before sunset. Individuals were caught while emerging from crevices on an outside wall at the Rancho Grande Biological Station. Wing morphology is typical of aerial insectivore that uses cluttered spaces.
 </paragraph>
 </subSubSection>

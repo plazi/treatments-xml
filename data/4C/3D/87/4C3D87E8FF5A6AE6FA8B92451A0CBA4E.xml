@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="211" approvalRequired_for_illustrations="1" approvalRequired_for_matCits="100" approvalRequired_for_taxonomicNames="39" approvalRequired_for_textStreams="2" approvalRequired_for_treatments="69" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF5A6AE6FA8B92451A0CBA4E" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Submyotodon latirostris Kishida 1932" docType="treatment" docVersion="8" lastPageNumber="924" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="923" updateTime="1653409992966" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF5A6AE6FA8B92451A0CBA4E" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Submyotodon latirostris Kishida 1932" docType="treatment" docVersion="12" lastPageNumber="924" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="923" updateTime="1658433834459" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6397752</mods:identifier>
+<mods:identifier type="GBIF-Dataset">45351c32-25dd-422c-bdb2-00e73deb4943</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:4C3D87E8FF5A6AE6FA8B92451A0CBA4E" httpUri="http://treatment.plazi.org/id/4C3D87E8FF5A6AE6FA8B92451A0CBA4E" lastPageId="162" lastPageNumber="924" pageId="161" pageNumber="923">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6577850" ID-GBIF-Taxon="195628272" ID-Zenodo-Dep="6577850" LSID="urn:lsid:plazi:treatment:4C3D87E8FF5A6AE6FA8B92451A0CBA4E" httpUri="http://treatment.plazi.org/id/4C3D87E8FF5A6AE6FA8B92451A0CBA4E" lastPageId="162" lastPageNumber="924" pageId="161" pageNumber="923">
 <subSubSection box="[1399,1481,1052,1094]" pageId="161" pageNumber="923" type="multiple">
 <paragraph blockId="161.[1397,2541,1052,1173]" box="[1399,1481,1052,1094]" pageId="161" pageNumber="923">
 <heading box="[1399,1481,1052,1094]" pageId="161" pageNumber="923">
@@ -95,12 +96,16 @@ Broad-muzzled Myotis
 </heading>
 </paragraph>
 </subSubSection>
-<subSubSection pageId="161" pageNumber="923" type="reference_group">
-<paragraph blockId="161.[2010,2606,1217,1645]" pageId="161" pageNumber="923">
+<subSubSection box="[2010,2601,1217,1250]" pageId="161" pageNumber="923" type="reference_group">
+<paragraph blockId="161.[2010,2606,1217,1645]" box="[2010,2601,1217,1250]" pageId="161" pageNumber="923">
 <emphasis bold="true" box="[2010,2166,1217,1250]" pageId="161" pageNumber="923">Taxonomy.</emphasis>
 <taxonomicName authority="Kishida, 1932" authorityName="Kishida" authorityYear="1932" box="[2181,2596,1217,1250]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="161" pageNumber="923" phylum="Chordata" rank="species" species="latirostris">Myotis latirostris Kishida, 1932</taxonomicName>
-, 
-<materialsCitation box="[2011,2222,1261,1290]" pageId="161" pageNumber="923">
+,
+</paragraph>
+</subSubSection>
+<subSubSection box="[2011,2222,1261,1290]" pageId="161" pageNumber="923" type="materials_examined">
+<paragraph blockId="161.[2010,2606,1217,1645]" box="[2011,2222,1261,1290]" pageId="161" pageNumber="923">
+<materialsCitation ID-GBIF-Occurrence="3783319718" box="[2011,2222,1261,1290]" pageId="161" pageNumber="923">
 central 
 <collectingCountry box="[2118,2219,1261,1290]" name="Taiwan" pageId="161" pageNumber="923">Taiwan</collectingCountry>
 .

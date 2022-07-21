@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="320" approvalRequired_for_illustrations="1" approvalRequired_for_matCits="100" approvalRequired_for_taxonomicNames="124" approvalRequired_for_textStreams="2" approvalRequired_for_treatments="93" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF716ACEFF4D9EF3167BBA8C" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Kerivoula dongduongana Tu et al. 2018" docType="treatment" docVersion="7" lastPageNumber="898" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="898" updateTime="1653396323223" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF716ACEFF4D9EF3167BBA8C" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Kerivoula dongduongana Tu et al. 2018" docType="treatment" docVersion="12" lastPageNumber="898" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="898" updateTime="1658433834459" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6397752</mods:identifier>
+<mods:identifier type="GBIF-Dataset">45351c32-25dd-422c-bdb2-00e73deb4943</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:4C3D87E8FF716ACEFF4D9EF3167BBA8C" httpUri="http://treatment.plazi.org/id/4C3D87E8FF716ACEFF4D9EF3167BBA8C" lastPageNumber="898" pageId="138" pageNumber="898">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6580634" ID-GBIF-Taxon="195628332" ID-Zenodo-Dep="6580634" LSID="urn:lsid:plazi:treatment:4C3D87E8FF716ACEFF4D9EF3167BBA8C" httpUri="http://treatment.plazi.org/id/4C3D87E8FF716ACEFF4D9EF3167BBA8C" lastPageNumber="898" pageId="138" pageNumber="898">
 <subSubSection box="[177,258,2218,2264]" pageId="138" pageNumber="898" type="multiple">
 <paragraph blockId="138.[174,1307,2218,2344]" box="[177,258,2218,2264]" pageId="138" pageNumber="898">
 <heading box="[177,258,2218,2264]" pageId="138" pageNumber="898">
@@ -88,8 +89,12 @@
 <paragraph blockId="138.[789,1382,2391,2816]" pageId="138" pageNumber="898">
 <emphasis bold="true" box="[789,942,2391,2420]" pageId="138" pageNumber="898">Taxonomy.</emphasis>
 <taxonomicName authorityName="Tu et al." authorityYear="2018" class="Mammalia" family="Vespertilionidae" genus="Kerivoula" kingdom="Animalia" order="Chiroptera" pageId="138" pageNumber="898" phylum="Chordata" rank="species" species="dongduongana">Kerivoula dongduongana Tu et al, 2018</taxonomicName>
-, 
-<materialsCitation pageId="138" pageNumber="898">
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="138" pageNumber="898" type="materials_examined">
+<paragraph blockId="138.[789,1382,2391,2816]" pageId="138" pageNumber="898">
+<materialsCitation ID-GBIF-Occurrence="3783319723" latitude="15.079433" longitude="49.853" pageId="138" pageNumber="898">
 “Ngoc Linh Nature Reserve, 
 <collectingRegion box="[791,1057,2470,2499]" country="Vietnam" name="Kon Tum" pageId="138" pageNumber="898">Kon Tum province</collectingRegion>
 , 
@@ -104,14 +109,18 @@
 </materialsCitation>
 </paragraph>
 </subSubSection>
-<subSubSection pageId="138" pageNumber="898" type="multiple">
-<caption ID-DOI="http://doi.org/10.5281/zenodo.6398454" ID-Zenodo-Dep="6398454" httpUri="https://zenodo.org/record/6398454/files/figure.png" inLine="true" pageId="138" pageNumber="898" targetBox="[174,766,2396,2811]" targetPageId="138">
+<subSubSection pageId="138" pageNumber="898" type="discussion">
 <paragraph blockId="138.[789,1382,2391,2816]" pageId="138" pageNumber="898">
 See 
 <taxonomicName authorityName="Horsfield" authorityYear="1824" box="[846,1014,2545,2578]" class="Mammalia" family="Vespertilionidae" genus="Vespertilio" kingdom="Animalia" order="Chiroptera" pageId="138" pageNumber="898" phylum="Chordata" rank="species" species="hardwickii">K. hardwickii</taxonomicName>
 . Currently known distribution of K. dongduongana only incorporates the Annamite Mountains, but it might extend into northern 
 <collectingCountry box="[1060,1187,2664,2697]" name="Thailand" pageId="138" pageNumber="898">Thailand</collectingCountry>
-. Monotypic. 
+. Monotypic.
+</paragraph>
+</subSubSection>
+<subSubSection pageId="138" pageNumber="898" type="distribution">
+<caption ID-DOI="http://doi.org/10.5281/zenodo.6398454" ID-Zenodo-Dep="6398454" httpUri="https://zenodo.org/record/6398454/files/figure.png" inLine="true" pageId="138" pageNumber="898" startId="138.[790,962,2704,2737]" targetBox="[174,766,2396,2811]" targetPageId="138">
+<paragraph blockId="138.[789,1382,2391,2816]" pageId="138" pageNumber="898">
 <emphasis bold="true" box="[790,966,2704,2737]" pageId="138" pageNumber="898">Distribution.</emphasis>
 Annamite Mts of E 
 <collectingCountry box="[1261,1327,2704,2737]" name="Laos" pageId="138" pageNumber="898">Laos</collectingCountry>
