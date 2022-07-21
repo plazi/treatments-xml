@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="1530" approvalRequired_for_illustrations="1" approvalRequired_for_matCits="143" approvalRequired_for_taxonomicNames="590" approvalRequired_for_textStreams="13" approvalRequired_for_treatments="783" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF936A2CFF499EE51401BFA9" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Barbastella pacifica Kruskop, Kawai &amp; Tiunov 2019" docType="treatment" docVersion="5" lastPageNumber="862" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="862" updateTime="1652885602625" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF936A2CFF499EE51401BFA9" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Barbastella pacifica Kruskop, Kawai &amp; Tiunov 2019" docType="treatment" docVersion="9" lastPageNumber="862" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="862" updateTime="1658428096407" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6397752</mods:identifier>
+<mods:identifier type="GBIF-Dataset">45351c32-25dd-422c-bdb2-00e73deb4943</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6403594" ID-Zenodo-Dep="6403594" LSID="urn:lsid:plazi:treatment:4C3D87E8FF936A2CFF499EE51401BFA9" httpUri="http://treatment.plazi.org/id/4C3D87E8FF936A2CFF499EE51401BFA9" lastPageNumber="862" pageId="104" pageNumber="862">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6403594" ID-GBIF-Taxon="195628236" ID-Zenodo-Dep="6403594" LSID="urn:lsid:plazi:treatment:4C3D87E8FF936A2CFF499EE51401BFA9" httpUri="http://treatment.plazi.org/id/4C3D87E8FF936A2CFF499EE51401BFA9" lastPageNumber="862" pageId="104" pageNumber="862">
 <subSubSection box="[181,263,2236,2286]" pageId="104" pageNumber="862" type="multiple">
 <paragraph blockId="104.[178,1152,2236,2327]" box="[181,263,2236,2286]" pageId="104" pageNumber="862">
 <heading box="[181,263,2236,2286]" pageId="104" pageNumber="862">
@@ -87,11 +88,13 @@ de
 <paragraph blockId="104.[793,1383,2374,2798]" pageId="104" pageNumber="862">
 <emphasis bold="true" box="[793,948,2374,2403]" pageId="104" pageNumber="862">Taxonomy.</emphasis>
 <taxonomicName authority="Kruskop, Kawai &amp; Tiunov, 2019" authorityName="Kruskop, Kawai &amp; Tiunov" authorityYear="2019" class="Mammalia" family="Vespertilionidae" genus="Barbastella" kingdom="Animalia" order="Chiroptera" pageId="104" pageNumber="862" phylum="Chordata" rank="species" species="pacifica">Barbastella pacifica Kruskop, Kawai &amp; Tiunov, 2019</taxonomicName>
-, 
-<materialsCitation pageId="104" pageNumber="862">
-“Kunashir (Kunashiri) 
-<collectingCountry box="[879,965,2453,2482]" name="Iceland" pageId="104" pageNumber="862">Island</collectingCountry>
-, Filatova (Ruyabetsu) stream, ca. 
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="104" pageNumber="862" type="materials_examined">
+<paragraph blockId="104.[793,1383,2374,2798]" pageId="104" pageNumber="862">
+<materialsCitation ID-GBIF-Occurrence="3783319680" pageId="104" pageNumber="862">
+“Kunashir (Kunashiri) Island, Filatova (Ruyabetsu) stream, ca. 
 <quantity box="[849,922,2493,2522]" metricMagnitude="3" metricUnit="m" metricValue="1.0" pageId="104" pageNumber="862" unit="km" value="1.0">1 km</quantity>
 from the mouth (Selezneva &amp; Tiunov 2007); N 44.190°, E 146.023°.”
 </materialsCitation>

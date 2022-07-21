@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="403" approvalRequired_for_illustrations="1" approvalRequired_for_matCits="105" approvalRequired_for_taxonomicNames="182" approvalRequired_for_treatments="115" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF906A28FA8991521D23BFF2" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Plecotus gaisleri Benda, Kiefer, Hanak &amp; Veith 2004" docType="treatment" docVersion="6" lastPageNumber="866" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="865" updateTime="1653058883169" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF906A28FA8991521D23BFF2" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Plecotus gaisleri Benda, Kiefer, Hanak &amp; Veith 2004" docType="treatment" docVersion="11" lastPageNumber="866" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="865" updateTime="1658428096407" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6397752</mods:identifier>
+<mods:identifier type="GBIF-Dataset">45351c32-25dd-422c-bdb2-00e73deb4943</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:4C3D87E8FF906A28FA8991521D23BFF2" httpUri="http://treatment.plazi.org/id/4C3D87E8FF906A28FA8991521D23BFF2" lastPageId="108" lastPageNumber="866" pageId="107" pageNumber="865">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6580610" ID-GBIF-Taxon="195628534" ID-Zenodo-Dep="6580610" LSID="urn:lsid:plazi:treatment:4C3D87E8FF906A28FA8991521D23BFF2" httpUri="http://treatment.plazi.org/id/4C3D87E8FF906A28FA8991521D23BFF2" lastPageId="108" lastPageNumber="866" pageId="107" pageNumber="865">
 <subSubSection box="[1397,1479,1803,1849]" pageId="107" pageNumber="865" type="multiple">
 <paragraph blockId="107.[1395,2353,1803,1931]" box="[1397,1479,1803,1849]" pageId="107" pageNumber="865">
 <heading box="[1397,1479,1803,1849]" pageId="107" pageNumber="865">
@@ -88,8 +89,12 @@
 <paragraph blockId="107.[2006,2603,1973,2400]" pageId="107" pageNumber="865">
 <emphasis bold="true" box="[2008,2163,1973,2006]" pageId="107" pageNumber="865">Taxonomy.</emphasis>
 <taxonomicName authorityName="Barrett-Hamilton" authorityYear="1907" class="Mammalia" family="Vespertilionidae" genus="Plecotus" kingdom="Animalia" order="Chiroptera" pageId="107" pageNumber="865" phylum="Chordata" rank="species" species="teneriffae">Plecotus teneriffae gaisleri Benda et al., 2004</taxonomicName>
-, 
-<materialsCitation pageId="107" pageNumber="865">
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="107" pageNumber="865" type="materials_examined">
+<paragraph blockId="107.[2006,2603,1973,2400]" pageId="107" pageNumber="865">
+<materialsCitation ID-GBIF-Occurrence="3783319428" latitude="32.7" longitude="21.583334" pageId="107" pageNumber="865">
 “Central part of the Wadi Al Kuf (Jabal Akhdar Mts), ca. 
 <quantity box="[2426,2499,2052,2085]" metricMagnitude="3" metricUnit="m" metricValue="8.0" pageId="107" pageNumber="865" unit="km" value="8.0">8 km</quantity>
 southwest of Massah, 
@@ -97,17 +102,16 @@ southwest of Massah,
 , Cyrenaica, north-eastern 
 <collectingCountry box="[2378,2455,2135,2164]" name="Libya" pageId="107" pageNumber="865">Libya</collectingCountry>
 , 
-<geoCoordinate box="[2479,2592,2135,2164]" degrees="32" direction="north" minutes="42" orientation="latitude" pageId="107" pageNumber="865" precision="925" value="32.7">32°42’N</geoCoordinate>
+<geoCoordinate box="[2479,2592,2135,2164]" degrees="32" direction="north" minutes="42" orientation="latitude" pageId="107" pageNumber="865" precision="925" value="32.7">32°42'N</geoCoordinate>
 , 
-<geoCoordinate box="[2009,2094,2171,2204]" degrees="21" minutes="85" pageId="107" pageNumber="865">21°85</geoCoordinate>
-Vr ca. 
+<geoCoordinate box="[2009,2123,2171,2204]" degrees="21" direction="east" minutes="35" orientation="longitude" pageId="107" pageNumber="865" precision="925" value="21.583334">21°35'E</geoCoordinate>
+ca. 
 <quantity box="[2182,2266,2171,2204]" metricMagnitude="2" metricUnit="m" metricValue="3.3" pageId="107" pageNumber="865" unit="m" value="330.0">330m</quantity>
-a. 8. 1.”
+a. s. 1.”
 </materialsCitation>
 </paragraph>
 </subSubSection>
-<subSubSection pageId="107" pageNumber="865" type="multiple">
-<caption ID-DOI="http://doi.org/10.5281/zenodo.6398289" ID-Zenodo-Dep="6398289" httpUri="https://zenodo.org/record/6398289/files/figure.png" inLine="true" pageId="107" pageNumber="865" targetBox="[1393,1984,1985,2399]" targetPageId="107">
+<subSubSection pageId="107" pageNumber="865" type="distribution">
 <paragraph blockId="107.[2006,2603,1973,2400]" lastBlockId="107.[1391,2601,2406,3187]" pageId="107" pageNumber="865">
 Previously treated within P aurtus, then 
 <taxonomicName authorityName="J. B. Fischer" authorityYear="1829" box="[2008,2175,2257,2282]" class="Mammalia" family="Vespertilionidae" genus="Vespertilio" kingdom="Animalia" order="Chiroptera" pageId="107" pageNumber="865" phylum="Chordata" rank="species" species="austriacus">P. austriacus</taxonomicName>
@@ -118,6 +122,7 @@ Previously treated within P aurtus, then
 , with Maghreb populations tentatively included; but genetic evidence showed bats from these two regions to be distinct from each other. They were subsequently placed in 
 <taxonomicName box="[1956,2156,2446,2479]" class="Mammalia" family="Vespertilionidae" genus="Plecotus" kingdom="Animalia" order="Chiroptera" pageId="107" pageNumber="865" phylum="Chordata" rank="species" species="kolombatovici">P. kolombatovici</taxonomicName>
 as two races (one undescribed), but were later separated as P. gaisleri. Maghreb population appears to be taxonomically distinct, but has yet to be formally separated and described. Treated as monotypic. 
+<caption ID-DOI="http://doi.org/10.5281/zenodo.6398289" ID-Zenodo-Dep="6398289" box="[1394,2550,2572,2597]" httpUri="https://zenodo.org/record/6398289/files/figure.png" inLine="true" pageId="107" pageNumber="865" startId="107.[1394,1566,2572,2597]" targetBox="[1393,1984,1985,2399]" targetPageId="107">
 <emphasis bold="true" box="[1394,1570,2572,2597]" pageId="107" pageNumber="865">Distribution.</emphasis>
 <collectingCountry box="[1581,1706,2572,2597]" name="Morocco" pageId="107" pageNumber="865">Morocco</collectingCountry>
 E to N 
@@ -125,8 +130,8 @@ E to N
 , in Mediterranean zone; also tentatively 
 <collectingCountry box="[2466,2546,2572,2597]" name="Malta" pageId="107" pageNumber="865">Malta</collectingCountry>
 .
-</paragraph>
 </caption>
+</paragraph>
 </subSubSection>
 <subSubSection pageId="107" pageNumber="865" type="description">
 <paragraph blockId="107.[1391,2601,2406,3187]" pageId="107" pageNumber="865">

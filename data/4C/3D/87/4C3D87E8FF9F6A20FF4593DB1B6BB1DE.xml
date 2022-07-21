@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="1530" approvalRequired_for_illustrations="1" approvalRequired_for_matCits="143" approvalRequired_for_taxonomicNames="590" approvalRequired_for_textStreams="13" approvalRequired_for_treatments="783" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF9F6A20FF4593DB1B6BB1DE" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Rhogeessa velilla Thomas 1903" docType="treatment" docVersion="5" lastPageNumber="858" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="858" updateTime="1652885602625" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF9F6A20FF4593DB1B6BB1DE" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Rhogeessa velilla Thomas 1903" docType="treatment" docVersion="9" lastPageNumber="858" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="858" updateTime="1658428096407" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6397752</mods:identifier>
+<mods:identifier type="GBIF-Dataset">45351c32-25dd-422c-bdb2-00e73deb4943</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:4C3D87E8FF9F6A20FF4593DB1B6BB1DE" httpUri="http://treatment.plazi.org/id/4C3D87E8FF9F6A20FF4593DB1B6BB1DE" lastPageNumber="858" pageId="100" pageNumber="858">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6560794" ID-GBIF-Taxon="195628381" ID-Zenodo-Dep="6560794" LSID="urn:lsid:plazi:treatment:4C3D87E8FF9F6A20FF4593DB1B6BB1DE" httpUri="http://treatment.plazi.org/id/4C3D87E8FF9F6A20FF4593DB1B6BB1DE" lastPageNumber="858" pageId="100" pageNumber="858">
 <subSubSection box="[185,267,1410,1456]" pageId="100" pageNumber="858" type="multiple">
 <paragraph blockId="100.[182,1237,1410,1534]" box="[185,267,1410,1456]" pageId="100" pageNumber="858">
 <heading box="[185,267,1410,1456]" pageId="100" pageNumber="858">
@@ -86,12 +87,16 @@ de
 </heading>
 </paragraph>
 </subSubSection>
-<subSubSection pageId="100" pageNumber="858" type="reference_group">
-<paragraph blockId="100.[795,1388,1587,2006]" pageId="100" pageNumber="858">
+<subSubSection box="[796,1386,1587,1612]" pageId="100" pageNumber="858" type="reference_group">
+<paragraph blockId="100.[795,1388,1587,2006]" box="[796,1386,1587,1612]" pageId="100" pageNumber="858">
 <emphasis bold="true" box="[796,951,1587,1612]" pageId="100" pageNumber="858">Taxonomy.</emphasis>
 <taxonomicName authority="Thomas, 1903" authorityName="Thomas" authorityYear="1903" box="[963,1381,1587,1612]" class="Mammalia" family="Vespertilionidae" genus="Rhogeessa" kingdom="Animalia" order="Chiroptera" pageId="100" pageNumber="858" phylum="Chordata" rank="species" species="velilla">Rhogeessa velilla Thomas, 1903</taxonomicName>
-, 
-<materialsCitation pageId="100" pageNumber="858">
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="100" pageNumber="858" type="materials_examined">
+<paragraph blockId="100.[795,1388,1587,2006]" pageId="100" pageNumber="858">
+<materialsCitation ID-GBIF-Occurrence="3783319736" pageId="100" pageNumber="858">
 “Puna, Puna Island, Gulf of Guayaquil, 
 <collectingCountry name="Ecuador" pageId="100" pageNumber="858">Ecuador</collectingCountry>
 .”

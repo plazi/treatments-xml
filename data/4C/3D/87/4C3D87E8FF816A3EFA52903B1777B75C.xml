@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="39" approvalRequired_for_matCits="1" approvalRequired_for_taxonomicNames="9" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF816A3EFA52903B1777B75C" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Lasiurus degelidus G. S. Miller 1931" docType="treatment" docVersion="6" lastPageNumber="880" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="880" updateTime="1653491089352" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF816A3EFA52903B1777B75C" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Lasiurus degelidus G. S. Miller 1931" docType="treatment" docVersion="8" lastPageNumber="880" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="880" updateTime="1658428096407" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -41,7 +41,7 @@
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:4C3D87E8FF816A3EFA52903B1777B75C" httpUri="http://treatment.plazi.org/id/4C3D87E8FF816A3EFA52903B1777B75C" lastPageNumber="880" pageId="122" pageNumber="880">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6581338" ID-GBIF-Taxon="195628023" ID-Zenodo-Dep="6581338" LSID="urn:lsid:plazi:treatment:4C3D87E8FF816A3EFA52903B1777B75C" httpUri="http://treatment.plazi.org/id/4C3D87E8FF816A3EFA52903B1777B75C" lastPageNumber="880" pageId="122" pageNumber="880">
 <subSubSection box="[1454,1537,1634,1684]" pageId="122" pageNumber="880" type="multiple">
 <paragraph blockId="122.[1452,2511,1634,1727]" box="[1454,1537,1634,1684]" pageId="122" pageNumber="880">
 <heading box="[1454,1537,1634,1684]" pageId="122" pageNumber="880">
@@ -88,15 +88,19 @@ de
 <paragraph blockId="122.[2065,2659,1767,2196]" pageId="122" pageNumber="880">
 <emphasis bold="true" box="[2065,2220,1767,1800]" pageId="122" pageNumber="880">Taxonomy.</emphasis>
 <taxonomicName authority="G. S. Miller, 1931" authorityName="G. S. Miller" authorityYear="1931" class="Liliopsida" family="Poaceae" genus="Lasiurus" kingdom="Plantae" order="Poales" pageId="122" pageNumber="880" phylum="Tracheophyta" rank="species" species="degelidus">Lasiurus degelidus G. S. Miller, 1931</taxonomicName>
-, 
-<materialsCitation box="[2150,2642,1808,1841]" pageId="122" pageNumber="880">
+,
+</paragraph>
+</subSubSection>
+<subSubSection box="[2150,2642,1808,1841]" pageId="122" pageNumber="880" type="materials_examined">
+<paragraph blockId="122.[2065,2659,1767,2196]" box="[2150,2642,1808,1841]" pageId="122" pageNumber="880">
+<materialsCitation ID-GBIF-Occurrence="3783319674" box="[2150,2642,1808,1841]" pageId="122" pageNumber="880">
 “Sutton’s District of Vere, 
 <collectingCountry box="[2508,2624,1808,1841]" name="Jamaica" pageId="122" pageNumber="880">Jamaica</collectingCountry>
 .”
 </materialsCitation>
 </paragraph>
 </subSubSection>
-<subSubSection pageId="122" pageNumber="880" type="distribution">
+<subSubSection pageId="122" pageNumber="880" type="discussion">
 <paragraph blockId="122.[2065,2659,1767,2196]" pageId="122" pageNumber="880">
 <collectingRegion box="[2066,2113,1847,1880]" country="South Sudan" name="Lakes" pageId="122" pageNumber="880">See</collectingRegion>
 <taxonomicName baseAuthorityName="Peters" baseAuthorityYear="1870" box="[2125,2263,1847,1880]" class="Liliopsida" family="Poaceae" genus="Lasiurus" kingdom="Plantae" order="Poales" pageId="122" pageNumber="880" phylum="Tracheophyta" rank="species" species="egregius">L. egregius</taxonomicName>

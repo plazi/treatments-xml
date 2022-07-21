@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="347" approvalRequired_for_illustrations="1" approvalRequired_for_matCits="100" approvalRequired_for_taxonomicNames="143" approvalRequired_for_textStreams="2" approvalRequired_for_treatments="101" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF936A2CFA4C92B81462B74B" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Barbastella beijingensis Zhang Jinshuo 2007" docType="treatment" docVersion="6" lastPageNumber="862" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="862" updateTime="1653076796268" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF936A2CFA4C92B81462B74B" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Barbastella beijingensis Zhang Jinshuo 2007" docType="treatment" docVersion="12" lastPageNumber="862" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="862" updateTime="1658428096407" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6397752</mods:identifier>
+<mods:identifier type="GBIF-Dataset">45351c32-25dd-422c-bdb2-00e73deb4943</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:4C3D87E8FF936A2CFA4C92B81462B74B" httpUri="http://treatment.plazi.org/id/4C3D87E8FF936A2CFA4C92B81462B74B" lastPageNumber="862" pageId="104" pageNumber="862">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6580606" ID-GBIF-Taxon="195628237" ID-Zenodo-Dep="6580606" LSID="urn:lsid:plazi:treatment:4C3D87E8FF936A2CFA4C92B81462B74B" httpUri="http://treatment.plazi.org/id/4C3D87E8FF936A2CFA4C92B81462B74B" lastPageNumber="862" pageId="104" pageNumber="862">
 <subSubSection box="[1456,1538,1249,1299]" pageId="104" pageNumber="862" type="multiple">
 <paragraph blockId="104.[1453,2438,1249,1380]" box="[1456,1538,1249,1299]" pageId="104" pageNumber="862">
 <heading box="[1456,1538,1249,1299]" pageId="104" pageNumber="862">
@@ -99,8 +100,12 @@ de
 <paragraph blockId="104.[2062,2660,1427,1850]" pageId="104" pageNumber="862">
 <emphasis bold="true" box="[2067,2223,1427,1456]" pageId="104" pageNumber="862">Taxonomy.</emphasis>
 <taxonomicName authority="Zhang Jinshuo et al., 2007" authorityName="Zhang Jinshuo" authorityYear="2007" class="Mammalia" family="Vespertilionidae" genus="Barbastella" kingdom="Animalia" order="Chiroptera" pageId="104" pageNumber="862" phylum="Chordata" rank="species" species="beijingensis">Barbastella beijingensis Zhang Jinshuo et al., 2007</taxonomicName>
-, 
-<materialsCitation pageId="104" pageNumber="862">
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="104" pageNumber="862" type="materials_examined">
+<paragraph blockId="104.[2062,2660,1427,1850]" pageId="104" pageNumber="862">
+<materialsCitation ID-GBIF-Occurrence="3783319767" latitude="30.716667" longitude="115.75" pageId="104" pageNumber="862">
 “Darwin Bat Research and Conservation Center at San-Liu-Shui Village, Fangshan District, Southwest ern 
 <collectingRegion box="[2133,2234,1581,1614]" country="China" name="Beijing" pageId="104" pageNumber="862">Beijing</collectingRegion>
 , 
@@ -112,6 +117,8 @@ de
 ), 407.8 m above sea level.”
 </materialsCitation>
 </paragraph>
+</subSubSection>
+<subSubSection box="[2067,2430,1664,1693]" pageId="104" pageNumber="862" type="discussion">
 <paragraph blockId="104.[2062,2660,1427,1850]" box="[2067,2430,1664,1693]" pageId="104" pageNumber="862">This species is monotypic.</paragraph>
 </subSubSection>
 <subSubSection pageId="104" pageNumber="862" type="distribution">
@@ -186,11 +193,11 @@ high). Echolocation seems to be similar to that of the Western Barbastelle, alth
 <paragraph blockId="104.[1453,2661,1857,3193]" pageId="104" pageNumber="862">
 <emphasis bold="true" box="[1455,2155,2883,2916]" pageId="104" pageNumber="862">Movements, Home range and Social organization.</emphasis>
 The species sharesits roosting cave with the Greater Japanese Horseshoe Bat (Rhinolophus nippon), Rickett’s Big-footed 
-<taxonomicName box="[1456,1545,2966,2995]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="104" pageNumber="862" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[1456,1545,2966,2995]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="104" pageNumber="862" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 (
 <taxonomicName baseAuthorityName="Peters" baseAuthorityYear="1869" box="[1568,1757,2966,2995]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="104" pageNumber="862" phylum="Chordata" rank="species" species="pilosus">Myotis pilosus</taxonomicName>
 ), Lesser 
-<taxonomicName box="[1882,1972,2966,2995]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="104" pageNumber="862" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[1882,1972,2966,2995]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="104" pageNumber="862" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 (
 <taxonomicName baseAuthorityName="Tomes" baseAuthorityYear="1857" box="[1996,2130,2966,2995]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="104" pageNumber="978" phylum="Chordata" rank="species" species="blythii">M. blythii</taxonomicName>
 ), and an unidentified tube-nosed bat (Murinasp.).

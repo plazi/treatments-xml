@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="231" approvalRequired_for_illustrations="1" approvalRequired_for_matCits="100" approvalRequired_for_taxonomicNames="57" approvalRequired_for_textStreams="2" approvalRequired_for_treatments="71" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF816A3FFA539AE51C72B13B" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Lasiurus xanthinus Thomas 1897" docType="treatment" docVersion="6" lastPageNumber="881" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="880" updateTime="1653404785018" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF816A3FFA539AE51C72B13B" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Lasiurus xanthinus Thomas 1897" docType="treatment" docVersion="10" lastPageNumber="881" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="880" updateTime="1658428096407" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6397752</mods:identifier>
+<mods:identifier type="GBIF-Dataset">45351c32-25dd-422c-bdb2-00e73deb4943</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:4C3D87E8FF816A3FFA539AE51C72B13B" httpUri="http://treatment.plazi.org/id/4C3D87E8FF816A3FFA539AE51C72B13B" lastPageId="123" lastPageNumber="881" pageId="122" pageNumber="880">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6577451" ID-GBIF-Taxon="195628026" ID-Zenodo-Dep="6577451" LSID="urn:lsid:plazi:treatment:4C3D87E8FF816A3FFA539AE51C72B13B" httpUri="http://treatment.plazi.org/id/4C3D87E8FF816A3FFA539AE51C72B13B" lastPageId="123" lastPageNumber="881" pageId="122" pageNumber="880">
 <subSubSection box="[1455,1536,3260,3302]" pageId="122" pageNumber="880" type="multiple">
 <paragraph blockId="122.[1452,2535,3260,3346]" box="[1455,1536,3260,3302]" pageId="122" pageNumber="880">
 <heading box="[1455,1536,3260,3302]" pageId="122" pageNumber="880">
@@ -83,12 +84,16 @@ de
 </heading>
 </paragraph>
 </subSubSection>
-<subSubSection lastPageId="123" lastPageNumber="881" pageId="122" pageNumber="880" type="reference_group">
-<paragraph blockId="122.[1451,2656,3385,3467]" pageId="122" pageNumber="880">
+<subSubSection box="[1452,2170,3385,3418]" pageId="122" pageNumber="880" type="reference_group">
+<paragraph blockId="122.[1451,2656,3385,3467]" box="[1452,2170,3385,3418]" pageId="122" pageNumber="880">
 <emphasis bold="true" box="[1452,1607,3385,3418]" pageId="122" pageNumber="880">Taxonomy.</emphasis>
 <taxonomicName authority="Thomas, 1897" authorityName="Thomas" authorityYear="1897" box="[1621,2166,3385,3418]" class="Liliopsida" family="Poaceae" genus="Dasypterus" kingdom="Plantae" order="Poales" pageId="122" pageNumber="880" phylum="Tracheophyta" rank="subSpecies" species="ega" subSpecies="xanthinus">Dasypterus ega xanthinus Thomas, 1897</taxonomicName>
-, 
-<materialsCitation pageId="122" pageNumber="880">
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="122" pageNumber="880" type="materials_examined">
+<paragraph blockId="122.[1451,2656,3385,3467]" pageId="122" pageNumber="880">
+<materialsCitation ID-GBIF-Occurrence="3783319430" pageId="122" pageNumber="880">
 “Sierra Laguna, Lower California [= 
 <collectingRegion box="[1493,1712,3429,3458]" country="Mexico" name="Baja California" pageId="122" pageNumber="880">Baja California</collectingRegion>
 ],” 
@@ -96,6 +101,8 @@ de
 .
 </materialsCitation>
 </paragraph>
+</subSubSection>
+<subSubSection pageId="123" pageNumber="881" type="discussion">
 <paragraph blockId="123.[737,1329,289,716]" pageId="123" pageNumber="881">
 <taxonomicName authorityName="Thomas" authorityYear="1897" box="[739,998,289,322]" class="Liliopsida" family="Poaceae" genus="Lasiurus" kingdom="Plantae" order="Poales" pageId="123" pageNumber="881" phylum="Tracheophyta" rank="species" species="xanthinus">Lasiurus xanthinus</taxonomicName>
 was previously considered a subspecies of 
