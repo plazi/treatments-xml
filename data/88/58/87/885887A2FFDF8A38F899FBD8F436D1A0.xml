@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.3748525" ID-GBIF-Dataset="6384b520-7e9f-4874-a414-76c2e9b01d74" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="3748525" approvalRequired="43" approvalRequired_for_bibRefs="1" approvalRequired_for_matCits="4" approvalRequired_for_taxonomicNames="14" approvalRequired_for_textStreams="20" approvalRequired_for_treatments="4" checkinTime="1586358796837" checkinUser="plazi" docAuthor="Burgin, Connor" docDate="2019" docId="885887A2FFDF8A38F899FBD8F436D1A0" docLanguage="en" docName="hbmw_9_Rhinolophidae.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Lynx Edicions" docStyle="DocumentStyle{}" docTitle="Rhinolophus ferrumequinum Schreber 1774" docType="treatment" docVersion="19" lastPageNumber="296" masterDocId="7461FFDAFFCF8A29FFCCFFA1FF85D963" masterDocTitle="Family Rhinolophidae (Horseshoe Bats)" masterLastPageNumber="332" masterPageNumber="280" pageNumber="295" updateTime="1657817821357" updateUser="valdenar">
+<document ID-DOI="http://doi.org/10.5281/zenodo.3748525" ID-GBIF-Dataset="6384b520-7e9f-4874-a414-76c2e9b01d74" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="3748525" approvalRequired="3" approvalRequired_for_treatments="3" checkinTime="1586358796837" checkinUser="plazi" docAuthor="Burgin, Connor" docDate="2019" docId="885887A2FFDF8A38F899FBD8F436D1A0" docLanguage="en" docName="hbmw_9_Rhinolophidae.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Lynx Edicions" docStyle="DocumentStyle{}" docTitle="Rhinolophus ferrumequinum Schreber 1774" docType="treatment" docVersion="20" lastPageNumber="296" masterDocId="7461FFDAFFCF8A29FFCCFFA1FF85D963" masterDocTitle="Family Rhinolophidae (Horseshoe Bats)" masterLastPageNumber="332" masterPageNumber="280" pageNumber="295" updateTime="1658426444876" updateUser="valdenar">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Family Rhinolophidae (Horseshoe Bats)</mods:title>
@@ -54,7 +54,7 @@
 </subSubSection>
 <subSubSection box="[2687,3421,1145,1206]" pageId="16" pageNumber="295" type="nomenclature">
 <paragraph blockId="16.[1877,3421,1145,1206]" box="[2687,3421,1145,1206]" pageId="16" pageNumber="295">
-<taxonomicName authorityName="Schreber" authorityYear="1774" box="[2687,3421,1145,1206]" class="Mammalia" family="Rhinolophidae" genus="Rhinolophus" kingdom="Animalia" order="Chiroptera" pageId="16" pageNumber="295" phylum="Chordata" rank="species" species="ferrumequinum">
+<taxonomicName authority="(Schreber, 1774)" authorityName="Schreber" authorityYear="1774" box="[2687,3421,1145,1206]" class="Mammalia" family="Rhinolophidae" genus="Rhinolophus" kingdom="Animalia" order="Chiroptera" pageId="16" pageNumber="295" phylum="Chordata" rank="species" species="ferrumequinum">
 <emphasis box="[2687,3421,1145,1206]" italics="true" pageId="16" pageNumber="295">Rhinolophus ferrumequinum</emphasis>
 </taxonomicName>
 </paragraph>
@@ -86,8 +86,15 @@ Larger Horseshoe Bat
 <subSubSection pageId="16" pageNumber="295" type="reference_group">
 <paragraph blockId="16.[2688,3494,1374,1941]" pageId="16" pageNumber="295">
 Taxonomy. 
+<taxonomicName authority="Schreber, 1774" authorityName="Schreber" authorityYear="1774" class="Mammalia" family="Rhinolophidae" genus="Vespertilio" kingdom="Animalia" order="Chiroptera" pageId="16" pageNumber="295" phylum="Chordata" rank="species" species="ferrumequinum">
 <emphasis box="[2921,3365,1374,1413]" italics="true" pageId="16" pageNumber="295">Vespertilioferrum-equinum</emphasis>
-Schreber, 1774, 
+Schreber, 1774
+</taxonomicName>
+,
+</paragraph>
+</subSubSection>
+<subSubSection box="[2884,3019,1424,1463]" pageId="16" pageNumber="295" type="materials_examined">
+<paragraph blockId="16.[2688,3494,1374,1941]" box="[2884,3019,1424,1463]" pageId="16" pageNumber="295">
 <materialsCitation ID-GBIF-Occurrence="2597534048" box="[2884,3014,1424,1463]" country="France" location="France" pageId="16" pageNumber="295" specimenCount="1" typeStatus="type">
 <collectingCountry box="[2884,3014,1424,1463]" name="France" pageId="16" pageNumber="295">France</collectingCountry>
 </materialsCitation>
@@ -96,7 +103,9 @@ Schreber, 1774,
 </subSubSection>
 <subSubSection pageId="16" pageNumber="295" type="discussion">
 <paragraph blockId="16.[2688,3494,1374,1941]" lastBlockId="16.[1862,3493,1952,4630]" pageId="16" pageNumber="295">
+<taxonomicName authority="(Schreber, 1774)" authorityName="Schreber" authorityYear="1774" box="[2695,3192,1479,1518]" class="Mammalia" family="Rhinolophidae" genus="Rhinolophus" kingdom="Animalia" order="Chiroptera" pageId="16" pageNumber="295" phylum="Chordata" rank="species" species="ferrumequinum">
 <emphasis box="[2695,3192,1479,1518]" italics="true" pageId="16" pageNumber="295">Rhinolophusferrumequinum</emphasis>
+</taxonomicName>
 is in the 
 <taxonomicName authorityName="Schreber" authorityYear="1774" class="Mammalia" family="Rhinolophidae" genus="Rhinolophus" kingdom="Animalia" order="Chiroptera" pageId="16" pageNumber="295" phylum="Chordata" rank="species" species="ferrumequinum">
 <emphasis italics="true" pageId="16" pageNumber="295">ferrumequinum</emphasis>
