@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="211" approvalRequired_for_illustrations="1" approvalRequired_for_matCits="100" approvalRequired_for_taxonomicNames="39" approvalRequired_for_textStreams="2" approvalRequired_for_treatments="69" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF2E6A91FF859F6C184CBEE7" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Myotis bechsteinii" docType="treatment" docVersion="6" lastPageNumber="975" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="975" updateTime="1653409992966" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF2E6A91FF859F6C184CBEE7" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Myotis bechsteinii" docType="treatment" docVersion="10" lastPageNumber="975" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="975" updateTime="1658492182964" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6397752</mods:identifier>
+<mods:identifier type="GBIF-Dataset">45351c32-25dd-422c-bdb2-00e73deb4943</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:4C3D87E8FF2E6A91FF859F6C184CBEE7" httpUri="http://treatment.plazi.org/id/4C3D87E8FF2E6A91FF859F6C184CBEE7" lastPageNumber="975" pageId="213" pageNumber="975">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6577976" ID-GBIF-Taxon="195628198" ID-Zenodo-Dep="6577976" LSID="urn:lsid:plazi:treatment:4C3D87E8FF2E6A91FF859F6C184CBEE7" httpUri="http://treatment.plazi.org/id/4C3D87E8FF2E6A91FF859F6C184CBEE7" lastPageNumber="975" pageId="213" pageNumber="975">
 <subSubSection box="[121,203,2357,2399]" pageId="213" pageNumber="975" type="multiple">
 <paragraph blockId="213.[118,1038,2357,2478]" box="[121,203,2357,2399]" pageId="213" pageNumber="975">
 <heading box="[121,203,2357,2399]" pageId="213" pageNumber="975">
@@ -51,10 +52,7 @@
 <subSubSection box="[220,601,2357,2399]" pageId="213" pageNumber="975" type="vernacular_names">
 <paragraph blockId="213.[118,1038,2357,2478]" box="[220,601,2357,2399]" pageId="213" pageNumber="975">
 <heading box="[220,601,2357,2399]" pageId="213" pageNumber="975">
-<vernacularName box="[220,601,2357,2399]" pageId="213" pageNumber="975">
-Bechstein’s 
-<taxonomicName authority="Kaup, 1829" box="[468,601,2357,2399]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="213" pageNumber="975" phylum="Chordata" rank="genus">Myotis</taxonomicName>
-</vernacularName>
+<vernacularName box="[220,601,2357,2399]" pageId="213" pageNumber="975">Bechstein’s Myotis</vernacularName>
 </heading>
 </paragraph>
 </subSubSection>
@@ -93,8 +91,12 @@ Bechstein’s
 <taxonomicName authority="Leisler" authorityName="Leisler" box="[905,1280,2528,2557]" class="Mammalia" family="Vespertilionidae" genus="Vespertilio" kingdom="Animalia" order="Chiroptera" pageId="213" pageNumber="975" phylum="Chordata" rank="species" species="bechsteinii">Vespertilio bechsteinii Leisler</taxonomicName>
 in 
 <treatmentCitation box="[728,881,2567,2596]" pageId="213" pageNumber="975">Kuhl, 1817</treatmentCitation>
-, 
-<materialsCitation box="[898,1259,2567,2596]" pageId="213" pageNumber="975">
+,
+</paragraph>
+</subSubSection>
+<subSubSection box="[898,1263,2567,2596]" pageId="213" pageNumber="975" type="materials_examined">
+<paragraph blockId="213.[726,1327,2528,2950]" box="[898,1263,2567,2596]" pageId="213" pageNumber="975">
+<materialsCitation ID-GBIF-Occurrence="3783319506" box="[898,1259,2567,2596]" pageId="213" pageNumber="975">
 Hanau, 
 <collectingRegion box="[1011,1113,2567,2596]" country="Germany" name="Hessen" pageId="213" pageNumber="975">Hessen</collectingRegion>
 , 

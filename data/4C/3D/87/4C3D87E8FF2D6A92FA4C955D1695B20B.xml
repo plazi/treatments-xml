@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="266" approvalRequired_for_illustrations="1" approvalRequired_for_matCits="100" approvalRequired_for_taxonomicNames="81" approvalRequired_for_textStreams="2" approvalRequired_for_treatments="82" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF2D6A92FA4C955D1695B20B" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Myotis soror" docType="treatment" docVersion="5" lastPageNumber="976" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="976" updateTime="1653402593307" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF2D6A92FA4C955D1695B20B" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Myotis soror" docType="treatment" docVersion="11" lastPageNumber="976" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="976" updateTime="1658492182964" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6397752</mods:identifier>
+<mods:identifier type="GBIF-Dataset">45351c32-25dd-422c-bdb2-00e73deb4943</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:4C3D87E8FF2D6A92FA4C955D1695B20B" httpUri="http://treatment.plazi.org/id/4C3D87E8FF2D6A92FA4C955D1695B20B" lastPageNumber="976" pageId="214" pageNumber="976">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6581141" ID-GBIF-Taxon="195628194" ID-Zenodo-Dep="6581141" LSID="urn:lsid:plazi:treatment:4C3D87E8FF2D6A92FA4C955D1695B20B" httpUri="http://treatment.plazi.org/id/4C3D87E8FF2D6A92FA4C955D1695B20B" lastPageNumber="976" pageId="214" pageNumber="976">
 <subSubSection box="[1456,1539,772,822]" pageId="214" pageNumber="976" type="multiple">
 <paragraph blockId="214.[1455,2370,772,865]" box="[1456,1539,772,822]" pageId="214" pageNumber="976">
 <heading box="[1456,1539,772,822]" pageId="214" pageNumber="976">
@@ -81,12 +82,16 @@ Ratonero rojo de
 </heading>
 </paragraph>
 </subSubSection>
-<subSubSection pageId="214" pageNumber="976" type="reference_group">
-<paragraph blockId="214.[2069,2664,910,1333]" pageId="214" pageNumber="976">
+<subSubSection box="[2069,2659,910,939]" pageId="214" pageNumber="976" type="reference_group">
+<paragraph blockId="214.[2069,2664,910,1333]" box="[2069,2659,910,939]" pageId="214" pageNumber="976">
 <emphasis bold="true" box="[2069,2218,910,939]" pageId="214" pageNumber="976">Taxonomy.</emphasis>
 <taxonomicName authority="Ruedi et al. 2015" box="[2237,2654,910,939]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="214" pageNumber="976" phylum="Chordata" rank="species" species="soror">Myotis soror Ruedi et al, 2015</taxonomicName>
-, 
-<materialsCitation pageId="214" pageNumber="976">
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="214" pageNumber="976" type="materials_examined">
+<paragraph blockId="214.[2069,2664,910,1333]" pageId="214" pageNumber="976">
+<materialsCitation ID-GBIF-Occurrence="3783319388" latitude="24.083334" longitude="121.15" pageId="214" pageNumber="976">
 “along the ‘water pipe road,” near the Highland Experimental Farm of National 
 <collectingCountry box="[2567,2660,984,1017]" name="Taiwan" pageId="214" pageNumber="976">Taiwan</collectingCountry>
 University, 
@@ -106,7 +111,7 @@ above sea level.”
 <subSubSection pageId="214" pageNumber="976" type="discussion">
 <paragraph blockId="214.[2069,2664,910,1333]" pageId="214" pageNumber="976">
 Subgenus 
-<taxonomicName box="[2245,2330,1142,1175]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="214" pageNumber="976" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[2245,2330,1142,1175]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="214" pageNumber="976" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 ; 
 <taxonomicName authorityName="Kuhl" authorityYear="1817" box="[2376,2528,1142,1175]" class="Mammalia" family="Vespertilionidae" genus="Vespertilio" kingdom="Animalia" order="Chiroptera" pageId="214" pageNumber="976" phylum="Chordata" rank="species" species="daubentonii">daubentonii</taxonomicName>
 species group. Based on limited genetic data, M. soror appearsto besister to M. fraterin a clade including 
@@ -142,7 +147,7 @@ Head—-body
 , forearm 42- 
 <quantity box="[1570,1652,1419,1452]" metricMagnitude="-3" metricUnit="m" metricValue="1.0" pageId="214" pageNumber="976" unit="mm" value="1.0">1 mm</quantity>
 . Pelage of the Reddish 
-<taxonomicName box="[1992,2081,1419,1452]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="214" pageNumber="976" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[1992,2081,1419,1452]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="214" pageNumber="976" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 is dense, soft, and relatively long. Dorsal pelage is rich frosted cinnamon-brown (cinnamon brown hairs with lighter golden yellow tips); venteris only a little lighter (hairs brown, becoming lighter near tips, almost creamy). Bare ears and membranes are reddish brown, and face is brownish. Ears are relatively short and broad, with distinct concavity on middle of posterior margins, and inner and outer sides of ears are covered in sparse, cinnamon rufous hairs; tragus is relatively short, with slightly convex anterior margin, small lobe at base of posterior margin that is convex for ¢.50% ofits length, and slightly rounded tip. Wings attach to base of metacarpus near base of outer toes, and feet are robust, with strongly curved claws. Calcar is short, with unkeeled lobe. Skull is angular, with short rostrum and abruptly raised forehead region; lambdoidal crests are visible laterally, but sagittal crest is absent; teeth are robust; C' is longer than P*, with distinct groove along labial edge; P* is small and in tooth row, and P? is extremely small and intruded; lower premolars are in a relatively uncrowded row; and molars are robust but low with ill-defined paraconules.
 </paragraph>
 </subSubSection>
@@ -184,7 +189,7 @@ No information.
 <paragraph blockId="214.[1456,2665,1340,2361]" pageId="214" pageNumber="976">
 <emphasis bold="true" box="[1460,1811,2208,2241]" pageId="214" pageNumber="976">Status and Conservation.</emphasis>
 Classified as Data Deficient on The IUCN Red List. The Reddish 
-<taxonomicName box="[1527,1616,2248,2281]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="214" pageNumber="976" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[1527,1616,2248,2281]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="214" pageNumber="976" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 is currently known from only a few specimens and is likely a rare montane species. Virtually nothing is known aboutits ecology or threats.
 </paragraph>
 </subSubSection>

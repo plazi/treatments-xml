@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="258" approvalRequired_for_illustrations="1" approvalRequired_for_matCits="100" approvalRequired_for_taxonomicNames="76" approvalRequired_for_textStreams="2" approvalRequired_for_treatments="79" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF216A9EFF4A91C916D5BF1C" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Myotis escalerai Cabrera 1904" docType="treatment" docVersion="6" lastPageNumber="980" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="980" updateTime="1653403309935" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF216A9EFF4A91C916D5BF1C" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Myotis escalerai Cabrera 1904" docType="treatment" docVersion="11" lastPageNumber="980" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="980" updateTime="1658492182964" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6397752</mods:identifier>
+<mods:identifier type="GBIF-Dataset">45351c32-25dd-422c-bdb2-00e73deb4943</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:4C3D87E8FF216A9EFF4A91C916D5BF1C" httpUri="http://treatment.plazi.org/id/4C3D87E8FF216A9EFF4A91C916D5BF1C" lastPageNumber="980" pageId="218" pageNumber="980">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6577434" ID-GBIF-Taxon="195628181" ID-Zenodo-Dep="6577434" LSID="urn:lsid:plazi:treatment:4C3D87E8FF216A9EFF4A91C916D5BF1C" httpUri="http://treatment.plazi.org/id/4C3D87E8FF216A9EFF4A91C916D5BF1C" lastPageNumber="980" pageId="218" pageNumber="980">
 <subSubSection box="[182,265,1936,1986]" pageId="218" pageNumber="980" type="multiple">
 <paragraph blockId="218.[181,1131,1936,2067]" box="[182,265,1936,1986]" pageId="218" pageNumber="980">
 <heading box="[182,265,1936,1986]" pageId="218" pageNumber="980">
@@ -86,12 +87,16 @@
 </heading>
 </paragraph>
 </subSubSection>
-<subSubSection pageId="218" pageNumber="980" type="reference_group">
-<paragraph blockId="218.[794,1391,2109,2534]" pageId="218" pageNumber="980">
+<subSubSection box="[795,1386,2109,2142]" pageId="218" pageNumber="980" type="reference_group">
+<paragraph blockId="218.[794,1391,2109,2534]" box="[795,1386,2109,2142]" pageId="218" pageNumber="980">
 <emphasis bold="true" box="[795,951,2109,2142]" pageId="218" pageNumber="980">Taxonomy.</emphasis>
 <taxonomicName authority="Cabrera, 1904" authorityName="Cabrera" authorityYear="1904" box="[967,1381,2109,2142]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="218" pageNumber="980" phylum="Chordata" rank="species" species="escalerai">Myotis escalerai Cabrera, 1904</taxonomicName>
-, 
-<materialsCitation box="[794,1017,2148,2181]" pageId="218" pageNumber="980">
+,
+</paragraph>
+</subSubSection>
+<subSubSection box="[794,1017,2148,2181]" pageId="218" pageNumber="980" type="materials_examined">
+<paragraph blockId="218.[794,1391,2109,2534]" box="[794,1017,2148,2181]" pageId="218" pageNumber="980">
+<materialsCitation ID-GBIF-Occurrence="3783319586" box="[794,1017,2148,2181]" pageId="218" pageNumber="980">
 <collectingRegion box="[794,915,2148,2181]" country="Spain" name="Comunitat Valenciana" pageId="218" pageNumber="980">Valencia</collectingRegion>
 , 
 <collectingCountry box="[932,1013,2148,2181]" name="Spain" pageId="218" pageNumber="980">Spain</collectingCountry>
@@ -102,7 +107,7 @@
 <subSubSection pageId="218" pageNumber="980" type="discussion">
 <paragraph blockId="218.[794,1391,2109,2534]" pageId="218" pageNumber="980">
 Subgenus 
-<taxonomicName box="[943,1027,2190,2219]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="218" pageNumber="980" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[943,1027,2190,2219]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="218" pageNumber="980" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 ; 
 <taxonomicName authorityName="Borkhausen" authorityYear="1797" box="[1045,1122,2190,2219]" class="Mammalia" family="Vespertilionidae" genus="Vespertilio" kingdom="Animalia" order="Chiroptera" pageId="218" pageNumber="980" phylum="Chordata" rank="species" species="myotis">myotis</taxonomicName>
 species group. 
@@ -133,21 +138,21 @@ Head-body
 ; weight 4.5-6- 
 <quantity box="[885,935,2462,2495]" metricMagnitude="-3" metricUnit="kg" metricValue="3.0" pageId="218" pageNumber="980" unit="g" value="3.0">3 g</quantity>
 . Escalera’s 
-<taxonomicName box="[1109,1199,2462,2495]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="218" pageNumber="980" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[1109,1199,2462,2495]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="218" pageNumber="980" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 is extremely similar to Natterer’s 
-<taxonomicName box="[1097,1186,2501,2534]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="218" pageNumber="980" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[1097,1186,2501,2534]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="218" pageNumber="980" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 (M. 
 <taxonomicName box="[1266,1374,2501,2534]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="218" pageNumber="980" phylum="Chordata" rank="species" species="natterer">natterer</taxonomicName>
 ), the Cryptic 
-<taxonomicName box="[357,447,2550,2579]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="218" pageNumber="980" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[357,447,2550,2579]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="218" pageNumber="980" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 (M. crypticus), and the Zenati 
-<taxonomicName box="[898,988,2546,2575]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="218" pageNumber="980" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[898,988,2546,2575]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="218" pageNumber="980" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 (M. zenatius). Its dorsum is brownish to grayish, and venteris pale grayish to whitish. Young are much darker than adults. Edge of uropatagium hasdistinct line of bristles, typical of the 
 <taxonomicName baseAuthorityName="Kuhl" baseAuthorityYear="1817" box="[1182,1285,2619,2652]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="218" pageNumber="980" phylum="Chordata" rank="species" species="nattereri">nattereri</taxonomicName>
 species complex. It is clearly different from the Cryptic 
-<taxonomicName box="[874,964,2661,2694]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="218" pageNumber="980" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[874,964,2661,2694]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="218" pageNumber="980" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 because it has noticeably line of hair pointing inward and another line of hair, shorter, pointing outward. Wings are clearly attached to metatarsus, a characteristic that differentiates it from sympatric Cryptic 
-<taxonomicName box="[358,448,2783,2816]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="218" pageNumber="980" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[358,448,2783,2816]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="218" pageNumber="980" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 whose wing membrane starts at base of the foot. Calcaris clearly S-shaped. It has a naked face, pinkish (especially area surrounding eyes), with long muzzle and relatively long ears that surpass tip of nose when flattened horizontally, which are also foldable due to multiple folds presentin the outside edge. Skull is small and delicate with high braincase and strongly concave forehead regions; there are no sagittal or occipital crests. P* is more than one-half height and about three-quarters crown area of P? and is within tooth row; lower molars are myotodont. Chromosomal complement has 2n = 44 and FNa = 50 (
 <collectingCountry box="[754,840,3058,3091]" name="Spain" pageId="218" pageNumber="980">Spain</collectingCountry>
 ).
@@ -165,9 +170,9 @@ Wide variety of habitats from dry areas (e.g. Ebro Basin) to montane deciduous a
 <paragraph blockId="218.[185,1396,2543,3483]" pageId="218" pageNumber="980">
 <emphasis bold="true" box="[188,451,3214,3247]" pageId="218" pageNumber="980">Food and Feeding.</emphasis>
 Escalera’s 
-<taxonomicName box="[609,698,3214,3247]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="218" pageNumber="980" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[609,698,3214,3247]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="218" pageNumber="980" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 probably has similar foraging behavior and feeding preferences to Natterer’s 
-<taxonomicName box="[610,699,3253,3286]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="218" pageNumber="980" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[610,699,3253,3286]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="218" pageNumber="980" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 and is able to glean prey from surfaces of leaves and directly from the ground with its tail membrane. It can be seen foraging close to vegetation, branches, and leaves searching for potential prey.
 </paragraph>
 </subSubSection>
@@ -175,9 +180,9 @@ and is able to glean prey from surfaces of leaves and directly from the ground w
 <paragraph blockId="218.[185,1396,2543,3483]" lastBlockId="218.[1447,2659,290,1075]" pageId="218" pageNumber="980">
 <emphasis bold="true" box="[189,324,3371,3404]" pageId="218" pageNumber="980">Breeding.</emphasis>
 Maternity colonies of Escalera’s 
-<taxonomicName box="[783,872,3371,3404]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="218" pageNumber="980" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[783,872,3371,3404]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="218" pageNumber="980" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 can contain from tens to 800 females and young. Temperature in summer roosts is 17-21°C. Mating activities take place in autumn (September—November) during swarming period when numbers of males increase significantly in cave-rich areas. Young are usually born in May. Young are completely independent at less than two months old in July and leave maternity colonies. Escalera’s 
-<taxonomicName box="[1594,1683,367,400]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="218" pageNumber="980" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[1594,1683,367,400]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="218" pageNumber="980" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 readily switch roosts.
 </paragraph>
 </subSubSection>
@@ -185,11 +190,11 @@ readily switch roosts.
 <paragraph blockId="218.[1447,2659,290,1075]" pageId="218" pageNumber="980">
 <emphasis bold="true" box="[1447,1682,404,437]" pageId="218" pageNumber="980">Activity patterns.</emphasis>
 Escalera’s 
-<taxonomicName box="[1837,1926,404,437]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="218" pageNumber="980" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[1837,1926,404,437]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="218" pageNumber="980" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 is cave dwelling and can be found in natural and artificial caves, mines, tunnels, and other undergroundsites, generally hidden in cracks and crevices. There are isolated reports of roosts in tree holes or even bridges. Echolocation calls are very similar to those from Natterer’s 
-<taxonomicName box="[2237,2329,522,555]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="218" pageNumber="980" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[2237,2329,522,555]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="218" pageNumber="980" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 , with short and highly modulated pulses,starting at 120-140 kHz and ending at 15-20 kHz (broad frequency range of ¢.130 kHz). Discrimination of its calls from other species of 
-<taxonomicName box="[2425,2509,601,634]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="218" pageNumber="980" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[2425,2509,601,634]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="218" pageNumber="980" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 is difficult and controversial.
 </paragraph>
 </subSubSection>
@@ -197,9 +202,9 @@ is difficult and controversial.
 <paragraph blockId="218.[1447,2659,290,1075]" pageId="218" pageNumber="980">
 <emphasis bold="true" box="[1450,2152,680,713]" pageId="218" pageNumber="980">Movements, Home range and Social organization.</emphasis>
 Escalera’s Myotisis considered sedentary. It will share roosts with other species such as the Long-fingered 
-<taxonomicName box="[2461,2550,719,752]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="218" pageNumber="980" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[2461,2550,719,752]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="218" pageNumber="980" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 (M. capaccicnii) and Geoffroy’s 
-<taxonomicName box="[1801,1891,765,794]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="218" pageNumber="980" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[1801,1891,765,794]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="218" pageNumber="980" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 (
 <taxonomicName baseAuthorityName="E. Geoffroy" baseAuthorityYear="1806" box="[1914,2126,765,794]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="218" pageNumber="980" phylum="Chordata" rank="species" species="emarginatus">M. emarginatus</taxonomicName>
 ).
@@ -211,9 +216,9 @@ Escalera’s Myotisis considered sedentary. It will share roosts with other spec
 Classified as Least Concern on The IUCN Red List. Disturbance, vandalism, and destruction of caves are 
 <taxonomicName authorityName="J. E. Gray" authorityYear="1844" box="[2121,2203,842,871]" class="Mammalia" family="Vespertilionidae" genus="Nyctophilus" kingdom="Animalia" order="Chiroptera" pageId="218" pageNumber="980" phylum="Chordata" rank="species" species="major">major</taxonomicName>
 threats to Escalera’s 
-<taxonomicName box="[2504,2594,842,871]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="218" pageNumber="980" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[2504,2594,842,871]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="218" pageNumber="980" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 and can affect large colonies. Two ofthe largest colonies of Escalera’s 
-<taxonomicName box="[2373,2463,877,910]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="218" pageNumber="980" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[2373,2463,877,910]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="218" pageNumber="980" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 have recently disappeared due to inappropriate fencing. It might be more common than expected, especially in the most humid and coldest regions in its distribution.
 </paragraph>
 </subSubSection>
