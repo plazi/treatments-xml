@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6448815" ID-GBIF-Dataset="bbbf94d9-a910-4cda-97df-7eca124163ed" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6448815" checkinTime="1635825784914" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="03AD87FAFF8AF6658CB63F47FDB1F21C" docLanguage="en" docName="hbmw_9_Pteropodidae_16.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Pteropus scapulatus Peters 1862" docType="treatment" docVersion="10" lastPageNumber="138" masterDocId="FF94FF82FFC4F62A891E341CFFA5FF9B" masterDocTitle="Pteropodidae" masterLastPageNumber="162" masterPageNumber="16" pageNumber="136" updateTime="1658416360463" updateUser="jonas">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6448815" ID-GBIF-Dataset="bbbf94d9-a910-4cda-97df-7eca124163ed" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6448815" checkinTime="1635825784914" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="03AD87FAFF8AF6658CB63F47FDB1F21C" docLanguage="en" docName="hbmw_9_Pteropodidae_16.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Pteropus scapulatus Peters 1862" docType="treatment" docVersion="12" lastPageNumber="138" masterDocId="FF94FF82FFC4F62A891E341CFFA5FF9B" masterDocTitle="Pteropodidae" masterLastPageNumber="162" masterPageNumber="16" pageNumber="136" updateTime="1658504286891" updateUser="jonas">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Pteropodidae</mods:title>
@@ -82,11 +82,15 @@ Zorro volador de
 </heading>
 </paragraph>
 </subSubSection>
-<subSubSection pageId="78" pageNumber="136" type="reference_group">
-<paragraph blockId="78.[2057,2653,3037,3464]" pageId="78" pageNumber="136">
+<subSubSection box="[2057,2648,3037,3070]" pageId="78" pageNumber="136" type="reference_group">
+<paragraph blockId="78.[2057,2653,3037,3464]" box="[2057,2648,3037,3070]" pageId="78" pageNumber="136">
 <emphasis bold="true" box="[2057,2208,3037,3070]" pageId="78" pageNumber="136">Taxonomy.</emphasis>
 <taxonomicName authority="Peters, 1862" authorityName="Peters" authorityYear="1862" box="[2222,2643,3037,3070]" class="Mammalia" family="Pteropodidae" genus="Pteropus" kingdom="Animalia" order="Chiroptera" pageId="78" pageNumber="136" phylum="Chordata" rank="species" species="scapulatus">Pteropus scapulatus Peters, 1862</taxonomicName>
-, 
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="78" pageNumber="136" type="materials_examined">
+<paragraph blockId="78.[2057,2653,3037,3464]" pageId="78" pageNumber="136">
 <materialsCitation ID-GBIF-Occurrence="3828391323" pageId="78" pageNumber="136">
 “Promontorium York [= Cape York, 
 <collectingRegion country="Australia" name="Queensland" pageId="78" pageNumber="136">Queensland</collectingRegion>
@@ -104,7 +108,7 @@ is the only member of
 species group. Monotypic.
 </paragraph>
 </subSubSection>
-<subSubSection lastPageId="79" lastPageNumber="137" pageId="78" pageNumber="136" type="distribution">
+<subSubSection lastPageId="79" lastPageNumber="137" pageId="78" pageNumber="136" type="multiple">
 <caption ID-DOI="http://doi.org/10.5281/zenodo.6803854" ID-Zenodo-Dep="6803854" httpUri="https://zenodo.org/record/6803854/files/figure.png" inLine="true" lastPageId="79" lastPageNumber="137" pageId="78" pageNumber="136" startId="78.[2057,2224,3242,3267]" targetBox="[1442,2033,3047,3462]" targetPageId="78">
 <paragraph blockId="78.[2057,2653,3037,3464]" lastBlockId="79.[115,1328,275,3466]" lastPageId="79" lastPageNumber="137" pageId="78" pageNumber="136">
 <emphasis bold="true" box="[2057,2228,3242,3267]" pageId="78" pageNumber="136">Distribution.</emphasis>
@@ -241,7 +245,11 @@ more temporary colonies, usually lasting 4-6 weeks. They can displace other flyi
 <paragraph blockId="79.[2007,2602,2559,2986]" pageId="79" pageNumber="137">
 <emphasis bold="true" box="[2008,2164,2559,2592]" pageId="79" pageNumber="137">Taxonomy.</emphasis>
 <taxonomicName authorityName="Van Deusen" authorityYear="1969" class="Mammalia" family="Pteropodidae" genus="Pteropus" kingdom="Animalia" order="Chiroptera" pageId="79" pageNumber="137" phylum="Chordata" rank="species" species="gilliardi">Pteropus gilliardi [sic] Van Deusen, 1969</taxonomicName>
-, 
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="79" pageNumber="137" type="materials_examined">
+<paragraph blockId="79.[2007,2602,2559,2986]" pageId="79" pageNumber="137">
 <materialsCitation ID-GBIF-Occurrence="3861200302" pageId="79" pageNumber="137">
 “Camp 12 (“summit camp”), Wild Dog Ridge, Whiteman Mountains, New Britain [Island, 
 <collectingCountry box="[2307,2586,2685,2710]" name="Papua New Guinea" pageId="79" pageNumber="137">Papua New Guinea</collectingCountry>
@@ -249,14 +257,6 @@ more temporary colonies, usually lasting 4-6 weeks. They can displace other flyi
 <quantity box="[2236,2364,2721,2750]" metricMagnitude="3" metricUnit="m" metricValue="1.58496" pageId="79" pageNumber="137" unit="ft" value="5200.0">5200 feet</quantity>
 (1600 meters).”
 </materialsCitation>
-<taxonomicName authorityName="Van Deusen" authorityYear="1969" box="[2009,2286,2760,2789]" class="Mammalia" family="Pteropodidae" genus="Pteropus" kingdom="Animalia" order="Chiroptera" pageId="79" pageNumber="137" phylum="Chordata" rank="species" species="gilliardorum">Pteropus gilliardorum</taxonomicName>
-is in the 
-<taxonomicName authorityName="Kittlitz" authorityYear="1836" box="[2422,2539,2760,2789]" class="Mammalia" family="Pteropodidae" genus="Pteropus" kingdom="Animalia" order="Chiroptera" pageId="79" pageNumber="137" phylum="Chordata" rank="species" species="pelagicus">pelagicus</taxonomicName>
-species group. T. F. Flannery in 1995 amended 
-<taxonomicName authorityName="Van Deusen" authorityYear="1969" box="[2060,2161,2839,2868]" class="Mammalia" family="Pteropodidae" genus="Pteropus" kingdom="Animalia" order="Chiroptera" pageId="79" pageNumber="137" phylum="Chordata" rank="species" species="gilliardi">gilliardi</taxonomicName>
-to 
-<taxonomicName authorityName="Van Deusen" authorityYear="1969" box="[2221,2380,2839,2868]" class="Mammalia" family="Pteropodidae" genus="Pteropus" kingdom="Animalia" order="Chiroptera" pageId="79" pageNumber="137" phylum="Chordata" rank="species" species="gilliardorum">gilliardorum</taxonomicName>
-in accordance with Article 31 of the International Code of Zoological Nomenclature. Monotypic.
 </paragraph>
 </subSubSection>
 <subSubSection pageId="79" pageNumber="137" type="conservation">
@@ -267,6 +267,18 @@ CITES Appendix II. Classified as Least Concern on The [UCN Red List. The Little 
 and 
 <collectingRegion box="[949,1190,2955,2988]" country="Australia" name="New South Wales" pageId="79" pageNumber="137">New South Wales</collectingRegion>
 as a crop protection measure under special circumstances, but there might be additional illegal killing that is difficult to measure. There has been an increase in persecution of flying foxes due to public concerns about diseases, smell, and noise associated with large colonies. Additional threats might include electrocution on power lines, entanglement on barbed wire or netting, extreme weather events, and mortality from Australian bat lyssavirus. Due to its nomadic nature, monitoring population trends and distribution is difficult. The Little Red Flying Fox might periodically be found in protected areas, but its yearly variation in distribution makes it difficult to plan conservation and management actions.
+</paragraph>
+</subSubSection>
+<subSubSection pageId="79" pageNumber="137" type="discussion">
+<paragraph blockId="79.[2007,2602,2559,2986]" pageId="79" pageNumber="137">
+<taxonomicName authorityName="Van Deusen" authorityYear="1969" box="[2009,2286,2760,2789]" class="Mammalia" family="Pteropodidae" genus="Pteropus" kingdom="Animalia" order="Chiroptera" pageId="79" pageNumber="137" phylum="Chordata" rank="species" species="gilliardorum">Pteropus gilliardorum</taxonomicName>
+is in the 
+<taxonomicName authorityName="Kittlitz" authorityYear="1836" box="[2422,2539,2760,2789]" class="Mammalia" family="Pteropodidae" genus="Pteropus" kingdom="Animalia" order="Chiroptera" pageId="79" pageNumber="137" phylum="Chordata" rank="species" species="pelagicus">pelagicus</taxonomicName>
+species group. T. F. Flannery in 1995 amended 
+<taxonomicName authorityName="Van Deusen" authorityYear="1969" box="[2060,2161,2839,2868]" class="Mammalia" family="Pteropodidae" genus="Pteropus" kingdom="Animalia" order="Chiroptera" pageId="79" pageNumber="137" phylum="Chordata" rank="species" species="gilliardi">gilliardi</taxonomicName>
+to 
+<taxonomicName authorityName="Van Deusen" authorityYear="1969" box="[2221,2380,2839,2868]" class="Mammalia" family="Pteropodidae" genus="Pteropus" kingdom="Animalia" order="Chiroptera" pageId="79" pageNumber="137" phylum="Chordata" rank="species" species="gilliardorum">gilliardorum</taxonomicName>
+in accordance with Article 31 of the International Code of Zoological Nomenclature. Monotypic.
 </paragraph>
 </subSubSection>
 <subSubSection pageId="79" pageNumber="137" type="multiple">
@@ -349,12 +361,16 @@ Almeida et al. (2014), Andersen (1912b), Churchill (2008), Corbet &amp; Hill (19
 </heading>
 </paragraph>
 </subSubSection>
-<subSubSection pageId="79" pageNumber="137" type="reference_group">
-<paragraph blockId="79.[2004,2600,431,853]" pageId="79" pageNumber="137">
+<subSubSection box="[2005,2596,431,460]" pageId="79" pageNumber="137" type="reference_group">
+<paragraph blockId="79.[2004,2600,431,853]" box="[2005,2596,431,460]" pageId="79" pageNumber="137">
 <emphasis bold="true" box="[2005,2160,431,460]" pageId="79" pageNumber="137">Taxonomy.</emphasis>
 <taxonomicName authority="Peters, 1867" authorityName="Peters" authorityYear="1867" box="[2177,2592,431,460]" class="Mammalia" family="Pteropodidae" genus="Pteropus" kingdom="Animalia" order="Chiroptera" pageId="79" pageNumber="137" phylum="Chordata" rank="species" species="macrotis">Pteropus macrotis Peters, 1867</taxonomicName>
-, 
-<materialsCitation ID-GBIF-Occurrence="3861200303" box="[2004,2546,474,499]" pageId="79" pageNumber="137">
+,
+</paragraph>
+</subSubSection>
+<subSubSection box="[2004,2546,474,499]" pageId="79" pageNumber="137" type="materials_examined">
+<paragraph blockId="79.[2004,2600,431,853]" box="[2004,2546,474,499]" pageId="79" pageNumber="137">
+<materialsCitation ID-GBIF-Occurrence="3861200301" box="[2004,2546,474,499]" pageId="79" pageNumber="137">
 Wokam Island, Aru Islands, 
 <collectingCountry box="[2401,2542,474,499]" name="Indonesia" pageId="79" pageNumber="137">Indonesia</collectingCountry>
 .
@@ -369,7 +385,7 @@ is currently in the
 species group. Two subspecies recognized.
 </paragraph>
 </subSubSection>
-<subSubSection pageId="79" pageNumber="137" type="synonymic_list">
+<subSubSection pageId="79" pageNumber="137" type="multiple">
 <caption ID-DOI="http://doi.org/10.5281/zenodo.6803856" ID-Zenodo-Dep="6803856" httpUri="https://zenodo.org/record/6803856/files/figure.png" inLine="true" pageId="79" pageNumber="137" startId="79.[2006,2160,584,617]" targetBox="[1390,1982,439,852]" targetPageId="79">
 <paragraph blockId="79.[2004,2600,431,853]" box="[2006,2407,584,617]" pageId="79" pageNumber="137">
 <emphasis bold="true" box="[2006,2407,584,617]" pageId="79" pageNumber="137">Subspecies and Distribution.</emphasis>
