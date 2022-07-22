@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="211" approvalRequired_for_illustrations="1" approvalRequired_for_matCits="100" approvalRequired_for_taxonomicNames="39" approvalRequired_for_textStreams="2" approvalRequired_for_treatments="69" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF376A89FA509ACB1A87B133" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Myotis ridleyi" docType="treatment" docVersion="6" lastPageNumber="967" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="966" updateTime="1653409992966" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF376A89FA509ACB1A87B133" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Myotis ridleyi" docType="treatment" docVersion="10" lastPageNumber="967" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="966" updateTime="1658491128239" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6397752</mods:identifier>
+<mods:identifier type="GBIF-Dataset">45351c32-25dd-422c-bdb2-00e73deb4943</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:4C3D87E8FF376A89FA509ACB1A87B133" httpUri="http://treatment.plazi.org/id/4C3D87E8FF376A89FA509ACB1A87B133" lastPageId="205" lastPageNumber="967" pageId="204" pageNumber="966">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6577940" ID-GBIF-Taxon="195628137" ID-Zenodo-Dep="6577940" LSID="urn:lsid:plazi:treatment:4C3D87E8FF376A89FA509ACB1A87B133" httpUri="http://treatment.plazi.org/id/4C3D87E8FF376A89FA509ACB1A87B133" lastPageId="205" lastPageNumber="967" pageId="204" pageNumber="966">
 <subSubSection box="[1452,1534,3218,3264]" pageId="204" pageNumber="966" type="multiple">
 <paragraph blockId="204.[1450,2389,3218,3347]" box="[1452,1534,3218,3264]" pageId="204" pageNumber="966">
 <heading box="[1452,1534,3218,3264]" pageId="204" pageNumber="966">
@@ -51,10 +52,7 @@
 <subSubSection box="[1551,1857,3218,3264]" pageId="204" pageNumber="966" type="vernacular_names">
 <paragraph blockId="204.[1450,2389,3218,3347]" box="[1551,1857,3218,3264]" pageId="204" pageNumber="966">
 <heading box="[1551,1857,3218,3264]" pageId="204" pageNumber="966">
-<vernacularName box="[1551,1857,3218,3264]" pageId="204" pageNumber="966">
-Ridley’s 
-<taxonomicName authority="Kaup, 1829" box="[1724,1857,3218,3264]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="204" pageNumber="966" phylum="Chordata" rank="genus">Myotis</taxonomicName>
-</vernacularName>
+<vernacularName box="[1551,1857,3218,3264]" pageId="204" pageNumber="966">Ridley’s Myotis</vernacularName>
 </heading>
 </paragraph>
 </subSubSection>
@@ -87,12 +85,16 @@ Ridley’s
 </heading>
 </paragraph>
 </subSubSection>
-<subSubSection pageId="204" pageNumber="966" type="reference_group">
-<paragraph blockId="204.[1450,2657,3387,3470]" pageId="204" pageNumber="966">
+<subSubSection box="[1451,2106,3387,3420]" pageId="204" pageNumber="966" type="reference_group">
+<paragraph blockId="204.[1450,2657,3387,3470]" box="[1451,2106,3387,3420]" pageId="204" pageNumber="966">
 <emphasis bold="true" box="[1451,1614,3387,3420]" pageId="204" pageNumber="966">Taxonomy.</emphasis>
 <taxonomicName authority="Thomas, 1898" authorityName="Thomas" authorityYear="1898" box="[1630,2101,3387,3420]" class="Mammalia" family="Vespertilionidae" genus="Pipistrellus" kingdom="Animalia" order="Chiroptera" pageId="204" pageNumber="966" phylum="Chordata" rank="species" species="ridleyi">Pipistrellus ridleyi Thomas, 1898</taxonomicName>
-, 
-<materialsCitation pageId="204" pageNumber="966">
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="204" pageNumber="966" type="materials_examined">
+<paragraph blockId="204.[1450,2657,3387,3470]" pageId="204" pageNumber="966">
+<materialsCitation ID-GBIF-Occurrence="3783319449" pageId="204" pageNumber="966">
 “ 
 <collectingRegion box="[2138,2268,3387,3420]" country="Malaysia" name="Selangor" pageId="204" pageNumber="966">Selangor</collectingRegion>
 , Malay Peninsula [= Peninsular 

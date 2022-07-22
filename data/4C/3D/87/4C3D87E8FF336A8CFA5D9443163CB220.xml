@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="266" approvalRequired_for_illustrations="1" approvalRequired_for_matCits="100" approvalRequired_for_taxonomicNames="81" approvalRequired_for_textStreams="2" approvalRequired_for_treatments="82" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF336A8CFA5D9443163CB220" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Myotis borneoensis Hill &amp; Francis 1984" docType="treatment" docVersion="6" lastPageNumber="962" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="962" updateTime="1653402593307" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF336A8CFA5D9443163CB220" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Myotis borneoensis Hill &amp; Francis 1984" docType="treatment" docVersion="11" lastPageNumber="962" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="962" updateTime="1658491128239" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6397752</mods:identifier>
+<mods:identifier type="GBIF-Dataset">45351c32-25dd-422c-bdb2-00e73deb4943</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:4C3D87E8FF336A8CFA5D9443163CB220" httpUri="http://treatment.plazi.org/id/4C3D87E8FF336A8CFA5D9443163CB220" lastPageNumber="962" pageId="200" pageNumber="962">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6577306" ID-GBIF-Taxon="195628115" ID-Zenodo-Dep="6577306" LSID="urn:lsid:plazi:treatment:4C3D87E8FF336A8CFA5D9443163CB220" httpUri="http://treatment.plazi.org/id/4C3D87E8FF336A8CFA5D9443163CB220" lastPageNumber="962" pageId="200" pageNumber="962">
 <subSubSection box="[1441,1524,538,584]" pageId="200" pageNumber="962" type="multiple">
 <paragraph blockId="200.[1440,2505,538,627]" box="[1441,1524,538,584]" pageId="200" pageNumber="962">
 <heading box="[1441,1524,538,584]" pageId="200" pageNumber="962">
@@ -82,8 +83,12 @@
 <paragraph blockId="200.[2054,2647,672,1095]" pageId="200" pageNumber="962">
 <emphasis bold="true" box="[2054,2209,672,701]" pageId="200" pageNumber="962">Taxonomy.</emphasis>
 <taxonomicName authority="Hill &amp; Francis, 1984" authorityName="Hill &amp; Francis" authorityYear="1984" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="200" pageNumber="962" phylum="Chordata" rank="subSpecies" species="montivagus" subSpecies="borneoensis">Myotis montivagus borneoensis Hill &amp; Francis, 1984</taxonomicName>
-, 
-<materialsCitation pageId="200" pageNumber="962">
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="200" pageNumber="962" type="materials_examined">
+<paragraph blockId="200.[2054,2647,672,1095]" pageId="200" pageNumber="962">
+<materialsCitation ID-GBIF-Occurrence="3783319638" pageId="200" pageNumber="962">
 Sepilok, 
 <collectingRegion box="[2484,2570,711,740]" country="Malaysia" name="Sabah" pageId="200" pageNumber="962">Sabah</collectingRegion>
 , Borneo.
@@ -93,7 +98,7 @@ Sepilok,
 <subSubSection pageId="200" pageNumber="962" type="discussion">
 <paragraph blockId="200.[2054,2647,672,1095]" pageId="200" pageNumber="962">
 Subgenus 
-<taxonomicName box="[2232,2316,785,818]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="200" pageNumber="962" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[2232,2316,785,818]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="200" pageNumber="962" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 ; 
 <taxonomicName baseAuthorityName="Dobson" baseAuthorityYear="1874" box="[2364,2510,785,818]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="200" pageNumber="962" phylum="Chordata" rank="species" species="montivagus">montivagus</taxonomicName>
 species group. Based on morphological and morphometric differences, M. borneoensis was separated from 
@@ -110,7 +115,7 @@ N Borneo and scattered localities in
 , Kalimantan, and 
 <collectingCountry box="[2057,2173,1062,1095]" name="Malaysia" pageId="200" pageNumber="962">Sarawak</collectingCountry>
 . Recently, a medium-large brown 
-<taxonomicName box="[1444,1528,1103,1136]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="200" pageNumber="962" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[1444,1528,1103,1136]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="200" pageNumber="962" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 (tentatively assigned to this species) was collected in Bukit Barisan Selatan National Park, S Sumatra, but this needs to be confirmed by genetic analyses.
 </paragraph>
 </caption>
@@ -157,7 +162,7 @@ No information.
 <paragraph blockId="200.[1444,2655,1103,2322]" box="[1445,2322,1775,1808]" pageId="200" pageNumber="962">
 <emphasis bold="true" box="[1445,1681,1775,1808]" pageId="200" pageNumber="962">Activity patterns.</emphasis>
 The Bornean Whiskered 
-<taxonomicName box="[2049,2138,1775,1808]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="200" pageNumber="962" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[2049,2138,1775,1808]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="200" pageNumber="962" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 is nocturnal.
 </paragraph>
 </subSubSection>
@@ -167,17 +172,17 @@ is nocturnal.
 In a survey of small mammals in Bukit Sarang, Bintulu division, 
 <collectingCountry box="[1894,2009,1861,1886]" name="Malaysia" pageId="200" pageNumber="962">Sarawak</collectingCountry>
 , the Bornean Whiskered 
-<taxonomicName box="[2377,2467,1861,1886]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="200" pageNumber="962" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[2377,2467,1861,1886]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="200" pageNumber="962" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 (under 
 <taxonomicName baseAuthorityName="Dobson" baseAuthorityYear="1874" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="200" pageNumber="962" phylum="Chordata" rank="species" species="montivagus">montivagus</taxonomicName>
 ) was captured syntopically with other four 
-<taxonomicName box="[2171,2255,1892,1925]" pageId="200" pageNumber="962">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[2171,2255,1892,1925]" pageId="200" pageNumber="962">Myotis</taxonomicName>
 species—Horsfield’s 
-<taxonomicName box="[2562,2652,1892,1925]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="200" pageNumber="962" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[2562,2652,1892,1925]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="200" pageNumber="962" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 (
 <taxonomicName baseAuthorityName="Peters" baseAuthorityYear="1866" box="[1461,1608,1932,1965]" class="Mammalia" family="Vespertilionidae" genus="Myotis" isUncertain="true" kingdom="Animalia" order="Chiroptera" pageId="200" pageNumber="962" phylum="Chordata" rank="species" species="ater">M. cf. ater</taxonomicName>
 ), Gomantong 
-<taxonomicName box="[1819,1908,1932,1965]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="200" pageNumber="962" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[1819,1908,1932,1965]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="200" pageNumber="962" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 (
 <taxonomicName authorityName="Hill &amp; Francis" authorityYear="1998" box="[1934,2192,1932,1965]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="200" pageNumber="961" phylum="Chordata" rank="species" species="gomantongensis">M. gomantongensis</taxonomicName>
 ), and M. sp. undescribed. Bukit Sarang is a 700-m long and 80-m high limestone outcrop, surrounded by freshwater swamp forest inundated to a depth of 0-5- 
@@ -189,7 +194,7 @@ several times per year. In East Kalimantan, it collected in a cave in karst area
 <paragraph blockId="200.[1444,2655,1103,2322]" pageId="200" pageNumber="962">
 <emphasis bold="true" box="[1449,1812,2090,2123]" pageId="200" pageNumber="962">Status and Conservation.</emphasis>
 Classified as Data Deficient on The IUCN Red List. The Bornean Whiskered 
-<taxonomicName box="[1746,1835,2129,2162]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="200" pageNumber="962" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[1746,1835,2129,2162]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="200" pageNumber="962" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 is known from only a few specimens, and little is known aboutits distribution, abundance, ecology, or conservation threats.
 </paragraph>
 </subSubSection>

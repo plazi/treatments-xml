@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="266" approvalRequired_for_illustrations="1" approvalRequired_for_matCits="100" approvalRequired_for_taxonomicNames="81" approvalRequired_for_textStreams="2" approvalRequired_for_treatments="82" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF466AFAFA8E9A951D07B3C5" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Myotis rufoniger" docType="treatment" docVersion="7" lastPageNumber="952" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="951" updateTime="1653402593307" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF466AFAFA8E9A951D07B3C5" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Myotis rufoniger" docType="treatment" docVersion="12" lastPageNumber="952" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="951" updateTime="1658491128239" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6397752</mods:identifier>
+<mods:identifier type="GBIF-Dataset">45351c32-25dd-422c-bdb2-00e73deb4943</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:4C3D87E8FF466AFAFA8E9A951D07B3C5" httpUri="http://treatment.plazi.org/id/4C3D87E8FF466AFAFA8E9A951D07B3C5" lastPageId="190" lastPageNumber="952" pageId="189" pageNumber="951">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6577302" ID-GBIF-Taxon="195628173" ID-Zenodo-Dep="6577302" LSID="urn:lsid:plazi:treatment:4C3D87E8FF466AFAFA8E9A951D07B3C5" httpUri="http://treatment.plazi.org/id/4C3D87E8FF466AFAFA8E9A951D07B3C5" lastPageId="190" lastPageNumber="952" pageId="189" pageNumber="951">
 <subSubSection box="[1394,1477,3276,3326]" pageId="189" pageNumber="951" type="multiple">
 <paragraph blockId="189.[1392,2298,3276,3409]" box="[1394,1477,3276,3326]" pageId="189" pageNumber="951">
 <heading box="[1394,1477,3276,3326]" pageId="189" pageNumber="951">
@@ -84,12 +85,16 @@
 </heading>
 </paragraph>
 </subSubSection>
-<subSubSection box="[1392,2259,3450,3483]" pageId="189" pageNumber="951" type="reference_group">
-<paragraph blockId="189.[1391,2260,3450,3493]" box="[1392,2259,3450,3483]" pageId="189" pageNumber="951">
+<subSubSection box="[1392,2007,3450,3483]" pageId="189" pageNumber="951" type="reference_group">
+<paragraph blockId="189.[1391,2260,3450,3493]" box="[1392,2007,3450,3483]" pageId="189" pageNumber="951">
 <emphasis bold="true" box="[1392,1548,3450,3483]" pageId="189" pageNumber="951">Taxonomy.</emphasis>
 <taxonomicName authority="Tomes, 1858" authorityName="Tomes" authorityYear="1858" box="[1563,2002,3450,3483]" class="Mammalia" family="Vespertilionidae" genus="Vespertilio" kingdom="Animalia" order="Chiroptera" pageId="189" pageNumber="951" phylum="Chordata" rank="species" species="rufo-niger">Vespertilio rufo-niger Tomes, 1858</taxonomicName>
-, 
-<materialsCitation box="[2019,2259,3450,3483]" pageId="189" pageNumber="951">
+,
+</paragraph>
+</subSubSection>
+<subSubSection box="[2019,2259,3450,3483]" pageId="189" pageNumber="951" type="materials_examined">
+<paragraph blockId="189.[1391,2260,3450,3493]" box="[2019,2259,3450,3483]" pageId="189" pageNumber="951">
+<materialsCitation ID-GBIF-Occurrence="3783319768" box="[2019,2259,3450,3483]" pageId="189" pageNumber="951">
 <collectingRegion box="[2019,2152,3450,3483]" country="China" name="Shanghai" pageId="189" pageNumber="951">Shanghai</collectingRegion>
 , 
 <collectingCountry box="[2168,2254,3450,3483]" name="China" pageId="189" pageNumber="951">China</collectingCountry>
@@ -150,7 +155,7 @@ Head-body 57-
 ; weight 
 <quantity box="[864,972,721,754]" metricMagnitude="-2" metricUnit="kg" metricValue="1.25" metricValueMax="1.3" metricValueMin="1.2" pageId="190" pageNumber="952" unit="g" value="12.5" valueMax="13.0" valueMin="12.0">12-13 g</quantity>
 . Fur is woolly and long; dark rusty orange dorsally and ventrally with smoky appearance throughout (hairs with slate-gray base, yellowish middle band, and dark brown tips). Ears are long, narrow, and slightly egg-shaped; tragusis sickle-sshaped and bent forward with relatively pointed tip. Wings are black, with orange broadly surrounding bones and near body. Uropatagium is completely orange, and ears are dark orange with black along edges. Nose tip, thumbs, and feet area are entirely black, and face is essentially orange (darker than in the Black-and-orange 
-<taxonomicName box="[528,620,997,1030]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="190" pageNumber="952" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[528,620,997,1030]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="190" pageNumber="952" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 , 
 <taxonomicName baseAuthorityName="Hodgson" baseAuthorityYear="1835" box="[640,806,997,1030]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="190" pageNumber="950" phylum="Chordata" rank="species" species="formosus">M. formosus</taxonomicName>
 ). Wings are attached to base of first toe and are furred along the body. Skull has slightly elevated frontal region; sagittal and lambdoidal crests are moderately strong. Dentition is moderately robust, including canines; basal area of P? is about two-thirds that of P* and usually in tooth row, rarely displaced lingually; P, is well developed and at least two-thirds the basal area of P,. Chromosomal complement has 2n = 44 and FNa = 50 (
@@ -172,7 +177,7 @@ and
 <paragraph blockId="190.[173,1381,721,2295]" pageId="190" pageNumber="952">
 <emphasis bold="true" box="[174,436,1273,1306]" pageId="190" pageNumber="952">Food and Feeding.</emphasis>
 The Reddish-black 
-<taxonomicName authority="Appears" authorityName="Appears" box="[720,810,1273,1306]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="190" pageNumber="952" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" authorityName="Appears" box="[720,810,1273,1306]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="190" pageNumber="952" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 Appears to feed mostly on moths, along with few ants and spiders.
 </paragraph>
 </subSubSection>
@@ -180,7 +185,7 @@ Appears to feed mostly on moths, along with few ants and spiders.
 <paragraph blockId="190.[173,1381,721,2295]" pageId="190" pageNumber="952">
 <emphasis bold="true" box="[174,309,1352,1385]" pageId="190" pageNumber="952">Breeding.</emphasis>
 The Reddish-black 
-<taxonomicName box="[599,689,1352,1385]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="190" pageNumber="952" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[599,689,1352,1385]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="190" pageNumber="952" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 seems to breed in late October, but fertilization does not occur until ovulation, after the bats awaken from hibernation in spring; sperm is stored in female’s reproductive track during hibernation. Females give birth to 1-2 (usually one) young in late June and early July in 
 <collectingCountry box="[1010,1096,1471,1504]" name="South Korea" pageId="190" pageNumber="952">Korea</collectingCountry>
 . Maternity colonies are known from 
@@ -196,7 +201,7 @@ is very biased toward males at 1-8:1 to 40:1; reason unknown.
 <paragraph blockId="190.[173,1381,721,2295]" pageId="190" pageNumber="952">
 <emphasis bold="true" box="[173,408,1629,1662]" pageId="190" pageNumber="952">Activity patterns.</emphasis>
 The Reddish-black 
-<taxonomicName box="[693,783,1629,1662]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="190" pageNumber="952" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[693,783,1629,1662]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="190" pageNumber="952" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 roosts in caves during autumn, and hibernates through winter in northern areas; can be found roosting in forested and shrubby areas, in foliage of broadleaved trees. Summer roosts are generally only c. 
 <quantity box="[1202,1301,1708,1741]" metricMagnitude="3" metricUnit="m" metricValue="4.5" metricValueMax="5.0" metricValueMin="4.0" pageId="190" pageNumber="952" unit="km" value="4.5" valueMax="5.0" valueMin="4.0">4-5 km</quantity>
 from the hibernacula.
@@ -206,7 +211,7 @@ from the hibernacula.
 <paragraph blockId="190.[173,1381,721,2295]" pageId="190" pageNumber="952">
 <emphasis bold="true" box="[174,889,1786,1819]" pageId="190" pageNumber="952">Movements, Home range and Social organization.</emphasis>
 The Reddish-black 
-<taxonomicName box="[1182,1271,1786,1819]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="190" pageNumber="952" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[1182,1271,1786,1819]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="190" pageNumber="952" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 usually roosts alone or in small groups, although when hibernating or in maternity colonies, it can congregate in large numbers. Radio-telemetry shows that these bats generally forage only within a small area within ¢. 
 <quantity box="[729,819,1905,1938]" metricMagnitude="2" metricUnit="m" metricValue="2.0" pageId="190" pageNumber="952" unit="m" value="200.0">200 m</quantity>
 of their roost.
@@ -216,7 +221,7 @@ of their roost.
 <paragraph blockId="190.[173,1381,721,2295]" pageId="190" pageNumber="952">
 <emphasis bold="true" box="[175,522,1944,1977]" pageId="190" pageNumber="952">Status and Conservation.</emphasis>
 Not assessed on The IUCN Red List. The Reddish-black 
-<taxonomicName box="[1289,1378,1944,1977]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="190" pageNumber="952" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[1289,1378,1944,1977]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="190" pageNumber="952" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 is widespread and relatively common throughout much ofits distribution, although it is considered an endangered species in 
 <collectingCountry box="[746,832,2023,2056]" name="South Korea" pageId="190" pageNumber="952">Korea</collectingCountry>
 . In Hampyeong County, 

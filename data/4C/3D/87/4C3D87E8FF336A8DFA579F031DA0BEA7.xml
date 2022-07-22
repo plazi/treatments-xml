@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="266" approvalRequired_for_illustrations="1" approvalRequired_for_matCits="100" approvalRequired_for_taxonomicNames="81" approvalRequired_for_textStreams="2" approvalRequired_for_treatments="82" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF336A8DFA579F031DA0BEA7" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Myotis federatus Thomas 1916" docType="treatment" docVersion="6" lastPageNumber="963" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="962" updateTime="1653402593307" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF336A8DFA579F031DA0BEA7" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Myotis federatus Thomas 1916" docType="treatment" docVersion="11" lastPageNumber="963" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="962" updateTime="1658491128239" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6397752</mods:identifier>
+<mods:identifier type="GBIF-Dataset">45351c32-25dd-422c-bdb2-00e73deb4943</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:4C3D87E8FF336A8DFA579F031DA0BEA7" httpUri="http://treatment.plazi.org/id/4C3D87E8FF336A8DFA579F031DA0BEA7" lastPageId="201" lastPageNumber="963" pageId="200" pageNumber="962">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6577308" ID-GBIF-Taxon="195628176" ID-Zenodo-Dep="6577308" LSID="urn:lsid:plazi:treatment:4C3D87E8FF336A8DFA579F031DA0BEA7" httpUri="http://treatment.plazi.org/id/4C3D87E8FF336A8DFA579F031DA0BEA7" lastPageId="201" lastPageNumber="963" pageId="200" pageNumber="962">
 <subSubSection box="[1451,1534,2394,2440]" pageId="200" pageNumber="962" type="multiple">
 <paragraph blockId="200.[1450,2504,2394,2523]" box="[1451,1534,2394,2440]" pageId="200" pageNumber="962">
 <heading box="[1451,1534,2394,2440]" pageId="200" pageNumber="962">
@@ -94,8 +95,12 @@ Ratonero bigotudo de
 <paragraph blockId="200.[2064,2658,2567,2990]" pageId="200" pageNumber="962">
 <emphasis bold="true" box="[2064,2219,2567,2596]" pageId="200" pageNumber="962">Taxonomy.</emphasis>
 <taxonomicName authority="Thomas, 1916" authorityName="Thomas" authorityYear="1916" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="200" pageNumber="962" phylum="Chordata" rank="subSpecies" species="peyton" subSpecies="federatus">Myotis peyton federatus Thomas, 1916</taxonomicName>
-, 
-<materialsCitation pageId="200" pageNumber="962">
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="200" pageNumber="962" type="materials_examined">
+<paragraph blockId="200.[2064,2658,2567,2990]" pageId="200" pageNumber="962">
+<materialsCitation ID-GBIF-Occurrence="3783319431" pageId="200" pageNumber="962">
 “Semangko Pass, Selangor-Pahang boundary [
 <collectingCountry box="[2221,2350,2646,2675]" name="Malaysia" pageId="200" pageNumber="962">Malaysia</collectingCountry>
 ]. 
@@ -109,7 +114,7 @@ Ratonero bigotudo de
 <subSubSection pageId="200" pageNumber="962" type="discussion">
 <paragraph blockId="200.[2064,2658,2567,2990]" lastBlockId="200.[1453,2661,2998,3464]" pageId="200" pageNumber="962">
 Subgenus 
-<taxonomicName box="[2242,2327,2685,2714]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="200" pageNumber="962" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[2242,2327,2685,2714]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="200" pageNumber="962" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 ; 
 <taxonomicName baseAuthorityName="Dobson" baseAuthorityYear="1874" box="[2375,2521,2685,2714]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="200" pageNumber="962" phylum="Chordata" rank="species" species="montivagus">montivagus</taxonomicName>
 species group. 
@@ -163,13 +168,13 @@ and weight 8:3-12:
 (Ulu Gombak and Genting Highlands, Peninsular 
 <collectingCountry box="[1905,2024,3431,3464]" name="Malaysia" pageId="200" pageNumber="962">Malaysia</collectingCountry>
 ; wide ranges might suggest cryptic diversity). The Malaysian Whiskered Myotisis similar to Peyton's 
-<taxonomicName box="[908,998,294,327]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="201" pageNumber="963" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[908,998,294,327]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="201" pageNumber="963" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 (
 <taxonomicName authorityName="Wroughton &amp; Ryley" authorityYear="1913" box="[1023,1162,295,328]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="201" pageNumber="963" phylum="Chordata" rank="species" species="peytoni">M. peytoni</taxonomicName>
 ) but distinguished byits smaller forearm, metacarpals, and hindlegs. Furis uniform dark brown (almost blackish brown), usually without palertips. Ears are moderately large and narrow. Tragus bends forward and reaches one-half the ear length. Metacarpus is much shorter than in Peyton’s 
-<taxonomicName box="[471,562,451,484]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="201" pageNumber="963" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[471,562,451,484]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="201" pageNumber="963" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 , but first phalanx and third finger are about the same length. Skull of the Malaysian Whiskered 
-<taxonomicName box="[706,796,491,524]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="201" pageNumber="963" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[706,796,491,524]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="201" pageNumber="963" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 has slightly domed braincase. Sagittal and lambdoid crests are poorly developed; anteorbital bridgeis wide. Basal dimension of P*is one-quarter that of P*. P* is small and completely displaced from tooth row so that P? and P* are in contact. P,is small, intruded from tooth row, and notvisible laterally; P, and P, are not in contact. Condylo-canine lengths are 15-1-15- 
 <quantity box="[1100,1183,653,682]" metricMagnitude="-3" metricUnit="m" metricValue="3.0" pageId="201" pageNumber="963" unit="mm" value="3.0">3 mm</quantity>
 , maxillary tooth row lengths are 6-4-7- 
@@ -217,7 +222,7 @@ No information.
 <paragraph blockId="201.[121,1329,293,1435]" pageId="201" pageNumber="963">
 <emphasis bold="true" box="[121,361,1003,1036]" pageId="201" pageNumber="963">Activity patterns.</emphasis>
 The Malaysian Whiskered 
-<taxonomicName box="[762,851,1004,1037]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="201" pageNumber="963" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[762,851,1004,1037]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="201" pageNumber="963" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 is nocturnal. One specimen was caught at the Batu Caves, near 
 <collectingRegion box="[560,766,1041,1075]" country="Malaysia" name="Kuala Lumpur" pageId="201" pageNumber="963">Kuala Lumpur</collectingRegion>
 .
@@ -233,7 +238,7 @@ No information.
 <paragraph blockId="201.[121,1329,293,1435]" pageId="201" pageNumber="963">
 <emphasis bold="true" box="[123,477,1121,1155]" pageId="201" pageNumber="963">Status and Conservation.</emphasis>
 Classified as Data Deficient on The IUCN Red List. The Malaysian Whiskered 
-<taxonomicName box="[394,484,1162,1195]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="201" pageNumber="963" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[394,484,1162,1195]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="201" pageNumber="963" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 is known only from a few specimens, and little is known about its distribution, abundance, ecology, or conservation threats. It occurs in Belum-Temenggor Forest Reserve.
 </paragraph>
 </subSubSection>

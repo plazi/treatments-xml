@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="211" approvalRequired_for_illustrations="1" approvalRequired_for_matCits="100" approvalRequired_for_taxonomicNames="39" approvalRequired_for_textStreams="2" approvalRequired_for_treatments="69" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF346A8BFA82932516A6B6B5" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Myotis moluccarum Thomas 1915" docType="treatment" docVersion="6" lastPageNumber="969" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="969" updateTime="1653409992966" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF346A8BFA82932516A6B6B5" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Myotis moluccarum Thomas 1915" docType="treatment" docVersion="10" lastPageNumber="969" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="969" updateTime="1658491128239" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6397752</mods:identifier>
+<mods:identifier type="GBIF-Dataset">45351c32-25dd-422c-bdb2-00e73deb4943</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:4C3D87E8FF346A8BFA82932516A6B6B5" httpUri="http://treatment.plazi.org/id/4C3D87E8FF346A8BFA82932516A6B6B5" lastPageNumber="969" pageId="207" pageNumber="969">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6577952" ID-GBIF-Taxon="195628205" ID-Zenodo-Dep="6577952" LSID="urn:lsid:plazi:treatment:4C3D87E8FF346A8BFA82932516A6B6B5" httpUri="http://treatment.plazi.org/id/4C3D87E8FF346A8BFA82932516A6B6B5" lastPageNumber="969" pageId="207" pageNumber="969">
 <subSubSection box="[1406,1489,1404,1450]" pageId="207" pageNumber="969" type="multiple">
 <paragraph blockId="207.[1403,2459,1404,1534]" box="[1406,1489,1404,1450]" pageId="207" pageNumber="969">
 <heading box="[1406,1489,1404,1450]" pageId="207" pageNumber="969">
@@ -53,7 +54,7 @@
 <heading box="[1505,1811,1404,1450]" pageId="207" pageNumber="969">
 <vernacularName box="[1505,1811,1404,1450]" pageId="207" pageNumber="969">
 <collectingRegion box="[1505,1664,1404,1450]" country="Indonesia" name="Maluku Utara" pageId="207" pageNumber="969">Maluku</collectingRegion>
-<taxonomicName authority="Kaup, 1829" box="[1678,1811,1404,1450]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="207" pageNumber="969" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+Myotis
 </vernacularName>
 </heading>
 </paragraph>
@@ -94,8 +95,12 @@ Ratonero de las
 <paragraph blockId="207.[2017,2612,1582,2001]" pageId="207" pageNumber="969">
 <emphasis bold="true" box="[2017,2172,1582,1607]" pageId="207" pageNumber="969">Taxonomy.</emphasis>
 <taxonomicName authority="Thomas, 1915" authorityName="Thomas" authorityYear="1915" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="207" pageNumber="969" phylum="Chordata" rank="species" species="moluccarum">Leuconoe moluccarum Thomas, 1915</taxonomicName>
-, 
-<materialsCitation pageId="207" pageNumber="969">
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="207" pageNumber="969" type="materials_examined">
+<paragraph blockId="207.[2017,2612,1582,2001]" pageId="207" pageNumber="969">
+<materialsCitation ID-GBIF-Occurrence="3783319606" pageId="207" pageNumber="969">
 “Ara, Kei [= Kai] Islands,” 
 <collectingCountry box="[2471,2604,1618,1647]" name="Indonesia" pageId="207" pageNumber="969">Moluccas</collectingCountry>
 , 

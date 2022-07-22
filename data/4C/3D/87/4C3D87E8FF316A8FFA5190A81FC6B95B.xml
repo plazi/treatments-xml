@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="211" approvalRequired_for_illustrations="1" approvalRequired_for_matCits="100" approvalRequired_for_taxonomicNames="39" approvalRequired_for_textStreams="2" approvalRequired_for_treatments="69" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF316A8FFA5190A81FC6B95B" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Myotis laniger" docType="treatment" docVersion="6" lastPageNumber="965" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="964" updateTime="1653409992966" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF316A8FFA5190A81FC6B95B" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Myotis laniger" docType="treatment" docVersion="10" lastPageNumber="965" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="964" updateTime="1658491128239" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6397752</mods:identifier>
+<mods:identifier type="GBIF-Dataset">45351c32-25dd-422c-bdb2-00e73deb4943</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:4C3D87E8FF316A8FFA5190A81FC6B95B" httpUri="http://treatment.plazi.org/id/4C3D87E8FF316A8FFA5190A81FC6B95B" lastPageId="203" lastPageNumber="965" pageId="202" pageNumber="964">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6577930" ID-GBIF-Taxon="195628134" ID-Zenodo-Dep="6577930" LSID="urn:lsid:plazi:treatment:4C3D87E8FF316A8FFA5190A81FC6B95B" httpUri="http://treatment.plazi.org/id/4C3D87E8FF316A8FFA5190A81FC6B95B" lastPageId="203" lastPageNumber="965" pageId="202" pageNumber="964">
 <subSubSection box="[1453,1536,1777,1823]" pageId="202" pageNumber="964" type="multiple">
 <paragraph blockId="202.[1452,2390,1777,1902]" box="[1453,1536,1777,1823]" pageId="202" pageNumber="964">
 <heading box="[1453,1536,1777,1823]" pageId="202" pageNumber="964">
@@ -51,10 +52,7 @@
 <subSubSection box="[1553,2005,1777,1823]" pageId="202" pageNumber="964" type="vernacular_names">
 <paragraph blockId="202.[1452,2390,1777,1902]" box="[1553,2005,1777,1823]" pageId="202" pageNumber="964">
 <heading box="[1553,2005,1777,1823]" pageId="202" pageNumber="964">
-<vernacularName box="[1553,2005,1777,1823]" pageId="202" pageNumber="964">
-Chinese Water 
-<taxonomicName authority="Kaup, 1829" box="[1871,2005,1777,1823]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="202" pageNumber="964" phylum="Chordata" rank="genus">Myotis</taxonomicName>
-</vernacularName>
+<vernacularName box="[1553,2005,1777,1823]" pageId="202" pageNumber="964">Chinese Water Myotis</vernacularName>
 </heading>
 </paragraph>
 </subSubSection>
@@ -97,8 +95,12 @@ Chinese Water
 <taxonomicName authority="Peters" authorityName="Peters" authorityYear="1871" box="[2255,2603,1944,1977]" class="Mammalia" family="Vespertilionidae" genus="Vespertilio" kingdom="Animalia" order="Chiroptera" pageId="202" pageNumber="964" phylum="Chordata" rank="species" species="laniger">Vespertilio laniger Peters</taxonomicName>
 in 
 <treatmentCitation box="[2067,2272,1988,2017]" pageId="202" pageNumber="964">Swinhoe, 1871</treatmentCitation>
-, 
-<materialsCitation box="[2287,2581,1988,2017]" pageId="202" pageNumber="964">
+,
+</paragraph>
+</subSubSection>
+<subSubSection box="[2287,2581,1988,2017]" pageId="202" pageNumber="964" type="materials_examined">
+<paragraph blockId="202.[2066,2661,1944,2373]" box="[2287,2581,1988,2017]" pageId="202" pageNumber="964">
+<materialsCitation ID-GBIF-Occurrence="3783319302" box="[2287,2581,1988,2017]" pageId="202" pageNumber="964">
 Amoy, 
 <collectingRegion box="[2384,2474,1988,2017]" country="China" name="Fujian" pageId="202" pageNumber="964">Fujian</collectingRegion>
 , 

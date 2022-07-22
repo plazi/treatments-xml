@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="154" approvalRequired_for_illustrations="1" approvalRequired_for_matCits="100" approvalRequired_for_taxonomicNames="15" approvalRequired_for_textStreams="2" approvalRequired_for_treatments="36" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF306A8FFF799AC819A3B26F" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Myotis longipes" docType="treatment" docVersion="7" lastPageNumber="965" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="965" updateTime="1653412976443" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF306A8FFF799AC819A3B26F" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Myotis longipes" docType="treatment" docVersion="11" lastPageNumber="965" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="965" updateTime="1658491128239" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6397752</mods:identifier>
+<mods:identifier type="GBIF-Dataset">45351c32-25dd-422c-bdb2-00e73deb4943</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:4C3D87E8FF306A8FFF799AC819A3B26F" httpUri="http://treatment.plazi.org/id/4C3D87E8FF306A8FFF799AC819A3B26F" lastPageNumber="965" pageId="203" pageNumber="965">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6577934" ID-GBIF-Taxon="195628204" ID-Zenodo-Dep="6577934" LSID="urn:lsid:plazi:treatment:4C3D87E8FF306A8FFF799AC819A3B26F" httpUri="http://treatment.plazi.org/id/4C3D87E8FF306A8FFF799AC819A3B26F" lastPageNumber="965" pageId="203" pageNumber="965">
 <subSubSection box="[133,215,3217,3263]" pageId="203" pageNumber="965" type="multiple">
 <paragraph blockId="203.[131,1190,3217,3342]" box="[133,215,3217,3263]" pageId="203" pageNumber="965">
 <heading box="[133,215,3217,3263]" pageId="203" pageNumber="965">
@@ -51,10 +52,7 @@
 <subSubSection box="[233,667,3217,3263]" pageId="203" pageNumber="965" type="vernacular_names">
 <paragraph blockId="203.[131,1190,3217,3342]" box="[233,667,3217,3263]" pageId="203" pageNumber="965">
 <heading box="[233,667,3217,3263]" pageId="203" pageNumber="965">
-<vernacularName box="[233,667,3217,3263]" pageId="203" pageNumber="965">
-Kashmir Cave 
-<taxonomicName authority="Kaup, 1829" box="[534,667,3217,3263]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="203" pageNumber="965" phylum="Chordata" rank="genus">Myotis</taxonomicName>
-</vernacularName>
+<vernacularName box="[233,667,3217,3263]" pageId="203" pageNumber="965">Kashmir Cave Myotis</vernacularName>
 </heading>
 </paragraph>
 </subSubSection>
@@ -87,12 +85,16 @@ Kashmir Cave
 </heading>
 </paragraph>
 </subSubSection>
-<subSubSection pageId="203" pageNumber="965" type="reference_group">
-<paragraph blockId="203.[130,1338,3388,3466]" pageId="203" pageNumber="965">
+<subSubSection box="[131,725,3388,3421]" pageId="203" pageNumber="965" type="reference_group">
+<paragraph blockId="203.[130,1338,3388,3466]" box="[131,725,3388,3421]" pageId="203" pageNumber="965">
 <emphasis bold="true" box="[131,284,3388,3421]" pageId="203" pageNumber="965">Taxonomy.</emphasis>
 <taxonomicName authority="Dobson, 1873" authorityName="Dobson" authorityYear="1873" box="[298,720,3388,3421]" class="Mammalia" family="Vespertilionidae" genus="Vespertilio" kingdom="Animalia" order="Chiroptera" pageId="203" pageNumber="965" phylum="Chordata" rank="species" species="longipes">Vespertilio longipes Dobson, 1873</taxonomicName>
-, 
-<materialsCitation pageId="203" pageNumber="965">
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="203" pageNumber="965" type="materials_examined">
+<paragraph blockId="203.[130,1338,3388,3466]" pageId="203" pageNumber="965">
+<materialsCitation ID-GBIF-Occurrence="3783319316" pageId="203" pageNumber="965">
 “caves of Bhima Devi, in Kashmir [
 <collectingCountry box="[1208,1288,3388,3421]" name="India" pageId="203" pageNumber="965">India</collectingCountry>
 ], at an elevation of 
@@ -102,6 +104,8 @@ Kashmir Cave
 ].”
 </materialsCitation>
 </paragraph>
+</subSubSection>
+<subSubSection pageId="203" pageNumber="965" type="discussion">
 <paragraph blockId="203.[2027,2622,277,698]" lastBlockId="203.[1411,2622,705,2397]" pageId="203" pageNumber="965">
 Subgenus 
 <taxonomicName authority="Kaup, 1829" baseAuthorityName="Horsfield" baseAuthorityYear="1855" box="[2176,2413,277,306]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="203" pageNumber="965" phylum="Chordata" rank="genus" species="siligorensis">Myotis; siligorensis</taxonomicName>

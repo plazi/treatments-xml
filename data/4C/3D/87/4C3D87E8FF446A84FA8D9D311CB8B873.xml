@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="1530" approvalRequired_for_illustrations="1" approvalRequired_for_matCits="143" approvalRequired_for_taxonomicNames="590" approvalRequired_for_textStreams="13" approvalRequired_for_treatments="783" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF446A84FA8D9D311CB8B873" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Myotis anjouanensis Dorst 1960" docType="treatment" docVersion="5" lastPageNumber="954" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="953" updateTime="1653055091282" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF446A84FA8D9D311CB8B873" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Myotis anjouanensis Dorst 1960" docType="treatment" docVersion="10" lastPageNumber="954" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="953" updateTime="1658491128239" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6397752</mods:identifier>
+<mods:identifier type="GBIF-Dataset">45351c32-25dd-422c-bdb2-00e73deb4943</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6403751" ID-Zenodo-Dep="6403751" LSID="urn:lsid:plazi:treatment:4C3D87E8FF446A84FA8D9D311CB8B873" httpUri="http://treatment.plazi.org/id/4C3D87E8FF446A84FA8D9D311CB8B873" lastPageId="192" lastPageNumber="954" pageId="191" pageNumber="953">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6403751" ID-GBIF-Taxon="195628221" ID-Zenodo-Dep="6403751" LSID="urn:lsid:plazi:treatment:4C3D87E8FF446A84FA8D9D311CB8B873" httpUri="http://treatment.plazi.org/id/4C3D87E8FF446A84FA8D9D311CB8B873" lastPageId="192" lastPageNumber="954" pageId="191" pageNumber="953">
 <subSubSection box="[1393,1476,2920,2966]" pageId="191" pageNumber="953" type="multiple">
 <paragraph blockId="191.[1391,2271,2920,3008]" box="[1393,1476,2920,2966]" pageId="191" pageNumber="953">
 <heading box="[1393,1476,2920,2966]" pageId="191" pageNumber="953">
@@ -53,7 +54,7 @@
 <heading box="[1490,1820,2920,2966]" pageId="191" pageNumber="953">
 <vernacularName box="[1490,1820,2920,2966]" pageId="191" pageNumber="953">
 <collectingRegion box="[1490,1671,2920,2966]" country="Comoros" name="Anjouan" pageId="191" pageNumber="953">Anjouan</collectingRegion>
-<taxonomicName box="[1686,1820,2920,2966]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="191" pageNumber="953" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+Myotis
 </vernacularName>
 </heading>
 </paragraph>
@@ -89,11 +90,13 @@ Ratonero de
 <emphasis bold="true" box="[2005,2160,3051,3084]" pageId="191" pageNumber="953">Taxonomy.</emphasis>
 <taxonomicName baseAuthorityName="A. Smith" baseAuthorityYear="1834" box="[2176,2366,3051,3084]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="191" pageNumber="953" phylum="Chordata" rank="species" species="goudoti">Myotis goudoti</taxonomicName>
 <taxonomicName authority="Dorst, 1960" authorityName="Dorst" authorityYear="1960" class="Mammalia" family="Vespertilionidae" genus="Myotis" isUncertain="true" kingdom="Animalia" order="Chiroptera" pageId="191" pageNumber="953" phylum="Chordata" rank="species" species="anjouanensis">[sic] anjouanensis Dorst, 1960</taxonomicName>
-, 
-<materialsCitation pageId="191" pageNumber="953">
-“Anjouan [
-<collectingCountry box="[2410,2506,3095,3124]" name="Iceland" pageId="191" pageNumber="953">Island</collectingCountry>
-],” 
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="191" pageNumber="953" type="materials_examined">
+<paragraph blockId="191.[2004,2600,3051,3479]" pageId="191" pageNumber="953">
+<materialsCitation ID-GBIF-Occurrence="3783319344" pageId="191" pageNumber="953">
+“Anjouan [Island],” 
 <collectingCountry name="Comoros" pageId="191" pageNumber="953">CoMoros</collectingCountry>
 .
 </materialsCitation>
@@ -136,7 +139,7 @@ Head-body c.
 ; weight 6- 
 <quantity box="[2365,2407,3446,3479]" metricMagnitude="-3" metricUnit="kg" metricValue="6.0" pageId="191" pageNumber="953" unit="g" value="6.0">6 g</quantity>
 (all measurements from single female). Similar to the Malagasy 
-<taxonomicName box="[899,988,287,320]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="192" pageNumber="954" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[899,988,287,320]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="192" pageNumber="954" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 (
 <taxonomicName baseAuthorityName="A.Smith" baseAuthorityYear="1834" box="[1010,1160,287,320]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="192" pageNumber="57" phylum="Chordata" rank="species" species="goudotii">M. goudotii</taxonomicName>
 ) but larger with dark reddish brown dorsal pelage.

@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="1530" approvalRequired_for_illustrations="1" approvalRequired_for_matCits="143" approvalRequired_for_taxonomicNames="590" approvalRequired_for_textStreams="13" approvalRequired_for_treatments="783" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF406AFFFF7E97551A17B2BF" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Myotis hermani Thomas 1923" docType="treatment" docVersion="5" lastPageNumber="949" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="949" updateTime="1653055091282" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF406AFFFF7E97551A17B2BF" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Myotis hermani Thomas 1923" docType="treatment" docVersion="11" lastPageNumber="949" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="949" updateTime="1658491128239" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6397752</mods:identifier>
+<mods:identifier type="GBIF-Dataset">45351c32-25dd-422c-bdb2-00e73deb4943</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:4C3D87E8FF406AFFFF7E97551A17B2BF" httpUri="http://treatment.plazi.org/id/4C3D87E8FF406AFFFF7E97551A17B2BF" lastPageNumber="949" pageId="187" pageNumber="949">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6566912" ID-GBIF-Taxon="195628214" ID-Zenodo-Dep="6566912" LSID="urn:lsid:plazi:treatment:4C3D87E8FF406AFFFF7E97551A17B2BF" httpUri="http://treatment.plazi.org/id/4C3D87E8FF406AFFFF7E97551A17B2BF" lastPageNumber="949" pageId="187" pageNumber="949">
 <subSubSection box="[130,213,268,314]" pageId="187" pageNumber="949" type="multiple">
 <paragraph blockId="187.[128,1018,268,392]" box="[130,213,268,314]" pageId="187" pageNumber="949">
 <heading box="[130,213,268,314]" pageId="187" pageNumber="949">
@@ -51,10 +52,7 @@
 <subSubSection box="[230,582,268,314]" pageId="187" pageNumber="949" type="vernacular_names">
 <paragraph blockId="187.[128,1018,268,392]" box="[230,582,268,314]" pageId="187" pageNumber="949">
 <heading box="[230,582,268,314]" pageId="187" pageNumber="949">
-<vernacularName box="[230,582,268,314]" pageId="187" pageNumber="949">
-Herman's 
-<taxonomicName box="[449,582,268,314]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="187" pageNumber="949" phylum="Chordata" rank="genus">Myotis</taxonomicName>
-</vernacularName>
+<vernacularName box="[230,582,268,314]" pageId="187" pageNumber="949">Herman's Myotis</vernacularName>
 </heading>
 </paragraph>
 </subSubSection>
@@ -89,15 +87,17 @@ Herman's
 </heading>
 </paragraph>
 </subSubSection>
-<subSubSection pageId="187" pageNumber="949" type="reference_group">
-<paragraph blockId="187.[741,1334,440,865]" pageId="187" pageNumber="949">
+<subSubSection box="[741,1331,440,473]" pageId="187" pageNumber="949" type="reference_group">
+<paragraph blockId="187.[741,1334,440,865]" box="[741,1331,440,473]" pageId="187" pageNumber="949">
 <emphasis bold="true" box="[741,899,440,473]" pageId="187" pageNumber="949">Taxonomy.</emphasis>
 <taxonomicName authority="Thomas, 1923" authorityName="Thomas" authorityYear="1923" box="[912,1326,440,473]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="187" pageNumber="949" phylum="Chordata" rank="species" species="hermani">Myotis hermani Thomas, 1923</taxonomicName>
-, 
-<materialsCitation pageId="187" pageNumber="949">
-“Sabang [
-<collectingCountry box="[886,982,481,510]" name="Iceland" pageId="187" pageNumber="949">Island</collectingCountry>
-], N.W. of 
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="187" pageNumber="949" type="materials_examined">
+<paragraph blockId="187.[741,1334,440,865]" pageId="187" pageNumber="949">
+<materialsCitation ID-GBIF-Occurrence="3783319746" pageId="187" pageNumber="949">
+“Sabang [Island], N.W. of 
 <collectingRegion box="[1140,1264,481,510]" country="Indonesia" name="Sumatera Utara" pageId="187" pageNumber="949">Sumatra</collectingRegion>
 ,” 
 <collectingCountry name="Indonesia" pageId="187" pageNumber="949">Indonesia</collectingCountry>
@@ -147,11 +147,11 @@ Head—body
 ; weight 
 <quantity box="[727,832,950,983]" metricMagnitude="-2" metricUnit="kg" metricValue="2.0" metricValueMax="2.4" metricValueMin="1.6" pageId="187" pageNumber="949" unit="g" value="20.0" valueMax="24.0" valueMin="16.0">16-24 g</quantity>
 . Largest member of subgenus Chrysopteron. Overall coloration is “rufoniger-type.” Fur on upperparts is bright orange brown, with paler bases to hairs; underparts are similar and only slightly paler; hairs have buffcolored roots and orange tips, the latter frosted with black (not present in the Blackand-orange 
-<taxonomicName box="[298,389,1108,1141]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="187" pageNumber="949" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[298,389,1108,1141]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="187" pageNumber="949" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 , 
 <taxonomicName baseAuthorityName="Hodgson" baseAuthorityYear="1835" box="[405,568,1108,1141]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="187" pageNumber="949" phylum="Chordata" rank="species" species="formosus">M. formosus</taxonomicName>
 ). Wing and interfemoral membranes have orange and black patches, with those parts near the body, forearms and fingers pinkish orange. Ears are dark orange with black rims, and have concave posterior border; tragus is slender,fairly long, and pointed. Feet not greatly enlarged. Larger and redder than the Black-and-orange 
-<taxonomicName box="[384,476,1266,1299]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="187" pageNumber="949" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[384,476,1266,1299]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="187" pageNumber="949" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 . The Painted Woolly Bat (Keriwwoula 
 <taxonomicName box="[995,1063,1266,1299]" class="Magnoliopsida" family="Nepenthaceae" genus="Kerwoula" kingdom="Plantae" order="Caryophyllales" pageId="187" pageNumber="949" phylum="Tracheophyta" rank="species" species="picta">picta</taxonomicName>
 ), with similar wing pattern, is smaller, with funnel-shaped ears, more pointed tragus, and no black on ears and legs. Skull is as in congeners, but significantly larger, with shallow but distinct frontal depression, posteriorly elongated supraoccipital, and well-developed sagittal and lambdoid crests. Dental formula for all members of genusis12/3,C1/1,P 3/3, M 3/3 (x2) = 38. Dental characters are similar to other members of subgenus Chrysopteron. Basal dimensions of C' exceed those of P*, whereas P° is minute, fully displaced lingually, and obscured in lateral view of skull. P, is half the size of P, and partly out of the tooth row. Condylo-basal length 19- 
@@ -179,7 +179,7 @@ Found in mature lowland forest in
 <paragraph blockId="187.[126,1337,876,2445]" box="[127,1246,1740,1773]" pageId="187" pageNumber="949">
 <emphasis bold="true" box="[127,389,1740,1773]" pageId="187" pageNumber="949">Food and Feeding.</emphasis>
 Herman's 
-<taxonomicName box="[550,639,1740,1773]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="187" pageNumber="949" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[550,639,1740,1773]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="187" pageNumber="949" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 probably feeds outside fragmented forests.
 </paragraph>
 </subSubSection>
@@ -207,7 +207,7 @@ No information.
 <paragraph blockId="187.[126,1337,876,2445]" pageId="187" pageNumber="949">
 <emphasis bold="true" box="[128,478,2096,2129]" pageId="187" pageNumber="949">Status and Conservation.</emphasis>
 Classified as Data Deficient on The IUCN Red List. Herman's 
-<taxonomicName box="[128,217,2135,2168]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="187" pageNumber="949" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[128,217,2135,2168]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="187" pageNumber="949" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 is only known from only three individuals. It may be declining due to loss of habitat, and is a priority for survey work. The known records are all from protected areas (Khuan Kaowang Forest Park in 
 <collectingCountry box="[672,801,2214,2247]" name="Thailand" pageId="187" pageNumber="949">Thailand</collectingCountry>
 , Belum-Temenggor Forest Reserve in Peninsular 

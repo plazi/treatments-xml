@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="1530" approvalRequired_for_illustrations="1" approvalRequired_for_matCits="143" approvalRequired_for_taxonomicNames="590" approvalRequired_for_textStreams="13" approvalRequired_for_treatments="783" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF456AFAFF4C9F651909BD64" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Myotis scotti Thomas 1927" docType="treatment" docVersion="5" lastPageNumber="952" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="952" updateTime="1653055091282" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF456AFAFF4C9F651909BD64" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Myotis scotti Thomas 1927" docType="treatment" docVersion="10" lastPageNumber="952" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="952" updateTime="1658491128239" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6397752</mods:identifier>
+<mods:identifier type="GBIF-Dataset">45351c32-25dd-422c-bdb2-00e73deb4943</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:4C3D87E8FF456AFAFF4C9F651909BD64" httpUri="http://treatment.plazi.org/id/4C3D87E8FF456AFAFF4C9F651909BD64" lastPageNumber="952" pageId="190" pageNumber="952">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6577889" ID-GBIF-Taxon="195628162" ID-Zenodo-Dep="6577889" LSID="urn:lsid:plazi:treatment:4C3D87E8FF456AFAFF4C9F651909BD64" httpUri="http://treatment.plazi.org/id/4C3D87E8FF456AFAFF4C9F651909BD64" lastPageNumber="952" pageId="190" pageNumber="952">
 <subSubSection box="[176,259,2364,2414]" pageId="190" pageNumber="952" type="multiple">
 <paragraph blockId="190.[174,978,2364,2497]" box="[176,259,2364,2414]" pageId="190" pageNumber="952">
 <heading box="[176,259,2364,2414]" pageId="190" pageNumber="952">
@@ -51,10 +52,7 @@
 <subSubSection box="[276,555,2364,2414]" pageId="190" pageNumber="952" type="vernacular_names">
 <paragraph blockId="190.[174,978,2364,2497]" box="[276,555,2364,2414]" pageId="190" pageNumber="952">
 <heading box="[276,555,2364,2414]" pageId="190" pageNumber="952">
-<vernacularName box="[276,555,2364,2414]" pageId="190" pageNumber="952">
-Scott's 
-<taxonomicName box="[422,555,2364,2414]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="190" pageNumber="952" phylum="Chordata" rank="genus">Myotis</taxonomicName>
-</vernacularName>
+<vernacularName box="[276,555,2364,2414]" pageId="190" pageNumber="952">Scott's Myotis</vernacularName>
 </heading>
 </paragraph>
 </subSubSection>
@@ -89,12 +87,16 @@ Scott's
 </heading>
 </paragraph>
 </subSubSection>
-<subSubSection pageId="190" pageNumber="952" type="reference_group">
-<paragraph blockId="190.[788,1381,2542,2964]" pageId="190" pageNumber="952">
+<subSubSection box="[788,1379,2542,2571]" pageId="190" pageNumber="952" type="reference_group">
+<paragraph blockId="190.[788,1381,2542,2964]" box="[788,1379,2542,2571]" pageId="190" pageNumber="952">
 <emphasis bold="true" box="[788,943,2542,2571]" pageId="190" pageNumber="952">Taxonomy.</emphasis>
 <taxonomicName authority="Thomas, 1927" authorityName="Thomas" authorityYear="1927" box="[970,1374,2542,2571]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="190" pageNumber="952" phylum="Chordata" rank="species" species="scotti">Myotis scotti Thomas, 1927</taxonomicName>
-, 
-<materialsCitation pageId="190" pageNumber="952">
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="190" pageNumber="952" type="materials_examined">
+<paragraph blockId="190.[788,1381,2542,2964]" pageId="190" pageNumber="952">
+<materialsCitation ID-GBIF-Occurrence="3783319340" pageId="190" pageNumber="952">
 “Djem-Djem Forest, about 
 <quantity box="[1241,1380,2577,2610]" metricMagnitude="4" metricUnit="m" metricValue="6.437376" pageId="190" pageNumber="952" unit="mi" value="40.0">40 miles</quantity>
 [= 
@@ -159,25 +161,25 @@ Head-body
 , and maxillary tooth rows 5.2- 
 <quantity box="[1162,1275,3059,3084]" metricMagnitude="-3" metricUnit="m" metricValue="6.0" metricValueMax="7.0" metricValueMin="5.0" pageId="190" pageNumber="952" unit="mm" value="6.0" valueMax="7.0" valueMin="5.0">5-7 mm</quantity>
 . Scott’s 
-<taxonomicName box="[177,267,3090,3123]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="190" pageNumber="952" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[177,267,3090,3123]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="190" pageNumber="952" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 superficially resembles Bocage’s 
-<taxonomicName box="[741,831,3090,3123]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="190" pageNumber="952" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[741,831,3090,3123]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="190" pageNumber="952" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 (M. bocagit) but is duller, and is distinguished by high-domed cranium and reduction of canines. Pelage is dense and slightly woolly, with silky sheen; dorsally shiny coppery-brown (hairs bicolored, dark brown with terminal third coppery-brown; mid-dorsal hairs ¢. 
 <quantity box="[956,1047,3209,3242]" metricMagnitude="-3" metricUnit="m" metricValue="7.0" pageId="190" pageNumber="952" unit="mm" value="7.0">7 mm</quantity>
 ); ventrally beige to offwhite (hairs bicolored, dark brown with white tips). Face and naked skin of muzzle are dark brown, creating conspicuous dark “mask.” Ears are medium-sized, outer margin without notch; tragus is relatively short (c.35% of ear length). Wings are uniformly dark brown without markings, attached to base offirst toe. Tibia both dorsally and ventrally haired; hindfoot is relatively short, about half length oftibia; toes with long hairs. Posterior margin of dark brown interfemoral membrane has numerous bristlelike hairs between end of calcar and tip oftail; tail fully enclosed by interfemoral membrane or slightly projecting; calcar reaches half-way to tip of tail. The three other 
-<taxonomicName box="[2572,2655,324,357]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="190" pageNumber="952" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[2572,2655,324,357]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="190" pageNumber="952" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 from sub-Saharan Africa with unpatterned wing membranes differ as follows: Bocage'’s 
-<taxonomicName box="[1450,1539,403,436]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="190" pageNumber="952" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[1450,1539,403,436]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="190" pageNumber="952" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 has flatter braincase, tricolored dorsal pelage and longer C'; Temminck’s 
-<taxonomicName class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="190" pageNumber="952" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="190" pageNumber="952" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 (
 <taxonomicName authorityName="Temminck" authorityYear="1832" box="[1501,1635,443,476]" class="Mammalia" family="Vespertilionidae" genus="Vespertilio" kingdom="Animalia" order="Chiroptera" pageId="190" pageNumber="953" phylum="Chordata" rank="species" species="tricolor">M. tricolor</taxonomicName>
 ) is larger, and wings sometimes show faint black and dark reddish-brown pattern; Kock’s 
-<taxonomicName box="[1672,1761,482,515]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="190" pageNumber="952" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[1672,1761,482,515]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="190" pageNumber="952" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 (M. 
 <taxonomicName authorityName="Happold" authorityYear="2005" box="[1836,1911,482,515]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="190" pageNumber="952" phylum="Chordata" rank="species" species="dieteri">dieteri</taxonomicName>
 ) has no face mask, has dorsal hairs dark brown with auburn tips, and forehead region weakly concave. Skull has relatively high braincase compared to Bocage’s 
-<taxonomicName box="[1774,1866,561,594]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="190" pageNumber="952" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[1774,1866,561,594]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="190" pageNumber="952" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 ; lateral profile of forehead region strongly concave; no sagittal crests. C' is very short, ¢. 
 <quantity box="[1902,2010,600,633]" metricMagnitude="-3" metricUnit="m" metricValue="1.5" metricValueMax="2.0" metricValueMin="1.0" pageId="190" pageNumber="952" unit="mm" value="1.5" valueMax="2.0" valueMin="1.0">1-2 mm</quantity>
 from cingulum to tip (
@@ -199,7 +201,7 @@ Abaya.
 <paragraph blockId="190.[1448,2658,285,1627]" pageId="190" pageNumber="952">
 <emphasis bold="true" box="[1450,1708,758,791]" pageId="190" pageNumber="952">Food and Feeding.</emphasis>
 Scott’s 
-<taxonomicName box="[1816,1905,758,791]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="190" pageNumber="952" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[1816,1905,758,791]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="190" pageNumber="952" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 has been recorded foraging 
 <quantity box="[2310,2391,758,791]" metricMagnitude="0" metricUnit="m" metricValue="2.0" metricValueMax="3.0" metricValueMin="1.0" pageId="190" pageNumber="952" unit="m" value="2.0" valueMax="3.0" valueMin="1.0">1-3 m</quantity>
 aboveground over low bushes near water. Based on morphology, it may feed mainly on small insects by slow-hawking.
@@ -231,7 +233,7 @@ The type series roosted colonially.
 Classified as Vulnerable on The IUCN Red List, because its area of occupancy may be less than 
 <quantity box="[1945,2063,1113,1146]" metricMagnitude="6" metricUnit="m" metricValue="2.0" pageId="190" pageNumber="952" unit="km" value="2000.0">2000 km</quantity>
 ?, its range is likely to be severely fragment ed, and there is continuing decline in the extent and quality of its habitat. It appears to be rare and is known from only ¢.20 specimens from about ten localities on both sides of the Rift Valley. Its forest habitat is suffering through conversion for agriculture and logging. There appear to be no conservation measures in place. Scott’s 
-<taxonomicName box="[2511,2601,1271,1304]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="190" pageNumber="952" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[2511,2601,1271,1304]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="190" pageNumber="952" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 has been recorded in Bale Mountains National Park. Sufficient areas of suitable montane forest habitat need to be preserved; further study needed.
 </paragraph>
 </subSubSection>

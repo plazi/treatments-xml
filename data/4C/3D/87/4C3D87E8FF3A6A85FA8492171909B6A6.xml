@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="266" approvalRequired_for_illustrations="1" approvalRequired_for_matCits="100" approvalRequired_for_taxonomicNames="81" approvalRequired_for_textStreams="2" approvalRequired_for_treatments="82" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF3A6A85FA8492171909B6A6" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Myotis ikonnikovi Ognev 1912" docType="treatment" docVersion="7" lastPageNumber="955" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="955" updateTime="1653402593307" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF3A6A85FA8492171909B6A6" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Myotis ikonnikovi Ognev 1912" docType="treatment" docVersion="12" lastPageNumber="955" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="955" updateTime="1658491128239" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6397752</mods:identifier>
+<mods:identifier type="GBIF-Dataset">45351c32-25dd-422c-bdb2-00e73deb4943</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:4C3D87E8FF3A6A85FA8492171909B6A6" httpUri="http://treatment.plazi.org/id/4C3D87E8FF3A6A85FA8492171909B6A6" lastPageNumber="955" pageId="193" pageNumber="955">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6577304" ID-GBIF-Taxon="195628208" ID-Zenodo-Dep="6577304" LSID="urn:lsid:plazi:treatment:4C3D87E8FF3A6A85FA8492171909B6A6" httpUri="http://treatment.plazi.org/id/4C3D87E8FF3A6A85FA8492171909B6A6" lastPageNumber="955" pageId="193" pageNumber="955">
 <subSubSection box="[1400,1483,1102,1148]" pageId="193" pageNumber="955" type="multiple">
 <paragraph blockId="193.[1398,2362,1102,1227]" box="[1400,1483,1102,1148]" pageId="193" pageNumber="955">
 <heading box="[1400,1483,1102,1148]" pageId="193" pageNumber="955">
@@ -86,12 +87,16 @@
 </heading>
 </paragraph>
 </subSubSection>
-<subSubSection pageId="193" pageNumber="955" type="reference_group">
-<paragraph blockId="193.[2010,2605,1273,1701]" pageId="193" pageNumber="955">
+<subSubSection box="[2011,2602,1273,1306]" pageId="193" pageNumber="955" type="reference_group">
+<paragraph blockId="193.[2010,2605,1273,1701]" box="[2011,2602,1273,1306]" pageId="193" pageNumber="955">
 <emphasis bold="true" box="[2011,2167,1273,1306]" pageId="193" pageNumber="955">Taxonomy.</emphasis>
 <taxonomicName authority="Ognev, 1912" authorityName="Ognev" authorityYear="1912" box="[2181,2597,1273,1306]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="193" pageNumber="955" phylum="Chordata" rank="species" species="ikonnikovi">Myotis tkonnikovi Ognev, 1912</taxonomicName>
-, 
-<materialsCitation pageId="193" pageNumber="955">
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="193" pageNumber="955" type="materials_examined">
+<paragraph blockId="193.[2010,2605,1273,1701]" pageId="193" pageNumber="955">
+<materialsCitation ID-GBIF-Occurrence="3783319510" pageId="193" pageNumber="955">
 Euseevka, Dalnerechen District, 
 <collectingRegion country="Russia" name="Primorskiy" pageId="193" pageNumber="955">Primorsky Krai</collectingRegion>
 (= Ussuri Region), 
@@ -103,7 +108,7 @@ Euseevka, Dalnerechen District,
 <subSubSection pageId="193" pageNumber="955" type="discussion">
 <paragraph blockId="193.[2010,2605,1273,1701]" pageId="193" pageNumber="955">
 Subgenus 
-<taxonomicName box="[2160,2244,1396,1425]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="193" pageNumber="955" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[2160,2244,1396,1425]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="193" pageNumber="955" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 ; 
 <taxonomicName baseAuthorityName="Kuhl" baseAuthorityYear="1817" box="[2263,2401,1396,1425]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="193" pageNumber="955" phylum="Chordata" rank="species" species="mystacinus">mystacinus</taxonomicName>
 species group (4 species), which may besister to 
@@ -145,7 +150,7 @@ Head-body
 , forearm 
 <quantity box="[1681,1831,1865,1898]" metricMagnitude="-2" metricUnit="m" metricValue="3.3" metricValueMax="3.6" metricValueMin="3.0" pageId="193" pageNumber="955" unit="mm" value="33.0" valueMax="36.0" valueMin="30.0">30-36 mm</quantity>
 . Dorsal pelage of Ikonnikov’s 
-<taxonomicName box="[2261,2350,1865,1898]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="193" pageNumber="955" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[2261,2350,1865,1898]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="193" pageNumber="955" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 is uniformly dark brown; ventral pelage slightly paler with slightly darker patch on each side of chest. Bare portions of ears, face, and membranes are dark grayish brown. Ears are relatively long and rather slender with narrowly rounded tip, shallow concavity on posterior borderjust below tip, outward-turned anterior border in middle, and are lightly furred on the inner surface; tragus is just over half ear-height and is slightly concave or straight on anterior margin and convex on posterior margin with pointed tip. Wings are attached to base of outer toe, and uropatagium lacks fringe of hairs on posterior border; calcar is keeled. Skull is small and has pointed rostrum; braincase is broad and low with abruptly rising forehead; interorbital breadth is greater than distance between canines. P? is slightly smaller than P? and is within tooth row, and not leaning inward, P,is small and within tooth row. Chromosomal complement has 2n = 44 and FNa = 52.
 </paragraph>
 </subSubSection>
@@ -153,7 +158,7 @@ is uniformly dark brown; ventral pelage slightly paler with slightly darker patc
 <paragraph blockId="193.[1391,2605,1707,3476]" pageId="193" pageNumber="955">
 <emphasis bold="true" box="[1397,1508,2343,2372]" pageId="193" pageNumber="955">Habitat.</emphasis>
 Ikonnikov’s 
-<taxonomicName box="[1694,1784,2343,2372]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="193" pageNumber="955" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[1694,1784,2343,2372]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="193" pageNumber="955" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 is mainly found in mountain forests at elevations of 
 <quantity metricMagnitude="2" metricUnit="m" metricValue="8.0" metricValueMax="10.0" metricValueMin="6.0" pageId="193" pageNumber="955" unit="m" value="800.0" valueMax="1000.0" valueMin="600.0">600— 1000 m</quantity>
 , although it has been recorded as low as 
@@ -179,7 +184,7 @@ Births are known to occur from late June to late July; lactating females and juv
 <paragraph blockId="193.[1391,2605,1707,3476]" pageId="193" pageNumber="955">
 <emphasis bold="true" box="[1394,1629,2575,2608]" pageId="193" pageNumber="955">Activity patterns.</emphasis>
 Ikonnikov’s 
-<taxonomicName box="[1812,1901,2575,2608]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="193" pageNumber="955" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[1812,1901,2575,2608]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="193" pageNumber="955" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 roosts by day under bark,in tree cavities, between lianas on tree trunks, in old buildings, under bridges, and in farm roofs, rarely tunnels or other subterranean habitats. During the day, it enters torpid state at its roosts, leaving in the evening to forage through the night. It hibernates through winter in holes or crevices inside caves. Calls are a steep FM sweep with an average start frequency of 90 kHz (55-2-118-1 kHz), end frequency 43-2 kHz (37-8-50-1 kHz), peak frequency 50-6 kHz (47-3-55-9 kHz), and duration 2 milliseconds (0-9-3-4 milliseconds) recorded in 
 <collectingRegion box="[1481,1622,2852,2885]" country="Japan" name="Hokkaido" pageId="193" pageNumber="955">Hokkaido</collectingRegion>
 , 
@@ -193,15 +198,15 @@ had average start frequencies of 83-4-132-2 kHz, end frequencies 26-6-44-2 kHz, 
 <paragraph blockId="193.[1391,2605,1707,3476]" pageId="193" pageNumber="955">
 <emphasis bold="true" box="[1395,2081,2970,3003]" pageId="193" pageNumber="955">Movements, Home range and Social organization.</emphasis>
 In summer, Ikonnikov’s 
-<taxonomicName box="[2424,2512,2970,3003]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="193" pageNumber="955" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[2424,2512,2970,3003]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="193" pageNumber="955" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 forms maternity colonies ranging in size from tens to over a hundred. Ikonnikov’s 
-<taxonomicName box="[2512,2600,3009,3042]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="193" pageNumber="955" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[2512,2600,3009,3042]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="193" pageNumber="955" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 shares roosts with Greater Japanese Horseshoe Bats (Rhinolophus nippon), Far Eastern 
-<taxonomicName box="[1396,1484,3092,3121]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="193" pageNumber="955" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[1396,1484,3092,3121]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="193" pageNumber="955" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 (M. 
 <taxonomicName authorityName="Thomas" authorityYear="1906" box="[1553,1678,3092,3121]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="193" pageNumber="955" phylum="Chordata" rank="species" species="bombinus">bombinus</taxonomicName>
 ), and Big-footed 
-<taxonomicName box="[1912,2001,3092,3121]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="193" pageNumber="955" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[1912,2001,3092,3121]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="193" pageNumber="955" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 (
 <taxonomicName baseAuthorityName="Temminck" baseAuthorityYear="1840" box="[2023,2252,3092,3121]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="193" pageNumber="955" phylum="Chordata" rank="species" species="macrodactylus">M. macrodactylus</taxonomicName>
 ). While hibernating however, it usually roost alone. It switches roosts every 1-2 days and may return to a roost several times. Radio-telemetry shows thatit flies 
@@ -213,7 +218,7 @@ each night while foraging.
 <paragraph blockId="193.[1391,2605,1707,3476]" pageId="193" pageNumber="955">
 <emphasis bold="true" box="[1396,1741,3206,3239]" pageId="193" pageNumber="955">Status and Conservation.</emphasis>
 Classified as Least Concern on The IUCN Red List. Tkonnikov’s 
-<taxonomicName box="[1396,1485,3245,3278]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="193" pageNumber="955" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[1396,1485,3245,3278]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="193" pageNumber="955" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 is apparently widespread, with no major threats known.
 </paragraph>
 </subSubSection>

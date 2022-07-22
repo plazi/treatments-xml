@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="266" approvalRequired_for_illustrations="1" approvalRequired_for_matCits="100" approvalRequired_for_taxonomicNames="81" approvalRequired_for_textStreams="2" approvalRequired_for_treatments="82" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF336A8CFF519E2D16DABAE0" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Myotis secundus Ruedi 2015" docType="treatment" docVersion="6" lastPageNumber="962" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="962" updateTime="1653402593307" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FF336A8CFF519E2D16DABAE0" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Myotis secundus Ruedi 2015" docType="treatment" docVersion="12" lastPageNumber="962" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="962" updateTime="1658491128239" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6397752</mods:identifier>
+<mods:identifier type="GBIF-Dataset">45351c32-25dd-422c-bdb2-00e73deb4943</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-19-0</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6397752</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:4C3D87E8FF336A8CFF519E2D16DABAE0" httpUri="http://treatment.plazi.org/id/4C3D87E8FF336A8CFF519E2D16DABAE0" lastPageNumber="962" pageId="200" pageNumber="962">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6581132" ID-GBIF-Taxon="195628206" ID-Zenodo-Dep="6581132" LSID="urn:lsid:plazi:treatment:4C3D87E8FF336A8CFF519E2D16DABAE0" httpUri="http://treatment.plazi.org/id/4C3D87E8FF336A8CFF519E2D16DABAE0" lastPageNumber="962" pageId="200" pageNumber="962">
 <subSubSection box="[173,256,2164,2210]" pageId="200" pageNumber="962" type="multiple">
 <paragraph blockId="200.[171,1076,2164,2293]" box="[173,256,2164,2210]" pageId="200" pageNumber="962">
 <heading box="[173,256,2164,2210]" pageId="200" pageNumber="962">
@@ -96,14 +97,18 @@ Myotis
 <paragraph blockId="200.[785,1380,2336,2759]" pageId="200" pageNumber="962">
 <emphasis bold="true" box="[785,940,2336,2365]" pageId="200" pageNumber="962">Taxonomy.</emphasis>
 <taxonomicName authority="Ruedi et al., 2015" authorityName="Ruedi" authorityYear="2015" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="200" pageNumber="962" phylum="Chordata" rank="species" species="secundus">Myotis secundus Ruedi et al., 2015</taxonomicName>
-, 
-<materialsCitation pageId="200" pageNumber="962">
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="200" pageNumber="962" type="materials_examined">
+<paragraph blockId="200.[785,1380,2336,2759]" pageId="200" pageNumber="962">
+<materialsCitation ID-GBIF-Occurrence="3783319732" latitude="23.133333" longitude="120.8" pageId="200" pageNumber="962">
 “forest areas near Kaohsiung City (Taoyuan District) in south-central 
 <collectingCountry name="Taiwan ROC" pageId="200" pageNumber="62">Taiwan ROC</collectingCountry>
 (approximate coordinates: 
-<geoCoordinate box="[1249,1372,2450,2483]" degrees="23" minutes="08" pageId="200" pageNumber="962">23°08&quot; N</geoCoordinate>
+<geoCoordinate box="[1249,1372,2450,2483]" degrees="23" direction="north" minutes="08" orientation="latitude" pageId="200" pageNumber="962" precision="925" value="23.133333">23°08' N</geoCoordinate>
 , 
-<geoCoordinate box="[789,929,2491,2524]" degrees="120" minutes="48" pageId="200" pageNumber="962">120°48’ E</geoCoordinate>
+<geoCoordinate box="[789,929,2491,2524]" degrees="120" direction="east" minutes="48" orientation="longitude" pageId="200" pageNumber="962" precision="925" value="120.8">120°48' E</geoCoordinate>
 ).”
 </materialsCitation>
 </paragraph>
@@ -111,7 +116,7 @@ Myotis
 <subSubSection pageId="200" pageNumber="962" type="discussion">
 <paragraph blockId="200.[785,1380,2336,2759]" pageId="200" pageNumber="962">
 Subgenus 
-<taxonomicName box="[964,1048,2529,2562]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="200" pageNumber="962" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[964,1048,2529,2562]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="200" pageNumber="962" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 ; 
 <taxonomicName baseAuthorityName="Dobson" baseAuthorityYear="1874" box="[1096,1243,2529,2562]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="200" pageNumber="962" phylum="Chordata" rank="species" species="montivagus">montivagus</taxonomicName>
 species group. 
@@ -155,7 +160,7 @@ Lowland and montane forest habitats at known elevations of
 <paragraph blockId="200.[174,1384,2768,3474]" box="[176,1229,3202,3235]" pageId="200" pageNumber="962">
 <emphasis bold="true" box="[176,439,3202,3235]" pageId="200" pageNumber="962">Food and Feeding.</emphasis>
 The Long-toed 
-<taxonomicName box="[672,761,3202,3235]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="200" pageNumber="962" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[672,761,3202,3235]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="200" pageNumber="962" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 eats small insects captured in air.
 </paragraph>
 </subSubSection>
@@ -163,7 +168,7 @@ eats small insects captured in air.
 <paragraph blockId="200.[174,1384,2768,3474]" pageId="200" pageNumber="962">
 <emphasis bold="true" box="[177,312,3241,3274]" pageId="200" pageNumber="962">Breeding.</emphasis>
 Births of Long-toed 
-<taxonomicName box="[616,705,3241,3274]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="200" pageNumber="962" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[616,705,3241,3274]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="200" pageNumber="962" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 probably occur in May-June, depending on elevation, because lactating females have been reported during this time. Males with enlarged testes were reported in August-March.
 </paragraph>
 </subSubSection>
@@ -171,7 +176,7 @@ probably occur in May-June, depending on elevation, because lactating females ha
 <paragraph blockId="200.[174,1384,2768,3474]" pageId="200" pageNumber="962">
 <emphasis bold="true" box="[176,410,3360,3393]" pageId="200" pageNumber="962">Activity patterns.</emphasis>
 Long-toed 
-<taxonomicName box="[575,665,3360,3393]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="200" pageNumber="962" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" box="[575,665,3360,3393]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="200" pageNumber="962" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 roost in artificial subterranean roosts (e.g. tunnels) and caves where breeding females have been reported roosting in small holes or crevices. They probably use tree hollows.
 </paragraph>
 </subSubSection>
@@ -185,7 +190,7 @@ No information.
 <paragraph blockId="200.[1438,2645,275,472]" pageId="200" pageNumber="962">
 <emphasis bold="true" box="[1440,1788,314,347]" pageId="200" pageNumber="962">Status and Conservation.</emphasis>
 Classified as Least Concern on The IUCN Red List. The Longtoed 
-<taxonomicName authority="appears" authorityName="Appears" box="[1515,1604,353,386]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="200" pageNumber="952" phylum="Chordata" rank="genus">Myotis</taxonomicName>
+<taxonomicName authority="Kaup, 1829" authorityName="Appears" box="[1515,1604,353,386]" class="Mammalia" family="Vespertilionidae" genus="Myotis" kingdom="Animalia" order="Chiroptera" pageId="200" pageNumber="952" phylum="Chordata" rank="genus">Myotis</taxonomicName>
 appears to be widespread and relatively common in 
 <collectingCountry box="[2370,2471,353,386]" name="Taiwan" pageId="200" pageNumber="962">Taiwan</collectingCountry>
 . It does not face any known 
