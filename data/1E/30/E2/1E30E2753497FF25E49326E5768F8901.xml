@@ -1,4 +1,4 @@
-<document ID-ISBN="978-84-16728-04-6" approvalRequired="463" approvalRequired_for_matCits="1" approvalRequired_for_originalDoi="1" approvalRequired_for_taxonomicNames="99" checkinTime="1656696812616" checkinUser="carolina" docAuthor="Don E. Wilson, Russell A. Mittermeier &amp; Thomas E. Lacher, Jr" docDate="2017" docId="1E30E2753497FF25E49326E5768F8901" docLanguage="en" docName="hbmw_7_Muridae_0536.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 7 Rodents II, Barcelona: Lynx Edicions" docTitle="Apodemus sylvaticus" docType="treatment" docVersion="4" lastPageNumber="781" masterDocId="E2099A0D3426FF97E1372C0977498313" masterDocTitle="Muridae" masterLastPageNumber="884" masterPageNumber="536" pageNumber="780" updateTime="1657839343328" updateUser="carolina">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6887260" ID-GBIF-Dataset="a016af63-6437-427b-80b7-22bc9a002e20" ID-ISBN="978-84-16728-04-6" ID-Zenodo-Dep="6887260" approvalRequired="5" approvalRequired_for_matCits="1" approvalRequired_for_treatments="4" checkinTime="1656696812616" checkinUser="carolina" docAuthor="Don E. Wilson, Russell A. Mittermeier &amp; Thomas E. Lacher, Jr" docDate="2017" docId="1E30E2753497FF25E49326E5768F8901" docLanguage="en" docName="hbmw_7_Muridae_0536.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 7 Rodents II, Barcelona: Lynx Edicions" docTitle="Apodemus sylvaticus" docType="treatment" docVersion="8" lastPageNumber="781" masterDocId="E2099A0D3426FF97E1372C0977498313" masterDocTitle="Muridae" masterLastPageNumber="884" masterPageNumber="536" pageNumber="780" updateTime="1658538965639" updateUser="ExternalLinkService">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Muridae</mods:title>
@@ -42,9 +42,12 @@
 </mods:part>
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
+<mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6887260</mods:identifier>
+<mods:identifier type="GBIF-Dataset">a016af63-6437-427b-80b7-22bc9a002e20</mods:identifier>
 <mods:identifier type="ISBN">978-84-16728-04-6</mods:identifier>
+<mods:identifier type="Zenodo-Dep">6887260</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6788420" ID-Zenodo-Dep="6788420" LSID="urn:lsid:plazi:treatment:1E30E2753497FF25E49326E5768F8901" httpUri="http://treatment.plazi.org/id/1E30E2753497FF25E49326E5768F8901" lastPageId="178" lastPageNumber="781" pageId="177" pageNumber="780">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6788420" ID-GBIF-Taxon="197825538" ID-Zenodo-Dep="6788420" LSID="urn:lsid:plazi:treatment:1E30E2753497FF25E49326E5768F8901" httpUri="http://treatment.plazi.org/id/1E30E2753497FF25E49326E5768F8901" lastPageId="178" lastPageNumber="781" pageId="177" pageNumber="780">
 <subSubSection box="[1444,1526,2796,2842]" pageId="177" pageNumber="780" type="multiple">
 <paragraph blockId="177.[1443,2488,2796,2921]" box="[1444,1526,2796,2842]" pageId="177" pageNumber="780">510.</paragraph>
 </subSubSection>
@@ -60,21 +63,21 @@
 <subSubSection pageId="177" pageNumber="780" type="vernacular_names">
 <paragraph blockId="177.[1443,2488,2796,2921]" pageId="177" pageNumber="780">French: Mulot sylvestre / German: \Waldmaus / Spanish: Ratén de campo de cola larga Other common names: Small Wood Mouse, Wood Mouse</paragraph>
 </subSubSection>
-<subSubSection pageId="177" pageNumber="780" type="reference_group">
-<paragraph blockId="177.[2054,2649,2966,3394]" pageId="177" pageNumber="780">
+<subSubSection box="[2054,2644,2966,3000]" pageId="177" pageNumber="780" type="reference_group">
+<paragraph blockId="177.[2054,2649,2966,3394]" box="[2054,2644,2966,3000]" pageId="177" pageNumber="780">
 <emphasis bold="true" box="[2054,2209,2966,3000]" pageId="177" pageNumber="780">Taxonomy.</emphasis>
 <taxonomicName authority="Linnaeus, 1758" authorityName="Linnaeus" authorityYear="1758" box="[2223,2639,2966,3000]" class="Mammalia" family="Muridae" genus="Mus" kingdom="Animalia" order="Rodentia" pageId="177" pageNumber="780" phylum="Chordata" rank="species" species="sylvaticus">Mus sylvaticus Linnaeus, 1758</taxonomicName>
-, 
-<materialsCitation box="[2055,2300,3005,3039]" pageId="177" pageNumber="780">
-Uppsala
-<subSubSection box="[2170,2300,3005,3039]" pageId="177" pageNumber="780" type="materials_examined">
-<paragraph blockId="177.[2054,2649,2966,3394]" box="[2170,2300,3005,3039]" pageId="177" pageNumber="780">, Sweden.</paragraph>
-</subSubSection>
-</materialsCitation>
+,
 </paragraph>
 </subSubSection>
+<subSubSection box="[2055,2300,3005,3039]" pageId="177" pageNumber="780" type="materials_examined">
+<materialsCitation ID-GBIF-Occurrence="3864424885" box="[2055,2300,3005,3039]" pageId="177" pageNumber="780">
+<paragraph blockId="177.[2054,2649,2966,3394]" box="[2055,2170,3005,3039]" pageId="177" pageNumber="780">Uppsala</paragraph>
+<paragraph blockId="177.[2054,2649,2966,3394]" box="[2170,2300,3005,3039]" pageId="177" pageNumber="780">, Sweden.</paragraph>
+</materialsCitation>
+</subSubSection>
 <subSubSection lastPageId="178" lastPageNumber="781" pageId="177" pageNumber="780" type="discussion">
-<paragraph blockId="177.[2054,2649,2966,3394]" lastBlockId="177.[1443,2644,3399,3471]" pageId="177" pageNumber="780">
+<paragraph blockId="177.[2054,2649,2966,3394]" lastBlockId="178.[88,1301,297,2578]" lastPageId="178" lastPageNumber="781" pageId="177" pageNumber="780">
 <taxonomicName baseAuthorityName="Linnaeus" baseAuthorityYear="1758" box="[2054,2316,3045,3079]" class="Mammalia" family="Muridae" genus="Apodemus" higherTaxonomySource="CoL,GBIF" kingdom="Animalia" order="Rodentia" pageId="177" pageNumber="780" phylum="Chordata" rank="species" species="sylvaticus">Apodemus sylvaticus</taxonomicName>
 was included in the Syl vaemus group on morphological grounds by G. G. Musser and colleagues in 1996. Its abundance in Europe has made it the subject of many morphological and morpho-anatomical studies as well as genetic ones, as summarized by Musser and M. D. Carleton in 2005. Of the latest molecular phylogenies, that by H. Suzuki and coworkers in 2008 confirmed the position of 
 <taxonomicName baseAuthorityName="Linnaeus" baseAuthorityYear="1758" box="[2043,2208,3399,3433]" class="Mammalia" family="Muridae" genus="Apodemus" higherTaxonomySource="CoL,GBIF" kingdom="Animalia" order="Rodentia" pageId="177" pageNumber="780" phylum="Chordata" rank="species" species="sylvaticus">A. sylvaticus</taxonomicName>
@@ -88,10 +91,7 @@ clade including
 <taxonomicName baseAuthorityName="Melchior" baseAuthorityYear="1834" box="[1948,2107,3442,3471]" class="Mammalia" family="Muridae" genus="Apodemus" higherTaxonomySource="CoL,GBIF" kingdom="Animalia" order="Rodentia" pageId="177" pageNumber="780" phylum="Chordata" rank="species" species="flavicollis">A. flavicollis</taxonomicName>
 , and 
 <taxonomicName baseAuthorityName="Sviridenko" baseAuthorityYear="1936" box="[2184,2328,3442,3471]" class="Mammalia" family="Muridae" genus="Apodemus" higherTaxonomySource="CoL,GBIF" kingdom="Animalia" order="Rodentia" pageId="177" pageNumber="780" phylum="Chordata" rank="species" species="ponticus">A. ponticus</taxonomicName>
-, while the Liu Qi team
-</paragraph>
-<paragraph blockId="178.[88,1301,297,2578]" pageId="178" pageNumber="781">
-in 2012 and J. Darvish and colleagues in 2015 found 
+, while the Liu Qi team in 2012 and J. Darvish and colleagues in 2015 found 
 <taxonomicName baseAuthorityName="Linnaeus" baseAuthorityYear="1758" box="[827,989,297,331]" class="Mammalia" family="Muridae" genus="Apodemus" higherTaxonomySource="CoL,GBIF" kingdom="Animalia" order="Rodentia" pageId="178" pageNumber="781" phylum="Chordata" rank="species" species="sylvaticus">A. sylvaticus</taxonomicName>
 to besister taxon of a clade including 
 <taxonomicName baseAuthorityName="Melchior" baseAuthorityYear="1834" box="[315,477,337,371]" class="Mammalia" family="Muridae" genus="Apodemus" higherTaxonomySource="CoL,GBIF" kingdom="Animalia" order="Rodentia" pageId="178" pageNumber="781" phylum="Chordata" rank="species" species="flavicollis">A. flavicollis</taxonomicName>
@@ -103,7 +103,7 @@ to besister taxon of a clade including
 </paragraph>
 </subSubSection>
 <subSubSection pageId="178" pageNumber="781" type="distribution">
-<caption inLine="true" pageId="178" pageNumber="781" startId="178.[88,261,376,410]" targetBox="[1440,2031,2977,3391]" targetPageId="177">
+<caption ID-DOI="http://doi.org/10.5281/zenodo.6888002" ID-Zenodo-Dep="6888002" httpUri="https://zenodo.org/record/6888002/files/figure.png" inLine="true" pageId="178" pageNumber="781" startId="178.[88,261,376,410]" targetBox="[1440,2031,2977,3391]" targetPageId="177">
 <paragraph blockId="178.[88,1301,297,2578]" pageId="178" pageNumber="781">
 <emphasis bold="true" box="[88,265,376,410]" pageId="178" pageNumber="781">Distribution.</emphasis>
 Widespread in Europe (from Iceland, Britain, and Iberia E to S Norway, S Sweden, Belarus, SW European Russia, E Ukraine, and the Balkan Peninsula) and in coastal and mountainous regions of Morocco, Algeria, and Tunisia.
