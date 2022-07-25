@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6588177" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6588177" approvalRequired="626" approvalRequired_for_taxonomicNames="13" approvalRequired_for_textStreams="557" approvalRequired_for_treatments="56" checkinTime="1653672804429" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="59304B441B0BFFC4FA5BF560FE38FEB7" docLanguage="en" docName="hbmw_6_Ctenomyidae_0498.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Ctenomys johannis Thomas 1921" docType="treatment" docVersion="4" lastPageNumber="533" masterDocId="A509333C1B1EFFD2FF94FC71FF90FFDC" masterDocTitle="Ctenomyidae" masterLastPageNumber="534" masterPageNumber="498" pageNumber="532" updateTime="1653681383694" updateUser="carolina">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6588177" ID-GBIF-Dataset="e3c7ddc9-124f-4f96-9adb-e2bb222f3210" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6588177" approvalRequired="1" approvalRequired_for_taxonomicNames="1" checkinTime="1653672804429" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="59304B441B0BFFC4FA5BF560FE38FEB7" docLanguage="en" docName="hbmw_6_Ctenomyidae_0498.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Ctenomys johannis Thomas 1921" docType="treatment" docVersion="8" lastPageNumber="533" masterDocId="A509333C1B1EFFD2FF94FC71FF90FFDC" masterDocTitle="Ctenomyidae" masterLastPageNumber="534" masterPageNumber="498" pageNumber="532" updateTime="1658771462226" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Ctenomyidae</mods:title>
@@ -43,10 +43,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6588177</mods:identifier>
+<mods:identifier type="GBIF-Dataset">e3c7ddc9-124f-4f96-9adb-e2bb222f3210</mods:identifier>
 <mods:identifier type="ISBN">978-84-941892-3-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6588177</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6588162" ID-Zenodo-Dep="6588162" LSID="urn:lsid:plazi:treatment:59304B441B0BFFC4FA5BF560FE38FEB7" httpUri="http://treatment.plazi.org/id/59304B441B0BFFC4FA5BF560FE38FEB7" lastPageId="22" lastPageNumber="533" pageId="21" pageNumber="532">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6588162" ID-GBIF-Taxon="195703714" ID-Zenodo-Dep="6588162" LSID="urn:lsid:plazi:treatment:59304B441B0BFFC4FA5BF560FE38FEB7" httpUri="http://treatment.plazi.org/id/59304B441B0BFFC4FA5BF560FE38FEB7" lastPageId="22" lastPageNumber="533" pageId="21" pageNumber="532">
 <heading pageId="21" pageNumber="532">
 <subSubSection box="[1487,1544,2321,2367]" pageId="21" pageNumber="532" type="multiple">
 <paragraph blockId="21.[1484,2464,2321,2407]" box="[1487,1544,2321,2367]" pageId="21" pageNumber="532">
@@ -82,9 +83,15 @@
 <paragraph blockId="21.[2096,2690,2452,2878]" pageId="21" pageNumber="532">
 <emphasis bold="true" box="[2096,2252,2452,2485]" pageId="21" pageNumber="532">Taxonomy.</emphasis>
 <taxonomicName authority="Thomas" authorityName="Thomas" authorityYear="1921" box="[2285,2681,2452,2485]" class="Mammalia" family="Ctenomyidae" genus="Ctenomys" kingdom="Animalia" order="Rodentia" pageId="21" pageNumber="532" phylum="Chordata" rank="species" species="johannis">Ctenomys johannis Thomas</taxonomicName>
-, 1921, 
-<materialsCitation pageId="21" pageNumber="532">“Department of San Juan. Type from Canada Honda. Alt. 500 m,” (31°39 §, 68°33&quot; W), San Juan Province, Argentina.</materialsCitation>
+, 1921,
 </paragraph>
+</subSubSection>
+<subSubSection pageId="21" pageNumber="532" type="materials_examined">
+<paragraph blockId="21.[2096,2690,2452,2878]" pageId="21" pageNumber="532">
+<materialsCitation ID-GBIF-Occurrence="3798388351" pageId="21" pageNumber="532">“Department of San Juan. Type from Canada Honda. Alt. 500 m,” (31°39 §, 68°33&quot; W), San Juan Province, Argentina.</materialsCitation>
+</paragraph>
+</subSubSection>
+<subSubSection pageId="21" pageNumber="532" type="discussion">
 <paragraph blockId="21.[2096,2690,2452,2878]" pageId="21" pageNumber="532">
 There are no data for classifying 
 <taxonomicName authority="Thomas" authorityName="Thomas" authorityYear="1921" box="[2548,2690,2609,2642]" class="Mammalia" family="Ctenomyidae" genus="Ctenomys" kingdom="Animalia" order="Rodentia" pageId="21" pageNumber="532" phylum="Chordata" rank="species" species="johannis">C. johannas</taxonomicName>
@@ -93,21 +100,16 @@ in any species group. Karyotype and sperm form have not been described. Monotypi
 </subSubSection>
 <subSubSection pageId="21" pageNumber="532" type="distribution">
 <caption ID-DOI="http://doi.org/10.5281/zenodo.6588314" ID-Zenodo-Dep="6588314" httpUri="https://zenodo.org/record/6588314/files/figure.png" inLine="true" pageId="21" pageNumber="532" targetBox="[1482,2073,2458,2872]" targetPageId="21">
-<paragraph blockId="21.[2096,2690,2452,2878]" box="[2097,2687,2727,2760]" pageId="21" pageNumber="532">
+<paragraph blockId="21.[2096,2690,2452,2878]" pageId="21" pageNumber="532">
 <emphasis bold="true" box="[2097,2273,2727,2760]" pageId="21" pageNumber="532">Distribution.</emphasis>
-W Argentina (S San Juan
+W Argentina (S San Juan Province), recorded only from the type locality.
 </paragraph>
-<paragraph blockId="21.[2096,2690,2452,2878]" box="[2097,2687,2767,2800]" pageId="21" pageNumber="532">Province), recorded only from the type</paragraph>
-<paragraph blockId="21.[2096,2690,2452,2878]" box="[2097,2200,2810,2839]" pageId="21" pageNumber="532">locality.</paragraph>
 </caption>
 </subSubSection>
 <subSubSection pageId="21" pageNumber="532" type="description">
-<paragraph blockId="21.[2096,2690,2452,2878]" box="[2097,2686,2845,2878]" pageId="21" pageNumber="532">
+<paragraph blockId="21.[2096,2690,2452,2878]" lastBlockId="21.[1483,2689,2892,3468]" pageId="21" pageNumber="532">
 <emphasis bold="true" box="[2097,2355,2845,2878]" pageId="21" pageNumber="532">Descriptive notes.</emphasis>
-Head-body 199 mm,
-</paragraph>
-<paragraph blockId="21.[1483,2689,2892,3468]" pageId="21" pageNumber="532">
-tail 97 mm, hindfoot 36 mm, all measurements from the holotype. No specific data are available for body weight. Body length of the San Juan Tuco-tuco is very similar to the Puntilla Tuco-tuco (
+Head-body 199 mm, tail 97 mm, hindfoot 36 mm, all measurements from the holotype. No specific data are available for body weight. Body length of the San Juan Tuco-tuco is very similar to the Puntilla Tuco-tuco (
 <taxonomicName authorityName="Thomas" authorityYear="1920" box="[1772,1896,2971,2996]" class="Mammalia" family="Ctenomyidae" genus="Ctenomys" kingdom="Animalia" order="Rodentia" pageId="21" pageNumber="532" phylum="Chordata" rank="species" species="coludo">C. coludo</taxonomicName>
 ) from the Province of Catamarca, Argentina; however, color of the San Juan Tuco-tuco is drab gray, less strongly buffy. Nape, fore back, and sides of head are gray; ventral hair has whitish tips,slightly buffy. Caudal crest is blackened at terminal region. Skull of the San Juan Tuco-tuco is similar to the Puntilla Tucotuco, but its nasal patch is more strongly marked. Zygomatic arches have breadths across arches substantially smaller than across openings of auditory tubes.
 </paragraph>

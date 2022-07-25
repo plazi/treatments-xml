@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6588177" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6588177" approvalRequired="606" approvalRequired_for_taxonomicNames="12" approvalRequired_for_textStreams="557" approvalRequired_for_treatments="37" checkinTime="1653672804429" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="59304B441B0BFFC7FF46F98CFCB0F57D" docLanguage="en" docName="hbmw_6_Ctenomyidae_0498.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Ctenomys yolandae J. R. Contreras &amp; Berry 1984" docType="treatment" docVersion="6" lastPageNumber="532" masterDocId="A509333C1B1EFFD2FF94FC71FF90FFDC" masterDocTitle="Ctenomyidae" masterLastPageNumber="534" masterPageNumber="498" pageNumber="532" updateTime="1653681906596" updateUser="carolina">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6588177" ID-GBIF-Dataset="e3c7ddc9-124f-4f96-9adb-e2bb222f3210" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6588177" approvalRequired="1" approvalRequired_for_taxonomicNames="1" checkinTime="1653672804429" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="59304B441B0BFFC7FF46F98CFCB0F57D" docLanguage="en" docName="hbmw_6_Ctenomyidae_0498.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Ctenomys yolandae J. R. Contreras &amp; Berry 1984" docType="treatment" docVersion="10" lastPageNumber="532" masterDocId="A509333C1B1EFFD2FF94FC71FF90FFDC" masterDocTitle="Ctenomyidae" masterLastPageNumber="534" masterPageNumber="498" pageNumber="532" updateTime="1658771462226" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Ctenomyidae</mods:title>
@@ -43,10 +43,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6588177</mods:identifier>
+<mods:identifier type="GBIF-Dataset">e3c7ddc9-124f-4f96-9adb-e2bb222f3210</mods:identifier>
 <mods:identifier type="ISBN">978-84-941892-3-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6588177</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6588160" ID-Zenodo-Dep="6588160" LSID="urn:lsid:plazi:treatment:59304B441B0BFFC7FF46F98CFCB0F57D" httpUri="http://treatment.plazi.org/id/59304B441B0BFFC7FF46F98CFCB0F57D" lastPageNumber="532" pageId="21" pageNumber="532">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6588160" ID-GBIF-Taxon="195703682" ID-Zenodo-Dep="6588160" LSID="urn:lsid:plazi:treatment:59304B441B0BFFC7FF46F98CFCB0F57D" httpUri="http://treatment.plazi.org/id/59304B441B0BFFC7FF46F98CFCB0F57D" lastPageNumber="532" pageId="21" pageNumber="532">
 <heading pageId="21" pageNumber="532">
 <subSubSection box="[210,267,1533,1579]" pageId="21" pageNumber="532" type="multiple">
 <paragraph blockId="21.[208,1149,1533,1657]" box="[210,267,1533,1579]" pageId="21" pageNumber="532">
@@ -87,15 +88,20 @@ Ctenomys
 <paragraph blockId="21.[821,1414,1702,2129]" pageId="21" pageNumber="532">
 <emphasis bold="true" box="[821,976,1702,1735]" pageId="21" pageNumber="532">Taxonomy.</emphasis>
 <taxonomicName authorityName="J. R. Contreras &amp; Berry" authorityYear="1984" class="Mammalia" family="Ctenomyidae" genus="Ctenomys" kingdom="Animalia" order="Rodentia" pageId="21" pageNumber="532" phylum="Chordata" rank="genus" species="yolandae">Ctenomys yolandae J. R. Contreras &amp; Berry, 1984</taxonomicName>
-, 
-<materialsCitation pageId="21" pageNumber="532">“Las Palmas, Departa- mento General Obligado, Provincia de Santa Fe,” Argentina, 29°25’ S, 59°40’ W, 50 m</materialsCitation>
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="21" pageNumber="532" type="materials_examined">
+<paragraph blockId="21.[821,1414,1702,2129]" pageId="21" pageNumber="532">
+<materialsCitation ID-GBIF-Occurrence="3798388325" pageId="21" pageNumber="532">“Las Palmas, Departamento General Obligado, Provincia de Santa Fe,” Argentina, 29°25’ S, 59°40’ W, 50 m</materialsCitation>
 .
 </paragraph>
-<paragraph blockId="21.[821,1414,1702,2129]" pageId="21" pageNumber="532">
+</subSubSection>
+<subSubSection pageId="21" pageNumber="532" type="discussion">
+<paragraph blockId="21.[821,1414,1702,2129]" lastBlockId="21.[208,1414,2136,2721]" pageId="21" pageNumber="532">
 <taxonomicName authorityName="Blainville" authorityYear="1826" box="[824,1084,1899,1932]" class="Mammalia" family="Ctenomyidae" genus="Ctenomys" kingdom="Animalia" order="Rodentia" pageId="21" pageNumber="532" phylum="Chordata" rank="genus" species="yolandae">Ctenomys “yolandae”</taxonomicName>
-has not been classified in any species group and is reported as a distinct entity regarding karyotype and at molecular levels. Chromosomal complement is 2n = 50 and FN = 78 at the type locality and FN = 67 and 70 at other locali-
+has not been classified in any species group and is reported as a distinct entity regarding karyotype and at molecular levels. Chromosomal complement is 2n = 50 and FN = 78 at the type locality and FN = 67 and 70 at other localities. Sperm form is complex asymmetric, which occurs only in this species. Monotypic.
 </paragraph>
-<paragraph blockId="21.[208,1414,2136,2721]" box="[211,1411,2136,2169]" pageId="21" pageNumber="532">ties. Sperm form is complex asymmetric, which occurs only in this species. Monotypic.</paragraph>
 </subSubSection>
 <subSubSection pageId="21" pageNumber="532" type="distribution">
 <caption ID-DOI="http://doi.org/10.5281/zenodo.6588308" ID-Zenodo-Dep="6588308" httpUri="https://zenodo.org/record/6588308/files/figure.png" inLine="true" pageId="21" pageNumber="532" targetBox="[206,797,1708,2123]" targetPageId="21">

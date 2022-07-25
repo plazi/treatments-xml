@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6588177" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6588177" approvalRequired="626" approvalRequired_for_taxonomicNames="13" approvalRequired_for_textStreams="557" approvalRequired_for_treatments="56" checkinTime="1653672804429" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="59304B441B0CFFC0FAE8FB57F93EF3B1" docLanguage="en" docName="hbmw_6_Ctenomyidae_0498.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Ctenomys dorsalis Thomas 1900" docType="treatment" docVersion="6" lastPageNumber="529" masterDocId="A509333C1B1EFFD2FF94FC71FF90FFDC" masterDocTitle="Ctenomyidae" masterLastPageNumber="534" masterPageNumber="498" pageNumber="529" updateTime="1653681383694" updateUser="carolina">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6588177" ID-GBIF-Dataset="e3c7ddc9-124f-4f96-9adb-e2bb222f3210" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6588177" approvalRequired="1" approvalRequired_for_taxonomicNames="1" checkinTime="1653672804429" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="59304B441B0CFFC0FAE8FB57F93EF3B1" docLanguage="en" docName="hbmw_6_Ctenomyidae_0498.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Ctenomys dorsalis Thomas 1900" docType="treatment" docVersion="10" lastPageNumber="529" masterDocId="A509333C1B1EFFD2FF94FC71FF90FFDC" masterDocTitle="Ctenomyidae" masterLastPageNumber="534" masterPageNumber="498" pageNumber="529" updateTime="1658771462226" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Ctenomyidae</mods:title>
@@ -43,10 +43,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6588177</mods:identifier>
+<mods:identifier type="GBIF-Dataset">e3c7ddc9-124f-4f96-9adb-e2bb222f3210</mods:identifier>
 <mods:identifier type="ISBN">978-84-941892-3-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6588177</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6587994" ID-Zenodo-Dep="6587994" LSID="urn:lsid:plazi:treatment:59304B441B0CFFC0FAE8FB57F93EF3B1" httpUri="http://treatment.plazi.org/id/59304B441B0CFFC0FAE8FB57F93EF3B1" lastPageNumber="529" pageId="18" pageNumber="529">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6587994" ID-GBIF-Taxon="195703718" ID-Zenodo-Dep="6587994" LSID="urn:lsid:plazi:treatment:59304B441B0CFFC0FAE8FB57F93EF3B1" httpUri="http://treatment.plazi.org/id/59304B441B0CFFC0FAE8FB57F93EF3B1" lastPageNumber="529" pageId="18" pageNumber="529">
 <heading pageId="18" pageNumber="529">
 <subSubSection box="[1404,1462,1830,1880]" pageId="18" pageNumber="529" type="multiple">
 <paragraph blockId="18.[1403,2367,1830,1960]" box="[1404,1462,1830,1880]" pageId="18" pageNumber="529">
@@ -86,18 +87,23 @@
 <paragraph blockId="18.[2016,2611,2008,2430]" pageId="18" pageNumber="529">
 <emphasis bold="true" box="[2016,2171,2008,2037]" pageId="18" pageNumber="529">Taxonomy.</emphasis>
 <taxonomicName authority="Thomas" authorityName="Thomas" authorityYear="1900" class="Mammalia" family="Ctenomyidae" genus="Ctenomys" kingdom="Animalia" order="Rodentia" pageId="18" pageNumber="529" phylum="Chordata" rank="species" species="dorsalis">Ctenomys dorsalis Thomas, 1900</taxonomicName>
-, 
-<materialsCitation box="[2102,2538,2042,2075]" pageId="18" pageNumber="529">“Northern Chaco of Paraguay.”</materialsCitation>
+,
 </paragraph>
-<paragraph blockId="18.[2016,2611,2008,2430]" pageId="18" pageNumber="529">Geographical distribution of C. dorsa- lis is ambiguous, mainly because there is only one specimen known, and the specific type locality is uncertain. It is not classified in any species group. Karyotype and sperm form are unknown. Monotypic.</paragraph>
+</subSubSection>
+<subSubSection box="[2102,2538,2042,2075]" pageId="18" pageNumber="529" type="materials_examined">
+<paragraph blockId="18.[2016,2611,2008,2430]" box="[2102,2538,2042,2075]" pageId="18" pageNumber="529">
+<materialsCitation ID-GBIF-Occurrence="3798388314" box="[2102,2538,2042,2075]" pageId="18" pageNumber="529">“Northern Chaco of Paraguay.”</materialsCitation>
+</paragraph>
+</subSubSection>
+<subSubSection pageId="18" pageNumber="529" type="discussion">
+<paragraph blockId="18.[2016,2611,2008,2430]" pageId="18" pageNumber="529">Geographical distribution of C. dorsalis is ambiguous, mainly because there is only one specimen known, and the specific type locality is uncertain. It is not classified in any species group. Karyotype and sperm form are unknown. Monotypic.</paragraph>
 </subSubSection>
 <subSubSection pageId="18" pageNumber="529" type="distribution">
 <caption ID-DOI="http://doi.org/10.5281/zenodo.6588282" ID-Zenodo-Dep="6588282" httpUri="https://zenodo.org/record/6588282/files/figure.png" inLine="true" pageId="18" pageNumber="529" targetBox="[1402,1993,2013,2426]" targetPageId="18">
-<paragraph blockId="18.[2016,2611,2008,2430]" box="[2017,2610,2357,2390]" pageId="18" pageNumber="529">
+<paragraph blockId="18.[2016,2611,2008,2430]" lastBlockId="18.[1405,2610,2438,3181]" pageId="18" pageNumber="529">
 <emphasis bold="true" box="[2017,2193,2357,2390]" pageId="18" pageNumber="529">Distribution.</emphasis>
-Not known, but presumably
+Not known, but presumably NW Paraguay and perhaps adjacent Bolivia and Brazil.
 </paragraph>
-<paragraph blockId="18.[2016,2611,2008,2430]" lastBlockId="18.[1405,2610,2438,3181]" pageId="18" pageNumber="529">NW Paraguay and perhaps adjacent Bolivia and Brazil.</paragraph>
 </caption>
 </subSubSection>
 <subSubSection pageId="18" pageNumber="529" type="description">

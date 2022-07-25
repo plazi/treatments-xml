@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6588177" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6588177" approvalRequired="13" approvalRequired_for_taxonomicNames="12" approvalRequired_for_treatments="1" checkinTime="1653672804429" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="59304B441B08FFC4FAEEF8B3F93BF6B4" docLanguage="en" docName="hbmw_6_Ctenomyidae_0498.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Ctenomys tulduco Thomas 1921" docType="treatment" docVersion="7" lastPageNumber="533" masterDocId="A509333C1B1EFFD2FF94FC71FF90FFDC" masterDocTitle="Ctenomyidae" masterLastPageNumber="534" masterPageNumber="498" pageNumber="533" updateTime="1653918538638" updateUser="carolina">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6588177" ID-GBIF-Dataset="e3c7ddc9-124f-4f96-9adb-e2bb222f3210" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6588177" approvalRequired="1" approvalRequired_for_taxonomicNames="1" checkinTime="1653672804429" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="59304B441B08FFC4FAEEF8B3F93BF6B4" docLanguage="en" docName="hbmw_6_Ctenomyidae_0498.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Ctenomys tulduco Thomas 1921" docType="treatment" docVersion="10" lastPageNumber="533" masterDocId="A509333C1B1EFFD2FF94FC71FF90FFDC" masterDocTitle="Ctenomyidae" masterLastPageNumber="534" masterPageNumber="498" pageNumber="533" updateTime="1658771865780" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Ctenomyidae</mods:title>
@@ -43,10 +43,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6588177</mods:identifier>
+<mods:identifier type="GBIF-Dataset">e3c7ddc9-124f-4f96-9adb-e2bb222f3210</mods:identifier>
 <mods:identifier type="ISBN">978-84-941892-3-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6588177</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6588022" ID-Zenodo-Dep="6588022" LSID="urn:lsid:plazi:treatment:59304B441B08FFC4FAEEF8B3F93BF6B4" httpUri="http://treatment.plazi.org/id/59304B441B08FFC4FAEEF8B3F93BF6B4" lastPageNumber="533" pageId="22" pageNumber="533">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6588022" ID-GBIF-Taxon="195703702" ID-Zenodo-Dep="6588022" LSID="urn:lsid:plazi:treatment:59304B441B08FFC4FAEEF8B3F93BF6B4" httpUri="http://treatment.plazi.org/id/59304B441B08FFC4FAEEF8B3F93BF6B4" lastPageNumber="533" pageId="22" pageNumber="533">
 <heading pageId="22" pageNumber="533">
 <subSubSection box="[1402,1459,1218,1264]" pageId="22" pageNumber="533" type="multiple">
 <paragraph blockId="22.[1400,2349,1218,1305]" box="[1402,1459,1218,1264]" pageId="22" pageNumber="533">
@@ -82,8 +83,16 @@
 <paragraph blockId="22.[2012,2606,1351,1775]" pageId="22" pageNumber="533">
 <emphasis bold="true" box="[2012,2168,1351,1380]" pageId="22" pageNumber="533">Taxonomy.</emphasis>
 <taxonomicName authority="Thomas" authorityName="Thomas" authorityYear="1921" class="Mammalia" family="Ctenomyidae" genus="Ctenomys" kingdom="Animalia" order="Rodentia" pageId="22" pageNumber="533" phylum="Chordata" rank="species" species="tulduco">Ctenomys tulduco Thomas, 1921</taxonomicName>
-, 
-<materialsCitation pageId="22" pageNumber="533">“Los Sombreros, Sierra Tontal, Alt. 2700 m,” Departamento Calinagasta, San Juan Province, Argentina, 31°33&quot; S, 69°11’ W.</materialsCitation>
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="22" pageNumber="533" type="materials_examined">
+<paragraph blockId="22.[2012,2606,1351,1775]" pageId="22" pageNumber="533">
+<materialsCitation ID-GBIF-Occurrence="3798388303" pageId="22" pageNumber="533">“Los Sombreros, Sierra Tontal, Alt. 2700 m,” Departamento Calinagasta, San Juan Province, Argentina, 31°33&quot; S, 69°11’ W.</materialsCitation>
+</paragraph>
+</subSubSection>
+<subSubSection pageId="22" pageNumber="533" type="discussion">
+<paragraph blockId="22.[2012,2606,1351,1775]" pageId="22" pageNumber="533">
 <taxonomicName authorityName="Thomas" authorityYear="1921" box="[2016,2235,1544,1577]" class="Mammalia" family="Ctenomyidae" genus="Ctenomys" kingdom="Animalia" order="Rodentia" pageId="22" pageNumber="533" phylum="Chordata" rank="species" species="tulduco">Ctenomys tulduco</taxonomicName>
 is not classified in any species group. Karyotype and sperm form are unknown. Monotypic.
 </paragraph>

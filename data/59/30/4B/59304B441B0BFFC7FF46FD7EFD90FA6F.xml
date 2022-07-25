@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6588177" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6588177" approvalRequired="626" approvalRequired_for_taxonomicNames="13" approvalRequired_for_textStreams="557" approvalRequired_for_treatments="56" checkinTime="1653672804429" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="59304B441B0BFFC7FF46FD7EFD90FA6F" docLanguage="en" docName="hbmw_6_Ctenomyidae_0498.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Ctenomys viperinus Thomas 1926" docType="treatment" docVersion="5" lastPageNumber="532" masterDocId="A509333C1B1EFFD2FF94FC71FF90FFDC" masterDocTitle="Ctenomyidae" masterLastPageNumber="534" masterPageNumber="498" pageNumber="532" updateTime="1653681383694" updateUser="carolina">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6588177" ID-GBIF-Dataset="e3c7ddc9-124f-4f96-9adb-e2bb222f3210" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6588177" approvalRequired="1" approvalRequired_for_treatments="1" checkinTime="1653672804429" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="59304B441B0BFFC7FF46FD7EFD90FA6F" docLanguage="en" docName="hbmw_6_Ctenomyidae_0498.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Ctenomys viperinus Thomas 1926" docType="treatment" docVersion="10" lastPageNumber="532" masterDocId="A509333C1B1EFFD2FF94FC71FF90FFDC" masterDocTitle="Ctenomyidae" masterLastPageNumber="534" masterPageNumber="498" pageNumber="532" updateTime="1658772329278" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Ctenomyidae</mods:title>
@@ -43,10 +43,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6588177</mods:identifier>
+<mods:identifier type="GBIF-Dataset">e3c7ddc9-124f-4f96-9adb-e2bb222f3210</mods:identifier>
 <mods:identifier type="ISBN">978-84-941892-3-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6588177</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6588131" ID-Zenodo-Dep="6588131" LSID="urn:lsid:plazi:treatment:59304B441B0BFFC7FF46FD7EFD90FA6F" httpUri="http://treatment.plazi.org/id/59304B441B0BFFC7FF46FD7EFD90FA6F" lastPageNumber="532" pageId="21" pageNumber="532">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6588131" ID-GBIF-Taxon="195703717" ID-Zenodo-Dep="6588131" LSID="urn:lsid:plazi:treatment:59304B441B0BFFC7FF46FD7EFD90FA6F" httpUri="http://treatment.plazi.org/id/59304B441B0BFFC7FF46FD7EFD90FA6F" lastPageNumber="532" pageId="21" pageNumber="532">
 <heading pageId="21" pageNumber="532">
 <subSubSection box="[210,267,271,317]" pageId="21" pageNumber="532" type="multiple">
 <paragraph blockId="21.[208,1094,271,397]" box="[210,267,271,317]" pageId="21" pageNumber="532">
@@ -85,12 +86,17 @@
 <subSubSection pageId="21" pageNumber="532" type="reference_group">
 <paragraph blockId="21.[821,1414,441,868]" pageId="21" pageNumber="532">
 <emphasis bold="true" box="[821,976,441,474]" pageId="21" pageNumber="532">Taxonomy.</emphasis>
-<taxonomicName authority="Thomas" authorityName="Thomas" authorityYear="1926" class="Mammalia" family="Ctenomyidae" genus="Ctenomys" kingdom="Animalia" order="Rodentia" pageId="21" pageNumber="532" phylum="Chordata" rank="species" species="viperinus">
-Ctenomys viperinus Thomas, 1926, 
-<materialsCitation pageId="21" pageNumber="532">“Norco, near Vipos, 2500 m,” Depar- tamento Trancas, Tucuman, Argentina, 26°29'8, 65° 22'W, 2500 m</materialsCitation>
-</taxonomicName>
+<taxonomicName authority="Thomas" authorityName="Thomas" authorityYear="1926" class="Mammalia" family="Ctenomyidae" genus="Ctenomys" kingdom="Animalia" order="Rodentia" pageId="21" pageNumber="532" phylum="Chordata" rank="species" species="viperinus">Ctenomys viperinus Thomas, 1926</taxonomicName>
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="21" pageNumber="532" type="materials_examined">
+<paragraph blockId="21.[821,1414,441,868]" pageId="21" pageNumber="532">
+<materialsCitation ID-GBIF-Occurrence="3798388322" pageId="21" pageNumber="532">“Norco, near Vipos, 2500 m,” Departamento Trancas, Tucuman, Argentina, 26°29'8, 65° 22'W, 2500 m</materialsCitation>
 .
 </paragraph>
+</subSubSection>
+<subSubSection pageId="21" pageNumber="532" type="discussion">
 <paragraph blockId="21.[821,1414,441,868]" pageId="21" pageNumber="532">
 <taxonomicName authorityName="Thomas" authorityYear="1926" box="[824,1073,599,632]" class="Mammalia" family="Ctenomyidae" genus="Ctenomys" kingdom="Animalia" order="Rodentia" pageId="21" pageNumber="532" phylum="Chordata" rank="species" species="viperinus">Ctenomys viperinus</taxonomicName>
 is not classified in any species group. Karyotype and sperm form are unknown. Monotypic.
@@ -98,19 +104,17 @@ is not classified in any species group. Karyotype and sperm form are unknown. Mo
 </subSubSection>
 <subSubSection pageId="21" pageNumber="532" type="distribution">
 <caption ID-DOI="http://doi.org/10.5281/zenodo.6588306" ID-Zenodo-Dep="6588306" httpUri="https://zenodo.org/record/6588306/files/figure.png" inLine="true" pageId="21" pageNumber="532" targetBox="[206,797,447,861]" targetPageId="21">
-<paragraph blockId="21.[821,1414,441,868]" box="[821,1412,717,750]" pageId="21" pageNumber="532">
+<paragraph blockId="21.[821,1414,441,868]" pageId="21" pageNumber="532">
 <emphasis bold="true" box="[821,997,717,750]" pageId="21" pageNumber="532">Distribution.</emphasis>
-NW Argentina (N Tucuman
+NW Argentina (N Tucuman Province), known only from the type locality and neighboring areas.
 </paragraph>
-<paragraph blockId="21.[821,1414,441,868]" pageId="21" pageNumber="532">Province), known only from the type locality and neighboring areas.</paragraph>
 </caption>
 </subSubSection>
 <subSubSection pageId="21" pageNumber="532" type="description">
-<paragraph blockId="21.[821,1414,441,868]" box="[821,1412,835,868]" pageId="21" pageNumber="532">
+<paragraph blockId="21.[821,1414,441,868]" lastBlockId="21.[208,1413,879,1459]" pageId="21" pageNumber="532">
 <emphasis bold="true" box="[821,1079,835,868]" pageId="21" pageNumber="532">Descriptive notes.</emphasis>
-Head-body 213 mm,
+Head-body 213 mm, tail 76 mm, hindfoot 36 mm (all measurements from the adult male holotype). No specific data are available for body weight. The Monte Tuco-tuco is medium-sized. Overall color is warm brown above, paler and more drab below. Many individuals have blackened muzzles and crowns. White axillary patches are present in most individuals, while white inguinal spots are less common. Skull is rather small, with zygomatic arc markedly expanded and antorbital foramen widely open. Bullae are rather narrow. Upper incisors are broad and covered with rather dark orange enamel.
 </paragraph>
-<paragraph blockId="21.[208,1413,879,1459]" pageId="21" pageNumber="532">tail 76 mm, hindfoot 36 mm (all measurements from the adult male holotype). No specific data are available for body weight. The Monte Tuco-tuco is medium-sized. Overall color is warm brown above, paler and more drab below. Many individuals have blackened muzzles and crowns. White axillary patches are present in most individuals, while white inguinal spots are less common. Skull is rather small, with zygomatic arc markedly expanded and antorbital foramen widely open. Bullae are rather narrow. Upper incisors are broad and covered with rather dark orange enamel.</paragraph>
 </subSubSection>
 <subSubSection box="[210,984,1150,1183]" pageId="21" pageNumber="532" type="biology_ecology">
 <paragraph blockId="21.[208,1413,879,1459]" box="[210,984,1150,1183]" pageId="21" pageNumber="532">
