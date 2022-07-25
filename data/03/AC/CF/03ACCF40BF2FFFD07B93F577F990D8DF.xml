@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6331155" ID-ISBN="978-84-96553-49-1" ID-Zenodo-Dep="6331155" approvalRequired="75" approvalRequired_for_taxonomicNames="4" approvalRequired_for_textStreams="26" approvalRequired_for_treatments="42" checkinTime="1646522525642" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2009" docId="03ACCF40BF2FFFD07B93F577F990D8DF" docLanguage="en" docName="hbmw_1_Canidae_0352.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 1 Carnivores, Barcelona: Lynx Edicions" docTitle="Otocyon megalotis" docType="treatment" docVersion="9" lastPageNumber="436" masterDocId="FF95B738BF37FFC97E1BFF90FFDBDD06" masterDocTitle="Canidae" masterLastPageNumber="446" masterPageNumber="352" pageNumber="435" updateTime="1653508776756" updateUser="tatiana">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6331155" ID-GBIF-Dataset="a7d8d69c-0188-4a74-b785-432bf1c60c9e" ID-ISBN="978-84-96553-49-1" ID-Zenodo-Dep="6331155" checkinTime="1646522525642" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2009" docId="03ACCF40BF2FFFD07B93F577F990D8DF" docLanguage="en" docName="hbmw_1_Canidae_0352.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 1 Carnivores, Barcelona: Lynx Edicions" docTitle="Otocyon megalotis" docType="treatment" docVersion="13" lastPageNumber="436" masterDocId="FF95B738BF37FFC97E1BFF90FFDBDD06" masterDocTitle="Canidae" masterLastPageNumber="446" masterPageNumber="352" pageNumber="435" updateTime="1658776966409" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Canidae</mods:title>
@@ -37,10 +37,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6331155</mods:identifier>
+<mods:identifier type="GBIF-Dataset">a7d8d69c-0188-4a74-b785-432bf1c60c9e</mods:identifier>
 <mods:identifier type="ISBN">978-84-96553-49-1</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6331155</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6335047" ID-Zenodo-Dep="6335047" LSID="urn:lsid:plazi:treatment:03ACCF40BF2FFFD07B93F577F990D8DF" httpUri="http://treatment.plazi.org/id/03ACCF40BF2FFFD07B93F577F990D8DF" lastPageId="25" lastPageNumber="436" pageId="24" pageNumber="435">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6335047" ID-GBIF-Taxon="195657004" ID-Zenodo-Dep="6335047" LSID="urn:lsid:plazi:treatment:03ACCF40BF2FFFD07B93F577F990D8DF" httpUri="http://treatment.plazi.org/id/03ACCF40BF2FFFD07B93F577F990D8DF" lastPageId="25" lastPageNumber="436" pageId="24" pageNumber="435">
 <subSubSection box="[1416,1472,2791,2837]" pageId="24" pageNumber="435" type="multiple">
 <paragraph blockId="24.[1413,2125,2791,2879]" box="[1416,1472,2791,2837]" pageId="24" pageNumber="435">
 <heading box="[1416,1472,2791,2837]" pageId="24" pageNumber="435">
@@ -82,14 +83,20 @@
 <paragraph blockId="24.[2026,2615,2926,3348]" pageId="24" pageNumber="435">
 <emphasis box="[2028,2183,2926,2955]" pageId="24" pageNumber="435">Taxonomy.</emphasis>
 <taxonomicName authority="Desmarest, 1822" authorityName="Desmarest" authorityYear="1822" class="Mammalia" family="Canidae" genus="Canis" kingdom="Animalia" order="Carnivora" pageId="24" pageNumber="435" phylum="Chordata" rank="species" species="megalotis">Canis megalotis Desmarest, 1822</taxonomicName>
-, 
-<materialsCitation box="[2113,2596,2961,2994]" pageId="24" pageNumber="435">
+,
+</paragraph>
+</subSubSection>
+<subSubSection box="[2113,2596,2961,2994]" pageId="24" pageNumber="435" type="materials_examined">
+<paragraph blockId="24.[2026,2615,2926,3348]" box="[2113,2596,2961,2994]" pageId="24" pageNumber="435">
+<materialsCitation ID-GBIF-Occurrence="3784256316" box="[2113,2596,2961,2994]" pageId="24" pageNumber="435">
 <collectingRegion box="[2113,2183,2961,2994]" country="South Africa" name="Western Cape" pageId="24" pageNumber="435">Cape</collectingRegion>
 of Good Hope, 
 <collectingCountry box="[2414,2592,2961,2994]" name="South Africa" pageId="24" pageNumber="435">South Africa</collectingCountry>
 .
 </materialsCitation>
 </paragraph>
+</subSubSection>
+<subSubSection pageId="24" pageNumber="435" type="discussion">
 <paragraph blockId="24.[2026,2615,2926,3348]" pageId="24" pageNumber="435">
 Included by some authors in a separate subfamily, the Otocyoninae, on account ofits atypical dentition. More recently this species was considered to have affinities with the vulpine line. Occurs in two distinct populations that are geographically separated by about 
 <quantity box="[2171,2295,3236,3269]" metricMagnitude="6" metricUnit="m" metricValue="1.0" pageId="24" pageNumber="435" unit="km" value="1000.0">1000 km</quantity>
