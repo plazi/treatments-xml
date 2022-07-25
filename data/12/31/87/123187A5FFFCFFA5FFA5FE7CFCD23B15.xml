@@ -1,4 +1,4 @@
-<document ID-DOI="10.5281/zenodo.6581970" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6581970" approvalRequired="10" approvalRequired_for_matCits="4" approvalRequired_for_treatments="6" checkinTime="1653502759735" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="123187A5FFFCFFA5FFA5FE7CFCD23B15" docLanguage="en" docName="hbmw_6_Abrocomidae_0488.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Cuscomys ashaninka Emmons 1999" docType="treatment" docVersion="3" lastPageNumber="495" masterDocId="EE08FFDDFFFEFFA7FFD1FFD2FFA63001" masterDocTitle="Abrocomidae" masterLastPageNumber="497" masterPageNumber="488" pageNumber="495" updateTime="1653504580607" updateUser="ExternalLinkService">
+<document ID-DOI="10.5281/zenodo.6581970" ID-GBIF-Dataset="bf493774-c2fb-44dc-aebd-bd351fc2d9f3" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6581970" approvalRequired="4" approvalRequired_for_textStreams="4" checkinTime="1653502759735" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="123187A5FFFCFFA5FFA5FE7CFCD23B15" docLanguage="en" docName="hbmw_6_Abrocomidae_0488.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Cuscomys ashaninka Emmons 1999" docType="treatment" docVersion="7" lastPageNumber="495" masterDocId="EE08FFDDFFFEFFA7FFD1FFD2FFA63001" masterDocTitle="Abrocomidae" masterLastPageNumber="497" masterPageNumber="488" pageNumber="495" updateTime="1658754552248" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Abrocomidae</mods:title>
@@ -43,10 +43,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">10.5281/zenodo.6581970</mods:identifier>
+<mods:identifier type="GBIF-Dataset">bf493774-c2fb-44dc-aebd-bd351fc2d9f3</mods:identifier>
 <mods:identifier type="ISBN">978-84-941892-3-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6581970</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6581964" ID-Zenodo-Dep="6581964" LSID="urn:lsid:plazi:treatment:123187A5FFFCFFA5FFA5FE7CFCD23B15" httpUri="http://treatment.plazi.org/id/123187A5FFFCFFA5FFA5FE7CFCD23B15" lastPageNumber="495" pageId="2" pageNumber="495">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6581964" ID-GBIF-Taxon="195631565" ID-Zenodo-Dep="6581964" LSID="urn:lsid:plazi:treatment:123187A5FFFCFFA5FFA5FE7CFCD23B15" httpUri="http://treatment.plazi.org/id/123187A5FFFCFFA5FFA5FE7CFCD23B15" lastPageNumber="495" pageId="2" pageNumber="495">
 <heading pageId="2" pageNumber="495">
 <subSubSection box="[116,145,430,472]" pageId="2" pageNumber="495" type="multiple">
 <paragraph blockId="2.[111,1166,426,551]" box="[116,145,430,472]" pageId="2" pageNumber="495">
@@ -90,23 +91,35 @@
 <paragraph blockId="2.[723,1315,605,1023]" pageId="2" pageNumber="495">
 <emphasis bold="true" box="[724,877,605,630]" pageId="2" pageNumber="495">Taxonomy.</emphasis>
 <taxonomicName authority="Emmons, 1999" authorityName="Emmons" authorityYear="1999" class="Mammalia" family="Abrocomidae" genus="Cuscomys" kingdom="Animalia" order="Rodentia" pageId="2" pageNumber="495" phylum="Chordata" rank="species" species="ashaninka">Cuscomys ashaninka Emmons, 1999</taxonomicName>
-, 
-<materialsCitation country="Peru" location="northern Cordillera de Vilcabamba" pageId="2" pageNumber="495" specimenCount="1" stateProvince="Departamento de Cusco">
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="2" pageNumber="495" type="materials_examined">
+<paragraph blockId="2.[723,1315,605,1023]" pageId="2" pageNumber="495">
+<materialsCitation ID-GBIF-Occurrence="3783613304" collectionCode="GPS" country="Peru" elevation="3370" latitude="-11.66" location="northern Cordillera de Vilcabamba" longLatPrecision="21" longitude="-73.66722" pageId="2" pageNumber="495" specimenCount="1" stateProvince="Departamento de Cusco">
 “ 
 <collectingCountry box="[835,903,645,670]" name="Peru" pageId="2" pageNumber="495">Peru</collectingCountry>
 : 
 <collectingRegion box="[935,1308,645,670]" pageId="2" pageNumber="495">Departamento de Cusco</collectingRegion>
 , 
-<location LSID="urn:lsid:plazi:treatment:123187A5FFFCFFA5FFA5FE7CFCD23B15:9F476068FFFCFFA5FD05FD71FABA32C5" box="[724,1308,675,708]" country="Peru" name="northern Cordillera de Vilcabamba" pageId="2" pageNumber="495" stateProvince="Departamento de Cusco">northern Cordillera de Vilcabamba</location>
+<location LSID="urn:lsid:plazi:treatment:123187A5FFFCFFA5FFA5FE7CFCD23B15:9F476068FFFCFFA5FD05FD71FABA32C5" box="[724,1308,675,708]" country="Peru" latitude="-11.66" longLatPrecision="21" longitude="-73.66722" name="northern Cordillera de Vilcabamba" pageId="2" pageNumber="495" stateProvince="Departamento de Cusco">northern Cordillera de Vilcabamba</location>
 , 
-<geoCoordinate box="[727,876,715,748]" pageId="2" pageNumber="495">11°39°36”S</geoCoordinate>
+<geoCoordinate box="[727,876,715,748]" degrees="11" direction="south" minutes="39" orientation="latitude" pageId="2" pageNumber="495" precision="15" seconds="36" value="-11.66">11°39'36”S</geoCoordinate>
 ; 
-<geoCoordinate box="[908,1071,715,748]" pageId="2" pageNumber="495">73°40°02°W</geoCoordinate>
-(by GPS, map datum WGS-84); elevation 
-<quantity box="[1114,1224,758,787]" metricMagnitude="3" metricUnit="m" metricValue="3.37" pageId="2" pageNumber="495" unit="m" value="3370.0">3370 m</quantity>
-.” Corrected by H. L. Quintana in 2011 to Junin Department.
+<geoCoordinate box="[908,1071,715,748]" degrees="73" direction="west" minutes="40" orientation="longitude" pageId="2" pageNumber="495" precision="15" seconds="02" value="-73.66722">73°40 '02&quot;W</geoCoordinate>
+(by 
+<collectionCode box="[1163,1223,715,748]" pageId="2" pageNumber="495">GPS</collectionCode>
+, map datum WGS-84); elevation 
+<quantity box="[1114,1224,758,787]" metricMagnitude="3" metricUnit="m" metricValue="3.37" pageId="2" pageNumber="495" unit="m" value="3370.0">
+<elevation box="[1114,1224,758,787]" metricMagnitude="3" metricUnit="m" metricValue="3.37" pageId="2" pageNumber="495" unit="m" value="3370.0">3370 m</elevation>
+</quantity>
+.” Corrected by H. L. Quintana in 2011 to 
+<collectingRegion box="[1232,1313,794,827]" country="Peru" name="Junin" pageId="2" pageNumber="495">Junin</collectingRegion>
+Department.
 </materialsCitation>
 </paragraph>
+</subSubSection>
+<subSubSection pageId="2" pageNumber="495" type="discussion">
 <paragraph blockId="2.[723,1315,605,1023]" pageId="2" pageNumber="495">
 <taxonomicName authorityName="Emmons" authorityYear="1999" box="[726,986,873,906]" class="Mammalia" family="Abrocomidae" genus="Cuscomys" kingdom="Animalia" order="Rodentia" pageId="2" pageNumber="495" phylum="Chordata" rank="species" species="ashaninka">Cuscomys ashaninka</taxonomicName>
 is known only from the type locality, which was originally erroneously believed to be in Cusco Department. Monotypic.
@@ -156,6 +169,7 @@ sericea (
 The Ashaninka Inca Rat is probably herbivorous; stomach of the holotype was packed with finely triturated green-plant material, including fruit with lignin granules and unidentified plant tissue. Length of intestine suggests an herbivorous diet. Strong claws and broad feet without pads of the Ashaninka Inca Rats suggest that it climbstrees to feed.
 </paragraph>
 </subSubSection>
+<paragraph blockId="2.[1994,2586,2141,2564]" box="[2131,2141,2294,2327]" pageId="2" pageNumber="495">°</paragraph>
 <subSubSection pageId="2" pageNumber="495" type="breeding">
 <paragraph blockId="2.[107,1314,1038,2836]" pageId="2" pageNumber="495">
 <emphasis bold="true" box="[110,242,2369,2402]" pageId="2" pageNumber="495">Breeding.</emphasis>

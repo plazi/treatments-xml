@@ -1,4 +1,4 @@
-<document ID-DOI="10.5281/zenodo.6581970" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6581970" approvalRequired="2" approvalRequired_for_treatments="2" checkinTime="1653502759735" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="123187A5FFFAFFA3FAA1F72BF8E93D47" docLanguage="en" docName="hbmw_6_Abrocomidae_0488.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Abrocoma vaccarum Thomas 1921" docType="treatment" docVersion="3" lastPageNumber="497" masterDocId="EE08FFDDFFFEFFA7FFD1FFD2FFA63001" masterDocTitle="Abrocomidae" masterLastPageNumber="497" masterPageNumber="488" pageNumber="497" updateTime="1653505590509" updateUser="carolina">
+<document ID-DOI="10.5281/zenodo.6581970" ID-GBIF-Dataset="bf493774-c2fb-44dc-aebd-bd351fc2d9f3" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6581970" approvalRequired="4" approvalRequired_for_textStreams="4" checkinTime="1653502759735" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="123187A5FFFAFFA3FAA1F72BF8E93D47" docLanguage="en" docName="hbmw_6_Abrocomidae_0488.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Abrocoma vaccarum Thomas 1921" docType="treatment" docVersion="7" lastPageNumber="497" masterDocId="EE08FFDDFFFEFFA7FFD1FFD2FFA63001" masterDocTitle="Abrocomidae" masterLastPageNumber="497" masterPageNumber="488" pageNumber="497" updateTime="1658754552248" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Abrocomidae</mods:title>
@@ -43,10 +43,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">10.5281/zenodo.6581970</mods:identifier>
+<mods:identifier type="GBIF-Dataset">bf493774-c2fb-44dc-aebd-bd351fc2d9f3</mods:identifier>
 <mods:identifier type="ISBN">978-84-941892-3-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6581970</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:123187A5FFFAFFA3FAA1F72BF8E93D47" httpUri="http://treatment.plazi.org/id/123187A5FFFAFFA3FAA1F72BF8E93D47" lastPageNumber="497" pageId="4" pageNumber="497">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6582109" ID-GBIF-Taxon="195631574" ID-Zenodo-Dep="6582109" LSID="urn:lsid:plazi:treatment:123187A5FFFAFFA3FAA1F72BF8E93D47" httpUri="http://treatment.plazi.org/id/123187A5FFFAFFA3FAA1F72BF8E93D47" lastPageNumber="497" pageId="4" pageNumber="497">
 <heading pageId="4" pageNumber="497">
 <subSubSection box="[1392,1447,2297,2335]" pageId="4" pageNumber="497" type="multiple">
 <paragraph blockId="4.[1388,2461,2297,2377]" box="[1392,1447,2297,2335]" pageId="4" pageNumber="497">
@@ -82,9 +83,15 @@
 <paragraph blockId="4.[2000,2594,2423,2845]" pageId="4" pageNumber="497">
 <emphasis bold="true" box="[2000,2154,2423,2452]" pageId="4" pageNumber="497">Taxonomy.</emphasis>
 <taxonomicName authority="Thomas" authorityName="Thomas" authorityYear="1921" class="Mammalia" family="Abrocomidae" genus="Abrocoma" kingdom="Animalia" order="Rodentia" pageId="4" pageNumber="497" phylum="Chordata" rank="species" species="vaccarum">Abrocoma vaccarum Thomas, 1921</taxonomicName>
-, 
-<materialsCitation pageId="4" pageNumber="497">“Punta de Vacas, Altitude 3000 m, North-western Mendoza,” Argentina.</materialsCitation>
+,
 </paragraph>
+</subSubSection>
+<subSubSection pageId="4" pageNumber="497" type="materials_examined">
+<paragraph blockId="4.[2000,2594,2423,2845]" pageId="4" pageNumber="497">
+<materialsCitation ID-GBIF-Occurrence="3783613305" pageId="4" pageNumber="497">“Punta de Vacas, Altitude 3000 m, North-western Mendoza,” Argentina.</materialsCitation>
+</paragraph>
+</subSubSection>
+<subSubSection pageId="4" pageNumber="497" type="discussion">
 <paragraph blockId="4.[2000,2594,2423,2845]" pageId="4" pageNumber="497">
 <taxonomicName authorityName="Thomas" authorityYear="1921" box="[2001,2259,2541,2570]" class="Mammalia" family="Abrocomidae" genus="Abrocoma" kingdom="Animalia" order="Rodentia" pageId="4" pageNumber="497" phylum="Chordata" rank="species" species="vaccarum">Abrocoma vaccarum</taxonomicName>
 is one of six species in the “ 
