@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6588177" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6588177" approvalRequired="724" approvalRequired_for_taxonomicNames="82" approvalRequired_for_textStreams="555" approvalRequired_for_treatments="85" checkinTime="1653672804429" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="59304B441B18FFD4FA18FB0FF593F395" docLanguage="en" docName="hbmw_6_Ctenomyidae_0498.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Ctenomys tucumanus Thomas 1900" docType="treatment" docVersion="3" lastPageNumber="517" masterDocId="A509333C1B1EFFD2FF94FC71FF90FFDC" masterDocTitle="Ctenomyidae" masterLastPageNumber="534" masterPageNumber="498" pageNumber="517" updateTime="1653680419015" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6588177" ID-GBIF-Dataset="e3c7ddc9-124f-4f96-9adb-e2bb222f3210" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6588177" approvalRequired="1" approvalRequired_for_taxonomicNames="1" checkinTime="1653672804429" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="59304B441B18FFD4FA18FB0FF593F395" docLanguage="en" docName="hbmw_6_Ctenomyidae_0498.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Ctenomys tucumanus Thomas 1900" docType="treatment" docVersion="7" lastPageNumber="517" masterDocId="A509333C1B1EFFD2FF94FC71FF90FFDC" masterDocTitle="Ctenomyidae" masterLastPageNumber="534" masterPageNumber="498" pageNumber="517" updateTime="1658770302849" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Ctenomyidae</mods:title>
@@ -43,10 +43,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6588177</mods:identifier>
+<mods:identifier type="GBIF-Dataset">e3c7ddc9-124f-4f96-9adb-e2bb222f3210</mods:identifier>
 <mods:identifier type="ISBN">978-84-941892-3-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6588177</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6587961" ID-Zenodo-Dep="6587961" LSID="urn:lsid:plazi:treatment:59304B441B18FFD4FA18FB0FF593F395" httpUri="http://treatment.plazi.org/id/59304B441B18FFD4FA18FB0FF593F395" lastPageNumber="517" pageId="6" pageNumber="517">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6587961" ID-GBIF-Taxon="195703689" ID-Zenodo-Dep="6587961" LSID="urn:lsid:plazi:treatment:59304B441B18FFD4FA18FB0FF593F395" httpUri="http://treatment.plazi.org/id/59304B441B18FFD4FA18FB0FF593F395" lastPageNumber="517" pageId="6" pageNumber="517">
 <heading pageId="6" pageNumber="517">
 <subSubSection box="[1420,1477,1918,1964]" pageId="6" pageNumber="517" type="multiple">
 <paragraph blockId="6.[1418,2387,1918,2005]" box="[1420,1477,1918,1964]" pageId="6" pageNumber="517">
@@ -81,10 +82,16 @@
 <subSubSection pageId="6" pageNumber="517" type="reference_group">
 <paragraph blockId="6.[2031,2624,2051,2474]" pageId="6" pageNumber="517">
 <emphasis bold="true" box="[2031,2186,2051,2080]" pageId="6" pageNumber="517">Taxonomy.</emphasis>
-<taxonomicName authorityName="Thomas" authorityYear="1900" class="Mammalia" family="Ctenomyidae" genus="Ctenomys" kingdom="Animalia" order="Rodentia" pageId="6" pageNumber="517" phylum="Chordata" rank="species" species="tucumanus">Ctenomys tucumanus Thom- as, 1900</taxonomicName>
-, 
-<materialsCitation pageId="6" pageNumber="517">“Tucuman [San Miguel de Tucuman], Altitude 450 m,” Departamen- to Capital, Tucuman, Argentina, 26°49’ S, 65°13’ W.</materialsCitation>
+<taxonomicName authorityName="Thomas" authorityYear="1900" class="Mammalia" family="Ctenomyidae" genus="Ctenomys" kingdom="Animalia" order="Rodentia" pageId="6" pageNumber="517" phylum="Chordata" rank="species" species="tucumanus">Ctenomys tucumanus Thomas, 1900</taxonomicName>
+,
 </paragraph>
+</subSubSection>
+<subSubSection pageId="6" pageNumber="517" type="materials_examined">
+<paragraph blockId="6.[2031,2624,2051,2474]" pageId="6" pageNumber="517">
+<materialsCitation ID-GBIF-Occurrence="3798388357" pageId="6" pageNumber="517">“Tucuman [San Miguel de Tucuman], Altitude 450 m,” Departamento Capital, Tucuman, Argentina, 26°49’ S, 65°13’ W.</materialsCitation>
+</paragraph>
+</subSubSection>
+<subSubSection pageId="6" pageNumber="517" type="discussion">
 <paragraph blockId="6.[2031,2624,2051,2474]" pageId="6" pageNumber="517">
 Based on biogeography, 
 <taxonomicName authorityName="Thomas" authorityYear="1900" box="[2389,2572,2244,2277]" class="Mammalia" family="Ctenomyidae" genus="Ctenomys" kingdom="Animalia" order="Rodentia" pageId="6" pageNumber="517" phylum="Chordata" rank="species" species="tucumanus">C. tucumanus</taxonomicName>

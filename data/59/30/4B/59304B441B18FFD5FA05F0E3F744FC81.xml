@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6588177" ID-GBIF-Dataset="e3c7ddc9-124f-4f96-9adb-e2bb222f3210" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6588177" approvalRequired="2" approvalRequired_for_taxonomicNames="2" checkinTime="1653672804429" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="59304B441B18FFD5FA05F0E3F744FC81" docLanguage="en" docName="hbmw_6_Ctenomyidae_0498.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Ctenomys brasiliensis de Blainville 1826" docType="treatment" docVersion="7" lastPageNumber="518" masterDocId="A509333C1B1EFFD2FF94FC71FF90FFDC" masterDocTitle="Ctenomyidae" masterLastPageNumber="534" masterPageNumber="498" pageNumber="517" updateTime="1654087434031" updateUser="carolina">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6588177" ID-GBIF-Dataset="e3c7ddc9-124f-4f96-9adb-e2bb222f3210" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6588177" approvalRequired="1" approvalRequired_for_taxonomicNames="1" checkinTime="1653672804429" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="59304B441B18FFD5FA05F0E3F744FC81" docLanguage="en" docName="hbmw_6_Ctenomyidae_0498.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Ctenomys brasiliensis de Blainville 1826" docType="treatment" docVersion="9" lastPageNumber="518" masterDocId="A509333C1B1EFFD2FF94FC71FF90FFDC" masterDocTitle="Ctenomyidae" masterLastPageNumber="534" masterPageNumber="498" pageNumber="517" updateTime="1658770302849" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Ctenomyidae</mods:title>
@@ -47,7 +47,7 @@
 <mods:identifier type="ISBN">978-84-941892-3-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6588177</mods:identifier>
 </mods:mods>
-<treatment ID-GBIF-Taxon="195703731" LSID="urn:lsid:plazi:treatment:59304B441B18FFD5FA05F0E3F744FC81" httpUri="http://treatment.plazi.org/id/59304B441B18FFD5FA05F0E3F744FC81" lastPageId="7" lastPageNumber="518" pageId="6" pageNumber="517">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6602969" ID-GBIF-Taxon="195703731" ID-Zenodo-Dep="6602969" LSID="urn:lsid:plazi:treatment:59304B441B18FFD5FA05F0E3F744FC81" httpUri="http://treatment.plazi.org/id/59304B441B18FFD5FA05F0E3F744FC81" lastPageId="7" lastPageNumber="518" pageId="6" pageNumber="517">
 <heading pageId="6" pageNumber="517">
 <subSubSection box="[1425,1482,3218,3264]" pageId="6" pageNumber="517" type="multiple">
 <paragraph blockId="6.[1423,2348,3218,3305]" box="[1425,1482,3218,3264]" pageId="6" pageNumber="517">
@@ -79,13 +79,19 @@
 </paragraph>
 </subSubSection>
 </heading>
-<subSubSection lastPageId="7" lastPageNumber="518" pageId="6" pageNumber="517" type="reference_group">
-<paragraph blockId="6.[1422,2626,3348,3469]" pageId="6" pageNumber="517">
+<subSubSection box="[1423,2143,3348,3381]" pageId="6" pageNumber="517" type="reference_group">
+<paragraph blockId="6.[1422,2626,3348,3469]" box="[1423,2143,3348,3381]" pageId="6" pageNumber="517">
 <emphasis bold="true" box="[1423,1578,3348,3381]" pageId="6" pageNumber="517">Taxonomy.</emphasis>
 <taxonomicName authority="de Blainville, 1826" authorityName="de Blainville" authorityYear="1826" box="[1596,2138,3348,3381]" class="Mammalia" family="Ctenomyidae" genus="Ctenomys" kingdom="Animalia" order="Rodentia" pageId="6" pageNumber="517" phylum="Chordata" rank="species" species="brasiliensis">Ctenomys brasiliensis de Blainville, 1826</taxonomicName>
-, 
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="6" pageNumber="517" type="materials_examined">
+<paragraph blockId="6.[1422,2626,3348,3469]" pageId="6" pageNumber="517">
 <materialsCitation ID-GBIF-Occurrence="3798388324" pageId="6" pageNumber="517">“des parties intérieures du Brésil de la province de Las Minas.” Corrected by C. J. Bidau in 2015 to “Minas, Lavalleja, Uruguay.”</materialsCitation>
 </paragraph>
+</subSubSection>
+<subSubSection pageId="7" pageNumber="518" type="discussion">
 <paragraph blockId="7.[813,1407,275,702]" pageId="7" pageNumber="518">
 H. M. D. de Blainville thought the type locality was Minas Gerais State in southeastern Brazil, which is outside of the currently known distribution of any species of 
 <taxonomicName authorityName="Blainville" authorityYear="1826" box="[859,978,436,465]" class="Mammalia" family="Ctenomyidae" genus="Ctenomys" kingdom="Animalia" order="Rodentia" pageId="7" pageNumber="518" phylum="Chordata" rank="genus">Ctenomys</taxonomicName>
