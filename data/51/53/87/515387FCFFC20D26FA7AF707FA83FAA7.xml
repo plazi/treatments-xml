@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6595219" ID-GBIF-Dataset="2463eca8-5186-4206-9ada-35089bae3c92" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6595219" approvalRequired="4" approvalRequired_for_taxonomicNames="4" checkinTime="1653922532425" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="515387FCFFC20D26FA7AF707FA83FAA7" docLanguage="en" docName="hbmw_6_Dasyproctidae_0440.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Myoprocta acouchy" docType="treatment" docVersion="4" lastPageNumber="461" masterDocId="AD6AFF84FFC70D20FFD7FFFCFFB7FFDC" masterDocTitle="Dasyproctidae" masterLastPageNumber="461" masterPageNumber="440" pageNumber="460" updateTime="1653928819653" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6595219" ID-GBIF-Dataset="2463eca8-5186-4206-9ada-35089bae3c92" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6595219" approvalRequired="5" approvalRequired_for_textStreams="5" checkinTime="1653922532425" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="515387FCFFC20D26FA7AF707FA83FAA7" docLanguage="en" docName="hbmw_6_Dasyproctidae_0440.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Myoprocta acouchy" docType="treatment" docVersion="6" lastPageNumber="461" masterDocId="AD6AFF84FFC70D20FFD7FFFCFFB7FFDC" masterDocTitle="Dasyproctidae" masterLastPageNumber="461" masterPageNumber="440" pageNumber="460" updateTime="1658774574770" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Dasyproctidae</mods:title>
@@ -47,7 +47,7 @@
 <mods:identifier type="ISBN">978-84-941892-3-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6595219</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6594920" ID-Zenodo-Dep="6594920" LSID="urn:lsid:plazi:treatment:515387FCFFC20D26FA7AF707FA83FAA7" httpUri="http://treatment.plazi.org/id/515387FCFFC20D26FA7AF707FA83FAA7" lastPageId="6" lastPageNumber="461" pageId="5" pageNumber="460">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6594920" ID-GBIF-Taxon="195702518" ID-Zenodo-Dep="6594920" LSID="urn:lsid:plazi:treatment:515387FCFFC20D26FA7AF707FA83FAA7" httpUri="http://treatment.plazi.org/id/515387FCFFC20D26FA7AF707FA83FAA7" lastPageId="6" lastPageNumber="461" pageId="5" pageNumber="460">
 <heading pageId="5" pageNumber="460">
 <subSubSection box="[1453,1507,2299,2345]" pageId="5" pageNumber="460" type="multiple">
 <paragraph blockId="5.[1448,2206,2299,2388]" box="[1453,1507,2299,2345]" pageId="5" pageNumber="460">
@@ -79,14 +79,19 @@
 </paragraph>
 </subSubSection>
 </heading>
-<subSubSection pageId="5" pageNumber="460" type="reference_group">
-<paragraph blockId="5.[2059,2652,2430,2857]" pageId="5" pageNumber="460">
+<subSubSection box="[2060,2651,2430,2463]" pageId="5" pageNumber="460" type="reference_group">
+<paragraph blockId="5.[2059,2652,2430,2857]" box="[2060,2651,2430,2463]" pageId="5" pageNumber="460">
 <emphasis bold="true" box="[2060,2215,2430,2463]" pageId="5" pageNumber="460">Taxonomy.</emphasis>
 <taxonomicName authority="Erxleben, 1777" authorityName="Erxleben" authorityYear="1777" box="[2232,2645,2430,2463]" class="Mammalia" family="Caviidae" genus="Cavia" kingdom="Animalia" order="Rodentia" pageId="5" pageNumber="460" phylum="Chordata" rank="species" species="acouchy">Cavia acouchy Erxleben, 1777</taxonomicName>
-, 
-<materialsCitation pageId="5" pageNumber="460">“Habitat vulgaris in Guiania reliquaque America australi.”</materialsCitation>
-Fixed by neotype selection by R. S. Voss and colleagues in 2001 to “Paracou, French Guiana.”
+,
 </paragraph>
+</subSubSection>
+<subSubSection pageId="5" pageNumber="460" type="materials_examined">
+<paragraph blockId="5.[2059,2652,2430,2857]" pageId="5" pageNumber="460">
+<materialsCitation ID-GBIF-Occurrence="3797735314" pageId="5" pageNumber="460">“Habitat vulgaris in Guiania reliquaque America australi.” Fixed by neotype selection by R. S. Voss and colleagues in 2001 to “Paracou, French Guiana.”</materialsCitation>
+</paragraph>
+</subSubSection>
+<subSubSection pageId="5" pageNumber="460" type="discussion">
 <paragraph blockId="5.[2059,2652,2430,2857]" pageId="5" pageNumber="460">
 <taxonomicName box="[2061,2264,2631,2660]" genus="Mpyoprocta" pageId="5" pageNumber="460" rank="species" species="exilis">Mpyoprocta exilis</taxonomicName>
 is a synonym of 
