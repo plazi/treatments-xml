@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6588177" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6588177" approvalRequired="626" approvalRequired_for_taxonomicNames="13" approvalRequired_for_textStreams="557" approvalRequired_for_treatments="56" checkinTime="1653672804429" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="59304B441B12FFDFFA06FA4FFAE0FE0E" docLanguage="en" docName="hbmw_6_Ctenomyidae_0498.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Ctenomys flamarioni Travi 1981" docType="treatment" docVersion="4" lastPageNumber="524" masterDocId="A509333C1B1EFFD2FF94FC71FF90FFDC" masterDocTitle="Ctenomyidae" masterLastPageNumber="534" masterPageNumber="498" pageNumber="523" updateTime="1653681383694" updateUser="carolina">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6588177" ID-GBIF-Dataset="e3c7ddc9-124f-4f96-9adb-e2bb222f3210" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6588177" approvalRequired="1" approvalRequired_for_taxonomicNames="1" checkinTime="1653672804429" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="59304B441B12FFDFFA06FA4FFAE0FE0E" docLanguage="en" docName="hbmw_6_Ctenomyidae_0498.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Ctenomys flamarioni Travi 1981" docType="treatment" docVersion="9" lastPageNumber="524" masterDocId="A509333C1B1EFFD2FF94FC71FF90FFDC" masterDocTitle="Ctenomyidae" masterLastPageNumber="534" masterPageNumber="498" pageNumber="523" updateTime="1658770750654" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Ctenomyidae</mods:title>
@@ -43,10 +43,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6588177</mods:identifier>
+<mods:identifier type="GBIF-Dataset">e3c7ddc9-124f-4f96-9adb-e2bb222f3210</mods:identifier>
 <mods:identifier type="ISBN">978-84-941892-3-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6588177</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:59304B441B12FFDFFA06FA4FFAE0FE0E" httpUri="http://treatment.plazi.org/id/59304B441B12FFDFFA06FA4FFAE0FE0E" lastPageId="13" lastPageNumber="524" pageId="12" pageNumber="523">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6588561" ID-GBIF-Taxon="195703746" ID-Zenodo-Dep="6588561" LSID="urn:lsid:plazi:treatment:59304B441B12FFDFFA06FA4FFAE0FE0E" httpUri="http://treatment.plazi.org/id/59304B441B12FFDFFA06FA4FFAE0FE0E" lastPageId="13" lastPageNumber="524" pageId="12" pageNumber="523">
 <heading pageId="12" pageNumber="523">
 <subSubSection box="[1426,1483,1598,1648]" pageId="12" pageNumber="523" type="multiple">
 <paragraph blockId="12.[1424,2424,1598,1728]" box="[1426,1483,1598,1648]" pageId="12" pageNumber="523">
@@ -82,46 +83,30 @@
 </paragraph>
 </subSubSection>
 </heading>
-<subSubSection pageId="12" pageNumber="523" type="reference_group">
+<subSubSection box="[2036,2627,1771,1804]" pageId="12" pageNumber="523" type="reference_group">
 <paragraph blockId="12.[2034,2631,1771,2198]" box="[2036,2627,1771,1804]" pageId="12" pageNumber="523">
 <emphasis bold="true" box="[2036,2192,1771,1804]" pageId="12" pageNumber="523">Taxonomy.</emphasis>
 <taxonomicName authority="Travi, 1981" authorityName="Travi" authorityYear="1981" box="[2205,2621,1771,1804]" class="Mammalia" family="Ctenomyidae" genus="Ctenomys" kingdom="Animalia" order="Rodentia" pageId="12" pageNumber="523" phylum="Chordata" rank="species" species="flamarioni">Ctenomys flamarioni Travi, 1981</taxonomicName>
 ,
 </paragraph>
-<materialsCitation pageId="12" pageNumber="523">
-<paragraph blockId="12.[2034,2631,1771,2198]" box="[2038,2628,1810,1843]" pageId="12" pageNumber="523">“Fazenda Cacapava, Estacao Ecologica do</paragraph>
-<paragraph blockId="12.[2034,2631,1771,2198]" box="[2037,2627,1858,1883]" pageId="12" pageNumber="523">Taim, Rio Grande, Rio Grande do Sul,</paragraph>
-<paragraph blockId="12.[2034,2631,1771,2198]" box="[2038,2136,1890,1923]" pageId="12" pageNumber="523">Brasil.”</paragraph>
-</materialsCitation>
-<paragraph blockId="12.[2034,2631,1771,2198]" box="[2041,2629,1929,1962]" pageId="12" pageNumber="523">
+</subSubSection>
+<subSubSection pageId="12" pageNumber="523" type="materials_examined">
+<paragraph blockId="12.[2034,2631,1771,2198]" pageId="12" pageNumber="523">
+<materialsCitation ID-GBIF-Occurrence="3798388320" pageId="12" pageNumber="523">“Fazenda Cacapava, Estacao Ecologica do Taim, Rio Grande, Rio Grande do Sul, Brasil.”</materialsCitation>
+</paragraph>
+</subSubSection>
+<subSubSection pageId="12" pageNumber="523" type="discussion">
+<paragraph blockId="12.[2034,2631,1771,2198]" lastBlockId="12.[1427,2633,2205,3458]" pageId="12" pageNumber="523">
 <taxonomicName authorityName="Travi" authorityYear="1981" box="[2041,2316,1929,1962]" class="Mammalia" family="Ctenomyidae" genus="Ctenomys" kingdom="Animalia" order="Rodentia" pageId="12" pageNumber="523" phylum="Chordata" rank="species" species="flamarioni">Ctenomys flamarioni</taxonomicName>
-is included in the
-</paragraph>
-<paragraph blockId="12.[2034,2631,1771,2198]" box="[2040,2629,1968,2001]" pageId="12" pageNumber="523">mendocinus-species group, based both on</paragraph>
-<paragraph blockId="12.[2034,2631,1771,2198]" box="[2038,2629,2007,2040]" pageId="12" pageNumber="523">phylogenetic analysis with mtDNA and</paragraph>
-<paragraph blockId="12.[2034,2631,1771,2198]" box="[2038,2628,2047,2080]" pageId="12" pageNumber="523">
-biogeography. Like 
+is included in the mendocinus-species group, based both on phylogenetic analysis with mtDNA and biogeography. Like 
 <taxonomicName authorityName="Rusconi" authorityYear="1934" box="[2329,2479,2047,2080]" class="Mammalia" family="Ctenomyidae" genus="Ctenomys" kingdom="Animalia" order="Rodentia" pageId="12" pageNumber="523" phylum="Chordata" rank="species" species="australis">C. australis</taxonomicName>
-, it lives in
-</paragraph>
-<paragraph blockId="12.[2034,2631,1771,2198]" box="[2039,2631,2086,2119]" pageId="12" pageNumber="523">
-the first line of dunes on beaches. 
-<taxonomicName authority="Travi, 1981" authorityName="Travi" authorityYear="1981" class="Mammalia" family="Ctenomyidae" genus="Ctenomys" kingdom="Animalia" order="Rodentia" pageId="12" pageNumber="523" phylum="Chordata" rank="species" species="flamarioni">
-Ctenomys 
-<paragraph blockId="12.[2034,2631,1771,2198]" box="[2034,2629,2125,2158]" pageId="12" pageNumber="523">
-flamarioni is the same color as 
+, it lives in the first line of dunes on beaches. 
+<taxonomicName authority="Travi, 1981" authorityName="Travi" authorityYear="1981" class="Mammalia" family="Ctenomyidae" genus="Ctenomys" kingdom="Animalia" order="Rodentia" pageId="12" pageNumber="523" phylum="Chordata" rank="species" species="flamarioni">Ctenomys flamarioni</taxonomicName>
+is the same color as 
 <taxonomicName authorityName="Rusconi" authorityYear="1934" box="[2477,2624,2125,2158]" class="Mammalia" family="Ctenomyidae" genus="Ctenomys" kingdom="Animalia" order="Rodentia" pageId="12" pageNumber="523" phylum="Chordata" rank="species" species="australis">C. australis</taxonomicName>
-,
-</paragraph>
-</taxonomicName>
-</paragraph>
-<paragraph blockId="12.[2034,2631,1771,2198]" box="[2039,2629,2165,2198]" pageId="12" pageNumber="523">
-light almost white. As with 
+, light almost white. As with 
 <taxonomicName authorityName="Rusconi" authorityYear="1934" box="[2422,2568,2165,2198]" class="Mammalia" family="Ctenomyidae" genus="Ctenomys" kingdom="Animalia" order="Rodentia" pageId="12" pageNumber="523" phylum="Chordata" rank="species" species="australis">C. australis</taxonomicName>
-, the
-</paragraph>
-<paragraph blockId="12.[1427,2633,2205,3458]" pageId="12" pageNumber="523">
-karyotype of 
+, the karyotype of 
 <taxonomicName authorityName="Travi" authorityYear="1981" box="[1615,1788,2205,2238]" class="Mammalia" family="Ctenomyidae" genus="Ctenomys" kingdom="Animalia" order="Rodentia" pageId="12" pageNumber="523" phylum="Chordata" rank="species" species="flamarioni">C. flamarioni</taxonomicName>
 is 2n = 48, but FN varies from 50 to 78. Variation is due to constitutive heterochromatin in small arm chromosomes. In the north, its distribution overlaps with that of C. 
 <taxonomicName authorityName="Nehring" authorityYear="1887" box="[1770,1875,2284,2317]" class="Mammalia" family="Ctenomyidae" genus="Ctenomys" kingdom="Animalia" order="Rodentia" pageId="12" pageNumber="523" phylum="Chordata" rank="species" species="minutus">minutus</taxonomicName>
@@ -179,11 +164,10 @@ Flamarion’s Tuco-tucos is solitary. Male territories are nearly five times lar
 </paragraph>
 </subSubSection>
 <subSubSection lastPageId="13" lastPageNumber="524" pageId="12" pageNumber="523" type="conservation">
-<paragraph blockId="12.[1427,2633,2205,3458]" pageId="12" pageNumber="523">
+<paragraph blockId="12.[1427,2633,2205,3458]" lastBlockId="13.[190,1396,281,468]" lastPageId="13" lastPageNumber="524" pageId="12" pageNumber="523">
 <emphasis bold="true" box="[1430,1780,3386,3419]" pageId="12" pageNumber="523">Status and Conservation.</emphasis>
-Classified as Endangered on The IUCN Red List. Flamarion’s Tuco-tuco is highly endemic to sand dune ecosystems. It has been included in the
+Classified as Endangered on The IUCN Red List. Flamarion’s Tuco-tuco is highly endemic to sand dune ecosystems. It has been included in the National List of Species of the Brazilian Endangered Fauna as vulnerable. Genetics, demographics, and ecological requirements of Flamarion’s Tuco-tuco need to be studied to establish appropriate management to counteract risk of extinction.
 </paragraph>
-<paragraph blockId="13.[190,1396,281,468]" pageId="13" pageNumber="524">National List of Species of the Brazilian Endangered Fauna as vulnerable. Genetics, demographics, and ecological requirements of Flamarion’s Tuco-tuco need to be studied to establish appropriate management to counteract risk of extinction.</paragraph>
 </subSubSection>
 <subSubSection pageId="13" pageNumber="524" type="bibRefCitation_list">
 <paragraph blockId="13.[190,1396,281,468]" pageId="13" pageNumber="524">

@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6588177" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6588177" approvalRequired="724" approvalRequired_for_taxonomicNames="82" approvalRequired_for_textStreams="555" approvalRequired_for_treatments="85" checkinTime="1653672804429" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="59304B441B15FFD9FA2FFE33F5DFF622" docLanguage="en" docName="hbmw_6_Ctenomyidae_0498.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Ctenomys roigi J. R. Contreras 1988" docType="treatment" docVersion="4" lastPageNumber="522" masterDocId="A509333C1B1EFFD2FF94FC71FF90FFDC" masterDocTitle="Ctenomyidae" masterLastPageNumber="534" masterPageNumber="498" pageNumber="522" updateTime="1653680419015" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6588177" ID-GBIF-Dataset="e3c7ddc9-124f-4f96-9adb-e2bb222f3210" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6588177" approvalRequired="1" approvalRequired_for_taxonomicNames="1" checkinTime="1653672804429" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="59304B441B15FFD9FA2FFE33F5DFF622" docLanguage="en" docName="hbmw_6_Ctenomyidae_0498.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Ctenomys roigi J. R. Contreras 1988" docType="treatment" docVersion="8" lastPageNumber="522" masterDocId="A509333C1B1EFFD2FF94FC71FF90FFDC" masterDocTitle="Ctenomyidae" masterLastPageNumber="534" masterPageNumber="498" pageNumber="522" updateTime="1658770750654" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Ctenomyidae</mods:title>
@@ -43,10 +43,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6588177</mods:identifier>
+<mods:identifier type="GBIF-Dataset">e3c7ddc9-124f-4f96-9adb-e2bb222f3210</mods:identifier>
 <mods:identifier type="ISBN">978-84-941892-3-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6588177</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6587977" ID-Zenodo-Dep="6587977" LSID="urn:lsid:plazi:treatment:59304B441B15FFD9FA2FFE33F5DFF622" httpUri="http://treatment.plazi.org/id/59304B441B15FFD9FA2FFE33F5DFF622" lastPageNumber="522" pageId="11" pageNumber="522">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6587977" ID-GBIF-Taxon="195703737" ID-Zenodo-Dep="6587977" LSID="urn:lsid:plazi:treatment:59304B441B15FFD9FA2FFE33F5DFF622" httpUri="http://treatment.plazi.org/id/59304B441B15FFD9FA2FFE33F5DFF622" lastPageNumber="522" pageId="11" pageNumber="522">
 <heading pageId="11" pageNumber="522">
 <subSubSection box="[1467,1524,578,628]" pageId="11" pageNumber="522" type="multiple">
 <paragraph blockId="11.[1465,2304,578,671]" box="[1467,1524,578,628]" pageId="11" pageNumber="522">
@@ -82,12 +83,16 @@
 <paragraph blockId="11.[2048,2669,717,1140]" pageId="11" pageNumber="522">
 <emphasis bold="true" box="[2075,2230,717,746]" pageId="11" pageNumber="522">Taxonomy.</emphasis>
 <taxonomicName authority="J. R. Contreras, 1988" authorityName="J. R. Contreras" authorityYear="1988" class="Mammalia" family="Ctenomyidae" genus="Ctenomys" kingdom="Animalia" order="Rodentia" pageId="11" pageNumber="522" phylum="Chordata" rank="species" species="roigi">Ctenomys roigi J. R. Contreras, 1988</taxonomicName>
-, 
-<materialsCitation pageId="11" pageNumber="522">
-“Procedente de Costa Mansion, | 10km. al sur de Empedrado, Departamento Empedrado, Provincia de Corrientes, 28°02’ S, 58°49’ W, 60 m,” 
-<paragraph blockId="11.[2048,2669,717,1140]" box="[2449,2597,876,905]" pageId="11" pageNumber="522">Argentina.</paragraph>
-</materialsCitation>
+,
 </paragraph>
+</subSubSection>
+<subSubSection pageId="11" pageNumber="522" type="materials_examined">
+<paragraph blockId="11.[2048,2669,717,1140]" pageId="11" pageNumber="522">
+<materialsCitation ID-GBIF-Occurrence="3798388339" pageId="11" pageNumber="522">“Procedente de Costa Mansion, | 10km. al sur de Empedrado, Departamento Empedrado, Provincia de Corrientes, 28°02’ S, 58°49’ W, 60 m,” Argentina</materialsCitation>
+.
+</paragraph>
+</subSubSection>
+<subSubSection pageId="11" pageNumber="522" type="discussion">
 <paragraph blockId="11.[2048,2669,717,1140]" pageId="11" pageNumber="522">
 Based on biogeography, 
 <taxonomicName authorityName="J. R. Contreras" authorityYear="1988" box="[2432,2527,910,943]" class="Mammalia" family="Ctenomyidae" genus="Ctenomys" kingdom="Animalia" order="Rodentia" pageId="11" pageNumber="522" phylum="Chordata" rank="species" species="roigi">C. roigi</taxonomicName>
