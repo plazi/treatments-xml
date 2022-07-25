@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6585510" ID-GBIF-Dataset="25f0b78d-5046-4f38-b635-04a5a86e575e" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6585510" checkinTime="1653606139112" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="03FF87C7FFB753472542FB225B0FB220" docLanguage="en" docName="hbmw_6_Caviidae_0406.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Hydrochoerus isthmius Goldman 1912" docType="treatment" docVersion="3" lastPageNumber="437" masterDocId="FFC6FFBFFFB15341253EFFA75F3EBB71" masterDocTitle="Caviidae" masterLastPageNumber="438" masterPageNumber="406" pageNumber="437" updateTime="1653607701765" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6585510" ID-GBIF-Dataset="25f0b78d-5046-4f38-b635-04a5a86e575e" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6585510" checkinTime="1653606139112" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="03FF87C7FFB753472542FB225B0FB220" docLanguage="en" docName="hbmw_6_Caviidae_0406.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Hydrochoerus isthmius Goldman 1912" docType="treatment" docVersion="6" lastPageNumber="437" masterDocId="FFC6FFBFFFB15341253EFFA75F3EBB71" masterDocTitle="Caviidae" masterLastPageNumber="438" masterPageNumber="406" pageNumber="437" updateTime="1658758832160" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Caviidae</mods:title>
@@ -47,7 +47,7 @@
 <mods:identifier type="ISBN">978-84-941892-3-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6585510</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6585496" ID-Zenodo-Dep="6585496" LSID="urn:lsid:plazi:treatment:03FF87C7FFB753472542FB225B0FB220" httpUri="http://treatment.plazi.org/id/03FF87C7FFB753472542FB225B0FB220" lastPageNumber="437" pageId="6" pageNumber="437">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6585496" ID-GBIF-Taxon="195657116" ID-Zenodo-Dep="6585496" LSID="urn:lsid:plazi:treatment:03FF87C7FFB753472542FB225B0FB220" httpUri="http://treatment.plazi.org/id/03FF87C7FFB753472542FB225B0FB220" lastPageNumber="437" pageId="6" pageNumber="437">
 <subSubSection box="[124,179,1157,1203]" pageId="6" pageNumber="437" type="multiple">
 <paragraph blockId="6.[120,1053,1157,1245]" box="[124,179,1157,1203]" pageId="6" pageNumber="437">
 <heading box="[124,179,1157,1203]" pageId="6" pageNumber="437">
@@ -89,11 +89,17 @@ pequena
 <subSubSection pageId="6" pageNumber="437" type="reference_group">
 <paragraph blockId="6.[735,1326,1290,1713]" pageId="6" pageNumber="437">
 <emphasis bold="true" box="[735,890,1290,1319]" pageId="6" pageNumber="437">Taxonomy.</emphasis>
-<taxonomicName authorityName="Goldman" authorityYear="1912" box="[920,1223,1290,1319]" class="Mammalia" family="Caviidae" genus="Hydrochoerus" kingdom="Animalia" order="Rodentia" pageId="6" pageNumber="437" phylum="Chordata" rank="species" species="isthmius">Hydrochoerus isthmius</taxonomicName>
-Goldman, 1912, 
-<materialsCitation pageId="6" pageNumber="437">“Marraganti, near the head of tide-water on the Rio Tuyra, eastern Panama,” Darién Province</materialsCitation>
+<taxonomicName authority="Goldman, 1912" authorityName="Goldman" authorityYear="1912" class="Mammalia" family="Caviidae" genus="Hydrochoerus" kingdom="Animalia" order="Rodentia" pageId="6" pageNumber="437" phylum="Chordata" rank="species" species="isthmius">Hydrochoerus isthmius Goldman, 1912</taxonomicName>
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="6" pageNumber="437" type="materials_examined">
+<paragraph blockId="6.[735,1326,1290,1713]" pageId="6" pageNumber="437">
+<materialsCitation ID-GBIF-Occurrence="3784487301" pageId="6" pageNumber="437">“Marraganti, near the head of tide-water on the Rio Tuyra, eastern Panama,” Darién Province</materialsCitation>
 .
 </paragraph>
+</subSubSection>
+<subSubSection box="[736,1098,1448,1477]" pageId="6" pageNumber="437" type="discussion">
 <paragraph blockId="6.[735,1326,1290,1713]" box="[736,1098,1448,1477]" pageId="6" pageNumber="437">This species is monotypic.</paragraph>
 </subSubSection>
 <subSubSection pageId="6" pageNumber="437" type="distribution">
