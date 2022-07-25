@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6587796" ID-GBIF-Dataset="4243e88f-bd4c-4180-a701-857ebb231538" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6587796" approvalRequired="2" approvalRequired_for_treatments="2" checkinTime="1653668764736" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="8D7887B8442FFFE7B753FE1DB2A767F7" docLanguage="en" docName="hbmw_6_Ctenodactylidae_0288.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Massoutiera mzabi" docType="treatment" docVersion="4" lastPageNumber="297" masterDocId="7141FFC0442DFFE5B736FFB0B517645A" masterDocTitle="Ctenodactylidae" masterLastPageNumber="299" masterPageNumber="288" pageNumber="297" updateTime="1653670107226" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6587796" ID-GBIF-Dataset="4243e88f-bd4c-4180-a701-857ebb231538" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6587796" approvalRequired="4" approvalRequired_for_textStreams="4" checkinTime="1653668764736" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="8D7887B8442FFFE7B753FE1DB2A767F7" docLanguage="en" docName="hbmw_6_Ctenodactylidae_0288.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Massoutiera mzabi" docType="treatment" docVersion="6" lastPageNumber="297" masterDocId="7141FFC0442DFFE5B736FFB0B517645A" masterDocTitle="Ctenodactylidae" masterLastPageNumber="299" masterPageNumber="288" pageNumber="297" updateTime="1658767556128" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Ctenodactylidae</mods:title>
@@ -47,7 +47,7 @@
 <mods:identifier type="ISBN">978-84-941892-3-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6587796</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6587780" ID-Zenodo-Dep="6587780" LSID="urn:lsid:plazi:treatment:8D7887B8442FFFE7B753FE1DB2A767F7" httpUri="http://treatment.plazi.org/id/8D7887B8442FFFE7B753FE1DB2A767F7" lastPageNumber="297" pageId="2" pageNumber="297">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6587780" ID-GBIF-Taxon="195659615" ID-Zenodo-Dep="6587780" LSID="urn:lsid:plazi:treatment:8D7887B8442FFFE7B753FE1DB2A767F7" httpUri="http://treatment.plazi.org/id/8D7887B8442FFFE7B753FE1DB2A767F7" lastPageNumber="297" pageId="2" pageNumber="297">
 <subSubSection box="[101,132,429,471]" pageId="2" pageNumber="297" type="multiple">
 <paragraph blockId="2.[99,896,429,515]" box="[101,132,429,471]" pageId="2" pageNumber="297">
 <heading box="[101,132,429,471]" pageId="2" pageNumber="297">
@@ -89,10 +89,16 @@
 <paragraph blockId="2.[710,1304,558,981]" pageId="2" pageNumber="297">
 <emphasis bold="true" box="[711,869,558,587]" pageId="2" pageNumber="297">Taxonomy.</emphasis>
 <taxonomicName authority="Lataste, 1881" authorityName="Lataste" authorityYear="1881" class="Mammalia" family="Ctenodactylidae" genus="Ctenodactylus" kingdom="Animalia" order="Rodentia" pageId="2" pageNumber="297" phylum="Chordata" rank="species" species="mzabi">Ctenodactylus mzabi Lataste, 1881</taxonomicName>
-, 
-<materialsCitation pageId="2" pageNumber="297">“Sahara algérien: Gardaia (Mzab)” (= Ghardaia, c.480 km south of Algiers, Algeria)</materialsCitation>
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="2" pageNumber="297" type="materials_examined">
+<paragraph blockId="2.[710,1304,558,981]" pageId="2" pageNumber="297">
+<materialsCitation ID-GBIF-Occurrence="3785680302" pageId="2" pageNumber="297">“Sahara algérien: Gardaia (Mzab)” (= Ghardaia, c.480 km south of Algiers, Algeria)</materialsCitation>
 .
 </paragraph>
+</subSubSection>
+<subSubSection pageId="2" pageNumber="297" type="discussion">
 <paragraph blockId="2.[710,1304,558,981]" pageId="2" pageNumber="297">
 Allocated by F. Lataste to the new genus 
 <taxonomicName authorityName="Lataste" authorityYear="1885" box="[713,871,755,784]" class="Mammalia" family="Ctenodactylidae" genus="Massoutiera" kingdom="Animalia" order="Rodentia" pageId="2" pageNumber="297" phylum="Chordata" rank="genus">Massoutiera</taxonomicName>

@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6587796" ID-GBIF-Dataset="4243e88f-bd4c-4180-a701-857ebb231538" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6587796" approvalRequired="2" approvalRequired_for_treatments="2" checkinTime="1653668764736" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="8D7887B8442EFFE6B7F6FD0DBC4F625B" docLanguage="en" docName="hbmw_6_Ctenodactylidae_0288.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Clenodactylus gundi Rothman 1776" docType="treatment" docVersion="4" lastPageNumber="298" masterDocId="7141FFC0442DFFE5B736FFB0B517645A" masterDocTitle="Ctenodactylidae" masterLastPageNumber="299" masterPageNumber="288" pageNumber="298" updateTime="1653670107226" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6587796" ID-GBIF-Dataset="4243e88f-bd4c-4180-a701-857ebb231538" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6587796" approvalRequired="4" approvalRequired_for_textStreams="4" checkinTime="1653668764736" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="8D7887B8442EFFE6B7F6FD0DBC4F625B" docLanguage="en" docName="hbmw_6_Ctenodactylidae_0288.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Clenodactylus gundi Rothman 1776" docType="treatment" docVersion="6" lastPageNumber="298" masterDocId="7141FFC0442DFFE5B736FFB0B517645A" masterDocTitle="Ctenodactylidae" masterLastPageNumber="299" masterPageNumber="288" pageNumber="298" updateTime="1658767556128" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Ctenodactylidae</mods:title>
@@ -47,7 +47,7 @@
 <mods:identifier type="ISBN">978-84-941892-3-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6587796</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6587784" ID-Zenodo-Dep="6587784" LSID="urn:lsid:plazi:treatment:8D7887B8442EFFE6B7F6FD0DBC4F625B" httpUri="http://treatment.plazi.org/id/8D7887B8442EFFE6B7F6FD0DBC4F625B" lastPageNumber="298" pageId="3" pageNumber="298">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6587784" ID-GBIF-Taxon="195659628" ID-Zenodo-Dep="6587784" LSID="urn:lsid:plazi:treatment:8D7887B8442EFFE6B7F6FD0DBC4F625B" httpUri="http://treatment.plazi.org/id/8D7887B8442EFFE6B7F6FD0DBC4F625B" lastPageNumber="298" pageId="3" pageNumber="298">
 <heading box="[192,1023,701,747]" pageId="3" pageNumber="298">
 <subSubSection box="[192,224,701,747]" pageId="3" pageNumber="298" type="multiple">
 <paragraph blockId="3.[190,1024,701,826]" box="[192,224,701,747]" pageId="3" pageNumber="298">
@@ -92,13 +92,19 @@ comun
 </heading>
 </paragraph>
 </subSubSection>
-<subSubSection pageId="3" pageNumber="298" type="reference_group">
-<paragraph blockId="3.[802,1398,872,1298]" pageId="3" pageNumber="298">
+<subSubSection box="[802,1393,872,905]" pageId="3" pageNumber="298" type="reference_group">
+<paragraph blockId="3.[802,1398,872,1298]" box="[802,1393,872,905]" pageId="3" pageNumber="298">
 <emphasis bold="true" box="[802,960,872,905]" pageId="3" pageNumber="298">Taxonomy.</emphasis>
 <taxonomicName authority="Rothman, 1776" authorityName="Rothman" authorityYear="1776" box="[983,1388,872,905]" class="Magnoliopsida" family="Fabaceae" genus="Mus" kingdom="Plantae" order="Fabales" pageId="3" pageNumber="298" phylum="Tracheophyta" rank="species" species="gundi">Mus gundi Rothman, 1776</taxonomicName>
-, 
-<materialsCitation pageId="3" pageNumber="298">“Garean,” (= Gharyan, 80 km south of Tripoli, Libya).</materialsCitation>
+,
 </paragraph>
+</subSubSection>
+<subSubSection pageId="3" pageNumber="298" type="materials_examined">
+<paragraph blockId="3.[802,1398,872,1298]" pageId="3" pageNumber="298">
+<materialsCitation ID-GBIF-Occurrence="3785680304" pageId="3" pageNumber="298">“Garean,” (= Gharyan, 80 km south of Tripoli, Libya).</materialsCitation>
+</paragraph>
+</subSubSection>
+<subSubSection box="[802,1172,994,1023]" pageId="3" pageNumber="298" type="discussion">
 <paragraph blockId="3.[802,1398,872,1298]" box="[802,1172,994,1023]" pageId="3" pageNumber="298">This species is monotypic.</paragraph>
 </subSubSection>
 <subSubSection pageId="3" pageNumber="298" type="distribution">
