@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6585600" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6585600" approvalRequired="46" approvalRequired_for_textStreams="33" approvalRequired_for_treatments="13" checkinTime="1653608839268" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="EA516C5CFFA8E71FFADBFE3BA02D909C" docLanguage="en" docName="hbmw_6_Chinchillidae_0462.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Lagidium wolffsohni" docType="treatment" docVersion="3" lastPageNumber="481" masterDocId="16681424FFAEE719FFB2FFACAA059A29" masterDocTitle="Chinchillidae" masterLastPageNumber="481" masterPageNumber="462" pageNumber="481" updateTime="1653664818739" updateUser="carolina">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6585600" ID-GBIF-Dataset="ae247f3a-557c-4bd8-bf16-8bd11dd56f19" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6585600" approvalRequired="2" approvalRequired_for_textStreams="2" checkinTime="1653608839268" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="EA516C5CFFA8E71FFADBFE3BA02D909C" docLanguage="en" docName="hbmw_6_Chinchillidae_0462.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Lagidium wolffsohni" docType="treatment" docVersion="7" lastPageNumber="481" masterDocId="16681424FFAEE719FFB2FFACAA059A29" masterDocTitle="Chinchillidae" masterLastPageNumber="481" masterPageNumber="462" pageNumber="481" updateTime="1658767042520" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Chinchillidae</mods:title>
@@ -43,10 +43,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6585600</mods:identifier>
+<mods:identifier type="GBIF-Dataset">ae247f3a-557c-4bd8-bf16-8bd11dd56f19</mods:identifier>
 <mods:identifier type="ISBN">978-84-941892-3-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6585600</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:EA516C5CFFA8E71FFADBFE3BA02D909C" httpUri="http://treatment.plazi.org/id/EA516C5CFFA8E71FFADBFE3BA02D909C" lastPageNumber="481" pageId="6" pageNumber="481">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6587669" ID-GBIF-Taxon="195659577" ID-Zenodo-Dep="6587669" LSID="urn:lsid:plazi:treatment:EA516C5CFFA8E71FFADBFE3BA02D909C" httpUri="http://treatment.plazi.org/id/EA516C5CFFA8E71FFADBFE3BA02D909C" lastPageNumber="481" pageId="6" pageNumber="481">
 <heading pageId="6" pageNumber="481">
 <subSubSection box="[1385,1418,407,457]" pageId="6" pageNumber="481" type="multiple">
 <paragraph blockId="6.[1383,2533,407,538]" box="[1385,1418,407,457]" pageId="6" pageNumber="481">
@@ -83,31 +84,26 @@
 </subSubSection>
 </heading>
 <subSubSection pageId="6" pageNumber="481" type="reference_group">
-<paragraph blockId="6.[1996,2590,579,1007]" box="[1996,2586,579,612]" pageId="6" pageNumber="481">
+<paragraph blockId="6.[1996,2590,579,1007]" pageId="6" pageNumber="481">
 <emphasis bold="true" box="[1996,2151,579,612]" pageId="6" pageNumber="481">Taxonomy.</emphasis>
-<taxonomicName authority="Thomas, 1907" authorityName="Thomas" authorityYear="1907" class="Mammalia" family="Chinchillidae" genus="Viscaccia" kingdom="Animalia" order="Rodentia" pageId="6" pageNumber="481" phylum="Chordata" rank="species" species="wolffsohni">
-Viscaccia wolffsohni Thomas, 
-<paragraph blockId="6.[1996,2590,579,1007]" box="[1999,2588,618,651]" pageId="6" pageNumber="481">
-1907, 
-<materialsCitation pageId="6" pageNumber="481">
-“Sierra de los Baguales y de las Viz- 
-<paragraph blockId="6.[1996,2590,579,1007]" box="[1997,2587,662,691]" pageId="6" pageNumber="481">cachas,lat. 50° 50’ S., long. 72° 20° W,, on</paragraph>
-<paragraph blockId="6.[1996,2590,579,1007]" box="[1998,2588,701,730]" pageId="6" pageNumber="481">the boundary between Chili [= Chile] and</paragraph>
-<paragraph blockId="6.[1996,2590,579,1007]" box="[1996,2157,738,771]" pageId="6" pageNumber="481">Argentina.”</paragraph>
-</materialsCitation>
+<taxonomicName authority="Thomas, 1907" authorityName="Thomas" authorityYear="1907" class="Mammalia" family="Chinchillidae" genus="Viscaccia" kingdom="Animalia" order="Rodentia" pageId="6" pageNumber="481" phylum="Chordata" rank="species" species="wolffsohni">Viscaccia wolffsohni Thomas, 1907</taxonomicName>
+,
 </paragraph>
-</taxonomicName>
+</subSubSection>
+<subSubSection pageId="6" pageNumber="481" type="materials_examined">
+<paragraph blockId="6.[1996,2590,579,1007]" pageId="6" pageNumber="481">
+<materialsCitation ID-GBIF-Occurrence="3785677301" pageId="6" pageNumber="481">“Sierra de los Baguales y de las Vizcachas,lat. 50° 50’ S., long. 72° 20° W,, on the boundary between Chili [= Chile] and Argentina.”</materialsCitation>
 </paragraph>
-<paragraph blockId="6.[1996,2590,579,1007]" box="[1996,2589,776,809]" pageId="6" pageNumber="481">As treated here, this species includes</paragraph>
-<paragraph blockId="6.[1996,2590,579,1007]" box="[1999,2451,816,849]" pageId="6" pageNumber="481">L. boxi as a synonym. Monotypic.</paragraph>
+</subSubSection>
+<subSubSection pageId="6" pageNumber="481" type="discussion">
+<paragraph blockId="6.[1996,2590,579,1007]" pageId="6" pageNumber="481">As treated here, this species includes L. boxi as a synonym. Monotypic.</paragraph>
 </subSubSection>
 <subSubSection pageId="6" pageNumber="481" type="distribution">
 <caption ID-DOI="http://doi.org/10.5281/zenodo.6585616" ID-Zenodo-Dep="6585616" httpUri="https://zenodo.org/record/6585616/files/figure.png" inLine="true" pageId="6" pageNumber="481" targetBox="[1383,1973,596,1008]" targetPageId="6">
-<paragraph blockId="6.[1996,2590,579,1007]" box="[1998,2590,855,888]" pageId="6" pageNumber="481">
+<paragraph blockId="6.[1996,2590,579,1007]" lastBlockId="6.[1387,2600,1014,2741]" pageId="6" pageNumber="481">
 <emphasis bold="true" box="[1998,2174,855,888]" pageId="6" pageNumber="481">Distribution.</emphasis>
-SW Argentina and adjacent
+SW Argentina and adjacent Chile, known from the Sierra de los Baguales on both sides of the border between Argentina (Santa Cruz Province) and Chile (Magallanes Region) and nearby from Perito Moreno and Los Glaciares national parks in Argentina; it has been also reported in a single locality in Aysén Region, Chile.
 </paragraph>
-<paragraph blockId="6.[1996,2590,579,1007]" lastBlockId="6.[1387,2600,1014,2741]" pageId="6" pageNumber="481">Chile, known from the Sierra de los Baguales on both sides of the border between Argentina (Santa Cruz Province) and Chile (Magallanes Region) and nearby from Perito Moreno and Los Glaciares national parks in Argentina; it has been also reported in a single locality in Aysén Region, Chile.</paragraph>
 </caption>
 </subSubSection>
 <subSubSection pageId="6" pageNumber="481" type="description">
