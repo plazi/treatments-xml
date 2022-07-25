@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6588177" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6588177" approvalRequired="724" approvalRequired_for_taxonomicNames="82" approvalRequired_for_textStreams="555" approvalRequired_for_treatments="85" checkinTime="1653672804429" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="59304B441B1CFFD0FA10FD7BF8BAF91F" docLanguage="en" docName="hbmw_6_Ctenomyidae_0498.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Ctenomys boliviensis Waterhouse 1848" docType="treatment" docVersion="2" lastPageNumber="513" masterDocId="A509333C1B1EFFD2FF94FC71FF90FFDC" masterDocTitle="Ctenomyidae" masterLastPageNumber="534" masterPageNumber="498" pageNumber="513" updateTime="1653680419015" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6588177" ID-GBIF-Dataset="e3c7ddc9-124f-4f96-9adb-e2bb222f3210" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6588177" approvalRequired="1" approvalRequired_for_taxonomicNames="1" checkinTime="1653672804429" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="59304B441B1CFFD0FA10FD7BF8BAF91F" docLanguage="en" docName="hbmw_6_Ctenomyidae_0498.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Ctenomys boliviensis Waterhouse 1848" docType="treatment" docVersion="7" lastPageNumber="513" masterDocId="A509333C1B1EFFD2FF94FC71FF90FFDC" masterDocTitle="Ctenomyidae" masterLastPageNumber="534" masterPageNumber="498" pageNumber="513" updateTime="1658769200542" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Ctenomyidae</mods:title>
@@ -43,10 +43,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6588177</mods:identifier>
+<mods:identifier type="GBIF-Dataset">e3c7ddc9-124f-4f96-9adb-e2bb222f3210</mods:identifier>
 <mods:identifier type="ISBN">978-84-941892-3-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6588177</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:59304B441B1CFFD0FA10FD7BF8BAF91F" httpUri="http://treatment.plazi.org/id/59304B441B1CFFD0FA10FD7BF8BAF91F" lastPageNumber="513" pageId="2" pageNumber="513">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6588543" ID-GBIF-Taxon="195703696" ID-Zenodo-Dep="6588543" LSID="urn:lsid:plazi:treatment:59304B441B1CFFD0FA10FD7BF8BAF91F" httpUri="http://treatment.plazi.org/id/59304B441B1CFFD0FA10FD7BF8BAF91F" lastPageNumber="513" pageId="2" pageNumber="513">
 <heading pageId="2" pageNumber="513">
 <subSubSection box="[1412,1443,266,312]" pageId="2" pageNumber="513" type="multiple">
 <paragraph blockId="2.[1411,2324,266,351]" box="[1412,1443,266,312]" pageId="2" pageNumber="513">
@@ -81,23 +82,20 @@
 <subSubSection pageId="2" pageNumber="513" type="reference_group">
 <paragraph blockId="2.[2022,2618,395,822]" pageId="2" pageNumber="513">
 <emphasis bold="true" box="[2022,2177,395,428]" pageId="2" pageNumber="513">Taxonomy.</emphasis>
-<taxonomicName authorityName="Waterhouse" authorityYear="1848" class="Mammalia" family="Ctenomyidae" genus="Ctenomys" kingdom="Animalia" order="Rodentia" pageId="2" pageNumber="513" phylum="Chordata" rank="species" species="boliviensis">Ctenomys boliviensis Water- house, 1848</taxonomicName>
-, 
-<materialsCitation pageId="2" pageNumber="513">
-“Plains of Santa Cruz de la 
-<paragraph blockId="2.[2022,2618,395,822]" box="[2023,2125,474,507]" pageId="2" pageNumber="513">Sierra.”</paragraph>
-<paragraph blockId="2.[2022,2618,395,822]" box="[2138,2614,474,507]" pageId="2" pageNumber="513">Refined by O. Thomas in 1921 to</paragraph>
-<paragraph blockId="2.[2022,2618,395,822]" box="[2024,2612,513,546]" pageId="2" pageNumber="513">Santa Cruz, Bolivia, 480 m, 17° 48’ S, 63°</paragraph>
-<paragraph blockId="2.[2022,2618,395,822]" box="[2026,2108,554,587]" pageId="2" pageNumber="513">10° W.</paragraph>
-</materialsCitation>
+<taxonomicName authorityName="Waterhouse" authorityYear="1848" class="Mammalia" family="Ctenomyidae" genus="Ctenomys" kingdom="Animalia" order="Rodentia" pageId="2" pageNumber="513" phylum="Chordata" rank="species" species="boliviensis">Ctenomys boliviensis Waterhouse, 1848</taxonomicName>
+,
 </paragraph>
+</subSubSection>
+<subSubSection pageId="2" pageNumber="513" type="materials_examined">
 <paragraph blockId="2.[2022,2618,395,822]" pageId="2" pageNumber="513">
+<materialsCitation ID-GBIF-Occurrence="3798388368" pageId="2" pageNumber="513">“Plains of Santa Cruz de la Sierra.” Refined by O. Thomas in 1921 to Santa Cruz, Bolivia, 480 m, 17° 48’ S, 63° 10° W.</materialsCitation>
+</paragraph>
+</subSubSection>
+<subSubSection pageId="2" pageNumber="513" type="discussion">
+<paragraph blockId="2.[2022,2618,395,822]" lastBlockId="2.[1413,2618,838,1731]" pageId="2" pageNumber="513">
 Based on biogeographical studies, 
 <taxonomicName authorityName="Waterhouse" authorityYear="1848" class="Mammalia" family="Ctenomyidae" genus="Ctenomys" kingdom="Animalia" order="Rodentia" pageId="2" pageNumber="513" phylum="Chordata" rank="species" species="boliviensis">Ctenomys boliviensis</taxonomicName>
-belongs to the Bolivian-Matogrossense group, but through molecular markers, it is included in the
-</paragraph>
-<paragraph blockId="2.[2022,2618,395,822]" lastBlockId="2.[1413,2618,838,1731]" pageId="2" pageNumber="513">
-boliviensis-species group. 
+belongs to the Bolivian-Matogrossense group, but through molecular markers, it is included in the boliviensis-species group. 
 <taxonomicName authorityName="Waterhouse" authorityYear="1848" class="Mammalia" family="Ctenomyidae" genus="Ctenomys" kingdom="Animalia" order="Rodentia" pageId="2" pageNumber="513" phylum="Chordata" rank="species" species="boliviensis">Ctenomys boliviensis</taxonomicName>
 has symmetric sperm and polymorphic chromosome number of 2n = 36, 38, 40, 42, 44, and 46 with FN = 64. Monotypic.
 </paragraph>

@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6588177" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6588177" approvalRequired="606" approvalRequired_for_taxonomicNames="12" approvalRequired_for_textStreams="557" approvalRequired_for_treatments="37" checkinTime="1653672804429" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="59304B441B1DFFD6FA2CF760FD9EFCAE" docLanguage="en" docName="hbmw_6_Ctenomyidae_0498.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Ctenomys yatesi Gardner, Salazar-Bravo &amp; Cook 2014" docType="treatment" docVersion="4" lastPageNumber="515" masterDocId="A509333C1B1EFFD2FF94FC71FF90FFDC" masterDocTitle="Ctenomyidae" masterLastPageNumber="534" masterPageNumber="498" pageNumber="514" updateTime="1653681906596" updateUser="carolina">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6588177" ID-GBIF-Dataset="e3c7ddc9-124f-4f96-9adb-e2bb222f3210" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6588177" approvalRequired="1" approvalRequired_for_taxonomicNames="1" checkinTime="1653672804429" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="59304B441B1DFFD6FA2CF760FD9EFCAE" docLanguage="en" docName="hbmw_6_Ctenomyidae_0498.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Ctenomys yatesi Gardner, Salazar-Bravo &amp; Cook 2014" docType="treatment" docVersion="8" lastPageNumber="515" masterDocId="A509333C1B1EFFD2FF94FC71FF90FFDC" masterDocTitle="Ctenomyidae" masterLastPageNumber="534" masterPageNumber="498" pageNumber="514" updateTime="1658769200542" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Ctenomyidae</mods:title>
@@ -43,10 +43,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6588177</mods:identifier>
+<mods:identifier type="GBIF-Dataset">e3c7ddc9-124f-4f96-9adb-e2bb222f3210</mods:identifier>
 <mods:identifier type="ISBN">978-84-941892-3-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6588177</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6587939" ID-Zenodo-Dep="6587939" LSID="urn:lsid:plazi:treatment:59304B441B1DFFD6FA2CF760FD9EFCAE" httpUri="http://treatment.plazi.org/id/59304B441B1DFFD6FA2CF760FD9EFCAE" lastPageId="4" lastPageNumber="515" pageId="3" pageNumber="514">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6587939" ID-GBIF-Taxon="195703695" ID-Zenodo-Dep="6587939" LSID="urn:lsid:plazi:treatment:59304B441B1DFFD6FA2CF760FD9EFCAE" httpUri="http://treatment.plazi.org/id/59304B441B1DFFD6FA2CF760FD9EFCAE" lastPageId="4" lastPageNumber="515" pageId="3" pageNumber="514">
 <heading pageId="3" pageNumber="514">
 <subSubSection box="[1464,1496,2833,2879]" pageId="3" pageNumber="514" type="multiple">
 <paragraph blockId="3.[1462,2321,2833,2922]" box="[1464,1496,2833,2879]" pageId="3" pageNumber="514">
@@ -82,9 +83,15 @@
 <paragraph blockId="3.[2073,2667,2970,3393]" pageId="3" pageNumber="514">
 <emphasis bold="true" box="[2074,2229,2970,2999]" pageId="3" pageNumber="514">Taxonomy.</emphasis>
 <taxonomicName authority="Gardner, Salazar-Bravo &amp; Cook, 2014" authorityName="Gardner, Salazar-Bravo &amp; Cook" authorityYear="2014" class="Mammalia" family="Ctenomyidae" genus="Ctenomys" kingdom="Animalia" order="Rodentia" pageId="3" pageNumber="514" phylum="Chordata" rank="species" species="yatesi">Ctenomys yatesi Gardner, Salazar-Bravo &amp; Cook, 2014</taxonomicName>
-, 
-<materialsCitation pageId="3" pageNumber="514">“Bolivia, Depart- ment of Santa Cruz, 7 km N and 38 km W of Roboré, 18°16’ S, 60°07’ W, 550 m elevation.”</materialsCitation>
+,
 </paragraph>
+</subSubSection>
+<subSubSection pageId="3" pageNumber="514" type="materials_examined">
+<paragraph blockId="3.[2073,2667,2970,3393]" pageId="3" pageNumber="514">
+<materialsCitation ID-GBIF-Occurrence="3798388310" pageId="3" pageNumber="514">“Bolivia, Department of Santa Cruz, 7 km N and 38 km W of Roboré, 18°16’ S, 60°07’ W, 550 m elevation.”</materialsCitation>
+</paragraph>
+</subSubSection>
+<subSubSection pageId="3" pageNumber="514" type="discussion">
 <paragraph blockId="3.[2073,2667,2970,3393]" pageId="3" pageNumber="514">
 <taxonomicName authority="Gardner, Salazar-Bravo &amp; Cook, 2014" authorityName="Blainville" authorityYear="1826" box="[2077,2272,3163,3196]" class="Mammalia" family="Ctenomyidae" genus="Ctenomys" kingdom="Animalia" order="Rodentia" pageId="3" pageNumber="514" phylum="Chordata" rank="genus" species="yatesi">Ctenomys yatesi</taxonomicName>
 is classified as belonging to the boliviensisspecies group. There are no data on karyotype or sperm form. Monotypic.
@@ -99,11 +106,10 @@ E Bolivia, only known from the type locality near Roboré.
 </caption>
 </subSubSection>
 <subSubSection lastPageId="4" lastPageNumber="515" pageId="3" pageNumber="514" type="description">
-<paragraph blockId="3.[1460,2664,3398,3470]" pageId="3" pageNumber="514">
+<paragraph blockId="3.[1460,2664,3398,3470]" lastBlockId="4.[134,1343,295,884]" lastPageId="4" lastPageNumber="515" pageId="3" pageNumber="514">
 <emphasis bold="true" box="[1460,1710,3398,3431]" pageId="3" pageNumber="514">Descriptive notes.</emphasis>
-Total length 199-220 mm,tail 58-63 mm, ear 5 mm, hindfoot 30-35 mm; weight 79-105 g. Yates’s Tuco-tuco is small-sized. Pelage is thin and soft. Dorsal
+Total length 199-220 mm,tail 58-63 mm, ear 5 mm, hindfoot 30-35 mm; weight 79-105 g. Yates’s Tuco-tuco is small-sized. Pelage is thin and soft. Dorsal color is near hazel; ventral hairs are deep neutral gray at bases, washed with light color superficially. Forelimbs and hindlimbs are same color of dorsal parts. Tail is strong, darker above than below. Skull is small and robust. Zygomatic arches are strongly built, parallel, and widest toward front of skull. Auditory bullae are slightly larger than 30% of skull length. Nasal bones are broad and short. Upper incisors are orthodont and covered with orange enamel.
 </paragraph>
-<paragraph blockId="4.[134,1343,295,884]" pageId="4" pageNumber="515">color is near hazel; ventral hairs are deep neutral gray at bases, washed with light color superficially. Forelimbs and hindlimbs are same color of dorsal parts. Tail is strong, darker above than below. Skull is small and robust. Zygomatic arches are strongly built, parallel, and widest toward front of skull. Auditory bullae are slightly larger than 30% of skull length. Nasal bones are broad and short. Upper incisors are orthodont and covered with orange enamel.</paragraph>
 </subSubSection>
 <subSubSection box="[135,1240,532,565]" pageId="4" pageNumber="515" type="biology_ecology">
 <paragraph blockId="4.[134,1343,295,884]" box="[135,1240,532,565]" pageId="4" pageNumber="515">
