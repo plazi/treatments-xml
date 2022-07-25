@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6584330" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6584330" approvalRequired="10" approvalRequired_for_document="1" approvalRequired_for_originalDoi="1" approvalRequired_for_treatments="8" checkinTime="1653506929168" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="03C08797A1608004DF19285BFD68F44F" docLanguage="en" docName="hbmw_6_Anomaluridae_0270.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Anomalurus beecrofti Waterhouse 1843" docType="treatment" docVersion="4" lastPageNumber="277" masterDocId="FFF9FFEFA1628006DF7F2A5FFF9FFFF5" masterDocTitle="Anomaluridae" masterLastPageNumber="279" masterPageNumber="270" pageNumber="277" updateTime="1653577545430" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6584330" ID-GBIF-Dataset="b6ffe202-140d-402d-933b-14bb6d1c6071" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6584330" approvalRequired="5" approvalRequired_for_textStreams="5" checkinTime="1653506929168" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="03C08797A1608004DF19285BFD68F44F" docLanguage="en" docName="hbmw_6_Anomaluridae_0270.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Anomalurus beecrofti Waterhouse 1843" docType="treatment" docVersion="7" lastPageNumber="277" masterDocId="FFF9FFEFA1628006DF7F2A5FFF9FFFF5" masterDocTitle="Anomaluridae" masterLastPageNumber="279" masterPageNumber="270" pageNumber="277" updateTime="1658755198682" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Anomaluridae</mods:title>
@@ -43,10 +43,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6584330</mods:identifier>
+<mods:identifier type="GBIF-Dataset">b6ffe202-140d-402d-933b-14bb6d1c6071</mods:identifier>
 <mods:identifier type="ISBN">978-84-941892-3-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6584330</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6582221" ID-Zenodo-Dep="6582221" LSID="urn:lsid:plazi:treatment:03C08797A1608004DF19285BFD68F44F" httpUri="http://treatment.plazi.org/id/03C08797A1608004DF19285BFD68F44F" lastPageNumber="277" pageId="2" pageNumber="277">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6582221" ID-GBIF-Taxon="195656939" ID-Zenodo-Dep="6582221" LSID="urn:lsid:plazi:treatment:03C08797A1608004DF19285BFD68F44F" httpUri="http://treatment.plazi.org/id/03C08797A1608004DF19285BFD68F44F" lastPageNumber="277" pageId="2" pageNumber="277">
 <heading pageId="2" pageNumber="277">
 <subSubSection box="[102,131,516,558]" pageId="2" pageNumber="277" type="multiple">
 <paragraph blockId="2.[98,1278,516,641]" box="[102,131,516,558]" pageId="2" pageNumber="277">
@@ -90,9 +91,15 @@
 <paragraph blockId="2.[712,1305,684,1108]" pageId="2" pageNumber="277">
 <emphasis bold="true" box="[712,867,684,713]" pageId="2" pageNumber="277">Taxonomy.</emphasis>
 <taxonomicName authority="Fraser, 1853" authorityName="Fraser" authorityYear="1853" class="Mammalia" family="Anomaluridae" genus="Anomalurus" kingdom="Animalia" order="Rodentia" pageId="2" pageNumber="277" phylum="Chordata" rank="species" species="beecrofti">Anomalurus beecrofti Fraser, 1853</taxonomicName>
-, 
-<materialsCitation pageId="2" pageNumber="277">“Fernando Po” (Bioko Island, Equatorial Guinea, West Africa).</materialsCitation>
+,
 </paragraph>
+</subSubSection>
+<subSubSection pageId="2" pageNumber="277" type="materials_examined">
+<paragraph blockId="2.[712,1305,684,1108]" pageId="2" pageNumber="277">
+<materialsCitation ID-GBIF-Occurrence="3784205305" pageId="2" pageNumber="277">“Fernando Po” (Bioko Island, Equatorial Guinea, West Africa).</materialsCitation>
+</paragraph>
+</subSubSection>
+<subSubSection pageId="2" pageNumber="277" type="discussion">
 <paragraph blockId="2.[712,1305,684,1108]" lastBlockId="2.[101,1311,1115,3002]" pageId="2" pageNumber="277">
 Some authors have placed A. beecroftiin the genus 
 <taxonomicName authorityName="Matschie" authorityYear="1914" box="[806,977,842,871]" class="Mammalia" family="Anomaluridae" genus="Anomalurops" kingdom="Animalia" order="Rodentia" pageId="2" pageNumber="277" phylum="Chordata" rank="genus">Anomalurops</taxonomicName>
