@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6623649" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6623649" approvalRequired="23" approvalRequired_for_taxonomicNames="22" approvalRequired_for_treatments="1" checkinTime="1654607780702" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="03C5A071FFCBFFFEFACD52BB5BBFF6BE" docLanguage="en" docName="hbmw_6_Echimyidae_0552.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Santamartamys rufodorsalis" docType="treatment" docVersion="12" lastPageNumber="591" masterDocId="FFFCD809FFEDFFD9FFBC58095A61FF94" masterDocTitle="Echimyidae" masterLastPageNumber="604" masterPageNumber="552" pageNumber="590" updateTime="1654699539071" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6623649" ID-GBIF-Dataset="5be7e52f-9b9c-4c03-99ed-f346bbcde1d0" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6623649" checkinTime="1654607780702" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="03C5A071FFCBFFFEFACD52BB5BBFF6BE" docLanguage="en" docName="hbmw_6_Echimyidae_0552.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Santamartamys rufodorsalis" docType="treatment" docVersion="18" lastPageNumber="591" masterDocId="FFFCD809FFEDFFD9FFBC58095A61FF94" masterDocTitle="Echimyidae" masterLastPageNumber="604" masterPageNumber="552" pageNumber="590" updateTime="1658840636570" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Echimyidae</mods:title>
@@ -43,10 +43,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6623649</mods:identifier>
+<mods:identifier type="GBIF-Dataset">5be7e52f-9b9c-4c03-99ed-f346bbcde1d0</mods:identifier>
 <mods:identifier type="ISBN">978-84-941892-3-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6623649</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6620222" ID-Zenodo-Dep="6620222" LSID="urn:lsid:plazi:treatment:03C5A071FFCBFFFEFACD52BB5BBFF6BE" httpUri="http://treatment.plazi.org/id/03C5A071FFCBFFFEFACD52BB5BBFF6BE" lastPageId="39" lastPageNumber="591" pageId="38" pageNumber="590">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6620222" ID-GBIF-Taxon="195810066" ID-Zenodo-Dep="6620222" LSID="urn:lsid:plazi:treatment:03C5A071FFCBFFFEFACD52BB5BBFF6BE" httpUri="http://treatment.plazi.org/id/03C5A071FFCBFFFEFACD52BB5BBFF6BE" lastPageId="39" lastPageNumber="591" pageId="38" pageNumber="590">
 <heading pageId="38" pageNumber="590">
 <subSubSection box="[1393,1449,2738,2784]" pageId="38" pageNumber="590" type="multiple">
 <paragraph blockId="38.[1390,2478,2738,2863]" box="[1393,1449,2738,2784]" pageId="38" pageNumber="590">
@@ -82,14 +83,20 @@
 </paragraph>
 </subSubSection>
 </heading>
-<subSubSection pageId="38" pageNumber="590" type="reference_group">
-<paragraph blockId="38.[1390,2597,2907,3262]" pageId="38" pageNumber="590">
+<subSubSection box="[1391,2049,2907,2940]" pageId="38" pageNumber="590" type="reference_group">
+<paragraph blockId="38.[1390,2597,2907,3262]" box="[1391,2049,2907,2940]" pageId="38" pageNumber="590">
 <emphasis bold="true" box="[1391,1546,2907,2940]" pageId="38" pageNumber="590">Taxonomy.</emphasis>
 <taxonomicName authority="J. A. Allen, 1899" authorityName="J. A. Allen" authorityYear="1899" box="[1559,2044,2907,2940]" class="Mammalia" family="Echimyidae" genus="Isothrix" kingdom="Animalia" order="Rodentia" pageId="38" pageNumber="590" phylum="Chordata" rank="species" species="rufodorsalis">Isothrix rufodorsalis J. A. Allen, 1899</taxonomicName>
-, 
-<materialsCitation pageId="38" pageNumber="590">“Onaca, Santa Marta District,” Magdalena, Colombia</materialsCitation>
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="38" pageNumber="590" type="materials_examined">
+<paragraph blockId="38.[1390,2597,2907,3262]" pageId="38" pageNumber="590">
+<materialsCitation ID-GBIF-Occurrence="3804303331" pageId="38" pageNumber="590">“Onaca, Santa Marta District,” Magdalena, Colombia</materialsCitation>
 .
 </paragraph>
+</subSubSection>
+<subSubSection pageId="38" pageNumber="590" type="discussion">
 <paragraph blockId="38.[1390,2597,2907,3262]" pageId="38" pageNumber="590">
 <taxonomicName baseAuthorityName="J.A.Allen" baseAuthorityYear="1899" box="[1394,1751,2986,3019]" class="Mammalia" family="Echimyidae" genus="Santamartamys" higherTaxonomySource="GBIF" kingdom="Animalia" order="Rodentia" pageId="38" pageNumber="590" phylum="Chordata" rank="species" species="rufodorsalis">Santamartamys rufodorsalis</taxonomicName>
 was formerly classified in the genera 
@@ -124,7 +131,6 @@ Head—body 190 mm, tail 267 mm; weight 492 g. The Red Crested Tree-rat is brigh
 </paragraph>
 </subSubSection>
 <paragraph blockId="38.[108,1321,1020,3262]" box="[235,239,3237,3262]" pageId="38" pageNumber="590">.</paragraph>
-<paragraph blockId="38.[2669,2718,3287,3360]" box="[2669,2715,3292,3360]" pageId="38" pageNumber="590">629</paragraph>
 <caption ID-DOI="http://doi.org/10.5281/zenodo.6623836" ID-Zenodo-Dep="6623836" httpUri="https://zenodo.org/record/6623836/files/figure.png" pageId="38" pageNumber="590" startId="38.[120,150,3359,3380]" targetBox="[119,2649,127,3524]" targetPageId="37">
 <paragraph blockId="38.[117,2598,3326,3459]" pageId="38" pageNumber="590">
 On following pages: 74. Colombian Speckled Tree-rat (
@@ -156,13 +162,6 @@ vieirai): 84. Long-tailed Armored Tree-rat (
 ).
 </paragraph>
 </caption>
-<paragraph blockId="39.[198,766,48,114]" box="[199,472,48,77]" pageId="39" pageNumber="591">
-FAMILY 
-<taxonomicName authorityName="Gray" authorityYear="1825" box="[303,472,48,77]" class="Mammalia" family="Echimyidae" kingdom="Animalia" order="Rodentia" pageId="39" pageNumber="591" phylum="Chordata" rank="family">ECHIMYIDAE</taxonomicName>
-</paragraph>
-<paragraph blockId="39.[198,766,48,114]" box="[199,766,86,111]" pageId="39" pageNumber="591">Hutias, South American Spiny-rats and Coypu</paragraph>
-<paragraph blockId="39.[806,1029,54,115]" box="[807,912,54,79]" pageId="39" pageNumber="591">Plate 38</paragraph>
-<paragraph blockId="39.[806,1029,54,115]" box="[807,1028,88,113]" pageId="39" pageNumber="591">Species Accounts</paragraph>
 <subSubSection pageId="39" pageNumber="591" type="biology_ecology">
 <paragraph blockId="39.[190,1402,699,2346]" pageId="39" pageNumber="591">
 <emphasis bold="true" box="[192,303,1486,1519]" pageId="39" pageNumber="591">Habitat.</emphasis>

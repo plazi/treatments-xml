@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6623649" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6623649" approvalRequired="23" approvalRequired_for_taxonomicNames="22" approvalRequired_for_treatments="1" checkinTime="1654607780702" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="03C5A071FFC7FFF3FFC351885270FDDC" docLanguage="en" docName="hbmw_6_Echimyidae_0552.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Echimys vieirai Iack-Ximenes, de Vivo &amp; Percequillo 2005" docType="treatment" docVersion="5" lastPageNumber="594" masterDocId="FFFCD809FFEDFFD9FFBC58095A61FF94" masterDocTitle="Echimyidae" masterLastPageNumber="604" masterPageNumber="552" pageNumber="594" updateTime="1654699539071" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6623649" ID-GBIF-Dataset="5be7e52f-9b9c-4c03-99ed-f346bbcde1d0" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6623649" checkinTime="1654607780702" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="03C5A071FFC7FFF3FFC351885270FDDC" docLanguage="en" docName="hbmw_6_Echimyidae_0552.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Echimys vieirai Iack-Ximenes, de Vivo &amp; Percequillo 2005" docType="treatment" docVersion="11" lastPageNumber="594" masterDocId="FFFCD809FFEDFFD9FFBC58095A61FF94" masterDocTitle="Echimyidae" masterLastPageNumber="604" masterPageNumber="552" pageNumber="594" updateTime="1658840871676" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Echimyidae</mods:title>
@@ -43,10 +43,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6623649</mods:identifier>
+<mods:identifier type="GBIF-Dataset">5be7e52f-9b9c-4c03-99ed-f346bbcde1d0</mods:identifier>
 <mods:identifier type="ISBN">978-84-941892-3-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6623649</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:03C5A071FFC7FFF3FFC351885270FDDC" httpUri="http://treatment.plazi.org/id/03C5A071FFC7FFF3FFC351885270FDDC" lastPageNumber="594" pageId="42" pageNumber="594">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6624608" ID-GBIF-Taxon="195810084" ID-Zenodo-Dep="6624608" LSID="urn:lsid:plazi:treatment:03C5A071FFC7FFF3FFC351885270FDDC" httpUri="http://treatment.plazi.org/id/03C5A071FFC7FFF3FFC351885270FDDC" lastPageNumber="594" pageId="42" pageNumber="594">
 <heading pageId="42" pageNumber="594">
 <subSubSection box="[127,184,2433,2479]" pageId="42" pageNumber="594" type="multiple">
 <paragraph blockId="42.[125,1080,2433,2558]" box="[127,184,2433,2479]" pageId="42" pageNumber="594">
@@ -86,10 +87,16 @@
 <paragraph blockId="42.[738,1331,2610,3029]" pageId="42" pageNumber="594">
 <emphasis bold="true" box="[739,891,2610,2635]" pageId="42" pageNumber="594">Taxonomy.</emphasis>
 <taxonomicName authority="Iack-Ximenes, de Vivo &amp; Percequillo, 2005" authorityName="Iack-Ximenes, de Vivo &amp; Percequillo" authorityYear="2005" class="Mammalia" family="Echimyidae" genus="Echimys" kingdom="Animalia" order="Rodentia" pageId="42" pageNumber="594" phylum="Chordata" rank="species" species="vieirai">Echimys vieirai Iack-Ximenes, de Vivo &amp; Percequillo, 2005</taxonomicName>
-, 
-<materialsCitation pageId="42" pageNumber="594">“Barreirinha, right bank of the Tapajos, Para State, Brazil; geographic coordinate 04°25’S, 56°13’W.” This species is monotypic</materialsCitation>
-.
+,
 </paragraph>
+</subSubSection>
+<subSubSection pageId="42" pageNumber="594" type="materials_examined">
+<paragraph blockId="42.[738,1331,2610,3029]" pageId="42" pageNumber="594">
+<materialsCitation ID-GBIF-Occurrence="3804303337" pageId="42" pageNumber="594">“Barreirinha, right bank of the Tapajos, Para State, Brazil; geographic coordinate 04°25’S, 56°13’W.”</materialsCitation>
+</paragraph>
+</subSubSection>
+<subSubSection box="[739,1101,2759,2792]" pageId="42" pageNumber="594" type="discussion">
+<paragraph blockId="42.[738,1331,2610,3029]" box="[739,1101,2759,2792]" pageId="42" pageNumber="594">This species is monotypic.</paragraph>
 </subSubSection>
 <subSubSection pageId="42" pageNumber="594" type="distribution">
 <caption ID-DOI="http://doi.org/10.5281/zenodo.6623866" ID-Zenodo-Dep="6623866" httpUri="https://zenodo.org/record/6623866/files/figure.png" inLine="true" pageId="42" pageNumber="594" startId="42.[739,910,2808,2833]" targetBox="[126,716,2610,3024]" targetPageId="42">
@@ -98,17 +105,22 @@
 Brazilian Amazon, S of the Amazon River, between the Rio Madeira and Rio Tapajos in Amazonas and Para states.
 </paragraph>
 </caption>
+</subSubSection>
+<subSubSection pageId="42" pageNumber="594" type="description">
 <paragraph blockId="42.[738,1331,2610,3029]" lastBlockId="42.[127,1333,3035,3462]" pageId="42" pageNumber="594">
 <emphasis bold="true" box="[740,982,2956,2989]" pageId="42" pageNumber="594">Descriptive notes.</emphasis>
 Head—body 245 mm, tail 340 mm. No specific data are available for body weight. Vieira’s Tree-rat is small-sized, with dark brown back and nearly indistinct but dull brown sides, covered with flat spines on mid-back but not on rump, and overall with stiff bristled fur. Head has dark maroon medial stripe from crown to rostrum—a distinct feature compared with the geographically adjacent White-faced Tree-rat (
 <taxonomicName authorityName="Zimmermann" authorityYear="1780" class="Mammalia" family="Echimyidae" genus="Echimys" kingdom="Animalia" order="Rodentia" pageId="42" pageNumber="594" phylum="Chordata" rank="species" species="chrysurus">E. chrysurus</taxonomicName>
 ). Under parts of Vieira’s Tree-rat are light brown. Tail is 139% of head-body length and densely haired from base to tip. As in congeners, tail is longitudinally bicolored, with basal one-third glossy black and distal two-thirds white. Ears are short and covered by hairs of head. Hindfeet are broad, with powerful claws on each toe.
 </paragraph>
+</subSubSection>
+<subSubSection box="[129,1147,3350,3383]" pageId="42" pageNumber="594" type="biology_ecology">
 <paragraph blockId="42.[127,1333,3035,3462]" box="[129,1147,3350,3383]" pageId="42" pageNumber="594">
 <emphasis bold="true" box="[129,239,3350,3383]" pageId="42" pageNumber="594">Habitat.</emphasis>
 Mature lowland rainforest (based on only two known localities).
 </paragraph>
-<paragraph blockId="42.[2682,2725,3295,3368]" box="[2682,2724,3300,3368]" pageId="42" pageNumber="594">633</paragraph>
+</subSubSection>
+<subSubSection pageId="42" pageNumber="594" type="food_feeding">
 <paragraph blockId="42.[127,1333,3035,3462]" pageId="42" pageNumber="594">
 <emphasis bold="true" box="[129,389,3398,3423]" pageId="42" pageNumber="594">Food and Feeding.</emphasis>
 There is no specific information available for this species, but Vieira’s Tree-rat is likely to be folivorous—frugivorous and might also eat some arthropods.

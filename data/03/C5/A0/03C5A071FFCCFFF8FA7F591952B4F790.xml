@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6623649" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6623649" approvalRequired="23" approvalRequired_for_taxonomicNames="22" approvalRequired_for_treatments="1" checkinTime="1654607780702" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="03C5A071FFCCFFF8FA7F591952B4F790" docLanguage="en" docName="hbmw_6_Echimyidae_0552.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Mesomys stimulax Thomas 1911" docType="treatment" docVersion="7" lastPageNumber="585" masterDocId="FFFCD809FFEDFFD9FFBC58095A61FF94" masterDocTitle="Echimyidae" masterLastPageNumber="604" masterPageNumber="552" pageNumber="585" updateTime="1654699539071" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6623649" ID-GBIF-Dataset="5be7e52f-9b9c-4c03-99ed-f346bbcde1d0" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6623649" checkinTime="1654607780702" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="03C5A071FFCCFFF8FA7F591952B4F790" docLanguage="en" docName="hbmw_6_Echimyidae_0552.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Mesomys stimulax Thomas 1911" docType="treatment" docVersion="15" lastPageNumber="585" masterDocId="FFFCD809FFEDFFD9FFBC58095A61FF94" masterDocTitle="Echimyidae" masterLastPageNumber="604" masterPageNumber="552" pageNumber="585" updateTime="1658840636570" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Echimyidae</mods:title>
@@ -43,10 +43,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6623649</mods:identifier>
+<mods:identifier type="GBIF-Dataset">5be7e52f-9b9c-4c03-99ed-f346bbcde1d0</mods:identifier>
 <mods:identifier type="ISBN">978-84-941892-3-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6623649</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6620756" ID-Zenodo-Dep="6620756" LSID="urn:lsid:plazi:treatment:03C5A071FFCCFFF8FA7F591952B4F790" httpUri="http://treatment.plazi.org/id/03C5A071FFCCFFF8FA7F591952B4F790" lastPageNumber="585" pageId="33" pageNumber="585">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6620756" ID-GBIF-Taxon="195809996" ID-Zenodo-Dep="6620756" LSID="urn:lsid:plazi:treatment:03C5A071FFCCFFF8FA7F591952B4F790" httpUri="http://treatment.plazi.org/id/03C5A071FFCCFFF8FA7F591952B4F790" lastPageNumber="585" pageId="33" pageNumber="585">
 <heading pageId="33" pageNumber="585">
 <subSubSection box="[1475,1531,272,318]" pageId="33" pageNumber="585" type="multiple">
 <paragraph blockId="33.[1472,2507,272,399]" box="[1475,1531,272,318]" pageId="33" pageNumber="585">
@@ -88,24 +89,35 @@
 <paragraph blockId="33.[2084,2678,447,870]" pageId="33" pageNumber="585">
 <emphasis bold="true" box="[2084,2239,447,476]" pageId="33" pageNumber="585">Taxonomy.</emphasis>
 <taxonomicName authority="Thomas" authorityName="Thomas" authorityYear="1911" box="[2274,2669,447,476]" class="Mammalia" family="Echimyidae" genus="Mesomys" kingdom="Animalia" order="Rodentia" pageId="33" pageNumber="585" phylum="Chordata" rank="species" species="stimulax">Mesomys stimulax Thomas</taxonomicName>
-, 1911, 
-<materialsCitation box="[2179,2586,491,516]" pageId="33" pageNumber="585">“Cameta, Lower Tocantins,”</materialsCitation>
-Para, Brazil. 
+, 1911,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="33" pageNumber="585" type="materials_examined">
+<paragraph blockId="33.[2084,2678,447,870]" pageId="33" pageNumber="585">
+<materialsCitation ID-GBIF-Occurrence="3804303346" pageId="33" pageNumber="585">
+“Cameta, Lower Tocantins,” Para, Brazil. 
 <taxonomicName authorityName="Thomas" authorityYear="1911" box="[2194,2435,522,555]" class="Mammalia" family="Echimyidae" genus="Mesomys" kingdom="Animalia" order="Rodentia" pageId="33" pageNumber="585" phylum="Chordata" rank="species" species="stimulax">Mesomys stimulax</taxonomicName>
 was considered a subspecies of a polytypic M. 
 <taxonomicName baseAuthorityName="Desmarest" baseAuthorityYear="1817" box="[2529,2634,562,595]" class="Mammalia" family="Echimyidae" genus="Mesomys" kingdom="Animalia" order="Rodentia" pageId="33" pageNumber="585" phylum="Chordata" rank="species" species="hispidus">hispidus</taxonomicName>
 by earlier authors. It is now recognized as a distinct species. Future studies may associate Rio Tapajos populations with M. hispidus; if so, distribution of 
 <taxonomicName authorityName="Thomas" authorityYear="1911" box="[2428,2584,723,752]" class="Mammalia" family="Echimyidae" genus="Mesomys" kingdom="Animalia" order="Rodentia" pageId="33" pageNumber="585" phylum="Chordata" rank="species" species="stimulax">M. stimulax</taxonomicName>
-would be limited to the region between Rio Xin-gu and Rio Tocantins. Monotypic.
+would be limited to the region between Rio Xin-gu and Rio Tocantins
+</materialsCitation>
+.
 </paragraph>
 </subSubSection>
+<subSubSection box="[2402,2558,798,831]" pageId="33" pageNumber="585" type="discussion">
+<paragraph blockId="33.[2084,2678,447,870]" box="[2402,2558,798,831]" pageId="33" pageNumber="585">Monotypic.</paragraph>
+</subSubSection>
 <subSubSection pageId="33" pageNumber="585" type="distribution">
+<caption ID-DOI="http://doi.org/10.5281/zenodo.6643324" ID-Zenodo-Dep="6643324" httpUri="https://zenodo.org/record/6643324/files/figure.png" inLine="true" pageId="33" pageNumber="585" startId="33.[2084,2256,841,870]" targetBox="[1470,2061,450,865]" targetPageId="33">
 <paragraph blockId="33.[2084,2678,447,870]" lastBlockId="33.[1468,2675,876,2052]" pageId="33" pageNumber="585">
 <emphasis bold="true" box="[2084,2259,841,870]" pageId="33" pageNumber="585">Distribution.</emphasis>
 E Amazon Basin of Brazil, S of the Amazon River, from the Rio Tapajos to the Rio Tocantins in Para State.
 </paragraph>
+</caption>
 </subSubSection>
-<subSubSection pageId="33" pageNumber="585" type="materials_examined">
+<subSubSection pageId="33" pageNumber="585" type="description">
 <paragraph blockId="33.[1468,2675,876,2052]" pageId="33" pageNumber="585">
 <emphasis bold="true" box="[1471,1720,916,949]" pageId="33" pageNumber="585">Descriptive notes.</emphasis>
 Head-body 154-196 mm, tail 122-199 mm; weight up to 139 g. The Para Spiny Tree-rat is smaller than most Amazonian populations of Ferreira’s Spiny Tree-rat (
@@ -115,22 +127,44 @@ Head-body 154-196 mm, tail 122-199 mm; weight up to 139 g. The Para Spiny Tree-r
 grooves on anterior palate. Mesopterygoid fossa is straight-sided rather than bowed outward. Chromosomal complement is identical to that of Ferreira’s Spiny Tree-rat: 2n = 60 and FN = 116.
 </paragraph>
 </subSubSection>
-<subSubSection pageId="33" pageNumber="585" type="description">
+<subSubSection pageId="33" pageNumber="585" type="biology_ecology">
 <paragraph blockId="33.[1468,2675,876,2052]" pageId="33" pageNumber="585">
 <emphasis bold="true" box="[1470,1581,1511,1540]" pageId="33" pageNumber="585">Habitat.</emphasis>
 Amazonian rainforest, uniformly in trees of terra firma forests at 4-10 m above the ground from sea level to elevations of ¢.250 m.
 </paragraph>
+</subSubSection>
+<subSubSection pageId="33" pageNumber="585" type="food_feeding">
 <paragraph blockId="33.[1468,2675,876,2052]" pageId="33" pageNumber="585">
 <emphasis bold="true" box="[1470,1734,1585,1618]" pageId="33" pageNumber="585">Food and Feeding.</emphasis>
-There is no specific information available for this species, but the Para Spiny Tree-rat likely has omnivorous to herbivorous habits of its congeners. 
+There is no specific information available for this species, but the Para Spiny Tree-rat likely has omnivorous to herbivorous habits of its congeners.
+</paragraph>
+</subSubSection>
+<subSubSection box="[1470,2307,1663,1696]" pageId="33" pageNumber="585" type="breeding">
+<paragraph blockId="33.[1468,2675,876,2052]" box="[1470,2307,1663,1696]" pageId="33" pageNumber="585">
 <emphasis bold="true" box="[1470,1604,1663,1696]" pageId="33" pageNumber="585">Breeding.</emphasis>
-There is no information available for this species 
+There is no information available for this species.
+</paragraph>
+</subSubSection>
+<subSubSection box="[1468,2406,1703,1736]" pageId="33" pageNumber="585" type="activity">
+<paragraph blockId="33.[1468,2675,876,2052]" box="[1468,2406,1703,1736]" pageId="33" pageNumber="585">
 <emphasis bold="true" box="[1468,1704,1703,1736]" pageId="33" pageNumber="585">Activity patterns.</emphasis>
-There is no information available for this species 
+There is no information available for this species.
+</paragraph>
+</subSubSection>
+<subSubSection pageId="33" pageNumber="585" type="biology_ecology">
+<paragraph blockId="33.[1468,2675,876,2052]" pageId="33" pageNumber="585">
 <emphasis bold="true" box="[1470,2181,1747,1776]" pageId="33" pageNumber="585">Movements, Home range and Social organization.</emphasis>
-There is no information available for this species 
+There is no information available for this species.
+</paragraph>
+</subSubSection>
+<subSubSection pageId="33" pageNumber="585" type="conservation">
+<paragraph blockId="33.[1468,2675,876,2052]" pageId="33" pageNumber="585">
 <emphasis bold="true" box="[1470,1815,1821,1854]" pageId="33" pageNumber="585">Status and Conservation.</emphasis>
-Classified as Least Concern on The [IUCNRed List. Widespread forest clear-cutting following spread of roads in eastern Amazonia and increased natural fires may be negatively impacting the Para Spiny Tree-rat. Additional studies on distribution, habitat, abundance, ecology, and conservation threats are needed. 
+Classified as Least Concern on The [IUCNRed List. Widespread forest clear-cutting following spread of roads in eastern Amazonia and increased natural fires may be negatively impacting the Para Spiny Tree-rat. Additional studies on distribution, habitat, abundance, ecology, and conservation threats are needed.
+</paragraph>
+</subSubSection>
+<subSubSection pageId="33" pageNumber="585" type="bibRefCitation_list">
+<paragraph blockId="33.[1468,2675,876,2052]" pageId="33" pageNumber="585">
 <emphasis bold="true" box="[1470,1623,1988,2013]" pageId="33" pageNumber="585">Bibliography.</emphasis>
 Cabrera (1961), Emmons (1990, 1997a, 2005), Orlando et al. (2003), Patton et al. (2015), Upham et al. (2013), Voss et al. (2001), Woods (1993), Woods &amp; Kilpatrick (2005).
 </paragraph>

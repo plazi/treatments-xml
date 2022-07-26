@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6623649" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6623649" approvalRequired="23" approvalRequired_for_taxonomicNames="22" approvalRequired_for_treatments="1" checkinTime="1654607780702" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="03C5A071FFC5FFF0FAE2535359D2F9FB" docLanguage="en" docName="hbmw_6_Echimyidae_0552.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Toromys rhipidurus" docType="treatment" docVersion="11" lastPageNumber="593" masterDocId="FFFCD809FFEDFFD9FFBC58095A61FF94" masterDocTitle="Echimyidae" masterLastPageNumber="604" masterPageNumber="552" pageNumber="592" updateTime="1654699539071" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6623649" ID-GBIF-Dataset="5be7e52f-9b9c-4c03-99ed-f346bbcde1d0" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6623649" checkinTime="1654607780702" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="03C5A071FFC5FFF0FAE2535359D2F9FB" docLanguage="en" docName="hbmw_6_Echimyidae_0552.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Toromys rhipidurus" docType="treatment" docVersion="16" lastPageNumber="593" masterDocId="FFFCD809FFEDFFD9FFBC58095A61FF94" masterDocTitle="Echimyidae" masterLastPageNumber="604" masterPageNumber="552" pageNumber="592" updateTime="1658840636570" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Echimyidae</mods:title>
@@ -43,10 +43,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6623649</mods:identifier>
+<mods:identifier type="GBIF-Dataset">5be7e52f-9b9c-4c03-99ed-f346bbcde1d0</mods:identifier>
 <mods:identifier type="ISBN">978-84-941892-3-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6623649</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6620224" ID-Zenodo-Dep="6620224" LSID="urn:lsid:plazi:treatment:03C5A071FFC5FFF0FAE2535359D2F9FB" httpUri="http://treatment.plazi.org/id/03C5A071FFC5FFF0FAE2535359D2F9FB" lastPageId="41" lastPageNumber="593" pageId="40" pageNumber="592">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6620224" ID-GBIF-Taxon="195810081" ID-Zenodo-Dep="6620224" LSID="urn:lsid:plazi:treatment:03C5A071FFC5FFF0FAE2535359D2F9FB" httpUri="http://treatment.plazi.org/id/03C5A071FFC5FFF0FAE2535359D2F9FB" lastPageId="41" lastPageNumber="593" pageId="40" pageNumber="592">
 <heading pageId="40" pageNumber="592">
 <subSubSection box="[1374,1431,2906,2948]" pageId="40" pageNumber="592" type="multiple">
 <paragraph blockId="40.[1371,2244,2906,3026]" box="[1374,1431,2906,2948]" pageId="40" pageNumber="592">
@@ -84,12 +85,16 @@
 </paragraph>
 </subSubSection>
 </heading>
-<subSubSection box="[1372,2525,3079,3104]" pageId="40" pageNumber="592" type="reference_group">
-<paragraph blockId="40.[1371,2577,3075,3464]" box="[1372,2525,3079,3104]" pageId="40" pageNumber="592">
+<subSubSection box="[1372,1997,3079,3104]" pageId="40" pageNumber="592" type="reference_group">
+<paragraph blockId="40.[1371,2577,3075,3464]" box="[1372,1997,3079,3104]" pageId="40" pageNumber="592">
 <emphasis bold="true" box="[1372,1527,3079,3104]" pageId="40" pageNumber="592">Taxonomy.</emphasis>
 <taxonomicName authority="Thomas, 1928" authorityName="Thomas" authorityYear="1928" box="[1538,1993,3079,3104]" class="Mammalia" family="Echimyidae" genus="Echimys" kingdom="Animalia" order="Rodentia" pageId="40" pageNumber="592" phylum="Chordata" rank="species" species="rhipidurus">Echimys rhipidurus Thomas, 1928</taxonomicName>
-, 
-<materialsCitation box="[2009,2521,3079,3104]" pageId="40" pageNumber="592">“Pebas, 300° [= 92 m],” Loreto, Peru</materialsCitation>
+,
+</paragraph>
+</subSubSection>
+<subSubSection box="[2009,2525,3079,3104]" pageId="40" pageNumber="592" type="materials_examined">
+<paragraph blockId="40.[1371,2577,3075,3464]" box="[2009,2525,3079,3104]" pageId="40" pageNumber="592">
+<materialsCitation ID-GBIF-Occurrence="3804303359" box="[2009,2521,3079,3104]" pageId="40" pageNumber="592">“Pebas, 300° [= 92 m],” Loreto, Peru</materialsCitation>
 .
 </paragraph>
 </subSubSection>
@@ -121,6 +126,8 @@ Head—body 210-260 mm, tail 180-215 mm; weight 315 g. The Peruvian Toro is the 
 <taxonomicName baseAuthorityName="Wagner" baseAuthorityYear="1845" box="[339,443,1031,1056]" class="Mammalia" family="Echimyidae" genus="Toromys" higherTaxonomySource="GBIF" kingdom="Animalia" order="Rodentia" pageId="41" pageNumber="593" phylum="Chordata" rank="species" species="grandis">grandis</taxonomicName>
 ), differing by its smaller size, broader rostrum, shorter tooth rows, less inflated and smaller auditory bulla, narrower zygomatic arches, smaller basicranium, and wider incisor blade. Additionally, the Peruvian Toro has a petrosal wedge separating the auditory meatus from squamosal bone.
 </paragraph>
+</subSubSection>
+<subSubSection box="[207,1233,1184,1213]" pageId="41" pageNumber="593" type="biology_ecology">
 <paragraph blockId="41.[205,1414,707,1647]" box="[207,1233,1184,1213]" pageId="41" pageNumber="593">
 <emphasis bold="true" box="[207,317,1184,1213]" pageId="41" pageNumber="593">Habitat.</emphasis>
 [Lowland riverine rainforests at elevations from c. 90 m to 160 m.

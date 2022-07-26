@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6623649" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6623649" approvalRequired="23" approvalRequired_for_taxonomicNames="22" approvalRequired_for_treatments="1" checkinTime="1654607780702" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="03C5A071FFCAFFF1FA025D715E1EFE47" docLanguage="en" docName="hbmw_6_Echimyidae_0552.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Pattonomys carrikeri" docType="treatment" docVersion="8" lastPageNumber="592" masterDocId="FFFCD809FFEDFFD9FFBC58095A61FF94" masterDocTitle="Echimyidae" masterLastPageNumber="604" masterPageNumber="552" pageNumber="591" updateTime="1654699539071" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6623649" ID-GBIF-Dataset="5be7e52f-9b9c-4c03-99ed-f346bbcde1d0" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6623649" checkinTime="1654607780702" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="03C5A071FFCAFFF1FA025D715E1EFE47" docLanguage="en" docName="hbmw_6_Echimyidae_0552.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Pattonomys carrikeri" docType="treatment" docVersion="14" lastPageNumber="592" masterDocId="FFFCD809FFEDFFD9FFBC58095A61FF94" masterDocTitle="Echimyidae" masterLastPageNumber="604" masterPageNumber="552" pageNumber="591" updateTime="1658840636570" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Echimyidae</mods:title>
@@ -43,10 +43,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6623649</mods:identifier>
+<mods:identifier type="GBIF-Dataset">5be7e52f-9b9c-4c03-99ed-f346bbcde1d0</mods:identifier>
 <mods:identifier type="ISBN">978-84-941892-3-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6623649</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6624423" ID-Zenodo-Dep="6624423" LSID="urn:lsid:plazi:treatment:03C5A071FFCAFFF1FA025D715E1EFE47" httpUri="http://treatment.plazi.org/id/03C5A071FFCAFFF1FA025D715E1EFE47" lastPageId="40" lastPageNumber="592" pageId="39" pageNumber="591">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6624423" ID-GBIF-Taxon="195810076" ID-Zenodo-Dep="6624423" LSID="urn:lsid:plazi:treatment:03C5A071FFCAFFF1FA025D715E1EFE47" httpUri="http://treatment.plazi.org/id/03C5A071FFCAFFF1FA025D715E1EFE47" lastPageId="40" lastPageNumber="592" pageId="39" pageNumber="591">
 <heading pageId="39" pageNumber="591">
 <subSubSection box="[1470,1527,1400,1446]" pageId="39" pageNumber="591" type="multiple">
 <paragraph blockId="39.[1467,2560,1400,1487]" box="[1470,1527,1400,1446]" pageId="39" pageNumber="591">
@@ -82,10 +83,17 @@
 <paragraph blockId="39.[2076,2671,1532,1958]" pageId="39" pageNumber="591">
 <emphasis bold="true" box="[2077,2232,1532,1565]" pageId="39" pageNumber="591">Taxonomy.</emphasis>
 <taxonomicName authority="J. A. Allen, 1911" authorityName="J. A. Allen" authorityYear="1911" class="Mammalia" family="Echimyidae" genus="Loncheres" kingdom="Animalia" order="Rodentia" pageId="39" pageNumber="591" phylum="Chordata" rank="species" species="carrikeri">Loncheres carrikeri J. A. Allen, 1911</taxonomicName>
-, 
-<materialsCitation box="[2165,2371,1579,1604]" pageId="39" pageNumber="591">“San Esteban,”</materialsCitation>
-Carabobo, Venezuela. Monotypic.
+,
 </paragraph>
+</subSubSection>
+<subSubSection pageId="39" pageNumber="591" type="materials_examined">
+<paragraph blockId="39.[2076,2671,1532,1958]" pageId="39" pageNumber="591">
+<materialsCitation ID-GBIF-Occurrence="3804303362" pageId="39" pageNumber="591">“San Esteban,” Carabobo, Venezuela</materialsCitation>
+.
+</paragraph>
+</subSubSection>
+<subSubSection box="[2119,2275,1609,1642]" pageId="39" pageNumber="591" type="discussion">
+<paragraph blockId="39.[2076,2671,1532,1958]" box="[2119,2275,1609,1642]" pageId="39" pageNumber="591">Monotypic.</paragraph>
 </subSubSection>
 <subSubSection pageId="39" pageNumber="591" type="distribution">
 <caption ID-DOI="http://doi.org/10.5281/zenodo.6623848" ID-Zenodo-Dep="6623848" httpUri="https://zenodo.org/record/6623848/files/figure.png" inLine="true" pageId="39" pageNumber="591" startId="39.[2076,2248,1659,1684]" targetBox="[1462,2053,1537,1953]" targetPageId="39">
@@ -115,35 +123,31 @@ Mainly coastal cordilleran and flooded rainforests, extending into semidwarfed t
 There is no specific information available for this species, but based on morphology, Carriker’s Speckled Tree-rat is likely herbivorous, consuming fruit, seeds, and other plant matter.
 </paragraph>
 </subSubSection>
-<subSubSection pageId="39" pageNumber="591" type="breeding">
+<subSubSection box="[1461,2298,3263,3296]" pageId="39" pageNumber="591" type="breeding">
 <paragraph blockId="39.[1459,2673,1964,3452]" box="[1461,2298,3263,3296]" pageId="39" pageNumber="591">
 <emphasis bold="true" box="[1461,1595,3263,3296]" pageId="39" pageNumber="591">Breeding.</emphasis>
 There is no information available for this species.
 </paragraph>
-<paragraph blockId="39.[59,102,3285,3357]" box="[59,101,3289,3357]" pageId="39" pageNumber="591">630</paragraph>
+</subSubSection>
+<subSubSection pageId="39" pageNumber="591" type="activity">
 <paragraph blockId="39.[1459,2673,1964,3452]" pageId="39" pageNumber="591">
 <emphasis bold="true" box="[1459,1697,3307,3336]" pageId="39" pageNumber="591">Activity patterns.</emphasis>
 There is no specific information available for this species, but Carriker’s Speckled Tree-rat is reportedly nocturnal.
 </paragraph>
 </subSubSection>
-<subSubSection lastPageId="40" lastPageNumber="592" pageId="39" pageNumber="591" type="biology_ecology">
+<subSubSection pageId="39" pageNumber="591" type="biology_ecology">
 <paragraph blockId="39.[1459,2673,1964,3452]" pageId="39" pageNumber="591">
 <emphasis bold="true" box="[1461,2172,3381,3414]" pageId="39" pageNumber="591">Movements, Home range and Social organization.</emphasis>
 There is no information available for this species.
 </paragraph>
-<paragraph blockId="40.[90,659,62,126]" box="[91,364,62,91]" pageId="40" pageNumber="592">
-FAMILY 
-<taxonomicName box="[196,364,62,91]" class="Mammalia" family="Echimyidae" kingdom="Animalia" order="Rodentia" pageId="40" pageNumber="592" phylum="Chordata" rank="family">ECHIMYIDAE</taxonomicName>
-</paragraph>
-<paragraph blockId="40.[90,659,62,126]" box="[91,658,99,124]" pageId="40" pageNumber="592">Hutias, South American Spiny-rats and Coypu</paragraph>
-<paragraph blockId="40.[698,922,64,125]" box="[699,803,65,90]" pageId="40" pageNumber="592">Plate 38</paragraph>
-<paragraph blockId="40.[698,922,64,125]" box="[699,921,98,123]" pageId="40" pageNumber="592">Species Accounts</paragraph>
+</subSubSection>
+<subSubSection pageId="40" pageNumber="592" type="conservation">
 <paragraph blockId="40.[89,1295,280,468]" pageId="40" pageNumber="592">
 <emphasis bold="true" box="[90,448,280,309]" pageId="40" pageNumber="592">Status and Conservation.</emphasis>
 Not assessed on The [UCN Red List. Additional studies on distribution, habitat, ecology, and conservation threats to Carriker’s Speckled Tree-rat are needed.
 </paragraph>
 </subSubSection>
-<subSubSection pageId="40" pageNumber="592" type="reference_group">
+<subSubSection pageId="40" pageNumber="592" type="bibRefCitation_list">
 <paragraph blockId="40.[89,1295,280,468]" pageId="40" pageNumber="592">
 <emphasis bold="true" box="[91,244,403,428]" pageId="40" pageNumber="592">Bibliography.</emphasis>
 Aguilera et al. (1998), Allen (1911), Cabrera (1961), Eisenberg (1989), Emmons (2005), Handley (1976), Hershkovitz (1948), Linares (1998), Patton et al. (2015), Tate (1935, 1939), Thomas (1916b).
