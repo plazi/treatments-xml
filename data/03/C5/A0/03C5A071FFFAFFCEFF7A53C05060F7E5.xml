@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6623649" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6623649" approvalRequired="23" approvalRequired_for_taxonomicNames="22" approvalRequired_for_treatments="1" checkinTime="1654607780702" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="03C5A071FFFAFFCEFF7A53C05060F7E5" docLanguage="en" docName="hbmw_6_Echimyidae_0552.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Proechimys pattoni da Silva 1998" docType="treatment" docVersion="6" lastPageNumber="575" masterDocId="FFFCD809FFEDFFD9FFBC58095A61FF94" masterDocTitle="Echimyidae" masterLastPageNumber="604" masterPageNumber="552" pageNumber="575" updateTime="1654699539071" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6623649" ID-GBIF-Dataset="5be7e52f-9b9c-4c03-99ed-f346bbcde1d0" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6623649" checkinTime="1654607780702" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="03C5A071FFFAFFCEFF7A53C05060F7E5" docLanguage="en" docName="hbmw_6_Echimyidae_0552.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Proechimys pattoni da Silva 1998" docType="treatment" docVersion="11" lastPageNumber="575" masterDocId="FFFCD809FFEDFFD9FFBC58095A61FF94" masterDocTitle="Echimyidae" masterLastPageNumber="604" masterPageNumber="552" pageNumber="575" updateTime="1658838467293" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Echimyidae</mods:title>
@@ -43,10 +43,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6623649</mods:identifier>
+<mods:identifier type="GBIF-Dataset">5be7e52f-9b9c-4c03-99ed-f346bbcde1d0</mods:identifier>
 <mods:identifier type="ISBN">978-84-941892-3-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6623649</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6620183" ID-Zenodo-Dep="6620183" LSID="urn:lsid:plazi:treatment:03C5A071FFFAFFCEFF7A53C05060F7E5" httpUri="http://treatment.plazi.org/id/03C5A071FFFAFFCEFF7A53C05060F7E5" lastPageNumber="575" pageId="23" pageNumber="575">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6620183" ID-GBIF-Taxon="195810044" ID-Zenodo-Dep="6620183" LSID="urn:lsid:plazi:treatment:03C5A071FFFAFFCEFF7A53C05060F7E5" httpUri="http://treatment.plazi.org/id/03C5A071FFFAFFCEFF7A53C05060F7E5" lastPageNumber="575" pageId="23" pageNumber="575">
 <heading pageId="23" pageNumber="575">
 <subSubSection box="[198,255,3017,3063]" pageId="23" pageNumber="575" type="multiple">
 <paragraph blockId="23.[196,1215,3017,3106]" box="[198,255,3017,3063]" pageId="23" pageNumber="575">
@@ -78,13 +79,19 @@
 </paragraph>
 </subSubSection>
 </heading>
-<subSubSection pageId="23" pageNumber="575" type="reference_group">
-<paragraph blockId="23.[195,1400,3148,3466]" pageId="23" pageNumber="575">
+<subSubSection box="[197,798,3148,3181]" pageId="23" pageNumber="575" type="reference_group">
+<paragraph blockId="23.[195,1400,3148,3466]" box="[197,798,3148,3181]" pageId="23" pageNumber="575">
 <emphasis bold="true" box="[197,352,3148,3181]" pageId="23" pageNumber="575">Taxonomy.</emphasis>
 <taxonomicName authority="da Silva, 1998" authorityName="da Silva" authorityYear="1998" box="[363,793,3148,3181]" class="Mammalia" family="Echimyidae" genus="Proechimys" kingdom="Animalia" order="Rodentia" pageId="23" pageNumber="575" phylum="Chordata" rank="species" species="pattoni">Proechimys pattoni da Silva, 1998</taxonomicName>
-, 
-<materialsCitation pageId="23" pageNumber="575">“Igarapé Porongaba, right bank Rio Jurua, 70°51°W, 6°45’S, Acre, Brazil.”</materialsCitation>
+,
 </paragraph>
+</subSubSection>
+<subSubSection pageId="23" pageNumber="575" type="materials_examined">
+<paragraph blockId="23.[195,1400,3148,3466]" pageId="23" pageNumber="575">
+<materialsCitation ID-GBIF-Occurrence="3804303372" pageId="23" pageNumber="575">“Igarapé Porongaba, right bank Rio Jurua, 70°51°W, 6°45’S, Acre, Brazil.”</materialsCitation>
+</paragraph>
+</subSubSection>
+<subSubSection pageId="23" pageNumber="575" type="discussion">
 <paragraph blockId="23.[195,1400,3148,3466]" pageId="23" pageNumber="575">
 <taxonomicName authorityName="da Silva" authorityYear="1998" box="[197,436,3227,3260]" class="Mammalia" family="Echimyidae" genus="Proechimys" kingdom="Animalia" order="Rodentia" pageId="23" pageNumber="575" phylum="Chordata" rank="species" species="pattoni">Proechimys pattoni</taxonomicName>
 is the third small-bodied member of the gardnerispecies group that occurs in western Amazonia. Monotypic.

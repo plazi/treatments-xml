@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6623649" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6623649" approvalRequired="23" approvalRequired_for_taxonomicNames="22" approvalRequired_for_treatments="1" checkinTime="1654607780702" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="03C5A071FFF7FFC2FAD95E4F585DFA6F" docLanguage="en" docName="hbmw_6_Echimyidae_0552.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Proechimys brevicauda" docType="treatment" docVersion="7" lastPageNumber="579" masterDocId="FFFCD809FFEDFFD9FFBC58095A61FF94" masterDocTitle="Echimyidae" masterLastPageNumber="604" masterPageNumber="552" pageNumber="578" updateTime="1654699539071" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6623649" ID-GBIF-Dataset="5be7e52f-9b9c-4c03-99ed-f346bbcde1d0" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6623649" checkinTime="1654607780702" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="03C5A071FFF7FFC2FAD95E4F585DFA6F" docLanguage="en" docName="hbmw_6_Echimyidae_0552.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Proechimys brevicauda" docType="treatment" docVersion="12" lastPageNumber="579" masterDocId="FFFCD809FFEDFFD9FFBC58095A61FF94" masterDocTitle="Echimyidae" masterLastPageNumber="604" masterPageNumber="552" pageNumber="578" updateTime="1658838467293" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Echimyidae</mods:title>
@@ -43,10 +43,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6623649</mods:identifier>
+<mods:identifier type="GBIF-Dataset">5be7e52f-9b9c-4c03-99ed-f346bbcde1d0</mods:identifier>
 <mods:identifier type="ISBN">978-84-941892-3-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6623649</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6620202" ID-Zenodo-Dep="6620202" LSID="urn:lsid:plazi:treatment:03C5A071FFF7FFC2FAD95E4F585DFA6F" httpUri="http://treatment.plazi.org/id/03C5A071FFF7FFC2FAD95E4F585DFA6F" lastPageId="27" lastPageNumber="579" pageId="26" pageNumber="578">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6620202" ID-GBIF-Taxon="195810042" ID-Zenodo-Dep="6620202" LSID="urn:lsid:plazi:treatment:03C5A071FFF7FFC2FAD95E4F585DFA6F" httpUri="http://treatment.plazi.org/id/03C5A071FFF7FFC2FAD95E4F585DFA6F" lastPageId="27" lastPageNumber="579" pageId="26" pageNumber="578">
 <heading pageId="26" pageNumber="578">
 <subSubSection box="[1381,1438,1606,1652]" pageId="26" pageNumber="578" type="multiple">
 <paragraph blockId="26.[1379,2556,1606,1733]" box="[1381,1438,1606,1652]" pageId="26" pageNumber="578">
@@ -86,9 +87,15 @@
 <paragraph blockId="26.[1989,2584,1784,2203]" pageId="26" pageNumber="578">
 <emphasis bold="true" box="[1989,2144,1784,1809]" pageId="26" pageNumber="578">Taxonomy.</emphasis>
 <taxonomicName authority="Gunther, 1877" authorityName="Gunther" authorityYear="1877" class="Mammalia" family="Echimyidae" genus="Echimys" kingdom="Animalia" order="Rodentia" pageId="26" pageNumber="578" phylum="Chordata" rank="species" species="brevicauda">Echimys brevicauda Gunther, 1877</taxonomicName>
-, 
-<materialsCitation pageId="26" pageNumber="578">“Chamicuros, Huallaga river,” Loreto, Peru.</materialsCitation>
+,
 </paragraph>
+</subSubSection>
+<subSubSection pageId="26" pageNumber="578" type="materials_examined">
+<paragraph blockId="26.[1989,2584,1784,2203]" pageId="26" pageNumber="578">
+<materialsCitation ID-GBIF-Occurrence="3804303307" pageId="26" pageNumber="578">“Chamicuros, Huallaga river,” Loreto, Peru.</materialsCitation>
+</paragraph>
+</subSubSection>
+<subSubSection pageId="26" pageNumber="578" type="discussion">
 <paragraph blockId="26.[1989,2584,1784,2203]" pageId="26" pageNumber="578">
 <taxonomicName authorityName="Gunther" authorityYear="1877" box="[1990,2280,1898,1927]" class="Mammalia" family="Echimyidae" genus="Proechimys" kingdom="Animalia" order="Rodentia" pageId="26" pageNumber="578" phylum="Chordata" rank="species" species="brevicauda">Proechimys brevicauda</taxonomicName>
 is a member of the longicaudatusspecies group. It includes bolivianus, securus, gularis, and elassopus as synonyms. It is variable in color pattern and karyotype over its known distribution and might require taxonomic revision. Monotypic.

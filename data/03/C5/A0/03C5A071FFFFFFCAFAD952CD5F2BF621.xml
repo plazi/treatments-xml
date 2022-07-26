@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6623649" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6623649" approvalRequired="23" approvalRequired_for_taxonomicNames="22" approvalRequired_for_treatments="1" checkinTime="1654607780702" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="03C5A071FFFFFFCAFAD952CD5F2BF621" docLanguage="en" docName="hbmw_6_Echimyidae_0552.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Proechimys simonsi Thomas 1900" docType="treatment" docVersion="8" lastPageNumber="571" masterDocId="FFFCD809FFEDFFD9FFBC58095A61FF94" masterDocTitle="Echimyidae" masterLastPageNumber="604" masterPageNumber="552" pageNumber="570" updateTime="1654699539071" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6623649" ID-GBIF-Dataset="5be7e52f-9b9c-4c03-99ed-f346bbcde1d0" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6623649" checkinTime="1654607780702" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="03C5A071FFFFFFCAFAD952CD5F2BF621" docLanguage="en" docName="hbmw_6_Echimyidae_0552.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Proechimys simonsi Thomas 1900" docType="treatment" docVersion="13" lastPageNumber="571" masterDocId="FFFCD809FFEDFFD9FFBC58095A61FF94" masterDocTitle="Echimyidae" masterLastPageNumber="604" masterPageNumber="552" pageNumber="570" updateTime="1658838103577" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Echimyidae</mods:title>
@@ -43,10 +43,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6623649</mods:identifier>
+<mods:identifier type="GBIF-Dataset">5be7e52f-9b9c-4c03-99ed-f346bbcde1d0</mods:identifier>
 <mods:identifier type="ISBN">978-84-941892-3-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6623649</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6620173" ID-Zenodo-Dep="6620173" LSID="urn:lsid:plazi:treatment:03C5A071FFFFFFCAFAD952CD5F2BF621" httpUri="http://treatment.plazi.org/id/03C5A071FFFFFFCAFAD952CD5F2BF621" lastPageId="19" lastPageNumber="571" pageId="18" pageNumber="570">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6620173" ID-GBIF-Taxon="195810041" ID-Zenodo-Dep="6620173" LSID="urn:lsid:plazi:treatment:03C5A071FFFFFFCAFAD952CD5F2BF621" httpUri="http://treatment.plazi.org/id/03C5A071FFFFFFCAFAD952CD5F2BF621" lastPageId="19" lastPageNumber="571" pageId="18" pageNumber="570">
 <heading pageId="18" pageNumber="570">
 <subSubSection box="[1381,1438,2756,2802]" pageId="18" pageNumber="570" type="multiple">
 <paragraph blockId="18.[1379,2435,2756,2884]" box="[1381,1438,2756,2802]" pageId="18" pageNumber="570">
@@ -82,13 +83,19 @@
 </paragraph>
 </subSubSection>
 </heading>
-<subSubSection pageId="18" pageNumber="570" type="reference_group">
-<paragraph blockId="18.[1378,2584,2933,3204]" pageId="18" pageNumber="570">
+<subSubSection box="[1379,2006,2933,2958]" pageId="18" pageNumber="570" type="reference_group">
+<paragraph blockId="18.[1378,2584,2933,3204]" box="[1379,2006,2933,2958]" pageId="18" pageNumber="570">
 <emphasis bold="true" box="[1379,1534,2933,2958]" pageId="18" pageNumber="570">Taxonomy.</emphasis>
 <taxonomicName authority="Thomas, 1900" authorityName="Thomas" authorityYear="1900" box="[1548,2001,2933,2958]" class="Mammalia" family="Echimyidae" genus="Proechimys" kingdom="Animalia" order="Rodentia" pageId="18" pageNumber="570" phylum="Chordata" rank="species" species="simonsi">Proechimys simonsi Thomas, 1900</taxonomicName>
-, 
-<materialsCitation pageId="18" pageNumber="570">“Perené River, Junin Province, Peru, Altitude 800 m.”</materialsCitation>
+,
 </paragraph>
+</subSubSection>
+<subSubSection pageId="18" pageNumber="570" type="materials_examined">
+<paragraph blockId="18.[1378,2584,2933,3204]" pageId="18" pageNumber="570">
+<materialsCitation ID-GBIF-Occurrence="3804303314" pageId="18" pageNumber="570">“Perené River, Junin Province, Peru, Altitude 800 m.”</materialsCitation>
+</paragraph>
+</subSubSection>
+<subSubSection box="[1381,2416,3004,3037]" pageId="18" pageNumber="570" type="discussion">
 <paragraph blockId="18.[1378,2584,2933,3204]" box="[1381,2416,3004,3037]" pageId="18" pageNumber="570">
 <taxonomicName authorityName="Thomas" authorityYear="1900" box="[1381,1621,3004,3037]" class="Mammalia" family="Echimyidae" genus="Proechimys" kingdom="Animalia" order="Rodentia" pageId="18" pageNumber="570" phylum="Chordata" rank="species" species="simonsi">Proechimys simonsi</taxonomicName>
 includes hendeei and nigrofulvus as synonyms. Monotypic.
