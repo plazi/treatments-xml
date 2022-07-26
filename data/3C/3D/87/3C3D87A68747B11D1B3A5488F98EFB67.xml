@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6611160" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6611160" approvalRequired="47" approvalRequired_for_taxonomicNames="47" checkinTime="1654190635749" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="3C3D87A68747B11D1B3A5488F98EFB67" docLanguage="en" docName="hbmw_6_Heteromyidae_0170.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Heteromys oresterus Harris 1932" docType="treatment" docVersion="4" lastPageNumber="201" masterDocId="C004FFDE874FB1151B595612FF94FFFD" masterDocTitle="Heteromyidae" masterLastPageNumber="233" masterPageNumber="170" pageNumber="201" updateTime="1654274721924" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6611160" ID-GBIF-Dataset="113e1a39-7927-463a-9063-26056ff4828d" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6611160" approvalRequired="15" approvalRequired_for_taxonomicNames="15" checkinTime="1654190635749" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="3C3D87A68747B11D1B3A5488F98EFB67" docLanguage="en" docName="hbmw_6_Heteromyidae_0170.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Heteromys oresterus Harris 1932" docType="treatment" docVersion="7" lastPageNumber="201" masterDocId="C004FFDE874FB1151B595612FF94FFFD" masterDocTitle="Heteromyidae" masterLastPageNumber="233" masterPageNumber="170" pageNumber="201" updateTime="1658851704748" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Heteromyidae</mods:title>
@@ -43,10 +43,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6611160</mods:identifier>
+<mods:identifier type="GBIF-Dataset">113e1a39-7927-463a-9063-26056ff4828d</mods:identifier>
 <mods:identifier type="ISBN">978-84-941892-3-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6611160</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6607944" ID-Zenodo-Dep="6607944" LSID="urn:lsid:plazi:treatment:3C3D87A68747B11D1B3A5488F98EFB67" httpUri="http://treatment.plazi.org/id/3C3D87A68747B11D1B3A5488F98EFB67" lastPageNumber="201" pageId="8" pageNumber="201">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6607944" ID-GBIF-Taxon="195730851" ID-Zenodo-Dep="6607944" LSID="urn:lsid:plazi:treatment:3C3D87A68747B11D1B3A5488F98EFB67" httpUri="http://treatment.plazi.org/id/3C3D87A68747B11D1B3A5488F98EFB67" lastPageNumber="201" pageId="8" pageNumber="201">
 <heading pageId="8" pageNumber="201">
 <subSubSection box="[99,153,666,708]" pageId="8" pageNumber="201" type="multiple">
 <paragraph blockId="8.[94,1247,666,788]" box="[99,153,666,708]" pageId="8" pageNumber="201">
@@ -76,18 +77,24 @@
 <emphasis bold="true" box="[960,1050,726,747]" pageId="8" pageNumber="201">Spanish:</emphasis>
 <vernacularName pageId="8" pageNumber="201">Raton espinoso de montana</vernacularName>
 </paragraph>
-<paragraph blockId="8.[94,1302,832,1190]" pageId="8" pageNumber="201">
-Taxonomy. 
-<taxonomicName authority="Harris, 1932" authorityName="Harris" authorityYear="1932" box="[264,690,832,865]" class="Mammalia" family="Heteromyidae" genus="Heteromys" kingdom="Animalia" order="Rodentia" pageId="8" pageNumber="201" phylum="Chordata" rank="species" species="oresterus">Heteromys oresterus Harris, 1932</taxonomicName>
-, 
-<materialsCitation pageId="8" pageNumber="201">El Copey de Dota, Cordillera de Talamanca, 6,000 ft., Costa Rica.</materialsCitation>
-</paragraph>
 </subSubSection>
 </heading>
-<subSubSection box="[96,458,912,945]" pageId="8" pageNumber="201" type="reference_group">
+<subSubSection box="[95,694,832,865]" pageId="8" pageNumber="201" type="reference_group">
+<paragraph blockId="8.[94,1302,832,1190]" box="[95,694,832,865]" pageId="8" pageNumber="201">
+Taxonomy. 
+<taxonomicName authority="Harris, 1932" authorityName="Harris" authorityYear="1932" box="[264,690,832,865]" class="Mammalia" family="Heteromyidae" genus="Heteromys" kingdom="Animalia" order="Rodentia" pageId="8" pageNumber="201" phylum="Chordata" rank="species" species="oresterus">Heteromys oresterus Harris, 1932</taxonomicName>
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="8" pageNumber="201" type="materials_examined">
+<paragraph blockId="8.[94,1302,832,1190]" pageId="8" pageNumber="201">
+<materialsCitation ID-GBIF-Occurrence="3802894334" pageId="8" pageNumber="201">El Copey de Dota, Cordillera de Talamanca, 6,000 ft., Costa Rica.</materialsCitation>
+</paragraph>
+</subSubSection>
+<subSubSection box="[96,458,912,945]" pageId="8" pageNumber="201" type="discussion">
 <paragraph blockId="8.[94,1302,832,1190]" box="[96,458,912,945]" pageId="8" pageNumber="201">This species is monotypic.</paragraph>
 </subSubSection>
-<subSubSection pageId="8" pageNumber="201" type="multiple">
+<subSubSection pageId="8" pageNumber="201" type="distribution">
 <caption ID-DOI="http://doi.org/10.5281/zenodo.6611198" ID-Zenodo-Dep="6611198" httpUri="https://zenodo.org/record/6611198/files/figure.png" inLine="true" pageId="8" pageNumber="201" targetBox="[1367,1959,283,698]" targetPageId="8">
 <paragraph blockId="8.[94,1302,832,1190]" pageId="8" pageNumber="201">
 <emphasis bold="true" box="[96,271,958,983]" pageId="8" pageNumber="201">Distribution.</emphasis>
