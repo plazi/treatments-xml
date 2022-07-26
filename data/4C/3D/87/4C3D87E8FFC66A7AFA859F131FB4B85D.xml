@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="37" approvalRequired_for_taxonomicNames="8" approvalRequired_for_treatments="29" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FFC66A7AFA859F131FB4B85D" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Neoromicia malagasyensis" docType="treatment" docVersion="11" lastPageNumber="820" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="819" updateTime="1658412944878" updateUser="diego">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6397752" ID-GBIF-Dataset="45351c32-25dd-422c-bdb2-00e73deb4943" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="6397752" approvalRequired="3" approvalRequired_for_taxonomicNames="3" checkinTime="1648655544658" checkinUser="conny" docAuthor="Don E. Wilson &amp; Russell A. Mittermeier" docDate="2019" docId="4C3D87E8FFC66A7AFA859F131FB4B85D" docLanguage="en" docName="hbmw_9_Vespertilionidae_716.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Barcelona: Lynx Edicions" docTitle="Neoromicia malagasyensis" docType="treatment" docVersion="13" lastPageNumber="820" masterDocId="B004FF90FFFB6A44FFFC96591E00BB32" masterDocTitle="Vespertilionidae" masterLastPageNumber="981" masterPageNumber="716" pageNumber="819" updateTime="1658800978584" updateUser="jonas">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Vespertilionidae</mods:title>
@@ -59,7 +59,7 @@
 <subSubSection box="[1835,2321,2378,2424]" pageId="61" pageNumber="819" type="nomenclature">
 <paragraph blockId="61.[1397,2326,2378,2468]" box="[1835,2321,2378,2424]" pageId="61" pageNumber="819">
 <heading box="[1835,2321,2378,2424]" pageId="61" pageNumber="819">
-<taxonomicName authority="(Peterson, Eger &amp; Mitchell, 1995)" box="[1835,2321,2378,2424]" class="Mammalia" family="Vespertilionidae" genus="Neoromicia" kingdom="Animalia" order="Chiroptera" pageId="61" pageNumber="819" phylum="Chordata" rank="species" species="malagasyensis">
+<taxonomicName authority="(Peterson, Eger &amp; Mitchell, 1995)" baseAuthorityName="Peterson, Eger &amp; Mitchell" baseAuthorityYear="1995" box="[1835,2321,2378,2424]" class="Mammalia" family="Vespertilionidae" genus="Neoromicia" kingdom="Animalia" order="Chiroptera" pageId="61" pageNumber="819" phylum="Chordata" rank="species" species="malagasyensis">
 <emphasis box="[1835,2321,2378,2424]" italics="true" pageId="61" pageNumber="819">Neoromicia malagasyensis</emphasis>
 </taxonomicName>
 </heading>
@@ -82,14 +82,15 @@
 <subSubSection pageId="61" pageNumber="819" type="reference_group">
 <paragraph blockId="61.[2009,2606,2515,2938]" pageId="61" pageNumber="819">
 <emphasis bold="true" box="[2010,2160,2515,2544]" pageId="61" pageNumber="819">Taxonomy.</emphasis>
-<taxonomicName authority="Peterson, Eger &amp; Mitchell, 1995" authorityName="Peterson, Eger &amp; Mitchell" authorityYear="1995" baseAuthorityName="Thomas" baseAuthorityYear="1901" class="Mammalia" family="Vespertilionidae" genus="Eptesicus" kingdom="Animalia" order="Chiroptera" pageId="61" pageNumber="819" phylum="Chordata" rank="subSpecies" species="somalicus" subSpecies="malagasyensis">
-Eptesicus somalicus malagasyensis Peterson, Eger &amp; Mitchell, 
-<quantity box="[2375,2550,2554,2583]" metricMagnitude="6" metricUnit="m" metricValue="1.9952199999999998" pageId="61" pageNumber="819" unit="km" value="1995.22">
-1995, 
+<taxonomicName authority="Peterson, Eger &amp; Mitchell, 1995" authorityName="Peterson, Eger &amp; Mitchell" authorityYear="1995" baseAuthorityName="Thomas" baseAuthorityYear="1901" class="Mammalia" family="Vespertilionidae" genus="Eptesicus" kingdom="Animalia" order="Chiroptera" pageId="61" pageNumber="819" phylum="Chordata" rank="subSpecies" species="somalicus" subSpecies="malagasyensis">Eptesicus somalicus malagasyensis Peterson, Eger &amp; Mitchell, 1995</taxonomicName>
+,
+</paragraph>
+</subSubSection>
 <subSubSection pageId="61" pageNumber="819" type="materials_examined">
 <paragraph blockId="61.[2009,2606,2515,2938]" pageId="61" pageNumber="819">
 <materialsCitation ID-GBIF-Occurrence="3783319777" latitude="-41.0" longitude="45.216667" pageId="61" pageNumber="819">
-220 km NE Tuléar (= Toleara), Ilakaka, East of Sakaraha sous-prefecture, 
+<quantity box="[2453,2550,2554,2583]" metricMagnitude="6" metricUnit="m" metricValue="1.9952199999999998" pageId="61" pageNumber="819" unit="km" value="1995.22">220 km</quantity>
+NE Tuléar (= Toleara), Ilakaka, East of Sakaraha sous-prefecture, 
 <collectingCountry box="[2289,2449,2629,2662]" name="Madagascar" pageId="61" pageNumber="819">Madagascar</collectingCountry>
 (
 <geoCoordinate box="[2476,2595,2629,2662]" degrees="22" direction="south" minutes="41" orientation="latitude" pageId="61" pageNumber="819" precision="55555" value="-41.0">22°41' S</geoCoordinate>
@@ -97,10 +98,6 @@ Eptesicus somalicus malagasyensis Peterson, Eger &amp; Mitchell,
 <geoCoordinate box="[2010,2127,2668,2701]" degrees="45" direction="east" minutes="13" orientation="longitude" pageId="61" pageNumber="819" precision="925" value="45.216667">45°13' E</geoCoordinate>
 ).
 </materialsCitation>
-</paragraph>
-</subSubSection>
-</quantity>
-</taxonomicName>
 </paragraph>
 </subSubSection>
 <subSubSection pageId="61" pageNumber="819" type="discussion">
