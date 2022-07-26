@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6623649" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6623649" approvalRequired="23" approvalRequired_for_taxonomicNames="22" approvalRequired_for_treatments="1" checkinTime="1654607780702" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="03C5A071FFF2FFC6FA0D5D1A5218F4FD" docLanguage="en" docName="hbmw_6_Echimyidae_0552.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Isothrix sinnamariensis Vie et al. 1996" docType="treatment" docVersion="7" lastPageNumber="583" masterDocId="FFFCD809FFEDFFD9FFBC58095A61FF94" masterDocTitle="Echimyidae" masterLastPageNumber="604" masterPageNumber="552" pageNumber="583" updateTime="1654699539071" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6623649" ID-GBIF-Dataset="5be7e52f-9b9c-4c03-99ed-f346bbcde1d0" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6623649" checkinTime="1654607780702" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="03C5A071FFF2FFC6FA0D5D1A5218F4FD" docLanguage="en" docName="hbmw_6_Echimyidae_0552.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Isothrix sinnamariensis Vie et al. 1996" docType="treatment" docVersion="12" lastPageNumber="583" masterDocId="FFFCD809FFEDFFD9FFBC58095A61FF94" masterDocTitle="Echimyidae" masterLastPageNumber="604" masterPageNumber="552" pageNumber="583" updateTime="1658839411253" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Echimyidae</mods:title>
@@ -43,10 +43,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6623649</mods:identifier>
+<mods:identifier type="GBIF-Dataset">5be7e52f-9b9c-4c03-99ed-f346bbcde1d0</mods:identifier>
 <mods:identifier type="ISBN">978-84-941892-3-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6623649</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6620677" ID-Zenodo-Dep="6620677" LSID="urn:lsid:plazi:treatment:03C5A071FFF2FFC6FA0D5D1A5218F4FD" httpUri="http://treatment.plazi.org/id/03C5A071FFF2FFC6FA0D5D1A5218F4FD" lastPageNumber="583" pageId="31" pageNumber="583">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6620677" ID-GBIF-Taxon="195810004" ID-Zenodo-Dep="6620677" LSID="urn:lsid:plazi:treatment:03C5A071FFF2FFC6FA0D5D1A5218F4FD" httpUri="http://treatment.plazi.org/id/03C5A071FFF2FFC6FA0D5D1A5218F4FD" lastPageNumber="583" pageId="31" pageNumber="583">
 <heading pageId="31" pageNumber="583">
 <subSubSection box="[1457,1514,1299,1345]" pageId="31" pageNumber="583" type="multiple">
 <paragraph blockId="31.[1455,2626,1299,1428]" box="[1457,1514,1299,1345]" pageId="31" pageNumber="583">
@@ -76,16 +77,21 @@
 <emphasis bold="true" box="[2268,2360,1363,1384]" pageId="31" pageNumber="583">Spanish:</emphasis>
 <vernacularName pageId="31" pageNumber="583">Rata de cola de cepillo de Sinnamary</vernacularName>
 </paragraph>
+</subSubSection>
+</heading>
+<subSubSection pageId="31" pageNumber="583" type="reference_group">
 <paragraph blockId="31.[2067,2660,1473,1896]" pageId="31" pageNumber="583">
 <emphasis bold="true" box="[2067,2222,1473,1502]" pageId="31" pageNumber="583">Taxonomy.</emphasis>
 <taxonomicName authority="Vie et al., 1996" authorityName="Vie et al." authorityYear="1996" class="Mammalia" family="Echimyidae" genus="Isothrix" kingdom="Animalia" order="Rodentia" pageId="31" pageNumber="583" phylum="Chordata" rank="species" species="sinnamariensis">Isothrix sinnamariensis Vié et al., 1996</taxonomicName>
-, 
-<materialsCitation pageId="31" pageNumber="583">“Sinnamary River right bank, 21 km upstream from the Petit Saut Dam, French Guiana (4°56-80’N-53°1-90’&quot;</materialsCitation>
-W—altitude below 20 m).”
+,
 </paragraph>
 </subSubSection>
-</heading>
-<subSubSection box="[2067,2429,1665,1698]" pageId="31" pageNumber="583" type="description">
+<subSubSection pageId="31" pageNumber="583" type="materials_examined">
+<paragraph blockId="31.[2067,2660,1473,1896]" pageId="31" pageNumber="583">
+<materialsCitation ID-GBIF-Occurrence="3804303385" pageId="31" pageNumber="583">“Sinnamary River right bank, 21 km upstream from the Petit Saut Dam, French Guiana (4°56-80’N-53°1-90’&quot;W—altitude below 20 m).”</materialsCitation>
+</paragraph>
+</subSubSection>
+<subSubSection box="[2067,2429,1665,1698]" pageId="31" pageNumber="583" type="discussion">
 <paragraph blockId="31.[2067,2660,1473,1896]" box="[2067,2429,1665,1698]" pageId="31" pageNumber="583">This species is monotypic.</paragraph>
 </subSubSection>
 <subSubSection pageId="31" pageNumber="583" type="distribution">
