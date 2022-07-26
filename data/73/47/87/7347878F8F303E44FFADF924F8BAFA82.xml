@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6603219" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6603219" approvalRequired="20" approvalRequired_for_taxonomicNames="19" approvalRequired_for_textStreams="1" checkinTime="1654090699889" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="7347878F8F303E44FFADF924F8BAFA82" docLanguage="en" docName="hbmw_6_Erethizontidae_0372.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Chaetomys subspinosus" docType="treatment" docVersion="7" lastPageNumber="374" masterDocId="8F7EFFF78F323E46FFC9FB22FFAAFFC5" masterDocTitle="Erethizontidae" masterLastPageNumber="397" masterPageNumber="372" pageNumber="374" updateTime="1654261919318" updateUser="carolina">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6603219" ID-GBIF-Dataset="a11bab00-29d1-4781-88c0-003861873d21" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6603219" approvalRequired="2" approvalRequired_for_textStreams="2" checkinTime="1654090699889" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="7347878F8F303E44FFADF924F8BAFA82" docLanguage="en" docName="hbmw_6_Erethizontidae_0372.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Chaetomys subspinosus" docType="treatment" docVersion="11" lastPageNumber="374" masterDocId="8F7EFFF78F323E46FFC9FB22FFAAFFC5" masterDocTitle="Erethizontidae" masterLastPageNumber="397" masterPageNumber="372" pageNumber="374" updateTime="1658844202683" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Erethizontidae</mods:title>
@@ -43,10 +43,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6603219</mods:identifier>
+<mods:identifier type="GBIF-Dataset">a11bab00-29d1-4781-88c0-003861873d21</mods:identifier>
 <mods:identifier type="ISBN">978-84-941892-3-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6603219</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:7347878F8F303E44FFADF924F8BAFA82" httpUri="http://treatment.plazi.org/id/7347878F8F303E44FFADF924F8BAFA82" lastPageNumber="374" pageId="2" pageNumber="374">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6610896" ID-GBIF-Taxon="195729102" ID-Zenodo-Dep="6610896" LSID="urn:lsid:plazi:treatment:7347878F8F303E44FFADF924F8BAFA82" httpUri="http://treatment.plazi.org/id/7347878F8F303E44FFADF924F8BAFA82" lastPageNumber="374" pageId="2" pageNumber="374">
 <subSubSection box="[100,129,518,564]" pageId="2" pageNumber="301" type="multiple">
 <paragraph blockId="2.[96,1263,518,642]" box="[100,129,518,564]" pageId="2" pageNumber="374">1.</paragraph>
 </subSubSection>
@@ -76,12 +77,20 @@ Puercoespin espinoso
 Bristle-spined Porcupine, Bristle-spined Rat, Thin-spined Porcupine
 </paragraph>
 </subSubSection>
-<subSubSection pageId="2" pageNumber="301" type="reference_group">
-<paragraph blockId="2.[709,1303,687,1115]" lastBlockId="2.[96,1304,1121,3241]" pageId="2" pageNumber="374">
+<subSubSection box="[709,1298,687,720]" pageId="2" pageNumber="301" type="reference_group">
+<paragraph blockId="2.[709,1303,687,1115]" box="[709,1298,687,720]" pageId="2" pageNumber="374">
 <emphasis bold="true" box="[709,862,687,720]" pageId="2" pageNumber="301">Taxonomy.</emphasis>
 <taxonomicName authority="Olfers, 1818" authorityName="Olfers" authorityYear="1818" box="[877,1294,687,720]" class="Mammalia" family="Hystricidae" genus="Hystrix" kingdom="Animalia" order="Rodentia" pageId="2" pageNumber="374" phylum="Chordata" rank="species" species="subspinosa">Hystrix subspinosa Olfers, 1818</taxonomicName>
-, 
-<materialsCitation pageId="2" pageNumber="374">“Brazil.” Restricted by R. S. Voss and R. Angermann in 1997 to Salvador, Bahia, Brazil.</materialsCitation>
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="2" pageNumber="301" type="materials_examined">
+<paragraph blockId="2.[709,1303,687,1115]" pageId="2" pageNumber="374">
+<materialsCitation ID-GBIF-Occurrence="3802853310" pageId="2" pageNumber="374">“Brazil.” Restricted by R. S. Voss and R. Angermann in 1997 to Salvador, Bahia, Brazil.</materialsCitation>
+</paragraph>
+</subSubSection>
+<subSubSection pageId="2" pageNumber="301" type="discussion">
+<paragraph blockId="2.[709,1303,687,1115]" lastBlockId="2.[96,1304,1121,3241]" pageId="2" pageNumber="374">
 Placed in the family 
 <taxonomicName authorityName="Gray" authorityYear="1825" box="[1009,1172,805,838]" class="Mammalia" family="Echimyidae" kingdom="Animalia" order="Rodentia" pageId="2" pageNumber="374" phylum="Chordata" rank="family">Echimyidae</taxonomicName>
 by B. D. Patterson and A. E. Wood due to alleged retention of deciduous premolars; however, these teeth are not actually retained. Recent molecular evidence, presence of a posterior carotid foramen (shared with all erethizontids), and a prehensile manus and pes structure similar to 
@@ -91,7 +100,7 @@ support inclusion in the
 . Monotypic.
 </paragraph>
 </subSubSection>
-<subSubSection box="[97,982,1161,1194]" pageId="2" pageNumber="301" type="multiple">
+<subSubSection box="[97,982,1161,1194]" pageId="2" pageNumber="301" type="distribution">
 <caption ID-DOI="http://doi.org/10.5281/zenodo.6603226" ID-Zenodo-Dep="6603226" box="[97,982,1161,1194]" httpUri="https://zenodo.org/record/6603226/files/figure.png" inLine="true" pageId="2" pageNumber="374" targetBox="[95,685,696,1110]" targetPageId="2">
 <paragraph blockId="2.[96,1304,1121,3241]" box="[97,982,1161,1194]" pageId="2" pageNumber="374">
 <emphasis bold="true" box="[97,273,1161,1194]" pageId="2" pageNumber="374">Distribution.</emphasis>
