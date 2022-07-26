@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6623649" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6623649" approvalRequired="23" approvalRequired_for_taxonomicNames="22" approvalRequired_for_treatments="1" checkinTime="1654607780702" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="03C5A071FFEFFFDAFADA59F35BFFFAF7" docLanguage="en" docName="hbmw_6_Echimyidae_0552.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Geocapromys brownii Chapman 1901" docType="treatment" docVersion="6" lastPageNumber="555" masterDocId="FFFCD809FFEDFFD9FFBC58095A61FF94" masterDocTitle="Echimyidae" masterLastPageNumber="604" masterPageNumber="552" pageNumber="554" updateTime="1654699539071" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6623649" ID-GBIF-Dataset="5be7e52f-9b9c-4c03-99ed-f346bbcde1d0" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6623649" checkinTime="1654607780702" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="03C5A071FFEFFFDAFADA59F35BFFFAF7" docLanguage="en" docName="hbmw_6_Echimyidae_0552.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Geocapromys brownii Chapman 1901" docType="treatment" docVersion="11" lastPageNumber="555" masterDocId="FFFCD809FFEDFFD9FFBC58095A61FF94" masterDocTitle="Echimyidae" masterLastPageNumber="604" masterPageNumber="552" pageNumber="554" updateTime="1658836419782" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Echimyidae</mods:title>
@@ -43,10 +43,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6623649</mods:identifier>
+<mods:identifier type="GBIF-Dataset">5be7e52f-9b9c-4c03-99ed-f346bbcde1d0</mods:identifier>
 <mods:identifier type="ISBN">978-84-941892-3-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6623649</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6620133" ID-Zenodo-Dep="6620133" LSID="urn:lsid:plazi:treatment:03C5A071FFEFFFDAFADA59F35BFFFAF7" httpUri="http://treatment.plazi.org/id/03C5A071FFEFFFDAFADA59F35BFFFAF7" lastPageId="3" lastPageNumber="555" pageId="2" pageNumber="554">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6620133" ID-GBIF-Taxon="195809974" ID-Zenodo-Dep="6620133" LSID="urn:lsid:plazi:treatment:03C5A071FFEFFFDAFADA59F35BFFFAF7" httpUri="http://treatment.plazi.org/id/03C5A071FFEFFFDAFADA59F35BFFFAF7" lastPageId="3" lastPageNumber="555" pageId="2" pageNumber="554">
 <heading pageId="2" pageNumber="554">
 <subSubSection box="[1382,1413,506,552]" pageId="2" pageNumber="554" type="multiple">
 <paragraph blockId="2.[1379,2251,506,632]" box="[1382,1413,506,552]" pageId="2" pageNumber="554">
@@ -86,13 +87,19 @@
 </paragraph>
 </subSubSection>
 </heading>
-<subSubSection pageId="2" pageNumber="554" type="reference_group">
-<paragraph blockId="2.[1991,2584,676,1102]" pageId="2" pageNumber="554">
+<subSubSection box="[1991,2581,676,709]" pageId="2" pageNumber="554" type="reference_group">
+<paragraph blockId="2.[1991,2584,676,1102]" box="[1991,2581,676,709]" pageId="2" pageNumber="554">
 <emphasis bold="true" box="[1991,2147,676,709]" pageId="2" pageNumber="554">Taxonomy.</emphasis>
 <taxonomicName authority="Fischer, 1830" authorityName="Fischer" authorityYear="1830" box="[2161,2577,676,709]" class="Mammalia" family="Capromyidae" genus="Capromys" kingdom="Animalia" order="Rodentia" pageId="2" pageNumber="554" phylum="Chordata" rank="species" species="brownii">Capromys brownii Fischer, 1830</taxonomicName>
-, 
-<materialsCitation box="[1993,2133,719,748]" pageId="2" pageNumber="554">“Jamaica.”</materialsCitation>
+,
 </paragraph>
+</subSubSection>
+<subSubSection box="[1993,2133,719,748]" pageId="2" pageNumber="554" type="materials_examined">
+<paragraph blockId="2.[1991,2584,676,1102]" box="[1993,2133,719,748]" pageId="2" pageNumber="554">
+<materialsCitation ID-GBIF-Occurrence="3804303365" box="[1993,2133,719,748]" pageId="2" pageNumber="554">“Jamaica.”</materialsCitation>
+</paragraph>
+</subSubSection>
+<subSubSection pageId="2" pageNumber="554" type="discussion">
 <paragraph blockId="2.[1991,2584,676,1102]" pageId="2" pageNumber="554">
 <taxonomicName baseAuthorityName="J. Fischer" baseAuthorityYear="1830" box="[1995,2256,754,787]" class="Mammalia" family="Capromyidae" genus="Geocapromys" kingdom="Animalia" order="Rodentia" pageId="2" pageNumber="554" phylum="Chordata" rank="species" species="brownii">Geocapromys brownii</taxonomicName>
 includes brachyurus as a synonym. Monotypic.

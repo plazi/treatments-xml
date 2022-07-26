@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6707142" ID-GBIF-Dataset="ab66b2b7-9544-4411-bf61-5bc3651d7bca" ID-ISBN="978-84-16728-04-6" ID-Zenodo-Dep="6707142" approvalRequired="3" approvalRequired_for_textStreams="3" checkinTime="1656002532852" checkinUser="carolina" docAuthor="Don E. Wilson, Russell A. Mittermeier &amp; Thomas E. Lacher, Jr" docDate="2017" docId="03F06D13FF2B20E208B317CE0192F699" docLanguage="en" docName="hbmw_7_Cricetidae_0204.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 7 Rodents II, Barcelona: Lynx Edicions" docTitle="Delomys sublineatus" docType="treatment" docVersion="9" lastPageNumber="412" masterDocId="FFC9156BFFAE20670D37145C0837FFDB" masterDocTitle="Cricetidae" masterLastPageNumber="535" masterPageNumber="204" pageNumber="412" updateTime="1656353833943" updateUser="carolina">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6707142" ID-GBIF-Dataset="ab66b2b7-9544-4411-bf61-5bc3651d7bca" ID-ISBN="978-84-16728-04-6" ID-Zenodo-Dep="6707142" checkinTime="1656002532852" checkinUser="carolina" docAuthor="Don E. Wilson, Russell A. Mittermeier &amp; Thomas E. Lacher, Jr" docDate="2017" docId="03F06D13FF2B20E208B317CE0192F699" docLanguage="en" docName="hbmw_7_Cricetidae_0204.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 7 Rodents II, Barcelona: Lynx Edicions" docTitle="Delomys sublineatus" docType="treatment" docVersion="11" lastPageNumber="412" masterDocId="FFC9156BFFAE20670D37145C0837FFDB" masterDocTitle="Cricetidae" masterLastPageNumber="535" masterPageNumber="204" pageNumber="412" updateTime="1658836298116" updateUser="diego">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Cricetidae</mods:title>
@@ -61,7 +61,7 @@
 </subSubSection>
 <subSubSection box="[2096,2455,914,952]" pageId="133" pageNumber="412" type="nomenclature">
 <paragraph blockId="133.[1410,2455,914,1030]" box="[2096,2455,914,952]" pageId="133" pageNumber="412">
-<taxonomicName baseAuthorityName="1903" box="[2096,2455,914,952]" class="Mammalia" family="Cricetidae" genus="Delomys" kingdom="Animalia" order="Rodentia" pageId="133" pageNumber="412" phylum="Chordata" rank="species" species="sublineatus">
+<taxonomicName baseAuthorityName="Thomas" baseAuthorityYear="1903" box="[2096,2455,914,952]" class="Mammalia" family="Cricetidae" genus="Delomys" kingdom="Animalia" order="Rodentia" pageId="133" pageNumber="412" phylum="Chordata" rank="species" species="sublineatus">
 <emphasis box="[2096,2455,914,952]" italics="true" pageId="133" pageNumber="412">Delomys sublineatus</emphasis>
 </taxonomicName>
 </paragraph>
@@ -88,7 +88,16 @@
 <emphasis bold="true" box="[2022,2178,1075,1108]" pageId="133" pageNumber="412">Taxonomy.</emphasis>
 <taxonomicName authorityName="Thomas" authorityYear="1903" class="Mammalia" family="Cricetidae" genus="Oryzomys" kingdom="Animalia" order="Rodentia" pageId="133" pageNumber="412" phylum="Chordata" rank="genus" species="sublineatus">Oryzomys sublineatus Thomas, 1903</taxonomicName>
 , 
-<materialsCitation ID-GBIF-Occurrence="3818814789" pageId="133" pageNumber="412">“Engenheiro Reeve [= Rive], Inland of Victoria, Prov. Espiritu [= Espirito] Santo, Brazil. Alt. 500 m.”</materialsCitation>
+<materialsCitation ID-GBIF-Occurrence="3818814789" pageId="133" pageNumber="412">
+“Engenheiro Reeve [= Rive], Inland of Victoria, Prov. Espiritu [= Espirito] Santo, 
+<collectingCountry box="[2069,2151,1197,1226]" name="Brazil" pageId="133" pageNumber="412">Brazil</collectingCountry>
+. Alt. 
+<specimenCount box="[2224,2317,1197,1226]" pageId="133" pageNumber="412" type="generic">
+<quantity box="[2224,2314,1197,1226]" metricMagnitude="2" metricUnit="m" metricValue="5.0" pageId="133" pageNumber="412" unit="m" value="500.0">500 m</quantity>
+.
+</specimenCount>
+”
+</materialsCitation>
 This species is monotypic.
 </paragraph>
 </subSubSection>
