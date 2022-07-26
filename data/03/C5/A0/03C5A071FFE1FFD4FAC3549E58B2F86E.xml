@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6623649" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6623649" approvalRequired="23" approvalRequired_for_taxonomicNames="22" approvalRequired_for_treatments="1" checkinTime="1654607780702" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="03C5A071FFE1FFD4FAC3549E58B2F86E" docLanguage="en" docName="hbmw_6_Echimyidae_0552.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Thrichomys laurentius Thomas 1904" docType="treatment" docVersion="3" lastPageNumber="565" masterDocId="FFFCD809FFEDFFD9FFBC58095A61FF94" masterDocTitle="Echimyidae" masterLastPageNumber="604" masterPageNumber="552" pageNumber="564" updateTime="1654699539071" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6623649" ID-GBIF-Dataset="5be7e52f-9b9c-4c03-99ed-f346bbcde1d0" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6623649" checkinTime="1654607780702" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="03C5A071FFE1FFD4FAC3549E58B2F86E" docLanguage="en" docName="hbmw_6_Echimyidae_0552.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Thrichomys laurentius Thomas 1904" docType="treatment" docVersion="8" lastPageNumber="565" masterDocId="FFFCD809FFEDFFD9FFBC58095A61FF94" masterDocTitle="Echimyidae" masterLastPageNumber="604" masterPageNumber="552" pageNumber="564" updateTime="1658837351036" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Echimyidae</mods:title>
@@ -43,10 +43,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6623649</mods:identifier>
+<mods:identifier type="GBIF-Dataset">5be7e52f-9b9c-4c03-99ed-f346bbcde1d0</mods:identifier>
 <mods:identifier type="ISBN">978-84-941892-3-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6623649</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:03C5A071FFE1FFD4FAC3549E58B2F86E" httpUri="http://treatment.plazi.org/id/03C5A071FFE1FFD4FAC3549E58B2F86E" lastPageId="13" lastPageNumber="565" pageId="12" pageNumber="564">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6624645" ID-GBIF-Taxon="195810016" ID-Zenodo-Dep="6624645" LSID="urn:lsid:plazi:treatment:03C5A071FFE1FFD4FAC3549E58B2F86E" httpUri="http://treatment.plazi.org/id/03C5A071FFE1FFD4FAC3549E58B2F86E" lastPageId="13" lastPageNumber="565" pageId="12" pageNumber="564">
 <heading pageId="12" pageNumber="564">
 <subSubSection box="[1407,1464,3223,3265]" pageId="12" pageNumber="564" type="multiple">
 <paragraph blockId="12.[1406,2410,3214,3304]" box="[1407,1464,3223,3265]" pageId="12" pageNumber="564">
@@ -78,13 +79,19 @@
 </paragraph>
 </subSubSection>
 </heading>
-<subSubSection pageId="12" pageNumber="564" type="reference_group">
-<paragraph blockId="12.[1405,2611,3346,3468]" pageId="12" pageNumber="564">
+<subSubSection box="[1406,2088,3346,3379]" pageId="12" pageNumber="564" type="reference_group">
+<paragraph blockId="12.[1405,2611,3346,3468]" box="[1406,2088,3346,3379]" pageId="12" pageNumber="564">
 <emphasis bold="true" box="[1406,1561,3346,3379]" pageId="12" pageNumber="564">Taxonomy.</emphasis>
 <taxonomicName authority="Thomas, 1904" authorityName="Thomas" authorityYear="1904" box="[1582,2083,3346,3379]" class="Mammalia" family="Echimyidae" genus="Thrichomys" kingdom="Animalia" order="Rodentia" pageId="12" pageNumber="564" phylum="Chordata" rank="species" species="laurentius">Thrichomys laurentius Thomas, 1904</taxonomicName>
-, 
-<materialsCitation pageId="12" pageNumber="564">“Sao Lourenco [= Sao Lorenco da Mata], near Pernambuco, Alt. 50 m,” Pernambuco, Brazil.</materialsCitation>
+,
 </paragraph>
+</subSubSection>
+<subSubSection pageId="12" pageNumber="564" type="materials_examined">
+<paragraph blockId="12.[1405,2611,3346,3468]" pageId="12" pageNumber="564">
+<materialsCitation ID-GBIF-Occurrence="3804303378" pageId="12" pageNumber="564">“Sao Lourenco [= Sao Lorenco da Mata], near Pernambuco, Alt. 50 m,” Pernambuco, Brazil.</materialsCitation>
+</paragraph>
+</subSubSection>
+<subSubSection box="[1407,1769,3427,3460]" pageId="12" pageNumber="564" type="discussion">
 <paragraph blockId="12.[1405,2611,3346,3468]" box="[1407,1769,3427,3460]" pageId="12" pageNumber="564">This species is monotypic.</paragraph>
 </subSubSection>
 <subSubSection pageId="13" pageNumber="565" type="distribution">

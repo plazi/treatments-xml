@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6623649" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6623649" approvalRequired="23" approvalRequired_for_taxonomicNames="22" approvalRequired_for_treatments="1" checkinTime="1654607780702" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="03C5A071FFE3FFD7FAD059A35C87F468" docLanguage="en" docName="hbmw_6_Echimyidae_0552.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Callistomys pictus" docType="treatment" docVersion="3" lastPageNumber="566" masterDocId="FFFCD809FFEDFFD9FFBC58095A61FF94" masterDocTitle="Echimyidae" masterLastPageNumber="604" masterPageNumber="552" pageNumber="566" updateTime="1654699539071" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6623649" ID-GBIF-Dataset="5be7e52f-9b9c-4c03-99ed-f346bbcde1d0" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6623649" checkinTime="1654607780702" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="03C5A071FFE3FFD7FAD059A35C87F468" docLanguage="en" docName="hbmw_6_Echimyidae_0552.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Callistomys pictus" docType="treatment" docVersion="8" lastPageNumber="566" masterDocId="FFFCD809FFEDFFD9FFBC58095A61FF94" masterDocTitle="Echimyidae" masterLastPageNumber="604" masterPageNumber="552" pageNumber="566" updateTime="1658837351036" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Echimyidae</mods:title>
@@ -43,10 +43,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6623649</mods:identifier>
+<mods:identifier type="GBIF-Dataset">5be7e52f-9b9c-4c03-99ed-f346bbcde1d0</mods:identifier>
 <mods:identifier type="ISBN">978-84-941892-3-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6623649</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:03C5A071FFE3FFD7FAD059A35C87F468" httpUri="http://treatment.plazi.org/id/03C5A071FFE3FFD7FAD059A35C87F468" lastPageNumber="566" pageId="14" pageNumber="566">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6624649" ID-GBIF-Taxon="195810000" ID-Zenodo-Dep="6624649" LSID="urn:lsid:plazi:treatment:03C5A071FFE3FFD7FAD059A35C87F468" httpUri="http://treatment.plazi.org/id/03C5A071FFE3FFD7FAD059A35C87F468" lastPageNumber="566" pageId="14" pageNumber="566">
 <heading pageId="14" pageNumber="566">
 <subSubSection box="[1388,1445,426,468]" pageId="14" pageNumber="566" type="multiple">
 <paragraph blockId="14.[1386,2385,426,508]" box="[1388,1445,426,468]" pageId="14" pageNumber="566">
@@ -78,14 +79,20 @@
 </paragraph>
 </subSubSection>
 </heading>
-<subSubSection pageId="14" pageNumber="566" type="reference_group">
-<paragraph blockId="14.[1999,2593,549,977]" pageId="14" pageNumber="566">
+<subSubSection box="[1999,2589,549,582]" pageId="14" pageNumber="566" type="reference_group">
+<paragraph blockId="14.[1999,2593,549,977]" box="[1999,2589,549,582]" pageId="14" pageNumber="566">
 <emphasis bold="true" box="[1999,2154,549,582]" pageId="14" pageNumber="566">Taxonomy.</emphasis>
 <taxonomicName authority="Pictet, 1843" authorityName="Pictet" authorityYear="1843" box="[2182,2584,549,582]" class="Mammalia" family="Echimyidae" genus="Nelomys" kingdom="Animalia" order="Rodentia" pageId="14" pageNumber="566" phylum="Chordata" rank="species" species="pictus">Nelomys pictus Pictet, 1843</taxonomicName>
-, 
-<materialsCitation pageId="14" pageNumber="566">“Bahia.” Restricted by J. Moojen in 1952 to probably from Fazenda Almada in the region north of the city of Ilhéus, Bahia, Brazil</materialsCitation>
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="14" pageNumber="566" type="materials_examined">
+<paragraph blockId="14.[1999,2593,549,977]" pageId="14" pageNumber="566">
+<materialsCitation ID-GBIF-Occurrence="3804303328" pageId="14" pageNumber="566">“Bahia.” Restricted by J. Moojen in 1952 to probably from Fazenda Almada in the region north of the city of Ilhéus, Bahia, Brazil</materialsCitation>
 .
 </paragraph>
+</subSubSection>
+<subSubSection box="[2000,2362,747,780]" pageId="14" pageNumber="566" type="discussion">
 <paragraph blockId="14.[1999,2593,549,977]" box="[2000,2362,747,780]" pageId="14" pageNumber="566">This species is monotypic.</paragraph>
 </subSubSection>
 <subSubSection pageId="14" pageNumber="566" type="distribution">
