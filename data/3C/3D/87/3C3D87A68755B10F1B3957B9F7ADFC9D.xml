@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6611160" ID-GBIF-Dataset="113e1a39-7927-463a-9063-26056ff4828d" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6611160" approvalRequired="27" approvalRequired_for_taxonomicNames="27" checkinTime="1654190635749" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="3C3D87A68755B10F1B3957B9F7ADFC9D" docLanguage="en" docName="hbmw_6_Heteromyidae_0170.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Chaetodipus goldmani Osgood 1900" docType="treatment" docVersion="7" lastPageNumber="219" masterDocId="C004FFDE874FB1151B595612FF94FFFD" masterDocTitle="Heteromyidae" masterLastPageNumber="233" masterPageNumber="170" pageNumber="219" updateTime="1654279344171" updateUser="carolina">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6611160" ID-GBIF-Dataset="113e1a39-7927-463a-9063-26056ff4828d" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6611160" approvalRequired="15" approvalRequired_for_taxonomicNames="15" checkinTime="1654190635749" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="3C3D87A68755B10F1B3957B9F7ADFC9D" docLanguage="en" docName="hbmw_6_Heteromyidae_0170.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Chaetodipus goldmani Osgood 1900" docType="treatment" docVersion="10" lastPageNumber="219" masterDocId="C004FFDE874FB1151B595612FF94FFFD" masterDocTitle="Heteromyidae" masterLastPageNumber="233" masterPageNumber="170" pageNumber="219" updateTime="1658866110743" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Heteromyidae</mods:title>
@@ -47,7 +47,7 @@
 <mods:identifier type="ISBN">978-84-941892-3-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6611160</mods:identifier>
 </mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:3C3D87A68755B10F1B3957B9F7ADFC9D" httpUri="http://treatment.plazi.org/id/3C3D87A68755B10F1B3957B9F7ADFC9D" lastPageNumber="219" pageId="26" pageNumber="219">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6612074" ID-GBIF-Taxon="195730831" ID-Zenodo-Dep="6612074" LSID="urn:lsid:plazi:treatment:3C3D87A68755B10F1B3957B9F7ADFC9D" httpUri="http://treatment.plazi.org/id/3C3D87A68755B10F1B3957B9F7ADFC9D" lastPageNumber="219" pageId="26" pageNumber="219">
 <heading pageId="26" pageNumber="219">
 <subSubSection box="[96,153,427,473]" pageId="26" pageNumber="219" type="multiple">
 <paragraph blockId="26.[95,1261,427,553]" box="[96,153,427,473]" pageId="26" pageNumber="219">
@@ -83,9 +83,15 @@
 <paragraph blockId="26.[708,1303,596,1023]" pageId="26" pageNumber="219">
 <emphasis bold="true" box="[708,863,596,629]" pageId="26" pageNumber="219">Taxonomy.</emphasis>
 <taxonomicName authority="Osgood, 1900" authorityName="Osgood" authorityYear="1900" class="Mammalia" family="Heteromyidae" genus="Chaetodipus" kingdom="Animalia" order="Rodentia" pageId="26" pageNumber="219" phylum="Chordata" rank="species" species="goldmani">Chaetodipus goldmani Osgood, 1900</taxonomicName>
-, 
-<materialsCitation box="[793,1143,644,669]" pageId="26" pageNumber="219">Sinaloa, Sinaloa, Mexico.</materialsCitation>
+,
 </paragraph>
+</subSubSection>
+<subSubSection box="[793,1143,644,669]" pageId="26" pageNumber="219" type="materials_examined">
+<paragraph blockId="26.[708,1303,596,1023]" box="[793,1143,644,669]" pageId="26" pageNumber="219">
+<materialsCitation ID-GBIF-Occurrence="3802894348" box="[793,1143,644,669]" pageId="26" pageNumber="219">Sinaloa, Sinaloa, Mexico.</materialsCitation>
+</paragraph>
+</subSubSection>
+<subSubSection pageId="26" pageNumber="219" type="discussion">
 <paragraph blockId="26.[708,1303,596,1023]" lastBlockId="26.[98,1308,1030,3307]" pageId="26" pageNumber="219">
 Based on detailed sequencing of nDNA and mtDNA genes, 
 <taxonomicName authorityName="Osgood" authorityYear="1900" box="[1000,1157,714,747]" class="Mammalia" family="Heteromyidae" genus="Chaetodipus" kingdom="Animalia" order="Rodentia" pageId="26" pageNumber="219" phylum="Chordata" rank="species" species="goldmani">C. goldmani</taxonomicName>
