@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6623649" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6623649" approvalRequired="23" approvalRequired_for_taxonomicNames="22" approvalRequired_for_treatments="1" checkinTime="1654607780702" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="03C5A071FFC2FFF6FF0B5368527EF8FE" docLanguage="en" docName="hbmw_6_Echimyidae_0552.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Phyllomys pattoni Emmons 2002" docType="treatment" docVersion="9" lastPageNumber="599" masterDocId="FFFCD809FFEDFFD9FFBC58095A61FF94" masterDocTitle="Echimyidae" masterLastPageNumber="604" masterPageNumber="552" pageNumber="599" updateTime="1654699539071" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6623649" ID-GBIF-Dataset="5be7e52f-9b9c-4c03-99ed-f346bbcde1d0" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6623649" checkinTime="1654607780702" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="03C5A071FFC2FFF6FF0B5368527EF8FE" docLanguage="en" docName="hbmw_6_Echimyidae_0552.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Phyllomys pattoni Emmons 2002" docType="treatment" docVersion="16" lastPageNumber="599" masterDocId="FFFCD809FFEDFFD9FFBC58095A61FF94" masterDocTitle="Echimyidae" masterLastPageNumber="604" masterPageNumber="552" pageNumber="599" updateTime="1658841477558" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Echimyidae</mods:title>
@@ -43,10 +43,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6623649</mods:identifier>
+<mods:identifier type="GBIF-Dataset">5be7e52f-9b9c-4c03-99ed-f346bbcde1d0</mods:identifier>
 <mods:identifier type="ISBN">978-84-941892-3-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6623649</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6620235" ID-Zenodo-Dep="6620235" LSID="urn:lsid:plazi:treatment:03C5A071FFC2FFF6FF0B5368527EF8FE" httpUri="http://treatment.plazi.org/id/03C5A071FFC2FFF6FF0B5368527EF8FE" lastPageNumber="599" pageId="47" pageNumber="599">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6620235" ID-GBIF-Taxon="195810105" ID-Zenodo-Dep="6620235" LSID="urn:lsid:plazi:treatment:03C5A071FFC2FFF6FF0B5368527EF8FE" httpUri="http://treatment.plazi.org/id/03C5A071FFC2FFF6FF0B5368527EF8FE" lastPageNumber="599" pageId="47" pageNumber="599">
 <heading pageId="47" pageNumber="599">
 <subSubSection box="[183,241,2913,2959]" pageId="47" pageNumber="599" type="multiple">
 <paragraph blockId="47.[181,1342,2913,3041]" box="[183,241,2913,2959]" pageId="47" pageNumber="599">
@@ -82,14 +83,16 @@
 </paragraph>
 </subSubSection>
 </heading>
-<subSubSection pageId="47" pageNumber="599" type="reference_group">
 <paragraph blockId="47.[180,1386,3084,3479]" pageId="47" pageNumber="599">
+<subSubSection box="[182,870,3084,3117]" pageId="47" pageNumber="599" type="reference_group">
 <emphasis bold="true" box="[182,337,3084,3117]" pageId="47" pageNumber="599">Taxonomy.</emphasis>
 <taxonomicName authority="Emmons et al., 2002" authorityName="Emmons" authorityYear="2002" box="[350,865,3084,3117]" class="Mammalia" family="Echimyidae" genus="Phyllomys" kingdom="Animalia" order="Rodentia" pageId="47" pageNumber="599" phylum="Chordata" rank="species" species="pattoni">Phyllomys pattoni Emmons et al., 2002</taxonomicName>
-, 
-<materialsCitation pageId="47" pageNumber="599">“Mangue do Caritoti, Caravelas, Bahia, Brazil, 17°43°30” S 39°15’35”&quot;W: at sea level.”</materialsCitation>
-</paragraph>
+,
 </subSubSection>
+<subSubSection pageId="47" pageNumber="599" type="materials_examined">
+<materialsCitation ID-GBIF-Occurrence="3804303320" pageId="47" pageNumber="599">“Mangue do Caritoti, Caravelas, Bahia, Brazil, 17°43°30” S 39°15’35”&quot;W: at sea level.”</materialsCitation>
+</subSubSection>
+</paragraph>
 <subSubSection pageId="47" pageNumber="599" type="discussion">
 <paragraph blockId="47.[180,1386,3084,3479]" pageId="47" pageNumber="599">
 The name 
@@ -97,11 +100,11 @@ The name
 was given to specimens erroneously identified as 
 <taxonomicName authorityName="Lund" authorityYear="1840" box="[1165,1336,3163,3196]" class="Mammalia" family="Echimyidae" genus="Phyllomys" kingdom="Animalia" order="Rodentia" pageId="47" pageNumber="599" phylum="Chordata" rank="species" species="brasiliensis">P. brasiliensis</taxonomicName>
 for more than a century. These specimens had previously been identified as 
-<taxonomicName box="[1256,1379,3201,3234]" class="Mammalia" family="Echimyidae" genus="Loncheres" kingdom="Animalia" order="Rodentia" pageId="47" pageNumber="599" phylum="Chordata" rank="genus">Loncheres</taxonomicName>
+<taxonomicName authorityName="Illiger" authorityYear="1811" box="[1256,1379,3201,3234]" class="Mammalia" family="Echimyidae" genus="Loncheres" kingdom="Animalia" order="Rodentia" pageId="47" pageNumber="599" phylum="Chordata" rank="genus">Loncheres</taxonomicName>
 , 
 <taxonomicName authorityName="G. Cuvier" authorityYear="1809" box="[181,285,3240,3273]" class="Mammalia" family="Echimyidae" genus="Echimys" kingdom="Animalia" order="Rodentia" pageId="47" pageNumber="599" phylum="Chordata" rank="genus">Echimys</taxonomicName>
 , and 
-<taxonomicName box="[363,467,3240,3273]" class="Mammalia" family="Echimyidae" genus="Nelomys" kingdom="Animalia" order="Rodentia" pageId="47" pageNumber="599" phylum="Chordata" rank="genus">Nelomys</taxonomicName>
+<taxonomicName authorityName="Jourdan" authorityYear="1837" box="[363,467,3240,3273]" class="Mammalia" family="Echimyidae" genus="Nelomys" kingdom="Animalia" order="Rodentia" pageId="47" pageNumber="599" phylum="Chordata" rank="genus">Nelomys</taxonomicName>
 . Monotypic.
 </paragraph>
 </subSubSection>
@@ -113,7 +116,6 @@ E Brazil, along the coast from Paraiba to NE Sao Paulo states.
 </paragraph>
 </caption>
 </subSubSection>
-<paragraph blockId="47.[53,96,3309,3379]" box="[53,95,3311,3379]" pageId="47" pageNumber="599">638</paragraph>
 <subSubSection pageId="47" pageNumber="599" type="description">
 <paragraph blockId="47.[180,1386,3084,3479]" lastBlockId="47.[1456,2668,723,1898]" pageId="47" pageNumber="599">
 <emphasis bold="true" box="[181,431,3320,3353]" pageId="47" pageNumber="599">Descriptive notes.</emphasis>

@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6623649" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6623649" approvalRequired="23" approvalRequired_for_taxonomicNames="22" approvalRequired_for_treatments="1" checkinTime="1654607780702" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="03C5A071FFDDFFE9FACC5C2C524BF449" docLanguage="en" docName="hbmw_6_Echimyidae_0552.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Phyllomys medius" docType="treatment" docVersion="4" lastPageNumber="600" masterDocId="FFFCD809FFEDFFD9FFBC58095A61FF94" masterDocTitle="Echimyidae" masterLastPageNumber="604" masterPageNumber="552" pageNumber="600" updateTime="1654699539071" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6623649" ID-GBIF-Dataset="5be7e52f-9b9c-4c03-99ed-f346bbcde1d0" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6623649" checkinTime="1654607780702" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="03C5A071FFDDFFE9FACC5C2C524BF449" docLanguage="en" docName="hbmw_6_Echimyidae_0552.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Phyllomys medius" docType="treatment" docVersion="10" lastPageNumber="600" masterDocId="FFFCD809FFEDFFD9FFBC58095A61FF94" masterDocTitle="Echimyidae" masterLastPageNumber="604" masterPageNumber="552" pageNumber="600" updateTime="1658841477558" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Echimyidae</mods:title>
@@ -43,10 +43,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6623649</mods:identifier>
+<mods:identifier type="GBIF-Dataset">5be7e52f-9b9c-4c03-99ed-f346bbcde1d0</mods:identifier>
 <mods:identifier type="ISBN">978-84-941892-3-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6623649</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6621303" ID-Zenodo-Dep="6621303" LSID="urn:lsid:plazi:treatment:03C5A071FFDDFFE9FACC5C2C524BF449" httpUri="http://treatment.plazi.org/id/03C5A071FFDDFFE9FACC5C2C524BF449" lastPageNumber="600" pageId="48" pageNumber="600">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6621303" ID-GBIF-Taxon="195810090" ID-Zenodo-Dep="6621303" LSID="urn:lsid:plazi:treatment:03C5A071FFDDFFE9FACC5C2C524BF449" httpUri="http://treatment.plazi.org/id/03C5A071FFDDFFE9FACC5C2C524BF449" lastPageNumber="600" pageId="48" pageNumber="600">
 <heading pageId="48" pageNumber="600">
 <subSubSection box="[1392,1450,1061,1107]" pageId="48" pageNumber="600" type="multiple">
 <paragraph blockId="48.[1391,2589,1061,1147]" box="[1392,1450,1061,1107]" pageId="48" pageNumber="600">
@@ -65,7 +66,7 @@
 </taxonomicName>
 </paragraph>
 </subSubSection>
-<subSubSection pageId="48" pageNumber="600" type="vernacular_names">
+<subSubSection box="[1392,2588,1124,1145]" pageId="48" pageNumber="600" type="vernacular_names">
 <paragraph blockId="48.[1391,2589,1061,1147]" box="[1392,2588,1124,1145]" pageId="48" pageNumber="600">
 <emphasis bold="true" box="[1392,1468,1124,1145]" pageId="48" pageNumber="600">French:</emphasis>
 <vernacularName box="[1478,1703,1124,1145]" pageId="48" pageNumber="600">Rat-épineux a long poil</vernacularName>
@@ -76,26 +77,36 @@
 <emphasis bold="true" box="[2112,2203,1124,1145]" pageId="48" pageNumber="600">Spanish:</emphasis>
 <vernacularName box="[2214,2588,1124,1145]" pageId="48" pageNumber="600">Rata arboricola atlantica de pelo largo</vernacularName>
 </paragraph>
+</subSubSection>
+</heading>
+<subSubSection pageId="48" pageNumber="600" type="reference_group">
 <paragraph blockId="48.[2003,2597,1191,1618]" pageId="48" pageNumber="600">
 Taxonomy. 
 <taxonomicName authority="Thomas, 1909" authorityName="Thomas" authorityYear="1909" class="Mammalia" family="Echimyidae" genus="Loncheres" kingdom="Animalia" order="Rodentia" pageId="48" pageNumber="600" phylum="Chordata" rank="species" species="medius">Loncheres medius Thomas, 1909</taxonomicName>
-, 
-<materialsCitation pageId="48" pageNumber="600">“Roca Nova Serro [sic] do Mar, Parana, S[outhern]. Brazil. Alt. 1000 m.” Restricted by L. H. Emmons and colleagues in 2002 to “Roca Nova, Serra do Mar, Parana, Brazil 25°28’S 49°01’W, elevation 1000 m.”</materialsCitation>
+,
 </paragraph>
 </subSubSection>
-</heading>
+<subSubSection pageId="48" pageNumber="600" type="materials_examined">
+<paragraph blockId="48.[2003,2597,1191,1618]" pageId="48" pageNumber="600">
+<materialsCitation ID-GBIF-Occurrence="3804303361" pageId="48" pageNumber="600">“Roca Nova Serro [sic] do Mar, Parana, S[outhern]. Brazil. Alt. 1000 m.” Restricted by L. H. Emmons and colleagues in 2002 to “Roca Nova, Serra do Mar, Parana, Brazil 25°28’S 49°01’W, elevation 1000 m.”</materialsCitation>
+</paragraph>
+</subSubSection>
 <subSubSection pageId="48" pageNumber="600" type="discussion">
 <paragraph blockId="48.[2003,2597,1191,1618]" pageId="48" pageNumber="600">
 <taxonomicName baseAuthorityName="Thomas" baseAuthorityYear="1909" box="[2004,2229,1467,1500]" class="Mammalia" family="Echimyidae" genus="Phyllomys" kingdom="Animalia" order="Rodentia" pageId="48" pageNumber="600" phylum="Chordata" rank="species" species="medius">Phyllomys medius</taxonomicName>
 was formerly classified in the genera 
 <taxonomicName authorityName="G. Cuvier" authorityYear="1809" box="[2183,2286,1510,1539]" class="Mammalia" family="Echimyidae" genus="Echimys" kingdom="Animalia" order="Rodentia" pageId="48" pageNumber="600" phylum="Chordata" rank="genus">Echimys</taxonomicName>
 and 
-<taxonomicName box="[2376,2479,1510,1539]" class="Mammalia" family="Echimyidae" genus="Nelomys" kingdom="Animalia" order="Rodentia" pageId="48" pageNumber="600" phylum="Chordata" rank="genus">Nelomys</taxonomicName>
+<taxonomicName authorityName="Jourdan" authorityYear="1837" box="[2376,2479,1510,1539]" class="Mammalia" family="Echimyidae" genus="Nelomys" kingdom="Animalia" order="Rodentia" pageId="48" pageNumber="600" phylum="Chordata" rank="genus">Nelomys</taxonomicName>
 . Monotypic.
 </paragraph>
+</subSubSection>
+<subSubSection pageId="48" pageNumber="600" type="distribution">
 <caption ID-DOI="http://doi.org/10.5281/zenodo.6623896" ID-Zenodo-Dep="6623896" httpUri="https://zenodo.org/record/6623896/files/figure.png" inLine="true" pageId="48" pageNumber="600" startId="48.[2004,2176,1589,1618]" targetBox="[1390,1981,1199,1613]" targetPageId="48">
 <paragraph blockId="48.[2003,2597,1191,1618]" lastBlockId="48.[1391,2598,1633,3037]" pageId="48" pageNumber="600">Distribution. SE &amp; S Brazil, from Minas Gerais and Rio de Janeiro states, through Sao Paulo, Parana, and Santa Catarina to Rio Grande do Sulstates.</paragraph>
 </caption>
+</subSubSection>
+<subSubSection pageId="48" pageNumber="600" type="description">
 <paragraph blockId="48.[1391,2598,1633,3037]" pageId="48" pageNumber="600">Descriptive notes. Head-body 220-230 mm,tail 225-260 mm; weight 248-386 g. The Long-furred Atlantic Tree-rat is medium-sized and has dark brown upper parts, with darker mid-dorsum. Aristiforms on rump have thin, black, whip like tips and are very long (36 mm) and thin (0-4 mm). Dorsal pelt is soft and stiff. Ventral hairs are bicolored, with gray bases and fulvous distal ends. Tail is furred to tip and ¢.115% of head-body length. Skull of the Long-furred Atlantic Tree-rat is long and robust; interorbital region has well-developed and parallel to slighly posteriorly divergent supraorbital ridges, with absent or reduced post-orbital processes. Zygomatic arch is robust, with maximum height higher than or equal to one-third ofjugal length. Spinose post-orbital process is present and mainly formed by jugal. Lateral process of supraoccipital is short and extends to level of midline of external auditory meatus. Incisive foramina are distinctive, with small teardrop shape openings. Mesopterygoid fossa is narrow and forms angle more than 45° anteriorly, reaching posterior lamina of M*. Upper incisors are opisthodont. Molar teeth are narrow, with palatal width equal to width of M'. Upper tooth rows are nearly parallel. Angular process ofjaw is not deflected laterally.</paragraph>
 </subSubSection>
 <subSubSection pageId="48" pageNumber="600" type="biology_ecology">
@@ -104,15 +115,23 @@ Habitat. Broadleaf evergreen coastal forests and in mixed evergreen araucaria (
 <taxonomicName class="Pinopsida" family="Araucariaceae" kingdom="Plantae" order="Pinales" pageId="48" pageNumber="600" phylum="Tracheophyta" rank="family">Araucariaceae</taxonomicName>
 ) forests inland in Parana State from near sea level in the south part of the distribution to ¢.1000 m in the north. Distribution of the Long-furred Atlantic Tree-rat suggests preference for cooler climates.
 </paragraph>
+</subSubSection>
+<subSubSection pageId="48" pageNumber="600" type="food_feeding">
 <paragraph blockId="48.[1391,2598,1633,3037]" pageId="48" pageNumber="600">Food and Feeding. There is no specific information available for this species, but Long-furred Atlantic Tree-rat has lophodont cheekteeth that suggest a folivorous diet.</paragraph>
+</subSubSection>
+<subSubSection pageId="48" pageNumber="600" type="breeding">
 <paragraph blockId="48.[1391,2598,1633,3037]" pageId="48" pageNumber="600">Breeding. A pregnant Long-furred Atlantic Tree-rat carrying two embryos was caught in September at Teresopolis, Rio de Janeiro, south-eastern Brazil. It probably nests aboveground,in tree hollows.</paragraph>
+</subSubSection>
+<subSubSection pageId="48" pageNumber="600" type="activity">
 <paragraph blockId="48.[1391,2598,1633,3037]" pageId="48" pageNumber="600">Activity patterns. There is no specific information available for this species, but Longfurred Atlantic tree-rats are probably nocturnal.</paragraph>
+</subSubSection>
+<subSubSection pageId="48" pageNumber="600" type="biology_ecology">
 <paragraph blockId="48.[1391,2598,1633,3037]" pageId="48" pageNumber="600">Movements, Home range and Social organization. The Long-furred Atlantic tree-rat is arboreal and probably solitary.</paragraph>
 </subSubSection>
 <subSubSection pageId="48" pageNumber="600" type="conservation">
 <paragraph blockId="48.[1391,2598,1633,3037]" pageId="48" pageNumber="600">Status and Conservation. Classified as Least Concern on The IUCN Red List. Forest habitat where the Long-furred Atlantic tree-rat occurs is highly fragmented and reduced, but its distribution is large and it may be locally common. Additional ecological studies of the Long-furred Atlantic Tree-rat are needed.</paragraph>
 </subSubSection>
-<subSubSection pageId="48" pageNumber="600" type="reference_group">
+<subSubSection pageId="48" pageNumber="600" type="bibRefCitation_list">
 <paragraph blockId="48.[1391,2598,1633,3037]" pageId="48" pageNumber="600">Bibliography. Davis (1945b), Emmons (1990, 1997a), Emmons et al. (2002), Leite (2003), Leite &amp; Loss (2015), Loss &amp; Leite (2011), Thomas (1909a), Woods &amp; Kilpatrick (2005).</paragraph>
 </subSubSection>
 </treatment>
