@@ -1,7 +1,7 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.3748525" ID-GBIF-Dataset="6384b520-7e9f-4874-a414-76c2e9b01d74" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="3748525" approvalRequired="43" approvalRequired_for_bibRefs="1" approvalRequired_for_matCits="4" approvalRequired_for_taxonomicNames="14" approvalRequired_for_textStreams="20" approvalRequired_for_treatments="4" checkinTime="1586358796837" checkinUser="plazi" docAuthor="Burgin, Connor" docDate="2019" docId="885887A2FFE18A07FF69FEF9F55ED3BC" docLanguage="en" docName="hbmw_9_Rhinolophidae.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Lynx Edicions" docStyle="DocumentStyle{}" docTitle="Rhinolophus rouxii Temminck 1835" docType="treatment" docVersion="19" lastPageNumber="325" masterDocId="7461FFDAFFCF8A29FFCCFFA1FF85D963" masterDocTitle="Family Rhinolophidae (Horseshoe Bats)" masterLastPageNumber="332" masterPageNumber="280" pageNumber="325" updateTime="1657817821357" updateUser="valdenar">
+<document ID-DOI="http://doi.org/10.5281/zenodo.3748525" ID-GBIF-Dataset="6384b520-7e9f-4874-a414-76c2e9b01d74" ID-ISBN="978-84-16728-19-0" ID-Zenodo-Dep="3748525" approvalRequired="1" checkinTime="1586358796837" checkinUser="plazi" docAuthor="Burgin, Connor" docDate="2019" docId="885887A2FFE18A07FF69FEF9F55ED3BC" docLanguage="en" docName="hbmw_9_Rhinolophidae.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 9 Bats, Lynx Edicions" docStyle="DocumentStyle{}" docTitle="Rhinolophus rouxii Temminck 1835" docType="treatment" docVersion="22" lastPageNumber="325" masterDocId="7461FFDAFFCF8A29FFCCFFA1FF85D963" masterDocTitle="Family Rhinolophidae" masterLastPageNumber="332" masterPageNumber="280" pageNumber="325" updateTime="1658947758394" updateUser="felipe">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
-<mods:title>Family Rhinolophidae (Horseshoe Bats)</mods:title>
+<mods:title>Family Rhinolophidae</mods:title>
 </mods:titleInfo>
 <mods:name type="personal">
 <mods:role>
@@ -82,23 +82,29 @@ names:
 Horseshoe Bat
 </paragraph>
 </subSubSection>
-<paragraph blockId="46.[988,1786,573,1143]" lastBlockId="46.[161,1784,1157,4265]" pageId="46" pageNumber="325">
 <subSubSection pageId="46" pageNumber="325" type="reference_group">
+<paragraph blockId="46.[988,1786,573,1143]" pageId="46" pageNumber="325">
 <emphasis bold="true" box="[989,1200,577,611]" pageId="46" pageNumber="325">Taxonomy.</emphasis>
-<taxonomicName authority="Temminck" authorityName="Temminck" authorityYear="1835" box="[1219,1775,573,612]" class="Mammalia" family="Rhinolophidae" genus="Rhinolophus" kingdom="Animalia" order="Chiroptera" pageId="46" pageNumber="325" phylum="Chordata" rank="species" species="rouxii">
+<taxonomicName authority="Temminck" authorityName="Temminck" authorityYear="1835" class="Mammalia" family="Rhinolophidae" genus="Rhinolophus" kingdom="Animalia" order="Chiroptera" pageId="46" pageNumber="325" phylum="Chordata" rank="species" species="rouxii">
 <emphasis box="[1219,1556,573,612]" italics="true" pageId="46" pageNumber="325">Rhinolophus rouxii</emphasis>
-Temminck
+Temminck, 1835
 </taxonomicName>
-, 1835, “ 
-<materialsCitation ID-GBIF-Occurrence="2597533960" box="[1120,1785,626,665]" country="India" location="Pondichery [= Puducherry] et a Calcutta" pageId="46" pageNumber="325" specimenCount="1" typeStatus="type">
+,
+</paragraph>
+</subSubSection>
+<paragraph blockId="46.[988,1786,573,1143]" lastBlockId="46.[161,1784,1157,4265]" pageId="46" pageNumber="325">
+<subSubSection pageId="46" pageNumber="325" type="materials_examined">
+“ 
+<materialsCitation ID-GBIF-Occurrence="3864669305" country="India" location="Pondichery [= Puducherry] et a Calcutta" pageId="46" pageNumber="325" specimenCount="1" typeStatus="type">
 continent de 1’ 
 <collectingCountry box="[1399,1500,626,665]" name="India" pageId="46" pageNumber="325">India</collectingCountry>
 ... 
 <location LSID="urn:lsid:plazi:treatment:885887A2FFE18A07FF69FEF9F55ED3BC:052E606FFFE18A07F9D2FDD3F97CDBFA" box="[1566,1785,626,665]" country="India" name="Pondichery [= Puducherry] et a Calcutta" pageId="46" pageNumber="325">Pondichéry</location>
-</materialsCitation>
 [= 
 <emphasis box="[1042,1269,679,718]" italics="true" pageId="46" pageNumber="325">Puducherry</emphasis>
-] et à Calcutta.”
+] et à Calcutta
+</materialsCitation>
+.”
 </subSubSection>
 <subSubSection pageId="46" pageNumber="325" type="discussion">
 <taxonomicName authorityName="Temminck" authorityYear="1835" box="[990,1327,733,772]" class="Mammalia" family="Rhinolophidae" genus="Rhinolophus" kingdom="Animalia" order="Chiroptera" pageId="46" pageNumber="325" phylum="Chordata" rank="species" species="rouxii">
