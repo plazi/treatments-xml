@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6625539" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6625539" approvalRequired="98" approvalRequired_for_taxonomicNames="93" approvalRequired_for_treatments="5" checkinTime="1654714721633" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="03822308B748FFE9FA17F7EAFE26F2A6" docLanguage="en" docName="hbmw_6_Leporidae_0062.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Sylvilagus graysoni" docType="treatment" docVersion="4" lastPageNumber="123" masterDocId="FFBB5B70B747FFF9FFABFFBBFFCBF65E" masterDocTitle="Leporidae" masterLastPageNumber="148" masterPageNumber="107" pageNumber="122" updateTime="1654779769161" updateUser="carolina">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6625539" ID-GBIF-Dataset="0a6d8930-783d-44bc-a461-7a9aaefaeff3" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6625539" checkinTime="1654714721633" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="03822308B748FFE9FA17F7EAFE26F2A6" docLanguage="en" docName="hbmw_6_Leporidae_0062.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Sylvilagus graysoni" docType="treatment" docVersion="8" lastPageNumber="123" masterDocId="FFBB5B70B747FFF9FFABFFBBFFCBF65E" masterDocTitle="Leporidae" masterLastPageNumber="148" masterPageNumber="107" pageNumber="122" updateTime="1658924236609" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Leporidae</mods:title>
@@ -43,10 +43,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6625539</mods:identifier>
+<mods:identifier type="GBIF-Dataset">0a6d8930-783d-44bc-a461-7a9aaefaeff3</mods:identifier>
 <mods:identifier type="ISBN">978-84-941892-3-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6625539</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6625424" ID-Zenodo-Dep="6625424" LSID="urn:lsid:plazi:treatment:03822308B748FFE9FA17F7EAFE26F2A6" httpUri="http://treatment.plazi.org/id/03822308B748FFE9FA17F7EAFE26F2A6" lastPageId="16" lastPageNumber="123" pageId="15" pageNumber="122">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6625424" ID-GBIF-Taxon="195832070" ID-Zenodo-Dep="6625424" LSID="urn:lsid:plazi:treatment:03822308B748FFE9FA17F7EAFE26F2A6" httpUri="http://treatment.plazi.org/id/03822308B748FFE9FA17F7EAFE26F2A6" lastPageId="16" lastPageNumber="123" pageId="15" pageNumber="122">
 <heading pageId="15" pageNumber="122">
 <subSubSection box="[1468,1525,2129,2179]" pageId="15" pageNumber="122" type="multiple">
 <paragraph blockId="15.[1466,2592,2129,2256]" box="[1468,1525,2129,2179]" pageId="15" pageNumber="122">
@@ -82,12 +83,18 @@
 </paragraph>
 </subSubSection>
 </heading>
-<subSubSection pageId="15" pageNumber="122" type="reference_group">
-<paragraph blockId="15.[2078,2672,2302,2729]" pageId="15" pageNumber="122">
+<subSubSection box="[2078,2668,2302,2335]" pageId="15" pageNumber="122" type="reference_group">
+<paragraph blockId="15.[2078,2672,2302,2729]" box="[2078,2668,2302,2335]" pageId="15" pageNumber="122">
 <emphasis bold="true" box="[2078,2233,2302,2335]" pageId="15" pageNumber="122">Taxonomy.</emphasis>
 <taxonomicName authorityName="J. A. Allen" authorityYear="1877" box="[2245,2668,2302,2335]" class="Mammalia" family="Leporidae" genus="Lepus" kingdom="Animalia" order="Lagomorpha" pageId="15" pageNumber="122" phylum="Chordata" rank="species" species="graysoni">Lepus graysoni]. A. Allen, 1877,</taxonomicName>
-<materialsCitation pageId="15" pageNumber="122">“Tres Marias Islands.” Restricted by E. W. Nelson in 1899 to “undoubtedly from Maria Madre [Island],” Nayarit, Mexico.</materialsCitation>
 </paragraph>
+</subSubSection>
+<subSubSection pageId="15" pageNumber="122" type="materials_examined">
+<paragraph blockId="15.[2078,2672,2302,2729]" pageId="15" pageNumber="122">
+<materialsCitation ID-GBIF-Occurrence="3805018329" pageId="15" pageNumber="122">“Tres Marias Islands.” Restricted by E. W. Nelson in 1899 to “undoubtedly from Maria Madre [Island],” Nayarit, Mexico.</materialsCitation>
+</paragraph>
+</subSubSection>
+<subSubSection pageId="15" pageNumber="122" type="discussion">
 <paragraph blockId="15.[2078,2672,2302,2729]" lastBlockId="15.[1462,2669,2735,3476]" pageId="15" pageNumber="122">
 Existence of two subspecies of 
 <taxonomicName authorityName="J. A. Allen" authorityYear="1877" box="[2530,2672,2460,2493]" class="Mammalia" family="Leporidae" genus="Lepus" kingdom="Animalia" order="Lagomorpha" pageId="15" pageNumber="122" phylum="Chordata" rank="species" species="graysoni">S. graysoni</taxonomicName>
@@ -137,19 +144,19 @@ After 15:00 h, Tres Marias Cottontails have been seen sitting in small open plac
 </paragraph>
 </subSubSection>
 <subSubSection pageId="16" pageNumber="123" type="biology_ecology">
-<paragraph blockId="16.[90,1299,296,1273]" pageId="16" pageNumber="123">
+<paragraph blockId="16.[91,1298,296,1272]" pageId="16" pageNumber="123">
 <emphasis bold="true" box="[91,802,296,325]" pageId="16" pageNumber="123">Movements, Home range and Social organization.</emphasis>
 There is no information available for this species.
 </paragraph>
 </subSubSection>
 <subSubSection pageId="16" pageNumber="123" type="conservation">
-<paragraph blockId="16.[90,1299,296,1273]" pageId="16" pageNumber="123">
+<paragraph blockId="16.[91,1298,296,1272]" pageId="16" pageNumber="123">
 <emphasis bold="true" box="[91,432,371,404]" pageId="16" pageNumber="123">Status and Conservation.</emphasis>
 Classified as Endangered on The IUCN Red List. The Tres Marias Cottontail is listed as critically endangered in Mexico. Its distribution in Mexico is limited to the Tres Marias Islands, an area less than 500 km2. These islands are located c.86 km off the western coast of Mexico (21-22° N, 106-107° W) and include four islands: Maria Madre, Maria Magdalena, Maria Cleofas, and San Juanito. Populations of Tres Marias Cottontails are declining because of extensive habitat alterations on these islands. In 1897, the Tres Marias Cottontail was abundant in some places on the four islands. During a 1987 expedition,it was found only on San Juanito Island, which makes up ¢.12% ofthe total possible extent of occurrence. Main threats are hunting; extensive clearing of habitats and introduced White-tailed Deer (Odocoileus virginianus), domestic pigs, and domestic goats; and increasing human settlements associated with a federal prison on Maria Madre Island. Populations of Tres Marias Cottontails were more abundant on the uninhabited islands of Maria Cleofas and San Juanito, but Maria Cleofas Island has been stripped of ¢.50% ofits native vegetation for human settlements. Recommendations to ensure survival of the Tres Marias Cottontails are to establish reserves on Maria Madre Island, turn San Juanito Island into an ecological reserve, and stop all hunting. Status surveys need to be conducted to determine population status and specific habitat requirements, and long-term research on natural history and population densities in long-term projects should be initiated. Maria Magdalena Island has been designated an ecological reserve by the Mexican government.
 </paragraph>
 </subSubSection>
 <subSubSection pageId="16" pageNumber="123" type="bibRefCitation_list">
-<paragraph blockId="16.[90,1299,296,1273]" pageId="16" pageNumber="123">
+<paragraph blockId="16.[91,1298,296,1272]" pageId="16" pageNumber="123">
 <emphasis bold="true" box="[93,246,1167,1192]" pageId="16" pageNumber="123">Bibliography.</emphasis>
 AMCELA, Romero &amp; Rangel (2008e), Cervantes (1997), Chapman &amp; Ceballos (1990), Chapman etal. (1990), Cervantes (1997), Diersing &amp; Wilson (1980), Hall (1981), Hoffmann &amp; Smith (2005), Lorenzo (1987), Nelson (1899a, 1909), Wilson (1991).
 </paragraph>
