@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6617642" ID-GBIF-Dataset="cfc4dc2d-1961-43a3-8b72-33bce1e83c4f" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6617642" approvalRequired="3" approvalRequired_for_taxonomicNames="2" approvalRequired_for_textStreams="1" checkinTime="1654534782372" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="1E484E375255FFDB026BFBAF48FF5E1E" docLanguage="en" docName="hbmw_6_Pedetidae_0280.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Pedetes surdaster Thomas 1902" docType="treatment" docVersion="4" lastPageNumber="287" masterDocId="E271364F5257FFD90235FFE04E135435" masterDocTitle="Pedetidae" masterLastPageNumber="287" masterPageNumber="280" pageNumber="287" updateTime="1654537285054" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6617642" ID-GBIF-Dataset="cfc4dc2d-1961-43a3-8b72-33bce1e83c4f" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6617642" approvalRequired="5" approvalRequired_for_textStreams="5" checkinTime="1654534782372" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="1E484E375255FFDB026BFBAF48FF5E1E" docLanguage="en" docName="hbmw_6_Pedetidae_0280.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Pedetes surdaster Thomas 1902" docType="treatment" docVersion="6" lastPageNumber="287" masterDocId="E271364F5257FFD90235FFE04E135435" masterDocTitle="Pedetidae" masterLastPageNumber="287" masterPageNumber="280" pageNumber="287" updateTime="1658928189911" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Pedetidae</mods:title>
@@ -47,7 +47,7 @@
 <mods:identifier type="ISBN">978-84-941892-3-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6617642</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6617563" ID-Zenodo-Dep="6617563" LSID="urn:lsid:plazi:treatment:1E484E375255FFDB026BFBAF48FF5E1E" httpUri="http://treatment.plazi.org/id/1E484E375255FFDB026BFBAF48FF5E1E" lastPageNumber="287" pageId="2" pageNumber="287">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6617563" ID-GBIF-Taxon="195763337" ID-Zenodo-Dep="6617563" LSID="urn:lsid:plazi:treatment:1E484E375255FFDB026BFBAF48FF5E1E" httpUri="http://treatment.plazi.org/id/1E484E375255FFDB026BFBAF48FF5E1E" lastPageNumber="287" pageId="2" pageNumber="287">
 <heading pageId="2" pageNumber="287">
 <subSubSection box="[94,126,1103,1149]" pageId="2" pageNumber="287" type="multiple">
 <paragraph blockId="2.[92,1077,1103,1230]" box="[94,126,1103,1149]" pageId="2" pageNumber="287">2.</paragraph>
@@ -83,13 +83,19 @@
 </paragraph>
 </subSubSection>
 </heading>
-<subSubSection pageId="2" pageNumber="287" type="reference_group">
-<paragraph blockId="2.[704,1299,1276,1698]" pageId="2" pageNumber="287">
+<subSubSection box="[704,1294,1276,1305]" pageId="2" pageNumber="287" type="reference_group">
+<paragraph blockId="2.[704,1299,1276,1698]" box="[704,1294,1276,1305]" pageId="2" pageNumber="287">
 <emphasis bold="true" box="[704,860,1276,1305]" pageId="2" pageNumber="287">Taxonomy.</emphasis>
 <taxonomicName authority="Thomas, 1902" authorityName="Thomas" authorityYear="1902" box="[872,1290,1276,1305]" class="Mammalia" family="Pedetidae" genus="Pedetes" kingdom="Animalia" order="Rodentia" pageId="2" pageNumber="287" phylum="Chordata" rank="species" species="surdaster">Pedetes surdaster Thomas, 1902</taxonomicName>
-, 
-<materialsCitation pageId="2" pageNumber="287">“Morendat, mile 365 of Uganda Railway, British East Africa [= Naivasha Province, Kenya]. Altitude 2000 m.”</materialsCitation>
+,
 </paragraph>
+</subSubSection>
+<subSubSection pageId="2" pageNumber="287" type="materials_examined">
+<paragraph blockId="2.[704,1299,1276,1698]" pageId="2" pageNumber="287">
+<materialsCitation ID-GBIF-Occurrence="3803447301" pageId="2" pageNumber="287">“Morendat, mile 365 of Uganda Railway, British East Africa [= Naivasha Province, Kenya]. Altitude 2000 m.”</materialsCitation>
+</paragraph>
+</subSubSection>
+<subSubSection pageId="2" pageNumber="287" type="discussion">
 <paragraph blockId="2.[704,1299,1276,1698]" lastBlockId="2.[94,1302,1709,2606]" pageId="2" pageNumber="287">
 Although many authors have considered this taxon as a unique species, it also has been frequently considered synonym of 
 <taxonomicName authorityName="Forster" authorityYear="1778" box="[706,844,1546,1579]" class="Mammalia" family="Pedetidae" genus="Pedetes" kingdom="Animalia" order="Rodentia" pageId="2" pageNumber="287" phylum="Chordata" rank="species" species="capensis">P. capensis</taxonomicName>
