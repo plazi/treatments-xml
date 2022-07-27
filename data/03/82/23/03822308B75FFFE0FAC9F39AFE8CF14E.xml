@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6625539" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6625539" approvalRequired="120" approvalRequired_for_taxonomicNames="115" approvalRequired_for_treatments="5" checkinTime="1654714721633" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="03822308B75FFFE0FAC9F39AFE8CF14E" docLanguage="en" docName="hbmw_6_Leporidae_0062.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Lepus starcki Petter 1963" docType="treatment" docVersion="3" lastPageNumber="132" masterDocId="FFBB5B70B747FFF9FFABFFBBFFCBF65E" masterDocTitle="Leporidae" masterLastPageNumber="148" masterPageNumber="107" pageNumber="131" updateTime="1654718452525" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6625539" ID-GBIF-Dataset="0a6d8930-783d-44bc-a461-7a9aaefaeff3" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6625539" checkinTime="1654714721633" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="03822308B75FFFE0FAC9F39AFE8CF14E" docLanguage="en" docName="hbmw_6_Leporidae_0062.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Lepus starcki Petter 1963" docType="treatment" docVersion="7" lastPageNumber="132" masterDocId="FFBB5B70B747FFF9FFABFFBBFFCBF65E" masterDocTitle="Leporidae" masterLastPageNumber="148" masterPageNumber="107" pageNumber="131" updateTime="1658924980659" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Leporidae</mods:title>
@@ -43,10 +43,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6625539</mods:identifier>
+<mods:identifier type="GBIF-Dataset">0a6d8930-783d-44bc-a461-7a9aaefaeff3</mods:identifier>
 <mods:identifier type="ISBN">978-84-941892-3-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6625539</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6625448" ID-Zenodo-Dep="6625448" LSID="urn:lsid:plazi:treatment:03822308B75FFFE0FAC9F39AFE8CF14E" httpUri="http://treatment.plazi.org/id/03822308B75FFFE0FAC9F39AFE8CF14E" lastPageId="25" lastPageNumber="132" pageId="24" pageNumber="131">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6625448" ID-GBIF-Taxon="195832007" ID-Zenodo-Dep="6625448" LSID="urn:lsid:plazi:treatment:03822308B75FFFE0FAC9F39AFE8CF14E" httpUri="http://treatment.plazi.org/id/03822308B75FFFE0FAC9F39AFE8CF14E" lastPageId="25" lastPageNumber="132" pageId="24" pageNumber="131">
 <heading pageId="24" pageNumber="131">
 <subSubSection box="[1378,1434,3105,3151]" pageId="24" pageNumber="131" type="multiple">
 <paragraph blockId="24.[1375,2458,3105,3231]" box="[1378,1434,3105,3151]" pageId="24" pageNumber="131">
@@ -82,14 +83,20 @@
 </paragraph>
 </subSubSection>
 </heading>
-<subSubSection pageId="24" pageNumber="131" type="reference_group">
-<paragraph blockId="24.[1375,2583,3274,3474]" pageId="24" pageNumber="131">
+<subSubSection box="[1376,1889,3274,3307]" pageId="24" pageNumber="131" type="reference_group">
+<paragraph blockId="24.[1375,2583,3274,3474]" box="[1376,1889,3274,3307]" pageId="24" pageNumber="131">
 <emphasis bold="true" box="[1376,1531,3274,3307]" pageId="24" pageNumber="131">Taxonomy.</emphasis>
 <taxonomicName authority="Petter, 1963" authorityName="Petter" authorityYear="1963" box="[1544,1884,3274,3307]" class="Mammalia" family="Leporidae" genus="Lepus" kingdom="Animalia" order="Lagomorpha" pageId="24" pageNumber="131" phylum="Chordata" rank="species" species="starcki">Lepus starcki Petter, 1963</taxonomicName>
-, 
-<materialsCitation pageId="24" pageNumber="131">“Jeldu-Liban-Shoa, 2740 metres, 40 km W. Addis Abeba,” Ethiopia</materialsCitation>
+,
+</paragraph>
+</subSubSection>
+<subSubSection pageId="24" pageNumber="131" type="materials_examined">
+<paragraph blockId="24.[1375,2583,3274,3474]" pageId="24" pageNumber="131">
+<materialsCitation ID-GBIF-Occurrence="3805018353" pageId="24" pageNumber="131">“Jeldu-Liban-Shoa, 2740 metres, 40 km W. Addis Abeba,” Ethiopia</materialsCitation>
 .
 </paragraph>
+</subSubSection>
+<subSubSection pageId="24" pageNumber="131" type="discussion">
 <paragraph blockId="24.[1375,2583,3274,3474]" pageId="24" pageNumber="131">
 It was originally listed as a subspecies of 
 <taxonomicName authorityName="Linnaeus" authorityYear="1758" box="[1928,2066,3353,3386]" class="Mammalia" family="Leporidae" genus="Lepus" kingdom="Animalia" order="Lagomorpha" pageId="24" pageNumber="131" phylum="Chordata" rank="species" species="capensis">L. capensis</taxonomicName>
@@ -129,9 +136,7 @@ Based on fecal analysis, Ethiopian Highland Hares are highly selective for monoc
 <taxonomicName box="[1241,1397,1225,1258]" class="Liliopsida" family="Poaceae" genus="Festuca" kingdom="Plantae" order="Poales" pageId="25" pageNumber="132" phylum="Tracheophyta" rank="species" species="undetermined">Festuca spp.</taxonomicName>
 (
 <taxonomicName authorityName="Barnhart" authorityYear="1895" baseAuthorityName="R.Br." box="[208,325,1264,1297]" class="Liliopsida" family="Poaceae" kingdom="Plantae" order="Poales" pageId="25" pageNumber="132" phylum="Tracheophyta" rank="family">Poaceae</taxonomicName>
-) was the most available and important food among grasses. 
-<taxonomicName box="[1179,1393,1264,1297]" class="Liliopsida" family="Poaceae" genus="Koeleria" kingdom="Plantae" order="Poales" pageId="25" pageNumber="132" phylum="Tracheophyta" rank="species" species="capensis">Koeleria capensis</taxonomicName>
-, 
+) was the most available and important food among grasses. Koeleria capensis, 
 <taxonomicName box="[195,295,1304,1337]" class="Liliopsida" family="Poaceae" genus="Agrostis" kingdom="Plantae" order="Poales" pageId="25" pageNumber="132" phylum="Tracheophyta" rank="genus">Agrostis</taxonomicName>
 gracilifolia (both 
 <taxonomicName authorityName="Barnhart" authorityYear="1895" baseAuthorityName="R.Br." box="[530,651,1304,1337]" class="Liliopsida" family="Poaceae" kingdom="Plantae" order="Poales" pageId="25" pageNumber="132" phylum="Tracheophyta" rank="family">Poaceae</taxonomicName>

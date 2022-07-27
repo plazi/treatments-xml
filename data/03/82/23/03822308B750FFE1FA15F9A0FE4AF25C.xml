@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6625539" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6625539" approvalRequired="98" approvalRequired_for_taxonomicNames="93" approvalRequired_for_treatments="5" checkinTime="1654714721633" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="03822308B750FFE1FA15F9A0FE4AF25C" docLanguage="en" docName="hbmw_6_Leporidae_0062.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Lepus saxatilis F. Cuvier 1823" docType="treatment" docVersion="5" lastPageNumber="131" masterDocId="FFBB5B70B747FFF9FFABFFBBFFCBF65E" masterDocTitle="Leporidae" masterLastPageNumber="148" masterPageNumber="107" pageNumber="130" updateTime="1654779769161" updateUser="carolina">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6625539" ID-GBIF-Dataset="0a6d8930-783d-44bc-a461-7a9aaefaeff3" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6625539" checkinTime="1654714721633" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="03822308B750FFE1FA15F9A0FE4AF25C" docLanguage="en" docName="hbmw_6_Leporidae_0062.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Lepus saxatilis F. Cuvier 1823" docType="treatment" docVersion="8" lastPageNumber="131" masterDocId="FFBB5B70B747FFF9FFABFFBBFFCBF65E" masterDocTitle="Leporidae" masterLastPageNumber="148" masterPageNumber="107" pageNumber="130" updateTime="1658924980659" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Leporidae</mods:title>
@@ -43,10 +43,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6625539</mods:identifier>
+<mods:identifier type="GBIF-Dataset">0a6d8930-783d-44bc-a461-7a9aaefaeff3</mods:identifier>
 <mods:identifier type="ISBN">978-84-941892-3-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6625539</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6625444" ID-Zenodo-Dep="6625444" LSID="urn:lsid:plazi:treatment:03822308B750FFE1FA15F9A0FE4AF25C" httpUri="http://treatment.plazi.org/id/03822308B750FFE1FA15F9A0FE4AF25C" lastPageId="24" lastPageNumber="131" pageId="23" pageNumber="130">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6625444" ID-GBIF-Taxon="195832016" ID-Zenodo-Dep="6625444" LSID="urn:lsid:plazi:treatment:03822308B750FFE1FA15F9A0FE4AF25C" httpUri="http://treatment.plazi.org/id/03822308B750FFE1FA15F9A0FE4AF25C" lastPageId="24" lastPageNumber="131" pageId="23" pageNumber="130">
 <heading pageId="23" pageNumber="130">
 <subSubSection box="[1470,1527,1563,1605]" pageId="23" pageNumber="130" type="multiple">
 <paragraph blockId="23.[1466,2285,1563,1682]" box="[1470,1527,1563,1605]" pageId="23" pageNumber="130">
@@ -82,13 +83,19 @@
 </paragraph>
 </subSubSection>
 </heading>
-<subSubSection pageId="23" pageNumber="130" type="reference_group">
-<paragraph blockId="23.[2076,2671,1741,2159]" pageId="23" pageNumber="130">
+<subSubSection box="[2079,2669,1741,1766]" pageId="23" pageNumber="130" type="reference_group">
+<paragraph blockId="23.[2076,2671,1741,2159]" box="[2079,2669,1741,1766]" pageId="23" pageNumber="130">
 <emphasis bold="true" box="[2079,2234,1741,1766]" pageId="23" pageNumber="130">Taxonomy.</emphasis>
 <taxonomicName authority="F. Cuvier, 1823" authorityName="F. Cuvier" authorityYear="1823" box="[2250,2664,1741,1766]" class="Mammalia" family="Leporidae" genus="Lepus" kingdom="Animalia" order="Lagomorpha" pageId="23" pageNumber="130" phylum="Chordata" rank="species" species="saxatilis">Lepus saxatilis F. Cuvier, 1823</taxonomicName>
-, 
-<materialsCitation pageId="23" pageNumber="130">“il habite les contrées qui se trouvent a trois journées au nord du cap de Bonne-Espérance [= Cape of Good Hope],” South Africa.</materialsCitation>
+,
 </paragraph>
+</subSubSection>
+<subSubSection pageId="23" pageNumber="130" type="materials_examined">
+<paragraph blockId="23.[2076,2671,1741,2159]" pageId="23" pageNumber="130">
+<materialsCitation ID-GBIF-Occurrence="3805018344" pageId="23" pageNumber="130">“il habite les contrées qui se trouvent a trois journées au nord du cap de Bonne-Espérance [= Cape of Good Hope],” South Africa.</materialsCitation>
+</paragraph>
+</subSubSection>
+<subSubSection pageId="23" pageNumber="130" type="discussion">
 <paragraph blockId="23.[2076,2671,1741,2159]" lastBlockId="23.[1451,2670,2164,3457]" pageId="23" pageNumber="130">
 Taxonomic relationship of 
 <taxonomicName authorityName="F. Cuvier" authorityYear="1823" box="[2480,2627,1929,1962]" class="Mammalia" family="Leporidae" genus="Lepus" kingdom="Animalia" order="Lagomorpha" pageId="23" pageNumber="130" phylum="Chordata" rank="species" species="saxatilis">L. saxatilis</taxonomicName>
