@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6617684" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6617684" approvalRequired="2" approvalRequired_for_textStreams="2" checkinTime="1654536042717" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="396E87990566FFAEDB855C48F739FD0B" docLanguage="en" docName="hbmw_6_Thryonomyidae_0330.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Thryonomys swinderianus" docType="treatment" docVersion="4" lastPageNumber="333" masterDocId="C557FFE10567FFACDB425430FFC3FFC2" masterDocTitle="Thryonomyidae" masterLastPageNumber="333" masterPageNumber="331" pageNumber="331" updateTime="1654537524829" updateUser="ExternalLinkService">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6617684" ID-GBIF-Dataset="cd5b59bd-6e4b-4c08-aa12-5a65d7a95a8a" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6617684" checkinTime="1654536042717" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="396E87990566FFAEDB855C48F739FD0B" docLanguage="en" docName="hbmw_6_Thryonomyidae_0330.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Thryonomys swinderianus" docType="treatment" docVersion="7" lastPageNumber="333" masterDocId="C557FFE10567FFACDB425430FFC3FFC2" masterDocTitle="Thryonomyidae" masterLastPageNumber="333" masterPageNumber="331" pageNumber="331" updateTime="1658931242946" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Thryonomyidae</mods:title>
@@ -43,16 +43,15 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6617684</mods:identifier>
+<mods:identifier type="GBIF-Dataset">cd5b59bd-6e4b-4c08-aa12-5a65d7a95a8a</mods:identifier>
 <mods:identifier type="ISBN">978-84-941892-3-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6617684</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6617619" ID-Zenodo-Dep="6617619" LSID="urn:lsid:plazi:treatment:396E87990566FFAEDB855C48F739FD0B" httpUri="http://treatment.plazi.org/id/396E87990566FFAEDB855C48F739FD0B" lastPageId="2" lastPageNumber="333" pageId="1" pageNumber="331">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6617619" ID-GBIF-Taxon="195763352" ID-Zenodo-Dep="6617619" LSID="urn:lsid:plazi:treatment:396E87990566FFAEDB855C48F739FD0B" httpUri="http://treatment.plazi.org/id/396E87990566FFAEDB855C48F739FD0B" lastPageId="2" lastPageNumber="333" pageId="1" pageNumber="331">
 <heading pageId="1" pageNumber="331">
-<subSubSection box="[199,227,2168,2214]" pageId="1" pageNumber="331" type="multiple">
+<subSubSection box="[199,608,2168,2214]" pageId="1" pageNumber="331" type="multiple">
 <paragraph blockId="1.[193,1153,2168,2296]" box="[199,227,2168,2214]" pageId="1" pageNumber="331">1.</paragraph>
-</subSubSection>
-<subSubSection box="[245,608,2168,2214]" pageId="1" pageNumber="331" type="vernacular_names">
-<caption box="[245,608,2168,2214]" inLine="true" pageId="1" pageNumber="331" startId="1.[245,404,2168,2214]" targetBox="[10,2740,20,1739]" targetPageId="1">
+<caption ID-DOI="http://doi.org/10.5281/zenodo.6617695" ID-Zenodo-Dep="6617695" box="[245,608,2168,2214]" httpUri="https://zenodo.org/record/6617695/files/figure.png" inLine="true" pageId="1" pageNumber="331" startId="1.[245,404,2168,2214]" targetBox="[10,2740,20,1739]" targetPageId="1">
 <paragraph blockId="1.[193,1153,2168,2296]" box="[245,608,2168,2214]" pageId="1" pageNumber="331">
 <vernacularName box="[245,608,2168,2214]" pageId="1" pageNumber="331">Greater Cane Rat</vernacularName>
 </paragraph>
@@ -90,9 +89,15 @@
 <paragraph blockId="1.[806,1397,2342,2765]" pageId="1" pageNumber="331">
 <emphasis bold="true" box="[806,961,2342,2371]" pageId="1" pageNumber="331">Taxonomy.</emphasis>
 <taxonomicName authority="Temminck, 1827" authorityName="Temminck" authorityYear="1827" class="Mammalia" family="Thryonomyidae" genus="Aulacodus" kingdom="Animalia" order="Rodentia" pageId="1" pageNumber="331" phylum="Chordata" rank="species" species="swinderianus">Aulacodus swinderianus Temminck, 1827</taxonomicName>
-, 
-<materialsCitation box="[997,1297,2381,2410]" pageId="1" pageNumber="331">no type locality given.</materialsCitation>
+,
 </paragraph>
+</subSubSection>
+<subSubSection box="[997,1297,2381,2410]" pageId="1" pageNumber="331" type="materials_examined">
+<paragraph blockId="1.[806,1397,2342,2765]" box="[997,1297,2381,2410]" pageId="1" pageNumber="331">
+<materialsCitation ID-GBIF-Occurrence="3803449301" box="[997,1297,2381,2410]" pageId="1" pageNumber="331">no type locality given.</materialsCitation>
+</paragraph>
+</subSubSection>
+<subSubSection pageId="1" pageNumber="331" type="discussion">
 <paragraph blockId="1.[806,1397,2342,2765]" pageId="1" pageNumber="331">
 Originally placed under the new genus 
 <taxonomicName authorityName="Eschscholtz" authorityYear="1822" box="[806,940,2460,2489]" class="Mammalia" family="Thryonomyidae" genus="Aulacodus" kingdom="Animalia" order="Rodentia" pageId="1" pageNumber="331" phylum="Chordata" rank="genus">Aulacodus</taxonomicName>
@@ -100,7 +105,7 @@ and then discarded because the name had been already used for a Coleoptera. Mono
 </paragraph>
 </subSubSection>
 <subSubSection pageId="1" pageNumber="331" type="distribution">
-<caption inLine="true" pageId="1" pageNumber="331" targetBox="[191,782,2347,2761]" targetPageId="1">
+<caption ID-DOI="http://doi.org/10.5281/zenodo.6617697" ID-Zenodo-Dep="6617697" httpUri="https://zenodo.org/record/6617697/files/figure.png" inLine="true" pageId="1" pageNumber="331" targetBox="[191,782,2347,2761]" targetPageId="1">
 <paragraph blockId="1.[806,1397,2342,2765]" lastBlockId="1.[193,1397,2778,3472]" pageId="1" pageNumber="331">
 <emphasis bold="true" box="[806,981,2578,2607]" pageId="1" pageNumber="331">Distribution.</emphasis>
 Widely distributed throughout sub-Saharan Africa, from Senegal to Sudan and S to E South Africa. It is absent from the Horn of Africa, the Central African tropical forest basin, and the arid areas of Namibia, Botswana, and South Africa.
