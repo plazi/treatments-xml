@@ -1,4 +1,4 @@
-<document ID-DOI="http://doi.org/10.5281/zenodo.6625539" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6625539" approvalRequired="112" approvalRequired_for_taxonomicNames="107" approvalRequired_for_treatments="5" checkinTime="1654714721633" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="03822308B744FFFDFA15FBB9FB68F407" docLanguage="en" docName="hbmw_6_Leporidae_0062.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Pronolagus rupestris" docType="treatment" docVersion="4" lastPageNumber="111" masterDocId="FFBB5B70B747FFF9FFABFFBBFFCBF65E" masterDocTitle="Leporidae" masterLastPageNumber="148" masterPageNumber="107" pageNumber="110" updateTime="1654779269292" updateUser="carolina">
+<document ID-DOI="http://doi.org/10.5281/zenodo.6625539" ID-GBIF-Dataset="0a6d8930-783d-44bc-a461-7a9aaefaeff3" ID-ISBN="978-84-941892-3-4" ID-Zenodo-Dep="6625539" checkinTime="1654714721633" checkinUser="carolina" docAuthor="Don E. Wilson, Thomas E. Lacher, Jr &amp; Russell A. Mittermeier" docDate="2016" docId="03822308B744FFFDFA15FBB9FB68F407" docLanguage="en" docName="hbmw_6_Leporidae_0062.pdf.imf" docOrigin="Handbook of the Mammals of the World – Volume 6 Lagomorphs and Rodents I, Barcelona: Lynx Edicions" docTitle="Pronolagus rupestris" docType="treatment" docVersion="7" lastPageNumber="111" masterDocId="FFBB5B70B747FFF9FFABFFBBFFCBF65E" masterDocTitle="Leporidae" masterLastPageNumber="148" masterPageNumber="107" pageNumber="110" updateTime="1658923268688" updateUser="carolina">
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
 <mods:titleInfo>
 <mods:title>Leporidae</mods:title>
@@ -43,10 +43,11 @@
 </mods:relatedItem>
 <mods:classification>book chapter</mods:classification>
 <mods:identifier type="DOI">http://doi.org/10.5281/zenodo.6625539</mods:identifier>
+<mods:identifier type="GBIF-Dataset">0a6d8930-783d-44bc-a461-7a9aaefaeff3</mods:identifier>
 <mods:identifier type="ISBN">978-84-941892-3-4</mods:identifier>
 <mods:identifier type="Zenodo-Dep">6625539</mods:identifier>
 </mods:mods>
-<treatment ID-DOI="http://doi.org/10.5281/zenodo.6625376" ID-Zenodo-Dep="6625376" LSID="urn:lsid:plazi:treatment:03822308B744FFFDFA15FBB9FB68F407" httpUri="http://treatment.plazi.org/id/03822308B744FFFDFA15FBB9FB68F407" lastPageId="4" lastPageNumber="111" pageId="3" pageNumber="110">
+<treatment ID-DOI="http://doi.org/10.5281/zenodo.6625376" ID-GBIF-Taxon="195832041" ID-Zenodo-Dep="6625376" LSID="urn:lsid:plazi:treatment:03822308B744FFFDFA15FBB9FB68F407" httpUri="http://treatment.plazi.org/id/03822308B744FFFDFA15FBB9FB68F407" lastPageId="4" lastPageNumber="111" pageId="3" pageNumber="110">
 <heading pageId="3" pageNumber="110">
 <subSubSection box="[1470,1502,1026,1072]" pageId="3" pageNumber="110" type="multiple">
 <paragraph blockId="3.[1468,2439,1026,1115]" box="[1470,1502,1026,1072]" pageId="3" pageNumber="110">
@@ -78,14 +79,19 @@
 </paragraph>
 </subSubSection>
 </heading>
-<subSubSection pageId="3" pageNumber="110" type="reference_group">
-<paragraph blockId="3.[2078,2674,1158,1585]" pageId="3" pageNumber="110">
+<subSubSection box="[2078,2670,1158,1191]" pageId="3" pageNumber="110" type="reference_group">
+<paragraph blockId="3.[2078,2674,1158,1585]" box="[2078,2670,1158,1191]" pageId="3" pageNumber="110">
 <emphasis bold="true" box="[2078,2233,1158,1191]" pageId="3" pageNumber="110">Taxonomy.</emphasis>
 <taxonomicName authorityName="A. Smith" authorityYear="1834" box="[2248,2665,1158,1191]" class="Mammalia" family="Leporidae" genus="Lepus" kingdom="Animalia" order="Lagomorpha" pageId="3" pageNumber="110" phylum="Chordata" rank="species" species="rupestris">Lepus rupestris A. Smith, 1834</taxonomicName>
-, 
-<materialsCitation box="[2079,2543,1206,1231]" pageId="3" pageNumber="110">“South Africa, rocky situations.”</materialsCitation>
-Refined by R. S. Hoffman and A. T. Smith in 2005 to “probably Van Rhynsdorp District, Western Cape Province, South Africa.”
+,
 </paragraph>
+</subSubSection>
+<subSubSection pageId="3" pageNumber="110" type="materials_examined">
+<paragraph blockId="3.[2078,2674,1158,1585]" pageId="3" pageNumber="110">
+<materialsCitation ID-GBIF-Occurrence="3805018346" pageId="3" pageNumber="110">“South Africa, rocky situations.” Refined by R. S. Hoffman and A. T. Smith in 2005 to “probably Van Rhynsdorp District, Western Cape Province, South Africa.”</materialsCitation>
+</paragraph>
+</subSubSection>
+<subSubSection pageId="3" pageNumber="110" type="discussion">
 <paragraph blockId="3.[2078,2674,1158,1585]" lastBlockId="3.[1461,2671,1590,3474]" pageId="3" pageNumber="110">
 Formerly, 
 <taxonomicName baseAuthorityName="A. Smith" baseAuthorityYear="1834" box="[2238,2394,1355,1388]" class="Mammalia" family="Leporidae" genus="Lepus" kingdom="Animalia" order="Lagomorpha" pageId="3" pageNumber="110" phylum="Chordata" rank="species" species="rupestris">P. rupestris</taxonomicName>
@@ -108,7 +114,7 @@ does not overlap those of
 , the subspecific taxonomyis not elaborated yet. The original descriptions of the subspecies are often not very helpful as they are mostly based on few exterior characteristics and small numbers of individuals. It has been shown that the variability is clinal in more careful investigations. Hence, the distinction in subspecies might be arbitrary and unreasonable. Four subspecies recognized.
 </paragraph>
 </subSubSection>
-<subSubSection pageId="3" pageNumber="110" type="multiple">
+<subSubSection pageId="3" pageNumber="110" type="distribution">
 <caption ID-DOI="http://doi.org/10.5281/zenodo.6625551" ID-Zenodo-Dep="6625551" httpUri="https://zenodo.org/record/6625551/files/figure.png" inLine="true" pageId="3" pageNumber="110" targetBox="[1463,2053,1163,1576]" targetPageId="3">
 <paragraph blockId="3.[1461,2671,1590,3474]" box="[1466,1866,1905,1938]" pageId="3" pageNumber="110">
 <emphasis bold="true" box="[1466,1866,1905,1938]" pageId="3" pageNumber="110">Subspecies and Distribution.</emphasis>
