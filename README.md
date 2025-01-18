@@ -18,7 +18,7 @@ to do so it uses this [XSLT](https://github.com/plazi/gg2rdf/blob/main/gg2rdf.xs
 ↓\
 The same Github Action uploads the genrated RDF to the [treatments-rdf repository](https://github.com/plazi/treatments-rdf)\
 ↓\
-That repository triggers a Webhook on our server, where PSPS takes in the data and stores it in an internal triplestore.
+That repository triggers a Webhook on our server, where (Turte Hook)[https://github.com/plazi/turtle-hook] takes in the data and stores it in our triplestore.
 (Exposed SPARQL-Endpoint at https://treatment.ld.plazi.org/sparql )\
 ↓\
 PSPS then uploads all this data to lindas, which reloads itself every 24h, from where Synospecies gets its data by default
